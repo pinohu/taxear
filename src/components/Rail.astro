@@ -1,5 +1,6 @@
 ---
 // The authority rail: primary sources, forms, and the verification stamp for a topic page.
+import Stamp from './Stamp.astro';
 const { data } = Astro.props;
 const urlFor = (a) => a.url ?? (
   a.type === 'IRC' ? `https://www.law.cornell.edu/uscode/text/26/${a.ref.replace(/[§\s]/g,'').split('(')[0]}` :
@@ -8,27 +9,22 @@ const urlFor = (a) => a.url ?? (
   a.type === 'Pub' ? `https://www.irs.gov/forms-pubs/about-publication-${a.ref.replace(/\D/g,'')}` :
   a.type === 'Form' ? `https://www.irs.gov/forms-pubs/about-form-${a.ref.toLowerCase().replace(/[^a-z0-9]/g,'-')}` : undefined);
 const label = { IRC:'IRC', Reg:'Treas. Reg.', Circ230:'Circular 230', IRM:'IRM', Pub:'IRS Pub.', Form:'Form', RevProc:'Rev. Proc.', RevRul:'Rev. Rul.', Case:'Case', Notice:'Notice', Statute:'Statute' };
-const published = data.status === 'published';
 ---
 <aside class="rail" aria-label="Authority and verification">
-  <section>
-    <h4>Verification</h4>
-    <div class="stamp">
-      <span class="yr">{data.taxYear ?? '—'}</span>
-      <span>{published ? <span class="ok">Verified</span> : <span class="draft">{data.status.toUpperCase()}</span>}<br/>
-        <small>tax year · reviewed {data.lastReviewed ?? 'pending'}{data.reviewedBy ? ` · ${data.reviewedBy}` : ''}</small></span>
-    </div>
+  <section class="rail-stamp">
+    <h2>Verification</h2>
+    <Stamp data={data} />
   </section>
   {data.authorities.length > 0 && <section>
-    <h4>Primary authority</h4>
+    <h2>Primary authority</h2>
     <ul>{data.authorities.map(a => <li><span class="cite">{urlFor(a) ? <a href={urlFor(a)} rel="noopener">{label[a.type]} {a.ref}</a> : <>{label[a.type]} {a.ref}</>}{a.title && <small>{a.title}</small>}</span></li>)}</ul>
   </section>}
   {data.forms.length > 0 && <section>
-    <h4>Forms</h4>
+    <h2>Forms</h2>
     <ul>{data.forms.map(f => <li><a class="cite" href={`/forms/${f.toLowerCase().replace(/[^a-z0-9]/g,'-')}/`}>Form {f}</a></li>)}</ul>
   </section>}
   <section>
-    <h4>Outline</h4>
+    <h2>Outline</h2>
     <span class="cite">SEE {data.code}</span><br/><small>{data.domain} › {data.section}</small>
   </section>
 </aside>

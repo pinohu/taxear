@@ -1,6 +1,7 @@
 ---
 import Base from '../../layouts/Base.astro';
 import Rail from '../../components/Rail.astro';
+import Stamp from '../../components/Stamp.astro';
 import { getCollection, render } from 'astro:content';
 import { allTopics, idOf, topicByCode } from '../../lib';
 import { checkYourself, answerText } from '../../checkyourself';
@@ -45,7 +46,8 @@ const jsonld = { '@context': 'https://schema.org', '@graph': [article, breadcrum
     <article>
       <p class="eyebrow"><b>{d.domain}</b> · {d.section}</p>
       <h1>{d.title}</h1>
-      {!published && <div class="callout trap"><h4>Not yet verified</h4><p>This page is {d.status === 'stub' ? 'a placeholder' : `in ${d.status}`} and is not indexed. It has not completed the source, currency, and editorial checks in the <a href="/about/">editorial policy</a>.</p></div>}
+      <Stamp data={d} band={true} />
+      {!published && <div class="callout trap"><p class="callout-label">Not yet verified</p><p>This page is {d.status === 'stub' ? 'a placeholder' : `in ${d.status}`} and is not indexed. It has not completed the source, currency, and editorial checks in the <a href="/about/">editorial policy</a>.</p></div>}
       <Content />
       {d.changelog.length > 0 && <section><h2>Change log</h2><ul class="changelog">{d.changelog.map(c => <li><time>{c.date}</time>{c.summary}</li>)}</ul></section>}
       {related.length > 0 && <section><h2>Related topics</h2><ul>{related.map(r => <li><a href={r.path}>{r.title}</a> <span class="eyebrow">{r.code}</span></li>)}</ul></section>}

@@ -3,6 +3,8 @@
   --ink:#0E2340; --ink-deep:#081729; --gold:#C8A24A; --gold-soft:#F3EAD0;
   --paper:#F6F7F9; --surface:#FFFFFF; --text:#24303E; --muted:#5B6875;
   --rule:#D9DEE5; --ok:#2F7A4C; --warn:#A5541B;
+  /* gold reads at 2.25:1 on --paper, so small gold text uses this darker tone (4.7:1) */
+  --gold-text:#8C6A18;
   --f-display:"Source Serif 4",Georgia,"Times New Roman",serif;
   --f-body:"Public Sans",system-ui,-apple-system,"Segoe UI",sans-serif;
   --f-mono:"IBM Plex Mono",ui-monospace,Menlo,Consolas,monospace;
@@ -23,7 +25,7 @@ blockquote{margin:1.2em 0;padding:.6em 1em;border-left:3px solid var(--gold);bac
 hr{border:0;border-top:1px solid var(--rule);margin:2em 0}
 .wrap{max-width:1180px;margin:0 auto;padding:0 var(--gutter)}
 .eyebrow{font-family:var(--f-mono);font-size:12px;letter-spacing:.08em;text-transform:uppercase;color:var(--muted)}
-.eyebrow b{color:var(--gold);font-weight:600}
+.eyebrow b{color:var(--gold-text);font-weight:600}
 .site-head{background:var(--ink);color:#fff;border-bottom:3px solid var(--gold)}
 .site-head .wrap{display:flex;align-items:center;gap:24px;min-height:64px;flex-wrap:wrap}
 .brand{font-family:var(--f-display);font-size:24px;color:#fff;text-decoration:none;letter-spacing:-.01em}
@@ -33,22 +35,23 @@ hr{border:0;border-top:1px solid var(--rule);margin:2em 0}
 .nav a:hover,.nav a[aria-current]{color:#fff;box-shadow:inset 0 -2px 0 var(--gold)}
 .page{display:grid;grid-template-columns:minmax(0,1fr) var(--rail);gap:var(--gutter);padding:40px 0 64px}
 .page > article{min-width:0}
-@media (max-width:900px){.page{grid-template-columns:1fr}.rail{order:-1;position:static}}
+@media (max-width:900px){.page{grid-template-columns:1fr}.rail{position:static}}
 .crumbs{font-size:13px;color:var(--muted);margin:24px 0 8px}
 .crumbs a{color:var(--muted)} .crumbs span{margin:0 .4em}
 .rail{position:sticky;top:20px;align-self:start;font-size:14px}
 .rail section{background:var(--surface);border:1px solid var(--rule);border-top:3px solid var(--gold);padding:14px 16px;margin-bottom:16px}
-.rail h4{font-family:var(--f-mono);font-size:11.5px;letter-spacing:.1em;text-transform:uppercase;color:var(--muted);margin:0 0 10px;font-weight:600}
+.rail h2{font-family:var(--f-mono);font-size:11.5px;letter-spacing:.1em;text-transform:uppercase;color:var(--muted);margin:0 0 10px;font-weight:600}
 .rail ul{list-style:none;margin:0;padding:0} .rail li{padding:5px 0;border-top:1px dashed var(--rule)} .rail li:first-child{border-top:0}
 .cite{font-family:var(--f-mono);font-size:13px;color:var(--ink)} .cite small{display:block;font-family:var(--f-body);color:var(--muted);font-size:12.5px}
 .stamp{display:flex;gap:10px;align-items:baseline;flex-wrap:wrap} .stamp .yr{font-family:var(--f-display);font-size:30px;color:var(--ink);line-height:1}
 .stamp .ok{color:var(--ok);font-weight:600} .stamp .draft{color:var(--warn);font-weight:600}
 .callout{background:var(--surface);border:1px solid var(--rule);border-left:4px solid var(--gold);padding:14px 18px;margin:1.4em 0}
-.callout.trap{border-left-color:var(--warn)} .callout h4{margin:0 0 6px;font-family:var(--f-body);font-size:14px;letter-spacing:.06em;text-transform:uppercase}
+.callout.trap{border-left-color:var(--warn)}
+.callout h4,.callout-label{margin:0 0 6px;font-family:var(--f-body);font-size:14px;letter-spacing:.06em;text-transform:uppercase;color:var(--ink);font-weight:600;max-width:none}
 .figure{font-family:var(--f-mono);background:var(--gold-soft);padding:0 .3em;border-radius:2px;white-space:nowrap}
 .figure sup{font-size:.7em;color:var(--muted)}
 .scenario{counter-increment:scn;border:1px solid var(--rule);background:var(--surface);padding:16px 18px;margin:1.2em 0}
-.scenario h3::before{content:"Scenario " counter(scn);display:block;font-family:var(--f-mono);font-size:12px;letter-spacing:.08em;color:var(--gold);text-transform:uppercase}
+.scenario h3::before{content:"Scenario " counter(scn);display:block;font-family:var(--f-mono);font-size:12px;letter-spacing:.08em;color:var(--gold-text);text-transform:uppercase}
 article{counter-reset:scn}
 .changelog{font-size:.94em} .changelog time{font-family:var(--f-mono);color:var(--muted);margin-right:.8em}
 .grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(280px,1fr));gap:16px;margin:24px 0}
@@ -80,3 +83,18 @@ article{counter-reset:scn}
 .digest-row button:hover{background:var(--ink-deep);border-color:var(--gold)}
 .digest .digest-note{font-size:12.5px;margin:10px 0 0}
 @media (prefers-reduced-motion:no-preference){.digest-row button{transition:background-color .15s,border-color .15s}}
+
+/* Verification band: the stamp above the article on narrow screens, where the rail
+   (and its authority list) sits below the content instead of in front of it */
+.stamp-band{display:none}
+@media (max-width:900px){
+  .stamp-band{display:flex;gap:10px;align-items:baseline;flex-wrap:wrap;
+    background:var(--surface);border:1px solid var(--rule);border-top:3px solid var(--gold);
+    padding:12px 16px;margin:0 0 1.4em}
+  .stamp-band .eyebrow{flex:1 0 100%;margin:0}
+  .stamp-band .yr{font-family:var(--f-display);font-size:26px;color:var(--ink);line-height:1}
+  .stamp-band .ok{color:var(--ok);font-weight:600}
+  .stamp-band .draft{color:var(--warn);font-weight:600}
+  .stamp-band small{color:var(--muted)}
+  .rail-stamp{display:none}
+}
