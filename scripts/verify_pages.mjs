@@ -128,8 +128,12 @@ for (const p of gated) {
     if (r === code) err(file, 'related[] lists the page itself');
     else if (!outlineTopics.has(r)) err(file, `related code ${r} is not in the SEE outline`);
   }
+  // A page at `review` may cite a form whose directory entry is still to be written;
+  // by `published` the entry has to exist so the link is not a dead end.
   for (const f of list(fm, 'forms')) {
-    if (!formFiles.has(formSlug(f))) err(file, `forms[] lists ${f} with no page at src/content/forms/${formSlug(f)}.md`);
+    if (formFiles.has(formSlug(f))) continue;
+    const msg = `forms[] lists ${f} with no page at src/content/forms/${formSlug(f)}.md`;
+    p.status === 'published' ? err(file, msg) : warn(file, msg);
   }
 }
 
