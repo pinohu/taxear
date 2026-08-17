@@ -144,7 +144,27 @@ Name the provider and the endpoint goes in `PUBLIC_DIGEST_ENDPOINT`; nothing els
 Whichever is chosen, keep double opt-in on and confirm the provider's privacy statement
 matches what `/about/` says.
 
-## 7. Post-launch checks
+## 7. Outstanding: self-host the fonts
+
+Measured on the exemplar topic page, desktop Lighthouse: accessibility 100, SEO 100,
+performance 90, best practices 96. Removing the `fonts.googleapis.com` stylesheet and
+changing nothing else takes the same page to **100 in all four categories** — that one
+render-blocking third-party request is the entire gap.
+
+The fix is to self-host the three families rather than to drop them:
+
+1. Fetch the woff2 files for Source Serif 4, Public Sans, and IBM Plex Mono
+   (weights actually used: 500/600 serif, 400/600 sans, 400/600 mono).
+2. Put them in `public/fonts/`, add `@font-face` rules with `font-display:swap` to
+   `src/styles/global.css`, and add `<link rel="preload" as="font" type="font/woff2"
+   crossorigin>` for the two faces used above the fold.
+3. Delete the `preconnect` and stylesheet `<link>` tags from `src/layouts/Base.astro`.
+4. Re-run Lighthouse and confirm 95+ before deploying.
+
+This also removes the only third-party request the site makes, which matches what
+`/about/` says about not loading trackers.
+
+## 8. Post-launch checks
 
 ```sh
 npm run build && npm run verify       # never deploy a red tree
