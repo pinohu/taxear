@@ -1,0 +1,26 @@
+---
+// Email capture for the "what changed this year" digest. One field, no tracking.
+//
+// The endpoint is whatever provider the owner picks; set PUBLIC_DIGEST_ENDPOINT in the
+// Cloudflare Pages build settings (see docs/LAUNCH.md). Until it is set the form is not
+// rendered at all, so the site never ships a field that silently drops addresses.
+const endpoint = import.meta.env.PUBLIC_DIGEST_ENDPOINT;
+---
+{endpoint && (
+  <section class="digest" aria-labelledby="digest-h">
+    <h2 id="digest-h">What changed this year</h2>
+    <p>
+      One email when the figures and rules on this site are updated for a new tax year, or when
+      legislation changes something material. No other mail, and the list is not shared.
+    </p>
+    <form class="digest-form" action={endpoint} method="post">
+      <label for="digest-email">Email address</label>
+      <div class="digest-row">
+        <input id="digest-email" type="email" name="email" required autocomplete="email"
+               placeholder="you@firm.com" spellcheck="false" />
+        <button type="submit">Subscribe</button>
+      </div>
+      <p class="digest-note">Unsubscribe in one click. See the <a href="/about/">editorial policy</a>.</p>
+    </form>
+  </section>
+)}
