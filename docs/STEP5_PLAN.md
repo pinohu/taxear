@@ -79,6 +79,26 @@ Reading question text was refused by the sandbox's content classifier in this
 environment, so no test-case check has been run yet and `private/discrepancies.md` does
 not exist.
 
+## Still open after this pass
+
+Everything that does not need a source is done. What is left, and why:
+
+| Item | Blocked on | Where |
+|---|---|---|
+| The ten pages, and every page after them | Source access | This document |
+| `figures.json` — 28 keys, all `verified: null` | Source access | `docs/ANNUAL_REFRESH.md` §2 for the procedure |
+| Form and notice directory entries | Source access — official titles and URLs | Above |
+| §4 test-case checks, `private/discrepancies.md` | Sandbox refuses to read the bank's text | IDs listed above |
+| Glossary at `/glossary/` (Step 6) | Source access — the definitions are the page | Not started; no empty page was created |
+| Self-hosted fonts | Cannot fetch woff2 files from here | `docs/LAUNCH.md` §7 |
+| `/ea-exam/` format details | Source access — current candidate bulletin | Below |
+| Cloudflare, DNS, search console, analytics, email provider | Owner's accounts | `docs/LAUNCH.md` |
+
+The glossary was left unstarted rather than scaffolded empty: its value is entirely in
+sourced definitions, and a linked page with no terms is worse than no page. Build it in
+the same session as the first batch, so terms can be lifted from pages as they are
+written and linked both ways.
+
 ## Notes for the review gate
 
 - The Step 5 brief has 3.1.4.a and 3.1.4.b the other way round: in the outline `.a` is
