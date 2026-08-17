@@ -21,6 +21,9 @@ jobs:
 
       - run: npm ci
 
+      # Parsers and rule tables the verifier and structured data depend on.
+      - run: npm test
+
       # Content schema, figure tokens, every page.
       - run: npm run build
 

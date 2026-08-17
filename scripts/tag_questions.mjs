@@ -10,13 +10,9 @@
 //   npm run tag -- --code 3.2.6.a   list the IDs mapped to one outline code
 //   npm run tag -- --report     coverage per outline code
 import fs from 'node:fs';
+import { pathToFileURL } from 'node:url';
 
 const BANK = 'private/questions.json';
-if (!fs.existsSync(BANK)) {
-  console.log(`tag: ${BANK} not found. It is gitignored on purpose — ask the owner for it.`);
-  process.exit(1);
-}
-
 const args = process.argv.slice(2);
 const flag = n => args.includes(n);
 const valueOf = n => { const i = args.indexOf(n); return i === -1 ? null : args[i + 1]; };
@@ -149,10 +145,11 @@ const RULES = [
   ['3.1.1.a', /\bconstitutes practice before|practice before the (?:irs|internal revenue service)\b/i],
 ];
 
-const bank = JSON.parse(fs.readFileSync(BANK, 'utf8'));
 const partOf = code => Number(code.split('.')[0]);
 
-function classify(q) {
+// Exported for the tests, which exercise the rules with invented text. Never feed bank
+// text into a test fixture.
+export function classify(q) {
   const text = `${q.stem} ${Object.values(q.choices ?? {}).join(' ')} ${q.explanation ?? ''}`;
   for (const [code, re] of RULES) {
     if (partOf(code) !== q.part) continue;      // never tag across exam parts
@@ -162,8 +159,21 @@ function classify(q) {
 }
 
 // A rule pointing at a code that is not in the outline would write a tag no page can
-// ever claim, so fail rather than warn.
-const bogus = RULES.map(([c]) => c).filter(c => !validCodes.has(c));
+// ever claim.
+export const bogusRuleCodes = () => RULES.map(([c]) => c).filter(c => !validCodes.has(c));
+
+// Everything below runs only when invoked as a command, so importing this module for
+// tests neither reads the bank nor exits the process.
+const isMain = process.argv[1] && import.meta.url === pathToFileURL(process.argv[1]).href;
+if (!isMain) { /* imported: expose the rules only */ } else {
+
+if (!fs.existsSync(BANK)) {
+  console.log(`tag: ${BANK} not found. It is gitignored on purpose — ask the owner for it.`);
+  process.exit(1);
+}
+const bank = JSON.parse(fs.readFileSync(BANK, 'utf8'));
+
+const bogus = bogusRuleCodes();
 if (bogus.length) { console.log(`tag: rules target codes that are not in the outline: ${bogus.join(', ')}`); process.exit(1); }
 
 if (valueOf('--code')) {
@@ -197,3 +207,5 @@ fs.writeFileSync(BANK, JSON.stringify(bank, null, 2) + '\n');
 const total = bank.questions.filter(q => q.topic_code).length;
 console.log(`tag: placed ${tagged} question(s) (${changed} changed); ${total}/${bank.questions.length} now carry a topic_code`);
 console.log('tag: review the tags for any page you are authoring — the rules are a first pass, not a verdict.');
+
+}

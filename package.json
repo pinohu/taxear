@@ -11,7 +11,8 @@
     "scaffold": "node scripts/scaffold_topics.mjs",
     "verify": "node scripts/verify_pages.mjs",
     "progress": "node scripts/progress.mjs",
-    "tag": "node scripts/tag_questions.mjs"
+    "tag": "node scripts/tag_questions.mjs",
+    "test": "node --test --experimental-strip-types \"test/*.test.mjs\""
   },
   "dependencies": {
     "astro": "^5.12.0",
