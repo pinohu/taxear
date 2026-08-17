@@ -56,7 +56,7 @@ article{counter-reset:scn}
 .changelog{font-size:.94em} .changelog time{font-family:var(--f-mono);color:var(--muted);margin-right:.8em}
 .grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(280px,1fr));gap:16px;margin:24px 0}
 .card{background:var(--surface);border:1px solid var(--rule);padding:18px 20px;text-decoration:none;color:inherit;display:block}
-.card:hover{border-color:var(--gold)} .card h3{margin:.2em 0 .3em;font-size:18px} .card p{color:var(--muted);font-size:14.5px;margin:0}
+.card:hover{border-color:var(--gold)} .card h3,.card h2{margin:.2em 0 .3em;font-size:18px} .card p{color:var(--muted);font-size:14.5px;margin:0}
 .card .eyebrow{margin-bottom:4px}
 .toc{list-style:none;padding:0;margin:0} .toc li{padding:8px 0;border-bottom:1px solid var(--rule);display:flex;gap:12px;align-items:baseline;max-width:none}
 .toc .code{font-family:var(--f-mono);font-size:12.5px;color:var(--muted);min-width:5.5em}
