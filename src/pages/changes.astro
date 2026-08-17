@@ -1,0 +1,14 @@
+---
+import Base from '../layouts/Base.astro';
+import { getCollection } from 'astro:content';
+import { topicByCode } from '../lib';
+const entries = await getCollection('topics', e => e.data.changelog.length > 0);
+const log = entries.flatMap(e => e.data.changelog.map(c => ({ ...c, title: e.data.title, path: topicByCode(e.data.code)?.path }))).sort((a,b) => b.date.localeCompare(a.date));
+---
+<Base title="What changed this year" description="A running, dated log of federal tax law and IRS procedure changes across TaxEar topics.">
+  <p class="crumbs"><a href="/">TaxEar</a><span>›</span>Changes</p>
+  <h1>What changed</h1>
+  <p>Every material change recorded on a topic page appears here, newest first.</p>
+  <ul class="changelog">{log.map(c => <li><time>{c.date}</time><a href={c.path}>{c.title}</a>: {c.summary}</li>)}</ul>
+  {log.length === 0 && <p>No entries yet.</p>}
+</Base>

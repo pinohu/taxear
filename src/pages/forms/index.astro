@@ -1,0 +1,10 @@
+---
+import Base from '../../layouts/Base.astro';
+import { getCollection } from 'astro:content';
+const items = (await getCollection('forms')).sort((a,b) => a.data.number.localeCompare(b.data.number, undefined, {numeric:true}));
+---
+<Base title="IRS Forms" description="Directory of IRS Forms referenced across TaxEar, each linked to the topics that use it.">
+  <p class="crumbs"><a href="/">TaxEar</a><span>›</span>IRS Forms</p>
+  <h1>IRS Forms</h1>
+  <ul class="toc">{items.map(i => <li><span class="code">{i.data.number}</span>{i.data.status === 'published' ? <a href={`/forms/${i.id.replace(/\.md$/,'')}/`}>{i.data.title}</a> : <span>{i.data.title}</span>}<span class={`badge ${i.data.status}`}>{i.data.status === 'published' ? 'published' : 'in progress'}</span></li>)}</ul>
+</Base>

@@ -1,0 +1,35 @@
+---
+import Base from '../../layouts/Base.astro';
+import Rail from '../../components/Rail.astro';
+import { getCollection, render } from 'astro:content';
+import { allTopics, idOf, topicByCode } from '../../lib';
+export async function getStaticPaths() {
+  const entries = await getCollection('topics');
+  return entries.map(entry => {
+    const t = allTopics.find(x => idOf(x) === entry.id.replace(/\.md$/, ''));
+    if (!t) return null;
+    return { params: { part: t.part.slug, rest: `${t.domain.slug}/${t.section.slug}/${t.slug}` }, props: { entry, t } };
+  }).filter(Boolean);
+}
+const { entry, t } = Astro.props;
+const { Content } = await render(entry);
+const d = entry.data; const published = d.status === 'published';
+const related = d.related.map(topicByCode).filter(Boolean);
+const jsonld = { '@context': 'https://schema.org', '@type': 'Article', headline: d.title, description: d.description,
+  dateModified: d.lastReviewed, author: { '@type': 'Organization', name: 'TaxEar' }, isPartOf: { '@type': 'WebSite', name: 'TaxEar', url: 'https://taxear.com/' },
+  about: `IRS SEE outline ${d.code}` };
+---
+<Base title={d.title} description={d.description} noindex={!published} jsonld={jsonld}>
+  <p class="crumbs"><a href="/">TaxEar</a><span>›</span><a href={`/${t.part.slug}/`}>Part {t.part.part}</a><span>›</span><a href={`/${t.part.slug}/#${t.section.slug}`}>{t.section.title}</a></p>
+  <div class="page">
+    <article>
+      <p class="eyebrow"><b>{d.domain}</b> · {d.section}</p>
+      <h1>{d.title}</h1>
+      {!published && <div class="callout trap"><h4>Not yet verified</h4><p>This page is {d.status === 'stub' ? 'a placeholder' : `in ${d.status}`} and is not indexed. It has not completed the source, currency, and editorial checks in the <a href="/about/">editorial policy</a>.</p></div>}
+      <Content />
+      {d.changelog.length > 0 && <section><h2>Change log</h2><ul class="changelog">{d.changelog.map(c => <li><time>{c.date}</time>{c.summary}</li>)}</ul></section>}
+      {related.length > 0 && <section><h2>Related topics</h2><ul>{related.map(r => <li><a href={r.path}>{r.title}</a> <span class="eyebrow">{r.code}</span></li>)}</ul></section>}
+    </article>
+    <Rail data={d} />
+  </div>
+</Base>

@@ -1,0 +1,23 @@
+---
+import Base from '../layouts/Base.astro';
+import { parts } from '../lib';
+import { getCollection } from 'astro:content';
+const entries = await getCollection('topics');
+const pub = entries.filter(e => e.data.status === 'published');
+const count = (n: number) => pub.filter(e => e.data.part === n).length;
+const total = (p) => p.domains.reduce((a, d) => a + d.sections.reduce((b, s) => b + s.topics.length, 0), 0);
+---
+<Base title="Federal tax law and IRS procedure, cited and verified" description="TaxEar explains every topic on the IRS Enrolled Agent exam outline from primary sources: Internal Revenue Code, regulations, and IRS guidance, with worked scenarios and verification dates.">
+  <section class="hero">
+    <p class="eyebrow"><b>Reference</b> · organized by the IRS SEE content outline</p>
+    <h1>Tax law and IRS procedure, explained from the source and dated.</h1>
+    <div class="lede-rule"></div>
+    <p>Each page states the rule, cites the Code section or regulation behind it, works through realistic scenarios, flags the traps practitioners hit, and shows the tax year it was verified for. Built for Enrolled Agent candidates and the people who represent taxpayers.</p>
+  </section>
+  <div class="grid">
+    {parts.map(p => <a class="card" href={`/${p.slug}/`}><p class="eyebrow">Part {p.part} · {count(p.part)} of {total(p)} topics published</p><h3>{p.name}</h3><p>{p.domains.map(d => d.title).join(' · ')}</p></a>)}
+    <a class="card" href="/notices/"><p class="eyebrow">Directory</p><h3>IRS notices &amp; letters</h3><p>What each notice means, the deadline it starts, and what to do.</p></a>
+    <a class="card" href="/forms/"><p class="eyebrow">Directory</p><h3>Forms</h3><p>Every form the outline references, linked to the topics that use it.</p></a>
+    <a class="card" href="/ea-exam/"><p class="eyebrow">Guide</p><h3>The Enrolled Agent exam</h3><p>Format, scoring, scheduling, and how this site maps to it.</p></a>
+  </div>
+</Base>

@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://taxear.com/sitemap-index.xml

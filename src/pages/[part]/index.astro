@@ -1,0 +1,19 @@
+---
+import Base from '../../layouts/Base.astro';
+import { parts } from '../../lib';
+import { getCollection } from 'astro:content';
+export function getStaticPaths() { return parts.map(p => ({ params: { part: p.slug }, props: { p } })); }
+const { p } = Astro.props;
+const entries = await getCollection('topics', e => e.data.part === p.part);
+const status = (code) => entries.find(e => e.data.code === code)?.data.status ?? 'stub';
+---
+<Base title={`Part ${p.part}: ${p.name}`} description={`Every topic in Part ${p.part} of the IRS Special Enrollment Examination outline (${p.name}), explained from primary authority.`}>
+  <p class="crumbs"><a href="/">TaxEar</a><span>›</span>Part {p.part}</p>
+  <h1>Part {p.part}: {p.name}</h1>
+  <p>The IRS outline for this part has {p.domains.length} domains. Each topic below is a page; those marked published have been written from primary sources and verified.</p>
+  {p.domains.map(d => <section><h2>{d.code} {d.title}</h2>
+    {d.sections.map(s => <><h3 id={s.slug}>{s.code} {s.title}</h3><ul class="toc">
+      {s.topics.map(t => <li><span class="code">{t.code}</span>{status(t.code) === 'published' ? <a href={t.path}>{t.title}</a> : <span>{t.title}</span>}<span class={`badge ${status(t.code)}`}>{status(t.code) === 'published' ? 'published' : 'in progress'}</span></li>)}
+    </ul></>)}
+  </section>)}
+</Base>

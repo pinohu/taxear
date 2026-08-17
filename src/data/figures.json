@@ -1,0 +1,162 @@
+{
+  "_readme": "SINGLE SOURCE OF TRUTH for tax-year figures. Pages reference keys via <Figure id=\"...\"/>. Update here each fall when the IRS releases inflation adjustments; every page updates. Each entry: value, taxYear, source (Rev. Proc. / IRC / IRS page), verified (date).",
+  "taxYear": 2026,
+  "figures": {
+    "oic.application_fee": {
+      "value": "$205",
+      "taxYear": 2026,
+      "source": "Form 656 instructions",
+      "verified": null
+    },
+    "ia.setup_fee.online_directdebit": {
+      "value": "$22",
+      "taxYear": 2026,
+      "source": "IRS Payment Plans page; Reg. \u00a7 300.1",
+      "verified": null
+    },
+    "ia.setup_fee.online_other": {
+      "value": "$69",
+      "taxYear": 2026,
+      "source": "IRS Payment Plans page; Reg. \u00a7 300.1",
+      "verified": null
+    },
+    "ia.setup_fee.phone_mail_directdebit": {
+      "value": "$107",
+      "taxYear": 2026,
+      "source": "Reg. \u00a7 300.1",
+      "verified": null
+    },
+    "ia.setup_fee.phone_mail_other": {
+      "value": "$178",
+      "taxYear": 2026,
+      "source": "Reg. \u00a7 300.1",
+      "verified": null
+    },
+    "ia.setup_fee.lowincome": {
+      "value": "$43 (waived/reimbursed for direct debit)",
+      "taxYear": 2026,
+      "source": "IRC \u00a7 6159(f); Reg. \u00a7 300.1",
+      "verified": null
+    },
+    "ia.streamlined.threshold": {
+      "value": "$50,000 combined tax, penalties, interest",
+      "taxYear": 2026,
+      "source": "IRM 5.14.5",
+      "verified": null
+    },
+    "ia.streamlined.term_months": {
+      "value": "72",
+      "taxYear": 2026,
+      "source": "IRM 5.14.5",
+      "verified": null
+    },
+    "penalty.ftf.rate": {
+      "value": "5% per month, max 25%",
+      "taxYear": 2026,
+      "source": "IRC \u00a7 6651(a)(1)",
+      "verified": null
+    },
+    "penalty.ftp.rate": {
+      "value": "0.5% per month, max 25%",
+      "taxYear": 2026,
+      "source": "IRC \u00a7 6651(a)(2)",
+      "verified": null
+    },
+    "penalty.ftf.minimum": {
+      "value": "lesser of $525 or 100% of tax due (returns due in 2026)",
+      "taxYear": 2026,
+      "source": "IRC \u00a7 6651(a); Rev. Proc. 2025-32",
+      "verified": null
+    },
+    "penalty.accuracy.rate": {
+      "value": "20% of underpayment",
+      "taxYear": 2026,
+      "source": "IRC \u00a7 6662(a)",
+      "verified": null
+    },
+    "penalty.fraud.rate": {
+      "value": "75% of underpayment",
+      "taxYear": 2026,
+      "source": "IRC \u00a7 6663(a)",
+      "verified": null
+    },
+    "preparer.6694a": {
+      "value": "greater of $1,000 or 50% of income derived",
+      "taxYear": 2026,
+      "source": "IRC \u00a7 6694(a)",
+      "verified": null
+    },
+    "preparer.6694b": {
+      "value": "greater of $5,000 or 75% of income derived",
+      "taxYear": 2026,
+      "source": "IRC \u00a7 6694(b)",
+      "verified": null
+    },
+    "sol.assessment.general": {
+      "value": "3 years from the later of the due date or the date filed",
+      "taxYear": 2026,
+      "source": "IRC \u00a7 6501(a)",
+      "verified": "2026-08-17"
+    },
+    "sol.assessment.substantial_omission": {
+      "value": "6 years (omission > 25% of gross income)",
+      "taxYear": 2026,
+      "source": "IRC \u00a7 6501(e)",
+      "verified": "2026-08-17"
+    },
+    "sol.assessment.fraud_no_return": {
+      "value": "no limit",
+      "taxYear": 2026,
+      "source": "IRC \u00a7 6501(c)(1)-(3)",
+      "verified": "2026-08-17"
+    },
+    "sol.refund.general": {
+      "value": "later of 3 years from filing or 2 years from payment",
+      "taxYear": 2026,
+      "source": "IRC \u00a7 6511(a)",
+      "verified": "2026-08-17"
+    },
+    "sol.collection": {
+      "value": "10 years from assessment",
+      "taxYear": 2026,
+      "source": "IRC \u00a7 6502(a)",
+      "verified": "2026-08-17"
+    },
+    "cdp.response_days": {
+      "value": "30 days",
+      "taxYear": 2026,
+      "source": "IRC \u00a7 6320(a)(3), \u00a7 6330(a)(3)",
+      "verified": null
+    },
+    "records.general_retention": {
+      "value": "3 years",
+      "taxYear": 2026,
+      "source": "IRS Pub 583; IRC \u00a7 6001",
+      "verified": null
+    },
+    "preparer.records_retention_6107": {
+      "value": "3 years after the return period",
+      "taxYear": 2026,
+      "source": "IRC \u00a7 6107(b)",
+      "verified": null
+    },
+    "efile.mandate_threshold": {
+      "value": "11 or more covered returns in the calendar year",
+      "taxYear": 2026,
+      "source": "IRC \u00a7 6011(e); Reg. \u00a7 301.6011-7",
+      "verified": null
+    },
+    "ea.ce.hours_per_cycle": {
+      "value": "72 hours per 3-year cycle, min 16 per year incl. 2 ethics",
+      "taxYear": 2026,
+      "source": "Circular 230 \u00a7 10.6(e)",
+      "verified": null
+    },
+    "ptin.fee": {
+      "value": "$18.75 ($11 fee + $7.75 contractor)",
+      "taxYear": 2026,
+      "source": "Reg. \u00a7 300.12; IRS PTIN page",
+      "verified": null
+    }
+  }
+}

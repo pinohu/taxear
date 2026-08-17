@@ -1,0 +1,15 @@
+---
+import Base from '../../layouts/Base.astro';
+import { getCollection, render } from 'astro:content';
+import { topicByCode } from '../../lib';
+export async function getStaticPaths() { return (await getCollection('notices')).map(e => ({ params: { id: e.id.replace(/\.md$/,'') }, props: { e } })); }
+const { e } = Astro.props; const { Content } = await render(e); const d = e.data;
+const related = d.topics.map(topicByCode).filter(Boolean);
+---
+<Base title={`${d.number}: ${d.title}`} description={d.description} noindex={d.status !== 'published'}>
+  <p class="crumbs"><a href="/">TaxEar</a><span>›</span><a href="/notices/">IRS Notices & Letters</a></p>
+  <div class="page"><article><p class="eyebrow"><b>{d.number}</b></p><h1>{d.title}</h1><Content />
+    {related.length > 0 && <section><h2>Topics that use this</h2><ul>{related.map(r => <li><a href={r.path}>{r.title}</a></li>)}</ul></section>}
+  </article>
+  <aside class="rail"><section><h4>Verification</h4><div class="stamp"><span class="yr">{d.status === 'published' ? '✓' : '—'}</span><span>{d.status}<br/><small>reviewed {d.lastReviewed ?? 'pending'}</small></span></div></section></aside></div>
+</Base>
