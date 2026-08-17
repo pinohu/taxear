@@ -11,5 +11,5 @@ const related = d.topics.map(topicByCode).filter(Boolean);
   <div class="page"><article><p class="eyebrow"><b>{d.number}</b></p><h1>{d.title}</h1><Content />
     {related.length > 0 && <section><h2>Topics that use this</h2><ul>{related.map(r => <li><a href={r.path}>{r.title}</a></li>)}</ul></section>}
   </article>
-  <aside class="rail"><section><h4>Verification</h4><div class="stamp"><span class="yr">{d.status === 'published' ? '✓' : '—'}</span><span>{d.status}<br/><small>reviewed {d.lastReviewed ?? 'pending'}</small></span></div></section></aside></div>
+  <aside class="rail"><section><h2>Verification</h2><div class="stamp"><span class="yr">{d.status === 'published' ? '✓' : '—'}</span><span>{d.status}<br/><small>reviewed {d.lastReviewed ?? 'pending'}</small></span></div></section></aside></div>
 </Base>
