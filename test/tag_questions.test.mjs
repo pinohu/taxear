@@ -27,6 +27,17 @@ test('collection-process topics are distinguished from each other', () => {
   assert.equal(classify(q(3, 'The trust fund recovery penalty under section 6672 applies to whom?')), '3.3.1.n');
 });
 
+test('a form number does not outrank the subject the question is actually about', () => {
+  // A CP2000 question mentioning an amended return is about the notice, not about 1040-X.
+  assert.equal(classify(q(3, 'A taxpayer receives a CP2000. Is filing an amended return on Form 1040-X required?')), '3.3.3.g');
+  // Preparer due diligence on credits and filing status is 3.1.4.g, not the general
+  // Circular 230 due-diligence item.
+  assert.equal(classify(q(3, 'When must Form 8867, the paid preparer due diligence checklist, be filed?')), '3.1.4.g');
+  assert.equal(classify(q(3, 'Due diligence requirements for claiming the EIC and HOH filing status')), '3.1.4.g');
+  // ...while a due-diligence question with no credit or filing-status hook stays put.
+  assert.equal(classify(q(3, 'What due diligence must a practitioner exercise in preparing a return?')), '3.1.2.f');
+});
+
 test('rules never tag across exam parts', () => {
   // the same subject in a Part 1 question must not receive a Part 3 code
   assert.equal(classify(q(1, 'What is the statute of limitations on a claim for refund?')), null);

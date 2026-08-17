@@ -24,7 +24,7 @@ Unblock by allowing those hosts for the environment, then work this list.
 
 | # | Codes | Page | Open first | Needs |
 |---|---|---|---|---|
-| 1 | 3.2.6.a | `representation/.../related-issues/statute-of-limitations` — exists at `review` | IRC §§ 6501, 6502, 6511, 6513, 6503, 6532; Reg. § 301.6501(c)-1; IRM 25.6.1 | Re-verify every citation; confirm the § 6501(e)(1)(B) basis-overstatement amendment; 5 figure keys |
+| 1 | 3.2.6.a | `representation/.../related-issues/statute-of-limitations` — exists at `review` | IRC §§ 6501, 6502, 6511, 6513, 6503, 6532; **§ 6511(d), §§ 7508, 7508A**; Reg. § 301.6501(c)-1; IRM 25.6.1, 5.16.1 | Re-verify every citation; confirm the § 6501(e)(1)(B) basis-overstatement amendment; 5 figure keys. **Three content gaps found by the §4 check — see `private/discrepancies.md`**: the § 6511(d) special refund periods are missing entirely, currently-not-collectible is never mentioned, and the § 6330(e)(1) tail may be missing |
 | 2 | 3.1.1.a, 3.1.1.b | practice before the IRS · who may practice | Circular 230 §§ 10.2, 10.3, 10.7, 10.8; Pub. 947 | Confirm current AFSP limits on unenrolled preparers |
 | 3 | 3.2.1.a–d | power of attorney: purpose, signature authority, authority granted, limits on signing | IRC §§ 6061, 6064, 6012; Reg. § 1.6012-1(a)(5); Circular 230 § 10.3(e); Form 2848 and its instructions; Pub. 947 | 3.2.1.a as hub. Form 2848 vs 8821 must be crisp; 8821 grants inspection only |
 | 4 | 3.3.1.b | installment agreements | IRC § 6159; Reg. § 300.1; IRM 5.14.1, 5.14.5; Form 9465 | 6 fee/threshold figure keys, all unverified |
@@ -75,9 +75,15 @@ limitations page should be checked against **P3E2Q543, P3E2Q544** (tagged 3.3.1.
 **P1E1Q001, P1E1Q017, P1E1Q097, P1E2Q101, P1E2Q102** — the tagger never assigns a Part 3
 code to a Part 1 question, but the subject is the same and the page has to answer them.
 
-Reading question text was refused by the sandbox's content classifier in this
-environment, so no test-case check has been run yet and `private/discrepancies.md` does
-not exist.
+The §4 check has been run for 3.2.6.a; results, page gaps, bank problems, and two
+corrected mis-tags are in `private/discrepancies.md` (gitignored). The remaining nine
+pages get the same treatment as each is written.
+
+Two mis-tags surfaced during that check, both caused by a rule matching a form number
+instead of the question's subject: a CP2000 question landed on the amended-return topic,
+and the Form 8867 question landed on general Circular 230 due diligence. Rules reordered
+and pinned with tests. Expect more of this — read the tags for a page before trusting
+them, and correct the rules rather than the tags so the fix sticks.
 
 ## Still open after this pass
 
@@ -88,7 +94,7 @@ Everything that does not need a source is done. What is left, and why:
 | The ten pages, and every page after them | Source access | This document |
 | `figures.json` — 28 keys, all `verified: null` | Source access | `docs/ANNUAL_REFRESH.md` §2 for the procedure |
 | Form and notice directory entries | Source access — official titles and URLs | Above |
-| §4 test-case checks, `private/discrepancies.md` | Sandbox refuses to read the bank's text | IDs listed above |
+| §4 test-case checks for the other nine pages | Nothing — the bank is readable; do it as each page is written | IDs listed above; log to `private/discrepancies.md` |
 | Glossary at `/glossary/` (Step 6) | Source access — the definitions are the page | Not started; no empty page was created |
 | Self-hosted fonts | Cannot fetch woff2 files from here | `docs/LAUNCH.md` §7 |
 | `/ea-exam/` format details | Source access — current candidate bulletin | Below |

@@ -28,6 +28,12 @@ const titleOf = new Map(outline.parts.flatMap(p => p.domains.flatMap(d => d.sect
 const RULES = [
   // 3.1.1 practice before the IRS
   ['3.1.1.b', /\b(unenrolled|annual filing season program|afsp|limited practice|who may (?:practice|represent)|practice privileges|attorney,? cpa,? (?:and|or) enrolled agent)\b/i],
+  // Preparer due diligence on credits and filing status sits in 3.1.4.g, so it has to be
+  // tested before the general Circular 230 due-diligence rule below.
+  ['3.1.4.g', /\b8867\b|\b(refundable credit|head of household|hoh|eic|eitc|ctc|actc|aotc)\b.{0,60}due diligence|due diligence.{0,60}\b(refundable credit|head of household|hoh|eic|eitc)\b/i],
+  // A notice question that happens to mention an amended return is about the notice, so
+  // the CP2000 rule outranks the amended-return rule further down.
+  ['3.3.3.g', /\bcp-?2000\b|correspondence audit/i],
   // 3.1.2 Circular 230 duties
   ['3.1.2.o', /\bptin\b|preparer tax identification number/i],
   ['3.1.2.j', /\bcontinuing (?:education|professional education)\b|\bce (?:credit|hours|requirement)/i],
@@ -50,7 +56,6 @@ const RULES = [
   ['3.1.3.c', /\bfrivolous\b/i],
   ['3.1.3.d', /\bbadges of fraud\b/i],
   // 3.1.4 preparer penalties
-  ['3.1.4.g', /\b(refundable credit|head of household).{0,40}due diligence|8867/i],
   ['3.1.4.a', /\bpreparer penalt\w*.{0,40}(appeal|assess)|assessment and appeal/i],
   ['3.1.4.c', /\bfurnish\w* a copy\b/i],
   ['3.1.4.d', /\bsign\w* (?:the )?return\b.{0,60}(preparer|identifying number)/i],
@@ -109,7 +114,6 @@ const RULES = [
   ['3.3.2.b', /\bfirst-?time abate\w*|\bfta\b|reasonable cause/i],
   ['3.3.2.a', /\b(penalt\w*).{0,30}abat|abat\w*.{0,30}penalt/i],
   // 3.3.3 audits and examinations
-  ['3.3.3.g', /\bcp-?2000\b|correspondence audit/i],
   ['3.3.3.f', /\brevenue agent'?s? report\b|\brar\b|\b30-?day letter\b/i],
   ['3.3.3.b', /\b7525\b|practitioner privilege|federally authorized tax practitioner/i],
   ['3.3.3.i', /\bburden of proof\b|\b7491\b/i],
