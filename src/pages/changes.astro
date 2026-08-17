@@ -2,7 +2,10 @@
 import Base from '../layouts/Base.astro';
 import { getCollection } from 'astro:content';
 import { topicByCode } from '../lib';
-const entries = await getCollection('topics', e => e.data.changelog.length > 0);
+// Published pages only: this page is indexed and is what the digest summarises, so a
+// draft's "initial draft" entry must not appear here, and no link may point at a
+// noindexed page.
+const entries = await getCollection('topics', e => e.data.status === 'published' && e.data.changelog.length > 0);
 const log = entries.flatMap(e => e.data.changelog.map(c => ({ ...c, title: e.data.title, path: topicByCode(e.data.code)?.path }))).sort((a,b) => b.date.localeCompare(a.date));
 ---
 <Base title="What changed this year" description="A running, dated log of federal tax law and IRS procedure changes across TaxEar topics.">
