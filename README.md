@@ -11,6 +11,11 @@ content outline. Astro static site, deployed on Cloudflare Pages.
 - `private/` — gitignored. Third-party question bank used only as QA test cases (`docs/VERIFICATION.md` §4). Never publish, never commit.
 - `docs/` — page template, verification checklist, progress table, launch runbook, annual refresh.
 
+## Working on this
+`CLAUDE.md` carries the rules a session needs; `docs/LOCAL_SETUP.md` gets a clone running
+and explains where the gitignored question bank goes. Content work must happen where
+irs.gov and law.cornell.edu are reachable — see that file for why.
+
 ## Commands
 - `npm install` · `npm run dev` · `npm run build` (output in `dist/`)
 - `npm test` — unit tests for the page parsers, tag rules, and sitemap filter
@@ -35,4 +40,4 @@ and is excluded from the sitemap. Change status only after the checklist in `doc
 ## Deploy (Cloudflare Pages)
 Build command `npm run build`, output directory `dist`, Node 22 (pinned in `.nvmrc`).
 Full runbook, including the DNS records and search-console setup: `docs/LAUNCH.md`.
-Annual figures refresh: `docs/ANNUAL_REFRESH.md`.
+Annual figures refresh: `docs/ANNUAL_REFRESH.md`. Current work order: `docs/STEP5_PLAN.md`.
