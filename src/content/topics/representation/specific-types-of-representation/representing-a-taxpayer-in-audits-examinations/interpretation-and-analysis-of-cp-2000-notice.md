@@ -15,7 +15,7 @@ authorities:
   - { type: Pub, ref: "5181", title: "Tax Return Reviews by Mail — CP2000, Letter 2030, CP2501, Letter 2531", url: "https://www.irs.gov/pub/irs-pdf/p5181.pdf" }
   - { type: IRC, ref: "§ 6662", title: "Imposition of accuracy-related penalty on underpayments" }
 forms: ["1040-X", "2848"]
-related: ["3.2.6.b", "3.2.6.a", "3.3.1.o", "3.3.1.g", "3.3.3.a", "3.3.3.e"]
+related: ["3.2.6.b", "3.2.6.a", "3.3.1.o", "3.3.1.g", "3.3.3.a", "3.3.3.e", "3.3.3.f"]
 changelog:
   - { date: "2026-08-18", summary: "Initial publication from IRC §§ 6212, 6213(a) and the IRS CP2000 series guidance." }
 ---

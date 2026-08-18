@@ -1027,6 +1027,36 @@
       "taxYear": 2026,
       "source": "IRC § 274(d)(A)–(D) — https://www.law.cornell.edu/uscode/text/26/274",
       "verified": "2026-08-18"
+    },
+    "appeals.protest_threshold": {
+      "value": "$25,000 or less in proposed change to tax and penalties (or claimed refund) for each tax period permits a small case request; more than $25,000 for any tax period requires a formal written protest",
+      "taxYear": 2026,
+      "source": "IRS Pub. 5 (Rev. 4-2021), \"Small Case Request\" and \"Formal Written Protest\"; IRS Pub. 3498 (Rev. 5-2025), \"The Examination Process\" — https://www.irs.gov/pub/irs-pdf/p5.pdf",
+      "verified": "2026-08-18"
+    },
+    "appeals.protest_contents": {
+      "value": "a statement that you want to appeal, plus name, address and daytime telephone number; a list of all disputed issues, tax periods, proposed changes and reasons for disagreement; the facts supporting your position on each issue; the law or authority, if any, supporting it; a penalties of perjury statement; and your or your representative's signature under it",
+      "taxYear": 2026,
+      "source": "IRS Pub. 5 (Rev. 4-2021), \"Formal Written Protest\" — https://www.irs.gov/pub/irs-pdf/p5.pdf",
+      "verified": "2026-08-18"
+    },
+    "appeals.protest_window": {
+      "value": "the time limit specified in the letter — generally 30 days from the date of the letter",
+      "taxYear": 2026,
+      "source": "IRS, \"Preparing a request for appeals,\" page last reviewed 28 June 2026; IRS Pub. 3498 (Rev. 5-2025) — https://www.irs.gov/appeals/preparing-a-request-for-appeals",
+      "verified": "2026-08-18"
+    },
+    "appeals.ased_remaining": {
+      "value": "generally 365 days must remain on the assessment statute expiration date when Appeals receives the case, and at least 270 days on the non-extendable ASED for estate tax cases",
+      "taxYear": 2026,
+      "source": "IRS Pub. 3498 (Rev. 5-2025), \"Consents to Extend the Assessment Statute Expiration Date\" — https://www.irs.gov/pub/irs-pdf/p3498.pdf",
+      "verified": "2026-08-18"
+    },
+    "exam.agreed_interest_grace": {
+      "value": "no further interest or penalty where a balance under $100,000 is paid within 21 calendar days of the bill, reduced to 10 business days where the amount is $100,000 or more",
+      "taxYear": 2026,
+      "source": "IRS Pub. 3498 (Rev. 5-2025), \"Agreed\"; IRC § 6601(e)(3) — https://www.irs.gov/pub/irs-pdf/p3498.pdf",
+      "verified": "2026-08-18"
     }
   }
 }
