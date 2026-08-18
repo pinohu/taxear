@@ -16,7 +16,7 @@ authorities:
   - { type: Reg, ref: "601.503", title: "Requirements of power of attorney", url: "https://www.law.cornell.edu/cfr/text/26/601.503" }
   - { type: Form, ref: "2848", title: "Power of Attorney and Declaration of Representative", url: "https://www.irs.gov/forms-pubs/about-form-2848" }
 forms: ["2848"]
-related: ["3.2.1.a", "3.1.1.b", "3.2.6.a"]
+related: ["3.2.1.a", "3.2.1.b", "3.2.1.c", "3.1.1.b", "3.2.6.a"]
 changelog:
   - { date: "2026-08-18", summary: "Initial publication from IRC § 6061, § 6012(b) and Reg. § 1.6012-1(a)(5)." }
 ---
