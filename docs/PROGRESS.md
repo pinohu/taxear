@@ -11,8 +11,8 @@ is indexed, and only the owner moves a page there (see `docs/VERIFICATION.md`).
 |---|---:|---:|---:|---:|---:|---:|
 | 1. Individuals | 120 | 120 | 0 | 0 | 0 | 0 |
 | 2. Businesses | 119 | 119 | 0 | 0 | 0 | 0 |
-| 3. Representation, Practices and Procedures | 121 | 59 | 0 | 62 | 0 | 120,330 |
-| **All parts** | **360** | **298** | **0** | **62** | **0** | **120,330** |
+| 3. Representation, Practices and Procedures | 121 | 58 | 0 | 63 | 0 | 122,835 |
+| **All parts** | **360** | **297** | **0** | **63** | **0** | **122,835** |
 
 ## Part 1 — Individuals
 
@@ -568,7 +568,7 @@ is indexed, and only the owner moves a page there (see `docs/VERIFICATION.md`).
 |---|---|---|---:|---|
 | 3.3.2.a | [Penalties subject to abatement](/representation/specific-types-of-representation/penalties-and-or-interest-abatement/penalties-subject-to-abatement/) | review | 1,625 | 2026-08-18 |
 | 3.3.2.b | [Basis for having penalties abated or refunded](/representation/specific-types-of-representation/penalties-and-or-interest-abatement/basis-for-having-penalties-abated-or-refunded/) | review | 1,586 | 2026-08-18 |
-| 3.3.2.c | [Basis for having interest abated or refunded](/representation/specific-types-of-representation/penalties-and-or-interest-abatement/basis-for-having-interest-abated-or-refunded/) | stub | — | — |
+| 3.3.2.c | [Basis for having interest abated or refunded](/representation/specific-types-of-representation/penalties-and-or-interest-abatement/basis-for-having-interest-abated-or-refunded/) | review | 2,505 | 2026-08-18 |
 | 3.3.2.d | [Interest recalculation](/representation/specific-types-of-representation/penalties-and-or-interest-abatement/interest-recalculation/) | stub | — | — |
 | 3.3.2.e | [Procedures for requesting abatement](/representation/specific-types-of-representation/penalties-and-or-interest-abatement/procedures-for-requesting-abatement/) | stub | — | — |
 
