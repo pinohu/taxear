@@ -17,7 +17,7 @@ authorities:
   - { type: IRC, ref: "§ 6694", title: "Understatement of taxpayer's liability by tax return preparer", url: "https://www.law.cornell.edu/uscode/text/26/6694" }
   - { type: IRC, ref: "§ 6110", title: "Public inspection of written determinations", url: "https://www.law.cornell.edu/uscode/text/26/6110" }
 forms: []
-related: ["3.1.2.f", "3.1.2.b", "3.1.4.b", "3.1.2.p"]
+related: ["3.1.2.f", "3.1.2.b", "3.1.4.b", "3.1.2.p", "3.1.2.k"]
 changelog:
   - { date: "2026-08-18", summary: "Initial publication from Circular 230 §§ 10.34, 10.35 and 10.37 as rewritten by T.D. 9668." }
 ---

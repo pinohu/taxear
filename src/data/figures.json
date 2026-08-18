@@ -799,6 +799,30 @@
       "taxYear": 2026,
       "source": "Circular 230 § 10.6(h) — https://www.law.cornell.edu/cfr/text/31/10.6",
       "verified": "2026-08-18"
+    },
+    "shelter.material_advisor_threshold": {
+      "value": "$50,000 where substantially all the tax benefits go to natural persons, and $250,000 in any other case",
+      "taxYear": 2026,
+      "source": "IRC § 6111(b)(1)(B) — https://www.law.cornell.edu/uscode/text/26/6111",
+      "verified": "2026-08-18"
+    },
+    "shelter.6112_retention": {
+      "value": "7 years, except as otherwise provided by regulation, with the list produced to the Secretary on written request",
+      "taxYear": 2026,
+      "source": "IRC § 6112(b)(1) — https://www.law.cornell.edu/uscode/text/26/6112",
+      "verified": "2026-08-18"
+    },
+    "shelter.6707A_penalty": {
+      "value": "75% of the decrease in tax shown on the return as a result of the transaction, capped at $200,000 for a listed transaction ($100,000 for a natural person) and $50,000 for any other reportable transaction ($10,000 for a natural person), and never less than $10,000 ($5,000 for a natural person)",
+      "taxYear": 2026,
+      "source": "IRC § 6707A(b) — https://www.law.cornell.edu/uscode/text/26/6707A",
+      "verified": "2026-08-18"
+    },
+    "shelter.6707_penalty": {
+      "value": "$50,000, or for a listed transaction the greater of $200,000 or 50% of the gross income derived from the aid, assistance or advice before the return is filed — 75% where the failure or act is intentional",
+      "taxYear": 2026,
+      "source": "IRC § 6707(b) — https://www.law.cornell.edu/uscode/text/26/6707",
+      "verified": "2026-08-18"
     }
   }
 }

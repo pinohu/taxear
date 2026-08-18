@@ -11,8 +11,8 @@ is indexed, and only the owner moves a page there (see `docs/VERIFICATION.md`).
 |---|---:|---:|---:|---:|---:|---:|
 | 1. Individuals | 120 | 120 | 0 | 0 | 0 | 0 |
 | 2. Businesses | 119 | 119 | 0 | 0 | 0 | 0 |
-| 3. Representation, Practices and Procedures | 121 | 67 | 0 | 54 | 0 | 100,416 |
-| **All parts** | **360** | **306** | **0** | **54** | **0** | **100,416** |
+| 3. Representation, Practices and Procedures | 121 | 66 | 0 | 55 | 0 | 102,895 |
+| **All parts** | **360** | **305** | **0** | **55** | **0** | **102,895** |
 
 ## Part 1 — Individuals
 
@@ -435,7 +435,7 @@ is indexed, and only the owner moves a page there (see `docs/VERIFICATION.md`).
 | 3.1.2.h | [Rules for refund check negotiation](/representation/practices-and-procedures/requirements-for-enrolled-agents/rules-for-refund-check-negotiation/) | review | 2,488 | 2026-08-18 |
 | 3.1.2.i | [Standards for written advice, covered opinions, tax return positions and preparing returns](/representation/practices-and-procedures/requirements-for-enrolled-agents/standards-for-written-advice-covered-opinions-tax-return/) | review | 2,499 | 2026-08-18 |
 | 3.1.2.j | [Continuing education requirements](/representation/practices-and-procedures/requirements-for-enrolled-agents/continuing-education-requirements/) | review | 2,483 | 2026-08-18 |
-| 3.1.2.k | [Tax shelters](/representation/practices-and-procedures/requirements-for-enrolled-agents/tax-shelters/) | stub | — | — |
+| 3.1.2.k | [Tax shelters](/representation/practices-and-procedures/requirements-for-enrolled-agents/tax-shelters/) | review | 2,479 | 2026-08-18 |
 | 3.1.2.l | [Enrollment cycle and renewal](/representation/practices-and-procedures/requirements-for-enrolled-agents/enrollment-cycle-and-renewal/) | review | 2,489 | 2026-08-18 |
 | 3.1.2.m | [Rules for prompt disposition of matters before the IRS](/representation/practices-and-procedures/requirements-for-enrolled-agents/rules-for-prompt-disposition-of-matters-before-the-irs/) | review | 1,462 | 2026-08-18 |
 | 3.1.2.n | [Rules for returning a client's records and documents](/representation/practices-and-procedures/requirements-for-enrolled-agents/rules-for-returning-a-client-s-records-and-documents/) | review | 1,479 | 2026-08-18 |
