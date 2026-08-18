@@ -9,8 +9,8 @@ Regenerate the numbers with `npm run progress`.
 
 ## Where the project stands (18 August 2026)
 
-62 topic pages at `review`, 298 at `stub`, none at `published` — the owner publishes, no
-session does. 21 form entries and 7 notice entries at `review`. **All 145 keys in
+65 topic pages at `review`, 295 at `stub`, none at `published` — the owner publishes, no
+session does. 21 form entries and 7 notice entries at `review`. **All 156 keys in
 `figures.json` carry a `verified` date against a source opened that day**, so no page is
 blocked on a figure. `npm run verify` reports 0 errors.
 
@@ -23,7 +23,7 @@ blocked on a figure. `npm run verify` reports 0 errors.
 | 3.1.4 Rules and penalties | **7 / 7** |
 | 3.2.6 Related issues | 2 / 10 |
 | 3.3.1 Collection process | 9 / 16 |
-| 3.3.2 Penalties and interest abatement | 2 / 5 |
+| 3.3.2 Penalties and interest abatement | **5 / 5** |
 | 3.3.3 Audits and examinations | 1 / 9 |
 | 3.4.3 Electronic filing | 1 / 9 |
 
@@ -70,7 +70,6 @@ Prefer depth over breadth. Each of these sits beside a page that already exists,
 
 | Codes | Why next |
 |---|---|
-| 3.3.2.c–e | Completes penalties and interest abatement. Interest abatement is § 6404(e), which is a different test from penalty relief and is regularly confused with it |
 | 3.3.3.a–f, h–i | The examination section. Open IRM 4.10 before asserting the correspondence/office/field taxonomy — two bank questions test it and this pass deliberately did not assert it unsourced |
 | 3.4.3.a, c–i | Completes electronic filing, mostly from Pub. 3112 and Pub. 1345 |
 
@@ -192,3 +191,30 @@ generous and are what the IRS applies. See `caf.future_horizon`.
 questions, and the §§ 6103(c)/7216 consent machinery is untested by the bank entirely. The
 Phase 0 tagger work in `BUILD_PLAN.md` is scoped to Parts 1 and 2; it needs a pass over the
 Part 3 rule table as well.
+
+## Section 3.3.2 complete (18 August 2026)
+
+All five penalty-and-interest-abatement topics are written, from IRC §§ 6404, 6511, 6601,
+6621, 6622 and 6676, Reg. § 301.6404-2, the Instructions for Form 843 (rev. 12/2024), and
+the IRS quarterly interest rates page.
+
+**Findings that shape how these pages read:**
+
+- **Interest and penalties do not share a vocabulary.** Reasonable cause has no application
+  to interest. The only ordinary routes are § 6404(e) (unreasonable IRS error or delay in a
+  ministerial or managerial act), the § 6404(g) suspension, or correcting the assessment.
+- **The § 6404(g) suspension period was 18 months as enacted** by RRA 1998 and is now
+  **36 months**. Any material carrying 18 months is eighteen months of interest wrong.
+- **The Form 843 instructions add an element the law does not have.** They direct a
+  § 6404(e)(1) claimant to explain why failure to abate would be "grossly unfair treatment."
+  That phrase is in neither IRC § 6404 nor Reg. § 301.6404-2. Recorded on 3.3.2.e.
+- **IRC § 6676's standard moved** from reasonable basis (2007) to **reasonable cause**.
+
+**Rate discipline.** `interest.rates_q3_2026` names the quarter inside the figure value,
+because an interest rate without a quarter attached is unusable. The underpayment rate held
+at 7% through 2025, **dropped to 6% in Q2 2026 and returned to 7% in Q3** — a multi-year
+recomputation must walk the quarters. This key must be re-verified every quarter, not
+annually; it is the first figure in the file with a sub-annual life.
+
+**Tagger coverage is zero across all three new codes** (3.3.2.c, .d, .e), and sweeps for
+"abate interest", "ministerial", "6404" and "6676" return nothing. Add to the Phase 0 list.
