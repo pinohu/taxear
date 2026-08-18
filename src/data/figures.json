@@ -1087,6 +1087,36 @@
       "taxYear": 2026,
       "source": "IRC § 7463(a)–(b) — https://www.law.cornell.edu/uscode/text/26/7463",
       "verified": "2026-08-18"
+    },
+    "burden.default": {
+      "value": "on the petitioner, except as otherwise provided by statute or determined by the Court — and on the respondent as to any new matter, increases in deficiency, and affirmative defenses pleaded in the answer",
+      "taxYear": 2026,
+      "source": "Tax Court Rule 142(a)(1) (effective 3 October 2008, 130 T.C. 472–73) — https://ustaxcourt.gov/files/documents/rule-142.pdf",
+      "verified": "2026-08-18"
+    },
+    "burden.7491_conditions": {
+      "value": "3 — the taxpayer has complied with the substantiation requirements of the Code; has maintained all required records and cooperated with reasonable requests for witnesses, information, documents, meetings and interviews; and, for a partnership, corporation or trust, meets the net worth and employee limits of IRC § 7430(c)(4)(A)(ii)",
+      "taxYear": 2026,
+      "source": "IRC § 7491(a)(2) — https://www.law.cornell.edu/uscode/text/26/7491",
+      "verified": "2026-08-18"
+    },
+    "burden.7491_entity_limits": {
+      "value": "net worth not exceeding $7,000,000 and not more than 500 employees at the time the action was filed (individuals: net worth not exceeding $2,000,000)",
+      "taxYear": 2026,
+      "source": "28 U.S.C. § 2412(d)(2)(B), applied by IRC § 7430(c)(4)(A)(ii) — https://www.law.cornell.edu/uscode/text/28/2412",
+      "verified": "2026-08-18"
+    },
+    "burden.penalties": {
+      "value": "the Secretary carries the burden of production in any court proceeding as to the liability of any individual for any penalty, addition to tax, or additional amount",
+      "taxYear": 2026,
+      "source": "IRC § 7491(c) — https://www.law.cornell.edu/uscode/text/26/7491",
+      "verified": "2026-08-18"
+    },
+    "burden.fraud": {
+      "value": "on the respondent, carried by clear and convincing evidence",
+      "taxYear": 2026,
+      "source": "IRC § 7454(a) and Tax Court Rule 142(b) — https://ustaxcourt.gov/files/documents/rule-142.pdf",
+      "verified": "2026-08-18"
     }
   }
 }

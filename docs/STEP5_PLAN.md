@@ -24,7 +24,7 @@ blocked on a figure. `npm run verify` reports 0 errors.
 | 3.2.6 Related issues | 2 / 10 |
 | 3.3.1 Collection process | 9 / 16 |
 | 3.3.2 Penalties and interest abatement | **5 / 5** |
-| 3.3.3 Audits and examinations | 8 / 9 |
+| 3.3.3 Audits and examinations | **9 / 9** |
 | 3.4.3 Electronic filing | 1 / 9 |
 
 Untouched Part 3 sections: 3.2.2 (5), 3.2.3 (5), 3.2.4 (5), 3.2.5 (8), 3.3.4 (5),
@@ -56,6 +56,7 @@ deposit pages.
 | 3.3.3.d | time and place of investigation — IRC § 7605, Reg. § 301.7605-1 |
 | 3.3.3.f | RAR and the 30-day letter — Pub. 3498, Pub. 5 |
 | 3.3.3.h | explanations of taxpayer options — Pub. 5, IRC §§ 6213, 6673, 7463 |
+| 3.3.3.i | taxpayer's burden of proof — IRC §§ 7491, 7454, 6902, Tax Court Rule 142 |
 | 3.4.3.b | e-file mandate and exceptions |
 
 Forms: 2848, 8821, 1040-X, 843, 656, 9465, 12153, 9423, 6118, 8867, 8948, 8944, 8453,
@@ -77,8 +78,16 @@ Prefer depth over breadth. Each of these sits beside a page that already exists,
 
 | Codes | Why next |
 |---|---|
-| 3.3.3.i | The last of the examination section — taxpayer's burden of proof (IRC § 7491, § 6201(d)) |
+| 3.2.6.c–j | Related issues. Eight topics, and the section already has two pages to link against |
 | 3.4.3.a, c–i | Completes electronic filing, mostly from Pub. 3112 and Pub. 1345 |
+
+### Tax Court Rules are retrievable — noted 2026-08-18
+
+Individual rules are served as per-rule PDFs at
+`https://ustaxcourt.gov/files/documents/rule-NNN.pdf`; the combined `Rules.pdf` paths 404.
+With the pypdf fix below they extract cleanly. Rule 142 was the source for the default
+burden allocation and for the clear-and-convincing standard in fraud cases — which is **not**
+in IRC § 7454(a). Cite both.
 
 ### IRS publication PDFs now extract — resolved 2026-08-18
 

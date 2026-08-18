@@ -17,7 +17,7 @@ authorities:
   - { type: IRC, ref: "§ 6673", title: "Sanctions and costs awarded by courts", url: "https://www.law.cornell.edu/uscode/text/26/6673" }
   - { type: IRC, ref: "§ 7803", title: "Commissioner of Internal Revenue — Independent Office of Appeals at (e)", url: "https://www.law.cornell.edu/uscode/text/26/7803" }
 forms: []
-related: ["3.3.3.f", "3.3.3.e", "3.3.3.c"]
+related: ["3.3.3.f", "3.3.3.e", "3.3.3.c", "3.3.3.i"]
 changelog:
   - { date: "2026-08-18", summary: "Initial publication from Pub. 5 (Rev. 4-2021), Pub. 3498 (Rev. 5-2025), the IRS appeals pages last reviewed 28 June and 16 April 2026, and IRC §§ 6213, 6673, 7463 and 7803." }
 ---
