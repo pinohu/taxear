@@ -22,7 +22,7 @@ authorities:
   - { type: IRC, ref: "§ 7430", title: "Awarding of costs and certain fees", url: "https://www.law.cornell.edu/uscode/text/26/7430" }
 forms:
   - "843"
-related: ["3.3.2.a", "3.3.2.b", "3.3.1.a"]
+related: ["3.3.2.a", "3.3.2.b", "3.3.1.a", "3.3.2.d"]
 changelog:
   - { date: "2026-08-18", summary: "Initial publication from IRC § 6404 and Reg. § 301.6404-2." }
 ---

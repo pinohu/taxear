@@ -17,7 +17,7 @@ authorities:
   - { type: Form, ref: "1127", title: "Application for Extension of Time for Payment of Tax Due to Undue Hardship", url: "https://www.irs.gov/forms-pubs/about-form-1127" }
   - { type: Form, ref: "4768", title: "Application for Extension of Time To File a Return and/or Pay U.S. Estate (and Generation-Skipping Transfer) Taxes", url: "https://www.irs.gov/forms-pubs/about-form-4768" }
 forms: ["1127"]
-related: ["3.3.1.b", "3.3.1.k", "3.3.2.c"]
+related: ["3.3.1.b", "3.3.1.k", "3.3.2.c", "3.3.2.d"]
 changelog:
   - { date: "2026-08-18", summary: "Initial publication from IRC §§ 6161, 6165, Reg. § 1.6161-1 and the Form 1127 guidance." }
 ---
