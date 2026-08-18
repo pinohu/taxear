@@ -15,7 +15,7 @@ authorities:
   - { type: Circ230, ref: "§ 10.22", title: "Diligence as to accuracy", url: "https://www.law.cornell.edu/cfr/text/31/10.22" }
   - { type: Circ230, ref: "§ 10.50", title: "Sanctions", url: "https://www.law.cornell.edu/cfr/text/31/10.50" }
 forms: []
-related: ["3.1.2.f", "3.1.2.c", "3.1.3.b", "3.1.1.a"]
+related: ["3.1.2.f", "3.1.2.c", "3.1.3.b", "3.1.1.a", "3.1.2.i"]
 changelog:
   - { date: "2026-08-18", summary: "Initial publication from Circular 230 § 10.36 as issued by T.D. 9668." }
 ---

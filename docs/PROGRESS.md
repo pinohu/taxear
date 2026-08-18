@@ -11,8 +11,8 @@ is indexed, and only the owner moves a page there (see `docs/VERIFICATION.md`).
 |---|---:|---:|---:|---:|---:|---:|
 | 1. Individuals | 120 | 120 | 0 | 0 | 0 | 0 |
 | 2. Businesses | 119 | 119 | 0 | 0 | 0 | 0 |
-| 3. Representation, Practices and Procedures | 121 | 68 | 0 | 53 | 0 | 97,917 |
-| **All parts** | **360** | **307** | **0** | **53** | **0** | **97,917** |
+| 3. Representation, Practices and Procedures | 121 | 67 | 0 | 54 | 0 | 100,416 |
+| **All parts** | **360** | **306** | **0** | **54** | **0** | **100,416** |
 
 ## Part 1 — Individuals
 
@@ -433,7 +433,7 @@ is indexed, and only the owner moves a page there (see `docs/VERIFICATION.md`).
 | 3.1.2.f | [Due diligence requirements](/representation/practices-and-procedures/requirements-for-enrolled-agents/due-diligence-requirements/) | review | 1,456 | 2026-08-18 |
 | 3.1.2.g | [Conflict of interest](/representation/practices-and-procedures/requirements-for-enrolled-agents/conflict-of-interest/) | review | 2,444 | 2026-08-18 |
 | 3.1.2.h | [Rules for refund check negotiation](/representation/practices-and-procedures/requirements-for-enrolled-agents/rules-for-refund-check-negotiation/) | review | 2,488 | 2026-08-18 |
-| 3.1.2.i | [Standards for written advice, covered opinions, tax return positions and preparing returns](/representation/practices-and-procedures/requirements-for-enrolled-agents/standards-for-written-advice-covered-opinions-tax-return/) | stub | — | — |
+| 3.1.2.i | [Standards for written advice, covered opinions, tax return positions and preparing returns](/representation/practices-and-procedures/requirements-for-enrolled-agents/standards-for-written-advice-covered-opinions-tax-return/) | review | 2,499 | 2026-08-18 |
 | 3.1.2.j | [Continuing education requirements](/representation/practices-and-procedures/requirements-for-enrolled-agents/continuing-education-requirements/) | review | 2,483 | 2026-08-18 |
 | 3.1.2.k | [Tax shelters](/representation/practices-and-procedures/requirements-for-enrolled-agents/tax-shelters/) | stub | — | — |
 | 3.1.2.l | [Enrollment cycle and renewal](/representation/practices-and-procedures/requirements-for-enrolled-agents/enrollment-cycle-and-renewal/) | review | 2,489 | 2026-08-18 |

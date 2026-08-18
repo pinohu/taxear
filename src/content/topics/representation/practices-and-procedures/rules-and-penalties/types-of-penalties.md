@@ -20,7 +20,7 @@ authorities:
   - { type: Circ230, ref: "§ 10.34", title: "Standards with respect to tax returns and documents", url: "https://www.law.cornell.edu/cfr/text/31/10.34" }
   - { type: RevProc, ref: "2025-32", title: "Inflation-adjusted items for 2026", url: "https://www.irs.gov/pub/irs-drop/rp-25-32.pdf" }
 forms: ["8867"]
-related: ["3.1.4.a", "3.1.4.c", "3.1.4.d", "3.1.4.f", "3.1.4.g", "3.3.2.a", "3.1.1.a", "3.3.2.b", "3.1.3.a", "3.4.3.b", "3.1.3.c"]
+related: ["3.1.4.a", "3.1.4.c", "3.1.4.d", "3.1.4.f", "3.1.4.g", "3.3.2.a", "3.1.1.a", "3.3.2.b", "3.1.3.a", "3.4.3.b", "3.1.3.c", "3.1.2.i"]
 changelog:
   - { date: "2026-08-18", summary: "Initial publication from IRC §§ 6694, 6695, 6662, 6701, 6702, 6713, 7216 and Rev. Proc. 2025-32." }
 ---
