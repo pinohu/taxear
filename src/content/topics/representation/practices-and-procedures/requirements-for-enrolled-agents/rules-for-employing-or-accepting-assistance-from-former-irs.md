@@ -15,7 +15,7 @@ authorities:
   - { type: Circ230, ref: "§ 10.52", title: "Violations subject to sanction", url: "https://www.law.cornell.edu/cfr/text/31/10.52" }
   - { type: Circ230, ref: "§ 10.8", title: "Return preparation and application of rules to other individuals", url: "https://www.law.cornell.edu/cfr/text/31/10.8" }
 forms: []
-related: ["3.1.3.b", "3.1.2.g", "3.1.1.a", "3.1.2.d"]
+related: ["3.1.3.b", "3.1.2.g", "3.1.1.a", "3.1.2.d", "3.1.2.p"]
 changelog:
   - { date: "2026-08-18", summary: "Initial publication from Circular 230 §§ 10.24 and 10.25 as amended by T.D. 9527." }
 ---
