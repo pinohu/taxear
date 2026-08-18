@@ -1141,6 +1141,36 @@
       "taxYear": 2026,
       "source": "Circular 230 § 10.2(a)(4), 31 CFR § 10.2(a)(4) — https://www.law.cornell.edu/cfr/text/31/10.2",
       "verified": "2026-08-18"
+    },
+    "foia.exemptions": {
+      "value": "9 — classified national defense and foreign policy documents; internal personnel rules and practices; information exempt under other laws; trade secrets and confidential commercial or financial information; inter-agency or intra-agency memorandums or letters; personal privacy; law enforcement; financial institutions; and geological information",
+      "taxYear": 2026,
+      "source": "5 U.S.C. § 552(b)(1)–(9), as described by IRS, \"Freedom of Information Act (FOIA) guidelines,\" page last reviewed 28 June 2026 — https://www.irs.gov/privacy-disclosure/freedom-of-information-act-foia-guidelines",
+      "verified": "2026-08-18"
+    },
+    "foia.exclusions": {
+      "value": "3 special protection provisions permitting especially sensitive law enforcement records to be treated as not subject to the FOIA, so that the IRS may respond that there are no responsive records — they apply only to information that is otherwise exempt and do not broaden the authority to withhold",
+      "taxYear": 2026,
+      "source": "5 U.S.C. § 552(c); IRS, \"Freedom of Information Act (FOIA) guidelines,\" page last reviewed 28 June 2026 — https://www.irs.gov/privacy-disclosure/freedom-of-information-act-foia-guidelines",
+      "verified": "2026-08-18"
+    },
+    "foia.response_window": {
+      "value": "20 days, excluding Saturdays, Sundays and legal public holidays, from receipt of the request, extendable by 10 additional days in unusual circumstances of which the requester must be notified",
+      "taxYear": 2026,
+      "source": "5 U.S.C. § 552(a)(6); Reg. § 601.702(c)(11)(i)(A)(1)–(4); IRS FOIA guidelines, last reviewed 28 June 2026 — https://www.irs.gov/privacy-disclosure/freedom-of-information-act-foia-guidelines",
+      "verified": "2026-08-18"
+    },
+    "foia.appeal_window": {
+      "value": "an appeal must be postmarked within 90 days after the date of the denial letter (10 days where expedited processing was denied); the IRS must decide it within 20 days excluding Saturdays, Sundays and legal holidays, extendable by 10",
+      "taxYear": 2026,
+      "source": "31 CFR Part 1 § 1.6, as described by IRS, \"Freedom of Information Act (FOIA) guidelines,\" page last reviewed 28 June 2026 — https://www.irs.gov/privacy-disclosure/freedom-of-information-act-foia-guidelines",
+      "verified": "2026-08-18"
+    },
+    "foia.segregability": {
+      "value": "any reasonably segregable portion must be provided after the exempt portions are deleted, with the amount deleted and the exemption relied on indicated on the released record — and, where technically feasible, at the place on the record where the deletion was made — unless that indication would itself harm the protected interest",
+      "taxYear": 2026,
+      "source": "5 U.S.C. § 552(b), closing flush text — https://www.law.cornell.edu/uscode/text/5/552",
+      "verified": "2026-08-18"
     }
   }
 }
