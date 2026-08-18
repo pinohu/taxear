@@ -39,34 +39,34 @@
       "verified": "2026-08-18"
     },
     "penalty.ftf.rate": {
-      "value": "5% per month, max 25%",
+      "value": "5% of the tax per month or part month, maximum 25%",
       "taxYear": 2026,
       "source": "IRC § 6651(a)(1)",
-      "verified": null
+      "verified": "2026-08-18"
     },
     "penalty.ftp.rate": {
-      "value": "0.5% per month, max 25%",
+      "value": "0.5% of the tax per month or part month, maximum 25%",
       "taxYear": 2026,
       "source": "IRC § 6651(a)(2)",
-      "verified": null
+      "verified": "2026-08-18"
     },
     "penalty.ftf.minimum": {
-      "value": "lesser of $525 or 100% of tax due (returns due in 2026)",
+      "value": "the lesser of $535 or 100% of the tax required to be shown, for returns required to be filed in 2027",
       "taxYear": 2026,
-      "source": "IRC § 6651(a); Rev. Proc. 2025-32",
-      "verified": null
+      "source": "IRC § 6651(a) flush language and § 6651(j); Rev. Proc. 2025-32 § 3.52",
+      "verified": "2026-08-18"
     },
     "penalty.accuracy.rate": {
-      "value": "20% of underpayment",
+      "value": "20% of the underpayment",
       "taxYear": 2026,
       "source": "IRC § 6662(a)",
-      "verified": null
+      "verified": "2026-08-18"
     },
     "penalty.fraud.rate": {
-      "value": "75% of underpayment",
+      "value": "75% of the underpayment attributable to fraud",
       "taxYear": 2026,
       "source": "IRC § 6663(a)",
-      "verified": null
+      "verified": "2026-08-18"
     },
     "preparer.6694a": {
       "value": "greater of $1,000 or 50% of income derived",
