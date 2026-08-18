@@ -1117,6 +1117,30 @@
       "taxYear": 2026,
       "source": "IRC § 7454(a) and Tax Court Rule 142(b) — https://ustaxcourt.gov/files/documents/rule-142.pdf",
       "verified": "2026-08-18"
+    },
+    "taxcourt.attorney_admission": {
+      "value": "an application, the Court's fee, and a current certificate from the Clerk of the appropriate court showing admission and good standing — executed within 90 calendar days preceding the filing of the application; no examination",
+      "taxYear": 2026,
+      "source": "Tax Court Rule 200(a)(2) — https://ustaxcourt.gov/files/documents/rule-200.pdf",
+      "verified": "2026-08-18"
+    },
+    "taxcourt.nonattorney_admission": {
+      "value": "an application, the Court's fee, a written examination given by the Court held no less often than every 2 years and announced publicly at least 6 months in advance, and sponsorship by at least 2 persons already admitted (the Court may accept fewer in its discretion)",
+      "taxYear": 2026,
+      "source": "Tax Court Rule 200(a)(3) and (c) — https://ustaxcourt.gov/files/documents/rule-200.pdf",
+      "verified": "2026-08-18"
+    },
+    "taxcourt.self_representation": {
+      "value": "an individual may represent himself or herself; an authorized officer may represent a corporation; an authorized individual may represent an unincorporated association; and a fiduciary may represent an estate or trust",
+      "taxYear": 2026,
+      "source": "Tax Court Rule 24(b)(1) — https://ustaxcourt.gov/files/documents/rule-24.pdf",
+      "verified": "2026-08-18"
+    },
+    "practice.irs_scope": {
+      "value": "all matters connected with a presentation to the IRS or any of its officers or employees relating to a taxpayer's rights, privileges or liabilities — including preparing and filing documents, corresponding and communicating with the IRS, rendering written advice on any entity, transaction, plan or arrangement having a potential for tax avoidance or evasion, and representing a client at conferences, hearings and meetings",
+      "taxYear": 2026,
+      "source": "Circular 230 § 10.2(a)(4), 31 CFR § 10.2(a)(4) — https://www.law.cornell.edu/cfr/text/31/10.2",
+      "verified": "2026-08-18"
     }
   }
 }
