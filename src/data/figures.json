@@ -733,6 +733,18 @@
       "taxYear": 2026,
       "source": "IRC § 6165; IRC § 6161(d)(2)",
       "verified": "2026-08-18"
+    },
+    "decedent.prompt_assessment": {
+      "value": "18 months from the date the written request is received, in place of the ordinary 3 years; available for any return of the decedent or the estate except the estate tax return",
+      "taxYear": 2026,
+      "source": "IRC § 6501(d); IRS Pub. 559, opened 2026-08-18",
+      "verified": "2026-08-18"
+    },
+    "decedent.discharge_window": {
+      "value": "the IRS notifies the executor of the amount due within 9 months of the request; on payment, or if no notice issues in that period, the executor is discharged from personal liability",
+      "taxYear": 2026,
+      "source": "IRC §§ 2204, 6905; IRS Pub. 559, opened 2026-08-18",
+      "verified": "2026-08-18"
     }
   }
 }

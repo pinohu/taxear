@@ -11,8 +11,8 @@ is indexed, and only the owner moves a page there (see `docs/VERIFICATION.md`).
 |---|---:|---:|---:|---:|---:|---:|
 | 1. Individuals | 120 | 120 | 0 | 0 | 0 | 0 |
 | 2. Businesses | 119 | 119 | 0 | 0 | 0 | 0 |
-| 3. Representation, Practices and Procedures | 121 | 84 | 0 | 37 | 0 | 65,451 |
-| **All parts** | **360** | **323** | **0** | **37** | **0** | **65,451** |
+| 3. Representation, Practices and Procedures | 121 | 83 | 0 | 38 | 0 | 67,127 |
+| **All parts** | **360** | **322** | **0** | **38** | **0** | **67,127** |
 
 ## Part 1 — Individuals
 
@@ -552,7 +552,7 @@ is indexed, and only the owner moves a page there (see `docs/VERIFICATION.md`).
 | 3.3.1.e | [Collection appeals and due process (e.g., lien, levy, and Form 12153)](/representation/specific-types-of-representation/representing-a-taxpayer-in-the-collection-process/collection-appeals-and-due-process/) | review | 1,518 | 2026-08-18 |
 | 3.3.1.f | [Adjustments to the taxpayer’s account (e.g., abatements and refund offsets)](/representation/specific-types-of-representation/representing-a-taxpayer-in-the-collection-process/adjustments-to-the-taxpayer-s-account/) | review | 1,945 | 2026-08-18 |
 | 3.3.1.g | [Requesting an audit reconsideration (e.g., documents and forms)](/representation/specific-types-of-representation/representing-a-taxpayer-in-the-collection-process/requesting-an-audit-reconsideration/) | review | 1,748 | 2026-08-18 |
-| 3.3.1.h | [Representing a decedent](/representation/specific-types-of-representation/representing-a-taxpayer-in-the-collection-process/representing-a-decedent/) | stub | — | — |
+| 3.3.1.h | [Representing a decedent](/representation/specific-types-of-representation/representing-a-taxpayer-in-the-collection-process/representing-a-decedent/) | review | 1,676 | 2026-08-18 |
 | 3.3.1.i | [Collection notice and Notice of Federal Tax Lien](/representation/specific-types-of-representation/representing-a-taxpayer-in-the-collection-process/collection-notice-and-notice-of-federal-tax-lien/) | review | 1,773 | 2026-08-18 |
 | 3.3.1.j | [Levy and seizure of taxpayer's property](/representation/specific-types-of-representation/representing-a-taxpayer-in-the-collection-process/levy-and-seizure-of-taxpayer-s-property/) | review | 1,989 | 2026-08-18 |
 | 3.3.1.k | [Currently Not Collectable (e.g., reasons and reactivation)](/representation/specific-types-of-representation/representing-a-taxpayer-in-the-collection-process/currently-not-collectable/) | review | 1,816 | 2026-08-18 |
