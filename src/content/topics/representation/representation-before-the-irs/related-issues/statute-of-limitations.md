@@ -26,7 +26,7 @@ authorities:
   - { type: Form, ref: "1040-X", title: "Amended U.S. Individual Income Tax Return", url: "https://www.irs.gov/forms-pubs/about-form-1040x" }
   - { type: Form, ref: "843", title: "Claim for Refund and Request for Abatement", url: "https://www.irs.gov/forms-pubs/about-form-843" }
 forms: ["872", "1040-X", "843"]
-related: ["3.3.1.m", "3.3.1.o", "3.2.1.a", "3.2.1.b", "3.2.1.d", "3.3.1.b", "3.3.1.c", "3.3.1.e", "3.3.2.a", "3.3.2.b", "3.4.2.a"]
+related: ["3.3.1.m", "3.3.1.o", "3.2.1.a", "3.2.1.b", "3.2.1.d", "3.3.1.b", "3.3.1.c", "3.3.1.e", "3.3.2.a", "3.3.2.b", "3.4.2.a", "3.1.4.a"]
 changelog:
   - { date: "2026-08-18", summary: "Every citation re-opened at source. Corrected the authority for the offer-in-compromise and installment-agreement suspension (IRC § 6331(k)(3)(B) and § 6331(i)(5), not § 6503(f)); added the § 6511(d) seven- and ten-year refund periods, the § 6330(e)(1) ninety-day floor, the § 6503(c) six-month tail, and currently-not-collectible." }
   - { date: "2026-08-17", summary: "Initial draft from primary sources." }

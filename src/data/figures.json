@@ -271,6 +271,36 @@
       "taxYear": 2026,
       "source": "IRC § 6662(e)(1)(A) and § 6662(h)(2)(A)(i)",
       "verified": "2026-08-18"
+    },
+    "preparer.6695B.assessment_period": {
+      "value": "6 years from the filing of the return or claim",
+      "taxYear": 2026,
+      "source": "IRC § 6696(d)(1), as amended by Pub. L. 119-21 § 70512(k)(2)(A)",
+      "verified": "2026-08-18"
+    },
+    "preparer.6713.assessment_period": {
+      "value": "no limitation period — § 6696(d) does not reach § 6713",
+      "taxYear": 2026,
+      "source": "IRC § 6696(d)(1); IRM 20.1.6.18 (08-10-2026)",
+      "verified": "2026-08-18"
+    },
+    "preparer.refund_claim_period": {
+      "value": "3 years from the date the penalty was paid",
+      "taxYear": 2026,
+      "source": "IRC § 6696(d)(2)",
+      "verified": "2026-08-18"
+    },
+    "preparer.suit_window": {
+      "value": "30 days after the earlier of denial of the refund claim or the expiration of 6 months from filing it",
+      "taxYear": 2026,
+      "source": "IRC § 6694(c)(2); Reg. § 1.6694-4(b)",
+      "verified": "2026-08-18"
+    },
+    "preparer.consent_windows": {
+      "value": "a consent is sought when under 180 days remain, and must be obtained if the case goes to Appeals with under 365 days remaining",
+      "taxYear": 2026,
+      "source": "IRM 20.1.6.18 (08-10-2026)",
+      "verified": "2026-08-18"
     }
   }
 }
