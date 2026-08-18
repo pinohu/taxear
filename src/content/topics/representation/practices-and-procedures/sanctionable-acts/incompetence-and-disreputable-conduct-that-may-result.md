@@ -15,7 +15,7 @@ authorities:
   - { type: Circ230, ref: "§ 10.52", title: "Violations subject to sanction", url: "https://www.law.cornell.edu/cfr/text/31/10.52" }
   - { type: Circ230, ref: "§ 10.53", title: "Receipt of information concerning practitioner", url: "https://www.law.cornell.edu/cfr/text/31/10.53" }
 forms: []
-related: ["3.1.3.b", "3.1.4.b", "3.1.1.a"]
+related: ["3.1.3.b", "3.1.4.b", "3.1.1.a", "3.4.3.b"]
 changelog:
   - { date: "2026-08-18", summary: "Initial publication from 31 CFR §§ 10.50, 10.51, 10.52 and 10.53 (Circular 230) as they currently read." }
 ---

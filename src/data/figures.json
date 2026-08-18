@@ -361,6 +361,30 @@
       "taxYear": 2026,
       "source": "Circular 230 § 10.82(b)(5)",
       "verified": "2026-08-18"
+    },
+    "efile.specified_preparer.threshold": {
+      "value": "a preparer who does not reasonably expect to file 10 or fewer individual income tax returns in the calendar year — that is, 11 or more, counted across the firm",
+      "taxYear": 2026,
+      "source": "IRC § 6011(e)(3)(B); Reg. § 301.6011-7(a)(3)",
+      "verified": "2026-08-18"
+    },
+    "efile.waiver_window": {
+      "value": "between 1 October of the preceding calendar year and 15 February of the applicable calendar year",
+      "taxYear": 2026,
+      "source": "Rev. Proc. 2011-25 § 7.02",
+      "verified": "2026-08-18"
+    },
+    "efile.waiver_duration": {
+      "value": "not ordinarily granted for more than a one calendar year period",
+      "taxYear": 2026,
+      "source": "Rev. Proc. 2011-25 § 5.02",
+      "verified": "2026-08-18"
+    },
+    "efile.1040x.periods": {
+      "value": "the current tax period and the two prior ones",
+      "taxYear": 2026,
+      "source": "irs.gov, About Form 1040-X, opened 2026-08-18",
+      "verified": "2026-08-18"
     }
   }
 }

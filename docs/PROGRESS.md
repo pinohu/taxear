@@ -11,8 +11,8 @@ is indexed, and only the owner moves a page there (see `docs/VERIFICATION.md`).
 |---|---:|---:|---:|---:|---:|---:|
 | 1. Individuals | 120 | 120 | 0 | 0 | 0 | 0 |
 | 2. Businesses | 119 | 119 | 0 | 0 | 0 | 0 |
-| 3. Representation, Practices and Procedures | 121 | 104 | 0 | 17 | 0 | 29,041 |
-| **All parts** | **360** | **343** | **0** | **17** | **0** | **29,041** |
+| 3. Representation, Practices and Procedures | 121 | 103 | 0 | 18 | 0 | 31,252 |
+| **All parts** | **360** | **342** | **0** | **18** | **0** | **31,252** |
 
 ## Part 1 — Individuals
 
@@ -617,7 +617,7 @@ is indexed, and only the owner moves a page there (see `docs/VERIFICATION.md`).
 | Code | Title | Status | Words | Last reviewed |
 |---|---|---|---:|---|
 | 3.4.3.a | [Application process to be an e-file provider (e.g., e-services, EFIN)](/representation/completion-of-the-filing-process/electronic-filing/application-process-to-be-an-e-file-provider/) | stub | — | — |
-| 3.4.3.b | [E-file mandate and exceptions (Form 8948)](/representation/completion-of-the-filing-process/electronic-filing/e-file-mandate-and-exceptions-form-8948/) | stub | — | — |
+| 3.4.3.b | [E-file mandate and exceptions (Form 8948)](/representation/completion-of-the-filing-process/electronic-filing/e-file-mandate-and-exceptions-form-8948/) | review | 2,211 | 2026-08-18 |
 | 3.4.3.c | [Advertising standards](/representation/completion-of-the-filing-process/electronic-filing/advertising-standards/) | stub | — | — |
 | 3.4.3.d | [Definition and responsibilities of an ERO](/representation/completion-of-the-filing-process/electronic-filing/definition-and-responsibilities-of-an-ero/) | stub | — | — |
 | 3.4.3.e | [Levels of infractions](/representation/completion-of-the-filing-process/electronic-filing/levels-of-infractions/) | stub | — | — |
