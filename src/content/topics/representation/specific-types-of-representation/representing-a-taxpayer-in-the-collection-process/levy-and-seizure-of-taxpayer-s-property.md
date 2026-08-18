@@ -18,7 +18,7 @@ authorities:
   - { type: IRC, ref: "§ 6330", title: "Notice and opportunity for hearing before levy" }
   - { type: RevProc, ref: "2025-32", title: "Inflation-adjusted items for 2026", url: "https://www.irs.gov/pub/irs-drop/rp-25-32.pdf" }
 forms: ["12153", "9423"]
-related: ["3.3.1.i", "3.3.1.e", "3.3.1.b", "3.3.1.m", "3.3.1.k"]
+related: ["3.3.1.i", "3.3.1.e", "3.3.1.b", "3.3.1.m", "3.3.1.k", "3.3.1.n"]
 changelog:
   - { date: "2026-08-18", summary: "Initial publication from IRC §§ 6331, 6334, 6335, 6337, 6343 and 6330, with § 6334 amounts from Rev. Proc. 2025-32." }
 ---

@@ -17,7 +17,7 @@ authorities:
   - { type: IRC, ref: "§ 6320", title: "Notice and opportunity for hearing upon filing of notice of lien" }
   - { type: IRC, ref: "§ 6331(d)", title: "Requirement of notice before levy" }
 forms: ["12153", "9423"]
-related: ["3.3.1.e", "3.3.1.j", "3.3.1.d", "3.3.1.m"]
+related: ["3.3.1.e", "3.3.1.j", "3.3.1.d", "3.3.1.m", "3.3.1.p"]
 changelog:
   - { date: "2026-08-18", summary: "Initial publication from IRC §§ 6321, 6322, 6323, 6325, 6320 and 6331(d)." }
 ---

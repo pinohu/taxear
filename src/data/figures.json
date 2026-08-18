@@ -631,6 +631,54 @@
       "taxYear": 2026,
       "source": "irs.gov, Understanding your CP2000 series notice, opened 2026-08-18",
       "verified": "2026-08-18"
+    },
+    "tfrp.amount": {
+      "value": "the total amount of the tax evaded, not collected, or not accounted for and paid over — the trust fund portion, without penalties or interest on the employer's account",
+      "taxYear": 2026,
+      "source": "IRC § 6672(a)",
+      "verified": "2026-08-18"
+    },
+    "tfrp.preliminary_notice": {
+      "value": "the preliminary notice must precede notice and demand by at least 60 days",
+      "taxYear": 2026,
+      "source": "IRC § 6672(b)(2)",
+      "verified": "2026-08-18"
+    },
+    "tfrp.restriction_period": {
+      "value": "60 days, or 75 days where the letter is addressed outside the United States, plus 5 additional days for receipt and processing of a timely mailed protest",
+      "taxYear": 2026,
+      "source": "IRM 5.7.4.7 (07-01-2025)",
+      "verified": "2026-08-18"
+    },
+    "tfrp.assessment_tail": {
+      "value": "not before the later of 90 days after the preliminary notice, or 30 days after a final administrative determination on a timely protest",
+      "taxYear": 2026,
+      "source": "IRC § 6672(b)(3)",
+      "verified": "2026-08-18"
+    },
+    "tfrp.bond_stay": {
+      "value": "pay the minimum amount required to commence a court proceeding, file a refund claim, and furnish a bond, all within 30 days of notice and demand",
+      "taxYear": 2026,
+      "source": "IRC § 6672(c)(1)",
+      "verified": "2026-08-18"
+    },
+    "passport.threshold": {
+      "value": "more than $66,000 of assessed, unpaid, legally enforceable federal tax liability including penalties and interest",
+      "taxYear": 2026,
+      "source": "IRC § 7345(b)(1)(B), indexed under § 7345(f); Rev. Proc. 2025-32; irs.gov passport page opened 2026-08-18",
+      "verified": "2026-08-18"
+    },
+    "passport.state_hold": {
+      "value": "90 days from the date of the State Department's letter to arrange payment, pay in full, or resolve an erroneous certification",
+      "taxYear": 2026,
+      "source": "irs.gov, Revocation or denial of passport in cases of certain unpaid taxes, opened 2026-08-18",
+      "verified": "2026-08-18"
+    },
+    "passport.reversal_timing": {
+      "value": "within 30 days of an installment agreement being entered into, an offer being accepted, or an innocent spouse election or request; and by the § 6325(a) lien release deadline where the debt is satisfied or becomes unenforceable",
+      "taxYear": 2026,
+      "source": "IRC § 7345(c)(2)(A)–(C)",
+      "verified": "2026-08-18"
     }
   }
 }
