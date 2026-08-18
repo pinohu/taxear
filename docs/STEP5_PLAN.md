@@ -9,8 +9,8 @@ Regenerate the numbers with `npm run progress`.
 
 ## Where the project stands (18 August 2026)
 
-55 topic pages at `review`, 305 at `stub`, none at `published` — the owner publishes, no
-session does. 21 form entries and 7 notice entries at `review`. **All 137 keys in
+62 topic pages at `review`, 298 at `stub`, none at `published` — the owner publishes, no
+session does. 21 form entries and 7 notice entries at `review`. **All 145 keys in
 `figures.json` carry a `verified` date against a source opened that day**, so no page is
 blocked on a figure. `npm run verify` reports 0 errors.
 
@@ -18,9 +18,9 @@ blocked on a figure. `npm run verify` reports 0 errors.
 |---|---|
 | 3.1.1 Practice before the IRS | **2 / 2** |
 | 3.1.2 Requirements for enrolled agents | **16 / 16** |
+| 3.2.1 Power of attorney | **11 / 11** |
 | 3.1.3 Sanctionable acts | **4 / 4** |
 | 3.1.4 Rules and penalties | **7 / 7** |
-| 3.2.1 Power of attorney | 4 / 11 |
 | 3.2.6 Related issues | 2 / 10 |
 | 3.3.1 Collection process | 9 / 16 |
 | 3.3.2 Penalties and interest abatement | 2 / 5 |
@@ -70,7 +70,6 @@ Prefer depth over breadth. Each of these sits beside a page that already exists,
 
 | Codes | Why next |
 |---|---|
-| 3.2.1.e–k | Completes power of attorney — the next whole section, and the largest partly-written one. 3.2.1.h (Form 2848 vs 8821) has three tagged bank questions and both form entries already exist |
 | 3.3.2.c–e | Completes penalties and interest abatement. Interest abatement is § 6404(e), which is a different test from penalty relief and is regularly confused with it |
 | 3.3.3.a–f, h–i | The examination section. Open IRM 4.10 before asserting the correspondence/office/field taxonomy — two bank questions test it and this pass deliberately did not assert it unsourced |
 | 3.4.3.a, c–i | Completes electronic filing, mostly from Pub. 3112 and Pub. 1345 |
@@ -165,3 +164,31 @@ Recorded in full in `private/discrepancies.md`. **Do not move a page toward thes
 - **P3E2Q508** — asks which advertisement does *not* violate § 10.30 and answers "Endorsed
   by the IRS," which plainly does. The correct answer is "Enrolled to practice before the
   IRS," one of the three descriptions § 10.30(a)(1) supplies verbatim as acceptable.
+
+## Section 3.2.1 complete (18 August 2026)
+
+All eleven power-of-attorney topics are written. Sources: 26 CFR §§ 601.501–601.509, the
+Instructions for Forms 2848 and 8821 (both last reviewed 30 April 2026), Pub. 947, IRC
+§§ 6103(c), 7216 and 6713, and Reg. §§ 301.6103(c)-1, 301.7216-3 and 1.6012-1(a)(5).
+
+**Publication currency findings from this section** — both mean a page must not be written
+from the publication its topic is named after:
+
+- **Pub. 216 is Rev. 3-92** and its front matter incorporates amendments only through
+  56 FR 24001-24009 (28 May 1991). The sections it reprints were amended at 57 FR 27356 on
+  **19 June 1992**. The publication predates the last amendment to its own subject matter by
+  three months and has not been revised in 34 years. There is no HTML edition. 3.2.1.k cites
+  the CFR throughout.
+- **Pub. 947 no longer defines "durable power of attorney."** The definition survives in
+  **Reg. § 601.501(b)(9)(ii)**, in stronger terms. 3.2.1.f takes it from the regulation.
+
+**Divergence between a regulation and current instructions**, recorded as a figure rather
+than resolved silently: the CAF forward-recording horizon is **three years from the date of
+receipt** under Reg. § 601.506(d)(3)(ii) (1991) but **three years from 31 December of the
+year of receipt** under the current Form 2848 instructions. The instructions are more
+generous and are what the IRS applies. See `caf.future_horizon`.
+
+**Tagger coverage across 3.2.1 is poor.** Codes e, f, g and k all return zero tagged
+questions, and the §§ 6103(c)/7216 consent machinery is untested by the bank entirely. The
+Phase 0 tagger work in `BUILD_PLAN.md` is scoped to Parts 1 and 2; it needs a pass over the
+Part 3 rule table as well.
