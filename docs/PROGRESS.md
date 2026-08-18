@@ -11,8 +11,8 @@ is indexed, and only the owner moves a page there (see `docs/VERIFICATION.md`).
 |---|---:|---:|---:|---:|---:|---:|
 | 1. Individuals | 120 | 120 | 0 | 0 | 0 | 0 |
 | 2. Businesses | 119 | 119 | 0 | 0 | 0 | 0 |
-| 3. Representation, Practices and Procedures | 121 | 76 | 0 | 45 | 0 | 78,080 |
-| **All parts** | **360** | **315** | **0** | **45** | **0** | **78,080** |
+| 3. Representation, Practices and Procedures | 121 | 74 | 0 | 47 | 0 | 83,012 |
+| **All parts** | **360** | **313** | **0** | **47** | **0** | **83,012** |
 
 ## Part 1 — Individuals
 
@@ -431,8 +431,8 @@ is indexed, and only the owner moves a page there (see `docs/VERIFICATION.md`).
 | 3.1.2.d | [Rules for restrictions on advertising, solicitation and fee information](/representation/practices-and-procedures/requirements-for-enrolled-agents/rules-for-restrictions-on-advertising-solicitation-and-fee/) | stub | — | — |
 | 3.1.2.e | [Fee rules (e.g., contingent, unconscionable)](/representation/practices-and-procedures/requirements-for-enrolled-agents/fee-rules/) | review | 1,566 | 2026-08-18 |
 | 3.1.2.f | [Due diligence requirements](/representation/practices-and-procedures/requirements-for-enrolled-agents/due-diligence-requirements/) | review | 1,456 | 2026-08-18 |
-| 3.1.2.g | [Conflict of interest](/representation/practices-and-procedures/requirements-for-enrolled-agents/conflict-of-interest/) | stub | — | — |
-| 3.1.2.h | [Rules for refund check negotiation](/representation/practices-and-procedures/requirements-for-enrolled-agents/rules-for-refund-check-negotiation/) | stub | — | — |
+| 3.1.2.g | [Conflict of interest](/representation/practices-and-procedures/requirements-for-enrolled-agents/conflict-of-interest/) | review | 2,444 | 2026-08-18 |
+| 3.1.2.h | [Rules for refund check negotiation](/representation/practices-and-procedures/requirements-for-enrolled-agents/rules-for-refund-check-negotiation/) | review | 2,488 | 2026-08-18 |
 | 3.1.2.i | [Standards for written advice, covered opinions, tax return positions and preparing returns](/representation/practices-and-procedures/requirements-for-enrolled-agents/standards-for-written-advice-covered-opinions-tax-return/) | stub | — | — |
 | 3.1.2.j | [Continuing education requirements](/representation/practices-and-procedures/requirements-for-enrolled-agents/continuing-education-requirements/) | stub | — | — |
 | 3.1.2.k | [Tax shelters](/representation/practices-and-procedures/requirements-for-enrolled-agents/tax-shelters/) | stub | — | — |

@@ -14,7 +14,7 @@ authorities:
   - { type: IRC, ref: "§ 6695(e)", title: "Failure to file correct information returns" }
   - { type: Reg, ref: "§ 1.6060-1", title: "Reporting requirements for tax return preparers", url: "https://www.law.cornell.edu/cfr/text/26/1.6060-1" }
 forms: []
-related: ["3.1.4.e", "3.1.4.d", "3.1.4.b"]
+related: ["3.1.4.e", "3.1.4.d", "3.1.4.b", "3.1.2.h"]
 changelog:
   - { date: "2026-08-18", summary: "Initial publication from IRC §§ 6060, 6695(e) and Reg. § 1.6060-1." }
 ---

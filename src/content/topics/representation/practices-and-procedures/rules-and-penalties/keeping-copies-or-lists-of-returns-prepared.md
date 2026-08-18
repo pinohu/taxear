@@ -15,7 +15,7 @@ authorities:
   - { type: Reg, ref: "§ 1.6107-1(b)", title: "Copy or record to be retained", url: "https://www.law.cornell.edu/cfr/text/26/1.6107-1" }
   - { type: IRC, ref: "§ 6060(c)", title: "Return period defined" }
 forms: []
-related: ["3.1.4.c", "3.1.4.d", "3.1.4.f", "3.1.4.g", "3.1.2.n"]
+related: ["3.1.4.c", "3.1.4.d", "3.1.4.f", "3.1.4.g", "3.1.2.n", "3.1.2.h"]
 changelog:
   - { date: "2026-08-18", summary: "Initial publication from IRC §§ 6107(b), 6695(d), 6060(c) and Reg. § 1.6107-1(b)." }
 ---

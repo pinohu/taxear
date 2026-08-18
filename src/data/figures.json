@@ -769,6 +769,12 @@
       "taxYear": 2026,
       "source": "IRC § 7602(c)(1)",
       "verified": "2026-08-18"
+    },
+    "refund.direct_deposit_limit": {
+      "value": "3 refunds electronically deposited into a single financial account or pre-paid debit card; the fourth and subsequent refunds convert to a paper check",
+      "taxYear": 2026,
+      "source": "IRS, \"Direct deposit limits,\" page last reviewed 30 September 2025 — https://www.irs.gov/refunds/direct-deposit-limits",
+      "verified": "2026-08-18"
     }
   }
 }

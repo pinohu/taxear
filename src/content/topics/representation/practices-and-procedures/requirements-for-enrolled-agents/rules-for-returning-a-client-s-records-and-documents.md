@@ -14,7 +14,7 @@ authorities:
   - { type: Circ230, ref: "§ 10.51", title: "Incompetence and disreputable conduct", url: "https://www.law.cornell.edu/cfr/text/31/10.51" }
   - { type: IRC, ref: "§ 6107(b)", title: "Copy or list to be retained by tax return preparer" }
 forms: []
-related: ["3.1.2.a", "3.1.4.e", "3.1.2.g", "3.1.2.e"]
+related: ["3.1.2.a", "3.1.4.e", "3.1.2.g", "3.1.2.e", "3.1.2.h"]
 changelog:
   - { date: "2026-08-18", summary: "Initial publication from Circular 230 § 10.28." }
 ---
