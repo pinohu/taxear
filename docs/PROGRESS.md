@@ -11,8 +11,8 @@ is indexed, and only the owner moves a page there (see `docs/VERIFICATION.md`).
 |---|---:|---:|---:|---:|---:|---:|
 | 1. Individuals | 120 | 120 | 0 | 0 | 0 | 0 |
 | 2. Businesses | 119 | 119 | 0 | 0 | 0 | 0 |
-| 3. Representation, Practices and Procedures | 121 | 46 | 0 | 75 | 0 | 152,306 |
-| **All parts** | **360** | **285** | **0** | **75** | **0** | **152,306** |
+| 3. Representation, Practices and Procedures | 121 | 45 | 0 | 76 | 0 | 154,804 |
+| **All parts** | **360** | **284** | **0** | **76** | **0** | **154,804** |
 
 ## Part 1 — Individuals
 
@@ -535,7 +535,7 @@ is indexed, and only the owner moves a page there (see `docs/VERIFICATION.md`).
 | 3.2.6.e | [Freedom of Information Act (FOIA) requests](/representation/representation-before-the-irs/related-issues/freedom-of-information-act-foia-requests/) | review | 2,328 | 2026-08-18 |
 | 3.2.6.f | [Tax avoidance vs. tax evasion](/representation/representation-before-the-irs/related-issues/tax-avoidance-vs-tax-evasion/) | stub | — | — |
 | 3.2.6.g | [Tax return disclosure statements](/representation/representation-before-the-irs/related-issues/tax-return-disclosure-statements/) | stub | — | — |
-| 3.2.6.h | [Taxpayer Advocate Service (e.g., criteria for requesting assistance)](/representation/representation-before-the-irs/related-issues/taxpayer-advocate-service/) | stub | — | — |
+| 3.2.6.h | [Taxpayer Advocate Service (e.g., criteria for requesting assistance)](/representation/representation-before-the-irs/related-issues/taxpayer-advocate-service/) | review | 2,498 | 2026-08-18 |
 | 3.2.6.i | [Identity Theft](/representation/representation-before-the-irs/related-issues/identity-theft/) | stub | — | — |
 | 3.2.6.j | [Judicial levels of representation beyond the scope of EA representation](/representation/representation-before-the-irs/related-issues/judicial-levels-of-representation-beyond-the-scope-of-ea/) | review | 2,444 | 2026-08-18 |
 

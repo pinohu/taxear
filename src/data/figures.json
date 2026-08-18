@@ -1171,6 +1171,42 @@
       "taxYear": 2026,
       "source": "5 U.S.C. § 552(b), closing flush text — https://www.law.cornell.edu/uscode/text/5/552",
       "verified": "2026-08-18"
+    },
+    "tas.reasons": {
+      "value": "9, in 3 groups — financial hardship (reasons 1–4: hardship suffered or about to be suffered, immediate threat of negative action, major costs if relief is not granted, irreparable injury or long-term impact); IRS system issue (5–7: a delay of more than 30 days, no response or resolution by the date the IRS promised, a system or procedure that failed to operate as intended); and fair and equitable treatment (8–9: administration of the tax laws raising equity considerations or impairing taxpayer rights, and compelling public policy as determined by the National Taxpayer Advocate)",
+      "taxYear": 2026,
+      "source": "Taxpayer Advocate Service, \"Can TAS help me with my tax issue\" — https://www.taxpayeradvocate.irs.gov/can-tas-help-me-with-my-tax-issue/",
+      "verified": "2026-08-18"
+    },
+    "tas.significant_hardship": {
+      "value": "an immediate threat of adverse action; a delay of more than 30 days in resolving taxpayer account problems; the incurring of significant costs, including fees for professional representation, if relief is not granted; or irreparable injury to, or a long-term adverse impact on, the taxpayer if relief is not granted",
+      "taxYear": 2026,
+      "source": "IRC § 7811(a)(2) — https://www.law.cornell.edu/uscode/text/26/7811",
+      "verified": "2026-08-18"
+    },
+    "tas.tao_terms": {
+      "value": "the Secretary may be required, within a specified time, to release levied property, or to cease, take, or refrain from any action under chapter 64 (collection), subchapter B of chapter 70 (bankruptcy and receiverships), chapter 78 (discovery of liability and enforcement), or any other provision specifically described in the order",
+      "taxYear": 2026,
+      "source": "IRC § 7811(b) — https://www.law.cornell.edu/uscode/text/26/7811",
+      "verified": "2026-08-18"
+    },
+    "tas.tao_rescission": {
+      "value": "only by the National Taxpayer Advocate, the Commissioner, or the Deputy Commissioner — and only if a written explanation of the reasons is provided to the National Taxpayer Advocate",
+      "taxYear": 2026,
+      "source": "IRC § 7811(c) — https://www.law.cornell.edu/uscode/text/26/7811",
+      "verified": "2026-08-18"
+    },
+    "tas.tao_suspension": {
+      "value": "any period of limitation on an action described in IRC § 7811(b) is suspended from the date of the taxpayer's application until the date of the National Taxpayer Advocate's decision, plus any period specified in the order",
+      "taxYear": 2026,
+      "source": "IRC § 7811(d) — https://www.law.cornell.edu/uscode/text/26/7811",
+      "verified": "2026-08-18"
+    },
+    "tas.nta_independence": {
+      "value": "the National Taxpayer Advocate may be appointed only if not an IRS officer or employee during the 2-year period ending with the appointment, and must agree not to accept IRS employment for at least 5 years after leaving — service in the Office of the Taxpayer Advocate is disregarded",
+      "taxYear": 2026,
+      "source": "IRC § 7803(c)(1)(B)(iv) — https://www.law.cornell.edu/uscode/text/26/7803",
+      "verified": "2026-08-18"
     }
   }
 }
