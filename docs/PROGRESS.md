@@ -11,8 +11,8 @@ is indexed, and only the owner moves a page there (see `docs/VERIFICATION.md`).
 |---|---:|---:|---:|---:|---:|---:|
 | 1. Individuals | 120 | 120 | 0 | 0 | 0 | 0 |
 | 2. Businesses | 119 | 119 | 0 | 0 | 0 | 0 |
-| 3. Representation, Practices and Procedures | 121 | 103 | 0 | 18 | 0 | 31,252 |
-| **All parts** | **360** | **342** | **0** | **18** | **0** | **31,252** |
+| 3. Representation, Practices and Procedures | 121 | 101 | 0 | 20 | 0 | 35,340 |
+| **All parts** | **360** | **340** | **0** | **20** | **0** | **35,340** |
 
 ## Part 1 — Individuals
 
@@ -448,8 +448,8 @@ is indexed, and only the owner moves a page there (see `docs/VERIFICATION.md`).
 |---|---|---|---:|---|
 | 3.1.3.a | [Incompetence and disreputable conduct that may result in a disciplinary proceeding](/representation/practices-and-procedures/sanctionable-acts/incompetence-and-disreputable-conduct-that-may-result/) | review | 1,874 | 2026-08-18 |
 | 3.1.3.b | [Sanctions imposed by the Office of Professional Responsibility](/representation/practices-and-procedures/sanctionable-acts/sanctions-imposed-by-the-office-of-professional/) | review | 1,950 | 2026-08-18 |
-| 3.1.3.c | [Frivolous submissions (returns and documents)](/representation/practices-and-procedures/sanctionable-acts/frivolous-submissions-returns-and-documents/) | stub | — | — |
-| 3.1.3.d | [Fraudulent transactions (e.g., badges of fraud)](/representation/practices-and-procedures/sanctionable-acts/fraudulent-transactions/) | stub | — | — |
+| 3.1.3.c | [Frivolous submissions (returns and documents)](/representation/practices-and-procedures/sanctionable-acts/frivolous-submissions-returns-and-documents/) | review | 2,018 | 2026-08-18 |
+| 3.1.3.d | [Fraudulent transactions (e.g., badges of fraud)](/representation/practices-and-procedures/sanctionable-acts/fraudulent-transactions/) | review | 2,070 | 2026-08-18 |
 
 **3.1.4 Rules and penalties**
 

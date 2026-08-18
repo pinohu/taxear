@@ -19,7 +19,7 @@ authorities:
   - { type: Circ230, ref: "§ 10.81", title: "Petition for reinstatement", url: "https://www.law.cornell.edu/cfr/text/31/10.81" }
   - { type: Circ230, ref: "§ 10.82", title: "Expedited suspension", url: "https://www.law.cornell.edu/cfr/text/31/10.82" }
 forms: []
-related: ["3.1.3.a", "3.1.1.a", "3.1.1.b", "3.1.4.a"]
+related: ["3.1.3.a", "3.1.1.a", "3.1.1.b", "3.1.4.a", "3.1.3.c"]
 changelog:
   - { date: "2026-08-18", summary: "Initial publication from 31 CFR §§ 10.50, 10.60, 10.61, 10.62, 10.76, 10.77, 10.78, 10.79, 10.81 and 10.82 (Circular 230)." }
 ---

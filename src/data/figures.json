@@ -379,6 +379,54 @@
       "taxYear": 2026,
       "source": "irs.gov, About Form 1040-X, opened 2026-08-18",
       "verified": "2026-08-18"
+    },
+    "frivolous.positions.count": {
+      "value": "46 numbered positions, each covering positions that are the same as or similar to it",
+      "taxYear": 2026,
+      "source": "Notice 2010-33, § III (effective for submissions made and issues raised after 7 April 2010)",
+      "verified": "2026-08-18"
+    },
+    "frivolous.withdrawal_window": {
+      "value": "30 days after the IRS notifies the person that a submission is a specified frivolous submission",
+      "taxYear": 2026,
+      "source": "IRC § 6702(b)(3)",
+      "verified": "2026-08-18"
+    },
+    "frivolous.tax_court_penalty": {
+      "value": "up to $25,000 imposed by the Tax Court, and up to $10,000 in a section 7433 proceeding in another court",
+      "taxYear": 2026,
+      "source": "IRC § 6673(a)(1), § 6673(b)(1)",
+      "verified": "2026-08-18"
+    },
+    "fraud.civil.standard": {
+      "value": "clear and convincing evidence, the burden resting on the government",
+      "taxYear": 2026,
+      "source": "IRM 25.1.1.3.1 (04-22-2021)",
+      "verified": "2026-08-18"
+    },
+    "fraud.criminal.standard": {
+      "value": "beyond a reasonable doubt, the burden resting on the government",
+      "taxYear": 2026,
+      "source": "IRM 25.1.1.3.1 (04-22-2021)",
+      "verified": "2026-08-18"
+    },
+    "fraud.ftf.rate": {
+      "value": "15% of the tax per month or part month, maximum 75%",
+      "taxYear": 2026,
+      "source": "IRC § 6651(f), substituting for § 6651(a)(1)",
+      "verified": "2026-08-18"
+    },
+    "fraud.7201.sentence": {
+      "value": "a felony: a fine of up to $100,000 ($500,000 for a corporation), imprisonment of up to 5 years, or both, plus costs of prosecution",
+      "taxYear": 2026,
+      "source": "IRC § 7201",
+      "verified": "2026-08-18"
+    },
+    "fraud.assessment_period": {
+      "value": "no limitation period — tax may be assessed at any time on a false or fraudulent return filed with intent to evade",
+      "taxYear": 2026,
+      "source": "IRC § 6501(c)(1)",
+      "verified": "2026-08-18"
     }
   }
 }
