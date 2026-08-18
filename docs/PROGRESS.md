@@ -11,8 +11,8 @@ is indexed, and only the owner moves a page there (see `docs/VERIFICATION.md`).
 |---|---:|---:|---:|---:|---:|---:|
 | 1. Individuals | 120 | 120 | 0 | 0 | 0 | 0 |
 | 2. Businesses | 119 | 119 | 0 | 0 | 0 | 0 |
-| 3. Representation, Practices and Procedures | 121 | 118 | 0 | 3 | 0 | 5,854 |
-| **All parts** | **360** | **357** | **0** | **3** | **0** | **5,854** |
+| 3. Representation, Practices and Procedures | 121 | 117 | 0 | 4 | 0 | 7,303 |
+| **All parts** | **360** | **356** | **0** | **4** | **0** | **7,303** |
 
 ## Part 1 — Individuals
 
@@ -469,7 +469,7 @@ is indexed, and only the owner moves a page there (see `docs/VERIFICATION.md`).
 
 | Code | Title | Status | Words | Last reviewed |
 |---|---|---|---:|---|
-| 3.2.1.a | [Purpose of power of attorney](/representation/representation-before-the-irs/power-of-attorney/purpose-of-power-of-attorney/) | stub | — | — |
+| 3.2.1.a | [Purpose of power of attorney](/representation/representation-before-the-irs/power-of-attorney/purpose-of-power-of-attorney/) | review | 1,449 | 2026-08-18 |
 | 3.2.1.b | [Signature authority (e.g., extension of assessment period, closing agreement)](/representation/representation-before-the-irs/power-of-attorney/signature-authority/) | stub | — | — |
 | 3.2.1.c | [Authority granted by taxpayer](/representation/representation-before-the-irs/power-of-attorney/authority-granted-by-taxpayer/) | stub | — | — |
 | 3.2.1.d | [Limitations on signing tax returns on behalf of taxpayer](/representation/representation-before-the-irs/power-of-attorney/limitations-on-signing-tax-returns-on-behalf-of-taxpayer/) | stub | — | — |
