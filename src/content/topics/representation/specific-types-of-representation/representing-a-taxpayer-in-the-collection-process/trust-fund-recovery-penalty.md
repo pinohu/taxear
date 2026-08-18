@@ -16,7 +16,7 @@ authorities:
   - { type: IRM, ref: "5.7.4", title: "Investigation and Recommendation of the TFRP", url: "https://www.irs.gov/irm/part5/irm_05-007-004r" }
   - { type: IRC, ref: "§ 6331(i)", title: "No levy during pendency of proceedings for refund of divisible tax" }
 forms: []
-related: ["3.3.1.j", "3.3.1.m", "3.3.1.d"]
+related: ["3.3.1.j", "3.3.1.m", "3.3.1.d", "3.3.1.l"]
 changelog:
   - { date: "2026-08-18", summary: "Initial publication from IRC § 6672 and IRM 5.7.3 and 5.7.4 as revised June and July 2025." }
 ---

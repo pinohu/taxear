@@ -745,6 +745,30 @@
       "taxYear": 2026,
       "source": "IRC §§ 2204, 6905; IRS Pub. 559, opened 2026-08-18",
       "verified": "2026-08-18"
+    },
+    "summons.appearance_days": {
+      "value": "not less than 10 days from the date of the summons",
+      "taxYear": 2026,
+      "source": "IRC § 7605(a)",
+      "verified": "2026-08-18"
+    },
+    "summons.thirdparty_notice": {
+      "value": "within 3 days of service, and no later than the 23rd day before the day fixed in the summons for examining the records",
+      "taxYear": 2026,
+      "source": "IRC § 7609(a)(1)",
+      "verified": "2026-08-18"
+    },
+    "summons.quash_window": {
+      "value": "not later than the 20th day after notice is given, with a copy of the petition mailed to the person summoned and to the IRS within the same period",
+      "taxYear": 2026,
+      "source": "IRC § 7609(b)(2)",
+      "verified": "2026-08-18"
+    },
+    "summons.thirdparty_contact_notice": {
+      "value": "at least 45 days before a period of not more than one year in which third-party contacts are intended",
+      "taxYear": 2026,
+      "source": "IRC § 7602(c)(1)",
+      "verified": "2026-08-18"
     }
   }
 }
