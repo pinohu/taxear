@@ -16,7 +16,7 @@ authorities:
   - { type: Circ230, ref: "§ 10.34", title: "Standards with respect to tax returns and documents", url: "https://www.law.cornell.edu/cfr/text/31/10.34" }
   - { type: Circ230, ref: "§ 10.51", title: "Incompetence and disreputable conduct", url: "https://www.law.cornell.edu/cfr/text/31/10.51" }
 forms: []
-related: ["3.1.3.a", "3.1.3.b", "3.1.4.b", "3.1.3.d"]
+related: ["3.1.3.a", "3.1.3.b", "3.1.4.b", "3.1.3.d", "3.1.2.m"]
 changelog:
   - { date: "2026-08-18", summary: "Initial publication from IRC §§ 6702 and 6673, Notice 2010-33 and Circular 230 §§ 10.34, 10.51." }
 ---

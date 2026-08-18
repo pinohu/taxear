@@ -18,7 +18,7 @@ authorities:
   - { type: IRM, ref: "25.1.1", title: "Fraud Handbook, Overview/Definitions", url: "https://www.irs.gov/irm/part25/irm_25-001-001" }
   - { type: IRM, ref: "25.1.2", title: "Fraud Handbook, Recognizing and Developing Fraud", url: "https://www.irs.gov/irm/part25/irm_25-001-002" }
 forms: []
-related: ["3.1.3.a", "3.1.3.c", "3.3.2.a"]
+related: ["3.1.3.a", "3.1.3.c", "3.3.2.a", "3.1.2.b"]
 changelog:
   - { date: "2026-08-18", summary: "Initial publication from IRC §§ 6663, 6651(f), 6501(c)(1), 7201, 7206 and IRM 25.1.1, 25.1.2." }
 ---
