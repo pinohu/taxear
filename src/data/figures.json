@@ -9,46 +9,34 @@
       "verified": null
     },
     "ia.setup_fee.online_directdebit": {
-      "value": "$22",
+      "value": "$29",
       "taxYear": 2026,
-      "source": "IRS Payment Plans page; Reg. § 300.1",
-      "verified": null
+      "source": "IRS Payment plans (installment agreements) page, updated 2026-03-03; ceiling set by Reg. § 300.1(b)",
+      "verified": "2026-08-18"
     },
     "ia.setup_fee.online_other": {
       "value": "$69",
       "taxYear": 2026,
-      "source": "IRS Payment Plans page; Reg. § 300.1",
-      "verified": null
+      "source": "IRS Payment plans (installment agreements) page, updated 2026-03-03; ceiling set by Reg. § 300.1(b)",
+      "verified": "2026-08-18"
     },
     "ia.setup_fee.phone_mail_directdebit": {
       "value": "$107",
       "taxYear": 2026,
-      "source": "Reg. § 300.1",
-      "verified": null
+      "source": "IRS Payment plans (installment agreements) page, updated 2026-03-03; ceiling set by Reg. § 300.1(b)",
+      "verified": "2026-08-18"
     },
     "ia.setup_fee.phone_mail_other": {
       "value": "$178",
       "taxYear": 2026,
-      "source": "Reg. § 300.1",
-      "verified": null
+      "source": "IRS Payment plans (installment agreements) page, updated 2026-03-03; ceiling set by Reg. § 300.1(b)",
+      "verified": "2026-08-18"
     },
     "ia.setup_fee.lowincome": {
-      "value": "$43 (waived/reimbursed for direct debit)",
+      "value": "waived with direct debit; $43 otherwise, reimbursed on completion",
       "taxYear": 2026,
-      "source": "IRC § 6159(f); Reg. § 300.1",
-      "verified": null
-    },
-    "ia.streamlined.threshold": {
-      "value": "$50,000 combined tax, penalties, interest",
-      "taxYear": 2026,
-      "source": "IRM 5.14.5",
-      "verified": null
-    },
-    "ia.streamlined.term_months": {
-      "value": "72",
-      "taxYear": 2026,
-      "source": "IRM 5.14.5",
-      "verified": null
+      "source": "IRS Payment plans (installment agreements) page, updated 2026-03-03; ceiling set by Reg. § 300.1(b); IRC § 6159(f)",
+      "verified": "2026-08-18"
     },
     "penalty.ftf.rate": {
       "value": "5% per month, max 25%",
@@ -162,6 +150,24 @@
       "value": "$5,000",
       "taxYear": 2026,
       "source": "IRC § 6501(e)(1)(A)(ii)(II)",
+      "verified": "2026-08-18"
+    },
+    "ia.short_term.fee": {
+      "taxYear": 2026,
+      "value": "$0",
+      "source": "IRS Payment plans (installment agreements) page, updated 2026-03-03; ceiling set by Reg. § 300.1(b)",
+      "verified": "2026-08-18"
+    },
+    "ia.short_term.max_days": {
+      "taxYear": 2026,
+      "value": "180",
+      "source": "IRS Payment plans (installment agreements) page, updated 2026-03-03; ceiling set by Reg. § 300.1(b)",
+      "verified": "2026-08-18"
+    },
+    "ia.simple.threshold": {
+      "taxYear": 2026,
+      "value": "$50,000 or less aggregate unpaid balance of assessment",
+      "source": "IRM 5.14.5.2 (07-21-2026), Simple Payment Plans",
       "verified": "2026-08-18"
     }
   }
