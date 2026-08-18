@@ -24,7 +24,7 @@ blocked on a figure. `npm run verify` reports 0 errors.
 | 3.2.6 Related issues | 2 / 10 |
 | 3.3.1 Collection process | 9 / 16 |
 | 3.3.2 Penalties and interest abatement | **5 / 5** |
-| 3.3.3 Audits and examinations | 1 / 9 |
+| 3.3.3 Audits and examinations | 4 / 9 |
 | 3.4.3 Electronic filing | 1 / 9 |
 
 Untouched Part 3 sections: 3.2.2 (5), 3.2.3 (5), 3.2.4 (5), 3.2.5 (8), 3.3.4 (5),
@@ -49,6 +49,9 @@ deposit pages.
 | 3.3.1.b–e, i–k, m, o | installment agreements · OIC · CAP · CDP · lien · levy · CNC · collections statute · amended returns |
 | 3.3.2.a–b | penalties subject to abatement · basis for abatement |
 | 3.3.3.g | CP2000 and correspondence audits |
+| 3.3.3.a | IRS authority to investigate |
+| 3.3.3.b | limited practitioner privilege — IRC § 7525 |
+| 3.3.3.e | steps in the process — the IRS audits page plus IRC § 7521 |
 | 3.4.3.b | e-file mandate and exceptions |
 
 Forms: 2848, 8821, 1040-X, 843, 656, 9465, 12153, 9423, 6118, 8867, 8948, 8944, 8453,
@@ -70,8 +73,18 @@ Prefer depth over breadth. Each of these sits beside a page that already exists,
 
 | Codes | Why next |
 |---|---|
-| 3.3.3.a–f, h–i | The examination section. Open IRM 4.10 before asserting the correspondence/office/field taxonomy — two bank questions test it and this pass deliberately did not assert it unsourced |
+| 3.3.3.c, d, f, h, i | The rest of the examination section. **The taxonomy question is settled** — see below; do not re-open IRM 4.10 for it |
 | 3.4.3.a, c–i | Completes electronic filing, mostly from Pub. 3112 and Pub. 1345 |
+
+### The examination taxonomy — resolved 2026-08-18
+
+The long-standing open item is closed. **IRM 4.10.2 returns 404 on irs.gov** and IRM 4.10.1
+is "Overview of Examiner Responsibilities," which does not define the examination types.
+The correspondence / office / field taxonomy is stated directly on the IRS **"IRS audits"**
+page, last reviewed 17 February 2026, which also carries the initial-contact-by-mail rule,
+the one-time automatic 30-day extension, the look-back and the three-way conclusion. It is
+recorded in `figures.json` as `exam.types`, `exam.lookback`, `exam.mail_extension` and
+`exam.record_retention`. Source 3.3.3.c, d, f, h and i from there, not from the IRM.
 
 ## Carried forward — content
 
