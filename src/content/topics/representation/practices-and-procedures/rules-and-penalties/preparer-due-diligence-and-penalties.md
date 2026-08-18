@@ -15,7 +15,7 @@ authorities:
   - { type: Reg, ref: "§ 1.6695-2", title: "Tax return preparer due diligence requirements for certain tax returns and claims", url: "https://www.law.cornell.edu/cfr/text/26/1.6695-2" }
   - { type: RevProc, ref: "2025-32", title: "Inflation-adjusted items for 2026", url: "https://www.irs.gov/pub/irs-drop/rp-25-32.pdf" }
 forms: ["8867"]
-related: ["3.1.4.b", "3.1.4.e", "3.1.4.c", "3.1.2.f"]
+related: ["3.1.4.b", "3.1.4.e", "3.1.4.c", "3.1.2.f", "3.2.1.g"]
 changelog:
   - { date: "2026-08-18", summary: "Initial publication from IRC § 6695(g), (h) and Reg. § 1.6695-2." }
 ---

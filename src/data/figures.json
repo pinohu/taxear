@@ -853,6 +853,18 @@
       "taxYear": 2026,
       "source": "Reg. § 1.6012-1(a)(5), quoted in the Instructions for Form 2848 (rev. 09/2021), line 5a — https://www.law.cornell.edu/cfr/text/26/1.6012-1",
       "verified": "2026-08-18"
+    },
+    "disclosure.6103c_receipt_window": {
+      "value": "120 days following the date the taxpayer signed and dated the request or consent — the IRS will not make the disclosure if it is received later",
+      "taxYear": 2026,
+      "source": "Reg. § 301.6103(c)-1(b)(2) — https://www.law.cornell.edu/cfr/text/26/301.6103(c)-1",
+      "verified": "2026-08-18"
+    },
+    "disclosure.7216_consent_duration": {
+      "value": "the period the consent document specifies; where it specifies none, 1 year from the date the taxpayer signed it",
+      "taxYear": 2026,
+      "source": "Reg. § 301.7216-3(b)(5) — https://www.law.cornell.edu/cfr/text/26/301.7216-3",
+      "verified": "2026-08-18"
     }
   }
 }
