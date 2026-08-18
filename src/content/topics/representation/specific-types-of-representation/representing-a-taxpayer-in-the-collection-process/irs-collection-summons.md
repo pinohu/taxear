@@ -18,7 +18,7 @@ authorities:
   - { type: IRC, ref: "§ 7604", title: "Enforcement of summons" }
   - { type: IRM, ref: "25.5.2", title: "Preparation, Service and Enforcement of Summons", url: "https://www.irs.gov/irm/part25/irm_25-005-002" }
 forms: []
-related: ["3.3.1.j", "3.3.1.n", "3.3.1.m"]
+related: ["3.3.1.j", "3.3.1.n", "3.3.1.m", "3.3.3.a"]
 changelog:
   - { date: "2026-08-18", summary: "Initial publication from IRC §§ 7602, 7603, 7604, 7605, 7609 and 7610." }
 ---

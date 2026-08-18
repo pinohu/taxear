@@ -11,8 +11,8 @@ is indexed, and only the owner moves a page there (see `docs/VERIFICATION.md`).
 |---|---:|---:|---:|---:|---:|---:|
 | 1. Individuals | 120 | 120 | 0 | 0 | 0 | 0 |
 | 2. Businesses | 119 | 119 | 0 | 0 | 0 | 0 |
-| 3. Representation, Practices and Procedures | 121 | 56 | 0 | 65 | 0 | 127,833 |
-| **All parts** | **360** | **295** | **0** | **65** | **0** | **127,833** |
+| 3. Representation, Practices and Procedures | 121 | 55 | 0 | 66 | 0 | 130,317 |
+| **All parts** | **360** | **294** | **0** | **66** | **0** | **130,317** |
 
 ## Part 1 — Individuals
 
@@ -576,7 +576,7 @@ is indexed, and only the owner moves a page there (see `docs/VERIFICATION.md`).
 
 | Code | Title | Status | Words | Last reviewed |
 |---|---|---|---:|---|
-| 3.3.3.a | [IRS authority to investigate](/representation/specific-types-of-representation/representing-a-taxpayer-in-audits-examinations/irs-authority-to-investigate/) | stub | — | — |
+| 3.3.3.a | [IRS authority to investigate](/representation/specific-types-of-representation/representing-a-taxpayer-in-audits-examinations/irs-authority-to-investigate/) | review | 2,484 | 2026-08-18 |
 | 3.3.3.b | [Limited practitioner privilege (e.g., IRC Section 7525)](/representation/specific-types-of-representation/representing-a-taxpayer-in-audits-examinations/limited-practitioner-privilege/) | stub | — | — |
 | 3.3.3.c | [Verification and substantiation of entries on the return](/representation/specific-types-of-representation/representing-a-taxpayer-in-audits-examinations/verification-and-substantiation-of-entries-on-the-return/) | stub | — | — |
 | 3.3.3.d | [IRS authority to fix time and place of investigation](/representation/specific-types-of-representation/representing-a-taxpayer-in-audits-examinations/irs-authority-to-fix-time-and-place-of-investigation/) | stub | — | — |
