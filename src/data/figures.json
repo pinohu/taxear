@@ -301,6 +301,66 @@
       "taxYear": 2026,
       "source": "IRM 20.1.6.18 (08-10-2026)",
       "verified": "2026-08-18"
+    },
+    "circ230.10_51.categories": {
+      "value": "18 enumerated categories, expressly a non-exhaustive list",
+      "taxYear": 2026,
+      "source": "Circular 230 § 10.51(a)(1)–(18)",
+      "verified": "2026-08-18"
+    },
+    "circ230.monetary_penalty.cap": {
+      "value": "not more than the gross income derived, or to be derived, from the conduct giving rise to the penalty",
+      "taxYear": 2026,
+      "source": "Circular 230 § 10.50(c)(2)",
+      "verified": "2026-08-18"
+    },
+    "circ230.standard_of_proof": {
+      "value": "preponderance of the evidence for censure or suspension under six months; clear and convincing evidence for a monetary penalty, disbarment, or suspension of six months or longer",
+      "taxYear": 2026,
+      "source": "Circular 230 § 10.76(b)",
+      "verified": "2026-08-18"
+    },
+    "circ230.answer.min_days": {
+      "value": "not less than 30 days from service of the complaint",
+      "taxYear": 2026,
+      "source": "Circular 230 § 10.62(c)",
+      "verified": "2026-08-18"
+    },
+    "circ230.alj.decision_days": {
+      "value": "180 days after the hearing closes and proposed findings are received",
+      "taxYear": 2026,
+      "source": "Circular 230 § 10.76(a)(1)",
+      "verified": "2026-08-18"
+    },
+    "circ230.appeal.days": {
+      "value": "30 days from service of the Administrative Law Judge decision",
+      "taxYear": 2026,
+      "source": "Circular 230 § 10.77(b)",
+      "verified": "2026-08-18"
+    },
+    "circ230.agency_decision.days": {
+      "value": "180 days after receipt of the appeal",
+      "taxYear": 2026,
+      "source": "Circular 230 § 10.78(a)",
+      "verified": "2026-08-18"
+    },
+    "circ230.reinstatement.period": {
+      "value": "5 years after disbarment, suspension or disqualification, or immediately after a shorter period expires",
+      "taxYear": 2026,
+      "source": "Circular 230 § 10.81(a)",
+      "verified": "2026-08-18"
+    },
+    "circ230.expedited.lookback": {
+      "value": "conduct within the 5 years before the show cause order is served",
+      "taxYear": 2026,
+      "source": "Circular 230 § 10.82(b)",
+      "verified": "2026-08-18"
+    },
+    "circ230.expedited.nonfiling": {
+      "value": "no annual return in 4 of the 5 preceding tax years, or no more-frequent return in 5 of the 7 preceding tax periods, and still noncompliant when the suspension notice issues",
+      "taxYear": 2026,
+      "source": "Circular 230 § 10.82(b)(5)",
+      "verified": "2026-08-18"
     }
   }
 }

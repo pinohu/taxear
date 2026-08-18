@@ -16,7 +16,7 @@ authorities:
   - { type: Circ230, ref: "§ 10.8", title: "Return preparation and application of rules to other individuals", url: "https://www.law.cornell.edu/cfr/text/31/10.8" }
   - { type: Pub, ref: "947", title: "Practice Before the IRS and Power of Attorney", url: "https://www.irs.gov/forms-pubs/about-publication-947" }
 forms: ["2848", "8821"]
-related: ["3.1.1.a", "3.2.1.a", "3.2.1.d", "3.1.2.o"]
+related: ["3.1.1.a", "3.2.1.a", "3.2.1.d", "3.1.2.o", "3.1.3.b"]
 changelog:
   - { date: "2026-08-18", summary: "Initial publication from 31 CFR Part 10 and the IRS's current statement of representation rights." }
 ---
