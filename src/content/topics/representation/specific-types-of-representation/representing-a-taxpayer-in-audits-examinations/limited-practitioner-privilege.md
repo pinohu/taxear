@@ -15,7 +15,7 @@ authorities:
   - { type: IRC, ref: "§ 7521", title: "Procedures involving taxpayer interviews", url: "https://www.law.cornell.edu/uscode/text/26/7521" }
   - { type: Statute, ref: "31 U.S.C. § 330", title: "Practice before the Department of the Treasury", url: "https://www.law.cornell.edu/uscode/text/31/330" }
 forms: []
-related: ["3.3.3.a", "3.3.3.e", "3.1.2.a"]
+related: ["3.3.3.a", "3.3.3.e", "3.1.2.a", "3.3.3.d"]
 changelog:
   - { date: "2026-08-18", summary: "Initial publication from IRC §§ 7525, 6662(d)(2)(C)(ii), 7521 and 31 U.S.C. § 330, each opened at source." }
 ---

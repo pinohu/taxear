@@ -979,6 +979,30 @@
       "taxYear": 2026,
       "source": "IRC § 6662(d)(2)(C)(ii), cross-referenced by IRC § 7525(b)(2) — https://www.law.cornell.edu/uscode/text/26/6662",
       "verified": "2026-08-18"
+    },
+    "exam.summons_appearance_days": {
+      "value": "the date fixed for appearance must be no less than 10 days from the date of the summons",
+      "taxYear": 2026,
+      "source": "IRC § 7605(a) and Reg. § 301.7605-1(b)(2) — https://www.law.cornell.edu/cfr/text/26/301.7605-1",
+      "verified": "2026-08-18"
+    },
+    "exam.transfer_factors": {
+      "value": "6 — the taxpayer's current residence; current principal place of business; where the books, records and source documents are maintained; where the Service can examine most efficiently; the Service resources available at the requested location; and other factors showing undue inconvenience",
+      "taxYear": 2026,
+      "source": "Reg. § 301.7605-1(e)(1) — https://www.law.cornell.edu/cfr/text/26/301.7605-1",
+      "verified": "2026-08-18"
+    },
+    "exam.transfer_sol_window": {
+      "value": "where a limitations period on assessment or collection will expire within 13 months of the request, the Service may condition an otherwise permissible transfer on a written extension of up to one year",
+      "taxYear": 2026,
+      "source": "Reg. § 301.7605-1(e)(4) — https://www.law.cornell.edu/cfr/text/26/301.7605-1",
+      "verified": "2026-08-18"
+    },
+    "exam.one_inspection": {
+      "value": "one inspection of a taxpayer's books of account per taxable year, unless the taxpayer requests otherwise or an authorized officer, after investigation, notifies the taxpayer in writing that an additional inspection is necessary",
+      "taxYear": 2026,
+      "source": "IRC § 7605(b) and Reg. § 301.7605-1(h) — https://www.law.cornell.edu/uscode/text/26/7605",
+      "verified": "2026-08-18"
     }
   }
 }
