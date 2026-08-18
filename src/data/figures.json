@@ -937,6 +937,30 @@
       "taxYear": 2026,
       "source": "IRC § 6676(a), as described in the Instructions for Form 843 (rev. 12/2024) — https://www.law.cornell.edu/uscode/text/26/6676",
       "verified": "2026-08-18"
+    },
+    "exam.types": {
+      "value": "by mail (correspondence), or by in-person interview — at an IRS office (office audit) or at the taxpayer's home, place of business, or accountant's or representative's office (field audit)",
+      "taxYear": 2026,
+      "source": "IRS, \"IRS audits,\" page last reviewed 17 February 2026 — https://www.irs.gov/businesses/small-businesses-self-employed/irs-audits",
+      "verified": "2026-08-18"
+    },
+    "exam.lookback": {
+      "value": "generally returns filed within the last 3 years; additional years may be added where a substantial error is identified, and the IRS usually does not go back more than 6 years — most audits are of returns filed within the last 2 years",
+      "taxYear": 2026,
+      "source": "IRS, \"IRS audits,\" page last reviewed 17 February 2026 — https://www.irs.gov/businesses/small-businesses-self-employed/irs-audits",
+      "verified": "2026-08-18"
+    },
+    "exam.mail_extension": {
+      "value": "a one-time automatic 30-day extension is ordinarily granted for an audit conducted by mail; no additional time is available once a notice of deficiency has issued, and the 90-day Tax Court petition period cannot be extended",
+      "taxYear": 2026,
+      "source": "IRS, \"IRS audits,\" page last reviewed 17 February 2026 — https://www.irs.gov/businesses/small-businesses-self-employed/irs-audits",
+      "verified": "2026-08-18"
+    },
+    "exam.record_retention": {
+      "value": "at least 3 years from the date the return was filed, for all records used to prepare it",
+      "taxYear": 2026,
+      "source": "IRS, \"IRS audits,\" page last reviewed 17 February 2026 — https://www.irs.gov/businesses/small-businesses-self-employed/irs-audits",
+      "verified": "2026-08-18"
     }
   }
 }

@@ -11,8 +11,8 @@ is indexed, and only the owner moves a page there (see `docs/VERIFICATION.md`).
 |---|---:|---:|---:|---:|---:|---:|
 | 1. Individuals | 120 | 120 | 0 | 0 | 0 | 0 |
 | 2. Businesses | 119 | 119 | 0 | 0 | 0 | 0 |
-| 3. Representation, Practices and Procedures | 121 | 55 | 0 | 66 | 0 | 130,317 |
-| **All parts** | **360** | **294** | **0** | **66** | **0** | **130,317** |
+| 3. Representation, Practices and Procedures | 121 | 54 | 0 | 67 | 0 | 132,812 |
+| **All parts** | **360** | **293** | **0** | **67** | **0** | **132,812** |
 
 ## Part 1 — Individuals
 
@@ -580,7 +580,7 @@ is indexed, and only the owner moves a page there (see `docs/VERIFICATION.md`).
 | 3.3.3.b | [Limited practitioner privilege (e.g., IRC Section 7525)](/representation/specific-types-of-representation/representing-a-taxpayer-in-audits-examinations/limited-practitioner-privilege/) | stub | — | — |
 | 3.3.3.c | [Verification and substantiation of entries on the return](/representation/specific-types-of-representation/representing-a-taxpayer-in-audits-examinations/verification-and-substantiation-of-entries-on-the-return/) | stub | — | — |
 | 3.3.3.d | [IRS authority to fix time and place of investigation](/representation/specific-types-of-representation/representing-a-taxpayer-in-audits-examinations/irs-authority-to-fix-time-and-place-of-investigation/) | stub | — | — |
-| 3.3.3.e | [Steps in the process (e.g., initial meeting, submission of IRS requested information)](/representation/specific-types-of-representation/representing-a-taxpayer-in-audits-examinations/steps-in-the-process/) | stub | — | — |
+| 3.3.3.e | [Steps in the process (e.g., initial meeting, submission of IRS requested information)](/representation/specific-types-of-representation/representing-a-taxpayer-in-audits-examinations/steps-in-the-process/) | review | 2,495 | 2026-08-18 |
 | 3.3.3.f | [Interpretation and analysis of Revenue Agent Report (RAR) (e.g., 30-day letter)](/representation/specific-types-of-representation/representing-a-taxpayer-in-audits-examinations/interpretation-and-analysis-of-revenue-agent-report-rar/) | stub | — | — |
 | 3.3.3.g | [Interpretation and analysis of CP-2000 notice and correspondence audits](/representation/specific-types-of-representation/representing-a-taxpayer-in-audits-examinations/interpretation-and-analysis-of-cp-2000-notice/) | review | 1,683 | 2026-08-18 |
 | 3.3.3.h | [Explanations of taxpayer options (e.g. agree or appeal)](/representation/specific-types-of-representation/representing-a-taxpayer-in-audits-examinations/explanations-of-taxpayer-options/) | stub | — | — |

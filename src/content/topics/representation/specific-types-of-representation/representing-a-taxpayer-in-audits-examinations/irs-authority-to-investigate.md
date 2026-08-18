@@ -17,7 +17,7 @@ authorities:
   - { type: IRC, ref: "§ 6103", title: "Confidentiality and disclosure of returns and return information", url: "https://www.law.cornell.edu/uscode/text/26/6103" }
   - { type: IRC, ref: "§ 7611", title: "Restrictions on church tax inquiries and examinations", url: "https://www.law.cornell.edu/uscode/text/26/7611" }
 forms: []
-related: ["3.3.3.g", "3.3.1.l", "3.2.6.a"]
+related: ["3.3.3.g", "3.3.1.l", "3.2.6.a", "3.3.3.e"]
 changelog:
   - { date: "2026-08-18", summary: "Initial publication from IRC §§ 7602, 7605 and 7609." }
 ---
