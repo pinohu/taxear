@@ -111,40 +111,34 @@
       "verified": "2026-08-18"
     },
     "cdp.response_days": {
-      "value": "30 days",
+      "value": "30 days — for a lien, beginning the day after the 5-business-day period following the NFTL filing; for a levy, the 30-day period after the final notice",
       "taxYear": 2026,
-      "source": "IRC § 6320(a)(3), § 6330(a)(3)",
-      "verified": null
+      "source": "IRC § 6320(a)(2), (a)(3)(B); IRC § 6330(a)(2), (a)(3)(B)",
+      "verified": "2026-08-18"
     },
     "records.general_retention": {
-      "value": "3 years",
+      "value": "as long as the period of limitations for the return runs; employment tax records at least 4 years after the tax is due or paid, whichever is later",
       "taxYear": 2026,
-      "source": "IRS Pub 583; IRC § 6001",
-      "verified": null
+      "source": "IRC § 6001; IRS Pub. 583, How Long To Keep Records (page reviewed 30 April 2026)",
+      "verified": "2026-08-18"
     },
     "preparer.records_retention_6107": {
-      "value": "3 years after the return period",
+      "value": "3 years after the close of the return period — a completed copy, or a list of taxpayer names and identifying numbers",
       "taxYear": 2026,
       "source": "IRC § 6107(b)",
-      "verified": null
-    },
-    "efile.mandate_threshold": {
-      "value": "11 or more covered returns in the calendar year",
-      "taxYear": 2026,
-      "source": "IRC § 6011(e); Reg. § 301.6011-7",
-      "verified": null
+      "verified": "2026-08-18"
     },
     "ea.ce.hours_per_cycle": {
-      "value": "72 hours per 3-year cycle, min 16 per year incl. 2 ethics",
+      "value": "72 hours per enrollment cycle including 6 hours of ethics, and a minimum of 16 hours per enrollment year including 2 hours of ethics",
       "taxYear": 2026,
-      "source": "Circular 230 § 10.6(e)",
-      "verified": null
+      "source": "Circular 230 § 10.6(e)(2)(i), (ii)",
+      "verified": "2026-08-18"
     },
     "ptin.fee": {
-      "value": "$18.75 ($11 fee + $7.75 contractor)",
+      "value": "$18.75 to apply or renew — a $10 annual IRS fee plus $8.75 charged by the contractor",
       "taxYear": 2026,
-      "source": "Reg. § 300.12; IRS PTIN page",
-      "verified": null
+      "source": "Reg. § 300.11 (applies from 30 September 2025); irs.gov PTIN requirements page",
+      "verified": "2026-08-18"
     },
     "sol.assessment.foreign_asset_threshold": {
       "value": "$5,000",
