@@ -15,7 +15,7 @@ authorities:
   - { type: IRC, ref: "§ 7602", title: "Examination of books and witnesses", url: "https://www.law.cornell.edu/uscode/text/26/7602" }
   - { type: IRC, ref: "§ 7521", title: "Procedures involving taxpayer interviews", url: "https://www.law.cornell.edu/uscode/text/26/7521" }
 forms: []
-related: ["3.3.3.a", "3.3.3.e", "3.3.3.b"]
+related: ["3.3.3.a", "3.3.3.e", "3.3.3.b", "3.3.3.c"]
 changelog:
   - { date: "2026-08-18", summary: "Initial publication from IRC § 7605 and the full text of Reg. § 301.7605-1, both opened at source." }
 ---

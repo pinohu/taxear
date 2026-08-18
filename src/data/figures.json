@@ -1003,6 +1003,30 @@
       "taxYear": 2026,
       "source": "IRC § 7605(b) and Reg. § 301.7605-1(h) — https://www.law.cornell.edu/uscode/text/26/7605",
       "verified": "2026-08-18"
+    },
+    "records.6001_standard": {
+      "value": "permanent books of account or records, including inventories, sufficient to establish the amount of gross income, deductions, credits, or other matters required to be shown on the return",
+      "taxYear": 2026,
+      "source": "Reg. § 1.6001-1(a) — https://www.law.cornell.edu/cfr/text/26/1.6001-1",
+      "verified": "2026-08-18"
+    },
+    "records.retention_standard": {
+      "value": "kept at all times available for inspection by authorized internal revenue officers or employees, and retained so long as the contents may become material in the administration of any internal revenue law",
+      "taxYear": 2026,
+      "source": "Reg. § 1.6001-1(e) — https://www.law.cornell.edu/cfr/text/26/1.6001-1",
+      "verified": "2026-08-18"
+    },
+    "records.274d_categories": {
+      "value": "3 — traveling expenses under § 162 or § 212 (including meals and lodging while away from home), expenses for gifts, and listed property as defined in § 280F(d)(4)",
+      "taxYear": 2026,
+      "source": "IRC § 274(d)(1)–(3) — https://www.law.cornell.edu/uscode/text/26/274",
+      "verified": "2026-08-18"
+    },
+    "records.274d_elements": {
+      "value": "4 — the amount of the expense or other item; the time and place of the travel or the date and description of the gift; the business purpose; and the business relationship to the taxpayer of the person receiving the benefit",
+      "taxYear": 2026,
+      "source": "IRC § 274(d)(A)–(D) — https://www.law.cornell.edu/uscode/text/26/274",
+      "verified": "2026-08-18"
     }
   }
 }

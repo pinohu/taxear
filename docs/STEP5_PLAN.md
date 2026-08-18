@@ -24,7 +24,7 @@ blocked on a figure. `npm run verify` reports 0 errors.
 | 3.2.6 Related issues | 2 / 10 |
 | 3.3.1 Collection process | 9 / 16 |
 | 3.3.2 Penalties and interest abatement | **5 / 5** |
-| 3.3.3 Audits and examinations | 4 / 9 |
+| 3.3.3 Audits and examinations | 6 / 9 |
 | 3.4.3 Electronic filing | 1 / 9 |
 
 Untouched Part 3 sections: 3.2.2 (5), 3.2.3 (5), 3.2.4 (5), 3.2.5 (8), 3.3.4 (5),
@@ -52,6 +52,8 @@ deposit pages.
 | 3.3.3.a | IRS authority to investigate |
 | 3.3.3.b | limited practitioner privilege — IRC § 7525 |
 | 3.3.3.e | steps in the process — the IRS audits page plus IRC § 7521 |
+| 3.3.3.c | verification and substantiation — IRC §§ 6001, 274(d), 6201(d) |
+| 3.3.3.d | time and place of investigation — IRC § 7605, Reg. § 301.7605-1 |
 | 3.4.3.b | e-file mandate and exceptions |
 
 Forms: 2848, 8821, 1040-X, 843, 656, 9465, 12153, 9423, 6118, 8867, 8948, 8944, 8453,
@@ -73,7 +75,7 @@ Prefer depth over breadth. Each of these sits beside a page that already exists,
 
 | Codes | Why next |
 |---|---|
-| 3.3.3.c, d, f, h, i | The rest of the examination section. **The taxonomy question is settled** — see below; do not re-open IRM 4.10 for it |
+| 3.3.3.f, h, i | The rest of the examination section — RAR and the 30-day letter, taxpayer options, burden of proof (IRC § 7491). **The taxonomy question is settled** — see below; do not re-open IRM 4.10 for it |
 | 3.4.3.a, c–i | Completes electronic filing, mostly from Pub. 3112 and Pub. 1345 |
 
 ### The examination taxonomy — resolved 2026-08-18
