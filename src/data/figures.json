@@ -775,6 +775,30 @@
       "taxYear": 2026,
       "source": "IRS, \"Direct deposit limits,\" page last reviewed 30 September 2025 — https://www.irs.gov/refunds/direct-deposit-limits",
       "verified": "2026-08-18"
+    },
+    "ea.enrollment_fee": {
+      "value": "$140 to enroll initially, and $140 to renew",
+      "taxYear": 2026,
+      "source": "26 CFR §§ 300.5(b) and 300.6(b), applicable beginning 31 October 2022 (T.D. 9966) — https://www.law.cornell.edu/cfr/text/26/300.5 and /300.6",
+      "verified": "2026-08-18"
+    },
+    "ea.ce.instruction_cap": {
+      "value": "6 hours annually for enrolled agents and enrolled retirement plan agents, and 4 hours annually for registered tax return preparers, counting instruction and preparation together",
+      "taxYear": 2026,
+      "source": "Circular 230 § 10.6(f)(2)(iii)(C) — https://www.law.cornell.edu/cfr/text/31/10.6",
+      "verified": "2026-08-18"
+    },
+    "ea.ce.contact_hour": {
+      "value": "50 minutes of continuous participation; credit is granted only for a full contact hour or multiples of it, and a university semester hour equals 15 contact hours while a quarter hour equals 10",
+      "taxYear": 2026,
+      "source": "Circular 230 § 10.6(g) — https://www.law.cornell.edu/cfr/text/31/10.6",
+      "verified": "2026-08-18"
+    },
+    "ea.ce.recordkeeping": {
+      "value": "4 years following the date of renewal",
+      "taxYear": 2026,
+      "source": "Circular 230 § 10.6(h) — https://www.law.cornell.edu/cfr/text/31/10.6",
+      "verified": "2026-08-18"
     }
   }
 }
