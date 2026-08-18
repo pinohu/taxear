@@ -961,6 +961,24 @@
       "taxYear": 2026,
       "source": "IRS, \"IRS audits,\" page last reviewed 17 February 2026 — https://www.irs.gov/businesses/small-businesses-self-employed/irs-audits",
       "verified": "2026-08-18"
+    },
+    "privilege.7525_forums": {
+      "value": "any noncriminal tax matter before the IRS, and any noncriminal tax proceeding in Federal court brought by or against the United States",
+      "taxYear": 2026,
+      "source": "IRC § 7525(a)(2) — https://www.law.cornell.edu/uscode/text/26/7525",
+      "verified": "2026-08-18"
+    },
+    "privilege.7525_shelter_exception": {
+      "value": "no privilege for any written communication between a federally authorized tax practitioner and any person (or that person's director, officer, employee, agent, representative, or capital- or profits-interest holder) in connection with the promotion of that person's direct or indirect participation in a tax shelter",
+      "taxYear": 2026,
+      "source": "IRC § 7525(b) — https://www.law.cornell.edu/uscode/text/26/7525",
+      "verified": "2026-08-18"
+    },
+    "privilege.tax_shelter_definition": {
+      "value": "a partnership or other entity, any investment plan or arrangement, or any other plan or arrangement, if a significant purpose of it is the avoidance or evasion of Federal income tax",
+      "taxYear": 2026,
+      "source": "IRC § 6662(d)(2)(C)(ii), cross-referenced by IRC § 7525(b)(2) — https://www.law.cornell.edu/uscode/text/26/6662",
+      "verified": "2026-08-18"
     }
   }
 }

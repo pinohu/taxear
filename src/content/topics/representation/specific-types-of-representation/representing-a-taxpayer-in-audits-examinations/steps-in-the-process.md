@@ -17,7 +17,7 @@ authorities:
   - { type: IRC, ref: "§ 6212", title: "Notice of deficiency", url: "https://www.law.cornell.edu/uscode/text/26/6212" }
   - { type: IRC, ref: "§ 6213", title: "Restrictions applicable to deficiencies; petition to Tax Court", url: "https://www.law.cornell.edu/uscode/text/26/6213" }
 forms: []
-related: ["3.3.3.a", "3.3.3.g", "3.2.6.a"]
+related: ["3.3.3.a", "3.3.3.g", "3.2.6.a", "3.3.3.b"]
 changelog:
   - { date: "2026-08-18", summary: "Initial publication from the IRS IRS audits page (last reviewed 17 February 2026) and IRC §§ 6212, 6213, 6501 and 7521." }
 ---
