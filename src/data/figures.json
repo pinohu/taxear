@@ -547,6 +547,72 @@
       "taxYear": 2026,
       "source": "Reg. § 301.6320-1(i)(2) A-I7; Reg. § 301.6330-1(i)(2) A-I7",
       "verified": "2026-08-18"
+    },
+    "cnc.hardship_codes": {
+      "value": "closing codes 24 through 32, available only for individual or joint IMF assessments, sole proprietorships, partnerships where a general partner is personally liable, and LLCs where an individual owner is the liable taxpayer",
+      "taxYear": 2026,
+      "source": "IRM 5.16.1.2.9 (03-03-2025)",
+      "verified": "2026-08-18"
+    },
+    "cnc.nftl_threshold": {
+      "value": "a Notice of Federal Tax Lien should generally be filed on an account reported CNC where the aggregate unpaid balance of assessments is $10,000 or more",
+      "taxYear": 2026,
+      "source": "IRM 5.16.1.2 (03-03-2025)",
+      "verified": "2026-08-18"
+    },
+    "refund.claim_period": {
+      "value": "3 years from the time the return was filed or 2 years from the time the tax was paid, whichever is later; 2 years from payment where no return was filed",
+      "taxYear": 2026,
+      "source": "IRC § 6511(a)",
+      "verified": "2026-08-18"
+    },
+    "refund.lookback.three_year": {
+      "value": "tax paid within the 3 years immediately preceding the claim, plus any period of extension of time for filing",
+      "taxYear": 2026,
+      "source": "IRC § 6511(b)(2)(A)",
+      "verified": "2026-08-18"
+    },
+    "refund.lookback.two_year": {
+      "value": "tax paid within the 2 years immediately preceding the claim",
+      "taxYear": 2026,
+      "source": "IRC § 6511(b)(2)(B)",
+      "verified": "2026-08-18"
+    },
+    "refund.baddebt_period": {
+      "value": "7 years from the date prescribed for filing the return for the year the claim relates to",
+      "taxYear": 2026,
+      "source": "IRC § 6511(d)(1)",
+      "verified": "2026-08-18"
+    },
+    "refund.nol_period": {
+      "value": "3 years after the due date, including extensions, of the return for the loss year that produces the carryback, or the § 6511(c) period, whichever expires later",
+      "taxYear": 2026,
+      "source": "IRC § 6511(d)(2)(A)",
+      "verified": "2026-08-18"
+    },
+    "refund.ftc_period": {
+      "value": "10 years from the date prescribed for filing the return for the year the foreign taxes were actually paid or accrued",
+      "taxYear": 2026,
+      "source": "IRC § 6511(d)(3)(A)",
+      "verified": "2026-08-18"
+    },
+    "refund.consent_tail": {
+      "value": "not before 6 months after the assessment period agreed under § 6501(c)(4) expires",
+      "taxYear": 2026,
+      "source": "IRC § 6511(c)(1)",
+      "verified": "2026-08-18"
+    },
+    "refund.disability_suspension": {
+      "value": "suspended while an individual is financially disabled — unable to manage financial affairs through a medically determinable impairment expected to result in death or lasting at least 12 continuous months",
+      "taxYear": 2026,
+      "source": "IRC § 6511(h)(1), (h)(2)(A)",
+      "verified": "2026-08-18"
+    },
+    "amended.assessment_tail": {
+      "value": "where a signed document showing additional tax is received in the 60 days ending on the assessment deadline, the period for that additional amount runs 60 days from receipt",
+      "taxYear": 2026,
+      "source": "IRC § 6501(c)(7)",
+      "verified": "2026-08-18"
     }
   }
 }
