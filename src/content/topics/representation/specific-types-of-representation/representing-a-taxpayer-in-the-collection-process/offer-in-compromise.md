@@ -14,7 +14,7 @@ authorities:
   - { type: IRC, ref: "§ 6331", title: "Levy and distraint" }
   - { type: Reg, ref: "301.7122-1", title: "Compromises", url: "https://www.law.cornell.edu/cfr/text/26/301.7122-1" }
   - { type: Form, ref: "656", title: "Offer in Compromise", url: "https://www.irs.gov/forms-pubs/about-form-656" }
-forms: ["656"]
+forms: ["656", "433-A", "433-B"]
 related: ["3.3.1.b", "3.3.1.d", "3.2.6.a", "3.2.1.a"]
 changelog:
   - { date: "2026-08-18", summary: "Initial publication from IRC § 7122, Reg. § 301.7122-1, and the current IRS offer in compromise guidance." }
