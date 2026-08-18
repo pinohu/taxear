@@ -52,15 +52,15 @@ Never commit either file. CI fails the build if anything under `private/` is tra
 
 ```sh
 npm test          # expect 18 passing
-npm run build     # expect ~372 pages, no errors
+npm run build     # expect ~394 pages, no errors
 npm run verify    # expect 0 errors; warnings on the exemplar are known and listed below
 npm run dev       # http://localhost:4321
 ```
 
-`verify` currently reports ten warnings, all on the statute of limitations page: three
-forms it cites that have no directory entry yet, four related topics not yet authored, one
-rate written in prose, and two IRC sections cited in the body but absent from
-`authorities[]`. They are expected until the first batch is written; none is an error.
+`verify` currently reports twenty warnings and no errors. They are almost all of two
+kinds: a `related[]` topic that is still a stub, so the link is one-way until that page is
+written, and a rate written in prose where the underlying figure already lives in
+`figures.json`. Both clear as the surrounding sections get written; neither is an error.
 
 ## 5. Start the work
 
@@ -69,12 +69,12 @@ the commands and the current state come with it — no re-briefing needed.
 
 A first instruction that works:
 
-> Work `docs/STEP5_PLAN.md`. Start with 3.2.6.a: open every authority in its
-> `authorities[]` list and re-verify each citation on the page, then close the three gaps
-> in `private/discrepancies.md` — the § 6511(d) special refund periods, currently not
-> collectible, and the § 6330(e)(1) tail. Verify its five figure keys against sources and
-> stamp them. Then run the §4 check for the bank IDs listed for that code. Leave it at
-> `review` for me.
+> Work `docs/STEP5_PLAN.md`, "Next: finish the sections already opened", in order. Per
+> page: open every authority at source before citing it, verify each figure against the
+> current Rev. Proc., statute or IRS page and stamp today's date, keep scenarios and
+> questions original, run the §4 check against the bank IDs for that code and log what you
+> find in `private/discrepancies.md`, then `npm test && npm run build && npm run verify &&
+> npm run progress`. Leave each page at `review` for me and commit it separately.
 
 Two things that get easier the moment you are local, both blocked in the cloud session:
 

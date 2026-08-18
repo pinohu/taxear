@@ -93,12 +93,13 @@ committed.
 
 ## Where the project stands
 
-One page written: `3.2.6.a` statute of limitations, at `review`, and it is the quality
-bar. Everything else is a stub. All 28 keys in `figures.json` are still unverified, so no
-page that uses one can pass `verify` until they are checked against sources.
+18 topic pages at `review`, 342 at `stub`, none at `published` — only the owner publishes.
+17 form entries and 7 notice entries at `review`. **Every key in `figures.json` carries a
+`verified` date against a source that was opened that day**, so no page is blocked on a
+figure. `3.2.6.a` statute of limitations is the quality bar.
 
-`docs/STEP5_PLAN.md` is the work order for the first ten Part 3 pages: per page, the
-authorities to open first, the figure keys needed, the form and notice entries, and the
-bank question IDs. `private/discrepancies.md` records three gaps already found in the
-statute of limitations page — the § 6511(d) special refund periods, currently-not-
-collectible, and the § 6330(e)(1) tail — that the next pass has to close.
+`docs/STEP5_PLAN.md` is the running work order: what is written, what comes next, and the
+bank question IDs per code. `private/discrepancies.md` is the log of every §4 check run so
+far — which bank questions are wrong on the law, which are merely dated, and which page
+gaps are still open. **Read it before "correcting" a page toward the bank**; several
+questions test regimes that have since been retired, and the log says so explicitly.

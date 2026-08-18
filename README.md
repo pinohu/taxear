@@ -40,4 +40,4 @@ and is excluded from the sitemap. Change status only after the checklist in `doc
 ## Deploy (Cloudflare Pages)
 Build command `npm run build`, output directory `dist`, Node 22 (pinned in `.nvmrc`).
 Full runbook, including the DNS records and search-console setup: `docs/LAUNCH.md`.
-Annual figures refresh: `docs/ANNUAL_REFRESH.md`. Current work order: `docs/STEP5_PLAN.md`.
+Annual figures refresh: `docs/ANNUAL_REFRESH.md`. Running work order: `docs/STEP5_PLAN.md`.
