@@ -5,36 +5,40 @@ next session picks up. Regenerate the numbers with `npm run progress`.
 
 ## Where the project stands (18 August 2026)
 
-18 topic pages at `review`, 342 at `stub`, none at `published` — the owner moves pages to
-`published`, no session does. 17 form entries and 7 notice entries at `review`. **All 63
-keys in `figures.json` carry a `verified` date against a source opened that day**; there are
-no unverified figures left, so no page is blocked on one.
+32 topic pages at `review`, 328 at `stub`, none at `published` — the owner publishes, no
+session does. 17 form entries and 7 notice entries at `review`. **All 105 keys in
+`figures.json` carry a `verified` date against a source opened that day**, so no page is
+blocked on a figure. `npm run verify` reports 0 errors.
 
 | Section | Written |
 |---|---|
-| 3.1.1 Practice before the IRS | 2 / 2 |
-| 3.1.3 Sanctionable acts | 2 / 4 |
-| 3.1.4 Rules and penalties | 2 / 7 |
+| 3.1.1 Practice before the IRS | **2 / 2** |
+| 3.1.3 Sanctionable acts | **4 / 4** |
+| 3.1.4 Rules and penalties | **7 / 7** |
 | 3.2.1 Power of attorney | 4 / 11 |
-| 3.2.6 Related issues | 1 / 10 |
-| 3.3.1 Collection process | 4 / 16 |
+| 3.2.6 Related issues | 2 / 10 |
+| 3.3.1 Collection process | 9 / 16 |
 | 3.3.2 Penalties and interest abatement | 2 / 5 |
+| 3.3.3 Audits and examinations | 1 / 9 |
 | 3.4.3 Electronic filing | 1 / 9 |
 
 Untouched Part 3 sections: 3.1.2 (16), 3.2.2 (5), 3.2.3 (5), 3.2.4 (5), 3.2.5 (8),
-3.3.3 (9), 3.3.4 (5), 3.4.1 (2), 3.4.2 (2). Parts 1 and 2 are entirely unwritten.
+3.3.4 (5), 3.4.1 (2), 3.4.2 (2). Parts 1 and 2 are entirely unwritten.
 
-## What Step 5 delivered
+## What has been written
 
-| Codes | Page |
+**Domain 3.1 is 13 / 29** and three of its four sections are complete.
+
+| Codes | Pages |
 |---|---|
-| 3.2.6.a | statute of limitations |
-| 3.1.1.a, 3.1.1.b | practice before the IRS · who may practice |
+| 3.1.1.a–b | practice before the IRS · who may practice |
+| 3.1.3.a–d | disreputable conduct · OPR sanctions · frivolous submissions · fraudulent transactions |
+| 3.1.4.a–g | the whole of rules and penalties |
 | 3.2.1.a–d | power of attorney: purpose, signature authority, authority granted, limits on signing |
-| 3.3.1.b–e | installment agreements · offer in compromise · collection appeals program · CDP |
-| 3.3.2.a, 3.3.2.b | penalties subject to abatement · basis for abatement |
-| 3.1.4.a, 3.1.4.b | preparer penalty assessment and appeal · types of penalties |
-| 3.1.3.a, 3.1.3.b | incompetence and disreputable conduct · OPR sanctions |
+| 3.2.6.a–b | statute of limitations · post-filing correspondence |
+| 3.3.1.b–e, i–k, m, o | installment agreements · OIC · CAP · CDP · lien · levy · CNC · collections statute · amended returns |
+| 3.3.2.a–b | penalties subject to abatement · basis for abatement |
+| 3.3.3.g | CP2000 and correspondence audits |
 | 3.4.3.b | e-file mandate and exceptions |
 
 Forms: 2848, 8821, 1040-X, 843, 656, 9465, 12153, 9423, 6118, 8867, 8948, 8944, 8453,
@@ -45,20 +49,23 @@ Letter 3172, CP2000.
 in the public catalogue — it is issued by the examiner — so the entry links IRM 25.6.22 and
 says so in its body. Do not "fix" it to a guessed `about-form-872` URL; that page 404s.
 
+**Check scaffolded directory entries against `topics.json`.** The CP2000 notice entry was
+seeded pointing at 3.3.3.a, "IRS authority to investigate", when the CP2000 topic is 3.3.3.g.
+Others may carry the same kind of error.
+
 ## Next: finish the sections already opened
 
 Prefer depth over breadth. Each of these sits beside a page that already exists, so the
-`related[]` graph closes as you go and the authorities are largely already fetched and
-cached.
+`related[]` graph closes as you go and many authorities are already fetched and cached.
 
 | Codes | Why next |
 |---|---|
-| 3.1.3.c, 3.1.3.d | Completes sanctionable acts. § 6702 is already written up on 3.1.4.b; badges of fraud need IRM 25.1.2 |
-| 3.1.4.c–g | Completes rules and penalties. § 6695(g) due diligence (3.1.4.g) is the heaviest and Form 8867 already has an entry |
-| 3.3.1.i, 3.3.1.j, 3.3.1.m | Collection notice and NFTL, levy and seizure, collections statute — all three are already linked one-way from written pages, and all three notice entries point at them |
-| 3.3.1.k, 3.3.1.o | Named as gaps in `private/discrepancies.md` against the statute of limitations page: currently not collectible, and amended returns' effect on the statute |
-| 3.2.6.b | CP2000's notice entry points here and nothing answers it |
-| 3.3.3.a | Same — the second CP2000 topic |
+| 3.3.1.f, 3.3.1.g, 3.3.1.n, 3.3.1.p | Completes most of the collection section. The trust fund recovery penalty (3.3.1.n) is the heaviest and § 6672 is untouched; passport revocation (3.3.1.p) is § 7345 and two bank questions already point at it |
+| 3.3.1.a, 3.3.1.h, 3.3.1.l | The remainder: Form 1127 extensions, decedents, and the collection summons under §§ 7602–7610 |
+| 3.3.2.c–e | Completes penalties and interest abatement. Interest abatement is § 6404(e), which is a different test from penalty relief and is regularly confused with it |
+| 3.2.1.e–k | Completes power of attorney. 3.2.1.h (Form 2848 vs 8821) has three tagged bank questions and both form entries already exist |
+| 3.3.3.a–f, h–i | The examination section. Open IRM 4.10 before asserting the correspondence/office/field taxonomy — two bank questions test it and this pass deliberately did not assert it unsourced |
+| 3.4.3.a, c–i | Completes electronic filing, mostly from Pub. 3112 and Pub. 1345 |
 
 ## Carried forward — content
 

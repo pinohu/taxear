@@ -93,10 +93,10 @@ committed.
 
 ## Where the project stands
 
-18 topic pages at `review`, 342 at `stub`, none at `published` — only the owner publishes.
+32 topic pages at `review`, 328 at `stub`, none at `published` — only the owner publishes.
 17 form entries and 7 notice entries at `review`. **Every key in `figures.json` carries a
 `verified` date against a source that was opened that day**, so no page is blocked on a
-figure. `3.2.6.a` statute of limitations is the quality bar.
+figure. Sections 3.1.1, 3.1.3 and 3.1.4 are complete.
 
 `docs/STEP5_PLAN.md` is the running work order: what is written, what comes next, and the
 bank question IDs per code. `private/discrepancies.md` is the log of every §4 check run so
