@@ -841,6 +841,18 @@
       "taxYear": 2026,
       "source": "Instructions for Form 8821 (When To File), page last reviewed 30 April 2026 — https://www.irs.gov/instructions/i8821",
       "verified": "2026-08-18"
+    },
+    "poa.notice_copy_limit": {
+      "value": "no more than 2 representatives on a Form 2848 — or designees on a Form 8821 — may be designated to receive copies of notices and communications for the same matters",
+      "taxYear": 2026,
+      "source": "Instructions for Form 2848 (rev. 09/2021), line 2, page last reviewed 30 April 2026 — https://www.irs.gov/instructions/i2848",
+      "verified": "2026-08-18"
+    },
+    "poa.agent_signature_grounds": {
+      "value": "disease or injury; continuous absence from the United States, including Puerto Rico, for at least 60 days before the due date of the return; or specific permission requested of and granted by the IRS for other good cause",
+      "taxYear": 2026,
+      "source": "Reg. § 1.6012-1(a)(5), quoted in the Instructions for Form 2848 (rev. 09/2021), line 5a — https://www.law.cornell.edu/cfr/text/26/1.6012-1",
+      "verified": "2026-08-18"
     }
   }
 }

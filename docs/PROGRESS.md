@@ -11,8 +11,8 @@ is indexed, and only the owner moves a page there (see `docs/VERIFICATION.md`).
 |---|---:|---:|---:|---:|---:|---:|
 | 1. Individuals | 120 | 120 | 0 | 0 | 0 | 0 |
 | 2. Businesses | 119 | 119 | 0 | 0 | 0 | 0 |
-| 3. Representation, Practices and Procedures | 121 | 63 | 0 | 58 | 0 | 110,338 |
-| **All parts** | **360** | **302** | **0** | **58** | **0** | **110,338** |
+| 3. Representation, Practices and Procedures | 121 | 62 | 0 | 59 | 0 | 112,837 |
+| **All parts** | **360** | **301** | **0** | **59** | **0** | **112,837** |
 
 ## Part 1 — Individuals
 
@@ -473,7 +473,7 @@ is indexed, and only the owner moves a page there (see `docs/VERIFICATION.md`).
 | 3.2.1.b | [Signature authority (e.g., extension of assessment period, closing agreement)](/representation/representation-before-the-irs/power-of-attorney/signature-authority/) | review | 1,504 | 2026-08-18 |
 | 3.2.1.c | [Authority granted by taxpayer](/representation/representation-before-the-irs/power-of-attorney/authority-granted-by-taxpayer/) | review | 1,489 | 2026-08-18 |
 | 3.2.1.d | [Limitations on signing tax returns on behalf of taxpayer](/representation/representation-before-the-irs/power-of-attorney/limitations-on-signing-tax-returns-on-behalf-of-taxpayer/) | review | 1,590 | 2026-08-18 |
-| 3.2.1.e | [Proper completion of power of attorney (Form 2848)](/representation/representation-before-the-irs/power-of-attorney/proper-completion-of-power-of-attorney-form-2848/) | stub | — | — |
+| 3.2.1.e | [Proper completion of power of attorney (Form 2848)](/representation/representation-before-the-irs/power-of-attorney/proper-completion-of-power-of-attorney-form-2848/) | review | 2,499 | 2026-08-18 |
 | 3.2.1.f | [Alternate forms of power of attorney (durable)](/representation/representation-before-the-irs/power-of-attorney/alternate-forms-of-power-of-attorney-durable/) | stub | — | — |
 | 3.2.1.g | [Rules for client privacy and consent to disclose](/representation/representation-before-the-irs/power-of-attorney/rules-for-client-privacy-and-consent-to-disclose/) | stub | — | — |
 | 3.2.1.h | [Distinctions between power of attorney (Form 2848) and tax information authorization (Form 8821)](/representation/representation-before-the-irs/power-of-attorney/distinctions-between-power-of-attorney-form-2848-and-tax/) | review | 2,499 | 2026-08-18 |
