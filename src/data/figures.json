@@ -613,6 +613,24 @@
       "taxYear": 2026,
       "source": "IRC § 6501(c)(7)",
       "verified": "2026-08-18"
+    },
+    "matherror.abatement_window": {
+      "value": "60 days after the notice is sent, within which the taxpayer may request abatement and the Secretary shall abate",
+      "taxYear": 2026,
+      "source": "IRC § 6213(b)(2)(A)",
+      "verified": "2026-08-18"
+    },
+    "deficiency.petition_period": {
+      "value": "90 days after the notice of deficiency is mailed, or 150 days if addressed to a person outside the United States, not counting a Saturday, Sunday or District of Columbia legal holiday as the last day",
+      "taxYear": 2026,
+      "source": "IRC § 6213(a)",
+      "verified": "2026-08-18"
+    },
+    "cp2000.series": {
+      "value": "CP2000, CP2000A, CP2000B, CP2000C, CP2000D and CP2000E",
+      "taxYear": 2026,
+      "source": "irs.gov, Understanding your CP2000 series notice, opened 2026-08-18",
+      "verified": "2026-08-18"
     }
   }
 }

@@ -15,7 +15,7 @@ authorities:
   - { type: IRC, ref: "§ 6501(c)(7)", title: "Special rule for certain amended returns" }
   - { type: IRC, ref: "§ 6501(c)(4)", title: "Extension by agreement" }
 forms: ["1040-X", "843", "872"]
-related: ["3.2.6.a", "3.3.1.m", "3.3.2.b"]
+related: ["3.2.6.a", "3.3.1.m", "3.3.2.b", "3.2.6.b", "3.3.3.g"]
 changelog:
   - { date: "2026-08-18", summary: "Initial publication from IRC §§ 6511, 6513 and 6501(c)(4), (c)(7)." }
 ---
