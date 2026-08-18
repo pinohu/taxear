@@ -5,7 +5,7 @@ Enrollment Examination outline: 3 parts, 13 domains, 44 sections, 360 topics. As
 static site, deployed on Cloudflare Pages. Owner and editor: Ike Ohu (`pinohu`).
 
 Read `docs/PAGE_TEMPLATE.md` and `docs/VERIFICATION.md` before writing any page.
-`docs/STEP5_PLAN.md` is the current work order.
+`docs/BUILD_PLAN.md` is the plan of record; `docs/STEP5_PLAN.md` is the current work order.
 
 ## The rules that do not bend
 
@@ -98,8 +98,9 @@ committed.
 `verified` date against a source that was opened that day**, so no page is blocked on a
 figure. Sections 3.1.1, 3.1.3 and 3.1.4 are complete.
 
-`docs/STEP5_PLAN.md` is the running work order: what is written, what comes next, and the
-bank question IDs per code. `private/discrepancies.md` is the log of every §4 check run so
+`docs/BUILD_PLAN.md` is the plan of record for all remaining work — phases, batching and
+the Phase 0 tagger and figure work that gates Parts 1 and 2. `docs/STEP5_PLAN.md` is the
+running work order: what is written, what comes next, and the bank question IDs per code. `private/discrepancies.md` is the log of every §4 check run so
 far — which bank questions are wrong on the law, which are merely dated, and which page
 gaps are still open. **Read it before "correcting" a page toward the bank**; several
 questions test regimes that have since been retired, and the log says so explicitly.

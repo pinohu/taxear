@@ -1,7 +1,11 @@
 # Work order
 
-Step 5 is complete. This file is now the running work order: what was done and what the
-next session picks up. Regenerate the numbers with `npm run progress`.
+Step 5 is complete. This file is the **short-horizon** work order: what the next session
+picks up. **`docs/BUILD_PLAN.md` is the plan of record for the whole remaining build** — the
+phase order, the batching rationale, and the Phase 0 work that must happen before Parts 1
+and 2 begin. Read that first if you are starting a new phase rather than continuing this one.
+
+Regenerate the numbers with `npm run progress`.
 
 ## Where the project stands (18 August 2026)
 
