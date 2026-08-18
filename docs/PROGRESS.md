@@ -11,8 +11,8 @@ is indexed, and only the owner moves a page there (see `docs/VERIFICATION.md`).
 |---|---:|---:|---:|---:|---:|---:|
 | 1. Individuals | 120 | 120 | 0 | 0 | 0 | 0 |
 | 2. Businesses | 119 | 119 | 0 | 0 | 0 | 0 |
-| 3. Representation, Practices and Procedures | 121 | 87 | 0 | 34 | 0 | 60,130 |
-| **All parts** | **360** | **326** | **0** | **34** | **0** | **60,130** |
+| 3. Representation, Practices and Procedures | 121 | 86 | 0 | 35 | 0 | 62,075 |
+| **All parts** | **360** | **325** | **0** | **35** | **0** | **62,075** |
 
 ## Part 1 — Individuals
 
@@ -550,7 +550,7 @@ is indexed, and only the owner moves a page there (see `docs/VERIFICATION.md`).
 | 3.3.1.c | [Offer in compromise](/representation/specific-types-of-representation/representing-a-taxpayer-in-the-collection-process/offer-in-compromise/) | review | 1,446 | 2026-08-18 |
 | 3.3.1.d | [Collection appeals program (e.g., denial of installment agreements, discharge applications)](/representation/specific-types-of-representation/representing-a-taxpayer-in-the-collection-process/collection-appeals-program/) | review | 1,596 | 2026-08-18 |
 | 3.3.1.e | [Collection appeals and due process (e.g., lien, levy, and Form 12153)](/representation/specific-types-of-representation/representing-a-taxpayer-in-the-collection-process/collection-appeals-and-due-process/) | review | 1,518 | 2026-08-18 |
-| 3.3.1.f | [Adjustments to the taxpayer’s account (e.g., abatements and refund offsets)](/representation/specific-types-of-representation/representing-a-taxpayer-in-the-collection-process/adjustments-to-the-taxpayer-s-account/) | stub | — | — |
+| 3.3.1.f | [Adjustments to the taxpayer’s account (e.g., abatements and refund offsets)](/representation/specific-types-of-representation/representing-a-taxpayer-in-the-collection-process/adjustments-to-the-taxpayer-s-account/) | review | 1,945 | 2026-08-18 |
 | 3.3.1.g | [Requesting an audit reconsideration (e.g., documents and forms)](/representation/specific-types-of-representation/representing-a-taxpayer-in-the-collection-process/requesting-an-audit-reconsideration/) | stub | — | — |
 | 3.3.1.h | [Representing a decedent](/representation/specific-types-of-representation/representing-a-taxpayer-in-the-collection-process/representing-a-decedent/) | stub | — | — |
 | 3.3.1.i | [Collection notice and Notice of Federal Tax Lien](/representation/specific-types-of-representation/representing-a-taxpayer-in-the-collection-process/collection-notice-and-notice-of-federal-tax-lien/) | review | 1,773 | 2026-08-18 |

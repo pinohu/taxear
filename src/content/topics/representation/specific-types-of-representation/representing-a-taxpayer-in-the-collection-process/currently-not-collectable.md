@@ -15,7 +15,7 @@ authorities:
   - { type: Reg, ref: "§ 301.6343-1(b)(4)", title: "Economic hardship", url: "https://www.law.cornell.edu/cfr/text/26/301.6343-1" }
   - { type: IRC, ref: "§ 6502", title: "Collection after assessment" }
 forms: ["433-A", "433-B"]
-related: ["3.3.1.m", "3.3.1.b", "3.3.1.j", "3.3.1.p"]
+related: ["3.3.1.m", "3.3.1.b", "3.3.1.j", "3.3.1.p", "3.3.1.f"]
 changelog:
   - { date: "2026-08-18", summary: "Initial publication from IRM 5.16.1 as revised 3 March 2025, IRC § 6343(e) and Reg. § 301.6343-1(b)(4)." }
 ---

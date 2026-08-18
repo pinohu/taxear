@@ -679,6 +679,18 @@
       "taxYear": 2026,
       "source": "IRC § 7345(c)(2)(A)–(C)",
       "verified": "2026-08-18"
+    },
+    "offset.priority": {
+      "value": "internal revenue tax first, then past-due child support, then debts owed to federal agencies, then past-due state income tax, then covered unemployment compensation debts",
+      "taxYear": 2026,
+      "source": "IRC § 6402(a), (c), (d), (e), (f)",
+      "verified": "2026-08-18"
+    },
+    "interest.suspension_36_months": {
+      "value": "36 months from the later of the filing date or the unextended due date, for an individual who filed on time, after which interest and time-sensitive penalties are suspended until 21 days after the IRS gives notice",
+      "taxYear": 2026,
+      "source": "IRC § 6404(g)(1)(A)",
+      "verified": "2026-08-18"
     }
   }
 }
