@@ -11,8 +11,8 @@ is indexed, and only the owner moves a page there (see `docs/VERIFICATION.md`).
 |---|---:|---:|---:|---:|---:|---:|
 | 1. Individuals | 120 | 120 | 0 | 0 | 0 | 0 |
 | 2. Businesses | 119 | 119 | 0 | 0 | 0 | 0 |
-| 3. Representation, Practices and Procedures | 121 | 119 | 0 | 2 | 0 | 4,055 |
-| **All parts** | **360** | **358** | **0** | **2** | **0** | **4,055** |
+| 3. Representation, Practices and Procedures | 121 | 118 | 0 | 3 | 0 | 5,854 |
+| **All parts** | **360** | **357** | **0** | **3** | **0** | **5,854** |
 
 ## Part 1 — Individuals
 
@@ -419,7 +419,7 @@ is indexed, and only the owner moves a page there (see `docs/VERIFICATION.md`).
 | Code | Title | Status | Words | Last reviewed |
 |---|---|---|---:|---|
 | 3.1.1.a | [What constitutes practice before the IRS](/representation/practices-and-procedures/practice-before-the-irs/what-constitutes-practice-before-the-irs/) | review | 1,559 | 2026-08-18 |
-| 3.1.1.b | [Categories of individuals who may practice and extent of practice privileges](/representation/practices-and-procedures/practice-before-the-irs/categories-of-individuals-who-may-practice-and-extent/) | stub | — | — |
+| 3.1.1.b | [Categories of individuals who may practice and extent of practice privileges](/representation/practices-and-procedures/practice-before-the-irs/categories-of-individuals-who-may-practice-and-extent/) | review | 1,799 | 2026-08-18 |
 
 **3.1.2 Requirements for Enrolled Agents**
 
