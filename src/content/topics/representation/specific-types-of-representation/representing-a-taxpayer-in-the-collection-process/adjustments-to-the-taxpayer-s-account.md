@@ -14,7 +14,7 @@ authorities:
   - { type: IRC, ref: "§ 6404", title: "Abatements" }
   - { type: IRC, ref: "§ 6213(g)(2)(A)", title: "Mathematical or clerical error" }
 forms: ["8379", "843"]
-related: ["3.3.2.b", "3.3.1.o", "3.3.1.k"]
+related: ["3.3.2.b", "3.3.1.o", "3.3.1.k", "3.3.1.g"]
 changelog:
   - { date: "2026-08-18", summary: "Initial publication from IRC §§ 6402 and 6404." }
 ---

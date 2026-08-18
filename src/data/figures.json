@@ -691,6 +691,18 @@
       "taxYear": 2026,
       "source": "IRC § 6404(g)(1)(A)",
       "verified": "2026-08-18"
+    },
+    "auditrecon.criteria": {
+      "value": "a return was filed; the assessment is unpaid or credits were reversed; the disputed adjustments are identified; and either new information not previously considered is supplied, or the IRS made a computational or processing error",
+      "taxYear": 2026,
+      "source": "IRM 4.13.1.2.1 (12-10-2025)",
+      "verified": "2026-08-18"
+    },
+    "auditrecon.collection_response": {
+      "value": "collection may be delayed on receipt, but may resume if the documentation does not support the position and the taxpayer does not answer a request for more information within 30 calendar days",
+      "taxYear": 2026,
+      "source": "IRS Pub. 3598, opened 2026-08-18",
+      "verified": "2026-08-18"
     }
   }
 }
