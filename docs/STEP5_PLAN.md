@@ -192,6 +192,14 @@ questions, and the §§ 6103(c)/7216 consent machinery is untested by the bank e
 Phase 0 tagger work in `BUILD_PLAN.md` is scoped to Parts 1 and 2; it needs a pass over the
 Part 3 rule table as well.
 
+## Build discipline: run `npm run progress` last
+
+`docs/PROGRESS.md` records a **word count per page**, so any edit that changes a page's
+length — including the word-trimming pass that brings a page under the 2,500-word cap —
+invalidates it. Running `npm run progress` before that last trim leaves the file stale and
+`progress --check` fails in CI even though tests, build and verify all pass. Run it as the
+**final** step before `git add`, after every content change is settled.
+
 ## Section 3.3.2 complete (18 August 2026)
 
 All five penalty-and-interest-abatement topics are written, from IRC §§ 6404, 6511, 6601,
