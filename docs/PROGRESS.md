@@ -11,8 +11,8 @@ is indexed, and only the owner moves a page there (see `docs/VERIFICATION.md`).
 |---|---:|---:|---:|---:|---:|---:|
 | 1. Individuals | 120 | 120 | 0 | 0 | 0 | 0 |
 | 2. Businesses | 119 | 119 | 0 | 0 | 0 | 0 |
-| 3. Representation, Practices and Procedures | 121 | 72 | 0 | 49 | 0 | 88,004 |
-| **All parts** | **360** | **311** | **0** | **49** | **0** | **88,004** |
+| 3. Representation, Practices and Procedures | 121 | 70 | 0 | 51 | 0 | 92,976 |
+| **All parts** | **360** | **309** | **0** | **51** | **0** | **92,976** |
 
 ## Part 1 — Individuals
 
@@ -434,9 +434,9 @@ is indexed, and only the owner moves a page there (see `docs/VERIFICATION.md`).
 | 3.1.2.g | [Conflict of interest](/representation/practices-and-procedures/requirements-for-enrolled-agents/conflict-of-interest/) | review | 2,444 | 2026-08-18 |
 | 3.1.2.h | [Rules for refund check negotiation](/representation/practices-and-procedures/requirements-for-enrolled-agents/rules-for-refund-check-negotiation/) | review | 2,488 | 2026-08-18 |
 | 3.1.2.i | [Standards for written advice, covered opinions, tax return positions and preparing returns](/representation/practices-and-procedures/requirements-for-enrolled-agents/standards-for-written-advice-covered-opinions-tax-return/) | stub | — | — |
-| 3.1.2.j | [Continuing education requirements](/representation/practices-and-procedures/requirements-for-enrolled-agents/continuing-education-requirements/) | stub | — | — |
+| 3.1.2.j | [Continuing education requirements](/representation/practices-and-procedures/requirements-for-enrolled-agents/continuing-education-requirements/) | review | 2,483 | 2026-08-18 |
 | 3.1.2.k | [Tax shelters](/representation/practices-and-procedures/requirements-for-enrolled-agents/tax-shelters/) | stub | — | — |
-| 3.1.2.l | [Enrollment cycle and renewal](/representation/practices-and-procedures/requirements-for-enrolled-agents/enrollment-cycle-and-renewal/) | stub | — | — |
+| 3.1.2.l | [Enrollment cycle and renewal](/representation/practices-and-procedures/requirements-for-enrolled-agents/enrollment-cycle-and-renewal/) | review | 2,489 | 2026-08-18 |
 | 3.1.2.m | [Rules for prompt disposition of matters before the IRS](/representation/practices-and-procedures/requirements-for-enrolled-agents/rules-for-prompt-disposition-of-matters-before-the-irs/) | review | 1,462 | 2026-08-18 |
 | 3.1.2.n | [Rules for returning a client's records and documents](/representation/practices-and-procedures/requirements-for-enrolled-agents/rules-for-returning-a-client-s-records-and-documents/) | review | 1,479 | 2026-08-18 |
 | 3.1.2.o | [PTIN requirements](/representation/practices-and-procedures/requirements-for-enrolled-agents/ptin-requirements/) | stub | — | — |

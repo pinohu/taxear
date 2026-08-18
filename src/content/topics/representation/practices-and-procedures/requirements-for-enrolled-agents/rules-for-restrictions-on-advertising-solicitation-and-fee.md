@@ -14,7 +14,7 @@ authorities:
   - { type: Circ230, ref: "§ 10.27", title: "Fees", url: "https://www.law.cornell.edu/cfr/text/31/10.27" }
   - { type: Circ230, ref: "§ 10.52", title: "Violations subject to sanction", url: "https://www.law.cornell.edu/cfr/text/31/10.52" }
 forms: []
-related: ["3.1.2.e", "3.1.2.c", "3.1.1.a", "3.1.2.g"]
+related: ["3.1.2.e", "3.1.2.c", "3.1.1.a", "3.1.2.g", "3.1.2.j", "3.1.2.l"]
 changelog:
   - { date: "2026-08-18", summary: "Initial publication from Circular 230 § 10.30 as amended by T.D. 9527." }
 ---
