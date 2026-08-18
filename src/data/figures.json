@@ -451,6 +451,102 @@
       "taxYear": 2026,
       "source": "IRC § 6695(g)(1), (2) (naming §§ 2(b), 24, 25A(a)(1), 32); IRC § 24(h)(4) for the ODC; Reg. § 1.6695-2(a)(1)",
       "verified": "2026-08-18"
+    },
+    "lien.release_days": {
+      "value": "not later than 30 days after the liability is satisfied or becomes legally unenforceable, or a bond is accepted",
+      "taxYear": 2026,
+      "source": "IRC § 6325(a)",
+      "verified": "2026-08-18"
+    },
+    "lien.refiling_period": {
+      "value": "the one-year period ending 30 days after the expiration of 10 years from the date of assessment, and each 10-year period after that",
+      "taxYear": 2026,
+      "source": "IRC § 6323(g)(3)",
+      "verified": "2026-08-18"
+    },
+    "lien.cdp_notice_days": {
+      "value": "within 5 business days after the notice of lien is filed, with the 30-day hearing window opening the day after that period",
+      "taxYear": 2026,
+      "source": "IRC § 6320(a)(2), (a)(3)(B)",
+      "verified": "2026-08-18"
+    },
+    "levy.notice_days": {
+      "value": "no less than 30 days before the levy, given in person, left at the dwelling or usual place of business, or sent by certified or registered mail to the last known address",
+      "taxYear": 2026,
+      "source": "IRC § 6331(d)(1), (d)(2)",
+      "verified": "2026-08-18"
+    },
+    "levy.demand_days": {
+      "value": "10 days after notice and demand, unless collection is in jeopardy",
+      "taxYear": 2026,
+      "source": "IRC § 6331(a)",
+      "verified": "2026-08-18"
+    },
+    "levy.exempt.household": {
+      "value": "$11,980 of fuel, provisions, furniture, household personal effects, arms for personal use, livestock and poultry",
+      "taxYear": 2026,
+      "source": "IRC § 6334(a)(2), indexed under § 6334(g); Rev. Proc. 2025-32 § 3.49",
+      "verified": "2026-08-18"
+    },
+    "levy.exempt.tools": {
+      "value": "$5,990 of books and tools necessary for the taxpayer's trade, business or profession",
+      "taxYear": 2026,
+      "source": "IRC § 6334(a)(3), indexed under § 6334(g); Rev. Proc. 2025-32 § 3.49",
+      "verified": "2026-08-18"
+    },
+    "levy.exempt.small_residence": {
+      "value": "any residence where the amount of the levy does not exceed $5,000",
+      "taxYear": 2026,
+      "source": "IRC § 6334(a)(13)(A)",
+      "verified": "2026-08-18"
+    },
+    "levy.continuous.federal_payments": {
+      "value": "up to 15% of a specified federal payment, continuous until released",
+      "taxYear": 2026,
+      "source": "IRC § 6331(h)(1)",
+      "verified": "2026-08-18"
+    },
+    "levy.redemption": {
+      "value": "180 days after the sale, on payment of the purchase price plus interest at 20% per annum",
+      "taxYear": 2026,
+      "source": "IRC § 6337(b)(1), (b)(2)",
+      "verified": "2026-08-18"
+    },
+    "csed.period": {
+      "value": "10 years after the assessment of the tax",
+      "taxYear": 2026,
+      "source": "IRC § 6502(a)(1)",
+      "verified": "2026-08-18"
+    },
+    "csed.cdp_tail": {
+      "value": "suspended while a CDP hearing and appeals are pending, and in no event expiring before the 90th day after a final determination",
+      "taxYear": 2026,
+      "source": "IRC § 6330(e)(1)",
+      "verified": "2026-08-18"
+    },
+    "csed.abroad": {
+      "value": "suspended while the taxpayer is outside the United States for a continuous period of at least 6 months, and not expiring before 6 months after return",
+      "taxYear": 2026,
+      "source": "IRC § 6503(c)",
+      "verified": "2026-08-18"
+    },
+    "csed.bankruptcy_tail": {
+      "value": "suspended while collection is barred by the bankruptcy case, plus 6 months",
+      "taxYear": 2026,
+      "source": "IRC § 6503(h)(2)",
+      "verified": "2026-08-18"
+    },
+    "csed.custody_tail": {
+      "value": "suspended while the taxpayer's assets are in the control or custody of a court, plus 6 months",
+      "taxYear": 2026,
+      "source": "IRC § 6503(b)",
+      "verified": "2026-08-18"
+    },
+    "cdp.equivalent_hearing_window": {
+      "value": "one year — for a lien, commencing the day after the end of the five-business-day period following the NFTL filing; for a levy, commencing the day after the date of the CDP notice",
+      "taxYear": 2026,
+      "source": "Reg. § 301.6320-1(i)(2) A-I7; Reg. § 301.6330-1(i)(2) A-I7",
+      "verified": "2026-08-18"
     }
   }
 }

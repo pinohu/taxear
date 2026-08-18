@@ -17,7 +17,7 @@ authorities:
   - { type: IRM, ref: "8.24.1", title: "Collection Appeals Program (CAP)", url: "https://www.irs.gov/irm/part8/irm_08-024-001" }
   - { type: Form, ref: "12153", title: "Request for a Collection Due Process or Equivalent Hearing", url: "https://www.irs.gov/pub/irs-pdf/f12153.pdf" }
 forms: ["12153"]
-related: ["3.3.1.d", "3.2.6.a", "3.3.1.b"]
+related: ["3.3.1.d", "3.2.6.a", "3.3.1.b", "3.3.1.i", "3.3.1.j"]
 changelog:
   - { date: "2026-08-18", summary: "Initial publication from IRC §§ 6320 and 6330 and IRM 8.24.1." }
 ---
@@ -41,6 +41,8 @@ Collection due process is the taxpayer's one statutory opportunity to have an in
 ## How it works in practice
 
 The request is made on Form 12153, and the date is everything. A request filed within the statutory window produces a CDP hearing with Tax Court review at the end of it. A request filed late may still produce an **equivalent hearing** — the same Appeals officer, largely the same conversation — but no determination that the Tax Court can review, and without the suspension the statute attaches to a timely request.
+
+The equivalent hearing has a deadline of its own: {fig:cdp.equivalent_hearing_window} (Reg. § 301.6320-1(i)(2) A-I7; Reg. § 301.6330-1(i)(2) A-I7). The two are deliberately different, and the regulations say so — the lien period is measured from the end of the five-business-day notice window, the levy period from the date of the notice itself. Appeals issues a **decision letter** rather than a notice of determination at the end of it (Reg. § 301.6330-1(i)(1)).
 
 Because only one hearing is available per period, the grounds stated in the request matter. Appeals considers the verification that legal and administrative requirements were met, the issues the taxpayer raised, and whether the action balances efficient collection against the intrusiveness of the action. A representative who requests the hearing without stating collection alternatives, and without the financial information to support one, has spent the opportunity.
 
@@ -67,6 +69,7 @@ The liability bar in § 6330(c)(2)(B) is where cases are lost. If a notice of de
 <div class="callout trap"><h4>Traps</h4>
 <p><strong>The lien clock does not start on the filing date.</strong> Five business days to notify, then a 30-day request period beginning the day after that.</p>
 <p><strong>An equivalent hearing is not a CDP hearing.</strong> Same officer, no determination, no Tax Court, no statutory suspension.</p>
+<p><strong>The equivalent hearing window is one year, measured differently for lien and levy.</strong> From the end of the five-business-day period for a lien; from the notice date for a levy.</p>
 <p><strong>One hearing per period.</strong> The grounds stated in the request, and the financial information behind them, are the whole opportunity.</p>
 <p><strong>The underlying liability is usually off the table.</strong> Only available where no notice of deficiency was received and there was no other chance to dispute.</p>
 <p><strong>The suspension carries a floor.</strong> No affected period expires before the 90th day after the final determination, which can leave more collection time than a client expects.</p>

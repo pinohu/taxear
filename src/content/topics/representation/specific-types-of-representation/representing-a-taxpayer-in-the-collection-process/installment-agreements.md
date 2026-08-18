@@ -16,7 +16,7 @@ authorities:
   - { type: IRM, ref: "5.14.5", title: "Simple Payment Plans", url: "https://www.irs.gov/irm/part5/irm_05-014-005" }
   - { type: Form, ref: "9465", title: "Installment Agreement Request", url: "https://www.irs.gov/forms-pubs/about-form-9465" }
 forms: ["9465", "433-A", "433-B", "433-F"]
-related: ["3.3.1.c", "3.3.1.d", "3.3.1.e", "3.3.2.a", "3.2.6.a", "3.2.1.a"]
+related: ["3.3.1.c", "3.3.1.d", "3.3.1.e", "3.3.2.a", "3.2.6.a", "3.2.1.a", "3.3.1.j"]
 changelog:
   - { date: "2026-08-18", summary: "Initial publication. Records the replacement of streamlined installment agreements by simple payment plans, and the removal of the 72-month rule." }
 ---

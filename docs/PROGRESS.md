@@ -11,8 +11,8 @@ is indexed, and only the owner moves a page there (see `docs/VERIFICATION.md`).
 |---|---:|---:|---:|---:|---:|---:|
 | 1. Individuals | 120 | 120 | 0 | 0 | 0 | 0 |
 | 2. Businesses | 119 | 119 | 0 | 0 | 0 | 0 |
-| 3. Representation, Practices and Procedures | 121 | 96 | 0 | 25 | 0 | 43,437 |
-| **All parts** | **360** | **335** | **0** | **25** | **0** | **43,437** |
+| 3. Representation, Practices and Procedures | 121 | 93 | 0 | 28 | 0 | 49,037 |
+| **All parts** | **360** | **332** | **0** | **28** | **0** | **49,037** |
 
 ## Part 1 — Individuals
 
@@ -549,15 +549,15 @@ is indexed, and only the owner moves a page there (see `docs/VERIFICATION.md`).
 | 3.3.1.b | [Installment agreements](/representation/specific-types-of-representation/representing-a-taxpayer-in-the-collection-process/installment-agreements/) | review | 1,484 | 2026-08-18 |
 | 3.3.1.c | [Offer in compromise](/representation/specific-types-of-representation/representing-a-taxpayer-in-the-collection-process/offer-in-compromise/) | review | 1,446 | 2026-08-18 |
 | 3.3.1.d | [Collection appeals program (e.g., denial of installment agreements, discharge applications)](/representation/specific-types-of-representation/representing-a-taxpayer-in-the-collection-process/collection-appeals-program/) | review | 1,596 | 2026-08-18 |
-| 3.3.1.e | [Collection appeals and due process (e.g., lien, levy, and Form 12153)](/representation/specific-types-of-representation/representing-a-taxpayer-in-the-collection-process/collection-appeals-and-due-process/) | review | 1,417 | 2026-08-18 |
+| 3.3.1.e | [Collection appeals and due process (e.g., lien, levy, and Form 12153)](/representation/specific-types-of-representation/representing-a-taxpayer-in-the-collection-process/collection-appeals-and-due-process/) | review | 1,518 | 2026-08-18 |
 | 3.3.1.f | [Adjustments to the taxpayer’s account (e.g., abatements and refund offsets)](/representation/specific-types-of-representation/representing-a-taxpayer-in-the-collection-process/adjustments-to-the-taxpayer-s-account/) | stub | — | — |
 | 3.3.1.g | [Requesting an audit reconsideration (e.g., documents and forms)](/representation/specific-types-of-representation/representing-a-taxpayer-in-the-collection-process/requesting-an-audit-reconsideration/) | stub | — | — |
 | 3.3.1.h | [Representing a decedent](/representation/specific-types-of-representation/representing-a-taxpayer-in-the-collection-process/representing-a-decedent/) | stub | — | — |
-| 3.3.1.i | [Collection notice and Notice of Federal Tax Lien](/representation/specific-types-of-representation/representing-a-taxpayer-in-the-collection-process/collection-notice-and-notice-of-federal-tax-lien/) | stub | — | — |
-| 3.3.1.j | [Levy and seizure of taxpayer's property](/representation/specific-types-of-representation/representing-a-taxpayer-in-the-collection-process/levy-and-seizure-of-taxpayer-s-property/) | stub | — | — |
+| 3.3.1.i | [Collection notice and Notice of Federal Tax Lien](/representation/specific-types-of-representation/representing-a-taxpayer-in-the-collection-process/collection-notice-and-notice-of-federal-tax-lien/) | review | 1,773 | 2026-08-18 |
+| 3.3.1.j | [Levy and seizure of taxpayer's property](/representation/specific-types-of-representation/representing-a-taxpayer-in-the-collection-process/levy-and-seizure-of-taxpayer-s-property/) | review | 1,989 | 2026-08-18 |
 | 3.3.1.k | [Currently Not Collectable (e.g., reasons and reactivation)](/representation/specific-types-of-representation/representing-a-taxpayer-in-the-collection-process/currently-not-collectable/) | stub | — | — |
 | 3.3.1.l | [IRS Collection Summons (e.g., purposes)](/representation/specific-types-of-representation/representing-a-taxpayer-in-the-collection-process/irs-collection-summons/) | stub | — | — |
-| 3.3.1.m | [Collections statute of limitations](/representation/specific-types-of-representation/representing-a-taxpayer-in-the-collection-process/collections-statute-of-limitations/) | stub | — | — |
+| 3.3.1.m | [Collections statute of limitations](/representation/specific-types-of-representation/representing-a-taxpayer-in-the-collection-process/collections-statute-of-limitations/) | review | 1,737 | 2026-08-18 |
 | 3.3.1.n | [Trust fund recovery penalty](/representation/specific-types-of-representation/representing-a-taxpayer-in-the-collection-process/trust-fund-recovery-penalty/) | stub | — | — |
 | 3.3.1.o | [Amended returns and claims for refund (e.g., Form 1040X, Form 843, effect on statute of limitations)](/representation/specific-types-of-representation/representing-a-taxpayer-in-the-collection-process/amended-returns-and-claims-for-refund/) | stub | — | — |
 | 3.3.1.p | [Passport revocation](/representation/specific-types-of-representation/representing-a-taxpayer-in-the-collection-process/passport-revocation/) | stub | — | — |
