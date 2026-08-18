@@ -427,6 +427,30 @@
       "taxYear": 2026,
       "source": "IRC § 6501(c)(1)",
       "verified": "2026-08-18"
+    },
+    "preparer.6060.return_period": {
+      "value": "the 12-month period beginning on 1 July each year",
+      "taxYear": 2026,
+      "source": "IRC § 6060(c); Reg. § 1.6060-1(b)",
+      "verified": "2026-08-18"
+    },
+    "preparer.6060.retention": {
+      "value": "3 years following the close of the return period to which the record relates",
+      "taxYear": 2026,
+      "source": "Reg. § 1.6060-1(a)(2)",
+      "verified": "2026-08-18"
+    },
+    "duediligence.retention": {
+      "value": "3 years from the latest of the unextended due date, the e-filing date, the date presented to the taxpayer for signature, or a nonsigning preparer's submission date",
+      "taxYear": 2026,
+      "source": "Reg. § 1.6695-2(b)(4)(ii)",
+      "verified": "2026-08-18"
+    },
+    "duediligence.benefits": {
+      "value": "head of household filing status; the child tax credit, additional child tax credit and credit for other dependents under section 24; the American opportunity tax credit; and the earned income credit",
+      "taxYear": 2026,
+      "source": "IRC § 6695(g)(1), (2) (naming §§ 2(b), 24, 25A(a)(1), 32); IRC § 24(h)(4) for the ODC; Reg. § 1.6695-2(a)(1)",
+      "verified": "2026-08-18"
     }
   }
 }

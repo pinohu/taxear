@@ -11,8 +11,8 @@ is indexed, and only the owner moves a page there (see `docs/VERIFICATION.md`).
 |---|---:|---:|---:|---:|---:|---:|
 | 1. Individuals | 120 | 120 | 0 | 0 | 0 | 0 |
 | 2. Businesses | 119 | 119 | 0 | 0 | 0 | 0 |
-| 3. Representation, Practices and Procedures | 121 | 101 | 0 | 20 | 0 | 35,340 |
-| **All parts** | **360** | **340** | **0** | **20** | **0** | **35,340** |
+| 3. Representation, Practices and Procedures | 121 | 96 | 0 | 25 | 0 | 43,437 |
+| **All parts** | **360** | **335** | **0** | **25** | **0** | **43,437** |
 
 ## Part 1 — Individuals
 
@@ -457,11 +457,11 @@ is indexed, and only the owner moves a page there (see `docs/VERIFICATION.md`).
 |---|---|---|---:|---|
 | 3.1.4.a | [Assessment and appeal procedures for preparer penalties](/representation/practices-and-procedures/rules-and-penalties/assessment-and-appeal-procedures-for-preparer-penalties/) | review | 1,974 | 2026-08-18 |
 | 3.1.4.b | [Types of penalties (e.g., negligence, substantial understatement, overvaluation)](/representation/practices-and-procedures/rules-and-penalties/types-of-penalties/) | review | 2,203 | 2026-08-18 |
-| 3.1.4.c | [Furnishing a copy of a return to a taxpayer](/representation/practices-and-procedures/rules-and-penalties/furnishing-a-copy-of-a-return-to-a-taxpayer/) | stub | — | — |
-| 3.1.4.d | [Signing returns and furnishing identifying numbers](/representation/practices-and-procedures/rules-and-penalties/signing-returns-and-furnishing-identifying-numbers/) | stub | — | — |
-| 3.1.4.e | [Keeping copies or lists of returns prepared](/representation/practices-and-procedures/rules-and-penalties/keeping-copies-or-lists-of-returns-prepared/) | stub | — | — |
-| 3.1.4.f | [Employees engaged or employed during a return period (e.g. IRC Section 6060)](/representation/practices-and-procedures/rules-and-penalties/employees-engaged-or-employed-during-a-return-period/) | stub | — | — |
-| 3.1.4.g | [Preparer due diligence and penalties (e.g., refundable credits, head of household status)](/representation/practices-and-procedures/rules-and-penalties/preparer-due-diligence-and-penalties/) | stub | — | — |
+| 3.1.4.c | [Furnishing a copy of a return to a taxpayer](/representation/practices-and-procedures/rules-and-penalties/furnishing-a-copy-of-a-return-to-a-taxpayer/) | review | 1,463 | 2026-08-18 |
+| 3.1.4.d | [Signing returns and furnishing identifying numbers](/representation/practices-and-procedures/rules-and-penalties/signing-returns-and-furnishing-identifying-numbers/) | review | 1,546 | 2026-08-18 |
+| 3.1.4.e | [Keeping copies or lists of returns prepared](/representation/practices-and-procedures/rules-and-penalties/keeping-copies-or-lists-of-returns-prepared/) | review | 1,636 | 2026-08-18 |
+| 3.1.4.f | [Employees engaged or employed during a return period (e.g. IRC Section 6060)](/representation/practices-and-procedures/rules-and-penalties/employees-engaged-or-employed-during-a-return-period/) | review | 1,564 | 2026-08-18 |
+| 3.1.4.g | [Preparer due diligence and penalties (e.g., refundable credits, head of household status)](/representation/practices-and-procedures/rules-and-penalties/preparer-due-diligence-and-penalties/) | review | 1,888 | 2026-08-18 |
 
 ### 3.2 Representation before the IRS
 
