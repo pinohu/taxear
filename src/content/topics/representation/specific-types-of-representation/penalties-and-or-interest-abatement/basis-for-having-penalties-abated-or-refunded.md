@@ -16,7 +16,7 @@ authorities:
   - { type: IRM, ref: "20.1.1", title: "Penalty Handbook, Introduction and Penalty Relief", url: "https://www.irs.gov/irm/part20/irm_20-001-001r" }
   - { type: Form, ref: "843", title: "Claim for Refund and Request for Abatement", url: "https://www.irs.gov/forms-pubs/about-form-843" }
 forms: ["843"]
-related: ["3.3.2.a", "3.2.6.a", "3.1.4.b", "3.3.1.o", "3.3.1.f", "3.3.2.c"]
+related: ["3.3.2.a", "3.2.6.a", "3.1.4.b", "3.3.1.o", "3.3.1.f", "3.3.2.c", "3.3.2.e"]
 changelog:
   - { date: "2026-08-18", summary: "Initial publication from IRC §§ 6651, 6664(c), 6404 and IRM 20.1.1." }
 ---

@@ -919,6 +919,24 @@
       "taxYear": 2026,
       "source": "IRC § 6621(a)(1) — https://www.law.cornell.edu/uscode/text/26/6621",
       "verified": "2026-08-18"
+    },
+    "abatement.843_claim_period": {
+      "value": "generally 3 years from the date the original return was filed or 2 years from the date the tax was paid, whichever is later",
+      "taxYear": 2026,
+      "source": "Instructions for Form 843 (rev. 12/2024), Separate Form Required, page last reviewed 30 April 2026 — https://www.irs.gov/instructions/i843; IRC § 6511(a)",
+      "verified": "2026-08-18"
+    },
+    "abatement.6404f_window": {
+      "value": "the request must be submitted within the period allowed for collection of the penalty or addition to tax, or the penalty must have been paid within the period allowed for claiming a credit or refund of it",
+      "taxYear": 2026,
+      "source": "Instructions for Form 843 (rev. 12/2024), When to file — https://www.irs.gov/instructions/i843; IRC § 6404(f)",
+      "verified": "2026-08-18"
+    },
+    "abatement.6676_penalty": {
+      "value": "20% of the amount determined to be excessive, on an erroneous claim for refund or credit",
+      "taxYear": 2026,
+      "source": "IRC § 6676(a), as described in the Instructions for Form 843 (rev. 12/2024) — https://www.law.cornell.edu/uscode/text/26/6676",
+      "verified": "2026-08-18"
     }
   }
 }

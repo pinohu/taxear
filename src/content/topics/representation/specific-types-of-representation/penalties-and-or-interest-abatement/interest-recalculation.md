@@ -18,7 +18,7 @@ authorities:
   - { type: IRC, ref: "§ 6213", title: "Restrictions applicable to deficiencies; petition to Tax Court", url: "https://www.law.cornell.edu/uscode/text/26/6213" }
 forms:
   - "843"
-related: ["3.3.2.c", "3.3.2.a", "3.3.1.a"]
+related: ["3.3.2.c", "3.3.2.a", "3.3.1.a", "3.3.2.e"]
 changelog:
   - { date: "2026-08-18", summary: "Initial publication from IRC §§ 6601, 6621 and 6622 and the IRS quarterly interest rates page." }
 ---
