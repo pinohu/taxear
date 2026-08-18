@@ -835,6 +835,12 @@
       "taxYear": 2026,
       "source": "26 CFR § 601.506(d)(3)(iv) — https://www.law.cornell.edu/cfr/text/26/601.506",
       "verified": "2026-08-18"
+    },
+    "tia.nontax_purpose_window": {
+      "value": "120 days from the taxpayer's signature date, for a Form 8821 authorizing disclosure for a purpose other than addressing or resolving a tax matter with the IRS — income verification for a lender, for example; the window does not apply where the purpose is assistance with an IRS tax matter",
+      "taxYear": 2026,
+      "source": "Instructions for Form 8821 (When To File), page last reviewed 30 April 2026 — https://www.irs.gov/instructions/i8821",
+      "verified": "2026-08-18"
     }
   }
 }

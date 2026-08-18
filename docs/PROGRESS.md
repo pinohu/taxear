@@ -11,8 +11,8 @@ is indexed, and only the owner moves a page there (see `docs/VERIFICATION.md`).
 |---|---:|---:|---:|---:|---:|---:|
 | 1. Individuals | 120 | 120 | 0 | 0 | 0 | 0 |
 | 2. Businesses | 119 | 119 | 0 | 0 | 0 | 0 |
-| 3. Representation, Practices and Procedures | 121 | 64 | 0 | 57 | 0 | 107,839 |
-| **All parts** | **360** | **303** | **0** | **57** | **0** | **107,839** |
+| 3. Representation, Practices and Procedures | 121 | 63 | 0 | 58 | 0 | 110,338 |
+| **All parts** | **360** | **302** | **0** | **58** | **0** | **110,338** |
 
 ## Part 1 — Individuals
 
@@ -476,7 +476,7 @@ is indexed, and only the owner moves a page there (see `docs/VERIFICATION.md`).
 | 3.2.1.e | [Proper completion of power of attorney (Form 2848)](/representation/representation-before-the-irs/power-of-attorney/proper-completion-of-power-of-attorney-form-2848/) | stub | — | — |
 | 3.2.1.f | [Alternate forms of power of attorney (durable)](/representation/representation-before-the-irs/power-of-attorney/alternate-forms-of-power-of-attorney-durable/) | stub | — | — |
 | 3.2.1.g | [Rules for client privacy and consent to disclose](/representation/representation-before-the-irs/power-of-attorney/rules-for-client-privacy-and-consent-to-disclose/) | stub | — | — |
-| 3.2.1.h | [Distinctions between power of attorney (Form 2848) and tax information authorization (Form 8821)](/representation/representation-before-the-irs/power-of-attorney/distinctions-between-power-of-attorney-form-2848-and-tax/) | stub | — | — |
+| 3.2.1.h | [Distinctions between power of attorney (Form 2848) and tax information authorization (Form 8821)](/representation/representation-before-the-irs/power-of-attorney/distinctions-between-power-of-attorney-form-2848-and-tax/) | review | 2,499 | 2026-08-18 |
 | 3.2.1.i | [Requirements to be met when changing or dropping representatives or withdrawal of representative](/representation/representation-before-the-irs/power-of-attorney/requirements-to-be-met-when-changing-or-dropping/) | review | 2,498 | 2026-08-18 |
 | 3.2.1.j | [Purpose of a Centralized Authorization File (CAF) number](/representation/representation-before-the-irs/power-of-attorney/purpose-of-a-centralized-authorization-file-caf-number/) | review | 2,446 | 2026-08-18 |
 | 3.2.1.k | [Conference and practice requirements (Publication 216)](/representation/representation-before-the-irs/power-of-attorney/conference-and-practice-requirements-publication-216/) | stub | — | — |
