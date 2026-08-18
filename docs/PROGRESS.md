@@ -11,8 +11,8 @@ is indexed, and only the owner moves a page there (see `docs/VERIFICATION.md`).
 |---|---:|---:|---:|---:|---:|---:|
 | 1. Individuals | 120 | 120 | 0 | 0 | 0 | 0 |
 | 2. Businesses | 119 | 119 | 0 | 0 | 0 | 0 |
-| 3. Representation, Practices and Procedures | 121 | 120 | 0 | 1 | 0 | 2,028 |
-| **All parts** | **360** | **359** | **0** | **1** | **0** | **2,028** |
+| 3. Representation, Practices and Procedures | 121 | 120 | 0 | 1 | 0 | 2,496 |
+| **All parts** | **360** | **359** | **0** | **1** | **0** | **2,496** |
 
 ## Part 1 — Individuals
 
@@ -528,7 +528,7 @@ is indexed, and only the owner moves a page there (see `docs/VERIFICATION.md`).
 
 | Code | Title | Status | Words | Last reviewed |
 |---|---|---|---:|---|
-| 3.2.6.a | [Statute of limitations](/representation/representation-before-the-irs/related-issues/statute-of-limitations/) | review | 2,028 | 2026-08-17 |
+| 3.2.6.a | [Statute of limitations](/representation/representation-before-the-irs/related-issues/statute-of-limitations/) | review | 2,496 | 2026-08-18 |
 | 3.2.6.b | [Post-filing correspondence (e.g., math error notices, under-reporting notices)](/representation/representation-before-the-irs/related-issues/post-filing-correspondence/) | stub | — | — |
 | 3.2.6.c | [Deadlines and timeliness requirements](/representation/representation-before-the-irs/related-issues/deadlines-and-timeliness-requirements/) | stub | — | — |
 | 3.2.6.d | [Third-party correspondence (e.g., witness communications, employment records)](/representation/representation-before-the-irs/related-issues/third-party-correspondence/) | stub | — | — |
