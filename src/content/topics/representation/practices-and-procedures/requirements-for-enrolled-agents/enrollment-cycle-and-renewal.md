@@ -15,7 +15,7 @@ authorities:
   - { type: Reg, ref: "§ 300.6", title: "Renewal of enrollment of enrolled agent fee", url: "https://www.law.cornell.edu/cfr/text/26/300.6" }
   - { type: IRC, ref: "§ 6212", title: "Notice of deficiency", url: "https://www.law.cornell.edu/uscode/text/26/6212" }
 forms: []
-related: ["3.1.2.j", "3.1.1.a", "3.1.2.d"]
+related: ["3.1.2.j", "3.1.1.a", "3.1.2.d", "3.1.2.o"]
 changelog:
   - { date: "2026-08-18", summary: "Initial publication from Circular 230 § 10.6(a)–(d), (j)–(m) as issued by T.D. 9527." }
 ---

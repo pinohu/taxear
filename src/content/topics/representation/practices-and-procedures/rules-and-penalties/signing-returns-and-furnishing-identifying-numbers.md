@@ -16,7 +16,7 @@ authorities:
   - { type: Reg, ref: "§ 1.6695-1(b)", title: "Failure to sign return", url: "https://www.law.cornell.edu/cfr/text/26/1.6695-1" }
   - { type: Reg, ref: "§ 1.6109-2", title: "Tax return preparers furnishing identifying numbers for returns or claims for refund", url: "https://www.law.cornell.edu/cfr/text/26/1.6109-2" }
 forms: []
-related: ["3.1.4.c", "3.1.4.e", "3.1.4.f", "3.1.4.b"]
+related: ["3.1.4.c", "3.1.4.e", "3.1.4.f", "3.1.4.b", "3.1.2.o"]
 changelog:
   - { date: "2026-08-18", summary: "Initial publication from IRC §§ 6109(a)(4), 6695(b), 6695(c) and Regs. §§ 1.6695-1(b), 1.6109-2." }
 ---

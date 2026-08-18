@@ -18,7 +18,7 @@ authorities:
   - { type: Circ230, ref: "§ 10.37", title: "Requirements for written advice", url: "https://www.law.cornell.edu/cfr/text/31/10.37" }
   - { type: Pub, ref: "947", title: "Practice Before the IRS and Power of Attorney", url: "https://www.irs.gov/forms-pubs/about-publication-947" }
 forms: ["2848", "8821"]
-related: ["3.1.1.b", "3.2.1.a", "3.1.2.f", "3.1.4.b", "3.1.3.a", "3.1.3.b", "3.1.2.g", "3.1.2.c", "3.1.2.d", "3.1.2.j", "3.1.2.l"]
+related: ["3.1.1.b", "3.2.1.a", "3.1.2.f", "3.1.4.b", "3.1.3.a", "3.1.3.b", "3.1.2.g", "3.1.2.c", "3.1.2.d", "3.1.2.j", "3.1.2.l", "3.1.2.o", "3.1.2.p"]
 changelog:
   - { date: "2026-08-18", summary: "Initial publication, written from 31 CFR Part 10 (Circular 230) as it currently reads." }
 ---
