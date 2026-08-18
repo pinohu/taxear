@@ -17,7 +17,7 @@ authorities:
   - { type: Pub, ref: "Instructions for Form 2848 (rev. 09/2021)", title: "Revocation of Power of Attorney / Withdrawal of Representative", url: "https://www.irs.gov/instructions/i2848" }
 forms:
   - "2848"
-related: ["3.2.1.a", "3.2.1.c", "3.2.1.j", "3.1.2.n", "3.2.1.h"]
+related: ["3.2.1.a", "3.2.1.c", "3.2.1.j", "3.1.2.n", "3.2.1.h", "3.2.1.f"]
 changelog:
   - { date: "2026-08-18", summary: "Initial publication from 26 CFR § 601.505." }
 ---

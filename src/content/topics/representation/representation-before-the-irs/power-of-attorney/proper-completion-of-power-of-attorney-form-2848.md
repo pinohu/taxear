@@ -18,7 +18,7 @@ authorities:
 forms:
   - "2848"
   - "8453"
-related: ["3.2.1.a", "3.2.1.c", "3.2.1.h", "3.2.1.j"]
+related: ["3.2.1.a", "3.2.1.c", "3.2.1.h", "3.2.1.j", "3.2.1.f"]
 changelog:
   - { date: "2026-08-18", summary: "Initial publication from the Instructions for Form 2848 (rev. 09/2021) and 26 CFR §§ 601.503, 601.504 and 1.6012-1(a)(5)." }
 ---
