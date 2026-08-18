@@ -865,6 +865,12 @@
       "taxYear": 2026,
       "source": "Reg. § 301.7216-3(b)(5) — https://www.law.cornell.edu/cfr/text/26/301.7216-3",
       "verified": "2026-08-18"
+    },
+    "conference.submission_days": {
+      "value": "at least 5 business days before the conference for any written protest, brief or other statement the taxpayer or representative wishes considered; additional or supporting facts may follow within a reasonable time after it",
+      "taxYear": 2026,
+      "source": "26 CFR § 601.501(c)(2) — https://www.law.cornell.edu/cfr/text/26/601.501",
+      "verified": "2026-08-18"
     }
   }
 }

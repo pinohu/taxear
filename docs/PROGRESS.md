@@ -11,8 +11,8 @@ is indexed, and only the owner moves a page there (see `docs/VERIFICATION.md`).
 |---|---:|---:|---:|---:|---:|---:|
 | 1. Individuals | 120 | 120 | 0 | 0 | 0 | 0 |
 | 2. Businesses | 119 | 119 | 0 | 0 | 0 | 0 |
-| 3. Representation, Practices and Procedures | 121 | 60 | 0 | 61 | 0 | 117,831 |
-| **All parts** | **360** | **299** | **0** | **61** | **0** | **117,831** |
+| 3. Representation, Practices and Procedures | 121 | 59 | 0 | 62 | 0 | 120,332 |
+| **All parts** | **360** | **298** | **0** | **62** | **0** | **120,332** |
 
 ## Part 1 — Individuals
 
@@ -479,7 +479,7 @@ is indexed, and only the owner moves a page there (see `docs/VERIFICATION.md`).
 | 3.2.1.h | [Distinctions between power of attorney (Form 2848) and tax information authorization (Form 8821)](/representation/representation-before-the-irs/power-of-attorney/distinctions-between-power-of-attorney-form-2848-and-tax/) | review | 2,499 | 2026-08-18 |
 | 3.2.1.i | [Requirements to be met when changing or dropping representatives or withdrawal of representative](/representation/representation-before-the-irs/power-of-attorney/requirements-to-be-met-when-changing-or-dropping/) | review | 2,498 | 2026-08-18 |
 | 3.2.1.j | [Purpose of a Centralized Authorization File (CAF) number](/representation/representation-before-the-irs/power-of-attorney/purpose-of-a-centralized-authorization-file-caf-number/) | review | 2,446 | 2026-08-18 |
-| 3.2.1.k | [Conference and practice requirements (Publication 216)](/representation/representation-before-the-irs/power-of-attorney/conference-and-practice-requirements-publication-216/) | stub | — | — |
+| 3.2.1.k | [Conference and practice requirements (Publication 216)](/representation/representation-before-the-irs/power-of-attorney/conference-and-practice-requirements-publication-216/) | review | 2,501 | 2026-08-18 |
 
 **3.2.2 Building the taxpayer’s case - Preliminary work**
 

@@ -16,7 +16,7 @@ authorities:
   - { type: Circ230, ref: "§ 10.31", title: "Negotiation of taxpayer checks", url: "https://www.law.cornell.edu/cfr/text/31/10.31" }
   - { type: Form, ref: "2848", title: "Power of Attorney and Declaration of Representative", url: "https://www.irs.gov/forms-pubs/about-form-2848" }
 forms: ["2848"]
-related: ["3.2.1.a", "3.2.1.c", "3.2.1.d", "3.2.6.a"]
+related: ["3.2.1.a", "3.2.1.c", "3.2.1.d", "3.2.6.a", "3.2.1.k"]
 changelog:
   - { date: "2026-08-18", summary: "Initial publication from IRC § 6501(c)(4), § 7121, Reg. § 601.503 and Circular 230 § 10.31." }
 ---
