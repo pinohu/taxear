@@ -11,8 +11,8 @@ is indexed, and only the owner moves a page there (see `docs/VERIFICATION.md`).
 |---|---:|---:|---:|---:|---:|---:|
 | 1. Individuals | 120 | 120 | 0 | 0 | 0 | 0 |
 | 2. Businesses | 119 | 119 | 0 | 0 | 0 | 0 |
-| 3. Representation, Practices and Procedures | 121 | 50 | 0 | 71 | 0 | 142,653 |
-| **All parts** | **360** | **289** | **0** | **71** | **0** | **142,653** |
+| 3. Representation, Practices and Procedures | 121 | 49 | 0 | 72 | 0 | 145,142 |
+| **All parts** | **360** | **288** | **0** | **72** | **0** | **145,142** |
 
 ## Part 1 — Individuals
 
@@ -583,7 +583,7 @@ is indexed, and only the owner moves a page there (see `docs/VERIFICATION.md`).
 | 3.3.3.e | [Steps in the process (e.g., initial meeting, submission of IRS requested information)](/representation/specific-types-of-representation/representing-a-taxpayer-in-audits-examinations/steps-in-the-process/) | review | 2,495 | 2026-08-18 |
 | 3.3.3.f | [Interpretation and analysis of Revenue Agent Report (RAR) (e.g., 30-day letter)](/representation/specific-types-of-representation/representing-a-taxpayer-in-audits-examinations/interpretation-and-analysis-of-revenue-agent-report-rar/) | review | 2,500 | 2026-08-18 |
 | 3.3.3.g | [Interpretation and analysis of CP-2000 notice and correspondence audits](/representation/specific-types-of-representation/representing-a-taxpayer-in-audits-examinations/interpretation-and-analysis-of-cp-2000-notice/) | review | 1,683 | 2026-08-18 |
-| 3.3.3.h | [Explanations of taxpayer options (e.g. agree or appeal)](/representation/specific-types-of-representation/representing-a-taxpayer-in-audits-examinations/explanations-of-taxpayer-options/) | stub | — | — |
+| 3.3.3.h | [Explanations of taxpayer options (e.g. agree or appeal)](/representation/specific-types-of-representation/representing-a-taxpayer-in-audits-examinations/explanations-of-taxpayer-options/) | review | 2,489 | 2026-08-18 |
 | 3.3.3.i | [Taxpayer’s burden of proof](/representation/specific-types-of-representation/representing-a-taxpayer-in-audits-examinations/taxpayer-s-burden-of-proof/) | stub | — | — |
 
 **3.3.4 Representing a taxpayer before appeals**

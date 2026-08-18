@@ -24,7 +24,7 @@ blocked on a figure. `npm run verify` reports 0 errors.
 | 3.2.6 Related issues | 2 / 10 |
 | 3.3.1 Collection process | 9 / 16 |
 | 3.3.2 Penalties and interest abatement | **5 / 5** |
-| 3.3.3 Audits and examinations | 6 / 9 |
+| 3.3.3 Audits and examinations | 8 / 9 |
 | 3.4.3 Electronic filing | 1 / 9 |
 
 Untouched Part 3 sections: 3.2.2 (5), 3.2.3 (5), 3.2.4 (5), 3.2.5 (8), 3.3.4 (5),
@@ -54,6 +54,8 @@ deposit pages.
 | 3.3.3.e | steps in the process — the IRS audits page plus IRC § 7521 |
 | 3.3.3.c | verification and substantiation — IRC §§ 6001, 274(d), 6201(d) |
 | 3.3.3.d | time and place of investigation — IRC § 7605, Reg. § 301.7605-1 |
+| 3.3.3.f | RAR and the 30-day letter — Pub. 3498, Pub. 5 |
+| 3.3.3.h | explanations of taxpayer options — Pub. 5, IRC §§ 6213, 6673, 7463 |
 | 3.4.3.b | e-file mandate and exceptions |
 
 Forms: 2848, 8821, 1040-X, 843, 656, 9465, 12153, 9423, 6118, 8867, 8948, 8944, 8453,
@@ -75,8 +77,18 @@ Prefer depth over breadth. Each of these sits beside a page that already exists,
 
 | Codes | Why next |
 |---|---|
-| 3.3.3.f, h, i | The rest of the examination section — RAR and the 30-day letter, taxpayer options, burden of proof (IRC § 7491). **The taxonomy question is settled** — see below; do not re-open IRM 4.10 for it |
+| 3.3.3.i | The last of the examination section — taxpayer's burden of proof (IRC § 7491, § 6201(d)) |
 | 3.4.3.a, c–i | Completes electronic filing, mostly from Pub. 3112 and Pub. 1345 |
+
+### IRS publication PDFs now extract — resolved 2026-08-18
+
+Earlier passes recorded that IRS PDFs could not be read in this environment and worked
+around it via `irs.gov/instructions/iNNNN` HTML. That was a fixable environment fault, not
+an unavailable source. `pip install pypdf` then `pip install --force-reinstall cffi` clears
+the `_cffi_backend` failure, after which `PdfReader(...).pages[i].extract_text()` works.
+Pub. 5, Pub. 3498, Pub. 3498-A, Pub. 556 and Pub. 1 all extract cleanly. **Re-check any
+topic left thin for want of a publication** — Pub. 1660 (collection appeal rights),
+Pub. 594, Pub. 947 and Pub. 556 are now all readable.
 
 ### The examination taxonomy — resolved 2026-08-18
 

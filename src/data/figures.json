@@ -1057,6 +1057,36 @@
       "taxYear": 2026,
       "source": "IRS Pub. 3498 (Rev. 5-2025), \"Agreed\"; IRC § 6601(e)(3) — https://www.irs.gov/pub/irs-pdf/p3498.pdf",
       "verified": "2026-08-18"
+    },
+    "courts.forums": {
+      "value": "3 — the United States Tax Court, the United States Court of Federal Claims, and the United States District Court for the judicial district where the taxpayer resides or has a principal place of business",
+      "taxYear": 2026,
+      "source": "IRS Pub. 5 (Rev. 4-2021), \"Court Actions\" — https://www.irs.gov/pub/irs-pdf/p5.pdf",
+      "verified": "2026-08-18"
+    },
+    "courts.refund_suit_window": {
+      "value": "2 years from the date of the notice of claim disallowance; Appeals' consideration of a disallowed claim does not extend it, though it may be extended by mutual agreement",
+      "taxYear": 2026,
+      "source": "IRS Pub. 5 (Rev. 4-2021), \"District Court and the U.S. Court of Federal Claims\" — https://www.irs.gov/pub/irs-pdf/p5.pdf",
+      "verified": "2026-08-18"
+    },
+    "courts.refund_no_response": {
+      "value": "suit may be filed where no written response to a timely refund claim has been received within 6 months from the date the claim was filed",
+      "taxYear": 2026,
+      "source": "IRS Pub. 5 (Rev. 4-2021) — https://www.irs.gov/pub/irs-pdf/p5.pdf",
+      "verified": "2026-08-18"
+    },
+    "courts.frivolous_penalty": {
+      "value": "a penalty not in excess of $25,000, imposed by the Tax Court in its decision where proceedings were instituted or maintained primarily for delay, the taxpayer's position is frivolous or groundless, or the taxpayer unreasonably failed to pursue available administrative remedies",
+      "taxYear": 2026,
+      "source": "IRC § 6673(a)(1) — https://www.law.cornell.edu/uscode/text/26/6673",
+      "verified": "2026-08-18"
+    },
+    "courts.small_tax_case": {
+      "value": "available where neither the deficiency in dispute nor any claimed overpayment exceeds $50,000 for any one taxable year (subtitle A), at the taxpayer's option concurred in by the Tax Court before hearing — the decision is not reviewable in any other court and is not treated as precedent",
+      "taxYear": 2026,
+      "source": "IRC § 7463(a)–(b) — https://www.law.cornell.edu/uscode/text/26/7463",
+      "verified": "2026-08-18"
     }
   }
 }

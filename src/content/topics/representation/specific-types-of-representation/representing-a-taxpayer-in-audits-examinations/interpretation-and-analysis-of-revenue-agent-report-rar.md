@@ -17,7 +17,7 @@ authorities:
   - { type: IRC, ref: "§ 6213", title: "Restrictions applicable to deficiencies; petition to Tax Court", url: "https://www.law.cornell.edu/uscode/text/26/6213" }
   - { type: IRC, ref: "§ 6501", title: "Limitations on assessment and collection", url: "https://www.law.cornell.edu/uscode/text/26/6501" }
 forms: []
-related: ["3.3.3.e", "3.3.3.c", "3.3.3.g"]
+related: ["3.3.3.e", "3.3.3.c", "3.3.3.g", "3.3.3.h"]
 changelog:
   - { date: "2026-08-18", summary: "Initial publication from Pub. 3498 (Rev. 5-2025), Pub. 5 (Rev. 4-2021), the IRS appeals pages last reviewed 28 June and 16 April 2026, and IRC §§ 6212, 6213 and 6501." }
 ---
