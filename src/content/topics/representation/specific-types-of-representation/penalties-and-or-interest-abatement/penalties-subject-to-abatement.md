@@ -18,7 +18,7 @@ authorities:
   - { type: IRM, ref: "20.1.1", title: "Penalty Handbook, Introduction and Penalty Relief", url: "https://www.irs.gov/irm/part20/irm_20-001-001r" }
   - { type: RevProc, ref: "2025-32", title: "Inflation-adjusted items for 2026", url: "https://www.irs.gov/pub/irs-drop/rp-25-32.pdf" }
 forms: ["843"]
-related: ["3.3.2.b", "3.2.6.a", "3.3.1.b"]
+related: ["3.3.2.b", "3.2.6.a", "3.3.1.b", "3.1.4.b"]
 changelog:
   - { date: "2026-08-18", summary: "Initial publication from IRC §§ 6651, 6656, 6662, 6663, 6404 and IRM 20.1.1." }
 ---

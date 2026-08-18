@@ -69,16 +69,16 @@
       "verified": "2026-08-18"
     },
     "preparer.6694a": {
-      "value": "greater of $1,000 or 50% of income derived",
+      "value": "the greater of $1,000 or 50% of the income derived or to be derived from the return or claim",
       "taxYear": 2026,
-      "source": "IRC § 6694(a)",
-      "verified": null
+      "source": "IRC § 6694(a)(1)",
+      "verified": "2026-08-18"
     },
     "preparer.6694b": {
-      "value": "greater of $5,000 or 75% of income derived",
+      "value": "the greater of $5,000 or 75% of the income derived or to be derived from the return or claim",
       "taxYear": 2026,
-      "source": "IRC § 6694(b)",
-      "verified": null
+      "source": "IRC § 6694(b)(1)",
+      "verified": "2026-08-18"
     },
     "sol.assessment.general": {
       "value": "3 years from the later of the due date or the date filed",
@@ -186,6 +186,90 @@
       "taxYear": 2026,
       "value": "24",
       "source": "IRC § 7122(f)",
+      "verified": "2026-08-18"
+    },
+    "preparer.6695.per_failure": {
+      "taxYear": 2026,
+      "value": "$65 per return or claim, capped at $33,000",
+      "source": "Rev. Proc. 2025-32 § 3.54 (returns or claims filed in 2027); IRC § 6695(a)–(e)",
+      "verified": "2026-08-18"
+    },
+    "preparer.6695f.check": {
+      "taxYear": 2026,
+      "value": "$665 per check, no cap",
+      "source": "Rev. Proc. 2025-32 § 3.54 (returns or claims filed in 2027); IRC § 6695(f)",
+      "verified": "2026-08-18"
+    },
+    "preparer.6695g.duediligence": {
+      "taxYear": 2026,
+      "value": "$665 per failure, no cap",
+      "source": "Rev. Proc. 2025-32 § 3.54 (returns or claims filed in 2027); IRC § 6695(g)",
+      "verified": "2026-08-18"
+    },
+    "preparer.6694a.assessment_period": {
+      "taxYear": 2026,
+      "value": "3 years from the filing of the return or claim",
+      "source": "IRC § 6696(d)(1)",
+      "verified": "2026-08-18"
+    },
+    "preparer.6694b.assessment_period": {
+      "taxYear": 2026,
+      "value": "no limitation period — assessable at any time",
+      "source": "IRC § 6696(d)(1)",
+      "verified": "2026-08-18"
+    },
+    "preparer.stay_of_collection": {
+      "taxYear": 2026,
+      "value": "15% of the penalty, paid within 30 days of notice and demand, with a refund claim",
+      "source": "IRC § 6694(c)(1)",
+      "verified": "2026-08-18"
+    },
+    "penalty.accuracy.gross_valuation": {
+      "value": "40% of the underpayment attributable to a gross valuation misstatement",
+      "taxYear": 2026,
+      "source": "IRC § 6662(h)(1)",
+      "verified": "2026-08-18"
+    },
+    "penalty.substantial_understatement.threshold": {
+      "value": "an understatement exceeding the greater of 10% of the tax required to be shown or $5,000 (corporations: the lesser of the greater of 10% or $10,000, or $10,000,000)",
+      "taxYear": 2026,
+      "source": "IRC § 6662(d)(1)(A), (B)",
+      "verified": "2026-08-18"
+    },
+    "penalty.frivolous": {
+      "value": "$5,000 per frivolous return or specified frivolous submission",
+      "taxYear": 2026,
+      "source": "IRC § 6702(a), (b)(1)",
+      "verified": "2026-08-18"
+    },
+    "preparer.6701.individual": {
+      "value": "$1,000 per document, and only one penalty per person per taxpayer per taxable period",
+      "taxYear": 2026,
+      "source": "IRC § 6701(b)(1), (b)(3)",
+      "verified": "2026-08-18"
+    },
+    "preparer.6701.corporate": {
+      "value": "$10,000 per document where the document relates to a corporation's tax liability",
+      "taxYear": 2026,
+      "source": "IRC § 6701(b)(2)",
+      "verified": "2026-08-18"
+    },
+    "preparer.6713.per_disclosure": {
+      "value": "$250 per disclosure or use, capped at $10,000 per calendar year",
+      "taxYear": 2026,
+      "source": "IRC § 6713(a)",
+      "verified": "2026-08-18"
+    },
+    "preparer.7216.criminal": {
+      "value": "a misdemeanor: a fine of up to $1,000, imprisonment of up to one year, or both, plus costs of prosecution",
+      "taxYear": 2026,
+      "source": "IRC § 7216(a)",
+      "verified": "2026-08-18"
+    },
+    "penalty.valuation.thresholds": {
+      "value": "substantial at 150% or more of the correct value or adjusted basis; gross at 200% or more",
+      "taxYear": 2026,
+      "source": "IRC § 6662(e)(1)(A) and § 6662(h)(2)(A)(i)",
       "verified": "2026-08-18"
     }
   }
