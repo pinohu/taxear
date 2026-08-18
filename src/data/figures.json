@@ -703,6 +703,36 @@
       "taxYear": 2026,
       "source": "IRS Pub. 3598, opened 2026-08-18",
       "verified": "2026-08-18"
+    },
+    "extension.pay.return_period": {
+      "value": "a reasonable period not exceeding 6 months from the date fixed for payment, and longer where the taxpayer is abroad; 12 months for estate tax",
+      "taxYear": 2026,
+      "source": "IRC § 6161(a)(1)",
+      "verified": "2026-08-18"
+    },
+    "extension.pay.deficiency_period": {
+      "value": "not exceeding 18 months from the date fixed for payment of the deficiency, and in exceptional cases a further period not exceeding 12 months",
+      "taxYear": 2026,
+      "source": "IRC § 6161(b)(1)",
+      "verified": "2026-08-18"
+    },
+    "extension.pay.hardship": {
+      "value": "substantial financial loss, not mere inconvenience — a general statement of hardship will not do, and selling property at current market price where a market exists is not ordinarily hardship",
+      "taxYear": 2026,
+      "source": "Reg. § 1.6161-1(b)",
+      "verified": "2026-08-18"
+    },
+    "extension.pay.support": {
+      "value": "Form 1127 with evidence of the hardship, a statement of assets and liabilities, and an itemised statement of all receipts and disbursements for each of the 3 months preceding the due date",
+      "taxYear": 2026,
+      "source": "Reg. § 1.6161-1(c)",
+      "verified": "2026-08-18"
+    },
+    "extension.pay.bond": {
+      "value": "a bond not exceeding double the amount for which the extension is granted, where the Secretary requires security",
+      "taxYear": 2026,
+      "source": "IRC § 6165; IRC § 6161(d)(2)",
+      "verified": "2026-08-18"
     }
   }
 }

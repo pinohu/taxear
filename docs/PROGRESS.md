@@ -11,8 +11,8 @@ is indexed, and only the owner moves a page there (see `docs/VERIFICATION.md`).
 |---|---:|---:|---:|---:|---:|---:|
 | 1. Individuals | 120 | 120 | 0 | 0 | 0 | 0 |
 | 2. Businesses | 119 | 119 | 0 | 0 | 0 | 0 |
-| 3. Representation, Practices and Procedures | 121 | 85 | 0 | 36 | 0 | 63,823 |
-| **All parts** | **360** | **324** | **0** | **36** | **0** | **63,823** |
+| 3. Representation, Practices and Procedures | 121 | 84 | 0 | 37 | 0 | 65,451 |
+| **All parts** | **360** | **323** | **0** | **37** | **0** | **65,451** |
 
 ## Part 1 — Individuals
 
@@ -545,7 +545,7 @@ is indexed, and only the owner moves a page there (see `docs/VERIFICATION.md`).
 
 | Code | Title | Status | Words | Last reviewed |
 |---|---|---|---:|---|
-| 3.3.1.a | [Extension of time to pay (e.g., Form 1127)](/representation/specific-types-of-representation/representing-a-taxpayer-in-the-collection-process/extension-of-time-to-pay/) | stub | — | — |
+| 3.3.1.a | [Extension of time to pay (e.g., Form 1127)](/representation/specific-types-of-representation/representing-a-taxpayer-in-the-collection-process/extension-of-time-to-pay/) | review | 1,628 | 2026-08-18 |
 | 3.3.1.b | [Installment agreements](/representation/specific-types-of-representation/representing-a-taxpayer-in-the-collection-process/installment-agreements/) | review | 1,484 | 2026-08-18 |
 | 3.3.1.c | [Offer in compromise](/representation/specific-types-of-representation/representing-a-taxpayer-in-the-collection-process/offer-in-compromise/) | review | 1,446 | 2026-08-18 |
 | 3.3.1.d | [Collection appeals program (e.g., denial of installment agreements, discharge applications)](/representation/specific-types-of-representation/representing-a-taxpayer-in-the-collection-process/collection-appeals-program/) | review | 1,596 | 2026-08-18 |
