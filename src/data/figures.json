@@ -3,10 +3,10 @@
   "taxYear": 2026,
   "figures": {
     "oic.application_fee": {
-      "value": "$205",
+      "value": "$205 (non-refundable)",
       "taxYear": 2026,
-      "source": "Form 656 instructions",
-      "verified": null
+      "source": "IRS Offer in Compromise page and Form 656-B booklet",
+      "verified": "2026-08-18"
     },
     "ia.setup_fee.online_directdebit": {
       "value": "$29",
@@ -168,6 +168,24 @@
       "taxYear": 2026,
       "value": "$50,000 or less aggregate unpaid balance of assessment",
       "source": "IRM 5.14.5.2 (07-21-2026), Simple Payment Plans",
+      "verified": "2026-08-18"
+    },
+    "oic.lump_sum_initial": {
+      "taxYear": 2026,
+      "value": "20% of the total offer, with the application",
+      "source": "IRS Offer in Compromise page and Form 656-B booklet; IRC § 7122(c)(1)(A)",
+      "verified": "2026-08-18"
+    },
+    "oic.lump_sum_max_payments": {
+      "taxYear": 2026,
+      "value": "5 or fewer",
+      "source": "IRS Offer in Compromise page and Form 656-B booklet; IRC § 7122(c)(1)(A)(ii)",
+      "verified": "2026-08-18"
+    },
+    "oic.deemed_accepted_months": {
+      "taxYear": 2026,
+      "value": "24",
+      "source": "IRC § 7122(f)",
       "verified": "2026-08-18"
     }
   }

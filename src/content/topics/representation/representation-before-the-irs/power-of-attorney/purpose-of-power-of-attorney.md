@@ -18,7 +18,7 @@ authorities:
   - { type: Form, ref: "8821", title: "Tax Information Authorization", url: "https://www.irs.gov/forms-pubs/about-form-8821" }
   - { type: Pub, ref: "947", title: "Practice Before the IRS and Power of Attorney", url: "https://www.irs.gov/forms-pubs/about-publication-947" }
 forms: ["2848", "8821"]
-related: ["3.1.1.b", "3.1.1.a", "3.2.1.b", "3.2.1.c", "3.2.1.d", "3.3.1.b", "3.2.6.a"]
+related: ["3.1.1.b", "3.1.1.a", "3.2.1.b", "3.2.1.c", "3.2.1.d", "3.3.1.b", "3.3.1.c", "3.2.6.a"]
 changelog:
   - { date: "2026-08-18", summary: "Initial publication from 26 CFR Part 601 Subpart E and Circular 230." }
 ---
