@@ -823,6 +823,18 @@
       "taxYear": 2026,
       "source": "IRC § 6707(b) — https://www.law.cornell.edu/uscode/text/26/6707",
       "verified": "2026-08-18"
+    },
+    "caf.future_horizon": {
+      "value": "future tax periods may not exceed 3 years from 31 December of the year the IRS receives the power of attorney; periods beyond that are not recorded but the authorization stays valid and may be resubmitted",
+      "taxYear": 2026,
+      "source": "Instructions for Form 2848 (rev. 09/2021), line 3, page last reviewed 30 April 2026 — https://www.irs.gov/instructions/i2848. Compare 26 CFR § 601.506(d)(3)(ii), which measures 3 years from the date of receipt.",
+      "verified": "2026-08-18"
+    },
+    "caf.representative_limit": {
+      "value": "3 representatives under a power of attorney, or 3 persons under a tax information authorization; where more are named only the first 3 are recorded, though all remain appointed",
+      "taxYear": 2026,
+      "source": "26 CFR § 601.506(d)(3)(iv) — https://www.law.cornell.edu/cfr/text/26/601.506",
+      "verified": "2026-08-18"
     }
   }
 }

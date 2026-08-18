@@ -14,6 +14,7 @@ authorities:
   - { type: Reg, ref: "§ 601.503", title: "Requirements of power of attorney, signatures, fiduciaries and Commissioner's authority to substitute other requirements", url: "https://www.law.cornell.edu/cfr/text/26/601.503" }
   - { type: Reg, ref: "§ 601.504", title: "Requirements for filing power of attorney", url: "https://www.law.cornell.edu/cfr/text/26/601.504" }
   - { type: IRC, ref: "§ 6672", title: "Failure to collect and pay over tax, or attempt to evade or defeat tax", url: "https://www.law.cornell.edu/uscode/text/26/6672" }
+  - { type: Pub, ref: "Instructions for Form 2848 (rev. 09/2021)", title: "Lines 3, 4 and 6", url: "https://www.irs.gov/instructions/i2848" }
 forms:
   - "2848"
   - "8821"
@@ -22,57 +23,55 @@ changelog:
   - { date: "2026-08-18", summary: "Initial publication from 26 CFR § 601.506(d)." }
 ---
 
-The Centralized Authorization File is a database, and the number is a filing key. Neither confers anything. The regulation is unusually explicit on that point, and it is also explicit about the **three limits** on what the system will record — limits that catch practitioners who assume a filed authorisation is a recorded one.
+The Centralized Authorization File is a database and the number is a filing key. Neither confers anything. The regulation is unusually explicit on that point, and equally explicit about the limits on what the system records — limits that catch practitioners who assume a filed authorisation is a recorded one.
 
 ## The rule
 
-**What the CAF holds** (Reg. § 601.506(d)(1)). Information from **both powers of attorney and tax information authorizations** is recorded onto the CAF system. That information lets IRS personnel who do not have the actual document:
-
-- determine whether a **recognized representative or an appointee** is authorised by the taxpayer to **receive and inspect** confidential tax information;
-- determine, in the case of a recognized representative, whether that representative is authorised to **perform the acts set out in Reg. § 601.504(a)**; and
-- **send copies of computer-generated notices and communications** to the appointee or representative so authorised.
+**What the CAF holds** (Reg. § 601.506(d)(1)). Information from **both powers of attorney and tax information authorizations** is recorded. That information lets IRS personnel who do not have the actual document determine whether a **recognized representative or appointee** is authorised to **receive and inspect** confidential tax information; determine whether a representative is authorised to **perform the acts set out in Reg. § 601.504(a)**; and **send copies of computer-generated notices and communications** to the person so authorised.
 
 **The number** (Reg. § 601.506(d)(2)). A CAF number generally issues to a **recognized representative who files a power of attorney and a written declaration of representative**, or to **an appointee authorised under a tax information authorization**.
 
-The regulation then states the point plainly: **"The issuance of a CAF number does not indicate that a person is either recognized or authorized to practice before the Internal Revenue Service."** That determination is made under **Circular 230**, 31 CFR part 10. The **purpose** of the number is to **facilitate the processing** of a power of attorney or tax information authorization. A representative or appointee **should include the same CAF number on every** authorisation filed — but because the CAF number is **not a substantive requirement** under Reg. § 601.503(a), an authorisation **will not be rejected for its absence**.
+The regulation then states the point plainly: **"The issuance of a CAF number does not indicate that a person is either recognized or authorized to practice before the Internal Revenue Service."** That is determined under **Circular 230**. The number's **purpose** is to **facilitate processing**, and a representative **should include the same number on every** authorisation filed — but because it is **not a substantive requirement** under Reg. § 601.503(a), an authorisation **will not be rejected for its absence**.
 
 **What gets recorded** (Reg. § 601.506(d)(3)). Although a power of attorney or tax information authorization may be filed in **all matters** under IRS jurisdiction, only documents meeting **each** of the following criteria are recorded:
 
-1. **Specific tax period.** Only documents concerning a matter relating to a **specific tax period** are recorded. A document filed in a matter unrelated to a specific period **cannot** be recorded — the regulation's own examples are the **IRC § 6672** trust fund recovery penalty, applications for an employer identification number, and private letter ruling requests on a proposed transaction.
-2. **Future three-year limitation.** Only documents concerning a tax period **ending no later than three years after the date the power of attorney is received by the IRS** are recorded.
+1. **Specific tax period.** Only documents concerning a matter relating to a **specific tax period** are recorded — the regulation's examples of matters that cannot be are the **IRC § 6672** penalty, EIN applications, and private letter ruling requests on a proposed transaction.
+2. **Future three-year limitation.** Only documents concerning a tax period **ending no later than three years after the date the power of attorney is received by the IRS** are recorded. The **current Form 2848 instructions measure this differently and more generously** — see "How this has changed" below.
 3. **Prior tax periods.** Documents concerning a tax period that **ended before** the power of attorney is received **are** recorded, **provided** matters concerning those years are **under consideration by the IRS**.
 4. **Three-representative limit.** **No more than three** representatives under a power of attorney, or three persons under a tax information authorization, are recorded. Where more are named, **only the first three** are recorded.
 
-And the closing sentence: the fact that a document **cannot be recorded is not determinative of its current or future validity**. Documents concerning periods more than three years out are **not invalid** for the unrecorded periods — they **can be resubmitted later**.
+And the closing sentence: the fact that a document **cannot be recorded is not determinative of its current or future validity**. Documents reaching beyond the horizon are **not invalid** for the unrecorded periods — they **can be resubmitted later**.
 
 ## Current figures
 
 | Limit | Rule | Authority |
 | --- | --- | --- |
-| Future horizon | Tax periods ending no later than 3 years after the IRS receives the power of attorney | § 601.506(d)(3)(ii) |
-| Representatives recorded | No more than 3; where more are named, the first 3 | § 601.506(d)(3)(iv) |
+| Future horizon | {fig:caf.future_horizon} | Instructions for Form 2848, line 3; § 601.506(d)(3)(ii) |
+| Representatives recorded | {fig:caf.representative_limit} | § 601.506(d)(3)(iv) |
 | Prior periods | Recorded only where the matter is under IRS consideration | § 601.506(d)(3)(iii) |
-| Not recordable | Matters not tied to a specific tax period — IRC § 6672, EIN applications, letter ruling requests | § 601.506(d)(3)(i) |
-| CAF number's effect | None on eligibility to practise; a processing convenience only | § 601.506(d)(2) |
+| Not recordable | "Specific use" — a one-time or specific-issue grant, or one not tied to a specific tax period (except civil penalties) | Instructions for Form 2848, line 4; § 601.506(d)(3)(i) |
+| CAF number | No effect on eligibility to practise; a processing key only | § 601.506(d)(2) |
 
 ## How it works in practice
 
-**The number is not a credential.** This is the single most examinable sentence in the section, and the regulation supplies it in terms: issuance of a CAF number **does not indicate** that a person is recognized or authorized to practise. Eligibility comes from Circular 230. An unenrolled appointee under a Form 8821 holds a CAF number and may practise before the IRS not at all.
+**The number is not a credential.** The regulation supplies the point in terms: issuance of a CAF number **does not indicate** that a person is recognized or authorized to practise. Eligibility comes from Circular 230. An unenrolled appointee under a Form 8821 holds a CAF number and may practise before the IRS not at all.
 
-**Nor is it a filing requirement.** Reg. § 601.503(a) lists the substantive requirements of a power of attorney; the CAF number is not among them. An authorisation without one is processed, not rejected — the IRS assigns a number if the person has none. What the regulation asks is **consistency**: the same number on every authorisation, so the file coheres.
+**Nor is it a filing requirement.** Reg. § 601.503(a) lists the substantive requirements of a power of attorney; the CAF number is not among them. An authorisation without one is processed, not rejected. What the regulation asks is **consistency**: the same number on every authorisation.
 
-**"Recorded" and "valid" are different states**, and the closing sentence of § 601.506(d)(3) makes that explicit. The three-year horizon is a limit on the **database**, not on the authorisation. A Form 2848 covering quarters five years out is a good power of attorney for those quarters; it simply will not sit in the CAF until resubmitted closer to the time. A practitioner who treats an unrecorded period as unauthorised has misread the section — and one who treats a recorded authorisation as proof of authority has misread it in the other direction.
+**"Recorded" and "valid" are different states**, and the closing sentence of § 601.506(d)(3) makes that explicit. The forward horizon limits the **database**, not the authorisation. A Form 2848 covering periods five years out is a good power of attorney for them; it simply will not sit in the CAF until resubmitted closer to the time.
 
-**The specific-period rule explains a recurring frustration.** The regulation names the **IRC § 6672** trust fund recovery penalty as an example of a matter that cannot be recorded, because the penalty attaches to a person rather than to a return period in the way the CAF is built to index. The authorisation is still effective for that matter; it just does not appear in the file, so IRS personnel checking the CAF may not see it and the representative should expect to produce the document.
+**The specific-period rule, read with the current instructions.** The 1991 regulation names the **IRC § 6672** trust fund recovery penalty as unrecordable. The current Form 2848 instructions describe a **specific-use** power of attorney — a one-time or specific-issue grant, or one not relating to a specific tax period — as not recorded, and **expressly except civil penalties**, listing instead private letter ruling and technical advice requests, EIN and ITIN applications, **Form 843 claims**, corporate dissolutions, **Circular 230 disciplinary proceedings**, accounting method and period changes, and exemption and plan determination applications. On the trust fund recovery penalty the instructions are the better guide. Either way the authorisation is effective; the CAF question is only whether IRS personnel see it without being shown the document.
 
-**The three-representative limit is a recording limit too.** Naming five representatives on a Form 2848 does not invalidate the appointment of the fourth and fifth. It means the CAF carries the **first three**. Where that matters is notices: § 601.506(d)(1)(iii) describes the CAF as the mechanism for sending copies of computer-generated notices, so a representative outside the recorded three will not receive them automatically. The practical response is to order the names deliberately.
+**The three-representative limit is a recording limit too.** Naming five representatives does not invalidate the fourth and fifth appointments; it means the CAF carries the **first three**. Where that matters is notices: § 601.506(d)(1)(iii) makes the CAF the mechanism for sending copies of computer-generated notices, so a representative outside the recorded three will not receive them automatically. Order the names deliberately.
 
-**Prior periods are conditional.** A power of attorney for a closed year is recorded **only if** matters concerning that year are under IRS consideration. Filing an authorisation for a dormant old year to "have it on file" does not put it in the CAF.
+**Prior periods are conditional.** A power of attorney for a closed year is recorded **only if** matters concerning that year are under IRS consideration.
+
+**Recording also decides how far a revocation reaches.** Line 6 of the Form 2848 instructions ties revocation to the CAF: a **recorded** power generally revokes any earlier power **previously recorded for the same matter**, while a **specific-use or unrecorded** power revokes only an earlier one **on file with the same office for the same matters**. Filing a Form 2848 does **not** revoke a Form 8821.
 
 <div class="scenario">
 <h3>The number that proves nothing</h3>
-<p>An unenrolled bookkeeper is named as appointee on a client's Form 8821 and receives a CAF number. She tells a revenue agent that her CAF number establishes her authority to discuss the examination and negotiate the adjustments.</p>
-<p><em>Analysis.</em> It establishes neither. Reg. § 601.506(d)(2) says issuance of a CAF number does not indicate that a person is either recognized or authorized to practise before the IRS — that determination is made under Circular 230. A tax information authorization lets an appointee receive and inspect confidential tax information; it confers no authority to represent, advocate or negotiate.</p>
+<p>An unenrolled bookkeeper named as appointee on a client's Form 8821 receives a CAF number. She tells a revenue agent it establishes her authority to discuss the examination and negotiate the adjustments.</p>
+<p><em>Analysis.</em> It establishes neither. Reg. § 601.506(d)(2) says issuance of a CAF number does not indicate that a person is either recognized or authorized to practise before the IRS — that is determined under Circular 230. A tax information authorization lets an appointee receive and inspect confidential tax information; it confers no authority to represent, advocate or negotiate.</p>
 </div>
 
 <div class="scenario">
@@ -82,26 +81,20 @@ And the closing sentence: the fact that a document **cannot be recorded is not d
 </div>
 
 <div class="scenario">
-<h3>The trust fund recovery penalty file</h3>
-<p>An enrolled agent files a Form 2848 to represent a corporate officer in a proposed IRC § 6672 assessment. Weeks later a revenue officer contacts the officer directly, saying no authorisation is on file.</p>
-<p><em>Analysis.</em> The authorisation is effective; it is simply not in the CAF. Reg. § 601.506(d)(3)(i) records only documents concerning a matter relating to a specific tax period, and names the § 6672 penalty as an example of a matter that cannot be recorded. The representative should expect to furnish the document itself rather than rely on the file.</p>
+<h3>The private letter ruling file</h3>
+<p>An enrolled agent files a Form 2848 to represent a client in a private letter ruling request. Weeks later she is told no authorisation appears on the CAF.</p>
+<p><em>Analysis.</em> The authorisation is effective; it is simply not recorded. The Form 2848 instructions describe a specific-use power of attorney — a one-time or specific-issue grant, or one not relating to a specific tax period, except for civil penalties — as one the IRS does not record, and list private letter ruling and technical advice requests first among the examples. Reg. § 601.506(d)(3)(i) is to the same effect. She should expect to furnish the document itself, and line 6's narrower revocation rule applies: an unrecorded power revokes only an earlier one on file with the same office for the same matters.</p>
 </div>
 
 <div class="scenario">
 <h3>Quarters too far out</h3>
 <p>A power of attorney received by the IRS in March 2026 authorises representation on Form 941 for every quarter from March 2026 through December 2032. In 2031 the representative is told no authorisation exists for that year.</p>
-<p><em>Analysis.</em> Only the quarters ending no later than March 2029 were recorded — Reg. § 601.506(d)(3)(ii) applies a three-year forward limit from the date of receipt. But the closing sentence of § 601.506(d)(3) says the document is <em>not invalid</em> for the unrecorded periods and can be resubmitted at a later date. The cure is resubmission, not a new grant of authority.</p>
+<p><em>Analysis.</em> Only quarters ending through <strong>31 December 2029</strong> were recorded — the Form 2848 instructions bar recording future periods exceeding three years from 31 December of the year of receipt. (Reg. § 601.506(d)(3)(ii), written in 1991, measures from the date of receipt and would stop at March 2029; the instructions are the operative rule.) Either way, the closing sentence of § 601.506(d)(3) says the document is <em>not invalid</em> for the unrecorded periods and can be resubmitted later. The cure is resubmission, not a new grant of authority.</p>
 </div>
 
 <div class="callout trap">
 
 **A CAF number is not authority to practise.** Reg. § 601.506(d)(2) says so in terms. Eligibility is determined under Circular 230, not by the file.
-
-</div>
-
-<div class="callout trap">
-
-**Missing CAF number is not a defect.** The number is not among the substantive requirements of Reg. § 601.503(a), so an authorisation is not rejected for lacking one.
 
 </div>
 
@@ -121,23 +114,23 @@ And the closing sentence: the fact that a document **cannot be recorded is not d
 
 Section 601.506 was published at **56 FR 24008** on **May 28, 1991**, and has not been amended since. That vintage shows in three places, and none of them changes the substance.
 
-First, the examples in § 601.506(d)(3)(ii) use dates in 1990 and 1993 to illustrate the three-year rule. They are worked examples, not effective dates; the rule they illustrate — three years from the date of receipt — is the live one.
+First — and this is a substantive divergence, not a cosmetic one — the **forward horizon is stated differently in the current instructions**. Reg. § 601.506(d)(3)(ii) measures three years from the **date** the power of attorney is received, and illustrates it with a worked example running from 1 August 1990 to 31 July 1993. The **Instructions for Form 2848** (rev. 09/2021, page last reviewed 30 April 2026) instead say the IRS will not record future periods "that exceed 3 years from **December 31 of the year** that the IRS receives the power of attorney." That is more generous, and it is the rule the IRS actually applies. A power of attorney received in March 2026 reaches periods ending through 31 December 2029 under the instructions, but only through March 2029 on the face of the regulation. **Follow the instructions**; the regulation's worked example predates them by three decades.
 
-Second, the neighbouring § 601.506(b)(2) still refers a bypassed representative to the "**Director of Practice**" for possible disciplinary proceedings. That office became the **Office of Professional Responsibility** in 2003. The referral mechanism survives; the name in the text does not.
+Second, the neighbouring § 601.506(b)(2) still refers a bypassed representative to the "**Director of Practice**" for possible disciplinary proceedings. That office became the **Office of Professional Responsibility** in 2003. The mechanism survives; the name does not.
 
-Third, the section was written for paper filing. The IRS has since built electronic submission routes for authorisations, prescribed in forms and instructions rather than in Part 601. Those channels change how a document reaches the CAF, not what the CAF records — the four criteria in § 601.506(d)(3) are unchanged.
+Third, the section was written for paper filing. The IRS has since built electronic submission routes prescribed in forms and instructions rather than in Part 601 — the instructions now point to the Tax Pro Account, where most requests record immediately. Those channels change how a document reaches the CAF, not what it records.
 
-Worth noting alongside the CAF rules, because they sit in the same section and are regularly examined together: § 601.506(c) provides that a **Treasury check** will be mailed to a recognized representative **only** where the power of attorney contains **specific authorization**, and that where **more than one** representative is so authorised at **different addresses**, the IRS mails the check **directly to the taxpayer** unless all of them sign a statement giving one address. That is a delivery rule; Circular 230 § 10.31 separately forbids a practitioner to endorse or negotiate the check.
+Worth noting alongside the CAF rules, because they sit in the same section: § 601.506(c) provides that a **Treasury check** is mailed to a recognized representative **only** where the power of attorney contains **specific authorization**, and that where **more than one** representative is so authorised at **different addresses**, the IRS mails the check **directly to the taxpayer** unless all sign a statement giving one address. That is a delivery rule; Circular 230 § 10.31 separately forbids a practitioner to endorse or negotiate the check.
 
 ## Exam focus
 
 The most tested fact is that a **CAF number confers nothing** — not practice authority, not recognition. It is a processing key, and Circular 230 governs eligibility.
 
-Know the **four recording criteria**: a **specific tax period**; **three years forward** from receipt; **prior periods only where under IRS consideration**; and **no more than three representatives**.
+Know the **four recording criteria**: a **specific tax period**; the **three-year forward horizon** — measured by the current instructions from **31 December of the year of receipt**, not from the date; **prior periods only where under IRS consideration**; and **no more than three representatives**.
 
 Know that **failure to record does not invalidate** the authorisation, and that the document may be **resubmitted** later for periods beyond the horizon.
 
-Know that the CAF holds **both** powers of attorney **and** tax information authorizations, and that it is the mechanism for sending copies of **computer-generated notices**.
+Know that the CAF holds **both** powers of attorney **and** tax information authorizations, and is the route for copies of **computer-generated notices**.
 
 ## Check yourself
 
@@ -146,16 +139,16 @@ Know that the CAF holds **both** powers of attorney **and** tax information auth
 *Answer: C. Reg. § 601.506(d)(2) — issuance does not indicate that a person is either recognized or authorized to practise; that is determined under Circular 230.*
 
 **2. A power of attorney received by the IRS in June 2026 covers tax periods through 2033. What is recorded on the CAF?**
-(A) All periods listed (B) Only periods ending no later than June 2029 (C) No periods, because the document spans more than three years (D) Only periods that have already ended
-*Answer: B. Reg. § 601.506(d)(3)(ii) records only periods ending no later than three years after receipt; the document remains valid for the rest and may be resubmitted.*
+(A) All periods listed (B) Periods ending no later than 31 December 2029 (C) No periods, because the document spans more than three years (D) Only periods that have already ended
+*Answer: B. The Form 2848 instructions bar recording future periods exceeding 3 years from 31 December of the year of receipt. Reg. § 601.506(d)(3)(ii) measures from the date of receipt; the instructions govern in practice. Either way the document stays valid for the rest and may be resubmitted.*
 
 **3. A Form 2848 names four representatives. What follows?**
 (A) The form is rejected (B) All four are recorded (C) The first three are recorded; all four remain appointed (D) The taxpayer must choose three
 *Answer: C. Reg. § 601.506(d)(3)(iv) records no more than three and, where more are named, only the first three. The recording limit does not undo the appointments.*
 
-**4. Which matter cannot be recorded on the CAF?**
-(A) A 2025 individual income tax examination (B) A 2024 employment tax matter under consideration (C) A proposed IRC § 6672 trust fund recovery penalty (D) A 2026 individual income tax matter
-*Answer: C. Reg. § 601.506(d)(3)(i) records only documents concerning a matter relating to a specific tax period, and names the § 6672 penalty as an example that cannot be recorded.*
+**4. Which is a "specific use" matter the IRS does not record on the CAF?**
+(A) A 2025 individual income tax examination (B) A request for a private letter ruling (C) A 2024 employment tax matter under consideration (D) A 2026 individual income tax matter
+*Answer: B. The Form 2848 instructions list private letter ruling and technical advice requests among specific uses not recorded, along with EIN and ITIN applications, Form 843 claims, corporate dissolutions and Circular 230 disciplinary proceedings — a power of attorney not relating to a specific tax period, except for civil penalties.*
 
 **5. Is an authorisation rejected if the representative omits a CAF number?**
 (A) Yes, it is a substantive requirement (B) Yes, unless the representative has never been issued one (C) No, the CAF number is not among the substantive requirements of Reg. § 601.503(a) (D) No, but only for tax information authorizations
