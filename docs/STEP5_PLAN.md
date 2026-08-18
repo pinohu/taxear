@@ -9,14 +9,15 @@ Regenerate the numbers with `npm run progress`.
 
 ## Where the project stands (18 August 2026)
 
-32 topic pages at `review`, 328 at `stub`, none at `published` — the owner publishes, no
-session does. 17 form entries and 7 notice entries at `review`. **All 105 keys in
+55 topic pages at `review`, 305 at `stub`, none at `published` — the owner publishes, no
+session does. 21 form entries and 7 notice entries at `review`. **All 137 keys in
 `figures.json` carry a `verified` date against a source opened that day**, so no page is
 blocked on a figure. `npm run verify` reports 0 errors.
 
 | Section | Written |
 |---|---|
 | 3.1.1 Practice before the IRS | **2 / 2** |
+| 3.1.2 Requirements for enrolled agents | **16 / 16** |
 | 3.1.3 Sanctionable acts | **4 / 4** |
 | 3.1.4 Rules and penalties | **7 / 7** |
 | 3.2.1 Power of attorney | 4 / 11 |
@@ -26,12 +27,17 @@ blocked on a figure. `npm run verify` reports 0 errors.
 | 3.3.3 Audits and examinations | 1 / 9 |
 | 3.4.3 Electronic filing | 1 / 9 |
 
-Untouched Part 3 sections: 3.1.2 (16), 3.2.2 (5), 3.2.3 (5), 3.2.4 (5), 3.2.5 (8),
-3.3.4 (5), 3.4.1 (2), 3.4.2 (2). Parts 1 and 2 are entirely unwritten.
+Untouched Part 3 sections: 3.2.2 (5), 3.2.3 (5), 3.2.4 (5), 3.2.5 (8), 3.3.4 (5),
+3.4.1 (2), 3.4.2 (2). Parts 1 and 2 are entirely unwritten.
+
+**Domain 3.1 is complete — 29 / 29.**
 
 ## What has been written
 
-**Domain 3.1 is 13 / 29** and three of its four sections are complete.
+**Domain 3.1 is complete, 29 / 29.** Section 3.1.2 was written in one pass from a
+cached copy of Circular 230 subpart B, plus IRC §§ 6109, 6111, 6112, 6662, 6694-6696, 6707,
+6707A, Reg. §§ 1.6109-2 and 1.6695-1, 26 CFR §§ 300.5-300.6, and the IRS PTIN and direct-
+deposit pages.
 
 | Codes | Pages |
 |---|---|
@@ -64,10 +70,8 @@ Prefer depth over breadth. Each of these sits beside a page that already exists,
 
 | Codes | Why next |
 |---|---|
-| 3.3.1.f, 3.3.1.g, 3.3.1.n, 3.3.1.p | Completes most of the collection section. The trust fund recovery penalty (3.3.1.n) is the heaviest and § 6672 is untouched; passport revocation (3.3.1.p) is § 7345 and two bank questions already point at it |
-| 3.3.1.a, 3.3.1.h, 3.3.1.l | The remainder: Form 1127 extensions, decedents, and the collection summons under §§ 7602–7610 |
+| 3.2.1.e–k | Completes power of attorney — the next whole section, and the largest partly-written one. 3.2.1.h (Form 2848 vs 8821) has three tagged bank questions and both form entries already exist |
 | 3.3.2.c–e | Completes penalties and interest abatement. Interest abatement is § 6404(e), which is a different test from penalty relief and is regularly confused with it |
-| 3.2.1.e–k | Completes power of attorney. 3.2.1.h (Form 2848 vs 8821) has three tagged bank questions and both form entries already exist |
 | 3.3.3.a–f, h–i | The examination section. Open IRM 4.10 before asserting the correspondence/office/field taxonomy — two bank questions test it and this pass deliberately did not assert it unsourced |
 | 3.4.3.a, c–i | Completes electronic filing, mostly from Pub. 3112 and Pub. 1345 |
 
@@ -127,3 +131,37 @@ reason to skip the check — run it, and record when the bank has nothing to say
 
 Expect mis-tags. Read the tags for a page before trusting them, and correct the rules rather
 than the tags so the fix sticks.
+
+## Open items raised by the 3.1.2 pass (18 August 2026)
+
+Each is logged in `private/discrepancies.md` with the reasoning. None blocks a page; each
+needs a source opened before anything is asserted.
+
+- **Form 2848 and the PTIN.** Bank P3E2Q532 states that a representative must have a valid
+  PTIN to sign Form 2848. The claim could not be verified — the Form 2848 instructions PDF
+  would not extract in this environment — and nothing in Circular 230 or Reg. § 1.6109-2
+  imposes it. The IRS PTIN FAQ lists Form 2848 among the forms whose *preparation* needs no
+  PTIN. Resolve against the Form 2848 instructions Part II declaration; affects 3.1.1.b and
+  the Form 2848 directory entry.
+- **Form 8886 / 8886-T categories and the RIC exception.** Bank P3E1Q414 and P3E2Q513 turn
+  on the Form 8886 instructions and Reg. § 1.6011-4(b), neither opened. 3.1.2.k rests on the
+  statutes only. Resolve when a Form 8886 entry is written.
+- **e-file logo advertising rules.** Bank P3E1Q486 (no use with "Federal", the eagle symbol,
+  or anything implying an IRS relationship) is consistent with § 10.30(a)(1) but its specific
+  terms come from the IRS e-file advertising standards, which were not opened. Neither 3.1.2.d
+  nor 3.4.3.b asserts them.
+- **Tagger, Phase 0.** No rule maps to 3.1.2.l or 3.1.2.p, and three questions reached the
+  wrong code: P3E1Q432 and P3E2Q517 to 3.1.2.h, P3E1Q464 to 3.1.2.i. Narrow the rules; do
+  not retag by hand.
+
+## Bank questions found wrong on the law in this pass
+
+Recorded in full in `private/discrepancies.md`. **Do not move a page toward these.**
+
+- **P3E2Q588** — says a disbarred enrolled agent may represent a close family member.
+  Circular 230 § 10.7(c)(2)(i) says an individual under suspension or disbarment **may not
+  engage in limited practice** under § 10.7(c)(1), and representing an immediate family
+  member is § 10.7(c)(1)(i). The correct answer is B, not D.
+- **P3E2Q508** — asks which advertisement does *not* violate § 10.30 and answers "Endorsed
+  by the IRS," which plainly does. The correct answer is "Enrolled to practice before the
+  IRS," one of the three descriptions § 10.30(a)(1) supplies verbatim as acceptable.
