@@ -39,9 +39,14 @@ test('a form number does not outrank the subject the question is actually about'
 });
 
 test('rules never tag across exam parts', () => {
-  // the same subject in a Part 1 question must not receive a Part 3 code
-  assert.equal(classify(q(1, 'What is the statute of limitations on a claim for refund?')), null);
+  // The same subject asked in different parts must land in that part's own outline.
+  // Part 1 has its own claim-for-refund topic, so the Part 1 question is placed there —
+  // what must never happen is a Part 1 question receiving a Part 3 code.
+  const p1 = classify(q(1, 'What is the statute of limitations on a claim for refund?'));
+  assert.equal(p1?.split('.')[0], '1');
   assert.equal(classify(q(3, 'What is the statute of limitations on assessment?')), '3.2.6.a');
+  // A subject with no home in the asking part is left untagged rather than forced across.
+  assert.equal(classify(q(2, 'What is the statute of limitations on assessment?')), null);
 });
 
 test('an unrelated question is left untagged rather than guessed', () => {
