@@ -9,10 +9,10 @@ is indexed, and only the owner moves a page there (see `docs/VERIFICATION.md`).
 
 | Part | Topics | Stub | Draft | Review | Published | Words |
 |---|---:|---:|---:|---:|---:|---:|
-| 1. Individuals | 120 | 83 | 0 | 27 | 10 | 83,910 |
+| 1. Individuals | 120 | 82 | 0 | 28 | 10 | 86,194 |
 | 2. Businesses | 119 | 119 | 0 | 0 | 0 | 0 |
 | 3. Representation, Practices and Procedures | 121 | 0 | 0 | 0 | 121 | 257,674 |
-| **All parts** | **360** | **202** | **0** | **27** | **131** | **341,584** |
+| **All parts** | **360** | **201** | **0** | **28** | **131** | **343,868** |
 
 ## Part 1 — Individuals
 
@@ -71,7 +71,7 @@ is indexed, and only the owner moves a page there (see `docs/VERIFICATION.md`).
 | 1.2.2.c | [Distributions from qualified and nonqualified plans (e.g., pre-tax, after- tax, rollovers, Form 1099R, qualified charitable distribution)](/individuals/income-and-assets/retirement-income/distributions-from-qualified-and-nonqualified-plans/) | review | 2,211 | 2026-08-19 |
 | 1.2.2.d | [Excess contributions and tax treatment (e.g., penalties)](/individuals/income-and-assets/retirement-income/excess-contributions-and-tax-treatment/) | review | 2,171 | 2026-08-19 |
 | 1.2.2.e | [Penalties and exceptions on premature distributions from qualified retirement plans and IRAs](/individuals/income-and-assets/retirement-income/penalties-and-exceptions-on-premature-distributions/) | review | 2,240 | 2026-08-19 |
-| 1.2.2.f | [Prohibited transactions and tax effects](/individuals/income-and-assets/retirement-income/prohibited-transactions-and-tax-effects/) | stub | — | — |
+| 1.2.2.f | [Prohibited transactions and tax effects](/individuals/income-and-assets/retirement-income/prohibited-transactions-and-tax-effects/) | review | 2,284 | 2026-08-19 |
 | 1.2.2.g | [IRA conversions and recharacterization (Form 8606)](/individuals/income-and-assets/retirement-income/ira-conversions-and-recharacterization-form-8606/) | stub | — | — |
 | 1.2.2.h | [Required minimum distributions and excess accumulations](/individuals/income-and-assets/retirement-income/required-minimum-distributions-and-excess-accumulations/) | stub | — | — |
 | 1.2.2.i | [Loans from qualified plans](/individuals/income-and-assets/retirement-income/loans-from-qualified-plans/) | stub | — | — |

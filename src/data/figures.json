@@ -3379,6 +3379,36 @@
       "taxYear": 2026,
       "source": "IRC § 72(t)(3)(B) — https://www.law.cornell.edu/uscode/text/26/72",
       "verified": "2026-08-19"
+    },
+    "prohibited.categories": {
+      "value": "six, each reaching any direct **or indirect** dealing — sale, exchange or lease of property; lending or extension of credit; furnishing of goods, services or facilities; transfer to or use by or for the benefit of a disqualified person of plan income or assets; a fiduciary dealing with plan income or assets in his own interest; and a fiduciary receiving consideration for his own account from a party dealing with the plan",
+      "taxYear": 2026,
+      "source": "IRC § 4975(c)(1)(A)-(F) — https://www.law.cornell.edu/uscode/text/26/4975",
+      "verified": "2026-08-19"
+    },
+    "prohibited.excise_tax": {
+      "value": "15 percent of the amount involved for each year or part of a year in the taxable period, and a further 100 percent of the amount involved if the transaction is not corrected within that period — both paid by the disqualified person who participated",
+      "taxYear": 2026,
+      "source": "IRC § 4975(a), (b) — https://www.law.cornell.edu/uscode/text/26/4975",
+      "verified": "2026-08-19"
+    },
+    "prohibited.disqualified_person": {
+      "value": "a fiduciary; a service provider to the plan; an employer or employee organization whose people are covered; a 50 percent owner of such an employer or organization; a member of the family of most of those; an entity 50 percent owned by them; and officers, directors and highly compensated employees",
+      "taxYear": 2026,
+      "source": "IRC § 4975(e)(2)(A)-(H) — https://www.law.cornell.edu/uscode/text/26/4975",
+      "verified": "2026-08-19"
+    },
+    "prohibited.ira_consequence": {
+      "value": "the account ceases to be an individual retirement account as of the **first day** of the taxable year, and is treated as distributing all its assets at their fair market value on that day — with the owner and beneficiaries then exempt from the IRC § 4975 excise taxes",
+      "taxYear": 2026,
+      "source": "IRC § 408(e)(2)(A), (B); IRC § 4975(c)(3) — https://www.law.cornell.edu/uscode/text/26/408",
+      "verified": "2026-08-19"
+    },
+    "prohibited.pledge": {
+      "value": "using an individual retirement account or any portion of it as security for a loan treats the portion so used as distributed — a partial consequence, not the total disqualification that a prohibited transaction brings",
+      "taxYear": 2026,
+      "source": "IRC § 408(e)(4) — https://www.law.cornell.edu/uscode/text/26/408",
+      "verified": "2026-08-19"
     }
   }
 }
