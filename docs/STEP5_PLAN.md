@@ -22,7 +22,7 @@ blocked on a figure. `npm run verify` reports 0 errors.
 | 3.1.3 Sanctionable acts | **4 / 4** |
 | 3.1.4 Rules and penalties | **7 / 7** |
 | 3.2.6 Related issues | **10 / 10** |
-| 3.2.5 Legal authority and references | 1 / 8 |
+| 3.2.5 Legal authority and references | 3 / 8 |
 | 3.3.1 Collection process | 9 / 16 |
 | 3.3.2 Penalties and interest abatement | **5 / 5** |
 | 3.3.3 Audits and examinations | **9 / 9** |
@@ -67,6 +67,8 @@ deposit pages.
 | 3.2.6.d | third-party correspondence — IRC §§ 7609 and 7603 |
 | 3.2.6.c | deadlines and timeliness — IRC §§ 7502, 7503, 7508A |
 | 3.2.5.g | authoritative vs non-authoritative source material — Reg. § 1.6662-4(d)(3)(iii) |
+| 3.2.5.b | revenue rulings and revenue procedures — Reg. § 601.601, IRC § 7805 |
+| 3.2.5.e | private letter ruling — Reg. § 601.201, IRC §§ 6110, 7528 |
 | 3.4.3.b | e-file mandate and exceptions |
 
 Forms: 2848, 8821, 1040-X, 843, 656, 9465, 12153, 9423, 6118, 8867, 8948, 8944, 8453,
@@ -88,8 +90,19 @@ Prefer depth over breadth. Each of these sits beside a page that already exists,
 
 | Codes | Why next |
 |---|---|
-| 3.2.5.a–f, h | Legal authority and references. Seven left, and 3.2.5.g is the hub they all link to — the Reg. § 1.6662-4(d)(3)(iii) authority list is already a figure |
+| 3.2.5.a, c, d, f, h | Legal authority and references. Five left — Code and regulations, case law, forms and publications, the IRM, tax treaties |
 | 3.4.3.a, c–i | Completes electronic filing, mostly from Pub. 3112 and Pub. 1345 |
+
+### Recurring pattern — pre-1998 institutional vocabulary in Part 601 and older regulations
+
+Five pages now record the same thing: the regulation's **standards are current** while the
+**offices named around them are not**. Reg. §§ 601.601 and 601.201 speak of the "Assistant
+Commissioner (Technical)", district directors, the Superintendent of Documents and the
+"Internal Revenue Code of 1954"; Reg. § 301.7605-1 of districts and the Office of the
+Assistant Commissioner (International); Reg. § 1.6001-1 of the district director. All were
+restructured out of existence after RRA 1998. Read "district" as the area served by the
+office handling the matter, and do not follow the sourcing instructions literally. Worth a
+single glossary note when the glossary is built, rather than repeating it page by page.
 
 ### Open item — IRC § 7508A subsection lettering
 

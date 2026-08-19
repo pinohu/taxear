@@ -1447,6 +1447,30 @@
       "taxYear": 2026,
       "source": "IRC § 7805(b)(1)–(7) — https://www.law.cornell.edu/uscode/text/26/7805",
       "verified": "2026-08-18"
+    },
+    "plr.definition": {
+      "value": "a written statement issued to a taxpayer or their authorized representative by the National Office, which interprets and applies the tax laws to a specific set of facts; rulings are issued only by the National Office",
+      "taxYear": 2026,
+      "source": "Reg. § 601.201(a)(2) — https://www.law.cornell.edu/cfr/text/26/601.201",
+      "verified": "2026-08-18"
+    },
+    "plr.determination_letter": {
+      "value": "a written statement issued in response to a written inquiry, applying to the particular facts the principles and precedents previously announced by the National Office — issued only where the determination can be made on clearly established rules in a statute, Treasury decision, regulation, or a ruling, opinion or court decision published in the Internal Revenue Bulletin, and not where the question is novel",
+      "taxYear": 2026,
+      "source": "Reg. § 601.201(a)(3) — https://www.law.cornell.edu/cfr/text/26/601.201",
+      "verified": "2026-08-18"
+    },
+    "plr.information_letter": {
+      "value": "a statement that does no more than call attention to a well-established interpretation or principle of tax law, without applying it to a specific set of facts — issued where the request seeks general information or does not meet all the requirements for a ruling",
+      "taxYear": 2026,
+      "source": "Reg. § 601.201(a)(5) — https://www.law.cornell.edu/cfr/text/26/601.201",
+      "verified": "2026-08-18"
+    },
+    "plr.user_fees": {
+      "value": "user fees are required for requests for ruling letters, opinion letters and determination letters; they vary by category, are set after taking account of the average time for and difficulty of the category, and are payable in advance — with exemptions and reduced fees as the Secretary determines appropriate",
+      "taxYear": 2026,
+      "source": "IRC § 7528(a)–(b) — https://www.law.cornell.edu/uscode/text/26/7528",
+      "verified": "2026-08-18"
     }
   }
 }

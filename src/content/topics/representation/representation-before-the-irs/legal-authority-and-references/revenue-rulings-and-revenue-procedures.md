@@ -14,7 +14,7 @@ authorities:
   - { type: IRC, ref: "§ 7805", title: "Rules and regulations — retroactivity at (b)", url: "https://www.law.cornell.edu/uscode/text/26/7805" }
   - { type: Reg, ref: "§ 1.6662-4", title: "Substantial understatement of income tax — types of authority at (d)(3)(iii)", url: "https://www.law.cornell.edu/cfr/text/26/1.6662-4" }
 forms: []
-related: ["3.2.5.g", "3.2.6.g", "3.2.6.a"]
+related: ["3.2.5.g", "3.2.6.g", "3.2.6.a", "3.2.5.e"]
 changelog:
   - { date: "2026-08-18", summary: "Initial publication from Reg. §§ 601.601 and 1.6662-4 and IRC § 7805, each opened at source." }
 ---
