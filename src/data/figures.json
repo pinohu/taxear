@@ -1723,6 +1723,36 @@
       "taxYear": 2026,
       "source": "IRS, \"Transcript types and ways to order them,\" page last reviewed 10 March 2026 — https://www.irs.gov/individuals/transcript-types-and-ways-to-order-them",
       "verified": "2026-08-18"
+    },
+    "advice.written_requirements": {
+      "value": "6 — base the advice on reasonable factual and legal assumptions including as to future events; reasonably consider all relevant facts and circumstances the practitioner knows or reasonably should know; use reasonable efforts to identify and ascertain the facts relevant to each Federal tax matter; not rely on representations, statements, findings or agreements of the taxpayer or anyone else where reliance would be unreasonable; relate applicable law and authorities to facts; and not take into account the possibility that a return will not be audited or a matter not raised on audit",
+      "taxYear": 2026,
+      "source": "Circular 230 § 10.37(a)(2), 31 CFR § 10.37(a)(2) — https://www.law.cornell.edu/cfr/text/31/10.37",
+      "verified": "2026-08-18"
+    },
+    "advice.unreasonable_reliance": {
+      "value": "reliance on representations, statements, findings or agreements is unreasonable if the practitioner knows or reasonably should know that one or more of the representations, or assumptions on which any representation is based, are incorrect, incomplete or inconsistent",
+      "taxYear": 2026,
+      "source": "Circular 230 § 10.37(a)(3), 31 CFR § 10.37(a)(3) — https://www.law.cornell.edu/cfr/text/31/10.37",
+      "verified": "2026-08-18"
+    },
+    "advice.client_information": {
+      "value": "a practitioner generally may rely in good faith without verification on information furnished by the client — but may not ignore the implications of information furnished to or actually known by them, and must make reasonable inquiries if the information appears incorrect, inconsistent with an important fact or another factual assumption, or incomplete",
+      "taxYear": 2026,
+      "source": "Circular 230 § 10.34(d), 31 CFR § 10.34(d) — https://www.law.cornell.edu/cfr/text/31/10.34",
+      "verified": "2026-08-18"
+    },
+    "advice.penalty_warning": {
+      "value": "a practitioner must inform the client of any penalties reasonably likely to apply to a position on a return where the practitioner advised on it or prepared or signed the return, and to any document, affidavit or other paper submitted to the IRS — and must inform the client of any opportunity to avoid them by disclosure and of the requirements for adequate disclosure, whether or not the practitioner is themselves exposed",
+      "taxYear": 2026,
+      "source": "Circular 230 § 10.34(c), 31 CFR § 10.34(c) — https://www.law.cornell.edu/cfr/text/31/10.34",
+      "verified": "2026-08-18"
+    },
+    "advice.reliance_on_others": {
+      "value": "a practitioner may rely on another person's advice only if it was reasonable and the reliance is in good faith on all the facts and circumstances — and reliance is not reasonable where the practitioner knows or reasonably should know that the opinion should not be relied on, that the person is not competent or lacks the necessary qualifications, or that the person has a conflict of interest in violation of Circular 230",
+      "taxYear": 2026,
+      "source": "Circular 230 § 10.37(b), 31 CFR § 10.37(b) — https://www.law.cornell.edu/cfr/text/31/10.37",
+      "verified": "2026-08-18"
     }
   }
 }

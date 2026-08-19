@@ -15,7 +15,7 @@ authorities:
   - { type: IRC, ref: "§ 6662", title: "Imposition of accuracy-related penalty on underpayments", url: "https://www.law.cornell.edu/uscode/text/26/6662" }
   - { type: Reg, ref: "§ 1.6662-3", title: "Negligence or disregard of rules or regulations — reasonable basis at (b)(3)", url: "https://www.law.cornell.edu/cfr/text/26/1.6662-3" }
 forms: []
-related: ["3.2.6.g", "3.2.6.a", "3.2.6.f", "3.2.5.b", "3.2.5.e", "3.2.5.a", "3.2.5.f", "3.2.5.c", "3.2.5.d", "3.2.5.h"]
+related: ["3.2.6.g", "3.2.6.a", "3.2.6.f", "3.2.5.b", "3.2.5.e", "3.2.5.a", "3.2.5.f", "3.2.5.c", "3.2.5.d", "3.2.5.h", "3.2.2.a"]
 changelog:
   - { date: "2026-08-18", summary: "Initial publication from Reg. §§ 1.6662-4 and 1.6662-3 and IRC §§ 6110 and 6662, each opened at source." }
 ---

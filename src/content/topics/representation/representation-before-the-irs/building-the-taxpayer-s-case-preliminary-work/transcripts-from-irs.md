@@ -15,7 +15,7 @@ authorities:
   - { type: Form, ref: "4506-T", title: "Request for Transcript of Tax Return", url: "https://www.irs.gov/forms-pubs/about-form-4506-t" }
   - { type: IRC, ref: "§ 6103", title: "Confidentiality and disclosure of returns and return information", url: "https://www.law.cornell.edu/uscode/text/26/6103" }
 forms: []
-related: ["3.2.1.a", "3.2.2.b", "3.2.6.a"]
+related: ["3.2.1.a", "3.2.2.b", "3.2.6.a", "3.2.2.a"]
 changelog:
   - { date: "2026-08-18", summary: "Initial publication from the IRS transcript types page (last reviewed 10 March 2026) and Transcript Delivery System page (last reviewed 10 June 2026)." }
 ---
