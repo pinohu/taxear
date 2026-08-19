@@ -2875,6 +2875,36 @@
       "taxYear": 2026,
       "source": "IRC § 6053(a); IRC § 3121(a)(12)(B) — https://www.law.cornell.edu/uscode/text/26/6053",
       "verified": "2026-08-19"
+    },
+    "savingsbond.exclusion_phaseout": {
+      "value": "begins at modified adjusted gross income of $101,800, or $152,650 on a joint return, and is complete at $116,800 or $182,650",
+      "taxYear": 2026,
+      "source": "Rev. Proc. 2025-32 § 3.17, adjusting IRC § 135(b)(2) — https://www.irs.gov/pub/irs-drop/rp-25-32.pdf",
+      "verified": "2026-08-19"
+    },
+    "savingsbond.qualification": {
+      "value": "a bond issued after 31 December 1989, at discount under 31 U.S.C. § 3105, to an individual who had attained age 24 before the date of issuance",
+      "taxYear": 2026,
+      "source": "IRC § 135(c)(1)(A)-(C) — https://www.law.cornell.edu/uscode/text/26/135",
+      "verified": "2026-08-19"
+    },
+    "belowmarket.de_minimis": {
+      "value": "$10,000 of aggregate outstanding gift loans between individuals, and the same figure for compensation-related and corporate-shareholder loans, neither exception applying where a principal purpose is tax avoidance",
+      "taxYear": 2026,
+      "source": "IRC § 7872(c)(2)(A), (c)(3)(A), (c)(3)(B) — https://www.law.cornell.edu/uscode/text/26/7872",
+      "verified": "2026-08-19"
+    },
+    "belowmarket.net_investment_cap": {
+      "value": "for gift loans between individuals not exceeding $100,000, the amount treated as retransferred to the lender cannot exceed the borrower's net investment income for the year",
+      "taxYear": 2026,
+      "source": "IRC § 7872(d)(1)(A) — https://www.law.cornell.edu/uscode/text/26/7872",
+      "verified": "2026-08-19"
+    },
+    "interest.reporting_floor": {
+      "value": "$10 or more of interest paid to any person in a calendar year, and the same for a nominee passing interest on",
+      "taxYear": 2026,
+      "source": "IRC § 6049(a)(1), (2) — https://www.law.cornell.edu/uscode/text/26/6049",
+      "verified": "2026-08-19"
     }
   }
 }
