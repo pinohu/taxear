@@ -17,7 +17,7 @@ authorities:
   - { type: Form, ref: "W-7", title: "Application for IRS Individual Taxpayer Identification Number" }
   - { type: Form, ref: "W-7A", title: "Application for Taxpayer Identification Number for Pending U.S. Adoptions" }
 forms: []
-related: ["1.1.1.d", "1.1.1.e", "1.1.1.b", "1.1.1.i", "1.1.1.o"]
+related: ["1.1.1.d", "1.1.1.e", "1.1.1.b", "1.1.1.i", "1.1.1.o", "1.1.1.n"]
 changelog:
   - { date: "2026-08-19", summary: "Initial draft." }
 ---

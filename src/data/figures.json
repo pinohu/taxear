@@ -2473,6 +2473,24 @@
       "taxYear": 2026,
       "source": "IRS, Report of Foreign Bank and Financial Accounts (FBAR) (page last reviewed 30 July 2026) — https://www.irs.gov/businesses/small-businesses-self-employed/report-of-foreign-bank-and-financial-accounts-fbar",
       "verified": "2026-08-19"
+    },
+    "duedate.nonresident_alien": {
+      "value": "the 15th day of June following the close of the calendar year, or the 15th day of the sixth month following a fiscal year, for a nonresident alien individual whose wages are not subject to chapter 24 withholding",
+      "taxYear": 2026,
+      "source": "IRC § 6072(c) — https://www.law.cornell.edu/uscode/text/26/6072",
+      "verified": "2026-08-19"
+    },
+    "combat.disregarded_period": {
+      "value": "the period of service in the combat zone or contingency operation, plus any period of continuous qualified hospitalization attributable to an injury received there, plus the next 180 days",
+      "taxYear": 2026,
+      "source": "IRC § 7508(a) — https://www.law.cornell.edu/uscode/text/26/7508",
+      "verified": "2026-08-19"
+    },
+    "offset.support_priority": {
+      "value": "past-due support certified by a State is applied first, before any other reduction allowed by law",
+      "taxYear": 2026,
+      "source": "IRC § 6402(c) — https://www.law.cornell.edu/uscode/text/26/6402",
+      "verified": "2026-08-19"
     }
   }
 }
