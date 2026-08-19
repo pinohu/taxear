@@ -25,15 +25,19 @@ blocked on a figure. `npm run verify` reports 0 errors.
 | 3.2.5 Legal authority and references | **8 / 8** |
 | 3.2.2 Building the taxpayer's case | **5 / 5** |
 | 3.2.3 Taxpayer financial situation | **5 / 5** |
-| 3.3.1 Collection process | 9 / 16 |
+| 3.2.4 Supporting documentation | **5 / 5** |
+| 3.3.1 Collection process | **16 / 16** |
 | 3.3.2 Penalties and interest abatement | **5 / 5** |
 | 3.3.3 Audits and examinations | **9 / 9** |
-| 3.4.3 Electronic filing | 1 / 9 |
+| 3.3.4 Representing a taxpayer before Appeals | **5 / 5** |
+| 3.4.1 Accuracy | **2 / 2** |
+| 3.4.2 Record maintenance | **2 / 2** |
+| 3.4.3 Electronic filing | **9 / 9** |
 
-Untouched Part 3 sections: 3.2.4 (5), 3.3.4 (5), 3.4.1 (2), 3.4.2 (2). Section 3.3.1 has
-7 topics left and 3.4.3 has 8. Parts 1 and 2 are entirely unwritten.
+# PART 3 IS COMPLETE — 121 / 121 topics at `review`.
 
-**Domain 3.1 is complete — 29 / 29.**
+All four domains are finished: 3.1 (29), 3.2 (44), 3.3 (35), 3.4 (13). `verify` reports
+0 errors. Parts 1 and 2 are entirely unwritten — 120 and 119 topics respectively.
 
 ## What has been written
 
@@ -100,18 +104,45 @@ says so in its body. Do not "fix" it to a guessed `about-form-872` URL; that pag
 seeded pointing at 3.3.3.a, "IRS authority to investigate", when the CP2000 topic is 3.3.3.g.
 Others may carry the same kind of error.
 
-## Next: finish the sections already opened
+## Next: Parts 1 and 2
 
-Prefer depth over breadth. Each of these sits beside a page that already exists, so the
-`related[]` graph closes as you go and many authorities are already fetched and cached.
+Part 3 is done. `docs/BUILD_PLAN.md` is the plan of record for Parts 1 and 2 — read it before
+starting, and in particular the Phase 0 tagger and figure work that gates them.
 
 | Codes | Why next |
 |---|---|
-| 3.3.4.a–e | Representing a taxpayer before appeals — 9 bank questions across the section, and it closes Domain 3.3 apart from the 3.3.1 remainder |
-| 3.4.3.a, c–i | Completes electronic filing, mostly from Pub. 3112 and Pub. 1345. 3.4.3.a also closes the one-way `related` link from 3.4.3.b |
-| 3.4.2.a–b | Record retention and data security. 3.4.2.a closes the one-way link from 3.3.1.m |
-| 3.2.4.a–e | Supporting documentation — no bank coverage at all, so purely source-driven |
-| 3.4.1.a–b | Accuracy — reliance on software, miscalculations |
+| Phase 0 tagger work | The Part 3 experience says the tagger is the bottleneck. At least a dozen questions were mis-tagged across Part 3 (listed in `private/discrepancies.md`), and Parts 1 and 2 are where the bank's coverage actually is. Fix the rule table before writing, not after. |
+| Part 1 (120 topics) | Individuals. Bank coverage is dense here, unlike most of Part 3, so the §4 check will do real work on every page. |
+| Part 2 (119 topics) | Businesses. |
+
+### What Part 3 taught about pace
+
+Sections written in one sustained pass — 3.1.2, 3.2.5, 3.2.6, 3.3.3, 3.2.3, 3.3.4, 3.4.3, 3.2.4 —
+came out better and faster than pages written one at a time, because the sources were already open
+and the `related[]` graph closed as each section went in. Fetch the governing publication or
+statute once per section, cache it in the scratchpad, and write the whole section against it.
+
+The recurring `verify` failures, in order of frequency: word count over 2,500; description outside
+150-170 characters; no in-line citation matching `/\((?:IRC|Reg\.|Circular 230|IRM)\s/`; a cited
+section not listed in `authorities[]`; a missing backlink. Budget a trim pass for every page.
+
+### Bank coverage across Part 3 — a finding, not a complaint
+
+Twenty-six genuine bank **content** gaps were logged across Part 3, not tagging faults. The bank
+concentrates on Circular 230 mechanics, the collection process and the examination process. It is
+thin or silent on the evidentiary and documentary topics (3.2.3, 3.2.4), on Appeals settlement
+practice (3.3.4.c, 3.3.4.d), on most of the e-file programme's administrative apparatus (3.4.3),
+and on data security (3.4.2.b). Do not read thin coverage as permission to write a thin page.
+
+### Bank questions found wrong on the law across Part 3
+
+Recorded in full in `private/discrepancies.md`. The list to carry forward: P3E1Q454 (IP PIN
+reissued "three years" — it is annual, and no option offered is correct); P3E1Q415 (substantial
+authority described as the highest certainty level — Reg. § 1.6662-4(d)(2) says the opposite);
+P3E2Q575 (maximum time to petition the Tax Court marked 90 days where 150 is offered and correct
+under IRC § 6213(a)); P3E1Q448 (at least two options are evasion); P3E1Q472, P3E2Q582, P3E1Q491,
+P3E1Q411, P3E1Q459 (rationales wrong on the law). **Read the log before correcting any page toward
+the bank.**
 
 ### Numbering trap — the § 7602 referral bar moved in 2019
 

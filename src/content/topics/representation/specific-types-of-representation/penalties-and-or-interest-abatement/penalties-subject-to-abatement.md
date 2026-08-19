@@ -14,6 +14,7 @@ authorities:
   - { type: IRC, ref: "§ 6656", title: "Failure to make deposit of taxes" }
   - { type: IRC, ref: "§ 6662", title: "Imposition of accuracy-related penalty on underpayments" }
   - { type: IRC, ref: "§ 6663", title: "Imposition of fraud penalty" }
+  - { type: IRC, ref: "§ 6664(c)", title: "Reasonable cause exception for underpayments" }
   - { type: IRC, ref: "§ 6404", title: "Abatements" }
   - { type: IRM, ref: "20.1.1", title: "Penalty Handbook, Introduction and Penalty Relief", url: "https://www.irs.gov/irm/part20/irm_20-001-001r" }
   - { type: RevProc, ref: "2025-32", title: "Inflation-adjusted items for 2026", url: "https://www.irs.gov/pub/irs-drop/rp-25-32.pdf" }
