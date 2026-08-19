@@ -23,6 +23,7 @@ blocked on a figure. `npm run verify` reports 0 errors.
 | 3.1.4 Rules and penalties | **7 / 7** |
 | 3.2.6 Related issues | **10 / 10** |
 | 3.2.5 Legal authority and references | **8 / 8** |
+| 3.2.2 Building the taxpayer's case | 1 / 5 |
 | 3.3.1 Collection process | 9 / 16 |
 | 3.3.2 Penalties and interest abatement | **5 / 5** |
 | 3.3.3 Audits and examinations | **9 / 9** |
@@ -74,6 +75,7 @@ deposit pages.
 | 3.2.5.c | case law — IRM 4.10.7, IRC § 7463 |
 | 3.2.5.d | forms, instructions and publications — IRS reliance page, IRM 4.10.7.2.7 |
 | 3.2.5.h | tax treaties — IRC §§ 894, 7852(d), 6114, 6712 |
+| 3.2.2.d | conflict of interest — Circular 230 §§ 10.29, 10.35, 10.22 |
 | 3.4.3.b | e-file mandate and exceptions |
 
 Forms: 2848, 8821, 1040-X, 843, 656, 9465, 12153, 9423, 6118, 8867, 8948, 8944, 8453,
@@ -95,7 +97,7 @@ Prefer depth over breadth. Each of these sits beside a page that already exists,
 
 | Codes | Why next |
 |---|---|
-| 3.2.2.a–e | Building the taxpayer's case: preliminary work. Five topics, untouched |
+| 3.2.2.a–c, e | Building the taxpayer's case. Four left — issue identification, criminal aspects, competence and time, IRS transcripts |
 | 3.4.3.a, c–i | Completes electronic filing, mostly from Pub. 3112 and Pub. 1345 |
 
 ### Sourcing note — the IRS "Reliance on Guidance" page is hard to find

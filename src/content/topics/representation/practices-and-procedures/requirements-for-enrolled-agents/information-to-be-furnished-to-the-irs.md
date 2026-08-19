@@ -14,7 +14,7 @@ authorities:
   - { type: Circ230, ref: "§ 10.51", title: "Incompetence and disreputable conduct", url: "https://www.law.cornell.edu/cfr/text/31/10.51" }
   - { type: IRC, ref: "§ 7525", title: "Confidentiality privileges relating to taxpayer communications" }
 forms: []
-related: ["3.1.2.b", "3.1.2.n", "3.1.3.a", "3.1.2.m", "3.1.2.f", "3.3.3.b", "3.2.6.f"]
+related: ["3.1.2.b", "3.1.2.n", "3.1.3.a", "3.1.2.m", "3.1.2.f", "3.3.3.b", "3.2.6.f", "3.2.2.d"]
 changelog:
   - { date: "2026-08-18", summary: "Initial publication from Circular 230 §§ 10.20 and 10.51." }
 ---

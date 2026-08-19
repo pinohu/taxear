@@ -11,8 +11,8 @@ is indexed, and only the owner moves a page there (see `docs/VERIFICATION.md`).
 |---|---:|---:|---:|---:|---:|---:|
 | 1. Individuals | 120 | 120 | 0 | 0 | 0 | 0 |
 | 2. Businesses | 119 | 119 | 0 | 0 | 0 | 0 |
-| 3. Representation, Practices and Procedures | 121 | 32 | 0 | 89 | 0 | 186,555 |
-| **All parts** | **360** | **271** | **0** | **89** | **0** | **186,555** |
+| 3. Representation, Practices and Procedures | 121 | 31 | 0 | 90 | 0 | 188,925 |
+| **All parts** | **360** | **270** | **0** | **90** | **0** | **188,925** |
 
 ## Part 1 — Individuals
 
@@ -488,7 +488,7 @@ is indexed, and only the owner moves a page there (see `docs/VERIFICATION.md`).
 | 3.2.2.a | [Identification of tax issue(s) with supporting details](/representation/representation-before-the-irs/building-the-taxpayer-s-case-preliminary-work/identification-of-tax-issue-s-with-supporting-details/) | stub | — | — |
 | 3.2.2.b | [Potential for criminal aspects](/representation/representation-before-the-irs/building-the-taxpayer-s-case-preliminary-work/potential-for-criminal-aspects/) | stub | — | — |
 | 3.2.2.c | [Competence, expertise and time to handle issue](/representation/representation-before-the-irs/building-the-taxpayer-s-case-preliminary-work/competence-expertise-and-time-to-handle-issue/) | stub | — | — |
-| 3.2.2.d | [Conflict of interest in regards to representation](/representation/representation-before-the-irs/building-the-taxpayer-s-case-preliminary-work/conflict-of-interest-in-regards-to-representation/) | stub | — | — |
+| 3.2.2.d | [Conflict of interest in regards to representation](/representation/representation-before-the-irs/building-the-taxpayer-s-case-preliminary-work/conflict-of-interest-in-regards-to-representation/) | review | 2,370 | 2026-08-18 |
 | 3.2.2.e | [Transcripts from IRS (e.g., access to and use of e-services)](/representation/representation-before-the-irs/building-the-taxpayer-s-case-preliminary-work/transcripts-from-irs/) | stub | — | — |
 
 **3.2.3 Taxpayer financial situation**

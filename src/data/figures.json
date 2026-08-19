@@ -1615,6 +1615,36 @@
       "taxYear": 2026,
       "source": "IRS, \"United States income tax treaties — A to Z,\" page last reviewed 3 January 2026 — https://www.irs.gov/businesses/international-businesses/united-states-income-tax-treaties-a-to-z",
       "verified": "2026-08-18"
+    },
+    "conflict.definition": {
+      "value": "2 — the representation of one client will be directly adverse to another client, or there is a significant risk that representation of one or more clients will be materially limited by the practitioner's responsibilities to another client, a former client or a third person, or by a personal interest of the practitioner",
+      "taxYear": 2026,
+      "source": "Circular 230 § 10.29(a), 31 CFR § 10.29(a) — https://www.law.cornell.edu/cfr/text/31/10.29",
+      "verified": "2026-08-18"
+    },
+    "conflict.waiver": {
+      "value": "3 conditions — the practitioner reasonably believes they can provide competent and diligent representation to each affected client; the representation is not prohibited by law; and each affected client waives the conflict and gives informed consent, confirmed in writing, at the time the conflict is known, with the written confirmation made within a reasonable period and in no event later than 30 days",
+      "taxYear": 2026,
+      "source": "Circular 230 § 10.29(b), 31 CFR § 10.29(b) — https://www.law.cornell.edu/cfr/text/31/10.29",
+      "verified": "2026-08-18"
+    },
+    "conflict.retention": {
+      "value": "copies of the written consents must be retained for at least 36 months from the date the representation of the affected clients concluded, and must be provided to any IRS officer or employee on request",
+      "taxYear": 2026,
+      "source": "Circular 230 § 10.29(c), 31 CFR § 10.29(c) — https://www.law.cornell.edu/cfr/text/31/10.29",
+      "verified": "2026-08-18"
+    },
+    "competence.standard": {
+      "value": "the appropriate level of knowledge, skill, thoroughness and preparation necessary for the matter for which the practitioner is engaged — attainable through various methods, such as consulting with experts in the relevant area or studying the relevant law",
+      "taxYear": 2026,
+      "source": "Circular 230 § 10.35, 31 CFR § 10.35 — https://www.law.cornell.edu/cfr/text/31/10.35",
+      "verified": "2026-08-18"
+    },
+    "diligence.reliance": {
+      "value": "a practitioner is presumed to have exercised due diligence where they rely on the work product of another person and used reasonable care in engaging, supervising, training and evaluating that person, taking proper account of the nature of the relationship — except as modified by §§ 10.34 and 10.37",
+      "taxYear": 2026,
+      "source": "Circular 230 § 10.22(b), 31 CFR § 10.22(b) — https://www.law.cornell.edu/cfr/text/31/10.22",
+      "verified": "2026-08-18"
     }
   }
 }
