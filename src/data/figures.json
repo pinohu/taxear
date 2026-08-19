@@ -2149,6 +2149,84 @@
       "taxYear": 2026,
       "source": "Reg. § 301.7701-3(b)(2)(i)",
       "verified": "2026-08-19"
+    },
+    "sd.mfj": {
+      "value": "$32,200 for married individuals filing joint returns and surviving spouses",
+      "taxYear": 2026,
+      "source": "Rev. Proc. 2025-32, § 3.14 (2026 adjusted items) — https://www.irs.gov/pub/irs-drop/rp-25-32.pdf",
+      "verified": "2026-08-19"
+    },
+    "sd.hoh": {
+      "value": "$24,150 for heads of household",
+      "taxYear": 2026,
+      "source": "Rev. Proc. 2025-32, § 3.14 (2026 adjusted items) — https://www.irs.gov/pub/irs-drop/rp-25-32.pdf",
+      "verified": "2026-08-19"
+    },
+    "sd.single": {
+      "value": "$16,100 for unmarried individuals other than surviving spouses and heads of household",
+      "taxYear": 2026,
+      "source": "Rev. Proc. 2025-32, § 3.14 (2026 adjusted items) — https://www.irs.gov/pub/irs-drop/rp-25-32.pdf",
+      "verified": "2026-08-19"
+    },
+    "sd.mfs": {
+      "value": "$16,100 for married individuals filing separate returns",
+      "taxYear": 2026,
+      "source": "Rev. Proc. 2025-32, § 3.14 (2026 adjusted items) — https://www.irs.gov/pub/irs-drop/rp-25-32.pdf",
+      "verified": "2026-08-19"
+    },
+    "sd.dependent": {
+      "value": "the greater of $1,350, or the sum of $450 and the individual's earned income",
+      "taxYear": 2026,
+      "source": "Rev. Proc. 2025-32, § 3.14 (2026 adjusted items) — https://www.irs.gov/pub/irs-drop/rp-25-32.pdf",
+      "verified": "2026-08-19"
+    },
+    "sd.aged_or_blind": {
+      "value": "an additional $1,650, increased to $2,050 where the individual is also unmarried and not a surviving spouse",
+      "taxYear": 2026,
+      "source": "Rev. Proc. 2025-32, § 3.14 (2026 adjusted items) — https://www.irs.gov/pub/irs-drop/rp-25-32.pdf",
+      "verified": "2026-08-19"
+    },
+    "exemption.amount": {
+      "value": "zero — and permanently so for taxable years beginning after 2017, following Pub. L. 119-21 § 70103(a)",
+      "taxYear": 2026,
+      "source": "IRC § 151(d)(5)(A) as amended by Pub. L. 119-21 § 70103(a)(1), (2) — https://www.law.cornell.edu/uscode/text/26/151",
+      "verified": "2026-08-19"
+    },
+    "seniors.deduction": {
+      "value": "$6,000 for each qualified individual who has attained age 65 before the close of the taxable year, for taxable years beginning before 1 January 2029",
+      "taxYear": 2026,
+      "source": "IRC § 151(d)(5)(C)(i)-(ii)",
+      "verified": "2026-08-19"
+    },
+    "seniors.phaseout": {
+      "value": "reduced by 6 percent of modified adjusted gross income above $75,000, or $150,000 on a joint return",
+      "taxYear": 2026,
+      "source": "IRC § 151(d)(5)(C)(iii)",
+      "verified": "2026-08-19"
+    },
+    "duedate.calendar_year": {
+      "value": "the 15th day of April following the close of the calendar year",
+      "taxYear": 2026,
+      "source": "IRC § 6072(a) — https://www.law.cornell.edu/uscode/text/26/6072",
+      "verified": "2026-08-19"
+    },
+    "duedate.fiscal_year": {
+      "value": "the 15th day of the fourth month following the close of the fiscal year",
+      "taxYear": 2026,
+      "source": "IRC § 6072(a)",
+      "verified": "2026-08-19"
+    },
+    "extension.automatic_individual": {
+      "value": "an automatic 6-month extension of time to file, on a complete application made on Form 4868 by the date prescribed for filing",
+      "taxYear": 2026,
+      "source": "Reg. § 1.6081-4(a)-(b) — https://www.law.cornell.edu/cfr/text/26/1.6081-4",
+      "verified": "2026-08-19"
+    },
+    "extension.abroad": {
+      "value": "to and including the fifteenth day of the sixth month following the close of the taxable year, for a United States citizen or resident whose tax home and abode are outside the United States and Puerto Rico, or who is in military or naval service on duty outside them",
+      "taxYear": 2026,
+      "source": "Reg. § 1.6081-5(a)(5)-(6) — https://www.law.cornell.edu/cfr/text/26/1.6081-5",
+      "verified": "2026-08-19"
     }
   }
 }

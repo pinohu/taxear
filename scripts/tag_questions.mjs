@@ -169,7 +169,7 @@ const RULES = [
   // 1.6.1 estate tax
   ['1.6.1.c', /marital deduction|portability (?:election)?/i],
   ['1.6.1.b', /jointly-? ?held propert/i],
-  ['1.6.1.e', /\b706\b/i],
+  ['1.6.1.e', /\b706\b|\b1041\b/i],
   ['1.6.1.a', /gross estate|taxable estate|unified credit|applicable exclusion amount/i],
   ['1.6.2.c', /\bgift\b[\s\S]{0,60}unified credit/i],
   // 1.5.1 advising the individual taxpayer
