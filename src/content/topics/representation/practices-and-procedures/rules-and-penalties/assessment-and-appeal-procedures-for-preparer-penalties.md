@@ -17,7 +17,7 @@ authorities:
   - { type: Reg, ref: "§ 1.6694-4", title: "Extension of period of collection when tax return preparer pays 15 percent of a penalty", url: "https://www.law.cornell.edu/cfr/text/26/1.6694-4" }
   - { type: IRM, ref: "20.1.6", title: "Preparer and Promoter Penalties", url: "https://www.irs.gov/irm/part20/irm_20-001-006" }
 forms: ["6118"]
-related: ["3.1.4.b", "3.3.2.a", "3.2.6.a", "3.1.3.b"]
+related: ["3.1.4.b", "3.3.2.a", "3.2.6.a", "3.1.3.b", "3.2.6.g"]
 changelog:
   - { date: "2026-08-18", summary: "Initial publication from IRC §§ 6694(c), 6694(d), 6696, 6751, Reg. § 1.6694-4 and IRM 20.1.6 as revised 10 August 2026." }
 ---

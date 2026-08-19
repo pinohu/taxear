@@ -1267,6 +1267,36 @@
       "taxYear": 2026,
       "source": "IRS, \"Identity theft guide for individuals,\" page last reviewed 4 June 2026 — https://www.irs.gov/newsroom/taxpayer-guide-to-identity-theft",
       "verified": "2026-08-18"
+    },
+    "disclosure.8275_scope": {
+      "value": "discloses items or positions not otherwise adequately disclosed, except those taken contrary to a regulation; it avoids the disregard-of-rules and substantial-understatement portions of the accuracy-related penalty for non-tax-shelter items where the position has a reasonable basis, and may be used for the economic substance disclosure and the preparer penalties",
+      "taxYear": 2026,
+      "source": "Instructions for Form 8275 (Rev. 10/2024), \"Purpose of Form\" — https://www.irs.gov/instructions/i8275",
+      "verified": "2026-08-18"
+    },
+    "disclosure.8275r_scope": {
+      "value": "discloses positions taken contrary to Treasury regulations; it avoids the disregard-of-regulations and substantial-understatement portions for non-tax-shelter items where the position has a reasonable basis — and cannot avoid the disregard of rules other than regulations, which is Form 8275's territory",
+      "taxYear": 2026,
+      "source": "Instructions for Form 8275-R (Rev. 11/2024), \"Purpose of Form\" — https://www.irs.gov/instructions/i8275r",
+      "verified": "2026-08-18"
+    },
+    "disclosure.not_curable": {
+      "value": "negligence; substantial understatement on a tax shelter item; substantial or gross valuation misstatements under chapter 1, including non-arm's-length prices; substantial overstatement of pension liabilities; substantial estate or gift tax valuation understatements; tax benefits from a transaction lacking economic substance under § 7701(o); undisclosed foreign financial asset understatements; inconsistent estate basis; overstatement of the § 170(p) deduction; and disallowance under § 170(h)(7)",
+      "taxYear": 2026,
+      "source": "Instructions for Form 8275 (Rev. 10/2024) and Form 8275-R (Rev. 11/2024) — https://www.irs.gov/instructions/i8275",
+      "verified": "2026-08-18"
+    },
+    "disclosure.adequate_standard": {
+      "value": "the position must be adequately disclosed and have at least a reasonable basis; to avoid the disregard-of-regulations portion it must also represent a good-faith challenge to the validity of the regulation — and disclosure cannot cure a failure to keep proper books and records or to substantiate items",
+      "taxYear": 2026,
+      "source": "Instructions for Form 8275 (Rev. 10/2024), \"Adequate disclosure\"; Reg. § 1.6662-3(c)(1) — https://www.irs.gov/instructions/i8275",
+      "verified": "2026-08-18"
+    },
+    "disclosure.reasonable_basis": {
+      "value": "a relatively high standard of tax reporting, significantly higher than not frivolous or not patently improper, and not satisfied by a position that is merely arguable; a position reasonably based on an authority in Reg. § 1.6662-4(d)(3)(iii) generally satisfies it even if it does not meet the substantial authority standard",
+      "taxYear": 2026,
+      "source": "Instructions for Form 8275 (Rev. 10/2024), \"Reasonable basis\"; Reg. §§ 1.6662-4(d), 1.6662-3(b)(3) — https://www.irs.gov/instructions/i8275",
+      "verified": "2026-08-18"
     }
   }
 }
