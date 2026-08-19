@@ -950,6 +950,42 @@
       "source": "Instructions for Form 8275 (Rev. 10/2024), \"Reasonable basis\"; Reg. §§ 1.6662-4(d), 1.6662-3(b)(3) — https://www.irs.gov/instructions/i8275",
       "verified": "2026-08-18"
     },
+    "disposition.1099a": {
+      "value": "filed by a lender in a trade or business that acquires an interest in secured property in satisfaction of the debt, or has reason to know it has been abandoned — box 2 the unpaid principal outstanding, box 4 the fair market value, box 5 a checkbox for whether the borrower was personally liable",
+      "taxYear": 2026,
+      "source": "IRC § 6050J(a), (b), (c); Instructions for Forms 1099-A and 1099-C, Boxes 2, 4 and 5 — https://www.irs.gov/pub/irs-pdf/i1099ac.pdf",
+      "verified": "2026-08-19"
+    },
+    "disposition.1231_netting": {
+      "value": "where section 1231 gains exceed section 1231 losses for the year, both are long-term capital; where they do not, both are ordinary — but net section 1231 gain is ordinary to the extent of net section 1231 losses from the five most recent preceding years not already recaptured",
+      "taxYear": 2026,
+      "source": "IRC § 1231(a)(1), (a)(2); § 1231(c)(1), (c)(2) — https://www.law.cornell.edu/uscode/text/26/1231",
+      "verified": "2026-08-19"
+    },
+    "disposition.amount_realized": {
+      "value": "money received plus the fair market value of any property other than money received, and — except as the regulation provides otherwise — the amount of liabilities from which the transferor is discharged as a result of the disposition",
+      "taxYear": 2026,
+      "source": "IRC § 1001(b); Treas. Reg. § 1.1001-2(a)(1) — https://www.law.cornell.edu/cfr/text/26/1.1001-2",
+      "verified": "2026-08-19"
+    },
+    "disposition.gain_formula": {
+      "value": "amount realized less adjusted basis for gain; adjusted basis less amount realized for loss — the two are measured against the same basis but stated as separate rules",
+      "taxYear": 2026,
+      "source": "IRC § 1001(a) — https://www.law.cornell.edu/uscode/text/26/1001",
+      "verified": "2026-08-19"
+    },
+    "disposition.nonrecourse": {
+      "value": "the whole liability enters the amount realized, whatever the property is worth — the disposition of property securing a nonrecourse liability discharges the transferor from it, and there is no discharge of indebtedness income",
+      "taxYear": 2026,
+      "source": "Treas. Reg. § 1.1001-2(a)(4)(i); Example 7 — https://www.law.cornell.edu/cfr/text/26/1.1001-2",
+      "verified": "2026-08-19"
+    },
+    "disposition.recourse": {
+      "value": "the amount realized is the property's fair market value, and the debt forgiven above that value is discharge of indebtedness income under IRC § 61(a)(12), tested separately under § 108 — two items, not one",
+      "taxYear": 2026,
+      "source": "Treas. Reg. § 1.1001-2(a)(2); Example 8 — https://www.law.cornell.edu/cfr/text/26/1.1001-2",
+      "verified": "2026-08-19"
+    },
     "dividend.reporting_floor": {
       "value": "$10 or more of dividends paid to any person in a calendar year, and the same for a nominee passing dividends on",
       "taxYear": 2026,
@@ -2958,6 +2994,54 @@
       "value": "more than 60 days during the 121-day period beginning 60 days before the ex-dividend date, counting the day of disposition but not the day of acquisition; more than 90 days in a 181-day period for preferred stock dividends attributable to a period exceeding 366 days",
       "taxYear": 2026,
       "source": "IRC § 1(h)(11)(B)(iii)(I) applying IRC § 246(c)(1)(A), (c)(2), (c)(3)(A) — https://www.law.cornell.edu/uscode/text/26/246",
+      "verified": "2026-08-19"
+    },
+    "recapture.1245": {
+      "value": "ordinary income equal to the excess over adjusted basis of the lower of the recomputed basis or — on a sale, exchange or involuntary conversion — the amount realized, or on any other disposition the fair market value; recognized notwithstanding any other provision of the subtitle",
+      "taxYear": 2026,
+      "source": "IRC § 1245(a)(1) — https://www.law.cornell.edu/uscode/text/26/1245",
+      "verified": "2026-08-19"
+    },
+    "recapture.1245_property": {
+      "value": "property that is or has been subject to the depreciation allowance under IRC § 167 and is either personal property or certain tangible property other than a building or its structural components",
+      "taxYear": 2026,
+      "source": "IRC § 1245(a)(3)(A), (B) — https://www.law.cornell.edu/uscode/text/26/1245",
+      "verified": "2026-08-19"
+    },
+    "recapture.1245_recomputed_basis": {
+      "value": "adjusted basis plus all adjustments reflected in it for depreciation or amortization allowed or allowable — with deductions under IRC §§ 179, 179B to 179E, 181, 190, 193 and 194 treated as amortization, and \"allowed\" substituted where the taxpayer proves less was taken than was allowable",
+      "taxYear": 2026,
+      "source": "IRC § 1245(a)(2)(A)–(C) — https://www.law.cornell.edu/uscode/text/26/1245",
+      "verified": "2026-08-19"
+    },
+    "recapture.1250": {
+      "value": "the applicable percentage — 100 percent for all section 1250 property outside four named housing categories — of the lower of the additional depreciation attributable to periods after 31 December 1975 or the gain",
+      "taxYear": 2026,
+      "source": "IRC § 1250(a)(1)(A), (B)(v) — https://www.law.cornell.edu/uscode/text/26/1250",
+      "verified": "2026-08-19"
+    },
+    "recapture.1250_additional_depreciation": {
+      "value": "for property held more than one year, only the depreciation adjustments in excess of what the straight line method would have produced — so where straight line was used, there is none",
+      "taxYear": 2026,
+      "source": "IRC § 1250(b)(1) — https://www.law.cornell.edu/uscode/text/26/1250",
+      "verified": "2026-08-19"
+    },
+    "recapture.1250_modern_property": {
+      "value": "nil in practice — the applicable depreciation method is the straight line method for nonresidential real property and for residential rental property, so no additional depreciation arises to recapture",
+      "taxYear": 2026,
+      "source": "IRC § 168(b)(3)(A), (B); IRC § 1250(b)(1) — https://www.law.cornell.edu/uscode/text/26/168",
+      "verified": "2026-08-19"
+    },
+    "recapture.exceptions": {
+      "value": "neither section applies to a disposition by gift or, except as IRC § 691 provides, to a transfer at death; on a § 332, 351, 361, 721 or 731 transfer or a § 1031 or § 1033 disposition, recapture is capped by the gain actually recognised",
+      "taxYear": 2026,
+      "source": "IRC § 1245(b)(1)–(4); IRC § 1250(d)(1)–(4) — https://www.law.cornell.edu/uscode/text/26/1245",
+      "verified": "2026-08-19"
+    },
+    "recapture.unrecaptured_1250_gain": {
+      "value": "taxed at 25 percent — the long-term capital gain that would have been ordinary income if § 1250(b)(1) included all depreciation and the applicable percentage were 100 percent; a rate ceiling on capital gain, not a recharacterisation",
+      "taxYear": 2026,
+      "source": "IRC § 1(h)(1)(E); § 1(h)(6)(A)(i) — https://www.law.cornell.edu/uscode/text/26/1",
       "verified": "2026-08-19"
     },
     "records.274d_adequate": {

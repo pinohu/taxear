@@ -9,10 +9,10 @@ is indexed, and only the owner moves a page there (see `docs/VERIFICATION.md`).
 
 | Part | Topics | Stub | Draft | Review | Published | Words |
 |---|---:|---:|---:|---:|---:|---:|
-| 1. Individuals | 120 | 75 | 0 | 35 | 10 | 103,302 |
+| 1. Individuals | 120 | 74 | 0 | 36 | 10 | 105,784 |
 | 2. Businesses | 119 | 119 | 0 | 0 | 0 | 0 |
 | 3. Representation, Practices and Procedures | 121 | 0 | 0 | 0 | 121 | 257,674 |
-| **All parts** | **360** | **194** | **0** | **35** | **131** | **360,976** |
+| **All parts** | **360** | **193** | **0** | **36** | **131** | **363,458** |
 
 ## Part 1 — Individuals
 
@@ -84,7 +84,7 @@ is indexed, and only the owner moves a page there (see `docs/VERIFICATION.md`).
 
 | Code | Title | Status | Words | Last reviewed |
 |---|---|---|---:|---|
-| 1.2.3.a | [Sale or disposition of property including depreciation recapture rules and 1099A](/individuals/income-and-assets/property-real-and-personal/sale-or-disposition-of-property-including-depreciation/) | stub | — | — |
+| 1.2.3.a | [Sale or disposition of property including depreciation recapture rules and 1099A](/individuals/income-and-assets/property-real-and-personal/sale-or-disposition-of-property-including-depreciation/) | review | 2,482 | 2026-08-19 |
 | 1.2.3.b | [Capital gains and losses (e.g., netting effect, short-term, long-term, mark- to market, virtual currency)](/individuals/income-and-assets/property-real-and-personal/capital-gains-and-losses/) | stub | — | — |
 | 1.2.3.c | [Basis of assets (e.g., purchased, gifted or inherited)](/individuals/income-and-assets/property-real-and-personal/basis-of-assets/) | stub | — | — |
 | 1.2.3.d | [Basis of stock after stock splits and/or stock dividends (e.g., research, schedules, brokerage records)](/individuals/income-and-assets/property-real-and-personal/basis-of-stock-after-stock-splits-and-or-stock-dividends/) | stub | — | — |
