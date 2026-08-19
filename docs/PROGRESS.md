@@ -11,8 +11,8 @@ is indexed, and only the owner moves a page there (see `docs/VERIFICATION.md`).
 |---|---:|---:|---:|---:|---:|---:|
 | 1. Individuals | 120 | 120 | 0 | 0 | 0 | 0 |
 | 2. Businesses | 119 | 119 | 0 | 0 | 0 | 0 |
-| 3. Representation, Practices and Procedures | 121 | 26 | 0 | 95 | 0 | 200,985 |
-| **All parts** | **360** | **265** | **0** | **95** | **0** | **200,985** |
+| 3. Representation, Practices and Procedures | 121 | 25 | 0 | 96 | 0 | 203,461 |
+| **All parts** | **360** | **264** | **0** | **96** | **0** | **203,461** |
 
 ## Part 1 — Individuals
 
@@ -495,7 +495,7 @@ is indexed, and only the owner moves a page there (see `docs/VERIFICATION.md`).
 
 | Code | Title | Status | Words | Last reviewed |
 |---|---|---|---:|---|
-| 3.2.3.a | [Taxpayer's ability to pay the tax (e.g., installment agreements, offer in compromise, currently not collectible)](/representation/representation-before-the-irs/taxpayer-financial-situation/taxpayer-s-ability-to-pay-the-tax/) | stub | — | — |
+| 3.2.3.a | [Taxpayer's ability to pay the tax (e.g., installment agreements, offer in compromise, currently not collectible)](/representation/representation-before-the-irs/taxpayer-financial-situation/taxpayer-s-ability-to-pay-the-tax/) | review | 2,476 | 2026-08-19 |
 | 3.2.3.b | [General financial health (e.g., filed for bankruptcy, lawsuits, garnishments, cash flow, assets, and insolvency)](/representation/representation-before-the-irs/taxpayer-financial-situation/general-financial-health/) | stub | — | — |
 | 3.2.3.c | [Third-party research (e.g., property assessment for municipal taxes, asset values, state and local tax information)](/representation/representation-before-the-irs/taxpayer-financial-situation/third-party-research/) | stub | — | — |
 | 3.2.3.d | [Discharge of the tax liability in bankruptcy](/representation/representation-before-the-irs/taxpayer-financial-situation/discharge-of-the-tax-liability-in-bankruptcy/) | stub | — | — |
