@@ -15,7 +15,7 @@ authorities:
   - { type: Circ230, ref: "§ 10.35", title: "Competence", url: "https://www.law.cornell.edu/cfr/text/31/10.35" }
   - { type: Circ230, ref: "§ 10.20", title: "Information to be furnished", url: "https://www.law.cornell.edu/cfr/text/31/10.20" }
 forms: []
-related: ["3.1.2.a", "3.2.1.a", "3.2.6.a"]
+related: ["3.1.2.a", "3.2.1.a", "3.2.6.a", "3.2.2.c"]
 changelog:
   - { date: "2026-08-18", summary: "Initial publication from Circular 230 §§ 10.29, 10.22 and 10.35, each opened at source." }
 ---

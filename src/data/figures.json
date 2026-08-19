@@ -1645,6 +1645,30 @@
       "taxYear": 2026,
       "source": "Circular 230 § 10.22(b), 31 CFR § 10.22(b) — https://www.law.cornell.edu/cfr/text/31/10.22",
       "verified": "2026-08-18"
+    },
+    "diligence.scope": {
+      "value": "3 — in preparing or assisting in the preparation of, approving, and filing returns, documents, affidavits and other papers relating to IRS matters; in determining the correctness of oral or written representations made to the Treasury Department; and in determining the correctness of oral or written representations made to clients on any matter administered by the IRS",
+      "taxYear": 2026,
+      "source": "Circular 230 § 10.22(a), 31 CFR § 10.22(a) — https://www.law.cornell.edu/cfr/text/31/10.22",
+      "verified": "2026-08-18"
+    },
+    "competence.firm_procedures": {
+      "value": "an individual with, or sharing, principal authority and responsibility for overseeing a firm's practice must take reasonable steps to ensure the firm has adequate procedures for all members, associates and employees to comply with subparts A, B and C — and where the firm identifies nobody, the IRS may identify who is responsible",
+      "taxYear": 2026,
+      "source": "Circular 230 § 10.36(a), 31 CFR § 10.36(a) — https://www.law.cornell.edu/cfr/text/31/10.36",
+      "verified": "2026-08-18"
+    },
+    "competence.firm_discipline": {
+      "value": "discipline requires willfulness, recklessness or gross incompetence in failing to ensure adequate procedures exist, or that they are followed, or in failing to take prompt corrective action — together with a pattern or practice of non-compliance by one or more members, associates or employees",
+      "taxYear": 2026,
+      "source": "Circular 230 § 10.36(b), 31 CFR § 10.36(b) — https://www.law.cornell.edu/cfr/text/31/10.36",
+      "verified": "2026-08-18"
+    },
+    "competence.prompt_disposition": {
+      "value": "a practitioner may not unreasonably delay the prompt disposition of any matter before the Internal Revenue Service",
+      "taxYear": 2026,
+      "source": "Circular 230 § 10.23, 31 CFR § 10.23 — https://www.law.cornell.edu/cfr/text/31/10.23",
+      "verified": "2026-08-18"
     }
   }
 }
