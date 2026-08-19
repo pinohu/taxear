@@ -1237,6 +1237,36 @@
       "taxYear": 2026,
       "source": "IRC § 6663(a)–(b) — https://www.law.cornell.edu/uscode/text/26/6663",
       "verified": "2026-08-18"
+    },
+    "idtheft.ippin_validity": {
+      "value": "a six-digit number valid for one calendar year, with a new one generated each year; it is used only on Forms 1040, 1040-NR, 1040-PR, 1040-SR and 1040-SS, must be used on any federal return filed during the year including prior-year returns, and is generally viewable in the online account from mid-January through mid-November",
+      "taxYear": 2026,
+      "source": "IRS, \"Get an identity protection PIN,\" page last reviewed 4 August 2026 — https://www.irs.gov/identity-theft-fraud-scams/get-an-identity-protection-pin",
+      "verified": "2026-08-18"
+    },
+    "idtheft.ippin_delivery": {
+      "value": "a confirmed victim enrolled by the IRS receives a CP01A Notice with the new IP PIN each year; a taxpayer who opted in and obtained the IP PIN online must retrieve it online each year, because no CP01A is mailed",
+      "taxYear": 2026,
+      "source": "IRS, \"Get an identity protection PIN,\" page last reviewed 4 August 2026 — https://www.irs.gov/identity-theft-fraud-scams/get-an-identity-protection-pin",
+      "verified": "2026-08-18"
+    },
+    "idtheft.ippin_routes": {
+      "value": "3 — through the IRS online account (fastest; required for anyone aged 18 or over who can validate identity online); by Form 15227 where adjusted gross income on the last filed return is below $84,000, or $168,000 for married filing jointly, with identity validated by telephone and the IP PIN mailed in about four to six weeks; or by an in-person appointment at a Taxpayer Assistance Center with two forms of identification, with the IP PIN mailed in about three weeks",
+      "taxYear": 2026,
+      "source": "IRS, \"Get an identity protection PIN,\" page last reviewed 4 August 2026 — https://www.irs.gov/identity-theft-fraud-scams/get-an-identity-protection-pin",
+      "verified": "2026-08-18"
+    },
+    "idtheft.steps": {
+      "value": "stop interacting with the thief; update the Online Account password; follow the instructions in the IRS letter or notice; report the theft and follow the recovery steps at IdentityTheft.gov; get an IP PIN; keep records of letters, calls and emails; file returns and pay tax as usual; and check with the state tax agency",
+      "taxYear": 2026,
+      "source": "IRS, \"Identity theft guide for individuals,\" page last reviewed 4 June 2026 — https://www.irs.gov/newsroom/taxpayer-guide-to-identity-theft",
+      "verified": "2026-08-18"
+    },
+    "idtheft.dependent_efile": {
+      "value": "beginning with 2024 tax returns the IRS accepts e-filed Forms 1040, 1040-NR and 1040-SS even where a dependent has already been claimed on another return, provided the primary taxpayer on the second return includes a valid IP PIN — the dependent needs no IP PIN unless one was previously issued",
+      "taxYear": 2026,
+      "source": "IRS, \"Identity theft guide for individuals,\" page last reviewed 4 June 2026 — https://www.irs.gov/newsroom/taxpayer-guide-to-identity-theft",
+      "verified": "2026-08-18"
     }
   }
 }

@@ -17,7 +17,7 @@ authorities:
   - { type: IRC, ref: "§ 7212", title: "Attempts to interfere with administration of internal revenue laws", url: "https://www.law.cornell.edu/uscode/text/26/7212" }
   - { type: Statute, ref: "18 U.S.C. § 3571", title: "Sentence of fine", url: "https://www.law.cornell.edu/uscode/text/18/3571" }
 forms: []
-related: ["3.2.6.a", "3.2.6.h", "3.1.2.a"]
+related: ["3.2.6.a", "3.2.6.h", "3.1.2.a", "3.2.6.i"]
 changelog:
   - { date: "2026-08-18", summary: "Initial publication from IRC §§ 7201, 7203, 7206, 7212 and 6663 and 18 U.S.C. § 3571, each opened at source." }
 ---

@@ -15,7 +15,7 @@ authorities:
   - { type: Pub, ref: "IRS FOIA guidelines", title: "Freedom of Information Act (FOIA) guidelines, page last reviewed 28 June 2026", url: "https://www.irs.gov/privacy-disclosure/freedom-of-information-act-foia-guidelines" }
   - { type: IRC, ref: "§ 6103", title: "Confidentiality and disclosure of returns and return information", url: "https://www.law.cornell.edu/uscode/text/26/6103" }
 forms: []
-related: ["3.2.6.a", "3.2.6.j", "3.3.3.f", "3.2.6.h"]
+related: ["3.2.6.a", "3.2.6.j", "3.3.3.f", "3.2.6.h", "3.2.6.i"]
 changelog:
   - { date: "2026-08-18", summary: "Initial publication from 5 U.S.C. § 552, Reg. § 601.702, the IRS FOIA guidelines page last reviewed 28 June 2026, and IRC § 6103." }
 ---

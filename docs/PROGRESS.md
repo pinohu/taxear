@@ -11,8 +11,8 @@ is indexed, and only the owner moves a page there (see `docs/VERIFICATION.md`).
 |---|---:|---:|---:|---:|---:|---:|
 | 1. Individuals | 120 | 120 | 0 | 0 | 0 | 0 |
 | 2. Businesses | 119 | 119 | 0 | 0 | 0 | 0 |
-| 3. Representation, Practices and Procedures | 121 | 44 | 0 | 77 | 0 | 157,297 |
-| **All parts** | **360** | **283** | **0** | **77** | **0** | **157,297** |
+| 3. Representation, Practices and Procedures | 121 | 43 | 0 | 78 | 0 | 159,794 |
+| **All parts** | **360** | **282** | **0** | **78** | **0** | **159,794** |
 
 ## Part 1 — Individuals
 
@@ -536,7 +536,7 @@ is indexed, and only the owner moves a page there (see `docs/VERIFICATION.md`).
 | 3.2.6.f | [Tax avoidance vs. tax evasion](/representation/representation-before-the-irs/related-issues/tax-avoidance-vs-tax-evasion/) | review | 2,493 | 2026-08-18 |
 | 3.2.6.g | [Tax return disclosure statements](/representation/representation-before-the-irs/related-issues/tax-return-disclosure-statements/) | stub | — | — |
 | 3.2.6.h | [Taxpayer Advocate Service (e.g., criteria for requesting assistance)](/representation/representation-before-the-irs/related-issues/taxpayer-advocate-service/) | review | 2,498 | 2026-08-18 |
-| 3.2.6.i | [Identity Theft](/representation/representation-before-the-irs/related-issues/identity-theft/) | stub | — | — |
+| 3.2.6.i | [Identity Theft](/representation/representation-before-the-irs/related-issues/identity-theft/) | review | 2,497 | 2026-08-18 |
 | 3.2.6.j | [Judicial levels of representation beyond the scope of EA representation](/representation/representation-before-the-irs/related-issues/judicial-levels-of-representation-beyond-the-scope-of-ea/) | review | 2,444 | 2026-08-18 |
 
 ### 3.3 Specific Types of Representation
