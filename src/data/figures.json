@@ -1753,6 +1753,78 @@
       "taxYear": 2026,
       "source": "Circular 230 § 10.37(b), 31 CFR § 10.37(b) — https://www.law.cornell.edu/cfr/text/31/10.37",
       "verified": "2026-08-18"
+    },
+    "cfs.effective_date": {
+      "value": "effective June 29, 2026",
+      "taxYear": 2026,
+      "source": "IRS Collection Financial Standards, effective June 29, 2026 (irs.gov national/local standards pages)",
+      "verified": "2026-08-19"
+    },
+    "cfs.national.one_person": {
+      "value": "$867 per month",
+      "taxYear": 2026,
+      "source": "IRS Collection Financial Standards, effective June 29, 2026 (irs.gov national/local standards pages)",
+      "verified": "2026-08-19"
+    },
+    "cfs.national.two_persons": {
+      "value": "$1,558 per month",
+      "taxYear": 2026,
+      "source": "IRS Collection Financial Standards, effective June 29, 2026 (irs.gov national/local standards pages)",
+      "verified": "2026-08-19"
+    },
+    "cfs.national.three_persons": {
+      "value": "$1,857 per month",
+      "taxYear": 2026,
+      "source": "IRS Collection Financial Standards, effective June 29, 2026 (irs.gov national/local standards pages)",
+      "verified": "2026-08-19"
+    },
+    "cfs.national.four_persons": {
+      "value": "$2,176 per month",
+      "taxYear": 2026,
+      "source": "IRS Collection Financial Standards, effective June 29, 2026 (irs.gov national/local standards pages)",
+      "verified": "2026-08-19"
+    },
+    "cfs.national.additional_person": {
+      "value": "$397 per month for each person beyond four",
+      "taxYear": 2026,
+      "source": "IRS Collection Financial Standards, effective June 29, 2026 (irs.gov national/local standards pages)",
+      "verified": "2026-08-19"
+    },
+    "cfs.health.under_65": {
+      "value": "$90 per person per month",
+      "taxYear": 2026,
+      "source": "IRS Collection Financial Standards, effective June 29, 2026 (irs.gov national/local standards pages)",
+      "verified": "2026-08-19"
+    },
+    "cfs.health.65_and_over": {
+      "value": "$163 per person per month",
+      "taxYear": 2026,
+      "source": "IRS Collection Financial Standards, effective June 29, 2026 (irs.gov national/local standards pages)",
+      "verified": "2026-08-19"
+    },
+    "cfs.transport.ownership_one_car": {
+      "value": "$703 per month",
+      "taxYear": 2026,
+      "source": "IRS Collection Financial Standards, effective June 29, 2026 (irs.gov national/local standards pages)",
+      "verified": "2026-08-19"
+    },
+    "cfs.transport.ownership_two_cars": {
+      "value": "$1,406 per month",
+      "taxYear": 2026,
+      "source": "IRS Collection Financial Standards, effective June 29, 2026 (irs.gov national/local standards pages)",
+      "verified": "2026-08-19"
+    },
+    "cfs.transport.public": {
+      "value": "$220 per month",
+      "taxYear": 2026,
+      "source": "IRS Collection Financial Standards, effective June 29, 2026 (irs.gov national/local standards pages)",
+      "verified": "2026-08-19"
+    },
+    "cfs.housing_document_pages": {
+      "value": "125 printed pages",
+      "taxYear": 2026,
+      "source": "IRS Collection Financial Standards, effective June 29, 2026 (irs.gov national/local standards pages)",
+      "verified": "2026-08-19"
     }
   }
 }
