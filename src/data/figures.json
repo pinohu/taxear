@@ -2929,6 +2929,24 @@
       "taxYear": 2026,
       "source": "IRC § 199A(b)(1)(B) — https://www.law.cornell.edu/uscode/text/26/199A",
       "verified": "2026-08-19"
+    },
+    "personalrental.se_exclusion": {
+      "value": "self-employment income excludes rentals from real estate and from personal property leased *with* the real estate — personal property let on its own is not excluded",
+      "taxYear": 2026,
+      "source": "IRC § 1402(a)(1) — https://www.law.cornell.edu/uscode/text/26/1402",
+      "verified": "2026-08-19"
+    },
+    "hobby.presumption": {
+      "value": "gross income exceeding deductions in 3 or more of the 5 consecutive taxable years ending with the current year, or 2 of 7 where the activity consists in major part of breeding, training, showing or racing horses",
+      "taxYear": 2026,
+      "source": "IRC § 183(d) — https://www.law.cornell.edu/uscode/text/26/183",
+      "verified": "2026-08-19"
+    },
+    "misc.suspension": {
+      "value": "no miscellaneous itemized deduction is allowed for any taxable year beginning after 31 December 2017 — permanent since the 2026 end date was struck, and now at IRC § 67(h) rather than § 67(g)",
+      "taxYear": 2026,
+      "source": "IRC § 67(h) as amended by Pub. L. 119-21 § 70110(a), (b)(2) — https://www.law.cornell.edu/uscode/text/26/67",
+      "verified": "2026-08-19"
     }
   }
 }
