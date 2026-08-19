@@ -1975,6 +1975,24 @@
       "taxYear": 2026,
       "source": "IRS, Get an identity protection PIN (page last reviewed or updated 4 August 2026) — https://www.irs.gov/identity-theft-fraud-scams/get-an-identity-protection-pin",
       "verified": "2026-08-19"
+    },
+    "efile.ad_retention.broadcast": {
+      "value": "until the end of the calendar year following the last transmission or use",
+      "taxYear": 2026,
+      "source": "Publication 3112, IRS e-file Application and Participation (Rev. 11-2025), Advertising Standards",
+      "verified": "2026-08-19"
+    },
+    "efile.ad_retention.direct": {
+      "value": "until the end of the calendar year following the date sent",
+      "taxYear": 2026,
+      "source": "Publication 3112, IRS e-file Application and Participation (Rev. 11-2025), Advertising Standards",
+      "verified": "2026-08-19"
+    },
+    "efile.logo_clearance": {
+      "value": "no text closer than one quarter of an inch from the logo",
+      "taxYear": 2026,
+      "source": "Publication 3112, IRS e-file Application and Participation (Rev. 11-2025), Advertising Standards",
+      "verified": "2026-08-19"
     }
   }
 }
