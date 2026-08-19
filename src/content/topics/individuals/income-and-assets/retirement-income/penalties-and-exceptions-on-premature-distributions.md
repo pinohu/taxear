@@ -15,7 +15,7 @@ authorities:
   - { type: IRC, ref: "§ 408", title: "Individual retirement accounts", url: "https://www.law.cornell.edu/uscode/text/26/408" }
   - { type: IRC, ref: "§ 408A", title: "Roth IRAs", url: "https://www.law.cornell.edu/uscode/text/26/408A" }
 forms: []
-related: ["1.2.2.b", "1.2.2.c", "1.2.2.d", "1.2.2.a", "1.2.2.f"]
+related: ["1.2.2.b", "1.2.2.c", "1.2.2.d", "1.2.2.a", "1.2.2.f", "1.2.2.g"]
 changelog:
   - { date: "2026-08-19", summary: "Initial draft. Sets out the IRC § 72(t)(1) charge on the includible portion only, the nine general exceptions in § 72(t)(2)(A), the two withheld from IRAs by § 72(t)(3)(A), the three drafted for IRAs alone, the newer capped exceptions, and the § 72(t)(4) recapture." }
 ---
