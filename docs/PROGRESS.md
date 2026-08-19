@@ -9,10 +9,10 @@ is indexed, and only the owner moves a page there (see `docs/VERIFICATION.md`).
 
 | Part | Topics | Stub | Draft | Review | Published | Words |
 |---|---:|---:|---:|---:|---:|---:|
-| 1. Individuals | 120 | 118 | 0 | 2 | 0 | 4,625 |
+| 1. Individuals | 120 | 117 | 0 | 3 | 0 | 6,863 |
 | 2. Businesses | 119 | 119 | 0 | 0 | 0 | 0 |
 | 3. Representation, Practices and Procedures | 121 | 0 | 0 | 121 | 0 | 257,680 |
-| **All parts** | **360** | **237** | **0** | **123** | **0** | **262,305** |
+| **All parts** | **360** | **236** | **0** | **124** | **0** | **264,543** |
 
 ## Part 1 — Individuals
 
@@ -24,7 +24,7 @@ is indexed, and only the owner moves a page there (see `docs/VERIFICATION.md`).
 |---|---|---|---:|---|
 | 1.1.1.a | [Use of prior years' returns for comparison, accuracy, and carryovers for current year's return](/individuals/preliminary-work-and-taxpayer-data/preliminary-work-to-prepare-tax-returns/use-of-prior-years-returns-for-comparison-accuracy/) | stub | — | — |
 | 1.1.1.b | [Taxpayer biographical information (e.g., date of birth, marital status, dependents, identity protection PIN, state issued photo ID)](/individuals/preliminary-work-and-taxpayer-data/preliminary-work-to-prepare-tax-returns/taxpayer-biographical-information/) | stub | — | — |
-| 1.1.1.c | [Residency status and/or citizenship (e.g., citizen, visas, green cards, resident alien or non-resident alien, ITIN)](/individuals/preliminary-work-and-taxpayer-data/preliminary-work-to-prepare-tax-returns/residency-status-and-or-citizenship/) | stub | — | — |
+| 1.1.1.c | [Residency status and/or citizenship (e.g., citizen, visas, green cards, resident alien or non-resident alien, ITIN)](/individuals/preliminary-work-and-taxpayer-data/preliminary-work-to-prepare-tax-returns/residency-status-and-or-citizenship/) | review | 2,238 | 2026-08-19 |
 | 1.1.1.d | [Filing requirements and due date](/individuals/preliminary-work-and-taxpayer-data/preliminary-work-to-prepare-tax-returns/filing-requirements-and-due-date/) | review | 2,157 | 2026-08-19 |
 | 1.1.1.e | [Taxpayer filing status (e.g., single, head of household)](/individuals/preliminary-work-and-taxpayer-data/preliminary-work-to-prepare-tax-returns/taxpayer-filing-status/) | review | 2,468 | 2026-08-19 |
 | 1.1.1.f | [Sources of all worldwide taxable and nontaxable income (e.g., interest, wages, business, sales of property, dividends, rental income, flow- through entities, alimony received)](/individuals/preliminary-work-and-taxpayer-data/preliminary-work-to-prepare-tax-returns/sources-of-all-worldwide-taxable-and-nontaxable-income/) | stub | — | — |

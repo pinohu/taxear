@@ -2227,6 +2227,42 @@
       "taxYear": 2026,
       "source": "Reg. § 1.6081-5(a)(5)-(6) — https://www.law.cornell.edu/cfr/text/26/1.6081-5",
       "verified": "2026-08-19"
+    },
+    "residency.spt_current_year": {
+      "value": "at least 31 days of presence in the United States during the calendar year",
+      "taxYear": 2026,
+      "source": "IRC § 7701(b)(3)(A)(i) — https://www.law.cornell.edu/uscode/text/26/7701",
+      "verified": "2026-08-19"
+    },
+    "residency.spt_weighted": {
+      "value": "183 days or more, counting each day of the current year in full, one-third of each day in the first preceding year, and one-sixth of each day in the second preceding year",
+      "taxYear": 2026,
+      "source": "IRC § 7701(b)(3)(A)(ii)",
+      "verified": "2026-08-19"
+    },
+    "residency.closer_connection": {
+      "value": "presence on fewer than 183 days in the current year, together with a tax home in and a closer connection to a foreign country",
+      "taxYear": 2026,
+      "source": "IRC § 7701(b)(3)(B)",
+      "verified": "2026-08-19"
+    },
+    "residency.exempt_individuals": {
+      "value": "4 categories whose days are not counted — a foreign government-related individual, a teacher or trainee, a student, and a professional athlete temporarily present to compete in a charitable sports event",
+      "taxYear": 2026,
+      "source": "IRC § 7701(b)(5)(A)",
+      "verified": "2026-08-19"
+    },
+    "atin.deactivation": {
+      "value": "two years from issue, with a reminder notice sent at eighteen months",
+      "taxYear": 2026,
+      "source": "IRS, Adoption taxpayer identification number Q&A (page last reviewed 22 February 2026) — https://www.irs.gov/individuals/adoption-taxpayer-identification-number",
+      "verified": "2026-08-19"
+    },
+    "atin.qualifications": {
+      "value": "5 — the child is legally placed in the home for legal adoption by an authorized placement agency; the adoption is domestic, or foreign with a Permanent Resident Alien Card or Certificate of Citizenship; the child's existing SSN cannot be obtained despite reasonable attempts; an SSN cannot be obtained from the SSA; and the taxpayer is eligible to claim the child as a dependent",
+      "taxYear": 2026,
+      "source": "IRS, Adoption taxpayer identification number Q&A, A4 (page last reviewed 22 February 2026)",
+      "verified": "2026-08-19"
     }
   }
 }
