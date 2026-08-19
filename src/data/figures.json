@@ -3217,6 +3217,30 @@
       "taxYear": 2026,
       "source": "IRC § 6041(a), (h) as amended by Pub. L. 119-21 § 70433(a), (e), (f) — https://www.law.cornell.edu/uscode/text/26/6041",
       "verified": "2026-08-19"
+    },
+    "ira.aggregation_rule": {
+      "value": "all individual retirement plans are treated as one contract, all distributions in a year as one distribution, and the contract value, income and investment are computed at the close of the calendar year in which the taxable year begins — with the value increased by distributions made during that year",
+      "taxYear": 2026,
+      "source": "IRC § 408(d)(2)(A)-(C) — https://www.law.cornell.edu/uscode/text/26/408",
+      "verified": "2026-08-19"
+    },
+    "ira.nondeductible_limit": {
+      "value": "the excess of the IRC § 219 deduction computed without regard to § 219(g) over the deduction computed with regard to it — increased by any deductible amount the taxpayer elects not to deduct",
+      "taxYear": 2026,
+      "source": "IRC § 408(o)(2)(B)(i), (ii) — https://www.law.cornell.edu/uscode/text/26/408",
+      "verified": "2026-08-19"
+    },
+    "ira.form8606_penalties": {
+      "value": "$50 for each failure to file the form required under IRC § 408(o)(4), and $100 for each overstatement of designated nondeductible contributions — both excused on a showing of reasonable cause",
+      "taxYear": 2026,
+      "source": "IRC § 6693(b)(1), (2) — https://www.law.cornell.edu/uscode/text/26/6693",
+      "verified": "2026-08-19"
+    },
+    "ira.roth_aggregation": {
+      "value": "IRC § 408(d)(2) is applied separately to Roth IRAs and to other individual retirement plans, so a Roth is never blended into the traditional pro-rata computation",
+      "taxYear": 2026,
+      "source": "IRC § 408A(d)(4)(A) — https://www.law.cornell.edu/uscode/text/26/408A",
+      "verified": "2026-08-19"
     }
   }
 }
