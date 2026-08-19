@@ -18,7 +18,7 @@ authorities:
   - { type: IRC, ref: "§ 6331(k)", title: "No levy while certain offers pending or installment agreement pending or in effect" }
   - { type: IRC, ref: "§ 6503", title: "Suspension of running of period of limitation" }
 forms: ["433-A", "433-F", "656"]
-related: ["3.2.3.e", "3.3.1.k", "3.3.1.m"]
+related: ["3.2.3.e", "3.3.1.k", "3.3.1.m", "3.2.3.d"]
 changelog:
   - { date: "2026-08-19", summary: "Initial draft against IRM 5.15.1 as revised 29 June 2026." }
 ---

@@ -17,7 +17,7 @@ authorities:
   - { type: IRC, ref: "§ 6331(k)(3)", title: "Suspension while offer or agreement pending" }
   - { type: IRC, ref: "§ 7122(f)", title: "Deemed acceptance of offer not rejected within certain period" }
 forms: ["12153", "9465", "656"]
-related: ["3.2.6.a", "3.3.1.j", "3.3.1.i", "3.3.1.k", "3.3.1.o", "3.3.1.n", "3.3.1.h", "3.3.1.l", "3.2.3.a"]
+related: ["3.2.6.a", "3.3.1.j", "3.3.1.i", "3.3.1.k", "3.3.1.o", "3.3.1.n", "3.3.1.h", "3.3.1.l", "3.2.3.a", "3.2.3.d"]
 changelog:
   - { date: "2026-08-18", summary: "Initial publication from IRC §§ 6502, 6503, 6330(e), 6331(i), 6331(k) and 7122(f)." }
 ---
