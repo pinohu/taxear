@@ -15,7 +15,7 @@ authorities:
   - { type: Form, ref: "14039", title: "Identity Theft Affidavit", url: "https://www.irs.gov/forms-pubs/about-form-14039" }
   - { type: IRC, ref: "§ 6103", title: "Confidentiality and disclosure of returns and return information", url: "https://www.law.cornell.edu/uscode/text/26/6103" }
 forms: []
-related: ["3.2.6.e", "3.2.6.f", "3.2.6.h"]
+related: ["3.2.6.e", "3.2.6.f", "3.2.6.h", "3.4.3.i"]
 changelog:
   - { date: "2026-08-18", summary: "Initial publication from the IRS identity protection PIN page (last reviewed 4 August 2026) and identity theft guide (last reviewed 4 June 2026), and IRC § 6103." }
 ---

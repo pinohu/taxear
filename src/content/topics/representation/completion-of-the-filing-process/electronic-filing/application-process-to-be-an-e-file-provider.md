@@ -15,7 +15,7 @@ authorities:
   - { type: IRC, ref: "§ 6695(g)", title: "Failure to be diligent in determining eligibility for certain tax benefits" }
   - { type: Circ230, ref: "§ 10.51", title: "Incompetence and disreputable conduct" }
 forms: []
-related: ["3.4.3.b", "3.1.3.a", "3.1.2.o", "3.4.3.d"]
+related: ["3.4.3.b", "3.1.3.a", "3.1.2.o", "3.4.3.d", "3.4.3.i"]
 changelog:
   - { date: "2026-08-19", summary: "Initial draft against Publication 3112 (Rev. 11-2025)." }
 ---

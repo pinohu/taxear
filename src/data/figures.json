@@ -1241,8 +1241,8 @@
     "idtheft.ippin_validity": {
       "value": "a six-digit number valid for one calendar year, with a new one generated each year; it is used only on Forms 1040, 1040-NR, 1040-PR, 1040-SR and 1040-SS, must be used on any federal return filed during the year including prior-year returns, and is generally viewable in the online account from mid-January through mid-November",
       "taxYear": 2026,
-      "source": "IRS, \"Get an identity protection PIN,\" page last reviewed 4 August 2026 — https://www.irs.gov/identity-theft-fraud-scams/get-an-identity-protection-pin",
-      "verified": "2026-08-18"
+      "source": "IRS, Get an identity protection PIN (page last reviewed or updated 4 August 2026) — https://www.irs.gov/identity-theft-fraud-scams/get-an-identity-protection-pin",
+      "verified": "2026-08-19"
     },
     "idtheft.ippin_delivery": {
       "value": "a confirmed victim enrolled by the IRS receives a CP01A Notice with the new IP PIN each year; a taxpayer who opted in and obtained the IP PIN online must retrieve it online each year, because no CP01A is mailed",
@@ -1962,6 +1962,18 @@
       "value": "$14 to “Total tax,” “Federal income tax withheld,” “Refund” or “Amount you owe”",
       "taxYear": 2026,
       "source": "Publication 1345, Handbook for Authorized IRS e-file Providers of Individual Income Tax Returns (Rev. 12-2025)",
+      "verified": "2026-08-19"
+    },
+    "idtheft.ippin_forms": {
+      "value": "Forms 1040, 1040-NR, 1040-PR, 1040-SR and 1040-SS only",
+      "taxYear": 2026,
+      "source": "IRS, Get an identity protection PIN (page last reviewed or updated 4 August 2026) — https://www.irs.gov/identity-theft-fraud-scams/get-an-identity-protection-pin",
+      "verified": "2026-08-19"
+    },
+    "idtheft.ippin_online_window": {
+      "value": "generally viewable in the online account from mid-January through mid-November",
+      "taxYear": 2026,
+      "source": "IRS, Get an identity protection PIN (page last reviewed or updated 4 August 2026) — https://www.irs.gov/identity-theft-fraud-scams/get-an-identity-protection-pin",
       "verified": "2026-08-19"
     }
   }
