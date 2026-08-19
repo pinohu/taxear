@@ -1561,6 +1561,30 @@
       "taxYear": 2026,
       "source": "IRM 4.10.7.2.7 (1 January 2006), \"IRS Publications\" — https://www.irs.gov/irm/part4/irm_04-010-007",
       "verified": "2026-08-18"
+    },
+    "pubs.informal_guidance": {
+      "value": "forms, instructions, publications and IRS.gov webpages — they do not apply the law to taxpayer-specific facts, may not reflect special rules or exceptions, have not been published in the Internal Revenue Bulletin, and \"will not be relied on, used, or cited as precedents by Service personnel in the disposition of cases\"",
+      "taxYear": 2026,
+      "source": "IRS, \"General overview of taxpayer reliance on guidance published in the Internal Revenue Bulletin and FAQs,\" page last reviewed 5 December 2025 — https://www.irs.gov/newsroom/general-overview-of-taxpayer-reliance-on-guidance-published-in-the-internal-revenue-bulletin-and-faqs",
+      "verified": "2026-08-18"
+    },
+    "pubs.law_controls": {
+      "value": "if information in informal guidance or an FAQ turns out to be an inaccurate statement of the law as applied to a particular taxpayer's case, the law controls the taxpayer's tax liability — only guidance published in the Internal Revenue Bulletin has precedential value",
+      "taxYear": 2026,
+      "source": "IRS, \"General overview of taxpayer reliance on guidance published in the Internal Revenue Bulletin and FAQs,\" page last reviewed 5 December 2025 — https://www.irs.gov/newsroom/general-overview-of-taxpayer-reliance-on-guidance-published-in-the-internal-revenue-bulletin-and-faqs",
+      "verified": "2026-08-18"
+    },
+    "pubs.reliance_penalty": {
+      "value": "a taxpayer who shows reliance in good faith that was reasonable on all the facts and circumstances will not be subject to a penalty carrying a reasonable cause standard — including a negligence or other accuracy-related penalty — to the extent the reliance results in an underpayment",
+      "taxYear": 2026,
+      "source": "IRS reliance page (last reviewed 5 December 2025), citing Reg. § 1.6664-4(b) — https://www.irs.gov/newsroom/general-overview-of-taxpayer-reliance-on-guidance-published-in-the-internal-revenue-bulletin-and-faqs",
+      "verified": "2026-08-18"
+    },
+    "pubs.factsheet_faq": {
+      "value": "FAQs published in a Fact Sheet linked to an IRS news release are considered authority for the substantial authority exception to accuracy-related penalties; FAQs not published in the Bulletin are not",
+      "taxYear": 2026,
+      "source": "IRS reliance page (last reviewed 5 December 2025), citing Reg. § 1.6662-4(d) — https://www.irs.gov/newsroom/general-overview-of-taxpayer-reliance-on-guidance-published-in-the-internal-revenue-bulletin-and-faqs",
+      "verified": "2026-08-18"
     }
   }
 }

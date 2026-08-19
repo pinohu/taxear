@@ -15,7 +15,7 @@ authorities:
   - { type: Reg, ref: "§ 1.6662-4", title: "Substantial understatement of income tax — types of authority at (d)(3)(iii)", url: "https://www.law.cornell.edu/cfr/text/26/1.6662-4" }
   - { type: Reg, ref: "§ 601.601", title: "Rules and regulations — publication in the Internal Revenue Bulletin at (d)(2)", url: "https://www.law.cornell.edu/cfr/text/26/601.601" }
 forms: []
-related: ["3.2.5.g", "3.2.5.b", "3.2.6.j"]
+related: ["3.2.5.g", "3.2.5.b", "3.2.6.j", "3.2.5.d"]
 changelog:
   - { date: "2026-08-18", summary: "Initial publication from IRM 4.10.7, IRC § 7463, and Reg. §§ 1.6662-4 and 601.601, each opened at source." }
 ---

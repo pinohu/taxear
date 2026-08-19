@@ -22,7 +22,7 @@ blocked on a figure. `npm run verify` reports 0 errors.
 | 3.1.3 Sanctionable acts | **4 / 4** |
 | 3.1.4 Rules and penalties | **7 / 7** |
 | 3.2.6 Related issues | **10 / 10** |
-| 3.2.5 Legal authority and references | 6 / 8 |
+| 3.2.5 Legal authority and references | 7 / 8 |
 | 3.3.1 Collection process | 9 / 16 |
 | 3.3.2 Penalties and interest abatement | **5 / 5** |
 | 3.3.3 Audits and examinations | **9 / 9** |
@@ -72,6 +72,7 @@ deposit pages.
 | 3.2.5.a | Code and income tax regulations — IRC § 7805, Reg. § 601.601 |
 | 3.2.5.f | Internal Revenue Manual — IRM 1.11.1, IRC § 7811(a)(3) |
 | 3.2.5.c | case law — IRM 4.10.7, IRC § 7463 |
+| 3.2.5.d | forms, instructions and publications — IRS reliance page, IRM 4.10.7.2.7 |
 | 3.4.3.b | e-file mandate and exceptions |
 
 Forms: 2848, 8821, 1040-X, 843, 656, 9465, 12153, 9423, 6118, 8867, 8948, 8944, 8453,
@@ -93,8 +94,18 @@ Prefer depth over breadth. Each of these sits beside a page that already exists,
 
 | Codes | Why next |
 |---|---|
-| 3.2.5.d, h | Legal authority and references. Two left — forms and publications, tax treaties. `pubs.status` is already a verified figure for 3.2.5.d |
+| 3.2.5.h | Tax treaties — the last of 3.2.5 |
 | 3.4.3.a, c–i | Completes electronic filing, mostly from Pub. 3112 and Pub. 1345 |
+
+### Sourcing note — the IRS "Reliance on Guidance" page is hard to find
+
+The authoritative IRS statement on what may and may not be relied on is **"General overview
+of taxpayer reliance on guidance published in the Internal Revenue Bulletin and FAQs"**,
+under `/newsroom/`, page last reviewed 5 December 2025. The obvious URLs
+(`/privacy-disclosure/reliance-on-guidance`, `/privacy-disclosure/irs-guidance`,
+`/help/reliance-on-guidance`) all **404**. Reach it via the **"Reliance on Guidance" link in
+the irs.gov footer**. It is the source for 3.2.5.d and is worth reusing on any page about
+FAQ or webpage reliance.
 
 ### Annual refresh — the IRM is under revision and posted content may lag
 
