@@ -1381,6 +1381,36 @@
       "taxYear": 2026,
       "source": "IRC § 7508A(e), as amended by Pub. L. 119-29 § 2 (2025), which substituted 120 days for 60 — https://www.law.cornell.edu/uscode/text/26/7508A",
       "verified": "2026-08-18"
+    },
+    "authority.list": {
+      "value": "applicable provisions of the Code and other statutes; proposed, temporary and final regulations construing them; revenue rulings and revenue procedures; tax treaties and regulations thereunder and official explanations of them; court cases; congressional intent in committee reports, conference-report joint explanatory statements and pre-enactment floor statements by a bill's managers; Joint Committee on Taxation General Explanations (the Blue Book); private letter rulings and technical advice memoranda issued after 31 October 1976; actions on decisions and general counsel memoranda issued after 12 March 1981, and GCMs in pre-1955 Cumulative Bulletin volumes; IRS information or press releases; and notices, announcements and other administrative pronouncements published in the Internal Revenue Bulletin",
+      "taxYear": 2026,
+      "source": "Reg. § 1.6662-4(d)(3)(iii) — https://www.law.cornell.edu/cfr/text/26/1.6662-4",
+      "verified": "2026-08-18"
+    },
+    "authority.not_authority": {
+      "value": "conclusions reached in treatises, legal periodicals, legal opinions, or opinions rendered by tax professionals — though the authorities underlying those opinions may themselves give rise to substantial authority",
+      "taxYear": 2026,
+      "source": "Reg. § 1.6662-4(d)(3)(iii) — https://www.law.cornell.edu/cfr/text/26/1.6662-4",
+      "verified": "2026-08-18"
+    },
+    "authority.substantial_standard": {
+      "value": "an objective standard, less stringent than more likely than not (a greater than 50-percent likelihood) but more stringent than reasonable basis; met only where the weight of supporting authorities is substantial in relation to the weight of contrary authorities, all relevant authorities being taken into account",
+      "taxYear": 2026,
+      "source": "Reg. § 1.6662-4(d)(2), (d)(3)(i) — https://www.law.cornell.edu/cfr/text/26/1.6662-4",
+      "verified": "2026-08-18"
+    },
+    "authority.ceases": {
+      "value": "an authority stops being one to the extent it is overruled or modified, implicitly or explicitly, by a body with power to do so — but a Tax Court opinion is not treated as overruled by a court of appeals to which the taxpayer has no right of appeal unless the Tax Court adopts that holding, and a private letter ruling is not authority if revoked or inconsistent with a later proposed regulation, revenue ruling or IRB pronouncement",
+      "taxYear": 2026,
+      "source": "Reg. § 1.6662-4(d)(3)(iii) — https://www.law.cornell.edu/cfr/text/26/1.6662-4",
+      "verified": "2026-08-18"
+    },
+    "authority.written_determination": {
+      "value": "a ruling, determination letter, technical advice memorandum, or Chief Counsel advice; unless the Secretary provides otherwise by regulation it may not be used or cited as precedent — yet it does give the taxpayer it was issued to substantial authority for that treatment",
+      "taxYear": 2026,
+      "source": "IRC § 6110(b)(1)(A), (k)(3); Reg. § 1.6662-4(d)(3)(iv)(A) — https://www.law.cornell.edu/uscode/text/26/6110",
+      "verified": "2026-08-18"
     }
   }
 }
