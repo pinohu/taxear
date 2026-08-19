@@ -38,6 +38,13 @@ test('a form number does not outrank the subject the question is actually about'
   assert.equal(classify(q(3, 'What due diligence must a practitioner exercise in preparing a return?')), '3.1.2.f');
 });
 
+test('a treaty reference inside a dividend question stays on the dividend topic', () => {
+  // § 1(h)(11)(C)(i)(II) defines a qualified foreign corporation by reference to a treaty, so the
+  // bare "tax treaty" rule for 1.2.1.g would otherwise swallow every qualified-dividend question.
+  assert.equal(classify(q(1, 'What is not a requirement for a qualified foreign corporation?')), '1.2.1.c');
+  assert.equal(classify(q(1, 'Which tax treaty provision exempts a teacher from host country tax?')), '1.2.1.g');
+});
+
 test('rules never tag across exam parts', () => {
   // The same subject asked in different parts must land in that part's own outline.
   // Part 1 has its own claim-for-refund topic, so the Part 1 question is placed there —

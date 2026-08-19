@@ -254,6 +254,10 @@ const RULES = [
   // 1.2.1 income
   ['1.2.1.f', /forgiveness of (?:a )?debt|cancellation of (?:indebtedness|debt)|\b1099-?c\b|insolven|foreclosur/i],
   ['1.2.1.e', /gambling|\bw-?2 ?g\b|wagering/i],
+  // "qualified foreign corporation" is a § 1(h)(11)(C) dividend term, and its definition turns on a
+  // treaty — so it has to be placed before the 1.2.1.g treaty rule or every question about it lands
+  // in foreign income instead of dividends.
+  ['1.2.1.c', /qualified foreign corporation/i],
   ['1.2.1.g', /foreign earned income|\b2555\b|\bfeie\b|tax treat(?:y|ies)/i],
   ['1.2.1.k', /passive (?:activity|income|loss)|\b469\b|at-?risk/i],
   ['1.2.1.l', /\bk-?1\b|pass-?through income/i],
