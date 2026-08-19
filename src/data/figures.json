@@ -3187,6 +3187,36 @@
       "taxYear": 2026,
       "source": "IRC § 6050E(a) — https://www.law.cornell.edu/uscode/text/26/6050E",
       "verified": "2026-08-19"
+    },
+    "info.6041a_threshold": {
+      "value": "remuneration for services equal to or exceeding the dollar amount in effect for the calendar year under IRC § 6041(a) — so the nonemployee compensation threshold now tracks the general one automatically instead of naming its own figure",
+      "taxYear": 2026,
+      "source": "IRC § 6041A(a)(2) as amended by Pub. L. 119-21 § 70433(c) — https://www.law.cornell.edu/uscode/text/26/6041A",
+      "verified": "2026-08-19"
+    },
+    "info.direct_sales_threshold": {
+      "value": "$5,000 or more of consumer products sold to a buyer for resale other than in a permanent retail establishment — a separate figure that was NOT changed and does not track IRC § 6041(a)",
+      "taxYear": 2026,
+      "source": "IRC § 6041A(b)(1)(B) — https://www.law.cornell.edu/uscode/text/26/6041A",
+      "verified": "2026-08-19"
+    },
+    "info.reasonable_cause": {
+      "value": "no penalty under the information reporting part where the failure is shown to be due to reasonable cause and not to wilful neglect",
+      "taxYear": 2026,
+      "source": "IRC § 6724(a) — https://www.law.cornell.edu/uscode/text/26/6724",
+      "verified": "2026-08-19"
+    },
+    "info.tip_reporting_addition": {
+      "value": "payer statements must now separately account for amounts reasonably designated as cash tips and the IRC § 224(d)(1) occupation of the recipient — added to IRC § 6041(f)(2), § 6041A(a), § 6050W(f)(2) and § 6051(a)(18)",
+      "taxYear": 2026,
+      "source": "IRC § 6041A(a) as amended by Pub. L. 119-21 § 70201(f)(2)(A) — https://www.law.cornell.edu/uscode/text/26/6041A",
+      "verified": "2026-08-19"
+    },
+    "info.6041_threshold": {
+      "value": "$2,000 or more of reportable payments in a calendar year, adjusted for inflation for calendar years after 2026",
+      "taxYear": 2026,
+      "source": "IRC § 6041(a), (h) as amended by Pub. L. 119-21 § 70433(a), (e), (f) — https://www.law.cornell.edu/uscode/text/26/6041",
+      "verified": "2026-08-19"
     }
   }
 }
