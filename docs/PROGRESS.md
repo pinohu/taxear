@@ -11,8 +11,8 @@ is indexed, and only the owner moves a page there (see `docs/VERIFICATION.md`).
 |---|---:|---:|---:|---:|---:|---:|
 | 1. Individuals | 120 | 120 | 0 | 0 | 0 | 0 |
 | 2. Businesses | 119 | 119 | 0 | 0 | 0 | 0 |
-| 3. Representation, Practices and Procedures | 121 | 29 | 0 | 92 | 0 | 193,723 |
-| **All parts** | **360** | **268** | **0** | **92** | **0** | **193,723** |
+| 3. Representation, Practices and Procedures | 121 | 28 | 0 | 93 | 0 | 196,035 |
+| **All parts** | **360** | **267** | **0** | **93** | **0** | **196,035** |
 
 ## Part 1 — Individuals
 
@@ -489,7 +489,7 @@ is indexed, and only the owner moves a page there (see `docs/VERIFICATION.md`).
 | 3.2.2.b | [Potential for criminal aspects](/representation/representation-before-the-irs/building-the-taxpayer-s-case-preliminary-work/potential-for-criminal-aspects/) | review | 2,467 | 2026-08-18 |
 | 3.2.2.c | [Competence, expertise and time to handle issue](/representation/representation-before-the-irs/building-the-taxpayer-s-case-preliminary-work/competence-expertise-and-time-to-handle-issue/) | review | 2,331 | 2026-08-18 |
 | 3.2.2.d | [Conflict of interest in regards to representation](/representation/representation-before-the-irs/building-the-taxpayer-s-case-preliminary-work/conflict-of-interest-in-regards-to-representation/) | review | 2,370 | 2026-08-18 |
-| 3.2.2.e | [Transcripts from IRS (e.g., access to and use of e-services)](/representation/representation-before-the-irs/building-the-taxpayer-s-case-preliminary-work/transcripts-from-irs/) | stub | — | — |
+| 3.2.2.e | [Transcripts from IRS (e.g., access to and use of e-services)](/representation/representation-before-the-irs/building-the-taxpayer-s-case-preliminary-work/transcripts-from-irs/) | review | 2,312 | 2026-08-18 |
 
 **3.2.3 Taxpayer financial situation**
 

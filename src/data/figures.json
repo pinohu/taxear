@@ -1693,6 +1693,36 @@
       "taxYear": 2026,
       "source": "Circular 230 § 10.21, 31 CFR § 10.21 — https://www.law.cornell.edu/cfr/text/31/10.21",
       "verified": "2026-08-18"
+    },
+    "transcript.types": {
+      "value": "5 offered at no charge — tax return transcript (most line items from the original Form 1040-series return as filed, with forms and schedules, not showing later changes); tax account transcript (filing status, taxable income, payment types, and changes made after filing); record of account (the first two combined); wage and income transcript (data from Forms W-2, 1098, 1099 and 5498); and verification of non-filing letter",
+      "taxYear": 2026,
+      "source": "IRS, \"Transcript types and ways to order them,\" page last reviewed 10 March 2026 — https://www.irs.gov/individuals/transcript-types-and-ways-to-order-them",
+      "verified": "2026-08-18"
+    },
+    "transcript.availability": {
+      "value": "tax return transcript and record of account, the current and 3 prior tax years; tax account transcript, the current and 9 prior years through the Individual Online Account or the current and 3 prior by mail or phone; wage and income transcript, the current and 9 prior years; verification of non-filing, after 15 June for the current year or any time for the prior 3 — older years by Form 4506-T",
+      "taxYear": 2026,
+      "source": "IRS, \"Transcript types and ways to order them,\" page last reviewed 10 March 2026 — https://www.irs.gov/individuals/transcript-types-and-ways-to-order-them",
+      "verified": "2026-08-18"
+    },
+    "transcript.wage_limit": {
+      "value": "a wage and income transcript is limited to approximately 85 income documents; beyond that it will not generate through the Individual Online Account and Form 4506-T must be submitted — and current processing year information is generally available in the first week of February",
+      "taxYear": 2026,
+      "source": "IRS, \"Transcript types and ways to order them,\" page last reviewed 10 March 2026 — https://www.irs.gov/individuals/transcript-types-and-ways-to-order-them",
+      "verified": "2026-08-18"
+    },
+    "transcript.tds_access": {
+      "value": "EROs and Circular 230 practitioners may request account transcripts, wage and income documents, tax return transcripts, record of account and verification of non-filing letters through the Transcript Delivery System — a properly executed Form 2848 or Form 8821 must be on file",
+      "taxYear": 2026,
+      "source": "IRS, \"Transcript Delivery System (TDS),\" page last reviewed 10 June 2026 — https://www.irs.gov/tax-professionals/transcript-delivery-system-tds",
+      "verified": "2026-08-18"
+    },
+    "transcript.not_a_copy": {
+      "value": "a transcript is not a photocopy of the return; a copy of the original return is obtained on Form 4506, which carries a processing time and a fee",
+      "taxYear": 2026,
+      "source": "IRS, \"Transcript types and ways to order them,\" page last reviewed 10 March 2026 — https://www.irs.gov/individuals/transcript-types-and-ways-to-order-them",
+      "verified": "2026-08-18"
     }
   }
 }

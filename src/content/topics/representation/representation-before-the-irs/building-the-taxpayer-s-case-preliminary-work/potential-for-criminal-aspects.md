@@ -16,7 +16,7 @@ authorities:
   - { type: IRC, ref: "§ 7201", title: "Attempt to evade or defeat tax", url: "https://www.law.cornell.edu/uscode/text/26/7201" }
   - { type: IRC, ref: "§ 7206", title: "Fraud and false statements", url: "https://www.law.cornell.edu/uscode/text/26/7206" }
 forms: []
-related: ["3.2.6.f", "3.3.3.b", "3.2.2.c"]
+related: ["3.2.6.f", "3.3.3.b", "3.2.2.c", "3.2.2.e"]
 changelog:
   - { date: "2026-08-18", summary: "Initial publication from IRC §§ 7602(d)–(e), 7525, 7201 and 7206 and Circular 230 § 10.21, each opened at source." }
 ---
