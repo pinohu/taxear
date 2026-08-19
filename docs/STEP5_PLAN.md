@@ -7,12 +7,23 @@ and 2 begin. Read that first if you are starting a new phase rather than continu
 
 Regenerate the numbers with `npm run progress`.
 
-## Where the project stands (18 August 2026)
+## Where the project stands (19 August 2026)
 
-65 topic pages at `review`, 295 at `stub`, none at `published` — the owner publishes, no
-session does. 21 form entries and 7 notice entries at `review`. **All 156 keys in
+**131 topic pages at `published`**, 229 at `stub`, none at `review`. The owner approved the
+whole review queue on 19 August 2026, so everything written to date is live and in the
+sitemap; 21 form entries and 7 notice entries went with it. **All 415 keys in
 `figures.json` carry a `verified` date against a source opened that day**, so no page is
-blocked on a figure. `npm run verify` reports 0 errors.
+blocked on a figure. `npm run verify` reports 0 errors across all 131.
+
+Two things that publication settled, and that the next session should not relearn:
+
+- A published page renders only those `related[]` links whose counterpart is itself
+  published (`publishedCodes` in `src/lib.ts`). Keep the full graph in frontmatter — verify
+  still enforces it both ways — and the links surface as the counterparts go live.
+- `lastReviewed` is the day the page's authorities were opened. It is **not** touched by a
+  status change. Restamping it on approval would overstate the currency of the sources.
+
+New pages still land at `review` and wait for the owner. That rule did not change.
 
 | Section | Written |
 |---|---|
@@ -34,7 +45,7 @@ blocked on a figure. `npm run verify` reports 0 errors.
 | 3.4.2 Record maintenance | **2 / 2** |
 | 3.4.3 Electronic filing | **9 / 9** |
 
-# PART 3 IS COMPLETE — 121 / 121 topics at `review`.
+# PART 3 IS COMPLETE — 121 / 121 topics, all `published`.
 
 All four domains are finished: 3.1 (29), 3.2 (44), 3.3 (35), 3.4 (13). `verify` reports
 0 errors. Parts 1 and 2 are entirely unwritten — 120 and 119 topics respectively.

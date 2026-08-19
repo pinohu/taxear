@@ -93,10 +93,21 @@ committed.
 
 ## Where the project stands
 
-32 topic pages at `review`, 328 at `stub`, none at `published` — only the owner publishes.
-17 form entries and 7 notice entries at `review`. **Every key in `figures.json` carries a
-`verified` date against a source that was opened that day**, so no page is blocked on a
-figure. Sections 3.1.1, 3.1.3 and 3.1.4 are complete.
+131 topic pages at `published`, 229 at `stub`, none at `review` — the owner approved the
+whole review queue on 19 August 2026. 21 form entries and 7 notice entries are published
+too. **Part 3 is complete at 121 of 121 topics**; Part 1 has 10 of 120 written (section
+1.1.1, ten of seventeen); Part 2 is entirely unwritten at 0 of 119.
+
+**Every key in `figures.json` carries a `verified` date against a source that was opened
+that day** — 415 keys — so no page is blocked on a figure. The Phase 0 tagger now covers
+all three parts: bank coverage is 465 of 600 questions, and the 135 left untagged are
+deliberate, not missed.
+
+A published page does not render `related[]` links to pages that are still stubs, so the
+frontmatter can carry the full graph while the reader only ever sees live links. Publishing
+a counterpart makes its inbound links appear on their own. `lastReviewed` is the day the
+page's authorities were opened, never the day approval came in — do not restamp it on a
+status change.
 
 `docs/BUILD_PLAN.md` is the plan of record for all remaining work — phases, batching and
 the Phase 0 tagger and figure work that gates Parts 1 and 2. `docs/STEP5_PLAN.md` is the
