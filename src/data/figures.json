@@ -2851,6 +2851,30 @@
       "taxYear": 2026,
       "source": "IRC § 6677(a) — https://www.law.cornell.edu/uscode/text/26/6677",
       "verified": "2026-08-19"
+    },
+    "tips.deduction_cap": {
+      "value": "$25,000 of qualified tips, reduced by $100 for each $1,000 of modified adjusted gross income above $150,000, or $300,000 on a joint return",
+      "taxYear": 2026,
+      "source": "IRC § 224(b)(1), (b)(2)(A) as added by Pub. L. 119-21 § 70201(a) — https://www.law.cornell.edu/uscode/text/26/224",
+      "verified": "2026-08-19"
+    },
+    "overtime.deduction_cap": {
+      "value": "$12,500 of qualified overtime compensation, or $25,000 on a joint return, reduced by $100 for each $1,000 of modified adjusted gross income above $150,000, or $300,000 joint",
+      "taxYear": 2026,
+      "source": "IRC § 225(b)(1), (b)(2)(A) as added by Pub. L. 119-21 § 70202(a) — https://www.law.cornell.edu/uscode/text/26/225",
+      "verified": "2026-08-19"
+    },
+    "tips.overtime_sunset": {
+      "value": "neither deduction is allowed for any taxable year beginning after 31 December 2028",
+      "taxYear": 2026,
+      "source": "IRC § 224(h); IRC § 225(g) — https://www.law.cornell.edu/uscode/text/26/224",
+      "verified": "2026-08-19"
+    },
+    "tips.reporting_floor": {
+      "value": "cash tips of $20 or more in a calendar month must be reported to the employer in writing by the 10th day of the following month; below that they are not wages for social security and Medicare purposes",
+      "taxYear": 2026,
+      "source": "IRC § 6053(a); IRC § 3121(a)(12)(B) — https://www.law.cornell.edu/uscode/text/26/6053",
+      "verified": "2026-08-19"
     }
   }
 }

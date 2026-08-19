@@ -22,7 +22,7 @@ authorities:
   - { type: Reg, ref: "§ 1.1-1", title: "Income tax on individuals", url: "https://www.law.cornell.edu/cfr/text/26/1.1-1" }
   - { type: Statute, ref: "Pub. L. 119-21", title: "An Act to provide for reconciliation, title VII" }
 forms: []
-related: ["1.1.1.c", "1.1.1.g", "1.1.1.o", "1.1.1.a"]
+related: ["1.1.1.c", "1.1.1.g", "1.1.1.o", "1.1.1.a", "1.2.1.a"]
 changelog:
   - { date: "2026-08-19", summary: "Initial draft. Records the retroactive restoration of the IRC § 6050W(e) reporting threshold by Pub. L. 119-21 § 70432, the new IRC § 6051(a)(18) and (19) statement items, and the expiry of the IRC § 108(a)(1)(E) principal residence exclusion for discharges after 2025." }
 ---

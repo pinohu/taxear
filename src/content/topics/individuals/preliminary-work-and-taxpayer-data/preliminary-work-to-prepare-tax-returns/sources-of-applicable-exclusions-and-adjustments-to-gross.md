@@ -25,7 +25,7 @@ authorities:
   - { type: Notice, ref: "2025-67", title: "2026 amounts relating to retirement plans and IRAs", url: "https://www.irs.gov/pub/irs-drop/n-25-67.pdf" }
   - { type: Statute, ref: "Pub. L. 119-21", title: "An Act to provide for reconciliation, title VII" }
 forms: []
-related: ["1.1.1.f", "1.1.1.h", "1.1.1.c", "1.1.1.d"]
+related: ["1.1.1.f", "1.1.1.h", "1.1.1.c", "1.1.1.d", "1.2.1.a"]
 changelog:
   - { date: "2026-08-19", summary: "Initial draft. Records the IRC § 129(a)(2)(A) increase to the dependent care exclusion, the permanent IRC § 127(c)(1)(B) student loan payment exclusion with indexing from 2027, and the permanent IRC § 217(k) moving expense suspension with its new intelligence community exception." }
 ---

@@ -9,10 +9,10 @@ is indexed, and only the owner moves a page there (see `docs/VERIFICATION.md`).
 
 | Part | Topics | Stub | Draft | Review | Published | Words |
 |---|---:|---:|---:|---:|---:|---:|
-| 1. Individuals | 120 | 103 | 0 | 7 | 10 | 38,400 |
+| 1. Individuals | 120 | 102 | 0 | 8 | 10 | 40,724 |
 | 2. Businesses | 119 | 119 | 0 | 0 | 0 | 0 |
 | 3. Representation, Practices and Procedures | 121 | 0 | 0 | 0 | 121 | 257,674 |
-| **All parts** | **360** | **222** | **0** | **7** | **131** | **296,074** |
+| **All parts** | **360** | **221** | **0** | **8** | **131** | **298,398** |
 
 ## Part 1 — Individuals
 
@@ -46,7 +46,7 @@ is indexed, and only the owner moves a page there (see `docs/VERIFICATION.md`).
 
 | Code | Title | Status | Words | Last reviewed |
 |---|---|---|---:|---|
-| 1.2.1.a | [Taxability of wages, salaries and other earnings (e.g., earned income, statutory employee, tips)](/individuals/income-and-assets/income/taxability-of-wages-salaries-and-other-earnings/) | stub | — | — |
+| 1.2.1.a | [Taxability of wages, salaries and other earnings (e.g., earned income, statutory employee, tips)](/individuals/income-and-assets/income/taxability-of-wages-salaries-and-other-earnings/) | review | 2,324 | 2026-08-19 |
 | 1.2.1.b | [Interest Income (e.g., taxable and nontaxable)](/individuals/income-and-assets/income/interest-income/) | stub | — | — |
 | 1.2.1.c | [Dividends and other distributions from mutual funds, corporations, and other entities (e.g., qualified dividends)](/individuals/income-and-assets/income/dividends-and-other-distributions-from-mutual-funds/) | stub | — | — |
 | 1.2.1.d | [Personal property rental](/individuals/income-and-assets/income/personal-property-rental/) | stub | — | — |
