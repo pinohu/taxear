@@ -2035,6 +2035,66 @@
       "taxYear": 2026,
       "source": "Publication 3112, IRS e-file Application and Participation (Rev. 11-2025), Sanctioning, Levels of Infractions and Administrative Review Process",
       "verified": "2026-08-19"
+    },
+    "records.keep.default": {
+      "value": "3 years, where none of the longer periods applies",
+      "taxYear": 2026,
+      "source": "IRS, How long should I keep records? (irs.gov, Small Businesses and Self-Employed), read 19 August 2026 — https://www.irs.gov/businesses/small-businesses-self-employed/how-long-should-i-keep-records",
+      "verified": "2026-08-19"
+    },
+    "records.keep.claim": {
+      "value": "3 years from the date the original return was filed, or 2 years from the date the tax was paid, whichever is later, where a claim for credit or refund is filed after the return",
+      "taxYear": 2026,
+      "source": "IRS, How long should I keep records? (irs.gov, Small Businesses and Self-Employed), read 19 August 2026 — https://www.irs.gov/businesses/small-businesses-self-employed/how-long-should-i-keep-records",
+      "verified": "2026-08-19"
+    },
+    "records.keep.worthless": {
+      "value": "7 years, for a claim for a loss from worthless securities or a bad debt deduction",
+      "taxYear": 2026,
+      "source": "IRS, How long should I keep records? (irs.gov, Small Businesses and Self-Employed), read 19 August 2026 — https://www.irs.gov/businesses/small-businesses-self-employed/how-long-should-i-keep-records",
+      "verified": "2026-08-19"
+    },
+    "records.keep.omission": {
+      "value": "6 years, where unreported income exceeds 25% of the gross income shown on the return",
+      "taxYear": 2026,
+      "source": "IRS, How long should I keep records? (irs.gov, Small Businesses and Self-Employed), read 19 August 2026 — https://www.irs.gov/businesses/small-businesses-self-employed/how-long-should-i-keep-records",
+      "verified": "2026-08-19"
+    },
+    "records.keep.indefinite": {
+      "value": "indefinitely, where no return is filed or a fraudulent return is filed",
+      "taxYear": 2026,
+      "source": "IRS, How long should I keep records? (irs.gov, Small Businesses and Self-Employed), read 19 August 2026 — https://www.irs.gov/businesses/small-businesses-self-employed/how-long-should-i-keep-records",
+      "verified": "2026-08-19"
+    },
+    "records.keep.employment": {
+      "value": "at least 4 years after the date the tax becomes due or is paid, whichever is later",
+      "taxYear": 2026,
+      "source": "IRS, How long should I keep records? (irs.gov, Small Businesses and Self-Employed), read 19 August 2026 — https://www.irs.gov/businesses/small-businesses-self-employed/how-long-should-i-keep-records",
+      "verified": "2026-08-19"
+    },
+    "datasec.mfa_factors": {
+      "value": "at least two of three authentication factors — a knowledge factor such as a password, a possession factor such as a token, and an inherence factor such as biometric information — required of all companies regardless of size",
+      "taxYear": 2026,
+      "source": "Publication 4557, Safeguarding Taxpayer Data — A Guide for Your Business",
+      "verified": "2026-08-19"
+    },
+    "datasec.password_length": {
+      "value": "a minimum of 8 characters, the NIST standard, with a unique password per user and no sharing",
+      "taxYear": 2026,
+      "source": "Publication 4557, Safeguarding Taxpayer Data — A Guide for Your Business",
+      "verified": "2026-08-19"
+    },
+    "datasec.plan_areas": {
+      "value": "3 areas the Safeguards Rule identifies as particularly important — employee management and training, information systems, and detecting and managing system failures",
+      "taxYear": 2026,
+      "source": "Publication 4557, Safeguarding Taxpayer Data — A Guide for Your Business",
+      "verified": "2026-08-19"
+    },
+    "datasec.online_provider_standards": {
+      "value": "6 security and privacy standards that Online Providers must follow, set out in Publication 1345",
+      "taxYear": 2026,
+      "source": "Publication 4557, Safeguarding Taxpayer Data — A Guide for Your Business",
+      "verified": "2026-08-19"
     }
   }
 }

@@ -11,8 +11,8 @@ is indexed, and only the owner moves a page there (see `docs/VERIFICATION.md`).
 |---|---:|---:|---:|---:|---:|---:|
 | 1. Individuals | 120 | 120 | 0 | 0 | 0 | 0 |
 | 2. Businesses | 119 | 119 | 0 | 0 | 0 | 0 |
-| 3. Representation, Practices and Procedures | 121 | 9 | 0 | 112 | 0 | 238,835 |
-| **All parts** | **360** | **248** | **0** | **112** | **0** | **238,835** |
+| 3. Representation, Practices and Procedures | 121 | 7 | 0 | 114 | 0 | 242,885 |
+| **All parts** | **360** | **246** | **0** | **114** | **0** | **242,885** |
 
 ## Part 1 — Individuals
 
@@ -609,8 +609,8 @@ is indexed, and only the owner moves a page there (see `docs/VERIFICATION.md`).
 
 | Code | Title | Status | Words | Last reviewed |
 |---|---|---|---:|---|
-| 3.4.2.a | [Length of time to retain returns and records](/representation/completion-of-the-filing-process/record-maintenance/length-of-time-to-retain-returns-and-records/) | stub | — | — |
-| 3.4.2.b | [Data security (e.g., electronic, systems, paper)](/representation/completion-of-the-filing-process/record-maintenance/data-security/) | stub | — | — |
+| 3.4.2.a | [Length of time to retain returns and records](/representation/completion-of-the-filing-process/record-maintenance/length-of-time-to-retain-returns-and-records/) | review | 1,996 | 2026-08-19 |
+| 3.4.2.b | [Data security (e.g., electronic, systems, paper)](/representation/completion-of-the-filing-process/record-maintenance/data-security/) | review | 2,054 | 2026-08-19 |
 
 **3.4.3 Electronic filing**
 

@@ -16,7 +16,7 @@ authorities:
   - { type: IRC, ref: "§ 7216", title: "Disclosure or use of information by preparers of returns" }
   - { type: IRC, ref: "§ 6713", title: "Disclosure or use of information by preparers of returns — civil penalty" }
 forms: []
-related: ["3.4.3.e", "3.4.3.a", "3.4.3.d", "3.4.3.g"]
+related: ["3.4.3.e", "3.4.3.a", "3.4.3.d", "3.4.3.g", "3.4.2.b"]
 changelog:
   - { date: "2026-08-19", summary: "Initial draft against Publication 3112 (Rev. 11-2025)." }
 ---
