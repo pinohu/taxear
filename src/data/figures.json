@@ -2359,6 +2359,36 @@
       "taxYear": 2026,
       "source": "IRC § 151(e) — https://www.law.cornell.edu/uscode/text/26/151",
       "verified": "2026-08-19"
+    },
+    "kiddie.base_amount": {
+      "value": "$1,350 — the amount in IRC § 1(g)(4)(A)(ii)(I) for taxable years beginning in 2026, the same figure as the § 63(c)(5)(A) dependent standard deduction floor",
+      "taxYear": 2026,
+      "source": "Rev. Proc. 2025-32 § 3.02 — https://www.irs.gov/pub/irs-drop/rp-25-32.pdf",
+      "verified": "2026-08-19"
+    },
+    "kiddie.threshold": {
+      "value": "$2,700 of unearned income before any is taxed at the parent's rate — twice the § 1(g)(4)(A)(ii)(I) amount, being that amount plus the greater of it or directly connected itemized deductions",
+      "taxYear": 2026,
+      "source": "Rev. Proc. 2025-32 § 3.02 — https://www.irs.gov/pub/irs-drop/rp-25-32.pdf; IRC § 1(g)(4)(A)",
+      "verified": "2026-08-19"
+    },
+    "kiddie.parental_election_range": {
+      "value": "the child's gross income must be more than $1,350 and less than $13,500 — more than the § 1(g)(4)(A)(ii)(I) amount and less than ten times it",
+      "taxYear": 2026,
+      "source": "Rev. Proc. 2025-32 § 3.02 — https://www.irs.gov/pub/irs-drop/rp-25-32.pdf",
+      "verified": "2026-08-19"
+    },
+    "kiddie.age_test": {
+      "value": "a child who has not attained age 18 before the close of the year, or who has attained 18 and meets the § 152(c)(3) age requirement while having earned income not exceeding one-half of their own support",
+      "taxYear": 2026,
+      "source": "IRC § 1(g)(2)(A) — https://www.law.cornell.edu/uscode/text/26/1",
+      "verified": "2026-08-19"
+    },
+    "kiddie.election_conditions": {
+      "value": "4 — the child's gross income is only from interest and dividends, it falls within the stated range, no estimated tax payments or backup withholding stand in the child's name and TIN, and the parent elects",
+      "taxYear": 2026,
+      "source": "IRC § 1(g)(7)(A)",
+      "verified": "2026-08-19"
     }
   }
 }
