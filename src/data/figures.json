@@ -1411,6 +1411,42 @@
       "taxYear": 2026,
       "source": "IRC § 6110(b)(1)(A), (k)(3); Reg. § 1.6662-4(d)(3)(iv)(A) — https://www.law.cornell.edu/uscode/text/26/6110",
       "verified": "2026-08-18"
+    },
+    "guidance.revenue_ruling": {
+      "value": "an official interpretation by the Service published in the Internal Revenue Bulletin, issued only by the National Office, for the information and guidance of taxpayers, IRS officials and others concerned",
+      "taxYear": 2026,
+      "source": "Reg. § 601.601(d)(2)(i)(a) — https://www.law.cornell.edu/cfr/text/26/601.601",
+      "verified": "2026-08-18"
+    },
+    "guidance.revenue_procedure": {
+      "value": "a statement of procedure affecting the rights or duties of taxpayers or other members of the public under the Code and related statutes, or information that should be a matter of public knowledge although not necessarily affecting those rights and duties",
+      "taxYear": 2026,
+      "source": "Reg. § 601.601(d)(2)(i)(b) — https://www.law.cornell.edu/cfr/text/26/601.601",
+      "verified": "2026-08-18"
+    },
+    "guidance.ruling_weight": {
+      "value": "revenue rulings do not have the force and effect of Treasury regulations, but are published to provide precedents to be used in disposing of other cases and may be cited and relied on for that purpose — while no unpublished ruling or decision may be relied on, used or cited as a precedent by any IRS officer or employee",
+      "taxYear": 2026,
+      "source": "Reg. § 601.601(d)(2)(v)(d) — https://www.law.cornell.edu/cfr/text/26/601.601",
+      "verified": "2026-08-18"
+    },
+    "guidance.ruling_reliance": {
+      "value": "taxpayers generally may rely on published revenue rulings and need not request a specific ruling applying their principles — but each ruling states the Service's conclusion on the entire state of facts involved, so the same conclusion should not be reached in another case unless the facts and circumstances are substantially the same, and the effect of subsequent legislation, regulations, court decisions and revenue rulings must be considered",
+      "taxYear": 2026,
+      "source": "Reg. § 601.601(d)(2)(v)(e) — https://www.law.cornell.edu/cfr/text/26/601.601",
+      "verified": "2026-08-18"
+    },
+    "guidance.retroactivity": {
+      "value": "revenue rulings apply retroactively unless the ruling states, under IRC § 7805(b), the extent to which it is to apply without retroactive effect — an affirmative act; where a ruling revokes or modifies an earlier published one, § 7805(b) is ordinarily invoked so the new ruling is not applied retroactively to a taxpayer's detriment",
+      "taxYear": 2026,
+      "source": "Reg. § 601.601(d)(2)(v)(c); IRC § 7805(b)(8) — https://www.law.cornell.edu/cfr/text/26/601.601",
+      "verified": "2026-08-18"
+    },
+    "guidance.reg_retroactivity": {
+      "value": "no temporary, proposed or final regulation applies to a taxable period ending before the earliest of the date it is filed with the Federal Register, the date a related proposed or temporary regulation was so filed, or the date a notice substantially describing its expected contents was issued — with exceptions for regulations issued within 18 months of the statute, to prevent abuse, to correct a procedural defect, for internal Treasury policies, on congressional authorization, and by taxpayer election",
+      "taxYear": 2026,
+      "source": "IRC § 7805(b)(1)–(7) — https://www.law.cornell.edu/uscode/text/26/7805",
+      "verified": "2026-08-18"
     }
   }
 }

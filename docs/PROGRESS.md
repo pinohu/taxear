@@ -11,8 +11,8 @@ is indexed, and only the owner moves a page there (see `docs/VERIFICATION.md`).
 |---|---:|---:|---:|---:|---:|---:|
 | 1. Individuals | 120 | 120 | 0 | 0 | 0 | 0 |
 | 2. Businesses | 119 | 119 | 0 | 0 | 0 | 0 |
-| 3. Representation, Practices and Procedures | 121 | 39 | 0 | 82 | 0 | 169,638 |
-| **All parts** | **360** | **278** | **0** | **82** | **0** | **169,638** |
+| 3. Representation, Practices and Procedures | 121 | 38 | 0 | 83 | 0 | 172,129 |
+| **All parts** | **360** | **277** | **0** | **83** | **0** | **172,129** |
 
 ## Part 1 — Individuals
 
@@ -516,7 +516,7 @@ is indexed, and only the owner moves a page there (see `docs/VERIFICATION.md`).
 | Code | Title | Status | Words | Last reviewed |
 |---|---|---|---:|---|
 | 3.2.5.a | [Internal Revenue Code and income tax regulations](/representation/representation-before-the-irs/legal-authority-and-references/internal-revenue-code-and-income-tax-regulations/) | stub | — | — |
-| 3.2.5.b | [Revenue rulings and revenue procedures](/representation/representation-before-the-irs/legal-authority-and-references/revenue-rulings-and-revenue-procedures/) | stub | — | — |
+| 3.2.5.b | [Revenue rulings and revenue procedures](/representation/representation-before-the-irs/legal-authority-and-references/revenue-rulings-and-revenue-procedures/) | review | 2,491 | 2026-08-18 |
 | 3.2.5.c | [Case law](/representation/representation-before-the-irs/legal-authority-and-references/case-law/) | stub | — | — |
 | 3.2.5.d | [IRS forms, instructions and publications](/representation/representation-before-the-irs/legal-authority-and-references/irs-forms-instructions-and-publications/) | stub | — | — |
 | 3.2.5.e | [Private letter ruling](/representation/representation-before-the-irs/legal-authority-and-references/private-letter-ruling/) | stub | — | — |

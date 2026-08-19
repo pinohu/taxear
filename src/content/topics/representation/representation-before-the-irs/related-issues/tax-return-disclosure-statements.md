@@ -16,7 +16,7 @@ authorities:
   - { type: Reg, ref: "§ 1.6662-4", title: "Substantial understatement of income tax", url: "https://www.law.cornell.edu/cfr/text/26/1.6662-4" }
   - { type: IRC, ref: "§ 6694", title: "Understatement of taxpayer's liability by tax return preparer", url: "https://www.law.cornell.edu/uscode/text/26/6694" }
 forms: []
-related: ["3.2.6.f", "3.2.6.a", "3.1.4.a", "3.2.6.d", "3.2.5.g"]
+related: ["3.2.6.f", "3.2.6.a", "3.1.4.a", "3.2.6.d", "3.2.5.g", "3.2.5.b"]
 changelog:
   - { date: "2026-08-18", summary: "Initial publication from the Instructions for Form 8275 (Rev. 10/2024) and Form 8275-R (Rev. 11/2024), IRC §§ 6662 and 6694, and Reg. § 1.6662-4." }
 ---
