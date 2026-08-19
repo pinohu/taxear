@@ -15,7 +15,7 @@ authorities:
   - { type: IRC, ref: "§ 6159", title: "Agreements for payment of tax liability in installments" }
   - { type: Pub, ref: "1660", title: "Collection Appeal Rights", url: "https://www.irs.gov/pub/irs-pdf/p1660.pdf" }
 forms: ["9423"]
-related: ["3.3.1.e", "3.3.1.b", "3.3.1.c", "3.3.1.i", "3.3.1.n"]
+related: ["3.3.1.e", "3.3.1.b", "3.3.1.c", "3.3.1.i", "3.3.1.n", "3.3.4.a"]
 changelog:
   - { date: "2026-08-18", summary: "Initial publication from IRM 8.24.1 (revised 20 August 2024)." }
 ---

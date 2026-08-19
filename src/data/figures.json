@@ -1855,6 +1855,24 @@
       "taxYear": 2026,
       "source": "IRM 5.15.1.6, Internal Sources and Online Research (revised 29 June 2026), describing FinCEN Form 114",
       "verified": "2026-08-19"
+    },
+    "appeals.specified_taxpayer.individual": {
+      "value": "adjusted gross income not exceeding $400,000 for the taxable year to which the dispute relates",
+      "taxYear": 2026,
+      "source": "IRC § 7803(e)(7), added by the Taxpayer First Act of 2019, read at law.cornell.edu",
+      "verified": "2026-08-19"
+    },
+    "appeals.specified_taxpayer.entity": {
+      "value": "gross receipts not exceeding $5 million for the taxable year to which the dispute relates",
+      "taxYear": 2026,
+      "source": "IRC § 7803(e)(7), added by the Taxpayer First Act of 2019, read at law.cornell.edu",
+      "verified": "2026-08-19"
+    },
+    "appeals.case_file_access": {
+      "value": "not later than 10 days before the date of the conference",
+      "taxYear": 2026,
+      "source": "IRC § 7803(e)(7), added by the Taxpayer First Act of 2019, read at law.cornell.edu",
+      "verified": "2026-08-19"
     }
   }
 }

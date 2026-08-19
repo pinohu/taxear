@@ -11,8 +11,8 @@ is indexed, and only the owner moves a page there (see `docs/VERIFICATION.md`).
 |---|---:|---:|---:|---:|---:|---:|
 | 1. Individuals | 120 | 120 | 0 | 0 | 0 | 0 |
 | 2. Businesses | 119 | 119 | 0 | 0 | 0 | 0 |
-| 3. Representation, Practices and Procedures | 121 | 22 | 0 | 99 | 0 | 210,731 |
-| **All parts** | **360** | **261** | **0** | **99** | **0** | **210,731** |
+| 3. Representation, Practices and Procedures | 121 | 21 | 0 | 100 | 0 | 213,147 |
+| **All parts** | **360** | **260** | **0** | **100** | **0** | **213,147** |
 
 ## Part 1 — Individuals
 
@@ -590,7 +590,7 @@ is indexed, and only the owner moves a page there (see `docs/VERIFICATION.md`).
 
 | Code | Title | Status | Words | Last reviewed |
 |---|---|---|---:|---|
-| 3.3.4.a | [Right to appeal](/representation/specific-types-of-representation/representing-a-taxpayer-before-appeals/right-to-appeal/) | stub | — | — |
+| 3.3.4.a | [Right to appeal](/representation/specific-types-of-representation/representing-a-taxpayer-before-appeals/right-to-appeal/) | review | 2,416 | 2026-08-19 |
 | 3.3.4.b | [Request for appeals consideration (e.g., preparation, elements contained)](/representation/specific-types-of-representation/representing-a-taxpayer-before-appeals/request-for-appeals-consideration/) | stub | — | — |
 | 3.3.4.c | [Enrolled Agent appearance at appeals conference](/representation/specific-types-of-representation/representing-a-taxpayer-before-appeals/enrolled-agent-appearance-at-appeals-conference/) | stub | — | — |
 | 3.3.4.d | [Settlement function of the appeals process](/representation/specific-types-of-representation/representing-a-taxpayer-before-appeals/settlement-function-of-the-appeals-process/) | stub | — | — |
