@@ -1927,6 +1927,42 @@
       "taxYear": 2026,
       "source": "Publication 3112, IRS e-file Application and Participation (Rev. 11-2025)",
       "verified": "2026-08-19"
+    },
+    "efile.reject_notify": {
+      "value": "within 24 hours of the rejection",
+      "taxYear": 2026,
+      "source": "Publication 1345, Handbook for Authorized IRS e-file Providers of Individual Income Tax Returns (Rev. 12-2025)",
+      "verified": "2026-08-19"
+    },
+    "efile.perfection.individual": {
+      "value": "the fifth calendar day after the due date of the return",
+      "taxYear": 2026,
+      "source": "Publication 1345, Handbook for Authorized IRS e-file Providers of Individual Income Tax Returns (Rev. 12-2025)",
+      "verified": "2026-08-19"
+    },
+    "efile.perfection.individual_paper": {
+      "value": "the later of the due date or 10 calendar days after the IRS notification of rejection",
+      "taxYear": 2026,
+      "source": "Publication 1345, Handbook for Authorized IRS e-file Providers of Individual Income Tax Returns (Rev. 12-2025)",
+      "verified": "2026-08-19"
+    },
+    "efile.perfection.business": {
+      "value": "postmarked by the due date including extensions, or 10 calendar days after the IRS last gives notification the return was rejected",
+      "taxYear": 2026,
+      "source": "Publication 4163, Modernized e-File (MeF) Information for Authorized IRS e-file Providers for Business Returns",
+      "verified": "2026-08-19"
+    },
+    "efile.new_declaration.income": {
+      "value": "$50 to “Total income” or “AGI”",
+      "taxYear": 2026,
+      "source": "Publication 1345, Handbook for Authorized IRS e-file Providers of Individual Income Tax Returns (Rev. 12-2025)",
+      "verified": "2026-08-19"
+    },
+    "efile.new_declaration.tax": {
+      "value": "$14 to “Total tax,” “Federal income tax withheld,” “Refund” or “Amount you owe”",
+      "taxYear": 2026,
+      "source": "Publication 1345, Handbook for Authorized IRS e-file Providers of Individual Income Tax Returns (Rev. 12-2025)",
+      "verified": "2026-08-19"
     }
   }
 }

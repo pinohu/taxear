@@ -15,7 +15,7 @@ authorities:
   - { type: Notice, ref: "2011-26", title: "Administrative Exemptions to the Specified Tax Return Preparer Electronic Filing Requirement", url: "https://www.irs.gov/pub/irs-drop/n-11-26.pdf" }
   - { type: RevProc, ref: "2011-25", title: "Undue hardship waivers of the section 6011(e)(3) electronic filing requirement", url: "https://www.irs.gov/pub/irs-drop/rp-11-25.pdf" }
 forms: ["8948", "8944", "8453"]
-related: ["3.4.3.a", "3.1.4.b", "3.1.3.a"]
+related: ["3.4.3.a", "3.1.4.b", "3.1.3.a", "3.4.3.d"]
 changelog:
   - { date: "2026-08-18", summary: "Initial publication from IRC § 6011(e)(3), Reg. § 301.6011-7, Notice 2011-26 and Rev. Proc. 2011-25, each opened at source." }
 ---

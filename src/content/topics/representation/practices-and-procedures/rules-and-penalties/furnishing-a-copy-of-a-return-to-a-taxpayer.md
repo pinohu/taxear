@@ -15,7 +15,7 @@ authorities:
   - { type: Reg, ref: "§ 1.6107-1(a)", title: "Furnishing copy of return or claim for refund to taxpayer", url: "https://www.law.cornell.edu/cfr/text/26/1.6107-1" }
   - { type: RevProc, ref: "2025-32", title: "Inflation-adjusted items for 2026", url: "https://www.irs.gov/pub/irs-drop/rp-25-32.pdf" }
 forms: []
-related: ["3.1.4.d", "3.1.4.e", "3.1.4.b", "3.1.4.g"]
+related: ["3.1.4.d", "3.1.4.e", "3.1.4.b", "3.1.4.g", "3.4.3.d"]
 changelog:
   - { date: "2026-08-18", summary: "Initial publication from IRC §§ 6107(a), 6695(a) and Reg. § 1.6107-1(a)." }
 ---
