@@ -9,10 +9,10 @@ is indexed, and only the owner moves a page there (see `docs/VERIFICATION.md`).
 
 | Part | Topics | Stub | Draft | Review | Published | Words |
 |---|---:|---:|---:|---:|---:|---:|
-| 1. Individuals | 120 | 116 | 0 | 4 | 0 | 8,790 |
+| 1. Individuals | 120 | 115 | 0 | 5 | 0 | 10,892 |
 | 2. Businesses | 119 | 119 | 0 | 0 | 0 | 0 |
 | 3. Representation, Practices and Procedures | 121 | 0 | 0 | 121 | 0 | 257,680 |
-| **All parts** | **360** | **235** | **0** | **125** | **0** | **266,470** |
+| **All parts** | **360** | **234** | **0** | **126** | **0** | **268,572** |
 
 ## Part 1 — Individuals
 
@@ -30,7 +30,7 @@ is indexed, and only the owner moves a page there (see `docs/VERIFICATION.md`).
 | 1.1.1.f | [Sources of all worldwide taxable and nontaxable income (e.g., interest, wages, business, sales of property, dividends, rental income, flow- through entities, alimony received)](/individuals/preliminary-work-and-taxpayer-data/preliminary-work-to-prepare-tax-returns/sources-of-all-worldwide-taxable-and-nontaxable-income/) | stub | — | — |
 | 1.1.1.g | [Sources of applicable exclusions and adjustments to gross income (e.g., foreign earned income exclusion, retirement plans, HSAs, alimony paid, health insurance, self-employment tax)](/individuals/preliminary-work-and-taxpayer-data/preliminary-work-to-prepare-tax-returns/sources-of-applicable-exclusions-and-adjustments-to-gross/) | stub | — | — |
 | 1.1.1.h | [Sources of applicable deductions (e.g., itemized, standard)](/individuals/preliminary-work-and-taxpayer-data/preliminary-work-to-prepare-tax-returns/sources-of-applicable-deductions/) | stub | — | — |
-| 1.1.1.i | [Qualifications for dependency](/individuals/preliminary-work-and-taxpayer-data/preliminary-work-to-prepare-tax-returns/qualifications-for-dependency/) | stub | — | — |
+| 1.1.1.i | [Qualifications for dependency](/individuals/preliminary-work-and-taxpayer-data/preliminary-work-to-prepare-tax-returns/qualifications-for-dependency/) | review | 2,102 | 2026-08-19 |
 | 1.1.1.j | [Sources of applicable credits (e.g., education, foreign tax, retirement, child and dependent care, credit for other dependents, child tax credit)](/individuals/preliminary-work-and-taxpayer-data/preliminary-work-to-prepare-tax-returns/sources-of-applicable-credits/) | stub | — | — |
 | 1.1.1.k | [Sources of tax payments and refundable credits (e.g., withholding, estimated payments, earned income tax credit)](/individuals/preliminary-work-and-taxpayer-data/preliminary-work-to-prepare-tax-returns/sources-of-tax-payments-and-refundable-credits/) | stub | — | — |
 | 1.1.1.l | [Previous IRS correspondence with taxpayer](/individuals/preliminary-work-and-taxpayer-data/preliminary-work-to-prepare-tax-returns/previous-irs-correspondence-with-taxpayer/) | stub | — | — |

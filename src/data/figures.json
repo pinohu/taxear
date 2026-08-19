@@ -2305,6 +2305,42 @@
       "taxYear": 2026,
       "source": "IRC § 53(a)-(b) — https://www.law.cornell.edu/uscode/text/26/53",
       "verified": "2026-08-19"
+    },
+    "dependency.qr_gross_income": {
+      "value": "$5,300 — the exemption amount referred to in IRC § 152(d)(1)(B) for taxable years beginning in 2026",
+      "taxYear": 2026,
+      "source": "Rev. Proc. 2025-32 § 3.23 — https://www.irs.gov/pub/irs-drop/rp-25-32.pdf",
+      "verified": "2026-08-19"
+    },
+    "dependency.qc_tests": {
+      "value": "5 — relationship, the same principal place of abode as the taxpayer for more than half the year, the age requirement, that the individual has not provided over half of their own support, and that the individual has not filed a joint return other than to claim a refund",
+      "taxYear": 2026,
+      "source": "IRC § 152(c)(1) — https://www.law.cornell.edu/uscode/text/26/152",
+      "verified": "2026-08-19"
+    },
+    "dependency.qc_age": {
+      "value": "under 19 at the close of the calendar year, or under 24 if a student, and in either case younger than the taxpayer; any age if permanently and totally disabled at any time during the year",
+      "taxYear": 2026,
+      "source": "IRC § 152(c)(3)",
+      "verified": "2026-08-19"
+    },
+    "dependency.qr_tests": {
+      "value": "4 — the relationship or member-of-household test, gross income below the exemption amount, support of over one-half provided by the taxpayer, and that the individual is not a qualifying child of the taxpayer or of any other taxpayer",
+      "taxYear": 2026,
+      "source": "IRC § 152(d)(1)",
+      "verified": "2026-08-19"
+    },
+    "dependency.tiebreak": {
+      "value": "a parent over a non-parent; between parents not filing jointly, the one with whom the child resided longest, then the higher adjusted gross income; where no parent claims, another taxpayer only if their adjusted gross income exceeds the highest of any parent's",
+      "taxYear": 2026,
+      "source": "IRC § 152(c)(4)",
+      "verified": "2026-08-19"
+    },
+    "dependency.multiple_support": {
+      "value": "the taxpayer must contribute over 10 percent of support, no one person may contribute over half, over half must come from persons who would each otherwise qualify, and every other such person contributing over 10 percent must file a written declaration",
+      "taxYear": 2026,
+      "source": "IRC § 152(d)(3)",
+      "verified": "2026-08-19"
     }
   }
 }
