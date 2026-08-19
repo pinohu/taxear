@@ -2743,6 +2743,66 @@
       "taxYear": 2026,
       "source": "IRC § 25D(h), § 25C(i), § 30D(h) — https://www.law.cornell.edu/uscode/text/26/25D",
       "verified": "2026-08-19"
+    },
+    "eitc.max_credit": {
+      "value": "$664 with no qualifying child, $4,427 with one, $7,316 with two, and $8,231 with three or more",
+      "taxYear": 2026,
+      "source": "Rev. Proc. 2025-32 § 3.06(1), adjusting IRC § 32(b) — https://www.irs.gov/pub/irs-drop/rp-25-32.pdf",
+      "verified": "2026-08-19"
+    },
+    "eitc.earned_income_amount": {
+      "value": "$8,680 with no qualifying child, $13,020 with one, and $18,290 with two or with three or more — the earned income at which the maximum credit is reached",
+      "taxYear": 2026,
+      "source": "Rev. Proc. 2025-32 § 3.06(1), adjusting IRC § 32(b) — https://www.irs.gov/pub/irs-drop/rp-25-32.pdf",
+      "verified": "2026-08-19"
+    },
+    "eitc.phaseout": {
+      "value": "on a joint return the credit begins to phase out at $18,140 with no child or $31,160 with any, ending at $19,540 / $58,863 / $65,899 / $70,244 by number of children; for every other filing status the thresholds are $10,860 and $23,890, ending at $19,540 / $51,593 / $58,629 / $62,974",
+      "taxYear": 2026,
+      "source": "Rev. Proc. 2025-32 § 3.06(1), adjusting IRC § 32(b), including the § 32(b)(2)(B) joint-return increase — https://www.irs.gov/pub/irs-drop/rp-25-32.pdf",
+      "verified": "2026-08-19"
+    },
+    "eitc.investment_income_limit": {
+      "value": "$12,200 — above this aggregate of disqualified investment income no credit is allowed at all",
+      "taxYear": 2026,
+      "source": "Rev. Proc. 2025-32 § 3.06(2), adjusting IRC § 32(i) — https://www.irs.gov/pub/irs-drop/rp-25-32.pdf",
+      "verified": "2026-08-19"
+    },
+    "eitc.childless_age_range": {
+      "value": "at least 25 and under 65 at the close of the taxable year, tested against either spouse on a joint return, with a principal place of abode in the United States for more than half the year",
+      "taxYear": 2026,
+      "source": "IRC § 32(c)(1)(A)(ii)(I), (II) — https://www.law.cornell.edu/uscode/text/26/32",
+      "verified": "2026-08-19"
+    },
+    "estimated.required_annual_payment": {
+      "value": "the lesser of 90 percent of the tax shown on this year's return or 100 percent of the tax shown on last year's, rising to 110 percent where last year's adjusted gross income exceeded $150,000, or $75,000 for a married individual filing separately",
+      "taxYear": 2026,
+      "source": "IRC § 6654(d)(1)(B), (d)(1)(C)(i), (ii) — https://www.law.cornell.edu/uscode/text/26/6654",
+      "verified": "2026-08-19"
+    },
+    "estimated.installment_share": {
+      "value": "25 percent of the required annual payment per installment, unless the annualized income installment is lower, in which case the reduction is recaptured in the next installment",
+      "taxYear": 2026,
+      "source": "IRC § 6654(d)(1)(A), (d)(2)(A) — https://www.law.cornell.edu/uscode/text/26/6654",
+      "verified": "2026-08-19"
+    },
+    "estimated.de_minimis": {
+      "value": "no addition to tax where the tax shown on the return, reduced by the IRC § 31 withholding credit, is less than $1,000",
+      "taxYear": 2026,
+      "source": "IRC § 6654(e)(1) — https://www.law.cornell.edu/uscode/text/26/6654",
+      "verified": "2026-08-19"
+    },
+    "refund.eitc_actc_hold": {
+      "value": "no credit or refund may be made before the 15th day of the second month following the close of the taxable year where the earned income credit or the refundable child tax credit is claimed",
+      "taxYear": 2026,
+      "source": "IRC § 6402(m) — https://www.law.cornell.edu/uscode/text/26/6402",
+      "verified": "2026-08-19"
+    },
+    "backup.withholding_rate": {
+      "value": "the fourth lowest rate applicable under IRC § 1(c), which is 24 percent for 2026",
+      "taxYear": 2026,
+      "source": "IRC § 3406(a)(1); IRC § 1(c) as adjusted by Rev. Proc. 2025-32 § 3.01 — https://www.law.cornell.edu/uscode/text/26/3406",
+      "verified": "2026-08-19"
     }
   }
 }
