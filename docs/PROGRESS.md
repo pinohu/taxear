@@ -11,8 +11,8 @@ is indexed, and only the owner moves a page there (see `docs/VERIFICATION.md`).
 |---|---:|---:|---:|---:|---:|---:|
 | 1. Individuals | 120 | 120 | 0 | 0 | 0 | 0 |
 | 2. Businesses | 119 | 119 | 0 | 0 | 0 | 0 |
-| 3. Representation, Practices and Procedures | 121 | 36 | 0 | 85 | 0 | 176,803 |
-| **All parts** | **360** | **275** | **0** | **85** | **0** | **176,803** |
+| 3. Representation, Practices and Procedures | 121 | 35 | 0 | 86 | 0 | 179,232 |
+| **All parts** | **360** | **274** | **0** | **86** | **0** | **179,232** |
 
 ## Part 1 — Individuals
 
@@ -520,7 +520,7 @@ is indexed, and only the owner moves a page there (see `docs/VERIFICATION.md`).
 | 3.2.5.c | [Case law](/representation/representation-before-the-irs/legal-authority-and-references/case-law/) | stub | — | — |
 | 3.2.5.d | [IRS forms, instructions and publications](/representation/representation-before-the-irs/legal-authority-and-references/irs-forms-instructions-and-publications/) | stub | — | — |
 | 3.2.5.e | [Private letter ruling](/representation/representation-before-the-irs/legal-authority-and-references/private-letter-ruling/) | review | 2,313 | 2026-08-18 |
-| 3.2.5.f | [Internal Revenue Manual](/representation/representation-before-the-irs/legal-authority-and-references/internal-revenue-manual/) | stub | — | — |
+| 3.2.5.f | [Internal Revenue Manual](/representation/representation-before-the-irs/legal-authority-and-references/internal-revenue-manual/) | review | 2,429 | 2026-08-18 |
 | 3.2.5.g | [Authoritative versus non-authoritative source material](/representation/representation-before-the-irs/legal-authority-and-references/authoritative-versus-non-authoritative-source-material/) | review | 2,364 | 2026-08-18 |
 | 3.2.5.h | [Tax treaties](/representation/representation-before-the-irs/legal-authority-and-references/tax-treaties/) | stub | — | — |
 

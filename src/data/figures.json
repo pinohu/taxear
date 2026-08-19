@@ -1501,6 +1501,36 @@
       "taxYear": 2026,
       "source": "IRC § 7805(f) — https://www.law.cornell.edu/uscode/text/26/7805",
       "verified": "2026-08-18"
+    },
+    "irm.definition": {
+      "value": "the single official source of instructions to staff — based on and including the policies, delegated authorities, procedures, instructions and guidelines relating to the organization, functions, administration and operations of the IRS",
+      "taxYear": 2026,
+      "source": "IRM 1.11.1.2.1 (29 August 2025), \"Types of IMDs\" — https://www.irs.gov/irm/part1/irm_01-011-001",
+      "verified": "2026-08-18"
+    },
+    "irm.parts": {
+      "value": "the parts most used in representation are 4 Examining Process, 5 Collecting Process, 8 Appeals, 13 Taxpayer Advocate Service, 20 Penalty and Interest, 21 Customer Account Services and 25 Special Topics; parts 30 to 39 are the Chief Counsel Directives Manual",
+      "taxYear": 2026,
+      "source": "IRS, \"Internal Revenue Manual\" table of contents — https://www.irs.gov/irm",
+      "verified": "2026-08-18"
+    },
+    "irm.efoia": {
+      "value": "3 conditions — the guidance must be procedural and communicate directions, guidelines or standards to employees in performing their duties; affect how a member of the public files, pays, complies or interacts with the IRS; and not be exempt under 5 U.S.C. § 552(b)",
+      "taxYear": 2026,
+      "source": "IRM 1.11.1.3.1.2 (24 April 2014), \"E-FOIA Criteria for Instructions to Staff\" — https://www.irs.gov/irm/part1/irm_01-011-001",
+      "verified": "2026-08-18"
+    },
+    "irm.ouo": {
+      "value": "instructions to staff affecting the public must be made public unless exempt under 5 U.S.C. § 552(b); generally only § 552(b)(7)(E) applies — content whose disclosure could reasonably be expected to risk circumvention of the law, designated official use only and redacted before posting, with the remaining content accessible",
+      "taxYear": 2026,
+      "source": "IRM 1.11.1.3.1.3 (7 October 2022), \"Disclosure Exemptions for Instructions to Staff\" — https://www.irs.gov/irm/part1/irm_01-011-001",
+      "verified": "2026-08-18"
+    },
+    "irm.interim_guidance": {
+      "value": "used to convey new, changed, pilot or temporary procedure, or a deviation from procedure, where there is insufficient time to update and publish the IRM — so an IRM section can be current on its face and superseded by an interim guidance memorandum",
+      "taxYear": 2026,
+      "source": "IRM 1.11.1.3 (29 August 2025), \"Instructions to Staff\"; IRM 1.11.10 — https://www.irs.gov/irm/part1/irm_01-011-001",
+      "verified": "2026-08-18"
     }
   }
 }

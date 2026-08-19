@@ -22,7 +22,7 @@ blocked on a figure. `npm run verify` reports 0 errors.
 | 3.1.3 Sanctionable acts | **4 / 4** |
 | 3.1.4 Rules and penalties | **7 / 7** |
 | 3.2.6 Related issues | **10 / 10** |
-| 3.2.5 Legal authority and references | 4 / 8 |
+| 3.2.5 Legal authority and references | 5 / 8 |
 | 3.3.1 Collection process | 9 / 16 |
 | 3.3.2 Penalties and interest abatement | **5 / 5** |
 | 3.3.3 Audits and examinations | **9 / 9** |
@@ -70,6 +70,7 @@ deposit pages.
 | 3.2.5.b | revenue rulings and revenue procedures — Reg. § 601.601, IRC § 7805 |
 | 3.2.5.e | private letter ruling — Reg. § 601.201, IRC §§ 6110, 7528 |
 | 3.2.5.a | Code and income tax regulations — IRC § 7805, Reg. § 601.601 |
+| 3.2.5.f | Internal Revenue Manual — IRM 1.11.1, IRC § 7811(a)(3) |
 | 3.4.3.b | e-file mandate and exceptions |
 
 Forms: 2848, 8821, 1040-X, 843, 656, 9465, 12153, 9423, 6118, 8867, 8948, 8944, 8453,
@@ -91,8 +92,18 @@ Prefer depth over breadth. Each of these sits beside a page that already exists,
 
 | Codes | Why next |
 |---|---|
-| 3.2.5.c, d, f, h | Legal authority and references. Four left — case law, forms and publications, the IRM, tax treaties |
+| 3.2.5.c, d, h | Legal authority and references. Three left — case law, forms and publications, tax treaties |
 | 3.4.3.a, c–i | Completes electronic filing, mostly from Pub. 3112 and Pub. 1345 |
+
+### Annual refresh — the IRM is under revision and posted content may lag
+
+The irs.gov IRM index carries a standing notice that the Manual "is continually being updated
+to comply with **Executive Orders 14151 and 14168**," and that current versions "are provided
+to meet Electronic Freedom of Information Act requirements and **may not yet reflect these
+updates**." Separately, **interim guidance** (IRM 1.11.10) carries changes made faster than
+the Manual can be republished, so a posted section can be current on its face and superseded
+in fact — check the transmittal for incorporated IPUs. Re-verify `irm.parts` and any page
+citing an IRM section each year.
 
 ### Open item — the legislative / interpretive / procedural regulation taxonomy
 
