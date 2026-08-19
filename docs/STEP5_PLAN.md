@@ -23,7 +23,7 @@ blocked on a figure. `npm run verify` reports 0 errors.
 | 3.1.4 Rules and penalties | **7 / 7** |
 | 3.2.6 Related issues | **10 / 10** |
 | 3.2.5 Legal authority and references | **8 / 8** |
-| 3.2.2 Building the taxpayer's case | 2 / 5 |
+| 3.2.2 Building the taxpayer's case | 3 / 5 |
 | 3.3.1 Collection process | 9 / 16 |
 | 3.3.2 Penalties and interest abatement | **5 / 5** |
 | 3.3.3 Audits and examinations | **9 / 9** |
@@ -77,6 +77,7 @@ deposit pages.
 | 3.2.5.h | tax treaties — IRC §§ 894, 7852(d), 6114, 6712 |
 | 3.2.2.d | conflict of interest — Circular 230 §§ 10.29, 10.35, 10.22 |
 | 3.2.2.c | competence, expertise and time — Circular 230 §§ 10.35, 10.22, 10.23, 10.36 |
+| 3.2.2.b | potential for criminal aspects — IRC §§ 7602(d)–(e), 7525, Circular 230 § 10.21 |
 | 3.4.3.b | e-file mandate and exceptions |
 
 Forms: 2848, 8821, 1040-X, 843, 656, 9465, 12153, 9423, 6118, 8867, 8948, 8944, 8453,
@@ -98,8 +99,16 @@ Prefer depth over breadth. Each of these sits beside a page that already exists,
 
 | Codes | Why next |
 |---|---|
-| 3.2.2.a, b, e | Building the taxpayer's case. Three left — issue identification, criminal aspects, IRS transcripts |
+| 3.2.2.a, e | Building the taxpayer's case. Two left — issue identification, IRS transcripts |
 | 3.4.3.a, c–i | Completes electronic filing, mostly from Pub. 3112 and Pub. 1345 |
+
+### Numbering trap — the § 7602 referral bar moved in 2019
+
+The Justice Department referral bar is now **IRC § 7602(d)**. It was **§ 7602(c)** until the
+Taxpayer First Act of 2019 inserted the rewritten third-party contact notice at § 7602(c).
+Material citing § 7602(c) for the referral bar is pre-2019; § 7602(c) today is the 45-day
+contact notice. 3.3.3.a and 3.2.2.b each state their own subsection correctly, but a reader
+moving between older study material and the current Code will hit this.
 
 ### Sourcing note — the IRS "Reliance on Guidance" page is hard to find
 

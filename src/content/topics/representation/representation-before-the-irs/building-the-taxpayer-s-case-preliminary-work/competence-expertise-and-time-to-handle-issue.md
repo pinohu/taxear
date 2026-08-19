@@ -15,7 +15,7 @@ authorities:
   - { type: Circ230, ref: "§ 10.23", title: "Prompt disposition of pending matters", url: "https://www.law.cornell.edu/cfr/text/31/10.23" }
   - { type: Circ230, ref: "§ 10.36", title: "Procedures to ensure compliance", url: "https://www.law.cornell.edu/cfr/text/31/10.36" }
 forms: []
-related: ["3.2.2.d", "3.1.2.a", "3.2.6.a"]
+related: ["3.2.2.d", "3.1.2.a", "3.2.6.a", "3.2.2.b"]
 changelog:
   - { date: "2026-08-18", summary: "Initial publication from Circular 230 §§ 10.35, 10.22, 10.23 and 10.36, each opened at source." }
 ---

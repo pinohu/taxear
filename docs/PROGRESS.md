@@ -11,8 +11,8 @@ is indexed, and only the owner moves a page there (see `docs/VERIFICATION.md`).
 |---|---:|---:|---:|---:|---:|---:|
 | 1. Individuals | 120 | 120 | 0 | 0 | 0 | 0 |
 | 2. Businesses | 119 | 119 | 0 | 0 | 0 | 0 |
-| 3. Representation, Practices and Procedures | 121 | 30 | 0 | 91 | 0 | 191,256 |
-| **All parts** | **360** | **269** | **0** | **91** | **0** | **191,256** |
+| 3. Representation, Practices and Procedures | 121 | 29 | 0 | 92 | 0 | 193,723 |
+| **All parts** | **360** | **268** | **0** | **92** | **0** | **193,723** |
 
 ## Part 1 — Individuals
 
@@ -486,7 +486,7 @@ is indexed, and only the owner moves a page there (see `docs/VERIFICATION.md`).
 | Code | Title | Status | Words | Last reviewed |
 |---|---|---|---:|---|
 | 3.2.2.a | [Identification of tax issue(s) with supporting details](/representation/representation-before-the-irs/building-the-taxpayer-s-case-preliminary-work/identification-of-tax-issue-s-with-supporting-details/) | stub | — | — |
-| 3.2.2.b | [Potential for criminal aspects](/representation/representation-before-the-irs/building-the-taxpayer-s-case-preliminary-work/potential-for-criminal-aspects/) | stub | — | — |
+| 3.2.2.b | [Potential for criminal aspects](/representation/representation-before-the-irs/building-the-taxpayer-s-case-preliminary-work/potential-for-criminal-aspects/) | review | 2,467 | 2026-08-18 |
 | 3.2.2.c | [Competence, expertise and time to handle issue](/representation/representation-before-the-irs/building-the-taxpayer-s-case-preliminary-work/competence-expertise-and-time-to-handle-issue/) | review | 2,331 | 2026-08-18 |
 | 3.2.2.d | [Conflict of interest in regards to representation](/representation/representation-before-the-irs/building-the-taxpayer-s-case-preliminary-work/conflict-of-interest-in-regards-to-representation/) | review | 2,370 | 2026-08-18 |
 | 3.2.2.e | [Transcripts from IRS (e.g., access to and use of e-services)](/representation/representation-before-the-irs/building-the-taxpayer-s-case-preliminary-work/transcripts-from-irs/) | stub | — | — |
