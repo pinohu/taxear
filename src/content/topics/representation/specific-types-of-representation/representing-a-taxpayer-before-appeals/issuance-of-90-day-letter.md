@@ -18,7 +18,7 @@ authorities:
   - { type: IRC, ref: "§ 7803(e)", title: "Independent Office of Appeals" }
   - { type: Pub, ref: "5", title: "Your Appeal Rights and How to Prepare a Protest if You Disagree (Rev. 4-2021)", url: "https://www.irs.gov/pub/irs-pdf/p5.pdf" }
 forms: []
-related: ["3.3.4.a", "3.3.4.b", "3.3.3.f"]
+related: ["3.3.4.a", "3.3.4.b", "3.3.3.f", "3.3.4.d"]
 changelog:
   - { date: "2026-08-19", summary: "Initial draft." }
 ---
