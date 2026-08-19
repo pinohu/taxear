@@ -45,6 +45,14 @@ test('a treaty reference inside a dividend question stays on the dividend topic'
   assert.equal(classify(q(1, 'Which tax treaty provision exempts a teacher from host country tax?')), '1.2.1.g');
 });
 
+test('a dollar amount is not a code section', () => {
+  // "$1250" in an answer choice was pulling elective-deferral questions onto depreciation recapture.
+  // The recapture sections only count when carried by a section marker or by "property"/"recapture".
+  assert.equal(classify(q(1, 'What is the maximum per paycheck if the limit is $19,500 over 26 checks? $1250')), null);
+  assert.equal(classify(q(1, 'How much of the gain on section 1245 property is ordinary income?')), '1.2.3.a');
+  assert.equal(classify(q(1, 'What is unrecaptured 1250 gain on the sale of a rental?')), '1.2.3.a');
+});
+
 test('rules never tag across exam parts', () => {
   // The same subject asked in different parts must land in that part's own outline.
   // Part 1 has its own claim-for-refund topic, so the Part 1 question is placed there —
