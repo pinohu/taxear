@@ -3055,6 +3055,24 @@
       "taxYear": 2026,
       "source": "IRC § 104(a)(2) and the flush language of § 104(a) — https://www.law.cornell.edu/uscode/text/26/104",
       "verified": "2026-08-19"
+    },
+    "constructive.test": {
+      "value": "credited to the taxpayer's account, set apart for them, or otherwise made available so they may draw on it at any time — or could have during the year had notice of intention to withdraw been given",
+      "taxYear": 2026,
+      "source": "Reg. § 1.451-2(a) — https://www.law.cornell.edu/cfr/text/26/1.451-2",
+      "verified": "2026-08-19"
+    },
+    "constructive.bank_nonlimitations": {
+      "value": "four things the regulation says are NOT substantial limitations for a bank deposit — withdrawal in even multiples, a comparatively small loss of earnings on early withdrawal, a requirement to withdraw part of the deposit itself, and a requirement to give advance notice",
+      "taxYear": 2026,
+      "source": "Reg. § 1.451-2(a)(1)-(4) — https://www.law.cornell.edu/cfr/text/26/1.451-2",
+      "verified": "2026-08-19"
+    },
+    "nqdc.409a_penalty": {
+      "value": "the deferred amount is included in gross income, and the tax for the year is increased by interest at the underpayment rate plus one percentage point from the year of deferral, plus 20 percent of the included compensation",
+      "taxYear": 2026,
+      "source": "IRC § 409A(a)(1)(A)(i), (a)(1)(B)(i)(I), (II), (a)(1)(B)(ii) — https://www.law.cornell.edu/uscode/text/26/409A",
+      "verified": "2026-08-19"
     }
   }
 }
