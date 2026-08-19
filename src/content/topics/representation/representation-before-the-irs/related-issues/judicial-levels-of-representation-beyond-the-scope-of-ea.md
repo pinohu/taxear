@@ -16,7 +16,7 @@ authorities:
   - { type: Statute, ref: "Tax Court Rule 24", title: "Appearance and representation", url: "https://ustaxcourt.gov/files/documents/rule-24.pdf" }
   - { type: IRC, ref: "§ 7463", title: "Disputes involving $50,000 or less — small tax case procedure", url: "https://www.law.cornell.edu/uscode/text/26/7463" }
 forms: []
-related: ["3.3.3.h", "3.2.6.a", "3.1.1.a", "3.2.6.e"]
+related: ["3.3.3.h", "3.2.6.a", "3.1.1.a", "3.2.6.e", "3.2.5.c"]
 changelog:
   - { date: "2026-08-18", summary: "Initial publication from Circular 230 § 10.2(a)(4), 31 U.S.C. § 330, Tax Court Rules 24 and 200 read in full, IRC § 7463, and IRS Pub. 5 (Rev. 4-2021)." }
 ---

@@ -22,7 +22,7 @@ blocked on a figure. `npm run verify` reports 0 errors.
 | 3.1.3 Sanctionable acts | **4 / 4** |
 | 3.1.4 Rules and penalties | **7 / 7** |
 | 3.2.6 Related issues | **10 / 10** |
-| 3.2.5 Legal authority and references | 5 / 8 |
+| 3.2.5 Legal authority and references | 6 / 8 |
 | 3.3.1 Collection process | 9 / 16 |
 | 3.3.2 Penalties and interest abatement | **5 / 5** |
 | 3.3.3 Audits and examinations | **9 / 9** |
@@ -71,6 +71,7 @@ deposit pages.
 | 3.2.5.e | private letter ruling — Reg. § 601.201, IRC §§ 6110, 7528 |
 | 3.2.5.a | Code and income tax regulations — IRC § 7805, Reg. § 601.601 |
 | 3.2.5.f | Internal Revenue Manual — IRM 1.11.1, IRC § 7811(a)(3) |
+| 3.2.5.c | case law — IRM 4.10.7, IRC § 7463 |
 | 3.4.3.b | e-file mandate and exceptions |
 
 Forms: 2848, 8821, 1040-X, 843, 656, 9465, 12153, 9423, 6118, 8867, 8948, 8944, 8453,
@@ -92,7 +93,7 @@ Prefer depth over breadth. Each of these sits beside a page that already exists,
 
 | Codes | Why next |
 |---|---|
-| 3.2.5.c, d, h | Legal authority and references. Three left — case law, forms and publications, tax treaties |
+| 3.2.5.d, h | Legal authority and references. Two left — forms and publications, tax treaties. `pubs.status` is already a verified figure for 3.2.5.d |
 | 3.4.3.a, c–i | Completes electronic filing, mostly from Pub. 3112 and Pub. 1345 |
 
 ### Annual refresh — the IRM is under revision and posted content may lag
@@ -143,16 +144,6 @@ unrelated procedures, the irs.gov site-index search returns 403 here, and the Ab
 page does not name it. The page makes no claim resting on the number. Add it when it can be
 opened, and treat it as an annual-refresh item; it is the element on that page most likely to
 go stale.
-
-### Open item — Tax Court opinion types
-
-The Regular / Memorandum / Summary opinion taxonomy (bank question P3E1Q475) **could not be
-sourced**. The Court's Definitions page defines Bench Opinion, Regular Tax Case and Small Tax
-Case but not the three opinion types, and the Citation and Style Manual page returned only
-navigation. IRC § 7463(b) covers the non-precedential status of small tax case decisions and
-that is on 3.2.6.j; the Regular/Memorandum distinction is **not asserted anywhere on the
-site**. Before adding it, open the Citation and Style Manual PDF or a Tax Court Reports
-pamphlet directly.
 
 ### Tax Court Rules are retrievable — noted 2026-08-18
 
