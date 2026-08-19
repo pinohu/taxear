@@ -17,7 +17,7 @@ authorities:
   - { type: IRC, ref: "§ 3405", title: "Special rules for pensions, annuities, and certain other deferred income", url: "https://www.law.cornell.edu/uscode/text/26/3405" }
   - { type: Notice, ref: "2025-67", title: "2026 amounts relating to retirement plans and IRAs", url: "https://www.irs.gov/pub/irs-drop/n-25-67.pdf" }
 forms: []
-related: ["1.2.2.b", "1.2.2.a", "1.2.1.i", "1.2.2.k", "1.2.2.d", "1.2.2.e", "1.2.2.f", "1.2.2.g"]
+related: ["1.2.2.b", "1.2.2.a", "1.2.1.i", "1.2.2.k", "1.2.2.d", "1.2.2.e", "1.2.2.f", "1.2.2.g", "1.2.2.h"]
 changelog:
   - { date: "2026-08-19", summary: "Initial draft. Sets out the IRC § 402(a) charging rule, the IRC § 402(c)(4) definition of an eligible rollover distribution with its three exclusions, the IRC § 3405(c) mandatory withholding and its direct-transfer exception, and the IRC § 72(d) simplified method." }
 ---

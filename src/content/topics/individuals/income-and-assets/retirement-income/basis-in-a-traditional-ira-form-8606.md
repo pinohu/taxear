@@ -17,7 +17,7 @@ authorities:
   - { type: IRC, ref: "§ 6693", title: "Failure to provide reports on certain tax-favored accounts or annuities", url: "https://www.law.cornell.edu/uscode/text/26/6693" }
   - { type: Notice, ref: "2025-67", title: "2026 amounts relating to retirement plans and IRAs", url: "https://www.irs.gov/pub/irs-drop/n-25-67.pdf" }
 forms: []
-related: ["1.2.2.b", "1.1.1.g", "1.2.1.c", "1.2.2.g", "1.2.2.c", "1.2.2.d", "1.2.2.e", "1.2.2.f"]
+related: ["1.2.2.b", "1.1.1.g", "1.2.1.c", "1.2.2.g", "1.2.2.c", "1.2.2.d", "1.2.2.e", "1.2.2.f", "1.2.2.h"]
 changelog:
   - { date: "2026-08-19", summary: "Initial draft. Sets out the IRC § 408(d)(2) aggregation rule that produces pro-rata recovery of basis, the IRC § 408(o) definition of a designated nondeductible contribution, the reporting duty in § 408(o)(4) and its § 6693(b) penalties." }
 ---

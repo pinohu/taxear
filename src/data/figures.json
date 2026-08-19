@@ -1394,6 +1394,30 @@
       "source": "IRC § 408(d)(4)(A)-(C) — https://www.law.cornell.edu/uscode/text/26/408",
       "verified": "2026-08-19"
     },
+    "excessaccum.correction_window": {
+      "value": "from the date the tax is imposed to the earliest of the mailing of a notice of deficiency, the assessment of the tax, or the last day of the second taxable year beginning after the end of the taxable year in which the tax was imposed",
+      "taxYear": 2026,
+      "source": "IRC § 4974(e)(2)(A)–(C) — https://www.law.cornell.edu/uscode/text/26/4974",
+      "verified": "2026-08-19"
+    },
+    "excessaccum.excise_tax": {
+      "value": "25 percent of the amount by which the minimum required distribution exceeds the amount actually distributed during the taxable year, paid by the payee",
+      "taxYear": 2026,
+      "source": "IRC § 4974(a) — https://www.law.cornell.edu/uscode/text/26/4974",
+      "verified": "2026-08-19"
+    },
+    "excessaccum.reduced_rate": {
+      "value": "10 percent in place of 25, where the shortfall is distributed from the same plan and a return reflecting the tax is filed, both within the correction window",
+      "taxYear": 2026,
+      "source": "IRC § 4974(e)(1) — https://www.law.cornell.edu/uscode/text/26/4974",
+      "verified": "2026-08-19"
+    },
+    "excessaccum.waiver": {
+      "value": "the Secretary may waive the tax where the taxpayer establishes that the shortfall was due to reasonable error and that reasonable steps are being taken to remedy it — claimed by entering \"RC\" and the amount on Form 5329 with a statement attached",
+      "taxYear": 2026,
+      "source": "IRC § 4974(d); Instructions for Form 5329, Waiver of tax for reasonable cause — https://www.irs.gov/pub/irs-pdf/i5329.pdf",
+      "verified": "2026-08-19"
+    },
     "exemption.amount": {
       "value": "zero — and permanently so for taxable years beginning after 2017, following Pub. L. 119-21 § 70103(a)",
       "taxYear": 2026,
@@ -2850,6 +2874,54 @@
       "value": "183 days or more, counting each day of the current year in full, one-third of each day in the first preceding year, and one-sixth of each day in the second preceding year",
       "taxYear": 2026,
       "source": "IRC § 7701(b)(3)(A)(ii)",
+      "verified": "2026-08-19"
+    },
+    "rmd.aggregation": {
+      "value": "computed separately for each IRA but satisfiable from any one or more of them; separately again for section 403(b) contracts, which aggregate only among themselves; and never across the two, nor with a Roth IRA — an employer plan under section 401(a) is satisfied from that plan alone",
+      "taxYear": 2026,
+      "source": "Treas. Reg. § 1.408-8(e)(1)(i), (e)(2), (e)(3) — https://www.law.cornell.edu/cfr/text/26/1.408-8",
+      "verified": "2026-08-19"
+    },
+    "rmd.applicable_age": {
+      "value": "73 for an individual who attains age 72 after 31 December 2022 and age 73 before 1 January 2033; 75 for an individual who attains age 74 after 31 December 2032",
+      "taxYear": 2026,
+      "source": "IRC § 401(a)(9)(C)(v)(I), (II) — https://www.law.cornell.edu/uscode/text/26/401",
+      "verified": "2026-08-19"
+    },
+    "rmd.computation": {
+      "value": "the account balance as of 31 December of the preceding calendar year, divided by the applicable denominator from the Uniform Lifetime Table for the owner's age on their birthday in the distribution year — never more than the whole balance on the date of distribution",
+      "taxYear": 2026,
+      "source": "Treas. Reg. § 1.401(a)(9)-5(a)(1), (b)(1), (c)(1); § 1.408-8(b)(2) — https://www.law.cornell.edu/cfr/text/26/1.401(a)(9)-5",
+      "verified": "2026-08-19"
+    },
+    "rmd.first_year_deferral": {
+      "value": "the distribution for the first distribution calendar year may be made on or before April 1 of the following year; every later year's must be made by 31 December of that year — so deferring puts two years' distributions into one",
+      "taxYear": 2026,
+      "source": "Treas. Reg. § 1.401(a)(9)-5(a)(2)(ii), (a)(3) — https://www.law.cornell.edu/cfr/text/26/1.401(a)(9)-5",
+      "verified": "2026-08-19"
+    },
+    "rmd.not_rollover_eligible": {
+      "value": "a required minimum distribution cannot be rolled over or converted; the first dollars distributed in a year for which one is due are the required amount",
+      "taxYear": 2026,
+      "source": "IRC § 408(d)(3)(E); Treas. Reg. § 1.408-8(b)(3) — https://www.law.cornell.edu/uscode/text/26/408",
+      "verified": "2026-08-19"
+    },
+    "rmd.required_beginning_date": {
+      "value": "April 1 of the calendar year following the later of the year the employee attains the applicable age or the year the employee retires — but the retirement leg is unavailable to a 5-percent owner and unavailable for IRAs, where the age year always governs",
+      "taxYear": 2026,
+      "source": "IRC § 401(a)(9)(C)(i), (ii)(I), (II); Treas. Reg. § 1.408-8(b)(1)(i) — https://www.law.cornell.edu/uscode/text/26/401",
+      "verified": "2026-08-19"
+    },
+    "rmd.roth_exempt": {
+      "value": "no lifetime distribution is required from a Roth IRA or, since the amendment of IRC § 402A(d)(5), from a designated Roth account in an employer plan — the requirement attaches only after death",
+      "taxYear": 2026,
+      "source": "IRC § 408A(c)(4); IRC § 402A(d)(5); Treas. Reg. § 1.408-8(b)(1)(ii) — https://www.law.cornell.edu/uscode/text/26/402A",
+      "verified": "2026-08-19"
+    },
+    "rmd.uniform_lifetime_divisors": {
+      "value": "26.5 at age 73, 25.5 at 74, 24.6 at 75, 20.2 at 80 and 1.0 at 120 or older — with a joint and last survivor denominator instead where the sole beneficiary is a spouse more than 10 years younger",
+      "taxYear": 2026,
+      "source": "Treas. Reg. § 1.401(a)(9)-9(c), Table 2; § 1.401(a)(9)-5(c)(2)(i) — https://www.law.cornell.edu/cfr/text/26/1.401(a)(9)-9",
       "verified": "2026-08-19"
     },
     "roth.contribution_phaseout": {

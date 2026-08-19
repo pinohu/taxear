@@ -18,8 +18,8 @@ authorities:
   - { type: Reg, ref: "§ 1.408A-5", title: "Recharacterized contributions", url: "https://www.law.cornell.edu/cfr/text/26/1.408A-5" }
   - { type: Reg, ref: "§ 301.9100-2", title: "Automatic extensions", url: "https://www.law.cornell.edu/cfr/text/26/301.9100-2" }
   - { type: Form, ref: "8606", title: "Nondeductible IRAs — instructions", url: "https://www.irs.gov/pub/irs-pdf/i8606.pdf" }
-forms: ["8606"]
-related: ["1.2.2.a", "1.2.2.b", "1.2.2.d", "1.2.2.e", "1.2.2.c"]
+forms: []
+related: ["1.2.2.a", "1.2.2.b", "1.2.2.d", "1.2.2.e", "1.2.2.c", "1.2.2.h"]
 changelog:
   - { date: "2026-08-19", summary: "Initial draft. Sets out the IRC § 408A(d)(3) conversion rules, the § 408A(d)(3)(F) five-year recapture, the § 408A(d)(6) recharacterization election and its § 408A(d)(6)(B)(iii) exclusion of conversions, and records that Treas. Reg. § 1.408A-4 has never been conformed to three separate statutory changes." }
 ---
