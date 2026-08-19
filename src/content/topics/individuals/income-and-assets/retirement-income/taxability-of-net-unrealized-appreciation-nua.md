@@ -16,7 +16,7 @@ authorities:
   - { type: IRC, ref: "§ 1222", title: "Other terms relating to capital gains and losses", url: "https://www.law.cornell.edu/uscode/text/26/1222" }
   - { type: Reg, ref: "§ 1.402(a)-1", title: "Taxability of beneficiary under a trust which meets the requirements of section 401(a)", url: "https://www.law.cornell.edu/cfr/text/26/1.402(a)-1" }
 forms: []
-related: ["1.2.2.c", "1.2.2.e", "1.2.2.i", "1.2.2.b", "1.2.2.a"]
+related: ["1.2.2.c", "1.2.2.e", "1.2.2.i", "1.2.2.b", "1.2.2.a", "1.2.2.l"]
 changelog:
   - { date: "2026-08-19", summary: "Initial draft. Sets out the IRC § 402(e)(4)(B) exclusion of net unrealized appreciation on a lump sum distribution of employer securities, the § 402(e)(4)(D) definition of a lump sum distribution and its aggregation rule, the Treas. Reg. § 1.402(a)-1(b) computation and basis consequence, and the long-term character on a later sale. Records that the governing regulation still measures long term as more than six months." }
 ---

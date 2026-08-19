@@ -1886,6 +1886,84 @@
       "source": "Rev. Proc. 2025-32 § 4.57, adjusting IRC § 6721 — https://www.irs.gov/pub/irs-drop/rp-25-32.pdf",
       "verified": "2026-08-19"
     },
+    "inherited.annual_and_outer_limit": {
+      "value": "where the employee died on or after the required beginning date, annual distributions continue for every year until the interest is fully distributed and the ten-year outer limit applies as well — both requirements, not a choice between them",
+      "taxYear": 2026,
+      "source": "Treas. Reg. § 1.401(a)(9)-5(d)(1)(i), (e)(1), (e)(2) — https://www.law.cornell.edu/cfr/text/26/1.401(a)(9)-5",
+      "verified": "2026-08-19"
+    },
+    "inherited.beneficiary_date": {
+      "value": "the beneficiary is fixed as of the date of death, but a disclaimer or other disregarding event occurring by 30 September of the calendar year following the year of death removes that person from the determination",
+      "taxYear": 2026,
+      "source": "Treas. Reg. § 1.401(a)(9)-4(c)(1), (c)(2) — https://www.law.cornell.edu/cfr/text/26/1.401(a)(9)-4",
+      "verified": "2026-08-19"
+    },
+    "inherited.edb_categories": {
+      "value": "the surviving spouse; a child of the employee who has not reached majority; a disabled individual within § 72(m)(7); a chronically ill individual within § 7702B(c)(2) as modified; and anyone not more than 10 years younger than the employee",
+      "taxYear": 2026,
+      "source": "IRC § 401(a)(9)(E)(ii)(I)–(V) — https://www.law.cornell.edu/uscode/text/26/401",
+      "verified": "2026-08-19"
+    },
+    "inherited.edb_tested_at_death": {
+      "value": "determined as of the date of the employee's death — a beneficiary who becomes disabled, or who ages past the 10-year gap, afterwards does not change category",
+      "taxYear": 2026,
+      "source": "IRC § 401(a)(9)(E)(ii), closing sentence — https://www.law.cornell.edu/uscode/text/26/401",
+      "verified": "2026-08-19"
+    },
+    "inherited.five_year_rule": {
+      "value": "still the rule where there is no designated beneficiary at all — the entire interest by the end of the calendar year containing the fifth anniversary of death",
+      "taxYear": 2026,
+      "source": "IRC § 401(a)(9)(B)(ii); Treas. Reg. § 1.401(a)(9)-3(c)(2), (c)(5) — https://www.law.cornell.edu/cfr/text/26/1.401(a)(9)-3",
+      "verified": "2026-08-19"
+    },
+    "inherited.ird": {
+      "value": "the account is income in respect of a decedent, taxed to whoever receives it in the year received; IRC § 1014 does not apply, so there is no step-up, and a § 691(c) deduction is allowed for the federal estate tax attributable to it",
+      "taxYear": 2026,
+      "source": "IRC § 691(a)(1)(A)–(C); § 1014(c); § 691(c)(1)(A) — https://www.law.cornell.edu/uscode/text/26/691",
+      "verified": "2026-08-19"
+    },
+    "inherited.majority": {
+      "value": "an individual reaches the age of majority on their 21st birthday, after which a minor-child beneficiary ceases to be an eligible designated beneficiary and the remainder must be distributed within 10 years of that date",
+      "taxYear": 2026,
+      "source": "Treas. Reg. § 1.401(a)(9)-4(e)(3); § 1.401(a)(9)-5(e)(4); IRC § 401(a)(9)(E)(iii) — https://www.law.cornell.edu/cfr/text/26/1.401(a)(9)-4",
+      "verified": "2026-08-19"
+    },
+    "inherited.no_rollover": {
+      "value": "an inherited IRA — one acquired by reason of another individual's death by someone who was not their surviving spouse — cannot be rolled over and cannot be used to make any other rollover; a non-spouse beneficiary of an employer plan may only take a direct trustee-to-trustee transfer",
+      "taxYear": 2026,
+      "source": "IRC § 408(d)(3)(C)(i), (ii); IRC § 402(c)(11)(A) — https://www.law.cornell.edu/uscode/text/26/408",
+      "verified": "2026-08-19"
+    },
+    "inherited.roth": {
+      "value": "the requirement attaches after the owner's death, and the Roth IRA owner is always treated as having died before the required beginning date — so the ten-year rule or life expectancy payments, never the at-least-as-rapidly rule",
+      "taxYear": 2026,
+      "source": "IRC § 408A(c)(4); Treas. Reg. § 1.408-8(b)(1)(ii) — https://www.law.cornell.edu/cfr/text/26/1.408-8",
+      "verified": "2026-08-19"
+    },
+    "inherited.spouse_delay": {
+      "value": "where the surviving spouse is sole beneficiary, life expectancy payments may be delayed until the end of the calendar year in which the employee would have attained the applicable age",
+      "taxYear": 2026,
+      "source": "IRC § 401(a)(9)(B)(iv)(II); Treas. Reg. § 1.401(a)(9)-3(d) — https://www.law.cornell.edu/cfr/text/26/1.401(a)(9)-3",
+      "verified": "2026-08-19"
+    },
+    "inherited.spouse_own": {
+      "value": "a surviving spouse who is sole beneficiary with an unlimited right to withdraw may elect to treat the account as their own, by redesignation or by deemed election, and is then the owner for all purposes of the Code including § 72(t)",
+      "taxYear": 2026,
+      "source": "Treas. Reg. § 1.408-8(c)(1)(i), (c)(1)(ii), (c)(2), (c)(3) — https://www.law.cornell.edu/cfr/text/26/1.408-8",
+      "verified": "2026-08-19"
+    },
+    "inherited.ten_year_rule": {
+      "value": "the entire interest must be distributed by the end of the calendar year that includes the tenth anniversary of the employee's death — the § 401(a)(9)(B)(ii) five-year rule with ten years substituted",
+      "taxYear": 2026,
+      "source": "IRC § 401(a)(9)(H)(i)(I); Treas. Reg. § 1.401(a)(9)-3(c)(3) — https://www.law.cornell.edu/cfr/text/26/1.401(a)(9)-3",
+      "verified": "2026-08-19"
+    },
+    "inherited.year_of_death": {
+      "value": "a required distribution is due for the calendar year of the owner's death, and to the extent it was not distributed to the owner it must be distributed during that year to the beneficiary",
+      "taxYear": 2026,
+      "source": "Treas. Reg. § 1.401(a)(9)-5(c)(1), closing sentences — https://www.law.cornell.edu/cfr/text/26/1.401(a)(9)-5",
+      "verified": "2026-08-19"
+    },
     "interest.6404e_erroneous_refund_cap": {
       "value": "the Secretary shall abate all interest on an erroneous refund until demand for repayment is made, unless the taxpayer or a related party caused it or the refund exceeds $50,000",
       "taxYear": 2026,

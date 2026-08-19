@@ -9,10 +9,10 @@ is indexed, and only the owner moves a page there (see `docs/VERIFICATION.md`).
 
 | Part | Topics | Stub | Draft | Review | Published | Words |
 |---|---:|---:|---:|---:|---:|---:|
-| 1. Individuals | 120 | 77 | 0 | 33 | 10 | 98,391 |
+| 1. Individuals | 120 | 76 | 0 | 34 | 10 | 100,801 |
 | 2. Businesses | 119 | 119 | 0 | 0 | 0 | 0 |
 | 3. Representation, Practices and Procedures | 121 | 0 | 0 | 0 | 121 | 257,674 |
-| **All parts** | **360** | **196** | **0** | **33** | **131** | **356,065** |
+| **All parts** | **360** | **195** | **0** | **34** | **131** | **358,475** |
 
 ## Part 1 — Individuals
 
@@ -77,7 +77,7 @@ is indexed, and only the owner moves a page there (see `docs/VERIFICATION.md`).
 | 1.2.2.i | [Loans from qualified plans](/individuals/income-and-assets/retirement-income/loans-from-qualified-plans/) | review | 2,488 | 2026-08-19 |
 | 1.2.2.j | [Taxability of Social Security and Railroad Retirement benefits](/individuals/income-and-assets/retirement-income/taxability-of-social-security-and-railroad-retirement/) | review | 2,406 | 2026-08-19 |
 | 1.2.2.k | [Taxability of net unrealized appreciation (NUA)](/individuals/income-and-assets/retirement-income/taxability-of-net-unrealized-appreciation-nua/) | review | 2,106 | 2026-08-19 |
-| 1.2.2.l | [Inherited retirement accounts](/individuals/income-and-assets/retirement-income/inherited-retirement-accounts/) | stub | — | — |
+| 1.2.2.l | [Inherited retirement accounts](/individuals/income-and-assets/retirement-income/inherited-retirement-accounts/) | review | 2,410 | 2026-08-19 |
 | 1.2.2.m | [Foreign pensions and retirement income](/individuals/income-and-assets/retirement-income/foreign-pensions-and-retirement-income/) | stub | — | — |
 
 **1.2.3 Property, real and personal**
