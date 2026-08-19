@@ -22,7 +22,7 @@ blocked on a figure. `npm run verify` reports 0 errors.
 | 3.1.3 Sanctionable acts | **4 / 4** |
 | 3.1.4 Rules and penalties | **7 / 7** |
 | 3.2.6 Related issues | **10 / 10** |
-| 3.2.5 Legal authority and references | 3 / 8 |
+| 3.2.5 Legal authority and references | 4 / 8 |
 | 3.3.1 Collection process | 9 / 16 |
 | 3.3.2 Penalties and interest abatement | **5 / 5** |
 | 3.3.3 Audits and examinations | **9 / 9** |
@@ -69,6 +69,7 @@ deposit pages.
 | 3.2.5.g | authoritative vs non-authoritative source material — Reg. § 1.6662-4(d)(3)(iii) |
 | 3.2.5.b | revenue rulings and revenue procedures — Reg. § 601.601, IRC § 7805 |
 | 3.2.5.e | private letter ruling — Reg. § 601.201, IRC §§ 6110, 7528 |
+| 3.2.5.a | Code and income tax regulations — IRC § 7805, Reg. § 601.601 |
 | 3.4.3.b | e-file mandate and exceptions |
 
 Forms: 2848, 8821, 1040-X, 843, 656, 9465, 12153, 9423, 6118, 8867, 8948, 8944, 8453,
@@ -90,8 +91,18 @@ Prefer depth over breadth. Each of these sits beside a page that already exists,
 
 | Codes | Why next |
 |---|---|
-| 3.2.5.a, c, d, f, h | Legal authority and references. Five left — Code and regulations, case law, forms and publications, the IRM, tax treaties |
+| 3.2.5.c, d, f, h | Legal authority and references. Four left — case law, forms and publications, the IRM, tax treaties |
 | 3.4.3.a, c–i | Completes electronic filing, mostly from Pub. 3112 and Pub. 1345 |
+
+### Open item — the legislative / interpretive / procedural regulation taxonomy
+
+Bank question P3E1Q482 turns on it, and it is standard practitioner vocabulary, but **it
+appears in none of the primary sources opened for 3.2.5.a** — not IRC § 7805, not
+Reg. § 601.601, not Reg. § 1.6662-4(d)(3)(iii). The sources use a different axis: proposed,
+temporary, final. 3.2.5.a covers the substance behind legislative-versus-interpretive from
+source — the general and residual grant in § 7805(a) against a specific grant in the Code
+section construed — without adopting the labels. If the three labels are wanted on the site,
+find a source first.
 
 ### Recurring pattern — pre-1998 institutional vocabulary in Part 601 and older regulations
 

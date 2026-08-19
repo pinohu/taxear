@@ -1471,6 +1471,36 @@
       "taxYear": 2026,
       "source": "IRC § 7528(a)–(b) — https://www.law.cornell.edu/uscode/text/26/7528",
       "verified": "2026-08-18"
+    },
+    "reg.forms": {
+      "value": "the most important internal revenue rules are issued as regulations and Treasury decisions, prescribed by the Commissioner and approved by the Secretary or delegate; they are prepared in the Office of the Chief Counsel, approved by the Commissioner, then forwarded to the Secretary or delegate for final approval",
+      "taxYear": 2026,
+      "source": "Reg. § 601.601(a)(1) — https://www.law.cornell.edu/cfr/text/26/601.601",
+      "verified": "2026-08-18"
+    },
+    "reg.notice_and_comment": {
+      "value": "where 5 U.S.C. § 553 requires it, general notice of proposed rules is published in the Federal Register, stating the time, place and nature of the public rulemaking proceedings, the authority under which the rule is proposed, and either the terms or substance of the proposed rule or a description of the subjects and issues involved",
+      "taxYear": 2026,
+      "source": "Reg. § 601.601(a)(2) — https://www.law.cornell.edu/cfr/text/26/601.601",
+      "verified": "2026-08-18"
+    },
+    "reg.temporary": {
+      "value": "any temporary regulation must also be issued as a proposed regulation, and expires within 3 years after the date of issuance",
+      "taxYear": 2026,
+      "source": "IRC § 7805(e) — https://www.law.cornell.edu/uscode/text/26/7805",
+      "verified": "2026-08-18"
+    },
+    "reg.authority": {
+      "value": "except where the authority is expressly given to someone outside the Treasury Department, the Secretary prescribes all needful rules and regulations for the enforcement of the title, including those needed by reason of any alteration of law",
+      "taxYear": 2026,
+      "source": "IRC § 7805(a) — https://www.law.cornell.edu/uscode/text/26/7805",
+      "verified": "2026-08-18"
+    },
+    "reg.small_business_review": {
+      "value": "after publication of a proposed or temporary regulation the Secretary submits it to the Chief Counsel for Advocacy of the Small Business Administration, who has 4 weeks to comment on its impact on small business; those comments must be considered before a superseding final regulation is prescribed",
+      "taxYear": 2026,
+      "source": "IRC § 7805(f) — https://www.law.cornell.edu/uscode/text/26/7805",
+      "verified": "2026-08-18"
     }
   }
 }
