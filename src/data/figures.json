@@ -3145,6 +3145,24 @@
       "taxYear": 2026,
       "source": "IRC § 704(d)(1); IRC § 1366(d)(1)(A), (B) — https://www.law.cornell.edu/uscode/text/26/704",
       "verified": "2026-08-19"
+    },
+    "depletion.percentage_cap": {
+      "value": "the statutory percentage of gross income from the property, excluding rents and royalties the taxpayer paid on it, capped at 50 percent of taxable income from the property — 100 percent for oil and gas properties",
+      "taxYear": 2026,
+      "source": "IRC § 613(a) — https://www.law.cornell.edu/uscode/text/26/613",
+      "verified": "2026-08-19"
+    },
+    "depletion.independent_producer": {
+      "value": "15 percent, available only on average daily production up to a tentative depletable quantity of 1,000 barrels of domestic crude oil, and further capped at 65 percent of taxable income computed without oil and gas depletion, the § 199A deduction, or NOL and capital loss carrybacks",
+      "taxYear": 2026,
+      "source": "IRC § 613A(c)(1), (c)(3)(B), (d)(1)(A)-(D) — https://www.law.cornell.edu/uscode/text/26/613A",
+      "verified": "2026-08-19"
+    },
+    "royalty.patent_transfer": {
+      "value": "a transfer of all substantial rights to a patent by a holder, other than by gift, inheritance or devise, is a sale of a capital asset held for more than one year — even where payments are periodic or contingent on productivity or use",
+      "taxYear": 2026,
+      "source": "IRC § 1235(a)(1), (2) — https://www.law.cornell.edu/uscode/text/26/1235",
+      "verified": "2026-08-19"
     }
   }
 }
