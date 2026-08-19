@@ -16,7 +16,7 @@ authorities:
   - { type: IRM, ref: "5.14.1.4.1", title: "Six-Year Rule and One-Year Rule", url: "https://www.irs.gov/irm/part5/irm_05-014-001r" }
   - { type: IRC, ref: "§ 7122", title: "Compromises" }
 forms: ["433-A", "433-F"]
-related: ["3.3.1.b", "3.3.1.c", "3.3.1.k", "3.2.3.a"]
+related: ["3.3.1.b", "3.3.1.c", "3.3.1.k", "3.2.3.a", "3.2.3.b"]
 changelog:
   - { date: "2026-08-19", summary: "Initial draft against the standards effective 29 June 2026 and the 29 June 2026 revision of IRM 5.15.1." }
 ---

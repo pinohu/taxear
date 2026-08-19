@@ -19,7 +19,7 @@ authorities:
   - { type: IRC, ref: "§ 6503(h)", title: "Suspension of running of period of limitation — cases under title 11" }
   - { type: IRC, ref: "§ 6321", title: "Lien for taxes" }
 forms: []
-related: ["3.2.3.a", "3.3.1.i", "3.3.1.m"]
+related: ["3.2.3.a", "3.3.1.i", "3.3.1.m", "3.2.3.b"]
 changelog:
   - { date: "2026-08-19", summary: "Initial draft." }
 ---

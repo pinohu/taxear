@@ -1825,6 +1825,30 @@
       "taxYear": 2026,
       "source": "IRS Collection Financial Standards, effective June 29, 2026 (irs.gov national/local standards pages)",
       "verified": "2026-08-19"
+    },
+    "valuation.qsv": {
+      "value": "generally 80% of fair market value",
+      "taxYear": 2026,
+      "source": "IRM 5.15.1.21, Determining Equity in Assets (revised 29 June 2026)",
+      "verified": "2026-08-19"
+    },
+    "valuation.qsv_window": {
+      "value": "a sale forced within roughly 90 days or less",
+      "taxYear": 2026,
+      "source": "IRM 5.15.1.21, Determining Equity in Assets (revised 29 June 2026)",
+      "verified": "2026-08-19"
+    },
+    "valuation.fsv": {
+      "value": "fair market value reduced by an amount not to exceed 25%",
+      "taxYear": 2026,
+      "source": "IRM 5.15.1.21, Determining Equity in Assets (revised 29 June 2026)",
+      "verified": "2026-08-19"
+    },
+    "valuation.rfsv": {
+      "value": "generally 60% of fair market value",
+      "taxYear": 2026,
+      "source": "IRM 5.15.1.21, Determining Equity in Assets (revised 29 June 2026)",
+      "verified": "2026-08-19"
     }
   }
 }
