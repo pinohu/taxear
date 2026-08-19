@@ -16,7 +16,7 @@ authorities:
   - { type: IRC, ref: "§ 7216", title: "Disclosure or use of information by preparers of returns" }
   - { type: IRC, ref: "§ 6501(c)(1)", title: "False return — no limitation period" }
 forms: ["1040-X"]
-related: ["3.1.2.a", "3.1.2.f", "3.1.3.d", "3.1.2.i"]
+related: ["3.1.2.a", "3.1.2.f", "3.1.3.d", "3.1.2.i", "3.4.1.b"]
 changelog:
   - { date: "2026-08-18", summary: "Initial publication from Circular 230 § 10.21." }
 ---

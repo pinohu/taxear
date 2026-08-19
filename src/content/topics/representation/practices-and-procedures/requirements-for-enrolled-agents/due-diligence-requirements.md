@@ -15,7 +15,7 @@ authorities:
   - { type: Circ230, ref: "§ 10.37", title: "Requirements for written advice", url: "https://www.law.cornell.edu/cfr/text/31/10.37" }
   - { type: Circ230, ref: "§ 10.52", title: "Violations subject to sanction", url: "https://www.law.cornell.edu/cfr/text/31/10.52" }
 forms: []
-related: ["3.1.2.a", "3.1.2.p", "3.1.4.g", "3.1.1.a", "3.1.2.b", "3.1.2.g", "3.1.2.i", "3.1.2.k"]
+related: ["3.1.2.a", "3.1.2.p", "3.1.4.g", "3.1.1.a", "3.1.2.b", "3.1.2.g", "3.1.2.i", "3.1.2.k", "3.4.1.a"]
 changelog:
   - { date: "2026-08-18", summary: "Initial publication from Circular 230 §§ 10.22, 10.34, 10.37 and 10.52." }
 ---

@@ -11,8 +11,8 @@ is indexed, and only the owner moves a page there (see `docs/VERIFICATION.md`).
 |---|---:|---:|---:|---:|---:|---:|
 | 1. Individuals | 120 | 120 | 0 | 0 | 0 | 0 |
 | 2. Businesses | 119 | 119 | 0 | 0 | 0 | 0 |
-| 3. Representation, Practices and Procedures | 121 | 7 | 0 | 114 | 0 | 242,885 |
-| **All parts** | **360** | **246** | **0** | **114** | **0** | **242,885** |
+| 3. Representation, Practices and Procedures | 121 | 5 | 0 | 116 | 0 | 247,482 |
+| **All parts** | **360** | **244** | **0** | **116** | **0** | **247,482** |
 
 ## Part 1 — Individuals
 
@@ -602,8 +602,8 @@ is indexed, and only the owner moves a page there (see `docs/VERIFICATION.md`).
 
 | Code | Title | Status | Words | Last reviewed |
 |---|---|---|---:|---|
-| 3.4.1.a | [Reliance on software (e.g. review of results)](/representation/completion-of-the-filing-process/accuracy/reliance-on-software/) | stub | — | — |
-| 3.4.1.b | [Miscalculations and recognition of duplicate entries](/representation/completion-of-the-filing-process/accuracy/miscalculations-and-recognition-of-duplicate-entries/) | stub | — | — |
+| 3.4.1.a | [Reliance on software (e.g. review of results)](/representation/completion-of-the-filing-process/accuracy/reliance-on-software/) | review | 2,304 | 2026-08-19 |
+| 3.4.1.b | [Miscalculations and recognition of duplicate entries](/representation/completion-of-the-filing-process/accuracy/miscalculations-and-recognition-of-duplicate-entries/) | review | 2,293 | 2026-08-19 |
 
 **3.4.2 Record maintenance**
 

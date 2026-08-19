@@ -2095,6 +2095,18 @@
       "taxYear": 2026,
       "source": "Publication 4557, Safeguarding Taxpayer Data — A Guide for Your Business",
       "verified": "2026-08-19"
+    },
+    "preparer.reasonable_cause_factors": {
+      "value": "6 — the nature of the error causing the understatement, the frequency of errors, the materiality of errors, the preparer's normal office practice, reliance on the advice of others, and reliance on generally accepted administrative or industry practice",
+      "taxYear": 2026,
+      "source": "Reg. § 1.6694-2(e), Exception for reasonable cause and good faith — https://www.law.cornell.edu/cfr/text/26/1.6694-2",
+      "verified": "2026-08-19"
+    },
+    "preparer.office_practice_elements": {
+      "value": "a system for promoting accuracy and consistency that, for a signing preparer, generally includes checklists, methods for obtaining necessary information from the taxpayer, a review of the prior year's return, and review procedures",
+      "taxYear": 2026,
+      "source": "Reg. § 1.6694-2(e), Exception for reasonable cause and good faith — https://www.law.cornell.edu/cfr/text/26/1.6694-2",
+      "verified": "2026-08-19"
     }
   }
 }
