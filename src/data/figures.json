@@ -2617,6 +2617,66 @@
       "taxYear": 2026,
       "source": "IRC § 86(a)(1), (2)(A)(i) — https://www.law.cornell.edu/uscode/text/26/86",
       "verified": "2026-08-19"
+    },
+    "feie.exclusion": {
+      "value": "$132,900 of foreign earned income",
+      "taxYear": 2026,
+      "source": "Rev. Proc. 2025-32 § 3.39, adjusting IRC § 911(b)(2)(D)(i) — https://www.irs.gov/pub/irs-drop/rp-25-32.pdf",
+      "verified": "2026-08-19"
+    },
+    "feie.housing": {
+      "value": "housing expenses above 16 percent of the exclusion amount, capped at 30 percent of it, both computed on a daily basis over the qualifying period",
+      "taxYear": 2026,
+      "source": "IRC § 911(c)(1)(B)(i), (c)(2)(A)(i) — https://www.law.cornell.edu/uscode/text/26/911",
+      "verified": "2026-08-19"
+    },
+    "ira.deduction_limit": {
+      "value": "$7,500, plus a further $1,100 for an individual who has attained age 50 before the close of the taxable year",
+      "taxYear": 2026,
+      "source": "Notice 2025-67, adjusting IRC § 219(b)(5)(A) and (b)(5)(B)(ii) — https://www.irs.gov/pub/irs-drop/n-25-67.pdf",
+      "verified": "2026-08-19"
+    },
+    "ira.active_participant_phaseout": {
+      "value": "$81,000 to $91,000 for a single active participant; $129,000 to $149,000 on a joint return where the contributing spouse is an active participant; $242,000 to $252,000 where only the other spouse is; and an unindexed $0 to $10,000 for a married active participant filing separately",
+      "taxYear": 2026,
+      "source": "Notice 2025-67, adjusting IRC § 219(g)(3)(B) — https://www.irs.gov/pub/irs-drop/n-25-67.pdf",
+      "verified": "2026-08-19"
+    },
+    "hsa.contribution_limit": {
+      "value": "$4,400 for self-only coverage and $8,750 for family coverage, plus an unindexed $1,000 for an individual who has attained age 55 before the close of the taxable year",
+      "taxYear": 2026,
+      "source": "Rev. Proc. 2025-19 § 2.01(1), adjusting IRC § 223(b)(2); IRC § 223(b)(3)(B) — https://www.irs.gov/pub/irs-drop/rp-25-19.pdf",
+      "verified": "2026-08-19"
+    },
+    "hsa.hdhp": {
+      "value": "an annual deductible of at least $1,700 for self-only or $3,400 for family coverage, with annual out-of-pocket expenses not exceeding $8,500 or $17,000 respectively",
+      "taxYear": 2026,
+      "source": "Rev. Proc. 2025-19 § 2.01(2), adjusting IRC § 223(c)(2)(A) — https://www.irs.gov/pub/irs-drop/rp-25-19.pdf",
+      "verified": "2026-08-19"
+    },
+    "studentloan.deduction": {
+      "value": "$2,500, phasing out between $85,000 and $100,000 of modified adjusted gross income, or between $175,000 and $205,000 on a joint return",
+      "taxYear": 2026,
+      "source": "Rev. Proc. 2025-32 § 3.29, adjusting IRC § 221(b)(2)(B) — https://www.irs.gov/pub/irs-drop/rp-25-32.pdf",
+      "verified": "2026-08-19"
+    },
+    "educator.deduction": {
+      "value": "$350 of the expenses of an eligible educator — a kindergarten through grade 12 teacher, instructor, counselor, principal or aide for at least 900 hours in a school year",
+      "taxYear": 2026,
+      "source": "Rev. Proc. 2025-32 § 3.12, adjusting IRC § 62(a)(2)(D); IRC § 62(d)(1)(A) — https://www.irs.gov/pub/irs-drop/rp-25-32.pdf",
+      "verified": "2026-08-19"
+    },
+    "dependentcare.exclusion": {
+      "value": "$7,500, or $3,750 on a separate return by a married individual, raised from $5,000 and $2,500 for taxable years beginning after 31 December 2025",
+      "taxYear": 2026,
+      "source": "IRC § 129(a)(2)(A) as amended by Pub. L. 119-21 § 70404(a), (b) — https://www.law.cornell.edu/uscode/text/26/129",
+      "verified": "2026-08-19"
+    },
+    "edassist.exclusion": {
+      "value": "$5,250, unchanged for 2026 and first indexed for taxable years beginning after 2026",
+      "taxYear": 2026,
+      "source": "IRC § 127(a)(2), (d)(1) as added by Pub. L. 119-21 § 70412(b) — https://www.law.cornell.edu/uscode/text/26/127",
+      "verified": "2026-08-19"
     }
   }
 }
