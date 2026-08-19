@@ -9,10 +9,10 @@ is indexed, and only the owner moves a page there (see `docs/VERIFICATION.md`).
 
 | Part | Topics | Stub | Draft | Review | Published | Words |
 |---|---:|---:|---:|---:|---:|---:|
-| 1. Individuals | 120 | 115 | 0 | 5 | 0 | 10,892 |
+| 1. Individuals | 120 | 114 | 0 | 6 | 0 | 13,050 |
 | 2. Businesses | 119 | 119 | 0 | 0 | 0 | 0 |
 | 3. Representation, Practices and Procedures | 121 | 0 | 0 | 121 | 0 | 257,680 |
-| **All parts** | **360** | **234** | **0** | **126** | **0** | **268,572** |
+| **All parts** | **360** | **233** | **0** | **127** | **0** | **270,730** |
 
 ## Part 1 — Individuals
 
@@ -23,7 +23,7 @@ is indexed, and only the owner moves a page there (see `docs/VERIFICATION.md`).
 | Code | Title | Status | Words | Last reviewed |
 |---|---|---|---:|---|
 | 1.1.1.a | [Use of prior years' returns for comparison, accuracy, and carryovers for current year's return](/individuals/preliminary-work-and-taxpayer-data/preliminary-work-to-prepare-tax-returns/use-of-prior-years-returns-for-comparison-accuracy/) | review | 1,927 | 2026-08-19 |
-| 1.1.1.b | [Taxpayer biographical information (e.g., date of birth, marital status, dependents, identity protection PIN, state issued photo ID)](/individuals/preliminary-work-and-taxpayer-data/preliminary-work-to-prepare-tax-returns/taxpayer-biographical-information/) | stub | — | — |
+| 1.1.1.b | [Taxpayer biographical information (e.g., date of birth, marital status, dependents, identity protection PIN, state issued photo ID)](/individuals/preliminary-work-and-taxpayer-data/preliminary-work-to-prepare-tax-returns/taxpayer-biographical-information/) | review | 2,158 | 2026-08-19 |
 | 1.1.1.c | [Residency status and/or citizenship (e.g., citizen, visas, green cards, resident alien or non-resident alien, ITIN)](/individuals/preliminary-work-and-taxpayer-data/preliminary-work-to-prepare-tax-returns/residency-status-and-or-citizenship/) | review | 2,238 | 2026-08-19 |
 | 1.1.1.d | [Filing requirements and due date](/individuals/preliminary-work-and-taxpayer-data/preliminary-work-to-prepare-tax-returns/filing-requirements-and-due-date/) | review | 2,157 | 2026-08-19 |
 | 1.1.1.e | [Taxpayer filing status (e.g., single, head of household)](/individuals/preliminary-work-and-taxpayer-data/preliminary-work-to-prepare-tax-returns/taxpayer-filing-status/) | review | 2,468 | 2026-08-19 |

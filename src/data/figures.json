@@ -2341,6 +2341,24 @@
       "taxYear": 2026,
       "source": "IRC § 152(d)(3)",
       "verified": "2026-08-19"
+    },
+    "ctc.ssn_required": {
+      "value": "the taxpayer's social security number — or, on a joint return, that of at least one spouse — and the social security number of the qualifying child",
+      "taxYear": 2026,
+      "source": "IRC § 24(h)(7)(A) as amended generally by Pub. L. 119-21 § 70104(b) — https://www.law.cornell.edu/uscode/text/26/24",
+      "verified": "2026-08-19"
+    },
+    "eitc.tin_required": {
+      "value": "a social security number issued by the Social Security Administration, other than one issued solely for non-work purposes, on or before the due date for filing the return for the taxable year",
+      "taxYear": 2026,
+      "source": "IRC § 32(m) — https://www.law.cornell.edu/uscode/text/26/32",
+      "verified": "2026-08-19"
+    },
+    "exemption.tin_required": {
+      "value": "no exemption is allowed with respect to an individual unless that individual's TIN is included on the return claiming it",
+      "taxYear": 2026,
+      "source": "IRC § 151(e) — https://www.law.cornell.edu/uscode/text/26/151",
+      "verified": "2026-08-19"
     }
   }
 }
