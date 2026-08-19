@@ -3225,21 +3225,81 @@
       "verified": "2026-08-18"
     },
     "ss.adjusted_base_amount": {
-      "value": "$34,000, or $44,000 on a joint return, and zero in the same married-filing-separately case; also unindexed",
+      "value": "$34,000, or $44,000 on a joint return, or zero for a taxpayer described in IRC § 86(c)(1)(C) — likewise unindexed",
       "taxYear": 2026,
-      "source": "IRC § 86(c)(2) — https://www.law.cornell.edu/uscode/text/26/86",
+      "source": "IRC § 86(c)(2)(A)–(C) — https://www.law.cornell.edu/uscode/text/26/86",
       "verified": "2026-08-19"
     },
     "ss.base_amount": {
-      "value": "$25,000, or $32,000 on a joint return, and zero for a married taxpayer who does not file jointly and did not live apart from their spouse for the whole year — none of which is indexed for inflation",
+      "value": "$25,000, or $32,000 on a joint return, or zero for a taxpayer who is married at the close of the year, does not file jointly, and does not live apart from their spouse at all times during the year — none of the three indexed for inflation",
       "taxYear": 2026,
-      "source": "IRC § 86(c)(1) — https://www.law.cornell.edu/uscode/text/26/86",
+      "source": "IRC § 86(c)(1)(A)–(C) — https://www.law.cornell.edu/uscode/text/26/86",
+      "verified": "2026-08-19"
+    },
+    "ss.benefit_definition": {
+      "value": "any amount received by reason of entitlement to a monthly benefit under title II of the Social Security Act or to a tier 1 railroad retirement benefit — tier 2 railroad retirement is outside IRC § 86 and taxed as a pension",
+      "taxYear": 2026,
+      "source": "IRC § 86(d)(1)(A), (B), (d)(4)(A), (B) — https://www.law.cornell.edu/uscode/text/26/86",
+      "verified": "2026-08-19"
+    },
+    "ss.first_tier": {
+      "value": "the lesser of one-half of the benefits received or one-half of the excess of the sum in IRC § 86(b)(1)(A) over the base amount",
+      "taxYear": 2026,
+      "source": "IRC § 86(a)(1)(A), (B) — https://www.law.cornell.edu/uscode/text/26/86",
       "verified": "2026-08-19"
     },
     "ss.inclusion_ceiling": {
       "value": "at most 85 percent of benefits are included in gross income; the first tier includes the lesser of half the benefits or half the excess over the base amount",
       "taxYear": 2026,
       "source": "IRC § 86(a)(1), (2)(A)(i) — https://www.law.cornell.edu/uscode/text/26/86",
+      "verified": "2026-08-19"
+    },
+    "ss.lump_sum_election": {
+      "value": "on election, the amount included by reason of a lump sum attributable to prior years is capped at the sum of the increases in gross income that would have resulted had the portion been taken into account in the years to which it is attributable",
+      "taxYear": 2026,
+      "source": "IRC § 86(e)(1) — https://www.law.cornell.edu/uscode/text/26/86",
+      "verified": "2026-08-19"
+    },
+    "ss.nonresident_alien": {
+      "value": "85 percent of any social security benefit is included in gross income and IRC § 86 does not apply at all — no base amount, no computation",
+      "taxYear": 2026,
+      "source": "IRC § 871(a)(3)(A), (B) — https://www.law.cornell.edu/uscode/text/26/871",
+      "verified": "2026-08-19"
+    },
+    "ss.provisional_income": {
+      "value": "modified adjusted gross income plus one-half of the social security benefits received during the year, where modified adjusted gross income is AGI computed without IRC §§ 86, 85(c), 135, 137, 221, 911, 931 and 933 and increased by tax-exempt interest",
+      "taxYear": 2026,
+      "source": "IRC § 86(b)(1)(A), (b)(2)(A), (B) — https://www.law.cornell.edu/uscode/text/26/86",
+      "verified": "2026-08-19"
+    },
+    "ss.repayments": {
+      "value": "benefits received during the year are reduced by any repayment made during the year of a benefit previously received, whenever received; a § 165 deduction for the excess is allowed only above the benefits received and not repaid",
+      "taxYear": 2026,
+      "source": "IRC § 86(d)(2)(A), (B) — https://www.law.cornell.edu/uscode/text/26/86",
+      "verified": "2026-08-19"
+    },
+    "ss.second_tier": {
+      "value": "the lesser of 85 percent of the excess over the adjusted base amount plus the lesser of the first-tier amount or one-half the difference between the adjusted base amount and the base amount, or 85 percent of the benefits received",
+      "taxYear": 2026,
+      "source": "IRC § 86(a)(2)(A)(i), (ii), (B) — https://www.law.cornell.edu/uscode/text/26/86",
+      "verified": "2026-08-19"
+    },
+    "ss.senior_deduction": {
+      "value": "$6,000 for each taxpayer, and each spouse on a joint return, who attains age 65 before the close of the year, for taxable years beginning before 1 January 2029; reduced by 6 percent of modified adjusted gross income above $75,000, or $150,000 on a joint return; a social security number and, for a married taxpayer, a joint return are required",
+      "taxYear": 2026,
+      "source": "IRC § 151(d)(5)(C)(i)–(v), added by Pub. L. 119-21 § 70103(a) — https://www.law.cornell.edu/uscode/text/26/151",
+      "verified": "2026-08-19"
+    },
+    "ss.senior_deduction_effect": {
+      "value": "none on this computation — the deduction is allowed under IRC § 151 in computing taxable income, so it is subtracted after adjusted gross income and cannot reduce the modified adjusted gross income that drives IRC § 86",
+      "taxYear": 2026,
+      "source": "IRC § 151(a), § 151(d)(5)(C); IRC § 63(b)(2); IRC § 86(b)(2) — https://www.law.cornell.edu/uscode/text/26/151",
+      "verified": "2026-08-19"
+    },
+    "ss.workers_comp": {
+      "value": "where a benefit is reduced because of workmen's compensation, the portion of the compensation equal to that reduction is itself treated as a social security benefit",
+      "taxYear": 2026,
+      "source": "IRC § 86(d)(3) — https://www.law.cornell.edu/uscode/text/26/86",
       "verified": "2026-08-19"
     },
     "studentloan.deduction": {

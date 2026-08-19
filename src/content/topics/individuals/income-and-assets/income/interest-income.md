@@ -21,7 +21,7 @@ authorities:
   - { type: IRC, ref: "§ 7872", title: "Treatment of loans with below-market interest rates", url: "https://www.law.cornell.edu/uscode/text/26/7872" }
   - { type: RevProc, ref: "2025-32", title: "Inflation-adjusted items for 2026", url: "https://www.irs.gov/pub/irs-drop/rp-25-32.pdf" }
 forms: []
-related: ["1.2.1.a", "1.1.1.f", "1.2.1.i", "1.1.1.g", "1.2.1.c", "1.2.1.d", "1.2.1.j", "1.2.1.k", "1.2.1.m"]
+related: ["1.2.1.a", "1.1.1.f", "1.2.1.i", "1.1.1.g", "1.2.1.c", "1.2.1.d", "1.2.1.j", "1.2.1.k", "1.2.1.m", "1.2.2.j"]
 changelog:
   - { date: "2026-08-19", summary: "Initial draft. Sets out the IRC § 103 exclusion and its three exceptions, the IRC § 135 education savings bond exclusion and its separate-return bar, the IRC § 454 election on discount obligations, and the IRC § 7872 below-market loan rules." }
 ---

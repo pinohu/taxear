@@ -16,7 +16,7 @@ authorities:
   - { type: IRC, ref: "§ 408A", title: "Roth IRAs", url: "https://www.law.cornell.edu/uscode/text/26/408A" }
   - { type: Notice, ref: "2025-67", title: "2026 amounts relating to retirement plans and IRAs", url: "https://www.irs.gov/pub/irs-drop/n-25-67.pdf" }
 forms: []
-related: ["1.2.2.a", "1.1.1.g", "1.2.2.g", "1.2.2.e", "1.2.2.c", "1.2.2.d", "1.2.2.h"]
+related: ["1.2.2.a", "1.1.1.g", "1.2.2.g", "1.2.2.e", "1.2.2.c", "1.2.2.d", "1.2.2.h", "1.2.2.j"]
 changelog:
   - { date: "2026-08-19", summary: "Initial draft. Sets out the IRC § 408A(d)(2) two-part qualified distribution test with its 5-taxable-year period, the IRC § 408A(d)(4)(B) ordering rules, the IRC § 408A(c)(3) contribution phase-out and the IRC § 408A(c)(4) exemption from lifetime required distributions." }
 ---
