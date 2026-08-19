@@ -17,7 +17,7 @@ authorities:
   - { type: IRC, ref: "§ 6695(c)", title: "Failure to furnish identifying number", url: "https://www.law.cornell.edu/uscode/text/26/6695" }
   - { type: IRC, ref: "§ 6696", title: "Rules applicable with respect to sections 6694, 6695, and 6695A", url: "https://www.law.cornell.edu/uscode/text/26/6696" }
 forms: []
-related: ["3.1.2.l", "3.1.2.j", "3.1.1.a", "3.1.4.d", "3.1.1.b"]
+related: ["3.1.2.l", "3.1.2.j", "3.1.1.a", "3.1.4.d", "3.1.1.b", "3.4.3.a"]
 changelog:
   - { date: "2026-08-18", summary: "Initial publication from IRC § 6109(a)(4), Reg. § 1.6109-2, Circular 230 § 10.8 and the IRS PTIN guidance opened 18 August 2026." }
 ---

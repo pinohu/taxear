@@ -1897,6 +1897,36 @@
       "taxYear": 2026,
       "source": "IRC § 7463(a), (f), read at law.cornell.edu",
       "verified": "2026-08-19"
+    },
+    "efile.application_processing": {
+      "value": "up to 45 days for the IRS to approve an application",
+      "taxYear": 2026,
+      "source": "Publication 3112, IRS e-file Application and Participation (Rev. 11-2025)",
+      "verified": "2026-08-19"
+    },
+    "efile.provider_min_age": {
+      "value": "at least 18 years of age as of the date of application",
+      "taxYear": 2026,
+      "source": "Publication 3112, IRS e-file Application and Participation (Rev. 11-2025)",
+      "verified": "2026-08-19"
+    },
+    "efile.reactivation_window": {
+      "value": "60 days to reply and request reactivation before a new application is required",
+      "taxYear": 2026,
+      "source": "Publication 3112, IRS e-file Application and Participation (Rev. 11-2025)",
+      "verified": "2026-08-19"
+    },
+    "efile.online_provider_prefixes": {
+      "value": "EFIN prefix codes 10, 21, 32, 44 and 53",
+      "taxYear": 2026,
+      "source": "Publication 3112, IRS e-file Application and Participation (Rev. 11-2025)",
+      "verified": "2026-08-19"
+    },
+    "efile.large_taxpayer": {
+      "value": "assets of $10 million or more, or a partnership with more than 100 partners",
+      "taxYear": 2026,
+      "source": "Publication 3112, IRS e-file Application and Participation (Rev. 11-2025)",
+      "verified": "2026-08-19"
     }
   }
 }
