@@ -19,7 +19,7 @@ authorities:
   - { type: Pub, ref: "525", title: "Taxable and Nontaxable Income", url: "https://www.irs.gov/pub/irs-pdf/p525.pdf" }
   - { type: Statute, ref: "Pub. L. 119-21", title: "An Act to provide for reconciliation, title VII" }
 forms: []
-related: ["1.2.1.a", "1.2.1.b", "1.1.1.f", "1.2.1.m", "1.2.1.e"]
+related: ["1.2.1.a", "1.2.1.b", "1.1.1.f", "1.2.1.m", "1.2.1.e", "1.2.1.h"]
 changelog:
   - { date: "2026-08-19", summary: "Initial draft. Records the permanent suspension of miscellaneous itemized deductions and its redesignation from IRC § 67(g) to § 67(h) by Pub. L. 119-21 § 70110, and its effect on the deductions IRC § 183(b)(2) would otherwise allow." }
 ---

@@ -3025,6 +3025,36 @@
       "taxYear": 2026,
       "source": "IRC § 904(j)(1), (j)(2) — https://www.law.cornell.edu/uscode/text/26/904",
       "verified": "2026-08-19"
+    },
+    "scholarship.qualified_expenses": {
+      "value": "tuition and fees required for enrollment or attendance, and fees, books, supplies and equipment **required for courses of instruction** — room, board and travel are outside it however necessary they are",
+      "taxYear": 2026,
+      "source": "IRC § 117(b)(2)(A), (B) — https://www.law.cornell.edu/uscode/text/26/117",
+      "verified": "2026-08-19"
+    },
+    "scholarship.service_portion": {
+      "value": "any portion representing payment for teaching, research or other services is included, with exceptions only for the National Health Service Corps Scholarship Program, the Armed Forces Health Professions Scholarship and Financial Assistance program, and a comprehensive student work-learning-service program at a work college",
+      "taxYear": 2026,
+      "source": "IRC § 117(c)(1), (c)(2)(A)-(C) — https://www.law.cornell.edu/uscode/text/26/117",
+      "verified": "2026-08-19"
+    },
+    "prizes.charity_transfer": {
+      "value": "three conditions, all required — the recipient was selected without any action to enter, is not required to render substantial future services, and the payor transfers the award to a governmental unit or IRC § 170(c)(1) or (2) organisation on the recipient's designation",
+      "taxYear": 2026,
+      "source": "IRC § 74(b)(1)-(3) — https://www.law.cornell.edu/uscode/text/26/74",
+      "verified": "2026-08-19"
+    },
+    "awards.employee_achievement": {
+      "value": "$400 for an award that is not a qualified plan award, and $1,600 counting all such awards to the employee for the year including non-qualified ones — neither figure indexed",
+      "taxYear": 2026,
+      "source": "IRC § 74(c)(1) applying IRC § 274(j)(2)(A), (B) — https://www.law.cornell.edu/uscode/text/26/274",
+      "verified": "2026-08-19"
+    },
+    "damages.exclusion": {
+      "value": "damages other than punitive received on account of personal **physical** injuries or physical sickness, reduced by amounts attributable to IRC § 213 medical deductions allowed in a prior year",
+      "taxYear": 2026,
+      "source": "IRC § 104(a)(2) and the flush language of § 104(a) — https://www.law.cornell.edu/uscode/text/26/104",
+      "verified": "2026-08-19"
     }
   }
 }

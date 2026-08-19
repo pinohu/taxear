@@ -9,10 +9,10 @@ is indexed, and only the owner moves a page there (see `docs/VERIFICATION.md`).
 
 | Part | Topics | Stub | Draft | Review | Published | Words |
 |---|---:|---:|---:|---:|---:|---:|
-| 1. Individuals | 120 | 96 | 0 | 14 | 10 | 54,672 |
+| 1. Individuals | 120 | 95 | 0 | 15 | 10 | 56,999 |
 | 2. Businesses | 119 | 119 | 0 | 0 | 0 | 0 |
 | 3. Representation, Practices and Procedures | 121 | 0 | 0 | 0 | 121 | 257,674 |
-| **All parts** | **360** | **215** | **0** | **14** | **131** | **312,346** |
+| **All parts** | **360** | **214** | **0** | **15** | **131** | **314,673** |
 
 ## Part 1 — Individuals
 
@@ -53,7 +53,7 @@ is indexed, and only the owner moves a page there (see `docs/VERIFICATION.md`).
 | 1.2.1.e | [Gambling income and allowable deductions (e.g., Form W-2G, documentation)](/individuals/income-and-assets/income/gambling-income-and-allowable-deductions/) | review | 2,310 | 2026-08-19 |
 | 1.2.1.f | [Tax treatment of forgiveness of debt (e.g., Form 1099C, foreclosures, insolvency)](/individuals/income-and-assets/income/tax-treatment-of-forgiveness-of-debt/) | review | 2,338 | 2026-08-19 |
 | 1.2.1.g | [Tax treatment of a U.S. citizen/resident with foreign income (e.g., tax treaties, Form 2555, Form 3520 and Form 5471)](/individuals/income-and-assets/income/tax-treatment-of-a-u-s-citizen-resident-with-foreign-income/) | review | 2,323 | 2026-08-19 |
-| 1.2.1.h | [Other income (e.g., scholarships, barter income, hobby income, alimony, nontaxable combat pay, unearned income, taxable recoveries, NOL, illegal income)](/individuals/income-and-assets/income/other-income/) | stub | — | — |
+| 1.2.1.h | [Other income (e.g., scholarships, barter income, hobby income, alimony, nontaxable combat pay, unearned income, taxable recoveries, NOL, illegal income)](/individuals/income-and-assets/income/other-income/) | review | 2,327 | 2026-08-19 |
 | 1.2.1.i | [Constructive receipt of income](/individuals/income-and-assets/income/constructive-receipt-of-income/) | stub | — | — |
 | 1.2.1.j | [Constructive dividends (e.g., payments of personal expenses from a business entity)](/individuals/income-and-assets/income/constructive-dividends/) | stub | — | — |
 | 1.2.1.k | [Passive income and loss (e.g., loss limitations)](/individuals/income-and-assets/income/passive-income-and-loss/) | stub | — | — |
