@@ -18,7 +18,7 @@ authorities:
 forms:
   - "2848"
   - "8821"
-related: ["3.2.1.a", "3.2.1.j", "3.2.1.i", "3.2.1.c", "3.2.1.e", "3.2.1.g"]
+related: ["3.2.1.a", "3.2.1.j", "3.2.1.i", "3.2.1.c", "3.2.1.e", "3.2.1.g", "1.1.1.l"]
 changelog:
   - { date: "2026-08-18", summary: "Initial publication from the Instructions for Forms 2848 and 8821 and IRC § 6103(c)." }
 ---

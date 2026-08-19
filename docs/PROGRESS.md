@@ -9,10 +9,10 @@ is indexed, and only the owner moves a page there (see `docs/VERIFICATION.md`).
 
 | Part | Topics | Stub | Draft | Review | Published | Words |
 |---|---:|---:|---:|---:|---:|---:|
-| 1. Individuals | 120 | 109 | 0 | 1 | 10 | 23,802 |
+| 1. Individuals | 120 | 108 | 0 | 2 | 10 | 26,115 |
 | 2. Businesses | 119 | 119 | 0 | 0 | 0 | 0 |
 | 3. Representation, Practices and Procedures | 121 | 0 | 0 | 0 | 121 | 257,674 |
-| **All parts** | **360** | **228** | **0** | **1** | **131** | **281,476** |
+| **All parts** | **360** | **227** | **0** | **2** | **131** | **283,789** |
 
 ## Part 1 — Individuals
 
@@ -33,7 +33,7 @@ is indexed, and only the owner moves a page there (see `docs/VERIFICATION.md`).
 | 1.1.1.i | [Qualifications for dependency](/individuals/preliminary-work-and-taxpayer-data/preliminary-work-to-prepare-tax-returns/qualifications-for-dependency/) | **published** | 2,102 | 2026-08-19 |
 | 1.1.1.j | [Sources of applicable credits (e.g., education, foreign tax, retirement, child and dependent care, credit for other dependents, child tax credit)](/individuals/preliminary-work-and-taxpayer-data/preliminary-work-to-prepare-tax-returns/sources-of-applicable-credits/) | stub | — | — |
 | 1.1.1.k | [Sources of tax payments and refundable credits (e.g., withholding, estimated payments, earned income tax credit)](/individuals/preliminary-work-and-taxpayer-data/preliminary-work-to-prepare-tax-returns/sources-of-tax-payments-and-refundable-credits/) | stub | — | — |
-| 1.1.1.l | [Previous IRS correspondence with taxpayer](/individuals/preliminary-work-and-taxpayer-data/preliminary-work-to-prepare-tax-returns/previous-irs-correspondence-with-taxpayer/) | stub | — | — |
+| 1.1.1.l | [Previous IRS correspondence with taxpayer](/individuals/preliminary-work-and-taxpayer-data/preliminary-work-to-prepare-tax-returns/previous-irs-correspondence-with-taxpayer/) | review | 2,313 | 2026-08-19 |
 | 1.1.1.m | [Additional required returns filed and taxes paid (e.g., employment, gifts, international information returns, and other information returns)](/individuals/preliminary-work-and-taxpayer-data/preliminary-work-to-prepare-tax-returns/additional-required-returns-filed-and-taxes-paid/) | stub | — | — |
 | 1.1.1.n | [Special filing requirements (e.g. foreign income, presidentially declared disaster areas, Form 1040-NR, injured spouse)](/individuals/preliminary-work-and-taxpayer-data/preliminary-work-to-prepare-tax-returns/special-filing-requirements/) | **published** | 2,097 | 2026-08-19 |
 | 1.1.1.o | [Foreign account and asset reporting (e.g., FBAR, Form 8938)](/individuals/preliminary-work-and-taxpayer-data/preliminary-work-to-prepare-tax-returns/foreign-account-and-asset-reporting/) | **published** | 2,231 | 2026-08-19 |
