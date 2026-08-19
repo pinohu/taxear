@@ -5,10 +5,10 @@ part: 3
 domain: "Specific Types of Representation"
 section: "Representing a Taxpayer in Audits/Examinations"
 description: "The taxpayer must keep records sufficient to establish every entry on the return — and for travel, gifts and listed property IRC § 274(d) sets a stricter standard still."
-status: review
+status: published
 taxYear: 2026
 lastReviewed: "2026-08-18"
-reviewedBy: "Draft for I. Ohu review"
+reviewedBy: "I. Ohu"
 authorities:
   - { type: IRC, ref: "§ 6001", title: "Notice or regulations requiring records, statements, and special returns", url: "https://www.law.cornell.edu/uscode/text/26/6001" }
   - { type: Reg, ref: "§ 1.6001-1", title: "Records", url: "https://www.law.cornell.edu/cfr/text/26/1.6001-1" }

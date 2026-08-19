@@ -5,10 +5,10 @@ part: 3
 domain: "Practices and Procedures"
 section: "Sanctionable acts"
 description: "The IRC 6702 penalty on frivolous returns and specified submissions, the Notice 2010-33 list, the 30-day withdrawal that avoids it, and the practitioner's own exposure."
-status: review
+status: published
 taxYear: 2026
 lastReviewed: "2026-08-18"
-reviewedBy: "Draft for I. Ohu review"
+reviewedBy: "I. Ohu"
 authorities:
   - { type: IRC, ref: "§ 6702", title: "Frivolous tax submissions" }
   - { type: IRC, ref: "§ 6673", title: "Sanctions and costs awarded by courts" }

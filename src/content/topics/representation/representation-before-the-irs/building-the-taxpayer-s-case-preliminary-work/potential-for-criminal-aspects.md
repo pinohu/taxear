@@ -5,10 +5,10 @@ part: 3
 domain: "Representation before the IRS"
 section: "Building the Taxpayer's Case: Preliminary Work"
 description: "Spotting criminal exposure early changes everything — the § 7525 privilege stops at the criminal line, and a Justice Department referral shuts off the summons power."
-status: review
+status: published
 taxYear: 2026
 lastReviewed: "2026-08-18"
-reviewedBy: "Draft for I. Ohu review"
+reviewedBy: "I. Ohu"
 authorities:
   - { type: IRC, ref: "§ 7602", title: "Examination of books and witnesses — referral bar at (d), financial status at (e)", url: "https://www.law.cornell.edu/uscode/text/26/7602" }
   - { type: IRC, ref: "§ 7525", title: "Confidentiality privileges relating to taxpayer communications", url: "https://www.law.cornell.edu/uscode/text/26/7525" }

@@ -5,10 +5,10 @@ part: 3
 domain: "Representation before the IRS"
 section: "Representing a taxpayer in the collection process"
 description: "What makes a debt seriously delinquent under IRC 7345, the statutory and administrative exclusions, how certification is reversed, and the two courts that review it."
-status: review
+status: published
 taxYear: 2026
 lastReviewed: "2026-08-18"
-reviewedBy: "Draft for I. Ohu review"
+reviewedBy: "I. Ohu"
 authorities:
   - { type: IRC, ref: "§ 7345", title: "Revocation or denial of passport in case of certain tax delinquencies" }
   - { type: IRC, ref: "§ 6323", title: "Validity and priority against certain persons" }

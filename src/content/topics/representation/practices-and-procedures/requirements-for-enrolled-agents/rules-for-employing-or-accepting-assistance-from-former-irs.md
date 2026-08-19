@@ -5,10 +5,10 @@ part: 3
 domain: "Practices and Procedures"
 section: "Requirements for Enrolled Agents"
 description: "Circular 230 sections 10.24 and 10.25 restrict assistance from disbarred or suspended persons and set lifetime, two-year and one-year bars on former government employees."
-status: review
+status: published
 taxYear: 2026
 lastReviewed: "2026-08-18"
-reviewedBy: "Draft for I. Ohu review"
+reviewedBy: "I. Ohu"
 authorities:
   - { type: Circ230, ref: "§ 10.24", title: "Assistance from or to disbarred or suspended persons and former Internal Revenue Service employees", url: "https://www.law.cornell.edu/cfr/text/31/10.24" }
   - { type: Circ230, ref: "§ 10.25", title: "Practice by former government employees, their partners and their associates", url: "https://www.law.cornell.edu/cfr/text/31/10.25" }

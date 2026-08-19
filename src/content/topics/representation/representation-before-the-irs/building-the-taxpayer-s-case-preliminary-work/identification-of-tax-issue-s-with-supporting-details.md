@@ -5,10 +5,10 @@ part: 3
 domain: "Representation before the IRS"
 section: "Building the Taxpayer's Case: Preliminary Work"
 description: "Circular 230 § 10.37 turns issue identification into a duty — find the facts rather than accept them, relate law to them, and never weigh the odds of no audit."
-status: review
+status: published
 taxYear: 2026
 lastReviewed: "2026-08-18"
-reviewedBy: "Draft for I. Ohu review"
+reviewedBy: "I. Ohu"
 authorities:
   - { type: Circ230, ref: "§ 10.37", title: "Requirements for written advice", url: "https://www.law.cornell.edu/cfr/text/31/10.37" }
   - { type: Circ230, ref: "§ 10.34", title: "Standards with respect to tax returns and documents, affidavits and other papers", url: "https://www.law.cornell.edu/cfr/text/31/10.34" }

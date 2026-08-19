@@ -5,10 +5,10 @@ part: 3
 domain: "Representation before the IRS"
 section: "Representing a taxpayer in the collection process"
 description: "The IRC 6161 extension, the undue hardship standard that is far higher than clients expect, what Form 1127 must carry, and why interest runs throughout."
-status: review
+status: published
 taxYear: 2026
 lastReviewed: "2026-08-18"
-reviewedBy: "Draft for I. Ohu review"
+reviewedBy: "I. Ohu"
 authorities:
   - { type: IRC, ref: "§ 6161", title: "Extension of time for paying tax" }
   - { type: IRC, ref: "§ 6165", title: "Bonds where time to pay tax or deficiency has been extended" }

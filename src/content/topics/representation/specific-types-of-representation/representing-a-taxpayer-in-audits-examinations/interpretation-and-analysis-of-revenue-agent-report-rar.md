@@ -5,10 +5,10 @@ part: 3
 domain: "Specific Types of Representation"
 section: "Representing a Taxpayer in Audits/Examinations"
 description: "The examination report and its 30-day letter open a window that closes on its own — and the notice of deficiency that follows is the one deadline no one can extend."
-status: review
+status: published
 taxYear: 2026
 lastReviewed: "2026-08-18"
-reviewedBy: "Draft for I. Ohu review"
+reviewedBy: "I. Ohu"
 authorities:
   - { type: Pub, ref: "Pub. 3498 (Rev. 5-2025)", title: "The Examination Process", url: "https://www.irs.gov/pub/irs-pdf/p3498.pdf" }
   - { type: Pub, ref: "Pub. 5 (Rev. 4-2021)", title: "Your Appeal Rights and How to Prepare a Protest if You Disagree", url: "https://www.irs.gov/pub/irs-pdf/p5.pdf" }

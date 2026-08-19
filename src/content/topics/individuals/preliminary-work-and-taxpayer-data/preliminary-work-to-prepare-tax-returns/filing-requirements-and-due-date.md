@@ -5,10 +5,10 @@ part: 1
 domain: "Preliminary Work and Taxpayer Data"
 section: "Preliminary work to prepare tax returns"
 description: "Who must file and by when: the gross income test that survives a zero exemption, the calendar and fiscal year due dates, and the extensions that run without a request."
-status: review
+status: published
 taxYear: 2026
 lastReviewed: "2026-08-19"
-reviewedBy: "Draft for I. Ohu review"
+reviewedBy: "I. Ohu"
 authorities:
   - { type: IRC, ref: "§ 6012(a)(1)", title: "Persons required to make returns of income" }
   - { type: IRC, ref: "§ 151(d)(5)", title: "Exemption amount — special rules for taxable years beginning after 2017" }

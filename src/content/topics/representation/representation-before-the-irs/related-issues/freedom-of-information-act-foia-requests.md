@@ -5,10 +5,10 @@ part: 3
 domain: "Representation before the IRS"
 section: "Related Issues"
 description: "A FOIA request is how a representative gets the IRS file — but it reaches only existing records, only what no exemption covers, and never the return of another taxpayer."
-status: review
+status: published
 taxYear: 2026
 lastReviewed: "2026-08-18"
-reviewedBy: "Draft for I. Ohu review"
+reviewedBy: "I. Ohu"
 authorities:
   - { type: Statute, ref: "5 U.S.C. § 552", title: "Freedom of Information Act", url: "https://www.law.cornell.edu/uscode/text/5/552" }
   - { type: Reg, ref: "§ 601.702", title: "Publication, public inspection, and specific requests for records", url: "https://www.law.cornell.edu/cfr/text/26/601.702" }

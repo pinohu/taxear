@@ -5,10 +5,10 @@ part: 3
 domain: "Representation before the IRS"
 section: "Supporting documentation"
 description: "Birth certificates, divorce decrees and settlement agreements as tax evidence — what each proves, and where a state court order does not decide the federal answer."
-status: review
+status: published
 taxYear: 2026
 lastReviewed: "2026-08-19"
-reviewedBy: "Draft for I. Ohu review"
+reviewedBy: "I. Ohu"
 authorities:
   - { type: IRC, ref: "§ 152(e)", title: "Special rule for divorced parents" }
   - { type: IRC, ref: "§ 104(a)(2)", title: "Compensation for injuries or sickness — damages" }

@@ -5,10 +5,10 @@ part: 3
 domain: "Representation before the IRS"
 section: "Related Issues"
 description: "Form 8275 and Form 8275-R are mirror images, and the penalty each cures is the one the other cannot. Neither rescues a position without a reasonable basis."
-status: review
+status: published
 taxYear: 2026
 lastReviewed: "2026-08-18"
-reviewedBy: "Draft for I. Ohu review"
+reviewedBy: "I. Ohu"
 authorities:
   - { type: Form, ref: "8275", title: "Disclosure Statement — Instructions (Rev. 10/2024)", url: "https://www.irs.gov/instructions/i8275" }
   - { type: Form, ref: "8275-R", title: "Regulation Disclosure Statement — Instructions (Rev. 11/2024)", url: "https://www.irs.gov/instructions/i8275r" }

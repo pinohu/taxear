@@ -5,10 +5,10 @@ part: 3
 domain: "Practices and Procedures"
 section: "Requirements for Enrolled Agents"
 description: "Circular 230 section 10.31 and IRC section 6695(f) bar a practitioner from endorsing or negotiating a client's federal tax refund, including by electronic deposit."
-status: review
+status: published
 taxYear: 2026
 lastReviewed: "2026-08-18"
-reviewedBy: "Draft for I. Ohu review"
+reviewedBy: "I. Ohu"
 authorities:
   - { type: Circ230, ref: "§ 10.31", title: "Negotiation of taxpayer checks", url: "https://www.law.cornell.edu/cfr/text/31/10.31" }
   - { type: IRC, ref: "§ 6695(f)", title: "Negotiation of check", url: "https://www.law.cornell.edu/uscode/text/26/6695" }

@@ -5,10 +5,10 @@ part: 1
 domain: "Preliminary Work and Taxpayer Data"
 section: "Preliminary work to prepare tax returns"
 description: "Two separate regimes that look like one: the FBAR filed with FinCEN and Form 8938 attached to the return, with different thresholds, dates and filers."
-status: review
+status: published
 taxYear: 2026
 lastReviewed: "2026-08-19"
-reviewedBy: "Draft for I. Ohu review"
+reviewedBy: "I. Ohu"
 authorities:
   - { type: Statute, ref: "31 U.S.C. § 5314", title: "Records and reports on foreign financial agency transactions", url: "https://www.law.cornell.edu/uscode/text/31/5314" }
   - { type: Reg, ref: "31 C.F.R. § 1010.350", title: "Reports of foreign financial accounts", url: "https://www.law.cornell.edu/cfr/text/31/1010.350" }

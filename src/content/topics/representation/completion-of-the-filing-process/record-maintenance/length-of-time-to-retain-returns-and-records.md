@@ -5,10 +5,10 @@ part: 3
 domain: "Completion of the Filing Process"
 section: "Record maintenance"
 description: "Retention runs with the limitations period, so the answer is never one number. The six taxpayer periods, the property rule, and the separate clocks a preparer carries."
-status: review
+status: published
 taxYear: 2026
 lastReviewed: "2026-08-19"
-reviewedBy: "Draft for I. Ohu review"
+reviewedBy: "I. Ohu"
 authorities:
   - { type: IRC, ref: "§ 6001", title: "Notice or regulations requiring records, statements, and special returns" }
   - { type: Reg, ref: "§ 1.6001-1", title: "Records", url: "https://www.law.cornell.edu/cfr/text/26/1.6001-1" }

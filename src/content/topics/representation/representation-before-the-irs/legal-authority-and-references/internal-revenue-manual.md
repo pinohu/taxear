@@ -5,10 +5,10 @@ part: 3
 domain: "Representation before the IRS"
 section: "Legal Authority and References"
 description: "The IRM is the IRS's instructions to its own staff. It is not authority and confers no rights — yet non-compliance with it is a statutory ground for relief."
-status: review
+status: published
 taxYear: 2026
 lastReviewed: "2026-08-18"
-reviewedBy: "Draft for I. Ohu review"
+reviewedBy: "I. Ohu"
 authorities:
   - { type: IRM, ref: "1.11.1", title: "Internal Management Document (IMD) Program and Responsibilities, effective 29 August 2025", url: "https://www.irs.gov/irm/part1/irm_01-011-001" }
   - { type: IRC, ref: "§ 7811", title: "Taxpayer Assistance Orders — published guidance standard at (a)(3)", url: "https://www.law.cornell.edu/uscode/text/26/7811" }

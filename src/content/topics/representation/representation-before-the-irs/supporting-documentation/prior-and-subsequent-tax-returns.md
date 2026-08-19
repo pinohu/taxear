@@ -5,10 +5,10 @@ part: 3
 domain: "Representation before the IRS"
 section: "Supporting documentation"
 description: "Adjacent years are evidence: carryovers, basis, elections and method choices all live outside the year under review, and one adjustment often moves two other returns."
-status: review
+status: published
 taxYear: 2026
 lastReviewed: "2026-08-19"
-reviewedBy: "Draft for I. Ohu review"
+reviewedBy: "I. Ohu"
 authorities:
   - { type: Reg, ref: "§ 1.6694-1(e)(2)", title: "Verification of information on previously filed returns", url: "https://www.law.cornell.edu/cfr/text/26/1.6694-1" }
   - { type: Reg, ref: "§ 1.6694-2(e)", title: "Exception for reasonable cause and good faith", url: "https://www.law.cornell.edu/cfr/text/26/1.6694-2" }

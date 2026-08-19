@@ -5,10 +5,10 @@ part: 3
 domain: "Representation before the IRS"
 section: "Representing a taxpayer in the collection process"
 description: "When the IRS may levy, the notices it must give first, what property is exempt, the five statutory grounds for release, and what stops a levy before it happens."
-status: review
+status: published
 taxYear: 2026
 lastReviewed: "2026-08-18"
-reviewedBy: "Draft for I. Ohu review"
+reviewedBy: "I. Ohu"
 authorities:
   - { type: IRC, ref: "§ 6331", title: "Levy and distraint" }
   - { type: IRC, ref: "§ 6334", title: "Property exempt from levy" }

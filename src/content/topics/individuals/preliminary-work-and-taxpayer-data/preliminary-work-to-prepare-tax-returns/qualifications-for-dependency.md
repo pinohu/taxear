@@ -5,10 +5,10 @@ part: 1
 domain: "Preliminary Work and Taxpayer Data"
 section: "Preliminary work to prepare tax returns"
 description: "Two definitions, four gates and a tiebreaker: how a qualifying child differs from a qualifying relative, and what happens when two taxpayers claim the same person."
-status: review
+status: published
 taxYear: 2026
 lastReviewed: "2026-08-19"
-reviewedBy: "Draft for I. Ohu review"
+reviewedBy: "I. Ohu"
 authorities:
   - { type: IRC, ref: "§ 152(b)", title: "Dependent — exceptions" }
   - { type: IRC, ref: "§ 152(c)", title: "Qualifying child" }

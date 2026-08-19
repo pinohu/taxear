@@ -5,10 +5,10 @@ part: 3
 domain: "Representation before the IRS"
 section: "Supporting documentation"
 description: "Where the Code demands a record made at the time — charitable acknowledgments, § 274(d) logs, corporate minutes — and why a document created later is worth much less."
-status: review
+status: published
 taxYear: 2026
 lastReviewed: "2026-08-19"
-reviewedBy: "Draft for I. Ohu review"
+reviewedBy: "I. Ohu"
 authorities:
   - { type: IRC, ref: "§ 170(f)(8)", title: "Substantiation requirement for certain contributions" }
   - { type: IRC, ref: "§ 6001", title: "Notice or regulations requiring records, statements, and special returns" }

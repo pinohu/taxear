@@ -5,10 +5,10 @@ part: 3
 domain: "Specific Types of Representation"
 section: "Representing a taxpayer in the collection process"
 description: "The three grounds for compromising a tax liability, what must accompany an offer, the low-income exemptions, and when an offer is deemed accepted by default."
-status: review
+status: published
 taxYear: 2026
 lastReviewed: "2026-08-18"
-reviewedBy: "Draft for I. Ohu review"
+reviewedBy: "I. Ohu"
 authorities:
   - { type: IRC, ref: "§ 7122", title: "Compromises" }
   - { type: IRC, ref: "§ 6331", title: "Levy and distraint" }

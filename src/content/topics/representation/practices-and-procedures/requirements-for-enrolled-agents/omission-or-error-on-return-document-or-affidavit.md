@@ -5,10 +5,10 @@ part: 3
 domain: "Practices and Procedures"
 section: "Requirements for Enrolled Agents"
 description: "What Circular 230 section 10.21 requires when a practitioner discovers a client's error: advise the client of the fact and the consequences, and nothing more."
-status: review
+status: published
 taxYear: 2026
 lastReviewed: "2026-08-18"
-reviewedBy: "Draft for I. Ohu review"
+reviewedBy: "I. Ohu"
 authorities:
   - { type: Circ230, ref: "§ 10.21", title: "Knowledge of client's omission", url: "https://www.law.cornell.edu/cfr/text/31/10.21" }
   - { type: Circ230, ref: "§ 10.51", title: "Incompetence and disreputable conduct", url: "https://www.law.cornell.edu/cfr/text/31/10.51" }

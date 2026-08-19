@@ -5,10 +5,10 @@ part: 1
 domain: "Preliminary Work and Taxpayer Data"
 section: "Preliminary work to prepare tax returns"
 description: "The clients whose returns are not on the ordinary timetable: nonresident aliens, declared disaster areas, combat zone service, and the spouse whose refund was taken."
-status: review
+status: published
 taxYear: 2026
 lastReviewed: "2026-08-19"
-reviewedBy: "Draft for I. Ohu review"
+reviewedBy: "I. Ohu"
 authorities:
   - { type: IRC, ref: "§ 6072(c)", title: "Returns by certain nonresident alien individuals and foreign corporations" }
   - { type: IRC, ref: "§ 7508", title: "Time for performing certain acts postponed by reason of service in combat zone or contingency operation" }

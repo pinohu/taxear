@@ -5,10 +5,10 @@ part: 3
 domain: "Representation before the IRS"
 section: "Taxpayer financial situation"
 description: "How disposable income and equity in assets are computed from a Collection Information Statement, and how those two numbers choose between agreement, offer and hardship."
-status: review
+status: published
 taxYear: 2026
 lastReviewed: "2026-08-19"
-reviewedBy: "Draft for I. Ohu review"
+reviewedBy: "I. Ohu"
 authorities:
   - { type: IRM, ref: "5.15.1.3", title: "Analyzing Financial Information", url: "https://www.irs.gov/irm/part5/irm_05-015-001" }
   - { type: IRM, ref: "5.15.1.4", title: "Verifying Financial Information", url: "https://www.irs.gov/irm/part5/irm_05-015-001" }

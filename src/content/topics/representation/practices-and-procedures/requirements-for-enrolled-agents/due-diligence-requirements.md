@@ -5,10 +5,10 @@ part: 3
 domain: "Practices and Procedures"
 section: "Requirements for Enrolled Agents"
 description: "Circular 230 section 10.22 sets diligence in three directions, and its reliance rule is a presumption a practitioner earns by supervising properly, not an escape."
-status: review
+status: published
 taxYear: 2026
 lastReviewed: "2026-08-18"
-reviewedBy: "Draft for I. Ohu review"
+reviewedBy: "I. Ohu"
 authorities:
   - { type: Circ230, ref: "§ 10.22", title: "Diligence as to accuracy", url: "https://www.law.cornell.edu/cfr/text/31/10.22" }
   - { type: Circ230, ref: "§ 10.34", title: "Standards with respect to tax returns and documents", url: "https://www.law.cornell.edu/cfr/text/31/10.34" }

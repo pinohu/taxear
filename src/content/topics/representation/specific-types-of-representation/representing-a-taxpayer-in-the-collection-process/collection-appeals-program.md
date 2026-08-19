@@ -5,10 +5,10 @@ part: 3
 domain: "Specific Types of Representation"
 section: "Representing a taxpayer in the collection process"
 description: "What the Collection Appeals Program covers, the managerial conference and short deadlines that precede it, and why choosing CAP over CDP gives up judicial review."
-status: review
+status: published
 taxYear: 2026
 lastReviewed: "2026-08-18"
-reviewedBy: "Draft for I. Ohu review"
+reviewedBy: "I. Ohu"
 authorities:
   - { type: IRM, ref: "8.24.1", title: "Collection Appeals Program (CAP)", url: "https://www.irs.gov/irm/part8/irm_08-024-001" }
   - { type: IRC, ref: "§ 6330", title: "Notice and opportunity for hearing before levy" }

@@ -5,10 +5,10 @@ part: 3
 domain: "Specific Types of Representation"
 section: "Representing a taxpayer in the collection process"
 description: "When a CDP hearing is available for a lien or a levy, the deadlines that govern it, what may be raised, and the Tax Court review that follows a determination."
-status: review
+status: published
 taxYear: 2026
 lastReviewed: "2026-08-18"
-reviewedBy: "Draft for I. Ohu review"
+reviewedBy: "I. Ohu"
 authorities:
   - { type: IRC, ref: "§ 6330", title: "Notice and opportunity for hearing before levy" }
   - { type: IRC, ref: "§ 6320", title: "Notice and opportunity for hearing upon filing of notice of lien" }

@@ -5,10 +5,10 @@ part: 3
 domain: "Representation before the IRS"
 section: "Supporting documentation"
 description: "Building the evidentiary record: what the general record-keeping rule asks for, where § 274(d) overrides it, and what a bank statement can and cannot prove."
-status: review
+status: published
 taxYear: 2026
 lastReviewed: "2026-08-19"
-reviewedBy: "Draft for I. Ohu review"
+reviewedBy: "I. Ohu"
 authorities:
   - { type: IRC, ref: "§ 6001", title: "Notice or regulations requiring records, statements, and special returns" }
   - { type: Reg, ref: "§ 1.6001-1", title: "Records", url: "https://www.law.cornell.edu/cfr/text/26/1.6001-1" }

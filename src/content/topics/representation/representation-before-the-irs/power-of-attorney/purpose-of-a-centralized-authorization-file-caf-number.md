@@ -5,10 +5,10 @@ part: 3
 domain: "Representation before the IRS"
 section: "Power of Attorney"
 description: "Reg. 601.506(d) makes the CAF number a processing convenience, not practice authority, and limits what the system will record by period, horizon and count."
-status: review
+status: published
 taxYear: 2026
 lastReviewed: "2026-08-18"
-reviewedBy: "Draft for I. Ohu review"
+reviewedBy: "I. Ohu"
 authorities:
   - { type: Reg, ref: "§ 601.506", title: "Notices to be given to recognized representative; delivery of refund checks to recognized representative", url: "https://www.law.cornell.edu/cfr/text/26/601.506" }
   - { type: Reg, ref: "§ 601.503", title: "Requirements of power of attorney, signatures, fiduciaries and Commissioner's authority to substitute other requirements", url: "https://www.law.cornell.edu/cfr/text/26/601.503" }

@@ -5,10 +5,10 @@ part: 3
 domain: "Specific Types of Representation"
 section: "Representing a taxpayer before Appeals"
 description: "The notice of deficiency is the ticket to the Tax Court. What it does, the 90 and 150 day periods, what is not a deficiency notice, and why the date cannot be extended."
-status: review
+status: published
 taxYear: 2026
 lastReviewed: "2026-08-19"
-reviewedBy: "Draft for I. Ohu review"
+reviewedBy: "I. Ohu"
 authorities:
   - { type: IRC, ref: "§ 6212", title: "Notice of deficiency" }
   - { type: IRC, ref: "§ 6213", title: "Restrictions applicable to deficiencies; petition to Tax Court" }

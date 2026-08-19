@@ -5,10 +5,10 @@ part: 3
 domain: "Representation before the IRS"
 section: "Taxpayer financial situation"
 description: "Which federal taxes a bankruptcy discharge actually reaches: the three-year, two-year and 240-day tests, the debts that never discharge, and why a filed lien survives."
-status: review
+status: published
 taxYear: 2026
 lastReviewed: "2026-08-19"
-reviewedBy: "Draft for I. Ohu review"
+reviewedBy: "I. Ohu"
 authorities:
   - { type: Statute, ref: "11 U.S.C. § 523(a)(1)", title: "Exceptions to discharge — taxes", url: "https://www.law.cornell.edu/uscode/text/11/523" }
   - { type: Statute, ref: "11 U.S.C. § 507(a)(8)", title: "Priorities — allowed unsecured claims of governmental units", url: "https://www.law.cornell.edu/uscode/text/11/507" }

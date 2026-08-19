@@ -5,10 +5,10 @@ part: 3
 domain: "Representation before the IRS"
 section: "Power of Attorney"
 description: "The IRS accepts a non-IRS power of attorney that carries the Reg. 601.503(a) information, and an attorney-in-fact may perfect a defective one by executing Form 2848."
-status: review
+status: published
 taxYear: 2026
 lastReviewed: "2026-08-18"
-reviewedBy: "Draft for I. Ohu review"
+reviewedBy: "I. Ohu"
 authorities:
   - { type: Reg, ref: "§ 601.503", title: "Requirements of power of attorney, signatures, fiduciaries and Commissioner's authority to substitute other requirements", url: "https://www.law.cornell.edu/cfr/text/26/601.503" }
   - { type: Reg, ref: "§ 601.502", title: "Recognized representative", url: "https://www.law.cornell.edu/cfr/text/26/601.502" }

@@ -5,10 +5,10 @@ part: 3
 domain: "Representation before the IRS"
 section: "Power of attorney"
 description: "What a power of attorney does before the IRS, the six elements every one must contain, and how Form 2848 differs from the Form 8821 tax information authorization."
-status: review
+status: published
 taxYear: 2026
 lastReviewed: "2026-08-18"
-reviewedBy: "Draft for I. Ohu review"
+reviewedBy: "I. Ohu"
 authorities:
   - { type: Reg, ref: "601.503", title: "Requirements of power of attorney", url: "https://www.law.cornell.edu/cfr/text/26/601.503" }
   - { type: Reg, ref: "601.502", title: "Recognized representative", url: "https://www.law.cornell.edu/cfr/text/26/601.502" }

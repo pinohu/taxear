@@ -5,10 +5,10 @@ part: 3
 domain: "Representation before the IRS"
 section: "Legal Authority and References"
 description: "Publications, instructions and IRS.gov pages are not authority and cannot be cited to sustain a position — but reasonable reliance on them can still defeat a penalty."
-status: review
+status: published
 taxYear: 2026
 lastReviewed: "2026-08-18"
-reviewedBy: "Draft for I. Ohu review"
+reviewedBy: "I. Ohu"
 authorities:
   - { type: Pub, ref: "IRS, Reliance on guidance", title: "General overview of taxpayer reliance on guidance published in the Internal Revenue Bulletin and FAQs, page last reviewed 5 December 2025", url: "https://www.irs.gov/newsroom/general-overview-of-taxpayer-reliance-on-guidance-published-in-the-internal-revenue-bulletin-and-faqs" }
   - { type: IRM, ref: "4.10.7", title: "Issue Resolution — Examination of Returns, IRS publications at 4.10.7.2.7", url: "https://www.irs.gov/irm/part4/irm_04-010-007" }

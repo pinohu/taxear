@@ -5,10 +5,10 @@ part: 3
 domain: "Specific Types of Representation"
 section: "Penalties and/or interest abatement"
 description: "The penalties a representative most often seeks to remove, the rates behind them, and which relief route reaches which penalty — including what first-time abate cannot."
-status: review
+status: published
 taxYear: 2026
 lastReviewed: "2026-08-18"
-reviewedBy: "Draft for I. Ohu review"
+reviewedBy: "I. Ohu"
 authorities:
   - { type: IRC, ref: "§ 6651", title: "Failure to file tax return or to pay tax" }
   - { type: IRC, ref: "§ 6656", title: "Failure to make deposit of taxes" }

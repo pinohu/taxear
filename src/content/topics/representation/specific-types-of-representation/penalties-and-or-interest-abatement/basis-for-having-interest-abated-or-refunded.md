@@ -5,10 +5,10 @@ part: 3
 domain: "Specific Types of Representation"
 section: "Penalties and/or Interest Abatement"
 description: "IRC 6404(e) permits interest abatement only for unreasonable IRS error or delay in a ministerial or managerial act, and only after the IRS has written to the taxpayer."
-status: review
+status: published
 taxYear: 2026
 lastReviewed: "2026-08-18"
-reviewedBy: "Draft for I. Ohu review"
+reviewedBy: "I. Ohu"
 authorities:
   - { type: IRC, ref: "§ 6404", title: "Abatements", url: "https://www.law.cornell.edu/uscode/text/26/6404" }
   - { type: Reg, ref: "§ 301.6404-2", title: "Abatement of interest", url: "https://www.law.cornell.edu/cfr/text/26/301.6404-2" }
@@ -27,13 +27,13 @@ changelog:
   - { date: "2026-08-18", summary: "Initial publication from IRC § 6404 and Reg. § 301.6404-2." }
 ---
 
-Interest is not a penalty and does not respond to the arguments that move penalties. **Reasonable cause is irrelevant to interest.** Interest is the price of having had the government's money, so it is abated only where the **government** caused the delay — and then only for a narrow class of acts, and only after a specific starting gun has fired.
+Interest is not a penalty and does not respond to the arguments that move penalties. **Reasonable cause is irrelevant to interest.** Interest is the price of having had the government's money, so it is abated only where the **government** caused it — and then only for a narrow class of acts, and only after a specific starting gun has fired.
 
 ## The rule
 
 **Interest abatement for IRS error or delay** (IRC § 6404(e)(1)). The Secretary **may** abate the assessment of all or part of interest on **(A)** any **deficiency** attributable in whole or in part to any **unreasonable error or delay** by an IRS officer or employee, acting in an official capacity, **in performing a ministerial or managerial act**; or **(B)** any **payment** of a tax described in IRC § 6212(a), to the extent an unreasonable error or delay in that payment is attributable to such an officer or employee **being erroneous or dilatory in performing a ministerial or managerial act**.
 
-Two gates apply to both limbs. **No significant taxpayer contribution** — the error or delay counts **only if no significant aspect of it can be attributed to the taxpayer**, which Reg. § 301.6404-2(a)(2) extends to a person **related** within IRC § 267(b) or § 707(b)(1), while conceding that **no significant aspect is attributable to the taxpayer merely because the taxpayer consents to extend the period of limitations**. And **the IRS must have written first** — the error or delay counts **only if it occurs after the IRS has contacted the taxpayer in writing** about the deficiency or payment.
+Two gates apply to both limbs. **No significant taxpayer contribution** — the error or delay counts **only if no significant aspect of it can be attributed to the taxpayer**, which Reg. § 301.6404-2(a)(2) extends to a person **related** within IRC § 267(b) or § 707(b)(1), while conceding that **no significant aspect is attributable to the taxpayer merely because the taxpayer consents to extend the period of limitations**. And **the IRS must have written first** — the error or delay counts **only if it occurs after the IRS has contacted the taxpayer in writing**.
 
 On the taxes covered, Reg. § 301.6404-2(a)(1) reads the deficiency limb through IRC § 6211(a) and the payment limb through § 6212(a), both reaching **income, estate, gift, generation-skipping and certain excise taxes**. Employment taxes are not deficiency taxes.
 

@@ -5,10 +5,10 @@ part: 3
 domain: "Specific Types of Representation"
 section: "Representing a taxpayer before Appeals"
 description: "Hazards of litigation is the settlement standard, and nuisance value is forbidden. What Appeals may trade, what it may not, and what Form 870-AD actually does."
-status: review
+status: published
 taxYear: 2026
 lastReviewed: "2026-08-19"
-reviewedBy: "Draft for I. Ohu review"
+reviewedBy: "I. Ohu"
 authorities:
   - { type: Reg, ref: "§ 601.106(d)", title: "Disposition and settlement of cases before Appeals", url: "https://www.law.cornell.edu/cfr/text/26/601.106" }
   - { type: Reg, ref: "§ 601.106(f)", title: "Conference and practice requirements — Rules I, II and III", url: "https://www.law.cornell.edu/cfr/text/26/601.106" }

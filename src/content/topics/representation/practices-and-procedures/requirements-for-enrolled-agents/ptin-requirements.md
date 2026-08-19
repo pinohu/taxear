@@ -5,10 +5,10 @@ part: 3
 domain: "Practices and Procedures"
 section: "Requirements for Enrolled Agents"
 description: "IRC section 6109(a)(4) and Reg. 1.6109-2 require a PTIN of anyone paid to prepare all or substantially all of a return, and the IRS requires one of every enrolled agent."
-status: review
+status: published
 taxYear: 2026
 lastReviewed: "2026-08-18"
-reviewedBy: "Draft for I. Ohu review"
+reviewedBy: "I. Ohu"
 authorities:
   - { type: IRC, ref: "§ 6109(a)(4)", title: "Furnishing identifying number of tax return preparer", url: "https://www.law.cornell.edu/uscode/text/26/6109" }
   - { type: Reg, ref: "§ 1.6109-2", title: "Tax return preparers furnishing identifying numbers for returns or claims for refund filed after December 31, 2008", url: "https://www.law.cornell.edu/cfr/text/26/1.6109-2" }

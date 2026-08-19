@@ -5,10 +5,10 @@ part: 3
 domain: "Representation before the IRS"
 section: "Related issues"
 description: "The three federal tax limitations periods, how each is measured, when each is extended or suspended, and how practitioners use them in exams, refunds, and collection."
-status: review
+status: published
 taxYear: 2026
 lastReviewed: "2026-08-18"
-reviewedBy: "Draft for I. Ohu review"
+reviewedBy: "I. Ohu"
 authorities:
   - { type: IRC, ref: "§ 6501", title: "Limitations on assessment and collection" }
   - { type: IRC, ref: "§ 6502", title: "Collection after assessment" }

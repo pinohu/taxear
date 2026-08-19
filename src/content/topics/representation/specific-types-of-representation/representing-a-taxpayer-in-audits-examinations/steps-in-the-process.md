@@ -5,10 +5,10 @@ part: 3
 domain: "Specific Types of Representation"
 section: "Representing a Taxpayer in Audits/Examinations"
 description: "An examination runs from selection through a mail, office or field audit to one of three outcomes, and initial contact is always by mail, never by telephone."
-status: review
+status: published
 taxYear: 2026
 lastReviewed: "2026-08-18"
-reviewedBy: "Draft for I. Ohu review"
+reviewedBy: "I. Ohu"
 authorities:
   - { type: Pub, ref: "IRS, IRS audits", title: "How the IRS selects, conducts and concludes an examination", url: "https://www.irs.gov/businesses/small-businesses-self-employed/irs-audits" }
   - { type: IRC, ref: "§ 7602", title: "Examination of books and witnesses", url: "https://www.law.cornell.edu/uscode/text/26/7602" }

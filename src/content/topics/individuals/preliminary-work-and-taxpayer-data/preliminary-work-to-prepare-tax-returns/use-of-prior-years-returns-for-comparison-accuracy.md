@@ -5,10 +5,10 @@ part: 1
 domain: "Preliminary Work and Taxpayer Data"
 section: "Preliminary work to prepare tax returns"
 description: "The prior return is a working document, not a filing copy: the carryovers it holds, the comparisons that catch omissions, and the one thing a preparer must confirm."
-status: review
+status: published
 taxYear: 2026
 lastReviewed: "2026-08-19"
-reviewedBy: "Draft for I. Ohu review"
+reviewedBy: "I. Ohu"
 authorities:
   - { type: Reg, ref: "§ 1.6694-1(e)(2)", title: "Verification of information on previously filed returns", url: "https://www.law.cornell.edu/cfr/text/26/1.6694-1" }
   - { type: Reg, ref: "§ 1.6694-2(e)", title: "Exception for reasonable cause and good faith", url: "https://www.law.cornell.edu/cfr/text/26/1.6694-2" }

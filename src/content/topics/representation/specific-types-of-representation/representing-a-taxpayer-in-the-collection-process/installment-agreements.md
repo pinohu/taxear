@@ -5,10 +5,10 @@ part: 3
 domain: "Specific Types of Representation"
 section: "Representing a taxpayer in the collection process"
 description: "How installment agreements are authorised and terminated, the current setup fees, and why the IRS replaced streamlined agreements with simple payment plans."
-status: review
+status: published
 taxYear: 2026
 lastReviewed: "2026-08-18"
-reviewedBy: "Draft for I. Ohu review"
+reviewedBy: "I. Ohu"
 authorities:
   - { type: IRC, ref: "§ 6159", title: "Agreements for payment of tax liability in installments" }
   - { type: IRC, ref: "§ 6331", title: "Levy and distraint" }

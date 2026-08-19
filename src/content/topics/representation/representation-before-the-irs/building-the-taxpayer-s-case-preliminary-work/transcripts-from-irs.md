@@ -5,10 +5,10 @@ part: 3
 domain: "Representation before the IRS"
 section: "Building the Taxpayer's Case: Preliminary Work"
 description: "Five transcript types, each showing something different — and a transcript is never a copy of the return. Practitioner access runs through TDS on a 2848 or 8821."
-status: review
+status: published
 taxYear: 2026
 lastReviewed: "2026-08-18"
-reviewedBy: "Draft for I. Ohu review"
+reviewedBy: "I. Ohu"
 authorities:
   - { type: Pub, ref: "IRS, Transcript types", title: "Transcript types and ways to order them, page last reviewed 10 March 2026", url: "https://www.irs.gov/individuals/transcript-types-and-ways-to-order-them" }
   - { type: Pub, ref: "IRS, TDS", title: "Transcript Delivery System (TDS), page last reviewed 10 June 2026", url: "https://www.irs.gov/tax-professionals/transcript-delivery-system-tds" }

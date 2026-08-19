@@ -5,10 +5,10 @@ part: 3
 domain: "Representation before the IRS"
 section: "Legal Authority and References"
 description: "A Supreme Court decision binds the IRS everywhere. A lower court decision binds it only for that taxpayer and those years — which is why acquiescence matters."
-status: review
+status: published
 taxYear: 2026
 lastReviewed: "2026-08-18"
-reviewedBy: "Draft for I. Ohu review"
+reviewedBy: "I. Ohu"
 authorities:
   - { type: IRM, ref: "4.10.7", title: "Issue Resolution — Examination of Returns, tax research and court decisions", url: "https://www.irs.gov/irm/part4/irm_04-010-007" }
   - { type: IRC, ref: "§ 7463", title: "Disputes involving $50,000 or less — small tax case procedure", url: "https://www.law.cornell.edu/uscode/text/26/7463" }

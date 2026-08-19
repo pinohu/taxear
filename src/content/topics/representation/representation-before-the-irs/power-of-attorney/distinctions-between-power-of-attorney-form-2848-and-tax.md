@@ -5,10 +5,10 @@ part: 3
 domain: "Representation before the IRS"
 section: "Power of Attorney"
 description: "Form 2848 authorizes an eligible practitioner to represent; Form 8821 authorizes any person or entity only to inspect and receive confidential tax information."
-status: review
+status: published
 taxYear: 2026
 lastReviewed: "2026-08-18"
-reviewedBy: "Draft for I. Ohu review"
+reviewedBy: "I. Ohu"
 authorities:
   - { type: Pub, ref: "Instructions for Form 8821", title: "Tax Information Authorization", url: "https://www.irs.gov/instructions/i8821" }
   - { type: Pub, ref: "Instructions for Form 2848 (rev. 09/2021)", title: "Power of Attorney and Declaration of Representative", url: "https://www.irs.gov/instructions/i2848" }

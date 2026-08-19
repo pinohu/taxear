@@ -5,10 +5,10 @@ part: 3
 domain: "Practices and Procedures"
 section: "Requirements for Enrolled Agents"
 description: "Circular 230 sections 10.34, 10.35 and 10.37 set the standards for return positions, competence and written advice, and the covered opinion rules were repealed in 2014."
-status: review
+status: published
 taxYear: 2026
 lastReviewed: "2026-08-18"
-reviewedBy: "Draft for I. Ohu review"
+reviewedBy: "I. Ohu"
 authorities:
   - { type: Circ230, ref: "§ 10.34", title: "Standards with respect to tax returns and documents, affidavits and other papers", url: "https://www.law.cornell.edu/cfr/text/31/10.34" }
   - { type: Circ230, ref: "§ 10.35", title: "Competence", url: "https://www.law.cornell.edu/cfr/text/31/10.35" }

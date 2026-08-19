@@ -5,10 +5,10 @@ part: 3
 domain: "Representation before the IRS"
 section: "Power of attorney"
 description: "Which documents a representative may sign for a client, why extending the assessment period and closing agreements need express authority, and the check rule."
-status: review
+status: published
 taxYear: 2026
 lastReviewed: "2026-08-18"
-reviewedBy: "Draft for I. Ohu review"
+reviewedBy: "I. Ohu"
 authorities:
   - { type: IRC, ref: "§ 6501(c)(4)", title: "Extension of assessment period by agreement" }
   - { type: IRC, ref: "§ 7121", title: "Closing agreements" }

@@ -5,10 +5,10 @@ part: 1
 domain: "Preliminary Work and Taxpayer Data"
 section: "Preliminary work to prepare tax returns"
 description: "Who is taxed on worldwide income: the green card test that ends only three ways, the weighted day count, and the identifying numbers for people without one."
-status: review
+status: published
 taxYear: 2026
 lastReviewed: "2026-08-19"
-reviewedBy: "Draft for I. Ohu review"
+reviewedBy: "I. Ohu"
 authorities:
   - { type: IRC, ref: "§ 7701(b)", title: "Definition of resident alien and nonresident alien" }
   - { type: Reg, ref: "§ 301.7701(b)-1", title: "Resident alien", url: "https://www.law.cornell.edu/cfr/text/26/301.7701(b)-1" }

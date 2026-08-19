@@ -5,10 +5,10 @@ part: 3
 domain: "Representation before the IRS"
 section: "Representing a taxpayer in the collection process"
 description: "What currently not collectible status is and is not, the hardship test that gets an account there, and why the collection statute keeps running throughout."
-status: review
+status: published
 taxYear: 2026
 lastReviewed: "2026-08-18"
-reviewedBy: "Draft for I. Ohu review"
+reviewedBy: "I. Ohu"
 authorities:
   - { type: IRM, ref: "5.16.1", title: "Currently Not Collectible", url: "https://www.irs.gov/irm/part5/irm_05-016-001r" }
   - { type: IRC, ref: "§ 6343(e)", title: "Release of levy upon agreement that amount is uncollectible" }

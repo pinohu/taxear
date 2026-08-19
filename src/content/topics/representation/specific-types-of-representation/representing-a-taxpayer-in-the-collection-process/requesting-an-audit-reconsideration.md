@@ -5,10 +5,10 @@ part: 3
 domain: "Representation before the IRS"
 section: "Representing a taxpayer in the collection process"
 description: "The criteria for an audit reconsideration, the four assessments that can never be reconsidered, what to send, and why full payment closes the route entirely."
-status: review
+status: published
 taxYear: 2026
 lastReviewed: "2026-08-18"
-reviewedBy: "Draft for I. Ohu review"
+reviewedBy: "I. Ohu"
 authorities:
   - { type: IRM, ref: "4.13.1", title: "Examination Audit Reconsideration Process", url: "https://www.irs.gov/irm/part4/irm_04-013-001r" }
   - { type: Pub, ref: "3598", title: "What You Should Know About the Audit Reconsideration Process", url: "https://www.irs.gov/pub/irs-pdf/p3598.pdf" }

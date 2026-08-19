@@ -5,10 +5,10 @@ part: 3
 domain: "Representation before the IRS"
 section: "Power of Attorney"
 description: "Reg. 601.505 governs revocation by the taxpayer, withdrawal by the representative, and substitution or delegation, each with its own filing requirement."
-status: review
+status: published
 taxYear: 2026
 lastReviewed: "2026-08-18"
-reviewedBy: "Draft for I. Ohu review"
+reviewedBy: "I. Ohu"
 authorities:
   - { type: Reg, ref: "§ 601.505", title: "Revocation, change in representation and substitution or delegation of representative", url: "https://www.law.cornell.edu/cfr/text/26/601.505" }
   - { type: Reg, ref: "§ 601.502", title: "Recognized representative", url: "https://www.law.cornell.edu/cfr/text/26/601.502" }

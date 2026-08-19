@@ -5,10 +5,10 @@ part: 3
 domain: "Completion of the Filing Process"
 section: "Accuracy"
 description: "Finding errors before the IRS does: what a math error notice can and cannot do, how duplicates arise, and the office practice the regulation expects a firm to run."
-status: review
+status: published
 taxYear: 2026
 lastReviewed: "2026-08-19"
-reviewedBy: "Draft for I. Ohu review"
+reviewedBy: "I. Ohu"
 authorities:
   - { type: IRC, ref: "§ 6213(b)", title: "Exceptions to restrictions on assessment — mathematical or clerical errors" }
   - { type: IRC, ref: "§ 6213(g)(2)", title: "Mathematical or clerical error defined" }

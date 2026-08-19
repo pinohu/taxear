@@ -5,10 +5,10 @@ part: 3
 domain: "Practices and Procedures"
 section: "Rules and penalties"
 description: "How a preparer penalty is proposed, appealed, assessed and contested: Letter 1125, the 15 percent stay under IRC 6694(c), and why the Tax Court is closed."
-status: review
+status: published
 taxYear: 2026
 lastReviewed: "2026-08-18"
-reviewedBy: "Draft for I. Ohu review"
+reviewedBy: "I. Ohu"
 authorities:
   - { type: IRC, ref: "§ 6696", title: "Rules applicable with respect to sections 6694, 6695, 6695A, and 6695B" }
   - { type: IRC, ref: "§ 6694(c)", title: "Extension of period of collection where preparer pays 15 percent of penalty" }

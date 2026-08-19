@@ -5,10 +5,10 @@ part: 3
 domain: "Practices and Procedures"
 section: "Rules and penalties"
 description: "Who must sign a prepared return and when, whose PTIN and EIN must appear on it, and the two separate IRC 6695 penalties that answer a failure to do either one."
-status: review
+status: published
 taxYear: 2026
 lastReviewed: "2026-08-18"
-reviewedBy: "Draft for I. Ohu review"
+reviewedBy: "I. Ohu"
 authorities:
   - { type: IRC, ref: "§ 6109(a)(4)", title: "Furnishing identifying number of tax return preparer" }
   - { type: IRC, ref: "§ 6695(b)", title: "Failure to sign return" }

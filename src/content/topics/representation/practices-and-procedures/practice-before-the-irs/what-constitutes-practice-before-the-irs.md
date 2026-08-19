@@ -5,10 +5,10 @@ part: 3
 domain: "Practices and Procedures"
 section: "Practice before the IRS"
 description: "What Circular 230 counts as practice before the IRS, which acts fall outside it, and why preparing a return and representing a taxpayer are different things."
-status: review
+status: published
 taxYear: 2026
 lastReviewed: "2026-08-18"
-reviewedBy: "Draft for I. Ohu review"
+reviewedBy: "I. Ohu"
 authorities:
   - { type: Circ230, ref: "§ 10.2(a)(4)", title: "Definition of practice before the Internal Revenue Service", url: "https://www.law.cornell.edu/cfr/text/31/10.2" }
   - { type: Circ230, ref: "§ 10.2(a)(5)", title: "Definition of practitioner", url: "https://www.law.cornell.edu/cfr/text/31/10.2" }

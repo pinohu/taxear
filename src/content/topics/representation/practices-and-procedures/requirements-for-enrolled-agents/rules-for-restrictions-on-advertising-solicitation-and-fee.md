@@ -5,10 +5,10 @@ part: 3
 domain: "Practices and Procedures"
 section: "Requirements for Enrolled Agents"
 description: "Circular 230 section 10.30 bars false or misleading advertising, bars an enrolled agent from the term certified, and holds published fees for 30 calendar days."
-status: review
+status: published
 taxYear: 2026
 lastReviewed: "2026-08-18"
-reviewedBy: "Draft for I. Ohu review"
+reviewedBy: "I. Ohu"
 authorities:
   - { type: Circ230, ref: "§ 10.30", title: "Solicitation", url: "https://www.law.cornell.edu/cfr/text/31/10.30" }
   - { type: Circ230, ref: "§ 10.27", title: "Fees", url: "https://www.law.cornell.edu/cfr/text/31/10.27" }

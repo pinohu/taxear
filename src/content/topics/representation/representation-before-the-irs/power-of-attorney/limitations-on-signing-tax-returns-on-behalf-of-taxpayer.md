@@ -5,10 +5,10 @@ part: 3
 domain: "Representation before the IRS"
 section: "Power of attorney"
 description: "The three narrow circumstances in which an agent may sign a client's return, what must accompany it, and the separate rule for an incapacitated spouse."
-status: review
+status: published
 taxYear: 2026
 lastReviewed: "2026-08-18"
-reviewedBy: "Draft for I. Ohu review"
+reviewedBy: "I. Ohu"
 authorities:
   - { type: IRC, ref: "§ 6061", title: "Signing of returns and other documents" }
   - { type: IRC, ref: "§ 6012", title: "Persons required to make returns of income" }

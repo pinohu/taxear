@@ -5,10 +5,10 @@ part: 3
 domain: "Completion of the Filing Process"
 section: "Accuracy"
 description: "Software is a tool, not a defence. What a preparer may rely on without verification, where reliance stops, and why reviewing the output stays the preparer's job."
-status: review
+status: published
 taxYear: 2026
 lastReviewed: "2026-08-19"
-reviewedBy: "Draft for I. Ohu review"
+reviewedBy: "I. Ohu"
 authorities:
   - { type: Reg, ref: "§ 1.6694-1(e)", title: "Verification of information furnished by taxpayer or other party", url: "https://www.law.cornell.edu/cfr/text/26/1.6694-1" }
   - { type: Reg, ref: "§ 1.6694-2(e)", title: "Exception for reasonable cause and good faith", url: "https://www.law.cornell.edu/cfr/text/26/1.6694-2" }

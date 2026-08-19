@@ -5,10 +5,10 @@ part: 3
 domain: "Practices and Procedures"
 section: "Requirements for Enrolled Agents"
 description: "The Circular 230 section 10.20 duty to produce records promptly, the good-faith privilege exception, and the separate duty to testify in a disciplinary inquiry."
-status: review
+status: published
 taxYear: 2026
 lastReviewed: "2026-08-18"
-reviewedBy: "Draft for I. Ohu review"
+reviewedBy: "I. Ohu"
 authorities:
   - { type: Circ230, ref: "§ 10.20", title: "Information to be furnished", url: "https://www.law.cornell.edu/cfr/text/31/10.20" }
   - { type: Circ230, ref: "§ 10.51", title: "Incompetence and disreputable conduct", url: "https://www.law.cornell.edu/cfr/text/31/10.51" }

@@ -5,10 +5,10 @@ part: 3
 domain: "Completion of the Filing Process"
 section: "Electronic filing"
 description: "Who is a specified tax return preparer under IRC 6011(e)(3), when a paper return is allowed, and how an automatic exemption differs from a hardship waiver."
-status: review
+status: published
 taxYear: 2026
 lastReviewed: "2026-08-18"
-reviewedBy: "Draft for I. Ohu review"
+reviewedBy: "I. Ohu"
 authorities:
   - { type: IRC, ref: "§ 6011(e)(3)", title: "Special rule for tax return preparers" }
   - { type: Reg, ref: "§ 301.6011-7", title: "Specified tax return preparers required to file individual income tax returns using magnetic media", url: "https://www.law.cornell.edu/cfr/text/26/301.6011-7" }

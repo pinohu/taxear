@@ -5,10 +5,10 @@ part: 3
 domain: "Completion of the Filing Process"
 section: "Record maintenance"
 description: "Protecting taxpayer data is a legal obligation, not a best practice. The FTC Safeguards Rule, the written plan every preparer must have, and what to do after a breach."
-status: review
+status: published
 taxYear: 2026
 lastReviewed: "2026-08-19"
-reviewedBy: "Draft for I. Ohu review"
+reviewedBy: "I. Ohu"
 authorities:
   - { type: Pub, ref: "4557", title: "Safeguarding Taxpayer Data — A Guide for Your Business", url: "https://www.irs.gov/pub/irs-pdf/p4557.pdf" }
   - { type: Pub, ref: "1345", title: "Handbook for Authorized IRS e-file Providers of Individual Income Tax Returns (Rev. 12-2025)", url: "https://www.irs.gov/pub/irs-pdf/p1345.pdf" }

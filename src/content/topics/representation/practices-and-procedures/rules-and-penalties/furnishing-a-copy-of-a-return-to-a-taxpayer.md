@@ -5,10 +5,10 @@ part: 3
 domain: "Practices and Procedures"
 section: "Rules and penalties"
 description: "The IRC 6107(a) duty to give the taxpayer a complete copy before signature, what counts as complete for an e-filed return, and the penalty for getting it wrong."
-status: review
+status: published
 taxYear: 2026
 lastReviewed: "2026-08-18"
-reviewedBy: "Draft for I. Ohu review"
+reviewedBy: "I. Ohu"
 authorities:
   - { type: IRC, ref: "§ 6107(a)", title: "Furnishing copy to taxpayer" }
   - { type: IRC, ref: "§ 6695(a)", title: "Failure to furnish copy to taxpayer" }

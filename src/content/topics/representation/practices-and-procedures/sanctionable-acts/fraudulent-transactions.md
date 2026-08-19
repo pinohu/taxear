@@ -5,10 +5,10 @@ part: 3
 domain: "Practices and Procedures"
 section: "Sanctionable acts"
 description: "What separates avoidance from evasion, the indicators and affirmative acts the IRS looks for, and what a practitioner must do when fraud appears in a client's file."
-status: review
+status: published
 taxYear: 2026
 lastReviewed: "2026-08-18"
-reviewedBy: "Draft for I. Ohu review"
+reviewedBy: "I. Ohu"
 authorities:
   - { type: IRC, ref: "§ 6663", title: "Imposition of fraud penalty" }
   - { type: IRC, ref: "§ 6651(f)", title: "Increase in penalty for fraudulent failure to file" }

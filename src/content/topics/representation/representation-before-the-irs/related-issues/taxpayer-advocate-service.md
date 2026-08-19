@@ -5,10 +5,10 @@ part: 3
 domain: "Representation before the IRS"
 section: "Related Issues"
 description: "TAS is an independent office inside the IRS, and it takes cases on nine stated criteria — hardship, systemic failure, or fair treatment. It is not a second appeal."
-status: review
+status: published
 taxYear: 2026
 lastReviewed: "2026-08-18"
-reviewedBy: "Draft for I. Ohu review"
+reviewedBy: "I. Ohu"
 authorities:
   - { type: IRC, ref: "§ 7803", title: "Commissioner of Internal Revenue — Office of the Taxpayer Advocate at (c)", url: "https://www.law.cornell.edu/uscode/text/26/7803" }
   - { type: IRC, ref: "§ 7811", title: "Taxpayer Assistance Orders", url: "https://www.law.cornell.edu/uscode/text/26/7811" }

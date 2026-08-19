@@ -5,10 +5,10 @@ part: 3
 domain: "Practices and Procedures"
 section: "Sanctionable acts"
 description: "What Circular 230 section 10.51 counts as incompetence or disreputable conduct, how section 10.52 catches rule violations, and how a report of misconduct reaches OPR."
-status: review
+status: published
 taxYear: 2026
 lastReviewed: "2026-08-18"
-reviewedBy: "Draft for I. Ohu review"
+reviewedBy: "I. Ohu"
 authorities:
   - { type: Circ230, ref: "§ 10.50", title: "Sanctions", url: "https://www.law.cornell.edu/cfr/text/31/10.50" }
   - { type: Circ230, ref: "§ 10.51", title: "Incompetence and disreputable conduct", url: "https://www.law.cornell.edu/cfr/text/31/10.51" }

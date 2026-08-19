@@ -5,10 +5,10 @@ part: 3
 domain: "Practices and Procedures"
 section: "Requirements for Enrolled Agents"
 description: "IRC section 6662(d)(2)(C) defines a tax shelter by a significant purpose of tax avoidance, and material advisors owe disclosure and list duties under 6111 and 6112."
-status: review
+status: published
 taxYear: 2026
 lastReviewed: "2026-08-18"
-reviewedBy: "Draft for I. Ohu review"
+reviewedBy: "I. Ohu"
 authorities:
   - { type: IRC, ref: "§ 6662(d)(2)(C)", title: "Reduction not to apply to tax shelters", url: "https://www.law.cornell.edu/uscode/text/26/6662" }
   - { type: IRC, ref: "§ 6111", title: "Disclosure of reportable transactions", url: "https://www.law.cornell.edu/uscode/text/26/6111" }

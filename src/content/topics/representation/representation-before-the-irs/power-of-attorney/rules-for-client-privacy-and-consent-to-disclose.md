@@ -5,10 +5,10 @@ part: 3
 domain: "Representation before the IRS"
 section: "Power of Attorney"
 description: "IRC section 6103(c) governs what the IRS may release on a taxpayer's consent; IRC section 7216 and Reg. 301.7216-3 govern what a preparer may disclose or use."
-status: review
+status: published
 taxYear: 2026
 lastReviewed: "2026-08-18"
-reviewedBy: "Draft for I. Ohu review"
+reviewedBy: "I. Ohu"
 authorities:
   - { type: IRC, ref: "§ 6103(c)", title: "Disclosure of returns and return information to designee of taxpayer", url: "https://www.law.cornell.edu/uscode/text/26/6103" }
   - { type: Reg, ref: "§ 301.6103(c)-1", title: "Disclosure of returns and return information to designee of taxpayer", url: "https://www.law.cornell.edu/cfr/text/26/301.6103(c)-1" }

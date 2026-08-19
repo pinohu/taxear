@@ -5,10 +5,10 @@ part: 3
 domain: "Representation before the IRS"
 section: "Power of Attorney"
 description: "Reg. 601.501 through 601.509 govern conferences, who counts as a recognized representative, what acts need a power of attorney, and when none is required."
-status: review
+status: published
 taxYear: 2026
 lastReviewed: "2026-08-18"
-reviewedBy: "Draft for I. Ohu review"
+reviewedBy: "I. Ohu"
 authorities:
   - { type: Reg, ref: "§ 601.501", title: "Scope of rules; definitions", url: "https://www.law.cornell.edu/cfr/text/26/601.501" }
   - { type: Reg, ref: "§ 601.502", title: "Recognized representative", url: "https://www.law.cornell.edu/cfr/text/26/601.502" }

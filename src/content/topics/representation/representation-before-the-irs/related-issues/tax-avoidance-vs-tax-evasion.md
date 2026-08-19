@@ -5,10 +5,10 @@ part: 3
 domain: "Representation before the IRS"
 section: "Related Issues"
 description: "Avoidance is arranging affairs within the law; evasion is a felony. The line is not the size of the saving — it is willfulness and an affirmative act."
-status: review
+status: published
 taxYear: 2026
 lastReviewed: "2026-08-18"
-reviewedBy: "Draft for I. Ohu review"
+reviewedBy: "I. Ohu"
 authorities:
   - { type: IRC, ref: "§ 7201", title: "Attempt to evade or defeat tax", url: "https://www.law.cornell.edu/uscode/text/26/7201" }
   - { type: IRC, ref: "§ 7203", title: "Willful failure to file return, supply information, or pay tax", url: "https://www.law.cornell.edu/uscode/text/26/7203" }

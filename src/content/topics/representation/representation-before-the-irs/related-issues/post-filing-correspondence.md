@@ -5,10 +5,10 @@ part: 3
 domain: "Representation before the IRS"
 section: "Related issues"
 description: "Math error notices and under-reporting notices are different instruments with different rights, and the 60-day abatement request is the one that must not be missed."
-status: review
+status: published
 taxYear: 2026
 lastReviewed: "2026-08-18"
-reviewedBy: "Draft for I. Ohu review"
+reviewedBy: "I. Ohu"
 authorities:
   - { type: IRC, ref: "§ 6213(b)", title: "Exceptions to restrictions on assessment" }
   - { type: IRC, ref: "§ 6213(g)(2)", title: "Mathematical or clerical error defined" }

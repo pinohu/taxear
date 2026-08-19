@@ -5,10 +5,10 @@ part: 3
 domain: "Completion of the Filing Process"
 section: "Electronic filing"
 description: "What an e-file provider may and may not say: the IRS e-file logo rules, the Treasury seals that are off limits, refund loan disclosure, and the records to keep."
-status: review
+status: published
 taxYear: 2026
 lastReviewed: "2026-08-19"
-reviewedBy: "Draft for I. Ohu review"
+reviewedBy: "I. Ohu"
 authorities:
   - { type: Pub, ref: "3112", title: "IRS e-file Application and Participation (Rev. 11-2025)", url: "https://www.irs.gov/pub/irs-pdf/p3112.pdf" }
   - { type: Pub, ref: "1345", title: "Handbook for Authorized IRS e-file Providers of Individual Income Tax Returns (Rev. 12-2025)", url: "https://www.irs.gov/pub/irs-pdf/p1345.pdf" }

@@ -5,10 +5,10 @@ part: 1
 domain: "Preliminary Work and Taxpayer Data"
 section: "Preliminary work to prepare tax returns"
 description: "Status is fixed on the last day of the year, with exceptions that matter: the dependent parent who need not live with you, and the spouse treated as unmarried."
-status: review
+status: published
 taxYear: 2026
 lastReviewed: "2026-08-19"
-reviewedBy: "Draft for I. Ohu review"
+reviewedBy: "I. Ohu"
 authorities:
   - { type: IRC, ref: "§ 2(a)", title: "Definition of surviving spouse" }
   - { type: IRC, ref: "§ 2(b)", title: "Definition of head of household" }

@@ -5,10 +5,10 @@ part: 3
 domain: "Representation before the IRS"
 section: "Representing a taxpayer in the collection process"
 description: "The two elements of IRC 6672 liability, what the IRS means by responsibility and willfulness, the 60-day letter, and the bond route that stays collection."
-status: review
+status: published
 taxYear: 2026
 lastReviewed: "2026-08-18"
-reviewedBy: "Draft for I. Ohu review"
+reviewedBy: "I. Ohu"
 authorities:
   - { type: IRC, ref: "§ 6672", title: "Failure to collect and pay over tax, or attempt to evade or defeat tax" }
   - { type: IRC, ref: "§ 6671(b)", title: "Person defined" }

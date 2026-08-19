@@ -5,10 +5,10 @@ part: 3
 domain: "Practices and Procedures"
 section: "Requirements for Enrolled Agents"
 description: "Circular 230 section 10.36 makes whoever has principal authority over a firm's tax practice responsible for adequate compliance procedures, on three separate grounds."
-status: review
+status: published
 taxYear: 2026
 lastReviewed: "2026-08-18"
-reviewedBy: "Draft for I. Ohu review"
+reviewedBy: "I. Ohu"
 authorities:
   - { type: Circ230, ref: "§ 10.36", title: "Procedures to ensure compliance", url: "https://www.law.cornell.edu/cfr/text/31/10.36" }
   - { type: Circ230, ref: "§ 10.52", title: "Violations subject to sanction", url: "https://www.law.cornell.edu/cfr/text/31/10.52" }

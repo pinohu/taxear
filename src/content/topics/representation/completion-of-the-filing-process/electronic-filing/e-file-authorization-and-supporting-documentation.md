@@ -5,10 +5,10 @@ part: 3
 domain: "Completion of the Filing Process"
 section: "Electronic filing"
 description: "Forms 8879 and 8878 authorize an ERO to enter a taxpayer's PIN; Form 8453 transmits what cannot be filed electronically. When each is needed and how long to keep them."
-status: review
+status: published
 taxYear: 2026
 lastReviewed: "2026-08-19"
-reviewedBy: "Draft for I. Ohu review"
+reviewedBy: "I. Ohu"
 authorities:
   - { type: Pub, ref: "1345", title: "Handbook for Authorized IRS e-file Providers of Individual Income Tax Returns (Rev. 12-2025)", url: "https://www.irs.gov/pub/irs-pdf/p1345.pdf" }
   - { type: Form, ref: "8879", title: "IRS e-file Signature Authorization" }

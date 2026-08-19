@@ -5,10 +5,10 @@ part: 3
 domain: "Representation before the IRS"
 section: "Related Issues"
 description: "An enrolled agent's authority stops where the IRS stops. Courts admit their own practitioners, and only the Tax Court admits non-attorneys — by examination."
-status: review
+status: published
 taxYear: 2026
 lastReviewed: "2026-08-18"
-reviewedBy: "Draft for I. Ohu review"
+reviewedBy: "I. Ohu"
 authorities:
   - { type: Circ230, ref: "§ 10.2(a)(4)", title: "Practice before the Internal Revenue Service — definition", url: "https://www.law.cornell.edu/cfr/text/31/10.2" }
   - { type: Statute, ref: "31 U.S.C. § 330", title: "Practice before the Department of the Treasury", url: "https://www.law.cornell.edu/uscode/text/31/330" }

@@ -5,10 +5,10 @@ part: 3
 domain: "Specific Types of Representation"
 section: "Representing a taxpayer before Appeals"
 description: "Getting into Appeals: the small case request, the formal written protest, the five things every protest must contain, and the perjury statement a representative signs."
-status: review
+status: published
 taxYear: 2026
 lastReviewed: "2026-08-19"
-reviewedBy: "Draft for I. Ohu review"
+reviewedBy: "I. Ohu"
 authorities:
   - { type: Pub, ref: "5", title: "Your Appeal Rights and How to Prepare a Protest if You Disagree (Rev. 4-2021)", url: "https://www.irs.gov/pub/irs-pdf/p5.pdf" }
   - { type: IRC, ref: "§ 7803(e)(3)", title: "Purposes and duties of the Independent Office of Appeals" }

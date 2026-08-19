@@ -5,10 +5,10 @@ part: 3
 domain: "Representation before the IRS"
 section: "Representing a taxpayer in the collection process"
 description: "What the IRS may abate under IRC 6404 and what a taxpayer may not request, the fixed order of refund offsets, and why an offset is reviewable in no court at all."
-status: review
+status: published
 taxYear: 2026
 lastReviewed: "2026-08-18"
-reviewedBy: "Draft for I. Ohu review"
+reviewedBy: "I. Ohu"
 authorities:
   - { type: IRC, ref: "§ 6402", title: "Authority to make credits or refunds" }
   - { type: IRC, ref: "§ 6404", title: "Abatements" }

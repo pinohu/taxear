@@ -5,10 +5,10 @@ part: 3
 domain: "Representation before the IRS"
 section: "Building the Taxpayer's Case: Preliminary Work"
 description: "Circular 230 § 10.29 defines a conflict two ways and permits representation anyway on three conditions — with written consent inside 30 days and kept 36 months."
-status: review
+status: published
 taxYear: 2026
 lastReviewed: "2026-08-18"
-reviewedBy: "Draft for I. Ohu review"
+reviewedBy: "I. Ohu"
 authorities:
   - { type: Circ230, ref: "§ 10.29", title: "Conflicting interests", url: "https://www.law.cornell.edu/cfr/text/31/10.29" }
   - { type: Circ230, ref: "§ 10.22", title: "Diligence as to accuracy", url: "https://www.law.cornell.edu/cfr/text/31/10.22" }

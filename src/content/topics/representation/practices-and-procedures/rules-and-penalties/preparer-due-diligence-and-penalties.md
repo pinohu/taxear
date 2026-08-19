@@ -5,10 +5,10 @@ part: 3
 domain: "Practices and Procedures"
 section: "Rules and penalties"
 description: "The four due diligence requirements under Reg. 1.6695-2, why the penalty applies per benefit rather than per return, and the narrow exception that answers it."
-status: review
+status: published
 taxYear: 2026
 lastReviewed: "2026-08-18"
-reviewedBy: "Draft for I. Ohu review"
+reviewedBy: "I. Ohu"
 authorities:
   - { type: IRC, ref: "§ 6695(g)", title: "Failure to be diligent in determining eligibility for certain tax benefits" }
   - { type: IRC, ref: "§ 6695(h)", title: "Adjustment for inflation" }

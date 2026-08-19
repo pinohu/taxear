@@ -5,10 +5,10 @@ part: 3
 domain: "Practices and Procedures"
 section: "Rules and penalties"
 description: "The IRC 6107(b) retention duty, the choice between keeping copies and keeping a list, how the three years is measured, and who carries it when a firm dissolves."
-status: review
+status: published
 taxYear: 2026
 lastReviewed: "2026-08-18"
-reviewedBy: "Draft for I. Ohu review"
+reviewedBy: "I. Ohu"
 authorities:
   - { type: IRC, ref: "§ 6107(b)", title: "Copy or list to be retained by tax return preparer" }
   - { type: IRC, ref: "§ 6695(d)", title: "Failure to retain copy or list" }

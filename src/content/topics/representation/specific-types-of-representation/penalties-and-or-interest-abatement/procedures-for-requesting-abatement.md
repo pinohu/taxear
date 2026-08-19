@@ -5,10 +5,10 @@ part: 3
 domain: "Specific Types of Representation"
 section: "Penalties and/or Interest Abatement"
 description: "Form 843 is the abatement and refund claim vehicle, but it cannot be used for income, estate or gift tax, and a separate form is generally needed for each period."
-status: review
+status: published
 taxYear: 2026
 lastReviewed: "2026-08-18"
-reviewedBy: "Draft for I. Ohu review"
+reviewedBy: "I. Ohu"
 authorities:
   - { type: Pub, ref: "Instructions for Form 843 (rev. 12/2024)", title: "Claim for Refund and Request for Abatement", url: "https://www.irs.gov/instructions/i843" }
   - { type: IRC, ref: "§ 6404", title: "Abatements", url: "https://www.law.cornell.edu/uscode/text/26/6404" }

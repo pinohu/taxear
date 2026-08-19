@@ -5,10 +5,10 @@ part: 3
 domain: "Representation before the IRS"
 section: "Legal Authority and References"
 description: "A PLR answers one taxpayer's facts, binds the IRS only as to them, costs a user fee, is published with details removed, and may never be cited as precedent."
-status: review
+status: published
 taxYear: 2026
 lastReviewed: "2026-08-18"
-reviewedBy: "Draft for I. Ohu review"
+reviewedBy: "I. Ohu"
 authorities:
   - { type: Reg, ref: "§ 601.201", title: "Rulings and determination letters", url: "https://www.law.cornell.edu/cfr/text/26/601.201" }
   - { type: IRC, ref: "§ 6110", title: "Public inspection of written determinations", url: "https://www.law.cornell.edu/uscode/text/26/6110" }

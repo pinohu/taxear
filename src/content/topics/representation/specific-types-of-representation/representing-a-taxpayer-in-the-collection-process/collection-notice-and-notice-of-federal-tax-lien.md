@@ -5,10 +5,10 @@ part: 3
 domain: "Representation before the IRS"
 section: "Representing a taxpayer in the collection process"
 description: "How the statutory lien arises, what filing a notice of it actually does, the CDP right that filing triggers, and the four routes to release, withdrawal or discharge."
-status: review
+status: published
 taxYear: 2026
 lastReviewed: "2026-08-18"
-reviewedBy: "Draft for I. Ohu review"
+reviewedBy: "I. Ohu"
 authorities:
   - { type: IRC, ref: "§ 6321", title: "Lien for taxes" }
   - { type: IRC, ref: "§ 6322", title: "Period of lien" }

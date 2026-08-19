@@ -5,10 +5,10 @@ part: 1
 domain: "Preliminary Work and Taxpayer Data"
 section: "Preliminary work to prepare tax returns"
 description: "The intake facts that decide the return: identifying numbers the Code actually requires, the IP PIN, and what a preparer should verify but is not obliged to collect."
-status: review
+status: published
 taxYear: 2026
 lastReviewed: "2026-08-19"
-reviewedBy: "Draft for I. Ohu review"
+reviewedBy: "I. Ohu"
 authorities:
   - { type: IRC, ref: "§ 6109(a)", title: "Supplying of identifying numbers" }
   - { type: IRC, ref: "§ 151(e)", title: "Identifying information required" }

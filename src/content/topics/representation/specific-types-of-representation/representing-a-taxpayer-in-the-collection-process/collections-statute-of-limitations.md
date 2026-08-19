@@ -5,10 +5,10 @@ part: 3
 domain: "Representation before the IRS"
 section: "Representing a taxpayer in the collection process"
 description: "The ten-year collection period under IRC 6502, what suspends it, why the remedies clients ask for extend it, and how to compute a collection statute expiration date."
-status: review
+status: published
 taxYear: 2026
 lastReviewed: "2026-08-18"
-reviewedBy: "Draft for I. Ohu review"
+reviewedBy: "I. Ohu"
 authorities:
   - { type: IRC, ref: "§ 6502", title: "Collection after assessment" }
   - { type: IRC, ref: "§ 6503", title: "Suspension of running of period of limitation" }

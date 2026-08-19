@@ -5,10 +5,10 @@ part: 3
 domain: "Representation before the IRS"
 section: "Taxpayer financial situation"
 description: "What the IRS finds about a client without asking — assessment rolls, vehicle records, credit bureaus, locator services — and why the representative looks first."
-status: review
+status: published
 taxYear: 2026
 lastReviewed: "2026-08-19"
-reviewedBy: "Draft for I. Ohu review"
+reviewedBy: "I. Ohu"
 authorities:
   - { type: IRM, ref: "5.15.1.6", title: "Internal Sources and Online Research", url: "https://www.irs.gov/irm/part5/irm_05-015-001" }
   - { type: IRM, ref: "5.15.1.7", title: "External Sources", url: "https://www.irs.gov/irm/part5/irm_05-015-001" }

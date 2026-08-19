@@ -5,10 +5,10 @@ part: 3
 domain: "Practices and Procedures"
 section: "Rules and penalties"
 description: "Preparer penalties under IRC 6694, 6695, 6701, 6713 and 7216, the accuracy-related categories behind them, and the standards deciding an unreasonable position."
-status: review
+status: published
 taxYear: 2026
 lastReviewed: "2026-08-18"
-reviewedBy: "Draft for I. Ohu review"
+reviewedBy: "I. Ohu"
 authorities:
   - { type: IRC, ref: "§ 6694", title: "Understatement of taxpayer's liability by tax return preparer" }
   - { type: IRC, ref: "§ 6695", title: "Other assessable penalties with respect to the preparation of tax returns" }

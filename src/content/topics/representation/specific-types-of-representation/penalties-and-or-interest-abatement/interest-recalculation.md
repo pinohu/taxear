@@ -5,10 +5,10 @@ part: 3
 domain: "Specific Types of Representation"
 section: "Penalties and/or Interest Abatement"
 description: "Interest runs from the unextended due date at the IRC 6621 rate, compounds daily under 6622, and is recalculated whenever the underlying tax or the period changes."
-status: review
+status: published
 taxYear: 2026
 lastReviewed: "2026-08-18"
-reviewedBy: "Draft for I. Ohu review"
+reviewedBy: "I. Ohu"
 authorities:
   - { type: IRC, ref: "§ 6601", title: "Interest on underpayment, nonpayment, or extensions of time for payment of tax", url: "https://www.law.cornell.edu/uscode/text/26/6601" }
   - { type: IRC, ref: "§ 6621", title: "Determination of rate of interest", url: "https://www.law.cornell.edu/uscode/text/26/6621" }

@@ -5,10 +5,10 @@ part: 3
 domain: "Representation before the IRS"
 section: "Representing a taxpayer in the collection process"
 description: "What a summons may be issued for, who must be notified, the 20-day right to quash, and the referral that strips the IRS of summons authority altogether."
-status: review
+status: published
 taxYear: 2026
 lastReviewed: "2026-08-18"
-reviewedBy: "Draft for I. Ohu review"
+reviewedBy: "I. Ohu"
 authorities:
   - { type: IRC, ref: "§ 7602", title: "Examination of books and witnesses" }
   - { type: IRC, ref: "§ 7603", title: "Service of summons" }

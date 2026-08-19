@@ -5,10 +5,10 @@ part: 3
 domain: "Specific Types of Representation"
 section: "Representing a taxpayer before Appeals"
 description: "How a representative works an Appeals conference: informality, no oath, the evidence rule, the second conference that is not granted, and the ex parte limits."
-status: review
+status: published
 taxYear: 2026
 lastReviewed: "2026-08-19"
-reviewedBy: "Draft for I. Ohu review"
+reviewedBy: "I. Ohu"
 authorities:
   - { type: Reg, ref: "§ 601.106(c)", title: "Nature of proceedings before Appeals", url: "https://www.law.cornell.edu/cfr/text/26/601.106" }
   - { type: Reg, ref: "§ 601.106(f)", title: "Conference and practice requirements — Rules I through IX", url: "https://www.law.cornell.edu/cfr/text/26/601.106" }

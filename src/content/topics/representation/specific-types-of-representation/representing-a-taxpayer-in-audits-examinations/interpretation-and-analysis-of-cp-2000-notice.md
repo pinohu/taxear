@@ -5,10 +5,10 @@ part: 3
 domain: "Representation before the IRS"
 section: "Representing a taxpayer in audits/examinations"
 description: "What a CP2000 is and is not, the three ways to answer it, when an amended return is needed and when it is not, and what follows if it goes unanswered."
-status: review
+status: published
 taxYear: 2026
 lastReviewed: "2026-08-18"
-reviewedBy: "Draft for I. Ohu review"
+reviewedBy: "I. Ohu"
 authorities:
   - { type: IRC, ref: "§ 6212", title: "Notice of deficiency" }
   - { type: IRC, ref: "§ 6213(a)", title: "Time for filing petition and restriction on assessment" }

@@ -5,10 +5,10 @@ part: 3
 domain: "Specific Types of Representation"
 section: "Penalties and/or interest abatement"
 description: "Reasonable cause, the statutory good-faith exception, first-time abate, erroneous written advice, and service error — which ground fits which penalty, and how to ask."
-status: review
+status: published
 taxYear: 2026
 lastReviewed: "2026-08-18"
-reviewedBy: "Draft for I. Ohu review"
+reviewedBy: "I. Ohu"
 authorities:
   - { type: IRC, ref: "§ 6651", title: "Failure to file tax return or to pay tax" }
   - { type: IRC, ref: "§ 6664", title: "Definitions and special rules" }

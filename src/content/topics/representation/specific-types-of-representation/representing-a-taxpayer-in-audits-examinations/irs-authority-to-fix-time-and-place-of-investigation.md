@@ -5,10 +5,10 @@ part: 3
 domain: "Specific Types of Representation"
 section: "Representing a Taxpayer in Audits/Examinations"
 description: "The IRS fixes the time and place of an examination, but only within the bounds of reason — and Reg. § 301.7605-1 sets out when a transfer request will be granted."
-status: review
+status: published
 taxYear: 2026
 lastReviewed: "2026-08-18"
-reviewedBy: "Draft for I. Ohu review"
+reviewedBy: "I. Ohu"
 authorities:
   - { type: IRC, ref: "§ 7605", title: "Time and place of examination", url: "https://www.law.cornell.edu/uscode/text/26/7605" }
   - { type: Reg, ref: "§ 301.7605-1", title: "Time and place of examination", url: "https://www.law.cornell.edu/cfr/text/26/301.7605-1" }

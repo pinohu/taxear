@@ -5,10 +5,10 @@ part: 3
 domain: "Representation before the IRS"
 section: "Building the Taxpayer's Case: Preliminary Work"
 description: "Competence is a defined Circular 230 duty and it is attainable — a practitioner may become competent by consulting experts or studying the law before declining."
-status: review
+status: published
 taxYear: 2026
 lastReviewed: "2026-08-18"
-reviewedBy: "Draft for I. Ohu review"
+reviewedBy: "I. Ohu"
 authorities:
   - { type: Circ230, ref: "§ 10.35", title: "Competence", url: "https://www.law.cornell.edu/cfr/text/31/10.35" }
   - { type: Circ230, ref: "§ 10.22", title: "Diligence as to accuracy", url: "https://www.law.cornell.edu/cfr/text/31/10.22" }

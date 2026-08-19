@@ -5,10 +5,10 @@ part: 3
 domain: "Representation before the IRS"
 section: "Related Issues"
 description: "Timely mailing is timely filing — but only by US mail or a designated service, only to the right address, and never to a court other than the Tax Court."
-status: review
+status: published
 taxYear: 2026
 lastReviewed: "2026-08-18"
-reviewedBy: "Draft for I. Ohu review"
+reviewedBy: "I. Ohu"
 authorities:
   - { type: IRC, ref: "§ 7502", title: "Timely mailing treated as timely filing and paying", url: "https://www.law.cornell.edu/uscode/text/26/7502" }
   - { type: IRC, ref: "§ 7503", title: "Time for performance of acts where last day falls on Saturday, Sunday, or legal holiday", url: "https://www.law.cornell.edu/uscode/text/26/7503" }

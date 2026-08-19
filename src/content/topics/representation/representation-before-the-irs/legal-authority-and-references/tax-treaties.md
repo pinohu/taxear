@@ -5,10 +5,10 @@ part: 3
 domain: "Representation before the IRS"
 section: "Legal Authority and References"
 description: "A treaty and the Code have equal statutory rank, so the later in time generally prevails — and a taxpayer relying on a treaty over the Code must disclose it."
-status: review
+status: published
 taxYear: 2026
 lastReviewed: "2026-08-18"
-reviewedBy: "Draft for I. Ohu review"
+reviewedBy: "I. Ohu"
 authorities:
   - { type: IRC, ref: "§ 894", title: "Income affected by treaty", url: "https://www.law.cornell.edu/uscode/text/26/894" }
   - { type: IRC, ref: "§ 7852", title: "Other applicable rules — treaty obligations at (d)", url: "https://www.law.cornell.edu/uscode/text/26/7852" }

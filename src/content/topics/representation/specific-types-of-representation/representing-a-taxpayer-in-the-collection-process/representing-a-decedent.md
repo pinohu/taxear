@@ -5,10 +5,10 @@ part: 3
 domain: "Representation before the IRS"
 section: "Representing a taxpayer in the collection process"
 description: "Who files for a decedent, how a fiduciary takes on the taxpayer's rights, the personal liability a representative can incur, and the two forms that wind the duty up."
-status: review
+status: published
 taxYear: 2026
 lastReviewed: "2026-08-18"
-reviewedBy: "Draft for I. Ohu review"
+reviewedBy: "I. Ohu"
 authorities:
   - { type: IRC, ref: "§ 6012(b)(1)", title: "Returns of decedents" }
   - { type: IRC, ref: "§ 6903", title: "Notice of fiduciary relationship" }

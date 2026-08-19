@@ -5,10 +5,10 @@ part: 3
 domain: "Representation before the IRS"
 section: "Taxpayer financial situation"
 description: "Reading the whole balance sheet before advising: cash flow, competing creditors, garnishments, the valuation haircuts the IRS applies, and what insolvency means for tax."
-status: review
+status: published
 taxYear: 2026
 lastReviewed: "2026-08-19"
-reviewedBy: "Draft for I. Ohu review"
+reviewedBy: "I. Ohu"
 authorities:
   - { type: IRM, ref: "5.15.1.16", title: "Cash Flow Analysis", url: "https://www.irs.gov/irm/part5/irm_05-015-001" }
   - { type: IRM, ref: "5.15.1.21", title: "Determining Equity in Assets", url: "https://www.irs.gov/irm/part5/irm_05-015-001" }

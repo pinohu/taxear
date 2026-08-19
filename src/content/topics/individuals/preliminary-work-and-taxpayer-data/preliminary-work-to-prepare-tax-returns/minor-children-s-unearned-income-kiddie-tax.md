@@ -5,10 +5,10 @@ part: 1
 domain: "Preliminary Work and Taxpayer Data"
 section: "Preliminary work to prepare tax returns"
 description: "When a child's investment income is taxed at a parent's rate: the age test that reaches past 18, the two-layer threshold, and the election that avoids a return."
-status: review
+status: published
 taxYear: 2026
 lastReviewed: "2026-08-19"
-reviewedBy: "Draft for I. Ohu review"
+reviewedBy: "I. Ohu"
 authorities:
   - { type: IRC, ref: "§ 1(g)", title: "Certain unearned income of children taxed as if parent's income" }
   - { type: IRC, ref: "§ 63(c)(5)", title: "Limitation on standard deduction in the case of certain dependents" }

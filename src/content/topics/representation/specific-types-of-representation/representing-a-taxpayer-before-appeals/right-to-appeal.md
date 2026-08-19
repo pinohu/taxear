@@ -5,10 +5,10 @@ part: 3
 domain: "Specific Types of Representation"
 section: "Representing a taxpayer before Appeals"
 description: "The statutory right to an independent forum: what the Taxpayer First Act made law, when the right exists, and the narrow grounds on which a referral may be denied."
-status: review
+status: published
 taxYear: 2026
 lastReviewed: "2026-08-19"
-reviewedBy: "Draft for I. Ohu review"
+reviewedBy: "I. Ohu"
 authorities:
   - { type: IRC, ref: "§ 7803(e)", title: "Independent Office of Appeals" }
   - { type: IRC, ref: "§ 7803(a)(3)", title: "Execution of duties in accord with taxpayer rights" }

@@ -5,10 +5,10 @@ part: 3
 domain: "Practices and Procedures"
 section: "Requirements for Enrolled Agents"
 description: "Circular 230 section 10.23 is a single sentence against unreasonable delay. What makes delay unreasonable, and which other rules it is usually charged alongside."
-status: review
+status: published
 taxYear: 2026
 lastReviewed: "2026-08-18"
-reviewedBy: "Draft for I. Ohu review"
+reviewedBy: "I. Ohu"
 authorities:
   - { type: Circ230, ref: "§ 10.23", title: "Prompt disposition of pending matters", url: "https://www.law.cornell.edu/cfr/text/31/10.23" }
   - { type: Circ230, ref: "§ 10.20", title: "Information to be furnished", url: "https://www.law.cornell.edu/cfr/text/31/10.20" }

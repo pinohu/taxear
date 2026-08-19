@@ -5,10 +5,10 @@ part: 3
 domain: "Representation before the IRS"
 section: "Power of Attorney"
 description: "Form 2848 is rejected for a general reference on line 3, and lines 5a, 6 and 7 decide what the representative may do and whether prior authorizations survive."
-status: review
+status: published
 taxYear: 2026
 lastReviewed: "2026-08-18"
-reviewedBy: "Draft for I. Ohu review"
+reviewedBy: "I. Ohu"
 authorities:
   - { type: Pub, ref: "Instructions for Form 2848 (rev. 09/2021)", title: "Power of Attorney and Declaration of Representative", url: "https://www.irs.gov/instructions/i2848" }
   - { type: Reg, ref: "§ 601.502", title: "Recognized representative", url: "https://www.law.cornell.edu/cfr/text/26/601.502" }

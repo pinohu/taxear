@@ -5,10 +5,10 @@ part: 3
 domain: "Representation before the IRS"
 section: "Representing a taxpayer in the collection process"
 description: "The two-part refund rule under IRC 6511, the special periods for bad debts, carrybacks and foreign taxes, and why a timely claim can still recover nothing."
-status: review
+status: published
 taxYear: 2026
 lastReviewed: "2026-08-18"
-reviewedBy: "Draft for I. Ohu review"
+reviewedBy: "I. Ohu"
 authorities:
   - { type: IRC, ref: "§ 6511", title: "Limitations on credit or refund" }
   - { type: IRC, ref: "§ 6513", title: "Time return deemed filed and tax considered paid" }

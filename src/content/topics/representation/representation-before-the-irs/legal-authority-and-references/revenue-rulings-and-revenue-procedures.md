@@ -5,10 +5,10 @@ part: 3
 domain: "Representation before the IRS"
 section: "Legal Authority and References"
 description: "A revenue ruling interprets the law; a revenue procedure states how the IRS operates. Both bind the IRS, neither has the force of a regulation, both are retroactive."
-status: review
+status: published
 taxYear: 2026
 lastReviewed: "2026-08-18"
-reviewedBy: "Draft for I. Ohu review"
+reviewedBy: "I. Ohu"
 authorities:
   - { type: Reg, ref: "§ 601.601", title: "Rules and regulations — publication of revenue rulings and revenue procedures at (d)(2)", url: "https://www.law.cornell.edu/cfr/text/26/601.601" }
   - { type: IRC, ref: "§ 7805", title: "Rules and regulations — retroactivity at (b)", url: "https://www.law.cornell.edu/uscode/text/26/7805" }

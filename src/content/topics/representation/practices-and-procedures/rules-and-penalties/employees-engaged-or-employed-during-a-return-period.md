@@ -5,10 +5,10 @@ part: 3
 domain: "Practices and Procedures"
 section: "Rules and penalties"
 description: "The IRC 6060 record of preparers employed during a return period, why the regulation replaced the filed return with a retained record, and who counts as an employer."
-status: review
+status: published
 taxYear: 2026
 lastReviewed: "2026-08-18"
-reviewedBy: "Draft for I. Ohu review"
+reviewedBy: "I. Ohu"
 authorities:
   - { type: IRC, ref: "§ 6060", title: "Information returns of tax return preparers" }
   - { type: IRC, ref: "§ 6695(e)", title: "Failure to file correct information returns" }
