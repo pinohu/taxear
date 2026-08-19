@@ -16,7 +16,7 @@ authorities:
   - { type: IRC, ref: "§ 152(e)", title: "Special rule for divorced parents" }
   - { type: RevProc, ref: "2025-32", title: "Inflation-adjusted items for 2026", url: "https://www.irs.gov/pub/irs-drop/rp-25-32.pdf" }
 forms: []
-related: ["1.1.1.e", "1.1.1.c", "1.1.1.b", "1.1.1.p", "1.1.1.h"]
+related: ["1.1.1.e", "1.1.1.c", "1.1.1.b", "1.1.1.p", "1.1.1.h", "1.1.1.j"]
 changelog:
   - { date: "2026-08-19", summary: "Initial draft against IRC § 152 and Rev. Proc. 2025-32 § 3.23." }
 ---
