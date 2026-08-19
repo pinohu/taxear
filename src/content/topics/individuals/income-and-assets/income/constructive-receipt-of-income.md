@@ -15,7 +15,7 @@ authorities:
   - { type: IRC, ref: "§ 451", title: "General rule for taxable year of inclusion", url: "https://www.law.cornell.edu/uscode/text/26/451" }
   - { type: Reg, ref: "§ 1.451-2", title: "Constructive receipt of income", url: "https://www.law.cornell.edu/cfr/text/26/1.451-2" }
 forms: []
-related: ["1.2.1.b", "1.2.1.a", "1.2.1.c", "1.2.1.h"]
+related: ["1.2.1.b", "1.2.1.a", "1.2.1.c", "1.2.1.h", "1.2.1.j"]
 changelog:
   - { date: "2026-08-19", summary: "Initial draft. Sets out the Reg. § 1.451-2(a) test and its four stated non-limitations for bank deposits, and the IRC § 409A consequences where a deferral arrangement fails." }
 ---

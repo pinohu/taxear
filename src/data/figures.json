@@ -3073,6 +3073,24 @@
       "taxYear": 2026,
       "source": "IRC § 409A(a)(1)(A)(i), (a)(1)(B)(i)(I), (II), (a)(1)(B)(ii) — https://www.law.cornell.edu/uscode/text/26/409A",
       "verified": "2026-08-19"
+    },
+    "constructive.dividend_property": {
+      "value": "money, securities and any other property, but never stock in the distributing corporation or rights to acquire it",
+      "taxYear": 2026,
+      "source": "IRC § 317(a) — https://www.law.cornell.edu/uscode/text/26/317",
+      "verified": "2026-08-19"
+    },
+    "compensation.reasonableness_test": {
+      "value": "whether the payments are reasonable and are in fact payments purely for services — an amount paid as compensation but not in fact as the purchase price of services is not deductible",
+      "taxYear": 2026,
+      "source": "Reg. § 1.162-7(a), (b)(1); IRC § 162(a)(1) — https://www.law.cornell.edu/cfr/text/26/1.162-7",
+      "verified": "2026-08-19"
+    },
+    "constructive.shareholder_loan": {
+      "value": "any below-market loan directly or indirectly between a corporation and any shareholder is within IRC § 7872, subject only to the $10,000 de minimis exception, which itself falls away where a principal purpose is tax avoidance",
+      "taxYear": 2026,
+      "source": "IRC § 7872(c)(1)(C), (c)(3)(A), (c)(3)(B) — https://www.law.cornell.edu/uscode/text/26/7872",
+      "verified": "2026-08-19"
     }
   }
 }
