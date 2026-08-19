@@ -2263,6 +2263,48 @@
       "taxYear": 2026,
       "source": "IRS, Adoption taxpayer identification number Q&A, A4 (page last reviewed 22 February 2026)",
       "verified": "2026-08-19"
+    },
+    "carryover.nol_period": {
+      "value": "indefinite, for a loss arising in a taxable year beginning after 31 December 2017; 20 taxable years for a loss arising before that",
+      "taxYear": 2026,
+      "source": "IRC § 172(b)(1)(A)(ii) — https://www.law.cornell.edu/uscode/text/26/172",
+      "verified": "2026-08-19"
+    },
+    "carryover.nol_limit": {
+      "value": "limited, in a taxable year beginning after 31 December 2020, to 80 percent of taxable income computed without regard to the net operating loss deduction and the deductions under §§ 199A and 250, after first absorbing pre-2018 losses in full",
+      "taxYear": 2026,
+      "source": "IRC § 172(a)(2)",
+      "verified": "2026-08-19"
+    },
+    "carryover.capital_loss_annual": {
+      "value": "$3,000, or $1,500 for a married individual filing a separate return",
+      "taxYear": 2026,
+      "source": "IRC § 1211(b) — https://www.law.cornell.edu/uscode/text/26/1211",
+      "verified": "2026-08-19"
+    },
+    "carryover.capital_loss_period": {
+      "value": "indefinite, with the short-term and long-term components carried forward separately and retaining their character",
+      "taxYear": 2026,
+      "source": "IRC § 1212(b)(1) — https://www.law.cornell.edu/uscode/text/26/1212",
+      "verified": "2026-08-19"
+    },
+    "carryover.charitable_period": {
+      "value": "the 5 succeeding taxable years, in order of time, subject in each year to the same percentage limitation",
+      "taxYear": 2026,
+      "source": "IRC § 170(d)(1)(A) — https://www.law.cornell.edu/uscode/text/26/170",
+      "verified": "2026-08-19"
+    },
+    "carryover.passive": {
+      "value": "carried to the next taxable year as a deduction or credit allocable to the same activity, with no time limit",
+      "taxYear": 2026,
+      "source": "IRC § 469(b) — https://www.law.cornell.edu/uscode/text/26/469",
+      "verified": "2026-08-19"
+    },
+    "carryover.amt_credit": {
+      "value": "the adjusted net minimum tax imposed for all prior taxable years beginning after 1986, less amounts already allowed as a credit",
+      "taxYear": 2026,
+      "source": "IRC § 53(a)-(b) — https://www.law.cornell.edu/uscode/text/26/53",
+      "verified": "2026-08-19"
     }
   }
 }
