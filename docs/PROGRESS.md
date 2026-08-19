@@ -9,10 +9,10 @@ is indexed, and only the owner moves a page there (see `docs/VERIFICATION.md`).
 
 | Part | Topics | Stub | Draft | Review | Published | Words |
 |---|---:|---:|---:|---:|---:|---:|
-| 1. Individuals | 120 | 99 | 0 | 11 | 10 | 47,701 |
+| 1. Individuals | 120 | 98 | 0 | 12 | 10 | 50,011 |
 | 2. Businesses | 119 | 119 | 0 | 0 | 0 | 0 |
 | 3. Representation, Practices and Procedures | 121 | 0 | 0 | 0 | 121 | 257,674 |
-| **All parts** | **360** | **218** | **0** | **11** | **131** | **305,375** |
+| **All parts** | **360** | **217** | **0** | **12** | **131** | **307,685** |
 
 ## Part 1 — Individuals
 
@@ -50,7 +50,7 @@ is indexed, and only the owner moves a page there (see `docs/VERIFICATION.md`).
 | 1.2.1.b | [Interest Income (e.g., taxable and nontaxable)](/individuals/income-and-assets/income/interest-income/) | review | 2,380 | 2026-08-19 |
 | 1.2.1.c | [Dividends and other distributions from mutual funds, corporations, and other entities (e.g., qualified dividends)](/individuals/income-and-assets/income/dividends-and-other-distributions-from-mutual-funds/) | review | 2,357 | 2026-08-19 |
 | 1.2.1.d | [Personal property rental](/individuals/income-and-assets/income/personal-property-rental/) | review | 2,240 | 2026-08-19 |
-| 1.2.1.e | [Gambling income and allowable deductions (e.g., Form W-2G, documentation)](/individuals/income-and-assets/income/gambling-income-and-allowable-deductions/) | stub | — | — |
+| 1.2.1.e | [Gambling income and allowable deductions (e.g., Form W-2G, documentation)](/individuals/income-and-assets/income/gambling-income-and-allowable-deductions/) | review | 2,310 | 2026-08-19 |
 | 1.2.1.f | [Tax treatment of forgiveness of debt (e.g., Form 1099C, foreclosures, insolvency)](/individuals/income-and-assets/income/tax-treatment-of-forgiveness-of-debt/) | stub | — | — |
 | 1.2.1.g | [Tax treatment of a U.S. citizen/resident with foreign income (e.g., tax treaties, Form 2555, Form 3520 and Form 5471)](/individuals/income-and-assets/income/tax-treatment-of-a-u-s-citizen-resident-with-foreign-income/) | stub | — | — |
 | 1.2.1.h | [Other income (e.g., scholarships, barter income, hobby income, alimony, nontaxable combat pay, unearned income, taxable recoveries, NOL, illegal income)](/individuals/income-and-assets/income/other-income/) | stub | — | — |

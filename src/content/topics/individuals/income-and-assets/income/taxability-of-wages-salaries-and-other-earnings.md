@@ -19,7 +19,7 @@ authorities:
   - { type: IRC, ref: "§ 199A", title: "Qualified business income", url: "https://www.law.cornell.edu/uscode/text/26/199A" }
   - { type: Statute, ref: "Pub. L. 119-21", title: "An Act to provide for reconciliation, title VII" }
 forms: []
-related: ["1.1.1.f", "1.1.1.g", "1.1.1.k", "1.2.1.i", "1.2.1.b", "1.2.1.c", "1.2.1.d"]
+related: ["1.1.1.f", "1.1.1.g", "1.1.1.k", "1.2.1.i", "1.2.1.b", "1.2.1.c", "1.2.1.d", "1.2.1.e"]
 changelog:
   - { date: "2026-08-19", summary: "Initial draft. Sets out the new IRC § 224 and § 225 deductions for qualified tips and qualified overtime, both first available in 2026 and both terminating after 2028, and the statutory definition of a tip they introduce." }
 ---

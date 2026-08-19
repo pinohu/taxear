@@ -2947,6 +2947,36 @@
       "taxYear": 2026,
       "source": "IRC § 67(h) as amended by Pub. L. 119-21 § 70110(a), (b)(2) — https://www.law.cornell.edu/uscode/text/26/67",
       "verified": "2026-08-19"
+    },
+    "gambling.loss_limit": {
+      "value": "90 percent of wagering losses for the year, and then only to the extent of gains from wagering transactions — both limits applying for the first time to taxable years beginning after 31 December 2025",
+      "taxYear": 2026,
+      "source": "IRC § 165(d)(1)(A), (B) as amended by Pub. L. 119-21 § 70114(a), (b) — https://www.law.cornell.edu/uscode/text/26/165",
+      "verified": "2026-08-19"
+    },
+    "gambling.expenses_as_losses": {
+      "value": "losses from wagering transactions include any deduction otherwise allowable that is incurred in carrying on a wagering transaction — a rule that ran only from 2018 to 2025 and is now permanent",
+      "taxYear": 2026,
+      "source": "IRC § 165(d)(2) as amended by Pub. L. 119-21 § 70114(a) — https://www.law.cornell.edu/uscode/text/26/165",
+      "verified": "2026-08-19"
+    },
+    "gambling.w2g_threshold": {
+      "value": "$2,000 of winnings for calendar year 2026, replacing the former fixed figures for bingo, keno, slot machines and other wagering, and adjusted for inflation for calendar years after 2026",
+      "taxYear": 2026,
+      "source": "IRC § 6041(a), (h) as amended by Pub. L. 119-21 § 70433(a), (e), (f); Instructions for Forms W-2G and 5754 (Rev. January 2026) — https://www.irs.gov/pub/irs-pdf/iw2g.pdf",
+      "verified": "2026-08-19"
+    },
+    "gambling.withholding_rate": {
+      "value": "regular gambling withholding at 24 percent, 31.58 percent for certain noncash payments, with backup withholding also at 24 percent",
+      "taxYear": 2026,
+      "source": "Instructions for Forms W-2G and 5754 (Rev. January 2026), Withholding; IRC § 3402(q)(1) — https://www.irs.gov/pub/irs-pdf/iw2g.pdf",
+      "verified": "2026-08-19"
+    },
+    "gambling.withholding_trigger": {
+      "value": "proceeds of more than $5,000 from a wagering transaction where the proceeds are at least 300 times the amount wagered, with separate rules for State-conducted lotteries, sweepstakes, wagering pools and pari-mutuel pools",
+      "taxYear": 2026,
+      "source": "IRC § 3402(q)(3)(A)-(C), (q)(4)(A) — https://www.law.cornell.edu/uscode/text/26/3402",
+      "verified": "2026-08-19"
     }
   }
 }
