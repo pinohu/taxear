@@ -2378,6 +2378,78 @@
       "source": "IRC § 72(d)(1)(B)(i), (iii) — https://www.law.cornell.edu/uscode/text/26/72",
       "verified": "2026-08-19"
     },
+    "planloan.aggregation": {
+      "value": "all loans from the plan are added together, and all plans of an employer — determined after applying the controlled group, common control and affiliated service group rules of IRC § 414(b), (c) and (m) — are treated as one plan",
+      "taxYear": 2026,
+      "source": "IRC § 72(p)(2)(A) opening text; § 72(p)(2)(E)(i), (ii) — https://www.law.cornell.edu/uscode/text/26/72",
+      "verified": "2026-08-19"
+    },
+    "planloan.amortization": {
+      "value": "substantially level amortization over the term of the loan, with payments not less frequently than quarterly — suspended for up to one year of a bona fide unpaid leave of absence, but the latest permissible term is not extended",
+      "taxYear": 2026,
+      "source": "IRC § 72(p)(2)(C); Treas. Reg. § 1.72(p)-1, A-9(a) — https://www.law.cornell.edu/cfr/text/26/1.72(p)-1",
+      "verified": "2026-08-19"
+    },
+    "planloan.credit_card": {
+      "value": "no exception at all — a loan made through a credit card or any similar arrangement is a distribution in full, regardless of amount or terms",
+      "taxYear": 2026,
+      "source": "IRC § 72(p)(2)(D) — https://www.law.cornell.edu/uscode/text/26/72",
+      "verified": "2026-08-19"
+    },
+    "planloan.cure_period": {
+      "value": "a plan administrator may allow a cure period for a missed installment, but it cannot run beyond the last day of the calendar quarter following the quarter in which the payment was due",
+      "taxYear": 2026,
+      "source": "Treas. Reg. § 1.72(p)-1, A-10(a) — https://www.law.cornell.edu/cfr/text/26/1.72(p)-1",
+      "verified": "2026-08-19"
+    },
+    "planloan.deemed_distribution": {
+      "value": "taxed under IRC § 72 as if it were an actual distribution, including the additional tax under § 72(t) — but it is not an actual distribution, so it is not eligible for rollover and does not reduce the account balance",
+      "taxYear": 2026,
+      "source": "Treas. Reg. § 1.72(p)-1, A-11(a), (b), A-12, A-13(a)(2) — https://www.law.cornell.edu/cfr/text/26/1.72(p)-1",
+      "verified": "2026-08-19"
+    },
+    "planloan.disaster_increase": {
+      "value": "for a qualified individual borrowing during the applicable period for a qualified disaster, $100,000 replaces $50,000 and the whole nonforfeitable accrued benefit replaces one-half of it, with repayments due in the relief period delayed a year",
+      "taxYear": 2026,
+      "source": "IRC § 72(p)(6)(A)(i), (ii), (B), (C) — https://www.law.cornell.edu/uscode/text/26/72",
+      "verified": "2026-08-19"
+    },
+    "planloan.exemption_conditions": {
+      "value": "available to all participants and beneficiaries on a reasonably equivalent basis, not more generous to highly compensated employees, made under specific plan provisions, bearing a reasonable rate of interest and adequately secured",
+      "taxYear": 2026,
+      "source": "IRC § 4975(d)(1)(A)–(E) — https://www.law.cornell.edu/uscode/text/26/4975",
+      "verified": "2026-08-19"
+    },
+    "planloan.interest_deduction": {
+      "value": "denied for a key employee as defined in IRC § 416(i), and denied to anyone where the loan is secured by amounts attributable to elective deferrals",
+      "taxYear": 2026,
+      "source": "IRC § 72(p)(3)(A), (B)(i), (ii) — https://www.law.cornell.edu/uscode/text/26/72",
+      "verified": "2026-08-19"
+    },
+    "planloan.ira": {
+      "value": "no loan is possible — a qualified employer plan for this purpose is a § 401(a), § 403(a) or § 403(b) plan, and lending between an IRA and its owner is a prohibited transaction whose consequence is loss of the account's status",
+      "taxYear": 2026,
+      "source": "IRC § 72(p)(4)(A)(i); § 4975(c)(1)(B) and § 4975(f)(6)(B)(i)(II), (iii); § 408(e)(2) — https://www.law.cornell.edu/uscode/text/26/72",
+      "verified": "2026-08-19"
+    },
+    "planloan.limit": {
+      "value": "the lesser of $50,000 reduced by the excess of the highest outstanding loan balance during the 1-year period ending the day before the loan over the balance on the day of the loan, or the greater of one-half the present value of the nonforfeitable accrued benefit or $10,000",
+      "taxYear": 2026,
+      "source": "IRC § 72(p)(2)(A)(i), (ii) — https://www.law.cornell.edu/uscode/text/26/72",
+      "verified": "2026-08-19"
+    },
+    "planloan.offset_rollover": {
+      "value": "a qualified plan loan offset amount — one arising solely from plan termination or from severance from employment — may be rolled over as late as the due date, including extensions, for the return for the year of the deemed distribution",
+      "taxYear": 2026,
+      "source": "IRC § 402(c)(3)(C)(i)–(iv) — https://www.law.cornell.edu/uscode/text/26/402",
+      "verified": "2026-08-19"
+    },
+    "planloan.term": {
+      "value": "the loan must by its terms be repayable within 5 years, unless it is used to acquire a dwelling unit that within a reasonable time is to be the participant's principal residence — a test applied when the loan is made",
+      "taxYear": 2026,
+      "source": "IRC § 72(p)(2)(B)(i), (ii) — https://www.law.cornell.edu/uscode/text/26/72",
+      "verified": "2026-08-19"
+    },
     "plr.definition": {
       "value": "a written statement issued to a taxpayer or their authorized representative by the National Office, which interprets and applies the tax laws to a specific set of facts; rulings are issued only by the National Office",
       "taxYear": 2026,
