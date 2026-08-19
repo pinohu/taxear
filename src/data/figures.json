@@ -3163,6 +3163,30 @@
       "taxYear": 2026,
       "source": "IRC § 1235(a)(1), (2) — https://www.law.cornell.edu/uscode/text/26/1235",
       "verified": "2026-08-19"
+    },
+    "salt.cap": {
+      "value": "$40,400 for a taxable year beginning in 2026, halved for a married individual filing separately — rising by 1 percent a year through 2029 and reverting to $10,000 for taxable years beginning after 2029",
+      "taxYear": 2026,
+      "source": "IRC § 164(b)(7)(A)(ii)-(iv) as added by Pub. L. 119-21 § 70120(b) — https://www.law.cornell.edu/uscode/text/26/164",
+      "verified": "2026-08-19"
+    },
+    "salt.phasedown": {
+      "value": "reduced by 30 percent of modified adjusted gross income above $505,000 for 2026, halved for a married individual filing separately, but never reduced below $10,000",
+      "taxYear": 2026,
+      "source": "IRC § 164(b)(7)(B)(i), (ii)(II), (iii) — https://www.law.cornell.edu/uscode/text/26/164",
+      "verified": "2026-08-19"
+    },
+    "recovery.tax_benefit_rule": {
+      "value": "a recovery is excluded from gross income to the extent the amount deducted in the earlier year did not reduce the tax imposed by chapter 1",
+      "taxYear": 2026,
+      "source": "IRC § 111(a) — https://www.law.cornell.edu/uscode/text/26/111",
+      "verified": "2026-08-19"
+    },
+    "recovery.reporting_floor": {
+      "value": "$10 or more of refunds, credits or offsets of State or local income taxes for an individual in a calendar year",
+      "taxYear": 2026,
+      "source": "IRC § 6050E(a) — https://www.law.cornell.edu/uscode/text/26/6050E",
+      "verified": "2026-08-19"
     }
   }
 }

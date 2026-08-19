@@ -9,10 +9,10 @@ is indexed, and only the owner moves a page there (see `docs/VERIFICATION.md`).
 
 | Part | Topics | Stub | Draft | Review | Published | Words |
 |---|---:|---:|---:|---:|---:|---:|
-| 1. Individuals | 120 | 90 | 0 | 20 | 10 | 68,496 |
+| 1. Individuals | 120 | 89 | 0 | 21 | 10 | 70,733 |
 | 2. Businesses | 119 | 119 | 0 | 0 | 0 | 0 |
 | 3. Representation, Practices and Procedures | 121 | 0 | 0 | 0 | 121 | 257,674 |
-| **All parts** | **360** | **209** | **0** | **20** | **131** | **326,170** |
+| **All parts** | **360** | **208** | **0** | **21** | **131** | **328,407** |
 
 ## Part 1 — Individuals
 
@@ -59,7 +59,7 @@ is indexed, and only the owner moves a page there (see `docs/VERIFICATION.md`).
 | 1.2.1.k | [Passive income and loss (e.g., loss limitations)](/individuals/income-and-assets/income/passive-income-and-loss/) | review | 2,355 | 2026-08-19 |
 | 1.2.1.l | [Pass-through income (e.g., Schedule K1, income, deductions, basis, qualified business income (QBI) items)](/individuals/income-and-assets/income/pass-through-income-items/) | review | 2,306 | 2026-08-19 |
 | 1.2.1.m | [Royalties and related expenses](/individuals/income-and-assets/income/royalties-and-related-expenses/) | review | 2,272 | 2026-08-19 |
-| 1.2.1.n | [State/local income tax refund and other itemized deduction recoveries](/individuals/income-and-assets/income/state-local-income-tax-refund-and-other-itemized-deduction/) | stub | — | — |
+| 1.2.1.n | [State/local income tax refund and other itemized deduction recoveries](/individuals/income-and-assets/income/state-local-income-tax-refund-and-other-itemized-deduction/) | review | 2,237 | 2026-08-19 |
 | 1.2.1.o | [1099 MISC, 1099 NEC, 1099 K reporting, irregularities, and corrections](/individuals/income-and-assets/income/1099-misc-1099-nec-1099-k-reporting-irregularities/) | stub | — | — |
 
 **1.2.2 Retirement income**

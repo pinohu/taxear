@@ -19,7 +19,7 @@ authorities:
   - { type: Reg, ref: "§ 1.1001-2", title: "Discharge of liabilities", url: "https://www.law.cornell.edu/cfr/text/26/1.1001-2" }
   - { type: Statute, ref: "Pub. L. 119-21", title: "An Act to provide for reconciliation, title VII" }
 forms: []
-related: ["1.2.1.e", "1.2.1.a", "1.1.1.f", "1.2.1.h", "1.2.1.g"]
+related: ["1.2.1.e", "1.2.1.a", "1.1.1.f", "1.2.1.h", "1.2.1.g", "1.2.1.n"]
 changelog:
   - { date: "2026-08-19", summary: "Initial draft. Records the expiry of the IRC § 108(a)(1)(E) principal residence exclusion for discharges after 2025 and the rewrite of IRC § 108(f)(5) by Pub. L. 119-21 § 70119, which withdrew the broad 2021-2025 student loan discharge exclusion for discharges after 31 December 2025." }
 ---

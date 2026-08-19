@@ -20,7 +20,7 @@ authorities:
   - { type: IRC, ref: "§ 1402", title: "Definitions (self-employment tax)", url: "https://www.law.cornell.edu/uscode/text/26/1402" }
   - { type: Pub, ref: "525", title: "Taxable and Nontaxable Income", url: "https://www.irs.gov/pub/irs-pdf/p525.pdf" }
 forms: []
-related: ["1.2.1.d", "1.2.1.k", "1.2.1.b", "1.2.1.l"]
+related: ["1.2.1.d", "1.2.1.k", "1.2.1.b", "1.2.1.l", "1.2.1.n"]
 changelog:
   - { date: "2026-08-19", summary: "Initial draft. Sets out the reporting split between Schedule E and Schedule C for royalties, the IRC § 611 to § 613A depletion rules with their two ceilings, and the IRC § 1235 capital gain treatment for a transfer of all substantial rights to a patent." }
 ---

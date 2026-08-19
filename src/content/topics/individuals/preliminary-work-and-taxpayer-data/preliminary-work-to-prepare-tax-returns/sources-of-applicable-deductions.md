@@ -23,7 +23,7 @@ authorities:
   - { type: RevProc, ref: "2025-32", title: "Inflation-adjusted items for 2026", url: "https://www.irs.gov/pub/irs-drop/rp-25-32.pdf" }
   - { type: Statute, ref: "Pub. L. 119-21", title: "An Act to provide for reconciliation, title VII" }
 forms: []
-related: ["1.1.1.e", "1.1.1.i", "1.1.1.p", "1.3.1.b", "1.1.1.g", "1.1.1.j"]
+related: ["1.1.1.e", "1.1.1.i", "1.1.1.p", "1.3.1.b", "1.1.1.g", "1.1.1.j", "1.2.1.n"]
 changelog:
   - { date: "2026-08-19", summary: "Initial draft. Records the 2026 arrival of the IRC § 68 itemized-deduction haircut, the IRC § 170(b)(1)(I) charitable floor, the IRC § 170(p) deduction for non-itemizers, and the permanent IRC § 67(h) suspension with its new educator carve-out." }
 ---
