@@ -2204,6 +2204,66 @@
       "source": "IRC § 409A(a)(1)(A)(i), (a)(1)(B)(i)(I), (II), (a)(1)(B)(ii) — https://www.law.cornell.edu/uscode/text/26/409A",
       "verified": "2026-08-19"
     },
+    "nua.aggregation": {
+      "value": "all trusts in a plan are one trust, all pension plans of the employer one plan, all profit-sharing plans one plan, and all stock bonus plans one plan — so the balance must be emptied across the whole category, not just the one account",
+      "taxYear": 2026,
+      "source": "IRC § 402(e)(4)(D)(ii)(I) — https://www.law.cornell.edu/uscode/text/26/402",
+      "verified": "2026-08-19"
+    },
+    "nua.basis": {
+      "value": "the excluded appreciation is not included in the distributee's basis in the securities — basis is the trust's cost, which is the amount taxed as ordinary income in the year of distribution",
+      "taxYear": 2026,
+      "source": "Treas. Reg. § 1.402(a)-1(b)(1)(i) — https://www.law.cornell.edu/cfr/text/26/1.402(a)-1",
+      "verified": "2026-08-19"
+    },
+    "nua.character": {
+      "value": "on a later sale the excluded appreciation is gain from the sale or exchange of a capital asset held long term, whatever the distributee's actual holding period; any further gain above it is long or short term on the distributee's own holding period",
+      "taxYear": 2026,
+      "source": "Treas. Reg. § 1.402(a)-1(b)(1)(i), concluding text — https://www.law.cornell.edu/cfr/text/26/1.402(a)-1",
+      "verified": "2026-08-19"
+    },
+    "nua.definition": {
+      "value": "the excess of the market value of the securities at the time of distribution over their cost or other basis to the trust, taken net across appreciated and depreciated securities, with two distributions in one taxable year treated as one",
+      "taxYear": 2026,
+      "source": "Treas. Reg. § 1.402(a)-1(b)(2)(i) — https://www.law.cornell.edu/cfr/text/26/1.402(a)-1",
+      "verified": "2026-08-19"
+    },
+    "nua.election_out": {
+      "value": "the exclusion applies automatically; the only election is an election not to have it apply, made on the return on which the lump sum distribution is required to be included",
+      "taxYear": 2026,
+      "source": "IRC § 402(e)(4)(B), second sentence — https://www.law.cornell.edu/uscode/text/26/402",
+      "verified": "2026-08-19"
+    },
+    "nua.eligible_plans": {
+      "value": "only a trust forming part of a § 401(a) plan and exempt under § 501, or a § 403(a) plan — no IRA of any kind can produce it, so a rollover of the securities to an IRA ends the opportunity permanently",
+      "taxYear": 2026,
+      "source": "IRC § 402(e)(4)(D)(i), closing text — https://www.law.cornell.edu/uscode/text/26/402",
+      "verified": "2026-08-19"
+    },
+    "nua.exclusion": {
+      "value": "on a lump sum distribution that includes employer securities, the net unrealized appreciation attributable to that part of the distribution is excluded from gross income",
+      "taxYear": 2026,
+      "source": "IRC § 402(e)(4)(B) — https://www.law.cornell.edu/uscode/text/26/402",
+      "verified": "2026-08-19"
+    },
+    "nua.lump_sum": {
+      "value": "the distribution within one taxable year of the recipient of the balance to the credit of the employee, payable on death, after age 59½, on separation from service, or after disability — from a § 401(a) exempt trust or a § 403(a) plan",
+      "taxYear": 2026,
+      "source": "IRC § 402(e)(4)(D)(i)(I)–(IV) — https://www.law.cornell.edu/uscode/text/26/402",
+      "verified": "2026-08-19"
+    },
+    "nua.non_lump_sum": {
+      "value": "on a distribution that is not a lump sum, only the net unrealized appreciation attributable to amounts contributed by the employee is left out — and not at all where the distribution is rolled over under IRC § 402(c)",
+      "taxYear": 2026,
+      "source": "IRC § 402(e)(4)(A) — https://www.law.cornell.edu/uscode/text/26/402",
+      "verified": "2026-08-19"
+    },
+    "nua.securities": {
+      "value": "only shares of stock and bonds or debentures issued by a corporation with interest coupons or in registered form, including securities of a parent or subsidiary corporation as defined in IRC § 424(e) and (f)",
+      "taxYear": 2026,
+      "source": "IRC § 402(e)(4)(E)(i), (ii) — https://www.law.cornell.edu/uscode/text/26/402",
+      "verified": "2026-08-19"
+    },
     "offset.priority": {
       "value": "internal revenue tax first, then past-due child support, then debts owed to federal agencies, then past-due state income tax, then covered unemployment compensation debts",
       "taxYear": 2026,

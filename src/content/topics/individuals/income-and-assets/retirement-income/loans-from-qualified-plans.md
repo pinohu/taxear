@@ -16,7 +16,7 @@ authorities:
   - { type: IRC, ref: "§ 4975", title: "Tax on prohibited transactions", url: "https://www.law.cornell.edu/uscode/text/26/4975" }
   - { type: Reg, ref: "§ 1.72(p)-1", title: "Loans treated as distributions", url: "https://www.law.cornell.edu/cfr/text/26/1.72(p)-1" }
 forms: []
-related: ["1.2.2.c", "1.2.2.e", "1.2.2.f", "1.2.2.a", "1.2.2.h"]
+related: ["1.2.2.c", "1.2.2.e", "1.2.2.f", "1.2.2.a", "1.2.2.h", "1.2.2.k"]
 changelog:
   - { date: "2026-08-19", summary: "Initial draft. Sets out the IRC § 72(p)(1) rule that a plan loan is a distribution, the § 72(p)(2) exception and its four conditions, the Treas. Reg. § 1.72(p)-1 distinction between a deemed distribution and a plan loan offset, the § 402(c)(3)(C) extended rollover window for a qualified offset, and the § 4975(f)(6)(B)(iii) loan exception that leaves owner-employees able to borrow while IRA owners cannot." }
 ---
