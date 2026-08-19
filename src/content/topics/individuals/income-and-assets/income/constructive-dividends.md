@@ -20,7 +20,7 @@ authorities:
   - { type: Reg, ref: "§ 1.162-7", title: "Compensation for personal services", url: "https://www.law.cornell.edu/cfr/text/26/1.162-7" }
   - { type: Reg, ref: "§ 1.301-1", title: "Rules applicable with respect to distributions of money and other property", url: "https://www.law.cornell.edu/cfr/text/26/1.301-1" }
 forms: []
-related: ["1.2.1.c", "1.2.1.b", "1.2.1.a", "1.2.1.i"]
+related: ["1.2.1.c", "1.2.1.b", "1.2.1.a", "1.2.1.i", "1.2.1.k"]
 changelog:
   - { date: "2026-08-19", summary: "Initial draft. Sets out the IRC § 301 and § 316 route by which an undeclared benefit becomes a dividend, the Reg. § 1.162-7(b)(1) reasonableness test, and the IRC § 7872(c)(1)(C) treatment of corporation-shareholder loans." }
 ---

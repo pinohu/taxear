@@ -9,10 +9,10 @@ is indexed, and only the owner moves a page there (see `docs/VERIFICATION.md`).
 
 | Part | Topics | Stub | Draft | Review | Published | Words |
 |---|---:|---:|---:|---:|---:|---:|
-| 1. Individuals | 120 | 93 | 0 | 17 | 10 | 61,563 |
+| 1. Individuals | 120 | 92 | 0 | 18 | 10 | 63,918 |
 | 2. Businesses | 119 | 119 | 0 | 0 | 0 | 0 |
 | 3. Representation, Practices and Procedures | 121 | 0 | 0 | 0 | 121 | 257,674 |
-| **All parts** | **360** | **212** | **0** | **17** | **131** | **319,237** |
+| **All parts** | **360** | **211** | **0** | **18** | **131** | **321,592** |
 
 ## Part 1 — Individuals
 
@@ -56,7 +56,7 @@ is indexed, and only the owner moves a page there (see `docs/VERIFICATION.md`).
 | 1.2.1.h | [Other income (e.g., scholarships, barter income, hobby income, alimony, nontaxable combat pay, unearned income, taxable recoveries, NOL, illegal income)](/individuals/income-and-assets/income/other-income/) | review | 2,327 | 2026-08-19 |
 | 1.2.1.i | [Constructive receipt of income](/individuals/income-and-assets/income/constructive-receipt-of-income/) | review | 2,310 | 2026-08-19 |
 | 1.2.1.j | [Constructive dividends (e.g., payments of personal expenses from a business entity)](/individuals/income-and-assets/income/constructive-dividends/) | review | 2,254 | 2026-08-19 |
-| 1.2.1.k | [Passive income and loss (e.g., loss limitations)](/individuals/income-and-assets/income/passive-income-and-loss/) | stub | — | — |
+| 1.2.1.k | [Passive income and loss (e.g., loss limitations)](/individuals/income-and-assets/income/passive-income-and-loss/) | review | 2,355 | 2026-08-19 |
 | 1.2.1.l | [Pass-through income (e.g., Schedule K1, income, deductions, basis, qualified business income (QBI) items)](/individuals/income-and-assets/income/pass-through-income-items/) | stub | — | — |
 | 1.2.1.m | [Royalties and related expenses](/individuals/income-and-assets/income/royalties-and-related-expenses/) | stub | — | — |
 | 1.2.1.n | [State/local income tax refund and other itemized deduction recoveries](/individuals/income-and-assets/income/state-local-income-tax-refund-and-other-itemized-deduction/) | stub | — | — |
