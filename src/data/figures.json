@@ -1585,6 +1585,36 @@
       "taxYear": 2026,
       "source": "IRS reliance page (last reviewed 5 December 2025), citing Reg. § 1.6662-4(d) — https://www.irs.gov/newsroom/general-overview-of-taxpayer-reliance-on-guidance-published-in-the-internal-revenue-bulletin-and-faqs",
       "verified": "2026-08-18"
+    },
+    "treaty.no_preference": {
+      "value": "in determining the relationship between a treaty provision and any United States revenue law, neither the treaty nor the law has preferential status by reason of being a treaty or a law — so the later in time generally prevails",
+      "taxYear": 2026,
+      "source": "IRC § 7852(d)(1) — https://www.law.cornell.edu/uscode/text/26/7852",
+      "verified": "2026-08-18"
+    },
+    "treaty.due_regard": {
+      "value": "the provisions of the title are applied to any taxpayer with due regard to any treaty obligation of the United States that applies to that taxpayer",
+      "taxYear": 2026,
+      "source": "IRC § 894(a)(1) — https://www.law.cornell.edu/uscode/text/26/894",
+      "verified": "2026-08-18"
+    },
+    "treaty.disclosure": {
+      "value": "a taxpayer taking the position that a treaty overrules or otherwise modifies an internal revenue law must disclose that position on the return, or on a statement attached to it, or in the form the Secretary prescribes where no return is required — the Secretary may waive the requirement for classes of cases",
+      "taxYear": 2026,
+      "source": "IRC § 6114 — https://www.law.cornell.edu/uscode/text/26/6114",
+      "verified": "2026-08-18"
+    },
+    "treaty.disclosure_penalty": {
+      "value": "$1,000 per failure, or $10,000 in the case of a C corporation, waivable in whole or part on a showing of reasonable cause and good faith, and in addition to any other penalty imposed by law",
+      "taxYear": 2026,
+      "source": "IRC § 6712 — https://www.law.cornell.edu/uscode/text/26/6712",
+      "verified": "2026-08-18"
+    },
+    "treaty.saving_clause": {
+      "value": "most income tax treaties contain a saving clause, which prevents a citizen or resident of the United States from using the treaty to avoid taxation of U.S. source income",
+      "taxYear": 2026,
+      "source": "IRS, \"United States income tax treaties — A to Z,\" page last reviewed 3 January 2026 — https://www.irs.gov/businesses/international-businesses/united-states-income-tax-treaties-a-to-z",
+      "verified": "2026-08-18"
     }
   }
 }
