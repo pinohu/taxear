@@ -2005,6 +2005,36 @@
       "taxYear": 2026,
       "source": "Publication 1345, Handbook for Authorized IRS e-file Providers of Individual Income Tax Returns (Rev. 12-2025)",
       "verified": "2026-08-19"
+    },
+    "efile.sanction.levels": {
+      "value": "3 — Level One (little or no adverse impact), Level Two (adverse impact, including a continued Level One infraction after it was brought to the provider's attention), Level Three (significant adverse impact, including a continued Level Two infraction after notice)",
+      "taxYear": 2026,
+      "source": "Publication 3112, IRS e-file Application and Participation (Rev. 11-2025), Sanctioning, Levels of Infractions and Administrative Review Process",
+      "verified": "2026-08-19"
+    },
+    "efile.sanction.suspension": {
+      "value": "one or two years from the effective date of the sanction, depending on the severity of the infraction",
+      "taxYear": 2026,
+      "source": "Publication 3112, IRS e-file Application and Participation (Rev. 11-2025), Sanctioning, Levels of Infractions and Administrative Review Process",
+      "verified": "2026-08-19"
+    },
+    "efile.sanction.effective": {
+      "value": "30 days after the date of the letter informing of the sanction, or the date the reviewing office or the Independent Office of Appeals affirms it, whichever is later",
+      "taxYear": 2026,
+      "source": "Publication 3112, IRS e-file Application and Participation (Rev. 11-2025), Sanctioning, Levels of Infractions and Administrative Review Process",
+      "verified": "2026-08-19"
+    },
+    "efile.review.deadline": {
+      "value": "30 calendar days from the date of the denial or sanction letter, at each step",
+      "taxYear": 2026,
+      "source": "Publication 3112, IRS e-file Application and Participation (Rev. 11-2025), Sanctioning, Levels of Infractions and Administrative Review Process",
+      "verified": "2026-08-19"
+    },
+    "efile.expulsion.reconsideration": {
+      "value": "five years from the date the firm was expelled, or five years after the individual completed rehabilitation",
+      "taxYear": 2026,
+      "source": "Publication 3112, IRS e-file Application and Participation (Rev. 11-2025), Sanctioning, Levels of Infractions and Administrative Review Process",
+      "verified": "2026-08-19"
     }
   }
 }

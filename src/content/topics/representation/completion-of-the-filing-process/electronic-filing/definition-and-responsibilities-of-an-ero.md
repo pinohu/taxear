@@ -15,7 +15,7 @@ authorities:
   - { type: IRC, ref: "§ 6695(g)", title: "Failure to be diligent in determining eligibility for certain tax benefits" }
   - { type: Form, ref: "8453", title: "U.S. Individual Income Tax Transmittal for an IRS e-file Return" }
 forms: ["8453"]
-related: ["3.4.3.a", "3.4.3.b", "3.1.4.c", "3.4.3.i", "3.4.3.c", "3.4.3.h"]
+related: ["3.4.3.a", "3.4.3.b", "3.1.4.c", "3.4.3.i", "3.4.3.c", "3.4.3.h", "3.4.3.f"]
 changelog:
   - { date: "2026-08-19", summary: "Initial draft against Publications 1345 (Rev. 12-2025) and 3112 (Rev. 11-2025)." }
 ---
