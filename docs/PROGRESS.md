@@ -9,10 +9,10 @@ is indexed, and only the owner moves a page there (see `docs/VERIFICATION.md`).
 
 | Part | Topics | Stub | Draft | Review | Published | Words |
 |---|---:|---:|---:|---:|---:|---:|
-| 1. Individuals | 120 | 108 | 0 | 2 | 10 | 26,115 |
+| 1. Individuals | 120 | 107 | 0 | 3 | 10 | 28,546 |
 | 2. Businesses | 119 | 119 | 0 | 0 | 0 | 0 |
 | 3. Representation, Practices and Procedures | 121 | 0 | 0 | 0 | 121 | 257,674 |
-| **All parts** | **360** | **227** | **0** | **2** | **131** | **283,789** |
+| **All parts** | **360** | **226** | **0** | **3** | **131** | **286,220** |
 
 ## Part 1 — Individuals
 
@@ -27,7 +27,7 @@ is indexed, and only the owner moves a page there (see `docs/VERIFICATION.md`).
 | 1.1.1.c | [Residency status and/or citizenship (e.g., citizen, visas, green cards, resident alien or non-resident alien, ITIN)](/individuals/preliminary-work-and-taxpayer-data/preliminary-work-to-prepare-tax-returns/residency-status-and-or-citizenship/) | **published** | 2,238 | 2026-08-19 |
 | 1.1.1.d | [Filing requirements and due date](/individuals/preliminary-work-and-taxpayer-data/preliminary-work-to-prepare-tax-returns/filing-requirements-and-due-date/) | **published** | 2,157 | 2026-08-19 |
 | 1.1.1.e | [Taxpayer filing status (e.g., single, head of household)](/individuals/preliminary-work-and-taxpayer-data/preliminary-work-to-prepare-tax-returns/taxpayer-filing-status/) | **published** | 2,468 | 2026-08-19 |
-| 1.1.1.f | [Sources of all worldwide taxable and nontaxable income (e.g., interest, wages, business, sales of property, dividends, rental income, flow- through entities, alimony received)](/individuals/preliminary-work-and-taxpayer-data/preliminary-work-to-prepare-tax-returns/sources-of-all-worldwide-taxable-and-nontaxable-income/) | stub | — | — |
+| 1.1.1.f | [Sources of all worldwide taxable and nontaxable income (e.g., interest, wages, business, sales of property, dividends, rental income, flow- through entities, alimony received)](/individuals/preliminary-work-and-taxpayer-data/preliminary-work-to-prepare-tax-returns/sources-of-all-worldwide-taxable-and-nontaxable-income/) | review | 2,431 | 2026-08-19 |
 | 1.1.1.g | [Sources of applicable exclusions and adjustments to gross income (e.g., foreign earned income exclusion, retirement plans, HSAs, alimony paid, health insurance, self-employment tax)](/individuals/preliminary-work-and-taxpayer-data/preliminary-work-to-prepare-tax-returns/sources-of-applicable-exclusions-and-adjustments-to-gross/) | stub | — | — |
 | 1.1.1.h | [Sources of applicable deductions (e.g., itemized, standard)](/individuals/preliminary-work-and-taxpayer-data/preliminary-work-to-prepare-tax-returns/sources-of-applicable-deductions/) | review | 2,497 | 2026-08-19 |
 | 1.1.1.i | [Qualifications for dependency](/individuals/preliminary-work-and-taxpayer-data/preliminary-work-to-prepare-tax-returns/qualifications-for-dependency/) | **published** | 2,102 | 2026-08-19 |

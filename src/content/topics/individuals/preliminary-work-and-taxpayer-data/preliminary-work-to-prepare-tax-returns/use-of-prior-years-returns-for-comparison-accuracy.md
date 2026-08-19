@@ -18,7 +18,7 @@ authorities:
   - { type: IRC, ref: "§ 469(b)", title: "Disallowed loss or credit carried to next year" }
   - { type: IRC, ref: "§ 53", title: "Credit for prior year minimum tax liability" }
 forms: []
-related: ["1.1.1.d", "1.1.1.e", "1.5.1.g", "1.1.1.l"]
+related: ["1.1.1.d", "1.1.1.e", "1.5.1.g", "1.1.1.l", "1.1.1.f"]
 changelog:
   - { date: "2026-08-19", summary: "Initial draft." }
 ---
