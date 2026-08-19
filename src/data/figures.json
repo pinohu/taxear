@@ -3313,6 +3313,36 @@
       "taxYear": 2026,
       "source": "IRC § 219(c)(1)(A), (B) — https://www.law.cornell.edu/uscode/text/26/219",
       "verified": "2026-08-19"
+    },
+    "excess.excise_tax": {
+      "value": "6 percent of the excess contributions determined at the close of the taxable year, capped at 6 percent of the account value at that date — imposed for **each** taxable year the excess remains, and payable by the individual",
+      "taxYear": 2026,
+      "source": "IRC § 4973(a) — https://www.law.cornell.edu/uscode/text/26/4973",
+      "verified": "2026-08-19"
+    },
+    "excess.accounts_covered": {
+      "value": "six kinds of account — individual retirement accounts and annuities, Archer MSAs, IRC § 403(b)(7)(A) custodial accounts, Coverdell education savings accounts, health savings accounts and ABLE accounts",
+      "taxYear": 2026,
+      "source": "IRC § 4973(a)(1)-(6) — https://www.law.cornell.edu/uscode/text/26/4973",
+      "verified": "2026-08-19"
+    },
+    "excess.timely_correction": {
+      "value": "distribution received on or before the due date including extensions, no IRC § 219 deduction taken for the contribution, and the distribution accompanied by the net income attributable — with that net income treated as earned in the year the contribution was made",
+      "taxYear": 2026,
+      "source": "IRC § 408(d)(4)(A)-(C) — https://www.law.cornell.edu/uscode/text/26/408",
+      "verified": "2026-08-19"
+    },
+    "deferral.limit": {
+      "value": "$24,500 of elective deferrals for 2026, adjusted from the $15,000 still printed in IRC § 402(g)(1)(B)",
+      "taxYear": 2026,
+      "source": "Notice 2025-67, adjusting IRC § 402(g)(1)(B) — https://www.irs.gov/pub/irs-drop/n-25-67.pdf",
+      "verified": "2026-08-19"
+    },
+    "deferral.correction_dates": {
+      "value": "allocate the excess among the plans by 1 March following the close of the taxable year, and each plan may distribute its allocated share with allocable income by 15 April following that close",
+      "taxYear": 2026,
+      "source": "IRC § 402(g)(2)(A)(i), (ii) — https://www.law.cornell.edu/uscode/text/26/402",
+      "verified": "2026-08-19"
     }
   }
 }
