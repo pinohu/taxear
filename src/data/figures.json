@@ -1297,6 +1297,48 @@
       "taxYear": 2026,
       "source": "Instructions for Form 8275 (Rev. 10/2024), \"Reasonable basis\"; Reg. §§ 1.6662-4(d), 1.6662-3(b)(3) — https://www.irs.gov/instructions/i8275",
       "verified": "2026-08-18"
+    },
+    "summons.7609_notice": {
+      "value": "notice to the identified person within 3 days of service, and no later than the 23rd day before the day fixed in the summons for examination of the records — accompanied by a copy of the summons served and an explanation of the right to bring a proceeding to quash",
+      "taxYear": 2026,
+      "source": "IRC § 7609(a)(1) — https://www.law.cornell.edu/uscode/text/26/7609",
+      "verified": "2026-08-18"
+    },
+    "summons.7609_quash": {
+      "value": "a proceeding to quash must be begun not later than the 20th day after notice is given, and within the same 20 days a copy of the petition must be mailed by registered or certified mail to the person summoned and to the office the Secretary directs in the notice",
+      "taxYear": 2026,
+      "source": "IRC § 7609(b)(2)(A)–(B) — https://www.law.cornell.edu/uscode/text/26/7609",
+      "verified": "2026-08-18"
+    },
+    "summons.7609_exceptions": {
+      "value": "5 — a summons served on the person whose liability is in issue or their officer or employee; one issued to determine whether records of an identified person's business transactions have been made or kept; one issued solely to identify a person with a numbered account; one issued in aid of collection of an assessment or judgment against that person, or of a transferee's or fiduciary's liability; and one issued by an IRS criminal investigator and served on someone who is not a third-party recordkeeper",
+      "taxYear": 2026,
+      "source": "IRC § 7609(c)(2) — https://www.law.cornell.edu/uscode/text/26/7609",
+      "verified": "2026-08-18"
+    },
+    "summons.7609_suspension": {
+      "value": "the § 6501 assessment and § 6531 criminal periods are suspended while a proceeding brought by the taxpayer under § 7609(b) and any appeals are pending; and, for anyone else, from 6 months after service of the summons until the summoned party's response is finally resolved",
+      "taxYear": 2026,
+      "source": "IRC § 7609(e)(1)–(2) — https://www.law.cornell.edu/uscode/text/26/7609",
+      "verified": "2026-08-18"
+    },
+    "summons.john_doe": {
+      "value": "3 findings a court must make before a John Doe summons may be served — that it relates to the investigation of a particular person or ascertainable group or class; that there is a reasonable basis for believing they may have failed to comply with an internal revenue law; and that the information is not readily available from other sources — and the information sought must be narrowly tailored to that failure",
+      "taxYear": 2026,
+      "source": "IRC § 7609(f) — https://www.law.cornell.edu/uscode/text/26/7609",
+      "verified": "2026-08-18"
+    },
+    "summons.service": {
+      "value": "an attested copy delivered in hand to the person to whom it is directed, or left at that person's last and usual place of abode — with the additional option, for a third-party recordkeeper, of certified or registered mail to the last known address",
+      "taxYear": 2026,
+      "source": "IRC § 7603(a)–(b)(1) — https://www.law.cornell.edu/uscode/text/26/7603",
+      "verified": "2026-08-18"
+    },
+    "summons.recordkeepers": {
+      "value": "banks, savings institutions and credit unions; consumer reporting agencies; persons extending credit through credit cards or similar devices; brokers; attorneys; accountants; barter exchanges; regulated investment companies and their agents; enrolled agents; and owners or developers of computer software source code",
+      "taxYear": 2026,
+      "source": "IRC § 7603(b)(2) — https://www.law.cornell.edu/uscode/text/26/7603",
+      "verified": "2026-08-18"
     }
   }
 }

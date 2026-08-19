@@ -21,7 +21,7 @@ blocked on a figure. `npm run verify` reports 0 errors.
 | 3.2.1 Power of attorney | **11 / 11** |
 | 3.1.3 Sanctionable acts | **4 / 4** |
 | 3.1.4 Rules and penalties | **7 / 7** |
-| 3.2.6 Related issues | 8 / 10 |
+| 3.2.6 Related issues | 9 / 10 |
 | 3.3.1 Collection process | 9 / 16 |
 | 3.3.2 Penalties and interest abatement | **5 / 5** |
 | 3.3.3 Audits and examinations | **9 / 9** |
@@ -63,6 +63,7 @@ deposit pages.
 | 3.2.6.f | tax avoidance vs. tax evasion — IRC §§ 7201, 7203, 7206, 7212, 6663, 18 U.S.C. § 3571 |
 | 3.2.6.i | identity theft — the IRS IP PIN and identity theft guide pages |
 | 3.2.6.g | tax return disclosure statements — Forms 8275 and 8275-R instructions |
+| 3.2.6.d | third-party correspondence — IRC §§ 7609 and 7603 |
 | 3.4.3.b | e-file mandate and exceptions |
 
 Forms: 2848, 8821, 1040-X, 843, 656, 9465, 12153, 9423, 6118, 8867, 8948, 8944, 8453,
@@ -84,7 +85,7 @@ Prefer depth over breadth. Each of these sits beside a page that already exists,
 
 | Codes | Why next |
 |---|---|
-| 3.2.6.c–d | Related issues. Two topics left — deadlines and timeliness, third-party correspondence |
+| 3.2.6.c | Deadlines and timeliness requirements — the last of 3.2.6 |
 | 3.4.3.a, c–i | Completes electronic filing, mostly from Pub. 3112 and Pub. 1345 |
 
 ### Open item — the annual adequate-disclosure revenue procedure

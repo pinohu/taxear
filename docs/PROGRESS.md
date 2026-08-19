@@ -11,8 +11,8 @@ is indexed, and only the owner moves a page there (see `docs/VERIFICATION.md`).
 |---|---:|---:|---:|---:|---:|---:|
 | 1. Individuals | 120 | 120 | 0 | 0 | 0 | 0 |
 | 2. Businesses | 119 | 119 | 0 | 0 | 0 | 0 |
-| 3. Representation, Practices and Procedures | 121 | 42 | 0 | 79 | 0 | 162,278 |
-| **All parts** | **360** | **281** | **0** | **79** | **0** | **162,278** |
+| 3. Representation, Practices and Procedures | 121 | 41 | 0 | 80 | 0 | 164,776 |
+| **All parts** | **360** | **280** | **0** | **80** | **0** | **164,776** |
 
 ## Part 1 — Individuals
 
@@ -531,7 +531,7 @@ is indexed, and only the owner moves a page there (see `docs/VERIFICATION.md`).
 | 3.2.6.a | [Statute of limitations](/representation/representation-before-the-irs/related-issues/statute-of-limitations/) | review | 2,496 | 2026-08-18 |
 | 3.2.6.b | [Post-filing correspondence (e.g., math error notices, under-reporting notices)](/representation/representation-before-the-irs/related-issues/post-filing-correspondence/) | review | 1,814 | 2026-08-18 |
 | 3.2.6.c | [Deadlines and timeliness requirements](/representation/representation-before-the-irs/related-issues/deadlines-and-timeliness-requirements/) | stub | — | — |
-| 3.2.6.d | [Third-party correspondence (e.g., witness communications, employment records)](/representation/representation-before-the-irs/related-issues/third-party-correspondence/) | stub | — | — |
+| 3.2.6.d | [Third-party correspondence (e.g., witness communications, employment records)](/representation/representation-before-the-irs/related-issues/third-party-correspondence/) | review | 2,498 | 2026-08-18 |
 | 3.2.6.e | [Freedom of Information Act (FOIA) requests](/representation/representation-before-the-irs/related-issues/freedom-of-information-act-foia-requests/) | review | 2,328 | 2026-08-18 |
 | 3.2.6.f | [Tax avoidance vs. tax evasion](/representation/representation-before-the-irs/related-issues/tax-avoidance-vs-tax-evasion/) | review | 2,493 | 2026-08-18 |
 | 3.2.6.g | [Tax return disclosure statements](/representation/representation-before-the-irs/related-issues/tax-return-disclosure-statements/) | review | 2,484 | 2026-08-18 |
