@@ -2977,6 +2977,36 @@
       "taxYear": 2026,
       "source": "IRC § 3402(q)(3)(A)-(C), (q)(4)(A) — https://www.law.cornell.edu/uscode/text/26/3402",
       "verified": "2026-08-19"
+    },
+    "cod.exclusions": {
+      "value": "five — a discharge in a title 11 case, a discharge while insolvent, qualified farm indebtedness, qualified real property business indebtedness for a taxpayer other than a C corporation, and qualified principal residence indebtedness, the last reaching only discharges before 1 January 2026 or under a written arrangement entered into before that date",
+      "taxYear": 2026,
+      "source": "IRC § 108(a)(1)(A)-(E) — https://www.law.cornell.edu/uscode/text/26/108",
+      "verified": "2026-08-19"
+    },
+    "cod.insolvency_measure": {
+      "value": "the excess of liabilities over the fair market value of assets, determined immediately before the discharge, and the exclusion cannot exceed that amount",
+      "taxYear": 2026,
+      "source": "IRC § 108(a)(3), (d)(3) — https://www.law.cornell.edu/uscode/text/26/108",
+      "verified": "2026-08-19"
+    },
+    "cod.attribute_order": {
+      "value": "seven, in order — net operating loss, general business credit carryovers, minimum tax credit, capital loss carryovers, basis of property, passive activity loss and credit carryovers, foreign tax credit carryovers — at a dollar for each dollar excluded, except 33⅓ cents per dollar against the three credit carryovers",
+      "taxYear": 2026,
+      "source": "IRC § 108(b)(2)(A)-(G), (b)(3)(A), (B) — https://www.law.cornell.edu/uscode/text/26/108",
+      "verified": "2026-08-19"
+    },
+    "cod.1099c_threshold": {
+      "value": "$600 — an applicable entity need not report a discharge of less than that, and this figure was NOT among those raised to $2,000 for 2026",
+      "taxYear": 2026,
+      "source": "IRC § 6050P(b), unamended since 1999 — https://www.law.cornell.edu/uscode/text/26/6050P",
+      "verified": "2026-08-19"
+    },
+    "studentloan.discharge_exclusion": {
+      "value": "limited again to discharges on death or total and permanent disability, and to work-in-profession forgiveness, for discharges after 31 December 2025 — with the taxpayer's social security number required on the return",
+      "taxYear": 2026,
+      "source": "IRC § 108(f)(1), (f)(5)(A), (f)(5)(C) as amended by Pub. L. 119-21 § 70119(a), (c) — https://www.law.cornell.edu/uscode/text/26/108",
+      "verified": "2026-08-19"
     }
   }
 }

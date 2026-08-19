@@ -20,7 +20,7 @@ authorities:
   - { type: Pub, ref: "Topic no. 419", title: "Gambling income and losses", url: "https://www.irs.gov/taxtopics/tc419" }
   - { type: Statute, ref: "Pub. L. 119-21", title: "An Act to provide for reconciliation, title VII" }
 forms: []
-related: ["1.2.1.d", "1.2.1.a", "1.1.1.f", "1.2.1.h"]
+related: ["1.2.1.d", "1.2.1.a", "1.1.1.f", "1.2.1.h", "1.2.1.f"]
 changelog:
   - { date: "2026-08-19", summary: "Initial draft. Records the rewrite of IRC § 165(d) by Pub. L. 119-21 § 70114 capping the wagering loss deduction at 90 percent of losses from 2026, and the replacement of the fixed Form W-2G reporting thresholds with the single indexed IRC § 6041(a) figure." }
 ---
