@@ -1,7 +1,7 @@
 ---
 import Base from '../../layouts/Base.astro';
 import { getCollection, render } from 'astro:content';
-import { topicByCode } from '../../lib';
+import { topicByCode, publishedCodes } from '../../lib';
 export async function getStaticPaths() { return (await getCollection('forms')).map(e => ({ params: { id: e.id.replace(/\.md$/,'') }, props: { e } })); }
 const { e } = Astro.props; const { Content } = await render(e); const d = e.data;
 
@@ -13,7 +13,8 @@ const formSlug = (n) => n.toLowerCase().replace(/[^a-z0-9]/g, '-').replace(/^-+|
 const citing = (await getCollection('topics'))
   .filter(t => t.data.forms.some(f => formSlug(f) === slug))
   .map(t => t.data.code);
-const related = [...new Set([...d.topics, ...citing])].map(topicByCode).filter(Boolean);
+const live = await publishedCodes(getCollection);
+const related = [...new Set([...d.topics, ...citing])].filter(c => live.has(c)).map(topicByCode).filter(Boolean);
 ---
 <Base title={`${d.number}: ${d.title}`} description={d.description} noindex={d.status !== 'published'}>
   <p class="crumbs"><a href="/">TaxEar</a><span>›</span><a href="/forms/">IRS Forms</a></p>

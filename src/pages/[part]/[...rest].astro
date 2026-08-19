@@ -3,7 +3,7 @@ import Base from '../../layouts/Base.astro';
 import Rail from '../../components/Rail.astro';
 import Stamp from '../../components/Stamp.astro';
 import { getCollection, render } from 'astro:content';
-import { allTopics, idOf, topicByCode } from '../../lib';
+import { allTopics, idOf, topicByCode, publishedCodes } from '../../lib';
 import { checkYourself, answerText } from '../../checkyourself';
 export async function getStaticPaths() {
   const entries = await getCollection('topics');
@@ -16,7 +16,8 @@ export async function getStaticPaths() {
 const { entry, t } = Astro.props;
 const { Content } = await render(entry);
 const d = entry.data; const published = d.status === 'published';
-const related = d.related.map(topicByCode).filter(Boolean);
+const live = await publishedCodes(getCollection);
+const related = d.related.filter(c => live.has(c)).map(topicByCode).filter(Boolean);
 const abs = (p) => new URL(p, Astro.site).href;
 const questions = checkYourself(entry.body ?? '');
 
