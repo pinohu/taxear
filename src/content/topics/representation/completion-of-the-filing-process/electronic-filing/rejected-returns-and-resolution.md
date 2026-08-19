@@ -14,7 +14,7 @@ authorities:
   - { type: Pub, ref: "4163", title: "Modernized e-File (MeF) Information for Authorized IRS e-file Providers for Business Returns", url: "https://www.irs.gov/pub/irs-pdf/p4163.pdf" }
   - { type: IRC, ref: "§ 7502", title: "Timely mailing treated as timely filing and paying" }
 forms: []
-related: ["3.4.3.d", "3.4.3.a", "3.2.6.i"]
+related: ["3.4.3.d", "3.4.3.a", "3.2.6.i", "3.4.3.h"]
 changelog:
   - { date: "2026-08-19", summary: "Initial draft against Publications 1345 (Rev. 12-2025) and 4163." }
 ---

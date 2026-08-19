@@ -14,7 +14,7 @@ authorities:
   - { type: Pub, ref: "1345", title: "Handbook for Authorized IRS e-file Providers of Individual Income Tax Returns (Rev. 12-2025)", url: "https://www.irs.gov/pub/irs-pdf/p1345.pdf" }
   - { type: Circ230, ref: "§ 10.30", title: "Solicitation" }
 forms: []
-related: ["3.4.3.a", "3.4.3.d", "3.1.2.d"]
+related: ["3.4.3.a", "3.4.3.d", "3.1.2.d", "3.4.3.h"]
 changelog:
   - { date: "2026-08-19", summary: "Initial draft against Publication 3112 (Rev. 11-2025), closing an open verification item on the e-file logo rules." }
 ---

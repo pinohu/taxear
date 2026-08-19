@@ -11,8 +11,8 @@ is indexed, and only the owner moves a page there (see `docs/VERIFICATION.md`).
 |---|---:|---:|---:|---:|---:|---:|
 | 1. Individuals | 120 | 120 | 0 | 0 | 0 | 0 |
 | 2. Businesses | 119 | 119 | 0 | 0 | 0 | 0 |
-| 3. Representation, Practices and Procedures | 121 | 13 | 0 | 108 | 0 | 231,355 |
-| **All parts** | **360** | **252** | **0** | **108** | **0** | **231,355** |
+| 3. Representation, Practices and Procedures | 121 | 12 | 0 | 109 | 0 | 233,553 |
+| **All parts** | **360** | **251** | **0** | **109** | **0** | **233,553** |
 
 ## Part 1 — Individuals
 
@@ -623,5 +623,5 @@ is indexed, and only the owner moves a page there (see `docs/VERIFICATION.md`).
 | 3.4.3.e | [Levels of infractions](/representation/completion-of-the-filing-process/electronic-filing/levels-of-infractions/) | stub | — | — |
 | 3.4.3.f | [Compliance requirements to continue in program](/representation/completion-of-the-filing-process/electronic-filing/compliance-requirements-to-continue-in-program/) | stub | — | — |
 | 3.4.3.g | [EFIN revocation appeal process](/representation/completion-of-the-filing-process/electronic-filing/efin-revocation-appeal-process/) | stub | — | — |
-| 3.4.3.h | [E-file authorization and supporting documentation (e.g. Form 8879 and Form 8453)](/representation/completion-of-the-filing-process/electronic-filing/e-file-authorization-and-supporting-documentation/) | stub | — | — |
+| 3.4.3.h | [E-file authorization and supporting documentation (e.g. Form 8879 and Form 8453)](/representation/completion-of-the-filing-process/electronic-filing/e-file-authorization-and-supporting-documentation/) | review | 2,198 | 2026-08-19 |
 | 3.4.3.i | [Rejected returns and resolution (e.g. client notification, IP PIN)](/representation/completion-of-the-filing-process/electronic-filing/rejected-returns-and-resolution/) | review | 2,209 | 2026-08-19 |

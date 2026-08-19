@@ -1993,6 +1993,18 @@
       "taxYear": 2026,
       "source": "Publication 3112, IRS e-file Application and Participation (Rev. 11-2025), Advertising Standards",
       "verified": "2026-08-19"
+    },
+    "efile.sig_auth_retention": {
+      "value": "three years from the return due date or the IRS received date, whichever is later",
+      "taxYear": 2026,
+      "source": "Publication 1345, Handbook for Authorized IRS e-file Providers of Individual Income Tax Returns (Rev. 12-2025)",
+      "verified": "2026-08-19"
+    },
+    "efile.selfselect_pin_ineligible": {
+      "value": "primary taxpayers under age 16 who have never filed, and secondary taxpayers under age 16 who did not file the prior tax year",
+      "taxYear": 2026,
+      "source": "Publication 1345, Handbook for Authorized IRS e-file Providers of Individual Income Tax Returns (Rev. 12-2025)",
+      "verified": "2026-08-19"
     }
   }
 }
