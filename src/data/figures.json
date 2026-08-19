@@ -2905,6 +2905,30 @@
       "taxYear": 2026,
       "source": "IRC § 6049(a)(1), (2) — https://www.law.cornell.edu/uscode/text/26/6049",
       "verified": "2026-08-19"
+    },
+    "qdi.holding_period": {
+      "value": "more than 60 days during the 121-day period beginning 60 days before the ex-dividend date, counting the day of disposition but not the day of acquisition; more than 90 days in a 181-day period for preferred stock dividends attributable to a period exceeding 366 days",
+      "taxYear": 2026,
+      "source": "IRC § 1(h)(11)(B)(iii)(I) applying IRC § 246(c)(1)(A), (c)(2), (c)(3)(A) — https://www.law.cornell.edu/uscode/text/26/246",
+      "verified": "2026-08-19"
+    },
+    "nii.tax": {
+      "value": "3.8 percent of the lesser of net investment income or the excess of modified adjusted gross income over $250,000 on a joint return, $125,000 for a married individual filing separately, and $200,000 in any other case — none of the thresholds indexed",
+      "taxYear": 2026,
+      "source": "IRC § 1411(a)(1), (b) — https://www.law.cornell.edu/uscode/text/26/1411",
+      "verified": "2026-08-19"
+    },
+    "dividend.reporting_floor": {
+      "value": "$10 or more of dividends paid to any person in a calendar year, and the same for a nominee passing dividends on",
+      "taxYear": 2026,
+      "source": "IRC § 6042(a)(1) — https://www.law.cornell.edu/uscode/text/26/6042",
+      "verified": "2026-08-19"
+    },
+    "reit.qbi_share": {
+      "value": "20 percent of the aggregate of qualified REIT dividends and qualified publicly traded partnership income, added to the combined qualified business income amount without any wage or property limitation",
+      "taxYear": 2026,
+      "source": "IRC § 199A(b)(1)(B) — https://www.law.cornell.edu/uscode/text/26/199A",
+      "verified": "2026-08-19"
     }
   }
 }

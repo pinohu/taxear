@@ -9,10 +9,10 @@ is indexed, and only the owner moves a page there (see `docs/VERIFICATION.md`).
 
 | Part | Topics | Stub | Draft | Review | Published | Words |
 |---|---:|---:|---:|---:|---:|---:|
-| 1. Individuals | 120 | 101 | 0 | 9 | 10 | 43,104 |
+| 1. Individuals | 120 | 100 | 0 | 10 | 10 | 45,461 |
 | 2. Businesses | 119 | 119 | 0 | 0 | 0 | 0 |
 | 3. Representation, Practices and Procedures | 121 | 0 | 0 | 0 | 121 | 257,674 |
-| **All parts** | **360** | **220** | **0** | **9** | **131** | **300,778** |
+| **All parts** | **360** | **219** | **0** | **10** | **131** | **303,135** |
 
 ## Part 1 — Individuals
 
@@ -48,7 +48,7 @@ is indexed, and only the owner moves a page there (see `docs/VERIFICATION.md`).
 |---|---|---|---:|---|
 | 1.2.1.a | [Taxability of wages, salaries and other earnings (e.g., earned income, statutory employee, tips)](/individuals/income-and-assets/income/taxability-of-wages-salaries-and-other-earnings/) | review | 2,324 | 2026-08-19 |
 | 1.2.1.b | [Interest Income (e.g., taxable and nontaxable)](/individuals/income-and-assets/income/interest-income/) | review | 2,380 | 2026-08-19 |
-| 1.2.1.c | [Dividends and other distributions from mutual funds, corporations, and other entities (e.g., qualified dividends)](/individuals/income-and-assets/income/dividends-and-other-distributions-from-mutual-funds/) | stub | — | — |
+| 1.2.1.c | [Dividends and other distributions from mutual funds, corporations, and other entities (e.g., qualified dividends)](/individuals/income-and-assets/income/dividends-and-other-distributions-from-mutual-funds/) | review | 2,357 | 2026-08-19 |
 | 1.2.1.d | [Personal property rental](/individuals/income-and-assets/income/personal-property-rental/) | stub | — | — |
 | 1.2.1.e | [Gambling income and allowable deductions (e.g., Form W-2G, documentation)](/individuals/income-and-assets/income/gambling-income-and-allowable-deductions/) | stub | — | — |
 | 1.2.1.f | [Tax treatment of forgiveness of debt (e.g., Form 1099C, foreclosures, insolvency)](/individuals/income-and-assets/income/tax-treatment-of-forgiveness-of-debt/) | stub | — | — |
