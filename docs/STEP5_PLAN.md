@@ -23,14 +23,15 @@ blocked on a figure. `npm run verify` reports 0 errors.
 | 3.1.4 Rules and penalties | **7 / 7** |
 | 3.2.6 Related issues | **10 / 10** |
 | 3.2.5 Legal authority and references | **8 / 8** |
-| 3.2.2 Building the taxpayer's case | 4 / 5 |
+| 3.2.2 Building the taxpayer's case | **5 / 5** |
+| 3.2.3 Taxpayer financial situation | **5 / 5** |
 | 3.3.1 Collection process | 9 / 16 |
 | 3.3.2 Penalties and interest abatement | **5 / 5** |
 | 3.3.3 Audits and examinations | **9 / 9** |
 | 3.4.3 Electronic filing | 1 / 9 |
 
-Untouched Part 3 sections: 3.2.2 (5), 3.2.3 (5), 3.2.4 (5), 3.2.5 (8), 3.3.4 (5),
-3.4.1 (2), 3.4.2 (2). Parts 1 and 2 are entirely unwritten.
+Untouched Part 3 sections: 3.2.4 (5), 3.3.4 (5), 3.4.1 (2), 3.4.2 (2). Section 3.3.1 has
+7 topics left and 3.4.3 has 8. Parts 1 and 2 are entirely unwritten.
 
 **Domain 3.1 is complete — 29 / 29.**
 
@@ -80,6 +81,12 @@ deposit pages.
 | 3.2.2.b | potential for criminal aspects — IRC §§ 7602(d)–(e), 7525, Circular 230 § 10.21 |
 | 3.2.2.e | transcripts and e-Services — IRS transcript types and TDS pages |
 | 3.4.3.b | e-file mandate and exceptions |
+| 3.2.2.a | identification of tax issues — Circular 230 §§ 10.37, 10.34, 10.22 |
+| 3.2.3.e | Collection Financial Standards — IRM 5.15.1.8-.10, 5.14.1.4.1 |
+| 3.2.3.a | ability to pay — IRM 5.15.1.3-.4, IRC §§ 6159, 7122, 6331(k), 6503 |
+| 3.2.3.d | discharge in bankruptcy — 11 U.S.C. §§ 523(a)(1), 507(a)(8), 1328(a), 524(a), 522(c) |
+| 3.2.3.b | general financial health — IRM 5.15.1.16, .21, .22, IRC §§ 108, 6334 |
+| 3.2.3.c | third-party research — IRM 5.15.1.6, .7 |
 
 Forms: 2848, 8821, 1040-X, 843, 656, 9465, 12153, 9423, 6118, 8867, 8948, 8944, 8453,
 433-A, 433-B, 433-F, 872. Notices: CP14, CP501, CP503, CP504, LT11/Letter 1058,
@@ -100,8 +107,11 @@ Prefer depth over breadth. Each of these sits beside a page that already exists,
 
 | Codes | Why next |
 |---|---|
-| 3.2.2.a | Identification of tax issues with supporting details — the last of 3.2.2 |
-| 3.4.3.a, c–i | Completes electronic filing, mostly from Pub. 3112 and Pub. 1345 |
+| 3.3.4.a–e | Representing a taxpayer before appeals — 9 bank questions across the section, and it closes Domain 3.3 apart from the 3.3.1 remainder |
+| 3.4.3.a, c–i | Completes electronic filing, mostly from Pub. 3112 and Pub. 1345. 3.4.3.a also closes the one-way `related` link from 3.4.3.b |
+| 3.4.2.a–b | Record retention and data security. 3.4.2.a closes the one-way link from 3.3.1.m |
+| 3.2.4.a–e | Supporting documentation — no bank coverage at all, so purely source-driven |
+| 3.4.1.a–b | Accuracy — reliance on software, miscalculations |
 
 ### Numbering trap — the § 7602 referral bar moved in 2019
 
@@ -351,3 +361,29 @@ annually; it is the first figure in the file with a sub-annual life.
 
 **Tagger coverage is zero across all three new codes** (3.3.2.c, .d, .e), and sweeps for
 "abate interest", "ministerial", "6404" and "6676" return nothing. Add to the Phase 0 list.
+
+### Section 3.2.3 is the least-tested section in the bank so far
+
+All five topics of 3.2.3 had zero or partial bank coverage: 3.2.3.b, 3.2.3.c and 3.2.3.d have
+no tagged questions at all, and 3.2.3.a and 3.2.3.e have questions that touch the topic without
+reaching its load-bearing rule. `private/discrepancies.md` records each gap. Do not read the
+thin coverage as a reason to write these pages thinly — the outline lists them, so the exam may
+reach them, and the bank is one vendor's guess at the exam.
+
+### Currency finding — the principal residence exclusion has lapsed
+
+IRC § 108(a)(1)(E) excluded qualified principal residence indebtedness discharged **before
+1 January 2026**, or under a written arrangement entered into before that date. Pub. L. 116-260
+§ 114(a) set that date and nothing since has moved it. Pub. L. 119-21 § 70119(a) (4 July 2025)
+amended § 108(f)(5), the student loan provision, not (a)(1)(E). Re-check the statute before any
+page relies on the exclusion — it has been extended repeatedly in the past.
+
+### The Collection Financial Standards and IRM 5.15.1 move together
+
+The standards effective 29 June 2026 were published the same day IRM 5.15.1 was transmitted in
+revised form, and IRM 5.14.1 was revised 20 July 2026. When the standards change, re-verify all
+twelve `cfs.*` figures and re-read IRM 5.15.1.8 through .10 — the 2026 revision changed the
+inflation index from CPI to PCE, added forced sale value and reduced forced sale value, and
+incorporated the International Collection Financial Standards.
+
+**IRM 5.14.1 lives at a URL with a trailing `r`** — `irm_05-014-001r`. The unsuffixed URL 404s.
