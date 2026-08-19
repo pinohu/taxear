@@ -2107,6 +2107,48 @@
       "taxYear": 2026,
       "source": "Reg. § 1.6694-2(e), Exception for reasonable cause and good faith — https://www.law.cornell.edu/cfr/text/26/1.6694-2",
       "verified": "2026-08-19"
+    },
+    "records.274d_adequate": {
+      "value": "an account book, diary, log, statement of expense, trip sheet or similar record, together with documentary evidence, which in combination establish each required element",
+      "taxYear": 2026,
+      "source": "Reg. § 1.274-5T(c)(2), Substantiation by adequate records — https://www.law.cornell.edu/cfr/text/26/1.274-5T",
+      "verified": "2026-08-19"
+    },
+    "charity.cwa_threshold": {
+      "value": "$250 or more per contribution, requiring a contemporaneous written acknowledgment from the donee organization",
+      "taxYear": 2026,
+      "source": "IRC § 170(f)(8)(A) — https://www.law.cornell.edu/uscode/text/26/170",
+      "verified": "2026-08-19"
+    },
+    "charity.cwa_contents": {
+      "value": "3 items — the amount of cash and a description (but not value) of any non-cash property contributed; whether the donee provided any goods or services in consideration; and a description and good faith estimate of the value of any such goods or services, or a statement that they consisted solely of intangible religious benefits",
+      "taxYear": 2026,
+      "source": "IRC § 170(f)(8)(B)",
+      "verified": "2026-08-19"
+    },
+    "charity.cwa_contemporaneous": {
+      "value": "obtained on or before the earlier of the date the return for the year of the contribution is filed, or the due date including extensions for that return",
+      "taxYear": 2026,
+      "source": "IRC § 170(f)(8)(C)",
+      "verified": "2026-08-19"
+    },
+    "alimony.repeal_date": {
+      "value": "divorce or separation instruments executed after 31 December 2018, and instruments executed on or before that date and modified afterwards where the modification expressly so provides",
+      "taxYear": 2026,
+      "source": "IRC § 215, repealed by Pub. L. 115-97 § 11051(a); effective date at § 11051(c)",
+      "verified": "2026-08-19"
+    },
+    "entity.default_domestic": {
+      "value": "a partnership if it has two or more members, or disregarded as an entity separate from its owner if it has a single owner",
+      "taxYear": 2026,
+      "source": "Reg. § 301.7701-3(b)(1) — https://www.law.cornell.edu/cfr/text/26/301.7701-3",
+      "verified": "2026-08-19"
+    },
+    "entity.default_foreign": {
+      "value": "a partnership if it has two or more members and at least one member does not have limited liability; an association if all members have limited liability; or disregarded if it has a single owner that does not have limited liability",
+      "taxYear": 2026,
+      "source": "Reg. § 301.7701-3(b)(2)(i)",
+      "verified": "2026-08-19"
     }
   }
 }

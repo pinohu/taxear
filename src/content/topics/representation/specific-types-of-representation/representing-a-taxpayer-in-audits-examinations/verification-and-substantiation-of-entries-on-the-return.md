@@ -17,7 +17,7 @@ authorities:
   - { type: IRC, ref: "§ 6201", title: "Assessment authority — reasonable verification of information returns at (d)", url: "https://www.law.cornell.edu/uscode/text/26/6201" }
   - { type: IRC, ref: "§ 7602", title: "Examination of books and witnesses", url: "https://www.law.cornell.edu/uscode/text/26/7602" }
 forms: []
-related: ["3.3.3.e", "3.3.3.d", "3.3.3.a", "3.3.3.f", "3.3.3.h", "3.3.3.i"]
+related: ["3.3.3.e", "3.3.3.d", "3.3.3.a", "3.3.3.f", "3.3.3.h", "3.3.3.i", "3.2.4.a"]
 changelog:
   - { date: "2026-08-18", summary: "Initial publication from IRC §§ 6001, 274(d), 6201(d) and 7602 Reg. § 1.6001-1 and IRC § 280F(d)(4), each opened at source." }
 ---

@@ -16,7 +16,7 @@ authorities:
   - { type: IRC, ref: "§ 6201", title: "Assessment authority — reasonable verification of information returns at (d)", url: "https://www.law.cornell.edu/uscode/text/26/6201" }
   - { type: Statute, ref: "Tax Court Rule 142", title: "Burden of proof", url: "https://ustaxcourt.gov/files/documents/rule-142.pdf" }
 forms: []
-related: ["3.3.3.c", "3.3.3.h", "3.3.3.e"]
+related: ["3.3.3.c", "3.3.3.h", "3.3.3.e", "3.2.4.a"]
 changelog:
   - { date: "2026-08-18", summary: "Initial publication from IRC §§ 7491, 7454, 6902 and 6201(d), Tax Court Rule 142, and 28 U.S.C. § 2412(d)(2)(B), each opened at source." }
 ---

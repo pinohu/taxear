@@ -11,8 +11,8 @@ is indexed, and only the owner moves a page there (see `docs/VERIFICATION.md`).
 |---|---:|---:|---:|---:|---:|---:|
 | 1. Individuals | 120 | 120 | 0 | 0 | 0 | 0 |
 | 2. Businesses | 119 | 119 | 0 | 0 | 0 | 0 |
-| 3. Representation, Practices and Procedures | 121 | 5 | 0 | 116 | 0 | 247,482 |
-| **All parts** | **360** | **244** | **0** | **116** | **0** | **247,482** |
+| 3. Representation, Practices and Procedures | 121 | 0 | 0 | 121 | 0 | 257,682 |
+| **All parts** | **360** | **239** | **0** | **121** | **0** | **257,682** |
 
 ## Part 1 — Individuals
 
@@ -505,11 +505,11 @@ is indexed, and only the owner moves a page there (see `docs/VERIFICATION.md`).
 
 | Code | Title | Status | Words | Last reviewed |
 |---|---|---|---:|---|
-| 3.2.4.a | [Financial documents and expense records (e.g., cancelled checks or equivalent, bank statements, credit card statements, receipts, brokerage records)](/representation/representation-before-the-irs/supporting-documentation/financial-documents-and-expense-records/) | stub | — | — |
-| 3.2.4.b | [Legal documents (e.g., birth certificate, divorce decrees, lawsuit settlements)](/representation/representation-before-the-irs/supporting-documentation/legal-documents/) | stub | — | — |
-| 3.2.4.c | [Prior and subsequent tax returns](/representation/representation-before-the-irs/supporting-documentation/prior-and-subsequent-tax-returns/) | stub | — | — |
-| 3.2.4.d | [Other substantive and contemporaneous documentation (e.g., corporate minutes)](/representation/representation-before-the-irs/supporting-documentation/other-substantive-and-contemporaneous-documentation/) | stub | — | — |
-| 3.2.4.e | [Business entity supporting documents (e.g., partnership agreement, corporate bylaws)](/representation/representation-before-the-irs/supporting-documentation/business-entity-supporting-documents/) | stub | — | — |
+| 3.2.4.a | [Financial documents and expense records (e.g., cancelled checks or equivalent, bank statements, credit card statements, receipts, brokerage records)](/representation/representation-before-the-irs/supporting-documentation/financial-documents-and-expense-records/) | review | 2,028 | 2026-08-19 |
+| 3.2.4.b | [Legal documents (e.g., birth certificate, divorce decrees, lawsuit settlements)](/representation/representation-before-the-irs/supporting-documentation/legal-documents/) | review | 2,146 | 2026-08-19 |
+| 3.2.4.c | [Prior and subsequent tax returns](/representation/representation-before-the-irs/supporting-documentation/prior-and-subsequent-tax-returns/) | review | 1,850 | 2026-08-19 |
+| 3.2.4.d | [Other substantive and contemporaneous documentation (e.g., corporate minutes)](/representation/representation-before-the-irs/supporting-documentation/other-substantive-and-contemporaneous-documentation/) | review | 2,037 | 2026-08-19 |
+| 3.2.4.e | [Business entity supporting documents (e.g., partnership agreement, corporate bylaws)](/representation/representation-before-the-irs/supporting-documentation/business-entity-supporting-documents/) | review | 2,139 | 2026-08-19 |
 
 **3.2.5 Legal authority and references**
 
