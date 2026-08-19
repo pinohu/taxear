@@ -18,7 +18,7 @@ authorities:
   - { type: IRC, ref: "§ 6334", title: "Property exempt from levy" }
   - { type: IRC, ref: "§ 6337", title: "Redemption of property" }
 forms: ["433-A", "433-B"]
-related: ["3.2.3.a", "3.2.3.d", "3.2.3.e"]
+related: ["3.2.3.a", "3.2.3.d", "3.2.3.e", "3.2.3.c"]
 changelog:
   - { date: "2026-08-19", summary: "Initial draft. Notes that the qualified principal residence indebtedness exclusion in IRC § 108(a)(1)(E) reached discharges before 1 January 2026 and has not been extended." }
 ---

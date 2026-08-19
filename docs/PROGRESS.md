@@ -11,8 +11,8 @@ is indexed, and only the owner moves a page there (see `docs/VERIFICATION.md`).
 |---|---:|---:|---:|---:|---:|---:|
 | 1. Individuals | 120 | 120 | 0 | 0 | 0 | 0 |
 | 2. Businesses | 119 | 119 | 0 | 0 | 0 | 0 |
-| 3. Representation, Practices and Procedures | 121 | 23 | 0 | 98 | 0 | 208,359 |
-| **All parts** | **360** | **262** | **0** | **98** | **0** | **208,359** |
+| 3. Representation, Practices and Procedures | 121 | 22 | 0 | 99 | 0 | 210,731 |
+| **All parts** | **360** | **261** | **0** | **99** | **0** | **210,731** |
 
 ## Part 1 — Individuals
 
@@ -497,7 +497,7 @@ is indexed, and only the owner moves a page there (see `docs/VERIFICATION.md`).
 |---|---|---|---:|---|
 | 3.2.3.a | [Taxpayer's ability to pay the tax (e.g., installment agreements, offer in compromise, currently not collectible)](/representation/representation-before-the-irs/taxpayer-financial-situation/taxpayer-s-ability-to-pay-the-tax/) | review | 2,476 | 2026-08-19 |
 | 3.2.3.b | [General financial health (e.g., filed for bankruptcy, lawsuits, garnishments, cash flow, assets, and insolvency)](/representation/representation-before-the-irs/taxpayer-financial-situation/general-financial-health/) | review | 2,444 | 2026-08-19 |
-| 3.2.3.c | [Third-party research (e.g., property assessment for municipal taxes, asset values, state and local tax information)](/representation/representation-before-the-irs/taxpayer-financial-situation/third-party-research/) | stub | — | — |
+| 3.2.3.c | [Third-party research (e.g., property assessment for municipal taxes, asset values, state and local tax information)](/representation/representation-before-the-irs/taxpayer-financial-situation/third-party-research/) | review | 2,372 | 2026-08-19 |
 | 3.2.3.d | [Discharge of the tax liability in bankruptcy](/representation/representation-before-the-irs/taxpayer-financial-situation/discharge-of-the-tax-liability-in-bankruptcy/) | review | 2,454 | 2026-08-19 |
 | 3.2.3.e | [IRS Collection Financial Standards](/representation/representation-before-the-irs/taxpayer-financial-situation/irs-collection-financial-standards/) | review | 2,493 | 2026-08-19 |
 

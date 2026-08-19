@@ -1849,6 +1849,12 @@
       "taxYear": 2026,
       "source": "IRM 5.15.1.21, Determining Equity in Assets (revised 29 June 2026)",
       "verified": "2026-08-19"
+    },
+    "fbar.filing_threshold": {
+      "value": "an aggregate value greater than $10,000 at any time during the calendar year",
+      "taxYear": 2026,
+      "source": "IRM 5.15.1.6, Internal Sources and Online Research (revised 29 June 2026), describing FinCEN Form 114",
+      "verified": "2026-08-19"
     }
   }
 }
