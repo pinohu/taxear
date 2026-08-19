@@ -3343,6 +3343,42 @@
       "taxYear": 2026,
       "source": "IRC § 402(g)(2)(A)(i), (ii) — https://www.law.cornell.edu/uscode/text/26/402",
       "verified": "2026-08-19"
+    },
+    "earlydist.general_exceptions": {
+      "value": "nine in IRC § 72(t)(2)(A) — age 59½, death, disability, substantially equal periodic payments, separation from service after attaining age 55, IRC § 404(k) dividends, a IRC § 6331 levy, certain federal phased retirement annuities, and net income withdrawn with a IRC § 408(d)(4) corrective distribution",
+      "taxYear": 2026,
+      "source": "IRC § 72(t)(2)(A)(i)-(ix) — https://www.law.cornell.edu/uscode/text/26/72",
+      "verified": "2026-08-19"
+    },
+    "earlydist.not_for_iras": {
+      "value": "the separation-from-service-after-55 exception and the qualified domestic relations order exception do not apply to distributions from an individual retirement plan",
+      "taxYear": 2026,
+      "source": "IRC § 72(t)(3)(A) — https://www.law.cornell.edu/uscode/text/26/72",
+      "verified": "2026-08-19"
+    },
+    "earlydist.ira_only": {
+      "value": "health insurance premiums of an individual who received unemployment compensation for 12 consecutive weeks, higher education expenses, and first-time home purchase — each drafted to reach distributions from an individual retirement plan",
+      "taxYear": 2026,
+      "source": "IRC § 72(t)(2)(D)(i), (E), (F) — https://www.law.cornell.edu/uscode/text/26/72",
+      "verified": "2026-08-19"
+    },
+    "earlydist.newer_exceptions": {
+      "value": "$5,000 per birth or adoption; an emergency personal expense distribution capped at the lesser of $1,000 or the interest above $1,000, one per calendar year; a domestic abuse distribution capped at the lesser of $10,000 or half the nonforfeitable accrued benefit; and terminal illness certified against an 84-month prognosis",
+      "taxYear": 2026,
+      "source": "IRC § 72(t)(2)(H)(ii), (I), (L)(ii), and the emergency and terminal illness subparagraphs — https://www.law.cornell.edu/uscode/text/26/72",
+      "verified": "2026-08-19"
+    },
+    "earlydist.sepp_recapture": {
+      "value": "modifying a series of substantially equal periodic payments before the later of five years from the first payment or age 59½ — other than by death, disability or a qualifying distribution — reimposes the tax that would have applied, plus interest for the deferral period",
+      "taxYear": 2026,
+      "source": "IRC § 72(t)(4)(A) — https://www.law.cornell.edu/uscode/text/26/72",
+      "verified": "2026-08-19"
+    },
+    "earlydist.qualified_plan_sepp": {
+      "value": "for a IRC § 401(a) trust or a IRC § 72(e)(5)(D)(ii) contract, the substantially equal periodic payments exception applies only where the series begins after the employee separates from service",
+      "taxYear": 2026,
+      "source": "IRC § 72(t)(3)(B) — https://www.law.cornell.edu/uscode/text/26/72",
+      "verified": "2026-08-19"
     }
   }
 }
