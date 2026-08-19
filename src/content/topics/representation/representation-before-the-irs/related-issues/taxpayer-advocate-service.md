@@ -15,7 +15,7 @@ authorities:
   - { type: Pub, ref: "TAS, Can TAS help me", title: "Can TAS help me with my tax issue — the nine reasons", url: "https://www.taxpayeradvocate.irs.gov/can-tas-help-me-with-my-tax-issue/" }
   - { type: Form, ref: "911", title: "Request for Taxpayer Advocate Service Assistance", url: "https://www.irs.gov/forms-pubs/about-form-911" }
 forms: []
-related: ["3.2.6.e", "3.2.6.a", "3.3.3.h"]
+related: ["3.2.6.e", "3.2.6.a", "3.3.3.h", "3.2.6.f"]
 changelog:
   - { date: "2026-08-18", summary: "Initial publication from IRC §§ 7803(c) and 7811, and the Taxpayer Advocate Service criteria page, each opened at source." }
 ---

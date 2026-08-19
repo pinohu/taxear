@@ -21,7 +21,7 @@ blocked on a figure. `npm run verify` reports 0 errors.
 | 3.2.1 Power of attorney | **11 / 11** |
 | 3.1.3 Sanctionable acts | **4 / 4** |
 | 3.1.4 Rules and penalties | **7 / 7** |
-| 3.2.6 Related issues | 5 / 10 |
+| 3.2.6 Related issues | 6 / 10 |
 | 3.3.1 Collection process | 9 / 16 |
 | 3.3.2 Penalties and interest abatement | **5 / 5** |
 | 3.3.3 Audits and examinations | **9 / 9** |
@@ -60,6 +60,7 @@ deposit pages.
 | 3.2.6.j | judicial levels beyond EA representation — Tax Court Rules 24 and 200 |
 | 3.2.6.e | FOIA requests — 5 U.S.C. § 552, Reg. § 601.702, IRS FOIA guidelines |
 | 3.2.6.h | Taxpayer Advocate Service — IRC §§ 7803(c), 7811, the TAS criteria page |
+| 3.2.6.f | tax avoidance vs. tax evasion — IRC §§ 7201, 7203, 7206, 7212, 6663, 18 U.S.C. § 3571 |
 | 3.4.3.b | e-file mandate and exceptions |
 
 Forms: 2848, 8821, 1040-X, 843, 656, 9465, 12153, 9423, 6118, 8867, 8948, 8944, 8453,
@@ -81,7 +82,7 @@ Prefer depth over breadth. Each of these sits beside a page that already exists,
 
 | Codes | Why next |
 |---|---|
-| 3.2.6.c–d, f–g, i | Related issues. Five topics left, and the section now has five pages to link against |
+| 3.2.6.c–d, g, i | Related issues. Four topics left, and the section now has six pages to link against |
 | 3.4.3.a, c–i | Completes electronic filing, mostly from Pub. 3112 and Pub. 1345 |
 
 ### Open item — Tax Court opinion types

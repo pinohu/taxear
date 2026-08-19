@@ -1207,6 +1207,36 @@
       "taxYear": 2026,
       "source": "IRC § 7803(c)(1)(B)(iv) — https://www.law.cornell.edu/uscode/text/26/7803",
       "verified": "2026-08-18"
+    },
+    "evasion.7201": {
+      "value": "a felony — willfully attempting in any manner to evade or defeat any tax or its payment; fine of not more than $100,000 ($500,000 for a corporation) as stated in the section, imprisonment of not more than 5 years, or both, together with the costs of prosecution",
+      "taxYear": 2026,
+      "source": "IRC § 7201 — https://www.law.cornell.edu/uscode/text/26/7201",
+      "verified": "2026-08-18"
+    },
+    "evasion.7203": {
+      "value": "a misdemeanor — willful failure to pay estimated tax or tax, file a return, keep records, or supply information when required; fine of not more than $25,000 ($100,000 for a corporation) as stated in the section, imprisonment of not more than 1 year, or both — raised to a felony with 5 years for a willful violation of § 6050I",
+      "taxYear": 2026,
+      "source": "IRC § 7203 — https://www.law.cornell.edu/uscode/text/26/7203",
+      "verified": "2026-08-18"
+    },
+    "evasion.7206": {
+      "value": "a felony — willfully signing a return or document verified under penalties of perjury that the signer does not believe true and correct as to every material matter, or willfully aiding or assisting in preparing a materially false or fraudulent document; fine of not more than $100,000 ($500,000 for a corporation) as stated in the section, imprisonment of not more than 3 years, or both",
+      "taxYear": 2026,
+      "source": "IRC § 7206(1)–(2) — https://www.law.cornell.edu/uscode/text/26/7206",
+      "verified": "2026-08-18"
+    },
+    "evasion.title18_fines": {
+      "value": "the fine is the greatest of the amount in the offense statute or, for a felony, $250,000 for an individual and $500,000 for an organization — so the $100,000 stated in IRC §§ 7201 and 7206 is superseded upward for individuals unless the offense statute exempts itself by specific reference",
+      "taxYear": 2026,
+      "source": "18 U.S.C. § 3571(b)(3), (c)(3), (e) — https://www.law.cornell.edu/uscode/text/18/3571",
+      "verified": "2026-08-18"
+    },
+    "evasion.civil_fraud": {
+      "value": "75 percent of the portion of the underpayment attributable to fraud; where the Secretary establishes that any portion is attributable to fraud the entire underpayment is so treated, except any portion the taxpayer shows by a preponderance of the evidence is not",
+      "taxYear": 2026,
+      "source": "IRC § 6663(a)–(b) — https://www.law.cornell.edu/uscode/text/26/6663",
+      "verified": "2026-08-18"
     }
   }
 }
