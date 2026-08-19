@@ -16,7 +16,7 @@ authorities:
   - { type: IRC, ref: "§ 32(m)", title: "Earned income credit — identification numbers" }
   - { type: Pub, ref: "1345", title: "Handbook for Authorized IRS e-file Providers of Individual Income Tax Returns (Rev. 12-2025)", url: "https://www.irs.gov/pub/irs-pdf/p1345.pdf" }
 forms: []
-related: ["1.1.1.c", "1.1.1.i", "1.1.1.e", "1.1.1.p"]
+related: ["1.1.1.c", "1.1.1.i", "1.1.1.e", "1.1.1.p", "1.1.1.q"]
 changelog:
   - { date: "2026-08-19", summary: "Initial draft. Records that Pub. L. 119-21 § 70104(b) rewrote IRC § 24(h)(7) to require the taxpayer's own social security number in addition to the child's." }
 ---

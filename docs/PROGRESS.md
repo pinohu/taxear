@@ -9,10 +9,10 @@ is indexed, and only the owner moves a page there (see `docs/VERIFICATION.md`).
 
 | Part | Topics | Stub | Draft | Review | Published | Words |
 |---|---:|---:|---:|---:|---:|---:|
-| 1. Individuals | 120 | 113 | 0 | 7 | 0 | 15,051 |
+| 1. Individuals | 120 | 112 | 0 | 8 | 0 | 16,977 |
 | 2. Businesses | 119 | 119 | 0 | 0 | 0 | 0 |
 | 3. Representation, Practices and Procedures | 121 | 0 | 0 | 121 | 0 | 257,680 |
-| **All parts** | **360** | **232** | **0** | **128** | **0** | **272,731** |
+| **All parts** | **360** | **231** | **0** | **129** | **0** | **274,657** |
 
 ## Part 1 — Individuals
 
@@ -38,7 +38,7 @@ is indexed, and only the owner moves a page there (see `docs/VERIFICATION.md`).
 | 1.1.1.n | [Special filing requirements (e.g. foreign income, presidentially declared disaster areas, Form 1040-NR, injured spouse)](/individuals/preliminary-work-and-taxpayer-data/preliminary-work-to-prepare-tax-returns/special-filing-requirements/) | stub | — | — |
 | 1.1.1.o | [Foreign account and asset reporting (e.g., FBAR, Form 8938)](/individuals/preliminary-work-and-taxpayer-data/preliminary-work-to-prepare-tax-returns/foreign-account-and-asset-reporting/) | stub | — | — |
 | 1.1.1.p | [Minor children's unearned income (Kiddie tax)](/individuals/preliminary-work-and-taxpayer-data/preliminary-work-to-prepare-tax-returns/minor-children-s-unearned-income-kiddie-tax/) | review | 2,001 | 2026-08-19 |
-| 1.1.1.q | [ACA requirements (e.g., health insurance coverage, total household income, advanced premium tax credit, household size)](/individuals/preliminary-work-and-taxpayer-data/preliminary-work-to-prepare-tax-returns/aca-requirements/) | stub | — | — |
+| 1.1.1.q | [ACA requirements (e.g., health insurance coverage, total household income, advanced premium tax credit, household size)](/individuals/preliminary-work-and-taxpayer-data/preliminary-work-to-prepare-tax-returns/aca-requirements/) | review | 1,926 | 2026-08-19 |
 
 ### 1.2 Income and Assets
 

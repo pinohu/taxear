@@ -2389,6 +2389,42 @@
       "taxYear": 2026,
       "source": "IRC § 1(g)(7)(A)",
       "verified": "2026-08-19"
+    },
+    "aca.shared_responsibility": {
+      "value": "$0 — the applicable dollar amount under IRC § 5000A(c)(3)(A), with the percentage-of-income alternative at zero percent for taxable years beginning after 2015",
+      "taxYear": 2026,
+      "source": "IRC § 5000A(c)(2)(B)(iii), (c)(3)(A) — https://www.law.cornell.edu/uscode/text/26/5000A",
+      "verified": "2026-08-19"
+    },
+    "aca.ptc_income_range": {
+      "value": "household income equal to or exceeding 100 percent but not exceeding 400 percent of the poverty line for the family size involved",
+      "taxYear": 2026,
+      "source": "IRC § 36B(c)(1)(A) — https://www.law.cornell.edu/uscode/text/26/36B",
+      "verified": "2026-08-19"
+    },
+    "aca.ptc_cliff_restored": {
+      "value": "the suspension of the 400 percent ceiling applied only to taxable years beginning after 31 December 2020 and before 1 January 2026, so the ceiling operates again for 2026",
+      "taxYear": 2026,
+      "source": "IRC § 36B(c)(1)(E)",
+      "verified": "2026-08-19"
+    },
+    "aca.enhanced_percentages_expired": {
+      "value": "the temporary premium percentages likewise applied only to taxable years beginning after 31 December 2020 and before 1 January 2026",
+      "taxYear": 2026,
+      "source": "IRC § 36B(b)(3)(A)(iii)",
+      "verified": "2026-08-19"
+    },
+    "aca.aptc_repayment": {
+      "value": "repayable in full — the limitation in IRC § 36B(f)(2)(B) was removed for taxable years beginning after 31 December 2025",
+      "taxYear": 2026,
+      "source": "Pub. L. 119-21 § 71305, as described in Rev. Proc. 2025-32 § 2.04 — https://www.irs.gov/pub/irs-drop/rp-25-32.pdf",
+      "verified": "2026-08-19"
+    },
+    "aca.ale_threshold": {
+      "value": "an employer who employed an average of at least 50 full-time employees on business days during the preceding calendar year",
+      "taxYear": 2026,
+      "source": "IRC § 4980H(c)(2)(A) — https://www.law.cornell.edu/uscode/text/26/4980H",
+      "verified": "2026-08-19"
     }
   }
 }
