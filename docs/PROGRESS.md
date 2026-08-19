@@ -9,10 +9,10 @@ is indexed, and only the owner moves a page there (see `docs/VERIFICATION.md`).
 
 | Part | Topics | Stub | Draft | Review | Published | Words |
 |---|---:|---:|---:|---:|---:|---:|
-| 1. Individuals | 120 | 86 | 0 | 24 | 10 | 77,288 |
+| 1. Individuals | 120 | 85 | 0 | 25 | 10 | 79,499 |
 | 2. Businesses | 119 | 119 | 0 | 0 | 0 | 0 |
 | 3. Representation, Practices and Procedures | 121 | 0 | 0 | 0 | 121 | 257,674 |
-| **All parts** | **360** | **205** | **0** | **24** | **131** | **334,962** |
+| **All parts** | **360** | **204** | **0** | **25** | **131** | **337,173** |
 
 ## Part 1 — Individuals
 
@@ -68,7 +68,7 @@ is indexed, and only the owner moves a page there (see `docs/VERIFICATION.md`).
 |---|---|---|---:|---|
 | 1.2.2.a | [Basis in a traditional IRA (Form 8606)](/individuals/income-and-assets/retirement-income/basis-in-a-traditional-ira-form-8606/) | review | 2,061 | 2026-08-19 |
 | 1.2.2.b | [Comparison of and distributions from traditional and Roth IRAs](/individuals/income-and-assets/retirement-income/comparison-of-and-distributions-from-traditional-and-roth/) | review | 2,129 | 2026-08-19 |
-| 1.2.2.c | [Distributions from qualified and nonqualified plans (e.g., pre-tax, after- tax, rollovers, Form 1099R, qualified charitable distribution)](/individuals/income-and-assets/retirement-income/distributions-from-qualified-and-nonqualified-plans/) | stub | — | — |
+| 1.2.2.c | [Distributions from qualified and nonqualified plans (e.g., pre-tax, after- tax, rollovers, Form 1099R, qualified charitable distribution)](/individuals/income-and-assets/retirement-income/distributions-from-qualified-and-nonqualified-plans/) | review | 2,211 | 2026-08-19 |
 | 1.2.2.d | [Excess contributions and tax treatment (e.g., penalties)](/individuals/income-and-assets/retirement-income/excess-contributions-and-tax-treatment/) | stub | — | — |
 | 1.2.2.e | [Penalties and exceptions on premature distributions from qualified retirement plans and IRAs](/individuals/income-and-assets/retirement-income/penalties-and-exceptions-on-premature-distributions/) | stub | — | — |
 | 1.2.2.f | [Prohibited transactions and tax effects](/individuals/income-and-assets/retirement-income/prohibited-transactions-and-tax-effects/) | stub | — | — |

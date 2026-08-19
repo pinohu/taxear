@@ -3277,6 +3277,42 @@
       "taxYear": 2026,
       "source": "IRC § 408A(c)(4)(A), (B) — https://www.law.cornell.edu/uscode/text/26/408A",
       "verified": "2026-08-19"
+    },
+    "plan.rollover_window": {
+      "value": "60 days following the day the distributee received the property, with a hardship waiver where enforcing it would be against equity or good conscience",
+      "taxYear": 2026,
+      "source": "IRC § 402(c)(3)(A), (B) — https://www.law.cornell.edu/uscode/text/26/402",
+      "verified": "2026-08-19"
+    },
+    "plan.mandatory_withholding": {
+      "value": "20 percent of an eligible rollover distribution, unless the distributee elects a direct trustee-to-trustee payment under IRC § 401(a)(31)(A)",
+      "taxYear": 2026,
+      "source": "IRC § 3405(c)(1)(B), (c)(2) — https://www.law.cornell.edu/uscode/text/26/3405",
+      "verified": "2026-08-19"
+    },
+    "plan.not_eligible_rollover": {
+      "value": "substantially equal periodic payments over a life, joint lives or a period of 10 years or more; any amount required under IRC § 401(a)(9); and any hardship distribution",
+      "taxYear": 2026,
+      "source": "IRC § 402(c)(4)(A)-(C) — https://www.law.cornell.edu/uscode/text/26/402",
+      "verified": "2026-08-19"
+    },
+    "plan.simplified_method": {
+      "value": "the investment in the contract at the annuity starting date divided by the number of anticipated payments from the statutory table — 360 payments where the annuitant is 55 or under, falling in bands as the starting age rises",
+      "taxYear": 2026,
+      "source": "IRC § 72(d)(1)(B)(i), (iii) — https://www.law.cornell.edu/uscode/text/26/72",
+      "verified": "2026-08-19"
+    },
+    "ira.qcd_limit": {
+      "value": "$111,000 of qualified charitable distributions for the taxable year, indexed from the $100,000 still printed in IRC § 408(d)(8)(A), and reduced by post-70½ IRC § 219 deductions not already counted",
+      "taxYear": 2026,
+      "source": "Notice 2025-67, adjusting IRC § 408(d)(8)(A) under § 408(d)(8)(G) — https://www.irs.gov/pub/irs-drop/n-25-67.pdf",
+      "verified": "2026-08-19"
+    },
+    "ira.spousal_limit": {
+      "value": "the lesser of the individual deduction limit or the couple's combined includible compensation reduced by the other spouse's deduction, designated nondeductible contributions and Roth contributions — so each spouse has a separate limit, not a joint one",
+      "taxYear": 2026,
+      "source": "IRC § 219(c)(1)(A), (B) — https://www.law.cornell.edu/uscode/text/26/219",
+      "verified": "2026-08-19"
     }
   }
 }
