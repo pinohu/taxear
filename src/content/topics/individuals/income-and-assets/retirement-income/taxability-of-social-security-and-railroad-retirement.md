@@ -17,7 +17,7 @@ authorities:
   - { type: IRC, ref: "§ 871", title: "Tax on nonresident alien individuals", url: "https://www.law.cornell.edu/uscode/text/26/871" }
   - { type: Statute, ref: "Pub. L. 119-21, § 70103(a)", title: "Deduction for seniors", url: "https://www.law.cornell.edu/uscode/text/26/151" }
 forms: []
-related: ["1.2.2.c", "1.2.2.h", "1.1.1.f", "1.2.2.b", "1.2.1.b"]
+related: ["1.2.2.c", "1.2.2.h", "1.1.1.f", "1.2.2.b", "1.2.1.b", "1.2.2.m"]
 changelog:
   - { date: "2026-08-19", summary: "Initial draft. Sets out the two-tier IRC § 86(a) computation against the unindexed § 86(c) base and adjusted base amounts, the § 86(b)(2) modified adjusted gross income that adds back tax-exempt interest, the § 86(d) definition reaching tier 1 but not tier 2 railroad retirement, the § 86(e) lump-sum election, and the flat 85 percent rule in § 871(a)(3) for nonresident aliens. Records that the IRC § 151(d)(5)(C) senior deduction added by Pub. L. 119-21 § 70103(a) does not enter this computation." }
 ---

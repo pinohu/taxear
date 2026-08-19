@@ -21,7 +21,7 @@ authorities:
   - { type: Reg, ref: "§ 1.1-1", title: "Income tax on individuals", url: "https://www.law.cornell.edu/cfr/text/26/1.1-1" }
   - { type: RevProc, ref: "2025-32", title: "Inflation-adjusted items for 2026", url: "https://www.irs.gov/pub/irs-drop/rp-25-32.pdf" }
 forms: []
-related: ["1.2.1.f", "1.1.1.c", "1.1.1.o", "1.2.1.a", "1.2.1.h"]
+related: ["1.2.1.f", "1.1.1.c", "1.1.1.o", "1.2.1.a", "1.2.1.h", "1.2.2.m"]
 changelog:
   - { date: "2026-08-19", summary: "Initial draft. Sets out the IRC § 911(d)(1) qualification tests, the IRC § 904(a) limitation with its carryback and carryover and the IRC § 904(j) de minimis election, and the IRC § 6114 disclosure requirement with its IRC § 6712 penalty." }
 ---
