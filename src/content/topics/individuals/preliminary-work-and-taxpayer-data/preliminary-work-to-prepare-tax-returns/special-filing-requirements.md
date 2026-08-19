@@ -16,7 +16,7 @@ authorities:
   - { type: IRC, ref: "§ 6402(c)", title: "Offset of past-due support against overpayments" }
   - { type: Reg, ref: "§ 1.6081-5", title: "Extensions of time in the case of certain U.S. citizens and residents", url: "https://www.law.cornell.edu/cfr/text/26/1.6081-5" }
 forms: []
-related: ["1.1.1.d", "1.1.1.c", "1.1.1.o"]
+related: ["1.1.1.d", "1.1.1.c", "1.1.1.o", "1.1.1.m"]
 changelog:
   - { date: "2026-08-19", summary: "Initial draft." }
 ---

@@ -2803,6 +2803,54 @@
       "taxYear": 2026,
       "source": "IRC § 3406(a)(1); IRC § 1(c) as adjusted by Rev. Proc. 2025-32 § 3.01 — https://www.law.cornell.edu/uscode/text/26/3406",
       "verified": "2026-08-19"
+    },
+    "gift.annual_exclusion": {
+      "value": "the first $19,000 of gifts to any person, other than gifts of future interests, which are never covered however small",
+      "taxYear": 2026,
+      "source": "Rev. Proc. 2025-32 § 4.42(1), adjusting IRC § 2503(b) — https://www.irs.gov/pub/irs-drop/rp-25-32.pdf",
+      "verified": "2026-08-19"
+    },
+    "gift.noncitizen_spouse_exclusion": {
+      "value": "$194,000 of gifts to a spouse who is not a United States citizen, again excluding future interests",
+      "taxYear": 2026,
+      "source": "Rev. Proc. 2025-32 § 4.42(2), adjusting IRC § 2523(i)(2) — https://www.irs.gov/pub/irs-drop/rp-25-32.pdf",
+      "verified": "2026-08-19"
+    },
+    "gift.foreign_gift_reporting": {
+      "value": "aggregate gifts from certain foreign persons above $20,573 received in the taxable year",
+      "taxYear": 2026,
+      "source": "Rev. Proc. 2025-32 § 4.47, adjusting IRC § 6039F — https://www.irs.gov/pub/irs-drop/rp-25-32.pdf",
+      "verified": "2026-08-19"
+    },
+    "household.fica_threshold": {
+      "value": "$3,000 of cash wages to any one household employee in the year, at which point 6.2 percent social security and 1.45 percent Medicare apply to all cash wages paid to that employee, matched by the employer",
+      "taxYear": 2026,
+      "source": "IRS Topic no. 756, Employment taxes for household employees, reviewed 22 June 2026 — https://www.irs.gov/taxtopics/tc756",
+      "verified": "2026-08-19"
+    },
+    "household.futa": {
+      "value": "cash wages of more than $1,000 in any calendar quarter of this year or last, on the first $7,000 paid to each household employee, at 6 percent less a credit of up to 5.4 percent for state unemployment contributions",
+      "taxYear": 2026,
+      "source": "IRS Topic no. 756, reviewed 22 June 2026 — https://www.irs.gov/taxtopics/tc756",
+      "verified": "2026-08-19"
+    },
+    "infopenalty.6721": {
+      "value": "$340 per return, reduced to $60 if corrected within 30 days and $130 if corrected by 1 August, with annual caps that differ by the filer's gross receipts — the amounts for returns required to be filed in 2027",
+      "taxYear": 2026,
+      "source": "Rev. Proc. 2025-32 § 4.57, adjusting IRC § 6721 — https://www.irs.gov/pub/irs-drop/rp-25-32.pdf",
+      "verified": "2026-08-19"
+    },
+    "intl.6038_penalty": {
+      "value": "$10,000 for each annual accounting period, plus a further $10,000 for each 30-day period beginning 90 days after the Service mails notice, capped at $50,000 of continuation penalty",
+      "taxYear": 2026,
+      "source": "IRC § 6038(b)(1), (b)(2) — https://www.law.cornell.edu/uscode/text/26/6038",
+      "verified": "2026-08-19"
+    },
+    "intl.6677_penalty": {
+      "value": "the greater of $10,000 or 35 percent of the gross reportable amount, with a further penalty if the failure continues more than 90 days after notice",
+      "taxYear": 2026,
+      "source": "IRC § 6677(a) — https://www.law.cornell.edu/uscode/text/26/6677",
+      "verified": "2026-08-19"
     }
   }
 }

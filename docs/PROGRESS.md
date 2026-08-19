@@ -9,10 +9,10 @@ is indexed, and only the owner moves a page there (see `docs/VERIFICATION.md`).
 
 | Part | Topics | Stub | Draft | Review | Published | Words |
 |---|---:|---:|---:|---:|---:|---:|
-| 1. Individuals | 120 | 104 | 0 | 6 | 10 | 36,035 |
+| 1. Individuals | 120 | 103 | 0 | 7 | 10 | 38,400 |
 | 2. Businesses | 119 | 119 | 0 | 0 | 0 | 0 |
 | 3. Representation, Practices and Procedures | 121 | 0 | 0 | 0 | 121 | 257,674 |
-| **All parts** | **360** | **223** | **0** | **6** | **131** | **293,709** |
+| **All parts** | **360** | **222** | **0** | **7** | **131** | **296,074** |
 
 ## Part 1 — Individuals
 
@@ -34,7 +34,7 @@ is indexed, and only the owner moves a page there (see `docs/VERIFICATION.md`).
 | 1.1.1.j | [Sources of applicable credits (e.g., education, foreign tax, retirement, child and dependent care, credit for other dependents, child tax credit)](/individuals/preliminary-work-and-taxpayer-data/preliminary-work-to-prepare-tax-returns/sources-of-applicable-credits/) | review | 2,498 | 2026-08-19 |
 | 1.1.1.k | [Sources of tax payments and refundable credits (e.g., withholding, estimated payments, earned income tax credit)](/individuals/preliminary-work-and-taxpayer-data/preliminary-work-to-prepare-tax-returns/sources-of-tax-payments-and-refundable-credits/) | review | 2,493 | 2026-08-19 |
 | 1.1.1.l | [Previous IRS correspondence with taxpayer](/individuals/preliminary-work-and-taxpayer-data/preliminary-work-to-prepare-tax-returns/previous-irs-correspondence-with-taxpayer/) | review | 2,313 | 2026-08-19 |
-| 1.1.1.m | [Additional required returns filed and taxes paid (e.g., employment, gifts, international information returns, and other information returns)](/individuals/preliminary-work-and-taxpayer-data/preliminary-work-to-prepare-tax-returns/additional-required-returns-filed-and-taxes-paid/) | stub | — | — |
+| 1.1.1.m | [Additional required returns filed and taxes paid (e.g., employment, gifts, international information returns, and other information returns)](/individuals/preliminary-work-and-taxpayer-data/preliminary-work-to-prepare-tax-returns/additional-required-returns-filed-and-taxes-paid/) | review | 2,365 | 2026-08-19 |
 | 1.1.1.n | [Special filing requirements (e.g. foreign income, presidentially declared disaster areas, Form 1040-NR, injured spouse)](/individuals/preliminary-work-and-taxpayer-data/preliminary-work-to-prepare-tax-returns/special-filing-requirements/) | **published** | 2,097 | 2026-08-19 |
 | 1.1.1.o | [Foreign account and asset reporting (e.g., FBAR, Form 8938)](/individuals/preliminary-work-and-taxpayer-data/preliminary-work-to-prepare-tax-returns/foreign-account-and-asset-reporting/) | **published** | 2,231 | 2026-08-19 |
 | 1.1.1.p | [Minor children's unearned income (Kiddie tax)](/individuals/preliminary-work-and-taxpayer-data/preliminary-work-to-prepare-tax-returns/minor-children-s-unearned-income-kiddie-tax/) | **published** | 2,001 | 2026-08-19 |

@@ -19,7 +19,7 @@ authorities:
   - { type: Reg, ref: "§ 1.6081-5", title: "Extensions of time in the case of certain partnerships, corporations and U.S. citizens and residents", url: "https://www.law.cornell.edu/cfr/text/26/1.6081-5" }
   - { type: RevProc, ref: "2025-32", title: "Inflation-adjusted items for 2026", url: "https://www.irs.gov/pub/irs-drop/rp-25-32.pdf" }
 forms: []
-related: ["1.1.1.e", "1.1.1.a", "1.1.1.c", "1.1.1.p", "1.1.1.q", "1.1.1.o", "1.1.1.n", "1.1.1.g", "1.1.1.k"]
+related: ["1.1.1.e", "1.1.1.a", "1.1.1.c", "1.1.1.p", "1.1.1.q", "1.1.1.o", "1.1.1.n", "1.1.1.g", "1.1.1.k", "1.1.1.m"]
 changelog:
   - { date: "2026-08-19", summary: "Initial draft against Rev. Proc. 2025-32 and IRC § 151(d)(5) as amended by Pub. L. 119-21. Records that the zero personal exemption is now permanent and that a new senior deduction applies through 2028." }
 ---
