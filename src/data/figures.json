@@ -1339,6 +1339,48 @@
       "taxYear": 2026,
       "source": "IRC § 7603(b)(2) — https://www.law.cornell.edu/uscode/text/26/7603",
       "verified": "2026-08-18"
+    },
+    "timely.mailing_rule": {
+      "value": "the date of the United States postmark on the cover is deemed the date of delivery or payment, provided the postmark date falls within the prescribed period (including any extension) and the item was deposited within that time in the US mail, postage prepaid, properly addressed",
+      "taxYear": 2026,
+      "source": "IRC § 7502(a) — https://www.law.cornell.edu/uscode/text/26/7502",
+      "verified": "2026-08-18"
+    },
+    "timely.mailing_exceptions": {
+      "value": "3 — filings in or payments to any court other than the Tax Court; currency or other medium of payment unless actually received and accounted for; and items required by law or regulation to be delivered by a method other than mailing",
+      "taxYear": 2026,
+      "source": "IRC § 7502(d) — https://www.law.cornell.edu/uscode/text/26/7502",
+      "verified": "2026-08-18"
+    },
+    "timely.registered_mail": {
+      "value": "registration is prima facie evidence of delivery and the date of registration is deemed the postmark date; the Secretary is authorised to extend both by regulation to certified mail and electronic filing",
+      "taxYear": 2026,
+      "source": "IRC § 7502(c) — https://www.law.cornell.edu/uscode/text/26/7502",
+      "verified": "2026-08-18"
+    },
+    "timely.pds": {
+      "value": "3 designated carriers — DHL Express, FedEx and UPS — but only for the specific services the IRS lists; a service not on the list does not get the timely-mailing rule",
+      "taxYear": 2026,
+      "source": "IRC § 7502(f) and IRS, \"Private delivery services (PDS),\" page last reviewed 28 April 2026 — https://www.irs.gov/filing/private-delivery-services-pds",
+      "verified": "2026-08-18"
+    },
+    "timely.weekend_holiday": {
+      "value": "where the last day falls on a Saturday, Sunday or legal holiday, performance on the next succeeding day that is none of those is timely — the last day is determined including any authorized extension, and \"legal holiday\" means a legal holiday in the District of Columbia",
+      "taxYear": 2026,
+      "source": "IRC § 7503 — https://www.law.cornell.edu/uscode/text/26/7503",
+      "verified": "2026-08-18"
+    },
+    "timely.disaster_discretionary": {
+      "value": "the Secretary may specify a period of up to 1 year to be disregarded for a taxpayer affected by a federally declared disaster, a significant fire, or a terroristic or military action — and, on the written request of a Governor, for a qualified State declared disaster",
+      "taxYear": 2026,
+      "source": "IRC § 7508A(a), (c) — https://www.law.cornell.edu/uscode/text/26/7508A",
+      "verified": "2026-08-18"
+    },
+    "timely.disaster_mandatory": {
+      "value": "120 days, running from the earliest incident date in the declaration to 120 days after the later of that date or the date the declaration was issued, disregarded automatically for a qualified taxpayer — in addition to or concurrent with any period the Secretary specifies",
+      "taxYear": 2026,
+      "source": "IRC § 7508A(e), as amended by Pub. L. 119-29 § 2 (2025), which substituted 120 days for 60 — https://www.law.cornell.edu/uscode/text/26/7508A",
+      "verified": "2026-08-18"
     }
   }
 }

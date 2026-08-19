@@ -15,7 +15,7 @@ authorities:
   - { type: IRC, ref: "§ 7603", title: "Service of summons", url: "https://www.law.cornell.edu/uscode/text/26/7603" }
   - { type: IRC, ref: "§ 6501", title: "Limitations on assessment and collection", url: "https://www.law.cornell.edu/uscode/text/26/6501" }
 forms: []
-related: ["3.3.3.a", "3.2.6.a", "3.2.6.g"]
+related: ["3.3.3.a", "3.2.6.a", "3.2.6.g", "3.2.6.c"]
 changelog:
   - { date: "2026-08-18", summary: "Initial publication from IRC §§ 7609, 7602, 7603 and 6501, each opened at source." }
 ---

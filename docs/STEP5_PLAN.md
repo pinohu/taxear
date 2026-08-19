@@ -21,7 +21,7 @@ blocked on a figure. `npm run verify` reports 0 errors.
 | 3.2.1 Power of attorney | **11 / 11** |
 | 3.1.3 Sanctionable acts | **4 / 4** |
 | 3.1.4 Rules and penalties | **7 / 7** |
-| 3.2.6 Related issues | 9 / 10 |
+| 3.2.6 Related issues | **10 / 10** |
 | 3.3.1 Collection process | 9 / 16 |
 | 3.3.2 Penalties and interest abatement | **5 / 5** |
 | 3.3.3 Audits and examinations | **9 / 9** |
@@ -64,6 +64,7 @@ deposit pages.
 | 3.2.6.i | identity theft — the IRS IP PIN and identity theft guide pages |
 | 3.2.6.g | tax return disclosure statements — Forms 8275 and 8275-R instructions |
 | 3.2.6.d | third-party correspondence — IRC §§ 7609 and 7603 |
+| 3.2.6.c | deadlines and timeliness — IRC §§ 7502, 7503, 7508A |
 | 3.4.3.b | e-file mandate and exceptions |
 
 Forms: 2848, 8821, 1040-X, 843, 656, 9465, 12153, 9423, 6118, 8867, 8948, 8944, 8453,
@@ -85,8 +86,16 @@ Prefer depth over breadth. Each of these sits beside a page that already exists,
 
 | Codes | Why next |
 |---|---|
-| 3.2.6.c | Deadlines and timeliness requirements — the last of 3.2.6 |
+| 3.2.5.a–h | Completion of the filing process, 8 topics. Untouched section, and the largest single block left in Part 3 |
 | 3.4.3.a, c–i | Completes electronic filing, mostly from Pub. 3112 and Pub. 1345 |
+
+### Open item — IRC § 7508A subsection lettering
+
+The Cornell text of § 7508A renders **two** subsections as "(f)" — one defining "significant
+fire", one on the application to the limitation on credit or refund (added by Pub. L. 119-64)
+— with a footnote marker. 3.2.6.c therefore refers to the credit-or-refund provision as "a
+further subsection" and cites no letter. Confirm the designation against the enrolled text
+before any page cites it as § 7508A(f) or (g).
 
 ### Open item — the annual adequate-disclosure revenue procedure
 
