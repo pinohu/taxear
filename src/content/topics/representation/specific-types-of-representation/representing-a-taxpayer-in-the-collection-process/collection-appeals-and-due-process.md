@@ -17,7 +17,7 @@ authorities:
   - { type: IRM, ref: "8.24.1", title: "Collection Appeals Program (CAP)", url: "https://www.irs.gov/irm/part8/irm_08-024-001" }
   - { type: Form, ref: "12153", title: "Request for a Collection Due Process or Equivalent Hearing", url: "https://www.irs.gov/pub/irs-pdf/f12153.pdf" }
 forms: ["12153"]
-related: ["3.3.1.d", "3.2.6.a", "3.3.1.b", "3.3.1.i", "3.3.1.j", "3.3.4.a"]
+related: ["3.3.1.d", "3.2.6.a", "3.3.1.b", "3.3.1.i", "3.3.1.j", "3.3.4.a", "3.3.4.b"]
 changelog:
   - { date: "2026-08-18", summary: "Initial publication from IRC §§ 6320 and 6330 and IRM 8.24.1." }
 ---

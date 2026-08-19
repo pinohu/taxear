@@ -1873,6 +1873,18 @@
       "taxYear": 2026,
       "source": "IRC § 7803(e)(7), added by the Taxpayer First Act of 2019, read at law.cornell.edu",
       "verified": "2026-08-19"
+    },
+    "appeals.small_case_threshold": {
+      "value": "$25,000 or less of total tax and penalties for each tax period involved",
+      "taxYear": 2026,
+      "source": "Publication 5, Your Appeal Rights and How to Prepare a Protest if You Disagree (Rev. 4-2021)",
+      "verified": "2026-08-19"
+    },
+    "appeals.formal_protest_threshold": {
+      "value": "more than $25,000 of proposed change to total tax and penalties for any tax period",
+      "taxYear": 2026,
+      "source": "Publication 5, Your Appeal Rights and How to Prepare a Protest if You Disagree (Rev. 4-2021)",
+      "verified": "2026-08-19"
     }
   }
 }
