@@ -3115,6 +3115,36 @@
       "taxYear": 2026,
       "source": "IRC § 469(c)(7)(B)(i), (ii) — https://www.law.cornell.edu/uscode/text/26/469",
       "verified": "2026-08-19"
+    },
+    "qbi.thresholds": {
+      "value": "$403,500 on a joint return, $201,775 for a married individual filing separately and $201,750 in any other case, with the phase-in range running to $553,500, $276,775 and $276,750 respectively",
+      "taxYear": 2026,
+      "source": "Rev. Proc. 2025-32 § 3.26, adjusting IRC § 199A(e)(2), (b)(3)(B) and (d)(3)(A) — https://www.irs.gov/pub/irs-drop/rp-25-32.pdf",
+      "verified": "2026-08-19"
+    },
+    "qbi.phase_in_width": {
+      "value": "$75,000, or $150,000 on a joint return — raised from $50,000 and $100,000 for taxable years beginning after 31 December 2025",
+      "taxYear": 2026,
+      "source": "IRC § 199A(b)(3)(B), (d)(3) as amended by Pub. L. 119-21 § 70105(a)(1), (a)(2), (c) — https://www.law.cornell.edu/uscode/text/26/199A",
+      "verified": "2026-08-19"
+    },
+    "qbi.minimum_deduction": {
+      "value": "$400 for a taxpayer whose aggregate qualified business income from all active qualified trades or businesses is at least $1,000 — both figures indexed for taxable years beginning after 2026",
+      "taxYear": 2026,
+      "source": "IRC § 199A(i)(1), (i)(2) as added by Pub. L. 119-21 § 70105(b)(1); Rev. Proc. 2025-32 § 2.12 — https://www.law.cornell.edu/uscode/text/26/199A",
+      "verified": "2026-08-19"
+    },
+    "qbi.exclusions": {
+      "value": "reasonable compensation paid to the taxpayer, IRC § 707(c) guaranteed payments, § 707(a) service payments to the extent regulations provide, and — new for 2026 — any amount for which the § 224(a) qualified tips deduction is allowable",
+      "taxYear": 2026,
+      "source": "IRC § 199A(c)(4)(A)-(D), subparagraph (D) added by Pub. L. 119-21 § 70201(d) — https://www.law.cornell.edu/uscode/text/26/199A",
+      "verified": "2026-08-19"
+    },
+    "passthrough.loss_basis_limit": {
+      "value": "a partner's distributive share of loss only to the extent of the adjusted basis of the partnership interest at the end of that partnership year; an S corporation shareholder's losses only to the sum of stock basis and the basis of any debt the corporation owes them",
+      "taxYear": 2026,
+      "source": "IRC § 704(d)(1); IRC § 1366(d)(1)(A), (B) — https://www.law.cornell.edu/uscode/text/26/704",
+      "verified": "2026-08-19"
     }
   }
 }
