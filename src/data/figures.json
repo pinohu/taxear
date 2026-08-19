@@ -1885,6 +1885,18 @@
       "taxYear": 2026,
       "source": "Publication 5, Your Appeal Rights and How to Prepare a Protest if You Disagree (Rev. 4-2021)",
       "verified": "2026-08-19"
+    },
+    "taxcourt.small_case.deficiency": {
+      "value": "$50,000 for any one taxable year for taxes imposed by subtitle A; $50,000 for the chapter 11 estate tax; $50,000 for any one calendar year for the chapter 12 gift tax",
+      "taxYear": 2026,
+      "source": "IRC § 7463(a), (f), read at law.cornell.edu",
+      "verified": "2026-08-19"
+    },
+    "taxcourt.small_case.other": {
+      "value": "$50,000 of relief sought under IRC § 6015(e), $50,000 of unpaid tax on a § 6330(d)(1)(A) collection due process appeal, or $50,000 of abatement sought under § 6404(h)",
+      "taxYear": 2026,
+      "source": "IRC § 7463(a), (f), read at law.cornell.edu",
+      "verified": "2026-08-19"
     }
   }
 }

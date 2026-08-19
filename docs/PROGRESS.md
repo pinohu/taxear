@@ -11,8 +11,8 @@ is indexed, and only the owner moves a page there (see `docs/VERIFICATION.md`).
 |---|---:|---:|---:|---:|---:|---:|
 | 1. Individuals | 120 | 120 | 0 | 0 | 0 | 0 |
 | 2. Businesses | 119 | 119 | 0 | 0 | 0 | 0 |
-| 3. Representation, Practices and Procedures | 121 | 20 | 0 | 101 | 0 | 215,359 |
-| **All parts** | **360** | **259** | **0** | **101** | **0** | **215,359** |
+| 3. Representation, Practices and Procedures | 121 | 19 | 0 | 102 | 0 | 217,713 |
+| **All parts** | **360** | **258** | **0** | **102** | **0** | **217,713** |
 
 ## Part 1 — Individuals
 
@@ -594,7 +594,7 @@ is indexed, and only the owner moves a page there (see `docs/VERIFICATION.md`).
 | 3.3.4.b | [Request for appeals consideration (e.g., preparation, elements contained)](/representation/specific-types-of-representation/representing-a-taxpayer-before-appeals/request-for-appeals-consideration/) | review | 2,212 | 2026-08-19 |
 | 3.3.4.c | [Enrolled Agent appearance at appeals conference](/representation/specific-types-of-representation/representing-a-taxpayer-before-appeals/enrolled-agent-appearance-at-appeals-conference/) | stub | — | — |
 | 3.3.4.d | [Settlement function of the appeals process](/representation/specific-types-of-representation/representing-a-taxpayer-before-appeals/settlement-function-of-the-appeals-process/) | stub | — | — |
-| 3.3.4.e | [Issuance of 90-day letter](/representation/specific-types-of-representation/representing-a-taxpayer-before-appeals/issuance-of-90-day-letter/) | stub | — | — |
+| 3.3.4.e | [Issuance of 90-day letter](/representation/specific-types-of-representation/representing-a-taxpayer-before-appeals/issuance-of-90-day-letter/) | review | 2,354 | 2026-08-19 |
 
 ### 3.4 Completion of the Filing Process
 

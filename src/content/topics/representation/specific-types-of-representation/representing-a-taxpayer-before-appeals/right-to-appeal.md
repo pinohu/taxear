@@ -16,7 +16,7 @@ authorities:
   - { type: IRC, ref: "§ 6212", title: "Notice of deficiency" }
   - { type: Pub, ref: "5", title: "Your Appeal Rights and How to Prepare a Protest if You Disagree" }
 forms: []
-related: ["3.3.1.e", "3.3.1.d", "3.3.3.h", "3.3.4.b"]
+related: ["3.3.1.e", "3.3.1.d", "3.3.3.h", "3.3.4.b", "3.3.4.e"]
 changelog:
   - { date: "2026-08-19", summary: "Initial draft." }
 ---

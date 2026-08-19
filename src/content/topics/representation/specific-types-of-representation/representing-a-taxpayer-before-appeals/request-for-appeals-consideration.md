@@ -15,7 +15,7 @@ authorities:
   - { type: Circ230, ref: "§ 10.22", title: "Diligence as to accuracy" }
   - { type: Form, ref: "12203", title: "Request for Appeals Review" }
 forms: []
-related: ["3.3.4.a", "3.3.1.e", "3.3.3.f"]
+related: ["3.3.4.a", "3.3.1.e", "3.3.3.f", "3.3.4.e"]
 changelog:
   - { date: "2026-08-19", summary: "Initial draft against Publication 5 (Rev. 4-2021)." }
 ---
