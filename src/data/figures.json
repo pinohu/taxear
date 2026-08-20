@@ -7141,6 +7141,66 @@
       "taxYear": 2026,
       "source": "IRC § 2503(b), read at law.cornell.edu/uscode/text/26/2503",
       "verified": "2026-08-20"
+    },
+    "annualex.per_donee": {
+      "value": "per donee per calendar year, and the exclusion applies to the first gifts made to that person during the year — there is no aggregate cap on the number of donees (IRC § 2503(b)(1))",
+      "taxYear": 2026,
+      "source": "IRC § 2503(b)(1), read at law.cornell.edu/uscode/text/26/2503",
+      "verified": "2026-08-20"
+    },
+    "annualex.future_interest": {
+      "value": "no part of a gift of a future interest may be excluded — a future interest being a reversion, remainder or other interest limited to commence in use, possession or enjoyment at some future date, while an unrestricted right to the immediate use, possession or enjoyment of property or its income is a present interest (Reg. § 25.2503-3(a), (b))",
+      "taxYear": 2026,
+      "source": "26 CFR § 25.2503-3, read at law.cornell.edu/cfr/text/26/25.2503-3",
+      "verified": "2026-08-20"
+    },
+    "annualex.indexing": {
+      "value": "indexed from the statutory $10,000 by the IRC § 1(f)(3) cost-of-living adjustment substituting calendar year 1997, and rounded down to the next lowest multiple of $1,000 — which is why the figure moves in whole thousands and can stand still for a year (IRC § 2503(b)(2))",
+      "taxYear": 2026,
+      "source": "IRC § 2503(b)(2), read at law.cornell.edu/uscode/text/26/2503",
+      "verified": "2026-08-20"
+    },
+    "annualex.minor_trust": {
+      "value": "a gift to someone under 21 is not a future interest if the property and its income may be expended by or for the donee before 21, and to the extent unexpended will pass to the donee at 21 or, on earlier death, to the donee's estate or as the donee appoints under a general power (IRC § 2503(c))",
+      "taxYear": 2026,
+      "source": "IRC § 2503(c), read at law.cornell.edu/uscode/text/26/2503",
+      "verified": "2026-08-20"
+    },
+    "annualex.qualified_transfer": {
+      "value": "tuition paid directly to an educational organization described in IRC § 170(b)(1)(A)(ii), and amounts paid directly to a provider of medical care within § 213(d), are not transfers by gift at all — unlimited in amount and additional to the annual exclusion (IRC § 2503(e))",
+      "taxYear": 2026,
+      "source": "IRC § 2503(e), read at law.cornell.edu/uscode/text/26/2503",
+      "verified": "2026-08-20"
+    },
+    "annualex.529_election": {
+      "value": "a contribution to a qualified tuition program is a completed present-interest gift to the beneficiary and is expressly not a qualified transfer, but a donor may elect to spread the excess over the annual exclusion ratably across the 5-year period beginning with that year (IRC § 529(c)(2))",
+      "taxYear": 2026,
+      "source": "IRC § 529(c)(2), read at law.cornell.edu/uscode/text/26/529",
+      "verified": "2026-08-20"
+    },
+    "annualex.able_account": {
+      "value": "a contribution to an ABLE account established under IRC § 529A is expressly not a future interest, so the annual exclusion is available for it (Reg. § 25.2503-3(a))",
+      "taxYear": 2026,
+      "source": "26 CFR § 25.2503-3(a), read at law.cornell.edu/cfr/text/26/25.2503-3",
+      "verified": "2026-08-20"
+    },
+    "annualex.artwork_loan": {
+      "value": "a loan of archaeological, historic or creative tangible personal property to a § 501(c)(3) organization other than a private foundation, for a use related to its exempt purpose, is not a transfer at all (IRC § 2503(g))",
+      "taxYear": 2026,
+      "source": "IRC § 2503(g), read at law.cornell.edu/uscode/text/26/2503",
+      "verified": "2026-08-20"
+    },
+    "annualex.pension_waiver": {
+      "value": "a waiver before the participant's death of a survivor benefit under IRC § 401(a)(11) or § 417 is not treated as a transfer by gift (IRC § 2503(f))",
+      "taxYear": 2026,
+      "source": "IRC § 2503(f), read at law.cornell.edu/uscode/text/26/2503",
+      "verified": "2026-08-20"
+    },
+    "annualex.noncitizen_spouse_mechanism": {
+      "value": "where the donee spouse is not a citizen the marital deduction is denied and IRC § 2503(b) is applied to those gifts by substituting $100,000 for $10,000 — so the larger figure is the ordinary annual exclusion computed from a different base, indexed the same way (IRC § 2523(i))",
+      "taxYear": 2026,
+      "source": "IRC § 2523(i), read at law.cornell.edu/uscode/text/26/2523",
+      "verified": "2026-08-20"
     }
   }
 }
