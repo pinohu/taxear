@@ -567,21 +567,21 @@
       "verified": "2026-08-19"
     },
     "carryover.nol_limit": {
-      "value": "limited, in a taxable year beginning after 31 December 2020, to 80 percent of taxable income computed without regard to the net operating loss deduction and the deductions under §§ 199A and 250, after first absorbing pre-2018 losses in full",
+      "value": "the deduction for post-2017 losses is capped at 80 percent of taxable income computed without the § 172, § 199A and § 250 deductions, while pre-2018 losses are deductible in full and are taken first (IRC § 172(a)(2))",
       "taxYear": 2026,
-      "source": "IRC § 172(a)(2)",
+      "source": "IRC § 172(a), read at law.cornell.edu/uscode/text/26/172",
       "verified": "2026-08-19"
     },
     "carryover.nol_period": {
-      "value": "indefinite, for a loss arising in a taxable year beginning after 31 December 2017; 20 taxable years for a loss arising before that",
+      "value": "a net operating loss arising in a taxable year beginning after 31 December 2017 carries forward to each taxable year following the loss, with no expiry and — outside the farming and insurance exceptions — no carryback (IRC § 172(b)(1)(A)(ii)(II))",
       "taxYear": 2026,
-      "source": "IRC § 172(b)(1)(A)(ii) — https://www.law.cornell.edu/uscode/text/26/172",
+      "source": "IRC § 172(b), read at law.cornell.edu/uscode/text/26/172",
       "verified": "2026-08-19"
     },
     "carryover.passive": {
-      "value": "carried to the next taxable year as a deduction or credit allocable to the same activity, with no time limit",
+      "value": "indefinite — a loss or credit disallowed under IRC § 469(a) is treated as allocable to the same activity in the next taxable year, and is released on a fully taxable disposition of the entire interest (IRC § 469(b), (g))",
       "taxYear": 2026,
-      "source": "IRC § 469(b) — https://www.law.cornell.edu/uscode/text/26/469",
+      "source": "IRC § 469(b), read at law.cornell.edu/uscode/text/26/469",
       "verified": "2026-08-19"
     },
     "caselaw.acquiescence": {
@@ -6432,6 +6432,30 @@
       "value": "where the parents are divorced, legally separated, separated under a written agreement, or living apart for the last six months, and the child is in the custody of one or both for more than half the year, the child may be treated as the noncustodial parent's on a release by the custodial parent (IRC § 152(e)(1), (2))",
       "taxYear": 2026,
       "source": "IRC § 152(e), read at law.cornell.edu/uscode/text/26/152",
+      "verified": "2026-08-19"
+    },
+    "carryover.capital_loss": {
+      "value": "a non-corporate taxpayer deducts capital losses against capital gains plus the lower of $3,000 — $1,500 for a married individual filing separately — or the excess of losses over gains, and the unused balance carries forward indefinitely keeping its short-term or long-term character (IRC §§ 1211(b), 1212(b)(1))",
+      "taxYear": 2026,
+      "source": "IRC §§ 1211(b) and 1212(b), read at law.cornell.edu/uscode/text/26/1211 and /1212",
+      "verified": "2026-08-19"
+    },
+    "carryover.charitable": {
+      "value": "five succeeding taxable years, in order of time, for contributions exceeding the percentage limitation for the year (IRC § 170(d)(1)(A))",
+      "taxYear": 2026,
+      "source": "IRC § 170(d)(1), read at law.cornell.edu/uscode/text/26/170",
+      "verified": "2026-08-19"
+    },
+    "carryover.negative_qbi": {
+      "value": "a negative net amount of qualified business income for a year is treated as a loss from a qualified trade or business in the succeeding taxable year, so it reduces the following year's deduction rather than being lost (IRC § 199A(c)(2))",
+      "taxYear": 2026,
+      "source": "IRC § 199A(c)(2), read at law.cornell.edu/uscode/text/26/199A",
+      "verified": "2026-08-19"
+    },
+    "carryover.minimum_tax_credit": {
+      "value": "indefinite, with no expiry, but usable in any year only up to regular tax liability reduced by other nonrefundable credits less the tentative minimum tax — and generated only by deferral items (IRC § 53(b), (c), (d)(1)(B))",
+      "taxYear": 2026,
+      "source": "IRC § 53, read at law.cornell.edu/uscode/text/26/53",
       "verified": "2026-08-19"
     }
   }

@@ -16,7 +16,7 @@ authorities:
   - { type: IRC, ref: "§ 509", title: "Private foundation defined", url: "https://www.law.cornell.edu/uscode/text/26/509" }
   - { type: Statute, ref: "Pub. L. 119-21, §§ 70424-70426", title: "Charitable contribution amendments", url: "https://www.law.cornell.edu/uscode/text/26/170" }
 forms: []
-related: ["1.3.1.b", "1.3.1.a", "1.3.1.f", "1.3.1.c", "1.2.3.c", "1.3.1.e", "1.3.1.g"]
+related: ["1.3.1.b", "1.3.1.a", "1.3.1.f", "1.3.1.c", "1.2.3.c", "1.3.1.e", "1.3.1.g", "1.5.1.g"]
 changelog:
   - { date: "2026-08-19", summary: "Initial draft. Sets out the new IRC § 170(b)(1)(I) 0.5 percent floor added by Pub. L. 119-21 § 70425(a)(1) and its absorption ordering, the § 170(p) deduction for non-itemizers, the § 170(b)(1)(G) cash limitation made permanent by § 70425(b)(1), the § 170(f)(17) recordkeeping rule reaching cash of any amount, the § 170(f)(8) contemporaneous written acknowledgment requirement, and the three § 170(f)(11) appraisal thresholds." }
 ---
