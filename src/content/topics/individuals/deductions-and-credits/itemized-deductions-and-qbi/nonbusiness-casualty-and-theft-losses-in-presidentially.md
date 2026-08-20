@@ -14,7 +14,7 @@ authorities:
   - { type: IRC, ref: "§ 1033", title: "Involuntary conversions", url: "https://www.law.cornell.edu/uscode/text/26/1033" }
   - { type: Statute, ref: "Pub. L. 119-21, § 70109", title: "Personal casualty losses", url: "https://www.law.cornell.edu/uscode/text/26/165" }
 forms: []
-related: ["1.3.1.a", "1.3.1.f", "1.3.1.b", "1.2.3.a", "1.3.1.d"]
+related: ["1.3.1.a", "1.3.1.f", "1.3.1.b", "1.2.3.a", "1.3.1.d", "1.3.1.g"]
 changelog:
   - { date: "2026-08-19", summary: "Initial draft. Sets out the IRC § 165(h)(5)(A) disaster requirement as amended by Pub. L. 119-21 § 70109 to add State declared disasters and remove the end date, the § 165(h)(5)(C) definition of a State declared disaster, the § 165(h)(1) per-event floor and § 165(h)(2) 10 percent floor, the § 165(h)(2)(B) reversal where gains exceed losses, the § 165(h)(4)(A) above-the-line portion, and the § 165(i)(1) prior year election." }
 ---

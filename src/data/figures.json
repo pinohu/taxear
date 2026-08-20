@@ -3146,6 +3146,42 @@
       "source": "IRC § 409A(a)(1)(A)(i), (a)(1)(B)(i)(I), (II), (a)(1)(B)(ii) — https://www.law.cornell.edu/uscode/text/26/409A",
       "verified": "2026-08-19"
     },
+    "nrded.charitable_domestic_only": {
+      "value": "the § 170 deduction reaches a corporation, trust, community chest, fund or foundation created or organised in the United States or a possession, so a gift to a foreign charity does not qualify even for a nonresident alien",
+      "taxYear": 2026,
+      "source": "IRC § 170(c)(2)(A) — https://www.law.cornell.edu/uscode/text/26/170",
+      "verified": "2026-08-19"
+    },
+    "nrded.effectively_connected": {
+      "value": "a nonresident alien engaged in a United States trade or business is taxed under IRC § 1 or § 55 on taxable income effectively connected with it, gross income including only effectively connected income",
+      "taxYear": 2026,
+      "source": "IRC § 871(b)(1), (2) — https://www.law.cornell.edu/uscode/text/26/871",
+      "verified": "2026-08-19"
+    },
+    "nrded.general_rule": {
+      "value": "deductions are allowed only for purposes of IRC § 871(b) and only if and to the extent connected with income effectively connected with a United States trade or business, apportioned and allocated as regulations provide",
+      "taxYear": 2026,
+      "source": "IRC § 873(a) — https://www.law.cornell.edu/uscode/text/26/873",
+      "verified": "2026-08-19"
+    },
+    "nrded.no_standard_deduction": {
+      "value": "zero — a nonresident alien individual is one of the four classes for which IRC § 63(c)(6) sets the standard deduction at zero, so itemising is not a choice",
+      "taxYear": 2026,
+      "source": "IRC § 63(c)(6)(B) and its closing text — https://www.law.cornell.edu/uscode/text/26/63",
+      "verified": "2026-08-19"
+    },
+    "nrded.students_and_trainees": {
+      "value": "a nonresident alien temporarily present under an F, J, M or Q visa who is not otherwise engaged in a United States trade or business is treated as so engaged, and the income described in the second sentence of IRC § 1441(b) is treated as effectively connected to the extent from United States sources",
+      "taxYear": 2026,
+      "source": "IRC § 871(c) — https://www.law.cornell.edu/uscode/text/26/871",
+      "verified": "2026-08-19"
+    },
+    "nrded.three_exceptions": {
+      "value": "three deductions are allowed whether or not connected with effectively connected income — casualty and theft losses under IRC § 165(c)(2) or (3) but only for property located in the United States, charitable contributions under § 170, and the § 151 personal exemption limited to one unless the taxpayer is a resident of a contiguous country or a United States national",
+      "taxYear": 2026,
+      "source": "IRC § 873(b)(1), (2), (3) — https://www.law.cornell.edu/uscode/text/26/873",
+      "verified": "2026-08-19"
+    },
     "nua.aggregation": {
       "value": "all trusts in a plan are one trust, all pension plans of the employer one plan, all profit-sharing plans one plan, and all stock bonus plans one plan — so the balance must be emptied across the whole category, not just the one account",
       "taxYear": 2026,
