@@ -15,7 +15,7 @@ authorities:
   - { type: IRC, ref: "§ 67", title: "2-percent floor on miscellaneous itemized deductions", url: "https://www.law.cornell.edu/uscode/text/26/67" }
   - { type: IRC, ref: "§ 72", title: "Annuities", url: "https://www.law.cornell.edu/uscode/text/26/72" }
 forms: []
-related: ["1.2.3.c", "1.3.1.f", "1.2.2.l", "1.4.1.g"]
+related: ["1.2.3.c", "1.3.1.f", "1.2.2.l", "1.4.1.g", "1.4.1.i"]
 changelog:
   - { date: "2026-08-19", summary: "Initial draft. Sets out the IRC § 691(a)(1) allocation of the item among estate, successor and legatee, the § 691(a)(3) character rule, the § 691(a)(2) acceleration on transfer, the § 1014(c) denial of a basis step-up, the § 691(b) deductions in respect of a decedent, and the § 691(c) estate tax deduction with its § 67(b)(7) protection from the miscellaneous itemized deduction disallowance." }
 ---

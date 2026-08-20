@@ -5983,6 +5983,66 @@
       "taxYear": 2026,
       "source": "IRC §§ 691(c) and 67(b)(7), read at law.cornell.edu/uscode/text/26/691 and /67",
       "verified": "2026-08-19"
+    },
+    "niit.rate": {
+      "value": "3.8 percent of the lesser of net investment income or the excess of modified adjusted gross income over the threshold — so the tax is never on more than the investment income and never on more than the amount above the threshold (IRC § 1411(a)(1))",
+      "taxYear": 2026,
+      "source": "IRC § 1411, read at law.cornell.edu/uscode/text/26/1411",
+      "verified": "2026-08-19"
+    },
+    "niit.threshold": {
+      "value": "$250,000 on a joint return or for a surviving spouse, $125,000 for a married individual filing separately, and $200,000 in any other case — statutory, and never indexed since the tax took effect in 2013 (IRC § 1411(b))",
+      "taxYear": 2026,
+      "source": "IRC § 1411, read at law.cornell.edu/uscode/text/26/1411",
+      "verified": "2026-08-19"
+    },
+    "niit.estate_threshold": {
+      "value": "for an estate or trust, 3.8 percent of the lesser of undistributed net investment income or the excess of adjusted gross income over the dollar amount at which the highest § 1(e) bracket begins — $16,250 for taxable years beginning in 2026",
+      "taxYear": 2026,
+      "source": "IRC § 1411(a)(2) read at law.cornell.edu/uscode/text/26/1411 and Rev. Proc. 2025-32 § 3.01 Table 5 read at irs.gov/pub/irs-drop/rp-25-32.pdf",
+      "verified": "2026-08-19"
+    },
+    "niit.components": {
+      "value": "gross income from interest, dividends, annuities, royalties and rents unless derived in the ordinary course of a non-passive trade or business; other gross income from a passive activity or a trade or business of trading in financial instruments or commodities; and net gain from disposing of property other than property held in a non-passive trade or business — less the deductions properly allocable to them (IRC § 1411(c)(1), (2))",
+      "taxYear": 2026,
+      "source": "IRC § 1411, read at law.cornell.edu/uscode/text/26/1411",
+      "verified": "2026-08-19"
+    },
+    "niit.exclusions": {
+      "value": "distributions from a plan or arrangement described in IRC §§ 401(a), 403(a), 403(b), 408, 408A or 457(b), and any item taken into account in determining self-employment income on which the § 1401(b) tax is imposed — so the same dollar is never hit by both the net investment income tax and the Medicare tax (IRC § 1411(c)(5), (6))",
+      "taxYear": 2026,
+      "source": "IRC § 1411, read at law.cornell.edu/uscode/text/26/1411",
+      "verified": "2026-08-19"
+    },
+    "niit.nonapplication": {
+      "value": "a nonresident alien is outside the tax entirely, as is a trust all of whose unexpired interests are devoted to § 170(c)(2)(B) purposes (IRC § 1411(e))",
+      "taxYear": 2026,
+      "source": "IRC § 1411, read at law.cornell.edu/uscode/text/26/1411",
+      "verified": "2026-08-19"
+    },
+    "niit.magi": {
+      "value": "adjusted gross income increased by the excess of the amount excluded under IRC § 911(a)(1) over the deductions and exclusions disallowed by reason of that exclusion (IRC § 1411(d))",
+      "taxYear": 2026,
+      "source": "IRC § 1411, read at law.cornell.edu/uscode/text/26/1411",
+      "verified": "2026-08-19"
+    },
+    "addmed.rate": {
+      "value": "0.9 percent of wages, and of self-employment income, above the threshold — imposed on the employee alone, with no employer match (IRC §§ 3101(b)(2) and 1401(b)(2))",
+      "taxYear": 2026,
+      "source": "IRC §§ 3101(b)(2) and 1401(b)(2), read at law.cornell.edu/uscode/text/26/3101 and /1401",
+      "verified": "2026-08-19"
+    },
+    "addmed.threshold": {
+      "value": "$250,000 on a joint return, $125,000 for a married individual filing separately and $200,000 in any other case — the same figures as the net investment income tax, equally unindexed (IRC § 3101(b)(2)(A)–(C))",
+      "taxYear": 2026,
+      "source": "IRC § 3101(b)(2), read at law.cornell.edu/uscode/text/26/3101",
+      "verified": "2026-08-19"
+    },
+    "addmed.withholding": {
+      "value": "an employer withholds only on wages it pays above $200,000, disregarding the spouse's wages and any other employer's — so withholding routinely fails to match the liability in both directions, and the difference is settled on Form 8959 (IRC § 3102(f)(1), (2))",
+      "taxYear": 2026,
+      "source": "IRC § 3102(f), read at law.cornell.edu/uscode/text/26/3102",
+      "verified": "2026-08-19"
     }
   }
 }
