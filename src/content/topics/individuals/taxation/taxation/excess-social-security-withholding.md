@@ -16,7 +16,7 @@ authorities:
   - { type: IRC, ref: "§ 3201", title: "Rate of tax — railroad retirement", url: "https://www.law.cornell.edu/uscode/text/26/3201" }
   - { type: Pub, ref: "IRS Topic no. 751", title: "Social security and Medicare withholding rates and wage base", url: "https://www.irs.gov/taxtopics/tc751" }
 forms: []
-related: ["1.4.1.d", "1.4.1.j", "1.3.2.h", "1.4.1.b"]
+related: ["1.4.1.d", "1.4.1.j", "1.3.2.h", "1.4.1.b", "1.4.1.f"]
 changelog:
   - { date: "2026-08-19", summary: "Initial draft. Sets out the IRC § 6413(c)(1) special refund and its two-employer condition, the § 31(b)(1) treatment of the amount as tax withheld at source, the § 31(b)(2) year rule, the absence of any equivalent for the hospital insurance tax under § 3101(b), and the railroad retirement coordination. 2026 wage base from IRS Topic 751." }
 ---

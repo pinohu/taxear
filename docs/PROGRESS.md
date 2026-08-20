@@ -9,10 +9,10 @@ is indexed, and only the owner moves a page there (see `docs/VERIFICATION.md`).
 
 | Part | Topics | Stub | Draft | Review | Published | Words |
 |---|---:|---:|---:|---:|---:|---:|
-| 1. Individuals | 120 | 38 | 0 | 72 | 10 | 182,498 |
+| 1. Individuals | 120 | 37 | 0 | 73 | 10 | 184,464 |
 | 2. Businesses | 119 | 119 | 0 | 0 | 0 | 0 |
 | 3. Representation, Practices and Procedures | 121 | 0 | 0 | 0 | 121 | 257,674 |
-| **All parts** | **360** | **157** | **0** | **72** | **131** | **440,172** |
+| **All parts** | **360** | **156** | **0** | **73** | **131** | **442,138** |
 
 ## Part 1 — Individuals
 
@@ -145,7 +145,7 @@ is indexed, and only the owner moves a page there (see `docs/VERIFICATION.md`).
 | 1.4.1.c | [Underpayment penalties and interest](/individuals/taxation/taxation/underpayment-penalties-and-interest/) | review | 2,137 | 2026-08-19 |
 | 1.4.1.d | [Self-employment tax](/individuals/taxation/taxation/self-employment-tax/) | review | 2,186 | 2026-08-19 |
 | 1.4.1.e | [Excess Social Security withholding](/individuals/taxation/taxation/excess-social-security-withholding/) | review | 1,747 | 2026-08-19 |
-| 1.4.1.f | [Tax provisions for members of the clergy](/individuals/taxation/taxation/tax-provisions-for-members-of-the-clergy/) | stub | — | — |
+| 1.4.1.f | [Tax provisions for members of the clergy](/individuals/taxation/taxation/tax-provisions-for-members-of-the-clergy/) | review | 1,966 | 2026-08-19 |
 | 1.4.1.g | [Tax provisions for members of the military](/individuals/taxation/taxation/tax-provisions-for-members-of-the-military/) | stub | — | — |
 | 1.4.1.h | [Income in respect of decedent (e.g., allocations)](/individuals/taxation/taxation/income-in-respect-of-decedent/) | stub | — | — |
 | 1.4.1.i | [Net investment income tax](/individuals/taxation/taxation/net-investment-income-tax/) | stub | — | — |

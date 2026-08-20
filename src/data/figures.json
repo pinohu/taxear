@@ -5845,6 +5845,48 @@
       "taxYear": 2026,
       "source": "IRC §§ 31(b) and 6413(c), read at law.cornell.edu/uscode/text/26/31 and /6413",
       "verified": "2026-08-19"
+    },
+    "clergy.housing_exclusion": {
+      "value": "the rental value of a home furnished as part of compensation is excluded outright; a cash rental allowance is excluded only to the extent used to rent or provide a home and only up to the fair rental value of the home with furnishings and appurtenances plus utilities (IRC § 107(1), (2))",
+      "taxYear": 2026,
+      "source": "IRC § 107, read at law.cornell.edu/uscode/text/26/107",
+      "verified": "2026-08-19"
+    },
+    "clergy.designation": {
+      "value": "a cash allowance must be designated as a rental allowance by official action of the employing church taken in advance of the payment — an employment contract, minutes, a resolution or the budget will do, but a designation made after the fact will not (Reg. § 1.107-1(b))",
+      "taxYear": 2026,
+      "source": "Reg. § 1.107-1(b), (c), read at law.cornell.edu/cfr/text/26/1.107-1",
+      "verified": "2026-08-19"
+    },
+    "clergy.se_inclusion": {
+      "value": "net earnings from ministerial service are computed without regard to IRC §§ 107, 119 and 911, so the excluded housing value or allowance is nonetheless subject to self-employment tax (IRC § 1402(a)(8))",
+      "taxYear": 2026,
+      "source": "IRC § 1402(a)(8), (c), (e), read at law.cornell.edu/uscode/text/26/1402",
+      "verified": "2026-08-19"
+    },
+    "clergy.retirement_carve_out": {
+      "value": "the rental value of a parsonage or a parsonage allowance provided after retirement, and any other retirement benefit from a church plan within IRC § 414(e), are excluded from net earnings from self-employment (IRC § 1402(a)(8))",
+      "taxYear": 2026,
+      "source": "IRC § 1402(a)(8), (c), (e), read at law.cornell.edu/uscode/text/26/1402",
+      "verified": "2026-08-19"
+    },
+    "clergy.exemptions": {
+      "value": "two, and only two — a member of a religious order who has taken a vow of poverty is outside self-employment tax without applying, and any other minister or Christian Science practitioner must file and have approved an application stating conscientious or religious opposition to public insurance (IRC § 1402(c) closing sentence, § 1402(e)(1))",
+      "taxYear": 2026,
+      "source": "IRC § 1402(a)(8), (c), (e), read at law.cornell.edu/uscode/text/26/1402",
+      "verified": "2026-08-19"
+    },
+    "clergy.withholding": {
+      "value": "ministerial services are excluded from wages for income tax withholding and from employment for FICA, so a minister pays through estimated tax or a voluntary withholding agreement (IRC §§ 3401(a)(9) and 3121(b)(8)(A))",
+      "taxYear": 2026,
+      "source": "IRC §§ 3401(a)(9) and 3121(b)(8)(A), read at law.cornell.edu/uscode/text/26/3401 and /3121",
+      "verified": "2026-08-19"
+    },
+    "clergy.double_deduction": {
+      "value": "mortgage interest and real property taxes on the minister's home remain deductible even though paid out of an excluded parsonage allowance — IRC § 265(a)(6)(B) disapplies the usual denial of deductions allocable to tax-exempt income",
+      "taxYear": 2026,
+      "source": "IRC § 265(a)(6), read at law.cornell.edu/uscode/text/26/265",
+      "verified": "2026-08-19"
     }
   }
 }
