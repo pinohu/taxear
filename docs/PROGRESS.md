@@ -9,10 +9,10 @@ is indexed, and only the owner moves a page there (see `docs/VERIFICATION.md`).
 
 | Part | Topics | Stub | Draft | Review | Published | Words |
 |---|---:|---:|---:|---:|---:|---:|
-| 1. Individuals | 120 | 19 | 0 | 91 | 10 | 218,858 |
+| 1. Individuals | 120 | 18 | 0 | 92 | 10 | 221,221 |
 | 2. Businesses | 119 | 119 | 0 | 0 | 0 | 0 |
 | 3. Representation, Practices and Procedures | 121 | 0 | 0 | 0 | 121 | 257,674 |
-| **All parts** | **360** | **138** | **0** | **91** | **131** | **476,532** |
+| **All parts** | **360** | **137** | **0** | **92** | **131** | **478,895** |
 
 ## Part 1 — Individuals
 
@@ -171,7 +171,7 @@ is indexed, and only the owner moves a page there (see `docs/VERIFICATION.md`).
 | 1.5.1.j | [Estimated tax and penalty avoidance (mid-year estimated tax planning)](/individuals/advising-the-individual-taxpayer/advising-the-individual-taxpayer/estimated-tax-and-penalty-avoidance-mid-year-estimated-tax/) | review | 2,416 | 2026-08-20 |
 | 1.5.1.k | [Adjustments, deductions, and credits for tax planning (e.g., timing of income and expenses)](/individuals/advising-the-individual-taxpayer/advising-the-individual-taxpayer/adjustments-deductions-and-credits-for-tax-planning/) | review | 2,383 | 2026-08-20 |
 | 1.5.1.l | [Character of transaction (e.g., use of capital gain rates versus ordinary income rates)](/individuals/advising-the-individual-taxpayer/advising-the-individual-taxpayer/character-of-transaction/) | review | 2,220 | 2026-08-20 |
-| 1.5.1.m | [Advantages and disadvantages of MFJ/MFS/HOH filing statuses in various scenarios. (joint and several liability)](/individuals/advising-the-individual-taxpayer/advising-the-individual-taxpayer/advantages-and-disadvantages-of-mfj-mfs-hoh-filing-statuses/) | stub | — | — |
+| 1.5.1.m | [Advantages and disadvantages of MFJ/MFS/HOH filing statuses in various scenarios. (joint and several liability)](/individuals/advising-the-individual-taxpayer/advising-the-individual-taxpayer/advantages-and-disadvantages-of-mfj-mfs-hoh-filing-statuses/) | review | 2,363 | 2026-08-20 |
 | 1.5.1.n | [Conditions for filing a claim for refund (amended returns)](/individuals/advising-the-individual-taxpayer/advising-the-individual-taxpayer/conditions-for-filing-a-claim-for-refund-amended-returns/) | stub | — | — |
 | 1.5.1.o | [Penalty of perjury](/individuals/advising-the-individual-taxpayer/advising-the-individual-taxpayer/penalty-of-perjury/) | stub | — | — |
 

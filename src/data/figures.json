@@ -6625,6 +6625,66 @@
       "taxYear": 2026,
       "source": "IRC § 1202 and its 2025 amendment notes, read at law.cornell.edu/uscode/text/26/1202",
       "verified": "2026-08-20"
+    },
+    "status.joint_and_several": {
+      "value": "where a joint return is made the tax is computed on aggregate income and the liability for it is joint and several — each spouse is liable for the whole of it, without regard to who earned the income or made the error (IRC § 6013(d)(3))",
+      "taxYear": 2026,
+      "source": "IRC § 6013, read at law.cornell.edu/uscode/text/26/6013",
+      "verified": "2026-08-20"
+    },
+    "status.separate_to_joint": {
+      "value": "a couple who filed separate returns may still make a joint return for that year, but not after 3 years from the unextended due date, nor after a notice of deficiency has been mailed and the spouse has petitioned the Tax Court, nor after either spouse has sued for recovery of any part of the tax, nor after a closing agreement or a compromise (IRC § 6013(b))",
+      "taxYear": 2026,
+      "source": "IRC § 6013(b), read at law.cornell.edu/uscode/text/26/6013",
+      "verified": "2026-08-20"
+    },
+    "status.joint_to_separate": {
+      "value": "there is no corresponding provision — IRC § 6013(b) runs one way only, so once a joint return is filed the couple may not switch to separate returns for that year after the due date has passed",
+      "taxYear": 2026,
+      "source": "IRC § 6013, read in full at law.cornell.edu/uscode/text/26/6013",
+      "verified": "2026-08-20"
+    },
+    "status.considered_unmarried": {
+      "value": "a married individual who files separately, maintains a household that is for more than half the year the principal place of abode of a child for whom a dependency deduction is allowable, furnishes over half the cost of maintaining it, and whose spouse is not a member of the household during the last 6 months of the year, is not considered married (IRC § 7703(b))",
+      "taxYear": 2026,
+      "source": "IRC § 7703, read at law.cornell.edu/uscode/text/26/7703",
+      "verified": "2026-08-20"
+    },
+    "status.hoh_gateway": {
+      "value": "head of household requires the individual to be not married at the close of the year and not a surviving spouse — a married individual reaches it only through the IRC § 7703(b) route, which IRC § 2(c) imports for this purpose (IRC § 2(b)(1), (c))",
+      "taxYear": 2026,
+      "source": "IRC § 2, read at law.cornell.edu/uscode/text/26/2",
+      "verified": "2026-08-20"
+    },
+    "status.mfs_standard_deduction": {
+      "value": "zero where either spouse itemizes — the standard deduction is denied to a married individual filing separately if the other spouse itemizes, so the choice binds both (IRC § 63(c)(6)(A))",
+      "taxYear": 2026,
+      "source": "IRC § 63(c)(6), read at law.cornell.edu/uscode/text/26/63",
+      "verified": "2026-08-20"
+    },
+    "status.mfs_denied": {
+      "value": "the dependent care credit (IRC § 21(e)(2)), the education credits (§ 25A(g)(6)), the earned income credit (§ 32(d)(1)) and the student loan interest deduction (§ 221(e)(2)) are each allowed to a married individual only on a joint return",
+      "taxYear": 2026,
+      "source": "IRC §§ 21, 25A, 32 and 221, each read at law.cornell.edu",
+      "verified": "2026-08-20"
+    },
+    "status.mfs_social_security_base": {
+      "value": "zero — a taxpayer married at the close of the year who does not file jointly and does not live apart from the spouse at all times during the year has a base amount and an adjusted base amount of zero, so benefits are taxable from the first dollar (IRC § 86(c)(1)(C), (2)(C))",
+      "taxYear": 2026,
+      "source": "IRC § 86, read at law.cornell.edu/uscode/text/26/86",
+      "verified": "2026-08-20"
+    },
+    "status.mfs_rental_allowance": {
+      "value": "halved to $12,500 with the phase-out range halved to $50,000 and $100,000 for a married individual filing separately who lives apart from the spouse at all times during the year — and denied entirely to one who does not (IRC § 469(i)(5))",
+      "taxYear": 2026,
+      "source": "IRC § 469(i)(5), read at law.cornell.edu/uscode/text/26/469",
+      "verified": "2026-08-20"
+    },
+    "status.mfs_ira_phaseout": {
+      "value": "spouses who file separately and live apart at all times during the year are each treated as not married for the IRC § 219(g) active participant phase-out — those who live together are not, and the phase-out range for them is unindexed and very low (IRC § 219(g)(4))",
+      "taxYear": 2026,
+      "source": "IRC § 219(g)(4), read at law.cornell.edu/uscode/text/26/219",
+      "verified": "2026-08-20"
     }
   }
 }

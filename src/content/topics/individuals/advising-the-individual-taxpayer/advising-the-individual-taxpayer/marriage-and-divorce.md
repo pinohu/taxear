@@ -17,7 +17,7 @@ authorities:
   - { type: IRC, ref: "§ 71", title: "Alimony and separate maintenance payments (repealed)", url: "https://www.law.cornell.edu/uscode/text/26/71" }
   - { type: Statute, ref: "Pub. L. 115-97, § 11051", title: "Repeal of the alimony deduction and inclusion", url: "https://www.law.cornell.edu/uscode/text/26/215" }
 forms: []
-related: ["1.1.1.e", "1.5.1.i", "1.5.1.h", "1.5.1.d"]
+related: ["1.1.1.e", "1.5.1.i", "1.5.1.h", "1.5.1.d", "1.5.1.m"]
 changelog:
   - { date: "2026-08-19", summary: "Initial draft. Sets out the IRC § 7703 marital status test, the repeal of the alimony regime by Pub. L. 115-97 § 11051 and the grandfathering of pre-2019 instruments, the § 1041 non-recognition rule with its carryover basis and incident-to-divorce test, the § 86(c)(1)(C) zero base amount, and the § 152(e) allocation of a child between separated parents." }
 ---

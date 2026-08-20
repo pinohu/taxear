@@ -23,7 +23,7 @@ authorities:
   - { type: IRC, ref: "§ 213", title: "Medical, dental, etc., expenses", url: "https://www.law.cornell.edu/uscode/text/26/213" }
   - { type: IRC, ref: "§ 164", title: "Taxes", url: "https://www.law.cornell.edu/uscode/text/26/164" }
 forms: []
-related: ["1.5.1.j", "1.3.1.a", "1.3.1.b", "1.2.1.i", "1.5.1.l"]
+related: ["1.5.1.j", "1.3.1.a", "1.3.1.b", "1.2.1.i", "1.5.1.l", "1.5.1.m"]
 changelog:
   - { date: "2026-08-20", summary: "Initial draft. Sets out the timing rules a cash-method individual actually plans around — inclusion on receipt under IRC § 451(a) and constructive receipt under Reg. § 1.451-2(a), deduction on payment under Reg. § 1.461-1(a)(1), the § 461(g) prepaid interest rule and its points exception, contribution timing under Reg. § 1.170A-1(b), the § 63(e) itemize election that makes bunching possible, the § 219(f)(3) IRA look-back, the § 26(a) ceiling on nonrefundable credits, and the three blocking rules in §§ 1091, 267(a)(2) and 461(g)." }
 ---
