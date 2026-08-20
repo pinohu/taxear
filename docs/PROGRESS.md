@@ -9,10 +9,10 @@ is indexed, and only the owner moves a page there (see `docs/VERIFICATION.md`).
 
 | Part | Topics | Stub | Draft | Review | Published | Words |
 |---|---:|---:|---:|---:|---:|---:|
-| 1. Individuals | 120 | 36 | 0 | 74 | 10 | 186,507 |
+| 1. Individuals | 120 | 35 | 0 | 75 | 10 | 188,596 |
 | 2. Businesses | 119 | 119 | 0 | 0 | 0 | 0 |
 | 3. Representation, Practices and Procedures | 121 | 0 | 0 | 0 | 121 | 257,674 |
-| **All parts** | **360** | **155** | **0** | **74** | **131** | **444,181** |
+| **All parts** | **360** | **154** | **0** | **75** | **131** | **446,270** |
 
 ## Part 1 — Individuals
 
@@ -147,7 +147,7 @@ is indexed, and only the owner moves a page there (see `docs/VERIFICATION.md`).
 | 1.4.1.e | [Excess Social Security withholding](/individuals/taxation/taxation/excess-social-security-withholding/) | review | 1,747 | 2026-08-19 |
 | 1.4.1.f | [Tax provisions for members of the clergy](/individuals/taxation/taxation/tax-provisions-for-members-of-the-clergy/) | review | 1,966 | 2026-08-19 |
 | 1.4.1.g | [Tax provisions for members of the military](/individuals/taxation/taxation/tax-provisions-for-members-of-the-military/) | review | 2,043 | 2026-08-19 |
-| 1.4.1.h | [Income in respect of decedent (e.g., allocations)](/individuals/taxation/taxation/income-in-respect-of-decedent/) | stub | — | — |
+| 1.4.1.h | [Income in respect of decedent (e.g., allocations)](/individuals/taxation/taxation/income-in-respect-of-decedent/) | review | 2,089 | 2026-08-19 |
 | 1.4.1.i | [Net investment income tax](/individuals/taxation/taxation/net-investment-income-tax/) | stub | — | — |
 | 1.4.1.j | [Additional Medicare tax](/individuals/taxation/taxation/additional-medicare-tax/) | stub | — | — |
 | 1.4.1.k | [Uncollected Social Security and Medicare tax](/individuals/taxation/taxation/uncollected-social-security-and-medicare-tax/) | stub | — | — |

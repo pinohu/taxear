@@ -5947,6 +5947,42 @@
       "taxYear": 2026,
       "source": "IRC § 134, read at law.cornell.edu/uscode/text/26/134",
       "verified": "2026-08-19"
+    },
+    "ird.definition": {
+      "value": "items of gross income of the decedent not properly includible in the taxable period in which the date of death falls or an earlier period — taxed to the estate if the right passes to it, to whoever acquires the right by reason of the death, or to the legatee if the estate has already distributed the right (IRC § 691(a)(1)(A)–(C))",
+      "taxYear": 2026,
+      "source": "IRC § 691, read at law.cornell.edu/uscode/text/26/691",
+      "verified": "2026-08-19"
+    },
+    "ird.character": {
+      "value": "unchanged — the right is treated in the recipient's hands as if acquired in the transaction in which the right to the income was originally derived, so ordinary stays ordinary and capital gain stays capital gain with the decedent's holding period (IRC § 691(a)(3))",
+      "taxYear": 2026,
+      "source": "IRC § 691, read at law.cornell.edu/uscode/text/26/691",
+      "verified": "2026-08-19"
+    },
+    "ird.no_basis_step_up": {
+      "value": "none — IRC § 1014(c) disapplies the date-of-death basis rule to property constituting a right to receive an item of income in respect of a decedent, which is why the item is taxed at all",
+      "taxYear": 2026,
+      "source": "IRC § 1014(c), read at law.cornell.edu/uscode/text/26/1014",
+      "verified": "2026-08-19"
+    },
+    "ird.transfer": {
+      "value": "transferring the right accelerates the income: the transferor includes the fair market value of the right at the time of transfer, plus any consideration above that value — but transmission at death to the estate, or to a person entitled by reason of the death or by bequest, is not a transfer (IRC § 691(a)(2))",
+      "taxYear": 2026,
+      "source": "IRC § 691, read at law.cornell.edu/uscode/text/26/691",
+      "verified": "2026-08-19"
+    },
+    "ird.deductions": {
+      "value": "deductions under IRC §§ 162, 163, 164, 212 and 611 and the § 27 foreign tax credit that were not allowable to the decedent are allowed when paid — to the estate, or to whoever takes the property subject to the obligation where the estate is not liable; depletion follows the income instead (IRC § 691(b)(1), (2))",
+      "taxYear": 2026,
+      "source": "IRC § 691, read at law.cornell.edu/uscode/text/26/691",
+      "verified": "2026-08-19"
+    },
+    "ird.estate_tax_deduction": {
+      "value": "a deduction for the federal estate tax attributable to the item, computed as the ratio the value of the item bears to the net value of all such items, applied to the estate tax attributable to that net value — an itemized deduction, but expressly outside the definition of a miscellaneous itemized deduction, so it survives the § 67(h) disallowance (IRC § 691(c)(1), (2); § 67(b)(7))",
+      "taxYear": 2026,
+      "source": "IRC §§ 691(c) and 67(b)(7), read at law.cornell.edu/uscode/text/26/691 and /67",
+      "verified": "2026-08-19"
     }
   }
 }

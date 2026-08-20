@@ -20,7 +20,7 @@ authorities:
   - { type: IRC, ref: "§ 32", title: "Earned income — combat pay election", url: "https://www.law.cornell.edu/uscode/text/26/32" }
   - { type: Statute, ref: "Pub. L. 119-21, § 70113", title: "Permanent suspension of the moving expense deduction with an intelligence community exception", url: "https://www.law.cornell.edu/uscode/text/26/217" }
 forms: []
-related: ["1.4.1.c", "1.3.2.e", "1.2.3.f", "1.4.1.f"]
+related: ["1.4.1.c", "1.3.2.e", "1.2.3.f", "1.4.1.f", "1.4.1.h"]
 changelog:
   - { date: "2026-08-19", summary: "Initial draft. Sets out the IRC § 112 combat zone exclusion with its month rule and the maximum enlisted amount cap, the § 134 qualified military benefit exclusion and its 1986 freeze, the § 7508 suspension of deadlines, the § 692 forgiveness on death, the § 217(g) survival of the moving expense deduction with the intelligence community extension added by Pub. L. 119-21 § 70113(b), the § 121(d)(9) suspension of the five-year period, and the § 62(a)(2)(E) reservist travel deduction." }
 ---

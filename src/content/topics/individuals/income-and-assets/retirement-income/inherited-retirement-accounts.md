@@ -21,7 +21,7 @@ authorities:
   - { type: Reg, ref: "§ 1.401(a)(9)-5", title: "Required minimum distributions from defined contribution plans", url: "https://www.law.cornell.edu/cfr/text/26/1.401(a)(9)-5" }
   - { type: Reg, ref: "§ 1.408-8", title: "Distribution requirements for individual retirement plans", url: "https://www.law.cornell.edu/cfr/text/26/1.408-8" }
 forms: []
-related: ["1.2.2.h", "1.2.2.b", "1.2.2.c", "1.2.2.k", "1.2.2.a", "1.2.3.c"]
+related: ["1.2.2.h", "1.2.2.b", "1.2.2.c", "1.2.2.k", "1.2.2.a", "1.2.3.c", "1.4.1.h"]
 changelog:
   - { date: "2026-08-19", summary: "Initial draft. Sets out the three-question structure of IRC § 401(a)(9)(B) as rewritten by § 401(a)(9)(H), the § 401(a)(9)(E)(ii) categories of eligible designated beneficiary tested at the date of death, the Treas. Reg. § 1.401(a)(9)-4(c) 30 September determination date, the rule that annual distributions and the ten-year outer limit both apply where the owner died on or after the required beginning date, the § 408(d)(3)(C) bar on rolling over an inherited IRA, and the § 691 and § 1014(c) consequences." }
 ---
