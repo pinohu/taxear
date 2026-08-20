@@ -16,7 +16,7 @@ authorities:
   - { type: Reg, ref: "Reg. § 1.6695-2", title: "Tax return preparer due diligence requirements for certain tax returns and claims", url: "https://www.law.cornell.edu/cfr/text/26/1.6695-2" }
   - { type: RevProc, ref: "Rev. Proc. 2025-32, §§ 3.06, 3.54", title: "2026 earned income credit amounts and § 6695 penalty amounts", url: "https://www.irs.gov/pub/irs-drop/rp-25-32.pdf" }
 forms: []
-related: ["1.3.2.b", "1.1.1.i", "1.1.1.k", "1.3.2.c", "1.3.2.f"]
+related: ["1.3.2.b", "1.1.1.i", "1.1.1.k", "1.3.2.c", "1.3.2.f", "1.3.2.g"]
 changelog:
   - { date: "2026-08-19", summary: "Initial draft. Sets out the IRC § 32(a) computation and the 2026 table amounts from Rev. Proc. 2025-32 § 3.06, the § 32(c)(1) eligible individual tests including the childless age and abode rules, the § 32(c)(2) earned income definition with its exclusions and the § 112 combat pay election, the § 32(c)(3) qualifying child rules and why the support test does not apply, the § 32(d) joint return requirement and separated spouse exception, the § 32(i) disqualified income cliff, the § 32(k) disallowance periods, the § 32(m) social security number rule, and the preparer due diligence requirements in Reg. § 1.6695-2 with the § 6695(g) penalty." }
 ---

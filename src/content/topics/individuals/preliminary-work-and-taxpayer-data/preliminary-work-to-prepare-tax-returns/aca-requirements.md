@@ -16,7 +16,7 @@ authorities:
   - { type: IRC, ref: "§ 6055", title: "Reporting of health insurance coverage" }
   - { type: RevProc, ref: "2025-32", title: "Inflation-adjusted items for 2026", url: "https://www.irs.gov/pub/irs-drop/rp-25-32.pdf" }
 forms: []
-related: ["1.1.1.k", "1.1.1.d", "1.1.1.b", "1.1.1.j"]
+related: ["1.1.1.k", "1.1.1.d", "1.1.1.b", "1.1.1.j", "1.3.2.g"]
 changelog:
   - { date: "2026-08-19", summary: "Initial draft. Records that the 400 percent ceiling on premium tax credit eligibility and the temporary premium percentages both lapsed for taxable years beginning after 2025, and that the excess advance payment repayment limitation was removed." }
 ---

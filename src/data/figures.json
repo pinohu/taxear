@@ -5563,6 +5563,42 @@
       "taxYear": 2026,
       "source": "IRC § 137 and Rev. Proc. 2025-32 § 4.18, read at law.cornell.edu/uscode/text/26/137 and irs.gov/pub/irs-drop/rp-25-32.pdf",
       "verified": "2026-08-19"
+    },
+    "ptc.applicable_percentage": {
+      "value": "for taxable years beginning in 2026, 2.10 percent of household income below 133 percent of the federal poverty line, rising on a sliding scale to 4.19 percent at 150 percent, 6.60 percent at 200 percent, 8.44 percent at 250 percent and 9.96 percent from 300 percent to 400 percent",
+      "taxYear": 2026,
+      "source": "Rev. Proc. 2025-25 §§ 3.01, 3.02, read at irs.gov/pub/irs-drop/rp-25-25.pdf",
+      "verified": "2026-08-19"
+    },
+    "ptc.income_range": {
+      "value": "household income of at least 100 percent and not more than 400 percent of the federal poverty line for the family size involved — the ceiling is back for 2026, because the IRC § 36B(c)(1)(E) rule disregarding it applied only to taxable years beginning before 1 January 2026",
+      "taxYear": 2026,
+      "source": "IRC § 36B, read at law.cornell.edu/uscode/text/26/36B",
+      "verified": "2026-08-19"
+    },
+    "ptc.credit_amount": {
+      "value": "the lesser of the premiums actually paid for the qualified health plans covering the family, or the excess of the adjusted monthly premium for the applicable second lowest cost silver plan over one twelfth of the applicable percentage of household income — summed over the taxpayer's coverage months (IRC § 36B(b)(1), (2))",
+      "taxYear": 2026,
+      "source": "IRC § 36B, read at law.cornell.edu/uscode/text/26/36B",
+      "verified": "2026-08-19"
+    },
+    "ptc.affordability": {
+      "value": "9.96 percent of household income for plan years beginning in calendar year 2026 — the required contribution percentage that decides whether an employer plan counts as affordable minimum essential coverage under IRC § 36B(c)(2)(C)(i)(II)",
+      "taxYear": 2026,
+      "source": "Rev. Proc. 2025-25 §§ 3.01, 3.02, read at irs.gov/pub/irs-drop/rp-25-25.pdf",
+      "verified": "2026-08-19"
+    },
+    "ptc.minimum_value": {
+      "value": "an employer plan fails the minimum value test if its share of the total allowed cost of benefits is less than 60 percent (IRC § 36B(c)(2)(C)(ii))",
+      "taxYear": 2026,
+      "source": "IRC § 36B, read at law.cornell.edu/uscode/text/26/36B",
+      "verified": "2026-08-19"
+    },
+    "ptc.repayment": {
+      "value": "the entire excess of advance payments over the credit allowed is added to tax, with no cap — IRC § 36B(f)(2)(B), which had limited repayment for households below 400 percent of the poverty line, was struck by Pub. L. 119-21 § 71305 for taxable years beginning after 31 December 2025",
+      "taxYear": 2026,
+      "source": "IRC § 36B(f)(2) as amended by Pub. L. 119-21 § 71305, read at law.cornell.edu/uscode/text/26/36B, with Rev. Proc. 2025-32 § 2.04 read at irs.gov/pub/irs-drop/rp-25-32.pdf",
+      "verified": "2026-08-19"
     }
   }
 }
