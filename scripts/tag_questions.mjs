@@ -219,6 +219,10 @@ const RULES = [
   ['1.4.1.h', /income in respect of (?:a )?decedent|\bird\b/i],
   ['1.4.1.c', /underpayment penalt/i],
   ['1.4.1.l', /first-?time homebuyer credit repayment/i],
+  // A question about whether an isolated sale by a collector is a business at all mentions
+  // self-employment tax only as a wrong answer. The activity is the topic, not the tax that would
+  // follow if it were a business, so the hobby phrasings are recognised first.
+  ['1.2.1.h', /hobby|collector|collect\w* for (?:over |more than )?\w+ years/i],
   ['1.4.1.d', /self-?employment tax|\bschedule se\b|\b1401\b/i],
   // 1.2.4 adjustments to income
   ['1.2.4.c', /health savings account|\bhsa\b|\b8889\b/i],

@@ -5773,6 +5773,42 @@
       "taxYear": 2026,
       "source": "IRC § 6654(d)(1)(C), (e)(1), read at law.cornell.edu/uscode/text/26/6654",
       "verified": "2026-08-19"
+    },
+    "se.optional_limits": {
+      "value": "set by IRC § 1402(l): the lower limit for a year is the sum of the amounts required under section 213(d) of the Social Security Act for a quarter of coverage for each calendar quarter in the year, and the upper limit is 150 percent of that — so both move with an SSA figure rather than with a Treasury inflation adjustment",
+      "taxYear": 2026,
+      "source": "IRC § 1402, read at law.cornell.edu/uscode/text/26/1402",
+      "verified": "2026-08-19"
+    },
+    "se.optional_2025": {
+      "value": "the most recently published Schedule SE figures are for 2025: the farm optional method is available where gross farm income was $10,860 or less or net farm profits were under $7,840, and reports two thirds of gross farm income up to $7,240 — the 2026 instructions have not been issued, so no 2026 figure is stated here",
+      "taxYear": 2026,
+      "source": "Instructions for Schedule SE (Form 1040) (2025), page last reviewed 30 April 2026, read at irs.gov/instructions/i1040sse",
+      "verified": "2026-08-19"
+    },
+    "se.optional_farm": {
+      "value": "two thirds of gross farm income where that income does not exceed the upper limit, or the lower limit where gross farm income exceeds the upper limit but net earnings fall below the lower limit — available for an unlimited number of years (IRC § 1402(a), clauses (i) and (ii) of the agricultural sentence)",
+      "taxYear": 2026,
+      "source": "IRC § 1402, read at law.cornell.edu/uscode/text/26/1402",
+      "verified": "2026-08-19"
+    },
+    "se.optional_nonfarm": {
+      "value": "the same two thirds computation for a non-farm trade or business, but only for a taxpayer self-employed on a regular basis within IRC § 1402(h) — net earnings of at least $400 in two of the three preceding years — and for no more than five taxable years in a lifetime",
+      "taxYear": 2026,
+      "source": "IRC § 1402, read at law.cornell.edu/uscode/text/26/1402",
+      "verified": "2026-08-19"
+    },
+    "se.minister_exemption": {
+      "value": "an irrevocable exemption available to a duly ordained, commissioned or licensed minister, a member of a religious order who has not taken a vow of poverty, or a Christian Science practitioner, on an application stating conscientious or religious opposition to public insurance for death, disability, old age, retirement or medical care (IRC § 1402(e)(1))",
+      "taxYear": 2026,
+      "source": "IRC § 1402, read at law.cornell.edu/uscode/text/26/1402",
+      "verified": "2026-08-19"
+    },
+    "se.religious_sect_exemption": {
+      "value": "available to a member and adherent of a recognised religious sect conscientiously opposed to public or private insurance benefits, on an application supported by evidence of membership and of the sect's established tenets (IRC § 1402(g)(1))",
+      "taxYear": 2026,
+      "source": "IRC § 1402, read at law.cornell.edu/uscode/text/26/1402",
+      "verified": "2026-08-19"
     }
   }
 }

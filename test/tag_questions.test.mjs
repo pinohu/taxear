@@ -94,6 +94,14 @@ test('an enumeration of refundable credits is its own topic', () => {
   assert.equal(classify(q(1, 'What is the maximum earned income credit for a taxpayer with two qualifying children?')), '1.3.2.e');
 });
 
+test('a hobby question is not a self-employment tax question', () => {
+  // "A stamp collector sells a rare piece" offers self-employment tax as a wrong answer. Whether the
+  // activity is a business at all is the topic.
+  assert.equal(classify({ part: 1, stem: 'An individual has been a stamp collector for over five years and sells a rare piece. What is true of the income?', choices: { A: 'It is a capital gain', B: 'The income is subject to self-employment taxes' }, explanation: '' }), '1.2.1.h');
+  // A genuine self-employment tax question still lands on its own code.
+  assert.equal(classify(q(1, 'How is the deduction for one half of self-employment tax computed?')), '1.4.1.d');
+});
+
 test('rules never tag across exam parts', () => {
   // The same subject asked in different parts must land in that part's own outline.
   // Part 1 has its own claim-for-refund topic, so the Part 1 question is placed there —
