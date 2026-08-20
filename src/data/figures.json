@@ -4130,6 +4130,60 @@
       "source": "Treas. Reg. § 1.121-3(e)(2)(i)–(iii) — https://www.law.cornell.edu/cfr/text/26/1.121-3",
       "verified": "2026-08-19"
     },
+    "sehi.above_the_line": {
+      "value": "allowed in computing adjusted gross income, as a deduction attributable to a trade or business not consisting of the performance of services as an employee",
+      "taxYear": 2026,
+      "source": "IRC § 62(a)(1) — https://www.law.cornell.edu/uscode/text/26/62",
+      "verified": "2026-08-19"
+    },
+    "sehi.deduction": {
+      "value": "for a self-employed individual within IRC § 401(c)(1), the amount paid during the year for insurance constituting medical care for the taxpayer, spouse, dependents, and any child of the taxpayer who has not attained age 27 by the end of the year",
+      "taxYear": 2026,
+      "source": "IRC § 162(l)(1)(A)–(D) — https://www.law.cornell.edu/uscode/text/26/162",
+      "verified": "2026-08-19"
+    },
+    "sehi.earned_income_cap": {
+      "value": "capped at the taxpayer's earned income within IRC § 401(c) derived from the trade or business **with respect to which the plan is established** — not total self-employment income, and not income from another business",
+      "taxYear": 2026,
+      "source": "IRC § 162(l)(2)(A) — https://www.law.cornell.edu/uscode/text/26/162",
+      "verified": "2026-08-19"
+    },
+    "sehi.long_term_care": {
+      "value": "for a qualified long-term care insurance contract, only eligible long-term care premiums within IRC § 213(d)(10) count, on an age-banded scale",
+      "taxYear": 2026,
+      "source": "IRC § 162(l)(2)(C); § 213(d)(10)(A) — https://www.law.cornell.edu/uscode/text/26/162",
+      "verified": "2026-08-19"
+    },
+    "sehi.ltc_scale": {
+      "value": "$500 at age 40 or less; $930 above 40 up to 50; $1,860 above 50 up to 60; $4,960 above 60 up to 70; $6,200 above 70 — by attained age before the close of the taxable year",
+      "taxYear": 2026,
+      "source": "Rev. Proc. 2025-32 § 3.27, adjusting IRC § 213(d)(10)(A) — https://www.irs.gov/pub/irs-drop/rp-25-32.pdf",
+      "verified": "2026-08-19"
+    },
+    "sehi.no_double_counting": {
+      "value": "an amount deducted under IRC § 162(l) is not taken into account in computing the itemized medical deduction under § 213(a)",
+      "taxYear": 2026,
+      "source": "IRC § 162(l)(3) — https://www.law.cornell.edu/uscode/text/26/162",
+      "verified": "2026-08-19"
+    },
+    "sehi.not_against_se_tax": {
+      "value": "the deduction is not taken into account in determining net earnings from self-employment within IRC § 1402(a) — so it reduces income tax but not self-employment tax",
+      "taxYear": 2026,
+      "source": "IRC § 162(l)(4) — https://www.law.cornell.edu/uscode/text/26/162",
+      "verified": "2026-08-19"
+    },
+    "sehi.other_coverage": {
+      "value": "denied for any calendar month in which the taxpayer is **eligible to participate** in a subsidised health plan of an employer of the taxpayer, the spouse, a dependent, or a child under 27 — applied month by month, and separately for long-term care and other coverage",
+      "taxYear": 2026,
+      "source": "IRC § 162(l)(2)(B)(i), (ii) — https://www.law.cornell.edu/uscode/text/26/162",
+      "verified": "2026-08-19"
+    },
+    "sehi.s_corporation": {
+      "value": "available to a more-than-2-percent S corporation shareholder treated as a partner under IRC § 1372(a), with the shareholder's wages from the corporation treated as their earned income",
+      "taxYear": 2026,
+      "source": "IRC § 162(l)(5)(A) — https://www.law.cornell.edu/uscode/text/26/162",
+      "verified": "2026-08-19"
+    },
     "seniors.deduction": {
       "value": "$6,000 for each qualified individual who has attained age 65 before the close of the taxable year, for taxable years beginning before 1 January 2029",
       "taxYear": 2026,

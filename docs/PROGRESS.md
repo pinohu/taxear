@@ -9,10 +9,10 @@ is indexed, and only the owner moves a page there (see `docs/VERIFICATION.md`).
 
 | Part | Topics | Stub | Draft | Review | Published | Words |
 |---|---:|---:|---:|---:|---:|---:|
-| 1. Individuals | 120 | 62 | 0 | 48 | 10 | 131,618 |
+| 1. Individuals | 120 | 61 | 0 | 49 | 10 | 133,521 |
 | 2. Businesses | 119 | 119 | 0 | 0 | 0 | 0 |
 | 3. Representation, Practices and Procedures | 121 | 0 | 0 | 0 | 121 | 257,674 |
-| **All parts** | **360** | **181** | **0** | **48** | **131** | **389,292** |
+| **All parts** | **360** | **180** | **0** | **49** | **131** | **391,195** |
 
 ## Part 1 — Individuals
 
@@ -104,7 +104,7 @@ is indexed, and only the owner moves a page there (see `docs/VERIFICATION.md`).
 | 1.2.4.b | [Retirement contribution limits and deductibility (e.g., earned compensation requirements)](/individuals/income-and-assets/adjustments-to-income/retirement-contribution-limits-and-deductibility/) | stub | — | — |
 | 1.2.4.c | [Health savings accounts](/individuals/income-and-assets/adjustments-to-income/health-savings-accounts/) | review | 2,050 | 2026-08-19 |
 | 1.2.4.d | [Other adjustments to income (e.g., student loan interest, alimony, moving expenses for active military, write-in adjustments)](/individuals/income-and-assets/adjustments-to-income/other-adjustments-to-income/) | stub | — | — |
-| 1.2.4.e | [Self-Employed Health Insurance](/individuals/income-and-assets/adjustments-to-income/self-employed-health-insurance/) | stub | — | — |
+| 1.2.4.e | [Self-Employed Health Insurance](/individuals/income-and-assets/adjustments-to-income/self-employed-health-insurance/) | review | 1,903 | 2026-08-19 |
 
 ### 1.3 Deductions and Credits
 

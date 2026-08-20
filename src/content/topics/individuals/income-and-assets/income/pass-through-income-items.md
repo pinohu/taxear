@@ -21,7 +21,7 @@ authorities:
   - { type: RevProc, ref: "2025-32", title: "Inflation-adjusted items for 2026", url: "https://www.irs.gov/pub/irs-drop/rp-25-32.pdf" }
   - { type: Statute, ref: "Pub. L. 119-21", title: "An Act to provide for reconciliation, title VII" }
 forms: []
-related: ["1.2.1.k", "1.2.1.j", "1.2.1.c", "1.2.1.a", "1.2.1.m", "1.2.3.e", "1.2.4.a"]
+related: ["1.2.1.k", "1.2.1.j", "1.2.1.c", "1.2.1.a", "1.2.1.m", "1.2.3.e", "1.2.4.a", "1.2.4.e"]
 changelog:
   - { date: "2026-08-19", summary: "Initial draft. Records the removal of the IRC § 199A sunset and the new minimum deduction in § 199A(i), the widened phase-in range under § 199A(b)(3)(B) and (d)(3), and the new § 199A(c)(4)(D) exclusion for amounts deducted as qualified tips." }
 ---
