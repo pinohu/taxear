@@ -15,7 +15,7 @@ authorities:
   - { type: Pub, ref: "About Form 8379", title: "Injured Spouse Allocation", url: "https://www.irs.gov/forms-pubs/about-form-8379" }
   - { type: Pub, ref: "IRS Topic no. 203", title: "Reduced refund", url: "https://www.irs.gov/taxtopics/tc203" }
 forms: []
-related: ["1.5.1.i", "1.5.1.m", "1.1.1.e", "1.5.1.n"]
+related: ["1.5.1.i", "1.5.1.m", "1.1.1.e", "1.5.1.n", "1.5.1.f"]
 changelog:
   - { date: "2026-08-19", summary: "Initial draft. Sets out injured spouse allocation as a claim on a refund rather than relief from liability, the four IRC § 6402(c)–(f) offsets that trigger it, the distinction from the § 6402(a) internal credit, the Bureau of the Fiscal Service's role in notification, and the community property complication." }
 ---

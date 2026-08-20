@@ -6397,6 +6397,42 @@
       "taxYear": 2026,
       "source": "IRC § 408(d)(8)(A) read at law.cornell.edu/uscode/text/26/408, with the 2026 amount in Notice 2025-67 read at irs.gov",
       "verified": "2026-08-19"
+    },
+    "divorce.alimony_repeal": {
+      "value": "alimony is neither deductible by the payer nor income to the recipient for any instrument executed after 31 December 2018 — Pub. L. 115-97 § 11051 repealed IRC §§ 71 and 215 outright, and an instrument executed before that date keeps the old treatment unless it is modified and the modification expressly adopts the repeal",
+      "taxYear": 2026,
+      "source": "IRC §§ 71 and 215 as repealed by Pub. L. 115-97 § 11051, read at law.cornell.edu/uscode/text/26/71 and /215",
+      "verified": "2026-08-19"
+    },
+    "divorce.property_transfer": {
+      "value": "no gain or loss is recognised on a transfer of property to a spouse, or to a former spouse where the transfer is incident to the divorce, the transferee takes it as a gift with the transferor's adjusted basis (IRC § 1041(a), (b))",
+      "taxYear": 2026,
+      "source": "IRC § 1041, read at law.cornell.edu/uscode/text/26/1041",
+      "verified": "2026-08-19"
+    },
+    "divorce.incident_test": {
+      "value": "a transfer is incident to the divorce if it occurs within one year after the marriage ceases, or is related to the cessation of the marriage (IRC § 1041(c)(1), (2))",
+      "taxYear": 2026,
+      "source": "IRC § 1041(c), read at law.cornell.edu/uscode/text/26/1041",
+      "verified": "2026-08-19"
+    },
+    "divorce.marital_status": {
+      "value": "determined as of the close of the taxable year, except that where a spouse dies during the year it is determined at the date of death; and an individual legally separated under a decree of divorce or separate maintenance is not married (IRC § 7703(a)(1), (2))",
+      "taxYear": 2026,
+      "source": "IRC § 7703(a), read at law.cornell.edu/uscode/text/26/7703",
+      "verified": "2026-08-19"
+    },
+    "divorce.social_security_base": {
+      "value": "$25,000 generally, $32,000 on a joint return, and **zero** for a taxpayer who is married at the close of the year, does not file jointly, and does not live apart from their spouse at all times during the year (IRC § 86(c)(1))",
+      "taxYear": 2026,
+      "source": "IRC § 86(c)(1), read at law.cornell.edu/uscode/text/26/86",
+      "verified": "2026-08-19"
+    },
+    "divorce.dependency": {
+      "value": "where the parents are divorced, legally separated, separated under a written agreement, or living apart for the last six months, and the child is in the custody of one or both for more than half the year, the child may be treated as the noncustodial parent's on a release by the custodial parent (IRC § 152(e)(1), (2))",
+      "taxYear": 2026,
+      "source": "IRC § 152(e), read at law.cornell.edu/uscode/text/26/152",
+      "verified": "2026-08-19"
     }
   }
 }
