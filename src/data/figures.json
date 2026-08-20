@@ -5599,6 +5599,48 @@
       "taxYear": 2026,
       "source": "IRC § 36B(f)(2) as amended by Pub. L. 119-21 § 71305, read at law.cornell.edu/uscode/text/26/36B, with Rev. Proc. 2025-32 § 2.04 read at irs.gov/pub/irs-drop/rp-25-32.pdf",
       "verified": "2026-08-19"
+    },
+    "savers.credit_rate": {
+      "value": "50 percent of up to $2,000 of qualified retirement savings contributions per eligible individual, falling to 20 percent and then 10 percent as adjusted gross income rises and to nothing above the top figure — so a maximum of $1,000 per individual and $2,000 on a joint return where both contribute",
+      "taxYear": 2026,
+      "source": "IRC § 25B(a), (b), read at law.cornell.edu/uscode/text/26/25B",
+      "verified": "2026-08-19"
+    },
+    "savers.agi_limits": {
+      "value": "for 2026, on a joint return 50 percent up to $48,500, 20 percent to $52,500 and 10 percent to $80,500; for a head of household $36,375, $39,375 and $60,375; for all other returns $24,250, $26,250 and $40,250",
+      "taxYear": 2026,
+      "source": "Notice 2025-67, 2026 amounts relating to retirement plans and IRAs, read at irs.gov",
+      "verified": "2026-08-19"
+    },
+    "elderly.initial_amount": {
+      "value": "$5,000 for a single individual or a joint return where one spouse qualifies, $7,500 where both do, and $3,750 on a separate return — never indexed since 1983 (IRC § 22(c)(2)(A))",
+      "taxYear": 2026,
+      "source": "IRC § 22, read at law.cornell.edu/uscode/text/26/22",
+      "verified": "2026-08-19"
+    },
+    "elderly.agi_limitation": {
+      "value": "the section 22 amount is reduced by half the excess of adjusted gross income over $7,500 single, $10,000 joint or $5,000 on a separate return, and separately by nontaxable social security and other excluded pension benefits (IRC § 22(c)(3), (d))",
+      "taxYear": 2026,
+      "source": "IRC § 22(c), (d), read at law.cornell.edu/uscode/text/26/22",
+      "verified": "2026-08-19"
+    },
+    "excess_fica.credit": {
+      "value": "allowed only where the employee received wages from more than one employer — a single employer that over-withholds must refund the employee and issue a corrected Form W-2 (IRC § 31(b) and § 6413(c)(1))",
+      "taxYear": 2026,
+      "source": "IRC §§ 31(b) and 6413(c), read at law.cornell.edu/uscode/text/26/31 and /6413",
+      "verified": "2026-08-19"
+    },
+    "energy_credits.termination": {
+      "value": "all of the individual energy credits have ended: IRC § 25C does not apply to property placed in service after 31 December 2025, § 25D does not apply to expenditures made after that date, and §§ 30D and 25E allow no credit for a vehicle acquired after 30 September 2025",
+      "taxYear": 2026,
+      "source": "IRC §§ 25C(h), 25D(h), 30D(h) and 25E(g) as amended by Pub. L. 119-21 §§ 70502, 70505, 70506, read at law.cornell.edu/uscode/text/26/25C, /25D, /30D and /25E",
+      "verified": "2026-08-19"
+    },
+    "hctc.expiry": {
+      "value": "expired — IRC § 35(b)(1)(B) requires an eligible coverage month to begin before 1 January 2022, so no health coverage tax credit has been available since taxable year 2021",
+      "taxYear": 2026,
+      "source": "IRC § 35(b)(1)(B), read at law.cornell.edu/uscode/text/26/35",
+      "verified": "2026-08-19"
     }
   }
 }

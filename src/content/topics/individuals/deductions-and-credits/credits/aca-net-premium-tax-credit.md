@@ -17,7 +17,7 @@ authorities:
   - { type: Statute, ref: "Pub. L. 119-21, § 71305", title: "Repeal of the limitation on recapture of advance payments", url: "https://www.law.cornell.edu/uscode/text/26/36B" }
   - { type: Statute, ref: "Pub. L. 119-21, §§ 71301-71304", title: "Eligibility, verification and enrollment amendments", url: "https://www.law.cornell.edu/uscode/text/26/36B" }
 forms: []
-related: ["1.1.1.q", "1.1.1.k", "1.3.2.e", "1.1.1.j"]
+related: ["1.1.1.q", "1.1.1.k", "1.3.2.e", "1.1.1.j", "1.3.2.h"]
 changelog:
   - { date: "2026-08-19", summary: "Initial draft. Sets out the IRC § 36B(b) premium assistance computation with the 2026 applicable percentage table from Rev. Proc. 2025-25 § 3.01, the return of the 400 percent ceiling on the expiry of § 36B(c)(1)(E), the § 36B(c)(2) coverage month and employer coverage tests with the 2026 required contribution percentage, the § 36B(f) reconciliation and the repeal of the repayment cap by Pub. L. 119-21 § 71305, and the eligibility and enrollment amendments made by §§ 71301 to 71304 with their staggered effective dates." }
 ---

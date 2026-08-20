@@ -26,7 +26,7 @@ authorities:
   - { type: Notice, ref: "2025-67", title: "2026 amounts relating to retirement plans and IRAs", url: "https://www.irs.gov/pub/irs-drop/n-25-67.pdf" }
   - { type: Statute, ref: "Pub. L. 119-21", title: "An Act to provide for reconciliation, title VII" }
 forms: []
-related: ["1.1.1.k", "1.1.1.i", "1.1.1.h", "1.1.1.q", "1.3.2.a", "1.3.2.b", "1.3.2.c", "1.3.2.d", "1.3.2.f", "1.3.2.g"]
+related: ["1.1.1.k", "1.1.1.i", "1.1.1.h", "1.1.1.q", "1.3.2.a", "1.3.2.b", "1.3.2.c", "1.3.2.d", "1.3.2.f", "1.3.2.g", "1.3.2.h"]
 changelog:
   - { date: "2026-08-19", summary: "Initial draft. Records the IRC § 21(a)(2) rewrite creating a two-tier applicable percentage from 2026, the new IRC § 25A(g)(1) social security number requirement for education credits, the partly refundable adoption credit under IRC § 23(a)(4), and the termination of the IRC § 25C, § 25D and § 30D credits." }
 ---

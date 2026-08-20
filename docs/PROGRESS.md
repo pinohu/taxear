@@ -9,10 +9,10 @@ is indexed, and only the owner moves a page there (see `docs/VERIFICATION.md`).
 
 | Part | Topics | Stub | Draft | Review | Published | Words |
 |---|---:|---:|---:|---:|---:|---:|
-| 1. Individuals | 120 | 44 | 0 | 66 | 10 | 170,017 |
+| 1. Individuals | 120 | 43 | 0 | 67 | 10 | 172,142 |
 | 2. Businesses | 119 | 119 | 0 | 0 | 0 | 0 |
 | 3. Representation, Practices and Procedures | 121 | 0 | 0 | 0 | 121 | 257,674 |
-| **All parts** | **360** | **163** | **0** | **66** | **131** | **427,691** |
+| **All parts** | **360** | **162** | **0** | **67** | **131** | **429,816** |
 
 ## Part 1 — Individuals
 
@@ -132,7 +132,7 @@ is indexed, and only the owner moves a page there (see `docs/VERIFICATION.md`).
 | 1.3.2.e | [Earned income tax credit (e.g., paid preparer's earned income credit checklist, eligibility and disallowance)](/individuals/deductions-and-credits/credits/earned-income-tax-credit/) | review | 2,490 | 2026-08-19 |
 | 1.3.2.f | [Adoption credits (e.g., carryovers, limitations, special needs)](/individuals/deductions-and-credits/credits/adoption-credits/) | review | 2,253 | 2026-08-19 |
 | 1.3.2.g | [ACA net premium tax credit](/individuals/deductions-and-credits/credits/aca-net-premium-tax-credit/) | review | 2,461 | 2026-08-19 |
-| 1.3.2.h | [Other credits (refundable and nonrefundable) (e.g., health coverage tax credit, energy credits, Retirement savings contribution credit)](/individuals/deductions-and-credits/credits/other-credits-refundable-and-nonrefundable/) | stub | — | — |
+| 1.3.2.h | [Other credits (refundable and nonrefundable) (e.g., health coverage tax credit, energy credits, Retirement savings contribution credit)](/individuals/deductions-and-credits/credits/other-credits-refundable-and-nonrefundable/) | review | 2,125 | 2026-08-19 |
 
 ### 1.4 Taxation
 
