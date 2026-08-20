@@ -18,7 +18,7 @@ authorities:
   - { type: RevProc, ref: "Rev. Proc. 2025-32, § 3.10", title: "2026 AMT exemption amounts, rate breakpoint and phase-out", url: "https://www.irs.gov/pub/irs-drop/rp-25-32.pdf" }
   - { type: Statute, ref: "Pub. L. 119-21, § 70107", title: "Permanent and modified alternative minimum tax exemption", url: "https://www.law.cornell.edu/uscode/text/26/55" }
 forms: []
-related: ["1.1.1.p", "1.2.3.h", "1.1.1.j", "1.3.1.b"]
+related: ["1.1.1.p", "1.2.3.h", "1.1.1.j", "1.3.1.b", "1.4.1.b"]
 changelog:
   - { date: "2026-08-19", summary: "Initial draft. Sets out the IRC § 55(a) and (b)(1) computation with the 2026 rate breakpoint, the § 55(d)(4) exemption as made permanent and modified by Pub. L. 119-21 § 70107 — threshold reset to $1,000,000 and $500,000, re-indexed from 2025, phase-out rate doubled to 50 percent — the § 56(b) individual adjustments and § 57(a) preferences, and the § 53 minimum tax credit with its deferral-item restriction." }
 ---

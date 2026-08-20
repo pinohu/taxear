@@ -9,10 +9,10 @@ is indexed, and only the owner moves a page there (see `docs/VERIFICATION.md`).
 
 | Part | Topics | Stub | Draft | Review | Published | Words |
 |---|---:|---:|---:|---:|---:|---:|
-| 1. Individuals | 120 | 42 | 0 | 68 | 10 | 174,387 |
+| 1. Individuals | 120 | 41 | 0 | 69 | 10 | 176,416 |
 | 2. Businesses | 119 | 119 | 0 | 0 | 0 | 0 |
 | 3. Representation, Practices and Procedures | 121 | 0 | 0 | 0 | 121 | 257,674 |
-| **All parts** | **360** | **161** | **0** | **68** | **131** | **432,061** |
+| **All parts** | **360** | **160** | **0** | **69** | **131** | **434,090** |
 
 ## Part 1 — Individuals
 
@@ -141,7 +141,7 @@ is indexed, and only the owner moves a page there (see `docs/VERIFICATION.md`).
 | Code | Title | Status | Words | Last reviewed |
 |---|---|---|---:|---|
 | 1.4.1.a | [Alternative minimum tax and credit for prior year](/individuals/taxation/taxation/alternative-minimum-tax-and-credit-for-prior-year/) | review | 2,245 | 2026-08-19 |
-| 1.4.1.b | [Household employees](/individuals/taxation/taxation/household-employees/) | stub | — | — |
+| 1.4.1.b | [Household employees](/individuals/taxation/taxation/household-employees/) | review | 2,029 | 2026-08-19 |
 | 1.4.1.c | [Underpayment penalties and interest](/individuals/taxation/taxation/underpayment-penalties-and-interest/) | stub | — | — |
 | 1.4.1.d | [Self-employment tax](/individuals/taxation/taxation/self-employment-tax/) | stub | — | — |
 | 1.4.1.e | [Excess Social Security withholding](/individuals/taxation/taxation/excess-social-security-withholding/) | stub | — | — |

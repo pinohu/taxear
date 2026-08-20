@@ -2265,15 +2265,15 @@
       "verified": "2026-08-19"
     },
     "household.fica_threshold": {
-      "value": "$3,000 of cash wages to any one household employee in the year, at which point 6.2 percent social security and 1.45 percent Medicare apply to all cash wages paid to that employee, matched by the employer",
+      "value": "$3,000 of cash wages paid to any one household employee in 2026 — the IRC § 3121(x) applicable dollar threshold as adjusted by the Commissioner of Social Security and rounded down to a multiple of $100",
       "taxYear": 2026,
-      "source": "IRS Topic no. 756, Employment taxes for household employees, reviewed 22 June 2026 — https://www.irs.gov/taxtopics/tc756",
+      "source": "IRS Topic no. 756, Employment taxes for household employees, read at irs.gov/taxtopics/tc756",
       "verified": "2026-08-19"
     },
     "household.futa": {
-      "value": "cash wages of more than $1,000 in any calendar quarter of this year or last, on the first $7,000 paid to each household employee, at 6 percent less a credit of up to 5.4 percent for state unemployment contributions",
+      "value": "more than $1,000 of cash wages to household employees in any calendar quarter of the year or the prior year triggers federal unemployment tax on the first $7,000 of cash wages per employee, at 6 percent less a credit of up to 5.4 percent for state unemployment contributions — a net 0.6 percent, paid by the employer and never withheld",
       "taxYear": 2026,
-      "source": "IRS Topic no. 756, reviewed 22 June 2026 — https://www.irs.gov/taxtopics/tc756",
+      "source": "IRS Topic no. 756, Employment taxes for household employees, read at irs.gov/taxtopics/tc756",
       "verified": "2026-08-19"
     },
     "hsa.contribution_limit": {
@@ -5682,6 +5682,30 @@
       "value": "the minimum tax credit carries forward without limit, and in any year is capped at regular tax liability reduced by other nonrefundable credits, less the tentative minimum tax for that year — and only deferral items generate it, never exclusion items (IRC § 53(b), (c), (d)(1)(B))",
       "taxYear": 2026,
       "source": "IRC § 53, read at law.cornell.edu/uscode/text/26/53",
+      "verified": "2026-08-19"
+    },
+    "household.fica_rate": {
+      "value": "6.2 percent for social security and 1.45 percent for Medicare withheld from the employee, matched by the same 7.65 percent from the employer",
+      "taxYear": 2026,
+      "source": "IRS Topic no. 756, Employment taxes for household employees, read at irs.gov/taxtopics/tc756",
+      "verified": "2026-08-19"
+    },
+    "household.excluded_workers": {
+      "value": "a spouse, a child under 21, a parent unless an exception is met, and an employee under 18 at any time in the year unless household work is that employee's principal occupation — a student's household work is never their principal occupation",
+      "taxYear": 2026,
+      "source": "IRS Topic no. 756, Employment taxes for household employees, read at irs.gov/taxtopics/tc756",
+      "verified": "2026-08-19"
+    },
+    "household.income_tax_withholding": {
+      "value": "not required — an employer withholds federal income tax from a household employee only if both agree to it, though social security and Medicare withholding is mandatory once the threshold is met",
+      "taxYear": 2026,
+      "source": "IRS Topic no. 756, Employment taxes for household employees, read at irs.gov/taxtopics/tc756",
+      "verified": "2026-08-19"
+    },
+    "household.threshold_mechanism": {
+      "value": "a $1,000 statutory base adjusted each year by the Commissioner of Social Security under the average wage index in section 215(a)(1)(B)(ii) of the Social Security Act with 1993 as the base year, rounded down to the next lowest multiple of $100 — so it can stand still for a year while the index rises",
+      "taxYear": 2026,
+      "source": "IRC § 3121(x), read at law.cornell.edu/uscode/text/26/3121",
       "verified": "2026-08-19"
     }
   }
