@@ -17,7 +17,7 @@ authorities:
   - { type: IRC, ref: "§ 4973", title: "Tax on excess contributions to certain tax-favored accounts and annuities", url: "https://www.law.cornell.edu/uscode/text/26/4973" }
   - { type: Notice, ref: "2025-67", title: "2026 amounts relating to retirement plans and IRAs", url: "https://www.irs.gov/pub/irs-drop/n-25-67.pdf" }
 forms: []
-related: ["1.2.2.b", "1.2.2.a", "1.2.2.c", "1.2.2.g", "1.2.2.e", "1.2.2.f"]
+related: ["1.2.2.b", "1.2.2.a", "1.2.2.c", "1.2.2.g", "1.2.2.e", "1.2.2.f", "1.2.4.b"]
 changelog:
   - { date: "2026-08-19", summary: "Initial draft. Sets out the recurring IRC § 4973(a) excise tax and its account-value ceiling, the IRC § 4973(b)(2) absorption mechanism, the IRC § 408(d)(4) timely correction route and the separate IRC § 402(g)(2) deadlines for excess elective deferrals." }
 ---

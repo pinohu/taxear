@@ -890,6 +890,78 @@
       "source": "Reg. § 1.451-2(a) — https://www.law.cornell.edu/cfr/text/26/1.451-2",
       "verified": "2026-08-19"
     },
+    "contrib.active_participant": {
+      "value": "where the individual or their spouse is an active participant for any part of a plan year ending with or within the taxable year, the dollar limitations are reduced proportionately across a phase-out range",
+      "taxYear": 2026,
+      "source": "IRC § 219(g)(1), (2)(A) — https://www.law.cornell.edu/uscode/text/26/219",
+      "verified": "2026-08-19"
+    },
+    "contrib.annual_addition": {
+      "value": "$72,000 for 2026, or 100 percent of the participant's compensation if less — measured on employer contributions, employee contributions and forfeitures together, and applied per employer",
+      "taxYear": 2026,
+      "source": "Notice 2025-67, adjusting IRC § 415(c)(1)(A); § 415(c)(1)(B), (c)(2) — https://www.irs.gov/pub/irs-drop/n-25-67.pdf",
+      "verified": "2026-08-19"
+    },
+    "contrib.catchup_50": {
+      "value": "$8,000 for an applicable employer plan other than a SIMPLE arrangement, and $4,000 for a SIMPLE — with $3,850 for certain SIMPLE accounts under IRC § 414(v)(2)(B)(iii)",
+      "taxYear": 2026,
+      "source": "Notice 2025-67, adjusting IRC § 414(v)(2)(B)(i), (ii), (iii) — https://www.irs.gov/pub/irs-drop/n-25-67.pdf",
+      "verified": "2026-08-19"
+    },
+    "contrib.catchup_60_63": {
+      "value": "$11,250 for an applicable employer plan other than a SIMPLE, and $5,250 for a SIMPLE, for an individual attaining age 60, 61, 62 or 63 during 2026 — neither figure moved for 2026",
+      "taxYear": 2026,
+      "source": "Notice 2025-67, on IRC § 414(v)(2)(E)(i), (ii) — https://www.irs.gov/pub/irs-drop/n-25-67.pdf",
+      "verified": "2026-08-19"
+    },
+    "contrib.compensation_cap": {
+      "value": "$360,000 of annual compensation may be taken into account under IRC §§ 401(a)(17), 404(l), 408(k)(3)(C) and 408(k)(6)(D)(ii) for 2026",
+      "taxYear": 2026,
+      "source": "Notice 2025-67, adjusting IRC § 401(a)(17) — https://www.irs.gov/pub/irs-drop/n-25-67.pdf",
+      "verified": "2026-08-19"
+    },
+    "contrib.elective_deferral_limit": {
+      "value": "$24,500 for 2026, the same figure applying to elective deferrals under IRC § 402(g)(1) and to deferrals under a § 457(b) plan by force of § 457(e)(15)",
+      "taxYear": 2026,
+      "source": "Notice 2025-67, adjusting IRC § 402(g)(1) and § 457(e)(15) — https://www.irs.gov/pub/irs-drop/n-25-67.pdf",
+      "verified": "2026-08-19"
+    },
+    "contrib.ira_compensation_test": {
+      "value": "the lesser of the deductible amount or the compensation includible in the individual's gross income for the year — so the contribution can never exceed earned income, whatever the dollar limit",
+      "taxYear": 2026,
+      "source": "IRC § 219(b)(1)(A), (B) — https://www.law.cornell.edu/uscode/text/26/219",
+      "verified": "2026-08-19"
+    },
+    "contrib.ira_timing": {
+      "value": "a contribution made on account of a taxable year, not later than the time prescribed for filing the return for that year **without** extensions, is deemed made on the last day of that year",
+      "taxYear": 2026,
+      "source": "IRC § 219(f)(3) — https://www.law.cornell.edu/uscode/text/26/219",
+      "verified": "2026-08-19"
+    },
+    "contrib.roth_catchup_threshold": {
+      "value": "$150,000 of 2025 wages — above it, catch-up contributions to an applicable employer plan other than a SEP or SIMPLE must be designated Roth contributions for 2026",
+      "taxYear": 2026,
+      "source": "Notice 2025-67, on IRC § 414(v)(7)(A) — https://www.irs.gov/pub/irs-drop/n-25-67.pdf",
+      "verified": "2026-08-19"
+    },
+    "contrib.sep_not_under_219": {
+      "value": "IRC § 219 does not apply to an employer contribution to a simplified employee pension — the employer's deduction runs through § 404(h) instead, and the contribution does not consume the individual's IRA limit",
+      "taxYear": 2026,
+      "source": "IRC § 219(b)(2) — https://www.law.cornell.edu/uscode/text/26/219",
+      "verified": "2026-08-19"
+    },
+    "contrib.sep_threshold": {
+      "value": "$800 of compensation for 2026 — the floor below which an employee need not be covered by a simplified employee pension",
+      "taxYear": 2026,
+      "source": "Notice 2025-67, adjusting IRC § 408(k)(2)(C) — https://www.irs.gov/pub/irs-drop/n-25-67.pdf",
+      "verified": "2026-08-19"
+    },
+    "contrib.simple_limit": {
+      "value": "$17,000 of salary reduction contributions for 2026, or $18,100 for certain accounts and plans under IRC § 408(p)(2)(E)(i)(I) or (II)",
+      "taxYear": 2026,
+      "source": "Notice 2025-67, adjusting IRC § 408(p)(2)(E)(i)(III), (I), (II) — https://www.irs.gov/pub/irs-drop/n-25-67.pdf",
+      "verified": "2026-08-19"
+    },
     "courts.forums": {
       "value": "3 — the United States Tax Court, the United States Court of Federal Claims, and the United States District Court for the judicial district where the taxpayer resides or has a principal place of business",
       "taxYear": 2026,
