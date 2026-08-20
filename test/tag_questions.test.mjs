@@ -102,6 +102,15 @@ test('a hobby question is not a self-employment tax question', () => {
   assert.equal(classify(q(1, 'How is the deduction for one half of self-employment tax computed?')), '1.4.1.d');
 });
 
+test('a bare "annuity" does not claim a question', () => {
+  // "Annuity contracts" appears in the statutory employee categories and in every list of what the net
+  // investment income tax reaches. Retirement planning has to be the subject.
+  assert.equal(classify({ part: 1, stem: 'Which is not a statutory employee?', choices: { A: 'A full-time life insurance sales agent selling life insurance or annuity contracts' }, explanation: '' }), '1.2.1.a');
+  assert.equal(classify({ part: 1, stem: 'All of the following are subject to the Net Investment Income Tax except:', choices: { A: 'Municipal bond interest', B: 'Nonqualified annuities' }, explanation: '' }), '1.4.1.i');
+  // A genuine annuity taxation question still lands on retirement planning.
+  assert.equal(classify(q(1, 'How is the exclusion ratio applied to an annuity payout?')), '1.5.1.e');
+});
+
 test('rules never tag across exam parts', () => {
   // The same subject asked in different parts must land in that part's own outline.
   // Part 1 has its own claim-for-refund topic, so the Part 1 question is placed there —

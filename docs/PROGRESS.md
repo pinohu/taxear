@@ -9,10 +9,10 @@ is indexed, and only the owner moves a page there (see `docs/VERIFICATION.md`).
 
 | Part | Topics | Stub | Draft | Review | Published | Words |
 |---|---:|---:|---:|---:|---:|---:|
-| 1. Individuals | 120 | 25 | 0 | 85 | 10 | 206,420 |
+| 1. Individuals | 120 | 24 | 0 | 86 | 10 | 208,268 |
 | 2. Businesses | 119 | 119 | 0 | 0 | 0 | 0 |
 | 3. Representation, Practices and Procedures | 121 | 0 | 0 | 0 | 121 | 257,674 |
-| **All parts** | **360** | **144** | **0** | **85** | **131** | **464,094** |
+| **All parts** | **360** | **143** | **0** | **86** | **131** | **465,942** |
 
 ## Part 1 — Individuals
 
@@ -163,7 +163,7 @@ is indexed, and only the owner moves a page there (see `docs/VERIFICATION.md`).
 | 1.5.1.b | [Property sales (e.g., homes, stock, businesses, antiques, collectibles)](/individuals/advising-the-individual-taxpayer/advising-the-individual-taxpayer/property-sales/) | review | 1,776 | 2026-08-19 |
 | 1.5.1.c | [Education planning (e.g., lifetime learning credit, IRC Section 529 plans)](/individuals/advising-the-individual-taxpayer/advising-the-individual-taxpayer/education-planning/) | review | 1,762 | 2026-08-19 |
 | 1.5.1.d | [Estate planning (e.g., gift versus inheritance, trusts, family partnerships, charitable giving, LTC, life insurance)](/individuals/advising-the-individual-taxpayer/advising-the-individual-taxpayer/estate-planning/) | review | 1,893 | 2026-08-19 |
-| 1.5.1.e | [Retirement planning (e.g., annuities, IRAs, employer plans, early retirement rules, required minimum distribution, beneficiary ownership, charitable distributions from an IRA)](/individuals/advising-the-individual-taxpayer/advising-the-individual-taxpayer/retirement-planning/) | stub | — | — |
+| 1.5.1.e | [Retirement planning (e.g., annuities, IRAs, employer plans, early retirement rules, required minimum distribution, beneficiary ownership, charitable distributions from an IRA)](/individuals/advising-the-individual-taxpayer/advising-the-individual-taxpayer/retirement-planning/) | review | 1,848 | 2026-08-19 |
 | 1.5.1.f | [Marriage and divorce (e.g., divorce settlement, common-law, community property, alimony)](/individuals/advising-the-individual-taxpayer/advising-the-individual-taxpayer/marriage-and-divorce/) | stub | — | — |
 | 1.5.1.g | [Items that will affect future/past returns (e.g., carryovers, net operating loss, Schedule D, Form 8801, negative QBI carryover)](/individuals/advising-the-individual-taxpayer/advising-the-individual-taxpayer/items-that-will-affect-future-past-returns/) | stub | — | — |
 | 1.5.1.h | [Injured spouse](/individuals/advising-the-individual-taxpayer/advising-the-individual-taxpayer/injured-spouse/) | review | 1,744 | 2026-08-19 |

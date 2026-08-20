@@ -17,7 +17,7 @@ authorities:
   - { type: RevProc, ref: "Rev. Proc. 2025-32, § 3.29", title: "2026 education loan interest phase-out", url: "https://www.irs.gov/pub/irs-drop/rp-25-32.pdf" }
   - { type: Statute, ref: "Pub. L. 119-21, §§ 70117, 70412-70414", title: "Expansion of qualified tuition programs and permanence of employer educational assistance", url: "https://www.law.cornell.edu/uscode/text/26/529" }
 forms: []
-related: ["1.3.2.c", "1.5.1.d", "1.5.1.b", "1.2.1.h"]
+related: ["1.3.2.c", "1.5.1.d", "1.5.1.b", "1.2.1.h", "1.5.1.e"]
 changelog:
   - { date: "2026-08-19", summary: "Initial draft. Sets out the IRC § 529 expansion by Pub. L. 119-21 — the doubled elementary and secondary limit, the widened list of qualifying school expenses effective on enactment, credentialing expenses, and the permanent ABLE rollover — with the § 530 Coverdell limits, the § 127 exclusion made permanent and indexed, and the § 221 deduction with its 2026 phase-out." }
 ---

@@ -187,7 +187,10 @@ const RULES = [
   ['1.5.1.m', /joint and several liability|married filing separately[\s\S]{0,60}(?:advantage|disadvantage|versus|compare)/i],
   ['1.5.1.a', /\bbarter/i],
   ['1.5.1.d', /estate planning|family (?:limited )?partnership/i],
-  ['1.5.1.e', /retirement planning|\bannuit/i],
+  // A bare "annuity" appears in the statutory employee categories ("life insurance or annuity
+  // contracts") and in every list of what the net investment income tax reaches, so it cannot decide a
+  // question on its own. Retirement planning has to be the subject, not a word in an answer choice.
+  ['1.5.1.e', /retirement planning|annuit\w*[\s\S]{0,40}(?:distribution|payout|starting date|exclusion ratio)|(?:taxation|treatment) of\s+\w*\s*annuit/i],
   ['1.5.1.l', /capital gain rate\w*[\s\S]{0,40}ordinary income/i],
   ['1.5.1.k', /timing of income and expense/i],
   ['1.5.1.b', /sale of (?:a )?business|collectible/i],

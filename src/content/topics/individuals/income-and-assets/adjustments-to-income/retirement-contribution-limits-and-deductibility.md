@@ -18,7 +18,7 @@ authorities:
   - { type: IRC, ref: "§ 415", title: "Limitations on benefits and contribution under qualified plans", url: "https://www.law.cornell.edu/uscode/text/26/415" }
   - { type: Notice, ref: "2025-67", title: "2026 amounts relating to retirement plans and IRAs", url: "https://www.irs.gov/pub/irs-drop/n-25-67.pdf" }
 forms: []
-related: ["1.2.2.a", "1.2.2.d", "1.2.4.a", "1.2.4.e", "1.2.2.b", "1.2.4.c", "1.2.4.d", "1.3.2.h"]
+related: ["1.2.2.a", "1.2.2.d", "1.2.4.a", "1.2.4.e", "1.2.2.b", "1.2.4.c", "1.2.4.d", "1.3.2.h", "1.5.1.e"]
 changelog:
   - { date: "2026-08-19", summary: "Initial draft. Sets out the IRC § 219(b)(1) compensation test and § 219(f)(3) timing rule, the § 219(g) active participant phase-out, the § 402(g)(1) elective deferral limit and the § 414(v) catch-up amounts including the age 60 to 63 tier and the § 414(v)(7) Roth catch-up wage threshold, the § 415(c) annual addition limit, and the § 408(p) SIMPLE and § 408(k) SEP figures, all as adjusted for 2026 by Notice 2025-67." }
 ---

@@ -6349,6 +6349,54 @@
       "taxYear": 2026,
       "source": "IRC §§ 101(a) and 2042, read at law.cornell.edu/uscode/text/26/101 and /2042",
       "verified": "2026-08-19"
+    },
+    "retplan.rmd_age": {
+      "value": "73 for an individual who attains age 72 after 31 December 2022 and age 73 before 1 January 2033, and 75 for one who attains age 74 after 31 December 2032 — the required beginning date is 1 April of the year following the later of reaching the applicable age or retiring, except that the retirement limb never applies to a 5-percent owner or to an IRA (IRC § 401(a)(9)(C))",
+      "taxYear": 2026,
+      "source": "IRC § 401(a)(9)(C), read at law.cornell.edu/uscode/text/26/401",
+      "verified": "2026-08-19"
+    },
+    "retplan.qcd_limit": {
+      "value": "$111,000 of qualified charitable distributions excluded from gross income for 2026, and $55,000 for a one-time distribution to a split-interest entity under IRC § 408(d)(8)(F)(i)(II)",
+      "taxYear": 2026,
+      "source": "Notice 2025-67, 2026 amounts relating to retirement plans and IRAs, read at irs.gov",
+      "verified": "2026-08-19"
+    },
+    "retplan.qcd_conditions": {
+      "value": "paid directly by the trustee to an organization described in IRC § 170(b)(1)(A), other than a supporting organization or a donor advised fund, on or after the date the individual attains age 70½, and only to the extent the distribution would otherwise be includible in gross income (IRC § 408(d)(8)(B))",
+      "taxYear": 2026,
+      "source": "IRC § 408(d)(8), read at law.cornell.edu/uscode/text/26/408",
+      "verified": "2026-08-19"
+    },
+    "retplan.qcd_offset": {
+      "value": "the excludable amount is reduced by the excess of deductible IRA contributions made for all taxable years ending on or after the individual attained age 70½ over the reductions already applied — so continuing to deduct IRA contributions after 70½ erodes the exclusion (IRC § 408(d)(8)(A))",
+      "taxYear": 2026,
+      "source": "IRC § 408(d)(8)(A), read at law.cornell.edu/uscode/text/26/408",
+      "verified": "2026-08-19"
+    },
+    "retplan.ira_deduction_phaseout": {
+      "value": "for 2026, an active participant's traditional IRA deduction phases out over adjusted gross income of $81,000 to $91,000 for a single filer or head of household and $129,000 to $149,000 on a joint return; where only the spouse is an active participant the range is $242,000 to $252,000; and for a married individual filing separately the applicable amount is zero and is never indexed",
+      "taxYear": 2026,
+      "source": "Notice 2025-67, 2026 amounts relating to retirement plans and IRAs, read at irs.gov",
+      "verified": "2026-08-19"
+    },
+    "retplan.catch_up": {
+      "value": "$1,100 for 2026 for an individual who has attained age 50 before the close of the taxable year, under IRC § 219(b)(5)(B)(ii)",
+      "taxYear": 2026,
+      "source": "Notice 2025-67, 2026 amounts relating to retirement plans and IRAs, read at irs.gov",
+      "verified": "2026-08-19"
+    },
+    "retplan.spousal_rollover": {
+      "value": "only a surviving spouse may treat an inherited individual retirement account as their own or roll it into their own account — any other beneficiary cannot, and must take the balance under the applicable distribution rules instead",
+      "taxYear": 2026,
+      "source": "IRC § 408(d)(3)(C) and § 401(a)(9)(B), read at law.cornell.edu/uscode/text/26/408 and /401",
+      "verified": "2026-08-19"
+    },
+    "retplan.qcd_statutory_base": {
+      "value": "the figure printed in IRC § 408(d)(8)(A) is $100,000, an unindexed statutory base that has not been the operative amount since indexing began — the current limit comes from the annual retirement notice, not from the section",
+      "taxYear": 2026,
+      "source": "IRC § 408(d)(8)(A) read at law.cornell.edu/uscode/text/26/408, with the 2026 amount in Notice 2025-67 read at irs.gov",
+      "verified": "2026-08-19"
     }
   }
 }
