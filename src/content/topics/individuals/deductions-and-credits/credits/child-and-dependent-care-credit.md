@@ -17,7 +17,7 @@ authorities:
   - { type: Statute, ref: "Pub. L. 119-21, § 70405", title: "Enhancement of the dependent care credit percentage", url: "https://www.law.cornell.edu/uscode/text/26/21" }
   - { type: Statute, ref: "Pub. L. 119-21, § 70404", title: "Increase in the § 129 exclusion", url: "https://www.law.cornell.edu/uscode/text/26/129" }
 forms: []
-related: ["1.1.1.i", "1.1.1.e", "1.1.1.j", "1.3.1.h"]
+related: ["1.1.1.i", "1.1.1.e", "1.1.1.j", "1.3.1.h", "1.3.2.b"]
 changelog:
   - { date: "2026-08-19", summary: "Initial draft. Sets out the rewritten IRC § 21(a)(2) applicable percentage effective for taxable years beginning after 31 December 2025, the § 21(b) qualifying individual and employment-related expense definitions with Reg. § 1.21-1(c) on gainful employment, the § 21(c) expense caps and their reduction by the § 129 exclusion, the § 21(d) earned income limitation and deemed earned income, and the § 21(e) special rules including the joint return requirement and both identification requirements." }
 ---

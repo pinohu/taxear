@@ -9,10 +9,10 @@ is indexed, and only the owner moves a page there (see `docs/VERIFICATION.md`).
 
 | Part | Topics | Stub | Draft | Review | Published | Words |
 |---|---:|---:|---:|---:|---:|---:|
-| 1. Individuals | 120 | 50 | 0 | 60 | 10 | 155,663 |
+| 1. Individuals | 120 | 49 | 0 | 61 | 10 | 158,000 |
 | 2. Businesses | 119 | 119 | 0 | 0 | 0 | 0 |
 | 3. Representation, Practices and Procedures | 121 | 0 | 0 | 0 | 121 | 257,674 |
-| **All parts** | **360** | **169** | **0** | **60** | **131** | **413,337** |
+| **All parts** | **360** | **168** | **0** | **61** | **131** | **415,674** |
 
 ## Part 1 — Individuals
 
@@ -126,7 +126,7 @@ is indexed, and only the owner moves a page there (see `docs/VERIFICATION.md`).
 | Code | Title | Status | Words | Last reviewed |
 |---|---|---|---:|---|
 | 1.3.2.a | [Child and dependent care credit](/individuals/deductions-and-credits/credits/child-and-dependent-care-credit/) | review | 2,499 | 2026-08-19 |
-| 1.3.2.b | [Child tax credit and credit for other dependents](/individuals/deductions-and-credits/credits/child-tax-credit-and-credit-for-other-dependents/) | stub | — | — |
+| 1.3.2.b | [Child tax credit and credit for other dependents](/individuals/deductions-and-credits/credits/child-tax-credit-and-credit-for-other-dependents/) | review | 2,337 | 2026-08-19 |
 | 1.3.2.c | [Education credits](/individuals/deductions-and-credits/credits/education-credits/) | stub | — | — |
 | 1.3.2.d | [Foreign tax credit](/individuals/deductions-and-credits/credits/foreign-tax-credit/) | stub | — | — |
 | 1.3.2.e | [Earned income tax credit (e.g., paid preparer's earned income credit checklist, eligibility and disallowance)](/individuals/deductions-and-credits/credits/earned-income-tax-credit/) | stub | — | — |

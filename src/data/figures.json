@@ -1161,9 +1161,9 @@
       "verified": "2026-08-19"
     },
     "ctc.refundable_portion": {
-      "value": "$1,700 per qualifying child, indexed from the $1,400 base in IRC § 24(h)(5), with the refundable amount computed from earned income above $2,500",
+      "value": "$1,700 for each qualifying child for taxable years beginning in 2026 — the IRC § 24(h)(5) cap of $1,400 as indexed from 2024 under § 24(i)(1)",
       "taxYear": 2026,
-      "source": "Rev. Proc. 2025-32 § 3.05(2); IRC § 24(h)(5), (h)(6), (i)(1) — https://www.law.cornell.edu/uscode/text/26/24",
+      "source": "IRC § 24(h) as amended by Pub. L. 119-21 § 70104, read at law.cornell.edu/uscode/text/26/24, with Rev. Proc. 2025-32 § 3.05 read at irs.gov/pub/irs-drop/rp-25-32.pdf",
       "verified": "2026-08-19"
     },
     "ctc.ssn_required": {
@@ -5334,6 +5334,72 @@
       "value": "under age 13 for a dependent qualifying by age; there is no age ceiling for a dependent or spouse who is physically or mentally incapable of self-care and shares the taxpayer's principal place of abode for more than half the year",
       "taxYear": 2026,
       "source": "IRC § 21(a)(2), (b)(1), (c), (d)(2) as amended by Pub. L. 119-21 § 70405, read at law.cornell.edu/uscode/text/26/21",
+      "verified": "2026-08-19"
+    },
+    "ctc.credit_amount": {
+      "value": "$2,200 for each qualifying child for taxable years beginning in 2026, indexed from 2026 under IRC § 24(i)(2) with the increase rounded down to a multiple of $100",
+      "taxYear": 2026,
+      "source": "IRC § 24(h) as amended by Pub. L. 119-21 § 70104, read at law.cornell.edu/uscode/text/26/24, with Rev. Proc. 2025-32 § 3.05 read at irs.gov/pub/irs-drop/rp-25-32.pdf",
+      "verified": "2026-08-19"
+    },
+    "ctc.threshold": {
+      "value": "$400,000 on a joint return and $200,000 in any other case — the IRC § 24(h)(3) figures, which are not indexed and which displace the much lower § 24(b)(2) amounts still printed in the statute",
+      "taxYear": 2026,
+      "source": "IRC § 24(h) as amended by Pub. L. 119-21 § 70104, read at law.cornell.edu/uscode/text/26/24, with Rev. Proc. 2025-32 § 3.05 read at irs.gov/pub/irs-drop/rp-25-32.pdf",
+      "verified": "2026-08-19"
+    },
+    "ctc.phase_out_rate": {
+      "value": "$50 of credit for each $1,000, or fraction of $1,000, of modified adjusted gross income above the threshold — modified by adding back income excluded under IRC §§ 911, 931 and 933",
+      "taxYear": 2026,
+      "source": "IRC § 24(h) as amended by Pub. L. 119-21 § 70104, read at law.cornell.edu/uscode/text/26/24, with Rev. Proc. 2025-32 § 3.05 read at irs.gov/pub/irs-drop/rp-25-32.pdf",
+      "verified": "2026-08-19"
+    },
+    "ctc.earned_income_threshold": {
+      "value": "15 percent of earned income above $2,500, the IRC § 24(h)(6) substitution for the $3,000 printed in § 24(d)(1)(B)(i)",
+      "taxYear": 2026,
+      "source": "IRC § 24(h) as amended by Pub. L. 119-21 § 70104, read at law.cornell.edu/uscode/text/26/24, with Rev. Proc. 2025-32 § 3.05 read at irs.gov/pub/irs-drop/rp-25-32.pdf",
+      "verified": "2026-08-19"
+    },
+    "ctc.odc_amount": {
+      "value": "$500 for each dependent of the taxpayer within IRC § 152 who is not a qualifying child described in § 24(c) — a nonrefundable increase in the child tax credit, not a separate credit, and not indexed",
+      "taxYear": 2026,
+      "source": "IRC § 24(h) as amended by Pub. L. 119-21 § 70104, read at law.cornell.edu/uscode/text/26/24, with Rev. Proc. 2025-32 § 3.05 read at irs.gov/pub/irs-drop/rp-25-32.pdf",
+      "verified": "2026-08-19"
+    },
+    "ctc.age_limit": {
+      "value": "under age 17 at the close of the calendar year — IRC § 24(c)(1), which is stricter than the § 152(c)(3) age test for a dependent",
+      "taxYear": 2026,
+      "source": "IRC § 24(h) as amended by Pub. L. 119-21 § 70104, read at law.cornell.edu/uscode/text/26/24, with Rev. Proc. 2025-32 § 3.05 read at irs.gov/pub/irs-drop/rp-25-32.pdf",
+      "verified": "2026-08-19"
+    },
+    "ctc.permanence": {
+      "value": "permanent — Pub. L. 119-21 § 70104 struck the 1 January 2026 end date from IRC § 24(h)(1), changed the subsection heading to read 'after 2017', and raised the credit, all for taxable years beginning after 31 December 2024",
+      "taxYear": 2026,
+      "source": "IRC § 24(h) as amended by Pub. L. 119-21 § 70104, read at law.cornell.edu/uscode/text/26/24, with Rev. Proc. 2025-32 § 3.05 read at irs.gov/pub/irs-drop/rp-25-32.pdf",
+      "verified": "2026-08-19"
+    },
+    "ctc.disallowance_period": {
+      "value": "ten taxable years after a final determination of a fraudulent claim and two taxable years after a final determination of reckless or intentional disregard of the rules (IRC § 24(g)(1)(B))",
+      "taxYear": 2026,
+      "source": "IRC § 24(h) as amended by Pub. L. 119-21 § 70104, read at law.cornell.edu/uscode/text/26/24, with Rev. Proc. 2025-32 § 3.05 read at irs.gov/pub/irs-drop/rp-25-32.pdf",
+      "verified": "2026-08-19"
+    },
+    "ctc.superseded_statutory_amounts": {
+      "value": "the $1,000 credit in IRC § 24(a), the $110,000 joint, $75,000 single and $55,000 separate thresholds in § 24(b)(2) and the $3,000 earned income floor in § 24(d)(1)(B)(i) — all still printed in the section and all displaced by § 24(h) for every year after 2017",
+      "taxYear": 2026,
+      "source": "IRC § 24(a), (b)(2), (d)(1)(B)(i) and (h), read at law.cornell.edu/uscode/text/26/24",
+      "verified": "2026-08-19"
+    },
+    "ctc.arpa_2021_amounts": {
+      "value": "the 2021-only rules — $3,600 for a child under 6, $3,000 for an older child, eligibility at age 17, full refundability and monthly advance payments — which sat in IRC § 24(i) until Pub. L. 119-21 § 70104(c) replaced that subsection with inflation adjustments",
+      "taxYear": 2026,
+      "source": "IRC § 24(i) as amended by Pub. L. 119-21 § 70104(c), with the pre-amendment description in the Code's own amendment note, read at law.cornell.edu/uscode/text/26/24",
+      "verified": "2026-08-19"
+    },
+    "ctc.rounding": {
+      "value": "an inflation increase that is not a multiple of $100 is rounded to the next lowest multiple of $100 (IRC § 24(i)(3)) — which is why the 2026 credit is unchanged from 2025 while the refundable cap rose",
+      "taxYear": 2026,
+      "source": "IRC § 24(i)(3) and Rev. Proc. 2025-32 § 3.05, read at law.cornell.edu/uscode/text/26/24 and irs.gov/pub/irs-drop/rp-25-32.pdf",
       "verified": "2026-08-19"
     }
   }
