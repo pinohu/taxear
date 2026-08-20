@@ -24,7 +24,7 @@ authorities:
   - { type: Notice, ref: "2014-21", title: "Virtual currency guidance", url: "https://www.irs.gov/pub/irs-drop/n-14-21.pdf" }
   - { type: RevProc, ref: "2025-32", title: "Inflation adjusted items for 2026", url: "https://www.irs.gov/pub/irs-drop/rp-25-32.pdf" }
 forms: []
-related: ["1.2.3.a", "1.2.3.c", "1.2.3.f", "1.2.1.c", "1.2.3.k", "1.2.3.d", "1.2.3.e", "1.2.3.g", "1.2.3.h", "1.2.3.i", "1.2.3.j", "1.4.1.i"]
+related: ["1.2.3.a", "1.2.3.c", "1.2.3.f", "1.2.1.c", "1.2.3.k", "1.2.3.d", "1.2.3.e", "1.2.3.g", "1.2.3.h", "1.2.3.i", "1.2.3.j", "1.4.1.i", "1.5.1.b"]
 changelog:
   - { date: "2026-08-19", summary: "Initial draft. Sets out the IRC § 1221 definition by exclusion and the § 1221(b)(3) election for musical works, the § 1222 holding periods, the § 1211(b) loss limit and § 1212(b) carryover, the § 1(h) rate structure as it must be read through § 1(j)(5), the collectibles and qualified dividend rules, the § 1091 wash sale rule and § 1256 mark to market, and the treatment of digital assets as property under Notice 2014-21." }
 ---

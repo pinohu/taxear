@@ -6241,6 +6241,30 @@
       "taxYear": 2026,
       "source": "IRC § 6050W(e) amendment and effective date notes, read at law.cornell.edu/uscode/text/26/6050W",
       "verified": "2026-08-19"
+    },
+    "propsale.rate_breakpoints": {
+      "value": "for 2026 the zero rate on adjusted net capital gain runs to taxable income of $98,900 joint, $66,200 head of household, $49,450 single or married filing separately and $3,300 for an estate or trust; the 15 percent rate runs to $613,700, $579,600, $545,500, $306,850 and $16,250 respectively, with 20 percent above",
+      "taxYear": 2026,
+      "source": "Rev. Proc. 2025-32 § 3.03, read at irs.gov/pub/irs-drop/rp-25-32.pdf",
+      "verified": "2026-08-19"
+    },
+    "propsale.collectibles_rate": {
+      "value": "28 percent on net collectibles gain — the gain on works of art, rugs, antiques, metals, gems, stamps, coins and alcoholic beverages held more than one year (IRC § 1(h)(4), (5))",
+      "taxYear": 2026,
+      "source": "IRC § 1(h)(4), (5), read at law.cornell.edu/uscode/text/26/1",
+      "verified": "2026-08-19"
+    },
+    "propsale.unrecaptured_1250": {
+      "value": "25 percent on unrecaptured section 1250 gain — the depreciation previously taken on real property, to the extent not already recaptured as ordinary income (IRC § 1(h)(1)(E), (6))",
+      "taxYear": 2026,
+      "source": "IRC § 1(h)(6), read at law.cornell.edu/uscode/text/26/1",
+      "verified": "2026-08-19"
+    },
+    "propsale.personal_property": {
+      "value": "all property other than real property — real property is land and whatever is permanently affixed to it, so a copyright, a vehicle and a collectible are personal property while land is not",
+      "taxYear": 2026,
+      "source": "IRC § 1221 and the real/personal distinction as used throughout subtitle A, read at law.cornell.edu/uscode/text/26/1221",
+      "verified": "2026-08-19"
     }
   }
 }
