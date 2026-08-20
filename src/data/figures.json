@@ -7249,6 +7249,66 @@
       "taxYear": 2026,
       "source": "IRC § 2001(g)(2), read at law.cornell.edu/uscode/text/26/2001",
       "verified": "2026-08-20"
+    },
+    "gifteffect.gross_up": {
+      "value": "the gross estate is increased by any gift tax paid by the decedent or the decedent's spouse on gifts made during the 3-year period ending at death — so paying the gift tax does not get that money out of the estate unless the donor survives three years (IRC § 2035(b))",
+      "taxYear": 2026,
+      "source": "IRC § 2035(b), read at law.cornell.edu/uscode/text/26/2035",
+      "verified": "2026-08-20"
+    },
+    "gst.transfers": {
+      "value": "three, and only three — a taxable distribution, a taxable termination and a direct skip (IRC § 2611(a))",
+      "taxYear": 2026,
+      "source": "IRC § 2611(a), read at law.cornell.edu/uscode/text/26/2611",
+      "verified": "2026-08-20"
+    },
+    "gst.skip_person": {
+      "value": "a natural person assigned to a generation 2 or more generations below the transferor's, or a trust in which all interests are held by skip persons or from which no distribution may be made to a non-skip person (IRC § 2613(a))",
+      "taxYear": 2026,
+      "source": "IRC § 2613(a), read at law.cornell.edu/uscode/text/26/2613",
+      "verified": "2026-08-20"
+    },
+    "gst.lineal_assignment": {
+      "value": "for a lineal descendant of a grandparent of the transferor or of the transferor's spouse, generation is assigned by counting generations from that grandparent — by family tree, never by age — with legal adoption treated as blood and the half-blood as the whole-blood (IRC § 2651(b))",
+      "taxYear": 2026,
+      "source": "IRC § 2651(b), read at law.cornell.edu/uscode/text/26/2651",
+      "verified": "2026-08-20"
+    },
+    "gst.age_assignment": {
+      "value": "only for an individual not assigned by the family rules: born not more than 12½ years after the transferor is the transferor's own generation, more than 12½ but not more than 37½ years after is the first younger generation, and a new generation every 25 years after that (IRC § 2651(d))",
+      "taxYear": 2026,
+      "source": "IRC § 2651(d), read at law.cornell.edu/uscode/text/26/2651",
+      "verified": "2026-08-20"
+    },
+    "gst.spouse_assignment": {
+      "value": "anyone who has ever been married to the transferor takes the transferor's own generation, and anyone who has ever been married to a lineal descendant takes that descendant's generation — so a much younger spouse is never a skip person (IRC § 2651(c))",
+      "taxYear": 2026,
+      "source": "IRC § 2651(c), read at law.cornell.edu/uscode/text/26/2651",
+      "verified": "2026-08-20"
+    },
+    "gst.predeceased_parent": {
+      "value": "where a descendant of a parent of the transferor, or of the transferor's spouse or former spouse, has a parent who died before the transfer, that individual and their descendants move up a generation — so a grandchild whose parent has died is not a skip person (IRC § 2651(e))",
+      "taxYear": 2026,
+      "source": "IRC § 2651(e), read at law.cornell.edu/uscode/text/26/2651",
+      "verified": "2026-08-20"
+    },
+    "gst.excluded_transfers": {
+      "value": "a transfer that would not be a taxable gift by reason of IRC § 2503(e), and a transfer already taxed under chapter 13 to a transferee at the same or a lower generation where the transfers do not have the effect of avoiding the tax (IRC § 2611(b))",
+      "taxYear": 2026,
+      "source": "IRC § 2611(b), read at law.cornell.edu/uscode/text/26/2611",
+      "verified": "2026-08-20"
+    },
+    "gst.applicable_rate": {
+      "value": "the maximum federal estate tax rate multiplied by the inclusion ratio — a flat top-bracket rate, not a graduated one, and reduced to nil only by allocating exemption (IRC § 2641(a))",
+      "taxYear": 2026,
+      "source": "IRC § 2641(a), read at law.cornell.edu/uscode/text/26/2641",
+      "verified": "2026-08-20"
+    },
+    "gst.exemption_mechanics": {
+      "value": "every individual has a GST exemption equal to the IRC § 2010(c) basic exclusion amount for the calendar year, allocable by the individual or the executor to property of which they are the transferor, and any allocation once made is irrevocable (IRC § 2631)",
+      "taxYear": 2026,
+      "source": "IRC § 2631, read at law.cornell.edu/uscode/text/26/2631",
+      "verified": "2026-08-20"
     }
   }
 }
