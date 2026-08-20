@@ -177,8 +177,9 @@ Guaranteed payments for services actually rendered are carved back in.
 
 **The ceiling is set outside the Code.** Section 1402(b)(1) points at the contribution and benefit base
 under section 230 of the Social Security Act, which is announced annually by the Social Security
-Administration rather than by the IRS. Any table of it is a secondary report of a figure that lives
-elsewhere, and it should be taken from the announcement rather than from a tax publication.
+Administration rather than by the IRS. Any tax table of it is a secondary report of a figure that lives
+elsewhere, so check the year it is stated for: the amount in the current figures table above is the 2026
+base as the IRS reports it.
 
 **What has not changed is the structure of the two halvings**, in place since 1990, and it remains the
 most reliable source of error on this topic — including in published material, which frequently describes

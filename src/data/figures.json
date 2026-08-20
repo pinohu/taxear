@@ -4497,9 +4497,9 @@
       "verified": "2026-08-19"
     },
     "se.wage_base": {
-      "value": "the old-age portion applies only to net earnings up to the contribution and benefit base under section 230 of the Social Security Act for the calendar year, reduced by wages paid to the individual in the year — the hospital insurance portion has no ceiling",
+      "value": "$184,500 for 2026 — the old-age portion applies only to net earnings up to the contribution and benefit base under section 230 of the Social Security Act, reduced by wages paid to the individual in the year, while the hospital insurance portion has no ceiling",
       "taxYear": 2026,
-      "source": "IRC § 1402(b)(1) — https://www.law.cornell.edu/uscode/text/26/1402",
+      "source": "IRC § 1402(b)(1) read at law.cornell.edu/uscode/text/26/1402, with the 2026 base at IRS Topic no. 751 (page last reviewed 20 January 2026) read at irs.gov/taxtopics/tc751",
       "verified": "2026-08-19"
     },
     "sec121.depreciation": {

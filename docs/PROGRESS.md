@@ -9,10 +9,10 @@ is indexed, and only the owner moves a page there (see `docs/VERIFICATION.md`).
 
 | Part | Topics | Stub | Draft | Review | Published | Words |
 |---|---:|---:|---:|---:|---:|---:|
-| 1. Individuals | 120 | 41 | 0 | 69 | 10 | 176,416 |
+| 1. Individuals | 120 | 41 | 0 | 69 | 10 | 176,428 |
 | 2. Businesses | 119 | 119 | 0 | 0 | 0 | 0 |
 | 3. Representation, Practices and Procedures | 121 | 0 | 0 | 0 | 121 | 257,674 |
-| **All parts** | **360** | **160** | **0** | **69** | **131** | **434,090** |
+| **All parts** | **360** | **160** | **0** | **69** | **131** | **434,102** |
 
 ## Part 1 — Individuals
 
@@ -100,7 +100,7 @@ is indexed, and only the owner moves a page there (see `docs/VERIFICATION.md`).
 
 | Code | Title | Status | Words | Last reviewed |
 |---|---|---|---:|---|
-| 1.2.4.a | [Self-employment tax](/individuals/income-and-assets/adjustments-to-income/self-employment-tax/) | review | 2,011 | 2026-08-19 |
+| 1.2.4.a | [Self-employment tax](/individuals/income-and-assets/adjustments-to-income/self-employment-tax/) | review | 2,023 | 2026-08-19 |
 | 1.2.4.b | [Retirement contribution limits and deductibility (e.g., earned compensation requirements)](/individuals/income-and-assets/adjustments-to-income/retirement-contribution-limits-and-deductibility/) | review | 1,919 | 2026-08-19 |
 | 1.2.4.c | [Health savings accounts](/individuals/income-and-assets/adjustments-to-income/health-savings-accounts/) | review | 2,050 | 2026-08-19 |
 | 1.2.4.d | [Other adjustments to income (e.g., student loan interest, alimony, moving expenses for active military, write-in adjustments)](/individuals/income-and-assets/adjustments-to-income/other-adjustments-to-income/) | review | 1,918 | 2026-08-19 |
