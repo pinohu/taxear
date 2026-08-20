@@ -15,7 +15,7 @@ authorities:
   - { type: IRC, ref: "§ 275", title: "Certain taxes", url: "https://www.law.cornell.edu/uscode/text/26/275" }
   - { type: Statute, ref: "Pub. L. 119-21, § 70120", title: "State and local tax deduction", url: "https://www.law.cornell.edu/uscode/text/26/164" }
 forms: []
-related: ["1.3.1.a", "1.3.1.c", "1.3.1.f", "1.2.1.n", "1.3.1.d", "1.1.1.h"]
+related: ["1.3.1.a", "1.3.1.c", "1.3.1.f", "1.2.1.n", "1.3.1.d", "1.1.1.h", "1.3.1.e"]
 changelog:
   - { date: "2026-08-19", summary: "Initial draft. Sets out the four IRC § 164(a) categories and the flush-text rule for business taxes, the § 164(b)(5) sales tax election, the § 164(b)(6) limitation with its exclusion of foreign real property taxes and its carve-outs for foreign income taxes and business property taxes, the § 164(b)(7) schedule of applicable limitation amounts through 2029 and beyond, and the § 164(d) apportionment on a sale." }
 ---

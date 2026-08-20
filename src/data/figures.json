@@ -608,6 +608,54 @@
       "source": "IRM 4.10.7.2.8.8 (1 January 2006), \"Importance of Court Decisions\" — https://www.irs.gov/irm/part4/irm_04-010-007",
       "verified": "2026-08-18"
     },
+    "casualty.above_the_line_portion": {
+      "value": "personal casualty losses up to the amount of personal casualty gains are allowable in computing adjusted gross income rather than as an itemized deduction",
+      "taxYear": 2026,
+      "source": "IRC § 165(h)(4)(A) — https://www.law.cornell.edu/uscode/text/26/165",
+      "verified": "2026-08-19"
+    },
+    "casualty.agi_floor": {
+      "value": "where personal casualty losses exceed personal casualty gains, the losses are allowed only to the extent of the gains plus so much of the excess as exceeds 10 percent of adjusted gross income",
+      "taxYear": 2026,
+      "source": "IRC § 165(h)(2)(A)(i), (ii) — https://www.law.cornell.edu/uscode/text/26/165",
+      "verified": "2026-08-19"
+    },
+    "casualty.disaster_requirement": {
+      "value": "a personal casualty loss is deductible only to the extent attributable to a **Federally declared disaster or a State declared disaster** — the State limb added by Pub. L. 119-21 § 70109(b)(1), and the restriction made permanent by the same section",
+      "taxYear": 2026,
+      "source": "IRC § 165(h)(5)(A), as amended by Pub. L. 119-21 § 70109(a), (b)(1) — https://www.law.cornell.edu/uscode/text/26/165",
+      "verified": "2026-08-19"
+    },
+    "casualty.gains_exceed_losses": {
+      "value": "where personal casualty gains exceed personal casualty losses, all the gains and all the losses are treated as from sales or exchanges of capital assets — so the 10 percent floor never applies",
+      "taxYear": 2026,
+      "source": "IRC § 165(h)(2)(B)(i), (ii) — https://www.law.cornell.edu/uscode/text/26/165",
+      "verified": "2026-08-19"
+    },
+    "casualty.gains_exception": {
+      "value": "where there are personal casualty gains, the disaster requirement does not apply to non-disaster losses up to the amount of those gains — and the gains so used are then removed from the § 165(h)(2)(A) computation for the disaster losses",
+      "taxYear": 2026,
+      "source": "IRC § 165(h)(5)(B)(i), (ii) — https://www.law.cornell.edu/uscode/text/26/165",
+      "verified": "2026-08-19"
+    },
+    "casualty.per_event_floor": {
+      "value": "$100 per casualty or per theft for taxable years beginning after 31 December 2009 — applied to each event separately before anything else",
+      "taxYear": 2026,
+      "source": "IRC § 165(h)(1) — https://www.law.cornell.edu/uscode/text/26/165",
+      "verified": "2026-08-19"
+    },
+    "casualty.prior_year_election": {
+      "value": "a loss occurring in a disaster area and attributable to a federally declared disaster may, at the taxpayer's election, be taken into account for the taxable year immediately preceding the year in which the disaster occurred",
+      "taxYear": 2026,
+      "source": "IRC § 165(i)(1) — https://www.law.cornell.edu/uscode/text/26/165",
+      "verified": "2026-08-19"
+    },
+    "casualty.state_declared": {
+      "value": "any natural catastrophe — hurricane, tornado, storm, high water, wind-driven water, tidal wave, tsunami, earthquake, volcanic eruption, landslide, mudslide, snowstorm or drought — or, regardless of cause, any fire, flood or explosion, which the Governor and the Secretary determine causes damage of sufficient severity and magnitude",
+      "taxYear": 2026,
+      "source": "IRC § 165(h)(5)(C)(i), as added by Pub. L. 119-21 § 70109(b) — https://www.law.cornell.edu/uscode/text/26/165",
+      "verified": "2026-08-19"
+    },
     "cdp.equivalent_hearing_window": {
       "value": "one year — for a lien, commencing the day after the end of the five-business-day period following the NFTL filing; for a levy, commencing the day after the date of the CDP notice",
       "taxYear": 2026,
