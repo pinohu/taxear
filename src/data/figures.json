@@ -4718,6 +4718,54 @@
       "source": "IRC § 7463(a), (f), read at law.cornell.edu",
       "verified": "2026-08-19"
     },
+    "taxdeduct.apportionment": {
+      "value": "on a sale, the tax allocable to the part of the real property tax year ending **the day before** the sale is treated as imposed on the seller, and the part beginning on the date of sale on the purchaser — regardless of who actually paid",
+      "taxYear": 2026,
+      "source": "IRC § 164(d)(1)(A), (B) — https://www.law.cornell.edu/uscode/text/26/164",
+      "verified": "2026-08-19"
+    },
+    "taxdeduct.apportionment_cash_basis": {
+      "value": "a cash-method taxpayer who is not liable for the tax under State law is nevertheless treated as having paid, on the date of sale, the portion apportioned to them",
+      "taxYear": 2026,
+      "source": "IRC § 164(d)(2)(A) — https://www.law.cornell.edu/uscode/text/26/164",
+      "verified": "2026-08-19"
+    },
+    "taxdeduct.business_taxes": {
+      "value": "any other State, local or foreign tax paid or accrued in carrying on a trade or business or an IRC § 212 activity is also deductible — but a tax paid in connection with an acquisition or disposition of property is capitalised into cost or reduces the amount realised instead",
+      "taxYear": 2026,
+      "source": "IRC § 164(a), flush text — https://www.law.cornell.edu/uscode/text/26/164",
+      "verified": "2026-08-19"
+    },
+    "taxdeduct.cap_schedule": {
+      "value": "$40,000 for 2025, $40,400 for 2026, then 101 percent of the preceding year's figure for 2027 through 2029, and $10,000 for any taxable year beginning after 2029",
+      "taxYear": 2026,
+      "source": "IRC § 164(b)(7)(A)(i)–(iv) — https://www.law.cornell.edu/uscode/text/26/164",
+      "verified": "2026-08-19"
+    },
+    "taxdeduct.cap_scope": {
+      "value": "the cap applies to the aggregate of real property, personal property and income taxes and elected sales taxes — but **not** to foreign income taxes under § 164(a)(3), nor to real or personal property taxes paid in carrying on a trade or business or an IRC § 212 activity",
+      "taxYear": 2026,
+      "source": "IRC § 164(b)(6)(B) and the sentence following it — https://www.law.cornell.edu/uscode/text/26/164",
+      "verified": "2026-08-19"
+    },
+    "taxdeduct.foreign_real_property": {
+      "value": "not deductible at all for an individual — foreign real property taxes are excluded from IRC § 164(a)(1) by § 164(b)(6)(A), with no cap to reach",
+      "taxYear": 2026,
+      "source": "IRC § 164(b)(6)(A) — https://www.law.cornell.edu/uscode/text/26/164",
+      "verified": "2026-08-19"
+    },
+    "taxdeduct.four_categories": {
+      "value": "State and local and foreign real property taxes; State and local personal property taxes; State and local and foreign income, war profits and excess profits taxes; and the generation-skipping transfer tax on income distributions",
+      "taxYear": 2026,
+      "source": "IRC § 164(a)(1)–(4) — https://www.law.cornell.edu/uscode/text/26/164",
+      "verified": "2026-08-19"
+    },
+    "taxdeduct.sales_tax_election": {
+      "value": "at the taxpayer's election, State and local general sales taxes are substituted for State and local income taxes — one or the other, never both",
+      "taxYear": 2026,
+      "source": "IRC § 164(b)(5)(A)(i), (ii) — https://www.law.cornell.edu/uscode/text/26/164",
+      "verified": "2026-08-19"
+    },
     "tfrp.amount": {
       "value": "the total amount of the tax evaded, not collected, or not accounted for and paid over — the trust fund portion, without penalties or interest on the employer's account",
       "taxYear": 2026,

@@ -17,7 +17,7 @@ authorities:
   - { type: IRC, ref: "§ 6050E", title: "State and local income tax refunds", url: "https://www.law.cornell.edu/uscode/text/26/6050E" }
   - { type: Statute, ref: "Pub. L. 119-21", title: "An Act to provide for reconciliation, title VII" }
 forms: []
-related: ["1.2.1.h", "1.2.1.f", "1.1.1.h", "1.2.1.m", "1.2.1.o"]
+related: ["1.2.1.h", "1.2.1.f", "1.1.1.h", "1.2.1.m", "1.2.1.o", "1.3.1.b"]
 changelog:
   - { date: "2026-08-19", summary: "Initial draft. Records the removal of the IRC § 164(b)(6) sunset and the new applicable limitation amount in IRC § 164(b)(7), with its income phasedown and its scheduled reversion after 2029, and the effect of both on the IRC § 111(a) recovery computation." }
 ---
