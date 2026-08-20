@@ -3920,6 +3920,66 @@
       "source": "Rev. Proc. 2025-32, § 3.14 (2026 adjusted items) — https://www.irs.gov/pub/irs-drop/rp-25-32.pdf",
       "verified": "2026-08-19"
     },
+    "se.additional_medicare_threshold": {
+      "value": "$250,000 on a joint return, half that for a married taxpayer filing separately, and $200,000 in any other case — reduced, but not below zero, by wages taken into account for the corresponding FICA tax",
+      "taxYear": 2026,
+      "source": "IRC § 1401(b)(2)(A)(i)–(iii), (b)(2)(B) — https://www.law.cornell.edu/uscode/text/26/1401",
+      "verified": "2026-08-19"
+    },
+    "se.base_reduction": {
+      "value": "net earnings are reduced by the product of those earnings and one-half of the combined IRC § 1401(a) and (b)(1) rates, disregarding the additional hospital insurance rate — the reduction that stands in place of the § 164(f) deduction in computing the tax itself",
+      "taxYear": 2026,
+      "source": "IRC § 1402(a)(12)(A), (B) — https://www.law.cornell.edu/uscode/text/26/1402",
+      "verified": "2026-08-19"
+    },
+    "se.deduction": {
+      "value": "one-half of the taxes imposed by IRC § 1401, other than the additional hospital insurance tax under § 1401(b)(2), deducted in computing adjusted gross income and treated as attributable to a trade or business not consisting of services as an employee",
+      "taxYear": 2026,
+      "source": "IRC § 164(f)(1), (2) — https://www.law.cornell.edu/uscode/text/26/164",
+      "verified": "2026-08-19"
+    },
+    "se.exclusions": {
+      "value": "rentals from real estate and property leased with it, unless received as a real estate dealer or under a material-participation farm arrangement; dividends and interest, unless received as a dealer in stocks or securities; and gain or loss on a capital asset or on property that is neither inventory nor held primarily for sale to customers",
+      "taxYear": 2026,
+      "source": "IRC § 1402(a)(1), (2), (3)(A), (C) — https://www.law.cornell.edu/uscode/text/26/1402",
+      "verified": "2026-08-19"
+    },
+    "se.floor": {
+      "value": "no self-employment income where net earnings from self-employment for the year are less than $400",
+      "taxYear": 2026,
+      "source": "IRC § 1402(b)(2) — https://www.law.cornell.edu/uscode/text/26/1402",
+      "verified": "2026-08-19"
+    },
+    "se.limited_partner": {
+      "value": "a limited partner's distributive share is excluded, as such — but not guaranteed payments under IRC § 707(c) for services actually rendered, to the extent established to be remuneration for those services",
+      "taxYear": 2026,
+      "source": "IRC § 1402(a)(13) — https://www.law.cornell.edu/uscode/text/26/1402",
+      "verified": "2026-08-19"
+    },
+    "se.net_earnings": {
+      "value": "gross income from any trade or business carried on by the individual, less the deductions attributable to it, plus the distributive share of income or loss described in IRC § 702(a)(8) from a partnership of which the individual is a member",
+      "taxYear": 2026,
+      "source": "IRC § 1402(a), opening text — https://www.law.cornell.edu/uscode/text/26/1402",
+      "verified": "2026-08-19"
+    },
+    "se.not_a_trade_or_business": {
+      "value": "the functions of a public office, other than certain State fee-basis positions, and the performance of service as an employee, with narrow exceptions — neither produces net earnings from self-employment",
+      "taxYear": 2026,
+      "source": "IRC § 1402(c)(1), (2) — https://www.law.cornell.edu/uscode/text/26/1402",
+      "verified": "2026-08-19"
+    },
+    "se.rates": {
+      "value": "12.4 percent for old-age, survivors and disability insurance and 2.9 percent for hospital insurance, plus an additional 0.9 percent on self-employment income above the threshold",
+      "taxYear": 2026,
+      "source": "IRC § 1401(a), (b)(1), (b)(2)(A) — https://www.law.cornell.edu/uscode/text/26/1401",
+      "verified": "2026-08-19"
+    },
+    "se.wage_base": {
+      "value": "the old-age portion applies only to net earnings up to the contribution and benefit base under section 230 of the Social Security Act for the calendar year, reduced by wages paid to the individual in the year — the hospital insurance portion has no ceiling",
+      "taxYear": 2026,
+      "source": "IRC § 1402(b)(1) — https://www.law.cornell.edu/uscode/text/26/1402",
+      "verified": "2026-08-19"
+    },
     "sec121.depreciation": {
       "value": "the exclusion does not apply to gain up to the depreciation adjustments as defined in IRC § 1250(b)(3) attributable to periods after 6 May 1997 — and this is applied **before** the nonqualified use allocation",
       "taxYear": 2026,
