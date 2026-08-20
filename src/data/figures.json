@@ -3098,6 +3098,60 @@
       "source": "Reg. § 300.11 (applies from 30 September 2025); irs.gov PTIN requirements page",
       "verified": "2026-08-18"
     },
+    "ptp.751_ordinary": {
+      "value": "so much of the amount received as is attributable to unrealized receivables or inventory items is treated as realized from the sale of property **other than** a capital asset — ordinary income, whatever the holding period",
+      "taxYear": 2026,
+      "source": "IRC § 751(a)(1), (2) — https://www.law.cornell.edu/uscode/text/26/751",
+      "verified": "2026-08-19"
+    },
+    "ptp.corporate_default": {
+      "value": "treated as a corporation for purposes of the whole title, except where the passive-type income exception applies",
+      "taxYear": 2026,
+      "source": "IRC § 7704(a) — https://www.law.cornell.edu/uscode/text/26/7704",
+      "verified": "2026-08-19"
+    },
+    "ptp.definition": {
+      "value": "a partnership whose interests are traded on an established securities market, or are readily tradable on a secondary market or the substantial equivalent — the same two-limb test appears in IRC § 7704(b) and § 469(k)(2)",
+      "taxYear": 2026,
+      "source": "IRC § 7704(b)(1), (2); § 469(k)(2)(A), (B) — https://www.law.cornell.edu/uscode/text/26/7704",
+      "verified": "2026-08-19"
+    },
+    "ptp.foreign_withholding": {
+      "value": "a transferee must withhold 10 percent of the amount realized where any of the gain would be effectively connected income under IRC § 864(c)(8), unless the transferor furnishes a non-foreign affidavit with their taxpayer identification number under penalty of perjury",
+      "taxYear": 2026,
+      "source": "IRC § 1446(f)(1), (2)(A) — https://www.law.cornell.edu/uscode/text/26/1446",
+      "verified": "2026-08-19"
+    },
+    "ptp.outside_basis": {
+      "value": "the contributed or purchased basis, increased by the partner's distributive share of taxable income, tax-exempt income and excess depletion deductions, and decreased — but not below zero — by distributions and by the distributive share of losses and nondeductible non-capital expenditures",
+      "taxYear": 2026,
+      "source": "IRC § 705(a)(1)(A)–(C), (a)(2) — https://www.law.cornell.edu/uscode/text/26/705",
+      "verified": "2026-08-19"
+    },
+    "ptp.passive_loss_separate": {
+      "value": "IRC § 469 is applied separately to the items of each publicly traded partnership, and the § 469(i) rental real estate allowance does not apply to them — so a loss from one PTP offsets only later income from that same PTP",
+      "taxYear": 2026,
+      "source": "IRC § 469(k)(1) — https://www.law.cornell.edu/uscode/text/26/469",
+      "verified": "2026-08-19"
+    },
+    "ptp.qualifying_income_test": {
+      "value": "90 percent or more of gross income must be qualifying income — interest, dividends, real property rents, gain from real property, income from mineral or natural resource activities and the like — met for the year and every preceding year beginning after 1987 in which the partnership existed",
+      "taxYear": 2026,
+      "source": "IRC § 7704(c)(1), (2); § 7704(d)(1) — https://www.law.cornell.edu/uscode/text/26/7704",
+      "verified": "2026-08-19"
+    },
+    "ptp.sale_character": {
+      "value": "gain or loss on the sale of a partnership interest is capital, except as IRC § 751 provides otherwise",
+      "taxYear": 2026,
+      "source": "IRC § 741 — https://www.law.cornell.edu/uscode/text/26/741",
+      "verified": "2026-08-19"
+    },
+    "ptp.suspended_loss_release": {
+      "value": "the taxpayer is not treated as having disposed of an entire interest in an activity of a publicly traded partnership until the entire interest in the partnership itself is disposed of — which is when the suspended losses are released",
+      "taxYear": 2026,
+      "source": "IRC § 469(k)(3), applying § 469(g) — https://www.law.cornell.edu/uscode/text/26/469",
+      "verified": "2026-08-19"
+    },
     "pubs.factsheet_faq": {
       "value": "FAQs published in a Fact Sheet linked to an IRS news release are considered authority for the substantial authority exception to accuracy-related penalties; FAQs not published in the Bulletin are not",
       "taxYear": 2026,

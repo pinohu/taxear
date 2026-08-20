@@ -15,7 +15,7 @@ authorities:
   - { type: IRC, ref: "§ 267", title: "Losses, expenses, and interest with respect to transactions between related taxpayers", url: "https://www.law.cornell.edu/uscode/text/26/267" }
   - { type: Reg, ref: "§ 1.469-5T", title: "Material participation (temporary)", url: "https://www.law.cornell.edu/cfr/text/26/1.469-5T" }
 forms: []
-related: ["1.2.1.d", "1.2.1.j", "1.2.1.b", "1.2.1.m", "1.2.1.l"]
+related: ["1.2.1.d", "1.2.1.j", "1.2.1.b", "1.2.1.m", "1.2.1.l", "1.2.3.e"]
 changelog:
   - { date: "2026-08-19", summary: "Initial draft. Sets out the IRC § 469(c) definition with its rental rule and real estate professional exception, the seven Reg. § 1.469-5T(a) material participation tests, the IRC § 469(i) offset and its unindexed phase-out, and the IRC § 469(g) release on disposition." }
 ---
