@@ -230,6 +230,72 @@
       "source": "IRC § 3406(a)(1); IRC § 1(c) as adjusted by Rev. Proc. 2025-32 § 3.01 — https://www.law.cornell.edu/uscode/text/26/3406",
       "verified": "2026-08-19"
     },
+    "basis.adjustments": {
+      "value": "reduced for depreciation, amortisation and depletion to the extent allowed and producing a tax reduction, but **not less than the amount allowable** — and where no method was adopted, the allowable amount is computed straight line",
+      "taxYear": 2026,
+      "source": "IRC § 1016(a)(2)(A), (B) and its closing flush text — https://www.law.cornell.edu/uscode/text/26/1016",
+      "verified": "2026-08-19"
+    },
+    "basis.community_property": {
+      "value": "the surviving spouse's own one-half share of community property takes a new basis too, where at least one-half of the whole community interest was includible in the decedent's gross estate — so the entire asset is stepped, not half of it",
+      "taxYear": 2026,
+      "source": "IRC § 1014(b)(6) — https://www.law.cornell.edu/uscode/text/26/1014",
+      "verified": "2026-08-19"
+    },
+    "basis.cost": {
+      "value": "the cost of the property, except as subchapters O, C, K and P provide otherwise — and cost excludes any amount for real property taxes treated under IRC § 164(d) as imposed on the taxpayer",
+      "taxYear": 2026,
+      "source": "IRC § 1012(a), (b) — https://www.law.cornell.edu/uscode/text/26/1012",
+      "verified": "2026-08-19"
+    },
+    "basis.deathbed_gift": {
+      "value": "no step-up — where appreciated property was given to the decedent within the 1-year period ending on the date of death and passes back to the donor or the donor's spouse, basis is the decedent's adjusted basis immediately before death",
+      "taxYear": 2026,
+      "source": "IRC § 1014(e)(1) — https://www.law.cornell.edu/uscode/text/26/1014",
+      "verified": "2026-08-19"
+    },
+    "basis.gift": {
+      "value": "the donor's basis carries over, except that where that basis exceeds the property's fair market value at the time of the gift, the fair market value is used **for determining loss** — so a gift of depreciated property has two bases and can produce neither gain nor loss",
+      "taxYear": 2026,
+      "source": "IRC § 1015(a) — https://www.law.cornell.edu/uscode/text/26/1015",
+      "verified": "2026-08-19"
+    },
+    "basis.gift_tax_adjustment": {
+      "value": "increased by the gift tax paid, but not above fair market value at the time of the gift — and for gifts after 31 December 1976 only by the fraction of that tax which the net appreciation bears to the amount of the gift",
+      "taxYear": 2026,
+      "source": "IRC § 1015(d)(1)(A), (d)(6)(A), (B) — https://www.law.cornell.edu/uscode/text/26/1015",
+      "verified": "2026-08-19"
+    },
+    "basis.holding_period_tacking": {
+      "value": "the prior holder's period is included wherever the property takes that person's basis in whole or in part for determining gain or loss — and property acquired from a decedent whose basis is determined under IRC § 1014 is treated as held more than one year however soon it is sold",
+      "taxYear": 2026,
+      "source": "IRC § 1223(1), (2), (9) — https://www.law.cornell.edu/uscode/text/26/1223",
+      "verified": "2026-08-19"
+    },
+    "basis.inherited": {
+      "value": "fair market value at the date of the decedent's death, or its value at the applicable valuation date where an IRC § 2032 election is made, or its § 2032A value, or the decedent's basis to the extent of the § 2031(c) exclusion",
+      "taxYear": 2026,
+      "source": "IRC § 1014(a)(1)–(4) — https://www.law.cornell.edu/uscode/text/26/1014",
+      "verified": "2026-08-19"
+    },
+    "basis.inherited_consistency": {
+      "value": "capped at the final value determined for estate tax purposes, or the value in a statement furnished under IRC § 6035(a) — but only where including the property increased the estate's chapter 11 liability net of credits",
+      "taxYear": 2026,
+      "source": "IRC § 1014(f)(1)(A), (B), (f)(2) — https://www.law.cornell.edu/uscode/text/26/1014",
+      "verified": "2026-08-19"
+    },
+    "basis.spousal_transfer": {
+      "value": "no gain or loss on a transfer to a spouse, or to a former spouse incident to divorce; the property is treated as acquired by gift and the transferee takes the transferor's adjusted basis — with no fair market value limitation for loss",
+      "taxYear": 2026,
+      "source": "IRC § 1041(a)(1), (2), (b)(1), (2) — https://www.law.cornell.edu/uscode/text/26/1041",
+      "verified": "2026-08-19"
+    },
+    "basis.unknown_donor_basis": {
+      "value": "the Secretary is directed to obtain the facts from the donor or a person cognizant of them; only where that proves impossible is fair market value at the donor's acquisition substituted",
+      "taxYear": 2026,
+      "source": "IRC § 1015(a), second and third sentences — https://www.law.cornell.edu/uscode/text/26/1015",
+      "verified": "2026-08-19"
+    },
     "belowmarket.de_minimis": {
       "value": "$10,000 of aggregate outstanding gift loans between individuals, and the same figure for compensation-related and corporate-shareholder loans, neither exception applying where a principal purpose is tax avoidance",
       "taxYear": 2026,
