@@ -6919,6 +6919,66 @@
       "taxYear": 2026,
       "source": "IRC § 1014(b)(6), read at law.cornell.edu/uscode/text/26/1014",
       "verified": "2026-08-20"
+    },
+    "marital.deduction": {
+      "value": "unlimited — the value of any interest in property passing from the decedent to the surviving spouse is deducted in full, but only to the extent that interest is included in determining the value of the gross estate (IRC § 2056(a))",
+      "taxYear": 2026,
+      "source": "IRC § 2056(a), read at law.cornell.edu/uscode/text/26/2056",
+      "verified": "2026-08-20"
+    },
+    "marital.terminable_interest": {
+      "value": "no deduction for an interest that will terminate or fail on the lapse of time or on an event, where an interest in the same property passed from the decedent for less than adequate consideration to someone other than the spouse and that person may enjoy the property after the spouse's interest ends (IRC § 2056(b)(1))",
+      "taxYear": 2026,
+      "source": "IRC § 2056(b)(1), read at law.cornell.edu/uscode/text/26/2056",
+      "verified": "2026-08-20"
+    },
+    "marital.life_estate_power": {
+      "value": "a life estate qualifies where the spouse is entitled for life to all the income, payable at least annually, with a power in the spouse alone to appoint the entire interest to the spouse or the spouse's estate, and no power in anyone else to appoint any part of it to anyone else (IRC § 2056(b)(5))",
+      "taxYear": 2026,
+      "source": "IRC § 2056(b)(5), read at law.cornell.edu/uscode/text/26/2056",
+      "verified": "2026-08-20"
+    },
+    "marital.qtip": {
+      "value": "qualified terminable interest property is treated as passing to the spouse — property passing from the decedent in which the spouse has a qualifying income interest for life and to which the executor's election applies, the spouse being entitled to all the income payable at least annually (IRC § 2056(b)(7))",
+      "taxYear": 2026,
+      "source": "IRC § 2056(b)(7), read at law.cornell.edu/uscode/text/26/2056",
+      "verified": "2026-08-20"
+    },
+    "marital.qdot": {
+      "value": "a trust requiring at least one United States citizen or domestic corporation trustee, providing that no non-income distribution may be made unless that trustee can withhold the tax on it, meeting the Secretary's collection requirements, and covered by the executor's election (IRC § 2056A(a))",
+      "taxYear": 2026,
+      "source": "IRC § 2056A(a), read at law.cornell.edu/uscode/text/26/2056A",
+      "verified": "2026-08-20"
+    },
+    "marital.gift_deduction": {
+      "value": "an unlimited deduction in computing taxable gifts for the value of an interest transferred by gift to a donee who is the donor's spouse at the time of the gift, subject to a terminable interest rule of its own (IRC § 2523(a), (b))",
+      "taxYear": 2026,
+      "source": "IRC § 2523, read at law.cornell.edu/uscode/text/26/2523",
+      "verified": "2026-08-20"
+    },
+    "portability.dsue_definition": {
+      "value": "the lesser of the basic exclusion amount, or the applicable exclusion amount of the last deceased spouse reduced by the amount on which the tentative tax was determined under IRC § 2001(b)(1) on that spouse's estate (IRC § 2010(c)(4))",
+      "taxYear": 2026,
+      "source": "IRC § 2010(c)(4), read at law.cornell.edu/uscode/text/26/2010",
+      "verified": "2026-08-20"
+    },
+    "portability.election": {
+      "value": "made by the executor of the estate of the deceased spouse, on an estate tax return for that estate on which the amount is computed, filed within the time prescribed including extensions — and once made it is irrevocable (IRC § 2010(c)(5)(A))",
+      "taxYear": 2026,
+      "source": "IRC § 2010(c)(5)(A), read at law.cornell.edu/uscode/text/26/2010",
+      "verified": "2026-08-20"
+    },
+    "portability.last_spouse_rule": {
+      "value": "only the last deceased spouse's unused exclusion is available — a survivor who remarries and outlives a second spouse loses any unused amount from the first, and amounts from successive spouses are not stacked (IRC § 2010(c)(4)(B)(i))",
+      "taxYear": 2026,
+      "source": "IRC § 2010(c)(4), read at law.cornell.edu/uscode/text/26/2010",
+      "verified": "2026-08-20"
+    },
+    "portability.reopened_examination": {
+      "value": "notwithstanding IRC § 6501, the Secretary may examine the deceased spouse's return to determine the unused exclusion amount after the ordinary assessment period for that estate has closed (IRC § 2010(c)(5)(B))",
+      "taxYear": 2026,
+      "source": "IRC § 2010(c)(5)(B), read at law.cornell.edu/uscode/text/26/2010",
+      "verified": "2026-08-20"
     }
   }
 }
