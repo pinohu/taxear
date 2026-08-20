@@ -7087,6 +7087,60 @@
       "taxYear": 2026,
       "source": "IRC § 6012(a)(3), read at law.cornell.edu/uscode/text/26/6012",
       "verified": "2026-08-20"
+    },
+    "giftsplit.general_rule": {
+      "value": "a gift by one spouse to anyone other than the other spouse is treated as made one-half by each, but only where both spouses were citizens or residents at the time of the gift (IRC § 2513(a)(1))",
+      "taxYear": 2026,
+      "source": "IRC § 2513(a), read at law.cornell.edu/uscode/text/26/2513",
+      "verified": "2026-08-20"
+    },
+    "giftsplit.all_or_nothing": {
+      "value": "consent applies to all gifts made by either spouse to third parties during the calendar year — it cannot be given for one gift and withheld for another (IRC § 2513(a)(2))",
+      "taxYear": 2026,
+      "source": "IRC § 2513(a)(2), read at law.cornell.edu/uscode/text/26/2513",
+      "verified": "2026-08-20"
+    },
+    "giftsplit.marital_status": {
+      "value": "the spouses must be married at the time of the gift, and the donor's spouse must not remarry during the remainder of the calendar year (IRC § 2513(a)(1))",
+      "taxYear": 2026,
+      "source": "IRC § 2513(a)(1), read at law.cornell.edu/uscode/text/26/2513",
+      "verified": "2026-08-20"
+    },
+    "giftsplit.general_power_exception": {
+      "value": "splitting is unavailable for a gift of an interest in property in which the donor creates a general power of appointment, within IRC § 2514(c), in the consenting spouse (IRC § 2513(a)(1))",
+      "taxYear": 2026,
+      "source": "IRC § 2513(a)(1), read at law.cornell.edu/uscode/text/26/2513",
+      "verified": "2026-08-20"
+    },
+    "giftsplit.consent_deadline": {
+      "value": "consent may be signified any time after the close of the calendar year but not after 15 April following it — unless neither spouse has filed for that year by then, in which case not after either spouse files — and never after a notice of deficiency for that year has been sent to either spouse (IRC § 2513(b)(2))",
+      "taxYear": 2026,
+      "source": "IRC § 2513(b)(2), read at law.cornell.edu/uscode/text/26/2513",
+      "verified": "2026-08-20"
+    },
+    "giftsplit.revocation": {
+      "value": "a consent signified on or before 15 April may be revoked up to that date and no later; a consent signified after 15 April may not be revoked at all (IRC § 2513(c))",
+      "taxYear": 2026,
+      "source": "IRC § 2513(c), read at law.cornell.edu/uscode/text/26/2513",
+      "verified": "2026-08-20"
+    },
+    "giftsplit.joint_liability": {
+      "value": "consenting makes each spouse jointly and severally liable for the entire gift tax of both for that calendar year (IRC § 2513(d))",
+      "taxYear": 2026,
+      "source": "IRC § 2513(d), read at law.cornell.edu/uscode/text/26/2513",
+      "verified": "2026-08-20"
+    },
+    "giftsplit.return_requirement": {
+      "value": "a return is required of any individual making a transfer by gift other than one excluded by IRC § 2503(b) or (e), one deductible under § 2523, or a qualifying entire-interest charitable transfer under § 2522 — so a split gift that exceeds one annual exclusion but not two still requires a return from the donor (IRC § 6019)",
+      "taxYear": 2026,
+      "source": "IRC § 6019, read at law.cornell.edu/uscode/text/26/6019",
+      "verified": "2026-08-20"
+    },
+    "gift.statutory_face_amount": {
+      "value": "$10,000 — the figure IRC § 2503(b)(1) still prints on its face, which has not been the operative annual exclusion since 1998; § 2503(b)(2) does the indexing and the section itself never states the current amount",
+      "taxYear": 2026,
+      "source": "IRC § 2503(b), read at law.cornell.edu/uscode/text/26/2503",
+      "verified": "2026-08-20"
     }
   }
 }

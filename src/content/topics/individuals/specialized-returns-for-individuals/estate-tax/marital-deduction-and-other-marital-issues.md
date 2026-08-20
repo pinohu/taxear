@@ -17,7 +17,7 @@ authorities:
   - { type: IRC, ref: "§ 2001", title: "Imposition and rate of tax", url: "https://www.law.cornell.edu/uscode/text/26/2001" }
   - { type: IRC, ref: "§ 6018", title: "Estate tax returns", url: "https://www.law.cornell.edu/uscode/text/26/6018" }
 forms: []
-related: ["1.6.1.a", "1.6.1.b", "1.6.1.d", "1.6.1.e", "1.5.1.d"]
+related: ["1.6.1.a", "1.6.1.b", "1.6.1.d", "1.6.1.e", "1.5.1.d", "1.6.2.a"]
 changelog:
   - { date: "2026-08-20", summary: "Initial draft. Sets out the unlimited marital deduction in IRC § 2056(a) and the terminable interest limitation in § 2056(b)(1) with its exceptions for a life estate with power of appointment under § 2056(b)(5) and qualified terminable interest property under § 2056(b)(7), the denial for a non-citizen spouse under § 2056(d) and the qualified domestic trust in § 2056A(a), the gift tax counterpart in § 2523, and the portability election in § 2010(c)(4) and (5) including the last-deceased-spouse rule and the reopened examination power." }
 ---
