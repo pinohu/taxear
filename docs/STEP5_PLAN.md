@@ -429,3 +429,62 @@ inflation index from CPI to PCE, added forced sale value and reduced forced sale
 incorporated the International Collection Financial Standards.
 
 **IRM 5.14.1 lives at a URL with a trailing `r`** — `irm_05-014-001r`. The unsuffixed URL 404s.
+
+## Domain 1.3 complete — Deductions and Credits, 16 of 16 (19 August 2026)
+
+Section 1.3.1 finished with 1.3.1.h (qualified business income deduction) and section 1.3.2 with all
+eight credit topics. Part 1 now stands at 69 of 120.
+
+### The 2026 credit landscape is not the 2025 one
+
+Every topic in section 1.3.2 except the earned income credit and the foreign tax credit was changed by
+Pub. L. 119-21 or by an expiry that fell at the end of 2025. Written out, because no single source
+collects them:
+
+| Code | What changed for 2026 | Authority |
+|---|---|---|
+| 1.3.2.a | Applicable percentage rewritten — starts at 50 percent, two breakpoints, middle floor of 35 | § 70405, IRC § 21(a)(2) |
+| 1.3.2.a | § 129 exclusion raised to $7,500 / $3,750 | § 70404, IRC § 129(a)(2)(A) |
+| 1.3.2.b | § 24(h) overlay made permanent, credit to $2,200, taxpayer SSN now required | § 70104, IRC § 24(h) |
+| 1.3.2.c | Education credits now need a social security number, not a TIN | § 70606, IRC § 25A(g)(1) |
+| 1.3.2.f | Adoption credit partly refundable, from taxable years beginning after 2024 | § 70402, IRC § 23(a)(4) |
+| 1.3.2.f | Tribal determinations establish special needs | § 70403, IRC § 23(d)(3) |
+| 1.3.2.g | Excess advance premium tax credit recaptured in full — cap repealed | § 71305, IRC § 36B(f)(2)(B) |
+| 1.3.2.g | 400 percent cliff returns; temporary percentage table lapses | IRC §§ 36B(c)(1)(E), (b)(3)(A)(iii) |
+| 1.3.2.h | §§ 25C and 25D end for 2026; §§ 30D and 25E ended 30 September 2025 | §§ 70502, 70505, 70506 |
+
+**Effective dates do not line up and must be read one at a time.** Within § 36B alone the OBBBA's five
+amendments carry four different effective dates, two of which are not live until 2027 and 2028. The
+adoption credit changes reached back to taxable year 2024. The child tax credit changes reached back to
+2025.
+
+### Figures come from three documents, not one
+
+- **Rev. Proc. 2025-32** — the general annual inflation adjustments (§§ 23, 24, 32, 137, 6695 and the
+  rest).
+- **Rev. Proc. 2025-25** — the § 36B applicable percentage table and required contribution percentage,
+  published separately and on a plan-year basis.
+- **Notice 2025-67** — everything retirement-related, including the § 25B saver's credit income limits.
+
+A figure absent from Rev. Proc. 2025-32 is not necessarily missing. Three sections have no 2026 figure
+anywhere because they are not indexed at all: § 21(c) (dependent care expense caps, unchanged since
+2003), § 25A (indexing repealed by Pub. L. 116-260 § 104(a)(2)), and § 22 (amounts frozen since 1983).
+
+### Bank coverage across section 1.3.2 — worse than Part 3
+
+Thirty-one questions across the eight codes, and **eleven of them cannot be answered correctly for
+2026**. The failures are concentrated: all five child tax credit questions are written against the 2021
+American Rescue Plan rules, both health coverage tax credit questions test a credit that expired in
+2021, and the adoption computation question dates itself to 2021 in its own rationale. The foreign tax
+credit has no questions at all.
+
+Two questions — P1E1Q062 and P1E2Q163, both on the premium tax credit — are **correct for 2026 and were
+wrong for 2021 through 2025**, because the temporary rule they ignore has now lapsed. That is the second
+occurrence of this shape after P1E2Q142 (mortgage insurance premiums). The working rule: agreement with
+the bank is never evidence that a page is current.
+
+### Next
+
+Part 1 remaining: 1.4.1 (12 topics, taxation — AMT, household employees, net investment income tax),
+1.5.1 (15, advising the individual taxpayer), 1.6.1 (5), 1.6.2 (5), 1.6.3 (6). Then Part 2, which is
+119 topics and entirely unwritten.
