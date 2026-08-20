@@ -9,10 +9,10 @@ is indexed, and only the owner moves a page there (see `docs/VERIFICATION.md`).
 
 | Part | Topics | Stub | Draft | Review | Published | Words |
 |---|---:|---:|---:|---:|---:|---:|
-| 1. Individuals | 120 | 29 | 0 | 81 | 10 | 199,225 |
+| 1. Individuals | 120 | 28 | 0 | 82 | 10 | 200,989 |
 | 2. Businesses | 119 | 119 | 0 | 0 | 0 | 0 |
 | 3. Representation, Practices and Procedures | 121 | 0 | 0 | 0 | 121 | 257,674 |
-| **All parts** | **360** | **148** | **0** | **81** | **131** | **456,899** |
+| **All parts** | **360** | **147** | **0** | **82** | **131** | **458,663** |
 
 ## Part 1 — Individuals
 
@@ -159,7 +159,7 @@ is indexed, and only the owner moves a page there (see `docs/VERIFICATION.md`).
 
 | Code | Title | Status | Words | Last reviewed |
 |---|---|---|---:|---|
-| 1.5.1.a | [Reporting obligations for individuals (1099, bartering, cash)](/individuals/advising-the-individual-taxpayer/advising-the-individual-taxpayer/reporting-obligations-for-individuals-1099-bartering-cash/) | stub | — | — |
+| 1.5.1.a | [Reporting obligations for individuals (1099, bartering, cash)](/individuals/advising-the-individual-taxpayer/advising-the-individual-taxpayer/reporting-obligations-for-individuals-1099-bartering-cash/) | review | 1,764 | 2026-08-19 |
 | 1.5.1.b | [Property sales (e.g., homes, stock, businesses, antiques, collectibles)](/individuals/advising-the-individual-taxpayer/advising-the-individual-taxpayer/property-sales/) | stub | — | — |
 | 1.5.1.c | [Education planning (e.g., lifetime learning credit, IRC Section 529 plans)](/individuals/advising-the-individual-taxpayer/advising-the-individual-taxpayer/education-planning/) | stub | — | — |
 | 1.5.1.d | [Estate planning (e.g., gift versus inheritance, trusts, family partnerships, charitable giving, LTC, life insurance)](/individuals/advising-the-individual-taxpayer/advising-the-individual-taxpayer/estate-planning/) | stub | — | — |

@@ -15,7 +15,7 @@ authorities:
   - { type: IRC, ref: "§ 6502", title: "Collection after assessment", url: "https://www.law.cornell.edu/uscode/text/26/6502" }
   - { type: IRC, ref: "§ 6511", title: "Limitations on credit or refund", url: "https://www.law.cornell.edu/uscode/text/26/6511" }
 forms: []
-related: ["1.5.1.h", "1.5.1.m", "1.5.1.n", "1.1.1.e"]
+related: ["1.5.1.h", "1.5.1.m", "1.5.1.n", "1.1.1.e", "1.5.1.a"]
 changelog:
   - { date: "2026-08-19", summary: "Initial draft. Sets out the IRC § 6013(d)(3) joint and several liability the section relieves, the three routes in § 6015(b), (c) and (f) with their separate conditions and deadlines, the § 6015(e) Tax Court jurisdiction, and the § 6015(g)(3) bar on any refund from a § 6015(c) election." }
 ---

@@ -6187,6 +6187,60 @@
       "taxYear": 2026,
       "source": "IRC § 6015, read at law.cornell.edu/uscode/text/26/6015",
       "verified": "2026-08-19"
+    },
+    "reporting.6041_threshold": {
+      "value": "$2,000 for payments made after 31 December 2025, raised from $600 by Pub. L. 119-21 § 70433(a) and indexed from calendar year 2026 under the new IRC § 6041(h), with the increase rounded to the nearest $100",
+      "taxYear": 2026,
+      "source": "IRC § 6041(a), (h) as amended by Pub. L. 119-21 § 70433, read at law.cornell.edu/uscode/text/26/6041",
+      "verified": "2026-08-19"
+    },
+    "reporting.1099k_threshold": {
+      "value": "more than $20,000 **and** more than 200 transactions — both must be exceeded. Pub. L. 119-21 § 70432(a)(1) restored the conjunctive test to IRC § 6050W(e), and § 70432(a)(2) made it effective as if included in the American Rescue Plan provision that had reduced it, so the $600 threshold never operated",
+      "taxYear": 2026,
+      "source": "IRC § 6050W(e) as amended by Pub. L. 119-21 § 70432, read at law.cornell.edu/uscode/text/26/6050W",
+      "verified": "2026-08-19"
+    },
+    "reporting.cash_8300": {
+      "value": "more than $10,000 in cash received in one transaction or two or more related transactions by a person engaged in a trade or business — reported on Form 8300 (IRC § 6050I(a))",
+      "taxYear": 2026,
+      "source": "IRC § 6050I, read at law.cornell.edu/uscode/text/26/6050I",
+      "verified": "2026-08-19"
+    },
+    "reporting.barter": {
+      "value": "a barter exchange is an organization of members providing property or services who jointly contract to trade or barter, and it is a broker required to report its members' exchanges (IRC § 6045(c)(1)(B), (c)(3))",
+      "taxYear": 2026,
+      "source": "IRC § 6045(c), read at law.cornell.edu/uscode/text/26/6045",
+      "verified": "2026-08-19"
+    },
+    "reporting.barter_income": {
+      "value": "the fair market value of property or services received in barter is gross income under IRC § 61(a) whether or not any information return is filed — reporting and taxability are independent questions",
+      "taxYear": 2026,
+      "source": "IRC § 61(a), read at law.cornell.edu/uscode/text/26/61",
+      "verified": "2026-08-19"
+    },
+    "reporting.6721_penalty": {
+      "value": "for a return required to be filed in 2027, $340 per return with a calendar year maximum of $4,191,500, reduced to $60 and $698,500 if corrected within 30 days and $130 and $2,095,500 if corrected by 1 August — with lower maxima for a filer whose average annual gross receipts for the three most recent taxable years are $5,000,000 or less",
+      "taxYear": 2026,
+      "source": "Rev. Proc. 2025-32 § 3.57, read at irs.gov/pub/irs-drop/rp-25-32.pdf",
+      "verified": "2026-08-19"
+    },
+    "reporting.6721_intentional": {
+      "value": "for intentional disregard, the greater of $690 or 10 percent of the aggregate amount required to be reported correctly, with no calendar year limit (IRC § 6721(e)(2)(A), as adjusted for returns required to be filed in 2027)",
+      "taxYear": 2026,
+      "source": "Rev. Proc. 2025-32 § 3.57(3), read at irs.gov/pub/irs-drop/rp-25-32.pdf",
+      "verified": "2026-08-19"
+    },
+    "reporting.6041_history": {
+      "value": "the $600 figure in IRC § 6041(a) stood unchanged from 1954 until Pub. L. 119-21 § 70433 raised it to $2,000 for payments made after 31 December 2025 — the first time the threshold has ever been indexed",
+      "taxYear": 2026,
+      "source": "IRC § 6041 amendment notes, read at law.cornell.edu/uscode/text/26/6041",
+      "verified": "2026-08-19"
+    },
+    "reporting.1099k_history": {
+      "value": "the reduced threshold enacted by the American Rescue Plan was a single dollar figure of $600 with no transaction count; Pub. L. 119-21 § 70432(a)(2) made its repeal effective as if included in that Act, so it never operated as law for any year",
+      "taxYear": 2026,
+      "source": "IRC § 6050W(e) amendment and effective date notes, read at law.cornell.edu/uscode/text/26/6050W",
+      "verified": "2026-08-19"
     }
   }
 }
