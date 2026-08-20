@@ -22,7 +22,7 @@ authorities:
   - { type: Reg, ref: "§ 1.1001-2", title: "Discharge of liabilities", url: "https://www.law.cornell.edu/cfr/text/26/1.1001-2" }
   - { type: Form, ref: "1099-A", title: "Instructions for Forms 1099-A and 1099-C", url: "https://www.irs.gov/pub/irs-pdf/i1099ac.pdf" }
 forms: []
-related: ["1.2.3.b", "1.2.3.c", "1.2.1.f", "1.2.3.f", "1.2.3.i", "1.2.3.d", "1.2.3.e", "1.2.3.g", "1.2.3.h", "1.2.3.j"]
+related: ["1.2.3.b", "1.2.3.c", "1.2.1.f", "1.2.3.f", "1.2.3.i", "1.2.3.d", "1.2.3.e", "1.2.3.g", "1.2.3.h", "1.2.3.j", "1.2.3.k"]
 changelog:
   - { date: "2026-08-19", summary: "Initial draft. Sets out the IRC § 1001 computation and the Treas. Reg. § 1.1001-2 treatment of discharged liabilities, the IRC § 1245 recapture formula and its recomputed basis, the IRC § 1250 formula and why § 168(b)(3) leaves it at nothing for modern real property, the 25 percent ceiling on unrecaptured section 1250 gain under § 1(h)(1)(E), the § 1231 netting and five-year lookback, and the § 6050J reporting on Form 1099-A." }
 ---

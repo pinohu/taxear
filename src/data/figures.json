@@ -4448,6 +4448,60 @@
       "source": "IRC § 6053(a); IRC § 3121(a)(12)(B) — https://www.law.cornell.edu/uscode/text/26/6053",
       "verified": "2026-08-19"
     },
+    "trader.dealer_distinction": {
+      "value": "a dealer's gain is not capital unless the security was clearly identified in the records as held for investment before the close of the day of acquisition and was not thereafter held primarily for sale to customers",
+      "taxYear": 2026,
+      "source": "IRC § 1236(a)(1), (2), (b) — https://www.law.cornell.edu/uscode/text/26/1236",
+      "verified": "2026-08-19"
+    },
+    "trader.election_mechanics": {
+      "value": "made separately for each trade or business and without the Secretary's consent, applying to the year for which made and every subsequent year unless revoked with consent",
+      "taxYear": 2026,
+      "source": "IRC § 475(f)(3) — https://www.law.cornell.edu/uscode/text/26/475",
+      "verified": "2026-08-19"
+    },
+    "trader.investment_identification": {
+      "value": "a security is outside the election only if it is established to have no connection to the trader's activities **and** is clearly identified as such in the records before the close of the day it was acquired",
+      "taxYear": 2026,
+      "source": "IRC § 475(f)(1)(B)(i), (ii) — https://www.law.cornell.edu/uscode/text/26/475",
+      "verified": "2026-08-19"
+    },
+    "trader.investment_interest": {
+      "value": "still allowed, but limited to net investment income for the year, with the disallowed amount treated as investment interest paid in the succeeding year",
+      "taxYear": 2026,
+      "source": "IRC § 163(d)(1), (2) — https://www.law.cornell.edu/uscode/text/26/163",
+      "verified": "2026-08-19"
+    },
+    "trader.investor_expenses": {
+      "value": "not deductible — IRC § 67(h) allows no miscellaneous itemized deduction for any taxable year beginning after 31 December 2017, and Pub. L. 119-21 § 70110 removed the sunset, so an investor's IRC § 212 expenses are permanently disallowed",
+      "taxYear": 2026,
+      "source": "IRC § 67(h), as amended by Pub. L. 119-21 § 70110(a), (b) — https://www.law.cornell.edu/uscode/text/26/67",
+      "verified": "2026-08-19"
+    },
+    "trader.mark_to_market_election": {
+      "value": "a trader in securities or commodities may elect to recognise gain or loss on securities held in that business as if sold at fair market value on the last business day of the year, with the gain or loss taken into account for that year",
+      "taxYear": 2026,
+      "source": "IRC § 475(f)(1)(A)(i), (ii); § 475(f)(2) — https://www.law.cornell.edu/uscode/text/26/475",
+      "verified": "2026-08-19"
+    },
+    "trader.mtm_character": {
+      "value": "ordinary income or loss — so a marked position escapes the capital loss limitation entirely, and the wash sale rule has nothing to bite on",
+      "taxYear": 2026,
+      "source": "IRC § 475(d)(3)(A)(i), applied by § 475(f)(1)(D) — https://www.law.cornell.edu/uscode/text/26/475",
+      "verified": "2026-08-19"
+    },
+    "trader.no_statutory_test": {
+      "value": "none — neither IRC § 162 nor § 212 defines a trader, so whether an activity is a trade or business is decided on the facts, and the outcome controls almost everything else on this topic",
+      "taxYear": 2026,
+      "source": "IRC § 162(a); § 212(1), (2) — https://www.law.cornell.edu/uscode/text/26/212",
+      "verified": "2026-08-19"
+    },
+    "trader.self_employment": {
+      "value": "the ordinary-character rule is switched off for IRC §§ 1402 and 7704 purposes, so electing does not convert trading gains into self-employment income",
+      "taxYear": 2026,
+      "source": "IRC § 475(f)(1)(D), second sentence — https://www.law.cornell.edu/uscode/text/26/475",
+      "verified": "2026-08-19"
+    },
     "transcript.account_years": {
       "value": "the current and nine prior tax years through Individual Online Account, but only the current and three prior years by mail or telephone; older years need Form 4506-T",
       "taxYear": 2026,

@@ -9,10 +9,10 @@ is indexed, and only the owner moves a page there (see `docs/VERIFICATION.md`).
 
 | Part | Topics | Stub | Draft | Review | Published | Words |
 |---|---:|---:|---:|---:|---:|---:|
-| 1. Individuals | 120 | 65 | 0 | 45 | 10 | 125,584 |
+| 1. Individuals | 120 | 64 | 0 | 46 | 10 | 127,557 |
 | 2. Businesses | 119 | 119 | 0 | 0 | 0 | 0 |
 | 3. Representation, Practices and Procedures | 121 | 0 | 0 | 0 | 121 | 257,674 |
-| **All parts** | **360** | **184** | **0** | **45** | **131** | **383,258** |
+| **All parts** | **360** | **183** | **0** | **46** | **131** | **385,231** |
 
 ## Part 1 — Individuals
 
@@ -94,7 +94,7 @@ is indexed, and only the owner moves a page there (see `docs/VERIFICATION.md`).
 | 1.2.3.h | [Options (e.g., stock, commodity, ISO, ESPP)](/individuals/income-and-assets/property-real-and-personal/options/) | review | 2,276 | 2026-08-19 |
 | 1.2.3.i | [Like-kind exchange](/individuals/income-and-assets/property-real-and-personal/like-kind-exchange/) | review | 2,027 | 2026-08-19 |
 | 1.2.3.j | [Non-business bad debts](/individuals/income-and-assets/property-real-and-personal/non-business-bad-debts/) | review | 1,939 | 2026-08-19 |
-| 1.2.3.k | [Investor versus trader](/individuals/income-and-assets/property-real-and-personal/investor-versus-trader/) | stub | — | — |
+| 1.2.3.k | [Investor versus trader](/individuals/income-and-assets/property-real-and-personal/investor-versus-trader/) | review | 1,973 | 2026-08-19 |
 
 **1.2.4 Adjustments to Income**
 

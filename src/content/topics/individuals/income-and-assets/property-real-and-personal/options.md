@@ -17,7 +17,7 @@ authorities:
   - { type: IRC, ref: "§ 1234", title: "Options to buy or sell", url: "https://www.law.cornell.edu/uscode/text/26/1234" }
   - { type: IRC, ref: "§ 6039", title: "Returns required in connection with certain options", url: "https://www.law.cornell.edu/uscode/text/26/6039" }
 forms: []
-related: ["1.2.3.b", "1.2.3.c", "1.2.1.a", "1.2.3.d", "1.2.3.a"]
+related: ["1.2.3.b", "1.2.3.c", "1.2.1.a", "1.2.3.d", "1.2.3.a", "1.2.3.k"]
 changelog:
   - { date: "2026-08-19", summary: "Initial draft. Sets out the IRC § 421(a) effect of a qualifying transfer and the § 421(b) treatment of a disqualifying disposition, the § 422 conditions for an incentive stock option with its $100,000 annual limit, the § 56(b)(3) alternative minimum tax adjustment that arises at exercise, the § 423 employee stock purchase plan requirements and the § 423(c) discount compensation rule, the § 1234 character rules for purchasers and grantors, and the § 6039 reporting." }
 ---
