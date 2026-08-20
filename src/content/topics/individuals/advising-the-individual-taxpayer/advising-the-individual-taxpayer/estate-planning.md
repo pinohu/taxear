@@ -19,7 +19,7 @@ authorities:
   - { type: RevProc, ref: "Rev. Proc. 2025-32, §§ 2.14, 4.42", title: "2026 exclusion, GST exemption and annual exclusion amounts", url: "https://www.irs.gov/pub/irs-drop/rp-25-32.pdf" }
   - { type: Statute, ref: "Pub. L. 119-21, § 70106", title: "Increase in the basic exclusion amount", url: "https://www.law.cornell.edu/uscode/text/26/2010" }
 forms: []
-related: ["1.5.1.c", "1.4.1.h", "1.2.3.c", "1.5.1.b", "1.5.1.e", "1.5.1.f"]
+related: ["1.5.1.c", "1.4.1.h", "1.2.3.c", "1.5.1.b", "1.5.1.e", "1.5.1.f", "1.6.1.a"]
 changelog:
   - { date: "2026-08-19", summary: "Initial draft. Sets out the IRC § 2010(c)(3) basic exclusion amount as raised by Pub. L. 119-21 § 70106 and re-indexed from 2026, the matching § 2631(c) generation-skipping exemption, the § 2503(b) annual exclusion, the § 2010(c)(4) portability election, the § 1014 versus § 1015 basis contrast, and the § 101(a) and § 2042 treatment of life insurance." }
 ---

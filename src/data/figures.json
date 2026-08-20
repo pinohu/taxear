@@ -6793,6 +6793,84 @@
       "taxYear": 2026,
       "source": "IRC § 6663, read at law.cornell.edu/uscode/text/26/6663",
       "verified": "2026-08-20"
+    },
+    "estate.gross_estate_definition": {
+      "value": "the value at the time of death of all property, real or personal, tangible or intangible, wherever situated, to the extent of the decedent's interest in it (IRC §§ 2031(a), 2033)",
+      "taxYear": 2026,
+      "source": "IRC §§ 2031 and 2033, read at law.cornell.edu/uscode/text/26/2031 and /2033",
+      "verified": "2026-08-20"
+    },
+    "estate.taxable_estate_definition": {
+      "value": "the gross estate less the deductions allowed by part IV — funeral and administration expenses, claims against the estate and unpaid mortgages under IRC § 2053, losses under § 2054, charitable transfers under § 2055 and the marital deduction under § 2056 (IRC §§ 2051, 2053(a))",
+      "taxYear": 2026,
+      "source": "IRC §§ 2051 and 2053, read at law.cornell.edu/uscode/text/26/2051 and /2053",
+      "verified": "2026-08-20"
+    },
+    "estate.tax_computation": {
+      "value": "a tentative tax on the sum of the taxable estate and adjusted taxable gifts, reduced by the gift tax that would have been payable on post-1976 gifts under current rates — so lifetime gifts enlarge the base rather than reducing the exclusion arithmetic (IRC § 2001(b))",
+      "taxYear": 2026,
+      "source": "IRC § 2001(b), read at law.cornell.edu/uscode/text/26/2001",
+      "verified": "2026-08-20"
+    },
+    "estate.top_rate": {
+      "value": "40 percent of the excess over $1,000,000, on top of $345,800 — the top bracket of the IRC § 2001(c) unified rate schedule, which every estate large enough to owe tax is entirely inside",
+      "taxYear": 2026,
+      "source": "IRC § 2001(c), read at law.cornell.edu/uscode/text/26/2001",
+      "verified": "2026-08-20"
+    },
+    "estate.applicable_credit": {
+      "value": "the tentative tax that IRC § 2001(c) would produce on the applicable exclusion amount — a credit against tax, not a deduction from the estate, and the reason the exclusion is worth exactly the tax on it and no more (IRC § 2010(c)(1))",
+      "taxYear": 2026,
+      "source": "IRC § 2010(c), read at law.cornell.edu/uscode/text/26/2010",
+      "verified": "2026-08-20"
+    },
+    "estate.applicable_exclusion": {
+      "value": "the basic exclusion amount plus, for a surviving spouse, the deceased spousal unused exclusion amount (IRC § 2010(c)(2))",
+      "taxYear": 2026,
+      "source": "IRC § 2010(c)(2), read at law.cornell.edu/uscode/text/26/2010",
+      "verified": "2026-08-20"
+    },
+    "estate.alternate_valuation": {
+      "value": "an irrevocable election to value everything six months after death, or at the date of disposition for property disposed of within those six months — available only if it decreases both the gross estate and the sum of the estate and generation-skipping taxes after credits (IRC § 2032(a), (c), (d))",
+      "taxYear": 2026,
+      "source": "IRC § 2032, read at law.cornell.edu/uscode/text/26/2032",
+      "verified": "2026-08-20"
+    },
+    "estate.three_year_rule": {
+      "value": "property transferred, or a power relinquished, within the 3-year period ending at death is pulled back into the gross estate where it would have been included under IRC § 2036, 2037, 2038 or 2042 had the interest or power been retained (IRC § 2035(a))",
+      "taxYear": 2026,
+      "source": "IRC § 2035, read at law.cornell.edu/uscode/text/26/2035",
+      "verified": "2026-08-20"
+    },
+    "estate.insurance_inclusion": {
+      "value": "insurance on the decedent's life is in the gross estate to the extent receivable by the executor, and to the extent receivable by anyone else where the decedent possessed any incident of ownership at death, exercisable alone or with another (IRC § 2042)",
+      "taxYear": 2026,
+      "source": "IRC § 2042, read at law.cornell.edu/uscode/text/26/2042",
+      "verified": "2026-08-20"
+    },
+    "estate.return_threshold": {
+      "value": "a return is required where the gross estate of a citizen or resident exceeds the basic exclusion amount in effect for the calendar year of death — $60,000 of United States situs property for a nonresident who is not a citizen (IRC § 6018(a))",
+      "taxYear": 2026,
+      "source": "IRC § 6018(a), read at law.cornell.edu/uscode/text/26/6018",
+      "verified": "2026-08-20"
+    },
+    "estate.return_due_date": {
+      "value": "9 months after the date of death (IRC § 6075(a))",
+      "taxYear": 2026,
+      "source": "IRC § 6075(a), read at law.cornell.edu/uscode/text/26/6075",
+      "verified": "2026-08-20"
+    },
+    "estate.closely_held_deferral": {
+      "value": "where an interest in a closely held business exceeds 35 percent of the adjusted gross estate, the executor may elect to pay the attributable share of the tax in up to 10 equal installments (IRC § 6166(a))",
+      "taxYear": 2026,
+      "source": "IRC § 6166(a), read at law.cornell.edu/uscode/text/26/6166",
+      "verified": "2026-08-20"
+    },
+    "estate.superseded_exclusion": {
+      "value": "$5,000,000 indexed, doubled to $10,000,000 indexed for decedents dying after 2017 and before 2026 by a temporary subparagraph that was to lapse — Pub. L. 119-21 § 70106(a) substituted $15,000,000 for $5,000,000, struck the temporary subparagraph and re-based the indexing on calendar year 2025",
+      "taxYear": 2026,
+      "source": "IRC § 2010(c)(3) and its 2017 and 2025 amendment notes, read at law.cornell.edu/uscode/text/26/2010",
+      "verified": "2026-08-20"
     }
   }
 }

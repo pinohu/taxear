@@ -9,10 +9,10 @@ is indexed, and only the owner moves a page there (see `docs/VERIFICATION.md`).
 
 | Part | Topics | Stub | Draft | Review | Published | Words |
 |---|---:|---:|---:|---:|---:|---:|
-| 1. Individuals | 120 | 16 | 0 | 94 | 10 | 225,369 |
+| 1. Individuals | 120 | 15 | 0 | 95 | 10 | 227,490 |
 | 2. Businesses | 119 | 119 | 0 | 0 | 0 | 0 |
 | 3. Representation, Practices and Procedures | 121 | 0 | 0 | 0 | 121 | 257,674 |
-| **All parts** | **360** | **135** | **0** | **94** | **131** | **483,043** |
+| **All parts** | **360** | **134** | **0** | **95** | **131** | **485,164** |
 
 ## Part 1 — Individuals
 
@@ -181,7 +181,7 @@ is indexed, and only the owner moves a page there (see `docs/VERIFICATION.md`).
 
 | Code | Title | Status | Words | Last reviewed |
 |---|---|---|---:|---|
-| 1.6.1.a | [Gross estate, taxable estate (calculations and payments), unified credit, life insurance, and filing requirements](/individuals/specialized-returns-for-individuals/estate-tax/gross-estate-taxable-estate-calculations-and-payments/) | stub | — | — |
+| 1.6.1.a | [Gross estate, taxable estate (calculations and payments), unified credit, life insurance, and filing requirements](/individuals/specialized-returns-for-individuals/estate-tax/gross-estate-taxable-estate-calculations-and-payments/) | review | 2,121 | 2026-08-20 |
 | 1.6.1.b | [Jointly-held property](/individuals/specialized-returns-for-individuals/estate-tax/jointly-held-property/) | stub | — | — |
 | 1.6.1.c | [Marital deduction and other marital issues (e.g., portability election)](/individuals/specialized-returns-for-individuals/estate-tax/marital-deduction-and-other-marital-issues/) | stub | — | — |
 | 1.6.1.d | [Life insurance, IRAs and retirement plans](/individuals/specialized-returns-for-individuals/estate-tax/life-insurance-iras-and-retirement-plans/) | stub | — | — |
