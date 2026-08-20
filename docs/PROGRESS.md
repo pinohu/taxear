@@ -9,10 +9,10 @@ is indexed, and only the owner moves a page there (see `docs/VERIFICATION.md`).
 
 | Part | Topics | Stub | Draft | Review | Published | Words |
 |---|---:|---:|---:|---:|---:|---:|
-| 1. Individuals | 120 | 57 | 0 | 53 | 10 | 141,241 |
+| 1. Individuals | 120 | 56 | 0 | 54 | 10 | 143,201 |
 | 2. Businesses | 119 | 119 | 0 | 0 | 0 | 0 |
 | 3. Representation, Practices and Procedures | 121 | 0 | 0 | 0 | 121 | 257,674 |
-| **All parts** | **360** | **176** | **0** | **53** | **131** | **398,915** |
+| **All parts** | **360** | **175** | **0** | **54** | **131** | **400,875** |
 
 ## Part 1 — Individuals
 
@@ -114,7 +114,7 @@ is indexed, and only the owner moves a page there (see `docs/VERIFICATION.md`).
 |---|---|---|---:|---|
 | 1.3.1.a | [Medical, dental, vision, long-term care expenses](/individuals/deductions-and-credits/itemized-deductions-and-qbi/medical-dental-vision-long-term-care-expenses/) | review | 1,935 | 2026-08-19 |
 | 1.3.1.b | [Various taxes (e.g., state income, personal property, real estate)](/individuals/deductions-and-credits/itemized-deductions-and-qbi/various-taxes/) | review | 1,948 | 2026-08-19 |
-| 1.3.1.c | [Interest expense (e.g., mortgage interest, investment interest, tracing rules, points, indebtedness limitations)](/individuals/deductions-and-credits/itemized-deductions-and-qbi/interest-expense/) | stub | — | — |
+| 1.3.1.c | [Interest expense (e.g., mortgage interest, investment interest, tracing rules, points, indebtedness limitations)](/individuals/deductions-and-credits/itemized-deductions-and-qbi/interest-expense/) | review | 1,960 | 2026-08-19 |
 | 1.3.1.d | [Charitable contributions (e.g., cash, noncash, limitations, documentation required)](/individuals/deductions-and-credits/itemized-deductions-and-qbi/charitable-contributions/) | stub | — | — |
 | 1.3.1.e | [Nonbusiness casualty and theft losses in presidentially declared disaster areas](/individuals/deductions-and-credits/itemized-deductions-and-qbi/nonbusiness-casualty-and-theft-losses-in-presidentially/) | stub | — | — |
 | 1.3.1.f | [Other itemized deductions](/individuals/deductions-and-credits/itemized-deductions-and-qbi/other-itemized-deductions/) | stub | — | — |

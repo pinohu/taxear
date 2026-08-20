@@ -17,7 +17,7 @@ authorities:
   - { type: RevProc, ref: "2025-32", title: "Inflation adjusted items for 2026", url: "https://www.irs.gov/pub/irs-drop/rp-25-32.pdf" }
   - { type: Statute, ref: "Pub. L. 119-21, § 70113", title: "Moving expense deduction", url: "https://www.law.cornell.edu/uscode/text/26/217" }
 forms: []
-related: ["1.2.4.a", "1.2.4.e", "1.2.4.c", "1.2.4.b", "1.1.1.g"]
+related: ["1.2.4.a", "1.2.4.e", "1.2.4.c", "1.2.4.b", "1.1.1.g", "1.3.1.c"]
 changelog:
   - { date: "2026-08-19", summary: "Initial draft. Sets out the IRC § 221 student loan interest deduction with its per-return cap and 2026 phase-out, the repeal of § 215 by Pub. L. 115-97 § 11051(a), the § 217(k) suspension of moving expenses as amended by Pub. L. 119-21 § 70113 to add intelligence community personnel from 2026, and the § 62(a)(2) educator and reservist adjustments with the § 62(d)(1) definition of an eligible educator." }
 ---

@@ -2570,17 +2570,65 @@
       "source": "IRC § 6404(h)(1) — https://www.law.cornell.edu/uscode/text/26/6404",
       "verified": "2026-08-18"
     },
+    "interest.acquisition_cap": {
+      "value": "$750,000, or $375,000 for a married individual filing separately, substituted for the $1,000,000 and $500,000 figures in the statute — with debt incurred on or before 15 December 2017 kept on the higher limit and reducing the lower one",
+      "taxYear": 2026,
+      "source": "IRC § 163(h)(3)(F)(i)(II), (IV); § 163(h)(3)(B)(ii) — https://www.law.cornell.edu/uscode/text/26/163",
+      "verified": "2026-08-19"
+    },
+    "interest.acquisition_indebtedness": {
+      "value": "debt incurred in acquiring, constructing or substantially improving a qualified residence and secured by it, including a refinancing to the extent it does not exceed the refinanced amount",
+      "taxYear": 2026,
+      "source": "IRC § 163(h)(3)(B)(i) and its flush text — https://www.law.cornell.edu/uscode/text/26/163",
+      "verified": "2026-08-19"
+    },
     "interest.gatt_threshold": {
       "value": "$10,000 — the part of a corporate overpayment above it takes the federal short-term rate plus 0.5 percentage point",
       "taxYear": 2026,
       "source": "IRC § 6621(a)(1) — https://www.law.cornell.edu/uscode/text/26/6621",
       "verified": "2026-08-18"
     },
+    "interest.home_equity": {
+      "value": "no deduction — IRC § 163(h)(3)(A)(ii) is disapplied for taxable years beginning after 2017, and Pub. L. 119-21 § 70108(a)(1)(A) struck the end date, so the disallowance is now permanent",
+      "taxYear": 2026,
+      "source": "IRC § 163(h)(3)(F)(i)(I), as amended by Pub. L. 119-21 § 70108(a)(1)(A) — https://www.law.cornell.edu/uscode/text/26/163",
+      "verified": "2026-08-19"
+    },
+    "interest.investment_interest_definition": {
+      "value": "interest on debt properly allocable to property held for investment, excluding qualified residence interest and interest taken into account in computing income or loss from a passive activity",
+      "taxYear": 2026,
+      "source": "IRC § 163(d)(3)(A), (B)(i), (ii) — https://www.law.cornell.edu/uscode/text/26/163",
+      "verified": "2026-08-19"
+    },
+    "interest.mortgage_insurance": {
+      "value": "premiums for qualified mortgage insurance in connection with acquisition indebtedness are treated as qualified residence interest again — Pub. L. 119-21 § 70108(a)(1)(B) disapplies the § 163(h)(3)(E)(iv) termination that had ended the treatment after 2021",
+      "taxYear": 2026,
+      "source": "IRC § 163(h)(3)(F)(i)(III); § 163(h)(3)(E)(i), (iv) — https://www.law.cornell.edu/uscode/text/26/163",
+      "verified": "2026-08-19"
+    },
+    "interest.mortgage_insurance_phaseout": {
+      "value": "reduced by 10 percent for each $1,000, or $500 for a married individual filing separately, or fraction thereof by which adjusted gross income exceeds $100,000, or $50,000 filing separately",
+      "taxYear": 2026,
+      "source": "IRC § 163(h)(3)(E)(ii) — https://www.law.cornell.edu/uscode/text/26/163",
+      "verified": "2026-08-19"
+    },
     "interest.notice_demand_grace": {
       "value": "21 calendar days after notice and demand, or 10 business days where the amount equals or exceeds $100,000 — interest is not imposed for the period after the notice on an amount paid within it",
       "taxYear": 2026,
       "source": "IRC § 6601(e)(3) — https://www.law.cornell.edu/uscode/text/26/6601",
       "verified": "2026-08-18"
+    },
+    "interest.personal_disallowed": {
+      "value": "no deduction for personal interest — defined as any otherwise deductible interest other than trade or business interest, investment interest, passive activity interest, qualified residence interest, deferred estate tax interest, education loan interest and qualified passenger vehicle loan interest",
+      "taxYear": 2026,
+      "source": "IRC § 163(h)(1), (2)(A)–(F) — https://www.law.cornell.edu/uscode/text/26/163",
+      "verified": "2026-08-19"
+    },
+    "interest.qualified_residence": {
+      "value": "the taxpayer's principal residence within IRC § 121 and **one** other residence selected for the year and used as a residence within § 280A(d)(1) — a third home never qualifies",
+      "taxYear": 2026,
+      "source": "IRC § 163(h)(4)(A)(i)(I), (II) — https://www.law.cornell.edu/uscode/text/26/163",
+      "verified": "2026-08-19"
     },
     "interest.rate_formula": {
       "value": "the federal short-term rate plus 3 percentage points for underpayments and for non-corporate overpayments; plus 2 points for a corporate overpayment, reduced to 0.5 point on the part exceeding $10,000; plus 5 points for a large corporate underpayment",
@@ -2611,6 +2659,18 @@
       "taxYear": 2026,
       "source": "IRC § 6404(g)(1)(A)",
       "verified": "2026-08-18"
+    },
+    "interest.vehicle_loan": {
+      "value": "for taxable years beginning after 2024 and before 2029, interest on debt incurred after 31 December 2024 to purchase an applicable passenger vehicle for personal use, secured by a first lien on it, is not personal interest — the vehicle identification number must be on the return",
+      "taxYear": 2026,
+      "source": "IRC § 163(h)(4)(A), (B)(i), (B)(iii) — https://www.law.cornell.edu/uscode/text/26/163",
+      "verified": "2026-08-19"
+    },
+    "interest.vehicle_loan_limits": {
+      "value": "capped at $10,000 of interest, reduced by $200 for each $1,000 or fraction of modified adjusted gross income above $100,000, or $200,000 on a joint return — and excluding fleet, commercial, lease, salvage and scrap financing",
+      "taxYear": 2026,
+      "source": "IRC § 163(h)(4)(C)(i), (ii)(I); § 163(h)(4)(B)(ii)(I)–(V) — https://www.law.cornell.edu/uscode/text/26/163",
+      "verified": "2026-08-19"
     },
     "intl.6038_penalty": {
       "value": "$10,000 for each annual accounting period, plus a further $10,000 for each 30-day period beginning 90 days after the Service mails notice, capped at $50,000 of continuation penalty",
