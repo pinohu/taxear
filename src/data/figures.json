@@ -6577,6 +6577,54 @@
       "taxYear": 2026,
       "source": "IRC § 164, including the amendment note to § 164(b)(6)(B), read at law.cornell.edu/uscode/text/26/164",
       "verified": "2026-08-20"
+    },
+    "character.ordinary_income_defined": {
+      "value": "any gain from the sale or exchange of property that is neither a capital asset nor IRC § 1231(b) property, together with any gain another provision treats as ordinary income (IRC § 64)",
+      "taxYear": 2026,
+      "source": "IRC § 64, read at law.cornell.edu/uscode/text/26/64",
+      "verified": "2026-08-20"
+    },
+    "character.ordinary_loss_defined": {
+      "value": "any loss from the sale or exchange of property that is not a capital asset, together with any loss another provision treats as ordinary loss (IRC § 65)",
+      "taxYear": 2026,
+      "source": "IRC § 65, read at law.cornell.edu/uscode/text/26/65",
+      "verified": "2026-08-20"
+    },
+    "sec1231.trade_or_business_property": {
+      "value": "depreciable property used in the trade or business and held for more than 1 year, and real property used in the trade or business and held for more than 1 year — excluding inventory, property held primarily for sale to customers, self-created intangibles in the creator's hands and certain government publications (IRC § 1231(b)(1))",
+      "taxYear": 2026,
+      "source": "IRC § 1231, read at law.cornell.edu/uscode/text/26/1231",
+      "verified": "2026-08-20"
+    },
+    "sec1231.lookback": {
+      "value": "net section 1231 gain is ordinary income to the extent of non-recaptured net section 1231 losses — the net section 1231 losses of the 5 most recent preceding taxable years, reduced by any already recaptured (IRC § 1231(c))",
+      "taxYear": 2026,
+      "source": "IRC § 1231, read at law.cornell.edu/uscode/text/26/1231",
+      "verified": "2026-08-20"
+    },
+    "qsbs.exclusion_tiers": {
+      "value": "for stock acquired after 4 July 2025, 50 percent of the gain at 3 years held, 75 percent at 4 years and 100 percent at 5 years or more; stock acquired on or before that date keeps the older regime, which requires more than 5 years (IRC § 1202(a)(1), (5), (6))",
+      "taxYear": 2026,
+      "source": "IRC § 1202, including the note giving the enactment date of Pub. L. 119-21 as 4 July 2025, read at law.cornell.edu/uscode/text/26/1202",
+      "verified": "2026-08-20"
+    },
+    "qsbs.per_issuer_limit": {
+      "value": "the greater of the applicable dollar limit or 10 times the aggregate adjusted bases of the stock disposed of that year — the dollar limit being $15,000,000 for stock acquired after 4 July 2025, indexed for taxable years beginning after 2026, and $10,000,000 for stock acquired on or before it, halved on a separate return (IRC § 1202(b))",
+      "taxYear": 2026,
+      "source": "IRC § 1202(b), read at law.cornell.edu/uscode/text/26/1202",
+      "verified": "2026-08-20"
+    },
+    "qsbs.gross_assets": {
+      "value": "$75,000,000 of aggregate gross assets — cash plus the aggregate adjusted bases of other property — at all times before the issuance and immediately after it (IRC § 1202(d)(1), (2))",
+      "taxYear": 2026,
+      "source": "IRC § 1202(d), read at law.cornell.edu/uscode/text/26/1202",
+      "verified": "2026-08-20"
+    },
+    "qsbs.superseded_regime": {
+      "value": "a cliff at a holding period of more than 5 years with no exclusion below it, a $10,000,000 per-issuer dollar limit and a $50,000,000 aggregate gross assets test — the rules that governed before Pub. L. 119-21 § 70431 and that still govern stock acquired on or before 4 July 2025",
+      "taxYear": 2026,
+      "source": "IRC § 1202 and its 2025 amendment notes, read at law.cornell.edu/uscode/text/26/1202",
+      "verified": "2026-08-20"
     }
   }
 }

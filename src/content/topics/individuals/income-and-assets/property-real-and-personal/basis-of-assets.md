@@ -18,7 +18,7 @@ authorities:
   - { type: IRC, ref: "§ 1041", title: "Transfers of property between spouses or incident to divorce", url: "https://www.law.cornell.edu/uscode/text/26/1041" }
   - { type: IRC, ref: "§ 1223", title: "Holding period of property", url: "https://www.law.cornell.edu/uscode/text/26/1223" }
 forms: []
-related: ["1.2.3.a", "1.2.3.b", "1.2.3.d", "1.2.3.f", "1.2.2.l", "1.2.3.e", "1.2.3.g", "1.2.3.h", "1.2.3.i", "1.2.3.j", "1.3.1.d", "1.4.1.h", "1.5.1.d"]
+related: ["1.2.3.a", "1.2.3.b", "1.2.3.d", "1.2.3.f", "1.2.2.l", "1.2.3.e", "1.2.3.g", "1.2.3.h", "1.2.3.i", "1.2.3.j", "1.3.1.d", "1.4.1.h", "1.5.1.d", "1.5.1.l"]
 changelog:
   - { date: "2026-08-19", summary: "Initial draft. Sets out the IRC § 1012 cost rule and the § 1016(a)(2) allowed-or-allowable adjustment, the § 1015(a) dual basis on a gift of depreciated property and the § 1015(d)(6) gift tax fraction, the four § 1014(a) measures for property acquired from a decedent with the § 1014(f) consistency cap, § 1014(b)(6) community property and the § 1014(e) one-year deathbed rule, the § 1041 carryover on a spousal transfer, and the § 1223 tacking rules." }
 ---

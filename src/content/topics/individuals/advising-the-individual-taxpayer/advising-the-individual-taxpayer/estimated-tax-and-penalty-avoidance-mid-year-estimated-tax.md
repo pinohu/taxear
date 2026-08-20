@@ -17,7 +17,7 @@ authorities:
   - { type: IRC, ref: "§ 6621", title: "Determination of rate of interest", url: "https://www.law.cornell.edu/uscode/text/26/6621" }
   - { type: Form, ref: "Form 2210", title: "Underpayment of Estimated Tax by Individuals, Estates, and Trusts", url: "https://www.irs.gov/forms-pubs/about-form-2210" }
 forms: []
-related: ["1.4.1.c", "1.4.1.d", "1.5.1.e", "1.5.1.g", "1.5.1.k"]
+related: ["1.4.1.c", "1.4.1.d", "1.5.1.e", "1.5.1.g", "1.5.1.k", "1.5.1.l"]
 changelog:
   - { date: "2026-08-20", summary: "Initial draft. Covers estimated tax planning under IRC § 6654 from the avoidance side — the two safe harbours in § 6654(d)(1)(B) and (C), the ratable-withholding rule in § 6654(g), the annualised income installment method and its recapture in § 6654(d)(2), the January filing rule in § 6654(h), the farmer and fisherman substitutions in § 6654(i), the statutory exceptions in § 6654(e) and the § 6402(b) credit-forward election." }
 ---
