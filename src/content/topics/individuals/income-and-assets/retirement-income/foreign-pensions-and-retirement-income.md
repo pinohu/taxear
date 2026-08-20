@@ -183,15 +183,15 @@ answered from the treaty text.
 **"It's tax-free in that country" is not an argument.** The host country's treatment is relevant only
 through a treaty. Without one, IRC § 402(b) governs and the plan's local status is beside the point.
 
-**A treaty article covering pensions may not cover contributions.** Many assign taxing rights over pension
-*payments* without addressing the current inclusion of employer contributions. Read for both.
+**A treaty article covering pensions may not cover contributions.** Many assign taxing rights over
+pension *payments* without addressing employer contributions. Read for both.
 
 **The FBAR retirement exception is domestic only.** 31 CFR 1010.350(g)(4) lists §§ 401(a), 403(a),
 403(b), 408 and 408A — a foreign arrangement is not on that list.
 
 **A foreign pension is not covered by § 86 and still affects § 86.** It is fully taxable itself, and
-because it is in adjusted gross income it raises the sum that determines how much United States social
-security is taxable.
+being in adjusted gross income it raises the sum that determines how much United States social security
+is taxable.
 </div>
 
 ## How this has changed

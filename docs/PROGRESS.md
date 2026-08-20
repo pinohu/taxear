@@ -9,10 +9,10 @@ is indexed, and only the owner moves a page there (see `docs/VERIFICATION.md`).
 
 | Part | Topics | Stub | Draft | Review | Published | Words |
 |---|---:|---:|---:|---:|---:|---:|
-| 1. Individuals | 120 | 35 | 0 | 75 | 10 | 188,596 |
+| 1. Individuals | 120 | 35 | 0 | 75 | 10 | 188,380 |
 | 2. Businesses | 119 | 119 | 0 | 0 | 0 | 0 |
 | 3. Representation, Practices and Procedures | 121 | 0 | 0 | 0 | 121 | 257,674 |
-| **All parts** | **360** | **154** | **0** | **75** | **131** | **446,270** |
+| **All parts** | **360** | **154** | **0** | **75** | **131** | **446,054** |
 
 ## Part 1 — Individuals
 
@@ -72,13 +72,13 @@ is indexed, and only the owner moves a page there (see `docs/VERIFICATION.md`).
 | 1.2.2.d | [Excess contributions and tax treatment (e.g., penalties)](/individuals/income-and-assets/retirement-income/excess-contributions-and-tax-treatment/) | review | 2,171 | 2026-08-19 |
 | 1.2.2.e | [Penalties and exceptions on premature distributions from qualified retirement plans and IRAs](/individuals/income-and-assets/retirement-income/penalties-and-exceptions-on-premature-distributions/) | review | 2,240 | 2026-08-19 |
 | 1.2.2.f | [Prohibited transactions and tax effects](/individuals/income-and-assets/retirement-income/prohibited-transactions-and-tax-effects/) | review | 2,284 | 2026-08-19 |
-| 1.2.2.g | [IRA conversions and recharacterization (Form 8606)](/individuals/income-and-assets/retirement-income/ira-conversions-and-recharacterization-form-8606/) | review | 2,699 | 2026-08-19 |
+| 1.2.2.g | [IRA conversions and recharacterization (Form 8606)](/individuals/income-and-assets/retirement-income/ira-conversions-and-recharacterization-form-8606/) | review | 2,489 | 2026-08-19 |
 | 1.2.2.h | [Required minimum distributions and excess accumulations](/individuals/income-and-assets/retirement-income/required-minimum-distributions-and-excess-accumulations/) | review | 2,498 | 2026-08-19 |
 | 1.2.2.i | [Loans from qualified plans](/individuals/income-and-assets/retirement-income/loans-from-qualified-plans/) | review | 2,488 | 2026-08-19 |
 | 1.2.2.j | [Taxability of Social Security and Railroad Retirement benefits](/individuals/income-and-assets/retirement-income/taxability-of-social-security-and-railroad-retirement/) | review | 2,406 | 2026-08-19 |
 | 1.2.2.k | [Taxability of net unrealized appreciation (NUA)](/individuals/income-and-assets/retirement-income/taxability-of-net-unrealized-appreciation-nua/) | review | 2,106 | 2026-08-19 |
 | 1.2.2.l | [Inherited retirement accounts](/individuals/income-and-assets/retirement-income/inherited-retirement-accounts/) | review | 2,410 | 2026-08-19 |
-| 1.2.2.m | [Foreign pensions and retirement income](/individuals/income-and-assets/retirement-income/foreign-pensions-and-retirement-income/) | review | 2,501 | 2026-08-19 |
+| 1.2.2.m | [Foreign pensions and retirement income](/individuals/income-and-assets/retirement-income/foreign-pensions-and-retirement-income/) | review | 2,495 | 2026-08-19 |
 
 **1.2.3 Property, real and personal**
 

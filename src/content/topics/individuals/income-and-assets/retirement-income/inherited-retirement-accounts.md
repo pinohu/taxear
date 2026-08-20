@@ -16,6 +16,7 @@ authorities:
   - { type: IRC, ref: "§ 408A", title: "Roth IRAs", url: "https://www.law.cornell.edu/uscode/text/26/408A" }
   - { type: IRC, ref: "§ 691", title: "Recipients of income in respect of decedents", url: "https://www.law.cornell.edu/uscode/text/26/691" }
   - { type: IRC, ref: "§ 1014", title: "Basis of property acquired from a decedent", url: "https://www.law.cornell.edu/uscode/text/26/1014" }
+  - { type: IRC, ref: "§ 72", title: "Annuities; certain proceeds of endowment and life insurance contracts", url: "https://www.law.cornell.edu/uscode/text/26/72" }
   - { type: Reg, ref: "§ 1.401(a)(9)-3", title: "Death before required beginning date", url: "https://www.law.cornell.edu/cfr/text/26/1.401(a)(9)-3" }
   - { type: Reg, ref: "§ 1.401(a)(9)-4", title: "Determination of the designated beneficiary", url: "https://www.law.cornell.edu/cfr/text/26/1.401(a)(9)-4" }
   - { type: Reg, ref: "§ 1.401(a)(9)-5", title: "Required minimum distributions from defined contribution plans", url: "https://www.law.cornell.edu/cfr/text/26/1.401(a)(9)-5" }
