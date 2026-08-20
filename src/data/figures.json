@@ -3914,6 +3914,18 @@
       "source": "IRM 4.10.7.2.7 (1 January 2006), \"IRS Publications\" — https://www.irs.gov/irm/part4/irm_04-010-007",
       "verified": "2026-08-18"
     },
+    "qbi.deduction": {
+      "value": "the lesser of the combined qualified business income amount or 20 percent of the excess of taxable income over net capital gain — subject to the IRC § 199A(i) minimum",
+      "taxYear": 2026,
+      "source": "IRC § 199A(a)(1), (2)(A), (B) — https://www.law.cornell.edu/uscode/text/26/199A",
+      "verified": "2026-08-19"
+    },
+    "qbi.entity_scope": {
+      "value": "available to a taxpayer other than a corporation — so to a sole proprietor and to an owner of a partnership or S corporation on their share, but not to a C corporation and not on wages",
+      "taxYear": 2026,
+      "source": "IRC § 199A(a), opening words — https://www.law.cornell.edu/uscode/text/26/199A",
+      "verified": "2026-08-19"
+    },
     "qbi.exclusions": {
       "value": "reasonable compensation paid to the taxpayer, IRC § 707(c) guaranteed payments, § 707(a) service payments to the extent regulations provide, and — new for 2026 — any amount for which the § 224(a) qualified tips deduction is allowable",
       "taxYear": 2026,
@@ -3921,15 +3933,45 @@
       "verified": "2026-08-19"
     },
     "qbi.minimum_deduction": {
-      "value": "$400 for a taxpayer whose aggregate qualified business income from all active qualified trades or businesses is at least $1,000 — both figures indexed for taxable years beginning after 2026",
+      "value": "the deduction is the greater of the amount otherwise determined or $400, for a taxpayer with at least $1,000 of aggregate qualified business income from active qualified trades or businesses in which they materially participate within IRC § 469(h) — both figures indexed from 2027",
       "taxYear": 2026,
-      "source": "IRC § 199A(i)(1), (i)(2) as added by Pub. L. 119-21 § 70105(b)(1); Rev. Proc. 2025-32 § 2.12 — https://www.law.cornell.edu/uscode/text/26/199A",
+      "source": "IRC § 199A(i)(1)(A), (B), (2)(A), (B), added by Pub. L. 119-21 § 70105; Rev. Proc. 2025-32 § 2.12 — https://www.law.cornell.edu/uscode/text/26/199A",
+      "verified": "2026-08-19"
+    },
+    "qbi.per_business_amount": {
+      "value": "for each qualified trade or business, the lesser of 20 percent of its qualified business income or the greater of 50 percent of its W-2 wages, or 25 percent of those wages plus 2.5 percent of the unadjusted basis immediately after acquisition of all qualified property",
+      "taxYear": 2026,
+      "source": "IRC § 199A(b)(2)(A), (B)(i), (ii) — https://www.law.cornell.edu/uscode/text/26/199A",
+      "verified": "2026-08-19"
+    },
+    "qbi.permanence": {
+      "value": "permanent — the former IRC § 199A(i) sunset for taxable years beginning after 2025 was replaced by Pub. L. 119-21 § 70105 with the minimum deduction, at the same address",
+      "taxYear": 2026,
+      "source": "IRC § 199A(i), as amended by Pub. L. 119-21 § 70105 — https://www.law.cornell.edu/uscode/text/26/199A",
+      "verified": "2026-08-19"
+    },
+    "qbi.phase_in_range": {
+      "value": "the limitation phases in between the threshold and $553,500 joint, $276,775 married filing separately, $276,750 otherwise — a range of $150,000 joint and $75,000 otherwise, doubled from the original by Pub. L. 119-21",
+      "taxYear": 2026,
+      "source": "Rev. Proc. 2025-32 § 3.26, adjusting IRC § 199A(b)(3)(B)(i)(I), (ii)(II) and § 199A(d)(3)(A) — https://www.irs.gov/pub/irs-drop/rp-25-32.pdf",
       "verified": "2026-08-19"
     },
     "qbi.phase_in_width": {
       "value": "$75,000, or $150,000 on a joint return — raised from $50,000 and $100,000 for taxable years beginning after 31 December 2025",
       "taxYear": 2026,
       "source": "IRC § 199A(b)(3)(B), (d)(3) as amended by Pub. L. 119-21 § 70105(a)(1), (a)(2), (c) — https://www.law.cornell.edu/uscode/text/26/199A",
+      "verified": "2026-08-19"
+    },
+    "qbi.specified_service": {
+      "value": "a specified service trade or business — health, law, accounting, actuarial science, performing arts, consulting, athletics, financial services, brokerage services, any trade or business whose principal asset is the reputation or skill of its employees or owners, and investing, trading or dealing in securities, partnership interests or commodities — is excluded once income passes the phase-in range",
+      "taxYear": 2026,
+      "source": "IRC § 199A(d)(2)(A), (B); § 199A(d)(3)(A) — https://www.law.cornell.edu/uscode/text/26/199A",
+      "verified": "2026-08-19"
+    },
+    "qbi.threshold": {
+      "value": "$403,500 on a joint return, $201,775 married filing separately, $201,750 for all other returns — below which the wage and property limitation does not apply at all",
+      "taxYear": 2026,
+      "source": "Rev. Proc. 2025-32 § 3.26, adjusting IRC § 199A(e)(2); § 199A(b)(3)(A) — https://www.irs.gov/pub/irs-drop/rp-25-32.pdf",
       "verified": "2026-08-19"
     },
     "qbi.thresholds": {

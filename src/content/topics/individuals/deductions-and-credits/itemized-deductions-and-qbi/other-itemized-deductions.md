@@ -17,7 +17,7 @@ authorities:
   - { type: IRC, ref: "§ 1341", title: "Computation of tax where taxpayer restores substantial amount held under claim of right", url: "https://www.law.cornell.edu/uscode/text/26/1341" }
   - { type: Statute, ref: "Pub. L. 119-21, § 70110", title: "Permanent disallowance of miscellaneous itemized deductions", url: "https://www.law.cornell.edu/uscode/text/26/67" }
 forms: []
-related: ["1.3.1.a", "1.3.1.b", "1.3.1.c", "1.3.1.d", "1.3.1.e", "1.3.1.g"]
+related: ["1.3.1.a", "1.3.1.b", "1.3.1.c", "1.3.1.d", "1.3.1.e", "1.3.1.g", "1.3.1.h"]
 changelog:
   - { date: "2026-08-19", summary: "Initial draft. Sets out the IRC § 67(b) list of thirteen classes excluded from the definition of a miscellaneous itemized deduction, the § 67(h) disallowance of everything else as made permanent by Pub. L. 119-21 § 70110, the § 67(d) definition of impairment-related work expenses, the § 691(c) estate tax deduction, and the § 1341 claim of right computation." }
 ---

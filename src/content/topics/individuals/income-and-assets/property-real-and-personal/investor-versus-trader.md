@@ -18,7 +18,7 @@ authorities:
   - { type: IRC, ref: "§ 1236", title: "Dealers in securities", url: "https://www.law.cornell.edu/uscode/text/26/1236" }
   - { type: Statute, ref: "Pub. L. 119-21, § 70110", title: "Permanent disallowance of miscellaneous itemized deductions", url: "https://www.law.cornell.edu/uscode/text/26/67" }
 forms: []
-related: ["1.2.3.b", "1.2.3.j", "1.2.1.b", "1.2.3.h", "1.2.3.a", "1.2.4.a", "1.3.1.c"]
+related: ["1.2.3.b", "1.2.3.j", "1.2.1.b", "1.2.3.h", "1.2.3.a", "1.2.4.a", "1.3.1.c", "1.3.1.h"]
 changelog:
   - { date: "2026-08-19", summary: "Initial draft. Sets out the absence of any statutory definition of a trader, the IRC § 67(h) permanent disallowance of miscellaneous itemized deductions as amended by Pub. L. 119-21 § 70110, the § 163(d) investment interest limitation that survives it, the § 475(f) mark to market election with its ordinary character, its § 475(f)(1)(B) same-day identification requirement and its § 475(f)(3) mechanics, and the § 1236 dealer rules." }
 ---
