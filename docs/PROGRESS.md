@@ -9,10 +9,10 @@ is indexed, and only the owner moves a page there (see `docs/VERIFICATION.md`).
 
 | Part | Topics | Stub | Draft | Review | Published | Words |
 |---|---:|---:|---:|---:|---:|---:|
-| 1. Individuals | 120 | 59 | 0 | 51 | 10 | 137,358 |
+| 1. Individuals | 120 | 58 | 0 | 52 | 10 | 139,293 |
 | 2. Businesses | 119 | 119 | 0 | 0 | 0 | 0 |
 | 3. Representation, Practices and Procedures | 121 | 0 | 0 | 0 | 121 | 257,674 |
-| **All parts** | **360** | **178** | **0** | **51** | **131** | **395,032** |
+| **All parts** | **360** | **177** | **0** | **52** | **131** | **396,967** |
 
 ## Part 1 — Individuals
 
@@ -112,7 +112,7 @@ is indexed, and only the owner moves a page there (see `docs/VERIFICATION.md`).
 
 | Code | Title | Status | Words | Last reviewed |
 |---|---|---|---:|---|
-| 1.3.1.a | [Medical, dental, vision, long-term care expenses](/individuals/deductions-and-credits/itemized-deductions-and-qbi/medical-dental-vision-long-term-care-expenses/) | stub | — | — |
+| 1.3.1.a | [Medical, dental, vision, long-term care expenses](/individuals/deductions-and-credits/itemized-deductions-and-qbi/medical-dental-vision-long-term-care-expenses/) | review | 1,935 | 2026-08-19 |
 | 1.3.1.b | [Various taxes (e.g., state income, personal property, real estate)](/individuals/deductions-and-credits/itemized-deductions-and-qbi/various-taxes/) | stub | — | — |
 | 1.3.1.c | [Interest expense (e.g., mortgage interest, investment interest, tracing rules, points, indebtedness limitations)](/individuals/deductions-and-credits/itemized-deductions-and-qbi/interest-expense/) | stub | — | — |
 | 1.3.1.d | [Charitable contributions (e.g., cash, noncash, limitations, documentation required)](/individuals/deductions-and-credits/itemized-deductions-and-qbi/charitable-contributions/) | stub | — | — |

@@ -16,7 +16,7 @@ authorities:
   - { type: RevProc, ref: "2025-19", title: "Inflation adjusted amounts for health savings accounts", url: "https://www.irs.gov/pub/irs-drop/rp-25-19.pdf" }
   - { type: Statute, ref: "Pub. L. 119-21, §§ 71306-71308", title: "Health savings account amendments", url: "https://www.law.cornell.edu/uscode/text/26/223" }
 forms: []
-related: ["1.2.4.e", "1.2.4.d", "1.2.4.a", "1.2.4.b", "1.2.1.a"]
+related: ["1.2.4.e", "1.2.4.d", "1.2.4.a", "1.2.4.b", "1.2.1.a", "1.3.1.a"]
 changelog:
   - { date: "2026-08-19", summary: "Initial draft. Sets out the IRC § 223(c)(1) eligibility test, the § 223(b) monthly limitation with the married, Medicare and last-month rules, the § 223(d)(2) definition of qualified medical expenses, the § 223(f) distribution rules and the 20 percent additional tax with its three exceptions, and the § 223(c) amendments made by Pub. L. 119-21 §§ 71306 to 71308." }
 ---

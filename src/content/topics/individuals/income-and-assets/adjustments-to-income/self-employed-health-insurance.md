@@ -17,7 +17,7 @@ authorities:
   - { type: IRC, ref: "§ 1372", title: "Partnership rules to apply for fringe benefit purposes", url: "https://www.law.cornell.edu/uscode/text/26/1372" }
   - { type: RevProc, ref: "2025-32", title: "Inflation adjusted items for 2026", url: "https://www.irs.gov/pub/irs-drop/rp-25-32.pdf" }
 forms: []
-related: ["1.2.4.a", "1.2.4.c", "1.2.4.d", "1.2.4.b", "1.2.1.l"]
+related: ["1.2.4.a", "1.2.4.c", "1.2.4.d", "1.2.4.b", "1.2.1.l", "1.3.1.a"]
 changelog:
   - { date: "2026-08-19", summary: "Initial draft. Sets out the IRC § 162(l)(1) deduction and its four covered classes, the § 162(l)(2)(A) earned income cap measured against the business establishing the plan, the § 162(l)(2)(B) month-by-month bar for eligibility in a subsidised employer plan, the § 162(l)(2)(C) and § 213(d)(10) long-term care scale, and the § 162(l)(3), (4) and (5) rules on double counting, self-employment tax and S corporation shareholders." }
 ---

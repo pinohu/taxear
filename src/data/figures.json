@@ -2912,6 +2912,66 @@
       "source": "IRC § 6213(b)(2)(A) — https://www.law.cornell.edu/uscode/text/26/6213",
       "verified": "2026-08-19"
     },
+    "medical.cosmetic": {
+      "value": "cosmetic surgery is not medical care unless necessary to ameliorate a deformity arising from or directly related to a congenital abnormality, a personal injury from accident or trauma, or a disfiguring disease",
+      "taxYear": 2026,
+      "source": "IRC § 213(d)(9)(A), (B) — https://www.law.cornell.edu/uscode/text/26/213",
+      "verified": "2026-08-19"
+    },
+    "medical.decedent": {
+      "value": "expenses for the decedent's medical care paid out of the estate within the 1-year period beginning the day after death are treated as paid by the taxpayer when incurred — unless allowed as an IRC § 2053 estate tax deduction, which requires a waiver statement to avoid",
+      "taxYear": 2026,
+      "source": "IRC § 213(c)(1), (2)(A), (B) — https://www.law.cornell.edu/uscode/text/26/213",
+      "verified": "2026-08-19"
+    },
+    "medical.definition": {
+      "value": "amounts paid for diagnosis, cure, mitigation, treatment or prevention of disease or to affect any structure or function of the body; transportation primarily for and essential to that care; qualified long-term care services; and insurance covering such care",
+      "taxYear": 2026,
+      "source": "IRC § 213(d)(1)(A)–(D) — https://www.law.cornell.edu/uscode/text/26/213",
+      "verified": "2026-08-19"
+    },
+    "medical.drugs": {
+      "value": "an amount paid for medicine or a drug counts only if it is a prescribed drug or is insulin — so over-the-counter medicines are outside the deduction however medically necessary",
+      "taxYear": 2026,
+      "source": "IRC § 213(b) — https://www.law.cornell.edu/uscode/text/26/213",
+      "verified": "2026-08-19"
+    },
+    "medical.floor": {
+      "value": "7.5 percent of adjusted gross income — a permanent figure since Pub. L. 116-260 § 101(a) struck the alternative, with no sunset in the text",
+      "taxYear": 2026,
+      "source": "IRC § 213(a) — https://www.law.cornell.edu/uscode/text/26/213",
+      "verified": "2026-08-19"
+    },
+    "medical.lodging": {
+      "value": "lodging away from home, not lavish or extravagant, primarily for and essential to medical care, counts where the care is provided by a physician in a licensed hospital or equivalent facility and there is no significant element of personal pleasure — capped at $50 per night per individual",
+      "taxYear": 2026,
+      "source": "IRC § 213(d)(2)(A), (B) and its closing sentence — https://www.law.cornell.edu/uscode/text/26/213",
+      "verified": "2026-08-19"
+    },
+    "medical.long_term_care_premiums": {
+      "value": "only eligible long-term care premiums within IRC § 213(d)(10) are taken into account for a qualified long-term care insurance contract, on the age-banded scale",
+      "taxYear": 2026,
+      "source": "IRC § 213(d)(1), closing sentence; § 213(d)(10)(A) — https://www.law.cornell.edu/uscode/text/26/213",
+      "verified": "2026-08-19"
+    },
+    "medical.no_double_benefit": {
+      "value": "amounts allowed under the dependent care credit provisions are excluded, and an expense deducted elsewhere — including under IRC § 162(l) or paid from a health savings account — cannot be counted again here",
+      "taxYear": 2026,
+      "source": "IRC § 213(e); § 162(l)(3); § 213(a) (\"not compensated for by insurance or otherwise\") — https://www.law.cornell.edu/uscode/text/26/213",
+      "verified": "2026-08-19"
+    },
+    "medical.relatives": {
+      "value": "a payment for qualified long-term care services is treated as not paid for medical care where the service is provided by the individual's spouse or a relative unless they are a licensed professional, or by a related corporation or partnership",
+      "taxYear": 2026,
+      "source": "IRC § 213(d)(11) — https://www.law.cornell.edu/uscode/text/26/213",
+      "verified": "2026-08-19"
+    },
+    "medical.whose_expenses": {
+      "value": "the taxpayer, spouse, or a dependent within IRC § 152 determined without regard to the gross income test, the not-a-dependent-of-another test, and the joint return test",
+      "taxYear": 2026,
+      "source": "IRC § 213(a) — https://www.law.cornell.edu/uscode/text/26/213",
+      "verified": "2026-08-19"
+    },
     "misc.suspension": {
       "value": "no miscellaneous itemized deduction is allowed for any taxable year beginning after 31 December 2017 — permanent since the 2026 end date was struck, and now at IRC § 67(h) rather than § 67(g)",
       "taxYear": 2026,
