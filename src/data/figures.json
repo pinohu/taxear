@@ -6505,6 +6505,78 @@
       "taxYear": 2026,
       "source": "IRC § 6402, read at law.cornell.edu/uscode/text/26/6402",
       "verified": "2026-08-20"
+    },
+    "timing.cash_receipt": {
+      "value": "an item of gross income is included in the year received, unless the taxpayer's method of accounting properly accounts for it in a different period (IRC § 451(a))",
+      "taxYear": 2026,
+      "source": "IRC § 451, read at law.cornell.edu/uscode/text/26/451",
+      "verified": "2026-08-20"
+    },
+    "timing.constructive_receipt": {
+      "value": "income is received when credited to the taxpayer's account, set apart, or otherwise made available to be drawn on — but not where control of its receipt is subject to substantial limitations or restrictions (Reg. § 1.451-2(a))",
+      "taxYear": 2026,
+      "source": "26 CFR § 1.451-2, read at law.cornell.edu/cfr/text/26/1.451-2",
+      "verified": "2026-08-20"
+    },
+    "timing.cash_payment": {
+      "value": "deductions are taken in the year paid, except that an expenditure creating an asset whose useful life extends substantially beyond the close of the year may not be deductible, or deductible only in part, that year (Reg. § 1.461-1(a)(1))",
+      "taxYear": 2026,
+      "source": "26 CFR § 1.461-1, read at law.cornell.edu/cfr/text/26/1.461-1",
+      "verified": "2026-08-20"
+    },
+    "timing.prepaid_interest": {
+      "value": "interest a cash-method taxpayer pays that is allocable to a period after the close of the year is charged to capital account and treated as paid in the period to which it is allocable — so prepaying a January mortgage payment in December buys nothing (IRC § 461(g)(1))",
+      "taxYear": 2026,
+      "source": "IRC § 461, read at law.cornell.edu/uscode/text/26/461",
+      "verified": "2026-08-20"
+    },
+    "timing.points_exception": {
+      "value": "points on debt incurred to purchase or improve, and secured by, the taxpayer's principal residence escape the prepaid interest rule to the extent paying them is an established business practice in the area and the amount does not exceed what is generally charged there (IRC § 461(g)(2))",
+      "taxYear": 2026,
+      "source": "IRC § 461, read at law.cornell.edu/uscode/text/26/461",
+      "verified": "2026-08-20"
+    },
+    "timing.charitable_delivery": {
+      "value": "a contribution is made when delivery is effected — an unconditionally delivered or mailed check that later clears counts on the date of delivery or mailing, and a properly endorsed stock certificate on the date of delivery or mailing, but a certificate handed to the donor's own bank or broker for transfer counts only when the stock is transferred on the corporation's books (Reg. § 1.170A-1(b))",
+      "taxYear": 2026,
+      "source": "26 CFR § 1.170A-1, read at law.cornell.edu/cfr/text/26/1.170A-1",
+      "verified": "2026-08-20"
+    },
+    "timing.itemize_election": {
+      "value": "no itemized deduction is allowed at all unless the individual elects to itemize on the return, and the election may be changed under regulations (IRC § 63(e))",
+      "taxYear": 2026,
+      "source": "IRC § 63, read at law.cornell.edu/uscode/text/26/63",
+      "verified": "2026-08-20"
+    },
+    "timing.ira_deemed_made": {
+      "value": "a contribution made by the unextended due date of the return is deemed made on the last day of the preceding taxable year if it is made on account of that year — extensions do not count (IRC § 219(f)(3))",
+      "taxYear": 2026,
+      "source": "IRC § 219, read at law.cornell.edu/uscode/text/26/219",
+      "verified": "2026-08-20"
+    },
+    "timing.nonrefundable_ceiling": {
+      "value": "the subpart A nonrefundable credits may not exceed regular tax liability reduced by the foreign tax credit, plus the tax imposed by IRC § 55(a) — so a year with too little tax wastes them (IRC § 26(a))",
+      "taxYear": 2026,
+      "source": "IRC § 26, read at law.cornell.edu/uscode/text/26/26",
+      "verified": "2026-08-20"
+    },
+    "timing.wash_sale_window": {
+      "value": "61 days — beginning 30 days before the sale and ending 30 days after it; acquiring substantially identical stock or securities, or a contract or option to acquire them, inside that window disallows the loss (IRC § 1091(a))",
+      "taxYear": 2026,
+      "source": "IRC § 1091, read at law.cornell.edu/uscode/text/26/1091",
+      "verified": "2026-08-20"
+    },
+    "timing.related_party_matching": {
+      "value": "a deduction for an expense or interest owed to a related person on the cash method is deferred until the day the amount is includible in that person's gross income (IRC § 267(a)(2))",
+      "taxYear": 2026,
+      "source": "IRC § 267, read at law.cornell.edu/uscode/text/26/267",
+      "verified": "2026-08-20"
+    },
+    "salt.superseded_flat_cap": {
+      "value": "$10,000, or $5,000 for a married individual filing separately — the flat figure that stood in IRC § 164(b)(6)(B) for taxable years 2018 through 2024 until Pub. L. 119-21 § 70120(a)(2) replaced it with the applicable limitation amount",
+      "taxYear": 2026,
+      "source": "IRC § 164, including the amendment note to § 164(b)(6)(B), read at law.cornell.edu/uscode/text/26/164",
+      "verified": "2026-08-20"
     }
   }
 }
