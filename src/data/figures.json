@@ -284,6 +284,102 @@
       "source": "26 CFR § 601.506(d)(3)(iv) — https://www.law.cornell.edu/cfr/text/26/601.506",
       "verified": "2026-08-18"
     },
+    "capgain.adjusted_net_capital_gain": {
+      "value": "net capital gain reduced by unrecaptured section 1250 gain and by 28-percent rate gain, plus qualified dividend income — the residue is what the 0, 15 and 20 percent rates reach",
+      "taxYear": 2026,
+      "source": "IRC § 1(h)(3)(A), (B) — https://www.law.cornell.edu/uscode/text/26/1",
+      "verified": "2026-08-19"
+    },
+    "capgain.capital_asset": {
+      "value": "all property held by the taxpayer, business or not, except eight listed classes — inventory and property held for sale to customers, depreciable and real property used in the trade or business, self-created intangibles, trade receivables, government publications, certain commodities derivatives, hedging transactions, and supplies",
+      "taxYear": 2026,
+      "source": "IRC § 1221(a)(1)–(8) — https://www.law.cornell.edu/uscode/text/26/1221",
+      "verified": "2026-08-19"
+    },
+    "capgain.carryover": {
+      "value": "the excess is carried to the succeeding year, short-term and long-term separately, each retaining its character, with no expiry",
+      "taxYear": 2026,
+      "source": "IRC § 1212(b)(1)(A), (B) — https://www.law.cornell.edu/uscode/text/26/1212",
+      "verified": "2026-08-19"
+    },
+    "capgain.collectibles": {
+      "value": "28 percent — collectibles gain and section 1202 gain, net of collectibles loss, the net short-term capital loss and long-term capital loss carried forward, where a collectible takes its IRC § 408(m) meaning without regard to paragraph (3)",
+      "taxYear": 2026,
+      "source": "IRC § 1(h)(1)(F); § 1(h)(4)(A), (B); § 1(h)(5)(A) — https://www.law.cornell.edu/uscode/text/26/1",
+      "verified": "2026-08-19"
+    },
+    "capgain.digital_assets": {
+      "value": "property, not currency — general property principles apply and no foreign currency gain or loss arises; a digital asset is separately defined for broker reporting as a digital representation of value recorded on a cryptographically secured distributed ledger",
+      "taxYear": 2026,
+      "source": "Notice 2014-21, A-1 and A-2; IRC § 6045(g)(3)(D) — https://www.irs.gov/pub/irs-drop/n-14-21.pdf",
+      "verified": "2026-08-19"
+    },
+    "capgain.fifteen_rate_amount": {
+      "value": "$613,700 joint or surviving spouse; $579,600 head of household; $545,500 single; $306,850 married filing separately; $16,250 estates and trusts",
+      "taxYear": 2026,
+      "source": "Rev. Proc. 2025-32 § 3.03, adjusting IRC § 1(j)(5)(B)(ii) — https://www.irs.gov/pub/irs-drop/rp-25-32.pdf",
+      "verified": "2026-08-19"
+    },
+    "capgain.holding_period": {
+      "value": "more than 1 year for long term, not more than 1 year for short term — so property bought on a given date first qualifies when sold on the day after the anniversary",
+      "taxYear": 2026,
+      "source": "IRC § 1222(1)–(4) — https://www.law.cornell.edu/uscode/text/26/1222",
+      "verified": "2026-08-19"
+    },
+    "capgain.loss_limit": {
+      "value": "capital losses are allowed against capital gains in full, plus the lower of $3,000 — $1,500 for a married individual filing a separate return — or the excess of losses over gains; unindexed since 1986 and not doubled on a joint return",
+      "taxYear": 2026,
+      "source": "IRC § 1211(b)(1), (2) — https://www.law.cornell.edu/uscode/text/26/1211",
+      "verified": "2026-08-19"
+    },
+    "capgain.mark_to_market_1256": {
+      "value": "each section 1256 contract held at year end is treated as sold at fair market value on the last business day, and gain or loss is 40 percent short-term and 60 percent long-term whatever the actual holding period",
+      "taxYear": 2026,
+      "source": "IRC § 1256(a)(1), (3)(A), (B) — https://www.law.cornell.edu/uscode/text/26/1256",
+      "verified": "2026-08-19"
+    },
+    "capgain.mutual_fund_distributions": {
+      "value": "a capital gain dividend is treated by the shareholder as gain from the sale of a capital asset held more than one year, whatever the shareholder's own holding period in the fund",
+      "taxYear": 2026,
+      "source": "IRC § 852(b)(3)(B) — https://www.law.cornell.edu/uscode/text/26/852",
+      "verified": "2026-08-19"
+    },
+    "capgain.niit": {
+      "value": "3.8 percent of the lesser of net investment income or the excess of modified adjusted gross income over the threshold — $250,000 joint or surviving spouse, half that for married filing separately, $200,000 otherwise, none of them indexed",
+      "taxYear": 2026,
+      "source": "IRC § 1411(a)(1), (b)(1)–(3) — https://www.law.cornell.edu/uscode/text/26/1411",
+      "verified": "2026-08-19"
+    },
+    "capgain.qualified_dividend_holding": {
+      "value": "the stock must be held more than 60 days during the 121-day period around the ex-dividend date; for preference dividends attributable to periods aggregating more than 366 days, more than 90 days during a 181-day period",
+      "taxYear": 2026,
+      "source": "IRC § 1(h)(11)(B)(iii)(I), applying IRC § 246(c)(1)(A), (c)(2) with the substituted figures — https://www.law.cornell.edu/uscode/text/26/1",
+      "verified": "2026-08-19"
+    },
+    "capgain.rate_structure": {
+      "value": "0 percent up to the maximum zero rate amount, 15 percent up to the maximum 15-percent rate amount, and 20 percent above it — with the § 1(h)(1)(B) and (C)(ii)(I) references to a rate below 25 percent and below 39.6 percent replaced by those defined amounts",
+      "taxYear": 2026,
+      "source": "IRC § 1(h)(1)(B)–(D); IRC § 1(j)(5)(A)(i), (ii) — https://www.law.cornell.edu/uscode/text/26/1",
+      "verified": "2026-08-19"
+    },
+    "capgain.self_created": {
+      "value": "excluded from capital asset treatment in the creator's hands — a patent, invention, model or design, secret formula or process, copyright, or literary, musical or artistic composition; but the taxpayer may elect capital treatment for musical compositions and copyrights in musical works",
+      "taxYear": 2026,
+      "source": "IRC § 1221(a)(3)(A); IRC § 1221(b)(3) — https://www.law.cornell.edu/uscode/text/26/1221",
+      "verified": "2026-08-19"
+    },
+    "capgain.wash_sale": {
+      "value": "no deduction where substantially identical stock or securities are acquired within 30 days before or after the sale, and the disallowed loss is added to the basis of the replacement — the section reaches stock or securities, and contracts or options to acquire or sell them",
+      "taxYear": 2026,
+      "source": "IRC § 1091(a), (d) — https://www.law.cornell.edu/uscode/text/26/1091",
+      "verified": "2026-08-19"
+    },
+    "capgain.zero_rate_amount": {
+      "value": "$98,900 joint or surviving spouse; $66,200 head of household; $49,450 single or married filing separately; $3,300 estates and trusts",
+      "taxYear": 2026,
+      "source": "Rev. Proc. 2025-32 § 3.03, adjusting IRC § 1(j)(5)(B)(i) — https://www.irs.gov/pub/irs-drop/rp-25-32.pdf",
+      "verified": "2026-08-19"
+    },
     "carryover.amt_credit": {
       "value": "the adjusted net minimum tax imposed for all prior taxable years beginning after 1986, less amounts already allowed as a credit",
       "taxYear": 2026,

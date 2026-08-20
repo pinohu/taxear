@@ -22,7 +22,7 @@ authorities:
   - { type: IRC, ref: "§ 6042", title: "Returns regarding payments of dividends and corporate earnings and profits", url: "https://www.law.cornell.edu/uscode/text/26/6042" }
   - { type: Pub, ref: "550", title: "Investment Income and Expenses", url: "https://www.irs.gov/pub/irs-pdf/p550.pdf" }
 forms: []
-related: ["1.2.1.b", "1.2.1.a", "1.1.1.f", "1.2.1.j", "1.2.1.i", "1.2.1.l", "1.2.2.a"]
+related: ["1.2.1.b", "1.2.1.a", "1.1.1.f", "1.2.1.j", "1.2.1.i", "1.2.1.l", "1.2.2.a", "1.2.3.b"]
 changelog:
   - { date: "2026-08-19", summary: "Initial draft. Sets out the IRC § 316 earnings and profits test, the IRC § 301(c) three-tier ordering, the IRC § 1(h)(11) qualified dividend holding period as it borrows from IRC § 246(c), and the treatment of regulated investment company and REIT distributions." }
 ---
