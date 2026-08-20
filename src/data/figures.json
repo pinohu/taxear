@@ -230,6 +230,54 @@
       "source": "IRC § 3406(a)(1); IRC § 1(c) as adjusted by Rev. Proc. 2025-32 § 3.01 — https://www.law.cornell.edu/uscode/text/26/3406",
       "verified": "2026-08-19"
     },
+    "baddebt.amount": {
+      "value": "the adjusted basis provided in IRC § 1011 for determining loss on a sale — so a cash-method lender's unpaid interest, never included in income, has no basis and produces no deduction",
+      "taxYear": 2026,
+      "source": "IRC § 166(b) — https://www.law.cornell.edu/uscode/text/26/166",
+      "verified": "2026-08-19"
+    },
+    "baddebt.bona_fide": {
+      "value": "only a bona fide debt qualifies — one arising from a debtor-creditor relationship based on a valid and enforceable obligation to pay a fixed or determinable sum; a gift or a contribution to capital is not a debt",
+      "taxYear": 2026,
+      "source": "Treas. Reg. § 1.166-1(c) — https://www.law.cornell.edu/cfr/text/26/1.166-1",
+      "verified": "2026-08-19"
+    },
+    "baddebt.debtor_use_irrelevant": {
+      "value": "the use the debtor puts the borrowed funds to is of no consequence — the character is fixed by the creditor's relation to the loss",
+      "taxYear": 2026,
+      "source": "Treas. Reg. § 1.166-5(b), closing sentences — https://www.law.cornell.edu/cfr/text/26/1.166-5",
+      "verified": "2026-08-19"
+    },
+    "baddebt.nonbusiness_character": {
+      "value": "the general bad debt deduction does not apply; a nonbusiness debt becoming worthless is a loss from the sale or exchange of a capital asset held **not more than 1 year** — short-term capital loss, whatever the age of the debt",
+      "taxYear": 2026,
+      "source": "IRC § 166(d)(1)(A), (B) — https://www.law.cornell.edu/uscode/text/26/166",
+      "verified": "2026-08-19"
+    },
+    "baddebt.nonbusiness_definition": {
+      "value": "any debt other than one created or acquired in connection with the taxpayer's trade or business, or one whose worthlessness is incurred in that trade or business — a question of fact, turning on whether the loss bears a proximate relation to a business the taxpayer carries on when the debt goes bad",
+      "taxYear": 2026,
+      "source": "IRC § 166(d)(2)(A), (B); Treas. Reg. § 1.166-5(b) — https://www.law.cornell.edu/cfr/text/26/1.166-5",
+      "verified": "2026-08-19"
+    },
+    "baddebt.refund_period": {
+      "value": "seven years from the date the return was required to be filed, in place of the ordinary period, for a refund claim relating to the deductibility of a worthless debt or security or its effect on a carryover",
+      "taxYear": 2026,
+      "source": "IRC § 6511(d)(1)(A), (B) — https://www.law.cornell.edu/uscode/text/26/6511",
+      "verified": "2026-08-19"
+    },
+    "baddebt.wholly_worthless_only": {
+      "value": "no partial deduction — a loss on a nonbusiness debt is treated as sustained only if and when the debt has become totally worthless",
+      "taxYear": 2026,
+      "source": "Treas. Reg. § 1.166-5(a)(2) — https://www.law.cornell.edu/cfr/text/26/1.166-5",
+      "verified": "2026-08-19"
+    },
+    "baddebt.worthless_security": {
+      "value": "a security that is a capital asset and becomes worthless is a loss from a sale on the **last day of the taxable year**, which can turn a short holding into a long-term loss; such a debt is outside the nonbusiness bad debt rules",
+      "taxYear": 2026,
+      "source": "IRC § 165(g)(1), (2); Treas. Reg. § 1.166-5(b), final sentence — https://www.law.cornell.edu/uscode/text/26/165",
+      "verified": "2026-08-19"
+    },
     "basis.adjustments": {
       "value": "reduced for depreciation, amortisation and depletion to the extent allowed and producing a tax reduction, but **not less than the amount allowable** — and where no method was adopted, the allowable amount is computed straight line",
       "taxYear": 2026,
