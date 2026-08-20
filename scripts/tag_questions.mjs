@@ -226,8 +226,16 @@ const RULES = [
   ['1.3.1.c', /mortgage interest|investment interest|acquisition indebtedness|tracing rule|(?:mortgage|loan) points|points paid/i],
   ['1.3.1.e', /casualty (?:and theft )?loss|\b4684\b|federally declared disaster/i],
   ['1.3.1.b', /\bsalt\b|state and local tax|real estate tax|personal property tax/i],
-  ['1.3.1.g', /\b1040-?nr\b[\s\S]{0,60}itemi|itemi[\s\S]{0,60}\b1040-?nr\b/i],
-  ['1.3.1.f', /itemized deduction|standard deduction/i],
+  ['1.3.1.g', /\b1040-?nr\b[\s\S]{0,60}itemi|itemi[\s\S]{0,60}\b1040-?nr\b|nonresident alien[\s\S]{0,80}(?:standard|itemized) deduction|(?:standard|itemized) deduction[\s\S]{0,80}nonresident alien/i],
+  // Whether one spouse's itemizing forces the other to a zero standard deduction is IRC 63(c)(6)(A) —
+  // a 1.1.1.h question about which deduction is available, not a question about a particular itemized
+  // deduction, so it has to be caught before the generic 1.3.1.f rule.
+  ['1.1.1.h', /married filing separate[\s\S]{0,120}itemiz|itemiz[\s\S]{0,120}(?:spouse|married filing separate)[\s\S]{0,120}standard deduction/i],
+  ['1.3.1.f', /itemized deduction/i],
+  // The standard deduction is 1.1.1.h ("Sources of applicable deductions (e.g., itemized, standard)"),
+  // not "other itemized deductions" — a rule matching "standard deduction" on 1.3.1.f was collecting
+  // every dependent-standard-deduction and additional-standard-deduction question.
+  ['1.1.1.h', /standard deduction/i],
   // 1.2.2 retirement income
   ['1.2.2.h', /required minimum distribution|\brmd\b|excess accumulation/i],
   ['1.2.2.e', /(?:early|premature) (?:distribution|withdrawal)|\b5329\b|10 ?(?:%|percent)[\s\S]{0,30}(?:additional tax|penalty)/i],

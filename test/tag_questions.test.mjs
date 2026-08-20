@@ -70,6 +70,16 @@ test('an account-type list is a reporting question, not an options question', ()
   assert.equal(classify(q(1, 'When is income from an incentive stock option reported?')), '1.2.3.h');
 });
 
+test('the standard deduction is not an itemized deduction topic', () => {
+  // A rule matching "standard deduction" on 1.3.1.f (other itemized deductions) was collecting every
+  // dependent and additional standard deduction question. Those belong to 1.1.1.h; a nonresident alien
+  // asked about either deduction belongs to 1.3.1.g.
+  assert.equal(classify(q(1, 'What is the standard deduction for a dependent with earned income?')), '1.1.1.h');
+  assert.equal(classify(q(1, 'What is the standard deduction for a nonresident alien filing single?')), '1.3.1.g');
+  assert.equal(classify(q(1, 'A couple is married filing separately and one spouse itemizes deductions. What may the other claim?')), '1.1.1.h');
+  assert.equal(classify(q(1, 'Which itemized deduction survives the suspension of miscellaneous items?')), '1.3.1.f');
+});
+
 test('rules never tag across exam parts', () => {
   // The same subject asked in different parts must land in that part's own outline.
   // Part 1 has its own claim-for-refund topic, so the Part 1 question is placed there —
