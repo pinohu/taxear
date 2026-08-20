@@ -16,7 +16,7 @@ authorities:
   - { type: RevProc, ref: "Rev. Proc. 2025-32, §§ 2.03, 3.05", title: "2026 child tax credit and refundable portion", url: "https://www.irs.gov/pub/irs-drop/rp-25-32.pdf" }
   - { type: Statute, ref: "Pub. L. 119-21, § 70104", title: "Permanent and enhanced child tax credit", url: "https://www.law.cornell.edu/uscode/text/26/24" }
 forms: []
-related: ["1.1.1.i", "1.3.2.a", "1.1.1.j", "1.1.1.k"]
+related: ["1.1.1.i", "1.3.2.a", "1.1.1.j", "1.1.1.k", "1.3.2.c"]
 changelog:
   - { date: "2026-08-19", summary: "Initial draft. Sets out the IRC § 24(h) overlay that displaces the credit amount, threshold, refundable cap, earned income floor and identification rule printed in the body of the section, the § 24(h)(4) credit for other dependents, the § 24(d) refundability computation, the § 24(g) disallowance periods, and the changes made by Pub. L. 119-21 § 70104 effective for taxable years beginning after 31 December 2024." }
 ---

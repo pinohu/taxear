@@ -5401,6 +5401,48 @@
       "taxYear": 2026,
       "source": "IRC § 24(i)(3) and Rev. Proc. 2025-32 § 3.05, read at law.cornell.edu/uscode/text/26/24 and irs.gov/pub/irs-drop/rp-25-32.pdf",
       "verified": "2026-08-19"
+    },
+    "aotc.credit": {
+      "value": "100 percent of the first $2,000 of qualified tuition and related expenses for an eligible student and 25 percent of the next $2,000 — a maximum of $2,500 per student per year, never indexed",
+      "taxYear": 2026,
+      "source": "IRC § 25A, read at law.cornell.edu/uscode/text/26/25A",
+      "verified": "2026-08-19"
+    },
+    "aotc.refundable": {
+      "value": "40 percent of the American Opportunity credit as reduced by the IRC § 25A(d) phase-out, capped at $1,000 per student, and denied entirely to a taxpayer who is a child subject to the § 1(g) kiddie tax",
+      "taxYear": 2026,
+      "source": "IRC § 25A, read at law.cornell.edu/uscode/text/26/25A",
+      "verified": "2026-08-19"
+    },
+    "aotc.year_limit": {
+      "value": "four taxable years per student, counting elections made by the taxpayer or by anyone else, and only for a year in which the student carries at least half the normal full-time work load (IRC § 25A(b)(2)(A), (B), (3)(B))",
+      "taxYear": 2026,
+      "source": "IRC § 25A, read at law.cornell.edu/uscode/text/26/25A",
+      "verified": "2026-08-19"
+    },
+    "llc.credit": {
+      "value": "20 percent of up to $10,000 of qualified tuition and related expenses — a maximum of $2,000, per return rather than per student, and never indexed",
+      "taxYear": 2026,
+      "source": "IRC § 25A, read at law.cornell.edu/uscode/text/26/25A",
+      "verified": "2026-08-19"
+    },
+    "edcredit.phase_out": {
+      "value": "modified adjusted gross income of $80,000 to $90,000, or $160,000 to $180,000 on a joint return, applied ratably to each credit — fixed amounts, because the § 25A(h) indexing rule was repealed by Pub. L. 116-260 § 104(a)(2)",
+      "taxYear": 2026,
+      "source": "IRC § 25A, read at law.cornell.edu/uscode/text/26/25A",
+      "verified": "2026-08-19"
+    },
+    "edcredit.ssn_requirement": {
+      "value": "for taxable years beginning after 31 December 2025 the return must carry the taxpayer's social security number as defined in IRC § 24(h)(7), and the name and social security number of any student other than the taxpayer or spouse — a taxpayer identification number no longer suffices",
+      "taxYear": 2026,
+      "source": "IRC § 25A(g)(1) as amended by Pub. L. 119-21 § 70606(a), with the effective date at § 70606(c), read at law.cornell.edu/uscode/text/26/25A",
+      "verified": "2026-08-19"
+    },
+    "edcredit.prepayment_window": {
+      "value": "expenses paid in one taxable year for an academic period beginning in the first three months of the next are treated as paid for a period beginning in the year of payment (IRC § 25A(g)(4))",
+      "taxYear": 2026,
+      "source": "IRC § 25A, read at law.cornell.edu/uscode/text/26/25A",
+      "verified": "2026-08-19"
     }
   }
 }
