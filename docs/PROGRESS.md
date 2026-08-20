@@ -9,10 +9,10 @@ is indexed, and only the owner moves a page there (see `docs/VERIFICATION.md`).
 
 | Part | Topics | Stub | Draft | Review | Published | Words |
 |---|---:|---:|---:|---:|---:|---:|
-| 1. Individuals | 120 | 68 | 0 | 42 | 10 | 119,342 |
+| 1. Individuals | 120 | 67 | 0 | 43 | 10 | 121,618 |
 | 2. Businesses | 119 | 119 | 0 | 0 | 0 | 0 |
 | 3. Representation, Practices and Procedures | 121 | 0 | 0 | 0 | 121 | 257,674 |
-| **All parts** | **360** | **187** | **0** | **42** | **131** | **377,016** |
+| **All parts** | **360** | **186** | **0** | **43** | **131** | **379,292** |
 
 ## Part 1 — Individuals
 
@@ -91,7 +91,7 @@ is indexed, and only the owner moves a page there (see `docs/VERIFICATION.md`).
 | 1.2.3.e | [Publicly traded partnerships (PTP) (e.g., sales, dispositions, losses)](/individuals/income-and-assets/property-real-and-personal/publicly-traded-partnerships-ptp/) | review | 2,083 | 2026-08-19 |
 | 1.2.3.f | [Sale of a personal residence (e.g., IRC Section 121 exclusions)](/individuals/income-and-assets/property-real-and-personal/sale-of-a-personal-residence/) | review | 2,239 | 2026-08-19 |
 | 1.2.3.g | [Installment sales (e.g., related parties, original cost, date of acquisition, possible recalculations and recharacterization)](/individuals/income-and-assets/property-real-and-personal/installment-sales/) | review | 2,200 | 2026-08-19 |
-| 1.2.3.h | [Options (e.g., stock, commodity, ISO, ESPP)](/individuals/income-and-assets/property-real-and-personal/options/) | stub | — | — |
+| 1.2.3.h | [Options (e.g., stock, commodity, ISO, ESPP)](/individuals/income-and-assets/property-real-and-personal/options/) | review | 2,276 | 2026-08-19 |
 | 1.2.3.i | [Like-kind exchange](/individuals/income-and-assets/property-real-and-personal/like-kind-exchange/) | stub | — | — |
 | 1.2.3.j | [Non-business bad debts](/individuals/income-and-assets/property-real-and-personal/non-business-bad-debts/) | stub | — | — |
 | 1.2.3.k | [Investor versus trader](/individuals/income-and-assets/property-real-and-personal/investor-versus-trader/) | stub | — | — |

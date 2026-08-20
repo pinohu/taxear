@@ -2726,6 +2726,78 @@
       "source": "IRS Offer in Compromise page and Form 656-B booklet; IRC § 7122(c)(1)(A)(ii)",
       "verified": "2026-08-18"
     },
+    "options.disqualifying_disposition": {
+      "value": "where only the holding periods fail, the income increase and the employer's deduction fall in the year of the **disposition** rather than the year of exercise — and no chapter 24 withholding is required on it",
+      "taxYear": 2026,
+      "source": "IRC § 421(b) — https://www.law.cornell.edu/uscode/text/26/421",
+      "verified": "2026-08-19"
+    },
+    "options.espp_discount_compensation": {
+      "value": "where the option price was below full value at grant, a qualifying disposition or death still produces compensation — the lesser of the excess of value at disposition over the price paid, or the excess of value at grant over the option price — added to basis and not subject to withholding",
+      "taxYear": 2026,
+      "source": "IRC § 423(c)(1), (2) and its closing text — https://www.law.cornell.edu/uscode/text/26/423",
+      "verified": "2026-08-19"
+    },
+    "options.espp_holding": {
+      "value": "no disposition within 2 years after the grant nor within 1 year after the share is transferred, and employment at all times from grant until 3 months before exercise",
+      "taxYear": 2026,
+      "source": "IRC § 423(a)(1), (2) — https://www.law.cornell.edu/uscode/text/26/423",
+      "verified": "2026-08-19"
+    },
+    "options.espp_price_and_limits": {
+      "value": "an option price of not less than 85 percent of value at grant or at exercise; an option period of 5 years where the price is set against value at exercise; and no employee accruing rights to purchase more than $25,000 of stock, valued at grant, for each calendar year the option is outstanding",
+      "taxYear": 2026,
+      "source": "IRC § 423(b)(6), (7), (8) — https://www.law.cornell.edu/uscode/text/26/423",
+      "verified": "2026-08-19"
+    },
+    "options.grantor_character": {
+      "value": "for the grantor of an option in stock, securities or commodities, gain or loss on a closing transaction and gain on lapse are short-term capital — treated as from the sale of a capital asset held not more than 1 year",
+      "taxYear": 2026,
+      "source": "IRC § 1234(b)(1) — https://www.law.cornell.edu/uscode/text/26/1234",
+      "verified": "2026-08-19"
+    },
+    "options.iso_amt": {
+      "value": "IRC § 421 does not apply for alternative minimum tax purposes, so the bargain element at exercise is an adjustment and the AMT basis of the stock differs from its regular tax basis",
+      "taxYear": 2026,
+      "source": "IRC § 56(b)(3) — https://www.law.cornell.edu/uscode/text/26/56",
+      "verified": "2026-08-19"
+    },
+    "options.iso_annual_limit": {
+      "value": "options first exercisable in a calendar year, across all plans of the employer and its parents and subsidiaries, for stock whose aggregate value at grant exceeds $100,000 are not incentive stock options — applied in the order the options were granted",
+      "taxYear": 2026,
+      "source": "IRC § 422(d)(1), (2) — https://www.law.cornell.edu/uscode/text/26/422",
+      "verified": "2026-08-19"
+    },
+    "options.iso_holding": {
+      "value": "no disposition within 2 years from the grant nor within 1 year after the share is transferred, and employment with the granting corporation or a parent or subsidiary at all times from grant until 3 months before exercise",
+      "taxYear": 2026,
+      "source": "IRC § 422(a)(1), (2) — https://www.law.cornell.edu/uscode/text/26/422",
+      "verified": "2026-08-19"
+    },
+    "options.iso_plan_terms": {
+      "value": "a shareholder-approved plan; grant within 10 years of adoption or approval; not exercisable more than 10 years after grant; an option price not less than fair market value at grant; non-transferable except by will or descent; and the holder owning not more than 10 percent of the voting power at grant",
+      "taxYear": 2026,
+      "source": "IRC § 422(b)(1)–(6) — https://www.law.cornell.edu/uscode/text/26/422",
+      "verified": "2026-08-19"
+    },
+    "options.purchaser_character": {
+      "value": "gain or loss on the sale of an option, or loss from failing to exercise it, has the same character as the underlying property would have in the taxpayer's hands — and an option that lapses is deemed sold on the day it expired",
+      "taxYear": 2026,
+      "source": "IRC § 1234(a)(1), (2) — https://www.law.cornell.edu/uscode/text/26/1234",
+      "verified": "2026-08-19"
+    },
+    "options.reporting": {
+      "value": "a corporation transferring stock on the exercise of an incentive stock option, or recording a transfer of title to stock acquired under an IRC § 423(c) option, must file a return and furnish a statement to the individual",
+      "taxYear": 2026,
+      "source": "IRC § 6039(a)(1), (2), (b) — https://www.law.cornell.edu/uscode/text/26/6039",
+      "verified": "2026-08-19"
+    },
+    "options.statutory_effect": {
+      "value": "on a qualifying transfer no income results at exercise, the employer gets no IRC § 162 deduction, and nothing beyond the option price is treated as received by the corporation for the share",
+      "taxYear": 2026,
+      "source": "IRC § 421(a)(1)–(3) — https://www.law.cornell.edu/uscode/text/26/421",
+      "verified": "2026-08-19"
+    },
     "overtime.deduction_cap": {
       "value": "$12,500 of qualified overtime compensation, or $25,000 on a joint return, reduced by $100 for each $1,000 of modified adjusted gross income above $150,000, or $300,000 joint",
       "taxYear": 2026,

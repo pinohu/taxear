@@ -158,7 +158,10 @@ const RULES = [
   ['1.6.3.d', /\bfbar\b[\s\S]{0,80}\b8938\b|\b8938\b[\s\S]{0,80}\bfbar\b/i],
   ['1.6.3.f', /voluntary disclosure/i],
   ['1.6.3.e', /\bgilti\b|global intangible low-?taxed|\b965\b|transition tax/i],
-  ['1.6.3.b', /covered account/i],
+  // "Which of these is a foreign financial account" is a 1.6.3.b question. It lists account types —
+  // stock options among them — so it has to be recognised here or the bare "stock option" rule for
+  // 1.2.3.h claims it first.
+  ['1.6.3.b', /covered account|foreign financial account/i],
   ['1.6.3.c', /\b(?:fbar|8938|5471|8865|3520)\b[\s\S]{0,80}penalt|penalt[\s\S]{0,80}\b(?:fbar|8938|5471|8865|3520)\b/i],
   ['1.6.3.a', /\bfbar\b|fincen (?:form )?114|\b(?:5471|8865|8938|3520(?:-a)?)\b/i],
   // 1.6.2 gift tax

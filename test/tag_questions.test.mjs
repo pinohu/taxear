@@ -63,6 +63,13 @@ test('a distractor does not decide the topic', () => {
   assert.equal(classify(q(1, 'A composer transfers all rights to a song. Is the capital gain treatment or royalty income correct?')), '1.2.3.b');
 });
 
+test('an account-type list is a reporting question, not an options question', () => {
+  // "Stock options account" appearing in a list of foreign financial account types pulled an FBAR
+  // question onto the options topic. A genuine options question still lands on 1.2.3.h.
+  assert.equal(classify(q(1, 'Which of these held abroad is not a foreign financial account? A stock options account.')), '1.6.3.b');
+  assert.equal(classify(q(1, 'When is income from an incentive stock option reported?')), '1.2.3.h');
+});
+
 test('rules never tag across exam parts', () => {
   // The same subject asked in different parts must land in that part's own outline.
   // Part 1 has its own claim-for-refund topic, so the Part 1 question is placed there —
