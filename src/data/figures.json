@@ -2163,15 +2163,15 @@
       "verified": "2026-08-18"
     },
     "ftc.carryover": {
-      "value": "excess creditable foreign taxes carry back one year and forward ten, in that order, to the extent the limitation in that year exceeds the taxes paid for it",
+      "value": "one year back and ten years forward, in that order, usable only as a credit and never as a deduction, and only for a year in which the taxpayer elects the credit (IRC § 904(c))",
       "taxYear": 2026,
-      "source": "IRC § 904(c) — https://www.law.cornell.edu/uscode/text/26/904",
+      "source": "IRC § 904(c), read at law.cornell.edu/uscode/text/26/904",
       "verified": "2026-08-19"
     },
     "ftc.de_minimis_election": {
-      "value": "an election to disapply the IRC § 904(a) limitation where all foreign-source gross income is qualified passive income and creditable foreign taxes do not exceed $300, or $600 on a joint return — at the price of no carryback or carryover in either direction",
+      "value": "creditable foreign taxes of $300, or $600 on a joint return, where all foreign source gross income is qualified passive income shown on a payee statement — the taxpayer elects out of the § 904(a) limitation entirely, and forfeits any carryback or carryover for that year (IRC § 904(j))",
       "taxYear": 2026,
-      "source": "IRC § 904(j)(1), (j)(2) — https://www.law.cornell.edu/uscode/text/26/904",
+      "source": "IRC § 904(j), read at law.cornell.edu/uscode/text/26/904",
       "verified": "2026-08-19"
     },
     "gambling.expenses_as_losses": {
@@ -5442,6 +5442,36 @@
       "value": "expenses paid in one taxable year for an academic period beginning in the first three months of the next are treated as paid for a period beginning in the year of payment (IRC § 25A(g)(4))",
       "taxYear": 2026,
       "source": "IRC § 25A, read at law.cornell.edu/uscode/text/26/25A",
+      "verified": "2026-08-19"
+    },
+    "ftc.limitation": {
+      "value": "the credit cannot exceed the same proportion of the US tax as foreign source taxable income bears to entire taxable income — computed without any deduction for personal exemptions, and with foreign source capital gain counted only to the extent of foreign source capital gain net income (IRC § 904(a), (b)(1), (b)(2)(A))",
+      "taxYear": 2026,
+      "source": "IRC § 904, read at law.cornell.edu/uscode/text/26/904",
+      "verified": "2026-08-19"
+    },
+    "ftc.baskets": {
+      "value": "four separate limitations — net CFC tested income includible under IRC § 951A other than passive category income, foreign branch income, passive category income, and general category income (IRC § 904(d)(1)(A)–(D))",
+      "taxYear": 2026,
+      "source": "IRC § 904(d), read at law.cornell.edu/uscode/text/26/904",
+      "verified": "2026-08-19"
+    },
+    "ftc.holding_period": {
+      "value": "no credit for a withholding tax on a dividend where the stock was held for 15 days or less within the 31-day period beginning 15 days before the ex-dividend date, or where the recipient is obliged to make related payments on substantially similar property (IRC § 901(k)(1))",
+      "taxYear": 2026,
+      "source": "IRC § 901(k), read at law.cornell.edu/uscode/text/26/901",
+      "verified": "2026-08-19"
+    },
+    "ftc.refund_period": {
+      "value": "ten years from the due date of the return for the year in which the foreign taxes were actually paid or accrued, in place of the ordinary three years (IRC § 6511(d)(3)(A))",
+      "taxYear": 2026,
+      "source": "IRC § 6511(d)(3)(A), read at law.cornell.edu/uscode/text/26/6511",
+      "verified": "2026-08-19"
+    },
+    "ftc.credit_or_deduction": {
+      "value": "all or nothing for the year — IRC § 275(a)(4) denies any deduction for foreign income taxes if the taxpayer chooses the credit to any extent, and the choice may be made or changed at any time within the refund claim period under § 901(a)",
+      "taxYear": 2026,
+      "source": "IRC §§ 275(a)(4) and 901(a), read at law.cornell.edu/uscode/text/26/275 and /901",
       "verified": "2026-08-19"
     }
   }

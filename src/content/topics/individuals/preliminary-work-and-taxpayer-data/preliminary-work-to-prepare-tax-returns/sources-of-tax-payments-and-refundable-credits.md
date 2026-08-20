@@ -18,7 +18,7 @@ authorities:
   - { type: IRC, ref: "§ 6695", title: "Other assessable penalties with respect to the preparation of tax returns", url: "https://www.law.cornell.edu/uscode/text/26/6695" }
   - { type: RevProc, ref: "2025-32", title: "Inflation-adjusted items for 2026", url: "https://www.irs.gov/pub/irs-drop/rp-25-32.pdf" }
 forms: []
-related: ["1.1.1.j", "1.1.1.d", "1.1.1.q", "1.1.1.a", "1.1.1.m", "1.2.1.a", "1.3.2.b", "1.3.2.c"]
+related: ["1.1.1.j", "1.1.1.d", "1.1.1.q", "1.1.1.a", "1.1.1.m", "1.2.1.a", "1.3.2.b", "1.3.2.c", "1.3.2.d"]
 changelog:
   - { date: "2026-08-19", summary: "Initial draft. Sets out the IRC § 6654(d) safe harbours and the IRC § 6654(g) rule deeming withholding paid ratably across the installment dates, the IRC § 32 figures for 2026, and the IRC § 6402(m) refund hold." }
 ---
