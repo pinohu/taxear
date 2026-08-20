@@ -1307,7 +1307,7 @@
     "dependentcare.exclusion": {
       "value": "$7,500, or $3,750 on a separate return by a married individual, raised from $5,000 and $2,500 for taxable years beginning after 31 December 2025",
       "taxYear": 2026,
-      "source": "IRC § 129(a)(2)(A) as amended by Pub. L. 119-21 § 70404(a), (b) — https://www.law.cornell.edu/uscode/text/26/129",
+      "source": "IRC § 129(a)(2)(A) as amended by Pub. L. 119-21 § 70404, read at law.cornell.edu/uscode/text/26/129",
       "verified": "2026-08-19"
     },
     "depletion.independent_producer": {
@@ -5304,6 +5304,36 @@
       "value": "generally 60% of fair market value",
       "taxYear": 2026,
       "source": "IRM 5.15.1.21, Determining Equity in Assets (revised 29 June 2026)",
+      "verified": "2026-08-19"
+    },
+    "cdcc.applicable_percentage": {
+      "value": "50 percent, reduced by 1 percentage point for each $2,000 or fraction of adjusted gross income over $15,000 but not below 35 percent, then further reduced by 1 point for each $2,000 ($4,000 joint) of adjusted gross income over $75,000 ($150,000 joint) but not below 20 percent",
+      "taxYear": 2026,
+      "source": "IRC § 21(a)(2), (b)(1), (c), (d)(2) as amended by Pub. L. 119-21 § 70405, read at law.cornell.edu/uscode/text/26/21",
+      "verified": "2026-08-19"
+    },
+    "cdcc.expense_limit": {
+      "value": "$3,000 of employment-related expenses for one qualifying individual and $6,000 for two or more — fixed, never indexed, and reduced by any amount excluded from gross income under IRC § 129",
+      "taxYear": 2026,
+      "source": "IRC § 21(a)(2), (b)(1), (c), (d)(2) as amended by Pub. L. 119-21 § 70405, read at law.cornell.edu/uscode/text/26/21",
+      "verified": "2026-08-19"
+    },
+    "cdcc.floor_percentage": {
+      "value": "20 percent — the credit never falls below one fifth of creditable expenses however high adjusted gross income goes",
+      "taxYear": 2026,
+      "source": "IRC § 21(a)(2), (b)(1), (c), (d)(2) as amended by Pub. L. 119-21 § 70405, read at law.cornell.edu/uscode/text/26/21",
+      "verified": "2026-08-19"
+    },
+    "cdcc.deemed_earned_income": {
+      "value": "$250 a month if there is one qualifying individual and $500 a month if there are two or more, deemed earned income for a spouse who is a full-time student or is incapable of self-care",
+      "taxYear": 2026,
+      "source": "IRC § 21(a)(2), (b)(1), (c), (d)(2) as amended by Pub. L. 119-21 § 70405, read at law.cornell.edu/uscode/text/26/21",
+      "verified": "2026-08-19"
+    },
+    "cdcc.qualifying_age": {
+      "value": "under age 13 for a dependent qualifying by age; there is no age ceiling for a dependent or spouse who is physically or mentally incapable of self-care and shares the taxpayer's principal place of abode for more than half the year",
+      "taxYear": 2026,
+      "source": "IRC § 21(a)(2), (b)(1), (c), (d)(2) as amended by Pub. L. 119-21 § 70405, read at law.cornell.edu/uscode/text/26/21",
       "verified": "2026-08-19"
     }
   }

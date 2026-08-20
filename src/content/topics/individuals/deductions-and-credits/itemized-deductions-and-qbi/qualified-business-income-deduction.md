@@ -18,7 +18,7 @@ authorities:
   - { type: RevProc, ref: "Rev. Proc. 2025-32, §§ 2.12, 3.26", title: "2026 inflation-adjusted § 199A threshold amounts", url: "https://www.irs.gov/pub/irs-drop/rp-25-32.pdf" }
   - { type: Statute, ref: "Pub. L. 119-21, § 70105", title: "Permanent § 199A deduction and minimum deduction for active QBI", url: "https://www.law.cornell.edu/uscode/text/26/199A" }
 forms: []
-related: ["1.2.1.l", "1.2.3.e", "1.2.4.a", "1.3.1.f", "1.2.3.k"]
+related: ["1.2.1.l", "1.2.3.e", "1.2.4.a", "1.3.1.f", "1.2.3.k", "1.3.2.a"]
 changelog:
   - { date: "2026-08-19", summary: "Initial draft. Sets out the two-limb IRC § 199A(a) computation, the § 199A(b)(2) wage and property limitation and its § 199A(b)(3) phase-in, the § 199A(d) specified service exclusion, the § 199A(f)(1) partner-level application, the 2026 threshold and phase-in figures from Rev. Proc. 2025-32 § 3.26, and the new § 199A(i) minimum deduction that Pub. L. 119-21 § 70105 put where the sunset used to be." }
 ---
