@@ -1689,9 +1689,9 @@
       "verified": "2026-08-19"
     },
     "eitc.earned_income_amount": {
-      "value": "$8,680 with no qualifying child, $13,020 with one, and $18,290 with two or with three or more — the earned income at which the maximum credit is reached",
+      "value": "$8,680 with no qualifying child, $13,020 with one, and $18,290 with two or with three or more — the earned income at or above which the maximum credit is reached, for 2026",
       "taxYear": 2026,
-      "source": "Rev. Proc. 2025-32 § 3.06(1), adjusting IRC § 32(b) — https://www.irs.gov/pub/irs-drop/rp-25-32.pdf",
+      "source": "Rev. Proc. 2025-32 § 3.06, read at irs.gov/pub/irs-drop/rp-25-32.pdf",
       "verified": "2026-08-19"
     },
     "eitc.investment_income_limit": {
@@ -1701,9 +1701,9 @@
       "verified": "2026-08-19"
     },
     "eitc.max_credit": {
-      "value": "$664 with no qualifying child, $4,427 with one, $7,316 with two, and $8,231 with three or more",
+      "value": "$664 with no qualifying child, $4,427 with one, $7,316 with two and $8,231 with three or more, for taxable years beginning in 2026",
       "taxYear": 2026,
-      "source": "Rev. Proc. 2025-32 § 3.06(1), adjusting IRC § 32(b) — https://www.irs.gov/pub/irs-drop/rp-25-32.pdf",
+      "source": "Rev. Proc. 2025-32 § 3.06, read at irs.gov/pub/irs-drop/rp-25-32.pdf",
       "verified": "2026-08-19"
     },
     "eitc.phaseout": {
@@ -5472,6 +5472,54 @@
       "value": "all or nothing for the year — IRC § 275(a)(4) denies any deduction for foreign income taxes if the taxpayer chooses the credit to any extent, and the choice may be made or changed at any time within the refund claim period under § 901(a)",
       "taxYear": 2026,
       "source": "IRC §§ 275(a)(4) and 901(a), read at law.cornell.edu/uscode/text/26/275 and /901",
+      "verified": "2026-08-19"
+    },
+    "eitc.phase_out_start": {
+      "value": "$10,860 with no qualifying child and $23,890 with any number of qualifying children, or $18,140 and $31,160 respectively on a joint return, measured against adjusted gross income or earned income, whichever is greater (2026)",
+      "taxYear": 2026,
+      "source": "Rev. Proc. 2025-32 § 3.06, read at irs.gov/pub/irs-drop/rp-25-32.pdf",
+      "verified": "2026-08-19"
+    },
+    "eitc.completed_phase_out": {
+      "value": "$19,540 with no qualifying child, $51,593 with one, $58,629 with two and $62,974 with three or more — increased on a joint return to $26,820, $58,863, $65,899 and $70,244 (2026)",
+      "taxYear": 2026,
+      "source": "Rev. Proc. 2025-32 § 3.06, read at irs.gov/pub/irs-drop/rp-25-32.pdf",
+      "verified": "2026-08-19"
+    },
+    "eitc.disqualified_income": {
+      "value": "$12,200 of disqualified income for taxable years beginning in 2026 — the IRC § 32(i)(1) figure of $10,000 as indexed; one dollar over and the whole credit is denied",
+      "taxYear": 2026,
+      "source": "IRC § 32(i) read at law.cornell.edu/uscode/text/26/32 and Rev. Proc. 2025-32 § 3.06(2) read at irs.gov/pub/irs-drop/rp-25-32.pdf",
+      "verified": "2026-08-19"
+    },
+    "eitc.childless_age": {
+      "value": "a principal place of abode in the United States for more than half the year, age at least 25 and under 65 before the close of the year — either spouse satisfies the age test on a joint return — and not being a dependent of another taxpayer (IRC § 32(c)(1)(A)(ii))",
+      "taxYear": 2026,
+      "source": "IRC § 32, read at law.cornell.edu/uscode/text/26/32",
+      "verified": "2026-08-19"
+    },
+    "eitc.disallowance_period": {
+      "value": "ten taxable years after a final determination that the claim was due to fraud and two taxable years after a final determination of reckless or intentional disregard of the rules (IRC § 32(k)(1)(B))",
+      "taxYear": 2026,
+      "source": "IRC § 32, read at law.cornell.edu/uscode/text/26/32",
+      "verified": "2026-08-19"
+    },
+    "eitc.ssn_requirement": {
+      "value": "a social security number issued by the Social Security Administration on or before the return's due date, and not one issued solely to establish entitlement to a federally funded benefit — required for the taxpayer, the spouse and every qualifying child taken into account (IRC § 32(m))",
+      "taxYear": 2026,
+      "source": "IRC § 32, read at law.cornell.edu/uscode/text/26/32",
+      "verified": "2026-08-19"
+    },
+    "eitc.preparer_penalty": {
+      "value": "$665 for each failure to meet the due diligence requirements, with no maximum, for a return or claim for refund filed in 2027 — the same penalty covers head of household status, the child tax credit, the American Opportunity credit and the earned income credit",
+      "taxYear": 2026,
+      "source": "IRC § 6695(g) and Rev. Proc. 2025-32 § 3.54, read at law.cornell.edu/uscode/text/26/6695 and irs.gov/pub/irs-drop/rp-25-32.pdf",
+      "verified": "2026-08-19"
+    },
+    "eitc.due_diligence": {
+      "value": "four requirements — complete and file Form 8867, compute the credit on the prescribed worksheet or a documented equivalent, meet the knowledge standard by making and contemporaneously documenting reasonable inquiries where the information appears incorrect, inconsistent or incomplete, and retain the records for three years",
+      "taxYear": 2026,
+      "source": "Reg. § 1.6695-2(b)(1)–(4), read at law.cornell.edu/cfr/text/26/1.6695-2",
       "verified": "2026-08-19"
     }
   }

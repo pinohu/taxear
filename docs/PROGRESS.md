@@ -9,10 +9,10 @@ is indexed, and only the owner moves a page there (see `docs/VERIFICATION.md`).
 
 | Part | Topics | Stub | Draft | Review | Published | Words |
 |---|---:|---:|---:|---:|---:|---:|
-| 1. Individuals | 120 | 47 | 0 | 63 | 10 | 162,813 |
+| 1. Individuals | 120 | 46 | 0 | 64 | 10 | 165,303 |
 | 2. Businesses | 119 | 119 | 0 | 0 | 0 | 0 |
 | 3. Representation, Practices and Procedures | 121 | 0 | 0 | 0 | 121 | 257,674 |
-| **All parts** | **360** | **166** | **0** | **63** | **131** | **420,487** |
+| **All parts** | **360** | **165** | **0** | **64** | **131** | **422,977** |
 
 ## Part 1 — Individuals
 
@@ -129,7 +129,7 @@ is indexed, and only the owner moves a page there (see `docs/VERIFICATION.md`).
 | 1.3.2.b | [Child tax credit and credit for other dependents](/individuals/deductions-and-credits/credits/child-tax-credit-and-credit-for-other-dependents/) | review | 2,337 | 2026-08-19 |
 | 1.3.2.c | [Education credits](/individuals/deductions-and-credits/credits/education-credits/) | review | 2,458 | 2026-08-19 |
 | 1.3.2.d | [Foreign tax credit](/individuals/deductions-and-credits/credits/foreign-tax-credit/) | review | 2,355 | 2026-08-19 |
-| 1.3.2.e | [Earned income tax credit (e.g., paid preparer's earned income credit checklist, eligibility and disallowance)](/individuals/deductions-and-credits/credits/earned-income-tax-credit/) | stub | — | — |
+| 1.3.2.e | [Earned income tax credit (e.g., paid preparer's earned income credit checklist, eligibility and disallowance)](/individuals/deductions-and-credits/credits/earned-income-tax-credit/) | review | 2,490 | 2026-08-19 |
 | 1.3.2.f | [Adoption credits (e.g., carryovers, limitations, special needs)](/individuals/deductions-and-credits/credits/adoption-credits/) | stub | — | — |
 | 1.3.2.g | [ACA net premium tax credit](/individuals/deductions-and-credits/credits/aca-net-premium-tax-credit/) | stub | — | — |
 | 1.3.2.h | [Other credits (refundable and nonrefundable) (e.g., health coverage tax credit, energy credits, Retirement savings contribution credit)](/individuals/deductions-and-credits/credits/other-credits-refundable-and-nonrefundable/) | stub | — | — |

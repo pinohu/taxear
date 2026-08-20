@@ -80,6 +80,20 @@ test('the standard deduction is not an itemized deduction topic', () => {
   assert.equal(classify(q(1, 'Which itemized deduction survives the suspension of miscellaneous items?')), '1.3.1.f');
 });
 
+test('a credit named only as a distractor does not claim the question', () => {
+  // "The AOTC is not refundable when the student is subject to the kiddie tax" lists the earned income
+  // credit among its wrong answers. It is an education credit question.
+  assert.equal(classify({ part: 1, stem: 'The American Opportunity Tax Credit is not refundable in which scenario?', choices: { A: 'The student is subject to the kiddie tax', B: 'The individual is also claiming the Earned Income Tax Credit' }, explanation: '' }), '1.3.2.c');
+});
+
+test('an enumeration of refundable credits is its own topic', () => {
+  // A list question naming half of subpart C belongs to "other credits (refundable and nonrefundable)",
+  // not to whichever credit happens to appear first in the answer choices.
+  assert.equal(classify({ part: 1, stem: 'All of the following are refundable tax credits except:', choices: { A: 'Premium Tax Credit', B: "Retirement Savings Contributions Credit", C: 'Earned Income Tax Credit' }, explanation: '' }), '1.3.2.h');
+  // A genuine earned income credit question is still tagged there.
+  assert.equal(classify(q(1, 'What is the maximum earned income credit for a taxpayer with two qualifying children?')), '1.3.2.e');
+});
+
 test('rules never tag across exam parts', () => {
   // The same subject asked in different parts must land in that part's own outline.
   // Part 1 has its own claim-for-refund topic, so the Part 1 question is placed there —

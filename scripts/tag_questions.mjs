@@ -192,10 +192,17 @@ const RULES = [
   ['1.5.1.k', /timing of income and expense/i],
   ['1.5.1.b', /sale of (?:a )?business|collectible/i],
   // 1.3.2 credits
+  // "Which of the following are refundable credits except..." enumerates most of subpart C, so nearly
+  // every 1.3.2 rule below would match one of its answer choices. The enumeration itself is the topic —
+  // 1.3.2.h is "Other credits (refundable and nonrefundable)" — so it has to be recognised first.
+  ['1.3.2.h', /all of the following (?:are|is)[\s\S]{0,30}(?:non-?)?refundable|which[\s\S]{0,40}(?:non-?)?refundable (?:tax )?credits?\b/i],
+  // The education credits are named in full in questions about them and appear as bare distractors in
+  // questions about other credits, so they are placed ahead of the earned income credit rule: an AOTC
+  // question that lists the EITC among its wrong answers is an education credit question.
+  ['1.3.2.c', /american opportunity|lifetime learning|education credit|\b8863\b|\b1098-?t\b/i],
   ['1.3.2.e', /earned income (?:tax )?credit|\beitc\b|\beic\b|\b8867\b/i],
   ['1.3.2.b', /child tax credit|credit for other dependents|\bactc\b|\b8812\b/i],
   ['1.3.2.a', /child and dependent care|\b2441\b|dependent care credit/i],
-  ['1.3.2.c', /american opportunity|lifetime learning|education credit|\b8863\b|\b1098-?t\b/i],
   ['1.3.2.d', /foreign tax credit|\b1116\b/i],
   ['1.3.2.f', /adoption credit|\b8839\b/i],
   ['1.3.2.g', /premium tax credit|\b8962\b|\baptc\b/i],
