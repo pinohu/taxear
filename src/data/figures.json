@@ -56,6 +56,54 @@
       "source": "IRC § 5000A(c)(2)(B)(iii), (c)(3)(A) — https://www.law.cornell.edu/uscode/text/26/5000A",
       "verified": "2026-08-19"
     },
+    "adj.above_the_line_business": {
+      "value": "deductions attributable to a trade or business not consisting of the performance of services as an employee are taken in computing adjusted gross income — the gateway that makes several of these adjustments work",
+      "taxYear": 2026,
+      "source": "IRC § 62(a)(1) — https://www.law.cornell.edu/uscode/text/26/62",
+      "verified": "2026-08-19"
+    },
+    "adj.alimony": {
+      "value": "no deduction — IRC § 215 was repealed by Pub. L. 115-97 § 11051(a), so payments under an instrument executed after 2018, or modified after that date to adopt the change, are neither deductible nor includible",
+      "taxYear": 2026,
+      "source": "IRC § 215 (repealed), as shown at https://www.law.cornell.edu/uscode/text/26/215",
+      "verified": "2026-08-19"
+    },
+    "adj.educator_expenses": {
+      "value": "$350 for 2026, for books, supplies other than nonathletic supplies for health or physical education courses, computer and other equipment, and supplementary materials used in the classroom — plus professional development courses",
+      "taxYear": 2026,
+      "source": "Rev. Proc. 2025-32 § 3.12, adjusting IRC § 62(a)(2)(D)(i), (ii) — https://www.irs.gov/pub/irs-drop/rp-25-32.pdf",
+      "verified": "2026-08-19"
+    },
+    "adj.eligible_educator": {
+      "value": "a kindergarten through grade 12 teacher, instructor, counselor, principal or aide in a school for at least 900 hours during a school year — so a college instructor is outside it",
+      "taxYear": 2026,
+      "source": "IRC § 62(d)(1)(A), (B) — https://www.law.cornell.edu/uscode/text/26/62",
+      "verified": "2026-08-19"
+    },
+    "adj.moving_expenses": {
+      "value": "suspended for everyone except a member of the Armed Forces on active duty moving pursuant to a military order incident to a permanent change of station, and — from 2026 — an employee or new appointee of the intelligence community relocating on a change of assignment",
+      "taxYear": 2026,
+      "source": "IRC § 217(k)(1), (2), as amended by Pub. L. 119-21 § 70113(a), (b) — https://www.law.cornell.edu/uscode/text/26/217",
+      "verified": "2026-08-19"
+    },
+    "adj.reservist_travel": {
+      "value": "travel expenses at not more than the Federal per diem rates, incurred by a member of a reserve component performing services more than 100 miles from home",
+      "taxYear": 2026,
+      "source": "IRC § 62(a)(2)(E) — https://www.law.cornell.edu/uscode/text/26/62",
+      "verified": "2026-08-19"
+    },
+    "adj.student_loan_interest": {
+      "value": "interest paid during the year on any qualified education loan, capped at $2,500 — one cap per return, however many loans or students",
+      "taxYear": 2026,
+      "source": "IRC § 221(a), (b)(1) — https://www.law.cornell.edu/uscode/text/26/221",
+      "verified": "2026-08-19"
+    },
+    "adj.student_loan_phaseout": {
+      "value": "phased out for modified adjusted gross income above $85,000, or $175,000 on a joint return, and gone entirely at $100,000, or $205,000 on a joint return",
+      "taxYear": 2026,
+      "source": "Rev. Proc. 2025-32 § 3.29, adjusting IRC § 221(b)(2)(B) — https://www.irs.gov/pub/irs-drop/rp-25-32.pdf",
+      "verified": "2026-08-19"
+    },
     "adoption.credit": {
       "value": "qualified adoption expenses up to $17,670, of which $5,120 is refundable, phasing out between $265,080 and $305,080 of modified adjusted gross income",
       "taxYear": 2026,
