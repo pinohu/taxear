@@ -53,6 +53,16 @@ test('a dollar amount is not a code section', () => {
   assert.equal(classify(q(1, 'What is unrecaptured 1250 gain on the sale of a rental?')), '1.2.3.a');
 });
 
+test('a distractor does not decide the topic', () => {
+  // "Schedule D" among the wrong answers pulled a royalty-reporting question onto capital gains, and a
+  // bare "capital gain" pulled a section 121 question there too. Both now resolve to their own topic,
+  // while a question about *selling* self-created property stays on capital gains even though "royalty
+  // income" appears as a distractor.
+  assert.equal(classify(q(1, 'A writer receives royalties from sales. Schedule C, Schedule E or Schedule D?')), '1.2.1.m');
+  assert.equal(classify(q(1, 'How long must you live in a primary residence to claim the capital gain tax exemption?')), '1.2.3.f');
+  assert.equal(classify(q(1, 'A composer transfers all rights to a song. Is the capital gain treatment or royalty income correct?')), '1.2.3.b');
+});
+
 test('rules never tag across exam parts', () => {
   // The same subject asked in different parts must land in that part's own outline.
   // Part 1 has its own claim-for-refund topic, so the Part 1 question is placed there —

@@ -240,7 +240,7 @@ const RULES = [
   ['1.2.2.b', /roth ira/i],
   ['1.2.2.c', /\b1099-?r\b|rollover|qualified plan distribution/i],
   // 1.2.3 property, real and personal
-  ['1.2.3.f', /sale of (?:a |the )?(?:personal |principal )?residence|\b121\b[\s\S]{0,40}exclusion|exclusion of gain[\s\S]{0,30}home/i],
+  ['1.2.3.f', /sale of (?:a |the )?(?:personal |principal )?residence|\b121\b[\s\S]{0,40}exclusion|exclusion of gain[\s\S]{0,30}home|(?:primary|principal|main) (?:residence|home)[\s\S]{0,60}(?:exclusion|exempt)|two of the last five/i],
   ['1.2.3.i', /like-?kind exchange|\b1031\b/i],
   ['1.2.3.g', /installment sale|\b6252\b/i],
   ['1.2.3.h', /\biso\b|incentive stock option|\bespp\b|employee stock purchase|stock option/i],
@@ -251,6 +251,10 @@ const RULES = [
   // A bare "1245" or "1250" is not a signal: dollar amounts in answer choices are written without a
   // separator often enough that "$1250" was pulling 401(k) deferral questions into property disposition.
   // Require the number to be carrying a section marker or the words "property" or "recapture".
+  // A question about where royalty receipts are reported is 1.2.1.m even when "Schedule D" appears among
+  // the wrong answers. Only the receipt phrasings jump the queue: a question about *selling* the
+  // underlying property mentions "royalty income" only as a distractor and belongs on 1.2.3.b.
+  ['1.2.1.m', /royalties from|receives? royalties/i],
   ['1.2.3.a', /depreciation recapture|(?:§+|sections?)\s*12(?:45|50)\b|\b12(?:45|50)\s+(?:property|recapture|gain)\b|\b1099-?a\b/i],
   ['1.2.3.c', /basis of (?:the |an |a )?(?:asset|propert)|stepped-?up basis|inherited (?:property|basis)|gifted (?:property|basis)|carryover basis/i],
   ['1.2.3.b', /capital (?:gain|loss)|\bschedule d\b|\b8949\b|virtual currency|cryptocurrenc|short-?term[\s\S]{0,30}long-?term/i],
