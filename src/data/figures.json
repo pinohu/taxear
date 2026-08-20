@@ -692,6 +692,24 @@
       "source": "IRS Collection Financial Standards, effective June 29, 2026 (irs.gov national/local standards pages)",
       "verified": "2026-08-19"
     },
+    "charity.appraisal_thresholds": {
+      "value": "a deduction of more than $500 for contributed property requires the § 170(f)(11) documentation; more than $5,000 requires a qualified appraisal to be obtained; more than $500,000 requires the appraisal itself to be attached to the return",
+      "taxYear": 2026,
+      "source": "IRC § 170(f)(11)(A)(i), (C), (D) — https://www.law.cornell.edu/uscode/text/26/170",
+      "verified": "2026-08-19"
+    },
+    "charity.cash_limit": {
+      "value": "60 percent of the contribution base for cash contributions to a § 170(b)(1)(A) organization, reduced by the contributions already taken into account under that subparagraph — and now permanent, the 2026 end date having been struck",
+      "taxYear": 2026,
+      "source": "IRC § 170(b)(1)(G)(i)(I), (II), as amended by Pub. L. 119-21 § 70425(b)(1) — https://www.law.cornell.edu/uscode/text/26/170",
+      "verified": "2026-08-19"
+    },
+    "charity.contribution_base": {
+      "value": "adjusted gross income, computed without regard to any net operating loss carryback to the year under IRC § 172",
+      "taxYear": 2026,
+      "source": "IRC § 170(b)(1)(H) — https://www.law.cornell.edu/uscode/text/26/170",
+      "verified": "2026-08-19"
+    },
     "charity.cwa_contemporaneous": {
       "value": "obtained on or before the earlier of the date the return for the year of the contribution is filed, or the due date including extensions for that return",
       "taxYear": 2026,
@@ -708,6 +726,36 @@
       "value": "$250 or more per contribution, requiring a contemporaneous written acknowledgment from the donee organization",
       "taxYear": 2026,
       "source": "IRC § 170(f)(8)(A) — https://www.law.cornell.edu/uscode/text/26/170",
+      "verified": "2026-08-19"
+    },
+    "charity.floor": {
+      "value": "0.5 percent of the contribution base — any otherwise allowable charitable contribution is allowed only to the extent the aggregate exceeds it, and the floor is absorbed against the categories in a prescribed order ending with the 60 percent cash category",
+      "taxYear": 2026,
+      "source": "IRC § 170(b)(1)(I), as added by Pub. L. 119-21 § 70425(a)(1) — https://www.law.cornell.edu/uscode/text/26/170",
+      "verified": "2026-08-19"
+    },
+    "charity.non_itemizer": {
+      "value": "a deduction of up to $1,000, or $2,000 on a joint return, for cash contributions to a § 170(b)(1)(A) organization — but not to a § 509(a)(3) supporting organization and not to establish or maintain a donor advised fund",
+      "taxYear": 2026,
+      "source": "IRC § 170(p), (p)(1), (p)(2) — https://www.law.cornell.edu/uscode/text/26/170",
+      "verified": "2026-08-19"
+    },
+    "charity.readily_valued_exception": {
+      "value": "the appraisal requirements do not apply to cash, inventory, publicly traded securities, or a qualified vehicle for which the donee acknowledgement is provided",
+      "taxYear": 2026,
+      "source": "IRC § 170(f)(11)(A)(ii)(I) — https://www.law.cornell.edu/uscode/text/26/170",
+      "verified": "2026-08-19"
+    },
+    "charity.recordkeeping": {
+      "value": "no deduction for **any** cash, check or other monetary gift, of any amount, without a bank record or written communication from the donee showing its name, the date and the amount",
+      "taxYear": 2026,
+      "source": "IRC § 170(f)(17) — https://www.law.cornell.edu/uscode/text/26/170",
+      "verified": "2026-08-19"
+    },
+    "charity.substantiation_250": {
+      "value": "no deduction for a contribution of $250 or more without a contemporaneous written acknowledgment from the donee stating the amount of cash and a description of any property, whether goods or services were provided in consideration, and a good faith estimate of their value",
+      "taxYear": 2026,
+      "source": "IRC § 170(f)(8)(A), (B)(i)–(iii) — https://www.law.cornell.edu/uscode/text/26/170",
       "verified": "2026-08-19"
     },
     "circ230.10_51.categories": {

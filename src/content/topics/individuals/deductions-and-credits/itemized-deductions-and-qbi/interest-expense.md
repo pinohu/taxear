@@ -16,7 +16,7 @@ authorities:
   - { type: IRC, ref: "§ 280A", title: "Disallowance of certain expenses in connection with business use of a home", url: "https://www.law.cornell.edu/uscode/text/26/280A" }
   - { type: Statute, ref: "Pub. L. 119-21, §§ 70108, 70203", title: "Interest deduction amendments", url: "https://www.law.cornell.edu/uscode/text/26/163" }
 forms: []
-related: ["1.3.1.b", "1.3.1.a", "1.2.3.k", "1.2.4.d", "1.3.1.f"]
+related: ["1.3.1.b", "1.3.1.a", "1.2.3.k", "1.2.4.d", "1.3.1.f", "1.3.1.d"]
 changelog:
   - { date: "2026-08-19", summary: "Initial draft. Sets out the IRC § 163(h)(1) disallowance of personal interest and the six categories that escape it, the § 163(h)(4)(A) two-residence rule, the § 163(h)(3)(F) acquisition indebtedness cap and grandfathering, the permanent disallowance of home equity interest and the restoration of mortgage insurance premiums by Pub. L. 119-21 § 70108, the new § 163(h)(4) passenger vehicle loan interest deduction, and the § 163(d) investment interest limitation." }
 ---

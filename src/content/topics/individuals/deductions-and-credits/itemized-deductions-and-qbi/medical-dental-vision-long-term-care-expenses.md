@@ -17,7 +17,7 @@ authorities:
   - { type: IRC, ref: "§ 7702B", title: "Treatment of qualified long-term care insurance", url: "https://www.law.cornell.edu/uscode/text/26/7702B" }
   - { type: RevProc, ref: "2025-32", title: "Inflation adjusted items for 2026", url: "https://www.irs.gov/pub/irs-drop/rp-25-32.pdf" }
 forms: []
-related: ["1.3.1.f", "1.2.4.e", "1.2.4.c", "1.3.1.b", "1.2.2.e", "1.3.1.c"]
+related: ["1.3.1.f", "1.2.4.e", "1.2.4.c", "1.3.1.b", "1.2.2.e", "1.3.1.c", "1.3.1.d"]
 changelog:
   - { date: "2026-08-19", summary: "Initial draft. Sets out the IRC § 213(a) allowance and its 7.5 percent floor, the modified § 152 dependency test, the § 213(d)(1) definition of medical care with the § 213(b) prescription requirement, the § 213(d)(2) lodging rule and its per-night cap, the § 213(d)(9) cosmetic surgery exclusion, the § 213(d)(10) long-term care premium scale and the § 213(d)(11) related-provider rule, and the § 213(c) treatment of a decedent's expenses." }
 ---
