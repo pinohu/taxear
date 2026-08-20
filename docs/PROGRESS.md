@@ -9,10 +9,10 @@ is indexed, and only the owner moves a page there (see `docs/VERIFICATION.md`).
 
 | Part | Topics | Stub | Draft | Review | Published | Words |
 |---|---:|---:|---:|---:|---:|---:|
-| 1. Individuals | 120 | 34 | 0 | 76 | 10 | 190,340 |
+| 1. Individuals | 120 | 33 | 0 | 77 | 10 | 191,969 |
 | 2. Businesses | 119 | 119 | 0 | 0 | 0 | 0 |
 | 3. Representation, Practices and Procedures | 121 | 0 | 0 | 0 | 121 | 257,674 |
-| **All parts** | **360** | **153** | **0** | **76** | **131** | **448,014** |
+| **All parts** | **360** | **152** | **0** | **77** | **131** | **449,643** |
 
 ## Part 1 — Individuals
 
@@ -149,7 +149,7 @@ is indexed, and only the owner moves a page there (see `docs/VERIFICATION.md`).
 | 1.4.1.g | [Tax provisions for members of the military](/individuals/taxation/taxation/tax-provisions-for-members-of-the-military/) | review | 2,043 | 2026-08-19 |
 | 1.4.1.h | [Income in respect of decedent (e.g., allocations)](/individuals/taxation/taxation/income-in-respect-of-decedent/) | review | 2,089 | 2026-08-19 |
 | 1.4.1.i | [Net investment income tax](/individuals/taxation/taxation/net-investment-income-tax/) | review | 1,960 | 2026-08-19 |
-| 1.4.1.j | [Additional Medicare tax](/individuals/taxation/taxation/additional-medicare-tax/) | stub | — | — |
+| 1.4.1.j | [Additional Medicare tax](/individuals/taxation/taxation/additional-medicare-tax/) | review | 1,629 | 2026-08-19 |
 | 1.4.1.k | [Uncollected Social Security and Medicare tax](/individuals/taxation/taxation/uncollected-social-security-and-medicare-tax/) | stub | — | — |
 | 1.4.1.l | [Other taxes (e.g., first time homebuyer credit repayment, IRC Section 965 transition tax)](/individuals/taxation/taxation/other-taxes/) | stub | — | — |
 
