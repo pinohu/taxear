@@ -9,10 +9,10 @@ is indexed, and only the owner moves a page there (see `docs/VERIFICATION.md`).
 
 | Part | Topics | Stub | Draft | Review | Published | Words |
 |---|---:|---:|---:|---:|---:|---:|
-| 1. Individuals | 120 | 13 | 0 | 97 | 10 | 231,598 |
+| 1. Individuals | 120 | 12 | 0 | 98 | 10 | 233,734 |
 | 2. Businesses | 119 | 119 | 0 | 0 | 0 | 0 |
 | 3. Representation, Practices and Procedures | 121 | 0 | 0 | 0 | 121 | 257,674 |
-| **All parts** | **360** | **132** | **0** | **97** | **131** | **489,272** |
+| **All parts** | **360** | **131** | **0** | **98** | **131** | **491,408** |
 
 ## Part 1 — Individuals
 
@@ -184,7 +184,7 @@ is indexed, and only the owner moves a page there (see `docs/VERIFICATION.md`).
 | 1.6.1.a | [Gross estate, taxable estate (calculations and payments), unified credit, life insurance, and filing requirements](/individuals/specialized-returns-for-individuals/estate-tax/gross-estate-taxable-estate-calculations-and-payments/) | review | 2,121 | 2026-08-20 |
 | 1.6.1.b | [Jointly-held property](/individuals/specialized-returns-for-individuals/estate-tax/jointly-held-property/) | review | 2,025 | 2026-08-20 |
 | 1.6.1.c | [Marital deduction and other marital issues (e.g., portability election)](/individuals/specialized-returns-for-individuals/estate-tax/marital-deduction-and-other-marital-issues/) | review | 2,083 | 2026-08-20 |
-| 1.6.1.d | [Life insurance, IRAs and retirement plans](/individuals/specialized-returns-for-individuals/estate-tax/life-insurance-iras-and-retirement-plans/) | stub | — | — |
+| 1.6.1.d | [Life insurance, IRAs and retirement plans](/individuals/specialized-returns-for-individuals/estate-tax/life-insurance-iras-and-retirement-plans/) | review | 2,136 | 2026-08-20 |
 | 1.6.1.e | [Estate filing requirements and due dates (Form 706, Form 1041)](/individuals/specialized-returns-for-individuals/estate-tax/estate-filing-requirements-and-due-dates-form-706-form-1041/) | stub | — | — |
 
 **1.6.2 Gift Tax**

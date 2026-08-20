@@ -6979,6 +6979,60 @@
       "taxYear": 2026,
       "source": "IRC § 2010(c)(5)(B), read at law.cornell.edu/uscode/text/26/2010",
       "verified": "2026-08-20"
+    },
+    "deathben.insurance_income_exclusion": {
+      "value": "proceeds under a life insurance contract paid by reason of the death of the insured are excluded from gross income, subject to the transfer for value rule and the other exceptions in IRC § 101(a)(2), (d), (f) and (j)",
+      "taxYear": 2026,
+      "source": "IRC § 101(a), read at law.cornell.edu/uscode/text/26/101",
+      "verified": "2026-08-20"
+    },
+    "deathben.annuity_inclusion": {
+      "value": "the gross estate includes an annuity or other payment receivable by a beneficiary by reason of surviving the decedent under any contract other than life insurance, where an annuity or payment was payable to the decedent, or the decedent had the right to receive one, for life or for a period not ascertainable without reference to death or not in fact ending before death (IRC § 2039(a))",
+      "taxYear": 2026,
+      "source": "IRC § 2039, read at law.cornell.edu/uscode/text/26/2039",
+      "verified": "2026-08-20"
+    },
+    "deathben.ird_definition": {
+      "value": "items of gross income of a decedent not properly includible in the period ending with death are taxed to whoever receives them — the estate, the person acquiring the right by reason of the death, or a person receiving it by bequest, devise or inheritance from the decedent (IRC § 691(a)(1))",
+      "taxYear": 2026,
+      "source": "IRC § 691(a), read at law.cornell.edu/uscode/text/26/691",
+      "verified": "2026-08-20"
+    },
+    "deathben.ird_estate_tax_deduction": {
+      "value": "a deduction for the estate tax attributable to the item, in the same ratio that the item's estate tax value bears to the estate tax value of all such items — so the same dollars are not taxed twice without relief (IRC § 691(c)(1))",
+      "taxYear": 2026,
+      "source": "IRC § 691(c), read at law.cornell.edu/uscode/text/26/691",
+      "verified": "2026-08-20"
+    },
+    "deathben.no_step_up": {
+      "value": "income in respect of a decedent takes no fair market value basis — IRC § 1014(c) excepts it from the general rule, so a traditional IRA passes to a beneficiary with its income tax charge intact",
+      "taxYear": 2026,
+      "source": "IRC § 1014(c), read at law.cornell.edu/uscode/text/26/1014",
+      "verified": "2026-08-20"
+    },
+    "deathben.ten_year_rule": {
+      "value": "10 years — for a defined contribution plan, the whole interest must be distributed within 10 years of the employee's death, whether or not distributions had begun, except for an eligible designated beneficiary (IRC § 401(a)(9)(H)(i))",
+      "taxYear": 2026,
+      "source": "IRC § 401(a)(9)(H), read at law.cornell.edu/uscode/text/26/401",
+      "verified": "2026-08-20"
+    },
+    "deathben.eligible_designated_beneficiary": {
+      "value": "five categories, tested as of the date of the employee's death — the surviving spouse, a child of the employee who has not reached majority, a disabled individual within IRC § 72(m)(7), a chronically ill individual within § 7702B(c)(2) with a certification of indefinite and lengthy inability, and any individual not more than 10 years younger than the employee (IRC § 401(a)(9)(E)(ii))",
+      "taxYear": 2026,
+      "source": "IRC § 401(a)(9)(E), read at law.cornell.edu/uscode/text/26/401",
+      "verified": "2026-08-20"
+    },
+    "deathben.minor_child_transition": {
+      "value": "a minor child ceases to be an eligible designated beneficiary on reaching majority, and the remainder must then be distributed within 10 years of that date (IRC § 401(a)(9)(E)(iii))",
+      "taxYear": 2026,
+      "source": "IRC § 401(a)(9)(E)(iii), read at law.cornell.edu/uscode/text/26/401",
+      "verified": "2026-08-20"
+    },
+    "deathben.edb_death": {
+      "value": "when an eligible designated beneficiary dies before the interest is fully distributed, the exception stops — the beneficiary's own beneficiary gets 10 years from that death and nothing longer (IRC § 401(a)(9)(H)(iii))",
+      "taxYear": 2026,
+      "source": "IRC § 401(a)(9)(H)(iii), read at law.cornell.edu/uscode/text/26/401",
+      "verified": "2026-08-20"
     }
   }
 }
