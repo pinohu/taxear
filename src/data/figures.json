@@ -6127,6 +6127,66 @@
       "taxYear": 2026,
       "source": "IRC § 5000A(c), read at law.cornell.edu/uscode/text/26/5000A",
       "verified": "2026-08-19"
+    },
+    "injured.definition": {
+      "value": "a spouse on a jointly filed return whose share of the joint overpayment has been applied to a past-due obligation of the other spouse — Form 8379 recovers that share",
+      "taxYear": 2026,
+      "source": "About Form 8379, Injured Spouse Allocation, read at irs.gov/forms-pubs/about-form-8379",
+      "verified": "2026-08-19"
+    },
+    "injured.offsets": {
+      "value": "past-due child support under IRC § 6402(c), a past-due legally enforceable debt owed to a federal agency under § 6402(d), a past-due state income tax obligation under § 6402(e), and a covered state unemployment compensation debt under § 6402(f) — offsets are run by the Bureau of the Fiscal Service under the Treasury Offset Program, not by the IRS",
+      "taxYear": 2026,
+      "source": "IRC § 6402(c)–(f) read at law.cornell.edu/uscode/text/26/6402 and IRS Topic no. 203 read at irs.gov/taxtopics/tc203",
+      "verified": "2026-08-19"
+    },
+    "injured.internal_offset": {
+      "value": "an overpayment may first be credited against the couple's own federal tax liability for another year under IRC § 6402(a) — that is an internal credit rather than a Treasury Offset Program offset, and injured spouse relief does not reach a joint liability of both spouses",
+      "taxYear": 2026,
+      "source": "IRC § 6402, read at law.cornell.edu/uscode/text/26/6402",
+      "verified": "2026-08-19"
+    },
+    "injured.notice": {
+      "value": "the Bureau of the Fiscal Service, not the IRS, sends the notice showing the original refund, the offset and the agency paid, and the IRS is not told the details — a taxpayer should contact the Bureau unless the refund figure on the notice differs from the return",
+      "taxYear": 2026,
+      "source": "IRS Topic no. 203 (page last reviewed 1 June 2026), read at irs.gov/taxtopics/tc203",
+      "verified": "2026-08-19"
+    },
+    "innocent.three_routes": {
+      "value": "IRC § 6015(b) understatement relief for a joint filer who did not know and had no reason to know; § 6015(c) separate allocation for a taxpayer divorced, legally separated or living apart for twelve months; and § 6015(f) equitable relief where neither of the others is available",
+      "taxYear": 2026,
+      "source": "IRC § 6015, read at law.cornell.edu/uscode/text/26/6015",
+      "verified": "2026-08-19"
+    },
+    "innocent.b_conditions": {
+      "value": "a joint return, an understatement attributable to erroneous items of the other spouse, no knowledge and no reason to know of it, inequity in holding the electing spouse liable on all the facts and circumstances, and an election within two years of the start of collection activity (IRC § 6015(b)(1)(A)–(E))",
+      "taxYear": 2026,
+      "source": "IRC § 6015, read at law.cornell.edu/uscode/text/26/6015",
+      "verified": "2026-08-19"
+    },
+    "innocent.c_conditions": {
+      "value": "available only where the electing spouse is no longer married to, or is legally separated from, the other, or was not a member of the same household at any time in the twelve months ending on the date of election — and the election is invalid where the Secretary shows assets were transferred as part of a fraudulent scheme (IRC § 6015(c)(3)(A))",
+      "taxYear": 2026,
+      "source": "IRC § 6015, read at law.cornell.edu/uscode/text/26/6015",
+      "verified": "2026-08-19"
+    },
+    "innocent.timing": {
+      "value": "relief under § 6015(b) or (c) must be elected within two years of the start of collection activity; equitable relief under § 6015(f) may be requested for an unpaid liability at any time before the § 6502 collection period expires, and for a paid one within the period for a timely refund claim (IRC § 6015(b)(1)(E), (c)(3)(B), (f)(2))",
+      "taxYear": 2026,
+      "source": "IRC § 6015, read at law.cornell.edu/uscode/text/26/6015",
+      "verified": "2026-08-19"
+    },
+    "innocent.tax_court": {
+      "value": "the Tax Court has jurisdiction on a petition filed after the earlier of the final determination notice or six months from the request, and not later than 90 days after the determination notice (IRC § 6015(e)(1)(A))",
+      "taxYear": 2026,
+      "source": "IRC § 6015, read at law.cornell.edu/uscode/text/26/6015",
+      "verified": "2026-08-19"
+    },
+    "innocent.refunds": {
+      "value": "a refund is available for relief under § 6015(b) or (f) subject to §§ 6511, 6512(b), 7121 and 7122 — but § 6015(g)(3) allows no credit or refund at all for relief under § 6015(c), which only limits liability",
+      "taxYear": 2026,
+      "source": "IRC § 6015, read at law.cornell.edu/uscode/text/26/6015",
+      "verified": "2026-08-19"
     }
   }
 }
