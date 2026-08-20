@@ -23,7 +23,7 @@ authorities:
   - { type: IRC, ref: "§ 469", title: "Passive activity losses and credits limited", url: "https://www.law.cornell.edu/uscode/text/26/469" }
   - { type: IRC, ref: "§ 6015", title: "Relief from joint and several liability on joint return", url: "https://www.law.cornell.edu/uscode/text/26/6015" }
 forms: []
-related: ["1.1.1.e", "1.5.1.i", "1.5.1.h", "1.5.1.f", "1.5.1.k"]
+related: ["1.1.1.e", "1.5.1.i", "1.5.1.h", "1.5.1.f", "1.5.1.k", "1.5.1.n"]
 changelog:
   - { date: "2026-08-20", summary: "Initial draft. Sets out the trade-off between the three statuses available to a married or formerly married client — the IRC § 6013(d)(3) joint and several liability that comes with a joint return, the one-way election in § 6013(b), the § 7703(b) considered-unmarried test that § 2(c) imports for head of household, and the provisions a separate return loses under §§ 21(e)(2), 25A(g)(6), 32(d)(1), 63(c)(6)(A), 86(c)(1)(C), 219(g)(4), 221(e)(2) and 469(i)(5)." }
 ---

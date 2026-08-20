@@ -6685,6 +6685,66 @@
       "taxYear": 2026,
       "source": "IRC § 219(g)(4), read at law.cornell.edu/uscode/text/26/219",
       "verified": "2026-08-20"
+    },
+    "refundclaim.general_period": {
+      "value": "the later of 3 years from the time the return was filed or 2 years from the time the tax was paid — and 2 years from payment only, where no return was filed (IRC § 6511(a))",
+      "taxYear": 2026,
+      "source": "IRC § 6511, read at law.cornell.edu/uscode/text/26/6511",
+      "verified": "2026-08-20"
+    },
+    "refundclaim.early_return": {
+      "value": "a return filed before the last day prescribed for filing it is treated as filed on that last day, and tax paid before the last day prescribed for payment is treated as paid on that day — both determined without regard to extensions (IRC § 6513(a))",
+      "taxYear": 2026,
+      "source": "IRC § 6513, read at law.cornell.edu/uscode/text/26/6513",
+      "verified": "2026-08-20"
+    },
+    "refundclaim.withholding_deemed_paid": {
+      "value": "tax withheld at source during a calendar year is deemed paid on the 15th day of the fourth month following the close of the taxable year, and estimated tax on the unextended due date of the return — which is what makes the 2-year branch of IRC § 6511(a) run from the same date for most individuals (IRC § 6513(b))",
+      "taxYear": 2026,
+      "source": "IRC § 6513(b), read at law.cornell.edu/uscode/text/26/6513",
+      "verified": "2026-08-20"
+    },
+    "refundclaim.lookback_cap": {
+      "value": "a claim filed inside the 3-year period recovers only tax paid in the 3 years plus any extension period immediately preceding the claim; a claim filed outside it recovers only tax paid in the 2 years immediately preceding (IRC § 6511(b)(2))",
+      "taxYear": 2026,
+      "source": "IRC § 6511(b)(2), read at law.cornell.edu/uscode/text/26/6511",
+      "verified": "2026-08-20"
+    },
+    "refundclaim.bad_debt_period": {
+      "value": "7 years from the date prescribed for filing the return for the year concerned, where the claim relates to a debt that became worthless under IRC § 166 or § 832(c) or a worthless security under § 165(g), or to the effect of such a deduction on a carryover (IRC § 6511(d)(1))",
+      "taxYear": 2026,
+      "source": "IRC § 6511(d)(1), read at law.cornell.edu/uscode/text/26/6511",
+      "verified": "2026-08-20"
+    },
+    "refundclaim.carryback_period": {
+      "value": "3 years after the time prescribed for filing the return, including extensions, for the year of the net operating loss or net capital loss that produces the carryback — measured from the loss year, not the year being amended (IRC § 6511(d)(2)(A))",
+      "taxYear": 2026,
+      "source": "IRC § 6511(d)(2), read at law.cornell.edu/uscode/text/26/6511",
+      "verified": "2026-08-20"
+    },
+    "refundclaim.foreign_tax_period": {
+      "value": "10 years from the date prescribed for filing the return for the year in which the foreign taxes were actually paid or accrued (IRC § 6511(d)(3)(A))",
+      "taxYear": 2026,
+      "source": "IRC § 6511(d)(3), read at law.cornell.edu/uscode/text/26/6511",
+      "verified": "2026-08-20"
+    },
+    "refundclaim.financial_disability": {
+      "value": "the periods are suspended while an individual is financially disabled — unable to manage financial affairs by reason of a medically determinable impairment expected to result in death or lasting at least 12 months, proved as the Secretary requires — but not for any period in which a spouse or another person was authorised to act on the individual's behalf in financial matters (IRC § 6511(h))",
+      "taxYear": 2026,
+      "source": "IRC § 6511(h), read at law.cornell.edu/uscode/text/26/6511",
+      "verified": "2026-08-20"
+    },
+    "refundclaim.combat_zone": {
+      "value": "the period of service in the combat zone or contingency operation, plus any period of continuous qualified hospitalization for an injury received there, plus the next 180 days, is disregarded (IRC § 7508(a))",
+      "taxYear": 2026,
+      "source": "IRC § 7508, read at law.cornell.edu/uscode/text/26/7508",
+      "verified": "2026-08-20"
+    },
+    "refundclaim.disaster": {
+      "value": "the Secretary may specify a period of up to 1 year to be disregarded for a taxpayer affected by a federally declared disaster, a significant fire, or a terroristic or military action — and the postponement reaches the amount of any credit or refund, not merely the filing act (IRC § 7508A(a))",
+      "taxYear": 2026,
+      "source": "IRC § 7508A, read at law.cornell.edu/uscode/text/26/7508A",
+      "verified": "2026-08-20"
     }
   }
 }
