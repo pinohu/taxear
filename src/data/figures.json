@@ -5707,6 +5707,72 @@
       "taxYear": 2026,
       "source": "IRC § 3121(x), read at law.cornell.edu/uscode/text/26/3121",
       "verified": "2026-08-19"
+    },
+    "estpen.required_annual_payment": {
+      "value": "the lesser of 90 percent of the tax shown on this year's return or 100 percent of the tax shown on last year's — raised to 110 percent where last year's adjusted gross income exceeded $150,000, or $75,000 for a married individual filing separately (IRC § 6654(d)(1)(B), (C))",
+      "taxYear": 2026,
+      "source": "IRC § 6654, read at law.cornell.edu/uscode/text/26/6654",
+      "verified": "2026-08-19"
+    },
+    "estpen.installments": {
+      "value": "four, due 15 April, 15 June, 15 September and 15 January of the following year, each 25 percent of the required annual payment (IRC § 6654(c)(1), (2), (d)(1)(A))",
+      "taxYear": 2026,
+      "source": "IRC § 6654, read at law.cornell.edu/uscode/text/26/6654",
+      "verified": "2026-08-19"
+    },
+    "estpen.de_minimis": {
+      "value": "no addition to tax where the tax shown on the return, reduced by the IRC § 31 credit for tax withheld, is less than $1,000 (IRC § 6654(e)(1))",
+      "taxYear": 2026,
+      "source": "IRC § 6654, read at law.cornell.edu/uscode/text/26/6654",
+      "verified": "2026-08-19"
+    },
+    "estpen.no_prior_liability": {
+      "value": "no addition to tax where the preceding taxable year was a full 12 months, the individual had no tax liability for it, and the individual was a citizen or resident throughout it (IRC § 6654(e)(2))",
+      "taxYear": 2026,
+      "source": "IRC § 6654, read at law.cornell.edu/uscode/text/26/6654",
+      "verified": "2026-08-19"
+    },
+    "estpen.retirement_waiver": {
+      "value": "discretionary, not automatic — the Secretary must determine both that the taxpayer retired after attaining age 62 or became disabled, in the year estimated payments were due or the year before, and that the underpayment was due to reasonable cause and not willful neglect (IRC § 6654(e)(3)(B))",
+      "taxYear": 2026,
+      "source": "IRC § 6654, read at law.cornell.edu/uscode/text/26/6654",
+      "verified": "2026-08-19"
+    },
+    "interest.underpayment_rate": {
+      "value": "the federal short-term rate plus 3 percentage points, redetermined quarterly (IRC § 6621(a)(2)) — for 2026 the IRS has published 7 percent for the first quarter, 6 percent for the second and 7 percent for the third; the fourth-quarter rate is not yet published",
+      "taxYear": 2026,
+      "source": "IRS Quarterly interest rates, read at irs.gov/payments/quarterly-interest-rates",
+      "verified": "2026-08-19"
+    },
+    "interest.overpayment_rate": {
+      "value": "the federal short-term rate plus 3 percentage points for a non-corporate taxpayer, 2 points for a corporation (IRC § 6621(a)(1)) — 7 percent for the first and third quarters of 2026 and 6 percent for the second",
+      "taxYear": 2026,
+      "source": "IRS Quarterly interest rates, read at irs.gov/payments/quarterly-interest-rates",
+      "verified": "2026-08-19"
+    },
+    "ftf_ftp.rates": {
+      "value": "failure to file, 5 percent of the net tax due for each month or part month, capped at 25 percent; failure to pay, 0.5 percent a month on the same cap, reduced to 0.25 percent while an installment agreement is in effect for a return filed on time and raised to 1 percent from ten days after a notice of intent to levy (IRC § 6651(a)(1), (2), (d), (h))",
+      "taxYear": 2026,
+      "source": "IRC § 6651, read at law.cornell.edu/uscode/text/26/6651",
+      "verified": "2026-08-19"
+    },
+    "ftf.minimum": {
+      "value": "for a return required to be filed in 2027 and filed more than 60 days late, the failure to file addition is not less than the lesser of $535 or 100 percent of the tax required to be shown — the § 6651(a) figure of $435 as indexed",
+      "taxYear": 2026,
+      "source": "IRC § 6651(a) read at law.cornell.edu/uscode/text/26/6651 and Rev. Proc. 2025-32 § 3.52 read at irs.gov/pub/irs-drop/rp-25-32.pdf",
+      "verified": "2026-08-19"
+    },
+    "ftf_ftp.interaction": {
+      "value": "for any month in which both apply, the failure to file addition is reduced by the failure to pay addition — but never below the 60-day minimum (IRC § 6651(c)(1))",
+      "taxYear": 2026,
+      "source": "IRC § 6651, read at law.cornell.edu/uscode/text/26/6651",
+      "verified": "2026-08-19"
+    },
+    "estpen.unindexed": {
+      "value": "none of the § 6654 figures is indexed — the $1,000 de minimis, the $150,000 and $75,000 prior-year income thresholds and the 90, 100 and 110 percent tests are all statutory and unchanged, the income thresholds since 1993",
+      "taxYear": 2026,
+      "source": "IRC § 6654(d)(1)(C), (e)(1), read at law.cornell.edu/uscode/text/26/6654",
+      "verified": "2026-08-19"
     }
   }
 }
