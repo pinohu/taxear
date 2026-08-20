@@ -7201,6 +7201,54 @@
       "taxYear": 2026,
       "source": "IRC § 2523(i), read at law.cornell.edu/uscode/text/26/2523",
       "verified": "2026-08-20"
+    },
+    "giftcredit.amount": {
+      "value": "the applicable credit amount that would be in effect under IRC § 2010(c) if the donor died at the end of the calendar year, reduced by the credit allowable for all preceding calendar periods — so it is the same credit as the estate tax credit, drawn on during life (IRC § 2505(a))",
+      "taxYear": 2026,
+      "source": "IRC § 2505(a), read at law.cornell.edu/uscode/text/26/2505",
+      "verified": "2026-08-20"
+    },
+    "giftcredit.recomputation": {
+      "value": "the credit allowed for preceding calendar periods is recomputed at the current year's rates rather than the rates that applied when those gifts were made (IRC § 2505(a), closing sentence)",
+      "taxYear": 2026,
+      "source": "IRC § 2505(a), read at law.cornell.edu/uscode/text/26/2505",
+      "verified": "2026-08-20"
+    },
+    "giftcredit.ceiling": {
+      "value": "the credit for a calendar year may not exceed the gift tax imposed for that year — it cannot create a refund and unused amounts are not paid out, they simply remain available (IRC § 2505(c))",
+      "taxYear": 2026,
+      "source": "IRC § 2505(c), read at law.cornell.edu/uscode/text/26/2505",
+      "verified": "2026-08-20"
+    },
+    "giftcredit.citizenship": {
+      "value": "the credit is allowed to a citizen or resident of the United States; a nonresident who is not a citizen gets no unified credit against gift tax at all, though the annual exclusion still applies (IRC § 2505(a))",
+      "taxYear": 2026,
+      "source": "IRC § 2505(a), read at law.cornell.edu/uscode/text/26/2505",
+      "verified": "2026-08-20"
+    },
+    "gifttax.cumulative_computation": {
+      "value": "a tentative tax at the IRC § 2001(c) rates on the aggregate taxable gifts of this year and all preceding calendar periods, less a tentative tax on the aggregate of the preceding periods alone — so each year's gifts are taxed at the marginal rate the cumulative total has reached (IRC § 2502(a))",
+      "taxYear": 2026,
+      "source": "IRC § 2502(a), read at law.cornell.edu/uscode/text/26/2502",
+      "verified": "2026-08-20"
+    },
+    "gifttax.imposition": {
+      "value": "imposed for each calendar year on the transfer of property by gift by any individual, resident or nonresident — but not on a nonresident who is not a citizen transferring intangible property, except as IRC § 2501(a)(3) provides (IRC § 2501(a))",
+      "taxYear": 2026,
+      "source": "IRC § 2501(a), read at law.cornell.edu/uscode/text/26/2501",
+      "verified": "2026-08-20"
+    },
+    "gifttax.death_recomputation": {
+      "value": "in computing the estate tax subtraction for gift tax payable, the rates in effect at death are used in place of the rates in force when the gifts were made, both for the chapter 12 tax and for the IRC § 2505 credit against it (IRC § 2001(g)(1))",
+      "taxYear": 2026,
+      "source": "IRC § 2001(g)(1), read at law.cornell.edu/uscode/text/26/2001",
+      "verified": "2026-08-20"
+    },
+    "gifttax.exclusion_difference_regs": {
+      "value": "the Secretary is directed to prescribe regulations addressing any difference between the basic exclusion amount at the decedent's death and the amount applicable to gifts the decedent made (IRC § 2001(g)(2))",
+      "taxYear": 2026,
+      "source": "IRC § 2001(g)(2), read at law.cornell.edu/uscode/text/26/2001",
+      "verified": "2026-08-20"
     }
   }
 }

@@ -9,10 +9,10 @@ is indexed, and only the owner moves a page there (see `docs/VERIFICATION.md`).
 
 | Part | Topics | Stub | Draft | Review | Published | Words |
 |---|---:|---:|---:|---:|---:|---:|
-| 1. Individuals | 120 | 9 | 0 | 101 | 10 | 239,540 |
+| 1. Individuals | 120 | 8 | 0 | 102 | 10 | 241,518 |
 | 2. Businesses | 119 | 119 | 0 | 0 | 0 | 0 |
 | 3. Representation, Practices and Procedures | 121 | 0 | 0 | 0 | 121 | 257,674 |
-| **All parts** | **360** | **128** | **0** | **101** | **131** | **497,214** |
+| **All parts** | **360** | **127** | **0** | **102** | **131** | **499,192** |
 
 ## Part 1 — Individuals
 
@@ -193,7 +193,7 @@ is indexed, and only the owner moves a page there (see `docs/VERIFICATION.md`).
 |---|---|---|---:|---|
 | 1.6.2.a | [Gift-splitting](/individuals/specialized-returns-for-individuals/gift-tax/gift-splitting/) | review | 1,850 | 2026-08-20 |
 | 1.6.2.b | [Annual exclusion](/individuals/specialized-returns-for-individuals/gift-tax/annual-exclusion/) | review | 1,947 | 2026-08-20 |
-| 1.6.2.c | [Unified credit](/individuals/specialized-returns-for-individuals/gift-tax/unified-credit/) | stub | — | — |
+| 1.6.2.c | [Unified credit](/individuals/specialized-returns-for-individuals/gift-tax/unified-credit/) | review | 1,978 | 2026-08-20 |
 | 1.6.2.d | [Effect on estate tax (e.g., Generation skipping transfer tax)](/individuals/specialized-returns-for-individuals/gift-tax/effect-on-estate-tax/) | stub | — | — |
 | 1.6.2.e | [Filing requirements (Form 709)](/individuals/specialized-returns-for-individuals/gift-tax/filing-requirements-form-709/) | stub | — | — |
 
