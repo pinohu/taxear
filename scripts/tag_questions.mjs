@@ -179,6 +179,11 @@ const RULES = [
   ['1.5.1.i', /innocent spouse|\b6015\b|relief from joint (?:and several )?liability|equitable relief|separation of liability/i],
   ['1.5.1.h', /injured spouse|\b8379\b/i],
   ['1.5.1.o', /penalt\w* of perjury/i],
+  // The conditions for the IRC § 1(g)(7) parent's election are a four-part list, and one of the four is
+  // that no estimated tax payments were made for the child. Any question testing the election therefore
+  // contains the words "estimated tax" in a subordinate condition, which would otherwise hand it to
+  // 1.5.1.j. The election is the subject, so it has to be recognised first.
+  ['1.1.1.p', /\b8814\b|(?:interest|dividend)[\s\S]{0,60}child[\s\S]{0,60}parent|child(?:'|’)?s?[\s\S]{0,40}(?:interest|dividend)[\s\S]{0,60}parent(?:'|’)?s?/i],
   ['1.5.1.j', /estimated tax|\b2210\b|\b6654\b|safe harbor[\s\S]{0,30}estimat/i],
   ['1.5.1.n', /amend\w* (?:a |the |his |her |their )?(?:tax )?return|\b1040-?x\b|claim for refund|\b6511\b|statute of limitations[\s\S]{0,70}refund|refund[\s\S]{0,70}statute of limitations/i],
   ['1.5.1.c', /\b529\b|coverdell|qualified tuition program/i],

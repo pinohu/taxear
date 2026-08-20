@@ -20,7 +20,7 @@ authorities:
   - { type: IRC, ref: "§ 38", title: "General business credit", url: "https://www.law.cornell.edu/uscode/text/26/38" }
   - { type: IRC, ref: "§ 39", title: "Carryback and carryforward of unused credits", url: "https://www.law.cornell.edu/uscode/text/26/39" }
 forms: []
-related: ["1.1.1.a", "1.2.3.b", "1.3.1.d", "1.4.1.a", "1.5.1.b"]
+related: ["1.1.1.a", "1.2.3.b", "1.3.1.d", "1.4.1.a", "1.5.1.b", "1.5.1.j"]
 changelog:
   - { date: "2026-08-19", summary: "Initial draft. Sets out the seven carryovers an individual return may carry — IRC § 172 net operating losses, § 1212(b) capital losses, § 170(d) charitable contributions, § 469(b) passive losses, § 199A(c)(2) negative qualified business income, § 53 minimum tax credit and the general business credit — with their differing periods, limits and character rules." }
 ---

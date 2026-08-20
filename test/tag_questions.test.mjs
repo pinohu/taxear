@@ -111,6 +111,15 @@ test('a bare "annuity" does not claim a question', () => {
   assert.equal(classify(q(1, 'How is the exclusion ratio applied to an annuity payout?')), '1.5.1.e');
 });
 
+test("the parent's election is a kiddie tax question, not an estimated tax question", () => {
+  // One of the four conditions for the IRC § 1(g)(7) election is that no estimated tax payments were
+  // made for the child, so the phrase "estimated tax" sits inside every question about the election.
+  assert.equal(classify(q(1, "Which of the following makes an individual ineligible to report the interest and dividends of a child on the parent's tax return?")), '1.1.1.p');
+  assert.equal(classify({ part: 1, stem: 'Which form is used for the election?', choices: { A: 'Form 8814' }, explanation: '' }), '1.1.1.p');
+  // A question genuinely about estimated tax still lands on 1.5.1.j.
+  assert.equal(classify(q(1, 'What is the due date of the final required estimated tax installment?')), '1.5.1.j');
+});
+
 test('rules never tag across exam parts', () => {
   // The same subject asked in different parts must land in that part's own outline.
   // Part 1 has its own claim-for-refund topic, so the Part 1 question is placed there —

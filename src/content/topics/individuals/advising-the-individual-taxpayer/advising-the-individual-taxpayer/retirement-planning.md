@@ -16,7 +16,7 @@ authorities:
   - { type: IRC, ref: "§ 72", title: "Annuities — additional tax on early distributions", url: "https://www.law.cornell.edu/uscode/text/26/72" }
   - { type: Notice, ref: "Notice 2025-67", title: "2026 amounts relating to retirement plans and IRAs", url: "https://www.irs.gov/pub/irs-drop/n-25-67.pdf" }
 forms: []
-related: ["1.2.2.l", "1.2.4.b", "1.5.1.d", "1.5.1.c"]
+related: ["1.2.2.l", "1.2.4.b", "1.5.1.d", "1.5.1.c", "1.5.1.j"]
 changelog:
   - { date: "2026-08-19", summary: "Initial draft. Sets out the IRC § 401(a)(9)(C) required beginning date with the two applicable ages and the exceptions to the retirement limb, the § 408(d)(8) qualified charitable distribution with its 2026 limits and the deduction offset, the § 219(g) deduction phase-outs from Notice 2025-67, and the spousal-only rollover rule for inherited accounts." }
 ---
