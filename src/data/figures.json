@@ -2240,6 +2240,78 @@
       "source": "Treas. Reg. § 1.401(a)(9)-5(c)(1), closing sentences — https://www.law.cornell.edu/cfr/text/26/1.401(a)(9)-5",
       "verified": "2026-08-19"
     },
+    "installment.default": {
+      "value": "automatic — income from an installment sale is taken into account under the installment method unless the taxpayer elects out",
+      "taxYear": 2026,
+      "source": "IRC § 453(a), (d)(1) — https://www.law.cornell.edu/uscode/text/26/453",
+      "verified": "2026-08-19"
+    },
+    "installment.definition": {
+      "value": "a disposition of property where at least one payment is to be received after the close of the taxable year of the disposition — a single deferred payment is enough",
+      "taxYear": 2026,
+      "source": "IRC § 453(b)(1) — https://www.law.cornell.edu/uscode/text/26/453",
+      "verified": "2026-08-19"
+    },
+    "installment.depreciable_to_controlled": {
+      "value": "the method is unavailable on an installment sale of depreciable property between related persons — all payments to be received are treated as received in the year of disposition",
+      "taxYear": 2026,
+      "source": "IRC § 453(g)(1)(A), (B)(i) — https://www.law.cornell.edu/uscode/text/26/453",
+      "verified": "2026-08-19"
+    },
+    "installment.disposition_of_obligation": {
+      "value": "satisfying an installment obligation at other than face value, or selling, distributing or otherwise disposing of it, produces gain or loss measured against the obligation's basis — treated as from the sale of the property for which the obligation was received",
+      "taxYear": 2026,
+      "source": "IRC § 453B(a)(1), (2) and its closing text — https://www.law.cornell.edu/uscode/text/26/453B",
+      "verified": "2026-08-19"
+    },
+    "installment.exclusions": {
+      "value": "dealer dispositions — personal property sold on the installment plan by a person who regularly does so, and real property held for sale to customers — and inventories of personal property, are outside the method entirely",
+      "taxYear": 2026,
+      "source": "IRC § 453(b)(2)(A), (B); § 453(l)(1)(A) — https://www.law.cornell.edu/uscode/text/26/453",
+      "verified": "2026-08-19"
+    },
+    "installment.interest_charge": {
+      "value": "interest is payable on the deferred tax liability where the sales price exceeds $150,000, but only for a year in which the face amount of such obligations arising that year and outstanding at year end exceeds $5,000,000 — and the charge applies to the excess over that figure",
+      "taxYear": 2026,
+      "source": "IRC § 453A(a)(1), (b)(1), (b)(2)(B), (c)(4)(A) — https://www.law.cornell.edu/uscode/text/26/453A",
+      "verified": "2026-08-19"
+    },
+    "installment.method": {
+      "value": "the income recognised for a year is the proportion of the payments received that year which the gross profit, realised or to be realised when payment is complete, bears to the total contract price",
+      "taxYear": 2026,
+      "source": "IRC § 453(c) — https://www.law.cornell.edu/uscode/text/26/453",
+      "verified": "2026-08-19"
+    },
+    "installment.pledging": {
+      "value": "pledging an installment obligation to which IRC § 453A applies is treated as a payment on it — the loan proceeds accelerate the gain",
+      "taxYear": 2026,
+      "source": "IRC § 453A(a)(2), (d) — https://www.law.cornell.edu/uscode/text/26/453A",
+      "verified": "2026-08-19"
+    },
+    "installment.recapture_first": {
+      "value": "recapture income is recognised in full in the year of disposition notwithstanding the method, and only the gain in excess of it goes on the installment method — recapture income being what §§ 1245 and 1250 would produce if all payments were received that year",
+      "taxYear": 2026,
+      "source": "IRC § 453(i)(1)(A), (B), (i)(2) — https://www.law.cornell.edu/uscode/text/26/453",
+      "verified": "2026-08-19"
+    },
+    "installment.related_party_ordinary": {
+      "value": "gain on a sale between related persons is ordinary income where the property is depreciable in the transferee's hands under IRC § 167",
+      "taxYear": 2026,
+      "source": "IRC § 1239(a) — https://www.law.cornell.edu/uscode/text/26/1239",
+      "verified": "2026-08-19"
+    },
+    "installment.related_second_disposition": {
+      "value": "where a related person disposes of the property before the first seller has been paid in full, the amount realised on that second disposition is treated as received by the first seller at that time",
+      "taxYear": 2026,
+      "source": "IRC § 453(e)(1) — https://www.law.cornell.edu/uscode/text/26/453",
+      "verified": "2026-08-19"
+    },
+    "installment.two_year_cutoff": {
+      "value": "the acceleration applies only where the second disposition is within 2 years of the first, except for marketable securities where there is no cutoff — and the 2 years are suspended while the related person's risk of loss is substantially diminished by a put, a short position or a similar arrangement",
+      "taxYear": 2026,
+      "source": "IRC § 453(e)(2)(A), (B) — https://www.law.cornell.edu/uscode/text/26/453",
+      "verified": "2026-08-19"
+    },
     "interest.6404e_erroneous_refund_cap": {
       "value": "the Secretary shall abate all interest on an erroneous refund until demand for repayment is made, unless the taxpayer or a related party caused it or the refund exceeds $50,000",
       "taxYear": 2026,
