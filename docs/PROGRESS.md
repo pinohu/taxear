@@ -9,10 +9,10 @@ is indexed, and only the owner moves a page there (see `docs/VERIFICATION.md`).
 
 | Part | Topics | Stub | Draft | Review | Published | Words |
 |---|---:|---:|---:|---:|---:|---:|
-| 1. Individuals | 120 | 72 | 0 | 38 | 10 | 110,614 |
+| 1. Individuals | 120 | 71 | 0 | 39 | 10 | 112,820 |
 | 2. Businesses | 119 | 119 | 0 | 0 | 0 | 0 |
 | 3. Representation, Practices and Procedures | 121 | 0 | 0 | 0 | 121 | 257,674 |
-| **All parts** | **360** | **191** | **0** | **38** | **131** | **368,288** |
+| **All parts** | **360** | **190** | **0** | **39** | **131** | **370,494** |
 
 ## Part 1 — Individuals
 
@@ -87,7 +87,7 @@ is indexed, and only the owner moves a page there (see `docs/VERIFICATION.md`).
 | 1.2.3.a | [Sale or disposition of property including depreciation recapture rules and 1099A](/individuals/income-and-assets/property-real-and-personal/sale-or-disposition-of-property-including-depreciation/) | review | 2,482 | 2026-08-19 |
 | 1.2.3.b | [Capital gains and losses (e.g., netting effect, short-term, long-term, mark- to market, virtual currency)](/individuals/income-and-assets/property-real-and-personal/capital-gains-and-losses/) | review | 2,500 | 2026-08-19 |
 | 1.2.3.c | [Basis of assets (e.g., purchased, gifted or inherited)](/individuals/income-and-assets/property-real-and-personal/basis-of-assets/) | review | 2,330 | 2026-08-19 |
-| 1.2.3.d | [Basis of stock after stock splits and/or stock dividends (e.g., research, schedules, brokerage records)](/individuals/income-and-assets/property-real-and-personal/basis-of-stock-after-stock-splits-and-or-stock-dividends/) | stub | — | — |
+| 1.2.3.d | [Basis of stock after stock splits and/or stock dividends (e.g., research, schedules, brokerage records)](/individuals/income-and-assets/property-real-and-personal/basis-of-stock-after-stock-splits-and-or-stock-dividends/) | review | 2,206 | 2026-08-19 |
 | 1.2.3.e | [Publicly traded partnerships (PTP) (e.g., sales, dispositions, losses)](/individuals/income-and-assets/property-real-and-personal/publicly-traded-partnerships-ptp/) | stub | — | — |
 | 1.2.3.f | [Sale of a personal residence (e.g., IRC Section 121 exclusions)](/individuals/income-and-assets/property-real-and-personal/sale-of-a-personal-residence/) | stub | — | — |
 | 1.2.3.g | [Installment sales (e.g., related parties, original cost, date of acquisition, possible recalculations and recharacterization)](/individuals/income-and-assets/property-real-and-personal/installment-sales/) | stub | — | — |

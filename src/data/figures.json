@@ -3764,6 +3764,66 @@
       "source": "IRC § 86(d)(3) — https://www.law.cornell.edu/uscode/text/26/86",
       "verified": "2026-08-19"
     },
+    "stockbasis.305_exclusion": {
+      "value": "gross income does not include a distribution by a corporation of its own stock to its shareholders with respect to its stock — subject to the exceptions in IRC § 305(b), which turn the distribution into a § 301 distribution of property",
+      "taxYear": 2026,
+      "source": "IRC § 305(a), (b) — https://www.law.cornell.edu/uscode/text/26/305",
+      "verified": "2026-08-19"
+    },
+    "stockbasis.305b_exceptions": {
+      "value": "distributions payable in stock or property at any shareholder's election; disproportionate distributions; distributions of common to some common shareholders and preferred to others; distributions on preferred stock; and distributions of convertible preferred",
+      "taxYear": 2026,
+      "source": "IRC § 305(b)(1)–(5) — https://www.law.cornell.edu/uscode/text/26/305",
+      "verified": "2026-08-19"
+    },
+    "stockbasis.allocation": {
+      "value": "the adjusted basis of the old stock is allocated between the old and the new — in proportion to the fair market values of each **on the date of distribution**, which is the date the stock or rights reach the shareholder and not the record date",
+      "taxYear": 2026,
+      "source": "IRC § 307(a); Treas. Reg. § 1.307-1(a) — https://www.law.cornell.edu/cfr/text/26/1.307-1",
+      "verified": "2026-08-19"
+    },
+    "stockbasis.average_basis": {
+      "value": "available for identical shares of a regulated investment company, and for shares acquired after 31 December 2010 through a dividend reinvestment plan, where they are left with a custodian or agent in an account maintained for their acquisition or disposition",
+      "taxYear": 2026,
+      "source": "Treas. Reg. § 1.1012-1(e)(1)(i) — https://www.law.cornell.edu/cfr/text/26/1.1012-1",
+      "verified": "2026-08-19"
+    },
+    "stockbasis.broker_reporting": {
+      "value": "a broker reporting gross proceeds on a covered security must also report the customer's adjusted basis and whether the gain or loss is long or short term within the meaning of IRC § 1222",
+      "taxYear": 2026,
+      "source": "IRC § 6045(g)(1), (2)(A) — https://www.law.cornell.edu/uscode/text/26/6045",
+      "verified": "2026-08-19"
+    },
+    "stockbasis.default_identification": {
+      "value": "first-in first-out — shares sold without an adequate identification of the lot are charged against the earliest lot acquired, which fixes both basis and holding period",
+      "taxYear": 2026,
+      "source": "Treas. Reg. § 1.1012-1(c)(1)(i) — https://www.law.cornell.edu/cfr/text/26/1.1012-1",
+      "verified": "2026-08-19"
+    },
+    "stockbasis.holding_period": {
+      "value": "the holding period of stock or rights received on a distribution whose basis is determined under IRC § 307 includes the period the shareholder held the distributing corporation's stock before the distribution",
+      "taxYear": 2026,
+      "source": "IRC § 1223(4) — https://www.law.cornell.edu/uscode/text/26/1223",
+      "verified": "2026-08-19"
+    },
+    "stockbasis.identification_timing": {
+      "value": "an identification is adequate only if made no later than the earlier of the settlement date or the settlement time required by Rule 15c6-1 — and a standing instruction for specific identification counts as made at the time of sale",
+      "taxYear": 2026,
+      "source": "Treas. Reg. § 1.1012-1(c)(8) — https://www.law.cornell.edu/cfr/text/26/1.1012-1",
+      "verified": "2026-08-19"
+    },
+    "stockbasis.not_accounting_method": {
+      "value": "a method of determining the basis of stock, including lot identification and the average basis method, is not a method of accounting — so changing it is not a change to which IRC §§ 446 and 481 apply",
+      "taxYear": 2026,
+      "source": "Treas. Reg. § 1.1012-1(c)(10) — https://www.law.cornell.edu/cfr/text/26/1.1012-1",
+      "verified": "2026-08-19"
+    },
+    "stockbasis.rights_de_minimis": {
+      "value": "where distributed rights are worth less than 15 percent of the old stock at the time of distribution, their basis is zero unless the shareholder elects the § 307(a) allocation — and the allocation rule reaches rights only if they are exercised or sold",
+      "taxYear": 2026,
+      "source": "IRC § 307(b)(1), (2); Treas. Reg. § 1.307-1(a), closing sentence — https://www.law.cornell.edu/uscode/text/26/307",
+      "verified": "2026-08-19"
+    },
     "studentloan.deduction": {
       "value": "$2,500, phasing out between $85,000 and $100,000 of modified adjusted gross income, or between $175,000 and $205,000 on a joint return",
       "taxYear": 2026,
