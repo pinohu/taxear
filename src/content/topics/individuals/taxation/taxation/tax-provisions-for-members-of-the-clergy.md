@@ -17,7 +17,7 @@ authorities:
   - { type: IRC, ref: "§ 265", title: "Expenses and interest relating to tax-exempt income", url: "https://www.law.cornell.edu/uscode/text/26/265" }
   - { type: Reg, ref: "Reg. § 1.107-1", title: "Rental value of parsonages", url: "https://www.law.cornell.edu/cfr/text/26/1.107-1" }
 forms: []
-related: ["1.4.1.d", "1.2.4.a", "1.4.1.c", "1.4.1.e"]
+related: ["1.4.1.d", "1.2.4.a", "1.4.1.c", "1.4.1.e", "1.4.1.g"]
 changelog:
   - { date: "2026-08-19", summary: "Initial draft. Sets out the IRC § 107 housing exclusion and the Reg. § 1.107-1(b) advance designation requirement, the § 1402(a)(8) inclusion of the same amount in net earnings from self-employment with its retirement carve-out, the two exemptions in § 1402(c) and (e), the exclusion of ministerial service from FICA and from income tax withholding under §§ 3121(b)(8)(A) and 3401(a)(9), and the § 265(a)(6)(B) preservation of mortgage interest and property tax deductions." }
 ---

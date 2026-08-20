@@ -17,7 +17,7 @@ authorities:
   - { type: RevProc, ref: "Rev. Proc. 2025-32, § 3.52", title: "Minimum failure to file addition for returns required to be filed in 2027", url: "https://www.irs.gov/pub/irs-drop/rp-25-32.pdf" }
   - { type: Pub, ref: "IRS quarterly interest rates", title: "Published underpayment and overpayment rates by quarter", url: "https://www.irs.gov/payments/quarterly-interest-rates" }
 forms: []
-related: ["1.4.1.a", "1.1.1.k", "1.4.1.b", "1.1.1.d", "1.4.1.d", "1.4.1.f"]
+related: ["1.4.1.a", "1.1.1.k", "1.4.1.b", "1.1.1.d", "1.4.1.d", "1.4.1.f", "1.4.1.g"]
 changelog:
   - { date: "2026-08-19", summary: "Initial draft. Sets out the IRC § 6654 estimated tax addition — its four installments, the required annual payment and the 110 percent rule, the three exceptions and the annualised income method — the § 6651 failure to file and failure to pay additions with their interaction and the indexed 60-day minimum, and interest under §§ 6601 and 6621 with the 2026 published quarterly rates." }
 ---

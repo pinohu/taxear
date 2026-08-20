@@ -16,7 +16,7 @@ authorities:
   - { type: IRC, ref: "§ 1250", title: "Gain from dispositions of certain depreciable realty", url: "https://www.law.cornell.edu/uscode/text/26/1250" }
   - { type: Reg, ref: "§ 1.121-3", title: "Reduced maximum exclusion for taxpayers failing to meet certain requirements", url: "https://www.law.cornell.edu/cfr/text/26/1.121-3" }
 forms: []
-related: ["1.2.3.a", "1.2.3.b", "1.2.3.c", "1.2.3.i", "1.2.3.e", "1.2.3.g"]
+related: ["1.2.3.a", "1.2.3.b", "1.2.3.c", "1.2.3.i", "1.2.3.e", "1.2.3.g", "1.4.1.g"]
 changelog:
   - { date: "2026-08-19", summary: "Initial draft. Sets out the IRC § 121(a) ownership and use tests and the § 121(b) limits including the joint, surviving spouse and frequency rules, the § 121(c) reduced exclusion with the Treas. Reg. § 1.121-3(e)(2) safe harbours, the § 121(b)(5) nonqualified use allocation and the § 121(b)(5)(D) ordering against § 121(d)(6) depreciation, and the § 121(d) rules for divorce, extended duty and § 1031 property." }
 ---

@@ -5887,6 +5887,66 @@
       "taxYear": 2026,
       "source": "IRC § 265(a)(6), read at law.cornell.edu/uscode/text/26/265",
       "verified": "2026-08-19"
+    },
+    "military.combat_exclusion": {
+      "value": "unlimited for an enlisted member or a warrant officer, and capped for a commissioned officer at the maximum enlisted amount — the highest basic pay payable to an enlisted member at the highest pay grade for that month, plus any hostile fire or imminent danger pay the officer receives (IRC § 112(a), (b), (c)(1), (5))",
+      "taxYear": 2026,
+      "source": "IRC § 112, read at law.cornell.edu/uscode/text/26/112",
+      "verified": "2026-08-19"
+    },
+    "military.month_rule": {
+      "value": "service in a combat zone for any part of a month excludes that whole month's compensation, and the exclusion extends to a month of hospitalisation from wounds, disease or injury incurred there — but not to a month beginning more than two years after combatant activities in the zone terminate (IRC § 112(a), (b))",
+      "taxYear": 2026,
+      "source": "IRC § 112, read at law.cornell.edu/uscode/text/26/112",
+      "verified": "2026-08-19"
+    },
+    "military.not_compensation": {
+      "value": "pensions and retirement pay are outside the exclusion however the recipient served (IRC § 112(c)(4))",
+      "taxYear": 2026,
+      "source": "IRC § 112, read at law.cornell.edu/uscode/text/26/112",
+      "verified": "2026-08-19"
+    },
+    "military.combat_zone_designation": {
+      "value": "a combat zone exists only where the President designates one by Executive order, and service counts only between the Executive-order dates for the commencement and termination of combatant activities (IRC § 112(c)(2), (3))",
+      "taxYear": 2026,
+      "source": "IRC § 112, read at law.cornell.edu/uscode/text/26/112",
+      "verified": "2026-08-19"
+    },
+    "military.deadline_suspension": {
+      "value": "the period of service in a combat zone or a designated contingency operation, plus any continuous qualified hospitalisation for an injury received there, plus 180 days, is disregarded for filing, payment, assessment, collection, refund claims and Tax Court petitions alike (IRC § 7508(a))",
+      "taxYear": 2026,
+      "source": "IRC § 7508, read at law.cornell.edu/uscode/text/26/7508",
+      "verified": "2026-08-19"
+    },
+    "military.death_forgiveness": {
+      "value": "no income tax applies for the year of death, or for any earlier year ending on or after the first day of combat zone service, where a member dies in active service in a combat zone or from wounds, disease or injury incurred there — and tax already assessed for earlier years is abated (IRC § 692(a))",
+      "taxYear": 2026,
+      "source": "IRC § 692, read at law.cornell.edu/uscode/text/26/692",
+      "verified": "2026-08-19"
+    },
+    "military.moving_expenses": {
+      "value": "the § 217 deduction survives only for a member of the Armed Forces on active duty moving under military orders incident to a permanent change of station — the § 217(c) distance and time limits are switched off and in-kind moves or allowances are excluded from income — and from 2026 the same treatment extends to a member of the intelligence community relocating on assignment (IRC § 217(g), (k))",
+      "taxYear": 2026,
+      "source": "IRC § 217(g), (k) as amended by Pub. L. 119-21 § 70113, read at law.cornell.edu/uscode/text/26/217",
+      "verified": "2026-08-19"
+    },
+    "military.residence_suspension": {
+      "value": "a taxpayer on qualified official extended duty may elect to suspend the running of the § 121 five-year period, for up to ten years, so a long deployment does not cost the exclusion on the sale of a principal residence (IRC § 121(d)(9)(A), (B))",
+      "taxYear": 2026,
+      "source": "IRC § 121(d)(9), read at law.cornell.edu/uscode/text/26/121",
+      "verified": "2026-08-19"
+    },
+    "military.reservist_travel": {
+      "value": "travel expenses of a member of a reserve component are deductible above the line, at rates not exceeding the federal per diem and travel rates, for any period the member is more than 100 miles from home (IRC § 62(a)(2)(E))",
+      "taxYear": 2026,
+      "source": "IRC § 62(a)(2)(E), read at law.cornell.edu/uscode/text/26/62",
+      "verified": "2026-08-19"
+    },
+    "military.qualified_benefits": {
+      "value": "an allowance or in-kind benefit received by reason of service, other than personal use of a vehicle, that was excludable on 9 September 1986 under a law, regulation or administrative practice outside the Code — the housing and subsistence allowances rest on this rather than on any current statute (IRC § 134(a), (b)(1))",
+      "taxYear": 2026,
+      "source": "IRC § 134, read at law.cornell.edu/uscode/text/26/134",
+      "verified": "2026-08-19"
     }
   }
 }
