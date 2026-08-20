@@ -5641,6 +5641,48 @@
       "taxYear": 2026,
       "source": "IRC § 35(b)(1)(B), read at law.cornell.edu/uscode/text/26/35",
       "verified": "2026-08-19"
+    },
+    "amt.exemption": {
+      "value": "$140,200 on a joint return or for a surviving spouse, $90,100 for an unmarried individual, $70,100 for a married individual filing separately and $31,400 for an estate or trust, for taxable years beginning in 2026",
+      "taxYear": 2026,
+      "source": "Rev. Proc. 2025-32 § 3.10, read at irs.gov/pub/irs-drop/rp-25-32.pdf",
+      "verified": "2026-08-19"
+    },
+    "amt.phase_out": {
+      "value": "the exemption is reduced by 50 cents for each dollar of alternative minimum taxable income above $1,000,000 on a joint return and $500,000 in every other individual case, disappearing at $1,280,400 joint, $680,200 unmarried, $640,200 married filing separately and $167,600 for an estate or trust (2026)",
+      "taxYear": 2026,
+      "source": "Rev. Proc. 2025-32 § 3.10, read at irs.gov/pub/irs-drop/rp-25-32.pdf",
+      "verified": "2026-08-19"
+    },
+    "amt.phase_out_rate": {
+      "value": "50 percent for taxable years beginning after 31 December 2025, doubled from 25 percent by Pub. L. 119-21 § 70107(c), which added IRC § 55(d)(4)(A)(ii)(IV)",
+      "taxYear": 2026,
+      "source": "IRC § 55 as amended by Pub. L. 119-21 § 70107, read at law.cornell.edu/uscode/text/26/55",
+      "verified": "2026-08-19"
+    },
+    "amt.rates": {
+      "value": "26 percent of the taxable excess up to $244,500, and 28 percent above it — half that breakpoint, $122,250, for a married individual filing separately (2026)",
+      "taxYear": 2026,
+      "source": "Rev. Proc. 2025-32 § 3.10, read at irs.gov/pub/irs-drop/rp-25-32.pdf",
+      "verified": "2026-08-19"
+    },
+    "amt.permanence": {
+      "value": "permanent — Pub. L. 119-21 § 70107(a) struck the words limiting IRC § 55(d)(4) to taxable years beginning before 2026 from both the heading and the text, for taxable years beginning after 31 December 2025",
+      "taxYear": 2026,
+      "source": "IRC § 55 as amended by Pub. L. 119-21 § 70107, read at law.cornell.edu/uscode/text/26/55",
+      "verified": "2026-08-19"
+    },
+    "amt.threshold_reset": {
+      "value": "the phase-out threshold was reset to $1,000,000 joint and $500,000 otherwise and re-indexed from calendar year 2025 rather than 2017, so the 2026 figure is materially lower than the 2025 one (IRC § 55(d)(4)(B)(i), (i)(II)(2))",
+      "taxYear": 2026,
+      "source": "IRC § 55 as amended by Pub. L. 119-21 § 70107, read at law.cornell.edu/uscode/text/26/55",
+      "verified": "2026-08-19"
+    },
+    "amt.credit": {
+      "value": "the minimum tax credit carries forward without limit, and in any year is capped at regular tax liability reduced by other nonrefundable credits, less the tentative minimum tax for that year — and only deferral items generate it, never exclusion items (IRC § 53(b), (c), (d)(1)(B))",
+      "taxYear": 2026,
+      "source": "IRC § 53, read at law.cornell.edu/uscode/text/26/53",
+      "verified": "2026-08-19"
     }
   }
 }

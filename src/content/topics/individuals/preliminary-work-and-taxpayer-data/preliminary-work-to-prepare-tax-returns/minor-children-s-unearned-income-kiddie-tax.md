@@ -15,7 +15,7 @@ authorities:
   - { type: IRC, ref: "§ 152(c)(3)", title: "Qualifying child — age requirements" }
   - { type: RevProc, ref: "2025-32", title: "Inflation-adjusted items for 2026", url: "https://www.irs.gov/pub/irs-drop/rp-25-32.pdf" }
 forms: []
-related: ["1.1.1.i", "1.1.1.d", "1.1.1.b", "1.1.1.h"]
+related: ["1.1.1.i", "1.1.1.d", "1.1.1.b", "1.1.1.h", "1.4.1.a"]
 changelog:
   - { date: "2026-08-19", summary: "Initial draft against IRC § 1(g) and Rev. Proc. 2025-32 § 3.02." }
 ---
