@@ -2066,10 +2066,82 @@
       "source": "Rev. Proc. 2025-19 § 2.01(1), adjusting IRC § 223(b)(2); IRC § 223(b)(3)(B) — https://www.irs.gov/pub/irs-drop/rp-25-19.pdf",
       "verified": "2026-08-19"
     },
+    "hsa.deductible_safe_harbours": {
+      "value": "a plan does not fail to be a high deductible health plan for having no deductible for telehealth and other remote care, for providing surprise-billing benefits before the deductible is met, or for certain insulin products",
+      "taxYear": 2026,
+      "source": "IRC § 223(c)(2)(E), (F), (G) — https://www.law.cornell.edu/uscode/text/26/223",
+      "verified": "2026-08-19"
+    },
+    "hsa.dependent_denied": {
+      "value": "no deduction for an individual with respect to whom another taxpayer is allowed a deduction under IRC § 151 for a taxable year beginning in the same calendar year",
+      "taxYear": 2026,
+      "source": "IRC § 223(b)(6) — https://www.law.cornell.edu/uscode/text/26/223",
+      "verified": "2026-08-19"
+    },
+    "hsa.distributions": {
+      "value": "not includible where used exclusively for qualified medical expenses; otherwise includible in the beneficiary's gross income, with the tax increased by 20 percent of the amount included",
+      "taxYear": 2026,
+      "source": "IRC § 223(f)(1), (2), (4)(A) — https://www.law.cornell.edu/uscode/text/26/223",
+      "verified": "2026-08-19"
+    },
+    "hsa.eligible_individual": {
+      "value": "covered under a high deductible health plan on the first day of the month, and not also covered by any health plan that is not a high deductible plan and provides any benefit the high deductible plan covers",
+      "taxYear": 2026,
+      "source": "IRC § 223(c)(1)(A)(i), (ii) — https://www.law.cornell.edu/uscode/text/26/223",
+      "verified": "2026-08-19"
+    },
+    "hsa.excess_returned": {
+      "value": "an excess contribution withdrawn with its net income by the due date of the return, including extensions, escapes the inclusion rule",
+      "taxYear": 2026,
+      "source": "IRC § 223(f)(3)(A)(i) — https://www.law.cornell.edu/uscode/text/26/223",
+      "verified": "2026-08-19"
+    },
     "hsa.hdhp": {
       "value": "an annual deductible of at least $1,700 for self-only or $3,400 for family coverage, with annual out-of-pocket expenses not exceeding $8,500 or $17,000 respectively",
       "taxYear": 2026,
       "source": "Rev. Proc. 2025-19 § 2.01(2), adjusting IRC § 223(c)(2)(A) — https://www.irs.gov/pub/irs-drop/rp-25-19.pdf",
+      "verified": "2026-08-19"
+    },
+    "hsa.last_month_rule": {
+      "value": "an individual eligible in the last month of the year is treated as eligible for every month of it — but failing to remain eligible through the testing period adds the excess to gross income and imposes a further 10 percent tax, unless the failure is by death or disability",
+      "taxYear": 2026,
+      "source": "IRC § 223(b)(8)(A), (B)(i), (ii) — https://www.law.cornell.edu/uscode/text/26/223",
+      "verified": "2026-08-19"
+    },
+    "hsa.married_rule": {
+      "value": "where either spouse has family coverage, both are treated as having only that coverage — the family limit is then divided equally between them unless they agree otherwise, with each spouse's catch-up amount left out of the division",
+      "taxYear": 2026,
+      "source": "IRC § 223(b)(5)(A), (B)(ii) — https://www.law.cornell.edu/uscode/text/26/223",
+      "verified": "2026-08-19"
+    },
+    "hsa.medicare_zero": {
+      "value": "the monthly limitation is zero for the first month the individual is entitled to Medicare benefits and every month after — entitlement, not merely eligibility, ends contributions",
+      "taxYear": 2026,
+      "source": "IRC § 223(b)(7) — https://www.law.cornell.edu/uscode/text/26/223",
+      "verified": "2026-08-19"
+    },
+    "hsa.monthly_limitation": {
+      "value": "one twelfth of the annual figure for each month the individual is an eligible individual — so the limit is built month by month rather than allowed for the year",
+      "taxYear": 2026,
+      "source": "IRC § 223(b)(1), (2) — https://www.law.cornell.edu/uscode/text/26/223",
+      "verified": "2026-08-19"
+    },
+    "hsa.new_hdhp_categories": {
+      "value": "a bronze or catastrophic plan available as individual coverage through an Exchange is a high deductible health plan, and a direct primary care service arrangement is not a health plan that disqualifies the individual — both added by Pub. L. 119-21",
+      "taxYear": 2026,
+      "source": "IRC § 223(c)(2)(H) as added by Pub. L. 119-21 § 71307(a); § 223(c)(1)(E) as added by § 71308(a) — https://www.law.cornell.edu/uscode/text/26/223",
+      "verified": "2026-08-19"
+    },
+    "hsa.penalty_exceptions": {
+      "value": "the additional tax does not apply to a distribution made after the beneficiary becomes disabled within IRC § 72(m)(7) or dies, or after attaining the age specified in section 1811 of the Social Security Act",
+      "taxYear": 2026,
+      "source": "IRC § 223(f)(4)(B), (C) — https://www.law.cornell.edu/uscode/text/26/223",
+      "verified": "2026-08-19"
+    },
+    "hsa.qualified_expenses": {
+      "value": "amounts paid for medical care within IRC § 213(d) for the beneficiary, spouse and dependents, only to the extent not compensated by insurance — including menstrual care products, but **not** payments for insurance itself",
+      "taxYear": 2026,
+      "source": "IRC § 223(d)(2)(A), (B) — https://www.law.cornell.edu/uscode/text/26/223",
       "verified": "2026-08-19"
     },
     "ia.setup_fee.lowincome": {

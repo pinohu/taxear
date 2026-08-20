@@ -16,7 +16,7 @@ authorities:
   - { type: IRC, ref: "§ 162", title: "Trade or business expenses", url: "https://www.law.cornell.edu/uscode/text/26/162" }
   - { type: IRC, ref: "§ 707", title: "Transactions between partner and partnership", url: "https://www.law.cornell.edu/uscode/text/26/707" }
 forms: []
-related: ["1.2.4.e", "1.2.4.b", "1.2.1.l", "1.2.4.d", "1.2.3.k"]
+related: ["1.2.4.e", "1.2.4.b", "1.2.1.l", "1.2.4.d", "1.2.3.k", "1.2.4.c"]
 changelog:
   - { date: "2026-08-19", summary: "Initial draft. Sets out the IRC § 1401 rates including the additional hospital insurance tax and its unindexed thresholds, the § 1402(a) definition of net earnings with its rental, portfolio, capital gain and limited partner exclusions, the § 1402(b) ceiling and the $400 floor, and the two distinct halvings — the § 1402(a)(12) base reduction and the § 164(f) deduction — that are routinely confused." }
 ---
