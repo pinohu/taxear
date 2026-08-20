@@ -16,7 +16,7 @@ authorities:
   - { type: IRC, ref: "§ 6652", title: "Failure to file certain information returns, registration statements, etc.", url: "https://www.law.cornell.edu/uscode/text/26/6652" }
   - { type: IRC, ref: "§ 79", title: "Group-term life insurance purchased for employees", url: "https://www.law.cornell.edu/uscode/text/26/79" }
 forms: []
-related: ["1.4.1.j", "1.4.1.e", "1.2.1.h", "1.4.1.d"]
+related: ["1.4.1.j", "1.4.1.e", "1.2.1.h", "1.4.1.d", "1.4.1.l"]
 changelog:
   - { date: "2026-08-19", summary: "Initial draft. Sets out the IRC § 6053(a) tip reporting obligation, the § 3102(c)(1) limit on what an employer can collect, the § 6053(b) statement of the excess, the § 3121(a)(12)(B) monthly threshold and the treatment of unreported tips under § 3121(q), the § 6652(b) penalty, and uncollected tax on group-term life insurance for a former employee under § 79." }
 ---

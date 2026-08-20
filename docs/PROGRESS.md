@@ -9,10 +9,10 @@ is indexed, and only the owner moves a page there (see `docs/VERIFICATION.md`).
 
 | Part | Topics | Stub | Draft | Review | Published | Words |
 |---|---:|---:|---:|---:|---:|---:|
-| 1. Individuals | 120 | 32 | 0 | 78 | 10 | 193,821 |
+| 1. Individuals | 120 | 31 | 0 | 79 | 10 | 195,629 |
 | 2. Businesses | 119 | 119 | 0 | 0 | 0 | 0 |
 | 3. Representation, Practices and Procedures | 121 | 0 | 0 | 0 | 121 | 257,674 |
-| **All parts** | **360** | **151** | **0** | **78** | **131** | **451,495** |
+| **All parts** | **360** | **150** | **0** | **79** | **131** | **453,303** |
 
 ## Part 1 — Individuals
 
@@ -151,7 +151,7 @@ is indexed, and only the owner moves a page there (see `docs/VERIFICATION.md`).
 | 1.4.1.i | [Net investment income tax](/individuals/taxation/taxation/net-investment-income-tax/) | review | 1,960 | 2026-08-19 |
 | 1.4.1.j | [Additional Medicare tax](/individuals/taxation/taxation/additional-medicare-tax/) | review | 1,629 | 2026-08-19 |
 | 1.4.1.k | [Uncollected Social Security and Medicare tax](/individuals/taxation/taxation/uncollected-social-security-and-medicare-tax/) | review | 1,852 | 2026-08-19 |
-| 1.4.1.l | [Other taxes (e.g., first time homebuyer credit repayment, IRC Section 965 transition tax)](/individuals/taxation/taxation/other-taxes/) | stub | — | — |
+| 1.4.1.l | [Other taxes (e.g., first time homebuyer credit repayment, IRC Section 965 transition tax)](/individuals/taxation/taxation/other-taxes/) | review | 1,808 | 2026-08-19 |
 
 ### 1.5 Advising the Individual Taxpayer
 

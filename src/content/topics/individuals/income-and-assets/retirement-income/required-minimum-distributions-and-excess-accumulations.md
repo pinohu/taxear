@@ -20,7 +20,7 @@ authorities:
   - { type: Reg, ref: "§ 1.408-8", title: "Distribution requirements for individual retirement plans", url: "https://www.law.cornell.edu/cfr/text/26/1.408-8" }
   - { type: Form, ref: "5329", title: "Additional taxes on qualified plans and other tax-favored accounts — instructions", url: "https://www.irs.gov/pub/irs-pdf/i5329.pdf" }
 forms: []
-related: ["1.2.2.b", "1.2.2.c", "1.2.2.g", "1.2.2.a", "1.2.2.e", "1.2.2.i", "1.2.2.j", "1.2.2.l"]
+related: ["1.2.2.b", "1.2.2.c", "1.2.2.g", "1.2.2.a", "1.2.2.e", "1.2.2.i", "1.2.2.j", "1.2.2.l", "1.4.1.l"]
 changelog:
   - { date: "2026-08-19", summary: "Initial draft. Sets out the IRC § 401(a)(9)(C) required beginning date and its applicable-age table, the Treas. Reg. § 1.401(a)(9)-5 computation and Uniform Lifetime denominators, the Treas. Reg. § 1.408-8(e) aggregation rules, and the IRC § 4974 excise tax with its § 4974(e) reduced rate and § 4974(d) reasonable-error waiver." }
 ---

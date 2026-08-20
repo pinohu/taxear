@@ -15,7 +15,7 @@ authorities:
   - { type: IRC, ref: "§ 1401", title: "Rate of tax — self-employment", url: "https://www.law.cornell.edu/uscode/text/26/1401" }
   - { type: RevProc, ref: "Rev. Proc. 2025-32, § 3.01", title: "2026 rate tables including estates and trusts", url: "https://www.irs.gov/pub/irs-drop/rp-25-32.pdf" }
 forms: []
-related: ["1.4.1.j", "1.2.3.b", "1.2.1.l", "1.4.1.h"]
+related: ["1.4.1.j", "1.2.3.b", "1.2.1.l", "1.4.1.h", "1.4.1.l"]
 changelog:
   - { date: "2026-08-19", summary: "Initial draft. Sets out the IRC § 1411(a) lesser-of computation for individuals and for estates and trusts, the § 1411(b) unindexed thresholds, the § 1411(c) definition of net investment income with its passive activity and trading business limbs, the § 1411(c)(5) and (6) exclusions for qualified plan distributions and self-employment income, the § 1411(d) modified adjusted gross income definition, and the § 1411(e) non-application to nonresident aliens." }
 ---

@@ -6079,6 +6079,54 @@
       "taxYear": 2026,
       "source": "IRC § 79(a), read at law.cornell.edu/uscode/text/26/79",
       "verified": "2026-08-19"
+    },
+    "other_taxes.fthb_recapture": {
+      "value": "6⅔ percent of the credit for each taxable year of the 15-year recapture period, which begins with the second taxable year after the year of purchase — so a $7,500 credit repays at $500 a year (IRC § 36(f)(1), (7))",
+      "taxYear": 2026,
+      "source": "IRC § 36(f), read at law.cornell.edu/uscode/text/26/36",
+      "verified": "2026-08-19"
+    },
+    "other_taxes.fthb_acceleration": {
+      "value": "disposing of the residence, or its ceasing to be the principal residence, before the end of the recapture period accelerates the whole unrecaptured balance into that year — capped, on a sale to an unrelated person, at the gain on the sale (IRC § 36(f)(2), (3))",
+      "taxYear": 2026,
+      "source": "IRC § 36(f), read at law.cornell.edu/uscode/text/26/36",
+      "verified": "2026-08-19"
+    },
+    "other_taxes.fthb_exceptions": {
+      "value": "no recapture for any taxable year ending after the taxpayer's death; no acceleration on an involuntary conversion where a new principal residence is acquired within two years, the new residence taking the old one's place; and no acceleration on a § 1041(a) transfer between spouses or incident to divorce, the transferee taking on the obligation (IRC § 36(f)(4)(A)–(C))",
+      "taxYear": 2026,
+      "source": "IRC § 36(f)(4), read at law.cornell.edu/uscode/text/26/36",
+      "verified": "2026-08-19"
+    },
+    "other_taxes.transition_tax": {
+      "value": "the IRC § 965 transition tax could be paid in eight instalments — 8 percent of the net tax liability for each of the first five, then 15, 20 and 25 percent — with the first due on the unextended due date for the § 965(a) inclusion year and each later one on the following year's unextended due date (IRC § 965(h)(1), (2))",
+      "taxYear": 2026,
+      "source": "IRC § 965(h), read at law.cornell.edu/uscode/text/26/965",
+      "verified": "2026-08-19"
+    },
+    "other_taxes.excess_contributions": {
+      "value": "6 percent of the excess contributions to an individual retirement account, Archer MSA, individual retirement annuity, Coverdell account, health savings account or ABLE account, imposed for each taxable year the excess remains and capped at 6 percent of the account value at the close of the year (IRC § 4973(a))",
+      "taxYear": 2026,
+      "source": "IRC § 4973(a), read at law.cornell.edu/uscode/text/26/4973",
+      "verified": "2026-08-19"
+    },
+    "other_taxes.excess_accumulations": {
+      "value": "25 percent of the shortfall where less than the required minimum distribution is taken, payable by the payee (IRC § 4974(a))",
+      "taxYear": 2026,
+      "source": "IRC § 4974(a), read at law.cornell.edu/uscode/text/26/4974",
+      "verified": "2026-08-19"
+    },
+    "other_taxes.early_distribution": {
+      "value": "10 percent of the portion of an early distribution from a qualified retirement plan that is includible in gross income, subject to the exceptions in IRC § 72(t)(2)",
+      "taxYear": 2026,
+      "source": "IRC § 72(t)(1), read at law.cornell.edu/uscode/text/26/72",
+      "verified": "2026-08-19"
+    },
+    "other_taxes.shared_responsibility": {
+      "value": "zero — IRC § 5000A(c)(3) still sets out the flat dollar amount and § 5000A(c)(2)(B) the percentage of income, but the percentage is zero for taxable years beginning after 2018 and the flat amount is zero, so the section remains in the Code imposing nothing",
+      "taxYear": 2026,
+      "source": "IRC § 5000A(c), read at law.cornell.edu/uscode/text/26/5000A",
+      "verified": "2026-08-19"
     }
   }
 }
