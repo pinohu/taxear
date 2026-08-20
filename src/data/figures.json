@@ -6307,6 +6307,48 @@
       "taxYear": 2026,
       "source": "IRC § 221(b) read at law.cornell.edu/uscode/text/26/221 and Rev. Proc. 2025-32 § 3.29 read at irs.gov/pub/irs-drop/rp-25-32.pdf",
       "verified": "2026-08-19"
+    },
+    "estate.basic_exclusion": {
+      "value": "$15,000,000 for a decedent dying in calendar year 2026 — the IRC § 2010(c)(3)(A) basic exclusion amount as raised by Pub. L. 119-21 § 70106, indexed from calendar year 2026 and rounded to the nearest $10,000 under § 2010(c)(3)(B)",
+      "taxYear": 2026,
+      "source": "IRC § 2010(c)(3) read at law.cornell.edu/uscode/text/26/2010 and Rev. Proc. 2025-32 § 2.14 read at irs.gov/pub/irs-drop/rp-25-32.pdf",
+      "verified": "2026-08-19"
+    },
+    "estate.gst_exemption": {
+      "value": "$15,000,000 for calendar year 2026 — the IRC § 2631(c) generation-skipping transfer exemption tracks the basic exclusion amount",
+      "taxYear": 2026,
+      "source": "Rev. Proc. 2025-32 §§ 2.14, 4.42, read at irs.gov/pub/irs-drop/rp-25-32.pdf",
+      "verified": "2026-08-19"
+    },
+    "estate.annual_exclusion": {
+      "value": "$19,000 per donee for calendar year 2026, for gifts other than gifts of future interests (IRC § 2503(b))",
+      "taxYear": 2026,
+      "source": "Rev. Proc. 2025-32 §§ 2.14, 4.42, read at irs.gov/pub/irs-drop/rp-25-32.pdf",
+      "verified": "2026-08-19"
+    },
+    "estate.noncitizen_spouse": {
+      "value": "$194,000 for calendar year 2026 in place of the ordinary annual exclusion, for gifts to a spouse who is not a United States citizen (IRC §§ 2503 and 2523(i)(2))",
+      "taxYear": 2026,
+      "source": "Rev. Proc. 2025-32 §§ 2.14, 4.42, read at irs.gov/pub/irs-drop/rp-25-32.pdf",
+      "verified": "2026-08-19"
+    },
+    "estate.portability": {
+      "value": "a surviving spouse may add the deceased spousal unused exclusion amount to their own, but only if the first estate filed a timely and complete estate tax return making the election (IRC § 2010(c)(2)(B), (c)(4), (c)(5)(A))",
+      "taxYear": 2026,
+      "source": "IRC § 2010(c)(4), (5), read at law.cornell.edu/uscode/text/26/2010",
+      "verified": "2026-08-19"
+    },
+    "estate.basis_contrast": {
+      "value": "property acquired from a decedent takes a fair market value basis at death under IRC § 1014(a); property acquired by gift takes the donor's basis under § 1015(a), with a special rule using fair market value where that is lower and the sale produces a loss",
+      "taxYear": 2026,
+      "source": "IRC §§ 1014(a) and 1015(a), read at law.cornell.edu/uscode/text/26/1014 and /1015",
+      "verified": "2026-08-19"
+    },
+    "estate.life_insurance": {
+      "value": "proceeds payable by reason of death are excluded from gross income under IRC § 101(a)(1), but are in the gross estate under § 2042 where the decedent held any incident of ownership or the proceeds are payable to the estate",
+      "taxYear": 2026,
+      "source": "IRC §§ 101(a) and 2042, read at law.cornell.edu/uscode/text/26/101 and /2042",
+      "verified": "2026-08-19"
     }
   }
 }
