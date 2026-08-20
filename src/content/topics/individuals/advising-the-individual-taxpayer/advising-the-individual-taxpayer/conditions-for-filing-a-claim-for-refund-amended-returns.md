@@ -17,7 +17,7 @@ authorities:
   - { type: IRC, ref: "§ 7508A", title: "Authority to postpone certain deadlines by reason of federally declared disaster", url: "https://www.law.cornell.edu/uscode/text/26/7508A" }
   - { type: Form, ref: "Form 1040-X", title: "Amended U.S. Individual Income Tax Return", url: "https://www.irs.gov/forms-pubs/about-form-1040x" }
 forms: []
-related: ["1.5.1.h", "1.5.1.i", "1.5.1.g", "1.5.1.m", "1.1.1.a", "1.5.1.a"]
+related: ["1.5.1.h", "1.5.1.i", "1.5.1.g", "1.5.1.m", "1.1.1.a", "1.5.1.a", "1.5.1.o"]
 changelog:
   - { date: "2026-08-20", summary: "Initial draft. Sets out the two limitations that govern a refund claim — the IRC § 6511(a) period for filing and the § 6511(b)(2) cap on what may be recovered — with the § 6513(a) early return rule and § 6513(b) deemed payment dates that make them run from the same day for most individuals, the special periods in § 6511(d)(1), (2) and (3), the § 6511(h) financial disability suspension, and the postponements under §§ 7508 and 7508A." }
 ---

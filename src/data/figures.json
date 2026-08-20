@@ -6745,6 +6745,54 @@
       "taxYear": 2026,
       "source": "IRC § 7508A, read at law.cornell.edu/uscode/text/26/7508A",
       "verified": "2026-08-20"
+    },
+    "perjury.declaration_required": {
+      "value": "except as the Secretary otherwise provides, any return, declaration, statement or other document required under the internal revenue laws or regulations must contain, or be verified by, a written declaration that it is made under the penalties of perjury (IRC § 6065)",
+      "taxYear": 2026,
+      "source": "IRC § 6065, read at law.cornell.edu/uscode/text/26/6065",
+      "verified": "2026-08-20"
+    },
+    "perjury.signature_required": {
+      "value": "every such document must be signed in accordance with the forms or regulations the Secretary prescribes, and the Secretary must provide procedures accepting electronic signatures (IRC § 6061)",
+      "taxYear": 2026,
+      "source": "IRC § 6061, read at law.cornell.edu/uscode/text/26/6061",
+      "verified": "2026-08-20"
+    },
+    "perjury.signature_presumption": {
+      "value": "a name signed to a return, statement or other document is prima facie evidence for all purposes that the document was actually signed by that person (IRC § 6064)",
+      "taxYear": 2026,
+      "source": "IRC § 6064, read at law.cornell.edu/uscode/text/26/6064",
+      "verified": "2026-08-20"
+    },
+    "perjury.7206_elements": {
+      "value": "willfully making and subscribing a return, statement or other document verified by a penalties-of-perjury declaration which the signer does not believe to be true and correct as to every material matter — a felony, with no requirement that any tax be owed (IRC § 7206(1))",
+      "taxYear": 2026,
+      "source": "IRC § 7206, read at law.cornell.edu/uscode/text/26/7206",
+      "verified": "2026-08-20"
+    },
+    "perjury.7206_sentence": {
+      "value": "up to 3 years' imprisonment, and a fine of up to $250,000 for an individual or $500,000 for an organization — not the $100,000 and $500,000 printed in IRC § 7206, which 18 U.S.C. § 3571(b)(3) and (c)(3) supersede because § 7206 contains no specific reference exempting it under § 3571(e)",
+      "taxYear": 2026,
+      "source": "IRC § 7206 and 18 U.S.C. § 3571, both read at law.cornell.edu",
+      "verified": "2026-08-20"
+    },
+    "perjury.7207_offence": {
+      "value": "willfully delivering or disclosing to the Secretary any list, return, account, statement or other document known to be fraudulent or false as to any material matter — a misdemeanor carrying up to 1 year's imprisonment (IRC § 7207)",
+      "taxYear": 2026,
+      "source": "IRC § 7207, read at law.cornell.edu/uscode/text/26/7207",
+      "verified": "2026-08-20"
+    },
+    "perjury.7201_sentence": {
+      "value": "up to 5 years' imprisonment for willfully attempting in any manner to evade or defeat any tax or its payment, with the fine again set by 18 U.S.C. § 3571 rather than by the $100,000 printed in the section (IRC § 7201)",
+      "taxYear": 2026,
+      "source": "IRC § 7201 and 18 U.S.C. § 3571, both read at law.cornell.edu",
+      "verified": "2026-08-20"
+    },
+    "perjury.civil_fraud": {
+      "value": "75 percent of the portion of an underpayment attributable to fraud — and once the Secretary establishes that any portion is fraudulent, the whole underpayment is treated as fraudulent except as to any portion the taxpayer establishes is not (IRC § 6663)",
+      "taxYear": 2026,
+      "source": "IRC § 6663, read at law.cornell.edu/uscode/text/26/6663",
+      "verified": "2026-08-20"
     }
   }
 }

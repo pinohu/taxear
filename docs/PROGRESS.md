@@ -9,10 +9,10 @@ is indexed, and only the owner moves a page there (see `docs/VERIFICATION.md`).
 
 | Part | Topics | Stub | Draft | Review | Published | Words |
 |---|---:|---:|---:|---:|---:|---:|
-| 1. Individuals | 120 | 17 | 0 | 93 | 10 | 223,403 |
+| 1. Individuals | 120 | 16 | 0 | 94 | 10 | 225,369 |
 | 2. Businesses | 119 | 119 | 0 | 0 | 0 | 0 |
 | 3. Representation, Practices and Procedures | 121 | 0 | 0 | 0 | 121 | 257,674 |
-| **All parts** | **360** | **136** | **0** | **93** | **131** | **481,077** |
+| **All parts** | **360** | **135** | **0** | **94** | **131** | **483,043** |
 
 ## Part 1 — Individuals
 
@@ -173,7 +173,7 @@ is indexed, and only the owner moves a page there (see `docs/VERIFICATION.md`).
 | 1.5.1.l | [Character of transaction (e.g., use of capital gain rates versus ordinary income rates)](/individuals/advising-the-individual-taxpayer/advising-the-individual-taxpayer/character-of-transaction/) | review | 2,220 | 2026-08-20 |
 | 1.5.1.m | [Advantages and disadvantages of MFJ/MFS/HOH filing statuses in various scenarios. (joint and several liability)](/individuals/advising-the-individual-taxpayer/advising-the-individual-taxpayer/advantages-and-disadvantages-of-mfj-mfs-hoh-filing-statuses/) | review | 2,363 | 2026-08-20 |
 | 1.5.1.n | [Conditions for filing a claim for refund (amended returns)](/individuals/advising-the-individual-taxpayer/advising-the-individual-taxpayer/conditions-for-filing-a-claim-for-refund-amended-returns/) | review | 2,182 | 2026-08-20 |
-| 1.5.1.o | [Penalty of perjury](/individuals/advising-the-individual-taxpayer/advising-the-individual-taxpayer/penalty-of-perjury/) | stub | — | — |
+| 1.5.1.o | [Penalty of perjury](/individuals/advising-the-individual-taxpayer/advising-the-individual-taxpayer/penalty-of-perjury/) | review | 1,966 | 2026-08-20 |
 
 ### 1.6 Specialized Returns for Individuals
 
