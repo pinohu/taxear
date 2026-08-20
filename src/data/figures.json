@@ -7033,6 +7033,60 @@
       "taxYear": 2026,
       "source": "IRC § 401(a)(9)(H)(iii), read at law.cornell.edu/uscode/text/26/401",
       "verified": "2026-08-20"
+    },
+    "estatefile.706_threshold_reduced": {
+      "value": "the filing threshold is reduced, but not below zero, by post-1976 adjusted taxable gifts and by any specific exemption allowed under the repealed IRC § 2521 for gifts after 8 September 1976 — so an estate below the basic exclusion amount can still be required to file (IRC § 6018(a)(3))",
+      "taxYear": 2026,
+      "source": "IRC § 6018(a)(3), read at law.cornell.edu/uscode/text/26/6018",
+      "verified": "2026-08-20"
+    },
+    "estatefile.1041_threshold": {
+      "value": "$600 of gross income for the taxable year for a domestic estate; a trust files on any taxable income, or on $600 of gross income whatever the taxable income; and either files where any beneficiary is a nonresident alien, whatever the income (IRC § 6012(a)(3), (4), (5))",
+      "taxYear": 2026,
+      "source": "IRC § 6012(a), read at law.cornell.edu/uscode/text/26/6012",
+      "verified": "2026-08-20"
+    },
+    "estatefile.1041_due_date": {
+      "value": "the 15th day of the fourth month following the close of the taxable year — 15 April for a calendar year estate (IRC § 6072(a))",
+      "taxYear": 2026,
+      "source": "IRC § 6072(a), read at law.cornell.edu/uscode/text/26/6072",
+      "verified": "2026-08-20"
+    },
+    "estatefile.fiscal_year": {
+      "value": "an estate may adopt a fiscal year, and a fiscal year must be a period of 12 months ending on the last day of a month other than December — so an estate's first year can be short but cannot end mid-month (IRC § 441(e))",
+      "taxYear": 2026,
+      "source": "IRC § 441(e), read at law.cornell.edu/uscode/text/26/441",
+      "verified": "2026-08-20"
+    },
+    "estatefile.645_election": {
+      "value": "where the executor and the trustee of a qualified revocable trust both elect, the trust is treated and taxed as part of the estate rather than as a separate trust (IRC § 645(a))",
+      "taxYear": 2026,
+      "source": "IRC § 645(a), read at law.cornell.edu/uscode/text/26/645",
+      "verified": "2026-08-20"
+    },
+    "estatefile.645_applicable_date": {
+      "value": "2 years after the date of death where no estate tax return is required, and 6 months after the final determination of the chapter 11 liability where one is (IRC § 645(b)(2))",
+      "taxYear": 2026,
+      "source": "IRC § 645(b)(2), read at law.cornell.edu/uscode/text/26/645",
+      "verified": "2026-08-20"
+    },
+    "estatefile.filing_extension": {
+      "value": "the Secretary may grant a reasonable extension of time to file, and outside the case of taxpayers abroad no such extension may exceed 6 months (IRC § 6081(a))",
+      "taxYear": 2026,
+      "source": "IRC § 6081(a), read at law.cornell.edu/uscode/text/26/6081",
+      "verified": "2026-08-20"
+    },
+    "estatefile.payment_extension": {
+      "value": "up to 12 months for estate tax shown on the return under the general rule, and for reasonable cause up to 10 years from the IRC § 6151(a) payment date — with a separate 4-year limit for a deficiency, unavailable where the deficiency is due to negligence, intentional disregard or fraud (IRC § 6161(a)(1), (a)(2), (b)(2), (b)(3))",
+      "taxYear": 2026,
+      "source": "IRC § 6161, read at law.cornell.edu/uscode/text/26/6161",
+      "verified": "2026-08-20"
+    },
+    "estatefile.1041_unindexed": {
+      "value": "$600 — the IRC § 6012(a)(3) gross income threshold for an estate, which is not indexed and has stood at that figure since the 1954 Code, so inflation alone has steadily widened the population of estates required to file",
+      "taxYear": 2026,
+      "source": "IRC § 6012(a)(3), read at law.cornell.edu/uscode/text/26/6012",
+      "verified": "2026-08-20"
     }
   }
 }
