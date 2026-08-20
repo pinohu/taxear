@@ -5521,6 +5521,48 @@
       "taxYear": 2026,
       "source": "Reg. § 1.6695-2(b)(1)–(4), read at law.cornell.edu/cfr/text/26/1.6695-2",
       "verified": "2026-08-19"
+    },
+    "adoption.credit_limit": {
+      "value": "$17,670 of qualified adoption expenses per child for taxable years beginning in 2026 — a per-child aggregate across all years, not an annual cap",
+      "taxYear": 2026,
+      "source": "Rev. Proc. 2025-32 § 3.04, read at irs.gov/pub/irs-drop/rp-25-32.pdf",
+      "verified": "2026-08-19"
+    },
+    "adoption.special_needs": {
+      "value": "$17,670 for taxable years beginning in 2026, deemed paid in the year the adoption becomes final regardless of what was actually spent — the taxpayer is treated as having paid the excess of that amount over the expenses actually paid in that year and all prior years (IRC § 23(a)(3))",
+      "taxYear": 2026,
+      "source": "Rev. Proc. 2025-32 § 3.04, read at irs.gov/pub/irs-drop/rp-25-32.pdf",
+      "verified": "2026-08-19"
+    },
+    "adoption.phase_out": {
+      "value": "modified adjusted gross income of $265,080 to $305,080 for taxable years beginning in 2026, applied ratably, with adjusted gross income determined without regard to IRC §§ 911, 931 and 933",
+      "taxYear": 2026,
+      "source": "Rev. Proc. 2025-32 § 3.04, read at irs.gov/pub/irs-drop/rp-25-32.pdf",
+      "verified": "2026-08-19"
+    },
+    "adoption.refundable": {
+      "value": "$5,120 for taxable years beginning in 2026 — the IRC § 23(a)(4) refundable portion added by Pub. L. 119-21 § 70402(a) for taxable years beginning after 31 December 2024, indexed from a $5,000 base under § 23(h)(3)",
+      "taxYear": 2026,
+      "source": "IRC § 23(a)(4) and (h)(3) read at law.cornell.edu/uscode/text/26/23 and Rev. Proc. 2025-32 § 3.04(3) read at irs.gov/pub/irs-drop/rp-25-32.pdf",
+      "verified": "2026-08-19"
+    },
+    "adoption.carryforward": {
+      "value": "five taxable years after the year the credit arose, on a first-in first-out basis, and only for the non-refundable portion (IRC § 23(c)(1), (2) as amended by Pub. L. 119-21 § 70402(c))",
+      "taxYear": 2026,
+      "source": "IRC § 23, read at law.cornell.edu/uscode/text/26/23",
+      "verified": "2026-08-19"
+    },
+    "adoption.timing": {
+      "value": "an expense paid before the year the adoption becomes final is credited in the following taxable year; an expense paid in or after that year is credited when paid — except for a foreign adoption, where nothing is allowed until the adoption is final and all earlier expenses are then treated as paid in that year (IRC § 23(a)(2), (e))",
+      "taxYear": 2026,
+      "source": "IRC § 23, read at law.cornell.edu/uscode/text/26/23",
+      "verified": "2026-08-19"
+    },
+    "adoption.assistance_exclusion": {
+      "value": "$17,670 of employer-provided adoption assistance excludable for 2026 under IRC § 137, phasing out over the same modified adjusted gross income range as the credit — a separate benefit that may be used alongside the credit but not on the same expenses",
+      "taxYear": 2026,
+      "source": "IRC § 137 and Rev. Proc. 2025-32 § 4.18, read at law.cornell.edu/uscode/text/26/137 and irs.gov/pub/irs-drop/rp-25-32.pdf",
+      "verified": "2026-08-19"
     }
   }
 }
