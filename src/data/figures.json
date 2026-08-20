@@ -2600,6 +2600,66 @@
       "source": "IRC § 6325(a)",
       "verified": "2026-08-18"
     },
+    "lke.basis": {
+      "value": "the basis of the property given up, decreased by money received and increased by gain or decreased by loss recognised — with a liability assumed by the other party, as determined under IRC § 357(d), treated as money received",
+      "taxYear": 2026,
+      "source": "IRC § 1031(d) — https://www.law.cornell.edu/uscode/text/26/1031",
+      "verified": "2026-08-19"
+    },
+    "lke.boot": {
+      "value": "gain is recognised to the extent of money and the fair market value of other property received, but not more than the realised gain — and a loss is never recognised on an exchange that would otherwise qualify",
+      "taxYear": 2026,
+      "source": "IRC § 1031(b), (c) — https://www.law.cornell.edu/uscode/text/26/1031",
+      "verified": "2026-08-19"
+    },
+    "lke.exchange_period": {
+      "value": "the **earlier** of 180 days after the transfer of the relinquished property or the due date, including extensions, of the return for the year of that transfer — so a late-year sale needs an extension to get the full 180 days",
+      "taxYear": 2026,
+      "source": "IRC § 1031(a)(3)(B)(i), (ii) — https://www.law.cornell.edu/uscode/text/26/1031",
+      "verified": "2026-08-19"
+    },
+    "lke.excluded_partnership": {
+      "value": "an interest in a partnership with a valid IRC § 761(a) election out of subchapter K is treated as an interest in each of its assets rather than as a partnership interest",
+      "taxYear": 2026,
+      "source": "IRC § 1031(e) — https://www.law.cornell.edu/uscode/text/26/1031",
+      "verified": "2026-08-19"
+    },
+    "lke.foreign": {
+      "value": "real property in the United States and real property outside it are not of like kind",
+      "taxYear": 2026,
+      "source": "IRC § 1031(h) — https://www.law.cornell.edu/uscode/text/26/1031",
+      "verified": "2026-08-19"
+    },
+    "lke.held_for_sale": {
+      "value": "unavailable for real property held primarily for sale — so a dealer's inventory and a developer's lots are outside the section",
+      "taxYear": 2026,
+      "source": "IRC § 1031(a)(2) — https://www.law.cornell.edu/uscode/text/26/1031",
+      "verified": "2026-08-19"
+    },
+    "lke.identification_limits": {
+      "value": "three properties without regard to value; or any number whose aggregate value at the end of the identification period does not exceed 200 percent of the relinquished property's value; or, failing both, any identified property actually received amounting to at least 95 percent of the value of everything identified",
+      "taxYear": 2026,
+      "source": "Treas. Reg. § 1.1031(k)-1(c)(4)(i)(A), (B); (c)(4)(ii)(B) — https://www.law.cornell.edu/cfr/text/26/1.1031(k)-1",
+      "verified": "2026-08-19"
+    },
+    "lke.identification_period": {
+      "value": "45 days after the transfer of the relinquished property, in an unambiguous written description — a legal description, street address or distinguishable name for real property",
+      "taxYear": 2026,
+      "source": "IRC § 1031(a)(3)(A); Treas. Reg. § 1.1031(k)-1(c)(3) — https://www.law.cornell.edu/cfr/text/26/1.1031(k)-1",
+      "verified": "2026-08-19"
+    },
+    "lke.related_party": {
+      "value": "nonrecognition is undone where, within 2 years of the last transfer in the exchange, the related person disposes of the property received or the taxpayer disposes of the property they received — the gain being taken into account in the year of that later disposition",
+      "taxYear": 2026,
+      "source": "IRC § 1031(f)(1) — https://www.law.cornell.edu/uscode/text/26/1031",
+      "verified": "2026-08-19"
+    },
+    "lke.scope": {
+      "value": "real property only — no gain or loss on the exchange of real property held for productive use in a trade or business or for investment, solely for real property of like kind to be so held",
+      "taxYear": 2026,
+      "source": "IRC § 1031(a)(1), as amended by Pub. L. 115-97 § 13303(a) — https://www.law.cornell.edu/uscode/text/26/1031",
+      "verified": "2026-08-19"
+    },
     "llc.amount": {
       "value": "20 percent of up to $10,000 of qualified tuition and related expenses, a maximum of $2,000 per return rather than per student, entirely non-refundable",
       "taxYear": 2026,

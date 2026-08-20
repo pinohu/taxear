@@ -17,7 +17,7 @@ authorities:
   - { type: IRC, ref: "§ 1245", title: "Gain from dispositions of certain depreciable property", url: "https://www.law.cornell.edu/uscode/text/26/1245" }
   - { type: IRC, ref: "§ 1250", title: "Gain from dispositions of certain depreciable realty", url: "https://www.law.cornell.edu/uscode/text/26/1250" }
 forms: []
-related: ["1.2.3.a", "1.2.3.b", "1.2.3.c", "1.2.3.f", "1.2.3.e"]
+related: ["1.2.3.a", "1.2.3.b", "1.2.3.c", "1.2.3.f", "1.2.3.e", "1.2.3.i"]
 changelog:
   - { date: "2026-08-19", summary: "Initial draft. Sets out the IRC § 453(a) default and § 453(d) election out, the § 453(c) gross profit ratio, the § 453(b)(2) and § 453(l) exclusions for dealers and inventory, the § 453(i) rule pulling recapture income into the year of disposition, the § 453(e) related-party second disposition rule with its two-year cutoff, § 453(g) and § 1239 on sales to related persons of depreciable property, and the § 453A interest and pledging rules and § 453B disposition of the obligation." }
 ---
