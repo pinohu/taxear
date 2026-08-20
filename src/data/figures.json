@@ -6462,49 +6462,49 @@
       "value": "tax withheld is deemed paid in equal parts on each of the four installment due dates, whatever the calendar shows, unless the taxpayer establishes the actual withholding dates — and the election may be made separately for wage withholding and for other withholding (IRC § 6654(g))",
       "taxYear": 2026,
       "source": "IRC § 6654, read at law.cornell.edu/uscode/text/26/6654",
-      "verified": "2026-08-19"
+      "verified": "2026-08-20"
     },
     "estplan.annualization_percentages": {
       "value": "22.5 percent for the first installment, 45 percent for the second, 67.5 percent for the third and 90 percent for the fourth, applied to the tax on income annualised through the months ending before the installment's due date (IRC § 6654(d)(2)(B), (C)(ii))",
       "taxYear": 2026,
       "source": "IRC § 6654, read at law.cornell.edu/uscode/text/26/6654",
-      "verified": "2026-08-19"
+      "verified": "2026-08-20"
     },
     "estplan.annualization_recapture": {
       "value": "any reduction obtained by annualising is added back to the next required installment, and to later installments until it has been recaptured in full (IRC § 6654(d)(2)(A)(ii))",
       "taxYear": 2026,
       "source": "IRC § 6654, read at law.cornell.edu/uscode/text/26/6654",
-      "verified": "2026-08-19"
+      "verified": "2026-08-20"
     },
     "estplan.january_filing_rule": {
       "value": "filing the return and paying the balance in full on or before 31 January of the following year removes the addition to tax for the fourth installment only — the first three stand (IRC § 6654(h))",
       "taxYear": 2026,
       "source": "IRC § 6654, read at law.cornell.edu/uscode/text/26/6654",
-      "verified": "2026-08-19"
+      "verified": "2026-08-20"
     },
     "estplan.farmer_fisherman": {
       "value": "one installment instead of four, due 15 January of the following year, computed by substituting 66⅔ percent for 90 percent and ignoring the 110 percent rule, with the filing date that cancels it moved to 1 March (IRC § 6654(i))",
       "taxYear": 2026,
       "source": "IRC § 6654, read at law.cornell.edu/uscode/text/26/6654",
-      "verified": "2026-08-19"
+      "verified": "2026-08-20"
     },
     "estplan.farmer_definition": {
       "value": "gross income from farming or fishing is at least 66⅔ percent of gross income from all sources, tested on either the current year or the preceding year's return (IRC § 6654(i)(2))",
       "taxYear": 2026,
       "source": "IRC § 6654, read at law.cornell.edu/uscode/text/26/6654",
-      "verified": "2026-08-19"
+      "verified": "2026-08-20"
     },
     "estplan.disaster_waiver": {
       "value": "the Secretary may waive the addition to the extent that, by reason of casualty, disaster or other unusual circumstances, imposing it would be against equity and good conscience (IRC § 6654(e)(3)(A))",
       "taxYear": 2026,
       "source": "IRC § 6654, read at law.cornell.edu/uscode/text/26/6654",
-      "verified": "2026-08-19"
+      "verified": "2026-08-20"
     },
     "estplan.overpayment_credit": {
       "value": "an overpayment of the preceding year's income tax may be credited against the current year's estimated tax under regulations prescribed by the Secretary (IRC § 6402(b))",
       "taxYear": 2026,
       "source": "IRC § 6402, read at law.cornell.edu/uscode/text/26/6402",
-      "verified": "2026-08-19"
+      "verified": "2026-08-20"
     }
   }
 }

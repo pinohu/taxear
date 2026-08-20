@@ -7,7 +7,7 @@ section: "Advising the individual taxpayer"
 description: "The penalty is avoided by hitting a safe harbour, not by paying the right tax. Withholding is deemed ratable whatever the date, which is the whole planning lever."
 status: review
 taxYear: 2026
-lastReviewed: "2026-08-19"
+lastReviewed: "2026-08-20"
 reviewedBy: "Draft for I. Ohu review"
 authorities:
   - { type: IRC, ref: "§ 6654", title: "Failure by individual to pay estimated income tax", url: "https://www.law.cornell.edu/uscode/text/26/6654" }
@@ -19,7 +19,7 @@ authorities:
 forms: []
 related: ["1.4.1.c", "1.4.1.d", "1.5.1.e", "1.5.1.g", "1.5.1.k"]
 changelog:
-  - { date: "2026-08-19", summary: "Initial draft. Covers estimated tax planning under IRC § 6654 from the avoidance side — the two safe harbours in § 6654(d)(1)(B) and (C), the ratable-withholding rule in § 6654(g), the annualised income installment method and its recapture in § 6654(d)(2), the January filing rule in § 6654(h), the farmer and fisherman substitutions in § 6654(i), the statutory exceptions in § 6654(e) and the § 6402(b) credit-forward election." }
+  - { date: "2026-08-20", summary: "Initial draft. Covers estimated tax planning under IRC § 6654 from the avoidance side — the two safe harbours in § 6654(d)(1)(B) and (C), the ratable-withholding rule in § 6654(g), the annualised income installment method and its recapture in § 6654(d)(2), the January filing rule in § 6654(h), the farmer and fisherman substitutions in § 6654(i), the statutory exceptions in § 6654(e) and the § 6402(b) credit-forward election." }
 ---
 
 Estimated tax planning is not about predicting the year's tax correctly. It is about landing inside one
