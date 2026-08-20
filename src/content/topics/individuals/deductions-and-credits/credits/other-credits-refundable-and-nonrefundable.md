@@ -19,7 +19,7 @@ authorities:
   - { type: Notice, ref: "Notice 2025-67", title: "2026 amounts relating to retirement plans and IRAs", url: "https://www.irs.gov/pub/irs-drop/n-25-67.pdf" }
   - { type: Statute, ref: "Pub. L. 119-21, §§ 70502, 70505, 70506", title: "Termination of the individual energy credits", url: "https://www.law.cornell.edu/uscode/text/26/25D" }
 forms: []
-related: ["1.1.1.k", "1.1.1.j", "1.3.2.g", "1.2.4.b"]
+related: ["1.1.1.k", "1.1.1.j", "1.3.2.g", "1.2.4.b", "1.4.1.e"]
 changelog:
   - { date: "2026-08-19", summary: "Initial draft. Sets out the IRC § 25B saver's credit with the 2026 income limits from Notice 2025-67, the § 22 credit for the elderly and disabled and why it is almost never available, the § 31(b) credit for excess social security withholding and its two-employer condition, the expiry of the § 35 health coverage tax credit for coverage months beginning after 2021, and the termination of §§ 25C, 25D, 30D and 25E by Pub. L. 119-21 §§ 70502, 70505 and 70506." }
 ---

@@ -16,7 +16,7 @@ authorities:
   - { type: IRC, ref: "§ 3402", title: "Income tax collected at source", url: "https://www.law.cornell.edu/uscode/text/26/3402" }
   - { type: Pub, ref: "IRS Topic no. 756", title: "Employment taxes for household employees", url: "https://www.irs.gov/taxtopics/tc756" }
 forms: []
-related: ["1.4.1.d", "1.4.1.j", "1.1.1.k", "1.4.1.a", "1.4.1.c"]
+related: ["1.4.1.d", "1.4.1.j", "1.1.1.k", "1.4.1.a", "1.4.1.c", "1.4.1.e"]
 changelog:
   - { date: "2026-08-19", summary: "Initial draft. Sets out the common law employee test for household workers, the IRC § 3121(a)(7)(B) and (x) cash wage threshold with the 2026 figure from IRS Topic 756, the § 3121(b)(3) family exclusions, the FUTA quarterly test and wage base, the absence of any income tax withholding obligation, and the § 3510 reporting of all three on Schedule H with the individual return." }
 ---

@@ -5809,6 +5809,42 @@
       "taxYear": 2026,
       "source": "IRC § 1402, read at law.cornell.edu/uscode/text/26/1402",
       "verified": "2026-08-19"
+    },
+    "excess_ss.maximum": {
+      "value": "6.2 percent of the 2026 contribution and benefit base of $184,500 — $11,439.00 of old-age, survivors and disability insurance tax per employer, the ceiling above which a multi-employer taxpayer has an excess",
+      "taxYear": 2026,
+      "source": "IRS Topic no. 751 (page last reviewed 20 January 2026), read at irs.gov/taxtopics/tc751",
+      "verified": "2026-08-19"
+    },
+    "excess_ss.two_employer_test": {
+      "value": "the credit arises only where the employee received wages from more than one employer during the calendar year and the combined wages exceed the contribution and benefit base — a single employer that over-withholds must refund the employee and issue a corrected Form W-2 (IRC § 6413(c)(1))",
+      "taxYear": 2026,
+      "source": "IRC §§ 31(b) and 6413(c), read at law.cornell.edu/uscode/text/26/31 and /6413",
+      "verified": "2026-08-19"
+    },
+    "excess_ss.character": {
+      "value": "treated as an amount withheld at source as tax under IRC § 3402, so it is a payment rather than a subpart A credit — it is refundable, it is not limited by tax liability, and it reduces no particular tax (IRC § 31(b)(1))",
+      "taxYear": 2026,
+      "source": "IRC §§ 31(b) and 6413(c), read at law.cornell.edu/uscode/text/26/31 and /6413",
+      "verified": "2026-08-19"
+    },
+    "excess_ss.year": {
+      "value": "allowed as a credit for the taxable year beginning in the calendar year in which the wages were received, so a fiscal-year taxpayer takes it against the year that began in the calendar year of the wages (IRC § 31(b)(2))",
+      "taxYear": 2026,
+      "source": "IRC §§ 31(b) and 6413(c), read at law.cornell.edu/uscode/text/26/31 and /6413",
+      "verified": "2026-08-19"
+    },
+    "excess_ss.medicare": {
+      "value": "none — the hospital insurance tax under IRC § 3101(b)(1) has no wage ceiling, and the 0.9 percent additional Medicare tax under § 3101(b)(2) is reconciled on the taxpayer's own return rather than through this credit",
+      "taxYear": 2026,
+      "source": "IRC § 3101(b), read at law.cornell.edu/uscode/text/26/3101",
+      "verified": "2026-08-19"
+    },
+    "excess_ss.rrta": {
+      "value": "railroad retirement tier 1 tax under IRC § 3201(a) counts toward the same ceiling, but only to the extent of the rate that does not exceed the § 3101(a) rate, and § 3231(e) compensation is treated as wages for this purpose (IRC § 6413(c)(1))",
+      "taxYear": 2026,
+      "source": "IRC §§ 31(b) and 6413(c), read at law.cornell.edu/uscode/text/26/31 and /6413",
+      "verified": "2026-08-19"
     }
   }
 }
