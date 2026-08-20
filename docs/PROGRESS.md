@@ -9,10 +9,10 @@ is indexed, and only the owner moves a page there (see `docs/VERIFICATION.md`).
 
 | Part | Topics | Stub | Draft | Review | Published | Words |
 |---|---:|---:|---:|---:|---:|---:|
-| 1. Individuals | 120 | 54 | 0 | 56 | 10 | 147,052 |
+| 1. Individuals | 120 | 53 | 0 | 57 | 10 | 148,931 |
 | 2. Businesses | 119 | 119 | 0 | 0 | 0 | 0 |
 | 3. Representation, Practices and Procedures | 121 | 0 | 0 | 0 | 121 | 257,674 |
-| **All parts** | **360** | **173** | **0** | **56** | **131** | **404,726** |
+| **All parts** | **360** | **172** | **0** | **57** | **131** | **406,605** |
 
 ## Part 1 — Individuals
 
@@ -117,7 +117,7 @@ is indexed, and only the owner moves a page there (see `docs/VERIFICATION.md`).
 | 1.3.1.c | [Interest expense (e.g., mortgage interest, investment interest, tracing rules, points, indebtedness limitations)](/individuals/deductions-and-credits/itemized-deductions-and-qbi/interest-expense/) | review | 1,960 | 2026-08-19 |
 | 1.3.1.d | [Charitable contributions (e.g., cash, noncash, limitations, documentation required)](/individuals/deductions-and-credits/itemized-deductions-and-qbi/charitable-contributions/) | review | 1,921 | 2026-08-19 |
 | 1.3.1.e | [Nonbusiness casualty and theft losses in presidentially declared disaster areas](/individuals/deductions-and-credits/itemized-deductions-and-qbi/nonbusiness-casualty-and-theft-losses-in-presidentially/) | review | 1,930 | 2026-08-19 |
-| 1.3.1.f | [Other itemized deductions](/individuals/deductions-and-credits/itemized-deductions-and-qbi/other-itemized-deductions/) | stub | — | — |
+| 1.3.1.f | [Other itemized deductions](/individuals/deductions-and-credits/itemized-deductions-and-qbi/other-itemized-deductions/) | review | 1,879 | 2026-08-19 |
 | 1.3.1.g | [Allowed itemized deductions for Form 1040-NR](/individuals/deductions-and-credits/itemized-deductions-and-qbi/allowed-itemized-deductions-for-form-1040-nr/) | stub | — | — |
 | 1.3.1.h | [Qualified Business Income Deduction](/individuals/deductions-and-credits/itemized-deductions-and-qbi/qualified-business-income-deduction/) | stub | — | — |
 

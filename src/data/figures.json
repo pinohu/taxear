@@ -3314,6 +3314,42 @@
       "source": "IRC § 421(a)(1)–(3) — https://www.law.cornell.edu/uscode/text/26/421",
       "verified": "2026-08-19"
     },
+    "otheritem.claim_of_right": {
+      "value": "where an item was included in a prior year because it appeared the taxpayer had an unrestricted right to it, and a deduction of more than $3,000 becomes allowable because that proved wrong, tax is the lesser of the tax computed with the deduction or the tax computed without it less the decrease in prior-year tax",
+      "taxYear": 2026,
+      "source": "IRC § 1341(a)(1)–(3), (a)(4), (a)(5) — https://www.law.cornell.edu/uscode/text/26/1341",
+      "verified": "2026-08-19"
+    },
+    "otheritem.gambling_losses": {
+      "value": "allowed as an itemized deduction outside the miscellaneous class, but only within the IRC § 165(d) ceiling as rewritten by Pub. L. 119-21 § 70114(a)",
+      "taxYear": 2026,
+      "source": "IRC § 67(b)(3); IRC § 165(d) — https://www.law.cornell.edu/uscode/text/26/67",
+      "verified": "2026-08-19"
+    },
+    "otheritem.impairment_related": {
+      "value": "expenses of a handicapped individual for attendant care at the place of employment and other expenses necessary to enable them to work, deductible in full without a floor",
+      "taxYear": 2026,
+      "source": "IRC § 67(b)(6); IRC § 67(d)(1), (2) — https://www.law.cornell.edu/uscode/text/26/67",
+      "verified": "2026-08-19"
+    },
+    "otheritem.ird_estate_tax": {
+      "value": "a deduction for the federal estate tax attributable to an item of income in respect of a decedent, allowed to whoever includes that income and computed as a ratio of the estate tax to the net value of all such items",
+      "taxYear": 2026,
+      "source": "IRC § 67(b)(7); IRC § 691(c)(1)(A) — https://www.law.cornell.edu/uscode/text/26/691",
+      "verified": "2026-08-19"
+    },
+    "otheritem.miscellaneous_gone": {
+      "value": "everything not on the § 67(b) list is a miscellaneous itemized deduction and is allowed **nowhere** — permanently, since Pub. L. 119-21 § 70110 struck the end date and redesignated the subsection as § 67(h)",
+      "taxYear": 2026,
+      "source": "IRC § 67(a), (b), (h) — https://www.law.cornell.edu/uscode/text/26/67",
+      "verified": "2026-08-19"
+    },
+    "otheritem.survivors": {
+      "value": "thirteen classes are carved out of the definition of a miscellaneous itemized deduction and therefore survive the IRC § 67(h) disallowance — interest, taxes, casualty and theft and wagering losses, charitable contributions, medical expenses, impairment-related work expenses, the § 691(c) estate tax deduction, short sale expenses, § 1341 claim of right, § 72(b)(3) unrecovered annuity investment, amortizable bond premium, cooperative housing, and educator expenses",
+      "taxYear": 2026,
+      "source": "IRC § 67(b)(1)–(13) — https://www.law.cornell.edu/uscode/text/26/67",
+      "verified": "2026-08-19"
+    },
     "overtime.deduction_cap": {
       "value": "$12,500 of qualified overtime compensation, or $25,000 on a joint return, reduced by $100 for each $1,000 of modified adjusted gross income above $150,000, or $300,000 joint",
       "taxYear": 2026,
