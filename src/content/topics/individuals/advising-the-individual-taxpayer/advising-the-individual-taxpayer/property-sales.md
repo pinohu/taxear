@@ -17,7 +17,7 @@ authorities:
   - { type: IRC, ref: "§ 1411", title: "Imposition of tax on net investment income", url: "https://www.law.cornell.edu/uscode/text/26/1411" }
   - { type: RevProc, ref: "Rev. Proc. 2025-32, § 3.03", title: "2026 maximum capital gains rate amounts", url: "https://www.irs.gov/pub/irs-drop/rp-25-32.pdf" }
 forms: []
-related: ["1.2.3.b", "1.2.3.f", "1.5.1.l", "1.5.1.a"]
+related: ["1.2.3.b", "1.2.3.f", "1.5.1.l", "1.5.1.a", "1.5.1.c"]
 changelog:
   - { date: "2026-08-19", summary: "Initial draft. Sets out the four long-term rates in IRC § 1(h) with the 2026 breakpoints from Rev. Proc. 2025-32 § 3.03, the § 1(h)(5) collectibles definition and its look-through for partnership interests, unrecaptured § 1250 gain, the interaction with the § 1411 net investment income tax, and the real versus personal property distinction." }
 ---

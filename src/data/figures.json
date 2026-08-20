@@ -6265,6 +6265,48 @@
       "taxYear": 2026,
       "source": "IRC § 1221 and the real/personal distinction as used throughout subtitle A, read at law.cornell.edu/uscode/text/26/1221",
       "verified": "2026-08-19"
+    },
+    "edplan.529_k12_limit": {
+      "value": "$20,000 per beneficiary per year for elementary and secondary expenses, for taxable years beginning after 31 December 2025 — doubled from $10,000 by Pub. L. 119-21 § 70413(b)",
+      "taxYear": 2026,
+      "source": "IRC § 529 as amended by Pub. L. 119-21 §§ 70413, 70414, read at law.cornell.edu/uscode/text/26/529",
+      "verified": "2026-08-19"
+    },
+    "edplan.529_k12_expenses": {
+      "value": "no longer tuition alone: for distributions made after 4 July 2025, curriculum and curricular materials, books and instructional materials, online educational materials, tuition for outside tutoring by an unrelated licensed teacher or subject matter expert, fees for standardised and advanced placement tests and college admission examinations, dual enrolment fees, and educational therapies for students with disabilities (IRC § 529(c)(7))",
+      "taxYear": 2026,
+      "source": "IRC § 529 as amended by Pub. L. 119-21 §§ 70413, 70414, read at law.cornell.edu/uscode/text/26/529",
+      "verified": "2026-08-19"
+    },
+    "edplan.529_credentialing": {
+      "value": "qualified postsecondary credentialing expenses are now qualified higher education expenses — tuition, fees, books, supplies and equipment for a recognised postsecondary credential program, testing fees required to obtain or maintain the credential, and continuing education fees required to maintain it (IRC § 529(e)(3)(C), (f))",
+      "taxYear": 2026,
+      "source": "IRC § 529 as amended by Pub. L. 119-21 §§ 70413, 70414, read at law.cornell.edu/uscode/text/26/529",
+      "verified": "2026-08-19"
+    },
+    "edplan.529_able_rollover": {
+      "value": "permanent — Pub. L. 119-21 § 70117(a) struck the 1 January 2026 end date from the rollover of a § 529 balance to an ABLE account, for taxable years beginning after 31 December 2025",
+      "taxYear": 2026,
+      "source": "IRC § 529 as amended by Pub. L. 119-21 §§ 70413, 70414, read at law.cornell.edu/uscode/text/26/529",
+      "verified": "2026-08-19"
+    },
+    "edplan.coverdell_limit": {
+      "value": "$2,000 of aggregate contributions per beneficiary per year, in cash, and no contribution after the beneficiary attains age 18 (IRC § 530(b)(1)(A)(i)–(iii))",
+      "taxYear": 2026,
+      "source": "IRC § 530(b)(1)(A), read at law.cornell.edu/uscode/text/26/530",
+      "verified": "2026-08-19"
+    },
+    "edplan.employer_assistance": {
+      "value": "$5,250 a year excluded from an employee's gross income, made permanent for employer payments of student loan principal or interest by Pub. L. 119-21 § 70412(a) and indexed for the first time from 2027 under the new IRC § 127(d)",
+      "taxYear": 2026,
+      "source": "IRC § 127(a)(2), (c)(1)(B), (d) as amended by Pub. L. 119-21 § 70412, read at law.cornell.edu/uscode/text/26/127",
+      "verified": "2026-08-19"
+    },
+    "edplan.student_loan_interest": {
+      "value": "a maximum deduction of $2,500, phasing out for 2026 over modified adjusted gross income of $85,000 to $100,000, or $175,000 to $205,000 on a joint return (IRC § 221(b))",
+      "taxYear": 2026,
+      "source": "IRC § 221(b) read at law.cornell.edu/uscode/text/26/221 and Rev. Proc. 2025-32 § 3.29 read at irs.gov/pub/irs-drop/rp-25-32.pdf",
+      "verified": "2026-08-19"
     }
   }
 }

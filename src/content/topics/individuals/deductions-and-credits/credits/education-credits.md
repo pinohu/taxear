@@ -17,7 +17,7 @@ authorities:
   - { type: Statute, ref: "Pub. L. 119-21, § 70606", title: "Social security number requirement for education credits", url: "https://www.law.cornell.edu/uscode/text/26/25A" }
   - { type: Statute, ref: "Pub. L. 116-260, § 104", title: "Repeal of the § 25A(h) inflation adjustment and alignment of the income limits", url: "https://www.law.cornell.edu/uscode/text/26/25A" }
 forms: []
-related: ["1.3.2.b", "1.1.1.j", "1.1.1.i", "1.1.1.k", "1.3.2.d", "1.3.2.e"]
+related: ["1.3.2.b", "1.1.1.j", "1.1.1.i", "1.1.1.k", "1.3.2.d", "1.3.2.e", "1.5.1.c"]
 changelog:
   - { date: "2026-08-19", summary: "Initial draft. Sets out the IRC § 25A(b) American Opportunity credit with its four-year, half-time and felony limits, the § 25A(c) Lifetime Learning credit, the § 25A(d) shared phase-out and why it is no longer indexed, the § 25A(f)(1) expense definition and its § 25A(f)(1)(D) course-materials extension for the American Opportunity credit only, Reg. § 1.25A-2(d)(2) on when books count, the § 25A(g) special rules, and the social security number requirement added by Pub. L. 119-21 § 70606 for taxable years beginning after 31 December 2025." }
 ---
