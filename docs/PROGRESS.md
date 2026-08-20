@@ -9,10 +9,10 @@ is indexed, and only the owner moves a page there (see `docs/VERIFICATION.md`).
 
 | Part | Topics | Stub | Draft | Review | Published | Words |
 |---|---:|---:|---:|---:|---:|---:|
-| 1. Individuals | 120 | 70 | 0 | 40 | 10 | 114,903 |
+| 1. Individuals | 120 | 69 | 0 | 41 | 10 | 117,142 |
 | 2. Businesses | 119 | 119 | 0 | 0 | 0 | 0 |
 | 3. Representation, Practices and Procedures | 121 | 0 | 0 | 0 | 121 | 257,674 |
-| **All parts** | **360** | **189** | **0** | **40** | **131** | **372,577** |
+| **All parts** | **360** | **188** | **0** | **41** | **131** | **374,816** |
 
 ## Part 1 — Individuals
 
@@ -89,7 +89,7 @@ is indexed, and only the owner moves a page there (see `docs/VERIFICATION.md`).
 | 1.2.3.c | [Basis of assets (e.g., purchased, gifted or inherited)](/individuals/income-and-assets/property-real-and-personal/basis-of-assets/) | review | 2,330 | 2026-08-19 |
 | 1.2.3.d | [Basis of stock after stock splits and/or stock dividends (e.g., research, schedules, brokerage records)](/individuals/income-and-assets/property-real-and-personal/basis-of-stock-after-stock-splits-and-or-stock-dividends/) | review | 2,206 | 2026-08-19 |
 | 1.2.3.e | [Publicly traded partnerships (PTP) (e.g., sales, dispositions, losses)](/individuals/income-and-assets/property-real-and-personal/publicly-traded-partnerships-ptp/) | review | 2,083 | 2026-08-19 |
-| 1.2.3.f | [Sale of a personal residence (e.g., IRC Section 121 exclusions)](/individuals/income-and-assets/property-real-and-personal/sale-of-a-personal-residence/) | stub | — | — |
+| 1.2.3.f | [Sale of a personal residence (e.g., IRC Section 121 exclusions)](/individuals/income-and-assets/property-real-and-personal/sale-of-a-personal-residence/) | review | 2,239 | 2026-08-19 |
 | 1.2.3.g | [Installment sales (e.g., related parties, original cost, date of acquisition, possible recalculations and recharacterization)](/individuals/income-and-assets/property-real-and-personal/installment-sales/) | stub | — | — |
 | 1.2.3.h | [Options (e.g., stock, commodity, ISO, ESPP)](/individuals/income-and-assets/property-real-and-personal/options/) | stub | — | — |
 | 1.2.3.i | [Like-kind exchange](/individuals/income-and-assets/property-real-and-personal/like-kind-exchange/) | stub | — | — |

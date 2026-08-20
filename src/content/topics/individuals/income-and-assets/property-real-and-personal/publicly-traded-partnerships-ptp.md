@@ -17,7 +17,7 @@ authorities:
   - { type: IRC, ref: "§ 1446", title: "Withholding of tax on foreign partners' share of effectively connected income", url: "https://www.law.cornell.edu/uscode/text/26/1446" }
   - { type: IRC, ref: "§ 7704", title: "Certain publicly traded partnerships treated as corporations", url: "https://www.law.cornell.edu/uscode/text/26/7704" }
 forms: []
-related: ["1.2.1.k", "1.2.3.b", "1.2.3.a", "1.2.1.l", "1.2.3.c"]
+related: ["1.2.1.k", "1.2.3.b", "1.2.3.a", "1.2.1.l", "1.2.3.c", "1.2.3.f"]
 changelog:
   - { date: "2026-08-19", summary: "Initial draft. Sets out the IRC § 7704(a) corporate default and the § 7704(c) qualifying income exception, the § 469(k)(1) separate application of the passive loss rules and the § 469(k)(3) rule deferring release of suspended losses until the whole interest goes, the § 741 and § 751(a) split of gain on sale, the § 705 outside basis mechanics, and the § 1446(f) withholding on a transferee." }
 ---

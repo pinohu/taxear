@@ -3668,6 +3668,84 @@
       "source": "Rev. Proc. 2025-32, § 3.14 (2026 adjusted items) — https://www.irs.gov/pub/irs-drop/rp-25-32.pdf",
       "verified": "2026-08-19"
     },
+    "sec121.depreciation": {
+      "value": "the exclusion does not apply to gain up to the depreciation adjustments as defined in IRC § 1250(b)(3) attributable to periods after 6 May 1997 — and this is applied **before** the nonqualified use allocation",
+      "taxYear": 2026,
+      "source": "IRC § 121(d)(6); § 121(b)(5)(D)(i), (ii) — https://www.law.cornell.edu/uscode/text/26/121",
+      "verified": "2026-08-19"
+    },
+    "sec121.divorce": {
+      "value": "a transferee under IRC § 1041(a) tacks the transferor's ownership period, and an individual is treated as using the property as a principal residence during any period of ownership while a spouse or former spouse is granted its use under a divorce or separation instrument",
+      "taxYear": 2026,
+      "source": "IRC § 121(d)(3)(A), (B) — https://www.law.cornell.edu/uscode/text/26/121",
+      "verified": "2026-08-19"
+    },
+    "sec121.exclusion": {
+      "value": "$250,000, or $500,000 on a joint return where either spouse meets the ownership test, both meet the use test, and neither is barred by the two-year rule",
+      "taxYear": 2026,
+      "source": "IRC § 121(b)(1), (b)(2)(A)(i)–(iii) — https://www.law.cornell.edu/uscode/text/26/121",
+      "verified": "2026-08-19"
+    },
+    "sec121.frequency": {
+      "value": "unavailable where there was any other sale or exchange by the taxpayer to which the exclusion applied during the 2-year period ending on the date of sale",
+      "taxYear": 2026,
+      "source": "IRC § 121(b)(3) — https://www.law.cornell.edu/uscode/text/26/121",
+      "verified": "2026-08-19"
+    },
+    "sec121.joint_not_qualifying": {
+      "value": "where the joint requirements are not met, the limit is the sum of the limitations each spouse would have had if unmarried — with each spouse treated as owning the property during any period either of them owned it",
+      "taxYear": 2026,
+      "source": "IRC § 121(b)(2)(B) — https://www.law.cornell.edu/uscode/text/26/121",
+      "verified": "2026-08-19"
+    },
+    "sec121.like_kind_bar": {
+      "value": "unavailable for 5 years from acquisition where the property was acquired in an exchange on which gain was not recognised under IRC § 1031(a) or (b) — and the bar follows to anyone taking a carryover basis",
+      "taxYear": 2026,
+      "source": "IRC § 121(d)(10) — https://www.law.cornell.edu/uscode/text/26/121",
+      "verified": "2026-08-19"
+    },
+    "sec121.nonqualified_use": {
+      "value": "gain allocated to periods of nonqualified use is not excluded, the allocation being the ratio of aggregate nonqualified use during ownership to the whole period of ownership — periods before 1 January 2009 are left out of the numerator",
+      "taxYear": 2026,
+      "source": "IRC § 121(b)(5)(A), (B), (C)(i) — https://www.law.cornell.edu/uscode/text/26/121",
+      "verified": "2026-08-19"
+    },
+    "sec121.nonqualified_use_exceptions": {
+      "value": "not nonqualified use: any part of the 5-year period after the last date of use as a principal residence; up to 10 years of qualified official extended duty; and up to 2 years of temporary absence for a change of employment, health, or unforeseen circumstances",
+      "taxYear": 2026,
+      "source": "IRC § 121(b)(5)(C)(ii)(I)–(III) — https://www.law.cornell.edu/uscode/text/26/121",
+      "verified": "2026-08-19"
+    },
+    "sec121.ownership_use": {
+      "value": "owned **and** used as the taxpayer's principal residence for periods aggregating 2 years or more during the 5-year period ending on the date of sale — the two tests run independently and need not be satisfied in the same months",
+      "taxYear": 2026,
+      "source": "IRC § 121(a) — https://www.law.cornell.edu/uscode/text/26/121",
+      "verified": "2026-08-19"
+    },
+    "sec121.reduced_exclusion": {
+      "value": "where the sale is by reason of a change in place of employment, health, or unforeseen circumstances, the ownership, use and frequency requirements are waived and the dollar limit is prorated by the shorter of the qualifying period or the time since the last excluded sale, over 2 years",
+      "taxYear": 2026,
+      "source": "IRC § 121(c)(1)(A), (B), (c)(2) — https://www.law.cornell.edu/uscode/text/26/121",
+      "verified": "2026-08-19"
+    },
+    "sec121.surviving_spouse": {
+      "value": "an unmarried individual whose spouse is deceased keeps the joint limit on a sale not later than 2 years after the date of death, where the joint requirements were met immediately before that date",
+      "taxYear": 2026,
+      "source": "IRC § 121(b)(4) — https://www.law.cornell.edu/uscode/text/26/121",
+      "verified": "2026-08-19"
+    },
+    "sec121.suspension": {
+      "value": "at the individual's election the 5-year period is suspended while they or their spouse serve on qualified official extended duty in the uniformed services, Foreign Service or intelligence community — at a duty station at least 50 miles away or in Government quarters under orders — but by no more than 10 years",
+      "taxYear": 2026,
+      "source": "IRC § 121(d)(9)(A), (B), (C)(i) — https://www.law.cornell.edu/uscode/text/26/121",
+      "verified": "2026-08-19"
+    },
+    "sec121.unforeseen_safe_harbours": {
+      "value": "specified events deemed unforeseen include involuntary conversion, natural or man-made disaster, and — for a qualified individual — death, divorce or legal separation, multiple births from a single pregnancy, cessation of employment leaving the individual eligible for unemployment compensation, and a change in employment leaving them unable to pay housing and basic living expenses",
+      "taxYear": 2026,
+      "source": "Treas. Reg. § 1.121-3(e)(2)(i)–(iii) — https://www.law.cornell.edu/cfr/text/26/1.121-3",
+      "verified": "2026-08-19"
+    },
     "seniors.deduction": {
       "value": "$6,000 for each qualified individual who has attained age 65 before the close of the taxable year, for taxable years beginning before 1 January 2029",
       "taxYear": 2026,
