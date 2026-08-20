@@ -6043,6 +6043,42 @@
       "taxYear": 2026,
       "source": "IRC § 3102(f), read at law.cornell.edu/uscode/text/26/3102",
       "verified": "2026-08-19"
+    },
+    "uncollected.tip_reporting": {
+      "value": "an employee who receives tips constituting wages in any calendar month must report them to the employer in a written statement by the tenth day of the following month (IRC § 6053(a))",
+      "taxYear": 2026,
+      "source": "IRC § 6053(a), read at law.cornell.edu/uscode/text/26/6053",
+      "verified": "2026-08-19"
+    },
+    "uncollected.collection_limit": {
+      "value": "the employer collects the employee's FICA on reported tips only from wages other than tips that are under its control, and only up to the tenth day of the month after the tips were deemed paid — anything it cannot reach is uncollected (IRC § 3102(c)(1))",
+      "taxYear": 2026,
+      "source": "IRC § 3102(c), read at law.cornell.edu/uscode/text/26/3102",
+      "verified": "2026-08-19"
+    },
+    "uncollected.employer_statement": {
+      "value": "where the tax on reported tips exceeds what the employer can collect, the employer must furnish the employee a written statement showing the excess (IRC § 6053(b)) — it reaches the employee as codes A and B in box 12 of the Form W-2",
+      "taxYear": 2026,
+      "source": "IRC § 6053(b), read at law.cornell.edu/uscode/text/26/6053",
+      "verified": "2026-08-19"
+    },
+    "uncollected.unreported_tips": {
+      "value": "tips of $20 or more in a month that the employee never reported to the employer are still wages, and the employee owes the social security and Medicare tax on them directly, computed on Form 4137",
+      "taxYear": 2026,
+      "source": "IRC §§ 3121(a)(12) and 3121(q), read at law.cornell.edu/uscode/text/26/3121",
+      "verified": "2026-08-19"
+    },
+    "uncollected.tip_penalty": {
+      "value": "50 percent of the tax on tips the employee failed to report as § 6053(a) required, unless the failure was due to reasonable cause and not wilful neglect (IRC § 6652(b))",
+      "taxYear": 2026,
+      "source": "IRC § 6652(b), read at law.cornell.edu/uscode/text/26/6652",
+      "verified": "2026-08-19"
+    },
+    "uncollected.group_term_life": {
+      "value": "the cost of employer-provided group-term life insurance above $50,000 of coverage is included in the employee's gross income, and where the covered person is a former employee the employer cannot withhold on it — the tax appears as codes M and N in box 12 and is paid by the individual",
+      "taxYear": 2026,
+      "source": "IRC § 79(a), read at law.cornell.edu/uscode/text/26/79",
+      "verified": "2026-08-19"
     }
   }
 }

@@ -16,7 +16,7 @@ authorities:
   - { type: IRC, ref: "§ 1411", title: "Imposition of tax on net investment income", url: "https://www.law.cornell.edu/uscode/text/26/1411" }
   - { type: Pub, ref: "IRS Topic no. 554", title: "Self-employment tax and additional Medicare tax", url: "https://www.irs.gov/taxtopics/tc554" }
 forms: []
-related: ["1.4.1.i", "1.4.1.e", "1.4.1.d", "1.4.1.b"]
+related: ["1.4.1.i", "1.4.1.e", "1.4.1.d", "1.4.1.b", "1.4.1.k"]
 changelog:
   - { date: "2026-08-19", summary: "Initial draft. Sets out the IRC § 3101(b)(2) and § 1401(b)(2) 0.9 percent tax with its unindexed thresholds, the mismatch between the § 3102(f)(1) withholding trigger and the liability threshold, the absence of any employer match, the ordering rule between wages and self-employment income, and the relationship with the § 1411 net investment income tax." }
 ---

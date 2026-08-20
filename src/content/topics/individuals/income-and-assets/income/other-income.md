@@ -24,7 +24,7 @@ authorities:
   - { type: Reg, ref: "§ 1.61-2", title: "Compensation for services, including fees, commissions, and similar items", url: "https://www.law.cornell.edu/cfr/text/26/1.61-2" }
   - { type: Statute, ref: "Pub. L. 115-97", title: "An Act to provide for reconciliation, title I" }
 forms: []
-related: ["1.2.1.g", "1.2.1.d", "1.2.1.f", "1.2.1.e", "1.2.1.n", "1.2.1.i"]
+related: ["1.2.1.g", "1.2.1.d", "1.2.1.f", "1.2.1.e", "1.2.1.n", "1.2.1.i", "1.4.1.k"]
 changelog:
   - { date: "2026-08-19", summary: "Initial draft. Sets out the IRC § 117 scholarship exclusion and its service limitation, the IRC § 74 prize rules, the IRC § 104(a)(2) physical injury requirement, and the repeal of IRC §§ 71 and 215 for post-2018 instruments." }
 ---
