@@ -6871,6 +6871,54 @@
       "taxYear": 2026,
       "source": "IRC § 2010(c)(3) and its 2017 and 2025 amendment notes, read at law.cornell.edu/uscode/text/26/2010",
       "verified": "2026-08-20"
+    },
+    "joint.consideration_rule": {
+      "value": "the whole value of jointly held property with right of survivorship is in the decedent's gross estate, except the part shown to have originally belonged to the other owner and never to have been acquired from the decedent for less than adequate and full consideration (IRC § 2040(a))",
+      "taxYear": 2026,
+      "source": "IRC § 2040(a), read at law.cornell.edu/uscode/text/26/2040",
+      "verified": "2026-08-20"
+    },
+    "joint.proportionate_exception": {
+      "value": "where the survivor did furnish consideration, the excluded part is the proportion of the whole value that the survivor's consideration bears to the total cost of acquisition and capital additions — and only consideration not itself traceable to the decedent counts (IRC § 2040(a); Reg. § 20.2040-1(a)(2))",
+      "taxYear": 2026,
+      "source": "IRC § 2040 and 26 CFR § 20.2040-1, read at law.cornell.edu",
+      "verified": "2026-08-20"
+    },
+    "joint.inherited_interest": {
+      "value": "where the joint interest was itself acquired by gift, devise, bequest or inheritance, the decedent's fractional share is included and the consideration test never runs (IRC § 2040(a) second proviso; Reg. § 20.2040-1(a)(1))",
+      "taxYear": 2026,
+      "source": "IRC § 2040 and 26 CFR § 20.2040-1, read at law.cornell.edu",
+      "verified": "2026-08-20"
+    },
+    "joint.qualified_joint_interest": {
+      "value": "exactly one-half, whatever either spouse contributed — for property held by the decedent and the decedent's spouse as tenants by the entirety, or as joint tenants with right of survivorship where the two spouses are the only joint tenants (IRC § 2040(b))",
+      "taxYear": 2026,
+      "source": "IRC § 2040(b), read at law.cornell.edu/uscode/text/26/2040",
+      "verified": "2026-08-20"
+    },
+    "joint.noncitizen_spouse": {
+      "value": "IRC § 2040(b) does not apply where the surviving spouse is not a United States citizen, so the consideration-furnished test of § 2040(a) governs instead and the marital deduction is denied unless the property passes in a qualified domestic trust (IRC § 2056(d)(1))",
+      "taxYear": 2026,
+      "source": "IRC § 2056(d), read at law.cornell.edu/uscode/text/26/2056",
+      "verified": "2026-08-20"
+    },
+    "joint.tenancy_in_common": {
+      "value": "a tenancy in common has no survivorship, so IRC § 2040 never applies to it — the decedent's undivided fractional interest is in the gross estate under § 2033 and passes by will or intestacy rather than to the co-tenant",
+      "taxYear": 2026,
+      "source": "IRC §§ 2033 and 2040, read at law.cornell.edu/uscode/text/26/2033 and /2040",
+      "verified": "2026-08-20"
+    },
+    "joint.basis_follows_inclusion": {
+      "value": "basis under IRC § 1014 follows inclusion — property required to be included in the gross estate by reason of death, form of ownership or other conditions takes a date-of-death value basis, so a survivor who excluded half from the estate steps up only that half (IRC § 1014(b)(9))",
+      "taxYear": 2026,
+      "source": "IRC § 1014(b)(9), read at law.cornell.edu/uscode/text/26/1014",
+      "verified": "2026-08-20"
+    },
+    "joint.community_property_basis": {
+      "value": "the surviving spouse's own one-half of community property takes a date-of-death basis too, provided at least half of the whole community interest was includible in the decedent's gross estate — a full step-up on both halves, which no form of joint tenancy achieves (IRC § 1014(b)(6))",
+      "taxYear": 2026,
+      "source": "IRC § 1014(b)(6), read at law.cornell.edu/uscode/text/26/1014",
+      "verified": "2026-08-20"
     }
   }
 }
