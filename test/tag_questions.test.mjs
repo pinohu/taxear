@@ -170,6 +170,14 @@ test('a subject with no topic anywhere in the outline is left untagged', () => {
   assert.equal(classify(q(2, 'An S corporation with base erosion payments — which criterion does not apply?')), null);
 });
 
+test('a partnership liquidation is not an inventory question', () => {
+  // "Inventory items" is a defined class in subchapter K as well as a shelf full of goods, so
+  // the bare inventory stem was claiming a liquidating distribution question for cost of goods
+  // sold. The disposition topic takes it first.
+  assert.equal(classify(q(2, "A liquidating distribution for a partnership can realize a loss only if the partner's entire interest is liquidated and the distribution is cash, unrealized receivables, or inventory items.")), '2.1.2.f');
+  assert.equal(classify(q(2, 'Determine the cost of goods sold given beginning inventory, purchases and ending inventory.')), '2.2.1.b');
+});
+
 test('rules never tag across exam parts', () => {
   // The same subject asked in different parts must land in that part's own outline.
   // Part 1 has its own claim-for-refund topic, so the Part 1 question is placed there —

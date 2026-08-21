@@ -411,6 +411,10 @@ const RULES = [
   ['2.2.2.i', /excise tax/i],
   ['2.2.2.h', /insurance expense/i],
   // 2.2.1 business income
+  // A partnership liquidating distribution question lists cash, unrealized receivables and
+  // inventory items as the classes that can produce a loss, so the bare "invento" stem
+  // claimed it for cost of goods sold. The disposition topic has it.
+  ['2.1.2.f', /liquidat\w*[\s\S]{0,60}partner|partner\w*[\s\S]{0,60}(?:entire )?interest[\s\S]{0,40}liquidat/i],
   ['2.2.1.b', /cost of goods sold|\bcogs\b|invento|uniform capitaliz|\b263a\b/i],
   ['2.2.1.d', /cancellation of (?:business )?debt/i],
   ['2.2.1.c', /at-?risk limitation|excess business loss|461\(l\)/i],

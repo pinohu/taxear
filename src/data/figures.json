@@ -10225,6 +10225,84 @@
       "taxYear": 2026,
       "source": "IRC § 448(c)(3), opened at law.cornell.edu/uscode/text/26/448",
       "verified": "2026-08-21"
+    },
+    "cogs.when_required": {
+      "value": "inventories at the beginning and end of each taxable year are necessary in every case in which the production, purchase or sale of merchandise is an income-producing factor",
+      "taxYear": 2026,
+      "source": "Reg. § 1.471-1(a), opened at law.cornell.edu/cfr/text/26/1.471-1",
+      "verified": "2026-08-21"
+    },
+    "cogs.title_test": {
+      "value": "merchandise is included in inventory only if title is vested in the taxpayer — so goods out on consignment stay in the seller's inventory, goods sold with title passed do not, and goods purchased with title passed are included even while in transit",
+      "taxYear": 2026,
+      "source": "Reg. § 1.471-1(a), opened at law.cornell.edu/cfr/text/26/1.471-1",
+      "verified": "2026-08-21"
+    },
+    "cogs.two_tests": {
+      "value": "an inventory must conform as nearly as may be to the best accounting practice in the trade or business, and it must clearly reflect the income",
+      "taxYear": 2026,
+      "source": "Reg. § 1.471-2(a), applying IRC § 471(a); opened at law.cornell.edu/cfr/text/26/1.471-2 and /uscode/text/26/471",
+      "verified": "2026-08-21"
+    },
+    "cogs.valuation_bases": {
+      "value": "the two bases that meet IRC § 471 are cost, and cost or market whichever is lower; unsalable or damaged goods are valued at bona fide selling prices less direct cost of disposition but never below scrap value",
+      "taxYear": 2026,
+      "source": "Reg. § 1.471-2(c), opened at law.cornell.edu/cfr/text/26/1.471-2",
+      "verified": "2026-08-21"
+    },
+    "cogs.consistency": {
+      "value": "the basis adopted must be applied with reasonable consistency to the entire inventory of the trade or business, except for goods inventoried under the LIFO method or under the elective unit livestock-price method, and a change requires the permission of the Commissioner",
+      "taxYear": 2026,
+      "source": "Reg. § 1.471-2(d), opened at law.cornell.edu/cfr/text/26/1.471-2",
+      "verified": "2026-08-21"
+    },
+    "cogs.commingled": {
+      "value": "goods so intermingled that they cannot be identified with specific invoices are deemed to be the goods most recently purchased or produced — a first-in, first-out default",
+      "taxYear": 2026,
+      "source": "Reg. § 1.471-2(d), opened at law.cornell.edu/cfr/text/26/1.471-2",
+      "verified": "2026-08-21"
+    },
+    "cogs.lifo_mechanics": {
+      "value": "goods on hand at the close of the year are treated as being, first, those in the opening inventory in order of acquisition to the extent of it, and second, those acquired during the year; they are inventoried at cost; and the opening inventory of the first LIFO year is treated as acquired at one time and costed by the average cost method",
+      "taxYear": 2026,
+      "source": "IRC § 472(b), opened at law.cornell.edu/uscode/text/26/472",
+      "verified": "2026-08-21"
+    },
+    "cogs.lifo_conformity": {
+      "value": "LIFO is available only if the taxpayer establishes that it used no other procedure in inventorying those goods for a report or statement to shareholders, partners, other proprietors or beneficiaries, or for credit purposes, for the first year the method is used",
+      "taxYear": 2026,
+      "source": "IRC § 472(c), opened at law.cornell.edu/uscode/text/26/472",
+      "verified": "2026-08-21"
+    },
+    "cogs.lifo_binding": {
+      "value": "once adopted, LIFO must be used in all subsequent taxable years unless the Secretary permits a change, and any increase in the opening inventory value on adoption is taken into account ratably over 3 taxable years",
+      "taxYear": 2026,
+      "source": "IRC § 472(d) and (e), opened at law.cornell.edu/uscode/text/26/472",
+      "verified": "2026-08-21"
+    },
+    "cogs.263A_scope": {
+      "value": "real or tangible personal property produced by the taxpayer, and real or personal property described in IRC § 1221(a)(1) acquired by the taxpayer for resale — with tangible personal property including a film, sound recording, video tape, book or similar property",
+      "taxYear": 2026,
+      "source": "IRC § 263A(b), opened at law.cornell.edu/uscode/text/26/263A",
+      "verified": "2026-08-21"
+    },
+    "cogs.263A_costs": {
+      "value": "the direct costs of the property and its proper share of those indirect costs, including taxes, part or all of which are allocable to it; a cost that could not otherwise be taken into account in computing taxable income is not swept in",
+      "taxYear": 2026,
+      "source": "IRC § 263A(a)(2), opened at law.cornell.edu/uscode/text/26/263A",
+      "verified": "2026-08-21"
+    },
+    "cogs.263A_exceptions": {
+      "value": "property produced for use other than in a trade or business or profit-seeking activity, amounts deductible under IRC § 174 or § 174A, certain oil, gas and mineral costs, property produced under a long-term contract, and timber and certain ornamental trees",
+      "taxYear": 2026,
+      "source": "IRC § 263A(c), opened at law.cornell.edu/uscode/text/26/263A",
+      "verified": "2026-08-21"
+    },
+    "cogs.471c_alternatives": {
+      "value": "a small business taxpayer meeting the IRC § 448(c) test may treat inventory as non-incidental materials and supplies, or may conform to the method reflected in its applicable financial statement or, having none, in its books and records prepared in accordance with its accounting procedures",
+      "taxYear": 2026,
+      "source": "IRC § 471(c)(1)(B), opened at law.cornell.edu/uscode/text/26/471",
+      "verified": "2026-08-21"
     }
   }
 }
