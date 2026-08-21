@@ -23,7 +23,7 @@ authorities:
   - { type: Reg, ref: "§ 1.167(g)-1", title: "Basis for depreciation", url: "https://www.law.cornell.edu/cfr/text/26/1.167(g)-1" }
   - { type: Reg, ref: "§ 1.168(i)-4", title: "Changes in use", url: "https://www.law.cornell.edu/cfr/text/26/1.168(i)-4" }
 forms: []
-related: ["2.2.3.a", "2.2.3.b", "2.2.2.c", "2.2.2.k", "2.2.3.c"]
+related: ["2.2.3.a", "2.2.3.b", "2.2.2.c", "2.2.2.k", "2.2.3.c", "2.2.3.e"]
 changelog:
   - { date: "2026-08-21", summary: "Initial draft. Sets out the Reg. § 1.167(g)-1 rule capping the depreciation basis of converted property at fair market value where that is lower, the Reg. § 1.165-9(b)(2) separate basis for determining loss on a later sale, the Reg. § 1.165-7(a)(5) parallel rule for a casualty, and the Reg. § 1.168(i)-4 treatment of a conversion in each direction — a fresh placed-in-service date on conversion to business use, and a deemed disposition without recapture on conversion to personal use." }
 ---

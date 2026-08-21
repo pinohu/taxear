@@ -10,9 +10,9 @@ is indexed, and only the owner moves a page there (see `docs/VERIFICATION.md`).
 | Part | Topics | Stub | Draft | Review | Published | Words |
 |---|---:|---:|---:|---:|---:|---:|
 | 1. Individuals | 120 | 0 | 0 | 110 | 10 | 256,550 |
-| 2. Businesses | 119 | 51 | 0 | 68 | 0 | 157,116 |
+| 2. Businesses | 119 | 50 | 0 | 69 | 0 | 159,978 |
 | 3. Representation, Practices and Procedures | 121 | 0 | 0 | 0 | 121 | 257,674 |
-| **All parts** | **360** | **51** | **0** | **178** | **131** | **671,340** |
+| **All parts** | **360** | **50** | **0** | **179** | **131** | **674,202** |
 
 ## Part 1 — Individuals
 
@@ -321,7 +321,7 @@ is indexed, and only the owner moves a page there (see `docs/VERIFICATION.md`).
 | 2.2.3.b | [Disposition of property or assets](/businesses/business-tax-preparation/business-assets/disposition-of-property-or-assets/) | review | 2,296 | 2026-08-21 |
 | 2.2.3.c | [Like kind exchange](/businesses/business-tax-preparation/business-assets/like-kind-exchange/) | review | 2,227 | 2026-08-21 |
 | 2.2.3.d | [Converted property](/businesses/business-tax-preparation/business-assets/converted-property/) | review | 2,112 | 2026-08-21 |
-| 2.2.3.e | [Capitalization and repair regulations (e.g., elections)](/businesses/business-tax-preparation/business-assets/capitalization-and-repair-regulations/) | stub | — | — |
+| 2.2.3.e | [Capitalization and repair regulations (e.g., elections)](/businesses/business-tax-preparation/business-assets/capitalization-and-repair-regulations/) | review | 2,862 | 2026-08-21 |
 
 **2.2.4 Analysis of financial records**
 

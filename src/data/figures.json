@@ -11479,6 +11479,138 @@
       "taxYear": 2026,
       "source": "Reg. § 1.168(i)-4(c), opened at law.cornell.edu/cfr/text/26/1.168(i)-4",
       "verified": "2026-08-21"
+    },
+    "repair.improvement_test": {
+      "value": "a unit of property is improved if the amounts paid for activities performed after it is placed in service are for a betterment to it, restore it, or adapt it to a new or different use",
+      "taxYear": 2026,
+      "source": "Reg. § 1.263(a)-3(d), opened at law.cornell.edu/cfr/text/26/1.263(a)-3",
+      "verified": "2026-08-21"
+    },
+    "repair.unit_default": {
+      "value": "the unit of property is determined by functional interdependence, with special rules for buildings, plant property, network assets, leased property and improvements — and property in a general asset account or a multiple asset account may not be treated as a single unit",
+      "taxYear": 2026,
+      "source": "Reg. § 1.263(a)-3(e)(1), opened at law.cornell.edu/cfr/text/26/1.263(a)-3",
+      "verified": "2026-08-21"
+    },
+    "repair.building_unit": {
+      "value": "each building and its structural components is a single unit of property, but the improvement rules are applied separately to the building structure and to each of the designated building systems",
+      "taxYear": 2026,
+      "source": "Reg. § 1.263(a)-3(e)(2)(i) and (e)(2)(ii), opened at law.cornell.edu/cfr/text/26/1.263(a)-3",
+      "verified": "2026-08-21"
+    },
+    "repair.building_systems": {
+      "value": "heating, ventilation and air conditioning; plumbing; electrical; all escalators; all elevators; fire-protection and alarm; security; gas distribution; and any other structural component designated as a building system in published guidance — the building structure being separate from all of them",
+      "taxYear": 2026,
+      "source": "Reg. § 1.263(a)-3(e)(2)(ii)(B), opened at law.cornell.edu/cfr/text/26/1.263(a)-3",
+      "verified": "2026-08-21"
+    },
+    "repair.de_minimis_afs": {
+      "value": "$5,000 per invoice, or per item as substantiated by the invoice — available where the taxpayer has an applicable financial statement, had written accounting procedures in place at the beginning of the year, and treats the amount as an expense on that statement",
+      "taxYear": 2026,
+      "source": "Reg. § 1.263(a)-1(f)(1)(i), opened at law.cornell.edu/cfr/text/26/1.263(a)-1",
+      "verified": "2026-08-21"
+    },
+    "repair.de_minimis_no_afs": {
+      "value": "$500 per invoice, or per item as substantiated by the invoice — where the taxpayer has no applicable financial statement, had accounting procedures in place at the beginning of the year, and treats the amount as an expense on its books and records",
+      "taxYear": 2026,
+      "source": "Reg. § 1.263(a)-1(f)(1)(ii), opened at law.cornell.edu/cfr/text/26/1.263(a)-1",
+      "verified": "2026-08-21"
+    },
+    "repair.small_taxpayer": {
+      "value": "a qualifying taxpayer may elect not to apply the improvement rules to an eligible building property where the total paid during the year for repairs, maintenance, improvements and similar activities on it does not exceed the lesser of 2 percent of its unadjusted basis or $10,000",
+      "taxYear": 2026,
+      "source": "Reg. § 1.263(a)-3(h)(1), opened at law.cornell.edu/cfr/text/26/1.263(a)-3",
+      "verified": "2026-08-21"
+    },
+    "repair.small_taxpayer_who": {
+      "value": "average annual gross receipts for the three preceding taxable years of $10,000,000 or less, and an eligible building property with an unadjusted basis of $1,000,000 or less — the unadjusted basis being determined without the IRC § 1016(a)(2) or (3) adjustments and without regard to any IRC § 179 expensing",
+      "taxYear": 2026,
+      "source": "Reg. § 1.263(a)-3(h)(3)(i), (h)(4) and (h)(5)(i), opened at law.cornell.edu/cfr/text/26/1.263(a)-3",
+      "verified": "2026-08-21"
+    },
+    "repair.routine_maintenance": {
+      "value": "recurring activities expected to keep the building structure or a building system in ordinarily efficient operating condition, including inspection, cleaning, testing and replacement of worn parts with comparable ones — routine only where the taxpayer reasonably expects to perform them more than once in the 10 years beginning when that structure or system was placed in service",
+      "taxYear": 2026,
+      "source": "Reg. § 1.263(a)-3(i)(1)(i), opened at law.cornell.edu/cfr/text/26/1.263(a)-3",
+      "verified": "2026-08-21"
+    },
+    "repair.safe_harbors_stack": {
+      "value": "in applying the small taxpayer ceiling, amounts not capitalised under the de minimis election and amounts deemed not to improve property under the routine maintenance safe harbor are counted toward it",
+      "taxYear": 2026,
+      "source": "Reg. § 1.263(a)-3(h)(2), opened at law.cornell.edu/cfr/text/26/1.263(a)-3",
+      "verified": "2026-08-21"
+    },
+    "repair.betterment": {
+      "value": "three tests, any one of which capitalises: the amount ameliorates a material condition or defect that existed before acquisition or arose during production, is for a material addition or a material increase in capacity, or is reasonably expected to materially increase productivity, efficiency, strength, quality or output",
+      "taxYear": 2026,
+      "source": "Reg. § 1.263(a)-3(j)(1), opened at law.cornell.edu/cfr/text/26/1.263(a)-3",
+      "verified": "2026-08-21"
+    },
+    "repair.restoration": {
+      "value": "six tests, any one of which capitalises: replacing a component for which a loss was deducted; replacing a component whose adjusted basis was taken into account on a sale or exchange; restoring damage requiring a casualty basis adjustment; returning property from a state of disrepair to ordinarily efficient operating condition; rebuilding to like-new condition after the end of its class life; or replacing a major component or substantial structural part",
+      "taxYear": 2026,
+      "source": "Reg. § 1.263(a)-3(k)(1), opened at law.cornell.edu/cfr/text/26/1.263(a)-3",
+      "verified": "2026-08-21"
+    },
+    "repair.adaptation": {
+      "value": "an amount is paid to adapt property to a new or different use if the adaptation is not consistent with the taxpayer’s ordinary use of that property at the time it was originally placed in service by the taxpayer",
+      "taxYear": 2026,
+      "source": "Reg. § 1.263(a)-3(l)(1), opened at law.cornell.edu/cfr/text/26/1.263(a)-3",
+      "verified": "2026-08-21"
+    },
+    "repair.major_component": {
+      "value": "a part or combination of parts performing a discrete and critical function in the operation of the unit of property, an incidental component generally not qualifying on its own; a substantial structural part is a part or combination of parts comprising a large portion of the physical structure",
+      "taxYear": 2026,
+      "source": "Reg. § 1.263(a)-3(k)(6)(i)(A) and (B), opened at law.cornell.edu/cfr/text/26/1.263(a)-3",
+      "verified": "2026-08-21"
+    },
+    "repair.routine_nonbuilding": {
+      "value": "for property other than buildings the test is the class life rather than 10 years — the activities are routine only if, when the unit of property was placed in service, the taxpayer reasonably expected to perform them more than once during that class life",
+      "taxYear": 2026,
+      "source": "Reg. § 1.263(a)-3(i)(1)(ii), opened at law.cornell.edu/cfr/text/26/1.263(a)-3",
+      "verified": "2026-08-21"
+    },
+    "repair.routine_excluded": {
+      "value": "the routine maintenance safe harbor never covers a betterment, a replacement of a component whose loss was deducted or whose basis was taken into account on a sale, a casualty restoration, or a return of property from a state of disrepair",
+      "taxYear": 2026,
+      "source": "Reg. § 1.263(a)-3(i)(3), opened at law.cornell.edu/cfr/text/26/1.263(a)-3",
+      "verified": "2026-08-21"
+    },
+    "repair.election_n": {
+      "value": "a taxpayer that capitalises repair and maintenance costs on its own books and records may elect to treat them as improvements for tax purposes as well, applied to all such amounts for the year, by a statement titled “Section 1.263(a)-3(n) Election” attached to a timely filed original return",
+      "taxYear": 2026,
+      "source": "Reg. § 1.263(a)-3(n)(1) and (n)(2), opened at law.cornell.edu/cfr/text/26/1.263(a)-3",
+      "verified": "2026-08-21"
+    },
+    "repair.election_manner": {
+      "value": "each of the three elections is made by a titled statement attached to a timely filed original return including extensions, is made at the entity level by an S corporation or partnership rather than by its owners, and may not be made on an accounting method change application or on an amended return without the Commissioner’s consent",
+      "taxYear": 2026,
+      "source": "Reg. § 1.263(a)-1(f)(5) and Reg. § 1.263(a)-3(h)(6) and (n)(2), opened at law.cornell.edu/cfr/text/26/1.263(a)-1 and 1.263(a)-3",
+      "verified": "2026-08-21"
+    },
+    "repair.improvement_indirect": {
+      "value": "all direct costs of an improvement are capitalised, together with indirect costs — otherwise deductible repair costs included — that directly benefit or are incurred by reason of the improvement; indirect costs from activities that do neither stay deductible even if performed at the same time",
+      "taxYear": 2026,
+      "source": "Reg. § 1.263(a)-3(g)(1)(i), opened at law.cornell.edu/cfr/text/26/1.263(a)-3",
+      "verified": "2026-08-21"
+    },
+    "repair.removal_costs": {
+      "value": "where the taxpayer disposes of an asset or component and takes its adjusted basis into account in realising gain or loss, the cost of removing it is not capitalised; where the disposal of a component is not a disposition for tax purposes, the removal cost follows whether it benefits a repair or an improvement",
+      "taxYear": 2026,
+      "source": "Reg. § 1.263(a)-3(g)(2)(i), opened at law.cornell.edu/cfr/text/26/1.263(a)-3",
+      "verified": "2026-08-21"
+    },
+    "repair.partial_disposition": {
+      "value": "a taxpayer may elect to treat the retirement of a portion of an asset as a disposition, recovering the remaining basis of the replaced part, by the due date including extensions of the original return for the year of disposal",
+      "taxYear": 2026,
+      "source": "Reg. § 1.168(i)-8(d)(2)(i) and (d)(2)(ii)(A), opened at law.cornell.edu/cfr/text/26/1.168(i)-8",
+      "verified": "2026-08-21"
+    },
+    "repair.method_change": {
+      "value": "a change to comply with the capitalisation regulations is a change in method of accounting under IRC §§ 446 and 481, requiring the Commissioner’s consent under the automatic-change procedures — the elections themselves are not method changes and may not be made that way",
+      "taxYear": 2026,
+      "source": "Reg. § 1.263(a)-3(q), opened at law.cornell.edu/cfr/text/26/1.263(a)-3",
+      "verified": "2026-08-21"
     }
   }
 }
