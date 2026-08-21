@@ -23,7 +23,7 @@ authorities:
   - { type: Reg, ref: "§ 1.6050I-1", title: "Returns relating to cash in excess of $10,000", url: "https://www.law.cornell.edu/cfr/text/26/1.6050I-1" }
   - { type: RevProc, ref: "2025-32", title: "Inflation adjusted items for 2026", url: "https://www.irs.gov/pub/irs-drop/rp-25-32.pdf" }
 forms: []
-related: ["2.1.1.a", "2.1.1.d", "2.1.1.h", "2.1.1.c", "2.1.1.f"]
+related: ["2.1.1.a", "2.1.1.d", "2.1.1.h", "2.1.1.c", "2.1.1.f", "2.2.1.a"]
 changelog:
   - { date: "2026-08-21", summary: "Initial draft. Sets out the IRC § 6041(a) information-at-source threshold as raised by Pub. L. 119-21 § 70433(a) for payments made after 31 December 2025 and indexed by the new § 6041(h), the § 6041A(a) cross-reference that ties nonemployee compensation to the same figure, the § 6050W(e) 1099-K thresholds restored by Pub. L. 119-21 § 70432 as if included in the 2021 Act, the § 6051(a) employee statement and the § 6071(b) and (c) filing dates, the Reg. § 301.6011-2(c) 10-return electronic filing threshold, the § 6050I cash reporting return and its 15-day filing and January statement deadlines, and the § 6721 and § 6722 penalties at the amounts applying to returns and statements required in 2027." }
 ---

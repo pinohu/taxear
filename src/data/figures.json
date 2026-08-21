@@ -10165,6 +10165,66 @@
       "taxYear": 2026,
       "source": "IRC § 301(d), opened at law.cornell.edu/uscode/text/26/301",
       "verified": "2026-08-21"
+    },
+    "income.gross_defined": {
+      "value": "all income from whatever source derived, including but not limited to compensation for services, gross income derived from business, gains from dealings in property, interest, rents, royalties, dividends, annuities, income from life insurance and endowment contracts, pensions, income from discharge of indebtedness, a distributive share of partnership gross income, and income in respect of a decedent",
+      "taxYear": 2026,
+      "source": "IRC § 61(a), opened at law.cornell.edu/uscode/text/26/61",
+      "verified": "2026-08-21"
+    },
+    "income.business_gross": {
+      "value": "in a manufacturing, merchandising or mining business, gross income means total sales less the cost of goods sold plus any income from investments and from incidental or outside operations or sources",
+      "taxYear": 2026,
+      "source": "Reg. § 1.61-3(a), opened at law.cornell.edu/cfr/text/26/1.61-3",
+      "verified": "2026-08-21"
+    },
+    "income.no_netting": {
+      "value": "gross income is determined without subtracting selling expenses, losses or other items not ordinarily used in computing cost of goods sold, and without subtracting amounts of a type for which a deduction would be disallowed under IRC § 162(c), (f) or (g)",
+      "taxYear": 2026,
+      "source": "Reg. § 1.61-3(a), opened at law.cornell.edu/cfr/text/26/1.61-3",
+      "verified": "2026-08-21"
+    },
+    "income.cogs_timing": {
+      "value": "cost of goods sold is determined under the method of accounting the taxpayer consistently uses, and an amount cannot enter the computation any earlier than the taxable year in which economic performance occurs with respect to it",
+      "taxYear": 2026,
+      "source": "Reg. § 1.61-3(a), opened at law.cornell.edu/cfr/text/26/1.61-3",
+      "verified": "2026-08-21"
+    },
+    "income.constructive_receipt": {
+      "value": "income not actually reduced to possession is constructively received in the year it is credited to the account, set apart, or otherwise made available so that it could be drawn upon — unless control of its receipt is subject to substantial limitations or restrictions",
+      "taxYear": 2026,
+      "source": "Reg. § 1.451-2(a), opened at law.cornell.edu/cfr/text/26/1.451-2",
+      "verified": "2026-08-21"
+    },
+    "income.afs_conformity": {
+      "value": "for an accrual method taxpayer the all events test for an item of gross income is not treated as met any later than when the item is taken into account as revenue in an applicable financial statement, with exceptions for a taxpayer that has no such statement and for mortgage servicing contracts",
+      "taxYear": 2026,
+      "source": "IRC § 451(b)(1), opened at law.cornell.edu/uscode/text/26/451",
+      "verified": "2026-08-21"
+    },
+    "income.all_events": {
+      "value": "the all events test is met when all the events have occurred which fix the right to receive the income and the amount can be determined with reasonable accuracy",
+      "taxYear": 2026,
+      "source": "IRC § 451(b)(1)(C), opened at law.cornell.edu/uscode/text/26/451",
+      "verified": "2026-08-21"
+    },
+    "income.advance_payment": {
+      "value": "an accrual method taxpayer includes an advance payment in gross income in the year of receipt, unless it elects to include the portion required by IRC § 451(b) in that year and the remaining portion in the following taxable year",
+      "taxYear": 2026,
+      "source": "IRC § 451(c)(1), opened at law.cornell.edu/uscode/text/26/451",
+      "verified": "2026-08-21"
+    },
+    "income.advance_election": {
+      "value": "the deferral election is effective for the year first made and all subsequent years unless the Secretary consents to revoke it, and the computation under it is treated as a method of accounting",
+      "taxYear": 2026,
+      "source": "IRC § 451(c)(2)(B), opened at law.cornell.edu/uscode/text/26/451",
+      "verified": "2026-08-21"
+    },
+    "income.gross_receipts_reduction": {
+      "value": "gross receipts for a taxable year are reduced by returns and allowances made during that year, a short year is annualised by multiplying by 12 and dividing by the number of months, and a predecessor entity is counted",
+      "taxYear": 2026,
+      "source": "IRC § 448(c)(3), opened at law.cornell.edu/uscode/text/26/448",
+      "verified": "2026-08-21"
     }
   }
 }
