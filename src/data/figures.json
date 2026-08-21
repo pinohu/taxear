@@ -14569,6 +14569,60 @@
       "taxYear": 2026,
       "source": "IRC § 1301, read at law.cornell.edu/uscode/text/26/1301",
       "verified": "2026-08-21"
+    },
+    "rep.two_tests": {
+      "value": "the paragraph applies to a taxpayer for a taxable year only if more than one-half of the personal services performed in trades or businesses by that taxpayer during the year are performed in real property trades or businesses in which the taxpayer materially participates, and the taxpayer performs more than 750 hours of services during the year in real property trades or businesses in which the taxpayer materially participates (IRC § 469(c)(7)(B))",
+      "taxYear": 2026,
+      "source": "IRC § 469(c)(7), read at law.cornell.edu/uscode/text/26/469",
+      "verified": "2026-08-21"
+    },
+    "rep.effect": {
+      "value": "where the paragraph applies, the rule making every rental activity passive does not apply to the taxpayer’s rental real estate activities, and the section is applied as if each interest in rental real estate were a separate activity — though the taxpayer may elect to treat all interests as one (IRC § 469(c)(7)(A))",
+      "taxYear": 2026,
+      "source": "IRC § 469(c)(7), read at law.cornell.edu/uscode/text/26/469",
+      "verified": "2026-08-21"
+    },
+    "rep.rptb": {
+      "value": "a real property trade or business means any real property development, redevelopment, construction, reconstruction, acquisition, conversion, rental, operation, management, leasing or brokerage trade or business (IRC § 469(c)(7)(C))",
+      "taxYear": 2026,
+      "source": "IRC § 469(c)(7), read at law.cornell.edu/uscode/text/26/469",
+      "verified": "2026-08-21"
+    },
+    "rep.joint_return": {
+      "value": "on a joint return the two requirements are satisfied only if **one spouse separately** satisfies both of them; hours cannot be combined, though whether a spouse materially participates is determined taking the other spouse’s participation into account under IRC § 469(h)(5) (IRC § 469(c)(7)(B))",
+      "taxYear": 2026,
+      "source": "IRC § 469(c)(7), read at law.cornell.edu/uscode/text/26/469",
+      "verified": "2026-08-21"
+    },
+    "rep.employee": {
+      "value": "personal services performed as an employee are not treated as performed in real property trades or businesses unless the employee is a 5-percent owner of the employer as defined in IRC § 416(i)(1)(B) (IRC § 469(c)(7)(D)(ii))",
+      "taxYear": 2026,
+      "source": "IRC § 469(c)(7), read at law.cornell.edu/uscode/text/26/469",
+      "verified": "2026-08-21"
+    },
+    "rep.closely_held": {
+      "value": "a closely held C corporation meets the requirements for any taxable year if more than 50 percent of its gross receipts for the year are derived from real property trades or businesses in which it materially participates (IRC § 469(c)(7)(D)(i))",
+      "taxYear": 2026,
+      "source": "IRC § 469(c)(7), read at law.cornell.edu/uscode/text/26/469",
+      "verified": "2026-08-21"
+    },
+    "rep.material_tests": {
+      "value": "an individual materially participates in an activity for a year if and only if one of seven tests is met: more than 500 hours in the activity; participation constituting substantially all the participation of all individuals; more than 100 hours and not less than any other individual’s participation; aggregate participation in all significant participation activities exceeding 500 hours; material participation in any five of the ten preceding years; a personal service activity in which the individual materially participated in any three preceding years; or regular, continuous and substantial participation on all the facts and circumstances (Treas. Reg. § 1.469-5T(a))",
+      "taxYear": 2026,
+      "source": "Treas. Reg. § 1.469-5T(a), read at law.cornell.edu/cfr/text/26/1.469-5T",
+      "verified": "2026-08-21"
+    },
+    "rep.aggregation": {
+      "value": "a qualifying taxpayer may elect to treat all interests in rental real estate as a single rental real estate activity by filing a statement with the original return declaring qualifying taxpayer status and the election under IRC § 469(c)(7)(A); the election binds for that year and all future years in which the taxpayer qualifies, even across intervening non-qualifying years, and may be revoked only on a material change in facts and circumstances (Treas. Reg. § 1.469-9(g))",
+      "taxYear": 2026,
+      "source": "Treas. Reg. § 1.469-9, read at law.cornell.edu/cfr/text/26/1.469-9",
+      "verified": "2026-08-21"
+    },
+    "rep.aggregation_not_material": {
+      "value": "the fact that the aggregation election is less advantageous in a particular year is not itself a material change in facts and circumstances, and neither is a break in the taxpayer’s status as a qualifying taxpayer — so a bad year does not open the election for revocation (Treas. Reg. § 1.469-9(g)(2))",
+      "taxYear": 2026,
+      "source": "Treas. Reg. § 1.469-9, read at law.cornell.edu/cfr/text/26/1.469-9",
+      "verified": "2026-08-21"
     }
   }
 }
