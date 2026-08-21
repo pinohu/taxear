@@ -7903,6 +7903,72 @@
       "taxYear": 2026,
       "source": "IRC § 465(b), read at law.cornell.edu/uscode/text/26/465",
       "verified": "2026-08-21"
+    },
+    "scorp.eligibility": {
+      "value": "a domestic corporation that is not an ineligible corporation and does not have more than 100 shareholders, does not have a shareholder who is not an individual other than an estate, a qualifying trust or a qualifying exempt organisation, does not have a nonresident alien shareholder, and does not have more than one class of stock (IRC § 1361(b)(1))",
+      "taxYear": 2026,
+      "source": "IRC § 1361(b), read at law.cornell.edu/uscode/text/26/1361",
+      "verified": "2026-08-21"
+    },
+    "scorp.family_aggregation": {
+      "value": "a husband and wife and their estates count as one shareholder, and all members of a family and their estates count as one — a family being a common ancestor, that ancestor's lineal descendants and the spouses and former spouses of either, with the common ancestor no more than 6 generations removed from the youngest generation of shareholders (IRC § 1361(c)(1))",
+      "taxYear": 2026,
+      "source": "IRC § 1361(c)(1), read at law.cornell.edu/uscode/text/26/1361",
+      "verified": "2026-08-21"
+    },
+    "scorp.election_timing": {
+      "value": "at any time during the preceding taxable year, or during the taxable year on or before the 15th day of the third month of it — an election made after that date in the year is treated as made for the following taxable year (IRC § 1362(b))",
+      "taxYear": 2026,
+      "source": "IRC § 1362(b), read at law.cornell.edu/uscode/text/26/1362",
+      "verified": "2026-08-21"
+    },
+    "scorp.distribution": {
+      "value": "a distribution by an S corporation with no accumulated earnings and profits is not included in gross income to the extent it does not exceed the adjusted basis of the stock, and any excess is treated as gain from the sale or exchange of property (IRC § 1368(b))",
+      "taxYear": 2026,
+      "source": "IRC § 1368(b), read at law.cornell.edu/uscode/text/26/1368",
+      "verified": "2026-08-21"
+    },
+    "scorp.fringe_benefits": {
+      "value": "for the fringe benefit provisions the S corporation is treated as a partnership and any 2-percent shareholder as a partner — a 2-percent shareholder being anyone owning, or considered as owning under IRC § 318, more than 2 percent of the outstanding stock or of the total combined voting power on any day of the year (IRC § 1372)",
+      "taxYear": 2026,
+      "source": "IRC § 1372, read at law.cornell.edu/uscode/text/26/1372",
+      "verified": "2026-08-21"
+    },
+    "scorp.terminating_election": {
+      "value": "where a shareholder terminates their entire interest during the year and all affected shareholders and the corporation agree, the year is treated as two taxable years the first of which ends on the date of the termination (IRC § 1377(a)(2))",
+      "taxYear": 2026,
+      "source": "IRC § 1377(a)(2), read at law.cornell.edu/uscode/text/26/1377",
+      "verified": "2026-08-21"
+    },
+    "scorp.efile_threshold": {
+      "value": "an S corporation must file Form 1120-S electronically if it is required to file at least 10 returns of any type during the calendar year — there is no longer any asset threshold, and the former 250-return figure was replaced for returns required to be filed on or after 1 January 2024 (Reg. § 301.6037-2(a))",
+      "taxYear": 2026,
+      "source": "26 CFR § 301.6037-2, read at law.cornell.edu/cfr/text/26/301.6037-2",
+      "verified": "2026-08-21"
+    },
+    "corp.efile_threshold": {
+      "value": "a corporation must file Form 1120 electronically if it is required to file at least 10 returns during the calendar year ending with or within its taxable year, and every member of a controlled group must do so where the group's aggregate is at least 10 — with no asset threshold (Reg. § 301.6011-5(a))",
+      "taxYear": 2026,
+      "source": "26 CFR § 301.6011-5, read at law.cornell.edu/cfr/text/26/301.6011-5",
+      "verified": "2026-08-21"
+    },
+    "scorp.return_date": {
+      "value": "a calendar-year S corporation files Form 1120-S on or before the 15th day of March following the close of the year, and a fiscal-year S corporation on or before the 15th day of the third month following the close of its year (IRC § 6072(b))",
+      "taxYear": 2026,
+      "source": "IRC § 6072(b), read at law.cornell.edu/uscode/text/26/6072",
+      "verified": "2026-08-21"
+    },
+    "scorp.trusts": {
+      "value": "the trusts that may hold S corporation stock are a wholly grantor trust of a United States citizen or resident; that same trust after the deemed owner dies, but only for the 2-year period beginning on the day of death; a testamentary trust, but only for the 2-year period beginning on the day the stock is transferred to it; a voting trust; an electing small business trust; and, for bank stock only, certain individual retirement accounts (IRC § 1361(c)(2)(A))",
+      "taxYear": 2026,
+      "source": "IRC § 1361(c)(2)(A), read at law.cornell.edu/uscode/text/26/1361",
+      "verified": "2026-08-21"
+    },
+    "scorp.termination": {
+      "value": "an election ends by revocation consented to by shareholders holding more than one-half of the shares — retroactive to the first day of the year if made on or before the 15th day of the 3d month, otherwise from the first day of the following year; by the corporation ceasing to be a small business corporation, effective on the date of cessation; or where the corporation has accumulated earnings and profits at the close of each of 3 consecutive years and more than 25 percent of gross receipts in each is passive investment income, effective the first day of the fourth year (IRC § 1362(d))",
+      "taxYear": 2026,
+      "source": "IRC § 1362(d), read at law.cornell.edu/uscode/text/26/1362",
+      "verified": "2026-08-21"
     }
   }
 }
