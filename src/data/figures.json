@@ -9787,6 +9787,84 @@
       "taxYear": 2026,
       "source": "IRC § 1366(e), opened at law.cornell.edu/uscode/text/26/1366",
       "verified": "2026-08-21"
+    },
+    "dist.sc_no_ep": {
+      "value": "the distribution is not included in gross income to the extent it does not exceed the adjusted basis of the stock, and any excess is treated as gain from the sale or exchange of property",
+      "taxYear": 2026,
+      "source": "IRC § 1368(b), opened at law.cornell.edu/uscode/text/26/1368",
+      "verified": "2026-08-21"
+    },
+    "dist.sc_trigger": {
+      "value": "a distribution of property by an S corporation with respect to its stock to which, but for IRC § 1368(a), IRC § 301(c) would apply",
+      "taxYear": 2026,
+      "source": "IRC § 1368(a), opened at law.cornell.edu/uscode/text/26/1368; IRC § 301(c) opened at /301",
+      "verified": "2026-08-21"
+    },
+    "dist.sc_proration": {
+      "value": "except as provided in regulations, where the distributions during the taxable year exceed the accumulated adjustments account at the close of the year, the balance of the account is allocated among the distributions in proportion to their respective sizes",
+      "taxYear": 2026,
+      "source": "IRC § 1368(c), flush text, opened at law.cornell.edu/uscode/text/26/1368",
+      "verified": "2026-08-21"
+    },
+    "dist.sc_basis_timing": {
+      "value": "for a distribution made during a taxable year the adjusted basis of the stock is determined with regard to the increases provided in IRC § 1367(a)(1) for that year — the income adjustments come first, the distribution second, and the loss adjustments last",
+      "taxYear": 2026,
+      "source": "IRC § 1368(d), flush text, opened at law.cornell.edu/uscode/text/26/1368",
+      "verified": "2026-08-21"
+    },
+    "dist.aaa_not_apportioned": {
+      "value": "the accumulated adjustments account is an account of the S corporation and is not apportioned among shareholders; on the first day of the first year for which the corporation is an S corporation the balance is zero",
+      "taxYear": 2026,
+      "source": "Reg. § 1.1368-2(a)(1), opened at law.cornell.edu/cfr/text/26/1.1368-2",
+      "verified": "2026-08-21"
+    },
+    "dist.aaa_order": {
+      "value": "for a taxable year beginning on or after 18 August 1998 the account is increased first; then decreased for losses and non-deductible expenses without regard to any net negative adjustment; then decreased, but not below zero, by ordinary distributions; then decreased by any net negative adjustment; and finally adjusted for redemption distributions",
+      "taxYear": 2026,
+      "source": "Reg. § 1.1368-2(a)(5), opened at law.cornell.edu/cfr/text/26/1.1368-2",
+      "verified": "2026-08-21"
+    },
+    "dist.aaa_negative": {
+      "value": "the account may be decreased below zero by losses, deductions and non-deductible expenses, but a distribution may not take it below zero",
+      "taxYear": 2026,
+      "source": "Reg. § 1.1368-2(a)(3)(ii) and (a)(3)(iii), opened at law.cornell.edu/cfr/text/26/1.1368-2",
+      "verified": "2026-08-21"
+    },
+    "dist.net_negative": {
+      "value": "the account at the close of the taxable year is determined without regard to any net negative adjustment, being the excess of the reductions for the year other than for distributions over the increases for the year",
+      "taxYear": 2026,
+      "source": "IRC § 1368(e)(1)(C), opened at law.cornell.edu/uscode/text/26/1368",
+      "verified": "2026-08-21"
+    },
+    "dist.aaa_redemption": {
+      "value": "on a redemption treated as an exchange under IRC § 302(a) or § 303(a), the adjustment to the account bears the same ratio to its balance as the number of shares redeemed bears to the number of shares outstanding immediately before the redemption",
+      "taxYear": 2026,
+      "source": "IRC § 1368(e)(1)(B), opened at law.cornell.edu/uscode/text/26/1368",
+      "verified": "2026-08-21"
+    },
+    "dist.ep_first": {
+      "value": "an S corporation may, with the consent of all affected shareholders — meaning any shareholder to whom a distribution is made during the year — elect to have IRC § 1368(c)(1) not apply to all distributions made during that year, so that distributions come first out of earnings and profits",
+      "taxYear": 2026,
+      "source": "IRC § 1368(e)(3), opened at law.cornell.edu/uscode/text/26/1368",
+      "verified": "2026-08-21"
+    },
+    "dist.three_elections": {
+      "value": "an S corporation may modify the ordering by electing to distribute earnings and profits first, to make a deemed dividend, or to forego previously taxed income; the election is made by a statement attached to a timely filed original or amended Form 1120-S stating that each shareholder consents",
+      "taxYear": 2026,
+      "source": "Reg. § 1.1368-1(f)(1) and (f)(5)(iii), opened at law.cornell.edu/cfr/text/26/1.1368-1",
+      "verified": "2026-08-21"
+    },
+    "dist.deemed_dividend": {
+      "value": "the amount may not exceed the subchapter C earnings and profits on the last day of the taxable year reduced by actual distributions of those earnings during the year, and is treated as distributed in money in proportion to stock ownership, received by the shareholders, and immediately contributed back by them, all on the last day of the year",
+      "taxYear": 2026,
+      "source": "Reg. § 1.1368-1(f)(3), opened at law.cornell.edu/cfr/text/26/1.1368-1",
+      "verified": "2026-08-21"
+    },
+    "dist.no_ep_adjustment": {
+      "value": "except for redemptions, liquidations, reorganizations and separations, for investment credit recapture, and for the portion of a distribution treated as a dividend under IRC § 1368(c)(2), no adjustment is made to the earnings and profits of an S corporation",
+      "taxYear": 2026,
+      "source": "IRC § 1371(c), opened at law.cornell.edu/uscode/text/26/1371",
+      "verified": "2026-08-21"
     }
   }
 }
