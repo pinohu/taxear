@@ -14071,6 +14071,96 @@
       "taxYear": 2026,
       "source": "IRC § 408(e)(2), read at law.cornell.edu/uscode/text/26/408",
       "verified": "2026-08-21"
+    },
+    "qp.definition": {
+      "value": "a qualified trust is a trust created or organised in the United States forming part of a stock bonus, pension or profit-sharing plan of an employer for the exclusive benefit of employees or their beneficiaries, to which the employer, the employees or both contribute for the purpose of distributing the corpus and income to those employees or beneficiaries in accordance with the plan (IRC § 401(a)(1))",
+      "taxYear": 2026,
+      "source": "IRC § 401(a), read at law.cornell.edu/uscode/text/26/401",
+      "verified": "2026-08-21"
+    },
+    "qp.exclusive_benefit": {
+      "value": "under the trust instrument it must be impossible, at any time before all liabilities to employees and their beneficiaries are satisfied, for any part of the corpus or income to be used for or diverted to any purpose other than the exclusive benefit of employees or their beneficiaries (IRC § 401(a)(2))",
+      "taxYear": 2026,
+      "source": "IRC § 401(a), read at law.cornell.edu/uscode/text/26/401",
+      "verified": "2026-08-21"
+    },
+    "qp.anti_alienation": {
+      "value": "a trust is not qualified unless the plan provides that benefits may not be assigned or alienated, disregarding a voluntary revocable assignment of up to 10 percent of a benefit payment by a participant already receiving benefits; a participant loan secured by the accrued nonforfeitable benefit and exempt from IRC § 4975 is not an assignment or alienation (IRC § 401(a)(13))",
+      "taxYear": 2026,
+      "source": "IRC § 401(a), read at law.cornell.edu/uscode/text/26/401",
+      "verified": "2026-08-21"
+    },
+    "qp.three_advantages": {
+      "value": "the tax bargain of a qualified plan has three parts: the employer deducts the contribution when made under IRC § 404, the employee is not taxed until distribution under IRC § 402(a), and the trust’s earnings accumulate free of tax under IRC § 501(a)",
+      "taxYear": 2026,
+      "source": "IRC §§ 401(a), 402(a), 404 and 501(a), read at law.cornell.edu/uscode/text/26/",
+      "verified": "2026-08-21"
+    },
+    "qp.402a": {
+      "value": "any amount actually distributed to a distributee by an IRC § 401(a) employees’ trust exempt under IRC § 501(a) is taxable to that distributee, in the year distributed, under the annuity rules of IRC § 72 (IRC § 402(a))",
+      "taxYear": 2026,
+      "source": "IRC § 402, read at law.cornell.edu/uscode/text/26/402",
+      "verified": "2026-08-21"
+    },
+    "nq.402b_contributions": {
+      "value": "contributions to an employees’ trust that is not exempt under IRC § 501(a) are included in the employee’s gross income under IRC § 83, substituting the value of the employee’s interest in the trust for the fair market value of the property — so a funded non-qualified arrangement is taxed on vesting rather than on payment (IRC § 402(b)(1))",
+      "taxYear": 2026,
+      "source": "IRC § 402, read at law.cornell.edu/uscode/text/26/402",
+      "verified": "2026-08-21"
+    },
+    "nq.402b_distributions": {
+      "value": "amounts actually distributed or made available by such a trust are taxable to the distributee in the year distributed or made available under IRC § 72, except that distributions of trust income before the annuity starting date are included in gross income without regard to IRC § 72(e)(5) (IRC § 402(b)(2))",
+      "taxYear": 2026,
+      "source": "IRC § 402, read at law.cornell.edu/uscode/text/26/402",
+      "verified": "2026-08-21"
+    },
+    "nq.404a5": {
+      "value": "where a plan is not a qualified pension, annuity, stock bonus or profit-sharing plan, the employer’s deduction falls in the taxable year in which the amount attributable to the contribution is includible in the participating employees’ gross income — and where more than one employee participates, only if separate accounts are maintained for each (IRC § 404(a)(5))",
+      "taxYear": 2026,
+      "source": "IRC § 404(a)(5), read at law.cornell.edu/uscode/text/26/404",
+      "verified": "2026-08-21"
+    },
+    "nq.409a_failure": {
+      "value": "if a non-qualified deferred compensation plan fails the distribution, acceleration or election requirements at any time during a taxable year, or is not operated in accordance with them, all compensation deferred under the plan for that year and all preceding years is includible in gross income for that year to the extent not subject to a substantial risk of forfeiture and not previously included — but only for the participants to whom the failure relates (IRC § 409A(a)(1)(A))",
+      "taxYear": 2026,
+      "source": "IRC § 409A, read at law.cornell.edu/uscode/text/26/409A",
+      "verified": "2026-08-21"
+    },
+    "nq.409a_penalty": {
+      "value": "on such an inclusion the tax for the year is increased by interest at the underpayment rate plus one percentage point, computed as though the deferred compensation had been included when first deferred or when it ceased to be subject to a substantial risk of forfeiture, plus an amount equal to 20 percent of the compensation included (IRC § 409A(a)(1)(B))",
+      "taxYear": 2026,
+      "source": "IRC § 409A, read at law.cornell.edu/uscode/text/26/409A",
+      "verified": "2026-08-21"
+    },
+    "nq.409a_distributions": {
+      "value": "the plan must provide that deferred compensation may not be distributed earlier than separation from service, disability, death, a specified time or fixed schedule stated at the date of deferral, a change in ownership or effective control of the corporation or of a substantial portion of its assets, or an unforeseeable emergency (IRC § 409A(a)(2)(A))",
+      "taxYear": 2026,
+      "source": "IRC § 409A, read at law.cornell.edu/uscode/text/26/409A",
+      "verified": "2026-08-21"
+    },
+    "nq.409a_acceleration": {
+      "value": "the plan must not permit acceleration of the time or schedule of any payment, except as the Secretary provides by regulation (IRC § 409A(a)(3))",
+      "taxYear": 2026,
+      "source": "IRC § 409A, read at law.cornell.edu/uscode/text/26/409A",
+      "verified": "2026-08-21"
+    },
+    "nq.409a_elections": {
+      "value": "an election to defer compensation for services performed during a taxable year must be made no later than the close of the preceding taxable year; in the first year of eligibility the election may be made within 30 days of becoming eligible, as to services performed after the election; and for performance-based compensation based on services over at least 12 months it may be made up to 6 months before the end of the period (IRC § 409A(a)(4)(B))",
+      "taxYear": 2026,
+      "source": "IRC § 409A, read at law.cornell.edu/uscode/text/26/409A",
+      "verified": "2026-08-21"
+    },
+    "nq.409a_subsequent": {
+      "value": "a subsequent election to delay a payment or change its form may not take effect until at least 12 months after it is made, and for most payment events the first payment under it must be deferred at least 5 years from when it would otherwise have been made (IRC § 409A(a)(4)(C))",
+      "taxYear": 2026,
+      "source": "IRC § 409A, read at law.cornell.edu/uscode/text/26/409A",
+      "verified": "2026-08-21"
+    },
+    "nq.409a_funding": {
+      "value": "assets set aside in a trust or similar arrangement to pay non-qualified deferred compensation are treated as property transferred under IRC § 83 — whether or not available to general creditors — if they are located outside the United States when set aside or are later moved there, and a transfer is also deemed to occur when assets are restricted in connection with a change in the employer’s financial health (IRC § 409A(b)(1), (2))",
+      "taxYear": 2026,
+      "source": "IRC § 409A, read at law.cornell.edu/uscode/text/26/409A",
+      "verified": "2026-08-21"
     }
   }
 }

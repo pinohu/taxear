@@ -10,9 +10,9 @@ is indexed, and only the owner moves a page there (see `docs/VERIFICATION.md`).
 | Part | Topics | Stub | Draft | Review | Published | Words |
 |---|---:|---:|---:|---:|---:|---:|
 | 1. Individuals | 120 | 0 | 0 | 110 | 10 | 256,550 |
-| 2. Businesses | 119 | 13 | 0 | 106 | 0 | 248,850 |
+| 2. Businesses | 119 | 12 | 0 | 107 | 0 | 251,135 |
 | 3. Representation, Practices and Procedures | 121 | 0 | 0 | 0 | 121 | 257,674 |
-| **All parts** | **360** | **13** | **0** | **216** | **131** | **763,074** |
+| **All parts** | **360** | **12** | **0** | **217** | **131** | **765,359** |
 
 ## Part 1 — Individuals
 
@@ -386,7 +386,7 @@ is indexed, and only the owner moves a page there (see `docs/VERIFICATION.md`).
 | 2.3.3.b | [Reporting requirements](/businesses/specialized-returns-and-taxpayers/retirement-plans/reporting-requirements/) | review | 2,108 | 2026-08-21 |
 | 2.3.3.c | [Plans for self-employed persons (e.g., SEP and SIMPLE)](/businesses/specialized-returns-and-taxpayers/retirement-plans/plans-for-self-employed-persons/) | review | 2,352 | 2026-08-21 |
 | 2.3.3.d | [Prohibited transactions](/businesses/specialized-returns-and-taxpayers/retirement-plans/prohibited-transactions/) | review | 2,435 | 2026-08-21 |
-| 2.3.3.e | [Qualified and non-qualified plans](/businesses/specialized-returns-and-taxpayers/retirement-plans/qualified-and-non-qualified-plans/) | stub | — | — |
+| 2.3.3.e | [Qualified and non-qualified plans](/businesses/specialized-returns-and-taxpayers/retirement-plans/qualified-and-non-qualified-plans/) | review | 2,285 | 2026-08-21 |
 | 2.3.3.f | [Non-discrimination rules](/businesses/specialized-returns-and-taxpayers/retirement-plans/non-discrimination-rules/) | stub | — | — |
 
 **2.3.4 Farmers**
