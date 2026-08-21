@@ -13789,6 +13789,96 @@
       "taxYear": 2026,
       "source": "Notice 2025-67, 2026 amounts relating to retirement plans and IRAs as adjusted for changes in cost-of-living, read at irs.gov/pub/irs-drop/n-25-67.pdf",
       "verified": "2026-08-21"
+    },
+    "rr.6058": {
+      "value": "every employer maintaining a pension, annuity, stock bonus, profit-sharing or other funded plan of deferred compensation, or the plan administrator within the meaning of IRC § 414(g), must file an annual return stating what the Secretary prescribes about the plan’s qualification, financial condition and operations (IRC § 6058(a))",
+      "taxYear": 2026,
+      "source": "IRC § 6058(a), read at law.cornell.edu/uscode/text/26/6058",
+      "verified": "2026-08-21"
+    },
+    "rr.which_5500": {
+      "value": "Form 5500 is filed by the employer or plan administrator of a pension or welfare benefit plan covered by ERISA; Form 5500-SF by a plan with fewer than 100 participants that meets the eligibility conditions; and Form 5500-EZ by a one-participant plan or a foreign plan. Form 5500-SF may no longer be used in place of Form 5500-EZ",
+      "taxYear": 2026,
+      "source": "IRS, Form 5500 corner, read at irs.gov/retirement-plans/form-5500-corner",
+      "verified": "2026-08-21"
+    },
+    "rr.one_participant": {
+      "value": "a one-participant plan for Form 5500-EZ purposes is a retirement plan not subject to the annual ERISA Title I reporting requirements that covers only the owner of the entire business, whether or not incorporated, and the owner’s spouse, or one or more partners in a business partnership and their spouses — treating a 2 percent shareholder of an S corporation as defined in IRC § 1372(b) as a partner. A plan benefiting anyone else is not a one-participant plan",
+      "taxYear": 2026,
+      "source": "IRS, Form 5500 corner, read at irs.gov/retirement-plans/form-5500-corner",
+      "verified": "2026-08-21"
+    },
+    "rr.5500_due": {
+      "value": "the Form 5500 series return is due on the last day of the seventh month after the plan year ends — 31 July for a calendar-year plan — with an extension requested on Form 5558",
+      "taxYear": 2026,
+      "source": "IRS, Form 5500 corner, read at irs.gov/retirement-plans/form-5500-corner",
+      "verified": "2026-08-21"
+    },
+    "rr.5558": {
+      "value": "Form 5558 extends the time to file Form 5500, Form 5500-SF, Form 5500-EZ and Form 8955-SSA; since 1 January 2025 it may be filed electronically through EFAST2 or on paper with the Service, no signature is needed for a Form 5500 series or Form 8955-SSA extension, and a single Form 5558 may extend the Form 5500 and the Form 8955-SSA for the same plan. It is no longer used for Form 5330, which is extended on Form 8868 instead",
+      "taxYear": 2026,
+      "source": "IRS, Form 5500 corner, read at irs.gov/retirement-plans/form-5500-corner",
+      "verified": "2026-08-21"
+    },
+    "rr.efast2": {
+      "value": "Form 5500 and Form 5500-SF must be filed electronically through EFAST2. A one-participant or foreign plan may file Form 5500-EZ electronically through EFAST2 or on paper with the Service unless the sponsor is subject to the mandatory electronic filing requirement of Treas. Reg. § 301.6058-2, and information filed electronically for such a plan is not made public on the Department of Labor website",
+      "taxYear": 2026,
+      "source": "IRS, Form 5500 corner, read at irs.gov/retirement-plans/form-5500-corner",
+      "verified": "2026-08-21"
+    },
+    "rr.efile_threshold": {
+      "value": "a filer must file the Form 5500 series electronically if, during the calendar year that includes the first day of the plan year, it is required to file at least 10 returns of any type — information returns such as Forms W-2 and 1099, income tax returns, employment tax returns and excise tax returns all counting. Filer means the employer or employers maintaining the plan and the IRC § 414(g) plan administrator, and the IRC § 414(b), (c), (m) and (o) aggregation rules apply, so a controlled group counts the returns of every member (Treas. Reg. § 301.6058-2(d)(3))",
+      "taxYear": 2026,
+      "source": "Treas. Reg. § 301.6058-2(d), read at law.cornell.edu/cfr/text/26/301.6058-2",
+      "verified": "2026-08-21"
+    },
+    "rr.8955ssa": {
+      "value": "Form 8955-SSA is the IRC § 6057(a) annual registration statement, filed by the plan administrator of a plan subject to the ERISA § 203 vesting standards, naming each participant who separated from covered service during the plan year and is entitled to a deferred vested benefit at the end of it; it is due on the last day of the seventh month after the plan year ends and is extended on Form 5558",
+      "taxYear": 2026,
+      "source": "IRC § 6057(a), read at law.cornell.edu/uscode/text/26/6057, and IRS, Form 5500 corner",
+      "verified": "2026-08-21"
+    },
+    "rr.penalty_5500": {
+      "value": "failure to file a return or statement required under IRC § 6058, § 6047 or § 6039D on time, unless due to reasonable cause, costs $250 for each day the failure continues, capped at $150,000 for any one return (IRC § 6652(e))",
+      "taxYear": 2026,
+      "source": "IRC § 6652(e), read at law.cornell.edu/uscode/text/26/6652",
+      "verified": "2026-08-21"
+    },
+    "rr.penalty_8955ssa": {
+      "value": "failure to file a complete IRC § 6057(a) registration statement on time, unless due to reasonable cause, costs $10 for each participant omitted multiplied by the number of days the failure continues, capped at $50,000 for any plan year; failure to file the IRC § 6057(b) notification of a change of plan status costs $10 a day capped at $10,000 (IRC § 6652(d))",
+      "taxYear": 2026,
+      "source": "IRC § 6652(d), read at law.cornell.edu/uscode/text/26/6652",
+      "verified": "2026-08-21"
+    },
+    "rr.secure_penalties": {
+      "value": "the current Form 5500 and Form 8955-SSA penalty amounts come from § 403 of the SECURE Act, Division O of Pub. L. 116-94, and apply to returns, statements and notifications required to be filed after 31 December 2019 — a tenfold increase on the amounts before that date",
+      "taxYear": 2026,
+      "source": "IRS, Form 5500 corner, read at irs.gov/retirement-plans/form-5500-corner",
+      "verified": "2026-08-21"
+    },
+    "rr.distribution_reporting": {
+      "value": "the employer or plan administrator of a plan from which designated distributions may be made, and any issuer of a contract under which they may be made, must report to the Secretary, to participants and beneficiaries, and to any other person the Secretary prescribes — but no report is required as to distributions to a person in a year unless they aggregate $10 or more (IRC § 6047(d))",
+      "taxYear": 2026,
+      "source": "IRC § 6047(d), read at law.cornell.edu/uscode/text/26/6047",
+      "verified": "2026-08-21"
+    },
+    "rr.6693": {
+      "value": "failure to file a report required under IRC § 408(i) or (l) for an individual retirement plan, or under the corresponding provisions for Archer MSAs, health savings accounts or qualified tuition programs, costs $50 for each failure unless the failure is due to reasonable cause (IRC § 6693(a))",
+      "taxYear": 2026,
+      "source": "IRC § 6693(a), read at law.cornell.edu/uscode/text/26/6693",
+      "verified": "2026-08-21"
+    },
+    "rr.relief": {
+      "value": "two penalty relief routes exist for a delinquent Form 5500-EZ — the Service’s penalty relief programme under Rev. Proc. 2015-32 and ordinary reasonable cause relief under IRM 20.1.1.3.2. The Department of Labor’s Delinquent Filer Voluntary Compliance Program is not available for a Form 5500-EZ, though it is the route for a delinquent Form 5500 or Form 5500-SF",
+      "taxYear": 2026,
+      "source": "IRS, Form 5500 corner, read at irs.gov/retirement-plans/form-5500-corner",
+      "verified": "2026-08-21"
+    },
+    "rr.retroactive_adoption": {
+      "value": "under SECURE Act § 201 an employer may adopt a plan by the due date of its tax return including extensions and elect to treat it as effective for that tax year, for plans adopted for taxable years beginning after 31 December 2019; no Form 5500 series return is required for the retroactively adopted year, a box on that year’s form records the election, and filing a Form 5558 for such a plan does not itself create a filing requirement or trigger a delinquency notice",
+      "taxYear": 2026,
+      "source": "IRS, Form 5500 corner, read at irs.gov/retirement-plans/form-5500-corner",
+      "verified": "2026-08-21"
     }
   }
 }

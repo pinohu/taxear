@@ -10,9 +10,9 @@ is indexed, and only the owner moves a page there (see `docs/VERIFICATION.md`).
 | Part | Topics | Stub | Draft | Review | Published | Words |
 |---|---:|---:|---:|---:|---:|---:|
 | 1. Individuals | 120 | 0 | 0 | 110 | 10 | 256,550 |
-| 2. Businesses | 119 | 16 | 0 | 103 | 0 | 241,955 |
+| 2. Businesses | 119 | 15 | 0 | 104 | 0 | 244,063 |
 | 3. Representation, Practices and Procedures | 121 | 0 | 0 | 0 | 121 | 257,674 |
-| **All parts** | **360** | **16** | **0** | **213** | **131** | **756,179** |
+| **All parts** | **360** | **15** | **0** | **214** | **131** | **758,287** |
 
 ## Part 1 — Individuals
 
@@ -383,7 +383,7 @@ is indexed, and only the owner moves a page there (see `docs/VERIFICATION.md`).
 | Code | Title | Status | Words | Last reviewed |
 |---|---|---|---:|---|
 | 2.3.3.a | [Employer and employee contributions](/businesses/specialized-returns-and-taxpayers/retirement-plans/employer-and-employee-contributions/) | review | 2,277 | 2026-08-21 |
-| 2.3.3.b | [Reporting requirements](/businesses/specialized-returns-and-taxpayers/retirement-plans/reporting-requirements/) | stub | — | — |
+| 2.3.3.b | [Reporting requirements](/businesses/specialized-returns-and-taxpayers/retirement-plans/reporting-requirements/) | review | 2,108 | 2026-08-21 |
 | 2.3.3.c | [Plans for self-employed persons (e.g., SEP and SIMPLE)](/businesses/specialized-returns-and-taxpayers/retirement-plans/plans-for-self-employed-persons/) | stub | — | — |
 | 2.3.3.d | [Prohibited transactions](/businesses/specialized-returns-and-taxpayers/retirement-plans/prohibited-transactions/) | stub | — | — |
 | 2.3.3.e | [Qualified and non-qualified plans](/businesses/specialized-returns-and-taxpayers/retirement-plans/qualified-and-non-qualified-plans/) | stub | — | — |
