@@ -20,7 +20,7 @@ authorities:
   - { type: Reg, ref: "§ 1.61-3", title: "Gross income derived from business", url: "https://www.law.cornell.edu/cfr/text/26/1.61-3" }
   - { type: Reg, ref: "§ 1.451-2", title: "Constructive receipt of income", url: "https://www.law.cornell.edu/cfr/text/26/1.451-2" }
 forms: []
-related: ["2.2.1.b", "2.2.1.c", "2.2.1.d", "2.1.1.j", "2.1.1.k", "2.2.2.a", "2.2.2.b", "2.2.2.d", "2.2.2.e", "2.2.2.j"]
+related: ["2.2.1.b", "2.2.1.c", "2.2.1.d", "2.1.1.j", "2.1.1.k", "2.2.2.a", "2.2.2.b", "2.2.2.d", "2.2.2.e", "2.2.2.j", "2.2.2.l"]
 changelog:
   - { date: "2026-08-21", summary: "Initial draft. Sets out IRC § 61(a) and the Reg. § 1.61-3(a) computation of gross income from a manufacturing, merchandising or mining business, the prohibition on netting selling expenses into it, the constructive receipt rule of Reg. § 1.451-2(a) for cash method businesses, and the IRC § 451(b) financial statement conformity and IRC § 451(c) advance payment rules for accrual method businesses. Records the two 2026 information reporting changes that move in opposite directions: the IRC § 6041 threshold raised to $2,000 and the IRC § 6050W threshold restored as if the reduction had never been enacted." }
 ---

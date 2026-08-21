@@ -11107,6 +11107,72 @@
       "taxYear": 2026,
       "source": "IRC § 1033(b)(2), opened at law.cornell.edu/uscode/text/26/1033",
       "verified": "2026-08-21"
+    },
+    "qbi.combined": {
+      "value": "the sum of the amounts determined for each qualified trade or business, plus 20 percent of the aggregate qualified REIT dividends and qualified publicly traded partnership income",
+      "taxYear": 2026,
+      "source": "IRC § 199A(b)(1), opened at law.cornell.edu/uscode/text/26/199A",
+      "verified": "2026-08-21"
+    },
+    "qbi.per_business": {
+      "value": "the lesser of 20 percent of the qualified business income of the trade or business, or the greater of 50 percent of its W-2 wages, or 25 percent of those wages plus 2.5 percent of the unadjusted basis immediately after acquisition of all qualified property",
+      "taxYear": 2026,
+      "source": "IRC § 199A(b)(2), opened at law.cornell.edu/uscode/text/26/199A",
+      "verified": "2026-08-21"
+    },
+    "qbi.threshold_2026": {
+      "value": "$403,500 on a joint return, $201,775 for a married individual filing separately, and $201,750 in any other case — the IRC § 199A(e)(2) threshold amounts for taxable years beginning in 2026",
+      "taxYear": 2026,
+      "source": "Rev. Proc. 2025-32 § 3.26, opened at irs.gov/pub/irs-drop/rp-25-32.pdf",
+      "verified": "2026-08-21"
+    },
+    "qbi.phasein_2026": {
+      "value": "$553,500 on a joint return, $276,775 for a married individual filing separately, and $276,750 in any other case — the top of the IRC § 199A(b)(3)(B) and § 199A(d)(3)(A) phase-in range for taxable years beginning in 2026",
+      "taxYear": 2026,
+      "source": "Rev. Proc. 2025-32 § 3.26, opened at irs.gov/pub/irs-drop/rp-25-32.pdf",
+      "verified": "2026-08-21"
+    },
+    "qbi.phasein_widened": {
+      "value": "the phase-in range was widened from $50,000, or $100,000 on a joint return, to $75,000 and $150,000 by Pub. L. 119-21 § 70105(a), in both IRC § 199A(b)(3)(B) and § 199A(d)(3)",
+      "taxYear": 2026,
+      "source": "IRC § 199A(b)(3)(B)(i)(I) and its amendment notes, opened at law.cornell.edu/uscode/text/26/199A",
+      "verified": "2026-08-21"
+    },
+    "qbi.below_threshold": {
+      "value": "where taxable income does not exceed the threshold amount, the wage and property limitation is disregarded entirely and the deduction is simply 20 percent of qualified business income",
+      "taxYear": 2026,
+      "source": "IRC § 199A(b)(3)(A), opened at law.cornell.edu/uscode/text/26/199A",
+      "verified": "2026-08-21"
+    },
+    "qbi.sstb": {
+      "value": "a trade or business described in IRC § 1202(e)(3)(A), read without the words \"engineering, architecture,\" and with \"employees or owners\" substituted for \"employees\", or one involving investing and investment management, trading, or dealing in securities, partnership interests or commodities",
+      "taxYear": 2026,
+      "source": "IRC § 199A(d)(2), opened at law.cornell.edu/uscode/text/26/199A",
+      "verified": "2026-08-21"
+    },
+    "qbi.qualified_property": {
+      "value": "tangible property subject to the allowance for depreciation under IRC § 167 which is held by and available for use in the business at the close of the year, is used at any point during the year in producing qualified business income, and whose depreciable period has not ended before the close of the year",
+      "taxYear": 2026,
+      "source": "IRC § 199A(b)(6)(A), opened at law.cornell.edu/uscode/text/26/199A",
+      "verified": "2026-08-21"
+    },
+    "qbi.permanent": {
+      "value": "permanent — Pub. L. 119-21 § 70105(b)(1) amended IRC § 199A(i) generally, replacing the sentence \"This section shall not apply to taxable years beginning after December 31, 2025\" with the minimum deduction rule",
+      "taxYear": 2026,
+      "source": "Amendment note to IRC § 199A(i), opened at law.cornell.edu/uscode/text/26/199A",
+      "verified": "2026-08-21"
+    },
+    "qbi.minimum": {
+      "value": "$400 — for a taxpayer whose aggregate qualified business income from all active qualified trades or businesses is at least $1,000, the deduction is the greater of the ordinary computation or this amount; both figures are indexed from a 2025 base for taxable years beginning after 2026",
+      "taxYear": 2026,
+      "source": "IRC § 199A(i)(1), (i)(2)(A) and (i)(3), opened at law.cornell.edu/uscode/text/26/199A",
+      "verified": "2026-08-21"
+    },
+    "qbi.active": {
+      "value": "a qualified trade or business in which the taxpayer materially participates within the meaning of IRC § 469(h)",
+      "taxYear": 2026,
+      "source": "IRC § 199A(i)(2)(B), opened at law.cornell.edu/uscode/text/26/199A",
+      "verified": "2026-08-21"
     }
   }
 }
