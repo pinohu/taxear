@@ -454,7 +454,9 @@ const RULES = [
   // period, a 52-53 week year, or the act of adopting, changing or retaining one.
   ['2.1.1.i', /\b1128\b|section 444|required (?:tax|taxable) year|permitted year|natural (?:business|tax) year|short (?:period|tax year)|52-?\s?53|deferral period|annual accounting period|(?:adopt|chang|retain|elect)\w*[\s\S]{0,40}(?:tax year|taxable year|accounting period)/i],
   ['2.1.1.j', /accounting method/i],
-  ['2.1.1.k', /\bw-?4\b|\bw-?2\b|\b1099\b/i],
+  // Form 8300 is a reporting requirement of the business, so it belongs with the W-2, W-4 and 1099
+  // rules rather than with the cash-transaction subject matter it happens to describe.
+  ['2.1.1.k', /\bw-?4\b|\bw-?2\b|\b1099\b|\b8300\b|report of cash payments|information return/i],
   ['2.1.1.e', /limited liability company|\bllc\b/i],
   ['2.1.1.f', /tax-?exempt (?:entit|association)/i],
   ['2.1.1.a', /sole proprietor|\bschedule c\b/i],

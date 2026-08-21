@@ -8431,6 +8431,78 @@
       "taxYear": 2026,
       "source": "IRC § 481(a), read at law.cornell.edu/uscode/text/26/481",
       "verified": "2026-08-21"
+    },
+    "report.6041_threshold": {
+      "value": "$2,000 — every person engaged in a trade or business who pays another person rent, salaries, wages, premiums, annuities, compensations, remunerations, emoluments or other fixed or determinable gains, profits and income of that amount or more in a calendar year must render a return to the Secretary. The figure was $600 until Pub. L. 119-21 § 70433(a) substituted $2,000 for payments made after 31 December 2025, and IRC § 6041(h) indexes it for calendar years after 2026 in multiples of $100 (IRC § 6041(a), (h))",
+      "taxYear": 2026,
+      "source": "IRC § 6041(a), (h) and the 2025 amendment notes, read at law.cornell.edu/uscode/text/26/6041",
+      "verified": "2026-08-21"
+    },
+    "report.6041a_services": {
+      "value": "a service-recipient engaged in a trade or business that pays remuneration for services in a calendar year must make a return where the aggregate paid to that person equals or exceeds the dollar amount in effect for that year under IRC § 6041(a) — the cross-reference substituted by Pub. L. 119-21 § 70433(c) for the former fixed $600, so the two thresholds now move together (IRC § 6041A(a))",
+      "taxYear": 2026,
+      "source": "IRC § 6041A(a) and the 2025 amendment notes, read at law.cornell.edu/uscode/text/26/6041A",
+      "verified": "2026-08-21"
+    },
+    "report.6041a_direct_sales": {
+      "value": "$5,000 — a person who sells consumer products to a buyer on a buy-sell, deposit-commission or similar basis for resale other than in a permanent retail establishment must make a return where the aggregate sales to that buyer in the calendar year are that amount or more (IRC § 6041A(b))",
+      "taxYear": 2026,
+      "source": "IRC § 6041A(b), read at law.cornell.edu/uscode/text/26/6041A",
+      "verified": "2026-08-21"
+    },
+    "report.1099k": {
+      "value": "a third party settlement organisation must report a participating payee third party network transactions only if the amount otherwise reportable exceeds $20,000 and the aggregate number of transactions exceeds 200. Pub. L. 119-21 § 70432(a) restored both tests and did so as if included in the 2021 Act that had replaced them with a flat $600 and no transaction count, so the $600 rule is treated as never having taken effect (IRC § 6050W(e))",
+      "taxYear": 2026,
+      "source": "IRC § 6050W(e) and the 2025 amendment and effective-date notes, read at law.cornell.edu/uscode/text/26/6050W",
+      "verified": "2026-08-21"
+    },
+    "report.w2": {
+      "value": "every person required to withhold under IRC § 3101 or § 3402, and every employer engaged in a trade or business who pays remuneration for services performed by an employee, must furnish each employee a written statement for the calendar year on or before 31 January of the succeeding year — or, where employment ends before the close of the year, within 30 days after a written request from the employee if that 30-day period ends before 31 January (IRC § 6051(a))",
+      "taxYear": 2026,
+      "source": "IRC § 6051(a), read at law.cornell.edu/uscode/text/26/6051",
+      "verified": "2026-08-21"
+    },
+    "report.due_dates": {
+      "value": "Forms W-2 and W-3 and any return or statement reporting nonemployee compensation are filed on or before 31 January of the year following the calendar year to which they relate; other information returns under subpart B, when filed electronically, are filed on or before 31 March (IRC § 6071(b), (c))",
+      "taxYear": 2026,
+      "source": "IRC § 6071(b), (c), read at law.cornell.edu/uscode/text/26/6071",
+      "verified": "2026-08-21"
+    },
+    "report.efile_threshold": {
+      "value": "no person is required to file information returns electronically for a calendar year unless required to file at least 10 returns during that year, counted in aggregate across return types; a partnership with more than 100 partners must file electronically regardless (Reg. § 301.6011-2(c))",
+      "taxYear": 2026,
+      "source": "26 CFR § 301.6011-2(c), read at law.cornell.edu/cfr/text/26/301.6011-2",
+      "verified": "2026-08-21"
+    },
+    "report.8300": {
+      "value": "$10,000 — any person engaged in a trade or business who in the course of it receives more than that amount in cash in one transaction, or in two or more related transactions, must make a return showing the name, address and taxpayer identification number of the person from whom the cash was received, the amount, and the date and nature of the transaction (IRC § 6050I(a), (b))",
+      "taxYear": 2026,
+      "source": "IRC § 6050I(a), (b), read at law.cornell.edu/uscode/text/26/6050I",
+      "verified": "2026-08-21"
+    },
+    "report.8300_timing": {
+      "value": "the report must be filed by the 15th day after the date the cash is received (Reg. § 1.6050I-1(e)(1)); the written statement to each person named on it, showing the filer information contact and the aggregate amount of cash received, must be furnished on or before 31 January of the year following the calendar year for which the return was required (IRC § 6050I(e))",
+      "taxYear": 2026,
+      "source": "26 CFR § 1.6050I-1(e)(1), read at law.cornell.edu/cfr/text/26/1.6050I-1; IRC § 6050I(e), read at law.cornell.edu/uscode/text/26/6050I",
+      "verified": "2026-08-21"
+    },
+    "report.6721_2026": {
+      "value": "for a failure relating to a return required to be filed in 2027, the penalty is $340 per return with a calendar year maximum of $4,191,500 — or $1,397,000 for a person whose average annual gross receipts for the most recent three taxable years are $5,000,000 or less. Corrected within 30 days of the required filing date the penalty is $60, capped at $698,500 or $244,500; corrected after that but on or before 1 August it is $130, capped at $2,095,500 or $698,500 (IRC § 6721(a), (b), (d))",
+      "taxYear": 2026,
+      "source": "Rev. Proc. 2025-32, read at irs.gov/pub/irs-drop/rp-25-32.pdf § 3.57",
+      "verified": "2026-08-21"
+    },
+    "report.6722_2026": {
+      "value": "for a failure relating to a payee statement required to be furnished in 2027, the penalty is $340 per statement with a calendar year maximum of $4,191,500 — or $1,397,000 for a person whose average annual gross receipts for the most recent three taxable years are $5,000,000 or less. Corrected within 30 days of the required furnishing date the penalty is $60, capped at $698,500 or $244,500; corrected after that but on or before 1 August it is $130, capped at $2,095,500 or $698,500 (IRC § 6722(a), (b), (d))",
+      "taxYear": 2026,
+      "source": "Rev. Proc. 2025-32, read at irs.gov/pub/irs-drop/rp-25-32.pdf § 3.58",
+      "verified": "2026-08-21"
+    },
+    "report.intentional_disregard": {
+      "value": "for intentional disregard of the filing requirement, the penalty for a return required to be filed in 2027 is the greater of $690 or 10 percent of the aggregate amount required to be reported correctly, with no calendar year limit — 5 percent for a return under IRC § 6045(a), § 6050K or § 6050L. For a Form 8300 return under IRC § 6050I(a) it is the greater of $34,930 or the amount of cash received, up to $139,500 (IRC § 6721(e)(2))",
+      "taxYear": 2026,
+      "source": "Rev. Proc. 2025-32, read at irs.gov/pub/irs-drop/rp-25-32.pdf § 3.57",
+      "verified": "2026-08-21"
     }
   }
 }
