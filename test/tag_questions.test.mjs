@@ -139,6 +139,21 @@ test('separately stated items are sorted by entity, not by the phrase', () => {
   assert.equal(classify(q(2, 'Which of these is a separately stated item on the Schedule K-1 of an S corporation shareholder?')), '2.1.5.c');
 });
 
+test('subchapter S outranks the general business rules that follow it', () => {
+  // The generic depreciation, gross-receipts and compensation rules sit ahead of the
+  // 2.1.5 block in the array, so an S corporation question about basis, termination or a
+  // shareholder fringe benefit needs its own rule above them or the generic rule wins.
+  assert.equal(classify(q(2, "A shareholder's basis in an S corporation is adjusted first by which of these? Consider depreciation and amortization.")), '2.1.5.e');
+  assert.equal(classify(q(2, 'Which of these is an automatic termination of an S election when gross receipts are considered?')), '2.1.5.f');
+  assert.equal(classify(q(2, 'A shareholder of an S corporation had health insurance premiums paid by the corporation. How is that treated?')), '2.1.5.c');
+});
+
+test('a fringe benefit question drawn from the C corporation side stays with compensation', () => {
+  // A question that contrasts the two regimes is asked from the C corporation's side and
+  // belongs with business compensation, even though the explanation names subchapter S.
+  assert.equal(classify({ part: 2, stem: 'Two employees of a C corporation have health insurance premiums paid by the employer. For which may the corporation deduct the cost?', choices: {}, explanation: 'An S corporation applies a different rule to a more-than-2-percent owner.' }), '2.2.2.a');
+});
+
 test('rules never tag across exam parts', () => {
   // The same subject asked in different parts must land in that part's own outline.
   // Part 1 has its own claim-for-refund topic, so the Part 1 question is placed there —

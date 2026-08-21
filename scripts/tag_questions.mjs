@@ -378,6 +378,16 @@ const RULES = [
   ['2.2.4.b', /income statement/i],
   ['2.2.4.a', /\bnaics\b|classification code/i],
   ['2.2.4.f', /pass-?through activity/i],
+  // Subchapter S beats the general business rules that follow it. A question about a
+  // shareholder's stock basis, an S election terminating, or a fringe benefit paid to a
+  // shareholder-employee is a subchapter S question first and a basis, termination or
+  // compensation question second; without this block the generic rules below claim it.
+  ['2.1.5.e', /\bshareholder'?s? basis\b|\bstock basis\b|\bloan basis\b|basis (?:in|of) (?:the |his |her |their )?s corporation|distribution\w*[\s\S]{0,40}in excess of[\s\S]{0,30}basis/i],
+  ['2.1.5.f', /(?:revocation|revok\w*|terminat\w*)[\s\S]{0,30}\bs election\b|\bs election\b[\s\S]{0,30}(?:revok|terminat)/i],
+  // A fringe-benefit question that mentions a C corporation at all is a comparison drawn
+  // from the C corporation's side and belongs with business compensation; only a question
+  // set wholly inside subchapter S is testing the section 1372 partner treatment.
+  ['2.1.5.c', /\b1377\b|\b2-?\s?(?:%|percent) shareholder\b|^(?![\s\S]*\bc corporation\b)[\s\S]*?(?:(?:fringe benefit|health insurance premium)[\s\S]{0,80}\bs corporation\b|\bs corporation\b[\s\S]{0,80}(?:fringe benefit|health insurance premium))/i],
   // 2.2.3 business assets
   ['2.2.3.c', /like-? ?kind exchange|\b1031\b/i],
   ['2.2.3.e', /de minimis safe harbor|repair regulation|tangible property regulation/i],
