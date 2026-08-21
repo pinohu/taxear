@@ -10657,6 +10657,66 @@
       "taxYear": 2026,
       "source": "IRC § 613A(c)(1), opened at law.cornell.edu/uscode/text/26/613A",
       "verified": "2026-08-21"
+    },
+    "baddebt.wholly": {
+      "value": "a deduction is allowed for any debt which becomes worthless within the taxable year",
+      "taxYear": 2026,
+      "source": "IRC § 166(a)(1), opened at law.cornell.edu/uscode/text/26/166",
+      "verified": "2026-08-21"
+    },
+    "baddebt.partial": {
+      "value": "where the Secretary is satisfied that a debt is recoverable only in part, a deduction may be allowed in an amount not exceeding the part charged off within the taxable year — so a partial deduction requires an actual charge-off and a wholly worthless one does not",
+      "taxYear": 2026,
+      "source": "IRC § 166(a)(2), opened at law.cornell.edu/uscode/text/26/166",
+      "verified": "2026-08-21"
+    },
+    "baddebt.nonbusiness": {
+      "value": "for a taxpayer other than a corporation, IRC § 166(a) does not apply to a non-business debt; a non-business debt that becomes worthless is treated as a loss from the sale or exchange of a capital asset held for not more than 1 year — a short-term capital loss, and only when wholly worthless",
+      "taxYear": 2026,
+      "source": "IRC § 166(d)(1), opened at law.cornell.edu/uscode/text/26/166",
+      "verified": "2026-08-21"
+    },
+    "baddebt.business_defined": {
+      "value": "a debt created or acquired in connection with the taxpayer's trade or business, or a debt the loss from the worthlessness of which is incurred in that trade or business",
+      "taxYear": 2026,
+      "source": "IRC § 166(d)(2), opened at law.cornell.edu/uscode/text/26/166",
+      "verified": "2026-08-21"
+    },
+    "baddebt.proximate": {
+      "value": "the character of the debt turns on the relation the loss bears to the trade or business at the time the debt becomes worthless; if that relation is a proximate one, the debt is a business debt, and the use the debtor made of the funds is of no consequence",
+      "taxYear": 2026,
+      "source": "Reg. § 1.166-5(b), opened at law.cornell.edu/cfr/text/26/1.166-5",
+      "verified": "2026-08-21"
+    },
+    "baddebt.prior_inclusion": {
+      "value": "a worthless debt arising from unpaid wages, salaries, fees, rents and similar items of taxable income is not deductible unless the income it represents has been included on a return for the year of the deduction or an earlier year",
+      "taxYear": 2026,
+      "source": "Reg. § 1.166-1(e), opened at law.cornell.edu/cfr/text/26/1.166-1",
+      "verified": "2026-08-21"
+    },
+    "baddebt.evidence": {
+      "value": "all pertinent evidence is considered, including the value of any collateral and the financial condition of the debtor; legal action is not required where the circumstances show that enforcing payment would in all probability not result in satisfaction of a judgment",
+      "taxYear": 2026,
+      "source": "Reg. § 1.166-2(a) and (b), opened at law.cornell.edu/cfr/text/26/1.166-2",
+      "verified": "2026-08-21"
+    },
+    "baddebt.bankruptcy": {
+      "value": "bankruptcy is generally an indication of the worthlessness of at least a part of an unsecured and unpreferred debt",
+      "taxYear": 2026,
+      "source": "Reg. § 1.166-2(c)(1), opened at law.cornell.edu/cfr/text/26/1.166-2",
+      "verified": "2026-08-21"
+    },
+    "baddebt.recovery": {
+      "value": "an amount recovered on a debt allowed as a deduction in a prior year is included in gross income for the year of recovery, except so far as the tax benefit rule of IRC § 111 excludes it",
+      "taxYear": 2026,
+      "source": "Reg. § 1.166-1(f), opened at law.cornell.edu/cfr/text/26/1.166-1",
+      "verified": "2026-08-21"
+    },
+    "baddebt.reserve_repealed": {
+      "value": "the reserve method was repealed for most taxpayers by Pub. L. 99-514 § 805(a) in 1986, which struck IRC § 166(c) — but Reg. § 1.166-1(a)(2) and (b) still describe it as one of two methods a taxpayer may select",
+      "taxYear": 2026,
+      "source": "Repeal note at IRC § 166(c) and Reg. § 1.166-1(a), (b), both opened at law.cornell.edu/uscode/text/26/166 and /cfr/text/26/1.166-1",
+      "verified": "2026-08-21"
     }
   }
 }
