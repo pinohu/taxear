@@ -24,7 +24,7 @@ authorities:
   - { type: Case, ref: "Gitlitz v. Commissioner", title: "Supreme Court, 9 January 2001, reversing 182 F.3d 1143", url: "https://www.law.cornell.edu/supct/html/99-1295.ZS.html" }
   - { type: Reg, ref: "§ 1.1366-1(a)(2)(viii)", title: "Tax-exempt income", url: "https://www.law.cornell.edu/cfr/text/26/1.1366-1" }
 forms: []
-related: ["2.1.5.e", "2.1.5.c", "2.1.2.j", "2.1.5.d", "2.1.5.f"]
+related: ["2.1.5.e", "2.1.5.c", "2.1.2.j", "2.1.5.d", "2.1.5.f", "2.2.1.d"]
 changelog:
   - { date: "2026-08-21", summary: "Initial draft. Sets out IRC § 108(d)(7)(A), under which the exclusions and attribute reductions are applied at the corporate level and an excluded amount is not taken into account under IRC § 1366(a), the IRC § 108(d)(7)(B) rule treating a loss suspended under IRC § 1366(d)(1) as a net operating loss for attribute reduction, and IRC § 108(d)(7)(C) on debt basis for the purposes of IRC § 108(e)(6). Records that the words closing IRC § 108(d)(7)(A) were added by Pub. L. 107-147 § 402(a) to reverse Gitlitz v. Commissioner." }
 ---

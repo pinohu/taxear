@@ -10405,6 +10405,66 @@
       "taxYear": 2026,
       "source": "IRC § 469(b), opened at law.cornell.edu/uscode/text/26/469",
       "verified": "2026-08-21"
+    },
+    "bcod.general": {
+      "value": "gross income includes income from the discharge of indebtedness, and except as IRC § 108 itself provides there is no insolvency exception to that rule",
+      "taxYear": 2026,
+      "source": "IRC § 61(a)(11) and § 108(e)(1), opened at law.cornell.edu/uscode/text/26/61 and /108",
+      "verified": "2026-08-21"
+    },
+    "bcod.lost_deduction": {
+      "value": "no income is realised from the discharge to the extent that payment of the liability would have given rise to a deduction",
+      "taxYear": 2026,
+      "source": "IRC § 108(e)(2), opened at law.cornell.edu/uscode/text/26/108",
+      "verified": "2026-08-21"
+    },
+    "bcod.purchase_price": {
+      "value": "a reduction of a purchaser's debt to the seller arising out of the purchase of the property, not occurring in a title 11 case and not while the purchaser is insolvent, is treated as a purchase price adjustment rather than discharge income",
+      "taxYear": 2026,
+      "source": "IRC § 108(e)(5), opened at law.cornell.edu/uscode/text/26/108",
+      "verified": "2026-08-21"
+    },
+    "bcod.related_acquisition": {
+      "value": "to the extent regulations provide, the acquisition of the debt by a person related to the debtor within IRC § 267(b) or § 707(b)(1), from a person who is not so related, is treated as an acquisition by the debtor",
+      "taxYear": 2026,
+      "source": "IRC § 108(e)(4)(A), opened at law.cornell.edu/uscode/text/26/108",
+      "verified": "2026-08-21"
+    },
+    "bcod.qrpbi_defined": {
+      "value": "debt incurred or assumed in connection with real property used in a trade or business and secured by it, incurred before 1 January 1993 or, if later, qualified acquisition indebtedness, and for which the taxpayer elects the treatment; qualified farm indebtedness is excluded",
+      "taxYear": 2026,
+      "source": "IRC § 108(c)(3), opened at law.cornell.edu/uscode/text/26/108",
+      "verified": "2026-08-21"
+    },
+    "bcod.qrpbi_limits": {
+      "value": "the exclusion cannot exceed the outstanding principal immediately before the discharge less the fair market value of the property reduced by other qualified real property business debt it secures, and cannot exceed the aggregate adjusted bases of depreciable real property held immediately before the discharge, excluding property acquired in contemplation of it",
+      "taxYear": 2026,
+      "source": "IRC § 108(c)(2), opened at law.cornell.edu/uscode/text/26/108",
+      "verified": "2026-08-21"
+    },
+    "bcod.qrpbi_basis": {
+      "value": "the amount excluded reduces the basis of the depreciable real property of the taxpayer under IRC § 1017",
+      "taxYear": 2026,
+      "source": "IRC § 108(c)(1), opened at law.cornell.edu/uscode/text/26/108",
+      "verified": "2026-08-21"
+    },
+    "bcod.farm_defined": {
+      "value": "debt incurred directly in connection with the taxpayer's operation of the trade or business of farming, where 50 percent or more of aggregate gross receipts for the 3 preceding taxable years is attributable to farming, and the discharge is by a qualified person",
+      "taxYear": 2026,
+      "source": "IRC § 108(g)(1) and (g)(2), opened at law.cornell.edu/uscode/text/26/108",
+      "verified": "2026-08-21"
+    },
+    "bcod.farm_cap": {
+      "value": "the exclusion cannot exceed the sum of the adjusted tax attributes and the aggregate adjusted bases of qualified property held at the beginning of the year following the discharge, counting $3 for each $1 of the credit carryover attributes",
+      "taxYear": 2026,
+      "source": "IRC § 108(g)(3), opened at law.cornell.edu/uscode/text/26/108",
+      "verified": "2026-08-21"
+    },
+    "cod.partner_level": {
+      "value": "in the case of a partnership, IRC § 108(a), (b), (c) and (g) are applied at the partner level",
+      "taxYear": 2026,
+      "source": "IRC § 108(d)(6), opened at law.cornell.edu/uscode/text/26/108",
+      "verified": "2026-08-21"
     }
   }
 }

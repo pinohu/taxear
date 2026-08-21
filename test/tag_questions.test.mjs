@@ -178,6 +178,13 @@ test('a partnership liquidation is not an inventory question', () => {
   assert.equal(classify(q(2, 'Determine the cost of goods sold given beginning inventory, purchases and ending inventory.')), '2.2.1.b');
 });
 
+test('a passive activity income question is not a debt discharge question', () => {
+  // Cancellation of debt appears on every list of what passive activity income excludes, so the
+  // bare phrase was claiming those questions for the discharge topic.
+  assert.equal(classify(q(2, 'Passive activity income does not include portfolio income, income from patents, or cancellation of debt.')), '2.2.1.c');
+  assert.equal(classify(q(2, 'Canceled debt for businesses is not recognized as income in which scenario?')), '2.2.1.d');
+});
+
 test('rules never tag across exam parts', () => {
   // The same subject asked in different parts must land in that part's own outline.
   // Part 1 has its own claim-for-refund topic, so the Part 1 question is placed there —

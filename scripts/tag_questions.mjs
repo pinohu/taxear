@@ -416,7 +416,11 @@ const RULES = [
   // claimed it for cost of goods sold. The disposition topic has it.
   ['2.1.2.f', /liquidat\w*[\s\S]{0,60}partner|partner\w*[\s\S]{0,60}(?:entire )?interest[\s\S]{0,40}liquidat/i],
   ['2.2.1.b', /cost of goods sold|\bcogs\b|invento|uniform capitaliz|\b263a\b/i],
-  ['2.2.1.d', /cancellation of (?:business )?debt/i],
+  // A passive activity question lists cancellation of debt among the receipts that are not
+  // passive income, so the bare phrase claimed it for the discharge topic. The loss
+  // limitations topic owns passive activity income.
+  ['2.2.1.c', /passive activity income|portfolio income[\s\S]{0,80}passive|passive[\s\S]{0,80}portfolio income/i],
+  ['2.2.1.d', /cancellation of (?:business )?debt|cancell?ed debt|debt cancellation|discharge of (?:business )?indebtedness/i],
   ['2.2.1.c', /at-?risk limitation|excess business loss|461\(l\)/i],
   // "Gross receipts" is a measuring stick used all over the Code — an e-file threshold, an
   // exempt organization's late-filing penalty — and the bare phrase pulled all of those onto the
