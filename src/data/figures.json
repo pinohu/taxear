@@ -10465,6 +10465,72 @@
       "taxYear": 2026,
       "source": "IRC § 108(d)(6), opened at law.cornell.edu/uscode/text/26/108",
       "verified": "2026-08-21"
+    },
+    "comp.deduction": {
+      "value": "all the ordinary and necessary expenses paid or incurred during the taxable year in carrying on a trade or business, including a reasonable allowance for salaries or other compensation for personal services actually rendered",
+      "taxYear": 2026,
+      "source": "IRC § 162(a) and § 162(a)(1), opened at law.cornell.edu/uscode/text/26/162",
+      "verified": "2026-08-21"
+    },
+    "comp.two_tests": {
+      "value": "the allowance must be reasonable in amount and the services must actually have been rendered — two separate requirements, either of which can defeat the deduction on its own",
+      "taxYear": 2026,
+      "source": "IRC § 162(a)(1), opened at law.cornell.edu/uscode/text/26/162",
+      "verified": "2026-08-21"
+    },
+    "comp.162m_cap": {
+      "value": "$1,000,000 — a publicly held corporation may not deduct applicable employee remuneration with respect to a covered employee to the extent it exceeds that amount for the taxable year",
+      "taxYear": 2026,
+      "source": "IRC § 162(m)(1), opened at law.cornell.edu/uscode/text/26/162",
+      "verified": "2026-08-21"
+    },
+    "comp.162m_covered": {
+      "value": "the principal executive officer and principal financial officer at any time during the year, anyone among the 3 highest compensated officers whose pay must be reported to shareholders, and — for taxable years beginning after 31 December 2026 — anyone among the 5 highest compensated employees besides those",
+      "taxYear": 2026,
+      "source": "IRC § 162(m)(3), opened at law.cornell.edu/uscode/text/26/162",
+      "verified": "2026-08-21"
+    },
+    "comp.group_term_life": {
+      "value": "$50,000 — the cost of group-term life insurance carried by the employer is included in the employee's gross income only to the extent it exceeds the cost of that much insurance plus anything the employee paid toward it",
+      "taxYear": 2026,
+      "source": "IRC § 79(a), opened at law.cornell.edu/uscode/text/26/79",
+      "verified": "2026-08-21"
+    },
+    "comp.132_list": {
+      "value": "a no-additional-cost service, a qualified employee discount, a working condition fringe, a de minimis fringe, a qualified transportation fringe, a qualified moving expense reimbursement, qualified retirement planning services, and a qualified military base realignment and closure fringe",
+      "taxYear": 2026,
+      "source": "IRC § 132(a), opened at law.cornell.edu/uscode/text/26/132",
+      "verified": "2026-08-21"
+    },
+    "comp.statutory_employee": {
+      "value": "an agent-driver or commission-driver distributing meat, vegetable, fruit or bakery products, beverages other than milk, or laundry or dry-cleaning services; a full-time life insurance salesman; a home worker on materials furnished by the principal and required to be returned; and a full-time traveling or city salesman soliciting orders for one principal",
+      "taxYear": 2026,
+      "source": "IRC § 3121(d)(3), opened at law.cornell.edu/uscode/text/26/3121",
+      "verified": "2026-08-21"
+    },
+    "comp.statutory_conditions": {
+      "value": "the contract of service must contemplate that substantially all the services are performed personally, and the individual is excluded if they have a substantial investment in facilities used in the work other than transportation facilities, or if the services are a single transaction not part of a continuing relationship",
+      "taxYear": 2026,
+      "source": "IRC § 3121(d)(3), closing text, opened at law.cornell.edu/uscode/text/26/3121",
+      "verified": "2026-08-21"
+    },
+    "comp.officer_employee": {
+      "value": "any officer of a corporation is an employee for employment tax purposes, as is any individual who has the status of an employee under the usual common law rules",
+      "taxYear": 2026,
+      "source": "IRC § 3121(d)(1) and (d)(2), opened at law.cornell.edu/uscode/text/26/3121",
+      "verified": "2026-08-21"
+    },
+    "comp.related_timing": {
+      "value": "where the payee will not include the amount until paid because of their method of accounting, and payee and payer are related persons at the close of the payer's year, the deduction is deferred to the day the amount is includible in the payee's gross income",
+      "taxYear": 2026,
+      "source": "IRC § 267(a)(2), opened at law.cornell.edu/uscode/text/26/267",
+      "verified": "2026-08-21"
+    },
+    "comp.psc_related": {
+      "value": "a personal service corporation within IRC § 441(i)(2) and any employee-owner of it are treated as related persons for the matching rule",
+      "taxYear": 2026,
+      "source": "IRC § 267(a)(2), closing sentence, opened at law.cornell.edu/uscode/text/26/267",
+      "verified": "2026-08-21"
     }
   }
 }

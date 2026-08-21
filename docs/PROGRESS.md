@@ -10,9 +10,9 @@ is indexed, and only the owner moves a page there (see `docs/VERIFICATION.md`).
 | Part | Topics | Stub | Draft | Review | Published | Words |
 |---|---:|---:|---:|---:|---:|---:|
 | 1. Individuals | 120 | 0 | 0 | 110 | 10 | 256,550 |
-| 2. Businesses | 119 | 70 | 0 | 49 | 0 | 114,168 |
+| 2. Businesses | 119 | 69 | 0 | 50 | 0 | 116,531 |
 | 3. Representation, Practices and Procedures | 121 | 0 | 0 | 0 | 121 | 257,674 |
-| **All parts** | **360** | **70** | **0** | **159** | **131** | **628,392** |
+| **All parts** | **360** | **69** | **0** | **160** | **131** | **630,755** |
 
 ## Part 1 — Individuals
 
@@ -297,7 +297,7 @@ is indexed, and only the owner moves a page there (see `docs/VERIFICATION.md`).
 
 | Code | Title | Status | Words | Last reviewed |
 |---|---|---|---:|---|
-| 2.2.2.a | [Officers and employees’ compensation (e.g., deductibility, fringe benefits, rules of family employment, statutory employee, necessary and reasonable)](/businesses/business-tax-preparation/business-expenses-deductions-and-credits/officers-and-employees-compensation/) | stub | — | — |
+| 2.2.2.a | [Officers and employees’ compensation (e.g., deductibility, fringe benefits, rules of family employment, statutory employee, necessary and reasonable)](/businesses/business-tax-preparation/business-expenses-deductions-and-credits/officers-and-employees-compensation/) | review | 2,363 | 2026-08-21 |
 | 2.2.2.b | [Business rental deduction, including self-rentals](/businesses/business-tax-preparation/business-expenses-deductions-and-credits/business-rental-deduction-including-self-rentals/) | stub | — | — |
 | 2.2.2.c | [Depreciation, amortization (start-up and organizational cost), IRC Section 179, depletion, bonus depreciation, and correcting errors](/businesses/business-tax-preparation/business-expenses-deductions-and-credits/depreciation-amortization-start-up-and-organizational-cost/) | stub | — | — |
 | 2.2.2.d | [Business bad debts](/businesses/business-tax-preparation/business-expenses-deductions-and-credits/business-bad-debts/) | stub | — | — |
