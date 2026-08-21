@@ -21,7 +21,7 @@ authorities:
   - { type: IRC, ref: "§ 61", title: "Gross income defined", url: "https://www.law.cornell.edu/uscode/text/26/61" }
   - { type: Reg, ref: "§ 1.721-1", title: "Nonrecognition of gain or loss on contribution", url: "https://www.law.cornell.edu/cfr/text/26/1.721-1" }
 forms: []
-related: ["2.1.2.a", "2.1.2.c", "2.1.2.e", "2.1.2.g", "2.1.2.b"]
+related: ["2.1.2.a", "2.1.2.c", "2.1.2.e", "2.1.2.g", "2.1.2.b", "2.1.4.d"]
 changelog:
   - { date: "2026-08-21", summary: "Initial draft. Sets out the IRC § 721(a) nonrecognition rule and its § 721(b) investment company exception, the § 722 and § 723 substituted and transferred bases, the Reg. § 1.721-1(b) treatment of a capital interest received for services as income under § 61 and as a § 707(c) guaranteed payment where the services were rendered to the partnership, the § 704(c)(1)(A) requirement to allocate built-in gain and loss to the contributor and the § 704(c)(1)(B) seven-year rule on distribution to another partner, the § 724 character preservation rules for unrealized receivables, inventory and capital loss property, and the § 752 consequences of contributing property subject to a liability." }
 ---

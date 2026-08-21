@@ -9511,6 +9511,30 @@
       "taxYear": 2026,
       "source": "IRC § 1223(2), read at law.cornell.edu/uscode/text/26/1223",
       "verified": "2026-08-21"
+    },
+    "debt.excess_over_basis": {
+      "value": "where in an IRC § 351 exchange the sum of the liabilities assumed exceeds the total adjusted basis of the property transferred, the excess is treated as gain from the sale or exchange of a capital asset or of property which is not a capital asset, as the case may be (IRC § 357(c)(1))",
+      "taxYear": 2026,
+      "source": "IRC § 357(c)(1), read at law.cornell.edu/uscode/text/26/357",
+      "verified": "2026-08-21"
+    },
+    "debt.excluded_liabilities": {
+      "value": "a liability whose payment would give rise to a deduction, or would be described in IRC § 736(a), is excluded in determining the amount of liabilities assumed for the purposes of the excess-over-basis rule — so a cash-basis transferor's accounts payable do not create gain (IRC § 357(c)(3))",
+      "taxYear": 2026,
+      "source": "IRC § 357(c)(3), read at law.cornell.edu/uscode/text/26/357",
+      "verified": "2026-08-21"
+    },
+    "debt.basis_effect": {
+      "value": "where another party to the exchange assumes a liability of the taxpayer as part of the consideration, the assumption is treated as money received by the taxpayer for the purpose of computing the basis of the stock received — except to the extent the liability is excluded under IRC § 357(c)(3) (IRC § 358(d))",
+      "taxYear": 2026,
+      "source": "IRC § 358(d), read at law.cornell.edu/uscode/text/26/358",
+      "verified": "2026-08-21"
+    },
+    "debt.no_gain_ordinarily": {
+      "value": "the assumption of a liability is not treated as money or other property for the purposes of IRC § 351(b), so it does not by itself cause gain to be recognised and does not prevent the exchange qualifying — the rule that matters is the separate one for liabilities exceeding basis (IRC § 357(a))",
+      "taxYear": 2026,
+      "source": "IRC § 357(a), read at law.cornell.edu/uscode/text/26/357",
+      "verified": "2026-08-21"
     }
   }
 }
