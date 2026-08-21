@@ -12109,6 +12109,84 @@
       "taxYear": 2026,
       "source": "IRC § 6222(a) and (b), opened at law.cornell.edu/uscode/text/26/6222",
       "verified": "2026-08-21"
+    },
+    "m1.purpose": {
+      "value": "Schedule M-1 is the schedule for identifying potential tax issues arising from both temporary and permanent differences between financial and tax accounting",
+      "taxYear": 2026,
+      "source": "IRM 4.10.3.8.1, opened at irs.gov/irm/part4/irm_04-010-003",
+      "verified": "2026-08-21"
+    },
+    "m1.c_corp": {
+      "value": "for a C corporation, Schedule M-1 reconciles net income per the books to taxable income before the net operating loss deduction, the dividends received deduction and the other Schedule C special deductions",
+      "taxYear": 2026,
+      "source": "IRM 4.10.3.8.1, opened at irs.gov/irm/part4/irm_04-010-003",
+      "verified": "2026-08-21"
+    },
+    "m1.passthrough": {
+      "value": "for an S corporation or a partnership, Schedule M-1 reconciles net income per the books to the net income per Schedule K after taking every separately stated income and expense item into account — a different endpoint from the C corporation version",
+      "taxYear": 2026,
+      "source": "IRM 4.10.3.8.1, opened at irs.gov/irm/part4/irm_04-010-003",
+      "verified": "2026-08-21"
+    },
+    "m1.netting": {
+      "value": "the examiner is directed to check that large Schedule M-1 adjustments running in opposite directions were not netted against one another to produce an apparently immaterial figure not worth reviewing",
+      "taxYear": 2026,
+      "source": "IRM 4.10.3.8.1.1, opened at irs.gov/irm/part4/irm_04-010-003",
+      "verified": "2026-08-21"
+    },
+    "m1.year_comparison": {
+      "value": "current year Schedule M-1 adjustments are compared with the prior and subsequent years — a prior year adjustment absent this year, and a new adjustment appearing next year, each raise the question whether the year under examination is right",
+      "taxYear": 2026,
+      "source": "IRM 4.10.3.8.1.1, opened at irs.gov/irm/part4/irm_04-010-003",
+      "verified": "2026-08-21"
+    },
+    "m1.1065_exception": {
+      "value": "a partnership need not complete Schedules L, M-1 and M-2 if it answers Yes to Schedule B question 4, which requires all four of: total receipts under $250,000, total assets under $1,000,000 at year end, Schedules K-1 filed with the return and furnished to the partners by the due date including extensions, and the partnership not filing and not required to file Schedule M-3",
+      "taxYear": 2026,
+      "source": "Instructions for Form 1065, opened at irs.gov/instructions/i1065, Schedule B question 4 and Schedules L, M-1 and M-2",
+      "verified": "2026-08-21"
+    },
+    "m1.1065_receipts": {
+      "value": "for that test, total receipts means gross receipts or sales, all other income, the income items on Schedule K lines 3a, 5, 6a and 7, the income or net gain items on Schedule K lines 8, 9a, 10 and 11, and the income or net gain on Form 8825 lines 2, 21 and 22a",
+      "taxYear": 2026,
+      "source": "Instructions for Form 1065, opened at irs.gov/instructions/i1065, Schedule B question 4",
+      "verified": "2026-08-21"
+    },
+    "m3.corp_trigger": {
+      "value": "a corporation with total assets of $10 million or more on the last day of the tax year files Schedule M-3 in place of Schedule M-1 — a test of assets, not of receipts",
+      "taxYear": 2026,
+      "source": "Instructions for Form 1120, opened at irs.gov/instructions/i1120, Schedule L",
+      "verified": "2026-08-21"
+    },
+    "m3.partnership_trigger": {
+      "value": "a partnership files Schedule M-3 instead of Schedule M-1 if any of four apply: total assets on Schedule L line 14 column (d) of $10 million or more, adjusted total assets of $10 million or more, total receipts of $35 million or more, or a reportable entity partner owning or deemed to own 50 percent or more of capital, profit or loss on any day of the year",
+      "taxYear": 2026,
+      "source": "Instructions for Form 1065, opened at irs.gov/instructions/i1065, Item J",
+      "verified": "2026-08-21"
+    },
+    "m3.partial_relief": {
+      "value": "for tax years ending 31 December 2014 and later, a corporation or partnership with at least $10 million but under $50 million of total assets at year end may file Schedule M-1 in place of Schedule M-3 Parts II and III — Part I remaining required of everyone at $10 million or more",
+      "taxYear": 2026,
+      "source": "IRM 4.10.3.8, opened at irs.gov/irm/part4/irm_04-010-003",
+      "verified": "2026-08-21"
+    },
+    "m2.c_corp": {
+      "value": "Form 1120 Schedule M-2, Analysis of Unappropriated Retained Earnings per Books, reflects the changes in the retained earnings account per books during the year — and its line 2 should equal Schedule M-1 line 1 or Schedule M-3 line 11",
+      "taxYear": 2026,
+      "source": "IRM 4.10.3.8.2 and 4.10.3.8.2.1, opened at irs.gov/irm/part4/irm_04-010-003",
+      "verified": "2026-08-21"
+    },
+    "m2.s_corp": {
+      "value": "Form 1120-S Schedule M-2 carries four separate accounts — the accumulated adjustments account of post-1982 undistributed net income, shareholders’ undistributed taxable income previously taxed from pre-1983, accumulated earnings and profits from C corporation years or an acquired C corporation, and the other adjustments account for tax-exempt income and its related expenses",
+      "taxYear": 2026,
+      "source": "IRM 4.10.3.8.2, opened at irs.gov/irm/part4/irm_04-010-003",
+      "verified": "2026-08-21"
+    },
+    "m2.partnership": {
+      "value": "Form 1065 Schedule M-2, Analysis of Partners’ Capital Accounts, reflects the changes in the partners’ capital accounts during the year",
+      "taxYear": 2026,
+      "source": "IRM 4.10.3.8.2, opened at irs.gov/irm/part4/irm_04-010-003",
+      "verified": "2026-08-21"
     }
   }
 }
