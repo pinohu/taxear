@@ -10987,6 +10987,60 @@
       "taxYear": 2026,
       "source": "IRC § 162(f)(3), opened at law.cornell.edu/uscode/text/26/162",
       "verified": "2026-08-21"
+    },
+    "emp.employee_rates": {
+      "value": "6.2 percent of wages for old-age, survivors and disability insurance, and 1.45 percent for hospital insurance, imposed on the income of every individual as a tax on wages received with respect to employment",
+      "taxYear": 2026,
+      "source": "IRC § 3101(a) and (b)(1), opened at law.cornell.edu/uscode/text/26/3101",
+      "verified": "2026-08-21"
+    },
+    "emp.employer_rates": {
+      "value": "6.2 percent of wages for old-age, survivors and disability insurance, and 1.45 percent for hospital insurance, imposed on every employer as an excise tax with respect to having individuals in its employ",
+      "taxYear": 2026,
+      "source": "IRC § 3111(a) and (b), opened at law.cornell.edu/uscode/text/26/3111",
+      "verified": "2026-08-21"
+    },
+    "emp.additional_medicare": {
+      "value": "0.9 percent on wages above $250,000 on a joint return, half that for a married taxpayer filing separately, and $200,000 in any other case — imposed on the employee alone and not matched by the employer",
+      "taxYear": 2026,
+      "source": "IRC § 3101(b)(2), opened at law.cornell.edu/uscode/text/26/3101",
+      "verified": "2026-08-21"
+    },
+    "emp.futa_rate": {
+      "value": "6 percent of the total wages paid during the calendar year with respect to employment, imposed on every employer as an excise tax",
+      "taxYear": 2026,
+      "source": "IRC § 3301, opened at law.cornell.edu/uscode/text/26/3301",
+      "verified": "2026-08-21"
+    },
+    "emp.futa_wage_base": {
+      "value": "$7,000 — wages for this chapter exclude the part of an individual's remuneration paid by an employer during a calendar year after that much has already been paid to them by that employer in the year",
+      "taxYear": 2026,
+      "source": "IRC § 3306(b)(1), opened at law.cornell.edu/uscode/text/26/3306",
+      "verified": "2026-08-21"
+    },
+    "emp.futa_successor": {
+      "value": "where an employer acquires substantially all the property used in a trade or business of a predecessor and immediately employs an individual who worked for the predecessor, remuneration paid by the predecessor that year counts toward the successor's wage base for that individual",
+      "taxYear": 2026,
+      "source": "IRC § 3306(b)(1), second sentence, opened at law.cornell.edu/uscode/text/26/3306",
+      "verified": "2026-08-21"
+    },
+    "emp.futa_credit": {
+      "value": "a credit for contributions actually paid into a certified state unemployment fund, plus an additional credit bringing the total up to what would have been paid at the higher of the state's highest rate or 5.4 percent — with total credits capped at 90 percent of the tax",
+      "taxYear": 2026,
+      "source": "IRC § 3302(a), (b) and (c)(1), opened at law.cornell.edu/uscode/text/26/3302",
+      "verified": "2026-08-21"
+    },
+    "emp.futa_credit_reduction": {
+      "value": "where advances have been made to a state's unemployment account under title XII of the Social Security Act and remain outstanding, the credits otherwise allowable to employers in that state are reduced",
+      "taxYear": 2026,
+      "source": "IRC § 3302(c)(2), opened at law.cornell.edu/uscode/text/26/3302",
+      "verified": "2026-08-21"
+    },
+    "emp.trust_fund_penalty": {
+      "value": "a person required to collect, truthfully account for and pay over any tax who wilfully fails to do so, or wilfully attempts to evade or defeat it, is liable to a penalty equal to the total amount of the tax evaded, not collected, or not accounted for and paid over",
+      "taxYear": 2026,
+      "source": "IRC § 6672(a), opened at law.cornell.edu/uscode/text/26/6672",
+      "verified": "2026-08-21"
     }
   }
 }
