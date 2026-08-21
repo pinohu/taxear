@@ -11443,6 +11443,42 @@
       "taxYear": 2026,
       "source": "Amendment notes to IRC § 1031, opened at law.cornell.edu/uscode/text/26/1031",
       "verified": "2026-08-21"
+    },
+    "conv.depreciation_basis": {
+      "value": "where property not previously used in a trade or business or held for the production of income is converted to such use, the fair market value on the date of conversion, if less than the adjusted basis at that time, is the basis for computing depreciation",
+      "taxYear": 2026,
+      "source": "Reg. § 1.167(g)-1, opened at law.cornell.edu/cfr/text/26/1.167(g)-1",
+      "verified": "2026-08-21"
+    },
+    "conv.loss_basis": {
+      "value": "the basis for determining loss on a later sale is the lesser of the fair market value at the time of conversion or the adjusted basis for loss at that time, in each case adjusted for the period after the conversion",
+      "taxYear": 2026,
+      "source": "Reg. § 1.165-9(b)(2), opened at law.cornell.edu/cfr/text/26/1.165-9",
+      "verified": "2026-08-21"
+    },
+    "conv.loss_allowed": {
+      "value": "a loss on the sale of a former personal residence is allowed where the property was rented or otherwise appropriated to income-producing purposes before the sale and so used up to the time of sale",
+      "taxYear": 2026,
+      "source": "Reg. § 1.165-9(b)(1), opened at law.cornell.edu/cfr/text/26/1.165-9",
+      "verified": "2026-08-21"
+    },
+    "conv.casualty_basis": {
+      "value": "for a casualty loss on converted property, the fair market value on the date of conversion, if less than the adjusted basis at that time, is used as the basis for determining the amount of the loss",
+      "taxYear": 2026,
+      "source": "Reg. § 1.165-7(a)(5), opened at law.cornell.edu/cfr/text/26/1.165-7",
+      "verified": "2026-08-21"
+    },
+    "conv.to_business": {
+      "value": "on a conversion to business or income-producing use, depreciation for the year of change and later years is determined as though the property were placed in service on the date of the conversion, using the method, recovery period and convention IRC § 168 prescribes in that year",
+      "taxYear": 2026,
+      "source": "Reg. § 1.168(i)-4(b)(1), opened at law.cornell.edu/cfr/text/26/1.168(i)-4",
+      "verified": "2026-08-21"
+    },
+    "conv.to_personal": {
+      "value": "a conversion of MACRS property to personal use is treated as a disposition in that year for depreciation purposes, but no gain, loss or IRC § 1245 or § 1250 recapture is recognised on it — those provisions apply instead to any later disposition of the converted property",
+      "taxYear": 2026,
+      "source": "Reg. § 1.168(i)-4(c), opened at law.cornell.edu/cfr/text/26/1.168(i)-4",
+      "verified": "2026-08-21"
     }
   }
 }

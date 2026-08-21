@@ -16,7 +16,7 @@ authorities:
   - { type: IRC, ref: "§ 1011", title: "Adjusted basis for determining gain or loss", url: "https://www.law.cornell.edu/uscode/text/26/1011" }
   - { type: Reg, ref: "§ 1.165-7", title: "Casualty losses", url: "https://www.law.cornell.edu/cfr/text/26/1.165-7" }
 forms: []
-related: ["2.2.2.h", "2.2.2.c", "2.2.1.c", "2.2.2.d", "2.2.2.i", "2.2.3.b"]
+related: ["2.2.2.h", "2.2.2.c", "2.2.1.c", "2.2.2.d", "2.2.2.i", "2.2.3.b", "2.2.3.d"]
 changelog:
   - { date: "2026-08-21", summary: "Initial draft. Sets out the IRC § 165(a) deduction and the IRC § 165(c) limits on an individual, the Reg. § 1.165-7(b) measure of a casualty loss and the rule that business property is measured by each single identifiable item while a residence is not, the IRC § 165(e) year of a theft loss, and the IRC § 1033 deferral on an involuntary conversion with the wider like-kind test and three-year replacement period that IRC § 1033(g) gives to a condemnation of business real property." }
 ---
