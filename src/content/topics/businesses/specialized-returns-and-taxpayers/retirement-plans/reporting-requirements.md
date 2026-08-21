@@ -20,7 +20,7 @@ authorities:
   - { type: IRC, ref: "§ 1372", title: "Partnership rules to apply for fringe benefit purposes", url: "https://www.law.cornell.edu/uscode/text/26/1372" }
   - { type: Reg, ref: "§ 301.6058-2", title: "Electronic filing of returns filed under section 6058", url: "https://www.law.cornell.edu/cfr/text/26/301.6058-2" }
   - { type: Pub, ref: "Form 5500 corner", title: "IRS, Form 5500 corner", url: "https://www.irs.gov/retirement-plans/form-5500-corner" }
-forms: []
+forms: ["5500", "5500-SF", "5500-EZ", "5558", "8955-SSA"]
 related: ["2.3.3.a", "2.3.3.d", "2.3.3.e", "2.3.3.c", "2.3.3.f"]
 changelog:
   - { date: "2026-08-21", summary: "Initial draft. Sets out the IRC § 6058(a) annual return and which of Form 5500, Form 5500-SF and Form 5500-EZ applies, the one-participant plan definition, the last-day-of-the-seventh-month due date and the Form 5558 extension, the Treas. Reg. § 301.6058-2 ten-return electronic filing threshold with its IRC § 414(b)-(o) aggregation, the IRC § 6057(a) registration statement on Form 8955-SSA, and the IRC § 6652(d) and (e) penalties as increased by SECURE Act § 403 for filings due after 2019." }

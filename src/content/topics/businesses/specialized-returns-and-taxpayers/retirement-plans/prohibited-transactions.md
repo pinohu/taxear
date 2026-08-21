@@ -17,7 +17,7 @@ authorities:
   - { type: IRC, ref: "§ 6212", title: "Notice of deficiency", url: "https://www.law.cornell.edu/uscode/text/26/6212" }
   - { type: IRC, ref: "§ 72", title: "Annuities; certain proceeds of endowment and life insurance contracts", url: "https://www.law.cornell.edu/uscode/text/26/72" }
   - { type: IRC, ref: "§ 267", title: "Losses, expenses, and interest with respect to transactions between related taxpayers", url: "https://www.law.cornell.edu/uscode/text/26/267" }
-forms: []
+forms: ["5330"]
 related: ["2.3.3.b", "2.3.3.e", "2.3.3.a", "2.3.3.c", "1.2.2.f"]
 changelog:
   - { date: "2026-08-21", summary: "Initial draft. Sets out the six categories of prohibited transaction in IRC § 4975(c)(1), the disqualified person definition in IRC § 4975(e)(2) with the narrow family definition of IRC § 4975(e)(6) that omits siblings, the 15 percent initial and 100 percent additional taxes with joint and several liability, the amount involved and correction definitions, the statutory exemptions of IRC § 4975(d) and their withdrawal for owner-employees under IRC § 4975(f)(6), and the wholly different IRA consequence under IRC § 408(e)(2)." }
