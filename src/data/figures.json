@@ -7363,6 +7363,60 @@
       "taxYear": 2026,
       "source": "IRC § 6501(c)(9), read at law.cornell.edu/uscode/text/26/6501",
       "verified": "2026-08-21"
+    },
+    "intlfile.8938_due": {
+      "value": "attached to the annual income tax return and due on the date of that return, including any applicable extensions — it is not a standalone filing (IRC § 6038D(a); IRS Form 8938 and FBAR comparison)",
+      "taxYear": 2026,
+      "source": "IRC § 6038D(a), read at law.cornell.edu/uscode/text/26/6038D, and IRS, Comparison of Form 8938 and FBAR requirements, irs.gov/businesses/comparison-of-form-8938-and-fbar-requirements",
+      "verified": "2026-08-21"
+    },
+    "intlfile.fbar_due": {
+      "value": "received by 15 April following the calendar year reported, with an automatic 6-month extension to 15 October that need not be requested — filed electronically through FinCEN's BSA E-Filing System and never with a federal tax return",
+      "taxYear": 2026,
+      "source": "IRS, Report of Foreign Bank and Financial Accounts (FBAR), irs.gov, and IRS, Comparison of Form 8938 and FBAR requirements, irs.gov/businesses/comparison-of-form-8938-and-fbar-requirements",
+      "verified": "2026-08-21"
+    },
+    "intlfile.fbar_valuation": {
+      "value": "the maximum value of each account during the year, taken from periodic account statements in the currency of the account and converted at the end-of-calendar-year exchange rate — the maximum balance, not the closing balance",
+      "taxYear": 2026,
+      "source": "IRS, Comparison of Form 8938 and FBAR requirements, irs.gov/businesses/comparison-of-form-8938-and-fbar-requirements",
+      "verified": "2026-08-21"
+    },
+    "intlfile.8938_valuation": {
+      "value": "the maximum value of each specified foreign financial asset, at fair market value in United States dollars in accordance with the Form 8938 instructions, converted at the end-of-taxable-year exchange rate",
+      "taxYear": 2026,
+      "source": "IRS, Comparison of Form 8938 and FBAR requirements, irs.gov/businesses/comparison-of-form-8938-and-fbar-requirements",
+      "verified": "2026-08-21"
+    },
+    "intlfile.5471_timing": {
+      "value": "furnished for the annual accounting period of the foreign business entity ending with or within the United States person's taxable year, at the time and in the manner the Secretary prescribes — in practice with the income tax return (IRC § 6038(a)(2))",
+      "taxYear": 2026,
+      "source": "IRC § 6038(a), read at law.cornell.edu/uscode/text/26/6038",
+      "verified": "2026-08-21"
+    },
+    "intlfile.3520_event_notice": {
+      "value": "on or before the 90th day after a reportable event, or such later day as the Secretary prescribes — the creation of a foreign trust by a United States person, a transfer of money or property to one including by reason of death, and the death of a citizen or resident in the circumstances the section sets out (IRC § 6048(a))",
+      "taxYear": 2026,
+      "source": "IRC § 6048(a), read at law.cornell.edu/uscode/text/26/6048",
+      "verified": "2026-08-21"
+    },
+    "intlfile.3520a_owner_duty": {
+      "value": "a United States person treated as the owner of any portion of a foreign trust must submit the prescribed information and is responsible for ensuring the trust itself files a return with a full accounting of its activities, names its United States agent, and furnishes information to United States owners and beneficiaries (IRC § 6048(b))",
+      "taxYear": 2026,
+      "source": "IRC § 6048(b), read at law.cornell.edu/uscode/text/26/6048",
+      "verified": "2026-08-21"
+    },
+    "intlfile.foreign_gift_threshold": {
+      "value": "aggregate foreign gifts received by a United States person during the taxable year exceeding $10,000 — a foreign gift being any amount received from a non-United States person that the recipient treats as a gift or bequest, excluding a qualified transfer (IRC § 6039F(a), (b))",
+      "taxYear": 2026,
+      "source": "IRC § 6039F, read at law.cornell.edu/uscode/text/26/6039F",
+      "verified": "2026-08-21"
+    },
+    "intlfile.8938_statutory_floor": {
+      "value": "$50,000 of aggregate value is the figure IRC § 6038D(a) prints, subject to 'such higher dollar amount as the Secretary may prescribe' — the four threshold pairs that actually apply are regulatory, so the section alone understates the requirement for every filer but an unmarried one living in the United States",
+      "taxYear": 2026,
+      "source": "IRC § 6038D(a), read at law.cornell.edu/uscode/text/26/6038D, and IRS, Comparison of Form 8938 and FBAR requirements, irs.gov/businesses/comparison-of-form-8938-and-fbar-requirements",
+      "verified": "2026-08-21"
     }
   }
 }
