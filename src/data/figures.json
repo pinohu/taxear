@@ -13669,6 +13669,126 @@
       "taxYear": 2026,
       "source": "Rev. Proc. 2025-32 § 3.43(1), read at irs.gov/pub/irs-drop/rp-25-32.pdf",
       "verified": "2026-08-21"
+    },
+    "rc.deferral_limit": {
+      "value": "the IRC § 402(g)(1) limitation on the exclusion for elective deferrals, which includes deferrals to the Thrift Savings Plan, is $24,500 for 2026, up from $23,500 for 2025; the IRC § 457(e)(15) limit on deferrals under a governmental or tax-exempt deferred compensation plan is the same $24,500",
+      "taxYear": 2026,
+      "source": "Notice 2025-67, 2026 amounts relating to retirement plans and IRAs as adjusted for changes in cost-of-living, read at irs.gov/pub/irs-drop/n-25-67.pdf",
+      "verified": "2026-08-21"
+    },
+    "rc.deferral_statutory": {
+      "value": "IRC § 402(g)(1)(A) includes an individual’s elective deferrals in gross income to the extent they exceed the applicable dollar amount — except to the extent of the individual’s designated Roth contributions for the year — and the statutory applicable dollar amount at IRC § 402(g)(1)(B) is $15,000, indexed",
+      "taxYear": 2026,
+      "source": "IRC § 402(g), read at law.cornell.edu/uscode/text/26/402",
+      "verified": "2026-08-21"
+    },
+    "rc.excess_deferral": {
+      "value": "an individual with excess deferrals may allocate them among the plans by the following 1 March and each plan may distribute the allocated amount, with allocable income, by the following 15 April; the returned excess is not included in gross income again, but the income on it is treated as earned and received in the year of distribution (IRC § 402(g)(2))",
+      "taxYear": 2026,
+      "source": "IRC § 402(g)(2), read at law.cornell.edu/uscode/text/26/402",
+      "verified": "2026-08-21"
+    },
+    "rc.annual_addition": {
+      "value": "the IRC § 415(c)(1) limit on annual additions to a defined contribution account is the lesser of the dollar limit or 100 percent of the participant’s compensation, the annual addition being the sum of employer contributions, employee contributions and forfeitures, determined without regard to rollover contributions (IRC § 415(c)(1), (2))",
+      "taxYear": 2026,
+      "source": "IRC § 415(c), read at law.cornell.edu/uscode/text/26/415",
+      "verified": "2026-08-21"
+    },
+    "rc.415c_limit": {
+      "value": "the IRC § 415(c)(1)(A) dollar limitation for defined contribution plans is $72,000 for 2026, up from $70,000 for 2025; the statutory figure in the Code is $40,000, indexed",
+      "taxYear": 2026,
+      "source": "Notice 2025-67, 2026 amounts relating to retirement plans and IRAs as adjusted for changes in cost-of-living, read at irs.gov/pub/irs-drop/n-25-67.pdf",
+      "verified": "2026-08-21"
+    },
+    "rc.415b_limit": {
+      "value": "the IRC § 415(b)(1)(A) limitation on the annual benefit under a defined benefit plan is $290,000 for 2026, up from $280,000 for 2025",
+      "taxYear": 2026,
+      "source": "Notice 2025-67, 2026 amounts relating to retirement plans and IRAs as adjusted for changes in cost-of-living, read at irs.gov/pub/irs-drop/n-25-67.pdf",
+      "verified": "2026-08-21"
+    },
+    "rc.catchup": {
+      "value": "the IRC § 414(v)(2)(B)(i) catch-up limit for an applicable employer plan other than a SIMPLE arrangement, for individuals aged 50 or over, is $8,000 for 2026, up from $7,500; the IRC § 414(v)(2)(E)(i) higher catch-up for individuals who attain age 60, 61, 62 or 63 in 2026 remains $11,250",
+      "taxYear": 2026,
+      "source": "Notice 2025-67, 2026 amounts relating to retirement plans and IRAs as adjusted for changes in cost-of-living, read at irs.gov/pub/irs-drop/n-25-67.pdf",
+      "verified": "2026-08-21"
+    },
+    "rc.catchup_simple": {
+      "value": "the IRC § 414(v)(2)(B)(ii) catch-up limit for a SIMPLE 401(k) or SIMPLE IRA, for individuals aged 50 or over, is $4,000 for 2026, up from $3,500; the IRC § 414(v)(2)(E)(ii) age 60 to 63 catch-up for those plans remains $5,250 and the IRC § 414(v)(2)(B)(iii) limit for certain such accounts remains $3,850",
+      "taxYear": 2026,
+      "source": "Notice 2025-67, 2026 amounts relating to retirement plans and IRAs as adjusted for changes in cost-of-living, read at irs.gov/pub/irs-drop/n-25-67.pdf",
+      "verified": "2026-08-21"
+    },
+    "rc.catchup_cap": {
+      "value": "a catch-up contribution may not exceed the lesser of the applicable dollar amount or the excess of the participant’s IRC § 415(c)(3) compensation for the year over the participant’s other elective deferrals for the year (IRC § 414(v)(2)(A))",
+      "taxYear": 2026,
+      "source": "IRC § 414(v), read at law.cornell.edu/uscode/text/26/414",
+      "verified": "2026-08-21"
+    },
+    "rc.roth_catchup": {
+      "value": "where an eligible participant’s IRC § 3121(a) wages from the sponsoring employer for the preceding calendar year exceed the threshold, catch-up contributions are permitted only if designated as Roth contributions, and the plan must offer every eligible participant the Roth option; the threshold, indexed from the quarter beginning 1 July 2023 and rounded down to a multiple of $5,000, is $150,000 of 2025 wages for 2026 catch-ups, up from $145,000 (IRC § 414(v)(7))",
+      "taxYear": 2026,
+      "source": "Notice 2025-67, 2026 amounts relating to retirement plans and IRAs as adjusted for changes in cost-of-living, read at irs.gov/pub/irs-drop/n-25-67.pdf",
+      "verified": "2026-08-21"
+    },
+    "rc.comp_limit": {
+      "value": "the annual compensation limitation under IRC §§ 401(a)(17), 404(l), 408(k)(3)(C) and 408(k)(6)(D)(ii) is $360,000 for 2026, up from $350,000; for eligible participants in certain governmental plans grandfathered under the plan as in effect on 1 July 1993 it is $535,000, up from $520,000",
+      "taxYear": 2026,
+      "source": "Notice 2025-67, 2026 amounts relating to retirement plans and IRAs as adjusted for changes in cost-of-living, read at irs.gov/pub/irs-drop/n-25-67.pdf",
+      "verified": "2026-08-21"
+    },
+    "rc.hce": {
+      "value": "the threshold in the definition of highly compensated employee under IRC § 414(q)(1)(B) remains $160,000 for 2026, and the IRC § 416(i)(1)(A)(i) threshold for a key employee for top-heavy purposes is $235,000, up from $230,000",
+      "taxYear": 2026,
+      "source": "Notice 2025-67, 2026 amounts relating to retirement plans and IRAs as adjusted for changes in cost-of-living, read at irs.gov/pub/irs-drop/n-25-67.pdf",
+      "verified": "2026-08-21"
+    },
+    "rc.sep_threshold": {
+      "value": "the IRC § 408(k)(2)(C) compensation threshold for participation in a simplified employee pension is $800 for 2026, up from $750",
+      "taxYear": 2026,
+      "source": "Notice 2025-67, 2026 amounts relating to retirement plans and IRAs as adjusted for changes in cost-of-living, read at irs.gov/pub/irs-drop/n-25-67.pdf",
+      "verified": "2026-08-21"
+    },
+    "rc.simple_deferral": {
+      "value": "the IRC § 408(p)(2)(E)(i)(III) limit on salary reduction contributions to a SIMPLE IRA or elective contributions under a SIMPLE 401(k) is $17,000 for 2026, up from $16,500; the higher limit at IRC § 408(p)(2)(E)(i)(I) or (II) is $18,100, up from $17,600",
+      "taxYear": 2026,
+      "source": "Notice 2025-67, 2026 amounts relating to retirement plans and IRAs as adjusted for changes in cost-of-living, read at irs.gov/pub/irs-drop/n-25-67.pdf",
+      "verified": "2026-08-21"
+    },
+    "rc.ira_limit": {
+      "value": "the IRC § 219(b)(5)(A) deductible amount for an individual’s qualified retirement contributions is $7,500 for 2026, up from $7,000, and the IRC § 219(b)(5)(B)(ii) additional amount for individuals aged 50 or over before the close of the taxable year is $1,100, up from $1,000",
+      "taxYear": 2026,
+      "source": "Notice 2025-67, 2026 amounts relating to retirement plans and IRAs as adjusted for changes in cost-of-living, read at irs.gov/pub/irs-drop/n-25-67.pdf",
+      "verified": "2026-08-21"
+    },
+    "rc.employer_deduction": {
+      "value": "an employer’s deduction for contributions to a stock bonus or profit-sharing trust is limited to the greater of 25 percent of the compensation otherwise paid or accrued during the taxable year to the plan’s beneficiaries, or the amount the employer is required to contribute under IRC § 401(k)(11); an excess carries over and is deductible in later years subject to the same ceiling (IRC § 404(a)(3)(A))",
+      "taxYear": 2026,
+      "source": "IRC § 404(a)(3), read at law.cornell.edu/uscode/text/26/404",
+      "verified": "2026-08-21"
+    },
+    "rc.deduction_timing": {
+      "value": "a contribution is deemed made on the last day of the preceding taxable year if it is on account of that year and is made not later than the time prescribed by law for filing the return for that year, including extensions (IRC § 404(a)(6))",
+      "taxYear": 2026,
+      "source": "IRC § 404(a)(6), read at law.cornell.edu/uscode/text/26/404",
+      "verified": "2026-08-21"
+    },
+    "rc.4972": {
+      "value": "a 10 percent excise tax is imposed on the nondeductible contributions to a qualified employer plan, determined as of the close of the employer’s taxable year, and is paid by the employer that made them (IRC § 4972(a), (b))",
+      "taxYear": 2026,
+      "source": "IRC § 4972, read at law.cornell.edu/uscode/text/26/4972",
+      "verified": "2026-08-21"
+    },
+    "rc.selfemployed_comp": {
+      "value": "for a self-employed individual within the meaning of IRC § 401(c)(1), the participant’s compensation for the IRC § 415(c) limit is earned income within the meaning of IRC § 401(c)(2), determined without regard to any IRC § 911 exclusion (IRC § 415(c)(3)(B))",
+      "taxYear": 2026,
+      "source": "IRC § 415(c)(3), read at law.cornell.edu/uscode/text/26/415",
+      "verified": "2026-08-21"
+    },
+    "rc.esa": {
+      "value": "the IRC § 402A(e)(3)(A)(i) limit on a pension-linked emergency savings account that may be included in certain defined contribution plans is $2,600 for 2026, up from $2,500",
+      "taxYear": 2026,
+      "source": "Notice 2025-67, 2026 amounts relating to retirement plans and IRAs as adjusted for changes in cost-of-living, read at irs.gov/pub/irs-drop/n-25-67.pdf",
+      "verified": "2026-08-21"
     }
   }
 }
