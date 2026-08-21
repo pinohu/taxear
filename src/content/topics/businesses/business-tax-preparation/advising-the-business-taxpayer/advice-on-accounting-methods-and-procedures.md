@@ -22,7 +22,7 @@ authorities:
   - { type: Reg, ref: "§ 1.446-1", title: "General rule for methods of accounting", url: "https://www.law.cornell.edu/cfr/text/26/1.446-1" }
   - { type: Form, ref: "Form 3115", title: "Application for Change in Accounting Method", url: "https://www.irs.gov/forms-pubs/about-form-3115" }
 forms: []
-related: ["2.2.4.d", "2.2.5.a", "2.2.5.b", "2.2.5.l", "2.2.4.b"]
+related: ["2.2.4.d", "2.2.5.a", "2.2.5.b", "2.2.5.l", "2.2.4.b", "2.2.5.j"]
 changelog:
   - { date: "2026-08-21", summary: "Initial draft. The advisory counterpart to 2.2.4.d. Sets out the Reg. § 1.446-1(a)(2) clear reflection standard and the generally accepted accounting principles safe harbour with its consistency condition, the practical sequence for advising on a method change, the IRC § 481(b)(1) three-year allocation limit on tax where the adjustment is substantial, and what the automatic consent procedures buy that a self-help correction does not." }
 ---

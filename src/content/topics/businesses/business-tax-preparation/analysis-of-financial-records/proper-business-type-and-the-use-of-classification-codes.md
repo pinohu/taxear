@@ -23,7 +23,7 @@ authorities:
   - { type: Form, ref: "Form 8832", title: "Entity Classification Election", url: "https://www.irs.gov/forms-pubs/about-form-8832" }
   - { type: Form, ref: "Form 1120-S instructions", title: "Principal Business Activity Codes", url: "https://www.irs.gov/instructions/i1120s" }
 forms: []
-related: ["2.2.4.b", "2.2.4.c", "2.2.4.g", "2.1.1.a", "2.2.1.a", "2.2.4.d", "2.2.5.a", "2.2.5.e", "2.2.5.i"]
+related: ["2.2.4.b", "2.2.4.c", "2.2.4.g", "2.1.1.a", "2.2.1.a", "2.2.4.d", "2.2.5.a", "2.2.5.e", "2.2.5.i", "2.2.5.j"]
 changelog:
   - { date: "2026-08-21", summary: "Initial draft. Sets out the Reg. § 301.7701-2(b) per se corporation list and the Reg. § 301.7701-3(b) default classifications, the Form 8832 election with its 75-day and 12-month effective-date window and the 60-month limitation, the disregarded entity rule and its employment tax exception, the six-digit NAICS-based principal business activity code chosen by largest percentage of total receipts, and the IRM 4.10.4 horizontal and vertical ratio analyses with their 5 percent and 10 percent thresholds." }
 ---

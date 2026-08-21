@@ -12757,6 +12757,30 @@
       "taxYear": 2026,
       "source": "IRC § 708(b)(2)(A), opened at law.cornell.edu/uscode/text/26/708",
       "verified": "2026-08-21"
+    },
+    "ind.sstb_phase": {
+      "value": "a specified service trade or business does not simply fail once the threshold is passed — while taxable income is under the threshold plus the phase-in width, only the applicable percentage of its qualified items, W-2 wages and unadjusted basis is taken into account, the percentage falling from 100 to zero across that range",
+      "taxYear": 2026,
+      "source": "IRC § 199A(d)(3)(A) and (B), opened at law.cornell.edu/uscode/text/26/199A",
+      "verified": "2026-08-21"
+    },
+    "ind.qsbs_excluded": {
+      "value": "a qualified trade or business for the small business stock exclusion excludes services in health, law, engineering, architecture, accounting, actuarial science, performing arts, consulting, athletics, financial services and brokerage, any business whose principal asset is the reputation or skill of its employees, banking, insurance, financing, leasing and investing, farming, extraction of products eligible for depletion, and hotels, motels and restaurants",
+      "taxYear": 2026,
+      "source": "IRC § 1202(e)(3), opened at law.cornell.edu/uscode/text/26/1202",
+      "verified": "2026-08-21"
+    },
+    "ind.sstb_vs_qsbs": {
+      "value": "the section 199A list is the section 1202 list read *without* the words \"engineering, architecture\" and with \"employees or owners\" substituted for \"employees\", plus investing and investment management, trading and dealing in securities, partnership interests or commodities — so engineering and architecture are excluded from the small business stock exclusion but are not specified service trades for section 199A",
+      "taxYear": 2026,
+      "source": "IRC § 199A(d)(2) and § 1202(e)(3)(A), opened at law.cornell.edu/uscode/text/26/199A",
+      "verified": "2026-08-21"
+    },
+    "ind.construction_exception": {
+      "value": "the percentage of completion requirement does not apply to a residential construction contract, or to any other construction contract entered into by a taxpayer other than a prohibited tax shelter who estimates at the outset that it will be completed within 2 years and who meets the IRC § 448(c) gross receipts test for the year the contract is entered into",
+      "taxYear": 2026,
+      "source": "IRC § 460(e)(1), opened at law.cornell.edu/uscode/text/26/460",
+      "verified": "2026-08-21"
     }
   }
 }
