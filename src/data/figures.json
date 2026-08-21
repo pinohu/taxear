@@ -9379,6 +9379,90 @@
       "taxYear": 2026,
       "source": "IRC § 59(k)(1)(A), read at law.cornell.edu/uscode/text/26/59",
       "verified": "2026-08-21"
+    },
+    "s351.nonrecognition": {
+      "value": "no gain or loss is recognised if property is transferred to a corporation by one or more persons solely in exchange for stock in that corporation and immediately after the exchange those persons are in control of it (IRC § 351(a))",
+      "taxYear": 2026,
+      "source": "IRC § 351(a), read at law.cornell.edu/uscode/text/26/351",
+      "verified": "2026-08-21"
+    },
+    "s351.control": {
+      "value": "80 percent — control means the ownership of stock possessing at least that percentage of the total combined voting power of all classes of stock entitled to vote and at least that percentage of the total number of shares of all other classes of stock of the corporation (IRC § 368(c))",
+      "taxYear": 2026,
+      "source": "IRC § 368(c), read at law.cornell.edu/uscode/text/26/368",
+      "verified": "2026-08-21"
+    },
+    "s351.boot": {
+      "value": "where the exchange would qualify but for the receipt of money or other property in addition to stock, gain is recognised but not in excess of the money received plus the fair market value of the other property received, and no loss is recognised (IRC § 351(b))",
+      "taxYear": 2026,
+      "source": "IRC § 351(b), read at law.cornell.edu/uscode/text/26/351",
+      "verified": "2026-08-21"
+    },
+    "s351.services": {
+      "value": "stock issued for services, for indebtedness of the transferee corporation not evidenced by a security, or for interest on such indebtedness accruing on or after the beginning of the transferor's holding period, is not considered issued in return for property — so a service provider's shares do not count toward the control test and the service provider has compensation income (IRC § 351(d))",
+      "taxYear": 2026,
+      "source": "IRC § 351(d), read at law.cornell.edu/uscode/text/26/351",
+      "verified": "2026-08-21"
+    },
+    "s351.transferor_basis": {
+      "value": "the basis of the stock received is the same as the basis of the property exchanged, decreased by the fair market value of any other property received, by any money received and by any loss recognised, and increased by any amount treated as a dividend and by any gain recognised on the exchange (IRC § 358(a)(1))",
+      "taxYear": 2026,
+      "source": "IRC § 358(a)(1), read at law.cornell.edu/uscode/text/26/358",
+      "verified": "2026-08-21"
+    },
+    "s351.corporate_basis": {
+      "value": "where property is acquired by a corporation in a transaction to which IRC § 351 applies, or as paid-in surplus or a contribution to capital, its basis is the same as it would be in the hands of the transferor, increased by the gain recognised to the transferor on the transfer (IRC § 362(a))",
+      "taxYear": 2026,
+      "source": "IRC § 362(a), read at law.cornell.edu/uscode/text/26/362",
+      "verified": "2026-08-21"
+    },
+    "s351.built_in_loss": {
+      "value": "where the transferee's aggregate adjusted bases in property transferred in an IRC § 351 transaction would exceed the fair market value of that property immediately after the transaction, the aggregate bases are capped at that fair market value, the reduction being allocated among the properties in proportion to their built-in losses (IRC § 362(e)(2))",
+      "taxYear": 2026,
+      "source": "IRC § 362(e)(2), read at law.cornell.edu/uscode/text/26/362",
+      "verified": "2026-08-21"
+    },
+    "s351.liabilities": {
+      "value": "the assumption of a liability of the taxpayer by another party to the exchange is not treated as money or other property and does not prevent the exchange being within IRC § 351, except as IRC § 357(b) and (c) provide (IRC § 357(a))",
+      "taxYear": 2026,
+      "source": "IRC § 357(a), read at law.cornell.edu/uscode/text/26/357",
+      "verified": "2026-08-21"
+    },
+    "s351.tax_avoidance": {
+      "value": "where, considering the nature of the liability and the circumstances of the arrangement, the taxpayer's principal purpose in the assumption was to avoid federal income tax on the exchange or was not a bona fide business purpose, the whole of the liabilities assumed is treated as money received on the exchange (IRC § 357(b))",
+      "taxYear": 2026,
+      "source": "IRC § 357(b), read at law.cornell.edu/uscode/text/26/357",
+      "verified": "2026-08-21"
+    },
+    "cgroup.parent_subsidiary": {
+      "value": "a parent-subsidiary controlled group is one or more chains of corporations connected through stock ownership with a common parent where stock possessing at least 80 percent of the total combined voting power of all voting classes, or at least 80 percent of the total value of all classes, of each corporation other than the common parent is owned by one or more of the others, and the common parent owns that much of at least one of them (IRC § 1563(a)(1))",
+      "taxYear": 2026,
+      "source": "IRC § 1563(a)(1), read at law.cornell.edu/uscode/text/26/1563",
+      "verified": "2026-08-21"
+    },
+    "cgroup.brother_sister": {
+      "value": "a brother-sister controlled group is two or more corporations where 5 or fewer persons who are individuals, estates or trusts own stock possessing more than 50 percent of the total combined voting power of all voting classes, or more than 50 percent of the total value of all classes, of each corporation — counting each person's ownership only to the extent it is identical with respect to each corporation (IRC § 1563(a)(2))",
+      "taxYear": 2026,
+      "source": "IRC § 1563(a)(2), read at law.cornell.edu/uscode/text/26/1563",
+      "verified": "2026-08-21"
+    },
+    "cgroup.excluded": {
+      "value": "a corporation is an excluded member for a taxable year if it was a member for less than half the days of the year preceding 31 December, is exempt under IRC § 501(a) other than one taxed on unrelated business income, is a foreign corporation subject to tax under IRC § 881, is an insurance company taxed under IRC § 801 outside a § 1563(a)(4) group, or is a franchised corporation (IRC § 1563(b)(2))",
+      "taxYear": 2026,
+      "source": "IRC § 1563(b)(2), read at law.cornell.edu/uscode/text/26/1563",
+      "verified": "2026-08-21"
+    },
+    "closely.definition": {
+      "value": "a closely held C corporation for the at-risk and passive activity rules is a C corporation meeting the stock ownership requirement of IRC § 542(a)(2) — that at any time during the last half of the taxable year more than 50 percent in value of its outstanding stock is owned, directly or indirectly, by or for not more than 5 individuals (IRC § 465(a)(1)(B), § 469(j)(1), § 542(a)(2))",
+      "taxYear": 2026,
+      "source": "IRC § 465(a)(1)(B) and § 469(j)(1), read at law.cornell.edu/uscode/text/26/465 and /469; IRC § 542(a)(2), read at /542",
+      "verified": "2026-08-21"
+    },
+    "closely.psc": {
+      "value": "a personal service corporation for the passive activity rules takes its meaning from IRC § 269A(b)(1) with the § 269A(b)(2) tests applied by substituting \"any\" for \"more than 10 percent\" and for \"50 percent or more in value\" in IRC § 318(a)(2)(C), and a corporation is not treated as one unless more than 10 percent of its stock by value is held by employee-owners (IRC § 469(j)(2))",
+      "taxYear": 2026,
+      "source": "IRC § 469(j)(2), read at law.cornell.edu/uscode/text/26/469",
+      "verified": "2026-08-21"
     }
   }
 }
