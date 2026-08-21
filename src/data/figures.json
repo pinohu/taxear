@@ -12967,6 +12967,54 @@
       "taxYear": 2026,
       "source": "IRC § 677(a), opened at law.cornell.edu/uscode/text/26/677",
       "verified": "2026-08-21"
+    },
+    "dni.definition": {
+      "value": "distributable net income is the taxable income of the estate or trust with modifications — no distribution deduction, no personal exemption, capital gains allocated to corpus excluded, tax-exempt interest added back net of allocable expenses, and the IRC § 1202 exclusion disregarded",
+      "taxYear": 2026,
+      "source": "IRC § 643(a), opened at law.cornell.edu/uscode/text/26/643",
+      "verified": "2026-08-21"
+    },
+    "dni.capital_gains": {
+      "value": "gains from the sale or exchange of capital assets are excluded to the extent allocated to corpus and neither paid, credited nor required to be distributed to a beneficiary during the year, nor set aside for charitable purposes — so capital gain normally stays with the trust and is taxed to it",
+      "taxYear": 2026,
+      "source": "IRC § 643(a)(3), opened at law.cornell.edu/uscode/text/26/643",
+      "verified": "2026-08-21"
+    },
+    "dni.tax_exempt": {
+      "value": "tax-exempt interest is included in distributable net income, reduced by the disallowed expenses allocable to it — so the ceiling on the distribution deduction reflects economic income, while the deduction itself is then reduced for the exempt portion",
+      "taxYear": 2026,
+      "source": "IRC § 643(a)(5), opened at law.cornell.edu/uscode/text/26/643",
+      "verified": "2026-08-21"
+    },
+    "fai.definition": {
+      "value": "income, where not preceded by \"taxable\", \"distributable net\", \"undistributed net\" or \"gross\", means the amount of income of the estate or trust for the year determined under the terms of the governing instrument and applicable local law",
+      "taxYear": 2026,
+      "source": "IRC § 643(b), opened at law.cornell.edu/uscode/text/26/643",
+      "verified": "2026-08-21"
+    },
+    "fai.extraordinary": {
+      "value": "items of gross income constituting extraordinary dividends or taxable stock dividends that the fiduciary, acting in good faith, determines to be allocable to corpus under the instrument and local law are not income for this purpose",
+      "taxYear": 2026,
+      "source": "IRC § 643(b), opened at law.cornell.edu/uscode/text/26/643",
+      "verified": "2026-08-21"
+    },
+    "dni.simple_cap": {
+      "value": "where the income required to be distributed currently exceeds distributable net income, the IRC § 651 deduction is limited to distributable net income — computed for this purpose without items excluded from the trust’s gross income and the deductions allocable to them",
+      "taxYear": 2026,
+      "source": "IRC § 651(b), opened at law.cornell.edu/uscode/text/26/651",
+      "verified": "2026-08-21"
+    },
+    "dni.complex_deduction": {
+      "value": "a complex trust or estate deducts the income required to be distributed currently plus any other amounts properly paid, credited or required to be distributed for the year — but not more than distributable net income",
+      "taxYear": 2026,
+      "source": "IRC § 661(a), opened at law.cornell.edu/uscode/text/26/661",
+      "verified": "2026-08-21"
+    },
+    "dni.character": {
+      "value": "the amount distributed is treated as consisting of the same proportion of each class of item entering into distributable net income as that class bears to the total — so character flows through pro rata unless the instrument or local law specifically allocates otherwise",
+      "taxYear": 2026,
+      "source": "IRC § 661(b), opened at law.cornell.edu/uscode/text/26/661",
+      "verified": "2026-08-21"
     }
   }
 }

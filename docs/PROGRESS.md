@@ -10,9 +10,9 @@ is indexed, and only the owner moves a page there (see `docs/VERIFICATION.md`).
 | Part | Topics | Stub | Draft | Review | Published | Words |
 |---|---:|---:|---:|---:|---:|---:|
 | 1. Individuals | 120 | 0 | 0 | 110 | 10 | 256,550 |
-| 2. Businesses | 119 | 27 | 0 | 92 | 0 | 216,239 |
+| 2. Businesses | 119 | 26 | 0 | 93 | 0 | 218,446 |
 | 3. Representation, Practices and Procedures | 121 | 0 | 0 | 0 | 121 | 257,674 |
-| **All parts** | **360** | **27** | **0** | **202** | **131** | **730,463** |
+| **All parts** | **360** | **26** | **0** | **203** | **131** | **732,670** |
 
 ## Part 1 — Individuals
 
@@ -362,7 +362,7 @@ is indexed, and only the owner moves a page there (see `docs/VERIFICATION.md`).
 | Code | Title | Status | Words | Last reviewed |
 |---|---|---|---:|---|
 | 2.3.1.a | [Trust types (e.g., simple/complex, grantor, irrevocable, tax shelters, foreign)](/businesses/specialized-returns-and-taxpayers/trust-and-estate-income-tax/trust-types/) | review | 2,374 | 2026-08-21 |
-| 2.3.1.b | [Distributable net income and accounting income](/businesses/specialized-returns-and-taxpayers/trust-and-estate-income-tax/distributable-net-income-and-accounting-income/) | stub | — | — |
+| 2.3.1.b | [Distributable net income and accounting income](/businesses/specialized-returns-and-taxpayers/trust-and-estate-income-tax/distributable-net-income-and-accounting-income/) | review | 2,207 | 2026-08-21 |
 | 2.3.1.c | [Exclusions, exemptions, and deductions](/businesses/specialized-returns-and-taxpayers/trust-and-estate-income-tax/exclusions-exemptions-and-deductions/) | stub | — | — |
 | 2.3.1.d | [Fraudulent trusts](/businesses/specialized-returns-and-taxpayers/trust-and-estate-income-tax/fraudulent-trusts/) | stub | — | — |
 | 2.3.1.e | [Income (e.g., allocations, corpus versus income)](/businesses/specialized-returns-and-taxpayers/trust-and-estate-income-tax/income/) | stub | — | — |
