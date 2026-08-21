@@ -145,6 +145,7 @@ test('subchapter S outranks the general business rules that follow it', () => {
   // shareholder fringe benefit needs its own rule above them or the generic rule wins.
   assert.equal(classify(q(2, "A shareholder's basis in an S corporation is adjusted first by which of these? Consider depreciation and amortization.")), '2.1.5.e');
   assert.equal(classify(q(2, 'Which of these is an automatic termination of an S election when gross receipts are considered?')), '2.1.5.f');
+  assert.equal(classify(q(2, 'A shareholder of an S corporation receives a distribution that exceeds the existing basis. How is it reported?')), '2.1.5.e');
   assert.equal(classify(q(2, 'A shareholder of an S corporation had health insurance premiums paid by the corporation. How is that treated?')), '2.1.5.c');
 });
 

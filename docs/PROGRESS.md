@@ -10,9 +10,9 @@ is indexed, and only the owner moves a page there (see `docs/VERIFICATION.md`).
 | Part | Topics | Stub | Draft | Review | Published | Words |
 |---|---:|---:|---:|---:|---:|---:|
 | 1. Individuals | 120 | 0 | 0 | 110 | 10 | 256,550 |
-| 2. Businesses | 119 | 78 | 0 | 41 | 0 | 95,049 |
+| 2. Businesses | 119 | 77 | 0 | 42 | 0 | 97,424 |
 | 3. Representation, Practices and Procedures | 121 | 0 | 0 | 0 | 121 | 257,674 |
-| **All parts** | **360** | **78** | **0** | **151** | **131** | **609,273** |
+| **All parts** | **360** | **77** | **0** | **152** | **131** | **611,648** |
 
 ## Part 1 — Individuals
 
@@ -277,7 +277,7 @@ is indexed, and only the owner moves a page there (see `docs/VERIFICATION.md`).
 | 2.1.5.b | [Election procedure](/businesses/business-entities/s-corporations/election-procedure/) | review | 2,199 | 2026-08-21 |
 | 2.1.5.c | [Income, expenses and separately stated items](/businesses/business-entities/s-corporations/income-expenses-and-separately-stated-items/) | review | 2,491 | 2026-08-21 |
 | 2.1.5.d | [Treatment of distributions](/businesses/business-entities/s-corporations/treatment-of-distributions/) | review | 2,446 | 2026-08-21 |
-| 2.1.5.e | [Shareholder’s basis (e.g., loan basis, distributions and losses in excess of basis, services for stock)](/businesses/business-entities/s-corporations/shareholder-s-basis/) | stub | — | — |
+| 2.1.5.e | [Shareholder’s basis (e.g., loan basis, distributions and losses in excess of basis, services for stock)](/businesses/business-entities/s-corporations/shareholder-s-basis/) | review | 2,375 | 2026-08-21 |
 | 2.1.5.f | [Revocation, termination and reinstatement](/businesses/business-entities/s-corporations/revocation-termination-and-reinstatement/) | stub | — | — |
 | 2.1.5.g | [Debt discharge](/businesses/business-entities/s-corporations/debt-discharge/) | stub | — | — |
 | 2.1.5.h | [Non-cash distributions](/businesses/business-entities/s-corporations/non-cash-distributions/) | stub | — | — |

@@ -22,7 +22,7 @@ authorities:
   - { type: IRC, ref: "§ 754", title: "Manner of electing optional adjustment to basis of partnership property", url: "https://www.law.cornell.edu/uscode/text/26/754" }
   - { type: IRC, ref: "§ 1012", title: "Basis of property — cost", url: "https://www.law.cornell.edu/uscode/text/26/1012" }
 forms: []
-related: ["2.1.2.a", "2.1.2.d", "2.1.2.f", "2.1.2.c", "2.1.2.h", "2.1.2.j"]
+related: ["2.1.2.a", "2.1.2.d", "2.1.2.f", "2.1.2.c", "2.1.2.h", "2.1.2.j", "2.1.5.e"]
 changelog:
   - { date: "2026-08-21", summary: "Initial draft. Sets out the three starting points for outside basis — IRC § 722 on contribution, IRC § 742 with IRC § 1012 on acquisition otherwise, and the § 705(b) alternative rule — the § 705(a) running adjustments including tax-exempt income and non-deductible expenditures, the § 733 reduction for current distributions, the § 752 treatment of liabilities as contributions and distributions, the zero floor and its consequences under § 731(a)(1), and the § 704(d) loss ceiling with its carryover. Records that IRC § 723 gives the partnership a transferred basis equal to the contributor's adjusted basis, not fair market value." }
 ---

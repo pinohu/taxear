@@ -382,7 +382,7 @@ const RULES = [
   // shareholder's stock basis, an S election terminating, or a fringe benefit paid to a
   // shareholder-employee is a subchapter S question first and a basis, termination or
   // compensation question second; without this block the generic rules below claim it.
-  ['2.1.5.e', /\bshareholder'?s? basis\b|\bstock basis\b|\bloan basis\b|basis (?:in|of) (?:the |his |her |their )?s corporation|distribution\w*[\s\S]{0,40}in excess of[\s\S]{0,30}basis/i],
+  ['2.1.5.e', /\bshareholder'?s? basis\b|\bstock basis\b|\bloan basis\b|basis (?:in|of) (?:the |his |her |their )?s corporation|distribution\w*[\s\S]{0,60}(?:in excess of|exceed\w*)[\s\S]{0,30}basis/i],
   ['2.1.5.f', /(?:revocation|revok\w*|terminat\w*)[\s\S]{0,30}\bs election\b|\bs election\b[\s\S]{0,30}(?:revok|terminat)/i],
   // A fringe-benefit question that mentions a C corporation at all is a comparison drawn
   // from the C corporation's side and belongs with business compensation; only a question

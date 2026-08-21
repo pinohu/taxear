@@ -14,7 +14,7 @@ authorities:
   - { type: IRC, ref: "§ 1362", title: "Election; revocation; termination", url: "https://www.law.cornell.edu/uscode/text/26/1362" }
   - { type: IRC, ref: "§ 1504(a)(4)", title: "Stock not taken into account", url: "https://www.law.cornell.edu/uscode/text/26/1504" }
 forms: []
-related: ["2.1.5.b", "2.1.5.f", "2.1.1.d", "2.1.5.c"]
+related: ["2.1.5.b", "2.1.5.f", "2.1.1.d", "2.1.5.c", "2.1.5.e"]
 changelog:
   - { date: "2026-08-21", summary: "Initial draft. Sets out the five conditions in IRC § 1361(b)(1) — domestic corporation, not an ineligible corporation, no more than 100 shareholders, only permitted shareholders, one class of stock — with the § 1361(c)(1) family aggregation rule, the § 1361(c)(2)(A) list of eligible trusts, and the § 1361(c)(4) rule that differences in voting rights alone do not create a second class." }
 ---

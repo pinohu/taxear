@@ -9865,6 +9865,102 @@
       "taxYear": 2026,
       "source": "IRC § 1371(c), opened at law.cornell.edu/uscode/text/26/1371",
       "verified": "2026-08-21"
+    },
+    "basis.sc_order": {
+      "value": "for a taxable year beginning on or after 18 August 1998: first the increases for income items and excess depletion; then the decrease for distributions; then the decrease for non-capital, non-deductible expenses and oil and gas depletion; and last the decrease for items of loss and deduction",
+      "taxYear": 2026,
+      "source": "Reg. § 1.1367-1(f), opened at law.cornell.edu/cfr/text/26/1.1367-1",
+      "verified": "2026-08-21"
+    },
+    "basis.sc_elective_order": {
+      "value": "a shareholder may elect to take losses and deductions before non-capital, non-deductible expenses, in which case any of those expenses exceeding the shareholder's basis in stock and indebtedness carries to the succeeding year; the election is made by a statement attached to a timely filed original or amended return and binds the shareholder for that corporation in future years without the Commissioner's permission to change",
+      "taxYear": 2026,
+      "source": "Reg. § 1.1367-1(g), opened at law.cornell.edu/cfr/text/26/1.1367-1",
+      "verified": "2026-08-21"
+    },
+    "basis.sc_floor": {
+      "value": "basis is decreased, but not below zero, by distributions not includible in income by reason of IRC § 1368, items of loss and deduction, non-separately computed loss, non-deductible expenses not chargeable to capital account, and the oil and gas depletion deduction",
+      "taxYear": 2026,
+      "source": "IRC § 1367(a)(2), opened at law.cornell.edu/uscode/text/26/1367",
+      "verified": "2026-08-21"
+    },
+    "basis.sc_charity": {
+      "value": "the decrease for a charitable contribution of property is the shareholder's pro rata share of the adjusted basis of the property, not its fair market value",
+      "taxYear": 2026,
+      "source": "IRC § 1367(a)(2), flush text, opened at law.cornell.edu/uscode/text/26/1367",
+      "verified": "2026-08-21"
+    },
+    "basis.sc_debt_reduction": {
+      "value": "where the loss, deduction, non-deductible expense and depletion items exceed the amount that reduces stock basis to zero, the excess reduces, but not below zero, the shareholder's basis in any indebtedness of the corporation to the shareholder held at the close of the year",
+      "taxYear": 2026,
+      "source": "IRC § 1367(b)(2)(A) and Reg. § 1.1367-2(b)(1), opened at law.cornell.edu/uscode/text/26/1367 and /cfr/text/26/1.1367-2",
+      "verified": "2026-08-21"
+    },
+    "basis.sc_debt_restore": {
+      "value": "a net increase in a subsequent year restores the reduction in the basis of the indebtedness before any of it may increase stock basis, and never above the adjusted basis of the indebtedness at the beginning of the year in which the net increase arises",
+      "taxYear": 2026,
+      "source": "IRC § 1367(b)(2)(B) and Reg. § 1.1367-2(c)(1), opened at law.cornell.edu/uscode/text/26/1367 and /cfr/text/26/1.1367-2",
+      "verified": "2026-08-21"
+    },
+    "basis.sc_bona_fide": {
+      "value": "the shareholder's adjusted basis in any bona fide indebtedness of the S corporation that runs directly to the shareholder, determined under general federal tax principles on all the facts and circumstances",
+      "taxYear": 2026,
+      "source": "Reg. § 1.1366-2(a)(2)(i), opened at law.cornell.edu/cfr/text/26/1.1366-2",
+      "verified": "2026-08-21"
+    },
+    "basis.sc_guarantee": {
+      "value": "a shareholder does not obtain basis of indebtedness merely by guaranteeing a loan or acting as surety, accommodation party or in any similar capacity; basis arises only to the extent the shareholder actually makes a payment on that indebtedness",
+      "taxYear": 2026,
+      "source": "Reg. § 1.1366-2(a)(2)(ii), opened at law.cornell.edu/cfr/text/26/1.1366-2",
+      "verified": "2026-08-21"
+    },
+    "basis.sc_open_account": {
+      "value": "$25,000 — shareholder advances not evidenced by a separate written instrument, and repayments on them, are open account debt treated as a single indebtedness so long as the aggregate outstanding principal does not exceed $25,000 at the close of the corporation's taxable year; above that, the balance is treated thereafter as debt evidenced by a written instrument",
+      "taxYear": 2026,
+      "source": "Reg. § 1.1367-2(a)(2), opened at law.cornell.edu/cfr/text/26/1.1367-2",
+      "verified": "2026-08-21"
+    },
+    "basis.sc_loss_limit": {
+      "value": "the aggregate losses and deductions taken into account for any taxable year cannot exceed the sum of the adjusted basis of the shareholder's stock and the adjusted basis of any indebtedness of the corporation to the shareholder",
+      "taxYear": 2026,
+      "source": "IRC § 1366(d)(1) and Reg. § 1.1366-2(a)(1), opened at law.cornell.edu/uscode/text/26/1366 and /cfr/text/26/1.1366-2",
+      "verified": "2026-08-21"
+    },
+    "basis.sc_carryover": {
+      "value": "a loss or deduction disallowed for want of basis is treated as incurred by the corporation in the succeeding taxable year with respect to that shareholder, indefinitely, and on a transfer of the stock between spouses or incident to divorce it moves to the transferee",
+      "taxYear": 2026,
+      "source": "IRC § 1366(d)(2), opened at law.cornell.edu/uscode/text/26/1366",
+      "verified": "2026-08-21"
+    },
+    "basis.sc_ptt_carryover": {
+      "value": "a loss disallowed in the corporation's last S year is treated as incurred by the shareholder on the last day of any post-termination transition period, limited to the adjusted basis of the stock at the close of that day and reducing that basis by the amount allowed",
+      "taxYear": 2026,
+      "source": "IRC § 1366(d)(3), opened at law.cornell.edu/uscode/text/26/1366",
+      "verified": "2026-08-21"
+    },
+    "basis.sc_charity_excess": {
+      "value": "where the charitable contribution basis rule applies, the loss limitation does not apply to the excess of the shareholder's pro rata share of the contribution over their pro rata share of the adjusted basis of the property",
+      "taxYear": 2026,
+      "source": "IRC § 1366(d)(4), opened at law.cornell.edu/uscode/text/26/1366",
+      "verified": "2026-08-21"
+    },
+    "basis.sc_income_shown": {
+      "value": "an amount required to be included in a shareholder's gross income increases stock basis only to the extent it is included on the return, as increased or decreased by any adjustment on a redetermination of the shareholder's tax liability",
+      "taxYear": 2026,
+      "source": "IRC § 1367(b)(1), opened at law.cornell.edu/uscode/text/26/1367",
+      "verified": "2026-08-21"
+    },
+    "basis.sc_inherited": {
+      "value": "basis determined under IRC § 1014 for S corporation stock is reduced by the portion of the value of the stock attributable to items constituting income in respect of a decedent, and IRC § 691 applies to the corporation's items as if the decedent had held their pro rata share directly",
+      "taxYear": 2026,
+      "source": "IRC § 1367(a)(4), opened at law.cornell.edu/uscode/text/26/1367; IRC § 1014(a) opened at /1014",
+      "verified": "2026-08-21"
+    },
+    "basis.sc_services": {
+      "value": "stock issued for services is included in the service provider's gross income under IRC § 83(a) at its fair market value less any amount paid, and that included amount is the shareholder's starting basis in the stock",
+      "taxYear": 2026,
+      "source": "IRC § 83(a), opened at law.cornell.edu/uscode/text/26/83",
+      "verified": "2026-08-21"
     }
   }
 }
