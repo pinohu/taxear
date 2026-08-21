@@ -20,7 +20,7 @@ authorities:
   - { type: IRC, ref: "§ 1221", title: "Capital asset defined", url: "https://www.law.cornell.edu/uscode/text/26/1221" }
   - { type: IRM, ref: "4.10.3.10.4", title: "Balance sheet examination techniques — accounts receivable", url: "https://www.irs.gov/irm/part4/irm_04-010-003" }
 forms: []
-related: ["2.2.4.c", "2.2.4.i", "2.2.3.c", "2.2.4.b", "2.2.4.f"]
+related: ["2.2.4.c", "2.2.4.i", "2.2.3.c", "2.2.4.b", "2.2.4.f", "2.2.5.d"]
 changelog:
   - { date: "2026-08-21", summary: "Initial draft. Sets out the IRC § 267(a)(1) loss disallowance and the § 267(a)(2) matching rule for accrued expenses, the § 267(b) relationships with the § 267(c) attribution rules and the narrow § 267(c)(4) family definition, the § 267(d) transferee relief that makes a disallowed loss useless to the seller, the parallel partnership rules in § 707(b), the § 1239 conversion of gain to ordinary income on sales of depreciable property, the § 1031(f) two-year rule on related-party exchanges, and § 7872 on below-market loans." }
 ---

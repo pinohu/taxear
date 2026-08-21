@@ -22,7 +22,7 @@ authorities:
   - { type: Reg, ref: "§ 1.1367-2", title: "Adjustments to basis of indebtedness to shareholder", url: "https://www.law.cornell.edu/cfr/text/26/1.1367-2" }
   - { type: IRM, ref: "4.10.3.10.4", title: "Balance sheet examination techniques — accounts receivable", url: "https://www.irs.gov/irm/part4/irm_04-010-003" }
 forms: []
-related: ["2.2.4.h", "2.2.4.c", "2.2.4.f", "2.1.5.e", "2.2.4.b"]
+related: ["2.2.4.h", "2.2.4.c", "2.2.4.f", "2.1.5.e", "2.2.4.b", "2.2.5.d"]
 changelog:
   - { date: "2026-08-21", summary: "Initial draft. Sets out the IRC § 7872 treatment of below-market gift, compensation-related and corporation-shareholder loans with the two $10,000 de minimis exceptions and the $100,000 net investment income cap on gift loans, the IRC § 1367(b)(2) reduction and restoration of an S corporation shareholder's debt basis with the Reg. § 1.1367-2 open account debt rule, and the IRM 4.10.3.10.4 examination technique for related party balances in receivables." }
 ---

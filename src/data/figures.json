@@ -12505,6 +12505,54 @@
       "taxYear": 2026,
       "source": "Reg. § 1.274-5T(b)(2), opened at law.cornell.edu/cfr/text/26/1.274-5T",
       "verified": "2026-08-21"
+    },
+    "rpt.482": {
+      "value": "where two or more organizations, trades or businesses are owned or controlled directly or indirectly by the same interests, the Secretary may distribute, apportion or allocate gross income, deductions, credits or allowances among them if that is necessary to prevent evasion of taxes or clearly to reflect income",
+      "taxYear": 2026,
+      "source": "IRC § 482, opened at law.cornell.edu/uscode/text/26/482",
+      "verified": "2026-08-21"
+    },
+    "rpt.arms_length": {
+      "value": "the standard applied in every case is that of a taxpayer dealing at arm’s length with an uncontrolled taxpayer — a controlled transaction meets it if its results are consistent with what uncontrolled taxpayers would have realised in the same transaction under the same circumstances, judged by comparable transactions and the best method rule",
+      "taxYear": 2026,
+      "source": "Reg. § 1.482-1(b)(1), opened at law.cornell.edu/cfr/text/26/1.482-1",
+      "verified": "2026-08-21"
+    },
+    "rpt.reasonable_comp": {
+      "value": "the deduction for compensation is limited to a reasonable allowance for salaries or other compensation for personal services *actually rendered* — so the payment must be both reasonable in amount and for services in fact performed",
+      "taxYear": 2026,
+      "source": "IRC § 162(a)(1), opened at law.cornell.edu/uscode/text/26/162",
+      "verified": "2026-08-21"
+    },
+    "rpt.constructive_dividend": {
+      "value": "an amount a C corporation pays a shareholder that is not deductible compensation, rent or interest is a distribution — a dividend to the extent of earnings and profits, then a reduction of stock basis, then gain from the sale of the stock",
+      "taxYear": 2026,
+      "source": "IRC § 301(c), opened at law.cornell.edu/uscode/text/26/301",
+      "verified": "2026-08-21"
+    },
+    "rpt.707a1": {
+      "value": "where a partner engages in a transaction with the partnership other than in the capacity of a member, the transaction is treated as occurring between the partnership and a non-partner",
+      "taxYear": 2026,
+      "source": "IRC § 707(a)(1), opened at law.cornell.edu/uscode/text/26/707",
+      "verified": "2026-08-21"
+    },
+    "rpt.disguised_payment": {
+      "value": "a performance of services or transfer of property by a partner, coupled with a related allocation and distribution to that partner, is recharacterised where the two viewed together are properly a transaction between the partnership and a non-partner",
+      "taxYear": 2026,
+      "source": "IRC § 707(a)(2)(A), opened at law.cornell.edu/uscode/text/26/707",
+      "verified": "2026-08-21"
+    },
+    "rpt.disguised_sale": {
+      "value": "a transfer of money or property by a partner to the partnership, coupled with a related transfer back to that partner or another, is treated as a sale or exchange where the two viewed together are properly characterised that way",
+      "taxYear": 2026,
+      "source": "IRC § 707(a)(2)(B), opened at law.cornell.edu/uscode/text/26/707",
+      "verified": "2026-08-21"
+    },
+    "rpt.self_rental": {
+      "value": "gross rental income from property rented for use in a trade or business in which the taxpayer materially participates is treated as *not* passive, up to the net rental income from that property — so the income cannot absorb passive losses, while a rental loss on the same property stays passive",
+      "taxYear": 2026,
+      "source": "Reg. § 1.469-2(f)(6), opened at law.cornell.edu/cfr/text/26/1.469-2",
+      "verified": "2026-08-21"
     }
   }
 }
