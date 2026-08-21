@@ -21,7 +21,7 @@ authorities:
   - { type: Reg, ref: "§ 1.471-1", title: "Need for inventories", url: "https://www.law.cornell.edu/cfr/text/26/1.471-1" }
   - { type: Reg, ref: "§ 1.471-2", title: "Valuation of inventories", url: "https://www.law.cornell.edu/cfr/text/26/1.471-2" }
 forms: []
-related: ["2.2.1.a", "2.2.1.c", "2.1.1.j", "2.2.2.c", "2.2.1.d", "2.2.2.d", "2.2.2.g", "2.2.2.h"]
+related: ["2.2.1.a", "2.2.1.c", "2.1.1.j", "2.2.2.c", "2.2.1.d", "2.2.2.d", "2.2.2.g", "2.2.2.h", "2.2.2.i"]
 changelog:
   - { date: "2026-08-21", summary: "Initial draft. Sets out when inventories are required under Reg. § 1.471-1(a), the title test that decides what is in them, the two IRC § 471(a) tests and the valuation bases of Reg. § 1.471-2(c), the identification conventions with the FIFO default for commingled goods, the IRC § 472 LIFO mechanics with the conformity condition and the three-year spread on adoption, the IRC § 263A scope and exceptions, and the IRC § 471(c) and IRC § 263A(i) small business exemptions keyed to the IRC § 448(c) gross receipts test." }
 ---

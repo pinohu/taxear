@@ -19,7 +19,7 @@ authorities:
   - { type: IRC, ref: "§ 1372", title: "Partnership rules to apply for fringe benefit purposes", url: "https://www.law.cornell.edu/uscode/text/26/1372" }
   - { type: IRC, ref: "§ 3121(d)", title: "Employee defined", url: "https://www.law.cornell.edu/uscode/text/26/3121" }
 forms: []
-related: ["2.2.2.j", "2.1.5.c", "2.2.2.e", "2.2.1.a", "2.1.1.b", "2.2.2.b", "2.2.2.c", "2.2.2.d", "2.2.2.f", "2.2.2.g", "2.2.2.h"]
+related: ["2.2.2.j", "2.1.5.c", "2.2.2.e", "2.2.1.a", "2.1.1.b", "2.2.2.b", "2.2.2.c", "2.2.2.d", "2.2.2.f", "2.2.2.g", "2.2.2.h", "2.2.2.i"]
 changelog:
   - { date: "2026-08-21", summary: "Initial draft. Sets out the two IRC § 162(a)(1) tests, the IRC § 162(m) cap on remuneration of a covered employee of a publicly held corporation with the expansion to the five highest paid employees for taxable years beginning after 31 December 2026, the IRC § 132(a) list of excludible fringe benefits and the IRC § 79(a) group-term life figure, the IRC § 3121(d)(3) statutory employee categories with their two disqualifying conditions, and the IRC § 267(a)(2) matching rule that defers a deduction for a payment to a related cash method payee." }
 ---

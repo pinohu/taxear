@@ -10927,6 +10927,66 @@
       "taxYear": 2026,
       "source": "Reg. § 1.263(a)-4(f)(1), opened at law.cornell.edu/cfr/text/26/1.263(a)-4",
       "verified": "2026-08-21"
+    },
+    "tax.deductible_list": {
+      "value": "state and local and foreign real property taxes, state and local personal property taxes, state and local and foreign income, war profits and excess profits taxes, and the generation-skipping transfer tax imposed on income distributions",
+      "taxYear": 2026,
+      "source": "IRC § 164(a)(1)-(4), opened at law.cornell.edu/uscode/text/26/164",
+      "verified": "2026-08-21"
+    },
+    "tax.business_catchall": {
+      "value": "in addition, state and local and foreign taxes not on that list are deductible if paid or accrued within the taxable year in carrying on a trade or business or an IRC § 212 activity",
+      "taxYear": 2026,
+      "source": "IRC § 164(a), flush text, opened at law.cornell.edu/uscode/text/26/164",
+      "verified": "2026-08-21"
+    },
+    "tax.acquisition_capitalized": {
+      "value": "a tax outside the four listed categories that is paid or accrued in connection with an acquisition of property is treated as part of the cost of the property, and one paid on a disposition reduces the amount realised",
+      "taxYear": 2026,
+      "source": "IRC § 164(a), closing sentence, opened at law.cornell.edu/uscode/text/26/164",
+      "verified": "2026-08-21"
+    },
+    "tax.salt_business_exception": {
+      "value": "the cap does not apply to foreign income, war profits and excess profits taxes, nor to real property or personal property taxes paid or accrued in carrying on a trade or business or an IRC § 212 activity",
+      "taxYear": 2026,
+      "source": "IRC § 164(b)(6), flush text, opened at law.cornell.edu/uscode/text/26/164",
+      "verified": "2026-08-21"
+    },
+    "tax.salt_heading_stale": {
+      "value": "the heading of IRC § 164(b)(6) still reads \"for taxable years 2018 through 2025\" although Pub. L. 119-21 § 70120(a)(1) struck the words \"and before January 1, 2026\" from the operative text, and § 70120(a)(2) replaced the fixed figure with the applicable limitation amount defined in the new IRC § 164(b)(7)",
+      "taxYear": 2026,
+      "source": "IRC § 164(b)(6) and its amendment notes, opened at law.cornell.edu/uscode/text/26/164",
+      "verified": "2026-08-21"
+    },
+    "tax.never_deductible": {
+      "value": "federal income taxes including the employee share of FICA and tax withheld at source on wages, federal war profits and excess profits taxes, estate, inheritance, legacy, succession and gift taxes, foreign income taxes where the taxpayer takes the IRC § 901 credit, and real property taxes treated by IRC § 164(d) as imposed on another taxpayer",
+      "taxYear": 2026,
+      "source": "IRC § 275(a), opened at law.cornell.edu/uscode/text/26/275",
+      "verified": "2026-08-21"
+    },
+    "tax.penalty_disallowed": {
+      "value": "no deduction is allowed for any amount paid, whether by suit, agreement or otherwise, to or at the direction of a government or governmental entity in relation to the violation of any law or the investigation of a potential violation",
+      "taxYear": 2026,
+      "source": "IRC § 162(f)(1), opened at law.cornell.edu/uscode/text/26/162",
+      "verified": "2026-08-21"
+    },
+    "tax.restitution_exception": {
+      "value": "the disallowance does not reach an amount the taxpayer establishes is restitution, including remediation of property, or is paid to come into compliance with the law violated — but only where the court order or settlement agreement identifies it as such, and identification alone is not enough",
+      "taxYear": 2026,
+      "source": "IRC § 162(f)(2)(A), opened at law.cornell.edu/uscode/text/26/162",
+      "verified": "2026-08-21"
+    },
+    "tax.investigation_costs": {
+      "value": "the restitution exception never reaches an amount paid as reimbursement to the government for the costs of an investigation or litigation",
+      "taxYear": 2026,
+      "source": "IRC § 162(f)(2)(B), opened at law.cornell.edu/uscode/text/26/162",
+      "verified": "2026-08-21"
+    },
+    "tax.private_suit": {
+      "value": "the disallowance does not apply to an amount paid by reason of an order of a court in a suit in which no government or governmental entity is a party",
+      "taxYear": 2026,
+      "source": "IRC § 162(f)(3), opened at law.cornell.edu/uscode/text/26/162",
+      "verified": "2026-08-21"
     }
   }
 }
