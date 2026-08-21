@@ -11269,6 +11269,66 @@
       "taxYear": 2026,
       "source": "IRC § 172(b)(1)(C), opened at law.cornell.edu/uscode/text/26/172",
       "verified": "2026-08-21"
+    },
+    "home.disallowance": {
+      "value": "in the case of an individual or an S corporation, no deduction otherwise allowable is allowed with respect to the use of a dwelling unit used by the taxpayer during the taxable year as a residence, except as IRC § 280A itself provides",
+      "taxYear": 2026,
+      "source": "IRC § 280A(a), opened at law.cornell.edu/uscode/text/26/280A",
+      "verified": "2026-08-21"
+    },
+    "home.business_exception": {
+      "value": "the disallowance does not apply to an item allocable to a portion of the dwelling unit exclusively used on a regular basis as the principal place of business for a trade or business of the taxpayer, as a place of business used by patients, clients or customers in meeting or dealing with the taxpayer in the normal course of that business, or, for a separate unattached structure, in connection with that business",
+      "taxYear": 2026,
+      "source": "IRC § 280A(c)(1), opened at law.cornell.edu/uscode/text/26/280A",
+      "verified": "2026-08-21"
+    },
+    "home.employee_condition": {
+      "value": "in the case of an employee the exception applies only if the exclusive use is for the convenience of the employer",
+      "taxYear": 2026,
+      "source": "IRC § 280A(c)(1), flush text, opened at law.cornell.edu/uscode/text/26/280A",
+      "verified": "2026-08-21"
+    },
+    "home.administrative": {
+      "value": "principal place of business includes a place used for the administrative or management activities of the business if there is no other fixed location where the taxpayer conducts substantial administrative or management activities of that business",
+      "taxYear": 2026,
+      "source": "IRC § 280A(c)(1), flush text, opened at law.cornell.edu/uscode/text/26/280A",
+      "verified": "2026-08-21"
+    },
+    "home.gross_income_limit": {
+      "value": "deductions attributable to the business use may not exceed the gross income derived from that use, less the deductions allocable to the use that would be allowable anyway and the deductions allocable to the business but not to the use; the excess carries to the succeeding taxable year and meets the same limit again",
+      "taxYear": 2026,
+      "source": "IRC § 280A(c)(5), opened at law.cornell.edu/uscode/text/26/280A",
+      "verified": "2026-08-21"
+    },
+    "home.safe_harbor": {
+      "value": "$5.00 per square foot of allowable square footage, being the portion of the home used in a qualified business use but not exceeding 300 square feet — so a maximum of $1,500",
+      "taxYear": 2026,
+      "source": "Rev. Proc. 2013-13 § 4.01, opened at irs.gov/pub/irs-drop/rp-13-13.pdf",
+      "verified": "2026-08-21"
+    },
+    "home.safe_harbor_election": {
+      "value": "the choice is made year by year, by using the method on a timely filed original return, and is irrevocable for that year — but switching between the safe harbor and actual expenses is not a change in method of accounting",
+      "taxYear": 2026,
+      "source": "Rev. Proc. 2013-13 § 4.03, opened at irs.gov/pub/irs-drop/rp-13-13.pdf",
+      "verified": "2026-08-21"
+    },
+    "home.safe_harbor_no_depreciation": {
+      "value": "a taxpayer using the safe harbor for a year cannot deduct any depreciation, including additional first-year depreciation, or IRC § 179 expense for the business portion of the home, and the depreciation allowable for that portion for that year is deemed to be zero",
+      "taxYear": 2026,
+      "source": "Rev. Proc. 2013-13 § 4.06, opened at irs.gov/pub/irs-drop/rp-13-13.pdf",
+      "verified": "2026-08-21"
+    },
+    "home.safe_harbor_itemized": {
+      "value": "a taxpayer using the safe harbor who itemises may still deduct qualified residence interest, property taxes and casualty losses in full on Schedule A, and may not allocate any part of them to the business use",
+      "taxYear": 2026,
+      "source": "Rev. Proc. 2013-13 § 4.04, opened at irs.gov/pub/irs-drop/rp-13-13.pdf",
+      "verified": "2026-08-21"
+    },
+    "home.safe_harbor_employee": {
+      "value": "the safe harbor does not apply to an employee who receives advances, allowances or reimbursements for the expenses of the qualified business use under a reimbursement or other expense allowance arrangement within Reg. § 1.62-2",
+      "taxYear": 2026,
+      "source": "Rev. Proc. 2013-13 § 4.02, opened at irs.gov/pub/irs-drop/rp-13-13.pdf",
+      "verified": "2026-08-21"
     }
   }
 }

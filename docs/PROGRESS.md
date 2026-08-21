@@ -10,9 +10,9 @@ is indexed, and only the owner moves a page there (see `docs/VERIFICATION.md`).
 | Part | Topics | Stub | Draft | Review | Published | Words |
 |---|---:|---:|---:|---:|---:|---:|
 | 1. Individuals | 120 | 0 | 0 | 110 | 10 | 256,550 |
-| 2. Businesses | 119 | 56 | 0 | 63 | 0 | 145,808 |
+| 2. Businesses | 119 | 55 | 0 | 64 | 0 | 148,229 |
 | 3. Representation, Practices and Procedures | 121 | 0 | 0 | 0 | 121 | 257,674 |
-| **All parts** | **360** | **56** | **0** | **173** | **131** | **660,032** |
+| **All parts** | **360** | **55** | **0** | **174** | **131** | **662,453** |
 
 ## Part 1 — Individuals
 
@@ -311,7 +311,7 @@ is indexed, and only the owner moves a page there (see `docs/VERIFICATION.md`).
 | 2.2.2.l | [Qualified business income (QBI) (SSTB, calculations, phase out, UBIA)](/businesses/business-tax-preparation/business-expenses-deductions-and-credits/qualified-business-income-qbi-sstb-calculations-phase-out/) | review | 2,263 | 2026-08-21 |
 | 2.2.2.m | [Eligibility and deductibility of general business credits (e.g., disabled access credit, R&D credit, small business healthcare tax credit, foreign tax credit)](/businesses/business-tax-preparation/business-expenses-deductions-and-credits/eligibility-and-deductibility-of-general-business-credits/) | review | 2,208 | 2026-08-21 |
 | 2.2.2.n | [Net operating loss deduction](/businesses/business-tax-preparation/business-expenses-deductions-and-credits/net-operating-loss-deduction/) | review | 2,323 | 2026-08-21 |
-| 2.2.2.o | [Home office](/businesses/business-tax-preparation/business-expenses-deductions-and-credits/home-office/) | stub | — | — |
+| 2.2.2.o | [Home office](/businesses/business-tax-preparation/business-expenses-deductions-and-credits/home-office/) | review | 2,421 | 2026-08-21 |
 
 **2.2.3 Business assets**
 
