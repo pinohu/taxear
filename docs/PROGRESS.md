@@ -9,10 +9,10 @@ is indexed, and only the owner moves a page there (see `docs/VERIFICATION.md`).
 
 | Part | Topics | Stub | Draft | Review | Published | Words |
 |---|---:|---:|---:|---:|---:|---:|
-| 1. Individuals | 120 | 4 | 0 | 106 | 10 | 249,077 |
+| 1. Individuals | 120 | 3 | 0 | 107 | 10 | 250,938 |
 | 2. Businesses | 119 | 119 | 0 | 0 | 0 | 0 |
 | 3. Representation, Practices and Procedures | 121 | 0 | 0 | 0 | 121 | 257,674 |
-| **All parts** | **360** | **123** | **0** | **106** | **131** | **506,751** |
+| **All parts** | **360** | **122** | **0** | **107** | **131** | **508,612** |
 
 ## Part 1 — Individuals
 
@@ -203,7 +203,7 @@ is indexed, and only the owner moves a page there (see `docs/VERIFICATION.md`).
 |---|---|---|---:|---|
 | 1.6.3.a | [Filing and reporting requirements and due dates (e.g., FBAR, Form 8938, Form 8865, Form 5471, Form 3520)](/individuals/specialized-returns-for-individuals/international-information-reporting/filing-and-reporting-requirements-and-due-dates/) | review | 1,928 | 2026-08-21 |
 | 1.6.3.b | [Covered accounts (e.g., FBAR, Form 8938)](/individuals/specialized-returns-for-individuals/international-information-reporting/covered-accounts/) | review | 1,889 | 2026-08-21 |
-| 1.6.3.c | [Potential penalties (e.g., failure to file, underreporting, substantially incomplete, statute of limitations, reduction of tax attributes)](/individuals/specialized-returns-for-individuals/international-information-reporting/potential-penalties/) | stub | — | — |
+| 1.6.3.c | [Potential penalties (e.g., failure to file, underreporting, substantially incomplete, statute of limitations, reduction of tax attributes)](/individuals/specialized-returns-for-individuals/international-information-reporting/potential-penalties/) | review | 1,861 | 2026-08-21 |
 | 1.6.3.d | [Distinctions between FBAR and Form 8938 requirements](/individuals/specialized-returns-for-individuals/international-information-reporting/distinctions-between-fbar-and-form-8938-requirements/) | stub | — | — |
 | 1.6.3.e | [Ownership of a foreign corporation (GILTI, IRC Section 965 transition tax)](/individuals/specialized-returns-for-individuals/international-information-reporting/ownership-of-a-foreign-corporation-gilti-irc-section-965/) | stub | — | — |
 | 1.6.3.f | [International voluntary disclosure options](/individuals/specialized-returns-for-individuals/international-information-reporting/international-voluntary-disclosure-options/) | stub | — | — |

@@ -7483,6 +7483,72 @@
       "taxYear": 2026,
       "source": "IRS, Comparison of Form 8938 and FBAR requirements (page last reviewed 18 September 2025), irs.gov/businesses/comparison-of-form-8938-and-fbar-requirements",
       "verified": "2026-08-21"
+    },
+    "intlpen.8938": {
+      "value": "$10,000 for the failure, and where it continues more than 90 days after the Secretary mails notice, a further $10,000 for each 30-day period or fraction of one after that 90-day period expires — the additional penalty capped at $50,000, so $60,000 is the maximum (IRC § 6038D(d))",
+      "taxYear": 2026,
+      "source": "IRC § 6038D(d), read at law.cornell.edu/uscode/text/26/6038D",
+      "verified": "2026-08-21"
+    },
+    "intlpen.8938_grace": {
+      "value": "90 days from the mailing of notice before any additional penalty begins to run — a failure cured inside that window carries the $10,000 base penalty and nothing more (IRC § 6038D(d)(2))",
+      "taxYear": 2026,
+      "source": "IRC § 6038D(d)(2), read at law.cornell.edu/uscode/text/26/6038D",
+      "verified": "2026-08-21"
+    },
+    "intlpen.fbar_nonwillful": {
+      "value": "a civil money penalty not exceeding $10,000, with no penalty at all where the violation was due to reasonable cause and the balance in the account was properly reported — figures in title 31 are adjusted annually for inflation (31 U.S.C. § 5321(a)(5)(A), (B))",
+      "taxYear": 2026,
+      "source": "31 U.S.C. § 5321, read at law.cornell.edu/uscode/text/31/5321",
+      "verified": "2026-08-21"
+    },
+    "intlpen.fbar_willful": {
+      "value": "the greater of $100,000 or 50 percent of the balance in the account at the time of the violation, and the reasonable cause exception does not apply (31 U.S.C. § 5321(a)(5)(C), (D))",
+      "taxYear": 2026,
+      "source": "31 U.S.C. § 5321, read at law.cornell.edu/uscode/text/31/5321",
+      "verified": "2026-08-21"
+    },
+    "intlpen.fbar_criminal": {
+      "value": "a fine of up to $250,000 or up to 5 years' imprisonment or both for a willful violation, rising to $500,000 and 10 years where the violation occurs while violating another federal law or as part of a pattern of illegal activity involving more than $100,000 in a 12-month period (31 U.S.C. § 5322(a), (b))",
+      "taxYear": 2026,
+      "source": "31 U.S.C. § 5322, read at law.cornell.edu/uscode/text/31/5322",
+      "verified": "2026-08-21"
+    },
+    "intlpen.6677_trust": {
+      "value": "the greater of $10,000 or 35 percent of the gross reportable amount for a failure under IRC § 6048, reduced to 5 percent for the annual return of a foreign trust with a United States owner, plus $10,000 for each 30-day period after a 90-day grace following notice (IRC § 6677(a), (b))",
+      "taxYear": 2026,
+      "source": "IRC § 6677, read at law.cornell.edu/uscode/text/26/6677",
+      "verified": "2026-08-21"
+    },
+    "intlpen.foreign_gift": {
+      "value": "the Secretary determines the tax consequences of the receipt, and the recipient pays 5 percent of the gift for each month the failure continues, capped at 25 percent — subject to a reasonable cause exception (IRC § 6039F(c))",
+      "taxYear": 2026,
+      "source": "IRC § 6039F(c), read at law.cornell.edu/uscode/text/26/6039F",
+      "verified": "2026-08-21"
+    },
+    "intlpen.6038_credit_reduction": {
+      "value": "a 10 percent reduction of the foreign taxes paid or deemed paid for the year, and where the failure continues 90 days or more after notice, 10 percent plus a further 5 percent for each 3-month period or fraction of one after that — a reduction of tax attributes on top of the dollar penalty (IRC § 6038(c)(1), (2))",
+      "taxYear": 2026,
+      "source": "IRC § 6038(c), read at law.cornell.edu/uscode/text/26/6038",
+      "verified": "2026-08-21"
+    },
+    "intlpen.accuracy_40": {
+      "value": "40 percent instead of 20 percent on the portion of an underpayment attributable to an undisclosed foreign financial asset — an asset for which information was required under IRC § 6038, 6038B, 6038D, 6046A or 6048 and was not provided (IRC § 6662(j))",
+      "taxYear": 2026,
+      "source": "IRC § 6662(j), read at law.cornell.edu/uscode/text/26/6662",
+      "verified": "2026-08-21"
+    },
+    "intlpen.limitations": {
+      "value": "the assessment period for any tax to which the information relates does not expire before 3 years after the information is actually furnished — reaching failures under IRC §§ 1295(b), 1298(f), 6038, 6038A, 6038B, 6038D, 6046, 6046A and 6048, and confined to the items related to the failure only where it was due to reasonable cause and not willful neglect (IRC § 6501(c)(8))",
+      "taxYear": 2026,
+      "source": "IRC § 6501(c)(8), read at law.cornell.edu/uscode/text/26/6501",
+      "verified": "2026-08-21"
+    },
+    "intlpen.title31_inflation": {
+      "value": "the $10,000 non-willful maximum and the $100,000 willful floor printed in 31 U.S.C. § 5321 are statutory bases adjusted annually for inflation, so the figures in the section are not the operative amounts — the IRS notes on its own FBAR materials that published penalty figures may not be current",
+      "taxYear": 2026,
+      "source": "31 U.S.C. § 5321, read at law.cornell.edu/uscode/text/31/5321, and IRS, Report of Foreign Bank and Financial Accounts (FBAR), irs.gov",
+      "verified": "2026-08-21"
     }
   }
 }
