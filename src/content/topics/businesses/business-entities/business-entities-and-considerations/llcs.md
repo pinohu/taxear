@@ -18,7 +18,7 @@ authorities:
   - { type: IRC, ref: "§ 1361", title: "S corporation defined", url: "https://www.law.cornell.edu/uscode/text/26/1361" }
   - { type: IRC, ref: "§ 1362", title: "Election; revocation; termination", url: "https://www.law.cornell.edu/uscode/text/26/1362" }
 forms: []
-related: ["2.1.1.a", "2.1.1.b", "2.1.1.d", "2.1.1.g", "2.1.1.h"]
+related: ["2.1.1.a", "2.1.1.b", "2.1.1.d", "2.1.1.g", "2.1.1.h", "2.1.5.b"]
 changelog:
   - { date: "2026-08-21", summary: "Initial draft. Sets out the Reg. § 301.7701-1(a)(1) rule that federal classification does not follow local law, the Reg. § 301.7701-2(b) list of per se corporations, the Reg. § 301.7701-3(b)(1) default classifications, the Form 8832 election with its 75-day and 12-month effective-date limits and the 60-month re-election bar, the Reg. § 301.7701-3(c)(1)(v)(C) deemed association election on a timely S corporation election, and the Reg. § 301.7701-2(c)(2)(iv) split under which a disregarded entity is a corporation for employment tax but still disregarded for the self-employment tax of its own owner." }
 ---

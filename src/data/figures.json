@@ -9649,6 +9649,42 @@
       "taxYear": 2026,
       "source": "IRC § 1366(b), read at law.cornell.edu/uscode/text/26/1366",
       "verified": "2026-08-21"
+    },
+    "elect.consent": {
+      "value": "an election is valid only if all persons who are shareholders on the day the election is made consent to it, and the corporation's election is not valid if any required consent is not filed. Once a valid election is made, new shareholders need not consent (IRC § 1362(a)(2); Reg. § 1.1362-6(a)(2)(i))",
+      "taxYear": 2026,
+      "source": "IRC § 1362(a)(2), read at law.cornell.edu/uscode/text/26/1362; 26 CFR § 1.1362-6, read at law.cornell.edu/cfr/text/26/1.1362-6",
+      "verified": "2026-08-21"
+    },
+    "elect.consent_contents": {
+      "value": "a shareholder's consent must be a written statement giving the shareholder's name, address and taxpayer identification number, the number of shares owned, the date or dates the stock was acquired, the date the shareholder's taxable year ends, the corporation's name and taxpayer identification number, and the election consented to — signed by the shareholder under penalties of perjury (Reg. § 1.1362-6(b)(1))",
+      "taxYear": 2026,
+      "source": "26 CFR § 1.1362-6, read at law.cornell.edu/cfr/text/26/1.1362-6",
+      "verified": "2026-08-21"
+    },
+    "elect.new_corporation_year": {
+      "value": "the taxable year of a new corporation begins on the date it has shareholders, acquires assets, or begins doing business, whichever occurs first — and the existence of incorporators does not necessarily begin the taxable year, so the date of incorporation is not automatically the date the election period starts running (Reg. § 1.1362-6(a)(2)(ii))",
+      "taxYear": 2026,
+      "source": "26 CFR § 1.1362-6, read at law.cornell.edu/cfr/text/26/1.1362-6",
+      "verified": "2026-08-21"
+    },
+    "elect.short_first_year": {
+      "value": "for a taxable year of 2½ months or less, an election made before the 16th day of the third month after the first day of that taxable year is treated as made during that year — so a corporation whose first year is very short still has the full period (Reg. § 1.1362-6(a)(2)(ii)(A))",
+      "taxYear": 2026,
+      "source": "26 CFR § 1.1362-6, read at law.cornell.edu/cfr/text/26/1.1362-6",
+      "verified": "2026-08-21"
+    },
+    "elect.form": {
+      "value": "a small business corporation makes the IRC § 1362(a) election by filing a completed Form 2553 with the service center designated in the instructions; the election statement must identify the election, give the corporation's name, address and taxpayer identification number, and be signed by a person authorised to sign the return required under IRC § 6037 (Reg. § 1.1362-6(a)(1), (2)(i))",
+      "taxYear": 2026,
+      "source": "26 CFR § 1.1362-6, read at law.cornell.edu/cfr/text/26/1.1362-6",
+      "verified": "2026-08-21"
+    },
+    "elect.late_relief": {
+      "value": "where an election is made after the prescribed date, or no election is made, and the Secretary determines that there was reasonable cause for the failure to make it timely, the Secretary may treat the election as timely made for that taxable year — and the rule treating a late election as made for the following year does not then apply (IRC § 1362(b)(5))",
+      "taxYear": 2026,
+      "source": "IRC § 1362(b)(5), read at law.cornell.edu/uscode/text/26/1362",
+      "verified": "2026-08-21"
     }
   }
 }
