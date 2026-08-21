@@ -7,7 +7,15 @@ and 2 begin. Read that first if you are starting a new phase rather than continu
 
 Regenerate the numbers with `npm run progress`.
 
-## Where the project stands (19 August 2026)
+## Where the project stands (21 August 2026)
+
+**131 topic pages at `published`, 133 at `review`, 96 at `stub`.** Part 1 is complete at
+120 / 120 and Part 3 at 121 / 121; Part 2 stands at 23 of 119, with sections 2.1.1 and
+2.1.2 finished. `figures.json` carries 1,505 keys, every one with a `verified` date against
+a source opened that day. `npm run verify` reports 0 errors. See the Part 2 section below
+for what the next session should not relearn.
+
+## Where the project stood (19 August 2026)
 
 **131 topic pages at `published`**, 229 at `stub`, none at `review`. The owner approved the
 whole review queue on 19 August 2026, so everything written to date is live and in the
@@ -249,6 +257,57 @@ page, last reviewed 17 February 2026, which also carries the initial-contact-by-
 the one-time automatic 30-day extension, the look-back and the three-way conclusion. It is
 recorded in `figures.json` as `exam.types`, `exam.lookback`, `exam.mail_extension` and
 `exam.record_retention`. Source 3.3.3.c, d, f, h and i from there, not from the IRM.
+
+## Part 2 opened — domain 2.1 sections 2.1.1 and 2.1.2 complete (21 August 2026)
+
+**Section 2.1.1 Business entities and considerations — 12 / 12.** Sole proprietorships,
+partnerships and QJVs, corporations, S corporations, LLCs, tax-exempt entities, entity
+classification and elections, EIN, accounting periods, accounting methods, reporting
+requirements, hobby versus business. All at `review`.
+
+**Section 2.1.2 Partnerships — 11 / 11.** Flow-through, family partnerships, dealings with
+the partnership, contributions, basis of the interest, disposition, formation, dissolution,
+filing and audit notice, cancellation of debt, partnership level audit and opt-out. All at
+`review`.
+
+Part 2 stands at 23 of 119. Part 1 is complete at 120 / 120 and Part 3 at 121 / 121.
+`figures.json` carries 1,505 keys.
+
+### What the next session should not relearn
+
+- **Read the amendment notes, not only the subsection.** Working IRC § 461(l) on 21 August
+  the rendered body at law.cornell.edu and the amendment notes on the same page
+  contradicted each other — the body was two amendments stale. The notes are a record of
+  what Congress enacted; the body is an editorial rendering. For any provision touched by
+  Pub. L. 119-21 or Pub. L. 115-97, read both.
+- **Three citations have moved out from under their rules**, and each now resolves to a real
+  provision saying something else: IRC § 67(g) → § 67(h) (miscellaneous itemized suspension,
+  with a new § 67(g) on educator expenses); IRC § 704(e)(1) → § 761(b) (partner recognition,
+  with the old number now holding the donee distributive share rule); and IRC § 6223, which
+  was "Notice to partners of proceedings" and is now "Partners bound by actions of
+  partnership" — the converse proposition under the same number.
+- **Two figures moved in 2025 and first operate for 2026, in opposite directions.** The
+  IRC § 6041(a) information-at-source threshold went up and is now indexed; the
+  IRC § 6050W(e) 1099-K test went back to amount-and-count retroactively, as if the flat
+  threshold had never been enacted. Stale material over-reports under the first and
+  under-reports under the second.
+
+### Next in Part 2
+
+Domain 2.1 continues with 2.1.3 (8 topics), 2.1.4 (6) and 2.1.5 (8). Then domain 2.2 —
+2.2.1 (4), 2.2.2 (15), 2.2.3 (5), 2.2.4 (9), 2.2.5 (13) — and domain 2.3 — 2.3.1 (7),
+2.3.2 (4), 2.3.3 (6), 2.3.4 (5), 2.3.5 (6).
+
+### Bank coverage in domain 2.1, recorded so it is not rediscovered
+
+Eight of the twenty-three topics written have **no** bank questions at all: 2.1.1.f,
+2.1.1.l, 2.1.2.a, 2.1.2.d, 2.1.2.g, 2.1.2.h, 2.1.2.j and 2.1.2.k. The last of those is the
+centralised partnership audit regime, which governs every partnership return filed for
+years beginning after 2017 and on which the bank has nothing. Where a topic has no
+questions, no tagger rule was added — a pattern matching nothing only creates the
+appearance of coverage. Two tagger rules **were** fixed: 2.1.1.i was capturing five
+questions that merely mentioned "tax year" in passing, and 2.1.1.k was not capturing
+Form 8300 at all. Both have tests.
 
 ## Carried forward — content
 
