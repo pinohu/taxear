@@ -13093,6 +13093,54 @@
       "taxYear": 2026,
       "source": "IRC § 6701(a), opened at law.cornell.edu/uscode/text/26/6701",
       "verified": "2026-08-21"
+    },
+    "inc.traditional": {
+      "value": "trust provisions that depart fundamentally from traditional principles of income and principal are generally not recognised — an instrument directing that all income be paid to the income beneficiary while defining ordinary dividends and interest as principal is not a trust required to distribute all its income currently for IRC §§ 642(b) and 651",
+      "taxYear": 2026,
+      "source": "Reg. § 1.643(b)-1, opened at law.cornell.edu/cfr/text/26/1.643(b)-1",
+      "verified": "2026-08-21"
+    },
+    "inc.default_allocation": {
+      "value": "dividends, interest and rents are generally allocated to income, and proceeds from the sale or exchange of trust assets generally to principal",
+      "taxYear": 2026,
+      "source": "Reg. § 1.643(b)-1, opened at law.cornell.edu/cfr/text/26/1.643(b)-1",
+      "verified": "2026-08-21"
+    },
+    "inc.reasonable_apportionment": {
+      "value": "a local law allocation is respected where it provides a reasonable apportionment between the income and remainder beneficiaries of the trust’s total return for the year — including ordinary and tax-exempt income, capital gains and appreciation",
+      "taxYear": 2026,
+      "source": "Reg. § 1.643(b)-1, opened at law.cornell.edu/cfr/text/26/1.643(b)-1",
+      "verified": "2026-08-21"
+    },
+    "inc.unitrust": {
+      "value": "a state statute defining income as a unitrust amount of no less than 3 percent and no more than 5 percent of the fair market value of the trust assets, determined annually or averaged over several years, is a reasonable apportionment of total return",
+      "taxYear": 2026,
+      "source": "Reg. § 1.643(b)-1, opened at law.cornell.edu/cfr/text/26/1.643(b)-1",
+      "verified": "2026-08-21"
+    },
+    "inc.power_to_adjust": {
+      "value": "a state statute permitting the trustee to adjust between income and principal to fulfil the duty of impartiality is generally a reasonable apportionment — available where the trustee invests under the prudent investor standard, the trust measures distributions by income, and the trustee cannot otherwise administer impartially",
+      "taxYear": 2026,
+      "source": "Reg. § 1.643(b)-1, opened at law.cornell.edu/cfr/text/26/1.643(b)-1",
+      "verified": "2026-08-21"
+    },
+    "inc.gains_in_dni": {
+      "value": "capital gains enter distributable net income where, under the instrument, local law, or a reasonable and impartial exercise of the fiduciary’s discretion, they are allocated to income, or allocated to corpus but consistently treated on the books and returns as part of a distribution, or allocated to corpus but actually distributed or used in determining what is distributed",
+      "taxYear": 2026,
+      "source": "Reg. § 1.643(a)-3, opened at law.cornell.edu/cfr/text/26/1.643(a)-3(b)",
+      "verified": "2026-08-21"
+    },
+    "inc.gains_charity": {
+      "value": "capital gains paid, permanently set aside or to be used for IRC § 642(c) purposes, so that a charitable deduction is allowed for them, must be included in distributable net income",
+      "taxYear": 2026,
+      "source": "Reg. § 1.643(a)-3, opened at law.cornell.edu/cfr/text/26/1.643(a)-3(c)",
+      "verified": "2026-08-21"
+    },
+    "inc.capital_losses": {
+      "value": "capital losses are first netted at the trust level against capital gains, except for a gain used in determining the amount distributed to a particular beneficiary — with the loss carryover on final termination governed by Reg. § 1.642(h)-1",
+      "taxYear": 2026,
+      "source": "Reg. § 1.643(a)-3, opened at law.cornell.edu/cfr/text/26/1.643(a)-3(d)",
+      "verified": "2026-08-21"
     }
   }
 }
