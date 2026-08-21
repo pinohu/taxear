@@ -11227,6 +11227,48 @@
       "taxYear": 2026,
       "source": "IRC § 45R(d)(1), opened at law.cornell.edu/uscode/text/26/45R",
       "verified": "2026-08-21"
+    },
+    "nol.defined": {
+      "value": "the excess of the deductions allowed by chapter 1 over gross income, computed with the modifications in IRC § 172(d)",
+      "taxYear": 2026,
+      "source": "IRC § 172(c), opened at law.cornell.edu/uscode/text/26/172",
+      "verified": "2026-08-21"
+    },
+    "nol.mod_own_deduction": {
+      "value": "no net operating loss deduction is allowed in computing the loss itself, so a carryover from an earlier year cannot enlarge the current year's loss",
+      "taxYear": 2026,
+      "source": "IRC § 172(d)(1), opened at law.cornell.edu/uscode/text/26/172",
+      "verified": "2026-08-21"
+    },
+    "nol.mod_capital": {
+      "value": "for a taxpayer other than a corporation, capital losses are deductible only to the extent of capital gains, and the IRC § 1202 exclusion is disallowed",
+      "taxYear": 2026,
+      "source": "IRC § 172(d)(2), opened at law.cornell.edu/uscode/text/26/172",
+      "verified": "2026-08-21"
+    },
+    "nol.mod_nonbusiness": {
+      "value": "for a taxpayer other than a corporation, deductions not attributable to a trade or business are allowed only to the extent of gross income not derived from that trade or business",
+      "taxYear": 2026,
+      "source": "IRC § 172(d)(4), opened at law.cornell.edu/uscode/text/26/172",
+      "verified": "2026-08-21"
+    },
+    "nol.mod_business_items": {
+      "value": "gain or loss on depreciable property or real property used in the trade or business is treated as attributable to it, as is a casualty or theft loss allowable under IRC § 165(c)(2) or (3) — but a IRC § 404 deduction for contributions on behalf of a self-employed individual is not",
+      "taxYear": 2026,
+      "source": "IRC § 172(d)(4)(A), (C) and (D), opened at law.cornell.edu/uscode/text/26/172",
+      "verified": "2026-08-21"
+    },
+    "nol.waive_carryback": {
+      "value": "a taxpayer entitled to a carryback may elect to relinquish the entire carryback period, by the due date including extensions for the year of the loss, and the election is irrevocable for that year",
+      "taxYear": 2026,
+      "source": "IRC § 172(b)(3), opened at law.cornell.edu/uscode/text/26/172",
+      "verified": "2026-08-21"
+    },
+    "nol.insurance_carryback": {
+      "value": "an insurance company other than a life insurance company keeps the older regime — a 2-year carryback and a 20-year carryforward",
+      "taxYear": 2026,
+      "source": "IRC § 172(b)(1)(C), opened at law.cornell.edu/uscode/text/26/172",
+      "verified": "2026-08-21"
     }
   }
 }

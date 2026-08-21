@@ -17,7 +17,7 @@ authorities:
   - { type: IRC, ref: "§ 179", title: "Election to expense certain depreciable business assets", url: "https://www.law.cornell.edu/uscode/text/26/179" }
   - { type: RevProc, ref: "Rev. Proc. 2025-32", title: "Inflation adjusted items for 2026", url: "https://www.irs.gov/pub/irs-drop/rp-25-32.pdf" }
 forms: []
-related: ["2.2.2.a", "2.2.2.c", "2.2.1.c", "2.2.1.a", "2.1.2.a"]
+related: ["2.2.2.a", "2.2.2.c", "2.2.1.c", "2.2.1.a", "2.1.2.a", "2.2.2.n"]
 changelog:
   - { date: "2026-08-21", summary: "Initial draft. Sets out the IRC § 199A(a) computation and the IRC § 199A(b)(2) wage and property limitation with the IRC § 199A(b)(3) threshold and phase-in, the IRC § 199A(d)(2) definition of a specified service trade or business, and the IRC § 199A(b)(6) definition of qualified property. Records three changes made by Pub. L. 119-21 § 70105: the deduction is permanent, the phase-in range widened from $50,000 and $100,000 to $75,000 and $150,000, and a new IRC § 199A(i) gives a minimum deduction to a taxpayer with active qualified business income above a floor." }
 ---

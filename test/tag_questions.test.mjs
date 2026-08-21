@@ -192,6 +192,13 @@ test('a partnership ordinary income computation is not a depreciation question',
   assert.equal(classify(q(2, 'What is the maximum bonus depreciation allowance on qualified property?')), '2.2.2.c');
 });
 
+test('a dividends received deduction question is not a net operating loss question', () => {
+  // Every statement of the DRD taxable income limitation lists the net operating loss deduction
+  // among the items left out, so the bare phrase was claiming those questions.
+  assert.equal(classify(q(2, 'All of the following are omitted from taxable income used to determine the dividends received deduction except the net operating loss deduction.')), '2.1.3.d');
+  assert.equal(classify(q(2, 'How many years may a corporate net operating loss be carried forward?')), '2.2.2.n');
+});
+
 test('rules never tag across exam parts', () => {
   // The same subject asked in different parts must land in that part's own outline.
   // Part 1 has its own claim-for-refund topic, so the Part 1 question is placed there —

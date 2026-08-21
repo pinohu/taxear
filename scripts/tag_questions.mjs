@@ -402,6 +402,10 @@ const RULES = [
   // partnership flow-through topic has it.
   ['2.1.2.a', /ordinary partnership income|partnership'?s? ordinary income/i],
   ['2.2.2.c', /\b179\b|bonus depreciation|\bmacrs\b|amortization|start-?up cost|organizational cost|depletion|\b4562\b/i],
+  // A dividends-received-deduction question lists the net operating loss deduction among the
+  // items excluded from the taxable income limitation, so the bare phrase claimed it. The
+  // corporate special deductions topic has it.
+  ['2.1.3.d', /dividends received deduction|\bdrd\b/i],
   ['2.2.2.n', /net operating loss|\bnol\b/i],
   ['2.2.2.m', /general business credit|\b3800\b|disabled access credit|research (?:and development )?credit|work opportunity/i],
   ['2.2.2.e', /business (?:travel|meal)|per diem|entertainment expense|\b274\b/i],

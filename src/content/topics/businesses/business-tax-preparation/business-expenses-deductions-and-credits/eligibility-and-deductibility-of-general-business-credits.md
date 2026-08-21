@@ -21,7 +21,7 @@ authorities:
   - { type: IRC, ref: "§ 190", title: "Expenditures to remove architectural and transportation barriers", url: "https://www.law.cornell.edu/uscode/text/26/190" }
   - { type: IRC, ref: "§ 901", title: "Taxes of foreign countries and of possessions of United States", url: "https://www.law.cornell.edu/uscode/text/26/901" }
 forms: []
-related: ["2.2.2.c", "2.2.2.h", "2.2.2.i", "2.2.2.a", "2.2.1.c"]
+related: ["2.2.2.c", "2.2.2.h", "2.2.2.i", "2.2.2.a", "2.2.1.c", "2.2.2.n"]
 changelog:
   - { date: "2026-08-21", summary: "Initial draft. Sets out the IRC § 38(a) structure and the IRC § 38(c)(1) limitation by reference to net income tax, the tentative minimum tax and a share of net regular tax liability above a floor, the IRC § 39(a)(1) one-year carryback and twenty-year carryforward, and three component credits — IRC § 44 disabled access, IRC § 41 research and IRC § 45R small employer health insurance. Records the IRC § 280C(c) rule that a research credit reduces the deduction for the same expenditure unless a reduced credit is elected, and that IRC § 280C(c)(1) now refers to IRC § 174A." }
 ---

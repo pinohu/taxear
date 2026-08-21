@@ -22,7 +22,7 @@ authorities:
   - { type: IRC, ref: "§ 6041A", title: "Returns regarding payments of remuneration for services and direct sales", url: "https://www.law.cornell.edu/uscode/text/26/6041A" }
   - { type: IRC, ref: "§ 6050P", title: "Returns relating to the cancellation of indebtedness by certain entities", url: "https://www.law.cornell.edu/uscode/text/26/6050P" }
 forms: []
-related: ["2.2.1.a", "2.2.1.c", "2.1.5.g", "2.1.2.j", "2.2.1.b", "2.2.2.d"]
+related: ["2.2.1.a", "2.2.1.c", "2.1.5.g", "2.1.2.j", "2.2.1.b", "2.2.2.d", "2.2.2.n"]
 changelog:
   - { date: "2026-08-21", summary: "Initial draft. Sets out IRC § 61(a)(11) and the IRC § 108(a) exclusions with their order of precedence and the insolvency cap, the IRC § 108(b) attribute reduction and the IRC § 108(b)(5) election, and the four IRC § 108(e) rules a business meets most often — no other insolvency exception, the lost deduction rule, the related-party acquisition rule and the purchase price adjustment. Adds the elective IRC § 108(c) exclusion for qualified real property business indebtedness and the IRC § 108(g) farm rules." }
 ---
