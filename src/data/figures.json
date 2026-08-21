@@ -10129,6 +10129,42 @@
       "taxYear": 2026,
       "source": "IRC § 108(e)(6), opened at law.cornell.edu/uscode/text/26/108",
       "verified": "2026-08-21"
+    },
+    "noncash.gain_recognized": {
+      "value": "where a corporation distributes property other than its own obligation with respect to its stock and the fair market value exceeds the adjusted basis in the hands of the distributing corporation, gain is recognised to the corporation as if the property were sold to the distributee at fair market value",
+      "taxYear": 2026,
+      "source": "IRC § 311(b)(1), opened at law.cornell.edu/uscode/text/26/311",
+      "verified": "2026-08-21"
+    },
+    "noncash.no_loss": {
+      "value": "except for the appreciated property rule, no gain or loss is recognised to a corporation on a distribution with respect to its stock, other than in complete liquidation — so a loss on depreciated property is never recognised",
+      "taxYear": 2026,
+      "source": "IRC § 311(a), opened at law.cornell.edu/uscode/text/26/311",
+      "verified": "2026-08-21"
+    },
+    "noncash.amount": {
+      "value": "the amount of the distribution is the money received plus the fair market value of the other property received, determined as of the date of the distribution",
+      "taxYear": 2026,
+      "source": "IRC § 301(b)(1) and (b)(3), opened at law.cornell.edu/uscode/text/26/301",
+      "verified": "2026-08-21"
+    },
+    "noncash.liabilities": {
+      "value": "the amount is reduced, but not below zero, by any liability of the corporation assumed by the shareholder in connection with the distribution and by any liability to which the property is subject immediately before and immediately after it",
+      "taxYear": 2026,
+      "source": "IRC § 301(b)(2), opened at law.cornell.edu/uscode/text/26/301",
+      "verified": "2026-08-21"
+    },
+    "noncash.liability_floor": {
+      "value": "where distributed property is subject to a liability or the shareholder assumes one, the fair market value of the property is treated as not less than the amount of that liability",
+      "taxYear": 2026,
+      "source": "IRC § 336(b), applied by IRC § 311(b)(2); both opened at law.cornell.edu/uscode/text/26/336 and /311",
+      "verified": "2026-08-21"
+    },
+    "noncash.shareholder_basis": {
+      "value": "the shareholder's basis in property received in a distribution is the fair market value of the property",
+      "taxYear": 2026,
+      "source": "IRC § 301(d), opened at law.cornell.edu/uscode/text/26/301",
+      "verified": "2026-08-21"
     }
   }
 }

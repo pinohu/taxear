@@ -10,9 +10,9 @@ is indexed, and only the owner moves a page there (see `docs/VERIFICATION.md`).
 | Part | Topics | Stub | Draft | Review | Published | Words |
 |---|---:|---:|---:|---:|---:|---:|
 | 1. Individuals | 120 | 0 | 0 | 110 | 10 | 256,550 |
-| 2. Businesses | 119 | 75 | 0 | 44 | 0 | 102,264 |
+| 2. Businesses | 119 | 74 | 0 | 45 | 0 | 104,542 |
 | 3. Representation, Practices and Procedures | 121 | 0 | 0 | 0 | 121 | 257,674 |
-| **All parts** | **360** | **75** | **0** | **154** | **131** | **616,488** |
+| **All parts** | **360** | **74** | **0** | **155** | **131** | **618,766** |
 
 ## Part 1 — Individuals
 
@@ -280,7 +280,7 @@ is indexed, and only the owner moves a page there (see `docs/VERIFICATION.md`).
 | 2.1.5.e | [Shareholder’s basis (e.g., loan basis, distributions and losses in excess of basis, services for stock)](/businesses/business-entities/s-corporations/shareholder-s-basis/) | review | 2,375 | 2026-08-21 |
 | 2.1.5.f | [Revocation, termination and reinstatement](/businesses/business-entities/s-corporations/revocation-termination-and-reinstatement/) | review | 2,458 | 2026-08-21 |
 | 2.1.5.g | [Debt discharge](/businesses/business-entities/s-corporations/debt-discharge/) | review | 2,382 | 2026-08-21 |
-| 2.1.5.h | [Non-cash distributions](/businesses/business-entities/s-corporations/non-cash-distributions/) | stub | — | — |
+| 2.1.5.h | [Non-cash distributions](/businesses/business-entities/s-corporations/non-cash-distributions/) | review | 2,278 | 2026-08-21 |
 
 ### 2.2 Business Tax Preparation
 
