@@ -11511,9 +11511,9 @@
       "verified": "2026-08-21"
     },
     "repair.de_minimis_no_afs": {
-      "value": "$500 per invoice, or per item as substantiated by the invoice — where the taxpayer has no applicable financial statement, had accounting procedures in place at the beginning of the year, and treats the amount as an expense on its books and records",
+      "value": "$2,500 per invoice, or per item as substantiated by the invoice — where the taxpayer has no applicable financial statement, had accounting procedures in place at the beginning of the year, and treats the amount as an expense on its books and records. The figure printed in Reg. § 1.263(a)-1(f)(1)(ii)(D) is $500; Notice 2015-82 raised it to $2,500 for costs incurred in taxable years beginning on or after 1 January 2016",
       "taxYear": 2026,
-      "source": "Reg. § 1.263(a)-1(f)(1)(ii), opened at law.cornell.edu/cfr/text/26/1.263(a)-1",
+      "source": "Reg. § 1.263(a)-1(f)(1)(ii), read at law.cornell.edu/cfr/text/26/1.263(a)-1, as increased by Notice 2015-82, read at irs.gov/pub/irs-drop/n-15-82.pdf",
       "verified": "2026-08-21"
     },
     "repair.small_taxpayer": {
@@ -14880,6 +14880,42 @@
       "value": "where gross income from an activity exceeds the deductions attributable to it, computed without regard to profit motive, in 3 or more of the 5 consecutive taxable years ending with the year in question, the activity is presumed engaged in for profit unless the Secretary establishes otherwise; for an activity consisting in major part of breeding, training, showing or racing horses the test is 2 of 7 (IRC § 183(d))",
       "taxYear": 2026,
       "source": "IRC § 183(d), read at law.cornell.edu/uscode/text/26/183",
+      "verified": "2026-08-21"
+    },
+    "rx.212": {
+      "value": "an individual is allowed a deduction for all the ordinary and necessary expenses paid or incurred during the year for the production or collection of income, for the management, conservation or maintenance of property held for the production of income, and in connection with the determination, collection or refund of any tax (IRC § 212)",
+      "taxYear": 2026,
+      "source": "IRC § 212, read at law.cornell.edu/uscode/text/26/212",
+      "verified": "2026-08-21"
+    },
+    "rx.vacant": {
+      "value": "ordinary and necessary expenses of managing, conserving or maintaining a building devoted to rental purposes are deductible notwithstanding that there is actually no income from it in the taxable year, and regardless of how or why the property was acquired (Treas. Reg. § 1.212-1(b))",
+      "taxYear": 2026,
+      "source": "Treas. Reg. § 1.212-1(b), read at law.cornell.edu/cfr/text/26/1.212-1",
+      "verified": "2026-08-21"
+    },
+    "rx.placed_in_service": {
+      "value": "the period for depreciation begins when the asset is placed in service and ends when it is retired from service, with a proportionate part of one year’s depreciation allowable for the part of the first and last year during which it was in service — for a rental property, placed in service means held out and ready for rent, not first occupied (Treas. Reg. § 1.167(a)-10(b))",
+      "taxYear": 2026,
+      "source": "Treas. Reg. § 1.167(a)-10(b), read at law.cornell.edu/cfr/text/26/1.167(a)-10",
+      "verified": "2026-08-21"
+    },
+    "rx.startup": {
+      "value": "a start-up expenditure is an amount paid in connection with investigating the creation or acquisition of an active trade or business, creating one, or any activity engaged in for profit and for the production of income before the active trade or business begins in anticipation of its becoming one — and which would be deductible if paid in connection with an existing business in the same field; it excludes amounts deductible under IRC §§ 163(a), 164, 174 or 174A (IRC § 195(c)(1))",
+      "taxYear": 2026,
+      "source": "IRC § 195(c), read at law.cornell.edu/uscode/text/26/195",
+      "verified": "2026-08-21"
+    },
+    "rx.allocation_days": {
+      "value": "where a dwelling unit is used for personal purposes on any day in the year, deductions for expenses attributable to the rental may not exceed the proportion that the days rented at a fair rental bear to the total days the unit is used (IRC § 280A(e))",
+      "taxYear": 2026,
+      "source": "IRC § 280A(e), read at law.cornell.edu/uscode/text/26/280A",
+      "verified": "2026-08-21"
+    },
+    "repair.de_minimis_audit_protection": {
+      "value": "for a taxable year beginning before 1 January 2016 the Service will not raise the issue on examination where the taxpayer otherwise satisfies Reg. § 1.263(a)-1(f)(1)(ii) and the amount does not exceed $2,500 per invoice or per item, and will not further pursue an increase already under consideration on that basis (Notice 2015-82, Audit Protection)",
+      "taxYear": 2026,
+      "source": "Notice 2015-82, read at irs.gov/pub/irs-drop/n-15-82.pdf",
       "verified": "2026-08-21"
     }
   }

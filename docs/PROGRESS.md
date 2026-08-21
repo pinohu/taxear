@@ -10,9 +10,9 @@ is indexed, and only the owner moves a page there (see `docs/VERIFICATION.md`).
 | Part | Topics | Stub | Draft | Review | Published | Words |
 |---|---:|---:|---:|---:|---:|---:|
 | 1. Individuals | 120 | 0 | 0 | 110 | 10 | 256,550 |
-| 2. Businesses | 119 | 1 | 0 | 118 | 0 | 275,852 |
+| 2. Businesses | 119 | 0 | 0 | 119 | 0 | 278,305 |
 | 3. Representation, Practices and Procedures | 121 | 0 | 0 | 0 | 121 | 257,674 |
-| **All parts** | **360** | **1** | **0** | **228** | **131** | **790,076** |
+| **All parts** | **360** | **0** | **0** | **229** | **131** | **792,529** |
 
 ## Part 1 — Individuals
 
@@ -408,7 +408,7 @@ is indexed, and only the owner moves a page there (see `docs/VERIFICATION.md`).
 | 2.3.5.c | [Mixed used property/vacation home](/businesses/specialized-returns-and-taxpayers/rental-property/mixed-used-property-vacation-home/) | review | 2,320 | 2026-08-21 |
 | 2.3.5.d | [Passive loss limitation (e.g., special $25,000 allowance, MAGI limits)](/businesses/specialized-returns-and-taxpayers/rental-property/passive-loss-limitation/) | review | 2,121 | 2026-08-21 |
 | 2.3.5.e | [Rental income (e.g., deposits, pre-paid rent, not rented for profit)](/businesses/specialized-returns-and-taxpayers/rental-property/rental-income/) | review | 2,317 | 2026-08-21 |
-| 2.3.5.f | [Rental expenses (e.g., allocation between personal and rental, repair versus capitalized)](/businesses/specialized-returns-and-taxpayers/rental-property/rental-expenses/) | stub | — | — |
+| 2.3.5.f | [Rental expenses (e.g., allocation between personal and rental, repair versus capitalized)](/businesses/specialized-returns-and-taxpayers/rental-property/rental-expenses/) | review | 2,453 | 2026-08-21 |
 
 ## Part 3 — Representation, Practices and Procedures
 
