@@ -29,7 +29,7 @@ authorities:
   - { type: IRC, ref: "§ 163", title: "Interest", url: "https://www.law.cornell.edu/uscode/text/26/163" }
   - { type: IRC, ref: "§ 461", title: "General rule for taxable year of deduction", url: "https://www.law.cornell.edu/uscode/text/26/461" }
 forms: []
-related: ["2.2.4.b", "2.2.4.c", "2.2.4.g", "2.1.5.c", "2.1.2.a"]
+related: ["2.2.4.b", "2.2.4.c", "2.2.4.g", "2.1.5.c", "2.1.2.a", "2.2.4.h"]
 changelog:
   - { date: "2026-08-21", summary: "Initial draft. Sets out the IRC § 702(a) and § 1366(a)(1) separately stated items with the test that decides which items qualify, the IRC § 703(a)(2) deductions a partnership may not take, the IRC § 705 and § 1367 basis adjustments including the reduction for nondeductible non-capital expenditures, the IRC § 704(d) and § 1366(d) loss limitations and the debt basis tier that only subchapter S provides, and the IRC § 6222 consistency requirement enforced by math error assessment." }
 ---

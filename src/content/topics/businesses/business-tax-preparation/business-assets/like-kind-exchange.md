@@ -21,7 +21,7 @@ authorities:
   - { type: Reg, ref: "§ 1.168(i)-6", title: "Like-kind exchanges and involuntary conversions", url: "https://www.law.cornell.edu/cfr/text/26/1.168(i)-6" }
   - { type: Statute, ref: "Pub. L. 115-97, § 13303", title: "Like-kind exchanges of real property", url: "https://www.law.cornell.edu/uscode/text/26/1031" }
 forms: []
-related: ["2.2.3.b", "2.2.3.a", "2.2.3.d", "2.2.2.c", "2.2.3.e"]
+related: ["2.2.3.b", "2.2.3.a", "2.2.3.d", "2.2.2.c", "2.2.3.e", "2.2.4.h"]
 changelog:
   - { date: "2026-08-21", summary: "Initial draft. Covers IRC § 1031 from the business side: the confinement to real property by Pub. L. 115-97 § 13303 and what that means for a trade-in, the IRC § 1245(b)(4) ceiling on recapture in a deferred exchange, the Reg. § 1.168(i)-6 rule that the exchanged basis continues the relinquished property's recovery period while excess basis starts afresh, and the IRC § 1031(e) treatment of an interest in a partnership that has elected out of subchapter K." }
 ---

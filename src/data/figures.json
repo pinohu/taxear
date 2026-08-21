@@ -12187,6 +12187,78 @@
       "taxYear": 2026,
       "source": "IRM 4.10.3.8.2, opened at irs.gov/irm/part4/irm_04-010-003",
       "verified": "2026-08-21"
+    },
+    "rp.loss_disallowed": {
+      "value": "no deduction is allowed for any loss from a sale or exchange of property, directly or indirectly, between persons in any of the listed relationships — the one carve-out being a loss of the distributing corporation or the distributee on a distribution in complete liquidation",
+      "taxYear": 2026,
+      "source": "IRC § 267(a)(1), opened at law.cornell.edu/uscode/text/26/267",
+      "verified": "2026-08-21"
+    },
+    "rp.matching": {
+      "value": "where the payee’s method of accounting means the amount is not includible until paid, and the payer and payee are related at the close of the payer’s year, the payer’s deduction is deferred to the year the amount is includible in the payee’s income",
+      "taxYear": 2026,
+      "source": "IRC § 267(a)(2), opened at law.cornell.edu/uscode/text/26/267",
+      "verified": "2026-08-21"
+    },
+    "rp.family": {
+      "value": "the family of an individual includes only brothers and sisters, whether by the whole or the half blood, the spouse, ancestors and lineal descendants — so a sibling and a half-sibling are both in, and a step-parent, an in-law, an aunt, an uncle, a niece, a nephew and a cousin are all out",
+      "taxYear": 2026,
+      "source": "IRC § 267(c)(4), opened at law.cornell.edu/uscode/text/26/267",
+      "verified": "2026-08-21"
+    },
+    "rp.relationships": {
+      "value": "the listed relationships include family members; an individual and a corporation more than 50 percent of which that individual owns; two corporations in the same controlled group; a range of grantor, fiduciary and beneficiary combinations; a person and a controlled IRC § 501 organization; a corporation and a partnership more than 50 percent of each owned by the same persons; and various S and C corporation pairings on the same 50 percent test",
+      "taxYear": 2026,
+      "source": "IRC § 267(b), opened at law.cornell.edu/uscode/text/26/267",
+      "verified": "2026-08-21"
+    },
+    "rp.attribution": {
+      "value": "stock owned by a corporation, partnership, estate or trust is treated as owned proportionately by its owners; an individual is treated as owning stock owned by family; and an individual owning stock otherwise than by family attribution is treated as owning stock owned by a partner",
+      "taxYear": 2026,
+      "source": "IRC § 267(c)(1), (2) and (3), opened at law.cornell.edu/uscode/text/26/267",
+      "verified": "2026-08-21"
+    },
+    "rp.267d": {
+      "value": "where a loss was disallowed on a sale to the taxpayer, the taxpayer’s later gain on that property is recognised only to the extent it exceeds the disallowed loss allocable to it — relief available to the transferee alone, and lost entirely if the property is never sold at a gain",
+      "taxYear": 2026,
+      "source": "IRC § 267(d)(1), opened at law.cornell.edu/uscode/text/26/267",
+      "verified": "2026-08-21"
+    },
+    "rp.707b": {
+      "value": "the same loss disallowance applies between a partnership and a person owning more than 50 percent of its capital or profits interest, and between two partnerships more than 50 percent of each owned by the same persons — with IRC § 267(d) applied to a later sale as if the loss had been disallowed under § 267(a)(1)",
+      "taxYear": 2026,
+      "source": "IRC § 707(b)(1), opened at law.cornell.edu/uscode/text/26/707",
+      "verified": "2026-08-21"
+    },
+    "rp.707b2": {
+      "value": "gain on a sale between those same parties is ordinary income where the property is, in the transferee’s hands, other than a capital asset",
+      "taxYear": 2026,
+      "source": "IRC § 707(b)(2), opened at law.cornell.edu/uscode/text/26/707",
+      "verified": "2026-08-21"
+    },
+    "rp.1239": {
+      "value": "gain on a sale or exchange of property, directly or indirectly, between related persons is ordinary income if the property is depreciable in the transferee’s hands — so the seller cannot convert capital gain by selling to a controlled entity that will depreciate the asset",
+      "taxYear": 2026,
+      "source": "IRC § 1239(a), opened at law.cornell.edu/uscode/text/26/1239",
+      "verified": "2026-08-21"
+    },
+    "rp.1031f": {
+      "value": "where a taxpayer exchanges property with a related person and either of them disposes of the property received within 2 years of the last transfer, nonrecognition is denied to the taxpayer and the gain or loss is taken into account as of the date of that disposition",
+      "taxYear": 2026,
+      "source": "IRC § 1031(f)(1), opened at law.cornell.edu/uscode/text/26/1031",
+      "verified": "2026-08-21"
+    },
+    "rp.1031f_exceptions": {
+      "value": "dispositions after the earlier of the death of the taxpayer or of the related person, compulsory or involuntary conversions where the exchange preceded the threat, and dispositions neither of which had tax avoidance as a principal purpose, are not counted — and the section does not apply at all to an exchange structured to avoid the subsection",
+      "taxYear": 2026,
+      "source": "IRC § 1031(f)(2) and (4), opened at law.cornell.edu/uscode/text/26/1031",
+      "verified": "2026-08-21"
+    },
+    "rp.7872": {
+      "value": "on a below-market gift loan or demand loan the forgone interest is treated as transferred from the lender to the borrower and retransferred by the borrower to the lender as interest, deemed to happen on the last day of the calendar year",
+      "taxYear": 2026,
+      "source": "IRC § 7872(a), opened at law.cornell.edu/uscode/text/26/7872",
+      "verified": "2026-08-21"
     }
   }
 }
