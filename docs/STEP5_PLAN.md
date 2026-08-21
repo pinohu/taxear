@@ -7,37 +7,79 @@ and 2 begin. Read that first if you are starting a new phase rather than continu
 
 Regenerate the numbers with `npm run progress`.
 
-## Where the project stands (21 August 2026)
+## Where the project stands (21 August 2026, later)
 
-**131 topic pages at `published`, 174 at `review`, 55 at `stub`.** Part 1 is complete at
-120 / 120 and Part 3 at 121 / 121; Part 2 stands at 64 of 119. **Domain 2.1 is complete**,
-all five sections, and in domain 2.2 **sections 2.2.1 and 2.2.2 are complete** — nineteen
-more topics. `figures.json` carries 1,888 keys, every one with a `verified` date against a
-source opened that day. `npm run verify` reports 0 errors. See the Part 2 sections below
-for what the next session should not relearn.
+**131 topic pages at `published`, 191 at `review`, 38 at `stub`.** Part 1 is complete at
+120 / 120 and Part 3 at 121 / 121; Part 2 stands at 81 of 119. **Domain 2.1 is complete**,
+and in domain 2.2 **sections 2.2.1, 2.2.2, 2.2.3 and 2.2.4 are complete** — section 2.2.5
+is three of thirteen. `figures.json` carries 2,084 keys, every one with a `verified` date
+against a source opened that day. `npm run verify` reports 0 errors. See the Part 2
+sections below for what the next session should not relearn.
 
 ### What remains in Part 2
 
-Domain 2.2 — 2.2.3 Business assets (5), 2.2.4 Analysis of financial records (9), 2.2.5
-Advising the business taxpayer (13). Domain 2.3 — 2.3.1 Trust and estate income tax (7),
+Domain 2.2 — 2.2.5 Advising the business taxpayer, ten topics remaining: 2.2.5.d related
+party transactions, 2.2.5.e selection of business entity, 2.2.5.f comingling, 2.2.5.g advice
+on accounting methods, 2.2.5.h transfer of property in or out, 2.2.5.i life cycle,
+2.2.5.j type of industry, 2.2.5.k worker classification, 2.2.5.l deductions and credits for
+tax planning, 2.2.5.m ACA compliance. Domain 2.3 — 2.3.1 Trust and estate income tax (7),
 2.3.2 Exempt organizations (4), 2.3.3 Retirement plans (6), 2.3.4 Farmers (5), 2.3.5 Rental
-property (6). Fifty-five topics, in that order.
+property (6). Thirty-eight topics, in that order.
+
+## Sections 2.2.3 and 2.2.4 complete, 2.2.5 begun (21 August 2026)
+
+### The long-standing figure gap is CLOSED
+
+The three figures earlier sessions could not open have all now been found and read in full.
+The failed probes were looking in the wrong numbering range.
+
+- **Rev. Proc. 2026-15** — the IRC § 280F(a) automobile depreciation limitation tables for
+  2026 and the Reg. § 1.280F-7(a) lease inclusion table.
+- **Notice 2026-10** — the 2026 standard mileage rates, the portion of each business mile
+  treated as depreciation, and the maximum FAVR automobile cost.
+- **Notice 2025-54** — the 2025-2026 special per diem rates, which run on a **federal fiscal
+  year**, so the rates in force change on 1 October rather than 1 January.
+
+Fourteen figure keys added and pages 2.2.2.e and 2.2.2.f updated. Two substantive points
+came out of the reading: the two 2026 automobile tables differ **only in the first year and
+only by the fixed IRC § 168(k)(2)(F)(i) amount**, and Rev. Proc. 2026-15 § 2.03 applies
+Table 1 whether the § 168(k) deduction comes from the amended provision or from former
+§ 168(k) — whose applicable percentage for property placed in service in 2026 has phased
+down to 20 percent. Two statutory routes, one table.
+
+### What the next session should not relearn
+
+**Where the IRM material lives.** IRM 4.10.3 (examination of records) and IRM 4.10.4
+(examination of income) are both reachable and were the backbone of section 2.2.4. Useful
+anchors: 4.10.3.7.6 (books-to-return reconciliation and the document chain), 4.10.3.8
+(Schedules M-1, M-2, M-3), 4.10.3.10 (balance sheet analysis, in five steps), 4.10.3.11.1
+(gross profit ratio test), 4.10.4.2.3.5 and .6 (income reconciliation and gross receipts
+testing), 4.10.4.2.3.8 and 4.10.4.2.4.8 (horizontal and vertical ratio analysis).
+
+**Two rules that decide questions and that most material states wrongly.** Schedule M-1 has
+a *different endpoint* for a pass-through (income per Schedule K, after separately stated
+items) than for a C corporation (taxable income before the NOL and special deductions) —
+IRM 4.10.3.8.1. And the Schedule M-3 trigger differs by entity: a corporation is tested on
+**total assets alone**, a partnership on any of four tests **including total receipts**.
+
+**Section 2.2.4 is the worst-covered section in the bank found so far.** Five of its nine
+topics have no bank questions at all, and the four that do carry two questions that are
+unanswerable on current law plus three rationales that misstate the governing rule while
+reaching the right answer. Everything is logged in `private/discrepancies.md`.
+
+**Page length.** Section 2.2.4 pages ran 2,600-2,950 words against the 1,400-2,500 target
+(a `verify` warning, not an error) because the outline puts several complete statutory
+regimes in one topic. Writing to **three scenarios and four traps** rather than four and six
+brings a page in at target from the first draft — that is what 2.2.4.f onward do.
 
 ## Domain 2.2 half done — sections 2.2.1 and 2.2.2 (21 August 2026)
 
 ### What the next session should not relearn
 
-**Two figures could not be opened and are deliberately absent from two pages.** The
-current-year standard mileage rate and the annual automobile depreciation limitations under
-IRC § 280F(d)(7) are set by IRS guidance that is not in Rev. Proc. 2025-32 and that could
-not be located in the irs-drop notice series today. The same is true of the per diem rates
-under Rev. Proc. 2019-48. Under rule 1 they are not stated: **2.2.2.e** omits per diem
-figures and **2.2.2.f** omits the mileage rate and the indexed IRC § 280F caps, each saying
-so in terms on the page. **One research task closes both** — find the current mileage
-notice and the current automobile depreciation revenue procedure, create
-`vehicle.mileage_rate_2026`, `vehicle.280F_caps_2026` and per diem keys, and add them.
-Contrast the home office safe harbour, which rests on Rev. Proc. 2013-13 and was retrievable,
-so 2.2.2.o carries its figures.
+**~~Two figures could not be opened~~ — CLOSED 21 August 2026.** This task is done; see the
+section above. Rev. Proc. 2026-15, Notice 2026-10 and Notice 2025-54 were all located and
+read, fourteen figure keys were added, and both 2.2.2.e and 2.2.2.f now carry their
+current-year figures. Nothing is outstanding on either page.
 
 **Rev. Proc. 2025-32 is downloaded and parsed.** It is cached in the scratchpad as
 `rp2532.txt` and supplied the 2026 figures for IRC § 461(l), IRC § 179, IRC § 448(c) and
