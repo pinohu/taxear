@@ -18,7 +18,7 @@ authorities:
   - { type: IRC, ref: "§ 7701(a)(3)", title: "Corporation defined", url: "https://www.law.cornell.edu/uscode/text/26/7701" }
   - { type: IRC, ref: "§ 951", title: "Amounts included in gross income of United States shareholders", url: "https://www.law.cornell.edu/uscode/text/26/951" }
 forms: []
-related: ["2.1.1.a", "2.1.1.b", "2.1.1.d", "2.1.1.g", "1.6.3.e", "2.1.1.f", "2.1.1.i", "2.1.1.j", "2.1.1.k", "2.1.1.l", "2.1.3.a", "2.1.3.b"]
+related: ["2.1.1.a", "2.1.1.b", "2.1.1.d", "2.1.1.g", "1.6.3.e", "2.1.1.f", "2.1.1.i", "2.1.1.j", "2.1.1.k", "2.1.1.l", "2.1.3.a", "2.1.3.b", "2.1.3.d"]
 changelog:
   - { date: "2026-08-21", summary: "Initial draft. Sets out the flat IRC § 11(b) rate, the § 6072(a) April filing date that distinguishes a C corporation from the § 6072(b) entities, the § 170(b)(2)(A) charitable limitation as rewritten by Pub. L. 119-21 § 70426 to add a 1 percent floor beneath the 10 percent ceiling for taxable years beginning after 2025, the § 170(d)(2) carryover rules that follow from it, and the § 59A base erosion tax at the 10.5 percent rate substituted by Pub. L. 119-21 § 70331." }
 ---

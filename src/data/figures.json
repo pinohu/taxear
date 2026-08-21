@@ -9157,6 +9157,42 @@
       "taxYear": 2026,
       "source": "IRC § 246(c), read at law.cornell.edu/uscode/text/26/246",
       "verified": "2026-08-21"
+    },
+    "drd.rates": {
+      "value": "50 percent of dividends received from a domestic corporation; 65 percent where the dividend is received from a 20-percent owned corporation; and 100 percent for a qualifying dividend and for dividends received by a small business investment company (IRC § 243(a), (c)(1))",
+      "taxYear": 2026,
+      "source": "IRC § 243(a), (c), read at law.cornell.edu/uscode/text/26/243",
+      "verified": "2026-08-21"
+    },
+    "drd.twenty_percent": {
+      "value": "a 20-percent owned corporation means any corporation of which 20 percent or more of the stock, by vote and by value, is owned by the taxpayer — so the 65 percent rate begins at exactly 20 percent, not above it, and stock described in IRC § 1504(a)(4) is left out of the count (IRC § 243(c)(2))",
+      "taxYear": 2026,
+      "source": "IRC § 243(c)(2), read at law.cornell.edu/uscode/text/26/243",
+      "verified": "2026-08-21"
+    },
+    "drd.qualifying_dividend": {
+      "value": "a qualifying dividend, on which the 100 percent deduction depends, is one received by a corporation that at the close of the day of receipt is a member of the same affiliated group as the distributing corporation, and that is distributed out of earnings and profits of a year of the distributing corporation ending after 31 December 1963 on each day of which both were members of that group. Affiliated group takes its IRC § 1504(a) meaning without §§ 1504(b)(2) and 1504(c), and the election under IRC § 243(b)(2) binds every member and is revocable only with the consent of the Secretary (IRC § 243(b))",
+      "taxYear": 2026,
+      "source": "IRC § 243(b), read at law.cornell.edu/uscode/text/26/243",
+      "verified": "2026-08-21"
+    },
+    "drd.taxable_income_limit": {
+      "value": "the aggregate deduction allowed by IRC § 243(a)(1), IRC § 245(a) and (b) and IRC § 250 may not exceed a percentage of taxable income computed without those deductions and without IRC §§ 172 and 199A, without any IRC § 1059 adjustment and without any capital loss carryback. The limitation is applied first to dividends from 20-percent owned corporations at 65 percent, then separately to other dividends at 50 percent with taxable income reduced by the 20-percent-owned dividends (IRC § 246(b)(1), (3))",
+      "taxYear": 2026,
+      "source": "IRC § 246(b), read at law.cornell.edu/uscode/text/26/246",
+      "verified": "2026-08-21"
+    },
+    "drd.nol_exception": {
+      "value": "the taxable income limitation does not apply for any taxable year for which there is a net operating loss as determined under IRC § 172 — so a corporation pushed into a loss by the full deduction takes the full deduction (IRC § 246(b)(2))",
+      "taxYear": 2026,
+      "source": "IRC § 246(b)(2), read at law.cornell.edu/uscode/text/26/246",
+      "verified": "2026-08-21"
+    },
+    "drd.holding_period": {
+      "value": "no deduction is allowed under IRC § 243, § 245 or § 245A on a dividend on a share held for 45 days or less during the 91-day period beginning 45 days before the ex-dividend date, or to the extent the taxpayer is obliged to make related payments on substantially similar or related property; for preference dividends attributable to a period exceeding 366 days the test is 90 days within a 181-day period (IRC § 246(c))",
+      "taxYear": 2026,
+      "source": "IRC § 246(c), read at law.cornell.edu/uscode/text/26/246",
+      "verified": "2026-08-21"
     }
   }
 }
