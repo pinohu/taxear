@@ -10,9 +10,9 @@ is indexed, and only the owner moves a page there (see `docs/VERIFICATION.md`).
 | Part | Topics | Stub | Draft | Review | Published | Words |
 |---|---:|---:|---:|---:|---:|---:|
 | 1. Individuals | 120 | 0 | 0 | 110 | 10 | 256,550 |
-| 2. Businesses | 119 | 55 | 0 | 64 | 0 | 148,229 |
+| 2. Businesses | 119 | 54 | 0 | 65 | 0 | 150,481 |
 | 3. Representation, Practices and Procedures | 121 | 0 | 0 | 0 | 121 | 257,674 |
-| **All parts** | **360** | **55** | **0** | **174** | **131** | **662,453** |
+| **All parts** | **360** | **54** | **0** | **175** | **131** | **664,705** |
 
 ## Part 1 — Individuals
 
@@ -317,7 +317,7 @@ is indexed, and only the owner moves a page there (see `docs/VERIFICATION.md`).
 
 | Code | Title | Status | Words | Last reviewed |
 |---|---|---|---:|---|
-| 2.2.3.a | [Basis of assets](/businesses/business-tax-preparation/business-assets/basis-of-assets/) | stub | — | — |
+| 2.2.3.a | [Basis of assets](/businesses/business-tax-preparation/business-assets/basis-of-assets/) | review | 2,252 | 2026-08-21 |
 | 2.2.3.b | [Disposition of property or assets](/businesses/business-tax-preparation/business-assets/disposition-of-property-or-assets/) | stub | — | — |
 | 2.2.3.c | [Like kind exchange](/businesses/business-tax-preparation/business-assets/like-kind-exchange/) | stub | — | — |
 | 2.2.3.d | [Converted property](/businesses/business-tax-preparation/business-assets/converted-property/) | stub | — | — |

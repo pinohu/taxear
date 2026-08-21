@@ -11329,6 +11329,42 @@
       "taxYear": 2026,
       "source": "Rev. Proc. 2013-13 § 4.02, opened at irs.gov/pub/irs-drop/rp-13-13.pdf",
       "verified": "2026-08-21"
+    },
+    "assetbasis.cost": {
+      "value": "the basis of property is its cost, being the amount paid for it in cash or other property, except as subchapters C, K, O and P otherwise provide",
+      "taxYear": 2026,
+      "source": "IRC § 1012(a) and Reg. § 1.1012-1(a), opened at law.cornell.edu/uscode/text/26/1012 and /cfr/text/26/1.1012-1",
+      "verified": "2026-08-21"
+    },
+    "assetbasis.real_estate_tax": {
+      "value": "a purchaser does not include in cost any amount paid to the seller as reimbursement for real property taxes treated by IRC § 164(d) as imposed on the purchaser, but does include taxes it pays or assumes that IRC § 164(d) treats as imposed on the seller",
+      "taxYear": 2026,
+      "source": "Reg. § 1.1012-1(b), opened at law.cornell.edu/cfr/text/26/1.1012-1",
+      "verified": "2026-08-21"
+    },
+    "assetbasis.adjustments": {
+      "value": "proper adjustment shall in all cases be made for expenditures, receipts, losses or other items properly chargeable to capital account, and for depreciation, amortization and depletion to the extent allowed or allowable",
+      "taxYear": 2026,
+      "source": "IRC § 1016(a)(1) and (a)(2), opened at law.cornell.edu/uscode/text/26/1016",
+      "verified": "2026-08-21"
+    },
+    "assetbasis.inherited": {
+      "value": "the fair market value at the date of the decedent's death, or its value at the alternate valuation date if IRC § 2032 is elected, or its IRC § 2032A special use value if that is elected",
+      "taxYear": 2026,
+      "source": "IRC § 1014(a), opened at law.cornell.edu/uscode/text/26/1014",
+      "verified": "2026-08-21"
+    },
+    "assetbasis.gift": {
+      "value": "the same as it would be in the donor's hands — but where that basis exceeds the fair market value at the time of the gift, fair market value is used instead for the purpose of determining loss",
+      "taxYear": 2026,
+      "source": "IRC § 1015(a), opened at law.cornell.edu/uscode/text/26/1015",
+      "verified": "2026-08-21"
+    },
+    "assetbasis.capitalize": {
+      "value": "no deduction is allowed for any amount paid out for new buildings or for permanent improvements or betterments made to increase the value of any property or estate, subject to the exceptions listed in the paragraph",
+      "taxYear": 2026,
+      "source": "IRC § 263(a)(1), opened at law.cornell.edu/uscode/text/26/263",
+      "verified": "2026-08-21"
     }
   }
 }
