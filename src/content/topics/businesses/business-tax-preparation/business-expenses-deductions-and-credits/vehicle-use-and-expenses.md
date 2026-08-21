@@ -13,6 +13,8 @@ authorities:
   - { type: IRC, ref: "§ 162(a)", title: "Trade or business expenses", url: "https://www.law.cornell.edu/uscode/text/26/162" }
   - { type: IRC, ref: "§ 274(d)", title: "Substantiation required", url: "https://www.law.cornell.edu/uscode/text/26/274" }
   - { type: IRC, ref: "§ 280F(a)", title: "Limitation on amount of depreciation for luxury automobiles", url: "https://www.law.cornell.edu/uscode/text/26/280F" }
+  - { type: RevProc, ref: "Rev. Proc. 2026-15", title: "Depreciation limitations for passenger automobiles placed in service in 2026", url: "https://www.irs.gov/pub/irs-drop/rp-26-15.pdf" }
+  - { type: Notice, ref: "Notice 2026-10", title: "2026 standard mileage rates", url: "https://www.irs.gov/pub/irs-drop/n-26-10.pdf" }
   - { type: IRC, ref: "§ 280F(b)", title: "Limitation where business use of listed property not greater than 50 percent", url: "https://www.law.cornell.edu/uscode/text/26/280F" }
   - { type: IRC, ref: "§ 168(g)", title: "Alternative depreciation system", url: "https://www.law.cornell.edu/uscode/text/26/168" }
   - { type: IRC, ref: "§ 179", title: "Election to expense certain depreciable business assets", url: "https://www.law.cornell.edu/uscode/text/26/179" }
@@ -22,7 +24,8 @@ authorities:
 forms: []
 related: ["2.2.2.e", "2.2.2.c", "2.2.2.a", "2.2.2.b", "2.2.2.h"]
 changelog:
-  - { date: "2026-08-21", summary: "Initial draft. Sets out the choice between actual expenses and the optional mileage method authorised by Reg. § 1.274-5(j)(2), what the mileage rate subsumes, the IRC § 280F(a) caps on depreciation of a passenger automobile with the treatment of unrecovered basis, and the IRC § 280F(b) rule that drops listed property to the alternative depreciation system and recaptures excess depreciation when qualified business use falls to half or less. The current-year mileage and depreciation figures are set by annual IRS guidance and are not stated here — see the note under How this has changed." }
+  - { date: "2026-08-21", summary: "Initial draft. Sets out the choice between actual expenses and the optional mileage method authorised by Reg. § 1.274-5(j)(2), what the mileage rate subsumes, the IRC § 280F(a) caps on depreciation of a passenger automobile with the treatment of unrecovered basis, and the IRC § 280F(b) rule that drops listed property to the alternative depreciation system and recaptures excess depreciation when qualified business use falls to half or less. The current-year figures are stated: the 2026 mileage rates and basis reduction from Notice 2026-10 and the 2026 IRC § 280F(a) limitation tables and lease inclusion figure from Rev. Proc. 2026-15." }
+  - { date: "2026-08-21", summary: "Adds the 2026 annual figures, both opened at source today. Notice 2026-10 supplies the business, charitable and medical mileage rates, the portion of each business mile treated as depreciation, and the maximum standard automobile cost for a fixed and variable rate plan. Rev. Proc. 2026-15 supplies both IRC § 280F(a) limitation tables for automobiles placed in service in 2026 and the fair market value at which the lease inclusion table begins, and records that the two tables now differ only in the first year and only by the fixed IRC § 168(k)(2)(F)(i) amount." }
 ---
 
 A vehicle used in a business raises three questions in sequence: how much of its use is business
@@ -44,7 +47,19 @@ IRC § 280F(d)(4). The one relief is {fig:vehicle.nonpersonal_exception}
 (Reg. § 1.274-5(k)(1)).
 
 **Depreciation caps.** {fig:vehicle.280F_caps} (IRC § 280F(a)(1)(A)), and
-{fig:vehicle.280F_unrecovered} (IRC § 280F(a)(1)(B)).
+{fig:vehicle.280F_unrecovered} (IRC § 280F(a)(1)(B)). Those statutory figures are indexed under
+IRC § 280F(d)(7) and republished each year. For a passenger automobile placed in service in 2026
+the limitations are {fig:vehicle.280F_bonus_2026} (Rev. Proc. 2026-15 Table 1), and where no
+IRC § 168(k) deduction applies, {fig:vehicle.280F_nobonus_2026} (Rev. Proc. 2026-15 Table 2). The
+gap between the two tables is exactly {fig:vehicle.280F_bonus_uplift}, and
+{fig:vehicle.280F_no_bonus_when} (Rev. Proc. 2026-15 § 2.03).
+
+**The current mileage rate.** {fig:vehicle.mileage_2026} (Notice 2026-10 § 3). Two other rates
+travel with it — {fig:vehicle.mileage_charitable} and {fig:vehicle.mileage_medical}. And the rate
+is not free of basis consequences: {fig:vehicle.mileage_depreciation} (Notice 2026-10 § 4).
+
+**Leases and allowances.** {fig:vehicle.lease_inclusion_2026} (Rev. Proc. 2026-15 Table 3), and
+{fig:vehicle.favr_2026} (Notice 2026-10 §§ 5 and 6).
 
 **When business use falls.** {fig:vehicle.280F_fifty_percent} (IRC § 280F(b)(1)), and
 {fig:vehicle.280F_recapture} (IRC § 280F(b)(2)(A)).
@@ -58,6 +73,12 @@ IRC § 280F(d)(4). The one relief is {fig:vehicle.nonpersonal_exception}
 | Substantiation | {fig:travel.substantiation} | IRC § 274(d) |
 | Qualified nonpersonal use vehicles | {fig:vehicle.nonpersonal_exception} | Reg. § 1.274-5(k)(1) |
 | Statutory depreciation caps | {fig:vehicle.280F_caps} | IRC § 280F(a)(1)(A) |
+| 2026 caps, with IRC § 168(k) | {fig:vehicle.280F_bonus_2026} | Rev. Proc. 2026-15 Table 1 |
+| 2026 caps, without IRC § 168(k) | {fig:vehicle.280F_nobonus_2026} | Rev. Proc. 2026-15 Table 2 |
+| 2026 business mileage rate | {fig:vehicle.mileage_2026} | Notice 2026-10 § 3 |
+| Basis reduction per business mile | {fig:vehicle.mileage_depreciation} | Notice 2026-10 § 4 |
+| Lease inclusion | {fig:vehicle.lease_inclusion_2026} | Rev. Proc. 2026-15 Table 3 |
+| Maximum FAVR automobile cost | {fig:vehicle.favr_2026} | Notice 2026-10 § 5 |
 | Unrecovered basis | {fig:vehicle.280F_unrecovered} | IRC § 280F(a)(1)(B) |
 | Below predominant business use | {fig:vehicle.280F_fifty_percent} | IRC § 280F(b)(1) |
 | Recapture | {fig:vehicle.280F_recapture} | IRC § 280F(b)(2)(A) |
@@ -87,9 +108,11 @@ the one that matters.
 
 **Depreciation on a passenger automobile is capped four ways over.**
 {fig:vehicle.280F_caps} (IRC § 280F(a)(1)(A)). The figures in the statute are adjusted for
-inflation and republished annually, and the practical effect is that a car costing more than a
-modest amount is recovered over far longer than its recovery period.
-{fig:vehicle.280F_unrecovered} (IRC § 280F(a)(1)(B)) picks up what is left.
+inflation and republished annually — for 2026, {fig:vehicle.280F_bonus_2026}. The practical effect
+is that a car costing more than a modest amount is recovered over far longer than its recovery
+period, and {fig:vehicle.280F_unrecovered} (IRC § 280F(a)(1)(B)) picks up what is left. Note that
+the first-year figure is the only one of the four that the IRC § 168(k) deduction moves, and it
+moves by a fixed statutory amount rather than proportionally.
 
 **The IRC § 179 election does not escape the caps.** Expensing a car under IRC § 179 is still
 subject to the IRC § 280F(a) limitation for that year, and a sport utility vehicle above the
@@ -120,9 +143,11 @@ the running costs is deductible. Depreciation is claimed on 80 percent of the $4
 subject to the IRC § 280F(a) caps if the van is a passenger automobile — many work vans are not,
 because they fall outside the definition, and then the caps do not apply at all.
 
-**The mileage rate.** The deduction is 24,000 business miles at the published rate, and nothing
-else from that list is deductible: not the insurance, not the repairs, not the registration, and
-no depreciation, because the rate is deemed to include them all.
+**The mileage rate.** The deduction is 24,000 business miles at {fig:vehicle.mileage_2026}, and
+nothing else from that list is deductible: not the insurance, not the repairs, not the
+registration, and no depreciation, because the rate is deemed to include them all. The basis of the
+van still falls, by {fig:vehicle.mileage_depreciation} — so choosing the mileage rate defers no
+recapture, it merely relabels where the depreciation came from.
 
 Parking and tolls incurred on business calls are deductible under either method, and so is the
 business share of any interest on the loan that bought the van.
@@ -203,14 +228,18 @@ first year forecloses the mileage rate for that vehicle later.</p>
 
 ## How this has changed
 
-**The current-year mileage rate and the current-year IRC § 280F(a) caps are not stated on this
-page, and that is deliberate.** Both are set by annual IRS guidance rather than by statute — the
-mileage rate under the authority in Reg. § 1.274-5(j)(2), and the IRC § 280F(a) figures under the
-inflation adjustment in IRC § 280F(d)(7). The rules on this page are the statutory and regulatory
-ones, all opened at source. The current figures were not opened, so under this site's sourcing
-rule they are not given. Consult the IRS notice for the calendar year and the annual revenue
-procedure on automobile depreciation limitations, and check the year on the face of the document
-before relying on it.
+**The 2026 figures on this page come from annual guidance, not from statute**, and they move every
+year. The mileage rate is set under the authority in Reg. § 1.274-5(j)(2) and published in
+Notice 2026-10; the IRC § 280F(a) caps are indexed under IRC § 280F(d)(7) and published in
+Rev. Proc. 2026-15. Always check the year on the face of the document before relying on a figure
+from either source.
+
+**The two 2026 depreciation tables now differ only in the first year, and by a fixed amount.**
+That is the visible consequence of Pub. L. 119-21 § 70301 making the IRC § 168(k) deduction
+permanent at the full rate: Rev. Proc. 2026-15 states that its Table 1 applies whether the
+deduction is allowed under the amended § 168(k) or under former § 168(k), whose applicable
+percentage for property acquired before 20 January 2025 and placed in service in 2026 has phased
+down to a fifth. Two different statutory routes, one table.
 
 **The statutory caps in IRC § 280F(a)(1)(A) were raised sharply in 2017 and are the base for
 indexation.** Pub. L. 115-97 § 13202(a) replaced figures that had stood at a fraction of their

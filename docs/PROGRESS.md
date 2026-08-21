@@ -10,9 +10,9 @@ is indexed, and only the owner moves a page there (see `docs/VERIFICATION.md`).
 | Part | Topics | Stub | Draft | Review | Published | Words |
 |---|---:|---:|---:|---:|---:|---:|
 | 1. Individuals | 120 | 0 | 0 | 110 | 10 | 256,550 |
-| 2. Businesses | 119 | 46 | 0 | 73 | 0 | 170,629 |
+| 2. Businesses | 119 | 46 | 0 | 73 | 0 | 171,071 |
 | 3. Representation, Practices and Procedures | 121 | 0 | 0 | 0 | 121 | 257,674 |
-| **All parts** | **360** | **46** | **0** | **183** | **131** | **684,853** |
+| **All parts** | **360** | **46** | **0** | **183** | **131** | **685,295** |
 
 ## Part 1 — Individuals
 
@@ -301,8 +301,8 @@ is indexed, and only the owner moves a page there (see `docs/VERIFICATION.md`).
 | 2.2.2.b | [Business rental deduction, including self-rentals](/businesses/business-tax-preparation/business-expenses-deductions-and-credits/business-rental-deduction-including-self-rentals/) | review | 2,240 | 2026-08-21 |
 | 2.2.2.c | [Depreciation, amortization (start-up and organizational cost), IRC Section 179, depletion, bonus depreciation, and correcting errors](/businesses/business-tax-preparation/business-expenses-deductions-and-credits/depreciation-amortization-start-up-and-organizational-cost/) | review | 2,318 | 2026-08-21 |
 | 2.2.2.d | [Business bad debts](/businesses/business-tax-preparation/business-expenses-deductions-and-credits/business-bad-debts/) | review | 2,227 | 2026-08-21 |
-| 2.2.2.e | [Business travel, meals, and gift expenses](/businesses/business-tax-preparation/business-expenses-deductions-and-credits/business-travel-meals-and-gift-expenses/) | review | 2,179 | 2026-08-21 |
-| 2.2.2.f | [Vehicle use and expenses](/businesses/business-tax-preparation/business-expenses-deductions-and-credits/vehicle-use-and-expenses/) | review | 2,314 | 2026-08-21 |
+| 2.2.2.e | [Business travel, meals, and gift expenses](/businesses/business-tax-preparation/business-expenses-deductions-and-credits/business-travel-meals-and-gift-expenses/) | review | 2,326 | 2026-08-21 |
+| 2.2.2.f | [Vehicle use and expenses](/businesses/business-tax-preparation/business-expenses-deductions-and-credits/vehicle-use-and-expenses/) | review | 2,609 | 2026-08-21 |
 | 2.2.2.g | [Interest expense](/businesses/business-tax-preparation/business-expenses-deductions-and-credits/interest-expense/) | review | 2,052 | 2026-08-21 |
 | 2.2.2.h | [Insurance expense](/businesses/business-tax-preparation/business-expenses-deductions-and-credits/insurance-expense/) | review | 2,211 | 2026-08-21 |
 | 2.2.2.i | [Taxes (e.g., deductibility of taxes, assessments, penalties; proper treatment of sales taxes paid, excise)](/businesses/business-tax-preparation/business-expenses-deductions-and-credits/taxes/) | review | 2,314 | 2026-08-21 |

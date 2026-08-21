@@ -14,6 +14,8 @@ authorities:
   - { type: IRC, ref: "§ 274(a)", title: "Entertainment, amusement, recreation, or qualified transportation fringes", url: "https://www.law.cornell.edu/uscode/text/26/274" }
   - { type: IRC, ref: "§ 274(b)", title: "Gifts", url: "https://www.law.cornell.edu/uscode/text/26/274" }
   - { type: IRC, ref: "§ 274(d)", title: "Substantiation required", url: "https://www.law.cornell.edu/uscode/text/26/274" }
+  - { type: RevProc, ref: "Rev. Proc. 2019-48", title: "Per diem substantiation rules", url: "https://www.irs.gov/pub/irs-drop/rp-19-48.pdf" }
+  - { type: Notice, ref: "Notice 2025-54", title: "2025-2026 special per diem rates", url: "https://www.irs.gov/pub/irs-drop/n-25-54.pdf" }
   - { type: IRC, ref: "§ 274(k)", title: "Business meals", url: "https://www.law.cornell.edu/uscode/text/26/274" }
   - { type: IRC, ref: "§ 274(n)", title: "Only 50 percent of meal expenses allowed as deduction", url: "https://www.law.cornell.edu/uscode/text/26/274" }
   - { type: IRC, ref: "§ 274(o)", title: "Meals provided at convenience of employer", url: "https://www.law.cornell.edu/uscode/text/26/274" }
@@ -23,6 +25,7 @@ forms: []
 related: ["2.2.2.a", "2.2.2.f", "2.2.2.c", "2.2.1.a", "2.2.2.b"]
 changelog:
   - { date: "2026-08-21", summary: "Initial draft. Sets out the IRC § 162(a)(2) travel deduction with the one-year rule that ends temporary status, the IRC § 274(a) disallowance of entertainment and club dues, the two IRC § 274(k) conditions on food and beverages and the IRC § 274(n) halving that follows, the IRC § 274(b) gift limit with its two exclusions and the partnership rule, and the IRC § 274(d) substantiation requirement. Records that IRC § 274(o) first bites in 2026: Pub. L. 115-97 § 13304(e)(2) applied it to amounts incurred or paid after 31 December 2025." }
+  - { date: "2026-08-21", summary: "Adds the per diem substantiation rates from Notice 2025-54, opened at source today — the high-low rates and the meal portions of each, the federal per diem figure at which a locality becomes high-cost, the special transportation industry rates, and the incidental-expenses-only rate. Records that per diem substitutes for the amount only, leaving time, place and business purpose to be proved, and that the rates change on 1 October rather than 1 January." }
 ---
 
 This topic has been rewritten twice by statute in a decade and is about to change again for most
@@ -64,6 +67,10 @@ this is {fig:travel.employer_meals_effective}.
 | What is not a gift | {fig:travel.gift_exclusions} | IRC § 274(b)(1)(A), (B) |
 | Partnership gifts | {fig:travel.gift_partnership} | IRC § 274(b)(2)(A) |
 | Substantiation | {fig:travel.substantiation} | IRC § 274(d) |
+| High-low per diem | {fig:travel.perdiem_high_low} | Notice 2025-54 § 5.1 |
+| High-cost locality | {fig:travel.perdiem_high_cost} | Notice 2025-54 § 5.2 |
+| Transportation industry | {fig:travel.perdiem_transport} | Notice 2025-54 § 3 |
+| Incidental expenses only | {fig:travel.perdiem_incidental} | Notice 2025-54 § 4 |
 
 ## How it works in practice
 
@@ -111,6 +118,15 @@ times the limit on one gift.
 and the provision says "no deduction or credit shall be allowed" without them — so an otherwise
 genuine expense with no records is disallowed, and the usual latitude a court might extend to an
 unproven deduction is unavailable.
+
+**Per diem substitutes for the amount, never for the rest.** Rev. Proc. 2019-48 lets a taxpayer
+substantiate the *amount* of lodging, meal and incidental expenses by a federal per diem rate
+rather than by receipts; time, place and business purpose still have to be proved. Under the
+high-low method the rates are {fig:travel.perdiem_high_low} (Notice 2025-54 § 5.1), and
+{fig:travel.perdiem_high_cost}. Two special rates sit alongside them —
+{fig:travel.perdiem_transport} (Notice 2025-54 § 3) and {fig:travel.perdiem_incidental}
+(Notice 2025-54 § 4). Note that the notice runs on a federal fiscal year rather than a calendar
+year, so the rates in force change on 1 October.
 
 <div class="scenario">
 <h3>The theatre evening, itemised</h3>

@@ -11917,6 +11917,90 @@
       "taxYear": 2026,
       "source": "IRC § 451(c)(1), opened at law.cornell.edu/uscode/text/26/451",
       "verified": "2026-08-21"
+    },
+    "vehicle.mileage_2026": {
+      "value": "72.5 cents per mile for all miles of business use in 2026 — though the rate cannot be used for an itemized deduction for unreimbursed employee travel, that deduction being permanently disallowed by Pub. L. 119-21 § 70110",
+      "taxYear": 2026,
+      "source": "Notice 2026-10, opened at irs.gov/pub/irs-drop/n-26-10.pdf § 3",
+      "verified": "2026-08-21"
+    },
+    "vehicle.mileage_charitable": {
+      "value": "14 cents per mile for use of an automobile in rendering gratuitous services to a charitable organization — a figure fixed by IRC § 170(i) and not indexed",
+      "taxYear": 2026,
+      "source": "Notice 2026-10, opened at irs.gov/pub/irs-drop/n-26-10.pdf § 3; IRC § 170(i), opened at law.cornell.edu/uscode/text/26/170",
+      "verified": "2026-08-21"
+    },
+    "vehicle.mileage_medical": {
+      "value": "20.5 cents per mile in 2026 for medical care within IRC § 213 or for a move deductible under IRC § 217(g) as supplemented by § 217(k)(2)",
+      "taxYear": 2026,
+      "source": "Notice 2026-10, opened at irs.gov/pub/irs-drop/n-26-10.pdf § 3",
+      "verified": "2026-08-21"
+    },
+    "vehicle.mileage_depreciation": {
+      "value": "35 cents of each business mile in 2026 is treated as depreciation and reduces basis — 33 cents for 2025, 30 cents for 2024, 28 cents for 2023 and 26 cents for 2022",
+      "taxYear": 2026,
+      "source": "Notice 2026-10, opened at irs.gov/pub/irs-drop/n-26-10.pdf § 4",
+      "verified": "2026-08-21"
+    },
+    "vehicle.280F_bonus_2026": {
+      "value": "$20,300 for the first taxable year, $19,800 for the second, $11,900 for the third and $7,160 for each succeeding year — for a passenger automobile acquired after 27 September 2017 and placed in service during 2026 for which the IRC § 168(k) additional first year depreciation deduction applies",
+      "taxYear": 2026,
+      "source": "Rev. Proc. 2026-15 § 4.01, opened at irs.gov/pub/irs-drop/rp-26-15.pdf Table 1",
+      "verified": "2026-08-21"
+    },
+    "vehicle.280F_nobonus_2026": {
+      "value": "$12,300 for the first taxable year, $19,800 for the second, $11,900 for the third and $7,160 for each succeeding year — for a passenger automobile placed in service during 2026 for which no IRC § 168(k) additional first year depreciation deduction applies",
+      "taxYear": 2026,
+      "source": "Rev. Proc. 2026-15 § 4.01, opened at irs.gov/pub/irs-drop/rp-26-15.pdf Table 2",
+      "verified": "2026-08-21"
+    },
+    "vehicle.280F_bonus_uplift": {
+      "value": "the $8,000 by which IRC § 168(k)(2)(F)(i) increases the first-year limitation under IRC § 280F(a)(1)(A)(i) where the additional first year depreciation deduction applies — which is the whole of the difference between the two 2026 tables",
+      "taxYear": 2026,
+      "source": "Rev. Proc. 2026-15 § 4.01, opened at irs.gov/pub/irs-drop/rp-26-15.pdf § 2.02; IRC § 168(k)(2)(F)(i), opened at law.cornell.edu/uscode/text/26/168",
+      "verified": "2026-08-21"
+    },
+    "vehicle.280F_no_bonus_when": {
+      "value": "the additional first year depreciation deduction does not apply for 2026 where the taxpayer used the automobile 50 percent or less for business, elected out under IRC § 168(k)(7) for the class, acquired a used automobile failing the IRC § 168(k)(2)(E) acquisition requirements, or acquired the automobile before 28 September 2017",
+      "taxYear": 2026,
+      "source": "Rev. Proc. 2026-15 § 4.01, opened at irs.gov/pub/irs-drop/rp-26-15.pdf § 2.03",
+      "verified": "2026-08-21"
+    },
+    "vehicle.lease_inclusion_2026": {
+      "value": "a lessee of a passenger automobile with a lease term beginning in 2026 includes an amount in gross income determined under Reg. § 1.280F-7(a); the table runs from a fair market value over $62,000 upward, so a lease below that figure produces no inclusion",
+      "taxYear": 2026,
+      "source": "Rev. Proc. 2026-15 § 4.01, opened at irs.gov/pub/irs-drop/rp-26-15.pdf § 4.02 Table 3; Reg. § 1.280F-7(a), opened at law.cornell.edu/cfr/text/26/1.280F-7",
+      "verified": "2026-08-21"
+    },
+    "vehicle.favr_2026": {
+      "value": "$61,700 — the maximum standard automobile cost for computing an allowance under a fixed and variable rate plan, and also the maximum fair market value for the fleet-average and vehicle cents-per-mile valuation rules for automobiles first made available to employees in 2026",
+      "taxYear": 2026,
+      "source": "Notice 2026-10, opened at irs.gov/pub/irs-drop/n-26-10.pdf §§ 5 and 6",
+      "verified": "2026-08-21"
+    },
+    "travel.perdiem_high_low": {
+      "value": "$319 a day for travel to a high-cost locality and $225 for any other locality within the continental United States, of which $86 and $74 respectively are treated as paid for meals for purposes of IRC § 274(n)",
+      "taxYear": 2026,
+      "source": "Notice 2025-54, opened at irs.gov/pub/irs-drop/n-25-54.pdf § 5.1",
+      "verified": "2026-08-21"
+    },
+    "travel.perdiem_high_cost": {
+      "value": "a locality is high-cost for the specified portion of the calendar year if its federal per diem rate is $272 or more",
+      "taxYear": 2026,
+      "source": "Notice 2025-54, opened at irs.gov/pub/irs-drop/n-25-54.pdf § 5.2",
+      "verified": "2026-08-21"
+    },
+    "travel.perdiem_transport": {
+      "value": "$80 a day for any locality of travel in the continental United States and $86 outside it — the special meals and incidental expenses rates for taxpayers in the transportation industry",
+      "taxYear": 2026,
+      "source": "Notice 2025-54, opened at irs.gov/pub/irs-drop/n-25-54.pdf § 3",
+      "verified": "2026-08-21"
+    },
+    "travel.perdiem_incidental": {
+      "value": "$5 per day for the incidental expenses only deduction, in any locality inside or outside the continental United States",
+      "taxYear": 2026,
+      "source": "Notice 2025-54, opened at irs.gov/pub/irs-drop/n-25-54.pdf § 4",
+      "verified": "2026-08-21"
     }
   }
 }
