@@ -10,9 +10,9 @@ is indexed, and only the owner moves a page there (see `docs/VERIFICATION.md`).
 | Part | Topics | Stub | Draft | Review | Published | Words |
 |---|---:|---:|---:|---:|---:|---:|
 | 1. Individuals | 120 | 0 | 0 | 110 | 10 | 256,550 |
-| 2. Businesses | 119 | 106 | 0 | 13 | 0 | 30,424 |
+| 2. Businesses | 119 | 105 | 0 | 14 | 0 | 32,917 |
 | 3. Representation, Practices and Procedures | 121 | 0 | 0 | 0 | 121 | 257,674 |
-| **All parts** | **360** | **106** | **0** | **123** | **131** | **544,648** |
+| **All parts** | **360** | **105** | **0** | **124** | **131** | **547,141** |
 
 ## Part 1 — Individuals
 
@@ -234,7 +234,7 @@ is indexed, and only the owner moves a page there (see `docs/VERIFICATION.md`).
 | Code | Title | Status | Words | Last reviewed |
 |---|---|---|---:|---|
 | 2.1.2.a | [Partnership income, expenses, distributions, and flow-through (e.g.,self- employment income)](/businesses/business-entities/partnerships/partnership-income-expenses-distributions-and-flow-through/) | review | 2,371 | 2026-08-21 |
-| 2.1.2.b | [Family partnerships](/businesses/business-entities/partnerships/family-partnerships/) | stub | — | — |
+| 2.1.2.b | [Family partnerships](/businesses/business-entities/partnerships/family-partnerships/) | review | 2,493 | 2026-08-21 |
 | 2.1.2.c | [Partner's dealings with partnership (e.g., exchange of property, guaranteed payments)](/businesses/business-entities/partnerships/partner-s-dealings-with-partnership/) | stub | — | — |
 | 2.1.2.d | [Contribution of property and/or services to partnership (e.g., partnership's basis, property subject to indebtedness)](/businesses/business-entities/partnerships/contribution-of-property-and-or-services-to-partnership/) | stub | — | — |
 | 2.1.2.e | [Basis of partner's interest](/businesses/business-entities/partnerships/basis-of-partner-s-interest/) | stub | — | — |

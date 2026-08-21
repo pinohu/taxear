@@ -8605,6 +8605,54 @@
       "taxYear": 2026,
       "source": "IRC § 731(a), (b), read at law.cornell.edu/uscode/text/26/731",
       "verified": "2026-08-21"
+    },
+    "family.recognition": {
+      "value": "in the case of a capital interest in a partnership in which capital is a material income-producing factor, whether a person is a partner with respect to that interest is determined without regard to whether the interest was derived by gift from any other person. Pub. L. 114-74 § 1102 inserted this sentence for partnership taxable years beginning after 31 December 2015, at the same time as it struck the former recognition rule out of IRC § 704(e) (IRC § 761(b))",
+      "taxYear": 2026,
+      "source": "IRC § 761(b) and the 2015 amendment notes, read at law.cornell.edu/uscode/text/26/761",
+      "verified": "2026-08-21"
+    },
+    "family.superseded_recognition": {
+      "value": "the former IRC § 704(e)(1) read: a person shall be recognized as a partner for purposes of this subtitle if he owns a capital interest in a partnership in which capital is a material income-producing factor, whether or not such interest was derived by purchase or gift from any other person. It was struck by Pub. L. 114-74 § 1102 for partnership taxable years beginning after 31 December 2015 and does not appear in the Code today",
+      "taxYear": 2026,
+      "source": "IRC § 704 amendment notes, read at law.cornell.edu/uscode/text/26/704",
+      "verified": "2026-08-21"
+    },
+    "family.donee_share": {
+      "value": "where a partnership interest is created by gift, the distributive share of the donee under the partnership agreement is includible in the donee gross income, except to the extent that share is determined without allowance of reasonable compensation for services rendered to the partnership by the donor, and except to the extent the portion attributable to donated capital is proportionately greater than the donor share attributable to the donor capital. This is IRC § 704(e)(1) today; it was § 704(e)(2) before 2016 (IRC § 704(e)(1))",
+      "taxYear": 2026,
+      "source": "IRC § 704(e)(1), read at law.cornell.edu/uscode/text/26/704",
+      "verified": "2026-08-21"
+    },
+    "family.purchase_from_family": {
+      "value": "an interest purchased by one member of a family from another is considered created by gift from the seller, and the fair market value of the purchased interest is considered donated capital. Family here includes only the individual spouse, ancestors and lineal descendants, and any trusts for the primary benefit of those persons (IRC § 704(e)(2))",
+      "taxYear": 2026,
+      "source": "IRC § 704(e)(2), read at law.cornell.edu/uscode/text/26/704",
+      "verified": "2026-08-21"
+    },
+    "family.capital_material": {
+      "value": "capital is a material income-producing factor if a substantial portion of the gross income of the business is attributable to the employment of capital in it. In general capital is not a material income-producing factor where the income consists principally of fees, commissions or other compensation for personal services performed by members or employees; it ordinarily is where the operation requires substantial inventories or a substantial investment in plant, machinery or other equipment. The determination is made by reference to all the facts of each case (Reg. § 1.704-1(e)(1)(iv))",
+      "taxYear": 2026,
+      "source": "26 CFR § 1.704-1(e), read at law.cornell.edu/cfr/text/26/1.704-1",
+      "verified": "2026-08-21"
+    },
+    "family.capital_interest": {
+      "value": "a capital interest in a partnership means an interest in the assets of the partnership distributable to its owner on withdrawal from the partnership or on liquidation of it; the mere right to participate in earnings and profits is not a capital interest (Reg. § 1.704-1(e)(1)(v))",
+      "taxYear": 2026,
+      "source": "26 CFR § 1.704-1(e), read at law.cornell.edu/cfr/text/26/1.704-1",
+      "verified": "2026-08-21"
+    },
+    "family.reg_cross_references": {
+      "value": "Reg. § 1.704-1(e) is still headed Family partnerships and still describes the recognition rule as being in IRC § 704(e)(1) and the donee distributive share rule as being in § 704(e)(2). Since the 2015 amendment the recognition rule is in IRC § 761(b) and the donee share rule is IRC § 704(e)(1). The regulation has not been conformed, so its cross-references are one paragraph and one section out",
+      "taxYear": 2026,
+      "source": "26 CFR § 1.704-1(e), read at law.cornell.edu/cfr/text/26/1.704-1, compared with IRC §§ 704(e) and 761(b) as read at law.cornell.edu",
+      "verified": "2026-08-21"
+    },
+    "family.ownership_tests": {
+      "value": "whether a donee of a capital interest is its real owner and has dominion and control over it is ascertained from all the facts and circumstances; isolated facts are not determinative and the reality of the donee ownership is what is tested (Reg. § 1.704-1(e)(2)(i))",
+      "taxYear": 2026,
+      "source": "26 CFR § 1.704-1(e), read at law.cornell.edu/cfr/text/26/1.704-1",
+      "verified": "2026-08-21"
     }
   }
 }
