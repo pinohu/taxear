@@ -9577,6 +9577,78 @@
       "taxYear": 2026,
       "source": "IRC § 465(a), read at law.cornell.edu/uscode/text/26/465",
       "verified": "2026-08-21"
+    },
+    "sc.basis_increases": {
+      "value": "a shareholder's basis in S corporation stock is increased by the separately stated items of income described in IRC § 1366(a)(1)(A), by non-separately computed income under § 1366(a)(1)(B), and by the excess of depletion deductions over the basis of the property subject to depletion (IRC § 1367(a)(1))",
+      "taxYear": 2026,
+      "source": "IRC § 1367(a)(1), read at law.cornell.edu/uscode/text/26/1367",
+      "verified": "2026-08-21"
+    },
+    "sc.basis_decreases": {
+      "value": "basis is decreased, but not below zero, by distributions not includible in income by reason of IRC § 1368, by the separately stated items of loss and deduction, by non-separately computed loss, by expenses of the corporation neither deductible nor properly chargeable to capital account, and by the shareholder's oil and gas depletion deduction up to their share of the property's adjusted basis (IRC § 1367(a)(2))",
+      "taxYear": 2026,
+      "source": "IRC § 1367(a)(2), read at law.cornell.edu/uscode/text/26/1367",
+      "verified": "2026-08-21"
+    },
+    "sc.debt_basis": {
+      "value": "where the loss, deduction and non-deductible expense items exceed the amount that reduces stock basis to zero, the excess reduces — but not below zero — the shareholder's basis in any indebtedness of the S corporation to that shareholder; and a later net increase must first restore that debt basis before any of it increases stock basis (IRC § 1367(b)(2))",
+      "taxYear": 2026,
+      "source": "IRC § 1367(b)(2), read at law.cornell.edu/uscode/text/26/1367",
+      "verified": "2026-08-21"
+    },
+    "sc.aaa_ordering": {
+      "value": "where an S corporation has accumulated earnings and profits, a distribution is applied first against the accumulated adjustments account and treated as a return of basis then gain; then as a dividend to the extent of the accumulated earnings and profits; and any remainder is again treated as a return of basis then gain (IRC § 1368(c))",
+      "taxYear": 2026,
+      "source": "IRC § 1368(c), read at law.cornell.edu/uscode/text/26/1368",
+      "verified": "2026-08-21"
+    },
+    "sc.aaa_definition": {
+      "value": "the accumulated adjustments account is an account of the S corporation adjusted for the S period in a manner similar to IRC § 1367, except that no adjustment is made for income exempt from tax and related expenses, the phrase \"but not below zero\" is disregarded so the account can go negative, and no adjustment is made for federal taxes attributable to a year in which the corporation was a C corporation (IRC § 1368(e)(1)(A))",
+      "taxYear": 2026,
+      "source": "IRC § 1368(e)(1)(A), read at law.cornell.edu/uscode/text/26/1368",
+      "verified": "2026-08-21"
+    },
+    "sc.subchapter_c": {
+      "value": "except as otherwise provided in title 26 and except to the extent inconsistent with subchapter S, subchapter C applies to an S corporation and its shareholders — so the corporate distribution, redemption, liquidation and reorganisation rules reach an S corporation unless subchapter S displaces them (IRC § 1371(a))",
+      "taxYear": 2026,
+      "source": "IRC § 1371(a), read at law.cornell.edu/uscode/text/26/1371",
+      "verified": "2026-08-21"
+    },
+    "sc.no_carryover": {
+      "value": "no carryforward and no carryback arising for a year in which the corporation was a C corporation may be carried to a year in which it is an S corporation, and no carryover may arise for a year in which it is an S corporation (IRC § 1371(b)(1), (2))",
+      "taxYear": 2026,
+      "source": "IRC § 1371(b), read at law.cornell.edu/uscode/text/26/1371",
+      "verified": "2026-08-21"
+    },
+    "sc.ptt_distribution": {
+      "value": "a distribution of money by a corporation with respect to its stock during a post-termination transition period is applied against and reduces the adjusted basis of the stock, to the extent it does not exceed the accumulated adjustments account — with an election available to have earnings distributed first (IRC § 1371(e))",
+      "taxYear": 2026,
+      "source": "IRC § 1371(e), read at law.cornell.edu/uscode/text/26/1371",
+      "verified": "2026-08-21"
+    },
+    "sc.built_in_gains": {
+      "value": "where an S corporation has a net recognised built-in gain for a taxable year beginning in the recognition period, a tax is imposed on its income for that year, computed by applying the highest rate specified in IRC § 11(b) to the net recognised built-in gain (IRC § 1374(a), (b)(1))",
+      "taxYear": 2026,
+      "source": "IRC § 1374(a), (b), read at law.cornell.edu/uscode/text/26/1374",
+      "verified": "2026-08-21"
+    },
+    "sc.passive_income_tax": {
+      "value": "25 percent — where an S corporation has accumulated earnings and profits at the close of the taxable year and gross receipts more than that proportion of which are passive investment income, a tax is imposed on its income computed by multiplying the excess net passive income by the highest rate specified in IRC § 11(b) (IRC § 1375(a))",
+      "taxYear": 2026,
+      "source": "IRC § 1375(a), read at law.cornell.edu/uscode/text/26/1375",
+      "verified": "2026-08-21"
+    },
+    "sc.pass_through": {
+      "value": "in determining the shareholder's tax liability there are taken into account the shareholder's pro rata share of the corporation's items of income, loss, deduction or credit the separate treatment of which could affect any shareholder's liability, and the shareholder's pro rata share of the non-separately computed income or loss (IRC § 1366(a)(1))",
+      "taxYear": 2026,
+      "source": "IRC § 1366(a)(1), read at law.cornell.edu/uscode/text/26/1366",
+      "verified": "2026-08-21"
+    },
+    "sc.character": {
+      "value": "the character of any item included in a shareholder's pro rata share is determined as if the item were realised directly from the source from which the corporation realised it, or incurred in the same manner as the corporation incurred it (IRC § 1366(b))",
+      "taxYear": 2026,
+      "source": "IRC § 1366(b), read at law.cornell.edu/uscode/text/26/1366",
+      "verified": "2026-08-21"
     }
   }
 }
