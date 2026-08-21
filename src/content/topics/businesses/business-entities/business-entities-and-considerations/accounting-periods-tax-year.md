@@ -20,7 +20,7 @@ authorities:
   - { type: IRC, ref: "§ 280H", title: "Limitation on certain amounts paid to employee-owners by personal service corporations", url: "https://www.law.cornell.edu/uscode/text/26/280H" }
   - { type: RevProc, ref: "2006-46", title: "Automatic approval to change or retain an annual accounting period", url: "https://www.irs.gov/pub/irs-drop/rp-06-46.pdf" }
 forms: []
-related: ["2.1.1.b", "2.1.1.d", "2.1.1.j", "2.1.1.c", "2.1.1.g"]
+related: ["2.1.1.b", "2.1.1.d", "2.1.1.j", "2.1.1.c", "2.1.1.g", "2.1.2.i"]
 changelog:
   - { date: "2026-08-21", summary: "Initial draft. Sets out the IRC § 441 definition of the taxable year and the § 441(g) default to the calendar year, the § 442 requirement of approval for a change, the § 443 short period return and its annualisation, the § 706(b) required year for partnerships with the majority interest and principal partner tests, the § 1378 permitted year for S corporations, the § 444 election with its 3-month cap and the § 7519 and § 280H costs it carries, and the Rev. Proc. 2006-46 25-percent gross receipts test for a natural business year." }
 ---

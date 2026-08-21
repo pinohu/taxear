@@ -8923,6 +8923,42 @@
       "taxYear": 2026,
       "source": "IRC § 732(c)(1), read at law.cornell.edu/uscode/text/26/732",
       "verified": "2026-08-21"
+    },
+    "ptrfile.k1_to_partners": {
+      "value": "a partnership required to file must, on or before the day its return is due, furnish each person who was a partner or held an interest as a nominee at any time during the year with a copy of the information required to be shown on the return. That information may not be amended after the due date except where the partnership elected out under IRC § 6221(b), under the IRC § 6225(c) modification procedures, in connection with IRC § 6226 statements, or as regulations otherwise permit (IRC § 6031(b))",
+      "taxYear": 2026,
+      "source": "IRC § 6031(b), read at law.cornell.edu/uscode/text/26/6031",
+      "verified": "2026-08-21"
+    },
+    "ptrfile.penalty_trigger": {
+      "value": "the penalty applies where a partnership required to file under IRC § 6031, or to file a partnership adjustment tracking report under IRC § 6226(b)(4)(A), fails to file at the time prescribed determined with regard to any extension, or files without the required information — for each month or fraction of a month the failure continues, up to 12 months, unless due to reasonable cause. It is in addition to the IRC § 7203 penalty for wilful failure to file (IRC § 6698(a))",
+      "taxYear": 2026,
+      "source": "IRC § 6698(a), read at law.cornell.edu/uscode/text/26/6698",
+      "verified": "2026-08-21"
+    },
+    "ptrfile.penalty_base": {
+      "value": "the monthly amount is the statutory figure multiplied by the number of persons who were partners in the partnership during any part of the taxable year — so the count is of everyone who was a partner at any point, not of those who were partners at the year end (IRC § 6698(b))",
+      "taxYear": 2026,
+      "source": "IRC § 6698(b), read at law.cornell.edu/uscode/text/26/6698",
+      "verified": "2026-08-21"
+    },
+    "ptrfile.consistency": {
+      "value": "a partner must treat any partnership-related item on their own return consistently with its treatment on the partnership return, and an underpayment resulting from a failure to do so is assessed and collected as if it were a mathematical or clerical error — with the IRC § 6213(b)(2) right to request abatement of such an assessment expressly disapplied (IRC § 6222(a), (b))",
+      "taxYear": 2026,
+      "source": "IRC § 6222(a), (b), read at law.cornell.edu/uscode/text/26/6222",
+      "verified": "2026-08-21"
+    },
+    "ptrfile.representative": {
+      "value": "each partnership must designate a partner or other person with a substantial presence in the United States as the partnership representative, who has sole authority to act on behalf of the partnership; where no designation is in effect the Secretary may select any person. The partnership and all its partners are bound by the actions taken and by any final decision in a proceeding (IRC § 6223(a), (b))",
+      "taxYear": 2026,
+      "source": "IRC § 6223, read at law.cornell.edu/uscode/text/26/6223",
+      "verified": "2026-08-21"
+    },
+    "ptrfile.superseded_tefra_notice": {
+      "value": "the prior IRC §§ 6223 and 6224 — which gave partners a right to notice of the beginning and completion of a partnership proceeding and rights to participate in it — were repealed by Pub. L. 114-74 § 1101 for returns filed for partnership taxable years beginning after 31 December 2017. Under the current regime the partnership representative acts alone and the partners have no statutory notice right",
+      "taxYear": 2026,
+      "source": "IRC § 6223 prior-provisions notes, read at law.cornell.edu/uscode/text/26/6223",
+      "verified": "2026-08-21"
     }
   }
 }
