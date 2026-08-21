@@ -2261,8 +2261,8 @@
     "hobby.presumption": {
       "value": "gross income exceeding deductions in 3 or more of the 5 consecutive taxable years ending with the current year, or 2 of 7 where the activity consists in major part of breeding, training, showing or racing horses",
       "taxYear": 2026,
-      "source": "IRC § 183(d) — https://www.law.cornell.edu/uscode/text/26/183",
-      "verified": "2026-08-19"
+      "source": "IRC § 183(d), read at law.cornell.edu/uscode/text/26/183",
+      "verified": "2026-08-21"
     },
     "household.fica_threshold": {
       "value": "$3,000 of cash wages paid to any one household employee in 2026 — the IRC § 3121(x) applicable dollar threshold as adjusted by the Commissioner of Social Security and rounded down to a multiple of $100",
@@ -8502,6 +8502,60 @@
       "value": "for intentional disregard of the filing requirement, the penalty for a return required to be filed in 2027 is the greater of $690 or 10 percent of the aggregate amount required to be reported correctly, with no calendar year limit — 5 percent for a return under IRC § 6045(a), § 6050K or § 6050L. For a Form 8300 return under IRC § 6050I(a) it is the greater of $34,930 or the amount of cash received, up to $139,500 (IRC § 6721(e)(2))",
       "taxYear": 2026,
       "source": "Rev. Proc. 2025-32, read at irs.gov/pub/irs-drop/rp-25-32.pdf § 3.57",
+      "verified": "2026-08-21"
+    },
+    "hobby.general_rule": {
+      "value": "where an activity engaged in by an individual or an S corporation is not engaged in for profit, no deduction attributable to it is allowed except as IRC § 183 itself provides; an activity not engaged in for profit means any activity other than one for which deductions are allowable under IRC § 162 or under § 212(1) or (2) (IRC § 183(a), (c))",
+      "taxYear": 2026,
+      "source": "IRC § 183(a), (c), read at law.cornell.edu/uscode/text/26/183",
+      "verified": "2026-08-21"
+    },
+    "hobby.deductions_allowed": {
+      "value": "the deductions allowed are those that would be allowable without regard to profit motive, plus an amount equal to the deductions that would be allowable only if the activity were engaged in for profit — but only to the extent the gross income from the activity exceeds the first category (IRC § 183(b))",
+      "taxYear": 2026,
+      "source": "IRC § 183(b), read at law.cornell.edu/uscode/text/26/183",
+      "verified": "2026-08-21"
+    },
+    "hobby.ordering": {
+      "value": "the three tiers run in order: deductions allowable irrespective of profit motive, to their full extent; then deductions that do not adjust the basis of property, to the extent gross income exceeds the first tier; then deductions that do adjust basis, to the extent gross income exceeds the first two (Reg. § 1.183-1(b)(1))",
+      "taxYear": 2026,
+      "source": "26 CFR § 1.183-1(b)(1), read at law.cornell.edu/cfr/text/26/1.183-1",
+      "verified": "2026-08-21"
+    },
+    "hobby.election_to_postpone": {
+      "value": "a taxpayer may elect that the determination whether the presumption applies not be made before the close of the fourth taxable year following the year in which the taxpayer first engages in the activity — the sixth taxable year for a horse activity — in which case the presumption applies to each year of the 5-year or 7-year period beginning with that first year (IRC § 183(e)(1), (2))",
+      "taxYear": 2026,
+      "source": "IRC § 183(e), read at law.cornell.edu/uscode/text/26/183",
+      "verified": "2026-08-21"
+    },
+    "hobby.misc_suspension": {
+      "value": "no miscellaneous itemized deduction is allowed for any taxable year beginning after 31 December 2017. Pub. L. 119-21 § 70110(a) struck the words that had ended the suspension before 1 January 2026 and rewrote the heading accordingly, and § 70110(b)(2) redesignated the provision as IRC § 67(h) — so the suspension is permanent, and the IRC § 183(b)(2) tier of hobby deductions is unavailable to an individual for any year (IRC § 67(h))",
+      "taxYear": 2026,
+      "source": "IRC § 67(h) and the 2025 amendment notes, read at law.cornell.edu/uscode/text/26/67",
+      "verified": "2026-08-21"
+    },
+    "hobby.factors_1_3": {
+      "value": "the manner in which the taxpayer carries on the activity, including whether it is businesslike and whether complete and accurate books are kept; the expertise of the taxpayer or their advisers, and whether the activity is in fact carried on in accordance with accepted practice; and the time and effort expended, particularly where the activity lacks substantial personal or recreational aspects (Reg. § 1.183-2(b)(1) to (3))",
+      "taxYear": 2026,
+      "source": "26 CFR § 1.183-2(b), read at law.cornell.edu/cfr/text/26/1.183-2",
+      "verified": "2026-08-21"
+    },
+    "hobby.factors_4_6": {
+      "value": "the expectation that assets used in the activity may appreciate, profit for this purpose including appreciation in land; the success of the taxpayer in carrying on other activities, similar or dissimilar, and in turning them profitable; and the history of income or losses, start-up losses counting for little but unexplained continuing losses counting against, while losses from drought, disease, fire, theft, weather, involuntary conversions or depressed markets do not (Reg. § 1.183-2(b)(4) to (6))",
+      "taxYear": 2026,
+      "source": "26 CFR § 1.183-2(b), read at law.cornell.edu/cfr/text/26/1.183-2",
+      "verified": "2026-08-21"
+    },
+    "hobby.factors_7_9": {
+      "value": "the amount of any occasional profits, judged against the losses and against the taxpayer investment; the financial status of the taxpayer, substantial income from other sources counting against a profit motive especially where the losses generate substantial tax benefits and personal elements are present; and elements of personal pleasure or recreation (Reg. § 1.183-2(b)(7) to (9))",
+      "taxYear": 2026,
+      "source": "26 CFR § 1.183-2(b), read at law.cornell.edu/cfr/text/26/1.183-2",
+      "verified": "2026-08-21"
+    },
+    "hobby.no_scorecard": {
+      "value": "all facts and circumstances are taken into account, no one factor is determinative, the listed factors are not exhaustive, and the determination is not made by counting whether more factors point one way than the other (Reg. § 1.183-2(b))",
+      "taxYear": 2026,
+      "source": "26 CFR § 1.183-2(b), read at law.cornell.edu/cfr/text/26/1.183-2",
       "verified": "2026-08-21"
     }
   }

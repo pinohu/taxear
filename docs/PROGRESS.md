@@ -10,9 +10,9 @@ is indexed, and only the owner moves a page there (see `docs/VERIFICATION.md`).
 | Part | Topics | Stub | Draft | Review | Published | Words |
 |---|---:|---:|---:|---:|---:|---:|
 | 1. Individuals | 120 | 0 | 0 | 110 | 10 | 256,550 |
-| 2. Businesses | 119 | 108 | 0 | 11 | 0 | 25,566 |
+| 2. Businesses | 119 | 107 | 0 | 12 | 0 | 28,053 |
 | 3. Representation, Practices and Procedures | 121 | 0 | 0 | 0 | 121 | 257,674 |
-| **All parts** | **360** | **108** | **0** | **121** | **131** | **539,790** |
+| **All parts** | **360** | **107** | **0** | **122** | **131** | **542,277** |
 
 ## Part 1 — Individuals
 
@@ -227,7 +227,7 @@ is indexed, and only the owner moves a page there (see `docs/VERIFICATION.md`).
 | 2.1.1.i | [Accounting periods (tax year)](/businesses/business-entities/business-entities-and-considerations/accounting-periods-tax-year/) | review | 2,491 | 2026-08-21 |
 | 2.1.1.j | [Accounting methods](/businesses/business-entities/business-entities-and-considerations/accounting-methods/) | review | 2,497 | 2026-08-21 |
 | 2.1.1.k | [Reporting requirements (e.g. Forms W2, W-4, Form 1099)](/businesses/business-entities/business-entities-and-considerations/reporting-requirements/) | review | 2,466 | 2026-08-21 |
-| 2.1.1.l | [Hobby versus business determination and loss limitations](/businesses/business-entities/business-entities-and-considerations/hobby-versus-business-determination-and-loss-limitations/) | stub | — | — |
+| 2.1.1.l | [Hobby versus business determination and loss limitations](/businesses/business-entities/business-entities-and-considerations/hobby-versus-business-determination-and-loss-limitations/) | review | 2,487 | 2026-08-21 |
 
 **2.1.2 Partnerships**
 

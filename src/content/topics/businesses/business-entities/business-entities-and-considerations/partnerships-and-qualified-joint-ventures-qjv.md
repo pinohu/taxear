@@ -20,7 +20,7 @@ authorities:
   - { type: IRC, ref: "§ 469(h)", title: "Material participation", url: "https://www.law.cornell.edu/uscode/text/26/469" }
   - { type: RevProc, ref: "2025-32, § 3.55", title: "Inflation-adjusted § 6698 penalty amount", url: "https://www.irs.gov/pub/irs-drop/rp-25-32.pdf" }
 forms: []
-related: ["2.1.1.a", "2.1.1.c", "2.1.1.e", "2.1.1.g", "2.1.1.i", "2.1.1.d"]
+related: ["2.1.1.a", "2.1.1.c", "2.1.1.e", "2.1.1.g", "2.1.1.i", "2.1.1.d", "2.1.1.l"]
 changelog:
   - { date: "2026-08-21", summary: "Initial draft. Sets out the IRC § 761(a) and § 7701(a)(2) definition of a partnership, the § 701 rule that the entity is not taxed, the § 702(a) separately stated items, the § 6031 return requirement with its § 6072(b) date and the § 6698 per-partner per-month penalty as indexed by Rev. Proc. 2025-32 § 3.55, the § 761(a) election out of subchapter K, and the three conditions of the § 761(f) qualified joint venture election." }
 ---
