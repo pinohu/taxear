@@ -10717,6 +10717,72 @@
       "taxYear": 2026,
       "source": "Repeal note at IRC § 166(c) and Reg. § 1.166-1(a), (b), both opened at law.cornell.edu/uscode/text/26/166 and /cfr/text/26/1.166-1",
       "verified": "2026-08-21"
+    },
+    "travel.deduction": {
+      "value": "traveling expenses, including amounts expended for meals and lodging other than amounts which are lavish or extravagant under the circumstances, while away from home in the pursuit of a trade or business",
+      "taxYear": 2026,
+      "source": "IRC § 162(a)(2), opened at law.cornell.edu/uscode/text/26/162",
+      "verified": "2026-08-21"
+    },
+    "travel.one_year": {
+      "value": "a taxpayer is not treated as being temporarily away from home during any period of employment that exceeds 1 year",
+      "taxYear": 2026,
+      "source": "IRC § 162(a), closing text, opened at law.cornell.edu/uscode/text/26/162",
+      "verified": "2026-08-21"
+    },
+    "travel.entertainment_gone": {
+      "value": "no deduction is allowed for any item with respect to an activity of a type generally considered to constitute entertainment, amusement or recreation, or with respect to a facility used in connection with such an activity — and separately none for membership in any club organised for business, pleasure, recreation or other social purpose",
+      "taxYear": 2026,
+      "source": "IRC § 274(a)(1) and (a)(3), opened at law.cornell.edu/uscode/text/26/274",
+      "verified": "2026-08-21"
+    },
+    "travel.meal_conditions": {
+      "value": "no deduction is allowed for food or beverages unless the expense is not lavish or extravagant under the circumstances and the taxpayer or an employee of the taxpayer is present at the furnishing",
+      "taxYear": 2026,
+      "source": "IRC § 274(k)(1), opened at law.cornell.edu/uscode/text/26/274",
+      "verified": "2026-08-21"
+    },
+    "travel.meal_haircut": {
+      "value": "50 percent — the amount allowable for any expense for food or beverages may not exceed half of what would otherwise be allowable, subject to the exceptions in IRC § 274(n)(2)",
+      "taxYear": 2026,
+      "source": "IRC § 274(n)(1), opened at law.cornell.edu/uscode/text/26/274",
+      "verified": "2026-08-21"
+    },
+    "travel.gift_limit": {
+      "value": "$25 — no deduction is allowed under IRC § 162 or § 212 for gifts to any one individual to the extent the total for that individual during the taxable year exceeds this amount",
+      "taxYear": 2026,
+      "source": "IRC § 274(b)(1), opened at law.cornell.edu/uscode/text/26/274",
+      "verified": "2026-08-21"
+    },
+    "travel.gift_exclusions": {
+      "value": "an item costing the taxpayer not more than $4.00 on which the taxpayer's name is clearly and permanently imprinted and which is one of a number of identical items distributed generally, and a sign, display rack or other promotional material for use on the recipient's business premises",
+      "taxYear": 2026,
+      "source": "IRC § 274(b)(1)(A) and (B), opened at law.cornell.edu/uscode/text/26/274",
+      "verified": "2026-08-21"
+    },
+    "travel.gift_partnership": {
+      "value": "in the case of a gift by a partnership the limit applies to the partnership as well as to each partner, so one gift cannot be multiplied by the number of partners",
+      "taxYear": 2026,
+      "source": "IRC § 274(b)(2)(A), opened at law.cornell.edu/uscode/text/26/274",
+      "verified": "2026-08-21"
+    },
+    "travel.substantiation": {
+      "value": "no deduction or credit is allowed for any traveling expense, any gift expense, or any listed property unless the taxpayer substantiates by adequate records or sufficient corroborating evidence the amount, the time and place of the travel or date and description of the gift, the business purpose, and the business relationship of the person receiving the benefit",
+      "taxYear": 2026,
+      "source": "IRC § 274(d), opened at law.cornell.edu/uscode/text/26/274",
+      "verified": "2026-08-21"
+    },
+    "travel.employer_meals_2026": {
+      "value": "no deduction is allowed for the operation of an employer-operated eating facility described in IRC § 132(e)(2), for food or beverages associated with it, or for meals described in IRC § 119(a) — except an expense within IRC § 274(e)(8) or § 274(n)(2)(C)",
+      "taxYear": 2026,
+      "source": "IRC § 274(o), opened at law.cornell.edu/uscode/text/26/274",
+      "verified": "2026-08-21"
+    },
+    "travel.employer_meals_effective": {
+      "value": "first operative in 2026 — Pub. L. 115-97 § 13304(e)(2) applies the elimination of the deduction for meals provided at the convenience of the employer to amounts incurred or paid after 31 December 2025, and Pub. L. 119-21 § 70305 then carved two exceptions back out with effect from the same date",
+      "taxYear": 2026,
+      "source": "Effective date notes to IRC § 274, opened at law.cornell.edu/uscode/text/26/274",
+      "verified": "2026-08-21"
     }
   }
 }

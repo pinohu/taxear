@@ -21,7 +21,7 @@ authorities:
   - { type: IRC, ref: "§ 174", title: "Amortization of research and experimental expenditures", url: "https://www.law.cornell.edu/uscode/text/26/174" }
   - { type: RevProc, ref: "Rev. Proc. 2025-32", title: "Inflation adjusted items for 2026", url: "https://www.irs.gov/pub/irs-drop/rp-25-32.pdf" }
 forms: []
-related: ["2.2.2.f", "2.2.1.b", "2.2.2.b", "2.2.2.a", "2.1.1.j"]
+related: ["2.2.2.f", "2.2.1.b", "2.2.2.b", "2.2.2.a", "2.1.1.j", "2.2.2.e"]
 changelog:
   - { date: "2026-08-21", summary: "Initial draft. Sets out the IRC § 179 dollar limitation, phase-out and taxable income cap with the 2026 figures from Rev. Proc. 2025-32, the IRC § 168(k) bonus allowance and the conditions used property must meet, the IRC § 195 start-up rules and their interaction with IRC § 248, and the depletion regime under IRC §§ 611, 613 and 613A. Records that Pub. L. 119-21 § 70301 made bonus depreciation permanent at 100 percent by striking the phase-down table and the placed-in-service deadline." }
 ---

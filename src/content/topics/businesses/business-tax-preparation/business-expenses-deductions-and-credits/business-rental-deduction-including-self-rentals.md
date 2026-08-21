@@ -18,7 +18,7 @@ authorities:
   - { type: IRC, ref: "§ 461(l)", title: "Limitation on excess business losses of noncorporate taxpayers", url: "https://www.law.cornell.edu/uscode/text/26/461" }
   - { type: Reg, ref: "§ 1.469-2(f)(6)", title: "Property rented to a nonpassive activity", url: "https://www.law.cornell.edu/cfr/text/26/1.469-2" }
 forms: []
-related: ["2.2.2.a", "2.2.1.c", "2.2.2.o", "2.2.2.c", "2.2.1.a"]
+related: ["2.2.2.a", "2.2.1.c", "2.2.2.o", "2.2.2.c", "2.2.1.a", "2.2.2.e"]
 changelog:
   - { date: "2026-08-21", summary: "Initial draft. Sets out the IRC § 162(a)(3) rental deduction and its two conditions on title and equity, the IRC § 178 rule treating renewal options as part of the lease term where less than 75 percent of the acquisition cost is attributable to the remaining term, the IRC § 267(a)(2) matching rule for rent accrued to a related cash method landlord, and the Reg. § 1.469-2(f)(6) self-rental rule that recharacterises net rental income as non-passive without doing the same for a loss." }
 ---
