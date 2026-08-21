@@ -29,11 +29,14 @@ Writing is done. What remains is not writing.
    dwelling are allocated over days used (the Service's position) or over the whole year (the
    Ninth and Tenth Circuits). The page states both and chooses neither. A house position
    would be worth having.
-3. **The form and notice directories.** 21 form entries and 7 notice entries are published.
-   Several Part 2 pages now cite forms with no directory entry — 1023, 1023-EZ, 1024, 1024-A,
-   8976, 8940, 8868, 5500, 5500-EZ, 5558, 8955-SSA, 5330, 4835, 990, 990-EZ, 990-N, 990-PF,
-   990-T, SS-4, Schedule F, Schedule J, Schedule SE. Their `forms[]` arrays were left empty
-   rather than pointing at pages that do not exist. That is the obvious next content batch.
+3. **The form and notice directories.** **44 form entries and 7 notice entries.** The 23
+   written on 21 August for the Part 2 pages are at `review` and await owner approval with
+   everything else: 1023, 1023-EZ, 1024, 1024-A, 8976, 8940, 8868, SS-4, 990, 990-EZ, 990-N,
+   990-PF, 990-T, 5500, 5500-SF, 5500-EZ, 5558, 8955-SSA, 5330, 4835, Schedule F, Schedule J
+   and Schedule SE. Every one is linked two-way from its topic page, so `verify` is clean.
+   Four of them — 8976, 990-N, 5500 and 5500-SF — have no "About Form" page on irs.gov and
+   point instead at the page that governs their submission; each says so in its body.
+   Nothing outstanding on the notice side: no Part 2 page cites a CP or LT notice.
 4. **Annual refresh.** `docs/ANNUAL_REFRESH.md` is the procedure. The 2027 figures will
    start appearing in autumn 2026 revenue procedures and notices.
 

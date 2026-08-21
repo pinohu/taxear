@@ -14917,6 +14917,18 @@
       "taxYear": 2026,
       "source": "Notice 2015-82, read at irs.gov/pub/irs-drop/n-15-82.pdf",
       "verified": "2026-08-21"
+    },
+    "app.8976_penalty": {
+      "value": "failure to submit the IRC § 506(a) notice on time costs the organisation $20 for each day the failure continues, capped at $5,000 for any one notice, with the same amounts falling on a person who fails to comply with a written demand; no penalty applies where the failure is due to reasonable cause. These amounts are not indexed — IRC § 6652(c)(7) adjusts only paragraphs (1), (2) and (3) of subsection (c)",
+      "taxYear": 2026,
+      "source": "IRC § 6652(c)(4), (c)(5), (c)(7), read at law.cornell.edu/uscode/text/26/6652",
+      "verified": "2026-08-21"
+    },
+    "app.8976_fee": {
+      "value": "a $50 fee must accompany the Form 8976 submission; without it the Service sends a non-payment notice within 5 days, and if the fee is not submitted within 14 days the form is rejected",
+      "taxYear": 2026,
+      "source": "IRS, Electronically submit your Form 8976, Notice of Intent to Operate Under Section 501(c)(4), read at irs.gov/charities-non-profits/electronically-submit-your-form-8976-notice-of-intent-to-operate-under-section-501c4",
+      "verified": "2026-08-21"
     }
   }
 }

@@ -50,7 +50,7 @@ submitted electronically through pay.gov with the fee; there is no paper channel
 
 **Social welfare organisations file twice.** {fig:app.form8976} Form 8976 is a notice of intent to
 operate, not an application, and it is required whether or not the organisation ever seeks a
-determination letter. {fig:app.form1024a}
+determination letter. {fig:app.8976_fee} {fig:app.8976_penalty} {fig:app.form1024a}
 
 **The clock.** {fig:app.15_month} Fifteen months is the statutory rule, and it is the number in
 the regulation. The number practitioners quote is different because of a second regulation:
@@ -154,7 +154,8 @@ application for recognition is required. The organisation files nothing.
 The advice is half right and the omission is costly. Recognition under IRC § 501(c)(4) is indeed
 optional — Form 1024-A is filed by choice. The IRC § 506 notice is not optional. Form 8976 was due
 within 60 days of the organisation being established, which for an April formation means June, and
-the penalty for failing to file it runs per day under IRC § 6652. The two filings are unrelated:
+the penalty runs at $20 a day under IRC § 6652(c)(4) to a $5,000 ceiling. The two filings are
+unrelated:
 one is a notice of intent to operate, one is a request for a determination, and filing the second
 does not excuse the first.
 
