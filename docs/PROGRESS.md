@@ -10,9 +10,9 @@ is indexed, and only the owner moves a page there (see `docs/VERIFICATION.md`).
 | Part | Topics | Stub | Draft | Review | Published | Words |
 |---|---:|---:|---:|---:|---:|---:|
 | 1. Individuals | 120 | 0 | 0 | 110 | 10 | 256,550 |
-| 2. Businesses | 119 | 23 | 0 | 96 | 0 | 225,528 |
+| 2. Businesses | 119 | 22 | 0 | 97 | 0 | 227,731 |
 | 3. Representation, Practices and Procedures | 121 | 0 | 0 | 0 | 121 | 257,674 |
-| **All parts** | **360** | **23** | **0** | **206** | **131** | **739,752** |
+| **All parts** | **360** | **22** | **0** | **207** | **131** | **741,955** |
 
 ## Part 1 — Individuals
 
@@ -366,7 +366,7 @@ is indexed, and only the owner moves a page there (see `docs/VERIFICATION.md`).
 | 2.3.1.c | [Exclusions, exemptions, and deductions](/businesses/specialized-returns-and-taxpayers/trust-and-estate-income-tax/exclusions-exemptions-and-deductions/) | review | 2,284 | 2026-08-21 |
 | 2.3.1.d | [Fraudulent trusts](/businesses/specialized-returns-and-taxpayers/trust-and-estate-income-tax/fraudulent-trusts/) | review | 2,420 | 2026-08-21 |
 | 2.3.1.e | [Income (e.g., allocations, corpus versus income)](/businesses/specialized-returns-and-taxpayers/trust-and-estate-income-tax/income/) | review | 2,378 | 2026-08-21 |
-| 2.3.1.f | [Separately stated items (items reported on the K-1)](/businesses/specialized-returns-and-taxpayers/trust-and-estate-income-tax/separately-stated-items-items-reported-on-the-k-1/) | stub | — | — |
+| 2.3.1.f | [Separately stated items (items reported on the K-1)](/businesses/specialized-returns-and-taxpayers/trust-and-estate-income-tax/separately-stated-items-items-reported-on-the-k-1/) | review | 2,203 | 2026-08-21 |
 | 2.3.1.g | [Filing requirements, tax years, and penalties](/businesses/specialized-returns-and-taxpayers/trust-and-estate-income-tax/filing-requirements-tax-years-and-penalties/) | stub | — | — |
 
 **2.3.2 Exempt organizations**

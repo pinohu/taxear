@@ -24,7 +24,7 @@ authorities:
   - { type: IRC, ref: "§ 677", title: "Income for benefit of grantor", url: "https://www.law.cornell.edu/uscode/text/26/677" }
   - { type: IRC, ref: "§ 7701", title: "Definitions", url: "https://www.law.cornell.edu/uscode/text/26/7701" }
 forms: []
-related: ["2.3.1.b", "2.3.1.c", "2.3.1.g", "2.3.1.e", "2.3.1.d"]
+related: ["2.3.1.b", "2.3.1.c", "2.3.1.g", "2.3.1.e", "2.3.1.d", "2.3.1.f"]
 changelog:
   - { date: "2026-08-21", summary: "Initial draft. Sets out the IRC § 641(b) computation rule and the foreign trust deeming provision, the IRC § 651(a) definition of a simple trust as a description of a year rather than of an instrument, the five grantor trust triggers in IRC §§ 673 through 677 with the IRC § 671 consequence that the items are reported by the owner, and the IRC § 7701(a)(30)(E) court and control tests that decide whether a trust is domestic or foreign." }
 ---

@@ -13141,6 +13141,36 @@
       "taxYear": 2026,
       "source": "Reg. § 1.643(a)-3, opened at law.cornell.edu/cfr/text/26/1.643(a)-3(d)",
       "verified": "2026-08-21"
+    },
+    "k1t.tier_one": {
+      "value": "first tier — the income for the year required to be distributed currently to the beneficiary, whether actually distributed or not, and where the amount required to be distributed to all beneficiaries exceeds distributable net income computed without the charitable deduction, each beneficiary includes a proportionate share of that figure instead",
+      "taxYear": 2026,
+      "source": "IRC § 662(a)(1), opened at law.cornell.edu/uscode/text/26/662",
+      "verified": "2026-08-21"
+    },
+    "k1t.tier_two": {
+      "value": "second tier — all other amounts properly paid, credited or required to be distributed, and where the two tiers together exceed distributable net income, each second-tier beneficiary includes a proportionate share of what is left after the first tier",
+      "taxYear": 2026,
+      "source": "IRC § 662(a)(2), opened at law.cornell.edu/uscode/text/26/662",
+      "verified": "2026-08-21"
+    },
+    "k1t.character": {
+      "value": "amounts have the same character in the beneficiary’s hands as in the trust’s, treated as consisting of the same proportion of each class of item entering into distributable net income as that class bears to the total — unless the terms of the governing instrument specifically allocate different classes of income to different beneficiaries",
+      "taxYear": 2026,
+      "source": "IRC § 662(b) and § 652(b), opened at law.cornell.edu/uscode/text/26/662",
+      "verified": "2026-08-21"
+    },
+    "k1t.deduction_allocation": {
+      "value": "the deductions entering into distributable net income, including the IRC § 642(c) charitable deduction, are allocated among the classes of income under the regulations before the classes are apportioned to beneficiaries",
+      "taxYear": 2026,
+      "source": "IRC § 662(b), opened at law.cornell.edu/uscode/text/26/662",
+      "verified": "2026-08-21"
+    },
+    "k1t.termination": {
+      "value": "on termination of an estate or trust, an IRC § 172 net operating loss carryover, an IRC § 1212 capital loss carryover, and deductions for the final year in excess of gross income are allowed as deductions to the beneficiaries succeeding to the property",
+      "taxYear": 2026,
+      "source": "IRC § 642(h), opened at law.cornell.edu/uscode/text/26/642",
+      "verified": "2026-08-21"
     }
   }
 }
