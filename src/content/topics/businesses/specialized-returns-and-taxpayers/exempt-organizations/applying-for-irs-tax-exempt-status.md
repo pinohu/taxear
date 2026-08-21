@@ -24,7 +24,7 @@ authorities:
   - { type: Reg, ref: "§ 301.9100-2", title: "Automatic extensions", url: "https://www.law.cornell.edu/cfr/text/26/301.9100-2" }
   - { type: RevProc, ref: "2026-5", title: "Determination letters and rulings — Exempt Organizations, 2026-1 I.R.B. 259", url: "https://www.irs.gov/pub/irs-irbs/irb26-01.pdf" }
   - { type: Form, ref: "1023-EZ", title: "Instructions for Form 1023-EZ, including the Eligibility Worksheet", url: "https://www.irs.gov/instructions/i1023ez" }
-forms: []
+forms: ["1023", "1023-EZ", "1024", "1024-A", "8976"]
 related: ["2.3.2.a", "2.3.2.c", "2.3.2.d", "2.1.1.f"]
 changelog:
   - { date: "2026-08-21", summary: "Initial draft. Sets out which form goes with which paragraph of IRC § 501(c) under Rev. Proc. 2026-5 § 6.06, the 15-month notice of Treas. Reg. § 1.508-1(a)(2) extended by the automatic 12 months of Treas. Reg. § 301.9100-2(a)(2)(iv) to make 27, the effective-date consequence of missing it, the Form 1023-EZ eligibility worksheet, the separate IRC § 506 Form 8976 notice for social welfare organisations, the 2026 user fee schedule, the 30-day protest of a proposed adverse determination, and IRC § 6104 public inspection." }
