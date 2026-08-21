@@ -12619,6 +12619,36 @@
       "taxYear": 2026,
       "source": "IRC § 280A(a), opened at law.cornell.edu/uscode/text/26/280A",
       "verified": "2026-08-21"
+    },
+    "adv.no_uniform_method": {
+      "value": "no uniform method can be prescribed for all taxpayers and each adopts the forms and systems best suited to its needs — but no method is acceptable unless, in the Commissioner’s opinion, it clearly reflects income",
+      "taxYear": 2026,
+      "source": "Reg. § 1.446-1(a)(2), opened at law.cornell.edu/cfr/text/26/1.446-1",
+      "verified": "2026-08-21"
+    },
+    "adv.gaap_safe_harbour": {
+      "value": "a method reflecting the consistent application of generally accepted accounting principles in a particular trade or business, in accordance with accepted conditions or practices in it, is ordinarily regarded as clearly reflecting income — provided all items of gross income and expense are treated consistently from year to year",
+      "taxYear": 2026,
+      "source": "Reg. § 1.446-1(a)(2), opened at law.cornell.edu/cfr/text/26/1.446-1",
+      "verified": "2026-08-21"
+    },
+    "adv.special_treatment": {
+      "value": "except for deviations that special accounting treatment permits or requires, taxable income is computed under the method on which the taxpayer regularly computes income in keeping its books",
+      "taxYear": 2026,
+      "source": "Reg. § 1.446-1(a)(1), opened at law.cornell.edu/cfr/text/26/1.446-1",
+      "verified": "2026-08-21"
+    },
+    "adv.481b_spread": {
+      "value": "where the method being changed was used for the 2 taxable years preceding the year of change and the increase in taxable income caused solely by the IRC § 481(a) adjustment exceeds $3,000, the tax on that increase is capped at what would result from spreading one third of it over the year of change and the two preceding years",
+      "taxYear": 2026,
+      "source": "IRC § 481(b)(1), opened at law.cornell.edu/uscode/text/26/481",
+      "verified": "2026-08-21"
+    },
+    "adv.non_cash": {
+      "value": "items of gross income and expenditure need not take the form of cash — it is enough that they can be valued in money",
+      "taxYear": 2026,
+      "source": "Reg. § 1.446-1(a)(3), opened at law.cornell.edu/cfr/text/26/1.446-1",
+      "verified": "2026-08-21"
     }
   }
 }

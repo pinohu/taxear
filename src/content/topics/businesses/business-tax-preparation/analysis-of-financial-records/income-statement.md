@@ -23,7 +23,7 @@ authorities:
   - { type: IRM, ref: "4.10.4.2.3.5", title: "Reconciliation of income per books to income reported on the return", url: "https://www.irs.gov/irm/part4/irm_04-010-004" }
   - { type: IRM, ref: "4.10.4.2.3.6", title: "Testing gross receipts", url: "https://www.irs.gov/irm/part4/irm_04-010-004" }
 forms: []
-related: ["2.2.4.a", "2.2.4.c", "2.2.4.g", "2.2.1.a", "2.2.1.b", "2.2.4.d", "2.2.4.f", "2.2.4.h", "2.2.4.i", "2.2.5.f"]
+related: ["2.2.4.a", "2.2.4.c", "2.2.4.g", "2.2.1.a", "2.2.1.b", "2.2.4.d", "2.2.4.f", "2.2.4.h", "2.2.4.i", "2.2.5.f", "2.2.5.g"]
 changelog:
   - { date: "2026-08-21", summary: "Initial draft. Sets out the IRM 4.10.3.7.6 definition of the profit and loss statement and the document chain from general ledger to return, the Reg. § 1.6001-1(a) and Reg. § 1.446-1(a)(4) records requirements, the Reg. § 1.61-3(a) definition of gross income from a business as sales less cost of goods sold, the limits on what cost of goods sold may absorb, and the IRM 4.10.4.2.3.5 and 4.10.4.2.3.6 reconciliation and gross receipts tests with the gross profit ratio." }
 ---
