@@ -8653,6 +8653,54 @@
       "taxYear": 2026,
       "source": "26 CFR § 1.704-1(e), read at law.cornell.edu/cfr/text/26/1.704-1",
       "verified": "2026-08-21"
+    },
+    "deal.not_as_partner": {
+      "value": "where a partner engages in a transaction with the partnership other than in their capacity as a member of it, the transaction is treated as occurring between the partnership and a non-partner (IRC § 707(a)(1))",
+      "taxYear": 2026,
+      "source": "IRC § 707(a)(1), read at law.cornell.edu/uscode/text/26/707",
+      "verified": "2026-08-21"
+    },
+    "deal.disguised_transactions": {
+      "value": "a performance of services or transfer of property by a partner, together with a related allocation and distribution to that partner, is treated as a transaction with a non-partner where the two viewed together are properly characterised as occurring with a partner acting other than as a member; the same applies to a transfer by a partner and a related transfer back to that or another partner where the two viewed together are properly characterised as a sale or exchange of property (IRC § 707(a)(2)(A), (B))",
+      "taxYear": 2026,
+      "source": "IRC § 707(a)(2), read at law.cornell.edu/uscode/text/26/707",
+      "verified": "2026-08-21"
+    },
+    "deal.guaranteed_payment": {
+      "value": "to the extent determined without regard to the income of the partnership, payments to a partner for services or the use of capital are considered as made to one who is not a member of the partnership — but only for the purposes of IRC § 61(a) on gross income and, subject to IRC § 263, IRC § 162(a) on trade or business expenses (IRC § 707(c))",
+      "taxYear": 2026,
+      "source": "IRC § 707(c), read at law.cornell.edu/uscode/text/26/707",
+      "verified": "2026-08-21"
+    },
+    "deal.guaranteed_timing": {
+      "value": "the partner includes a guaranteed payment as ordinary income for the taxable year within or with which ends the partnership taxable year in which the partnership deducted it under its method of accounting — so the partner recognition follows the partnership year, not the date of payment (Reg. § 1.707-1(c))",
+      "taxYear": 2026,
+      "source": "26 CFR § 1.707-1(c), read at law.cornell.edu/cfr/text/26/1.707-1",
+      "verified": "2026-08-21"
+    },
+    "deal.guaranteed_otherwise": {
+      "value": "for every purpose other than IRC §§ 61(a) and 162(a), a guaranteed payment is regarded as a partner distributive share of ordinary income. A partner receiving one is not an employee for withholding, deferred compensation or similar purposes, and guaranteed payments do not constitute an interest in partnership profits for IRC §§ 706(b)(3), 707(b) or 708(b) (Reg. § 1.707-1(c))",
+      "taxYear": 2026,
+      "source": "26 CFR § 1.707-1(c), read at law.cornell.edu/cfr/text/26/1.707-1",
+      "verified": "2026-08-21"
+    },
+    "deal.guaranteed_deduction": {
+      "value": "for a guaranteed payment to be deductible by the partnership it must meet the same IRC § 162(a) tests it would have to meet if paid to a non-partner, and the IRC § 263 capital expenditure rules must be taken into account (Reg. § 1.707-1(c))",
+      "taxYear": 2026,
+      "source": "26 CFR § 1.707-1(c), read at law.cornell.edu/cfr/text/26/1.707-1",
+      "verified": "2026-08-21"
+    },
+    "deal.losses_disallowed": {
+      "value": "no deduction is allowed for losses from sales or exchanges of property, other than an interest in the partnership, directly or indirectly between a partnership and a person owning directly or indirectly more than 50 percent of its capital or profits interest, or between two partnerships in which the same persons own directly or indirectly more than 50 percent of the capital or profits interests. On a later sale by the transferee, IRC § 267(d) applies as if the loss had been disallowed under § 267(a)(1) (IRC § 707(b)(1))",
+      "taxYear": 2026,
+      "source": "IRC § 707(b)(1), read at law.cornell.edu/uscode/text/26/707",
+      "verified": "2026-08-21"
+    },
+    "deal.gain_ordinary": {
+      "value": "on a sale or exchange, direct or indirect, of property that in the hands of the transferee is other than a capital asset, between a partnership and a person owning more than 50 percent of its capital or profits interest, or between two partnerships more than 50 percent commonly owned, any gain recognised is ordinary income (IRC § 707(b)(2))",
+      "taxYear": 2026,
+      "source": "IRC § 707(b)(2), read at law.cornell.edu/uscode/text/26/707",
+      "verified": "2026-08-21"
     }
   }
 }
