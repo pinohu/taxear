@@ -12553,6 +12553,36 @@
       "taxYear": 2026,
       "source": "Reg. § 1.469-2(f)(6), opened at law.cornell.edu/cfr/text/26/1.469-2",
       "verified": "2026-08-21"
+    },
+    "sel.corp_rate": {
+      "value": "21 percent of taxable income — a single flat rate with no brackets, imposed on the corporation before anything reaches the shareholder",
+      "taxYear": 2026,
+      "source": "IRC § 11(b), opened at law.cornell.edu/uscode/text/26/11",
+      "verified": "2026-08-21"
+    },
+    "sel.s_eligibility": {
+      "value": "a domestic corporation that is not an ineligible corporation and has no more than 100 shareholders, no shareholder that is not an individual other than a permitted estate, trust or organisation, no non-resident alien shareholder, and no more than one class of stock",
+      "taxYear": 2026,
+      "source": "IRC § 1361(b)(1), opened at law.cornell.edu/uscode/text/26/1361",
+      "verified": "2026-08-21"
+    },
+    "sel.ineligible": {
+      "value": "a financial institution using the reserve method for bad debts, an insurance company taxed under subchapter L, and a current or former DISC are ineligible to elect S status however else they qualify",
+      "taxYear": 2026,
+      "source": "IRC § 1361(b)(2), opened at law.cornell.edu/uscode/text/26/1361",
+      "verified": "2026-08-21"
+    },
+    "sel.limited_partner_se": {
+      "value": "the distributive share of a limited partner, as such, is excluded from net earnings from self-employment — other than IRC § 707(c) guaranteed payments for services actually rendered, to the extent established to be remuneration for those services",
+      "taxYear": 2026,
+      "source": "IRC § 1402(a)(13), opened at law.cornell.edu/uscode/text/26/1402",
+      "verified": "2026-08-21"
+    },
+    "sel.sole_prop_se": {
+      "value": "a sole proprietor’s entire net profit is net earnings from self-employment, and a general partner’s entire distributive share is too — so the entity choice is also a self-employment tax choice",
+      "taxYear": 2026,
+      "source": "IRC § 1402(a), opened at law.cornell.edu/uscode/text/26/1402",
+      "verified": "2026-08-21"
     }
   }
 }
