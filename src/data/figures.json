@@ -12049,6 +12049,66 @@
       "taxYear": 2026,
       "source": "IRC § 280F(b)(2)(B), opened at law.cornell.edu/uscode/text/26/280F",
       "verified": "2026-08-21"
+    },
+    "k1.separately_stated_p": {
+      "value": "each partner takes into account separately its distributive share of short-term and long-term capital gains and losses, IRC § 1231 gains and losses, charitable contributions, qualified dividends, foreign taxes, and any other item the regulations require to be stated separately",
+      "taxYear": 2026,
+      "source": "IRC § 702(a), opened at law.cornell.edu/uscode/text/26/702",
+      "verified": "2026-08-21"
+    },
+    "k1.partnership_no_deduction": {
+      "value": "the partnership itself may not deduct personal exemptions, foreign taxes, charitable contributions, a net operating loss, the additional itemized deductions for individuals, or oil and gas depletion — those items travel to the partners instead",
+      "taxYear": 2026,
+      "source": "IRC § 703(a)(2), opened at law.cornell.edu/uscode/text/26/703",
+      "verified": "2026-08-21"
+    },
+    "k1.separately_stated_s": {
+      "value": "a shareholder takes into account its pro rata share of items of income, including tax-exempt income, loss, deduction or credit the separate treatment of which could affect any shareholder’s tax liability, together with nonseparately computed income or loss",
+      "taxYear": 2026,
+      "source": "IRC § 1366(a)(1), opened at law.cornell.edu/uscode/text/26/1366",
+      "verified": "2026-08-21"
+    },
+    "k1.why_separate": {
+      "value": "an item is stated separately when its character or a limitation attached to it could produce a different result at owner level than it would inside the entity — which is why the test in subchapter S is expressly whether separate treatment could affect any shareholder’s liability",
+      "taxYear": 2026,
+      "source": "IRC § 702(a)(7) and § 1366(a)(1)(A), opened at law.cornell.edu/uscode/text/26/702",
+      "verified": "2026-08-21"
+    },
+    "k1.basis_up_p": {
+      "value": "a partner’s basis is increased by its distributive share of partnership taxable income, of income exempt from tax, and of the excess of depletion deductions over the basis of the property subject to depletion",
+      "taxYear": 2026,
+      "source": "IRC § 705(a)(1), opened at law.cornell.edu/uscode/text/26/705",
+      "verified": "2026-08-21"
+    },
+    "k1.basis_down_p": {
+      "value": "a partner’s basis is decreased, but not below zero, by distributions and by its distributive share of partnership losses and of expenditures not deductible in computing taxable income and not properly chargeable to capital account",
+      "taxYear": 2026,
+      "source": "IRC § 705(a)(2), opened at law.cornell.edu/uscode/text/26/705",
+      "verified": "2026-08-21"
+    },
+    "k1.basis_down_s": {
+      "value": "a shareholder’s stock basis is decreased, but not below zero, by distributions not includible in income under IRC § 1368, by separately stated and nonseparately computed losses and deductions, and by any expense of the corporation not deductible in computing taxable income and not properly chargeable to capital account",
+      "taxYear": 2026,
+      "source": "IRC § 1367(a)(2), opened at law.cornell.edu/uscode/text/26/1367",
+      "verified": "2026-08-21"
+    },
+    "k1.loss_limit_p": {
+      "value": "a partner’s distributive share of partnership loss is allowed only to the extent of the adjusted basis of the partnership interest at the end of the partnership year in which the loss occurred, the excess being allowed when the basis is restored",
+      "taxYear": 2026,
+      "source": "IRC § 704(d)(1) and (2), opened at law.cornell.edu/uscode/text/26/704",
+      "verified": "2026-08-21"
+    },
+    "k1.loss_limit_s": {
+      "value": "a shareholder’s losses and deductions may not exceed the sum of the adjusted basis of the stock and the adjusted basis of any indebtedness of the corporation to that shareholder — a second tier partnerships do not have — with disallowed amounts carried forward indefinitely",
+      "taxYear": 2026,
+      "source": "IRC § 1366(d)(1) and (2), opened at law.cornell.edu/uscode/text/26/1366",
+      "verified": "2026-08-21"
+    },
+    "k1.consistency": {
+      "value": "a partner must treat any partnership-related item on its own return consistently with the treatment on the partnership return, and an underpayment caused by inconsistent treatment is assessed as if it were a mathematical or clerical error — without the ordinary deficiency procedures",
+      "taxYear": 2026,
+      "source": "IRC § 6222(a) and (b), opened at law.cornell.edu/uscode/text/26/6222",
+      "verified": "2026-08-21"
     }
   }
 }

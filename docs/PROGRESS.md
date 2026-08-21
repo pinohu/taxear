@@ -10,9 +10,9 @@ is indexed, and only the owner moves a page there (see `docs/VERIFICATION.md`).
 | Part | Topics | Stub | Draft | Review | Published | Words |
 |---|---:|---:|---:|---:|---:|---:|
 | 1. Individuals | 120 | 0 | 0 | 110 | 10 | 256,550 |
-| 2. Businesses | 119 | 45 | 0 | 74 | 0 | 173,977 |
+| 2. Businesses | 119 | 44 | 0 | 75 | 0 | 176,254 |
 | 3. Representation, Practices and Procedures | 121 | 0 | 0 | 0 | 121 | 257,674 |
-| **All parts** | **360** | **45** | **0** | **184** | **131** | **688,201** |
+| **All parts** | **360** | **44** | **0** | **185** | **131** | **690,478** |
 
 ## Part 1 — Individuals
 
@@ -332,7 +332,7 @@ is indexed, and only the owner moves a page there (see `docs/VERIFICATION.md`).
 | 2.2.4.c | [Balance sheet (e.g., proofing beginning and ending balances, relationship to income statement and depreciation)](/businesses/business-tax-preparation/analysis-of-financial-records/balance-sheet/) | review | 2,632 | 2026-08-21 |
 | 2.2.4.d | [Method of accounting and changes (e.g., accrual, cash, hybrid, Form 3115)](/businesses/business-tax-preparation/analysis-of-financial-records/method-of-accounting-and-changes/) | review | 2,811 | 2026-08-21 |
 | 2.2.4.e | [Depreciation recovery (e.g., recapture, IRC Section 280F)](/businesses/business-tax-preparation/analysis-of-financial-records/depreciation-recovery/) | review | 2,906 | 2026-08-21 |
-| 2.2.4.f | [Pass-through activity (e.g., K-1, separately stated items, non-deductible expenses)](/businesses/business-tax-preparation/analysis-of-financial-records/pass-through-activity/) | stub | — | — |
+| 2.2.4.f | [Pass-through activity (e.g., K-1, separately stated items, non-deductible expenses)](/businesses/business-tax-preparation/analysis-of-financial-records/pass-through-activity/) | review | 2,277 | 2026-08-21 |
 | 2.2.4.g | [Reconciliation of tax versus books (e.g., M-1, M-2, M-3)](/businesses/business-tax-preparation/analysis-of-financial-records/reconciliation-of-tax-versus-books/) | stub | — | — |
 | 2.2.4.h | [Related party activity](/businesses/business-tax-preparation/analysis-of-financial-records/related-party-activity/) | stub | — | — |
 | 2.2.4.i | [Loans to and from owners](/businesses/business-tax-preparation/analysis-of-financial-records/loans-to-and-from-owners/) | stub | — | — |
