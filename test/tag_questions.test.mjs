@@ -185,6 +185,13 @@ test('a passive activity income question is not a debt discharge question', () =
   assert.equal(classify(q(2, 'Canceled debt for businesses is not recognized as income in which scenario?')), '2.2.1.d');
 });
 
+test('a partnership ordinary income computation is not a depreciation question', () => {
+  // The list of separately stated items names the expensing election and depletion, so the
+  // depreciation rule was claiming a partnership computation question.
+  assert.equal(classify(q(2, 'Determine the total ordinary partnership income given gross receipts, qualified expenses, net short term losses and charitable contributions. Separately stated items include the expensing election and depletion.')), '2.1.2.a');
+  assert.equal(classify(q(2, 'What is the maximum bonus depreciation allowance on qualified property?')), '2.2.2.c');
+});
+
 test('rules never tag across exam parts', () => {
   // The same subject asked in different parts must land in that part's own outline.
   // Part 1 has its own claim-for-refund topic, so the Part 1 question is placed there —

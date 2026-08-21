@@ -19,7 +19,7 @@ authorities:
   - { type: IRC, ref: "§ 52", title: "Special rules; controlled group of corporations", url: "https://www.law.cornell.edu/uscode/text/26/52" }
   - { type: RevProc, ref: "2025-32", title: "Inflation adjusted items for 2026", url: "https://www.irs.gov/pub/irs-drop/rp-25-32.pdf" }
 forms: []
-related: ["2.1.1.a", "2.1.1.i", "2.1.1.c", "2.1.1.l", "2.2.1.a", "2.2.1.b"]
+related: ["2.1.1.a", "2.1.1.i", "2.1.1.c", "2.1.1.l", "2.2.1.a", "2.2.1.b", "2.2.2.c"]
 changelog:
   - { date: "2026-08-21", summary: "Initial draft. Sets out the IRC § 446(a) book conformity rule and the § 446(b) clear reflection override, the § 446(c) permissible methods, the § 446(d) rule that one taxpayer may use different methods for different trades or businesses, the § 446(e) consent requirement, the § 448(a) prohibition on the cash method for C corporations, partnerships with a C corporation partner and tax shelters with its exceptions, the § 448(c) gross receipts test at the 2026 inflation-adjusted figure with the aggregation and annualisation mechanics, the § 461(h) economic performance requirement and recurring item exception, the § 471(c) and § 263A(i) small business exemptions that ride on the same test, and the § 481(a) adjustment on a change." }
 ---

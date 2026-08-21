@@ -10555,6 +10555,108 @@
       "taxYear": 2026,
       "source": "IRC § 178(a), opened at law.cornell.edu/uscode/text/26/178",
       "verified": "2026-08-21"
+    },
+    "depr.179_limit_2026": {
+      "value": "$2,560,000 — the aggregate cost of IRC § 179 property a taxpayer may elect to expense for a taxable year beginning in 2026",
+      "taxYear": 2026,
+      "source": "Rev. Proc. 2025-32 § 3.24, opened at irs.gov/pub/irs-drop/rp-25-32.pdf; statutory amount at IRC § 179(b)(1)",
+      "verified": "2026-08-21"
+    },
+    "depr.179_phaseout_2026": {
+      "value": "$4,090,000 — the 2026 limitation is reduced, but not below zero, by the amount by which the cost of IRC § 179 property placed in service during the year exceeds this figure",
+      "taxYear": 2026,
+      "source": "Rev. Proc. 2025-32 § 3.24, opened at irs.gov/pub/irs-drop/rp-25-32.pdf; statutory rule at IRC § 179(b)(2)",
+      "verified": "2026-08-21"
+    },
+    "depr.179_suv_2026": {
+      "value": "$32,000 — the cost of any sport utility vehicle that may be taken into account under IRC § 179 for a taxable year beginning in 2026",
+      "taxYear": 2026,
+      "source": "Rev. Proc. 2025-32 § 3.24, opened at irs.gov/pub/irs-drop/rp-25-32.pdf; statutory rule at IRC § 179(b)(5)(A)",
+      "verified": "2026-08-21"
+    },
+    "depr.179_income_limit": {
+      "value": "the deduction, after the dollar limitation and the phase-out, may not exceed the aggregate taxable income derived from the active conduct of any trade or business, computed without the IRC § 179 deduction itself; the disallowed amount carries forward",
+      "taxYear": 2026,
+      "source": "IRC § 179(b)(3), opened at law.cornell.edu/uscode/text/26/179",
+      "verified": "2026-08-21"
+    },
+    "depr.bonus_rate": {
+      "value": "100 percent of the adjusted basis of qualified property, with the basis reduced by that allowance before any other depreciation is computed",
+      "taxYear": 2026,
+      "source": "IRC § 168(k)(1), opened at law.cornell.edu/uscode/text/26/168",
+      "verified": "2026-08-21"
+    },
+    "depr.bonus_permanent": {
+      "value": "permanent — Pub. L. 119-21 § 70301(b)(1)(A) substituted \"100 percent\" for \"the applicable percentage\" in IRC § 168(k)(1)(A), § 70301(b)(1)(B) repealed the phase-down table at IRC § 168(k)(6) and IRC § 168(k)(8), and § 70301(a)(1) struck the requirement in IRC § 168(k)(2)(A)(iii) that the property be placed in service before 1 January 2027",
+      "taxYear": 2026,
+      "source": "Amendment notes to IRC § 168, Pub. L. 119-21 § 70301, opened at law.cornell.edu/uscode/text/26/168",
+      "verified": "2026-08-21"
+    },
+    "depr.bonus_used": {
+      "value": "used property qualifies, provided it was not used by the taxpayer at any time before the acquisition and the acquisition meets the IRC § 179(d)(2)(A), (B), (C) and (d)(3) conditions on related parties and carryover basis",
+      "taxYear": 2026,
+      "source": "IRC § 168(k)(2)(E)(i), opened at law.cornell.edu/uscode/text/26/168",
+      "verified": "2026-08-21"
+    },
+    "depr.bonus_transition_election": {
+      "value": "for the first taxable year ending after 19 January 2025 only, a taxpayer may elect to apply 40 percent instead of 100 percent — 60 percent for longer production period property and certain aircraft",
+      "taxYear": 2026,
+      "source": "IRC § 168(k)(10), opened at law.cornell.edu/uscode/text/26/168",
+      "verified": "2026-08-21"
+    },
+    "depr.startup_deduction": {
+      "value": "$5,000, reduced but not below zero by the amount by which start-up expenditures exceed $50,000, deductible in the year the active trade or business begins",
+      "taxYear": 2026,
+      "source": "IRC § 195(b)(1)(A), opened at law.cornell.edu/uscode/text/26/195",
+      "verified": "2026-08-21"
+    },
+    "depr.startup_amortization": {
+      "value": "the remainder is deducted ratably over the 180-month period beginning with the month in which the active trade or business begins",
+      "taxYear": 2026,
+      "source": "IRC § 195(b)(1)(B), opened at law.cornell.edu/uscode/text/26/195",
+      "verified": "2026-08-21"
+    },
+    "depr.startup_defined": {
+      "value": "amounts paid or incurred in investigating the creation or acquisition of an active trade or business, in creating one, or in a profit-seeking activity before the business begins in anticipation of it becoming active — and only where the amount would have been deductible if incurred by an existing business in the same field",
+      "taxYear": 2026,
+      "source": "IRC § 195(c)(1), opened at law.cornell.edu/uscode/text/26/195",
+      "verified": "2026-08-21"
+    },
+    "depr.startup_excluded": {
+      "value": "an amount for which a deduction is allowable under IRC § 163(a), § 164, § 174 or § 174A is not a start-up expenditure",
+      "taxYear": 2026,
+      "source": "IRC § 195(c)(1), closing text, opened at law.cornell.edu/uscode/text/26/195",
+      "verified": "2026-08-21"
+    },
+    "depr.depletion_scope": {
+      "value": "a reasonable allowance for depletion is available for mines, oil and gas wells, other natural deposits, and timber, and the estimate of recoverable units is revised as operations show it to be wrong",
+      "taxYear": 2026,
+      "source": "IRC § 611(a), opened at law.cornell.edu/uscode/text/26/611",
+      "verified": "2026-08-21"
+    },
+    "depr.percentage_scope": {
+      "value": "percentage depletion applies only to the mines, wells and other natural deposits listed in IRC § 613(b) — a list that does not include timber, so timber is limited to cost depletion",
+      "taxYear": 2026,
+      "source": "IRC § 613(a) and § 613(b), opened at law.cornell.edu/uscode/text/26/613",
+      "verified": "2026-08-21"
+    },
+    "depr.percentage_cap": {
+      "value": "the percentage depletion allowance may not exceed 50 percent of taxable income from the property, computed without the depletion allowance and without any IRC § 199A deduction — 100 percent in the case of oil and gas properties — and may never be less than cost depletion",
+      "taxYear": 2026,
+      "source": "IRC § 613(a), opened at law.cornell.edu/uscode/text/26/613",
+      "verified": "2026-08-21"
+    },
+    "depr.oil_gas_default": {
+      "value": "except as IRC § 613A otherwise provides, the depletion allowance for an oil or gas well is computed without regard to IRC § 613 — that is, percentage depletion is denied",
+      "taxYear": 2026,
+      "source": "IRC § 613A(a), opened at law.cornell.edu/uscode/text/26/613A",
+      "verified": "2026-08-21"
+    },
+    "depr.oil_gas_independent": {
+      "value": "15 percent, available only to independent producers and royalty owners and only on average daily production up to the depletable oil or natural gas quantity",
+      "taxYear": 2026,
+      "source": "IRC § 613A(c)(1), opened at law.cornell.edu/uscode/text/26/613A",
+      "verified": "2026-08-21"
     }
   }
 }

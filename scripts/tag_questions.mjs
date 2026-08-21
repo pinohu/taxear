@@ -397,6 +397,10 @@ const RULES = [
   // 2.2.2 business expenses, deductions and credits
   ['2.2.2.l', /qualified business income|\bqbi\b|\b199a\b|\bubia\b/i],
   ['2.2.2.o', /home office|business use of (?:the |a )?home|\b8829\b/i],
+  // A partnership ordinary-income computation lists the separately stated items, and that list
+  // names the expensing election and depletion, so the depreciation rule was claiming it. The
+  // partnership flow-through topic has it.
+  ['2.1.2.a', /ordinary partnership income|partnership'?s? ordinary income/i],
   ['2.2.2.c', /\b179\b|bonus depreciation|\bmacrs\b|amortization|start-?up cost|organizational cost|depletion|\b4562\b/i],
   ['2.2.2.n', /net operating loss|\bnol\b/i],
   ['2.2.2.m', /general business credit|\b3800\b|disabled access credit|research (?:and development )?credit|work opportunity/i],
