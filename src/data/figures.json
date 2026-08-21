@@ -7645,6 +7645,84 @@
       "taxYear": 2026,
       "source": "IRC § 965, read at law.cornell.edu/uscode/text/26/965",
       "verified": "2026-08-21"
+    },
+    "vd.willfulness_fork": {
+      "value": "willfulness decides the route — the streamlined procedures require a certification that the failure was non-willful, and the Criminal Investigation Voluntary Disclosure Practice requires the taxpayer to state that the conduct was willful and to sign an acknowledgement of it",
+      "taxYear": 2026,
+      "source": "IRS, Streamlined filing compliance procedures, irs.gov/individuals/international-taxpayers/streamlined-filing-compliance-procedures; IRS, IRS Criminal Investigation Voluntary Disclosure Practice, irs.gov/compliance/criminal-investigation/irs-criminal-investigation-voluntary-disclosure-practice",
+      "verified": "2026-08-21"
+    },
+    "vd.nonwillful_definition": {
+      "value": "conduct due to negligence, inadvertence or mistake, or conduct resulting from a good faith misunderstanding of the requirements of the law",
+      "taxYear": 2026,
+      "source": "IRS, Streamlined filing compliance procedures, irs.gov/individuals/international-taxpayers/streamlined-filing-compliance-procedures",
+      "verified": "2026-08-21"
+    },
+    "vd.streamlined_eligibility": {
+      "value": "individual taxpayers and estates of individuals only; unavailable once the IRS has begun a civil examination of any taxable year, whether or not it concerns foreign assets, or where the taxpayer is under criminal investigation; a valid taxpayer identification number is required; and penalties previously assessed are not abated",
+      "taxYear": 2026,
+      "source": "IRS, Streamlined filing compliance procedures, irs.gov/individuals/international-taxpayers/streamlined-filing-compliance-procedures",
+      "verified": "2026-08-21"
+    },
+    "vd.streamlined_periods": {
+      "value": "the most recent 3 years for which the return due date, including any properly applied for extension, has passed, together with all required information returns — and the most recent 6 years for which the FBAR due date has passed",
+      "taxYear": 2026,
+      "source": "IRS, U.S. taxpayers residing outside the United States, irs.gov/individuals/international-taxpayers/u-s-taxpayers-residing-outside-the-united-states; IRS, U.S. taxpayers residing in the United States, irs.gov/individuals/international-taxpayers/u-s-taxpayers-residing-in-the-united-states",
+      "verified": "2026-08-21"
+    },
+    "vd.foreign_terms": {
+      "value": "no failure-to-file, failure-to-pay, accuracy-related, information return or FBAR penalties for a taxpayer meeting the non-residency requirement who complies — and that protection survives a later audit unless the examination determines the original noncompliance was fraudulent or the FBAR violation willful",
+      "taxYear": 2026,
+      "source": "IRS, U.S. taxpayers residing outside the United States, irs.gov/individuals/international-taxpayers/u-s-taxpayers-residing-outside-the-united-states",
+      "verified": "2026-08-21"
+    },
+    "vd.domestic_penalty": {
+      "value": "a Title 26 miscellaneous offshore penalty of 5 percent of the highest aggregate balance or value of the foreign financial assets subject to it — found by aggregating year-end balances and values for each year in the 3-year covered tax return period and the 6-year covered FBAR period and taking the highest of those years",
+      "taxYear": 2026,
+      "source": "IRS, U.S. taxpayers residing in the United States, irs.gov/individuals/international-taxpayers/u-s-taxpayers-residing-in-the-united-states",
+      "verified": "2026-08-21"
+    },
+    "vd.domestic_eligibility": {
+      "value": "the taxpayer must fail the non-residency requirement, must have previously filed a return for each of the most recent 3 years for which the due date has passed, must have failed to report gross income from a foreign financial asset, and the failures must have been non-willful",
+      "taxYear": 2026,
+      "source": "IRS, U.S. taxpayers residing in the United States, irs.gov/individuals/international-taxpayers/u-s-taxpayers-residing-in-the-united-states",
+      "verified": "2026-08-21"
+    },
+    "vd.streamlined_no_closure": {
+      "value": "returns are processed like any other return — receipt is not acknowledged, there is no closing agreement, and the submission may still be selected for audit under the ordinary processes and checked against information received from banks and other sources",
+      "taxYear": 2026,
+      "source": "IRS, Streamlined filing compliance procedures, irs.gov/individuals/international-taxpayers/streamlined-filing-compliance-procedures",
+      "verified": "2026-08-21"
+    },
+    "vd.vdp_timeliness": {
+      "value": "a disclosure is timely only if received before the IRS has commenced a civil examination or criminal investigation, received information from a third party alerting it to the noncompliance, or acquired information about it from a criminal enforcement action such as a search warrant or grand jury subpoena",
+      "taxYear": 2026,
+      "source": "IRS, IRS Criminal Investigation Voluntary Disclosure Practice, irs.gov/compliance/criminal-investigation/irs-criminal-investigation-voluntary-disclosure-practice",
+      "verified": "2026-08-21"
+    },
+    "vd.vdp_no_immunity": {
+      "value": "a voluntary disclosure will not automatically guarantee immunity from prosecution — Criminal Investigation takes a timely, accurate and complete disclosure into consideration in deciding whether to recommend prosecution, and it may result in prosecution not being recommended",
+      "taxYear": 2026,
+      "source": "IRS, IRS Criminal Investigation Voluntary Disclosure Practice, irs.gov/compliance/criminal-investigation/irs-criminal-investigation-voluntary-disclosure-practice",
+      "verified": "2026-08-21"
+    },
+    "vd.vdp_mechanics": {
+      "value": "a two-part application on Form 14457 — Part I preclearance, which determines eligibility but does not guarantee preliminary acceptance, then Part II within 45 days of the preclearance letter, with at most one 45-day extension; full payment or a full-pay installment agreement for tax, interest and penalties is required",
+      "taxYear": 2026,
+      "source": "IRS, IRS Criminal Investigation Voluntary Disclosure Practice, irs.gov/compliance/criminal-investigation/irs-criminal-investigation-voluntary-disclosure-practice",
+      "verified": "2026-08-21"
+    },
+    "vd.vdp_illegal_source": {
+      "value": "the practice does not apply to taxpayers with illegal sources of income, and income from activities legal under state law but illegal under federal law is treated as illegal source income for this purpose",
+      "taxYear": 2026,
+      "source": "IRS, IRS Criminal Investigation Voluntary Disclosure Practice, irs.gov/compliance/criminal-investigation/irs-criminal-investigation-voluntary-disclosure-practice",
+      "verified": "2026-08-21"
+    },
+    "vd.vdp_proposal_status": {
+      "value": "a proposed revision of the practice was announced on 22 December 2025 for a 90-day comment period ending 22 March 2026 and has not been finalised — the IRS states the proposal creates no rights or expectations for taxpayers who applied before it is finalised and placed into effect, and eligibility under any revised practice will be determined by the procedures in effect when the changes are finalised",
+      "taxYear": 2026,
+      "source": "IRS, IRS Criminal Investigation Voluntary Disclosure Practice, irs.gov/compliance/criminal-investigation/irs-criminal-investigation-voluntary-disclosure-practice (read 21 August 2026)",
+      "verified": "2026-08-21"
     }
   }
 }

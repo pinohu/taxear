@@ -9,10 +9,10 @@ is indexed, and only the owner moves a page there (see `docs/VERIFICATION.md`).
 
 | Part | Topics | Stub | Draft | Review | Published | Words |
 |---|---:|---:|---:|---:|---:|---:|
-| 1. Individuals | 120 | 1 | 0 | 109 | 10 | 254,674 |
+| 1. Individuals | 120 | 0 | 0 | 110 | 10 | 256,550 |
 | 2. Businesses | 119 | 119 | 0 | 0 | 0 | 0 |
 | 3. Representation, Practices and Procedures | 121 | 0 | 0 | 0 | 121 | 257,674 |
-| **All parts** | **360** | **120** | **0** | **109** | **131** | **512,348** |
+| **All parts** | **360** | **119** | **0** | **110** | **131** | **514,224** |
 
 ## Part 1 — Individuals
 
@@ -206,7 +206,7 @@ is indexed, and only the owner moves a page there (see `docs/VERIFICATION.md`).
 | 1.6.3.c | [Potential penalties (e.g., failure to file, underreporting, substantially incomplete, statute of limitations, reduction of tax attributes)](/individuals/specialized-returns-for-individuals/international-information-reporting/potential-penalties/) | review | 1,861 | 2026-08-21 |
 | 1.6.3.d | [Distinctions between FBAR and Form 8938 requirements](/individuals/specialized-returns-for-individuals/international-information-reporting/distinctions-between-fbar-and-form-8938-requirements/) | review | 1,847 | 2026-08-21 |
 | 1.6.3.e | [Ownership of a foreign corporation (GILTI, IRC Section 965 transition tax)](/individuals/specialized-returns-for-individuals/international-information-reporting/ownership-of-a-foreign-corporation-gilti-irc-section-965/) | review | 1,889 | 2026-08-21 |
-| 1.6.3.f | [International voluntary disclosure options](/individuals/specialized-returns-for-individuals/international-information-reporting/international-voluntary-disclosure-options/) | stub | — | — |
+| 1.6.3.f | [International voluntary disclosure options](/individuals/specialized-returns-for-individuals/international-information-reporting/international-voluntary-disclosure-options/) | review | 1,876 | 2026-08-21 |
 
 ## Part 2 — Businesses
 
