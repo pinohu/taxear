@@ -11419,6 +11419,30 @@
       "taxYear": 2026,
       "source": "IRC § 1(h)(6)(A), opened at law.cornell.edu/uscode/text/26/1",
       "verified": "2026-08-21"
+    },
+    "lke.1245_ceiling": {
+      "value": "where gain on a disposition is not recognised in whole or in part under IRC § 1031 or § 1033, the IRC § 1245 ordinary income taken into account cannot exceed the gain actually recognised plus the fair market value of any acquired property that is not IRC § 1245 property",
+      "taxYear": 2026,
+      "source": "IRC § 1245(b)(4), opened at law.cornell.edu/uscode/text/26/1245",
+      "verified": "2026-08-21"
+    },
+    "lke.exchanged_basis_depreciation": {
+      "value": "the depreciable exchanged basis is recovered over the remaining recovery period of the relinquished property using its depreciation method, where both the period and the method prescribed for the replacement property are the same; any excess basis is treated as newly placed in service",
+      "taxYear": 2026,
+      "source": "Reg. § 1.168(i)-6(c)(3)(ii) and (d)(1), opened at law.cornell.edu/cfr/text/26/1.168(i)-6",
+      "verified": "2026-08-21"
+    },
+    "lke.previous_owner_irrelevant": {
+      "value": "the depreciation treatment and elections of previous owners of the replacement property have no effect on the acquiring taxpayer's depreciation of it",
+      "taxYear": 2026,
+      "source": "Reg. § 1.168(i)-6(c)(2), opened at law.cornell.edu/cfr/text/26/1.168(i)-6",
+      "verified": "2026-08-21"
+    },
+    "lke.personal_property_gone": {
+      "value": "Pub. L. 115-97 § 13303(a) substituted \"real property\" for \"property\" throughout IRC § 1031(a)(1), and § 13303(b)(5) changed the section catchline to match — so equipment, vehicles, livestock, artwork and intangibles all left the section for exchanges after 2017",
+      "taxYear": 2026,
+      "source": "Amendment notes to IRC § 1031, opened at law.cornell.edu/uscode/text/26/1031",
+      "verified": "2026-08-21"
     }
   }
 }
