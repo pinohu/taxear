@@ -7819,6 +7819,90 @@
       "taxYear": 2026,
       "source": "IRC § 761(a), read at law.cornell.edu/uscode/text/26/761",
       "verified": "2026-08-21"
+    },
+    "corp.rate": {
+      "value": "21 percent of taxable income — a flat rate with no brackets (IRC § 11(b))",
+      "taxYear": 2026,
+      "source": "IRC § 11(b), read at law.cornell.edu/uscode/text/26/11",
+      "verified": "2026-08-21"
+    },
+    "corp.return_date": {
+      "value": "the 15th day of April following the close of a calendar year, or the 15th day of the fourth month following the close of a fiscal year — a C corporation falls under the general rule in IRC § 6072(a), not the third-month rule in § 6072(b) that governs partnerships and S corporations",
+      "taxYear": 2026,
+      "source": "IRC § 6072, read at law.cornell.edu/uscode/text/26/6072",
+      "verified": "2026-08-21"
+    },
+    "corp.charitable_limits": {
+      "value": "allowed only to the extent the aggregate exceeds 1 percent of taxable income and does not exceed 10 percent of taxable income — a floor as well as a ceiling, both applying to taxable years beginning after 31 December 2025 (IRC § 170(b)(2)(A) as amended by Pub. L. 119-21 § 70426(a), (d))",
+      "taxYear": 2026,
+      "source": "IRC § 170(b)(2) and its 2025 amendment notes, read at law.cornell.edu/uscode/text/26/170",
+      "verified": "2026-08-21"
+    },
+    "corp.charitable_superseded": {
+      "value": "a single ceiling of 10 percent of taxable income with no floor — the rule for taxable years beginning before 2026, and before that a temporary 25 percent ceiling for certain cash contributions in 2020 and 2021 that has long since lapsed",
+      "taxYear": 2026,
+      "source": "IRC § 170(b)(2)(A) and its 2025 amendment notes, read at law.cornell.edu/uscode/text/26/170",
+      "verified": "2026-08-21"
+    },
+    "corp.charitable_carryover": {
+      "value": "contributions disallowed by the 10 percent ceiling carry to the succeeding year and expire after the fifth taxable year following the year first taken into account, on a first-in first-out basis — with current-year contributions absorbed before carried amounts, and amounts disallowed by the 1 percent floor carried forward only from a year in which the 10 percent ceiling was also exceeded (IRC § 170(d)(2))",
+      "taxYear": 2026,
+      "source": "IRC § 170(d)(2), read at law.cornell.edu/uscode/text/26/170",
+      "verified": "2026-08-21"
+    },
+    "corp.beat_rate": {
+      "value": "10.5 percent of modified taxable income, less regular tax liability adjusted as IRC § 59A(b)(1)(B) provides — Pub. L. 119-21 § 70331(a)(1) substituted 10.5 percent for 10 percent and § 70331(a)(2) struck the paragraph that would have raised the rate for taxable years beginning after 2025 (IRC § 59A(b)(1))",
+      "taxYear": 2026,
+      "source": "IRC § 59A and its 2025 amendment notes, read at law.cornell.edu/uscode/text/26/59A",
+      "verified": "2026-08-21"
+    },
+    "corp.beat_applicable_taxpayer": {
+      "value": "a corporation other than a regulated investment company, real estate investment trust or S corporation, with average annual gross receipts of at least $500,000,000 for the 3 taxable years ending with the preceding year, and a base erosion percentage of 3 percent or higher — 2 percent for a bank or securities dealer (IRC § 59A(e)(1))",
+      "taxYear": 2026,
+      "source": "IRC § 59A(e), read at law.cornell.edu/uscode/text/26/59A",
+      "verified": "2026-08-21"
+    },
+    "corp.capital_losses": {
+      "value": "losses from sales or exchanges of capital assets are allowed only to the extent of gains from such sales or exchanges — a corporation has no equivalent of the individual allowance against ordinary income (IRC § 1211(a))",
+      "taxYear": 2026,
+      "source": "IRC § 1211(a), read at law.cornell.edu/uscode/text/26/1211",
+      "verified": "2026-08-21"
+    },
+    "corp.capital_loss_carry": {
+      "value": "a net capital loss is carried back to each of the 3 preceding taxable years, so far as it does not increase or produce a net operating loss, and forward to each of the 5 succeeding years — treated as a short-term capital loss in each, and carried to the earliest available year first (IRC § 1212(a)(1))",
+      "taxYear": 2026,
+      "source": "IRC § 1212(a), read at law.cornell.edu/uscode/text/26/1212",
+      "verified": "2026-08-21"
+    },
+    "corp.distribution_character": {
+      "value": "the portion of a distribution that is a dividend within IRC § 316 is included in the shareholder's gross income; the rest is applied against and reduces stock basis, and any excess over basis is treated as gain from a sale or exchange (IRC § 301(c))",
+      "taxYear": 2026,
+      "source": "IRC § 301(c), read at law.cornell.edu/uscode/text/26/301",
+      "verified": "2026-08-21"
+    },
+    "corp.estimated_required": {
+      "value": "25 percent of the required annual payment per installment, the required annual payment being the lesser of 100 percent of the tax shown on the current year's return or 100 percent of the tax shown on the preceding year's return — the prior-year branch unavailable where that year was not 12 months or the corporation filed no return showing a liability (IRC § 6655(d)(1))",
+      "taxYear": 2026,
+      "source": "IRC § 6655(d), read at law.cornell.edu/uscode/text/26/6655",
+      "verified": "2026-08-21"
+    },
+    "corp.estimated_de_minimis": {
+      "value": "no addition to tax where the tax shown on the return for the year, or the tax if no return is filed, is less than $500 (IRC § 6655(f))",
+      "taxYear": 2026,
+      "source": "IRC § 6655(f), read at law.cornell.edu/uscode/text/26/6655",
+      "verified": "2026-08-21"
+    },
+    "corp.estimated_large": {
+      "value": "a large corporation may not use the prior-year branch at all, except that it may use last year's tax for the first installment with the shortfall recaptured in the second (IRC § 6655(d)(2))",
+      "taxYear": 2026,
+      "source": "IRC § 6655(d)(2), read at law.cornell.edu/uscode/text/26/6655",
+      "verified": "2026-08-21"
+    },
+    "corp.at_risk": {
+      "value": "the money and adjusted basis of other property contributed to the activity, plus amounts borrowed to the extent the taxpayer is personally liable for repayment or has pledged property not used in the activity as security, to the extent of the net fair market value of that pledged interest (IRC § 465(b)(1), (2))",
+      "taxYear": 2026,
+      "source": "IRC § 465(b), read at law.cornell.edu/uscode/text/26/465",
+      "verified": "2026-08-21"
     }
   }
 }

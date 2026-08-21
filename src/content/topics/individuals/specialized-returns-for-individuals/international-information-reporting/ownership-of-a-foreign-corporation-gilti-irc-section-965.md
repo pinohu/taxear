@@ -18,7 +18,7 @@ authorities:
   - { type: IRC, ref: "§ 965", title: "Treatment of deferred foreign income upon transition to participation exemption system", url: "https://www.law.cornell.edu/uscode/text/26/965" }
   - { type: IRC, ref: "§ 6038", title: "Information reporting with respect to certain foreign corporations and partnerships", url: "https://www.law.cornell.edu/uscode/text/26/6038" }
 forms: []
-related: ["1.6.3.a", "1.6.3.b", "1.6.3.c", "1.6.3.d", "1.6.3.f"]
+related: ["1.6.3.a", "1.6.3.b", "1.6.3.c", "1.6.3.d", "1.6.3.f", "2.1.1.c"]
 changelog:
   - { date: "2026-08-21", summary: "Initial draft. Covers the two thresholds that matter — the IRC § 951(b) 10 percent United States shareholder test and the § 957(a) controlled foreign corporation test — the § 951A inclusion as rewritten by Pub. L. 119-21 § 70323, which renamed global intangible low-taxed income as net CFC tested income and repealed the qualified business asset investment offset outright, the § 250 deduction available to corporations only, the § 962 election by which an individual reaches corporate treatment, and the § 965 transition tax now spent except for its installment stream." }
 ---
