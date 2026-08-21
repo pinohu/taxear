@@ -9073,6 +9073,48 @@
       "taxYear": 2026,
       "source": "Rev. Proc. 2025-32 § 3.52, read at irs.gov/pub/irs-drop/rp-25-32.pdf",
       "verified": "2026-08-21"
+    },
+    "ep.dividend_defined": {
+      "value": "a dividend is any distribution of property made by a corporation to its shareholders out of earnings and profits accumulated after 28 February 1913, or out of the earnings and profits of the taxable year computed as of the close of that year without diminution by reason of distributions made during it and without regard to the amount on hand when the distribution was made. Every distribution is made out of earnings and profits to the extent thereof, and from the most recently accumulated earnings and profits (IRC § 316(a))",
+      "taxYear": 2026,
+      "source": "IRC § 316(a), read at law.cornell.edu/uscode/text/26/316",
+      "verified": "2026-08-21"
+    },
+    "ep.reduction": {
+      "value": "on a distribution of property with respect to its stock a corporation earnings and profits are decreased, to the extent thereof, by the money distributed, the principal amount of its own obligations distributed — or the aggregate issue price where they carry original issue discount — and the adjusted basis of other property distributed (IRC § 312(a))",
+      "taxYear": 2026,
+      "source": "IRC § 312(a), read at law.cornell.edu/uscode/text/26/312",
+      "verified": "2026-08-21"
+    },
+    "ep.appreciated_property": {
+      "value": "where a corporation distributes property other than its own obligation whose fair market value exceeds its adjusted basis, earnings and profits are first increased by that excess and the reduction is then measured by fair market value rather than adjusted basis (IRC § 312(b))",
+      "taxYear": 2026,
+      "source": "IRC § 312(b), read at law.cornell.edu/uscode/text/26/312",
+      "verified": "2026-08-21"
+    },
+    "ep.depreciation": {
+      "value": "for earnings and profits purposes the allowance for depreciation and amortisation for a taxable year beginning after 30 June 1972 is the amount that would be allowable if the straight line method had been used, with an exception where a unit-of-production or other method not expressed in a term of years was properly used (IRC § 312(k)(1), (2))",
+      "taxYear": 2026,
+      "source": "IRC § 312(k), read at law.cornell.edu/uscode/text/26/312",
+      "verified": "2026-08-21"
+    },
+    "ep.economic_adjustments": {
+      "value": "further adjustments are required so that earnings and profits reflect economic gain and loss more accurately — among them the disallowance of construction period carrying charges with a matching basis increase, the use of the completed contract and installment methods being overridden, and the spreading of intangible drilling and mineral exploration costs (IRC § 312(n))",
+      "taxYear": 2026,
+      "source": "IRC § 312(n), read at law.cornell.edu/uscode/text/26/312",
+      "verified": "2026-08-21"
+    },
+    "ep.method_follows_books": {
+      "value": "the amount of earnings and profits depends on the method of accounting properly employed in computing taxable income — a corporation on the cash basis may not use the accrual basis for earnings and profits — and mere bookkeeping entries increasing or decreasing surplus are not conclusive (Reg. § 1.312-6(a))",
+      "taxYear": 2026,
+      "source": "26 CFR § 1.312-6(a), read at law.cornell.edu/cfr/text/26/1.312-6",
+      "verified": "2026-08-21"
+    },
+    "ep.exempt_income": {
+      "value": "among the items entering into the computation of earnings and profits are all income exempted by statute and all income not taxable by the federal government under the Constitution, as well as everything includible in gross income under IRC § 61 — so tax-exempt income increases earnings and profits even though it never enters taxable income (Reg. § 1.312-6(b))",
+      "taxYear": 2026,
+      "source": "26 CFR § 1.312-6(b), read at law.cornell.edu/cfr/text/26/1.312-6",
+      "verified": "2026-08-21"
     }
   }
 }

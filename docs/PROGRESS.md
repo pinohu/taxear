@@ -10,9 +10,9 @@ is indexed, and only the owner moves a page there (see `docs/VERIFICATION.md`).
 | Part | Topics | Stub | Draft | Review | Published | Words |
 |---|---:|---:|---:|---:|---:|---:|
 | 1. Individuals | 120 | 0 | 0 | 110 | 10 | 256,550 |
-| 2. Businesses | 119 | 95 | 0 | 24 | 0 | 56,649 |
+| 2. Businesses | 119 | 94 | 0 | 25 | 0 | 58,856 |
 | 3. Representation, Practices and Procedures | 121 | 0 | 0 | 0 | 121 | 257,674 |
-| **All parts** | **360** | **95** | **0** | **134** | **131** | **570,873** |
+| **All parts** | **360** | **94** | **0** | **135** | **131** | **573,080** |
 
 ## Part 1 — Individuals
 
@@ -250,7 +250,7 @@ is indexed, and only the owner moves a page there (see `docs/VERIFICATION.md`).
 | Code | Title | Status | Words | Last reviewed |
 |---|---|---|---:|---|
 | 2.1.3.a | [Filing requirements, due dates, and penalties](/businesses/business-entities/corporations-in-general/filing-requirements-due-dates-and-penalties/) | review | 2,266 | 2026-08-21 |
-| 2.1.3.b | [Earnings and profits](/businesses/business-entities/corporations-in-general/earnings-and-profits/) | stub | — | — |
+| 2.1.3.b | [Earnings and profits](/businesses/business-entities/corporations-in-general/earnings-and-profits/) | review | 2,207 | 2026-08-21 |
 | 2.1.3.c | [Shareholder dividends, distributions, and recognition requirements](/businesses/business-entities/corporations-in-general/shareholder-dividends-distributions-and-recognition/) | stub | — | — |
 | 2.1.3.d | [Special deductions and credits (e.g., dividends received deduction, charitable deduction)](/businesses/business-entities/corporations-in-general/special-deductions-and-credits/) | stub | — | — |
 | 2.1.3.e | [Liquidations and stock redemptions](/businesses/business-entities/corporations-in-general/liquidations-and-stock-redemptions/) | stub | — | — |
