@@ -446,7 +446,13 @@ const RULES = [
   ['2.1.1.g', /\b8832\b|check-? ?the-? ?box|(?:default|entity) classification/i],
   ['2.1.1.h', /employer identification number|\bein\b|\bss-?4\b/i],
   ['2.1.1.l', /hobby (?:loss|versus|vs)|\b183\b|profit motive/i],
-  ['2.1.1.i', /tax year|fiscal year|accounting period|\b1128\b/i],
+  // "tax year" on its own appears in the stem, the options or the rationale of a large share of the
+  // Part 2 bank — a compensation deduction question says the amount must be paid "within the tax year",
+  // a Form 8300 question offers "by the end of the tax year" as a distractor — none of which is about
+  // accounting periods. The rule has to require the period itself to be the subject: a required or
+  // permitted year, a natural business year, a section 444 election and its deferral period, a short
+  // period, a 52-53 week year, or the act of adopting, changing or retaining one.
+  ['2.1.1.i', /\b1128\b|section 444|required (?:tax|taxable) year|permitted year|natural (?:business|tax) year|short (?:period|tax year)|52-?\s?53|deferral period|annual accounting period|(?:adopt|chang|retain|elect)\w*[\s\S]{0,40}(?:tax year|taxable year|accounting period)/i],
   ['2.1.1.j', /accounting method/i],
   ['2.1.1.k', /\bw-?4\b|\bw-?2\b|\b1099\b/i],
   ['2.1.1.e', /limited liability company|\bllc\b/i],

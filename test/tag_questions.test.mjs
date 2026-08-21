@@ -120,6 +120,18 @@ test("the parent's election is a kiddie tax question, not an estimated tax quest
   assert.equal(classify(q(1, 'What is the due date of the final required estimated tax installment?')), '1.5.1.j');
 });
 
+test('a passing mention of "tax year" is not an accounting-period question', () => {
+  // "tax year" appears in the stem, an option or the rationale of a large share of the Part 2
+  // bank without the period being the subject at all. Those questions must fall through to the
+  // topic they are actually about.
+  assert.equal(classify({ part: 2, stem: 'What is not a qualifying stipulation for an employer to deduct employee compensation?', choices: { B: 'The work must meet minimum annual limits on hours actually worked' }, explanation: 'The compensation must be paid or incurred within the tax year.' }), null);
+  assert.equal(classify(q(2, 'A C corporation electing S corporation status must have the approval of which shareholders, counting anyone who held stock during the tax year?')), '2.1.1.d');
+  // Questions where the period IS the subject still land on 2.1.1.i.
+  assert.equal(classify(q(2, 'What is the required tax year of a partnership whose majority-interest partner has a June year end?')), '2.1.1.i');
+  assert.equal(classify(q(2, 'What is the maximum deferral period for a section 444 election?')), '2.1.1.i');
+  assert.equal(classify(q(2, 'How is a natural business year established?')), '2.1.1.i');
+});
+
 test('rules never tag across exam parts', () => {
   // The same subject asked in different parts must land in that part's own outline.
   // Part 1 has its own claim-for-refund topic, so the Part 1 question is placed there —
