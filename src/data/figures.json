@@ -12649,6 +12649,72 @@
       "taxYear": 2026,
       "source": "Reg. § 1.446-1(a)(3), opened at law.cornell.edu/cfr/text/26/1.446-1",
       "verified": "2026-08-21"
+    },
+    "xfer.351": {
+      "value": "no gain or loss is recognised where property is transferred to a corporation by one or more persons solely in exchange for stock and, immediately after the exchange, those persons are in control of the corporation within IRC § 368(c)",
+      "taxYear": 2026,
+      "source": "IRC § 351(a), opened at law.cornell.edu/uscode/text/26/351",
+      "verified": "2026-08-21"
+    },
+    "xfer.351_boot": {
+      "value": "where other property or money is received in addition to the stock, gain is recognised up to the sum of the money and the fair market value of the other property — and loss is not recognised at all",
+      "taxYear": 2026,
+      "source": "IRC § 351(b), opened at law.cornell.edu/uscode/text/26/351",
+      "verified": "2026-08-21"
+    },
+    "xfer.357c": {
+      "value": "where liabilities assumed exceed the total adjusted basis of the property transferred in an IRC § 351 exchange, the excess is treated as gain from the sale of the property — so a contribution of encumbered property can produce gain with no cash and no boot",
+      "taxYear": 2026,
+      "source": "IRC § 357(c)(1), opened at law.cornell.edu/uscode/text/26/357",
+      "verified": "2026-08-21"
+    },
+    "xfer.362": {
+      "value": "the corporation takes the transferor’s adjusted basis in property acquired in an IRC § 351 transaction or as paid-in surplus or a contribution to capital, increased by any gain the transferor recognised",
+      "taxYear": 2026,
+      "source": "IRC § 362(a), opened at law.cornell.edu/uscode/text/26/362",
+      "verified": "2026-08-21"
+    },
+    "xfer.721": {
+      "value": "no gain or loss is recognised to a partnership or to any partner on a contribution of property to the partnership in exchange for a partnership interest — with no control requirement and no time limit",
+      "taxYear": 2026,
+      "source": "IRC § 721(a), opened at law.cornell.edu/uscode/text/26/721",
+      "verified": "2026-08-21"
+    },
+    "xfer.723": {
+      "value": "the partnership takes the contributing partner’s adjusted basis in the contributed property, increased by any gain recognised under IRC § 721(b)",
+      "taxYear": 2026,
+      "source": "IRC § 723, opened at law.cornell.edu/uscode/text/26/723",
+      "verified": "2026-08-21"
+    },
+    "xfer.704c": {
+      "value": "income, gain, loss and deduction on contributed property must be shared among the partners so as to take account of the variation between the partnership’s basis in it and its fair market value at contribution — the built-in gain stays with the contributor",
+      "taxYear": 2026,
+      "source": "IRC § 704(c)(1)(A), opened at law.cornell.edu/uscode/text/26/704",
+      "verified": "2026-08-21"
+    },
+    "xfer.704c_seven": {
+      "value": "where contributed property is distributed to a partner other than the contributor within 7 years of the contribution, the contributing partner is treated as recognising the gain or loss that the variation would have allocated had the property been sold at fair market value",
+      "taxYear": 2026,
+      "source": "IRC § 704(c)(1)(B), opened at law.cornell.edu/uscode/text/26/704",
+      "verified": "2026-08-21"
+    },
+    "xfer.311b": {
+      "value": "a corporation distributing appreciated property to a shareholder recognises gain as if the property had been sold to the distributee at fair market value — while a distribution of depreciated property gives the corporation no loss",
+      "taxYear": 2026,
+      "source": "IRC § 311(b)(1) and (a), opened at law.cornell.edu/uscode/text/26/311",
+      "verified": "2026-08-21"
+    },
+    "xfer.731": {
+      "value": "a partner recognises gain on a distribution only to the extent money distributed exceeds the adjusted basis of the partnership interest immediately before it, and recognises loss only on a liquidating distribution of money, unrealised receivables and inventory alone",
+      "taxYear": 2026,
+      "source": "IRC § 731(a), opened at law.cornell.edu/uscode/text/26/731",
+      "verified": "2026-08-21"
+    },
+    "xfer.732": {
+      "value": "property distributed other than in liquidation takes the partnership’s adjusted basis in it, capped at the partner’s adjusted basis in the interest reduced by any money distributed in the same transaction",
+      "taxYear": 2026,
+      "source": "IRC § 732(a), opened at law.cornell.edu/uscode/text/26/732",
+      "verified": "2026-08-21"
     }
   }
 }

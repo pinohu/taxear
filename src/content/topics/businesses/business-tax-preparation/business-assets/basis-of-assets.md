@@ -25,7 +25,7 @@ authorities:
   - { type: IRC, ref: "§ 6035", title: "Basis information to persons acquiring property from decedent", url: "https://www.law.cornell.edu/uscode/text/26/6035" }
   - { type: Reg, ref: "§ 1.1012-1", title: "Basis of property", url: "https://www.law.cornell.edu/cfr/text/26/1.1012-1" }
 forms: []
-related: ["2.2.3.b", "2.2.3.c", "2.2.3.d", "2.2.2.c", "2.2.3.e"]
+related: ["2.2.3.b", "2.2.3.c", "2.2.3.d", "2.2.2.c", "2.2.3.e", "2.2.5.h"]
 changelog:
   - { date: "2026-08-21", summary: "Initial draft. Sets out the IRC § 1012 cost rule and what enters cost under Reg. § 1.1012-1, the IRC § 1016(a) adjustments including the rule that depreciation reduces basis by the amount allowed but not less than the amount allowable, the IRC § 1014(a) date-of-death rule with its two elective valuation alternatives, and the IRC § 1015(a) dual basis for a gift that can produce neither gain nor loss." }
 ---
