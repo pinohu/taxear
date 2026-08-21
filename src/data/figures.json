@@ -9337,6 +9337,48 @@
       "taxYear": 2026,
       "source": "IRC § 6655(e)(1), read at law.cornell.edu/uscode/text/26/6655",
       "verified": "2026-08-21"
+    },
+    "mtc.credit": {
+      "value": "a credit is allowed against the chapter 1 tax for any taxable year equal to the minimum tax credit for that year, which is the excess of the adjusted net minimum tax imposed for all prior taxable years beginning after 1986 over the amount already allowed as a credit for those years (IRC § 53(a), (b))",
+      "taxYear": 2026,
+      "source": "IRC § 53(a), (b), read at law.cornell.edu/uscode/text/26/53",
+      "verified": "2026-08-21"
+    },
+    "mtc.limitation": {
+      "value": "the credit for a taxable year may not exceed the excess of the regular tax liability, reduced by the credits allowable under subparts A, B, D, E and F, over the tentative minimum tax for that year — so it can be used only to the extent the regular tax exceeds the tentative minimum tax (IRC § 53(c))",
+      "taxYear": 2026,
+      "source": "IRC § 53(c), read at law.cornell.edu/uscode/text/26/53",
+      "verified": "2026-08-21"
+    },
+    "mtc.corporate_application": {
+      "value": "for a corporation, IRC § 53(b)(1) is applied by substituting the net minimum tax for all prior taxable years beginning after 2022 for the adjusted net minimum tax imposed for all prior years beginning after 1986, and the regular tax figure in § 53(c)(1) is increased by the IRC § 59A tax for the year (IRC § 53(e))",
+      "taxYear": 2026,
+      "source": "IRC § 53(e), read at law.cornell.edu/uscode/text/26/53",
+      "verified": "2026-08-21"
+    },
+    "camt.imposition": {
+      "value": "a tax is imposed, in addition to any other tax imposed by subtitle A, equal to the excess of the tentative minimum tax for the year over the regular tax for the year plus, in the case of an applicable corporation, the tax imposed by IRC § 59A (IRC § 55(a))",
+      "taxYear": 2026,
+      "source": "IRC § 55(a), read at law.cornell.edu/uscode/text/26/55",
+      "verified": "2026-08-21"
+    },
+    "camt.rate": {
+      "value": "15 percent — for an applicable corporation the tentative minimum tax is the excess of that percentage of adjusted financial statement income for the year, as determined under IRC § 56A, over the corporate alternative minimum tax foreign tax credit. For any corporation that is not an applicable corporation the tentative minimum tax is zero (IRC § 55(b)(2))",
+      "taxYear": 2026,
+      "source": "IRC § 55(b)(2), read at law.cornell.edu/uscode/text/26/55",
+      "verified": "2026-08-21"
+    },
+    "camt.applicable_corporation": {
+      "value": "$1,000,000,000 — an applicable corporation is any corporation other than an S corporation, a regulated investment company or a real estate investment trust that meets the average annual adjusted financial statement income test for one or more taxable years prior to the year in question and ending after 31 December 2021; the test is met where average annual adjusted financial statement income, determined without regard to IRC § 56A(d), for the 3-taxable-year period ending with that year exceeds that amount (IRC § 59(k)(1))",
+      "taxYear": 2026,
+      "source": "IRC § 59(k)(1), read at law.cornell.edu/uscode/text/26/59",
+      "verified": "2026-08-21"
+    },
+    "camt.sticky": {
+      "value": "the applicable corporation test looks at whether the income test was met in any prior year ending after 31 December 2021, so a corporation that once qualifies remains an applicable corporation in later years even if its income falls — the status is not re-tested annually from scratch (IRC § 59(k)(1)(A))",
+      "taxYear": 2026,
+      "source": "IRC § 59(k)(1)(A), read at law.cornell.edu/uscode/text/26/59",
+      "verified": "2026-08-21"
     }
   }
 }
