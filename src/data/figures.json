@@ -14161,6 +14161,96 @@
       "taxYear": 2026,
       "source": "IRC § 409A, read at law.cornell.edu/uscode/text/26/409A",
       "verified": "2026-08-21"
+    },
+    "nd.coverage": {
+      "value": "a trust is not qualified unless the plan meets one of three coverage tests: it benefits at least 70 percent of employees who are not highly compensated (the ratio percentage test in its simplest form); the percentage of non-highly compensated employees benefiting is at least 70 percent of the percentage of highly compensated employees benefiting; or it satisfies the average benefit percentage test (IRC § 410(b)(1))",
+      "taxYear": 2026,
+      "source": "IRC § 410(b), read at law.cornell.edu/uscode/text/26/410",
+      "verified": "2026-08-21"
+    },
+    "nd.average_benefit": {
+      "value": "the average benefit percentage test is met where the plan benefits a classification the Secretary finds not discriminatory in favour of highly compensated employees, and the average benefit percentage for non-highly compensated employees is at least 70 percent of that for highly compensated employees, the average being taken over every employee in the group whether or not a participant in any plan (IRC § 410(b)(2))",
+      "taxYear": 2026,
+      "source": "IRC § 410(b), read at law.cornell.edu/uscode/text/26/410",
+      "verified": "2026-08-21"
+    },
+    "nd.hce": {
+      "value": "a highly compensated employee is one who was a 5-percent owner at any time during the year or the preceding year, or who for the preceding year had compensation above the indexed threshold and, if the employer elects, was in the top-paid group — the top 20 percent of employees ranked by compensation. The statutory compensation figure is $80,000, indexed from the quarter ending 30 September 1996 (IRC § 414(q))",
+      "taxYear": 2026,
+      "source": "IRC § 414(q), read at law.cornell.edu/uscode/text/26/414",
+      "verified": "2026-08-21"
+    },
+    "nd.adp": {
+      "value": "a cash or deferred arrangement is qualified only if the eligible employees satisfy IRC § 410(b)(1) and the actual deferral percentage for eligible highly compensated employees meets one of two tests against that for all other eligible employees for the preceding plan year: it is not more than 1.25 times that percentage, or it exceeds it by no more than 2 percentage points and is not more than twice it (IRC § 401(k)(3)(A))",
+      "taxYear": 2026,
+      "source": "IRC § 401, read at law.cornell.edu/uscode/text/26/401",
+      "verified": "2026-08-21"
+    },
+    "nd.adp_computation": {
+      "value": "the actual deferral percentage for a group is the average of the ratios, computed separately for each employee in the group, of employer contributions actually paid over to the trust on that employee’s behalf for the plan year to that employee’s compensation for the year — an average of individual ratios, not a ratio of aggregates (IRC § 401(k)(3)(B))",
+      "taxYear": 2026,
+      "source": "IRC § 401, read at law.cornell.edu/uscode/text/26/401",
+      "verified": "2026-08-21"
+    },
+    "nd.acp": {
+      "value": "matching and employee contributions are tested separately: the contribution percentage for eligible highly compensated employees may not exceed the greater of 125 percent of that percentage for all other eligible employees for the preceding plan year, or the lesser of 200 percent of it or that percentage plus 2 percentage points (IRC § 401(m)(2)(A))",
+      "taxYear": 2026,
+      "source": "IRC § 401, read at law.cornell.edu/uscode/text/26/401",
+      "verified": "2026-08-21"
+    },
+    "nd.safe_harbor_match": {
+      "value": "the safe harbour match requires the employer to contribute, for each employee who is not highly compensated, 100 percent of elective contributions up to 3 percent of compensation and 50 percent of elective contributions between 3 and 5 percent of compensation, with no higher rate of match at any deferral rate for a highly compensated employee (IRC § 401(k)(12)(B))",
+      "taxYear": 2026,
+      "source": "IRC § 401, read at law.cornell.edu/uscode/text/26/401",
+      "verified": "2026-08-21"
+    },
+    "nd.safe_harbor_nonelective": {
+      "value": "the alternative safe harbour requires an employer contribution of at least 3 percent of compensation for each non-highly compensated employee eligible to participate, whether or not that employee defers anything (IRC § 401(k)(12)(C))",
+      "taxYear": 2026,
+      "source": "IRC § 401, read at law.cornell.edu/uscode/text/26/401",
+      "verified": "2026-08-21"
+    },
+    "nd.safe_harbor_notice": {
+      "value": "the matching safe harbour also requires that each eligible employee be given written notice, within a reasonable period before the year, of rights and obligations under the arrangement, sufficiently accurate and comprehensive and written to be understood by the average eligible employee (IRC § 401(k)(12)(D))",
+      "taxYear": 2026,
+      "source": "IRC § 401, read at law.cornell.edu/uscode/text/26/401",
+      "verified": "2026-08-21"
+    },
+    "nd.safe_harbor_late": {
+      "value": "a plan may be amended after the plan year begins to adopt the nonelective safe harbour, if adopted before the 30th day before the close of the plan year, or as late as the last day for distributing excess contributions for the year — but only where the required contribution is at least 4 rather than 3 percent of compensation, and not where the plan provided at any time during the year that the matching safe harbour applied (IRC § 401(k)(12)(F))",
+      "taxYear": 2026,
+      "source": "IRC § 401, read at law.cornell.edu/uscode/text/26/401",
+      "verified": "2026-08-21"
+    },
+    "nd.topheavy": {
+      "value": "a defined benefit plan is top-heavy for a plan year if, at the determination date, the present value of cumulative accrued benefits for key employees exceeds 60 percent of that for all employees; a defined contribution plan is top-heavy if the aggregate of key employees’ accounts exceeds 60 percent of all accounts (IRC § 416(g)(1)(A))",
+      "taxYear": 2026,
+      "source": "IRC § 416, read at law.cornell.edu/uscode/text/26/416",
+      "verified": "2026-08-21"
+    },
+    "nd.key_employee": {
+      "value": "a key employee is one who at any time during the plan year is an officer with annual compensation above the indexed threshold — with no more than 50 employees, or if fewer the greater of 3 or 10 percent of employees, treated as officers — or a 5-percent owner, or a 1-percent owner with annual compensation from the employer of more than $150,000 (IRC § 416(i)(1)(A))",
+      "taxYear": 2026,
+      "source": "IRC § 416, read at law.cornell.edu/uscode/text/26/416",
+      "verified": "2026-08-21"
+    },
+    "nd.topheavy_minimum": {
+      "value": "a top-heavy defined contribution plan must contribute for each non-key employee at least 3 percent of that participant’s IRC § 415 compensation, counting employer matching contributions; a top-heavy defined benefit plan must provide each non-key employee an accrued benefit of at least the lesser of 2 percent of average testing-period compensation per year of service or 20 percent (IRC § 416(c))",
+      "taxYear": 2026,
+      "source": "IRC § 416, read at law.cornell.edu/uscode/text/26/416",
+      "verified": "2026-08-21"
+    },
+    "nd.vesting_dc": {
+      "value": "a defined contribution plan must vest employer contributions under one of two schedules: 100 percent after 3 years of service, or graded vesting of 20 percent after 2 years rising by 20 points a year to 100 percent after 6 (IRC § 411(a)(2)(B))",
+      "taxYear": 2026,
+      "source": "IRC § 411(a)(2), read at law.cornell.edu/uscode/text/26/411",
+      "verified": "2026-08-21"
+    },
+    "nd.vesting_db": {
+      "value": "a defined benefit plan must vest employer-derived accrued benefits under one of two schedules: 100 percent after 5 years of service, or graded vesting of 20 percent after 3 years rising by 20 points a year to 100 percent after 7 (IRC § 411(a)(2)(A))",
+      "taxYear": 2026,
+      "source": "IRC § 411(a)(2), read at law.cornell.edu/uscode/text/26/411",
+      "verified": "2026-08-21"
     }
   }
 }
