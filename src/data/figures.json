@@ -11611,6 +11611,96 @@
       "taxYear": 2026,
       "source": "Reg. § 1.263(a)-3(q), opened at law.cornell.edu/cfr/text/26/1.263(a)-3",
       "verified": "2026-08-21"
+    },
+    "bizclass.per_se": {
+      "value": "a corporation for federal tax purposes regardless of election — an entity incorporated under federal, state or tribal statute; an association; a joint-stock company; an insurance company; a state-chartered bank with federally insured deposits; an entity wholly owned by a state or foreign government; an entity taxable as a corporation under another Code provision; and the listed foreign forms",
+      "taxYear": 2026,
+      "source": "Reg. § 301.7701-2(b), opened at law.cornell.edu/cfr/text/26/301.7701-2",
+      "verified": "2026-08-21"
+    },
+    "bizclass.default_domestic": {
+      "value": "a domestic eligible entity that files no election is a partnership if it has two or more members, and is disregarded as separate from its owner if it has a single owner",
+      "taxYear": 2026,
+      "source": "Reg. § 301.7701-3(b)(1), opened at law.cornell.edu/cfr/text/26/301.7701-3",
+      "verified": "2026-08-21"
+    },
+    "bizclass.default_foreign": {
+      "value": "a foreign eligible entity that files no election is a partnership if it has two or more members and at least one lacks limited liability, an association if every member has limited liability, and disregarded if its single owner lacks limited liability",
+      "taxYear": 2026,
+      "source": "Reg. § 301.7701-3(b)(2)(i), opened at law.cornell.edu/cfr/text/26/301.7701-3",
+      "verified": "2026-08-21"
+    },
+    "bizclass.election": {
+      "value": "an eligible entity elects out of its default classification, or changes classification, on Form 8832 filed with the designated service center — and must attach a copy to its own return for the year of the election, or to an owner’s return if it files none",
+      "taxYear": 2026,
+      "source": "Reg. § 301.7701-3(c)(1)(i) and (ii), opened at law.cornell.edu/cfr/text/26/301.7701-3",
+      "verified": "2026-08-21"
+    },
+    "bizclass.election_effective": {
+      "value": "the effective date specified on Form 8832 may not be more than 75 days before the filing date nor more than 12 months after it; an earlier date defaults to 75 days before filing and a later one to 12 months after",
+      "taxYear": 2026,
+      "source": "Reg. § 301.7701-3(c)(1)(iii), opened at law.cornell.edu/cfr/text/26/301.7701-3",
+      "verified": "2026-08-21"
+    },
+    "bizclass.sixty_month": {
+      "value": "an entity that changes classification by election may not elect again during the 60 months after the effective date, unless more than 50 percent of the ownership interests at the effective date of the later election are held by persons who owned none on the filing date or effective date of the earlier one",
+      "taxYear": 2026,
+      "source": "Reg. § 301.7701-3(c)(1)(iv), opened at law.cornell.edu/cfr/text/26/301.7701-3",
+      "verified": "2026-08-21"
+    },
+    "bizclass.disregarded": {
+      "value": "a single-owner entity that is not a corporation is disregarded as separate from its owner, but stays a separate entity for its own tax liabilities in periods when it was not disregarded, for liabilities of others it is liable for, and for refunds and credits",
+      "taxYear": 2026,
+      "source": "Reg. § 301.7701-2(c)(2)(i) and (iii), opened at law.cornell.edu/cfr/text/26/301.7701-2",
+      "verified": "2026-08-21"
+    },
+    "bizclass.disregarded_employment": {
+      "value": "the disregarded-entity rule does not apply to the Subtitle C employment taxes — chapters 21, 22, 23, 23A, 24 and 25 — for which the entity is treated as a corporation and files in its own name and EIN",
+      "taxYear": 2026,
+      "source": "Reg. § 301.7701-2(c)(2)(iv)(A) and (B), opened at law.cornell.edu/cfr/text/26/301.7701-2",
+      "verified": "2026-08-21"
+    },
+    "bizclass.code": {
+      "value": "a six-digit principal business activity code based on the North American Industry Classification System, chosen as the activity from which the enterprise derives the largest percentage of its total receipts, entered on page 1 of the return with the activity and a brief description of the principal product or service",
+      "taxYear": 2026,
+      "source": "Instructions for Form 1120-S, Principal Business Activity Codes, opened at irs.gov/instructions/i1120s",
+      "verified": "2026-08-21"
+    },
+    "bizclass.total_receipts": {
+      "value": "for choosing the activity code, the sum of gross receipts or sales, all other income, and the income or net gain items reported on Schedule K and on Form 8825 — a broader base than the gross receipts line alone",
+      "taxYear": 2026,
+      "source": "Instructions for Form 1120-S, Principal Business Activity Codes, opened at irs.gov/instructions/i1120s",
+      "verified": "2026-08-21"
+    },
+    "bizclass.manufacturer": {
+      "value": "a company that buys raw materials, supplies them to a subcontractor to produce the finished product, and retains title is a manufacturer and must use a manufacturing code",
+      "taxYear": 2026,
+      "source": "Instructions for Form 1120-S, Principal Business Activity Codes, opened at irs.gov/instructions/i1120s",
+      "verified": "2026-08-21"
+    },
+    "bizclass.horizontal": {
+      "value": "a horizontal analysis with documented conclusions is required in the case file for every business return examined — the return under audit compared with the prior and subsequent year returns, across every schedule reporting financial activity",
+      "taxYear": 2026,
+      "source": "IRM 4.10.4.2.3.8 and 4.10.4.2.4.8, opened at irs.gov/irm/part4/irm_04-010-004",
+      "verified": "2026-08-21"
+    },
+    "bizclass.horizontal_threshold": {
+      "value": "variations of 5 percent or more between years suggest changes in business or reporting practices that the examiner is directed to discuss with the taxpayer",
+      "taxYear": 2026,
+      "source": "IRM 4.10.4.2.3.8, opened at irs.gov/irm/part4/irm_04-010-004",
+      "verified": "2026-08-21"
+    },
+    "bizclass.vertical": {
+      "value": "a vertical analysis compares the taxpayer with published industry standards for the year, expressing expenses as a percentage of gross receipts — an indicator of the reasonableness of gross receipts and net profit, and not required in every case",
+      "taxYear": 2026,
+      "source": "IRM 4.10.4.2.3.8 and 4.10.4.2.4.8, opened at irs.gov/irm/part4/irm_04-010-004",
+      "verified": "2026-08-21"
+    },
+    "bizclass.vertical_threshold": {
+      "value": "potential underreporting equal to 10 percent or more of reported income is to be resolved with the taxpayer’s assistance — but a discrepancy against industry norms alone does not justify a formal indirect method unless the taxpayer is uncooperative or nonresponsive",
+      "taxYear": 2026,
+      "source": "IRM 4.10.4.2.3.8, opened at irs.gov/irm/part4/irm_04-010-004",
+      "verified": "2026-08-21"
     }
   }
 }
