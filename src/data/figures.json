@@ -8131,6 +8131,60 @@
       "taxYear": 2026,
       "source": "IRC § 513(a), read at law.cornell.edu/uscode/text/26/513",
       "verified": "2026-08-21"
+    },
+    "classify.foreign_default": {
+      "value": "unless it elects otherwise, a foreign eligible entity is a partnership if it has two or more members and at least one lacks limited liability; an association if all members have limited liability; and disregarded if it has a single owner who lacks limited liability. Limited liability is determined solely by the statute or law under which the entity is organised, save that where that law lets the entity choose, its organisational documents may also be relevant (Reg. § 301.7701-3(b)(2))",
+      "taxYear": 2026,
+      "source": "26 CFR § 301.7701-3(b)(2), read at law.cornell.edu/cfr/text/26/301.7701-3",
+      "verified": "2026-08-21"
+    },
+    "classify.signatures": {
+      "value": "an election must be signed by every member who is an owner when it is filed, or by an officer, manager or member authorised under local law or the organisational documents who represents to that authorisation under penalties of perjury. Where the election is retroactive or changes an existing classification, each person who was an owner during the retroactive period, or on the date the deemed transactions occur, and who is no longer an owner when it is filed, must also sign (Reg. § 301.7701-3(c)(2))",
+      "taxYear": 2026,
+      "source": "26 CFR § 301.7701-3(c)(2), read at law.cornell.edu/cfr/text/26/301.7701-3",
+      "verified": "2026-08-21"
+    },
+    "classify.relevance": {
+      "value": "a foreign eligible entity classification is relevant when it affects any person liability for federal tax or information purposes, and the date it becomes relevant is the date of the event creating an obligation to file a return, information return or statement for which the classification must be determined (Reg. § 301.7701-3(d)(1)(i))",
+      "taxYear": 2026,
+      "source": "26 CFR § 301.7701-3(d)(1)(i), read at law.cornell.edu/cfr/text/26/301.7701-3",
+      "verified": "2026-08-21"
+    },
+    "classify.relevance_lapse": {
+      "value": "where the classification of a foreign eligible entity has never been relevant, or has not been relevant for 60 consecutive months, its classification is determined afresh under the default rules when it next becomes relevant (Reg. § 301.7701-3(d)(2), (d)(3))",
+      "taxYear": 2026,
+      "source": "26 CFR § 301.7701-3(d)(2), (3), read at law.cornell.edu/cfr/text/26/301.7701-3",
+      "verified": "2026-08-21"
+    },
+    "classify.deemed_transactions": {
+      "value": "a partnership electing association status is deemed to contribute all its assets and liabilities to the association for stock and immediately liquidate, distributing the stock to its partners; an association electing partnership status is deemed to distribute all its assets and liabilities to its shareholders in liquidation, who immediately contribute them to a newly formed partnership; an association electing to be disregarded is deemed to distribute all its assets and liabilities to its single owner in liquidation; and a disregarded entity electing association status is deemed to have its owner contribute all its assets and liabilities to the association for stock (Reg. § 301.7701-3(g)(1))",
+      "taxYear": 2026,
+      "source": "26 CFR § 301.7701-3(g)(1), read at law.cornell.edu/cfr/text/26/301.7701-3",
+      "verified": "2026-08-21"
+    },
+    "classify.step_transaction": {
+      "value": "the tax treatment of a change in classification by election is determined under all relevant provisions of the Code and general principles of tax law, including the step transaction doctrine (Reg. § 301.7701-3(g)(2)(i))",
+      "taxYear": 2026,
+      "source": "26 CFR § 301.7701-3(g)(2)(i), read at law.cornell.edu/cfr/text/26/301.7701-3",
+      "verified": "2026-08-21"
+    },
+    "classify.plan_of_liquidation": {
+      "value": "for the purpose of the IRC § 332 requirement that a plan of liquidation be adopted, an association making an election to be classified as a partnership or to be disregarded is treated as adopting a plan of liquidation immediately before the deemed liquidation, unless a formal plan contemplating the election was adopted earlier (Reg. § 301.7701-3(g)(2)(ii))",
+      "taxYear": 2026,
+      "source": "26 CFR § 301.7701-3(g)(2)(ii), read at law.cornell.edu/cfr/text/26/301.7701-3",
+      "verified": "2026-08-21"
+    },
+    "classify.timing": {
+      "value": "an election changing a classification is treated as occurring at the start of the day for which it is effective, and the deemed transactions are treated as occurring immediately before the close of the preceding day — so an election effective 1 January puts the deemed liquidation on 31 December, which is the last day of the association taxable year (Reg. § 301.7701-3(g)(3)(i))",
+      "taxYear": 2026,
+      "source": "26 CFR § 301.7701-3(g)(3)(i), read at law.cornell.edu/cfr/text/26/301.7701-3",
+      "verified": "2026-08-21"
+    },
+    "classify.tiered_order": {
+      "value": "where elections for a series of tiered entities are effective on the same date, the entities may specify the order on Form 8832; if they do not, the deemed transactions occur first for the highest tier entity and then down the chain (Reg. § 301.7701-3(g)(3)(iii))",
+      "taxYear": 2026,
+      "source": "26 CFR § 301.7701-3(g)(3)(iii), read at law.cornell.edu/cfr/text/26/301.7701-3",
+      "verified": "2026-08-21"
     }
   }
 }
