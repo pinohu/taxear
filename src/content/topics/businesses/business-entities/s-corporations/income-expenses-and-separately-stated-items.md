@@ -26,7 +26,7 @@ authorities:
   - { type: IRC, ref: "§ 704(e)", title: "Partnership interests created by gift", url: "https://www.law.cornell.edu/uscode/text/26/704" }
   - { type: Reg, ref: "§ 1.1366-1", title: "Shareholder's share of items of an S corporation", url: "https://www.law.cornell.edu/cfr/text/26/1.1366-1" }
 forms: []
-related: ["2.1.5.a", "2.1.5.b", "2.1.5.d", "2.1.5.e", "2.1.2.a", "2.1.5.f"]
+related: ["2.1.5.a", "2.1.5.b", "2.1.5.d", "2.1.5.e", "2.1.2.a", "2.1.5.f", "2.1.5.g"]
 changelog:
   - { date: "2026-08-21", summary: "Initial draft. Sets out IRC § 1363(a) and (b) on the corporation's own computation, the deductions denied to it through IRC § 703(a)(2), the IRC § 1366(a) split between separately stated and nonseparately computed items with the character and gross-income rules of § 1366(b) and (c), the working list in Reg. § 1.1366-1(a)(2), the per-day allocation and terminating election of IRC § 1377(a), and the IRC § 1372 fringe benefit rule. Records the general amendment of IRC § 68 by Pub. L. 119-21 § 70111, which first operates in taxable years beginning after 31 December 2025." }
 ---

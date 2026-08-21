@@ -19,7 +19,7 @@ authorities:
   - { type: IRC, ref: "§ 1377(b)", title: "Post-termination transition period", url: "https://www.law.cornell.edu/uscode/text/26/1377" }
   - { type: IRC, ref: "§ 481(d)", title: "Adjustments attributable to conversion from S corporation to C corporation", url: "https://www.law.cornell.edu/uscode/text/26/481" }
 forms: []
-related: ["2.1.5.a", "2.1.5.b", "2.1.5.d", "2.1.5.c", "2.1.1.d"]
+related: ["2.1.5.a", "2.1.5.b", "2.1.5.d", "2.1.5.c", "2.1.1.d", "2.1.5.g"]
 changelog:
   - { date: "2026-08-21", summary: "Initial draft. Sets out the three ways an election ends under IRC § 1362(d) — revocation by more than one-half of the shares, cessation of small business corporation status effective on the date of cessation, and the three-year passive investment income test — with the IRC § 1362(e) S termination year and its daily allocation, closing-of-the-books election and mandatory close on a 50 percent ownership change, the IRC § 1362(f) inadvertent termination relief, and the IRC § 1362(g) five-year waiting period. Records that the IRC § 481(d) and IRC § 1371(f) eligible terminated S corporation rules are confined to revocations made in the two-year window that closed on 21 December 2019." }
 ---

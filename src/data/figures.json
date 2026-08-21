@@ -10063,6 +10063,72 @@
       "taxYear": 2026,
       "source": "IRC § 1371(f), opened at law.cornell.edu/uscode/text/26/1371",
       "verified": "2026-08-21"
+    },
+    "scod.corporate_level": {
+      "value": "in the case of an S corporation, IRC § 108(a), (b), (c) and (g) are applied at the corporate level, including by not taking into account under IRC § 1366(a) any amount excluded under IRC § 108(a)",
+      "taxYear": 2026,
+      "source": "IRC § 108(d)(7)(A), opened at law.cornell.edu/uscode/text/26/108",
+      "verified": "2026-08-21"
+    },
+    "scod.suspended_as_nol": {
+      "value": "for the attribute reduction of IRC § 108(b)(2)(A), any loss or deduction disallowed for the year of the discharge under IRC § 1366(d)(1) is treated as a net operating loss for that year — except to the extent the discharge is of qualified real property business indebtedness",
+      "taxYear": 2026,
+      "source": "IRC § 108(d)(7)(B), opened at law.cornell.edu/uscode/text/26/108",
+      "verified": "2026-08-21"
+    },
+    "scod.debt_basis_ignored": {
+      "value": "for the purposes of IRC § 108(e)(6), a shareholder's adjusted basis in indebtedness of the S corporation is determined without regard to any adjustment made under IRC § 1367(b)(2)",
+      "taxYear": 2026,
+      "source": "IRC § 108(d)(7)(C), opened at law.cornell.edu/uscode/text/26/108",
+      "verified": "2026-08-21"
+    },
+    "scod.exclusions": {
+      "value": "discharge in a title 11 case, discharge while insolvent, qualified farm indebtedness, qualified real property business indebtedness for a taxpayer other than a C corporation, and qualified principal residence indebtedness",
+      "taxYear": 2026,
+      "source": "IRC § 108(a)(1), opened at law.cornell.edu/uscode/text/26/108",
+      "verified": "2026-08-21"
+    },
+    "scod.insolvency_cap": {
+      "value": "the amount excluded on the insolvency ground may not exceed the amount by which the taxpayer is insolvent, being the excess of liabilities over the fair market value of assets determined immediately before the discharge",
+      "taxYear": 2026,
+      "source": "IRC § 108(a)(3) and § 108(d)(3), opened at law.cornell.edu/uscode/text/26/108",
+      "verified": "2026-08-21"
+    },
+    "scod.precedence": {
+      "value": "the title 11 exclusion displaces all the others, and the insolvency exclusion displaces the qualified farm and qualified real property business exclusions to the extent of the insolvency",
+      "taxYear": 2026,
+      "source": "IRC § 108(a)(2)(A) and (B), opened at law.cornell.edu/uscode/text/26/108",
+      "verified": "2026-08-21"
+    },
+    "scod.attribute_order": {
+      "value": "net operating loss for the year of the discharge and any carryover to that year; general business credit carryovers; the minimum tax credit; net capital loss and capital loss carryovers; the basis of the property of the taxpayer; passive activity loss and credit carryovers; and foreign tax credit carryovers",
+      "taxYear": 2026,
+      "source": "IRC § 108(b)(2), opened at law.cornell.edu/uscode/text/26/108",
+      "verified": "2026-08-21"
+    },
+    "scod.attribute_rate": {
+      "value": "one dollar of reduction for each dollar excluded, except that the general business credit, minimum tax credit, foreign tax credit and passive activity credit carryovers are reduced by 33⅓ cents for each dollar excluded",
+      "taxYear": 2026,
+      "source": "IRC § 108(b)(3), opened at law.cornell.edu/uscode/text/26/108",
+      "verified": "2026-08-21"
+    },
+    "scod.after_tax": {
+      "value": "the attribute reductions are made after the tax for the taxable year of the discharge has been determined",
+      "taxYear": 2026,
+      "source": "IRC § 108(b)(4)(A), opened at law.cornell.edu/uscode/text/26/108",
+      "verified": "2026-08-21"
+    },
+    "scod.depreciable_election": {
+      "value": "the taxpayer may elect to apply any portion of the reduction first against the basis of depreciable property under IRC § 1017, capped at the aggregate adjusted bases of depreciable property held at the beginning of the year following the discharge, and the ordinary attribute order does not apply to the amount elected",
+      "taxYear": 2026,
+      "source": "IRC § 108(b)(5), opened at law.cornell.edu/uscode/text/26/108",
+      "verified": "2026-08-21"
+    },
+    "scod.contributed_debt": {
+      "value": "where a debtor corporation acquires its own indebtedness from a shareholder as a contribution to capital, IRC § 118 does not apply and the corporation is treated as having satisfied the debt with money equal to the shareholder's adjusted basis in the indebtedness",
+      "taxYear": 2026,
+      "source": "IRC § 108(e)(6), opened at law.cornell.edu/uscode/text/26/108",
+      "verified": "2026-08-21"
     }
   }
 }

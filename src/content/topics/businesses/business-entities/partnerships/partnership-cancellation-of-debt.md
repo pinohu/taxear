@@ -19,7 +19,7 @@ authorities:
   - { type: IRC, ref: "§ 731", title: "Extent of recognition of gain or loss on distribution", url: "https://www.law.cornell.edu/uscode/text/26/731" }
   - { type: IRC, ref: "§ 1366(a)", title: "Pass-thru of items to shareholders", url: "https://www.law.cornell.edu/uscode/text/26/1366" }
 forms: []
-related: ["2.1.2.a", "2.1.2.e", "2.1.2.c", "2.1.1.d"]
+related: ["2.1.2.a", "2.1.2.e", "2.1.2.c", "2.1.1.d", "2.1.5.g"]
 changelog:
   - { date: "2026-08-21", summary: "Initial draft. Sets out the IRC § 61(a)(11) inclusion of discharge income, the IRC § 108(a)(1) exclusions, the § 108(b) attribute reduction order, and the § 108(d)(6) rule that the exclusions and attribute reductions are applied at the partner level — contrasted with the § 108(d)(7)(A) corporate-level treatment for an S corporation, under which no basis increase reaches the shareholder. Explains the interaction with § 752, under which the discharge also reduces the partner's share of liabilities, and with § 703(b), under which the § 108(b)(5) and (c)(3) elections belong to each partner rather than to the partnership." }
 ---

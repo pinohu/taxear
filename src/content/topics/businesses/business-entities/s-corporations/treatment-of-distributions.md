@@ -19,7 +19,7 @@ authorities:
   - { type: Reg, ref: "§ 1.1368-1", title: "Distributions by S corporations", url: "https://www.law.cornell.edu/cfr/text/26/1.1368-1" }
   - { type: Reg, ref: "§ 1.1368-2", title: "Accumulated adjustments account (AAA)", url: "https://www.law.cornell.edu/cfr/text/26/1.1368-2" }
 forms: []
-related: ["2.1.5.c", "2.1.5.e", "2.1.5.h", "2.1.5.f", "2.1.3.c"]
+related: ["2.1.5.c", "2.1.5.e", "2.1.5.h", "2.1.5.f", "2.1.3.c", "2.1.5.g"]
 changelog:
   - { date: "2026-08-21", summary: "Initial draft. Sets out IRC § 1368(a) to (e) — the basis-recovery rule where the corporation has no accumulated earnings and profits, the three-tier ordering where it has them, the accumulated adjustments account and its net negative adjustment rule, the proration of the account among distributions, and the election to distribute earnings first — with the Reg. § 1.1368-2(a)(5) ordering of adjustments to the account and the Reg. § 1.1368-1(f) elections, and IRC § 1371(c) and (e) on earnings and profits and post-termination distributions." }
 ---
