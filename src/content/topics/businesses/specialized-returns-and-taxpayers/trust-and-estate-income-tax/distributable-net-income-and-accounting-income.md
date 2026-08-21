@@ -22,7 +22,7 @@ authorities:
   - { type: IRC, ref: "§ 1411", title: "Imposition of tax", url: "https://www.law.cornell.edu/uscode/text/26/1411" }
   - { type: IRC, ref: "§ 67", title: "2-percent floor on miscellaneous itemized deductions", url: "https://www.law.cornell.edu/uscode/text/26/67" }
 forms: []
-related: ["2.3.1.a", "2.3.1.e", "2.3.1.c", "2.3.1.f", "2.3.1.g"]
+related: ["2.3.1.a", "2.3.1.e", "2.3.1.c", "2.3.1.f", "2.3.1.g", "2.3.1.d"]
 changelog:
   - { date: "2026-08-21", summary: "Initial draft. Distinguishes the IRC § 643(b) fiduciary accounting income figure, determined by the governing instrument and local law, from the IRC § 643(a) distributable net income figure that caps the distribution deduction and the beneficiaries' inclusion — with the capital gain exclusion in § 643(a)(3), the tax-exempt interest addition in § 643(a)(5), and the pro rata character flow-through in § 661(b)." }
 ---

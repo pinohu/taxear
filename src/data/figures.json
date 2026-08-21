@@ -13057,6 +13057,42 @@
       "taxYear": 2026,
       "source": "IRC § 67(h), opened at law.cornell.edu/uscode/text/26/67",
       "verified": "2026-08-21"
+    },
+    "ft.assignment": {
+      "value": "income earned by one person cannot be assigned to another for federal income tax purposes — the earner remains liable for the tax on income earned even where it was paid directly to a trust",
+      "taxYear": 2026,
+      "source": "IRS, Abusive trust tax evasion schemes — questions and answers, opened at irs.gov/businesses/small-businesses-self-employed/abusive-trust-tax-evasion-schemes-questions-and-answers (page last reviewed 2 April 2026)",
+      "verified": "2026-08-21"
+    },
+    "ft.personal_expenses": {
+      "value": "a trust computes its liability much as an individual does and is allowed most of the same credits and deductions — and deductions not allowed to individuals are not allowed to a trust, so food, utilities, recreation, children’s education and depreciation of a residence are no more deductible inside a trust than outside one",
+      "taxYear": 2026,
+      "source": "IRS, Abusive trust tax evasion schemes — questions and answers, opened at irs.gov/businesses/small-businesses-self-employed/abusive-trust-tax-evasion-schemes-questions-and-answers (page last reviewed 2 April 2026)",
+      "verified": "2026-08-21"
+    },
+    "ft.charitable_1041A": {
+      "value": "a complex trust claiming a charitable deduction must generally also file Form 1041-A, the information return for trust accumulation of charitable amounts",
+      "taxYear": 2026,
+      "source": "IRS, Abusive trust tax evasion schemes — questions and answers, opened at irs.gov/businesses/small-businesses-self-employed/abusive-trust-tax-evasion-schemes-questions-and-answers (page last reviewed 2 April 2026)",
+      "verified": "2026-08-21"
+    },
+    "ft.gift_completeness": {
+      "value": "a gift is complete to the extent the donor has irrevocably parted with dominion and control, leaving no power to change the disposition of the property whether for the donor’s benefit or another’s — so contributing to a grantor trust generally produces no completed gift while contributing to an inter vivos irrevocable trust generally does",
+      "taxYear": 2026,
+      "source": "IRS, Abusive trust tax evasion schemes — questions and answers, opened at irs.gov/businesses/small-businesses-self-employed/abusive-trust-tax-evasion-schemes-questions-and-answers (page last reviewed 2 April 2026)",
+      "verified": "2026-08-21"
+    },
+    "ft.6700": {
+      "value": "a penalty applies to a person who organizes or assists in organizing, or participates in the sale of an interest in, an entity plan or arrangement, and who makes or furnishes a statement about the tax benefits that the person knows or has reason to know is false or fraudulent as to any material matter, or a gross valuation overstatement",
+      "taxYear": 2026,
+      "source": "IRC § 6700(a), opened at law.cornell.edu/uscode/text/26/6700",
+      "verified": "2026-08-21"
+    },
+    "ft.6701": {
+      "value": "a penalty applies per document to a person who aids, assists, procures or advises on the preparation of any portion of a return or other document, knowing or having reason to believe it will be used in a material matter under the internal revenue laws, and knowing it would understate another person’s liability",
+      "taxYear": 2026,
+      "source": "IRC § 6701(a), opened at law.cornell.edu/uscode/text/26/6701",
+      "verified": "2026-08-21"
     }
   }
 }

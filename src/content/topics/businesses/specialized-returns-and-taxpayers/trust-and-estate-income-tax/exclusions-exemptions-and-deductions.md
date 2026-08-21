@@ -21,7 +21,7 @@ authorities:
   - { type: IRC, ref: "§ 2054", title: "Losses", url: "https://www.law.cornell.edu/uscode/text/26/2054" }
   - { type: RevProc, ref: "Rev. Proc. 2025-32", title: "Inflation-adjusted items for 2026", url: "https://www.irs.gov/pub/irs-drop/rp-25-32.pdf" }
 forms: []
-related: ["2.3.1.b", "2.3.1.a", "2.3.1.g", "2.3.1.f", "2.3.1.e"]
+related: ["2.3.1.b", "2.3.1.a", "2.3.1.g", "2.3.1.f", "2.3.1.e", "2.3.1.d"]
 changelog:
   - { date: "2026-08-21", summary: "Initial draft. Sets out the four IRC § 642(b) exemptions with the 2026 qualified disability trust figure from Rev. Proc. 2025-32 § 3.35 and the fact that the other three have never been indexed, the IRC § 642(c) charitable deduction with its two conditions of instrument authority and payment out of gross income, the IRC § 642(g) bar on double deductions with estate tax, and the IRC § 67(e) carve-out that survives the § 67(h) suspension." }
 ---
