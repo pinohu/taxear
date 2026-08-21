@@ -23,7 +23,7 @@ authorities:
   - { type: Reg, ref: "§ 1.512(a)-6", title: "Special rule for organizations with more than one unrelated trade or business", url: "https://www.law.cornell.edu/cfr/text/26/1.512(a)-6" }
   - { type: Reg, ref: "§ 1.6012-2", title: "Corporations required to make returns of income", url: "https://www.law.cornell.edu/cfr/text/26/1.6012-2" }
   - { type: RevProc, ref: "2025-32", title: "Inflation-adjusted items for 2026, § 3.43", url: "https://www.irs.gov/pub/irs-drop/rp-25-32.pdf" }
-forms: ["990-T"]
+forms: ["990-T", "990"]
 related: ["2.3.2.a", "2.3.2.b", "2.3.2.c", "2.1.1.f"]
 changelog:
   - { date: "2026-08-21", summary: "Initial draft. Sets out the three cumulative tests of IRC § 513(a) and Treas. Reg. § 1.513-1, the statutory exceptions for volunteer labour, member convenience and donated merchandise, the IRC § 513(c) fragmentation rule, qualified sponsorship payments under IRC § 513(i), the IRC § 512(b) modifications that pull most investment income back out, the IRC § 512(b)(13) controlled entity rule, IRC § 514 debt-financed income, and the IRC § 512(a)(6) silo rule with the NAICS identification method of Treas. Reg. § 1.512(a)-6(b)." }

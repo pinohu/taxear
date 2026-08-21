@@ -17,7 +17,7 @@ authorities:
   - { type: Pub, ref: "New EIN", title: "Do you need a new EIN?", url: "https://www.irs.gov/businesses/small-businesses-self-employed/do-you-need-a-new-ein" }
   - { type: Pub, ref: "Responsible parties", title: "Responsible parties and nominees", url: "https://www.irs.gov/businesses/small-businesses-self-employed/responsible-parties-and-nominees" }
   - { type: Pub, ref: "Get an EIN", title: "Get an employer identification number", url: "https://www.irs.gov/businesses/small-businesses-self-employed/get-an-employer-identification-number" }
-forms: []
+forms: ["SS-4"]
 related: ["2.1.1.a", "2.1.1.e", "2.1.1.f", "2.1.1.g", "2.1.1.k"]
 changelog:
   - { date: "2026-08-21", summary: "Initial draft. Sets out the IRC § 6109(a) requirement to supply identifying numbers, the Reg. § 301.6109-1(a)(1)(ii) rules on which number each kind of person uses including the sole proprietor rule at (D), the Form SS-4 application and the Reg. § 301.6109-1(d)(2)(ii) duty to keep application information current, the Reg. § 301.6109-1(d)(2)(iii) rule that a partnership formed on an IRC § 708(b)(1)(B) termination keeps the old number, and the IRS guidance on responsible parties, nominees, the one-per-day limit and when each kind of entity needs a new number." }

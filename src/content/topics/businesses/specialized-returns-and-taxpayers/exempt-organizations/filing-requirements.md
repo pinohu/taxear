@@ -22,7 +22,7 @@ authorities:
   - { type: Reg, ref: "§ 1.6012-2", title: "Corporations required to make returns of income", url: "https://www.law.cornell.edu/cfr/text/26/1.6012-2" }
   - { type: RevProc, ref: "2025-32", title: "Inflation-adjusted items for 2026, § 3.53", url: "https://www.irs.gov/pub/irs-drop/rp-25-32.pdf" }
   - { type: Form, ref: "8868", title: "Application for Extension of Time To File an Exempt Organization Return", url: "https://www.irs.gov/forms-pubs/about-form-8868" }
-forms: ["990", "990-EZ", "990-N", "990-PF", "8868"]
+forms: ["990", "990-EZ", "990-N", "990-PF", "8868", "990-T"]
 related: ["2.3.2.a", "2.3.2.b", "2.3.2.d", "2.1.1.f"]
 changelog:
   - { date: "2026-08-21", summary: "Initial draft. Sets out the IRC § 6033(a)(1) annual return, the gross receipts and asset tests that pick a form in the 990 series, the IRC § 6033(a)(3) mandatory exceptions, the IRC § 6072(e) due date and the automatic six-month Form 8868 extension, the separate Form 990-T obligation at $1,000 of UBTI gross income under Treas. Reg. § 1.6012-2(e), and the IRC § 6652(c) penalties at the inflation-adjusted amounts in Rev. Proc. 2025-32 § 3.53 for returns required to be filed in 2027." }

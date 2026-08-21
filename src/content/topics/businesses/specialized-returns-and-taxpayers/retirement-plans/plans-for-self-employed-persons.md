@@ -20,7 +20,7 @@ authorities:
   - { type: IRC, ref: "§ 164", title: "Taxes", url: "https://www.law.cornell.edu/uscode/text/26/164" }
   - { type: IRC, ref: "§ 6051", title: "Receipts for employees", url: "https://www.law.cornell.edu/uscode/text/26/6051" }
   - { type: Notice, ref: "2025-67", title: "2026 amounts relating to retirement plans and IRAs, as adjusted for changes in cost-of-living", url: "https://www.irs.gov/pub/irs-drop/n-25-67.pdf" }
-forms: []
+forms: ["5500"]
 related: ["2.3.3.a", "2.3.3.b", "2.3.3.e", "2.3.3.f", "2.3.3.d"]
 changelog:
   - { date: "2026-08-21", summary: "Initial draft. Separates the SEP under IRC § 408(k), which is employer-funded with a three-of-five-years eligibility test and immediate vesting through the withdrawal rule of IRC § 408(k)(4), from the SIMPLE under IRC § 408(p), which is salary-reduction based with a two-preceding-years eligibility test, a required 3 percent match or elected 2 percent nonelective contribution, and the exclusive plan requirement. Carries the 2026 amounts from Notice 2025-67 and the SECURE 2.0 additions at IRC § 408(p)(2)(A)(iv) and the 4 percent applicable percentage for electing larger employers." }
