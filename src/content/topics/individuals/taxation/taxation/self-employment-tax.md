@@ -17,7 +17,7 @@ authorities:
   - { type: IRC, ref: "§ 6654", title: "Failure by individual to pay estimated income tax", url: "https://www.law.cornell.edu/uscode/text/26/6654" }
   - { type: Pub, ref: "Instructions for Schedule SE (2025)", title: "Optional methods and reporting", url: "https://www.irs.gov/instructions/i1040sse" }
 forms: []
-related: ["1.2.4.a", "1.4.1.j", "1.4.1.f", "1.4.1.c", "1.4.1.b", "1.4.1.e", "1.4.1.k", "1.5.1.j"]
+related: ["1.2.4.a", "1.4.1.j", "1.4.1.f", "1.4.1.c", "1.4.1.b", "1.4.1.e", "1.4.1.k", "1.5.1.j", "2.1.1.a"]
 changelog:
   - { date: "2026-08-19", summary: "Initial draft. Covers the reporting side of the self-employment tax: who is within IRC § 1402(c), the § 1402(a) exclusions, the qualified joint venture election under § 761(f), the farm and non-farm optional methods with the § 1402(l) limits, the § 1402(e) and (g) exemptions, and why the tax is a chapter 2 liability that most nonrefundable credits cannot reach. The rate structure and the two halvings are on 1.2.4.a." }
 ---

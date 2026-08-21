@@ -7723,6 +7723,48 @@
       "taxYear": 2026,
       "source": "IRS, IRS Criminal Investigation Voluntary Disclosure Practice, irs.gov/compliance/criminal-investigation/irs-criminal-investigation-voluntary-disclosure-practice (read 21 August 2026)",
       "verified": "2026-08-21"
+    },
+    "soleprop.disregarded": {
+      "value": "a business entity with a single owner that is not a corporation under Reg. § 301.7701-2(b) is disregarded as an entity separate from its owner for federal tax purposes (Reg. § 301.7701-2(c)(2)(i))",
+      "taxYear": 2026,
+      "source": "26 CFR § 301.7701-2, read at law.cornell.edu/cfr/text/26/301.7701-2",
+      "verified": "2026-08-21"
+    },
+    "soleprop.return_date": {
+      "value": "the same date as the owner's individual return — a sole proprietorship files no return of its own, so the business is reported on a schedule to the Form 1040 and follows the individual calendar in IRC § 6072(a), not the 15 March date that applies to partnerships and S corporations under § 6072(b)",
+      "taxYear": 2026,
+      "source": "IRC § 6072, read at law.cornell.edu/uscode/text/26/6072",
+      "verified": "2026-08-21"
+    },
+    "soleprop.se_return_threshold": {
+      "value": "$400 or more of net earnings from self-employment for the taxable year obliges every individual other than a nonresident alien to make a self-employment tax return, and on a joint return the tax is computed on each spouse's separate self-employment income rather than on the aggregate (IRC § 6017)",
+      "taxYear": 2026,
+      "source": "IRC § 6017, read at law.cornell.edu/uscode/text/26/6017",
+      "verified": "2026-08-21"
+    },
+    "soleprop.net_earnings": {
+      "value": "gross income derived from any trade or business carried on by the individual, less the deductions attributable to that trade or business, plus the distributive share of income or loss from any trade or business carried on by a partnership of which the individual is a member (IRC § 1402(a))",
+      "taxYear": 2026,
+      "source": "IRC § 1402(a), read at law.cornell.edu/uscode/text/26/1402",
+      "verified": "2026-08-21"
+    },
+    "soleprop.se_floor": {
+      "value": "net earnings from self-employment of less than $400 are excluded from self-employment income altogether — an unindexed figure, so the exclusion has narrowed steadily in real terms (IRC § 1402(b)(2))",
+      "taxYear": 2026,
+      "source": "IRC § 1402(b)(2), read at law.cornell.edu/uscode/text/26/1402",
+      "verified": "2026-08-21"
+    },
+    "soleprop.trade_or_business": {
+      "value": "trade or business for self-employment purposes has the same meaning as in IRC § 162, subject to the exclusions that section 1402(c) then lists (IRC § 1402(c))",
+      "taxYear": 2026,
+      "source": "IRC § 1402(c), read at law.cornell.edu/uscode/text/26/1402",
+      "verified": "2026-08-21"
+    },
+    "soleprop.deduction_standard": {
+      "value": "all the ordinary and necessary expenses paid or incurred during the taxable year in carrying on any trade or business, including reasonable compensation for services actually rendered and travelling expenses that are not lavish or extravagant (IRC § 162(a))",
+      "taxYear": 2026,
+      "source": "IRC § 162(a), read at law.cornell.edu/uscode/text/26/162",
+      "verified": "2026-08-21"
     }
   }
 }

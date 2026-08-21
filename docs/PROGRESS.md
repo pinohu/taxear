@@ -10,9 +10,9 @@ is indexed, and only the owner moves a page there (see `docs/VERIFICATION.md`).
 | Part | Topics | Stub | Draft | Review | Published | Words |
 |---|---:|---:|---:|---:|---:|---:|
 | 1. Individuals | 120 | 0 | 0 | 110 | 10 | 256,550 |
-| 2. Businesses | 119 | 119 | 0 | 0 | 0 | 0 |
+| 2. Businesses | 119 | 118 | 0 | 1 | 0 | 1,658 |
 | 3. Representation, Practices and Procedures | 121 | 0 | 0 | 0 | 121 | 257,674 |
-| **All parts** | **360** | **119** | **0** | **110** | **131** | **514,224** |
+| **All parts** | **360** | **118** | **0** | **111** | **131** | **515,882** |
 
 ## Part 1 — Individuals
 
@@ -216,7 +216,7 @@ is indexed, and only the owner moves a page there (see `docs/VERIFICATION.md`).
 
 | Code | Title | Status | Words | Last reviewed |
 |---|---|---|---:|---|
-| 2.1.1.a | [Sole proprietorships](/businesses/business-entities/business-entities-and-considerations/sole-proprietorships/) | stub | — | — |
+| 2.1.1.a | [Sole proprietorships](/businesses/business-entities/business-entities-and-considerations/sole-proprietorships/) | review | 1,658 | 2026-08-21 |
 | 2.1.1.b | [Partnerships and qualified joint ventures (QJV)](/businesses/business-entities/business-entities-and-considerations/partnerships-and-qualified-joint-ventures-qjv/) | stub | — | — |
 | 2.1.1.c | [Corporations](/businesses/business-entities/business-entities-and-considerations/corporations/) | stub | — | — |
 | 2.1.1.d | [S corporations](/businesses/business-entities/business-entities-and-considerations/s-corporations/) | stub | — | — |
