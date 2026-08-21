@@ -7417,6 +7417,72 @@
       "taxYear": 2026,
       "source": "IRC § 6038D(a), read at law.cornell.edu/uscode/text/26/6038D, and IRS, Comparison of Form 8938 and FBAR requirements, irs.gov/businesses/comparison-of-form-8938-and-fbar-requirements",
       "verified": "2026-08-21"
+    },
+    "covered.8938_definition": {
+      "value": "any financial account within IRC § 1471(d)(2) maintained by a foreign financial institution, plus three categories held outside such an account — stock or a security issued by a non-United States person, a financial instrument or contract held for investment with a non-United States issuer or counterparty, and any interest in a foreign entity (IRC § 6038D(b))",
+      "taxYear": 2026,
+      "source": "IRC § 6038D(b), read at law.cornell.edu/uscode/text/26/6038D",
+      "verified": "2026-08-21"
+    },
+    "covered.fbar_definition": {
+      "value": "a financial interest in, or signature or other authority over, at least one financial account located outside the United States — and generally an account at a financial institution located outside the United States is a foreign financial account, whether or not it produced taxable income",
+      "taxYear": 2026,
+      "source": "IRS, Report of Foreign Bank and Financial Accounts (FBAR), irs.gov/businesses/small-businesses-self-employed/report-of-foreign-bank-and-financial-accounts-fbar",
+      "verified": "2026-08-21"
+    },
+    "covered.branch_rule": {
+      "value": "an account at a foreign branch of a United States institution is reportable on the FBAR but not on Form 8938; an account at a United States branch of a foreign institution is reportable on neither — location of the branch decides the FBAR, and the status of the institution decides Form 8938",
+      "taxYear": 2026,
+      "source": "IRS, Comparison of Form 8938 and FBAR requirements (page last reviewed 18 September 2025), irs.gov/businesses/comparison-of-form-8938-and-fbar-requirements",
+      "verified": "2026-08-21"
+    },
+    "covered.signature_authority": {
+      "value": "signature authority over an account, without any interest in it, is reportable on the FBAR subject to exceptions but is not a Form 8938 asset unless the filer otherwise has an interest — which is why an employee with authority over a company account can have an FBAR obligation and no tax reporting at all",
+      "taxYear": 2026,
+      "source": "IRS, Comparison of Form 8938 and FBAR requirements (page last reviewed 18 September 2025), irs.gov/businesses/comparison-of-form-8938-and-fbar-requirements",
+      "verified": "2026-08-21"
+    },
+    "covered.non_account_assets": {
+      "value": "foreign stock or securities held outside an account, foreign partnership interests, and foreign hedge and private equity funds are Form 8938 assets and are not FBAR accounts — the FBAR reaches accounts, Form 8938 reaches assets",
+      "taxYear": 2026,
+      "source": "IRS, Comparison of Form 8938 and FBAR requirements (page last reviewed 18 September 2025), irs.gov/businesses/comparison-of-form-8938-and-fbar-requirements",
+      "verified": "2026-08-21"
+    },
+    "covered.contents_not_separate": {
+      "value": "where foreign stock or securities are held in an account at a foreign financial institution, the account is reportable but its contents are not separately reported — on both forms",
+      "taxYear": 2026,
+      "source": "IRS, Comparison of Form 8938 and FBAR requirements (page last reviewed 18 September 2025), irs.gov/businesses/comparison-of-form-8938-and-fbar-requirements",
+      "verified": "2026-08-21"
+    },
+    "covered.indirect_interest": {
+      "value": "an indirect interest in foreign financial assets through an entity is not itself a Form 8938 asset, but gives an FBAR financial interest where the ownership or beneficial interest in the entity is greater than 50 percent",
+      "taxYear": 2026,
+      "source": "IRS, Comparison of Form 8938 and FBAR requirements (page last reviewed 18 September 2025), irs.gov/businesses/comparison-of-form-8938-and-fbar-requirements",
+      "verified": "2026-08-21"
+    },
+    "covered.not_reportable": {
+      "value": "neither form reaches foreign real estate held directly, foreign currency held directly, precious metals held directly, personal property held directly such as art, antiques, jewellery, cars and collectibles, or social-security-type benefits provided by a foreign government",
+      "taxYear": 2026,
+      "source": "IRS, Comparison of Form 8938 and FBAR requirements (page last reviewed 18 September 2025), irs.gov/businesses/comparison-of-form-8938-and-fbar-requirements",
+      "verified": "2026-08-21"
+    },
+    "covered.real_estate_through_entity": {
+      "value": "foreign real estate held through a foreign entity is on neither form directly, but the foreign entity itself is a specified foreign financial asset for Form 8938 and its maximum value includes the value of the real estate",
+      "taxYear": 2026,
+      "source": "IRS, Comparison of Form 8938 and FBAR requirements (page last reviewed 18 September 2025), irs.gov/businesses/comparison-of-form-8938-and-fbar-requirements",
+      "verified": "2026-08-21"
+    },
+    "covered.insurance_and_funds": {
+      "value": "a foreign-issued life insurance or annuity contract with a cash value is reportable on both forms, as is a foreign mutual fund — while a domestic mutual fund investing in foreign stocks and securities is reportable on neither",
+      "taxYear": 2026,
+      "source": "IRS, Comparison of Form 8938 and FBAR requirements (page last reviewed 18 September 2025), irs.gov/businesses/comparison-of-form-8938-and-fbar-requirements",
+      "verified": "2026-08-21"
+    },
+    "covered.grantor_trust": {
+      "value": "foreign accounts and foreign non-account investment assets held by a foreign or domestic grantor trust of which the filer is the grantor are Form 8938 assets as to both, and FBAR accounts as to the foreign accounts",
+      "taxYear": 2026,
+      "source": "IRS, Comparison of Form 8938 and FBAR requirements (page last reviewed 18 September 2025), irs.gov/businesses/comparison-of-form-8938-and-fbar-requirements",
+      "verified": "2026-08-21"
     }
   }
 }
