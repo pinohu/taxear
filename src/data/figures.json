@@ -8701,6 +8701,66 @@
       "taxYear": 2026,
       "source": "IRC § 707(b)(2), read at law.cornell.edu/uscode/text/26/707",
       "verified": "2026-08-21"
+    },
+    "contrib.nonrecognition": {
+      "value": "no gain or loss is recognised to a partnership or to any of its partners on a contribution of property to the partnership in exchange for an interest in it (IRC § 721(a))",
+      "taxYear": 2026,
+      "source": "IRC § 721(a), read at law.cornell.edu/uscode/text/26/721",
+      "verified": "2026-08-21"
+    },
+    "contrib.investment_company": {
+      "value": "nonrecognition does not apply to gain realised on a transfer of property to a partnership that would be treated as an investment company within the meaning of IRC § 351 if the partnership were incorporated (IRC § 721(b))",
+      "taxYear": 2026,
+      "source": "IRC § 721(b), read at law.cornell.edu/uscode/text/26/721",
+      "verified": "2026-08-21"
+    },
+    "contrib.outside_basis": {
+      "value": "the basis of a partnership interest acquired by contributing property, including money, is the amount of the money plus the adjusted basis of the property to the contributing partner at the time of contribution, increased by any gain recognised under IRC § 721(b) (IRC § 722)",
+      "taxYear": 2026,
+      "source": "IRC § 722, read at law.cornell.edu/uscode/text/26/722",
+      "verified": "2026-08-21"
+    },
+    "contrib.inside_basis": {
+      "value": "the basis of property contributed to a partnership is its adjusted basis to the contributing partner at the time of contribution, increased by any gain recognised under IRC § 721(b) (IRC § 723)",
+      "taxYear": 2026,
+      "source": "IRC § 723, read at law.cornell.edu/uscode/text/26/723",
+      "verified": "2026-08-21"
+    },
+    "contrib.services": {
+      "value": "IRC § 721 does not apply where a partner gives up part of the right to be repaid contributions in favour of another partner as compensation for services. The value of an interest in partnership capital transferred as compensation for services is income to that partner under IRC § 61, measured at fair market value at the time of transfer for past services or at the time the services are rendered where the transfer is conditioned on future services. A capital interest for services rendered to the partnership is a guaranteed payment under IRC § 707(c) (Reg. § 1.721-1(b)(1), (2))",
+      "taxYear": 2026,
+      "source": "26 CFR § 1.721-1(b), read at law.cornell.edu/cfr/text/26/1.721-1",
+      "verified": "2026-08-21"
+    },
+    "contrib.704c": {
+      "value": "income, gain, loss and deduction with respect to property contributed by a partner must be shared among the partners so as to take account of the variation between the partnership basis in the property and its fair market value at the time of contribution (IRC § 704(c)(1)(A))",
+      "taxYear": 2026,
+      "source": "IRC § 704(c)(1)(A), read at law.cornell.edu/uscode/text/26/704",
+      "verified": "2026-08-21"
+    },
+    "contrib.704c_mixing_bowl": {
+      "value": "where contributed property is distributed, directly or indirectly, to a partner other than the contributor within 7 years of contribution, the contributing partner is treated as recognising the gain or loss that would have been allocated to them under IRC § 704(c)(1)(A) had the property been sold at fair market value at the time of the distribution, with character determined as if the partnership had sold it to the distributee and with appropriate basis adjustments (IRC § 704(c)(1)(B))",
+      "taxYear": 2026,
+      "source": "IRC § 704(c)(1)(B), read at law.cornell.edu/uscode/text/26/704",
+      "verified": "2026-08-21"
+    },
+    "contrib.724_receivables": {
+      "value": "gain or loss recognised by the partnership on disposing of property that was an unrealised receivable in the contributing partner hands immediately before contribution is ordinary, with no time limit (IRC § 724(a))",
+      "taxYear": 2026,
+      "source": "IRC § 724(a), read at law.cornell.edu/uscode/text/26/724",
+      "verified": "2026-08-21"
+    },
+    "contrib.724_inventory": {
+      "value": "gain or loss recognised by the partnership on disposing of property that was an inventory item in the contributing partner hands immediately before contribution is ordinary if the disposition occurs within the 5-year period beginning on the date of contribution (IRC § 724(b))",
+      "taxYear": 2026,
+      "source": "IRC § 724(b), read at law.cornell.edu/uscode/text/26/724",
+      "verified": "2026-08-21"
+    },
+    "contrib.724_capital_loss": {
+      "value": "loss recognised by the partnership on disposing of property that was a capital asset in the contributing partner hands immediately before contribution is capital loss, if the disposition occurs within the 5-year period beginning on the date of contribution, to the extent the adjusted basis exceeded fair market value immediately before the contribution (IRC § 724(c))",
+      "taxYear": 2026,
+      "source": "IRC § 724(c), read at law.cornell.edu/uscode/text/26/724",
+      "verified": "2026-08-21"
     }
   }
 }
