@@ -14749,6 +14749,78 @@
       "taxYear": 2026,
       "source": "IRC § 183, read at law.cornell.edu/uscode/text/26/183",
       "verified": "2026-08-21"
+    },
+    "pl.disallowance": {
+      "value": "a passive activity loss is not allowed for the taxable year, and any loss or credit disallowed is treated as a deduction or credit allocable to that activity in the next taxable year — suspended indefinitely rather than lost (IRC § 469(a), (b))",
+      "taxYear": 2026,
+      "source": "IRC § 469, read at law.cornell.edu/uscode/text/26/469",
+      "verified": "2026-08-21"
+    },
+    "pl.allowance": {
+      "value": "for a natural person, the disallowance does not apply to so much of the passive activity loss, or the deduction equivalent of the passive activity credit, as is attributable to all rental real estate activities in which the individual actively participated in the year — and in the year the loss arose, if earlier (IRC § 469(i)(1))",
+      "taxYear": 2026,
+      "source": "IRC § 469, read at law.cornell.edu/uscode/text/26/469",
+      "verified": "2026-08-21"
+    },
+    "pl.allowance_cap": {
+      "value": "the aggregate amount of that allowance may not exceed $25,000 for the taxable year (IRC § 469(i)(2))",
+      "taxYear": 2026,
+      "source": "IRC § 469, read at law.cornell.edu/uscode/text/26/469",
+      "verified": "2026-08-21"
+    },
+    "pl.phaseout": {
+      "value": "the $25,000 is reduced, but not below zero, by 50 percent of the amount by which adjusted gross income for the year exceeds $100,000 — so it is exhausted at $150,000 of adjusted gross income (IRC § 469(i)(3)(A))",
+      "taxYear": 2026,
+      "source": "IRC § 469, read at law.cornell.edu/uscode/text/26/469",
+      "verified": "2026-08-21"
+    },
+    "pl.magi": {
+      "value": "for the phase-out, adjusted gross income is determined without regard to any amount includible under IRC § 86, amounts excludable under IRC §§ 85(c), 135 and 137, deductions allowable under IRC §§ 219, 221 and 250, and any passive activity loss or any loss allowable by reason of IRC § 469(c)(7) (IRC § 469(i)(3)(E))",
+      "taxYear": 2026,
+      "source": "IRC § 469, read at law.cornell.edu/uscode/text/26/469",
+      "verified": "2026-08-21"
+    },
+    "pl.rehab_credit": {
+      "value": "for the portion of a passive activity credit attributable to the IRC § 47 rehabilitation credit the phase-out begins at $200,000 of adjusted gross income rather than $100,000, and the phase-out does not apply at all to the portion attributable to the IRC § 42 low-income housing credit (IRC § 469(i)(3)(B), (C))",
+      "taxYear": 2026,
+      "source": "IRC § 469, read at law.cornell.edu/uscode/text/26/469",
+      "verified": "2026-08-21"
+    },
+    "pl.ordering": {
+      "value": "the allowance is applied first to the passive activity loss, second to the portion of the passive activity credit outside the rehabilitation and low-income housing rules, third to the rehabilitation credit portion, and last to the low-income housing credit portion (IRC § 469(i)(3)(D))",
+      "taxYear": 2026,
+      "source": "IRC § 469, read at law.cornell.edu/uscode/text/26/469",
+      "verified": "2026-08-21"
+    },
+    "pl.mfs": {
+      "value": "a married individual filing separately substitutes $12,500 for $25,000 wherever it appears, $50,000 for $100,000 in the phase-out and $100,000 for $200,000 in the rehabilitation credit phase-out — and gets nothing at all if the individual does not live apart from the spouse at all times during the year (IRC § 469(i)(5))",
+      "taxYear": 2026,
+      "source": "IRC § 469, read at law.cornell.edu/uscode/text/26/469",
+      "verified": "2026-08-21"
+    },
+    "pl.active_participation": {
+      "value": "an individual is not treated as actively participating in a rental real estate activity for any period if at any time during that period the individual’s interest, including the spouse’s interest, is less than 10 percent by value of all interests in the activity; a limited partnership interest is not an interest with respect to which the taxpayer actively participates except as regulations provide; and the spouse’s participation is taken into account (IRC § 469(i)(6))",
+      "taxYear": 2026,
+      "source": "IRC § 469, read at law.cornell.edu/uscode/text/26/469",
+      "verified": "2026-08-21"
+    },
+    "pl.estates": {
+      "value": "for taxable years of an estate ending less than 2 years after the decedent’s death, the allowance applies to all rental real estate activities in which the decedent actively participated before death, reduced by the allowance available to the surviving spouse for the year ending with or within the estate’s year (IRC § 469(i)(4))",
+      "taxYear": 2026,
+      "source": "IRC § 469, read at law.cornell.edu/uscode/text/26/469",
+      "verified": "2026-08-21"
+    },
+    "pl.disposition": {
+      "value": "where a taxpayer disposes of an entire interest in a passive activity in a fully taxable transaction, the excess of the loss from that activity for the year over net income or gain from all other passive activities is treated as a loss that is not from a passive activity — releasing the suspended losses (IRC § 469(g)(1)(A))",
+      "taxYear": 2026,
+      "source": "IRC § 469, read at law.cornell.edu/uscode/text/26/469",
+      "verified": "2026-08-21"
+    },
+    "pl.related_party": {
+      "value": "that release does not apply where the person acquiring the interest bears a relationship to the taxpayer described in IRC § 267(b) or § 707(b)(1); the loss stays suspended until the interest is acquired in a fully taxable transaction by someone who does not (IRC § 469(g)(1)(B))",
+      "taxYear": 2026,
+      "source": "IRC § 469, read at law.cornell.edu/uscode/text/26/469",
+      "verified": "2026-08-21"
     }
   }
 }
