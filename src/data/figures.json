@@ -9301,6 +9301,42 @@
       "taxYear": 2026,
       "source": "IRC § 537(a), read at law.cornell.edu/uscode/text/26/537",
       "verified": "2026-08-21"
+    },
+    "est.addition": {
+      "value": "on an underpayment of estimated tax by a corporation an amount is added to the chapter 1 tax, computed by applying the IRC § 6621 underpayment rate to the amount of the underpayment for the period of the underpayment (IRC § 6655(a))",
+      "taxYear": 2026,
+      "source": "IRC § 6655(a), read at law.cornell.edu/uscode/text/26/6655",
+      "verified": "2026-08-21"
+    },
+    "est.underpayment_period": {
+      "value": "the underpayment is the excess of the required installment over the amount paid on or before its due date, and the period runs from that due date to the earlier of the 15th day of the 4th month after the close of the year or the date the portion is paid. Payments are credited against unpaid required installments in the order those installments were required to be paid (IRC § 6655(b))",
+      "taxYear": 2026,
+      "source": "IRC § 6655(b), read at law.cornell.edu/uscode/text/26/6655",
+      "verified": "2026-08-21"
+    },
+    "est.installment_dates": {
+      "value": "four required installments for each taxable year, due 15 April, 15 June, 15 September and 15 December for a calendar-year corporation — the fourth falling in December rather than in the following January, which is where the corporate schedule departs from the individual one (IRC § 6655(c))",
+      "taxYear": 2026,
+      "source": "IRC § 6655(c), read at law.cornell.edu/uscode/text/26/6655",
+      "verified": "2026-08-21"
+    },
+    "est.tax_defined": {
+      "value": "tax for this purpose means the sum of the IRC § 11 or subchapter L tax, the § 55 tax, the § 59A base erosion tax and the § 887 tax, less the credits against tax provided by part IV of subchapter A (IRC § 6655(g)(1))",
+      "taxYear": 2026,
+      "source": "IRC § 6655(g)(1), read at law.cornell.edu/uscode/text/26/6655",
+      "verified": "2026-08-21"
+    },
+    "est.large_corporation": {
+      "value": "$1,000,000 — a large corporation is one that, or whose predecessor, had taxable income of that amount or more for any of the 3 taxable years immediately preceding the taxable year in question, determined without regard to net operating loss or capital loss carryovers (IRC § 6655(g)(2))",
+      "taxYear": 2026,
+      "source": "IRC § 6655(g)(2), read at law.cornell.edu/uscode/text/26/6655",
+      "verified": "2026-08-21"
+    },
+    "est.annualized": {
+      "value": "where a corporation establishes that the annualised income installment or the adjusted seasonal installment is less than the amount otherwise required, the required installment is the lesser of those two figures — but any reduction is recaptured by increasing the next required installment, and later ones so far as the reduction has not been recaptured (IRC § 6655(e)(1))",
+      "taxYear": 2026,
+      "source": "IRC § 6655(e)(1), read at law.cornell.edu/uscode/text/26/6655",
+      "verified": "2026-08-21"
     }
   }
 }

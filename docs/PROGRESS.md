@@ -10,9 +10,9 @@ is indexed, and only the owner moves a page there (see `docs/VERIFICATION.md`).
 | Part | Topics | Stub | Draft | Review | Published | Words |
 |---|---:|---:|---:|---:|---:|---:|
 | 1. Individuals | 120 | 0 | 0 | 110 | 10 | 256,550 |
-| 2. Businesses | 119 | 90 | 0 | 29 | 0 | 68,026 |
+| 2. Businesses | 119 | 89 | 0 | 30 | 0 | 70,223 |
 | 3. Representation, Practices and Procedures | 121 | 0 | 0 | 0 | 121 | 257,674 |
-| **All parts** | **360** | **90** | **0** | **139** | **131** | **582,250** |
+| **All parts** | **360** | **89** | **0** | **140** | **131** | **584,447** |
 
 ## Part 1 — Individuals
 
@@ -255,7 +255,7 @@ is indexed, and only the owner moves a page there (see `docs/VERIFICATION.md`).
 | 2.1.3.d | [Special deductions and credits (e.g., dividends received deduction, charitable deduction)](/businesses/business-entities/corporations-in-general/special-deductions-and-credits/) | review | 2,351 | 2026-08-21 |
 | 2.1.3.e | [Liquidations and stock redemptions](/businesses/business-entities/corporations-in-general/liquidations-and-stock-redemptions/) | review | 2,342 | 2026-08-21 |
 | 2.1.3.f | [Accumulated earnings tax](/businesses/business-entities/corporations-in-general/accumulated-earnings-tax/) | review | 2,237 | 2026-08-21 |
-| 2.1.3.g | [Estimated tax payments](/businesses/business-entities/corporations-in-general/estimated-tax-payments/) | stub | — | — |
+| 2.1.3.g | [Estimated tax payments](/businesses/business-entities/corporations-in-general/estimated-tax-payments/) | review | 2,197 | 2026-08-21 |
 | 2.1.3.h | [Corporate minimum tax credit](/businesses/business-entities/corporations-in-general/corporate-minimum-tax-credit/) | stub | — | — |
 
 **2.1.4 Forming a corporation**
