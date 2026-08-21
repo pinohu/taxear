@@ -24,7 +24,7 @@ authorities:
   - { type: IRM, ref: "4.10.4.2.4.2", title: "Schedules M-1, M-2 and M-3", url: "https://www.irs.gov/irm/part4/irm_04-010-004" }
   - { type: Form, ref: "Form 1120 instructions", title: "Schedule L, Balance Sheets per Books", url: "https://www.irs.gov/instructions/i1120" }
 forms: []
-related: ["2.2.4.a", "2.2.4.b", "2.2.4.g", "2.2.4.e", "2.2.4.i"]
+related: ["2.2.4.a", "2.2.4.b", "2.2.4.g", "2.2.4.e", "2.2.4.i", "2.2.4.d"]
 changelog:
   - { date: "2026-08-21", summary: "Initial draft. Sets out the IRM 4.10.3.10.1 accounting equation and definitions, the Schedule L requirement that the balance sheet agree with the books and the under-$250,000 exception, the IRM 4.10.3.10.2 first step of determining whether a balance sheet is tax based or book based with its three proofs, the IRM 4.10.3.10.3 criteria for selecting accounts, and the depreciation roll-forward and liability-account techniques that find omitted income and omitted Schedule M-1 items." }
 ---

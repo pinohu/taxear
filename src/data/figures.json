@@ -11839,6 +11839,84 @@
       "taxYear": 2026,
       "source": "IRM 4.10.4.2.4.2, opened at irs.gov/irm/part4/irm_04-010-004",
       "verified": "2026-08-21"
+    },
+    "method.qpsc_function": {
+      "value": "the function test is met where substantially all the corporation’s activities involve performing services in health, law, engineering including surveying and mapping, architecture, accounting, actuarial science, performing arts or consulting — substantially all meaning 95 percent or more of employee time, activities incident to the services counting toward it",
+      "taxYear": 2026,
+      "source": "Reg. § 1.448-1T(e)(4)(i), opened at law.cornell.edu/cfr/text/26/1.448-1T; statutory list at IRC § 448(d)(2)(A), opened at law.cornell.edu/uscode/text/26/448",
+      "verified": "2026-08-21"
+    },
+    "method.qpsc_ownership": {
+      "value": "the ownership test is met where at all times during the year substantially all the stock by value is held by employees performing the services, retired employees who performed them, their estates, or a person who acquired the stock on such a death — that last only for the 2-year period beginning on the death",
+      "taxYear": 2026,
+      "source": "Reg. § 1.448-1T(e)(5)(i), opened at law.cornell.edu/cfr/text/26/1.448-1T; IRC § 448(d)(2)(B), opened at law.cornell.edu/uscode/text/26/448",
+      "verified": "2026-08-21"
+    },
+    "method.qpsc_effect": {
+      "value": "a qualified personal service corporation is outside the cash method prohibition altogether and is treated as an individual in deciding whether a partnership having it as a partner is caught",
+      "taxYear": 2026,
+      "source": "IRC § 448(b)(2), opened at law.cornell.edu/uscode/text/26/448",
+      "verified": "2026-08-21"
+    },
+    "method.change_definition": {
+      "value": "a change in method of accounting is a change in the overall plan of accounting for gross income or deductions, or a change in the treatment of any material item within that plan — a material item being any item involving the proper time for its inclusion in income or the taking of a deduction",
+      "taxYear": 2026,
+      "source": "Reg. § 1.446-1(e)(2)(ii)(a), opened at law.cornell.edu/cfr/text/26/1.446-1",
+      "verified": "2026-08-21"
+    },
+    "method.not_a_change": {
+      "value": "not a change in method — correcting a mathematical or posting error, correcting an error in computing tax liability, adjusting an item that does not involve the proper time for inclusion or deduction, adjusting an addition to a bad debt reserve, and a change in treatment resulting from a change in underlying facts",
+      "taxYear": 2026,
+      "source": "Reg. § 1.446-1(e)(2)(ii)(b), opened at law.cornell.edu/cfr/text/26/1.446-1",
+      "verified": "2026-08-21"
+    },
+    "method.consent_regardless": {
+      "value": "consent must be secured whether or not the new method is proper or is permitted by the Code or the regulations — so a taxpayer on an impermissible method may not simply start doing it correctly",
+      "taxYear": 2026,
+      "source": "Reg. § 1.446-1(e)(2)(i), opened at law.cornell.edu/cfr/text/26/1.446-1",
+      "verified": "2026-08-21"
+    },
+    "method.form_3115": {
+      "value": "consent is generally secured by filing Form 3115 during the taxable year in which the change is desired, furnishing all information requested including every class of item that will be treated differently, any amounts that will be duplicated or omitted, and the taxpayer’s computation of the adjustments needed to prevent that",
+      "taxYear": 2026,
+      "source": "Reg. § 1.446-1(e)(3)(i), opened at law.cornell.edu/cfr/text/26/1.446-1",
+      "verified": "2026-08-21"
+    },
+    "method.terms_and_conditions": {
+      "value": "permission to change is not granted unless the taxpayer agrees to the Commissioner’s prescribed terms and conditions, including the year or years in which the adjustment preventing duplication or omission is taken into account",
+      "taxYear": 2026,
+      "source": "Reg. § 1.446-1(e)(3)(i), opened at law.cornell.edu/cfr/text/26/1.446-1",
+      "verified": "2026-08-21"
+    },
+    "method.automatic_procedures": {
+      "value": "the Commissioner may prescribe administrative procedures under which taxpayers are permitted to change method — the automatic consent route, which substitutes published conditions for a case-by-case ruling",
+      "taxYear": 2026,
+      "source": "Reg. § 1.446-1(e)(3)(ii), opened at law.cornell.edu/cfr/text/26/1.446-1",
+      "verified": "2026-08-21"
+    },
+    "method.first_return": {
+      "value": "a taxpayer filing its first return may adopt any permissible method without consent, and may adopt a separate permissible method for each separate and distinct trade or business the income of which is reported for the first time",
+      "taxYear": 2026,
+      "source": "Reg. § 1.446-1(e)(1), opened at law.cornell.edu/cfr/text/26/1.446-1",
+      "verified": "2026-08-21"
+    },
+    "method.twelve_month": {
+      "value": "an amount paid to create a right or benefit need not be capitalised where the benefit does not extend beyond the earlier of 12 months after the taxpayer first realises it or the end of the taxable year following the year of payment — so a longer-lived prepayment is capitalised and recovered over the period it covers",
+      "taxYear": 2026,
+      "source": "Reg. § 1.263(a)-4(f)(1), opened at law.cornell.edu/cfr/text/26/1.263(a)-4",
+      "verified": "2026-08-21"
+    },
+    "method.451b": {
+      "value": "for an accrual taxpayer with an applicable financial statement, the all events test for an item of gross income is not treated as met any later than when the item is taken into account as revenue in that statement",
+      "taxYear": 2026,
+      "source": "IRC § 451(b)(1)(A), opened at law.cornell.edu/uscode/text/26/451",
+      "verified": "2026-08-21"
+    },
+    "method.451c": {
+      "value": "an accrual taxpayer receiving an advance payment includes it in the year of receipt, unless it elects deferral for that category — in which case it includes the portion required by the financial statement rule and the remainder in the following taxable year, and no later",
+      "taxYear": 2026,
+      "source": "IRC § 451(c)(1), opened at law.cornell.edu/uscode/text/26/451",
+      "verified": "2026-08-21"
     }
   }
 }
