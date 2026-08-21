@@ -10,9 +10,9 @@ is indexed, and only the owner moves a page there (see `docs/VERIFICATION.md`).
 | Part | Topics | Stub | Draft | Review | Published | Words |
 |---|---:|---:|---:|---:|---:|---:|
 | 1. Individuals | 120 | 0 | 0 | 110 | 10 | 256,550 |
-| 2. Businesses | 119 | 100 | 0 | 19 | 0 | 44,855 |
+| 2. Businesses | 119 | 99 | 0 | 20 | 0 | 47,345 |
 | 3. Representation, Practices and Procedures | 121 | 0 | 0 | 0 | 121 | 257,674 |
-| **All parts** | **360** | **100** | **0** | **129** | **131** | **559,079** |
+| **All parts** | **360** | **99** | **0** | **130** | **131** | **561,569** |
 
 ## Part 1 — Individuals
 
@@ -240,7 +240,7 @@ is indexed, and only the owner moves a page there (see `docs/VERIFICATION.md`).
 | 2.1.2.e | [Basis of partner's interest](/businesses/business-entities/partnerships/basis-of-partner-s-interest/) | review | 2,194 | 2026-08-21 |
 | 2.1.2.f | [Disposition of partner's interest](/businesses/business-entities/partnerships/disposition-of-partner-s-interest/) | review | 2,490 | 2026-08-21 |
 | 2.1.2.g | [Partnership formation (e.g., partnership agreement, general vs. limited partners, capital contributions)](/businesses/business-entities/partnerships/partnership-formation/) | review | 2,404 | 2026-08-21 |
-| 2.1.2.h | [Dissolution of partnership (e.g., sale, death of partner)](/businesses/business-entities/partnerships/dissolution-of-partnership/) | stub | — | — |
+| 2.1.2.h | [Dissolution of partnership (e.g., sale, death of partner)](/businesses/business-entities/partnerships/dissolution-of-partnership/) | review | 2,490 | 2026-08-21 |
 | 2.1.2.i | [Filing requirements, due dates, penalties, and audit notice requirements](/businesses/business-entities/partnerships/filing-requirements-due-dates-penalties-and-audit-notice/) | stub | — | — |
 | 2.1.2.j | [Partnership cancellation of debt](/businesses/business-entities/partnerships/partnership-cancellation-of-debt/) | stub | — | — |
 | 2.1.2.k | [Partnership level audit and opt-out](/businesses/business-entities/partnerships/partnership-level-audit-and-opt-out/) | stub | — | — |

@@ -8869,6 +8869,60 @@
       "taxYear": 2026,
       "source": "IRC § 709(b)(2), read at law.cornell.edu/uscode/text/26/709",
       "verified": "2026-08-21"
+    },
+    "dissolve.continuation": {
+      "value": "an existing partnership is considered as continuing if it is not terminated, and is terminated only if no part of any business, financial operation or venture of the partnership continues to be carried on by any of its partners in a partnership (IRC § 708(a), (b)(1))",
+      "taxYear": 2026,
+      "source": "IRC § 708(a), (b)(1), read at law.cornell.edu/uscode/text/26/708",
+      "verified": "2026-08-21"
+    },
+    "dissolve.technical_termination_repealed": {
+      "value": "the former IRC § 708(b)(1)(B) terminated a partnership where within a 12-month period there was a sale or exchange of 50 percent or more of the total interest in partnership capital and profits. Pub. L. 115-97 struck that subparagraph for partnership taxable years beginning after 31 December 2017, so the technical termination no longer exists",
+      "taxYear": 2026,
+      "source": "IRC § 708 amendment and effective-date notes, read at law.cornell.edu/uscode/text/26/708",
+      "verified": "2026-08-21"
+    },
+    "dissolve.merger_division": {
+      "value": "on a merger or consolidation the resulting partnership is the continuation of any merging partnership whose members own more than 50 percent of the capital and profits of the resulting partnership; on a division, a resulting partnership is a continuation of the prior partnership where its members had an interest of more than 50 percent in the capital and profits of the prior one (IRC § 708(b)(2))",
+      "taxYear": 2026,
+      "source": "IRC § 708(b)(2), read at law.cornell.edu/uscode/text/26/708",
+      "verified": "2026-08-21"
+    },
+    "dissolve.year_closes": {
+      "value": "the taxable year of a partnership does not close on the death of a partner, the entry of a new partner, the liquidation of a partner interest or the sale or exchange of an interest — except that it closes with respect to a partner whose entire interest terminates, whether by death, liquidation or otherwise, and does not close with respect to a partner who disposes of less than their entire interest (IRC § 706(c)(1), (2))",
+      "taxYear": 2026,
+      "source": "IRC § 706(c), read at law.cornell.edu/uscode/text/26/706",
+      "verified": "2026-08-21"
+    },
+    "dissolve.736a": {
+      "value": "payments in liquidation of the interest of a retiring or deceased partner are, except as IRC § 736(b) provides, a distributive share of partnership income if determined with regard to partnership income, and a IRC § 707(c) guaranteed payment if determined without regard to it (IRC § 736(a))",
+      "taxYear": 2026,
+      "source": "IRC § 736(a), read at law.cornell.edu/uscode/text/26/736",
+      "verified": "2026-08-21"
+    },
+    "dissolve.736b": {
+      "value": "to the extent such payments are determined to be made in exchange for the partner interest in partnership property, they are treated as a distribution by the partnership rather than as a distributive share or guaranteed payment. Payments for unrealised receivables, and for goodwill except where the partnership agreement provides for a goodwill payment, are excluded from that treatment — but only where capital is not a material income-producing factor and the retiring or deceased partner was a general partner (IRC § 736(b))",
+      "taxYear": 2026,
+      "source": "IRC § 736(b), read at law.cornell.edu/uscode/text/26/736",
+      "verified": "2026-08-21"
+    },
+    "dissolve.732_current": {
+      "value": "the basis of property other than money distributed other than in liquidation of a partner interest is its adjusted basis to the partnership immediately before the distribution, but may not exceed the adjusted basis of the partner interest reduced by any money distributed in the same transaction (IRC § 732(a))",
+      "taxYear": 2026,
+      "source": "IRC § 732(a), read at law.cornell.edu/uscode/text/26/732",
+      "verified": "2026-08-21"
+    },
+    "dissolve.732_liquidating": {
+      "value": "the basis of property other than money distributed in liquidation of a partner interest is the adjusted basis of that interest reduced by any money distributed in the same transaction — so the partner outside basis is transferred into the property received (IRC § 732(b))",
+      "taxYear": 2026,
+      "source": "IRC § 732(b), read at law.cornell.edu/uscode/text/26/732",
+      "verified": "2026-08-21"
+    },
+    "dissolve.732_allocation": {
+      "value": "where basis must be allocated among distributed properties it goes first to unrealised receivables and inventory items in an amount equal to each property adjusted basis to the partnership, with a decrease required where the basis to be allocated is less than the sum of those bases, and only then to other distributed property (IRC § 732(c)(1))",
+      "taxYear": 2026,
+      "source": "IRC § 732(c)(1), read at law.cornell.edu/uscode/text/26/732",
+      "verified": "2026-08-21"
     }
   }
 }
