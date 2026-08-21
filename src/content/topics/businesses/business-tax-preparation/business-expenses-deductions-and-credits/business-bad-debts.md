@@ -20,7 +20,7 @@ authorities:
   - { type: Reg, ref: "§ 1.166-2", title: "Evidence of worthlessness", url: "https://www.law.cornell.edu/cfr/text/26/1.166-2" }
   - { type: Reg, ref: "§ 1.166-5", title: "Nonbusiness debts", url: "https://www.law.cornell.edu/cfr/text/26/1.166-5" }
 forms: []
-related: ["2.2.1.a", "2.2.1.d", "2.2.2.a", "2.1.1.j", "2.2.1.b"]
+related: ["2.2.1.a", "2.2.1.d", "2.2.2.a", "2.1.1.j", "2.2.1.b", "2.2.2.k"]
 changelog:
   - { date: "2026-08-21", summary: "Initial draft. Sets out IRC § 166(a) and the difference between a wholly worthless debt and a partially worthless one that requires a charge-off, the IRC § 166(b) basis measure, and the IRC § 166(d) recharacterisation of a non-corporate taxpayer's non-business debt as a short-term capital loss. Adds the Reg. § 1.166-5(b) proximate relation test, the Reg. § 1.166-1(e) prior inclusion requirement, and the Reg. § 1.166-2 evidence rules. Records that Reg. § 1.166-1(a)(2) still offers the reserve method that Pub. L. 99-514 § 805(a) repealed in 1986." }
 ---

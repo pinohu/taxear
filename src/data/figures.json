@@ -11041,6 +11041,72 @@
       "taxYear": 2026,
       "source": "IRC § 6672(a), opened at law.cornell.edu/uscode/text/26/6672",
       "verified": "2026-08-21"
+    },
+    "cas.general": {
+      "value": "a deduction is allowed for any loss sustained during the taxable year and not compensated for by insurance or otherwise",
+      "taxYear": 2026,
+      "source": "IRC § 165(a), opened at law.cornell.edu/uscode/text/26/165",
+      "verified": "2026-08-21"
+    },
+    "cas.individual_limits": {
+      "value": "for an individual the deduction is limited to losses incurred in a trade or business, losses incurred in any transaction entered into for profit though not connected with a trade or business, and — subject to IRC § 165(h) — losses of other property arising from fire, storm, shipwreck or other casualty, or from theft",
+      "taxYear": 2026,
+      "source": "IRC § 165(c), opened at law.cornell.edu/uscode/text/26/165",
+      "verified": "2026-08-21"
+    },
+    "cas.measure": {
+      "value": "the lesser of the decline in fair market value from immediately before the casualty to immediately after, or the adjusted basis of the property",
+      "taxYear": 2026,
+      "source": "Reg. § 1.165-7(b)(1), opened at law.cornell.edu/cfr/text/26/1.165-7",
+      "verified": "2026-08-21"
+    },
+    "cas.total_destruction": {
+      "value": "where business or income-producing property is totally destroyed and its fair market value immediately before the casualty is less than its adjusted basis, the adjusted basis is treated as the amount of the loss",
+      "taxYear": 2026,
+      "source": "Reg. § 1.165-7(b)(1), closing sentence, opened at law.cornell.edu/cfr/text/26/1.165-7",
+      "verified": "2026-08-21"
+    },
+    "cas.single_identifiable": {
+      "value": "a business or profit-seeking loss is computed by reference to the single, identifiable property damaged or destroyed, so a building and the trees around it are measured separately — while for a personal residence the improvements are treated as an integral part of the property",
+      "taxYear": 2026,
+      "source": "Reg. § 1.165-7(b)(2)(i) and (ii), opened at law.cornell.edu/cfr/text/26/1.165-7",
+      "verified": "2026-08-21"
+    },
+    "cas.theft_year": {
+      "value": "a loss arising from theft is treated as sustained in the taxable year in which the taxpayer discovers it",
+      "taxYear": 2026,
+      "source": "IRC § 165(e), opened at law.cornell.edu/uscode/text/26/165",
+      "verified": "2026-08-21"
+    },
+    "cas.conversion_similar": {
+      "value": "where property is compulsorily or involuntarily converted, by destruction, theft, seizure, requisition or condemnation or the threat or imminence of one, into property similar or related in service or use, no gain is recognised at all",
+      "taxYear": 2026,
+      "source": "IRC § 1033(a)(1), opened at law.cornell.edu/uscode/text/26/1033",
+      "verified": "2026-08-21"
+    },
+    "cas.conversion_money": {
+      "value": "where the conversion is into money or into dissimilar property, gain is recognised only to the extent the amount realised exceeds the cost of replacement property purchased within the replacement period, and only if the taxpayer elects",
+      "taxYear": 2026,
+      "source": "IRC § 1033(a)(2)(A), opened at law.cornell.edu/uscode/text/26/1033",
+      "verified": "2026-08-21"
+    },
+    "cas.replacement_period": {
+      "value": "beginning on the date of disposition or the earliest date of the threat or imminence of requisition or condemnation, whichever is earlier, and ending 2 years after the close of the first taxable year in which any part of the gain is realised — or later if the Secretary designates on application",
+      "taxYear": 2026,
+      "source": "IRC § 1033(a)(2)(B), opened at law.cornell.edu/uscode/text/26/1033",
+      "verified": "2026-08-21"
+    },
+    "cas.condemnation_like_kind": {
+      "value": "on the condemnation of real property held for productive use in a trade or business or for investment, property of a like kind to be so held is treated as similar or related in service or use — a wider test than the ordinary one, and the replacement period is 3 years",
+      "taxYear": 2026,
+      "source": "IRC § 1033(g)(1) and (g)(4), opened at law.cornell.edu/uscode/text/26/1033",
+      "verified": "2026-08-21"
+    },
+    "cas.conversion_basis": {
+      "value": "the basis of replacement property purchased in a transaction that deferred gain is its cost decreased by the gain not recognised, allocated among several properties in proportion to their costs",
+      "taxYear": 2026,
+      "source": "IRC § 1033(b)(2), opened at law.cornell.edu/uscode/text/26/1033",
+      "verified": "2026-08-21"
     }
   }
 }
