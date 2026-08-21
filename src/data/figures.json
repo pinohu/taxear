@@ -10783,6 +10783,48 @@
       "taxYear": 2026,
       "source": "Effective date notes to IRC § 274, opened at law.cornell.edu/uscode/text/26/274",
       "verified": "2026-08-21"
+    },
+    "vehicle.mileage_authority": {
+      "value": "the Commissioner may establish a method under which a taxpayer uses mileage rates to determine the ordinary and necessary expenses of using a vehicle, in lieu of substantiating actual costs — but the taxpayer is not relieved of substantiating the business mileage of each use and the time and business purpose of it",
+      "taxYear": 2026,
+      "source": "Reg. § 1.274-5(j)(2), opened at law.cornell.edu/cfr/text/26/1.274-5",
+      "verified": "2026-08-21"
+    },
+    "vehicle.meal_rate_authority": {
+      "value": "the Commissioner may establish a specified amount for meals while travelling away from home in lieu of substantiating actual cost, but the taxpayer must still substantiate the actual cost of other travel expenses and the time, place and business purpose of the travel",
+      "taxYear": 2026,
+      "source": "Reg. § 1.274-5(j)(1), opened at law.cornell.edu/cfr/text/26/1.274-5",
+      "verified": "2026-08-21"
+    },
+    "vehicle.nonpersonal_exception": {
+      "value": "the IRC § 274(d) substantiation requirements do not apply to a qualified nonpersonal use vehicle",
+      "taxYear": 2026,
+      "source": "Reg. § 1.274-5(k)(1), opened at law.cornell.edu/cfr/text/26/1.274-5; IRC § 274(d), closing sentence",
+      "verified": "2026-08-21"
+    },
+    "vehicle.280F_caps": {
+      "value": "$10,000 for the first taxable year in the recovery period, $16,000 for the second, $9,600 for the third and $5,760 for each succeeding year — the statutory figures, which are adjusted for inflation and published annually",
+      "taxYear": 2026,
+      "source": "IRC § 280F(a)(1)(A), opened at law.cornell.edu/uscode/text/26/280F",
+      "verified": "2026-08-21"
+    },
+    "vehicle.280F_unrecovered": {
+      "value": "unrecovered basis is treated as an expense in the first taxable year after the recovery period, and any excess over that year's limitation carries to the succeeding year",
+      "taxYear": 2026,
+      "source": "IRC § 280F(a)(1)(B), opened at law.cornell.edu/uscode/text/26/280F",
+      "verified": "2026-08-21"
+    },
+    "vehicle.280F_fifty_percent": {
+      "value": "where listed property is not predominantly used in a qualified business use for a taxable year, depreciation for that year and every subsequent year is determined under the alternative depreciation system of IRC § 168(g)",
+      "taxYear": 2026,
+      "source": "IRC § 280F(b)(1), opened at law.cornell.edu/uscode/text/26/280F",
+      "verified": "2026-08-21"
+    },
+    "vehicle.280F_recapture": {
+      "value": "where the property was predominantly used in a qualified business use in the year placed in service but is not in a later year, the excess depreciation is included in gross income for that later year and the alternative depreciation system applies from then on",
+      "taxYear": 2026,
+      "source": "IRC § 280F(b)(2)(A), opened at law.cornell.edu/uscode/text/26/280F",
+      "verified": "2026-08-21"
     }
   }
 }

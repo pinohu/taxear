@@ -10,9 +10,9 @@ is indexed, and only the owner moves a page there (see `docs/VERIFICATION.md`).
 | Part | Topics | Stub | Draft | Review | Published | Words |
 |---|---:|---:|---:|---:|---:|---:|
 | 1. Individuals | 120 | 0 | 0 | 110 | 10 | 256,550 |
-| 2. Businesses | 119 | 65 | 0 | 54 | 0 | 125,495 |
+| 2. Businesses | 119 | 64 | 0 | 55 | 0 | 127,809 |
 | 3. Representation, Practices and Procedures | 121 | 0 | 0 | 0 | 121 | 257,674 |
-| **All parts** | **360** | **65** | **0** | **164** | **131** | **639,719** |
+| **All parts** | **360** | **64** | **0** | **165** | **131** | **642,033** |
 
 ## Part 1 — Individuals
 
@@ -302,7 +302,7 @@ is indexed, and only the owner moves a page there (see `docs/VERIFICATION.md`).
 | 2.2.2.c | [Depreciation, amortization (start-up and organizational cost), IRC Section 179, depletion, bonus depreciation, and correcting errors](/businesses/business-tax-preparation/business-expenses-deductions-and-credits/depreciation-amortization-start-up-and-organizational-cost/) | review | 2,318 | 2026-08-21 |
 | 2.2.2.d | [Business bad debts](/businesses/business-tax-preparation/business-expenses-deductions-and-credits/business-bad-debts/) | review | 2,227 | 2026-08-21 |
 | 2.2.2.e | [Business travel, meals, and gift expenses](/businesses/business-tax-preparation/business-expenses-deductions-and-credits/business-travel-meals-and-gift-expenses/) | review | 2,179 | 2026-08-21 |
-| 2.2.2.f | [Vehicle use and expenses](/businesses/business-tax-preparation/business-expenses-deductions-and-credits/vehicle-use-and-expenses/) | stub | — | — |
+| 2.2.2.f | [Vehicle use and expenses](/businesses/business-tax-preparation/business-expenses-deductions-and-credits/vehicle-use-and-expenses/) | review | 2,314 | 2026-08-21 |
 | 2.2.2.g | [Interest expense](/businesses/business-tax-preparation/business-expenses-deductions-and-credits/interest-expense/) | stub | — | — |
 | 2.2.2.h | [Insurance expense](/businesses/business-tax-preparation/business-expenses-deductions-and-credits/insurance-expense/) | stub | — | — |
 | 2.2.2.i | [Taxes (e.g., deductibility of taxes, assessments, penalties; proper treatment of sales taxes paid, excise)](/businesses/business-tax-preparation/business-expenses-deductions-and-credits/taxes/) | stub | — | — |
