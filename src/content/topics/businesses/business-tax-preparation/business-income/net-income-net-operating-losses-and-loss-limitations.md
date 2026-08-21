@@ -19,7 +19,7 @@ authorities:
   - { type: IRC, ref: "§ 752", title: "Treatment of certain liabilities", url: "https://www.law.cornell.edu/uscode/text/26/752" }
   - { type: RevProc, ref: "Rev. Proc. 2025-32", title: "Inflation adjusted items for 2026", url: "https://www.irs.gov/pub/irs-drop/rp-25-32.pdf" }
 forms: []
-related: ["2.2.1.a", "2.2.1.b", "2.2.1.d", "2.1.5.e", "2.1.2.e", "2.2.2.b"]
+related: ["2.2.1.a", "2.2.1.b", "2.2.1.d", "2.1.5.e", "2.1.2.e", "2.2.2.b", "2.2.2.g"]
 changelog:
   - { date: "2026-08-21", summary: "Initial draft. Sets out the four loss limitations in the order they apply — basis under IRC § 704(d) or IRC § 1366(d), amount at risk under IRC § 465, passive activity under IRC § 469, and excess business loss under IRC § 461(l) — with the IRC § 172 carryforward rules and the IRC § 172(a)(2) cap. Records that Pub. L. 119-21 § 70601(a) struck the expiry date from IRC § 461(l)(1), making the excess business loss limitation permanent, and that the rendered statutory text at LII is two amendments stale on that point." }
 ---

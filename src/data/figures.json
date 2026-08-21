@@ -10825,6 +10825,54 @@
       "taxYear": 2026,
       "source": "IRC § 280F(b)(2)(A), opened at law.cornell.edu/uscode/text/26/280F",
       "verified": "2026-08-21"
+    },
+    "bint.limit": {
+      "value": "the deduction for business interest may not exceed the sum of business interest income, 30 percent of adjusted taxable income (never less than zero), and floor plan financing interest",
+      "taxYear": 2026,
+      "source": "IRC § 163(j)(1), opened at law.cornell.edu/uscode/text/26/163",
+      "verified": "2026-08-21"
+    },
+    "bint.carryforward": {
+      "value": "business interest disallowed for a taxable year is treated as business interest paid or accrued in the succeeding taxable year, without limit",
+      "taxYear": 2026,
+      "source": "IRC § 163(j)(2), opened at law.cornell.edu/uscode/text/26/163",
+      "verified": "2026-08-21"
+    },
+    "bint.small_exemption": {
+      "value": "the limitation does not apply to a taxpayer, other than a tax shelter prohibited from using the cash method under IRC § 448(a)(3), that meets the IRC § 448(c) gross receipts test for the taxable year",
+      "taxYear": 2026,
+      "source": "IRC § 163(j)(3), opened at law.cornell.edu/uscode/text/26/163",
+      "verified": "2026-08-21"
+    },
+    "bint.ati": {
+      "value": "taxable income computed without any item not properly allocable to a trade or business, without business interest or business interest income, without the IRC § 172 net operating loss deduction, without the IRC § 199A deduction, without any deduction for depreciation, amortization or depletion, and without the IRC §§ 951(a), 951A(a) and 78 inclusions and their related deductions",
+      "taxYear": 2026,
+      "source": "IRC § 163(j)(8)(A), opened at law.cornell.edu/uscode/text/26/163",
+      "verified": "2026-08-21"
+    },
+    "bint.ebitda_restored": {
+      "value": "the add-back for depreciation, amortization and depletion is permanent again — Pub. L. 119-21 § 70303(a) struck the words confining IRC § 163(j)(8)(A)(v) to taxable years beginning before 2022, with effect for taxable years beginning after 31 December 2024",
+      "taxYear": 2026,
+      "source": "Amendment and effective date notes to IRC § 163, Pub. L. 119-21 § 70303(a) and (c), opened at law.cornell.edu/uscode/text/26/163",
+      "verified": "2026-08-21"
+    },
+    "bint.partnership": {
+      "value": "for a partnership the limitation is applied at the partnership level and the deduction enters non-separately stated income or loss, with the partners' own adjusted taxable income adjusted so that the same income is not counted twice",
+      "taxYear": 2026,
+      "source": "IRC § 163(j)(4)(A), opened at law.cornell.edu/uscode/text/26/163",
+      "verified": "2026-08-21"
+    },
+    "bint.capitalized_excluded": {
+      "value": "business interest does not include interest capitalized under IRC § 263(g) or § 263A(f), for taxable years beginning after 31 December 2025",
+      "taxYear": 2026,
+      "source": "IRC § 163(j)(5) as amended by Pub. L. 119-21 § 70341(b), with the effective date at § 70341(d); opened at law.cornell.edu/uscode/text/26/163",
+      "verified": "2026-08-21"
+    },
+    "bint.tracing": {
+      "value": "interest follows the use to which the borrowed funds are put, so a single loan is allocated among business, investment and personal expenditures and only the business share is a business interest expense",
+      "taxYear": 2026,
+      "source": "Reg. § 1.163-8T(a)(3) and (c)(1), opened at law.cornell.edu/cfr/text/26/1.163-8T",
+      "verified": "2026-08-21"
     }
   }
 }
