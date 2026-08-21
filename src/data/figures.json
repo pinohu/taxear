@@ -7549,6 +7549,42 @@
       "taxYear": 2026,
       "source": "31 U.S.C. § 5321, read at law.cornell.edu/uscode/text/31/5321, and IRS, Report of Foreign Bank and Financial Accounts (FBAR), irs.gov",
       "verified": "2026-08-21"
+    },
+    "distinct.who_8938": {
+      "value": "specified individuals — United States citizens, resident aliens and certain non-resident aliens — and specified domestic entities, being certain domestic corporations, partnerships and trusts",
+      "taxYear": 2026,
+      "source": "IRS, Comparison of Form 8938 and FBAR requirements (page last reviewed 18 September 2025), irs.gov/businesses/comparison-of-form-8938-and-fbar-requirements",
+      "verified": "2026-08-21"
+    },
+    "distinct.who_fbar": {
+      "value": "United States persons, including citizens, resident aliens, trusts, estates and domestic entities, with an interest in foreign financial accounts meeting the threshold",
+      "taxYear": 2026,
+      "source": "IRS, Comparison of Form 8938 and FBAR requirements (page last reviewed 18 September 2025), irs.gov/businesses/comparison-of-form-8938-and-fbar-requirements",
+      "verified": "2026-08-21"
+    },
+    "distinct.territories": {
+      "value": "United States territories are outside the United States for Form 8938 but inside it for the FBAR — resident aliens of the territories and territory entities are subject to FBAR reporting, which is the one place the two regimes disagree about what the country is",
+      "taxYear": 2026,
+      "source": "IRS, Comparison of Form 8938 and FBAR requirements (page last reviewed 18 September 2025), irs.gov/businesses/comparison-of-form-8938-and-fbar-requirements",
+      "verified": "2026-08-21"
+    },
+    "distinct.threshold_shape": {
+      "value": "Form 8938 uses four threshold pairs varying by filing status and residence, each with a last-day figure and an any-time figure; the FBAR uses one cumulative figure with no last-day test and no variation for status or residence",
+      "taxYear": 2026,
+      "source": "IRS, Comparison of Form 8938 and FBAR requirements (page last reviewed 18 September 2025), irs.gov/businesses/comparison-of-form-8938-and-fbar-requirements",
+      "verified": "2026-08-21"
+    },
+    "distinct.interest_test": {
+      "value": "an interest arises for Form 8938 where any income, gain, loss, deduction, credit, gross proceeds or distribution from the asset would be required to be reflected on the income tax return; for the FBAR it arises from being owner of record or holder of legal title, from that person being the filer's agent, from a sufficient interest in the entity that holds title, or from signature authority",
+      "taxYear": 2026,
+      "source": "IRS, Comparison of Form 8938 and FBAR requirements (page last reviewed 18 September 2025), irs.gov/businesses/comparison-of-form-8938-and-fbar-requirements",
+      "verified": "2026-08-21"
+    },
+    "distinct.no_substitution": {
+      "value": "neither filing satisfies the other — the same account can be reportable on both, on one, or on neither, and the two are administered by different agencies under different titles of the United States Code",
+      "taxYear": 2026,
+      "source": "IRS, Comparison of Form 8938 and FBAR requirements (page last reviewed 18 September 2025), irs.gov/businesses/comparison-of-form-8938-and-fbar-requirements",
+      "verified": "2026-08-21"
     }
   }
 }
