@@ -13171,6 +13171,42 @@
       "taxYear": 2026,
       "source": "IRC § 642(h), opened at law.cornell.edu/uscode/text/26/642",
       "verified": "2026-08-21"
+    },
+    "tf.estate_filing": {
+      "value": "an estate files where its gross income for the taxable year is $600 or more",
+      "taxYear": 2026,
+      "source": "IRC § 6012(a)(3), opened at law.cornell.edu/uscode/text/26/6012",
+      "verified": "2026-08-21"
+    },
+    "tf.trust_filing": {
+      "value": "a trust files where it has any taxable income for the year, or gross income of $600 or more regardless of the amount of taxable income",
+      "taxYear": 2026,
+      "source": "IRC § 6012(a)(4), opened at law.cornell.edu/uscode/text/26/6012",
+      "verified": "2026-08-21"
+    },
+    "tf.nra_beneficiary": {
+      "value": "an estate or trust any of whose beneficiaries is a non-resident alien must file regardless of income — the one trigger that has nothing to do with amounts",
+      "taxYear": 2026,
+      "source": "IRC § 6012(a)(5), opened at law.cornell.edu/uscode/text/26/6012",
+      "verified": "2026-08-21"
+    },
+    "tf.trust_year": {
+      "value": "the taxable year of any trust is the calendar year, except a trust exempt under IRC § 501(a) or described in IRC § 4947(a)(1) — while an estate may adopt any fiscal year ending within twelve months of death",
+      "taxYear": 2026,
+      "source": "IRC § 644(a) and (b), opened at law.cornell.edu/uscode/text/26/644",
+      "verified": "2026-08-21"
+    },
+    "tf.645_election": {
+      "value": "where the executor of an estate and the trustee of a qualified revocable trust both elect, the trust is treated and taxed as part of the estate rather than as a separate trust, for all taxable years of the estate ending after the date of death and before the applicable date",
+      "taxYear": 2026,
+      "source": "IRC § 645(a), opened at law.cornell.edu/uscode/text/26/645",
+      "verified": "2026-08-21"
+    },
+    "tf.estimated_exception": {
+      "value": "the estimated tax rules do not apply, for any taxable year ending before the date 2 years after the date of death, to the decedent’s estate or to a trust all of which was treated as owned by the decedent and which received the residue under the will — or, where there is no will, which is primarily responsible for paying debts, taxes and administration expenses",
+      "taxYear": 2026,
+      "source": "IRC § 6654(l)(2), opened at law.cornell.edu/uscode/text/26/6654",
+      "verified": "2026-08-21"
     }
   }
 }
