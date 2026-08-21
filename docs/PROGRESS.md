@@ -10,9 +10,9 @@ is indexed, and only the owner moves a page there (see `docs/VERIFICATION.md`).
 | Part | Topics | Stub | Draft | Review | Published | Words |
 |---|---:|---:|---:|---:|---:|---:|
 | 1. Individuals | 120 | 0 | 0 | 110 | 10 | 256,550 |
-| 2. Businesses | 119 | 7 | 0 | 112 | 0 | 262,392 |
+| 2. Businesses | 119 | 6 | 0 | 113 | 0 | 264,723 |
 | 3. Representation, Practices and Procedures | 121 | 0 | 0 | 0 | 121 | 257,674 |
-| **All parts** | **360** | **7** | **0** | **222** | **131** | **776,616** |
+| **All parts** | **360** | **6** | **0** | **223** | **131** | **778,947** |
 
 ## Part 1 — Individuals
 
@@ -397,7 +397,7 @@ is indexed, and only the owner moves a page there (see `docs/VERIFICATION.md`).
 | 2.3.4.b | [Depreciation for farmers](/businesses/specialized-returns-and-taxpayers/farmers/depreciation-for-farmers/) | review | 2,247 | 2026-08-21 |
 | 2.3.4.c | [Disaster-area provisions (drought, flood, other weather-related conditions)](/businesses/specialized-returns-and-taxpayers/farmers/disaster-area-provisions-drought-flood-other-weather-related/) | review | 2,299 | 2026-08-21 |
 | 2.3.4.d | [Farm rental](/businesses/specialized-returns-and-taxpayers/farmers/farm-rental/) | review | 2,248 | 2026-08-21 |
-| 2.3.4.e | [Farm tax computation (e.g., Schedule J, Schedule SE, estimated tax)](/businesses/specialized-returns-and-taxpayers/farmers/farm-tax-computation/) | stub | — | — |
+| 2.3.4.e | [Farm tax computation (e.g., Schedule J, Schedule SE, estimated tax)](/businesses/specialized-returns-and-taxpayers/farmers/farm-tax-computation/) | review | 2,331 | 2026-08-21 |
 
 **2.3.5 Rental Property**
 

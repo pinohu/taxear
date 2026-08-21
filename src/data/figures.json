@@ -14527,6 +14527,48 @@
       "taxYear": 2026,
       "source": "Treas. Reg. § 1.61-4(a), read at law.cornell.edu/cfr/text/26/1.61-4",
       "verified": "2026-08-21"
+    },
+    "fc.farmer_defined": {
+      "value": "an individual is a farmer or fisherman for a taxable year if gross income from farming or fishing, including oyster farming, is at least 66⅔ percent of total gross income from all sources for that year, or if the gross income from farming or fishing shown on the preceding year’s return is at least 66⅔ percent of total gross income shown on that return (IRC § 6654(i)(2))",
+      "taxYear": 2026,
+      "source": "IRC § 6654(i), read at law.cornell.edu/uscode/text/26/6654",
+      "verified": "2026-08-21"
+    },
+    "fc.one_installment": {
+      "value": "a farmer or fisherman has only one required estimated tax installment for the year, due 15 January of the following year, in an amount equal to the required annual payment under IRC § 6654(d)(1)(B) computed by substituting 66⅔ percent for 90 percent and disregarding the prior-year safe harbour of IRC § 6654(d)(1)(C) (IRC § 6654(i)(1)(A)-(C))",
+      "taxYear": 2026,
+      "source": "IRC § 6654(i), read at law.cornell.edu/uscode/text/26/6654",
+      "verified": "2026-08-21"
+    },
+    "fc.march_1": {
+      "value": "the general rule at IRC § 6654(h) — that no addition to tax arises on the fourth required installment where the taxpayer files the return and pays in full by 31 January of the following year — is applied for a farmer or fisherman by substituting 1 March for 31 January, treating the single installment as the fourth (IRC § 6654(i)(1)(D))",
+      "taxYear": 2026,
+      "source": "IRC § 6654(i), read at law.cornell.edu/uscode/text/26/6654",
+      "verified": "2026-08-21"
+    },
+    "fc.no_prior_year_safe_harbour": {
+      "value": "the ordinary prior-year safe harbour of IRC § 6654(d)(1)(C), which lets a taxpayer pay 100 or 110 percent of last year’s tax, is expressly disregarded for a farmer or fisherman — the single installment is measured against 66⅔ percent of the current year’s tax (IRC § 6654(i)(1)(C))",
+      "taxYear": 2026,
+      "source": "IRC § 6654(i), read at law.cornell.edu/uscode/text/26/6654",
+      "verified": "2026-08-21"
+    },
+    "fc.1301": {
+      "value": "an individual engaged in a farming or fishing business may elect to compute the IRC § 1 tax as the sum of the tax on taxable income reduced by elected farm income, plus the increase in tax that would result if taxable income for each of the 3 prior years were increased by one third of the elected farm income; an adjustment for one year is taken into account in applying the section in later years (IRC § 1301(a))",
+      "taxYear": 2026,
+      "source": "IRC § 1301, read at law.cornell.edu/uscode/text/26/1301",
+      "verified": "2026-08-21"
+    },
+    "fc.1301_elected": {
+      "value": "elected farm income is so much of the year’s taxable income as is attributable to a farming or fishing business and is specified in the election; gain from the sale or other disposition of property other than land, regularly used in that business for a substantial period, is treated as attributable to it (IRC § 1301(b)(1))",
+      "taxYear": 2026,
+      "source": "IRC § 1301, read at law.cornell.edu/uscode/text/26/1301",
+      "verified": "2026-08-21"
+    },
+    "fc.1301_limits": {
+      "value": "individual for this purpose excludes an estate or trust; farming business takes its IRC § 263A(e)(4) meaning; and fishing business means commercial fishing as defined in the Magnuson-Stevens Fishery Conservation and Management Act (IRC § 1301(b)(2)-(4))",
+      "taxYear": 2026,
+      "source": "IRC § 1301, read at law.cornell.edu/uscode/text/26/1301",
+      "verified": "2026-08-21"
     }
   }
 }
