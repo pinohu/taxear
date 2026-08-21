@@ -13981,6 +13981,96 @@
       "taxYear": 2026,
       "source": "IRC § 404(a)(8), read at law.cornell.edu/uscode/text/26/404",
       "verified": "2026-08-21"
+    },
+    "pt.six": {
+      "value": "a prohibited transaction is any direct or indirect sale, exchange or lease of property between a plan and a disqualified person; lending of money or any other extension of credit between them; furnishing of goods, services or facilities between them; transfer to, or use by or for the benefit of, a disqualified person of plan income or assets; an act by a fiduciary dealing with plan income or assets in the fiduciary’s own interest or for the fiduciary’s own account; or receipt of consideration for a fiduciary’s own personal account from any party dealing with the plan in connection with a transaction involving plan income or assets (IRC § 4975(c)(1))",
+      "taxYear": 2026,
+      "source": "IRC § 4975, read at law.cornell.edu/uscode/text/26/4975",
+      "verified": "2026-08-21"
+    },
+    "pt.disqualified": {
+      "value": "a disqualified person is a fiduciary; a person providing services to the plan; an employer any of whose employees are covered; an employee organisation any of whose members are covered; a direct or indirect owner of 50 percent or more of the voting power or value of such an employer’s stock, of its capital or profits interest, or of its beneficial interest; a member of the family of any of those individuals; and a corporation, partnership, trust or estate 50 percent or more of which is owned by them, along with officers, directors, 10 percent or more shareholders and highly compensated employees of such an entity (IRC § 4975(e)(2))",
+      "taxYear": 2026,
+      "source": "IRC § 4975, read at law.cornell.edu/uscode/text/26/4975",
+      "verified": "2026-08-21"
+    },
+    "pt.family": {
+      "value": "family for this purpose means an individual’s spouse, ancestor, lineal descendant and any spouse of a lineal descendant — notably not siblings (IRC § 4975(e)(6))",
+      "taxYear": 2026,
+      "source": "IRC § 4975, read at law.cornell.edu/uscode/text/26/4975",
+      "verified": "2026-08-21"
+    },
+    "pt.initial_tax": {
+      "value": "the initial tax is 15 percent of the amount involved for each year or part of a year in the taxable period, payable by any disqualified person who participates in the transaction other than a fiduciary acting only as such (IRC § 4975(a))",
+      "taxYear": 2026,
+      "source": "IRC § 4975, read at law.cornell.edu/uscode/text/26/4975",
+      "verified": "2026-08-21"
+    },
+    "pt.additional_tax": {
+      "value": "where the transaction is not corrected within the taxable period, a further tax of 100 percent of the amount involved is imposed on the same persons (IRC § 4975(b))",
+      "taxYear": 2026,
+      "source": "IRC § 4975, read at law.cornell.edu/uscode/text/26/4975",
+      "verified": "2026-08-21"
+    },
+    "pt.joint_liability": {
+      "value": "where more than one person is liable with respect to one prohibited transaction, all are jointly and severally liable (IRC § 4975(f)(1))",
+      "taxYear": 2026,
+      "source": "IRC § 4975, read at law.cornell.edu/uscode/text/26/4975",
+      "verified": "2026-08-21"
+    },
+    "pt.taxable_period": {
+      "value": "the taxable period begins on the date the prohibited transaction occurs and ends on the earliest of the mailing of a notice of deficiency for the initial tax, the assessment of that tax, or the completion of correction (IRC § 4975(f)(2))",
+      "taxYear": 2026,
+      "source": "IRC § 4975, read at law.cornell.edu/uscode/text/26/4975",
+      "verified": "2026-08-21"
+    },
+    "pt.amount_involved": {
+      "value": "the amount involved is the greater of the money and fair market value of property given or the money and fair market value of property received, except that for the services and shared-office exemptions only the excess compensation counts; for the initial tax, value is measured on the date of the transaction, and for the additional tax it is the highest value during the taxable period (IRC § 4975(f)(4))",
+      "taxYear": 2026,
+      "source": "IRC § 4975, read at law.cornell.edu/uscode/text/26/4975",
+      "verified": "2026-08-21"
+    },
+    "pt.correction": {
+      "value": "correction means undoing the transaction to the extent possible and in any case placing the plan in a financial position no worse than it would occupy had the disqualified person acted under the highest fiduciary standards (IRC § 4975(f)(5))",
+      "taxYear": 2026,
+      "source": "IRC § 4975, read at law.cornell.edu/uscode/text/26/4975",
+      "verified": "2026-08-21"
+    },
+    "pt.encumbered": {
+      "value": "a transfer of real or personal property by a disqualified person to a plan is treated as a sale or exchange if the property is subject to a mortgage or similar lien that the plan assumes, or that a disqualified person placed on the property within the 10-year period ending on the date of transfer (IRC § 4975(f)(3))",
+      "taxYear": 2026,
+      "source": "IRC § 4975, read at law.cornell.edu/uscode/text/26/4975",
+      "verified": "2026-08-21"
+    },
+    "pt.exempt_loan": {
+      "value": "a plan loan to a participant or beneficiary who is a disqualified person is exempt if it is available to all participants and beneficiaries on a reasonably equivalent basis, is not made available to highly compensated employees in a greater amount than to other employees, is made in accordance with specific plan provisions, bears a reasonable rate of interest, and is adequately secured (IRC § 4975(d)(1))",
+      "taxYear": 2026,
+      "source": "IRC § 4975, read at law.cornell.edu/uscode/text/26/4975",
+      "verified": "2026-08-21"
+    },
+    "pt.exempt_services": {
+      "value": "a contract or reasonable arrangement with a disqualified person for office space, or for legal, accounting or other services necessary to establish or operate the plan, is exempt if no more than reasonable compensation is paid (IRC § 4975(d)(2))",
+      "taxYear": 2026,
+      "source": "IRC § 4975, read at law.cornell.edu/uscode/text/26/4975",
+      "verified": "2026-08-21"
+    },
+    "pt.owner_employee": {
+      "value": "the statutory exemptions, including the participant loan exemption, do not apply to a transaction with an owner-employee as defined in IRC § 401(c)(3), or with related persons and entities — which is why a sole proprietor or more-than-10-percent partner cannot borrow from the plan (IRC § 4975(f)(6))",
+      "taxYear": 2026,
+      "source": "IRC § 4975, read at law.cornell.edu/uscode/text/26/4975",
+      "verified": "2026-08-21"
+    },
+    "pt.exemption_procedure": {
+      "value": "the Secretary must maintain an exemption procedure and may grant conditional or unconditional exemptions after consulting the Secretary of Labor, only on findings that the exemption is administratively feasible, in the interests of the plan and its participants and beneficiaries, and protective of their rights, with notice to interested persons and publication in the Federal Register (IRC § 4975(c)(2))",
+      "taxYear": 2026,
+      "source": "IRC § 4975, read at law.cornell.edu/uscode/text/26/4975",
+      "verified": "2026-08-21"
+    },
+    "pt.ira_consequence": {
+      "value": "where the individual for whose benefit an individual retirement account is established, or that individual’s beneficiary, engages in a transaction prohibited by IRC § 4975 with respect to the account, the account ceases to be an individual retirement account as of the first day of that taxable year and is treated as distributing all its assets — so the whole balance is taxed at once rather than an excise tax being imposed (IRC § 408(e)(2))",
+      "taxYear": 2026,
+      "source": "IRC § 408(e)(2), read at law.cornell.edu/uscode/text/26/408",
+      "verified": "2026-08-21"
     }
   }
 }

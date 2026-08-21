@@ -14,7 +14,7 @@ authorities:
   - { type: IRC, ref: "§ 408", title: "Individual retirement accounts", url: "https://www.law.cornell.edu/uscode/text/26/408" }
   - { type: IRC, ref: "§ 4975", title: "Tax on prohibited transactions", url: "https://www.law.cornell.edu/uscode/text/26/4975" }
 forms: []
-related: ["1.2.2.e", "1.2.2.a", "1.2.2.d", "1.2.2.c", "1.2.2.i"]
+related: ["1.2.2.e", "1.2.2.a", "1.2.2.d", "1.2.2.c", "1.2.2.i", "2.3.3.d"]
 changelog:
   - { date: "2026-08-19", summary: "Initial draft. Sets out the six IRC § 4975(c)(1) categories, the IRC § 4975(e)(2) definition of a disqualified person, the two-tier excise tax, and the very different IRC § 408(e)(2) consequence for an IRA together with the narrower IRC § 408(e)(4) pledge rule." }
 ---

@@ -24,7 +24,7 @@ authorities:
   - { type: IRC, ref: "§ 402A", title: "Optional treatment of elective deferrals as Roth contributions", url: "https://www.law.cornell.edu/uscode/text/26/402A" }
   - { type: Notice, ref: "2025-67", title: "2026 amounts relating to retirement plans and IRAs, as adjusted for changes in cost-of-living", url: "https://www.irs.gov/pub/irs-drop/n-25-67.pdf" }
 forms: []
-related: ["2.3.3.c", "2.3.3.e", "2.3.3.f", "2.3.3.b"]
+related: ["2.3.3.c", "2.3.3.e", "2.3.3.f", "2.3.3.b", "2.3.3.d"]
 changelog:
   - { date: "2026-08-21", summary: "Initial draft. Separates the IRC § 402(g) elective deferral limit, which follows the individual across every employer, from the IRC § 415(c) annual additions limit, which applies per employer, and sets both against the IRC § 401(a)(17) compensation cap and the IRC § 404 employer deduction ceiling. Carries the 2026 amounts from Notice 2025-67, including the IRC § 414(v)(7) Roth catch-up wage threshold of $150,000 of 2025 wages." }
 ---
