@@ -21,7 +21,7 @@ authorities:
   - { type: Reg, ref: "§ 1.1367-1", title: "Adjustments to basis of shareholder's stock", url: "https://www.law.cornell.edu/cfr/text/26/1.1367-1" }
   - { type: Reg, ref: "§ 1.1367-2", title: "Adjustments to basis of indebtedness to shareholder", url: "https://www.law.cornell.edu/cfr/text/26/1.1367-2" }
 forms: []
-related: ["2.1.5.c", "2.1.5.d", "2.1.5.g", "2.1.2.e", "2.1.5.a", "2.1.5.h", "2.2.1.c"]
+related: ["2.1.5.c", "2.1.5.d", "2.1.5.g", "2.1.2.e", "2.1.5.a", "2.1.5.h", "2.2.1.c", "2.2.4.i"]
 changelog:
   - { date: "2026-08-21", summary: "Initial draft. Sets out the IRC § 1367(a) increases and decreases with the Reg. § 1.1367-1(f) ordering and the Reg. § 1.1367-1(g) elective ordering, the IRC § 1366(d) loss limitation and its indefinite carryover, the reduction and restoration of debt basis under IRC § 1367(b)(2) and Reg. § 1.1367-2, the Reg. § 1.1366-2(a)(2) bona fide indebtedness test and the rule that a guarantee creates no basis, the open account debt threshold, and the starting basis of stock taken for services under IRC § 83(a) or inherited under IRC § 1014 as modified by IRC § 1367(a)(4)." }
 ---

@@ -12259,6 +12259,66 @@
       "taxYear": 2026,
       "source": "IRC § 7872(a), opened at law.cornell.edu/uscode/text/26/7872",
       "verified": "2026-08-21"
+    },
+    "loan.below_market": {
+      "value": "a loan is below-market if, on a demand loan, interest is payable at less than the applicable federal rate, or, on a term loan, the amount loaned exceeds the present value of all payments due under it",
+      "taxYear": 2026,
+      "source": "IRC § 7872(e)(1), opened at law.cornell.edu/uscode/text/26/7872",
+      "verified": "2026-08-21"
+    },
+    "loan.forgone_interest": {
+      "value": "forgone interest is the interest that would have been payable had it accrued at the applicable federal rate and been payable annually, over any interest actually payable and properly allocable to the period",
+      "taxYear": 2026,
+      "source": "IRC § 7872(e)(2), opened at law.cornell.edu/uscode/text/26/7872",
+      "verified": "2026-08-21"
+    },
+    "loan.categories": {
+      "value": "the section reaches gift loans, compensation-related loans between employer and employee or between an independent contractor and the person served, corporation-shareholder loans in either direction, tax avoidance loans, loans to qualified continuing care facilities, and to the extent regulations provide, any other below-market loan whose interest arrangements have a significant effect on federal tax liability",
+      "taxYear": 2026,
+      "source": "IRC § 7872(c)(1), opened at law.cornell.edu/uscode/text/26/7872",
+      "verified": "2026-08-21"
+    },
+    "loan.de_minimis": {
+      "value": "$10,000 — the section does not apply to any day on which the aggregate outstanding loans between the borrower and lender do not exceed that figure, for compensation-related and corporation-shareholder loans alike, unless a principal purpose of the interest arrangements is the avoidance of federal tax",
+      "taxYear": 2026,
+      "source": "IRC § 7872(c)(3), opened at law.cornell.edu/uscode/text/26/7872",
+      "verified": "2026-08-21"
+    },
+    "loan.gift_de_minimis": {
+      "value": "$10,000 for a gift loan directly between individuals, measured the same way — but unavailable where the loan is directly attributable to the purchase or carrying of income-producing assets",
+      "taxYear": 2026,
+      "source": "IRC § 7872(c)(2), opened at law.cornell.edu/uscode/text/26/7872",
+      "verified": "2026-08-21"
+    },
+    "loan.gift_100k": {
+      "value": "on a gift loan directly between individuals not exceeding $100,000, the amount treated as retransferred to the lender as interest at the close of a year may not exceed the borrower’s net investment income for that year — unless a principal purpose of the interest arrangements is tax avoidance",
+      "taxYear": 2026,
+      "source": "IRC § 7872(d)(1), opened at law.cornell.edu/uscode/text/26/7872",
+      "verified": "2026-08-21"
+    },
+    "loan.debt_basis_reduction": {
+      "value": "where losses, deductions, noncapital nondeductible expenses and the specified depletion deductions exceed stock basis, the excess reduces, but not below zero, the basis of any indebtedness of the S corporation to the shareholder held at the close of the corporation’s taxable year",
+      "taxYear": 2026,
+      "source": "IRC § 1367(b)(2)(A), opened at law.cornell.edu/uscode/text/26/1367; Reg. § 1.1367-2(b)(1), opened at law.cornell.edu/cfr/text/26/1.1367-2",
+      "verified": "2026-08-21"
+    },
+    "loan.debt_basis_restore": {
+      "value": "a later net increase must restore any reduced debt basis before it may increase stock basis — and it restores first the basis in indebtedness repaid during the year, to the extent needed to offset gain that would otherwise arise on the repayment, then each outstanding debt in proportion to its unrestored reduction",
+      "taxYear": 2026,
+      "source": "IRC § 1367(b)(2)(B), opened at law.cornell.edu/uscode/text/26/1367; Reg. § 1.1367-2(c), opened at law.cornell.edu/cfr/text/26/1.1367-2",
+      "verified": "2026-08-21"
+    },
+    "loan.not_held_at_close": {
+      "value": "indebtedness satisfied by the corporation, or disposed of or forgiven by the shareholder, during the year is not held at the close of that year and is not subject to basis reduction at all",
+      "taxYear": 2026,
+      "source": "Reg. § 1.1367-2(b)(1), opened at law.cornell.edu/cfr/text/26/1.1367-2",
+      "verified": "2026-08-21"
+    },
+    "loan.open_account": {
+      "value": "open account debt means shareholder advances not evidenced by separate written instruments, and repayments on them, whose aggregate outstanding principal does not exceed $25,000 at the close of the corporation’s taxable year — netted as a single indebtedness rather than tracked advance by advance",
+      "taxYear": 2026,
+      "source": "Reg. § 1.1367-2(a)(2)(i), opened at law.cornell.edu/cfr/text/26/1.1367-2",
+      "verified": "2026-08-21"
     }
   }
 }
