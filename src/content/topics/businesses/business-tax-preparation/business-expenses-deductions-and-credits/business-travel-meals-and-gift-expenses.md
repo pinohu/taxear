@@ -22,7 +22,7 @@ authorities:
   - { type: IRC, ref: "§ 119", title: "Meals or lodging furnished for the convenience of the employer", url: "https://www.law.cornell.edu/uscode/text/26/119" }
   - { type: IRC, ref: "§ 132(e)", title: "De minimis fringe defined", url: "https://www.law.cornell.edu/uscode/text/26/132" }
 forms: []
-related: ["2.2.2.a", "2.2.2.f", "2.2.2.c", "2.2.1.a", "2.2.2.b"]
+related: ["2.2.2.a", "2.2.2.f", "2.2.2.c", "2.2.1.a", "2.2.2.b", "2.2.5.c"]
 changelog:
   - { date: "2026-08-21", summary: "Initial draft. Sets out the IRC § 162(a)(2) travel deduction with the one-year rule that ends temporary status, the IRC § 274(a) disallowance of entertainment and club dues, the two IRC § 274(k) conditions on food and beverages and the IRC § 274(n) halving that follows, the IRC § 274(b) gift limit with its two exclusions and the partnership rule, and the IRC § 274(d) substantiation requirement. Records that IRC § 274(o) first bites in 2026: Pub. L. 115-97 § 13304(e)(2) applied it to amounts incurred or paid after 31 December 2025." }
   - { date: "2026-08-21", summary: "Adds the per diem substantiation rates from Notice 2025-54, opened at source today — the high-low rates and the meal portions of each, the federal per diem figure at which a locality becomes high-cost, the special transportation industry rates, and the incidental-expenses-only rate. Records that per diem substitutes for the amount only, leaving time, place and business purpose to be proved, and that the rates change on 1 October rather than 1 January." }

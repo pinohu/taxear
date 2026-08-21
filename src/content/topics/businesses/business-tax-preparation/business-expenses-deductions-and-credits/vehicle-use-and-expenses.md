@@ -22,7 +22,7 @@ authorities:
   - { type: IRC, ref: "§ 3121(d)", title: "Employee defined", url: "https://www.law.cornell.edu/uscode/text/26/3121" }
   - { type: Reg, ref: "§ 1.274-5", title: "Substantiation requirements", url: "https://www.law.cornell.edu/cfr/text/26/1.274-5" }
 forms: []
-related: ["2.2.2.e", "2.2.2.c", "2.2.2.a", "2.2.2.b", "2.2.2.h", "2.2.4.e"]
+related: ["2.2.2.e", "2.2.2.c", "2.2.2.a", "2.2.2.b", "2.2.2.h", "2.2.4.e", "2.2.5.c"]
 changelog:
   - { date: "2026-08-21", summary: "Initial draft. Sets out the choice between actual expenses and the optional mileage method authorised by Reg. § 1.274-5(j)(2), what the mileage rate subsumes, the IRC § 280F(a) caps on depreciation of a passenger automobile with the treatment of unrecovered basis, and the IRC § 280F(b) rule that drops listed property to the alternative depreciation system and recaptures excess depreciation when qualified business use falls to half or less. The current-year figures are stated: the 2026 mileage rates and basis reduction from Notice 2026-10 and the 2026 IRC § 280F(a) limitation tables and lease inclusion figure from Rev. Proc. 2026-15." }
   - { date: "2026-08-21", summary: "Adds the 2026 annual figures, both opened at source today. Notice 2026-10 supplies the business, charitable and medical mileage rates, the portion of each business mile treated as depreciation, and the maximum standard automobile cost for a fixed and variable rate plan. Rev. Proc. 2026-15 supplies both IRC § 280F(a) limitation tables for automobiles placed in service in 2026 and the fair market value at which the lease inclusion table begins, and records that the two tables now differ only in the first year and only by the fixed IRC § 168(k)(2)(F)(i) amount." }

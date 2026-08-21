@@ -12439,6 +12439,72 @@
       "taxYear": 2026,
       "source": "IRC § 6656(b)(1)(B), opened at law.cornell.edu/uscode/text/26/6656",
       "verified": "2026-08-21"
+    },
+    "rec.accountable_three": {
+      "value": "an arrangement is an accountable plan only if it meets all three requirements — business connection, substantiation to the payor, and the return of amounts in excess of substantiated expenses — and failing any one of them makes the whole arrangement a nonaccountable plan",
+      "taxYear": 2026,
+      "source": "Reg. § 1.62-2(c)(2)(i) and (c)(3)(i), opened at law.cornell.edu/cfr/text/26/1.62-2",
+      "verified": "2026-08-21"
+    },
+    "rec.business_connection": {
+      "value": "the arrangement must provide advances, allowances or reimbursements only for business expenses allowable as deductions and paid or incurred by the employee in performing services as an employee — payment may come from the employer, its agent, or a third party for whom the employee performs the services",
+      "taxYear": 2026,
+      "source": "Reg. § 1.62-2(d)(1), opened at law.cornell.edu/cfr/text/26/1.62-2",
+      "verified": "2026-08-21"
+    },
+    "rec.substantiation_to_payor": {
+      "value": "each expense must be substantiated to the payor within a reasonable period; for travel, entertainment, a passenger automobile or other listed property, information sufficient to satisfy IRC § 274(d) itself must be submitted to the payor, not merely retained by the employee",
+      "taxYear": 2026,
+      "source": "Reg. § 1.62-2(e)(1) and (e)(2), opened at law.cornell.edu/cfr/text/26/1.62-2",
+      "verified": "2026-08-21"
+    },
+    "rec.fixed_date_safe_harbor": {
+      "value": "an advance made within 30 days of when an expense is paid or incurred, an expense substantiated within 60 days after it is paid or incurred, and an amount returned within 120 days after it is paid or incurred are each treated as occurring within a reasonable period of time",
+      "taxYear": 2026,
+      "source": "Reg. § 1.62-2(g)(2)(i), opened at law.cornell.edu/cfr/text/26/1.62-2",
+      "verified": "2026-08-21"
+    },
+    "rec.periodic_safe_harbor": {
+      "value": "alternatively, where the payor gives employees a statement no less often than quarterly showing amounts paid in excess of substantiated expenses and asking for substantiation or return within 120 days of the statement, action within that period is timely",
+      "taxYear": 2026,
+      "source": "Reg. § 1.62-2(g)(2)(ii), opened at law.cornell.edu/cfr/text/26/1.62-2",
+      "verified": "2026-08-21"
+    },
+    "rec.partial_failure": {
+      "value": "where the arrangement itself qualifies but the employee fails to return an excess within a reasonable period, only the amounts not in excess of the substantiated expenses are treated as paid under an accountable plan — the rest becomes wages",
+      "taxYear": 2026,
+      "source": "Reg. § 1.62-2(c)(2)(ii), opened at law.cornell.edu/cfr/text/26/1.62-2",
+      "verified": "2026-08-21"
+    },
+    "rec.no_voluntary_fix": {
+      "value": "an employee paid under a nonaccountable plan cannot compel the payor to treat the payments as accountable by voluntarily substantiating the expenses — the arrangement’s character is fixed by the arrangement, not by the employee’s conduct",
+      "taxYear": 2026,
+      "source": "Reg. § 1.62-2(c)(3)(i), opened at law.cornell.edu/cfr/text/26/1.62-2",
+      "verified": "2026-08-21"
+    },
+    "rec.adequate_records": {
+      "value": "adequate records means an account book, diary, log, statement of expense, trip sheet or similar record together with documentary evidence which, in combination, establish every required element — the two complementing each other rather than duplicating",
+      "taxYear": 2026,
+      "source": "Reg. § 1.274-5T(c)(2)(i), opened at law.cornell.edu/cfr/text/26/1.274-5T",
+      "verified": "2026-08-21"
+    },
+    "rec.contemporaneous": {
+      "value": "each element must be recorded at or near the time of the expenditure or use, meaning at a time when the taxpayer has full present knowledge of the amount, time, place, business purpose and business relationship",
+      "taxYear": 2026,
+      "source": "Reg. § 1.274-5T(c)(2)(ii)(A), opened at law.cornell.edu/cfr/text/26/1.274-5T",
+      "verified": "2026-08-21"
+    },
+    "rec.other_evidence": {
+      "value": "a taxpayer who cannot show substantial compliance with the adequate records requirement must establish each element by their own written or oral statement containing specific detail *and* by other corroborative evidence — direct evidence where the element is a gift description, cost, amount, time, place or date",
+      "taxYear": 2026,
+      "source": "Reg. § 1.274-5T(c)(3)(i), opened at law.cornell.edu/cfr/text/26/1.274-5T",
+      "verified": "2026-08-21"
+    },
+    "rec.travel_elements": {
+      "value": "for travel away from home the elements are the amount of each separate expenditure, the dates of departure and return with the number of days away on business, the destination by name, and the business reason or benefit expected",
+      "taxYear": 2026,
+      "source": "Reg. § 1.274-5T(b)(2), opened at law.cornell.edu/cfr/text/26/1.274-5T",
+      "verified": "2026-08-21"
     }
   }
 }

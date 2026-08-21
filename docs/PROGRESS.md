@@ -10,9 +10,9 @@ is indexed, and only the owner moves a page there (see `docs/VERIFICATION.md`).
 | Part | Topics | Stub | Draft | Review | Published | Words |
 |---|---:|---:|---:|---:|---:|---:|
 | 1. Individuals | 120 | 0 | 0 | 110 | 10 | 256,550 |
-| 2. Businesses | 119 | 39 | 0 | 80 | 0 | 187,929 |
+| 2. Businesses | 119 | 38 | 0 | 81 | 0 | 190,210 |
 | 3. Representation, Practices and Procedures | 121 | 0 | 0 | 0 | 121 | 257,674 |
-| **All parts** | **360** | **39** | **0** | **190** | **131** | **702,153** |
+| **All parts** | **360** | **38** | **0** | **191** | **131** | **704,434** |
 
 ## Part 1 — Individuals
 
@@ -343,7 +343,7 @@ is indexed, and only the owner moves a page there (see `docs/VERIFICATION.md`).
 |---|---|---|---:|---|
 | 2.2.5.a | [Reporting and filing obligations (e.g., extended returns and potential penalties, international information returns, Form 1099 series, Form 8300)](/businesses/business-tax-preparation/advising-the-business-taxpayer/reporting-and-filing-obligations/) | review | 2,172 | 2026-08-21 |
 | 2.2.5.b | [Payments and deposit obligations (e.g., employment tax, excise tax)](/businesses/business-tax-preparation/advising-the-business-taxpayer/payments-and-deposit-obligations/) | review | 2,267 | 2026-08-21 |
-| 2.2.5.c | [Record-keeping requirements (e.g., mileage log, accountable plans)](/businesses/business-tax-preparation/advising-the-business-taxpayer/record-keeping-requirements/) | stub | — | — |
+| 2.2.5.c | [Record-keeping requirements (e.g., mileage log, accountable plans)](/businesses/business-tax-preparation/advising-the-business-taxpayer/record-keeping-requirements/) | review | 2,281 | 2026-08-21 |
 | 2.2.5.d | [Related party transactions](/businesses/business-tax-preparation/advising-the-business-taxpayer/related-party-transactions/) | stub | — | — |
 | 2.2.5.e | [Selection of business entity (e.g., benefits and detriments)](/businesses/business-tax-preparation/advising-the-business-taxpayer/selection-of-business-entity/) | stub | — | — |
 | 2.2.5.f | [Comingling (e.g., personal usage of business accounts, separation of business and personal accounts)](/businesses/business-tax-preparation/advising-the-business-taxpayer/comingling/) | stub | — | — |
