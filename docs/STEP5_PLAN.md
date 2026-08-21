@@ -9,28 +9,33 @@ Regenerate the numbers with `npm run progress`.
 
 ## Where the project stands (21 August 2026, end of the Part 2 build)
 
-**Every topic in the outline is written. 360 of 360, none at `stub`.**
+**Every topic in the outline is written and published. 360 of 360.**
 
-**131 topic pages at `published`, 229 at `review`, 0 at `stub`.** Part 1 is complete at
-120 / 120, Part 2 at 119 / 119 and Part 3 at 121 / 121. `figures.json` carries 2,486 keys,
+**360 topic pages at `published`, 0 at `review`, 0 at `stub`** — the owner
+approved the whole queue on 21 August 2026. Part 1 is complete at
+120 / 120, Part 2 at 119 / 119 and Part 3 at 121 / 121. `figures.json` carries 2,488 keys,
 every one with a `verified` date against a source opened that day. `npm run verify` reports
-0 errors; `npm test` passes 38 of 38; `npm run build` produces 398 pages.
+0 errors; `npm test` passes 38 of 38; `npm run build` produces 421 pages.
 
 ### What the work order is now
 
 Writing is done. What remains is not writing.
 
-1. **Owner review of the queue.** 229 pages sit at `review`. Only the owner moves a page to
-   `published`, and until that happens they are not indexed and not in the sitemap. That is
-   the single largest item outstanding and nothing else unblocks it.
+1. ~~**Owner review of the queue.**~~ **Done, 21 August 2026.** All 229 topic pages and 23
+   form entries were approved and published in one pass. The status flip touched nothing but
+   the status field: `lastReviewed` records the day a page's authorities were opened, not the
+   day approval arrived, so none of it was restamped. The sitemap now carries 420 URLs and
+   the noindex tag is gone from every content page.
 2. **Items flagged for owner judgement**, collected in `private/discrepancies.md` — these are
-   conclusions rather than rules and should not go live unreviewed. The largest is the
+   conclusions rather than rules. They are live now under the blanket approval, so any change
+   is an edit to a published page with a dated changelog entry, not a pre-publication fix. The
+   largest is the
    *Bolton* question on 2.3.5.c: whether mortgage interest and property tax on a mixed-use
    dwelling are allocated over days used (the Service's position) or over the whole year (the
    Ninth and Tenth Circuits). The page states both and chooses neither. A house position
    would be worth having.
 3. **The form and notice directories.** **44 form entries and 7 notice entries.** The 23
-   written on 21 August for the Part 2 pages are at `review` and await owner approval with
+   written on 21 August for the Part 2 pages are published along with
    everything else: 1023, 1023-EZ, 1024, 1024-A, 8976, 8940, 8868, SS-4, 990, 990-EZ, 990-N,
    990-PF, 990-T, 5500, 5500-SF, 5500-EZ, 5558, 8955-SSA, 5330, 4835, Schedule F, Schedule J
    and Schedule SE. Every one is linked two-way from its topic page, so `verify` is clean.
