@@ -10,9 +10,9 @@ is indexed, and only the owner moves a page there (see `docs/VERIFICATION.md`).
 | Part | Topics | Stub | Draft | Review | Published | Words |
 |---|---:|---:|---:|---:|---:|---:|
 | 1. Individuals | 120 | 0 | 0 | 110 | 10 | 256,550 |
-| 2. Businesses | 119 | 115 | 0 | 4 | 0 | 8,247 |
+| 2. Businesses | 119 | 114 | 0 | 5 | 0 | 10,737 |
 | 3. Representation, Practices and Procedures | 121 | 0 | 0 | 0 | 121 | 257,674 |
-| **All parts** | **360** | **115** | **0** | **114** | **131** | **522,471** |
+| **All parts** | **360** | **114** | **0** | **115** | **131** | **524,961** |
 
 ## Part 1 — Individuals
 
@@ -220,7 +220,7 @@ is indexed, and only the owner moves a page there (see `docs/VERIFICATION.md`).
 | 2.1.1.b | [Partnerships and qualified joint ventures (QJV)](/businesses/business-entities/business-entities-and-considerations/partnerships-and-qualified-joint-ventures-qjv/) | review | 1,700 | 2026-08-21 |
 | 2.1.1.c | [Corporations](/businesses/business-entities/business-entities-and-considerations/corporations/) | review | 1,865 | 2026-08-21 |
 | 2.1.1.d | [S corporations](/businesses/business-entities/business-entities-and-considerations/s-corporations/) | review | 3,024 | 2026-08-21 |
-| 2.1.1.e | [LLCs](/businesses/business-entities/business-entities-and-considerations/llcs/) | stub | — | — |
+| 2.1.1.e | [LLCs](/businesses/business-entities/business-entities-and-considerations/llcs/) | review | 2,490 | 2026-08-21 |
 | 2.1.1.f | [Tax-exempt entities and associations](/businesses/business-entities/business-entities-and-considerations/tax-exempt-entities-and-associations/) | stub | — | — |
 | 2.1.1.g | [Entity type default classifications and elections](/businesses/business-entities/business-entities-and-considerations/entity-type-default-classifications-and-elections/) | stub | — | — |
 | 2.1.1.h | [Employer identification number](/businesses/business-entities/business-entities-and-considerations/employer-identification-number/) | stub | — | — |

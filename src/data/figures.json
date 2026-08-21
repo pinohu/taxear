@@ -7969,6 +7969,66 @@
       "taxYear": 2026,
       "source": "IRC § 1362(d), read at law.cornell.edu/uscode/text/26/1362",
       "verified": "2026-08-21"
+    },
+    "llc.separate_entity": {
+      "value": "whether an organization is an entity separate from its owners for federal tax purposes is a matter of federal tax law and does not depend on whether the organization is recognised as an entity under local law (Reg. § 301.7701-1(a)(1))",
+      "taxYear": 2026,
+      "source": "26 CFR § 301.7701-1(a)(1), read at law.cornell.edu/cfr/text/26/301.7701-1",
+      "verified": "2026-08-21"
+    },
+    "llc.per_se_corporation": {
+      "value": "a business entity is a corporation for federal tax purposes if it is organised under a federal, State or tribal statute that describes or refers to it as incorporated or as a corporation, body corporate or body politic; if it is an association; if it is a joint-stock company or association, an insurance company, a State-chartered federally insured bank, an entity wholly owned by a State or a foreign government, an entity taxable as a corporation under a Code provision other than IRC § 7701(a)(3), or one of the listed foreign entities (Reg. § 301.7701-2(b))",
+      "taxYear": 2026,
+      "source": "26 CFR § 301.7701-2(b), read at law.cornell.edu/cfr/text/26/301.7701-2",
+      "verified": "2026-08-21"
+    },
+    "llc.default_classification": {
+      "value": "unless it elects otherwise, a domestic eligible entity is a partnership if it has two or more members and is disregarded as an entity separate from its owner if it has a single owner (Reg. § 301.7701-3(b)(1))",
+      "taxYear": 2026,
+      "source": "26 CFR § 301.7701-3(b)(1), read at law.cornell.edu/cfr/text/26/301.7701-3",
+      "verified": "2026-08-21"
+    },
+    "llc.election": {
+      "value": "an eligible entity with at least two members may elect to be classified as an association, and so a corporation, or as a partnership; one with a single owner may elect to be classified as an association or to be disregarded. The election is made on Form 8832, and is not accepted unless every item the form and instructions require, including the entity taxpayer identifying number, is supplied (Reg. §§ 301.7701-3(a) and (c)(1)(i))",
+      "taxYear": 2026,
+      "source": "26 CFR § 301.7701-3(a), (c)(1)(i), read at law.cornell.edu/cfr/text/26/301.7701-3",
+      "verified": "2026-08-21"
+    },
+    "llc.election_effective_date": {
+      "value": "an election takes effect on the date the entity specifies on Form 8832, or on the filing date if none is specified. The date specified may not be more than 75 days before the filing date nor more than 12 months after it; an election specifying an earlier or later date is effective 75 days before, or 12 months after, filing (Reg. § 301.7701-3(c)(1)(iii))",
+      "taxYear": 2026,
+      "source": "26 CFR § 301.7701-3(c)(1)(iii), read at law.cornell.edu/cfr/text/26/301.7701-3",
+      "verified": "2026-08-21"
+    },
+    "llc.sixty_month_limit": {
+      "value": "an eligible entity that elects to change its classification may not change it by election again during the 60 months succeeding the effective date, unless the Commissioner permits it because more than 50 percent of the ownership interests at the effective date of the later election are held by persons who held none on the filing date or the effective date of the earlier one. An election by a newly formed entity effective on the date of formation is not a change (Reg. § 301.7701-3(c)(1)(iv))",
+      "taxYear": 2026,
+      "source": "26 CFR § 301.7701-3(c)(1)(iv), read at law.cornell.edu/cfr/text/26/301.7701-3",
+      "verified": "2026-08-21"
+    },
+    "llc.deemed_s_election": {
+      "value": "an eligible entity that timely elects to be an S corporation under IRC § 1362(a)(1) is treated as having elected to be classified as an association, provided it meets the other IRC § 1361(b) requirements as of the effective date — so no separate Form 8832 is needed (Reg. § 301.7701-3(c)(1)(v)(C))",
+      "taxYear": 2026,
+      "source": "26 CFR § 301.7701-3(c)(1)(v)(C), read at law.cornell.edu/cfr/text/26/301.7701-3",
+      "verified": "2026-08-21"
+    },
+    "llc.employment_tax": {
+      "value": "an entity disregarded for any purpose is nonetheless treated as a corporation for the taxes imposed by subtitle C — chapters 21, 22, 23, 23A, 24 and 25 — so it is the employer of its employees, files the Form 94X series and Forms W-2 under its own name and EIN, and is liable for withholding, FICA and FUTA (Reg. § 301.7701-2(c)(2)(iv)(B))",
+      "taxYear": 2026,
+      "source": "26 CFR § 301.7701-2(c)(2)(iv)(B), read at law.cornell.edu/cfr/text/26/301.7701-2",
+      "verified": "2026-08-21"
+    },
+    "llc.owner_self_employment": {
+      "value": "the disregarded-entity rule still applies to subtitle A, including chapter 2 self-employment tax, so the entity is not the employer of its own owner; the owner is not an employee and is subject to self-employment tax on the entity activities. The same holds for a partner of a partnership that owns the disregarded entity (Reg. § 301.7701-2(c)(2)(iv)(C)(2))",
+      "taxYear": 2026,
+      "source": "26 CFR § 301.7701-2(c)(2)(iv)(C)(2), read at law.cornell.edu/cfr/text/26/301.7701-2",
+      "verified": "2026-08-21"
+    },
+    "llc.limited_partner_exclusion": {
+      "value": "in computing net earnings from self-employment there is excluded the distributive share of any item of income or loss of a limited partner, as such, other than IRC § 707(c) guaranteed payments to that partner for services actually rendered to or on behalf of the partnership to the extent established to be in the nature of remuneration for those services (IRC § 1402(a)(13))",
+      "taxYear": 2026,
+      "source": "IRC § 1402(a)(13), read at law.cornell.edu/uscode/text/26/1402",
+      "verified": "2026-08-21"
     }
   }
 }
