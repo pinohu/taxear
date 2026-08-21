@@ -14419,6 +14419,66 @@
       "taxYear": 2026,
       "source": "IRC § 180, read at law.cornell.edu/uscode/text/26/180",
       "verified": "2026-08-21"
+    },
+    "fdis.1033_general": {
+      "value": "where property is involuntarily converted into money, gain is recognised only to the extent the amount realised exceeds the cost of other property similar or related in service or use purchased within the replacement period, at the taxpayer’s election; property acquired before the disposition does not count as replacement unless still held on the date of disposition (IRC § 1033(a)(2)(A))",
+      "taxYear": 2026,
+      "source": "IRC § 1033, read at law.cornell.edu/uscode/text/26/1033",
+      "verified": "2026-08-21"
+    },
+    "fdis.1033_livestock_alt": {
+      "value": "where drought, flood or other weather-related conditions, or soil or other environmental contamination, make it infeasible to reinvest the proceeds of involuntarily converted livestock in similar livestock, other property used for farming purposes — including real property in the contamination cases — is treated as similar or related in service or use (IRC § 1033(f))",
+      "taxYear": 2026,
+      "source": "IRC § 1033, read at law.cornell.edu/uscode/text/26/1033",
+      "verified": "2026-08-21"
+    },
+    "fdis.1033_business": {
+      "value": "where trade or business or investment property located in a disaster area is involuntarily converted as a result of a federally declared disaster, any tangible property of a type held for productive use in a trade or business is treated as similar or related in service or use — a far wider replacement rule than the ordinary one (IRC § 1033(h)(2))",
+      "taxYear": 2026,
+      "source": "IRC § 1033, read at law.cornell.edu/uscode/text/26/1033",
+      "verified": "2026-08-21"
+    },
+    "fdis.1033_residence": {
+      "value": "for a principal residence or its contents in a disaster area converted by a federally declared disaster, no gain is recognised on insurance proceeds for unscheduled personal property, other proceeds for the residence and contents are treated as received for a single item of property, and the replacement period is 4 years rather than 2 (IRC § 1033(h)(1))",
+      "taxYear": 2026,
+      "source": "IRC § 1033, read at law.cornell.edu/uscode/text/26/1033",
+      "verified": "2026-08-21"
+    },
+    "fdis.165i": {
+      "value": "a loss occurring in a disaster area and attributable to a federally declared disaster may at the taxpayer’s election be taken into account for the taxable year immediately preceding the year the disaster occurred, the casualty being treated as having occurred in the year for which the deduction is claimed; the amount so taken cannot exceed the uncompensated amount determined on the facts existing when the taxpayer claims the loss (IRC § 165(i)(1)-(3))",
+      "taxYear": 2026,
+      "source": "IRC § 165(i), read at law.cornell.edu/uscode/text/26/165",
+      "verified": "2026-08-21"
+    },
+    "fdis.federally_declared": {
+      "value": "a federally declared disaster is any disaster subsequently determined by the President to warrant federal assistance under the Robert T. Stafford Disaster Relief and Emergency Assistance Act, and a disaster area is the area so determined to warrant that assistance (IRC § 165(i)(5))",
+      "taxYear": 2026,
+      "source": "IRC § 165(i), read at law.cornell.edu/uscode/text/26/165",
+      "verified": "2026-08-21"
+    },
+    "fdis.appraisal": {
+      "value": "an appraisal prepared to obtain a federal disaster loan or loan guarantee may be used to establish the amount of the loss, and nothing in the Code prohibits the Secretary from prescribing guidance to that effect (IRC § 165(i)(4))",
+      "taxYear": 2026,
+      "source": "IRC § 165(i), read at law.cornell.edu/uscode/text/26/165",
+      "verified": "2026-08-21"
+    },
+    "fdis.7508a": {
+      "value": "where the Secretary determines a taxpayer to be affected by a federally declared disaster, a significant fire, or a terroristic or military action, the Secretary may specify a period of up to 1 year to be disregarded in determining whether the acts listed in IRC § 7508(a)(1) were timely, the amount of any interest, penalty, additional amount or addition to tax for periods after the disaster date, and the amount of any credit or refund (IRC § 7508A(a))",
+      "taxYear": 2026,
+      "source": "IRC § 7508A, read at law.cornell.edu/uscode/text/26/7508A",
+      "verified": "2026-08-21"
+    },
+    "fdis.7508a_plans": {
+      "value": "the same period of up to 1 year may be disregarded in determining when any action is required or permitted under the Code for a pension or other employee benefit plan or anyone connected with it, and no plan is treated as failing to be operated in accordance with its terms solely because a period is disregarded (IRC § 7508A(b))",
+      "taxYear": 2026,
+      "source": "IRC § 7508A(b), read at law.cornell.edu/uscode/text/26/7508A",
+      "verified": "2026-08-21"
+    },
+    "fdis.139": {
+      "value": "gross income does not include a qualified disaster relief payment — an amount paid to or for an individual to reimburse reasonable and necessary personal, family, living or funeral expenses from a qualified disaster; reasonable and necessary expenses of repairing or rehabilitating a personal residence or repairing or replacing its contents where the need is attributable to the disaster; certain common carrier payments for death or physical injury; or a government payment in connection with a qualified disaster to promote the general welfare — but only to the extent the expense is not otherwise compensated by insurance or otherwise (IRC § 139(a), (b))",
+      "taxYear": 2026,
+      "source": "IRC § 139, read at law.cornell.edu/uscode/text/26/139",
+      "verified": "2026-08-21"
     }
   }
 }
