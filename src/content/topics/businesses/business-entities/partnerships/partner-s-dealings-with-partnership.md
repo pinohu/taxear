@@ -21,7 +21,7 @@ authorities:
   - { type: IRC, ref: "§ 1402(a)(13)", title: "Net earnings from self-employment; limited partner exclusion", url: "https://www.law.cornell.edu/uscode/text/26/1402" }
   - { type: Reg, ref: "§ 1.707-1", title: "Transactions between partner and partnership", url: "https://www.law.cornell.edu/cfr/text/26/1.707-1" }
 forms: []
-related: ["2.1.2.a", "2.1.2.b", "2.1.2.e", "2.1.2.d", "2.1.2.f"]
+related: ["2.1.2.a", "2.1.2.b", "2.1.2.e", "2.1.2.d", "2.1.2.f", "2.1.2.j"]
 changelog:
   - { date: "2026-08-21", summary: "Initial draft. Sets out the IRC § 707(a)(1) rule for a partner transacting other than as a partner and the § 707(a)(2) disguised sale and disguised payment rules, the § 707(c) definition of a guaranteed payment and its limitation to IRC §§ 61(a) and 162(a), the Reg. § 1.707-1(c) timing rule tying the partner's inclusion to the partnership year of deduction and the rule that a guaranteed payment is a distributive share of ordinary income for every other purpose, and the § 707(b)(1) disallowance of losses and § 707(b)(2) ordinary income treatment of gains in more-than-50-percent controlled partnership transactions." }
 ---

@@ -8959,6 +8959,36 @@
       "taxYear": 2026,
       "source": "IRC § 6223 prior-provisions notes, read at law.cornell.edu/uscode/text/26/6223",
       "verified": "2026-08-21"
+    },
+    "ptrcod.partner_level": {
+      "value": "in the case of a partnership, the IRC § 108 exclusions, the attribute reduction rules, the qualified real property business indebtedness rules and the depreciable property election are applied at the partner level rather than at the partnership level (IRC § 108(d)(6))",
+      "taxYear": 2026,
+      "source": "IRC § 108(d)(6), read at law.cornell.edu/uscode/text/26/108",
+      "verified": "2026-08-21"
+    },
+    "ptrcod.scorp_contrast": {
+      "value": "in the case of an S corporation the same subsections are applied at the corporate level, and any amount excluded under IRC § 108(a) is not taken into account under IRC § 1366(a) — so an S corporation shareholder gets no basis increase for excluded discharge income, while a partner does (IRC § 108(d)(7)(A))",
+      "taxYear": 2026,
+      "source": "IRC § 108(d)(7)(A), read at law.cornell.edu/uscode/text/26/108",
+      "verified": "2026-08-21"
+    },
+    "ptrcod.exclusions": {
+      "value": "gross income does not include an amount otherwise includible by reason of a discharge of indebtedness where the discharge occurs in a title 11 case, occurs while the taxpayer is insolvent, is of qualified farm indebtedness, is of qualified real property business indebtedness in the case of a taxpayer other than a C corporation, or is of qualified principal residence indebtedness discharged before 1 January 2026 or under a written arrangement entered into before that date (IRC § 108(a)(1))",
+      "taxYear": 2026,
+      "source": "IRC § 108(a)(1), read at law.cornell.edu/uscode/text/26/108",
+      "verified": "2026-08-21"
+    },
+    "ptrcod.attribute_order": {
+      "value": "an amount excluded under the title 11, insolvency or qualified farm indebtedness heads reduces the taxpayer tax attributes in order: net operating loss for the year of discharge and any carryover to it; general business credit carryovers; the minimum tax credit; capital loss for the year and capital loss carryovers; the basis of property; passive activity loss and credit carryovers; and foreign tax credit carryovers (IRC § 108(b)(1), (2))",
+      "taxYear": 2026,
+      "source": "IRC § 108(b), read at law.cornell.edu/uscode/text/26/108",
+      "verified": "2026-08-21"
+    },
+    "ptrcod.cod_income": {
+      "value": "gross income includes income from discharge of indebtedness (IRC § 61(a)(11))",
+      "taxYear": 2026,
+      "source": "IRC § 61(a)(11), read at law.cornell.edu/uscode/text/26/61",
+      "verified": "2026-08-21"
     }
   }
 }

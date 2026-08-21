@@ -21,7 +21,7 @@ authorities:
   - { type: IRC, ref: "§ 1231", title: "Property used in the trade or business and involuntary conversions", url: "https://www.law.cornell.edu/uscode/text/26/1231" }
   - { type: IRC, ref: "§ 1402(a)(13)", title: "Net earnings from self-employment; limited partner exclusion", url: "https://www.law.cornell.edu/uscode/text/26/1402" }
 forms: []
-related: ["2.1.2.e", "2.1.2.c", "2.1.1.b", "2.1.2.i", "2.1.2.b", "2.1.2.d", "2.1.2.f", "2.1.2.g", "2.1.2.h"]
+related: ["2.1.2.e", "2.1.2.c", "2.1.1.b", "2.1.2.i", "2.1.2.b", "2.1.2.d", "2.1.2.f", "2.1.2.g", "2.1.2.h", "2.1.2.j"]
 changelog:
   - { date: "2026-08-21", summary: "Initial draft. Sets out the IRC § 701 absence of entity tax, the IRC § 702(a) separately stated items and the § 702(b) conduit rule for character, the § 703(a) computation of partnership taxable income and the deductions denied to it, the § 703(b) allocation of elections between partnership and partner, the § 704(a) and (b) determination of distributive share and the § 704(d) basis limitation on losses, the § 705(a) outside basis mechanics and the § 752 treatment of liabilities as contributions and distributions, the § 731 recognition rules on distributions, and the IRC § 1402(a)(13) limited partner exclusion from self-employment income." }
 ---
