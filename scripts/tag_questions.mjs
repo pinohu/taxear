@@ -413,7 +413,10 @@ const RULES = [
   ['2.1.5.a', /(?:qualifying|eligible) shareholder|(?:one|single) class of stock/i],
   ['2.1.5.h', /non-?cash distribution/i],
   ['2.1.5.g', /debt discharge/i],
-  ['2.1.5.c', /separately stated item/i],
+  // "Separately stated items" is the same concept in subchapter K and subchapter S, so the phrase alone
+  // cannot tell them apart. A question about a partnership's Schedule K-1 was landing here. Require the
+  // S corporation context, and let the partnership rules below take the rest.
+  ['2.1.5.c', /separately stated item[\s\S]{0,80}\b(?:s corporation|1120-?s|shareholder)\b|\b(?:s corporation|1120-?s)\b[\s\S]{0,80}separately stated item/i],
   // 2.1.4 forming a corporation
   ['2.1.4.b', /\b351\b/i],
   ['2.1.4.e', /controlled group|brother-?sister/i],
@@ -441,7 +444,7 @@ const RULES = [
   ['2.1.2.g', /partnership agreement|general (?:versus|vs\.?|and) limited partner/i],
   ['2.1.2.j', /partnership[\s\S]{0,30}cancellation of debt/i],
   ['2.1.2.i', /\b1065\b/i],
-  ['2.1.2.a', /partnership (?:income|distribution|expense)/i],
+  ['2.1.2.a', /partnership (?:income|distribution|expense)|separately stated item[\s\S]{0,80}partner|partnership[\s\S]{0,60}schedule k-?1/i],
   // 2.1.1 business entities and considerations
   ['2.1.1.g', /\b8832\b|check-? ?the-? ?box|(?:default|entity) classification/i],
   ['2.1.1.h', /employer identification number|\bein\b|\bss-?4\b/i],

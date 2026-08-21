@@ -132,6 +132,13 @@ test('a passing mention of "tax year" is not an accounting-period question', () 
   assert.equal(classify(q(2, 'How is a natural business year established?')), '2.1.1.i');
 });
 
+test('separately stated items are sorted by entity, not by the phrase', () => {
+  // The phrase is identical in subchapter K and subchapter S, so it cannot sort the questions on its
+  // own. A partnership K-1 question was landing on the S corporation topic.
+  assert.equal(classify(q(2, 'An equal general partnership with four members has ordinary partnership income, long-term capital gains and charitable contributions. What is reported on each Schedule K-1?')), '2.1.2.a');
+  assert.equal(classify(q(2, 'Which of these is a separately stated item on the Schedule K-1 of an S corporation shareholder?')), '2.1.5.c');
+});
+
 test('rules never tag across exam parts', () => {
   // The same subject asked in different parts must land in that part's own outline.
   // Part 1 has its own claim-for-refund topic, so the Part 1 question is placed there —
