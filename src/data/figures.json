@@ -9961,6 +9961,108 @@
       "taxYear": 2026,
       "source": "IRC § 83(a), opened at law.cornell.edu/uscode/text/26/83",
       "verified": "2026-08-21"
+    },
+    "term.revoke_consent": {
+      "value": "more than one-half of the shares of stock of the corporation on the day the revocation is made must consent — counting shares, not shareholders, and counting non-voting shares",
+      "taxYear": 2026,
+      "source": "IRC § 1362(d)(1)(B), opened at law.cornell.edu/uscode/text/26/1362",
+      "verified": "2026-08-21"
+    },
+    "term.revoke_timing": {
+      "value": "a revocation made on or before the 15th day of the 3rd month of the taxable year is effective on the first day of that year; one made after that day is effective on the first day of the following year; and a revocation that specifies a date on or after the day it is made is effective from the date specified",
+      "taxYear": 2026,
+      "source": "IRC § 1362(d)(1)(C) and (D), opened at law.cornell.edu/uscode/text/26/1362",
+      "verified": "2026-08-21"
+    },
+    "term.cease_qualify": {
+      "value": "the election terminates whenever the corporation ceases to be a small business corporation, effective on and after the date of cessation",
+      "taxYear": 2026,
+      "source": "IRC § 1362(d)(2), opened at law.cornell.edu/uscode/text/26/1362",
+      "verified": "2026-08-21"
+    },
+    "term.passive_test": {
+      "value": "the election terminates where the corporation has accumulated earnings and profits at the close of each of 3 consecutive taxable years and, for each of those years, more than 25 percent of gross receipts is passive investment income; it is effective on the first day of the year beginning after the third such year",
+      "taxYear": 2026,
+      "source": "IRC § 1362(d)(3)(A), opened at law.cornell.edu/uscode/text/26/1362",
+      "verified": "2026-08-21"
+    },
+    "term.passive_defined": {
+      "value": "gross receipts derived from royalties, rents, dividends, interest and annuities — excluding interest on an obligation acquired in the ordinary course of business from the sale of inventory property, certain lending and finance receipts, dividends from a controlled C corporation attributable to its active business earnings, and bank interest and required-holding dividends",
+      "taxYear": 2026,
+      "source": "IRC § 1362(d)(3)(C), opened at law.cornell.edu/uscode/text/26/1362",
+      "verified": "2026-08-21"
+    },
+    "term.gross_receipts_assets": {
+      "value": "on a disposition of a capital asset other than stock or securities, gross receipts count only to the extent of the capital gain net income; on a sale or exchange of stock or securities, only to the extent of the gains",
+      "taxYear": 2026,
+      "source": "IRC § 1362(d)(3)(B), opened at law.cornell.edu/uscode/text/26/1362",
+      "verified": "2026-08-21"
+    },
+    "term.s_termination_year": {
+      "value": "any taxable year in which a termination takes effect other than on the first day of the year; it is split into an S short year ending before the effective day and a C short year beginning on it",
+      "taxYear": 2026,
+      "source": "IRC § 1362(e)(4) and (e)(1), opened at law.cornell.edu/uscode/text/26/1362",
+      "verified": "2026-08-21"
+    },
+    "term.pro_rata_split": {
+      "value": "the items of income, loss, deduction and credit for the whole S termination year are determined first and then assigned in equal portions to each day of that year",
+      "taxYear": 2026,
+      "source": "IRC § 1362(e)(2), opened at law.cornell.edu/uscode/text/26/1362",
+      "verified": "2026-08-21"
+    },
+    "term.closing_books": {
+      "value": "the corporation may elect out of the daily allocation and assign items under normal tax accounting rules, but only if every person who was a shareholder at any time during the S short year and every person who is a shareholder on the first day of the C short year consents",
+      "taxYear": 2026,
+      "source": "IRC § 1362(e)(3), opened at law.cornell.edu/uscode/text/26/1362",
+      "verified": "2026-08-21"
+    },
+    "term.fifty_percent": {
+      "value": "the daily allocation does not apply at all to an S termination year in which there is a sale or exchange of 50 percent or more of the stock — the books close whether or not anyone elects",
+      "taxYear": 2026,
+      "source": "IRC § 1362(e)(6)(D), opened at law.cornell.edu/uscode/text/26/1362",
+      "verified": "2026-08-21"
+    },
+    "term.c_short_annualized": {
+      "value": "the taxable income of the C short year is annualised by multiplying it by the days in the S termination year and dividing by the days in the short year, and the tax is the same fraction of the tax computed on that annual basis",
+      "taxYear": 2026,
+      "source": "IRC § 1362(e)(5)(A), opened at law.cornell.edu/uscode/text/26/1362",
+      "verified": "2026-08-21"
+    },
+    "term.due_date": {
+      "value": "the return for the S short year is due on the same date as the return for the C short year, including extensions",
+      "taxYear": 2026,
+      "source": "IRC § 1362(e)(6)(B), opened at law.cornell.edu/uscode/text/26/1362",
+      "verified": "2026-08-21"
+    },
+    "term.inadvertent": {
+      "value": "where the Secretary determines the circumstances were inadvertent, steps were taken within a reasonable period after discovery to qualify or to obtain the consents, and the corporation and every shareholder for the period agree to the adjustments required, the corporation is treated as an S corporation throughout the period the Secretary specifies",
+      "taxYear": 2026,
+      "source": "IRC § 1362(f), opened at law.cornell.edu/uscode/text/26/1362",
+      "verified": "2026-08-21"
+    },
+    "term.five_year_wait": {
+      "value": "a corporation whose election has terminated, and any successor corporation, may not elect again before its 5th taxable year beginning after the first taxable year for which the termination was effective, unless the Secretary consents",
+      "taxYear": 2026,
+      "source": "IRC § 1362(g), opened at law.cornell.edu/uscode/text/26/1362",
+      "verified": "2026-08-21"
+    },
+    "term.eligible_terminated": {
+      "value": "a C corporation that was an S corporation on 21 December 2017 and revoked its election during the two-year period beginning 22 December 2017, whose stock on the date of revocation was held by the same owners in identical proportions as on 22 December 2017",
+      "taxYear": 2026,
+      "source": "IRC § 481(d)(2), opened at law.cornell.edu/uscode/text/26/481",
+      "verified": "2026-08-21"
+    },
+    "term.481_spread": {
+      "value": "a IRC § 481(a)(2) adjustment attributable to the revocation is taken into account ratably over the 6-taxable year period beginning with the year of change",
+      "taxYear": 2026,
+      "source": "IRC § 481(d)(1), opened at law.cornell.edu/uscode/text/26/481",
+      "verified": "2026-08-21"
+    },
+    "term.1371f_ratio": {
+      "value": "on a distribution of money by an eligible terminated S corporation after the post-termination transition period, the accumulated adjustments account is allocated to the distribution, and the distribution is charged to accumulated earnings and profits, in the same ratio as the account bears to those earnings",
+      "taxYear": 2026,
+      "source": "IRC § 1371(f), opened at law.cornell.edu/uscode/text/26/1371",
+      "verified": "2026-08-21"
     }
   }
 }
