@@ -13015,6 +13015,48 @@
       "taxYear": 2026,
       "source": "IRC § 661(b), opened at law.cornell.edu/uscode/text/26/661",
       "verified": "2026-08-21"
+    },
+    "tex.exemptions": {
+      "value": "$600 for an estate, $100 for a trust generally, and $300 for a trust which under its governing instrument is required to distribute all of its income currently — none of the three indexed",
+      "taxYear": 2026,
+      "source": "IRC § 642(b)(1) and (2)(A), (B), opened at law.cornell.edu/uscode/text/26/642",
+      "verified": "2026-08-21"
+    },
+    "tex.disability_trust": {
+      "value": "$5,300 for a taxable year beginning in 2026 — the deduction for a qualified disability trust under IRC § 642(b)(2)(C)(i), which unlike the other three exemptions is indexed",
+      "taxYear": 2026,
+      "source": "Rev. Proc. 2025-32 § 3.35, opened at irs.gov/pub/irs-drop/rp-25-32.pdf; IRC § 642(b)(2)(C), opened at law.cornell.edu/uscode/text/26/642",
+      "verified": "2026-08-21"
+    },
+    "tex.charitable": {
+      "value": "an estate or complex trust may deduct, without limitation, any amount of *gross income* which under the terms of the governing instrument is paid during the year for a purpose specified in IRC § 170(c) — in place of the IRC § 170(a) deduction, and with an election to treat a payment made by the end of the following year as made in the earlier one",
+      "taxYear": 2026,
+      "source": "IRC § 642(c)(1), opened at law.cornell.edu/uscode/text/26/642",
+      "verified": "2026-08-21"
+    },
+    "tex.charitable_conditions": {
+      "value": "the deduction is available only for amounts paid pursuant to the terms of the governing instrument and only out of gross income — a payment the trustee chooses to make without instrument authority, or one traced to corpus, is not deductible at all",
+      "taxYear": 2026,
+      "source": "IRC § 642(c)(1), opened at law.cornell.edu/uscode/text/26/642",
+      "verified": "2026-08-21"
+    },
+    "tex.no_double": {
+      "value": "amounts allowable under IRC § 2053 or § 2054 as a deduction in computing the taxable estate may not also be deducted, or offset against the sales price of property, in computing the income tax of the estate or anyone else, unless a statement waiving the estate tax deduction is filed",
+      "taxYear": 2026,
+      "source": "IRC § 642(g), opened at law.cornell.edu/uscode/text/26/642",
+      "verified": "2026-08-21"
+    },
+    "tex.admin_costs": {
+      "value": "costs paid or incurred in connection with the administration of an estate or trust which would not have been incurred if the property were not so held are allowable in arriving at adjusted gross income, along with the exemption and the distribution deductions",
+      "taxYear": 2026,
+      "source": "IRC § 67(e), opened at law.cornell.edu/uscode/text/26/67",
+      "verified": "2026-08-21"
+    },
+    "tex.misc_suspended": {
+      "value": "no miscellaneous itemized deduction is allowed for any taxable year beginning after 31 December 2017 — so a fiduciary expense that is not within the IRC § 67(e) carve-out is not deductible at all rather than merely floored",
+      "taxYear": 2026,
+      "source": "IRC § 67(h), opened at law.cornell.edu/uscode/text/26/67",
+      "verified": "2026-08-21"
     }
   }
 }
