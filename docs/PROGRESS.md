@@ -10,9 +10,9 @@ is indexed, and only the owner moves a page there (see `docs/VERIFICATION.md`).
 | Part | Topics | Stub | Draft | Review | Published | Words |
 |---|---:|---:|---:|---:|---:|---:|
 | 1. Individuals | 120 | 0 | 0 | 110 | 10 | 256,550 |
-| 2. Businesses | 119 | 33 | 0 | 86 | 0 | 202,198 |
+| 2. Businesses | 119 | 32 | 0 | 87 | 0 | 204,634 |
 | 3. Representation, Practices and Procedures | 121 | 0 | 0 | 0 | 121 | 257,674 |
-| **All parts** | **360** | **33** | **0** | **196** | **131** | **716,422** |
+| **All parts** | **360** | **32** | **0** | **197** | **131** | **718,858** |
 
 ## Part 1 — Individuals
 
@@ -349,7 +349,7 @@ is indexed, and only the owner moves a page there (see `docs/VERIFICATION.md`).
 | 2.2.5.f | [Comingling (e.g., personal usage of business accounts, separation of business and personal accounts)](/businesses/business-tax-preparation/advising-the-business-taxpayer/comingling/) | review | 2,301 | 2026-08-21 |
 | 2.2.5.g | [Advice on accounting methods and procedures (e.g., explanation of requirements)](/businesses/business-tax-preparation/advising-the-business-taxpayer/advice-on-accounting-methods-and-procedures/) | review | 2,398 | 2026-08-21 |
 | 2.2.5.h | [Transfer of property in or out of the business (e.g., contributed property, distributions)](/businesses/business-tax-preparation/advising-the-business-taxpayer/transfer-of-property-in-or-out-of-the-business/) | review | 2,460 | 2026-08-21 |
-| 2.2.5.i | [Life cycle of the business (e.g., formation, dissolution)](/businesses/business-tax-preparation/advising-the-business-taxpayer/life-cycle-of-the-business/) | stub | — | — |
+| 2.2.5.i | [Life cycle of the business (e.g., formation, dissolution)](/businesses/business-tax-preparation/advising-the-business-taxpayer/life-cycle-of-the-business/) | review | 2,436 | 2026-08-21 |
 | 2.2.5.j | [Type of industry (e.g., specified service business owners)](/businesses/business-tax-preparation/advising-the-business-taxpayer/type-of-industry/) | stub | — | — |
 | 2.2.5.k | [Worker classification (i.e. independent contractor versus employee, outside sales, full-time vs part-time)](/businesses/business-tax-preparation/advising-the-business-taxpayer/worker-classification-i-e-independent-contractor-versus/) | stub | — | — |
 | 2.2.5.l | [Deductions and credits for tax planning (e.g., timing of income and expenses, NOL, depreciation versus IRC Section 179 versus bonus depreciation)](/businesses/business-tax-preparation/advising-the-business-taxpayer/deductions-and-credits-for-tax-planning/) | stub | — | — |

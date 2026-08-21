@@ -12715,6 +12715,48 @@
       "taxYear": 2026,
       "source": "IRC § 732(a), opened at law.cornell.edu/uscode/text/26/732",
       "verified": "2026-08-21"
+    },
+    "life.s_election_timing": {
+      "value": "an S election may be made at any time during the preceding taxable year, or during the taxable year on or before the 15th day of its third month — and an election made in that window is treated as made for the *following* year if the corporation failed the eligibility requirements on any earlier day of the year or a required shareholder did not consent",
+      "taxYear": 2026,
+      "source": "IRC § 1362(b)(1) and (2), opened at law.cornell.edu/uscode/text/26/1362",
+      "verified": "2026-08-21"
+    },
+    "life.revocation": {
+      "value": "an election is revoked only with the consent of shareholders holding more than one half of the shares on the day of revocation; a revocation made on or before the 15th day of the third month takes effect from the first day of that year, and one made later from the first day of the following year, unless a prospective date is specified",
+      "taxYear": 2026,
+      "source": "IRC § 1362(d)(1), opened at law.cornell.edu/uscode/text/26/1362",
+      "verified": "2026-08-21"
+    },
+    "life.five_year_bar": {
+      "value": "a corporation whose S election has terminated may not elect again before its fifth taxable year beginning after the first taxable year for which the termination was effective, unless the Secretary consents",
+      "taxYear": 2026,
+      "source": "IRC § 1362(g), opened at law.cornell.edu/uscode/text/26/1362",
+      "verified": "2026-08-21"
+    },
+    "life.corporate_liquidation": {
+      "value": "a liquidating corporation recognises gain or loss on distributing property in complete liquidation as if the property were sold to the distributee at fair market value",
+      "taxYear": 2026,
+      "source": "IRC § 336(a), opened at law.cornell.edu/uscode/text/26/336",
+      "verified": "2026-08-21"
+    },
+    "life.shareholder_liquidation": {
+      "value": "amounts a shareholder receives in a distribution in complete liquidation are treated as in full payment in exchange for the stock, so the shareholder has capital gain or loss rather than a dividend",
+      "taxYear": 2026,
+      "source": "IRC § 331(a) and (b), opened at law.cornell.edu/uscode/text/26/331",
+      "verified": "2026-08-21"
+    },
+    "life.partnership_termination": {
+      "value": "a partnership terminates only where no part of any business, financial operation or venture of it continues to be carried on by any of its partners in a partnership — so continuing the business through the remaining partners is not a termination",
+      "taxYear": 2026,
+      "source": "IRC § 708(b)(1), opened at law.cornell.edu/uscode/text/26/708",
+      "verified": "2026-08-21"
+    },
+    "life.partnership_merger": {
+      "value": "on a merger or consolidation the resulting partnership is treated as the continuation of any merging partnership whose members own more than 50 percent of the capital and profits of the resulting partnership",
+      "taxYear": 2026,
+      "source": "IRC § 708(b)(2)(A), opened at law.cornell.edu/uscode/text/26/708",
+      "verified": "2026-08-21"
     }
   }
 }
