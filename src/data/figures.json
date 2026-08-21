@@ -14479,6 +14479,54 @@
       "taxYear": 2026,
       "source": "IRC § 139, read at law.cornell.edu/uscode/text/26/139",
       "verified": "2026-08-21"
+    },
+    "fr.1402_exclusion": {
+      "value": "net earnings from self-employment exclude rentals from real estate and from personal property leased with it — including rentals paid in crop shares — together with the deductions attributable to them, unless received in the course of a trade or business as a real estate dealer (IRC § 1402(a)(1))",
+      "taxYear": 2026,
+      "source": "IRC § 1402(a)(1), read at law.cornell.edu/uscode/text/26/1402",
+      "verified": "2026-08-21"
+    },
+    "fr.1402_exception": {
+      "value": "that exclusion does not apply to income derived by the owner or tenant of land where the income arises under an arrangement with another individual providing that the other individual will produce agricultural or horticultural commodities on the land and that there will be material participation by the owner or tenant in the production or the management of the production, and there is in fact material participation by the owner or tenant — in each case determined without regard to the activities of any agent (IRC § 1402(a)(1)(A), (B))",
+      "taxYear": 2026,
+      "source": "IRC § 1402(a)(1), read at law.cornell.edu/uscode/text/26/1402",
+      "verified": "2026-08-21"
+    },
+    "fr.two_conditions": {
+      "value": "the material participation exception has two conditions and both must be met: the arrangement itself must provide for the owner’s material participation, and the owner must actually materially participate. An arrangement silent on participation does not produce self-employment income however active the owner in fact is (IRC § 1402(a)(1))",
+      "taxYear": 2026,
+      "source": "IRC § 1402(a)(1), read at law.cornell.edu/uscode/text/26/1402",
+      "verified": "2026-08-21"
+    },
+    "fr.4835": {
+      "value": "Form 4835, Farm Rental Income and Expenses, is filed by landowners and sub-lessors who do not materially participate in the operation or management of the farm, to report farm rental income based on crops or livestock produced by the tenant",
+      "taxYear": 2026,
+      "source": "IRS, About Form 4835, read at irs.gov/forms-pubs/about-form-4835",
+      "verified": "2026-08-21"
+    },
+    "fr.where_reported": {
+      "value": "a farm landlord who materially participates reports on Schedule F and pays self-employment tax; one who does not but is paid a share of the crop or livestock produced reports on Form 4835 and pays none; and one paid a fixed cash rent reports on Schedule E and pays none",
+      "taxYear": 2026,
+      "source": "IRC § 1402(a)(1), read at law.cornell.edu/uscode/text/26/1402, and IRS, About Form 4835, read at irs.gov/forms-pubs/about-form-4835",
+      "verified": "2026-08-21"
+    },
+    "fr.469_rental": {
+      "value": "a rental activity is a passive activity regardless of the taxpayer’s participation, except as IRC § 469(c)(7) provides for real property trades or businesses (IRC § 469(c)(2))",
+      "taxYear": 2026,
+      "source": "IRC § 469(c), read at law.cornell.edu/uscode/text/26/469",
+      "verified": "2026-08-21"
+    },
+    "fr.self_rental": {
+      "value": "gross rental activity income from an item of property, up to the net rental activity income from that property for the year, is treated as not from a passive activity where the property is rented for use in a trade or business activity in which the taxpayer materially participates — so rent from a farm the owner also farms through an entity is non-passive income that cannot absorb passive losses (Treas. Reg. § 1.469-2(f)(6))",
+      "taxYear": 2026,
+      "source": "Treas. Reg. § 1.469-2(f)(6), read at law.cornell.edu/cfr/text/26/1.469-2",
+      "verified": "2026-08-21"
+    },
+    "fr.crop_share_income": {
+      "value": "crop shares, whether or not treated as rent under state law, are included in gross income in the year they are reduced to money or the equivalent of money (Treas. Reg. § 1.61-4(a))",
+      "taxYear": 2026,
+      "source": "Treas. Reg. § 1.61-4(a), read at law.cornell.edu/cfr/text/26/1.61-4",
+      "verified": "2026-08-21"
     }
   }
 }
