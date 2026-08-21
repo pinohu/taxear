@@ -14353,6 +14353,72 @@
       "taxYear": 2026,
       "source": "Treas. Reg. § 1.61-4, read at law.cornell.edu/cfr/text/26/1.61-4",
       "verified": "2026-08-21"
+    },
+    "fd.machinery": {
+      "value": "farm machinery and equipment other than a grain bin, cotton ginning asset, fence or other land improvement, used in a farming business as defined in IRC § 263A(e)(4) and whose original use commences with the taxpayer after 31 December 2017, is 5-year property (IRC § 168(e)(3)(B)(vii))",
+      "taxYear": 2026,
+      "source": "IRC § 168, read at law.cornell.edu/uscode/text/26/168",
+      "verified": "2026-08-21"
+    },
+    "fd.tenyear": {
+      "value": "10-year property includes any single purpose agricultural or horticultural structure within the meaning of IRC § 168(i)(13) and any tree or vine bearing fruit or nuts (IRC § 168(e)(3)(D)(i), (ii))",
+      "taxYear": 2026,
+      "source": "IRC § 168, read at law.cornell.edu/uscode/text/26/168",
+      "verified": "2026-08-21"
+    },
+    "fd.single_purpose": {
+      "value": "a single purpose agricultural or horticultural structure is one specifically designed, constructed and used for housing, raising and feeding a particular type of livestock and their produce, or for the commercial production of plants in a greenhouse; an enclosure providing work space qualifies only if that space is used solely for stockwork, for maintaining the enclosure and its equipment, or for maintaining or replacing the plants (IRC § 168(i)(13))",
+      "taxYear": 2026,
+      "source": "IRC § 168, read at law.cornell.edu/uscode/text/26/168",
+      "verified": "2026-08-21"
+    },
+    "fd.method_general": {
+      "value": "the general method is the 200 percent declining balance method with a switch to straight line in the first year that produces a larger allowance; 150 percent declining balance applies to 15-year and 20-year property, and the straight line method is required for nonresidential real property, residential rental property, railroad grading or tunnel bore, and any tree or vine bearing fruit or nuts (IRC § 168(b))",
+      "taxYear": 2026,
+      "source": "IRC § 168, read at law.cornell.edu/uscode/text/26/168",
+      "verified": "2026-08-21"
+    },
+    "fd.tcja_method": {
+      "value": "before 2018 IRC § 168(b)(2)(B) required the 150 percent declining balance method for any property used in a farming business; Pub. L. 115-97 § 13203(b) struck that subparagraph, so farm machinery placed in service after 2017 uses 200 percent declining balance like other property of its class",
+      "taxYear": 2026,
+      "source": "IRC § 168, read at law.cornell.edu/uscode/text/26/168",
+      "verified": "2026-08-21"
+    },
+    "fd.ads_electing": {
+      "value": "an electing farming business under IRC § 163(j)(7)(C), which escapes the business interest limitation, must use the alternative depreciation system for any property with a recovery period of 10 years or more — the straight line method without regard to salvage value, over the ADS recovery period (IRC § 168(g)(1)(G), (2))",
+      "taxYear": 2026,
+      "source": "IRC § 168, read at law.cornell.edu/uscode/text/26/168",
+      "verified": "2026-08-21"
+    },
+    "fd.specified_plant": {
+      "value": "a taxpayer may elect, for a specified plant planted or grafted in the ordinary course of a farming business, a depreciation deduction equal to 100 percent of the plant’s adjusted basis in the year of planting or grafting, with the basis reduced accordingly; a specified plant is a tree or vine bearing fruits or nuts, or another plant yielding more than one crop with a pre-productive period generally over 2 years, and not one planted or grafted outside the United States (IRC § 168(k)(5)(A), (B))",
+      "taxYear": 2026,
+      "source": "IRC § 168, read at law.cornell.edu/uscode/text/26/168",
+      "verified": "2026-08-21"
+    },
+    "fd.specified_plant_limits": {
+      "value": "the specified plant election is revocable only with the Secretary’s consent, and a plant to which it applies is not treated as qualified property in the year it is placed in service — so the additional depreciation is claimed once, at planting, and not again at first bearing (IRC § 168(k)(5)(C), (D))",
+      "taxYear": 2026,
+      "source": "IRC § 168, read at law.cornell.edu/uscode/text/26/168",
+      "verified": "2026-08-21"
+    },
+    "fd.175": {
+      "value": "a taxpayer engaged in the business of farming may treat expenditures for soil or water conservation on land used in farming, for the prevention of erosion of such land, or for endangered species recovery as expenses not chargeable to capital account (IRC § 175(a))",
+      "taxYear": 2026,
+      "source": "IRC § 175, read at law.cornell.edu/uscode/text/26/175",
+      "verified": "2026-08-21"
+    },
+    "fd.175_limit": {
+      "value": "the IRC § 175 deduction may not exceed 25 percent of gross income derived from farming for the year; the excess carries forward indefinitely in order of time, subject to the same 25 percent ceiling in each later year (IRC § 175(b))",
+      "taxYear": 2026,
+      "source": "IRC § 175(b), read at law.cornell.edu/uscode/text/26/175",
+      "verified": "2026-08-21"
+    },
+    "fd.180": {
+      "value": "a taxpayer engaged in the business of farming may elect to treat as expenses, rather than capitalise, expenditures for the purchase or acquisition of fertilizer, lime, ground limestone, marl or other materials to enrich, neutralise or condition land used in farming, and for applying them to that land (IRC § 180(a))",
+      "taxYear": 2026,
+      "source": "IRC § 180, read at law.cornell.edu/uscode/text/26/180",
+      "verified": "2026-08-21"
     }
   }
 }
