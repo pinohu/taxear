@@ -9535,6 +9535,24 @@
       "taxYear": 2026,
       "source": "IRC § 357(a), read at law.cornell.edu/uscode/text/26/357",
       "verified": "2026-08-21"
+    },
+    "cgroup.combined": {
+      "value": "a combined group is three or more corporations each of which is a member of a parent-subsidiary or brother-sister group and one of which is both a common parent of a parent-subsidiary group and a member of a brother-sister group; insurance companies taxed under IRC § 801 that are members of such a group are treated as a controlled group separate from the other members (IRC § 1563(a)(3), (4))",
+      "taxYear": 2026,
+      "source": "IRC § 1563(a)(3), (4), read at law.cornell.edu/uscode/text/26/1563",
+      "verified": "2026-08-21"
+    },
+    "cgroup.component_member": {
+      "value": "a corporation is a component member of a controlled group on a 31 December if it is a member of the group on that date and is not an excluded member, or is not a member on that date but is treated as an additional member — the status being fixed at a single date in the year rather than throughout it (IRC § 1563(b)(1))",
+      "taxYear": 2026,
+      "source": "IRC § 1563(b)(1), read at law.cornell.edu/uscode/text/26/1563",
+      "verified": "2026-08-21"
+    },
+    "cgroup.shared_credit": {
+      "value": "$250,000 — the component members of a controlled group on a 31 December are limited, for their taxable years including that date, to one such amount for computing the accumulated earnings credit under IRC § 535(c)(2) and (3), reduced to $150,000 if any component member is a service corporation described in § 535(c)(2)(B). The amount is divided equally among the component members unless regulations permit an unequal allocation (IRC § 1561(a))",
+      "taxYear": 2026,
+      "source": "IRC § 1561(a), read at law.cornell.edu/uscode/text/26/1561",
+      "verified": "2026-08-21"
     }
   }
 }

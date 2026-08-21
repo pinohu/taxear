@@ -16,7 +16,7 @@ authorities:
   - { type: IRC, ref: "§ 59A", title: "Tax on base erosion payments", url: "https://www.law.cornell.edu/uscode/text/26/59A" }
   - { type: IRC, ref: "§ 56A", title: "Adjusted financial statement income", url: "https://www.law.cornell.edu/uscode/text/26/56A" }
 forms: []
-related: ["2.1.3.a", "2.1.1.c", "2.1.3.h", "2.1.3.d"]
+related: ["2.1.3.a", "2.1.1.c", "2.1.3.h", "2.1.3.d", "2.1.4.e"]
 changelog:
   - { date: "2026-08-21", summary: "Initial draft. Sets out the IRC § 6655(a) addition to tax computed at the § 6621 underpayment rate, the § 6655(b) measurement of the underpayment and the period running to the fifteenth day of the fourth month after the year end, the § 6655(c) four instalments with the December fourth date, the § 6655(d) required annual payment at the lesser of the current or prior year figure, the § 6655(g)(2) definition of a large corporation by reference to $1,000,000 of taxable income in any of the three preceding years and the § 6655(d)(2) denial of the prior-year branch with the first-instalment exception and its recapture, the § 6655(e) annualised income and adjusted seasonal installments with their own recapture, the § 6655(f) de minimis rule, and the § 6655(g)(1) definition of tax." }
 ---

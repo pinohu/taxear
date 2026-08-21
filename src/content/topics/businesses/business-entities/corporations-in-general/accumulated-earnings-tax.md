@@ -18,7 +18,7 @@ authorities:
   - { type: IRC, ref: "§ 561", title: "Definition of deduction for dividends paid", url: "https://www.law.cornell.edu/uscode/text/26/561" }
   - { type: IRC, ref: "§ 303", title: "Distributions in redemption of stock to pay death taxes", url: "https://www.law.cornell.edu/uscode/text/26/303" }
 forms: []
-related: ["2.1.3.b", "2.1.3.c", "2.1.3.d", "2.1.3.a"]
+related: ["2.1.3.b", "2.1.3.c", "2.1.3.d", "2.1.3.a", "2.1.4.e"]
 changelog:
   - { date: "2026-08-21", summary: "Initial draft. Sets out the IRC § 531 rate and the fact that it applies to accumulated taxable income as defined in § 535 rather than to the accumulated balance of earnings and profits, the § 532 corporations reached and excepted, the § 533 evidentiary presumptions, the § 535(a) computation with the dividends paid deduction and the accumulated earnings credit, the § 535(c)(1) reasonable-needs credit and the § 535(c)(2) and (3) minimum credits including the reduced figure for listed service corporations and the denial of a reasonable-needs credit to a mere holding or investment company, and the § 537(a) meaning of reasonable needs." }
 ---
