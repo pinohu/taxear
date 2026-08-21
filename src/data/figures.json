@@ -10531,6 +10531,30 @@
       "taxYear": 2026,
       "source": "IRC § 267(a)(2), closing sentence, opened at law.cornell.edu/uscode/text/26/267",
       "verified": "2026-08-21"
+    },
+    "rent.deduction": {
+      "value": "rentals or other payments required to be made as a condition to the continued use or possession, for purposes of the trade or business, of property to which the taxpayer has not taken and is not taking title or in which the taxpayer has no equity",
+      "taxYear": 2026,
+      "source": "IRC § 162(a)(3), opened at law.cornell.edu/uscode/text/26/162",
+      "verified": "2026-08-21"
+    },
+    "rent.self_rental": {
+      "value": "gross rental activity income from an item of property, up to the net rental activity income from that item, is treated as not from a passive activity where the property is rented for use in a trade or business activity in which the taxpayer materially participates and is not property described in Reg. § 1.469-2T(f)(5)",
+      "taxYear": 2026,
+      "source": "Reg. § 1.469-2(f)(6), opened at law.cornell.edu/cfr/text/26/1.469-2",
+      "verified": "2026-08-21"
+    },
+    "rent.employer_rental": {
+      "value": "the home office deduction rules of IRC § 280A(c)(1) and (c)(3) do not apply to any item attributable to renting the dwelling unit to the taxpayer's employer during a period in which the taxpayer uses it in performing services as an employee",
+      "taxYear": 2026,
+      "source": "IRC § 280A(c)(6), opened at law.cornell.edu/uscode/text/26/280A",
+      "verified": "2026-08-21"
+    },
+    "rent.lease_acquisition": {
+      "value": "in amortising the cost of acquiring a lease the term is treated as including all renewal options, and any other period for which renewal is reasonably expected, if less than 75 percent of the cost is attributable to the term remaining on the date of acquisition",
+      "taxYear": 2026,
+      "source": "IRC § 178(a), opened at law.cornell.edu/uscode/text/26/178",
+      "verified": "2026-08-21"
     }
   }
 }
