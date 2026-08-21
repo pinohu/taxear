@@ -10,9 +10,9 @@ is indexed, and only the owner moves a page there (see `docs/VERIFICATION.md`).
 | Part | Topics | Stub | Draft | Review | Published | Words |
 |---|---:|---:|---:|---:|---:|---:|
 | 1. Individuals | 120 | 0 | 0 | 110 | 10 | 256,550 |
-| 2. Businesses | 119 | 31 | 0 | 88 | 0 | 206,949 |
+| 2. Businesses | 119 | 30 | 0 | 89 | 0 | 209,258 |
 | 3. Representation, Practices and Procedures | 121 | 0 | 0 | 0 | 121 | 257,674 |
-| **All parts** | **360** | **31** | **0** | **198** | **131** | **721,173** |
+| **All parts** | **360** | **30** | **0** | **199** | **131** | **723,482** |
 
 ## Part 1 — Individuals
 
@@ -351,7 +351,7 @@ is indexed, and only the owner moves a page there (see `docs/VERIFICATION.md`).
 | 2.2.5.h | [Transfer of property in or out of the business (e.g., contributed property, distributions)](/businesses/business-tax-preparation/advising-the-business-taxpayer/transfer-of-property-in-or-out-of-the-business/) | review | 2,460 | 2026-08-21 |
 | 2.2.5.i | [Life cycle of the business (e.g., formation, dissolution)](/businesses/business-tax-preparation/advising-the-business-taxpayer/life-cycle-of-the-business/) | review | 2,436 | 2026-08-21 |
 | 2.2.5.j | [Type of industry (e.g., specified service business owners)](/businesses/business-tax-preparation/advising-the-business-taxpayer/type-of-industry/) | review | 2,315 | 2026-08-21 |
-| 2.2.5.k | [Worker classification (i.e. independent contractor versus employee, outside sales, full-time vs part-time)](/businesses/business-tax-preparation/advising-the-business-taxpayer/worker-classification-i-e-independent-contractor-versus/) | stub | — | — |
+| 2.2.5.k | [Worker classification (i.e. independent contractor versus employee, outside sales, full-time vs part-time)](/businesses/business-tax-preparation/advising-the-business-taxpayer/worker-classification-i-e-independent-contractor-versus/) | review | 2,309 | 2026-08-21 |
 | 2.2.5.l | [Deductions and credits for tax planning (e.g., timing of income and expenses, NOL, depreciation versus IRC Section 179 versus bonus depreciation)](/businesses/business-tax-preparation/advising-the-business-taxpayer/deductions-and-credits-for-tax-planning/) | stub | — | — |
 | 2.2.5.m | [ACA compliance](/businesses/business-tax-preparation/advising-the-business-taxpayer/aca-compliance/) | stub | — | — |
 

@@ -21,7 +21,7 @@ authorities:
   - { type: Reg, ref: "§ 1.274-5T", title: "Substantiation requirements (temporary)", url: "https://www.law.cornell.edu/cfr/text/26/1.274-5T" }
   - { type: Reg, ref: "§ 1.274-5", title: "Substantiation requirements", url: "https://www.law.cornell.edu/cfr/text/26/1.274-5" }
 forms: []
-related: ["2.2.5.b", "2.2.5.a", "2.2.2.e", "2.2.2.f", "2.2.5.f"]
+related: ["2.2.5.b", "2.2.5.a", "2.2.2.e", "2.2.2.f", "2.2.5.f", "2.2.5.k"]
 changelog:
   - { date: "2026-08-21", summary: "Initial draft. Sets out the Reg. § 1.62-2 accountable plan requirements of business connection, substantiation to the payor and return of excess, with the two reasonable period safe harbours and the rule that an employee cannot convert a nonaccountable plan by voluntary substantiation, together with the Reg. § 1.274-5T adequate records standard, the contemporaneous recording requirement and the two-part alternative where records fall short." }
 ---

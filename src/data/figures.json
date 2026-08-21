@@ -12781,6 +12781,48 @@
       "taxYear": 2026,
       "source": "IRC § 460(e)(1), opened at law.cornell.edu/uscode/text/26/460",
       "verified": "2026-08-21"
+    },
+    "wc.employee": {
+      "value": "an employee is any officer of a corporation, any individual who has the status of an employee under the usual common law rules, and the four categories of statutory employee",
+      "taxYear": 2026,
+      "source": "IRC § 3121(d), opened at law.cornell.edu/uscode/text/26/3121",
+      "verified": "2026-08-21"
+    },
+    "wc.statutory_employee": {
+      "value": "four categories — an agent-driver or commission-driver distributing meat, vegetable, fruit or bakery products, beverages other than milk, or laundry or dry-cleaning; a full-time life insurance salesman; a home worker on materials furnished by the principal and required to be returned; and a full-time travelling or city salesman soliciting orders for resale or business supplies",
+      "taxYear": 2026,
+      "source": "IRC § 3121(d)(3), opened at law.cornell.edu/uscode/text/26/3121",
+      "verified": "2026-08-21"
+    },
+    "wc.statutory_employee_conditions": {
+      "value": "a statutory employee qualifies only if the contract of service contemplates that substantially all the services are to be performed personally, and is excluded if the individual has a substantial investment in facilities used in performing them, other than transportation facilities, or if the services are a single transaction not part of a continuing relationship",
+      "taxYear": 2026,
+      "source": "IRC § 3121(d)(3), opened at law.cornell.edu/uscode/text/26/3121",
+      "verified": "2026-08-21"
+    },
+    "wc.statutory_nonemployee": {
+      "value": "for services performed as a qualified real estate agent or as a direct seller, the individual is not treated as an employee and the person for whom the services are performed is not treated as an employer — for purposes of the whole title",
+      "taxYear": 2026,
+      "source": "IRC § 3508(a), opened at law.cornell.edu/uscode/text/26/3508",
+      "verified": "2026-08-21"
+    },
+    "wc.qualified_agent": {
+      "value": "a qualified real estate agent must be a licensed real estate salesperson, be remunerated substantially all by reference to sales or other output rather than hours worked, and perform the services under a written contract providing that the individual will not be treated as an employee for federal tax purposes",
+      "taxYear": 2026,
+      "source": "IRC § 3508(b)(1), opened at law.cornell.edu/uscode/text/26/3508",
+      "verified": "2026-08-21"
+    },
+    "wc.3509": {
+      "value": "where an employer failed to withhold because it treated an employee as a non-employee, its liability for chapter 24 withholding is computed as 1.5 percent of wages and its liability for the employee social security tax as 20 percent of the amount otherwise imposed",
+      "taxYear": 2026,
+      "source": "IRC § 3509(a), opened at law.cornell.edu/uscode/text/26/3509",
+      "verified": "2026-08-21"
+    },
+    "wc.3509_doubled": {
+      "value": "those rates double to 3 percent and 40 percent where the employer failed the IRC § 6041(a), § 6041A or § 6051 reporting requirements, unless the failure was due to reasonable cause and not wilful neglect",
+      "taxYear": 2026,
+      "source": "IRC § 3509(b)(1), opened at law.cornell.edu/uscode/text/26/3509",
+      "verified": "2026-08-21"
     }
   }
 }
