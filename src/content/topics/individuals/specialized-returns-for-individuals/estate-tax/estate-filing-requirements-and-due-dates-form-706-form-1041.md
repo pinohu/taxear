@@ -20,7 +20,7 @@ authorities:
   - { type: IRC, ref: "§ 645", title: "Certain revocable trusts treated as part of estate", url: "https://www.law.cornell.edu/uscode/text/26/645" }
   - { type: IRC, ref: "§ 2010", title: "Unified credit against estate tax", url: "https://www.law.cornell.edu/uscode/text/26/2010" }
 forms: []
-related: ["1.6.1.a", "1.6.1.b", "1.6.1.c", "1.6.1.d", "1.5.1.n"]
+related: ["1.6.1.a", "1.6.1.b", "1.6.1.c", "1.6.1.d", "1.5.1.n", "1.6.2.e"]
 changelog:
   - { date: "2026-08-20", summary: "Initial draft. Sets out the three returns a death produces and their deadlines — the final Form 1040, the estate's Form 1041 under IRC §§ 6012(a)(3) and 6072(a), and Form 706 under §§ 6018(a) and 6075(a) — with the § 6018(a)(3) reduction of the filing threshold by lifetime gifts, the § 441(e) constraint on an estate's fiscal year, the § 645 election, and the extensions available under §§ 6081 and 6161." }
 ---

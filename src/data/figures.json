@@ -7309,6 +7309,60 @@
       "taxYear": 2026,
       "source": "IRC § 2631, read at law.cornell.edu/uscode/text/26/2631",
       "verified": "2026-08-20"
+    },
+    "form709.who_files": {
+      "value": "any individual making a transfer by gift in a calendar year, except a transfer excluded by IRC § 2503(b) or (e), a transfer deductible under § 2523, and a qualifying entire-interest charitable transfer under § 2522 — so the exclusions decide the filing obligation, not the amount of tax (IRC § 6019)",
+      "taxYear": 2026,
+      "source": "IRC § 6019, read at law.cornell.edu/uscode/text/26/6019",
+      "verified": "2026-08-21"
+    },
+    "form709.due_date": {
+      "value": "15 April following the close of the calendar year (IRC § 6075(b)(1))",
+      "taxYear": 2026,
+      "source": "IRC § 6075(b)(1), read at law.cornell.edu/uscode/text/26/6075",
+      "verified": "2026-08-21"
+    },
+    "form709.automatic_extension": {
+      "value": "an extension of time granted for the donor's calendar-year income tax return is deemed also an extension for the gift tax return — no separate request is needed where a Form 4868 is already in (IRC § 6075(b)(2))",
+      "taxYear": 2026,
+      "source": "IRC § 6075(b)(2), read at law.cornell.edu/uscode/text/26/6075",
+      "verified": "2026-08-21"
+    },
+    "form709.death_year_cutoff": {
+      "value": "for the calendar year that includes the donor's death, the gift tax return is due no later than the time, including extensions, for filing that donor's estate tax return — which is usually earlier than the following 15 April (IRC § 6075(b)(3))",
+      "taxYear": 2026,
+      "source": "IRC § 6075(b)(3), read at law.cornell.edu/uscode/text/26/6075",
+      "verified": "2026-08-21"
+    },
+    "form709.who_pays": {
+      "value": "the donor (IRC § 2502(c)) — and payment is due at the time fixed for filing the return, determined without regard to any extension of time to file (IRC § 6151(a))",
+      "taxYear": 2026,
+      "source": "IRC §§ 2502(c) and 6151(a), read at law.cornell.edu",
+      "verified": "2026-08-21"
+    },
+    "form709.no_joint_return": {
+      "value": "there is no joint gift tax return — spouses who split gifts each file their own return and signify consent on it, and consent makes each liable for the entire tax of both for that year (IRC §§ 2513(b), (d))",
+      "taxYear": 2026,
+      "source": "IRC § 2513, read at law.cornell.edu/uscode/text/26/2513",
+      "verified": "2026-08-21"
+    },
+    "form709.gst_allocation_time": {
+      "value": "an allocation of GST exemption may be made at any time up to the date prescribed for filing the individual's estate tax return, with extensions, whether or not such a return is required (IRC § 2632(a)(1))",
+      "taxYear": 2026,
+      "source": "IRC § 2632(a), read at law.cornell.edu/uscode/text/26/2632",
+      "verified": "2026-08-21"
+    },
+    "form709.gst_deemed_allocation": {
+      "value": "exemption is allocated automatically to a lifetime direct skip so far as needed to bring the inclusion ratio to zero, unless the individual elects out of that treatment (IRC § 2632(b))",
+      "taxYear": 2026,
+      "source": "IRC § 2632(b), read at law.cornell.edu/uscode/text/26/2632",
+      "verified": "2026-08-21"
+    },
+    "form709.unlimited_assessment": {
+      "value": "where a gift required to be shown on a gift tax return — determined without regard to the annual exclusion — is not shown, the gift tax may be assessed at any time, with no period of limitation, unless the item is disclosed on the return or an attached statement in a manner adequate to apprise the Secretary of its nature (IRC § 6501(c)(9))",
+      "taxYear": 2026,
+      "source": "IRC § 6501(c)(9), read at law.cornell.edu/uscode/text/26/6501",
+      "verified": "2026-08-21"
     }
   }
 }

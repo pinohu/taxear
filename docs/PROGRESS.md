@@ -9,10 +9,10 @@ is indexed, and only the owner moves a page there (see `docs/VERIFICATION.md`).
 
 | Part | Topics | Stub | Draft | Review | Published | Words |
 |---|---:|---:|---:|---:|---:|---:|
-| 1. Individuals | 120 | 7 | 0 | 103 | 10 | 243,421 |
+| 1. Individuals | 120 | 6 | 0 | 104 | 10 | 245,260 |
 | 2. Businesses | 119 | 119 | 0 | 0 | 0 | 0 |
 | 3. Representation, Practices and Procedures | 121 | 0 | 0 | 0 | 121 | 257,674 |
-| **All parts** | **360** | **126** | **0** | **103** | **131** | **501,095** |
+| **All parts** | **360** | **125** | **0** | **104** | **131** | **502,934** |
 
 ## Part 1 — Individuals
 
@@ -195,7 +195,7 @@ is indexed, and only the owner moves a page there (see `docs/VERIFICATION.md`).
 | 1.6.2.b | [Annual exclusion](/individuals/specialized-returns-for-individuals/gift-tax/annual-exclusion/) | review | 1,947 | 2026-08-20 |
 | 1.6.2.c | [Unified credit](/individuals/specialized-returns-for-individuals/gift-tax/unified-credit/) | review | 1,978 | 2026-08-20 |
 | 1.6.2.d | [Effect on estate tax (e.g., Generation skipping transfer tax)](/individuals/specialized-returns-for-individuals/gift-tax/effect-on-estate-tax/) | review | 1,903 | 2026-08-20 |
-| 1.6.2.e | [Filing requirements (Form 709)](/individuals/specialized-returns-for-individuals/gift-tax/filing-requirements-form-709/) | stub | — | — |
+| 1.6.2.e | [Filing requirements (Form 709)](/individuals/specialized-returns-for-individuals/gift-tax/filing-requirements-form-709/) | review | 1,839 | 2026-08-21 |
 
 **1.6.3 International Information Reporting**
 
