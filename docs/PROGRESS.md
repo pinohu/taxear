@@ -10,9 +10,9 @@ is indexed, and only the owner moves a page there (see `docs/VERIFICATION.md`).
 | Part | Topics | Stub | Draft | Review | Published | Words |
 |---|---:|---:|---:|---:|---:|---:|
 | 1. Individuals | 120 | 0 | 0 | 110 | 10 | 256,550 |
-| 2. Businesses | 119 | 29 | 0 | 90 | 0 | 211,636 |
+| 2. Businesses | 119 | 28 | 0 | 91 | 0 | 213,865 |
 | 3. Representation, Practices and Procedures | 121 | 0 | 0 | 0 | 121 | 257,674 |
-| **All parts** | **360** | **29** | **0** | **200** | **131** | **725,860** |
+| **All parts** | **360** | **28** | **0** | **201** | **131** | **728,089** |
 
 ## Part 1 — Individuals
 
@@ -353,7 +353,7 @@ is indexed, and only the owner moves a page there (see `docs/VERIFICATION.md`).
 | 2.2.5.j | [Type of industry (e.g., specified service business owners)](/businesses/business-tax-preparation/advising-the-business-taxpayer/type-of-industry/) | review | 2,315 | 2026-08-21 |
 | 2.2.5.k | [Worker classification (i.e. independent contractor versus employee, outside sales, full-time vs part-time)](/businesses/business-tax-preparation/advising-the-business-taxpayer/worker-classification-i-e-independent-contractor-versus/) | review | 2,309 | 2026-08-21 |
 | 2.2.5.l | [Deductions and credits for tax planning (e.g., timing of income and expenses, NOL, depreciation versus IRC Section 179 versus bonus depreciation)](/businesses/business-tax-preparation/advising-the-business-taxpayer/deductions-and-credits-for-tax-planning/) | review | 2,378 | 2026-08-21 |
-| 2.2.5.m | [ACA compliance](/businesses/business-tax-preparation/advising-the-business-taxpayer/aca-compliance/) | stub | — | — |
+| 2.2.5.m | [ACA compliance](/businesses/business-tax-preparation/advising-the-business-taxpayer/aca-compliance/) | review | 2,229 | 2026-08-21 |
 
 ### 2.3 Specialized Returns and Taxpayers
 

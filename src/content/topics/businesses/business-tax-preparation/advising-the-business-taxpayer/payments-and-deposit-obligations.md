@@ -19,7 +19,7 @@ authorities:
   - { type: IRC, ref: "§ 7503", title: "Time for performance of acts where last day falls on Saturday, Sunday, or legal holiday", url: "https://www.law.cornell.edu/uscode/text/26/7503" }
   - { type: Reg, ref: "§ 31.6302-1", title: "Federal tax deposit rules for withheld income taxes and taxes under FICA", url: "https://www.law.cornell.edu/cfr/text/26/31.6302-1" }
 forms: []
-related: ["2.2.5.a", "2.2.5.c", "2.2.2.j", "2.2.5.k", "2.2.5.g"]
+related: ["2.2.5.a", "2.2.5.c", "2.2.2.j", "2.2.5.k", "2.2.5.g", "2.2.5.m"]
 changelog:
   - { date: "2026-08-21", summary: "Initial draft. Sets out the IRC § 3301 FUTA rate on the IRC § 3306(b)(1) wage base with the IRC § 3302 state credit and its 90 percent ceiling and credit reduction mechanism, the Reg. § 31.6302-1 monthly and semi-weekly deposit schedules with the lookback period that fixes them, the $100,000 next-day rule and the status change it forces, the $2,500 de minimis relief, and the IRC § 6656 penalty tiers." }
 ---

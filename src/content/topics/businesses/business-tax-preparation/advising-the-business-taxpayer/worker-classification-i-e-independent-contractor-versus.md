@@ -22,7 +22,7 @@ authorities:
   - { type: IRC, ref: "§ 6722", title: "Failure to furnish correct payee statements", url: "https://www.law.cornell.edu/uscode/text/26/6722" }
   - { type: Reg, ref: "§ 31.3121(d)-1", title: "Who are employees", url: "https://www.law.cornell.edu/cfr/text/26/31.3121(d)-1" }
 forms: []
-related: ["2.2.5.b", "2.2.2.j", "2.2.5.a", "2.2.5.c", "2.2.5.l"]
+related: ["2.2.5.b", "2.2.2.j", "2.2.5.a", "2.2.5.c", "2.2.5.l", "2.2.5.m"]
 changelog:
   - { date: "2026-08-21", summary: "Initial draft. Sets out the IRC § 3121(d) definition of employee in its three limbs — corporate officers, the common law test, and the four statutory employee categories with their two conditions and two exclusions — the IRC § 3508 statutory nonemployee treatment of qualified real estate agents and direct sellers with its written contract requirement, and the IRC § 3509 reduced-rate assessment for a misclassification with the doubling where reporting requirements were also missed." }
 ---

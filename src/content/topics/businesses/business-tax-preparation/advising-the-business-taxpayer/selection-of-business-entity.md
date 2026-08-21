@@ -26,7 +26,7 @@ authorities:
   - { type: IRC, ref: "§ 707", title: "Transactions between partner and partnership", url: "https://www.law.cornell.edu/uscode/text/26/707" }
   - { type: Reg, ref: "§ 301.7701-3", title: "Classification of certain business entities", url: "https://www.law.cornell.edu/cfr/text/26/301.7701-3" }
 forms: []
-related: ["2.2.5.d", "2.2.4.a", "2.2.5.i", "2.2.5.j", "2.2.5.f", "2.2.5.h"]
+related: ["2.2.5.d", "2.2.4.a", "2.2.5.i", "2.2.5.j", "2.2.5.f", "2.2.5.h", "2.2.5.m"]
 changelog:
   - { date: "2026-08-21", summary: "Initial draft. Sets out the four axes on which entity choice actually turns — the IRC § 11(b) corporate rate against single-level taxation, the IRC § 1402 self-employment tax treatment of each form, the IRC § 199A computation and its different mechanics by entity, and the flexibility differences in allocation, basis and exit — together with the IRC § 1361(b) eligibility limits that decide whether the S election is available at all." }
 ---

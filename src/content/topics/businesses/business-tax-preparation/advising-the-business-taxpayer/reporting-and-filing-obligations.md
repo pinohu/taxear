@@ -24,7 +24,7 @@ authorities:
   - { type: IRC, ref: "§ 6038D", title: "Information with respect to foreign financial assets", url: "https://www.law.cornell.edu/uscode/text/26/6038D" }
   - { type: RevProc, ref: "Rev. Proc. 2025-32", title: "Inflation-adjusted items for 2026", url: "https://www.irs.gov/pub/irs-drop/rp-25-32.pdf" }
 forms: []
-related: ["2.2.5.b", "2.2.5.c", "2.2.4.a", "2.2.5.g", "2.2.4.d", "2.2.5.i", "2.2.5.k"]
+related: ["2.2.5.b", "2.2.5.c", "2.2.4.a", "2.2.5.g", "2.2.4.d", "2.2.5.i", "2.2.5.k", "2.2.5.m"]
 changelog:
   - { date: "2026-08-21", summary: "Initial draft. Sets out the IRC § 6072 due dates and the IRC § 6081 extension with its payment condition, the per-owner per-month late filing penalties in IRC §§ 6698 and 6699 at the Rev. Proc. 2025-32 figures for returns filed in 2027, the IRC § 6721 and § 6722 information return and payee statement penalties with their correction tiers and intentional disregard floor, the IRC § 6050I cash reporting requirement, and the international information return penalties in IRC §§ 6038, 6038A and 6038D." }
 ---

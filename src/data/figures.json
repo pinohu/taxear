@@ -12853,6 +12853,72 @@
       "taxYear": 2026,
       "source": "IRC § 168(k)(7), opened at law.cornell.edu/uscode/text/26/168",
       "verified": "2026-08-21"
+    },
+    "aca.ale": {
+      "value": "an applicable large employer is one that employed an average of at least 50 full-time employees on business days during the preceding calendar year — so status for the current year is fixed by last year’s workforce",
+      "taxYear": 2026,
+      "source": "IRC § 4980H(c)(2)(A), opened at law.cornell.edu/uscode/text/26/4980H",
+      "verified": "2026-08-21"
+    },
+    "aca.full_time": {
+      "value": "a full-time employee is one employed on average at least 30 hours of service per week for the month — not a contractual description and not a job title",
+      "taxYear": 2026,
+      "source": "IRC § 4980H(c)(4)(A), opened at law.cornell.edu/uscode/text/26/4980H",
+      "verified": "2026-08-21"
+    },
+    "aca.seasonal": {
+      "value": "an employer is not treated as employing more than 50 full-time employees where its workforce exceeds 50 for 120 days or fewer during the calendar year and the employees in excess of 50 during that period were seasonal workers",
+      "taxYear": 2026,
+      "source": "IRC § 4980H(c)(2)(B), opened at law.cornell.edu/uscode/text/26/4980H",
+      "verified": "2026-08-21"
+    },
+    "aca.aggregation": {
+      "value": "all persons treated as a single employer under IRC § 414(b), (c), (m) or (o) are treated as one employer for the size test — and a predecessor counts as the employer",
+      "taxYear": 2026,
+      "source": "IRC § 4980H(c)(2)(C)(i) and (iii), opened at law.cornell.edu/uscode/text/26/4980H",
+      "verified": "2026-08-21"
+    },
+    "aca.a_payment": {
+      "value": "where an applicable large employer offers no minimum essential coverage and at least one full-time employee receives a premium tax credit for a month, the payment is the applicable payment amount multiplied by the number of full-time employees for that month",
+      "taxYear": 2026,
+      "source": "IRC § 4980H(a), opened at law.cornell.edu/uscode/text/26/4980H",
+      "verified": "2026-08-21"
+    },
+    "aca.b_payment": {
+      "value": "where the employer does offer coverage but one or more full-time employees still receive a premium tax credit, the payment is computed on those employees only, subject to an overall ceiling measured by what the no-coverage payment would have been",
+      "taxYear": 2026,
+      "source": "IRC § 4980H(b), opened at law.cornell.edu/uscode/text/26/4980H",
+      "verified": "2026-08-21"
+    },
+    "aca.thirty_reduction": {
+      "value": "the number of full-time employees in a month is reduced by 30 solely for computing the no-coverage payment and the overall ceiling on the offered-coverage payment — with a single reduction allocated among aggregated employers",
+      "taxYear": 2026,
+      "source": "IRC § 4980H(c)(2)(D), opened at law.cornell.edu/uscode/text/26/4980H",
+      "verified": "2026-08-21"
+    },
+    "aca.indexation": {
+      "value": "the statutory payment amounts are indexed for calendar years after 2014 by the premium adjustment percentage under section 1302(c)(4) of the Patient Protection and Affordable Care Act, so the figures in the Code text understate the current amounts substantially",
+      "taxYear": 2026,
+      "source": "IRC § 4980H(c)(5), opened at law.cornell.edu/uscode/text/26/4980H",
+      "verified": "2026-08-21"
+    },
+    "aca.reporting": {
+      "value": "an applicable large employer must file a return under IRC § 6056 reporting its offer of coverage, and any person providing minimum essential coverage must file a return under IRC § 6055 — two separate obligations that a self-insured large employer meets on one form",
+      "taxYear": 2026,
+      "source": "IRC § 6056(a) and § 6055(a), opened at law.cornell.edu/uscode/text/26/6056",
+      "verified": "2026-08-21"
+    },
+    "aca.45R_2026": {
+      "value": "$34,100 — the IRC § 45R(d)(3)(B) dollar amount for a taxable year beginning in 2026, used to limit the small employer health insurance credit and, doubled, to set the average annual wage ceiling for an eligible small employer",
+      "taxYear": 2026,
+      "source": "Rev. Proc. 2025-32 § 3.09, opened at irs.gov/pub/irs-drop/rp-25-32.pdf; IRC § 45R(d), opened at law.cornell.edu/uscode/text/26/45R",
+      "verified": "2026-08-21"
+    },
+    "aca.45R_eligible": {
+      "value": "an eligible small employer has no more than 25 full-time equivalent employees, average annual wages not exceeding twice the indexed dollar amount, and a qualifying arrangement contributing toward employee premiums",
+      "taxYear": 2026,
+      "source": "IRC § 45R(d)(1), opened at law.cornell.edu/uscode/text/26/45R",
+      "verified": "2026-08-21"
     }
   }
 }
