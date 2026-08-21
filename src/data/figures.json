@@ -12823,6 +12823,36 @@
       "taxYear": 2026,
       "source": "IRC § 3509(b)(1), opened at law.cornell.edu/uscode/text/26/3509",
       "verified": "2026-08-21"
+    },
+    "plan.nol_carryforward": {
+      "value": "a net operating loss arising in a taxable year beginning after 31 December 2017 is carried forward indefinitely, with no carryback except for the farming and insurance company categories the section preserves",
+      "taxYear": 2026,
+      "source": "IRC § 172(b)(1)(A)(ii)(II), opened at law.cornell.edu/uscode/text/26/172",
+      "verified": "2026-08-21"
+    },
+    "plan.nol_eighty": {
+      "value": "losses arising in years beginning after 31 December 2017 may offset only 80 percent of the excess of taxable income, computed without the net operating loss, IRC § 199A and IRC § 250 deductions, over the pre-2018 losses used — so a company with a large carryforward always has taxable income",
+      "taxYear": 2026,
+      "source": "IRC § 172(a)(2), opened at law.cornell.edu/uscode/text/26/172",
+      "verified": "2026-08-21"
+    },
+    "plan.nol_ordering": {
+      "value": "pre-2018 losses are used first and without the percentage limitation, and only then are post-2017 losses applied against the 80 percent ceiling on what remains",
+      "taxYear": 2026,
+      "source": "IRC § 172(a)(2)(A) and (B), opened at law.cornell.edu/uscode/text/26/172",
+      "verified": "2026-08-21"
+    },
+    "plan.179_income_limit": {
+      "value": "the IRC § 179 deduction after the dollar limitation and the phase-out may not exceed the taxpayer’s aggregate taxable income derived from the active conduct of any trade or business, with the disallowed amount carried forward",
+      "taxYear": 2026,
+      "source": "IRC § 179(b)(3), opened at law.cornell.edu/uscode/text/26/179",
+      "verified": "2026-08-21"
+    },
+    "plan.bonus_election_out": {
+      "value": "a taxpayer may elect out of the additional first year depreciation for any class of property for a taxable year, and the election may be revoked only with the Secretary’s consent — so the choice is made class by class and is effectively final",
+      "taxYear": 2026,
+      "source": "IRC § 168(k)(7), opened at law.cornell.edu/uscode/text/26/168",
+      "verified": "2026-08-21"
     }
   }
 }

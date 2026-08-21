@@ -19,7 +19,7 @@ authorities:
   - { type: IRC, ref: "§ 1231", title: "Property used in the trade or business and involuntary conversions", url: "https://www.law.cornell.edu/uscode/text/26/1231" }
   - { type: IRC, ref: "§ 250", title: "Foreign-derived deduction eligible income and global intangible low-taxed income", url: "https://www.law.cornell.edu/uscode/text/26/250" }
 forms: []
-related: ["2.2.1.c", "2.2.2.m", "2.2.1.d", "2.2.1.a", "2.2.2.l"]
+related: ["2.2.1.c", "2.2.2.m", "2.2.1.d", "2.2.1.a", "2.2.2.l", "2.2.5.l"]
 changelog:
   - { date: "2026-08-21", summary: "Initial draft. Sets out the IRC § 172(c) definition and the IRC § 172(d) modifications that make a net operating loss different from a book or economic loss, in particular the IRC § 172(d)(4) restriction on non-business deductions of a non-corporate taxpayer and the items IRC § 172(d)(4)(A), (C) and (D) do and do not treat as attributable to the trade or business. Records the three carryover regimes since 2017, the IRC § 172(b)(1)(C) survival of the older rules for a non-life insurance company, and the IRC § 172(b)(3) waiver election that most taxpayers no longer need." }
 ---
