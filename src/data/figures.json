@@ -13357,6 +13357,138 @@
       "taxYear": 2026,
       "source": "IRC § 6033, read at law.cornell.edu/uscode/text/26/6033",
       "verified": "2026-08-21"
+    },
+    "app.form1023": {
+      "value": "an organisation seeking recognition of exemption under IRC § 501(c)(3) — including one to which § 501(e), (f), (k), (n), (q) or (r) applies — must electronically submit a completed Form 1023 at pay.gov, unless it is eligible for and chooses Form 1023-EZ (Rev. Proc. 2026-5 § 6.06(1))",
+      "taxYear": 2026,
+      "source": "Rev. Proc. 2026-5, 2026-1 I.R.B. 259, read in Internal Revenue Bulletin 2026-1 at irs.gov/pub/irs-irbs/irb26-01.pdf",
+      "verified": "2026-08-21"
+    },
+    "app.form1023ez": {
+      "value": "an eligible organisation may, but is not required to, seek recognition under IRC § 501(c)(3) by submitting the electronic Form 1023-EZ; it may always use the full Form 1023 instead (Rev. Proc. 2026-5 § 6.06(2))",
+      "taxYear": 2026,
+      "source": "Rev. Proc. 2026-5, 2026-1 I.R.B. 259, read in Internal Revenue Bulletin 2026-1 at irs.gov/pub/irs-irbs/irb26-01.pdf",
+      "verified": "2026-08-21"
+    },
+    "app.form1024": {
+      "value": "an organisation seeking a determination letter recognising exemption under IRC § 501(c)(2), (5)-(19), (21)-(23), (25)-(29) or (d), or under IRC § 521, submits Form 1024 electronically; only organisations operating under IRC § 501(c)(9) or (17) are required to apply, the rest applying by choice or because IRC § 6033(j)(2) requires it after automatic revocation (Rev. Proc. 2026-5 § 6.06(3))",
+      "taxYear": 2026,
+      "source": "Rev. Proc. 2026-5, 2026-1 I.R.B. 259, read in Internal Revenue Bulletin 2026-1 at irs.gov/pub/irs-irbs/irb26-01.pdf",
+      "verified": "2026-08-21"
+    },
+    "app.form1024a": {
+      "value": "an organisation seeking a determination letter recognising exemption under IRC § 501(c)(4) submits Form 1024-A electronically with the user fee at pay.gov; the filing is optional except where IRC § 6033(j)(2) compels it, and it does not relieve the organisation of the separate Form 8976 notice (Rev. Proc. 2026-5 § 6.06(4))",
+      "taxYear": 2026,
+      "source": "Rev. Proc. 2026-5, 2026-1 I.R.B. 259, read in Internal Revenue Bulletin 2026-1 at irs.gov/pub/irs-irbs/irb26-01.pdf",
+      "verified": "2026-08-21"
+    },
+    "app.form8976": {
+      "value": "an organisation described in IRC § 501(c)(4) must, not later than 60 days after it is established, notify the Secretary that it is operating as such by submitting Form 8976 with the accompanying user fee; the notice states the organisation’s name, address and taxpayer identification number, the date and state of organisation, and its purpose, and the Secretary must acknowledge receipt within 60 days (IRC § 506(a)-(e))",
+      "taxYear": 2026,
+      "source": "IRC § 506, read at law.cornell.edu/uscode/text/26/506",
+      "verified": "2026-08-21"
+    },
+    "app.notice_requirement": {
+      "value": "except for churches, their integrated auxiliaries, and public charities whose annual gross receipts are normally less than $5,000, an organisation is not treated as described in IRC § 501(c)(3) unless it notifies the Service by applying for recognition",
+      "taxYear": 2026,
+      "source": "IRS, Application for recognition of exemption, read at irs.gov/charities-non-profits/application-for-recognition-of-exemption",
+      "verified": "2026-08-21"
+    },
+    "app.15_month": {
+      "value": "an organisation seeking exemption under IRC § 501(c)(3) must file the IRC § 508(a) notice within 15 months from the end of the month in which it was organised, by submitting a properly completed Form 1023 or, if applicable, Form 1023-EZ (Treas. Reg. § 1.508-1(a)(2)(i))",
+      "taxYear": 2026,
+      "source": "Treas. Reg. § 1.508-1(a)(2)(i), read at law.cornell.edu/cfr/text/26/1.508-1",
+      "verified": "2026-08-21"
+    },
+    "app.9100_2": {
+      "value": "an automatic 12-month extension from the due date is granted for the 15-month rule for filing an exemption application for an IRC § 501(c)(3) organisation under IRC § 508, and for the same rule under IRC § 505 for an organisation described in IRC § 501(c)(9), (17) or (20), provided corrective action is taken within the extension period — which is where the familiar 27 months comes from (Treas. Reg. § 301.9100-2(a)(2)(iii), (iv))",
+      "taxYear": 2026,
+      "source": "Treas. Reg. § 301.9100-2(a), read at law.cornell.edu/cfr/text/26/301.9100-2",
+      "verified": "2026-08-21"
+    },
+    "app.effective_date": {
+      "value": "a determination letter recognising exemption under IRC § 501(c), other than § 501(c)(29), is effective as of the date of formation if the organisation’s purposes and activities before the determination were consistent with the requirements for exemption and it applied within 27 months from the end of the month in which it was organised (Rev. Proc. 2026-5 § 6.09(1))",
+      "taxYear": 2026,
+      "source": "Rev. Proc. 2026-5, 2026-1 I.R.B. 259, read in Internal Revenue Bulletin 2026-1 at irs.gov/pub/irs-irbs/irb26-01.pdf",
+      "verified": "2026-08-21"
+    },
+    "app.late_effective_date": {
+      "value": "an organisation that otherwise qualifies but applied after the 27-month window is recognised only from the postmark or submission date of its Form 1023, 1023-EZ, 1024 or 1024-A (Rev. Proc. 2026-5 § 6.09(2))",
+      "taxYear": 2026,
+      "source": "Rev. Proc. 2026-5, 2026-1 I.R.B. 259, read in Internal Revenue Bulletin 2026-1 at irs.gov/pub/irs-irbs/irb26-01.pdf",
+      "verified": "2026-08-21"
+    },
+    "app.9100_3": {
+      "value": "an organisation that missed the window may request relief under Treas. Reg. § 301.9100-3 for an earlier effective date, but may not use Form 1023-EZ to do so — it must file Form 1023 — and relief is denied where granting it would leave the organisation automatically revoked under IRC § 6033(j)(1) before the application date, or where the IRC § 6501(a) assessment period for a year claimed as exempt has already expired (Rev. Proc. 2026-5 § 6.09(3))",
+      "taxYear": 2026,
+      "source": "Rev. Proc. 2026-5, 2026-1 I.R.B. 259, read in Internal Revenue Bulletin 2026-1 at irs.gov/pub/irs-irbs/irb26-01.pdf",
+      "verified": "2026-08-21"
+    },
+    "app.amendments": {
+      "value": "where the Service requires the organisation to alter its activities or make substantive amendments to its enabling instrument, exemption is effective from the date specified in the determination letter; where the required amendment is non-substantive — correcting a clerical error, or adding a dissolution clause where prior activities were consistent with exemption — recognition is ordinarily from the date of formation (Rev. Proc. 2026-5 § 6.09(5))",
+      "taxYear": 2026,
+      "source": "Rev. Proc. 2026-5, 2026-1 I.R.B. 259, read in Internal Revenue Bulletin 2026-1 at irs.gov/pub/irs-irbs/irb26-01.pdf",
+      "verified": "2026-08-21"
+    },
+    "app.fees": {
+      "value": "Form 1023-EZ application $275; all other applications for recognition of exemption under IRC § 501 and under § 521 $600; group exemption letters $3,500, though the Service is not currently accepting group exemption letter requests; Treas. Reg. § 301.9100 relief in connection with applications $600; affirmation letters and Canadian registered charity requests, no fee (Rev. Proc. 2026-5, Appendix A)",
+      "taxYear": 2026,
+      "source": "Rev. Proc. 2026-5, 2026-1 I.R.B. 259, read in Internal Revenue Bulletin 2026-1 at irs.gov/pub/irs-irbs/irb26-01.pdf",
+      "verified": "2026-08-21"
+    },
+    "app.ez_financial": {
+      "value": "an organisation may not use Form 1023-EZ if it projects annual gross receipts over $50,000 in any of the next 3 years, has had annual gross receipts over $50,000 in any of the past 3 years, or holds total assets with a fair market value over $250,000 (Form 1023-EZ Eligibility Worksheet, questions 1-3)",
+      "taxYear": 2026,
+      "source": "Instructions for Form 1023-EZ (rev. 01/2025), Eligibility Worksheet, read at irs.gov/instructions/i1023ez",
+      "verified": "2026-08-21"
+    },
+    "app.ez_other": {
+      "value": "the worksheet also disqualifies an organisation formed under foreign law or with a foreign mailing address, an LLC or any entity other than a corporation, unincorporated association or trust, a for-profit entity or the successor to one, an organisation previously revoked other than by automatic revocation, a successor to or entity controlled by an organisation suspended under IRC § 501(p), a church, school or hospital described in IRC § 170(b)(1)(A)(i)-(iii), and a private operating foundation — a \"yes\" to any worksheet question means Form 1023 (Form 1023-EZ Eligibility Worksheet)",
+      "taxYear": 2026,
+      "source": "Instructions for Form 1023-EZ (rev. 01/2025), Eligibility Worksheet, read at irs.gov/instructions/i1023ez",
+      "verified": "2026-08-21"
+    },
+    "app.ez_attest": {
+      "value": "the applicant must complete the Eligibility Worksheet before filing, check the attestation box on the form confirming eligibility and that it has read and understands the requirements for exemption, and retain the worksheet — it is not submitted with the form (Instructions for Form 1023-EZ, Eligibility)",
+      "taxYear": 2026,
+      "source": "Instructions for Form 1023-EZ (rev. 01/2025), Eligibility Worksheet, read at irs.gov/instructions/i1023ez",
+      "verified": "2026-08-21"
+    },
+    "app.ein": {
+      "value": "the organisation should request an employer identification number on Form SS-4 even if it has no employees; international applicants may call the non-toll-free number the Service publishes for the purpose",
+      "taxYear": 2026,
+      "source": "IRS, Application for recognition of exemption, read at irs.gov/charities-non-profits/application-for-recognition-of-exemption",
+      "verified": "2026-08-21"
+    },
+    "app.protest": {
+      "value": "to protest a proposed adverse determination letter on an issue eligible for Appeals consideration, the organisation must submit a statement of the facts, law and arguments supporting its position within 30 days of the date of the proposed adverse letter, stating whether it wants an Appeals conference; without a timely protest a final adverse determination letter issues (Rev. Proc. 2026-5 § 9.04, 9.05)",
+      "taxYear": 2026,
+      "source": "Rev. Proc. 2026-5, 2026-1 I.R.B. 259, read in Internal Revenue Bulletin 2026-1 at irs.gov/pub/irs-irbs/irb26-01.pdf",
+      "verified": "2026-08-21"
+    },
+    "app.withdrawal": {
+      "value": "withdrawing an application under IRC § 501(c) or (d) is neither a failure to make a determination within the meaning of IRC § 7428(a)(2) nor an exhaustion of administrative remedies within the meaning of IRC § 7428(b)(2), the Service retains the application and supporting documents, and the user fee is generally not refunded (Rev. Proc. 2026-5 § 8.01, 8.02)",
+      "taxYear": 2026,
+      "source": "Rev. Proc. 2026-5, 2026-1 I.R.B. 259, read in Internal Revenue Bulletin 2026-1 at irs.gov/pub/irs-irbs/irb26-01.pdf",
+      "verified": "2026-08-21"
+    },
+    "app.7428_exhaustion": {
+      "value": "no declaratory judgment issues unless the court finds the organisation has exhausted its administrative remedies; an organisation is deemed to have exhausted them as to the Secretary’s failure to determine at the expiration of 270 days after the request, if it took all reasonable steps in a timely manner, and where the Secretary mails a determination the pleading must be filed before the 91st day after mailing (IRC § 7428(b)(2), (3))",
+      "taxYear": 2026,
+      "source": "IRC § 7428(b), read at law.cornell.edu/uscode/text/26/7428",
+      "verified": "2026-08-21"
+    },
+    "app.6104a": {
+      "value": "once the Service determines that an organisation described in IRC § 501(c) or (d) is exempt, the application on which the determination was made, the papers submitted in support of it, and any letter or document the Service issued about it are open to public inspection (IRC § 6104(a)(1)(A))",
+      "taxYear": 2026,
+      "source": "IRC § 6104(a), read at law.cornell.edu/uscode/text/26/6104",
+      "verified": "2026-08-21"
+    },
+    "app.6104d": {
+      "value": "the organisation itself must make its exempt status application materials, its annual IRC § 6033 returns and any Form 990-T available for inspection during regular business hours at its principal office and at each regional or district office with three or more employees (IRC § 6104(d)(1)(A))",
+      "taxYear": 2026,
+      "source": "IRC § 6104(d), read at law.cornell.edu/uscode/text/26/6104",
+      "verified": "2026-08-21"
     }
   }
 }
