@@ -13879,6 +13879,108 @@
       "taxYear": 2026,
       "source": "IRS, Form 5500 corner, read at irs.gov/retirement-plans/form-5500-corner",
       "verified": "2026-08-21"
+    },
+    "se.sep_eligibility": {
+      "value": "a simplified employee pension satisfies the participation requirement for a year only if the employer contributes for each employee who has attained age 21, has performed service for the employer during at least 3 of the immediately preceding 5 years, and received at least the indexed compensation amount from the employer for the year; employees covered by a collective bargaining agreement and non-resident aliens without US-source income may be excluded (IRC § 408(k)(2))",
+      "taxYear": 2026,
+      "source": "IRC § 408, read at law.cornell.edu/uscode/text/26/408",
+      "verified": "2026-08-21"
+    },
+    "se.sep_comp": {
+      "value": "the IRC § 408(k)(2)(C) compensation threshold for SEP participation is $800 for 2026, up from $750; the statutory figure is $450, indexed",
+      "taxYear": 2026,
+      "source": "Notice 2025-67, 2026 amounts relating to retirement plans and IRAs, read at irs.gov/pub/irs-drop/n-25-67.pdf",
+      "verified": "2026-08-21"
+    },
+    "se.sep_uniform": {
+      "value": "contributions must not discriminate in favour of highly compensated employees, and are considered discriminatory unless they bear a uniform relationship to the compensation of each participating employee, subject to the permitted disparity rules of IRC § 401(l)(2) (IRC § 408(k)(3))",
+      "taxYear": 2026,
+      "source": "IRC § 408, read at law.cornell.edu/uscode/text/26/408",
+      "verified": "2026-08-21"
+    },
+    "se.sep_vesting": {
+      "value": "a SEP qualifies only if employer contributions are not conditioned on retaining any part of the amount contributed and the employer imposes no prohibition on withdrawals — which is what makes a SEP immediately and fully vested (IRC § 408(k)(4))",
+      "taxYear": 2026,
+      "source": "IRC § 408, read at law.cornell.edu/uscode/text/26/408",
+      "verified": "2026-08-21"
+    },
+    "se.sep_limit": {
+      "value": "the employer contribution to a SEP is bounded by the IRC § 415(c)(1) annual additions limit — the lesser of the dollar limit for the year or 100 percent of the participant’s compensation — and by the IRC § 404(h) deduction ceiling of 25 percent of compensation, with compensation itself capped at the IRC § 401(a)(17) amount",
+      "taxYear": 2026,
+      "source": "IRC §§ 404(h) and 415(c), read at law.cornell.edu/uscode/text/26/404 and /415",
+      "verified": "2026-08-21"
+    },
+    "se.simple_eligible_employer": {
+      "value": "an eligible employer for SIMPLE purposes is one that had no more than 100 employees receiving at least $5,000 of compensation for the preceding year; an employer that establishes a plan and later fails the test is treated as eligible for the 2 following years, except where the failure arises from an acquisition, disposition or similar transaction (IRC § 408(p)(2)(C)(i))",
+      "taxYear": 2026,
+      "source": "IRC § 408, read at law.cornell.edu/uscode/text/26/408",
+      "verified": "2026-08-21"
+    },
+    "se.simple_participation": {
+      "value": "all employees who received at least $5,000 in compensation from the employer during any 2 preceding years and are reasonably expected to receive at least $5,000 during the year must be eligible to make the salary reduction election or receive the nonelective contribution; employees described in IRC § 410(b)(3) may be excluded (IRC § 408(p)(4))",
+      "taxYear": 2026,
+      "source": "IRC § 408, read at law.cornell.edu/uscode/text/26/408",
+      "verified": "2026-08-21"
+    },
+    "se.simple_match": {
+      "value": "the employer must match elective contributions up to the applicable percentage of compensation for the year, which is 3 percent; an employer may elect a lower percentage of not less than 1 percent, but not if that would make the percentage lower than 3 in more than 2 years of the 5-year period ending with that year. For an employer with more than 25 employees receiving at least $5,000 of compensation in the preceding year that makes the IRC § 408(p)(2)(E)(i)(II) election, the applicable percentage is 4 percent (IRC § 408(p)(2)(A)(iii), (C)(ii))",
+      "taxYear": 2026,
+      "source": "IRC § 408, read at law.cornell.edu/uscode/text/26/408",
+      "verified": "2026-08-21"
+    },
+    "se.simple_nonelective": {
+      "value": "in lieu of matching, the employer may elect to make nonelective contributions of 2 percent of compensation for each employee eligible to participate who has at least $5,000 of compensation for the year, notifying employees within a reasonable period before the 60-day election period; compensation for this purpose is capped at the IRC § 401(a)(17) amount (IRC § 408(p)(2)(B))",
+      "taxYear": 2026,
+      "source": "IRC § 408, read at law.cornell.edu/uscode/text/26/408",
+      "verified": "2026-08-21"
+    },
+    "se.simple_extra": {
+      "value": "the employer may in addition make nonelective contributions of a uniform percentage of up to 10 percent of compensation for each eligible employee with at least $5,000 of compensation for the year, capped at $5,000 per employee for the year (IRC § 408(p)(2)(A)(iv))",
+      "taxYear": 2026,
+      "source": "IRC § 408, read at law.cornell.edu/uscode/text/26/408",
+      "verified": "2026-08-21"
+    },
+    "se.simple_vesting": {
+      "value": "an employee’s rights to any contribution to a SIMPLE retirement account are nonforfeitable, with rules similar to the SEP withdrawal rules applying (IRC § 408(p)(3))",
+      "taxYear": 2026,
+      "source": "IRC § 408, read at law.cornell.edu/uscode/text/26/408",
+      "verified": "2026-08-21"
+    },
+    "se.simple_exclusive": {
+      "value": "a salary reduction arrangement is not qualified for a year if the employer or a predecessor maintained a qualified plan under which contributions were made or benefits accrued for service in that year (IRC § 408(p)(2)(D))",
+      "taxYear": 2026,
+      "source": "IRC § 408, read at law.cornell.edu/uscode/text/26/408",
+      "verified": "2026-08-21"
+    },
+    "se.simple_timing": {
+      "value": "elective contributions must reach the account no later than the close of the 30-day period following the last day of the month for which they are made, and matching or nonelective contributions by the IRC § 404(m)(2)(B) date; an employee may terminate participation at any time and each eligible employee may elect or modify during the 60-day period before the beginning of the year, or before first becoming eligible (IRC § 408(p)(5))",
+      "taxYear": 2026,
+      "source": "IRC § 408, read at law.cornell.edu/uscode/text/26/408",
+      "verified": "2026-08-21"
+    },
+    "se.simple_401k": {
+      "value": "a SIMPLE 401(k) meets the IRC § 401(k)(3)(A)(ii) nondiscrimination requirement if it satisfies the same contribution pattern — elective contributions up to the SIMPLE limit, a required match up to 3 percent or an elected 2 percent nonelective contribution, and the optional additional nonelective contribution — together with the exclusive plan requirement and the IRC § 408(p)(3) vesting requirement (IRC § 401(k)(11))",
+      "taxYear": 2026,
+      "source": "IRC § 401, read at law.cornell.edu/uscode/text/26/401",
+      "verified": "2026-08-21"
+    },
+    "se.simple_compensation": {
+      "value": "compensation for SIMPLE purposes means the amounts in IRC § 6051(a)(3) and (8), and for a self-employed person means net earnings from self-employment under IRC § 1402(a) determined without regard to the SIMPLE contribution itself; employee includes a self-employed individual within the meaning of IRC § 401(c)(1) (IRC § 408(p)(6))",
+      "taxYear": 2026,
+      "source": "IRC § 408, read at law.cornell.edu/uscode/text/26/408",
+      "verified": "2026-08-21"
+    },
+    "se.earned_income": {
+      "value": "earned income for a self-employed participant means net earnings from self-employment under IRC § 1402(a), taken only from a trade or business in which the taxpayer’s personal services are a material income-producing factor, computed with regard to the IRC § 404 deduction itself and with regard to the IRC § 164(f) deduction for half of self-employment tax (IRC § 401(c)(2))",
+      "taxYear": 2026,
+      "source": "IRC § 401, read at law.cornell.edu/uscode/text/26/401",
+      "verified": "2026-08-21"
+    },
+    "se.404a8": {
+      "value": "contributions on behalf of a self-employed individual satisfy the IRC § 162 or § 212 conditions only to the extent they do not exceed that individual’s earned income, determined without regard to the IRC § 404 deduction, from the trade or business with respect to which the plan is established (IRC § 404(a)(8)(C))",
+      "taxYear": 2026,
+      "source": "IRC § 404(a)(8), read at law.cornell.edu/uscode/text/26/404",
+      "verified": "2026-08-21"
     }
   }
 }
