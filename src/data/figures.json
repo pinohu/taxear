@@ -11701,6 +11701,72 @@
       "taxYear": 2026,
       "source": "IRM 4.10.4.2.3.8, opened at irs.gov/irm/part4/irm_04-010-004",
       "verified": "2026-08-21"
+    },
+    "pl.definition": {
+      "value": "a financial report of an entity’s revenues and expenses for the accounting period, summarising the net income or net loss for that period — called a P&L, an income statement or a statement of operations interchangeably",
+      "taxYear": 2026,
+      "source": "IRM 4.10.3.7.6, opened at irs.gov/irm/part4/irm_04-010-003",
+      "verified": "2026-08-21"
+    },
+    "pl.records": {
+      "value": "permanent books of account or records, inventories included, sufficient to establish the amount of gross income, deductions, credits or other matters required to be shown on the return",
+      "taxYear": 2026,
+      "source": "Reg. § 1.6001-1(a), opened at law.cornell.edu/cfr/text/26/1.6001-1",
+      "verified": "2026-08-21"
+    },
+    "pl.accounting_records": {
+      "value": "accounting records mean the regular books of account together with the other records and data needed to support the entries on them and on the return — a reconciliation of any differences between books and return being given as the example",
+      "taxYear": 2026,
+      "source": "Reg. § 1.446-1(a)(4), opened at law.cornell.edu/cfr/text/26/1.446-1",
+      "verified": "2026-08-21"
+    },
+    "pl.gross_income_business": {
+      "value": "in a manufacturing, merchandising or mining business, gross income means total sales less the cost of goods sold, plus income from investments and from incidental or outside operations or sources",
+      "taxYear": 2026,
+      "source": "Reg. § 1.61-3(a), opened at law.cornell.edu/cfr/text/26/1.61-3",
+      "verified": "2026-08-21"
+    },
+    "pl.cogs_limits": {
+      "value": "cost of goods sold is determined by the method of accounting the taxpayer consistently uses, and may not absorb selling expenses, losses, other items not ordinarily used in computing it, or amounts a deduction for which would be disallowed under IRC § 162(c), (f) or (g)",
+      "taxYear": 2026,
+      "source": "Reg. § 1.61-3(a), opened at law.cornell.edu/cfr/text/26/1.61-3",
+      "verified": "2026-08-21"
+    },
+    "pl.reconciliation": {
+      "value": "the examiner reconciles income reported on the return to the taxpayer’s books and records by asking how income was computed and duplicating the taxpayer’s steps; where the two cannot be reconciled the taxpayer is asked to explain how the book accounts were accumulated for the return",
+      "taxYear": 2026,
+      "source": "IRM 4.10.4.2.3.5, opened at irs.gov/irm/part4/irm_04-010-004",
+      "verified": "2026-08-21"
+    },
+    "pl.trail": {
+      "value": "the chain the reconciliation follows — general ledger to trial balance, adjusting journal entries, adjusted trial balance, the financial statements, then the Schedule M adjustments, then the return — with the grouping papers showing which book accounts became which return line",
+      "taxYear": 2026,
+      "source": "IRM 4.10.3.7.6, opened at irs.gov/irm/part4/irm_04-010-003",
+      "verified": "2026-08-21"
+    },
+    "pl.gross_profit_ratio": {
+      "value": "gross profit realised on sales divided by gross receipts from those sales — the margin between cost of sales and gross receipts expressed as a percentage of sales, always computed on the selling price rather than on cost",
+      "taxYear": 2026,
+      "source": "IRM 4.10.3.11.1, opened at irs.gov/irm/part4/irm_04-010-003",
+      "verified": "2026-08-21"
+    },
+    "pl.gross_profit_use": {
+      "value": "where inventories are a material income-producing factor the gross profit test indicates the reasonableness of gross receipts, inventories, purchases and net profit as reported",
+      "taxYear": 2026,
+      "source": "IRM 4.10.3.11.1, opened at irs.gov/irm/part4/irm_04-010-003",
+      "verified": "2026-08-21"
+    },
+    "pl.indirect_test": {
+      "value": "books prepared after year end rather than contemporaneously do not by themselves permit a formal indirect method; the test is whether there is a reasonable indication of a likelihood of unreported income",
+      "taxYear": 2026,
+      "source": "IRM 4.10.4.2.3.5, opened at irs.gov/irm/part4/irm_04-010-004",
+      "verified": "2026-08-21"
+    },
+    "pl.receipts_tests": {
+      "value": "gross receipts are tested in both directions — original book entries traced back to sales slips, register receipts or job contracts, and original sales documents traced forward to the book entries — with missing numbers in a sequenced document series accounted for",
+      "taxYear": 2026,
+      "source": "IRM 4.10.4.2.3.6, opened at irs.gov/irm/part4/irm_04-010-004",
+      "verified": "2026-08-21"
     }
   }
 }
