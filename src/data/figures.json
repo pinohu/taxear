@@ -8557,6 +8557,54 @@
       "taxYear": 2026,
       "source": "26 CFR § 1.183-2(b), read at law.cornell.edu/cfr/text/26/1.183-2",
       "verified": "2026-08-21"
+    },
+    "ptr.character_conduit": {
+      "value": "the character of any item included in a partner distributive share is determined as if the item were realised directly from the source from which the partnership realised it, or incurred in the same manner as the partnership incurred it (IRC § 702(b))",
+      "taxYear": 2026,
+      "source": "IRC § 702(b), read at law.cornell.edu/uscode/text/26/702",
+      "verified": "2026-08-21"
+    },
+    "ptr.taxable_income": {
+      "value": "the taxable income of a partnership is computed as for an individual except that the IRC § 702(a) items are separately stated and the partnership is denied the deductions for personal exemptions, foreign taxes, charitable contributions, the net operating loss deduction, the additional itemized deductions for individuals, and depletion for oil and gas wells (IRC § 703(a))",
+      "taxYear": 2026,
+      "source": "IRC § 703(a), read at law.cornell.edu/uscode/text/26/703",
+      "verified": "2026-08-21"
+    },
+    "ptr.elections": {
+      "value": "any election affecting the computation of taxable income derived from a partnership is made by the partnership, except the elections under IRC § 108(b)(5) and (c)(3) on discharge of indebtedness, IRC § 617 on mining exploration expenditures, and IRC § 901 on foreign taxes, which each partner makes separately (IRC § 703(b))",
+      "taxYear": 2026,
+      "source": "IRC § 703(b), read at law.cornell.edu/uscode/text/26/703",
+      "verified": "2026-08-21"
+    },
+    "ptr.distributive_share": {
+      "value": "a partner distributive share is determined by the partnership agreement, except that where the agreement is silent as to an item, or the allocation of an item under the agreement lacks substantial economic effect, the share is determined in accordance with the partner interest in the partnership taking into account all facts and circumstances (IRC § 704(a), (b))",
+      "taxYear": 2026,
+      "source": "IRC § 704(a), (b), read at law.cornell.edu/uscode/text/26/704",
+      "verified": "2026-08-21"
+    },
+    "ptr.loss_limit": {
+      "value": "a partner distributive share of partnership loss is allowed only to the extent of the adjusted basis of the partner interest at the end of the partnership year in which the loss occurred; any excess is allowed as a deduction at the end of the partnership year in which it is repaid to the partnership (IRC § 704(d)(1), (2))",
+      "taxYear": 2026,
+      "source": "IRC § 704(d), read at law.cornell.edu/uscode/text/26/704",
+      "verified": "2026-08-21"
+    },
+    "ptr.outside_basis": {
+      "value": "the adjusted basis of a partner interest is the basis determined under IRC § 722 or § 742, increased by the distributive share of partnership taxable income, tax-exempt income and the excess of depletion deductions over the basis of the property, and decreased but not below zero by distributions and by the distributive share of losses and of expenditures neither deductible nor chargeable to capital account (IRC § 705(a))",
+      "taxYear": 2026,
+      "source": "IRC § 705(a), read at law.cornell.edu/uscode/text/26/705",
+      "verified": "2026-08-21"
+    },
+    "ptr.liabilities": {
+      "value": "an increase in a partner share of partnership liabilities, or in the partner individual liabilities by reason of assuming partnership liabilities, is treated as a contribution of money by that partner to the partnership; a decrease in either is treated as a distribution of money to the partner (IRC § 752(a), (b))",
+      "taxYear": 2026,
+      "source": "IRC § 752(a), (b), read at law.cornell.edu/uscode/text/26/752",
+      "verified": "2026-08-21"
+    },
+    "ptr.distribution_gain": {
+      "value": "gain is not recognised to a partner on a distribution except to the extent money distributed exceeds the adjusted basis of the partner interest immediately before it; loss is not recognised except on a liquidating distribution consisting only of money, unrealised receivables and inventory, and then only to the extent the basis of the interest exceeds the money plus the basis of those items. No gain or loss is recognised to the partnership (IRC § 731(a), (b))",
+      "taxYear": 2026,
+      "source": "IRC § 731(a), (b), read at law.cornell.edu/uscode/text/26/731",
+      "verified": "2026-08-21"
     }
   }
 }
