@@ -9,19 +9,83 @@ Regenerate the numbers with `npm run progress`.
 
 ## Where the project stands (21 August 2026)
 
-**131 topic pages at `published`, 155 at `review`, 74 at `stub`.** Part 1 is complete at
-120 / 120 and Part 3 at 121 / 121; Part 2 stands at 45 of 119, and **domain 2.1 is now
-complete** — all five sections, 2.1.1 through 2.1.5. `figures.json` carries 1,694 keys,
-every one with a `verified` date against a source opened that day. `npm run verify` reports
-0 errors. See the Part 2 sections below for what the next session should not relearn.
+**131 topic pages at `published`, 174 at `review`, 55 at `stub`.** Part 1 is complete at
+120 / 120 and Part 3 at 121 / 121; Part 2 stands at 64 of 119. **Domain 2.1 is complete**,
+all five sections, and in domain 2.2 **sections 2.2.1 and 2.2.2 are complete** — nineteen
+more topics. `figures.json` carries 1,888 keys, every one with a `verified` date against a
+source opened that day. `npm run verify` reports 0 errors. See the Part 2 sections below
+for what the next session should not relearn.
 
 ### What remains in Part 2
 
-Domain 2.2 — 2.2.1 Business income (4), 2.2.2 Business expenses, deductions and credits
-(15), 2.2.3 Business assets (5), 2.2.4 Analysis of financial records (9), 2.2.5 Advising
-the business taxpayer (13). Domain 2.3 — 2.3.1 Trust and estate income tax (7), 2.3.2
-Exempt organizations (4), 2.3.3 Retirement plans (6), 2.3.4 Farmers (5), 2.3.5 Rental
-property (6). Seventy-four topics, in that order.
+Domain 2.2 — 2.2.3 Business assets (5), 2.2.4 Analysis of financial records (9), 2.2.5
+Advising the business taxpayer (13). Domain 2.3 — 2.3.1 Trust and estate income tax (7),
+2.3.2 Exempt organizations (4), 2.3.3 Retirement plans (6), 2.3.4 Farmers (5), 2.3.5 Rental
+property (6). Fifty-five topics, in that order.
+
+## Domain 2.2 half done — sections 2.2.1 and 2.2.2 (21 August 2026)
+
+### What the next session should not relearn
+
+**Two figures could not be opened and are deliberately absent from two pages.** The
+current-year standard mileage rate and the annual automobile depreciation limitations under
+IRC § 280F(d)(7) are set by IRS guidance that is not in Rev. Proc. 2025-32 and that could
+not be located in the irs-drop notice series today. The same is true of the per diem rates
+under Rev. Proc. 2019-48. Under rule 1 they are not stated: **2.2.2.e** omits per diem
+figures and **2.2.2.f** omits the mileage rate and the indexed IRC § 280F caps, each saying
+so in terms on the page. **One research task closes both** — find the current mileage
+notice and the current automobile depreciation revenue procedure, create
+`vehicle.mileage_rate_2026`, `vehicle.280F_caps_2026` and per diem keys, and add them.
+Contrast the home office safe harbour, which rests on Rev. Proc. 2013-13 and was retrievable,
+so 2.2.2.o carries its figures.
+
+**Rev. Proc. 2025-32 is downloaded and parsed.** It is cached in the scratchpad as
+`rp2532.txt` and supplied the 2026 figures for IRC § 461(l), IRC § 179, IRC § 448(c) and
+IRC § 199A. `pdfminer.six` is installed. Use it before hunting for figures elsewhere.
+
+**Six statutory changes first operating in 2026, all read in the amendment notes.**
+
+1. **IRC § 199A did not expire.** Its former subsection (i) terminated the section after
+   2025; Pub. L. 119-21 § 70105(b)(1) replaced that subsection entirely. The phase-in range
+   also widened from $50,000/$100,000 to $75,000/$150,000, and a new minimum deduction
+   applies to a taxpayer with active qualified business income above a floor.
+2. **Bonus depreciation is permanent at its full rate.** Pub. L. 119-21 § 70301 replaced the
+   applicable percentage, repealed the phase-down table at IRC § 168(k)(6) and (k)(8), and
+   struck the placed-in-service deadline. Any descending schedule for 2023 to 2026 is
+   repealed law.
+3. **IRC § 274(o) first bites in 2026.** Pub. L. 115-97 § 13304(e)(2) applied the
+   elimination of the deduction for employer-convenience meals to amounts incurred or paid
+   after 31 December 2025 — alone among that Act's amendments to IRC § 274. A staff canteen
+   went from half deductible to nil on 1 January 2026.
+4. **IRC § 163(j) is back on an EBITDA base.** Pub. L. 119-21 § 70303(a) struck the words
+   confining the depreciation add-back to years before 2022, effective for taxable years
+   beginning after 31 December 2024.
+5. **IRC § 461(l) is permanent** and its threshold is indexed for the first time in 2026 —
+   $256,000, or $512,000 joint.
+6. **IRC § 68 operates for the first time since 2017**, on a new mechanism.
+
+**Two more stale-rendering findings, both the same shape as IRC § 461(l).** The heading of
+IRC § 164(b)(6) still reads "for taxable years 2018 through 2025" although Pub. L. 119-21
+§ 70120(a)(1) struck the end date from the operative text. And Reg. § 1.166-1(a)(2) still
+offers a reserve method for bad debts, with the machinery for electing it, forty years after
+Pub. L. 99-514 § 805(a) repealed IRC § 166(c). That is now **five** regulations found to
+have survived their own statute. **Working rule: where a regulation offers a choice, check
+that the statutory subsection authorising it still exists.**
+
+**The tagger needed eight more repairs across these two sections.** A NO_HOME list now runs
+before the rules for subjects with no topic anywhere in the outline — the Base Erosion and
+Anti-Abuse Tax is the only entry so far, and it untags two questions. Six narrow rules stop
+"gross receipts", "invento", "cancellation of debt", "amortization", "net operating loss"
+and "passive activity income" claiming questions that belong elsewhere. Fourteen tests cover
+the tagger now. **Always `npm run tag -- --retag` after a rule change.**
+
+**Bank coverage across the nineteen topics is thin and now fully mapped.** Eight of the
+nineteen have no question at all: 2.2.2.b, 2.2.2.d, 2.2.2.h, 2.2.2.k, 2.2.2.l, 2.2.2.m, and
+in 2.2.1 nothing reaches the substance. **2.2.2.l is the worst gap in the project** — the
+bank does not test IRC § 199A once. Three bank questions were found wrong on the law rather
+than merely dated: P2E1Q250 (IRC § 163(j) at 50 percent), P2E2Q301 (net operating loss
+carried forward 20 years), and P2E1Q239 (UNICAP scope omitting tangible personal property).
+`private/discrepancies.md` has the reasoning for each.
 
 ## Domain 2.1 closed — sections 2.1.3, 2.1.4 and 2.1.5 (21 August 2026)
 
