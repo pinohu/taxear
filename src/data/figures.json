@@ -8029,6 +8029,108 @@
       "taxYear": 2026,
       "source": "IRC § 1402(a)(13), read at law.cornell.edu/uscode/text/26/1402",
       "verified": "2026-08-21"
+    },
+    "exempt.501a": {
+      "value": "an organization described in IRC § 501(c) or (d) or § 401(a) is exempt from taxation under subtitle A unless the exemption is denied under § 502 or § 503, but remains subject to tax on unrelated business income and certain other activities (IRC § 501(a), (b))",
+      "taxYear": 2026,
+      "source": "IRC § 501(a), (b), read at law.cornell.edu/uscode/text/26/501",
+      "verified": "2026-08-21"
+    },
+    "exempt.501c3": {
+      "value": "a corporation, community chest, fund or foundation organised and operated exclusively for religious, charitable, scientific, public-safety testing, literary or educational purposes, to foster national or international amateur sports competition, or for the prevention of cruelty to children or animals; no part of its net earnings inuring to any private shareholder or individual; no substantial part of its activities carrying on propaganda or otherwise attempting to influence legislation; and not participating or intervening in any political campaign for or against a candidate for public office (IRC § 501(c)(3))",
+      "taxYear": 2026,
+      "source": "IRC § 501(c)(3), read at law.cornell.edu/uscode/text/26/501",
+      "verified": "2026-08-21"
+    },
+    "exempt.501c4": {
+      "value": "civic leagues or organisations not organised for profit but operated exclusively for the promotion of social welfare, or local associations of employees whose membership is limited to the employees of a designated person in a particular municipality and whose net earnings are devoted exclusively to charitable, educational or recreational purposes (IRC § 501(c)(4)(A))",
+      "taxYear": 2026,
+      "source": "IRC § 501(c)(4), read at law.cornell.edu/uscode/text/26/501",
+      "verified": "2026-08-21"
+    },
+    "exempt.501c7": {
+      "value": "clubs organised for pleasure, recreation and other nonprofitable purposes, substantially all the activities of which are for those purposes and no part of the net earnings of which inures to the benefit of any private shareholder (IRC § 501(c)(7))",
+      "taxYear": 2026,
+      "source": "IRC § 501(c)(7), read at law.cornell.edu/uscode/text/26/501",
+      "verified": "2026-08-21"
+    },
+    "exempt.508_notice": {
+      "value": "an organisation organised after 9 October 1969 is not treated as described in IRC § 501(c)(3) unless it has given notice to the Secretary that it is applying for recognition of that status, and not for any period before the notice is given if the notice is late (IRC § 508(a))",
+      "taxYear": 2026,
+      "source": "IRC § 508(a), read at law.cornell.edu/uscode/text/26/508",
+      "verified": "2026-08-21"
+    },
+    "exempt.508_presumption": {
+      "value": "any organisation described in IRC § 501(c)(3) that does not notify the Secretary that it is not a private foundation is presumed to be one. Neither the notice requirement nor the presumption applies to churches, their integrated auxiliaries and conventions or associations of churches, or to an organisation that is not a private foundation and whose gross receipts are normally not more than $5,000 in each taxable year (IRC § 508(b), (c)(1))",
+      "taxYear": 2026,
+      "source": "IRC § 508(b), (c)(1), read at law.cornell.edu/uscode/text/26/508",
+      "verified": "2026-08-21"
+    },
+    "exempt.6033_filing": {
+      "value": "every organisation exempt under IRC § 501(a) must file an annual return stating its items of gross income, receipts and disbursements and such other information as the Secretary prescribes, and must keep records — subject to the mandatory exceptions for churches, their integrated auxiliaries and conventions or associations of churches, the exclusively religious activities of a religious order, and certain listed organisations other than private foundations whose gross receipts are normally not more than $5,000 (IRC § 6033(a)(1), (a)(3))",
+      "taxYear": 2026,
+      "source": "IRC § 6033(a), read at law.cornell.edu/uscode/text/26/6033",
+      "verified": "2026-08-21"
+    },
+    "exempt.epostcard": {
+      "value": "an organisation relieved of the annual return by the gross receipts exception must nonetheless furnish annually, in electronic form, its legal name, mailing and web addresses, taxpayer identification number, the name and address of a principal officer, and evidence of the continuing basis for the exception — and must give notice when it ceases to exist (IRC § 6033(i))",
+      "taxYear": 2026,
+      "source": "IRC § 6033(i), read at law.cornell.edu/uscode/text/26/6033",
+      "verified": "2026-08-21"
+    },
+    "exempt.auto_revocation": {
+      "value": "an organisation that fails to file the annual return or notice for 2 consecutive years is notified by the Secretary; one that fails for 3 consecutive years has its IRC § 501(a) exempt status revoked on and after the due date set for the third return or notice, and the Secretary publishes and maintains a list of the organisations revoked (IRC § 6033(j)(1))",
+      "taxYear": 2026,
+      "source": "IRC § 6033(j)(1), read at law.cornell.edu/uscode/text/26/6033",
+      "verified": "2026-08-21"
+    },
+    "exempt.990_series": {
+      "value": "gross receipts normally $50,000 or less — Form 990-N, with the option of filing a full return instead; gross receipts under $200,000 and total assets under $500,000 — Form 990-EZ or Form 990; gross receipts of $200,000 or more, or total assets of $500,000 or more — Form 990; a private foundation files Form 990-PF regardless of amount",
+      "taxYear": 2026,
+      "source": "IRS, Form 990 series: Which forms do exempt organizations file, page last reviewed 28 June 2026, read at irs.gov/charities-non-profits/form-990-series-which-forms-do-exempt-organizations-file-filing-phase-in",
+      "verified": "2026-08-21"
+    },
+    "exempt.990n_normally": {
+      "value": "gross receipts are normally $50,000 or less where the organisation has existed 1 year or less and received or was pledged $75,000 or less in its first tax year; has existed between 1 and 3 years and averaged $60,000 or less in each of its first two tax years; or is at least 3 years old and averaged $50,000 or less over the immediately preceding 3 tax years including the year being measured",
+      "taxYear": 2026,
+      "source": "IRS, Annual electronic filing requirement for small exempt organizations — Form 990-N (e-Postcard), page last reviewed 27 June 2026, read at irs.gov/charities-non-profits/annual-electronic-filing-requirement-for-small-exempt-organizations-form-990-n-e-postcard",
+      "verified": "2026-08-21"
+    },
+    "exempt.990n_due_date": {
+      "value": "Form 990-N is due by the 15th day of the fifth month after the close of the tax year — 15 May for a calendar-year organisation — and there is no penalty for a late submission, though three consecutive missed years still costs the exemption",
+      "taxYear": 2026,
+      "source": "IRS, Annual electronic filing requirement for small exempt organizations — Form 990-N (e-Postcard), page last reviewed 27 June 2026, read at irs.gov/charities-non-profits/annual-electronic-filing-requirement-for-small-exempt-organizations-form-990-n-e-postcard",
+      "verified": "2026-08-21"
+    },
+    "ubit.tax": {
+      "value": "a tax is imposed for each taxable year on the unrelated business taxable income of every organisation described in IRC § 511(a)(2), computed as provided in IRC § 11 with taxable income read as unrelated business taxable income (IRC § 511(a)(1))",
+      "taxYear": 2026,
+      "source": "IRC § 511(a), read at law.cornell.edu/uscode/text/26/511",
+      "verified": "2026-08-21"
+    },
+    "ubit.ubti": {
+      "value": "unrelated business taxable income is the gross income derived from any unrelated trade or business regularly carried on, less the deductions directly connected with carrying it on, both computed with the IRC § 512(b) modifications (IRC § 512(a)(1))",
+      "taxYear": 2026,
+      "source": "IRC § 512(a)(1), read at law.cornell.edu/uscode/text/26/512",
+      "verified": "2026-08-21"
+    },
+    "ubit.silo": {
+      "value": "an organisation with more than one unrelated trade or business computes unrelated business taxable income separately for each, including for the net operating loss deduction and without regard to the specific deduction, treating none as less than zero; total unrelated business taxable income is the sum of those amounts less one specific deduction (IRC § 512(a)(6))",
+      "taxYear": 2026,
+      "source": "IRC § 512(a)(6), read at law.cornell.edu/uscode/text/26/512",
+      "verified": "2026-08-21"
+    },
+    "ubit.specific_deduction": {
+      "value": "except for computing the net operating loss under IRC § 172 and for the separate computation under IRC § 512(a)(6), a specific deduction of $1,000 is allowed; a diocese, province of a religious order or convention or association of churches is allowed a further deduction for each local unit equal to the lower of $1,000 or that unit gross income from an unrelated trade or business regularly carried on (IRC § 512(b)(12))",
+      "taxYear": 2026,
+      "source": "IRC § 512(b)(12), read at law.cornell.edu/uscode/text/26/512",
+      "verified": "2026-08-21"
+    },
+    "ubit.unrelated_trade": {
+      "value": "an unrelated trade or business is any trade or business the conduct of which is not substantially related — aside from the need for income or funds or the use made of the profits — to the exercise of the purpose constituting the basis for exemption. Excluded are a business in which substantially all the work is performed without compensation, one carried on by an IRC § 501(c)(3) organisation or a college or university primarily for the convenience of its members, students, patients, officers or employees, and one that is the selling of merchandise substantially all of which was received as gifts or contributions (IRC § 513(a))",
+      "taxYear": 2026,
+      "source": "IRC § 513(a), read at law.cornell.edu/uscode/text/26/513",
+      "verified": "2026-08-21"
     }
   }
 }

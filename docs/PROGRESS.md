@@ -10,9 +10,9 @@ is indexed, and only the owner moves a page there (see `docs/VERIFICATION.md`).
 | Part | Topics | Stub | Draft | Review | Published | Words |
 |---|---:|---:|---:|---:|---:|---:|
 | 1. Individuals | 120 | 0 | 0 | 110 | 10 | 256,550 |
-| 2. Businesses | 119 | 114 | 0 | 5 | 0 | 10,737 |
+| 2. Businesses | 119 | 113 | 0 | 6 | 0 | 13,233 |
 | 3. Representation, Practices and Procedures | 121 | 0 | 0 | 0 | 121 | 257,674 |
-| **All parts** | **360** | **114** | **0** | **115** | **131** | **524,961** |
+| **All parts** | **360** | **113** | **0** | **116** | **131** | **527,457** |
 
 ## Part 1 — Individuals
 
@@ -221,7 +221,7 @@ is indexed, and only the owner moves a page there (see `docs/VERIFICATION.md`).
 | 2.1.1.c | [Corporations](/businesses/business-entities/business-entities-and-considerations/corporations/) | review | 1,865 | 2026-08-21 |
 | 2.1.1.d | [S corporations](/businesses/business-entities/business-entities-and-considerations/s-corporations/) | review | 3,024 | 2026-08-21 |
 | 2.1.1.e | [LLCs](/businesses/business-entities/business-entities-and-considerations/llcs/) | review | 2,490 | 2026-08-21 |
-| 2.1.1.f | [Tax-exempt entities and associations](/businesses/business-entities/business-entities-and-considerations/tax-exempt-entities-and-associations/) | stub | — | — |
+| 2.1.1.f | [Tax-exempt entities and associations](/businesses/business-entities/business-entities-and-considerations/tax-exempt-entities-and-associations/) | review | 2,496 | 2026-08-21 |
 | 2.1.1.g | [Entity type default classifications and elections](/businesses/business-entities/business-entities-and-considerations/entity-type-default-classifications-and-elections/) | stub | — | — |
 | 2.1.1.h | [Employer identification number](/businesses/business-entities/business-entities-and-considerations/employer-identification-number/) | stub | — | — |
 | 2.1.1.i | [Accounting periods (tax year)](/businesses/business-entities/business-entities-and-considerations/accounting-periods-tax-year/) | stub | — | — |
