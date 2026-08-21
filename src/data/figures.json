@@ -9553,6 +9553,30 @@
       "taxYear": 2026,
       "source": "IRC § 1561(a), read at law.cornell.edu/uscode/text/26/1561",
       "verified": "2026-08-21"
+    },
+    "closely.passive_persons": {
+      "value": "the passive activity loss rules apply to any individual, estate or trust, any closely held C corporation, and any personal service corporation — a widely held C corporation is outside them entirely (IRC § 469(a)(2))",
+      "taxYear": 2026,
+      "source": "IRC § 469(a)(2), read at law.cornell.edu/uscode/text/26/469",
+      "verified": "2026-08-21"
+    },
+    "closely.net_active_income": {
+      "value": "where a closely held C corporation other than a personal service corporation has net active income for a taxable year, its passive activity loss for that year is allowable as a deduction against that net active income and is not disallowed to the extent so allowed — a concession available to no other class of taxpayer subject to the passive loss rules (IRC § 469(e)(2)(A))",
+      "taxYear": 2026,
+      "source": "IRC § 469(e)(2)(A), read at law.cornell.edu/uscode/text/26/469",
+      "verified": "2026-08-21"
+    },
+    "closely.psc_source": {
+      "value": "a personal service corporation means a corporation the principal activity of which is the performance of personal services, those services being substantially performed by employee-owners; an employee-owner is an employee owning more than 10 percent of the outstanding stock on any day of the year, applying IRC § 318 with 5 percent substituted for 50 percent in § 318(a)(2)(C) (IRC § 269A(b)(1), (2))",
+      "taxYear": 2026,
+      "source": "IRC § 269A(b), read at law.cornell.edu/uscode/text/26/269A",
+      "verified": "2026-08-21"
+    },
+    "closely.at_risk": {
+      "value": "the at-risk limitation applies to an individual and to a C corporation meeting the IRC § 542(a)(2) stock ownership requirement, allowing a loss from a covered activity only to the extent of the aggregate amount the taxpayer is at risk for that activity at the close of the year, with the disallowed amount treated as a deduction allocable to the activity in the first succeeding year (IRC § 465(a)(1), (2))",
+      "taxYear": 2026,
+      "source": "IRC § 465(a), read at law.cornell.edu/uscode/text/26/465",
+      "verified": "2026-08-21"
     }
   }
 }

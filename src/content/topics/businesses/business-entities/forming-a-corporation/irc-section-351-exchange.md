@@ -20,7 +20,7 @@ authorities:
   - { type: IRC, ref: "§ 721", title: "Nonrecognition on contribution to a partnership", url: "https://www.law.cornell.edu/uscode/text/26/721" }
   - { type: IRC, ref: "§ 357", title: "Assumption of liability", url: "https://www.law.cornell.edu/uscode/text/26/357" }
 forms: []
-related: ["2.1.4.a", "2.1.4.c", "2.1.4.d", "2.1.1.c"]
+related: ["2.1.4.a", "2.1.4.c", "2.1.4.d", "2.1.1.c", "2.1.4.f"]
 changelog:
   - { date: "2026-08-21", summary: "Initial draft. Sets out the IRC § 351(a) nonrecognition conditions, the IRC § 368(c) definition of control with its two separate 80 percent tests, the § 351(d) exclusion of services and certain indebtedness from property, the § 358(a)(1) substituted basis in the stock received, the § 362(a) transferred basis in the corporation's hands with the § 362(e)(2) cap where aggregate bases would exceed fair market value, and the § 357(a) rule that an assumed liability is not boot." }
 ---
