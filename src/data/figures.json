@@ -7585,6 +7585,66 @@
       "taxYear": 2026,
       "source": "IRS, Comparison of Form 8938 and FBAR requirements (page last reviewed 18 September 2025), irs.gov/businesses/comparison-of-form-8938-and-fbar-requirements",
       "verified": "2026-08-21"
+    },
+    "cfc.us_shareholder": {
+      "value": "a United States person owning, directly, indirectly or by attribution under IRC § 958, 10 percent or more of the total combined voting power of all voting classes of stock of a foreign corporation, or 10 percent or more of the total value of its stock (IRC § 951(b))",
+      "taxYear": 2026,
+      "source": "IRC § 951(b), read at law.cornell.edu/uscode/text/26/951",
+      "verified": "2026-08-21"
+    },
+    "cfc.definition": {
+      "value": "a foreign corporation more than 50 percent of whose voting power or stock value is owned, or considered owned under IRC § 958(b), by United States shareholders on any day during its taxable year (IRC § 957(a))",
+      "taxYear": 2026,
+      "source": "IRC § 957(a), read at law.cornell.edu/uscode/text/26/957",
+      "verified": "2026-08-21"
+    },
+    "cfc.net_tested_income": {
+      "value": "each United States shareholder of a controlled foreign corporation includes in gross income their net CFC tested income — the aggregate pro rata share of tested income of each such corporation over the aggregate pro rata share of tested loss (IRC § 951A(a), (b))",
+      "taxYear": 2026,
+      "source": "IRC § 951A, read at law.cornell.edu/uscode/text/26/951A",
+      "verified": "2026-08-21"
+    },
+    "cfc.gilti_renamed": {
+      "value": "there is no longer a provision called global intangible low-taxed income — Pub. L. 119-21 § 70323(a) substituted 'net CFC tested income' for 'global intangible low-taxed income' in the catchline and text of IRC § 951A and struck the subsection defining GILTI and the net deemed tangible income return, so the qualified business asset investment offset no longer exists",
+      "taxYear": 2026,
+      "source": "IRC § 951A and its 2025 amendment notes, read at law.cornell.edu/uscode/text/26/951A",
+      "verified": "2026-08-21"
+    },
+    "cfc.qbai_repealed": {
+      "value": "repealed — Pub. L. 119-21 § 70323(a)(2) struck IRC § 951A(d), which had defined qualified business asset investment, so the inclusion is no longer reduced by a deemed return on tangible assets held abroad",
+      "taxYear": 2026,
+      "source": "IRC § 951A and its 2025 amendment notes, read at law.cornell.edu/uscode/text/26/951A",
+      "verified": "2026-08-21"
+    },
+    "cfc.section_250_deduction": {
+      "value": "40 percent of the net CFC tested income amount included under IRC § 951A and of the related § 78 gross-up, plus 33.34 percent of foreign-derived deduction eligible income — allowed to a domestic corporation only, and subject to a taxable income limitation (IRC § 250(a))",
+      "taxYear": 2026,
+      "source": "IRC § 250(a), read at law.cornell.edu/uscode/text/26/250",
+      "verified": "2026-08-21"
+    },
+    "cfc.section_962_election": {
+      "value": "an individual United States shareholder may elect to have the tax on IRC § 951(a) inclusions computed at corporate rates under § 11 in lieu of §§ 1 and 55, and to be treated as a domestic corporation for the § 960 foreign tax credit — the route by which an individual reaches the corporate-level relief (IRC § 962(a))",
+      "taxYear": 2026,
+      "source": "IRC § 962(a), read at law.cornell.edu/uscode/text/26/962",
+      "verified": "2026-08-21"
+    },
+    "cfc.transition_tax": {
+      "value": "a one-time increase to subpart F income for the last taxable year of a deferred foreign income corporation beginning before 1 January 2018, equal to the greater of its accumulated post-1986 deferred foreign income at 2 November 2017 or at 31 December 2017 (IRC § 965(a))",
+      "taxYear": 2026,
+      "source": "IRC § 965(a), read at law.cornell.edu/uscode/text/26/965",
+      "verified": "2026-08-21"
+    },
+    "cfc.transition_installments": {
+      "value": "8 installments if elected — 8 percent of the net tax liability for each of the first five, 15 percent for the sixth, 20 percent for the seventh and 25 percent for the eighth, the first due on the unextended due date of the return for the inclusion year (IRC § 965(h))",
+      "taxYear": 2026,
+      "source": "IRC § 965(h), read at law.cornell.edu/uscode/text/26/965",
+      "verified": "2026-08-21"
+    },
+    "cfc.transition_spent": {
+      "value": "spent as an operative charge — IRC § 965(a) reaches only the last taxable year of a deferred foreign income corporation beginning before 1 January 2018, so no new inclusion can arise, and what survives is the § 965(h) installment stream and the compliance history it left behind",
+      "taxYear": 2026,
+      "source": "IRC § 965, read at law.cornell.edu/uscode/text/26/965",
+      "verified": "2026-08-21"
     }
   }
 }
