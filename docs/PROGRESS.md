@@ -10,9 +10,9 @@ is indexed, and only the owner moves a page there (see `docs/VERIFICATION.md`).
 | Part | Topics | Stub | Draft | Review | Published | Words |
 |---|---:|---:|---:|---:|---:|---:|
 | 1. Individuals | 120 | 0 | 0 | 110 | 10 | 256,550 |
-| 2. Businesses | 119 | 110 | 0 | 9 | 0 | 20,603 |
+| 2. Businesses | 119 | 109 | 0 | 10 | 0 | 23,100 |
 | 3. Representation, Practices and Procedures | 121 | 0 | 0 | 0 | 121 | 257,674 |
-| **All parts** | **360** | **110** | **0** | **119** | **131** | **534,827** |
+| **All parts** | **360** | **109** | **0** | **120** | **131** | **537,324** |
 
 ## Part 1 — Individuals
 
@@ -225,7 +225,7 @@ is indexed, and only the owner moves a page there (see `docs/VERIFICATION.md`).
 | 2.1.1.g | [Entity type default classifications and elections](/businesses/business-entities/business-entities-and-considerations/entity-type-default-classifications-and-elections/) | review | 2,384 | 2026-08-21 |
 | 2.1.1.h | [Employer identification number](/businesses/business-entities/business-entities-and-considerations/employer-identification-number/) | review | 2,495 | 2026-08-21 |
 | 2.1.1.i | [Accounting periods (tax year)](/businesses/business-entities/business-entities-and-considerations/accounting-periods-tax-year/) | review | 2,491 | 2026-08-21 |
-| 2.1.1.j | [Accounting methods](/businesses/business-entities/business-entities-and-considerations/accounting-methods/) | stub | — | — |
+| 2.1.1.j | [Accounting methods](/businesses/business-entities/business-entities-and-considerations/accounting-methods/) | review | 2,497 | 2026-08-21 |
 | 2.1.1.k | [Reporting requirements (e.g. Forms W2, W-4, Form 1099)](/businesses/business-entities/business-entities-and-considerations/reporting-requirements/) | stub | — | — |
 | 2.1.1.l | [Hobby versus business determination and loss limitations](/businesses/business-entities/business-entities-and-considerations/hobby-versus-business-determination-and-loss-limitations/) | stub | — | — |
 

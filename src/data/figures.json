@@ -8359,6 +8359,78 @@
       "taxYear": 2026,
       "source": "Rev. Proc. 2006-46, read at irs.gov/pub/irs-drop/rp-06-46.pdf, section 2.03(3)",
       "verified": "2026-08-21"
+    },
+    "method.book_conformity": {
+      "value": "taxable income is computed under the method of accounting on the basis of which the taxpayer regularly computes income in keeping its books; where no method has been regularly used, or the method used does not clearly reflect income, the computation is made under such method as in the opinion of the Secretary does clearly reflect it (IRC § 446(a), (b))",
+      "taxYear": 2026,
+      "source": "IRC § 446(a), (b), read at law.cornell.edu/uscode/text/26/446",
+      "verified": "2026-08-21"
+    },
+    "method.permissible": {
+      "value": "the permissible methods are the cash receipts and disbursements method, an accrual method, any other method permitted by chapter 1, or any combination of them permitted under regulations (IRC § 446(c))",
+      "taxYear": 2026,
+      "source": "IRC § 446(c), read at law.cornell.edu/uscode/text/26/446",
+      "verified": "2026-08-21"
+    },
+    "method.multiple_businesses": {
+      "value": "a taxpayer engaged in more than one trade or business may, in computing taxable income, use a different method of accounting for each trade or business (IRC § 446(d))",
+      "taxYear": 2026,
+      "source": "IRC § 446(d), read at law.cornell.edu/uscode/text/26/446",
+      "verified": "2026-08-21"
+    },
+    "method.change_consent": {
+      "value": "a taxpayer who changes the method of accounting on which it regularly computes income in keeping its books must secure the consent of the Secretary before computing taxable income under the new method; the absence of that consent is not taken into account to prevent or reduce any penalty or addition to tax where no request was filed (IRC § 446(e), (f))",
+      "taxYear": 2026,
+      "source": "IRC § 446(e), (f), read at law.cornell.edu/uscode/text/26/446",
+      "verified": "2026-08-21"
+    },
+    "method.cash_prohibited": {
+      "value": "a C corporation, a partnership having a C corporation as a partner, and a tax shelter may not compute taxable income under the cash receipts and disbursements method — subject to exceptions for a farming business, a qualified personal service corporation, and an entity meeting the gross receipts test (IRC § 448(a), (b))",
+      "taxYear": 2026,
+      "source": "IRC § 448(a), (b), read at law.cornell.edu/uscode/text/26/448",
+      "verified": "2026-08-21"
+    },
+    "method.gross_receipts_2026": {
+      "value": "$32,000,000 — a corporation or partnership meets the gross receipts test for a taxable year beginning in 2026 if its average annual gross receipts for the 3-taxable-year period ending with the preceding taxable year do not exceed that amount. The figure for taxable years beginning in 2025 was $31,000,000, and the unindexed statutory base in IRC § 448(c)(1) is $25,000,000",
+      "taxYear": 2026,
+      "source": "Rev. Proc. 2025-32 § 3.30, read at irs.gov/pub/irs-drop/rp-25-32.pdf; 2025 figure from Rev. Proc. 2024-40 § 3.31, read at irs.gov/pub/irs-drop/rp-24-40.pdf; statutory base at IRC § 448(c)(1), read at law.cornell.edu/uscode/text/26/448",
+      "verified": "2026-08-21"
+    },
+    "method.gross_receipts_mechanics": {
+      "value": "all persons treated as a single employer under IRC § 52(a) or (b) or § 414(m) or (o) are treated as one person for the test; an entity not in existence for the whole 3-year period applies it over the period it existed; gross receipts for a taxable year of less than 12 months are annualised; gross receipts are reduced by returns and allowances; and a reference to an entity includes any predecessor (IRC § 448(c)(2), (3))",
+      "taxYear": 2026,
+      "source": "IRC § 448(c)(2), (3), read at law.cornell.edu/uscode/text/26/448",
+      "verified": "2026-08-21"
+    },
+    "method.economic_performance": {
+      "value": "the all events test is not treated as met any earlier than when economic performance occurs. Where the liability arises out of services or property provided to the taxpayer, economic performance occurs as they are provided; where it requires the taxpayer to provide property or services, as the taxpayer provides them; and where it requires a payment under a workers compensation act or arising out of a tort, as the payments are made (IRC § 461(h)(1), (2))",
+      "taxYear": 2026,
+      "source": "IRC § 461(h)(1), (2), read at law.cornell.edu/uscode/text/26/461",
+      "verified": "2026-08-21"
+    },
+    "method.recurring_item": {
+      "value": "an item may be treated as incurred before economic performance where the all events test is otherwise met, economic performance occurs within the shorter of a reasonable period after the close of the year or 8½ months after it, the item is recurring and consistently treated that way, and either the item is not material or accruing it earlier produces a more proper match against income — the treatment on financial statements being taken into account (IRC § 461(h)(3))",
+      "taxYear": 2026,
+      "source": "IRC § 461(h)(3), read at law.cornell.edu/uscode/text/26/461",
+      "verified": "2026-08-21"
+    },
+    "method.small_inventory": {
+      "value": "a taxpayer other than a prohibited tax shelter that meets the IRC § 448(c) gross receipts test is exempt from the inventory requirement, and its inventory method does not fail to clearly reflect income if it either treats inventory as non-incidental materials and supplies or conforms to the method reflected in its applicable financial statement, or in its books and records prepared under its accounting procedures where it has no such statement (IRC § 471(c))",
+      "taxYear": 2026,
+      "source": "IRC § 471(c), read at law.cornell.edu/uscode/text/26/471",
+      "verified": "2026-08-21"
+    },
+    "method.small_263A": {
+      "value": "a taxpayer other than a prohibited tax shelter that meets the IRC § 448(c) gross receipts test is exempt from the uniform capitalisation rules, and for a taxpayer that is neither a corporation nor a partnership the test is applied as if each trade or business were a corporation or partnership (IRC § 263A(i))",
+      "taxYear": 2026,
+      "source": "IRC § 263A(i), read at law.cornell.edu/uscode/text/26/263A",
+      "verified": "2026-08-21"
+    },
+    "method.481_adjustment": {
+      "value": "in the year of a change of accounting method there must be taken into account those adjustments determined to be necessary solely by reason of the change, in order to prevent amounts from being duplicated or omitted (IRC § 481(a))",
+      "taxYear": 2026,
+      "source": "IRC § 481(a), read at law.cornell.edu/uscode/text/26/481",
+      "verified": "2026-08-21"
     }
   }
 }

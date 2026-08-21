@@ -17,7 +17,7 @@ authorities:
   - { type: IRC, ref: "§ 162", title: "Trade or business expenses", url: "https://www.law.cornell.edu/uscode/text/26/162" }
   - { type: IRC, ref: "§ 1401", title: "Rate of tax", url: "https://www.law.cornell.edu/uscode/text/26/1401" }
 forms: []
-related: ["2.1.1.b", "2.1.1.e", "2.1.1.g", "2.1.1.l", "1.4.1.d", "2.1.1.c", "2.1.1.h"]
+related: ["2.1.1.b", "2.1.1.e", "2.1.1.g", "2.1.1.l", "1.4.1.d", "2.1.1.c", "2.1.1.h", "2.1.1.j"]
 changelog:
   - { date: "2026-08-21", summary: "Initial draft. Sets out the sole proprietorship as the absence of an entity — disregarded under Reg. § 301.7701-2(c)(2)(i), reported on the owner's return with no separate filing date under IRC § 6072, subject to self-employment tax under §§ 1401 and 1402 with the § 6017 return requirement and the unindexed $400 floor, and deducting under the ordinary § 162 standard." }
 ---
