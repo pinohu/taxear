@@ -10,9 +10,9 @@ is indexed, and only the owner moves a page there (see `docs/VERIFICATION.md`).
 | Part | Topics | Stub | Draft | Review | Published | Words |
 |---|---:|---:|---:|---:|---:|---:|
 | 1. Individuals | 120 | 0 | 0 | 110 | 10 | 256,550 |
-| 2. Businesses | 119 | 36 | 0 | 83 | 0 | 195,039 |
+| 2. Businesses | 119 | 35 | 0 | 84 | 0 | 197,340 |
 | 3. Representation, Practices and Procedures | 121 | 0 | 0 | 0 | 121 | 257,674 |
-| **All parts** | **360** | **36** | **0** | **193** | **131** | **709,263** |
+| **All parts** | **360** | **35** | **0** | **194** | **131** | **711,564** |
 
 ## Part 1 — Individuals
 
@@ -346,7 +346,7 @@ is indexed, and only the owner moves a page there (see `docs/VERIFICATION.md`).
 | 2.2.5.c | [Record-keeping requirements (e.g., mileage log, accountable plans)](/businesses/business-tax-preparation/advising-the-business-taxpayer/record-keeping-requirements/) | review | 2,281 | 2026-08-21 |
 | 2.2.5.d | [Related party transactions](/businesses/business-tax-preparation/advising-the-business-taxpayer/related-party-transactions/) | review | 2,381 | 2026-08-21 |
 | 2.2.5.e | [Selection of business entity (e.g., benefits and detriments)](/businesses/business-tax-preparation/advising-the-business-taxpayer/selection-of-business-entity/) | review | 2,448 | 2026-08-21 |
-| 2.2.5.f | [Comingling (e.g., personal usage of business accounts, separation of business and personal accounts)](/businesses/business-tax-preparation/advising-the-business-taxpayer/comingling/) | stub | — | — |
+| 2.2.5.f | [Comingling (e.g., personal usage of business accounts, separation of business and personal accounts)](/businesses/business-tax-preparation/advising-the-business-taxpayer/comingling/) | review | 2,301 | 2026-08-21 |
 | 2.2.5.g | [Advice on accounting methods and procedures (e.g., explanation of requirements)](/businesses/business-tax-preparation/advising-the-business-taxpayer/advice-on-accounting-methods-and-procedures/) | stub | — | — |
 | 2.2.5.h | [Transfer of property in or out of the business (e.g., contributed property, distributions)](/businesses/business-tax-preparation/advising-the-business-taxpayer/transfer-of-property-in-or-out-of-the-business/) | stub | — | — |
 | 2.2.5.i | [Life cycle of the business (e.g., formation, dissolution)](/businesses/business-tax-preparation/advising-the-business-taxpayer/life-cycle-of-the-business/) | stub | — | — |

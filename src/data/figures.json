@@ -12583,6 +12583,42 @@
       "taxYear": 2026,
       "source": "IRC § 1402(a), opened at law.cornell.edu/uscode/text/26/1402",
       "verified": "2026-08-21"
+    },
+    "com.personal_bar": {
+      "value": "except as the chapter expressly provides otherwise, no deduction is allowed for personal, living or family expenses",
+      "taxYear": 2026,
+      "source": "IRC § 262(a), opened at law.cornell.edu/uscode/text/26/262",
+      "verified": "2026-08-21"
+    },
+    "com.businesslike": {
+      "value": "carrying the activity on in a businesslike manner and maintaining complete and accurate books and records may indicate a profit motive — the first of the nine factors, and the one a taxpayer controls entirely",
+      "taxYear": 2026,
+      "source": "Reg. § 1.183-2(b)(1), opened at law.cornell.edu/cfr/text/26/1.183-2",
+      "verified": "2026-08-21"
+    },
+    "com.no_factor_decisive": {
+      "value": "all facts and circumstances are taken into account, no one factor is determinative, the listed factors are not exhaustive, and the determination is not made by counting factors on each side",
+      "taxYear": 2026,
+      "source": "Reg. § 1.183-2(b), opened at law.cornell.edu/cfr/text/26/1.183-2",
+      "verified": "2026-08-21"
+    },
+    "com.183_presumption": {
+      "value": "where gross income exceeds the attributable deductions in 3 or more of the 5 consecutive taxable years ending with the year in question, the activity is presumed engaged in for profit unless the Secretary establishes otherwise — 2 of 7 years for an activity consisting in major part of breeding, training, showing or racing horses",
+      "taxYear": 2026,
+      "source": "IRC § 183(d), opened at law.cornell.edu/uscode/text/26/183",
+      "verified": "2026-08-21"
+    },
+    "com.183_effect": {
+      "value": "where an activity is not engaged in for profit, no deduction attributable to it is allowed except as IRC § 183(b) provides — the deductions allowable without regard to profit motive, and then others only to the extent gross income from the activity exceeds those",
+      "taxYear": 2026,
+      "source": "IRC § 183(a) and (b), opened at law.cornell.edu/uscode/text/26/183",
+      "verified": "2026-08-21"
+    },
+    "com.280A": {
+      "value": "no deduction otherwise allowable is allowed to an individual or an S corporation with respect to the use of a dwelling unit used by the taxpayer during the year as a residence, except as the section provides",
+      "taxYear": 2026,
+      "source": "IRC § 280A(a), opened at law.cornell.edu/uscode/text/26/280A",
+      "verified": "2026-08-21"
     }
   }
 }
