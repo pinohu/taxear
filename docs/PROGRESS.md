@@ -10,9 +10,9 @@ is indexed, and only the owner moves a page there (see `docs/VERIFICATION.md`).
 | Part | Topics | Stub | Draft | Review | Published | Words |
 |---|---:|---:|---:|---:|---:|---:|
 | 1. Individuals | 120 | 0 | 0 | 110 | 10 | 256,550 |
-| 2. Businesses | 119 | 48 | 0 | 71 | 0 | 165,186 |
+| 2. Businesses | 119 | 47 | 0 | 72 | 0 | 167,818 |
 | 3. Representation, Practices and Procedures | 121 | 0 | 0 | 0 | 121 | 257,674 |
-| **All parts** | **360** | **48** | **0** | **181** | **131** | **679,410** |
+| **All parts** | **360** | **47** | **0** | **182** | **131** | **682,042** |
 
 ## Part 1 — Individuals
 
@@ -329,7 +329,7 @@ is indexed, and only the owner moves a page there (see `docs/VERIFICATION.md`).
 |---|---|---|---:|---|
 | 2.2.4.a | [Proper business type, and the use of classification codes and year to year comparison](/businesses/business-tax-preparation/analysis-of-financial-records/proper-business-type-and-the-use-of-classification-codes/) | review | 2,606 | 2026-08-21 |
 | 2.2.4.b | [Income statement](/businesses/business-tax-preparation/analysis-of-financial-records/income-statement/) | review | 2,602 | 2026-08-21 |
-| 2.2.4.c | [Balance sheet (e.g., proofing beginning and ending balances, relationship to income statement and depreciation)](/businesses/business-tax-preparation/analysis-of-financial-records/balance-sheet/) | stub | — | — |
+| 2.2.4.c | [Balance sheet (e.g., proofing beginning and ending balances, relationship to income statement and depreciation)](/businesses/business-tax-preparation/analysis-of-financial-records/balance-sheet/) | review | 2,632 | 2026-08-21 |
 | 2.2.4.d | [Method of accounting and changes (e.g., accrual, cash, hybrid, Form 3115)](/businesses/business-tax-preparation/analysis-of-financial-records/method-of-accounting-and-changes/) | stub | — | — |
 | 2.2.4.e | [Depreciation recovery (e.g., recapture, IRC Section 280F)](/businesses/business-tax-preparation/analysis-of-financial-records/depreciation-recovery/) | stub | — | — |
 | 2.2.4.f | [Pass-through activity (e.g., K-1, separately stated items, non-deductible expenses)](/businesses/business-tax-preparation/analysis-of-financial-records/pass-through-activity/) | stub | — | — |

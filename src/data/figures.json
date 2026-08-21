@@ -11767,6 +11767,78 @@
       "taxYear": 2026,
       "source": "IRM 4.10.4.2.3.6, opened at irs.gov/irm/part4/irm_04-010-004",
       "verified": "2026-08-21"
+    },
+    "bs.definition": {
+      "value": "a balance sheet, or statement of financial position, presents the financial position of a business entity on a specific date — its assets, meaning the resources it owns and the future benefits it controls from past transactions; its liabilities, meaning the debts it owes; and its equity, the remaining interest in the assets after deducting the liabilities",
+      "taxYear": 2026,
+      "source": "IRM 4.10.3.10.1, opened at irs.gov/irm/part4/irm_04-010-003",
+      "verified": "2026-08-21"
+    },
+    "bs.equation": {
+      "value": "the balance sheet is a detailed expression of one equation — assets equal liabilities plus equity — so equity is what is left of the assets after the liabilities, never a component of them",
+      "taxYear": 2026,
+      "source": "IRM 4.10.3.10.1, opened at irs.gov/irm/part4/irm_04-010-003",
+      "verified": "2026-08-21"
+    },
+    "bs.schedule_l": {
+      "value": "Schedule L reports balance sheets per books, which are required to agree with the corporation’s books and records rather than with the tax return",
+      "taxYear": 2026,
+      "source": "Instructions for Form 1120, Schedule L, opened at irs.gov/instructions/i1120",
+      "verified": "2026-08-21"
+    },
+    "bs.schedule_l_exception": {
+      "value": "a corporation with total receipts — page 1 line 1a plus lines 4 through 10 — and total assets at year end each under $250,000 need not complete Schedules L, M-1 and M-2, provided the Yes box at Schedule K question 13 is checked",
+      "taxYear": 2026,
+      "source": "Instructions for Form 1120, Schedule L, opened at irs.gov/instructions/i1120",
+      "verified": "2026-08-21"
+    },
+    "bs.m3_threshold": {
+      "value": "a corporation with total assets of $10 million or more on the last day of the tax year files Schedule M-3 in place of Schedule M-1",
+      "taxYear": 2026,
+      "source": "Instructions for Form 1120, Schedule L, opened at irs.gov/instructions/i1120",
+      "verified": "2026-08-21"
+    },
+    "bs.first_step": {
+      "value": "the first step in analysing a balance sheet is to determine whether it is tax based or book based — partnerships commonly book assets at fair market value to match the allocation rules, in which case the examiner is directed to ask for a tax basis balance sheet",
+      "taxYear": 2026,
+      "source": "IRM 4.10.3.10.2, opened at irs.gov/irm/part4/irm_04-010-003",
+      "verified": "2026-08-21"
+    },
+    "bs.tax_based_signal": {
+      "value": "where the balance sheet is tax based, net income per books will usually not agree to Schedule M-1 line 1 or M-3 line 11 — which means not every Schedule M adjustment has been disclosed",
+      "taxYear": 2026,
+      "source": "IRM 4.10.3.10.2, opened at irs.gov/irm/part4/irm_04-010-003",
+      "verified": "2026-08-21"
+    },
+    "bs.proof_steps": {
+      "value": "the three proofs on a tax based balance sheet — net income per books agreed to Schedule M-1 line 1 or M-3 line 11, total assets and retained earnings agreed to the books, and a determination that the method of accounting clearly reflects income under IRC § 446(c)",
+      "taxYear": 2026,
+      "source": "IRM 4.10.3.10.2, opened at irs.gov/irm/part4/irm_04-010-003",
+      "verified": "2026-08-21"
+    },
+    "bs.luq_signals": {
+      "value": "accounts selected for in-depth analysis are those with unusual titles, unusual entries within them, large numbers of adjusting journal entries, or large dollar entries concentrated in one month against the others",
+      "taxYear": 2026,
+      "source": "IRM 4.10.3.10.3, opened at irs.gov/irm/part4/irm_04-010-003",
+      "verified": "2026-08-21"
+    },
+    "bs.depreciation_tie": {
+      "value": "assets on the depreciation schedule carrying a prior year acquisition date are compared with the immediately preceding return; a mismatch indicates depreciation claimed on assets already expensed or already fully depreciated",
+      "taxYear": 2026,
+      "source": "IRM 4.10.3.10.4 (Depreciable Assets), opened at irs.gov/irm/part4/irm_04-010-003",
+      "verified": "2026-08-21"
+    },
+    "bs.receivable_credit": {
+      "value": "credit balances in accounts receivable may represent deposits, advance payments or overpayments that are additional income or unrecorded sales",
+      "taxYear": 2026,
+      "source": "IRM 4.10.3.10.4 (Accounts Receivable), opened at irs.gov/irm/part4/irm_04-010-003",
+      "verified": "2026-08-21"
+    },
+    "bs.omitted_m1": {
+      "value": "omitted Schedule M-1 items are found by analysing the balance sheet accounts, especially the liabilities, because those accounts are not themselves affected by the Schedule M-1 adjustments made on the return",
+      "taxYear": 2026,
+      "source": "IRM 4.10.4.2.4.2, opened at irs.gov/irm/part4/irm_04-010-004",
+      "verified": "2026-08-21"
     }
   }
 }
