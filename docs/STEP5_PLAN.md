@@ -9,11 +9,70 @@ Regenerate the numbers with `npm run progress`.
 
 ## Where the project stands (21 August 2026)
 
-**131 topic pages at `published`, 133 at `review`, 96 at `stub`.** Part 1 is complete at
-120 / 120 and Part 3 at 121 / 121; Part 2 stands at 23 of 119, with sections 2.1.1 and
-2.1.2 finished. `figures.json` carries 1,505 keys, every one with a `verified` date against
-a source opened that day. `npm run verify` reports 0 errors. See the Part 2 section below
-for what the next session should not relearn.
+**131 topic pages at `published`, 155 at `review`, 74 at `stub`.** Part 1 is complete at
+120 / 120 and Part 3 at 121 / 121; Part 2 stands at 45 of 119, and **domain 2.1 is now
+complete** — all five sections, 2.1.1 through 2.1.5. `figures.json` carries 1,694 keys,
+every one with a `verified` date against a source opened that day. `npm run verify` reports
+0 errors. See the Part 2 sections below for what the next session should not relearn.
+
+### What remains in Part 2
+
+Domain 2.2 — 2.2.1 Business income (4), 2.2.2 Business expenses, deductions and credits
+(15), 2.2.3 Business assets (5), 2.2.4 Analysis of financial records (9), 2.2.5 Advising
+the business taxpayer (13). Domain 2.3 — 2.3.1 Trust and estate income tax (7), 2.3.2
+Exempt organizations (4), 2.3.3 Retirement plans (6), 2.3.4 Farmers (5), 2.3.5 Rental
+property (6). Seventy-four topics, in that order.
+
+## Domain 2.1 closed — sections 2.1.3, 2.1.4 and 2.1.5 (21 August 2026)
+
+### What the next session should not relearn
+
+**The tagger needed three rounds of repair for Part 2, and the fixes are load-bearing.**
+The ordered `RULES` array puts the 2.2.x business rules above the 2.1.5 subchapter S rules,
+so a question about a shareholder's stock basis went to depreciation and amortization, an
+automatic termination of an S election went to gross receipts, and a shareholder's health
+insurance premium went to business compensation. A block of three narrow rules now sits
+above the 2.2.3 comment and claims those first, guarded so a fringe-benefit question asked
+from the C corporation's side of the comparison stays at 2.2.2.a. Four questions moved.
+A fourth fix broadened the 2.1.5.e rule to catch "exceeds the existing basis" as well as
+"in excess of basis". Five tests cover all of it. **Re-run `npm run tag -- --retag` after
+any rule change** — plain `npm run tag` will not clear a cached tag.
+
+**Subchapter S coverage in the bank is thin and now fully mapped.** Seven questions across
+eight topics; 2.1.5.d, 2.1.5.g and 2.1.5.h have none at all. The table is in
+`private/discrepancies.md` under the 2.1.5.h entry. Do not spend time looking for questions
+that are not there.
+
+**Three statutory findings from today that reach beyond the pages they were found on.**
+
+1. **IRC § 68 was amended generally by Pub. L. 119-21 § 70111(a) and first operates in
+   taxable years beginning after 31 December 2025.** For 2018 through 2025 the section was
+   suspended outright by the former IRC § 68(f), so 2026 is the first year in two decades in
+   which an overall limitation on itemized deductions applies at all, and it is a different
+   mechanism from the pre-2018 phase-out. Any page that lists a separately stated itemized
+   deduction is affected downstream. The figure key is `itemized.haircut`.
+2. **IRC § 108(a)(1)(E), qualified principal residence indebtedness, lapses for 2026.** The
+   text excludes a discharge only if it occurs before 1 January 2026 or is made under a
+   written arrangement entered into before that date. Pub. L. 116-260 § 114(a) set that date
+   in December 2020 and nothing since has moved it — Pub. L. 119-21 did not touch
+   IRC § 108(a)(1). Check the Part 1 page that covers it.
+3. **IRC § 108(f)(5), student loan discharge, is a new rule for 2026.** Pub. L. 119-21
+   § 70119(a) amended the paragraph generally, effective for discharges after 31 December
+   2025. The prior paragraph covered discharges in 2021 through 2025. It is a replacement,
+   not an extension.
+
+**The IRC § 481(d) and IRC § 1371(f) conversion reliefs are closed to new entrants but
+still live.** Both key to "eligible terminated S corporation," which IRC § 481(d)(2) defines
+by reference to an S election in place on 21 December 2017 and a revocation in the two-year
+window that closed on 21 December 2019. No corporation can qualify now. Both provisions
+remain law for the corporations that did, and IRC § 1371(f) gives them a materially better
+result on post-period distributions than an ordinary former S corporation gets. Worth
+re-checking on the annual refresh in case of repeal.
+
+**Gitlitz was opened at source.** The Supreme Court syllabus is at
+`law.cornell.edu/supct/html/99-1295.ZS.html` and carries both holdings. The LII page does
+not give a U.S. Reports citation, so 2.1.5.g cites the case by decision date and by the
+Court of Appeals citation it reversed. Do not add a U.S. Reports cite without opening one.
 
 ## Where the project stood (19 August 2026)
 
