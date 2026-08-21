@@ -9031,6 +9031,48 @@
       "taxYear": 2026,
       "source": "IRC § 6227, read at law.cornell.edu/uscode/text/26/6227",
       "verified": "2026-08-21"
+    },
+    "corpfile.june30_transition": {
+      "value": "a C corporation with a taxable year ending 30 June filed on the 15th day of the third month after the close — 15 September for a June year — rather than the fourth. That deferral came from Pub. L. 114-41 § 2006(a)(3)(B), which applied the new dates to such a corporation only for returns for taxable years beginning after 31 December 2025. The year beginning 1 July 2025 and ending 30 June 2026 is the last one under the old date; the year beginning 1 July 2026 is the first under the general fourth-month rule",
+      "taxYear": 2026,
+      "source": "Pub. L. 114-41 § 2006(a)(3), set out as a note under IRC § 170 and read at law.cornell.edu/uscode/text/26/170, with IRC § 6072(a) at /6072",
+      "verified": "2026-08-21"
+    },
+    "corpfile.extension": {
+      "value": "a corporation, or an affiliated group filing a consolidated return, is allowed an automatic 6-month extension of time to file where an application is submitted on Form 7004 on or before the date prescribed for filing, the properly estimated unpaid tax liability is remitted on or before the date prescribed for payment, and the application lists each member of any affiliated group. The extension is of time to file only, not of time to pay (Reg. § 1.6081-3(a), (b))",
+      "taxYear": 2026,
+      "source": "26 CFR § 1.6081-3(a), (b), read at law.cornell.edu/cfr/text/26/1.6081-3",
+      "verified": "2026-08-21"
+    },
+    "corpfile.june30_extension": {
+      "value": "for a return for a taxable year of a C corporation that ends on 30 June and begins before 1 January 2026, the automatic extension is 7 months rather than 6, a short period ending on any day in June being treated as ending on 30 June. That exception expires with the same year as the filing-date deferral, so a June year beginning 1 July 2026 gets 6 months like any other corporation (Reg. § 1.6081-3(e))",
+      "taxYear": 2026,
+      "source": "26 CFR § 1.6081-3(e), read at law.cornell.edu/cfr/text/26/1.6081-3",
+      "verified": "2026-08-21"
+    },
+    "corpfile.failure_to_file": {
+      "value": "5 percent of the tax required to be shown on the return for a failure of not more than 1 month, with an additional 5 percent for each additional month or fraction of one during which the failure continues, not exceeding 25 percent in the aggregate — measured from the date prescribed determined with regard to any extension, and not applying where the failure is due to reasonable cause and not wilful neglect (IRC § 6651(a)(1))",
+      "taxYear": 2026,
+      "source": "IRC § 6651(a)(1), read at law.cornell.edu/uscode/text/26/6651",
+      "verified": "2026-08-21"
+    },
+    "corpfile.failure_to_pay": {
+      "value": "0.5 percent of the tax shown on the return for a failure of not more than 1 month, with an additional 0.5 percent for each additional month or fraction of one, subject to the statutory ceiling — measured from the date prescribed for payment determined with regard to any extension of time for payment, and not applying where the failure is due to reasonable cause and not wilful neglect (IRC § 6651(a)(2))",
+      "taxYear": 2026,
+      "source": "IRC § 6651(a)(2), read at law.cornell.edu/uscode/text/26/6651",
+      "verified": "2026-08-21"
+    },
+    "corpfile.penalty_coordination": {
+      "value": "for any month to which both additions apply, the failure to file addition is reduced by the amount of the failure to pay addition — so the two do not simply accumulate, and the combined charge for a month in which both run is the higher rate rather than the sum (IRC § 6651(c)(1))",
+      "taxYear": 2026,
+      "source": "IRC § 6651(c)(1), read at law.cornell.edu/uscode/text/26/6651",
+      "verified": "2026-08-21"
+    },
+    "corpfile.minimum_penalty": {
+      "value": "$535 — for a return required to be filed in 2027, the IRC § 6651(a) addition to tax for failure to file an income tax return within 60 days of the due date, determined with regard to extensions, will not be less than the lesser of that amount or 100 percent of the amount required to be shown as tax on the return",
+      "taxYear": 2026,
+      "source": "Rev. Proc. 2025-32 § 3.52, read at irs.gov/pub/irs-drop/rp-25-32.pdf",
+      "verified": "2026-08-21"
     }
   }
 }
