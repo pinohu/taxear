@@ -8779,6 +8779,66 @@
       "taxYear": 2026,
       "source": "IRC § 705(b), read at law.cornell.edu/uscode/text/26/705",
       "verified": "2026-08-21"
+    },
+    "dispose.capital_gain": {
+      "value": "on a sale or exchange of an interest in a partnership, gain or loss is recognised to the transferor partner and is treated as gain or loss from the sale or exchange of a capital asset, except as otherwise provided in IRC § 751 on unrealised receivables and inventory items (IRC § 741)",
+      "taxYear": 2026,
+      "source": "IRC § 741, read at law.cornell.edu/uscode/text/26/741",
+      "verified": "2026-08-21"
+    },
+    "dispose.hot_assets": {
+      "value": "the money or fair market value of property received by a transferor partner in exchange for all or part of the interest, to the extent attributable to unrealised receivables or inventory items of the partnership, is considered an amount realised from the sale or exchange of property other than a capital asset (IRC § 751(a))",
+      "taxYear": 2026,
+      "source": "IRC § 751(a), read at law.cornell.edu/uscode/text/26/751",
+      "verified": "2026-08-21"
+    },
+    "dispose.no_substantial_appreciation": {
+      "value": "IRC § 751(a) applies to inventory items whatever their appreciation. Pub. L. 107-147 § 417(12) struck the words \"which have appreciated substantially in value\" from IRC § 741 in 2002, and the substantial appreciation test now survives only in IRC § 751(b)(1)(A)(ii) for certain distributions",
+      "taxYear": 2026,
+      "source": "IRC §§ 741 and 751(b) with the 2002 amendment notes, read at law.cornell.edu/uscode/text/26/741 and /751",
+      "verified": "2026-08-21"
+    },
+    "dispose.unrealized_receivables": {
+      "value": "unrealised receivables include, to the extent not previously includible in income under the partnership method of accounting, any rights to payment for goods delivered or to be delivered where the proceeds would be treated as from the sale of a non-capital asset, and for services rendered or to be rendered. For IRC §§ 731, 732 and 741 the term also reaches mining property, DISC stock, IRC § 1245 property, certain foreign corporation stock, IRC § 1250 property and other recapture items (IRC § 751(c))",
+      "taxYear": 2026,
+      "source": "IRC § 751(c), read at law.cornell.edu/uscode/text/26/751",
+      "verified": "2026-08-21"
+    },
+    "dispose.inventory_items": {
+      "value": "inventory items means property of the kind described in IRC § 1221(a)(1); any other partnership property that on sale would be property other than a capital asset and other than IRC § 1231 property; and any other property held by the partnership which, if held by the selling or distributee partner, would be of either of those kinds (IRC § 751(d))",
+      "taxYear": 2026,
+      "source": "IRC § 751(d), read at law.cornell.edu/uscode/text/26/751",
+      "verified": "2026-08-21"
+    },
+    "dispose.no_inside_adjustment": {
+      "value": "the basis of partnership property is not adjusted on a transfer of an interest by sale or exchange or on the death of a partner unless an IRC § 754 election is in effect or the partnership has a substantial built-in loss immediately after the transfer (IRC § 743(a))",
+      "taxYear": 2026,
+      "source": "IRC § 743(a), read at law.cornell.edu/uscode/text/26/743",
+      "verified": "2026-08-21"
+    },
+    "dispose.743b_adjustment": {
+      "value": "where IRC § 754 is elected or a substantial built-in loss exists, the partnership increases the adjusted basis of its property by the excess of the transferee basis in the interest over their proportionate share of the adjusted basis of partnership property, or decreases it by the excess the other way (IRC § 743(b))",
+      "taxYear": 2026,
+      "source": "IRC § 743(b), read at law.cornell.edu/uscode/text/26/743",
+      "verified": "2026-08-21"
+    },
+    "dispose.substantial_built_in_loss": {
+      "value": "$250,000 — a partnership has a substantial built-in loss on a transfer if its adjusted basis in partnership property exceeds the fair market value of that property by more than that amount, or if the transferee partner would be allocated a loss of more than that amount were the assets sold for cash at fair market value immediately after the transfer (IRC § 743(d)(1))",
+      "taxYear": 2026,
+      "source": "IRC § 743(d)(1), read at law.cornell.edu/uscode/text/26/743",
+      "verified": "2026-08-21"
+    },
+    "dispose.754_election": {
+      "value": "where a partnership files the election, the basis of partnership property is adjusted on a distribution of property in the manner provided by IRC § 734 and on a transfer of a partnership interest in the manner provided by IRC § 743; the election applies to all distributions and all transfers during the taxable year in which it is filed and to all later years (IRC § 754)",
+      "taxYear": 2026,
+      "source": "IRC § 754, read at law.cornell.edu/uscode/text/26/754",
+      "verified": "2026-08-21"
+    },
+    "dispose.6050k": {
+      "value": "where there is an exchange described in IRC § 751(a) of an interest in a partnership during a calendar year, the partnership must make a return for that year giving the names and addresses of the transferee and transferor, and must furnish a written statement to each of them (IRC § 6050K(a), (b))",
+      "taxYear": 2026,
+      "source": "IRC § 6050K, read at law.cornell.edu/uscode/text/26/6050K",
+      "verified": "2026-08-21"
     }
   }
 }
