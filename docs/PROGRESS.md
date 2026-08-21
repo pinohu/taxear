@@ -10,9 +10,9 @@ is indexed, and only the owner moves a page there (see `docs/VERIFICATION.md`).
 | Part | Topics | Stub | Draft | Review | Published | Words |
 |---|---:|---:|---:|---:|---:|---:|
 | 1. Individuals | 120 | 0 | 0 | 110 | 10 | 256,550 |
-| 2. Businesses | 119 | 97 | 0 | 22 | 0 | 52,044 |
+| 2. Businesses | 119 | 96 | 0 | 23 | 0 | 54,383 |
 | 3. Representation, Practices and Procedures | 121 | 0 | 0 | 0 | 121 | 257,674 |
-| **All parts** | **360** | **97** | **0** | **132** | **131** | **566,268** |
+| **All parts** | **360** | **96** | **0** | **133** | **131** | **568,607** |
 
 ## Part 1 — Individuals
 
@@ -243,7 +243,7 @@ is indexed, and only the owner moves a page there (see `docs/VERIFICATION.md`).
 | 2.1.2.h | [Dissolution of partnership (e.g., sale, death of partner)](/businesses/business-entities/partnerships/dissolution-of-partnership/) | review | 2,490 | 2026-08-21 |
 | 2.1.2.i | [Filing requirements, due dates, penalties, and audit notice requirements](/businesses/business-entities/partnerships/filing-requirements-due-dates-penalties-and-audit-notice/) | review | 2,392 | 2026-08-21 |
 | 2.1.2.j | [Partnership cancellation of debt](/businesses/business-entities/partnerships/partnership-cancellation-of-debt/) | review | 2,307 | 2026-08-21 |
-| 2.1.2.k | [Partnership level audit and opt-out](/businesses/business-entities/partnerships/partnership-level-audit-and-opt-out/) | stub | — | — |
+| 2.1.2.k | [Partnership level audit and opt-out](/businesses/business-entities/partnerships/partnership-level-audit-and-opt-out/) | review | 2,339 | 2026-08-21 |
 
 **2.1.3 Corporations in general**
 

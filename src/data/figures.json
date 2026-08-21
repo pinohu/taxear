@@ -8989,6 +8989,48 @@
       "taxYear": 2026,
       "source": "IRC § 61(a)(11), read at law.cornell.edu/uscode/text/26/61",
       "verified": "2026-08-21"
+    },
+    "bba.partnership_level": {
+      "value": "any adjustment to a partnership-related item is determined, any tax attributable to it is assessed and collected, and the applicability of any penalty, addition to tax or additional amount relating to such an adjustment is determined, at the partnership level, except as the subchapter otherwise provides (IRC § 6221(a))",
+      "taxYear": 2026,
+      "source": "IRC § 6221(a), read at law.cornell.edu/uscode/text/26/6221",
+      "verified": "2026-08-21"
+    },
+    "bba.election_out": {
+      "value": "100 — the subchapter does not apply to a partnership for a taxable year where the partnership elects out, is required to furnish 100 or fewer statements under IRC § 6031(b) for that year, has only partners who are individuals, C corporations, foreign entities that would be C corporations if domestic, S corporations or estates of deceased partners, makes the election on a timely filed return disclosing each partner name and taxpayer identification number, and notifies each partner of the election (IRC § 6221(b)(1))",
+      "taxYear": 2026,
+      "source": "IRC § 6221(b)(1), read at law.cornell.edu/uscode/text/26/6221",
+      "verified": "2026-08-21"
+    },
+    "bba.scorp_partner": {
+      "value": "where a partner is an S corporation the eligibility condition is met only if the partnership also discloses the name and taxpayer identification number of every person to whom that S corporation must furnish a statement under IRC § 6037(b) for its year ending with or within the partnership year — and those statements count toward the 100-statement limit (IRC § 6221(b)(2)(A))",
+      "taxYear": 2026,
+      "source": "IRC § 6221(b)(2)(A), read at law.cornell.edu/uscode/text/26/6221",
+      "verified": "2026-08-21"
+    },
+    "bba.imputed_underpayment": {
+      "value": "where adjustments to partnership-related items for a reviewed year result in an imputed underpayment, the partnership pays it in the adjustment year; where they do not, the adjustments are taken into account by the partnership in the adjustment year. The imputed underpayment is determined by netting all partnership adjustments for the reviewed year and applying the highest rate of tax in effect for that year (IRC § 6225(a), (b)(1))",
+      "taxYear": 2026,
+      "source": "IRC § 6225(a), (b), read at law.cornell.edu/uscode/text/26/6225",
+      "verified": "2026-08-21"
+    },
+    "bba.modification": {
+      "value": "the Secretary must establish procedures under which the imputed underpayment may be modified, including where reviewed-year partners file returns taking all adjustments properly allocable to them into account with payment of the tax due — in which case the imputed underpayment is determined without regard to the portion so taken into account (IRC § 6225(c)(1), (2))",
+      "taxYear": 2026,
+      "source": "IRC § 6225(c), read at law.cornell.edu/uscode/text/26/6225",
+      "verified": "2026-08-21"
+    },
+    "bba.pushout": {
+      "value": "45 days — where the partnership elects within that period after the notice of final partnership adjustment and furnishes each reviewed-year partner and the Secretary with a statement of that partner share of the adjustments, IRC § 6225 does not apply, no assessment, levy or collection proceeding may be brought against the partnership for that underpayment, and each partner takes the adjustment into account. Once made the election is revocable only with the consent of the Secretary (IRC § 6226(a))",
+      "taxYear": 2026,
+      "source": "IRC § 6226(a), read at law.cornell.edu/uscode/text/26/6226",
+      "verified": "2026-08-21"
+    },
+    "bba.aar": {
+      "value": "a partnership may file a request for an administrative adjustment in the amount of one or more partnership-related items for any partnership taxable year, and the adjustment is determined and taken into account for the year in which the request is filed — either by the partnership under rules similar to IRC § 6225 or by the partnership and partners under rules similar to IRC § 6226 (IRC § 6227(a), (b))",
+      "taxYear": 2026,
+      "source": "IRC § 6227, read at law.cornell.edu/uscode/text/26/6227",
+      "verified": "2026-08-21"
     }
   }
 }

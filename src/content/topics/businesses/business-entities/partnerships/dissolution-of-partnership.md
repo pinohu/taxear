@@ -20,7 +20,7 @@ authorities:
   - { type: IRC, ref: "§ 754", title: "Manner of electing optional adjustment to basis of partnership property", url: "https://www.law.cornell.edu/uscode/text/26/754" }
   - { type: IRC, ref: "§ 761(d)", title: "Liquidation of a partner's interest", url: "https://www.law.cornell.edu/uscode/text/26/761" }
 forms: []
-related: ["2.1.2.f", "2.1.2.e", "2.1.2.a", "2.1.2.i"]
+related: ["2.1.2.f", "2.1.2.e", "2.1.2.a", "2.1.2.i", "2.1.2.k"]
 changelog:
   - { date: "2026-08-21", summary: "Initial draft. Records that Pub. L. 115-97 struck the technical termination in IRC § 708(b)(1)(B) for partnership taxable years beginning after 31 December 2017, so a partnership now terminates only where no part of its business continues to be carried on by any partner in a partnership. Sets out the § 708(b)(2) merger and division rules, the § 706(c) rule that the partnership year closes only as to a partner whose entire interest terminates, the § 736(a) and (b) division of liquidation payments between distributive share or guaranteed payment and payment for an interest in partnership property with the § 736(b)(2) and (3) carve-outs for unrealized receivables and goodwill, and the § 731 and § 732 recognition and basis consequences of liquidating distributions." }
 ---
