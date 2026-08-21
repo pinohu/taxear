@@ -12319,6 +12319,48 @@
       "taxYear": 2026,
       "source": "Reg. § 1.1367-2(a)(2)(i), opened at law.cornell.edu/cfr/text/26/1.1367-2",
       "verified": "2026-08-21"
+    },
+    "file.due_dates": {
+      "value": "a partnership return under IRC § 6031 and an S corporation return under IRC §§ 6012 and 6037 are due the 15th day of the third month after the close of the year; an income tax return under IRC §§ 6012, 6013 or 6017 is due the 15th day of the fourth month",
+      "taxYear": 2026,
+      "source": "IRC § 6072(a) and (b), opened at law.cornell.edu/uscode/text/26/6072",
+      "verified": "2026-08-21"
+    },
+    "file.extension": {
+      "value": "a reasonable extension of time may be granted for any return, and except for taxpayers abroad it may not exceed 6 months — with an automatic 6-month extension for a corporation that files the prescribed form and pays its properly estimated tax by the original due date",
+      "taxYear": 2026,
+      "source": "IRC § 6081(a) and (b), opened at law.cornell.edu/uscode/text/26/6081",
+      "verified": "2026-08-21"
+    },
+    "file.extension_not_of_payment": {
+      "value": "the corporate automatic extension is conditioned on paying the properly estimated tax by the date prescribed for payment — an extension of time to file has never been an extension of time to pay",
+      "taxYear": 2026,
+      "source": "IRC § 6081(b), opened at law.cornell.edu/uscode/text/26/6081",
+      "verified": "2026-08-21"
+    },
+    "file.s_corp_penalty": {
+      "value": "$260 per shareholder per month for each month or fraction of a month the failure continues, up to 12 months, unless due to reasonable cause — the statute prints $195 and IRC § 6699(d) indexes it",
+      "taxYear": 2026,
+      "source": "IRC § 6699(b), opened at law.cornell.edu/uscode/text/26/6699; Rev. Proc. 2025-32, opened at irs.gov/pub/irs-drop/rp-25-32.pdf § 3.56, for returns required to be filed in 2027",
+      "verified": "2026-08-21"
+    },
+    "file.6038": {
+      "value": "$10,000 for each annual accounting period for which a United States person fails to furnish the required information about a foreign business entity, with a further $10,000 for each 30-day period the failure continues more than 90 days after notice",
+      "taxYear": 2026,
+      "source": "IRC § 6038(b), opened at law.cornell.edu/uscode/text/26/6038",
+      "verified": "2026-08-21"
+    },
+    "file.6038A": {
+      "value": "$25,000 for each taxable year in which a reporting corporation fails to furnish the required information or to maintain the required records, with a further amount for each 30-day period the failure continues more than 90 days after notice",
+      "taxYear": 2026,
+      "source": "IRC § 6038A(d), opened at law.cornell.edu/uscode/text/26/6038A",
+      "verified": "2026-08-21"
+    },
+    "file.6038D": {
+      "value": "$10,000 for failing to furnish the specified foreign financial asset information for a taxable year, increased where the failure continues more than 90 days after notice",
+      "taxYear": 2026,
+      "source": "IRC § 6038D(d), opened at law.cornell.edu/uscode/text/26/6038D",
+      "verified": "2026-08-21"
     }
   }
 }

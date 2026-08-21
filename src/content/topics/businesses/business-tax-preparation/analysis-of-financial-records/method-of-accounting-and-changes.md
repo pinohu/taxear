@@ -24,7 +24,7 @@ authorities:
   - { type: RevProc, ref: "Rev. Proc. 2025-32", title: "Inflation-adjusted items for 2026", url: "https://www.irs.gov/pub/irs-drop/rp-25-32.pdf" }
   - { type: Form, ref: "Form 3115", title: "Application for Change in Accounting Method", url: "https://www.irs.gov/forms-pubs/about-form-3115" }
 forms: []
-related: ["2.2.4.b", "2.2.4.c", "2.2.4.a", "2.2.1.a", "2.2.2.i", "2.2.4.g"]
+related: ["2.2.4.b", "2.2.4.c", "2.2.4.a", "2.2.1.a", "2.2.2.i", "2.2.4.g", "2.2.5.a"]
 changelog:
   - { date: "2026-08-21", summary: "Initial draft. Sets out the IRC § 446(a) book conformity rule and the § 448(a) prohibition with its farming, qualified personal service corporation and gross receipts exceptions at the 2026 figure from Rev. Proc. 2025-32 § 3.30, the Reg. § 1.448-1T(e)(4) and (e)(5) function and ownership tests, the Reg. § 1.446-1(e)(2) definition of a change in method and the list of what is not one, the Form 3115 consent procedure with its terms and conditions, and the IRC § 481(a) adjustment." }
 ---
