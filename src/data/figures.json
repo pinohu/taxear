@@ -7765,6 +7765,60 @@
       "taxYear": 2026,
       "source": "IRC § 162(a), read at law.cornell.edu/uscode/text/26/162",
       "verified": "2026-08-21"
+    },
+    "ptr.definition": {
+      "value": "a syndicate, group, pool, joint venture or other unincorporated organization through or by means of which any business, financial operation or venture is carried on, and which is not a corporation, trust or estate (IRC § 761(a); § 7701(a)(2))",
+      "taxYear": 2026,
+      "source": "IRC §§ 761(a) and 7701(a)(2), read at law.cornell.edu",
+      "verified": "2026-08-21"
+    },
+    "ptr.no_entity_tax": {
+      "value": "a partnership as such is not subject to the income tax — persons carrying on business as partners are liable for income tax only in their separate or individual capacities (IRC § 701)",
+      "taxYear": 2026,
+      "source": "IRC § 701, read at law.cornell.edu/uscode/text/26/701",
+      "verified": "2026-08-21"
+    },
+    "ptr.separately_stated": {
+      "value": "each partner takes into account separately their distributive share of the classes IRC § 702(a) lists — short-term and long-term capital gains and losses, § 1231 gains and losses, charitable contributions, dividends, foreign taxes, other separately stated items, and then the residual taxable income or loss (IRC § 702(a))",
+      "taxYear": 2026,
+      "source": "IRC § 702(a), read at law.cornell.edu/uscode/text/26/702",
+      "verified": "2026-08-21"
+    },
+    "ptr.return_requirement": {
+      "value": "every partnership must make a return for each taxable year stating its items of gross income and allowable deductions, with the names and addresses of those entitled to share in the taxable income if distributed (IRC § 6031(a))",
+      "taxYear": 2026,
+      "source": "IRC § 6031(a), read at law.cornell.edu/uscode/text/26/6031",
+      "verified": "2026-08-21"
+    },
+    "ptr.due_date": {
+      "value": "the 15th day of March following the close of a calendar year, or the 15th day of the third month following the close of a fiscal year (IRC § 6072(b))",
+      "taxYear": 2026,
+      "source": "IRC § 6072(b), read at law.cornell.edu/uscode/text/26/6072",
+      "verified": "2026-08-21"
+    },
+    "ptr.late_penalty": {
+      "value": "$260 per partner per month for each month or fraction of one during which the failure continues, capped at 12 months, unless the failure is due to reasonable cause — the statute prints $195 and IRC § 6698(e) indexes it, rounding down to a multiple of $5 (IRC § 6698; Rev. Proc. 2025-32 § 3.55, for returns required to be filed in 2027)",
+      "taxYear": 2026,
+      "source": "IRC § 6698, read at law.cornell.edu/uscode/text/26/6698, and Rev. Proc. 2025-32 § 3.55, re-downloaded from irs.gov/pub/irs-drop/rp-25-32.pdf and text-extracted 21 August 2026",
+      "verified": "2026-08-21"
+    },
+    "qjv.effect": {
+      "value": "the venture is not treated as a partnership, all items of income, gain, loss, deduction and credit are divided between the spouses according to their respective interests, and each takes their share into account as if attributable to a trade or business conducted as a sole proprietor (IRC § 761(f)(1))",
+      "taxYear": 2026,
+      "source": "IRC § 761(f), read at law.cornell.edu/uscode/text/26/761",
+      "verified": "2026-08-21"
+    },
+    "qjv.conditions": {
+      "value": "three, and only three — the only members are a husband and wife, both materially participate within IRC § 469(h) determined without regard to § 469(h)(5), and both elect the subsection to apply; the election is available only where they file a joint return for the year (IRC § 761(f)(1), (2))",
+      "taxYear": 2026,
+      "source": "IRC § 761(f), read at law.cornell.edu/uscode/text/26/761",
+      "verified": "2026-08-21"
+    },
+    "ptr.exclusion_election": {
+      "value": "all the members of an unincorporated organization may elect to exclude it from all or part of subchapter K where it is availed of for investment purposes only and not the active conduct of a business, for the joint production, extraction or use of property but not for selling services or the property produced, or by dealers in the circumstances the section sets out (IRC § 761(a))",
+      "taxYear": 2026,
+      "source": "IRC § 761(a), read at law.cornell.edu/uscode/text/26/761",
+      "verified": "2026-08-21"
     }
   }
 }
