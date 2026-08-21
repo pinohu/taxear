@@ -10,9 +10,9 @@ is indexed, and only the owner moves a page there (see `docs/VERIFICATION.md`).
 | Part | Topics | Stub | Draft | Review | Published | Words |
 |---|---:|---:|---:|---:|---:|---:|
 | 1. Individuals | 120 | 0 | 0 | 110 | 10 | 256,550 |
-| 2. Businesses | 119 | 63 | 0 | 56 | 0 | 129,861 |
+| 2. Businesses | 119 | 62 | 0 | 57 | 0 | 132,072 |
 | 3. Representation, Practices and Procedures | 121 | 0 | 0 | 0 | 121 | 257,674 |
-| **All parts** | **360** | **63** | **0** | **166** | **131** | **644,085** |
+| **All parts** | **360** | **62** | **0** | **167** | **131** | **646,296** |
 
 ## Part 1 — Individuals
 
@@ -304,7 +304,7 @@ is indexed, and only the owner moves a page there (see `docs/VERIFICATION.md`).
 | 2.2.2.e | [Business travel, meals, and gift expenses](/businesses/business-tax-preparation/business-expenses-deductions-and-credits/business-travel-meals-and-gift-expenses/) | review | 2,179 | 2026-08-21 |
 | 2.2.2.f | [Vehicle use and expenses](/businesses/business-tax-preparation/business-expenses-deductions-and-credits/vehicle-use-and-expenses/) | review | 2,314 | 2026-08-21 |
 | 2.2.2.g | [Interest expense](/businesses/business-tax-preparation/business-expenses-deductions-and-credits/interest-expense/) | review | 2,052 | 2026-08-21 |
-| 2.2.2.h | [Insurance expense](/businesses/business-tax-preparation/business-expenses-deductions-and-credits/insurance-expense/) | stub | — | — |
+| 2.2.2.h | [Insurance expense](/businesses/business-tax-preparation/business-expenses-deductions-and-credits/insurance-expense/) | review | 2,211 | 2026-08-21 |
 | 2.2.2.i | [Taxes (e.g., deductibility of taxes, assessments, penalties; proper treatment of sales taxes paid, excise)](/businesses/business-tax-preparation/business-expenses-deductions-and-credits/taxes/) | stub | — | — |
 | 2.2.2.j | [Employment taxes](/businesses/business-tax-preparation/business-expenses-deductions-and-credits/employment-taxes/) | stub | — | — |
 | 2.2.2.k | [Casualties, thefts, and condemnations](/businesses/business-tax-preparation/business-expenses-deductions-and-credits/casualties-thefts-and-condemnations/) | stub | — | — |

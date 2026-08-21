@@ -10873,6 +10873,60 @@
       "taxYear": 2026,
       "source": "Reg. § 1.163-8T(a)(3) and (c)(1), opened at law.cornell.edu/cfr/text/26/1.163-8T",
       "verified": "2026-08-21"
+    },
+    "ins.deductible": {
+      "value": "insurance premiums against fire, storm, theft, accident or other similar losses in the case of a business are among the ordinary and necessary expenditures directly connected with the trade or business",
+      "taxYear": 2026,
+      "source": "Reg. § 1.162-1(a), opened at law.cornell.edu/cfr/text/26/1.162-1",
+      "verified": "2026-08-21"
+    },
+    "ins.no_inventory_double": {
+      "value": "no such item is included in business expenses to the extent it is used in computing the cost of property included in inventory or in determining the gain or loss basis of plant, equipment or other property",
+      "taxYear": 2026,
+      "source": "Reg. § 1.162-1(a), opened at law.cornell.edu/cfr/text/26/1.162-1",
+      "verified": "2026-08-21"
+    },
+    "ins.exceeds_income": {
+      "value": "the full amount of the allowable deduction for ordinary and necessary expenses in carrying on a business is deductible even though those expenses exceed the gross income derived from the business during the year",
+      "taxYear": 2026,
+      "source": "Reg. § 1.162-1(a), opened at law.cornell.edu/cfr/text/26/1.162-1",
+      "verified": "2026-08-21"
+    },
+    "ins.life_beneficiary": {
+      "value": "no deduction is allowed for premiums on any life insurance policy, or endowment or annuity contract, if the taxpayer is directly or indirectly a beneficiary under the policy or contract",
+      "taxYear": 2026,
+      "source": "IRC § 264(a)(1), opened at law.cornell.edu/uscode/text/26/264",
+      "verified": "2026-08-21"
+    },
+    "ins.life_interest": {
+      "value": "no deduction is allowed for interest on debt incurred or continued to purchase or carry a single premium life insurance, endowment or annuity contract, nor, subject to exceptions, on debt under a plan contemplating systematic borrowing of the increases in cash value, nor generally on debt with respect to a life insurance policy the taxpayer owns on any individual",
+      "taxYear": 2026,
+      "source": "IRC § 264(a)(2), (a)(3) and (a)(4), opened at law.cornell.edu/uscode/text/26/264",
+      "verified": "2026-08-21"
+    },
+    "ins.eoli_cap": {
+      "value": "for an employer-owned life insurance contract, the amount the applicable policyholder may exclude from gross income on the death benefit is capped at the sum of the premiums and other amounts it paid for the contract",
+      "taxYear": 2026,
+      "source": "IRC § 101(j)(1), opened at law.cornell.edu/uscode/text/26/101",
+      "verified": "2026-08-21"
+    },
+    "ins.eoli_exception": {
+      "value": "the cap does not apply where the notice and consent requirements are met and the insured was an employee within the 12 months before death, or was a director or highly compensated employee when the contract was issued",
+      "taxYear": 2026,
+      "source": "IRC § 101(j)(2)(A), opened at law.cornell.edu/uscode/text/26/101",
+      "verified": "2026-08-21"
+    },
+    "ins.eoli_reporting": {
+      "value": "every applicable policyholder owning an employer-owned life insurance contract must file an annual return showing the number of employees, the number insured, the total insurance in force, and its own identifying details",
+      "taxYear": 2026,
+      "source": "IRC § 6039I(a), opened at law.cornell.edu/uscode/text/26/6039I",
+      "verified": "2026-08-21"
+    },
+    "ins.twelve_month": {
+      "value": "a taxpayer need not capitalise an amount paid to create a right or benefit that does not extend beyond the earlier of 12 months after the first date the benefit is realised, or the end of the taxable year following the year of payment",
+      "taxYear": 2026,
+      "source": "Reg. § 1.263(a)-4(f)(1), opened at law.cornell.edu/cfr/text/26/1.263(a)-4",
+      "verified": "2026-08-21"
     }
   }
 }
