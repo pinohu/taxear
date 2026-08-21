@@ -23,7 +23,7 @@ authorities:
   - { type: IRC, ref: "§ 461(l)", title: "Limitation on excess business losses of noncorporate taxpayers", url: "https://www.law.cornell.edu/uscode/text/26/461" }
   - { type: IRC, ref: "§ 172", title: "Net operating loss deduction", url: "https://www.law.cornell.edu/uscode/text/26/172" }
 forms: []
-related: ["2.2.3.a", "2.2.3.c", "2.2.3.d", "2.2.2.k", "2.2.2.c", "2.2.3.e"]
+related: ["2.2.3.a", "2.2.3.c", "2.2.3.d", "2.2.2.k", "2.2.2.c", "2.2.3.e", "2.2.4.e"]
 changelog:
   - { date: "2026-08-21", summary: "Initial draft. Sets out the IRC § 1001 computation of gain or loss and what enters the amount realised, the IRC § 1231(b) definition of property used in the trade or business and the IRC § 1231(a) netting that gives the best of both characters, the IRC § 1231(c) five-year lookback that recaptures earlier ordinary losses, and the IRC § 1245 and IRC § 1250 recapture rules with the IRC § 1(h)(6) unrecaptured gain that survives them." }
 ---

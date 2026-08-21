@@ -12001,6 +12001,54 @@
       "taxYear": 2026,
       "source": "Notice 2025-54, opened at irs.gov/pub/irs-drop/n-25-54.pdf § 4",
       "verified": "2026-08-21"
+    },
+    "recovery.allowed_allowable": {
+      "value": "basis is reduced by depreciation allowed, but not below the amount allowable — so a taxpayer who claimed less than it could have still loses the basis, and where no method was adopted the allowable amount is determined under the straight line method",
+      "taxYear": 2026,
+      "source": "IRC § 1016(a)(2), opened at law.cornell.edu/uscode/text/26/1016",
+      "verified": "2026-08-21"
+    },
+    "recovery.recomputed_basis": {
+      "value": "recomputed basis is adjusted basis plus all adjustments reflected in it on account of depreciation or amortization allowed or allowable — to the taxpayer or to any other person — though a taxpayer able to establish by adequate records that less was allowed than allowable adds only the amount allowed",
+      "taxYear": 2026,
+      "source": "IRC § 1245(a)(2)(A) and (B), opened at law.cornell.edu/uscode/text/26/1245",
+      "verified": "2026-08-21"
+    },
+    "recovery.listed_property": {
+      "value": "listed property means any passenger automobile, any other property used as a means of transportation, any property of a type generally used for entertainment, recreation or amusement, and anything else the Secretary specifies — with an exception for transportation property substantially all of whose use is in a business of transporting persons or property for hire for unrelated persons",
+      "taxYear": 2026,
+      "source": "IRC § 280F(d)(4), opened at law.cornell.edu/uscode/text/26/280F",
+      "verified": "2026-08-21"
+    },
+    "recovery.passenger_auto": {
+      "value": "a passenger automobile is any four-wheeled vehicle manufactured primarily for use on public streets, roads and highways and rated at 6,000 pounds unloaded gross vehicle weight or less",
+      "taxYear": 2026,
+      "source": "IRC § 280F(d)(5)(A), opened at law.cornell.edu/uscode/text/26/280F",
+      "verified": "2026-08-21"
+    },
+    "recovery.qualified_business_use": {
+      "value": "qualified business use means any use in a trade or business, but excludes leasing property to a 5-percent owner or related person, use provided as compensation to such a person, and use provided as compensation to anyone else unless an amount is included in that person’s gross income and, where required, withheld on",
+      "taxYear": 2026,
+      "source": "IRC § 280F(d)(6)(B) and (C), opened at law.cornell.edu/uscode/text/26/280F",
+      "verified": "2026-08-21"
+    },
+    "recovery.179_recapture": {
+      "value": "where IRC § 179 property ceases to be used predominantly in a trade or business before the end of its recovery period, the benefit of expensing is recaptured in that year — the excess of the amount expensed over what IRC § 168 would have allowed for the prior years and the year of recapture had the election not been made, whether or not that excess actually reduced tax",
+      "taxYear": 2026,
+      "source": "Reg. § 1.179-1(e)(1), opened at law.cornell.edu/cfr/text/26/1.179-1; IRC § 179(d)(10), opened at law.cornell.edu/uscode/text/26/179",
+      "verified": "2026-08-21"
+    },
+    "recovery.ads_trigger": {
+      "value": "the alternative depreciation system applies to property used predominantly outside the United States, tax-exempt use property, tax-exempt bond financed property, imported property covered by an Executive order, property for which the taxpayer elects it, and property described in IRC § 168(g)(8)",
+      "taxYear": 2026,
+      "source": "IRC § 168(g)(1), opened at law.cornell.edu/uscode/text/26/168",
+      "verified": "2026-08-21"
+    },
+    "recovery.excess_depreciation": {
+      "value": "excess depreciation is the depreciation allowable for the years before the first year of non-predominant business use, over what would have been allowable had the property not been predominantly used in a qualified business use in the year it was placed in service",
+      "taxYear": 2026,
+      "source": "IRC § 280F(b)(2)(B), opened at law.cornell.edu/uscode/text/26/280F",
+      "verified": "2026-08-21"
     }
   }
 }
