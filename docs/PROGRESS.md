@@ -10,9 +10,9 @@ is indexed, and only the owner moves a page there (see `docs/VERIFICATION.md`).
 | Part | Topics | Stub | Draft | Review | Published | Words |
 |---|---:|---:|---:|---:|---:|---:|
 | 1. Individuals | 120 | 0 | 0 | 110 | 10 | 256,550 |
-| 2. Businesses | 119 | 11 | 0 | 108 | 0 | 253,360 |
+| 2. Businesses | 119 | 10 | 0 | 109 | 0 | 255,598 |
 | 3. Representation, Practices and Procedures | 121 | 0 | 0 | 0 | 121 | 257,674 |
-| **All parts** | **360** | **11** | **0** | **218** | **131** | **767,584** |
+| **All parts** | **360** | **10** | **0** | **219** | **131** | **769,822** |
 
 ## Part 1 — Individuals
 
@@ -393,7 +393,7 @@ is indexed, and only the owner moves a page there (see `docs/VERIFICATION.md`).
 
 | Code | Title | Status | Words | Last reviewed |
 |---|---|---|---:|---|
-| 2.3.4.a | [Farm income (e.g., self-raised livestock, crop insurance proceeds, subsidies, patronage dividends, conservation payments)](/businesses/specialized-returns-and-taxpayers/farmers/farm-income/) | stub | — | — |
+| 2.3.4.a | [Farm income (e.g., self-raised livestock, crop insurance proceeds, subsidies, patronage dividends, conservation payments)](/businesses/specialized-returns-and-taxpayers/farmers/farm-income/) | review | 2,238 | 2026-08-21 |
 | 2.3.4.b | [Depreciation for farmers](/businesses/specialized-returns-and-taxpayers/farmers/depreciation-for-farmers/) | stub | — | — |
 | 2.3.4.c | [Disaster-area provisions (drought, flood, other weather-related conditions)](/businesses/specialized-returns-and-taxpayers/farmers/disaster-area-provisions-drought-flood-other-weather-related/) | stub | — | — |
 | 2.3.4.d | [Farm rental](/businesses/specialized-returns-and-taxpayers/farmers/farm-rental/) | stub | — | — |

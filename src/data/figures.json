@@ -14251,6 +14251,108 @@
       "taxYear": 2026,
       "source": "IRC § 411(a)(2), read at law.cornell.edu/uscode/text/26/411",
       "verified": "2026-08-21"
+    },
+    "fi.cash_gross": {
+      "value": "a cash-method farmer includes the cash and value of merchandise or property received during the year from the sale of livestock and produce he raised; the profit from the sale of livestock or other items purchased; all breeding fees, rent of teams, machinery or land and other incidental farm income; all subsidy and conservation payments that must be considered income; and gross income from all other sources (Treas. Reg. § 1.61-4(a))",
+      "taxYear": 2026,
+      "source": "Treas. Reg. § 1.61-4, read at law.cornell.edu/cfr/text/26/1.61-4",
+      "verified": "2026-08-21"
+    },
+    "fi.raised_vs_purchased": {
+      "value": "the whole proceeds of raised livestock and produce are income because the costs of raising them were already deducted, while for purchased items only the profit is income — cost subtracted from sales price, except that for purchased draft, breeding or dairy animals the profit is the excess of the sales price over cost less depreciation allowed or allowable (Treas. Reg. § 1.61-4(a))",
+      "taxYear": 2026,
+      "source": "Treas. Reg. § 1.61-4, read at law.cornell.edu/cfr/text/26/1.61-4",
+      "verified": "2026-08-21"
+    },
+    "fi.accrual": {
+      "value": "a farmer on an accrual method must use inventories, adding the sales price of all livestock and products held for sale and sold during the year, the closing inventory value of livestock and products, miscellaneous income, and other gross income, and subtracting the opening inventory and the cost of livestock and products purchased during the year (Treas. Reg. § 1.61-4(b))",
+      "taxYear": 2026,
+      "source": "Treas. Reg. § 1.61-4, read at law.cornell.edu/cfr/text/26/1.61-4",
+      "verified": "2026-08-21"
+    },
+    "fi.crop_shares": {
+      "value": "crop shares, whether or not treated as rent under state law, are included in gross income in the year they are reduced to money or the equivalent of money (Treas. Reg. § 1.61-4(a))",
+      "taxYear": 2026,
+      "source": "Treas. Reg. § 1.61-4, read at law.cornell.edu/cfr/text/26/1.61-4",
+      "verified": "2026-08-21"
+    },
+    "fi.barter": {
+      "value": "where farm produce is exchanged for merchandise, groceries or the like, the market value of the article received is included in gross income (Treas. Reg. § 1.61-4(c))",
+      "taxYear": 2026,
+      "source": "Treas. Reg. § 1.61-4, read at law.cornell.edu/cfr/text/26/1.61-4",
+      "verified": "2026-08-21"
+    },
+    "fi.crop_method": {
+      "value": "where a farmer produces crops and the gathering and disposal is not completed in the year of planting, income may with the Commissioner’s consent be computed on the crop method — and where it is used, the entire cost of producing the crop must be taken as a deduction in the year the gross income from that crop is realised, and not earlier (Treas. Reg. § 1.61-4(c))",
+      "taxYear": 2026,
+      "source": "Treas. Reg. § 1.61-4, read at law.cornell.edu/cfr/text/26/1.61-4",
+      "verified": "2026-08-21"
+    },
+    "fi.1231_general": {
+      "value": "property used in the trade or business means depreciable property and real property used in the business and held for more than 1 year, other than inventory, property held primarily for sale to customers, certain self-created intangibles and certain government publications (IRC § 1231(b)(1))",
+      "taxYear": 2026,
+      "source": "IRC § 1231(b), read at law.cornell.edu/uscode/text/26/1231",
+      "verified": "2026-08-21"
+    },
+    "fi.1231_livestock": {
+      "value": "the term includes cattle and horses, regardless of age, held for draft, breeding, dairy or sporting purposes for 24 months or more from acquisition, and other livestock, regardless of age, held for those purposes for 12 months or more — and does not include poultry (IRC § 1231(b)(3))",
+      "taxYear": 2026,
+      "source": "IRC § 1231(b), read at law.cornell.edu/uscode/text/26/1231",
+      "verified": "2026-08-21"
+    },
+    "fi.1231_crops": {
+      "value": "an unharvested crop on land used in the trade or business and held for more than 1 year is property used in the trade or business if the crop and the land are sold, exchanged or involuntarily converted at the same time and to the same person (IRC § 1231(b)(4))",
+      "taxYear": 2026,
+      "source": "IRC § 1231(b), read at law.cornell.edu/uscode/text/26/1231",
+      "verified": "2026-08-21"
+    },
+    "fi.crop_insurance": {
+      "value": "a cash-method taxpayer receiving insurance proceeds for destruction of or damage to crops may elect to include them in the year following the year of destruction if he establishes that under his practice the income from those crops would have been reported in a following year; payments under the Agricultural Act of 1949 or title II of the Disaster Assistance Act of 1988 for destruction or damage from a natural disaster, or for inability to plant because of one, are treated the same way (IRC § 451(f))",
+      "taxYear": 2026,
+      "source": "IRC § 451, read at law.cornell.edu/uscode/text/26/451",
+      "verified": "2026-08-21"
+    },
+    "fi.drought_deferral": {
+      "value": "a cash-method farmer whose principal trade or business is farming may elect to defer to the following year the income from selling livestock in excess of the number he would have sold under his usual practices, where he establishes that the sale would not have occurred but for drought, flood or other weather-related conditions and those conditions resulted in the area being designated as eligible for federal assistance (IRC § 451(g))",
+      "taxYear": 2026,
+      "source": "IRC § 451, read at law.cornell.edu/uscode/text/26/451",
+      "verified": "2026-08-21"
+    },
+    "fi.1033e": {
+      "value": "the sale or exchange of livestock other than poultry held for draft, breeding or dairy purposes in excess of the number the taxpayer would sell under usual business practices, solely on account of drought, flood or other weather-related conditions, is treated as an involuntary conversion under IRC § 1033 (IRC § 1033(e)(1))",
+      "taxYear": 2026,
+      "source": "IRC § 1033(e), read at law.cornell.edu/uscode/text/26/1033",
+      "verified": "2026-08-21"
+    },
+    "fi.1033e_period": {
+      "value": "where the weather-related conditions result in the area being designated as eligible for federal assistance, the IRC § 1033(a)(2)(B) replacement period is 4 years rather than 2, and the Secretary may extend it further on a regional basis where the conditions persist for more than 3 years (IRC § 1033(e)(2))",
+      "taxYear": 2026,
+      "source": "IRC § 1033(e), read at law.cornell.edu/uscode/text/26/1033",
+      "verified": "2026-08-21"
+    },
+    "fi.126": {
+      "value": "gross income does not include the excludable portion of cost-sharing payments received under the listed conservation programmes — the rural clean water programme, the rural abandoned mine programme, the water bank programme, emergency conservation measures, the agricultural conservation programme, resource conservation and development, and small watershed and forestry programmes — together with any state programme the Secretary determines substantially similar (IRC § 126(a))",
+      "taxYear": 2026,
+      "source": "IRC § 126(a), read at law.cornell.edu/uscode/text/26/126",
+      "verified": "2026-08-21"
+    },
+    "fi.patronage": {
+      "value": "a person includes in gross income any patronage dividend paid in money, a qualified written notice of allocation or other property, other than a nonqualified written notice of allocation, received during the year from a cooperative described in IRC § 1381(a), together with certain nonpatronage distributions from exempt farmers’ cooperatives and per-unit retain allocations paid in qualified certificates (IRC § 1385(a))",
+      "taxYear": 2026,
+      "source": "IRC § 1385(a), read at law.cornell.edu/uscode/text/26/1385",
+      "verified": "2026-08-21"
+    },
+    "fi.ccc": {
+      "value": "amounts received as loans from the Commodity Credit Corporation may at the taxpayer’s election be treated as income in the year received, and the method once adopted must be followed in all subsequent years unless the Secretary approves a change (IRC § 77)",
+      "taxYear": 2026,
+      "source": "IRC § 77, read at law.cornell.edu/uscode/text/26/77",
+      "verified": "2026-08-21"
+    },
+    "fi.farm_defined": {
+      "value": "farm embraces the farm in its ordinary sense and includes stock, dairy, poultry, fruit and truck farms, plantations, ranches and all land used for farming operations; all individuals, partnerships and corporations that cultivate, operate or manage farms for gain or profit, as owners or tenants, are farmers (Treas. Reg. § 1.61-4(d))",
+      "taxYear": 2026,
+      "source": "Treas. Reg. § 1.61-4, read at law.cornell.edu/cfr/text/26/1.61-4",
+      "verified": "2026-08-21"
     }
   }
 }
