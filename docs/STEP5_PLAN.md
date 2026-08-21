@@ -7,24 +7,81 @@ and 2 begin. Read that first if you are starting a new phase rather than continu
 
 Regenerate the numbers with `npm run progress`.
 
-## Where the project stands (21 August 2026, later)
+## Where the project stands (21 August 2026, end of the Part 2 build)
 
-**131 topic pages at `published`, 191 at `review`, 38 at `stub`.** Part 1 is complete at
-120 / 120 and Part 3 at 121 / 121; Part 2 stands at 81 of 119. **Domain 2.1 is complete**,
-and in domain 2.2 **sections 2.2.1, 2.2.2, 2.2.3 and 2.2.4 are complete** — section 2.2.5
-is three of thirteen. `figures.json` carries 2,084 keys, every one with a `verified` date
-against a source opened that day. `npm run verify` reports 0 errors. See the Part 2
-sections below for what the next session should not relearn.
+**Every topic in the outline is written. 360 of 360, none at `stub`.**
 
-### What remains in Part 2
+**131 topic pages at `published`, 229 at `review`, 0 at `stub`.** Part 1 is complete at
+120 / 120, Part 2 at 119 / 119 and Part 3 at 121 / 121. `figures.json` carries 2,486 keys,
+every one with a `verified` date against a source opened that day. `npm run verify` reports
+0 errors; `npm test` passes 38 of 38; `npm run build` produces 398 pages.
 
-Domain 2.2 — 2.2.5 Advising the business taxpayer, ten topics remaining: 2.2.5.d related
-party transactions, 2.2.5.e selection of business entity, 2.2.5.f comingling, 2.2.5.g advice
-on accounting methods, 2.2.5.h transfer of property in or out, 2.2.5.i life cycle,
-2.2.5.j type of industry, 2.2.5.k worker classification, 2.2.5.l deductions and credits for
-tax planning, 2.2.5.m ACA compliance. Domain 2.3 — 2.3.1 Trust and estate income tax (7),
-2.3.2 Exempt organizations (4), 2.3.3 Retirement plans (6), 2.3.4 Farmers (5), 2.3.5 Rental
-property (6). Thirty-eight topics, in that order.
+### What the work order is now
+
+Writing is done. What remains is not writing.
+
+1. **Owner review of the queue.** 229 pages sit at `review`. Only the owner moves a page to
+   `published`, and until that happens they are not indexed and not in the sitemap. That is
+   the single largest item outstanding and nothing else unblocks it.
+2. **Items flagged for owner judgement**, collected in `private/discrepancies.md` — these are
+   conclusions rather than rules and should not go live unreviewed. The largest is the
+   *Bolton* question on 2.3.5.c: whether mortgage interest and property tax on a mixed-use
+   dwelling are allocated over days used (the Service's position) or over the whole year (the
+   Ninth and Tenth Circuits). The page states both and chooses neither. A house position
+   would be worth having.
+3. **The form and notice directories.** 21 form entries and 7 notice entries are published.
+   Several Part 2 pages now cite forms with no directory entry — 1023, 1023-EZ, 1024, 1024-A,
+   8976, 8940, 8868, 5500, 5500-EZ, 5558, 8955-SSA, 5330, 4835, 990, 990-EZ, 990-N, 990-PF,
+   990-T, SS-4, Schedule F, Schedule J, Schedule SE. Their `forms[]` arrays were left empty
+   rather than pointing at pages that do not exist. That is the obvious next content batch.
+4. **Annual refresh.** `docs/ANNUAL_REFRESH.md` is the procedure. The 2027 figures will
+   start appearing in autumn 2026 revenue procedures and notices.
+
+### One method point worth carrying forward
+
+Writing 2.3.5.f turned up the only figure in the whole build that was verified against a
+primary source and still wrong. `repair.de_minimis_no_afs` stated the de minimis safe harbour
+without an applicable financial statement as $500, sourced to Reg. § 1.263(a)-1(f)(1)(ii) —
+which is exactly what the regulation prints. Notice 2015-82 raised it to $2,500 for taxable
+years beginning on or after 1 January 2016. **Opening the regulation is not sufficient where
+a notice or revenue procedure has overridden a number printed in it.** The key has been
+corrected and both pages using it rechecked.
+
+### Bank coverage, finally
+
+The bank tags 465 of 600 questions across all three parts. Sections 2.3.2 through 2.3.5
+between them have 23 tagged items, of which 8 sit in 2.3.3.c and 10 in 2.3.4.a. **Sections
+2.3.3 (except .c), 2.3.5 in its entirety, and topics 2.3.2.a through .d have no bank coverage
+at all** — that is the bank's shape, not a gap in the tagger. Every §4 check run against a
+tagged item is logged in `private/discrepancies.md`; the items found wrong on the law rather
+than merely dated are collected there and should be read before anyone "corrects" a page
+toward the bank.
+
+## Domain 2.3 complete (21 August 2026)
+
+Sections 2.3.2 through 2.3.5 were written in a single run, 21 topics. What a later session
+should not have to relearn:
+
+- **Rev. Proc. 2026-5** (in Internal Revenue Bulletin 2026-1, `irs.gov/pub/irs-irbs/irb26-01.pdf`)
+  is the exempt organisation determination letter procedure and carries the Appendix A user
+  fee schedule. It is a large PDF; extract with `pdfminer` and search for "APPENDIX A".
+- **Notice 2025-67** (`irs.gov/pub/irs-drop/n-25-67.pdf`) carries every 2026 retirement plan
+  and IRA limit. One figure did **not** move for 2026 — the IRC § 414(q)(1)(B) highly
+  compensated employee threshold stays at $160,000 while the IRC § 416(i) key employee
+  threshold rises. Material that moves both in step is wrong.
+- **The 27-month rule is 15 plus 12.** Treas. Reg. § 1.508-1(a)(2)(i) gives 15 months;
+  Treas. Reg. § 301.9100-2(a)(2)(iv) grants an automatic 12-month extension on top. Knowing
+  which number comes from which source answers a question phrased around the statutory notice
+  period.
+- **The IRC § 6652(c) exempt organisation penalties are indexed by FILING year**, not tax
+  year. For a tax year 2026 Form 990 filed in 2027, use Rev. Proc. 2025-32 § 3.53.
+- **Three definitions of family that differ**, and the differences are tested: IRC § 267(c)(4)
+  names brothers and sisters first; IRC § 4975(e)(6) omits siblings entirely; IRC § 280A(d)(2)
+  imports the IRC § 267(c)(4) version. Do not reconcile them.
+- **Two hour tests that look alike and are not.** IRC § 469(c)(7)(B) real estate professional
+  status needs more than half of *all* trade or business hours plus more than 750 hours, by
+  **one spouse alone**; IRC § 469(i)(6) active participation is a management standard with a
+  10 percent ownership floor that a limited partner can never meet.
 
 ## Sections 2.2.3 and 2.2.4 complete, 2.2.5 begun (21 August 2026)
 
