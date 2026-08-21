@@ -414,6 +414,11 @@ const RULES = [
   ['2.2.1.b', /cost of goods sold|\bcogs\b|invento|uniform capitaliz|\b263a\b/i],
   ['2.2.1.d', /cancellation of (?:business )?debt/i],
   ['2.2.1.c', /at-?risk limitation|excess business loss|461\(l\)/i],
+  // "Gross receipts" is a measuring stick used all over the Code — an e-file threshold, an
+  // exempt organization's late-filing penalty — and the bare phrase pulled all of those onto the
+  // business income topic. Claim the ones that have a home elsewhere first.
+  ['2.1.3.a', /electronic filing[\s\S]{0,60}\bc corporations?\b|\bc corporations?\b[\s\S]{0,60}(?:required to )?(?:file )?electronic/i],
+  ['2.3.2.c', /exempt organization[\s\S]{0,90}(?:fails? to file|file the required|filing requirement|late)/i],
   ['2.2.1.a', /gross receipts/i],
   // 2.1.5 S corporations
   ['2.1.5.b', /\b2553\b|\bs (?:corporation )?election\b/i],
@@ -484,10 +489,22 @@ const RULES = [
 
 const partOf = code => Number(code.split('.')[0]);
 
+// Some subjects the bank tests have no topic anywhere in the IRS outline this site is built on.
+// A question about one of them mentions enough incidental vocabulary to satisfy several rules,
+// so without an explicit stop it lands on whichever page it brushed past. Leaving it untagged is
+// the honest answer, and it keeps a §4 check for a page from being handed a question that page
+// was never meant to answer. Each entry needs a reason.
+const NO_HOME = [
+  // The Base Erosion and Anti-Abuse Tax (IRC § 59A) appears nowhere in the outline's 360 topics.
+  // A BEAT question names C and S corporations, gross receipts and credits in passing.
+  [/base erosion/i, 'BEAT (IRC § 59A) — no topic in the outline'],
+];
+
 // Exported for the tests, which exercise the rules with invented text. Never feed bank
 // text into a test fixture.
 export function classify(q) {
   const text = `${q.stem} ${Object.values(q.choices ?? {}).join(' ')} ${q.explanation ?? ''}`;
+  for (const [re] of NO_HOME) if (re.test(text)) return null;
   for (const [code, re] of RULES) {
     if (partOf(code) !== q.part) continue;      // never tag across exam parts
     if (re.test(text)) return code;

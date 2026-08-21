@@ -155,6 +155,21 @@ test('a fringe benefit question drawn from the C corporation side stays with com
   assert.equal(classify({ part: 2, stem: 'Two employees of a C corporation have health insurance premiums paid by the employer. For which may the corporation deduct the cost?', choices: {}, explanation: 'An S corporation applies a different rule to a more-than-2-percent owner.' }), '2.2.2.a');
 });
 
+test('"gross receipts" alone does not make a question a business income question', () => {
+  // The phrase is a measuring stick throughout the Code. Only a question about what gross
+  // receipts are belongs on 2.2.1.a; the rest have homes of their own, or none.
+  assert.equal(classify(q(2, 'All of the following are included in the determination of gross receipts except:')), '2.2.1.a');
+  assert.equal(classify(q(2, 'Electronic filing for C corporations is required at what level of assets, in addition to a return count?')), '2.1.3.a');
+  assert.equal(classify(q(2, 'An exempt organization fails to file its required return on time. Its gross receipts are modest. What is the penalty?')), '2.3.2.c');
+});
+
+test('a subject with no topic anywhere in the outline is left untagged', () => {
+  // NO_HOME runs before the rules. A BEAT question mentions C and S corporations, gross receipts
+  // and credits in passing, and without the stop it lands on whichever page it brushed past.
+  assert.equal(classify(q(2, 'Which is not a criterion for a Base Erosion and Anti-Abuse Tax applicable taxpayer? Consider average annual gross receipts.')), null);
+  assert.equal(classify(q(2, 'An S corporation with base erosion payments — which criterion does not apply?')), null);
+});
+
 test('rules never tag across exam parts', () => {
   // The same subject asked in different parts must land in that part's own outline.
   // Part 1 has its own claim-for-refund topic, so the Part 1 question is placed there —
