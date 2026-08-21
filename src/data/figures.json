@@ -11365,6 +11365,60 @@
       "taxYear": 2026,
       "source": "IRC § 263(a)(1), opened at law.cornell.edu/uscode/text/26/263",
       "verified": "2026-08-21"
+    },
+    "disp.gain_loss": {
+      "value": "gain is the excess of the amount realised over the adjusted basis for determining gain, and loss is the excess of the adjusted basis for determining loss over the amount realised",
+      "taxYear": 2026,
+      "source": "IRC § 1001(a), opened at law.cornell.edu/uscode/text/26/1001",
+      "verified": "2026-08-21"
+    },
+    "disp.amount_realized": {
+      "value": "the sum of any money received plus the fair market value of any property other than money received — excluding a reimbursement of real property taxes IRC § 164(d) treats as imposed on the purchaser, and including taxes it treats as imposed on the taxpayer that the purchaser is to pay",
+      "taxYear": 2026,
+      "source": "IRC § 1001(b), opened at law.cornell.edu/uscode/text/26/1001",
+      "verified": "2026-08-21"
+    },
+    "disp.1231_property": {
+      "value": "property used in the trade or business of a character subject to the allowance for depreciation, and real property used in the trade or business, in each case held for more than 1 year — excluding inventory, property held primarily for sale to customers, self-created intangibles of the kind described in IRC § 1221(a)(3), and certain government publications",
+      "taxYear": 2026,
+      "source": "IRC § 1231(b)(1), opened at law.cornell.edu/uscode/text/26/1231",
+      "verified": "2026-08-21"
+    },
+    "disp.1231_netting": {
+      "value": "where the IRC § 1231 gains for the year exceed the IRC § 1231 losses, all of them are treated as long-term capital gains and losses; where they do not, all are treated as ordinary",
+      "taxYear": 2026,
+      "source": "IRC § 1231(a)(1) and (a)(2), opened at law.cornell.edu/uscode/text/26/1231",
+      "verified": "2026-08-21"
+    },
+    "disp.1231_lookback": {
+      "value": "net IRC § 1231 gain is treated as ordinary income to the extent of the non-recaptured net IRC § 1231 losses — the aggregate net losses of the 5 most recent preceding taxable years, less any already recaptured",
+      "taxYear": 2026,
+      "source": "IRC § 1231(c)(1) and (c)(2), opened at law.cornell.edu/uscode/text/26/1231",
+      "verified": "2026-08-21"
+    },
+    "disp.1245_recapture": {
+      "value": "on a disposition of IRC § 1245 property, the excess of the lower of recomputed basis or the amount realised (or fair market value on a disposition that is not a sale) over adjusted basis is ordinary income, recognised notwithstanding any other provision of the subtitle",
+      "taxYear": 2026,
+      "source": "IRC § 1245(a)(1), opened at law.cornell.edu/uscode/text/26/1245",
+      "verified": "2026-08-21"
+    },
+    "disp.1245_property": {
+      "value": "property which is or has been of a character subject to the allowance for depreciation and is either personal property, or other tangible property, not including a building or its structural components, used as an integral part of manufacturing, production or extraction or of furnishing transportation, communications, utilities or sewage services, or as a research or bulk storage facility connected with those activities",
+      "taxYear": 2026,
+      "source": "IRC § 1245(a)(3), opened at law.cornell.edu/uscode/text/26/1245",
+      "verified": "2026-08-21"
+    },
+    "disp.1250_recapture": {
+      "value": "on a disposition of IRC § 1250 property, the applicable percentage of the lower of the additional depreciation attributable to periods after 31 December 1975 or the excess of the amount realised over adjusted basis is ordinary income",
+      "taxYear": 2026,
+      "source": "IRC § 1250(a)(1)(A), opened at law.cornell.edu/uscode/text/26/1250",
+      "verified": "2026-08-21"
+    },
+    "disp.unrecaptured_1250": {
+      "value": "the long-term capital gain that would have been ordinary income if IRC § 1250(b)(1) included all depreciation and the IRC § 1250(a) applicable percentage were 100 percent — taxed at its own rate rather than the ordinary rate or the general capital gains rate",
+      "taxYear": 2026,
+      "source": "IRC § 1(h)(6)(A), opened at law.cornell.edu/uscode/text/26/1",
+      "verified": "2026-08-21"
     }
   }
 }
