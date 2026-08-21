@@ -25,7 +25,7 @@ authorities:
   - { type: IRC, ref: "§ 263A", title: "Capitalization and inclusion in inventory costs of certain expenses", url: "https://www.law.cornell.edu/uscode/text/26/263A" }
   - { type: IRC, ref: "§ 461", title: "General rule for taxable year of deduction", url: "https://www.law.cornell.edu/uscode/text/26/461" }
   - { type: Reg, ref: "§ 1.61-4", title: "Gross income of farmers", url: "https://www.law.cornell.edu/cfr/text/26/1.61-4" }
-forms: []
+forms: ["Schedule F"]
 related: ["2.3.4.b", "2.3.4.c", "2.3.4.d", "2.3.4.e"]
 changelog:
   - { date: "2026-08-21", summary: "Initial draft. Sets out gross income of farmers under Treas. Reg. § 1.61-4 with the raised-against-purchased distinction, the crop method and its deferred cost deduction, the IRC § 1231(b)(3) holding periods of 24 months for cattle and horses against 12 for other livestock with poultry excluded, the IRC § 451(f) crop insurance and IRC § 451(g) drought deferral elections, IRC § 1033(e) involuntary conversion treatment with its four-year replacement period, IRC § 126 conservation cost-sharing exclusion, IRC § 1385 patronage dividends, and the IRC § 77 Commodity Credit Corporation loan election." }

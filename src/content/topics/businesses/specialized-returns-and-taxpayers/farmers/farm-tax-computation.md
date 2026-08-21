@@ -20,7 +20,7 @@ authorities:
   - { type: IRC, ref: "§ 172", title: "Net operating loss deduction", url: "https://www.law.cornell.edu/uscode/text/26/172" }
   - { type: IRC, ref: "§ 1", title: "Tax imposed", url: "https://www.law.cornell.edu/uscode/text/26/1" }
   - { type: IRC, ref: "§ 199A", title: "Qualified business income", url: "https://www.law.cornell.edu/uscode/text/26/199A" }
-forms: []
+forms: ["Schedule J", "Schedule SE"]
 related: ["2.3.4.a", "2.3.4.d", "2.3.4.b", "2.3.4.c"]
 changelog:
   - { date: "2026-08-21", summary: "Initial draft. Sets out the IRC § 6654(i) estimated tax regime for farmers — one installment due 15 January at 66⅔ percent of the current year's tax, the 1 March alternative substituted into IRC § 6654(h), and the express disregard of the prior-year safe harbour — the IRC § 6654(i)(2) two-thirds test measured on either year, the IRC § 1301 farm income averaging election, and self-employment tax on Schedule F income including the optional method." }

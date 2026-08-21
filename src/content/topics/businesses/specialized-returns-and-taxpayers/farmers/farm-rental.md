@@ -18,7 +18,7 @@ authorities:
   - { type: Reg, ref: "§ 1.61-4", title: "Gross income of farmers", url: "https://www.law.cornell.edu/cfr/text/26/1.61-4" }
   - { type: Reg, ref: "§ 1.469-2", title: "Passive activity loss", url: "https://www.law.cornell.edu/cfr/text/26/1.469-2" }
   - { type: Form, ref: "4835", title: "Farm Rental Income and Expenses", url: "https://www.irs.gov/forms-pubs/about-form-4835" }
-forms: []
+forms: ["4835"]
 related: ["2.3.4.a", "2.3.4.e", "2.3.4.b", "2.3.4.c"]
 changelog:
   - { date: "2026-08-21", summary: "Initial draft. Sets out the IRC § 1402(a)(1) exclusion of real estate rentals from self-employment income and the two-condition exception for a farm landlord who materially participates — the arrangement must provide for it and it must in fact occur — then maps the three reporting outcomes: Schedule F with self-employment tax, Form 4835 for a non-participating crop-share landlord, and Schedule E for fixed cash rent. Adds the IRC § 469(c)(2) passive rule and the Treas. Reg. § 1.469-2(f)(6) self-rental rule." }
