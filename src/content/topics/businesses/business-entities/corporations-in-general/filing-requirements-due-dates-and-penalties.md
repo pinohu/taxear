@@ -18,7 +18,7 @@ authorities:
   - { type: IRC, ref: "§ 6698", title: "Failure to file partnership return", url: "https://www.law.cornell.edu/uscode/text/26/6698" }
   - { type: RevProc, ref: "2025-32", title: "Inflation adjusted items for 2026", url: "https://www.irs.gov/pub/irs-drop/rp-25-32.pdf" }
 forms: []
-related: ["2.1.3.g", "2.1.1.c", "2.1.1.i", "2.1.3.b"]
+related: ["2.1.3.g", "2.1.1.c", "2.1.1.i", "2.1.3.b", "2.1.3.c"]
 changelog:
   - { date: "2026-08-21", summary: "Initial draft. Sets out the IRC § 6072(a) fourth-month filing date for C corporations, the Pub. L. 114-41 § 2006(a)(3)(B) deferral that kept June 30 corporations on the third-month date for taxable years beginning before 1 January 2026 and the fact that it expires with the year beginning 1 July 2026, the Reg. § 1.6081-3(a) automatic six-month extension with the Reg. § 1.6081-3(e) seven-month exception expiring on the same terms, the IRC § 6651(a)(1) and (a)(2) additions to tax, the § 6651(c)(1) coordination that stops them accumulating, the minimum addition for a return more than 60 days late at the amount applying to returns required to be filed in 2027, and the Reg. § 301.6011-5 electronic filing requirement." }
 ---

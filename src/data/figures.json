@@ -9115,6 +9115,48 @@
       "taxYear": 2026,
       "source": "26 CFR § 1.312-6(b), read at law.cornell.edu/cfr/text/26/1.312-6",
       "verified": "2026-08-21"
+    },
+    "dist.amount": {
+      "value": "the amount of a distribution is the money received plus the fair market value of the other property received, determined as of the date of the distribution, reduced but not below zero by any liability of the corporation assumed by the shareholder in connection with the distribution and by any liability to which the property received is subject immediately before and immediately after it (IRC § 301(b))",
+      "taxYear": 2026,
+      "source": "IRC § 301(b), read at law.cornell.edu/uscode/text/26/301",
+      "verified": "2026-08-21"
+    },
+    "dist.three_tiers": {
+      "value": "the portion of a distribution that is a dividend as defined in IRC § 316 is included in gross income; the portion that is not a dividend is applied against and reduces the adjusted basis of the stock; and the portion that is not a dividend and exceeds that basis is treated as gain from the sale or exchange of property (IRC § 301(c))",
+      "taxYear": 2026,
+      "source": "IRC § 301(c), read at law.cornell.edu/uscode/text/26/301",
+      "verified": "2026-08-21"
+    },
+    "dist.recipient_basis": {
+      "value": "the basis of property received in a distribution to which IRC § 301(a) applies is the fair market value of the property — so a shareholder takes a stepped-up basis with no carryover from the corporation (IRC § 301(d))",
+      "taxYear": 2026,
+      "source": "IRC § 301(d), read at law.cornell.edu/uscode/text/26/301",
+      "verified": "2026-08-21"
+    },
+    "dist.corporate_gain": {
+      "value": "no gain or loss is recognised to a corporation on a distribution with respect to its stock of its own stock or of property, except that where it distributes property other than its own obligation whose fair market value exceeds its adjusted basis, gain is recognised as if the property had been sold to the distributee at fair market value. Loss on depreciated property distributed is not recognised (IRC § 311(a), (b))",
+      "taxYear": 2026,
+      "source": "IRC § 311(a), (b), read at law.cornell.edu/uscode/text/26/311",
+      "verified": "2026-08-21"
+    },
+    "dist.stock_dividend": {
+      "value": "gross income does not include a distribution by a corporation of its own stock to its shareholders with respect to their stock — unless the distribution is payable at any shareholder election in stock or in property, is disproportionate, distributes preferred to some common shareholders and common to others, is on preferred stock, or is convertible preferred, in which case IRC § 301 applies (IRC § 305(a), (b))",
+      "taxYear": 2026,
+      "source": "IRC § 305(a), (b), read at law.cornell.edu/uscode/text/26/305",
+      "verified": "2026-08-21"
+    },
+    "dist.qualified_dividend": {
+      "value": "qualified dividend income means dividends received during the taxable year from domestic corporations and qualified foreign corporations, excluding dividends from corporations exempt under IRC § 501 or § 521 for the year of distribution or the preceding year, amounts deductible under IRC § 591, IRC § 404(k) dividends, and dividends on stock failing the IRC § 246(c) holding period. It is added to net capital gain and so taxed at capital gain rates (IRC § 1(h)(11))",
+      "taxYear": 2026,
+      "source": "IRC § 1(h)(11), read at law.cornell.edu/uscode/text/26/1",
+      "verified": "2026-08-21"
+    },
+    "dist.holding_period": {
+      "value": "45 days — the holding period condition is failed where the share is held for 45 days or less during the 91-day period beginning 45 days before the date the share becomes ex-dividend, or to the extent the taxpayer is under an obligation to make related payments on substantially similar or related property. For preference dividends attributable to a period exceeding 366 days the test becomes 90 days within a 181-day period (IRC § 246(c)(1), (2))",
+      "taxYear": 2026,
+      "source": "IRC § 246(c), read at law.cornell.edu/uscode/text/26/246",
+      "verified": "2026-08-21"
     }
   }
 }
