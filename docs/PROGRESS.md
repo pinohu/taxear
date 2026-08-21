@@ -10,9 +10,9 @@ is indexed, and only the owner moves a page there (see `docs/VERIFICATION.md`).
 | Part | Topics | Stub | Draft | Review | Published | Words |
 |---|---:|---:|---:|---:|---:|---:|
 | 1. Individuals | 120 | 0 | 0 | 110 | 10 | 256,550 |
-| 2. Businesses | 119 | 5 | 0 | 114 | 0 | 266,978 |
+| 2. Businesses | 119 | 4 | 0 | 115 | 0 | 269,094 |
 | 3. Representation, Practices and Procedures | 121 | 0 | 0 | 0 | 121 | 257,674 |
-| **All parts** | **360** | **5** | **0** | **224** | **131** | **781,202** |
+| **All parts** | **360** | **4** | **0** | **225** | **131** | **783,318** |
 
 ## Part 1 — Individuals
 
@@ -404,7 +404,7 @@ is indexed, and only the owner moves a page there (see `docs/VERIFICATION.md`).
 | Code | Title | Status | Words | Last reviewed |
 |---|---|---|---:|---|
 | 2.3.5.a | [Real estate professional qualifications](/businesses/specialized-returns-and-taxpayers/rental-property/real-estate-professional-qualifications/) | review | 2,255 | 2026-08-21 |
-| 2.3.5.b | [Commercial rentals versus residential rentals](/businesses/specialized-returns-and-taxpayers/rental-property/commercial-rentals-versus-residential-rentals/) | stub | — | — |
+| 2.3.5.b | [Commercial rentals versus residential rentals](/businesses/specialized-returns-and-taxpayers/rental-property/commercial-rentals-versus-residential-rentals/) | review | 2,116 | 2026-08-21 |
 | 2.3.5.c | [Mixed used property/vacation home](/businesses/specialized-returns-and-taxpayers/rental-property/mixed-used-property-vacation-home/) | stub | — | — |
 | 2.3.5.d | [Passive loss limitation (e.g., special $25,000 allowance, MAGI limits)](/businesses/specialized-returns-and-taxpayers/rental-property/passive-loss-limitation/) | stub | — | — |
 | 2.3.5.e | [Rental income (e.g., deposits, pre-paid rent, not rented for profit)](/businesses/specialized-returns-and-taxpayers/rental-property/rental-income/) | stub | — | — |

@@ -14623,6 +14623,72 @@
       "taxYear": 2026,
       "source": "Treas. Reg. § 1.469-9, read at law.cornell.edu/cfr/text/26/1.469-9",
       "verified": "2026-08-21"
+    },
+    "cr.residential_def": {
+      "value": "residential rental property means any building or structure if 80 percent or more of the gross rental income from it for the taxable year is rental income from dwelling units (IRC § 168(e)(2)(A)(i))",
+      "taxYear": 2026,
+      "source": "IRC § 168, read at law.cornell.edu/uscode/text/26/168",
+      "verified": "2026-08-21"
+    },
+    "cr.dwelling_unit": {
+      "value": "a dwelling unit is a house or apartment used to provide living accommodations in a building or structure, but does not include a unit in a hotel, motel or other establishment more than half of whose units are used on a transient basis; and where the taxpayer occupies part of the building, the gross rental income includes the rental value of the occupied portion (IRC § 168(e)(2)(A)(ii))",
+      "taxYear": 2026,
+      "source": "IRC § 168, read at law.cornell.edu/uscode/text/26/168",
+      "verified": "2026-08-21"
+    },
+    "cr.nonresidential_def": {
+      "value": "nonresidential real property means IRC § 1250 property that is neither residential rental property nor property with a class life of less than 27.5 years (IRC § 168(e)(2)(B))",
+      "taxYear": 2026,
+      "source": "IRC § 168, read at law.cornell.edu/uscode/text/26/168",
+      "verified": "2026-08-21"
+    },
+    "cr.periods": {
+      "value": "residential rental property is recovered over 27.5 years and nonresidential real property over 39 years (IRC § 168(c))",
+      "taxYear": 2026,
+      "source": "IRC § 168, read at law.cornell.edu/uscode/text/26/168",
+      "verified": "2026-08-21"
+    },
+    "cr.ads_periods": {
+      "value": "under the alternative depreciation system the periods are 30 years for residential rental property and 40 years for nonresidential real property (IRC § 168(g)(2)(C)(iii), (iv))",
+      "taxYear": 2026,
+      "source": "IRC § 168, read at law.cornell.edu/uscode/text/26/168",
+      "verified": "2026-08-21"
+    },
+    "cr.convention": {
+      "value": "the mid-month convention applies to nonresidential real property, residential rental property and any railroad grading or tunnel bore; everything else uses the half-year convention unless the mid-quarter convention is triggered (IRC § 168(d)(2))",
+      "taxYear": 2026,
+      "source": "IRC § 168, read at law.cornell.edu/uscode/text/26/168",
+      "verified": "2026-08-21"
+    },
+    "cr.method_real": {
+      "value": "the straight line method is required for nonresidential real property and residential rental property (IRC § 168(b)(3)(A), (B))",
+      "taxYear": 2026,
+      "source": "IRC § 168, read at law.cornell.edu/uscode/text/26/168",
+      "verified": "2026-08-21"
+    },
+    "cr.qip": {
+      "value": "qualified improvement property means any improvement made by the taxpayer to an interior portion of a building which is nonresidential real property, placed in service after the building was first placed in service — excluding expenditure attributable to enlarging the building, to any elevator or escalator, or to the internal structural framework (IRC § 168(e)(6))",
+      "taxYear": 2026,
+      "source": "IRC § 168, read at law.cornell.edu/uscode/text/26/168",
+      "verified": "2026-08-21"
+    },
+    "cr.qip_class": {
+      "value": "qualified improvement property is 15-year property (IRC § 168(e)(3)(E)(vii)), depreciated straight line under IRC § 168(b)(3)(G), and there is no counterpart class for improvements to a residential rental building",
+      "taxYear": 2026,
+      "source": "IRC § 168, read at law.cornell.edu/uscode/text/26/168",
+      "verified": "2026-08-21"
+    },
+    "cr.electing_rptb": {
+      "value": "an electing real property trade or business under IRC § 163(j)(7)(B) must use the alternative depreciation system for its nonresidential real property, residential rental property and qualified improvement property — 40, 30 and 20 years respectively (IRC § 168(g)(1)(F), (g)(8))",
+      "taxYear": 2026,
+      "source": "IRC § 168, read at law.cornell.edu/uscode/text/26/168",
+      "verified": "2026-08-21"
+    },
+    "cr.ads_election": {
+      "value": "a taxpayer may elect the alternative depreciation system for a class of property, applying to all property in the class placed in service that year, but for nonresidential real property or residential rental property the election may be made separately for each property; once made it is irrevocable (IRC § 168(g)(7))",
+      "taxYear": 2026,
+      "source": "IRC § 168, read at law.cornell.edu/uscode/text/26/168",
+      "verified": "2026-08-21"
     }
   }
 }
