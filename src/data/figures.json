@@ -12919,6 +12919,54 @@
       "taxYear": 2026,
       "source": "IRC § 45R(d)(1), opened at law.cornell.edu/uscode/text/26/45R",
       "verified": "2026-08-21"
+    },
+    "tr.taxable_income": {
+      "value": "the taxable income of an estate or trust is computed in the same manner as for an individual except as subchapter J provides, and the tax is paid by the fiduciary — a foreign trust or estate being treated as a non-resident alien individual not present in the United States at any time",
+      "taxYear": 2026,
+      "source": "IRC § 641(b), opened at law.cornell.edu/uscode/text/26/641",
+      "verified": "2026-08-21"
+    },
+    "tr.simple": {
+      "value": "a simple trust for the year is one whose terms require all its income to be distributed currently and do not provide for amounts to be paid, permanently set aside or used for charitable purposes — and which does not in fact distribute amounts other than income for the year",
+      "taxYear": 2026,
+      "source": "IRC § 651(a), opened at law.cornell.edu/uscode/text/26/651",
+      "verified": "2026-08-21"
+    },
+    "tr.grantor_effect": {
+      "value": "where the grantor or another person is treated as the owner of a portion of a trust, the items of income, deduction and credit attributable to that portion are included in computing that person’s taxable income and credits, to the extent they would be taken into account for an individual — the remaining portion staying subject to the ordinary subchapter J rules",
+      "taxYear": 2026,
+      "source": "IRC § 671, opened at law.cornell.edu/uscode/text/26/671",
+      "verified": "2026-08-21"
+    },
+    "tr.reversionary": {
+      "value": "the grantor is treated as owner of a portion in which they hold a reversionary interest in corpus or income if, at the inception of that portion, the value of the interest exceeds 5 percent of the value of the portion",
+      "taxYear": 2026,
+      "source": "IRC § 673(a), opened at law.cornell.edu/uscode/text/26/673",
+      "verified": "2026-08-21"
+    },
+    "tr.power_disposition": {
+      "value": "the grantor is treated as owner of a portion whose beneficial enjoyment is subject to a power of disposition exercisable by the grantor or a non-adverse party without the consent of an adverse party — subject to the long list of exceptions in IRC § 674(b) through (d)",
+      "taxYear": 2026,
+      "source": "IRC § 674(a), opened at law.cornell.edu/uscode/text/26/674",
+      "verified": "2026-08-21"
+    },
+    "tr.admin_powers": {
+      "value": "administrative powers make the grantor an owner — dealing with corpus or income for less than adequate consideration, borrowing without adequate interest or security, and certain powers exercisable in a non-fiduciary capacity",
+      "taxYear": 2026,
+      "source": "IRC § 675, opened at law.cornell.edu/uscode/text/26/675",
+      "verified": "2026-08-21"
+    },
+    "tr.revocable": {
+      "value": "the grantor is treated as owner of any portion where at any time the power to revest title in the grantor is exercisable by the grantor or a non-adverse party — which is why an ordinary revocable living trust is disregarded for income tax",
+      "taxYear": 2026,
+      "source": "IRC § 676(a), opened at law.cornell.edu/uscode/text/26/676",
+      "verified": "2026-08-21"
+    },
+    "tr.income_to_grantor": {
+      "value": "the grantor is treated as owner of any portion whose income may, without the consent of an adverse party, be distributed to the grantor or the grantor’s spouse, held or accumulated for their future distribution, or applied to premiums on policies of insurance on their lives",
+      "taxYear": 2026,
+      "source": "IRC § 677(a), opened at law.cornell.edu/uscode/text/26/677",
+      "verified": "2026-08-21"
     }
   }
 }
