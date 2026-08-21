@@ -19,7 +19,7 @@ authorities:
   - { type: IRC, ref: "§ 448(c)", title: "Gross receipts test", url: "https://www.law.cornell.edu/uscode/text/26/448" }
   - { type: IRC, ref: "§ 3402", title: "Income tax collected at source", url: "https://www.law.cornell.edu/uscode/text/26/3402" }
 forms: []
-related: ["2.2.2.j", "2.2.2.h", "2.2.1.b", "2.2.2.c", "2.2.2.a", "2.2.2.k"]
+related: ["2.2.2.j", "2.2.2.h", "2.2.1.b", "2.2.2.c", "2.2.2.a", "2.2.2.k", "2.2.2.m"]
 changelog:
   - { date: "2026-08-21", summary: "Initial draft. Sets out the four categories of IRC § 164(a), the catch-all for other state, local and foreign taxes paid in carrying on a trade or business, and the rule capitalising a tax paid on an acquisition. Records that the IRC § 164(b)(6) cap excepts business property taxes and foreign income taxes by its own flush text, that its heading still says 2018 through 2025 although Pub. L. 119-21 § 70120(a)(1) struck the end date, the IRC § 275(a) list of taxes never deductible, and the IRC § 162(f) disallowance of government penalties with its three exceptions." }
 ---

@@ -21,7 +21,7 @@ authorities:
   - { type: Reg, ref: "§ 1.162-1", title: "Business expenses", url: "https://www.law.cornell.edu/cfr/text/26/1.162-1" }
   - { type: Reg, ref: "§ 1.263(a)-4", title: "Amounts paid to acquire or create intangibles", url: "https://www.law.cornell.edu/cfr/text/26/1.263(a)-4" }
 forms: []
-related: ["2.2.2.a", "2.2.2.f", "2.2.2.i", "2.2.1.b", "2.2.2.c", "2.2.2.j", "2.2.2.k"]
+related: ["2.2.2.a", "2.2.2.f", "2.2.2.i", "2.2.1.b", "2.2.2.c", "2.2.2.j", "2.2.2.k", "2.2.2.m"]
 changelog:
   - { date: "2026-08-21", summary: "Initial draft. Sets out the Reg. § 1.162-1(a) treatment of business insurance premiums with the two qualifications in the same sentence, the IRC § 264(a) disallowances where the taxpayer is a beneficiary or has borrowed against a policy, the IRC § 101(j) cap on the exclusion for an employer-owned life insurance contract with its notice and consent exception and the IRC § 6039I reporting duty, and the Reg. § 1.263(a)-4(f) twelve-month rule that governs a prepaid premium." }
 ---

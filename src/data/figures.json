@@ -11173,6 +11173,60 @@
       "taxYear": 2026,
       "source": "IRC § 199A(i)(2)(B), opened at law.cornell.edu/uscode/text/26/199A",
       "verified": "2026-08-21"
+    },
+    "gbc.components": {
+      "value": "the sum of the business credit carryforwards carried to the year, the current year business credit, and the business credit carrybacks carried to the year",
+      "taxYear": 2026,
+      "source": "IRC § 38(a), opened at law.cornell.edu/uscode/text/26/38",
+      "verified": "2026-08-21"
+    },
+    "gbc.limit": {
+      "value": "the credit may not exceed the excess of net income tax over the greater of the tentative minimum tax or 25 percent of so much of net regular tax liability as exceeds $25,000",
+      "taxYear": 2026,
+      "source": "IRC § 38(c)(1), opened at law.cornell.edu/uscode/text/26/38",
+      "verified": "2026-08-21"
+    },
+    "gbc.carryback_forward": {
+      "value": "a business credit carryback to the taxable year preceding the unused credit year, and a business credit carryforward to each of the 20 taxable years following it",
+      "taxYear": 2026,
+      "source": "IRC § 39(a)(1), opened at law.cornell.edu/uscode/text/26/39",
+      "verified": "2026-08-21"
+    },
+    "gbc.access_credit": {
+      "value": "50 percent of the eligible access expenditures for the taxable year that exceed $250 but do not exceed $10,250 — a maximum credit of $5,000",
+      "taxYear": 2026,
+      "source": "IRC § 44(a), opened at law.cornell.edu/uscode/text/26/44",
+      "verified": "2026-08-21"
+    },
+    "gbc.access_eligible": {
+      "value": "a person whose gross receipts for the preceding taxable year did not exceed $1,000,000, or which employed not more than 30 full-time employees during that year, and which elects the section — an employee being full-time if employed at least 30 hours a week for 20 or more weeks in the year",
+      "taxYear": 2026,
+      "source": "IRC § 44(b), opened at law.cornell.edu/uscode/text/26/44",
+      "verified": "2026-08-21"
+    },
+    "gbc.research_credit": {
+      "value": "20 percent of the excess of qualified research expenses over the base amount, plus 20 percent of basic research payments, plus 20 percent of amounts paid to an energy research consortium for energy research",
+      "taxYear": 2026,
+      "source": "IRC § 41(a), opened at law.cornell.edu/uscode/text/26/41",
+      "verified": "2026-08-21"
+    },
+    "gbc.research_no_double": {
+      "value": "domestic research or experimental expenditures otherwise deducted or charged to capital account are reduced by the amount of the IRC § 41(a) credit, unless the taxpayer elects a reduced credit instead",
+      "taxYear": 2026,
+      "source": "IRC § 280C(c)(1) and (c)(2), opened at law.cornell.edu/uscode/text/26/280C",
+      "verified": "2026-08-21"
+    },
+    "gbc.health_credit": {
+      "value": "50 percent, or 35 percent for a tax-exempt eligible small employer, of the lesser of the nonelective contributions actually made for premiums for qualified health plans offered through an Exchange, or what would have been contributed at the average small group market premium for the rating area",
+      "taxYear": 2026,
+      "source": "IRC § 45R(b), opened at law.cornell.edu/uscode/text/26/45R",
+      "verified": "2026-08-21"
+    },
+    "gbc.health_eligible": {
+      "value": "an employer with no more than 25 full-time equivalent employees, average annual wages not exceeding twice the indexed dollar amount, and a qualifying arrangement in effect",
+      "taxYear": 2026,
+      "source": "IRC § 45R(d)(1), opened at law.cornell.edu/uscode/text/26/45R",
+      "verified": "2026-08-21"
     }
   }
 }

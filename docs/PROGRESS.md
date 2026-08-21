@@ -10,9 +10,9 @@ is indexed, and only the owner moves a page there (see `docs/VERIFICATION.md`).
 | Part | Topics | Stub | Draft | Review | Published | Words |
 |---|---:|---:|---:|---:|---:|---:|
 | 1. Individuals | 120 | 0 | 0 | 110 | 10 | 256,550 |
-| 2. Businesses | 119 | 58 | 0 | 61 | 0 | 141,277 |
+| 2. Businesses | 119 | 57 | 0 | 62 | 0 | 143,485 |
 | 3. Representation, Practices and Procedures | 121 | 0 | 0 | 0 | 121 | 257,674 |
-| **All parts** | **360** | **58** | **0** | **171** | **131** | **655,501** |
+| **All parts** | **360** | **57** | **0** | **172** | **131** | **657,709** |
 
 ## Part 1 — Individuals
 
@@ -309,7 +309,7 @@ is indexed, and only the owner moves a page there (see `docs/VERIFICATION.md`).
 | 2.2.2.j | [Employment taxes](/businesses/business-tax-preparation/business-expenses-deductions-and-credits/employment-taxes/) | review | 2,257 | 2026-08-21 |
 | 2.2.2.k | [Casualties, thefts, and condemnations](/businesses/business-tax-preparation/business-expenses-deductions-and-credits/casualties-thefts-and-condemnations/) | review | 2,371 | 2026-08-21 |
 | 2.2.2.l | [Qualified business income (QBI) (SSTB, calculations, phase out, UBIA)](/businesses/business-tax-preparation/business-expenses-deductions-and-credits/qualified-business-income-qbi-sstb-calculations-phase-out/) | review | 2,263 | 2026-08-21 |
-| 2.2.2.m | [Eligibility and deductibility of general business credits (e.g., disabled access credit, R&D credit, small business healthcare tax credit, foreign tax credit)](/businesses/business-tax-preparation/business-expenses-deductions-and-credits/eligibility-and-deductibility-of-general-business-credits/) | stub | — | — |
+| 2.2.2.m | [Eligibility and deductibility of general business credits (e.g., disabled access credit, R&D credit, small business healthcare tax credit, foreign tax credit)](/businesses/business-tax-preparation/business-expenses-deductions-and-credits/eligibility-and-deductibility-of-general-business-credits/) | review | 2,208 | 2026-08-21 |
 | 2.2.2.n | [Net operating loss deduction](/businesses/business-tax-preparation/business-expenses-deductions-and-credits/net-operating-loss-deduction/) | stub | — | — |
 | 2.2.2.o | [Home office](/businesses/business-tax-preparation/business-expenses-deductions-and-credits/home-office/) | stub | — | — |
 
