@@ -19,7 +19,7 @@ authorities:
   - { type: Pub, ref: "Form 990 series", title: "Which forms do exempt organizations file", url: "https://www.irs.gov/charities-non-profits/form-990-series-which-forms-do-exempt-organizations-file-filing-phase-in" }
   - { type: Pub, ref: "Form 990-N", title: "Annual electronic filing requirement for small exempt organizations", url: "https://www.irs.gov/charities-non-profits/annual-electronic-filing-requirement-for-small-exempt-organizations-form-990-n-e-postcard" }
 forms: []
-related: ["2.1.1.c", "2.1.1.g", "2.1.1.k", "2.1.1.h", "2.3.2.a", "2.3.2.b"]
+related: ["2.1.1.c", "2.1.1.g", "2.1.1.k", "2.1.1.h", "2.3.2.a", "2.3.2.b", "2.3.2.c"]
 changelog:
   - { date: "2026-08-21", summary: "Initial draft. Sets out the IRC § 501(a) grant of exemption and the § 501(b) carve-out for unrelated business income, the § 501(c)(3) organisational and operational conditions with the inurement, lobbying and campaign prohibitions, the neighbouring § 501(c)(4) and (c)(7) categories, the § 508(a) notice requirement and § 508(b) private foundation presumption, the § 6033 annual return with its church and small-receipts exceptions, the § 6033(i) electronic notice and § 6033(j) automatic revocation after three consecutive missed years, and the §§ 511 to 513 unrelated business income tax including the § 512(a)(6) separate computation and the § 512(b)(12) specific deduction." }
 ---

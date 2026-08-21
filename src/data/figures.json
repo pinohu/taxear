@@ -13489,6 +13489,66 @@
       "taxYear": 2026,
       "source": "IRC § 6104(d), read at law.cornell.edu/uscode/text/26/6104",
       "verified": "2026-08-21"
+    },
+    "eof.due_date": {
+      "value": "the annual return of an organisation exempt under IRC § 501(a) is due on or before the 15th day of the 5th month following the close of the taxable year — 15 May for a calendar-year organisation (IRC § 6072(e); Treas. Reg. § 1.6033-2(e))",
+      "taxYear": 2026,
+      "source": "IRC § 6072(e), read at law.cornell.edu/uscode/text/26/6072, and Treas. Reg. § 1.6033-2(e), read at law.cornell.edu/cfr/text/26/1.6033-2",
+      "verified": "2026-08-21"
+    },
+    "eof.extension": {
+      "value": "Form 8868 requests an automatic 6-month extension of time to file an exempt organization return, and is also used by the trustee of a trust required to file Form 1041-A or Form 5227 and by a Form 5330 filer",
+      "taxYear": 2026,
+      "source": "IRS, About Form 8868, read at irs.gov/forms-pubs/about-form-8868",
+      "verified": "2026-08-21"
+    },
+    "eof.mandatory_exceptions": {
+      "value": "the annual return requirement does not apply to churches, their integrated auxiliaries and conventions or associations of churches; to the exclusively religious activities of any religious order; or to a listed organisation other than a private foundation whose gross receipts are normally not more than $5,000 — the listed class being religious organisations, IRC § 170(b)(1)(A)(ii) educational organisations, government- or publicly supported charities and cruelty-prevention organisations, organisations operated in connection with a religious organisation, IRC § 501(c)(8) fraternal beneficiary societies, and wholly government-owned IRC § 501(c)(1) corporations (IRC § 6033(a)(3))",
+      "taxYear": 2026,
+      "source": "IRC § 6033(a)(3), read at law.cornell.edu/uscode/text/26/6033",
+      "verified": "2026-08-21"
+    },
+    "eof.990t_threshold": {
+      "value": "every organisation described in IRC § 511(a)(2) and subject to the IRC § 511(a)(1) tax must file Form 990-T for a taxable year in which it has gross income included in computing unrelated business taxable income of $1,000 or more, and filing it does not relieve the organisation of any other return (Treas. Reg. § 1.6012-2(e))",
+      "taxYear": 2026,
+      "source": "Treas. Reg. § 1.6012-2(e), read at law.cornell.edu/cfr/text/26/1.6012-2",
+      "verified": "2026-08-21"
+    },
+    "eof.penalty_org": {
+      "value": "for a return required to be filed in 2027 — the return for tax year 2026 — the IRC § 6652(c)(1)(A) penalty on the organisation is $25 for each day the failure continues, capped at the lesser of $13,000 or 5 percent of the organisation’s gross receipts for the year",
+      "taxYear": 2026,
+      "source": "Rev. Proc. 2025-32 § 3.53, read at irs.gov/pub/irs-drop/rp-25-32.pdf",
+      "verified": "2026-08-21"
+    },
+    "eof.penalty_large": {
+      "value": "where gross receipts exceed $1,339,500 for the year, the daily penalty for a return required to be filed in 2027 rises to $130 and the cap to $66,500 (IRC § 6652(c)(1)(A))",
+      "taxYear": 2026,
+      "source": "Rev. Proc. 2025-32 § 3.53, read at irs.gov/pub/irs-drop/rp-25-32.pdf",
+      "verified": "2026-08-21"
+    },
+    "eof.penalty_manager": {
+      "value": "the Secretary may make a written demand on an organisation subject to the penalty, specifying a reasonable future date for filing; a person who fails to comply pays $10 for each day after that date, capped at $6,500 on all persons for any one return, for a return required to be filed in 2027 (IRC § 6652(c)(1)(B))",
+      "taxYear": 2026,
+      "source": "Rev. Proc. 2025-32 § 3.53, read at irs.gov/pub/irs-drop/rp-25-32.pdf",
+      "verified": "2026-08-21"
+    },
+    "eof.penalty_inspection": {
+      "value": "failure to comply with the IRC § 6104(d) public inspection requirements costs $25 a day, capped at $13,000 for any one annual return or report; the same $25 a day applies to a failure to make exempt status application materials available, with no cap at all, for failures relating to returns required to be filed in 2027 (IRC § 6652(c)(1)(C), (D))",
+      "taxYear": 2026,
+      "source": "Rev. Proc. 2025-32 § 3.53, read at irs.gov/pub/irs-drop/rp-25-32.pdf",
+      "verified": "2026-08-21"
+    },
+    "eof.penalty_statutory": {
+      "value": "the underlying statutory amounts are $20 a day capped at the lesser of $10,000 or 5 percent of gross receipts, rising to $100 a day capped at $50,000 where gross receipts exceed $1,000,000, and $10 a day capped at $5,000 for managers — each indexed since 2014 under IRC § 6652(c)(7) by reference to the IRC § 1(f)(3) cost-of-living adjustment measured from calendar year 2013 (IRC § 6652(c)(1), (c)(7))",
+      "taxYear": 2026,
+      "source": "IRC § 6652(c), read at law.cornell.edu/uscode/text/26/6652",
+      "verified": "2026-08-21"
+    },
+    "eof.no_990n_penalty": {
+      "value": "the IRC § 6652(c)(1) penalty does not apply to the annual electronic notice required under IRC § 6033(i), so a late Form 990-N carries no monetary penalty — only the three-year automatic revocation clock (IRC § 6652(c)(1)(E))",
+      "taxYear": 2026,
+      "source": "IRC § 6652(c)(1)(E), read at law.cornell.edu/uscode/text/26/6652",
+      "verified": "2026-08-21"
     }
   }
 }

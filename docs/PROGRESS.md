@@ -10,9 +10,9 @@ is indexed, and only the owner moves a page there (see `docs/VERIFICATION.md`).
 | Part | Topics | Stub | Draft | Review | Published | Words |
 |---|---:|---:|---:|---:|---:|---:|
 | 1. Individuals | 120 | 0 | 0 | 110 | 10 | 256,550 |
-| 2. Businesses | 119 | 19 | 0 | 100 | 0 | 235,042 |
+| 2. Businesses | 119 | 18 | 0 | 101 | 0 | 237,344 |
 | 3. Representation, Practices and Procedures | 121 | 0 | 0 | 0 | 121 | 257,674 |
-| **All parts** | **360** | **19** | **0** | **210** | **131** | **749,266** |
+| **All parts** | **360** | **18** | **0** | **211** | **131** | **751,568** |
 
 ## Part 1 — Individuals
 
@@ -375,7 +375,7 @@ is indexed, and only the owner moves a page there (see `docs/VERIFICATION.md`).
 |---|---|---|---:|---|
 | 2.3.2.a | [Qualifying for and maintaining tax-exempt status (e.g., IRC 501(c))](/businesses/specialized-returns-and-taxpayers/exempt-organizations/qualifying-for-and-maintaining-tax-exempt-status/) | review | 2,497 | 2026-08-21 |
 | 2.3.2.b | [Applying for IRS tax-exempt status (e.g., Form 1023, Form 1024)](/businesses/specialized-returns-and-taxpayers/exempt-organizations/applying-for-irs-tax-exempt-status/) | review | 2,425 | 2026-08-21 |
-| 2.3.2.c | [Filing requirements (e.g., Form 990 series)](/businesses/specialized-returns-and-taxpayers/exempt-organizations/filing-requirements/) | stub | — | — |
+| 2.3.2.c | [Filing requirements (e.g., Form 990 series)](/businesses/specialized-returns-and-taxpayers/exempt-organizations/filing-requirements/) | review | 2,302 | 2026-08-21 |
 | 2.3.2.d | [Unrelated business taxable income](/businesses/specialized-returns-and-taxpayers/exempt-organizations/unrelated-business-taxable-income/) | stub | — | — |
 
 **2.3.3 Retirement plans**
