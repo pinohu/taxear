@@ -16,7 +16,7 @@ authorities:
   - { type: IRC, ref: "§ 1504(a)", title: "Affiliated group defined", url: "https://www.law.cornell.edu/uscode/text/26/1504" }
   - { type: IRC, ref: "§ 172", title: "Net operating loss deduction", url: "https://www.law.cornell.edu/uscode/text/26/172" }
 forms: []
-related: ["2.1.3.c", "2.1.1.c", "2.1.3.b", "2.1.3.a", "2.1.3.e"]
+related: ["2.1.3.c", "2.1.1.c", "2.1.3.b", "2.1.3.a", "2.1.3.e", "2.1.3.f"]
 changelog:
   - { date: "2026-08-21", summary: "Initial draft. Sets out the IRC § 243(a) and (c) dividends received deduction rates, the § 243(c)(2) definition of a 20-percent owned corporation which begins at exactly 20 percent by vote and value, the § 243(b) conditions for a qualifying dividend on which the 100 percent rate depends — affiliated group membership and an election binding on every member — the § 246(b) taxable income limitation applied separately at 65 and 50 percent with the § 246(b)(2) net operating loss exception, the § 246(c) holding period, and the corporate charitable deduction as rewritten by Pub. L. 119-21 § 70426 to add a 1 percent floor beneath the 10 percent ceiling for taxable years beginning after 2025." }
 ---

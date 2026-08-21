@@ -19,7 +19,7 @@ authorities:
   - { type: IRC, ref: "§ 312", title: "Effect on earnings and profits", url: "https://www.law.cornell.edu/uscode/text/26/312" }
   - { type: IRC, ref: "§ 317(a)", title: "Property defined", url: "https://www.law.cornell.edu/uscode/text/26/317" }
 forms: []
-related: ["2.1.3.b", "2.1.3.e", "2.1.3.d", "2.1.3.a"]
+related: ["2.1.3.b", "2.1.3.e", "2.1.3.d", "2.1.3.a", "2.1.3.f"]
 changelog:
   - { date: "2026-08-21", summary: "Initial draft. Sets out the IRC § 301(b) measurement of the amount distributed with its reduction for liabilities, the § 301(c) three tiers of dividend, return of capital and gain, the § 301(d) fair market value basis to the recipient, the § 311(a) and (b) asymmetry under which a corporation recognises gain on appreciated property and no loss on depreciated property, the § 305(a) exclusion for stock dividends with the § 305(b) exceptions, the § 1(h)(11) definition of qualified dividend income, and the § 246(c) holding period condition that qualified dividend treatment borrows." }
 ---

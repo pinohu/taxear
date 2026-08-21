@@ -9259,6 +9259,48 @@
       "taxYear": 2026,
       "source": "IRC § 336(a), read at law.cornell.edu/uscode/text/26/336",
       "verified": "2026-08-21"
+    },
+    "aet.rate": {
+      "value": "20 percent — in addition to the other taxes imposed by chapter 1, an accumulated earnings tax is imposed for each taxable year on the accumulated taxable income, as defined in IRC § 535, of each corporation described in IRC § 532, at that rate (IRC § 531)",
+      "taxYear": 2026,
+      "source": "IRC § 531, read at law.cornell.edu/uscode/text/26/531",
+      "verified": "2026-08-21"
+    },
+    "aet.base": {
+      "value": "accumulated taxable income means the taxable income for the year, adjusted as IRC § 535(b) provides, minus the sum of the dividends paid deduction under IRC § 561 and the accumulated earnings credit — so the tax falls on a single year's undistributed income, not on the accumulated balance of earnings and profits (IRC § 535(a))",
+      "taxYear": 2026,
+      "source": "IRC § 535(a), read at law.cornell.edu/uscode/text/26/535",
+      "verified": "2026-08-21"
+    },
+    "aet.credit": {
+      "value": "for a corporation other than a mere holding or investment company the accumulated earnings credit is the part of the year's earnings and profits retained for the reasonable needs of the business, less the IRC § 535(b)(6) deduction, the amount retained being the excess of the year's earnings and profits over the dividends paid deduction (IRC § 535(c)(1))",
+      "taxYear": 2026,
+      "source": "IRC § 535(c)(1), read at law.cornell.edu/uscode/text/26/535",
+      "verified": "2026-08-21"
+    },
+    "aet.minimum_credit": {
+      "value": "$250,000 — the credit is in no case less than the amount by which that figure exceeds the corporation's accumulated earnings and profits at the close of the preceding taxable year. For a corporation whose principal function is performing services in health, law, engineering, architecture, accounting, actuarial science, performing arts or consulting the figure is $150,000. A mere holding or investment company gets only this minimum credit and nothing for reasonable needs (IRC § 535(c)(2), (3))",
+      "taxYear": 2026,
+      "source": "IRC § 535(c)(2), (3), read at law.cornell.edu/uscode/text/26/535",
+      "verified": "2026-08-21"
+    },
+    "aet.who": {
+      "value": "the tax applies to every corporation formed or availed of for the purpose of avoiding income tax with respect to its shareholders, or those of any other corporation, by permitting earnings and profits to accumulate instead of being divided or distributed — but not to a personal holding company, a corporation exempt under subchapter F, or a passive foreign investment company, and it applies regardless of the number of shareholders (IRC § 532)",
+      "taxYear": 2026,
+      "source": "IRC § 532, read at law.cornell.edu/uscode/text/26/532",
+      "verified": "2026-08-21"
+    },
+    "aet.presumption": {
+      "value": "the fact that earnings and profits are permitted to accumulate beyond the reasonable needs of the business is determinative of the purpose to avoid income tax with respect to shareholders unless the corporation proves the contrary by the preponderance of the evidence, and being a mere holding or investment company is prima facie evidence of that purpose (IRC § 533)",
+      "taxYear": 2026,
+      "source": "IRC § 533, read at law.cornell.edu/uscode/text/26/533",
+      "verified": "2026-08-21"
+    },
+    "aet.reasonable_needs": {
+      "value": "reasonable needs of the business includes the reasonably anticipated needs of the business, the IRC § 303 redemption needs of the business, and the excess business holdings redemption needs of the business (IRC § 537(a))",
+      "taxYear": 2026,
+      "source": "IRC § 537(a), read at law.cornell.edu/uscode/text/26/537",
+      "verified": "2026-08-21"
     }
   }
 }
