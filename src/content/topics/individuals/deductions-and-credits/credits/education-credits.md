@@ -5,7 +5,7 @@ part: 1
 domain: "Deductions and Credits"
 section: "Credits"
 description: "Two credits in one section, with different expenses, different students and different limits. What counts as a qualified expense is where most of the errors live."
-status: review
+status: published
 taxYear: 2026
 lastReviewed: "2026-08-19"
 reviewedBy: "Draft for I. Ohu review"

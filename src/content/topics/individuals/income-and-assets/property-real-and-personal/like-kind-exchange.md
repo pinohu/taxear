@@ -5,7 +5,7 @@ part: 1
 domain: "Income and Assets"
 section: "Property, real and personal"
 description: "Since 2018 only real property qualifies, and the 180 days is a ceiling rather than a promise — a late-year sale runs out of time at the return due date instead."
-status: review
+status: published
 taxYear: 2026
 lastReviewed: "2026-08-19"
 reviewedBy: "Draft for I. Ohu review"

@@ -5,7 +5,7 @@ part: 1
 domain: "Preliminary Work and Taxpayer Data"
 section: "Preliminary work to prepare tax returns"
 description: "Credits are found by interviewing, not by reading forms. Which subpart a credit sits in decides whether it can produce a refund, and 2026 moved several of them."
-status: review
+status: published
 taxYear: 2026
 lastReviewed: "2026-08-19"
 reviewedBy: "Draft for I. Ohu review"

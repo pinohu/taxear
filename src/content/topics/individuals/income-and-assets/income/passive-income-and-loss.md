@@ -5,7 +5,7 @@ part: 1
 domain: "Income and Assets"
 section: "Income"
 description: "Passive losses are suspended, not lost. Everything turns on material participation, and rental activity is passive by definition however hard the owner works at it."
-status: review
+status: published
 taxYear: 2026
 lastReviewed: "2026-08-19"
 reviewedBy: "Draft for I. Ohu review"

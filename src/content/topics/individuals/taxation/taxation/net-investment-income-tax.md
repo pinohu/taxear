@@ -5,7 +5,7 @@ part: 1
 domain: "Taxation"
 section: "Taxation"
 description: "A lesser-of computation with an unindexed threshold, so it reaches further every year. What it never touches is anything already bearing employment tax."
-status: review
+status: published
 taxYear: 2026
 lastReviewed: "2026-08-19"
 reviewedBy: "Draft for I. Ohu review"

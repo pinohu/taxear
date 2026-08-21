@@ -5,7 +5,7 @@ part: 1
 domain: "Specialized Returns for Individuals"
 section: "Estate tax"
 description: "Who paid decides how much is included, unless the co-owners are spouses — then it is always half. And basis follows inclusion, which is where the real cost lands."
-status: review
+status: published
 taxYear: 2026
 lastReviewed: "2026-08-20"
 reviewedBy: "Draft for I. Ohu review"

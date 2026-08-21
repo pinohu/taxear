@@ -5,7 +5,7 @@ part: 1
 domain: "Income and Assets"
 section: "Income"
 description: "Foreign income is taxed like any other, then relieved by an exclusion, a credit or a treaty. The three interact, and choosing one can forfeit part of another."
-status: review
+status: published
 taxYear: 2026
 lastReviewed: "2026-08-19"
 reviewedBy: "Draft for I. Ohu review"

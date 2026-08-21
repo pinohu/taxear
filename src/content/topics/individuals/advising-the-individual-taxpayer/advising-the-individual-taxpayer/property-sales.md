@@ -5,7 +5,7 @@ part: 1
 domain: "Advising the Individual Taxpayer"
 section: "Advising the individual taxpayer"
 description: "Advising on a sale means predicting the rate, and there are four of them. Which one applies is decided by the asset and by what depreciation was taken."
-status: review
+status: published
 taxYear: 2026
 lastReviewed: "2026-08-19"
 reviewedBy: "Draft for I. Ohu review"

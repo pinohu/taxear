@@ -5,7 +5,7 @@ part: 1
 domain: "Income and Assets"
 section: "Retirement income"
 description: "A foreign plan has no qualified status here, so employer contributions can be taxed as they vest. The reporting is separate again, and relief from one form relieves none."
-status: review
+status: published
 taxYear: 2026
 lastReviewed: "2026-08-19"
 reviewedBy: "Draft for I. Ohu review"

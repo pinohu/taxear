@@ -5,7 +5,7 @@ part: 2
 domain: "Specialized Returns and Taxpayers"
 section: "Trust and estate income tax"
 description: "Local law decides what is income, but only within limits: an instrument calling dividends principal is not respected, while a unitrust definition of total return is."
-status: review
+status: published
 taxYear: 2026
 lastReviewed: "2026-08-21"
 reviewedBy: "Draft for I. Ohu review"

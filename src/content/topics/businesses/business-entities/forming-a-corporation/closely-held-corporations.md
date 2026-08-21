@@ -5,7 +5,7 @@ part: 2
 domain: "Business Entities"
 section: "Forming a corporation"
 description: "Closely held means five or fewer individuals owning more than half the value at any time in the second half of the year. It is a burden with one real concession."
-status: review
+status: published
 taxYear: 2026
 lastReviewed: "2026-08-21"
 reviewedBy: "Draft for I. Ohu review"

@@ -5,7 +5,7 @@ part: 2
 domain: "Specialized Returns and Taxpayers"
 section: "Retirement plans"
 description: "Coverage testing, contribution testing and top-heavy testing ask three different questions, and a plan can pass any two of them while failing the third outright."
-status: review
+status: published
 taxYear: 2026
 lastReviewed: "2026-08-21"
 reviewedBy: "Draft for I. Ohu review"

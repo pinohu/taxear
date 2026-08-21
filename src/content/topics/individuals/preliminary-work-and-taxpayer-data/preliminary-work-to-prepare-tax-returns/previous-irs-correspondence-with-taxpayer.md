@@ -5,7 +5,7 @@ part: 1
 domain: "Preliminary Work and Taxpayer Data"
 section: "Preliminary work to prepare tax returns"
 description: "What the IRS has already said to this taxpayer changes the engagement. Ask for the notices, pull the transcripts, and read the deadline before touching the return."
-status: review
+status: published
 taxYear: 2026
 lastReviewed: "2026-08-19"
 reviewedBy: "Draft for I. Ohu review"

@@ -5,7 +5,7 @@ part: 2
 domain: "Specialized Returns and Taxpayers"
 section: "Farmers"
 description: "Three farm landlords with the same acreage can file on three different forms, and the difference between them is worth the entire self-employment tax."
-status: review
+status: published
 taxYear: 2026
 lastReviewed: "2026-08-21"
 reviewedBy: "Draft for I. Ohu review"

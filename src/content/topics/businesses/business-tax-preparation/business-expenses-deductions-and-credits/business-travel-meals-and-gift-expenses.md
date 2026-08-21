@@ -5,7 +5,7 @@ part: 2
 domain: "Business Tax Preparation"
 section: "Business expenses, deductions and credits"
 description: "Entertainment is gone, meals are halved, and 2026 is the first year an employer gets no deduction at all for the meals it provides for its own convenience."
-status: review
+status: published
 taxYear: 2026
 lastReviewed: "2026-08-21"
 reviewedBy: "Draft for I. Ohu review"

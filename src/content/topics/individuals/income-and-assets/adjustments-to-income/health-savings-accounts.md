@@ -5,7 +5,7 @@ part: 1
 domain: "Income and Assets"
 section: "Adjustments to Income"
 description: "The limit is built a month at a time, and Medicare entitlement zeroes it from that month on. Two provisions added in 2025 widened who can hold an account at all."
-status: review
+status: published
 taxYear: 2026
 lastReviewed: "2026-08-19"
 reviewedBy: "Draft for I. Ohu review"

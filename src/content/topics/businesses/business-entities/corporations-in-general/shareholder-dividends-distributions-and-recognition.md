@@ -5,7 +5,7 @@ part: 2
 domain: "Business Entities"
 section: "Corporations in general"
 description: "A corporation recognises gain on distributing appreciated property and no loss on distributing depreciated property. The shareholder takes value as basis either way."
-status: review
+status: published
 taxYear: 2026
 lastReviewed: "2026-08-21"
 reviewedBy: "Draft for I. Ohu review"

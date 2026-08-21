@@ -5,7 +5,7 @@ part: 1
 domain: "Income and Assets"
 section: "Income"
 description: "A distribution does not have to be declared to be a dividend. Where a closely held company pays a shareholder's costs, the tax follows substance rather than the label."
-status: review
+status: published
 taxYear: 2026
 lastReviewed: "2026-08-19"
 reviewedBy: "Draft for I. Ohu review"

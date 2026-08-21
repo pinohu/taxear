@@ -5,7 +5,7 @@ part: 1
 domain: "Taxation"
 section: "Taxation"
 description: "Employment tax the employer could not withhold, so the employee pays it on their own return. Two situations produce it, and the reporting differs for each."
-status: review
+status: published
 taxYear: 2026
 lastReviewed: "2026-08-19"
 reviewedBy: "Draft for I. Ohu review"

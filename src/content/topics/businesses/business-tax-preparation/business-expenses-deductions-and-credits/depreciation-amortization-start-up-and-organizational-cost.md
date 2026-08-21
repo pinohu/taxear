@@ -5,7 +5,7 @@ part: 2
 domain: "Business Tax Preparation"
 section: "Business expenses, deductions and credits"
 description: "Bonus depreciation is permanently back at 100 percent, percentage depletion never reaches timber, and an oil producer that is not independent gets none of it."
-status: review
+status: published
 taxYear: 2026
 lastReviewed: "2026-08-21"
 reviewedBy: "Draft for I. Ohu review"

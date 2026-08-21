@@ -5,7 +5,7 @@ part: 2
 domain: "Business Entities and Considerations"
 section: "Business entities"
 description: "State law makes the entity; federal tax law decides what it is. A single-member LLC is disregarded for income tax and an employer in its own name for payroll."
-status: review
+status: published
 taxYear: 2026
 lastReviewed: "2026-08-21"
 reviewedBy: "Draft for I. Ohu review"

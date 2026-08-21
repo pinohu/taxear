@@ -5,7 +5,7 @@ part: 2
 domain: "Business Tax Preparation"
 section: "Business assets"
 description: "Depreciation recapture is computed before the netting, so a profitable sale of equipment can be ordinary income while the building beside it is capital gain."
-status: review
+status: published
 taxYear: 2026
 lastReviewed: "2026-08-21"
 reviewedBy: "Draft for I. Ohu review"

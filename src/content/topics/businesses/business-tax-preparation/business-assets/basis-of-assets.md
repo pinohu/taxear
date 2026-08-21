@@ -5,7 +5,7 @@ part: 2
 domain: "Business Tax Preparation"
 section: "Business assets"
 description: "Basis starts at cost and moves; a gift carries a dual basis that can produce neither gain nor loss, and depreciation reduces basis whether or not it was claimed."
-status: review
+status: published
 taxYear: 2026
 lastReviewed: "2026-08-21"
 reviewedBy: "Draft for I. Ohu review"

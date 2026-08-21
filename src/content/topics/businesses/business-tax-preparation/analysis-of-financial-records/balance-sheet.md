@@ -5,7 +5,7 @@ part: 2
 domain: "Business Tax Preparation"
 section: "Analysis of financial records"
 description: "Assets equal liabilities plus equity, so equity is a residue rather than a component of assets, and the first question about any balance sheet is whether it is tax based."
-status: review
+status: published
 taxYear: 2026
 lastReviewed: "2026-08-21"
 reviewedBy: "Draft for I. Ohu review"

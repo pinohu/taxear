@@ -5,7 +5,7 @@ part: 2
 domain: "Business Entities"
 section: "S corporations"
 description: "A late election is an election for next year, not a failed one — and for a new corporation the clock starts when it first has shareholders, not when it was chartered."
-status: review
+status: published
 taxYear: 2026
 lastReviewed: "2026-08-21"
 reviewedBy: "Draft for I. Ohu review"

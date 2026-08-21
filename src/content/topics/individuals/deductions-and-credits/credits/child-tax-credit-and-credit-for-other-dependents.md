@@ -5,7 +5,7 @@ part: 1
 domain: "Deductions and Credits"
 section: "Credits"
 description: "Almost nothing you remember about this credit from 2021 is still law, and the numbers printed in the statute are not the numbers you use. Read subsection (h) first."
-status: review
+status: published
 taxYear: 2026
 lastReviewed: "2026-08-19"
 reviewedBy: "Draft for I. Ohu review"

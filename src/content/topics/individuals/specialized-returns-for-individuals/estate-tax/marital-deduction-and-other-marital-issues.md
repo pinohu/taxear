@@ -5,7 +5,7 @@ part: 1
 domain: "Specialized Returns for Individuals"
 section: "Estate tax"
 description: "The deduction is unlimited and the election is not automatic. Portability is made by the first estate, on a return nobody was required to file, and only ever one spouse."
-status: review
+status: published
 taxYear: 2026
 lastReviewed: "2026-08-20"
 reviewedBy: "Draft for I. Ohu review"

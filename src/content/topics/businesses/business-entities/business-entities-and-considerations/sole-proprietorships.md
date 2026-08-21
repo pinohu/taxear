@@ -5,7 +5,7 @@ part: 2
 domain: "Business Entities and Considerations"
 section: "Business entities"
 description: "A sole proprietorship is not an entity, files no return, and has no date of its own. Everything about it is the owner, which is exactly why it is easy to get wrong."
-status: review
+status: published
 taxYear: 2026
 lastReviewed: "2026-08-21"
 reviewedBy: "Draft for I. Ohu review"

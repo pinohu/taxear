@@ -5,7 +5,7 @@ part: 2
 domain: "Specialized Returns and Taxpayers"
 section: "Farmers"
 description: "A farmer gets one estimated tax payment a year instead of four, and the price of that concession is losing the prior-year safe harbour everyone else relies on."
-status: review
+status: published
 taxYear: 2026
 lastReviewed: "2026-08-21"
 reviewedBy: "Draft for I. Ohu review"

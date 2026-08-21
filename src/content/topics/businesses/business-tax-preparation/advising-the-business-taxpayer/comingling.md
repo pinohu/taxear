@@ -5,7 +5,7 @@ part: 2
 domain: "Business Tax Preparation"
 section: "Advising the business taxpayer"
 description: "Mixing personal and business money rarely creates a single big adjustment; it destroys the presumption of regularity that every other deduction on the return relies on."
-status: review
+status: published
 taxYear: 2026
 lastReviewed: "2026-08-21"
 reviewedBy: "Draft for I. Ohu review"

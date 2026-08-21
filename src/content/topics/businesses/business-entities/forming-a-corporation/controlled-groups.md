@@ -5,7 +5,7 @@ part: 2
 domain: "Business Entities"
 section: "Forming a corporation"
 description: "A parent-subsidiary group needs eighty percent of vote or value, so either test alone will do. Membership is fixed on one day in December and foreign members drop out."
-status: review
+status: published
 taxYear: 2026
 lastReviewed: "2026-08-21"
 reviewedBy: "Draft for I. Ohu review"

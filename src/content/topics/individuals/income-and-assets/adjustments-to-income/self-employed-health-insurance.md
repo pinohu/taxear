@@ -5,7 +5,7 @@ part: 1
 domain: "Income and Assets"
 section: "Adjustments to Income"
 description: "Eligibility for a spouse's employer plan destroys the deduction month by month, whether or not it is taken up — and the cap is one business's income, not all of them."
-status: review
+status: published
 taxYear: 2026
 lastReviewed: "2026-08-19"
 reviewedBy: "Draft for I. Ohu review"

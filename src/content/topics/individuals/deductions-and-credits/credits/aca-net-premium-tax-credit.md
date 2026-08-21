@@ -5,7 +5,7 @@ part: 1
 domain: "Deductions and Credits"
 section: "Credits"
 description: "Two temporary rules expired at the end of 2025 and a repayment cap was repealed. For 2026 the cliff at 400 percent of the poverty line is back, and so is full repayment."
-status: review
+status: published
 taxYear: 2026
 lastReviewed: "2026-08-19"
 reviewedBy: "Draft for I. Ohu review"

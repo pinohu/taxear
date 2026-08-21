@@ -2,7 +2,7 @@
 number: "Schedule F"
 title: "Profit or Loss From Farming (Form 1040)"
 description: "Profit or loss from farming. Carries the farm income and expense computation, and its net profit is net earnings from self-employment where the farmer participates."
-status: review
+status: published
 irsUrl: "https://www.irs.gov/forms-pubs/about-schedule-f-form-1040"
 topics: ["2.3.4.a"]
 lastReviewed: "2026-08-21"

@@ -5,7 +5,7 @@ part: 1
 domain: "Income and Assets"
 section: "Property, real and personal"
 description: "The rate schedule is unreadable on its own — IRC § 1(h) still points at brackets that no longer exist, and § 1(j)(5) supplies the amounts that replace them."
-status: review
+status: published
 taxYear: 2026
 lastReviewed: "2026-08-19"
 reviewedBy: "Draft for I. Ohu review"

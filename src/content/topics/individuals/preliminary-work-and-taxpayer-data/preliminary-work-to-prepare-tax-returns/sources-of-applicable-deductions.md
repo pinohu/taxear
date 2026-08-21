@@ -5,7 +5,7 @@ part: 1
 domain: "Preliminary Work and Taxpayer Data"
 section: "Preliminary work to prepare tax returns"
 description: "Taxable income turns on one election — standard deduction or itemize. Both sides of that choice changed for 2026, and neither now ends the deduction inquiry."
-status: review
+status: published
 taxYear: 2026
 lastReviewed: "2026-08-19"
 reviewedBy: "Draft for I. Ohu review"

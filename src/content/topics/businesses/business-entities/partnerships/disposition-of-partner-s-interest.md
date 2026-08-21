@@ -5,7 +5,7 @@ part: 2
 domain: "Business Entities"
 section: "Partnerships"
 description: "A partnership interest is a capital asset until section 751 says otherwise, and the debt the buyer takes over is part of what the seller is treated as receiving."
-status: review
+status: published
 taxYear: 2026
 lastReviewed: "2026-08-21"
 reviewedBy: "Draft for I. Ohu review"

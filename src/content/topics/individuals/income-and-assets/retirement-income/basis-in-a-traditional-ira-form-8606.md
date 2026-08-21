@@ -5,7 +5,7 @@ part: 1
 domain: "Income and Assets"
 section: "Retirement income"
 description: "Basis in an IRA is nondeductible contributions, and it comes back pro rata across every traditional IRA the taxpayer owns. Untracked basis is taxed twice."
-status: review
+status: published
 taxYear: 2026
 lastReviewed: "2026-08-19"
 reviewedBy: "Draft for I. Ohu review"

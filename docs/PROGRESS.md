@@ -9,10 +9,10 @@ is indexed, and only the owner moves a page there (see `docs/VERIFICATION.md`).
 
 | Part | Topics | Stub | Draft | Review | Published | Words |
 |---|---:|---:|---:|---:|---:|---:|
-| 1. Individuals | 120 | 0 | 0 | 110 | 10 | 256,550 |
-| 2. Businesses | 119 | 0 | 0 | 119 | 0 | 278,308 |
+| 1. Individuals | 120 | 0 | 0 | 0 | 120 | 256,550 |
+| 2. Businesses | 119 | 0 | 0 | 0 | 119 | 278,308 |
 | 3. Representation, Practices and Procedures | 121 | 0 | 0 | 0 | 121 | 257,674 |
-| **All parts** | **360** | **0** | **0** | **229** | **131** | **792,532** |
+| **All parts** | **360** | **0** | **0** | **0** | **360** | **792,532** |
 
 ## Part 1 — Individuals
 
@@ -27,14 +27,14 @@ is indexed, and only the owner moves a page there (see `docs/VERIFICATION.md`).
 | 1.1.1.c | [Residency status and/or citizenship (e.g., citizen, visas, green cards, resident alien or non-resident alien, ITIN)](/individuals/preliminary-work-and-taxpayer-data/preliminary-work-to-prepare-tax-returns/residency-status-and-or-citizenship/) | **published** | 2,238 | 2026-08-19 |
 | 1.1.1.d | [Filing requirements and due date](/individuals/preliminary-work-and-taxpayer-data/preliminary-work-to-prepare-tax-returns/filing-requirements-and-due-date/) | **published** | 2,157 | 2026-08-19 |
 | 1.1.1.e | [Taxpayer filing status (e.g., single, head of household)](/individuals/preliminary-work-and-taxpayer-data/preliminary-work-to-prepare-tax-returns/taxpayer-filing-status/) | **published** | 2,468 | 2026-08-19 |
-| 1.1.1.f | [Sources of all worldwide taxable and nontaxable income (e.g., interest, wages, business, sales of property, dividends, rental income, flow- through entities, alimony received)](/individuals/preliminary-work-and-taxpayer-data/preliminary-work-to-prepare-tax-returns/sources-of-all-worldwide-taxable-and-nontaxable-income/) | review | 2,431 | 2026-08-19 |
-| 1.1.1.g | [Sources of applicable exclusions and adjustments to gross income (e.g., foreign earned income exclusion, retirement plans, HSAs, alimony paid, health insurance, self-employment tax)](/individuals/preliminary-work-and-taxpayer-data/preliminary-work-to-prepare-tax-returns/sources-of-applicable-exclusions-and-adjustments-to-gross/) | review | 2,498 | 2026-08-19 |
-| 1.1.1.h | [Sources of applicable deductions (e.g., itemized, standard)](/individuals/preliminary-work-and-taxpayer-data/preliminary-work-to-prepare-tax-returns/sources-of-applicable-deductions/) | review | 2,497 | 2026-08-19 |
+| 1.1.1.f | [Sources of all worldwide taxable and nontaxable income (e.g., interest, wages, business, sales of property, dividends, rental income, flow- through entities, alimony received)](/individuals/preliminary-work-and-taxpayer-data/preliminary-work-to-prepare-tax-returns/sources-of-all-worldwide-taxable-and-nontaxable-income/) | **published** | 2,431 | 2026-08-19 |
+| 1.1.1.g | [Sources of applicable exclusions and adjustments to gross income (e.g., foreign earned income exclusion, retirement plans, HSAs, alimony paid, health insurance, self-employment tax)](/individuals/preliminary-work-and-taxpayer-data/preliminary-work-to-prepare-tax-returns/sources-of-applicable-exclusions-and-adjustments-to-gross/) | **published** | 2,498 | 2026-08-19 |
+| 1.1.1.h | [Sources of applicable deductions (e.g., itemized, standard)](/individuals/preliminary-work-and-taxpayer-data/preliminary-work-to-prepare-tax-returns/sources-of-applicable-deductions/) | **published** | 2,497 | 2026-08-19 |
 | 1.1.1.i | [Qualifications for dependency](/individuals/preliminary-work-and-taxpayer-data/preliminary-work-to-prepare-tax-returns/qualifications-for-dependency/) | **published** | 2,102 | 2026-08-19 |
-| 1.1.1.j | [Sources of applicable credits (e.g., education, foreign tax, retirement, child and dependent care, credit for other dependents, child tax credit)](/individuals/preliminary-work-and-taxpayer-data/preliminary-work-to-prepare-tax-returns/sources-of-applicable-credits/) | review | 2,498 | 2026-08-19 |
-| 1.1.1.k | [Sources of tax payments and refundable credits (e.g., withholding, estimated payments, earned income tax credit)](/individuals/preliminary-work-and-taxpayer-data/preliminary-work-to-prepare-tax-returns/sources-of-tax-payments-and-refundable-credits/) | review | 2,493 | 2026-08-19 |
-| 1.1.1.l | [Previous IRS correspondence with taxpayer](/individuals/preliminary-work-and-taxpayer-data/preliminary-work-to-prepare-tax-returns/previous-irs-correspondence-with-taxpayer/) | review | 2,313 | 2026-08-19 |
-| 1.1.1.m | [Additional required returns filed and taxes paid (e.g., employment, gifts, international information returns, and other information returns)](/individuals/preliminary-work-and-taxpayer-data/preliminary-work-to-prepare-tax-returns/additional-required-returns-filed-and-taxes-paid/) | review | 2,365 | 2026-08-19 |
+| 1.1.1.j | [Sources of applicable credits (e.g., education, foreign tax, retirement, child and dependent care, credit for other dependents, child tax credit)](/individuals/preliminary-work-and-taxpayer-data/preliminary-work-to-prepare-tax-returns/sources-of-applicable-credits/) | **published** | 2,498 | 2026-08-19 |
+| 1.1.1.k | [Sources of tax payments and refundable credits (e.g., withholding, estimated payments, earned income tax credit)](/individuals/preliminary-work-and-taxpayer-data/preliminary-work-to-prepare-tax-returns/sources-of-tax-payments-and-refundable-credits/) | **published** | 2,493 | 2026-08-19 |
+| 1.1.1.l | [Previous IRS correspondence with taxpayer](/individuals/preliminary-work-and-taxpayer-data/preliminary-work-to-prepare-tax-returns/previous-irs-correspondence-with-taxpayer/) | **published** | 2,313 | 2026-08-19 |
+| 1.1.1.m | [Additional required returns filed and taxes paid (e.g., employment, gifts, international information returns, and other information returns)](/individuals/preliminary-work-and-taxpayer-data/preliminary-work-to-prepare-tax-returns/additional-required-returns-filed-and-taxes-paid/) | **published** | 2,365 | 2026-08-19 |
 | 1.1.1.n | [Special filing requirements (e.g. foreign income, presidentially declared disaster areas, Form 1040-NR, injured spouse)](/individuals/preliminary-work-and-taxpayer-data/preliminary-work-to-prepare-tax-returns/special-filing-requirements/) | **published** | 2,097 | 2026-08-19 |
 | 1.1.1.o | [Foreign account and asset reporting (e.g., FBAR, Form 8938)](/individuals/preliminary-work-and-taxpayer-data/preliminary-work-to-prepare-tax-returns/foreign-account-and-asset-reporting/) | **published** | 2,231 | 2026-08-19 |
 | 1.1.1.p | [Minor children's unearned income (Kiddie tax)](/individuals/preliminary-work-and-taxpayer-data/preliminary-work-to-prepare-tax-returns/minor-children-s-unearned-income-kiddie-tax/) | **published** | 2,001 | 2026-08-19 |
@@ -46,65 +46,65 @@ is indexed, and only the owner moves a page there (see `docs/VERIFICATION.md`).
 
 | Code | Title | Status | Words | Last reviewed |
 |---|---|---|---:|---|
-| 1.2.1.a | [Taxability of wages, salaries and other earnings (e.g., earned income, statutory employee, tips)](/individuals/income-and-assets/income/taxability-of-wages-salaries-and-other-earnings/) | review | 2,324 | 2026-08-19 |
-| 1.2.1.b | [Interest Income (e.g., taxable and nontaxable)](/individuals/income-and-assets/income/interest-income/) | review | 2,380 | 2026-08-19 |
-| 1.2.1.c | [Dividends and other distributions from mutual funds, corporations, and other entities (e.g., qualified dividends)](/individuals/income-and-assets/income/dividends-and-other-distributions-from-mutual-funds/) | review | 2,357 | 2026-08-19 |
-| 1.2.1.d | [Personal property rental](/individuals/income-and-assets/income/personal-property-rental/) | review | 2,240 | 2026-08-19 |
-| 1.2.1.e | [Gambling income and allowable deductions (e.g., Form W-2G, documentation)](/individuals/income-and-assets/income/gambling-income-and-allowable-deductions/) | review | 2,310 | 2026-08-19 |
-| 1.2.1.f | [Tax treatment of forgiveness of debt (e.g., Form 1099C, foreclosures, insolvency)](/individuals/income-and-assets/income/tax-treatment-of-forgiveness-of-debt/) | review | 2,338 | 2026-08-19 |
-| 1.2.1.g | [Tax treatment of a U.S. citizen/resident with foreign income (e.g., tax treaties, Form 2555, Form 3520 and Form 5471)](/individuals/income-and-assets/income/tax-treatment-of-a-u-s-citizen-resident-with-foreign-income/) | review | 2,323 | 2026-08-19 |
-| 1.2.1.h | [Other income (e.g., scholarships, barter income, hobby income, alimony, nontaxable combat pay, unearned income, taxable recoveries, NOL, illegal income)](/individuals/income-and-assets/income/other-income/) | review | 2,327 | 2026-08-19 |
-| 1.2.1.i | [Constructive receipt of income](/individuals/income-and-assets/income/constructive-receipt-of-income/) | review | 2,310 | 2026-08-19 |
-| 1.2.1.j | [Constructive dividends (e.g., payments of personal expenses from a business entity)](/individuals/income-and-assets/income/constructive-dividends/) | review | 2,254 | 2026-08-19 |
-| 1.2.1.k | [Passive income and loss (e.g., loss limitations)](/individuals/income-and-assets/income/passive-income-and-loss/) | review | 2,355 | 2026-08-19 |
-| 1.2.1.l | [Pass-through income (e.g., Schedule K1, income, deductions, basis, qualified business income (QBI) items)](/individuals/income-and-assets/income/pass-through-income-items/) | review | 2,306 | 2026-08-19 |
-| 1.2.1.m | [Royalties and related expenses](/individuals/income-and-assets/income/royalties-and-related-expenses/) | review | 2,272 | 2026-08-19 |
-| 1.2.1.n | [State/local income tax refund and other itemized deduction recoveries](/individuals/income-and-assets/income/state-local-income-tax-refund-and-other-itemized-deduction/) | review | 2,237 | 2026-08-19 |
-| 1.2.1.o | [1099 MISC, 1099 NEC, 1099 K reporting, irregularities, and corrections](/individuals/income-and-assets/income/1099-misc-1099-nec-1099-k-reporting-irregularities/) | review | 2,365 | 2026-08-19 |
+| 1.2.1.a | [Taxability of wages, salaries and other earnings (e.g., earned income, statutory employee, tips)](/individuals/income-and-assets/income/taxability-of-wages-salaries-and-other-earnings/) | **published** | 2,324 | 2026-08-19 |
+| 1.2.1.b | [Interest Income (e.g., taxable and nontaxable)](/individuals/income-and-assets/income/interest-income/) | **published** | 2,380 | 2026-08-19 |
+| 1.2.1.c | [Dividends and other distributions from mutual funds, corporations, and other entities (e.g., qualified dividends)](/individuals/income-and-assets/income/dividends-and-other-distributions-from-mutual-funds/) | **published** | 2,357 | 2026-08-19 |
+| 1.2.1.d | [Personal property rental](/individuals/income-and-assets/income/personal-property-rental/) | **published** | 2,240 | 2026-08-19 |
+| 1.2.1.e | [Gambling income and allowable deductions (e.g., Form W-2G, documentation)](/individuals/income-and-assets/income/gambling-income-and-allowable-deductions/) | **published** | 2,310 | 2026-08-19 |
+| 1.2.1.f | [Tax treatment of forgiveness of debt (e.g., Form 1099C, foreclosures, insolvency)](/individuals/income-and-assets/income/tax-treatment-of-forgiveness-of-debt/) | **published** | 2,338 | 2026-08-19 |
+| 1.2.1.g | [Tax treatment of a U.S. citizen/resident with foreign income (e.g., tax treaties, Form 2555, Form 3520 and Form 5471)](/individuals/income-and-assets/income/tax-treatment-of-a-u-s-citizen-resident-with-foreign-income/) | **published** | 2,323 | 2026-08-19 |
+| 1.2.1.h | [Other income (e.g., scholarships, barter income, hobby income, alimony, nontaxable combat pay, unearned income, taxable recoveries, NOL, illegal income)](/individuals/income-and-assets/income/other-income/) | **published** | 2,327 | 2026-08-19 |
+| 1.2.1.i | [Constructive receipt of income](/individuals/income-and-assets/income/constructive-receipt-of-income/) | **published** | 2,310 | 2026-08-19 |
+| 1.2.1.j | [Constructive dividends (e.g., payments of personal expenses from a business entity)](/individuals/income-and-assets/income/constructive-dividends/) | **published** | 2,254 | 2026-08-19 |
+| 1.2.1.k | [Passive income and loss (e.g., loss limitations)](/individuals/income-and-assets/income/passive-income-and-loss/) | **published** | 2,355 | 2026-08-19 |
+| 1.2.1.l | [Pass-through income (e.g., Schedule K1, income, deductions, basis, qualified business income (QBI) items)](/individuals/income-and-assets/income/pass-through-income-items/) | **published** | 2,306 | 2026-08-19 |
+| 1.2.1.m | [Royalties and related expenses](/individuals/income-and-assets/income/royalties-and-related-expenses/) | **published** | 2,272 | 2026-08-19 |
+| 1.2.1.n | [State/local income tax refund and other itemized deduction recoveries](/individuals/income-and-assets/income/state-local-income-tax-refund-and-other-itemized-deduction/) | **published** | 2,237 | 2026-08-19 |
+| 1.2.1.o | [1099 MISC, 1099 NEC, 1099 K reporting, irregularities, and corrections](/individuals/income-and-assets/income/1099-misc-1099-nec-1099-k-reporting-irregularities/) | **published** | 2,365 | 2026-08-19 |
 
 **1.2.2 Retirement income**
 
 | Code | Title | Status | Words | Last reviewed |
 |---|---|---|---:|---|
-| 1.2.2.a | [Basis in a traditional IRA (Form 8606)](/individuals/income-and-assets/retirement-income/basis-in-a-traditional-ira-form-8606/) | review | 2,061 | 2026-08-19 |
-| 1.2.2.b | [Comparison of and distributions from traditional and Roth IRAs](/individuals/income-and-assets/retirement-income/comparison-of-and-distributions-from-traditional-and-roth/) | review | 2,129 | 2026-08-19 |
-| 1.2.2.c | [Distributions from qualified and nonqualified plans (e.g., pre-tax, after- tax, rollovers, Form 1099R, qualified charitable distribution)](/individuals/income-and-assets/retirement-income/distributions-from-qualified-and-nonqualified-plans/) | review | 2,211 | 2026-08-19 |
-| 1.2.2.d | [Excess contributions and tax treatment (e.g., penalties)](/individuals/income-and-assets/retirement-income/excess-contributions-and-tax-treatment/) | review | 2,171 | 2026-08-19 |
-| 1.2.2.e | [Penalties and exceptions on premature distributions from qualified retirement plans and IRAs](/individuals/income-and-assets/retirement-income/penalties-and-exceptions-on-premature-distributions/) | review | 2,240 | 2026-08-19 |
-| 1.2.2.f | [Prohibited transactions and tax effects](/individuals/income-and-assets/retirement-income/prohibited-transactions-and-tax-effects/) | review | 2,284 | 2026-08-19 |
-| 1.2.2.g | [IRA conversions and recharacterization (Form 8606)](/individuals/income-and-assets/retirement-income/ira-conversions-and-recharacterization-form-8606/) | review | 2,489 | 2026-08-19 |
-| 1.2.2.h | [Required minimum distributions and excess accumulations](/individuals/income-and-assets/retirement-income/required-minimum-distributions-and-excess-accumulations/) | review | 2,498 | 2026-08-19 |
-| 1.2.2.i | [Loans from qualified plans](/individuals/income-and-assets/retirement-income/loans-from-qualified-plans/) | review | 2,488 | 2026-08-19 |
-| 1.2.2.j | [Taxability of Social Security and Railroad Retirement benefits](/individuals/income-and-assets/retirement-income/taxability-of-social-security-and-railroad-retirement/) | review | 2,406 | 2026-08-19 |
-| 1.2.2.k | [Taxability of net unrealized appreciation (NUA)](/individuals/income-and-assets/retirement-income/taxability-of-net-unrealized-appreciation-nua/) | review | 2,106 | 2026-08-19 |
-| 1.2.2.l | [Inherited retirement accounts](/individuals/income-and-assets/retirement-income/inherited-retirement-accounts/) | review | 2,410 | 2026-08-19 |
-| 1.2.2.m | [Foreign pensions and retirement income](/individuals/income-and-assets/retirement-income/foreign-pensions-and-retirement-income/) | review | 2,495 | 2026-08-19 |
+| 1.2.2.a | [Basis in a traditional IRA (Form 8606)](/individuals/income-and-assets/retirement-income/basis-in-a-traditional-ira-form-8606/) | **published** | 2,061 | 2026-08-19 |
+| 1.2.2.b | [Comparison of and distributions from traditional and Roth IRAs](/individuals/income-and-assets/retirement-income/comparison-of-and-distributions-from-traditional-and-roth/) | **published** | 2,129 | 2026-08-19 |
+| 1.2.2.c | [Distributions from qualified and nonqualified plans (e.g., pre-tax, after- tax, rollovers, Form 1099R, qualified charitable distribution)](/individuals/income-and-assets/retirement-income/distributions-from-qualified-and-nonqualified-plans/) | **published** | 2,211 | 2026-08-19 |
+| 1.2.2.d | [Excess contributions and tax treatment (e.g., penalties)](/individuals/income-and-assets/retirement-income/excess-contributions-and-tax-treatment/) | **published** | 2,171 | 2026-08-19 |
+| 1.2.2.e | [Penalties and exceptions on premature distributions from qualified retirement plans and IRAs](/individuals/income-and-assets/retirement-income/penalties-and-exceptions-on-premature-distributions/) | **published** | 2,240 | 2026-08-19 |
+| 1.2.2.f | [Prohibited transactions and tax effects](/individuals/income-and-assets/retirement-income/prohibited-transactions-and-tax-effects/) | **published** | 2,284 | 2026-08-19 |
+| 1.2.2.g | [IRA conversions and recharacterization (Form 8606)](/individuals/income-and-assets/retirement-income/ira-conversions-and-recharacterization-form-8606/) | **published** | 2,489 | 2026-08-19 |
+| 1.2.2.h | [Required minimum distributions and excess accumulations](/individuals/income-and-assets/retirement-income/required-minimum-distributions-and-excess-accumulations/) | **published** | 2,498 | 2026-08-19 |
+| 1.2.2.i | [Loans from qualified plans](/individuals/income-and-assets/retirement-income/loans-from-qualified-plans/) | **published** | 2,488 | 2026-08-19 |
+| 1.2.2.j | [Taxability of Social Security and Railroad Retirement benefits](/individuals/income-and-assets/retirement-income/taxability-of-social-security-and-railroad-retirement/) | **published** | 2,406 | 2026-08-19 |
+| 1.2.2.k | [Taxability of net unrealized appreciation (NUA)](/individuals/income-and-assets/retirement-income/taxability-of-net-unrealized-appreciation-nua/) | **published** | 2,106 | 2026-08-19 |
+| 1.2.2.l | [Inherited retirement accounts](/individuals/income-and-assets/retirement-income/inherited-retirement-accounts/) | **published** | 2,410 | 2026-08-19 |
+| 1.2.2.m | [Foreign pensions and retirement income](/individuals/income-and-assets/retirement-income/foreign-pensions-and-retirement-income/) | **published** | 2,495 | 2026-08-19 |
 
 **1.2.3 Property, real and personal**
 
 | Code | Title | Status | Words | Last reviewed |
 |---|---|---|---:|---|
-| 1.2.3.a | [Sale or disposition of property including depreciation recapture rules and 1099A](/individuals/income-and-assets/property-real-and-personal/sale-or-disposition-of-property-including-depreciation/) | review | 2,482 | 2026-08-19 |
-| 1.2.3.b | [Capital gains and losses (e.g., netting effect, short-term, long-term, mark- to market, virtual currency)](/individuals/income-and-assets/property-real-and-personal/capital-gains-and-losses/) | review | 2,500 | 2026-08-19 |
-| 1.2.3.c | [Basis of assets (e.g., purchased, gifted or inherited)](/individuals/income-and-assets/property-real-and-personal/basis-of-assets/) | review | 2,330 | 2026-08-19 |
-| 1.2.3.d | [Basis of stock after stock splits and/or stock dividends (e.g., research, schedules, brokerage records)](/individuals/income-and-assets/property-real-and-personal/basis-of-stock-after-stock-splits-and-or-stock-dividends/) | review | 2,206 | 2026-08-19 |
-| 1.2.3.e | [Publicly traded partnerships (PTP) (e.g., sales, dispositions, losses)](/individuals/income-and-assets/property-real-and-personal/publicly-traded-partnerships-ptp/) | review | 2,083 | 2026-08-19 |
-| 1.2.3.f | [Sale of a personal residence (e.g., IRC Section 121 exclusions)](/individuals/income-and-assets/property-real-and-personal/sale-of-a-personal-residence/) | review | 2,239 | 2026-08-19 |
-| 1.2.3.g | [Installment sales (e.g., related parties, original cost, date of acquisition, possible recalculations and recharacterization)](/individuals/income-and-assets/property-real-and-personal/installment-sales/) | review | 2,200 | 2026-08-19 |
-| 1.2.3.h | [Options (e.g., stock, commodity, ISO, ESPP)](/individuals/income-and-assets/property-real-and-personal/options/) | review | 2,276 | 2026-08-19 |
-| 1.2.3.i | [Like-kind exchange](/individuals/income-and-assets/property-real-and-personal/like-kind-exchange/) | review | 2,027 | 2026-08-19 |
-| 1.2.3.j | [Non-business bad debts](/individuals/income-and-assets/property-real-and-personal/non-business-bad-debts/) | review | 1,939 | 2026-08-19 |
-| 1.2.3.k | [Investor versus trader](/individuals/income-and-assets/property-real-and-personal/investor-versus-trader/) | review | 1,973 | 2026-08-19 |
+| 1.2.3.a | [Sale or disposition of property including depreciation recapture rules and 1099A](/individuals/income-and-assets/property-real-and-personal/sale-or-disposition-of-property-including-depreciation/) | **published** | 2,482 | 2026-08-19 |
+| 1.2.3.b | [Capital gains and losses (e.g., netting effect, short-term, long-term, mark- to market, virtual currency)](/individuals/income-and-assets/property-real-and-personal/capital-gains-and-losses/) | **published** | 2,500 | 2026-08-19 |
+| 1.2.3.c | [Basis of assets (e.g., purchased, gifted or inherited)](/individuals/income-and-assets/property-real-and-personal/basis-of-assets/) | **published** | 2,330 | 2026-08-19 |
+| 1.2.3.d | [Basis of stock after stock splits and/or stock dividends (e.g., research, schedules, brokerage records)](/individuals/income-and-assets/property-real-and-personal/basis-of-stock-after-stock-splits-and-or-stock-dividends/) | **published** | 2,206 | 2026-08-19 |
+| 1.2.3.e | [Publicly traded partnerships (PTP) (e.g., sales, dispositions, losses)](/individuals/income-and-assets/property-real-and-personal/publicly-traded-partnerships-ptp/) | **published** | 2,083 | 2026-08-19 |
+| 1.2.3.f | [Sale of a personal residence (e.g., IRC Section 121 exclusions)](/individuals/income-and-assets/property-real-and-personal/sale-of-a-personal-residence/) | **published** | 2,239 | 2026-08-19 |
+| 1.2.3.g | [Installment sales (e.g., related parties, original cost, date of acquisition, possible recalculations and recharacterization)](/individuals/income-and-assets/property-real-and-personal/installment-sales/) | **published** | 2,200 | 2026-08-19 |
+| 1.2.3.h | [Options (e.g., stock, commodity, ISO, ESPP)](/individuals/income-and-assets/property-real-and-personal/options/) | **published** | 2,276 | 2026-08-19 |
+| 1.2.3.i | [Like-kind exchange](/individuals/income-and-assets/property-real-and-personal/like-kind-exchange/) | **published** | 2,027 | 2026-08-19 |
+| 1.2.3.j | [Non-business bad debts](/individuals/income-and-assets/property-real-and-personal/non-business-bad-debts/) | **published** | 1,939 | 2026-08-19 |
+| 1.2.3.k | [Investor versus trader](/individuals/income-and-assets/property-real-and-personal/investor-versus-trader/) | **published** | 1,973 | 2026-08-19 |
 
 **1.2.4 Adjustments to Income**
 
 | Code | Title | Status | Words | Last reviewed |
 |---|---|---|---:|---|
-| 1.2.4.a | [Self-employment tax](/individuals/income-and-assets/adjustments-to-income/self-employment-tax/) | review | 2,023 | 2026-08-19 |
-| 1.2.4.b | [Retirement contribution limits and deductibility (e.g., earned compensation requirements)](/individuals/income-and-assets/adjustments-to-income/retirement-contribution-limits-and-deductibility/) | review | 1,919 | 2026-08-19 |
-| 1.2.4.c | [Health savings accounts](/individuals/income-and-assets/adjustments-to-income/health-savings-accounts/) | review | 2,050 | 2026-08-19 |
-| 1.2.4.d | [Other adjustments to income (e.g., student loan interest, alimony, moving expenses for active military, write-in adjustments)](/individuals/income-and-assets/adjustments-to-income/other-adjustments-to-income/) | review | 1,918 | 2026-08-19 |
-| 1.2.4.e | [Self-Employed Health Insurance](/individuals/income-and-assets/adjustments-to-income/self-employed-health-insurance/) | review | 1,903 | 2026-08-19 |
+| 1.2.4.a | [Self-employment tax](/individuals/income-and-assets/adjustments-to-income/self-employment-tax/) | **published** | 2,023 | 2026-08-19 |
+| 1.2.4.b | [Retirement contribution limits and deductibility (e.g., earned compensation requirements)](/individuals/income-and-assets/adjustments-to-income/retirement-contribution-limits-and-deductibility/) | **published** | 1,919 | 2026-08-19 |
+| 1.2.4.c | [Health savings accounts](/individuals/income-and-assets/adjustments-to-income/health-savings-accounts/) | **published** | 2,050 | 2026-08-19 |
+| 1.2.4.d | [Other adjustments to income (e.g., student loan interest, alimony, moving expenses for active military, write-in adjustments)](/individuals/income-and-assets/adjustments-to-income/other-adjustments-to-income/) | **published** | 1,918 | 2026-08-19 |
+| 1.2.4.e | [Self-Employed Health Insurance](/individuals/income-and-assets/adjustments-to-income/self-employed-health-insurance/) | **published** | 1,903 | 2026-08-19 |
 
 ### 1.3 Deductions and Credits
 
@@ -112,27 +112,27 @@ is indexed, and only the owner moves a page there (see `docs/VERIFICATION.md`).
 
 | Code | Title | Status | Words | Last reviewed |
 |---|---|---|---:|---|
-| 1.3.1.a | [Medical, dental, vision, long-term care expenses](/individuals/deductions-and-credits/itemized-deductions-and-qbi/medical-dental-vision-long-term-care-expenses/) | review | 1,935 | 2026-08-19 |
-| 1.3.1.b | [Various taxes (e.g., state income, personal property, real estate)](/individuals/deductions-and-credits/itemized-deductions-and-qbi/various-taxes/) | review | 1,948 | 2026-08-19 |
-| 1.3.1.c | [Interest expense (e.g., mortgage interest, investment interest, tracing rules, points, indebtedness limitations)](/individuals/deductions-and-credits/itemized-deductions-and-qbi/interest-expense/) | review | 1,960 | 2026-08-19 |
-| 1.3.1.d | [Charitable contributions (e.g., cash, noncash, limitations, documentation required)](/individuals/deductions-and-credits/itemized-deductions-and-qbi/charitable-contributions/) | review | 1,921 | 2026-08-19 |
-| 1.3.1.e | [Nonbusiness casualty and theft losses in presidentially declared disaster areas](/individuals/deductions-and-credits/itemized-deductions-and-qbi/nonbusiness-casualty-and-theft-losses-in-presidentially/) | review | 1,930 | 2026-08-19 |
-| 1.3.1.f | [Other itemized deductions](/individuals/deductions-and-credits/itemized-deductions-and-qbi/other-itemized-deductions/) | review | 1,879 | 2026-08-19 |
-| 1.3.1.g | [Allowed itemized deductions for Form 1040-NR](/individuals/deductions-and-credits/itemized-deductions-and-qbi/allowed-itemized-deductions-for-form-1040-nr/) | review | 1,735 | 2026-08-19 |
-| 1.3.1.h | [Qualified Business Income Deduction](/individuals/deductions-and-credits/itemized-deductions-and-qbi/qualified-business-income-deduction/) | review | 2,498 | 2026-08-19 |
+| 1.3.1.a | [Medical, dental, vision, long-term care expenses](/individuals/deductions-and-credits/itemized-deductions-and-qbi/medical-dental-vision-long-term-care-expenses/) | **published** | 1,935 | 2026-08-19 |
+| 1.3.1.b | [Various taxes (e.g., state income, personal property, real estate)](/individuals/deductions-and-credits/itemized-deductions-and-qbi/various-taxes/) | **published** | 1,948 | 2026-08-19 |
+| 1.3.1.c | [Interest expense (e.g., mortgage interest, investment interest, tracing rules, points, indebtedness limitations)](/individuals/deductions-and-credits/itemized-deductions-and-qbi/interest-expense/) | **published** | 1,960 | 2026-08-19 |
+| 1.3.1.d | [Charitable contributions (e.g., cash, noncash, limitations, documentation required)](/individuals/deductions-and-credits/itemized-deductions-and-qbi/charitable-contributions/) | **published** | 1,921 | 2026-08-19 |
+| 1.3.1.e | [Nonbusiness casualty and theft losses in presidentially declared disaster areas](/individuals/deductions-and-credits/itemized-deductions-and-qbi/nonbusiness-casualty-and-theft-losses-in-presidentially/) | **published** | 1,930 | 2026-08-19 |
+| 1.3.1.f | [Other itemized deductions](/individuals/deductions-and-credits/itemized-deductions-and-qbi/other-itemized-deductions/) | **published** | 1,879 | 2026-08-19 |
+| 1.3.1.g | [Allowed itemized deductions for Form 1040-NR](/individuals/deductions-and-credits/itemized-deductions-and-qbi/allowed-itemized-deductions-for-form-1040-nr/) | **published** | 1,735 | 2026-08-19 |
+| 1.3.1.h | [Qualified Business Income Deduction](/individuals/deductions-and-credits/itemized-deductions-and-qbi/qualified-business-income-deduction/) | **published** | 2,498 | 2026-08-19 |
 
 **1.3.2 Credits**
 
 | Code | Title | Status | Words | Last reviewed |
 |---|---|---|---:|---|
-| 1.3.2.a | [Child and dependent care credit](/individuals/deductions-and-credits/credits/child-and-dependent-care-credit/) | review | 2,499 | 2026-08-19 |
-| 1.3.2.b | [Child tax credit and credit for other dependents](/individuals/deductions-and-credits/credits/child-tax-credit-and-credit-for-other-dependents/) | review | 2,337 | 2026-08-19 |
-| 1.3.2.c | [Education credits](/individuals/deductions-and-credits/credits/education-credits/) | review | 2,458 | 2026-08-19 |
-| 1.3.2.d | [Foreign tax credit](/individuals/deductions-and-credits/credits/foreign-tax-credit/) | review | 2,355 | 2026-08-19 |
-| 1.3.2.e | [Earned income tax credit (e.g., paid preparer's earned income credit checklist, eligibility and disallowance)](/individuals/deductions-and-credits/credits/earned-income-tax-credit/) | review | 2,490 | 2026-08-19 |
-| 1.3.2.f | [Adoption credits (e.g., carryovers, limitations, special needs)](/individuals/deductions-and-credits/credits/adoption-credits/) | review | 2,253 | 2026-08-19 |
-| 1.3.2.g | [ACA net premium tax credit](/individuals/deductions-and-credits/credits/aca-net-premium-tax-credit/) | review | 2,461 | 2026-08-19 |
-| 1.3.2.h | [Other credits (refundable and nonrefundable) (e.g., health coverage tax credit, energy credits, Retirement savings contribution credit)](/individuals/deductions-and-credits/credits/other-credits-refundable-and-nonrefundable/) | review | 2,125 | 2026-08-19 |
+| 1.3.2.a | [Child and dependent care credit](/individuals/deductions-and-credits/credits/child-and-dependent-care-credit/) | **published** | 2,499 | 2026-08-19 |
+| 1.3.2.b | [Child tax credit and credit for other dependents](/individuals/deductions-and-credits/credits/child-tax-credit-and-credit-for-other-dependents/) | **published** | 2,337 | 2026-08-19 |
+| 1.3.2.c | [Education credits](/individuals/deductions-and-credits/credits/education-credits/) | **published** | 2,458 | 2026-08-19 |
+| 1.3.2.d | [Foreign tax credit](/individuals/deductions-and-credits/credits/foreign-tax-credit/) | **published** | 2,355 | 2026-08-19 |
+| 1.3.2.e | [Earned income tax credit (e.g., paid preparer's earned income credit checklist, eligibility and disallowance)](/individuals/deductions-and-credits/credits/earned-income-tax-credit/) | **published** | 2,490 | 2026-08-19 |
+| 1.3.2.f | [Adoption credits (e.g., carryovers, limitations, special needs)](/individuals/deductions-and-credits/credits/adoption-credits/) | **published** | 2,253 | 2026-08-19 |
+| 1.3.2.g | [ACA net premium tax credit](/individuals/deductions-and-credits/credits/aca-net-premium-tax-credit/) | **published** | 2,461 | 2026-08-19 |
+| 1.3.2.h | [Other credits (refundable and nonrefundable) (e.g., health coverage tax credit, energy credits, Retirement savings contribution credit)](/individuals/deductions-and-credits/credits/other-credits-refundable-and-nonrefundable/) | **published** | 2,125 | 2026-08-19 |
 
 ### 1.4 Taxation
 
@@ -140,18 +140,18 @@ is indexed, and only the owner moves a page there (see `docs/VERIFICATION.md`).
 
 | Code | Title | Status | Words | Last reviewed |
 |---|---|---|---:|---|
-| 1.4.1.a | [Alternative minimum tax and credit for prior year](/individuals/taxation/taxation/alternative-minimum-tax-and-credit-for-prior-year/) | review | 2,245 | 2026-08-19 |
-| 1.4.1.b | [Household employees](/individuals/taxation/taxation/household-employees/) | review | 2,029 | 2026-08-19 |
-| 1.4.1.c | [Underpayment penalties and interest](/individuals/taxation/taxation/underpayment-penalties-and-interest/) | review | 2,137 | 2026-08-19 |
-| 1.4.1.d | [Self-employment tax](/individuals/taxation/taxation/self-employment-tax/) | review | 2,186 | 2026-08-19 |
-| 1.4.1.e | [Excess Social Security withholding](/individuals/taxation/taxation/excess-social-security-withholding/) | review | 1,747 | 2026-08-19 |
-| 1.4.1.f | [Tax provisions for members of the clergy](/individuals/taxation/taxation/tax-provisions-for-members-of-the-clergy/) | review | 1,966 | 2026-08-19 |
-| 1.4.1.g | [Tax provisions for members of the military](/individuals/taxation/taxation/tax-provisions-for-members-of-the-military/) | review | 2,043 | 2026-08-19 |
-| 1.4.1.h | [Income in respect of decedent (e.g., allocations)](/individuals/taxation/taxation/income-in-respect-of-decedent/) | review | 2,089 | 2026-08-19 |
-| 1.4.1.i | [Net investment income tax](/individuals/taxation/taxation/net-investment-income-tax/) | review | 1,960 | 2026-08-19 |
-| 1.4.1.j | [Additional Medicare tax](/individuals/taxation/taxation/additional-medicare-tax/) | review | 1,629 | 2026-08-19 |
-| 1.4.1.k | [Uncollected Social Security and Medicare tax](/individuals/taxation/taxation/uncollected-social-security-and-medicare-tax/) | review | 1,852 | 2026-08-19 |
-| 1.4.1.l | [Other taxes (e.g., first time homebuyer credit repayment, IRC Section 965 transition tax)](/individuals/taxation/taxation/other-taxes/) | review | 1,808 | 2026-08-19 |
+| 1.4.1.a | [Alternative minimum tax and credit for prior year](/individuals/taxation/taxation/alternative-minimum-tax-and-credit-for-prior-year/) | **published** | 2,245 | 2026-08-19 |
+| 1.4.1.b | [Household employees](/individuals/taxation/taxation/household-employees/) | **published** | 2,029 | 2026-08-19 |
+| 1.4.1.c | [Underpayment penalties and interest](/individuals/taxation/taxation/underpayment-penalties-and-interest/) | **published** | 2,137 | 2026-08-19 |
+| 1.4.1.d | [Self-employment tax](/individuals/taxation/taxation/self-employment-tax/) | **published** | 2,186 | 2026-08-19 |
+| 1.4.1.e | [Excess Social Security withholding](/individuals/taxation/taxation/excess-social-security-withholding/) | **published** | 1,747 | 2026-08-19 |
+| 1.4.1.f | [Tax provisions for members of the clergy](/individuals/taxation/taxation/tax-provisions-for-members-of-the-clergy/) | **published** | 1,966 | 2026-08-19 |
+| 1.4.1.g | [Tax provisions for members of the military](/individuals/taxation/taxation/tax-provisions-for-members-of-the-military/) | **published** | 2,043 | 2026-08-19 |
+| 1.4.1.h | [Income in respect of decedent (e.g., allocations)](/individuals/taxation/taxation/income-in-respect-of-decedent/) | **published** | 2,089 | 2026-08-19 |
+| 1.4.1.i | [Net investment income tax](/individuals/taxation/taxation/net-investment-income-tax/) | **published** | 1,960 | 2026-08-19 |
+| 1.4.1.j | [Additional Medicare tax](/individuals/taxation/taxation/additional-medicare-tax/) | **published** | 1,629 | 2026-08-19 |
+| 1.4.1.k | [Uncollected Social Security and Medicare tax](/individuals/taxation/taxation/uncollected-social-security-and-medicare-tax/) | **published** | 1,852 | 2026-08-19 |
+| 1.4.1.l | [Other taxes (e.g., first time homebuyer credit repayment, IRC Section 965 transition tax)](/individuals/taxation/taxation/other-taxes/) | **published** | 1,808 | 2026-08-19 |
 
 ### 1.5 Advising the Individual Taxpayer
 
@@ -159,21 +159,21 @@ is indexed, and only the owner moves a page there (see `docs/VERIFICATION.md`).
 
 | Code | Title | Status | Words | Last reviewed |
 |---|---|---|---:|---|
-| 1.5.1.a | [Reporting obligations for individuals (1099, bartering, cash)](/individuals/advising-the-individual-taxpayer/advising-the-individual-taxpayer/reporting-obligations-for-individuals-1099-bartering-cash/) | review | 1,764 | 2026-08-19 |
-| 1.5.1.b | [Property sales (e.g., homes, stock, businesses, antiques, collectibles)](/individuals/advising-the-individual-taxpayer/advising-the-individual-taxpayer/property-sales/) | review | 1,776 | 2026-08-19 |
-| 1.5.1.c | [Education planning (e.g., lifetime learning credit, IRC Section 529 plans)](/individuals/advising-the-individual-taxpayer/advising-the-individual-taxpayer/education-planning/) | review | 1,762 | 2026-08-19 |
-| 1.5.1.d | [Estate planning (e.g., gift versus inheritance, trusts, family partnerships, charitable giving, LTC, life insurance)](/individuals/advising-the-individual-taxpayer/advising-the-individual-taxpayer/estate-planning/) | review | 1,893 | 2026-08-19 |
-| 1.5.1.e | [Retirement planning (e.g., annuities, IRAs, employer plans, early retirement rules, required minimum distribution, beneficiary ownership, charitable distributions from an IRA)](/individuals/advising-the-individual-taxpayer/advising-the-individual-taxpayer/retirement-planning/) | review | 1,848 | 2026-08-19 |
-| 1.5.1.f | [Marriage and divorce (e.g., divorce settlement, common-law, community property, alimony)](/individuals/advising-the-individual-taxpayer/advising-the-individual-taxpayer/marriage-and-divorce/) | review | 1,859 | 2026-08-19 |
-| 1.5.1.g | [Items that will affect future/past returns (e.g., carryovers, net operating loss, Schedule D, Form 8801, negative QBI carryover)](/individuals/advising-the-individual-taxpayer/advising-the-individual-taxpayer/items-that-will-affect-future-past-returns/) | review | 1,712 | 2026-08-19 |
-| 1.5.1.h | [Injured spouse](/individuals/advising-the-individual-taxpayer/advising-the-individual-taxpayer/injured-spouse/) | review | 1,744 | 2026-08-19 |
-| 1.5.1.i | [Innocent spouse](/individuals/advising-the-individual-taxpayer/advising-the-individual-taxpayer/innocent-spouse/) | review | 1,852 | 2026-08-19 |
-| 1.5.1.j | [Estimated tax and penalty avoidance (mid-year estimated tax planning)](/individuals/advising-the-individual-taxpayer/advising-the-individual-taxpayer/estimated-tax-and-penalty-avoidance-mid-year-estimated-tax/) | review | 2,416 | 2026-08-20 |
-| 1.5.1.k | [Adjustments, deductions, and credits for tax planning (e.g., timing of income and expenses)](/individuals/advising-the-individual-taxpayer/advising-the-individual-taxpayer/adjustments-deductions-and-credits-for-tax-planning/) | review | 2,383 | 2026-08-20 |
-| 1.5.1.l | [Character of transaction (e.g., use of capital gain rates versus ordinary income rates)](/individuals/advising-the-individual-taxpayer/advising-the-individual-taxpayer/character-of-transaction/) | review | 2,220 | 2026-08-20 |
-| 1.5.1.m | [Advantages and disadvantages of MFJ/MFS/HOH filing statuses in various scenarios. (joint and several liability)](/individuals/advising-the-individual-taxpayer/advising-the-individual-taxpayer/advantages-and-disadvantages-of-mfj-mfs-hoh-filing-statuses/) | review | 2,363 | 2026-08-20 |
-| 1.5.1.n | [Conditions for filing a claim for refund (amended returns)](/individuals/advising-the-individual-taxpayer/advising-the-individual-taxpayer/conditions-for-filing-a-claim-for-refund-amended-returns/) | review | 2,182 | 2026-08-20 |
-| 1.5.1.o | [Penalty of perjury](/individuals/advising-the-individual-taxpayer/advising-the-individual-taxpayer/penalty-of-perjury/) | review | 1,966 | 2026-08-20 |
+| 1.5.1.a | [Reporting obligations for individuals (1099, bartering, cash)](/individuals/advising-the-individual-taxpayer/advising-the-individual-taxpayer/reporting-obligations-for-individuals-1099-bartering-cash/) | **published** | 1,764 | 2026-08-19 |
+| 1.5.1.b | [Property sales (e.g., homes, stock, businesses, antiques, collectibles)](/individuals/advising-the-individual-taxpayer/advising-the-individual-taxpayer/property-sales/) | **published** | 1,776 | 2026-08-19 |
+| 1.5.1.c | [Education planning (e.g., lifetime learning credit, IRC Section 529 plans)](/individuals/advising-the-individual-taxpayer/advising-the-individual-taxpayer/education-planning/) | **published** | 1,762 | 2026-08-19 |
+| 1.5.1.d | [Estate planning (e.g., gift versus inheritance, trusts, family partnerships, charitable giving, LTC, life insurance)](/individuals/advising-the-individual-taxpayer/advising-the-individual-taxpayer/estate-planning/) | **published** | 1,893 | 2026-08-19 |
+| 1.5.1.e | [Retirement planning (e.g., annuities, IRAs, employer plans, early retirement rules, required minimum distribution, beneficiary ownership, charitable distributions from an IRA)](/individuals/advising-the-individual-taxpayer/advising-the-individual-taxpayer/retirement-planning/) | **published** | 1,848 | 2026-08-19 |
+| 1.5.1.f | [Marriage and divorce (e.g., divorce settlement, common-law, community property, alimony)](/individuals/advising-the-individual-taxpayer/advising-the-individual-taxpayer/marriage-and-divorce/) | **published** | 1,859 | 2026-08-19 |
+| 1.5.1.g | [Items that will affect future/past returns (e.g., carryovers, net operating loss, Schedule D, Form 8801, negative QBI carryover)](/individuals/advising-the-individual-taxpayer/advising-the-individual-taxpayer/items-that-will-affect-future-past-returns/) | **published** | 1,712 | 2026-08-19 |
+| 1.5.1.h | [Injured spouse](/individuals/advising-the-individual-taxpayer/advising-the-individual-taxpayer/injured-spouse/) | **published** | 1,744 | 2026-08-19 |
+| 1.5.1.i | [Innocent spouse](/individuals/advising-the-individual-taxpayer/advising-the-individual-taxpayer/innocent-spouse/) | **published** | 1,852 | 2026-08-19 |
+| 1.5.1.j | [Estimated tax and penalty avoidance (mid-year estimated tax planning)](/individuals/advising-the-individual-taxpayer/advising-the-individual-taxpayer/estimated-tax-and-penalty-avoidance-mid-year-estimated-tax/) | **published** | 2,416 | 2026-08-20 |
+| 1.5.1.k | [Adjustments, deductions, and credits for tax planning (e.g., timing of income and expenses)](/individuals/advising-the-individual-taxpayer/advising-the-individual-taxpayer/adjustments-deductions-and-credits-for-tax-planning/) | **published** | 2,383 | 2026-08-20 |
+| 1.5.1.l | [Character of transaction (e.g., use of capital gain rates versus ordinary income rates)](/individuals/advising-the-individual-taxpayer/advising-the-individual-taxpayer/character-of-transaction/) | **published** | 2,220 | 2026-08-20 |
+| 1.5.1.m | [Advantages and disadvantages of MFJ/MFS/HOH filing statuses in various scenarios. (joint and several liability)](/individuals/advising-the-individual-taxpayer/advising-the-individual-taxpayer/advantages-and-disadvantages-of-mfj-mfs-hoh-filing-statuses/) | **published** | 2,363 | 2026-08-20 |
+| 1.5.1.n | [Conditions for filing a claim for refund (amended returns)](/individuals/advising-the-individual-taxpayer/advising-the-individual-taxpayer/conditions-for-filing-a-claim-for-refund-amended-returns/) | **published** | 2,182 | 2026-08-20 |
+| 1.5.1.o | [Penalty of perjury](/individuals/advising-the-individual-taxpayer/advising-the-individual-taxpayer/penalty-of-perjury/) | **published** | 1,966 | 2026-08-20 |
 
 ### 1.6 Specialized Returns for Individuals
 
@@ -181,32 +181,32 @@ is indexed, and only the owner moves a page there (see `docs/VERIFICATION.md`).
 
 | Code | Title | Status | Words | Last reviewed |
 |---|---|---|---:|---|
-| 1.6.1.a | [Gross estate, taxable estate (calculations and payments), unified credit, life insurance, and filing requirements](/individuals/specialized-returns-for-individuals/estate-tax/gross-estate-taxable-estate-calculations-and-payments/) | review | 2,121 | 2026-08-20 |
-| 1.6.1.b | [Jointly-held property](/individuals/specialized-returns-for-individuals/estate-tax/jointly-held-property/) | review | 2,025 | 2026-08-20 |
-| 1.6.1.c | [Marital deduction and other marital issues (e.g., portability election)](/individuals/specialized-returns-for-individuals/estate-tax/marital-deduction-and-other-marital-issues/) | review | 2,083 | 2026-08-20 |
-| 1.6.1.d | [Life insurance, IRAs and retirement plans](/individuals/specialized-returns-for-individuals/estate-tax/life-insurance-iras-and-retirement-plans/) | review | 2,136 | 2026-08-20 |
-| 1.6.1.e | [Estate filing requirements and due dates (Form 706, Form 1041)](/individuals/specialized-returns-for-individuals/estate-tax/estate-filing-requirements-and-due-dates-form-706-form-1041/) | review | 2,009 | 2026-08-20 |
+| 1.6.1.a | [Gross estate, taxable estate (calculations and payments), unified credit, life insurance, and filing requirements](/individuals/specialized-returns-for-individuals/estate-tax/gross-estate-taxable-estate-calculations-and-payments/) | **published** | 2,121 | 2026-08-20 |
+| 1.6.1.b | [Jointly-held property](/individuals/specialized-returns-for-individuals/estate-tax/jointly-held-property/) | **published** | 2,025 | 2026-08-20 |
+| 1.6.1.c | [Marital deduction and other marital issues (e.g., portability election)](/individuals/specialized-returns-for-individuals/estate-tax/marital-deduction-and-other-marital-issues/) | **published** | 2,083 | 2026-08-20 |
+| 1.6.1.d | [Life insurance, IRAs and retirement plans](/individuals/specialized-returns-for-individuals/estate-tax/life-insurance-iras-and-retirement-plans/) | **published** | 2,136 | 2026-08-20 |
+| 1.6.1.e | [Estate filing requirements and due dates (Form 706, Form 1041)](/individuals/specialized-returns-for-individuals/estate-tax/estate-filing-requirements-and-due-dates-form-706-form-1041/) | **published** | 2,009 | 2026-08-20 |
 
 **1.6.2 Gift Tax**
 
 | Code | Title | Status | Words | Last reviewed |
 |---|---|---|---:|---|
-| 1.6.2.a | [Gift-splitting](/individuals/specialized-returns-for-individuals/gift-tax/gift-splitting/) | review | 1,850 | 2026-08-20 |
-| 1.6.2.b | [Annual exclusion](/individuals/specialized-returns-for-individuals/gift-tax/annual-exclusion/) | review | 1,947 | 2026-08-20 |
-| 1.6.2.c | [Unified credit](/individuals/specialized-returns-for-individuals/gift-tax/unified-credit/) | review | 1,978 | 2026-08-20 |
-| 1.6.2.d | [Effect on estate tax (e.g., Generation skipping transfer tax)](/individuals/specialized-returns-for-individuals/gift-tax/effect-on-estate-tax/) | review | 1,903 | 2026-08-20 |
-| 1.6.2.e | [Filing requirements (Form 709)](/individuals/specialized-returns-for-individuals/gift-tax/filing-requirements-form-709/) | review | 1,839 | 2026-08-21 |
+| 1.6.2.a | [Gift-splitting](/individuals/specialized-returns-for-individuals/gift-tax/gift-splitting/) | **published** | 1,850 | 2026-08-20 |
+| 1.6.2.b | [Annual exclusion](/individuals/specialized-returns-for-individuals/gift-tax/annual-exclusion/) | **published** | 1,947 | 2026-08-20 |
+| 1.6.2.c | [Unified credit](/individuals/specialized-returns-for-individuals/gift-tax/unified-credit/) | **published** | 1,978 | 2026-08-20 |
+| 1.6.2.d | [Effect on estate tax (e.g., Generation skipping transfer tax)](/individuals/specialized-returns-for-individuals/gift-tax/effect-on-estate-tax/) | **published** | 1,903 | 2026-08-20 |
+| 1.6.2.e | [Filing requirements (Form 709)](/individuals/specialized-returns-for-individuals/gift-tax/filing-requirements-form-709/) | **published** | 1,839 | 2026-08-21 |
 
 **1.6.3 International Information Reporting**
 
 | Code | Title | Status | Words | Last reviewed |
 |---|---|---|---:|---|
-| 1.6.3.a | [Filing and reporting requirements and due dates (e.g., FBAR, Form 8938, Form 8865, Form 5471, Form 3520)](/individuals/specialized-returns-for-individuals/international-information-reporting/filing-and-reporting-requirements-and-due-dates/) | review | 1,928 | 2026-08-21 |
-| 1.6.3.b | [Covered accounts (e.g., FBAR, Form 8938)](/individuals/specialized-returns-for-individuals/international-information-reporting/covered-accounts/) | review | 1,889 | 2026-08-21 |
-| 1.6.3.c | [Potential penalties (e.g., failure to file, underreporting, substantially incomplete, statute of limitations, reduction of tax attributes)](/individuals/specialized-returns-for-individuals/international-information-reporting/potential-penalties/) | review | 1,861 | 2026-08-21 |
-| 1.6.3.d | [Distinctions between FBAR and Form 8938 requirements](/individuals/specialized-returns-for-individuals/international-information-reporting/distinctions-between-fbar-and-form-8938-requirements/) | review | 1,847 | 2026-08-21 |
-| 1.6.3.e | [Ownership of a foreign corporation (GILTI, IRC Section 965 transition tax)](/individuals/specialized-returns-for-individuals/international-information-reporting/ownership-of-a-foreign-corporation-gilti-irc-section-965/) | review | 1,889 | 2026-08-21 |
-| 1.6.3.f | [International voluntary disclosure options](/individuals/specialized-returns-for-individuals/international-information-reporting/international-voluntary-disclosure-options/) | review | 1,876 | 2026-08-21 |
+| 1.6.3.a | [Filing and reporting requirements and due dates (e.g., FBAR, Form 8938, Form 8865, Form 5471, Form 3520)](/individuals/specialized-returns-for-individuals/international-information-reporting/filing-and-reporting-requirements-and-due-dates/) | **published** | 1,928 | 2026-08-21 |
+| 1.6.3.b | [Covered accounts (e.g., FBAR, Form 8938)](/individuals/specialized-returns-for-individuals/international-information-reporting/covered-accounts/) | **published** | 1,889 | 2026-08-21 |
+| 1.6.3.c | [Potential penalties (e.g., failure to file, underreporting, substantially incomplete, statute of limitations, reduction of tax attributes)](/individuals/specialized-returns-for-individuals/international-information-reporting/potential-penalties/) | **published** | 1,861 | 2026-08-21 |
+| 1.6.3.d | [Distinctions between FBAR and Form 8938 requirements](/individuals/specialized-returns-for-individuals/international-information-reporting/distinctions-between-fbar-and-form-8938-requirements/) | **published** | 1,847 | 2026-08-21 |
+| 1.6.3.e | [Ownership of a foreign corporation (GILTI, IRC Section 965 transition tax)](/individuals/specialized-returns-for-individuals/international-information-reporting/ownership-of-a-foreign-corporation-gilti-irc-section-965/) | **published** | 1,889 | 2026-08-21 |
+| 1.6.3.f | [International voluntary disclosure options](/individuals/specialized-returns-for-individuals/international-information-reporting/international-voluntary-disclosure-options/) | **published** | 1,876 | 2026-08-21 |
 
 ## Part 2 — Businesses
 
@@ -216,71 +216,71 @@ is indexed, and only the owner moves a page there (see `docs/VERIFICATION.md`).
 
 | Code | Title | Status | Words | Last reviewed |
 |---|---|---|---:|---|
-| 2.1.1.a | [Sole proprietorships](/businesses/business-entities/business-entities-and-considerations/sole-proprietorships/) | review | 1,658 | 2026-08-21 |
-| 2.1.1.b | [Partnerships and qualified joint ventures (QJV)](/businesses/business-entities/business-entities-and-considerations/partnerships-and-qualified-joint-ventures-qjv/) | review | 1,700 | 2026-08-21 |
-| 2.1.1.c | [Corporations](/businesses/business-entities/business-entities-and-considerations/corporations/) | review | 1,865 | 2026-08-21 |
-| 2.1.1.d | [S corporations](/businesses/business-entities/business-entities-and-considerations/s-corporations/) | review | 3,024 | 2026-08-21 |
-| 2.1.1.e | [LLCs](/businesses/business-entities/business-entities-and-considerations/llcs/) | review | 2,490 | 2026-08-21 |
-| 2.1.1.f | [Tax-exempt entities and associations](/businesses/business-entities/business-entities-and-considerations/tax-exempt-entities-and-associations/) | review | 2,496 | 2026-08-21 |
-| 2.1.1.g | [Entity type default classifications and elections](/businesses/business-entities/business-entities-and-considerations/entity-type-default-classifications-and-elections/) | review | 2,384 | 2026-08-21 |
-| 2.1.1.h | [Employer identification number](/businesses/business-entities/business-entities-and-considerations/employer-identification-number/) | review | 2,495 | 2026-08-21 |
-| 2.1.1.i | [Accounting periods (tax year)](/businesses/business-entities/business-entities-and-considerations/accounting-periods-tax-year/) | review | 2,491 | 2026-08-21 |
-| 2.1.1.j | [Accounting methods](/businesses/business-entities/business-entities-and-considerations/accounting-methods/) | review | 2,497 | 2026-08-21 |
-| 2.1.1.k | [Reporting requirements (e.g. Forms W2, W-4, Form 1099)](/businesses/business-entities/business-entities-and-considerations/reporting-requirements/) | review | 2,466 | 2026-08-21 |
-| 2.1.1.l | [Hobby versus business determination and loss limitations](/businesses/business-entities/business-entities-and-considerations/hobby-versus-business-determination-and-loss-limitations/) | review | 2,487 | 2026-08-21 |
+| 2.1.1.a | [Sole proprietorships](/businesses/business-entities/business-entities-and-considerations/sole-proprietorships/) | **published** | 1,658 | 2026-08-21 |
+| 2.1.1.b | [Partnerships and qualified joint ventures (QJV)](/businesses/business-entities/business-entities-and-considerations/partnerships-and-qualified-joint-ventures-qjv/) | **published** | 1,700 | 2026-08-21 |
+| 2.1.1.c | [Corporations](/businesses/business-entities/business-entities-and-considerations/corporations/) | **published** | 1,865 | 2026-08-21 |
+| 2.1.1.d | [S corporations](/businesses/business-entities/business-entities-and-considerations/s-corporations/) | **published** | 3,024 | 2026-08-21 |
+| 2.1.1.e | [LLCs](/businesses/business-entities/business-entities-and-considerations/llcs/) | **published** | 2,490 | 2026-08-21 |
+| 2.1.1.f | [Tax-exempt entities and associations](/businesses/business-entities/business-entities-and-considerations/tax-exempt-entities-and-associations/) | **published** | 2,496 | 2026-08-21 |
+| 2.1.1.g | [Entity type default classifications and elections](/businesses/business-entities/business-entities-and-considerations/entity-type-default-classifications-and-elections/) | **published** | 2,384 | 2026-08-21 |
+| 2.1.1.h | [Employer identification number](/businesses/business-entities/business-entities-and-considerations/employer-identification-number/) | **published** | 2,495 | 2026-08-21 |
+| 2.1.1.i | [Accounting periods (tax year)](/businesses/business-entities/business-entities-and-considerations/accounting-periods-tax-year/) | **published** | 2,491 | 2026-08-21 |
+| 2.1.1.j | [Accounting methods](/businesses/business-entities/business-entities-and-considerations/accounting-methods/) | **published** | 2,497 | 2026-08-21 |
+| 2.1.1.k | [Reporting requirements (e.g. Forms W2, W-4, Form 1099)](/businesses/business-entities/business-entities-and-considerations/reporting-requirements/) | **published** | 2,466 | 2026-08-21 |
+| 2.1.1.l | [Hobby versus business determination and loss limitations](/businesses/business-entities/business-entities-and-considerations/hobby-versus-business-determination-and-loss-limitations/) | **published** | 2,487 | 2026-08-21 |
 
 **2.1.2 Partnerships**
 
 | Code | Title | Status | Words | Last reviewed |
 |---|---|---|---:|---|
-| 2.1.2.a | [Partnership income, expenses, distributions, and flow-through (e.g.,self- employment income)](/businesses/business-entities/partnerships/partnership-income-expenses-distributions-and-flow-through/) | review | 2,371 | 2026-08-21 |
-| 2.1.2.b | [Family partnerships](/businesses/business-entities/partnerships/family-partnerships/) | review | 2,493 | 2026-08-21 |
-| 2.1.2.c | [Partner's dealings with partnership (e.g., exchange of property, guaranteed payments)](/businesses/business-entities/partnerships/partner-s-dealings-with-partnership/) | review | 2,362 | 2026-08-21 |
-| 2.1.2.d | [Contribution of property and/or services to partnership (e.g., partnership's basis, property subject to indebtedness)](/businesses/business-entities/partnerships/contribution-of-property-and-or-services-to-partnership/) | review | 2,488 | 2026-08-21 |
-| 2.1.2.e | [Basis of partner's interest](/businesses/business-entities/partnerships/basis-of-partner-s-interest/) | review | 2,194 | 2026-08-21 |
-| 2.1.2.f | [Disposition of partner's interest](/businesses/business-entities/partnerships/disposition-of-partner-s-interest/) | review | 2,490 | 2026-08-21 |
-| 2.1.2.g | [Partnership formation (e.g., partnership agreement, general vs. limited partners, capital contributions)](/businesses/business-entities/partnerships/partnership-formation/) | review | 2,404 | 2026-08-21 |
-| 2.1.2.h | [Dissolution of partnership (e.g., sale, death of partner)](/businesses/business-entities/partnerships/dissolution-of-partnership/) | review | 2,490 | 2026-08-21 |
-| 2.1.2.i | [Filing requirements, due dates, penalties, and audit notice requirements](/businesses/business-entities/partnerships/filing-requirements-due-dates-penalties-and-audit-notice/) | review | 2,392 | 2026-08-21 |
-| 2.1.2.j | [Partnership cancellation of debt](/businesses/business-entities/partnerships/partnership-cancellation-of-debt/) | review | 2,307 | 2026-08-21 |
-| 2.1.2.k | [Partnership level audit and opt-out](/businesses/business-entities/partnerships/partnership-level-audit-and-opt-out/) | review | 2,339 | 2026-08-21 |
+| 2.1.2.a | [Partnership income, expenses, distributions, and flow-through (e.g.,self- employment income)](/businesses/business-entities/partnerships/partnership-income-expenses-distributions-and-flow-through/) | **published** | 2,371 | 2026-08-21 |
+| 2.1.2.b | [Family partnerships](/businesses/business-entities/partnerships/family-partnerships/) | **published** | 2,493 | 2026-08-21 |
+| 2.1.2.c | [Partner's dealings with partnership (e.g., exchange of property, guaranteed payments)](/businesses/business-entities/partnerships/partner-s-dealings-with-partnership/) | **published** | 2,362 | 2026-08-21 |
+| 2.1.2.d | [Contribution of property and/or services to partnership (e.g., partnership's basis, property subject to indebtedness)](/businesses/business-entities/partnerships/contribution-of-property-and-or-services-to-partnership/) | **published** | 2,488 | 2026-08-21 |
+| 2.1.2.e | [Basis of partner's interest](/businesses/business-entities/partnerships/basis-of-partner-s-interest/) | **published** | 2,194 | 2026-08-21 |
+| 2.1.2.f | [Disposition of partner's interest](/businesses/business-entities/partnerships/disposition-of-partner-s-interest/) | **published** | 2,490 | 2026-08-21 |
+| 2.1.2.g | [Partnership formation (e.g., partnership agreement, general vs. limited partners, capital contributions)](/businesses/business-entities/partnerships/partnership-formation/) | **published** | 2,404 | 2026-08-21 |
+| 2.1.2.h | [Dissolution of partnership (e.g., sale, death of partner)](/businesses/business-entities/partnerships/dissolution-of-partnership/) | **published** | 2,490 | 2026-08-21 |
+| 2.1.2.i | [Filing requirements, due dates, penalties, and audit notice requirements](/businesses/business-entities/partnerships/filing-requirements-due-dates-penalties-and-audit-notice/) | **published** | 2,392 | 2026-08-21 |
+| 2.1.2.j | [Partnership cancellation of debt](/businesses/business-entities/partnerships/partnership-cancellation-of-debt/) | **published** | 2,307 | 2026-08-21 |
+| 2.1.2.k | [Partnership level audit and opt-out](/businesses/business-entities/partnerships/partnership-level-audit-and-opt-out/) | **published** | 2,339 | 2026-08-21 |
 
 **2.1.3 Corporations in general**
 
 | Code | Title | Status | Words | Last reviewed |
 |---|---|---|---:|---|
-| 2.1.3.a | [Filing requirements, due dates, and penalties](/businesses/business-entities/corporations-in-general/filing-requirements-due-dates-and-penalties/) | review | 2,266 | 2026-08-21 |
-| 2.1.3.b | [Earnings and profits](/businesses/business-entities/corporations-in-general/earnings-and-profits/) | review | 2,207 | 2026-08-21 |
-| 2.1.3.c | [Shareholder dividends, distributions, and recognition requirements](/businesses/business-entities/corporations-in-general/shareholder-dividends-distributions-and-recognition/) | review | 2,240 | 2026-08-21 |
-| 2.1.3.d | [Special deductions and credits (e.g., dividends received deduction, charitable deduction)](/businesses/business-entities/corporations-in-general/special-deductions-and-credits/) | review | 2,351 | 2026-08-21 |
-| 2.1.3.e | [Liquidations and stock redemptions](/businesses/business-entities/corporations-in-general/liquidations-and-stock-redemptions/) | review | 2,342 | 2026-08-21 |
-| 2.1.3.f | [Accumulated earnings tax](/businesses/business-entities/corporations-in-general/accumulated-earnings-tax/) | review | 2,237 | 2026-08-21 |
-| 2.1.3.g | [Estimated tax payments](/businesses/business-entities/corporations-in-general/estimated-tax-payments/) | review | 2,197 | 2026-08-21 |
-| 2.1.3.h | [Corporate minimum tax credit](/businesses/business-entities/corporations-in-general/corporate-minimum-tax-credit/) | review | 2,217 | 2026-08-21 |
+| 2.1.3.a | [Filing requirements, due dates, and penalties](/businesses/business-entities/corporations-in-general/filing-requirements-due-dates-and-penalties/) | **published** | 2,266 | 2026-08-21 |
+| 2.1.3.b | [Earnings and profits](/businesses/business-entities/corporations-in-general/earnings-and-profits/) | **published** | 2,207 | 2026-08-21 |
+| 2.1.3.c | [Shareholder dividends, distributions, and recognition requirements](/businesses/business-entities/corporations-in-general/shareholder-dividends-distributions-and-recognition/) | **published** | 2,240 | 2026-08-21 |
+| 2.1.3.d | [Special deductions and credits (e.g., dividends received deduction, charitable deduction)](/businesses/business-entities/corporations-in-general/special-deductions-and-credits/) | **published** | 2,351 | 2026-08-21 |
+| 2.1.3.e | [Liquidations and stock redemptions](/businesses/business-entities/corporations-in-general/liquidations-and-stock-redemptions/) | **published** | 2,342 | 2026-08-21 |
+| 2.1.3.f | [Accumulated earnings tax](/businesses/business-entities/corporations-in-general/accumulated-earnings-tax/) | **published** | 2,237 | 2026-08-21 |
+| 2.1.3.g | [Estimated tax payments](/businesses/business-entities/corporations-in-general/estimated-tax-payments/) | **published** | 2,197 | 2026-08-21 |
+| 2.1.3.h | [Corporate minimum tax credit](/businesses/business-entities/corporations-in-general/corporate-minimum-tax-credit/) | **published** | 2,217 | 2026-08-21 |
 
 **2.1.4 Forming a corporation**
 
 | Code | Title | Status | Words | Last reviewed |
 |---|---|---|---:|---|
-| 2.1.4.a | [Services rendered to a corporation in return for stock](/businesses/business-entities/forming-a-corporation/services-rendered-to-a-corporation-in-return-for-stock/) | review | 2,385 | 2026-08-21 |
-| 2.1.4.b | [IRC Section 351 exchange](/businesses/business-entities/forming-a-corporation/irc-section-351-exchange/) | review | 2,204 | 2026-08-21 |
-| 2.1.4.c | [Transfer and/or receipt of money or property in addition to corporate stock](/businesses/business-entities/forming-a-corporation/transfer-and-or-receipt-of-money-or-property-in-addition/) | review | 2,111 | 2026-08-21 |
-| 2.1.4.d | [Transfer of property subject to indebtedness](/businesses/business-entities/forming-a-corporation/transfer-of-property-subject-to-indebtedness/) | review | 2,268 | 2026-08-21 |
-| 2.1.4.e | [Controlled groups](/businesses/business-entities/forming-a-corporation/controlled-groups/) | review | 2,135 | 2026-08-21 |
-| 2.1.4.f | [Closely held corporations](/businesses/business-entities/forming-a-corporation/closely-held-corporations/) | review | 2,251 | 2026-08-21 |
+| 2.1.4.a | [Services rendered to a corporation in return for stock](/businesses/business-entities/forming-a-corporation/services-rendered-to-a-corporation-in-return-for-stock/) | **published** | 2,385 | 2026-08-21 |
+| 2.1.4.b | [IRC Section 351 exchange](/businesses/business-entities/forming-a-corporation/irc-section-351-exchange/) | **published** | 2,204 | 2026-08-21 |
+| 2.1.4.c | [Transfer and/or receipt of money or property in addition to corporate stock](/businesses/business-entities/forming-a-corporation/transfer-and-or-receipt-of-money-or-property-in-addition/) | **published** | 2,111 | 2026-08-21 |
+| 2.1.4.d | [Transfer of property subject to indebtedness](/businesses/business-entities/forming-a-corporation/transfer-of-property-subject-to-indebtedness/) | **published** | 2,268 | 2026-08-21 |
+| 2.1.4.e | [Controlled groups](/businesses/business-entities/forming-a-corporation/controlled-groups/) | **published** | 2,135 | 2026-08-21 |
+| 2.1.4.f | [Closely held corporations](/businesses/business-entities/forming-a-corporation/closely-held-corporations/) | **published** | 2,251 | 2026-08-21 |
 
 **2.1.5 S corporations**
 
 | Code | Title | Status | Words | Last reviewed |
 |---|---|---|---:|---|
-| 2.1.5.a | [Requirements to qualify (e.g., qualifying shareholders)](/businesses/business-entities/s-corporations/requirements-to-qualify/) | review | 2,119 | 2026-08-21 |
-| 2.1.5.b | [Election procedure](/businesses/business-entities/s-corporations/election-procedure/) | review | 2,199 | 2026-08-21 |
-| 2.1.5.c | [Income, expenses and separately stated items](/businesses/business-entities/s-corporations/income-expenses-and-separately-stated-items/) | review | 2,491 | 2026-08-21 |
-| 2.1.5.d | [Treatment of distributions](/businesses/business-entities/s-corporations/treatment-of-distributions/) | review | 2,446 | 2026-08-21 |
-| 2.1.5.e | [Shareholder’s basis (e.g., loan basis, distributions and losses in excess of basis, services for stock)](/businesses/business-entities/s-corporations/shareholder-s-basis/) | review | 2,375 | 2026-08-21 |
-| 2.1.5.f | [Revocation, termination and reinstatement](/businesses/business-entities/s-corporations/revocation-termination-and-reinstatement/) | review | 2,458 | 2026-08-21 |
-| 2.1.5.g | [Debt discharge](/businesses/business-entities/s-corporations/debt-discharge/) | review | 2,382 | 2026-08-21 |
-| 2.1.5.h | [Non-cash distributions](/businesses/business-entities/s-corporations/non-cash-distributions/) | review | 2,278 | 2026-08-21 |
+| 2.1.5.a | [Requirements to qualify (e.g., qualifying shareholders)](/businesses/business-entities/s-corporations/requirements-to-qualify/) | **published** | 2,119 | 2026-08-21 |
+| 2.1.5.b | [Election procedure](/businesses/business-entities/s-corporations/election-procedure/) | **published** | 2,199 | 2026-08-21 |
+| 2.1.5.c | [Income, expenses and separately stated items](/businesses/business-entities/s-corporations/income-expenses-and-separately-stated-items/) | **published** | 2,491 | 2026-08-21 |
+| 2.1.5.d | [Treatment of distributions](/businesses/business-entities/s-corporations/treatment-of-distributions/) | **published** | 2,446 | 2026-08-21 |
+| 2.1.5.e | [Shareholder’s basis (e.g., loan basis, distributions and losses in excess of basis, services for stock)](/businesses/business-entities/s-corporations/shareholder-s-basis/) | **published** | 2,375 | 2026-08-21 |
+| 2.1.5.f | [Revocation, termination and reinstatement](/businesses/business-entities/s-corporations/revocation-termination-and-reinstatement/) | **published** | 2,458 | 2026-08-21 |
+| 2.1.5.g | [Debt discharge](/businesses/business-entities/s-corporations/debt-discharge/) | **published** | 2,382 | 2026-08-21 |
+| 2.1.5.h | [Non-cash distributions](/businesses/business-entities/s-corporations/non-cash-distributions/) | **published** | 2,278 | 2026-08-21 |
 
 ### 2.2 Business Tax Preparation
 
@@ -288,72 +288,72 @@ is indexed, and only the owner moves a page there (see `docs/VERIFICATION.md`).
 
 | Code | Title | Status | Words | Last reviewed |
 |---|---|---|---:|---|
-| 2.2.1.a | [Gross receipts and other income](/businesses/business-tax-preparation/business-income/gross-receipts-and-other-income/) | review | 2,403 | 2026-08-21 |
-| 2.2.1.b | [Cost of goods sold (e.g., inventory practices, expenditures included, uniform capitalization rules)](/businesses/business-tax-preparation/business-income/cost-of-goods-sold/) | review | 2,412 | 2026-08-21 |
-| 2.2.1.c | [Net income, net operating losses, and loss limitations including passive activity and at-risk limitations](/businesses/business-tax-preparation/business-income/net-income-net-operating-losses-and-loss-limitations/) | review | 2,478 | 2026-08-21 |
-| 2.2.1.d | [Cancellation of business debt](/businesses/business-tax-preparation/business-income/cancellation-of-business-debt/) | review | 2,333 | 2026-08-21 |
+| 2.2.1.a | [Gross receipts and other income](/businesses/business-tax-preparation/business-income/gross-receipts-and-other-income/) | **published** | 2,403 | 2026-08-21 |
+| 2.2.1.b | [Cost of goods sold (e.g., inventory practices, expenditures included, uniform capitalization rules)](/businesses/business-tax-preparation/business-income/cost-of-goods-sold/) | **published** | 2,412 | 2026-08-21 |
+| 2.2.1.c | [Net income, net operating losses, and loss limitations including passive activity and at-risk limitations](/businesses/business-tax-preparation/business-income/net-income-net-operating-losses-and-loss-limitations/) | **published** | 2,478 | 2026-08-21 |
+| 2.2.1.d | [Cancellation of business debt](/businesses/business-tax-preparation/business-income/cancellation-of-business-debt/) | **published** | 2,333 | 2026-08-21 |
 
 **2.2.2 Business expenses, deductions and credits**
 
 | Code | Title | Status | Words | Last reviewed |
 |---|---|---|---:|---|
-| 2.2.2.a | [Officers and employees’ compensation (e.g., deductibility, fringe benefits, rules of family employment, statutory employee, necessary and reasonable)](/businesses/business-tax-preparation/business-expenses-deductions-and-credits/officers-and-employees-compensation/) | review | 2,363 | 2026-08-21 |
-| 2.2.2.b | [Business rental deduction, including self-rentals](/businesses/business-tax-preparation/business-expenses-deductions-and-credits/business-rental-deduction-including-self-rentals/) | review | 2,240 | 2026-08-21 |
-| 2.2.2.c | [Depreciation, amortization (start-up and organizational cost), IRC Section 179, depletion, bonus depreciation, and correcting errors](/businesses/business-tax-preparation/business-expenses-deductions-and-credits/depreciation-amortization-start-up-and-organizational-cost/) | review | 2,318 | 2026-08-21 |
-| 2.2.2.d | [Business bad debts](/businesses/business-tax-preparation/business-expenses-deductions-and-credits/business-bad-debts/) | review | 2,227 | 2026-08-21 |
-| 2.2.2.e | [Business travel, meals, and gift expenses](/businesses/business-tax-preparation/business-expenses-deductions-and-credits/business-travel-meals-and-gift-expenses/) | review | 2,326 | 2026-08-21 |
-| 2.2.2.f | [Vehicle use and expenses](/businesses/business-tax-preparation/business-expenses-deductions-and-credits/vehicle-use-and-expenses/) | review | 2,609 | 2026-08-21 |
-| 2.2.2.g | [Interest expense](/businesses/business-tax-preparation/business-expenses-deductions-and-credits/interest-expense/) | review | 2,052 | 2026-08-21 |
-| 2.2.2.h | [Insurance expense](/businesses/business-tax-preparation/business-expenses-deductions-and-credits/insurance-expense/) | review | 2,211 | 2026-08-21 |
-| 2.2.2.i | [Taxes (e.g., deductibility of taxes, assessments, penalties; proper treatment of sales taxes paid, excise)](/businesses/business-tax-preparation/business-expenses-deductions-and-credits/taxes/) | review | 2,314 | 2026-08-21 |
-| 2.2.2.j | [Employment taxes](/businesses/business-tax-preparation/business-expenses-deductions-and-credits/employment-taxes/) | review | 2,257 | 2026-08-21 |
-| 2.2.2.k | [Casualties, thefts, and condemnations](/businesses/business-tax-preparation/business-expenses-deductions-and-credits/casualties-thefts-and-condemnations/) | review | 2,371 | 2026-08-21 |
-| 2.2.2.l | [Qualified business income (QBI) (SSTB, calculations, phase out, UBIA)](/businesses/business-tax-preparation/business-expenses-deductions-and-credits/qualified-business-income-qbi-sstb-calculations-phase-out/) | review | 2,263 | 2026-08-21 |
-| 2.2.2.m | [Eligibility and deductibility of general business credits (e.g., disabled access credit, R&D credit, small business healthcare tax credit, foreign tax credit)](/businesses/business-tax-preparation/business-expenses-deductions-and-credits/eligibility-and-deductibility-of-general-business-credits/) | review | 2,208 | 2026-08-21 |
-| 2.2.2.n | [Net operating loss deduction](/businesses/business-tax-preparation/business-expenses-deductions-and-credits/net-operating-loss-deduction/) | review | 2,323 | 2026-08-21 |
-| 2.2.2.o | [Home office](/businesses/business-tax-preparation/business-expenses-deductions-and-credits/home-office/) | review | 2,421 | 2026-08-21 |
+| 2.2.2.a | [Officers and employees’ compensation (e.g., deductibility, fringe benefits, rules of family employment, statutory employee, necessary and reasonable)](/businesses/business-tax-preparation/business-expenses-deductions-and-credits/officers-and-employees-compensation/) | **published** | 2,363 | 2026-08-21 |
+| 2.2.2.b | [Business rental deduction, including self-rentals](/businesses/business-tax-preparation/business-expenses-deductions-and-credits/business-rental-deduction-including-self-rentals/) | **published** | 2,240 | 2026-08-21 |
+| 2.2.2.c | [Depreciation, amortization (start-up and organizational cost), IRC Section 179, depletion, bonus depreciation, and correcting errors](/businesses/business-tax-preparation/business-expenses-deductions-and-credits/depreciation-amortization-start-up-and-organizational-cost/) | **published** | 2,318 | 2026-08-21 |
+| 2.2.2.d | [Business bad debts](/businesses/business-tax-preparation/business-expenses-deductions-and-credits/business-bad-debts/) | **published** | 2,227 | 2026-08-21 |
+| 2.2.2.e | [Business travel, meals, and gift expenses](/businesses/business-tax-preparation/business-expenses-deductions-and-credits/business-travel-meals-and-gift-expenses/) | **published** | 2,326 | 2026-08-21 |
+| 2.2.2.f | [Vehicle use and expenses](/businesses/business-tax-preparation/business-expenses-deductions-and-credits/vehicle-use-and-expenses/) | **published** | 2,609 | 2026-08-21 |
+| 2.2.2.g | [Interest expense](/businesses/business-tax-preparation/business-expenses-deductions-and-credits/interest-expense/) | **published** | 2,052 | 2026-08-21 |
+| 2.2.2.h | [Insurance expense](/businesses/business-tax-preparation/business-expenses-deductions-and-credits/insurance-expense/) | **published** | 2,211 | 2026-08-21 |
+| 2.2.2.i | [Taxes (e.g., deductibility of taxes, assessments, penalties; proper treatment of sales taxes paid, excise)](/businesses/business-tax-preparation/business-expenses-deductions-and-credits/taxes/) | **published** | 2,314 | 2026-08-21 |
+| 2.2.2.j | [Employment taxes](/businesses/business-tax-preparation/business-expenses-deductions-and-credits/employment-taxes/) | **published** | 2,257 | 2026-08-21 |
+| 2.2.2.k | [Casualties, thefts, and condemnations](/businesses/business-tax-preparation/business-expenses-deductions-and-credits/casualties-thefts-and-condemnations/) | **published** | 2,371 | 2026-08-21 |
+| 2.2.2.l | [Qualified business income (QBI) (SSTB, calculations, phase out, UBIA)](/businesses/business-tax-preparation/business-expenses-deductions-and-credits/qualified-business-income-qbi-sstb-calculations-phase-out/) | **published** | 2,263 | 2026-08-21 |
+| 2.2.2.m | [Eligibility and deductibility of general business credits (e.g., disabled access credit, R&D credit, small business healthcare tax credit, foreign tax credit)](/businesses/business-tax-preparation/business-expenses-deductions-and-credits/eligibility-and-deductibility-of-general-business-credits/) | **published** | 2,208 | 2026-08-21 |
+| 2.2.2.n | [Net operating loss deduction](/businesses/business-tax-preparation/business-expenses-deductions-and-credits/net-operating-loss-deduction/) | **published** | 2,323 | 2026-08-21 |
+| 2.2.2.o | [Home office](/businesses/business-tax-preparation/business-expenses-deductions-and-credits/home-office/) | **published** | 2,421 | 2026-08-21 |
 
 **2.2.3 Business assets**
 
 | Code | Title | Status | Words | Last reviewed |
 |---|---|---|---:|---|
-| 2.2.3.a | [Basis of assets](/businesses/business-tax-preparation/business-assets/basis-of-assets/) | review | 2,252 | 2026-08-21 |
-| 2.2.3.b | [Disposition of property or assets](/businesses/business-tax-preparation/business-assets/disposition-of-property-or-assets/) | review | 2,296 | 2026-08-21 |
-| 2.2.3.c | [Like kind exchange](/businesses/business-tax-preparation/business-assets/like-kind-exchange/) | review | 2,227 | 2026-08-21 |
-| 2.2.3.d | [Converted property](/businesses/business-tax-preparation/business-assets/converted-property/) | review | 2,112 | 2026-08-21 |
-| 2.2.3.e | [Capitalization and repair regulations (e.g., elections)](/businesses/business-tax-preparation/business-assets/capitalization-and-repair-regulations/) | review | 2,862 | 2026-08-21 |
+| 2.2.3.a | [Basis of assets](/businesses/business-tax-preparation/business-assets/basis-of-assets/) | **published** | 2,252 | 2026-08-21 |
+| 2.2.3.b | [Disposition of property or assets](/businesses/business-tax-preparation/business-assets/disposition-of-property-or-assets/) | **published** | 2,296 | 2026-08-21 |
+| 2.2.3.c | [Like kind exchange](/businesses/business-tax-preparation/business-assets/like-kind-exchange/) | **published** | 2,227 | 2026-08-21 |
+| 2.2.3.d | [Converted property](/businesses/business-tax-preparation/business-assets/converted-property/) | **published** | 2,112 | 2026-08-21 |
+| 2.2.3.e | [Capitalization and repair regulations (e.g., elections)](/businesses/business-tax-preparation/business-assets/capitalization-and-repair-regulations/) | **published** | 2,862 | 2026-08-21 |
 
 **2.2.4 Analysis of financial records**
 
 | Code | Title | Status | Words | Last reviewed |
 |---|---|---|---:|---|
-| 2.2.4.a | [Proper business type, and the use of classification codes and year to year comparison](/businesses/business-tax-preparation/analysis-of-financial-records/proper-business-type-and-the-use-of-classification-codes/) | review | 2,606 | 2026-08-21 |
-| 2.2.4.b | [Income statement](/businesses/business-tax-preparation/analysis-of-financial-records/income-statement/) | review | 2,602 | 2026-08-21 |
-| 2.2.4.c | [Balance sheet (e.g., proofing beginning and ending balances, relationship to income statement and depreciation)](/businesses/business-tax-preparation/analysis-of-financial-records/balance-sheet/) | review | 2,632 | 2026-08-21 |
-| 2.2.4.d | [Method of accounting and changes (e.g., accrual, cash, hybrid, Form 3115)](/businesses/business-tax-preparation/analysis-of-financial-records/method-of-accounting-and-changes/) | review | 2,811 | 2026-08-21 |
-| 2.2.4.e | [Depreciation recovery (e.g., recapture, IRC Section 280F)](/businesses/business-tax-preparation/analysis-of-financial-records/depreciation-recovery/) | review | 2,906 | 2026-08-21 |
-| 2.2.4.f | [Pass-through activity (e.g., K-1, separately stated items, non-deductible expenses)](/businesses/business-tax-preparation/analysis-of-financial-records/pass-through-activity/) | review | 2,277 | 2026-08-21 |
-| 2.2.4.g | [Reconciliation of tax versus books (e.g., M-1, M-2, M-3)](/businesses/business-tax-preparation/analysis-of-financial-records/reconciliation-of-tax-versus-books/) | review | 2,317 | 2026-08-21 |
-| 2.2.4.h | [Related party activity](/businesses/business-tax-preparation/analysis-of-financial-records/related-party-activity/) | review | 2,360 | 2026-08-21 |
-| 2.2.4.i | [Loans to and from owners](/businesses/business-tax-preparation/analysis-of-financial-records/loans-to-and-from-owners/) | review | 2,559 | 2026-08-21 |
+| 2.2.4.a | [Proper business type, and the use of classification codes and year to year comparison](/businesses/business-tax-preparation/analysis-of-financial-records/proper-business-type-and-the-use-of-classification-codes/) | **published** | 2,606 | 2026-08-21 |
+| 2.2.4.b | [Income statement](/businesses/business-tax-preparation/analysis-of-financial-records/income-statement/) | **published** | 2,602 | 2026-08-21 |
+| 2.2.4.c | [Balance sheet (e.g., proofing beginning and ending balances, relationship to income statement and depreciation)](/businesses/business-tax-preparation/analysis-of-financial-records/balance-sheet/) | **published** | 2,632 | 2026-08-21 |
+| 2.2.4.d | [Method of accounting and changes (e.g., accrual, cash, hybrid, Form 3115)](/businesses/business-tax-preparation/analysis-of-financial-records/method-of-accounting-and-changes/) | **published** | 2,811 | 2026-08-21 |
+| 2.2.4.e | [Depreciation recovery (e.g., recapture, IRC Section 280F)](/businesses/business-tax-preparation/analysis-of-financial-records/depreciation-recovery/) | **published** | 2,906 | 2026-08-21 |
+| 2.2.4.f | [Pass-through activity (e.g., K-1, separately stated items, non-deductible expenses)](/businesses/business-tax-preparation/analysis-of-financial-records/pass-through-activity/) | **published** | 2,277 | 2026-08-21 |
+| 2.2.4.g | [Reconciliation of tax versus books (e.g., M-1, M-2, M-3)](/businesses/business-tax-preparation/analysis-of-financial-records/reconciliation-of-tax-versus-books/) | **published** | 2,317 | 2026-08-21 |
+| 2.2.4.h | [Related party activity](/businesses/business-tax-preparation/analysis-of-financial-records/related-party-activity/) | **published** | 2,360 | 2026-08-21 |
+| 2.2.4.i | [Loans to and from owners](/businesses/business-tax-preparation/analysis-of-financial-records/loans-to-and-from-owners/) | **published** | 2,559 | 2026-08-21 |
 
 **2.2.5 Advising the business taxpayer**
 
 | Code | Title | Status | Words | Last reviewed |
 |---|---|---|---:|---|
-| 2.2.5.a | [Reporting and filing obligations (e.g., extended returns and potential penalties, international information returns, Form 1099 series, Form 8300)](/businesses/business-tax-preparation/advising-the-business-taxpayer/reporting-and-filing-obligations/) | review | 2,172 | 2026-08-21 |
-| 2.2.5.b | [Payments and deposit obligations (e.g., employment tax, excise tax)](/businesses/business-tax-preparation/advising-the-business-taxpayer/payments-and-deposit-obligations/) | review | 2,267 | 2026-08-21 |
-| 2.2.5.c | [Record-keeping requirements (e.g., mileage log, accountable plans)](/businesses/business-tax-preparation/advising-the-business-taxpayer/record-keeping-requirements/) | review | 2,281 | 2026-08-21 |
-| 2.2.5.d | [Related party transactions](/businesses/business-tax-preparation/advising-the-business-taxpayer/related-party-transactions/) | review | 2,381 | 2026-08-21 |
-| 2.2.5.e | [Selection of business entity (e.g., benefits and detriments)](/businesses/business-tax-preparation/advising-the-business-taxpayer/selection-of-business-entity/) | review | 2,448 | 2026-08-21 |
-| 2.2.5.f | [Comingling (e.g., personal usage of business accounts, separation of business and personal accounts)](/businesses/business-tax-preparation/advising-the-business-taxpayer/comingling/) | review | 2,301 | 2026-08-21 |
-| 2.2.5.g | [Advice on accounting methods and procedures (e.g., explanation of requirements)](/businesses/business-tax-preparation/advising-the-business-taxpayer/advice-on-accounting-methods-and-procedures/) | review | 2,398 | 2026-08-21 |
-| 2.2.5.h | [Transfer of property in or out of the business (e.g., contributed property, distributions)](/businesses/business-tax-preparation/advising-the-business-taxpayer/transfer-of-property-in-or-out-of-the-business/) | review | 2,460 | 2026-08-21 |
-| 2.2.5.i | [Life cycle of the business (e.g., formation, dissolution)](/businesses/business-tax-preparation/advising-the-business-taxpayer/life-cycle-of-the-business/) | review | 2,436 | 2026-08-21 |
-| 2.2.5.j | [Type of industry (e.g., specified service business owners)](/businesses/business-tax-preparation/advising-the-business-taxpayer/type-of-industry/) | review | 2,315 | 2026-08-21 |
-| 2.2.5.k | [Worker classification (i.e. independent contractor versus employee, outside sales, full-time vs part-time)](/businesses/business-tax-preparation/advising-the-business-taxpayer/worker-classification-i-e-independent-contractor-versus/) | review | 2,309 | 2026-08-21 |
-| 2.2.5.l | [Deductions and credits for tax planning (e.g., timing of income and expenses, NOL, depreciation versus IRC Section 179 versus bonus depreciation)](/businesses/business-tax-preparation/advising-the-business-taxpayer/deductions-and-credits-for-tax-planning/) | review | 2,378 | 2026-08-21 |
-| 2.2.5.m | [ACA compliance](/businesses/business-tax-preparation/advising-the-business-taxpayer/aca-compliance/) | review | 2,229 | 2026-08-21 |
+| 2.2.5.a | [Reporting and filing obligations (e.g., extended returns and potential penalties, international information returns, Form 1099 series, Form 8300)](/businesses/business-tax-preparation/advising-the-business-taxpayer/reporting-and-filing-obligations/) | **published** | 2,172 | 2026-08-21 |
+| 2.2.5.b | [Payments and deposit obligations (e.g., employment tax, excise tax)](/businesses/business-tax-preparation/advising-the-business-taxpayer/payments-and-deposit-obligations/) | **published** | 2,267 | 2026-08-21 |
+| 2.2.5.c | [Record-keeping requirements (e.g., mileage log, accountable plans)](/businesses/business-tax-preparation/advising-the-business-taxpayer/record-keeping-requirements/) | **published** | 2,281 | 2026-08-21 |
+| 2.2.5.d | [Related party transactions](/businesses/business-tax-preparation/advising-the-business-taxpayer/related-party-transactions/) | **published** | 2,381 | 2026-08-21 |
+| 2.2.5.e | [Selection of business entity (e.g., benefits and detriments)](/businesses/business-tax-preparation/advising-the-business-taxpayer/selection-of-business-entity/) | **published** | 2,448 | 2026-08-21 |
+| 2.2.5.f | [Comingling (e.g., personal usage of business accounts, separation of business and personal accounts)](/businesses/business-tax-preparation/advising-the-business-taxpayer/comingling/) | **published** | 2,301 | 2026-08-21 |
+| 2.2.5.g | [Advice on accounting methods and procedures (e.g., explanation of requirements)](/businesses/business-tax-preparation/advising-the-business-taxpayer/advice-on-accounting-methods-and-procedures/) | **published** | 2,398 | 2026-08-21 |
+| 2.2.5.h | [Transfer of property in or out of the business (e.g., contributed property, distributions)](/businesses/business-tax-preparation/advising-the-business-taxpayer/transfer-of-property-in-or-out-of-the-business/) | **published** | 2,460 | 2026-08-21 |
+| 2.2.5.i | [Life cycle of the business (e.g., formation, dissolution)](/businesses/business-tax-preparation/advising-the-business-taxpayer/life-cycle-of-the-business/) | **published** | 2,436 | 2026-08-21 |
+| 2.2.5.j | [Type of industry (e.g., specified service business owners)](/businesses/business-tax-preparation/advising-the-business-taxpayer/type-of-industry/) | **published** | 2,315 | 2026-08-21 |
+| 2.2.5.k | [Worker classification (i.e. independent contractor versus employee, outside sales, full-time vs part-time)](/businesses/business-tax-preparation/advising-the-business-taxpayer/worker-classification-i-e-independent-contractor-versus/) | **published** | 2,309 | 2026-08-21 |
+| 2.2.5.l | [Deductions and credits for tax planning (e.g., timing of income and expenses, NOL, depreciation versus IRC Section 179 versus bonus depreciation)](/businesses/business-tax-preparation/advising-the-business-taxpayer/deductions-and-credits-for-tax-planning/) | **published** | 2,378 | 2026-08-21 |
+| 2.2.5.m | [ACA compliance](/businesses/business-tax-preparation/advising-the-business-taxpayer/aca-compliance/) | **published** | 2,229 | 2026-08-21 |
 
 ### 2.3 Specialized Returns and Taxpayers
 
@@ -361,54 +361,54 @@ is indexed, and only the owner moves a page there (see `docs/VERIFICATION.md`).
 
 | Code | Title | Status | Words | Last reviewed |
 |---|---|---|---:|---|
-| 2.3.1.a | [Trust types (e.g., simple/complex, grantor, irrevocable, tax shelters, foreign)](/businesses/specialized-returns-and-taxpayers/trust-and-estate-income-tax/trust-types/) | review | 2,374 | 2026-08-21 |
-| 2.3.1.b | [Distributable net income and accounting income](/businesses/specialized-returns-and-taxpayers/trust-and-estate-income-tax/distributable-net-income-and-accounting-income/) | review | 2,207 | 2026-08-21 |
-| 2.3.1.c | [Exclusions, exemptions, and deductions](/businesses/specialized-returns-and-taxpayers/trust-and-estate-income-tax/exclusions-exemptions-and-deductions/) | review | 2,284 | 2026-08-21 |
-| 2.3.1.d | [Fraudulent trusts](/businesses/specialized-returns-and-taxpayers/trust-and-estate-income-tax/fraudulent-trusts/) | review | 2,420 | 2026-08-21 |
-| 2.3.1.e | [Income (e.g., allocations, corpus versus income)](/businesses/specialized-returns-and-taxpayers/trust-and-estate-income-tax/income/) | review | 2,378 | 2026-08-21 |
-| 2.3.1.f | [Separately stated items (items reported on the K-1)](/businesses/specialized-returns-and-taxpayers/trust-and-estate-income-tax/separately-stated-items-items-reported-on-the-k-1/) | review | 2,203 | 2026-08-21 |
-| 2.3.1.g | [Filing requirements, tax years, and penalties](/businesses/specialized-returns-and-taxpayers/trust-and-estate-income-tax/filing-requirements-tax-years-and-penalties/) | review | 2,389 | 2026-08-21 |
+| 2.3.1.a | [Trust types (e.g., simple/complex, grantor, irrevocable, tax shelters, foreign)](/businesses/specialized-returns-and-taxpayers/trust-and-estate-income-tax/trust-types/) | **published** | 2,374 | 2026-08-21 |
+| 2.3.1.b | [Distributable net income and accounting income](/businesses/specialized-returns-and-taxpayers/trust-and-estate-income-tax/distributable-net-income-and-accounting-income/) | **published** | 2,207 | 2026-08-21 |
+| 2.3.1.c | [Exclusions, exemptions, and deductions](/businesses/specialized-returns-and-taxpayers/trust-and-estate-income-tax/exclusions-exemptions-and-deductions/) | **published** | 2,284 | 2026-08-21 |
+| 2.3.1.d | [Fraudulent trusts](/businesses/specialized-returns-and-taxpayers/trust-and-estate-income-tax/fraudulent-trusts/) | **published** | 2,420 | 2026-08-21 |
+| 2.3.1.e | [Income (e.g., allocations, corpus versus income)](/businesses/specialized-returns-and-taxpayers/trust-and-estate-income-tax/income/) | **published** | 2,378 | 2026-08-21 |
+| 2.3.1.f | [Separately stated items (items reported on the K-1)](/businesses/specialized-returns-and-taxpayers/trust-and-estate-income-tax/separately-stated-items-items-reported-on-the-k-1/) | **published** | 2,203 | 2026-08-21 |
+| 2.3.1.g | [Filing requirements, tax years, and penalties](/businesses/specialized-returns-and-taxpayers/trust-and-estate-income-tax/filing-requirements-tax-years-and-penalties/) | **published** | 2,389 | 2026-08-21 |
 
 **2.3.2 Exempt organizations**
 
 | Code | Title | Status | Words | Last reviewed |
 |---|---|---|---:|---|
-| 2.3.2.a | [Qualifying for and maintaining tax-exempt status (e.g., IRC 501(c))](/businesses/specialized-returns-and-taxpayers/exempt-organizations/qualifying-for-and-maintaining-tax-exempt-status/) | review | 2,497 | 2026-08-21 |
-| 2.3.2.b | [Applying for IRS tax-exempt status (e.g., Form 1023, Form 1024)](/businesses/specialized-returns-and-taxpayers/exempt-organizations/applying-for-irs-tax-exempt-status/) | review | 2,428 | 2026-08-21 |
-| 2.3.2.c | [Filing requirements (e.g., Form 990 series)](/businesses/specialized-returns-and-taxpayers/exempt-organizations/filing-requirements/) | review | 2,302 | 2026-08-21 |
-| 2.3.2.d | [Unrelated business taxable income](/businesses/specialized-returns-and-taxpayers/exempt-organizations/unrelated-business-taxable-income/) | review | 2,334 | 2026-08-21 |
+| 2.3.2.a | [Qualifying for and maintaining tax-exempt status (e.g., IRC 501(c))](/businesses/specialized-returns-and-taxpayers/exempt-organizations/qualifying-for-and-maintaining-tax-exempt-status/) | **published** | 2,497 | 2026-08-21 |
+| 2.3.2.b | [Applying for IRS tax-exempt status (e.g., Form 1023, Form 1024)](/businesses/specialized-returns-and-taxpayers/exempt-organizations/applying-for-irs-tax-exempt-status/) | **published** | 2,428 | 2026-08-21 |
+| 2.3.2.c | [Filing requirements (e.g., Form 990 series)](/businesses/specialized-returns-and-taxpayers/exempt-organizations/filing-requirements/) | **published** | 2,302 | 2026-08-21 |
+| 2.3.2.d | [Unrelated business taxable income](/businesses/specialized-returns-and-taxpayers/exempt-organizations/unrelated-business-taxable-income/) | **published** | 2,334 | 2026-08-21 |
 
 **2.3.3 Retirement plans**
 
 | Code | Title | Status | Words | Last reviewed |
 |---|---|---|---:|---|
-| 2.3.3.a | [Employer and employee contributions](/businesses/specialized-returns-and-taxpayers/retirement-plans/employer-and-employee-contributions/) | review | 2,277 | 2026-08-21 |
-| 2.3.3.b | [Reporting requirements](/businesses/specialized-returns-and-taxpayers/retirement-plans/reporting-requirements/) | review | 2,108 | 2026-08-21 |
-| 2.3.3.c | [Plans for self-employed persons (e.g., SEP and SIMPLE)](/businesses/specialized-returns-and-taxpayers/retirement-plans/plans-for-self-employed-persons/) | review | 2,352 | 2026-08-21 |
-| 2.3.3.d | [Prohibited transactions](/businesses/specialized-returns-and-taxpayers/retirement-plans/prohibited-transactions/) | review | 2,435 | 2026-08-21 |
-| 2.3.3.e | [Qualified and non-qualified plans](/businesses/specialized-returns-and-taxpayers/retirement-plans/qualified-and-non-qualified-plans/) | review | 2,285 | 2026-08-21 |
-| 2.3.3.f | [Non-discrimination rules](/businesses/specialized-returns-and-taxpayers/retirement-plans/non-discrimination-rules/) | review | 2,225 | 2026-08-21 |
+| 2.3.3.a | [Employer and employee contributions](/businesses/specialized-returns-and-taxpayers/retirement-plans/employer-and-employee-contributions/) | **published** | 2,277 | 2026-08-21 |
+| 2.3.3.b | [Reporting requirements](/businesses/specialized-returns-and-taxpayers/retirement-plans/reporting-requirements/) | **published** | 2,108 | 2026-08-21 |
+| 2.3.3.c | [Plans for self-employed persons (e.g., SEP and SIMPLE)](/businesses/specialized-returns-and-taxpayers/retirement-plans/plans-for-self-employed-persons/) | **published** | 2,352 | 2026-08-21 |
+| 2.3.3.d | [Prohibited transactions](/businesses/specialized-returns-and-taxpayers/retirement-plans/prohibited-transactions/) | **published** | 2,435 | 2026-08-21 |
+| 2.3.3.e | [Qualified and non-qualified plans](/businesses/specialized-returns-and-taxpayers/retirement-plans/qualified-and-non-qualified-plans/) | **published** | 2,285 | 2026-08-21 |
+| 2.3.3.f | [Non-discrimination rules](/businesses/specialized-returns-and-taxpayers/retirement-plans/non-discrimination-rules/) | **published** | 2,225 | 2026-08-21 |
 
 **2.3.4 Farmers**
 
 | Code | Title | Status | Words | Last reviewed |
 |---|---|---|---:|---|
-| 2.3.4.a | [Farm income (e.g., self-raised livestock, crop insurance proceeds, subsidies, patronage dividends, conservation payments)](/businesses/specialized-returns-and-taxpayers/farmers/farm-income/) | review | 2,238 | 2026-08-21 |
-| 2.3.4.b | [Depreciation for farmers](/businesses/specialized-returns-and-taxpayers/farmers/depreciation-for-farmers/) | review | 2,247 | 2026-08-21 |
-| 2.3.4.c | [Disaster-area provisions (drought, flood, other weather-related conditions)](/businesses/specialized-returns-and-taxpayers/farmers/disaster-area-provisions-drought-flood-other-weather-related/) | review | 2,299 | 2026-08-21 |
-| 2.3.4.d | [Farm rental](/businesses/specialized-returns-and-taxpayers/farmers/farm-rental/) | review | 2,248 | 2026-08-21 |
-| 2.3.4.e | [Farm tax computation (e.g., Schedule J, Schedule SE, estimated tax)](/businesses/specialized-returns-and-taxpayers/farmers/farm-tax-computation/) | review | 2,331 | 2026-08-21 |
+| 2.3.4.a | [Farm income (e.g., self-raised livestock, crop insurance proceeds, subsidies, patronage dividends, conservation payments)](/businesses/specialized-returns-and-taxpayers/farmers/farm-income/) | **published** | 2,238 | 2026-08-21 |
+| 2.3.4.b | [Depreciation for farmers](/businesses/specialized-returns-and-taxpayers/farmers/depreciation-for-farmers/) | **published** | 2,247 | 2026-08-21 |
+| 2.3.4.c | [Disaster-area provisions (drought, flood, other weather-related conditions)](/businesses/specialized-returns-and-taxpayers/farmers/disaster-area-provisions-drought-flood-other-weather-related/) | **published** | 2,299 | 2026-08-21 |
+| 2.3.4.d | [Farm rental](/businesses/specialized-returns-and-taxpayers/farmers/farm-rental/) | **published** | 2,248 | 2026-08-21 |
+| 2.3.4.e | [Farm tax computation (e.g., Schedule J, Schedule SE, estimated tax)](/businesses/specialized-returns-and-taxpayers/farmers/farm-tax-computation/) | **published** | 2,331 | 2026-08-21 |
 
 **2.3.5 Rental Property**
 
 | Code | Title | Status | Words | Last reviewed |
 |---|---|---|---:|---|
-| 2.3.5.a | [Real estate professional qualifications](/businesses/specialized-returns-and-taxpayers/rental-property/real-estate-professional-qualifications/) | review | 2,255 | 2026-08-21 |
-| 2.3.5.b | [Commercial rentals versus residential rentals](/businesses/specialized-returns-and-taxpayers/rental-property/commercial-rentals-versus-residential-rentals/) | review | 2,116 | 2026-08-21 |
-| 2.3.5.c | [Mixed used property/vacation home](/businesses/specialized-returns-and-taxpayers/rental-property/mixed-used-property-vacation-home/) | review | 2,320 | 2026-08-21 |
-| 2.3.5.d | [Passive loss limitation (e.g., special $25,000 allowance, MAGI limits)](/businesses/specialized-returns-and-taxpayers/rental-property/passive-loss-limitation/) | review | 2,121 | 2026-08-21 |
-| 2.3.5.e | [Rental income (e.g., deposits, pre-paid rent, not rented for profit)](/businesses/specialized-returns-and-taxpayers/rental-property/rental-income/) | review | 2,317 | 2026-08-21 |
-| 2.3.5.f | [Rental expenses (e.g., allocation between personal and rental, repair versus capitalized)](/businesses/specialized-returns-and-taxpayers/rental-property/rental-expenses/) | review | 2,453 | 2026-08-21 |
+| 2.3.5.a | [Real estate professional qualifications](/businesses/specialized-returns-and-taxpayers/rental-property/real-estate-professional-qualifications/) | **published** | 2,255 | 2026-08-21 |
+| 2.3.5.b | [Commercial rentals versus residential rentals](/businesses/specialized-returns-and-taxpayers/rental-property/commercial-rentals-versus-residential-rentals/) | **published** | 2,116 | 2026-08-21 |
+| 2.3.5.c | [Mixed used property/vacation home](/businesses/specialized-returns-and-taxpayers/rental-property/mixed-used-property-vacation-home/) | **published** | 2,320 | 2026-08-21 |
+| 2.3.5.d | [Passive loss limitation (e.g., special $25,000 allowance, MAGI limits)](/businesses/specialized-returns-and-taxpayers/rental-property/passive-loss-limitation/) | **published** | 2,121 | 2026-08-21 |
+| 2.3.5.e | [Rental income (e.g., deposits, pre-paid rent, not rented for profit)](/businesses/specialized-returns-and-taxpayers/rental-property/rental-income/) | **published** | 2,317 | 2026-08-21 |
+| 2.3.5.f | [Rental expenses (e.g., allocation between personal and rental, repair versus capitalized)](/businesses/specialized-returns-and-taxpayers/rental-property/rental-expenses/) | **published** | 2,453 | 2026-08-21 |
 
 ## Part 3 — Representation, Practices and Procedures
 

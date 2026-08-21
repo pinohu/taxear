@@ -5,7 +5,7 @@ part: 2
 domain: "Business Tax Preparation"
 section: "Business Income"
 description: "Cost of goods sold is beginning inventory plus purchases less ending inventory, and the whole difficulty is deciding what belongs in the two inventory figures."
-status: review
+status: published
 taxYear: 2026
 lastReviewed: "2026-08-21"
 reviewedBy: "Draft for I. Ohu review"

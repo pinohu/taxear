@@ -5,7 +5,7 @@ part: 2
 domain: "Business Tax Preparation"
 section: "Advising the business taxpayer"
 description: "The late filing penalty on a pass-through return is charged per owner per month, so a return with eight partners costs eight times what most preparers expect it to."
-status: review
+status: published
 taxYear: 2026
 lastReviewed: "2026-08-21"
 reviewedBy: "Draft for I. Ohu review"

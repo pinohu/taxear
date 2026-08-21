@@ -5,7 +5,7 @@ part: 2
 domain: "Business Tax Preparation"
 section: "Analysis of financial records"
 description: "A disallowed related-party loss is not deferred to the seller but handed to the buyer, and it is lost for good unless the buyer later sells the same property at a gain."
-status: review
+status: published
 taxYear: 2026
 lastReviewed: "2026-08-21"
 reviewedBy: "Draft for I. Ohu review"

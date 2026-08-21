@@ -5,7 +5,7 @@ part: 1
 domain: "Income and Assets"
 section: "Property, real and personal"
 description: "An ISO produces no regular tax at exercise and an AMT adjustment on the same day. The two bases then differ, and the difference survives until the shares are sold."
-status: review
+status: published
 taxYear: 2026
 lastReviewed: "2026-08-19"
 reviewedBy: "Draft for I. Ohu review"

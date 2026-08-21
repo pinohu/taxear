@@ -5,7 +5,7 @@ part: 2
 domain: "Business Entities"
 section: "S corporations"
 description: "An S corporation distribution is a basis recovery until the corporation has old C corporation earnings behind it, and then the ordering rules decide what is a dividend."
-status: review
+status: published
 taxYear: 2026
 lastReviewed: "2026-08-21"
 reviewedBy: "Draft for I. Ohu review"

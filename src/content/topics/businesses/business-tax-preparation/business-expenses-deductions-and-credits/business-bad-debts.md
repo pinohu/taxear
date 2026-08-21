@@ -5,7 +5,7 @@ part: 2
 domain: "Business Tax Preparation"
 section: "Business expenses, deductions and credits"
 description: "A business bad debt is an ordinary deduction and can be written off in part; a non-business one is a short-term capital loss and only when wholly worthless."
-status: review
+status: published
 taxYear: 2026
 lastReviewed: "2026-08-21"
 reviewedBy: "Draft for I. Ohu review"

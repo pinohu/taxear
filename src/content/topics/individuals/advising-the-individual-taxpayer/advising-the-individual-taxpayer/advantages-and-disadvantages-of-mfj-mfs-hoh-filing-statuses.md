@@ -5,7 +5,7 @@ part: 1
 domain: "Advising the Individual Taxpayer"
 section: "Advising the individual taxpayer"
 description: "Joint is usually cheaper and always joint and several. Separate buys one thing only — liability separation — and the price is a long list of denied provisions."
-status: review
+status: published
 taxYear: 2026
 lastReviewed: "2026-08-20"
 reviewedBy: "Draft for I. Ohu review"

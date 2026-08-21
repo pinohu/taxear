@@ -5,7 +5,7 @@ part: 1
 domain: "Specialized Returns for Individuals"
 section: "Gift tax"
 description: "There is one credit, not two. Every dollar of it used against a lifetime gift is a dollar not available at death, and the gift tax is cumulative from 1932 onwards."
-status: review
+status: published
 taxYear: 2026
 lastReviewed: "2026-08-20"
 reviewedBy: "Draft for I. Ohu review"

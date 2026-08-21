@@ -5,7 +5,7 @@ part: 2
 domain: "Business Entities"
 section: "Partnerships"
 description: "The partnership pays no tax but computes everything twice — once as an entity, once item by item — because character survives the trip out to the partner's return."
-status: review
+status: published
 taxYear: 2026
 lastReviewed: "2026-08-21"
 reviewedBy: "Draft for I. Ohu review"

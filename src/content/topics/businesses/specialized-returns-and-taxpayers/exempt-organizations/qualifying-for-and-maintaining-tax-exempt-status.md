@@ -5,7 +5,7 @@ part: 2
 domain: "Specialized Returns and Taxpayers"
 section: "Exempt organizations"
 description: "Exempt status turns on two tests that must both be met: an organizational test read off the articles, and an operational test read off what the charity actually does."
-status: review
+status: published
 taxYear: 2026
 lastReviewed: "2026-08-21"
 reviewedBy: "Draft for I. Ohu review"

@@ -5,7 +5,7 @@ part: 2
 domain: "Business Entities"
 section: "Partnerships"
 description: "The late filing penalty counts partners, not dollars of tax, and runs from the extended date. Partners lost their right to notice of an audit for years after 2017."
-status: review
+status: published
 taxYear: 2026
 lastReviewed: "2026-08-21"
 reviewedBy: "Draft for I. Ohu review"

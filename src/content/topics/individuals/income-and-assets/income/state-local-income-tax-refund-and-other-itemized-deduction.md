@@ -5,7 +5,7 @@ part: 1
 domain: "Income and Assets"
 section: "Income"
 description: "A refund is income only to the extent the earlier deduction saved tax. The cap on state and local taxes changed for 2026, and it changes the answer here too."
-status: review
+status: published
 taxYear: 2026
 lastReviewed: "2026-08-19"
 reviewedBy: "Draft for I. Ohu review"

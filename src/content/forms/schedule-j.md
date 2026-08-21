@@ -2,7 +2,7 @@
 number: "Schedule J"
 title: "Income Averaging for Individuals With Income From Farming or Fishing (Form 1040)"
 description: "Income averaging for individuals with income from farming or fishing. Recomputes the IRC section 1 tax across three base years without amending any of them."
-status: review
+status: published
 irsUrl: "https://www.irs.gov/forms-pubs/about-schedule-j-form-1040"
 topics: ["2.3.4.e"]
 lastReviewed: "2026-08-21"

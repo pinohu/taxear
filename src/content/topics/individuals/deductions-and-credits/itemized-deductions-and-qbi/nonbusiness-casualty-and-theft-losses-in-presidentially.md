@@ -5,7 +5,7 @@ part: 1
 domain: "Deductions and Credits"
 section: "Itemized deductions and QBI"
 description: "A State declaration now works as well as a Federal one, and the restriction is permanent. Two floors apply in sequence, one per event and one against income."
-status: review
+status: published
 taxYear: 2026
 lastReviewed: "2026-08-19"
 reviewedBy: "Draft for I. Ohu review"

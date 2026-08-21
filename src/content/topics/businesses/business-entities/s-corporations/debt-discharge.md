@@ -5,7 +5,7 @@ part: 2
 domain: "Business Entities"
 section: "S corporations"
 description: "Excluded discharge income stops at the corporation and never reaches a shareholder basis account, and the attribute it burns first is the suspended loss."
-status: review
+status: published
 taxYear: 2026
 lastReviewed: "2026-08-21"
 reviewedBy: "Draft for I. Ohu review"

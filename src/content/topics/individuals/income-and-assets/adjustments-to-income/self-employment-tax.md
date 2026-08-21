@@ -5,7 +5,7 @@ part: 1
 domain: "Income and Assets"
 section: "Adjustments to Income"
 description: "Two halvings do different jobs: one shrinks the base before the tax is computed, the other is a deduction against income, and the additional Medicare tax gets neither."
-status: review
+status: published
 taxYear: 2026
 lastReviewed: "2026-08-19"
 reviewedBy: "Draft for I. Ohu review"

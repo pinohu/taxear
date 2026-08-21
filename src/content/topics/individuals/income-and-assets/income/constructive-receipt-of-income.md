@@ -5,7 +5,7 @@ part: 1
 domain: "Income and Assets"
 section: "Income"
 description: "A cash-basis taxpayer is taxed on what they could have had, not only on what they took. The doctrine turns on control, and the escape is a substantial restriction."
-status: review
+status: published
 taxYear: 2026
 lastReviewed: "2026-08-19"
 reviewedBy: "Draft for I. Ohu review"

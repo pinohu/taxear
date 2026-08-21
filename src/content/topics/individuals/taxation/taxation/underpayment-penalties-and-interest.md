@@ -5,7 +5,7 @@ part: 1
 domain: "Taxation"
 section: "Taxation"
 description: "Three separate charges with three different rates, and the one most often described wrongly is the estimated tax addition — it is interest, not a flat monthly percentage."
-status: review
+status: published
 taxYear: 2026
 lastReviewed: "2026-08-19"
 reviewedBy: "Draft for I. Ohu review"

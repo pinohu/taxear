@@ -5,7 +5,7 @@ part: 1
 domain: "Income and Assets"
 section: "Property, real and personal"
 description: "Recapture on real property is almost always zero, and what practitioners call it is a rate ceiling on capital gain. On a foreclosure, one checkbox decides everything."
-status: review
+status: published
 taxYear: 2026
 lastReviewed: "2026-08-19"
 reviewedBy: "Draft for I. Ohu review"

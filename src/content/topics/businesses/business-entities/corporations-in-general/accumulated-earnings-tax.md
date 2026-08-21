@@ -5,7 +5,7 @@ part: 2
 domain: "Business Entities"
 section: "Corporations in general"
 description: "The tax falls on one year's undistributed income, not on the accumulated balance. A company can hold far more than the credit and owe nothing if it earned nothing."
-status: review
+status: published
 taxYear: 2026
 lastReviewed: "2026-08-21"
 reviewedBy: "Draft for I. Ohu review"

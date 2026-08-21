@@ -2,7 +2,7 @@
 number: "Schedule SE"
 title: "Self-Employment Tax (Form 1040)"
 description: "Self-employment tax, including the farm optional method that lets a farmer with a poor year earn Social Security credits for an unlimited number of years."
-status: review
+status: published
 irsUrl: "https://www.irs.gov/forms-pubs/about-schedule-se-form-1040"
 topics: ["2.3.4.e"]
 lastReviewed: "2026-08-21"

@@ -5,7 +5,7 @@ part: 1
 domain: "Deductions and Credits"
 section: "Itemized deductions and QBI"
 description: "The cap is not what most sources still say, and its heading contradicts its own text. Foreign real property taxes are not capped — they are not deductible at all."
-status: review
+status: published
 taxYear: 2026
 lastReviewed: "2026-08-19"
 reviewedBy: "Draft for I. Ohu review"

@@ -5,7 +5,7 @@ part: 1
 domain: "Taxation"
 section: "Taxation"
 description: "Withholding starts at one figure and liability at another, so the two almost never agree. Form 8959 exists to settle the difference in whichever direction it falls."
-status: review
+status: published
 taxYear: 2026
 lastReviewed: "2026-08-19"
 reviewedBy: "Draft for I. Ohu review"

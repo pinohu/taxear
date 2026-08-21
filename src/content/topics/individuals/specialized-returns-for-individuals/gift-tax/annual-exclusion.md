@@ -5,7 +5,7 @@ part: 1
 domain: "Specialized Returns for Individuals"
 section: "Gift tax"
 description: "The exclusion is per donee, per year, and only for a present interest. Everything difficult about it is the second condition — and two transfers escape gift tax entirely."
-status: review
+status: published
 taxYear: 2026
 lastReviewed: "2026-08-20"
 reviewedBy: "Draft for I. Ohu review"

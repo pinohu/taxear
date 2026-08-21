@@ -5,7 +5,7 @@ part: 2
 domain: "Business Tax Preparation"
 section: "Business assets"
 description: "Converting to business use starts a fresh depreciation life on a basis capped by value, and can leave the property with one basis for gain and another for loss."
-status: review
+status: published
 taxYear: 2026
 lastReviewed: "2026-08-21"
 reviewedBy: "Draft for I. Ohu review"

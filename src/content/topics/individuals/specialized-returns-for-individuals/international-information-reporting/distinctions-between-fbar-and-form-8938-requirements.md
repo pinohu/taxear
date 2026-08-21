@@ -5,7 +5,7 @@ part: 1
 domain: "Specialized Returns for Individuals"
 section: "International information reporting"
 description: "Six axes of difference, and only one of them is the threshold. They disagree about who files, what counts, what an interest is, and even where the United States ends."
-status: review
+status: published
 taxYear: 2026
 lastReviewed: "2026-08-21"
 reviewedBy: "Draft for I. Ohu review"

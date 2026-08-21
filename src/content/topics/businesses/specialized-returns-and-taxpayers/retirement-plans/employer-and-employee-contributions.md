@@ -5,7 +5,7 @@ part: 2
 domain: "Specialized Returns and Taxpayers"
 section: "Retirement plans"
 description: "Two different ceilings apply to the same account in the same year, and confusing them is the single most common error in retirement plan contribution work."
-status: review
+status: published
 taxYear: 2026
 lastReviewed: "2026-08-21"
 reviewedBy: "Draft for I. Ohu review"

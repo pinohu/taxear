@@ -5,7 +5,7 @@ part: 2
 domain: "Business Entities"
 section: "Corporations in general"
 description: "The fourth corporate instalment falls in December, not January, and a corporation that earned a million once in three years may not look back at last year's tax."
-status: review
+status: published
 taxYear: 2026
 lastReviewed: "2026-08-21"
 reviewedBy: "Draft for I. Ohu review"

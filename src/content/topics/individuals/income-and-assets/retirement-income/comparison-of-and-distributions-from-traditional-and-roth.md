@@ -5,7 +5,7 @@ part: 1
 domain: "Income and Assets"
 section: "Retirement income"
 description: "The two accounts differ on when tax is paid, who may contribute, and how a distribution is taxed. The five-year clock is the rule most often stated wrongly."
-status: review
+status: published
 taxYear: 2026
 lastReviewed: "2026-08-19"
 reviewedBy: "Draft for I. Ohu review"

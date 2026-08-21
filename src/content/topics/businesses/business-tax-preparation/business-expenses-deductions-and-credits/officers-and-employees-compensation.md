@@ -5,7 +5,7 @@ part: 2
 domain: "Business Tax Preparation"
 section: "Business expenses, deductions and credits"
 description: "Compensation is deductible only if it is reasonable and the services were actually rendered, and a payment to a related party can defer the deduction for years."
-status: review
+status: published
 taxYear: 2026
 lastReviewed: "2026-08-21"
 reviewedBy: "Draft for I. Ohu review"

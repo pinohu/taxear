@@ -5,7 +5,7 @@ part: 1
 domain: "Specialized Returns for Individuals"
 section: "Gift tax"
 description: "Gifts do not leave the system. They return to the estate base, the tax on recent ones is added back, and a third tax sits on transfers that skip a generation."
-status: review
+status: published
 taxYear: 2026
 lastReviewed: "2026-08-20"
 reviewedBy: "Draft for I. Ohu review"

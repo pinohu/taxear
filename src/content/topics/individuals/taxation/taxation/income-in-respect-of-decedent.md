@@ -5,7 +5,7 @@ part: 1
 domain: "Taxation"
 section: "Taxation"
 description: "Income the decedent had earned but never received. It is taxed to whoever finally receives it, keeps the character it always had, and gets no step-up in basis."
-status: review
+status: published
 taxYear: 2026
 lastReviewed: "2026-08-19"
 reviewedBy: "Draft for I. Ohu review"

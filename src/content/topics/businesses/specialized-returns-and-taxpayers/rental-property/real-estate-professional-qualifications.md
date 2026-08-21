@@ -5,7 +5,7 @@ part: 2
 domain: "Specialized Returns and Taxpayers"
 section: "Rental property"
 description: "Real estate professional status has two hour tests that must both be met by one spouse alone, and it does not by itself make a single rental non-passive."
-status: review
+status: published
 taxYear: 2026
 lastReviewed: "2026-08-21"
 reviewedBy: "Draft for I. Ohu review"

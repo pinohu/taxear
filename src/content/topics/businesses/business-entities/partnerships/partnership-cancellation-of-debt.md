@@ -5,7 +5,7 @@ part: 2
 domain: "Business Entities"
 section: "Partnerships"
 description: "Discharge income is computed by the partnership and excluded by the partner. Whether a partnership loan is forgiven or repaid, the partner's basis falls either way."
-status: review
+status: published
 taxYear: 2026
 lastReviewed: "2026-08-21"
 reviewedBy: "Draft for I. Ohu review"

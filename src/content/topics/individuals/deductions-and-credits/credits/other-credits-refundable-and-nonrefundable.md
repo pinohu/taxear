@@ -5,7 +5,7 @@ part: 1
 domain: "Deductions and Credits"
 section: "Credits"
 description: "Two of the credits the outline names by title no longer exist, and every individual energy credit ended during 2025. What is left is a short list worth knowing exactly."
-status: review
+status: published
 taxYear: 2026
 lastReviewed: "2026-08-19"
 reviewedBy: "Draft for I. Ohu review"

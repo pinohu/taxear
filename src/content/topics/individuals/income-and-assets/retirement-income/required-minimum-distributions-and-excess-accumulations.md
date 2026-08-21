@@ -5,7 +5,7 @@ part: 1
 domain: "Income and Assets"
 section: "Retirement income"
 description: "The distribution is computed per account and the penalty is charged per taxpayer. Which accounts may be pooled to satisfy it decides whether there is a shortfall."
-status: review
+status: published
 taxYear: 2026
 lastReviewed: "2026-08-19"
 reviewedBy: "Draft for I. Ohu review"

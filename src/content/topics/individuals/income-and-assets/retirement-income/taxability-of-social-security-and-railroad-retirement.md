@@ -5,7 +5,7 @@ part: 1
 domain: "Income and Assets"
 section: "Retirement income"
 description: "The thresholds have never been indexed, so the formula captures more each year. The 2025 senior deduction does not change it — it comes off after the inclusion is fixed."
-status: review
+status: published
 taxYear: 2026
 lastReviewed: "2026-08-19"
 reviewedBy: "Draft for I. Ohu review"

@@ -5,7 +5,7 @@ part: 2
 domain: "Business Tax Preparation"
 section: "Advising the business taxpayer"
 description: "A statutory employee gets a Form W-2 and files Schedule C, which is the one combination that looks like an error and is not — and there are only four categories of them."
-status: review
+status: published
 taxYear: 2026
 lastReviewed: "2026-08-21"
 reviewedBy: "Draft for I. Ohu review"

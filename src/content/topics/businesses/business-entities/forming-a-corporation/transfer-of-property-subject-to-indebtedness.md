@@ -5,7 +5,7 @@ part: 2
 domain: "Business Entities"
 section: "Forming a corporation"
 description: "Debt assumed is not boot, but debt exceeding basis is gain — and it is gain even where the transferor has an overall loss. Deductible payables are left out of the count."
-status: review
+status: published
 taxYear: 2026
 lastReviewed: "2026-08-21"
 reviewedBy: "Draft for I. Ohu review"

@@ -5,7 +5,7 @@ part: 2
 domain: "Business Tax Preparation"
 section: "Analysis of financial records"
 description: "An income statement is not a tax return: gross income begins after cost of goods sold, and an examiner reconciles the two by duplicating the steps the preparer took."
-status: review
+status: published
 taxYear: 2026
 lastReviewed: "2026-08-21"
 reviewedBy: "Draft for I. Ohu review"

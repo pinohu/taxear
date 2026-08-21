@@ -5,7 +5,7 @@ part: 2
 domain: "Business Entities"
 section: "Partnerships"
 description: "Outside basis is one running account with a floor at zero. It is where a partner's share of partnership debt lives, and it is the first ceiling on every loss."
-status: review
+status: published
 taxYear: 2026
 lastReviewed: "2026-08-21"
 reviewedBy: "Draft for I. Ohu review"

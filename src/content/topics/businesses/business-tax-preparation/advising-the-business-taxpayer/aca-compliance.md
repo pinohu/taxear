@@ -5,7 +5,7 @@ part: 2
 domain: "Business Tax Preparation"
 section: "Advising the business taxpayer"
 description: "Applicable large employer status is measured on last year's workforce and counts hours rather than job titles, so a business can become one without hiring anybody new."
-status: review
+status: published
 taxYear: 2026
 lastReviewed: "2026-08-21"
 reviewedBy: "Draft for I. Ohu review"

@@ -5,7 +5,7 @@ part: 2
 domain: "Business Entities"
 section: "Forming a corporation"
 description: "Stock for services is compensation, and those shares are invisible to the control test. A token contribution of property alongside them does not cure that either."
-status: review
+status: published
 taxYear: 2026
 lastReviewed: "2026-08-21"
 reviewedBy: "Draft for I. Ohu review"

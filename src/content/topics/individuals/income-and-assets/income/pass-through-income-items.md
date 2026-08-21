@@ -5,7 +5,7 @@ part: 1
 domain: "Income and Assets"
 section: "Income"
 description: "A Schedule K-1 reports character as well as amount, and the individual return has to preserve it. Basis governs losses, and 2026 made the QBI deduction permanent."
-status: review
+status: published
 taxYear: 2026
 lastReviewed: "2026-08-19"
 reviewedBy: "Draft for I. Ohu review"

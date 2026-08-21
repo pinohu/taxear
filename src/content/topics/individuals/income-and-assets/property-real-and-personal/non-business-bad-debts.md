@@ -5,7 +5,7 @@ part: 1
 domain: "Income and Assets"
 section: "Property, real and personal"
 description: "A loan to a relative that goes bad is a short-term capital loss, however long it was outstanding — and only when it is worthless in full, never in part."
-status: review
+status: published
 taxYear: 2026
 lastReviewed: "2026-08-19"
 reviewedBy: "Draft for I. Ohu review"

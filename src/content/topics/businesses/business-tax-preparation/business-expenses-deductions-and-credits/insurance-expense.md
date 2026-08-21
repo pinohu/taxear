@@ -5,7 +5,7 @@ part: 2
 domain: "Business Tax Preparation"
 section: "Business expenses, deductions and credits"
 description: "Ordinary business insurance is deductible without qualification; a policy on a life the business benefits from is not, and prepayment meets a twelve-month rule."
-status: review
+status: published
 taxYear: 2026
 lastReviewed: "2026-08-21"
 reviewedBy: "Draft for I. Ohu review"

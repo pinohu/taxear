@@ -5,7 +5,7 @@ part: 2
 domain: "Business Entities"
 section: "Forming a corporation"
 description: "Control is tested immediately after the exchange and measured twice — voting power and share count. Services are not property, so a service provider cannot help."
-status: review
+status: published
 taxYear: 2026
 lastReviewed: "2026-08-21"
 reviewedBy: "Draft for I. Ohu review"

@@ -5,7 +5,7 @@ part: 2
 domain: "Business Tax Preparation"
 section: "Advising the business taxpayer"
 description: "Deposit schedule is fixed a year ahead by the lookback period, but a single $100,000 day overrides it and converts a monthly depositor to semi-weekly for two years."
-status: review
+status: published
 taxYear: 2026
 lastReviewed: "2026-08-21"
 reviewedBy: "Draft for I. Ohu review"

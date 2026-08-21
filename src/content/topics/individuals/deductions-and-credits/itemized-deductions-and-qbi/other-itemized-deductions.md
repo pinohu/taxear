@@ -5,7 +5,7 @@ part: 1
 domain: "Deductions and Credits"
 section: "Itemized deductions and QBI"
 description: "This is now a closed list of thirteen. Anything not on it is allowed nowhere, permanently — and the list is the only reason several deductions still exist."
-status: review
+status: published
 taxYear: 2026
 lastReviewed: "2026-08-19"
 reviewedBy: "Draft for I. Ohu review"

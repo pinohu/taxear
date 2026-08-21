@@ -5,7 +5,7 @@ part: 2
 domain: "Business Entities"
 section: "Partnerships"
 description: "Tax on a partnership adjustment is now assessed against the partnership, in a later year, at the highest rate. Electing out has to be done every year on a timely return."
-status: review
+status: published
 taxYear: 2026
 lastReviewed: "2026-08-21"
 reviewedBy: "Draft for I. Ohu review"

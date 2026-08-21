@@ -5,7 +5,7 @@ part: 2
 domain: "Business Tax Preparation"
 section: "Business assets"
 description: "Equipment left the section in 2018, so a trade-in is now a taxable sale, and replacement property inherits the old recovery period rather than starting again."
-status: review
+status: published
 taxYear: 2026
 lastReviewed: "2026-08-21"
 reviewedBy: "Draft for I. Ohu review"

@@ -5,7 +5,7 @@ part: 2
 domain: "Business Entities"
 section: "Corporations in general"
 description: "A redemption is a dividend unless it clears one of five tests, and the shareholder is treated as owning their family's stock while working out whether it does."
-status: review
+status: published
 taxYear: 2026
 lastReviewed: "2026-08-21"
 reviewedBy: "Draft for I. Ohu review"

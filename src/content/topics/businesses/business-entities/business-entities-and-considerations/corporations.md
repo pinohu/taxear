@@ -5,7 +5,7 @@ part: 2
 domain: "Business Entities and Considerations"
 section: "Business entities"
 description: "One flat rate, an April date rather than a March one, and a charitable deduction that from 2026 has a floor as well as a ceiling — the floor being the part nobody knows."
-status: review
+status: published
 taxYear: 2026
 lastReviewed: "2026-08-21"
 reviewedBy: "Draft for I. Ohu review"

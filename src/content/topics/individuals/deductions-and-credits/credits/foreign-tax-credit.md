@@ -5,7 +5,7 @@ part: 1
 domain: "Deductions and Credits"
 section: "Credits"
 description: "A credit with a ratio limitation, four separate baskets, a one-back ten-forward carryover, and an election that lets a small investor skip the whole apparatus."
-status: review
+status: published
 taxYear: 2026
 lastReviewed: "2026-08-19"
 reviewedBy: "Draft for I. Ohu review"

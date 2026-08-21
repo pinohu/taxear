@@ -5,7 +5,7 @@ part: 1
 domain: "Taxation"
 section: "Taxation"
 description: "The exemption was made permanent for 2026 and then made harder to keep: the phase-out threshold dropped and the rate at which it phases out was doubled."
-status: review
+status: published
 taxYear: 2026
 lastReviewed: "2026-08-19"
 reviewedBy: "Draft for I. Ohu review"

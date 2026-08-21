@@ -5,7 +5,7 @@ part: 1
 domain: "Income and Assets"
 section: "Property, real and personal"
 description: "Depreciation comes out of the exclusion first, then nonqualified use is allocated against the rest. Failing the two-year test does not always mean losing the exclusion."
-status: review
+status: published
 taxYear: 2026
 lastReviewed: "2026-08-19"
 reviewedBy: "Draft for I. Ohu review"

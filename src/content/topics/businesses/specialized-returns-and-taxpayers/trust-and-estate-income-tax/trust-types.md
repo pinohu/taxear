@@ -5,7 +5,7 @@ part: 2
 domain: "Specialized Returns and Taxpayers"
 section: "Trust and estate income tax"
 description: "Simple and complex are properties of a year rather than of a trust, and a grantor trust is neither, because for income tax purposes it is not a separate taxpayer at all."
-status: review
+status: published
 taxYear: 2026
 lastReviewed: "2026-08-21"
 reviewedBy: "Draft for I. Ohu review"

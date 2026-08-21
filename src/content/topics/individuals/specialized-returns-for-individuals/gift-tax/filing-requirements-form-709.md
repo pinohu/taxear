@@ -5,7 +5,7 @@ part: 1
 domain: "Specialized Returns for Individuals"
 section: "Gift tax"
 description: "Filing is decided by the exclusions, not by the tax. And a gift left off a return that needed it has no limitation period at all — the assessment clock never starts."
-status: review
+status: published
 taxYear: 2026
 lastReviewed: "2026-08-21"
 reviewedBy: "Draft for I. Ohu review"

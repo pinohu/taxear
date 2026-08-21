@@ -5,7 +5,7 @@ part: 1
 domain: "Preliminary Work and Taxpayer Data"
 section: "Preliminary work to prepare tax returns"
 description: "Gross income is everything unless a section says otherwise. The intake job is a sweep of the taxpayer's whole year, not a reconciliation of the forms that arrived."
-status: review
+status: published
 taxYear: 2026
 lastReviewed: "2026-08-19"
 reviewedBy: "Draft for I. Ohu review"

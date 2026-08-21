@@ -5,7 +5,7 @@ part: 1
 domain: "Specialized Returns for Individuals"
 section: "Estate tax"
 description: "Insurance is estate-taxed and income-tax free. A retirement account is both, and the beneficiary inherits the income tax charge along with the money. They are opposites."
-status: review
+status: published
 taxYear: 2026
 lastReviewed: "2026-08-20"
 reviewedBy: "Draft for I. Ohu review"

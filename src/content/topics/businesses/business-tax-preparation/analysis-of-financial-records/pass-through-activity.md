@@ -5,7 +5,7 @@ part: 2
 domain: "Business Tax Preparation"
 section: "Analysis of financial records"
 description: "Nondeductible expenses still reduce basis, and an item is separately stated whenever its character could give a different answer at owner level than inside the entity."
-status: review
+status: published
 taxYear: 2026
 lastReviewed: "2026-08-21"
 reviewedBy: "Draft for I. Ohu review"

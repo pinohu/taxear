@@ -5,7 +5,7 @@ part: 2
 domain: "Business Entities"
 section: "Forming a corporation"
 description: "Boot is a ceiling on gain, never a trigger for loss, and each asset is tested on its own. The holding period of the stock reaches back into the property given up."
-status: review
+status: published
 taxYear: 2026
 lastReviewed: "2026-08-21"
 reviewedBy: "Draft for I. Ohu review"

@@ -5,7 +5,7 @@ part: 1
 domain: "Income and Assets"
 section: "Income"
 description: "The receipts with no obvious home on the return. Each is included by IRC 61 unless a named section excludes it, and most of the exclusions are narrower than their names."
-status: review
+status: published
 taxYear: 2026
 lastReviewed: "2026-08-19"
 reviewedBy: "Draft for I. Ohu review"

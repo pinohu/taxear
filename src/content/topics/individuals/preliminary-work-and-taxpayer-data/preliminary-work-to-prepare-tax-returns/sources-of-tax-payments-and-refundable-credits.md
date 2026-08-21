@@ -5,7 +5,7 @@ part: 1
 domain: "Preliminary Work and Taxpayer Data"
 section: "Preliminary work to prepare tax returns"
 description: "Payments and refundable credits turn a computed liability into a refund or a balance due, and both are easy to miss because nothing on the return asks for them twice."
-status: review
+status: published
 taxYear: 2026
 lastReviewed: "2026-08-19"
 reviewedBy: "Draft for I. Ohu review"

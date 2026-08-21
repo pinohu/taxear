@@ -5,7 +5,7 @@ part: 1
 domain: "Advising the Individual Taxpayer"
 section: "Advising the individual taxpayer"
 description: "Two thresholds moved for 2026, and one of them moved retroactively — so the version of the rule most clients half-remember turns out never to have been law at all."
-status: review
+status: published
 taxYear: 2026
 lastReviewed: "2026-08-19"
 reviewedBy: "Draft for I. Ohu review"

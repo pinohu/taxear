@@ -5,7 +5,7 @@ part: 1
 domain: "Income and Assets"
 section: "Adjustments to Income"
 description: "Alimony is gone and moving expenses survive for two groups, the second of which exists only from 2026. The student loan cap is per return, not per loan or per student."
-status: review
+status: published
 taxYear: 2026
 lastReviewed: "2026-08-19"
 reviewedBy: "Draft for I. Ohu review"

@@ -5,7 +5,7 @@ part: 1
 domain: "Income and Assets"
 section: "Income"
 description: "For 2026 a gambler can break even on the year and still owe tax. The loss deduction is capped at 90 percent of losses, and the reporting threshold has moved."
-status: review
+status: published
 taxYear: 2026
 lastReviewed: "2026-08-19"
 reviewedBy: "Draft for I. Ohu review"

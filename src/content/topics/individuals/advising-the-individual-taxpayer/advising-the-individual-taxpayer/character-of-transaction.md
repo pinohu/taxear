@@ -5,7 +5,7 @@ part: 1
 domain: "Advising the Individual Taxpayer"
 section: "Advising the individual taxpayer"
 description: "The rate difference is the largest single lever in individual planning, and it is decided by facts set long before the sale — asset class, holding period and use."
-status: review
+status: published
 taxYear: 2026
 lastReviewed: "2026-08-20"
 reviewedBy: "Draft for I. Ohu review"

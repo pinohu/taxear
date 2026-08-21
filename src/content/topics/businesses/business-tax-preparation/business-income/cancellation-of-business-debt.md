@@ -5,7 +5,7 @@ part: 2
 domain: "Business Tax Preparation"
 section: "Business Income"
 description: "Forgiven debt is income unless a provision says otherwise, and the exception a cash-basis business relies on is that paying it would have produced a deduction."
-status: review
+status: published
 taxYear: 2026
 lastReviewed: "2026-08-21"
 reviewedBy: "Draft for I. Ohu review"

@@ -5,7 +5,7 @@ part: 2
 domain: "Specialized Returns and Taxpayers"
 section: "Rental property"
 description: "Prepaid rent is income when it arrives even for an accrual landlord, and the only reliable way to keep a deposit out of income is to be obliged to give it back."
-status: review
+status: published
 taxYear: 2026
 lastReviewed: "2026-08-21"
 reviewedBy: "Draft for I. Ohu review"

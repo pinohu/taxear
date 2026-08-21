@@ -5,7 +5,7 @@ part: 1
 domain: "Income and Assets"
 section: "Retirement income"
 description: "For an IRA the consequence is not an excise tax but destruction of the account, backdated to the first day of the year. For a plan it is a tax that compounds annually."
-status: review
+status: published
 taxYear: 2026
 lastReviewed: "2026-08-19"
 reviewedBy: "Draft for I. Ohu review"

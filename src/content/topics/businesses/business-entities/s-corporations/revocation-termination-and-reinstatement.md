@@ -5,7 +5,7 @@ part: 2
 domain: "Business Entities"
 section: "S corporations"
 description: "Revocation needs half the shares, not half the shareholders, and a single disqualifying share ends the election on the day it is issued rather than at year end."
-status: review
+status: published
 taxYear: 2026
 lastReviewed: "2026-08-21"
 reviewedBy: "Draft for I. Ohu review"

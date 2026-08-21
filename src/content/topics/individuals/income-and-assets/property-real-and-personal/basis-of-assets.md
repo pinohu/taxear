@@ -5,7 +5,7 @@ part: 1
 domain: "Income and Assets"
 section: "Property, real and personal"
 description: "Gifted property can carry two bases at once, and a sale between them produces neither gain nor loss. Basis falls by depreciation allowable whether or not it was claimed."
-status: review
+status: published
 taxYear: 2026
 lastReviewed: "2026-08-19"
 reviewedBy: "Draft for I. Ohu review"

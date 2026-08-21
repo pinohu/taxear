@@ -5,7 +5,7 @@ part: 1
 domain: "Income and Assets"
 section: "Income"
 description: "Compensation is gross income whoever pays it and whatever it is called. For 2026 the new tips and overtime deductions turn what used to be labelling into arithmetic."
-status: review
+status: published
 taxYear: 2026
 lastReviewed: "2026-08-19"
 reviewedBy: "Draft for I. Ohu review"

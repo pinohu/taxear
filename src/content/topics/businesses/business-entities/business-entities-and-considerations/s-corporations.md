@@ -5,7 +5,7 @@ part: 2
 domain: "Business Entities and Considerations"
 section: "Business entities"
 description: "One class of stock, a hundred shareholders that a family counts as one, a March election date, and a fringe benefit to a two percent owner that is wages."
-status: review
+status: published
 taxYear: 2026
 lastReviewed: "2026-08-21"
 reviewedBy: "Draft for I. Ohu review"

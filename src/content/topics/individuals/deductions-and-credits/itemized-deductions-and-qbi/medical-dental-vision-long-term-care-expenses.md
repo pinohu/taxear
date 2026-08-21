@@ -5,7 +5,7 @@ part: 1
 domain: "Deductions and Credits"
 section: "Itemized deductions and QBI"
 description: "The floor is a subtraction, not a threshold — clearing it does not make everything deductible. Over-the-counter medicine is out, and a tenant's ramp can be in."
-status: review
+status: published
 taxYear: 2026
 lastReviewed: "2026-08-19"
 reviewedBy: "Draft for I. Ohu review"

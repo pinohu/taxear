@@ -5,7 +5,7 @@ part: 1
 domain: "Preliminary Work and Taxpayer Data"
 section: "Preliminary work to prepare tax returns"
 description: "An exclusion keeps an amount out of gross income; an adjustment is a deduction IRC 62(a) names. The list is closed, and which side of it you are on decides a great deal."
-status: review
+status: published
 taxYear: 2026
 lastReviewed: "2026-08-19"
 reviewedBy: "Draft for I. Ohu review"

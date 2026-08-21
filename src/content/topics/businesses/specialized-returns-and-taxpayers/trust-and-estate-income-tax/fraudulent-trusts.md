@@ -5,7 +5,7 @@ part: 2
 domain: "Specialized Returns and Taxpayers"
 section: "Trust and estate income tax"
 description: "Every abusive trust scheme reduces to the same claim — that income can be assigned away from the person who earned it — and every one of them fails for the same reason."
-status: review
+status: published
 taxYear: 2026
 lastReviewed: "2026-08-21"
 reviewedBy: "Draft for I. Ohu review"

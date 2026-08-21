@@ -5,7 +5,7 @@ part: 2
 domain: "Business Entities"
 section: "S corporations"
 description: "Distributing appreciated property is a deemed sale that passes gain through to the shareholders, and distributing depreciated property destroys the loss outright."
-status: review
+status: published
 taxYear: 2026
 lastReviewed: "2026-08-21"
 reviewedBy: "Draft for I. Ohu review"

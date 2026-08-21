@@ -5,7 +5,7 @@ part: 2
 domain: "Business Tax Preparation"
 section: "Business Income"
 description: "Four limitations apply in a fixed order — basis, at-risk, passive activity, then excess business loss — and a loss must clear every one to be deductible."
-status: review
+status: published
 taxYear: 2026
 lastReviewed: "2026-08-21"
 reviewedBy: "Draft for I. Ohu review"

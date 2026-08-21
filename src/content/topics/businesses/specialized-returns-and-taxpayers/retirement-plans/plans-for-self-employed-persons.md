@@ -5,7 +5,7 @@ part: 2
 domain: "Specialized Returns and Taxpayers"
 section: "Retirement plans"
 description: "A SEP is funded by the employer alone and a SIMPLE by both, which is why the two have entirely different eligibility tests and entirely different ceilings."
-status: review
+status: published
 taxYear: 2026
 lastReviewed: "2026-08-21"
 reviewedBy: "Draft for I. Ohu review"

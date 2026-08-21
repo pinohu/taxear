@@ -5,7 +5,7 @@ part: 2
 domain: "Business Entities"
 section: "Partnerships"
 description: "IRC 704(e) is no longer headed family partnerships and no longer holds the recognition rule at all. The rule that decides these cases moved to section 761(b) in 2016."
-status: review
+status: published
 taxYear: 2026
 lastReviewed: "2026-08-21"
 reviewedBy: "Draft for I. Ohu review"

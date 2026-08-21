@@ -5,7 +5,7 @@ part: 2
 domain: "Business Entities"
 section: "Corporations in general"
 description: "The hundred percent rate is not a function of owning most of the stock. It needs an affiliated group and an election, and the charitable deduction now has a floor."
-status: review
+status: published
 taxYear: 2026
 lastReviewed: "2026-08-21"
 reviewedBy: "Draft for I. Ohu review"

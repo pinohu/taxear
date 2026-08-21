@@ -2,7 +2,7 @@
 number: "SS-4"
 title: "Application for Employer Identification Number (EIN)"
 description: "Application for an employer identification number. An exempt organisation should obtain one before applying for recognition, even where it has no employees."
-status: review
+status: published
 irsUrl: "https://www.irs.gov/forms-pubs/about-form-ss-4"
 topics: ["2.3.2.b"]
 lastReviewed: "2026-08-21"

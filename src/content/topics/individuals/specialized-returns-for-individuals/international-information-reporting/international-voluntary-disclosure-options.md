@@ -5,7 +5,7 @@ part: 1
 domain: "Specialized Returns for Individuals"
 section: "International information reporting"
 description: "Willfulness picks the route, and the taxpayer has to say which it was. One programme needs a certification it was not; the other needs a signed statement that it was."
-status: review
+status: published
 taxYear: 2026
 lastReviewed: "2026-08-21"
 reviewedBy: "Draft for I. Ohu review"

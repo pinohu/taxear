@@ -5,7 +5,7 @@ part: 2
 domain: "Business Tax Preparation"
 section: "Analysis of financial records"
 description: "Schedule M-1 ends at taxable income for a C corporation and at Schedule K income for a pass-through, and the Schedule M-3 trigger is total assets rather than receipts."
-status: review
+status: published
 taxYear: 2026
 lastReviewed: "2026-08-21"
 reviewedBy: "Draft for I. Ohu review"

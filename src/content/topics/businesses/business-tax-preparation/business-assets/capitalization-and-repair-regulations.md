@@ -5,7 +5,7 @@ part: 2
 domain: "Business Tax Preparation"
 section: "Business assets"
 description: "The improvement test is applied to the building structure and each building system separately, which is why a roof is capitalised and a furnace replacement is too."
-status: review
+status: published
 taxYear: 2026
 lastReviewed: "2026-08-21"
 reviewedBy: "Draft for I. Ohu review"

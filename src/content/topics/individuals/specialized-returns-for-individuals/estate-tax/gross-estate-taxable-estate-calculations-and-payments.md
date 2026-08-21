@@ -5,7 +5,7 @@ part: 1
 domain: "Specialized Returns for Individuals"
 section: "Estate tax"
 description: "Lifetime gifts do not shrink the exclusion. They are added back to the base, and the credit is applied once — a distinction that changes every answer built on it."
-status: review
+status: published
 taxYear: 2026
 lastReviewed: "2026-08-20"
 reviewedBy: "Draft for I. Ohu review"

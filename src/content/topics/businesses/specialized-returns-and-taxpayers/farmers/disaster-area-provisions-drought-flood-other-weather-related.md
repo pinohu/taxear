@@ -5,7 +5,7 @@ part: 2
 domain: "Specialized Returns and Taxpayers"
 section: "Farmers"
 description: "Weather relief for a farm comes in four separate pieces, and a single drought can engage all four at once with different deadlines running on each of them."
-status: review
+status: published
 taxYear: 2026
 lastReviewed: "2026-08-21"
 reviewedBy: "Draft for I. Ohu review"

@@ -5,7 +5,7 @@ part: 2
 domain: "Business Entities and Considerations"
 section: "Business entities"
 description: "Hobby income is taxed and hobby expenses are not deductible at all. The offset that section 183 promises was suspended in 2018 and made permanent in 2025."
-status: review
+status: published
 taxYear: 2026
 lastReviewed: "2026-08-21"
 reviewedBy: "Draft for I. Ohu review"

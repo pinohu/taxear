@@ -5,7 +5,7 @@ part: 2
 domain: "Business Tax Preparation"
 section: "Business Income"
 description: "Gross income from a business is total sales less cost of goods sold plus everything else, and a business cannot net its selling expenses into that figure."
-status: review
+status: published
 taxYear: 2026
 lastReviewed: "2026-08-21"
 reviewedBy: "Draft for I. Ohu review"

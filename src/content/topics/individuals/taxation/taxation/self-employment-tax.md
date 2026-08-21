@@ -5,7 +5,7 @@ part: 1
 domain: "Taxation"
 section: "Taxation"
 description: "Who owes it, what escapes it, and the two optional methods that let a taxpayer report more income than they earned. The computation itself lives on the adjustments page."
-status: review
+status: published
 taxYear: 2026
 lastReviewed: "2026-08-19"
 reviewedBy: "Draft for I. Ohu review"

@@ -5,7 +5,7 @@ part: 1
 domain: "Income and Assets"
 section: "Retirement income"
 description: "A plan loan is a distribution unless it fits an exception. When it fails, the tax is real but the money is not — the balance is untouched and nothing can be rolled over."
-status: review
+status: published
 taxYear: 2026
 lastReviewed: "2026-08-19"
 reviewedBy: "Draft for I. Ohu review"

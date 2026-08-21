@@ -5,7 +5,7 @@ part: 2
 domain: "Specialized Returns and Taxpayers"
 section: "Exempt organizations"
 description: "Applying is a deadline problem before it is a paperwork problem: 27 months from the end of the month of formation, and after that recognition runs only from filing."
-status: review
+status: published
 taxYear: 2026
 lastReviewed: "2026-08-21"
 reviewedBy: "Draft for I. Ohu review"

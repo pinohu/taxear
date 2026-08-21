@@ -5,7 +5,7 @@ part: 2
 domain: "Specialized Returns and Taxpayers"
 section: "Farmers"
 description: "Farm depreciation is ordinary MACRS with four twists: a five-year class for machinery, a ten-year class for structures and trees, and two elections found nowhere else."
-status: review
+status: published
 taxYear: 2026
 lastReviewed: "2026-08-21"
 reviewedBy: "Draft for I. Ohu review"

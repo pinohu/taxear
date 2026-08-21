@@ -5,7 +5,7 @@ part: 1
 domain: "Deductions and Credits"
 section: "Itemized deductions and QBI"
 description: "A floor arrived in 2026 and a non-itemizer deduction came back. Cash of any amount needs a bank record, and the well-known threshold governs something different."
-status: review
+status: published
 taxYear: 2026
 lastReviewed: "2026-08-19"
 reviewedBy: "Draft for I. Ohu review"

@@ -5,7 +5,7 @@ part: 1
 domain: "Advising the Individual Taxpayer"
 section: "Advising the individual taxpayer"
 description: "Timing is the only lever left once the year is under way. What moves a deduction is delivery and payment, not intention, and three rules block the obvious moves."
-status: review
+status: published
 taxYear: 2026
 lastReviewed: "2026-08-20"
 reviewedBy: "Draft for I. Ohu review"

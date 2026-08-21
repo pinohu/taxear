@@ -5,7 +5,7 @@ part: 1
 domain: "Specialized Returns for Individuals"
 section: "International information reporting"
 description: "Every penalty here runs from a notice, not the due date, and each has a 90-day grace. The lasting damage is the limitation period, which does not start until you file."
-status: review
+status: published
 taxYear: 2026
 lastReviewed: "2026-08-21"
 reviewedBy: "Draft for I. Ohu review"

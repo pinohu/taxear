@@ -5,7 +5,7 @@ part: 1
 domain: "Income and Assets"
 section: "Property, real and personal"
 description: "Total basis never changes on a split — it is spread thinner. The date that governs the allocation is the distribution date, not the record date, and lots default to FIFO."
-status: review
+status: published
 taxYear: 2026
 lastReviewed: "2026-08-19"
 reviewedBy: "Draft for I. Ohu review"

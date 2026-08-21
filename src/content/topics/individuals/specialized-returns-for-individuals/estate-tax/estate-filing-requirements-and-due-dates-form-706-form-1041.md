@@ -5,7 +5,7 @@ part: 1
 domain: "Specialized Returns for Individuals"
 section: "Estate tax"
 description: "Three returns, three deadlines, and a filing threshold that lifetime gifts quietly lower. The estate that owes nothing is still the one most likely to file late."
-status: review
+status: published
 taxYear: 2026
 lastReviewed: "2026-08-20"
 reviewedBy: "Draft for I. Ohu review"

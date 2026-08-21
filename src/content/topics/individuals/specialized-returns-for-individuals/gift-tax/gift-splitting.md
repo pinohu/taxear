@@ -5,7 +5,7 @@ part: 1
 domain: "Specialized Returns for Individuals"
 section: "Gift tax"
 description: "Splitting doubles the annual exclusion and costs joint liability for the whole year. It is all or nothing, it has a deadline, and after that deadline it cannot be undone."
-status: review
+status: published
 taxYear: 2026
 lastReviewed: "2026-08-20"
 reviewedBy: "Draft for I. Ohu review"

@@ -5,7 +5,7 @@ part: 1
 domain: "Deductions and Credits"
 section: "Itemized deductions and QBI"
 description: "The section 199A deduction is permanent now, and the sunset was replaced by a floor. What changed for 2026 is the width of the phase-in and a new minimum."
-status: review
+status: published
 taxYear: 2026
 lastReviewed: "2026-08-19"
 reviewedBy: "Draft for I. Ohu review"

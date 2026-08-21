@@ -5,7 +5,7 @@ part: 1
 domain: "Income and Assets"
 section: "Income"
 description: "Three forms, three statutes, three thresholds — and 2026 moved two of them in opposite directions. An information return is evidence about a payment, never a tax rule."
-status: review
+status: published
 taxYear: 2026
 lastReviewed: "2026-08-19"
 reviewedBy: "Draft for I. Ohu review"

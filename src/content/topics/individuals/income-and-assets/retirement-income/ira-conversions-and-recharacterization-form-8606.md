@@ -5,7 +5,7 @@ part: 1
 domain: "Income and Assets"
 section: "Retirement income"
 description: "Half of this topic no longer exists. A conversion cannot be recharacterized for any year after 2017, and the regulation that says otherwise was never withdrawn."
-status: review
+status: published
 taxYear: 2026
 lastReviewed: "2026-08-19"
 reviewedBy: "Draft for I. Ohu review"

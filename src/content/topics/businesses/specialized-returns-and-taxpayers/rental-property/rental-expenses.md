@@ -5,7 +5,7 @@ part: 2
 domain: "Specialized Returns and Taxpayers"
 section: "Rental property"
 description: "Two questions decide a rental expense: whether it is allocable to the rental at all, and whether it restores what was there or gives the property something new."
-status: review
+status: published
 taxYear: 2026
 lastReviewed: "2026-08-21"
 reviewedBy: "Draft for I. Ohu review"

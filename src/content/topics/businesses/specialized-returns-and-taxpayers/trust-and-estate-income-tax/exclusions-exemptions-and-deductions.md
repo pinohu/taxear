@@ -5,7 +5,7 @@ part: 2
 domain: "Specialized Returns and Taxpayers"
 section: "Trust and estate income tax"
 description: "Three of the four fiduciary exemptions have never been indexed, and a charitable deduction needs both authority in the instrument and a payment made out of gross income."
-status: review
+status: published
 taxYear: 2026
 lastReviewed: "2026-08-21"
 reviewedBy: "Draft for I. Ohu review"

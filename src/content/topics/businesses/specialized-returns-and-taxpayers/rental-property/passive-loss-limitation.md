@@ -5,7 +5,7 @@ part: 2
 domain: "Specialized Returns and Taxpayers"
 section: "Rental property"
 description: "The special allowance is capped, phased out on a figure that is not ordinary adjusted gross income, and gone entirely for most people who would want it."
-status: review
+status: published
 taxYear: 2026
 lastReviewed: "2026-08-21"
 reviewedBy: "Draft for I. Ohu review"

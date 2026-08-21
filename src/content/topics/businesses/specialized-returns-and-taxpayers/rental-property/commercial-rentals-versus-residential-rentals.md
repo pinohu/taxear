@@ -5,7 +5,7 @@ part: 2
 domain: "Specialized Returns and Taxpayers"
 section: "Rental property"
 description: "The line between residential and commercial rental property is drawn by an income test rather than by what the building looks like, and it can move year to year."
-status: review
+status: published
 taxYear: 2026
 lastReviewed: "2026-08-21"
 reviewedBy: "Draft for I. Ohu review"

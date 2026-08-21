@@ -5,7 +5,7 @@ part: 1
 domain: "Income and Assets"
 section: "Retirement income"
 description: "The appreciation is left out of income and out of basis, and it is long term whenever it is sold. Rolling the shares to an IRA destroys all of that, permanently."
-status: review
+status: published
 taxYear: 2026
 lastReviewed: "2026-08-19"
 reviewedBy: "Draft for I. Ohu review"

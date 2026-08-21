@@ -5,7 +5,7 @@ part: 2
 domain: "Business Tax Preparation"
 section: "Advising the business taxpayer"
 description: "An accountable plan needs all three conditions, and an employee cannot rescue a nonaccountable one by voluntarily substantiating expenses the arrangement never required."
-status: review
+status: published
 taxYear: 2026
 lastReviewed: "2026-08-21"
 reviewedBy: "Draft for I. Ohu review"

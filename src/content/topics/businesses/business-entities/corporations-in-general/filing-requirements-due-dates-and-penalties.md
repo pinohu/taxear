@@ -5,7 +5,7 @@ part: 2
 domain: "Business Entities"
 section: "Corporations in general"
 description: "The June year end lost its extra month for years beginning after 2025, so 2026 is the changeover. Failing to file and failing to pay do not simply add up either."
-status: review
+status: published
 taxYear: 2026
 lastReviewed: "2026-08-21"
 reviewedBy: "Draft for I. Ohu review"

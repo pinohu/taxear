@@ -5,7 +5,7 @@ part: 2
 domain: "Specialized Returns and Taxpayers"
 section: "Retirement plans"
 description: "Plan reporting runs on a plan-year calendar rather than a tax-year one, and the penalty for missing it was multiplied by ten for filings due after 2019."
-status: review
+status: published
 taxYear: 2026
 lastReviewed: "2026-08-21"
 reviewedBy: "Draft for I. Ohu review"

@@ -5,7 +5,7 @@ part: 2
 domain: "Business Tax Preparation"
 section: "Analysis of financial records"
 description: "A loan out of an S corporation reduces debt basis before it is repaid, so a repayment made while that basis is reduced produces gain the shareholder did not expect."
-status: review
+status: published
 taxYear: 2026
 lastReviewed: "2026-08-21"
 reviewedBy: "Draft for I. Ohu review"

@@ -5,7 +5,7 @@ part: 2
 domain: "Business Tax Preparation"
 section: "Advising the business taxpayer"
 description: "Accelerating a deduction is only worth doing if the deduction has somewhere to go, and the limitations that decide that run in a fixed order the taxpayer cannot alter."
-status: review
+status: published
 taxYear: 2026
 lastReviewed: "2026-08-21"
 reviewedBy: "Draft for I. Ohu review"

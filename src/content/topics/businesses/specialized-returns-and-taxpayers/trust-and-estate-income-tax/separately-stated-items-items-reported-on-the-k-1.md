@@ -5,7 +5,7 @@ part: 2
 domain: "Specialized Returns and Taxpayers"
 section: "Trust and estate income tax"
 description: "A first-tier beneficiary is taxed on income required to be distributed whether or not it ever arrives, and character reaches every beneficiary in the same proportions."
-status: review
+status: published
 taxYear: 2026
 lastReviewed: "2026-08-21"
 reviewedBy: "Draft for I. Ohu review"

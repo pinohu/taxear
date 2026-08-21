@@ -5,7 +5,7 @@ part: 1
 domain: "Income and Assets"
 section: "Property, real and personal"
 description: "Losses from one PTP offset only that PTP's income, and stay suspended until the whole interest goes. On sale, part of the gain is ordinary however long it was held."
-status: review
+status: published
 taxYear: 2026
 lastReviewed: "2026-08-19"
 reviewedBy: "Draft for I. Ohu review"

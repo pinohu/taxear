@@ -5,7 +5,7 @@ part: 1
 domain: "Income and Assets"
 section: "Income"
 description: "Royalties are ordinary income, but which schedule they belong on decides self-employment tax — and a transfer of a whole patent is a capital gain, not a royalty."
-status: review
+status: published
 taxYear: 2026
 lastReviewed: "2026-08-19"
 reviewedBy: "Draft for I. Ohu review"

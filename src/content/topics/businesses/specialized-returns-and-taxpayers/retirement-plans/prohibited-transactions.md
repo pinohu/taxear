@@ -5,7 +5,7 @@ part: 2
 domain: "Specialized Returns and Taxpayers"
 section: "Retirement plans"
 description: "The excise tax on a prohibited transaction is bad; the consequence for an IRA is worse, because the account simply stops being one on the first day of the year."
-status: review
+status: published
 taxYear: 2026
 lastReviewed: "2026-08-21"
 reviewedBy: "Draft for I. Ohu review"

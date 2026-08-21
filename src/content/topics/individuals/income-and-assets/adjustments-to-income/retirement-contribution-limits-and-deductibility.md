@@ -5,7 +5,7 @@ part: 1
 domain: "Income and Assets"
 section: "Adjustments to Income"
 description: "Four limits operate at once and only one is the headline figure. The compensation test binds first, and the IRA deadline is the one that ignores an extension."
-status: review
+status: published
 taxYear: 2026
 lastReviewed: "2026-08-19"
 reviewedBy: "Draft for I. Ohu review"

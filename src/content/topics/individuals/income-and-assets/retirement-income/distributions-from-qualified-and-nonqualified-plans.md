@@ -5,7 +5,7 @@ part: 1
 domain: "Income and Assets"
 section: "Retirement income"
 description: "A plan distribution is taxed under IRC 72, and the questions that matter are whether it can be rolled over and whether the taxpayer has after-tax money in the plan."
-status: review
+status: published
 taxYear: 2026
 lastReviewed: "2026-08-19"
 reviewedBy: "Draft for I. Ohu review"

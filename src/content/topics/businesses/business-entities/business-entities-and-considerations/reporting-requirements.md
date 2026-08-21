@@ -5,7 +5,7 @@ part: 2
 domain: "Business Entities and Considerations"
 section: "Business entities"
 description: "The 1099 threshold has moved, and the 1099-K threshold moved back as though it never left. Both changes first operate for 2026, and most sources have not caught up."
-status: review
+status: published
 taxYear: 2026
 lastReviewed: "2026-08-21"
 reviewedBy: "Draft for I. Ohu review"

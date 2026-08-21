@@ -5,7 +5,7 @@ part: 1
 domain: "Income and Assets"
 section: "Income"
 description: "A distribution is only a dividend to the extent of earnings and profits, and only a qualified dividend if a holding period is met. Both tests are done for you badly."
-status: review
+status: published
 taxYear: 2026
 lastReviewed: "2026-08-19"
 reviewedBy: "Draft for I. Ohu review"

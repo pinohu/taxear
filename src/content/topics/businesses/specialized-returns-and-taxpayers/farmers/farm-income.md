@@ -5,7 +5,7 @@ part: 2
 domain: "Specialized Returns and Taxpayers"
 section: "Farmers"
 description: "Raised livestock and purchased livestock are taxed on different amounts, and almost every farm income question turns on which of the two the facts describe."
-status: review
+status: published
 taxYear: 2026
 lastReviewed: "2026-08-21"
 reviewedBy: "Draft for I. Ohu review"

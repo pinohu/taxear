@@ -5,7 +5,7 @@ part: 2
 domain: "Business Entities"
 section: "Corporations in general"
 description: "Almost no corporation pays the corporate minimum tax, and the ones that do carry the credit forever. Everyone else has a tentative minimum tax of exactly zero."
-status: review
+status: published
 taxYear: 2026
 lastReviewed: "2026-08-21"
 reviewedBy: "Draft for I. Ohu review"

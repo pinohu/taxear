@@ -5,7 +5,7 @@ part: 1
 domain: "Deductions and Credits"
 section: "Credits"
 description: "The largest refundable credit on an individual return, with a cliff rather than a phase-out for investment income, and a due diligence regime aimed at the preparer."
-status: review
+status: published
 taxYear: 2026
 lastReviewed: "2026-08-19"
 reviewedBy: "Draft for I. Ohu review"

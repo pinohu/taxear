@@ -5,7 +5,7 @@ part: 1
 domain: "Income and Assets"
 section: "Income"
 description: "Forgiven debt is income unless a named exclusion applies, and two of the exclusions clients relied on have just closed. Recourse and nonrecourse part company entirely."
-status: review
+status: published
 taxYear: 2026
 lastReviewed: "2026-08-19"
 reviewedBy: "Draft for I. Ohu review"

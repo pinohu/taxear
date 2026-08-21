@@ -5,7 +5,7 @@ part: 1
 domain: "Income and Assets"
 section: "Retirement income"
 description: "The additional tax reaches only the includible portion, and the exceptions divide into three groups — those for every plan, those barred to IRAs, and those only IRAs get."
-status: review
+status: published
 taxYear: 2026
 lastReviewed: "2026-08-19"
 reviewedBy: "Draft for I. Ohu review"

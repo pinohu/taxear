@@ -5,7 +5,7 @@ part: 2
 domain: "Specialized Returns and Taxpayers"
 section: "Exempt organizations"
 description: "The Form 990 an organization files is set by gross receipts and assets, but the penalty for filing it late is set by gross receipts alone, on a sharply stepped scale."
-status: review
+status: published
 taxYear: 2026
 lastReviewed: "2026-08-21"
 reviewedBy: "Draft for I. Ohu review"

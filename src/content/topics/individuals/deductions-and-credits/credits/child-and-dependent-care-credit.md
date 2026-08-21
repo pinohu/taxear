@@ -5,7 +5,7 @@ part: 1
 domain: "Deductions and Credits"
 section: "Credits"
 description: "For 2026 this credit is worth far more than it was. The rate now starts at 50 percent and steps down in two stages, and the companion exclusion rose by half."
-status: review
+status: published
 taxYear: 2026
 lastReviewed: "2026-08-19"
 reviewedBy: "Draft for I. Ohu review"
