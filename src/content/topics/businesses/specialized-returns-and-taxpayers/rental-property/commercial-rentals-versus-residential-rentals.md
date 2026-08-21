@@ -17,7 +17,7 @@ authorities:
   - { type: IRC, ref: "§ 469", title: "Passive activity losses and credits limited", url: "https://www.law.cornell.edu/uscode/text/26/469" }
   - { type: IRC, ref: "§ 1245", title: "Gain from dispositions of certain depreciable property", url: "https://www.law.cornell.edu/uscode/text/26/1245" }
 forms: []
-related: ["2.3.5.a", "2.3.5.f", "2.3.5.e", "2.3.5.d"]
+related: ["2.3.5.a", "2.3.5.f", "2.3.5.e", "2.3.5.d", "2.3.5.c"]
 changelog:
   - { date: "2026-08-21", summary: "Initial draft. Sets out the IRC § 168(e)(2)(A) 80 percent gross rental income test that decides residential status, the dwelling unit definition excluding transient establishments, the 27.5 and 39 year periods with their 30 and 40 year alternative depreciation system counterparts, the mid-month convention, and the asymmetry that qualified improvement property exists only for nonresidential buildings." }
 ---

@@ -14689,6 +14689,66 @@
       "taxYear": 2026,
       "source": "IRC § 168, read at law.cornell.edu/uscode/text/26/168",
       "verified": "2026-08-21"
+    },
+    "vh.general": {
+      "value": "no deduction otherwise allowable is allowed to an individual or an S corporation with respect to the use of a dwelling unit used by the taxpayer during the taxable year as a residence, except as IRC § 280A itself provides; the bar does not reach deductions allowable without regard to any connection with a trade or business or income-producing activity, such as qualified residence interest and property taxes (IRC § 280A(a), (b))",
+      "taxYear": 2026,
+      "source": "IRC § 280A, read at law.cornell.edu/uscode/text/26/280A",
+      "verified": "2026-08-21"
+    },
+    "vh.residence_test": {
+      "value": "a taxpayer uses a dwelling unit as a residence for the year if personal use exceeds the greater of 14 days or 10 percent of the number of days the unit is rented at a fair rental during the year, and a day used for personal purposes is not counted as a day rented at a fair rental (IRC § 280A(d)(1))",
+      "taxYear": 2026,
+      "source": "IRC § 280A, read at law.cornell.edu/uscode/text/26/280A",
+      "verified": "2026-08-21"
+    },
+    "vh.personal_use": {
+      "value": "a day counts as personal use if for any part of it the unit is used by the taxpayer, by anyone else with an interest in it, or by a member of the family of either as defined in IRC § 267(c)(4); by anyone under a reciprocal arrangement letting the taxpayer use another dwelling unit; or by anyone else unless the unit is rented that day for what is on the facts a fair rental (IRC § 280A(d)(2))",
+      "taxYear": 2026,
+      "source": "IRC § 280A, read at law.cornell.edu/uscode/text/26/280A",
+      "verified": "2026-08-21"
+    },
+    "vh.repair_days": {
+      "value": "the Secretary is to prescribe when use for repairs and annual maintenance is not personal use, and may not treat a day as personal use merely because other individuals on the premises are not working, where the taxpayer is engaged in repair and maintenance substantially full time that day (IRC § 280A(d)(2))",
+      "taxYear": 2026,
+      "source": "IRC § 280A, read at law.cornell.edu/uscode/text/26/280A",
+      "verified": "2026-08-21"
+    },
+    "vh.family_principal_residence": {
+      "value": "a rental arrangement is not personal use for any period during which the unit is rented at a fair rental to any person for use as that person’s principal residence — so letting a house to a child at market rent as their home does not taint the year (IRC § 280A(d)(3)(A))",
+      "taxYear": 2026,
+      "source": "IRC § 280A, read at law.cornell.edu/uscode/text/26/280A",
+      "verified": "2026-08-21"
+    },
+    "vh.allocation": {
+      "value": "where an individual or S corporation uses a dwelling unit for personal purposes on any day in the year, whether or not it is used as a residence, deductions for expenses attributable to the rental may not exceed the proportion that the days rented at a fair rental bear to the total days the unit is used; the limit does not apply to deductions allowable whether or not the unit was rented (IRC § 280A(e))",
+      "taxYear": 2026,
+      "source": "IRC § 280A, read at law.cornell.edu/uscode/text/26/280A",
+      "verified": "2026-08-21"
+    },
+    "vh.gross_income_limit": {
+      "value": "where the unit is used as a residence, deductions attributable to the rental use may not exceed the gross income from that use less the deductions allocable to it that are allowable whether or not the unit was so used, and less the deductions allocable to the activity but not to that use; the disallowed amount carries forward to the succeeding year and is subject to the same limit there, whether or not the unit is a residence in that later year (IRC § 280A(c)(5))",
+      "taxYear": 2026,
+      "source": "IRC § 280A, read at law.cornell.edu/uscode/text/26/280A",
+      "verified": "2026-08-21"
+    },
+    "vh.15_day": {
+      "value": "notwithstanding any other provision of IRC § 280A or IRC § 183, where a dwelling unit is used by the taxpayer as a residence and is actually rented for fewer than 15 days in the year, no deduction on account of the rental use is allowed and the rental income is excluded from gross income under IRC § 61 entirely (IRC § 280A(g))",
+      "taxYear": 2026,
+      "source": "IRC § 280A, read at law.cornell.edu/uscode/text/26/280A",
+      "verified": "2026-08-21"
+    },
+    "vh.dwelling_unit_def": {
+      "value": "dwelling unit includes a house, apartment, condominium, mobile home, boat or similar property, together with all structures and other property appurtenant to it, but does not include any portion used exclusively as a hotel, motel, inn or similar establishment (IRC § 280A(f)(1))",
+      "taxYear": 2026,
+      "source": "IRC § 280A, read at law.cornell.edu/uscode/text/26/280A",
+      "verified": "2026-08-21"
+    },
+    "vh.183": {
+      "value": "where an activity of an individual or S corporation is not engaged in for profit, deductions are limited to those allowable without regard to profit motive, plus the deductions that would be allowable only if it were engaged in for profit, and those only to the extent gross income from the activity exceeds the first category (IRC § 183(a), (b))",
+      "taxYear": 2026,
+      "source": "IRC § 183, read at law.cornell.edu/uscode/text/26/183",
+      "verified": "2026-08-21"
     }
   }
 }
