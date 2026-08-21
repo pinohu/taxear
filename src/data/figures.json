@@ -13549,6 +13549,126 @@
       "taxYear": 2026,
       "source": "IRC § 6652(c)(1)(E), read at law.cornell.edu/uscode/text/26/6652",
       "verified": "2026-08-21"
+    },
+    "ubti.tax": {
+      "value": "a tax computed as provided in IRC § 11 — the corporate rate — is imposed for each taxable year on the unrelated business taxable income of every organization exempt under IRC § 501(a), other than an IRC § 501(c)(1) instrumentality or a trust taxed under IRC § 511(b), and of any state college or university and any corporation wholly owned by one (IRC § 511(a))",
+      "taxYear": 2026,
+      "source": "IRC § 511, read at law.cornell.edu/uscode/text/26/511",
+      "verified": "2026-08-21"
+    },
+    "ubti.definition": {
+      "value": "unrelated business taxable income means the gross income an organisation derives from any unrelated trade or business regularly carried on by it, less the deductions directly connected with carrying it on, both computed with the modifications in IRC § 512(b) (IRC § 512(a)(1))",
+      "taxYear": 2026,
+      "source": "IRC § 512, read at law.cornell.edu/uscode/text/26/512",
+      "verified": "2026-08-21"
+    },
+    "ubti.three_tests": {
+      "value": "the three tests are cumulative: the activity must be a trade or business, it must be regularly carried on, and it must not be substantially related to the exempt purpose. Failing any one of the three takes the activity outside the tax",
+      "taxYear": 2026,
+      "source": "IRC § 512, read at law.cornell.edu/uscode/text/26/512, with IRC § 513(a) and Treas. Reg. § 1.513-1",
+      "verified": "2026-08-21"
+    },
+    "ubti.unrelated_defined": {
+      "value": "unrelated trade or business means any trade or business the conduct of which is not substantially related — aside from the organisation’s need for the income or funds, or the use it makes of the profits — to the exercise of the purpose constituting the basis for its exemption (IRC § 513(a))",
+      "taxYear": 2026,
+      "source": "IRC § 513, read at law.cornell.edu/uscode/text/26/513",
+      "verified": "2026-08-21"
+    },
+    "ubti.exceptions": {
+      "value": "the term excludes a trade or business in which substantially all the work is performed for the organisation without compensation; one carried on by an IRC § 501(c)(3) organisation or a state college primarily for the convenience of its members, students, patients, officers or employees; and the selling of merchandise substantially all of which was received as gifts or contributions (IRC § 513(a)(1)-(3))",
+      "taxYear": 2026,
+      "source": "IRC § 513, read at law.cornell.edu/uscode/text/26/513",
+      "verified": "2026-08-21"
+    },
+    "ubti.fragmentation": {
+      "value": "trade or business includes any activity carried on for the production of income from the sale of goods or performance of services, and an activity does not lose its identity as a trade or business merely because it is carried on within a larger aggregate of similar activities or within a group of other activities that may or may not be related to the exempt purpose (IRC § 513(c))",
+      "taxYear": 2026,
+      "source": "IRC § 513, read at law.cornell.edu/uscode/text/26/513",
+      "verified": "2026-08-21"
+    },
+    "ubti.regularly": {
+      "value": "frequency and continuity, and the manner of pursuit, decide whether a business is regularly carried on, measured against comparable commercial activity — a hospital auxiliary running a sandwich stand for two weeks at a state fair is not regular, while a commercial parking lot operated one day a week all year is (Treas. Reg. § 1.513-1(c))",
+      "taxYear": 2026,
+      "source": "Treas. Reg. § 1.513-1, read at law.cornell.edu/cfr/text/26/1.513-1",
+      "verified": "2026-08-21"
+    },
+    "ubti.sponsorship": {
+      "value": "soliciting and receiving qualified sponsorship payments is not an unrelated trade or business; a qualified sponsorship payment is one made with no arrangement or expectation of any substantial return benefit beyond use or acknowledgement of the payer’s name, logo or product lines — acknowledgement does not extend to advertising, which includes qualitative or comparative language, price information, indications of savings or value, endorsements or inducements to purchase (IRC § 513(i))",
+      "taxYear": 2026,
+      "source": "IRC § 513, read at law.cornell.edu/uscode/text/26/513",
+      "verified": "2026-08-21"
+    },
+    "ubti.sponsorship_limits": {
+      "value": "a payment contingent on event attendance, broadcast ratings or other measures of public exposure is not a qualified sponsorship payment, the safe harbour does not reach periodicals or qualified convention and trade show activities, and a payment is split into qualifying and non-qualifying portions where only part of it would qualify on its own (IRC § 513(i)(2)(B), (3))",
+      "taxYear": 2026,
+      "source": "IRC § 513, read at law.cornell.edu/uscode/text/26/513",
+      "verified": "2026-08-21"
+    },
+    "ubti.lowcost": {
+      "value": "distributing low cost articles incidentally to the solicitation of charitable contributions, and exchanging or renting donor or member names and addresses with another such organisation, are not unrelated trades or businesses for an organisation contributions to which are deductible under IRC § 170(c)(2) or (3); a low cost article is one costing the distributing organisation no more than the indexed statutory amount, with all items sent to one distributee in a calendar year aggregated (IRC § 513(h))",
+      "taxYear": 2026,
+      "source": "IRC § 513, read at law.cornell.edu/uscode/text/26/513",
+      "verified": "2026-08-21"
+    },
+    "ubti.mod_investment": {
+      "value": "dividends, interest, payments with respect to securities loans, consideration for agreements to make loans, annuities and all directly connected deductions are excluded, as are royalties and their directly connected deductions (IRC § 512(b)(1), (2))",
+      "taxYear": 2026,
+      "source": "IRC § 512, read at law.cornell.edu/uscode/text/26/512",
+      "verified": "2026-08-21"
+    },
+    "ubti.mod_rents": {
+      "value": "rents from real property are excluded, along with rents from personal property leased with it where the personal property rents are an incidental amount of the total determined when that property is placed in service — but the exclusion fails if more than 50 percent of the total rent is attributable to the personal property, or if the rent depends on the income or profits derived by any person from the leased property other than by a fixed percentage of receipts or sales (IRC § 512(b)(3))",
+      "taxYear": 2026,
+      "source": "IRC § 512, read at law.cornell.edu/uscode/text/26/512",
+      "verified": "2026-08-21"
+    },
+    "ubti.mod_gains": {
+      "value": "gains and losses from the sale, exchange or other disposition of property are excluded, other than inventory and property held primarily for sale to customers in the ordinary course of business; also excluded are gains and losses from the lapse or termination of options on securities or real property held in investment activities and from forfeited good-faith deposits (IRC § 512(b)(5))",
+      "taxYear": 2026,
+      "source": "IRC § 512, read at law.cornell.edu/uscode/text/26/512",
+      "verified": "2026-08-21"
+    },
+    "ubti.specific_deduction": {
+      "value": "a specific deduction of $1,000 is allowed, except in computing the net operating loss; a diocese, province of a religious order or convention or association of churches gets a further specific deduction for each local unit equal to the lower of $1,000 or that unit’s gross income from unrelated trade or business (IRC § 512(b)(12))",
+      "taxYear": 2026,
+      "source": "IRC § 512, read at law.cornell.edu/uscode/text/26/512",
+      "verified": "2026-08-21"
+    },
+    "ubti.silo": {
+      "value": "an organisation with more than one unrelated trade or business computes unrelated business taxable income separately for each, including for net operating loss purposes and without the specific deduction; total unrelated business taxable income is the sum of those amounts less one specific deduction, and no single activity may contribute less than zero (IRC § 512(a)(6))",
+      "taxYear": 2026,
+      "source": "IRC § 512, read at law.cornell.edu/uscode/text/26/512",
+      "verified": "2026-08-21"
+    },
+    "ubti.silo_naics": {
+      "value": "each separate unrelated trade or business is identified by the first two digits of the NAICS code that most accurately describes it, working from the more specific six-digit code for the activity; the code must describe the unrelated activity rather than the exempt one, and each two-digit code is reported only once (Treas. Reg. § 1.512(a)-6(b))",
+      "taxYear": 2026,
+      "source": "Treas. Reg. § 1.512(a)-6(b), read at law.cornell.edu/cfr/text/26/1.512(a)-6",
+      "verified": "2026-08-21"
+    },
+    "ubti.controlled": {
+      "value": "a specified payment — interest, annuity, royalty or rent — received directly or indirectly by a controlling organisation from an entity it controls is included as gross income from an unrelated trade or business to the extent it reduces the controlled entity’s net unrelated income or increases its net unrelated loss, notwithstanding the exclusions for interest, royalties and rents (IRC § 512(b)(13))",
+      "taxYear": 2026,
+      "source": "IRC § 512, read at law.cornell.edu/uscode/text/26/512",
+      "verified": "2026-08-21"
+    },
+    "ubti.debt_financed": {
+      "value": "income from debt-financed property is included as unrelated business income in the proportion that the average acquisition indebtedness for the year bears to the average adjusted basis of the property, capped at 100 percent, with deductions allowed in the same proportion (IRC § 514(a); IRC § 512(b)(4))",
+      "taxYear": 2026,
+      "source": "IRC § 514, read at law.cornell.edu/uscode/text/26/514",
+      "verified": "2026-08-21"
+    },
+    "ubti.debt_financed_def": {
+      "value": "debt-financed property is any property held to produce income and subject to acquisition indebtedness at any time during the taxable year — or within the 12 months ending on disposition — excluding property substantially all the use of which is substantially related to the exempt purpose, property whose income is already counted in an unrelated trade or business, and property whose income is excluded under IRC § 512(b)(7), (8) or (9) (IRC § 514(b)(1))",
+      "taxYear": 2026,
+      "source": "IRC § 514, read at law.cornell.edu/uscode/text/26/514",
+      "verified": "2026-08-21"
+    },
+    "ubti.lowcost_amount": {
+      "value": "for taxable years beginning in 2026, a low cost article for purposes of IRC § 513(h)(2) is one costing $13.90 or less — the statutory figure is $5, indexed",
+      "taxYear": 2026,
+      "source": "Rev. Proc. 2025-32 § 3.43(1), read at irs.gov/pub/irs-drop/rp-25-32.pdf",
+      "verified": "2026-08-21"
     }
   }
 }
