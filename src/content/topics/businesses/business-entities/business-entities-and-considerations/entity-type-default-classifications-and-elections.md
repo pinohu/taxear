@@ -21,7 +21,7 @@ authorities:
   - { type: IRC, ref: "§ 1504(a)(2)", title: "Affiliated group; 80-percent voting and value test", url: "https://www.law.cornell.edu/uscode/text/26/1504" }
   - { type: IRC, ref: "§ 7701(a)(3)", title: "Corporation defined", url: "https://www.law.cornell.edu/uscode/text/26/7701" }
 forms: []
-related: ["2.1.1.a", "2.1.1.b", "2.1.1.c", "2.1.1.d", "2.1.1.e", "2.1.1.f", "2.1.1.h"]
+related: ["2.1.1.a", "2.1.1.b", "2.1.1.c", "2.1.1.d", "2.1.1.e", "2.1.1.f", "2.1.1.h", "2.1.1.i"]
 changelog:
   - { date: "2026-08-21", summary: "Initial draft. Sets out the Reg. § 301.7701-3(b) default classifications for domestic and foreign eligible entities, the Reg. § 301.7701-3(c)(2) signature requirements including the rule that former owners must sign a retroactive or changing election, the Reg. § 301.7701-3(d) relevance rules for foreign entities and the 60-month lapse, and the Reg. § 301.7701-3(g) deemed transactions on an elective change of classification with their timing, the Reg. § 301.7701-3(g)(2)(ii) deemed adoption of a plan of liquidation for IRC § 332, and the ordering rule for tiered entities." }
 ---

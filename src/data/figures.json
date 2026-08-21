@@ -8269,6 +8269,96 @@
       "taxYear": 2026,
       "source": "26 CFR § 301.6109-1(d)(2)(iii), read at law.cornell.edu/cfr/text/26/301.6109-1",
       "verified": "2026-08-21"
+    },
+    "period.taxable_year": {
+      "value": "the taxable year is the annual accounting period on the basis of which the taxpayer regularly computes income in keeping its books, if that period is a calendar year or a fiscal year; a calendar year is a period of 12 months ending 31 December and a fiscal year a period of 12 months ending on the last day of any other month (IRC § 441(b) to (e))",
+      "taxYear": 2026,
+      "source": "IRC § 441, read at law.cornell.edu/uscode/text/26/441",
+      "verified": "2026-08-21"
+    },
+    "period.no_books": {
+      "value": "the taxable year is the calendar year where the taxpayer keeps no books, has no annual accounting period, or has one that does not qualify as a fiscal year (IRC § 441(g))",
+      "taxYear": 2026,
+      "source": "IRC § 441(g), read at law.cornell.edu/uscode/text/26/441",
+      "verified": "2026-08-21"
+    },
+    "period.52_53_week": {
+      "value": "a taxpayer who in keeping its books regularly computes income on an annual period varying from 52 to 53 weeks, always ending on the same day of the week and always either on the last occurrence of that day in a calendar month or on the occurrence nearest the last day of a calendar month, may elect to compute taxable income on that basis (IRC § 441(f)(1))",
+      "taxYear": 2026,
+      "source": "IRC § 441(f), read at law.cornell.edu/uscode/text/26/441",
+      "verified": "2026-08-21"
+    },
+    "period.change_approval": {
+      "value": "a change of annual accounting period makes the new period the taxpayer taxable year only if the change is approved by the Secretary, and a taxpayer to whom IRC § 441(g) applies that adopts an annual accounting period other than a calendar year is treated as having changed its period (IRC § 442)",
+      "taxYear": 2026,
+      "source": "IRC § 442, read at law.cornell.edu/uscode/text/26/442",
+      "verified": "2026-08-21"
+    },
+    "period.short_period": {
+      "value": "a return for a period of less than 12 months is required where the taxpayer changes its annual accounting period with the approval of the Secretary — running from the day after the close of the former year to the close of the day before the first day of the new year — and where the taxpayer is in existence during only part of what would otherwise be its taxable year (IRC § 443(a)(1), (2))",
+      "taxYear": 2026,
+      "source": "IRC § 443(a), read at law.cornell.edu/uscode/text/26/443",
+      "verified": "2026-08-21"
+    },
+    "period.annualisation": {
+      "value": "on a change of annual accounting period the taxable income for the short period is placed on an annual basis by multiplying modified taxable income by 12 and dividing by the number of months in the short period; the tax is the same part of the tax so computed as the number of months in the short period is of 12 months, subject to the relief computation available on application (IRC § 443(b))",
+      "taxYear": 2026,
+      "source": "IRC § 443(b), read at law.cornell.edu/uscode/text/26/443",
+      "verified": "2026-08-21"
+    },
+    "period.partnership_required": {
+      "value": "a partnership may not have a taxable year other than the majority interest taxable year; failing that, the taxable year of all its principal partners; failing that, the calendar year unless regulations prescribe another period — save where it establishes a business purpose to the satisfaction of the Secretary, and deferral of income to partners is never a business purpose (IRC § 706(b)(1)(B), (C))",
+      "taxYear": 2026,
+      "source": "IRC § 706(b)(1), read at law.cornell.edu/uscode/text/26/706",
+      "verified": "2026-08-21"
+    },
+    "period.majority_interest": {
+      "value": "the majority interest taxable year is the taxable year which, on each testing day, was the taxable year of one or more partners holding an aggregate interest in partnership profits and capital of more than 50 percent, the testing day being the first day of the partnership taxable year or such representative period as the Secretary prescribes. A principal partner is one holding an interest of 5 percent or more in profits or capital, and a partnership required to change under this rule need not change again for either of the 2 following years (IRC § 706(b)(3), (4))",
+      "taxYear": 2026,
+      "source": "IRC § 706(b)(3), (4), read at law.cornell.edu/uscode/text/26/706",
+      "verified": "2026-08-21"
+    },
+    "period.s_corporation": {
+      "value": "the taxable year of an S corporation must be a permitted year: a year ending 31 December, or any other accounting period for which the corporation establishes a business purpose to the satisfaction of the Secretary — and deferral of income to shareholders is not a business purpose (IRC § 1378)",
+      "taxYear": 2026,
+      "source": "IRC § 1378, read at law.cornell.edu/uscode/text/26/1378",
+      "verified": "2026-08-21"
+    },
+    "period.444_limit": {
+      "value": "a partnership, S corporation or personal service corporation may elect a taxable year other than the required year only if the deferral period of the year elected is not longer than 3 months; where the entity is changing its taxable year, only if that deferral period is not longer than the shorter of 3 months or the deferral period of the year being changed (IRC § 444(b)(1), (2))",
+      "taxYear": 2026,
+      "source": "IRC § 444(b), read at law.cornell.edu/uscode/text/26/444",
+      "verified": "2026-08-21"
+    },
+    "period.deferral_period": {
+      "value": "the deferral period of a taxable year is the months between the beginning of that year and the close of the first required taxable year ending within it (IRC § 444(b)(4))",
+      "taxYear": 2026,
+      "source": "IRC § 444(b)(4), read at law.cornell.edu/uscode/text/26/444",
+      "verified": "2026-08-21"
+    },
+    "period.444_cost": {
+      "value": "an entity making the election must, if a partnership or S corporation, make the required payments under IRC § 7519, and if a personal service corporation, be subject to the deduction limitations of IRC § 280H. The election remains in effect until the entity changes its taxable year or otherwise terminates it (IRC § 444(c), (d)(2))",
+      "taxYear": 2026,
+      "source": "IRC § 444(c), (d), read at law.cornell.edu/uscode/text/26/444",
+      "verified": "2026-08-21"
+    },
+    "period.natural_business_year": {
+      "value": "a natural business year is established by the 25-percent gross receipts test: gross receipts from sales and services for the last 2 months of the 12-month period ending with the last month of the requested year, divided by gross receipts for that whole 12-month period, must equal or exceed 25 percent — and the same computation must do so for each of the two preceding 12-month periods ending with that month. The requested year does not qualify if any other annual accounting period produces a higher average of its three percentages, and a taxpayer without a 47-month history of gross receipts cannot establish a natural business year at all",
+      "taxYear": 2026,
+      "source": "Rev. Proc. 2006-46, read at irs.gov/pub/irs-drop/rp-06-46.pdf, section 5.07",
+      "verified": "2026-08-21"
+    },
+    "period.business_purpose_deemed": {
+      "value": "the business purpose requirement is generally satisfied, without adjustments to neutralise tax consequences, where the requested annual accounting period coincides with the taxpayer required taxable year, ownership taxable year or natural business year",
+      "taxYear": 2026,
+      "source": "Rev. Proc. 2006-46, read at irs.gov/pub/irs-drop/rp-06-46.pdf, section 2.06",
+      "verified": "2026-08-21"
+    },
+    "period.no_retroactive": {
+      "value": "unless specifically authorised by the Commissioner, a taxpayer may not request or otherwise make a retroactive change in annual accounting period, whether or not the change is to a required taxable year",
+      "taxYear": 2026,
+      "source": "Rev. Proc. 2006-46, read at irs.gov/pub/irs-drop/rp-06-46.pdf, section 2.03(3)",
+      "verified": "2026-08-21"
     }
   }
 }
