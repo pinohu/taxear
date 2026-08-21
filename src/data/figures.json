@@ -14821,6 +14821,66 @@
       "taxYear": 2026,
       "source": "IRC § 469, read at law.cornell.edu/uscode/text/26/469",
       "verified": "2026-08-21"
+    },
+    "ri.general": {
+      "value": "gross income includes rentals received or accrued for the occupancy of real estate or the use of personal property (Treas. Reg. § 1.61-8(a))",
+      "taxYear": 2026,
+      "source": "Treas. Reg. § 1.61-8, read at law.cornell.edu/cfr/text/26/1.61-8",
+      "verified": "2026-08-21"
+    },
+    "ri.advance": {
+      "value": "advance rentals are included in income for the year of receipt regardless of the period covered and regardless of the taxpayer’s method of accounting, except as IRC § 467 or published guidance provides otherwise — so an accrual-method landlord reports prepaid rent when it arrives (Treas. Reg. § 1.61-8(b))",
+      "taxYear": 2026,
+      "source": "Treas. Reg. § 1.61-8, read at law.cornell.edu/cfr/text/26/1.61-8",
+      "verified": "2026-08-21"
+    },
+    "ri.cancellation": {
+      "value": "an amount received by a lessor from a lessee for cancelling a lease is gross income for the year received, being essentially a substitute for rental payments; amounts received by a *lessee* for cancelling a lease are governed by IRC § 1241 instead (Treas. Reg. § 1.61-8(b))",
+      "taxYear": 2026,
+      "source": "Treas. Reg. § 1.61-8, read at law.cornell.edu/cfr/text/26/1.61-8",
+      "verified": "2026-08-21"
+    },
+    "ri.lessee_expenses": {
+      "value": "as a general rule, where a lessee pays any of the lessor’s expenses those payments are additional rental income of the lessor; and where a lessee places improvements on real estate which constitute in whole or in part a substitute for rent, the improvements are rental income to that extent (Treas. Reg. § 1.61-8(c))",
+      "taxYear": 2026,
+      "source": "Treas. Reg. § 1.61-8, read at law.cornell.edu/cfr/text/26/1.61-8",
+      "verified": "2026-08-21"
+    },
+    "ri.109": {
+      "value": "gross income does not include income other than rent derived by a lessor of real property on the termination of a lease, representing the value of the property attributable to buildings erected or other improvements made by the lessee (IRC § 109)",
+      "taxYear": 2026,
+      "source": "IRC § 109, read at law.cornell.edu/uscode/text/26/109",
+      "verified": "2026-08-21"
+    },
+    "ri.1019": {
+      "value": "neither the basis nor the adjusted basis of any portion of the real property is increased or diminished on account of income excludable under IRC § 109 — so the lessor takes the improvement free of tax and with no basis in it (IRC § 1019)",
+      "taxYear": 2026,
+      "source": "IRC § 1019, read at law.cornell.edu/uscode/text/26/1019",
+      "verified": "2026-08-21"
+    },
+    "ri.deposits": {
+      "value": "a security deposit the landlord is obliged to return is not income on receipt, because it is held subject to an obligation to repay; it becomes income in the year and to the extent the landlord becomes entitled to keep it — whereas an amount labelled a deposit but applied as final-period rent is advance rent taxed on receipt",
+      "taxYear": 2026,
+      "source": "Treas. Reg. § 1.61-8, read at law.cornell.edu/cfr/text/26/1.61-8",
+      "verified": "2026-08-21"
+    },
+    "ri.467": {
+      "value": "a section 467 rental agreement is any rental agreement for the use of tangible property under which at least one amount allocable to a calendar year’s use is payable after the close of the following calendar year, or under which the rent increases; the section does not apply where the aggregate payments and other consideration for the use do not exceed $250,000 (IRC § 467(d))",
+      "taxYear": 2026,
+      "source": "IRC § 467, read at law.cornell.edu/uscode/text/26/467",
+      "verified": "2026-08-21"
+    },
+    "ri.467_accrual": {
+      "value": "the lessor and lessee under a section 467 rental agreement take into account the rent accruing for the year, allocated in accordance with the agreement, plus interest for the year on amounts taken into account in prior years and still unpaid — an accrual on a present value basis regardless of the parties’ own methods (IRC § 467(a), (b))",
+      "taxYear": 2026,
+      "source": "IRC § 467, read at law.cornell.edu/uscode/text/26/467",
+      "verified": "2026-08-21"
+    },
+    "ri.183_presumption": {
+      "value": "where gross income from an activity exceeds the deductions attributable to it, computed without regard to profit motive, in 3 or more of the 5 consecutive taxable years ending with the year in question, the activity is presumed engaged in for profit unless the Secretary establishes otherwise; for an activity consisting in major part of breeding, training, showing or racing horses the test is 2 of 7 (IRC § 183(d))",
+      "taxYear": 2026,
+      "source": "IRC § 183(d), read at law.cornell.edu/uscode/text/26/183",
+      "verified": "2026-08-21"
     }
   }
 }
