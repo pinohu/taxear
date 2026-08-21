@@ -10,9 +10,9 @@ is indexed, and only the owner moves a page there (see `docs/VERIFICATION.md`).
 | Part | Topics | Stub | Draft | Review | Published | Words |
 |---|---:|---:|---:|---:|---:|---:|
 | 1. Individuals | 120 | 0 | 0 | 110 | 10 | 256,550 |
-| 2. Businesses | 119 | 21 | 0 | 98 | 0 | 230,120 |
+| 2. Businesses | 119 | 20 | 0 | 99 | 0 | 232,617 |
 | 3. Representation, Practices and Procedures | 121 | 0 | 0 | 0 | 121 | 257,674 |
-| **All parts** | **360** | **21** | **0** | **208** | **131** | **744,344** |
+| **All parts** | **360** | **20** | **0** | **209** | **131** | **746,841** |
 
 ## Part 1 — Individuals
 
@@ -373,7 +373,7 @@ is indexed, and only the owner moves a page there (see `docs/VERIFICATION.md`).
 
 | Code | Title | Status | Words | Last reviewed |
 |---|---|---|---:|---|
-| 2.3.2.a | [Qualifying for and maintaining tax-exempt status (e.g., IRC 501(c))](/businesses/specialized-returns-and-taxpayers/exempt-organizations/qualifying-for-and-maintaining-tax-exempt-status/) | stub | — | — |
+| 2.3.2.a | [Qualifying for and maintaining tax-exempt status (e.g., IRC 501(c))](/businesses/specialized-returns-and-taxpayers/exempt-organizations/qualifying-for-and-maintaining-tax-exempt-status/) | review | 2,497 | 2026-08-21 |
 | 2.3.2.b | [Applying for IRS tax-exempt status (e.g., Form 1023, Form 1024)](/businesses/specialized-returns-and-taxpayers/exempt-organizations/applying-for-irs-tax-exempt-status/) | stub | — | — |
 | 2.3.2.c | [Filing requirements (e.g., Form 990 series)](/businesses/specialized-returns-and-taxpayers/exempt-organizations/filing-requirements/) | stub | — | — |
 | 2.3.2.d | [Unrelated business taxable income](/businesses/specialized-returns-and-taxpayers/exempt-organizations/unrelated-business-taxable-income/) | stub | — | — |

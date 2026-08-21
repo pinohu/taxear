@@ -13207,6 +13207,156 @@
       "taxYear": 2026,
       "source": "IRC § 6654(l)(2), opened at law.cornell.edu/uscode/text/26/6654",
       "verified": "2026-08-21"
+    },
+    "eo.org_test": {
+      "value": "an organisation is organised exclusively for exempt purposes only if its articles limit its purposes to one or more exempt purposes and do not expressly empower it to engage, otherwise than as an insubstantial part of its activities, in activities that are not in furtherance of an exempt purpose (Treas. Reg. § 1.501(c)(3)-1(b)(1)(i))",
+      "taxYear": 2026,
+      "source": "Treas. Reg. § 1.501(c)(3)-1, read at law.cornell.edu/cfr/text/26/1.501(c)(3)-1",
+      "verified": "2026-08-21"
+    },
+    "eo.org_test_both": {
+      "value": "an organisation must be both organised and operated exclusively for one or more of the purposes specified in IRC § 501(c)(3); failing either test defeats the exemption (Treas. Reg. § 1.501(c)(3)-1(a)(1))",
+      "taxYear": 2026,
+      "source": "Treas. Reg. § 1.501(c)(3)-1, read at law.cornell.edu/cfr/text/26/1.501(c)(3)-1",
+      "verified": "2026-08-21"
+    },
+    "eo.dissolution": {
+      "value": "assets must be dedicated to an exempt purpose — satisfied where, on dissolution, the articles or state law send the assets to another exempt purpose or to federal, state or local government for a public purpose; an organisation fails the organisational test if its articles or state law would distribute assets to members or shareholders (Treas. Reg. § 1.501(c)(3)-1(b)(4))",
+      "taxYear": 2026,
+      "source": "Treas. Reg. § 1.501(c)(3)-1, read at law.cornell.edu/cfr/text/26/1.501(c)(3)-1",
+      "verified": "2026-08-21"
+    },
+    "eo.op_test": {
+      "value": "an organisation is operated exclusively for exempt purposes only if it engages primarily in activities accomplishing those purposes, and not if more than an insubstantial part of its activities is not in furtherance of an exempt purpose (Treas. Reg. § 1.501(c)(3)-1(c)(1))",
+      "taxYear": 2026,
+      "source": "Treas. Reg. § 1.501(c)(3)-1, read at law.cornell.edu/cfr/text/26/1.501(c)(3)-1",
+      "verified": "2026-08-21"
+    },
+    "eo.inurement": {
+      "value": "an organisation is not operated exclusively for exempt purposes if its net earnings inure in whole or in part to the benefit of private shareholders or individuals (Treas. Reg. § 1.501(c)(3)-1(c)(2))",
+      "taxYear": 2026,
+      "source": "Treas. Reg. § 1.501(c)(3)-1, read at law.cornell.edu/cfr/text/26/1.501(c)(3)-1",
+      "verified": "2026-08-21"
+    },
+    "eo.private_benefit": {
+      "value": "an organisation must serve a public rather than a private interest — it fails if it is operated for the benefit of private interests such as designated individuals, the creator or the creator’s family, shareholders of the organisation, or persons controlled directly or indirectly by those private interests (Treas. Reg. § 1.501(c)(3)-1(d)(1)(ii))",
+      "taxYear": 2026,
+      "source": "Treas. Reg. § 1.501(c)(3)-1, read at law.cornell.edu/cfr/text/26/1.501(c)(3)-1",
+      "verified": "2026-08-21"
+    },
+    "eo.charitable_defined": {
+      "value": "charitable is used in its generally accepted legal sense and includes relief of the poor, distressed or underprivileged; advancement of religion, education or science; erection or maintenance of public buildings, monuments or works; lessening the burdens of government; and promotion of social welfare by organisations designed to lessen neighbourhood tensions, eliminate prejudice and discrimination, defend human and civil rights secured by law, or combat community deterioration and juvenile delinquency (Treas. Reg. § 1.501(c)(3)-1(d)(2))",
+      "taxYear": 2026,
+      "source": "Treas. Reg. § 1.501(c)(3)-1, read at law.cornell.edu/cfr/text/26/1.501(c)(3)-1",
+      "verified": "2026-08-21"
+    },
+    "eo.action_lobby": {
+      "value": "an organisation is an action organisation, and so fails the operational test, if a substantial part of its activities is attempting to influence legislation by propaganda or otherwise — contacting or urging the public to contact members of a legislative body to propose, support or oppose legislation, or advocating the adoption or rejection of legislation (Treas. Reg. § 1.501(c)(3)-1(c)(3)(ii))",
+      "taxYear": 2026,
+      "source": "Treas. Reg. § 1.501(c)(3)-1, read at law.cornell.edu/cfr/text/26/1.501(c)(3)-1",
+      "verified": "2026-08-21"
+    },
+    "eo.action_campaign": {
+      "value": "an organisation is an action organisation if it participates or intervenes, directly or indirectly, in any political campaign on behalf of or in opposition to any candidate for public office, including publishing or distributing written statements and making oral statements for or against a candidate (Treas. Reg. § 1.501(c)(3)-1(c)(3)(iii))",
+      "taxYear": 2026,
+      "source": "Treas. Reg. § 1.501(c)(3)-1, read at law.cornell.edu/cfr/text/26/1.501(c)(3)-1",
+      "verified": "2026-08-21"
+    },
+    "eo.action_primary": {
+      "value": "an organisation is also an action organisation where its main objective may be attained only by legislation or the defeat of proposed legislation and it advocates or campaigns for that attainment, rather than engaging in nonpartisan analysis, study or research and making the results available to the public (Treas. Reg. § 1.501(c)(3)-1(c)(3)(iv))",
+      "taxYear": 2026,
+      "source": "Treas. Reg. § 1.501(c)(3)-1, read at law.cornell.edu/cfr/text/26/1.501(c)(3)-1",
+      "verified": "2026-08-21"
+    },
+    "eo.501h_test": {
+      "value": "an electing public charity loses exemption for lobbying only if it normally makes lobbying expenditures above its lobbying ceiling amount or grass roots expenditures above its grass roots ceiling amount, each ceiling being 150 percent of the corresponding nontaxable amount determined under IRC § 4911 (IRC § 501(h)(1), (2))",
+      "taxYear": 2026,
+      "source": "IRC § 501(h), read at law.cornell.edu/uscode/text/26/501",
+      "verified": "2026-08-21"
+    },
+    "eo.501h_eligible": {
+      "value": "the IRC § 501(h) election is open to organisations described in IRC § 501(c)(3) that are also described in the public charity categories of IRC § 170(b)(1)(A) — educational institutions, hospitals and medical research organisations, organisations supporting government schools, publicly supported organisations, agricultural research organisations and the rest — and that are not disqualified organisations; churches, their integrated auxiliaries and conventions or associations of churches may not elect (IRC § 501(h)(3), (4), (5))",
+      "taxYear": 2026,
+      "source": "IRC § 501(h), read at law.cornell.edu/uscode/text/26/501",
+      "verified": "2026-08-21"
+    },
+    "eo.4911_table": {
+      "value": "the lobbying nontaxable amount is the lesser of $1,000,000 or: 20 percent of exempt purpose expenditures not over $500,000; $100,000 plus 15 percent of the excess over $500,000 where expenditures are over $500,000 but not over $1,000,000; $175,000 plus 10 percent of the excess over $1,000,000 where they are over $1,000,000 but not over $1,500,000; and $225,000 plus 5 percent of the excess over $1,500,000 above that (IRC § 4911(c)(2))",
+      "taxYear": 2026,
+      "source": "IRC § 4911(c)(2), read at law.cornell.edu/uscode/text/26/4911",
+      "verified": "2026-08-21"
+    },
+    "eo.4911_grassroots": {
+      "value": "the grass roots nontaxable amount is 25 percent of the lobbying nontaxable amount for the same taxable year (IRC § 4911(c)(4))",
+      "taxYear": 2026,
+      "source": "IRC § 4911(c)(4), read at law.cornell.edu/uscode/text/26/4911",
+      "verified": "2026-08-21"
+    },
+    "eo.4912": {
+      "value": "an organisation that loses IRC § 501(c)(3) status for a year by reason of making lobbying expenditures owes a tax of 5 percent of those expenditures, and a manager who knowingly and willfully agreed to them without reasonable cause owes a further 5 percent (IRC § 4912(a), (b))",
+      "taxYear": 2026,
+      "source": "IRC § 4912, read at law.cornell.edu/uscode/text/26/4912",
+      "verified": "2026-08-21"
+    },
+    "eo.4955": {
+      "value": "a political expenditure by an IRC § 501(c)(3) organisation carries an initial tax of 10 percent on the organisation and 2.5 percent on a manager who knowingly agreed to it without reasonable cause; if the expenditure is not corrected within the taxable period the organisation owes 100 percent (IRC § 4955(a), (b))",
+      "taxYear": 2026,
+      "source": "IRC § 4955, read at law.cornell.edu/uscode/text/26/4955",
+      "verified": "2026-08-21"
+    },
+    "eo.4958_initial": {
+      "value": "an excess benefit transaction carries an initial tax of 25 percent of the excess benefit payable by the disqualified person, and 10 percent of the excess benefit payable by any organisation manager who knowingly participated, unless that participation was not willful and was due to reasonable cause (IRC § 4958(a))",
+      "taxYear": 2026,
+      "source": "IRC § 4958, read at law.cornell.edu/uscode/text/26/4958",
+      "verified": "2026-08-21"
+    },
+    "eo.4958_additional": {
+      "value": "where the excess benefit is not corrected within the taxable period, a further tax of 200 percent of the excess benefit is imposed on the disqualified person (IRC § 4958(b))",
+      "taxYear": 2026,
+      "source": "IRC § 4958, read at law.cornell.edu/uscode/text/26/4958",
+      "verified": "2026-08-21"
+    },
+    "eo.4958_definition": {
+      "value": "an excess benefit transaction is one in which an applicable tax-exempt organisation provides an economic benefit, directly or indirectly, to or for the use of a disqualified person worth more than the consideration received — and an economic benefit is not treated as consideration for services unless the organisation clearly indicated its intent to treat it that way (IRC § 4958(c)(1))",
+      "taxYear": 2026,
+      "source": "IRC § 4958, read at law.cornell.edu/uscode/text/26/4958",
+      "verified": "2026-08-21"
+    },
+    "eo.502": {
+      "value": "a feeder organisation — one operated for the primary purpose of carrying on a trade or business for profit — is not exempt merely because all its profits are payable to exempt organisations, though rents excludable under IRC § 512(b)(3), a business in which substantially all the work is done without compensation, and the sale of donated merchandise are not counted as a trade or business for this purpose (IRC § 502)",
+      "taxYear": 2026,
+      "source": "IRC § 502, read at law.cornell.edu/uscode/text/26/502",
+      "verified": "2026-08-21"
+    },
+    "eo.509a": {
+      "value": "private foundation means any domestic or foreign IRC § 501(c)(3) organisation other than one described in IRC § 170(b)(1)(A) other than clauses (vii) and (viii), one meeting the one-third public support and one-third investment income tests of IRC § 509(a)(2), a supporting organisation under IRC § 509(a)(3), or an organisation operated exclusively for testing for public safety (IRC § 509(a))",
+      "taxYear": 2026,
+      "source": "IRC § 509(a), read at law.cornell.edu/uscode/text/26/509",
+      "verified": "2026-08-21"
+    },
+    "eo.7428": {
+      "value": "a case of actual controversy over the initial or continuing qualification of an organisation under IRC § 501(c)(3) or § 170(c)(2), over private foundation or private operating foundation classification, or over the Secretary’s failure to determine any of those, may be taken for declaratory judgment to the United States Tax Court, the Court of Federal Claims or the District Court for the District of Columbia (IRC § 7428(a))",
+      "taxYear": 2026,
+      "source": "IRC § 7428(a), read at law.cornell.edu/uscode/text/26/7428",
+      "verified": "2026-08-21"
+    },
+    "eo.6033j_notice": {
+      "value": "after two consecutive missed annual returns or notices the Secretary must notify the organisation that the Service has no record of a filing for two consecutive years and warn it about the revocation that follows a third — a step added to IRC § 6033(j)(1) by Pub. L. 116-25 § 3102(a) on 1 July 2019",
+      "taxYear": 2026,
+      "source": "IRC § 6033, read at law.cornell.edu/uscode/text/26/6033",
+      "verified": "2026-08-21"
+    },
+    "eo.6033n": {
+      "value": "any organisation required to file a return under IRC § 6033 must file it in electronic form (IRC § 6033(n), added by Pub. L. 116-25 § 3101(a) on 1 July 2019)",
+      "taxYear": 2026,
+      "source": "IRC § 6033, read at law.cornell.edu/uscode/text/26/6033",
+      "verified": "2026-08-21"
+    },
+    "eo.reinstatement": {
+      "value": "an organisation whose exemption is automatically revoked must apply for reinstatement whether or not it was originally required to apply, and reinstatement may be made retroactive to the date of revocation if the organisation shows reasonable cause for each of the three failures (IRC § 6033(j)(2), (3))",
+      "taxYear": 2026,
+      "source": "IRC § 6033, read at law.cornell.edu/uscode/text/26/6033",
+      "verified": "2026-08-21"
     }
   }
 }
