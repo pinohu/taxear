@@ -17,7 +17,7 @@ authorities:
   - { type: Reg, ref: "§ 301.7701-3(c)(1)(v)(C)", title: "Deemed election to be classified as an association", url: "https://www.law.cornell.edu/cfr/text/26/301.7701-3" }
   - { type: Form, ref: "2553", title: "Election by a Small Business Corporation", url: "https://www.irs.gov/forms-pubs/about-form-2553" }
 forms: []
-related: ["2.1.5.a", "2.1.5.f", "2.1.1.d", "2.1.1.e"]
+related: ["2.1.5.a", "2.1.5.f", "2.1.1.d", "2.1.1.e", "2.1.5.c"]
 changelog:
   - { date: "2026-08-21", summary: "Initial draft. Sets out the IRC § 1362(a) election and the requirement that all shareholders on the day of the election consent, the § 1362(b) timing with its rule that a late election is an election for the following year, the § 1362(b)(5) authority to treat a late election as timely for reasonable cause, the Reg. § 1.1362-6 mechanics of Form 2553 and the contents of a shareholder consent, and the Reg. § 1.1362-6(a)(2)(ii) rule that a new corporation's taxable year begins when it first has shareholders, acquires assets or begins doing business." }
 ---

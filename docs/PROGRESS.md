@@ -10,9 +10,9 @@ is indexed, and only the owner moves a page there (see `docs/VERIFICATION.md`).
 | Part | Topics | Stub | Draft | Review | Published | Words |
 |---|---:|---:|---:|---:|---:|---:|
 | 1. Individuals | 120 | 0 | 0 | 110 | 10 | 256,550 |
-| 2. Businesses | 119 | 80 | 0 | 39 | 0 | 90,112 |
+| 2. Businesses | 119 | 79 | 0 | 40 | 0 | 92,603 |
 | 3. Representation, Practices and Procedures | 121 | 0 | 0 | 0 | 121 | 257,674 |
-| **All parts** | **360** | **80** | **0** | **149** | **131** | **604,336** |
+| **All parts** | **360** | **79** | **0** | **150** | **131** | **606,827** |
 
 ## Part 1 — Individuals
 
@@ -275,7 +275,7 @@ is indexed, and only the owner moves a page there (see `docs/VERIFICATION.md`).
 |---|---|---|---:|---|
 | 2.1.5.a | [Requirements to qualify (e.g., qualifying shareholders)](/businesses/business-entities/s-corporations/requirements-to-qualify/) | review | 2,119 | 2026-08-21 |
 | 2.1.5.b | [Election procedure](/businesses/business-entities/s-corporations/election-procedure/) | review | 2,199 | 2026-08-21 |
-| 2.1.5.c | [Income, expenses and separately stated items](/businesses/business-entities/s-corporations/income-expenses-and-separately-stated-items/) | stub | — | — |
+| 2.1.5.c | [Income, expenses and separately stated items](/businesses/business-entities/s-corporations/income-expenses-and-separately-stated-items/) | review | 2,491 | 2026-08-21 |
 | 2.1.5.d | [Treatment of distributions](/businesses/business-entities/s-corporations/treatment-of-distributions/) | stub | — | — |
 | 2.1.5.e | [Shareholder’s basis (e.g., loan basis, distributions and losses in excess of basis, services for stock)](/businesses/business-entities/s-corporations/shareholder-s-basis/) | stub | — | — |
 | 2.1.5.f | [Revocation, termination and reinstatement](/businesses/business-entities/s-corporations/revocation-termination-and-reinstatement/) | stub | — | — |

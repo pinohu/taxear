@@ -9685,6 +9685,108 @@
       "taxYear": 2026,
       "source": "IRC § 1362(b)(5), read at law.cornell.edu/uscode/text/26/1362",
       "verified": "2026-08-21"
+    },
+    "sc.no_entity_tax": {
+      "value": "except as otherwise provided in subchapter S, an S corporation is not subject to the taxes imposed by chapter 1",
+      "taxYear": 2026,
+      "source": "IRC § 1363(a), opened at law.cornell.edu/uscode/text/26/1363",
+      "verified": "2026-08-21"
+    },
+    "sc.taxable_income": {
+      "value": "the taxable income of an S corporation is computed in the same manner as in the case of an individual, except that the § 1366(a)(1)(A) items are separately stated, the § 703(a)(2) deductions are not allowed to the corporation, § 248 applies, and § 291 applies if the corporation or a predecessor was a C corporation in any of the 3 immediately preceding taxable years",
+      "taxYear": 2026,
+      "source": "IRC § 1363(b), opened at law.cornell.edu/uscode/text/26/1363",
+      "verified": "2026-08-21"
+    },
+    "sc.denied_deductions": {
+      "value": "personal exemptions under § 151, the § 164(a) deduction for foreign taxes described in § 901, charitable contributions under § 170, the net operating loss deduction under § 172, the additional itemized deductions for individuals in part VII of subchapter B, and depletion under § 611 on oil and gas wells",
+      "taxYear": 2026,
+      "source": "IRC § 703(a)(2), applied to S corporations by IRC § 1363(b)(2); both opened at law.cornell.edu/uscode/text/26/703 and /1363",
+      "verified": "2026-08-21"
+    },
+    "sc.separately_stated_definition": {
+      "value": "items of income (including tax-exempt income), loss, deduction, or credit the separate treatment of which could affect the liability for tax of any shareholder, and, by the flush sentence, the charitable contributions described in § 702(a)(4) and the foreign taxes described in § 702(a)(6)",
+      "taxYear": 2026,
+      "source": "IRC § 1366(a)(1)(A) and flush text, opened at law.cornell.edu/uscode/text/26/1366; § 702(a) opened at /702",
+      "verified": "2026-08-21"
+    },
+    "sc.nonseparately_computed": {
+      "value": "gross income minus the deductions allowed to the corporation under chapter 1, determined by excluding all items described in § 1366(a)(1)(A)",
+      "taxYear": 2026,
+      "source": "IRC § 1366(a)(2), opened at law.cornell.edu/uscode/text/26/1366",
+      "verified": "2026-08-21"
+    },
+    "sc.gross_income": {
+      "value": "where it is necessary to determine the gross income of a shareholder, that gross income includes the shareholder's pro rata share of the gross income of the corporation",
+      "taxYear": 2026,
+      "source": "IRC § 1366(c), opened at law.cornell.edu/uscode/text/26/1366",
+      "verified": "2026-08-21"
+    },
+    "sc.per_day": {
+      "value": "each shareholder's pro rata share of any item is found by assigning an equal portion of the item to each day of the taxable year and then dividing that portion pro rata among the shares outstanding on that day",
+      "taxYear": 2026,
+      "source": "IRC § 1377(a)(1), opened at law.cornell.edu/uscode/text/26/1377",
+      "verified": "2026-08-21"
+    },
+    "sc.terminating_election": {
+      "value": "where a shareholder terminates their interest during the taxable year and all affected shareholders and the corporation agree, the per-day rule is applied to the affected shareholders as if the taxable year consisted of 2 taxable years, the first of which ends on the date of the termination",
+      "taxYear": 2026,
+      "source": "IRC § 1377(a)(2)(A), opened at law.cornell.edu/uscode/text/26/1377",
+      "verified": "2026-08-21"
+    },
+    "sc.affected_shareholders": {
+      "value": "the shareholder whose interest is terminated and all shareholders to whom that shareholder transferred shares during the taxable year; where the transfer was to the corporation, every person who is a shareholder during the taxable year",
+      "taxYear": 2026,
+      "source": "IRC § 1377(a)(2)(B), opened at law.cornell.edu/uscode/text/26/1377",
+      "verified": "2026-08-21"
+    },
+    "sc.fringe_partner": {
+      "value": "for purposes of the fringe benefit provisions of subtitle A the S corporation is treated as a partnership and any 2-percent shareholder is treated as a partner of that partnership",
+      "taxYear": 2026,
+      "source": "IRC § 1372(a), opened at law.cornell.edu/uscode/text/26/1372",
+      "verified": "2026-08-21"
+    },
+    "sc.two_percent_shareholder": {
+      "value": "more than 2 percent — a person who owns, or is considered to own within the meaning of § 318, on any day during the taxable year more than 2 percent of the outstanding stock or stock possessing more than 2 percent of the total combined voting power",
+      "taxYear": 2026,
+      "source": "IRC § 1372(b), opened at law.cornell.edu/uscode/text/26/1372",
+      "verified": "2026-08-21"
+    },
+    "sc.entity_elections": {
+      "value": "any election affecting the computation of items derived from an S corporation is made by the corporation, except the § 617 mining exploration election and the § 901 foreign tax credit election, which each shareholder makes separately",
+      "taxYear": 2026,
+      "source": "IRC § 1363(c), opened at law.cornell.edu/uscode/text/26/1363",
+      "verified": "2026-08-21"
+    },
+    "sc.separate_activities": {
+      "value": "the corporation must report, and each shareholder must take into account, the shareholder's pro rata share of the separately stated and nonseparately computed items for each of the corporation's activities as defined in § 469",
+      "taxYear": 2026,
+      "source": "Reg. § 1.1366-1(a)(4), opened at law.cornell.edu/cfr/text/26/1.1366-1",
+      "verified": "2026-08-21"
+    },
+    "sc.aggregate_for_limits": {
+      "value": "a shareholder aggregates their own deductions or exclusions with their pro rata share of the corporation's separately stated deductions or exclusions in applying any limitation imposed on that deduction or exclusion",
+      "taxYear": 2026,
+      "source": "Reg. § 1.1366-1(a)(5)(i), opened at law.cornell.edu/cfr/text/26/1.1366-1",
+      "verified": "2026-08-21"
+    },
+    "sc.tax_exempt_defined": {
+      "value": "income permanently excludible from gross income in all circumstances in which the provision applies — § 101 death benefits and § 103 municipal interest qualify; § 108 discharge of indebtedness income and § 109 lessee improvements do not",
+      "taxYear": 2026,
+      "source": "Reg. § 1.1366-1(a)(2)(viii), opened at law.cornell.edu/cfr/text/26/1.1366-1",
+      "verified": "2026-08-21"
+    },
+    "sc.entity_tax_as_loss": {
+      "value": "a § 1374 built-in gains tax imposed on the corporation is treated as a loss sustained by the corporation in that year, allocated proportionately among the recognised built-in gains giving rise to it; a § 1375 tax instead reduces each item of passive investment income in proportion to that item",
+      "taxYear": 2026,
+      "source": "IRC § 1366(f)(2) and (f)(3), opened at law.cornell.edu/uscode/text/26/1366",
+      "verified": "2026-08-21"
+    },
+    "sc.family_group": {
+      "value": "where a member of the family, within the meaning of § 704(e)(2), of one or more shareholders renders services or furnishes capital without receiving reasonable compensation, the Secretary shall make the adjustments in the items taken into account necessary to reflect the value of those services or that capital",
+      "taxYear": 2026,
+      "source": "IRC § 1366(e), opened at law.cornell.edu/uscode/text/26/1366",
+      "verified": "2026-08-21"
     }
   }
 }
