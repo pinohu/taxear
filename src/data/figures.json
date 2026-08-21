@@ -8761,6 +8761,24 @@
       "taxYear": 2026,
       "source": "IRC § 724(c), read at law.cornell.edu/uscode/text/26/724",
       "verified": "2026-08-21"
+    },
+    "basis.acquired_otherwise": {
+      "value": "the basis of a partnership interest acquired other than by contribution is determined under part II of subchapter O, beginning at IRC § 1011 — so a purchased interest takes a cost basis under IRC § 1012(a) and an inherited one takes its basis under IRC § 1014 (IRC § 742)",
+      "taxYear": 2026,
+      "source": "IRC § 742, read at law.cornell.edu/uscode/text/26/742",
+      "verified": "2026-08-21"
+    },
+    "basis.current_distribution": {
+      "value": "on a distribution other than in liquidation of a partner interest, the adjusted basis of that interest is reduced, but not below zero, by the money distributed and by the basis to the partner of distributed property other than money as determined under IRC § 732 (IRC § 733)",
+      "taxYear": 2026,
+      "source": "IRC § 733, read at law.cornell.edu/uscode/text/26/733",
+      "verified": "2026-08-21"
+    },
+    "basis.alternative_rule": {
+      "value": "the Secretary is to prescribe by regulations the circumstances in which the adjusted basis of a partner interest may be determined by reference to their proportionate share of the adjusted basis of partnership property on a termination of the partnership (IRC § 705(b))",
+      "taxYear": 2026,
+      "source": "IRC § 705(b), read at law.cornell.edu/uscode/text/26/705",
+      "verified": "2026-08-21"
     }
   }
 }

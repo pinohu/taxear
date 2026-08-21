@@ -10,9 +10,9 @@ is indexed, and only the owner moves a page there (see `docs/VERIFICATION.md`).
 | Part | Topics | Stub | Draft | Review | Published | Words |
 |---|---:|---:|---:|---:|---:|---:|
 | 1. Individuals | 120 | 0 | 0 | 110 | 10 | 256,550 |
-| 2. Businesses | 119 | 103 | 0 | 16 | 0 | 37,767 |
+| 2. Businesses | 119 | 102 | 0 | 17 | 0 | 39,961 |
 | 3. Representation, Practices and Procedures | 121 | 0 | 0 | 0 | 121 | 257,674 |
-| **All parts** | **360** | **103** | **0** | **126** | **131** | **551,991** |
+| **All parts** | **360** | **102** | **0** | **127** | **131** | **554,185** |
 
 ## Part 1 — Individuals
 
@@ -237,7 +237,7 @@ is indexed, and only the owner moves a page there (see `docs/VERIFICATION.md`).
 | 2.1.2.b | [Family partnerships](/businesses/business-entities/partnerships/family-partnerships/) | review | 2,493 | 2026-08-21 |
 | 2.1.2.c | [Partner's dealings with partnership (e.g., exchange of property, guaranteed payments)](/businesses/business-entities/partnerships/partner-s-dealings-with-partnership/) | review | 2,362 | 2026-08-21 |
 | 2.1.2.d | [Contribution of property and/or services to partnership (e.g., partnership's basis, property subject to indebtedness)](/businesses/business-entities/partnerships/contribution-of-property-and-or-services-to-partnership/) | review | 2,488 | 2026-08-21 |
-| 2.1.2.e | [Basis of partner's interest](/businesses/business-entities/partnerships/basis-of-partner-s-interest/) | stub | — | — |
+| 2.1.2.e | [Basis of partner's interest](/businesses/business-entities/partnerships/basis-of-partner-s-interest/) | review | 2,194 | 2026-08-21 |
 | 2.1.2.f | [Disposition of partner's interest](/businesses/business-entities/partnerships/disposition-of-partner-s-interest/) | stub | — | — |
 | 2.1.2.g | [Partnership formation (e.g., partnership agreement, general vs. limited partners, capital contributions)](/businesses/business-entities/partnerships/partnership-formation/) | stub | — | — |
 | 2.1.2.h | [Dissolution of partnership (e.g., sale, death of partner)](/businesses/business-entities/partnerships/dissolution-of-partnership/) | stub | — | — |
