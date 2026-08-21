@@ -16,7 +16,7 @@ authorities:
   - { type: IRC, ref: "§ 61", title: "Gross income defined", url: "https://www.law.cornell.edu/uscode/text/26/61" }
   - { type: Reg, ref: "§ 1.312-6", title: "Earnings and profits", url: "https://www.law.cornell.edu/cfr/text/26/1.312-6" }
 forms: []
-related: ["2.1.3.c", "2.1.3.a", "2.1.3.f", "2.1.1.c", "2.1.3.d"]
+related: ["2.1.3.c", "2.1.3.a", "2.1.3.f", "2.1.1.c", "2.1.3.d", "2.1.3.e"]
 changelog:
   - { date: "2026-08-21", summary: "Initial draft. Sets out the IRC § 316(a) definition of a dividend by reference to current and accumulated earnings and profits with the rule that a distribution comes from the most recently accumulated earnings and profits, the § 312(a) reduction on a distribution and the § 312(b) treatment of appreciated property, the § 312(k) straight-line depreciation override and the § 312(n) economic adjustments, and the Reg. § 1.312-6 rules that the computation follows the corporation's accounting method and that tax-exempt income is included." }
 ---

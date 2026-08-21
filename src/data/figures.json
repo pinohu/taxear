@@ -9193,6 +9193,72 @@
       "taxYear": 2026,
       "source": "IRC § 246(c), read at law.cornell.edu/uscode/text/26/246",
       "verified": "2026-08-21"
+    },
+    "redeem.exchange_treatment": {
+      "value": "where a corporation redeems its stock and any of the five tests in IRC § 302(b) is met, the redemption is treated as a distribution in part or full payment in exchange for the stock — so the shareholder recovers basis and reports capital gain or loss rather than a dividend (IRC § 302(a))",
+      "taxYear": 2026,
+      "source": "IRC § 302(a), read at law.cornell.edu/uscode/text/26/302",
+      "verified": "2026-08-21"
+    },
+    "redeem.not_equivalent": {
+      "value": "exchange treatment applies where the redemption is not essentially equivalent to a dividend — a facts-and-circumstances test requiring a meaningful reduction in the shareholder proportionate interest (IRC § 302(b)(1))",
+      "taxYear": 2026,
+      "source": "IRC § 302(b)(1), read at law.cornell.edu/uscode/text/26/302",
+      "verified": "2026-08-21"
+    },
+    "redeem.disproportionate": {
+      "value": "a redemption is substantially disproportionate where, immediately afterwards, the shareholder owns less than 50 percent of the total combined voting power of all voting classes, and the shareholder ratio of voting stock owned to all voting stock immediately after the redemption is less than 80 percent of that ratio immediately before — with the same 80 percent test also applied to common stock whether voting or non-voting, measured by fair market value where there is more than one class (IRC § 302(b)(2))",
+      "taxYear": 2026,
+      "source": "IRC § 302(b)(2), read at law.cornell.edu/uscode/text/26/302",
+      "verified": "2026-08-21"
+    },
+    "redeem.termination": {
+      "value": "exchange treatment applies where the redemption is in complete redemption of all of the stock of the corporation owned by the shareholder (IRC § 302(b)(3))",
+      "taxYear": 2026,
+      "source": "IRC § 302(b)(3), read at law.cornell.edu/uscode/text/26/302",
+      "verified": "2026-08-21"
+    },
+    "redeem.family_waiver": {
+      "value": "10 years — on a complete termination the family attribution rule in IRC § 318(a)(1) may be waived if immediately after the distribution the distributee has no interest in the corporation, including as officer, director or employee, other than as a creditor; acquires no such interest, other than stock acquired by bequest or inheritance, within 10 years; and files an agreement to notify the Secretary of any such acquisition and to retain the necessary records. Acquiring an interest within the 10 years extends the assessment and collection periods by one year from the notification (IRC § 302(c)(2))",
+      "taxYear": 2026,
+      "source": "IRC § 302(c)(2), read at law.cornell.edu/uscode/text/26/302",
+      "verified": "2026-08-21"
+    },
+    "redeem.attribution": {
+      "value": "an individual is considered to own stock owned by their spouse, other than one legally separated under a decree, and by their children, grandchildren and parents — a legally adopted child counting as a child by blood. Stock owned by a partnership or estate is owned proportionately by its partners or beneficiaries, stock owned by a trust by its beneficiaries in proportion to their actuarial interests, and stock owned by a grantor trust by the grantor (IRC § 318(a)(1), (2))",
+      "taxYear": 2026,
+      "source": "IRC § 318(a), read at law.cornell.edu/uscode/text/26/318",
+      "verified": "2026-08-21"
+    },
+    "liq.complete": {
+      "value": "a distribution is treated as in complete liquidation of a corporation if it is one of a series of distributions in redemption of all of the stock of the corporation pursuant to a plan (IRC § 346(a))",
+      "taxYear": 2026,
+      "source": "IRC § 346(a), read at law.cornell.edu/uscode/text/26/346",
+      "verified": "2026-08-21"
+    },
+    "liq.distributee_basis": {
+      "value": "where property is received in a distribution in complete liquidation and gain or loss is recognised on its receipt, the basis of that property in the distributee hands is its fair market value at the time of the distribution (IRC § 334(a))",
+      "taxYear": 2026,
+      "source": "IRC § 334(a), read at law.cornell.edu/uscode/text/26/334",
+      "verified": "2026-08-21"
+    },
+    "liq.subsidiary_nonrecognition": {
+      "value": "no gain or loss is recognised to the liquidating corporation on the distribution to the 80-percent distributee of any property in a complete liquidation to which IRC § 332 applies — the corporate-level counterpart of the shareholder-level nonrecognition in § 332(a) (IRC § 337(a))",
+      "taxYear": 2026,
+      "source": "IRC § 337(a), read at law.cornell.edu/uscode/text/26/337",
+      "verified": "2026-08-21"
+    },
+    "liq.shareholder": {
+      "value": "amounts received by a shareholder in a distribution in complete liquidation of a corporation are treated as in full payment in exchange for the stock, and IRC § 301 does not apply to such a distribution (IRC § 331(a), (b))",
+      "taxYear": 2026,
+      "source": "IRC § 331, read at law.cornell.edu/uscode/text/26/331",
+      "verified": "2026-08-21"
+    },
+    "liq.corporate": {
+      "value": "except as IRC § 336 or § 337 otherwise provides, gain or loss is recognised to a liquidating corporation on the distribution of property in complete liquidation as if the property were sold to the distributee at its fair market value (IRC § 336(a))",
+      "taxYear": 2026,
+      "source": "IRC § 336(a), read at law.cornell.edu/uscode/text/26/336",
+      "verified": "2026-08-21"
     }
   }
 }
