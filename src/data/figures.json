@@ -9463,6 +9463,42 @@
       "taxYear": 2026,
       "source": "IRC § 469(j)(2), read at law.cornell.edu/uscode/text/26/469",
       "verified": "2026-08-21"
+    },
+    "svc.section83": {
+      "value": "where property is transferred in connection with the performance of services, the excess of its fair market value at the first time the recipient rights are transferable or not subject to a substantial risk of forfeiture, whichever is earlier, over any amount paid for it, is included in the gross income of the person who performed the services for that year (IRC § 83(a))",
+      "taxYear": 2026,
+      "source": "IRC § 83(a), read at law.cornell.edu/uscode/text/26/83",
+      "verified": "2026-08-21"
+    },
+    "svc.section83b": {
+      "value": "a person performing services may elect to include in gross income for the year of transfer the excess of the fair market value of the property at the time of transfer, determined without regard to any restriction other than one which by its terms will never lapse, over the amount paid for it — in which case IRC § 83(a) does not apply and no deduction is allowed if the property is later forfeited (IRC § 83(b)(1))",
+      "taxYear": 2026,
+      "source": "IRC § 83(b), read at law.cornell.edu/uscode/text/26/83",
+      "verified": "2026-08-21"
+    },
+    "svc.corporate_deduction": {
+      "value": "a deduction is allowed under IRC § 162 to the person for whom the services were performed, equal to the amount included in the service provider's gross income, for that person's taxable year in which or with which ends the taxable year in which the amount is included (IRC § 83(h))",
+      "taxYear": 2026,
+      "source": "IRC § 83(h), read at law.cornell.edu/uscode/text/26/83",
+      "verified": "2026-08-21"
+    },
+    "svc.reg_not_property": {
+      "value": "stock will not be treated as issued for property if it is issued for services rendered or to be rendered to or for the benefit of the issuing corporation (Reg. § 1.351-1(a)(1)(i))",
+      "taxYear": 2026,
+      "source": "26 CFR § 1.351-1(a)(1), read at law.cornell.edu/cfr/text/26/1.351-1",
+      "verified": "2026-08-21"
+    },
+    "svc.accommodation": {
+      "value": "stock will not be treated as issued for property if it is issued for property of relatively small value compared with the value of the stock already owned, or to be received for services, by the person transferring that property, where the primary purpose of the transfer is to qualify the exchanges of other persons transferring property (Reg. § 1.351-1(a)(1)(ii))",
+      "taxYear": 2026,
+      "source": "26 CFR § 1.351-1(a)(1), read at law.cornell.edu/cfr/text/26/1.351-1",
+      "verified": "2026-08-21"
+    },
+    "svc.immediately_after": {
+      "value": "the phrase immediately after the exchange does not require simultaneous exchanges by two or more persons, but comprehends a situation where the rights of the parties have been previously defined and the execution of the agreement proceeds with an expedition consistent with orderly procedure; stock rights and stock warrants are not stock for this purpose (Reg. § 1.351-1(a)(1))",
+      "taxYear": 2026,
+      "source": "26 CFR § 1.351-1(a)(1), read at law.cornell.edu/cfr/text/26/1.351-1",
+      "verified": "2026-08-21"
     }
   }
 }

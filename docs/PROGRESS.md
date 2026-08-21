@@ -10,9 +10,9 @@ is indexed, and only the owner moves a page there (see `docs/VERIFICATION.md`).
 | Part | Topics | Stub | Draft | Review | Published | Words |
 |---|---:|---:|---:|---:|---:|---:|
 | 1. Individuals | 120 | 0 | 0 | 110 | 10 | 256,550 |
-| 2. Businesses | 119 | 87 | 0 | 32 | 0 | 74,644 |
+| 2. Businesses | 119 | 86 | 0 | 33 | 0 | 77,029 |
 | 3. Representation, Practices and Procedures | 121 | 0 | 0 | 0 | 121 | 257,674 |
-| **All parts** | **360** | **87** | **0** | **142** | **131** | **588,868** |
+| **All parts** | **360** | **86** | **0** | **143** | **131** | **591,253** |
 
 ## Part 1 — Individuals
 
@@ -262,7 +262,7 @@ is indexed, and only the owner moves a page there (see `docs/VERIFICATION.md`).
 
 | Code | Title | Status | Words | Last reviewed |
 |---|---|---|---:|---|
-| 2.1.4.a | [Services rendered to a corporation in return for stock](/businesses/business-entities/forming-a-corporation/services-rendered-to-a-corporation-in-return-for-stock/) | stub | — | — |
+| 2.1.4.a | [Services rendered to a corporation in return for stock](/businesses/business-entities/forming-a-corporation/services-rendered-to-a-corporation-in-return-for-stock/) | review | 2,385 | 2026-08-21 |
 | 2.1.4.b | [IRC Section 351 exchange](/businesses/business-entities/forming-a-corporation/irc-section-351-exchange/) | review | 2,204 | 2026-08-21 |
 | 2.1.4.c | [Transfer and/or receipt of money or property in addition to corporate stock](/businesses/business-entities/forming-a-corporation/transfer-and-or-receipt-of-money-or-property-in-addition/) | stub | — | — |
 | 2.1.4.d | [Transfer of property subject to indebtedness](/businesses/business-entities/forming-a-corporation/transfer-of-property-subject-to-indebtedness/) | stub | — | — |
