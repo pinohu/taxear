@@ -8185,6 +8185,90 @@
       "taxYear": 2026,
       "source": "26 CFR § 301.7701-3(g)(3)(iii), read at law.cornell.edu/cfr/text/26/301.7701-3",
       "verified": "2026-08-21"
+    },
+    "ein.statutory_hook": {
+      "value": "any person required to make a return, statement or other document must include the identifying number prescribed for securing proper identification, must furnish that number to another person required to show it, and must furnish the number of another person where required (IRC § 6109(a)(1) to (3))",
+      "taxYear": 2026,
+      "source": "IRC § 6109(a), read at law.cornell.edu/uscode/text/26/6109",
+      "verified": "2026-08-21"
+    },
+    "ein.which_number": {
+      "value": "an individual required to furnish a taxpayer identifying number uses a social security number, or an individual taxpayer identification number if not eligible for one; any person other than an individual — corporations, partnerships, nonprofit associations, trusts, estates and similar nonindividual persons — uses an employer identification number (Reg. § 301.6109-1(a)(1)(ii)(A) to (C))",
+      "taxYear": 2026,
+      "source": "26 CFR § 301.6109-1(a)(1)(ii), read at law.cornell.edu/cfr/text/26/301.6109-1",
+      "verified": "2026-08-21"
+    },
+    "ein.sole_proprietor": {
+      "value": "an individual, whether U.S. or foreign, who is an employer or who is engaged in a trade or business as a sole proprietor should use an employer identification number as required by returns, statements or other documents and their instructions (Reg. § 301.6109-1(a)(1)(ii)(D))",
+      "taxYear": 2026,
+      "source": "26 CFR § 301.6109-1(a)(1)(ii)(D), read at law.cornell.edu/cfr/text/26/301.6109-1",
+      "verified": "2026-08-21"
+    },
+    "ein.apply": {
+      "value": "any person required to furnish an employer identification number must apply for one, if not done previously, on Form SS-4, far enough in advance of the first required use to permit issuance in time for compliance (Reg. § 301.6109-1(d)(2)(i))",
+      "taxYear": 2026,
+      "source": "26 CFR § 301.6109-1(d)(2)(i), read at law.cornell.edu/cfr/text/26/301.6109-1",
+      "verified": "2026-08-21"
+    },
+    "ein.update": {
+      "value": "a person issued an employer identification number must provide the Service with any updated application information in the manner and frequency required by forms, instructions or other guidance — a requirement applying to every holder of an employer identification number on or after 1 January 2014 (Reg. § 301.6109-1(d)(2)(ii))",
+      "taxYear": 2026,
+      "source": "26 CFR § 301.6109-1(d)(2)(ii), read at law.cornell.edu/cfr/text/26/301.6109-1",
+      "verified": "2026-08-21"
+    },
+    "ein.responsible_party": {
+      "value": "a responsible party is someone who owns, controls or exercises effective control over the entity and directly or indirectly manages its funds and assets; the application must name one and give their taxpayer identification number, and the responsible party must be a person rather than an entity except for government entities. It is usually the principal officer of a corporation or tax-exempt organisation, a general partner of a partnership, the grantor, owner or trustor of a trust, or the fiduciary of an estate",
+      "taxYear": 2026,
+      "source": "IRS, Responsible parties and nominees, page last reviewed 28 June 2026, read at irs.gov/businesses/small-businesses-self-employed/responsible-parties-and-nominees",
+      "verified": "2026-08-21"
+    },
+    "ein.nominee": {
+      "value": "a nominee — someone given limited authority to act during formation, with little or no control over the entity assets — cannot apply for an employer identification number and should not be listed on Form SS-4; where a nominee is used for state formation the responsible party must be identified before the application is made",
+      "taxYear": 2026,
+      "source": "IRS, Responsible parties and nominees, page last reviewed 28 June 2026, read at irs.gov/businesses/small-businesses-self-employed/responsible-parties-and-nominees",
+      "verified": "2026-08-21"
+    },
+    "ein.daily_limit": {
+      "value": "an applicant may obtain only 1 employer identification number per responsible party per day; the online application must be completed in one session and expires after 15 minutes of inactivity",
+      "taxYear": 2026,
+      "source": "IRS, Get an employer identification number, page last reviewed 19 August 2026, read at irs.gov/businesses/small-businesses-self-employed/get-an-employer-identification-number",
+      "verified": "2026-08-21"
+    },
+    "ein.online_eligibility": {
+      "value": "the online application is available only to a domestic organisation formed in the United States or its territories whose principal place of business is there, applied for by the responsible party in control of the entity or an authorised representative holding the responsible party social security number or individual taxpayer identification number; an applicant whose principal place of business is outside the United States must apply by phone, fax or mail",
+      "taxYear": 2026,
+      "source": "IRS, Get an employer identification number, page last reviewed 19 August 2026, read at irs.gov/businesses/small-businesses-self-employed/get-an-employer-identification-number",
+      "verified": "2026-08-21"
+    },
+    "ein.new_sole_proprietor": {
+      "value": "a sole proprietor needs a new employer identification number on incorporating, on forming a partnership, or on declaring bankruptcy, and does not need one on changing the business name or location or on owning multiple businesses",
+      "taxYear": 2026,
+      "source": "IRS, Do you need a new EIN?, page last reviewed 21 July 2026, read at irs.gov/businesses/small-businesses-self-employed/do-you-need-a-new-ein",
+      "verified": "2026-08-21"
+    },
+    "ein.new_corporation": {
+      "value": "a corporation needs a new employer identification number on receiving a new charter from the secretary of state, on becoming a subsidiary of another corporation, on changing to a partnership or sole proprietorship, or on merging to create a new corporation — and does not need one on changing name or location, declaring bankruptcy, being a division, surviving a merger, electing S corporation status, reorganising to change only identity or location, or converting at State level without changing structure",
+      "taxYear": 2026,
+      "source": "IRS, Do you need a new EIN?, page last reviewed 21 July 2026, read at irs.gov/businesses/small-businesses-self-employed/do-you-need-a-new-ein",
+      "verified": "2026-08-21"
+    },
+    "ein.new_partnership": {
+      "value": "a partnership needs a new employer identification number on incorporating, on one partner taking over to operate as a sole proprietor, or on ending a partnership and beginning a new one — and does not need one on changing name or location, declaring bankruptcy, or undergoing a change in ownership that does not terminate the partnership",
+      "taxYear": 2026,
+      "source": "IRS, Do you need a new EIN?, page last reviewed 21 July 2026, read at irs.gov/businesses/small-businesses-self-employed/do-you-need-a-new-ein",
+      "verified": "2026-08-21"
+    },
+    "ein.new_llc": {
+      "value": "an LLC needs a new employer identification number on terminating and forming a new corporation or partnership, or where a single-member LLC must file excise or employment taxes — and does not need one on changing name or location, reporting as a branch or division of another entity with no employees and no excise tax, converting a partnership to an LLC classified as a partnership, or changing its tax election to a corporation or S corporation",
+      "taxYear": 2026,
+      "source": "IRS, Do you need a new EIN?, page last reviewed 21 July 2026, read at irs.gov/businesses/small-businesses-self-employed/do-you-need-a-new-ein",
+      "verified": "2026-08-21"
+    },
+    "ein.section708": {
+      "value": "a new partnership formed as a result of the termination of a partnership under IRC § 708(b)(1)(B) retains the employer identification number of the terminated partnership (Reg. § 301.6109-1(d)(2)(iii))",
+      "taxYear": 2026,
+      "source": "26 CFR § 301.6109-1(d)(2)(iii), read at law.cornell.edu/cfr/text/26/301.6109-1",
+      "verified": "2026-08-21"
     }
   }
 }

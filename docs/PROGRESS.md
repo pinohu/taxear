@@ -10,9 +10,9 @@ is indexed, and only the owner moves a page there (see `docs/VERIFICATION.md`).
 | Part | Topics | Stub | Draft | Review | Published | Words |
 |---|---:|---:|---:|---:|---:|---:|
 | 1. Individuals | 120 | 0 | 0 | 110 | 10 | 256,550 |
-| 2. Businesses | 119 | 112 | 0 | 7 | 0 | 15,617 |
+| 2. Businesses | 119 | 111 | 0 | 8 | 0 | 18,112 |
 | 3. Representation, Practices and Procedures | 121 | 0 | 0 | 0 | 121 | 257,674 |
-| **All parts** | **360** | **112** | **0** | **117** | **131** | **529,841** |
+| **All parts** | **360** | **111** | **0** | **118** | **131** | **532,336** |
 
 ## Part 1 — Individuals
 
@@ -223,7 +223,7 @@ is indexed, and only the owner moves a page there (see `docs/VERIFICATION.md`).
 | 2.1.1.e | [LLCs](/businesses/business-entities/business-entities-and-considerations/llcs/) | review | 2,490 | 2026-08-21 |
 | 2.1.1.f | [Tax-exempt entities and associations](/businesses/business-entities/business-entities-and-considerations/tax-exempt-entities-and-associations/) | review | 2,496 | 2026-08-21 |
 | 2.1.1.g | [Entity type default classifications and elections](/businesses/business-entities/business-entities-and-considerations/entity-type-default-classifications-and-elections/) | review | 2,384 | 2026-08-21 |
-| 2.1.1.h | [Employer identification number](/businesses/business-entities/business-entities-and-considerations/employer-identification-number/) | stub | — | — |
+| 2.1.1.h | [Employer identification number](/businesses/business-entities/business-entities-and-considerations/employer-identification-number/) | review | 2,495 | 2026-08-21 |
 | 2.1.1.i | [Accounting periods (tax year)](/businesses/business-entities/business-entities-and-considerations/accounting-periods-tax-year/) | stub | — | — |
 | 2.1.1.j | [Accounting methods](/businesses/business-entities/business-entities-and-considerations/accounting-methods/) | stub | — | — |
 | 2.1.1.k | [Reporting requirements (e.g. Forms W2, W-4, Form 1099)](/businesses/business-entities/business-entities-and-considerations/reporting-requirements/) | stub | — | — |
