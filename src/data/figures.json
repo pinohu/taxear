@@ -9499,6 +9499,18 @@
       "taxYear": 2026,
       "source": "26 CFR § 1.351-1(a)(1), read at law.cornell.edu/cfr/text/26/1.351-1",
       "verified": "2026-08-21"
+    },
+    "boot.holding_period_stock": {
+      "value": "in determining the period for which a taxpayer has held property received in an exchange, the period for which the property exchanged was held is included where the property received takes the same basis in whole or in part as the property exchanged, and the property exchanged was at the time of the exchange a capital asset or IRC § 1231 property (IRC § 1223(1))",
+      "taxYear": 2026,
+      "source": "IRC § 1223(1), read at law.cornell.edu/uscode/text/26/1223",
+      "verified": "2026-08-21"
+    },
+    "boot.holding_period_corporation": {
+      "value": "in determining the period for which the taxpayer has held property however acquired, there is included the period for which that property was held by any other person if, for the purpose of determining gain or loss from a sale or exchange, it has the same basis in whole or in part in the taxpayer hands as it would have in the hands of that other person — which is how a corporation inherits the transferor holding period in property received under IRC § 351 (IRC § 1223(2))",
+      "taxYear": 2026,
+      "source": "IRC § 1223(2), read at law.cornell.edu/uscode/text/26/1223",
+      "verified": "2026-08-21"
     }
   }
 }
