@@ -10,9 +10,9 @@ is indexed, and only the owner moves a page there (see `docs/VERIFICATION.md`).
 | Part | Topics | Stub | Draft | Review | Published | Words |
 |---|---:|---:|---:|---:|---:|---:|
 | 1. Individuals | 120 | 0 | 0 | 110 | 10 | 256,550 |
-| 2. Businesses | 119 | 72 | 0 | 47 | 0 | 109,357 |
+| 2. Businesses | 119 | 71 | 0 | 48 | 0 | 111,835 |
 | 3. Representation, Practices and Procedures | 121 | 0 | 0 | 0 | 121 | 257,674 |
-| **All parts** | **360** | **72** | **0** | **157** | **131** | **623,581** |
+| **All parts** | **360** | **71** | **0** | **158** | **131** | **626,059** |
 
 ## Part 1 — Individuals
 
@@ -290,7 +290,7 @@ is indexed, and only the owner moves a page there (see `docs/VERIFICATION.md`).
 |---|---|---|---:|---|
 | 2.2.1.a | [Gross receipts and other income](/businesses/business-tax-preparation/business-income/gross-receipts-and-other-income/) | review | 2,403 | 2026-08-21 |
 | 2.2.1.b | [Cost of goods sold (e.g., inventory practices, expenditures included, uniform capitalization rules)](/businesses/business-tax-preparation/business-income/cost-of-goods-sold/) | review | 2,412 | 2026-08-21 |
-| 2.2.1.c | [Net income, net operating losses, and loss limitations including passive activity and at-risk limitations](/businesses/business-tax-preparation/business-income/net-income-net-operating-losses-and-loss-limitations/) | stub | — | — |
+| 2.2.1.c | [Net income, net operating losses, and loss limitations including passive activity and at-risk limitations](/businesses/business-tax-preparation/business-income/net-income-net-operating-losses-and-loss-limitations/) | review | 2,478 | 2026-08-21 |
 | 2.2.1.d | [Cancellation of business debt](/businesses/business-tax-preparation/business-income/cancellation-of-business-debt/) | stub | — | — |
 
 **2.2.2 Business expenses, deductions and credits**

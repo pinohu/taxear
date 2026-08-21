@@ -10303,6 +10303,108 @@
       "taxYear": 2026,
       "source": "IRC § 471(c)(1)(B), opened at law.cornell.edu/uscode/text/26/471",
       "verified": "2026-08-21"
+    },
+    "loss.ebl_threshold_2026": {
+      "value": "$256,000, or $512,000 on a joint return — the IRC § 461(l)(3)(A)(ii)(II) amount for taxable years beginning in 2026",
+      "taxYear": 2026,
+      "source": "Rev. Proc. 2025-32 § 3.31, opened at irs.gov/pub/irs-drop/rp-25-32.pdf; base amount and indexing at IRC § 461(l)(3)(A)(ii)(II) and (l)(3)(C)",
+      "verified": "2026-08-21"
+    },
+    "loss.ebl_defined": {
+      "value": "the excess of the taxpayer's aggregate trade or business deductions for the year, determined without regard to the limitation itself and without regard to any IRC § 172 or § 199A deduction, over the sum of aggregate trade or business gross income and gain plus the threshold amount — computed without regard to any item attributable to the trade or business of performing services as an employee",
+      "taxYear": 2026,
+      "source": "IRC § 461(l)(3)(A), opened at law.cornell.edu/uscode/text/26/461",
+      "verified": "2026-08-21"
+    },
+    "loss.ebl_permanent": {
+      "value": "permanent — Pub. L. 119-21 § 70601(a) struck the words \"and before January 1, 2029,\" from both subparagraphs of IRC § 461(l)(1), so the limitation no longer has an expiry date",
+      "taxYear": 2026,
+      "source": "Amendment note to IRC § 461, Pub. L. 119-21 § 70601(a), opened at law.cornell.edu/uscode/text/26/461",
+      "verified": "2026-08-21"
+    },
+    "loss.ebl_carryover": {
+      "value": "a loss disallowed as an excess business loss is treated as a net operating loss for the taxable year for the purpose of determining any IRC § 172(b) carryover to subsequent years",
+      "taxYear": 2026,
+      "source": "IRC § 461(l)(2), opened at law.cornell.edu/uscode/text/26/461",
+      "verified": "2026-08-21"
+    },
+    "loss.ebl_entity_level": {
+      "value": "for a partnership or S corporation the limitation is applied at the partner or shareholder level, each taking into account their allocable share of the entity's trade or business items for the entity year ending with or within their own",
+      "taxYear": 2026,
+      "source": "IRC § 461(l)(4), opened at law.cornell.edu/uscode/text/26/461",
+      "verified": "2026-08-21"
+    },
+    "loss.ebl_capital": {
+      "value": "deductions for losses from sales or exchanges of capital assets are left out of the deduction side, and capital gains counted on the income side are capped",
+      "taxYear": 2026,
+      "source": "IRC § 461(l)(3)(B), opened at law.cornell.edu/uscode/text/26/461",
+      "verified": "2026-08-21"
+    },
+    "loss.nol_carryforward": {
+      "value": "a net operating loss arising in a taxable year beginning after 31 December 2017 is carried forward to each taxable year following the year of the loss, without limit; one arising before that date was carried to each of the 20 following years",
+      "taxYear": 2026,
+      "source": "IRC § 172(b)(1)(A)(ii), opened at law.cornell.edu/uscode/text/26/172",
+      "verified": "2026-08-21"
+    },
+    "loss.nol_80_percent": {
+      "value": "80 percent — for a taxable year beginning after 31 December 2020 the deduction for losses arising after 2017 is capped at 80 percent of taxable income computed without the IRC § 172, § 199A and § 250 deductions; losses arising before 2018 are deducted first and are not capped",
+      "taxYear": 2026,
+      "source": "IRC § 172(a)(2), opened at law.cornell.edu/uscode/text/26/172",
+      "verified": "2026-08-21"
+    },
+    "loss.nol_farming_carryback": {
+      "value": "a farming loss is carried back to each of the 2 taxable years preceding the year of the loss",
+      "taxYear": 2026,
+      "source": "IRC § 172(b)(1)(B)(i), opened at law.cornell.edu/uscode/text/26/172",
+      "verified": "2026-08-21"
+    },
+    "loss.atrisk_who": {
+      "value": "an individual, and a C corporation meeting the stock ownership requirement of IRC § 542(a)(2) — a loss from an activity is allowed only to the extent of the aggregate amount at risk for that activity at the close of the taxable year",
+      "taxYear": 2026,
+      "source": "IRC § 465(a)(1), opened at law.cornell.edu/uscode/text/26/465",
+      "verified": "2026-08-21"
+    },
+    "loss.atrisk_amounts": {
+      "value": "the money and the adjusted basis of other property contributed to the activity, plus amounts borrowed for use in it to the extent the taxpayer is personally liable for repayment or has pledged property not used in the activity, to the extent of the net fair market value of that pledged interest",
+      "taxYear": 2026,
+      "source": "IRC § 465(b)(1) and (b)(2), opened at law.cornell.edu/uscode/text/26/465",
+      "verified": "2026-08-21"
+    },
+    "loss.atrisk_related": {
+      "value": "except as regulations provide, an amount borrowed from a person with an interest in the activity, or from a person related to such a person other than the taxpayer, is not at risk",
+      "taxYear": 2026,
+      "source": "IRC § 465(b)(3)(A), opened at law.cornell.edu/uscode/text/26/465",
+      "verified": "2026-08-21"
+    },
+    "loss.atrisk_carryover": {
+      "value": "a loss not allowed for want of amount at risk is treated as a deduction allocable to that activity in the first succeeding taxable year",
+      "taxYear": 2026,
+      "source": "IRC § 465(a)(2), opened at law.cornell.edu/uscode/text/26/465",
+      "verified": "2026-08-21"
+    },
+    "loss.pal_who": {
+      "value": "any individual, estate or trust, any closely held C corporation, and any personal service corporation — for these, neither the passive activity loss nor the passive activity credit is allowed",
+      "taxYear": 2026,
+      "source": "IRC § 469(a), opened at law.cornell.edu/uscode/text/26/469",
+      "verified": "2026-08-21"
+    },
+    "loss.pal_defined": {
+      "value": "any activity which involves the conduct of a trade or business and in which the taxpayer does not materially participate; a rental activity is a passive activity whether or not the taxpayer materially participates",
+      "taxYear": 2026,
+      "source": "IRC § 469(c)(1) and (c)(2), opened at law.cornell.edu/uscode/text/26/469",
+      "verified": "2026-08-21"
+    },
+    "loss.pal_material": {
+      "value": "the taxpayer is treated as materially participating only if involved in the operations of the activity on a basis which is regular, continuous and substantial",
+      "taxYear": 2026,
+      "source": "IRC § 469(h)(1), opened at law.cornell.edu/uscode/text/26/469",
+      "verified": "2026-08-21"
+    },
+    "loss.pal_carryover": {
+      "value": "a loss or credit disallowed as passive is treated as a deduction or credit allocable to that activity in the next taxable year",
+      "taxYear": 2026,
+      "source": "IRC § 469(b), opened at law.cornell.edu/uscode/text/26/469",
+      "verified": "2026-08-21"
     }
   }
 }
