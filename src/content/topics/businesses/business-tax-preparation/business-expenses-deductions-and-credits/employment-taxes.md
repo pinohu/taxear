@@ -20,7 +20,7 @@ authorities:
   - { type: IRC, ref: "§ 6672", title: "Failure to collect and pay over tax", url: "https://www.law.cornell.edu/uscode/text/26/6672" }
   - { type: IRC, ref: "§ 275", title: "Certain taxes", url: "https://www.law.cornell.edu/uscode/text/26/275" }
 forms: []
-related: ["2.2.2.a", "2.2.2.i", "2.1.1.k", "2.2.2.h", "2.2.1.a"]
+related: ["2.2.2.a", "2.2.2.i", "2.1.1.k", "2.2.2.h", "2.2.1.a", "2.2.5.b"]
 changelog:
   - { date: "2026-08-21", summary: "Initial draft. Sets out the IRC § 3101 and § 3111 FICA rates on employee and employer, the IRC § 3101(b)(2) additional hospital insurance tax that the employer does not match, the IRC § 3301 FUTA rate with the IRC § 3306(b)(1) wage base and successor rule and the IRC § 3302 credit structure with its 90 percent cap and credit reduction, and the IRC § 6672 penalty on a responsible person. Notes that only the employer's share is deductible under IRC § 164 and IRC § 275(a)(1)." }
 ---

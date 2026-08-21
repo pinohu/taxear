@@ -12361,6 +12361,84 @@
       "taxYear": 2026,
       "source": "IRC § 6038D(d), opened at law.cornell.edu/uscode/text/26/6038D",
       "verified": "2026-08-21"
+    },
+    "dep.futa_rate": {
+      "value": "6 percent of total wages paid during the calendar year — an excise tax on the employer for having individuals in its employ, not withheld from the employee",
+      "taxYear": 2026,
+      "source": "IRC § 3301, opened at law.cornell.edu/uscode/text/26/3301",
+      "verified": "2026-08-21"
+    },
+    "dep.futa_base": {
+      "value": "$7,000 — wages for FUTA stop at that amount paid to an individual by an employer during the calendar year, so the tax is capped per employee per employer per year",
+      "taxYear": 2026,
+      "source": "IRC § 3306(b)(1), opened at law.cornell.edu/uscode/text/26/3306",
+      "verified": "2026-08-21"
+    },
+    "dep.futa_credit": {
+      "value": "contributions paid into a certified state unemployment fund are credited against the federal tax, but the total credits may not exceed 90 percent of the tax against which they are allowable — bringing a fully credited employer to a net rate of 0.6 percent",
+      "taxYear": 2026,
+      "source": "IRC § 3302(a)(1) and (c)(1), opened at law.cornell.edu/uscode/text/26/3302",
+      "verified": "2026-08-21"
+    },
+    "dep.futa_credit_reduction": {
+      "value": "where a state has taken title XII advances that remain outstanding, the credits otherwise allowable to employers subject to that state’s law are reduced — so the net federal rate in a credit reduction state is higher than 0.6 percent and rises with each further year",
+      "taxYear": 2026,
+      "source": "IRC § 3302(c)(2), opened at law.cornell.edu/uscode/text/26/3302",
+      "verified": "2026-08-21"
+    },
+    "dep.status": {
+      "value": "whether an employer is a monthly or a semi-weekly depositor is an annual determination made on the aggregate employment taxes reported for the lookback period — monthly at $50,000 or less, semi-weekly above it",
+      "taxYear": 2026,
+      "source": "Reg. § 31.6302-1(b)(1), (2) and (3), opened at law.cornell.edu/cfr/text/26/31.6302-1",
+      "verified": "2026-08-21"
+    },
+    "dep.lookback": {
+      "value": "for a Form 941 filer the lookback period is the twelve months ended the preceding 30 June; for a Form 944 filer, or one who filed Form 944 in either of the two previous years, it is the second calendar year preceding the current one",
+      "taxYear": 2026,
+      "source": "Reg. § 31.6302-1(b)(4)(i), opened at law.cornell.edu/cfr/text/26/31.6302-1",
+      "verified": "2026-08-21"
+    },
+    "dep.monthly": {
+      "value": "a monthly depositor deposits by electronic funds transfer the employment taxes on payments made during a calendar month by the 15th day of the following month",
+      "taxYear": 2026,
+      "source": "Reg. § 31.6302-1(c)(1), opened at law.cornell.edu/cfr/text/26/31.6302-1",
+      "verified": "2026-08-21"
+    },
+    "dep.semiweekly": {
+      "value": "a semi-weekly depositor deposits taxes on Wednesday, Thursday and Friday payments by the following Wednesday, and on Saturday, Sunday, Monday and Tuesday payments by the following Friday — with at least three business days after the close of the period in every case",
+      "taxYear": 2026,
+      "source": "Reg. § 31.6302-1(c)(2)(i) and (iii), opened at law.cornell.edu/cfr/text/26/31.6302-1",
+      "verified": "2026-08-21"
+    },
+    "dep.next_day": {
+      "value": "$100,000 — if on any day within a deposit period an employer accumulates that amount or more of employment taxes, they must be deposited by electronic funds transfer by the close of the next day, whatever the employer’s ordinary schedule",
+      "taxYear": 2026,
+      "source": "Reg. § 31.6302-1(c)(3), opened at law.cornell.edu/cfr/text/26/31.6302-1",
+      "verified": "2026-08-21"
+    },
+    "dep.status_change": {
+      "value": "a monthly depositor caught by the next-day rule ceases to be one on the first day after, becoming a semi-weekly depositor for the rest of that calendar year and for the whole of the next",
+      "taxYear": 2026,
+      "source": "Reg. § 31.6302-1(b)(2)(ii), opened at law.cornell.edu/cfr/text/26/31.6302-1",
+      "verified": "2026-08-21"
+    },
+    "dep.de_minimis": {
+      "value": "$2,500 — accumulated employment taxes below that figure for the return period may be remitted with a timely filed return and are deemed timely deposited, and the same relief follows where the immediately preceding quarter was below it",
+      "taxYear": 2026,
+      "source": "Reg. § 31.6302-1(f)(4)(i) and (ii), opened at law.cornell.edu/cfr/text/26/31.6302-1",
+      "verified": "2026-08-21"
+    },
+    "dep.6656": {
+      "value": "2 percent of the underpayment if the failure is for not more than 5 days, 5 percent for more than 5 but not more than 15 days, and 10 percent beyond 15 days — unless the failure is due to reasonable cause and not to wilful neglect",
+      "taxYear": 2026,
+      "source": "IRC § 6656(a) and (b)(1)(A), opened at law.cornell.edu/uscode/text/26/6656",
+      "verified": "2026-08-21"
+    },
+    "dep.6656_escalation": {
+      "value": "the rate rises to 15 percent where the tax is not deposited by the earlier of 10 days after the first delinquency notice under IRC § 6303 or the day of a notice and demand for immediate payment",
+      "taxYear": 2026,
+      "source": "IRC § 6656(b)(1)(B), opened at law.cornell.edu/uscode/text/26/6656",
+      "verified": "2026-08-21"
     }
   }
 }
