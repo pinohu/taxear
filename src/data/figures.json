@@ -8839,6 +8839,36 @@
       "taxYear": 2026,
       "source": "IRC § 6050K, read at law.cornell.edu/uscode/text/26/6050K",
       "verified": "2026-08-21"
+    },
+    "form.agreement": {
+      "value": "for the purposes of subchapter K a partnership agreement includes any modification made before or at the time prescribed by law for filing the partnership return for the taxable year, not including extensions, which is agreed to by all the partners or adopted in such other manner as the agreement provides (IRC § 761(c))",
+      "taxYear": 2026,
+      "source": "IRC § 761(c), read at law.cornell.edu/uscode/text/26/761",
+      "verified": "2026-08-21"
+    },
+    "form.no_deduction": {
+      "value": "except as IRC § 709(b) provides, no deduction is allowed to the partnership or to any partner for amounts paid or incurred to organise a partnership or to promote the sale of, or to sell, an interest in it (IRC § 709(a))",
+      "taxYear": 2026,
+      "source": "IRC § 709(a), read at law.cornell.edu/uscode/text/26/709",
+      "verified": "2026-08-21"
+    },
+    "form.organizational_election": {
+      "value": "$5,000 — a partnership electing under IRC § 709(b) deducts, for the year it begins business, the lesser of its organisational expenses or $5,000, that $5,000 being reduced but not below zero by the amount by which the expenses exceed $50,000; the remainder is deducted rateably over the 180-month period beginning with the month the partnership begins business (IRC § 709(b)(1))",
+      "taxYear": 2026,
+      "source": "IRC § 709(b)(1), read at law.cornell.edu/uscode/text/26/709",
+      "verified": "2026-08-21"
+    },
+    "form.organizational_defined": {
+      "value": "organisational expenses are expenditures incident to the creation of the partnership, chargeable to capital account, and of a character which if expended incident to the creation of a partnership having an ascertainable life would be amortised over that life (IRC § 709(b)(3))",
+      "taxYear": 2026,
+      "source": "IRC § 709(b)(3), read at law.cornell.edu/uscode/text/26/709",
+      "verified": "2026-08-21"
+    },
+    "form.early_liquidation": {
+      "value": "where a partnership is liquidated before the end of the 180-month amortisation period, any deferred organisational expenses not yet allowed as a deduction may be deducted to the extent allowable under IRC § 165 (IRC § 709(b)(2))",
+      "taxYear": 2026,
+      "source": "IRC § 709(b)(2), read at law.cornell.edu/uscode/text/26/709",
+      "verified": "2026-08-21"
     }
   }
 }

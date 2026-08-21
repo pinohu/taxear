@@ -10,9 +10,9 @@ is indexed, and only the owner moves a page there (see `docs/VERIFICATION.md`).
 | Part | Topics | Stub | Draft | Review | Published | Words |
 |---|---:|---:|---:|---:|---:|---:|
 | 1. Individuals | 120 | 0 | 0 | 110 | 10 | 256,550 |
-| 2. Businesses | 119 | 101 | 0 | 18 | 0 | 42,451 |
+| 2. Businesses | 119 | 100 | 0 | 19 | 0 | 44,855 |
 | 3. Representation, Practices and Procedures | 121 | 0 | 0 | 0 | 121 | 257,674 |
-| **All parts** | **360** | **101** | **0** | **128** | **131** | **556,675** |
+| **All parts** | **360** | **100** | **0** | **129** | **131** | **559,079** |
 
 ## Part 1 — Individuals
 
@@ -239,7 +239,7 @@ is indexed, and only the owner moves a page there (see `docs/VERIFICATION.md`).
 | 2.1.2.d | [Contribution of property and/or services to partnership (e.g., partnership's basis, property subject to indebtedness)](/businesses/business-entities/partnerships/contribution-of-property-and-or-services-to-partnership/) | review | 2,488 | 2026-08-21 |
 | 2.1.2.e | [Basis of partner's interest](/businesses/business-entities/partnerships/basis-of-partner-s-interest/) | review | 2,194 | 2026-08-21 |
 | 2.1.2.f | [Disposition of partner's interest](/businesses/business-entities/partnerships/disposition-of-partner-s-interest/) | review | 2,490 | 2026-08-21 |
-| 2.1.2.g | [Partnership formation (e.g., partnership agreement, general vs. limited partners, capital contributions)](/businesses/business-entities/partnerships/partnership-formation/) | stub | — | — |
+| 2.1.2.g | [Partnership formation (e.g., partnership agreement, general vs. limited partners, capital contributions)](/businesses/business-entities/partnerships/partnership-formation/) | review | 2,404 | 2026-08-21 |
 | 2.1.2.h | [Dissolution of partnership (e.g., sale, death of partner)](/businesses/business-entities/partnerships/dissolution-of-partnership/) | stub | — | — |
 | 2.1.2.i | [Filing requirements, due dates, penalties, and audit notice requirements](/businesses/business-entities/partnerships/filing-requirements-due-dates-penalties-and-audit-notice/) | stub | — | — |
 | 2.1.2.j | [Partnership cancellation of debt](/businesses/business-entities/partnerships/partnership-cancellation-of-debt/) | stub | — | — |
