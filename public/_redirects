@@ -1,0 +1,6 @@
+# Cloudflare Pages redirects. Host-level www -> apex is a Redirect Rule in the
+# dashboard (see docs/LAUNCH.md §3); this file handles path-level moves.
+#
+# Add one line per moved page as topics are reorganised, so a URL that has been
+# published and indexed never 404s:
+#   /old/path/  /new/path/  301

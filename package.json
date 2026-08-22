@@ -9,7 +9,10 @@
     "preview": "astro preview",
     "extract": "python3 scripts/extract_source.py",
     "scaffold": "node scripts/scaffold_topics.mjs",
-    "verify": "node scripts/verify_pages.mjs"
+    "verify": "node scripts/verify_pages.mjs",
+    "progress": "node scripts/progress.mjs",
+    "tag": "node scripts/tag_questions.mjs",
+    "test": "node scripts/run_tests.mjs"
   },
   "dependencies": {
     "astro": "^5.12.0",

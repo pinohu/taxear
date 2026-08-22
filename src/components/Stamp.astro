@@ -1,0 +1,15 @@
+---
+// The verification stamp: tax year, status, review date. Rendered inside the authority
+// rail on wide screens, and as a compact band above the article on narrow ones, so the
+// trust signal is still the first thing a reader meets on a phone.
+const { data, band = false } = Astro.props;
+const published = data.status === 'published';
+---
+<div class={band ? 'stamp-band' : 'stamp'}>
+  {band && <span class="eyebrow">Verification</span>}
+  <span class="yr">{data.taxYear ?? '—'}</span>
+  <span>
+    {published ? <span class="ok">Verified</span> : <span class="draft">{data.status.toUpperCase()}</span>}<br />
+    <small>tax year · reviewed {data.lastReviewed ?? 'pending'}{data.reviewedBy ? ` · ${data.reviewedBy}` : ''}</small>
+  </span>
+</div>

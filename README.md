@@ -9,17 +9,36 @@ content outline. Astro static site, deployed on Cloudflare Pages.
 - `src/content/topics/**` — one Markdown file per topic; path = URL. See `docs/PAGE_TEMPLATE.md`.
 - `src/content/forms/`, `src/content/notices/` — directories, one file each.
 - `private/` — gitignored. Third-party question bank used only as QA test cases (`docs/VERIFICATION.md` §4). Never publish, never commit.
-- `docs/` — page template and verification checklist.
+- `docs/` — page template, verification checklist, progress table, launch runbook, annual refresh.
+
+## Working on this
+`CLAUDE.md` carries the rules a session needs; `docs/LOCAL_SETUP.md` gets a clone running
+and explains where the gitignored question bank goes. Content work must happen where
+irs.gov and law.cornell.edu are reachable — see that file for why.
 
 ## Commands
 - `npm install` · `npm run dev` · `npm run build` (output in `dist/`)
-- `npm run extract -- /path/to/book.pdf` — regenerate topics.json and private/questions.json
+- `npm test` — unit tests for the page parsers, tag rules, and sitemap filter
+- `npm run verify` — enforce template rules on `review` and `published` pages
+- `npm run progress` — regenerate `docs/PROGRESS.md` (`-- --check` fails when stale)
+- `npm run tag` — map private-bank questions to outline codes (`-- --report`, `-- --code 3.2.6.a`)
 - `npm run scaffold` — create stub files for any topics missing a page (never overwrites)
-- `npm run verify` — enforce template rules on published pages
+- `npm run extract -- /path/to/book.pdf` — regenerate topics.json and private/questions.json
+
+`npm test && npm run build && npm run verify` before every commit. CI runs the same
+sequence on every push, plus a check that nothing under `private/` is tracked.
+
+## Configuration
+Two optional build-time variables, documented in `.env.example`: `PUBLIC_DIGEST_ENDPOINT`
+(email digest form) and `PUBLIC_CF_BEACON_TOKEN` (Cloudflare Web Analytics). Each feature
+is simply absent when its variable is unset.
 
 ## Publishing rule
-`status: published` is the only status that gets indexed. Everything else builds (for preview) with `noindex`.
-Change status only after the checklist in `docs/VERIFICATION.md` is complete.
+`status: published` is the only status that gets indexed. Everything else builds (for preview) with `noindex`
+and is excluded from the sitemap. Change status only after the checklist in `docs/VERIFICATION.md` is complete.
 
 ## Deploy (Cloudflare Pages)
-Connect the repo; build command `npm run build`, output directory `dist`, Node 22. Set custom domain `taxear.com` (and `www` redirect).
+Build command `npm run build`, output directory `dist`, Node 22 (pinned in `.nvmrc`).
+Full runbook, including the DNS records and search-console setup: `docs/LAUNCH.md`.
+Annual figures refresh: `docs/ANNUAL_REFRESH.md`. Plan of record: `docs/BUILD_PLAN.md`.
+Running work order: `docs/STEP5_PLAN.md`.

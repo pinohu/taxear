@@ -1,0 +1,45 @@
+name: Build and verify
+
+# The publishing discipline is only as good as the checks that run on it. Every push
+# and pull request builds the site, runs the page verifier, and confirms PROGRESS.md
+# matches the content on disk.
+on:
+  push:
+    branches: ['**']
+  pull_request:
+
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version-file: .nvmrc
+          cache: npm
+
+      - run: npm ci
+
+      # Parsers and rule tables the verifier and structured data depend on.
+      - run: npm test
+
+      # Content schema, figure tokens, every page.
+      - run: npm run build
+
+      # Template, figure provenance, and the link graph for review + published pages.
+      - run: npm run verify
+
+      # PROGRESS.md is generated; a stale one means a page changed status without
+      # the table being regenerated.
+      - run: npm run progress -- --check
+
+      # The private question bank is deliberately absent from CI. Nothing in the
+      # build depends on it, and it must never reach a runner.
+      - name: Confirm no private material is tracked
+        run: |
+          if git ls-files | grep -E '^private/'; then
+            echo "::error::private/ is tracked — the third-party question bank must never be committed"
+            exit 1
+          fi
+          echo "private/ is untracked, as required"

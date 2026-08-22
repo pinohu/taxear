@@ -1,15 +1,25 @@
 ---
 import Base from '../../layouts/Base.astro';
 import { getCollection, render } from 'astro:content';
-import { topicByCode } from '../../lib';
+import { topicByCode, publishedCodes } from '../../lib';
 export async function getStaticPaths() { return (await getCollection('forms')).map(e => ({ params: { id: e.id.replace(/\.md$/,'') }, props: { e } })); }
 const { e } = Astro.props; const { Content } = await render(e); const d = e.data;
-const related = d.topics.map(topicByCode).filter(Boolean);
+
+// The backlink is derived as well as declared: any topic page whose forms[] names this
+// form belongs here, whether or not the form's own topics[] lists it. Keeping both
+// sides in sync by hand is what drifts.
+const slug = e.id.replace(/\.md$/, '');
+const formSlug = (n) => n.toLowerCase().replace(/[^a-z0-9]/g, '-').replace(/^-+|-+$/g, '');
+const citing = (await getCollection('topics'))
+  .filter(t => t.data.forms.some(f => formSlug(f) === slug))
+  .map(t => t.data.code);
+const live = await publishedCodes(getCollection);
+const related = [...new Set([...d.topics, ...citing])].filter(c => live.has(c)).map(topicByCode).filter(Boolean);
 ---
 <Base title={`${d.number}: ${d.title}`} description={d.description} noindex={d.status !== 'published'}>
   <p class="crumbs"><a href="/">TaxEar</a><span>›</span><a href="/forms/">IRS Forms</a></p>
   <div class="page"><article><p class="eyebrow"><b>{d.number}</b></p><h1>{d.title}</h1><Content />
     {related.length > 0 && <section><h2>Topics that use this</h2><ul>{related.map(r => <li><a href={r.path}>{r.title}</a></li>)}</ul></section>}
   </article>
-  <aside class="rail"><section><h4>Verification</h4><div class="stamp"><span class="yr">{d.status === 'published' ? '✓' : '—'}</span><span>{d.status}<br/><small>reviewed {d.lastReviewed ?? 'pending'}</small></span></div></section></aside></div>
+  <aside class="rail"><section><h2>Verification</h2><div class="stamp"><span class="yr">{d.status === 'published' ? '✓' : '—'}</span><span>{d.status}<br/><small>reviewed {d.lastReviewed ?? 'pending'}</small></span></div></section></aside></div>
 </Base>

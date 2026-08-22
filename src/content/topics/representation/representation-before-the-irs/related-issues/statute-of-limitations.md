@@ -5,10 +5,10 @@ part: 3
 domain: "Representation before the IRS"
 section: "Related issues"
 description: "The three federal tax limitations periods, how each is measured, when each is extended or suspended, and how practitioners use them in exams, refunds, and collection."
-status: review
+status: published
 taxYear: 2026
-lastReviewed: "2026-08-17"
-reviewedBy: "Draft for I. Ohu review"
+lastReviewed: "2026-08-18"
+reviewedBy: "I. Ohu"
 authorities:
   - { type: IRC, ref: "§ 6501", title: "Limitations on assessment and collection" }
   - { type: IRC, ref: "§ 6502", title: "Collection after assessment" }
@@ -16,13 +16,19 @@ authorities:
   - { type: IRC, ref: "§ 6513", title: "Time return deemed filed and tax considered paid" }
   - { type: IRC, ref: "§ 6503", title: "Suspension of running of period of limitation" }
   - { type: IRC, ref: "§ 6532", title: "Periods of limitation on suits" }
+  - { type: IRC, ref: "§ 6330", title: "Notice and opportunity for hearing before levy" }
+  - { type: IRC, ref: "§ 6331", title: "Levy and distraint" }
+  - { type: IRC, ref: "§ 7508A", title: "Authority to postpone certain deadlines by reason of federally declared disaster" }
   - { type: Reg, ref: "301.6501(c)-1", title: "Exceptions to general period of limitations" }
-  - { type: IRM, ref: "25.6.1", title: "Statute of Limitations Processes and Procedures", url: "https://www.irs.gov/irm/part25/irm_25-006-001" }
-  - { type: Form, ref: "872", title: "Consent to Extend the Time to Assess Tax" }
-  - { type: Form, ref: "1040-X", title: "Amended U.S. Individual Income Tax Return" }
+  - { type: IRM, ref: "25.6.1", title: "Statute of Limitations Processes and Procedures", url: "https://www.irs.gov/irm/part25/irm_25-006-001r" }
+  - { type: IRM, ref: "25.6.22", title: "Extension of Assessment Statute of Limitations by Consent", url: "https://www.irs.gov/irm/part25/irm_25-006-022" }
+  - { type: IRM, ref: "5.16.1", title: "Currently Not Collectible", url: "https://www.irs.gov/irm/part5/irm_05-016-001r" }
+  - { type: Form, ref: "1040-X", title: "Amended U.S. Individual Income Tax Return", url: "https://www.irs.gov/forms-pubs/about-form-1040x" }
+  - { type: Form, ref: "843", title: "Claim for Refund and Request for Abatement", url: "https://www.irs.gov/forms-pubs/about-form-843" }
 forms: ["872", "1040-X", "843"]
-related: ["3.3.1.b", "3.3.1.c", "3.3.3.a", "3.4.2.a"]
+related: ["3.3.1.m", "3.3.1.o", "3.2.1.a", "3.2.1.b", "3.2.1.d", "3.3.1.b", "3.3.1.c", "3.3.1.e", "3.3.2.a", "3.3.2.b", "3.4.2.a", "3.1.4.a", "3.2.6.b", "3.3.3.g", "3.3.1.h", "3.3.3.a", "3.3.3.e", "3.2.6.j", "3.2.6.e", "3.2.6.h", "3.2.6.f", "3.2.6.g", "3.2.6.d", "3.2.6.c", "3.2.5.g", "3.2.5.b", "3.2.5.e", "3.2.2.d", "3.2.2.c", "3.2.2.e"]
 changelog:
+  - { date: "2026-08-18", summary: "Every citation re-opened at source. Corrected the authority for the offer-in-compromise and installment-agreement suspension (IRC § 6331(k)(3)(B) and § 6331(i)(5), not § 6503(f)); added the § 6511(d) seven- and ten-year refund periods, the § 6330(e)(1) ninety-day floor, the § 6503(c) six-month tail, and currently-not-collectible." }
   - { date: "2026-08-17", summary: "Initial draft from primary sources." }
 ---
 
@@ -30,9 +36,9 @@ Federal tax has three separate clocks, and most limitations mistakes come from m
 
 ## The rule
 
-**Assessment.** The IRS must assess tax within three years after the return was filed (IRC § 6501(a)). A return filed before its due date is treated as filed on the due date (IRC § 6501(b)(1); § 6513(a)), so early filing never shortens the period; late filing pushes the start to the actual filing date. Two important exceptions extend it: where the return omits more than 25 percent of the gross income stated on it, the period is six years (IRC § 6501(e)(1)(A)); and where no return is filed, or the return is false or fraudulent with intent to evade tax, there is no limitations period at all (IRC § 6501(c)(1)–(3)). The three-year period is measured to the date the IRS records the assessment, not the date it sends a notice, and a statutory notice of deficiency issued before the period ends suspends it while the taxpayer can petition the Tax Court and for 60 days after (IRC § 6503(a)(1)).
+**Assessment.** The IRS must assess tax within three years after the return was filed (IRC § 6501(a)). A return filed before its due date is treated as filed on the due date (IRC § 6501(b)(1); § 6513(a)), so early filing never shortens the period; late filing pushes the start to the actual filing date. Two important exceptions extend it: where the return omits an amount of gross income exceeding 25 percent of the gross income stated on it, the period is six years, as it is for an omission over {fig:sol.assessment.foreign_asset_threshold} attributable to a foreign asset reportable under § 6038D (IRC § 6501(e)(1)(A)(i), (ii)); and where no return is filed, or the return is false or fraudulent with intent to evade tax, there is no limitations period at all (IRC § 6501(c)(1)–(3)). The three-year period is measured to the date the IRS records the assessment, not the date it sends a notice, and a statutory notice of deficiency issued before the period ends suspends it while the taxpayer can petition the Tax Court and for 60 days after (IRC § 6503(a)(1)).
 
-**Refund.** A claim for credit or refund must be filed within three years from the time the return was filed or two years from the time the tax was paid, whichever is later; if no return was filed, the two-year rule applies (IRC § 6511(a)). Timely filing is only half of it. The amount refundable is capped by the *look-back*: for a claim filed within the three-year window, the refund cannot exceed tax paid within the three years (plus any extension period) immediately before the claim; for a claim under the two-year rule, only tax paid within the two years before the claim (IRC § 6511(b)(2)). Withholding and estimated payments are deemed paid on the original due date of the return (IRC § 6513(b)), which is why a taxpayer who files a delinquent return four years late usually gets nothing back even though the return itself is the "claim."
+**Refund.** A claim for credit or refund must be filed within three years from the time the return was filed or two years from the time the tax was paid, whichever is later; if no return was filed, the two-year rule applies (IRC § 6511(a)). Timely filing is only half of it. The amount refundable is capped by the *look-back*: for a claim filed within the three-year window, the refund cannot exceed tax paid within the three years (plus any extension period) immediately before the claim; for a claim under the two-year rule, only tax paid within the two years before the claim (IRC § 6511(b)(2)). Withholding and estimated payments are deemed paid on the original due date of the return (IRC § 6513(b)), which is why a taxpayer who files a delinquent return four years late usually gets nothing back even though the return itself is the "claim." Two categories of claim get longer periods, and both are easy to miss: a claim arising from a debt that became worthless or a security that became worthless runs seven years from the due date of the return for the year involved (IRC § 6511(d)(1)), and a claim attributable to foreign taxes paid or accrued for which a credit is allowed runs ten years from the due date of the return for the year those taxes were paid or accrued (IRC § 6511(d)(3)(A)). In both, the statute expressly allows the refund to exceed what the ordinary look-back would permit. Separately, the IRS may disregard a period of up to one year for a taxpayer affected by a federally declared disaster, a significant fire, or a terroristic or military action, which postpones the deadline for filing a claim (IRC § 7508A(a)).
 
 **Collection.** Once tax is assessed, the IRS has ten years to collect by levy or by a court proceeding (IRC § 6502(a)(1)). This is the collection statute expiration date, or CSED, and it can be suspended or extended by several events discussed below.
 
@@ -52,7 +58,13 @@ The IRS tracks the assessment statute expiration date (ASED) on every return and
 
 For refunds, the claim is normally the amended return, Form 1040-X for individuals, or Form 843 for penalties, interest, and certain other taxes. The two dates that matter are the postmark date of the claim and the dates the tax was paid. If the IRS disallows the claim, the taxpayer has two years from the notice of disallowance to sue in district court or the Court of Federal Claims (IRC § 6532(a)(1)); the taxpayer may also sue after six months if the IRS has not acted.
 
-For collection, the CSED runs from each assessment separately, so a single tax year can have several CSEDs: the original assessment, a later exam assessment, and a penalty assessment each start their own ten years. The period is suspended while the IRS is legally barred from collecting and, in most of those situations, for a tail afterward: during a pending offer in compromise and 30 days after rejection (IRC § 6331(k); § 6503(f)... see IRM 25.6.1 for the current list); during a Collection Due Process hearing and any appeal (IRC § 6330(e)(1)); while the taxpayer is in bankruptcy and for six months after (IRC § 6503(h)); and while the taxpayer is outside the United States for a continuous period of at least six months (IRC § 6503(c)). An installment agreement does not by itself suspend the CSED, but the period is suspended while a proposed agreement is pending, for 30 days after rejection or termination, and during any appeal of the rejection (IRC § 6331(k)(2)-(3)). Voluntary extensions of the collection period are now limited to those made in connection with an installment agreement (IRC § 6502(a)(2)).
+For collection, the CSED runs from each assessment separately, so a single tax year can have several CSEDs: the original assessment, a later exam assessment, and a penalty assessment each start their own ten years. The period is suspended while the IRS is legally barred from collecting and, in most of those situations, for a tail afterward.
+
+The offer-in-compromise and installment-agreement suspensions work through the levy bar rather than directly. Section 6331(k) prohibits levy while an offer is pending and for 30 days after rejection, plus any appeal filed in those 30 days, and likewise while a proposed installment agreement is pending, for 30 days after rejection or termination, and during an appeal (IRC § 6331(k)(1), (k)(2)). Section 6331(k)(3)(B) then applies rules similar to § 6331(i)(5), which suspends the § 6502 period for as long as the levy bar is in force. The exception is the one practitioners get wrong: § 6331(k)(3)(B) expressly carves out paragraph (2)(C), the period during which an installment agreement *is in effect*. So an agreement in good standing bars levy without stopping the clock, while the weeks spent waiting for a decision on it do stop the clock.
+
+The other suspensions are direct. A Collection Due Process hearing suspends the period while the hearing and any appeals are pending, and — a floor that is easy to overlook — the period cannot expire before the 90th day after the final determination (IRC § 6330(e)(1)). Bankruptcy suspends it while the IRS is barred from collecting and for six months after (IRC § 6503(h)). Absence from the United States for a continuous period of at least six months suspends it, and if fewer than six months remain when the taxpayer returns, the period runs to six months after the return (IRC § 6503(c)). Voluntary extensions of the collection period are limited to those made in connection with an installment agreement (IRC § 6502(a)(2)).
+
+Currently not collectible is not on that list. Reporting an account as currently not collectible is an administrative decision to stop active collection, not a legal bar to it: no provision of § 6503 or § 6331 suspends the period, and the Internal Revenue Manual treats a currently-not-collectible module's CSED as continuing to run, which is why such accounts are eventually closed by statute expiration rather than by payment (IRM 5.16.1).
 
 <div class="scenario">
 <h3>An early return and a late claim</h3>
@@ -82,7 +94,9 @@ For collection, the CSED runs from each assessment separately, so a single tax y
 <p><strong>The look-back is not the deadline.</strong> Practitioners often check only that a claim is within three years and miss that the refundable amount is limited to payments made in the look-back window. This is the rule that turns a timely delinquent return into a zero refund.</p>
 <p><strong>Amended returns do not restart the assessment clock.</strong> An amended return showing additional tax filed within 60 days before the period expires gives the IRS 60 days from receipt to assess that additional amount (§ 6501(c)(7)), but otherwise the original return's date controls.</p>
 <p><strong>"Two years from payment" can help a late payer.</strong> A taxpayer who paid an old liability last year can still claim a refund of that payment within two years, even though the three-year period from the return closed long ago; the look-back then limits the refund to that payment.</p>
-<p><strong>Signing Form 872 has scope.</strong> A restricted consent limits the extension to specified issues; an unrestricted consent extends the whole return. Read what the examiner sends.</p>
+<p><strong>Signing Form 872 has scope.</strong> A restricted consent limits the extension to specified issues; an unrestricted consent extends the whole return. Read what the examiner sends (IRM 25.6.22).</p>
+<p><strong>Two refund clocks run longer than three years.</strong> Worthless debts and securities get seven years, and foreign tax credits ten, each measured from the return's due date rather than from filing (§ 6511(d)(1), (d)(3)(A)). Both also escape the ordinary look-back cap, so a claim that looks hopeless under the three-year rule can still be worth filing.</p>
+<p><strong>Currently not collectible runs the clock down, not up.</strong> The period keeps running while the account sits in that status, so a liability can simply expire — and a client who later asks for a payment plan may be reviving one the IRS could no longer collect.</p>
 </div>
 
 ## How this has changed

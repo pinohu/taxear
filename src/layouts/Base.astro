@@ -1,7 +1,11 @@
 ---
 import '../styles/global.css';
+import Digest from '../components/Digest.astro';
 interface Props { title: string; description: string; noindex?: boolean; canonical?: string; jsonld?: object }
 const { title, description, noindex = false, jsonld } = Astro.props;
+// Privacy-respecting analytics, injected only when a token is configured at build time.
+// Cloudflare Web Analytics sets no cookies and records no cross-site identifiers.
+const cfBeacon = import.meta.env.PUBLIC_CF_BEACON_TOKEN;
 const canonical = Astro.props.canonical ?? new URL(Astro.url.pathname, Astro.site).href;
 const path = Astro.url.pathname;
 const nav = [
@@ -33,9 +37,12 @@ const nav = [
     </nav>
   </div></header>
   <main class="wrap"><slot /></main>
+  <div class="wrap"><Digest /></div>
   <footer class="site-foot"><div class="wrap">
     <p><strong>TaxEar</strong> is a reference on federal tax law and IRS procedure, organized by the IRS Special Enrollment Examination content outline. Every page cites primary authority and shows its verification date. Educational only; not legal or tax advice for your situation.</p>
     <p><a href="/about/">About &amp; editorial policy</a> · <a href="/ea-exam/">EA exam guide</a> · <a href="/changes/">What changed this year</a> · © {new Date().getFullYear()} TaxEar / Neat Circle LLC</p>
   </div></footer>
+  {cfBeacon && <script defer src="https://static.cloudflareinsights.com/beacon.min.js"
+    data-cf-beacon={JSON.stringify({ token: cfBeacon })}></script>}
 </body>
 </html>
