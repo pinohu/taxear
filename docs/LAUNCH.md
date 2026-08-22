@@ -8,6 +8,41 @@ here because guessing them produces a broken zone.
 Cloudflare's dashboard labels move around. Where a path is given, treat it as the
 current name of the setting rather than an exact route.
 
+## 0. Get `main` to the finished site — owner
+
+**Do this before creating the Pages project.** The finished site does not live on `main`.
+
+| | |
+|---|---|
+| Branch carrying all 360 published topics | `claude/taxear-build-handoff-gdzo4x` |
+| Repository default branch (today) | `claude/taxear-build-handoff-gdzo4x` |
+| `main` | still the original scaffold commit, one commit, no written pages |
+| Pull request | #1 — base `main`, head `claude/taxear-build-handoff-gdzo4x`, open as a **draft** |
+
+Pointing Pages at `main` in its current state deploys the scaffold, not the site. Two
+steps fix it, in this order:
+
+1. **Merge PR #1.** Mark it ready for review and merge it into `main`. That moves the
+   whole history — every page, every figure, every form and notice entry — onto `main`.
+2. **Set the repository default branch back to `main`.** GitHub → the repo → Settings →
+   General → Default branch. It currently points at the feature branch, which is why
+   clones and new sessions land there.
+
+Then confirm, from a fresh clone:
+
+```sh
+git clone https://github.com/pinohu/taxear && cd taxear
+npm ci && npm run build && npm run verify
+```
+
+Expect **421 HTML files** in `dist/` and **420 URLs** in `dist/sitemap-0.xml` — the
+difference is `404.html`, which is deliberately not in the sitemap. `verify` should
+report zero errors. Only then create the Pages project.
+
+The alternative — setting the Pages production branch to
+`claude/taxear-build-handoff-gdzo4x` and leaving `main` behind — works and deploys the
+right content, but leaves the repository permanently odd. Merge instead.
+
 ## 1. Create the Pages project — owner
 
 Cloudflare dashboard → Workers & Pages → Create → Pages → Connect to Git, then pick
@@ -22,9 +57,10 @@ Cloudflare dashboard → Workers & Pages → Create → Pages → Connect to Git
 | Root directory | *(repo root)* |
 | Node version | 22 — set by `.nvmrc`; also settable as a `NODE_VERSION` variable |
 
-The first build should report the same page count as a local `npm run build`. If it
-reports fewer, the build picked up a stale lockfile — check that `package-lock.json` is
-committed and that the build log shows `npm ci`.
+The first build should report **421 pages** — the same count as a local `npm run build`
+against the merged `main`. If it reports fewer, either the production branch is still
+pointing at the old `main` (see step 0) or the build picked up a stale lockfile — check
+that `package-lock.json` is committed and that the build log shows `npm ci`.
 
 ### Environment variables
 
@@ -171,6 +207,8 @@ npm run build && npm run verify       # never deploy a red tree
 curl -sS https://taxear.com/sitemap-index.xml | head
 ```
 
+- [ ] PR #1 merged and `main` is the repository default branch again (step 0).
+- [ ] The deployed build reports 421 pages; `/sitemap-index.xml` resolves to 420 URLs.
 - [ ] Both hostnames serve TLS; `www` 301s to apex.
 - [ ] `robots.txt` reachable and names the sitemap.
 - [ ] A published page's `<link rel="canonical">` points at the apex URL.
