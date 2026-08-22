@@ -8,40 +8,31 @@ here because guessing them produces a broken zone.
 Cloudflare's dashboard labels move around. Where a path is given, treat it as the
 current name of the setting rather than an exact route.
 
-## 0. Get `main` to the finished site — owner
+## 0. The branch situation — one step left, and it is the owner's
 
-**Do this before creating the Pages project.** The finished site does not live on `main`.
+`main` now carries the finished site. PR #1 was merged on 22 August 2026 as
+`5aff918`; all 360 published topic pages, 44 form entries and 7 notice entries are on
+`main`, and that is what Pages should build.
 
-| | |
-|---|---|
-| Branch carrying all 360 published topics | `claude/taxear-build-handoff-gdzo4x` |
-| Repository default branch (today) | `claude/taxear-build-handoff-gdzo4x` |
-| `main` | still the original scaffold commit, one commit, no written pages |
-| Pull request | #1 — base `main`, head `claude/taxear-build-handoff-gdzo4x`, open as a **draft** |
+One thing is still wrong, and it needs repository-settings access:
 
-Pointing Pages at `main` in its current state deploys the scaffold, not the site. Two
-steps fix it, in this order:
+**The repository default branch still points at `claude/taxear-build-handoff-gdzo4x`,
+not `main`.** GitHub → the repo → Settings → General → Default branch → switch it to
+`main`. Until that happens, a fresh `git clone` lands on the feature branch rather than
+on `main`, which is confusing rather than broken — Pages is configured with an explicit
+production branch and is unaffected.
 
-1. **Merge PR #1.** Mark it ready for review and merge it into `main`. That moves the
-   whole history — every page, every figure, every form and notice entry — onto `main`.
-2. **Set the repository default branch back to `main`.** GitHub → the repo → Settings →
-   General → Default branch. It currently points at the feature branch, which is why
-   clones and new sessions land there.
-
-Then confirm, from a fresh clone:
+Confirm from a fresh clone before creating the Pages project:
 
 ```sh
 git clone https://github.com/pinohu/taxear && cd taxear
+git checkout main
 npm ci && npm run build && npm run verify
 ```
 
 Expect **421 HTML files** in `dist/` and **420 URLs** in `dist/sitemap-0.xml` — the
 difference is `404.html`, which is deliberately not in the sitemap. `verify` should
-report zero errors. Only then create the Pages project.
-
-The alternative — setting the Pages production branch to
-`claude/taxear-build-handoff-gdzo4x` and leaving `main` behind — works and deploys the
-right content, but leaves the repository permanently odd. Merge instead.
+report zero errors.
 
 ## 1. Create the Pages project — owner
 
@@ -180,25 +171,27 @@ Name the provider and the endpoint goes in `PUBLIC_DIGEST_ENDPOINT`; nothing els
 Whichever is chosen, keep double opt-in on and confirm the provider's privacy statement
 matches what `/about/` says.
 
-## 7. Outstanding: self-host the fonts
+## 7. Fonts are self-hosted — done
 
-Measured on the exemplar topic page, desktop Lighthouse: accessibility 100, SEO 100,
-performance 90, best practices 96. Removing the `fonts.googleapis.com` stylesheet and
-changing nothing else takes the same page to **100 in all four categories** — that one
-render-blocking third-party request is the entire gap.
+Measured on the exemplar topic page before the change, desktop Lighthouse: accessibility
+100, SEO 100, performance 90, best practices 96. The whole gap was the one
+render-blocking `fonts.googleapis.com` stylesheet.
 
-The fix is to self-host the three families rather than to drop them:
+The three families now ship from `public/fonts/` — the same woff2 builds Google serves,
+latin and latin-ext only, with the SIL OFL 1.1 text for each beside them. The
+`@font-face` rules are at the top of `src/styles/global.css` and carry the
+`unicode-range` values verbatim, so a page with no latin-ext characters fetches only the
+latin files. `src/layouts/Base.astro` preloads the two faces used above the fold, and
+`_headers` gives `/fonts/*` the same immutable cache header as the Astro assets.
 
-1. Fetch the woff2 files for Source Serif 4, Public Sans, and IBM Plex Mono
-   (weights actually used: 500/600 serif, 400/600 sans, 400/600 mono).
-2. Put them in `public/fonts/`, add `@font-face` rules with `font-display:swap` to
-   `src/styles/global.css`, and add `<link rel="preload" as="font" type="font/woff2"
-   crossorigin>` for the two faces used above the fold.
-3. Delete the `preconnect` and stylesheet `<link>` tags from `src/layouts/Base.astro`.
-4. Re-run Lighthouse and confirm 95+ before deploying.
+The site now makes **no third-party request at all**, which is what `/about/` claims.
 
-This also removes the only third-party request the site makes, which matches what
-`/about/` says about not loading trackers.
+`public/fonts/README.md` records the provenance and how to refresh a family — take the
+new woff2 URLs *and* the new `unicode-range` values together, because the ranges change
+between font versions.
+
+Re-run Lighthouse against the deployed site to confirm the score; it was measured
+locally, not on Pages.
 
 ## 8. Post-launch checks
 
@@ -207,7 +200,7 @@ npm run build && npm run verify       # never deploy a red tree
 curl -sS https://taxear.com/sitemap-index.xml | head
 ```
 
-- [ ] PR #1 merged and `main` is the repository default branch again (step 0).
+- [ ] `main` is the repository default branch again (step 0). PR #1 is already merged.
 - [ ] The deployed build reports 421 pages; `/sitemap-index.xml` resolves to 420 URLs.
 - [ ] Both hostnames serve TLS; `www` 301s to apex.
 - [ ] `robots.txt` reachable and names the sitemap.
