@@ -24,8 +24,10 @@ const nav = [
   {noindex && <meta name="robots" content="noindex,follow" />}
   <meta property="og:title" content={title} /><meta property="og:description" content={description} />
   <meta property="og:type" content="article" /><meta property="og:url" content={canonical} /><meta property="og:site_name" content="TaxEar" />
-  <link rel="preconnect" href="https://fonts.googleapis.com" /><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Source+Serif+4:opsz,wght@8..60,500;8..60,600&family=Public+Sans:wght@400;600&family=IBM+Plex+Mono:wght@400;600&display=swap" rel="stylesheet" />
+  {/* Fonts are self-hosted from public/fonts; the @font-face rules live in global.css.
+      Only the two latin faces used above the fold are preloaded — body text and headings. */}
+  <link rel="preload" href="/fonts/public-sans-latin.woff2" as="font" type="font/woff2" crossorigin />
+  <link rel="preload" href="/fonts/source-serif-4-latin.woff2" as="font" type="font/woff2" crossorigin />
   <link rel="sitemap" href="/sitemap-index.xml" />
   {jsonld && <script type="application/ld+json" set:html={JSON.stringify(jsonld)} />}
 </head>
