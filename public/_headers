@@ -12,6 +12,11 @@
 /_astro/*
   Cache-Control: public, max-age=31536000, immutable
 
+# Font filenames are not fingerprinted, but the files themselves never change in
+# place — a new cut of a family would land under a new name. Cache them the same way.
+/fonts/*
+  Cache-Control: public, max-age=31536000, immutable
+
 # HTML must revalidate, or a published page keeps serving a stale figure.
 /*.html
   Cache-Control: public, max-age=0, must-revalidate
