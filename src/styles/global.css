@@ -60,6 +60,10 @@ a:hover{text-decoration-thickness:2px}
 h1,h2,h3,h4{font-family:var(--f-display);color:var(--ink);line-height:1.15;margin:0 0 .5em;font-weight:600;letter-spacing:-.01em}
 h1{font-size:clamp(30px,4.2vw,44px)} h2{font-size:clamp(22px,2.6vw,28px);margin-top:2.2em} h3{font-size:19px;margin-top:1.6em}
 p,li{max-width:var(--measure)} code,.mono{font-family:var(--f-mono);font-size:.92em}
+/* Wide tables scroll inside their own box rather than pushing the page sideways.
+   The wrapper is a focus stop, so the scroll is reachable without a pointer. */
+.table-scroll{overflow-x:auto;margin:1em 0}
+.table-scroll table{margin:0}
 table{border-collapse:collapse;width:100%;font-size:.95em;margin:1em 0}
 th,td{border-bottom:1px solid var(--rule);padding:.5em .6em;text-align:left;vertical-align:top}
 th{font-family:var(--f-body);font-weight:600;color:var(--ink);background:var(--gold-soft)}
@@ -90,8 +94,11 @@ hr{border:0;border-top:1px solid var(--rule);margin:2em 0}
 .callout{background:var(--surface);border:1px solid var(--rule);border-left:4px solid var(--gold);padding:14px 18px;margin:1.4em 0}
 .callout.trap{border-left-color:var(--warn)}
 .callout h4,.callout-label{margin:0 0 6px;font-family:var(--f-body);font-size:14px;letter-spacing:.06em;text-transform:uppercase;color:var(--ink);font-weight:600;max-width:none}
-.figure{font-family:var(--f-mono);background:var(--gold-soft);padding:0 .3em;border-radius:2px;white-space:nowrap}
-.figure sup{font-size:.7em;color:var(--muted)}
+.figure{font-family:var(--f-mono);background:var(--gold-soft);padding:0 .3em;border-radius:2px;
+  -webkit-box-decoration-break:clone;box-decoration-break:clone}
+/* Amounts hold no spaces so they stay atomic on their own; only the tax-year
+   superscript needs welding, so prose-length figures can wrap on narrow screens. */
+.figure sup{font-size:.7em;color:var(--muted);white-space:nowrap}
 .scenario{counter-increment:scn;border:1px solid var(--rule);background:var(--surface);padding:16px 18px;margin:1.2em 0}
 .scenario h3::before{content:"Scenario " counter(scn);display:block;font-family:var(--f-mono);font-size:12px;letter-spacing:.08em;color:var(--gold-text);text-transform:uppercase}
 article{counter-reset:scn}
