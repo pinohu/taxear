@@ -37,11 +37,14 @@ Read `docs/PAGE_TEMPLATE.md` and `docs/VERIFICATION.md` before writing any page.
    page; bank dated or imprecise, note it. Nothing from that check reaches the site.
 7. **No generated content at runtime.** Every page is a reviewed commit. Never build an
    "generate an article" feature.
-8. **Design.** Keep the tokens: navy `#0E2340`, gold `#C8A24A`, Source Serif 4 / Public
-   Sans / IBM Plex Mono, authority rail. Improve, don't restyle. Responsive, visible
-   keyboard focus, reduced motion respected. Screenshot it and look before calling layout
-   done. Note `--gold-text` exists for small gold text on light backgrounds; plain
-   `--gold` fails AA below ~14px.
+8. **Design.** `DESIGN.md` is the constraints file and governs — read it before touching
+   a stylesheet. Six colour roles on onionskin `#F7F7F4` with one accent, the printing red
+   `#8C1D18`; two families only, Source Serif 4 for text and display, IBM Plex Mono for
+   apparatus; hairlines instead of boxes; radius cap 2px. No second accent, no gradients,
+   no card grids as a default. The signature move is the live figure citation — every
+   number opens its own source and verification date. Responsive, visible keyboard focus,
+   reduced motion respected. Screenshot it and look before calling layout done, and measure
+   contrast on the composited render rather than by eye.
 9. **Commits.** Small, one concern each, descriptive. Run `npm test && npm run build &&
    npm run verify` before every one. Never commit `private/`, `dist/`, `node_modules/`,
    `.env`.

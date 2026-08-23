@@ -2,22 +2,114 @@
 import Base from '../layouts/Base.astro';
 import { parts } from '../lib';
 import { getCollection } from 'astro:content';
+import figuresData from '../data/figures.json';
+
 const entries = await getCollection('topics');
 const pub = entries.filter(e => e.data.status === 'published');
 const count = (n: number) => pub.filter(e => e.data.part === n).length;
 const total = (p) => p.domains.reduce((a, d) => a + d.sections.reduce((b, s) => b + s.topics.length, 0), 0);
+
+const domains = parts.reduce((a, p) => a + p.domains.length, 0);
+const sections = parts.reduce((a, p) => a + p.domains.reduce((b, d) => b + d.sections.length, 0), 0);
+const topics = parts.reduce((a, p) => a + total(p), 0);
+const figureCount = Object.keys(figuresData.figures).length;
+
+// The release line: the most recent date on which a page's authorities were opened.
+const released = pub.map(e => e.data.lastReviewed).filter(Boolean).sort().at(-1);
+
+// The peak. One real figure, inspectable exactly as it is inside a topic page —
+// the site's whole claim, demonstrated rather than described.
+const PROOF_KEY = 'cfs.national.one_person';
+const proof = figuresData.figures[PROOF_KEY];
+const proofSrc = String(proof?.source ?? '').replace(
+  /((?:https?:\/\/)?(?:www\.)?(?:law\.cornell\.edu|irs\.gov)\/[^\s,;)]+)/g,
+  (m) => `<a href="${m.startsWith('http') ? m : 'https://' + m}" rel="noopener">${m}</a>`);
 ---
-<Base title="Federal tax law and IRS procedure, cited and verified" description="TaxEar explains every topic on the IRS Enrolled Agent exam outline from primary sources: Internal Revenue Code, regulations, and IRS guidance, with worked scenarios and verification dates.">
-  <section class="hero">
-    <p class="eyebrow"><b>Reference</b> · organized by the IRS SEE content outline</p>
-    <h1>Tax law and IRS procedure, explained from the source and dated.</h1>
+<Base
+  title="Federal tax law and IRS procedure, cited and verified"
+  description="TaxEar explains every topic on the IRS Enrolled Agent exam outline from primary sources: Internal Revenue Code, regulations, and IRS guidance, with worked scenarios and verification dates.">
+
+  {/* 1 — Title page. Type only. No cards, no image, no marketing chrome. */}
+  <section class="titlepage">
+    <p class="eyebrow">Federal tax law &amp; IRS procedure · organised by the IRS SEE content outline</p>
+    <h1>Every rule, traced to the section it comes from.</h1>
     <div class="lede-rule"></div>
-    <p>Each page states the rule, cites the Code section or regulation behind it, works through realistic scenarios, flags the traps practitioners hit, and shows the tax year it was verified for. Built for Enrolled Agent candidates and the people who represent taxpayers.</p>
+    <p class="lede">Each page states the rule, cites the Code section or regulation behind it, works
+      through realistic scenarios, and flags the traps practitioners hit. Written for Enrolled Agent
+      candidates and for the people who represent taxpayers.</p>
+    {released && <p class="release">Release {released} · {topics} topics · {figureCount} figures, each dated</p>}
   </section>
-  <div class="grid">
-    {parts.map(p => <a class="card" href={`/${p.slug}/`}><p class="eyebrow">Part {p.part} · {count(p.part)} of {total(p)} topics published</p><h2>{p.name}</h2><p>{p.domains.map(d => d.title).join(' · ')}</p></a>)}
-    <a class="card" href="/notices/"><p class="eyebrow">Directory</p><h2>IRS notices &amp; letters</h2><p>What each notice means, the deadline it starts, and what to do.</p></a>
-    <a class="card" href="/forms/"><p class="eyebrow">Directory</p><h2>Forms</h2><p>Every form the outline references, linked to the topics that use it.</p></a>
-    <a class="card" href="/ea-exam/"><p class="eyebrow">Guide</p><h2>The Enrolled Agent exam</h2><p>Format, scoring, scheduling, and how this site maps to it.</p></a>
-  </div>
+
+  {/* 2 — The outline, as structure. Dense; deliberately not cards. */}
+  <section class="outline" aria-labelledby="outline-h">
+    <h2 id="outline-h" class="section-mark">The outline</h2>
+    <dl class="measures">
+      <div><dt>Parts</dt><dd>{parts.length}</dd></div>
+      <div><dt>Domains</dt><dd>{domains}</dd></div>
+      <div><dt>Sections</dt><dd>{sections}</dd></div>
+      <div><dt>Topics</dt><dd>{topics}</dd></div>
+    </dl>
+    <ul class="toc">
+      {parts.map(p => (
+        <li>
+          <span class="code">Part {p.part}</span>
+          <a href={`/${p.slug}/`}>{p.name}</a>
+          <span class="badge published">{count(p.part)} of {total(p)}</span>
+        </li>
+      ))}
+    </ul>
+  </section>
+
+  {/* 3 — THE PEAK. One figure, breaking the measure, quiet on either side. */}
+  <section class="proof" aria-labelledby="proof-h">
+    <h2 id="proof-h" class="section-mark">Open any number</h2>
+    <p class="proof-lede">Every figure on this site carries the authority it came from and the day
+      that authority was opened. Not a footnote — the number itself. Try it.</p>
+    {proof && (
+      <p class="proof-line">
+        The IRS allows one person
+        <button type="button" class="figure" popovertarget="proof-fig"
+          aria-label={`${proof.value} — source and verification date`}>
+          {proof.value}<sup>TY{proof.taxYear}</sup>
+        </button>
+        <span class="figure-src" id="proof-fig" popover>
+          <span class="figure-src-head">Verified {proof.verified}</span>
+          <span class="figure-src-body" set:html={proofSrc}></span>
+        </span>
+        for living expenses when it decides what they can afford to pay.
+      </p>
+    )}
+    <p class="proof-note">That date is the day someone opened the source and read it. It is never
+      carried forward from last year.</p>
+  </section>
+
+  {/* 4 — Entry. Plain, three across, no decoration. */}
+  <section class="entry" aria-labelledby="entry-h">
+    <h2 id="entry-h" class="section-mark">Start reading</h2>
+    <div class="grid">
+      {parts.map(p => (
+        <a class="card" href={`/${p.slug}/`}>
+          <p class="eyebrow">Part {p.part}</p>
+          <h3>{p.name}</h3>
+          <p>{p.domains.map(d => d.title).join(' · ')}</p>
+        </a>
+      ))}
+      <a class="card" href="/notices/"><p class="eyebrow">Directory</p><h3>IRS notices &amp; letters</h3><p>What each notice means, the deadline it starts, and what to do.</p></a>
+      <a class="card" href="/forms/"><p class="eyebrow">Directory</p><h3>Forms</h3><p>Every form the outline references, linked to the topics that use it.</p></a>
+      <a class="card" href="/ea-exam/"><p class="eyebrow">Guide</p><h3>The Enrolled Agent exam</h3><p>Format, scoring, scheduling, and how this site maps to it.</p></a>
+    </div>
+  </section>
+
+  {/* 5 — Colophon. Running text. Resolves and holds; it is not a footer that fades. */}
+  <section class="colophon" aria-labelledby="colophon-h">
+    <h2 id="colophon-h" class="section-mark">Colophon</h2>
+    <p>TaxEar is a reference work, not a blog and not advice. Every rule statement cites the
+      controlling authority — Internal Revenue Code, Treasury Regulations, Circular 230, the Internal
+      Revenue Manual — and that authority was opened and read for the page it appears on. Where a
+      publication only describes procedure, the Code and the regulations still control the substance.</p>
+    <p>Figures are never written into the prose. Each one lives in a single file with its source and
+      the date it was checked, so a number cannot quietly go stale in one place while being correct in
+      another. Tax year {figuresData.taxYear} is the default; where {figuresData.taxYear - 1} differs, the page says so.</p>
+    <p>Maintained by Ike Ohu. Last release {released}.</p>
+  </section>
 </Base>

@@ -3,16 +3,16 @@
 Self-hosted so the site issues no third-party request. Each file is the woff2 build
 Google Fonts serves for the same family and weight, taken from `fonts.gstatic.com` and
 committed here unmodified; only the `latin` and `latin-ext` subsets are kept, which is
-everything this site sets.
+everything this site sets. Public Sans was removed on 23 August 2026 with the
+navy-and-gold system: the design uses two families, not three.
 
 | Family | Weights used | Files | Licence |
 |---|---|---|---|
 | Source Serif 4 | 500, 600 | `source-serif-4-{latin,latin-ext}.woff2` | SIL OFL 1.1 |
-| Public Sans | 400, 600 | `public-sans-{latin,latin-ext}.woff2` | SIL OFL 1.1 |
 | IBM Plex Mono | 400, 600 | `ibm-plex-mono-{400,600}-{latin,latin-ext}.woff2` | SIL OFL 1.1 |
 
-Source Serif 4 and Public Sans are variable fonts, so the two weights of each share a
-single file and are instanced by the `font-weight` descriptor — that is what Google's own
+Source Serif 4 is a variable font, so its two weights share a single file and are
+instanced by the `font-weight` descriptor — that is what Google's own
 stylesheet does, and it is why those filenames carry no weight. IBM Plex Mono ships as
 static cuts, one file per weight.
 
