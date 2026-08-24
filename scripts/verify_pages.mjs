@@ -17,6 +17,22 @@ const REQUIRED_HEADINGS = ['The rule', 'How it works in practice', 'How this has
 const WORDS_MIN = 1400, WORDS_MAX = 2500;
 const DESC_MIN = 150, DESC_MAX = 170;
 const RELATED_MIN = 3;
+const PLAIN_WORDS_MIN = 60, PLAIN_WORDS_MAX = 170;
+const PLAIN_FLESCH_MIN = 65; // docs/COMPREHENSION_PLAN.md — plain layer must clear plain English
+
+function syllables(word) {
+  word = word.toLowerCase().replace(/[^a-z]/g, '');
+  if (word.length <= 3) return 1;
+  word = word.replace(/(?:[^laeiouy]es|ed|[^laeiouy]e)$/, '').replace(/^y/, '');
+  return (word.match(/[aeiouy]{1,2}/g) || ['']).length || 1;
+}
+function flesch(text) {
+  const words = text.match(/\b[a-zA-Z][a-zA-Z'-]*\b/g) || [];
+  const sentences = (text.match(/[.!?]+/g) || []).length || 1;
+  if (!words.length) return null;
+  const syl = words.reduce((a, w) => a + syllables(w), 0);
+  return 206.835 - 1.015 * (words.length / sentences) - 84.6 * (syl / words.length);
+}
 
 const figures = JSON.parse(fs.readFileSync('src/data/figures.json', 'utf8')).figures;
 const outline = JSON.parse(fs.readFileSync('src/data/topics.json', 'utf8'));
@@ -88,10 +104,21 @@ for (const p of gated) {
     if (at === -1) err(file, `missing or out-of-order section "## ${h}"`);
     else cursor = at;
   }
-  const scenarios = [...body.matchAll(/<div class="scenario">([\s\S]*?)<\/div>/g)];
-  if (scenarios.length < 2) err(file, `${scenarios.length} scenario block(s), template requires 2–4`);
-  if (scenarios.length > 4) warn(file, `${scenarios.length} scenario blocks, template suggests 2–4`);
-  if (scenarios.some(s => !/<h3>/.test(s[1]))) err(file, 'a scenario block has no <h3> title');
+  const scenarios = [...body.matchAll(/<div class="scenario"( data-type="([a-z]+)")?>([\s\S]*?)<\/div>/g)];
+  if (scenarios.length < 2) err(file, `${scenarios.length} scenario block(s), template requires 2–4 (2026 target: 4–6, see COMPREHENSION_PLAN.md)`);
+  if (scenarios.length > 6) warn(file, `${scenarios.length} scenario blocks, target is 4–6`);
+  if (scenarios.some(s => !/<h3>/.test(s[3]))) err(file, 'a scenario block has no <h3> title');
+  // Typed scenarios (data-type="boundary" etc.) are opt-in during migration; once a
+  // page uses them, no two scenarios on that page may share a type — more scenarios
+  // should mean more coverage, not the same case restated.
+  const typed = scenarios.filter(s => s[2]);
+  if (typed.length > 0) {
+    const types = typed.map(s => s[2]);
+    const dupes = types.filter((t, i) => types.indexOf(t) !== i);
+    if (dupes.length) err(file, `duplicate scenario type(s) ${[...new Set(dupes)].join(', ')} — each type should appear once`);
+    const untyped = scenarios.length - typed.length;
+    if (untyped > 0) warn(file, `${untyped} scenario(s) have no data-type while others on the page do`);
+  }
   if (!/class="callout trap"/.test(body)) err(file, 'no traps callout');
 
   const words = body.replace(/<[^>]+>/g, ' ').split(/\s+/).filter(Boolean).length;
@@ -114,6 +141,38 @@ for (const p of gated) {
   }
   for (const m of editorial.matchAll(/\$\d[\d,]*(?:\.\d+)?/g)) err(file, `inline dollar amount ${m[0]} outside a scenario — use a {fig:} token`);
   for (const m of editorial.matchAll(/\b\d+(?:\.\d+)?\s?(?:%|percent)\b/g)) warn(file, `inline rate "${m[0]}" in the editorial voice — consider a {fig:} token`);
+
+  // comprehension layer (docs/COMPREHENSION_PLAN.md) — opt-in during migration, so a
+  // page with none of this yet gets a soft nudge, not a build failure.
+  const plainMatch = body.match(/<div class="plain-terms">([\s\S]*?)<\/div>/);
+  if (!plainMatch) {
+    warn(file, 'no "In plain terms" section yet — see docs/COMPREHENSION_PLAN.md');
+  } else {
+    const plainRaw = plainMatch[1];
+    const plainText = plainRaw.replace(/<[^>]+>/g, ' ').replace(/\{fig:[^}]+\}/g, ' ').replace(/\{gloss:[^}]+\}/g, ' ');
+    const plainWords = (plainText.match(/\S+/g) || []).length;
+    if (plainWords < PLAIN_WORDS_MIN || plainWords > PLAIN_WORDS_MAX) {
+      warn(file, `"In plain terms" is ${plainWords} words, target ${PLAIN_WORDS_MIN}–${PLAIN_WORDS_MAX}`);
+    }
+    if (/§|IRC\s|Treas\.\s*Reg|Rev\.\s*(Proc|Rul)/.test(plainRaw)) {
+      err(file, '"In plain terms" cites an authority — citations belong in "The rule"');
+    }
+    if (/\{fig:/.test(plainRaw)) {
+      err(file, '"In plain terms" uses a {fig:} token — figures belong in the rule/figures table');
+    }
+    const score = flesch(plainText);
+    if (score !== null && score < PLAIN_FLESCH_MIN) {
+      warn(file, `"In plain terms" scores ${score.toFixed(1)} Flesch, target ≥ ${PLAIN_FLESCH_MIN}`);
+    }
+  }
+
+  // diagram (optional): every figure key it references must be real, same as the body
+  const diagMatch = fm.match(/^diagram:\n([\s\S]*?)(?=^[a-zA-Z]|\Z)/m);
+  if (diagMatch) {
+    for (const [, key] of diagMatch[1].matchAll(/figureKey:\s*"?([a-z0-9_.]+)"?/g)) {
+      if (!figures[key]) err(file, `diagram references unknown figure key ${key}`);
+    }
+  }
 
   // citations: every IRC section relied on in the body should be in the authority list
   if (!/\((?:IRC|Reg\.|Circular 230|IRM)\s/.test(body)) err(file, 'no in-line authority citation in the body');

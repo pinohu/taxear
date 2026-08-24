@@ -81,8 +81,10 @@ Today: 2–4 per page, capped by the verifier. Target: **4–6, with a job for e
 
 More scenarios only help if each one adds something. The rule that makes this true:
 
-**Every scenario declares its type in frontmatter, and no page may run two of the same
-type.** The taxonomy:
+**Every scenario declares its type with a `data-type` attribute on its `<div class="scenario">`,
+and no page may run two of the same type.** (Scenarios live in the markdown body, not
+frontmatter — this stays consistent with how the verifier already finds them, and avoids a
+schema migration across 360 pages.) The taxonomy:
 
 | Type | What it does |
 |---|---|

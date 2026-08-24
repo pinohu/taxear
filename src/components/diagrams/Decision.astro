@@ -1,0 +1,19 @@
+---
+// "Do I qualify?" — a chain of yes/no tests, each with its own short outcome.
+// Deliberately vertical and linear rather than a branching tree: most eligibility
+// tests in the outline are a sequence of gates ("if this fails, stop here"), and a
+// tree implies branches this content doesn't have. Don't force one where it isn't.
+const { caption, tests = [] } = Astro.props;
+---
+<figure class="diagram diagram-decision">
+  <ol class="d-tests">
+    {tests.map((t) => (
+      <li>
+        <span class="d-test-q">{t.test}</span>
+        <span class="d-test-arrow" aria-hidden="true">→</span>
+        <span class={`d-test-r ${t.outcome === 'fail' ? 'd-test-fail' : 'd-test-pass'}`}>{t.result}</span>
+      </li>
+    ))}
+  </ol>
+  <figcaption>{caption}</figcaption>
+</figure>

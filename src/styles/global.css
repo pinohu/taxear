@@ -275,3 +275,78 @@ article{counter-reset:scn}
 /* A section that already carries its own rule must not double it on the mark. */
 .proof > .section-mark{border-top:0;padding-top:0}
 .titlepage + .outline > .section-mark{border-top:1px solid var(--ink)}
+
+/* ─── Comprehension layer: plain-terms, glossary, ToC, diagrams ────────────
+   docs/COMPREHENSION_PLAN.md. Every rule below reuses the six colour roles,
+   the two type families, and the hairline/radius-cap discipline in DESIGN.md —
+   nothing here introduces a new visual language. */
+
+/* "In plain terms" — the required first section. Set apart by rule alone,
+   the same device the rest of the page uses; no box, no tint, no icon. */
+.plain-terms{border-bottom:1px solid var(--ink);padding-bottom:22px;margin-bottom:6px}
+.plain-terms > .eyebrow{display:block;margin-bottom:8px}
+.plain-terms p{font-size:18px;color:var(--ink);max-width:60ch}
+
+/* Glossary terms share the figure's disclosure mechanism (Popover API) but not
+   its tint — a definition is not a number, and giving it the same background
+   would blur the one thing on the page that IS a live, sourced figure. */
+button.term{border:0;background:none;padding:0;font:inherit;color:inherit;cursor:pointer;
+  text-decoration:underline dotted var(--ink-soft);text-underline-offset:3px}
+button.term:hover{text-decoration-color:var(--accent)}
+.term-def[popover]{max-width:min(42ch,calc(100vw - 32px));padding:12px 14px;
+  border:1px solid var(--ink);border-radius:var(--radius);background:var(--surface);
+  color:var(--ink);font:14px/1.5 var(--f-text);box-shadow:0 2px 0 var(--rule)}
+.term-def[popover]::backdrop{background:rgb(21 23 27 / .16)}
+.term-def-head{display:block;font-family:var(--f-mono);font-size:10.5px;letter-spacing:.1em;
+  text-transform:uppercase;color:var(--ink-soft);font-weight:600;margin-bottom:5px}
+.term-def-body{display:block}
+@supports not selector(:popover-open){
+  .term-def{display:inline;font-size:.86em;color:var(--ink-soft)}
+  .term-def-head{display:inline;margin:0 .3em 0 .4em}
+}
+
+/* Table of contents — inserted only on pages with 3+ h2 sections (rehype-toc.mjs).
+   Marginalia, not a box: a ruled list, same register as the authority rail. */
+.toc-page{border-top:1px solid var(--ink);border-bottom:1px solid var(--rule);
+  padding:14px 0;margin:0 0 1.8em;max-width:var(--measure)}
+.toc-page > .eyebrow{margin-bottom:8px}
+.toc-page ol{list-style:none;margin:0;padding:0;columns:2;column-gap:28px}
+.toc-page li{break-inside:avoid;padding:3px 0}
+.toc-page a{font-size:14.5px;text-decoration:none;color:var(--ink)}
+.toc-page a:hover{text-decoration:underline;text-decoration-color:var(--accent);text-underline-offset:3px}
+@media (max-width:520px){.toc-page ol{columns:1}}
+
+/* Diagrams — shared frame. Ruled top like every other section device; a diagram
+   is apparatus, not decoration, and should look like it belongs to the page. */
+.diagram{border-top:1px solid var(--ink);margin:1.8em 0;padding-top:16px}
+.diagram figcaption{font-family:var(--f-mono);font-size:12px;color:var(--ink-soft);margin-top:10px}
+.diagram svg{width:100%;height:auto;display:block}
+
+/* Threshold: a number line with marked figures */
+.d-axis{stroke:var(--rule);stroke-width:2}
+.d-tick{stroke:var(--ink-soft);stroke-width:1.5}
+.d-tick-em{stroke:var(--accent)}
+.d-dot{fill:var(--surface);stroke:var(--ink-soft);stroke-width:2}
+.d-dot-em{stroke:var(--accent);fill:var(--accent-soft)}
+.d-label{font-family:var(--f-mono);font-size:12.5px;fill:var(--ink)}
+
+/* Decision: a vertical chain of tests */
+.d-tests{list-style:none;margin:0;padding:0;display:flex;flex-direction:column;gap:10px}
+.d-tests li{display:grid;grid-template-columns:1fr auto minmax(9em,auto);gap:10px;align-items:baseline;
+  padding:8px 0;border-bottom:1px solid var(--rule)}
+.d-tests li:last-child{border-bottom:0}
+.d-test-q{font-size:15px}
+.d-test-arrow{color:var(--ink-soft);font-family:var(--f-mono)}
+.d-test-r{font-family:var(--f-mono);font-size:13px;text-align:right}
+.d-test-pass{color:var(--ok)}
+.d-test-fail{color:var(--warn)}
+@media (max-width:560px){.d-tests li{grid-template-columns:1fr;gap:2px}.d-test-r{text-align:left}}
+
+/* Timeline: a dated vertical sequence */
+.d-timeline{list-style:none;margin:0;padding:0;border-left:2px solid var(--rule)}
+.d-timeline li{position:relative;padding:2px 0 16px 20px}
+.d-tl-dot{position:absolute;left:-6px;top:6px;width:10px;height:10px;border-radius:50%;
+  background:var(--surface);border:2px solid var(--accent)}
+.d-tl-when{display:block;font-family:var(--f-mono);font-size:12px;color:var(--ink-soft);
+  letter-spacing:.04em;text-transform:uppercase}
+.d-tl-what{display:block;font-size:15.5px;margin-top:2px}

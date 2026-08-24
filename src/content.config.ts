@@ -26,6 +26,13 @@ const topics = defineCollection({
     changelog: z.array(z.object({
       date: z.string(), summary: z.string(),
     })).default([]),
+    // Comprehension pass (docs/COMPREHENSION_PLAN.md). Optional: a page that hasn't
+    // migrated yet simply has no diagram. archetype selects the component in
+    // src/components/diagrams/; everything else is that component's own props.
+    diagram: z.object({
+      archetype: z.enum(['decision', 'threshold', 'timeline', 'flow', 'waterfall', 'compare', 'authority', 'anatomy']),
+      caption: z.string(),
+    }).passthrough().optional(),
   }),
 });
 

@@ -1,0 +1,18 @@
+---
+// Dispatches a page's frontmatter `diagram` block to the matching archetype
+// component. Three archetypes are implemented — decision, threshold, timeline —
+// covering eligibility tests, phase-outs/limits, and dated sequences, which is
+// where the outline's content concentrates. flow, waterfall, compare, authority
+// and anatomy are named and reserved in DESIGN.md and docs/COMPREHENSION_PLAN.md
+// but not yet built; a page that declares one of those archetypes today renders
+// nothing rather than guessing at a shape. See COMPREHENSION_PLAN.md Phase 0 status.
+import Threshold from './Threshold.astro';
+import Decision from './Decision.astro';
+import Timeline from './Timeline.astro';
+
+const { diagram } = Astro.props;
+const archetype = diagram?.archetype;
+---
+{archetype === 'threshold' && <Threshold {...diagram} />}
+{archetype === 'decision' && <Decision {...diagram} />}
+{archetype === 'timeline' && <Timeline {...diagram} />}

@@ -1,7 +1,9 @@
 import { defineConfig } from 'astro/config';
 import sitemap from '@astrojs/sitemap';
 import remarkFigures from './scripts/remark-figures.mjs';
+import remarkGlossary from './scripts/remark-glossary.mjs';
 import rehypeTableScroll from './scripts/rehype-table-scroll.mjs';
+import rehypeToc from './scripts/rehype-toc.mjs';
 import { unpublishedPaths } from './scripts/sitemap-exclude.mjs';
 
 // Computed once per build: every path that renders with noindex.
@@ -15,5 +17,5 @@ export default defineConfig({
     filter: (page) => !excluded.has(new URL(page).pathname),
   })],
   build: { format: 'directory' },
-  markdown: { remarkPlugins: [remarkFigures], rehypePlugins: [rehypeTableScroll] },
+  markdown: { remarkPlugins: [remarkFigures, remarkGlossary], rehypePlugins: [rehypeTableScroll, rehypeToc] },
 });

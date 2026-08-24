@@ -1,0 +1,30 @@
+{
+  "_readme": "Terms of art used across topic pages. Key is the {gloss:key} token used in markdown. 'term' is the display word; 'definition' is one or two plain sentences — no citation, no jargon used before it's defined here too. 'seeAlso' is an optional outline code for the page that treats the term in full. Populated incrementally as pages migrate to the comprehension layer (docs/COMPREHENSION_PLAN.md); an empty or missing key renders loudly, the same way a missing figure does.",
+  "terms": {
+    "basis": {
+      "term": "basis",
+      "definition": "What you're treated as having paid for something, for tax purposes. It starts at cost and moves up or down over time — basis is what gain or loss is measured against when you sell.",
+      "seeAlso": null
+    },
+    "adjusted-gross-income": {
+      "term": "adjusted gross income",
+      "definition": "Total income for the year minus a short list of specific deductions taken before any others. Often called AGI. Many other limits and phase-outs are measured against this number rather than total income.",
+      "seeAlso": null
+    },
+    "statute-of-limitations": {
+      "term": "statute of limitations",
+      "definition": "A deadline after which the IRS generally can't assess more tax, or a taxpayer generally can't claim a refund, for a given year. Different actions have different clocks, and some events pause or restart the clock.",
+      "seeAlso": "3.4.4.a"
+    },
+    "offer-in-compromise": {
+      "term": "offer in compromise",
+      "definition": "An agreement to settle a tax debt for less than the full amount owed, when the IRS agrees the taxpayer genuinely can't pay it in full or there's a real dispute about whether it's owed.",
+      "seeAlso": "3.3.1.c"
+    },
+    "reasonable-collection-potential": {
+      "term": "reasonable collection potential",
+      "definition": "The IRS's estimate of the most it could realistically collect from a taxpayer — from what they own plus what they could pay from future income — before it decides an offer in compromise is worth accepting.",
+      "seeAlso": "3.3.1.c"
+    }
+  }
+}
