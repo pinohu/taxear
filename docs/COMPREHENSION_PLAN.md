@@ -141,9 +141,8 @@ clarifies", and the honest expectation is roughly 300 of 360, not a forced 360.
 
 ## Workstream 4 — Consumption and user-friendliness
 
-- **Reading modes.** A control that switches between *Plain* (the plain layer, scenarios,
-  diagram) and *Full* (everything, including citations and the authority rail).
-  Preference remembered per reader. Static-site-friendly: CSS classes, no rebuild.
+- **No reading-mode toggle** (decided below) — the plain layer is always present,
+  first in reading order, for every reader. Nothing to find, nothing to miss.
 - **Answer-first ordering.** Plain layer → diagram → rule → figures → scenarios → traps
   → changes → exam focus → check yourself. The reader gets the answer before the
   apparatus.
@@ -219,13 +218,23 @@ rather than as one long dark period.
 5. **`lastReviewed` drift.** Adding a plain layer is not re-verifying the authorities.
    Dates are not restamped for this work. That rule stands.
 
-## Open decisions for the owner
+## Decisions (made 23 August 2026, owner delegated judgement)
 
-1. **Is the reframe accepted** — layered plain-language, or a genuinely separate
-   simplified corpus?
-2. **Flesch ≥ 65 for the plain layer** — right target, or push to 70 (≈7th grade)?
-3. **Diagram coverage** — every page including the linear ones, or only where one earns
-   its place (~300)?
-4. **Search** — worth adding now, or a separate piece of work?
-5. **Reading modes** — is a Plain/Full switch wanted, or should the plain layer simply
-   always be present for everyone?
+1. **Reframe accepted as written.** Layered plain-language over the existing
+   authoritative body, not a separate simplified corpus. Rewriting 360 verified pages
+   into child-level prose risks the accuracy the project exists for; a second corpus
+   is a second maintenance burden with its own drift risk. Additive wins on both counts.
+2. **Flesch ≥ 65, not 70.** 65 is solid plain English (~8th–9th grade) without forcing
+   sentence fragments that would strain accuracy on genuinely technical points. 70 reads
+   as condescending on a site whose stated audience includes EA candidates.
+3. **Diagrams where they earn their place, not all 360.** A forced diagram on a page
+   that is genuinely linear prose produces exactly the decorative-default pattern
+   DESIGN.md exists to forbid. Target ~300; every skip gets logged, not silent.
+4. **Search: in scope now.** Static index (Pagefind), no server, no runtime generation —
+   rule 7 intact. 360 pages with no way to jump to one is a real gap independent of
+   this workstream, and it is cheap relative to the rest.
+5. **No Plain/Full toggle. The plain layer is always present, for everyone.** A toggle
+   adds a state to design, remember, and test, and risks exactly the fragmentation risk
+   named above — a reader who never finds the switch never gets the benefit. The plain
+   layer sits first in reading order; the authoritative body follows in the same
+   document, not behind a control.
