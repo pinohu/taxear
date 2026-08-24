@@ -25,6 +25,11 @@
       "term": "reasonable collection potential",
       "definition": "The IRS's estimate of the most it could realistically collect from a taxpayer — from what they own plus what they could pay from future income — before it decides an offer in compromise is worth accepting.",
       "seeAlso": "3.3.1.c"
+    },
+    "doubt-as-to-liability": {
+      "term": "doubt as to liability",
+      "definition": "One of the three reasons the IRS will consider an offer in compromise: a genuine, good-faith dispute over whether the tax is owed at all, or how much of it is owed. It's not available once a court has already decided the question.",
+      "seeAlso": "3.3.1.c"
     }
   }
 }

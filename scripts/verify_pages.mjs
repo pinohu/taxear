@@ -66,7 +66,7 @@ const list = (fm, key) => {
 // Invented facts inside scenarios and practice questions are meant to be inline;
 // only tax-year figures in the editorial voice must use {fig:} tokens.
 const stripInvented = body => body
-  .replace(/<div class="scenario">[\s\S]*?<\/div>/g, ' ')
+  .replace(/<div class="scenario"(?: data-type="[a-z]+")?>[\s\S]*?<\/div>/g, ' ')
   .replace(/## Check yourself[\s\S]*$/, ' ');
 
 const formSlug = n => n.toLowerCase().replace(/[^a-z0-9]/g, '-').replace(/^-+|-+$/g, '');

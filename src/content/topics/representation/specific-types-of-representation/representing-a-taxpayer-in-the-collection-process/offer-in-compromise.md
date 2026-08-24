@@ -18,7 +18,26 @@ forms: ["656", "433-A", "433-B"]
 related: ["3.3.1.b", "3.3.1.d", "3.2.6.a", "3.2.1.a", "3.2.3.e"]
 changelog:
   - { date: "2026-08-18", summary: "Initial publication from IRC § 7122, Reg. § 301.7122-1, and the current IRS offer in compromise guidance." }
+  - { date: "2026-08-24", summary: "Added a plain-language summary, a threshold diagram of the payment and deadline figures, glossary marks, and typed scenarios." }
+diagram:
+  archetype: "threshold"
+  caption: "What comes with a lump-sum offer, and how long the IRS has to answer"
+  min: 0
+  max: 30
+  marks:
+    - { figureKey: "oic.lump_sum_initial", value: 20, label: "20% down" }
+    - { figureKey: "oic.deemed_accepted_months", value: 24, label: "24 months to answer", emphasis: true }
 ---
+
+<div class="plain-terms">
+An offer in compromise is a deal: you offer to pay less than you owe, and the IRS agrees to
+call the debt settled. You can only ask for one of three reasons — you don't think you
+actually owe it, you can't afford to pay it in full, or paying in full would be genuinely
+unfair or create real hardship. If you pay in a lump sum, you send 20% up front. If you pay
+over time, you send the first payment and then keep paying every month while the IRS
+reviews your offer — miss a later payment and the offer can be treated as withdrawn. If the
+IRS takes longer than 24 months to say yes or no, the law treats that silence as a yes.
+</div>
 
 An offer in compromise settles a tax liability for less than the amount owed. The Secretary may compromise any civil or criminal case arising under the internal revenue laws before it is referred to the Department of Justice (IRC § 7122(a)), but the discretion is structured: there are three grounds, a required payment with the submission, and a deadline that runs against the IRS rather than the taxpayer.
 
@@ -55,22 +74,34 @@ The choice between lump sum and periodic payment is a cash-flow decision with le
 
 The collection period does not stand still. Levy is barred while an offer is pending and for 30 days after rejection, plus any appeal filed in those 30 days, and the collection period is suspended for the same span (IRC § 6331(k)(1), (k)(3)(B)). A long review therefore adds to the CSED, which matters when the offer fails.
 
-<div class="scenario">
+<div class="scenario" data-type="timing">
 <h3>The offer that succeeded by silence</h3>
 <p>A taxpayer submits a processable offer on 4 March 2024 with the fee and 20 percent. Correspondence goes back and forth, the case moves between units, and no determination issues. On 10 April 2026 the taxpayer's representative asks about status.</p>
 <p><em>Analysis.</em> More than 24 months have passed since submission. Unless a period is excluded because the liability was the subject of a proceeding described in § 7122(f), the offer is deemed accepted by operation of the statute — the IRS's silence is the decision. A representative should be tracking that date from the day the offer is submitted.</p>
 </div>
 
-<div class="scenario">
+<div class="scenario" data-type="boundary">
 <h3>Doubt as to liability, foreclosed</h3>
 <p>A client lost in Tax Court on whether a payment was taxable, and the decision is final. She now wants to offer a reduced amount on the ground that the liability was wrongly determined.</p>
-<p><em>Analysis.</em> Doubt as to liability does not exist where the liability has been established by a final court decision or judgment (Reg. § 301.7122-1(b)(1)). That ground is closed. If her assets and income are less than the liability, doubt as to collectibility remains available, and hardship may support effective tax administration — but the merits of the decided issue cannot be relitigated through an offer.</p>
+<p><em>Analysis.</em> {gloss:doubt-as-to-liability} does not exist where the liability has been established by a final court decision or judgment (Reg. § 301.7122-1(b)(1)). That ground is closed. If her assets and income are less than the liability, doubt as to collectibility remains available, and hardship may support effective tax administration — but the merits of the decided issue cannot be relitigated through an offer.</p>
 </div>
 
-<div class="scenario">
+<div class="scenario" data-type="fails">
 <h3>The missed second installment</h3>
 <p>A taxpayer submits a periodic payment offer with the first installment and pays the second on time. Cash flow tightens and he skips the third while the offer is under review.</p>
 <p><em>Analysis.</em> Section 7122(c)(1)(B)(ii) lets the IRS treat a failure to make an installment other than the first as a withdrawal of the offer. Withdrawal is not rejection: there is no determination to appeal, the levy bar ends, and the money already paid is not returned. If cash flow is uncertain, a lump-sum structure with a larger up-front payment is often the safer election.</p>
+</div>
+
+<div class="scenario" data-type="baseline">
+<h3>The straightforward doubt-as-to-collectibility offer</h3>
+<p>A taxpayer owes $40,000. Her Form 433-A shows assets and future income that, added together, come to $9,000 — the IRS's {gloss:reasonable-collection-potential}. She proposes a lump-sum offer of $9,000, sends 20 percent with Form 656, and the case is assigned to an offer specialist.</p>
+<p><em>Analysis.</em> This is doubt as to collectibility working as designed: the offer is pegged to what the IRS could actually collect, not to what she wishes she owed. Provided the financial statement holds up and the national and local allowance schedules are applied correctly, this is the offer most likely to be accepted on the merits.</p>
+</div>
+
+<div class="scenario" data-type="procedural">
+<h3>The offer returned, not rejected</h3>
+<p>A representative submits a Form 656 with a stale Form 433-A and no application fee attached, believing the client qualifies for low-income certification. The client does not meet the guidelines. The IRS sends the package back.</p>
+<p><em>Analysis.</em> A non-processable offer is returned, not rejected — the fee and any offer payment come back with it, and there is nothing to appeal. The clock resets: nothing about the return date matters to the deemed-acceptance rule, which only starts running from a processable submission. Confirm the certification before relying on the fee waiver.</p>
 </div>
 
 <div class="callout trap"><h4>Traps</h4>

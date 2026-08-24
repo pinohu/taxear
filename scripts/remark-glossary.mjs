@@ -32,6 +32,13 @@ export default function remarkGlossary() {
     };
 
     const walk = (node, parent, idx) => {
+      // Scenario/callout markup is authored as raw HTML blocks (mdast type "html"),
+      // which have no child text nodes to visit — substitute directly in the string.
+      if (node.type === 'html' && RE.test(node.value)) {
+        RE.lastIndex = 0;
+        node.value = node.value.replace(RE, (_, key) => render(key));
+        return 1;
+      }
       if (node.type === 'text' && RE.test(node.value)) {
         RE.lastIndex = 0;
         const parts = []; let last = 0; let m;
