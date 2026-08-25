@@ -6,6 +6,7 @@ import DiagramMount from '../../components/diagrams/DiagramMount.astro';
 import { getCollection, render } from 'astro:content';
 import { allTopics, idOf, topicByCode, publishedCodes } from '../../lib';
 import { checkYourself, answerText } from '../../checkyourself';
+import { orgId, personId } from '../../layouts/Base.astro';
 export async function getStaticPaths() {
   const entries = await getCollection('topics');
   return entries.map(entry => {
@@ -23,7 +24,8 @@ const abs = (p) => new URL(p, Astro.site).href;
 const questions = checkYourself(entry.body ?? '');
 
 const article = { '@type': 'Article', headline: d.title, description: d.description,
-  dateModified: d.lastReviewed, author: { '@type': 'Organization', name: 'TaxEar' }, isPartOf: { '@type': 'WebSite', name: 'TaxEar', url: 'https://taxear.com/' },
+  dateModified: d.lastReviewed, author: { '@id': personId }, publisher: { '@id': orgId },
+  isPartOf: { '@type': 'WebSite', name: 'TaxEar', url: 'https://taxear.com/' },
   about: `IRS SEE outline ${d.code}`,
   citation: d.authorities.map(a => [a.type === 'Reg' ? 'Treas. Reg. §' : a.type === 'Circ230' ? 'Circular 230' : a.type, a.ref, a.title].filter(Boolean).join(' ')) };
 

@@ -12,6 +12,28 @@ const nav = [
   ['/individuals/', 'Individuals'], ['/businesses/', 'Businesses'], ['/representation/', 'Representation'],
   ['/forms/', 'Forms'], ['/notices/', 'IRS Notices'], ['/ea-exam/', 'EA Exam'],
 ];
+
+// Site-wide identity graph: who publishes this and who edits it, as linked entities
+// rather than a bare string, so a page's own jsonld (e.g. Article) can reference them
+// by @id instead of repeating the name. Emitted on every page, independent of the
+// page-specific jsonld prop.
+export const orgId = 'https://taxear.com/#organization';
+export const personId = 'https://taxear.com/about/#editor';
+const identityJsonld = {
+  '@context': 'https://schema.org',
+  '@graph': [
+    {
+      '@type': 'Organization', '@id': orgId, name: 'TaxEar', legalName: 'Neat Circle LLC',
+      url: 'https://taxear.com/', publishingPrinciples: 'https://taxear.com/about/',
+      employee: { '@id': personId },
+    },
+    {
+      '@type': 'Person', '@id': personId, name: 'Nnamdi O.', jobTitle: 'Editor',
+      worksFor: { '@id': orgId },
+      description: 'Full professor of engineering at Gannon University, preparing for the IRS Special Enrollment Examination; holds a Pennsylvania real estate license.',
+    },
+  ],
+};
 ---
 <!doctype html>
 <html lang="en" data-pagefind-ignore={noindex ? 'true' : undefined}>
@@ -28,6 +50,7 @@ const nav = [
       Source Serif 4 sets both text and headings, so its latin face is the one that blocks first paint. */}
   <link rel="preload" href="/fonts/source-serif-4-latin.woff2" as="font" type="font/woff2" crossorigin />
   <link rel="sitemap" href="/sitemap-index.xml" />
+  <script type="application/ld+json" set:html={JSON.stringify(identityJsonld)} />
   {jsonld && <script type="application/ld+json" set:html={JSON.stringify(jsonld)} />}
 </head>
 <body>
