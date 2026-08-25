@@ -46,6 +46,33 @@ work.
 Note the ceiling: no page currently exceeds 4 scenarios, because `verify` caps it there.
 That cap is a deliberate constraint being lifted by this plan, not an accident.
 
+## Audit — is it working yet? (25 August 2026)
+
+Re-measured against the live 360-page corpus, not the 23 August sample. Two findings
+mattered more than the numbers moving slightly.
+
+| Metric | Measured | Reads as |
+|---|---|---|
+| Flesch reading ease | 55.9 mean, 37.2 – 73.3 | Still "fairly difficult" — an educated-adult read, nowhere near any-age |
+| Pages below Flesch 50 | 60 of 360 | Genuinely hard going, not catastrophic |
+| Pages with a plain-terms section | 1 of 360 | The exemplar. Zero on the live site until it merges |
+| Pages with any `{gloss:}` mark | 1 of 360 | 2 marks total |
+| Glossary terms defined | 6 | Negligible against the corpus's actual vocabulary |
+| Pages with a diagram | 1 of 360 | The exemplar only |
+| Search | none | A reader who doesn't know outline vocabulary has no way in |
+
+**The bigger finding wasn't a number.** The homepage and About page both said, in as
+many words, that the site was "written for Enrolled Agent candidates and the people who
+represent taxpayers." That's not a missing feature — it's the site's own stated mission
+naming a different, narrower audience than "any reader, any educational stratum." Fixing
+the mechanism (plain layer, glossary, diagrams, search) without fixing that sentence
+would have left the site telling every visitor it wasn't built for them.
+
+**One thing worth saying plainly, and not chasing past this point:** "any age" cannot
+literally mean pre-literate children reading federal tax law — that ceiling was already
+named above. The working target from here on is *any adult regardless of tax
+background, capable teenagers included*.
+
 ---
 
 ## Workstream 1 — The plain-language layer
@@ -177,21 +204,48 @@ Not opinion. Four gates, all computed:
 
 ## Sequencing
 
-**Phase 0 — Build the machine (no content).** Schema, `verify` rules, glossary file, the
-eight diagram components, reading-mode control, ToC, search. Nothing ships to readers
-until one page proves the shape.
+**Phase 0 — Build the machine (no content). Done.** Schema, `verify` rules, the glossary
+mechanism, three of eight diagram components (`decision`/`threshold`/`timeline` — the
+other five wait for a page whose content actually needs them, rather than being built
+speculatively), a real table of contents, and search (Pagefind, static, live at
+`/search/`, scoped to published pages only — the same line the sitemap already draws).
+No reading-mode control was built; decision 5 below ruled that out before it started.
 
 **Phase 1 — The exemplar.** One page, complete: plain layer, glossary marks, 5 typed
 scenarios, its diagram. Run every gate. Screenshot desktop, 390px, print. **Owner reads
 it and approves the shape before anything scales.** If the shape is wrong, it is wrong
-once, not 360 times.
+once, not 360 times. *(Built — `offer-in-compromise.md` — sitting on the working branch
+awaiting review.)*
 
-**Phase 2 — One domain (~28 pages).** Prove the pattern holds across varied content.
-Expect the archetype list to need one or two additions here; that is the point of doing
-a domain before a corpus.
+**Phase 2 — One domain (~28 pages), from Tier 1 below.** Prove the pattern holds across
+varied content, in the domain most likely to actually be read by a lay visitor. Expect
+the archetype list to need one or two additions here; that is the point of doing a
+domain before a corpus.
 
-**Phase 3 — The corpus,** by domain, in outline order. Each page: plain layer, glossary
-pass, scenarios to 4–6 typed, diagram where it earns its place, gates green, committed.
+**Phase 3 — The corpus, by audience tier, not by outline order.** The outline's order is
+a study sequence for someone taking the exam; it is not the order in which a general
+reader's needs show up. Rolling out Tier 1 first means the pages most likely to actually
+be searched for get the plain layer, the diagrams, and the glossary passes soonest,
+while the corpus finishes in the background. Each page: plain layer, glossary pass,
+scenarios to 4–6 typed, diagram where it earns its place, gates green, committed.
+
+- **Tier 1 — everyday relevance, first.** Preliminary Work and Taxpayer Data (filing
+  status, dependents, filing requirements); Deductions and Credits; the collection and
+  notice topics under Specific Types of Representation (payment plans, offers,
+  liens/levies, what a notice means) and Completion of the Filing Process.
+- **Tier 2 — adjacent, still common.** The rest of Part 1 (Income and Assets, Taxation,
+  Advising the Individual Taxpayer, Specialized Returns for Individuals) and the
+  small-business-relevant parts of Part 2 (Business Entities, Business Tax Preparation)
+  — self-employment and a side business are ordinary-reader territory even though the
+  entity mechanics get technical.
+- **Tier 3 — practitioner-facing; a solid plain-terms paragraph is enough.** Practices
+  and Procedures (Circular 230, professional responsibility), Representation before the
+  IRS (power of attorney mechanics, practitioner conduct), and Specialized Returns and
+  Taxpayers (estates, trusts, exempt organizations). This tier's real audience is
+  practitioners; don't over-invest in making it toddler-simple at the expense of Tier 1.
+
+This is domain-level guidance, not a fixed page list — Phase 2's pilot domain confirms
+whether the tier boundaries hold before Phase 3 commits to them at scale.
 
 **Phase 4 — Cross-cutting.** Glossary completeness, diagram consistency sweep, full-site
 readability report, print pass.
@@ -240,3 +294,24 @@ rather than as one long dark period.
    named above — a reader who never finds the switch never gets the benefit. The plain
    layer sits first in reading order; the authoritative body follows in the same
    document, not behind a control.
+
+## Decisions (made 25 August 2026, after the audit above)
+
+6. **The mission statement gets fixed, not just the pages.** Homepage lede, meta
+   description, and the About page no longer say the site is "written for Enrolled
+   Agent candidates and the people who represent taxpayers." They now name a wider
+   audience while keeping the EA-exam alignment as a true secondary fact. This shipped
+   ahead of any content rollout because a mismatched mission statement undercuts every
+   plain-language page the plan produces.
+7. **Rollout is ordered by audience tier, not outline order.** See the Tier 1/2/3
+   breakdown under Phase 3. An ordinary reader's actual questions cluster in a handful
+   of domains; there's no reason to make them wait behind Part 2 entity mechanics that
+   were always going to read as practitioner content regardless of effort spent.
+8. **Search shipped in Phase 0, ahead of full diagram coverage.** Between "every page
+   has a diagram" and "a reader can find the page that answers their question," search
+   wins for this goal — a diagram helps nobody on a page nobody finds. Live at
+   `/search/`, Pagefind, static, themed onto the site's own tokens.
+9. **The glossary gets a front-loaded sweep, not a per-page trickle.** One glossary
+   entry services every page that cites it, so it is cheaper to draft ~150–250 real
+   terms against the corpus's actual vocabulary in one pass than to discover gaps one
+   page at a time during the Tier 1 rollout.
