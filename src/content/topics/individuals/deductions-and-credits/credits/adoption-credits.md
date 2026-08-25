@@ -20,7 +20,26 @@ forms: []
 related: ["1.3.2.b", "1.1.1.j", "1.1.1.i", "1.3.2.e"]
 changelog:
   - { date: "2026-08-19", summary: "Initial draft. Sets out the IRC § 23(a) credit and the new § 23(a)(4) refundable portion added by Pub. L. 119-21 § 70402(a) for taxable years beginning after 31 December 2024, the § 23(a)(2) and § 23(e) timing rules, the § 23(a)(3) special needs deemed amount, the § 23(b) dollar and income limitations, the § 23(c) five-year carryforward as narrowed by § 70402(c), the § 23(d) definitions with the § 70403 extension to Indian tribal government determinations, and the relationship with the § 137 exclusion." }
+  - { date: "2026-08-25", summary: "Added a plain-language summary, a threshold diagram of the 2026 income phase-out band, glossary marks, and two typed scenarios (boundary, procedural) alongside retyped existing ones." }
+diagram:
+  archetype: "threshold"
+  caption: "Where the adoption credit's income phase-out begins and ends (modified AGI, 2026)"
+  min: 0
+  max: 350000
+  marks:
+    - { figureKey: "adoption.phase_out", value: 265080, label: "Phase-out begins" }
+    - { figureKey: "adoption.phase_out", value: 305080, label: "Fully phased out", emphasis: true }
 ---
+
+<div class="plain-terms">
+The {gloss:adoption-credit} pays back part of what a family spends adopting a child. It covers fees,
+court costs, and lawyer bills tied to the adoption itself. Higher-income families get less of it, and
+very high earners get none. Families adopting a child with special needs can get the full amount even
+if they spent very little, because the law treats that adoption as costly enough to qualify on its own.
+The credit decides two things: which year each expense counts in, since that is not always the year it
+was actually paid, and how much of the credit a family can use right away if their tax bill is too small
+to absorb it all at once.
+</div>
 
 Two things about this credit reward precision. It is claimed in a year that has nothing to do with when
 the money was spent, unless the adoption is foreign, in which case the rule flips. And from 2025 part of
@@ -117,7 +136,7 @@ in the year of finalisation, reduced by expenses actually paid in that year and 
 credit reaches the full figure whether the taxpayer spent nothing or spent a great deal — as long as the
 determination by a State or tribal government exists.
 
-<div class="scenario">
+<div class="scenario" data-type="timing">
 <h3>Paid in one year, credited in another</h3>
 
 The Vasquez family paid $6,200 of attorney and agency fees in 2024 for a domestic adoption, another
@@ -129,7 +148,7 @@ their 2025 return carries $6,200 and their 2026 return carries $6,300 — and ne
 they actually spent that year. The aggregate across all years is tested against a single per-child cap.
 </div>
 
-<div class="scenario">
+<div class="scenario" data-type="baseline">
 <h3>Special needs, and the size of the deemed amount</h3>
 
 Marcus and Ruth adopt a child with special needs, finalised in 2026, having paid $2,500 of qualified
@@ -142,7 +161,7 @@ liability, and the balance offsets tax with a five-year carryforward for anythin
 answering with the $2,500 actually spent has missed the point of the special needs rule.
 </div>
 
-<div class="scenario">
+<div class="scenario" data-type="fails">
 <h3>The stepchild, and the domestic partner's child</h3>
 
 Two clients ask about the same credit. One is adopting the daughter of her husband from his earlier
@@ -152,6 +171,32 @@ The first gets nothing: § 23(d)(1)(C) excludes expenses in connection with the 
 of a child of that individual's spouse. The second is outside that exclusion entirely, because the
 child's parent is not his spouse, and his expenses are qualified adoption expenses on the ordinary
 tests. The provision turns on the marriage, not on the household.
+</div>
+
+<div class="scenario" data-type="boundary">
+<h3>Squarely inside the phase-out band</h3>
+<p>The Delacroix family finalizes a domestic adoption in 2026, with qualified adoption expenses well
+above the per-child cap. Their modified adjusted gross income for the year comes to $285,000 — partway
+between the phase-out's two ends.</p>
+<p><em>Analysis.</em> Section 23(b)(2)(A) reduces the credit ratably once modified adjusted gross income
+exceeds the phase-out floor, and the family's income sits roughly halfway across the band before the
+credit disappears completely at the ceiling. The reduction here is neither zero nor total — the family
+keeps a real fraction of the credit, and exactly how much depends on where in the band their income
+falls. Treating this phase-out as all-or-nothing, the way some other credits behave at a hard income
+cliff, would misstate the answer here.</p>
+</div>
+
+<div class="scenario" data-type="procedural">
+<h3>Filing before the child has a number yet</h3>
+<p>A couple's adoption becomes final in November 2026, and the state has not yet issued the child's
+Social Security number by the time the return is due the following spring. They know the child's name
+and date of birth, and they used a licensed adoption agency throughout.</p>
+<p><em>Analysis.</em> Section 23(f)(2) requires the return to include the child's name, age and taxpayer
+identification number "if known," but does not require the credit to wait for one. The Secretary may
+accept other identifying information, including identification of the agent who assisted with the
+adoption, in its place. The couple, filing {gloss:married-filing-jointly}, files with what they have and
+amends later if a number arrives, rather than delaying the claim a full year for a number the statute
+does not actually require up front.</p>
 </div>
 
 <div class="callout trap">

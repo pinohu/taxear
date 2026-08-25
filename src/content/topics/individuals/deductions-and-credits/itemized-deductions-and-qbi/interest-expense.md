@@ -19,7 +19,26 @@ forms: []
 related: ["1.3.1.b", "1.3.1.a", "1.2.3.k", "1.2.4.d", "1.3.1.f", "1.3.1.d"]
 changelog:
   - { date: "2026-08-19", summary: "Initial draft. Sets out the IRC § 163(h)(1) disallowance of personal interest and the six categories that escape it, the § 163(h)(4)(A) two-residence rule, the § 163(h)(3)(F) acquisition indebtedness cap and grandfathering, the permanent disallowance of home equity interest and the restoration of mortgage insurance premiums by Pub. L. 119-21 § 70108, the new § 163(h)(4) passenger vehicle loan interest deduction, and the § 163(d) investment interest limitation." }
+  - { date: "2026-08-25", summary: "Added a plain-language summary, two glossary marks, a timeline diagram of the dated changes, and two typed scenarios (baseline, timing) alongside the existing three." }
+diagram:
+  archetype: "timeline"
+  caption: "The dated changes that decide whether interest is deductible"
+  events:
+    - { when: "On or before 15 December 2017", what: "Acquisition debt keeps the higher, grandfathered cap" }
+    - { when: "After 15 December 2017", what: "New acquisition debt capped lower; home equity interest stops counting" }
+    - { when: "2022 through 2025", what: "Mortgage insurance premiums are not treated as interest" }
+    - { when: "2025 (Pub. L. 119-21)", what: "Home equity disallowance made permanent; mortgage insurance premiums restored" }
+    - { when: "After 31 December 2024, before 2029", what: "New: interest on a qualified passenger vehicle loan is deductible" }
 ---
+
+<div class="plain-terms">
+Interest on personal debt is not deductible. This page covers the exceptions — the cases where you
+can still write it off. It mainly affects homeowners, since mortgage interest is the biggest one.
+Two rules changed course. A home loan used for something other than the home no longer counts, and
+that is now permanent. Mortgage insurance, which stopped counting for a few years, counts again. A
+new rule also lets some people write off interest on a car loan for the first time. This page sorts
+out which loan, and which use of the money, actually counts.
+</div>
 
 Personal interest is not deductible; everything on this topic is an exception to that. Two of the
 exceptions changed direction in 2025. The disallowance of home equity interest, due to lapse at the end of
@@ -119,7 +138,7 @@ miscellaneous itemized deduction. Where the limitation bites, consider the elect
 dividends and net capital gain as investment income, which raises the ceiling at the cost of the preferential
 rate on the amount elected.
 
-<div class="scenario">
+<div class="scenario" data-type="boundary">
 <h3>Scenario 1 — the third home</h3>
 
 Yusra owns her main home, a lake cottage and a ski condominium, each with a mortgage.
@@ -131,7 +150,7 @@ cottage and the condominium each year — and the interest on the third is perso
 both.
 </div>
 
-<div class="scenario">
+<div class="scenario" data-type="interaction">
 <h3>Scenario 2 — two mortgages, two caps</h3>
 
 Zane has an 800,000-dollar mortgage taken out in 2015 on his principal residence, and in 2026 he borrows a
@@ -144,7 +163,7 @@ exceeds it. No interest on the new 300,000 dollars is deductible. Had the 2015 l
 the new borrowing would have fitted.
 </div>
 
-<div class="scenario">
+<div class="scenario" data-type="fails">
 <h3>Scenario 3 — the car loan that did not qualify</h3>
 
 Ama draws 45,000 dollars on the home equity line secured by her house and buys a car for personal use in
@@ -156,6 +175,35 @@ the residence. And it is not qualified passenger vehicle loan interest, because 
 the debt to be **secured by a first lien on the vehicle** — hers is secured by the house. Borrowing
 directly against the car, and putting the vehicle identification number on the return, would have brought
 her within the new provision.
+</div>
+
+<div class="scenario" data-type="baseline">
+<h3>Scenario 4 — the car loan that did qualify</h3>
+
+Priya borrows 32,000 dollars in 2026, secured by a first lien on a new car she buys for personal use, and
+pays 2,100 dollars of interest on it during the year. She reports the vehicle identification number on her
+return.
+
+Her interest is qualified passenger vehicle loan interest under IRC § 163(h)(4)(A), (B)(i): the debt was
+incurred after 31 December 2024 to buy a passenger vehicle for personal use, and it is secured by a first
+lien on that vehicle. Subject to the cap and phaseout in § 163(h)(4)(C), it is deductible even though it is
+not connected to a home, a business, or an investment — the one personal-interest carve-out in § 163(h)
+that has nothing to do with real property.
+</div>
+
+<div class="scenario" data-type="procedural">
+<h3>Scenario 5 — electing capital gain into the ceiling</h3>
+
+Noah pays 30,000 dollars of interest on a margin loan used to buy stock held for investment. His
+investment income for the year is 10,000 dollars of ordinary interest and dividends, plus 25,000 dollars of
+net {gloss:capital-gain} that would otherwise be taxed at the lower long-term rate.
+
+Without more, only 10,000 dollars of his margin interest is deductible for the year, and the remaining
+20,000 dollars carries forward under IRC § 163(d)(2). He instead elects under § 163(d)(4)(B) to treat the
+net capital gain as investment income, which raises his ceiling enough to deduct the full 30,000 dollars
+now — at the cost of paying ordinary rates on the 25,000 dollars he elected, rather than the preferential
+rate. His investment interest deduction is an unusual {gloss:itemized-deduction}: it was never touched by
+the suspension of miscellaneous deductions that took away the job expenses he used to claim alongside it.
 </div>
 
 <div class="callout trap">

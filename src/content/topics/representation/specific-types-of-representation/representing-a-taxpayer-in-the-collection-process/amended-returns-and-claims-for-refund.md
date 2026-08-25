@@ -20,6 +20,17 @@ changelog:
   - { date: "2026-08-18", summary: "Initial publication from IRC §§ 6511, 6513 and 6501(c)(4), (c)(7)." }
 ---
 
+<div class="plain-terms">
+This page is about asking the IRS for money back, or fixing a return you already filed.
+An amended return corrects a mistake on a return you sent in before, like a missed
+deduction. A claim for refund asks the IRS to return money you already paid. Both only
+work within a strict time window. Miss it, and the IRS can keep the money even if you
+were right. This affects anyone who filed a return and later found an error, or who
+paid too much tax. It does not help someone who never filed at all and is now years
+late, except in narrow cases. The page decides exactly how long you have, and how much
+you can actually get back.
+</div>
+
 Refund claims fail on timing far more often than on substance, and the reason is that § 6511 imposes **two** limits rather than one. The first says when a claim may be filed. The second says how much may be refunded once it is. A claim can clear the first and recover nothing under the second, which is the single most common disappointment in this area and the one clients least expect.
 
 ## The rule
@@ -68,22 +79,34 @@ In each of the first three the amount may **exceed** the ordinary look-back limi
 
 **Which form.** Form 1040-X amends an individual income tax return and is the vehicle for most income tax refund claims. Form 843 claims a refund or requests abatement of **certain taxes, interest, penalties, fees and additions to tax** — not income tax the taxpayer reported on a return. Choosing the wrong one produces a rejection that costs the time the deadline may not have.
 
-<div class="scenario">
+<div class="scenario" data-type="interaction">
 <h3>The timely claim that recovered nothing</h3>
 <p>A client never filed for 2021. In February 2026 she files the 2021 return showing a $4,200 overpayment made up entirely of wage withholding, and claims the refund.</p>
 <p><em>Analysis.</em> No return had been filed, so the § 6511(a) period is two years from payment. Under § 6513(b)(1) the withholding is deemed paid on 15 April 2022. Two years from then expired in April 2024, so the claim is out of time and nothing is recoverable — and even on the three-year branch, the look-back would reach only tax paid in the three years before February 2026. The client's money was lost in 2024, not in 2026, and there was a window in which filing would have recovered all of it.</p>
 </div>
 
-<div class="scenario">
+<div class="scenario" data-type="boundary">
 <h3>The security that was worthless in 2019</h3>
 <p>In 2026 a client establishes that a holding became worthless in 2019. The 2019 return was filed on time in April 2020. He asks whether anything can be done.</p>
 <p><em>Analysis.</em> The general three-year period expired in April 2023. But § 6511(d)(1) gives <strong>seven years</strong> from the date prescribed for filing the 2019 return for a claim relating to worthlessness of a security under § 165(g) — so April 2027. The claim is in time, and § 6511(d)(1) also allows the amount to exceed the ordinary look-back limit. Applying the general rule here would have cost the client the entire refund.</p>
 </div>
 
-<div class="scenario">
+<div class="scenario" data-type="timing">
 <h3>The amendment filed on day fifty-five</h3>
 <p>A client's 2022 assessment period expires on 15 April 2026. On 20 February 2026 he files an amended return showing $18,000 of additional tax, hoping the IRS will not process it in time.</p>
 <p><em>Analysis.</em> The document was received within the 60-day period ending on the assessment deadline, so under § 6501(c)(7) the period for assessing <strong>that additional amount</strong> does not expire before 60 days after receipt — around 21 April 2026. The strategy fails. Note the limit as well: the extension reaches only the additional amount shown, not the rest of the return, and the ordinary period still governs everything else.</p>
+</div>
+
+<div class="scenario" data-type="baseline">
+<h3>The plain three-year claim</h3>
+<p>A client filed her 2024 return on time and paid the balance due in full with it. In February 2026 she discovers a missed deduction and files an amended return claiming a $2,300 refund.</p>
+<p><em>Analysis.</em> This is the {gloss:statute-of-limitations} working exactly as designed. The claim is filed well within three years of when the return is treated as filed, and every dollar being reclaimed was paid within the three years before the claim. Both tests in § 6511(a) and (b)(2)(A) are satisfied with room to spare, and the full $2,300 comes back on the {gloss:amended-return} — the ordinary case the two-part structure is built around, not the exception.</p>
+</div>
+
+<div class="scenario" data-type="procedural">
+<h3>The wrong form, twice</h3>
+<p>A client wants a refund of an underpayment penalty the IRS assessed, and separately wants to correct wage income she under-reported on the same year's return. Her preparer files a single Form 843 covering both.</p>
+<p><em>Analysis.</em> Form 843 reaches penalties, interest, and certain other charges, but not income tax the taxpayer reported on a return — that correction belongs on Form 1040-X. The penalty piece can proceed on Form 843; the income correction is rejected and has to go back in on the right form. Filing both pieces on the correct forms from the outset avoids losing time that a {gloss:claim-for-refund} deadline may not forgive.</p>
 </div>
 
 <div class="callout trap"><h4>Traps</h4>

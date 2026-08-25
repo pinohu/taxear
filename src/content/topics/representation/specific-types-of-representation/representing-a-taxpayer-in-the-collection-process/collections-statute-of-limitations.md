@@ -20,9 +20,24 @@ forms: ["12153", "9465", "656"]
 related: ["3.2.6.a", "3.3.1.j", "3.3.1.i", "3.3.1.k", "3.3.1.o", "3.3.1.n", "3.3.1.h", "3.3.1.l", "3.2.3.a", "3.2.3.d", "3.4.2.a"]
 changelog:
   - { date: "2026-08-18", summary: "Initial publication from IRC §§ 6502, 6503, 6330(e), 6331(i), 6331(k) and 7122(f)." }
+  - { date: "2026-08-25", summary: "Added a plain-language summary, a timeline diagram of the ten-year clock and its suspensions, glossary marks, and two typed scenarios." }
+diagram:
+  archetype: "timeline"
+  caption: "The ten-year collection clock, and what pauses it along the way"
+  events:
+    - { when: "Assessment", what: "The 10-year collection period begins" }
+    - { when: "Notice of deficiency disputed in Tax Court", what: "Clock pauses until the decision is final, plus 60 days" }
+    - { when: "CDP hearing requested", what: "Clock pauses while the hearing and any appeal are pending — floor of the 90th day after" }
+    - { when: "Offer in compromise or installment agreement pending", what: "Clock pauses for as long as levy is barred" }
+    - { when: "Taxpayer abroad 6+ months, in bankruptcy, or assets in court custody", what: "Clock pauses, plus a tail of extra months after" }
+    - { when: "10 years of running time elapse, paused periods excluded", what: "Liability becomes legally uncollectible" }
 ---
 
-The collection statute expiration date is the single most useful number in a collection file, and it is almost never the assessment date plus ten years. Every remedy a client asks for — an offer, an installment agreement, a hearing, a bankruptcy — stops the clock while it is pending. Advising on collection without computing the date first is advising in the dark, because the same facts point to opposite strategies depending on whether the date is two years away or twelve.
+<div class="plain-terms">
+Every unpaid tax has a deadline: the point after which the IRS can no longer legally collect it. That deadline usually falls ten years after the tax was assessed. It matters to anyone who owes back taxes, whether from an old return or a recent one. But the clock does not always run smoothly. Certain steps pause it while they are pending, then let it start again. Appealing a bill, asking for a payment plan, offering to settle, or filing for bankruptcy can all do this. This page explains how to work out the real deadline for a given tax debt, not just a simple count from the assessment date.
+</div>
+
+The {gloss:csed} is the single most useful number in a collection file, and it is almost never the assessment date plus ten years. Every remedy a client asks for — an {gloss:offer-in-compromise}, an {gloss:installment-agreement}, a {gloss:collection-due-process-hearing}, a bankruptcy — stops the clock while it is pending. Advising on collection without computing the date first is advising in the dark, because the same facts point to opposite strategies depending on whether the date is two years away or twelve.
 
 ## The rule
 
@@ -67,22 +82,34 @@ The collection statute expiration date is the single most useful number in a col
 
 **Section 7122(f) cuts the other way** and is worth watching on a slow offer. An offer not rejected within twenty-four months of submission is deemed accepted by operation of statute, with judicial dispute periods excluded. It is rare, but it is a hard rule rather than a discretionary one, and the twenty-four months should be diarised whenever an offer goes in.
 
-<div class="scenario">
+<div class="scenario" data-type="interaction">
 <h3>The offer that bought the government four years</h3>
 <p>A client owes on a 2016 assessment made in June 2017. In March 2026 he submits an offer in compromise, which is rejected in November 2026; he appeals, and the appeal concludes in April 2027.</p>
 <p><em>Analysis.</em> The naive expiration was June 2027. Section 6331(k)(1) bars levy while the offer is pending, for 30 days after rejection and during the appeal, and § 6331(k)(3) suspends the collection period for those same periods. Roughly thirteen months are added, pushing the date into mid-2028. Had the client simply waited, the liability would have become uncollectible in June 2027. Whether the offer was worth making depends entirely on its prospects — but nobody should learn about the trade after the fact.</p>
 </div>
 
-<div class="scenario">
+<div class="scenario" data-type="baseline">
 <h3>Four assessments, four dates</h3>
 <p>A client owes for 2015, 2019, 2022 and 2024, assessed in 2016, 2020, 2023 and 2025 respectively. She asks whether to propose an installment agreement covering everything.</p>
 <p><em>Analysis.</em> Each assessment carries its own § 6502 period, so the 2016 assessment expires in 2026 and the 2025 one in 2035. An agreement covering all four applies payments across liabilities that are not equally collectible, and the § 6331(k)(2) protection that comes with it does not distinguish between them. Sequencing matters: the oldest balance may be better left to expire while the others are resolved, and the representative's first output should be four dates, not one proposal.</p>
 </div>
 
-<div class="scenario">
+<div class="scenario" data-type="procedural">
 <h3>The transcript that was wrong</h3>
 <p>A transcript shows a collection statute expiration date three years later than the representative's own computation. The file shows one CDP hearing, concluded years ago, and no bankruptcy, no absence abroad and no offer.</p>
 <p><em>Analysis.</em> Worth challenging. The § 6330(e)(1) suspension runs only while the hearing and appeals were pending, plus the 90-day floor after the final determination — not for years afterwards. An IRS-computed date is an administrative figure, not a determination, and it can be recomputed. Getting it corrected can be the whole of the representation, because a liability past its date is uncollectible whatever the transcript says.</p>
+</div>
+
+<div class="scenario" data-type="boundary">
+<h3>Ninety days, exactly</h3>
+<p>A CDP hearing and its appeal conclude with a final determination on 1 June. Naive arithmetic — ten years from assessment, minus the days the hearing was pending — would put the collection period's expiration at 21 June.</p>
+<p><em>Analysis.</em> Section 6330(e)(1) does not stop at the naive arithmetic: the period cannot expire before the ninetieth day after the final determination, so the real date is 30 August, not 21 June. The floor only ever pushes the date later; it never shortens a period that would otherwise run longer. Whenever a CDP suspension is close to the ten-year mark, check the 90-day floor before reporting a date, because the arithmetic answer and the statutory answer diverge exactly in the cases that matter most.</p>
+</div>
+
+<div class="scenario" data-type="timing">
+<h3>The same balance, computed under two different laws</h3>
+<p>Two clients each owe roughly the same amount. One's liability was assessed in March 1989; the other's was assessed in March 2020.</p>
+<p><em>Analysis.</em> The answer is not the same ten years later. Before the Revenue Act of 1990, the collection period was six years, so the 1989 assessment falls under the pre-1990 rule (as extended by the transitional provisions for assessments made before 6 November 1990), not the current ten-year period in § 6502(a)(1). The 2020 assessment gets the full ten years under the modern rule. Quoting "ten years" reflexively on an assessment old enough to predate the 1990 Act gives the wrong date — the year of assessment decides which statute applies before any suspension is even considered.</p>
 </div>
 
 <div class="callout trap"><h4>Traps</h4>

@@ -18,7 +18,18 @@ forms: []
 related: ["3.4.3.b", "3.1.3.a", "3.1.2.o", "3.4.3.d", "3.4.3.i", "3.4.3.c", "3.4.3.e", "3.4.3.f"]
 changelog:
   - { date: "2026-08-19", summary: "Initial draft against Publication 3112 (Rev. 11-2025)." }
+  - { date: "2026-08-25", summary: "Added a plain-language summary, typed scenarios, and glossary marks (comprehension layer)." }
 ---
+
+<div class="plain-terms">
+Before a tax firm can file returns online, it must apply to the IRS and be approved as an
+e-file provider. This page walks through how that works. It covers who has to apply, what
+checks the IRS runs, and the ID number a firm gets once approved. It affects any firm or
+person who wants to send returns to the IRS electronically. That includes credentialed pros
+like enrolled agents, who skip one step other applicants must do. What it decides is whether
+a firm may take part at all. And it draws one firm line: that ID number can never be sold,
+rented, or handed to a new owner when a business changes hands.
+</div>
 
 ## The rule
 
@@ -129,11 +140,11 @@ entity when the business is sold, gifted or otherwise disposed of. The acquiring
 its own. A provider found renting, leasing or purchasing another provider's EFIN, or letting
 someone who has not passed suitability use it, **will be sanctioned**.
 
-<div class="scenario">
+<div class="scenario" data-type="baseline">
 <h3>The enrolled agent who booked a fingerprint appointment</h3>
 
-Adaeze Lindqvist-Mbeki, an enrolled agent, starts an e-file application for her new practice and
-begins arranging an electronic fingerprinting appointment through the vendor link.
+Adaeze Lindqvist-Mbeki, an {gloss:enrolled-agent}, starts an e-file application for her new practice
+and begins arranging an electronic fingerprinting appointment through the vendor link.
 
 She does not need one. Principals and Responsible Officials must be fingerprinted **unless** they
 provide professional status information, and enrolled agent is one of the listed credentials
@@ -143,12 +154,12 @@ fingerprinting requirement. Her office manager, who is also listed as a Responsi
 holds no credential, does need the appointment — the requirement is per individual, not per firm.
 </div>
 
-<div class="scenario">
+<div class="scenario" data-type="interaction">
 <h3>Buying a practice, and the EFIN that did not come with it</h3>
 
 Isidoro Brennan-Achebe buys a small tax practice, including its client list, its software and,
-he assumes, its EFIN. He plans to file the coming season under the seller's number while his own
-application processes.
+he assumes, its {gloss:efin}. He plans to file the coming season under the seller's number while his
+own application processes.
 
 The EFIN does not transfer. Publication 3112 is explicit that EFINs and ETINs may not be transferred
 to another entity when a business changes hands by sale, gift or other disposition, and that only
@@ -159,11 +170,11 @@ allowing for the approval period, and to arrange with the seller for returns to 
 the seller's own continuing authorisation only if the seller genuinely remains the provider.
 </div>
 
-<div class="scenario">
+<div class="scenario" data-type="fails">
 <h3>The associate nobody checked</h3>
 
 A two-partner firm takes on a contract preparer to handle overflow. Nobody asks why he left his
-previous employer. He was expelled from IRS e-file two years earlier following a due diligence
+previous employer. He was expelled from IRS e-file two years earlier following a {gloss:due-diligence}
 investigation.
 
 The firm has walked into one of the enumerated grounds for denial: directly or indirectly employing

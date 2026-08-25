@@ -17,7 +17,28 @@ forms: []
 related: ["3.4.3.e", "3.4.3.f", "3.3.4.a"]
 changelog:
   - { date: "2026-08-19", summary: "Initial draft against Publication 3112 (Rev. 11-2025)." }
+  - { date: "2026-08-25", summary: "Added a plain-language summary, a timeline diagram of the two-step review deadline, glossary marks, and typed scenarios." }
+diagram:
+  archetype: "timeline"
+  caption: "The clock on an EFIN denial or sanction, from the first letter to the Independent Office of Appeals"
+  events:
+    - { when: "Denial or sanction letter issued", what: "The 30-day clock starts from this date, not from when it is received" }
+    - { when: "Within 30 days", what: "Written administrative review request goes to the office that denied or sanctioned" }
+    - { when: "Reviewing office responds", what: "A subsequent denial, or an affirmed sanction, opens the right to appeal" }
+    - { when: "Within 30 days of that letter", what: "Written appeal goes to the Independent Office of Appeals" }
 ---
+
+<div class="plain-terms">
+An {gloss:efin} lets a firm act as an authorized {gloss:ero} — filing tax returns for
+clients online. The IRS can take that right away three ways: turning down a new
+application, punishing a firm already in the program, or shutting a firm out entirely.
+This page is for tax preparers and firms who file returns for others, not for individual
+taxpayers. Most of these decisions can be challenged. You write to the office that made
+the call, and if it says no, you can appeal to a separate IRS office. But one kind of
+shutdown has no appeal at all: when a court has already barred someone from filing
+returns. Knowing which path applies decides whether a firm gets a hearing or just has to
+wait.
+</div>
 
 ## The rule
 
@@ -96,7 +117,7 @@ immediately suspend or expel without warning or notice.
 is a letter, faxed or mailed, made after the five-year period measured from the expulsion or from the
 individual's completion of rehabilitation.
 
-<div class="scenario">
+<div class="scenario" data-type="boundary">
 <h3>Thirty-one days</h3>
 
 A firm receives a denial letter in December. The Principal reads it, plans to answer, and is
@@ -110,7 +131,7 @@ the specific review of this denial is gone. Thirty days from the **date of the l
 receipt, is the diary entry.
 </div>
 
-<div class="scenario">
+<div class="scenario" data-type="procedural">
 <h3>Appealing to the wrong office</h3>
 
 After a step 1 review upholds a proposed suspension, a representative sends the appeal directly to
@@ -124,7 +145,7 @@ appealed to the attention of the Independent Office of Appeals by fax or at the 
 representative's first act should be to read it rather than to look one up.
 </div>
 
-<div class="scenario">
+<div class="scenario" data-type="fails">
 <h3>The injunction with no appeal</h3>
 
 A Responsible Official is enjoined by a federal court from filing returns. The firm's participation

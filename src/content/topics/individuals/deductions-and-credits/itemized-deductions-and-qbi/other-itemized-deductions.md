@@ -20,7 +20,18 @@ forms: []
 related: ["1.3.1.a", "1.3.1.b", "1.3.1.c", "1.3.1.d", "1.3.1.e", "1.3.1.g", "1.3.1.h", "1.4.1.h"]
 changelog:
   - { date: "2026-08-19", summary: "Initial draft. Sets out the IRC § 67(b) list of thirteen classes excluded from the definition of a miscellaneous itemized deduction, the § 67(h) disallowance of everything else as made permanent by Pub. L. 119-21 § 70110, the § 67(d) definition of impairment-related work expenses, the § 691(c) estate tax deduction, and the § 1341 claim of right computation." }
+  - { date: "2026-08-25", summary: "Added a plain-language summary, glossary marks, and two typed scenarios (the § 1341 threshold boundary and a surviving deduction that still loses to the standard deduction)." }
 ---
+
+<div class="plain-terms">
+Before 2018, many work and investment costs could be deducted if they were reasonable and
+tied to earning income. That broad rule is gone, and the change is now permanent. Today
+only a short, fixed list of costs still counts as an {gloss:itemized-deduction}. Everything else in
+the old broad rule is barred, no matter how reasonable it looks. This page sets out what
+made the list and what did not. It matters most to two groups. One group inherits taxable
+income from someone who died. The other group has to repay income that was taxed in an
+earlier year. Both groups get special treatment most taxpayers never see.
+</div>
 
 Since 2018 this topic has been defined by exclusion. Section 67(h) allows **no** miscellaneous itemized
 deduction, and § 67(b) defines a miscellaneous itemized deduction as any itemized deduction **other than**
@@ -97,7 +108,7 @@ Note what the list does **not** do. It does not remove the other limits: gamblin
 contributions now stay above the § 170(b)(1)(I) floor. Surviving the § 67 definition is a threshold
 question, not an allowance.
 
-<div class="scenario">
+<div class="scenario" data-type="fails">
 <h3>Scenario 1 — the fees that go nowhere</h3>
 
 Hana pays 9,000 dollars in investment advisory fees, 1,400 dollars for tax return preparation and 600
@@ -110,20 +121,20 @@ noting for a second reason: they no longer reduce net investment income under §
 the ceiling on her deductible investment interest.
 </div>
 
-<div class="scenario">
+<div class="scenario" data-type="baseline">
 <h3>Scenario 2 — the deduction the beneficiary did not know about</h3>
 
 Idris inherits his mother's traditional IRA. Her estate paid federal estate tax, and the account's value
 was included in it. In 2026 he withdraws 200,000 dollars.
 
-The 200,000 dollars is income in respect of a decedent under § 691(a) and fully taxable. But § 691(c)(1)(A)
+The 200,000 dollars is {gloss:income-in-respect-of-a-decedent} under § 691(a) and fully taxable. But § 691(c)(1)(A)
 allows him a deduction for the portion of the estate tax attributable to that item, and § 67(b)(7) keeps it
 off the miscellaneous list so it survives § 67(h) intact. He claims it in 2026, the year he includes the
 income — not in the year of death, and not by the estate. Without the estate tax return figures he cannot
 compute it, which is why the deduction is so often missed.
 </div>
 
-<div class="scenario">
+<div class="scenario" data-type="timing">
 <h3>Scenario 3 — the bonus that had to be repaid</h3>
 
 Jae received a 90,000-dollar bonus in 2023, taxed at her then-marginal rate. In 2026 an arbitration
@@ -135,6 +146,33 @@ the **lesser** of her tax computed with the deduction, or her tax computed witho
 decrease in her 2023 tax that excluding the bonus would have produced. Because her 2023 rate was higher,
 the second figure is almost certainly smaller. Section 67(b)(9) keeps the deduction off the miscellaneous
 list, so the ordinary route remains available as the comparison.
+</div>
+
+<div class="scenario" data-type="boundary">
+<h3>Scenario 4 — the repayment just under the line</h3>
+
+Leon repaid 2,800 dollars in 2026 of income that had been included, and taxed, in 2024 under a claim of
+right that turned out to be wrong.
+
+Section 1341(a)(4) applies its special lesser-of computation only where the deduction exceeds 3,000
+dollars. Leon's repayment falls short of that line, so § 1341 does not apply at all: he simply takes the
+2,800 dollars as an ordinary deduction in 2026, with no comparison to what his 2024 tax would have been.
+A few hundred dollars more in the repayment would have opened up the computation in Scenario 3 — this is
+the boundary where it does not.
+</div>
+
+<div class="scenario" data-type="interaction">
+<h3>Scenario 5 — a survivor that still needs a taller pile</h3>
+
+Marisol, a warehouse worker with a spinal injury, pays 6,000 dollars in impairment-related work expenses
+during 2026 — attendant care at her workplace that lets her keep doing her job. She has no mortgage
+interest, no state income tax of consequence, and no other itemized deductions.
+
+Section 67(d) makes the 6,000 dollars fully deductible with no floor, and § 67(b)(12) keeps it off the
+miscellaneous list, so it survives § 67(h) intact. But surviving § 67 only matters if she itemizes, and her
+{gloss:standard-deduction} is larger than 6,000 dollars on its own. She takes the standard deduction, and
+the impairment-related expense — fully allowed on paper — adds nothing to her return. A deduction can clear
+every hurdle in § 67 and still do no work if it never gets the taxpayer past the standard deduction.
 </div>
 
 <div class="callout trap">

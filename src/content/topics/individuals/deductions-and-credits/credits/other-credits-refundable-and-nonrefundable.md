@@ -22,7 +22,18 @@ forms: []
 related: ["1.1.1.k", "1.1.1.j", "1.3.2.g", "1.2.4.b", "1.4.1.e"]
 changelog:
   - { date: "2026-08-19", summary: "Initial draft. Sets out the IRC § 25B saver's credit with the 2026 income limits from Notice 2025-67, the § 22 credit for the elderly and disabled and why it is almost never available, the § 31(b) credit for excess social security withholding and its two-employer condition, the expiry of the § 35 health coverage tax credit for coverage months beginning after 2021, and the termination of §§ 25C, 25D, 30D and 25E by Pub. L. 119-21 §§ 70502, 70505 and 70506." }
+  - { date: "2026-08-25", summary: "Added a plain-language summary, typed scenarios, and glossary marks as part of the comprehension-layer rollout." }
 ---
+
+<div class="plain-terms">
+This topic covers a few small tax credits that do not fit anywhere else. One rewards a modest
+earner for saving toward retirement. One helps an older or disabled taxpayer who has very
+little other income. One fixes an honest mistake, when a worker had too much social security
+tax taken out by two different jobs in one year. Two more credits used to help pay for health
+coverage or clean energy gear, but both have already ended. They mostly affect lower earners,
+retirees, and people who changed jobs mid-year. What matters here is knowing which of these
+credits still apply this year, since more than one no longer does.
+</div>
 
 The outline names three examples for this topic — the health coverage tax credit, energy credits, and
 the retirement savings contribution credit. As of taxable year 2026 the first of those has not existed
@@ -97,11 +108,11 @@ adjusted gross income, times 15 percent.
 credit on the return. One, and the return is the wrong place — the employer must refund it and issue a
 corrected Form W-2.
 
-<div class="scenario">
+<div class="scenario" data-type="interaction">
 <h3>Two credits from one contribution</h3>
 
-Farida is single, 34, not a student and not a dependent. Her adjusted gross income before any retirement
-contribution is $25,100. She contributes $1,500 to a traditional IRA.
+Farida is single, 34, not a student and not a {gloss:dependent}. Her adjusted gross income before any
+retirement contribution is $25,100. She contributes $1,500 to a traditional IRA.
 
 The deduction reduces her adjusted gross income to $23,600, which is below the top of the 50 percent
 band for a single filer in 2026. Her saver's credit is 50 percent of $1,500, or $750, in addition to the
@@ -110,7 +121,7 @@ savings contribution — but with no deduction her adjusted gross income would s
 percent band, and the credit would be $300. Same $1,500, a $450 difference in credit.
 </div>
 
-<div class="scenario">
+<div class="scenario" data-type="boundary">
 <h3>Over the wage base, and which route</h3>
 
 Two clients each had $9,800 of social security tax withheld against a base that supports less than that.
@@ -125,7 +136,7 @@ The combined withholding exceeds the base, § 6413(c)(1) gives a special refund,
 as tax withheld at source on the return for the year the wages were received.
 </div>
 
-<div class="scenario">
+<div class="scenario" data-type="timing">
 <h3>The solar panels installed in January 2026</h3>
 
 The Larkin family contracted in November 2025 for a rooftop solar installation, paid a deposit that
@@ -136,6 +147,34 @@ payment is outside the credit entirely. The November deposit is an expenditure m
 but § 25D(e)(8) times expenditures for property to when the original installation is completed, which
 did not happen until 2026. A family who assumed a 30 percent credit and budgeted around it has a
 material shortfall, and the answer does not change with the date of the contract.
+</div>
+
+<div class="scenario" data-type="baseline">
+<h3>The rare case where the elderly credit survives</h3>
+
+A single taxpayer, 68, has no social security benefits at all and a small pension of $3,000, with
+{gloss:adjusted-gross-income} of $9,000.
+
+The initial amount for a single filer is $5,000. Nontaxable social security is zero, so nothing comes
+off there. Half the excess of adjusted gross income over the $7,500 threshold is half of $1,500, or
+$750. The section 22 amount is $5,000 minus $750, or $4,250, and the credit is 15 percent of that, or
+about $638. This is the rule working exactly as designed — it is just rare, because most people this age
+already collect nontaxable social security that wipes the credit out entirely.
+</div>
+
+<div class="scenario" data-type="procedural">
+<h3>Finding the credit on the return</h3>
+
+A preparer receives three Forms W-2 for one client who worked for three different employers during the
+year, each correctly withholding social security tax up to the wage base on its own wages. The client
+never mentions anything unusual.
+
+The preparer's job is to add the social security tax withheld across all three forms — one part of the
+{gloss:fica} taxes each employer withholds — and compare the total to the annual maximum, since no
+single employer's Form W-2 will flag an excess created by a different job. Once identified, the excess
+is claimed directly on the return as a payment — no separate form or election is required, unlike the
+saver's credit, which needs Form 8880 attached. A preparer who works from one W-2 at a time will never
+see this credit.
 </div>
 
 <div class="callout trap">

@@ -21,7 +21,26 @@ forms: []
 related: ["1.2.1.l", "1.2.3.e", "1.2.4.a", "1.3.1.f", "1.2.3.k", "1.3.2.a"]
 changelog:
   - { date: "2026-08-19", summary: "Initial draft. Sets out the two-limb IRC § 199A(a) computation, the § 199A(b)(2) wage and property limitation and its § 199A(b)(3) phase-in, the § 199A(d) specified service exclusion, the § 199A(f)(1) partner-level application, the 2026 threshold and phase-in figures from Rev. Proc. 2025-32 § 3.26, and the new § 199A(i) minimum deduction that Pub. L. 119-21 § 70105 put where the sunset used to be." }
+  - { date: "2026-08-25", summary: "Added a plain-language summary, a decision diagram of the threshold/phase-in/SSTB gates, glossary marks, and two typed scenarios (the employee-wage exclusion and the owner-level filing mechanics)." }
+diagram:
+  archetype: "decision"
+  caption: "Does the wage-and-property limitation apply, and how much?"
+  tests:
+    - { test: "Employee wages, or income from a C corporation", result: "No § 199A deduction — no exception at any income level", outcome: "fail" }
+    - { test: "Taxable income at or below the threshold amount", result: "Full 20% of QBI — no wage test, and SSTB status doesn't matter", outcome: "pass" }
+    - { test: "Above the threshold, but inside the phase-in range", result: "Reduced by the ratio — partial wage limitation, partial SSTB percentage", outcome: "pass" }
+    - { test: "Above the top of the phase-in range", result: "Full wage/property limitation applies; an SSTB gets nothing", outcome: "fail" }
 ---
+
+<div class="plain-terms">
+Many people who run a business or freelance outside a regular job can claim the
+{gloss:qualified-business-income-deduction} — a slice of that income deducted before it
+gets taxed. It can be worth up to a fifth of business profit. It does not apply to wages from a job, and it does not apply to a regular
+corporation. Above a certain income level, the deduction gets trickier. The type of
+business starts to matter, and how much the business pays in wages starts to matter too.
+Below that level, none of that complexity applies, and the deduction is simple. This page
+works out which taxpayers land in the simple case and which land in the complicated one.
+</div>
 
 Section 199A was written to expire with the rest of the 2017 individual provisions, and for seven filing
 seasons every explanation of it carried that warning. The warning is now wrong. Pub. L. 119-21 § 70105
@@ -125,7 +144,7 @@ corporation shareholder's own reasonable compensation is W-2 wages of the busine
 excluded from that shareholder's QBI. And the unadjusted basis is basis immediately after acquisition,
 unreduced by depreciation, so bonus depreciation costs a taxpayer nothing here.
 
-<div class="scenario">
+<div class="scenario" data-type="interaction">
 <h3>The ceiling that is not the wage limitation</h3>
 
 Devlin is single, materially participates in a consulting practice, and has $60,000 of qualified
@@ -137,7 +156,7 @@ $18,000, or $3,600. Stopping at "20 percent of QBI, he is under the threshold" o
 than triple.
 </div>
 
-<div class="scenario">
+<div class="scenario" data-type="boundary">
 <h3>Inside the range, with the ratio done properly</h3>
 
 Priya and Marcus file jointly. Her S corporation is not a specified service business; her share of QBI
@@ -152,14 +171,38 @@ gives $35,000; halving the deduction gives $30,000. Both are wrong: the ratio ap
 the deduction.
 </div>
 
-<div class="scenario">
+<div class="scenario" data-type="baseline">
 <h3>The floor doing work</h3>
 
-Odile's only business is a small studio with $1,200 of qualified business income, in which she
-materially participates. Twenty percent is $240. Because her aggregate QBI from active qualified trades
-or businesses is at least $1,000, she is an applicable taxpayer, and her deduction is the greater of
-$240 or $400. She deducts $400 — a floor, not an addition to the $240. Had the studio earned $900, she
-would fail the applicable-taxpayer test and deduct $180.
+Odile's only business is a small studio with $1,200 of qualified business income, in which she meets
+the {gloss:material-participation} standard. Twenty percent is $240. Because her aggregate QBI from active
+qualified trades or businesses is at least $1,000, she is an applicable taxpayer, and her deduction is
+the greater of $240 or $400. She deducts $400 — a floor, not an addition to the $240. Had the studio
+earned $900, she would fail the applicable-taxpayer test and deduct $180.
+</div>
+
+<div class="scenario" data-type="fails">
+<h3>The wages the threshold cannot rescue</h3>
+
+Tomás earns $180,000 in W-2 wages as an in-house engineer, and nothing else. His taxable income is well
+below the threshold, so he assumes his wages get the same treatment his self-employed neighbor's income
+does.
+
+They do not. IRC § 199A(d)(1)(B) excludes the trade or business of performing services as an employee
+from the definition of a qualified trade or business, with no threshold exception — that limb only ever
+rescues a specified service business. His wages produce no § 199A deduction at any income level.
+</div>
+
+<div class="scenario" data-type="procedural">
+<h3>What the owner actually files</h3>
+
+Priya's {gloss:s-corporation} computes nothing under § 199A. It reports her allocable share of qualified
+business income, W-2 wages, and unadjusted basis in qualified property on her Schedule K-1, the same way
+it reports any other separately stated item.
+
+Priya carries those figures onto her own return and works through the three questions — threshold, range,
+ratio — herself, under IRC § 199A(f)(1)(A). If her accountant only reviews the corporation's return, the
+deduction is never computed: it belongs one level up from where the K-1 numbers originate.
 </div>
 
 <div class="callout trap">

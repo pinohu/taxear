@@ -20,7 +20,24 @@ forms: []
 related: ["1.3.1.f", "1.2.4.e", "1.2.4.c", "1.3.1.b", "1.2.2.e", "1.3.1.c", "1.3.1.d", "1.3.1.e", "1.5.1.k"]
 changelog:
   - { date: "2026-08-19", summary: "Initial draft. Sets out the IRC § 213(a) allowance and its 7.5 percent floor, the modified § 152 dependency test, the § 213(d)(1) definition of medical care with the § 213(b) prescription requirement, the § 213(d)(2) lodging rule and its per-night cap, the § 213(d)(9) cosmetic surgery exclusion, the § 213(d)(10) long-term care premium scale and the § 213(d)(11) related-provider rule, and the § 213(c) treatment of a decedent's expenses." }
+  - { date: "2026-08-25", summary: "Added a plain-language summary, four glossary marks, a threshold diagram of the AGI floor, and two typed scenarios (baseline, procedural) alongside the existing three." }
+diagram:
+  archetype: "threshold"
+  caption: "The 7.5% AGI floor — below it, nothing; above it, only the excess"
+  min: 0
+  max: 15
+  marks:
+    - { figureKey: "medical.floor", value: 7.5, label: "7.5% of AGI — the floor", emphasis: true }
 ---
+
+<div class="plain-terms">
+This page is about deducting medical costs on your tax return. It only helps if you itemize, and
+even then only part of your bill counts. You subtract a floor tied to your income first, and only
+the amount left over is deductible. That trips people up: clearing the floor does not mean the whole
+bill counts. Store-bought medicine does not count unless a doctor writes a prescription for it. Home
+changes for a health need, like a ramp, can count in full if you rent rather than own. This page
+decides what counts as a medical cost, and how much of it you can actually deduct.
+</div>
 
 The floor is a subtraction, not a gate. Expenses are deductible **to the extent that** they exceed
 7.5 percent of adjusted gross income — so a taxpayer who clears the floor deducts only the excess, not the
@@ -110,19 +127,20 @@ For long-term care, two limits apply in sequence: § 213(d)(10) caps the premium
 § 213(d)(11) may disqualify the service payments entirely where the carer is a family member. Both are
 easily missed on a return that simply totals what was spent on care.
 
-<div class="scenario">
+<div class="scenario" data-type="boundary">
 <h3>Scenario 1 — clearing the floor and deducting almost nothing</h3>
 
 Ruby has adjusted gross income of 96,000 dollars and 8,000 dollars of unreimbursed medical expenses. She
 tells her preparer she has "cleared the threshold".
 
 Her floor is 7,200 dollars, so 800 dollars is deductible under IRC § 213(a) — the statute allows the
-expenses "to the extent that" they exceed the floor. And because her itemized deductions in total may not
-exceed her standard deduction, that 800 dollars may produce no benefit at all. Clearing the floor and
-obtaining a deduction are different things, and this is the ordinary case rather than the exception.
+expenses "to the extent that" they exceed the floor. And because her {gloss:itemized-deduction}s in total
+may not exceed her {gloss:standard-deduction}, that 800 dollars may produce no benefit at all. Clearing the
+floor and obtaining a deduction are different things, and this is the ordinary case rather than the
+exception.
 </div>
 
-<div class="scenario">
+<div class="scenario" data-type="interaction">
 <h3>Scenario 2 — the tenant's ramp</h3>
 
 Sami uses a wheelchair, rents his home, has adjusted gross income of 35,000 dollars, and spends 1,500
@@ -136,7 +154,7 @@ deduction would have been reduced by any increase in its value — though a ramp
 usually adds none.
 </div>
 
-<div class="scenario">
+<div class="scenario" data-type="fails">
 <h3>Scenario 3 — the daughter who gave up work</h3>
 
 Tomas pays his daughter 40,000 dollars a year to provide full-time long-term care for him at home. She is
@@ -148,6 +166,35 @@ long-term care service is provided by a relative who is not a licensed professio
 medical care, but only to the extent of the eligible long-term care premium for his age band under
 § 213(d)(10) — so part of the 4,900 dollars is excluded too. Engaging an agency rather than his daughter
 would have made the care payments deductible; the family arrangement is what disqualifies them.
+</div>
+
+<div class="scenario" data-type="baseline">
+<h3>Scenario 4 — the parent who isn't a dependent everywhere</h3>
+
+Wei's mother lives with him. Her own income is too high for him to claim her as a {gloss:dependent} for
+the credit for other dependents, so he doesn't. During 2026 he pays 5,700 dollars of her unreimbursed
+medical bills, plus 1,300 dollars of his own unreimbursed dental work. His adjusted gross income is 60,000
+dollars. He also uses his {gloss:health-savings-account} to pay 800 dollars toward his own annual physical.
+
+Wei may still count his mother's bills: IRC § 213(a) tests whether she is a dependent within § 152 without
+regard to the gross income test that keeps her off his return elsewhere. His combined total is 7,000
+dollars, his floor is 4,500 dollars, and 2,500 dollars is deductible. The 800-dollar physical is not added
+to the total at all — it was paid from the health savings account, and § 213(a) reaches only amounts not
+compensated for by insurance or otherwise.
+</div>
+
+<div class="scenario" data-type="procedural">
+<h3>Scenario 5 — the estate's choice on a decedent's bills</h3>
+
+A taxpayer dies in March 2026, leaving 18,000 dollars of unpaid hospital bills. The executor pays them in
+September 2026, within the one-year window, out of estate assets, and the estate could otherwise claim the
+same amount as a § 2053 estate tax deduction.
+
+Because payment fell within the one-year period beginning the day after death, IRC § 213(c)(1) treats the
+18,000 dollars as paid by the decedent at the time it was incurred, so it can be deducted on the decedent's
+final income tax return. But § 213(c)(2) blocks that route unless the estate first waives the § 2053
+estate tax deduction for the same amount by filing the required statement — the executor must choose one
+deduction or the other, and must file to get the income tax version.
 </div>
 
 <div class="callout trap">

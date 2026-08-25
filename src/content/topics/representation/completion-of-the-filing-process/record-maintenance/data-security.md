@@ -20,7 +20,17 @@ forms: []
 related: ["3.4.2.a", "3.4.3.f", "3.2.6.i"]
 changelog:
   - { date: "2026-08-19", summary: "Initial draft against Publication 4557." }
+  - { date: "2026-08-25", summary: "Added a plain-language summary, glossary marks, and two typed scenarios. No diagram: the content is a concurrent checklist, not a decision chain, threshold, or dated sequence." }
 ---
+
+<div class="plain-terms">
+Keeping client tax data safe is the law, not just good advice. If you are paid to prepare tax
+returns, the government treats your firm like a bank for data-safety rules. This applies to every
+paid preparer, big or small, even a one-person office. It does not matter how many returns you file.
+This page explains what you must do: write down a real security plan, add a second login step for
+anyone who touches client data, and report a suspected theft right away, before you are even sure
+data was stolen. Skip these steps and the FTC can open a case against you.
+</div>
 
 ## The rule
 
@@ -114,11 +124,12 @@ that frequently arise from the same incident.
 of the Identity Protection PIN among the basic steps. It is now open to anyone with a social security
 number or ITIN who can verify their identity, as a proactive measure rather than a remedy.
 
-<div class="scenario">
+<div class="scenario" data-type="procedural">
 <h3>The return count that did not match</h3>
 
 Ottavia Fernsby-Mwangi checks her e-file application weekly, as Publication 4557 recommends. In late
-February the total returns filed under her EFIN is thirty-one higher than her own records show.
+February the total returns filed under her {gloss:efin} is thirty-one higher than her own records
+show.
 
 That gap is the signal the weekly check exists to produce. Someone is filing under her EFIN. She
 reports the suspected data theft immediately to the appropriate IRS Stakeholder Liaison rather than
@@ -127,7 +138,7 @@ that made the discovery possible — a weekly check and reconcilable internal re
 of the defence here; a firm that checks in June finds out in June.
 </div>
 
-<div class="scenario">
+<div class="scenario" data-type="fails">
 <h3>The plan that was a folder of software licences</h3>
 
 A three-person practice is asked by its liability insurer for its written information security plan.
@@ -143,18 +154,50 @@ to help create one. The controls the firm already has are inputs to the plan, no
 it, and the absence of one may draw an FTC investigation.
 </div>
 
-<div class="scenario">
+<div class="scenario" data-type="interaction">
 <h3>The authorization nobody withdrew</h3>
 
-A client leaves for another firm in 2023. The Form 2848 filed in 2021 remains on the IRS's Centralized
-Authorization File. In 2026 the old firm suffers a phishing compromise, and the attacker uses the
-practitioner's e-Services access to pull transcripts.
+A client leaves for another firm in 2023. The Form 2848 {gloss:power-of-attorney} filed in 2021
+remains on the IRS's Centralized Authorization File. In 2026 the old firm suffers a phishing
+compromise, and the attacker uses the practitioner's e-Services access to pull transcripts.
 
 The former client's transcripts are among them, because the authorization was never withdrawn.
 Publication 4557 lists withdrawing outstanding powers of attorney and tax information authorizations
-for people who are no longer clients among the basic security steps, and this is why: an authorization
-is a standing right of access that survives the engagement unless someone ends it. The remediation is
-now a breach notification to a person who has not been a client for three years.
+for people who are no longer clients among the basic security steps — the {gloss:tax-information-authorization}
+is the more limited of the two — and this is why: an authorization
+is a standing right of access that survives the engagement unless someone ends it. A data-security
+lapse and a stale authorization are two separate failures that combined into one breach: the phishing
+compromise supplied the access, and the never-withdrawn authorization supplied the scope. The
+remediation is now a breach notification to a person who has not been a client for three years.
+</div>
+
+<div class="scenario" data-type="baseline">
+<h3>The plan built to the checklist</h3>
+
+A two-partner practice writes an information security plan naming one partner as the qualified
+individual, requires multi-factor authentication for every login to the return software and the
+client portal, runs a risk assessment across intake, preparation, and storage each year, and holds a
+half-hour refresher training for both partners and their one employee every January.
+
+This is what Publication 4557 asks for, sized to a small firm rather than a national one. The plan
+names a person, covers the required areas, and is revisited on a schedule rather than written once
+and filed away. None of the individual steps is expensive or technical; what makes it a plan, rather
+than a folder of good habits, is that it is written down, assigned to someone, and reviewed.
+</div>
+
+<div class="scenario" data-type="timing">
+<h3>The audit that would have gone differently in 2020</h3>
+
+An insurer reviews the same firm's data security twice: once in 2020 and again in 2026. In both
+years the firm requires only a single password to reach its return software, with no second
+authentication step.
+
+In 2020 that could pass as a reasonable safeguard, because the Safeguards Rule then asked only for
+safeguards appropriate to the firm's size and the sensitivity of the data it held — a flexible
+standard a reviewer could argue either way. In 2026 the same single-password setup is a plain
+violation: the FTC's 2021 amendments, effective in 2023, made multi-factor authentication a binary
+requirement for every company regardless of size, not a factor to be weighed. The facts have not
+changed at all between the two reviews. The law asking the question has.
 </div>
 
 <div class="callout trap">

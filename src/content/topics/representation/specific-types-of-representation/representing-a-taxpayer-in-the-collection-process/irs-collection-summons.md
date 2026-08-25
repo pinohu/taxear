@@ -21,9 +21,19 @@ forms: []
 related: ["3.3.1.j", "3.3.1.n", "3.3.1.m", "3.3.3.a"]
 changelog:
   - { date: "2026-08-18", summary: "Initial publication from IRC §§ 7602, 7603, 7604, 7605, 7609 and 7610." }
+  - { date: "2026-08-24", summary: "Added a plain-language summary, glossary marks, and typed scenarios." }
 ---
 
-The summons is the IRS's compulsory process, and its limits matter more to a representative than its scope. It is administrative — the IRS issues it itself, without a court — but it is only enforceable through one, and several things switch it off entirely. The deadlines attached to a third-party summons are short and unforgiving.
+<div class="plain-terms">
+A summons is the IRS's way of forcing someone to hand over records or answer questions under oath.
+The IRS issues it on its own, with no judge involved at that step. It can reach a taxpayer, a bank,
+an employer, or almost anyone else who might hold useful records. It does not reach someone
+protected by special rules, such as a person already facing a criminal referral. A summons decides
+what must be produced and by when. If the person ignores it, the IRS cannot just seize anything —
+it must ask a court to enforce the summons first.
+</div>
+
+The {gloss:summons} is the IRS's compulsory process, and its limits matter more to a representative than its scope. It is administrative — the IRS issues it itself, without a court — but it is only enforceable through one, and several things switch it off entirely. The deadlines attached to a third-party summons are short and unforgiving.
 
 ## The rule
 
@@ -72,22 +82,34 @@ The summons is the IRS's compulsory process, and its limits matter more to a rep
 
 **Enforcement being judicial is the practical protection.** Ignoring a summons is not costless, but it does not itself produce sanctions: the IRS must go to a district court under § 7604, and that proceeding is where objections get heard. A client should not be told a summons is self-executing, and should not be told it can safely be ignored either.
 
-<div class="scenario">
+<div class="scenario" data-type="baseline">
+<h3>The third-party summons that ran on schedule</h3>
+<p>The IRS summons a client's bank for records relating to the client's account. The bank is served on 1 June. The client receives the § 7609(a) notice on 3 June, with a copy of the summons and an explanation of the right to quash. The date fixed for production is 30 June. The client's representative, holding a {gloss:power-of-attorney} for the matter, advises her not to object, and the bank produces the records on schedule.</p>
+<p><em>Analysis.</em> This is the regime working exactly as designed: notice within 3 days of service, comfortably more than 23 days before production, and a full 20 days available to petition to quash if she had wanted to use it. Choosing not to exercise the right does not forfeit anything else — it simply lets the summons proceed.</p>
+</div>
+
+<div class="scenario" data-type="procedural">
 <h3>Twenty days from the wrong date</h3>
 <p>A client's accountant is served with a summons on 3 March for records relating to the client. The client receives the § 7609 notice on 5 March. The summons fixes 30 March for production. The representative calendars twenty days from the summons date.</p>
 <p><em>Analysis.</em> Wrong start. Section 7609(b)(2)(A) runs the quash period from the day the <strong>notice</strong> is given, so it closes on 25 March, not 23 March &mdash; and the copy of the petition must reach the person summoned and the IRS within the same period. Calendaring from the summons date happens to be conservative here, but the reverse error, calendaring from the production date, loses the right entirely.</p>
 </div>
 
-<div class="scenario">
+<div class="scenario" data-type="boundary">
 <h3>The second look nobody authorised</h3>
 <p>A client's 2023 books were examined in 2024 and the case closed. In 2026 a revenue officer asks to inspect the same year's books again in connection with collection. No written notice has been given.</p>
 <p><em>Analysis.</em> Section 7605(b) permits only one inspection of a taxpayer's books of account for each taxable year unless the taxpayer requests otherwise or <strong>the Secretary notifies the taxpayer in writing</strong> that an additional inspection is necessary. The written notice is the condition, not a formality. Raising it is more productive than arguing relevance, because the limit is categorical.</p>
 </div>
 
-<div class="scenario">
+<div class="scenario" data-type="interaction">
 <h3>The summons that could not issue</h3>
 <p>A client under examination learns from counsel that the case was referred for criminal prosecution two months ago. A summons for business records arrives the following week.</p>
 <p><em>Analysis.</em> Section 7602(d) bars issuing a summons, and bars beginning a § 7604 enforcement action, while a Justice Department referral is in effect &mdash; which it is once the Secretary has recommended grand jury investigation or prosecution. The summons should not have issued. The date of the referral relative to the date of the summons decides the point, and it is worth establishing before responding to anything.</p>
+</div>
+
+<div class="scenario" data-type="fails">
+<h3>The notice that was never owed</h3>
+<p>The IRS summons a taxpayer's bank in aid of collecting an assessment already made against that same taxpayer. The taxpayer's representative demands a § 7609(a) notice and threatens a proceeding to quash.</p>
+<p><em>Analysis.</em> Wrong tool. A summons issued in aid of collecting an assessment or judgment against the person whose liability is at issue is one of the categories § 7609 excludes from third-party notice — it is not an ordinary third-party summons, even though it is served on the bank rather than the taxpayer. No notice right attaches and there is no proceeding to quash to bring. Whatever protection exists here runs through the summons's own service and relevance limits, not § 7609.</p>
 </div>
 
 <div class="callout trap"><h4>Traps</h4>

@@ -19,7 +19,19 @@ forms: []
 related: ["3.4.1.a", "3.4.3.i", "3.1.2.b"]
 changelog:
   - { date: "2026-08-19", summary: "Initial draft." }
+  - { date: "2026-08-25", summary: "Added a plain-language summary, typed scenarios, and glossary marks (comprehension layer)." }
 ---
+
+<div class="plain-terms">
+A math error notice is how the IRS fixes an obvious mistake on a tax return, like a wrong
+entry or a missing ID number, without treating it as a real dispute. This page covers two
+things. One is what counts as that kind of mistake. The other is how the same item ends up
+entered or claimed twice on a return — the most common mistake a good review should catch
+before filing. It matters to anyone who prepares returns for pay, and to any taxpayer who
+gets one of these notices. The key thing it decides is which path a taxpayer is on. A math
+error notice carries no right to fight it in Tax Court. The only way to push back is a quick
+written request asking the IRS to cancel the extra tax, sent before a short deadline passes.
+</div>
 
 ## The rule
 
@@ -106,7 +118,7 @@ not blocked, and the route is the abatement request within the statutory window 
 the Service to deficiency procedures. Missing that window converts a correctable notice into an
 assessed balance.
 
-<div class="scenario">
+<div class="scenario" data-type="baseline">
 <h3>The brokerage statement that arrived twice</h3>
 
 Anneke Lindqvist-Baptiste uploads her documents to her preparer's portal in February and posts the
@@ -122,15 +134,15 @@ the client money rather than exposing her, which is why nobody would have found 
 either.
 </div>
 
-<div class="scenario">
+<div class="scenario" data-type="fails">
 <h3>The vehicle claimed twice</h3>
 
 Emmerich Sørensen-Achebe runs a consultancy and also has employment income. His vehicle costs are
 entered on Schedule C from his mileage log and again, by a different staff member working from his
 employer's reimbursement summary, as a separate cost.
 
-This is the "claimed once, for personal or business, not both" problem Publication 1345 directs EROs
-to look for when reviewing wage statements and payroll deductions. On the preparer penalty side it is
+This is the "claimed once, for personal or business, not both" problem Publication 1345 directs
+{gloss:ero}s to look for when reviewing wage statements and payroll deductions. On the preparer penalty side it is
 not obviously an isolated inadvertent error: it is a duplicate deduction that a review comparing the
 Schedule C to the employment records would have surfaced, which brings it close to the "should have
 been discovered during a review" exclusion. The fix is structural — one person owns the expense
@@ -138,16 +150,16 @@ schedule for a client with both income types, and a cross-check against the othe
 standing item.
 </div>
 
-<div class="scenario">
+<div class="scenario" data-type="procedural">
 <h3>The math error notice the client wanted to appeal</h3>
 
 Perpetua Vandermeer receives a notice stating that an entry on her return was inconsistent with
 another entry and that additional tax has been assessed. She instructs her enrolled agent to appeal
 to the Tax Court.
 
-That route does not exist on this notice. A math or clerical error notice is expressly not a notice of
+That route does not exist on this {gloss:math-error-notice}. It is expressly not a notice of
 deficiency, there is no Tax Court petition right on it, and the assessment is not barred. What she can
-do is request abatement within the statutory window, which obliges the Service to proceed by
+do is request {gloss:abatement} within the statutory window, which obliges the Service to proceed by
 deficiency procedures if it maintains the position — producing a real notice of deficiency, and with it
 the petition right she thought she already had. The advice that matters is about the window, and it is
 short enough that the conversation has to happen the week the notice arrives.

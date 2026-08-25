@@ -19,7 +19,18 @@ forms: []
 related: ["1.3.2.b", "1.1.1.i", "1.1.1.k", "1.3.2.c", "1.3.2.f", "1.3.2.g", "1.4.1.g"]
 changelog:
   - { date: "2026-08-19", summary: "Initial draft. Sets out the IRC § 32(a) computation and the 2026 table amounts from Rev. Proc. 2025-32 § 3.06, the § 32(c)(1) eligible individual tests including the childless age and abode rules, the § 32(c)(2) earned income definition with its exclusions and the § 112 combat pay election, the § 32(c)(3) qualifying child rules and why the support test does not apply, the § 32(d) joint return requirement and separated spouse exception, the § 32(i) disqualified income cliff, the § 32(k) disallowance periods, the § 32(m) social security number rule, and the preparer due diligence requirements in Reg. § 1.6695-2 with the § 6695(g) penalty." }
+  - { date: "2026-08-25", summary: "Added a plain-language summary, typed scenarios, and glossary marks as part of the comprehension-layer rollout." }
 ---
+
+<div class="plain-terms">
+The earned income tax credit is a benefit for people who work but earn a modest income. It
+can cut your tax bill below zero, so you get money back even if you paid little or no tax
+yourself. It affects working parents most, but it can also help a worker with no children at
+home, as long as they meet an age test. It does not help someone with a lot of interest,
+dividends, or investment gains, even if their paycheck is small. What it decides is how much
+extra money comes back on your return, and whether a paid preparer must ask you extra
+questions before filing it.
+</div>
 
 Two things make this credit different from the others on an individual return. It is fully refundable, so
 it is paid out whether or not there is any tax, which is why it is the most audited item on the form. And
@@ -132,7 +143,20 @@ threshold.
 **Then do the due diligence**, and document it as you go. The regulation asks for contemporaneous
 records, and a file reconstructed after an examination notice does not meet it.
 
-<div class="scenario">
+<div class="scenario" data-type="baseline">
+<h3>The straightforward case</h3>
+
+Renata is single, works as a home health aide, and earned $19,000 for the year, with
+adjusted gross income of $19,000 and no investment income at all. Her 8-year-old son lived
+with her the entire year and is her {gloss:qualifying-child}.
+
+There are no disqualifiers to check: she has no disqualified income, files as an unmarried
+individual, and has a valid social security number for herself and her son. The credit is
+read straight from the 2026 table for one qualifying child at her income level — this is the
+credit operating exactly as designed, with nothing at the edges to resolve.
+</div>
+
+<div class="scenario" data-type="boundary">
 <h3>The cliff</h3>
 
 Dario is single with two qualifying children, earned income of $27,000, and adjusted gross income of
@@ -145,7 +169,7 @@ preserved the entire credit. This is the single most valuable piece of planning 
 it has to be given before the year ends.
 </div>
 
-<div class="scenario">
+<div class="scenario" data-type="interaction">
 <h3>Support does not matter, residence does</h3>
 
 Alma's 20-year-old daughter is a full-time student who lives at home for the whole year and pays all of
@@ -158,7 +182,21 @@ child, and Alma may count her. The two credits use the same defined term and rea
 the same facts.
 </div>
 
-<div class="scenario">
+<div class="scenario" data-type="fails">
+<h3>Not eligible at all</h3>
+
+Tomás is 22, works part-time, earned $9,000 for the year, and lives with his parents while attending
+college full-time. He has no children of his own and wants to claim the credit for himself as a
+childless worker.
+
+Because he is under 24, a full-time student, and provides less than half his own support, he remains
+his parents' {gloss:dependent} and their qualifying child under § 152(c) for the year. IRC § 32(c)(1)(B)
+denies the credit entirely to anyone who is themselves the qualifying child of another taxpayer for the
+year — his own income and work do not matter once that test is met. His parents may claim him as a
+dependent, but neither he nor they can turn his earnings into an earned income credit for him.
+</div>
+
+<div class="scenario" data-type="procedural">
 <h3>The inquiry the preparer had to make</h3>
 
 A new client tells a preparer that he is single, that his two nephews aged 9 and 11 lived with him all
@@ -166,10 +204,11 @@ year, and that he supported them. He produces nothing about the boys beyond thei
 security numbers.
 
 Nephews are within the § 152(c)(2) relationship class as descendants of a sibling, so the claim is
-plausible. But Reg. § 1.6695-2(b)(3)(i) requires reasonable inquiries where a well-informed preparer
-would find the information incomplete, and here nothing establishes the relationship. The preparer must
-ask, be satisfied by the answer, and record both at the time. Filing on the bare assertion exposes the
-preparer to a separate penalty for each credit claimed on that return.
+plausible. But Reg. § 1.6695-2(b)(3)(i) requires {gloss:due-diligence} — reasonable inquiries where a
+well-informed preparer would find the information incomplete — and here nothing establishes the
+relationship. The preparer must ask, be satisfied by the answer, and record both at the time. Filing on
+the bare assertion exposes the preparer to a separate {gloss:preparer-penalty} for each credit claimed
+on that return.
 </div>
 
 <div class="callout trap">

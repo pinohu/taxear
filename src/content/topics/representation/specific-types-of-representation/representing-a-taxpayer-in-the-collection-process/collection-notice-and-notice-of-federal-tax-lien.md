@@ -20,9 +20,24 @@ forms: ["12153", "9423"]
 related: ["3.3.1.e", "3.3.1.j", "3.3.1.d", "3.3.1.m", "3.3.1.p", "3.2.3.d"]
 changelog:
   - { date: "2026-08-18", summary: "Initial publication from IRC §§ 6321, 6322, 6323, 6325, 6320 and 6331(d)." }
+  - { date: "2026-08-25", summary: "Added a plain-language summary, a timeline diagram of the notice-to-exit sequence, glossary marks, and a fifth typed scenario." }
+diagram:
+  archetype: "timeline"
+  caption: "From lien to notice to exit: the sequence and the CDP window it opens"
+  events:
+    - { when: "At assessment, after neglect or refusal to pay following demand", what: "The lien arises automatically — no filing needed" }
+    - { when: "IRS files a Notice of Federal Tax Lien", what: "Priority against purchasers, secured creditors, mechanic's lienors, and judgment creditors" }
+    - { when: "Within 5 business days of filing", what: "IRS must notify the taxpayer of the filing" }
+    - { when: "The 30 days after that", what: "Taxpayer's window to request a CDP hearing" }
+    - { when: "Any time after filing", what: "Taxpayer may seek discharge, subordination, or withdrawal" }
+    - { when: "Once the liability is satisfied or unenforceable", what: "IRS must issue a certificate of release" }
 ---
 
-The lien and the notice of lien are two different things, and almost every practical error in this area comes from treating them as one. The lien arises by operation of law the moment an assessment goes unpaid after demand. Filing a notice of it changes nothing between the taxpayer and the government — it changes the government's position against third parties, and it is what gives the taxpayer a hearing right.
+<div class="plain-terms">
+A tax lien is the government's automatic legal claim on everything you own, once you owe tax and don't pay after being asked. Filing a public notice of that lien is a separate step. This applies to anyone who owes back taxes, not just people facing an audit or a lawsuit. The lien itself changes nothing between you and the IRS — you owe what you owe either way. Filing the notice changes something else. It warns other people, like buyers and lenders, that the IRS has a claim ahead of them, and it gives you the right to ask for a hearing. This page explains what the notice does, and the different ways to get it removed, limited, or moved out of the way.
+</div>
+
+The {gloss:lien} and the {gloss:notice-of-federal-tax-lien} are two different things, and almost every practical error in this area comes from treating them as one. The lien arises by operation of law the moment an assessment goes unpaid after demand. Filing a notice of it changes nothing between the taxpayer and the government — it changes the government's position against third parties, and it is what gives the taxpayer a hearing right.
 
 ## The rule
 
@@ -62,19 +77,31 @@ The distinction that matters to a client is that **the lien already exists**. A 
 
 The refiling rule is a quiet trap on old liabilities. A notice not refiled in its window keeps the lien alive but **loses its priority date**, so an intervening purchaser or lender may outrank it. On a file older than ten years the refiling history is worth checking before advising a client that the government stands first.
 
-<div class="scenario">
+<div class="scenario" data-type="procedural">
 <h3>The sale that could not close</h3>
 <p>A client under a filed notice of lien has a buyer for her house. The equity after the mortgage is $40,000 and the tax liability is $180,000. Her agent tells her the sale is impossible until the lien is released.</p>
 <p><em>Analysis.</em> The agent has the wrong remedy. Release under § 6325(a) requires the liability to be satisfied or unenforceable, which it is not. What the transaction needs is a <strong>discharge of the specific property</strong> under § 6325(b), which removes the house from the lien while leaving the lien on everything else. The government typically takes the net equity from the closing. The sale can proceed; asking for the wrong certificate is what stops it.</p>
 </div>
 
-<div class="scenario">
+<div class="scenario" data-type="baseline">
 <h3>The notice that should not have been filed</h3>
-<p>A taxpayer entered an installment agreement in March. In May, a notice of federal tax lien is filed against him because a systemic filing criterion was met. His agreement is current and he is meeting every payment.</p>
-<p><em>Analysis.</em> Section 6323(j)(1)(B) makes entry into a § 6159 installment agreement an express ground for <strong>withdrawal</strong> of the notice, unless the agreement provides otherwise. Withdrawal means the chapter applies as if the notice had never been filed — better than release. On written request the IRS must make reasonable efforts to notify credit reporting agencies (§ 6323(j)(2)), which is the point of the exercise for most clients.</p>
+<p>A taxpayer entered an {gloss:installment-agreement} in March. In May, a notice of federal tax lien is filed against him because a systemic filing criterion was met. His agreement is current and he is meeting every payment.</p>
+<p><em>Analysis.</em> Section 6323(j)(1)(B) makes entry into a § 6159 installment agreement an express ground for <strong>withdrawal</strong> of the notice, unless the agreement provides otherwise. Withdrawal means the chapter applies as if the notice had never been filed — better than release. On written request the IRS must make reasonable efforts to notify credit reporting agencies (§ 6323(j)(2)), which is the point of the exercise for most clients. This is the rule working exactly as designed: the statutory ground is met, and the remedy follows automatically once it is invoked.</p>
 </div>
 
-<div class="scenario">
+<div class="scenario" data-type="fails">
+<h3>The withdrawal request with no ground</h3>
+<p>A taxpayer's notice of federal tax lien was filed correctly, in the right place, after proper notice. He has no installment agreement, is not proposing one, and simply dislikes the effect on his credit report. He asks his representative to request withdrawal.</p>
+<p><em>Analysis.</em> Withdrawal fails here. Section 6323(j)(1) requires one of four specific grounds — a premature or procedurally improper filing, an installment agreement under § 6159, a showing that withdrawal will facilitate collection, or consent from the taxpayer or the National Taxpayer Advocate that withdrawal serves both parties' best interests. Disliking the credit consequences is not one of them. If the liability cannot be paid or compromised, the more realistic path is proposing an installment agreement first, which then supplies the ground withdrawal actually needs.</p>
+</div>
+
+<div class="scenario" data-type="interaction">
+<h3>The buyer who took free of the lien</h3>
+<p>A notice of federal tax lien is filed against a taxpayer in January. In March, a broker sells securities the taxpayer owns to a buyer who has no actual knowledge of the lien and pays fair value through a recognized exchange.</p>
+<p><em>Analysis.</em> The filing does not help the government here. Section 6323(b)(1) is one of several superpriorities that survive even a properly filed notice: a purchaser of securities takes free of the lien if the purchase happens without actual notice or knowledge of it, regardless of the filing. The general rule in § 6323(a) — that filing defeats purchasers — has carved-out exceptions, and securities bought this way are one of them. A representative asked whether a sale can be unwound needs to check which superpriority might apply before assuming the filing controls.</p>
+</div>
+
+<div class="scenario" data-type="boundary">
 <h3>Counting the hearing window</h3>
 <p>A notice of federal tax lien is filed on Monday 6 April. The Letter 3172 is mailed on Thursday 9 April. The client brings it in on 20 May and asks whether he can still request a hearing.</p>
 <p><em>Analysis.</em> The window is not measured from the letter. Section 6320(a)(2) requires notice within five business days of filing, and § 6320(a)(3)(B) gives the right to request a hearing during the 30-day period <em>beginning the day after that five-business-day period</em>. From a Monday 6 April filing, the five business days close on 10 April and the 30 days run from 11 April to 10 May. A request on 20 May is out of time for CDP; an equivalent hearing may still be available, but Tax Court review is lost.</p>

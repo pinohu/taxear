@@ -18,9 +18,14 @@ forms: ["433-A", "433-B"]
 related: ["3.3.1.m", "3.3.1.b", "3.3.1.j", "3.3.1.p", "3.3.1.f", "3.3.1.a", "3.2.3.e", "3.2.3.a"]
 changelog:
   - { date: "2026-08-18", summary: "Initial publication from IRM 5.16.1 as revised 3 March 2025, IRC § 6343(e) and Reg. § 301.6343-1(b)(4)." }
+  - { date: "2026-08-25", summary: "Added a plain-language summary, glossary marks, and two typed scenarios. No diagram: the closing-code taxonomy and multi-condition compliance check read as a procedural enumeration rather than a linear decision or clock." }
 ---
 
-Currently not collectible is a status, not a settlement. The liability survives, interest and penalties continue to run, and — critically — **the collection statute keeps running too**. That last point is why CNC is sometimes the best outcome available to a client and sometimes a trap: on an old assessment it lets the clock finish, and on a fresh one it parks a growing balance for a decade.
+<div class="plain-terms">
+Currently not collectible is a status the IRS gives an account when a taxpayer truly cannot pay anything without losing basic living expenses. It pauses active collection, so levies stop for now. But it does not erase the debt. Interest and penalties keep adding up. And the clock on how long the IRS can collect keeps running the whole time. This status can help almost anyone who owes back taxes and has no ability to pay right now, whether from job loss, disability, or a slow business. What it decides is a pause, not a deal. Whether that pause helps or hurts depends on how much time is left before the debt would expire anyway.
+</div>
+
+Currently not collectible, or {gloss:currently-not-collectible}, is a status, not a settlement. The liability survives, interest and penalties continue to run, and — critically — **the collection statute keeps running too**. That last point is why CNC is sometimes the best outcome available to a client and sometimes a trap: on an old assessment it lets the clock finish, and on a fresh one it parks a growing balance for a decade.
 
 ## The rule
 
@@ -60,19 +65,31 @@ Currently not collectible is a status, not a settlement. The liability survives,
 
 **Reactivation is automatic in the cases that matter.** Hardship, unable to locate and unable to contact all reactivate systemically, so a client should be told plainly that the file will come back — on a new levy source for the location codes, on income for hardship. Presenting CNC as an ending, rather than a suspension with a trigger, sets up a client for an unpleasant letter.
 
-<div class="scenario">
+<div class="scenario" data-type="interaction">
 <h3>The date that made CNC the right answer</h3>
-<p>A client owes on a 2016 assessment made in March 2017. He is on disability, has no equity in anything, and cannot pay. The collection statute expiration date is March 2027.</p>
-<p><em>Analysis.</em> CNC on hardship grounds is the strongest available outcome. Section 6502 keeps running throughout, so if his circumstances do not improve the liability becomes uncollectible in March 2027 without a payment or an offer fee. An offer in compromise would cost money and, if it took a year to process, would suspend the collection period under § 6331(k)(3) and push the expiration date past the point where waiting would have worked.</p>
+<p>A client owes on a 2016 assessment made in March 2017. He is on disability, has no equity in anything, and cannot pay. The {gloss:csed} is March 2027.</p>
+<p><em>Analysis.</em> CNC on hardship grounds is the strongest available outcome. Section 6502 keeps running throughout, so if his circumstances do not improve the liability becomes uncollectible in March 2027 without a payment or an offer fee. An offer in compromise would cost money and, if it took a year to process, would suspend the collection period under § 6331(k)(3) and push the expiration date past the point where waiting would have worked. CNC and the collection statute work together here precisely because CNC leaves § 6502 alone.</p>
 </div>
 
-<div class="scenario">
+<div class="scenario" data-type="baseline">
+<h3>The straightforward hardship placement</h3>
+<p>A retired taxpayer owes $6,000 on an old balance. Her only income is Social Security, she has no equity in her home beyond an existing mortgage, and her allowable monthly expenses under the national and local standards exceed her income.</p>
+<p><em>Analysis.</em> This is hardship CNC working as designed. The Form 433-A shows income insufficient to make any payment without cutting into basic living expenses, she is an individual taxpayer so the hardship closing codes are open to her, and there is no ability-to-pay wrinkle to defeat the determination. The account is closed with a hardship closing code, active collection stops, and the file is diaried for the collection statute expiration date and a follow-up review.</p>
+</div>
+
+<div class="scenario" data-type="fails">
 <h3>The corporation that could not be in hardship</h3>
 <p>A small operating company owes payroll taxes, is current on its deposits, and genuinely cannot pay the arrears. Its accountant asks for hardship CNC.</p>
 <p><em>Analysis.</em> Wrong code. Hardship closing codes are restricted to individual and joint IMF assessments, sole proprietorships, partnerships where a general partner is personally liable, and LLCs where an individual owner is the liable taxpayer (IRM 5.16.1.2.9). A corporation in business, current, and unable to pay back taxes is closing code 13 — a different determination on different criteria. Asking for the wrong one invites a refusal that reads as a rejection of the facts.</p>
 </div>
 
-<div class="scenario">
+<div class="scenario" data-type="procedural">
+<h3>The unfiled returns that had to come first</h3>
+<p>A taxpayer with a genuine hardship has not filed the last two years of returns. His representative submits a Form 433-A asking for immediate CNC placement.</p>
+<p><em>Analysis.</em> The financial disclosure alone is not enough. IRM 5.16.1.2 treats open filing requirements and delinquent return modules as a condition that must generally be resolved before an account is reported CNC, with a documented compliance check where the taxpayer can be reached. The {gloss:collection-information-statement} establishes the hardship; it does not substitute for bringing the filings current. The practical sequence is to get the missing returns filed first, then submit the 433-A, rather than submitting both at once and hoping the gap is overlooked.</p>
+</div>
+
+<div class="scenario" data-type="timing">
 <h3>The client who thought it was over</h3>
 <p>A client is placed in hardship CNC in 2024. In 2026 she takes a much better job and, in 2027, receives a balance due notice with two more years of interest on it. She says she was told the debt was written off.</p>
 <p><em>Analysis.</em> Nothing was written off. Hardship cases reactivate systemically against income criteria (IRM 5.16.1.2), and interest and penalties accrued throughout. The representative's failure was at the outset: CNC should be explained as a suspension with a trigger and a running clock, together with the collection statute expiration date, so the client can decide whether to resolve the liability while the option is cheap.</p>

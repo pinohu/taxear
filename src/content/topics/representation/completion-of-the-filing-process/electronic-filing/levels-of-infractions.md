@@ -18,7 +18,18 @@ forms: []
 related: ["3.4.3.f", "3.4.3.g", "3.4.3.a"]
 changelog:
   - { date: "2026-08-19", summary: "Initial draft against Publication 3112 (Rev. 11-2025)." }
+  - { date: "2026-08-25", summary: "Added a plain-language summary, glossary marks, and typed scenarios." }
 ---
+
+<div class="plain-terms">
+The IRS grades e-file rule breaks by how much harm they do, not by which rule was broken.
+A small slip that barely matters is Level One. A slip that actually hurts return quality
+is Level Two. A serious problem, like fraud, is Level Three. This applies to tax
+preparers and firms holding an {gloss:efin}, not to ordinary taxpayers. The level decides
+the punishment: a written warning, a suspension of one or two years, or losing e-file
+access for good. Ignoring a small problem after the IRS flags it does not keep it small.
+It moves up a level each time, even if nothing about the actual conduct gets worse.
+</div>
 
 ## The rule
 
@@ -85,7 +96,7 @@ programme participation. The same conduct may also be disreputable conduct reach
 Professional Responsibility (Circular 230 § 10.51), and may separately support preparer penalties.
 None of these forums waits for the others.
 
-<div class="scenario">
+<div class="scenario" data-type="boundary">
 <h3>The reprimand that was filed and forgotten</h3>
 
 A firm receives a written reprimand for consistently omitting a required entry that causes rejects
@@ -99,7 +110,7 @@ in suspension for one or two years. Nothing about the conduct changed; the notic
 was not a filing to be archived, it was the last cheap opportunity to fix the process.
 </div>
 
-<div class="scenario">
+<div class="scenario" data-type="procedural">
 <h3>Immediate expulsion, and the argument that came too late</h3>
 
 An investigation concludes that a Responsible Official filed returns using stolen identities. The
@@ -112,7 +123,7 @@ the administrative review. The firm's arguments will be heard, but the EFIN will
 in the middle of a season, if that is when the determination lands.
 </div>
 
-<div class="scenario">
+<div class="scenario" data-type="interaction">
 <h3>One person, three firms</h3>
 
 Théodore Baptiste-Sørensen is a Responsible Official on his own practice's e-file application and,

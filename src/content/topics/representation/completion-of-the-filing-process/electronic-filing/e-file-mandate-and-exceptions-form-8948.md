@@ -20,6 +20,16 @@ changelog:
   - { date: "2026-08-18", summary: "Initial publication from IRC § 6011(e)(3), Reg. § 301.6011-7, Notice 2011-26 and Rev. Proc. 2011-25, each opened at source." }
 ---
 
+<div class="plain-terms">
+This rule is about tax preparers, not taxpayers. It does not force you to file your own
+return online. It forces a preparer who files many returns each year to send most of them
+to the IRS online, not on paper. You can still choose paper for your own return. You just
+sign a short, dated note saying so before it is filed. Preparers also get a few ways out.
+Some are automatic, like a glitch the software cannot fix. Others need a written request
+and a yes from the IRS first, before they count. A short form records which reason applies
+whenever paper is used instead.
+</div>
+
 The e-file mandate is a rule about preparers, not about taxpayers. Nothing in it obliges anyone to file their own return electronically. What it does is oblige a preparer above a volume threshold to transmit electronically any individual income tax return they both prepare and file — and then provide three quite different escapes, only one of which requires asking permission.
 
 ## The rule
@@ -63,19 +73,19 @@ An **undue hardship waiver** is the only route that requires an application, and
 
 One counting subtlety repays attention: waiver returns count toward the threshold, exempt returns do not. That is coherent — a waiver is relief for a preparer who *is* within the mandate, while an exemption removes the return from it — but it means the two are not interchangeable even where either would produce a paper filing.
 
-<div class="scenario">
+<div class="scenario" data-type="fails">
 <h3>The small firm that was not small</h3>
 <p>An enrolled agent prepares six individual returns a year. She is one of four preparers in a firm; between them the firm expects to file about thirty. She files all six on paper, reasoning that six is well under the threshold.</p>
 <p><em>Analysis.</em> Wrong test. Reg. § 301.6011-7(a)(3) aggregates the firm's members, and thirty is comfortably over ten, so she is a specified tax return preparer and each of her six returns is caught. Being a small part of a large firm does not help; the individual number is irrelevant once firm membership is in the picture.</p>
 </div>
 
-<div class="scenario">
+<div class="scenario" data-type="procedural">
 <h3>The signature obtained the following week</h3>
 <p>A client tells his preparer by telephone that he wants to file on paper and will mail it himself. The preparer, taking him at his word, prints the return and hands it over. The client changes his mind and asks the preparer to mail it. She does. A hand-signed statement arrives a week later.</p>
 <p><em>Analysis.</em> Two failures. Reg. § 301.6011-7(a)(4)(ii) requires the hand-signed, dated statement <em>on or prior to</em> the filing date, and it requires that the taxpayer, not the preparer, submit the return. The preparer mailed it, so under § 301.6011-7(a)(4)(i) she filed it, and a statement dated afterwards does not undo that. The return needed to be e-filed or to carry a Form 8948 reason.</p>
 </div>
 
-<div class="scenario">
+<div class="scenario" data-type="baseline">
 <h3>The reject that could not be cleared</h3>
 <p>A preparer attempts to e-file a return three times. Each attempt is rejected on a condition tied to a dependent's identifying number that the client cannot resolve before the deadline. The preparer files on paper.</p>
 <p><em>Analysis.</em> This is the Notice 2011-26 § B.1 administrative exemption — a return the preparer attempted to e-file, rejected, with a reject condition the preparer attempted but could not resolve. The exemption is automatic, so nothing is applied for, but Form 8948 still goes on the paper copy because the reason falls in paragraph B. A contemporaneous note of the reject code is what would demonstrate entitlement if the IRS asks.</p>

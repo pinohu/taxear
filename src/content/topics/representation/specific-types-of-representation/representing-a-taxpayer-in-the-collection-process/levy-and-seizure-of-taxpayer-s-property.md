@@ -21,9 +21,20 @@ forms: ["12153", "9423"]
 related: ["3.3.1.i", "3.3.1.e", "3.3.1.b", "3.3.1.m", "3.3.1.k", "3.3.1.n", "3.3.1.l"]
 changelog:
   - { date: "2026-08-18", summary: "Initial publication from IRC §§ 6331, 6334, 6335, 6337, 6343 and 6330, with § 6334 amounts from Rev. Proc. 2025-32." }
+  - { date: "2026-08-24", summary: "Added a plain-language summary, glossary marks, and typed scenarios." }
 ---
 
-A levy is not a lawsuit. It is an administrative seizure the IRS performs on its own authority, and the taxpayer's protection lies almost entirely in the notices that must precede it and in the grounds that require its release. Representation in this area is mostly a matter of knowing which clock is running and which statutory ground fits the client's facts.
+<div class="plain-terms">
+A levy is the IRS taking your money or property to pay a tax debt. No lawsuit and no judge are
+needed first. It affects a taxpayer who owes tax and has not paid after being warned. It does not
+affect someone whose debt is already being paid off through an agreement, or someone the IRS has
+agreed not to collect from for now. A levy decides what the IRS can take, such as wages or a bank
+balance, and what it cannot touch, such as basic tools of a trade or a small amount of household
+goods. It also decides when the IRS must let go — there are set reasons it must release a levy,
+such as real financial hardship.
+</div>
+
+A {gloss:levy} is not a lawsuit. It is an administrative seizure the IRS performs on its own authority, and the taxpayer's protection lies almost entirely in the notices that must precede it and in the grounds that require its release. Representation in this area is mostly a matter of knowing which clock is running and which statutory ground fits the client's facts.
 
 ## The rule
 
@@ -67,22 +78,40 @@ The **continuous** nature of a wage levy is the single most consequential differ
 
 The principal residence protection is stronger than practitioners expect. Only a **federal district court judge or magistrate** can authorise that levy, and the district courts have exclusive jurisdiction. Business property is a lower bar — personal written approval by a district or assistant district director, on a finding that other assets are insufficient — but it is still an approval requirement, not a formality.
 
-<div class="scenario">
+<div class="scenario" data-type="baseline">
 <h3>The wage levy that would not stop</h3>
 <p>A bank levy in March took $900 and the client heard nothing further. A wage levy served in June is still taking part of every paycheque in October. She asks why the second one has not expired like the first.</p>
 <p><em>Analysis.</em> They are different instruments. Under § 6331(b) an ordinary levy reaches only property possessed and obligations existing at the time, so the bank levy took the balance and ended. Section 6331(e) makes a levy on salary or wages <strong>continuous from the date first made until released under § 6343</strong>. Waiting will not end it; a release ground must be established — most often economic hardship under § 6343(a)(1)(D), or entry into an installment agreement under (a)(1)(C).</p>
 </div>
 
-<div class="scenario">
+<div class="scenario" data-type="boundary">
 <h3>Thirty days that were not counted</h3>
-<p>A client's installment agreement request is rejected on 4 May. He is unhappy but does nothing, intending to submit a better proposal in the autumn. On 12 June a levy is served on his bank account.</p>
+<p>A client's {gloss:installment-agreement} request is rejected on 4 May. He is unhappy but does nothing, intending to submit a better proposal in the autumn. On 12 June a levy is served on his bank account.</p>
 <p><em>Analysis.</em> The § 6331(k)(2) protection ran while the request was pending and for 30 days after rejection — to 3 June — and would have continued through an appeal filed within those 30 days. No appeal was filed, so the shield lapsed and the levy is lawful. The lesson is procedural rather than substantive: the thirty days after rejection are the whole of the remaining protection, and using them costs only a filing.</p>
 </div>
 
-<div class="scenario">
+<div class="scenario" data-type="procedural">
 <h3>The house the revenue officer could not take</h3>
 <p>A revenue officer tells a client that his home will be seized if the balance is not paid within the month. The client owes $220,000 and the house is his principal residence.</p>
 <p><em>Analysis.</em> Not on the officer's authority. Section 6334(a)(13)(B) exempts a principal residence from levy, and § 6334(e)(1) lifts the exemption only where a <strong>judge or magistrate of a United States district court approves the levy in writing</strong>, with the district courts holding exclusive jurisdiction. That is a proceeding, not an internal approval. The statement as made overstates what the IRS can do administratively, and the representative should say so and turn the conversation to alternatives under § 6331(k).</p>
+</div>
+
+<div class="scenario" data-type="interaction">
+<h3>The levy that should have waited</h3>
+<p>A revenue officer levies a client's bank account on 14 April. The client's {gloss:offer-in-compromise}, submitted on 2 April, is still under review by the offer unit.</p>
+<p><em>Analysis.</em> Section 6331(k)(1) bars levy while an offer in compromise is pending, and for 30 days after rejection plus any timely appeal. Nothing in the levy statute itself flags this — the bar comes from the offer-in-compromise rules colliding with the levy power, not from anything in § 6331 read alone. The levy should not have issued, and the proceeds are generally returned once the pending offer is confirmed.</p>
+</div>
+
+<div class="scenario" data-type="fails">
+<h3>Exemption claimed, exemption capped</h3>
+<p>A self-employed carpenter claims his full set of power tools is exempt from levy under the books-and-tools exemption. The tools are worth $9,500 at resale value.</p>
+<p><em>Analysis.</em> Section 6334(a)(3) exempts books and tools of a trade only up to {fig:levy.exempt.tools}. The claim does not fail outright — it protects the tools up to that amount — but the value above the cap remains reachable by levy. A taxpayer expecting the whole toolkit to be untouchable is only partly right, and the shortfall is exactly the excess over the statutory figure.</p>
+</div>
+
+<div class="scenario" data-type="timing">
+<h3>The same shop, a different year's cap</h3>
+<p>A mechanic's tools were worth $5,200 several years ago, when a levy first threatened them, and are worth the same $5,200 today, when a new levy does. The books-and-tools exemption back then sat below that figure; the current figure sits above it.</p>
+<p><em>Analysis.</em> Section 6334(g) indexes the § 6334(a) exemption amounts annually, rounded to the nearest ten dollars. The same toolkit that was only partly protected under an earlier year's figure is fully exempt under today's {fig:levy.exempt.tools} — nothing about the tools changed, only the year did. A practitioner reviewing an old file should re-check the current figure before assuming a prior exemption analysis still holds.</p>
 </div>
 
 <div class="callout trap"><h4>Traps</h4>

@@ -17,7 +17,24 @@ forms: []
 related: ["3.4.3.d", "3.4.3.a", "3.2.6.i", "3.4.3.h", "3.4.1.b"]
 changelog:
   - { date: "2026-08-19", summary: "Initial draft against Publications 1345 (Rev. 12-2025) and 4163." }
+  - { date: "2026-08-25", summary: "Added a plain-language summary, glossary marks, two typed scenarios, and a timeline diagram of the perfection-period sequence." }
+diagram:
+  archetype: "timeline"
+  caption: "From reject to resolution: the perfection-period clock"
+  events:
+    - { when: "Due date", what: "Return transmitted and rejected the same day — a rejected return is not filed" }
+    - { when: "+5 calendar days", what: "Individual e-file deadline: resubmit electronically and keep the original filing date" }
+    - { when: "+10 calendar days after the last rejection notice", what: "Paper fallback deadline for individual and business returns, or the due date with extensions if later" }
 ---
+
+<div class="plain-terms">
+When you e-file a tax return, the IRS reviews it right away and either accepts it or rejects it. A
+rejected return is treated as not filed at all, even though you sent it on time. This matters to
+anyone who e-files their own return, not only tax preparers. A paper return does not go through this
+same accept-or-reject step. What this page decides is how much time you get to fix a rejected return
+and resend it before it counts as late, what to do if you cannot fix it and must mail a paper copy
+instead, and why a missing identity PIN is one of the most common reasons a return bounces back.
+</div>
 
 ## The rule
 
@@ -112,7 +129,7 @@ retransmitted without new signatures or authorisations only where the changes st
 thresholds in the figures table. Cross that line and the taxpayer must sign a new declaration before
 the corrected return goes out.
 
-<div class="scenario">
+<div class="scenario" data-type="baseline">
 <h3>Two days after the deadline</h3>
 
 Ignatius Warmerdam's return is transmitted on 14 April and rejects the same evening on a dependent
@@ -125,7 +142,7 @@ from the due date, not from when the office next opened the file, and a resubmis
 day is late even if the reject was the IRS's doing.
 </div>
 
-<div class="scenario">
+<div class="scenario" data-type="procedural">
 <h3>The corporation that could not be perfected</h3>
 
 Perpetual Ironworks, a corporation required to e-file, rejects on a schema error its software vendor
@@ -140,11 +157,12 @@ the red "REJECTED ELECTRONIC RETURN" annotation with the date of the first rejec
 signature — the PIN from the rejected return cannot be reused.
 </div>
 
-<div class="scenario">
+<div class="scenario" data-type="timing">
 <h3>The IP PIN nobody asked for</h3>
 
-Rosalinde Achterberg was an identity theft victim three years ago. Her return rejects. Her preparer,
-knowing the history, tells her the IP PIN programme "ran for three years and must have ended."
+Rosalinde Achterberg was a confirmed {gloss:identity-theft} victim three years ago. Her return
+rejects. Her preparer, knowing the history, tells her the IP PIN programme "ran for three years and
+must have ended."
 
 It did not. An IP PIN is valid for one calendar year and a new one is generated each year for the
 account, with no fixed end. Achterberg was enrolled as a confirmed victim, so a CP01A notice with
@@ -152,6 +170,34 @@ the current year's number was mailed to her; she can also view it in her online 
 months it is posted. The reject is a missing IP PIN, the fix is to obtain the current one and enter
 it, and the return will then transmit. Telling her the programme expired would have sent her to a
 paper return that would itself be delayed for verification.
+</div>
+
+<div class="scenario" data-type="boundary">
+<h3>The fifth day, and the sixth</h3>
+
+Two individual returns reject the same evening they are transmitted on the due date. The first
+{gloss:ero} resubmits the fix on the fifth calendar day after the due date; the second resubmits on
+the sixth.
+
+The first keeps its original filing date — corrected and resubmitted inside the window. The second
+missed it by one day and is late, unless a paper return goes out under the separate, later
+paper-fallback deadline. The window runs in whole calendar days from the due date, not from when the
+office notices the reject.
+</div>
+
+<div class="scenario" data-type="interaction">
+<h3>The dependent someone else already claimed</h3>
+
+A mother e-files claiming her son. The return rejects: the same Social Security number was already
+claimed on another return, filed by the child's non-custodial father. She is certain her claim is
+correct.
+
+Before the rule changed, this reject was close to final — the software cannot adjudicate whose claim
+is right, so a duplicate dependent claim was simply rejected, leaving paper as the only path. Since
+2024, the IRS accepts it if the primary taxpayer includes a valid IP PIN. She enters hers and
+retransmits; the return is accepted, with who may actually claim the child left for a separate
+process. An identity-check built for one problem — a stolen identity — now also resolves a different
+one: two genuine taxpayers claiming the same dependent in good faith.
 </div>
 
 <div class="callout trap">
