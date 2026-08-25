@@ -30,6 +30,15 @@ changelog:
   - { date: "2026-08-19", summary: "Initial draft. Records the IRC § 129(a)(2)(A) increase to the dependent care exclusion, the permanent IRC § 127(c)(1)(B) student loan payment exclusion with indexing from 2027, and the permanent IRC § 217(k) moving expense suspension with its new intelligence community exception." }
 ---
 
+<div class="plain-terms">
+This page covers two ways the tax law shrinks what counts as your income. The first is an exclusion:
+money you get that never counts as income at all. The second is an adjustment: money you can subtract
+even if you don't itemize. Almost everyone is affected, since these rules touch common things like
+self-employed people's taxes, retirement savings, and health insurance. But each rule has its own test,
+so not everyone gets every write-off. This page decides which items make that list, and which ones,
+like most moving costs, no longer count.
+</div>
+
 Two different machines operate between what a taxpayer receives and what appears on the tax return,
 and the interview has to keep them apart. An **exclusion** keeps an amount out of gross income
 altogether, so it never appears. An **adjustment** is a deduction that IRC § 62(a) names, taken from
@@ -131,7 +140,7 @@ For a client abroad the § 911 exclusion is elective and interacts with the fore
 a decision rather than a default — and the housing cost amount is not the rent paid but housing
 expenses above a floor, subject to a ceiling, both computed daily across the qualifying period.
 
-<div class="scenario">
+<div class="scenario" data-type="fails">
 <h3>The eligibility that cost the deduction</h3>
 
 Marta is a sole proprietor and pays $9,800 for a marketplace health policy covering herself and her
@@ -145,14 +154,15 @@ is the test — declining the offer does not restore the deduction.
 
 Two follow-ups. The denial is monthly, so if the offer only ran from September the earlier months
 still qualify. And premiums that fail § 162(l) are not lost: they become medical expenses for the
-itemized deduction, subject to the adjusted gross income floor.
+itemized deduction, subject to the {gloss:adjusted-gross-income} floor.
 </div>
 
-<div class="scenario">
+<div class="scenario" data-type="interaction">
 <h3>One spouse covered at work, the other not</h3>
 
-Ben and Alice file jointly with modified adjusted gross income of $196,000. Alice is covered by a
-retirement plan at work. Ben is not, and wants to make a deductible traditional IRA contribution.
+Ben and Alice are {gloss:married-filing-jointly} taxpayers with modified adjusted gross income of
+$196,000. Alice is covered by a retirement plan at work. Ben is not, and wants to make a deductible
+traditional IRA contribution.
 
 Ben's contribution is fully deductible. Where the contributing spouse is **not** an active participant
 but the other spouse is, IRC § 219(g)(7) applies its own, much higher phase-out range, and $196,000 is
@@ -165,7 +175,7 @@ the other. The intake question that finds this is not about income; it is "which
 work".
 </div>
 
-<div class="scenario">
+<div class="scenario" data-type="boundary">
 <h3>The teacher who spent more than the cap</h3>
 
 Priya teaches grade 4, worked the whole school year, and spent $1,150 of her own money on classroom
@@ -176,8 +186,36 @@ is allowed only to the extent expenses exceed amounts excludable from gross inco
 base is $950. The § 62(a)(2)(D) deduction is then capped at the indexed amount, which she exceeds.
 
 What happens to the rest changed for 2026. Educator expenses are now excluded from the definition of
-miscellaneous itemized deductions (IRC § 67(b)(13)), so the excess above the cap is an itemized
-deduction rather than a disallowed one — available to her only if she itemizes, but no longer dead.
+miscellaneous itemized deductions (IRC § 67(b)(13)), so the excess above the cap is an
+{gloss:itemized-deduction} rather than a disallowed one — available to her only if she itemizes, but
+no longer dead.
+</div>
+
+<div class="scenario" data-type="baseline">
+<h3>The straightforward foreign earned income exclusion</h3>
+
+Devon has lived and worked in Lisbon for the entire tax year, keeps no fixed date to return home, and
+earns a modest salary from a local employer, comfortably inside the annual
+{gloss:foreign-earned-income-exclusion}.
+
+Devon qualifies as a bona fide resident of a foreign country for the full year, so IRC § 911(a) lets
+him exclude the salary from gross income entirely — it never reaches the return as income at all. This
+is the exclusion side working exactly as designed: no adjustment computation, no phase-out, just wages
+removed from gross income before anything else happens. A housing cost exclusion is available too if
+his employer pays for housing, but that is a separate, smaller calculation layered on top.
+</div>
+
+<div class="scenario" data-type="timing">
+<h3>The same alimony, two different years</h3>
+
+Two couples divorce on materially identical terms: one signs the divorce instrument in 2018, the other
+in 2020. Both agreements require the higher earner to pay $2,000 a month to the lower earner.
+
+The 2018 instrument keeps the old regime: the payer deducts the payments as an adjustment, and the
+recipient reports them as income. The 2020 instrument gets neither result — Pub. L. 115-97
+§ 11051(b)(2)(A) repealed former § 62(a)(10) for any instrument executed after 2018, so the payer has
+no deduction and the recipient has nothing to include. Same facts, same dollar amount, two
+irreconcilable answers, and the only variable is the date on the instrument.
 </div>
 
 <div class="callout trap">

@@ -28,7 +28,18 @@ forms: []
 related: ["1.1.1.o", "1.1.1.k", "1.1.1.d", "1.1.1.n"]
 changelog:
   - { date: "2026-08-19", summary: "Initial draft. Sets out the IRC § 6019 gift return trigger, the IRC § 3510 treatment of domestic service employment taxes as estimated tax, and the penalty structures under IRC §§ 6038, 6677 and 6721." }
+  - { date: "2026-08-25", summary: "Added a plain-language summary, glossary marks, and typed scenarios." }
 ---
+
+<div class="plain-terms">
+Filing your regular tax return is not always the end of it. Some events trigger extra paperwork that
+has nothing to do with income. This page covers three of them: giving someone a large gift, paying a
+household worker in cash, and having money tied to another country. Each one runs on its own schedule
+and carries its own penalty for missing it. These rules can catch ordinary people, not just businesses.
+A parent who adds a child to a house deed, a family with a nanny, or someone who inherits money from
+abroad can all be caught. Extra filings can be required even when no extra tax is owed. What this page
+decides is whether a filing is required at all, apart from whether any tax is due.
+</div>
 
 The individual income tax return is often not the only filing a client owes for the year, and the other
 filings are the ones that go wrong. They have separate deadlines, separate penalties, and — the reason
@@ -95,7 +106,7 @@ because adding an adult child to a deed or a brokerage account is a transfer cli
 gift. "Do you have any interest in a business, trust or account outside the United States, however
 small" finds the international group.
 
-For a household employee the sequence is: determine employee status first, then test the cash wage
+For a {gloss:household-employee} the sequence is: determine employee status first, then test the cash wage
 threshold for social security and Medicare, then test the quarterly threshold for unemployment tax
 separately, because the two use different measures and one can apply without the other. Then, because of
 § 3510(b)(1), revisit the client's estimated tax position for the year — this is the step most often
@@ -103,14 +114,14 @@ skipped, and it converts a payroll question into a penalty on the income tax ret
 
 For gifts, decide the filing question before the valuation question. Whether a return is due is settled
 by § 6019 and turns on the character of the transfer; how much tax is due, if any, comes afterwards.
-Gift-splitting between spouses is itself a reason to file, because the election is made on the return.
+{gloss:gift-splitting} between spouses is itself a reason to file, because the election is made on the return.
 
 For the international returns, the working rule is that the penalties are not proportionate to the tax,
 so a client with a small foreign interest and no foreign income can still face a substantial exposure.
 Where a foreign trust is involved the § 6677 percentage makes early advice worth more than anything you
 will do on the Form 1040 itself.
 
-<div class="scenario">
+<div class="scenario" data-type="baseline">
 <h3>The name added to the deed</h3>
 
 Lorena added her adult son as a joint owner of her home in March. She describes it as estate planning,
@@ -121,12 +132,26 @@ transfer by gift, subject only to the listed exceptions, and a transfer of an in
 worth far more than the annual exclusion is not within them. That no tax is due is beside the point —
 the exclusion is applied on the return, not instead of it.
 
-The follow-up is about basis rather than filing. What the son receives by gift takes a carryover basis
-rather than the stepped-up basis he would have taken at her death, so the transfer she made to simplify
+The follow-up is about basis rather than filing. What the son receives by gift takes a {gloss:carryover-basis}
+rather than the {gloss:step-up-in-basis} he would have taken at her death, so the transfer she made to simplify
 her estate may have cost him more than it saved.
 </div>
 
-<div class="scenario">
+<div class="scenario" data-type="boundary">
+<h3>The gift exactly at the exclusion</h3>
+
+A father gives his daughter cash during the year — a present interest, and his only gift to her —
+equal to exactly the annual exclusion amount. He wonders whether he is close enough to the line that
+he should file anyway.
+
+Nothing has to be filed. Section 2503(b) excludes the first {fig:gift.annual_exclusion} given to any
+one person as a present interest, and a gift of exactly that amount leaves nothing left over for § 6019
+to reach. Had he given one dollar more, the excess would have exceeded the exclusion, and a return
+would have been required to report it — whatever the resulting tax turned out to be, which here would
+still be nothing.
+</div>
+
+<div class="scenario" data-type="interaction">
 <h3>The nanny and the underpayment</h3>
 
 Ravi and Simone paid a nanny $22,000 in cash wages during the year. They have no other employees, both
@@ -144,7 +169,7 @@ rest of the year is the cheapest fix, because IRC § 6654(g)(1) spreads the § 3
 installment dates.
 </div>
 
-<div class="scenario">
+<div class="scenario" data-type="procedural">
 <h3>The inheritance from abroad</h3>
 
 Bruno, a United States citizen, received the equivalent of $340,000 from his late aunt's estate in

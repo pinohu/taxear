@@ -21,6 +21,17 @@ changelog:
   - { date: "2026-08-19", summary: "Initial draft. Records that Pub. L. 119-21 § 70104(b) rewrote IRC § 24(h)(7) to require the taxpayer's own social security number in addition to the child's." }
 ---
 
+<div class="plain-terms">
+This page is about the basic facts a tax preparer gathers before touching the numbers:
+name, birth date, marital status, address, and ID numbers for the taxpayer and each
+dependent. It affects every filer, because these facts decide which credits and rules
+apply. It does not set the tax bill by itself. But a missing or wrong number can block a
+credit, even when the family should qualify for it. A missing social security number can
+wipe out a child tax credit or an earned income credit on its own. Some steps, like
+checking a photo ID, are good habits, not strict rules. This page sorts out what the law
+truly requires, what is just wise practice, and which numbers unlock which benefits.
+</div>
+
 ## The rule
 
 Biographical intake is not clerical work. Each fact collected decides something: date of birth drives
@@ -100,12 +111,12 @@ test. A birthday falling on 1 January is the classic trap: a person is treated a
 on the day before their birthday, so someone born on 1 January is 65 for a year in which their
 birthday falls on the first day of the following one.
 
-<div class="scenario">
+<div class="scenario" data-type="baseline">
 <h3>The card that was never produced</h3>
 
 A long-standing client telephones her figures through and gives her new grandson's social security
-number verbally so that he can be claimed as a dependent. The preparer hesitates, believing the card
-must be seen.
+number verbally so that he can be claimed as a {gloss:dependent}. The preparer hesitates, believing the
+card must be seen.
 
 The Code requires the number on the return, not the card in the file. Section 6109 obliges the
 taxpayer to furnish the number and the preparer to include it; § 151(e) denies the claim if it is
@@ -116,21 +127,21 @@ legal condition. The practical answer is to ask for a copy because transcription
 returns, while being clear that the requirement is accuracy, not documentation.
 </div>
 
-<div class="scenario">
+<div class="scenario" data-type="fails">
 <h3>The ITIN that could not carry the credit</h3>
 
 Esperanza Villanueva-Achebe files with an ITIN and claims her two children, who each hold an ITIN as
-well. She expects the child tax credit.
+well. She expects the {gloss:child-tax-credit}.
 
 The dependency claims are fine — an ITIN is a valid identifying number for that purpose. The credit is
 not. Section 24(h)(7) requires the **social security number** of the qualifying child, and since the
 2025 amendment it also requires the taxpayer's own social security number, or that of at least one
-spouse on a joint return. ITINs satisfy neither leg. The same result follows for the earned income
-credit under § 32(m). This has to be explained at intake, because the alternative is a client who
-budgets around a refund that will not arrive.
+spouse on a joint return. ITINs satisfy neither leg. The same result follows for the
+{gloss:earned-income-tax-credit} under § 32(m). This has to be explained at intake, because the
+alternative is a client who budgets around a refund that will not arrive.
 </div>
 
-<div class="scenario">
+<div class="scenario" data-type="timing">
 <h3>The number that arrived in June</h3>
 
 Kwabena Lindqvist-Osei's daughter's social security number was applied for late and issued in June,
@@ -143,6 +154,34 @@ date for this purpose. The number is valid going forward, so the following year 
 practitioner learns of a pending application before the due date, the advice is about the application
 timeline rather than about the return — which is why this is an intake question, not a filing-season
 one.
+</div>
+
+<div class="scenario" data-type="interaction">
+<h3>The IP PIN that let the return through</h3>
+
+A father e-files claiming his son as a dependent. The return rejects: someone else's return already
+claimed the same child's identifying number this year, sometimes a sign of {gloss:identity-theft} and
+sometimes just an ex-spouse filing first.
+
+Ordinarily a second e-filed return claiming an already-claimed dependent cannot go through electronically
+at all, and the taxpayer has to paper file and wait. A recent change lets the IRS accept the e-filed
+return anyway if the primary taxpayer includes a valid IP PIN. The IP PIN does not decide who actually
+gets to claim the child — that dispute is resolved separately, on the merits — but it lets the return of
+whoever includes it process electronically instead of forcing a paper return and the much longer wait
+that comes with one.
+</div>
+
+<div class="scenario" data-type="boundary">
+<h3>The number issued on the due date itself</h3>
+
+A qualifying child's social security number is issued on April 15, the same calendar day the parents'
+return for that year is due. They want to claim the earned income credit.
+
+Section 32(m) draws the line at a number issued on or before the due date for filing the return for the
+taxable year, and that boundary includes the due date itself, not only the days before it. A number
+issued on April 15 clears the test; one issued on April 16 would not, even though the practical
+difference is a single day. The rule rewards an application that lands early enough for the number to
+exist no later than filing day, not one that merely arrives close to it.
 </div>
 
 <div class="callout trap">

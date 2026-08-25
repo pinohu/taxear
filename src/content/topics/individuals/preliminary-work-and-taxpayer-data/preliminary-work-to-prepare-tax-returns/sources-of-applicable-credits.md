@@ -29,7 +29,28 @@ forms: []
 related: ["1.1.1.k", "1.1.1.i", "1.1.1.h", "1.1.1.q", "1.3.2.a", "1.3.2.b", "1.3.2.c", "1.3.2.d", "1.3.2.f", "1.3.2.g", "1.3.2.h", "1.4.1.a"]
 changelog:
   - { date: "2026-08-19", summary: "Initial draft. Records the IRC § 21(a)(2) rewrite creating a two-tier applicable percentage from 2026, the new IRC § 25A(g)(1) social security number requirement for education credits, the partly refundable adoption credit under IRC § 23(a)(4), and the termination of the IRC § 25C, § 25D and § 30D credits." }
+  - { date: "2026-08-25", summary: "Added a plain-language summary, a threshold diagram of the 2026 child and dependent care percentage step-downs, glossary marks, and a baseline scenario." }
+diagram:
+  archetype: "threshold"
+  caption: "The child and dependent care percentage: two step-downs, not one"
+  min: 0
+  max: 50
+  marks:
+    - { figureKey: "dcc.applicable_percentage", value: 50, label: "50% at the lowest incomes" }
+    - { figureKey: "dcc.applicable_percentage", value: 35, label: "floor after the first step-down" }
+    - { figureKey: "dcc.applicable_percentage", value: 20, label: "floor after the second step-down", emphasis: true }
 ---
+
+<div class="plain-terms">
+Tax credits are amounts that cut your tax bill directly, not just your income. This page is about
+finding those credits during an interview, since no form lists them for you. You ask questions
+instead. Who lives with you? Who paid for child care? Is anyone in school? Did you pay tax to another
+country? Did you save for retirement, or adopt a child? These credits touch parents, students, savers,
+and people with foreign income. They do little for a taxpayer with none of those things. What matters
+most is where each credit sits in the tax code. That spot decides whether the credit can still lower
+your tax below zero and come back as part of a refund. Or it may only bring your tax down to zero and
+stop there.
+</div>
 
 Nothing arrives in the mail to tell you a client is entitled to a credit. Deductions have information
 returns behind them and income has payers behind it, but credits are found by asking — who lives with
@@ -122,7 +143,7 @@ claiming the child tax credit, the American Opportunity credit, the earned incom
 household status, treat the § 6695(g) due diligence file as part of the return rather than as
 paperwork about it.
 
-<div class="scenario">
+<div class="scenario" data-type="boundary">
 <h3>The child with no number in time</h3>
 
 Nadia has two children. The elder has a social security number. The younger was born abroad and her
@@ -131,14 +152,14 @@ application is still pending when the return is due; Nadia does not want to exte
 For the elder child the credit is available. For the younger, IRC § 24(h)(7) denies it — the section
 requires the child's social security number, issued **before the due date for the return**, and a
 pending application is not one. But the credit is not simply lost: IRC § 24(h)(4)(C) treats a
-qualifying child denied the credit by reason of paragraph (7) as a dependent to whom the $500 credit
-for other dependents applies.
+qualifying child denied the credit by reason of paragraph (7) as a dependent to whom the $500
+{gloss:credit-for-other-dependents} applies.
 
 The better answer is to extend. An extension moves the due date, and with it the deadline by which the
 number must have been issued, converting $500 into the full credit for that child.
 </div>
 
-<div class="scenario">
+<div class="scenario" data-type="timing">
 <h3>Two tiers where there used to be one</h3>
 
 Owen and Ruth file jointly with adjusted gross income of $168,000 and pay $9,400 to a day care centre
@@ -154,7 +175,7 @@ Run the same facts against the old single-tier percentage and the credit is smal
 that starts at 35 percent is describing 2025 or earlier.
 </div>
 
-<div class="scenario">
+<div class="scenario" data-type="fails">
 <h3>The ITIN filer and the tuition statement</h3>
 
 Hector files with an individual taxpayer identification number. His daughter, a citizen with a social
@@ -163,11 +184,22 @@ security number, is a first-year undergraduate, and he paid $4,600 of tuition.
 Before 2026 the identification requirement in IRC § 25A(g)(1) was satisfied by a taxpayer
 identification number, and an ITIN qualified. As rewritten by Pub. L. 119-21 § 70606(a), the paragraph
 requires **the individual's social security number**, and the change applies to taxable years
-beginning after 31 December 2025. Hector cannot claim either education credit for 2026.
+beginning after 31 December 2025. Hector cannot claim either {gloss:education-credit} for 2026.
 
 His daughter's own return is the place to look next. If she is not claimed as a dependent she may claim
 the credit herself against her own liability, though the refundable slice of the American Opportunity
 credit is unavailable to a student subject to the § 1(g) rules.
+</div>
+
+<div class="scenario" data-type="baseline">
+<h3>The straightforward two-child claim</h3>
+<p>Priya and Sam file jointly with adjusted gross income of $95,000, comfortably under the
+{gloss:child-tax-credit}'s phase-out threshold. They have two qualifying children, and both children's
+social security numbers were issued years ago, well before this year's due date.</p>
+<p><em>Analysis.</em> This is the credit working exactly as the statute intends. Neither the income
+phase-out nor the identification-number timing rule is in play, so each child produces the full
+per-child amount with no workaround needed. Most returns claiming this credit look exactly like this
+one — the exceptions above are memorable precisely because they are exceptions.</p>
 </div>
 
 <div class="callout trap">

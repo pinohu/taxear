@@ -22,6 +22,18 @@ changelog:
   - { date: "2026-08-19", summary: "Initial draft." }
 ---
 
+<div class="plain-terms">
+This page answers one question: does the IRS tax you on income from around the world, or
+only on income tied to the United States? A U.S. citizen is taxed on income from
+everywhere, no matter where they live. A non-citizen is taxed that way only if they count
+as a resident, based on a green card, enough days spent in the country, or a special
+first-year choice. Everyone else pays tax only on U.S.-connected income instead. This
+matters most for green card holders who move abroad, students and workers on visas, and
+anyone who splits a year between countries. It matters less for a citizen who never
+leaves. What this page decides is which test someone meets, when their status starts or
+ends, and which ID number they need if they do not qualify for a social security number.
+</div>
+
 ## The rule
 
 Citizenship and residency decide the most consequential question on any individual return: whether
@@ -105,7 +117,7 @@ The number exists precisely because the adoption is pending — once it is final
 SSN and notify the IRS, which deactivates the ATIN. Absent that notification the number deactivates
 automatically at two years, with a reminder at eighteen months.
 
-<div class="scenario">
+<div class="scenario" data-type="boundary">
 <h3>Counting to the minimum</h3>
 
 Anneliese Okonkwo-Batista was present in the United States for 90 days two years ago and 120 days
@@ -120,7 +132,7 @@ the test, because the current-year minimum of 31 days is a separate requirement 
 total cannot satisfy.
 </div>
 
-<div class="scenario">
+<div class="scenario" data-type="procedural">
 <h3>The green card holder who moved home</h3>
 
 Osvaldo Fitzwilliam-Adeyemi obtained a green card in 2019, moved back to his home country in 2023,
@@ -136,7 +148,7 @@ status ends. Doing that in 2026 does not undo 2024 and 2025. This is the most ex
 misunderstanding in this topic and it is entirely avoidable at the point the client leaves.
 </div>
 
-<div class="scenario">
+<div class="scenario" data-type="interaction">
 <h3>The graduate student who counted her days</h3>
 
 Priyanka Vasquez-Lindholm has been in the United States on a student visa for three years, present
@@ -148,6 +160,42 @@ count — which is why the exemption is worth checking before the arithmetic rat
 exemption is not indefinite and has its own conditions, so the analysis is about how long she has been
 present in that status and whether she continues to comply with its terms. Filing the wrong return
 here changes not just the rate but the entire scope of income reported.
+</div>
+
+<div class="scenario" data-type="baseline">
+<h3>The straightforward pending adoption</h3>
+
+A couple is partway through adopting a child born in the United States. The adoption isn't final, the
+birth parents won't provide the child's social security number, and the couple wants to claim the child
+as a {gloss:dependent} this year.
+
+This is exactly what an ATIN is for. Once the qualifications in the figures table are met, the IRS
+issues the temporary number, and the couple claims the child as a dependent with it — nothing further
+needed. Once the adoption is final, they get the child's own SSN and notify the IRS, retiring the ATIN.
+</div>
+
+<div class="scenario" data-type="fails">
+<h3>The visitor who never came close</h3>
+
+A businessman from abroad attends a twenty-day conference this year and was present eighteen days the
+year before. He holds no green card.
+
+He is a nonresident alien. The green card test fails outright. The substantial presence test fails too
+— the 31-day current-year condition alone rules it out, regardless of how large the weighted total from
+prior years might be. No first-year election helps without first meeting the substantial presence test
+in a later year. He is taxed only on U.S.-connected income, not on what he earns at home.
+</div>
+
+<div class="scenario" data-type="timing">
+<h3>The same year, two residency statuses</h3>
+
+Marek Ionescu-Whitfield arrives on a work visa on May 1 and stays daily through year-end, easily
+clearing the substantial presence test. He was barely present in the United States the year before.
+
+He meets the test for the year, but § 7701(b)(2)(A) makes him resident only from his residency starting
+date — his first day of presence in the qualifying year, here May 1. Months before that are a
+nonresident return; months after, a resident return — both within one tax year. Same person, same year,
+two filing postures split by a single date.
 </div>
 
 <div class="callout trap">

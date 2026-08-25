@@ -25,7 +25,19 @@ forms: []
 related: ["1.1.1.c", "1.1.1.g", "1.1.1.o", "1.1.1.a", "1.2.1.a", "1.2.1.b", "1.2.1.c", "1.2.1.d", "1.2.1.e", "1.2.1.f", "1.2.1.o", "1.2.2.j", "1.2.2.m"]
 changelog:
   - { date: "2026-08-19", summary: "Initial draft. Records the retroactive restoration of the IRC § 6050W(e) reporting threshold by Pub. L. 119-21 § 70432, the new IRC § 6051(a)(18) and (19) statement items, and the expiry of the IRC § 108(a)(1)(E) principal residence exclusion for discharges after 2025." }
+  - { date: "2026-08-25", summary: "Added a plain-language summary, glossary marks, and typed scenarios." }
 ---
+
+<div class="plain-terms">
+This page is about what counts as taxable income in the first place. It comes before any deductions
+or paperwork. The underlying rule reaches almost everything of value a person receives, from
+anywhere in the world. It affects anyone who received money, property, or services during the year —
+not just people who got a W-2. It does not decide how much tax is owed. It only decides what has to
+be counted as income to start with. Some things stay out entirely, like gifts and inheritances. Some
+things count only partly, like Social Security benefits. Others count in full and then get their own
+separate deduction, like tips and overtime pay. Getting no paper form from a bank or a payment app
+does not settle anything. Income can be fully taxable even when nobody sends a form documenting it.
+</div>
 
 Gross income means all income from whatever source derived. Everything else in this area is an
 exception to that sentence, and the exceptions live in named sections. That ordering is the whole
@@ -112,7 +124,7 @@ foreign employment, a foreign pension, rent on a property abroad, interest on a 
 § 1.1-1(b) makes all of it reportable for a citizen or resident alien regardless of where it arose or
 whether any information return exists.
 
-<div class="scenario">
+<div class="scenario" data-type="interaction">
 <h3>The tax-free fund that was not entirely tax-free</h3>
 
 Beatriz holds a state municipal bond fund and brings a statement showing $6,400 of interest. She
@@ -129,7 +141,7 @@ because other computations reference it — the § 86 formula for social securit
 figure that adds tax-exempt interest back in.
 </div>
 
-<div class="scenario">
+<div class="scenario" data-type="fails">
 <h3>The inheritance and the rent it produced</h3>
 
 Tomas inherited a duplex from his aunt in March. He collected $14,700 of rent for the rest of the
@@ -141,24 +153,66 @@ Section 102(b)(1) provides that subsection (a) does not exclude the income from 
 to in subsection (a), and rent is § 61(a)(5) income like any other rent.
 
 The intake follow-up is about basis rather than income: because the property came from a decedent,
-its basis and its depreciation start over, and getting that wrong costs more over the holding period
-than the first year's rent is worth.
+its {gloss:step-up-in-basis} means basis and depreciation start over, and getting that wrong costs
+more over the holding period than the first year's rent is worth.
 </div>
 
-<div class="scenario">
+<div class="scenario" data-type="boundary">
 <h3>The platform seller with no form</h3>
 
-Priya sold handmade goods through an online marketplace all year. Her gross receipts were $18,300
-across roughly 140 sales. No Form 1099-K arrived and she assumes that settles it.
+Priya sold handmade goods through an online marketplace all year. Her {gloss:gross-receipts} were
+$18,300 across roughly 140 sales. No Form 1099-K arrived and she assumes that settles it.
 
 It does not. IRC § 6050W(e) requires the settlement organization to report only where **both** the
 dollar threshold is exceeded **and** the transaction count is exceeded. She is under both, so the
 platform had no filing obligation — and that has no bearing on whether the receipts are income. They
 are gross income derived from business (IRC § 61(a)(2)), reportable in full on a Schedule C with her
-cost of goods and expenses against them.
+{gloss:cost-of-goods-sold} and expenses against them.
 
 Change one fact and the reporting flips without the tax changing at all: had she made 240 sales
 totalling $22,000, a Form 1099-K would have issued. The return is prepared the same way either way.
+</div>
+
+<div class="scenario" data-type="baseline">
+<h3>The foreign salary with no U.S. form at all</h3>
+
+Aviva, a U.S. citizen, spent all of 2026 living and working in Nairobi for a Kenyan company. She was
+paid entirely in Kenyan shillings into a local bank account and never received any U.S. tax form.
+
+None of that changes the reporting question. Reg. § 1.1-1(b) taxes a citizen on income from sources
+within or without the United States, and nothing conditions that on the payer being American or on a
+form being issued. Aviva's salary is gross income under IRC § 61(a)(1) exactly as if she had earned
+it in Ohio. Whether the foreign earned income exclusion and the foreign tax credit reduce what she
+ultimately owes is a separate computation that starts only after the income is reported — it is not
+a reason to leave it off the return.
+</div>
+
+<div class="scenario" data-type="timing">
+<h3>Same platform income, two different years, one tax answer</h3>
+
+Farid sold about $12,000 of goods online across 150 transactions in 2021, and sold almost exactly
+the same volume again in 2026.
+
+For 2021, the single lowered dollar threshold that Pub. L. 117-2 had written into § 6050W(e) would
+have required a Form 1099-K on those facts. For 2026, Pub. L. 119-21 restored the two-part
+dollar-and-count test retroactively, so no form issues at that same volume. The paperwork changed;
+the tax did not. Farid's $12,000 was gross income derived from business under § 61(a)(2) in both
+years, form or no form — the retroactive fix changes who has to tell the IRS about him, not whether
+he has to report the income himself.
+</div>
+
+<div class="scenario" data-type="procedural">
+<h3>The overtime pay that has to be added back before it can be taken off</h3>
+
+Denise's 2026 Form W-2 shows her qualified overtime compensation folded into Box 1 wages, and also
+broken out separately as the new statement item the wage form now carries.
+
+Treating that separately-labeled overtime as already excluded is the trap. It is compensation for
+services and is in gross income under § 61(a)(1) like the rest of her wages; the statement item only
+tells her preparer how much qualifies for the § 225 deduction. Her return has to include the full
+Box 1 figure in income first, and then claim the deduction as its own line — skipping the deduction
+taxes it twice over, and claiming it as an exclusion instead misstates any computation elsewhere on
+the return that references adjusted gross income.
 </div>
 
 <div class="callout trap">

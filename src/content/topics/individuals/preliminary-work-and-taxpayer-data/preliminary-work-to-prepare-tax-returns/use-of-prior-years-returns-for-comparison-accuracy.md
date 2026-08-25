@@ -23,6 +23,18 @@ changelog:
   - { date: "2026-08-19", summary: "Initial draft." }
 ---
 
+<div class="plain-terms">
+A prior tax return is not just an old file. It is a working tool for this year's return.
+It carries forward numbers that this year's paperwork alone will never show, like a loss
+or credit still being used up over several years. It also works like a checklist: comparing
+this year to last year catches things that quietly vanished, such as a closed account or a
+deduction that disappeared. It matters most for anyone with carryovers, past losses, or
+choices made in an earlier year that must stay consistent now. It matters less for a
+simple return that starts fresh each season. What it decides is whether old amounts carry
+forward correctly, and whether this year's return is missing something it should not be
+missing.
+</div>
+
 ## The rule
 
 The prior year's return is the single most useful document in a new engagement, and it does three
@@ -92,7 +104,7 @@ of every asset, the split between land and improvements, and any § 179 or bonus
 forward on the depreciation schedule and nowhere else. Losing that schedule is how a client ends up
 reconstructing basis from closing documents a decade later.
 
-<div class="scenario">
+<div class="scenario" data-type="procedural">
 <h3>The carryover that had been adjusted</h3>
 
 A new client brings four years of returns showing a substantial net operating loss carryover. The
@@ -107,10 +119,10 @@ Ordering transcripts at the start of every new engagement is what makes this aut
 matter of remembering.
 </div>
 
-<div class="scenario">
+<div class="scenario" data-type="interaction">
 <h3>Two vintages of loss</h3>
 
-Beatrix Sørensen-Adeyemi has a net operating loss carryforward built from a 2016 loss and a 2021
+Beatrix Sørensen-Adeyemi has a {gloss:net-operating-loss} carryforward built from a 2016 loss and a 2021
 loss. Her preparer combines them into one figure and applies the eighty per cent limitation to the
 whole.
 
@@ -122,7 +134,7 @@ consequence of merging them is a smaller current deduction and a carryforward sc
 wrong for as long as it survives.
 </div>
 
-<div class="scenario">
+<div class="scenario" data-type="baseline">
 <h3>The dividend that stopped</h3>
 
 Comparing to the prior return, a preparer notices that a payer reporting several thousand dollars of
@@ -133,6 +145,47 @@ produce. The account was moved to a different custodian mid-year and the year-en
 an old address. Without the comparison the return would have been filed short by several thousand
 dollars, and the correction would have arrived as an underreporting notice with an accuracy-related
 penalty attached. A single question at intake, prompted by a line that changed, prevented all of it.
+</div>
+
+<div class="scenario" data-type="boundary">
+<h3>The loss that clears the limit by one dollar</h3>
+
+A taxpayer carries forward a $41,000 long-term {gloss:capital-loss} from last year. This year she has
+no capital gains at all, and her only offset against ordinary income is the annual limit.
+
+Section 1211(b) caps that offset at $3,000 for the year regardless of the size of the carryforward —
+the limit does not scale up because the loss is large, and it does not scale down because the loss is
+small, so long as the carryforward is at least $3,000. The remaining $38,000 carries forward again next
+year, still long-term, and the character survives the wait. A client who expects a bigger write-off
+because the loss is unusually large is meeting the boundary the statute actually draws, not a
+computation error.
+</div>
+
+<div class="scenario" data-type="timing">
+<h3>Same loss, different year of origin</h3>
+
+Two unrelated clients each generate a $100,000 net operating loss from an active trade or business —
+one in 2020, the other in 2022. Both ask whether the loss can be carried back for an immediate refund.
+
+The 2020 loss could be carried back five years under the CARES Act's temporary rule for losses arising
+in 2018 through 2020. The 2022 loss cannot: for losses arising after 2020 the general no-carryback rule
+applies, subject only to the farming and insurance exceptions, and the loss can only be carried forward
+indefinitely, capped at eighty per cent of taxable income. Identical dollar amounts, two years apart in
+origin, produce a refund claim for one client and a multi-year wait for the other.
+</div>
+
+<div class="scenario" data-type="fails">
+<h3>The half-sold rental</h3>
+
+A client has sold half of his interest in a rental property that carries several years of suspended
+{gloss:passive-activity} losses. He expects those losses to release in full against this year's income
+because he finally sold something.
+
+They do not release. Section 469(g) frees a suspended passive loss only on a fully taxable disposition
+of the entire interest in the activity, and half an interest is not the entire interest. The loss stays
+suspended, still allocable to the same activity under § 469(b), until the remaining half is disposed of
+in a transaction that qualifies. Releasing it now overstates this year's deduction and understates
+whatever year the second half is actually sold.
 </div>
 
 <div class="callout trap">

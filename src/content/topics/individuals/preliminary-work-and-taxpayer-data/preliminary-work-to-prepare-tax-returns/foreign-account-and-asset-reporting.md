@@ -20,7 +20,28 @@ forms: []
 related: ["1.1.1.c", "1.1.1.m", "1.1.1.d", "1.1.1.n", "1.1.1.f", "1.2.1.g"]
 changelog:
   - { date: "2026-08-19", summary: "Initial draft. Records that 31 C.F.R. § 1010.306(c) still states a 30 June FBAR due date superseded in 2015." }
+  - { date: "2026-08-25", summary: "Added a plain-language summary, a threshold diagram comparing the FBAR and Form 8938 triggers, glossary marks, and a typed scenario." }
+diagram:
+  archetype: "threshold"
+  caption: "Two different dollar lines: the FBAR trigger and Form 8938's two tests, in thousands of dollars"
+  min: 0
+  max: 80
+  marks:
+    - { figureKey: "fbar.threshold", value: 10, label: "FBAR: $10k, any time", emphasis: true }
+    - { figureKey: "f8938.threshold_single", value: 50, label: "Form 8938: $50k, year-end" }
+    - { figureKey: "f8938.threshold_single", value: 75, label: "Form 8938: $75k, any time" }
 ---
+
+<div class="plain-terms">
+Money and accounts held outside the United States can trigger two separate reports. One goes to a
+Treasury unit that fights financial crime. The other gets attached to the tax return itself. This page
+explains both, and why they are not just two names for the same rule. It affects anyone with a foreign
+bank account, a foreign brokerage account, or even just signing power over someone else's foreign
+account, such as an employer's. It does not affect someone whose only foreign asset is a retirement
+account, since those are carved out. A person can owe one report, both, or neither, and owing no extra
+tax changes nothing. What this page decides is which report applies, based on the value involved and
+what kind of control the person actually has over it.
+</div>
 
 ## The rule
 
@@ -72,7 +93,7 @@ different dates.
 
 ## How it works in practice
 
-**Signature authority alone triggers the FBAR.** A client who has authority over an employer's foreign
+**Signature authority alone triggers the {gloss:fbar}.** A client who has authority over an employer's foreign
 account, or over a relative's, has an FBAR obligation even with no beneficial interest and no income.
 Form 8938 has no equivalent — it reaches assets in which the individual holds an **interest**. This is
 the single largest practical difference between the two and it catches corporate officers, treasurers
@@ -109,7 +130,21 @@ continues more than ninety days after the Secretary mails notice, it accrues per
 to the stated ceiling. The FBAR penalty regime is separate, sits in Title 31, and is materially harsher
 for wilful failures.
 
-<div class="scenario">
+<div class="scenario" data-type="baseline">
+<h3>The straightforward case: both regimes apply</h3>
+
+Naledi Vermeulen-Achterberg holds a single foreign brokerage account that stayed at roughly $95,000 all
+year. Her bank reports her account to the IRS directly under {gloss:fatca} — the law that added the
+Form 8938 requirement in the first place. She assumes that reporting covers her own obligations too.
+
+It doesn't. The account exceeds the FBAR's $10,000 trigger, so she still has to file FinCEN Form 114
+with Treasury herself. It also exceeds her Form 8938 threshold as an unmarried filer living in the
+United States, so she attaches Form 8938 to her own return as well. A foreign bank's own FATCA reporting
+to the IRS never substitutes for either filing — it runs on a separate track, between the institution
+and the government, and does nothing to excuse the account holder's two personal obligations.
+</div>
+
+<div class="scenario" data-type="fails">
 <h3>Signature authority and nothing else</h3>
 
 Thaddeus Okonjo-Vasquez is the treasurer of a small charity that maintains an account in Ireland. He
@@ -123,7 +158,7 @@ and he holds none. So he files FinCEN Form 114 and attaches nothing to his retur
 Form 8938 test would have produced a confident and wrong conclusion that he had no obligation at all.
 </div>
 
-<div class="scenario">
+<div class="scenario" data-type="timing">
 <h3>The account emptied in November</h3>
 
 Rosalind Fitzwilliam-Adeyemi held about 46,000 dollars in a foreign account, transferred the whole
@@ -137,7 +172,7 @@ the other does not, and it is only visible if both tests are run against the yea
 well as the closing balance.
 </div>
 
-<div class="scenario">
+<div class="scenario" data-type="procedural">
 <h3>The regulation that states the wrong date</h3>
 
 A practitioner researching the FBAR deadline reads 31 C.F.R. § 1010.306(c) and finds that reports

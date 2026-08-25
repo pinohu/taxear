@@ -21,7 +21,28 @@ forms: []
 related: ["1.1.1.j", "1.1.1.d", "1.1.1.q", "1.1.1.a", "1.1.1.m", "1.2.1.a", "1.3.2.b", "1.3.2.c", "1.3.2.d", "1.3.2.e", "1.3.2.g", "1.3.2.h", "1.4.1.b", "1.4.1.c"]
 changelog:
   - { date: "2026-08-19", summary: "Initial draft. Sets out the IRC § 6654(d) safe harbours and the IRC § 6654(g) rule deeming withholding paid ratably across the installment dates, the IRC § 32 figures for 2026, and the IRC § 6402(m) refund hold." }
+  - { date: "2026-08-25", summary: "Added a plain-language summary, a threshold diagram of the 2026 earned income credit phase-in and phase-out, glossary marks, and a timing scenario." }
+diagram:
+  archetype: "threshold"
+  caption: "Where the earned income credit's lines sit — one qualifying child, not filing jointly"
+  min: 0
+  max: 55000
+  marks:
+    - { figureKey: "eitc.earned_income_amount", value: 13020, label: "credit reaches its maximum" }
+    - { figureKey: "eitc.phaseout", value: 23890, label: "phase-out begins", emphasis: true }
+    - { figureKey: "eitc.phaseout", value: 51593, label: "credit reaches zero" }
 ---
+
+<div class="plain-terms">
+Every tax return adds up two things: what you owe, and what you already paid. This page is about the
+paid side. That includes money held back from your paycheck. It also includes payments you send in
+four times a year. And it includes credits big enough to pay you back, even if you owed nothing at
+all. Almost every worker has some tax held back from pay. The four-times-a-year payments mostly matter
+for people who run their own business, or who earn a lot from investments. No one holds back tax for
+them on its own. One credit here helps workers with lower pay, most of all if they have kids. This page
+decides two things. Did you pay enough, on time, to dodge a fine? And can your refund go out right
+away, or must it wait?
+</div>
 
 A return's computed liability is only half of the arithmetic. What the taxpayer already paid, and which
 credits can pay out beyond liability, decide whether the return produces a refund or a balance due —
@@ -118,7 +139,7 @@ identification numbers early: § 32(m) requires the number to have been issued o
 date. Where a client claims the credit and expects a February refund, § 6402(m) makes that impossible
 for the whole refund, and saying so at intake avoids a difficult call later.
 
-<div class="scenario">
+<div class="scenario" data-type="boundary">
 <h3>The safe harbour that was not the ordinary one</h3>
 
 Dmitri had adjusted gross income of $164,000 last year with tax of $22,400. This year his income rose
@@ -129,12 +150,12 @@ provides that where prior-year adjusted gross income exceeded the statutory thre
 safe harbour is applied at the higher percentage. His required annual payment is the lesser of the
 current-year percentage of $38,000 and the higher percentage of $22,400, which is $24,640.
 
-The shortfall is small in dollars but the addition to tax runs from each installment's due date, so it
+The shortfall is small in dollars but the {gloss:underpayment-penalty} runs from each installment's due date, so it
 compounds across the whole year. The intake step that prevents it is reading the prior year's adjusted
 gross income, not the prior year's tax.
 </div>
 
-<div class="scenario">
+<div class="scenario" data-type="baseline">
 <h3>Where the withholding actually landed</h3>
 
 Yuki has modest wage withholding through the year and took a large retirement distribution in November
@@ -152,10 +173,10 @@ full. The provision cuts both ways, and § 6654(g)(2) lets her apply it separate
 and to the rest.
 </div>
 
-<div class="scenario">
+<div class="scenario" data-type="fails">
 <h3>The number that arrived too late</h3>
 
-Rosa claims the earned income credit for her son. His social security number was applied for in
+Rosa claims the {gloss:earned-income-tax-credit} for her son. His social security number was applied for in
 February and issued in June; she filed in March using an ITIN he had held previously, and later
 amended.
 
@@ -166,6 +187,17 @@ the filing due date rather than the date of the claim.
 
 An extension would have. Extending the return moves the due date to October, and a number issued in
 June would then have been in time — the same structural fix as the child tax credit's own number rule.
+</div>
+
+<div class="scenario" data-type="timing">
+<h3>The same shortfall, two different outcomes</h3>
+<p>Two taxpayers each have an underpayment on their first three estimated installments. One files her
+return and pays the full balance due on 28 January. The other does the same on 15 February.</p>
+<p><em>Analysis.</em> IRC § 6654(h) forgives the fourth installment's underpayment for anyone who files
+and pays in full on or before 31 January — the January filer gets that relief and owes nothing more for
+the year. The February filer misses the cutoff by two weeks, so the fourth-installment addition still
+applies. Neither filer's first three installments are touched either way; § 6654(h) reaches only the
+last one.</p>
 </div>
 
 <div class="callout trap">

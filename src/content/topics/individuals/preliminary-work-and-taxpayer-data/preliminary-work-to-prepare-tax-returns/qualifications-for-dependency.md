@@ -19,7 +19,26 @@ forms: []
 related: ["1.1.1.e", "1.1.1.c", "1.1.1.b", "1.1.1.p", "1.1.1.h", "1.1.1.j", "1.3.2.a", "1.3.2.b", "1.3.2.c", "1.3.2.e", "1.3.2.f"]
 changelog:
   - { date: "2026-08-19", summary: "Initial draft against IRC § 152 and Rev. Proc. 2025-32 § 3.23." }
+  - { date: "2026-08-25", summary: "Added a plain-language summary, glossary marks, typed scenarios, and a decision diagram of the five qualifying child tests." }
+diagram:
+  archetype: "decision"
+  caption: "The five qualifying child tests — a child who fails any one may still be a qualifying relative"
+  tests:
+    - { test: "Relationship", result: "Child, sibling, step-sibling, or a descendant of either", outcome: "pass" }
+    - { test: "Residency", result: "Same principal home as the taxpayer for more than half the year", outcome: "pass" }
+    - { test: "Age", result: "Under 19, or under 24 if a student, and younger than the taxpayer; no limit if disabled", outcome: "pass" }
+    - { test: "Support", result: "Child did not provide over half of their own support", outcome: "pass" }
+    - { test: "Joint return", result: "Not filed one, other than to claim a refund", outcome: "pass" }
 ---
+
+<div class="plain-terms">
+This page explains who counts as your dependent on a tax return. There are two kinds: a qualifying
+child and a qualifying relative, and each has its own set of tests. It affects any taxpayer who
+supports a child, a parent, or another relative and wants to claim them on a return. It does not
+affect someone who already files a joint return with a spouse, or a person living here on a
+short-term visa. This page decides which tests a person must pass, how to split support when several
+people share the cost, and which taxpayer wins when two people try to claim the same person.
+</div>
 
 ## The rule
 
@@ -98,7 +117,7 @@ child to the noncustodial parent, but only where the custodial parent signs a wr
 the noncustodial parent attaches it to the return. A decree awarding the claim does not do it. That
 rule is treated in its own topic.
 
-<div class="scenario">
+<div class="scenario" data-type="boundary">
 <h3>Counting the grandmother's support</h3>
 
 Ignatia Baptiste-Achebe supports her grandmother, who has 10,000 dollars of taxable income and 4,000
@@ -113,7 +132,7 @@ the 1,000 dollars saved does not count, because it was never applied to support.
 contribution to the grandmother's 14,000 dollars of income would have produced the wrong answer.
 </div>
 
-<div class="scenario">
+<div class="scenario" data-type="interaction">
 <h3>Two parents, one child, no joint return</h3>
 
 A child lives with Parent A for more of the year than with Parent B, and Parent A also has the higher
@@ -127,7 +146,7 @@ true and irrelevant, which is exactly how this is tested: the question supplies 
 whether the candidate reaches for the right one.
 </div>
 
-<div class="scenario">
+<div class="scenario" data-type="fails">
 <h3>The exchange student</h3>
 
 The Okonjo family hosts a foreign exchange student for the school year. He lives in their home, they
@@ -138,8 +157,35 @@ the United States unless they are a resident of the United States or of a contig
 or Mexico. An exchange student on a temporary visa is generally neither. The narrow exception in
 subparagraph (B) is for an **adopted** child living with the taxpayer as a member of the household, and
 it does not reach a host arrangement. The household test the family is thinking of, in § 152(d)(2)(H),
-is a *relationship* test for a qualifying relative — passing it does not cure the citizenship gate,
-which sits above both definitions.
+is a *relationship* test for a {gloss:qualifying-relative} — passing it does not cure the citizenship
+gate, which sits above both definitions.
+</div>
+
+<div class="scenario" data-type="baseline">
+<h3>The straightforward qualifying child</h3>
+
+Rosa's ten-year-old son lives with her all year, she pays for everything he needs, and he has no
+income of his own.
+
+He is Rosa's {gloss:qualifying-child}. He passes every one of the five tests without difficulty: he is
+her son, he lived with her the whole year, he is under 19, he provided none of his own support, and he
+has filed no return of any kind. No gross income test even applies to him — that test belongs only to
+a qualifying relative. This is dependency working exactly as most people picture it, with nothing close
+to any of the gates the rest of this page is about.
+</div>
+
+<div class="scenario" data-type="procedural">
+<h3>Arranging a multiple support agreement before filing</h3>
+
+Three adult siblings together pay for their widowed father's care. Each contributes roughly a third,
+so none of them provides over half alone, but the three shares together clearly exceed half.
+
+Before anyone files, the siblings must agree on which one of them will claim their father as a
+{gloss:dependent} this year. The sibling who claims attaches a declaration to the return, and IRC
+§ 152(d)(3) requires every other sibling who contributed over ten percent to file a written declaration
+giving up their own claim for that year — commonly done on Form 2120. Filing first and sorting it out
+afterward does not work: the declarations have to exist for the year being claimed, and only one
+sibling may claim him for it.
 </div>
 
 <div class="callout trap">
