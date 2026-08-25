@@ -1,0 +1,18 @@
+---
+import Base from '../layouts/Base.astro';
+---
+<Base title="Search" description="Search every published TaxEar topic, form, and notice page.">
+  <p class="crumbs"><a href="/">TaxEar</a><span>›</span>Search</p>
+  <h1>Search</h1>
+  <p>Search runs entirely in your browser against a static index built from every published
+    page — nothing you type is sent anywhere.</p>
+  <div id="search" class="search-box"></div>
+  <link rel="stylesheet" href="/pagefind/pagefind-ui.css" />
+  <script src="/pagefind/pagefind-ui.js" defer></script>
+  <script>
+    window.addEventListener('DOMContentLoaded', () => {
+      if (typeof PagefindUI === 'undefined') return;
+      new PagefindUI({ element: '#search', showSubResults: true, showImages: false, resetStyles: false });
+    });
+  </script>
+</Base>
