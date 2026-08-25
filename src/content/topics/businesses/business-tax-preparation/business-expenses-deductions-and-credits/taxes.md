@@ -22,7 +22,17 @@ forms: []
 related: ["2.2.2.j", "2.2.2.h", "2.2.1.b", "2.2.2.c", "2.2.2.a", "2.2.2.k", "2.2.2.m", "2.2.2.o", "2.2.4.d"]
 changelog:
   - { date: "2026-08-21", summary: "Initial draft. Sets out the four categories of IRC § 164(a), the catch-all for other state, local and foreign taxes paid in carrying on a trade or business, and the rule capitalising a tax paid on an acquisition. Records that the IRC § 164(b)(6) cap excepts business property taxes and foreign income taxes by its own flush text, that its heading still says 2018 through 2025 although Pub. L. 119-21 § 70120(a)(1) struck the end date, the IRC § 275(a) list of taxes never deductible, and the IRC § 162(f) disallowance of government penalties with its three exceptions." }
+  - { date: "2026-08-25", summary: "Added a plain-language summary, glossary marks, and two typed scenarios (boundary, timing) alongside the three existing ones now typed baseline/procedural/fails." }
 ---
+
+<div class="plain-terms">
+This page sorts out which taxes and fines a business can deduct, and which it cannot. Most taxes a
+business pays to run day to day — sales tax, local business tax, and the like — can be deducted. But
+a tax paid to buy something is different. That tax becomes part of the item's own cost instead. No
+one can ever deduct federal income tax. And a fine a business pays to a government for breaking a
+law is usually not deductible either. There is one narrow exception: money that truly repairs the
+harm done, spelled out clearly in the deal itself.
+</div>
 
 Three provisions decide whether a tax or a penalty is deductible, and they operate in a fixed
 order. IRC § 164 allows; IRC § 275 forbids; IRC § 162(f) disallows what is paid to a government
@@ -114,7 +124,7 @@ form.
 payment under a court order in purely private litigation is outside IRC § 162(f)(1) altogether and
 needs no exception.
 
-<div class="scenario">
+<div class="scenario" data-type="baseline">
 <h3>One sales tax, three answers</h3>
 
 A retailer in a state with sales tax makes three purchases in the same month: $900 of shop
@@ -137,7 +147,7 @@ is exempt from IRC § 263A under IRC § 263A(i), in which case it follows its ow
 Same tax, same rate, same month, three different timings.
 </div>
 
-<div class="scenario">
+<div class="scenario" data-type="procedural">
 <h3>The settlement with three components</h3>
 
 A manufacturer settles an environmental enforcement action with a state agency for $4,000,000. The
@@ -162,7 +172,7 @@ The difference between the two versions is $2,300,000, and it turns entirely on 
 was drafted at the time it was signed. There is no way to allocate it afterwards.
 </div>
 
-<div class="scenario">
+<div class="scenario" data-type="fails">
 <h3>The payroll cheque with two halves</h3>
 
 An employer remits $186,000 to the Treasury for a quarter. Of that, $62,000 is federal income tax
@@ -175,12 +185,43 @@ IRC § 164(a)(1) to (4).
 
 The other $124,000 is not the employer's tax at all. It is the employees' money, withheld and
 remitted on their behalf, and {fig:tax.never_deductible} (IRC § 275(a)(1)(A) and (C)) names both
-the employee FICA tax and tax withheld at source expressly.
+the employee {gloss:fica} tax and tax withheld at source expressly.
 
 The employer does of course deduct the gross wages of $500,000 out of which the $124,000 was
 withheld, so nothing is lost. But the deduction is a wages deduction under IRC § 162(a)(1), not a
 taxes deduction, and a question that asks for "deductible taxes" is testing exactly this
 separation.
+</div>
+
+<div class="scenario" data-type="boundary">
+<h3>The two retailers on either side of the line</h3>
+
+Two unrelated retailers each pay $18,000 of sales tax on $300,000 of goods bought for resale in
+2026. Retailer A has average annual gross receipts of $28,000,000 for the testing period; Retailer B
+has $36,000,000 — on either side of {fig:method.gross_receipts_2026}.
+
+Retailer A is under the {gloss:gross-receipts} threshold, so IRC § 263A(i) exempts it from
+IRC § 263A(a)(2)(B): the $18,000 is deducted as a business expense in the year paid, under
+{fig:tax.business_catchall}.
+
+Retailer B is over the threshold. The identical $18,000, on the identical purchase, is capitalised
+into inventory under IRC § 263A(a)(2)(B) and enters cost of goods sold only when the goods are sold —
+timed differently by a gross receipts figure that has nothing to do with the tax itself.
+</div>
+
+<div class="scenario" data-type="timing">
+<h3>The cap that was supposed to end</h3>
+
+A homeowner who also runs a sole proprietorship reads IRC § 164(b)(6) in an older edition, whose
+heading reads "Limitation on individual deductions for taxable years 2018 through 2025," and plans
+her 2026 return on the assumption that the cap on her state and local {gloss:itemized-deduction}s
+disappears entirely once 2025 ends.
+
+{fig:tax.salt_heading_stale} — Pub. L. 119-21 § 70120(a)(1) struck the words that would have let the
+limitation expire, so for 2026 the cap is still in force, at {fig:itemized.salt_cap}. Her plan to
+deduct the full property tax on her home in 2026 without limit fails. Only the property tax on her
+business premises escapes the cap, under {fig:tax.salt_business_exception} — and that exception was
+just as true, and just as narrow, in the year she was reading about.
 </div>
 
 <div class="callout trap">

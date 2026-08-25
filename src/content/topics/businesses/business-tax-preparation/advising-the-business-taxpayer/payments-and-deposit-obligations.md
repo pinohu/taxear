@@ -22,7 +22,26 @@ forms: []
 related: ["2.2.5.a", "2.2.5.c", "2.2.2.j", "2.2.5.k", "2.2.5.g", "2.2.5.m"]
 changelog:
   - { date: "2026-08-21", summary: "Initial draft. Sets out the IRC § 3301 FUTA rate on the IRC § 3306(b)(1) wage base with the IRC § 3302 state credit and its 90 percent ceiling and credit reduction mechanism, the Reg. § 31.6302-1 monthly and semi-weekly deposit schedules with the lookback period that fixes them, the $100,000 next-day rule and the status change it forces, the $2,500 de minimis relief, and the IRC § 6656 penalty tiers." }
+  - { date: "2026-08-25", summary: "Added a plain-language summary, a threshold diagram of the deposit-schedule dollar lines, glossary marks, and a fourth typed scenario on the de minimis filing relief." }
+diagram:
+  archetype: "threshold"
+  caption: "Where the deposit-schedule dollar lines fall"
+  min: 0
+  max: 120000
+  marks:
+    - { figureKey: "dep.status", value: 50000, label: "$50,000 — monthly ends" }
+    - { figureKey: "dep.next_day", value: 100000, label: "$100,000 — next-day rule", emphasis: true }
 ---
+
+<div class="plain-terms">
+Businesses that pay wages must also deposit certain payroll taxes on a set schedule. That is
+separate from filing the yearly tax return. This page is about that deposit schedule. It covers how
+often a business must deposit, and what decides whether it deposits once a month or twice a week. It
+also covers one rule that can force a faster deposit, no matter the usual schedule. It matters to any
+business that pays wages to workers. It does not cover how to figure the tax itself, only when the
+money has to move. A missed or late deposit brings its own penalty, on top of whatever tax the return
+later shows is owed.
+</div>
 
 Deposits are where an otherwise compliant business gets into serious trouble fastest, because the
 obligation is continuous, the penalty is a percentage of the amount rather than a fixed sum, and the
@@ -100,7 +119,7 @@ asked for.
 
 ## Scenarios
 
-<div class="scenario">
+<div class="scenario" data-type="boundary">
 <h3>The bonus that changed the schedule</h3>
 
 Ravensworth Systems is a monthly depositor. In November it pays annual bonuses, and the employment
@@ -118,12 +137,12 @@ the rest of that year and the whole of the next — so the December deposits wer
 schedule too, and so is every deposit in the following January.
 </div>
 
-<div class="scenario">
+<div class="scenario" data-type="fails">
 <h3>Two employers, two wage bases</h3>
 
 Halden Freight employs a driver who worked for an unrelated haulier for the first half of the year
-and earned $34,000 there. Halden pays him $41,000 in the second half. Its preparer computes FUTA on
-nothing, reasoning that the wage base was used up before he arrived.
+and earned $34,000 there. Halden pays him $41,000 in the second half. Its preparer computes
+{gloss:futa} on nothing, reasoning that the wage base was used up before he arrived.
 
 That is wrong. IRC § 3306(b)(1) stops wages at the base amount paid to an individual *by an
 employer* during the calendar year. Halden is a different employer, so it has its own base and owes
@@ -135,7 +154,7 @@ per-employer logic applies to the social security wage base, which is why an emp
 can overpay social security tax and claim the excess as a credit, while the employers cannot.
 </div>
 
-<div class="scenario">
+<div class="scenario" data-type="interaction">
 <h3>The state that had borrowed</h3>
 
 Corbridge Fabrication pays all its state unemployment contributions on time and computes FUTA at the
@@ -150,6 +169,23 @@ Nothing Corbridge did caused this and nothing it can do avoids it — the reduct
 state, not to the employer's own compliance. The practical points are that the additional amount is
 payable with the Form 940 rather than through the year's deposits, and that a business operating in
 several states must apply the reduction state by state.
+</div>
+
+<div class="scenario" data-type="procedural">
+<h3>The quarter too small to deposit</h3>
+
+Hallgate Bookkeeping, a two-person LLC in its first quarter with any employees at all, accumulates
+$1,900 of withheld income tax and {gloss:fica} for the quarter. Its bookkeeper is about to enroll in
+electronic deposit before the very first payroll ever runs.
+
+None of that enrollment is needed yet. Reg. § 31.6302-1(f)(4) lets an employer whose accumulated
+employment taxes for a return period fall below the de minimis threshold simply remit the amount with
+a timely filed return for that period, and the deposit is deemed timely made. The same relief carries
+forward into the next quarter if the immediately preceding quarter was also below the threshold, which
+is what lets a genuinely small employer skip deposit mechanics altogether rather than enrolling in
+electronic funds transfer for amounts this small. The relief disappears the first quarter the
+accumulated amount crosses the threshold, so it is worth checking every quarter rather than assuming
+it holds forever.
 </div>
 
 ## Traps

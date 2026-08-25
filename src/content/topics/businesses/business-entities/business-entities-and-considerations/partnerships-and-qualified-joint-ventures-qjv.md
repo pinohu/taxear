@@ -23,7 +23,25 @@ forms: []
 related: ["2.1.1.a", "2.1.1.c", "2.1.1.e", "2.1.1.g", "2.1.1.i", "2.1.1.d", "2.1.1.l", "2.1.2.a", "2.1.2.g", "2.2.2.a"]
 changelog:
   - { date: "2026-08-21", summary: "Initial draft. Sets out the IRC § 761(a) and § 7701(a)(2) definition of a partnership, the § 701 rule that the entity is not taxed, the § 702(a) separately stated items, the § 6031 return requirement with its § 6072(b) date and the § 6698 per-partner per-month penalty as indexed by Rev. Proc. 2025-32 § 3.55, the § 761(a) election out of subchapter K, and the three conditions of the § 761(f) qualified joint venture election." }
+  - { date: "2026-08-25", summary: "Added a plain-language summary, a decision diagram of the three qualified joint venture conditions, glossary marks, and typed scenarios." }
+diagram:
+  archetype: "decision"
+  caption: "The three conditions for qualified joint venture treatment — miss any one and the business is a partnership instead"
+  tests:
+    - { test: "Are the only members a husband and wife?", result: "Adding any other member — a child, a parent, anyone else — ends the election", outcome: "pass" }
+    - { test: "Do both spouses materially participate under § 469(h)?", result: "Occasional involvement by one spouse alone is not enough", outcome: "pass" }
+    - { test: "Do both elect, on a joint return for the year?", result: "Without the election and a joint return, the default partnership rules apply", outcome: "pass" }
 ---
+
+<div class="plain-terms">
+A partnership forms when two or more people run a business together. This can happen even if no one
+meant to form one. The partnership itself pays no income tax. Each partner reports their own share on
+their own return instead. The partnership still must file a report with the IRS. Missing that report
+brings a penalty that adds up fast. This affects anyone who works with a partner. It does not affect
+someone who runs a business alone. Married couples who run a business together have another choice.
+They can skip the partnership paperwork. Instead each spouse reports the business as if they each
+owned it alone. This only works if they meet a few set conditions.
+</div>
 
 A partnership is the residual category of business entity: an unincorporated organization through which
 a venture is carried on, with more than one member, that has not become something else. It pays no
@@ -97,20 +115,20 @@ wife.
 an investment or joint-production arrangement elect out of some or all of subchapter K. It is not a way
 of avoiding partnership status for an operating business.
 
-<div class="scenario">
+<div class="scenario" data-type="baseline">
 <h3>The venture nobody meant to form</h3>
 
 Two contractors agree to bid a project together, share costs and split the profit. There is no written
 agreement and no bank account in a joint name. They each report their share on their own returns.
 
-They have carried on a venture through an unincorporated organization, which is a partnership under IRC
+They have carried on a venture through an unincorporated organization, which is a {gloss:partnership-entity} under IRC
 § 761(a) and § 7701(a)(2). A Form 1065 was required, and the § 6698 penalty runs at a monthly amount per
 partner for up to twelve months. The absence of a written agreement is not a defence; partnership status
 is a description of what they did.
 
 </div>
 
-<div class="scenario">
+<div class="scenario" data-type="procedural">
 <h3>The nil return that cost thousands</h3>
 
 A four-partner partnership had a quiet year, made no profit and owed no tax. Its return was filed
@@ -123,7 +141,7 @@ route out, and "we owed nothing" is not reasonable cause.
 
 </div>
 
-<div class="scenario">
+<div class="scenario" data-type="fails">
 <h3>The election that a child destroyed</h3>
 
 A married couple ran a shop as a qualified joint venture for three years. In the fourth year they gave
@@ -136,13 +154,13 @@ changed except who is on the ownership register.
 
 </div>
 
-<div class="scenario">
+<div class="scenario" data-type="interaction">
 <h3>The spouse who did not participate</h3>
 
 A husband runs a landscaping business. His wife is a co-owner on paper and keeps the books for an hour
-or two a month. They elect qualified joint venture treatment and split the income equally.
+or two a month. They elect {gloss:qualified-joint-venture} treatment and split the income equally.
 
-The election requires both spouses to materially participate within IRC § 469(h), determined without
+The election requires {gloss:material-participation} by both spouses within IRC § 469(h), determined without
 regard to § 469(h)(5). Occasional bookkeeping is unlikely to meet any of the material participation
 tests, so the election is not available and the business is a partnership — or, if she is not really a
 co-owner at all, his sole proprietorship. The equal split of income was the object of the exercise and

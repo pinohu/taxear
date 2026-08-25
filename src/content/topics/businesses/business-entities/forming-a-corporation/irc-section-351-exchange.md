@@ -23,7 +23,24 @@ forms: []
 related: ["2.1.4.a", "2.1.4.c", "2.1.4.d", "2.1.1.c", "2.1.4.f"]
 changelog:
   - { date: "2026-08-21", summary: "Initial draft. Sets out the IRC § 351(a) nonrecognition conditions, the IRC § 368(c) definition of control with its two separate 80 percent tests, the § 351(d) exclusion of services and certain indebtedness from property, the § 358(a)(1) substituted basis in the stock received, the § 362(a) transferred basis in the corporation's hands with the § 362(e)(2) cap where aggregate bases would exceed fair market value, and the § 357(a) rule that an assumed liability is not boot." }
+  - { date: "2026-08-25", summary: "Added a plain-language summary, a decision diagram of the control test and the boot rule, glossary marks, and typed the four existing scenarios (fails, boundary, baseline, interaction)." }
+diagram:
+  archetype: "decision"
+  caption: "Whether a §351 transferor recognizes gain on incorporation"
+  tests:
+    - { test: "Did this transferor give the corporation only services, no property?", result: "Compensation income under § 83 — and those shares don't count toward the group's control test", outcome: "fail" }
+    - { test: "Do the property transferors, as a group, hold at least 80% of voting power and at least 80% of every other class immediately after?", result: "Control met — the exchange qualifies for nonrecognition", outcome: "pass" }
+    - { test: "Did this transferor receive anything besides stock — cash or other property (boot)?", result: "Gain recognized up to the boot received; a loss is never recognized", outcome: "fail" }
 ---
+
+<div class="plain-terms">
+Someone can start a company by handing over property in trade for its stock. This page decides if that
+trade is taxed right away, or not at all yet. It applies to people who put in property, like cash, land,
+or gear. It does not apply to someone who puts in only their own work. The key test is this: do the
+people who put in property end up in control of the company right after the trade? If yes, any gain on
+the property is not taxed yet. If they also get cash or other extras along with the stock, some of that
+gain is taxed right away. This page decides who passes the test, and how much tax is due if they do not.
+</div>
 
 Section 351 is the corporate counterpart of the partnership contribution rules, and it is deliberately
 harder to satisfy. A partnership takes property tax-free from anyone at any time; a corporation does so
@@ -107,7 +124,7 @@ expects to sell.
 
 ## Scenarios
 
-<div class="scenario">
+<div class="scenario" data-type="fails">
 <h3>The co-founder who only worked</h3>
 <p>Ottokar contributes equipment worth $700,000 with a basis of $120,000 to a new corporation for 750
 shares. Wren, who has built the prototype, receives 250 shares for her services. Nobody else holds stock.</p>
@@ -119,7 +136,7 @@ compensation income either way. Had Wren also contributed property of more than 
 shares would have counted and the transaction would have qualified.</p>
 </div>
 
-<div class="scenario">
+<div class="scenario" data-type="boundary">
 <h3>The two classes that were counted separately</h3>
 <p>A group of transferors contributes property to a corporation and receives all 9,000 of its voting
 common shares. The corporation has 4,000 non-voting preferred shares outstanding, held by an unrelated
@@ -132,22 +149,22 @@ economic significance of the preferred is beside the point. The transaction is f
 transferor.</p>
 </div>
 
-<div class="scenario">
+<div class="scenario" data-type="baseline">
 <h3>The cash that came with the stock</h3>
 <p>Perdita transfers land worth $900,000 with a basis of $300,000 to a corporation she will control,
 receiving stock worth $750,000 and $150,000 in cash.</p>
 <p>She recognises $150,000 of gain. IRC § 351(b)(1) recognises gain but not in excess of the money received
 plus the fair market value of other property received, and her realised gain of $600,000 exceeds the
-$150,000 of boot. Her basis in the stock under IRC § 358(a)(1) is $300,000, decreased by the $150,000 of
+$150,000 of {gloss:boot}. Her basis in the stock under IRC § 358(a)(1) is $300,000, decreased by the $150,000 of
 money received and increased by the $150,000 of gain recognised — so $300,000. The corporation's basis in
 the land under IRC § 362(a) is $300,000 plus the $150,000 of gain she recognised, so $450,000. The
 remaining $450,000 of gain survives in both places, which is the design.</p>
 </div>
 
-<div class="scenario">
+<div class="scenario" data-type="interaction">
 <h3>The portfolio with a net built-in loss</h3>
-<p>Aurelien transfers three assets to a corporation he controls. Their aggregate adjusted basis is
-$2,000,000 and their aggregate fair market value is $1,400,000, the loss sitting mostly in one of the
+<p>Aurelien transfers three assets to a corporation he controls. Their aggregate adjusted {gloss:basis} is
+$2,000,000 and their aggregate {gloss:fair-market-value} is $1,400,000, the loss sitting mostly in one of the
 three.</p>
 <p>The corporation's aggregate basis is capped at $1,400,000. Under IRC § 362(e)(2)(A) the transferee's
 aggregate adjusted bases may not exceed the fair market value of the property immediately after the

@@ -22,7 +22,24 @@ forms: ["990", "990-EZ", "990-N", "990-PF"]
 related: ["2.1.1.c", "2.1.1.g", "2.1.1.k", "2.1.1.h", "2.3.2.a", "2.3.2.b", "2.3.2.c", "2.3.2.d"]
 changelog:
   - { date: "2026-08-21", summary: "Initial draft. Sets out the IRC § 501(a) grant of exemption and the § 501(b) carve-out for unrelated business income, the § 501(c)(3) organisational and operational conditions with the inurement, lobbying and campaign prohibitions, the neighbouring § 501(c)(4) and (c)(7) categories, the § 508(a) notice requirement and § 508(b) private foundation presumption, the § 6033 annual return with its church and small-receipts exceptions, the § 6033(i) electronic notice and § 6033(j) automatic revocation after three consecutive missed years, and the §§ 511 to 513 unrelated business income tax including the § 512(a)(6) separate computation and the § 512(b)(12) specific deduction." }
+  - { date: "2026-08-25", summary: "Added a plain-language summary, a timeline diagram of automatic revocation, glossary marks, and typed scenarios." }
+diagram:
+  archetype: "timeline"
+  caption: "Automatic revocation: what three consecutive missed years cost a small exempt organization"
+  events:
+    - { when: "Year 1 missed", what: "No annual return or e-Postcard filed — no penalty and no notice yet" }
+    - { when: "Year 2 missed", what: "The Secretary notifies the organization of the failure to file" }
+    - { when: "Year 3 missed — due date of the third return or notice", what: "Exempt status is revoked automatically, effective that date, and the organization is added to the published list" }
 ---
+
+<div class="plain-terms">
+A tax-exempt group, like a charity, pays no income tax on money it raises for its mission. But it
+must first ask the IRS for that status. It must also file a report each year to keep it. Miss that
+report three years running and the status is taken away. This happens even if the group never owed
+any tax at all. This matters to nonprofits, their board members, and anyone who gives to one. It does
+not mean the group pays no tax ever. Money from a side business that has nothing to do with its
+mission can still be taxed. That can happen even while the rest of the group stays tax-exempt.
+</div>
 
 Exempt organisations are the one part of the business entity outline where tax status is granted rather
 than chosen. A corporation is a corporation because of how it was formed; an exempt organisation is exempt
@@ -131,9 +148,9 @@ is subtracted once at the end, not once per activity.
 
 ## Scenarios
 
-<div class="scenario">
+<div class="scenario" data-type="procedural">
 <h3>The literacy charity that filed nothing</h3>
-<p>A small volunteer literacy charity received its determination letter in 2019. Its annual receipts have
+<p>A small volunteer literacy charity received its determination letter in 2019. Its {gloss:gross-receipts} have
 never exceeded about $18,000. The treasurer who filed the first two e-Postcards moved away in 2021, and
 nobody filed for the tax years 2022, 2023 or 2024. In 2026 a grant application is rejected because the
 funder's search shows the organisation is not exempt.</p>
@@ -146,7 +163,7 @@ anything. The organisation must apply again, and gifts made in the interval were
 § 501(c)(3) organisation.</p>
 </div>
 
-<div class="scenario">
+<div class="scenario" data-type="baseline">
 <h3>The museum with three side businesses</h3>
 <p>A regional art museum has, alongside its exempt activities, three revenue streams the Service treats as
 unrelated: a public car park, advertising sold in its quarterly magazine, and a licensing arrangement.
@@ -160,7 +177,7 @@ would have produced $30,000 of unrelated business taxable income, and pre-2018 m
 result is describing repealed law.</p>
 </div>
 
-<div class="scenario">
+<div class="scenario" data-type="boundary">
 <h3>The hospital shop and the same shop's second counter</h3>
 <p>A tax-exempt hospital operates a gift shop inside the building. It sells flowers, toiletries and
 magazines to patients and visitors. In 2026 it opens a second counter at the street entrance selling the
@@ -175,10 +192,10 @@ relatedness question. If the goods sold at the street counter had been donated, 
 IRC § 513(a)(3) would apply and the analysis would stop there.</p>
 </div>
 
-<div class="scenario">
+<div class="scenario" data-type="fails">
 <h3>The social club that wanted charitable status</h3>
 <p>A cycling club incorporated as a nonprofit in 2025 wants a determination that it is described in
-IRC § 501(c)(3) so that member subscriptions become deductible. Its activities are group rides, a monthly
+IRC § 501(c)(3) so that member subscriptions become deductible {gloss:charitable-contribution}s. Its activities are group rides, a monthly
 supper and an annual race for members. It has a bank balance of about $9,000 and receipts of roughly
 $21,000 a year.</p>
 <p>It is not a § 501(c)(3) organisation: none of its activities serves a purpose in the § 501(c)(3) list,

@@ -19,7 +19,26 @@ forms: []
 related: ["2.1.4.b", "2.1.4.c", "2.1.4.a", "2.1.2.d"]
 changelog:
   - { date: "2026-08-21", summary: "Initial draft. Sets out the IRC § 357(a) rule that an assumed liability is not money or other property, the § 357(b) recharacterisation of the whole of the liabilities where the principal purpose was tax avoidance or was not a bona fide business purpose, the § 357(c)(1) treatment of liabilities exceeding the aggregate adjusted basis of the property transferred as gain, the § 357(c)(3) exclusion of liabilities whose payment would give rise to a deduction, and the § 358(d) treatment of an assumed liability as money received for basis purposes with its matching exception." }
+  - { date: "2026-08-25", summary: "Added a plain-language summary, a decision diagram of the three-step liability analysis, typed scenarios, and glossary marks." }
+diagram:
+  archetype: "decision"
+  caption: "Whether an assumed liability produces gain on incorporation"
+  tests:
+    - { test: "Principal purpose of the assumption was tax avoidance, or lacked a bona fide business purpose (§ 357(b))", result: "The entire liability assumed is treated as money received", outcome: "pass" }
+    - { test: "No, but liabilities assumed exceed the aggregate adjusted basis of the property transferred (§ 357(c))", result: "The excess over basis is gain, regardless of purpose", outcome: "pass" }
+    - { test: "Neither applies", result: "The assumed liability is not boot — no gain from the debt alone (§ 357(a))", outcome: "fail" }
 ---
+
+<div class="plain-terms">
+When you incorporate a business, the corporation often takes over your debt on the property too —
+a mortgage, say. Taking over that debt is usually not treated as extra pay to you. So it does not
+create a tax bill by itself. This page explains two exceptions. It affects anyone who gives
+property with debt on it to a corporation they control. It does not affect a transfer of property
+with no debt. Gain can still happen two ways. If the main reason for the debt was to dodge tax,
+the whole debt counts as pay. And if the debt is simply bigger than your basis in the property,
+the extra amount is taxed as gain, no matter why the debt exists. Debts you could have deducted
+anyway, like normal business bills, do not count toward this.
+</div>
 
 Liabilities are the reason an incorporation that should have been tax-free produces tax. Three provisions
 apply in sequence and each does something different: IRC § 357(a) says an assumed liability is not boot,
@@ -98,12 +117,12 @@ is the economically sensible answer.
 
 ## Scenarios
 
-<div class="scenario">
+<div class="scenario" data-type="baseline">
 <h3>The depreciated building and the refinanced mortgage</h3>
-<p>Thaddeus has held an apartment building for twenty-two years. Its adjusted basis is now $310,000 after
-depreciation, its fair market value is $1,900,000, and it carries a $740,000 mortgage taken out in stages
-to fund other property. He contributes it to a corporation he will wholly own, which takes the building
-subject to the mortgage. He receives only stock.</p>
+<p>Thaddeus has held an apartment building for twenty-two years. Its adjusted {gloss:basis} is now $310,000
+after depreciation, its fair market value is $1,900,000, and it carries a $740,000 mortgage taken out in
+stages to fund other property. He contributes it to a corporation he will wholly own, which takes the
+building subject to the mortgage. He receives only stock.</p>
 <p>He recognises $430,000 of gain. IRC § 357(a) means the mortgage is not boot, and IRC § 357(b) does not
 apply because the borrowings were for genuine business reasons over many years. But IRC § 357(c)(1) taxes
 the excess of the $740,000 of liabilities assumed over the $310,000 aggregate adjusted basis of the
@@ -112,7 +131,7 @@ the $740,000 treated as money received under IRC § 358(d)(1) — floored at zer
 $430,000 of gain, so zero. The corporation's basis is $310,000 plus $430,000, so $740,000.</p>
 </div>
 
-<div class="scenario">
+<div class="scenario" data-type="fails">
 <h3>The loan taken out the month before</h3>
 <p>Ottilie owns land worth $1,200,000 with a basis of $900,000, unencumbered. In March she borrows
 $500,000 against it and spends the proceeds on a house. In April she contributes the land to a new
@@ -127,7 +146,7 @@ IRC § 357(c) alone she would have recognised nothing, because $500,000 does not
 basis.</p>
 </div>
 
-<div class="scenario">
+<div class="scenario" data-type="interaction">
 <h3>The cash-basis practice with payables</h3>
 <p>Genevieve incorporates her cash-basis consultancy. She transfers $38,000 of receivables with a zero
 basis, office equipment with a basis of $14,000, and the corporation assumes $52,000 of accounts payable
@@ -140,10 +159,11 @@ similarly protected: IRC § 358(d)(2) disapplies the money-received treatment fo
 liabilities, so her basis is $14,000 rather than negative. The two exclusions are matched by design.</p>
 </div>
 
-<div class="scenario">
+<div class="scenario" data-type="boundary">
 <h3>The property worth less than its debt</h3>
-<p>Marek contributes a warehouse to a corporation. Its fair market value is $600,000, its adjusted basis is
-$180,000, and it carries a $650,000 non-recourse mortgage. He is economically underwater by $50,000.</p>
+<p>Marek contributes a warehouse to a corporation. Its {gloss:fair-market-value} is $600,000, its adjusted
+{gloss:basis} is $180,000, and it carries a $650,000 non-recourse mortgage. He is economically underwater
+by $50,000.</p>
 <p>He recognises $470,000 of gain. IRC § 357(c)(1) compares the liabilities assumed with the aggregate
 adjusted basis of the property transferred — not with its value — so the fact that he has an overall
 economic loss is irrelevant to the computation. $650,000 less $180,000 is $470,000, treated as gain from

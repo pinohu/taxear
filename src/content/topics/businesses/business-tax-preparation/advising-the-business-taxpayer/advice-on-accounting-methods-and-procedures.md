@@ -25,7 +25,18 @@ forms: []
 related: ["2.2.4.d", "2.2.5.a", "2.2.5.b", "2.2.5.l", "2.2.4.b", "2.2.5.j"]
 changelog:
   - { date: "2026-08-21", summary: "Initial draft. The advisory counterpart to 2.2.4.d. Sets out the Reg. § 1.446-1(a)(2) clear reflection standard and the generally accepted accounting principles safe harbour with its consistency condition, the practical sequence for advising on a method change, the IRC § 481(b)(1) three-year allocation limit on tax where the adjustment is substantial, and what the automatic consent procedures buy that a self-help correction does not." }
+  - { date: "2026-08-25", summary: "Added a plain-language summary, glossary marks, and a fourth typed scenario on filing a method change through the automatic procedure." }
 ---
+
+<div class="plain-terms">
+An accounting method is how a business decides when to count income and expenses. It might count
+cash in and out, or count things as they are earned and owed. This page is about advising a business
+on which method to use. It also covers when a change to a new method makes sense. It matters to any
+business owner thinking about a switch — especially between cash and accrual methods, or dropping
+inventory counts. It does not cover how methods work in detail; that lives on another page. What this
+page decides is simple: does a change need IRS permission, what will it cost, and what records must
+be ready first.
+</div>
 
 The mechanics of methods and changes are set out under
 [analysis of financial records](/businesses/business-tax-preparation/analysis-of-financial-records/method-of-accounting-and-changes/).
@@ -107,11 +118,11 @@ without advising the system produces a return nobody can support.
 
 ## Scenarios
 
-<div class="scenario">
+<div class="scenario" data-type="baseline">
 <h3>The client who wanted to stop counting inventory</h3>
 
-Ferrers Supply carries $340,000 of inventory, averages $19,000,000 of gross receipts over the last
-three years, and wants to stop the annual count. Its owner has heard that small businesses can
+Ferrers Supply carries $340,000 of inventory, averages $19,000,000 of {gloss:gross-receipts} over the
+last three years, and wants to stop the annual count. Its owner has heard that small businesses can
 expense inventory.
 
 The eligibility test is IRC § 448(c), and Ferrers passes it comfortably. That lifts IRC § 471(a),
@@ -126,7 +137,7 @@ methods back, with another change and another adjustment. A client at $19,000,00
 fifth a year is being advised into a round trip.
 </div>
 
-<div class="scenario">
+<div class="scenario" data-type="fails">
 <h3>The correction that was not a change</h3>
 
 Ashbourne Joinery has for three years deducted the owner's personal vehicle insurance as a business
@@ -144,7 +155,7 @@ carry audit protection for a non-method item, and would draw attention to three 
 non-timing error.
 </div>
 
-<div class="scenario">
+<div class="scenario" data-type="interaction">
 <h3>The adjustment that cost more than the change saved</h3>
 
 Marchwood Engineering has been deducting a category of costs that should have been capitalised. The
@@ -159,6 +170,23 @@ That does not mean the change should not be made — the current method is wrong
 grows every year it continues. It means the advice has to include the number, the spread, and the
 audit protection the automatic procedures carry, so the client is choosing between a known cost now
 and an unknown one later rather than being surprised by the first.
+</div>
+
+<div class="scenario" data-type="procedural">
+<h3>The change made through the automatic procedure</h3>
+
+Calder Fabrication passed the gross receipts test comfortably for years on the {gloss:cash-method},
+but this year's average pushes it over the threshold, and it must adopt an {gloss:accrual-method} for
+its inventory items. Its preparer identifies the change as one listed on the current list of automatic
+changes and files Form 3115 with the timely filed return for the year of change, rather than
+requesting advance consent.
+
+Filing under the automatic procedures means no ruling request and no user fee, and — the part that
+matters most — audit protection for the years before the change: an examiner cannot go back and
+separately challenge the years Calder spent on the cash method once the change is properly made. The
+section 481(a) adjustment for the receivables, payables and inventory the accrual method now picks up
+is computed under the procedure's own terms and reported with the return, with nothing left to
+negotiate before the change takes effect.
 </div>
 
 ## Traps

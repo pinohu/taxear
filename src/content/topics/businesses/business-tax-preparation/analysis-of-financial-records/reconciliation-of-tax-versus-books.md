@@ -28,7 +28,18 @@ forms: []
 related: ["2.2.4.b", "2.2.4.c", "2.2.4.f", "2.2.4.d", "2.2.4.a", "2.2.4.e"]
 changelog:
   - { date: "2026-08-21", summary: "Initial draft. Sets out the IRM 4.10.3.8.1 statement of what Schedule M-1 reconciles and the different endpoint it has for a C corporation and for a pass-through, the Schedule M-3 triggers for corporations and partnerships including the partnership receipts test the corporate rule lacks, the partial relief for entities between $10 million and $50 million of assets, the three different things Schedule M-2 reports depending on the return, and the IRM audit techniques including the netting check and the prior and subsequent year comparison." }
+  - { date: "2026-08-25", summary: "Added a plain-language summary, glossary marks, and two typed scenarios (boundary, fails) alongside the existing three." }
 ---
+
+<div class="plain-terms">
+A business keeps two sets of numbers: what its accounting books say, and what its tax return says.
+The two rarely match. Some items land in a different year for each; others never show up on the tax
+side at all. Certain schedules make a business write down every one of those differences, so nobody
+has to guess where a gap came from. This mostly matters for corporations, partnerships, and S
+corporations that file a full return. The very smallest ones can often skip the extra schedules.
+What changes here is how much detail a return has to show, and which schedule format a given
+business must use.
+</div>
 
 Every book-to-tax difference is a story about either timing or law: the same amount counted in a
 different year, or an amount one system counts and the other never will. Schedules M-1 and M-3 make
@@ -107,7 +118,7 @@ omitted, and the liabilities the most productive part of it.
 
 ## Scenarios
 
-<div class="scenario">
+<div class="scenario" data-type="interaction">
 <h3>The receipts that did not decide it</h3>
 
 Bramford Tooling, a C corporation, has gross receipts of $50,000,000 and total assets at year end of
@@ -123,7 +134,7 @@ reportable entity partner test. Had Bramford been a partnership, its receipts al
 required M-3. The entity type decides which list applies.
 </div>
 
-<div class="scenario">
+<div class="scenario" data-type="baseline">
 <h3>Four conditions, not three</h3>
 
 Loxley Interiors LLP has total receipts of $180,000, total assets of $740,000, and files its
@@ -140,7 +151,7 @@ with no differences at all still completes Schedule M-1 if it fails any of the f
 partnership with substantial differences omits the schedule if it meets them all.
 </div>
 
-<div class="scenario">
+<div class="scenario" data-type="procedural">
 <h3>The two adjustments that cancelled</h3>
 
 Kesteven Machining's Schedule M-1 shows a single net adjustment of $30,000. The workpapers behind it
@@ -155,6 +166,35 @@ Both halves need testing on their own. The add-back turns on whether the bonuses
 IRC § 461(h) economic performance rules and the recurring item exception; the subtraction turns on
 whether the prior year accrual was correctly disallowed in the first place. Either could be wrong
 without the net figure moving much, and the netted presentation guarantees neither gets looked at.
+</div>
+
+<div class="scenario" data-type="boundary">
+<h3>Exactly at the line that pulls in Schedule M-3</h3>
+
+Hollowell Extrusion, a {gloss:c-corporation}, reports total assets of exactly $10,000,000 on the last
+day of its tax year.
+
+The Form 1120 trigger is total assets of $10 million or more — Hollowell sits exactly at that figure,
+not below it, so Schedule M-3 applies rather than Schedule M-1. But {fig:m3.partial_relief} also
+applies at exactly $10 million: because Hollowell's assets are at least $10 million and under $50
+million, it may complete Schedule M-3 Part I and file Schedule M-1 in place of Parts II and III. One
+dollar less in assets and neither rule would apply — Schedule M-1 alone would govern the whole
+return.
+</div>
+
+<div class="scenario" data-type="fails">
+<h3>Two conditions met, the third one lost it</h3>
+
+Farrow Millwork LP, a {gloss:partnership-entity}, has total receipts of $190,000 and total assets of
+$640,000, and furnishes its {gloss:schedule-k-1}s on time. One of its partners, however, is a
+corporation that owns 55 percent of Farrow's capital and profits interest.
+
+{fig:m3.partnership_trigger} makes Schedule M-3 mandatory for a partnership with a reportable entity
+partner owning 50 percent or more of capital, profit or loss on any day of the year — and 55 percent
+clears that regardless of how comfortably Farrow sits under the receipts and asset figures. Because
+Farrow is required to file Schedule M-3, it fails the fourth condition of the Schedule B question 4
+exception, {fig:m1.1065_exception}, and must complete Schedules L, M-1 and M-2 in addition to
+Schedule M-3.
 </div>
 
 ## Traps

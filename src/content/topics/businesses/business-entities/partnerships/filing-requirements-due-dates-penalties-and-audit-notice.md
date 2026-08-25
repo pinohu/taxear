@@ -24,11 +24,32 @@ forms: []
 related: ["2.1.2.a", "2.1.2.h", "2.1.2.k", "2.1.1.i"]
 changelog:
   - { date: "2026-08-21", summary: "Initial draft. Sets out the IRC § 6031(a) return requirement and the § 6031(b) obligation to furnish partner statements by the return due date with the four exceptions to the bar on amending them, the § 6072(b) filing date, the § 6698 penalty computed per partner per month with its 12-month cap and reasonable cause defence at the amount applying to returns required to be filed in 2027, the § 6222 consistency requirement enforced as a math error with the § 6213(b)(2) abatement right disapplied, the § 6223 designation of a partnership representative with sole authority, and the repeal by Pub. L. 114-74 § 1101 of the former §§ 6223 and 6224 partner notice and participation rights for years beginning after 2017." }
+  - { date: "2026-08-25", summary: "Added a plain-language summary, a timeline diagram of the filing and audit clock, glossary marks, and typed scenarios." }
+diagram:
+  archetype: "timeline"
+  caption: "The partnership compliance clock: filing, penalty accrual, and what changed for audits"
+  events:
+    - { when: "Original due date", what: "Form 1065 and Schedules K-1 are due — the 15th day of the third month after the tax year ends" }
+    - { when: "If the return is extended", what: "Lateness is measured from the extended date, not the original one — the § 6698 clock restarts here" }
+    - { when: "Each month (or part of one) late", what: "One more partner-month of penalty accrues, counting every partner who served any part of the year" }
+    - { when: "12 months late", what: "The § 6698 penalty stops growing — a cap on the penalty, not a deadline to file" }
+    - { when: "Years beginning after 2017", what: "The centralized audit regime applies: the partnership representative alone deals with the IRS, and partners have no statutory right to notice" }
 ---
+
+<div class="plain-terms">
+A partnership is a business owned by more than one person. It usually pays no tax of its own.
+Instead, it files a report each year, and each owner reports their own share. This page covers
+three things: when that report is due, what happens if it is late, and what happens if the IRS
+decides to look closer at it. Every partnership and every owner is affected, even if the business
+made no money at all. That is because the penalty for filing late depends on how many owners
+there are and how late the report is, not on how much tax is owed. This page also covers who deals
+with the IRS if it does take a closer look. Today, one person usually speaks for the whole
+partnership. The other owners may never be told that a review is happening.
+</div>
 
 Partnership compliance has two features that make it unlike anything else a preparer handles. The
 late-filing penalty is not measured by tax — a partnership owing nothing can accrue a five-figure penalty
-— and since the audit regime changed, the partners have no statutory right to be told that their own tax
+— and since the {gloss:audit} regime changed, the partners have no statutory right to be told that their own tax
 position is being examined. Both are consequences of the same design choice: the partnership is treated as
 the unit for procedural purposes even though it is not the taxpayer.
 
@@ -85,14 +106,14 @@ gives a number that has not been correct for many years, which is why the operat
 from the annual revenue procedure.
 
 The obligation to furnish partner statements sits alongside the return and carries its own timing:
-Schedules K-1 must reach the partners on or before the day the return is due. Note the restriction that
+{gloss:schedule-k-1}s must reach the partners on or before the day the return is due. Note the restriction that
 follows in IRC § 6031(b) — the information furnished may not be amended after the due date except in four
 listed situations, all of which belong to the centralised audit regime. A partnership that discovers an
 error in a Schedule K-1 after the due date cannot simply reissue it.
 
 IRC § 6222 is the provision that binds the partner to the partnership's treatment, and its enforcement
 mechanism is unusually sharp. An underpayment resulting from inconsistent treatment is assessed as though
-it were a mathematical or clerical error — meaning no notice of deficiency, no Tax Court petition before
+it were a mathematical or clerical error — meaning no {gloss:notice-of-deficiency}, no Tax Court petition before
 assessment — and IRC § 6213(b)(2), which would ordinarily let a taxpayer request abatement of a math error
 assessment and force the Service to proceed by deficiency, is expressly disapplied. A partner who takes a
 different view from the partnership and does not notify the Service of the inconsistency has almost no
@@ -113,7 +134,7 @@ which makes a notice-and-consultation clause a substantive protection rather tha
 
 ## Scenarios
 
-<div class="scenario">
+<div class="scenario" data-type="timing">
 <h3>The extension that was used up</h3>
 <p>A calendar-year partnership with five partners obtains a six-month extension of its 2026 Form 1065 and
 files on 10 November 2027.</p>
@@ -125,7 +146,7 @@ months. Two months multiplied by five partners gives ten partner-months, at the 
 required to be filed in 2027. The partnership's tax position is irrelevant to the computation.</p>
 </div>
 
-<div class="scenario">
+<div class="scenario" data-type="boundary">
 <h3>The partner who left in February</h3>
 <p>A partnership had nine partners at the start of 2026. One retired on 28 February and was not replaced,
 so eight partners remained for the rest of the year and eight Schedules K-1 were issued for the full
@@ -137,7 +158,7 @@ partnerships with high turnover: a firm that admitted three partners and lost tw
 penalised on a count higher than the number appearing on its year-end balance sheet.</p>
 </div>
 
-<div class="scenario">
+<div class="scenario" data-type="procedural">
 <h3>The partner who disagreed quietly</h3>
 <p>A partnership reports a large expenditure as currently deductible. One partner, advised that it should
 have been capitalised, reports her share differently on her own return. She files nothing to notify the
@@ -151,7 +172,7 @@ of deficiency. Notifying the Service of the inconsistent treatment is what prese
 it silently forfeits the procedure.</p>
 </div>
 
-<div class="scenario">
+<div class="scenario" data-type="fails">
 <h3>The audit nobody told the partners about</h3>
 <p>A partnership with thirty limited partners is examined for its 2024 year. The partnership
 representative negotiates and settles the adjustments without informing the limited partners, who learn of

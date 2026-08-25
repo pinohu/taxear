@@ -26,7 +26,17 @@ forms: []
 related: ["2.2.5.g", "2.2.2.c", "2.2.2.n", "2.2.5.j", "2.2.5.k"]
 changelog:
   - { date: "2026-08-21", summary: "Initial draft. Sets out the order in which the loss limitations operate — basis, at-risk, passive activity, then IRC § 461(l) — and the three ways to recover asset cost with the reasons to prefer each, together with the IRC § 172 carryforward and 80 percent rules with their ordering, the IRC § 179(b)(3) income limitation, the IRC § 168(k)(7) election out, and the IRC § 38 credit ordering and carryover." }
+  - { date: "2026-08-25", summary: "Added a plain-language summary, glossary marks, and a fourth typed scenario on timing a purchase across a loss year and a profitable one." }
 ---
+
+<div class="plain-terms">
+This page is about timing choices at tax time. When should a business deduct a cost? How fast
+should it write off new equipment? It covers three ways to write off equipment costs. It covers
+what happens to a loss a business cannot use right away. And it covers the order in which several
+rules can block a deduction. It matters to any business that is doing well, or growing, and is
+deciding whether to write something off now or spread it into later years. It does not change the
+rules themselves. It decides which choice actually helps, given where the business stands this year.
+</div>
 
 Most planning advice in this area is arithmetic in the wrong order. The useful questions are whether
 a deduction has anywhere to go this year, whether the taxpayer will be in a higher or lower position
@@ -110,7 +120,7 @@ credit for up to twenty years.
 
 ## Scenarios
 
-<div class="scenario">
+<div class="scenario" data-type="fails">
 <h3>The expensing that did nothing</h3>
 
 Norbury Plastics buys $900,000 of equipment in a year in which it already expects an operating loss
@@ -122,13 +132,13 @@ carryforward that IRC § 172(a)(2) releases at only 80 percent of taxable income
 so Norbury will pay tax in every profitable year until the carryforward is exhausted, and the
 equipment's cost will be recovered more slowly than MACRS would have recovered it.
 
-Electing out of bonus depreciation for the class under IRC § 168(k)(7) would have left the equipment
-on ordinary MACRS, spreading deductions into the profitable years ahead where they offset income
+Electing out of {gloss:bonus-depreciation} for the class under IRC § 168(k)(7) would have left the
+equipment on ordinary MACRS, spreading deductions into the profitable years ahead where they offset income
 directly rather than passing through the 80 percent filter. The election is class-wide and hard to
 reverse, which is a reason to make it deliberately rather than to discover it later.
 </div>
 
-<div class="scenario">
+<div class="scenario" data-type="baseline">
 <h3>The roof that section 179 could reach</h3>
 
 Ambleside Retail spends $340,000 replacing the roof on its store and $180,000 on shelving and
@@ -138,7 +148,7 @@ The two items take different routes. The shelving and fittings are qualified pro
 IRC § 168(k) and are expensed automatically. The roof is a structural component of non-residential
 real property, so § 168(k) does not reach it — but IRC § 179(e) treats qualified real property,
 including a roof on non-residential real property placed in service after the building was, as
-IRC § 179 property.
+property eligible for the {gloss:section-179-deduction}.
 
 So the answer is § 179 for the roof and § 168(k) for the rest, with the § 179 election made only to
 the extent needed. Two checks remain: the total spend against the § 179 phase-out threshold, and the
@@ -146,7 +156,7 @@ the extent needed. Two checks remain: the total spend against the § 179 phase-o
 active conduct of a trade or business and carries the excess forward.
 </div>
 
-<div class="scenario">
+<div class="scenario" data-type="interaction">
 <h3>The credit that was stranded</h3>
 
 Ravenglass Instruments qualifies for $220,000 of general business credits and expects tax liability
@@ -162,6 +172,23 @@ The better order is to compute the liability first, take enough deduction to be 
 room for the credit. IRC § 179 is the right instrument for this because it is elective and can be
 made for exactly the amount wanted; bonus depreciation is not, because it applies automatically to
 the whole class unless the taxpayer elects out of all of it.
+</div>
+
+<div class="scenario" data-type="timing">
+<h3>The purchase moved by six weeks</h3>
+
+Kestrel Millwork plans to buy $60,000 of shop equipment. In November it is running a loss for the
+year; by mid-January it expects to be solidly profitable. Its preparer is asked whether buying in
+December or waiting until January changes the outcome.
+
+The cost-recovery mechanics barely move — bonus depreciation is permanent at the full rate whichever
+month the purchase falls in, and the § 179 dollar limit and phase-out reset each January but
+Kestrel's purchase is nowhere near either ceiling either way. What changes entirely is what the
+deduction is worth. Bought in the loss year, the deduction adds to a {gloss:net-operating-loss}
+carryforward that IRC § 172(a)(2) will release at only 80 percent of income in later years. Bought
+after the turn into a profitable year, the same deduction offsets income directly, dollar for dollar,
+in the year it is taken. Same equipment, same invoice, six weeks apart — and one purchase date wastes
+most of the deduction's value while the other uses all of it immediately.
 </div>
 
 ## Traps

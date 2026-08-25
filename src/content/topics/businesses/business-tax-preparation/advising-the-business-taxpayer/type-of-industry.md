@@ -24,7 +24,18 @@ forms: []
 related: ["2.2.4.a", "2.2.5.e", "2.2.2.l", "2.2.5.l", "2.2.5.g"]
 changelog:
   - { date: "2026-08-21", summary: "Initial draft. Sets out the three different industry lists that operate in the Code and shows they are not interchangeable — the IRC § 199A(d)(2) specified service trade or business list, the IRC § 1202(e)(3) exclusions from a qualified trade or business, and the Reg. § 1.448-1T(e)(4) qualified personal service corporation fields — with the IRC § 199A(d)(3) applicable percentage phase-out, and the industry-specific regimes in IRC §§ 460, 613 and 263A." }
+  - { date: "2026-08-25", summary: "Added a plain-language summary, glossary marks, and a fourth typed scenario showing that specified-service status is irrelevant below the section 199A threshold." }
 ---
+
+<div class="plain-terms">
+This page is about how a business's line of work changes its tax treatment. It is also a warning:
+several rules use lists that sound alike but are not the same list. Some rules truly depend on what
+a business does. Builders, oil and gas firms, and farmers each get their own special treatment.
+Other rules use a list of jobs only as a stand-in for something else, and those lists do not match
+each other. This affects business owners in professional fields most of all. A job like engineering
+can be treated in very different ways, depending on which rule is being used. The code printed on
+the tax return itself changes nothing on its own.
+</div>
 
 Industry matters in the Code in two quite different ways. Some provisions ask what a business *does*
 and give a different rule accordingly — long-term contracts, extraction, farming. Others use an
@@ -106,7 +117,7 @@ business for section 199A purposes.
 
 ## Scenarios
 
-<div class="scenario">
+<div class="scenario" data-type="interaction">
 <h3>The engineer and the consultant</h3>
 
 Two sole proprietors each have $600,000 of qualified business income and taxable income well above
@@ -124,7 +135,7 @@ and with no W-2 wages and no qualified property that limitation produces nothing
 entirely different reason — and the reasons diverge as soon as either hires staff.
 </div>
 
-<div class="scenario">
+<div class="scenario" data-type="boundary">
 <h3>The practice in the middle band</h3>
 
 A married couple filing jointly run an accountancy practice. Their taxable income sits $60,000 above
@@ -142,7 +153,7 @@ couple as having no deduction because they are "over the threshold" has given aw
 number.
 </div>
 
-<div class="scenario">
+<div class="scenario" data-type="timing">
 <h3>The builder who wanted the cash method</h3>
 
 Cranbourne Construction averages $18,000,000 of gross receipts, is not a tax shelter, and takes on
@@ -151,12 +162,31 @@ contracts it expects to finish in about eighteen months.
 Two provisions have to be satisfied and both are. IRC § 460(e)(1)(B) removes the percentage of
 completion requirement for a construction contract where the taxpayer estimates at the outset that
 it will be completed within two years and meets the IRC § 448(c) gross receipts test for the year
-the contract is entered into. And § 448(c) itself lifts the cash method bar.
+the contract is entered into. And § 448(c) itself lifts the {gloss:cash-method} bar under the
+{gloss:method-of-accounting} rules.
 
 Two cautions belong in the advice. The two-year estimate is made contract by contract at the
 commencement date, so a longer contract taken later is on percentage of completion even though the
 company still qualifies. And the gross receipts test is retested annually on the preceding three
 years, so growth will eventually put both reliefs out of reach at once.
+</div>
+
+<div class="scenario" data-type="baseline">
+<h3>The financial planner who never asked the question</h3>
+
+A sole proprietor runs an investment advisory practice in its second year, with $70,000 of qualified
+business income and taxable income comfortably below the section 199A threshold. She asks whether
+investment advice counts as a specified service trade or business, worried the answer might cost her
+the {gloss:qualified-business-income-deduction} entirely.
+
+The question does not need answering. Investment advice is squarely on the specified service list —
+IRC § 199A(d)(2)(B) names investing and investment management by name — but IRC § 199A(b)(3)
+disregards specified service status entirely for a taxpayer below the threshold. She takes the full
+20 percent deduction on her qualified business income regardless of what list her practice sits on.
+
+This is the ordinary case for most small businesses, and it is why the three-list warning that
+dominates this topic matters mainly to businesses that have grown past the threshold. Below it, the
+lists are academic.
 </div>
 
 ## Traps

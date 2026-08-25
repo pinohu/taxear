@@ -22,7 +22,18 @@ forms: []
 related: ["2.1.2.d", "2.1.2.a", "2.1.1.b", "2.1.2.b"]
 changelog:
   - { date: "2026-08-21", summary: "Initial draft. Sets out the IRC § 761(a) definition of a partnership and the election to exclude an unincorporated organization from subchapter K, the § 761(c) rule that a partnership agreement includes modifications made up to the unextended return due date, the § 704(a) primacy of the agreement in fixing distributive shares, the § 709(a) denial of any deduction for organization and syndication costs with the § 709(b) election allowing $5,000 plus 180-month amortisation of organizational expenses only, the § 709(b)(3) definition of an organizational expense, the § 709(b)(2) treatment on early liquidation, and the distinction between general and limited partners with its § 1402(a)(13) consequence." }
+  - { date: "2026-08-25", summary: "Added a plain-language summary, glossary marks, and typed scenarios." }
 ---
+
+<div class="plain-terms">
+This page is about how a partnership begins, under the tax law. It covers what happens when
+owners put in money or property. It also covers how the cost of starting the business is treated.
+Any two or more people who run a business together, and split the profit, can count as a
+partnership. That is true even with no papers signed. Putting property into a partnership for a
+share of it is usually not a taxable event. Money spent creating the partnership can usually be
+written off little by little, over time. But money spent talking investors into buying in can
+never be written off at all. Knowing which is which, before the bill arrives, is worth real money.
+</div>
 
 Formation is where the partnership's two constitutional documents are settled: the agreement, which
 subchapter K treats as the primary source of the partners' shares, and the classification, which decides
@@ -111,16 +122,16 @@ organizational expenses loses the immediate deduction entirely but still amortis
 the period runs from when business *begins*, not from formation, which for a partnership that organises
 in one year and starts trading in the next is a different date.
 
-Finally, general and limited partner status is a matter of the governing State law and the agreement, and
+Finally, {gloss:general-partner} and {gloss:limited-partner} status is a matter of the governing State law and the agreement, and
 its tax consequence sits almost entirely in self-employment income. A general partner's distributive share
 from a trade or business is self-employment income; a limited partner's distributive share "as such" is
-excluded, though guaranteed payments for services actually rendered are carved back in. That single
+excluded, though {gloss:guaranteed-payment}s for services actually rendered are carved back in. That single
 difference is usually the largest tax consequence of the choice, and it is the one most often assumed
 rather than analysed.
 
 ## Scenarios
 
-<div class="scenario">
+<div class="scenario" data-type="baseline">
 <h3>The two friends who never signed anything</h3>
 <p>Ottavia and Benedek buy a delivery van together, take on courier work as a joint operation, split the
 receipts and share the running costs. They have no written agreement, no registration, and no name. They
@@ -134,7 +145,7 @@ subchapter K: the venture is the active conduct of a business, which is precisel
 election excludes.</p>
 </div>
 
-<div class="scenario">
+<div class="scenario" data-type="timing">
 <h3>The allocation agreed in February</h3>
 <p>A four-partner calendar-year partnership realises in January 2027 that its 2026 allocation of a large
 depreciation deduction does not reflect who bore the economic cost. All four partners agree in writing in
@@ -148,7 +159,7 @@ statute excludes extensions expressly, which is the single most important word i
 revised allocation must still have substantial economic effect under IRC § 704(b).</p>
 </div>
 
-<div class="scenario">
+<div class="scenario" data-type="fails">
 <h3>The legal bill that was two bills</h3>
 <p>A partnership formed to acquire and operate a hotel pays $180,000 to its lawyers. The engagement
 covered drafting the limited partnership agreement, filing the certificate, preparing a private placement
@@ -163,7 +174,7 @@ left unapportioned is at risk of being treated as syndication, which is the wors
 because syndication cost is never recovered by anybody.</p>
 </div>
 
-<div class="scenario">
+<div class="scenario" data-type="boundary">
 <h3>The expenses that were too large for the deduction</h3>
 <p>A partnership incurs $58,000 of organizational expenses and begins business in July 2026. It elects
 under IRC § 709(b).</p>

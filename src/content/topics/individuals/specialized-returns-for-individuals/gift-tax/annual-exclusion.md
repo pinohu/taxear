@@ -20,7 +20,18 @@ forms: []
 related: ["1.6.2.a", "1.6.2.c", "1.6.2.d", "1.6.2.e", "1.5.1.c"]
 changelog:
   - { date: "2026-08-20", summary: "Initial draft. Sets out the IRC § 2503(b) annual exclusion — per donee, indexed from a statutory $10,000 and rounded down to a multiple of $1,000 — with the present interest requirement in Reg. § 25.2503-3, the § 2503(c) rule for gifts to minors, the § 2503(e) qualified transfer exclusion for tuition and medical payments made directly, the § 529(c)(2) five-year election, the § 2503(f) and (g) exclusions for pension waivers and artwork loans, and the § 2523(i) substitution for a non-citizen donee spouse." }
+  - { date: "2026-08-25", summary: "Added a plain-language summary, glossary marks, and typed scenarios." }
 ---
+
+<div class="plain-terms">
+This is about how much a person can give away each year with no gift tax paperwork at all. It
+affects anyone who gives money or property to another person, especially parents and
+grandparents. The amount is per gift-getter, per year. Giving to more people multiplies it. One
+catch trips people up the most. The gift must be something the other person can use or spend
+right away. Money placed in a trust for later often does not count, unless the trust is written
+a certain way. Paying a school or hospital bill directly is different. That kind of payment
+escapes gift tax entirely and does not use up any of this yearly amount at all.
+</div>
 
 The annual exclusion is the most used provision in the transfer tax system and the one most often
 described incompletely. Two things about it get lost. It is per donee, so its total value depends
@@ -106,10 +117,10 @@ contribution back.
 from the total amount of gifts for the year. Gifts above it are taxable gifts, and they are added to
 the estate tax base at death under IRC § 2001(b)(1)(B) rather than reducing anything.
 
-<div class="scenario">
+<div class="scenario" data-type="fails">
 <h3>The trust that used no exclusion</h3>
 
-A grandmother transfers $80,000 to a trust for her four grandchildren, to be held until the youngest
+A grandmother transfers $80,000 to a {gloss:trust} for her four grandchildren, to be held until the youngest
 turns 30 and then divided. She assumes four annual exclusions cover it.
 
 None do. Each grandchild's interest is limited to commence in possession at a future date, so it is a
@@ -119,7 +130,7 @@ meeting the three conditions of § 2503(c), would have produced a different answ
 
 </div>
 
-<div class="scenario">
+<div class="scenario" data-type="procedural">
 <h3>The tuition cheque that went to the wrong person</h3>
 
 A grandfather wants to help with his granddaughter's $61,000 medical school year. He writes her a cheque
@@ -132,7 +143,7 @@ the cheque and nothing else.
 
 </div>
 
-<div class="scenario">
+<div class="scenario" data-type="timing">
 <h3>Five years used at once</h3>
 
 A father contributes $95,000 to a § 529 account for his son in a single year and elects to spread it.
@@ -140,12 +151,12 @@ A father contributes $95,000 to a § 529 account for his son in a single year an
 The contribution is a completed present-interest gift under § 529(c)(2)(A), and the election under
 § 529(c)(2)(B) takes the excess over the annual exclusion into account ratably over the five years
 beginning that year. He has therefore committed his annual exclusion for that son for five years: a
-birthday cheque in year three is a taxable gift, because the exclusion for that year is already spoken
-for. The election buys front-loading, not extra exclusion.
+birthday cheque in year three is a taxable gift subject to {gloss:gift-tax}, because the exclusion for
+that year is already spoken for. The election buys front-loading, not extra exclusion.
 
 </div>
 
-<div class="scenario">
+<div class="scenario" data-type="boundary">
 <h3>The § 2503(c) trust that failed on its last condition</h3>
 
 An uncle sets up a trust for his ten-year-old nephew. The trustee may spend income and principal for the

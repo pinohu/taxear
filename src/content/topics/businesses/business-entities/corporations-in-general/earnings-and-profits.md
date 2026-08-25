@@ -19,9 +19,19 @@ forms: []
 related: ["2.1.3.c", "2.1.3.a", "2.1.3.f", "2.1.1.c", "2.1.3.d", "2.1.3.e"]
 changelog:
   - { date: "2026-08-21", summary: "Initial draft. Sets out the IRC § 316(a) definition of a dividend by reference to current and accumulated earnings and profits with the rule that a distribution comes from the most recently accumulated earnings and profits, the § 312(a) reduction on a distribution and the § 312(b) treatment of appreciated property, the § 312(k) straight-line depreciation override and the § 312(n) economic adjustments, and the Reg. § 1.312-6 rules that the computation follows the corporation's accounting method and that tax-exempt income is included." }
+  - { date: "2026-08-25", summary: "Added a plain-language summary, glossary marks, and typed scenarios." }
 ---
 
-Earnings and profits has no definition in the Code. Section 312 says how it changes and section 316 says
+<div class="plain-terms">
+Earnings and profits is a company's own gauge of how much it could pay owners as a real dividend. It is
+not simply giving their investment back. It applies to any company that pays out cash or property to its
+owners. It decides whether that payout counts as taxable income, a tax-free return of their money, or a
+taxable gain. The number often looks nothing like the company's normal profit or its tax return. It
+counts some income the tax return never sees. It skips some costs the tax return allows. A company can pay
+a real, taxable dividend even in a year its tax return shows a loss.
+</div>
+
+{gloss:earnings-and-profits} has no definition in the Code. Section 312 says how it changes and section 316 says
 what it does, but neither says what it is. What it functions as is a measure of the corporation's capacity
 to make a distribution that is genuinely a return *on* the shareholders' investment rather than a return
 *of* it — which is why it includes income the tax system exempts, excludes deductions that do not
@@ -76,7 +86,7 @@ never produced a deduction: federal income tax paid, non-deductible fines and pe
 portion of meals, the excess of capital losses over capital gains. The organising question in each case is
 whether the corporation is actually richer or poorer, not whether the Code allowed a deduction.
 
-Timing differences are handled by overriding the Code's own accelerations. Depreciation is recomputed on
+Timing differences are handled by overriding the Code's own accelerations. {gloss:depreciation} is recomputed on
 the straight line method under IRC § 312(k), so a corporation taking a large first-year cost recovery
 deduction reduces taxable income far more than it reduces earnings and profits — and may therefore have
 ample earnings and profits to make a dividend in a year it reports a loss. The IRC § 312(n) adjustments do
@@ -86,7 +96,7 @@ mineral costs.
 Distributions reduce earnings and profits by money, by the principal amount of the corporation's own
 obligations, and by the adjusted basis of other property. Appreciated property is the exception worth
 knowing: IRC § 312(b) first increases earnings and profits by the appreciation and then measures the
-reduction by fair market value, so the net effect is a reduction equal to the property's value rather than
+reduction by {gloss:fair-market-value}, so the net effect is a reduction equal to the property's value rather than
 its basis. That reflects the fact that the corporation recognises gain on the distribution and has parted
 with something worth more than it cost.
 
@@ -98,7 +108,7 @@ basis, and capital gain beyond that — and its earnings and profits are nil, no
 
 ## Scenarios
 
-<div class="scenario">
+<div class="scenario" data-type="baseline">
 <h3>The profitable year after a decade of losses</h3>
 <p>A manufacturing corporation has an accumulated earnings and profits deficit of $4,000,000 built up over
 eleven years. In 2026 it earns current earnings and profits of $600,000 and distributes $500,000 to its
@@ -112,7 +122,7 @@ earnings and profits, and it runs the opposite way from the intuition that a com
 overall before it can pay a dividend.</p>
 </div>
 
-<div class="scenario">
+<div class="scenario" data-type="timing">
 <h3>The loss year with a dividend in it</h3>
 <p>A corporation takes a large first-year cost recovery deduction on new equipment and reports a taxable
 loss of $180,000 for 2026. Its accumulated earnings and profits at 1 January were $900,000. It distributes
@@ -125,7 +135,7 @@ the $900,000 accumulated pool is available under IRC § 316(a)(1). A taxable los
 dividend question; it is the beginning of a separate computation.</p>
 </div>
 
-<div class="scenario">
+<div class="scenario" data-type="interaction">
 <h3>The municipal bonds and the fine</h3>
 <p>A corporation's taxable income for 2026 is $400,000. During the year it received $70,000 of tax-exempt
 municipal bond interest, paid a $25,000 regulatory fine that is not deductible, and paid $84,000 of federal
@@ -138,7 +148,7 @@ income tax reduces earnings and profits by $84,000, again with no deduction. The
 the question is whether the corporation is better or worse off, not what the return showed.</p>
 </div>
 
-<div class="scenario">
+<div class="scenario" data-type="boundary">
 <h3>The distribution larger than the pool</h3>
 <p>A corporation has $120,000 of combined current and accumulated earnings and profits and distributes
 $500,000 in cash. Its sole shareholder has a stock basis of $200,000.</p>

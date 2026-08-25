@@ -21,7 +21,17 @@ forms: ["SS-4"]
 related: ["2.1.1.a", "2.1.1.e", "2.1.1.f", "2.1.1.g", "2.1.1.k"]
 changelog:
   - { date: "2026-08-21", summary: "Initial draft. Sets out the IRC § 6109(a) requirement to supply identifying numbers, the Reg. § 301.6109-1(a)(1)(ii) rules on which number each kind of person uses including the sole proprietor rule at (D), the Form SS-4 application and the Reg. § 301.6109-1(d)(2)(ii) duty to keep application information current, the Reg. § 301.6109-1(d)(2)(iii) rule that a partnership formed on an IRC § 708(b)(1)(B) termination keeps the old number, and the IRS guidance on responsible parties, nominees, the one-per-day limit and when each kind of entity needs a new number." }
+  - { date: "2026-08-25", summary: "Added a plain-language summary, glossary marks, and typed scenarios." }
 ---
+
+<div class="plain-terms">
+An employer identification number is just a label the IRS uses to track a business, like a Social Security
+number for a company. This page explains when a business needs one, and when it does not. It affects any
+business that hires workers, forms a company, or changes its legal shape. It does not affect a business
+that only changes its name, moves, or adds a location, since none of those need a new number. This page
+decides when a business must apply for a new number, and who may sign the form asking for one. That
+person must be a real human who actually runs the business, not a hired agent standing in.
+</div>
 
 The employer identification number is administrative, and that is why it produces errors. It is not a tax
 status, not an election, and not evidence of anything about how an entity is classified — it is a label
@@ -120,7 +130,7 @@ scheduling problem worth knowing about before the closing date rather than on it
 
 ## Scenarios
 
-<div class="scenario">
+<div class="scenario" data-type="baseline">
 <h3>The rename that needed nothing</h3>
 <p>Odalys has operated a landscaping business as a sole proprietor since 2019 under the name Verde Yards,
 with an employer identification number obtained when she took on her first employee. In 2026 she rebrands
@@ -134,7 +144,7 @@ the point of the obligation in Reg. § 301.6109-1(d)(2)(ii). If she later incorp
 is when the new number is required.</p>
 </div>
 
-<div class="scenario">
+<div class="scenario" data-type="procedural">
 <h3>The five closings in one afternoon</h3>
 <p>A practitioner is forming five single-purpose LLCs for one client, each to hold a separate property,
 all closing on the same Friday. Each will elect association status and each will have employees, so each
@@ -148,27 +158,28 @@ across five business days, or — if the entities genuinely have different contr
 correct responsible party for each, which is a matter of fact rather than a matter of convenience.</p>
 </div>
 
-<div class="scenario">
+<div class="scenario" data-type="timing">
 <h3>The single-member LLC that acquired an obligation</h3>
-<p>Teodoro formed a single-member LLC in 2023 to hold a consulting practice. It made no election, so it is
-disregarded, and he reports on Schedule C using his social security number. He has no employees. In March
-2026 he hires an assistant.</p>
+<p>Teodoro formed a single-member {gloss:llc} in 2023 to hold a consulting practice. It made no election, so
+it is disregarded, and he reports on Schedule C using his social security number. He has no employees. In
+March 2026 he hires an assistant.</p>
 <p>He now needs an employer identification number for the LLC. On the IRS guidance a single-member LLC
 that has to file excise or employment taxes needs its own number, and the reason lies in
-Reg. § 301.7701-2(c)(2)(iv)(B): a disregarded entity is treated as a corporation for the subtitle C taxes,
+Reg. § 301.7701-2(c)(2)(iv)(B): a {gloss:disregarded-entity} is treated as a corporation for the subtitle C
+taxes,
 so it is the employer, and the Forms 941 and W-2 are filed in the LLC's name and number rather than
 Teodoro's. The income tax position is unchanged — Schedule C continues — which is precisely the
 combination that confuses clients. One entity, two identifying numbers, both correct.</p>
 </div>
 
-<div class="scenario">
+<div class="scenario" data-type="boundary">
 <h3>The partnership that dissolved and the one that did not</h3>
 <p>Two engineering partnerships each undergo a change in 2026. In the first, one of three partners buys
 out the other two and continues the business as a sole proprietor. In the second, one of three partners
 sells their entire interest to a new incoming partner, and the firm continues with three partners as
 before.</p>
-<p>The first needs a new number. A partnership whose business is taken over by one partner operating as a
-sole proprietor is on the IRS list of changes requiring a new employer identification number, and the
+<p>The first needs a new number. A {gloss:partnership-entity} whose business is taken over by one partner
+operating as a sole proprietor is on the IRS list of changes requiring a new employer identification number, and the
 reason is that the partnership has ceased to exist — there is one owner where there were three, and a
 proprietorship is a different taxpayer. The second does not: a change in ownership that does not terminate
 the partnership is expressly on the "no new number" side, and the firm keeps filing Form 1065 under the

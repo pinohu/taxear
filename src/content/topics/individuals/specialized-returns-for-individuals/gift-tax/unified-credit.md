@@ -20,7 +20,19 @@ forms: []
 related: ["1.6.2.a", "1.6.2.b", "1.6.2.d", "1.6.2.e", "1.6.1.a"]
 changelog:
   - { date: "2026-08-20", summary: "Initial draft. Sets out the IRC § 2505 credit as one credit shared between the two taxes — its measurement by reference to § 2010(c), the reduction for credit allowed in preceding calendar periods, the § 2505(c) ceiling at the year's tax, and the denial to a nonresident who is not a citizen — together with the cumulative computation in § 2502(a) and the recomputation at death rates required by § 2001(g)(1)." }
+  - { date: "2026-08-25", summary: "Added a plain-language summary, typed scenarios, and glossary marks under the comprehension-layer rollout." }
 ---
+
+<div class="plain-terms">
+There is one credit, not two. It shields both lifetime gifts and property left at death from federal
+tax. This page explains how that single credit works. It matters only for people whose gifts and estate,
+added together, are very large. Most taxpayers never come close and never think about it again. Using
+part of the credit on a gift now leaves less of it for death later, because both draw from the same
+pool. The credit also builds on itself over time. Gifts from years ago count toward how much is left
+today. The tax rate on a new gift is worked out as if it were the next dollar after everything given
+before. Someone who is not a United States citizen or resident does not get this credit at all, though
+other breaks may still apply to them.
+</div>
 
 The gift tax and the estate tax share one credit, and the word "unified" is the whole point. A gift made
 in 2026 that exceeds the annual exclusion does not produce a tax bill for most clients, and the reason
@@ -101,21 +113,21 @@ estate tax base as adjusted taxable gifts; the gift tax already paid or notional
 and the credit is applied once. Using the credit during life is a timing decision about which tax it
 shelters, not a way to double it.
 
-<div class="scenario">
+<div class="scenario" data-type="interaction">
 <h3>The credit that had already been spent</h3>
 
 A client made taxable gifts of $9,000,000 in 2019 and paid no gift tax, the credit having absorbed it.
 In 2026 he wants to give another $8,000,000 and assumes the current exclusion amount covers it.
 
-It does not, because the credit is reduced under § 2505(a)(2) by the credit allowable for preceding
-calendar periods. His remaining credit corresponds to roughly $6,000,000 of exclusion, so around
-$2,000,000 of the new gift is exposed, and it is exposed at the top rate — the cumulative computation in
-§ 2502(a) puts the whole of this year's gift above the bracket thresholds. The current exclusion amount
-describes the total he may shelter across his life, not the amount available today.
+It does not, because the {gloss:unified-credit} is reduced under § 2505(a)(2) by the credit allowable
+for preceding calendar periods. His remaining credit corresponds to roughly $6,000,000 of exclusion, so
+around $2,000,000 of the new gift is exposed, and it is exposed at the top rate — the cumulative
+computation in § 2502(a) puts the whole of this year's gift above the bracket thresholds. The current
+exclusion amount describes the total he may shelter across his life, not the amount available today.
 
 </div>
 
-<div class="scenario">
+<div class="scenario" data-type="fails">
 <h3>The nonresident donor</h3>
 
 A citizen of another country, not resident in the United States, gives United States real property worth
@@ -123,13 +135,13 @@ $900,000 to her nephew.
 
 The gift is subject to United States gift tax under § 2501(a)(1) — the tax reaches transfers by any
 individual, resident or nonresident, and the exception in § 2501(a)(2) covers only intangible property.
-She may use the annual exclusion, but she has no unified credit: § 2505(a) allows it only to a citizen
-or resident. The tax is payable on essentially the whole gift, which is a result no domestic client ever
-encounters.
+She may use the {gloss:annual-exclusion}, but she has no {gloss:unified-credit}: § 2505(a) allows it only
+to a citizen or resident. The tax is payable on essentially the whole gift, which is a result no domestic
+client ever encounters.
 
 </div>
 
-<div class="scenario">
+<div class="scenario" data-type="baseline">
 <h3>The year with more credit than tax</h3>
 
 A client with no gift history makes a taxable gift of $400,000. The tentative tax on it is well below
@@ -142,11 +154,11 @@ computed afresh under § 2505(a)(1) and reduced only by what was actually allowe
 
 </div>
 
-<div class="scenario">
+<div class="scenario" data-type="timing">
 <h3>The rates that changed after the gift</h3>
 
 A client made large taxable gifts in the early 1990s, when the top gift tax rate was materially higher
-than it is now. He dies in 2026 and his executor computes the estate tax.
+than it is now. He dies in 2026 and his executor computes the {gloss:estate-tax}.
 
 The subtraction for gift tax payable is not the tax he actually paid. Section 2001(g)(1) requires the
 rates in effect at death to be used in place of the rates in force at the time of the gifts, for both

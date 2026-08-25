@@ -25,9 +25,19 @@ forms: []
 related: ["2.1.3.c", "2.1.3.b", "2.1.3.a", "2.1.3.d"]
 changelog:
   - { date: "2026-08-21", summary: "Initial draft. Sets out the IRC § 302(a) exchange treatment conditional on one of the five § 302(b) tests, the § 302(b)(1) meaningful reduction test, the § 302(b)(2) substantially disproportionate test with its two 80 percent ratios and 50 percent voting limitation, the § 302(b)(3) complete termination with the § 302(c)(2) family attribution waiver and its ten-year condition, the § 318(a) attribution rules that decide most redemption questions, and on the liquidation side the § 331 and § 336 double recognition, the § 334(a) fair market value basis, and the § 332 and § 337 nonrecognition for a subsidiary liquidating into an 80-percent distributee." }
+  - { date: "2026-08-25", summary: "Added a plain-language summary, glossary marks, and typed scenarios." }
 ---
 
-A redemption looks like a sale and the Code starts from the opposite assumption. A corporation buying back
+<div class="plain-terms">
+This topic covers what happens, tax-wise, when a company buys back its own stock from an owner. It also
+covers what happens when a company shuts down and hands out everything it owns. It affects the owners of a
+company and the company itself. The answer often turns on family ties an owner might not think mattered.
+It decides whether a stock buyback is taxed gently, like a sale, or harshly, like a dividend. It also
+decides whether closing the business triggers one round of tax or two. An owner whose family still holds
+stock afterward is often treated as still holding it too.
+</div>
+
+A {gloss:stock-redemption} looks like a sale and the Code starts from the opposite assumption. A corporation buying back
 its own stock is, by default, distributing its earnings — so IRC § 301 applies and the shareholder has a
 dividend, with no recovery of basis. Exchange treatment is the exception, available only if the redemption
 clears one of the five tests in IRC § 302(b), and every one of those tests is applied after attributing to
@@ -99,9 +109,9 @@ requiring a meaningful reduction in the shareholder's proportionate interest. It
 redemption that is neither large enough to be disproportionate nor complete, and it works best for a small
 minority holder with no control to lose.
 
-Liquidations are simpler because both sides recognise. The shareholder is treated as receiving full
+{gloss:liquidation}s are simpler because both sides recognise. The shareholder is treated as receiving full
 payment in exchange for the stock (IRC § 331(a)) and the corporation recognises gain or loss as if it had
-sold each asset to the distributee at fair market value (IRC § 336(a)). The distributee takes fair market
+sold each asset to the distributee at {gloss:fair-market-value} (IRC § 336(a)). The distributee takes fair market
 value as basis (IRC § 334(a)). Two levels of tax, which is the ordinary consequence of a C corporation
 ceasing to exist.
 
@@ -113,7 +123,7 @@ group.
 
 ## Scenarios
 
-<div class="scenario">
+<div class="scenario" data-type="fails">
 <h3>The founder who stayed on the board</h3>
 <p>Cordelia owns 40 percent of a family manufacturing company; her two adult children own 30 percent each.
 She has the company redeem her entire holding for cash, intending capital gain treatment. She agrees to
@@ -126,7 +136,7 @@ interest as officer, director, or employee" other than as a creditor — and the
 Had she resigned from the board and filed the agreement, the redemption would have been an exchange.</p>
 </div>
 
-<div class="scenario">
+<div class="scenario" data-type="boundary">
 <h3>The arithmetic of substantially disproportionate</h3>
 <p>Bartolomeu owns 6,000 of a corporation's 10,000 voting shares, with no attribution from anyone. The
 corporation redeems 2,500 of his shares.</p>
@@ -139,7 +149,7 @@ have held 4,000 of 8,000 — exactly 50 percent — and would have failed the li
 large the reduction looked.</p>
 </div>
 
-<div class="scenario">
+<div class="scenario" data-type="baseline">
 <h3>The liquidation taxed twice</h3>
 <p>A C corporation with a single individual shareholder liquidates. Its assets are worth $3,000,000 with
 an aggregate adjusted basis of $1,100,000. The shareholder's stock basis is $400,000.</p>
@@ -152,7 +162,7 @@ the double tax in its plainest form, and it is why a C corporation with apprecia
 unwind and why the choice of entity at formation matters so much.</p>
 </div>
 
-<div class="scenario">
+<div class="scenario" data-type="interaction">
 <h3>The subsidiary that folded into its parent</h3>
 <p>A parent corporation owns 100 percent of a subsidiary whose assets are worth $5,000,000 against an
 adjusted basis of $1,800,000. The subsidiary is liquidated into the parent under a plan of liquidation.</p>

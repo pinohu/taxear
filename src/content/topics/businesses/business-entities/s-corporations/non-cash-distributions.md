@@ -23,7 +23,17 @@ forms: []
 related: ["2.1.5.d", "2.1.5.c", "2.1.5.e", "2.1.3.c", "2.1.5.f"]
 changelog:
   - { date: "2026-08-21", summary: "Initial draft. Sets out the route by which IRC § 1371(a) brings IRC § 311 to bear on an S corporation distribution of property: gain recognised under IRC § 311(b)(1) as if the property were sold at fair market value and passed through under IRC § 1366, no loss recognised under IRC § 311(a), the amount of the distribution measured under IRC § 301(b) with the reduction for liabilities and the IRC § 336(b) floor, and the shareholder's fair market value basis under IRC § 301(d)." }
+  - { date: "2026-08-25", summary: "Added a plain-language summary, glossary marks, and two typed scenarios (boundary, timing) so all five scenarios carry distinct types." }
 ---
+
+<div class="plain-terms">
+This page is about what happens when an S corporation gives its owners property instead of cash.
+Handing out a building, equipment, or other property is treated as if the corporation sold it
+first, at what it is worth. If the property has grown in value, the corporation's gain passes
+through to the owners and raises what they have invested in the company. If the property has
+dropped in value, the loss just disappears. Nobody gets to deduct it. This page decides how big
+that first, deemed sale is, and how a debt attached to the property changes the numbers.
+</div>
 
 A distribution of property runs through two separate provisions in sequence, and reversing them
 is the commonest way to get the answer wrong. First the corporation is treated as having sold the
@@ -107,19 +117,19 @@ its recognition period converts a IRC § 311(b) deemed sale into a recognised bu
 the entity-level tax follows. {fig:sc.entity_tax_as_loss} (IRC § 1366(f)(2)) then feeds that tax
 back through the allocation.
 
-<div class="scenario">
+<div class="scenario" data-type="baseline">
 <h3>The warehouse distributed at a gain</h3>
 
-Pemberton Storage Inc., an S corporation with no accumulated earnings and profits and one
+Pemberton Storage Inc., an {gloss:s-corporation} with no accumulated earnings and profits and one
 shareholder, distributes a warehouse worth $500,000 with an adjusted basis of $180,000. The
-shareholder's stock basis before anything happens is $260,000.
+shareholder's stock {gloss:basis} before anything happens is $260,000.
 
 Step one is IRC § 311(b)(1): the corporation is treated as having sold the warehouse at $500,000,
 recognising $320,000 of gain. That gain passes through under IRC § 1366(a) and increases her stock
 basis under IRC § 1367(a)(1)(A) to $580,000. It also increases the accumulated adjustments account
 by $320,000.
 
-Step two is IRC § 1368(b). The amount of the distribution is $500,000, the fair market value of
+Step two is IRC § 1368(b). The amount of the distribution is $500,000, the {gloss:fair-market-value} of
 the property. Basis of $580,000 exceeds it, so nothing is included in gross income and her basis
 falls to $80,000.
 
@@ -129,7 +139,7 @@ characterised the distribution before the deemed sale, she would have started fr
 basis and reported $240,000 of additional gain that the statute does not produce.
 </div>
 
-<div class="scenario">
+<div class="scenario" data-type="fails">
 <h3>The equipment distributed at a loss</h3>
 
 Halloran Plant Co. distributes machinery worth $30,000 with an adjusted basis of $95,000 to its
@@ -149,7 +159,7 @@ shareholder would have had a deduction and the same $30,000 in hand. The two rou
 $65,000 of deduction and by nothing else.
 </div>
 
-<div class="scenario">
+<div class="scenario" data-type="interaction">
 <h3>The building that came with its mortgage</h3>
 
 Ravensworth Estates Inc. distributes a building worth $700,000, with an adjusted basis of
@@ -167,6 +177,35 @@ in income.
 His basis in the building is $700,000 under IRC § 301(d), not $180,000. He received a $700,000
 asset and assumed $520,000 of debt; the fair market value basis is the correct measure of what he
 holds.
+</div>
+
+<div class="scenario" data-type="boundary">
+<h3>The mortgage that exactly matched value</h3>
+
+Thistlewood Farms Inc. distributes land worth $260,000, with an adjusted basis of $100,000, to its
+sole shareholder subject to a mortgage of exactly $260,000 that she takes subject to. Her stock
+basis beforehand is $40,000.
+
+{fig:noncash.liability_floor} (IRC § 336(b), applied by IRC § 311(b)(2)) only substitutes the
+liability for fair market value where the liability exceeds it. Here the two are equal, so the
+floor changes nothing: the deemed sale price is still $260,000, and the gain is $160,000. Had the
+mortgage been $261,000 instead — one dollar over value — the floor would step in and the deemed
+sale price would be $261,000, adding one dollar of gain the property was never actually worth. The
+line is exact, not approximate.
+</div>
+
+<div class="scenario" data-type="timing">
+<h3>Same distribution, different year</h3>
+
+An S corporation converted from a C corporation still has unrecognised built-in gain in a parcel
+of land it owns. Distributing that land during its IRC § 1374 recognition period sends the
+IRC § 311(b)(1) deemed sale gain straight into the corporate-level built-in gains tax of
+IRC § 1374, on top of the gain passing through to the shareholders. Distributing the identical
+parcel, at the identical value, after the recognition period has ended triggers no such tax —
+only the IRC § 311(b)(1) gain passes through.
+
+The property, the value, and the shareholders are unchanged. Only the date moved. {fig:sc.built_in_gains}
+(IRC § 1374) turns a single transaction into two different tax bills depending on when it happens.
 </div>
 
 <div class="callout trap">

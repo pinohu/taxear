@@ -32,7 +32,12 @@ forms: []
 related: ["2.2.4.b", "2.2.4.c", "2.2.4.g", "2.1.5.c", "2.1.2.a", "2.2.4.h", "2.2.4.i"]
 changelog:
   - { date: "2026-08-21", summary: "Initial draft. Sets out the IRC § 702(a) and § 1366(a)(1) separately stated items with the test that decides which items qualify, the IRC § 703(a)(2) deductions a partnership may not take, the IRC § 705 and § 1367 basis adjustments including the reduction for nondeductible non-capital expenditures, the IRC § 704(d) and § 1366(d) loss limitations and the debt basis tier that only subchapter S provides, and the IRC § 6222 consistency requirement enforced by math error assessment." }
+  - { date: "2026-08-25", summary: "Added a plain-language summary, glossary marks, and three typed scenarios (boundary, timing, procedural) alongside the existing three." }
 ---
+
+<div class="plain-terms">
+A Schedule K-1 tells a business owner their share of the firm's income and costs for the year. Some items sit on their own line instead of being lumped together. That happens when the item needs different treatment depending on the owner's own facts. This mainly affects partners, LLC members, and owners of an S corporation. It does not affect employees or the owner of an ordinary corporation. The K-1 also sets a cap on how large a loss an owner can deduct. That cap depends on how much money the owner has put into the business so far.
+</div>
 
 A Schedule K-1 is not a summary. It is a set of instructions telling the owner to redo, at owner
 level, work the entity was forbidden to finish. Two questions decide almost every issue here: why is
@@ -105,7 +110,7 @@ disagrees must notify the Service under § 6222(c), not simply file differently.
 
 ## Scenarios
 
-<div class="scenario">
+<div class="scenario" data-type="baseline">
 <h3>The fine that reduced basis</h3>
 
 Marchmont Freight LLC, taxed as a partnership, has ordinary business income of $300,000 before a
@@ -123,7 +128,7 @@ gain the partner will report on selling the interest. The item appears on the K-
 precisely so the partner can make that adjustment.
 </div>
 
-<div class="scenario">
+<div class="scenario" data-type="interaction">
 <h3>Two owners, two loss limits</h3>
 
 Halstead Design has one owner, an ordinary loss of $90,000, stock or partnership basis of $55,000,
@@ -141,7 +146,7 @@ a bank loan and the two regimes diverge sharply: the guarantee gives the shareho
 the partner may still take basis in the liability.
 </div>
 
-<div class="scenario">
+<div class="scenario" data-type="fails">
 <h3>The charitable contribution that could not be taken</h3>
 
 Ardwick Partners makes a $60,000 cash gift to a public charity. Its preparer deducts it in computing
@@ -156,6 +161,48 @@ The reason is not formalism. A partner already at their percentage limitation ge
 gift this year; a partner well below it deducts in full; a partner who does not itemize deducts
 nothing. Only the partner knows which case applies, so only the partner can compute it. The same
 logic explains every other item on the § 703(a)(2) list.
+</div>
+
+<div class="scenario" data-type="boundary">
+<h3>The loss that landed exactly on the basis line</h3>
+
+A partner's {gloss:basis} in her partnership interest, after all of the year's increases, stands at
+$50,000. Her distributive share of the partnership's loss for the year is also $50,000.
+
+IRC § 704(d) allows a partner's distributive share of loss only to the extent of the adjusted basis
+of the partnership interest — and basis exactly equaling the loss is enough for the full amount to
+pass through, taking basis to zero. Had the loss instead been $50,001, only $50,000 would be allowed
+this year, and the remaining dollar would carry forward under § 704(d) until basis is restored. The
+line is not "large loss versus small basis" — it is a strict equality, tested to the dollar.
+</div>
+
+<div class="scenario" data-type="timing">
+<h3>The suspended loss that came back</h3>
+
+A partner's basis reaches zero at the end of year one after absorbing that year's losses, leaving
+$30,000 of loss suspended for lack of basis. She takes no further losses in year two but contributes
+$30,000 of additional capital in year three, before her year-three K-1 is prepared.
+
+Section 704(d) does not extinguish a suspended loss — it carries forward indefinitely and becomes
+deductible once basis is available again. The same $30,000 loss that produced no deduction in year
+one is fully deductible in year three, once the contribution restores basis. Nothing about the loss
+changed; only the year in which basis existed to absorb it did.
+</div>
+
+<div class="scenario" data-type="procedural">
+<h3>The disagreement filed the right way</h3>
+
+A partner believes the partnership's {gloss:schedule-k-1} misclassified a
+{gloss:separately-stated-item} — a payment reported as guaranteed payment income that she believes
+should instead be capital gain. Rather than simply reporting it her own way, she attaches a
+completed notice of inconsistent treatment to her timely filed return, identifying the item and
+explaining the disagreement.
+
+IRC § 6222(c) is exactly this route: a partner who notifies the Service of an inconsistent position
+before filing is not subject to the math-error assessment in § 6222(b), because the inconsistency
+was disclosed rather than discovered. Filing nothing and simply reporting differently would have
+left her exposed to an assessment with no right to the ordinary deficiency procedures — being
+correct on the merits would not have mattered until the notice was filed.
 </div>
 
 ## Traps

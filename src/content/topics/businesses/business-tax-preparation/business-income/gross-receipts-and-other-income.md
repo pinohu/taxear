@@ -23,7 +23,17 @@ forms: []
 related: ["2.2.1.b", "2.2.1.c", "2.2.1.d", "2.1.1.j", "2.1.1.k", "2.2.2.a", "2.2.2.b", "2.2.2.d", "2.2.2.e", "2.2.2.j", "2.2.2.l", "2.2.2.n", "2.2.4.a", "2.2.4.b", "2.2.4.d"]
 changelog:
   - { date: "2026-08-21", summary: "Initial draft. Sets out IRC § 61(a) and the Reg. § 1.61-3(a) computation of gross income from a manufacturing, merchandising or mining business, the prohibition on netting selling expenses into it, the constructive receipt rule of Reg. § 1.451-2(a) for cash method businesses, and the IRC § 451(b) financial statement conformity and IRC § 451(c) advance payment rules for accrual method businesses. Records the two 2026 information reporting changes that move in opposite directions: the IRC § 6041 threshold raised to $2,000 and the IRC § 6050W threshold restored as if the reduction had never been enacted." }
+  - { date: "2026-08-25", summary: "Added a plain-language summary, glossary marks, and a fourth typed scenario on the IRC § 451(b) financial statement conformity ceiling. No diagram: the cash-method and accrual-method timing rules branch rather than form a single gate sequence, and none of the built archetypes fits a branch." }
 ---
+
+<div class="plain-terms">
+Almost anything a business takes in counts as income unless a rule says otherwise.
+This page sets out how a business adds up that income, and when each dollar belongs on the tax return.
+It affects every business, whether it sells goods, sells services, or just earns interest on a bank
+balance. It does not change what counts as income. It only fixes the amount and the year. This page
+decides the formula for total business income. It also decides which year a payment belongs in, based
+on whether the business counts money when it is in hand or when it is earned.
+</div>
 
 Two questions decide almost every issue in this topic. Is the item income at all, and if so, in
 which year? The first has a famously wide answer and a narrow set of exclusions. The second turns
@@ -119,10 +129,10 @@ size test rather than as a measure of income: {fig:method.gross_receipts_2026}
 the aggregation rules of IRC § 448(c)(2) pull in related businesses. A question that gives you a
 figure labelled "gross receipts" is usually testing a threshold, not a computation of income.
 
-<div class="scenario">
+<div class="scenario" data-type="baseline">
 <h3>The formula, applied to a real set of books</h3>
 
-Ardingly Hardware Inc. has sales of $2,400,000, cost of goods sold of $1,450,000, salesmen's
+Ardingly Hardware Inc. has sales of $2,400,000, {gloss:cost-of-goods-sold} of $1,450,000, salesmen's
 commissions of $190,000, interest on its operating account of $6,000, a $28,000 gain on the sale
 of a delivery van, and $4,000 received from a supplier as a settlement of a warranty claim.
 
@@ -138,10 +148,10 @@ Note also that three of the four additions are not sales at all. The formula add
 from investments and from incidental or outside operations or sources" without qualification.
 </div>
 
-<div class="scenario">
+<div class="scenario" data-type="timing">
 <h3>The cheque in the drawer</h3>
 
-Delahay Surveying, a cash method sole proprietorship, finishes a job on 15 December 2026. The
+Delahay Surveying, a {gloss:cash-method} sole proprietorship, finishes a job on 15 December 2026. The
 client writes a cheque on 27 December and telephones to say it is ready for collection. The
 proprietor, wanting the income in 2027, does not collect it until 6 January.
 
@@ -156,10 +166,10 @@ nothing has been made available to her, and the income belongs to 2027.
 The test is never what the taxpayer did. It is what the taxpayer could have done.
 </div>
 
-<div class="scenario">
+<div class="scenario" data-type="boundary">
 <h3>The three-year maintenance contract</h3>
 
-Calderbank Systems Inc., an accrual method business with audited accounts, sells a three-year
+Calderbank Systems Inc., an {gloss:accrual-method} business with audited accounts, sells a three-year
 maintenance contract on 1 October 2026 for $90,000 received in full. Its accounts recognise
 $7,500 of revenue in 2026 and the rest across 2027 to 2029.
 
@@ -174,6 +184,20 @@ taxed in 2027 even though $52,500 of it will not be earned for book purposes unt
 
 And {fig:income.advance_election} (IRC § 451(c)(2)(B)) — having made the election, the company
 must keep using it.
+</div>
+
+<div class="scenario" data-type="fails">
+<h3>The year the accounts moved faster than the return</h3>
+
+Wrenbury Components Ltd, an accrual method manufacturer with audited financial statements, recognizes
+$600,000 of subscription revenue in its 2026 audited accounts. Its tax return follows the all events
+test alone and defers $150,000 of that amount to 2027, reasoning that economic performance under the
+underlying service contract is not complete until then.
+
+That does not work. {fig:income.afs_conformity} (IRC § 451(b)(1)) does not permit the tax year to run
+later than the accounts once an applicable financial statement exists, whatever the all events test
+alone would otherwise produce. The $150,000 belongs in 2026, and the return as filed understates gross
+income for that year by that amount.
 </div>
 
 <div class="callout trap">

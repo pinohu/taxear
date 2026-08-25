@@ -20,7 +20,18 @@ forms: []
 related: ["2.1.1.b", "2.1.1.e", "2.1.1.g", "2.1.1.l", "1.4.1.d", "2.1.1.c", "2.1.1.h", "2.1.1.j", "2.1.1.k", "2.2.4.a"]
 changelog:
   - { date: "2026-08-21", summary: "Initial draft. Sets out the sole proprietorship as the absence of an entity — disregarded under Reg. § 301.7701-2(c)(2)(i), reported on the owner's return with no separate filing date under IRC § 6072, subject to self-employment tax under §§ 1401 and 1402 with the § 6017 return requirement and the unindexed $400 floor, and deducting under the ordinary § 162 standard." }
+  - { date: "2026-08-25", summary: "Added a plain-language summary, glossary marks, and typed scenarios. No diagram: the content is a series of negative definitions (no entity, no return, no separate date) rather than a decision, threshold, or timeline, and a forced diagram here would not clarify anything a diagram archetype actually answers." }
 ---
+
+<div class="plain-terms">
+A sole proprietorship is just a plain word for one thing. One person owns a business and set up no
+company for it. There is no company tax return to file. The business income and costs go right on
+the owner's own tax form. Everything follows the owner's own deadlines, not a separate set of dates.
+This is the normal starting point for anyone who works for themselves. It applies unless they set up
+a corporation or a partnership instead. There is one real cost to this simple setup. The owner pays
+both shares of social security and Medicare tax on the profit. An employee would normally split that
+cost with their boss.
+</div>
 
 The sole proprietorship is the default state of an unincorporated business with one owner, and it is
 defined by what it is not. There is no entity, no separate return, no separate taxable year and no
@@ -88,7 +99,7 @@ income, which matters where one spouse is over the wage base and the other is no
 tax obligations, an employer identification number and the payroll filings are the owner's
 responsibility in their own name, and are covered at 2.1.1.h and 2.1.1.k.
 
-<div class="scenario">
+<div class="scenario" data-type="procedural">
 <h3>The March deadline that did not apply</h3>
 
 A client runs a design business as a sole proprietor. Her accountant's checklist, written for the firm's
@@ -102,7 +113,7 @@ brings her is the first estimated tax instalment date the following month.
 
 </div>
 
-<div class="scenario">
+<div class="scenario" data-type="boundary">
 <h3>The $380 that was not self-employment income</h3>
 
 A retired client repairs clocks occasionally and made $380 of net profit from it in the year, with no
@@ -115,20 +126,20 @@ purposes — the exclusion is from the self-employment charge, not from the retu
 
 </div>
 
-<div class="scenario">
+<div class="scenario" data-type="interaction">
 <h3>Two spouses, one joint return, two computations</h3>
 
 A couple file jointly. She has $210,000 of net earnings from a consultancy; he has $16,000 from a small
 craft business.
 
-The self-employment tax is not computed on their combined $226,000. Section 6017 requires the sum of the
+The {gloss:self-employment-tax} is not computed on their combined $226,000. Section 6017 requires the sum of the
 tax computed on each spouse's separate self-employment income, so her earnings run against the wage base
 on their own and his do the same. Aggregating them would move part of his earnings above a base that his
 own earnings never reach, and would overstate the tax.
 
 </div>
 
-<div class="scenario">
+<div class="scenario" data-type="baseline">
 <h3>The business that was still the owner</h3>
 
 A client forms a single-member limited liability company for his consultancy, obtains an employer
@@ -136,8 +147,8 @@ identification number for it, and opens a bank account in its name. He asks whic
 files.
 
 None. Under Reg. § 301.7701-2(c)(2)(i) a business entity with a single owner that is not a corporation
-is disregarded as separate from its owner, so for income tax purposes the company is a sole
-proprietorship and its results go on his individual return. State law liability protection and federal
+is disregarded as separate from its owner, so for income tax purposes the company is a {gloss:sole-proprietorship}
+and its results go on his individual return. State law liability protection and federal
 tax classification are different questions, and the answer to one says nothing about the other. Whether
 he can change that answer is 2.1.1.g.
 

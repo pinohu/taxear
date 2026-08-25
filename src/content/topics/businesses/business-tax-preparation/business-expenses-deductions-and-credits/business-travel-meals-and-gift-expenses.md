@@ -26,7 +26,26 @@ related: ["2.2.2.a", "2.2.2.f", "2.2.2.c", "2.2.1.a", "2.2.2.b", "2.2.5.c"]
 changelog:
   - { date: "2026-08-21", summary: "Initial draft. Sets out the IRC § 162(a)(2) travel deduction with the one-year rule that ends temporary status, the IRC § 274(a) disallowance of entertainment and club dues, the two IRC § 274(k) conditions on food and beverages and the IRC § 274(n) halving that follows, the IRC § 274(b) gift limit with its two exclusions and the partnership rule, and the IRC § 274(d) substantiation requirement. Records that IRC § 274(o) first bites in 2026: Pub. L. 115-97 § 13304(e)(2) applied it to amounts incurred or paid after 31 December 2025." }
   - { date: "2026-08-21", summary: "Adds the per diem substantiation rates from Notice 2025-54, opened at source today — the high-low rates and the meal portions of each, the federal per diem figure at which a locality becomes high-cost, the special transportation industry rates, and the incidental-expenses-only rate. Records that per diem substitutes for the amount only, leaving time, place and business purpose to be proved, and that the rates change on 1 October rather than 1 January." }
+  - { date: "2026-08-25", summary: "Added a plain-language summary, a threshold diagram of the gift-expense lines, and two typed scenarios (fails, procedural) rounding the scenario set out to five types." }
+diagram:
+  archetype: "threshold"
+  caption: "Where the gift-expense lines fall: below $4 escapes the gift rule entirely, above $25 stops being deductible"
+  min: 0
+  max: 30
+  marks:
+    - { figureKey: "travel.gift_exclusions", value: 4, label: "$4 or less: not a gift at all" }
+    - { figureKey: "travel.gift_limit", value: 25, label: "$25 cap on the rest", emphasis: true }
 ---
+
+<div class="plain-terms">
+This page covers the cost of business trips, meals, client fun nights out, and small gifts. It
+affects any business or self-employed person with these normal costs. It decides how much of each
+cost you can write off, and the rules are not the same for each one. A trip away from home is
+usually a full write-off. Taking a client out for fun, like a ball game, is not a write-off at all
+any more. A business meal is only a half write-off, and only once it clears two basic rules. Gifts
+to a client face a tiny yearly cap per person. This year, a new rule also ends the write-off for
+meals a business gives its own staff, like a work cafeteria.
+</div>
 
 This topic has been rewritten twice by statute in a decade and is about to change again for most
 employers. Two of the three headings — entertainment and employer-provided meals — now behave in
@@ -128,7 +147,7 @@ high-low method the rates are {fig:travel.perdiem_high_low} (Notice 2025-54 § 5
 (Notice 2025-54 § 4). Note that the notice runs on a federal fiscal year rather than a calendar
 year, so the rates in force change on 1 October.
 
-<div class="scenario">
+<div class="scenario" data-type="baseline">
 <h3>The theatre evening, itemised</h3>
 
 A consultant takes two clients to the theatre. The tickets cost $100 each, and during the interval
@@ -148,7 +167,7 @@ Change one fact: buy the food as part of a package with the tickets, not separat
 then an inseparable part of the entertainment cost, and the deduction is nil.
 </div>
 
-<div class="scenario">
+<div class="scenario" data-type="timing">
 <h3>The canteen that stopped paying for itself</h3>
 
 Wolterton Instruments runs a subsidised staff canteen on its factory site. Meals are furnished for
@@ -169,7 +188,7 @@ The planning consequence is stark and immediate: the same expenditure that was h
 December 2025 is wholly non-deductible in January 2026.
 </div>
 
-<div class="scenario">
+<div class="scenario" data-type="boundary">
 <h3>Gifts to one customer, four ways</h3>
 
 A firm wants to thank a good customer. It considers four options, each costing about $100 per
@@ -190,6 +209,38 @@ use on the recipient's business premises is outside the limit entirely.
 IRC § 274(n) govern and half is deductible, provided someone from the firm attends.
 
 Four routes to the same gesture, and the deduction ranges from $25 to the full amount.
+</div>
+
+<div class="scenario" data-type="fails">
+<h3>The assignment that was never temporary</h3>
+
+An engineer accepts a posting to a client site that her employer expects, from the outset, to run
+for fourteen months. She budgets for hotel and meal costs the whole time and plans to deduct them
+as travel away from home. The assignment in fact wraps up after nine months when the client
+project ends early.
+
+{fig:travel.one_year} (IRC § 162(a), closing text) tests the expectation at the start of the
+assignment, not how things turn out. A posting expected to exceed one year is indefinite from day
+one, so her home is deemed to be wherever the assignment is — meaning none of her living costs
+there ever qualify as travel away from home, not even for the nine months it actually ran. The
+deduction fails completely, and it fails for the entire assignment, not just the months past the
+one-year mark.
+</div>
+
+<div class="scenario" data-type="procedural">
+<h3>Substantiating a multi-city trip without a shoebox of receipts</h3>
+
+A sales rep for a small manufacturer takes a four-day trip covering a high-cost city for two
+nights and an ordinary-cost city for two more. Rather than saving every meal and lodging receipt,
+the company uses the high-low per diem method to substantiate the amount of her expenses.
+
+Under {fig:travel.perdiem_high_low}, the company can treat each high-cost night as covering both
+lodging and meals at the higher combined rate, and each other night at the lower rate, without a
+receipt for any individual meal or hotel bill. What the per diem method does not substitute for is
+time, place, and business purpose — the rep still has to show where she was, when, and why the
+trip was for business, in her expense report or trip log. Skipping the receipts is allowed;
+skipping the record of the trip itself is not, and {fig:travel.substantiation} (IRC § 274(d)) denies
+the deduction entirely if that record is missing.
 </div>
 
 <div class="callout trap">

@@ -20,7 +20,19 @@ forms: []
 related: ["1.6.2.b", "1.6.2.c", "1.6.2.d", "1.6.2.e", "1.6.1.c"]
 changelog:
   - { date: "2026-08-20", summary: "Initial draft. Sets out the IRC § 2513 election to treat a gift by one spouse as made half by each — the citizenship and marital status conditions, the general power of appointment exception, the all-or-nothing scope of the consent, the § 2513(b)(2) deadline and the § 2513(c) rule that makes a late consent irrevocable, and the § 2513(d) joint and several liability that comes with it — together with the § 6019 return requirement a split gift does not remove." }
+  - { date: "2026-08-25", summary: "Added a plain-language summary, typed scenarios, and glossary marks under the comprehension-layer rollout." }
 ---
+
+<div class="plain-terms">
+Gift-splitting lets a married couple treat a gift made by only one of them as though each spouse gave
+half. That way, the couple can use two yearly tax-free allowances against a single gift, instead of just
+one. It mainly helps couples where the money or property being given belongs to just one spouse. If each
+spouse already has their own funds, they can usually just give separately and splitting adds nothing.
+Choosing to split covers every gift either spouse made that year, not just the one the couple has in
+mind, and it must be agreed to by a set date that arrives before many people expect it. Once that date
+passes, the choice generally cannot be undone. In exchange for the extra allowance, both spouses become
+responsible for the whole year's gift tax, not just their own share.
+</div>
 
 Gift-splitting is a small election with a long tail. It lets a couple use two annual exclusions against
 a gift that only one of them made, which is why it exists and why it is usually right. What clients are
@@ -95,19 +107,19 @@ added back to the base at death under § 2001(b)(1)(B). {fig:estate.tax_computat
 **And file even when the tax is nil.** The return requirement in § 6019 keys off the gift exceeding the
 annual exclusion *before* splitting, in the hands of the spouse who actually made it.
 
-<div class="scenario">
+<div class="scenario" data-type="baseline">
 <h3>The gift from one account</h3>
 
 A husband gives his nephew $34,000 from an account in his sole name. His wife made no gifts that year.
 
-Without splitting, he has made a taxable gift of $34,000 less one annual exclusion. With his wife's
-consent under § 2513, the gift is treated as $17,000 from each of them, and each $17,000 is inside a
-single annual exclusion, so there is no taxable gift at all. He must still file a return: § 6019 keys
+Without splitting, he has made a taxable gift of $34,000 less one {gloss:annual-exclusion}. With his
+wife's consent under § 2513, the gift is treated as $17,000 from each of them, and each $17,000 is inside
+a single annual exclusion, so there is no taxable gift at all. He must still file a return: § 6019 keys
 off the gift he made, which exceeded one annual exclusion, and the consent is signified on that return.
 
 </div>
 
-<div class="scenario">
+<div class="scenario" data-type="interaction">
 <h3>The consent that reached further than intended</h3>
 
 The same couple split that gift. In November the wife had given her sister $28,000 from her own
@@ -120,7 +132,7 @@ husband's exclusion. Whether that is better or worse depends on the numbers, but
 
 </div>
 
-<div class="scenario">
+<div class="scenario" data-type="boundary">
 <h3>The change of mind that came a day late</h3>
 
 A couple sign a consent on 2 April. On 20 April their adviser works out that not splitting would have
@@ -134,17 +146,17 @@ window is signing early and changing their minds before 15 April.
 
 </div>
 
-<div class="scenario">
+<div class="scenario" data-type="procedural">
 <h3>The liability that outlived the marriage</h3>
 
-A couple consent to split gifts for a year in which the husband made substantial gifts of closely held
-stock. The valuation is later reduced on examination and a large gift tax deficiency is assessed. By
-then they have divorced.
+A couple consent to {gloss:gift-splitting} for a year in which the husband made substantial gifts of
+closely held stock. The valuation is later reduced on examination and a large gift tax deficiency is
+assessed. By then they have divorced.
 
 She is liable for the whole of it. Section 2513(d) makes the liability of each spouse for the entire
-tax of that calendar year joint and several once consent is signified, and nothing about the divorce
-changes that. The stock was never hers, the valuation position was not hers, and the exposure is
-identical to her former husband's.
+tax of that calendar year {gloss:joint-and-several-liability} once consent is signified, and nothing
+about the divorce changes that. The stock was never hers, the valuation position was not hers, and the
+exposure is identical to her former husband's.
 
 </div>
 

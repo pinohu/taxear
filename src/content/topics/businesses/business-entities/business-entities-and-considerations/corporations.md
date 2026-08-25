@@ -21,7 +21,16 @@ forms: []
 related: ["2.1.1.a", "2.1.1.b", "2.1.1.d", "2.1.1.g", "1.6.3.e", "2.1.1.f", "2.1.1.i", "2.1.1.j", "2.1.1.k", "2.1.1.l", "2.1.3.a", "2.1.3.b", "2.1.3.d", "2.1.3.g", "2.1.3.h", "2.1.4.b", "2.1.4.a", "2.1.4.c", "2.1.4.e", "2.1.4.f"]
 changelog:
   - { date: "2026-08-21", summary: "Initial draft. Sets out the flat IRC § 11(b) rate, the § 6072(a) April filing date that distinguishes a C corporation from the § 6072(b) entities, the § 170(b)(2)(A) charitable limitation as rewritten by Pub. L. 119-21 § 70426 to add a 1 percent floor beneath the 10 percent ceiling for taxable years beginning after 2025, the § 170(d)(2) carryover rules that follow from it, and the § 59A base erosion tax at the 10.5 percent rate substituted by Pub. L. 119-21 § 70331." }
+  - { date: "2026-08-25", summary: "Added a plain-language summary, glossary marks, and typed scenarios." }
 ---
+
+<div class="plain-terms">
+A C corporation is a company that pays its own income tax. That is different from a partnership or an
+S corporation. Those pay tax a different way and file on a different date. This page is only about
+C corporations. It covers three things: the tax rate a company pays, when its tax return is due, and how
+much it may give to charity and still get a deduction. It also covers a special tax on very large
+companies with foreign ties. Most small and mid-size firms never run into that part at all.
+</div>
 
 The C corporation is the only business form that pays income tax in its own right, and since 2018 it has
 paid it at a single rate with no brackets. That makes the rate the least interesting thing about it. The
@@ -112,7 +121,7 @@ life.
 taxable income, not on a contribution base; the corporate return date is not the individual date; and
 the corporate rate is flat where the individual rates are graduated.
 
-<div class="scenario">
+<div class="scenario" data-type="boundary">
 <h3>The gift that deducted nothing</h3>
 
 A corporation with taxable income of $2,000,000 gives $20,000 to a qualified charity in its 2026 year.
@@ -127,7 +136,7 @@ been deductible.
 
 </div>
 
-<div class="scenario">
+<div class="scenario" data-type="baseline">
 <h3>The ceiling, the floor and the carryover</h3>
 
 A corporation with taxable income of $1,000,000 gives $150,000 in its 2026 year.
@@ -140,11 +149,11 @@ first, and only then the carried amount.
 
 </div>
 
-<div class="scenario">
+<div class="scenario" data-type="procedural">
 <h3>Two entities, two deadlines</h3>
 
-A client owns a calendar-year C corporation and a calendar-year S corporation and asks the firm to file
-both together in March.
+A client owns a calendar-year {gloss:c-corporation} and a calendar-year {gloss:s-corporation} and asks the
+firm to file both together in March.
 
 Only one is due in March. IRC § 6072(b) sets the fifteenth day of the third month for partnership and S
 corporation returns; the C corporation falls under the general rule in § 6072(a) and is due on the
@@ -153,11 +162,11 @@ for both is not, and neither is assuming March for both.
 
 </div>
 
-<div class="scenario">
+<div class="scenario" data-type="fails">
 <h3>The base erosion tax that did not apply</h3>
 
-A domestic corporation with $80,000,000 of gross receipts makes substantial deductible payments to a
-foreign affiliate and its adviser raises the base erosion tax.
+A domestic corporation with $80,000,000 of {gloss:gross-receipts} makes substantial deductible payments to
+a foreign affiliate and its adviser raises the base erosion tax.
 
 It is not an applicable taxpayer. Section 59A(e)(1)(B) requires average annual gross receipts of at
 least $500,000,000 for the three-taxable-year period ending with the preceding year, and this

@@ -26,7 +26,18 @@ related: ["2.2.2.e", "2.2.2.c", "2.2.2.a", "2.2.2.b", "2.2.2.h", "2.2.4.e", "2.2
 changelog:
   - { date: "2026-08-21", summary: "Initial draft. Sets out the choice between actual expenses and the optional mileage method authorised by Reg. § 1.274-5(j)(2), what the mileage rate subsumes, the IRC § 280F(a) caps on depreciation of a passenger automobile with the treatment of unrecovered basis, and the IRC § 280F(b) rule that drops listed property to the alternative depreciation system and recaptures excess depreciation when qualified business use falls to half or less. The current-year figures are stated: the 2026 mileage rates and basis reduction from Notice 2026-10 and the 2026 IRC § 280F(a) limitation tables and lease inclusion figure from Rev. Proc. 2026-15." }
   - { date: "2026-08-21", summary: "Adds the 2026 annual figures, both opened at source today. Notice 2026-10 supplies the business, charitable and medical mileage rates, the portion of each business mile treated as depreciation, and the maximum standard automobile cost for a fixed and variable rate plan. Rev. Proc. 2026-15 supplies both IRC § 280F(a) limitation tables for automobiles placed in service in 2026 and the fair market value at which the lease inclusion table begins, and records that the two tables now differ only in the first year and only by the fixed IRC § 168(k)(2)(F)(i) amount." }
+  - { date: "2026-08-25", summary: "Added a plain-language summary, glossary marks, and two typed scenarios (timing, interaction) alongside the three existing ones now typed baseline/boundary/fails." }
 ---
+
+<div class="plain-terms">
+This page covers a vehicle a business owner drives for work. It decides how the cost of running that
+vehicle gets deducted. That is true whether the owner picks a simple mileage rate or tracks real
+costs like fuel and repairs instead. The two methods cannot be mixed for one vehicle in one year. And
+the choice made in the first year locks in how later years are figured too. This page also covers
+what happens if business use of the car drops later on: some of the deduction already claimed can
+come back as taxable income. An employee who drives their own car for work is a different story —
+that deduction mostly no longer exists.
+</div>
 
 A vehicle used in a business raises three questions in sequence: how much of its use is business
 use, which method the taxpayer uses to measure the cost, and what happens when the business
@@ -131,7 +142,7 @@ use in an income-producing activity that is not a trade or business does not, fo
 use test, though it can still support a deduction. The distinction matters only at the margin, but
 that is exactly where the fifty per cent line is drawn.
 
-<div class="scenario">
+<div class="scenario" data-type="baseline">
 <h3>The same van, two methods</h3>
 
 Kelsale Plumbing buys a van for $46,000 and drives it 30,000 miles in the year, of which 24,000
@@ -156,7 +167,7 @@ Which is better depends entirely on the rate and the actual costs, and the calcu
 done. What cannot be done is picking the rate and then adding the insurance back.
 </div>
 
-<div class="scenario">
+<div class="scenario" data-type="boundary">
 <h3>The car that stopped being a business car</h3>
 
 Marlesford Design buys a car in 2026, uses it 80 percent for business, and claims depreciation
@@ -178,15 +189,15 @@ there would have been no recapture, because IRC § 280F(b)(2)(A)(i) requires pre
 business use in the year of placing in service.
 </div>
 
-<div class="scenario">
+<div class="scenario" data-type="fails">
 <h3>The mileage log that was not kept</h3>
 
 A sole proprietor drives her own car for client visits all year. She has bank statements showing
 fuel purchases, an insurance certificate, and a diary of client appointments, but no record of
 odometer readings or of the mileage of individual trips. She estimates 11,000 business miles.
 
-{fig:travel.substantiation} (IRC § 274(d)) applies to listed property, and a passenger automobile
-is listed property. The subsection provides that no deduction shall be allowed unless the taxpayer
+{fig:travel.substantiation} (IRC § 274(d)) applies to {gloss:listed-property}, and a passenger
+automobile is listed property. The subsection provides that no deduction shall be allowed unless the taxpayer
 substantiates the amount, the time and place, the business purpose and the business relationship.
 
 {fig:vehicle.mileage_authority} (Reg. § 1.274-5(j)(2)) does not rescue her. The mileage method
@@ -198,6 +209,40 @@ Her appointment diary goes some way to the time and purpose. What is missing is 
 each use, and an annual estimate is not that. Under IRC § 274(d) the shortfall is fatal rather
 than merely weakening — this is one of the few places in the Code where a genuine expense is
 disallowed for want of records.
+</div>
+
+<div class="scenario" data-type="timing">
+<h3>The same car, a different placed-in-service year</h3>
+
+A logistics company buys two identical $70,000 sedans, using each 100 percent for business. One is
+placed in service in 2025; the other, otherwise identical, is placed in service in 2026.
+
+{fig:vehicle.280F_bonus_2026} states {fig:vehicle.280F_caps} specifically for a passenger automobile
+placed in service in 2026. The 2025 sedan is governed instead by whatever table Rev. Proc. guidance
+published for that earlier year — a different set of {gloss:depreciation} limits for the same
+recovery period, fixed to each vehicle for its entire life by the year it entered service, not by the
+year any particular return happens to be filed.
+
+Two identical cars, bought for the identical price and used identically, carry different
+depreciation ceilings for years to come — because the statutory caps are indexed and republished
+annually, and each vehicle is locked to the table current when it was placed in service.
+</div>
+
+<div class="scenario" data-type="interaction">
+<h3>The SUV that hit its own ceiling</h3>
+
+A consulting firm buys a $95,000 sport utility vehicle rated above the weight threshold that takes it
+outside the definition of a passenger automobile, places it in service in 2026 with 100 percent
+business use, and elects to expense it in full under {gloss:section-179-deduction}.
+
+Because the vehicle is not a passenger automobile, {fig:vehicle.280F_caps} does not apply to it at
+all — the limitation built by {fig:vehicle.280F_bonus_2026} is for cars, not heavy trucks and SUVs.
+But the election is not unlimited either: {fig:depr.179_suv_2026} caps what can be expensed on a
+sport utility vehicle specifically, so the firm's deduction stops there and the remaining cost is
+recovered through ordinary depreciation instead.
+
+Escaping one limitation does not mean escaping all of them. The SUV avoided the ceiling built for
+cars and ran straight into the one Congress built for SUVs instead.
 </div>
 
 <div class="callout trap">

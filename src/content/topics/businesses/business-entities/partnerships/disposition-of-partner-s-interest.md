@@ -25,7 +25,26 @@ forms: []
 related: ["2.1.2.e", "2.1.2.a", "2.1.2.h", "2.1.2.c"]
 changelog:
   - { date: "2026-08-21", summary: "Initial draft. Sets out the IRC § 741 default of capital treatment, the IRC § 751(a) recharacterisation of amounts attributable to unrealized receivables and inventory items with the § 751(c) and (d) definitions, the effect of Pub. L. 107-147 § 417(12) in striking the substantial appreciation test from § 741 in 2002 so that it now survives only in § 751(b), the treatment of relieved liabilities as amount realised under § 752, the buyer's cost basis under §§ 742 and 1012 against an unchanged inside basis unless § 754 is elected or § 743(d) applies, the § 743(b) adjustment and the § 743(d)(1) substantial built-in loss threshold, and the § 6050K reporting obligation." }
+  - { date: "2026-08-25", summary: "Added a plain-language summary, a decision diagram of the inside-basis adjustment rules, typed scenarios, and glossary marks." }
+diagram:
+  archetype: "decision"
+  caption: "Whether the partnership's inside basis adjusts after a sale of an interest"
+  tests:
+    - { test: "Is a § 754 election in effect for the partnership?", result: "Inside basis is adjusted under § 743(b) for this transferee", outcome: "pass" }
+    - { test: "No election — does the partnership have a substantial built-in loss? (§ 743(d))", result: "A mandatory downward adjustment applies anyway", outcome: "pass" }
+    - { test: "Neither applies", result: "Inside basis is unchanged — the buyer may be taxed on pre-purchase appreciation (§ 743(a))", outcome: "fail" }
 ---
+
+<div class="plain-terms">
+Selling a share in a partnership is usually like selling stock: capital gain or loss. But if the
+partnership owns certain things — unpaid bills owed to it, unsold stock, or property that would
+add extra tax on a sale — part of what the seller gets is taxed as regular income instead. This
+page covers that split. It also covers what happens to the buyer's share of the partnership's own
+basis in its assets after the sale. It affects anyone buying or selling a share in a partnership.
+The price also counts any partnership debt the buyer takes on, not just the cash paid. What it
+decides: how much of the price counts as regular income versus capital gain for the seller, and
+whether the buyer's basis in partnership assets moves at all.
+</div>
 
 Two things make the sale of a partnership interest different from the sale of a share. The first is that
 the interest is an entity-level wrapper around assets whose character the Code refuses to let the wrapper
@@ -120,20 +139,20 @@ test being the one added to stop a partnership avoiding the rule by holding offs
 
 ## Scenarios
 
-<div class="scenario">
+<div class="scenario" data-type="baseline">
 <h3>The debt that came with the price</h3>
 <p>Ottoline holds a 25 percent interest with an adjusted basis of $50,000, of which $20,000 is her share
 of partnership liabilities. She sells the interest for $45,000 in cash, and the buyer takes over her share
 of the debt.</p>
 <p>Her amount realised is $65,000, not $45,000. The relief of her $20,000 share of partnership liabilities
 is treated as a distribution of money under IRC § 752(b) and forms part of what she realises on the sale.
-Against her $50,000 basis, that gives a $15,000 gain. Under IRC § 741 it is capital gain, subject to
-IRC § 751(a) — so if the partnership holds unrealized receivables or inventory items, some part of the
+Against her $50,000 {gloss:basis}, that gives a $15,000 gain. Under IRC § 741 it is {gloss:capital-gain},
+subject to IRC § 751(a) — so if the partnership holds unrealized receivables or inventory items, some part of the
 $15,000 is ordinary and the capital portion is correspondingly smaller. On these facts, with no hot assets
 mentioned, the whole $15,000 is capital.</p>
 </div>
 
-<div class="scenario">
+<div class="scenario" data-type="interaction">
 <h3>The capital loss inside a gain</h3>
 <p>Fyodor sells his one-third interest in a cash-basis consultancy for $300,000. His outside basis is
 $260,000. The partnership's only significant assets are $600,000 of unbilled receivables with no basis and
@@ -142,15 +161,16 @@ office furniture worth less than its written-down cost.</p>
 to his share of the unrealized receivables — $200,000, being a third of $600,000 with no basis to offset —
 is treated as realised from the sale of a non-capital asset, so he has $200,000 of ordinary income. The
 capital portion is the residual: $100,000 of remaining amount realised against $260,000 of basis, giving a
-$160,000 capital loss. He reports both. A great deal of ordinary income and a large capital loss, from a
+$160,000 {gloss:capital-loss}. He reports both. A great deal of ordinary income and a large capital loss, from a
 transaction that produced $40,000 of economic gain, is the standard shape of a IRC § 751 sale and the
 reason the section is worth checking before a sale is priced.</p>
 </div>
 
-<div class="scenario">
+<div class="scenario" data-type="fails">
 <h3>The buyer who paid for basis nobody gave him</h3>
 <p>Marguerite buys a 20 percent interest for $400,000. The partnership's assets have an aggregate adjusted
-basis of $500,000 and a fair market value of $2,000,000, so her share of inside basis is $100,000. The
+{gloss:basis} of $500,000 and a {gloss:fair-market-value} of $2,000,000, so her share of inside basis is
+$100,000. The
 partnership has never made a IRC § 754 election. The following year it sells an asset at a large gain.</p>
 <p>She is allocated 20 percent of that gain, computed on the partnership's basis rather than on what she
 paid, so she is taxed on appreciation that existed before she arrived and that she paid $300,000 for.
@@ -161,7 +181,7 @@ decades. The point to take is that the election belongs to the partnership, so a
 it before closing.</p>
 </div>
 
-<div class="scenario">
+<div class="scenario" data-type="boundary">
 <h3>The mandatory adjustment nobody elected</h3>
 <p>A real estate partnership holds property with an aggregate adjusted basis of $9,000,000 and a fair
 market value of $8,300,000. It has never made a IRC § 754 election and does not want to. A partner sells

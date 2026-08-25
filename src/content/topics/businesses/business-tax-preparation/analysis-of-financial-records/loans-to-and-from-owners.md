@@ -25,7 +25,19 @@ forms: []
 related: ["2.2.4.h", "2.2.4.c", "2.2.4.f", "2.1.5.e", "2.2.4.b", "2.2.5.d", "2.2.5.f", "2.2.5.h"]
 changelog:
   - { date: "2026-08-21", summary: "Initial draft. Sets out the IRC § 7872 treatment of below-market gift, compensation-related and corporation-shareholder loans with the two $10,000 de minimis exceptions and the $100,000 net investment income cap on gift loans, the IRC § 1367(b)(2) reduction and restoration of an S corporation shareholder's debt basis with the Reg. § 1.1367-2 open account debt rule, and the IRM 4.10.3.10.4 examination technique for related party balances in receivables." }
+  - { date: "2026-08-25", summary: "Added a plain-language summary, glossary marks, and a boundary scenario on the de minimis threshold." }
 ---
+
+<div class="plain-terms">
+Owners and their businesses often move money back and forth. There is no bank loan's usual
+paperwork, just a draw here, an advance there. The tax law does not take the word "loan" at face
+value. It asks whether the deal really acts like debt. That means a note, a real interest rate, and
+a pattern of repayment. If it does not act like debt, the money counts as something else. It could
+be pay, a profit share, or an owner's investment in the business. Each one has its own tax result.
+Even a real loan can bring a surprise. If it charges too little interest, or the business already
+used it to soak up losses, paying it back can trigger income nobody expected. This affects any small
+business whose owner lends to it or borrows from it.
+</div>
 
 Money moving between an owner and the business is the most examined item on a small company's
 balance sheet, and for a good reason: whether it is a loan decides whether it is compensation, a
@@ -115,12 +127,12 @@ never moves in cash. Both can operate on the same arrangement in the same year.
 
 ## Scenarios
 
-<div class="scenario">
+<div class="scenario" data-type="baseline">
 <h3>The repayment that produced gain</h3>
 
-Alderton Metals is an S corporation. Its sole shareholder lent it $150,000 on a written note. Losses
-over two years exhausted her stock basis and reduced her debt basis to $60,000. In year three the
-company, now profitable, repays $100,000 of the note.
+Alderton Metals is an {gloss:s-corporation}. Its sole shareholder lent it $150,000 on a written note.
+Losses over two years exhausted her stock basis and reduced her debt basis to $60,000. In year three
+the company, now profitable, repays $100,000 of the note.
 
 The repayment is not tax-free. The note's basis is $60,000 against a face of $150,000, so two thirds
 of the basis attaches to the $100,000 repaid — $40,000 — and the shareholder recognises $60,000 of
@@ -133,7 +145,7 @@ before the repayment is measured, the gain disappears. The order of the rules, n
 cheques, decides it.
 </div>
 
-<div class="scenario">
+<div class="scenario" data-type="fails">
 <h3>The advance that was never a loan</h3>
 
 Kirkham Joinery's shareholder draws $8,000 a month from the company, recorded as "loan to
@@ -151,11 +163,11 @@ Nor does the § 7872 de minimis exception help, since the balance is far above t
 below-market interest analysis never begins.
 </div>
 
-<div class="scenario">
+<div class="scenario" data-type="interaction">
 <h3>The interest that only existed on paper</h3>
 
-Fenwick Tooling, a C corporation, lends its sole shareholder $250,000 interest-free on a written
-demand note that everyone treats as genuine and that the shareholder services on request.
+Fenwick Tooling, a {gloss:c-corporation}, lends its sole shareholder $250,000 interest-free on a
+written demand note that everyone treats as genuine and that the shareholder services on request.
 
 The loan is real, so IRC § 7872 governs rather than the distribution rules. It is a
 corporation-shareholder loan under § 7872(c)(1)(C), it is below-market because a demand loan bearing
@@ -167,6 +179,24 @@ is treated as transferred from Fenwick to the shareholder, and retransferred by 
 Fenwick as interest. Fenwick has interest income it never received; the shareholder has a deemed
 distribution and an interest payment whose deductibility depends on what the borrowed money was used
 for. No cash moves and both parties have tax consequences.
+</div>
+
+<div class="scenario" data-type="boundary">
+<h3>The advance that tipped the balance</h3>
+
+Oldbury Fixtures, a C corporation, has lent its sole shareholder $9,400 over the years, interest-free
+and outstanding continuously. Nothing about that arrangement is within reach of IRC § 7872: the
+aggregate stays under the corporation-shareholder de minimis figure in § 7872(c)(3), so the section
+simply does not apply to those days regardless of the {gloss:applicable-federal-rate}. In June the
+shareholder draws another $900, taking the aggregate outstanding balance to $10,300.
+
+From that day the whole loan is inside § 7872, not just the $900 that crossed the line. The de
+minimis exception in § 7872(c)(3) is tested on the *aggregate outstanding* amount between the same
+borrower and lender, so a modest second advance drags the original $9,400 back into the below-market
+loan rules along with the money that actually pushed the total over. Below-market interest is now
+imputed on the full $10,300 for every day the aggregate remains above the figure, not merely on the
+increment. Reversing the June advance the same year does not undo it retroactively; only staying
+under the threshold in the first place would have.
 </div>
 
 ## Traps

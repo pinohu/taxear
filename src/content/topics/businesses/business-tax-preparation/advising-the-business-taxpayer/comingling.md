@@ -27,7 +27,18 @@ forms: []
 related: ["2.2.5.c", "2.2.5.d", "2.2.4.i", "2.2.5.e", "2.2.4.b"]
 changelog:
   - { date: "2026-08-21", summary: "Initial draft. Sets out the IRC § 262(a) bar on personal expenses and the Reg. § 1.183-2(b)(1) businesslike-manner factor that makes separate accounts evidence of profit motive, the IRC § 183(d) presumption and its horse variant, the IRC § 280A(a) dwelling unit rule, the constructive distribution consequence of personal payments from a corporation, and the IRM bank record reconciliation an examiner runs where the accounts are mixed." }
+  - { date: "2026-08-25", summary: "Added a plain-language summary, glossary marks, and a fourth typed scenario on the horse-activity variant of the profit presumption." }
 ---
+
+<div class="plain-terms">
+Comingling means mixing personal money and business money in one account. This page explains why
+that habit costs more than it seems to. It affects any owner who pays personal bills from a business
+account, or the other way around. It applies to a sole owner, a partnership, or a corporation alike.
+There is no direct fine just for mixing the money. The real cost is bigger: every write-off on the
+return gets harder to prove. Mixed records can even make a losing business look like a hobby, not a
+real trade. This page decides what mixing money really costs, and what keeping the accounts apart
+protects.
+</div>
 
 Commingling is not itself a Code provision, and there is no penalty for it. Its cost is indirect and
 much larger than the direct one: it converts every deduction on the return from a documented fact
@@ -107,7 +118,7 @@ personal money. Every item-level fix leaves the underlying evidential problem in
 
 ## Scenarios
 
-<div class="scenario">
+<div class="scenario" data-type="baseline">
 <h3>The one account</h3>
 
 Roxwell Landscaping runs everything through the owner's personal chequing account. Business receipts
@@ -125,14 +136,15 @@ item: it is to open a business account, run every business receipt and payment t
 a regular draw for personal spending.
 </div>
 
-<div class="scenario">
+<div class="scenario" data-type="fails">
 <h3>The activity that lost for six years</h3>
 
 Cadwell Stables has reported losses for six consecutive years. The owner has other substantial
 income, keeps no separate books, pays all costs from a personal card, and rides the horses at
 weekends.
 
-IRC § 183(d) offers nothing: the presumption requires gross income to exceed attributable deductions
+The {gloss:hobby-loss-rules} bite hard here. IRC § 183(d) offers nothing: the presumption requires
+gross income to exceed attributable deductions
 in 2 or more of 7 consecutive years for an activity consisting in major part of breeding, training,
 showing or racing horses — the more generous variant — and six loss years do not meet it.
 
@@ -144,7 +156,7 @@ plus others only to the extent of gross income from the activity — so the loss
 other income entirely.
 </div>
 
-<div class="scenario">
+<div class="scenario" data-type="interaction">
 <h3>The card the company paid</h3>
 
 Thurlow Interiors, a C corporation with substantial earnings and profits, pays its sole
@@ -152,14 +164,32 @@ shareholder's personal credit card of $46,000 a year and deducts it as "office a
 
 The deduction fails at IRC § 262(a), which denies personal, living and family expenses whatever
 account they were paid from. That much is expected. What is not always expected is the second half:
-the $46,000 does not simply become non-deductible, it becomes a distribution taxed to the
-shareholder under IRC § 301(c) — a dividend to the extent of earnings and profits, which here means
-all of it.
+the $46,000 does not simply become non-deductible, it becomes a {gloss:constructive-dividend} taxed
+to the shareholder under IRC § 301(c) — taxable to the extent of {gloss:earnings-and-profits}, which
+here means all of it.
 
 The corporation therefore pays tax on income it did not shelter, and the shareholder pays tax on a
 dividend they did not know they had received. Reclassifying the payments as compensation would
 restore the deduction but brings employment tax, withholding and Form W-2 reporting, and only works
 where the amount is a reasonable allowance for services actually rendered.
+</div>
+
+<div class="scenario" data-type="boundary">
+<h3>The stable that just cleared the horse variant</h3>
+
+Aldermoor Stables breeds and shows horses as its primary undertaking, and keeps a dedicated set of
+books for the operation. Of the last seven consecutive years it reported net income in years two and
+six, and losses in the other five. The owner asks whether the presumption of profit applies for the
+current, seventh year.
+
+The general presumption in IRC § 183(d) needs gross income to exceed deductions in 3 of 5 consecutive
+years; the horse variant in the same subsection needs only 2 of 7 consecutive years, for an activity
+consisting in major part of breeding, training, showing or racing horses. Two profitable years out of
+seven is exactly the floor the statute sets, not a margin above it — one fewer profitable year, or an
+activity that is not in major part horses, and the presumption fails outright. And even where it
+applies, Reg. § 1.183-2(b)(1)'s businesslike-manner factor still matters: the presumption only shifts
+the burden of proof, it does not decide the case, so the dedicated books remain worth having regardless
+of which way the presumption falls.
 </div>
 
 ## Traps

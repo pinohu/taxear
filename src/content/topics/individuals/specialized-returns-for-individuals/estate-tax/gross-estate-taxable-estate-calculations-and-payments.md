@@ -26,7 +26,18 @@ forms: []
 related: ["1.6.1.b", "1.6.1.c", "1.6.1.d", "1.6.1.e", "1.5.1.d", "1.6.2.c", "1.6.2.d"]
 changelog:
   - { date: "2026-08-20", summary: "Initial draft. Sets out the estate tax computation from the gross estate under IRC §§ 2031 and 2033 through the taxable estate under §§ 2051 and 2053 to the tax under § 2001(b), with the unified credit in § 2010(c) applied as a credit rather than an exclusion from the base, the § 2032 alternate valuation election, the § 2035 three-year rule, life insurance under § 2042, and the filing threshold and dates in §§ 6018(a), 6075(a) and 6166." }
+  - { date: "2026-08-25", summary: "Added a plain-language summary, glossary marks, and typed scenarios." }
 ---
+
+<div class="plain-terms">
+This is about how the tax on a person's estate actually gets worked out after they die. It
+matters only for large estates. Most people will never owe this tax at all. The math runs in
+steps. First, add up everything the person owned. Then subtract debts, costs, and gifts to a
+spouse or charity. Then add back large gifts made while they were alive. Tax is figured on that
+whole total, and then a credit is subtracted at the end. That last step trips people up. The
+credit is not the same as an exemption taken off the top. Gifts made in life do not shrink the
+credit. They get added into the total the tax is figured on.
+</div>
 
 The estate tax computation is misunderstood in a specific and consequential way. People describe the
 exclusion as an amount subtracted from the estate, and lifetime gifts as something that eats into it.
@@ -116,7 +127,7 @@ who wants portability must have a timely return filed by the first estate — se
 most common expensive omission in small estates, and it is a decision made by an executor who has been
 correctly told no tax is owed.
 
-<div class="scenario">
+<div class="scenario" data-type="baseline">
 <h3>The gifts that did not shrink the exclusion</h3>
 
 An unmarried woman gives her nephew $1,000,000 a year for four years and dies with a gross estate of
@@ -126,13 +137,13 @@ Each gift is a taxable gift of $981,000 after the annual exclusion, so adjusted 
 $3,924,000. The taxable estate is $7,700,000. The base for the tentative tax is $11,624,000, not
 $8,000,000 and not $8,000,000 reduced by anything. The tentative tax on $11,624,000 is $345,800 plus 40
 percent of $10,624,000, or $4,595,400. Against that stand the gift tax that would have been payable on
-the four gifts and the applicable credit — the tax on the basic exclusion amount, which is larger than
+the four gifts and the {gloss:unified-credit} — the tax on the basic exclusion amount, which is larger than
 the base here. No tax is due, and the reason no tax is due is that the credit exceeded the tax, not that
 the estate was under a threshold.
 
 </div>
 
-<div class="scenario">
+<div class="scenario" data-type="fails">
 <h3>The election that was not available</h3>
 
 An executor of an estate holding a concentrated stock position watches it fall by a third in the four
@@ -141,13 +152,13 @@ amount and owes no estate tax.
 
 The election is not available. IRC § 2032(c) permits it only where it decreases both the value of the
 gross estate and the sum of the estate and generation-skipping taxes after credits. With no tax either
-way, the second condition cannot be met. The consequence is a real one: the beneficiaries take a basis
-under IRC § 1014 fixed by the date-of-death value, which is now above market. The election exists to
+way, the second condition cannot be met. The consequence is a real one: the beneficiaries take a
+{gloss:step-up-in-basis} under IRC § 1014 fixed by the date-of-death value, which is now above market. The election exists to
 reduce tax, not to reset basis.
 
 </div>
 
-<div class="scenario">
+<div class="scenario" data-type="timing">
 <h3>The policy transferred too late</h3>
 
 A man assigns a $2,000,000 policy on his own life to an irrevocable trust, giving up every incident of
@@ -162,10 +173,10 @@ and 2042, not outright gifts of other property.
 
 </div>
 
-<div class="scenario">
+<div class="scenario" data-type="procedural">
 <h3>The estate that had to file anyway</h3>
 
-A widower dies with a gross estate of $2,400,000. His executor is told, correctly, that no estate tax is
+A widower dies with a gross estate of $2,400,000. His executor is told, correctly, that no {gloss:estate-tax} is
 due and no return is required under IRC § 6018(a).
 
 The advice is right on its own terms and wrong overall. His late wife's estate had filed no return

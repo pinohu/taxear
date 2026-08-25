@@ -24,7 +24,19 @@ forms: []
 related: ["2.2.2.a", "2.2.2.f", "2.2.2.i", "2.2.1.b", "2.2.2.c", "2.2.2.j", "2.2.2.k", "2.2.2.m", "2.2.2.o", "2.2.5.m"]
 changelog:
   - { date: "2026-08-21", summary: "Initial draft. Sets out the Reg. § 1.162-1(a) treatment of business insurance premiums with the two qualifications in the same sentence, the IRC § 264(a) disallowances where the taxpayer is a beneficiary or has borrowed against a policy, the IRC § 101(j) cap on the exclusion for an employer-owned life insurance contract with its notice and consent exception and the IRC § 6039I reporting duty, and the Reg. § 1.263(a)-4(f) twelve-month rule that governs a prepaid premium." }
+  - { date: "2026-08-25", summary: "Added a plain-language summary, glossary marks, and two typed scenarios." }
 ---
+
+<div class="plain-terms">
+Businesses can usually deduct the cost of insurance they buy. This includes coverage for
+property, injuries to workers, and harm to other people. This page covers when that normal rule
+applies, and when it does not. Two things break the pattern. One is life insurance where the
+business itself stands to collect the money. The other is a payment made so far ahead of time
+that it must be spread out, not deducted right away. This page affects any business that buys
+insurance. It matters most for one that insures the life of an owner or key worker. It decides if
+a payment can be deducted now, later, or never. It also decides if a payout is taxed once it
+finally arrives.
+</div>
 
 Most business insurance is deductible without difficulty, and the topic exists because of the
 exceptions. Two of them are traps that cost money: a policy on a life in which the business has an
@@ -109,7 +121,7 @@ October is deductible when paid by a cash method taxpayer; a three-year policy p
 not, and must be spread. The rule has two limbs and the benefit must clear both — twelve months
 from first realisation, **and** the end of the following taxable year.
 
-<div class="scenario">
+<div class="scenario" data-type="procedural">
 <h3>The key-person policy</h3>
 
 Wrentham Design Ltd insures the life of its founder for $2,000,000, pays $18,000 a year in
@@ -131,7 +143,7 @@ the exception applies and the whole $2,000,000 is excluded under IRC § 101(a)(1
 If the paperwork was never done, nothing can be done now. The consent must precede issue.
 </div>
 
-<div class="scenario">
+<div class="scenario" data-type="boundary">
 <h3>Two premiums paid on the same day</h3>
 
 On 1 November 2026 a cash method business pays two premiums: $12,000 for property cover running
@@ -153,7 +165,7 @@ the premium must be spread. The date the cover starts can decide the answer even
 does not.
 </div>
 
-<div class="scenario">
+<div class="scenario" data-type="interaction">
 <h3>Premiums that are somebody else's income</h3>
 
 Ledbury Fabrication Inc., an S corporation, pays health insurance premiums of $11,000 each for its
@@ -170,6 +182,34 @@ she takes the self-employed health insurance deduction on her own return.
 The company's deduction is $99,000 either way. What changes is where it appears and whose income
 it becomes, and that is the point of the exercise: an insurance premium can be fully deductible by
 the business and fully taxable to the person insured.
+</div>
+
+<div class="scenario" data-type="baseline">
+<h3>The ordinary year of business insurance</h3>
+
+<p>A hardware store pays $16,000 a year for property, general liability, and workers'
+compensation coverage, all running on a normal calendar-year term.</p>
+
+<p><em>Analysis.</em> The full $16,000 is deductible in the year paid. {fig:ins.deductible}
+(Reg. § 1.162-1(a)) names insurance premiums directly, and none of the exceptions on this page
+apply: nobody's life is insured, nothing is prepaid beyond the year, and none of it underwent
+{gloss:capitalization} into inventory or the {gloss:basis} of a building. This is the ordinary
+case, and it is the overwhelming majority of business insurance.</p>
+</div>
+
+<div class="scenario" data-type="fails">
+<h3>The shareholder-employee premium that never became wages</h3>
+
+<p>Wrayburn Systems, an {gloss:s-corporation}, pays $9,000 of health insurance premiums for its
+8 percent shareholder-employee but never adds the amount to her Form W-2 wages, treating it the
+same as a regular employee's excluded coverage.</p>
+
+<p><em>Analysis.</em> The self-employed health insurance deduction fails for her. {fig:sc.fringe_partner}
+(IRC § 1372(a)) treats a more-than-2-percent shareholder as a partner for this purpose, so the
+premium cannot be excluded under IRC § 106(a) the way it can for an ordinary employee — it must
+instead be reported as compensation before she can deduct it on her own return. Leaving it off her
+W-2 does not make the premium tax-free; it just leaves the deduction unclaimed and the paperwork
+wrong.</p>
 </div>
 
 <div class="callout trap">

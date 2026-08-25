@@ -25,7 +25,19 @@ forms: []
 related: ["2.1.2.a", "2.1.2.d", "2.1.2.f", "2.1.2.c", "2.1.2.h", "2.1.2.j", "2.1.5.e", "2.2.1.c"]
 changelog:
   - { date: "2026-08-21", summary: "Initial draft. Sets out the three starting points for outside basis — IRC § 722 on contribution, IRC § 742 with IRC § 1012 on acquisition otherwise, and the § 705(b) alternative rule — the § 705(a) running adjustments including tax-exempt income and non-deductible expenditures, the § 733 reduction for current distributions, the § 752 treatment of liabilities as contributions and distributions, the zero floor and its consequences under § 731(a)(1), and the § 704(d) loss ceiling with its carryover. Records that IRC § 723 gives the partnership a transferred basis equal to the contributor's adjusted basis, not fair market value." }
+  - { date: "2026-08-25", summary: "Added a plain-language summary, typed scenarios, and glossary marks." }
 ---
+
+<div class="plain-terms">
+A partner's basis in a partnership is a running number that changes every year. It starts when a
+partner joins and moves up or down as money and property flow in and out, and as the partnership's
+debt changes. This number decides how much loss a partner can deduct, whether a payout is taxable,
+and how much gain shows up on a later sale. It matters to every partner in every partnership, not
+just someone selling out or winding things down. It does not track a partner's cash flow directly —
+it can rise or fall for reasons a bank statement never shows, such as a shift in how much
+partnership debt a partner is treated as backing. The one hard rule: this number cannot fall below
+zero.
+</div>
 
 Outside basis is the single number that controls almost every partnership answer a practitioner needs to
 give: how much loss a partner may deduct, whether a distribution is taxable, and what gain arises on a
@@ -104,9 +116,9 @@ simply wrong: IRC § 723 says adjusted basis, and says it twice in a single sent
 
 ## Scenarios
 
-<div class="scenario">
+<div class="scenario" data-type="interaction">
 <h3>The distribution that came first</h3>
-<p>Cyprien begins 2026 with an outside basis of $50,000. During the year the partnership distributes
+<p>Cyprien begins 2026 with an outside {gloss:basis} of $50,000. During the year the partnership distributes
 $40,000 of cash to him and allocates him a $45,000 loss. He would like to deduct the loss in full and
 treat the distribution as a tax-free return of capital.</p>
 <p>He cannot have both. Distributions reduce basis under IRC § 733 before losses are tested under
@@ -117,7 +129,7 @@ round, he would have deducted $45,000 and recognised $35,000 of gain on the dist
 answer with different character, and not the one the statute gives.</p>
 </div>
 
-<div class="scenario">
+<div class="scenario" data-type="baseline">
 <h3>The exempt interest and the fine</h3>
 <p>A partnership holds municipal bonds and receives $30,000 of tax-exempt interest in 2026. It also pays a
 $12,000 regulatory fine that is not deductible. A partner with a one-third interest asks why either should
@@ -130,7 +142,7 @@ through a larger loss on sale — a disallowed deduction stays disallowed. Neith
 current year's income at all; both affect whether the current year's treatment survives.</p>
 </div>
 
-<div class="scenario">
+<div class="scenario" data-type="boundary">
 <h3>The new partner who reduced everyone's basis</h3>
 <p>A three-partner partnership carries $900,000 of recourse debt, shared equally, so each partner's basis
 includes $300,000 attributable to it. A fourth partner is admitted for cash, taking an equal share, and
@@ -143,10 +155,10 @@ anything and nobody received anything — the admission of a partner, by itself,
 partner's own basis includes their $225,000 share as a deemed contribution under IRC § 752(a).</p>
 </div>
 
-<div class="scenario">
+<div class="scenario" data-type="timing">
 <h3>The contributed property and the sale of the interest</h3>
-<p>Wilhelmina contributes property with an adjusted basis of $60,000 and a fair market value of $100,000
-for a 50 percent interest. The partnership has no liabilities, allocates her no income or loss, and makes
+<p>Wilhelmina contributes property with an adjusted {gloss:basis} of $60,000 and a {gloss:fair-market-value}
+of $100,000 for a 50 percent interest. The partnership has no liabilities, allocates her no income or loss, and makes
 no distributions. She later sells her interest for $90,000.</p>
 <p>Her gain is $30,000. Her outside basis is $60,000 under IRC § 722, being the adjusted basis of the
 property she contributed, and it has not moved. The partnership's basis in the property is also $60,000,

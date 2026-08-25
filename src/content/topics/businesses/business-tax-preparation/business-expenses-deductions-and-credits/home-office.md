@@ -19,7 +19,25 @@ forms: []
 related: ["2.2.2.b", "2.2.2.c", "2.2.2.i", "2.2.2.h", "2.2.2.a"]
 changelog:
   - { date: "2026-08-21", summary: "Initial draft. Sets out the IRC § 280A(a) disallowance and the IRC § 280A(c)(1) exception with its exclusive and regular use requirement, the convenience of the employer condition for an employee, and the administrative or management activities test, together with the IRC § 280A(c)(5) gross income limitation and its carryover. Sets out the Rev. Proc. 2013-13 safe harbor with its square footage cap, its year-by-year irrevocable election, and the depreciation and Schedule A consequences of using it." }
+  - { date: "2026-08-25", summary: "Added a plain-language summary, a decision diagram of the exclusive-and-regular-use gate, glossary marks, and two typed scenarios." }
+diagram:
+  archetype: "decision"
+  caption: "Qualifying for the home office deduction, then choosing a method"
+  tests:
+    - { test: "Exclusive and regular business use of the space?", result: "No: nothing is deductible, either method", outcome: "fail" }
+    - { test: "One of the three business-use tests met (principal place, client-facing, or a separate structure)?", result: "No: the § 280A(c)(1) exception does not apply", outcome: "fail" }
+    - { test: "Is the taxpayer an employee, not the business owner?", result: "Unreimbursed costs are suspended under § 67(h)", outcome: "fail" }
+    - { test: "Safe harbour or actual expenses?", result: "Either — an annual, irrevocable choice for that year", outcome: "pass" }
 ---
+
+<div class="plain-terms">
+This page is about deducting the cost of a home office. The law starts by saying no to home
+business costs. Then it carves out a narrow exception. It affects self-employed people and
+business owners who work from part of their home. It usually does not help employees. Under
+current law, an employee's home office costs are not deductible at all. The page decides two
+things. First, does the space even qualify? Second, if it does, should the owner use a simple flat
+rate, or add up real costs like utilities and part of the mortgage?
+</div>
 
 The section starts by disallowing everything and then gives back a narrow exception. Reading it in
 that order matters, because the questions people ask — how much of the electricity, what share of
@@ -113,7 +131,7 @@ deductions and are allowed nowhere, so the convenience-of-the-employer test in I
 now decides nothing for most employees. The two routes that remain are an accountable plan
 reimbursement, or — and this fails — {fig:rent.employer_rental} (IRC § 280A(c)(6)).
 
-<div class="scenario">
+<div class="scenario" data-type="fails">
 <h3>The room that was not exclusive</h3>
 
 A consultant uses a 180 square foot spare bedroom as her only office. It contains her desk,
@@ -136,7 +154,7 @@ substantial and the personal use trivial does not help, because the statute uses
 "exclusively" rather than "primarily."
 </div>
 
-<div class="scenario">
+<div class="scenario" data-type="baseline">
 <h3>Two methods, one office, different answers</h3>
 
 A sole proprietor has a 250 square foot office in a 2,000 square foot home, used exclusively and
@@ -161,7 +179,7 @@ threshold. The comparison has to be done on the individual facts; neither method
 better.
 </div>
 
-<div class="scenario">
+<div class="scenario" data-type="boundary">
 <h3>The ceiling that pushed a deduction forward</h3>
 
 A sole proprietor's home office produces gross income of $18,000 for the year. The business share
@@ -182,6 +200,37 @@ will keep doing so until a year with enough gross income arrives.
 
 Note the order the statute sets. Had the other business deductions been applied last rather than
 second, part of the $5,500 would have been allowed. The sequence is not neutral.
+</div>
+
+<div class="scenario" data-type="interaction">
+<h3>The employer that tried to pay for the office instead</h3>
+
+<p>An employer tells a remote employee to set up a home office and offers to "rent" the space
+from her at a fair monthly rate instead of reimbursing her costs directly.</p>
+
+<p><em>Analysis.</em> Two rules close this off together. {fig:rent.employer_rental}
+(IRC § 280A(c)(6)) denies the employee any {gloss:home-office-deduction} for a portion of the home
+rented to her own employer, however fair the rent. And even without that provision, her
+unreimbursed home office costs are suspended anyway by {fig:misc.suspension} (IRC § 67(h)). The
+only route that actually works is an {gloss:accountable-plan}: the employer reimburses
+substantiated expenses directly, and the reimbursement is excluded from her wages rather than paid
+to her as rent.</p>
+</div>
+
+<div class="scenario" data-type="procedural">
+<h3>Switching methods without switching accounting</h3>
+
+<p>A sole proprietor used the actual-expense method for four years, claiming depreciation and
+moving a share of her mortgage interest and property tax off Schedule A. This year she wants to
+use the safe harbour instead.</p>
+
+<p><em>Analysis.</em> {fig:home.safe_harbor_election} (Rev. Proc. 2013-13 § 4.03) lets her do it
+without asking the IRS for permission — switching methods from one year to the next is not a
+change in method of accounting. For this year, {fig:home.safe_harbor_itemized} puts the full
+mortgage interest and property tax back on Schedule A as an ordinary {gloss:itemized-deduction},
+with no business allocation, and {fig:home.safe_harbor_no_depreciation} means no depreciation
+accrues for the year. If she returns to actual expenses next year, depreciation resumes from where
+the prior schedule left off — the safe harbour year is simply skipped over, not erased.</p>
 </div>
 
 <div class="callout trap">

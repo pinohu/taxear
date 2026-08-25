@@ -19,7 +19,17 @@ forms: []
 related: ["2.1.3.c", "2.1.1.c", "2.1.3.b", "2.1.3.a", "2.1.3.e", "2.1.3.f", "2.1.3.g", "2.1.3.h"]
 changelog:
   - { date: "2026-08-21", summary: "Initial draft. Sets out the IRC § 243(a) and (c) dividends received deduction rates, the § 243(c)(2) definition of a 20-percent owned corporation which begins at exactly 20 percent by vote and value, the § 243(b) conditions for a qualifying dividend on which the 100 percent rate depends — affiliated group membership and an election binding on every member — the § 246(b) taxable income limitation applied separately at 65 and 50 percent with the § 246(b)(2) net operating loss exception, the § 246(c) holding period, and the corporate charitable deduction as rewritten by Pub. L. 119-21 § 70426 to add a 1 percent floor beneath the 10 percent ceiling for taxable years beginning after 2025." }
+  - { date: "2026-08-25", summary: "Added a plain-language summary, glossary marks, and typed the four existing scenarios (fails, boundary, interaction, timing)." }
 ---
+
+<div class="plain-terms">
+This page covers two write-offs a company can claim. One is for dividends it gets from another company.
+The other is for gifts it makes to charity. Both apply only to companies, not to people or to small
+pass-through businesses. The dividend write-off exists so the same profit is not taxed three times over,
+as it moves from one company to another and then to a person. How big the write-off is depends on how
+much stock one company owns in the other. The charity write-off caps how much giving a company can
+deduct. Starting this year, very small gifts, compared to income, get no write-off at all.
+</div>
 
 Two deductions dominate this topic and each has a condition that is routinely dropped from the summary.
 The dividends received deduction is described as a function of ownership percentage, and its top rate is
@@ -108,7 +118,7 @@ around.
 
 ## Scenarios
 
-<div class="scenario">
+<div class="scenario" data-type="fails">
 <h3>The ninety percent holding without the election</h3>
 <p>Corporation A owns ninety percent of the stock of Corporation B by vote and value. B pays A a dividend
 of $100,000. No election under IRC § 243(b)(2) has been made, and A and B have never filed on a
@@ -122,7 +132,7 @@ affiliation available; it does not make the deduction automatic. Without the ele
 sixty-five percent rate, because B is a 20-percent owned corporation.</p>
 </div>
 
-<div class="scenario">
+<div class="scenario" data-type="boundary">
 <h3>Exactly twenty percent</h3>
 <p>A corporation owns precisely twenty percent of another corporation's stock, measured both by voting
 power and by value, and receives a $60,000 dividend.</p>
@@ -133,20 +143,20 @@ percent or less gets fifty percent" misstates the boundary, and a question set p
 is testing that word.</p>
 </div>
 
-<div class="scenario">
+<div class="scenario" data-type="interaction">
 <h3>The deduction that created a loss</h3>
-<p>A corporation has taxable income before the dividends received deduction of $40,000, which includes
+<p>A corporation has taxable income before the {gloss:dividends-received-deduction} of $40,000, which includes
 $200,000 of dividends from a corporation in which it holds twelve percent. The fifty percent deduction
 would be $100,000.</p>
 <p>The full $100,000 is allowed. The IRC § 246(b)(1) limitation would cap the deduction at fifty percent
 of the $40,000 of taxable income, so $20,000 — but IRC § 246(b)(2) disapplies the limitation for any year
-in which there is a net operating loss, and allowing the full deduction produces taxable income of
+in which there is a {gloss:net-operating-loss}, and allowing the full deduction produces taxable income of
 negative $60,000. The corporation takes the whole deduction and carries a $60,000 net operating loss. Had
 its income before the deduction been $250,000, the limitation would have applied and no loss would have
 arisen.</p>
 </div>
 
-<div class="scenario">
+<div class="scenario" data-type="timing">
 <h3>The corporate giving programme that stopped working</h3>
 <p>A corporation with taxable income of $8,000,000 has for years given about $50,000 annually to local
 charities, comfortably inside the ten percent ceiling. It makes the same gifts in 2026.</p>

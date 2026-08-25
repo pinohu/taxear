@@ -21,7 +21,26 @@ forms: []
 related: ["2.1.1.a", "2.1.1.b", "2.1.1.d", "2.1.1.g", "2.1.1.h", "2.1.5.b"]
 changelog:
   - { date: "2026-08-21", summary: "Initial draft. Sets out the Reg. § 301.7701-1(a)(1) rule that federal classification does not follow local law, the Reg. § 301.7701-2(b) list of per se corporations, the Reg. § 301.7701-3(b)(1) default classifications, the Form 8832 election with its 75-day and 12-month effective-date limits and the 60-month re-election bar, the Reg. § 301.7701-3(c)(1)(v)(C) deemed association election on a timely S corporation election, and the Reg. § 301.7701-2(c)(2)(iv) split under which a disregarded entity is a corporation for employment tax but still disregarded for the self-employment tax of its own owner." }
+  - { date: "2026-08-25", summary: "Added a plain-language summary, a timeline diagram of the election effective-date window and the 60-month re-election bar, glossary marks, and typed scenarios." }
+diagram:
+  archetype: "timeline"
+  caption: "Electing a new classification: how far the effective date can reach, and when the clock resets"
+  events:
+    - { when: "75 days before filing", what: "Earliest an effective date named on Form 8832 can reach back to" }
+    - { when: "Filing date", what: "The effective date if none is specified on Form 8832" }
+    - { when: "12 months after filing", what: "Latest an effective date named on Form 8832 can reach forward to" }
+    - { when: "60 months after the effective date", what: "No further classification election allowed, unless more than half the ownership has since turned over" }
 ---
+
+<div class="plain-terms">
+A limited liability company, or LLC, is a business your state sets up. It shields your own money
+from business debts. Tax law does not use that state label. It picks its own tax status for the
+LLC. The pick depends mostly on how many owners the LLC has. It also depends on whether anyone
+files a form asking for a different status. This matters to business owners and their accountants.
+It does not affect people who just work as employees. It decides which tax form the business uses.
+It decides if the owner pays tax like an employee or like someone who works for themselves. It also
+decides if the business can later switch to a new tax status.
+</div>
 
 The limited liability company is the entity form the Internal Revenue Code does not mention: no subchapter,
 no return of its own, no definition anywhere in the statute. What there is instead is a classification
@@ -117,10 +136,10 @@ confidently.
 
 ## Scenarios
 
-<div class="scenario">
+<div class="scenario" data-type="boundary">
 <h3>The election that reached the wrong January</h3>
-<p>Bertrand organises a consulting LLC in Delaware on 14 January 2026 and is its only member. His
-accountant tells him in September that he would be better off as an S corporation. On 20 September 2026
+<p>Bertrand organises a consulting {gloss:llc} in Delaware on 14 January 2026 and is its only member. His
+accountant tells him in September that he would be better off as an {gloss:s-corporation}. On 20 September 2026
 he files Form 2553 specifying an effective date of 1 January 2026.</p>
 <p>The date he named is more than 75 days before the filing date, so on the face of the regulation it
 cannot stand. What Bertrand needs is not a different reading of Reg. § 301.7701-3(c)(1)(iii) but relief for
@@ -130,7 +149,7 @@ association classification with it. If the relief is denied, the LLC is a disreg
 Bertrand's consulting income belongs on Schedule C, with self-employment tax on the whole of it.</p>
 </div>
 
-<div class="scenario">
+<div class="scenario" data-type="interaction">
 <h3>The owner on his own payroll</h3>
 <p>Idris is the sole member of an LLC that operates two coffee shops and employs eleven people. The LLC
 has an EIN, runs a payroll service, and files Forms 941 quarterly. Idris has himself on that payroll at
@@ -144,11 +163,11 @@ own owner, and so is not his employer. His $60,000 is not wages, the Schedule C 
 allowable, the FICA paid was not owed, and the self-employment tax he did not pay was.</p>
 </div>
 
-<div class="scenario">
+<div class="scenario" data-type="timing">
 <h3>The members who changed their minds too soon</h3>
 <p>An architecture LLC with four members elects association status effective 1 July 2027, having filed
 Form 8832 in May of that year. The corporate rate treatment turns out to suit them badly once profits are
-distributed, and in March 2029 they want to go back to partnership treatment.</p>
+distributed, and in March 2029 they want to go back to {gloss:partnership-entity} treatment.</p>
 <p>They cannot, on those facts. Reg. § 301.7701-3(c)(1)(iv) bars a further election during the 60 months
 succeeding 1 July 2027 — so nothing before 1 July 2032. The one route out is the ownership test: the
 Commissioner may permit the change if more than half the interests at the effective date of the new
@@ -156,9 +175,9 @@ election are held by people who held nothing on either the filing date or the ef
 election. Two of the four selling out to newcomers is exactly half, and so not enough.</p>
 </div>
 
-<div class="scenario">
+<div class="scenario" data-type="baseline">
 <h3>The second member who arrived quietly</h3>
-<p>Wen has run a single-member LLC as a disregarded entity since 2021, reporting on Schedule C. In August
+<p>Wen has run a single-member LLC as a {gloss:disregarded-entity} since 2021, reporting on Schedule C. In August
 2026 she gives a 20 percent membership interest to her brother in exchange for his working capital. No
 form is filed and no election is made.</p>
 <p>The classification changed on the day the interest was transferred, without anyone electing anything.

@@ -19,7 +19,18 @@ forms: []
 related: ["1.6.3.a", "1.6.3.c", "1.6.3.d", "1.6.3.e", "1.6.3.f"]
 changelog:
   - { date: "2026-08-21", summary: "Initial draft. Sets out what each regime actually covers — the IRC § 6038D(b) definition of a specified foreign financial asset and the Bank Secrecy Act's foreign financial account — with the branch rule, signature authority, non-account assets, indirect interests through entities, grantor trusts, and the categories that escape both forms entirely." }
+  - { date: "2026-08-25", summary: "Added a plain-language summary, typed scenarios, and glossary marks under the comprehension-layer rollout." }
 ---
+
+<div class="plain-terms">
+This page explains what a U.S. taxpayer must report about money or property tied to a foreign country,
+and which of two forms applies. One form looks at foreign bank and financial accounts. The other looks
+more broadly at foreign assets, including some that are not accounts at all. Someone with only domestic
+accounts and no foreign holdings is not affected by either form. Someone with a foreign account, foreign
+stock, or a stake in a foreign business may owe one form, the other, both, or — for some property, like
+foreign real estate owned outright — neither. What decides which form applies is usually a small detail:
+where an account sits physically, or who issued the asset, more than how large the holding is.
+</div>
 
 The two international reporting regimes were built at different times for different purposes, and they
 draw their boundaries in different places. The FBAR reaches *accounts*, located outside the United
@@ -102,7 +113,7 @@ apartment is the problem, and it is not — the small bank account opened to pay
 for Form 8938: the apartment is still not reportable, but the interest in the company is a specified
 foreign financial asset, and its value includes the property.
 
-<div class="scenario">
+<div class="scenario" data-type="baseline">
 <h3>The account at the Frankfurt branch</h3>
 
 A client on a two-year assignment in Germany opened a current account at the Frankfurt branch of a large
@@ -110,27 +121,27 @@ United States bank, to receive her local salary. It peaked at $84,000.
 
 The account is FBAR-reportable: the branch holding it is located outside the United States, and the
 aggregate exceeded the threshold. It is not a Form 8938 specified foreign financial asset, because the
-institution maintaining it is not a foreign financial institution. She files an FBAR and — assuming no
-other foreign assets — no Form 8938, and the answer turns entirely on the corporate identity of the bank
-rather than on where she banked.
+institution maintaining it is not a foreign financial institution. She files an {gloss:fbar} and —
+assuming no other foreign assets — no Form 8938, and the answer turns entirely on the corporate identity
+of the bank rather than on where she banked.
 
 </div>
 
-<div class="scenario">
+<div class="scenario" data-type="boundary">
 <h3>The bookkeeper with no money of her own</h3>
 
 A client is the office manager of a company with a supplier account in Mexico. She can authorise
 payments from it. She owns nothing abroad.
 
-She has an FBAR obligation, subject to the exceptions for certain officers and employees, because
-signature or other authority over a foreign financial account triggers the report whether or not she has
-any interest in the funds. She has no Form 8938 obligation, because signature authority is not an
+She has an {gloss:fbar} obligation, subject to the exceptions for certain officers and employees,
+because signature or other authority over a foreign financial account triggers the report whether or not
+she has any interest in the funds. She has no Form 8938 obligation, because signature authority is not an
 interest in a specified foreign financial asset. It is the one common case where the FBAR reaches
 someone with no foreign wealth at all.
 
 </div>
 
-<div class="scenario">
+<div class="scenario" data-type="fails">
 <h3>The shares in the drawer</h3>
 
 A client inherited certificated shares in a French company from his grandmother. They are worth
@@ -145,7 +156,7 @@ would not have been separately listed on either.
 
 </div>
 
-<div class="scenario">
+<div class="scenario" data-type="interaction">
 <h3>The apartment and the company that owned it</h3>
 
 A client owns a flat in Lisbon worth $480,000 outright. She reports nothing, correctly. Two years later

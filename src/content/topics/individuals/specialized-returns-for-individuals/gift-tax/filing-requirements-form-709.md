@@ -22,7 +22,19 @@ forms: []
 related: ["1.6.2.a", "1.6.2.b", "1.6.2.c", "1.6.2.d", "1.6.1.e"]
 changelog:
   - { date: "2026-08-21", summary: "Initial draft. Sets out who must file under IRC § 6019 and the three categories of transfer that do not trigger it, the § 6075(b) due date with the automatic extension in § 6075(b)(2) and the death-year cutoff in § 6075(b)(3), payment by the donor under § 2502(c) at the unextended date under § 6151(a), the absence of any joint gift tax return, the GST allocation timing rules in § 2632, and the unlimited assessment period in § 6501(c)(9) for an unreported gift." }
+  - { date: "2026-08-25", summary: "Added a plain-language summary, typed scenarios, and glossary marks under the comprehension-layer rollout." }
 ---
+
+<div class="plain-terms">
+This page explains who has to file a federal gift tax return, separate from who actually owes gift tax.
+Most people who give large gifts owe no tax at all, because a lifetime credit covers it — but they may
+still have to file. Filing depends on the kind of gift, not on the size of the credit left. It affects
+anyone who gives more than the yearly tax-free amount to one person, gives something the recipient
+cannot use right away, or splits a gift with a spouse. It does not affect someone who gives smaller,
+no-strings-attached amounts. The return is due each spring, though it can be delayed the same way an
+income tax return can, and it is due sooner if the giver dies during the year. Filing when required also
+matters because an unreported gift can leave the IRS free to question it indefinitely.
+</div>
 
 The gift tax return is filed far more often than gift tax is paid, and the two questions are separate.
 Almost no client owes gift tax; a great many clients are required to file. What decides the obligation is
@@ -97,25 +109,25 @@ subsection closes it where the item is disclosed on the return or an attached st
 adequate to apprise the Secretary of its nature. For a gift of closely held stock or an interest in a
 family entity, adequate disclosure is the whole point of filing.
 
-<div class="scenario">
+<div class="scenario" data-type="fails">
 <h3>The return nobody thought was needed</h3>
 
 A client transfers $12,000 to a trust for his niece, to be distributed when she turns 35. His adviser
-notes the amount is below the annual exclusion and files nothing.
+notes the amount is below the {gloss:annual-exclusion} and files nothing.
 
 A return was required. The niece's interest is a future interest, so no annual exclusion applies, and
 § 6019(1) excuses filing only for a transfer that § 2503(b) or (e) keeps out of the total amount of
-gifts. The gift is a taxable gift of $12,000, absorbed by the credit and producing no tax — but the
-return is still required, and because it was not filed, § 6501(c)(9) leaves the year open for assessment
-without limit.
+gifts. The gift is a taxable gift of $12,000, absorbed by the {gloss:unified-credit} and producing no
+tax — but the return is still required, and because it was not filed, § 6501(c)(9) leaves the year open
+for assessment without limit.
 
 </div>
 
-<div class="scenario">
+<div class="scenario" data-type="timing">
 <h3>The extension that did not extend the payment</h3>
 
 A donor with a large taxable gift extends her income tax return to October. She treats the gift tax
-return as extended too, and pays the gift tax when she files in October.
+return as extended too, and pays the {gloss:gift-tax} when she files in October.
 
 The filing extension is correct — § 6075(b)(2) carries it across automatically. The payment is late.
 Section 6151(a) requires payment at the time fixed for filing determined without regard to any
@@ -124,7 +136,7 @@ paid in April and filed in October.
 
 </div>
 
-<div class="scenario">
+<div class="scenario" data-type="procedural">
 <h3>The final gift tax return</h3>
 
 A man makes a substantial taxable gift in February and dies in September. His executor plans to file the
@@ -136,7 +148,7 @@ or later only if the estate return is extended. The final Form 709 and the Form 
 
 </div>
 
-<div class="scenario">
+<div class="scenario" data-type="baseline">
 <h3>Disclosure that closed the year</h3>
 
 A client gives non-voting shares in her family company to her children, valuing the block with a

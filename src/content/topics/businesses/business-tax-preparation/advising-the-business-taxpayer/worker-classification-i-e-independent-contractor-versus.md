@@ -25,7 +25,28 @@ forms: []
 related: ["2.2.5.b", "2.2.2.j", "2.2.5.a", "2.2.5.c", "2.2.5.l", "2.2.5.m"]
 changelog:
   - { date: "2026-08-21", summary: "Initial draft. Sets out the IRC § 3121(d) definition of employee in its three limbs — corporate officers, the common law test, and the four statutory employee categories with their two conditions and two exclusions — the IRC § 3508 statutory nonemployee treatment of qualified real estate agents and direct sellers with its written contract requirement, and the IRC § 3509 reduced-rate assessment for a misclassification with the doubling where reporting requirements were also missed." }
+  - { date: "2026-08-25", summary: "Added a plain-language summary, a decision diagram of the classification chain, glossary marks, and a timing scenario." }
+diagram:
+  archetype: "decision"
+  caption: "Is this worker an employee?"
+  tests:
+    - { test: "Officer of the corporation performing services? (IRC § 3121(d)(1))", result: "Employee — decided at the first limb, nothing else is checked", outcome: "fail" }
+    - { test: "Not an officer — does the payer control how the work is done, not just the result?", result: "Employee under the common law test", outcome: "fail" }
+    - { test: "Not controlled — does the worker fit one of the four statutory employee categories and meet both its conditions? (IRC § 3121(d)(3))", result: "Statutory employee — FICA withheld, but reported on Schedule C, not as wages", outcome: "fail" }
+    - { test: "Not on that list — a written contract under IRC § 3508(b) makes the worker a qualified real estate agent or direct seller?", result: "Statutory nonemployee — outside employment tax entirely", outcome: "pass" }
+    - { test: "None of the above", result: "Independent contractor — self-employment tax under IRC § 1402(a)", outcome: "pass" }
 ---
+
+<div class="plain-terms">
+Worker classification decides whether someone who does work for a business counts as an employee or
+as an independent contractor. This is not a label either side can pick. It follows from how the work
+really happens. The answer decides who pays payroll tax. It decides who must withhold income tax. It
+also decides what the worker can deduct on their own tax return. Most workers are sorted by one
+question. Does the business control how the work gets done, not just what the end result looks
+like? A small group of jobs follow a fixed rule instead. That group is company officers, a few sales
+roles, and real estate agents with the right contract. The fixed rule applies no matter what the
+control test would say. Getting this wrong costs the business real money.
+</div>
 
 Worker classification is a two-question topic usually treated as a one-question topic. The first
 question is whether the worker is an employee at common law. The second, which arises only for a
@@ -104,7 +125,7 @@ the relief runs only to amounts that should have been withheld from the worker.
 
 ## Scenarios
 
-<div class="scenario">
+<div class="scenario" data-type="baseline">
 <h3>The W-2 that belonged with a Schedule C</h3>
 
 Denholm Assurance engages a full-time life insurance salesman under a contract requiring him to
@@ -118,12 +139,12 @@ substantial investment in facilities, the exclusion for transportation facilitie
 outside the test. Nor is this a single transaction.
 
 The salesman reports the Form W-2 amount on Schedule C rather than as wages, and deducts his
-business expenses there. He pays no self-employment tax, because FICA has already been withheld.
-This is the one combination in which a Form W-2 and a Schedule C belong together, and a preparer who
-"corrects" it to wages loses the expense deductions entirely.
+business expenses there. He pays no {gloss:self-employment-tax}, because {gloss:fica} has already
+been withheld. This is the one combination in which a Form W-2 and a Schedule C belong together, and
+a preparer who "corrects" it to wages loses the expense deductions entirely.
 </div>
 
-<div class="scenario">
+<div class="scenario" data-type="fails">
 <h3>The brokerage without the paperwork</h3>
 
 Kelsall Realty treats its twelve licensed agents as independent contractors, pays them entirely on
@@ -142,7 +163,7 @@ difficulty. The remedy is a written contract signed prospectively; it does nothi
 filed, and § 3509 relief is unavailable if the Service concludes the treatment was intentional.
 </div>
 
-<div class="scenario">
+<div class="scenario" data-type="boundary">
 <h3>The assessment that doubled</h3>
 
 Ardenshaw Logistics treated eleven drivers as contractors, issued no Forms 1099-NEC and no Forms W-2,
@@ -157,6 +178,25 @@ unless the failure was due to reasonable cause and not wilful neglect. The failu
 at all makes that argument hard. And § 3509 relieves only the amounts that should have been withheld
 from the workers: the employer's own share of FICA, its FUTA, and the information return penalties
 under IRC §§ 6721 and 6722 are all payable in full on top.
+</div>
+
+<div class="scenario" data-type="timing">
+<h3>The relationship that changed underneath the paperwork</h3>
+
+Millbrook Studio engages a photo editor in year one. At the start, Millbrook assigns daily tasks,
+sets her hours, supplies the editing software licence, and reviews her work before it goes out — the
+{gloss:worker-classification} points to an employee under the common law test, whatever the parties
+call the arrangement. By year three the same editor works from her own equipment, sets her own
+schedule, edits for two other studios as well, and Millbrook only specifies the deadline and the
+delivery format.
+
+Nothing in IRC § 3121(d) fixes a worker's status for all time; the common law test asks about
+control as it actually exists, and control can change one year to the next without either side
+signing anything new. Millbrook should reassess the relationship each year rather than carry forward
+a determination made when the facts were different — the year-one facts supported wages and
+withholding, and the year-three facts support treating her as an {gloss:independent-contractor}
+filing her own Schedule C. Continuing year-one's Form W-2 treatment into year three because "that is
+how we have always classified her" answers the wrong year's question.
 </div>
 
 ## Traps

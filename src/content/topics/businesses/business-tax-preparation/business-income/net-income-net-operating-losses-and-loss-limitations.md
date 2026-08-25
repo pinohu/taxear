@@ -22,7 +22,25 @@ forms: []
 related: ["2.2.1.a", "2.2.1.b", "2.2.1.d", "2.1.5.e", "2.1.2.e", "2.2.2.b", "2.2.2.g", "2.2.2.k", "2.2.2.l", "2.2.2.m", "2.2.2.n"]
 changelog:
   - { date: "2026-08-21", summary: "Initial draft. Sets out the four loss limitations in the order they apply — basis under IRC § 704(d) or IRC § 1366(d), amount at risk under IRC § 465, passive activity under IRC § 469, and excess business loss under IRC § 461(l) — with the IRC § 172 carryforward rules and the IRC § 172(a)(2) cap. Records that Pub. L. 119-21 § 70601(a) struck the expiry date from IRC § 461(l)(1), making the excess business loss limitation permanent, and that the rendered statutory text at LII is two amendments stale on that point." }
+  - { date: "2026-08-25", summary: "Added a plain-language summary, a decision diagram of the four gates in order, glossary marks, and a fourth typed scenario on two vintages of net operating loss." }
+diagram:
+  archetype: "decision"
+  caption: "The four loss limitations, applied in order"
+  tests:
+    - { test: "Basis — partner (§ 704(d)) or S corp shareholder (§ 1366(d)(1))?", result: "Allowed only to the extent of basis", outcome: "pass" }
+    - { test: "Amount at risk, § 465?", result: "Allowed only to the extent at risk; excess carries to the same activity", outcome: "pass" }
+    - { test: "Passive activity, § 469?", result: "Allowed only against passive income; excess carries to the same activity", outcome: "pass" }
+    - { test: "Excess business loss, § 461(l)?", result: "Allowed up to the threshold; excess becomes a net operating loss", outcome: "fail" }
 ---
+
+<div class="plain-terms">
+A business loss does not cut the tax someone owes right away. It must clear a set of
+gates first, and each gate can hold back part of it. This page walks through those gates in order: how
+much money the owner has at stake, whether the owner truly runs the business day to day, and a cap on
+how much loss can offset other income in one year. It affects owners of a partnership, an S
+corporation, or a small firm who report a loss on a personal return. What a loss does not clear this
+year is not lost for good. It carries forward and can offset income in a later year instead.
+</div>
 
 A business loss must survive four separate limitations before it reduces taxable income, and they
 apply in a fixed order. Each has its own carryover rule, and a loss stopped by one of them is not
@@ -118,7 +136,7 @@ does not absorb a business loss at this stage.
 taxpayer with both vintages must track them separately. The only general carryback left is
 {fig:loss.nol_farming_carryback} (IRC § 172(b)(1)(B)(i)).
 
-<div class="scenario">
+<div class="scenario" data-type="interaction">
 <h3>The partner stopped twice</h3>
 
 Ingoldsby holds a 30 percent interest in a trading partnership. His outside basis at the year end
@@ -128,7 +146,7 @@ under IRC § 752. His share of the year's loss is $150,000. He materially partic
 IRC § 704(d) allows the loss to the extent of basis, and $180,000 exceeds $150,000, so basis is
 not the stop.
 
-IRC § 465 is. His at-risk amount is $70,000 — the money and property he actually contributed. The
+The {gloss:at-risk-rules} are. His at-risk amount is $70,000 — the money and property he actually contributed. The
 non-recourse debt gives him no at-risk amount, because he is not personally liable for it and has
 pledged nothing outside the activity. {fig:loss.atrisk_amounts}. So $70,000 is allowed and
 $80,000 is suspended.
@@ -141,7 +159,7 @@ The $80,000 suspended by IRC § 465 stays with the activity: {fig:loss.atrisk_ca
 not become a net operating loss, and it is not freed by income from anything else.
 </div>
 
-<div class="scenario">
+<div class="scenario" data-type="baseline">
 <h3>Two businesses, one threshold, and a salary that does not help</h3>
 
 Marchmont files a joint return. She has a consultancy that made $90,000 and a manufacturing
@@ -164,14 +182,14 @@ still has taxable income, and carries the balance forward. Before 2018 the whole
 been deductible in the year.
 </div>
 
-<div class="scenario">
+<div class="scenario" data-type="fails">
 <h3>The rental that could not be rescued</h3>
 
 Trewithen owns a small apartment building outright, manages it himself, spends 900 hours a year on
 it, and loses $40,000. He has $220,000 of consultancy income.
 
 Basis is ample and he is fully at risk. But {fig:loss.pal_defined} — a rental activity is a
-passive activity whether or not the taxpayer materially participates, so his 900 hours are beside
+{gloss:passive-activity} whether or not the taxpayer materially participates, so his 900 hours are beside
 the point. The $40,000 is a passive loss, he has no passive income, and IRC § 469(a) disallows it.
 
 {fig:loss.pal_carryover} (IRC § 469(b)). The loss waits for passive income from the activity or
@@ -181,6 +199,20 @@ Two things would change the answer, neither of which is material participation a
 as a real estate professional under IRC § 469(c)(7), which takes the rental out of the automatic
 category, or the IRC § 469(i) allowance for active participation in rental real estate. Both are
 separate regimes with their own conditions, and neither follows from the hours alone.
+</div>
+
+<div class="scenario" data-type="timing">
+<h3>Two vintages of loss, one carryforward</h3>
+
+Ashopton Fabrication Inc. carries a $400,000 {gloss:net-operating-loss} from a taxable year beginning
+in 2015 and a $900,000 net operating loss from a taxable year beginning in 2022. Its taxable income
+before any net operating loss deduction is $700,000 in 2026.
+
+{fig:loss.nol_carryforward} — both losses carry forward indefinitely, but they are not treated alike.
+The 2015 loss is used first and is not subject to {fig:loss.nol_80_percent}, so the full $400,000 is
+deducted. Only the remaining $300,000 of taxable income is available for the 2022 loss, and that loss
+is capped at 80 percent of it — $240,000 is deducted, and $660,000 of the 2022 loss carries forward
+again to 2027. The same dollar of loss behaves differently depending on which year it arose in.
 </div>
 
 <div class="callout trap">

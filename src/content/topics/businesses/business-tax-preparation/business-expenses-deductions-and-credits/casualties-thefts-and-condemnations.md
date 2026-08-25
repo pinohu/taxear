@@ -19,7 +19,17 @@ forms: []
 related: ["2.2.2.h", "2.2.2.c", "2.2.1.c", "2.2.2.d", "2.2.2.i", "2.2.3.b", "2.2.3.d", "2.2.3.e"]
 changelog:
   - { date: "2026-08-21", summary: "Initial draft. Sets out the IRC § 165(a) deduction and the IRC § 165(c) limits on an individual, the Reg. § 1.165-7(b) measure of a casualty loss and the rule that business property is measured by each single identifiable item while a residence is not, the IRC § 165(e) year of a theft loss, and the IRC § 1033 deferral on an involuntary conversion with the wider like-kind test and three-year replacement period that IRC § 1033(g) gives to a condemnation of business real property." }
+  - { date: "2026-08-25", summary: "Added a plain-language summary, glossary marks, and two typed scenarios." }
 ---
+
+<div class="plain-terms">
+This page is about business property that burns down, gets stolen, or gets taken by the
+government. Think of a fire, a burglary, or a city taking land for a road. It reaches business
+owners and their preparers. It does not cover a home or a personal car; those follow different
+rules. The page answers two things. Did the loss create a tax deduction, or did insurance money
+create a taxable gain instead? If there is a gain, can the owner put off the tax by buying new
+property, and how long do they have?
+</div>
 
 An event that destroys or takes business property can produce a loss or a gain, and the two are
 governed by different sections. IRC § 165 measures the loss. IRC § 1033 defers the gain. A single
@@ -115,7 +125,7 @@ business or for investment, and neither reaches stock in trade.
 enough enters the IRC § 1231 netting, where a net gain is capital and a net loss is ordinary. The
 casualty provisions decide the amount; IRC § 1231 decides what kind of income it is.
 
-<div class="scenario">
+<div class="scenario" data-type="interaction">
 <h3>One fire, three assets, three answers</h3>
 
 A fire destroys part of a manufacturer's site. The building had an adjusted basis of $400,000 and
@@ -140,7 +150,7 @@ destroyed, in which case {fig:cas.total_destruction} treats the $30,000 basis as
 Three assets, one event, and the answer for each depends on a different provision.
 </div>
 
-<div class="scenario">
+<div class="scenario" data-type="boundary">
 <h3>The condemnation that bought an apartment block</h3>
 
 A county condemns twelve acres of farmland held for years and pays $1,900,000. The owner's
@@ -162,7 +172,7 @@ of $2,100,000 less $1,560,000, or $540,000 — the deferral is paid for in reduc
 a larger gain on any later sale.
 </div>
 
-<div class="scenario">
+<div class="scenario" data-type="timing">
 <h3>The theft found three years late</h3>
 
 An audit in 2026 shows that a trusted employee misappropriated $180,000 over 2022, 2023 and 2024.
@@ -180,6 +190,32 @@ so the deductible amount — $110,000 — belongs to 2027.
 Note also {fig:baddebt.amount} (IRC § 165(b)): the loss is measured by adjusted basis. Cash
 misappropriated has a basis equal to its face amount, so the full $110,000 is deductible. Had the
 employee stolen fully depreciated equipment instead, the deduction would have been nil.
+</div>
+
+<div class="scenario" data-type="baseline">
+<h3>The straightforward storm loss</h3>
+
+<p>A landscaping company's uninsured tool shed, adjusted basis $22,000, is flattened by a
+windstorm. It was worth $30,000 the day before and is a total loss.</p>
+
+<p><em>Analysis.</em> This is an ordinary {gloss:casualty-loss}: no insurance to net out, and only
+one identifiable structure involved. The decline in fair market value is $30,000 and the adjusted
+basis is $22,000; the deduction is the lesser of the two, so $22,000. Because the shed was totally
+destroyed, the same $22,000 figure would apply even if it had been worth far less before the
+storm.</p>
+</div>
+
+<div class="scenario" data-type="fails">
+<h3>The claim that insurance ruled out</h3>
+
+<p>A print shop's press, adjusted basis $85,000, is destroyed by a fire. The shop is fully insured
+and collects $85,000 — exactly its basis — and immediately tells its preparer to claim a casualty
+loss.</p>
+
+<p><em>Analysis.</em> There is no deduction to claim. A {gloss:casualty-loss} is allowed only for
+the amount not compensated for by insurance, and here the insurance recovery matches the basis
+exactly: no loss remains, and no gain either. This is also an {gloss:involuntary-conversion} — the
+shop has $85,000 of basis to reinvest or not, with nothing to defer and nothing to deduct.</p>
 </div>
 
 <div class="callout trap">

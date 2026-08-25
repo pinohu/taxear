@@ -19,7 +19,28 @@ forms: []
 related: ["1.6.3.a", "1.6.3.b", "1.6.3.c", "1.6.3.e", "1.6.3.f"]
 changelog:
   - { date: "2026-08-21", summary: "Initial draft. Compares the two regimes across the six axes on which they differ — who files, what is covered, what an interest is, the threshold structure, valuation and timing, and where the filing goes — including the territories point on which they define the United States differently, and the rule that neither filing substitutes for the other." }
+  - { date: "2026-08-25", summary: "Added a plain-language summary, a decision diagram walking through which form a holding lands on, typed scenarios, and glossary marks under the comprehension-layer rollout." }
+diagram:
+  archetype: "decision"
+  caption: "Which form does a foreign holding land on?"
+  tests:
+    - { test: "Is it held in a financial account, not just owned outright?", result: "No account — check Form 8938 only", outcome: "fail" }
+    - { test: "Account sits at a branch located outside the United States?", result: "FBAR applies to the account", outcome: "pass" }
+    - { test: "Is the institution itself a foreign financial institution?", result: "Form 8938 applies too, not just the FBAR", outcome: "pass" }
+    - { test: "No account at all — asset issued by or held with a foreign person?", result: "Form 8938 only; there is no FBAR account", outcome: "pass" }
+    - { test: "Held directly — real estate, currency, metals, personal property?", result: "Neither form applies", outcome: "fail" }
 ---
+
+<div class="plain-terms">
+The federal government has two separate reports for foreign money and property, and they do not always
+agree. This page lines the two up side by side and shows where they differ. It is written for someone
+who already knows they have some foreign reporting to do, and wants to know exactly which report covers
+which account or asset, and when. It affects U.S. taxpayers with any foreign account, foreign investment,
+or the power to sign for someone else's foreign account. The two reports disagree about who must file,
+what kinds of holdings count, what counts as an interest in something, how the dollar limits are built,
+how value is measured, and even whether a U.S. territory counts as part of the United States. Filing one
+report never covers the other. Each must be worked out on its own, every time.
+</div>
 
 Practitioners describe these two as overlapping, which understates the problem. They overlap on the
 common case — a bank account abroad, owned outright, worth a lot — and diverge on almost everything
@@ -99,7 +120,7 @@ return, has two different deadlines in the same season.
 **Say the substitution rule out loud to the client.** People who have filed one for years and then learn
 of the other assume the first covered them. It never did, and the penalty regimes are separate too.
 
-<div class="scenario">
+<div class="scenario" data-type="baseline">
 <h3>Four holdings, four answers</h3>
 
 A client holds: a savings account at a bank in Chile; shares in a Chilean company registered in his own
@@ -114,20 +135,20 @@ occupied.
 
 </div>
 
-<div class="scenario">
+<div class="scenario" data-type="interaction">
 <h3>The account whose income was not hers</h3>
 
 A client is named on her elderly father's account in Canada so she can manage his affairs. The interest
 is reported on his return, not hers, and she takes nothing from it.
 
-She has an FBAR obligation. The FBAR interest test reaches an owner of record or holder of legal title
-regardless of whose income it is, and would reach her on signature authority in any event. She has no
-Form 8938 obligation: nothing from the account is required to be reflected on *her* income tax return,
+She has an {gloss:fbar} obligation. The FBAR interest test reaches an owner of record or holder of legal
+title regardless of whose income it is, and would reach her on signature authority in any event. She has
+no Form 8938 obligation: nothing from the account is required to be reflected on *her* income tax return,
 which is the Form 8938 test. Two forms, two questions, one answer each — and they differ.
 
 </div>
 
-<div class="scenario">
+<div class="scenario" data-type="timing">
 <h3>The move to San Juan</h3>
 
 A client relocates to Puerto Rico and continues to hold accounts in Spain.
@@ -140,16 +161,16 @@ the other much easier.
 
 </div>
 
-<div class="scenario">
+<div class="scenario" data-type="procedural">
 <h3>Twenty years of the wrong form</h3>
 
-A client has filed an FBAR faithfully every year since 2004 for an account in Australia that has grown
-to $460,000. He has never filed Form 8938 and believes the FBAR covered his obligations.
+A client has filed an {gloss:fbar} faithfully every year since 2004 for an account in Australia that has
+grown to $460,000. He has never filed Form 8938 and believes the FBAR covered his obligations.
 
 It never did. The account is also a specified foreign financial asset and, at that value, over the
 threshold for every filing status. Each unfiled Form 8938 carries its own penalty, and — the more
-serious consequence — IRC § 6501(c)(8) has kept the assessment period open for every year in which the
-form was required. His diligence on one form has done nothing to close the years on the other.
+serious consequence — IRC § 6501(c)(8) has kept the {gloss:assessment} period open for every year in
+which the form was required. His diligence on one form has done nothing to close the years on the other.
 
 </div>
 

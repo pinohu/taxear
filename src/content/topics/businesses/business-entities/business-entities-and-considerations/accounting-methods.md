@@ -22,7 +22,18 @@ forms: []
 related: ["2.1.1.a", "2.1.1.i", "2.1.1.c", "2.1.1.l", "2.2.1.a", "2.2.1.b", "2.2.2.c", "2.2.2.d"]
 changelog:
   - { date: "2026-08-21", summary: "Initial draft. Sets out the IRC § 446(a) book conformity rule and the § 446(b) clear reflection override, the § 446(c) permissible methods, the § 446(d) rule that one taxpayer may use different methods for different trades or businesses, the § 446(e) consent requirement, the § 448(a) prohibition on the cash method for C corporations, partnerships with a C corporation partner and tax shelters with its exceptions, the § 448(c) gross receipts test at the 2026 inflation-adjusted figure with the aggregation and annualisation mechanics, the § 461(h) economic performance requirement and recurring item exception, the § 471(c) and § 263A(i) small business exemptions that ride on the same test, and the § 481(a) adjustment on a change." }
+  - { date: "2026-08-25", summary: "Added a plain-language summary, glossary marks, and typed scenarios." }
 ---
+
+<div class="plain-terms">
+Every business picks one of two ways to keep its books. It counts money when cash actually moves, or it
+counts a sale or a bill as soon as it happens, even before the cash arrives. This choice is called an
+accounting method. This page explains which way a business may use, and when a bigger business must
+change its way. It matters most to a growing business, since new rules kick in once a business gets big
+enough. It does not matter to a business that already keeps clear, separate books for each part of what
+it does. What changes: whether a business may use the easy pay-as-you-go method, whether it must track
+goods on hand, and whether it must wait to write off some costs until it truly pays them.
+</div>
 
 Accounting method questions come in two kinds, and it helps to know which one you are looking at. "May
 this taxpayer use the cash method" is a question about size and entity type with a mechanical answer.
@@ -115,12 +126,12 @@ away.
 
 ## Scenarios
 
-<div class="scenario">
+<div class="scenario" data-type="baseline">
 <h3>The woodworker and the restaurant</h3>
 <p>Amaury runs two businesses as a sole proprietor: a workshop making furniture to order, and a small
 restaurant. The workshop has almost no inventory and bills on completion; the restaurant carries food
-stock and buys on trade credit. He would like the workshop on the cash method and the restaurant on
-accrual.</p>
+stock and buys on trade credit. He would like the workshop on the {gloss:cash-method} and the restaurant
+on accrual.</p>
 <p>He may do that. IRC § 446(d) permits a taxpayer engaged in more than one trade or business to use a
 different method for each, and neither business is a C corporation, a partnership with a corporate
 partner, or a tax shelter, so IRC § 448(a) does not reach either. The condition is that he keeps separate
@@ -129,24 +140,24 @@ from one commingled ledger would not support two methods. If he later merges the
 of records, he has one trade or business with one method and the second method has quietly disappeared.</p>
 </div>
 
-<div class="scenario">
+<div class="scenario" data-type="fails">
 <h3>The partnership with one corporate partner</h3>
 <p>A three-partner engineering partnership has average annual gross receipts of about $46 million over the
-three preceding years. Two partners are individuals; the third is a C corporation holding a 4 percent
-interest, admitted years ago for reasons nobody now remembers. The partnership has always used the cash
-method.</p>
+three preceding years. Two partners are individuals; the third is a {gloss:c-corporation} holding a 4
+percent interest, admitted years ago for reasons nobody now remembers. The partnership has always used the
+cash method.</p>
 <p>It cannot. IRC § 448(a)(2) prohibits the cash method for a partnership that has a C corporation as a
 partner, and the size of that partner's interest is irrelevant — the statute says "has a C corporation as
 a partner" without qualification. The gross receipts exception would rescue it if receipts were under the
-threshold, but at $46 million they are far above the 2026 figure. The partnership must be on an accrual
-method, with an IRC § 481(a) adjustment for the change. The commercially interesting point is that
-redeeming the 4 percent corporate partner would, prospectively, remove the prohibition.</p>
+threshold, but at $46 million they are far above the 2026 figure. The partnership must be on an
+{gloss:accrual-method}, with an IRC § 481(a) adjustment for the change. The commercially interesting point
+is that redeeming the 4 percent corporate partner would, prospectively, remove the prohibition.</p>
 </div>
 
-<div class="scenario">
+<div class="scenario" data-type="boundary">
 <h3>The year the threshold arrived</h3>
-<p>A specialty food manufacturer has grown steadily. Its average annual gross receipts for the three years
-preceding 2026 come to $34 million, having been under the threshold in each earlier year. It uses the cash
+<p>A specialty food manufacturer has grown steadily. Its average annual {gloss:gross-receipts} for the
+three years preceding 2026 come to $34 million, having been under the threshold in each earlier year. It uses the cash
 method, expenses its raw materials as bought, and has never applied the uniform capitalisation rules.</p>
 <p>All three of those positions end at once. Failing the IRC § 448(c) test means the cash method is
 prohibited under IRC § 448(a)(1) if it is a corporation, or under (a)(2) if it has a corporate partner;
@@ -157,7 +168,7 @@ practical lesson is that the threshold should be forecast a year ahead, not disc
 bites.</p>
 </div>
 
-<div class="scenario">
+<div class="scenario" data-type="interaction">
 <h3>The settlement accrued too early</h3>
 <p>An accrual-basis manufacturer settles a personal injury claim in November 2026 for $400,000, payable in
 three instalments running into 2028. The liability is fixed, the amount is certain, and the controller

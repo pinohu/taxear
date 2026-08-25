@@ -27,7 +27,19 @@ forms: []
 related: ["2.2.4.b", "2.2.4.c", "2.2.4.a", "2.2.1.a", "2.2.2.i", "2.2.4.g", "2.2.5.a", "2.2.5.g"]
 changelog:
   - { date: "2026-08-21", summary: "Initial draft. Sets out the IRC § 446(a) book conformity rule and the § 448(a) prohibition with its farming, qualified personal service corporation and gross receipts exceptions at the 2026 figure from Rev. Proc. 2025-32 § 3.30, the Reg. § 1.448-1T(e)(4) and (e)(5) function and ownership tests, the Reg. § 1.446-1(e)(2) definition of a change in method and the list of what is not one, the Form 3115 consent procedure with its terms and conditions, and the IRC § 481(a) adjustment." }
+  - { date: "2026-08-25", summary: "Added a plain-language summary, glossary marks, and typed the existing scenarios." }
 ---
+
+<div class="plain-terms">
+A method of accounting is simply when a business counts its income and expenses — not the amounts
+themselves, but the timing. The two basic choices are the cash method, which counts money when it is
+actually received or paid, and the accrual method, which counts it when it is earned or owed. A
+business can even use a mix. This matters because a business does not get to pick freely every year:
+once it has consistently used a method, changing it — even to fix a mistake — requires the IRS's
+permission first. Larger businesses, and a few other kinds, are also blocked from using the cash
+method at all. The choice affects when income shows up on the return, which can shift a large amount
+of tax from one year to another.
+</div>
 
 The Code does not ask which method a business should use. It asks which method it *does* use, and
 makes changing it a formal proceeding. That inversion — the method is a fact about the books before
@@ -129,7 +141,7 @@ generally receives audit protection for earlier years that a self-help correctio
 
 ## Scenarios
 
-<div class="scenario">
+<div class="scenario" data-type="boundary">
 <h3>Three years, not two</h3>
 
 Halloway Components is a C corporation formed in year one with gross receipts of $20,000,000. In
@@ -142,12 +154,12 @@ test does average years one and two. Against the 2026 figure the average is insi
 method is available.
 
 Change one number and the answer inverts. Had year two produced $45,000,000, the average would be
-$32,500,000 and Halloway would be on an accrual method for year three — with a Form 3115 to get
-there and a section 481(a) adjustment sweeping up the receivables and payables the cash method never
-recognised.
+$32,500,000 and Halloway would be on an {gloss:accrual-method} for year three — with a Form 3115 to
+get there and a section 481(a) adjustment sweeping up the receivables and payables the
+{gloss:cash-method} never recognised.
 </div>
 
-<div class="scenario">
+<div class="scenario" data-type="fails">
 <h3>The consultancy that failed the second test</h3>
 
 Verity Advisory is a C corporation whose employees devote effectively all their time to management
@@ -164,12 +176,12 @@ applies unless it meets the gross receipts test. Both tests must be satisfied, a
 test must hold *at all times during the year* — a single day of non-compliance is enough.
 </div>
 
-<div class="scenario">
+<div class="scenario" data-type="interaction">
 <h3>The three-year policy</h3>
 
-Thorne Logistics is on the cash method. On 1 August it pays $4,000 for a liability policy running
-three years from that date. Its bookkeeper deducts the whole $4,000, reasoning that a cash method
-taxpayer deducts what it pays.
+Thorne Logistics is on the {gloss:cash-method}. On 1 August it pays $4,000 for a liability policy
+running three years from that date. Its bookkeeper deducts the whole $4,000, reasoning that a cash
+method taxpayer deducts what it pays.
 
 The reasoning fails at Reg. § 1.263(a)-4(f)(1). The 12-month rule relieves capitalisation only where
 the benefit does not extend beyond the earlier of 12 months after it is first realised or the end of
@@ -182,7 +194,7 @@ payment created something with a life of its own. Prepaid rent, insurance and se
 run through the same analysis, and the 12-month rule is the boundary.
 </div>
 
-<div class="scenario">
+<div class="scenario" data-type="procedural">
 <h3>Two wrong numbers, two different fixes</h3>
 
 An examiner finds that Ardley Press has for four years deducted the owner's family holiday as travel
@@ -193,10 +205,10 @@ not involve the proper time for inclusion or deduction, and gives as its own exa
 as business expenses that are in fact personal. Repetition does not convert it; the correction runs
 through the open years directly.
 
-The recovery period is a method, because it is entirely about timing, and four years of consistent
-treatment establishes it. Ardley cannot simply switch: it needs consent, and the change brings a
-section 481(a) adjustment for the cumulative mis-depreciation from the beginning. Same examination,
-same taxpayer, two mechanisms.
+The recovery period is a {gloss:method-of-accounting}, because it is entirely about timing, and four
+years of consistent treatment establishes it. Ardley cannot simply switch: it needs consent, and the
+change brings a section 481(a) adjustment for the cumulative mis-depreciation from the beginning.
+Same examination, same taxpayer, two mechanisms.
 </div>
 
 ## Traps

@@ -23,7 +23,23 @@ forms: []
 related: ["2.2.1.a", "2.2.1.d", "2.2.2.a", "2.1.1.j", "2.2.1.b", "2.2.2.k"]
 changelog:
   - { date: "2026-08-21", summary: "Initial draft. Sets out IRC § 166(a) and the difference between a wholly worthless debt and a partially worthless one that requires a charge-off, the IRC § 166(b) basis measure, and the IRC § 166(d) recharacterisation of a non-corporate taxpayer's non-business debt as a short-term capital loss. Adds the Reg. § 1.166-5(b) proximate relation test, the Reg. § 1.166-1(e) prior inclusion requirement, and the Reg. § 1.166-2 evidence rules. Records that Reg. § 1.166-1(a)(2) still offers the reserve method that Pub. L. 99-514 § 805(a) repealed in 1986." }
+  - { date: "2026-08-25", summary: "Added a plain-language summary, a decision diagram of the business/non-business fork, glossary marks, and two typed scenarios (fails, procedural) rounding the scenario set out to five types." }
+diagram:
+  archetype: "decision"
+  caption: "What kind of bad debt is it — and what follows for the deduction"
+  tests:
+    - { test: "Loss bears a proximate relation to your own trade or business (Reg. § 1.166-5(b))", result: "Business bad debt — ordinary deduction, partial write-off allowed", outcome: "pass" }
+    - { test: "No such relation to your own trade or business", result: "Non-business bad debt — short-term capital loss, only once wholly worthless", outcome: "fail" }
 ---
+
+<div class="plain-terms">
+This page covers deducting money someone owes you that you will never get back. It affects a
+business owed money by a customer. It also affects anyone who lends money out of their own pocket,
+not through a business. Two things depend on the source of the loan: how much you can write off,
+and how you write it off. A debt tied to your own business gets kind treatment — you can write off
+part of it as soon as part goes bad. A personal loan gets much harsher treatment. It only counts
+once it is a total loss, and even then it is a small, limited write-off, not a full one.
+</div>
 
 Two questions decide a bad debt deduction and the second is worth far more than the first. Is
 there a debt that has become worthless, and is it a business debt? The answer to the second turns
@@ -107,17 +123,17 @@ year when the taxpayer gets round to it, and an early claim is as wrong as a lat
 is income only to the extent the earlier deduction produced a tax benefit, which is the rule in
 IRC § 111.
 
-<div class="scenario">
+<div class="scenario" data-type="interaction">
 <h3>Two consultants, one deadbeat client</h3>
 
 Two consultants each bill a client $24,000 in November 2025 for work done that month. The client
 fails in March 2026 and neither is paid.
 
-Hardwicke Advisory uses the accrual method. It included the $24,000 in 2025 income, so it has a
-$24,000 basis in the receivable. When the debt becomes worthless in 2026 it deducts $24,000 as an
-ordinary business bad debt under IRC § 166(a)(1).
+Hardwicke Advisory uses the {gloss:accrual-method}. It included the $24,000 in 2025 income, so it
+has a $24,000 basis in the receivable. When the debt becomes worthless in 2026 it deducts $24,000
+as an ordinary business bad debt under IRC § 166(a)(1).
 
-Selborne Consulting uses the cash method. It never included the fee, so {fig:baddebt.amount}
+Selborne Consulting uses the {gloss:cash-method}. It never included the fee, so {fig:baddebt.amount}
 (IRC § 166(b)) gives it a basis of zero, and {fig:baddebt.prior_inclusion} (Reg. § 1.166-1(e))
 states the point directly for unpaid fees. It deducts nothing.
 
@@ -126,7 +142,7 @@ question that asks for its deduction is testing whether you noticed that the ded
 income are two sides of one entry, and the intuitive answer of $24,000 is wrong.
 </div>
 
-<div class="scenario">
+<div class="scenario" data-type="boundary">
 <h3>The loan to a supplier, and the loan to a friend</h3>
 
 Rushmere, who runs a printing business as a sole proprietor, makes two loans in the same month.
@@ -149,7 +165,7 @@ the other joins her capital losses and is deductible against capital gains plus 
 allowance for individuals.
 </div>
 
-<div class="scenario">
+<div class="scenario" data-type="timing">
 <h3>The debt written down twice</h3>
 
 Aldringham Supplies is owed $80,000 by a customer that enters bankruptcy in 2026. The trustee
@@ -168,6 +184,36 @@ Now suppose the estate had instead distributed $30,000. The first $20,000 clears
 balance; the extra $10,000 is a recovery of an amount previously deducted.
 {fig:baddebt.recovery} (Reg. § 1.166-1(f)) includes it in 2028 income, to the extent the 2026
 deduction produced a tax benefit under IRC § 111.
+</div>
+
+<div class="scenario" data-type="fails">
+<h3>The "loan" that was never a debt</h3>
+
+A father advances his adult son $50,000 to help him through a rough patch, taking no note,
+charging no interest, and setting no repayment date. Two years later the son still has not repaid
+anything, and the father wants to deduct it as a {gloss:bad-debt} once the son says he cannot pay.
+
+{fig:baddebt.bona_fide} (Reg. § 1.166-1(c)) requires a genuine debtor-creditor relationship founded
+on a valid and enforceable obligation to repay a fixed sum. An advance with no note, no interest,
+and no repayment terms looks like a gift the moment it is made, not a loan that later went bad.
+There is no bad debt deduction here at all — not a limited one, not a delayed one — because there
+was never a debt to begin with.
+</div>
+
+<div class="scenario" data-type="procedural">
+<h3>The refund claim built on a worthless debt</h3>
+
+A small manufacturer discovers in 2026 that a customer's $90,000 receivable, which it fully
+included in income when it accrued back in 2022, became completely worthless that same year — the
+customer vanished and the manufacturer never claimed the deduction on its 2022 return. The ordinary
+three-year deadline for amending that return has long since passed.
+
+A bad debt deduction gets its own, longer refund window. {fig:baddebt.refund_period} runs from the
+return's due date, specifically because worthlessness is often discovered well after the ordinary
+limitations period would otherwise close a return. The manufacturer can still file a claim for the
+2022 tax year based on the bad debt, well past the point an ordinary missed deduction would be
+barred. Filing the right form and identifying 2022 — the year of worthlessness, not the year of
+discovery — is what makes the claim work at all.
 </div>
 
 <div class="callout trap">

@@ -22,7 +22,18 @@ forms: []
 related: ["1.6.3.a", "1.6.3.b", "1.6.3.d", "1.6.3.e", "1.6.3.f"]
 changelog:
   - { date: "2026-08-21", summary: "Initial draft. Sets out the penalty regime attached to each international information return — IRC § 6038D(d) for Form 8938, § 6038(b) and (c) for Forms 5471 and 8865 with its reduction of the foreign tax credit, § 6677 for foreign trusts, § 6039F(c) for unreported foreign gifts, the FBAR penalties in 31 U.S.C. §§ 5321 and 5322 — together with the 40 percent accuracy-related penalty in § 6662(j) and the open-ended limitation period in § 6501(c)(8)." }
+  - { date: "2026-08-25", summary: "Added a plain-language summary, glossary marks, and typed scenarios." }
 ---
+
+<div class="plain-terms">
+This page explains what happens when someone misses one of the special reports required for foreign
+accounts, foreign trusts, or foreign gifts. These penalties are unusually strict, and more than one can
+apply to the very same mistake at once. They affect anyone who was required to file one of these reports
+and did not, whether the mistake was innocent or deliberate. They do not decide whether income tax was
+actually owed. A person can face these penalties even when no tax was due at all. What this decides is
+how much a penalty grows the longer a report stays unfiled. It also decides when the clock on a penalty
+actually starts, and how long the government can still act.
+</div>
 
 The penalties in this area are severe, but severity is not what makes them dangerous. What makes them
 dangerous is their structure. They are per-form and they stack, so one unreported account can produce
@@ -101,7 +112,7 @@ extension to the related items. Documenting it contemporaneously is worth more t
 treated as paid, escalating with time, so a client who owes no United States tax on the foreign income
 because of the credit can be made to owe it by the reporting failure alone.
 
-<div class="scenario">
+<div class="scenario" data-type="boundary">
 <h3>The 75 days that cost nothing extra</h3>
 
 A client fails to file Form 8938. The Service mails a notice of the failure on 4 March. She files the
@@ -114,21 +125,22 @@ and the penalty would have been $20,000.
 
 </div>
 
-<div class="scenario">
+<div class="scenario" data-type="timing">
 <h3>The account that reopened fifteen years</h3>
 
 A client discloses in 2026 that he has held an account in Ireland since 2011 and has never filed an
 FBAR or a Form 8938. The unreported interest is modest — a few thousand dollars a year.
 
-The income tax at stake is small; the exposure is not. Under § 6501(c)(8) the assessment period for each
-year in which Form 8938 was required has not begun to run, so every one of those years is open, and
-because the failure was not obviously due to reasonable cause the extension is not confined to the
-foreign items. Filing the missing information starts a three-year clock; not filing leaves the years
-open indefinitely. The limitation rule, not the penalty tables, is what makes the disclosure urgent.
+The income tax at stake is small; the exposure is not. Under § 6501(c)(8) the {gloss:assessment} period
+for each year in which Form 8938 was required has not begun to run, so every one of those years is open,
+and because the failure was not obviously due to {gloss:reasonable-cause-defense} the extension is not
+confined to the foreign items. Filing the missing information starts a three-year clock; not filing
+leaves the years open indefinitely. The limitation rule, not the penalty tables, is what makes the
+disclosure urgent.
 
 </div>
 
-<div class="scenario">
+<div class="scenario" data-type="interaction">
 <h3>The credit that was reduced away</h3>
 
 A client controls a foreign corporation and pays substantial tax abroad on its income. She has never
@@ -142,13 +154,13 @@ created none.
 
 </div>
 
-<div class="scenario">
+<div class="scenario" data-type="fails">
 <h3>Willful, and measured against the wrong number</h3>
 
 A client held $2,000,000 in an undeclared account and told his preparer, in writing, not to mention it.
 The unreported income over the years came to about $180,000 and the tax on it to about $60,000.
 
-The willful FBAR penalty is the greater of $100,000 or 50 percent of the account balance at the time of
+The willful {gloss:fbar} penalty is the greater of $100,000 or 50 percent of the account balance at the time of
 the violation — here $1,000,000, for a single year's violation, against $60,000 of tax. The penalty is
 not proportionate to the tax because it was never designed to be: it is measured against the balance
 concealed. The reasonable cause exception is unavailable to him by definition.

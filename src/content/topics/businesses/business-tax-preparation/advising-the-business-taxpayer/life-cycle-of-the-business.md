@@ -28,7 +28,25 @@ forms: []
 related: ["2.2.5.e", "2.2.5.h", "2.2.4.a", "2.2.5.a", "2.2.2.c"]
 changelog:
   - { date: "2026-08-21", summary: "Initial draft. Follows the business through formation, election, operation and exit — the IRC § 195 and § 248 start-up and organisational rules with their common structure, the IRC § 1362(b) election window and the trap where an election in it is treated as made for the following year, the IRC § 1362(d) revocation timing and the § 1362(g) five-year bar, and the divergence at dissolution between IRC §§ 336 and 331 for a corporation and IRC §§ 708 and 731 for a partnership." }
+  - { date: "2026-08-25", summary: "Added a plain-language summary, a timeline diagram of the four life-cycle moments, glossary marks, and a fourth typed scenario on the built-in gains tax after an S election." }
+diagram:
+  archetype: "timeline"
+  caption: "The four moments in a business's life where tax law is decisive"
+  events:
+    - { when: "Formation", what: "Start-up and organisational costs begin to amortize once the active trade or business begins" }
+    - { when: "First 2½ months of a tax year", what: "S election window — but eligibility on every earlier day of the year controls, or the election shifts a year" }
+    - { when: "A change of ownership", what: "A partnership survives if any partner continues the business; a corporation always survives" }
+    - { when: "Exit", what: "A corporation is taxed twice on liquidation; a partnership recognizes gain only to the extent money exceeds outside basis" }
 ---
+
+<div class="plain-terms">
+A business faces a few key moments where tax rules make a real difference: starting up, choosing a
+tax status, changing owners, and closing down. Starting up is usually cheap, and easy to fix if
+something goes wrong. The other moments are not. Deadlines pass, and choices made years earlier
+decide what a shutdown will cost. This page walks through all four moments in order. It matters to
+any business owner planning a start, an election, a sale, or a wind-down. It decides when each choice
+locks in, and why the earlier decisions usually matter more than the ones made at the very end.
+</div>
 
 A business passes through four moments where tax law is decisive: formation, election, a change of
 ownership, and exit. Only the first is cheap. The others are governed by deadlines that have already
@@ -112,7 +130,7 @@ has ceased operating has not ceased filing.
 
 ## Scenarios
 
-<div class="scenario">
+<div class="scenario" data-type="timing">
 <h3>The election that arrived a year late</h3>
 
 Wexford Analytics is incorporated on 3 January and issues a small parcel of shares to a
@@ -131,13 +149,13 @@ on which the requirement was not met. The remedy, if the first year matters, is 
 inadvertent invalid election, which is discretionary rather than available as of right.
 </div>
 
-<div class="scenario">
+<div class="scenario" data-type="baseline">
 <h3>The company that could not be unwound cheaply</h3>
 
-Padgate Instruments, a C corporation formed twenty years ago, holds land bought for $200,000 and now
-worth $2,600,000, and its shareholders want to wind up and hold the land personally.
+Padgate Instruments, a {gloss:c-corporation} formed twenty years ago, holds land bought for $200,000
+and now worth $2,600,000, and its shareholders want to wind up and hold the land personally.
 
-Liquidation costs twice. IRC § 336(a) recognises gain to the corporation on distributing the land in
+{gloss:liquidation} costs twice. IRC § 336(a) recognises gain to the corporation on distributing the land in
 complete liquidation as if it had been sold to the shareholders at fair market value — $2,400,000 of
 corporate gain. IRC § 331(a) then treats the shareholders as having received full payment in
 exchange for their stock, so they have capital gain to the extent the value received exceeds their
@@ -150,12 +168,12 @@ decision that made this expensive was putting appreciating land into a C corpora
 ago.
 </div>
 
-<div class="scenario">
+<div class="scenario" data-type="fails">
 <h3>The partnership that did not terminate</h3>
 
-Harewood Design has four partners. Two retire and are bought out over eighteen months; the remaining
-two continue the business with a new junior partner. The bookkeeper prepares a final Form 1065 and a
-new one for a new partnership.
+Harewood Design, a {gloss:partnership-entity} with four partners, sees two of them retire and get
+bought out over eighteen months; the remaining two continue the business with a new junior partner.
+The bookkeeper prepares a final Form 1065 and a new one for a new partnership.
 
 That is wrong. IRC § 708(b)(1) provides that a partnership is considered terminated only if no part
 of any business, financial operation or venture of the partnership continues to be carried on by any
@@ -167,6 +185,23 @@ What the ownership change does affect is different. The departing partners have 
 the extent money exceeds outside basis; the buyers take outside basis at cost; and an IRC § 754
 election would let the partnership adjust the basis of its property to match. Treating a continuing
 partnership as terminated loses all of that and starts elections and periods afresh for no reason.
+</div>
+
+<div class="scenario" data-type="interaction">
+<h3>The S election that woke up the built-in gains tax</h3>
+
+Longmoor Ceramics operated as a C corporation for eleven years and holds a kiln building worth
+$900,000 against a basis of $250,000. Its owners make an {gloss:s-corporation} election effective the
+next calendar year, planning to sell the building two years after that once a buyer is lined up.
+
+The election does not erase the corporation's history. IRC § 1374 imposes a corporate-level tax on
+the built-in gain that existed at the start of the recognition period, computed as if the C
+corporation had sold its assets on the day the election became effective — here $650,000 of built-in
+gain on the building. A sale within the recognition period recognizes that built-in gain at the
+corporate level even though the entity is now taxed as an S corporation, on top of whatever passes
+through to the shareholders afterward. The planning point is timing the sale past the recognition
+period, not the election itself — making the S election does not by itself avoid the tax the
+corporation would have owed had it stayed a C corporation and sold the same asset.
 </div>
 
 ## Traps

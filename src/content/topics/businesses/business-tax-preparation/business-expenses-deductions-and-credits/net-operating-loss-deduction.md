@@ -22,7 +22,18 @@ forms: []
 related: ["2.2.1.c", "2.2.2.m", "2.2.1.d", "2.2.1.a", "2.2.2.l", "2.2.5.l"]
 changelog:
   - { date: "2026-08-21", summary: "Initial draft. Sets out the IRC § 172(c) definition and the IRC § 172(d) modifications that make a net operating loss different from a book or economic loss, in particular the IRC § 172(d)(4) restriction on non-business deductions of a non-corporate taxpayer and the items IRC § 172(d)(4)(A), (C) and (D) do and do not treat as attributable to the trade or business. Records the three carryover regimes since 2017, the IRC § 172(b)(1)(C) survival of the older rules for a non-life insurance company, and the IRC § 172(b)(3) waiver election that most taxpayers no longer need." }
+  - { date: "2026-08-25", summary: "Added a plain-language summary, glossary marks, and two typed scenarios (boundary, fails) alongside the three existing ones now typed baseline/interaction/procedural." }
 ---
+
+<div class="plain-terms">
+A {gloss:net-operating-loss} is what the law calls it when a business loses money for the year
+overall. It can affect any business, but it works differently for a person running their own
+business than for a corporation. For a person, the loss the law counts is often smaller than the
+loss on their own books. That is because personal deductions get stripped back out first. The loss is
+not gone once the year ends. It can be used to lower taxable income in a later year, though usually
+only up to a set share of that year's income. Only farmers, and a narrow kind of insurance company,
+can still carry a loss back to an earlier year instead.
+</div>
 
 The loss limitations topic sets out where a net operating loss sits among the four limitations.
 This page is about the loss itself: what the statute counts, what it strips out, and how the
@@ -113,7 +124,7 @@ non-corporate taxpayer's business loss can be reduced twice — once by the IRC 
 in computing it, and once by IRC § 461(l) before it is deductible — and what emerges from the
 second is a IRC § 172 loss subject to the cap.
 
-<div class="scenario">
+<div class="scenario" data-type="baseline">
 <h3>The loss on the return and the loss in the statute</h3>
 
 An unmarried sole proprietor has a $210,000 loss from her business, $9,000 of interest income, and
@@ -137,7 +148,7 @@ becomes $250,000. Had the loss been on shares instead, {fig:nol.mod_capital} wou
 at her capital gains, which are nil.
 </div>
 
-<div class="scenario">
+<div class="scenario" data-type="interaction">
 <h3>Two vintages of loss in one year</h3>
 
 A corporation carries forward $600,000 of net operating loss from a year beginning in 2016 and
@@ -161,7 +172,7 @@ $1,500,000 is still absorbed but $300,000 of the more valuable uncapped loss is 
 unnecessarily. The statutory order protects the taxpayer.
 </div>
 
-<div class="scenario">
+<div class="scenario" data-type="procedural">
 <h3>The farmer who waived</h3>
 
 A farming business has a $400,000 net operating loss in 2026. Its 2024 and 2025 were also loss
@@ -182,6 +193,41 @@ irrevocable for that year.
 The election is not free of cost: the 80 percent cap applies to the carryforward and would not
 have applied to a carryback to a pre-2018 year. Here that is academic, since 2024 and 2025 have no
 income, but on other facts it is the whole question.
+</div>
+
+<div class="scenario" data-type="boundary">
+<h3>The loss that stopped at the gain</h3>
+
+A sole proprietor has a $180,000 business loss, $12,000 of {gloss:capital-gain}, and a $15,000
+{gloss:capital-loss} from selling stock. On an ordinary return she would use the $3,000 allowance
+that lets a capital loss offset other income, so the full $15,000 shows up somewhere on her return.
+
+{fig:nol.mod_capital} disregards that $3,000 allowance for this purpose. Only $12,000 of the capital
+loss — the amount matched by her capital gain — enters the net operating loss computation. Her loss
+is $180,000 plus $12,000, or $192,000, not $195,000. The extra $3,000 genuinely reduced her taxable
+income for the year; it just does not enlarge the loss she carries forward.
+
+Change the facts so her capital loss is only $10,000, all of it under the $12,000 of gain: the whole
+$10,000 enters the computation, because the line the statute draws is the amount of the gain, not a
+fixed dollar allowance.
+</div>
+
+<div class="scenario" data-type="fails">
+<h3>The refund that wasn't available</h3>
+
+A manufacturing corporation has a $3,000,000 net operating loss for 2026 from a one-time casualty
+loss at a plant. Its 2024 return showed $5,000,000 of taxable income and a substantial tax paid, and
+the controller wants to carry the loss back to get an immediate refund of that 2024 tax.
+
+There is no carryback to have. {fig:loss.nol_carryforward} and {fig:loss.nol_80_percent} govern a
+loss arising in a year beginning after 2017, and the general carryback that existed before 2018 does
+not apply to it. The only two survivors are {fig:loss.nol_farming_carryback} and
+{fig:nol.insurance_carryback}, and a manufacturer is neither a farming business nor an insurance
+company.
+
+The $3,000,000 instead carries forward indefinitely, available against future taxable income subject
+to {fig:loss.nol_80_percent}. The refund the controller wanted does not exist; the benefit shows up
+only in a future profitable year.
 </div>
 
 <div class="callout trap">

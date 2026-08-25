@@ -26,7 +26,18 @@ forms: []
 related: ["2.2.4.b", "2.2.4.c", "2.2.4.g", "2.1.1.a", "2.2.1.a", "2.2.4.d", "2.2.5.a", "2.2.5.e", "2.2.5.i", "2.2.5.j"]
 changelog:
   - { date: "2026-08-21", summary: "Initial draft. Sets out the Reg. § 301.7701-2(b) per se corporation list and the Reg. § 301.7701-3(b) default classifications, the Form 8832 election with its 75-day and 12-month effective-date window and the 60-month limitation, the disregarded entity rule and its employment tax exception, the six-digit NAICS-based principal business activity code chosen by largest percentage of total receipts, and the IRM 4.10.4 horizontal and vertical ratio analyses with their 5 percent and 10 percent thresholds." }
+  - { date: "2026-08-25", summary: "Added a plain-language summary, glossary marks, and two typed scenarios (baseline, timing) alongside the existing four." }
 ---
+
+<div class="plain-terms">
+Before a business can file a tax return, the law has to decide what kind of entity it is. It might
+be a corporation, a partnership, or one that is ignored and reported on its owner's own return.
+This matters most for LLCs, since an LLC can be taxed several different ways depending on choices
+its owners make. Once that question is settled, a separate code describes the business's main
+activity. That code decides which industry numbers the return gets compared against later. Getting
+either one wrong will not change how much tax is owed. But it can mean filing the wrong form, or
+drawing extra attention during an exam for no real reason.
+</div>
 
 Three questions hide inside this topic, asked in a fixed order. What kind of entity is this for
 federal tax purposes? Which return does that answer require? And once the return is filed, what is
@@ -122,7 +133,7 @@ an adjustment.
 
 ## Scenarios
 
-<div class="scenario">
+<div class="scenario" data-type="boundary">
 <h3>The election nobody could make</h3>
 
 Two founders form Braddock Analytics LLC in March and in November decide they would rather be taxed
@@ -139,7 +150,7 @@ specified, a date up to 12 months after filing being allowed. The window is asym
 back, twelve months forward.
 </div>
 
-<div class="scenario">
+<div class="scenario" data-type="interaction">
 <h3>Disregarded, except where it isn't</h3>
 
 Meridian Coating LLC has one member, an individual, has never filed Form 8832, and employs nine
@@ -156,7 +167,7 @@ will not reconcile to Forms 941 filed under another, and the correspondence that
 to resolve than the error was to make.
 </div>
 
-<div class="scenario">
+<div class="scenario" data-type="fails">
 <h3>The code that invited the letter</h3>
 
 Calloway Trading buys finished goods and resells them, and separately runs a small consulting
@@ -172,7 +183,7 @@ The wrong code did not create an issue — it manufactured the appearance of one
 will spend the first hour of any examination explaining a discrepancy that never existed.
 </div>
 
-<div class="scenario">
+<div class="scenario" data-type="procedural">
 <h3>What the three-year comparison actually finds</h3>
 
 An examiner lines Tilden Fabrication's year two return up against years one and three. Gross
@@ -187,6 +198,34 @@ is a second flag.
 Neither observation is an adjustment. Each is a question, and both may have clean answers — a
 one-off inventory write-down, a year the owner deferred salary to fund equipment. The point is that
 they were visible from three return summaries before any record was requested.
+</div>
+
+<div class="scenario" data-type="baseline">
+<h3>The default working exactly as designed</h3>
+
+Two colleagues form Preston Analytics {gloss:llc} with two members, file no Form 8832, and file no S
+election.
+
+Reg. § 301.7701-3(b)(1)(i) makes a domestic eligible entity with two or more members a
+{gloss:partnership-entity} by default. No election, no per se corporation status, nothing unusual —
+Preston files Form 1065 under IRC § 6031(a) and furnishes each member a Schedule K-1, unlike a
+single-member version of the same LLC, which would default to being {gloss:disregarded-entity}
+instead. This is the ordinary case the classification regulations are built around, and it is worth
+naming because so much of the exam material understandably focuses on the exceptions.
+</div>
+
+<div class="scenario" data-type="timing">
+<h3>Same election, a different date, a different result</h3>
+
+Corrigan Ventures LLC files Form 8832 on 3 February, specifying an effective date of 1 April of the
+following year — fourteen months after the filing date.
+
+Reg. § 301.7701-3(c)(1)(iii) permits an effective date up to twelve months after the date of filing;
+fourteen months is outside that window. Because no valid date was specified within the permitted
+range, the election instead takes effect on the date it was filed, 3 February — not the date
+Corrigan wanted and not the date on the form. Filed the same election with a date thirteen months
+out, the outcome would be identical; filed with a date eleven months and twenty-nine days out, it
+would have taken effect exactly as specified. The window is the whole rule.
 </div>
 
 ## Traps

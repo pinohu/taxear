@@ -21,12 +21,22 @@ forms: []
 related: ["2.1.3.g", "2.1.3.d", "2.1.3.a", "2.1.1.c"]
 changelog:
   - { date: "2026-08-21", summary: "Initial draft. Sets out the IRC § 53(a) and (b) minimum tax credit as the excess of prior years' minimum tax over credits already taken, the § 53(c) limitation to the excess of regular tax over tentative minimum tax, the § 53(e) modifications for corporations substituting years beginning after 2022 and adding the § 59A tax to the regular tax figure, the § 55(a) imposition and the § 55(b)(2) tentative minimum tax at 15 percent of adjusted financial statement income for an applicable corporation and zero for every other corporation, and the § 59(k)(1) definition of an applicable corporation with the billion-dollar three-year average test and the fact that the status once acquired is not re-tested from scratch." }
+  - { date: "2026-08-25", summary: "Added a plain-language summary, glossary marks, and typed scenarios." }
 ---
 
-The corporate minimum tax credit exists to make the corporate alternative minimum tax a timing provision
+<div class="plain-terms">
+This credit lets a huge company get back money it once paid under a separate minimum tax. It only matters
+once regular tax catches back up to that older payment. It applies only to companies with roughly a
+billion dollars or more in yearly book income. Almost every other company can skip this topic entirely.
+Once a company crosses that line, it tends to stay classified that way, even if its income later drops.
+The credit sets how much of that old payment a company can use to cut this year's bill. It carries forward
+for as long as it takes.
+</div>
+
+The corporate minimum tax credit exists to make the corporate {gloss:alternative-minimum-tax} a timing provision
 rather than a permanent one: a corporation that pays minimum tax in a year when its book income exceeds
 its taxable income gets the money back in a later year when the relationship reverses. Almost no
-corporation is inside the regime — the entry threshold is a billion dollars of book income — but the
+{gloss:c-corporation} is inside the regime — the entry threshold is a billion dollars of book income — but the
 credit machinery is examinable because it explains what the minimum tax is *for*, and because the
 provision that produces it now has two entirely different versions living in the same section.
 
@@ -95,7 +105,7 @@ in a book-over-tax position never recovers anything.
 
 ## Scenarios
 
-<div class="scenario">
+<div class="scenario" data-type="baseline">
 <h3>The corporation that could not owe it</h3>
 <p>A profitable manufacturing corporation with annual revenues of $180,000,000 and financial statement
 income of about $22,000,000 asks whether it should be modelling the corporate alternative minimum tax
@@ -109,7 +119,7 @@ overwhelming majority of corporations and worth stating plainly, because the reg
 a good deal of unnecessary anxiety.</p>
 </div>
 
-<div class="scenario">
+<div class="scenario" data-type="boundary">
 <h3>The year the credit could be used</h3>
 <p>An applicable corporation paid corporate alternative minimum tax of $40,000,000 across three earlier
 years, none of which has yet been recovered. In the current year its regular tax is $95,000,000 and its
@@ -122,7 +132,7 @@ corporation also had a base erosion tax, IRC § 53(e)(2) would have increased th
 amount and enlarged the room available.</p>
 </div>
 
-<div class="scenario">
+<div class="scenario" data-type="timing">
 <h3>The corporation that shrank and stayed inside</h3>
 <p>A corporation met the average annual adjusted financial statement income test for its 2023 and 2024
 years. In 2025 and 2026 its book income falls sharply following a disposal, and its three-year average is
@@ -135,7 +145,7 @@ deliberate: the regime is easy to enter and, by design, not easy to leave, which
 worth watching before it is crossed rather than after.</p>
 </div>
 
-<div class="scenario">
+<div class="scenario" data-type="interaction">
 <h3>The credit pool that started in 2023</h3>
 <p>A large corporation has records showing minimum tax credit carryforwards generated in 2015 and 2016
 under the earlier corporate alternative minimum tax, which its accounting system has continued to track.

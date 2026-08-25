@@ -19,7 +19,17 @@ forms: []
 related: ["2.1.3.a", "2.1.1.c", "2.1.3.h", "2.1.3.d", "2.1.4.e"]
 changelog:
   - { date: "2026-08-21", summary: "Initial draft. Sets out the IRC § 6655(a) addition to tax computed at the § 6621 underpayment rate, the § 6655(b) measurement of the underpayment and the period running to the fifteenth day of the fourth month after the year end, the § 6655(c) four instalments with the December fourth date, the § 6655(d) required annual payment at the lesser of the current or prior year figure, the § 6655(g)(2) definition of a large corporation by reference to $1,000,000 of taxable income in any of the three preceding years and the § 6655(d)(2) denial of the prior-year branch with the first-instalment exception and its recapture, the § 6655(e) annualised income and adjusted seasonal installments with their own recapture, the § 6655(f) de minimis rule, and the § 6655(g)(1) definition of tax." }
+  - { date: "2026-08-25", summary: "Added a plain-language summary, glossary marks, and typed scenarios." }
 ---
+
+<div class="plain-terms">
+Estimated tax payments are the four payments a company sends the government during the year. They replace
+waiting to pay everything when the return is filed. Every company that expects to owe tax must make them.
+The schedule is not the one used by individuals. The rules set how big each payment must be. They also
+decide whether a company can base its payments on last year's tax bill instead of guessing at this year's.
+Big companies lose that shortcut for three years straight after just one very profitable year. That is
+true even if income drops right back down after.
+</div>
 
 Corporate estimated tax is a mechanical topic with two features worth committing to memory, because both
 differ from the individual rules that practitioners use far more often. The instalment dates are not the
@@ -73,9 +83,9 @@ turns out much better.
 
 The large corporation rule takes that away, and the test deserves care. A corporation is large if it — or
 any predecessor — had taxable income of a million dollars or more in *any* of the three taxable years
-immediately preceding the year in question, computed without regard to net operating loss or capital loss
+immediately preceding the year in question, computed without regard to {gloss:net-operating-loss} or capital loss
 carryovers. So a single exceptional year taints the following three, and a corporation currently earning
-very little may still be a large corporation. Members of a controlled group are aggregated for the test.
+very little may still be a large corporation. Members of a {gloss:controlled-group} are aggregated for the test.
 
 What a large corporation loses is the prior-year branch, with one exception that is really a deferral. It
 may use last year's tax to compute the *first* instalment, but any resulting reduction is recaptured by
@@ -90,7 +100,7 @@ the reduction has been recovered. So the methods shift the timing of the funding
 total, and using them makes each subsequent instalment larger than the flat quarter.
 
 Two definitional points affect the arithmetic. "Tax" for this purpose includes the corporate income tax,
-the corporate alternative minimum tax and the base erosion tax, less the credits allowed under part IV of
+the corporate {gloss:alternative-minimum-tax} and the base erosion tax, less the credits allowed under part IV of
 subchapter A — so a corporation with a base erosion liability must fund it through instalments like
 anything else. And the addition to tax is computed at the underpayment rate, applied to the shortfall for
 the period, which makes it an interest charge in substance rather than a fixed penalty. There is no
@@ -102,7 +112,7 @@ return does not extend the running of the addition.
 
 ## Scenarios
 
-<div class="scenario">
+<div class="scenario" data-type="fails">
 <h3>The single exceptional year</h3>
 <p>A corporation earned taxable income of $1,300,000 in 2023 after a large one-off contract, then
 $180,000 in 2024 and $210,000 in 2025. For 2026 it expects around $250,000 and plans to base its
@@ -116,7 +126,7 @@ measure and is nonetheless funding its current-year tax from the June instalment
 large corporation for 2027 only if 2024, 2025 and 2026 are all under the threshold.</p>
 </div>
 
-<div class="scenario">
+<div class="scenario" data-type="procedural">
 <h3>The December date that was diaried for January</h3>
 <p>A calendar-year corporation's controller sets up the estimated tax calendar by copying the schedule she
 uses for the shareholders' personal payments: 15 April, 15 June, 15 September and 15 January.</p>
@@ -128,7 +138,7 @@ earlier. The error is small in amount and reliably recurring, and it is one of t
 no defence: the addition is an interest charge and reasonable cause does not answer it.</p>
 </div>
 
-<div class="scenario">
+<div class="scenario" data-type="timing">
 <h3>The seasonal business that paid less in April</h3>
 <p>A corporation earns almost all its income in the fourth quarter. Its expected annual tax is $400,000, so
 a flat instalment would be $100,000 each. It uses the annualised income method and computes a first
@@ -141,7 +151,7 @@ instalment, which becomes $185,000 rather than $100,000. The corporation has mov
 reduced it, and if its fourth quarter disappoints it will have paid too much rather than too little.</p>
 </div>
 
-<div class="scenario">
+<div class="scenario" data-type="boundary">
 <h3>The corporation that owed almost nothing</h3>
 <p>A small corporation makes no estimated tax payments at all during 2026. Its return shows tax of
 $420.</p>

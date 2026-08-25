@@ -20,7 +20,19 @@ forms: []
 related: ["1.6.1.a", "1.6.1.b", "1.6.1.d", "1.6.1.e", "1.5.1.d", "1.6.2.a"]
 changelog:
   - { date: "2026-08-20", summary: "Initial draft. Sets out the unlimited marital deduction in IRC § 2056(a) and the terminable interest limitation in § 2056(b)(1) with its exceptions for a life estate with power of appointment under § 2056(b)(5) and qualified terminable interest property under § 2056(b)(7), the denial for a non-citizen spouse under § 2056(d) and the qualified domestic trust in § 2056A(a), the gift tax counterpart in § 2523, and the portability election in § 2010(c)(4) and (5) including the last-deceased-spouse rule and the reopened examination power." }
+  - { date: "2026-08-25", summary: "Added a plain-language summary, glossary marks, and typed scenarios." }
 ---
+
+<div class="plain-terms">
+This is about two ways a married couple can save on estate tax. It affects estates left to a
+spouse, especially in a second marriage or when one spouse is not a citizen. The first tool lets
+one spouse leave money to the other with no estate tax due right away, but only if the gift is
+given in the right form. A trust that pays income to a spouse for life and then passes to
+someone else often does not qualify without extra steps. The second tool lets a surviving spouse
+use whatever part of the first spouse's tax-free amount went unused. That second tool is not
+automatic. It only works if the first spouse's estate files a return and asks for it, even when
+no tax is owed at all.
+</div>
 
 Two provisions do the work in a married estate, and they operate very differently. The marital deduction
 is automatic in the sense that it applies to any qualifying interest without an election — but it is
@@ -106,10 +118,10 @@ remarry, but it is a reason to make the election on the second estate too.
 **Remember what portability does not carry.** It carries unused basic exclusion. It does not carry the
 generation-skipping transfer exemption, which is not portable and is lost if unused.
 
-<div class="scenario">
+<div class="scenario" data-type="fails">
 <h3>The second marriage that lost the deduction</h3>
 
-A man dies leaving his house in trust: his second wife may live in it for life, after which it passes to
+A man dies leaving his house in a {gloss:trust}: his second wife may live in it for life, after which it passes to
 his children by his first marriage. The house is worth $700,000.
 
 No marital deduction is allowed. Her interest terminates on her death, an interest in the same property
@@ -121,10 +133,10 @@ deductible now and in her gross estate at her death.
 
 </div>
 
-<div class="scenario">
+<div class="scenario" data-type="procedural">
 <h3>The return nobody had to file</h3>
 
-A woman dies with a gross estate of $1,800,000, all of it to her husband. Her executor is told correctly
+A woman dies with a gross estate of $1,800,000, all of it to her husband. Her {gloss:executor} is told correctly
 that no return is required — the gross estate is far below the basic exclusion amount — and none is
 filed. Her husband dies nine years later with an estate of $19,000,000.
 
@@ -136,10 +148,10 @@ omission falls entirely on the second estate.
 
 </div>
 
-<div class="scenario">
+<div class="scenario" data-type="interaction">
 <h3>The exclusion that changed spouses</h3>
 
-A widower's late wife's estate made a portability election, giving him a deceased spousal unused
+A widower's late wife's estate made a {gloss:portability} election, giving him a deceased spousal unused
 exclusion amount equal to her full basic exclusion amount. He remarries. His second wife dies two years
 later with a large estate that uses all of her own exclusion, and her executor makes no election.
 
@@ -150,7 +162,7 @@ and lost it on an event he did not control.
 
 </div>
 
-<div class="scenario">
+<div class="scenario" data-type="boundary">
 <h3>The non-citizen spouse and the trust that fixed it</h3>
 
 A man dies leaving everything outright to his wife, who is a lawful permanent resident but not a

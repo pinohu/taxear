@@ -24,7 +24,18 @@ forms: []
 related: ["2.2.1.a", "2.2.1.c", "2.1.1.j", "2.2.2.c", "2.2.1.d", "2.2.2.d", "2.2.2.g", "2.2.2.h", "2.2.2.i", "2.2.4.b"]
 changelog:
   - { date: "2026-08-21", summary: "Initial draft. Sets out when inventories are required under Reg. § 1.471-1(a), the title test that decides what is in them, the two IRC § 471(a) tests and the valuation bases of Reg. § 1.471-2(c), the identification conventions with the FIFO default for commingled goods, the IRC § 472 LIFO mechanics with the conformity condition and the three-year spread on adoption, the IRC § 263A scope and exceptions, and the IRC § 471(c) and IRC § 263A(i) small business exemptions keyed to the IRC § 448(c) gross receipts test." }
+  - { date: "2026-08-25", summary: "Added a plain-language summary, glossary marks, and a fourth typed scenario on the IRC § 263A / IRC § 174A capitalization interaction. No diagram: the content is a computation and a title-based membership test, not a fit for the built archetypes." }
 ---
+
+<div class="plain-terms">
+Every business that sells goods has to work out how much those goods cost before it can
+know its profit. This page explains cost of goods sold. It is the total of what a business paid to buy
+or make the items it sold during the year. It is not the cost of items still on the shelf. It affects
+any business that keeps stock, such as a store, a maker, or a wholesaler. It does not apply to a
+business that only sells services, since there is no stock to count. This page decides which costs
+count toward that total, which method a business uses to value what is left, and when a business may
+skip the count altogether.
+</div>
 
 The arithmetic is trivial and never the point. Cost of goods sold is beginning inventory plus
 purchases and production costs less ending inventory, and every question worth asking is about
@@ -123,7 +134,7 @@ both, so a business either has both obligations or neither. Where it has neither
 {fig:cogs.471c_alternatives} (IRC § 471(c)(1)(B)) — and the second alternative is the useful one,
 because it lets the tax figure simply follow the books.
 
-<div class="scenario">
+<div class="scenario" data-type="baseline">
 <h3>Three methods, one set of purchases</h3>
 
 Wraysbury Fixtures Inc. begins the year with no inventory and buys brass valves as follows: 400
@@ -133,7 +144,7 @@ the year end.
 Total purchases are $1,600 plus $1,260 plus $860, or $3,720, for 900 units.
 
 Under FIFO, the units on hand are the last bought: the 200 from June at $4.30 and 100 from March
-at $4.20, or $860 plus $420 — **$1,280** of ending inventory and $2,440 of cost of goods sold.
+at $4.20, or $860 plus $420 — **$1,280** of ending inventory and $2,440 of {gloss:cost-of-goods-sold}.
 
 Under LIFO, the units on hand are the first bought: 300 from January at $4.00 — **$1,200** of
 ending inventory and $2,520 of cost of goods sold.
@@ -146,7 +157,7 @@ largest ending inventory and the smallest cost of goods sold, LIFO the reverse, 
 between. The company's income differs by $80 depending only on the convention it chose.
 </div>
 
-<div class="scenario">
+<div class="scenario" data-type="boundary">
 <h3>The goods that were somewhere else</h3>
 
 Calbourne Ceramics Ltd's warehouse count on 31 December finds 4,000 units. Its records also show
@@ -165,10 +176,10 @@ understates it by 1,100 units, and every one of those units would otherwise infl
 sold and understate income.
 </div>
 
-<div class="scenario">
+<div class="scenario" data-type="timing">
 <h3>The reseller who grew into UNICAP</h3>
 
-Denholm Supply Co. is a wholesale distributor. Its average annual gross receipts for the three
+Denholm Supply Co. is a wholesale distributor. Its average annual {gloss:gross-receipts} for the three
 years ending with 2025 were below the IRC § 448(c) figure, so for 2026 it neither maintains a
 IRC § 471 inventory nor capitalises under IRC § 263A. It has been treating its stock as
 non-incidental materials and supplies under IRC § 471(c)(1)(B)(i).
@@ -183,6 +194,22 @@ subsection as initiated by the taxpayer and made with the consent of the Secreta
 IRC § 471(c)(4) does the same for the inventory exemption — so the IRC § 481 adjustment is the
 mechanism, not an amended return. The practical effect in the year of change is a one-off increase
 in the inventory figure and a corresponding reduction in current deductions.
+</div>
+
+<div class="scenario" data-type="interaction">
+<h3>Research costs that stay out of inventory</h3>
+
+Kirkoswald Devices Inc. manufactures sensors it holds in inventory. In 2026 it spends $500,000 on
+domestic research to improve the sensor design and deducts the full amount under IRC § 174A rather
+than electing the 60-month amortization in IRC § 174A(c). It also incurs $2,000,000 of ordinary
+production costs — direct labor, materials, and an allocable share of factory overhead.
+
+{fig:cogs.263A_scope} (IRC § 263A(b)) requires {gloss:capitalization} of the $2,000,000 of production
+costs into the cost of the inventory produced. The research costs do not follow them in:
+IRC § 263A(c)(2) now excludes "any amount allowable as a deduction under section 174 or 174A" from
+capitalization under this section, so the $500,000 stays a current deduction even though the sensors
+it improved sit in the same inventory. A preparer who assumes every cost tied to production belongs in
+cost of goods sold will overstate ending inventory.
 </div>
 
 <div class="callout trap">
