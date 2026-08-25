@@ -8,7 +8,7 @@ description: "Circular 230 § 10.37 turns issue identification into a duty — f
 status: published
 taxYear: 2026
 lastReviewed: "2026-08-18"
-reviewedBy: "I. Ohu"
+reviewedBy: "N. O."
 authorities:
   - { type: Circ230, ref: "§ 10.37", title: "Requirements for written advice", url: "https://www.law.cornell.edu/cfr/text/31/10.37" }
   - { type: Circ230, ref: "§ 10.34", title: "Standards with respect to tax returns and documents, affidavits and other papers", url: "https://www.law.cornell.edu/cfr/text/31/10.34" }

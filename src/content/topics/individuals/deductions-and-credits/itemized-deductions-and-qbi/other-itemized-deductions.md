@@ -8,7 +8,7 @@ description: "This is now a closed list of thirteen. Anything not on it is allow
 status: published
 taxYear: 2026
 lastReviewed: "2026-08-19"
-reviewedBy: "Draft for I. Ohu review"
+reviewedBy: "Draft for N. O. review"
 authorities:
   - { type: IRC, ref: "§ 67", title: "2-percent floor on miscellaneous itemized deductions", url: "https://www.law.cornell.edu/uscode/text/26/67" }
   - { type: IRC, ref: "§ 165", title: "Losses", url: "https://www.law.cornell.edu/uscode/text/26/165" }

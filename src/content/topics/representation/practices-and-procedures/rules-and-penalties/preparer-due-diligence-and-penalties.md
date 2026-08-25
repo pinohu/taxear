@@ -8,7 +8,7 @@ description: "The four due diligence requirements under Reg. 1.6695-2, why the p
 status: published
 taxYear: 2026
 lastReviewed: "2026-08-18"
-reviewedBy: "I. Ohu"
+reviewedBy: "N. O."
 authorities:
   - { type: IRC, ref: "§ 6695(g)", title: "Failure to be diligent in determining eligibility for certain tax benefits" }
   - { type: IRC, ref: "§ 6695(h)", title: "Adjustment for inflation" }

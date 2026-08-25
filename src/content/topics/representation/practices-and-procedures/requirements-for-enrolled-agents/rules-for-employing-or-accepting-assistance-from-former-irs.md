@@ -8,7 +8,7 @@ description: "Circular 230 sections 10.24 and 10.25 restrict assistance from dis
 status: published
 taxYear: 2026
 lastReviewed: "2026-08-18"
-reviewedBy: "I. Ohu"
+reviewedBy: "N. O."
 authorities:
   - { type: Circ230, ref: "§ 10.24", title: "Assistance from or to disbarred or suspended persons and former Internal Revenue Service employees", url: "https://www.law.cornell.edu/cfr/text/31/10.24" }
   - { type: Circ230, ref: "§ 10.25", title: "Practice by former government employees, their partners and their associates", url: "https://www.law.cornell.edu/cfr/text/31/10.25" }

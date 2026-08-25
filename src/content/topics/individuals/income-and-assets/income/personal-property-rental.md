@@ -8,7 +8,7 @@ description: "Renting equipment or a vehicle is taxed three different ways, and 
 status: published
 taxYear: 2026
 lastReviewed: "2026-08-19"
-reviewedBy: "Draft for I. Ohu review"
+reviewedBy: "Draft for N. O. review"
 authorities:
   - { type: IRC, ref: "§ 61", title: "Gross income defined", url: "https://www.law.cornell.edu/uscode/text/26/61" }
   - { type: IRC, ref: "§ 62", title: "Adjusted gross income defined", url: "https://www.law.cornell.edu/uscode/text/26/62" }

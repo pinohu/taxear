@@ -8,7 +8,7 @@ description: "Hazards of litigation is the settlement standard, and nuisance val
 status: published
 taxYear: 2026
 lastReviewed: "2026-08-19"
-reviewedBy: "I. Ohu"
+reviewedBy: "N. O."
 authorities:
   - { type: Reg, ref: "§ 601.106(d)", title: "Disposition and settlement of cases before Appeals", url: "https://www.law.cornell.edu/cfr/text/26/601.106" }
   - { type: Reg, ref: "§ 601.106(f)", title: "Conference and practice requirements — Rules I, II and III", url: "https://www.law.cornell.edu/cfr/text/26/601.106" }

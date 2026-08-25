@@ -8,7 +8,7 @@ description: "Avoidance is arranging affairs within the law; evasion is a felony
 status: published
 taxYear: 2026
 lastReviewed: "2026-08-18"
-reviewedBy: "I. Ohu"
+reviewedBy: "N. O."
 authorities:
   - { type: IRC, ref: "§ 7201", title: "Attempt to evade or defeat tax", url: "https://www.law.cornell.edu/uscode/text/26/7201" }
   - { type: IRC, ref: "§ 7203", title: "Willful failure to file return, supply information, or pay tax", url: "https://www.law.cornell.edu/uscode/text/26/7203" }

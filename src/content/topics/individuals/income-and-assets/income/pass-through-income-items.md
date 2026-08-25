@@ -8,7 +8,7 @@ description: "A Schedule K-1 reports character as well as amount, and the indivi
 status: published
 taxYear: 2026
 lastReviewed: "2026-08-19"
-reviewedBy: "Draft for I. Ohu review"
+reviewedBy: "Draft for N. O. review"
 authorities:
   - { type: IRC, ref: "§ 199A", title: "Qualified business income", url: "https://www.law.cornell.edu/uscode/text/26/199A" }
   - { type: IRC, ref: "§ 702", title: "Income and credits of partner", url: "https://www.law.cornell.edu/uscode/text/26/702" }

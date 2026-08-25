@@ -8,7 +8,7 @@ description: "A partnership now terminates only when the business stops. The tec
 status: published
 taxYear: 2026
 lastReviewed: "2026-08-21"
-reviewedBy: "Draft for I. Ohu review"
+reviewedBy: "Draft for N. O. review"
 authorities:
   - { type: IRC, ref: "§ 708", title: "Continuation of partnership", url: "https://www.law.cornell.edu/uscode/text/26/708" }
   - { type: IRC, ref: "§ 736", title: "Payments to a retiring partner or a deceased partner's successor in interest", url: "https://www.law.cornell.edu/uscode/text/26/736" }

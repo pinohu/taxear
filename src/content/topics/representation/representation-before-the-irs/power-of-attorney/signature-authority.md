@@ -8,7 +8,7 @@ description: "Which documents a representative may sign for a client, why extend
 status: published
 taxYear: 2026
 lastReviewed: "2026-08-18"
-reviewedBy: "I. Ohu"
+reviewedBy: "N. O."
 authorities:
   - { type: IRC, ref: "§ 6501(c)(4)", title: "Extension of assessment period by agreement" }
   - { type: IRC, ref: "§ 7121", title: "Closing agreements" }

@@ -8,7 +8,7 @@ description: "Farm depreciation is ordinary MACRS with four twists: a five-year 
 status: published
 taxYear: 2026
 lastReviewed: "2026-08-21"
-reviewedBy: "Draft for I. Ohu review"
+reviewedBy: "Draft for N. O. review"
 authorities:
   - { type: IRC, ref: "§ 168", title: "Accelerated cost recovery system", url: "https://www.law.cornell.edu/uscode/text/26/168" }
   - { type: IRC, ref: "§ 179", title: "Election to expense certain depreciable business assets", url: "https://www.law.cornell.edu/uscode/text/26/179" }

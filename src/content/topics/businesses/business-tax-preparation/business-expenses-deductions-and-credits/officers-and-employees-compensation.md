@@ -8,7 +8,7 @@ description: "Compensation is deductible only if it is reasonable and the servic
 status: published
 taxYear: 2026
 lastReviewed: "2026-08-21"
-reviewedBy: "Draft for I. Ohu review"
+reviewedBy: "Draft for N. O. review"
 authorities:
   - { type: IRC, ref: "§ 162(a)(1)", title: "Reasonable allowance for salaries or other compensation", url: "https://www.law.cornell.edu/uscode/text/26/162" }
   - { type: IRC, ref: "§ 162(m)", title: "Certain excessive employee remuneration", url: "https://www.law.cornell.edu/uscode/text/26/162" }

@@ -8,7 +8,7 @@ description: "TAS is an independent office inside the IRS, and it takes cases on
 status: published
 taxYear: 2026
 lastReviewed: "2026-08-18"
-reviewedBy: "I. Ohu"
+reviewedBy: "N. O."
 authorities:
   - { type: IRC, ref: "§ 7803", title: "Commissioner of Internal Revenue — Office of the Taxpayer Advocate at (c)", url: "https://www.law.cornell.edu/uscode/text/26/7803" }
   - { type: IRC, ref: "§ 7811", title: "Taxpayer Assistance Orders", url: "https://www.law.cornell.edu/uscode/text/26/7811" }

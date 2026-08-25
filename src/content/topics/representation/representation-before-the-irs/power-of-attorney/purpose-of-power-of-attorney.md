@@ -8,7 +8,7 @@ description: "What a power of attorney does before the IRS, the six elements eve
 status: published
 taxYear: 2026
 lastReviewed: "2026-08-18"
-reviewedBy: "I. Ohu"
+reviewedBy: "N. O."
 authorities:
   - { type: Reg, ref: "601.503", title: "Requirements of power of attorney", url: "https://www.law.cornell.edu/cfr/text/26/601.503" }
   - { type: Reg, ref: "601.502", title: "Recognized representative", url: "https://www.law.cornell.edu/cfr/text/26/601.502" }

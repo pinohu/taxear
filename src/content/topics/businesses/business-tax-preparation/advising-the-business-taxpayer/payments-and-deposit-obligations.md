@@ -8,7 +8,7 @@ description: "Deposit schedule is fixed a year ahead by the lookback period, but
 status: published
 taxYear: 2026
 lastReviewed: "2026-08-21"
-reviewedBy: "Draft for I. Ohu review"
+reviewedBy: "Draft for N. O. review"
 authorities:
   - { type: IRC, ref: "§ 3301", title: "Rate of tax", url: "https://www.law.cornell.edu/uscode/text/26/3301" }
   - { type: IRC, ref: "§ 3302", title: "Credits against tax", url: "https://www.law.cornell.edu/uscode/text/26/3302" }

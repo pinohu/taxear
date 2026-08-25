@@ -8,7 +8,7 @@ description: "Two separate regimes that look like one: the FBAR filed with FinCE
 status: published
 taxYear: 2026
 lastReviewed: "2026-08-19"
-reviewedBy: "I. Ohu"
+reviewedBy: "N. O."
 authorities:
   - { type: Statute, ref: "31 U.S.C. § 5314", title: "Records and reports on foreign financial agency transactions", url: "https://www.law.cornell.edu/uscode/text/31/5314" }
   - { type: Reg, ref: "31 C.F.R. § 1010.350", title: "Reports of foreign financial accounts", url: "https://www.law.cornell.edu/cfr/text/31/1010.350" }

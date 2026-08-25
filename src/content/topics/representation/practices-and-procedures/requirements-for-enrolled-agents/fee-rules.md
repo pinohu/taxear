@@ -8,7 +8,7 @@ description: "Circular 230 section 10.27 bans unconscionable fees and contingent
 status: published
 taxYear: 2026
 lastReviewed: "2026-08-18"
-reviewedBy: "I. Ohu"
+reviewedBy: "N. O."
 authorities:
   - { type: Circ230, ref: "§ 10.27", title: "Fees", url: "https://www.law.cornell.edu/cfr/text/31/10.27" }
   - { type: Circ230, ref: "§ 10.30", title: "Solicitation", url: "https://www.law.cornell.edu/cfr/text/31/10.30" }

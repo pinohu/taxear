@@ -8,7 +8,7 @@ description: "Who files for a decedent, how a fiduciary takes on the taxpayer's 
 status: published
 taxYear: 2026
 lastReviewed: "2026-08-18"
-reviewedBy: "I. Ohu"
+reviewedBy: "N. O."
 authorities:
   - { type: IRC, ref: "§ 6012(b)(1)", title: "Returns of decedents" }
   - { type: IRC, ref: "§ 6903", title: "Notice of fiduciary relationship" }

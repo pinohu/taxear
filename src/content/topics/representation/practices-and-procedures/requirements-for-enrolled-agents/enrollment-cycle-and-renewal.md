@@ -8,7 +8,7 @@ description: "Circular 230 section 10.6 sets a three-year enrollment cycle, a No
 status: published
 taxYear: 2026
 lastReviewed: "2026-08-18"
-reviewedBy: "I. Ohu"
+reviewedBy: "N. O."
 authorities:
   - { type: Circ230, ref: "§ 10.6", title: "Term and renewal of status as an enrolled agent, enrolled retirement plan agent, or registered tax return preparer", url: "https://www.law.cornell.edu/cfr/text/31/10.6" }
   - { type: Circ230, ref: "§ 10.5", title: "Application to become an enrolled agent, enrolled retirement plan agent, or registered tax return preparer", url: "https://www.law.cornell.edu/cfr/text/31/10.5" }

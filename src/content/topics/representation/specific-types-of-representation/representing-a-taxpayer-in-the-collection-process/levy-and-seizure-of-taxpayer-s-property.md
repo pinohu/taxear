@@ -8,7 +8,7 @@ description: "When the IRS may levy, the notices it must give first, what proper
 status: published
 taxYear: 2026
 lastReviewed: "2026-08-18"
-reviewedBy: "I. Ohu"
+reviewedBy: "N. O."
 authorities:
   - { type: IRC, ref: "§ 6331", title: "Levy and distraint" }
   - { type: IRC, ref: "§ 6334", title: "Property exempt from levy" }

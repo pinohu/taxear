@@ -8,7 +8,7 @@ description: "A revenue ruling interprets the law; a revenue procedure states ho
 status: published
 taxYear: 2026
 lastReviewed: "2026-08-18"
-reviewedBy: "I. Ohu"
+reviewedBy: "N. O."
 authorities:
   - { type: Reg, ref: "§ 601.601", title: "Rules and regulations — publication of revenue rulings and revenue procedures at (d)(2)", url: "https://www.law.cornell.edu/cfr/text/26/601.601" }
   - { type: IRC, ref: "§ 7805", title: "Rules and regulations — retroactivity at (b)", url: "https://www.law.cornell.edu/uscode/text/26/7805" }

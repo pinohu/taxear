@@ -8,7 +8,7 @@ description: "A guaranteed payment is a non-partner payment for two purposes and
 status: published
 taxYear: 2026
 lastReviewed: "2026-08-21"
-reviewedBy: "Draft for I. Ohu review"
+reviewedBy: "Draft for N. O. review"
 authorities:
   - { type: IRC, ref: "§ 707", title: "Transactions between partner and partnership", url: "https://www.law.cornell.edu/uscode/text/26/707" }
   - { type: IRC, ref: "§ 267", title: "Losses, expenses, and interest with respect to transactions between related taxpayers", url: "https://www.law.cornell.edu/uscode/text/26/267" }

@@ -8,7 +8,7 @@ description: "The IRC 6702 penalty on frivolous returns and specified submission
 status: published
 taxYear: 2026
 lastReviewed: "2026-08-18"
-reviewedBy: "I. Ohu"
+reviewedBy: "N. O."
 authorities:
   - { type: IRC, ref: "§ 6702", title: "Frivolous tax submissions" }
   - { type: IRC, ref: "§ 6673", title: "Sanctions and costs awarded by courts" }

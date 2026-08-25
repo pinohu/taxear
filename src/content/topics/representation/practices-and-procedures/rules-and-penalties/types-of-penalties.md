@@ -8,7 +8,7 @@ description: "Preparer penalties under IRC 6694, 6695, 6701, 6713 and 7216, the 
 status: published
 taxYear: 2026
 lastReviewed: "2026-08-18"
-reviewedBy: "I. Ohu"
+reviewedBy: "N. O."
 authorities:
   - { type: IRC, ref: "§ 6694", title: "Understatement of taxpayer's liability by tax return preparer" }
   - { type: IRC, ref: "§ 6695", title: "Other assessable penalties with respect to the preparation of tax returns" }

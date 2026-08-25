@@ -8,7 +8,7 @@ description: "A credit with a ratio limitation, four separate baskets, a one-bac
 status: published
 taxYear: 2026
 lastReviewed: "2026-08-19"
-reviewedBy: "Draft for I. Ohu review"
+reviewedBy: "Draft for N. O. review"
 authorities:
   - { type: IRC, ref: "§ 901", title: "Taxes of foreign countries and of possessions of the United States", url: "https://www.law.cornell.edu/uscode/text/26/901" }
   - { type: IRC, ref: "§ 903", title: "Credit for taxes in lieu of income, etc., taxes", url: "https://www.law.cornell.edu/uscode/text/26/903" }

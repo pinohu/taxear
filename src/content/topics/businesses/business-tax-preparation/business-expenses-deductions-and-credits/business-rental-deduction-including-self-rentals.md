@@ -8,7 +8,7 @@ description: "Rent paid for property the business does not own is deductible, bu
 status: published
 taxYear: 2026
 lastReviewed: "2026-08-21"
-reviewedBy: "Draft for I. Ohu review"
+reviewedBy: "Draft for N. O. review"
 authorities:
   - { type: IRC, ref: "§ 162(a)(3)", title: "Rentals or other payments for use of property", url: "https://www.law.cornell.edu/uscode/text/26/162" }
   - { type: IRC, ref: "§ 178", title: "Amortization of cost of acquiring a lease", url: "https://www.law.cornell.edu/uscode/text/26/178" }

@@ -8,7 +8,7 @@ description: "Alimony is gone and moving expenses survive for two groups, the se
 status: published
 taxYear: 2026
 lastReviewed: "2026-08-19"
-reviewedBy: "Draft for I. Ohu review"
+reviewedBy: "Draft for N. O. review"
 authorities:
   - { type: IRC, ref: "§ 62", title: "Adjusted gross income defined", url: "https://www.law.cornell.edu/uscode/text/26/62" }
   - { type: IRC, ref: "§ 215", title: "Alimony, etc., payments (repealed)", url: "https://www.law.cornell.edu/uscode/text/26/215" }

@@ -8,7 +8,7 @@ description: "Nondeductible expenses still reduce basis, and an item is separate
 status: published
 taxYear: 2026
 lastReviewed: "2026-08-21"
-reviewedBy: "Draft for I. Ohu review"
+reviewedBy: "Draft for N. O. review"
 authorities:
   - { type: IRC, ref: "§ 702", title: "Income and credits of partner", url: "https://www.law.cornell.edu/uscode/text/26/702" }
   - { type: IRC, ref: "§ 703", title: "Partnership computations", url: "https://www.law.cornell.edu/uscode/text/26/703" }

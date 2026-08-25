@@ -8,7 +8,7 @@ description: "Form 2848 authorizes an eligible practitioner to represent; Form 8
 status: published
 taxYear: 2026
 lastReviewed: "2026-08-18"
-reviewedBy: "I. Ohu"
+reviewedBy: "N. O."
 authorities:
   - { type: Pub, ref: "Instructions for Form 8821", title: "Tax Information Authorization", url: "https://www.irs.gov/instructions/i8821" }
   - { type: Pub, ref: "Instructions for Form 2848 (rev. 09/2021)", title: "Power of Attorney and Declaration of Representative", url: "https://www.irs.gov/instructions/i2848" }

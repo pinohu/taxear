@@ -8,7 +8,7 @@ description: "A partnership interest is a capital asset until section 751 says o
 status: published
 taxYear: 2026
 lastReviewed: "2026-08-21"
-reviewedBy: "Draft for I. Ohu review"
+reviewedBy: "Draft for N. O. review"
 authorities:
   - { type: IRC, ref: "§ 741", title: "Recognition and character of gain or loss on sale or exchange", url: "https://www.law.cornell.edu/uscode/text/26/741" }
   - { type: IRC, ref: "§ 751", title: "Unrealized receivables and inventory items", url: "https://www.law.cornell.edu/uscode/text/26/751" }

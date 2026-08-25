@@ -8,7 +8,7 @@ description: "Income the decedent had earned but never received. It is taxed to 
 status: published
 taxYear: 2026
 lastReviewed: "2026-08-19"
-reviewedBy: "Draft for I. Ohu review"
+reviewedBy: "Draft for N. O. review"
 authorities:
   - { type: IRC, ref: "§ 691", title: "Recipients of income in respect of decedents", url: "https://www.law.cornell.edu/uscode/text/26/691" }
   - { type: IRC, ref: "§ 1014", title: "Basis of property acquired from a decedent", url: "https://www.law.cornell.edu/uscode/text/26/1014" }

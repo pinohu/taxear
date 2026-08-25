@@ -8,7 +8,7 @@ description: "The IRC 6107(b) retention duty, the choice between keeping copies 
 status: published
 taxYear: 2026
 lastReviewed: "2026-08-18"
-reviewedBy: "I. Ohu"
+reviewedBy: "N. O."
 authorities:
   - { type: IRC, ref: "§ 6107(b)", title: "Copy or list to be retained by tax return preparer" }
   - { type: IRC, ref: "§ 6695(d)", title: "Failure to retain copy or list" }

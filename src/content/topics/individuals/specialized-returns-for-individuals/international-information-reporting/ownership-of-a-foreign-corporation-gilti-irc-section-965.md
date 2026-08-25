@@ -8,7 +8,7 @@ description: "GILTI no longer exists by that name, and the tangible-asset offset
 status: published
 taxYear: 2026
 lastReviewed: "2026-08-21"
-reviewedBy: "Draft for I. Ohu review"
+reviewedBy: "Draft for N. O. review"
 authorities:
   - { type: IRC, ref: "§ 951", title: "Amounts included in gross income of United States shareholders", url: "https://www.law.cornell.edu/uscode/text/26/951" }
   - { type: IRC, ref: "§ 951A", title: "Net CFC tested income included in gross income of United States shareholders", url: "https://www.law.cornell.edu/uscode/text/26/951A" }

@@ -8,7 +8,7 @@ description: "Spotting criminal exposure early changes everything — the § 752
 status: published
 taxYear: 2026
 lastReviewed: "2026-08-18"
-reviewedBy: "I. Ohu"
+reviewedBy: "N. O."
 authorities:
   - { type: IRC, ref: "§ 7602", title: "Examination of books and witnesses — referral bar at (d), financial status at (e)", url: "https://www.law.cornell.edu/uscode/text/26/7602" }
   - { type: IRC, ref: "§ 7525", title: "Confidentiality privileges relating to taxpayer communications", url: "https://www.law.cornell.edu/uscode/text/26/7525" }

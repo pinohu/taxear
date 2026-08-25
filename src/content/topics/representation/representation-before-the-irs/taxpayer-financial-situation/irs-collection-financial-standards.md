@@ -8,7 +8,7 @@ description: "The allowable living expense tables that decide what a taxpayer ma
 status: published
 taxYear: 2026
 lastReviewed: "2026-08-19"
-reviewedBy: "I. Ohu"
+reviewedBy: "N. O."
 authorities:
   - { type: IRM, ref: "5.15.1.8", title: "Allowable Expense Overview", url: "https://www.irs.gov/irm/part5/irm_05-015-001" }
   - { type: IRM, ref: "5.15.1.9", title: "National Standards", url: "https://www.irs.gov/irm/part5/irm_05-015-001" }

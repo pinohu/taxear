@@ -8,7 +8,7 @@ description: "The Code is the statute; regulations are Treasury's rules under it
 status: published
 taxYear: 2026
 lastReviewed: "2026-08-18"
-reviewedBy: "I. Ohu"
+reviewedBy: "N. O."
 authorities:
   - { type: IRC, ref: "§ 7805", title: "Rules and regulations", url: "https://www.law.cornell.edu/uscode/text/26/7805" }
   - { type: Reg, ref: "§ 601.601", title: "Rules and regulations", url: "https://www.law.cornell.edu/cfr/text/26/601.601" }

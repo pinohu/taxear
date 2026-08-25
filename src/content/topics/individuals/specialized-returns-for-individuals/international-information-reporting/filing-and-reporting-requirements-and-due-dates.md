@@ -8,7 +8,7 @@ description: "Five forms, five triggers, three clocks. The FBAR is not a tax ret
 status: published
 taxYear: 2026
 lastReviewed: "2026-08-21"
-reviewedBy: "Draft for I. Ohu review"
+reviewedBy: "Draft for N. O. review"
 authorities:
   - { type: IRC, ref: "§ 6038D", title: "Information with respect to foreign financial assets", url: "https://www.law.cornell.edu/uscode/text/26/6038D" }
   - { type: IRC, ref: "§ 6038", title: "Information reporting with respect to certain foreign corporations and partnerships", url: "https://www.law.cornell.edu/uscode/text/26/6038" }

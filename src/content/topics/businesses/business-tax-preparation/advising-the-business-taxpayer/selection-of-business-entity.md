@@ -8,7 +8,7 @@ description: "Entity choice is not one decision but four — one tax or two, sel
 status: published
 taxYear: 2026
 lastReviewed: "2026-08-21"
-reviewedBy: "Draft for I. Ohu review"
+reviewedBy: "Draft for N. O. review"
 authorities:
   - { type: IRC, ref: "§ 11", title: "Tax imposed", url: "https://www.law.cornell.edu/uscode/text/26/11" }
   - { type: IRC, ref: "§ 199A", title: "Qualified business income", url: "https://www.law.cornell.edu/uscode/text/26/199A" }

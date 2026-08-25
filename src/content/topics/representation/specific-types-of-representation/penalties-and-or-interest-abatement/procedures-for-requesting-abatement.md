@@ -8,7 +8,7 @@ description: "Form 843 is the abatement and refund claim vehicle, but it cannot 
 status: published
 taxYear: 2026
 lastReviewed: "2026-08-18"
-reviewedBy: "I. Ohu"
+reviewedBy: "N. O."
 authorities:
   - { type: Pub, ref: "Instructions for Form 843 (rev. 12/2024)", title: "Claim for Refund and Request for Abatement", url: "https://www.irs.gov/instructions/i843" }
   - { type: IRC, ref: "§ 6404", title: "Abatements", url: "https://www.law.cornell.edu/uscode/text/26/6404" }

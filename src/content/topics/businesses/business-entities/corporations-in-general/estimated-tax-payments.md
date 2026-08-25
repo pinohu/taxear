@@ -8,7 +8,7 @@ description: "The fourth corporate instalment falls in December, not January, an
 status: published
 taxYear: 2026
 lastReviewed: "2026-08-21"
-reviewedBy: "Draft for I. Ohu review"
+reviewedBy: "Draft for N. O. review"
 authorities:
   - { type: IRC, ref: "§ 6655", title: "Failure by corporation to pay estimated income tax", url: "https://www.law.cornell.edu/uscode/text/26/6655" }
   - { type: IRC, ref: "§ 6621", title: "Determination of rate of interest", url: "https://www.law.cornell.edu/uscode/text/26/6621" }

@@ -8,7 +8,7 @@ description: "Circular 230 section 10.31 and IRC section 6695(f) bar a practitio
 status: published
 taxYear: 2026
 lastReviewed: "2026-08-18"
-reviewedBy: "I. Ohu"
+reviewedBy: "N. O."
 authorities:
   - { type: Circ230, ref: "§ 10.31", title: "Negotiation of taxpayer checks", url: "https://www.law.cornell.edu/cfr/text/31/10.31" }
   - { type: IRC, ref: "§ 6695(f)", title: "Negotiation of check", url: "https://www.law.cornell.edu/uscode/text/26/6695" }

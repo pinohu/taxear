@@ -8,7 +8,7 @@ description: "Two credits in one section, with different expenses, different stu
 status: published
 taxYear: 2026
 lastReviewed: "2026-08-19"
-reviewedBy: "Draft for I. Ohu review"
+reviewedBy: "Draft for N. O. review"
 authorities:
   - { type: IRC, ref: "§ 25A", title: "American Opportunity and Lifetime Learning credits", url: "https://www.law.cornell.edu/uscode/text/26/25A" }
   - { type: Reg, ref: "Reg. § 1.25A-2", title: "Definitions", url: "https://www.law.cornell.edu/cfr/text/26/1.25A-2" }

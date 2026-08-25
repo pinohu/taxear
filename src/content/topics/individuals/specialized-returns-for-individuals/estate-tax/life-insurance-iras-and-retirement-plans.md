@@ -8,7 +8,7 @@ description: "Insurance is estate-taxed and income-tax free. A retirement accoun
 status: published
 taxYear: 2026
 lastReviewed: "2026-08-20"
-reviewedBy: "Draft for I. Ohu review"
+reviewedBy: "Draft for N. O. review"
 authorities:
   - { type: IRC, ref: "§ 2042", title: "Proceeds of life insurance", url: "https://www.law.cornell.edu/uscode/text/26/2042" }
   - { type: IRC, ref: "§ 101", title: "Certain death benefits", url: "https://www.law.cornell.edu/uscode/text/26/101" }

@@ -8,7 +8,7 @@ description: "Organisation costs are amortised and syndication costs are never d
 status: published
 taxYear: 2026
 lastReviewed: "2026-08-21"
-reviewedBy: "Draft for I. Ohu review"
+reviewedBy: "Draft for N. O. review"
 authorities:
   - { type: IRC, ref: "§ 761", title: "Terms defined", url: "https://www.law.cornell.edu/uscode/text/26/761" }
   - { type: IRC, ref: "§ 709", title: "Treatment of organization and syndication fees", url: "https://www.law.cornell.edu/uscode/text/26/709" }

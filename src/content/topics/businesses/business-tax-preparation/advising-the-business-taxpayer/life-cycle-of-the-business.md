@@ -8,7 +8,7 @@ description: "Formation choices are cheap and reversible; dissolution choices ar
 status: published
 taxYear: 2026
 lastReviewed: "2026-08-21"
-reviewedBy: "Draft for I. Ohu review"
+reviewedBy: "Draft for N. O. review"
 authorities:
   - { type: IRC, ref: "§ 195", title: "Start-up expenditures", url: "https://www.law.cornell.edu/uscode/text/26/195" }
   - { type: IRC, ref: "§ 248", title: "Organizational expenditures", url: "https://www.law.cornell.edu/uscode/text/26/248" }

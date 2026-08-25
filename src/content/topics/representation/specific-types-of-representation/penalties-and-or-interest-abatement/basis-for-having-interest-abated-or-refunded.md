@@ -8,7 +8,7 @@ description: "IRC 6404(e) permits interest abatement only for unreasonable IRS e
 status: published
 taxYear: 2026
 lastReviewed: "2026-08-18"
-reviewedBy: "I. Ohu"
+reviewedBy: "N. O."
 authorities:
   - { type: IRC, ref: "§ 6404", title: "Abatements", url: "https://www.law.cornell.edu/uscode/text/26/6404" }
   - { type: Reg, ref: "§ 301.6404-2", title: "Abatement of interest", url: "https://www.law.cornell.edu/cfr/text/26/301.6404-2" }

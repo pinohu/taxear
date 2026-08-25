@@ -8,7 +8,7 @@ description: "Protecting taxpayer data is a legal obligation, not a best practic
 status: published
 taxYear: 2026
 lastReviewed: "2026-08-19"
-reviewedBy: "I. Ohu"
+reviewedBy: "N. O."
 authorities:
   - { type: Pub, ref: "4557", title: "Safeguarding Taxpayer Data — A Guide for Your Business", url: "https://www.irs.gov/pub/irs-pdf/p4557.pdf" }
   - { type: Pub, ref: "1345", title: "Handbook for Authorized IRS e-file Providers of Individual Income Tax Returns (Rev. 12-2025)", url: "https://www.irs.gov/pub/irs-pdf/p1345.pdf" }

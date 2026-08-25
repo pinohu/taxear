@@ -8,7 +8,7 @@ description: "Credits are found by interviewing, not by reading forms. Which sub
 status: published
 taxYear: 2026
 lastReviewed: "2026-08-19"
-reviewedBy: "Draft for I. Ohu review"
+reviewedBy: "Draft for N. O. review"
 authorities:
   - { type: IRC, ref: "§ 21", title: "Expenses for household and dependent care services necessary for gainful employment", url: "https://www.law.cornell.edu/uscode/text/26/21" }
   - { type: IRC, ref: "§ 23", title: "Adoption expenses", url: "https://www.law.cornell.edu/uscode/text/26/23" }

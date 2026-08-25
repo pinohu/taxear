@@ -8,7 +8,7 @@ description: "Plan reporting runs on a plan-year calendar rather than a tax-year
 status: published
 taxYear: 2026
 lastReviewed: "2026-08-21"
-reviewedBy: "Draft for I. Ohu review"
+reviewedBy: "Draft for N. O. review"
 authorities:
   - { type: IRC, ref: "§ 6058", title: "Information required in connection with certain plans of deferred compensation", url: "https://www.law.cornell.edu/uscode/text/26/6058" }
   - { type: IRC, ref: "§ 6057", title: "Annual registration, etc.", url: "https://www.law.cornell.edu/uscode/text/26/6057" }

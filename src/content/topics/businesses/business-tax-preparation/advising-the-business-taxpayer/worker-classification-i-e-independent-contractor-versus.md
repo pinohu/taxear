@@ -8,7 +8,7 @@ description: "A statutory employee gets a Form W-2 and files Schedule C, which i
 status: published
 taxYear: 2026
 lastReviewed: "2026-08-21"
-reviewedBy: "Draft for I. Ohu review"
+reviewedBy: "Draft for N. O. review"
 authorities:
   - { type: IRC, ref: "§ 3121", title: "Definitions", url: "https://www.law.cornell.edu/uscode/text/26/3121" }
   - { type: IRC, ref: "§ 3401", title: "Definitions", url: "https://www.law.cornell.edu/uscode/text/26/3401" }

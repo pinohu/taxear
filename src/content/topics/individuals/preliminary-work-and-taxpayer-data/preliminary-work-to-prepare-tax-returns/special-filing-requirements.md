@@ -8,7 +8,7 @@ description: "The clients whose returns are not on the ordinary timetable: nonre
 status: published
 taxYear: 2026
 lastReviewed: "2026-08-19"
-reviewedBy: "I. Ohu"
+reviewedBy: "N. O."
 authorities:
   - { type: IRC, ref: "§ 6072(c)", title: "Returns by certain nonresident alien individuals and foreign corporations" }
   - { type: IRC, ref: "§ 7508", title: "Time for performing certain acts postponed by reason of service in combat zone or contingency operation" }

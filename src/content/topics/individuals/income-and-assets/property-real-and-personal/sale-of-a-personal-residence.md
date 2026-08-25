@@ -8,7 +8,7 @@ description: "Depreciation comes out of the exclusion first, then nonqualified u
 status: published
 taxYear: 2026
 lastReviewed: "2026-08-19"
-reviewedBy: "Draft for I. Ohu review"
+reviewedBy: "Draft for N. O. review"
 authorities:
   - { type: IRC, ref: "§ 121", title: "Exclusion of gain from sale of principal residence", url: "https://www.law.cornell.edu/uscode/text/26/121" }
   - { type: IRC, ref: "§ 1031", title: "Exchange of real property held for productive use or investment", url: "https://www.law.cornell.edu/uscode/text/26/1031" }

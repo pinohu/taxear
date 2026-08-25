@@ -8,7 +8,7 @@ description: "The excise tax on a prohibited transaction is bad; the consequence
 status: published
 taxYear: 2026
 lastReviewed: "2026-08-21"
-reviewedBy: "Draft for I. Ohu review"
+reviewedBy: "Draft for N. O. review"
 authorities:
   - { type: IRC, ref: "§ 4975", title: "Tax on prohibited transactions", url: "https://www.law.cornell.edu/uscode/text/26/4975" }
   - { type: IRC, ref: "§ 408", title: "Individual retirement accounts", url: "https://www.law.cornell.edu/uscode/text/26/408" }

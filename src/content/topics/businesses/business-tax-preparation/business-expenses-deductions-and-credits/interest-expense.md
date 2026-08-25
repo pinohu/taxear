@@ -8,7 +8,7 @@ description: "Interest follows what the money bought, and the cap on business in
 status: published
 taxYear: 2026
 lastReviewed: "2026-08-21"
-reviewedBy: "Draft for I. Ohu review"
+reviewedBy: "Draft for N. O. review"
 authorities:
   - { type: IRC, ref: "§ 163(a)", title: "Interest — general rule", url: "https://www.law.cornell.edu/uscode/text/26/163" }
   - { type: IRC, ref: "§ 163(j)", title: "Limitation on business interest", url: "https://www.law.cornell.edu/uscode/text/26/163" }

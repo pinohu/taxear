@@ -8,7 +8,7 @@ description: "Applying is a deadline problem before it is a paperwork problem: 2
 status: published
 taxYear: 2026
 lastReviewed: "2026-08-21"
-reviewedBy: "Draft for I. Ohu review"
+reviewedBy: "Draft for N. O. review"
 authorities:
   - { type: IRC, ref: "§ 501", title: "Exemption from tax on corporations, certain trusts, etc.", url: "https://www.law.cornell.edu/uscode/text/26/501" }
   - { type: IRC, ref: "§ 505", title: "Additional requirements for organizations described in paragraph (9), (17), or (20) of section 501(c)", url: "https://www.law.cornell.edu/uscode/text/26/505" }

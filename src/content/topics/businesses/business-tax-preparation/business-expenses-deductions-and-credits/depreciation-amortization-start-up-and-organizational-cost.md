@@ -8,7 +8,7 @@ description: "Bonus depreciation is permanently back at 100 percent, percentage 
 status: published
 taxYear: 2026
 lastReviewed: "2026-08-21"
-reviewedBy: "Draft for I. Ohu review"
+reviewedBy: "Draft for N. O. review"
 authorities:
   - { type: IRC, ref: "§ 179", title: "Election to expense certain depreciable business assets", url: "https://www.law.cornell.edu/uscode/text/26/179" }
   - { type: IRC, ref: "§ 168(k)", title: "Special allowance for certain property", url: "https://www.law.cornell.edu/uscode/text/26/168" }

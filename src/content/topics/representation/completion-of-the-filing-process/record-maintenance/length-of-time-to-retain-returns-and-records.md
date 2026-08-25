@@ -8,7 +8,7 @@ description: "Retention runs with the limitations period, so the answer is never
 status: published
 taxYear: 2026
 lastReviewed: "2026-08-19"
-reviewedBy: "I. Ohu"
+reviewedBy: "N. O."
 authorities:
   - { type: IRC, ref: "§ 6001", title: "Notice or regulations requiring records, statements, and special returns" }
   - { type: Reg, ref: "§ 1.6001-1", title: "Records", url: "https://www.law.cornell.edu/cfr/text/26/1.6001-1" }

@@ -8,7 +8,7 @@ description: "Two different ceilings apply to the same account in the same year,
 status: published
 taxYear: 2026
 lastReviewed: "2026-08-21"
-reviewedBy: "Draft for I. Ohu review"
+reviewedBy: "Draft for N. O. review"
 authorities:
   - { type: IRC, ref: "§ 402", title: "Taxability of beneficiary of employees' trust", url: "https://www.law.cornell.edu/uscode/text/26/402" }
   - { type: IRC, ref: "§ 404", title: "Deduction for contributions of an employer to an employees' trust or annuity plan", url: "https://www.law.cornell.edu/uscode/text/26/404" }

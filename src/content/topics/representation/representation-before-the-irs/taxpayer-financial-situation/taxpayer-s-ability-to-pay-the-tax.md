@@ -8,7 +8,7 @@ description: "How disposable income and equity in assets are computed from a Col
 status: published
 taxYear: 2026
 lastReviewed: "2026-08-19"
-reviewedBy: "I. Ohu"
+reviewedBy: "N. O."
 authorities:
   - { type: IRM, ref: "5.15.1.3", title: "Analyzing Financial Information", url: "https://www.irs.gov/irm/part5/irm_05-015-001" }
   - { type: IRM, ref: "5.15.1.4", title: "Verifying Financial Information", url: "https://www.irs.gov/irm/part5/irm_05-015-001" }

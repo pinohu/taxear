@@ -8,7 +8,7 @@ description: "A first-tier beneficiary is taxed on income required to be distrib
 status: published
 taxYear: 2026
 lastReviewed: "2026-08-21"
-reviewedBy: "Draft for I. Ohu review"
+reviewedBy: "Draft for N. O. review"
 authorities:
   - { type: IRC, ref: "§ 642", title: "Special rules for credits and deductions", url: "https://www.law.cornell.edu/uscode/text/26/642" }
   - { type: IRC, ref: "§ 643", title: "Definitions applicable to subparts A, B, C, and D", url: "https://www.law.cornell.edu/uscode/text/26/643" }

@@ -8,7 +8,7 @@ description: "The June year end lost its extra month for years beginning after 2
 status: published
 taxYear: 2026
 lastReviewed: "2026-08-21"
-reviewedBy: "Draft for I. Ohu review"
+reviewedBy: "Draft for N. O. review"
 authorities:
   - { type: IRC, ref: "§ 6072(a)", title: "Time for filing income tax returns", url: "https://www.law.cornell.edu/uscode/text/26/6072" }
   - { type: IRC, ref: "§ 6651", title: "Failure to file tax return or to pay tax", url: "https://www.law.cornell.edu/uscode/text/26/6651" }

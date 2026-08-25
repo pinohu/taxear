@@ -8,7 +8,7 @@ description: "What a summons may be issued for, who must be notified, the 20-day
 status: published
 taxYear: 2026
 lastReviewed: "2026-08-18"
-reviewedBy: "I. Ohu"
+reviewedBy: "N. O."
 authorities:
   - { type: IRC, ref: "§ 7602", title: "Examination of books and witnesses" }
   - { type: IRC, ref: "§ 7603", title: "Service of summons" }

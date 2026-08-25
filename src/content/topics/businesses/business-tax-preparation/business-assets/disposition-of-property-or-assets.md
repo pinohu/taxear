@@ -8,7 +8,7 @@ description: "Depreciation recapture is computed before the netting, so a profit
 status: published
 taxYear: 2026
 lastReviewed: "2026-08-21"
-reviewedBy: "Draft for I. Ohu review"
+reviewedBy: "Draft for N. O. review"
 authorities:
   - { type: IRC, ref: "§ 1001", title: "Determination of amount of and recognition of gain or loss", url: "https://www.law.cornell.edu/uscode/text/26/1001" }
   - { type: IRC, ref: "§ 1231", title: "Property used in the trade or business and involuntary conversions", url: "https://www.law.cornell.edu/uscode/text/26/1231" }

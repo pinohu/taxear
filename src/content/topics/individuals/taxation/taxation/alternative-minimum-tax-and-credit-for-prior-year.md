@@ -8,7 +8,7 @@ description: "The exemption was made permanent for 2026 and then made harder to 
 status: published
 taxYear: 2026
 lastReviewed: "2026-08-19"
-reviewedBy: "Draft for I. Ohu review"
+reviewedBy: "Draft for N. O. review"
 authorities:
   - { type: IRC, ref: "§ 55", title: "Alternative minimum tax imposed", url: "https://www.law.cornell.edu/uscode/text/26/55" }
   - { type: IRC, ref: "§ 56", title: "Adjustments in computing alternative minimum taxable income", url: "https://www.law.cornell.edu/uscode/text/26/56" }

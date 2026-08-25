@@ -8,7 +8,7 @@ description: "Withholding starts at one figure and liability at another, so the 
 status: published
 taxYear: 2026
 lastReviewed: "2026-08-19"
-reviewedBy: "Draft for I. Ohu review"
+reviewedBy: "Draft for N. O. review"
 authorities:
   - { type: IRC, ref: "§ 3101", title: "Rate of tax — employee FICA", url: "https://www.law.cornell.edu/uscode/text/26/3101" }
   - { type: IRC, ref: "§ 3102", title: "Deduction of tax from wages", url: "https://www.law.cornell.edu/uscode/text/26/3102" }

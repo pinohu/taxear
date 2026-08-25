@@ -8,7 +8,7 @@ description: "Willfulness picks the route, and the taxpayer has to say which it 
 status: published
 taxYear: 2026
 lastReviewed: "2026-08-21"
-reviewedBy: "Draft for I. Ohu review"
+reviewedBy: "Draft for N. O. review"
 authorities:
   - { type: Pub, ref: "Streamlined procedures", title: "Streamlined filing compliance procedures", url: "https://www.irs.gov/individuals/international-taxpayers/streamlined-filing-compliance-procedures" }
   - { type: Pub, ref: "Streamlined foreign", title: "U.S. taxpayers residing outside the United States", url: "https://www.irs.gov/individuals/international-taxpayers/u-s-taxpayers-residing-outside-the-united-states" }

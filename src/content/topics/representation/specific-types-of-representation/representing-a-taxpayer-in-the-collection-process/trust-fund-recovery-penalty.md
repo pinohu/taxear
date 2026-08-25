@@ -8,7 +8,7 @@ description: "The two elements of IRC 6672 liability, what the IRS means by resp
 status: published
 taxYear: 2026
 lastReviewed: "2026-08-18"
-reviewedBy: "I. Ohu"
+reviewedBy: "N. O."
 authorities:
   - { type: IRC, ref: "§ 6672", title: "Failure to collect and pay over tax, or attempt to evade or defeat tax" }
   - { type: IRC, ref: "§ 6671(b)", title: "Person defined" }

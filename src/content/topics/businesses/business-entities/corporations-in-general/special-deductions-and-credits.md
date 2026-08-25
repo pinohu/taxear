@@ -8,7 +8,7 @@ description: "The hundred percent rate is not a function of owning most of the s
 status: published
 taxYear: 2026
 lastReviewed: "2026-08-21"
-reviewedBy: "Draft for I. Ohu review"
+reviewedBy: "Draft for N. O. review"
 authorities:
   - { type: IRC, ref: "§ 243", title: "Dividends received by corporations", url: "https://www.law.cornell.edu/uscode/text/26/243" }
   - { type: IRC, ref: "§ 246", title: "Rules applying to deductions for dividends received", url: "https://www.law.cornell.edu/uscode/text/26/246" }

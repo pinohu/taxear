@@ -8,7 +8,7 @@ description: "The catch-all line on the return. Several of these are recaptures 
 status: published
 taxYear: 2026
 lastReviewed: "2026-08-19"
-reviewedBy: "Draft for I. Ohu review"
+reviewedBy: "Draft for N. O. review"
 authorities:
   - { type: IRC, ref: "§ 36", title: "First-time homebuyer credit", url: "https://www.law.cornell.edu/uscode/text/26/36" }
   - { type: IRC, ref: "§ 965", title: "Treatment of deferred foreign income upon transition to participation exemption system", url: "https://www.law.cornell.edu/uscode/text/26/965" }

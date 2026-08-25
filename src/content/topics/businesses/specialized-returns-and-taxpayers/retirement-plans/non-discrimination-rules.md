@@ -8,7 +8,7 @@ description: "Coverage testing, contribution testing and top-heavy testing ask t
 status: published
 taxYear: 2026
 lastReviewed: "2026-08-21"
-reviewedBy: "Draft for I. Ohu review"
+reviewedBy: "Draft for N. O. review"
 authorities:
   - { type: IRC, ref: "§ 410", title: "Minimum participation standards", url: "https://www.law.cornell.edu/uscode/text/26/410" }
   - { type: IRC, ref: "§ 401", title: "Qualified pension, profit-sharing, and stock bonus plans", url: "https://www.law.cornell.edu/uscode/text/26/401" }

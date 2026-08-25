@@ -8,7 +8,7 @@ description: "A guarantee gives a shareholder no basis and a loan from the corpo
 status: published
 taxYear: 2026
 lastReviewed: "2026-08-21"
-reviewedBy: "Draft for I. Ohu review"
+reviewedBy: "Draft for N. O. review"
 authorities:
   - { type: IRC, ref: "§ 1367", title: "Adjustments to basis of stock of shareholders, etc.", url: "https://www.law.cornell.edu/uscode/text/26/1367" }
   - { type: IRC, ref: "§ 1366(d)", title: "Special rules for losses and deductions", url: "https://www.law.cornell.edu/uscode/text/26/1366" }

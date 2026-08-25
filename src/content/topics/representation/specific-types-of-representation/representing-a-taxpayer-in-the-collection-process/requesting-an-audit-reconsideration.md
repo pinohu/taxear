@@ -8,7 +8,7 @@ description: "The criteria for an audit reconsideration, the four assessments th
 status: published
 taxYear: 2026
 lastReviewed: "2026-08-18"
-reviewedBy: "I. Ohu"
+reviewedBy: "N. O."
 authorities:
   - { type: IRM, ref: "4.13.1", title: "Examination Audit Reconsideration Process", url: "https://www.irs.gov/irm/part4/irm_04-013-001r" }
   - { type: Pub, ref: "3598", title: "What You Should Know About the Audit Reconsideration Process", url: "https://www.irs.gov/pub/irs-pdf/p3598.pdf" }

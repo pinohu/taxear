@@ -8,7 +8,7 @@ description: "Reading the whole balance sheet before advising: cash flow, compet
 status: published
 taxYear: 2026
 lastReviewed: "2026-08-19"
-reviewedBy: "I. Ohu"
+reviewedBy: "N. O."
 authorities:
   - { type: IRM, ref: "5.15.1.16", title: "Cash Flow Analysis", url: "https://www.irs.gov/irm/part5/irm_05-015-001" }
   - { type: IRM, ref: "5.15.1.21", title: "Determining Equity in Assets", url: "https://www.irs.gov/irm/part5/irm_05-015-001" }

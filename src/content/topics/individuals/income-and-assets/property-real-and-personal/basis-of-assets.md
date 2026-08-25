@@ -8,7 +8,7 @@ description: "Gifted property can carry two bases at once, and a sale between th
 status: published
 taxYear: 2026
 lastReviewed: "2026-08-19"
-reviewedBy: "Draft for I. Ohu review"
+reviewedBy: "Draft for N. O. review"
 authorities:
   - { type: IRC, ref: "§ 1011", title: "Adjusted basis for determining gain or loss", url: "https://www.law.cornell.edu/uscode/text/26/1011" }
   - { type: IRC, ref: "§ 1012", title: "Basis of property — cost", url: "https://www.law.cornell.edu/uscode/text/26/1012" }

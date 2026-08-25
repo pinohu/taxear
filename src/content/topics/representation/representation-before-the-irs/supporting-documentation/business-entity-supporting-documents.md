@@ -8,7 +8,7 @@ description: "The partnership agreement, the bylaws and the election forms decid
 status: published
 taxYear: 2026
 lastReviewed: "2026-08-19"
-reviewedBy: "I. Ohu"
+reviewedBy: "N. O."
 authorities:
   - { type: Reg, ref: "§ 301.7701-3", title: "Classification of certain business entities", url: "https://www.law.cornell.edu/cfr/text/26/301.7701-3" }
   - { type: IRC, ref: "§ 704(b)", title: "Determination of distributive share" }

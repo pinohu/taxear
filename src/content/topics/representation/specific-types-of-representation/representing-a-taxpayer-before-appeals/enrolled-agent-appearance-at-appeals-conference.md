@@ -8,7 +8,7 @@ description: "How a representative works an Appeals conference: informality, no 
 status: published
 taxYear: 2026
 lastReviewed: "2026-08-19"
-reviewedBy: "I. Ohu"
+reviewedBy: "N. O."
 authorities:
   - { type: Reg, ref: "§ 601.106(c)", title: "Nature of proceedings before Appeals", url: "https://www.law.cornell.edu/cfr/text/26/601.106" }
   - { type: Reg, ref: "§ 601.106(f)", title: "Conference and practice requirements — Rules I through IX", url: "https://www.law.cornell.edu/cfr/text/26/601.106" }

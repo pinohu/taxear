@@ -8,7 +8,7 @@ description: "Which federal taxes a bankruptcy discharge actually reaches: the t
 status: published
 taxYear: 2026
 lastReviewed: "2026-08-19"
-reviewedBy: "I. Ohu"
+reviewedBy: "N. O."
 authorities:
   - { type: Statute, ref: "11 U.S.C. § 523(a)(1)", title: "Exceptions to discharge — taxes", url: "https://www.law.cornell.edu/uscode/text/11/523" }
   - { type: Statute, ref: "11 U.S.C. § 507(a)(8)", title: "Priorities — allowed unsecured claims of governmental units", url: "https://www.law.cornell.edu/uscode/text/11/507" }

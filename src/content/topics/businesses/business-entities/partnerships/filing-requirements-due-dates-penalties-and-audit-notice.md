@@ -8,7 +8,7 @@ description: "The late filing penalty counts partners, not dollars of tax, and r
 status: published
 taxYear: 2026
 lastReviewed: "2026-08-21"
-reviewedBy: "Draft for I. Ohu review"
+reviewedBy: "Draft for N. O. review"
 authorities:
   - { type: IRC, ref: "§ 6031", title: "Return of partnership income", url: "https://www.law.cornell.edu/uscode/text/26/6031" }
   - { type: IRC, ref: "§ 6072(b)", title: "Returns of partnerships and S corporations", url: "https://www.law.cornell.edu/uscode/text/26/6072" }

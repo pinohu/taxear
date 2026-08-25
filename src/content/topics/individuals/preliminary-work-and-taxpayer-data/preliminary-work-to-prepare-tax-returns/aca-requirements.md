@@ -8,7 +8,7 @@ description: "What survives of the Affordable Care Act on an individual return i
 status: published
 taxYear: 2026
 lastReviewed: "2026-08-19"
-reviewedBy: "I. Ohu"
+reviewedBy: "N. O."
 authorities:
   - { type: IRC, ref: "§ 36B", title: "Refundable credit for coverage under a qualified health plan" }
   - { type: IRC, ref: "§ 5000A", title: "Requirement to maintain minimum essential coverage" }

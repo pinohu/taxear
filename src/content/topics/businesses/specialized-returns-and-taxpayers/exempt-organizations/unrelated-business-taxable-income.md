@@ -8,7 +8,7 @@ description: "Three tests decide whether income is unrelated business income, an
 status: published
 taxYear: 2026
 lastReviewed: "2026-08-21"
-reviewedBy: "Draft for I. Ohu review"
+reviewedBy: "Draft for N. O. review"
 authorities:
   - { type: IRC, ref: "§ 511", title: "Imposition of tax on unrelated business income of charitable, etc., organizations", url: "https://www.law.cornell.edu/uscode/text/26/511" }
   - { type: IRC, ref: "§ 512", title: "Unrelated business taxable income", url: "https://www.law.cornell.edu/uscode/text/26/512" }

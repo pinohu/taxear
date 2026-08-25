@@ -8,7 +8,7 @@ description: "Where the Code demands a record made at the time — charitable ac
 status: published
 taxYear: 2026
 lastReviewed: "2026-08-19"
-reviewedBy: "I. Ohu"
+reviewedBy: "N. O."
 authorities:
   - { type: IRC, ref: "§ 170(f)(8)", title: "Substantiation requirement for certain contributions" }
   - { type: IRC, ref: "§ 6001", title: "Notice or regulations requiring records, statements, and special returns" }

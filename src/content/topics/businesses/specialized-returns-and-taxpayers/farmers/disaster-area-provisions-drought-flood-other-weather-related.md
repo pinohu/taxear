@@ -8,7 +8,7 @@ description: "Weather relief for a farm comes in four separate pieces, and a sin
 status: published
 taxYear: 2026
 lastReviewed: "2026-08-21"
-reviewedBy: "Draft for I. Ohu review"
+reviewedBy: "Draft for N. O. review"
 authorities:
   - { type: IRC, ref: "§ 1033", title: "Involuntary conversions", url: "https://www.law.cornell.edu/uscode/text/26/1033" }
   - { type: IRC, ref: "§ 165", title: "Losses", url: "https://www.law.cornell.edu/uscode/text/26/165" }

@@ -8,7 +8,7 @@ description: "An ISO produces no regular tax at exercise and an AMT adjustment o
 status: published
 taxYear: 2026
 lastReviewed: "2026-08-19"
-reviewedBy: "Draft for I. Ohu review"
+reviewedBy: "Draft for N. O. review"
 authorities:
   - { type: IRC, ref: "§ 56", title: "Adjustments in computing alternative minimum taxable income", url: "https://www.law.cornell.edu/uscode/text/26/56" }
   - { type: IRC, ref: "§ 421", title: "General rules for certain stock options", url: "https://www.law.cornell.edu/uscode/text/26/421" }

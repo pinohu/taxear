@@ -8,7 +8,7 @@ description: "Who is taxed on worldwide income: the green card test that ends on
 status: published
 taxYear: 2026
 lastReviewed: "2026-08-19"
-reviewedBy: "I. Ohu"
+reviewedBy: "N. O."
 authorities:
   - { type: IRC, ref: "§ 7701(b)", title: "Definition of resident alien and nonresident alien" }
   - { type: Reg, ref: "§ 301.7701(b)-1", title: "Resident alien", url: "https://www.law.cornell.edu/cfr/text/26/301.7701(b)-1" }

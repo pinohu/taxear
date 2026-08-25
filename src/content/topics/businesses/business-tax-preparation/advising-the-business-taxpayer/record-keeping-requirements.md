@@ -8,7 +8,7 @@ description: "An accountable plan needs all three conditions, and an employee ca
 status: published
 taxYear: 2026
 lastReviewed: "2026-08-21"
-reviewedBy: "Draft for I. Ohu review"
+reviewedBy: "Draft for N. O. review"
 authorities:
   - { type: IRC, ref: "§ 6001", title: "Notice or regulations requiring records, statements, and special returns", url: "https://www.law.cornell.edu/uscode/text/26/6001" }
   - { type: IRC, ref: "§ 62", title: "Adjusted gross income defined", url: "https://www.law.cornell.edu/uscode/text/26/62" }

@@ -8,7 +8,7 @@ description: "Three returns, three deadlines, and a filing threshold that lifeti
 status: published
 taxYear: 2026
 lastReviewed: "2026-08-20"
-reviewedBy: "Draft for I. Ohu review"
+reviewedBy: "Draft for N. O. review"
 authorities:
   - { type: IRC, ref: "§ 6018", title: "Estate tax returns", url: "https://www.law.cornell.edu/uscode/text/26/6018" }
   - { type: IRC, ref: "§ 6075", title: "Time for filing estate and gift tax returns", url: "https://www.law.cornell.edu/uscode/text/26/6075" }

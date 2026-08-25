@@ -8,7 +8,7 @@ description: "Three separate routes out of joint and several liability, each wit
 status: published
 taxYear: 2026
 lastReviewed: "2026-08-19"
-reviewedBy: "Draft for I. Ohu review"
+reviewedBy: "Draft for N. O. review"
 authorities:
   - { type: IRC, ref: "§ 6015", title: "Relief from joint and several liability on joint return", url: "https://www.law.cornell.edu/uscode/text/26/6015" }
   - { type: IRC, ref: "§ 6013", title: "Joint returns of income tax by husband and wife", url: "https://www.law.cornell.edu/uscode/text/26/6013" }

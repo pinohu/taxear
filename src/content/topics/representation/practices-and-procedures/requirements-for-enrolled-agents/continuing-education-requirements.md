@@ -8,7 +8,7 @@ description: "Circular 230 section 10.6 sets 72 hours of continuing education pe
 status: published
 taxYear: 2026
 lastReviewed: "2026-08-18"
-reviewedBy: "I. Ohu"
+reviewedBy: "N. O."
 authorities:
   - { type: Circ230, ref: "§ 10.6", title: "Term and renewal of status as an enrolled agent, enrolled retirement plan agent, or registered tax return preparer", url: "https://www.law.cornell.edu/cfr/text/31/10.6" }
   - { type: Circ230, ref: "§ 10.9", title: "Continuing education providers and continuing education programs", url: "https://www.law.cornell.edu/cfr/text/31/10.9" }

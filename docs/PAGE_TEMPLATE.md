@@ -15,7 +15,7 @@ description: "150–170 characters. Plain statement of what the page answers."
 status: published                            # stub | draft | review | published
 taxYear: 2026                                # tax year the figures were verified for
 lastReviewed: "2026-08-17"
-reviewedBy: "I. Ohu"
+reviewedBy: "N. O."
 authorities:
   - { type: IRC, ref: "§ 7122", title: "Compromises" }
   - { type: Reg, ref: "301.7122-1" }

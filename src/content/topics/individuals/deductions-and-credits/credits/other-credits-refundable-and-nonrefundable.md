@@ -8,7 +8,7 @@ description: "Two of the credits the outline names by title no longer exist, and
 status: published
 taxYear: 2026
 lastReviewed: "2026-08-19"
-reviewedBy: "Draft for I. Ohu review"
+reviewedBy: "Draft for N. O. review"
 authorities:
   - { type: IRC, ref: "§ 25B", title: "Elective deferrals and IRA contributions by certain individuals", url: "https://www.law.cornell.edu/uscode/text/26/25B" }
   - { type: IRC, ref: "§ 22", title: "Credit for the elderly and the permanently and totally disabled", url: "https://www.law.cornell.edu/uscode/text/26/22" }

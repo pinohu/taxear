@@ -8,7 +8,7 @@ description: "Reg. 601.506(d) makes the CAF number a processing convenience, not
 status: published
 taxYear: 2026
 lastReviewed: "2026-08-18"
-reviewedBy: "I. Ohu"
+reviewedBy: "N. O."
 authorities:
   - { type: Reg, ref: "§ 601.506", title: "Notices to be given to recognized representative; delivery of refund checks to recognized representative", url: "https://www.law.cornell.edu/cfr/text/26/601.506" }
   - { type: Reg, ref: "§ 601.503", title: "Requirements of power of attorney, signatures, fiduciaries and Commissioner's authority to substitute other requirements", url: "https://www.law.cornell.edu/cfr/text/26/601.503" }

@@ -8,7 +8,7 @@ description: "Who owes it, what escapes it, and the two optional methods that le
 status: published
 taxYear: 2026
 lastReviewed: "2026-08-19"
-reviewedBy: "Draft for I. Ohu review"
+reviewedBy: "Draft for N. O. review"
 authorities:
   - { type: IRC, ref: "§ 1401", title: "Rate of tax", url: "https://www.law.cornell.edu/uscode/text/26/1401" }
   - { type: IRC, ref: "§ 1402", title: "Definitions", url: "https://www.law.cornell.edu/uscode/text/26/1402" }

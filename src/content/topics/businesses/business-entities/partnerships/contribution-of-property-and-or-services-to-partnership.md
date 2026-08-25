@@ -8,7 +8,7 @@ description: "Contributing property is tax-free and contributing services is not
 status: published
 taxYear: 2026
 lastReviewed: "2026-08-21"
-reviewedBy: "Draft for I. Ohu review"
+reviewedBy: "Draft for N. O. review"
 authorities:
   - { type: IRC, ref: "§ 721", title: "Nonrecognition of gain or loss on contribution", url: "https://www.law.cornell.edu/uscode/text/26/721" }
   - { type: IRC, ref: "§ 722", title: "Basis of contributing partner's interest", url: "https://www.law.cornell.edu/uscode/text/26/722" }

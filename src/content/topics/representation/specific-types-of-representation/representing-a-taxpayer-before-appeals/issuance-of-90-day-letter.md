@@ -8,7 +8,7 @@ description: "The notice of deficiency is the ticket to the Tax Court. What it d
 status: published
 taxYear: 2026
 lastReviewed: "2026-08-19"
-reviewedBy: "I. Ohu"
+reviewedBy: "N. O."
 authorities:
   - { type: IRC, ref: "§ 6212", title: "Notice of deficiency" }
   - { type: IRC, ref: "§ 6213", title: "Restrictions applicable to deficiencies; petition to Tax Court" }

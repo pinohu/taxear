@@ -8,7 +8,7 @@ description: "The IRC 6107(a) duty to give the taxpayer a complete copy before s
 status: published
 taxYear: 2026
 lastReviewed: "2026-08-18"
-reviewedBy: "I. Ohu"
+reviewedBy: "N. O."
 authorities:
   - { type: IRC, ref: "§ 6107(a)", title: "Furnishing copy to taxpayer" }
   - { type: IRC, ref: "§ 6695(a)", title: "Failure to furnish copy to taxpayer" }

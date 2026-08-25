@@ -8,7 +8,7 @@ description: "The individual return is rarely the only filing a client owes. Emp
 status: published
 taxYear: 2026
 lastReviewed: "2026-08-19"
-reviewedBy: "Draft for I. Ohu review"
+reviewedBy: "Draft for N. O. review"
 authorities:
   - { type: IRC, ref: "§ 2503", title: "Taxable gifts", url: "https://www.law.cornell.edu/uscode/text/26/2503" }
   - { type: IRC, ref: "§ 2523", title: "Gift to spouse", url: "https://www.law.cornell.edu/uscode/text/26/2523" }

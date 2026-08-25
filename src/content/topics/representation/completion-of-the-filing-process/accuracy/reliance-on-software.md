@@ -8,7 +8,7 @@ description: "Software is a tool, not a defence. What a preparer may rely on wit
 status: published
 taxYear: 2026
 lastReviewed: "2026-08-19"
-reviewedBy: "I. Ohu"
+reviewedBy: "N. O."
 authorities:
   - { type: Reg, ref: "§ 1.6694-1(e)", title: "Verification of information furnished by taxpayer or other party", url: "https://www.law.cornell.edu/cfr/text/26/1.6694-1" }
   - { type: Reg, ref: "§ 1.6694-2(e)", title: "Exception for reasonable cause and good faith", url: "https://www.law.cornell.edu/cfr/text/26/1.6694-2" }

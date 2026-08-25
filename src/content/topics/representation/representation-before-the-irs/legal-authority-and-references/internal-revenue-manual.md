@@ -8,7 +8,7 @@ description: "The IRM is the IRS's instructions to its own staff. It is not auth
 status: published
 taxYear: 2026
 lastReviewed: "2026-08-18"
-reviewedBy: "I. Ohu"
+reviewedBy: "N. O."
 authorities:
   - { type: IRM, ref: "1.11.1", title: "Internal Management Document (IMD) Program and Responsibilities, effective 29 August 2025", url: "https://www.irs.gov/irm/part1/irm_01-011-001" }
   - { type: IRC, ref: "§ 7811", title: "Taxpayer Assistance Orders — published guidance standard at (a)(3)", url: "https://www.law.cornell.edu/uscode/text/26/7811" }

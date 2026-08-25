@@ -8,7 +8,7 @@ description: "A partnership does not choose its year; its partners choose it for
 status: published
 taxYear: 2026
 lastReviewed: "2026-08-21"
-reviewedBy: "Draft for I. Ohu review"
+reviewedBy: "Draft for N. O. review"
 authorities:
   - { type: IRC, ref: "§ 441", title: "Period for computation of taxable income", url: "https://www.law.cornell.edu/uscode/text/26/441" }
   - { type: IRC, ref: "§ 442", title: "Change of annual accounting period", url: "https://www.law.cornell.edu/uscode/text/26/442" }

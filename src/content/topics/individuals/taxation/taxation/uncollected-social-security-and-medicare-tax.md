@@ -8,7 +8,7 @@ description: "Employment tax the employer could not withhold, so the employee pa
 status: published
 taxYear: 2026
 lastReviewed: "2026-08-19"
-reviewedBy: "Draft for I. Ohu review"
+reviewedBy: "Draft for N. O. review"
 authorities:
   - { type: IRC, ref: "§ 3102", title: "Deduction of tax from wages", url: "https://www.law.cornell.edu/uscode/text/26/3102" }
   - { type: IRC, ref: "§ 6053", title: "Reporting of tips", url: "https://www.law.cornell.edu/uscode/text/26/6053" }

@@ -8,7 +8,7 @@ description: "Stock for services is compensation, and those shares are invisible
 status: published
 taxYear: 2026
 lastReviewed: "2026-08-21"
-reviewedBy: "Draft for I. Ohu review"
+reviewedBy: "Draft for N. O. review"
 authorities:
   - { type: IRC, ref: "§ 351(d)", title: "Services not treated as property", url: "https://www.law.cornell.edu/uscode/text/26/351" }
   - { type: IRC, ref: "§ 83", title: "Property transferred in connection with performance of services", url: "https://www.law.cornell.edu/uscode/text/26/83" }

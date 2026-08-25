@@ -8,7 +8,7 @@ description: "Equipment left the section in 2018, so a trade-in is now a taxable
 status: published
 taxYear: 2026
 lastReviewed: "2026-08-21"
-reviewedBy: "Draft for I. Ohu review"
+reviewedBy: "Draft for N. O. review"
 authorities:
   - { type: IRC, ref: "§ 1031", title: "Exchange of real property held for productive use or investment", url: "https://www.law.cornell.edu/uscode/text/26/1031" }
   - { type: IRC, ref: "§ 1245(b)(4)", title: "Like kind exchanges; involuntary conversions", url: "https://www.law.cornell.edu/uscode/text/26/1245" }

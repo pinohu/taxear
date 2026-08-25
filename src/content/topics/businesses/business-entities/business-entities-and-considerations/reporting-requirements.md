@@ -8,7 +8,7 @@ description: "The 1099 threshold has moved, and the 1099-K threshold moved back 
 status: published
 taxYear: 2026
 lastReviewed: "2026-08-21"
-reviewedBy: "Draft for I. Ohu review"
+reviewedBy: "Draft for N. O. review"
 authorities:
   - { type: IRC, ref: "§ 6041", title: "Information at source", url: "https://www.law.cornell.edu/uscode/text/26/6041" }
   - { type: IRC, ref: "§ 6041A", title: "Returns regarding payments of remuneration for services and direct sales", url: "https://www.law.cornell.edu/uscode/text/26/6041A" }

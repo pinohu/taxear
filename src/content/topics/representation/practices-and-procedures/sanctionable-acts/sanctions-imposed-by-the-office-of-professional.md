@@ -8,7 +8,7 @@ description: "Censure, suspension, disbarment, monetary penalty and disqualifica
 status: published
 taxYear: 2026
 lastReviewed: "2026-08-18"
-reviewedBy: "I. Ohu"
+reviewedBy: "N. O."
 authorities:
   - { type: Circ230, ref: "§ 10.50", title: "Sanctions", url: "https://www.law.cornell.edu/cfr/text/31/10.50" }
   - { type: Circ230, ref: "§ 10.60", title: "Institution of proceeding", url: "https://www.law.cornell.edu/cfr/text/31/10.60" }

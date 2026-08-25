@@ -8,7 +8,7 @@ description: "Revocation needs half the shares, not half the shareholders, and a
 status: published
 taxYear: 2026
 lastReviewed: "2026-08-21"
-reviewedBy: "Draft for I. Ohu review"
+reviewedBy: "Draft for N. O. review"
 authorities:
   - { type: IRC, ref: "§ 1362(d)", title: "Termination", url: "https://www.law.cornell.edu/uscode/text/26/1362" }
   - { type: IRC, ref: "§ 1362(e)", title: "Treatment of S termination year", url: "https://www.law.cornell.edu/uscode/text/26/1362" }

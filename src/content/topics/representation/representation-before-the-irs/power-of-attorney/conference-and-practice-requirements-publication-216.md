@@ -8,7 +8,7 @@ description: "Reg. 601.501 through 601.509 govern conferences, who counts as a r
 status: published
 taxYear: 2026
 lastReviewed: "2026-08-18"
-reviewedBy: "I. Ohu"
+reviewedBy: "N. O."
 authorities:
   - { type: Reg, ref: "§ 601.501", title: "Scope of rules; definitions", url: "https://www.law.cornell.edu/cfr/text/26/601.501" }
   - { type: Reg, ref: "§ 601.502", title: "Recognized representative", url: "https://www.law.cornell.edu/cfr/text/26/601.502" }

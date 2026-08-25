@@ -8,7 +8,7 @@ description: "Ordinary business insurance is deductible without qualification; a
 status: published
 taxYear: 2026
 lastReviewed: "2026-08-21"
-reviewedBy: "Draft for I. Ohu review"
+reviewedBy: "Draft for N. O. review"
 authorities:
   - { type: IRC, ref: "§ 162(a)", title: "Trade or business expenses", url: "https://www.law.cornell.edu/uscode/text/26/162" }
   - { type: IRC, ref: "§ 264(a)", title: "Certain amounts paid in connection with insurance contracts", url: "https://www.law.cornell.edu/uscode/text/26/264" }

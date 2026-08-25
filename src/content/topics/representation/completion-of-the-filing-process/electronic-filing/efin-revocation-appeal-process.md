@@ -8,7 +8,7 @@ description: "The two-step administrative review: a written request to the offic
 status: published
 taxYear: 2026
 lastReviewed: "2026-08-19"
-reviewedBy: "I. Ohu"
+reviewedBy: "N. O."
 authorities:
   - { type: Pub, ref: "3112", title: "IRS e-file Application and Participation (Rev. 11-2025)", url: "https://www.irs.gov/pub/irs-pdf/p3112.pdf" }
   - { type: IRC, ref: "§ 7803(e)", title: "Independent Office of Appeals" }

@@ -8,7 +8,7 @@ description: "A minister is an employee for income tax and self-employed for soc
 status: published
 taxYear: 2026
 lastReviewed: "2026-08-19"
-reviewedBy: "Draft for I. Ohu review"
+reviewedBy: "Draft for N. O. review"
 authorities:
   - { type: IRC, ref: "§ 107", title: "Rental value of parsonages", url: "https://www.law.cornell.edu/uscode/text/26/107" }
   - { type: IRC, ref: "§ 1402", title: "Definitions — self-employment", url: "https://www.law.cornell.edu/uscode/text/26/1402" }

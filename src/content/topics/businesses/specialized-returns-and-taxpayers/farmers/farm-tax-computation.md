@@ -8,7 +8,7 @@ description: "A farmer gets one estimated tax payment a year instead of four, an
 status: published
 taxYear: 2026
 lastReviewed: "2026-08-21"
-reviewedBy: "Draft for I. Ohu review"
+reviewedBy: "Draft for N. O. review"
 authorities:
   - { type: IRC, ref: "§ 6654", title: "Failure by individual to pay estimated income tax", url: "https://www.law.cornell.edu/uscode/text/26/6654" }
   - { type: IRC, ref: "§ 1301", title: "Averaging of farm income", url: "https://www.law.cornell.edu/uscode/text/26/1301" }

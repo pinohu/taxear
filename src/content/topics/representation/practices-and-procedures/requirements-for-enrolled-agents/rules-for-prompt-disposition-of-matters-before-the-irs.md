@@ -8,7 +8,7 @@ description: "Circular 230 section 10.23 is a single sentence against unreasonab
 status: published
 taxYear: 2026
 lastReviewed: "2026-08-18"
-reviewedBy: "I. Ohu"
+reviewedBy: "N. O."
 authorities:
   - { type: Circ230, ref: "§ 10.23", title: "Prompt disposition of pending matters", url: "https://www.law.cornell.edu/cfr/text/31/10.23" }
   - { type: Circ230, ref: "§ 10.20", title: "Information to be furnished", url: "https://www.law.cornell.edu/cfr/text/31/10.20" }

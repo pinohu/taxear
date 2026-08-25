@@ -8,7 +8,7 @@ description: "Basis starts at cost and moves; a gift carries a dual basis that c
 status: published
 taxYear: 2026
 lastReviewed: "2026-08-21"
-reviewedBy: "Draft for I. Ohu review"
+reviewedBy: "Draft for N. O. review"
 authorities:
   - { type: IRC, ref: "§ 1012", title: "Basis of property — cost", url: "https://www.law.cornell.edu/uscode/text/26/1012" }
   - { type: IRC, ref: "§ 1014", title: "Basis of property acquired from a decedent", url: "https://www.law.cornell.edu/uscode/text/26/1014" }

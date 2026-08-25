@@ -8,7 +8,7 @@ description: "Who paid decides how much is included, unless the co-owners are sp
 status: published
 taxYear: 2026
 lastReviewed: "2026-08-20"
-reviewedBy: "Draft for I. Ohu review"
+reviewedBy: "Draft for N. O. review"
 authorities:
   - { type: IRC, ref: "§ 2040", title: "Joint interests", url: "https://www.law.cornell.edu/uscode/text/26/2040" }
   - { type: Reg, ref: "§ 20.2040-1", title: "Joint interests", url: "https://www.law.cornell.edu/cfr/text/26/20.2040-1" }

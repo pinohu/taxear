@@ -8,7 +8,7 @@ description: "How a preparer penalty is proposed, appealed, assessed and contest
 status: published
 taxYear: 2026
 lastReviewed: "2026-08-18"
-reviewedBy: "I. Ohu"
+reviewedBy: "N. O."
 authorities:
   - { type: IRC, ref: "§ 6696", title: "Rules applicable with respect to sections 6694, 6695, 6695A, and 6695B" }
   - { type: IRC, ref: "§ 6694(c)", title: "Extension of period of collection where preparer pays 15 percent of penalty" }

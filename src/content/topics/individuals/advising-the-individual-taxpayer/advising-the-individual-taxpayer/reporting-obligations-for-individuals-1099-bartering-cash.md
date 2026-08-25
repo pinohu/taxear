@@ -8,7 +8,7 @@ description: "Two thresholds moved for 2026, and one of them moved retroactively
 status: published
 taxYear: 2026
 lastReviewed: "2026-08-19"
-reviewedBy: "Draft for I. Ohu review"
+reviewedBy: "Draft for N. O. review"
 authorities:
   - { type: IRC, ref: "§ 6041", title: "Information at source", url: "https://www.law.cornell.edu/uscode/text/26/6041" }
   - { type: IRC, ref: "§ 6050W", title: "Returns relating to payments made in settlement of payment card and third party network transactions", url: "https://www.law.cornell.edu/uscode/text/26/6050W" }

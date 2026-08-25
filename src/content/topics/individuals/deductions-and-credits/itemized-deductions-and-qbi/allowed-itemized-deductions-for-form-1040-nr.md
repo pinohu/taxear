@@ -8,7 +8,7 @@ description: "Itemising is not a choice here — the standard deduction is zero 
 status: published
 taxYear: 2026
 lastReviewed: "2026-08-19"
-reviewedBy: "Draft for I. Ohu review"
+reviewedBy: "Draft for N. O. review"
 authorities:
   - { type: IRC, ref: "§ 63", title: "Taxable income defined", url: "https://www.law.cornell.edu/uscode/text/26/63" }
   - { type: IRC, ref: "§ 151", title: "Allowance of deductions for personal exemptions", url: "https://www.law.cornell.edu/uscode/text/26/151" }

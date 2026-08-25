@@ -8,7 +8,7 @@ description: "Advising on method is advising on timing, and the decision worth m
 status: published
 taxYear: 2026
 lastReviewed: "2026-08-21"
-reviewedBy: "Draft for I. Ohu review"
+reviewedBy: "Draft for N. O. review"
 authorities:
   - { type: IRC, ref: "§ 446", title: "General rule for methods of accounting", url: "https://www.law.cornell.edu/uscode/text/26/446" }
   - { type: IRC, ref: "§ 448", title: "Limitation on use of cash method of accounting", url: "https://www.law.cornell.edu/uscode/text/26/448" }

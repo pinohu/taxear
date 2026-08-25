@@ -8,7 +8,7 @@ description: "Birth certificates, divorce decrees and settlement agreements as t
 status: published
 taxYear: 2026
 lastReviewed: "2026-08-19"
-reviewedBy: "I. Ohu"
+reviewedBy: "N. O."
 authorities:
   - { type: IRC, ref: "§ 152(e)", title: "Special rule for divorced parents" }
   - { type: IRC, ref: "§ 104(a)(2)", title: "Compensation for injuries or sickness — damages" }
