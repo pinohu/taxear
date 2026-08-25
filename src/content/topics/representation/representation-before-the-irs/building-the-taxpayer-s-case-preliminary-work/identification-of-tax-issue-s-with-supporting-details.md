@@ -18,7 +18,20 @@ forms: []
 related: ["3.2.2.c", "3.2.5.g", "3.2.2.e"]
 changelog:
   - { date: "2026-08-18", summary: "Initial publication from Circular 230 §§ 10.37, 10.34 and 10.22 and Reg. § 1.6662-4, each opened at source." }
+  - { date: "2026-08-25", summary: "Added a plain-language summary, typed scenarios, and a glossary mark." }
 ---
+
+<div class="plain-terms">
+This page is about how a tax practitioner should build a case: go find the facts rather
+than accept the client's version, then match the law to what actually happened. It
+affects anyone giving written tax advice or arguing a client's position to the IRS.
+Clients are affected indirectly, through the quality and honesty of the advice they
+receive. The rule decides two things clearly. First, a practitioner cannot simply repeat
+what a client says if something looks off, such as a missing number or a total that does
+not add up. Second, nobody may factor in the odds that the IRS will never look. A
+position stands or falls on the facts and the law, not on the chance of getting away with
+it.
+</div>
 
 Identifying the issue is not a preliminary to the work — under Circular 230 it **is** the work, and the standard is written down. Section 10.37 lists six requirements for written advice, and read as a research method rather than as a compliance checklist they describe exactly how a matter should be worked up: **find the facts, do not assume them, relate the law to them, and never weigh the odds of getting away with it.**
 
@@ -76,28 +89,28 @@ Identifying the issue is not a preliminary to the work — under Circular 230 it
 
 **Check the other professional before leaning on them.** Reliance on someone else's advice fails where the practitioner knows or should know the person is not competent, lacks the qualifications, or has a Circular 230 conflict. That is a due diligence step on the adviser, not only on the advice.
 
-<div class="scenario">
+<div class="scenario" data-type="fails">
 <h3>The facts nobody checked</h3>
 <p>A client describes a transaction and asks for written advice. The practitioner analyses the law carefully against the description and delivers an opinion. On examination the agreements turn out to contain a clause the client never mentioned, which changes the answer.</p>
 <p><em>Analysis.</em> The failure was at requirement (iii). Circular 230 § 10.37(a)(2)(iii) requires the practitioner to "use reasonable efforts to identify and ascertain the facts relevant to written advice on each Federal tax matter" — not to work from the client's narration. Reading the agreements was the reasonable effort. The advice may also fail (i), since the factual assumptions were not reasonable, and (v), since the law was related to facts that were not the facts.</p>
 </div>
 
-<div class="scenario">
+<div class="scenario" data-type="boundary">
 <h3>The schedule that did not foot</h3>
 <p>A client supplies a summary of deductible expenses. The total does not match the sum of the components, and one category is roughly double the prior year with no explanation.</p>
 <p><em>Analysis.</em> Reliance without verification is no longer available. Circular 230 § 10.34(d) permits good-faith reliance on client information without verification, but the practitioner "may not ignore the implications of information furnished" and "must make reasonable inquiries if the information as furnished appears to be incorrect, inconsistent with an important fact or another factual assumption, or incomplete." An arithmetic mismatch and an unexplained doubling are both on the face of what was supplied. Ask, and record the answer.</p>
 </div>
 
-<div class="scenario">
+<div class="scenario" data-type="interaction">
 <h3>The client who liked the odds</h3>
 <p>A client acknowledges the position is weak but points out that returns like hers are rarely examined, and asks the practitioner to proceed on that basis.</p>
 <p><em>Analysis.</em> The practitioner may not reason that way. Circular 230 § 10.37(a)(2)(vi) requires that the practitioner not, in evaluating a Federal tax matter, "take into account the possibility that a tax return will not be audited or that a matter will not be raised on audit," and Reg. § 1.6662-4(d)(2) excludes the same consideration from the substantial authority analysis. The practitioner should say so directly, advise on the penalties reasonably likely to apply under § 10.34(c), and explain the disclosure route and its requirements.</p>
 </div>
 
-<div class="scenario">
+<div class="scenario" data-type="procedural">
 <h3>The specialist's opinion</h3>
 <p>A practitioner relies on a written opinion from a specialist in an area outside their own experience. The specialist turns out to have an undisclosed financial interest in the arrangement.</p>
-<p><em>Analysis.</em> The reliance fails if the practitioner knew or reasonably should have known. Circular 230 § 10.37(b) permits reliance on another person's advice only where it was reasonable and the reliance is in good faith, and provides that reliance is not reasonable where the practitioner knows or reasonably should know that the other person "has a conflict of interest in violation of the rules described in this part." Checking who instructed the specialist and what interest they hold is part of the diligence, not an afterthought.</p>
+<p><em>Analysis.</em> The reliance fails if the practitioner knew or reasonably should have known. Circular 230 § 10.37(b) permits reliance on another person's advice only where it was reasonable and the reliance is in good faith, and provides that reliance is not reasonable where the practitioner knows or reasonably should know that the other person "has a conflict of interest in violation of the rules described in this part." Checking who instructed the specialist and what interest they hold is part of the {gloss:due-diligence}, not an afterthought.</p>
 </div>
 
 <div class="callout trap">

@@ -21,7 +21,24 @@ forms: []
 related: ["2.1.3.g", "2.1.1.c", "2.1.1.i", "2.1.3.b", "2.1.3.c", "2.1.3.d", "2.1.3.e", "2.1.3.f", "2.1.3.h"]
 changelog:
   - { date: "2026-08-21", summary: "Initial draft. Sets out the IRC § 6072(a) fourth-month filing date for C corporations, the Pub. L. 114-41 § 2006(a)(3)(B) deferral that kept June 30 corporations on the third-month date for taxable years beginning before 1 January 2026 and the fact that it expires with the year beginning 1 July 2026, the Reg. § 1.6081-3(a) automatic six-month extension with the Reg. § 1.6081-3(e) seven-month exception expiring on the same terms, the IRC § 6651(a)(1) and (a)(2) additions to tax, the § 6651(c)(1) coordination that stops them accumulating, the minimum addition for a return more than 60 days late at the amount applying to returns required to be filed in 2027, and the Reg. § 301.6011-5 electronic filing requirement." }
+  - { date: "2026-08-25", summary: "Added a plain-language summary, a timeline diagram of the June 30 filing-date changeover, glossary marks, and typed scenarios." }
+diagram:
+  archetype: "timeline"
+  caption: "The June 30 filing-date changeover, corporation by corporation"
+  events:
+    - { when: "Every other C corporation", what: "Return due the 15th day of the 4th month after year end (IRC § 6072(a))" }
+    - { when: "June 30 year beginning 1 Jul 2025 (last year on the old date)", what: "Return due 15 September 2026 — old third-month rule; automatic extension runs 7 months, to 15 April 2027" }
+    - { when: "June 30 year beginning 1 Jul 2026 (first year on the new date)", what: "Return due 15 October 2027 — general fourth-month rule; automatic extension runs 6 months, same as every other corporation" }
 ---
+
+<div class="plain-terms">
+This topic covers when a company's tax return is due. It also covers how long an extension buys, and what
+happens if the return or the payment is late. It applies to every regular corporation. The exact date
+depends on when its year ends. One shrinking group of companies follows a rule that is now expiring. The
+rule sets the deadline itself, and how much extra time an extension truly grants. It also sets how the
+penalty for filing late and the penalty for paying late are measured and combined. A company that owes no
+tax for the year faces no penalty for filing late, however many months pass.
+</div>
 
 Corporate filing is mostly mechanical, and the mechanics have one moving part this year. A transitional
 rule that has kept June-year-end C corporations on an earlier filing date for a decade expires with the
@@ -63,7 +80,7 @@ stable for years, which is precisely why the one change is worth being exact abo
 
 ## How it works in practice
 
-Get the entity type right before the date. A C corporation files under the general rule in IRC § 6072(a)
+Get the entity type right before the date. A {gloss:c-corporation} files under the general rule in IRC § 6072(a)
 — the fifteenth day of the fourth month after the close of the year. Partnerships and S corporations file
 under IRC § 6072(b), the fifteenth day of the third month. The two are a month apart in the opposite
 direction from what most people remember, because the pass-through entities file *first*: their owners
@@ -87,9 +104,9 @@ extension of time to *file*, not to pay (Reg. § 1.6081-3(b)), and the failure-t
 the unextended payment date regardless. And it is conditional: remitting the properly estimated
 unpaid tax liability is one of the requirements, so an application filed without payment is vulnerable.
 
-On penalties, the two additions in IRC § 6651(a) are different animals. Failure to file is charged on the
+On penalties, the two additions in IRC § 6651(a) are different animals. The {gloss:failure-to-file-penalty} is charged on the
 tax *required to be shown* on the return, at five percent a month to a twenty-five percent ceiling.
-Failure to pay is charged on the tax *shown*, at half a percent a month. Both count a fraction of a month
+The {gloss:failure-to-pay-penalty} is charged on the tax *shown*, at half a percent a month. Both count a fraction of a month
 as a whole month, and both measure from a date determined with regard to any extension — but they are
 different extensions: the filing date for the first, the payment date for the second.
 
@@ -104,7 +121,7 @@ come from the revenue procedure rather than from IRC § 6651(a) itself.
 
 ## Scenarios
 
-<div class="scenario">
+<div class="scenario" data-type="timing">
 <h3>The June year that changed date</h3>
 <p>A C corporation has always used a year ending 30 June. Its controller diaries the Form 1120 for
 15 September each year and has done so since 2016.</p>
@@ -116,7 +133,7 @@ six-month extension to 15 April 2028. The extended dates happen to coincide, whi
 easy to miss — it is the unextended date that moves, by a month.</p>
 </div>
 
-<div class="scenario">
+<div class="scenario" data-type="baseline">
 <h3>The return filed on time and the tax paid late</h3>
 <p>A calendar-year C corporation files its Form 1120 on the due date showing tax of $4,000, and pays
 nothing until two months later.</p>
@@ -127,7 +144,7 @@ describe the charge as a late-filing penalty; it is not, and the distinction mat
 late-filing rate is ten times higher and is charged on a different base.</p>
 </div>
 
-<div class="scenario">
+<div class="scenario" data-type="interaction">
 <h3>Both late, and not twice as bad</h3>
 <p>A calendar-year C corporation with tax of $200,000 files its return three months late and pays nothing
 until the return is filed. It has no extension and no reasonable cause.</p>
@@ -139,7 +156,7 @@ in effect 4.5 percent a month for filing plus 0.5 percent for paying. The corpor
 higher of the two rates for the overlapping months, which is the point of the subsection.</p>
 </div>
 
-<div class="scenario">
+<div class="scenario" data-type="boundary">
 <h3>The dormant corporation that filed nothing</h3>
 <p>A calendar-year C corporation is dormant and owes no tax for the year. It files its Form 1120 fourteen
 months late.</p>

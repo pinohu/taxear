@@ -20,7 +20,18 @@ forms: []
 related: ["2.3.5.a", "2.3.5.f", "2.3.5.e", "2.3.5.d", "2.3.5.c"]
 changelog:
   - { date: "2026-08-21", summary: "Initial draft. Sets out the IRC § 168(e)(2)(A) 80 percent gross rental income test that decides residential status, the dwelling unit definition excluding transient establishments, the 27.5 and 39 year periods with their 30 and 40 year alternative depreciation system counterparts, the mid-month convention, and the asymmetry that qualified improvement property exists only for nonresidential buildings." }
+  - { date: "2026-08-25", summary: "Added a plain-language summary, glossary marks, and typed scenarios." }
 ---
+
+<div class="plain-terms">
+This page explains how the tax law decides whether a rental building counts as residential or
+commercial. It matters for anyone who owns rental real estate, especially a mixed building with both
+apartments and stores. It does not turn on what the building looks like or how it is used day to day.
+The test instead looks at where the rent money comes from: mostly from homes, or mostly from
+businesses. That single test decides how many years it takes to deduct the building's cost, and it
+can even change from one year to the next if the mix of tenants changes. The page also covers how
+renovations to the two types of buildings are treated very differently.
+</div>
 
 Two rental buildings can look identical and be depreciated over periods twelve years apart. The
 classification is not architectural — it is a test on the composition of the rent, applied year by
@@ -48,7 +59,7 @@ class life is at least 27.5 years.
 **Improvements are treated asymmetrically.** {fig:cr.qip} {fig:cr.qip_class} There is no
 residential counterpart. An interior improvement to an apartment building is generally depreciated
 over the building's own 27.5 years, while the same work in an office building is 15-year property
-eligible for bonus depreciation and, within limits, for IRC § 179 expensing.
+eligible for bonus depreciation and, within limits, for the {gloss:section-179-deduction}.
 
 **The interest election has a cost here too.** {fig:cr.electing_rptb} {fig:cr.ads_election}
 
@@ -83,7 +94,7 @@ That usually helps — an owner living in one unit of a small block is contribut
 value to the numerator — but it has to be quantified rather than ignored.
 
 For improvements, identify the building's classification before deciding how to recover the cost. The
-qualified improvement property class in IRC § 168(e)(3)(E)(vii) applies only to an interior
+{gloss:qualified-improvement-property} class in IRC § 168(e)(3)(E)(vii) applies only to an interior
 improvement to a building which *is nonresidential real property*. Work on an apartment building's
 interior is generally an improvement to 27.5-year property, though components that are properly
 IRC § 1245 personal property — appliances, carpeting, removable fixtures — are separable and
@@ -96,7 +107,7 @@ limitation, and it puts every building the business holds onto the alternative d
 a heavily leveraged commercial portfolio the interest relief usually wins; on a lightly leveraged one
 it rarely does.
 
-<div class="scenario">
+<div class="scenario" data-type="timing">
 
 <h3>The building that changed class</h3>
 
@@ -116,7 +127,7 @@ while the building it sits inside is 39-year property.
 
 </div>
 
-<div class="scenario">
+<div class="scenario" data-type="boundary">
 
 <h3>The short-stay block</h3>
 
@@ -135,7 +146,7 @@ units is the difference between two recovery periods.
 
 </div>
 
-<div class="scenario">
+<div class="scenario" data-type="interaction">
 
 <h3>Two identical refurbishments</h3>
 
@@ -193,7 +204,7 @@ The 39-year period for nonresidential real property dates from the Omnibus Budge
 of 1993, which lengthened it from 31.5 years for property placed in service after 12 May 1993. The
 27.5-year residential period has been unchanged since the Tax Reform Act of 1986. A building placed
 in service between 1987 and 1993 may still be running on 31.5 years, which matters when computing
-recapture on a sale.
+{gloss:recapture} on a sale.
 
 Qualified improvement property was the subject of the best-known drafting error in recent tax
 legislation. Pub. L. 115-97 § 13204 consolidated three predecessor categories into one and intended a

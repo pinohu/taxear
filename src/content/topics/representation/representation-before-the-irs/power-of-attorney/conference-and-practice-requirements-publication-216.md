@@ -22,7 +22,19 @@ forms:
 related: ["3.2.1.a", "3.2.1.b", "3.2.1.e", "3.2.1.j"]
 changelog:
   - { date: "2026-08-18", summary: "Initial publication from 26 CFR §§ 601.501–601.509, Subpart E of the Statement of Procedural Rules." }
+  - { date: "2026-08-25", summary: "Added a plain-language summary, typed scenarios, and glossary marks." }
 ---
+
+<div class="plain-terms">
+Publication 216 is the IRS's own reprint of the rules for how tax help actually works
+day to day. It covers who counts as a real helper, what needs a signed form, and how
+meetings with the IRS get set up. It matters mainly to tax practitioners and their
+clients, not to a casual reader, since it is about steps and paperwork rather than how
+much tax anyone owes. It decides whether a person who is just answering IRS questions
+needs a signed form at all. It also decides what happens when two helpers both claim to
+speak for the same client. And it names the few cases where no form is needed at all,
+such as some fiduciaries and the lawyer already on record in Tax Court.
+</div>
 
 Publication 216 is a reprint. What it reprints — **Subpart E of the Statement of Procedural Rules, 26 CFR §§ 601.501 through 601.509** — is the operative law, and where the mechanics of representation live: who counts as a representative, what a power of attorney is needed for, when it is not, how conferences run, and what happens when two representatives claim the same client.
 
@@ -78,22 +90,22 @@ Publication 216 is a reprint. What it reprints — **Subpart E of the Statement 
 
 **The § 601.507 declaration is a real exposure.** A representative signing it certifies both that they prepared the submission and that the facts are true. One who cannot personally vouch for the facts should say so — the consequence is defined: the IRS may require **the taxpayer** to declare instead. That is the answer, not signing anyway.
 
-<div class="scenario">
+<div class="scenario" data-type="fails">
 <h3>Two firms, one client, no representative</h3>
-<p>A taxpayer engages a second enrolled agent while the first still holds an unrevoked power of attorney. Both contact the revenue agent claiming to represent her, each asserting the other's authority has ended.</p>
+<p>A taxpayer engages a second enrolled agent while the first still holds an unrevoked {gloss:power-of-attorney}. Both contact the revenue agent claiming to represent her, each asserting the other's authority has ended.</p>
 <p><em>Analysis.</em> Reg. § 601.508 applies: where recognized representatives dispute who is entitled to represent the taxpayer, the IRS <em>will not recognize any party</em>, and does not adjudicate between them. They can cure it by signing an agreement designating which acts and filing a copy — or the taxpayer can revoke one power under Reg. § 601.505(a).</p>
 </div>
 
-<div class="scenario">
+<div class="scenario" data-type="baseline">
 <h3>Delegation, not substitution</h3>
 <p>A representative appointed under a power permitting delegation brings in a specialist colleague for a valuation issue, intending to stay on the case herself.</p>
 <p><em>Analysis.</em> A <em>delegation</em>, not a substitution. Reg. § 601.501(b)(5): after a delegation, both the original representative and the one to whom authority was delegated are recognized. Had she made a <em>substitution</em> under § 601.501(b)(14), only the colleague would be recognized and she would drop out.</p>
 </div>
 
-<div class="scenario">
+<div class="scenario" data-type="procedural">
 <h3>The facts he cannot vouch for</h3>
 <p>An enrolled agent is asked to submit a substantiation package for a client's travel deductions over a declaration signed under penalty of perjury. The client assembled the log himself and the agent has no independent knowledge that it is accurate.</p>
-<p><em>Analysis.</em> He should decline to declare his own knowledge of the facts. Reg. § 601.507 anticipates this: where a representative is unable or unwilling to declare his own knowledge that the facts are true and correct, the IRS may require the taxpayer to make the declaration. Signing anyway would also engage Circular 230 § 10.22 diligence and § 10.51 exposure.</p>
+<p><em>Analysis.</em> He should decline to declare his own knowledge of the facts. Reg. § 601.507 anticipates this: where a representative is unable or unwilling to declare his own knowledge that the facts are true and correct, the IRS may require the taxpayer to make the declaration. Signing anyway would also engage {gloss:circular-230} § 10.22 diligence and § 10.51 exposure.</p>
 </div>
 
 <div class="callout trap">

@@ -20,7 +20,12 @@ forms: []
 related: ["1.2.2.b", "1.2.2.a", "1.2.2.c", "1.2.2.g", "1.2.2.e", "1.2.2.f", "1.2.4.b"]
 changelog:
   - { date: "2026-08-19", summary: "Initial draft. Sets out the recurring IRC § 4973(a) excise tax and its account-value ceiling, the IRC § 4973(b)(2) absorption mechanism, the IRC § 408(d)(4) timely correction route and the separate IRC § 402(g)(2) deadlines for excess elective deferrals." }
+  - { date: "2026-08-25", summary: "Added a plain-language summary, two typed scenarios (boundary, fails), and glossary marks." }
 ---
+
+<div class="plain-terms">
+This page covers what happens when you put more money into an IRA or a workplace plan than the law allows. It matters to anyone who over-contributed, often by accident, such as someone whose income rose late in the year and made a Roth gift no longer allowed. It does not matter if every contribution you made was within the limit. The rule decides how a small yearly charge keeps hitting the extra amount, year after year, until it is fixed. It also lays out two very different ways to fix it, each with its own deadline. Catch the mistake fast enough, and the fix is easy and nearly free. Wait too long, and the charge has already piled up, though it can still be stopped.
+</div>
 
 The tax on an excess contribution is not a one-off penalty. It is imposed **for each taxable year** the
 excess is still in the account, so a mistake made once and never corrected is charged again every
@@ -102,7 +107,7 @@ distribution dates in § 402(g)(2) are fixed, apply across multiple employers, a
 responsibility rather than the plan's — a taxpayer who changed jobs mid-year and deferred fully at both
 employers is the classic case, and no single plan will notice.
 
-<div class="scenario">
+<div class="scenario" data-type="baseline">
 <h3>Eligible in January, not in December</h3>
 
 Amina contributes the maximum to a Roth IRA in January. A large bonus in November takes her modified
@@ -119,7 +124,7 @@ the account. There is no notice from the custodian and nothing on the return wil
 error compounds quietly until someone looks.
 </div>
 
-<div class="scenario">
+<div class="scenario" data-type="procedural">
 <h3>Absorbing rather than withdrawing</h3>
 
 Bruno discovers a $4,000 excess IRA contribution from three years ago. It is far too late for
@@ -135,7 +140,7 @@ Either way the excise tax for the years already elapsed is owed, and it is his t
 contributing at the full limit, and the arithmetic is worth doing before choosing.
 </div>
 
-<div class="scenario">
+<div class="scenario" data-type="interaction">
 <h3>Two employers, one limit</h3>
 
 Priya changes jobs in July. Each employer's plan lets her defer up to the annual limit, and each does,
@@ -150,6 +155,37 @@ Correction is hers to initiate and runs on fixed dates. She may allocate the exc
 1 March following the close of the year, and each plan may then distribute its allocated share with
 allocable income by 15 April (IRC § 402(g)(2)(A)(i), (ii)). Filing an extension does not move either
 date. Miss them and the amount is taxed now and taxed again when eventually distributed.
+</div>
+
+<div class="scenario" data-type="boundary">
+<h3>Corrected on the extended due date itself</h3>
+
+A taxpayer discovers a $2,000 excess Roth contribution the week her extended return is due, 15
+October. She has the custodian process the withdrawal, along with the attributable earnings, that
+same day. Unlike a {gloss:rollover}, which IRC § 4973(b)(1)(A) excludes from the excess computation
+entirely, this was a straightforward over-contribution — exactly what the section targets.
+
+IRC § 408(d)(4)(A) requires the distribution on or before the due date of the return, including
+extensions — and 15 October is that date this year. A withdrawal processed that day is timely; one
+requested even a single day later falls outside § 408(d)(4) entirely, leaving only the narrower
+§ 408(d)(5) route, which needs no deduction to have been allowed but neither requires attributable
+net income nor undoes the excise tax already accruing. The same six percent charge under IRC
+§ 4973(a) reaches an excess {gloss:health-savings-account} contribution the same way — the list of
+covered accounts in paragraphs (1) through (6) is not limited to IRAs.
+</div>
+
+<div class="scenario" data-type="fails">
+<h3>The correction that missed one condition</h3>
+
+A taxpayer discovers a $3,000 excess IRA contribution before the extended due date and has the
+custodian return exactly $3,000. The contribution had earned $400 while sitting in the account.
+
+The timely correction still fails. IRC § 408(d)(4) requires all three conditions together — timing,
+no deduction claimed, and the distribution of the net income attributable to the contribution.
+Returning only the $3,000 principal leaves the $400 of earnings inside the account, so the
+correction is incomplete on its face, and the § 4973 excise tax may still attach to the earnings
+left behind unless they are removed too. The fix is not simply "get the money out"; it is "get the
+contribution and its earnings out together."
 </div>
 
 <div class="callout trap">

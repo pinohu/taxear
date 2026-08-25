@@ -21,7 +21,18 @@ forms: []
 related: ["1.2.3.c", "1.2.3.b", "1.2.1.c", "1.2.3.a", "1.2.3.h"]
 changelog:
   - { date: "2026-08-19", summary: "Initial draft. Sets out the IRC § 305(a) exclusion and its § 305(b) exceptions, the § 307(a) allocation by fair market value on the distribution date under Treas. Reg. § 1.307-1(a), the § 307(b) 15 percent rule for rights, the § 1223(4) tacked holding period, and the Treas. Reg. § 1.1012-1(c) default to first-in first-out with its settlement-date identification deadline." }
+  - { date: "2026-08-25", summary: "Added a plain-language summary, glossary marks, and typed scenarios." }
 ---
+
+<div class="plain-terms">
+When a company splits its stock or pays a stock dividend, shareholders end up with more shares, but
+nothing new has actually been created. This page explains what happens to your basis, the amount you are
+treated as having paid, when that happens. It affects anyone who owns stock in a company that later
+splits its shares or distributes extra shares instead of cash. Your total basis stays exactly the same;
+it is simply spread across more shares, so each share is worth less on paper. The tricky parts are
+figuring out which date and which values to use for the split, and which shares are treated as sold first
+when you later sell only part of your position.
+</div>
 
 A stock split creates nothing and destroys nothing. Total basis is unchanged; it is divided over more
 shares. What actually causes trouble is everything around that simple fact — whether the distribution was
@@ -120,20 +131,20 @@ intended and not necessarily right for shares acquired before basis reporting be
 filing, and if the client wants specific identification, get the standing instruction in place, because
 the deadline in Reg. § 1.1012-1(c)(8) runs to settlement and not to filing.
 
-<div class="scenario">
+<div class="scenario" data-type="baseline">
 <h3>Scenario 1 — the split that changes nothing</h3>
 
 Rafi bought 200 shares in 2019 for 9,000 dollars. In 2026 the company declares a two-for-one split and he
 receives 200 more shares.
 
-His total basis is still 9,000 dollars, now spread over 400 shares at 22.50 dollars each. Under IRC
-§ 305(a) nothing is included in income, and under § 1223(4) all 400 shares carry a holding period running
-from 2019, so a sale of any of them produces long-term gain. If he sells 150 shares in 2027 without
-identifying a lot, Treas. Reg. § 1.1012-1(c)(1)(i) charges them against the earliest lot — which here is
-the same basis per share either way, one of the few cases where the default costs nothing.
+His total {gloss:basis} is still 9,000 dollars, now spread over 400 shares at 22.50 dollars each. Under
+IRC § 305(a) nothing is included in income, and under § 1223(4) all 400 shares carry a {gloss:holding-period}
+running from 2019, so a sale of any of them produces long-term gain. If he sells 150 shares in 2027
+without identifying a lot, Treas. Reg. § 1.1012-1(c)(1)(i) charges them against the earliest lot — which
+here is the same basis per share either way, one of the few cases where the default costs nothing.
 </div>
 
-<div class="scenario">
+<div class="scenario" data-type="timing">
 <h3>Scenario 2 — the preferred dividend and the two dates</h3>
 
 Sasha holds common stock with a basis of 60,000 dollars. The company declares a preferred stock dividend
@@ -141,15 +152,43 @@ with a record date of 10 March 2026; the preferred is distributed on 2 April 202
 common is worth 180,000 dollars and the preferred 20,000; by 2 April the common is worth 150,000 and the
 preferred 50,000.
 
-The allocation uses **2 April**, the distribution date, because Treas. Reg. § 1.307-1(a) says so expressly.
-Fair market values are 150,000 and 50,000, so three quarters of the 60,000-dollar basis — 45,000 dollars —
-stays with the common and 15,000 dollars attaches to the preferred. Using the record date would have put
-54,000 dollars on the common and 6,000 on the preferred, and every later sale of either block would have
-been wrong.
+The allocation uses **2 April**, the distribution date, because Treas. Reg. § 1.307-1(a) says so
+expressly. {gloss:fair-market-value} figures are 150,000 and 50,000 dollars on that date, so three
+quarters of the 60,000-dollar basis — 45,000 dollars — stays with the common and 15,000 dollars attaches
+to the preferred. Using the record date instead would have put 54,000 dollars on the common and 6,000 on
+the preferred — the same shares, a different date, a different answer, and every later sale of either
+block would have been wrong.
 </div>
 
-<div class="scenario">
-<h3>Scenario 3 — the identification that came too late</h3>
+<div class="scenario" data-type="boundary">
+<h3>Scenario 3 — rights right at the line</h3>
+
+A company distributes stock rights in a § 305(a) transaction. Nadia's rights are worth exactly 15 percent
+of her old stock's value; her sister, holding the same stock in a different account, receives rights
+worth 14.9 percent.
+
+The sister's rights fall below the threshold in IRC § 307(b)(1), so their basis defaults to zero unless
+she elects to allocate under § 307(b)(2). Nadia's rights, at exactly 15 percent, are not "less than" the
+threshold, so § 307(b)(1) does not switch off the general rule at all — her rights get an allocated basis
+under § 307(a) with no election needed. A tenth of a percentage point moves her from an opt-in allocation
+to an automatic one.
+</div>
+
+<div class="scenario" data-type="fails">
+<h3>Scenario 4 — the reinvestment election that stayed taxable</h3>
+
+Oren's dividend reinvestment plan lets him choose, each quarter, between a cash dividend and an equal
+value of additional shares. He chooses shares every quarter this year.
+
+The § 305(a) exclusion does not apply at all. IRC § 305(b)(1) turns off the exclusion wherever the
+distribution is payable in stock or in property at any shareholder's election — and a plan letting Oren
+pick stock or cash is exactly that. The shares he receives are treated as an ordinary § 301 property
+distribution, valued at fair market value and taxable as a dividend, not as a basis-allocation question
+under § 307 at all.
+</div>
+
+<div class="scenario" data-type="procedural">
+<h3>Scenario 5 — the identification that came too late</h3>
 
 Toma has bought the same stock every year since 2016. In November 2026 she calls her broker and sells 500
 shares, saying nothing about which lot. In April 2027 her preparer wants to use the highest-basis lot to

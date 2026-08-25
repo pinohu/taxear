@@ -24,7 +24,18 @@ forms: []
 related: ["2.1.2.a", "2.1.2.b", "2.1.2.e", "2.1.2.d", "2.1.2.f", "2.1.2.j"]
 changelog:
   - { date: "2026-08-21", summary: "Initial draft. Sets out the IRC § 707(a)(1) rule for a partner transacting other than as a partner and the § 707(a)(2) disguised sale and disguised payment rules, the § 707(c) definition of a guaranteed payment and its limitation to IRC §§ 61(a) and 162(a), the Reg. § 1.707-1(c) timing rule tying the partner's inclusion to the partnership year of deduction and the rule that a guaranteed payment is a distributive share of ordinary income for every other purpose, and the § 707(b)(1) disallowance of losses and § 707(b)(2) ordinary income treatment of gains in more-than-50-percent controlled partnership transactions." }
+  - { date: "2026-08-25", summary: "Added a plain-language summary, glossary marks, and typed scenarios." }
 ---
+
+<div class="plain-terms">
+This page is about a partner who also does business with their own partnership, say, by selling
+it property, or by getting paid a set amount to run it. It matters for any partner who also acts
+like a customer, a landlord, a lender, or a worker toward their own business. The tax law treats
+these deals differently depending on how they are set up. A payment that stays the same no matter
+how the business does is treated one way. A share that goes up and down with profit is treated
+another way. This choice changes who reports the income, when they report it, and whether a cost
+can be written off right away or must wait.
+</div>
 
 A partner can deal with their partnership in three different capacities, and the tax consequences turn
 entirely on which one. As a stranger, under IRC § 707(a) — the partnership buys their building, and the
@@ -64,7 +75,7 @@ another.
 
 ## How it works in practice
 
-The defining feature of a guaranteed payment is in five words of IRC § 707(c): *determined without regard
+The defining feature of a {gloss:guaranteed-payment} is in five words of IRC § 707(c): *determined without regard
 to the income of the partnership*. A payment that varies with profits is not a guaranteed payment however
 the agreement labels it; a payment fixed in amount is one however the agreement labels it. A partner
 entitled to the greater of a fixed sum or a stated share of profits has a guaranteed payment equal to the
@@ -72,14 +83,14 @@ fixed sum and a distributive share for anything above it — the two halves are 
 
 The consequence of that is the point clients find surprising: the payment is made whether or not the
 partnership earns anything. A partnership with a loss still owes and still deducts its guaranteed
-payments, which deepens the loss allocated to the other partners. The recipient reports ordinary income
+payments, which deepens the loss allocated to the other partners. The recipient reports {gloss:ordinary-income}
 in a year the partnership had none.
 
 The limitation in IRC § 707(c) is exact and repays reading twice. The payment is treated as made to a
 non-partner *only* for IRC § 61(a) and IRC § 162(a) — that is, only for including it in the recipient's
 gross income and deducting it at the partnership. For every other provision of the Code it is a
 distributive share of ordinary income. That single sentence answers a series of questions that otherwise
-look separate. The partner is not an employee, so no income tax or FICA is withheld. There is no Form W-2.
+look separate. The partner is not an employee, so no income tax or {gloss:fica} is withheld. There is no Form W-2.
 The payment cannot be excluded under provisions available to employees. And it is self-employment income,
 because a partner's distributive share of ordinary income from a trade or business is.
 
@@ -106,7 +117,7 @@ disappearing.
 
 ## Scenarios
 
-<div class="scenario">
+<div class="scenario" data-type="baseline">
 <h3>The payment in a loss year</h3>
 <p>A three-partner design partnership agrees that Marguerite receives $90,000 a year for running the
 studio, fixed and payable regardless of results. In 2026 the partnership has revenues of $410,000 and
@@ -114,12 +125,12 @@ expenses of $470,000 before that payment, and the partners share profits and los
 <p>The payment is made and deducted. Ordinary business income for 2026 is negative $150,000 after the
 guaranteed payment, allocated $50,000 of loss to each of the three partners. Marguerite reports $90,000 of
 ordinary income from the guaranteed payment and a $50,000 loss from her distributive share, subject to her
-outside basis under IRC § 704(d). The other two partners each report a $50,000 loss and nothing else. The
+outside {gloss:basis} under IRC § 704(d). The other two partners each report a $50,000 loss and nothing else. The
 partnership's inability to pay out of profits is irrelevant: IRC § 707(c) turns on the payment being
 determined without regard to income, and a loss year is the clearest case of that.</p>
 </div>
 
-<div class="scenario">
+<div class="scenario" data-type="boundary">
 <h3>The greater of a fixed sum or a share</h3>
 <p>A partnership agrees to pay Nikola "the greater of $60,000 or 15 percent of partnership net profits" for
 his services. In 2026 partnership net profits before the payment are $700,000, so 15 percent would be
@@ -133,7 +144,7 @@ character of the underlying partnership items, while the guaranteed payment is o
 regardless.</p>
 </div>
 
-<div class="scenario">
+<div class="scenario" data-type="interaction">
 <h3>The building sold at a loss</h3>
 <p>Aurelio owns a 60 percent profits interest in a partnership. He sells it a warehouse he has held for
 eleven years, with an adjusted basis of $1,200,000, for its fair market value of $850,000. The partnership
@@ -147,7 +158,7 @@ recognises nothing. The remaining $150,000 of Aurelio's disallowed loss simply d
 shelters gain but does not create a deduction.</p>
 </div>
 
-<div class="scenario">
+<div class="scenario" data-type="fails">
 <h3>The equipment sold at a gain to a dealer partnership</h3>
 <p>Perpetua owns a 70 percent capital interest in a partnership that buys and resells construction plant
 as inventory. She sells it an excavator she has used in a separate business for eight years, with a basis

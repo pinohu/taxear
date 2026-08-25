@@ -21,7 +21,17 @@ forms: []
 related: ["1.1.1.p", "1.2.3.h", "1.1.1.j", "1.3.1.b", "1.4.1.b", "1.4.1.c", "1.5.1.g"]
 changelog:
   - { date: "2026-08-19", summary: "Initial draft. Sets out the IRC § 55(a) and (b)(1) computation with the 2026 rate breakpoint, the § 55(d)(4) exemption as made permanent and modified by Pub. L. 119-21 § 70107 — threshold reset to $1,000,000 and $500,000, re-indexed from 2025, phase-out rate doubled to 50 percent — the § 56(b) individual adjustments and § 57(a) preferences, and the § 53 minimum tax credit with its deferral-item restriction." }
+  - { date: "2026-08-25", summary: "Added a plain-language summary, two typed scenarios (fails, procedural), and a glossary mark." }
 ---
+
+<div class="plain-terms">
+This is a second tax system that runs next to the regular income tax. A taxpayer works out both and
+pays whichever is higher. It mainly hits higher earners, biting hardest once income passes a set line
+where a large tax-free amount starts to shrink away. Most ordinary returns never see it, since the
+tax-free amount is generous below that line. This page decides which regular deductions, like state
+taxes, get added back first. It also decides whether a taxpayer who paid this tax before can get some
+back later, as a credit, once regular tax rises above this one.
+</div>
 
 The alternative minimum tax was made permanent for 2026 in the same breath as it was made harder to
 escape. Pub. L. 119-21 § 70107 struck the sunset from IRC § 55(d)(4), so the large exemption enacted in
@@ -112,7 +122,7 @@ minimum tax — often the year of sale, and sometimes much later. And because st
 exclusion item, a taxpayer in a high-tax state can be pushed into the alternative minimum tax by nothing
 more than paying their property tax bill, with no credit to show for it.
 
-<div class="scenario">
+<div class="scenario" data-type="timing">
 <h3>The narrowed band</h3>
 
 Devesh and Anna file jointly with alternative minimum taxable income of $1,180,000 in 2026.
@@ -124,7 +134,7 @@ exemption, taxed at 28 percent, or about $25,000 of additional tentative minimum
 income. Nothing about their return changed; the statute did.
 </div>
 
-<div class="scenario">
+<div class="scenario" data-type="baseline">
 <h3>Two causes, one tax, one credit</h3>
 
 Priya has alternative minimum tax of $14,000 for the year. Of it, $9,000 is attributable to the spread
@@ -137,7 +147,7 @@ will be taxed under the regular system when she sells — so $9,000 becomes a mi
 forward indefinitely.
 </div>
 
-<div class="scenario">
+<div class="scenario" data-type="boundary">
 <h3>Using the credit, and what is left</h3>
 
 Tomas carries a minimum tax credit of $1,200 into a year in which his regular tax liability is $2,500
@@ -148,6 +158,29 @@ tentative minimum tax — $2,500 less $2,000, or $500. He uses $500 this year. T
 the carryforward, which § 53(b) computes as the adjusted net minimum tax for all prior years over the
 amounts already allowed, with no expiry. In a year when his tentative minimum tax equals or exceeds his
 regular tax, the limitation is zero and none of the credit is usable.
+</div>
+
+<div class="scenario" data-type="fails">
+<h3>All exclusion, no credit</h3>
+
+Marcus has minimum tax of $9,000 for the year, all traced to the {gloss:itemized-deduction} for state
+and local taxes that the regular system allows but this one does not — no incentive stock options, no
+private activity bonds. He expects the usual credit to follow.
+
+None does. Section 53(d)(1)(B) measures the credit against the adjusted net minimum tax, which strips
+out exclusion items entirely. The $9,000 is simply the cost of the year he paid it, with nothing carried
+forward.
+</div>
+
+<div class="scenario" data-type="procedural">
+<h3>Confirming there is nothing to file</h3>
+
+Wei's return shows ordinary wages, the {gloss:standard-deduction}, and nothing unusual — no incentive
+stock options, no private activity bonds.
+
+Her preparer still works through the Form 6251 computation each year before concluding no alternative
+minimum tax is due, because § 55(a) compares two full computations rather than offering a shortcut based
+on how ordinary a return looks. Skipping the worksheet skips the determination itself.
 </div>
 
 <div class="callout trap">

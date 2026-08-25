@@ -22,7 +22,18 @@ forms: []
 related: ["2.1.3.b", "2.1.3.e", "2.1.3.d", "2.1.3.a", "2.1.3.f", "2.1.5.d", "2.1.5.h"]
 changelog:
   - { date: "2026-08-21", summary: "Initial draft. Sets out the IRC § 301(b) measurement of the amount distributed with its reduction for liabilities, the § 301(c) three tiers of dividend, return of capital and gain, the § 301(d) fair market value basis to the recipient, the § 311(a) and (b) asymmetry under which a corporation recognises gain on appreciated property and no loss on depreciated property, the § 305(a) exclusion for stock dividends with the § 305(b) exceptions, the § 1(h)(11) definition of qualified dividend income, and the § 246(c) holding period condition that qualified dividend treatment borrows." }
+  - { date: "2026-08-25", summary: "Added a plain-language summary, glossary marks, and typed the four existing scenarios (baseline, boundary, interaction, timing)." }
 ---
+
+<div class="plain-terms">
+A company can pay out cash or property to the people who own it. This page sorts out what that means
+for taxes. It covers regular payouts to owners, often called dividends. It does not cover pay for work,
+and it does not cover what happens when a company shuts down for good. Four things get worked out here:
+how much did the owner actually get? Does it count as a dividend, or as something else? What is the
+owner's new cost basis in what they got? Does the company itself owe tax for handing the property over?
+The answers can feel odd. A company can owe tax just for giving property away, even as a gift to its own
+owner.
+</div>
 
 Four separate questions have to be answered about any corporate distribution, and each has its own
 provision. How much was distributed — IRC § 301(b). What is it to the shareholder — IRC § 301(c). What
@@ -105,10 +116,10 @@ buys just before the record date and sells shortly after has an ordinary dividen
 
 ## Scenarios
 
-<div class="scenario">
+<div class="scenario" data-type="baseline">
 <h3>The building with a mortgage on it</h3>
 <p>A corporation with $3,000,000 of earnings and profits distributes an office building to its sole
-shareholder. The building is worth $2,400,000, has an adjusted basis of $900,000, and is subject to a
+shareholder. The building is worth $2,400,000, has an adjusted {gloss:basis} of $900,000, and is subject to a
 $1,000,000 mortgage that the shareholder takes subject to.</p>
 <p>Four answers. The amount distributed is $1,400,000 — fair market value less the liability, under
 IRC § 301(b)(2)(B). It is a dividend in full, because earnings and profits exceed it. The shareholder's
@@ -118,7 +129,7 @@ the building to the shareholder at value — which in turn increases its earning
 IRC § 312(b) before the distribution reduces them.</p>
 </div>
 
-<div class="scenario">
+<div class="scenario" data-type="boundary">
 <h3>The loss that disappeared</h3>
 <p>A corporation holds equipment with an adjusted basis of $700,000 and a fair market value of $250,000.
 It distributes the equipment to its shareholder rather than selling it.</p>
@@ -131,19 +142,19 @@ shareholder's position would have been identical. This is one of the few places 
 order of two steps changes the answer by the whole amount.</p>
 </div>
 
-<div class="scenario">
+<div class="scenario" data-type="interaction">
 <h3>The distribution that ran past the pool</h3>
-<p>A corporation has current and accumulated earnings and profits totalling $90,000. It distributes
+<p>A corporation has current and accumulated {gloss:earnings-and-profits} totalling $90,000. It distributes
 $400,000 in cash to its sole shareholder, whose stock basis is $180,000.</p>
 <p>Three tiers under IRC § 301(c). $90,000 is a dividend, included in gross income and eligible for
 qualified dividend treatment if the payer and holding period conditions are met. $180,000 is applied
 against and reduces the stock basis to zero — not income, and not reported as such. The remaining
 $130,000 is treated as gain from the sale or exchange of property under IRC § 301(c)(3)(A). That last
-amount is capital gain by virtue of the deemed sale, which means it depends on how long the stock was
+amount is {gloss:capital-gain} by virtue of the deemed sale, which means it depends on how long the stock was
 held and is not qualified dividend income however low the shareholder's rate on it turns out to be.</p>
 </div>
 
-<div class="scenario">
+<div class="scenario" data-type="timing">
 <h3>The shareholder who bought too late</h3>
 <p>Rosamund buys shares in a domestic corporation twelve days before the ex-dividend date, receives the
 dividend, and sells the shares eighteen days after it. She held the shares for thirty days in total.</p>

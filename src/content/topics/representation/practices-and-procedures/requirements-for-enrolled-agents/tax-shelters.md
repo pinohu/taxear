@@ -21,7 +21,26 @@ forms: []
 related: ["3.1.2.i", "3.1.4.b", "3.1.2.f", "3.1.2.p"]
 changelog:
   - { date: "2026-08-18", summary: "Initial publication from IRC §§ 6662(d)(2)(C), 6111, 6112, 6707 and 6707A." }
+  - { date: "2026-08-25", summary: "Added a plain-language summary, a decision diagram for the material advisor test, glossary marks, and typed scenarios." }
+diagram:
+  archetype: "decision"
+  caption: "Is this person a material advisor on a reportable transaction? Both prongs must be met"
+  tests:
+    - { test: "Provided material aid, assistance, or advice on organizing, managing, promoting, selling, implementing, insuring, or carrying out the transaction?", result: "Yes", outcome: "pass" }
+    - { test: "Gross income from it, direct or indirect, exceeds the threshold amount?", result: "Yes — material advisor; the § 6111 disclosure and § 6112 list duties both apply", outcome: "pass" }
+    - { test: "Either prong fails", result: "Not a material advisor for this transaction, whatever advice was given", outcome: "fail" }
 ---
+
+<div class="plain-terms">
+This page says what counts as a tax shelter, and who must tell the IRS about one. A deal is a tax
+shelter if cutting tax is just one big reason for it. It does not have to be the main reason. It
+does not need any secret or offshore trick. The rule covers anyone who sets up, sells, or gives
+advice on this kind of deal. It mainly hits advisors who earn enough to cross a set pay line. A
+plain taxpayer filing a normal return is not the target here. The rule decides two things. First,
+must an advisor file a report on the deal. Second, must that advisor keep a list of who they
+advised. It also says that once a deal is a shelter, telling the IRS about it does not soften the
+fine for getting it wrong.
+</div>
 
 "Tax shelter" is a defined term with a low threshold, and the definition makes the rest of this topic work. It requires no abuse, secrecy or offshore structure — only that **a significant purpose** of an arrangement be the avoidance or evasion of Federal income tax. Once that is true, disclosure obligations and penalty consequences follow that do not apply to ordinary planning.
 
@@ -69,19 +88,19 @@ Note which threshold applies. The lower figure applies where **substantially all
 
 **Circular 230's connection.** Since the 2014 repeal of the covered opinion rules, Part 10 has no separate tax-shelter opinion regime. What remains is § 10.37(c)(2): where a practitioner knows or has reason to know their written opinion will be used by **someone else** to promote, market or recommend an entity, investment plan or arrangement **a significant purpose of which is tax avoidance or evasion** — the same formula — the reasonable practitioner standard applies **with emphasis on the additional risk** caused by the practitioner's lack of knowledge of the particular taxpayer's circumstances.
 
-<div class="scenario">
+<div class="scenario" data-type="baseline">
 <h3>A real business with a significant tax purpose</h3>
-<p>A partnership acquires an operating equipment-leasing business. The business is genuine, the leases are real, and the partners expect an operating profit. The structure was chosen in preference to two simpler alternatives because it generates accelerated deductions the alternatives would not, and the memoranda circulated at formation give roughly equal weight to the operating case and the tax case.</p>
+<p>A {gloss:partnership-entity} acquires an operating equipment-leasing business. The business is genuine, the leases are real, and the partners expect an operating profit. The structure was chosen in preference to two simpler alternatives because it generates accelerated deductions the alternatives would not, and the memoranda circulated at formation give roughly equal weight to the operating case and the tax case.</p>
 <p><em>Analysis.</em> A tax shelter under IRC § 6662(d)(2)(C)(ii). The definition asks whether <em>a significant purpose</em> is the avoidance of Federal income tax, not whether it is the only or the dominant purpose. Real business substance does not displace the finding where the tax case was a co-equal driver of the structure. The practical consequence is that if an item attributable to the partnership produces a substantial understatement, neither substantial authority nor adequate disclosure with a reasonable basis will reduce the § 6662 penalty.</p>
 </div>
 
-<div class="scenario">
+<div class="scenario" data-type="boundary">
 <h3>Two advisors, one threshold</h3>
-<p>Two enrolled agents advise on the same reportable transaction, whose tax benefits flow substantially all to individual investors. One is paid $61,000 for structuring advice; the other is paid $34,000 for implementation work.</p>
+<p>Two {gloss:enrolled-agent}s advise on the same reportable transaction, whose tax benefits flow substantially all to individual investors. One is paid $61,000 for structuring advice; the other is paid $34,000 for implementation work.</p>
 <p><em>Analysis.</em> Only the first is a material advisor. Both satisfy the conduct prong of IRC § 6111(b)(1)(A)(i) — structuring is "organizing" and implementation work is "implementing" — but § 6111(b)(1)(A)(ii) also requires gross income in excess of the threshold amount, which here is the lower figure because substantially all the tax benefits go to natural persons. The second agent's fee is below it. The first owes the § 6111 return and, independently, the § 6112 list.</p>
 </div>
 
-<div class="scenario">
+<div class="scenario" data-type="interaction">
 <h3>The list nobody filed</h3>
 <p>A material advisor concludes, on advice, that no § 6111 return is due for a particular reportable transaction because of the timing rules, and files none. He also keeps no list of the clients he advised, reasoning that the list requirement follows the return requirement.</p>
 <p><em>Analysis.</em> The second conclusion is wrong regardless of the first. IRC § 6112(a) applies to each material advisor "whether or not required to file a return under section 6111 with respect to such transaction." He must maintain a list identifying each person for whom he acted as a material advisor, make it available to the Secretary on written request, and retain the information for the statutory period.</p>

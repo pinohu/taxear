@@ -20,7 +20,17 @@ forms: []
 related: ["2.1.4.e", "2.1.3.f", "2.1.4.b", "2.1.1.c"]
 changelog:
   - { date: "2026-08-21", summary: "Initial draft. Sets out the IRC § 542(a)(2) stock ownership test that IRC §§ 465(a)(1)(B) and 469(j)(1) both borrow, the § 469(a)(2) list of persons subject to the passive activity rules and the exclusion of widely held C corporations, the § 469(e)(2)(A) concession allowing a closely held C corporation other than a personal service corporation to deduct passive activity losses against net active income, the § 469(j)(2) and § 269A(b) definition of a personal service corporation, and the § 465(a) at-risk limitation." }
+  - { date: "2026-08-25", summary: "Added a plain-language summary, glossary marks, and typed the four existing scenarios (boundary, interaction, fails, baseline)." }
 ---
+
+<div class="plain-terms">
+A company counts as closely held when just a few people own most of its stock. This page explains what
+that label changes for tax purposes. It affects companies taxed on their own, not partnerships, and not
+big firms with many spread-out owners. Being closely held usually brings extra limits on writing off
+certain losses. It also brings one real perk. A closely held company can often use a loss from a side
+deal to offset income from its main work. Almost no one else gets that perk. This page decides which
+companies get the label, and what follows once they do.
+</div>
 
 "Closely held" is not a description in the Code; it is a defined term borrowed from the personal holding
 company rules and used in two places that matter. A C corporation meeting the test is subject to the
@@ -102,7 +112,7 @@ corporation, and a § 535(c)(2)(B) service corporation, with three different con
 
 ## Scenarios
 
-<div class="scenario">
+<div class="scenario" data-type="boundary">
 <h3>Eight shareholders and still closely held</h3>
 <p>A corporation's stock is held by eight unrelated individuals in equal shares throughout the year. Its
 adviser says it cannot be closely held because eight is more than five.</p>
@@ -113,7 +123,7 @@ between them, comfortably more than half. The test is satisfied by the existence
 five, and in any roughly even distribution of eight or fewer holders it will always be satisfied.</p>
 </div>
 
-<div class="scenario">
+<div class="scenario" data-type="interaction">
 <h3>The passive loss the corporation could use</h3>
 <p>Berengar owns all the stock of a closely held C corporation that manufactures components and separately
 holds a rental property generating a $180,000 passive loss. The manufacturing business produces $650,000
@@ -127,11 +137,11 @@ IRC § 469(b) until he has passive income or disposes of the activity. Identical
 answers, on the strength of one subsection.</p>
 </div>
 
-<div class="scenario">
+<div class="scenario" data-type="fails">
 <h3>The practice that lost the concession</h3>
 <p>A veterinary practice operates as a C corporation. Four veterinarians own it equally and perform
 substantially all the services. It buys a minority interest in a commercial property partnership that
-generates a passive loss, expecting to deduct it against practice income as a closely held corporation.</p>
+generates a passive loss, expecting to deduct it against practice income as a {gloss:closely-held-corporation}.</p>
 <p>It cannot. The practice is closely held — four individuals hold 100 percent of the value — but it is
 also a personal service corporation: its principal activity is the performance of personal services,
 substantially performed by employee-owners, within IRC § 269A(b)(1) as applied by IRC § 469(j)(2). And
@@ -140,13 +150,13 @@ corporation". The passive loss is suspended under IRC § 469(a) and (b). The two
 in opposite directions and the second wins.</p>
 </div>
 
-<div class="scenario">
+<div class="scenario" data-type="baseline">
 <h3>The public company that escapes both</h3>
 <p>A listed manufacturer with tens of thousands of shareholders, none holding more than two percent, funds
 a loss-making leasing venture in which it does not materially participate.</p>
 <p>Neither limitation applies. It fails the IRC § 542(a)(2) test — no five individuals own more than half
 the value — so it is not a closely held C corporation, and IRC § 469(a)(2) does not list a widely held C
-corporation among the persons subject to the passive activity rules. Nor is it within the at-risk rules,
+corporation among the persons subject to the {gloss:passive-activity} rules. Nor is it within the {gloss:at-risk-rules},
 since IRC § 465(a)(1)(B) reaches only a C corporation meeting the same § 542(a)(2) test. Its losses are
 subject to the ordinary rules and to nothing else. That a public company is outside two of the principal
 loss limitation regimes is worth stating plainly, because it is not how the sections are usually

@@ -19,7 +19,19 @@ forms: []
 related: ["1.2.2.c", "1.2.2.e", "1.2.2.i", "1.2.2.b", "1.2.2.a", "1.2.2.l"]
 changelog:
   - { date: "2026-08-19", summary: "Initial draft. Sets out the IRC § 402(e)(4)(B) exclusion of net unrealized appreciation on a lump sum distribution of employer securities, the § 402(e)(4)(D) definition of a lump sum distribution and its aggregation rule, the Treas. Reg. § 1.402(a)-1(b) computation and basis consequence, and the long-term character on a later sale. Records that the governing regulation still measures long term as more than six months." }
+  - { date: "2026-08-25", summary: "Added a plain-language summary, glossary marks, and three typed scenarios (boundary, interaction, procedural) alongside the existing three." }
 ---
+
+<div class="plain-terms">
+This page is about a tax break for company stock held inside a work retirement plan, like a
+401(k). It matters for anyone leaving a job or retiring who holds employer stock in that kind of
+plan. It does not apply to stock held outside a retirement plan, or to stock that gets rolled into
+an IRA along with everything else. The break lets you take the stock out as part of one lump sum
+and pay tax right away only on its original cost. The growth in value stays untaxed until you
+actually sell the stock, and then it is taxed at the lower rate for long-term gains, no matter how
+long you personally held it. Rolling the shares into an IRA erases this break for good, so the
+choice has to be made when you take the money out.
+</div>
 
 The treatment turns on a single sentence in IRC § 402(e)(4)(B): on a lump sum distribution that includes
 employer securities, the appreciation in those securities is **excluded from gross income**. What is taxed
@@ -102,7 +114,7 @@ One more feature is easy to overlook: the excluded appreciation is income in res
 the shares get no step-up in basis at death to the extent of it. That is a reason to decide during life,
 not an argument for holding indefinitely.
 
-<div class="scenario">
+<div class="scenario" data-type="baseline">
 <h3>Scenario 1 — the two ways to take the same shares</h3>
 
 Marisol retires at 61. Her 401(k) holds 800,000 dollars, of which employer stock is worth 300,000 dollars
@@ -116,7 +128,7 @@ reported nothing that year and the entire 300,000 dollars, appreciation included
 ordinary income later.
 </div>
 
-<div class="scenario">
+<div class="scenario" data-type="fails">
 <h3>Scenario 2 — the dollar left behind</h3>
 
 Terrence separates from service and directs his employer to distribute the whole of his profit-sharing
@@ -129,7 +141,7 @@ lump sum distribution. The exclusion in § 402(e)(4)(B) does not apply; the full
 shares is ordinary income. The 1,900 dollars decided the treatment of the entire distribution.
 </div>
 
-<div class="scenario">
+<div class="scenario" data-type="timing">
 <h3>Scenario 3 — selling in two pieces</h3>
 
 Yusuf takes a qualifying distribution of employer shares worth 120,000 dollars against a trust cost of
@@ -141,6 +153,49 @@ On the first sale his basis is half the trust cost, 10,000 dollars. Of the 60,00
 and the remaining 10,000 dollars is short-term because that is his actual holding period for the excess
 (Reg. § 1.402(a)-1(b)(1)(i)). On the second sale, everything is long term: both the allocated appreciation
 and the gain above it.
+</div>
+
+<div class="scenario" data-type="boundary">
+<h3>Scenario 4 — the balance split by two days</h3>
+
+A participant separates from service in December. The plan distributes the employer stock in kind on
+December 30, but a processing delay pushes the remaining cash portion of the balance into the following
+January, two calendar days later.
+
+Because the distribution was not paid within one taxable year of the recipient, there is no lump sum
+distribution at all (IRC § 402(e)(4)(D)(i)) — the definition does not tolerate a split across taxable
+years, however short the gap or how well-documented the reason. The {gloss:net-unrealized-appreciation}
+exclusion never engages, and the full fair market value of the stock is ordinary income for the year it
+was actually received. A two-day scheduling delay decided the entire tax result.
+</div>
+
+<div class="scenario" data-type="interaction">
+<h3>Scenario 5 — the shares held until death</h3>
+
+A retiree takes a qualifying lump sum distribution of employer stock and correctly excludes 200,000
+dollars of appreciation. She dies three years later, having never sold the shares.
+
+The excluded appreciation is {gloss:income-in-respect-of-a-decedent}, so it does not receive the usual
+date-of-death step-up. Her heir's {gloss:basis} in the inherited shares is the trust's original cost plus
+any appreciation after the distribution — not the date-of-death value of the whole holding. When the heir
+eventually sells, the 200,000 dollars of excluded appreciation is still taxed as long-term capital gain,
+exactly as it would have been to the decedent; only the appreciation that accrued after the distribution
+gets the ordinary step-up treatment.
+</div>
+
+<div class="scenario" data-type="procedural">
+<h3>Scenario 6 — electing out on the return</h3>
+
+A participant expects a low bracket this year and a much higher one by the time she would otherwise sell
+the shares. Her adviser recommends giving up the exclusion so all of the appreciation is taxed now, while
+rates are low, rather than deferred.
+
+IRC § 402(e)(4)(B)'s second sentence is the only door out: the taxpayer may elect not to have the
+exclusion apply, but the election is made on the return on which the lump sum distribution is required to
+be included in income — there is no separate form and no later window to make it. Her alternative, a full
+{gloss:rollover} of everything including the stock into an IRA, would forfeit the exclusion far more
+completely and permanently than simply electing out; the return-year election is the only way to keep the
+choice deliberate rather than accidental.
 </div>
 
 <div class="callout trap">

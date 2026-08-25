@@ -18,7 +18,25 @@ forms: []
 related: ["1.5.1.h", "1.5.1.m", "1.5.1.n", "1.1.1.e", "1.5.1.a", "1.5.1.f", "1.5.1.o"]
 changelog:
   - { date: "2026-08-19", summary: "Initial draft. Sets out the IRC § 6013(d)(3) joint and several liability the section relieves, the three routes in § 6015(b), (c) and (f) with their separate conditions and deadlines, the § 6015(e) Tax Court jurisdiction, and the § 6015(g)(3) bar on any refund from a § 6015(c) election." }
+  - { date: "2026-08-25", summary: "Added a plain-language summary, a decision diagram of the three routes, glossary marks, and two typed scenarios (comprehension layer)." }
+diagram:
+  archetype: "decision"
+  caption: "The questions that decide which route under § 6015 applies"
+  tests:
+    - { test: "Liability correctly reported on the return, just never paid", result: "Only equitable relief under § 6015(f) is available", outcome: "fail" }
+    - { test: "Divorced, or living apart for the 12 months before electing", result: "Allocation under § 6015(c) is on the table", outcome: "pass" }
+    - { test: "Requesting spouse had actual knowledge of the item", result: "That item is unavailable under (b), and can void a (c) election", outcome: "fail" }
+    - { test: "Need a refund of tax already paid, not just relief going forward", result: "Relief must rest on (b) or (f) — a (c) election never refunds", outcome: "fail" }
 ---
+
+<div class="plain-terms">
+When a married couple files a joint tax return, the law normally makes each spouse responsible for the
+whole tax bill, not just half, even if only one of them earned the money or made the mistake. Innocent
+spouse relief lets one spouse get out from under that bill. There are three different versions of this
+relief, and each one has its own rules for who qualifies, how long you have to ask, and whether you can
+get back money you already paid. It matters most to someone facing an IRS bill from a joint return they
+signed but did not fully understand, or from an ex-spouse's own mistakes.
+</div>
 
 Signing a joint return makes each spouse liable for the whole tax, whoever earned the income and whoever
 made the error (IRC § 6013(d)(3)). Section 6015 is the way out, and it is not one remedy but three, each
@@ -94,7 +112,7 @@ One point of client management: relief under any route requires the Service to n
 and give them an opportunity to participate. A client who has not told their former spouse that they are
 seeking relief should be told that they will find out.
 
-<div class="scenario">
+<div class="scenario" data-type="baseline">
 <h3>Understatement the spouse could not have seen</h3>
 
 Ifeoma and Bright filed jointly for 2023. Bright omitted $70,000 of consulting receipts. The Service
@@ -109,30 +127,56 @@ attributable to the omission. Had she known about part of the omitted receipts b
 § 6015(b)(2) would have relieved her only of the portion she did not know about.
 </div>
 
-<div class="scenario">
+<div class="scenario" data-type="interaction">
 <h3>The right relief, the wrong subsection</h3>
 
 Marta divorced in 2024. A 2022 deficiency of $18,000 was assessed, all of it attributable to her
 ex-husband's unreported income, and Marta paid $11,000 of it from her own funds before seeking advice.
 
-She is squarely within § 6015(c): she is no longer married, and the deficiency allocates almost entirely
-to him. But § 6015(g)(3) allows no credit or refund as a result of a § 6015(c) election, so the $11,000
+She is squarely within {gloss:separation-of-liability}: she is no longer married, and the deficiency
+allocates almost entirely to him. But § 6015(g)(3) allows no credit or refund as a result of a § 6015(c) election, so the $11,000
 already paid stays paid and only the remaining $7,000 is affected. Framing the request under § 6015(b)
 or (f) instead — both of which permit a refund, subject to § 6511 — is what recovers her money. The
 choice of subsection, not the strength of her facts, decides whether she is $11,000 better off.
 </div>
 
-<div class="scenario">
+<div class="scenario" data-type="fails">
 <h3>Reported accurately, never paid</h3>
 
 Chidi and Ada filed a joint 2021 return showing $24,000 due and paid nothing. Ada left the marriage in
 2022 with no assets, and the Service is now collecting from her.
 
 There is no understatement and no deficiency, so § 6015(b) and § 6015(c) are both unavailable on their
-own terms. Her only route is equitable relief under § 6015(f), which reaches an unpaid liability
+own terms. Her only route is {gloss:equitable-relief} under § 6015(f), which reaches an unpaid liability
 provided the request is made before the § 6502 collection period expires. Whether she gets it turns on
 all the facts and circumstances — the Service's published factors include marital status, economic
 hardship, knowledge, legal obligation under a divorce decree, significant benefit and compliance since.
+</div>
+
+<div class="scenario" data-type="timing">
+<h3>Late request after the two-year window closes</h3>
+
+Ifeoma's ex-husband's unreported income was assessed as a deficiency, and the Service began collection
+activity five years ago. Only now, prompted by a new levy notice, does she seek relief.
+
+The two-year clock in § 6015(b)(1)(E) has long since run from the start of collection activity, and the
+same window closes the door on § 6015(c). But subsection (f) applies precisely because (b) and (c) do
+not, and its own deadline is different: a request as to an unpaid amount may be made at any time before
+the § 6502 collection period expires. Whether she succeeds now turns on the equitable factors, not on the
+two-year rule that shut the other doors.
+</div>
+
+<div class="scenario" data-type="procedural">
+<h3>The determination that never comes</h3>
+
+A taxpayer requests relief under § 6015(f) in January. By August — seven months later — the Service has
+issued no determination, and the {gloss:joint-and-several-liability} that attaches to a joint return still
+sits over both spouses in the meantime.
+
+She need not wait indefinitely. IRC § 6015(e)(1)(A)(i)(II) lets her petition the Tax Court once six months
+have passed from the request without a determination. If the Service later issues a formal denial, a
+fresh 90-day clock starts from that notice — but she is not required to wait for it. The delay itself is
+enough to open the courthouse door.
 </div>
 
 <div class="callout trap">

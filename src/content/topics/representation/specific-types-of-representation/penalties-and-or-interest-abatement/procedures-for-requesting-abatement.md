@@ -24,7 +24,27 @@ forms:
 related: ["3.3.2.c", "3.3.2.d", "3.3.2.b", "3.3.2.a"]
 changelog:
   - { date: "2026-08-18", summary: "Initial publication from the Instructions for Form 843 (rev. 12/2024) and IRC §§ 6404, 6511 and 6676." }
+  - { date: "2026-08-25", summary: "Added a plain-language summary, a decision diagram of the Form 843 eligibility gates, typed scenarios, and a glossary mark." }
+diagram:
+  archetype: "decision"
+  caption: "Whether a claim belongs on Form 843, or has to go somewhere else"
+  tests:
+    - { test: "Tax is income, estate, or gift tax", result: "Not eligible — § 6404(b) bars it; use the return itself or Form 1040-X", outcome: "fail" }
+    - { test: "Amending a previously filed return", result: "Not eligible — Form 843 is not an amended return", outcome: "fail" }
+    - { test: "Employer seeking a refund of FICA, RRTA, or withheld income tax", result: "Not eligible — employers use the 94X-X series instead", outcome: "fail" }
+    - { test: "Employee's excess Social Security, Medicare, or RRTA tax, and the employer will not adjust it", result: "Eligible for Form 843", outcome: "pass" }
+    - { test: "A penalty, addition to tax, certain fee, or IRS-caused interest claim under § 6404(e) or (f)", result: "Eligible for Form 843", outcome: "pass" }
 ---
+
+<div class="plain-terms">
+Form 843 is the IRS form for asking for money back, or for a penalty or certain other
+taxes and fees to be removed. It cannot get you an income, estate, or gift tax refund, and
+it does not fix a return you already filed. An amended return does that instead. This
+affects taxpayers, and sometimes their employees, who are owed back a penalty, a fee, or
+certain payroll taxes, plus representatives filing the claim for someone else. It decides
+which form to use, what must be attached to it, and whether one form covers the whole
+claim or a separate form is needed for each year or type of tax.
+</div>
 
 **Form 843** is the vehicle, and knowing what it **cannot** do matters more than what it can. It is not an amended return, not the route to an income tax refund, and not available for an income, estate or gift tax abatement at all. Most exam questions here are exclusion questions.
 
@@ -76,21 +96,21 @@ Note the asymmetry inside the employment tax exclusions. An **employer** cannot 
 
 **Representation requires the Form 2848 attached** — not merely on file. A power of attorney whose line 3 does not cover the penalty or period at issue will not carry the claim.
 
-<div class="scenario">
+<div class="scenario" data-type="procedural">
 <h3>One error, four years</h3>
 <p>An examination covering 2020 through 2023 stalls for fourteen months after the group manager approves a transfer of the case and nobody effects it. Interest accrues in all four years, and the representative prepares four Forms 843.</p>
 <p><em>Analysis.</em> One will do. The instructions provide that only one Form 843 is filed where the interest assessment resulted from the IRS's error or delay in a <em>single</em> managerial or ministerial act affecting a tax assessment for multiple tax years — their own example being two or more years under examination. The applicable boxes go on line 4, the explanation on line 8.</p>
 </div>
 
-<div class="scenario">
+<div class="scenario" data-type="interaction">
 <h3>The employer who will not adjust</h3>
 <p>Social security tax was withheld in error from an employee's pay. The employee asks the employer to correct it; the employer declines. The employee wants the tax back.</p>
 <p><em>Analysis.</em> Form 843 is now available to the employee. The instructions permit an employee's claim for social security, Medicare or RRTA tax withheld in error <em>but only if the employer will not adjust the overcollection</em> — the employer's refusal is a precondition, not an obstacle. Had the employer agreed, the route would not have opened. Note the mirror image: the <em>employer</em> could not use Form 843 for this at all.</p>
 </div>
 
-<div class="scenario">
+<div class="scenario" data-type="fails">
 <h3>The advice the client never asked for in writing</h3>
-<p>A taxpayer telephoned the IRS, was told a distribution was not taxable, and later received a letter from an IRS employee repeating it. An accuracy-related penalty follows, and the representative files a Form 843 under § 6404(f) attaching the letter.</p>
+<p>A taxpayer telephoned the IRS, was told a distribution was not taxable, and later received a letter from an IRS employee repeating it. An {gloss:accuracy-related-penalty} follows, and the representative files a Form 843 under § 6404(f) attaching the letter.</p>
 <p><em>Analysis.</em> Incomplete, and probably fails. IRC § 6404(f)(2)(A) requires the advice to have been <em>in response to a specific written request</em> of the taxpayer, and the instructions require that written request to be attached. A telephone enquiry followed by an unsolicited letter does not satisfy it. The remaining argument is ordinary reasonable cause, made on line 8 with box d checked.</p>
 </div>
 

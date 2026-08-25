@@ -19,7 +19,24 @@ forms: []
 related: ["1.4.1.d", "1.4.1.j", "1.3.2.h", "1.4.1.b", "1.4.1.f", "1.4.1.k"]
 changelog:
   - { date: "2026-08-19", summary: "Initial draft. Sets out the IRC § 6413(c)(1) special refund and its two-employer condition, the § 31(b)(1) treatment of the amount as tax withheld at source, the § 31(b)(2) year rule, the absence of any equivalent for the hospital insurance tax under § 3101(b), and the railroad retirement coordination. 2026 wage base from IRS Topic 751." }
+  - { date: "2026-08-25", summary: "Added a plain-language summary, a decision diagram, two typed scenarios (boundary, procedural), and glossary marks." }
+diagram:
+  archetype: "decision"
+  caption: "Whose problem is the over-withholding — the return, or the employer?"
+  tests:
+    - { test: "Wages received from two or more employers during the year", result: "Excess is a special refund claimed on the return", outcome: "pass" }
+    - { test: "Combined social security wages exceed the year's contribution and benefit base", result: "The excess over the base is the amount recovered", outcome: "pass" }
+    - { test: "Only one employer paid all the wages, even if that employer over-withheld", result: "No credit on the return — the employer must refund it and correct the Form W-2", outcome: "fail" }
 ---
+
+<div class="plain-terms">
+This page covers what happens when someone works two jobs in the same year and both employers withhold
+social security tax without knowing about each other. Each one stops withholding at its own wage cap, so
+together they can take more than the true yearly cap allows. It affects anyone who changed jobs mid-year
+or held two jobs at once. It does not affect someone who worked for a single employer all year, even if
+that one employer made a mistake and withheld too much. What it decides is where the fix happens: a
+refund claimed right on the tax return, or a refund owed back from the employer instead.
+</div>
 
 This is one of the narrowest provisions on an individual return and one of the most reliably tested,
 because the whole of it turns on a single fact. An employee whose combined wages from **two or more**
@@ -88,7 +105,7 @@ One practical point: a taxpayer who changes jobs mid-year almost always has the 
 again at zero against the base, so this arises far more often from a job change than from holding two
 jobs at once.
 
-<div class="scenario">
+<div class="scenario" data-type="baseline">
 <h3>Two employers, one ceiling</h3>
 
 Mireille worked for one employer through July, earning $140,000, and for another from August, earning
@@ -101,7 +118,7 @@ withheld at source. Neither employer did anything wrong and neither owes her any
 correctly on their own wages.
 </div>
 
-<div class="scenario">
+<div class="scenario" data-type="fails">
 <h3>One employer, no credit</h3>
 
 Owen worked for a single company all year, earning $205,000, and its payroll system failed to stop
@@ -113,7 +130,7 @@ The employer must repay him the over-withheld amount and issue a corrected Form 
 return instead would be wrong, and the return would not reconcile against the Form W-2 the IRS holds.
 </div>
 
-<div class="scenario">
+<div class="scenario" data-type="interaction">
 <h3>The Medicare amount that is not part of this</h3>
 
 Sandeep has two employers and combined wages of $260,000. His two Forms W-2 show social security tax of
@@ -124,6 +141,32 @@ Medicare figures are irrelevant to it: § 3101(b)(1) has no wage ceiling, so not
 excessive. Separately, each employer withheld the 0.9 percent additional Medicare tax only on what it
 paid above the withholding threshold, and Sandeep reconciles his actual liability on Form 8959 — which
 on these facts may leave him owing more, not less.
+</div>
+
+<div class="scenario" data-type="boundary">
+<h3>Exactly at the line, and just over it</h3>
+
+Two clients each work for two employers during 2026. The first has combined wages that come to exactly
+the year's contribution and benefit base, and the social security tax withheld across both employers
+works out to exactly 6.2 percent of that base — no more. There is no excess, and nothing to claim on the
+return.
+
+The second has combined wages $500 higher. Section 6413(c)(1) does not care how small the excess is:
+6.2 percent of that $500, or $31, is a special refund like any other, recovered dollar for dollar on the
+return. The mechanism is a line, not a slope — it does not matter by how much the base is crossed, only
+whether it is.
+</div>
+
+<div class="scenario" data-type="procedural">
+<h3>Claiming it after the fact</h3>
+
+A taxpayer with two employers in 2024 never noticed the excess and filed that year's return without it.
+Two years later, reviewing old records, her preparer finds $620 of unclaimed special refund.
+
+Because the amount is treated as tax paid rather than as a deduction, an ordinary {gloss:statute-of-limitations}
+for a {gloss:claim-for-refund} controls whether it can still be recovered: an {gloss:amended-return}
+filed within that window gets it back. Filed after the window closes, the money is simply gone — the
+refund was always there to claim, but only a timely return claims it.
 </div>
 
 <div class="callout trap">

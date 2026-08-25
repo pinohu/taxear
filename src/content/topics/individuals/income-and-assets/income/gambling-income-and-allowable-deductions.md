@@ -23,7 +23,25 @@ forms: []
 related: ["1.2.1.d", "1.2.1.a", "1.1.1.f", "1.2.1.h", "1.2.1.f"]
 changelog:
   - { date: "2026-08-19", summary: "Initial draft. Records the rewrite of IRC § 165(d) by Pub. L. 119-21 § 70114 capping the wagering loss deduction at 90 percent of losses from 2026, and the replacement of the fixed Form W-2G reporting thresholds with the single indexed IRC § 6041(a) figure." }
+  - { date: "2026-08-25", summary: "Added a plain-language summary, a decision diagram of the itemizing and two-ceiling tests, glossary marks, and two typed scenarios (boundary, fails) alongside the existing three." }
+diagram:
+  archetype: "decision"
+  caption: "What the wagering-loss deduction actually comes to"
+  tests:
+    - { test: "Taxpayer itemizes deductions?", result: "No — no gambling-loss deduction at all, however large the losses", outcome: "fail" }
+    - { test: "90% of this year's wagering losses", result: "One ceiling on the deduction", outcome: "pass" }
+    - { test: "This year's wagering gains", result: "The other ceiling — the deduction is whichever is lower", outcome: "pass" }
 ---
+
+<div class="plain-terms">
+Money you win by gambling is always taxable, even if the casino never sends you a tax form.
+Starting in 2026, the write-off for gambling losses is capped. You can only deduct 90% of
+your losses, and never more than what you actually won. That means a gambler who wins and loses
+the exact same amount can still owe tax, even though last year that would have netted to zero.
+This affects anyone who gambles for fun or for a living, especially people who play often or bet
+large amounts. It decides how much of a year's winnings stays taxable after losses are subtracted,
+and whether any of the loss can be deducted at all.
+</div>
 
 Two things changed for 2026, and together they make this the most altered topic in the individual
 income chapter. The deduction for wagering losses is now capped at a **percentage** of those losses as
@@ -106,7 +124,7 @@ and losses, backed by receipts, tickets or statements (Topic no. 419). Sessions 
 wagers are the workable unit for a recreational player, and casino player-card statements are a
 starting point rather than a substitute — they capture carded play only.
 
-<div class="scenario">
+<div class="scenario" data-type="baseline">
 <h3>Breaking even is no longer breaking even</h3>
 
 Marisol won $60,000 and lost $60,000 over the year at sports books, and itemizes. In 2025 she would
@@ -121,7 +139,7 @@ scales with volume rather than with success, so a high-turnover break-even betto
 occasional winner — which is the opposite of what a client expects a tax change to do.
 </div>
 
-<div class="scenario">
+<div class="scenario" data-type="procedural">
 <h3>The win that no longer generates a form</h3>
 
 Deshawn hit $1,400 on a slot machine in March and $900 at a poker table in July. He receives no Form
@@ -137,7 +155,7 @@ between what the Service is told and what the taxpayer owes, which raises the va
 records rather than lowering it.
 </div>
 
-<div class="scenario">
+<div class="scenario" data-type="interaction">
 <h3>The professional whose expenses moved inside the cap</h3>
 
 Ilya plays poker professionally, treating it as a trade or business. He has $210,000 of winnings,
@@ -152,6 +170,33 @@ $185,400 and he has $24,600 of net income.
 Two points he will not expect. His expenses no longer sit outside the wagering limitation as they did
 before 2018, and the rule that put them inside it — once due to expire at the end of 2025 — was made
 permanent by the same amendment that added the percentage cap.
+</div>
+
+<div class="scenario" data-type="boundary">
+<h3>The exact point where the caps swap places</h3>
+
+A bettor has $45,000 of wagering gains for the year. His losses are $50,000 — exactly ten-ninths
+of his gains.
+
+The two ceilings meet exactly here. Ninety percent of $50,000 is $45,000 under IRC
+§ 165(d)(1)(A), which is precisely equal to the $45,000 gains limit under § 165(d)(1)(B). Below
+this ratio of losses to gains, the gains limit controls and the taxpayer loses nothing to the
+percentage cap; above it, the percentage cap bites and taxable gambling income appears even though
+losses exceed gains. A dollar more in losses at this exact point starts producing taxable
+{gloss:ordinary-income} out of an activity that lost money overall.
+</div>
+
+<div class="scenario" data-type="fails">
+<h3>No itemizing, no deduction, no exception</h3>
+
+A taxpayer takes the standard deduction every year. She wins $22,000 gambling online and loses
+$19,000 over the same year, all well documented in a diary.
+
+None of the losses reduce her taxable income. Gambling losses are an {gloss:itemized-deduction},
+and Topic no. 419 confirms they are available only to a taxpayer who itemizes — the § 165(d)
+computation never even gets reached. She reports the full $22,000 as income under IRC § 61(a) with
+no offset, regardless of how thorough her records are. Good documentation protects a deduction
+that is available; it does not create one that isn't.
 </div>
 
 <div class="callout trap">

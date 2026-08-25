@@ -27,7 +27,18 @@ forms: []
 related: ["2.1.5.e", "2.1.5.c", "2.1.2.j", "2.1.5.d", "2.1.5.f", "2.2.1.d"]
 changelog:
   - { date: "2026-08-21", summary: "Initial draft. Sets out IRC § 108(d)(7)(A), under which the exclusions and attribute reductions are applied at the corporate level and an excluded amount is not taken into account under IRC § 1366(a), the IRC § 108(d)(7)(B) rule treating a loss suspended under IRC § 1366(d)(1) as a net operating loss for attribute reduction, and IRC § 108(d)(7)(C) on debt basis for the purposes of IRC § 108(e)(6). Records that the words closing IRC § 108(d)(7)(A) were added by Pub. L. 107-147 § 402(a) to reverse Gitlitz v. Commissioner." }
+  - { date: "2026-08-25", summary: "Added a plain-language summary, glossary marks, and two typed scenarios (boundary, procedural) so all five scenarios carry distinct types." }
 ---
+
+<div class="plain-terms">
+This page is about what happens when a lender forgives part of a debt owed by an S corporation.
+Forgiven debt normally counts as income. But a corporation that cannot pay its bills may get to
+leave some or all of it out of its taxable income. That test looks at the corporation's own
+finances, not any one owner's bank account. It matters for S corporations in real money trouble,
+not for healthy ones with no forgiven debt. This page decides where the tax break comes from and
+what it costs. Leaving the debt out of income does not raise an owner's stake in the company. It
+can also wipe out losses an owner was saving up to deduct later.
+</div>
 
 The general rules of IRC § 108 apply to an S corporation, but three special rules in
 IRC § 108(d)(7) change where they operate and what they consume. All three exist because a
@@ -116,14 +127,14 @@ full. And {fig:scod.debt_basis_ignored} (IRC § 108(d)(7)(C)), so the reductions
 losses made to the shareholder's debt basis are ignored for this purpose. Without that rule the
 shareholder's own suspended losses would manufacture discharge income for the corporation.
 
-<div class="scenario">
+<div class="scenario" data-type="baseline">
 <h3>The exclusion that bought nothing</h3>
 
 Vane Fabrication Inc. is insolvent by $400,000. A lender forgives $250,000 of its debt. The sole
 shareholder has zero stock basis, zero debt basis, and $310,000 of losses suspended under
 IRC § 1366(d)(1).
 
-The $250,000 is excluded under IRC § 108(a)(1)(B), capped at the $400,000 of insolvency, and
+The $250,000 is excluded under IRC § 108(a)(1)(B), capped at the $400,000 of {gloss:insolvency}, and
 tested at the corporation under IRC § 108(d)(7)(A). Because it is excluded, it is not taken into
 account under IRC § 1366(a): it does not appear on the Schedule K-1, and stock basis stays at
 zero.
@@ -138,14 +149,14 @@ $250,000 would have freed $250,000 of suspended losses instead of destroying the
 forgiveness would have produced a deduction out of nothing.
 </div>
 
-<div class="scenario">
+<div class="scenario" data-type="fails">
 <h3>The solvent corporation with no exclusion</h3>
 
 Ferrers Joinery Inc. is solvent throughout and not in bankruptcy. A supplier writes off $80,000
 it is owed. The corporation's two equal shareholders each have stock basis of $15,000 and
 suspended losses of $50,000.
 
-No exclusion in IRC § 108(a)(1) applies. The $80,000 is ordinary discharge of indebtedness income
+No exclusion in IRC § 108(a)(1) applies. The $80,000 is ordinary {gloss:cancellation-of-debt-income}
 of the corporation and passes through under IRC § 1366(a)(1)(B). Each shareholder takes $40,000,
 and each increases stock basis by $40,000 under IRC § 1367(a)(1)(B), to $55,000.
 
@@ -158,7 +169,7 @@ corporation that could not, because the exclusion is bought with attributes and 
 for with basis. That inversion is a real feature of the regime, not an artefact of the facts.
 </div>
 
-<div class="scenario">
+<div class="scenario" data-type="interaction">
 <h3>The shareholder who forgave her own loan</h3>
 
 Threlkeld Marine Inc. owes its sole shareholder $200,000 on a written note. Earlier losses reduced
@@ -174,6 +185,39 @@ $200,000 on a $200,000 debt, and there is no discharge income at all.
 
 Without IRC § 108(d)(7)(C) the corporation would have $155,000 of discharge income created purely
 by her own inability to deduct losses — the same amount, taxed twice over in substance.
+</div>
+
+<div class="scenario" data-type="boundary">
+<h3>Right at the insolvency line</h3>
+
+Bellwether Cabinetry Inc. has assets of $310,000 and liabilities of $485,000 immediately before a
+lender forgives $175,000 of a note — exactly the corporation's shortfall. The sole shareholder has
+$60,000 of suspended losses.
+
+The full $175,000 is excluded under IRC § 108(a)(1)(B): {fig:scod.insolvency_cap} measures
+insolvency immediately before the discharge, and here the discharge equals the shortfall exactly,
+so nothing spills over into ordinary income. Had the lender forgiven $176,000 instead, only
+$175,000 would be excluded and the remaining $1,000 would be ordinary discharge income, passing
+through and increasing stock basis under IRC § 1367(a)(1)(B) even though the other $175,000 does
+not. On these facts the attribute reduction under IRC § 108(d)(7)(B) extinguishes the
+shareholder's $60,000 of suspended losses first, and the balance of the $175,000 continues down
+the IRC § 108(b)(2) list to whatever other attributes the corporation has.
+</div>
+
+<div class="scenario" data-type="procedural">
+<h3>Filing the basis-first election</h3>
+
+An insolvent {gloss:s-corporation} excludes $90,000 of discharge income and wants the attribute
+reduction to hit the basis of its depreciable equipment before anything else, rather than working
+down the standard IRC § 108(b)(2) order.
+
+The corporation makes the IRC § 108(b)(5) election on its own Form 1120-S for the year of the
+discharge — not through a shareholder vote and not on any shareholder's individual return.
+IRC § 1363(c)(1) treats this as an election affecting the computation of items derived from the
+corporation, and the only two exceptions in IRC § 1363(c)(2) are the mining exploration election
+and the foreign tax credit election; the depreciable-property election is not one of them. A
+shareholder who prefers a different ordering has no separate say, and no separate form to file —
+the corporation's return is the only place this choice is made.
 </div>
 
 <div class="callout trap">

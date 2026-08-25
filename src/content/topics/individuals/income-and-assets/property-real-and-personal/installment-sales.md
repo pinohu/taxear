@@ -20,7 +20,18 @@ forms: []
 related: ["1.2.3.a", "1.2.3.b", "1.2.3.c", "1.2.3.f", "1.2.3.e", "1.2.3.i"]
 changelog:
   - { date: "2026-08-19", summary: "Initial draft. Sets out the IRC § 453(a) default and § 453(d) election out, the § 453(c) gross profit ratio, the § 453(b)(2) and § 453(l) exclusions for dealers and inventory, the § 453(i) rule pulling recapture income into the year of disposition, the § 453(e) related-party second disposition rule with its two-year cutoff, § 453(g) and § 1239 on sales to related persons of depreciable property, and the § 453A interest and pledging rules and § 453B disposition of the obligation." }
+  - { date: "2026-08-25", summary: "Added a plain-language summary, glossary marks, and typed scenarios." }
 ---
+
+<div class="plain-terms">
+An installment sale is a sale where the buyer pays over more than one year instead of all at once.
+Instead of taxing the whole gain right away, the law spreads it out and taxes part of the gain as each
+payment arrives. This affects anyone who sells property, such as land, a business, or equipment, and
+lets the buyer pay over time. It usually does not help a dealer who regularly sells that kind of property
+on credit. Two things break the normal spread-it-out rule. Past depreciation gets taxed right away. And
+selling to a relative who quickly resells the property can pull all the leftover gain into one single
+year. This page walks through how the spread-out method works, and when it does not apply.
+</div>
 
 Three features of this regime surprise people. It is not elected **into** — it applies automatically and
 must be elected out of. Depreciation recapture never gets the benefit of it: recapture income is taxed in
@@ -126,43 +137,71 @@ Consider electing out where the gain is small, where the seller has expiring cap
 rates are expected to rise. The election is made by reporting the full gain on a timely return, and it is
 revocable only with consent.
 
-<div class="scenario">
+<div class="scenario" data-type="baseline">
 <h3>Scenario 1 — the down payment that did not cover the tax</h3>
 
 Amaya sells business equipment for 400,000 dollars, taking 40,000 dollars down and the balance over six
 years. Her adjusted basis is 60,000 dollars and she has taken 240,000 dollars of depreciation.
 
-IRC § 453(i)(2) measures recapture income as what § 1245 would produce if all payments were received now:
-340,000 dollars of gain, of which 240,000 is ordinary § 1245 recapture. Section 453(i)(1)(A) recognises
-that 240,000 dollars **in the year of sale**, against a 40,000-dollar down payment. Only the remaining
-100,000 dollars of gain goes on the installment method. Her year-one tax substantially exceeds her
-year-one cash.
+IRC § 453(i)(2) measures {gloss:recapture} income as what § 1245 would produce if all payments were
+received now: 340,000 dollars of gain, of which 240,000 is ordinary § 1245 recapture. Section
+§ 453(i)(1)(A) recognises that 240,000 dollars **in the year of sale**, against a 40,000-dollar down
+payment. Only the remaining 100,000 dollars of gain goes on the {gloss:installment-sale} method. Her
+year-one tax substantially exceeds her year-one cash — this is the regime working exactly as designed,
+not a surprise exception.
 </div>
 
-<div class="scenario">
+<div class="scenario" data-type="interaction">
 <h3>Scenario 2 — the relative who flipped it</h3>
 
-Bao sells land to his daughter in March 2026 for 500,000 dollars, payable over ten years, on a
-200,000-dollar basis. In August 2027 she sells it to an unrelated buyer for 560,000 dollars. Bao has
-received two annual instalments totalling 90,000 dollars.
+Bao sells land to his daughter, a {gloss:related-party}, in March 2026 for 500,000 dollars, payable over
+ten years, on a 200,000-dollar basis. In August 2027 she sells it to an unrelated buyer for 560,000
+dollars. Bao has received two annual instalments totalling 90,000 dollars.
 
 IRC § 453(e)(1) treats the 560,000 dollars realised on the second disposition as received by Bao at the
 time of that disposition, and the second sale is within the two years allowed by § 453(e)(2)(A). His
 remaining deferred gain accelerates into 2027 — not 2026, and not spread over the remaining eight years.
-He has received 90,000 dollars in cash and reports gain as though he had been paid in full.
+He has received 90,000 dollars in cash and reports gain as though he had been paid in full, because his
+daughter's own separate sale reaches back into his return.
 </div>
 
-<div class="scenario">
-<h3>Scenario 3 — the sale to a controlled company</h3>
+<div class="scenario" data-type="boundary">
+<h3>Scenario 3 — a day on either side of two years</h3>
+
+Two sellers each finance a sale to a relative on identical terms. The first relative resells exactly 730
+days after the original sale. The second relative resells 731 days after.
+
+IRC § 453(e)(2)(A) applies the acceleration rule only where the second disposition is "not more than 2
+years after" the first. The 730-day resale falls inside that window, so § 453(e)(1) pulls the seller's
+entire remaining gain into the year of the second sale. The 731-day resale is one day outside it, and —
+for property other than a marketable security — the acceleration rule simply does not reach it at all.
+One day changes whether years of remaining deferral survive or collapse into a single year.
+</div>
+
+<div class="scenario" data-type="fails">
+<h3>Scenario 4 — the sale to a controlled company</h3>
 
 Carys sells a warehouse she owns personally to a corporation she controls, for 800,000 dollars payable
 over five years. The warehouse is depreciable in the corporation's hands.
 
-Two provisions bite independently. IRC § 453(g)(1) disapplies the installment method and treats all
-payments to be received as received in the year of disposition, so there is no deferral. And § 1239(a)
-makes the entire recognised gain **ordinary income**, because the property is of a character subject to
-depreciation in the transferee's hands. She reports the full gain, as ordinary income, in year one, having
-received one fifth of the price.
+Neither of the benefits she was counting on survives. IRC § 453(g)(1) disapplies the installment method
+entirely and treats all payments to be received as received in the year of disposition, so there is no
+deferral at all. And § 1239(a) makes the entire recognised gain **ordinary income**, because the property
+is of a character subject to depreciation in the transferee's hands. She reports the full gain, as
+ordinary income, in year one, having received one fifth of the price — both the spread-out timing and the
+capital gain rate she expected are gone.
+</div>
+
+<div class="scenario" data-type="procedural">
+<h3>Scenario 5 — electing out on a timely return</h3>
+
+Farah sells a rental property for a modest gain and has a large capital loss carryover about to expire.
+Spreading the small gain over several years would waste the carryover instead of using it now.
+
+She elects out of the installment method under IRC § 453(d)(1). No separate form makes the election —
+she simply reports the full gain in the year of sale on a **timely filed** return, which the carryover
+loss then offsets in full. Once made on a timely return, the election can be revoked only with the IRS's
+consent, so it is worth confirming the numbers before filing rather than after.
 </div>
 
 <div class="callout trap">

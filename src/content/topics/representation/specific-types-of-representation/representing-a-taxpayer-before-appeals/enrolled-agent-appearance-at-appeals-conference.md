@@ -19,7 +19,18 @@ forms: ["2848"]
 related: ["3.3.4.a", "3.3.4.b", "3.3.4.d"]
 changelog:
   - { date: "2026-08-19", summary: "Initial draft." }
+  - { date: "2026-08-25", summary: "Added a plain-language summary, typed scenarios, and glossary marks." }
 ---
+
+<div class="plain-terms">
+An enrolled agent can stand in for a taxpayer at an IRS Appeals meeting, the same as a
+lawyer or accountant can. No extra license is needed for this step. Appeals is where a
+taxpayer goes to settle a fight with the IRS without going to court. The meeting is
+informal. No one is put under oath. This affects anyone appealing an IRS decision, and the
+person representing them. It decides how ready the taxpayer must be, when to share new
+proof, and whether a second meeting is open if an earlier one was already offered or
+already used.
+</div>
 
 ## The rule
 
@@ -104,7 +115,7 @@ appear there only by being admitted to the Tax Court bar, which for a non-attorn
 the Court's own examination. Where a case may be petitioned, that boundary should be discussed with
 the client before the 90 days start running, not after.
 
-<div class="scenario">
+<div class="scenario" data-type="procedural">
 <h3>The receipts produced at the conference</h3>
 
 Sunniva Delacroix-Oyelowo's examination closed unagreed on substantiation. During the audit her
@@ -114,28 +125,28 @@ Her representative plans to hand it across the table.
 Rule VI makes that risky. Evidence submitted to Appeals for the first time in a non-docketed case
 may be transmitted back to the examining function for consideration and comment, and a taxpayer who
 withheld evidence is subject to having the case returned. The representative instead sends the
-documents to Appeals a fortnight before the conference with a short cover letter stating when the
+documents to {gloss:appeals} a fortnight before the conference with a short cover letter stating when the
 box was found and why it was not available earlier, and offering the officer the choice of a short
 postponement. Appeals keeps the case. The outcome turned on the framing — newly discovered evidence
 disclosed promptly, rather than a surprise produced across a table.
 </div>
 
-<div class="scenario">
+<div class="scenario" data-type="timing">
 <h3>The conference that was offered and declined</h3>
 
 Casimir Bergland receives a thirty-day letter, files a protest, and is offered an Appeals conference.
-He is travelling and lets it pass, assuming there will be another chance once the notice of
-deficiency arrives.
+He is travelling and lets it pass, assuming there will be another chance once the {gloss:notice-of-deficiency}
+arrives.
 
 There will not be, in the ordinary case. Rule VII provides that where the taxpayer has had the
 benefit of an Appeals conference in the pre-statutory notice status — **or where the opportunity was
 accorded but not availed of** — no conference will be granted in the 90-day status absent unusual
-circumstances. Bergland's remaining route is a Tax Court petition, after which Appeals may take the
+circumstances. Bergland's remaining route is a {gloss:tax-court} petition, after which Appeals may take the
 docketed case for settlement. The chance he declined was not merely the first opportunity; it was,
 in practice, the administrative one.
 </div>
 
-<div class="scenario">
+<div class="scenario" data-type="boundary">
 <h3>The reviewer who said no</h3>
 
 An Appeals officer tells Ingrid Napoletano's representative that he will recommend acceptance of

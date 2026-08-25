@@ -22,7 +22,18 @@ forms: []
 related: ["2.1.4.f", "2.1.3.f", "2.1.3.g", "2.1.1.c"]
 changelog:
   - { date: "2026-08-21", summary: "Initial draft. Sets out the IRC § 1563(a)(1) parent-subsidiary test at 80 percent of voting power or value, the § 1563(a)(2) brother-sister test at more than 50 percent held identically by five or fewer individuals, estates or trusts, the § 1563(a)(3) and (4) combined group and insurance company rules, the § 1563(b)(1) fixing of component membership on a 31 December with the § 1563(b)(2) excluded members including a foreign corporation subject to IRC § 881, and the § 1561(a) sharing of a single accumulated earnings credit among the component members." }
+  - { date: "2026-08-25", summary: "Added a plain-language summary, glossary marks, and typed the four existing scenarios (interaction, boundary, fails, procedural)." }
 ---
+
+<div class="plain-terms">
+A controlled group is a set of companies the tax law treats as one. That happens when the same small
+group of people, or one company, controls all of them. This page explains how that link gets decided,
+and why it matters. It affects companies under common ownership. It does not affect firms that just work
+in the same field, or that do business with each other. Being linked this way does not change how any
+one company files its own return. Instead, the linked companies must share certain caps and dollar
+limits, rather than each getting a full one on its own. This page decides who counts as part of the
+group, and on what single day that gets checked.
+</div>
 
 Controlled group status is a definition that does no work by itself: nothing follows from being in a
 group until another provision says it does. What makes it worth knowing is how many provisions do —
@@ -103,7 +114,7 @@ estimated tax safe harbour for all of them.
 
 ## Scenarios
 
-<div class="scenario">
+<div class="scenario" data-type="interaction">
 <h3>Voting power without value</h3>
 <p>A parent holds 100 percent of a subsidiary's voting common stock, which represents 30 percent of the
 subsidiary's total value. The remaining 70 percent of value is non-voting preferred held by outside
@@ -111,25 +122,25 @@ investors.</p>
 <p>There is a controlled group and there is no affiliated group. IRC § 1563(a)(1)(B) requires stock
 possessing at least 80 percent of the total combined voting power of all voting classes <em>or</em> at
 least 80 percent of the total value, and the voting limb is satisfied at 100 percent. IRC § 1504(a)(2),
-which governs consolidated returns and the qualifying dividend for the 100 percent dividends received
-deduction, requires both — so it fails on value. The parent and subsidiary share one accumulated earnings
+which governs consolidated returns and the qualifying dividend for the 100 percent {gloss:dividends-received-deduction},
+requires both — so it fails on value. The parent and subsidiary share one accumulated earnings
 credit under IRC § 1561(a) and are aggregated for the estimated tax large corporation test, but cannot
 file a consolidated return.</p>
 </div>
 
-<div class="scenario">
+<div class="scenario" data-type="boundary">
 <h3>The identical ownership grid</h3>
 <p>Three individuals own two corporations. In Corporation X: Aurel 70 percent, Bernadette 20 percent,
 Clemens 10 percent. In Corporation Y: Aurel 25 percent, Bernadette 60 percent, Clemens 15 percent.</p>
 <p>Take the lower figure for each person: Aurel 25, Bernadette 20, Clemens 10 — an identical-ownership
 total of 55 percent. That exceeds fifty percent, so IRC § 1563(a)(2) is satisfied and X and Y are a
-brother-sister controlled group, provided the same five-or-fewer persons also own more than fifty percent
+brother-sister {gloss:controlled-group}, provided the same five-or-fewer persons also own more than fifty percent
 of each corporation on the ordinary reading, which they do at 100 percent each. Had Clemens held nothing
 in Y, the identical total would have been 45 percent and there would be no group — a change in one
 minority holding, in one company, deciding the status of both.</p>
 </div>
 
-<div class="scenario">
+<div class="scenario" data-type="fails">
 <h3>The subsidiaries that did not all count</h3>
 <p>Corporation A holds voting interests as follows: Corporation B, 90 percent; Corporation C, 85 percent;
 Corporation D, 75 percent; and Corporation E, 90 percent, E being a foreign corporation subject to tax
@@ -142,7 +153,7 @@ IRC § 1561 purposes is A, B and C, and the single accumulated earnings credit i
 three.</p>
 </div>
 
-<div class="scenario">
+<div class="scenario" data-type="procedural">
 <h3>Three small companies and one estimated tax problem</h3>
 <p>An individual owns three corporations outright, each with taxable income of about $420,000 a year. Each
 has always based its estimated tax instalments on the prior year's tax.</p>

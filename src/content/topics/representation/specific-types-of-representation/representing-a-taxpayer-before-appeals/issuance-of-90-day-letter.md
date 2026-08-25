@@ -21,7 +21,27 @@ forms: []
 related: ["3.3.4.a", "3.3.4.b", "3.3.3.f", "3.3.4.d"]
 changelog:
   - { date: "2026-08-19", summary: "Initial draft." }
+  - { date: "2026-08-25", summary: "Added a plain-language summary, a timeline diagram of the petition window, glossary marks, and typed scenarios." }
+diagram:
+  archetype: "timeline"
+  caption: "The window to petition the Tax Court after a notice of deficiency"
+  events:
+    - { when: "Day 0", what: "Notice of deficiency mailed to the taxpayer" }
+    - { when: "Day 90 (day 150 if addressed outside the United States)", what: "Last day to file a Tax Court petition" }
+    - { when: "While the period runs, and until any petition is decided", what: "No assessment, levy, or court collection proceeding may occur" }
+    - { when: "After the deadline, with no petition filed", what: "The deficiency may be assessed and collected" }
 ---
+
+<div class="plain-terms">
+A 90-day letter is the IRS's formal notice that it believes you owe more tax than you
+reported. It is also called a notice of deficiency. Getting one starts a short countdown:
+you have 90 days to ask the Tax Court to look at your case before you pay anything. This
+matters to anyone who went through an audit and disagrees with the result. It does not
+apply to an ordinary bill for tax you reported yourself, or to a notice fixing a simple
+math mistake. Once the letter is mailed, the countdown runs no matter what else happens,
+even friendly talks with the IRS. Missing the deadline gives up your chance to fight the
+bill before paying it.
+</div>
 
 ## The rule
 
@@ -107,10 +127,10 @@ running of the assessment period under IRC § 6503(a) — which is why notices a
 against a closing statute rather than at the natural end of an examination, and why a client may
 receive one abruptly after months of quiet.
 
-<div class="scenario">
+<div class="scenario" data-type="boundary">
 <h3>Ninety days spent negotiating</h3>
 
-Aurelio Sandström receives a notice of deficiency and immediately opens a productive conversation
+Aurelio Sandström receives a {gloss:notice-of-deficiency} and immediately opens a productive conversation
 with an Appeals officer who has the file. Documents go back and forth; the officer is
 constructive. On day 96 the officer says the case cannot be settled after all.
 
@@ -121,7 +141,7 @@ The error was treating a cooperative negotiation as a reason to let a jurisdicti
 IRS employee has authority to extend it, and none purported to; Sandström simply assumed.
 </div>
 
-<div class="scenario">
+<div class="scenario" data-type="procedural">
 <h3>The notice that went to an old address</h3>
 
 Ndidi Falkenrath moved two years ago. She filed returns from the new address but the notice was
@@ -136,14 +156,14 @@ certified mail record and the account transcript, and to establish what address 
 and when. This is one of the few situations where a late-discovered notice is not the end.
 </div>
 
-<div class="scenario">
+<div class="scenario" data-type="baseline">
 <h3>Choosing the small case procedure</h3>
 
 Ptolemy Achterberg has a deficiency of about 28,000 dollars for one year, arising from
 substantiation of business expenses. He has records but no lawyer and cannot afford one.
 
-The small case procedure fits: the deficiency for the single taxable year is under the statutory
-ceiling, the proceedings run under relaxed rules of evidence and procedure that the Tax Court
+The {gloss:small-case-procedure} fits: the deficiency for the single taxable year is under the statutory
+ceiling, the proceedings run under relaxed rules of evidence and procedure that the {gloss:tax-court}
 prescribes, and Achterberg can present his own records. The trade is stated in the statute: the
 decision is not reviewable in any other court and is not precedent for any other case. For a
 substantiation dispute that trade is easy, because there is no legal question worth appealing. For

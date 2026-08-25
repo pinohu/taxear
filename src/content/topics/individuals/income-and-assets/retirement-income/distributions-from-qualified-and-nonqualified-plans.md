@@ -20,7 +20,12 @@ forms: []
 related: ["1.2.2.b", "1.2.2.a", "1.2.1.i", "1.2.2.k", "1.2.2.d", "1.2.2.e", "1.2.2.f", "1.2.2.g", "1.2.2.h", "1.2.2.i", "1.2.2.j", "1.2.2.l", "1.2.2.m"]
 changelog:
   - { date: "2026-08-19", summary: "Initial draft. Sets out the IRC § 402(a) charging rule, the IRC § 402(c)(4) definition of an eligible rollover distribution with its three exclusions, the IRC § 3405(c) mandatory withholding and its direct-transfer exception, and the IRC § 72(d) simplified method." }
+  - { date: "2026-08-25", summary: "Added a plain-language summary, two typed scenarios (boundary, procedural), and glossary marks." }
 ---
+
+<div class="plain-terms">
+This page is about taking money out of a workplace retirement plan, like a 401(k), and what happens next at tax time. It matters most to anyone who is changing jobs, retiring, or already drawing a pension check from an old plan. It matters less if your money stays put and untouched. The rule decides two things. First, which payouts you are allowed to roll into another plan or IRA without paying tax right away. Second, how much the plan must hold back and send to the IRS before you ever see the check. A plain check paid straight to you almost always loses a chunk to that holdback, while a direct transfer from plan to plan does not. Getting the mechanics right, and moving fast enough, decides whether that money stays deferred or becomes taxable now.
+</div>
 
 Any amount actually distributed by an employees' trust described in § 401(a) and exempt under § 501(a)
 is taxable to the distributee in the year distributed, **under § 72** (IRC § 402(a)). That single
@@ -104,7 +109,7 @@ method is mandatory for a qualified employer plan, and the divisor comes from th
 annuity starting date — a fact fixed years ago that has to be carried forward on every return
 thereafter.
 
-<div class="scenario">
+<div class="scenario" data-type="baseline">
 <h3>The eighty percent cheque</h3>
 
 Dmitri, aged 45, leaves an employer and asks for his $100,000 plan balance so he can move it to an IRA
@@ -121,12 +126,12 @@ permanent. Electing a direct payment to the IRA under § 401(a)(31)(A) would hav
 altogether (IRC § 3405(c)(2)).
 </div>
 
-<div class="scenario">
+<div class="scenario" data-type="fails">
 <h3>Three distributions that cannot be rolled</h3>
 
-Amara, aged 74, receives three payments from her former employer's plan in the same year: a required
-minimum distribution, a hardship withdrawal she took earlier in the year from a different plan, and the
-fifth of a series of equal annual payments running for fifteen years.
+Amara, aged 74, receives three payments from her former employer's plan in the same year: a
+{gloss:required-minimum-distribution}, a hardship withdrawal she took earlier in the year from a
+different plan, and the fifth of a series of equal annual payments running for fifteen years.
 
 None of the three is an eligible rollover distribution. IRC § 402(c)(4)(B) excludes any distribution to
 the extent required under § 401(a)(9); § 402(c)(4)(C) excludes a hardship distribution; and
@@ -138,7 +143,7 @@ none is subject to the twenty percent mandatory withholding in IRC § 3405(c), w
 eligible rollover distributions. The elective withholding rules in § 3405(a) and (b) govern instead.
 </div>
 
-<div class="scenario">
+<div class="scenario" data-type="interaction">
 <h3>Basis left behind on purpose</h3>
 
 Yusuf's plan balance is $400,000, of which $50,000 is after-tax contributions he made in the 1990s. He
@@ -147,11 +152,37 @@ wants to move most of the balance to an IRA but take some cash now.
 The ordering rule works in his favour. Where a distribution is transferred under IRC § 402(c), the
 amount transferred is treated as consisting **first** of the portion includible in gross income. So a
 $350,000 direct rollover carries taxable money only, and the $50,000 he takes in cash is his after-tax
-basis — received tax-free.
+{gloss:basis} — received tax-free.
 
 Reversing the order would be much worse: taking $350,000 in cash and rolling $50,000 would leave him
 with a large taxable distribution. The plan's records of his after-tax contributions are what make this
 possible, and they are worth obtaining before the distribution is requested.
+</div>
+
+<div class="scenario" data-type="boundary">
+<h3>The deposit made on day sixty</h3>
+
+A taxpayer receives a distribution on 3 June and completes the {gloss:rollover} by depositing the
+full amount into an IRA on 2 August — the sixtieth day after receipt.
+
+IRC § 402(c)(3)(A) bars rollover treatment only for a transfer made **after** the 60th day following
+the day the distributee received the property. A deposit made on the 60th day itself is timely; the
+count runs from the date of receipt, not from the date printed on the plan's check. Had the deposit
+landed on day 61 instead, the rollover would fail outright unless the Secretary granted the
+§ 402(c)(3)(B) waiver for equity or good conscience, such as a casualty or disaster.
+</div>
+
+<div class="scenario" data-type="procedural">
+<h3>Electing around the withholding before the cheque is cut</h3>
+
+A retiring employee, aged 63, is about to request a lump-sum distribution of his 401(k) balance. His
+plan administrator hands him paperwork and asks whether he wants a cheque or a direct transfer.
+
+Checking the box for a direct payment to an IRA under § 401(a)(31)(A) is what actually invokes IRC
+§ 3405(c)(2) and removes the eligible rollover distribution from the twenty percent mandatory
+withholding. There is nothing to elect after the cheque is cut — the choice is made on the
+distribution paperwork itself, before any money moves, which is why the moment to raise it with a
+client is at the request stage, not after.
 </div>
 
 <div class="callout trap">

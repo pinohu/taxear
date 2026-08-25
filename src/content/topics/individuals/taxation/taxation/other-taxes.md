@@ -20,7 +20,12 @@ forms: []
 related: ["1.4.1.k", "1.2.3.f", "1.2.2.h", "1.4.1.i"]
 changelog:
   - { date: "2026-08-19", summary: "Initial draft. Sets out the IRC § 36(f) first-time homebuyer credit recapture with its acceleration, gain cap and three exceptions, the § 965(h) instalment election, the § 4973 and § 4974 excise taxes, the § 72(t) additional tax, and the state of § 5000A after the shared responsibility payment was zeroed." }
+  - { date: "2026-08-25", summary: "Added a plain-language summary, glossary marks, and two typed scenarios (baseline, fails) alongside the three existing ones, now typed boundary, timing, and interaction." }
 ---
+
+<div class="plain-terms">
+This page covers a handful of extra taxes that show up on the same line of a tax return, separate from ordinary income tax. Most of them claw back a tax break a taxpayer got in an earlier year, now that the reason for it has gone away. They can affect someone who bought a home under an old first-time buyer program. They can also affect someone who put too much into a retirement account, missed a required withdrawal, or once chose to spread a one-time foreign income charge over several years. Most taxpayers never see any of these. What this page decides is whether one of these old items is still running, and how much is due this year.
+</div>
 
 This is the line where things that are not income tax end up. Most of them share a shape: a benefit was
 taken in an earlier year on a condition, the condition failed, and the benefit is being clawed back.
@@ -46,7 +51,7 @@ instalments, and the amount due each year is a fixed percentage of a liability d
 is left in the account, which is what turns a modest over-contribution into a real cost if it is not
 withdrawn.
 
-**Excess accumulations.** {fig:other_taxes.excess_accumulations} The rate is 25 percent, reduced where
+**Excess accumulations.** {fig:other_taxes.excess_accumulations} This is the tax on a missed {gloss:required-minimum-distribution}. The rate is 25 percent, reduced where
 the shortfall is corrected within the correction window — the figure of 50 percent that appears in older
 material is no longer the law.
 
@@ -93,12 +98,12 @@ particular have three, and the gain cap can reduce an accelerated repayment to n
 credits, and several of them — the excise taxes in particular — are payable even by a taxpayer with no
 income tax at all.
 
-<div class="scenario">
+<div class="scenario" data-type="boundary">
 <h3>The sale that ends the repayments</h3>
 
 The Okories claimed the 2008 first-time homebuyer credit of $7,500 and have been repaying $500 a year.
 Twelve instalments have been paid, leaving $1,500 outstanding. In 2026 they sell the house to an
-unrelated buyer for $6,000 less than their adjusted basis, computed after reducing basis by the
+unrelated buyer for $6,000 less than their adjusted {gloss:basis}, computed after reducing basis by the
 unrecaptured credit.
 
 Section 36(f)(2) would accelerate the whole $1,500 into 2026. But § 36(f)(3) caps the increase at the
@@ -107,7 +112,7 @@ gain on a sale to an unrelated person, and there is no gain — so nothing furth
 $900 gain, the repayment would have been $900 and the remaining $600 would have been extinguished.
 </div>
 
-<div class="scenario">
+<div class="scenario" data-type="timing">
 <h3>The excess that compounds</h3>
 
 Farah contributed $9,000 to a traditional individual retirement account for 2024, $1,500 more than she
@@ -119,7 +124,7 @@ have cost $270 on a $1,500 mistake. Withdrawing the excess, with the net income 
 stops the tax prospectively; it does not undo the years already accrued.
 </div>
 
-<div class="scenario">
+<div class="scenario" data-type="interaction">
 <h3>Reading § 5000A without the dates</h3>
 
 A client asks whether they owe a penalty for having gone without health coverage for eight months of
@@ -131,6 +136,32 @@ income at zero for taxable years beginning after 2018, and § 5000A(c)(3)(A) set
 amount at $0. The monthly penalty amount is the greater of two figures that are both zero. The answer is
 nothing — but only because two subparagraphs deep in the computation say so, and nothing in the
 section's operative language does.
+</div>
+
+<div class="scenario" data-type="baseline">
+<h3>The straightforward early withdrawal</h3>
+
+Tomas, age 45, closes out a traditional IRA and withdraws the full $30,000 balance to cover a kitchen
+renovation. He is not disabled, has no medical expenses above the relevant floor, and has not annuitized
+the account under a series of substantially equal periodic payments — none of the § 72(t)(2) exceptions
+fits his facts.
+
+The whole $30,000 is includible in gross income, and {fig:other_taxes.early_distribution} applies on top
+of it: an additional $3,000. This is the tax working exactly as designed — an early withdrawal with
+nothing to except it out.
+</div>
+
+<div class="scenario" data-type="fails">
+<h3>The sale that did not qualify for the cap</h3>
+
+The Adeyemis have $2,000 of unrecaptured first-time homebuyer credit remaining. In 2026 they sell the
+home to their adult son for $4,000 less than their adjusted basis — the same kind of loss that erased the
+balance in the Okories' case above.
+
+This time it does not work. The gain cap in § 36(f)(3) limits the acceleration to the gain on a sale to
+an *unrelated* person, and a sale to their son is not that. The full $2,000 balance accelerates into 2026
+regardless of the price paid — the family relationship, not the sale price, is what defeats the
+exception.
 </div>
 
 <div class="callout trap">

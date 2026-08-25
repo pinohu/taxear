@@ -21,7 +21,26 @@ forms: []
 related: ["2.2.2.a", "2.2.1.c", "2.2.2.o", "2.2.2.c", "2.2.1.a", "2.2.2.e", "2.2.2.f", "2.2.2.g"]
 changelog:
   - { date: "2026-08-21", summary: "Initial draft. Sets out the IRC § 162(a)(3) rental deduction and its two conditions on title and equity, the IRC § 178 rule treating renewal options as part of the lease term where less than 75 percent of the acquisition cost is attributable to the remaining term, the IRC § 267(a)(2) matching rule for rent accrued to a related cash method landlord, and the Reg. § 1.469-2(f)(6) self-rental rule that recharacterises net rental income as non-passive without doing the same for a loss." }
+  - { date: "2026-08-25", summary: "Added a plain-language summary, a decision diagram of the self-rental test, glossary marks, and two typed scenarios (baseline, fails) rounding the scenario set out to five types." }
+diagram:
+  archetype: "decision"
+  caption: "The self-rental test, and why income and losses land on different sides of it"
+  tests:
+    - { test: "Property rented for use in a trade or business activity", result: "Condition met", outcome: "pass" }
+    - { test: "Taxpayer materially participates in that activity", result: "Condition met — self-rental rule can apply", outcome: "pass" }
+    - { test: "Does the rental produce net income this year?", result: "Yes — recharacterised as non-passive, can't absorb passive losses", outcome: "fail" }
+    - { test: "Or does it produce a net loss instead?", result: "Rule doesn't apply — loss stays passive, suspended without passive income elsewhere", outcome: "pass" }
 ---
+
+<div class="plain-terms">
+This page covers deducting rent a business pays for space or gear it does not own. It also covers
+a trap that hits when the landlord and the tenant are really the same person. It affects any
+business that pays rent, and especially an owner who rents out property to their own company. It
+decides if rent counts as a cost at all, and if rent paid to yourself can offset your other income.
+Here is the catch: if you work in the business that rents from you, profit from that rent no
+longer counts as passive income, so it cannot be offset by passive losses from other deals. A loss
+on that same setup does not get the same trade-off in return.
+</div>
 
 Rent is one of the simplest deductions in the Code and one of the easiest to lose. The deduction
 itself turns on two conditions in a single clause of IRC § 162(a); everything difficult comes from
@@ -104,7 +123,7 @@ passive and is available to absorb passive losses.
 the employee gets no deduction for the expenses of the space. The provision exists precisely to
 stop an employee converting a disallowed home office into a deductible rental.
 
-<div class="scenario">
+<div class="scenario" data-type="timing">
 <h3>The building that made money, and then did not</h3>
 
 Ilkeston Fabrication Inc. is an S corporation in which Tresham materially participates. He
@@ -126,7 +145,7 @@ loss that could not be deducted, on a single lease of a single building. That as
 whole of the self-rental rule.
 </div>
 
-<div class="scenario">
+<div class="scenario" data-type="boundary">
 <h3>The lease that was a purchase</h3>
 
 Wrenbury Haulage signs a five-year "lease" of a tractor unit at $3,200 a month, with an option to
@@ -146,7 +165,7 @@ it. Now Wrenbury is neither taking title nor building equity, and the payments a
 as they are made.
 </div>
 
-<div class="scenario">
+<div class="scenario" data-type="interaction">
 <h3>The two landlords who look identical</h3>
 
 Marbeck holds equal interests in two office buildings. She leases the first to a consultancy she
@@ -157,12 +176,45 @@ The first is caught by {fig:rent.self_rental}. She materially participates in th
 is a trade or business activity, and so $22,000 of the rental income is treated as non-passive. It
 cannot absorb any of her suspended losses.
 
-The second is not. {fig:loss.pal_defined} (IRC § 469(c)(2)) — a rental activity is passive, and
-nothing recharacterises this one. Its $22,000 is passive income, and $22,000 of her suspended
-losses is freed.
+The second is not. {fig:loss.pal_defined} (IRC § 469(c)(2)) — a rental activity is a
+{gloss:passive-activity}, and nothing recharacterises this one. Its $22,000 is passive income, and
+$22,000 of her suspended losses is freed.
 
 Same buildings, same rent, same landlord. The only difference is who the tenant is and whether she
 works in the tenant's business, and it is worth $22,000 of deductions.
+</div>
+
+<div class="scenario" data-type="baseline">
+<h3>The straightforward self-rental</h3>
+
+A dentist owns her own dental building outright and leases it to her professional corporation, in
+which she works full time as the sole dentist. The lease is at a fair market rent and produces net
+rental income of $28,000 for the year. She has no suspended passive losses from anywhere else.
+
+This is a textbook {gloss:self-rental}: all three conditions of {fig:rent.self_rental}
+(Reg. § 1.469-2(f)(6)) are met — the building is rented for use in a trade or business activity,
+she materially participates in that activity, and nothing takes the property outside the rule. The
+$28,000 is recharacterised as non-passive income. In her case that changes nothing practical this
+year — she has no passive losses waiting to absorb it — but the classification still matters,
+because it means this income can never be used to soak up a passive loss she might have in a later
+year, from this activity or another.
+</div>
+
+<div class="scenario" data-type="fails">
+<h3>The landlord who doesn't work in the tenant's business</h3>
+
+An investor owns a retail building and leases it to a restaurant chain in which she holds a
+minority stake but does not work — she is a passive investor only, contributing no services. The
+lease produces $19,000 of net rental income for the year, and she has $19,000 of suspended passive
+losses from an unrelated rental property.
+
+{fig:rent.self_rental} (Reg. § 1.469-2(f)(6)) requires that the taxpayer materially participate in
+the tenant's trade or business activity. She does not — holding a stake without working in the
+business is not {gloss:material-participation}. The self-rental rule fails to apply for want of
+that condition, so the $19,000 stays ordinary rental income, which is passive under
+{fig:loss.pal_defined} (IRC § 469(c)(2)). Her suspended losses can absorb it in full. The building
+and the tenant relationship look identical to a self-rental case on paper; the missing hours of
+work are what keep it out of the rule.
 </div>
 
 <div class="callout trap">

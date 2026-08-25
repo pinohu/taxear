@@ -23,7 +23,27 @@ forms: ["8867"]
 related: ["3.1.4.a", "3.1.4.c", "3.1.4.d", "3.1.4.f", "3.1.4.g", "3.3.2.a", "3.1.1.a", "3.3.2.b", "3.1.3.a", "3.4.3.b", "3.1.3.c", "3.1.2.i", "3.1.2.k"]
 changelog:
   - { date: "2026-08-18", summary: "Initial publication from IRC §§ 6694, 6695, 6662, 6701, 6702, 6713, 7216 and Rev. Proc. 2025-32." }
+  - { date: "2026-08-25", summary: "Added a plain-language summary, a decision diagram sorting a fact pattern into the right penalty family, glossary marks, and typed scenarios." }
+diagram:
+  archetype: "decision"
+  caption: "Which preparer penalty family a fact pattern lands in"
+  tests:
+    - { test: "Wrong position taken on a return or claim?", result: "§ 6694", outcome: "pass" }
+    - { test: "Paperwork or procedural failure — unsigned, no copy, no due diligence?", result: "§ 6695", outcome: "pass" }
+    - { test: "Anyone (preparer or not) knowingly helped understate someone's tax?", result: "§ 6701", outcome: "pass" }
+    - { test: "Client return information disclosed or misused?", result: "§ 6713 / § 7216", outcome: "pass" }
+    - { test: "Submission frivolous or substantially incorrect on its face?", result: "§ 6702", outcome: "pass" }
 ---
+
+<div class="plain-terms">
+This page is about penalties a paid tax preparer can face. It is not about penalties on the
+taxpayer. It matters to preparers and their firms, not to someone doing their own return. There
+are a few separate groups of penalties here. One group punishes a wrong claim on a return.
+Another group punishes bad paperwork, like a missing signature or a missing copy for the client.
+A third group can reach anyone who knowingly helps understate someone's tax, paid or not, signed
+or not. There is also a penalty for misusing a client's private files. Knowing which group a
+mistake falls into shows how serious it is and about how large the fine could be.
+</div>
 
 Preparer penalties divide cleanly. Section 6694 punishes getting the position wrong, and is measured against the fee earned. Section 6695 punishes getting the paperwork wrong, and is a flat amount per failure. Knowing which family a notice belongs to tells you both what the exposure is and what argument answers it.
 
@@ -73,25 +93,25 @@ The information-handling rules are two penalties for one act, separated by state
 
 Circular 230 § 10.34 sits alongside all of this, imposing professional standards on the same conduct, so a position that draws a § 6694 penalty will often also be a Circular 230 matter for the Office of Professional Responsibility.
 
-<div class="scenario">
+<div class="scenario" data-type="baseline">
 <h3>The fee that set the penalty</h3>
 <p>A preparer takes an aggressive position on a business return without substantial authority and without disclosing it. The fee for the engagement was $9,000. The position produces an understatement.</p>
 <p><em>Analysis.</em> Section 6694(a) is the greater of the statutory floor or 50 percent of the income derived. Half the fee is $4,500, well above the floor, so that is the penalty. Had the same position appeared on a $600 return, the floor would have governed. The preparer's exposure is a function of what they charged, which is not intuitive to clients or to new practitioners.</p>
 </div>
 
-<div class="scenario">
+<div class="scenario" data-type="procedural">
 <h3>Four failures, one return</h3>
-<p>A preparer completes a return claiming head of household filing status, the child tax credit, and the earned income credit, and does not complete or retain the due diligence checklist for any of them.</p>
+<p>A preparer completes a return claiming head of household filing status, {gloss:child-tax-credit}, and the earned income credit, and does not complete or retain the {gloss:due-diligence} checklist for any of them.</p>
 <p><em>Analysis.</em> The § 6695(g) penalty applies per failure, and each credit or status is its own eligibility determination. Three determinations mishandled on one return produce three penalties, and there is no annual cap on this one. A firm that treats the checklist as optional paperwork is mispricing the risk by an order of magnitude.</p>
 </div>
 
-<div class="scenario">
+<div class="scenario" data-type="boundary">
 <h3>Disclosure as the cheaper answer</h3>
 <p>A client insists on a deduction the preparer thinks is defensible but not well supported. There is a reasonable basis; substantial authority is doubtful.</p>
 <p><em>Analysis.</em> Undisclosed, the position risks § 6694(a) because substantial authority is the test. Disclosed as § 6694(a)(2)(B) provides, the test falls to reasonable basis, which the position meets. Disclosure changes the standard applied to the preparer, and the decision belongs at the point of filing. It does not help if the position is one to which the tax shelter and reportable transaction rules apply.</p>
 </div>
 
-<div class="scenario">
+<div class="scenario" data-type="interaction">
 <h3>The bookkeeper who never signed anything</h3>
 <p>A bookkeeper assembles a schedule of deductions for a client's return, knowing several of the entries are fabricated. The bookkeeper does not prepare the return, is not paid for tax work, and never signs anything. The client's preparer uses the schedule in good faith.</p>
 <p><em>Analysis.</em> Section 6701 reaches the bookkeeper: they assisted in the preparation of a portion of a document, knew it would be used in a material tax matter, and knew it would understate the client's tax. The preparer, who neither knew nor reasonably should have known, is outside § 6694. Neither the absence of a signature nor the absence of a fee is a defence to § 6701.</p>

@@ -25,7 +25,18 @@ forms: []
 related: ["2.3.5.f", "2.3.5.c", "2.3.5.d", "2.3.5.b", "2.3.5.a"]
 changelog:
   - { date: "2026-08-21", summary: "Initial draft. Sets out gross rental income under Treas. Reg. § 1.61-8 including the advance rental rule that overrides the accrual method, lease cancellation payments, lessee-paid expenses and lessee improvements as rent, against the IRC § 109 exclusion for improvements on lease termination with the IRC § 1019 basis consequence. Adds the security deposit analysis, the IRC § 467 accrual regime with its $250,000 threshold, and the IRC § 183(d) profit presumption." }
+  - { date: "2026-08-25", summary: "Added a plain-language summary, typed scenarios, and glossary marks." }
 ---
+
+<div class="plain-terms">
+This page covers when money a landlord gets counts as income for tax purposes, and when it does
+not. It affects anyone who rents out property to someone else. Rent is always income in the end,
+but the timing can surprise you. Money paid up front for future rent is taxed the moment you get
+it, no matter what method you use to keep your books. A deposit is different: it is not income as
+long as you must give it back. This page also covers what happens when a renter pays your bills for
+you, or leaves something built behind, and what happens if you rent a place with no real hope of a
+profit.
+</div>
 
 Most rental income questions are timing questions. The rent itself is plainly income; what is
 contested is the year it lands in, and the rules pull against the taxpayer's accounting method more
@@ -103,7 +114,7 @@ or below the threshold. Where it applies, both parties accrue rent on a present 
 to the agreement's allocation, with interest on unpaid amounts — regardless of whether either party
 is otherwise on the cash method.
 
-<div class="scenario">
+<div class="scenario" data-type="timing">
 
 <h3>Three payments at the start of a tenancy</h3>
 
@@ -122,7 +133,7 @@ and the repair cost is a 2028 deduction.
 
 </div>
 
-<div class="scenario">
+<div class="scenario" data-type="interaction">
 
 <h3>The tenant who fitted out the shop</h3>
 
@@ -143,7 +154,7 @@ Treas. Reg. § 1.61-8(c).
 
 </div>
 
-<div class="scenario">
+<div class="scenario" data-type="fails">
 
 <h3>The flat let to a nephew</h3>
 
@@ -151,15 +162,16 @@ An owner lets a flat to his nephew for $500 a month. The market rent is $1,800. 
 $16,000 including $4,000 of depreciation and $7,000 of mortgage interest and property tax. The nephew
 uses it as his only home and pays every month.
 
-Two questions, and the answers point in different directions. The nephew is family under
-IRC § 267(c)(4), so his use would ordinarily be the owner's personal use under IRC § 280A(d)(2)(A) —
-but IRC § 280A(d)(3)(A) rescues it only where the unit is rented *at a fair rental* for use as that
-person's principal residence, and $500 against a $1,800 market is not a fair rental. So every day of
-the year is personal use, the flat is used as a residence, and IRC § 280A(c)(5) caps deductions at
-gross income. Separately, letting at 28 percent of market with no prospect of profit points to
-IRC § 183: the activity may not be engaged in for profit at all, in which case IRC § 183(b) allows the
-interest and tax anyway and other deductions only to the extent income exceeds them. Either route
-produces the same practical answer — no loss — and the owner should not expect one.
+Two questions, and the answers point in different directions. The nephew is a {gloss:related-party}
+under IRC § 267(c)(4), so his use would ordinarily be the owner's personal use under
+IRC § 280A(d)(2)(A) — but IRC § 280A(d)(3)(A) rescues it only where the unit is rented *at a fair
+rental* for use as that person's principal residence, and $500 against a $1,800 market is not a fair
+rental. So every day of the year is personal use, the flat is used as a residence, and
+IRC § 280A(c)(5) caps deductions at gross income. Separately, letting at 28 percent of market with no
+prospect of profit points to the {gloss:hobby-loss-rules} of IRC § 183: the activity may not be
+engaged in for profit at all, in which case IRC § 183(b) allows the interest and tax anyway and
+other deductions only to the extent income exceeds them. Either route produces the same practical
+answer — no loss — and the owner should not expect one.
 
 </div>
 

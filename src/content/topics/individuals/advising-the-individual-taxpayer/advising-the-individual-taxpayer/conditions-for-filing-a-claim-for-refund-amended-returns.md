@@ -20,7 +20,26 @@ forms: []
 related: ["1.5.1.h", "1.5.1.i", "1.5.1.g", "1.5.1.m", "1.1.1.a", "1.5.1.a", "1.5.1.o", "1.6.1.e"]
 changelog:
   - { date: "2026-08-20", summary: "Initial draft. Sets out the two limitations that govern a refund claim — the IRC § 6511(a) period for filing and the § 6511(b)(2) cap on what may be recovered — with the § 6513(a) early return rule and § 6513(b) deemed payment dates that make them run from the same day for most individuals, the special periods in § 6511(d)(1), (2) and (3), the § 6511(h) financial disability suspension, and the postponements under §§ 7508 and 7508A." }
+  - { date: "2026-08-25", summary: "Added a plain-language summary, a timeline diagram of the filing periods, glossary marks, and typed scenarios, including a new baseline scenario." }
+diagram:
+  archetype: "timeline"
+  caption: "How long you have to file a claim for refund, and from when"
+  events:
+    - { when: "General rule", what: "3 years from filing the return, or 2 years from paying the tax — whichever gives more time" }
+    - { when: "No return was ever filed", what: "2 years from the time the tax was treated as paid" }
+    - { when: "Worthless securities or bad debts", what: "7 years from the due date of that year's return" }
+    - { when: "NOL or capital loss carryback", what: "3 years from the due date, with extensions, of the loss year's return — not the year being amended" }
+    - { when: "Foreign tax paid or accrued", what: "10 years from the due date of that year's return" }
 ---
+
+<div class="plain-terms">
+If you paid too much tax, you can ask the IRS for it back, but two separate deadlines control whether
+you get anything. One deadline decides whether your request counts at all. A different deadline
+limits how much of the payment you can actually recover, even if the request itself is on time. This
+page is for anyone who discovers they overpaid a past year's tax and wants to know whether it is too
+late, or how much they can still get back. It does not cover current-year corrections, which are fixed
+on the original return instead.
+</div>
 
 A refund claim can fail in two entirely different ways, and preparers routinely check only the first.
 The claim can be out of time, in which case it is not considered at all. Or it can be perfectly timely
@@ -100,7 +119,21 @@ throughout does not qualify.
 mathematical error authority and issues a notice. Filing an amended return to fix arithmetic duplicates
 work and can cross with the notice.
 
-<div class="scenario">
+<div class="scenario" data-type="baseline">
+<h3>The claim that simply worked</h3>
+
+A taxpayer files her 2023 return on time on 15 April 2024 and pays the $1,600 balance due with it. In
+August 2026 she finds a deduction her preparer missed and wants it back.
+
+She is well within the ordinary {gloss:statute-of-limitations}: the {gloss:claim-for-refund} is filed
+less than three years after the return, and the $1,600 she paid with that return sits comfortably
+inside the two-year look-back measured from today as well. Both tests clear easily, and the refund
+comes back in full. Most claims that reach a preparer's desk look like this one — the two limitations
+only start to matter at the edges.
+
+</div>
+
+<div class="scenario" data-type="fails">
 <h3>The refund that was timely and worthless</h3>
 
 A client never filed for 2021. In June 2026 he files, showing $6,400 of withholding against $4,100 of
@@ -114,7 +147,7 @@ which is nothing. Both tests fail, for the same underlying reason.
 
 </div>
 
-<div class="scenario">
+<div class="scenario" data-type="timing">
 <h3>The clock that ran from a different year</h3>
 
 A client had a large net operating loss in 2024 that she elected to carry back, producing an overpayment
@@ -128,7 +161,7 @@ in time. The year being amended is not the year the clock runs from.
 
 </div>
 
-<div class="scenario">
+<div class="scenario" data-type="interaction">
 <h3>The extension that bought two things</h3>
 
 A client extended his 2022 return to October 2023 and paid the balance due with the return in October.
@@ -143,7 +176,7 @@ would be the same — the extension matters most when the payment is late in the
 
 </div>
 
-<div class="scenario">
+<div class="scenario" data-type="boundary">
 <h3>The power of attorney that defeated the suspension</h3>
 
 A client suffered a stroke in 2021 and was incapacitated for eighteen months. In 2026 his son wants to
@@ -176,7 +209,7 @@ April date.
 **Assuming financial disability follows from the medical facts.** The exception in § 6511(h)(2)(B) for
 an authorised representative disqualifies many of the clients who most obviously look disabled.
 
-**Filing Form 1040-X to correct arithmetic.** The IRS fixes math errors itself. Use the amended return
+**Filing Form 1040-X to correct arithmetic.** The IRS fixes math errors itself. Use the {gloss:amended-return}
 for changes to income, deductions, credits, filing status and the like.
 
 **Assuming a successful claim produces cash.** IRC § 6402(a) lets the Secretary credit the overpayment

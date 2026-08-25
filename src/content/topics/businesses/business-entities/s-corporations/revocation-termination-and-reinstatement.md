@@ -22,7 +22,28 @@ forms: []
 related: ["2.1.5.a", "2.1.5.b", "2.1.5.d", "2.1.5.c", "2.1.1.d", "2.1.5.g", "2.1.5.h"]
 changelog:
   - { date: "2026-08-21", summary: "Initial draft. Sets out the three ways an election ends under IRC § 1362(d) — revocation by more than one-half of the shares, cessation of small business corporation status effective on the date of cessation, and the three-year passive investment income test — with the IRC § 1362(e) S termination year and its daily allocation, closing-of-the-books election and mandatory close on a 50 percent ownership change, the IRC § 1362(f) inadvertent termination relief, and the IRC § 1362(g) five-year waiting period. Records that the IRC § 481(d) and IRC § 1371(f) eligible terminated S corporation rules are confined to revocations made in the two-year window that closed on 21 December 2019." }
+  - { date: "2026-08-25", summary: "Added a plain-language summary, a decision diagram of the three ways an election ends, glossary marks, and a typed scenario showing the revocation and mandatory-close rules colliding in the same S termination year." }
+diagram:
+  archetype: "decision"
+  caption: "Does the S election survive the year?"
+  tests:
+    - { test: "More than half the shares vote to revoke?", result: "Revoked — effective on the date chosen or required by statute", outcome: "fail" }
+    - { test: "Still meets the § 1361(b) small business corporation tests?", result: "Terminates on the date it stopped qualifying", outcome: "fail" }
+    - { test: "Three straight years of E&P plus excess passive investment income?", result: "Terminates at the start of the next tax year", outcome: "fail" }
+    - { test: "None of the above happened this year", result: "The election stays in effect", outcome: "pass" }
 ---
+
+<div class="plain-terms">
+An S corporation's tax election can end in three ways. The owners can vote to end it. The
+company can stop meeting the ownership rules for a small business. Or too much of its income
+can come from investments for three years straight. This page covers how each path works,
+when the change takes effect, and how a company can come back to S status later. It matters
+to owners and advisors of small, closely held corporations that have already elected S
+treatment. It does not affect partnerships, sole proprietors, or corporations that never made
+that election. The page sets the exact date an election ends, how that year's income gets
+split between the old company and the new one, and how long a company must wait before it can
+elect S status again.
+</div>
 
 An election ends in one of three ways, and only the first is deliberate. The two that are not
 share a feature worth internalising early: they take effect on the day the disqualifying fact
@@ -127,7 +148,7 @@ letter ruling.
 the termination was effective, and it reaches a successor corporation, so a reorganisation does
 not reset it.
 
-<div class="scenario">
+<div class="scenario" data-type="fails">
 <h3>The share that ended it in April</h3>
 
 Whitfield Cartage Inc. is a calendar-year S corporation. On 12 April a shareholder transfers ten
@@ -150,10 +171,10 @@ termination was inadvertent, and have every shareholder agree to the adjustments
 IRC § 1362(g) keeps it out of subchapter S until 2032.
 </div>
 
-<div class="scenario">
+<div class="scenario" data-type="boundary">
 <h3>The rents that never terminated anything</h3>
 
-Marbury Holdings Inc. elected S status on formation and has never been a C corporation. For six
+Marbury Holdings Inc. elected {gloss:s-corporation} status on formation and has never been a C corporation. For six
 consecutive years more than 80 percent of its gross receipts have been rents.
 
 Nothing happens. IRC § 1362(d)(3)(A) requires both accumulated earnings and profits at the close
@@ -168,7 +189,7 @@ would terminate on the first day of the year after the third qualifying year. Th
 have changed at all; the balance sheet would have.
 </div>
 
-<div class="scenario">
+<div class="scenario" data-type="timing">
 <h3>Revoking with a minority of the votes</h3>
 
 Ellsworth Cable Inc. has 1,000 voting shares held by two founders in equal parts and 3,000
@@ -185,6 +206,23 @@ effective from 1 January — retroactively, across weeks in which the corporatio
 operated as an S corporation. Filing on 20 April instead would push it to 1 January of the
 following year, and specifying 1 July under IRC § 1362(d)(1)(D) would make it effective that day.
 The three dates produce three different answers on the same facts.
+</div>
+
+<div class="scenario" data-type="interaction">
+<h3>Revocation collides with the fifty-percent rule</h3>
+
+Trenton Fixtures Inc. revokes its S election effective 1 July, naming that date under
+IRC § 1362(d)(1)(D). Earlier the same year, an outside investor bought 55 percent of the
+company's stock from the founders in an unrelated sale.
+
+The revocation gives 2026 an S termination year: an S short year running 1 January to 30 June
+and a {gloss:c-corporation} short year running 1 July to 31 December (IRC § 1362(e)(1), (e)(4)).
+The corporation's advisors assumed they controlled the allocation because they had named the
+revocation's effective date — but {fig:term.fifty_percent} (IRC § 1362(e)(6)(D)). Because 55
+percent of the stock changed hands during the termination year, the daily allocation of
+IRC § 1362(e)(2) is switched off by the statute itself, whether or not anyone elects to close
+the books. The freedom to choose a revocation date does not extend to choosing how the year's
+income is split.
 </div>
 
 <div class="callout trap">

@@ -24,7 +24,19 @@ forms: []
 related: ["2.2.5.b", "2.2.5.a", "2.2.2.e", "2.2.2.f", "2.2.5.f", "2.2.5.k"]
 changelog:
   - { date: "2026-08-21", summary: "Initial draft. Sets out the Reg. § 1.62-2 accountable plan requirements of business connection, substantiation to the payor and return of excess, with the two reasonable period safe harbours and the rule that an employee cannot convert a nonaccountable plan by voluntary substantiation, together with the Reg. § 1.274-5T adequate records standard, the contemporaneous recording requirement and the two-part alternative where records fall short." }
+  - { date: "2026-08-25", summary: "Added a plain-language summary, glossary marks, and a fourth typed scenario on the reasonable-period standard beyond the fixed-date safe harbour." }
 ---
+
+<div class="plain-terms">
+This page is about proving a business expense really happened. It is not enough to just say you
+spent the money. Some records only need to be good enough to back up a tax return. Other records
+are stricter. This is mainly true for car mileage and travel costs. Without the right kind of
+record, you lose the deduction, even if the expense was real. This affects business owners and
+workers who get paid back for expenses. It also covers accountable plans. These are rules an
+employer uses so paybacks do not count as extra wages. Get all three plan rules right, and the
+payback stays free of tax. Miss one rule, and every payment under that plan becomes taxable pay,
+not just the one payment with the problem.
+</div>
 
 Two record-keeping regimes operate here and they do different jobs. The general one under IRC § 6001
 asks for records sufficient to establish what is on the return. The special one under IRC § 274(d)
@@ -110,12 +122,12 @@ police individual employees.
 
 ## Scenarios
 
-<div class="scenario">
+<div class="scenario" data-type="boundary">
 <h3>The log written in March</h3>
 
-Ellerby Surveying's principal drives 21,000 business miles. She keeps no contemporaneous log, but in
-March reconstructs one from her appointments calendar, her client files and her fuel receipts, and it
-is accurate.
+Ellerby Surveying's principal drives 21,000 business miles in her car, which is {gloss:listed-property}
+under IRC § 280F(d)(4). She keeps no contemporaneous log, but in March reconstructs one from her
+appointments calendar, her client files and her fuel receipts, and it is accurate.
 
 The reconstruction is not an adequate record. Reg. § 1.274-5T(c)(2)(ii)(A) requires each element to
 be recorded at or near the time of the use, when the taxpayer has full present knowledge of it, and
@@ -129,26 +141,26 @@ support a round annual total. The realistic outcome is that some trips are subst
 rest are not, which is a far worse result than a log kept as she drove.
 </div>
 
-<div class="scenario">
+<div class="scenario" data-type="fails">
 <h3>The plan with two conditions</h3>
 
 Ardsley Consulting reimburses employees for client travel on production of receipts, and requires no
 repayment of unused advances — anything left over is simply kept. The arrangement is otherwise well
 run and the receipts are complete.
 
-The plan is nonaccountable. Reg. § 1.62-2(c)(2)(i) requires all three of business connection,
-substantiation and return of excess, and Ardsley has only two. Under (c)(3)(i) an arrangement that
+The plan is nonaccountable. Reg. § 1.62-2(c)(2)(i) requires all three of an {gloss:accountable-plan}'s
+conditions — business connection, substantiation and return of excess — and Ardsley has only two. Under (c)(3)(i) an arrangement that
 fails one or more of the requirements is treated as nonaccountable *in its entirety*, so every
 payment under it — including reimbursements fully supported by receipts — is wages.
 
 The consequences run through payroll: Form W-2 reporting, income tax withholding, and both halves of
-FICA on the whole amount. The employees get no offsetting deduction, since unreimbursed employee
+{gloss:fica} on the whole amount. The employees get no offsetting deduction, since unreimbursed employee
 business expenses are suspended miscellaneous itemized deductions. And Reg. § 1.62-2(c)(3)(i) closes
 the obvious escape: an employee cannot compel Ardsley to treat the payments as accountable by
 voluntarily substantiating them.
 </div>
 
-<div class="scenario">
+<div class="scenario" data-type="baseline">
 <h3>The advance nobody returned</h3>
 
 Crowhurst Media operates a plan that satisfies all three requirements. An employee receives a $3,000
@@ -163,6 +175,25 @@ stays outside wages; the $650 becomes wages, with withholding and FICA.
 The contrast with Ardsley is the whole point of the topic. The same $650 problem costs one employee
 $650 of wages where the plan is sound, and costs the employer every reimbursement it makes where the
 plan is not. The document, not the incident, determines the exposure.
+</div>
+
+<div class="scenario" data-type="timing">
+<h3>The return made on day 130</h3>
+
+Fenchurch Logistics runs a sound accountable plan. An employee receives a $2,200 advance, substantiates
+$1,900 of expenses within the deadline, and returns the $300 balance on day 130 — ten days after the
+fixed date safe harbour's 120-day window for returning an excess.
+
+Missing the safe harbour is not automatically fatal. Reg. § 1.62-2(g)(2)(i) only *deems* 120 days
+reasonable; the underlying standard in (c)(2)(i) is a reasonable period under all the facts and
+circumstances, and a plan can rely on that standard instead of the safe harbour. If Fenchurch can show
+the ten-day delay was itself reasonable — a payroll processing lag, say — the $300 is still treated as
+returned timely and only the plan's usual analysis applies.
+
+Move the same return to day 200 and the answer changes without a single fact about the expense itself
+changing. The later the return, the harder "reasonable" is to defend, and past some point the $300
+becomes wages regardless of why it was late. The date of the return, not the date of the advance, is
+what a preparer should be diarying.
 </div>
 
 ## Traps

@@ -20,7 +20,26 @@ forms: []
 related: ["2.1.5.a", "2.1.5.f", "2.1.1.d", "2.1.1.e", "2.1.5.c"]
 changelog:
   - { date: "2026-08-21", summary: "Initial draft. Sets out the IRC § 1362(a) election and the requirement that all shareholders on the day of the election consent, the § 1362(b) timing with its rule that a late election is an election for the following year, the § 1362(b)(5) authority to treat a late election as timely for reasonable cause, the Reg. § 1.1362-6 mechanics of Form 2553 and the contents of a shareholder consent, and the Reg. § 1.1362-6(a)(2)(ii) rule that a new corporation's taxable year begins when it first has shareholders, acquires assets or begins doing business." }
+  - { date: "2026-08-25", summary: "Added a plain-language summary, a timeline diagram of the election window and late-relief rule, glossary marks, and a fifth typed scenario (timing) covering a late election deemed effective the following year." }
+diagram:
+  archetype: "timeline"
+  caption: "When a new corporation's S election is due, and what happens if it is late"
+  events:
+    - { when: "First taxable year begins", what: "The day the corporation first has shareholders, acquires assets, or begins doing business — not the charter date" }
+    - { when: "Anytime during the preceding year", what: "Alternative window: the election can also be filed at any point during the year before it is to take effect" }
+    - { when: "15th day, 3rd month of the year", what: "Deadline to file Form 2553 for the election to apply to that year" }
+    - { when: "After the deadline", what: "Still a valid election, but effective the following year — unless reasonable-cause relief pulls it back" }
 ---
+
+<div class="plain-terms">
+This page is about how a corporation actually becomes an S corporation. It covers the form the
+corporation files, who must sign it, and the deadline for filing it. It matters for any
+corporation that wants its profits taxed to its owners instead of taxed twice. For a brand-new
+corporation, the clock does not start on the day it was chartered. It starts on the day it first
+has owners, gets assets, or starts doing business. Filing too early is invalid. Filing too late
+does not kill the election outright. It just pushes the start date back a year, unless the
+corporation later gets that late filing forgiven.
+</div>
 
 The election is simple to make and easy to get wrong in two specific ways. The first is timing, where the
 statute's answer is counter-intuitive: an election filed too late is not invalid, it is an election for the
@@ -98,7 +117,7 @@ date. Filing a Form 8832 first is unnecessary and can start the sixty-month re-e
 
 ## Scenarios
 
-<div class="scenario">
+<div class="scenario" data-type="baseline">
 <h3>The June incorporation</h3>
 <p>A corporation is incorporated on 1 June, issues its shares and opens for business the same day, and
 adopts a calendar year for its first short taxable year. It wants S status from the start.</p>
@@ -110,7 +129,7 @@ valid but effective for the following taxable year, and the corporation would be
 period to 31 December.</p>
 </div>
 
-<div class="scenario">
+<div class="scenario" data-type="boundary">
 <h3>The charter that came first</h3>
 <p>Articles of incorporation are filed on 4 March. No shares are issued, no assets are acquired and no
 business is conducted until 20 September, when the founders subscribe and trading begins. The adviser
@@ -124,7 +143,7 @@ actually ran from 20 September, and the correct deadline was the fifteenth day o
 then.</p>
 </div>
 
-<div class="scenario">
+<div class="scenario" data-type="fails">
 <h3>The shareholder who had already sold</h3>
 <p>A calendar-year corporation decides in November 2026 to elect S status with effect from 1 January 2027.
 It files Form 2553 on 20 November 2026, signed by its four current shareholders. A fifth person held
@@ -138,9 +157,9 @@ first window, and that the second window — during the effective year itself �
 shareholders on the day of filing.</p>
 </div>
 
-<div class="scenario">
+<div class="scenario" data-type="procedural">
 <h3>The LLC that filed two forms</h3>
-<p>A three-member LLC wants to be taxed as an S corporation from 1 January 2027. Its adviser files Form
+<p>A three-member {gloss:llc} wants to be taxed as an {gloss:s-corporation} from 1 January 2027. Its adviser files Form
 8832 electing association status effective 1 January 2027, followed by Form 2553 electing S status from
 the same date.</p>
 <p>The Form 8832 was unnecessary and is not harmless. Reg. § 301.7701-3(c)(1)(v)(C) treats an eligible
@@ -149,6 +168,22 @@ provided it meets the other IRC § 1361(b) requirements on the effective date �
 have done both jobs. The Form 8832 is an election to change classification, and under
 Reg. § 301.7701-3(c)(1)(iv) the entity cannot change its classification by election again for sixty months
 from its effective date. The adviser has bought a restriction the client did not need.</p>
+</div>
+
+<div class="scenario" data-type="timing">
+<h3>The election filed one day too late — twice</h3>
+<p>A calendar-year corporation wants S status for 2027. Its accountant files Form 2553 on 20 March 2027 —
+five days after the 15 March deadline — with all shareholder consents attached. A second, unrelated
+corporation is in exactly the same position but its late filing traces to a payroll service's processing
+error, documented in an email chain from February 2027.</p>
+<p>Both filings are valid elections; neither is void. Under IRC § 1362(b)(3) a late election is simply
+treated as made for the following taxable year, so both corporations are, without more, C corporations for
+2027 and S corporations starting 2028. The difference between the two is what happens next: the first
+corporation has no basis to ask for anything more, and 2027 stands as a C corporation year. The second has
+a documented reason for the delay and can seek to have the late election treated as timely for 2027 under
+IRC § 1362(b)(5), because there was reasonable cause for the failure to file by 15 March. Identical filing
+date, identical statute — the outcome for 2027 turns entirely on whether reasonable cause can be shown, not
+on anything about the election itself.</p>
 </div>
 
 <div class="callout trap">

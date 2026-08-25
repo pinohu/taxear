@@ -18,7 +18,17 @@ forms: []
 related: ["1.5.1.i", "1.5.1.m", "1.1.1.e", "1.5.1.n", "1.5.1.f"]
 changelog:
   - { date: "2026-08-19", summary: "Initial draft. Sets out injured spouse allocation as a claim on a refund rather than relief from liability, the four IRC § 6402(c)–(f) offsets that trigger it, the distinction from the § 6402(a) internal credit, the Bureau of the Fiscal Service's role in notification, and the community property complication." }
+  - { date: "2026-08-25", summary: "Added a plain-language summary, glossary marks, and a fourth typed scenario (comprehension layer)." }
 ---
+
+<div class="plain-terms">
+An injured spouse is someone who filed a joint tax return, but part of the couple's refund is being taken
+to pay a debt that belongs only to the other spouse. Common examples are an old student loan or unpaid
+child support from before the marriage. This does not apply to a debt the couple owes together, such as
+tax due on a joint return from an earlier year. It affects a married couple who filed jointly and expected
+a refund, only to have it reduced or wiped out by someone else's separate debt. It decides how much of
+that refund the uninvolved spouse can still get back, and how to ask for it.
+</div>
 
 An injured spouse has done nothing wrong and owes nothing. Their money has been taken to pay somebody
 else's debt — their spouse's — because the two filed one return and the refund arrived as one cheque.
@@ -87,7 +97,7 @@ circumstances will not survive.
 needs the money quickly should be told that filing the allocation with the return is the only way to
 avoid the delay.
 
-<div class="scenario">
+<div class="scenario" data-type="baseline">
 <h3>The pre-marital debt</h3>
 
 Ama and Yusuf file jointly for 2026. Ama earned $58,000 with $6,400 withheld; Yusuf earned $9,000 with
@@ -100,28 +110,41 @@ credits between them, and the Service recomputes what her share of the overpayme
 offset stands as to Yusuf's share; Ama's share is refunded to her.
 </div>
 
-<div class="scenario">
+<div class="scenario" data-type="fails">
 <h3>The offset that is not one</h3>
 
 The same couple's 2027 refund is applied to a balance due on their own joint 2024 return.
 
 There is no injured spouse claim. Section 6402(a) permits the Service to credit an overpayment against
-any liability of the person who made it, and a joint return makes the 2024 liability joint and several
-under § 6013(d)(3) — it is Ama's debt as much as Yusuf's. If Ama wants to be relieved of the 2024
+any liability of the person who made it, and a joint return subjects the 2024 liability to
+{gloss:joint-and-several-liability} under § 6013(d)(3) — it is Ama's debt as much as Yusuf's. If Ama wants to be relieved of the 2024
 liability itself, the question is whether she qualifies under § 6015, which is a different provision
 with different conditions and is covered at 1.5.1.i.
 </div>
 
-<div class="scenario">
+<div class="scenario" data-type="interaction">
 <h3>The same facts in a community property state</h3>
 
-Take the first scenario and move the couple to a community property state.
+Take the first scenario and move the couple to a {gloss:community-property} state.
 
 Ama's wages are community income, so half of them — and half the withholding on them — are treated as
 Yusuf's for the allocation. Her recoverable share of the overpayment falls sharply, and on some fact
 patterns to nothing. The claim is still worth making, because the allocation depends on the particular
 state's rules and on which items are separate property, but the answer is materially different from the
 same facts in a common law state, and a client should be told so before they wait months for it.
+</div>
+
+<div class="scenario" data-type="procedural">
+<h3>Filing after the offset already happened</h3>
+
+Kwame learns of the offset only when his refund arrives $2,900 short, with a notice from the Bureau of
+the Fiscal Service. He never filed Form 8379 with his return, not knowing the offset was coming.
+
+He can still file Form 8379 on its own, attaching copies of the joint return, but the case is now worked
+manually rather than alongside a return, and it typically takes months rather than weeks. Nothing about
+the delay shortens his ability to claim it: the request is governed by the ordinary refund
+{gloss:statute-of-limitations} in § 6511, not by a shorter deadline of its own. Filing it with the
+original return next time would avoid the wait entirely.
 </div>
 
 <div class="callout trap">

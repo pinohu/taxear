@@ -23,7 +23,18 @@ forms: []
 related: ["2.3.3.a", "2.3.3.f", "2.3.3.d", "2.3.3.b", "2.3.3.c"]
 changelog:
   - { date: "2026-08-21", summary: "Initial draft. Sets the three tax advantages of a qualified plan — employer deduction on contribution under IRC § 404, employee deferral until distribution under IRC § 402(a), and tax-free accumulation under IRC § 501(a) — against the conditions in IRC § 401(a), then the non-qualified alternative: IRC § 402(b) and IRC § 83 taxation of a funded arrangement, the IRC § 404(a)(5) matching deduction rule, and the IRC § 409A distribution, acceleration and election requirements with their 20 percent additional tax." }
+  - { date: "2026-08-25", summary: "Added a plain-language summary, glossary marks, and typed scenarios." }
 ---
+
+<div class="plain-terms">
+A retirement plan can meet a long list of federal rules, or it can skip them. Meeting the rules
+earns three things: the employer can deduct the cost right away, the worker does not pay tax
+until money comes out, and the money grows tax-free in between. This affects employers who want
+to reward or pay executives more than everyone else, and any worker promised money later instead
+of now. Skip the rules and you free the plan from having to treat every worker the same way. But
+you also lose all three tax perks, and strict rules take over for when and how the promised money
+can be paid.
+</div>
 
 The word "qualified" is not a compliment. It is a statutory status that buys three specific tax
 results, and every condition in IRC § 401(a) is the price of one of them. A non-qualified plan gives
@@ -109,18 +120,18 @@ year, to the extent vested and not previously taxed, plus 20 percent of that amo
 computed as though the whole thing had been taxed when first vested. For a long-standing
 arrangement that number can exceed the account balance.
 
-<div class="scenario">
+<div class="scenario" data-type="fails">
 
 <h3>The secular trust</h3>
 
 A manufacturer promises its chief financial officer $200,000 a year of deferred compensation,
-payable at retirement. To reassure her that the money will be there, the board sets up a trust with
-an independent trustee and irrevocably places the annual amounts in it, with the trust deed stating
-that the assets are not available to the company's creditors. She is fully vested immediately.
+payable at retirement. To reassure her that the money will be there, the board sets up a
+{gloss:trust} with an independent trustee and irrevocably places the annual amounts in it, with the
+trust deed stating that the assets are not available to the company's creditors. She is fully vested immediately.
 
 The arrangement is funded. Because the trust is not exempt under IRC § 501(a) and the assets are
 beyond the employer's creditors, IRC § 402(b)(1) includes the contributions in her gross income under
-IRC § 83, substituting the value of her interest in the trust for the fair market value of property.
+IRC § 83, substituting the value of her interest in the trust for the {gloss:fair-market-value} of property.
 She is fully vested, so there is no substantial risk of forfeiture to defer inclusion — she is taxed
 on $200,000 each year while receiving nothing. The company gets its deduction in the same years
 under IRC § 404(a)(5), which is the one thing that works as intended. Had the board used a rabbi
@@ -129,7 +140,7 @@ payment. The reassurance is exactly what destroyed the deferral.
 
 </div>
 
-<div class="scenario">
+<div class="scenario" data-type="timing">
 
 <h3>The January election</h3>
 
@@ -148,7 +159,7 @@ underpayment rate plus one point running from when each amount vested.
 
 </div>
 
-<div class="scenario">
+<div class="scenario" data-type="interaction">
 
 <h3>The acceleration nobody thought about</h3>
 

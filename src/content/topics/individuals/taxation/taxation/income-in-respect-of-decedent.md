@@ -18,7 +18,17 @@ forms: []
 related: ["1.2.3.c", "1.3.1.f", "1.2.2.l", "1.4.1.g", "1.4.1.i", "1.5.1.d", "1.6.1.d"]
 changelog:
   - { date: "2026-08-19", summary: "Initial draft. Sets out the IRC § 691(a)(1) allocation of the item among estate, successor and legatee, the § 691(a)(3) character rule, the § 691(a)(2) acceleration on transfer, the § 1014(c) denial of a basis step-up, the § 691(b) deductions in respect of a decedent, and the § 691(c) estate tax deduction with its § 67(b)(7) protection from the miscellaneous itemized deduction disallowance." }
+  - { date: "2026-08-25", summary: "Added a plain-language summary, two typed scenarios (fails, boundary), and glossary marks." }
 ---
+
+<div class="plain-terms">
+This page covers money a person had already earned before they died, but had not been paid yet. A last
+paycheck, a sale still waiting to close, or a bonus not yet sent are common cases. It affects whoever
+gets that money after the death, whether that is the estate or a person set to inherit it. It does not
+affect things the person already owned outright, like a house or stock, which get their own tax rules
+instead. What it decides is that the money still gets taxed, in the same way it would have been taxed
+if the person had lived to receive it. It also decides who owes that tax once the money finally arrives.
+</div>
 
 Death does not close the books. Income the decedent had earned but not yet received cannot be taxed on
 the final return, because the decedent never received it — and it cannot escape tax, because § 1014(c)
@@ -95,7 +105,7 @@ qualified plan inherited by a beneficiary is income in respect of a decedent to 
 taxable portion. That is why an inherited retirement account is taxed on distribution while an inherited
 brokerage account is not.
 
-<div class="scenario">
+<div class="scenario" data-type="baseline">
 <h3>The sale that settled after death</h3>
 
 Adaeze held listed shares for ten years and sold them at a $3,000 gain. She died before the proceeds
@@ -108,7 +118,7 @@ short-term gain measured from the date of death. Section 1014(c) denies any step
 is taxed to him.
 </div>
 
-<div class="scenario">
+<div class="scenario" data-type="interaction">
 <h3>Selling the right instead of collecting it</h3>
 
 An estate holds a right to a $40,000 deferred consulting fee. Rather than wait, the executor assigns the
@@ -121,7 +131,7 @@ plus the excess. Simply distributing the right to a residuary beneficiary would 
 all, and the beneficiary would report the fee when collected.
 </div>
 
-<div class="scenario">
+<div class="scenario" data-type="procedural">
 <h3>The deduction nobody claimed</h3>
 
 A beneficiary receives $120,000 from an inherited traditional individual retirement account over two
@@ -134,6 +144,33 @@ the net value of all such items, applied to the estate tax attributable to that 
 across the years in which the income is reported. It is an itemized deduction, and § 67(b)(7) takes it
 out of the definition of a miscellaneous itemized deduction, so the § 67(h) disallowance does not touch
 it. The practical obstacle is informational: the beneficiary needs figures from the estate tax return.
+</div>
+
+<div class="scenario" data-type="fails">
+<h3>No right existed at death</h3>
+
+A homeowner lists a house for sale and receives an offer, but dies before signing a contract. The
+executor negotiates and closes the sale entirely after death, at a price the buyer and the estate agree
+on together.
+
+Because the decedent held no enforceable right to any particular amount at death — only a listing and
+an unsigned offer — the {gloss:capital-gain} on the sale is not income in respect of a decedent. Section
+1014(a) applies instead: the property gets a date-of-death basis, and the {gloss:step-up-in-basis}
+shelters the appreciation that built up during the decedent's life. Had the decedent instead signed a
+binding contract before death, the outcome would flip entirely.
+</div>
+
+<div class="scenario" data-type="boundary">
+<h3>A bonus split by the date of death</h3>
+
+An employee is owed an annual bonus computed from a full year's sales, prorated for time actually
+worked. She dies on 1 October, having worked nine of the twelve months toward the bonus period, and her
+employer pays the full-year bonus to her {gloss:executor} once the year ends — three months' worth
+attributable to a replacement who covered the rest of the year.
+
+Only the nine-twelfths she had actually earned by the date of death is a right she held at death, and
+only that portion is income in respect of a decedent taxed under § 691(a)(1)(A). The remaining
+three-twelfths belongs to whoever earned it after she died, and was never hers to begin with.
 </div>
 
 <div class="callout trap">

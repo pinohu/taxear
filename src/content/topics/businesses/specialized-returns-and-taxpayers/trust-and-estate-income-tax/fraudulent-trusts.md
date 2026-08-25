@@ -25,7 +25,18 @@ forms: []
 related: ["2.3.1.a", "2.3.1.c", "2.3.1.g", "2.3.1.b", "2.3.1.e"]
 changelog:
   - { date: "2026-08-21", summary: "Initial draft. Sets out the assignment of income principle that defeats every abusive trust arrangement, the IRS guidance that a trust is allowed no deduction an individual would be denied, the grantor trust provisions that collapse the typical structure without any need for a fraud finding, and the penalty structure from IRC § 6663 through the promoter penalties in §§ 6700 and 6701 to criminal liability under § 7201." }
+  - { date: "2026-08-25", summary: "Added a plain-language summary, glossary marks, and typed scenarios (fails, interaction, procedural)." }
 ---
+
+<div class="plain-terms">
+Some promoters sell trust packages that promise to erase your tax bill. This page explains why
+none of them work. The core problem is simple: the law taxes income to the person who actually
+earned it, no matter what paperwork moves it somewhere else. It also refuses to turn a personal
+expense, like a mortgage or a car payment, into a business deduction just because a trust is
+paying it. This matters for anyone considering a trust sold as a way to stop paying tax on wages
+or a business. It does not affect ordinary trusts set up for estate planning or to provide for
+family members. The rule decides who owes the tax and who can be penalized for helping.
+</div>
 
 Abusive trust arrangements are elaborate on the surface and identical underneath. Each one asserts
 that a taxpayer can continue earning income and using assets exactly as before, while a piece of
@@ -107,7 +118,7 @@ require reliance on an adviser with no stake in the transaction who was given th
 
 ## Scenarios
 
-<div class="scenario">
+<div class="scenario" data-type="fails">
 <h3>The practice that was put into a trust</h3>
 
 A dentist transfers his practice to a "business trust" for which he receives certificates of
@@ -126,7 +137,7 @@ wherever they are paid from. The IRS guidance says as much: deductions not allow
 are not allowed to trusts. The second trust adds a layer and no argument.
 </div>
 
-<div class="scenario">
+<div class="scenario" data-type="interaction">
 <h3>The residence trust that changed nothing</h3>
 
 A couple convey their home to a trust of which they are the trustees and the primary beneficiaries,
@@ -135,8 +146,8 @@ maintenance, and reports a loss the couple use against their salaries.
 
 Two provisions dispose of it without any need to attack the trust. IRC § 676(a) treats the grantor
 as owner of any portion where the power to revest title is exercisable by the grantor or a
-non-adverse party, so IRC § 671 attributes every item to the couple — the trust is not a separate
-taxpayer at all and there is nothing to report on a Form 1041.
+non-adverse party, so IRC § 671 attributes every item to the couple — this is a {gloss:grantor-trust}: not a
+separate taxpayer at all, and there is nothing to report on a Form 1041.
 
 Even if the trust were respected as a separate taxpayer, the deductions would fail. A personal
 residence is not property held for the production of income, so no depreciation is allowable, and
@@ -144,10 +155,11 @@ utilities and maintenance on a home the owners live in are personal under IRC §
 arrangement produces no deduction under either analysis.
 </div>
 
-<div class="scenario">
+<div class="scenario" data-type="procedural">
 <h3>The preparer who signed it</h3>
 
-A preparer is engaged to prepare Forms 1041 for a series of linked trusts. The client explains the
+A preparer is engaged to prepare Forms 1041 — the {gloss:fiduciary} return — for a series of
+linked trusts. The client explains the
 structure candidly: the trusts hold the client's business and personal assets, the client controls
 all of them, and the purpose is to reduce tax. The preparer prepares the returns as instructed.
 

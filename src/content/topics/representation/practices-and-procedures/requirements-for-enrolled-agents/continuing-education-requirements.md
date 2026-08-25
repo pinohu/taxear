@@ -16,7 +16,18 @@ forms: []
 related: ["3.1.1.a", "3.1.2.g", "3.1.2.d", "3.1.2.l", "3.1.2.o"]
 changelog:
   - { date: "2026-08-18", summary: "Initial publication from Circular 230 § 10.6(e)–(k) as issued by T.D. 9527." }
+  - { date: "2026-08-25", summary: "Added a plain-language summary, a glossary mark, and typed scenarios." }
 ---
+
+<div class="plain-terms">
+This page sets out how much ongoing training an {gloss:enrolled-agent} must complete to
+keep the right to practice. It affects only enrolled agents renewing their status. It does
+not affect taxpayers, or preparers with no such credential. The rule is really two rules
+in one: a three-year total, and a smaller amount due each single year inside that span.
+Meeting the three-year total does not excuse falling short in any one year. Some of those
+hours must cover ethics. That split also runs both ways — a cycle total, and a yearly
+floor. Records of what was done must be kept for years after.
+</div>
 
 Continuing education under Circular 230 is not one number but a **pair** of numbers, plus a definition of what an hour is, plus records that must survive four years past renewal. The pair is where candidates go wrong: satisfying the cycle total does not satisfy the annual minimum.
 
@@ -72,25 +83,25 @@ Teaching is worth up to three hours per contact hour taught — one for the hour
 
 **Failure to comply** (§ 10.6(j)) has its own procedure, covered with the renewal cycle. Two parts of it are education rules. CE records may be **reviewed**, and hours **disallowed** if the individual fails to produce them on request (§ 10.6(j)(2)). And reinstatement from inactive status requires evidence of **all** required hours for the cycle — hours that **may not also be used** to satisfy the cycle in which the individual returns to the active roster (§ 10.6(j)(5)).
 
-<div class="scenario">
+<div class="scenario" data-type="fails">
 <h3>Seventy-two hours, still non-compliant</h3>
 <p>An enrolled agent completes 10 hours in year one, 14 in year two, and 50 in year three, including all six ethics hours in year three. Her cycle total is 74.</p>
 <p><em>Analysis.</em> She fails. Section 10.6(e)(2)(ii) requires a minimum of 16 hours including two hours of ethics in <em>each enrollment year</em>; she is short in years one and two on both counts. Exceeding the 72-hour cycle total under § 10.6(e)(2)(i) does not cure a shortfall in an individual enrollment year, and the hours cannot be moved between years.</p>
 </div>
 
-<div class="scenario">
+<div class="scenario" data-type="boundary">
 <h3>The conference and the standalone webinar</h3>
 <p>A practitioner attends a continuous two-day conference with four 90-minute segments, and separately watches a 90-minute standalone webinar from a different provider.</p>
 <p><em>Analysis.</em> The conference segments are treated as one total program under § 10.6(g)(3): 4 × 90 = 360 minutes, which at 50 minutes per contact hour yields <strong>seven</strong> contact hours (350 minutes) with the remaining 10 minutes uncredited, since credit is granted only for full contact hours. The webinar is its own program: 90 minutes yields <strong>one</strong> contact hour, not two, because a program lasting more than 50 but less than 100 minutes counts as one.</p>
 </div>
 
-<div class="scenario">
+<div class="scenario" data-type="timing">
 <h3>Enrolled in September</h3>
 <p>An agent receives initial enrolment on 20 September of the second enrollment year of a cycle. He asks how many hours he owes for the cycle.</p>
 <p><em>Analysis.</em> Section 10.6(e)(2)(iii)(A) requires two hours for each month enrolled, and enrolment for any part of a month counts as the whole month — September through December is four months, plus twelve months in year three, so 16 months and <strong>32 hours</strong>. Section 10.6(e)(2)(iii)(B) requires two hours of ethics for each enrollment year during the cycle, with any part of a year counting as the whole year — he touches two enrollment years, so <strong>four</strong> ethics hours, counted within the 32.</p>
 </div>
 
-<div class="scenario">
+<div class="scenario" data-type="interaction">
 <h3>Teaching the same course twice</h3>
 <p>An agent teaches a three-contact-hour course on partnership basis in March and teaches the identical course again in October of the same cycle. She claims 3 hours of instruction and 6 hours of preparation for each, 18 in total.</p>
 <p><em>Analysis.</em> Two limits bite. Section 10.6(f)(2)(iii)(D) gives credit for only <em>one</em> presentation where more than one presentation on the same subject matter is made during an enrollment cycle, so the October session earns nothing. And the annual cap on instruction and preparation credit in § 10.6(f)(2)(iii)(C) limits what the March session can yield. She must also keep records verifying the preparation time she claims.</p>

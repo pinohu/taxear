@@ -21,7 +21,18 @@ forms: []
 related: ["1.6.3.a", "1.6.3.b", "1.6.3.c", "1.6.3.d", "1.6.3.f", "2.1.1.c"]
 changelog:
   - { date: "2026-08-21", summary: "Initial draft. Covers the two thresholds that matter — the IRC § 951(b) 10 percent United States shareholder test and the § 957(a) controlled foreign corporation test — the § 951A inclusion as rewritten by Pub. L. 119-21 § 70323, which renamed global intangible low-taxed income as net CFC tested income and repealed the qualified business asset investment offset outright, the § 250 deduction available to corporations only, the § 962 election by which an individual reaches corporate treatment, and the § 965 transition tax now spent except for its installment stream." }
+  - { date: "2026-08-25", summary: "Added a plain-language summary, glossary marks, and typed scenarios." }
 ---
+
+<div class="plain-terms">
+This page is about owning part of a company set up in another country. When Americans together own
+enough of it, some of its profit can be taxed here right away. That can happen before any money is paid
+out to the owners. This page matters to a person who owns a real share of a foreign firm. It also
+matters once a person's family or close partners' shares are added to their own. It does not matter to
+someone who owns only a tiny, passive slice, with no family or business ties that raise their true
+share. What this page decides is how much profit gets taxed now, and at what rate. It also decides
+whether a choice can lower that rate for one owner.
+</div>
 
 This is the topic where a preparer's existing knowledge is most likely to be wrong, because the
 vocabulary changed in 2025 and the underlying arithmetic changed with it. The provision everyone learned
@@ -98,7 +109,7 @@ actually distributed. It is an annual election and the arithmetic changes with t
 part-way through the eight-instalment stream, or a client who never made the § 965 filing at all — in
 which case the exposure is a reporting and limitation problem rather than a computational one.
 
-<div class="scenario">
+<div class="scenario" data-type="boundary">
 <h3>The 9 percent that was 14</h3>
 
 A client owns 9 percent of the voting stock of a Portuguese company. His adult son owns a further
@@ -106,15 +117,15 @@ A client owns 9 percent of the voting stock of a Portuguese company. His adult s
 
 He is not. The United States shareholder test in § 951(b) counts stock owned indirectly and stock
 considered owned under the § 958(b) attribution rules, which reach family members. At 14 percent he is a
-United States shareholder, with a Form 5471 obligation and a share of any inclusion. The threshold is
-not a test of what he bought.
+United States shareholder, with a Form 5471 obligation and a share of any inclusion — what practitioners
+still often call {gloss:gilti}. The threshold is not a test of what he bought.
 
 </div>
 
-<div class="scenario">
+<div class="scenario" data-type="timing">
 <h3>The offset that no longer exists</h3>
 
-A client's controlled foreign corporation manufactures abroad and holds substantial plant. Under the
+A client's {gloss:controlled-foreign-corporation} manufactures abroad and holds substantial plant. Under the
 pre-2025 regime her inclusion was reduced by a deemed return on that tangible property, which brought
 it close to nil in most years. Her 2026 computation shows a much larger number and she asks what went
 wrong.
@@ -127,7 +138,7 @@ material written before July 2025.
 
 </div>
 
-<div class="scenario">
+<div class="scenario" data-type="interaction">
 <h3>The election that changed the rate</h3>
 
 An individual United States shareholder has a substantial inclusion from a controlled foreign
@@ -135,7 +146,7 @@ corporation that pays tax abroad at a moderate rate. Taxed at his own marginal r
 credit, the United States tax is large.
 
 With a § 962 election the inclusion is taxed as if received by a domestic corporation — at the § 11 rate
-in lieu of §§ 1 and 55 — and the foreign taxes become creditable under § 960. The election does not make
+in lieu of §§ 1 and 55 — and the foreign taxes become creditable under § 960 as a {gloss:foreign-tax-credit}. The election does not make
 the income disappear: when the earnings are eventually distributed to him, the distribution is taxable
 again beyond the amount of tax already paid. It converts a single high-rate charge into a low-rate
 charge now and a further charge later, and whether that is better depends on the foreign rate and on
@@ -143,7 +154,7 @@ whether he intends to repatriate.
 
 </div>
 
-<div class="scenario">
+<div class="scenario" data-type="procedural">
 <h3>The instalment stream nobody transferred</h3>
 
 A client made a § 965 election in 2018 to pay her transition tax in eight instalments. She changed

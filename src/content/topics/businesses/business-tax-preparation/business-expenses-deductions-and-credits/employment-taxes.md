@@ -23,7 +23,17 @@ forms: []
 related: ["2.2.2.a", "2.2.2.i", "2.1.1.k", "2.2.2.h", "2.2.1.a", "2.2.5.b", "2.2.5.k"]
 changelog:
   - { date: "2026-08-21", summary: "Initial draft. Sets out the IRC § 3101 and § 3111 FICA rates on employee and employer, the IRC § 3101(b)(2) additional hospital insurance tax that the employer does not match, the IRC § 3301 FUTA rate with the IRC § 3306(b)(1) wage base and successor rule and the IRC § 3302 credit structure with its 90 percent cap and credit reduction, and the IRC § 6672 penalty on a responsible person. Notes that only the employer's share is deductible under IRC § 164 and IRC § 275(a)(1)." }
+  - { date: "2026-08-25", summary: "Added a plain-language summary, glossary marks, and two typed scenarios." }
 ---
+
+<div class="plain-terms">
+When a business has employees, it deals with several payroll taxes at once, and they do not work
+the same way. Some come out of the employee's pay. Some are the employer's own cost on top of
+wages. Some stop once wages hit a yearly cap; others never stop. This page sorts out which is
+which. It affects any business with employees. It does not affect a sole owner with no staff, who
+pays self-employment tax instead. It decides how much of each tax is owed, who is personally on
+the hook if the money never reaches the government, and what a business can and cannot deduct.
+</div>
 
 Three separate taxes travel together on a payroll and behave differently. One is matched and
 capped, one is matched and uncapped, one is not matched at all, and a fourth amount on the same
@@ -119,7 +129,7 @@ so, which means an officer, a bookkeeper or anyone with authority over which cre
 not the corporation. It is measured by the whole trust fund portion, and incorporation is no
 protection against it.
 
-<div class="scenario">
+<div class="scenario" data-type="baseline">
 <h3>One employee, four calculations</h3>
 
 An employer pays a single employee $260,000 of wages in 2026. The employee is unmarried.
@@ -141,7 +151,7 @@ The employer's deduction is $15,209 plus its FUTA. The $15,749 withheld from the
 deductible as a tax, but the $260,000 of wages out of which it came is.
 </div>
 
-<div class="scenario">
+<div class="scenario" data-type="interaction">
 <h3>The unemployment tax that was not six percent, and then was</h3>
 
 A company employs forty people, all earning well above the FUTA base, in a state whose
@@ -163,7 +173,7 @@ state's borrowing, so an employer in a credit reduction state pays more federal 
 than an identical employer across the state line.
 </div>
 
-<div class="scenario">
+<div class="scenario" data-type="boundary">
 <h3>The bookkeeper who chose which bills to pay</h3>
 
 A failing corporation owes $190,000 of withheld income tax and employee FICA for three quarters.
@@ -183,6 +193,35 @@ Note what the penalty does **not** reach: the employer's own share of FICA and i
 the corporation's own taxes rather than money collected from employees, so they die with the
 corporation. The penalty is confined to the trust fund portion, which is exactly the money the
 employer never owned.
+</div>
+
+<div class="scenario" data-type="timing">
+<h3>Two jobs, two wage bases, in the same year</h3>
+
+<p>An employee earns $140,000 from her first employer through August, then leaves and earns
+another $90,000 from a second, unrelated employer for the rest of 2026.</p>
+
+<p><em>Analysis.</em> Each employer withholds {gloss:fica} up to {fig:se.wage_base} on the wages it
+alone pays — neither employer sees the other's payroll records, and there is no successor
+relationship between them, so nothing combines. Between the two jobs she has more social security
+tax withheld than the annual maximum on $230,000 of total wages. She recovers the excess as a
+credit on her own income tax return; neither employer's withholding was wrong on its own facts, and
+the fix happens only at the individual level, not on either Form W-2.</p>
+</div>
+
+<div class="scenario" data-type="procedural">
+<h3>Falling behind on deposits</h3>
+
+<p>A struggling retailer withholds {gloss:trust-fund-tax} from its employees' paychecks every pay
+period but stops depositing it with the government for two full quarters to keep the doors open,
+intending to catch up later.</p>
+
+<p><em>Analysis.</em> The tax was due at each deposit date, not merely by the quarterly return's
+filing deadline, so missing deposits triggers its own penalty apart from anything owed with the
+return. The exposure does not stop at the business: whoever at the retailer had authority over
+which bills got paid is a {gloss:responsible-person}, and the IRS can assess the
+{gloss:trust-fund-recovery-penalty} against that person directly once it is clear the withheld
+money was spent elsewhere instead of being deposited.</p>
 </div>
 
 <div class="callout trap">

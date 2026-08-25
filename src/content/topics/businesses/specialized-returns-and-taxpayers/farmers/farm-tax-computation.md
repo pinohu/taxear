@@ -24,13 +24,24 @@ forms: ["Schedule J", "Schedule SE", "4835"]
 related: ["2.3.4.a", "2.3.4.d", "2.3.4.b", "2.3.4.c"]
 changelog:
   - { date: "2026-08-21", summary: "Initial draft. Sets out the IRC § 6654(i) estimated tax regime for farmers — one installment due 15 January at 66⅔ percent of the current year's tax, the 1 March alternative substituted into IRC § 6654(h), and the express disregard of the prior-year safe harbour — the IRC § 6654(i)(2) two-thirds test measured on either year, the IRC § 1301 farm income averaging election, and self-employment tax on Schedule F income including the optional method." }
+  - { date: "2026-08-25", summary: "Added a plain-language summary, glossary marks, and typed scenarios." }
 ---
+
+<div class="plain-terms">
+This page explains two special tax rules built just for farmers. It matters if you run a farming
+business and pay estimated tax during the year, or if you had one especially good year after several
+lean ones. It does not apply to other kinds of business owners, who follow different estimated tax
+rules. A farmer gets to make one estimated tax payment a year instead of four, which is a real
+convenience, but it comes with a catch explained here. A farmer can also spread a big income year
+backward across the past three years to smooth out the tax bite. The page decides how much a farmer
+must pay and when, and how much tax relief the averaging choice actually delivers.
+</div>
 
 Two computations distinguish a farm return from any other Schedule C business, and they pull in
 opposite directions. The estimated tax rules are a concession, replacing four payments with one. The
 income averaging election is a relief, spreading a good year backwards across three. Between them
-sits self-employment tax, which is computed the ordinary way but on an income figure that can swing
-violently from year to year.
+sits {gloss:self-employment-tax}, which is computed the ordinary way but on an income figure that can
+swing violently from year to year.
 
 ## The rule
 
@@ -59,8 +70,8 @@ farm optional method exists to let a farmer with a poor year still earn Social S
 unlike the non-farm optional method it may be used for an unlimited number of years.
 
 **Losses do not run free.** A farm's bad year is limited twice over — by the excess business loss
-rule of IRC § 461(l) before it reaches other income, and by IRC § 172 once it becomes a net operating
-loss. Both of those are general rules rather than farm rules, but they bite hardest on a business
+rule of IRC § 461(l) before it reaches other income, and by IRC § 172 once it becomes a
+{gloss:net-operating-loss}. Both of those are general rules rather than farm rules, but they bite hardest on a business
 whose income is this volatile.
 
 ## Current figures
@@ -105,7 +116,7 @@ the tax imposed by IRC § 1 only. Self-employment tax under IRC § 1401 is compu
 net earnings regardless of the election, so a farmer averaging a large year still pays the full
 self-employment tax on it in that year.
 
-<div class="scenario">
+<div class="scenario" data-type="procedural">
 
 <h3>The January estimate</h3>
 
@@ -125,7 +136,7 @@ addition to tax on the single installment entirely.
 
 </div>
 
-<div class="scenario">
+<div class="scenario" data-type="baseline">
 
 <h3>The year the crop came in</h3>
 
@@ -143,7 +154,7 @@ profit is unaffected — IRC § 1301 reduces only the tax imposed by IRC § 1.
 
 </div>
 
-<div class="scenario">
+<div class="scenario" data-type="boundary">
 
 <h3>The bad year and the credits</h3>
 

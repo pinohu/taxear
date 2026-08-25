@@ -19,7 +19,18 @@ forms: ["2848"]
 related: ["3.2.1.a", "3.2.1.b", "3.2.1.c", "3.1.1.b", "3.2.6.a"]
 changelog:
   - { date: "2026-08-18", summary: "Initial publication from IRC § 6061, § 6012(b) and Reg. § 1.6012-1(a)(5)." }
+  - { date: "2026-08-25", summary: "Added a plain-language summary, typed scenarios, and a glossary mark." }
 ---
+
+<div class="plain-terms">
+Normally only the taxpayer signs their own tax return. This page covers the few cases
+where someone else, like a helper or a spouse, may sign it instead. It matters to
+people who are very sick, badly hurt, or living abroad for a long stretch, and to the
+tax pros who help them. It does not cover simple convenience — a busy client who would
+rather not sign by hand is not one of the allowed reasons. It sets out exactly which
+cases count, what papers must go along with the new signature, and who still answers
+for the return later.
+</div>
 
 A power of attorney authorising representation does not, by itself, let the representative sign the client's return. Signing is governed separately, and the circumstances in which someone may sign for a taxpayer are narrow, specific, and frequently misremembered as broader than they are.
 
@@ -47,19 +58,19 @@ The 60-day absence rule is measured against the date prescribed for filing, not 
 
 The third route — the district director's permission — is the one to reach for when the facts do not fit the first two, and it is prospective: the taxpayer requests, the director determines good cause, and only then may the agent sign. It is not a way to cure a return already signed by the wrong person.
 
-<div class="scenario">
+<div class="scenario" data-type="procedural">
 <h3>The client in hospital</h3>
-<p>Two days before the filing deadline, a client is admitted to hospital after a fall and cannot hold a pen. Her enrolled agent has a Form 2848 for the year, granting representation on Form 1040.</p>
+<p>Two days before the filing deadline, a client is admitted to hospital after a fall and cannot hold a pen. Her enrolled agent has a {gloss:power-of-attorney} for the year, granting representation on Form 1040.</p>
 <p><em>Analysis.</em> Disease or injury is the first circumstance, so an agent may make the return. But the existing power of attorney authorises representation, not signing. The agent needs authority to sign stated expressly, and the return must be filed with the power of attorney attached. Without that, the return is not properly signed however genuine the incapacity.</p>
 </div>
 
-<div class="scenario">
+<div class="scenario" data-type="fails">
 <h3>Abroad, but not continuously</h3>
 <p>A client works on a project in Chile from 1 February. He returns to Miami for six days in March for a family funeral, then flies back and stays until June. He asks his CPA to sign and file his return.</p>
 <p><em>Analysis.</em> The absence must be continuous and last at least 60 days before the prescribed filing date. The six days in Miami break it, and neither of the other two circumstances applies on these facts. The CPA may not sign. The workable answers are for the client to sign electronically from Chile, or to request the district director's permission in writing before the return is filed.</p>
 </div>
 
-<div class="scenario">
+<div class="scenario" data-type="baseline">
 <h3>One spouse in a care facility</h3>
 <p>A married couple file jointly. The husband has advanced dementia following a stroke and cannot sign, though he understands the question and tells his wife to go ahead. She wants to file the joint return.</p>
 <p><em>Analysis.</em> This is the incapacitated-spouse route rather than the agent route. She signs his name in the proper place followed by "By ______ Wife", signs in her own right, and attaches a dated statement she has signed giving the return name, the taxable year, the reason he cannot sign, and the fact that he consented. Oral consent is what the regulation requires; no power of attorney is needed for this path.</p>

@@ -18,7 +18,27 @@ forms: []
 related: ["3.2.6.g", "3.2.6.a", "3.2.6.f", "3.2.5.b", "3.2.5.e", "3.2.5.a", "3.2.5.f", "3.2.5.c", "3.2.5.d", "3.2.5.h", "3.2.2.a"]
 changelog:
   - { date: "2026-08-18", summary: "Initial publication from Reg. §§ 1.6662-4 and 1.6662-3 and IRC §§ 6110 and 6662, each opened at source." }
+  - { date: "2026-08-25", summary: "Added a plain-language summary, a decision diagram, typed scenarios, and glossary marks." }
+diagram:
+  archetype: "decision"
+  caption: "Does this source count as authority under Reg. § 1.6662-4(d)(3)(iii)?"
+  tests:
+    - { test: "A statute, regulation, or court case", result: "Yes — it's authority", outcome: "pass" }
+    - { test: "A revenue ruling, revenue procedure, or other published guidance", result: "Yes — it's authority", outcome: "pass" }
+    - { test: "A ruling or advice memo issued to, or naming, this taxpayer", result: "Yes — substantial authority for this taxpayer", outcome: "pass" }
+    - { test: "A treatise, legal periodical, or a tax professional's opinion", result: "No — check what it cites instead", outcome: "fail" }
 ---
+
+<div class="plain-terms">
+This page explains what counts as real legal backing for a tax position, and what does
+not. The list is short and fixed: laws, rules written by the Treasury, court decisions,
+and official IRS guidance all count. A textbook, a journal article, or one expert's
+opinion does not count on its own, no matter how well argued. This affects anyone
+building the case for a tax stance, and deciding whether that stance is safe enough to
+take without extra paperwork warning the IRS. The rule also decides how strength gets
+measured. It is not just whether sources back a position. It is whether they outweigh the
+sources against it. Both sides always count.
+</div>
 
 "Authority" in Federal tax is not a matter of judgment. Reg. § 1.6662-4(d)(3)(iii) supplies a **closed list**, and the regulation says "**only the following are authority**." Everything a practitioner reads that is not on it — the treatise, the journal article, the firm memorandum, another practitioner's opinion — is not authority, however persuasive. Knowing the list is the topic; knowing what it excludes is the point.
 
@@ -68,25 +88,25 @@ Yet Reg. § 1.6662-4(d)(3)(iv)(A) provides that there **is** substantial authori
 
 **Authority can lapse under you.** The regulation withdraws authority status to the extent something is overruled or modified. Two traps: a Tax Court opinion survives a contrary court of appeals decision in a circuit the taxpayer cannot appeal to; and a PLR falls away the moment a later revenue ruling or proposed regulation is inconsistent with it. Date-check anything relied on.
 
-<div class="scenario">
+<div class="scenario" data-type="fails">
 <h3>The file with no authority in it</h3>
 <p>Asked to support an aggressive characterisation, an associate produces a memorandum citing a leading treatise, two articles from a well-regarded tax journal, and an opinion letter obtained by a similarly situated client of another firm.</p>
 <p><em>Analysis.</em> The file contains no authority at all. Reg. § 1.6662-4(d)(3)(iii) states that conclusions reached in treatises, legal periodicals, legal opinions or opinions rendered by tax professionals are not authority. The work is not wasted: the same paragraph says the authorities <em>underlying</em> those opinions may give rise to substantial authority. The associate should extract the statutes, regulations, rulings and cases those sources rely on, read them, and weigh them — including the contrary ones.</p>
 </div>
 
-<div class="scenario">
+<div class="scenario" data-type="boundary">
 <h3>The ruling that belonged to someone else</h3>
-<p>A practitioner finds a private letter ruling squarely on point, issued to an unrelated taxpayer in 2019. She proposes to cite it in a protest as controlling.</p>
+<p>A practitioner finds a {gloss:private-letter-ruling} squarely on point, issued to an unrelated taxpayer in 2019. She proposes to cite it in a protest as controlling.</p>
 <p><em>Analysis.</em> Half right. As a PLR issued after 31 October 1976 it <em>is</em> on the § 1.6662-4 list, so it counts in the substantial authority analysis and is worth putting in the weighing. But IRC § 6110(k)(3) provides that a written determination may not be used or cited as precedent, so presenting it as controlling misstates its status. Cite it for what it is, and check that no later revenue ruling or proposed regulation is inconsistent with it — if one is, it is no longer authority at all.</p>
 </div>
 
-<div class="scenario">
+<div class="scenario" data-type="procedural">
 <h3>The contrary ruling that was left out</h3>
-<p>A memorandum concludes that there is substantial authority for a position, citing the statute, a regulation and two cases. A revenue ruling directly contrary to the position is not mentioned; the author judged it unpersuasive.</p>
+<p>A memorandum concludes that there is substantial authority for a position, citing the statute, a regulation and two cases. A {gloss:revenue-ruling} directly contrary to the position is not mentioned; the author judged it unpersuasive.</p>
 <p><em>Analysis.</em> The conclusion is unsupported as written. Substantial authority exists only if the weight of supporting authorities is substantial <em>in relation to</em> the weight of contrary authorities, and "all authorities relevant to the tax treatment of an item, <em>including the authorities contrary to the treatment</em>," are taken into account. The author may still be right that the ruling carries little weight, but that is a conclusion to be reached on the page after the ruling is set out, not by omitting it.</p>
 </div>
 
-<div class="scenario">
+<div class="scenario" data-type="baseline">
 <h3>The prior-year report nobody read</h3>
 <p>A client is examined on the same recurring issue that was raised and resolved in an examination three years earlier. The representative begins a full research exercise.</p>
 <p><em>Analysis.</em> Check the earlier file first. Reg. § 1.6662-4(d)(3)(iv)(A) gives substantial authority where the treatment is supported by an affirmative statement in a revenue agent's report with respect to a <em>prior taxable year of that taxpayer</em> — alongside a ruling or determination letter issued to the taxpayer or a TAM naming them. If the earlier report contains such a statement, and there was no material misstatement or omission and the facts have not materially changed, the question may already be answered.</p>

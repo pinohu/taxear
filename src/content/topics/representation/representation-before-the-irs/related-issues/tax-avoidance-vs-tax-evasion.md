@@ -20,7 +20,26 @@ forms: []
 related: ["3.2.6.a", "3.2.6.h", "3.1.2.a", "3.2.6.i", "3.2.6.g", "3.2.5.g", "3.2.2.b"]
 changelog:
   - { date: "2026-08-18", summary: "Initial publication from IRC §§ 7201, 7203, 7206, 7212 and 6663 and 18 U.S.C. § 3571, each opened at source." }
+  - { date: "2026-08-25", summary: "Added a plain-language summary, a decision diagram on the willfulness/affirmative-act line, typed scenarios, and glossary marks." }
+diagram:
+  archetype: "decision"
+  caption: "Willfulness and an affirmative act separate lawful avoidance from § 7203 and felony § 7201 evasion"
+  tests:
+    - { test: "Willful — a known duty, and intent to violate it?", result: "No: an honest mistake or a losing but arguable position — not evasion", outcome: "fail" }
+    - { test: "An affirmative act beyond mere omission — concealment, false records, a nominee account?", result: "No: omission alone — IRC § 7203 misdemeanor failure to file or pay", outcome: "fail" }
+    - { test: "Both present, aimed at assessment or payment", result: "IRC § 7201 felony evasion", outcome: "pass" }
 ---
+
+<div class="plain-terms">
+Tax avoidance means legally arranging your money to owe less tax. You claim a deduction, use a
+retirement account, or time a sale for a better year. It is normal and lawful, and it is most of what
+a good tax adviser does. Tax evasion is different. It is a crime: knowingly hiding income or lying
+about what you owe. The line between them is not the dollar amount, and it is not whether a bold
+position later gets rejected. It comes down to two things: did the person truly know what they owed,
+and did they take some active step to hide it? Anyone using the tax rules as written is doing
+avoidance. Only someone who knowingly conceals a real tax debt is evading it. This page shows exactly
+where that line falls.
+</div>
 
 Tax avoidance is arranging one's affairs so that the law imposes less tax. It is lawful, and it is most of what a practitioner is paid to do. Tax evasion is a felony. What separates them is not the amount saved, not how aggressive the position looks, and not whether the IRS ultimately disallows it. It is **willfulness** and, for the principal offence, an **affirmative act**. A representative who cannot state that distinction precisely cannot advise safely on either side of it.
 
@@ -70,25 +89,25 @@ Read § 7206(2) carefully: it applies "**whether or not** such falsity or fraud 
 
 **The civil fraud penalty has an all-or-nothing default.** Establish fraud as to any part of the underpayment and the whole underpayment is treated as fraudulent unless the taxpayer disproves it, by a preponderance, item by item. That default is why the civil fraud penalty is so much larger than the arithmetic of the fraudulent item alone suggests, and why the taxpayer's evidentiary work is on the non-fraudulent remainder.
 
-<div class="scenario">
+<div class="scenario" data-type="boundary">
 <h3>The aggressive position that lost</h3>
 <p>A client deducts $47,000 of expenses for a side business the examiner concludes was not carried on for profit. The deduction is disallowed and an accuracy-related penalty proposed. The client asks whether he is at risk of prosecution.</p>
-<p><em>Analysis.</em> On these facts, no. The activity and the expenses were reported; what is disputed is their characterisation. Evasion under IRC § 7201 requires a <em>willful attempt</em> to evade or defeat tax — a state of mind about a known duty, plus an affirmative act. Losing an arguable characterisation is neither. The exposure here is civil: the accuracy-related penalty, and the client's answer to it is reasonable cause and good faith.</p>
+<p><em>Analysis.</em> On these facts, no. The activity and the expenses were reported; what is disputed is their characterisation. Evasion under IRC § 7201 requires a <em>{gloss:willful} attempt</em> to evade or defeat tax — a state of mind about a known duty, plus an affirmative act. Losing an arguable characterisation is neither. The exposure here is civil: the accuracy-related penalty, and the client's answer to it is reasonable cause and good faith.</p>
 </div>
 
-<div class="scenario">
+<div class="scenario" data-type="interaction">
 <h3>The non-filer and the nominee account</h3>
 <p>Two clients have each failed to file for four years. The first simply did not file; the returns, when prepared, show modest balances. The second did not file and also routed his consulting receipts through an account in his brother's name and dealt only in cash.</p>
-<p><em>Analysis.</em> Different offences on the same failure. The first is IRC § 7203 territory — willful failure to file, a misdemeanor. The second has supplied the affirmative act that § 7201 requires: concealment through a nominee account and a deliberate avoidance of any paper trail turn the same non-filing into felony evasion. The representative's handling of the two should not be the same, and the second needs criminal counsel before anything is filed.</p>
+<p><em>Analysis.</em> Different offences on the same failure. The first is IRC § 7203 territory — willful failure to file, a misdemeanor. The second has supplied the affirmative act that § 7201 requires: concealment through a {gloss:nominee} account and a deliberate avoidance of any paper trail turn the same non-filing into felony evasion. The representative's handling of the two should not be the same, and the second needs criminal counsel before anything is filed.</p>
 </div>
 
-<div class="scenario">
+<div class="scenario" data-type="baseline">
 <h3>The figures the client supplied</h3>
 <p>A preparer is given a schedule of charitable contributions that she knows the client did not make — the client told her so, laughing, and asked her to "put them in anyway." She does.</p>
 <p><em>Analysis.</em> IRC § 7206(2) exposure, and it does not depend on the client. The section reaches willfully aiding or assisting in the preparation of a return that is false as to any material matter, "whether or not such falsity or fraud is with the knowledge or consent" of the person required to present it. Here the client is in it too, but the preparer's own offence is complete: a felony carrying up to three years, and, under 18 U.S.C. § 3571, a fine well above the figure printed in § 7206.</p>
 </div>
 
-<div class="scenario">
+<div class="scenario" data-type="procedural">
 <h3>The assets that moved before the levy</h3>
 <p>A client's returns are correct and the liability is fully reported. Facing a Final Notice of Intent to Levy, he transfers the balance of his business account to his spouse's account and tells the revenue officer the business has no funds.</p>
 <p><em>Analysis.</em> This is evasion, notwithstanding that nothing on any return was wrong. IRC § 7201 reaches a willful attempt to evade or defeat any tax "or <em>the payment thereof</em>." The transfer plus the false statement to the collection officer is the affirmative act. The statement may also be a separate offence, and corruptly obstructing the due administration of the internal revenue laws is reachable under IRC § 7212(a).</p>

@@ -24,7 +24,19 @@ forms: []
 related: ["1.2.1.f", "1.1.1.c", "1.1.1.o", "1.2.1.a", "1.2.1.h", "1.2.2.m"]
 changelog:
   - { date: "2026-08-19", summary: "Initial draft. Sets out the IRC § 911(d)(1) qualification tests, the IRC § 904(a) limitation with its carryback and carryover and the IRC § 904(j) de minimis election, and the IRC § 6114 disclosure requirement with its IRC § 6712 penalty." }
+  - { date: "2026-08-25", summary: "Added a plain-language summary, glossary marks, and two typed scenarios (boundary, timing) alongside the existing three." }
 ---
+
+<div class="plain-terms">
+A U.S. citizen or resident owes U.S. tax on income earned anywhere in the world, not just at home.
+Living or working abroad does not end that duty. This page is about the relief that keeps the same
+income from being taxed twice, once abroad and once at home. There are three tools: leaving some
+foreign wages out of income entirely, claiming credit for foreign tax already paid, and relying on a
+tax treaty. They interact in ways that trip people up. Choosing one tool can quietly shrink another, so
+picking the wrong one can cost real money. This mainly affects people who live abroad, work for a
+foreign employer, or earn foreign investment income. It rarely affects someone with no income from
+outside the United States.
+</div>
 
 A United States citizen or resident is taxed on income from everywhere. All citizens, **wherever
 resident**, and all resident aliens are liable to the income taxes imposed by the Code whether the
@@ -106,7 +118,7 @@ carryover rather than being lost — worth saying, because the client sees only 
 smaller than the tax paid. Where the facts are small and passive, the § 904(j) election trades that
 carryover for simplicity, which is a real trade rather than a free one.
 
-<div class="scenario">
+<div class="scenario" data-type="interaction">
 <h3>The exclusion that cost more than it saved</h3>
 
 Amara is a citizen working in a country with a high income tax. Her salary is $190,000, on which she
@@ -117,17 +129,17 @@ is barred from the credit by IRC § 911(d)(6) — it is properly allocable to am
 § 911(a). She shelters the excluded salary but loses most of the credit, and the tax on her remaining
 salary and her investment income has little to offset it.
 
-If instead she makes no § 911 election, the whole $61,000 is creditable, subject to the § 904(a)
+If instead she makes no § 911 election, the whole $61,000 is creditable, subject to the {gloss:foreign-tax-credit}'s § 904(a)
 proportion. On these facts the credit is likely to exceed her United States tax on the foreign income
 entirely, with the excess carrying back one year and forward ten under § 904(c). The exclusion is the
 worse answer, and the only way to know is to compute both.
 </div>
 
-<div class="scenario">
+<div class="scenario" data-type="fails">
 <h3>Two hundred and fourteen days is not three hundred and thirty</h3>
 
 Tomas, a citizen, moved abroad on 1 June and returned the following 1 January. His tax home was abroad
-throughout and his employer told him he qualified for the exclusion.
+throughout and his employer told him he qualified for the {gloss:foreign-earned-income-exclusion}.
 
 He does not, on either route. IRC § 911(d)(1)(A) requires bona fide residence for an uninterrupted
 period that includes **an entire taxable year**, and his stay spans parts of two calendar years without
@@ -139,7 +151,7 @@ containing 330 full days would exist, and the exclusion would be available on a 
 tax year. The test is days in a window, not calendar years, so the window may straddle two returns.
 </div>
 
-<div class="scenario">
+<div class="scenario" data-type="baseline">
 <h3>The small credit and the simple election</h3>
 
 Priya has $2,300 of foreign dividend and interest income from a European fund, with $210 of foreign tax
@@ -153,6 +165,34 @@ The price is in § 904(j)(1)(B) and (C): no part of this year's tax may be carri
 no tax from another year may be carried into this one. On $210 that is a sensible trade. On facts where
 the foreign tax is close to the ceiling and her limitation would otherwise leave an excess worth
 carrying, it would not be — and the election is made year by year, so it should be re-decided each time.
+</div>
+
+<div class="scenario" data-type="boundary">
+<h3>Ten dollars over the line</h3>
+
+Malik and his wife file jointly. Their foreign dividend withholding for the year comes to $610, all
+from qualified passive income reported on payee statements. Their neighbors have identical foreign
+holdings but $600 of withholding exactly.
+
+IRC § 904(j) opens the simplified election to a married couple filing jointly with creditable foreign
+taxes of $600 or less. The neighbors qualify precisely; Malik and his wife, ten dollars over, must run
+the full § 904(a) limitation computation like anyone else with a larger foreign tax credit. The
+election has a bright line, not a phase-out, so crossing it by any amount loses the simplification
+entirely.
+</div>
+
+<div class="scenario" data-type="timing">
+<h3>The election that outlived its usefulness</h3>
+
+Deniz elected the foreign earned income exclusion years ago while posted to a low-tax country, where it
+worked well. He has since transferred to a high-tax country, and the exclusion now costs him more in
+forfeited credit than it saves.
+
+The § 911 election continues in force until revoked; it does not automatically stop applying when the
+facts that made it favorable change. Deniz's posting changed, but his election did not change with it.
+He can revoke it, but a revocation carries its own consequences for re-electing in a later year — so the
+decision made when he was in the low-tax country still governs his high-tax return unless he
+affirmatively acts.
 </div>
 
 <div class="callout trap">

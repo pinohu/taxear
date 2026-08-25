@@ -18,9 +18,21 @@ forms: []
 related: ["3.1.3.b", "3.1.2.g", "3.1.1.a", "3.1.2.d", "3.1.2.p"]
 changelog:
   - { date: "2026-08-18", summary: "Initial publication from Circular 230 §§ 10.24 and 10.25 as amended by T.D. 9527." }
+  - { date: "2026-08-25", summary: "Added a plain-language summary, glossary marks, and typed scenarios." }
 ---
 
-Two sections, two jobs. Circular 230 § 10.24 governs the **practitioner in good standing** who deals with someone barred from practice. § 10.25 governs the **former government employee** and, through its firm rule, everyone who works with them.
+<div class="plain-terms">
+This page is about the limits placed on hiring help from a disbarred or suspended tax pro, and
+on hiring a former government worker. A tax pro in good standing may not knowingly take help
+from, or give help to, someone barred from IRS work. A former government worker faces their own
+limits, some lasting a lifetime, some for a set number of years. This affects tax firms,
+practitioners, and anyone who once worked for the IRS or another government body and later
+joined private practice. It does not touch clients directly. What it decides is how long a
+former government worker stays barred from a given case, and when their whole firm gets pulled
+in too.
+</div>
+
+Two sections, two jobs. {gloss:circular-230} § 10.24 governs the **practitioner in good standing** who deals with someone barred from practice. § 10.25 governs the **former government employee** and, through its firm rule, everyone who works with them.
 
 ## The rule
 
@@ -72,22 +84,22 @@ Read the firm rule's scope carefully. § 10.25(c)(1) is keyed to matters "with r
 
 Back to § 10.24, the practitioner-facing rule. Three elements limit it. The practitioner must act **knowingly** — an unwitting engagement is not a § 10.24 violation, though § 10.22 diligence and the § 10.36 supervisory duty may still be in play. The prohibition reaches conduct **directly or indirectly**, so routing the work through an intermediary does not help. And under (a) the assistance must relate to **a matter constituting practice before the IRS**; a disbarred person may still be engaged for work that is not.
 
-<div class="scenario">
+<div class="scenario" data-type="baseline">
 <h3>The revenue agent who worked the case</h3>
-<p>Priya Raghavan was a revenue agent who conducted the 2023 examination of Larkspur Dental Group, meeting the owners and developing the adjustments herself. She leaves the IRS in 2026 and joins a tax firm. Larkspur, still contesting the same 2023 adjustments in Appeals, asks the firm to take the case and asks specifically for Priya.</p>
+<p>Priya Raghavan was a revenue agent who conducted the 2023 examination of Larkspur Dental Group, meeting the owners and developing the adjustments herself. She leaves the IRS in 2026 and joins a tax firm. Larkspur, still contesting the same 2023 adjustments in {gloss:appeals}, asks the firm to take the case and asks specifically for Priya.</p>
 <p><em>Analysis.</em> Priya personally and substantially participated in this particular matter involving these specific parties, so § 10.25(b)(2) bars her from representing or knowingly assisting Larkspur in it — permanently. Because (b)(2) applies, the firm rule in § 10.25(c)(1) engages: another member of the firm may take the case only if the firm isolates Priya from it. That requires the sworn statement of § 10.25(c)(2), signed by Priya and by another member of the firm, identifying the firm, Priya and the Larkspur matter, retained by the firm and produced to the IRS on request. Nothing bars Priya from representing Larkspur on an unrelated later year.</p>
 </div>
 
-<div class="scenario">
+<div class="scenario" data-type="boundary">
 <h3>The group manager's portfolio</h3>
 <p>Owen Brice was a group manager whose group handled the Meridian Freight examination. He never worked the file, but it was within his official responsibility until he left the IRS in March 2026. Meridian approaches him in September 2026.</p>
 <p><em>Analysis.</em> Official responsibility within the year before termination, not personal and substantial participation. Section 10.25(b)(3) bars Owen from representing Meridian in that particular matter until March 2028 — two years after his employment ended. Because the trigger is (b)(3) and not (b)(2), the firm rule in § 10.25(c)(1) does not reach his colleagues: another member of the firm may represent Meridian without an isolation statement, provided Owen does not represent or assist in the matter.</p>
 </div>
 
-<div class="scenario">
+<div class="scenario" data-type="interaction">
 <h3>The suspended practitioner's research</h3>
 <p>An enrolled agent is suspended for eighteen months. A former colleague, still in good standing, engages her to research issues and draft memoranda for cases she is handling before the IRS. The suspended agent never signs anything, never appears, and is not named to any client.</p>
-<p><em>Analysis.</em> Prohibited by § 10.24(a) on both sides. The practitioner in good standing may not knowingly accept assistance from a person under suspension where the assistance relates to matters constituting practice before the IRS, and the suspended agent is being assisted in return. That the arrangement is invisible to clients and to the IRS is what "indirectly" is there to catch. Both are exposed: the practitioner under § 10.24, the suspended agent under the terms of her suspension.</p>
+<p><em>Analysis.</em> Prohibited by § 10.24(a) on both sides. The practitioner in good standing may not knowingly accept assistance from a person under suspension where the assistance relates to matters constituting practice before the IRS, and the suspended agent is being assisted in return. That the arrangement is invisible to clients and to the IRS is what "indirectly" is there to catch. Both are exposed: the practitioner under § 10.24, the suspended agent under the terms of her {gloss:suspension-practitioner}.</p>
 </div>
 
 <div class="callout trap">

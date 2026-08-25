@@ -21,7 +21,26 @@ forms:
 related: ["3.2.1.a", "3.2.1.j", "3.2.1.i", "3.2.1.c", "3.2.1.e", "3.2.1.g", "1.1.1.l"]
 changelog:
   - { date: "2026-08-18", summary: "Initial publication from the Instructions for Forms 2848 and 8821 and IRC § 6103(c)." }
+  - { date: "2026-08-25", summary: "Added a plain-language summary, typed scenarios, glossary marks, and a decision diagram for choosing between the two forms." }
+diagram:
+  archetype: "decision"
+  caption: "Form 8821 or Form 2848 — which one the situation calls for"
+  tests:
+    - { test: "Need someone to speak for you, argue your position, or attend a conference?", result: "Form 2848 required", outcome: "fail" }
+    - { test: "Need them to sign a consent, waiver, or closing agreement?", result: "Form 2848, with that act specifically authorized", outcome: "fail" }
+    - { test: "Only need someone to see or receive your confidential tax information?", result: "Form 8821 is enough", outcome: "pass" }
+    - { test: "Naming a bank, firm, or family member instead of a licensed practitioner?", result: "Form 8821 — Form 2848 isn't available to them", outcome: "pass" }
 ---
+
+<div class="plain-terms">
+Two IRS forms let someone else get involved with your taxes, and they do very different
+jobs. Form 8821 only lets a person or company see or get your tax information — nothing
+more. Form 2848 lets a licensed tax pro actually act for you: argue your case, sign
+deals, and deal with the IRS as your stand-in. Anyone can be named on Form 8821, even a
+bank or a family member, but only a licensed pro can be named on Form 2848. Filing one
+form does not cancel the other. A taxpayer can have both in effect at once, for
+different people.
+</div>
 
 One form grants **access**; the other grants **authority**. Form 8821 lets a designee see and receive confidential tax information. Form 2848 lets a representative act. Almost every examinable distinction between them follows from that one line, including who may be named, what the holder may do, and how each is revoked.
 
@@ -77,28 +96,28 @@ To revoke a Form 8821 without filing a new one, the taxpayer writes "**REVOKE**"
 
 **Where a fiduciary is involved, neither form is the right one first.** The Form 8821 instructions point to **Form 56**: a fiduciary — trustee, executor, administrator, receiver or guardian — **stands in the position of the taxpayer and acts as the taxpayer, not as a representative**. Once that relationship is noticed, the fiduciary may file a power of attorney naming a representative, and because the fiduciary stands in the taxpayer's shoes, **the fiduciary signs it** on behalf of the person or entity.
 
-<div class="scenario">
+<div class="scenario" data-type="baseline">
 <h3>The lender's request</h3>
 <p>A client applying for a commercial mortgage asks her enrolled agent to arrange for the bank to receive her return transcripts. The agent already holds a Form 2848 for the same years.</p>
-<p><em>Analysis.</em> The Form 2848 does not help — it authorises the agent, not the bank, and a designee cannot execute a request to disclose to a further third party in any event. The right instrument is a Form 8821 naming the bank, which may be named because Form 8821 reaches any corporation, firm, organization or partnership. Because the purpose is income verification for a lender rather than resolving an IRS matter, the IRS must receive the form within 120 days of the client's signature date.</p>
+<p><em>Analysis.</em> The Form 2848 does not help — it authorises the agent, not the bank, and a designee cannot execute a request to disclose to a further third party in any event. The right instrument is a {gloss:tax-information-authorization} naming the bank, which may be named because Form 8821 reaches any corporation, firm, organization or partnership. Because the purpose is income verification for a lender rather than resolving an IRS matter, the IRS must receive the form within 120 days of the client's signature date.</p>
 </div>
 
-<div class="scenario">
+<div class="scenario" data-type="fails">
 <h3>The designee who tried to settle</h3>
 <p>A client names his unenrolled bookkeeper on a Form 8821 for an examination year. The bookkeeper telephones the examiner, argues that the disallowed expenses are deductible, and offers to sign a waiver of restrictions on assessment to close the case.</p>
 <p><em>Analysis.</em> Three prohibitions breached at once. Form 8821 does not authorise the designee to speak on the taxpayer's behalf, to advocate the taxpayer's position on federal tax law, or to execute waivers, consents or closing agreements. Those acts require a Form 2848 — and the bookkeeper could not hold one, because a Form 2848 representative must be eligible to practise before the IRS.</p>
 </div>
 
-<div class="scenario">
+<div class="scenario" data-type="interaction">
 <h3>Two authorisations, one revoked</h3>
 <p>A taxpayer has a Form 8821 on file naming her payroll firm and a Form 2848 naming her first enrolled agent. She engages a second enrolled agent and files a new Form 2848 for the same years without checking the retention box.</p>
 <p><em>Analysis.</em> The first enrolled agent's power of attorney is revoked, because a Form 2848 the IRS records generally revokes an earlier power previously recorded for the same matter. The payroll firm's Form 8821 is untouched — filing a Form 2848 does not revoke a Form 8821. The payroll firm keeps receiving copies of notices until the taxpayer revokes that authorisation separately.</p>
 </div>
 
-<div class="scenario">
+<div class="scenario" data-type="procedural">
 <h3>The executor</h3>
 <p>An executor wants to appoint an enrolled agent to handle the decedent's final return examination and asks whether he should sign a Form 8821 or have the estate sign a Form 2848.</p>
-<p><em>Analysis.</em> He notifies the IRS of the fiduciary relationship on Form 56 first. A fiduciary stands in the position of the taxpayer and acts <em>as</em> the taxpayer rather than as a representative. Having done so, he may file a Form 2848 naming the enrolled agent — and because he stands in the taxpayer's shoes, the executor signs that power of attorney on the estate's behalf.</p>
+<p><em>Analysis.</em> He notifies the IRS of the fiduciary relationship on Form 56 first. A fiduciary stands in the position of the taxpayer and acts <em>as</em> the taxpayer rather than as a representative. Having done so, he may file a {gloss:power-of-attorney} naming the enrolled agent — and because he stands in the taxpayer's shoes, the executor signs it on the estate's behalf.</p>
 </div>
 
 <div class="callout trap">

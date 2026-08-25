@@ -27,7 +27,18 @@ forms: ["990-T", "990"]
 related: ["2.3.2.a", "2.3.2.b", "2.3.2.c", "2.1.1.f"]
 changelog:
   - { date: "2026-08-21", summary: "Initial draft. Sets out the three cumulative tests of IRC § 513(a) and Treas. Reg. § 1.513-1, the statutory exceptions for volunteer labour, member convenience and donated merchandise, the IRC § 513(c) fragmentation rule, qualified sponsorship payments under IRC § 513(i), the IRC § 512(b) modifications that pull most investment income back out, the IRC § 512(b)(13) controlled entity rule, IRC § 514 debt-financed income, and the IRC § 512(a)(6) silo rule with the NAICS identification method of Treas. Reg. § 1.512(a)-6(b)." }
+  - { date: "2026-08-25", summary: "Added a plain-language summary, typed the three scenarios, and marked one glossary term." }
 ---
+
+<div class="plain-terms">
+This page is about when a tax-exempt group must pay regular tax on some of its own earnings. It
+affects charities, clubs, and groups that run a business alongside their main work, like a gift
+shop or a rented building. Three things must all be true before that income counts this way: it
+comes from something like an ordinary business, that business runs often rather than just once a
+year, and it does not really help the group's main purpose. Spending the money on the mission does
+not excuse income that fails this test. Some income, like rent or interest, is normally left alone,
+though a few rules bring it back into the tax. This page walks through how that line gets drawn.
+</div>
 
 Exemption is from tax on income related to the exempt purpose. It was never a licence to run an
 ordinary business tax-free, and IRC § 511 says so by taxing what is left over at ordinary corporate
@@ -115,7 +126,7 @@ business by its two-digit NAICS code, compute each separately, floor each at zer
 single specific deduction against the total. An organisation with a profitable parking operation
 and a loss-making advertising operation cannot net them.
 
-<div class="scenario">
+<div class="scenario" data-type="baseline">
 
 <h3>The journal that carries advertising</h3>
 
@@ -135,7 +146,7 @@ Form 990-T is required because gross income counted toward UBTI is far above the
 
 </div>
 
-<div class="scenario">
+<div class="scenario" data-type="timing">
 
 <h3>The mortgage on the office building</h3>
 
@@ -143,7 +154,7 @@ A charity owns a four-storey building. It occupies the top two floors and leases
 unrelated commercial tenants for $96,000 a year. In year one the building is owned outright and the
 charity reports no unrelated business income from it. In year two the charity borrows $600,000
 against the building to fund a programme expansion. Average acquisition indebtedness for year two is
-$580,000 and the average adjusted basis of the building is $1,450,000.
+$580,000 and the average adjusted {gloss:basis} of the building is $1,450,000.
 
 Year one is right: rents from real property are excluded by IRC § 512(b)(3), and leasing space is
 not an unrelated trade or business when the exclusion applies. Year two is different. IRC § 512(b)(4)
@@ -156,7 +167,7 @@ answer.
 
 </div>
 
-<div class="scenario">
+<div class="scenario" data-type="boundary">
 
 <h3>The sponsor who wanted a little more</h3>
 

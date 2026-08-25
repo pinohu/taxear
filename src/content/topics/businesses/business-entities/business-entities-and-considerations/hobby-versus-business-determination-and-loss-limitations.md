@@ -19,7 +19,25 @@ forms: []
 related: ["2.1.1.a", "2.1.1.j", "2.1.1.b", "2.1.1.c"]
 changelog:
   - { date: "2026-08-21", summary: "Initial draft. Sets out the IRC § 183(a) disallowance and the § 183(c) definition by reference to §§ 162 and 212, the § 183(b) two-tier allowance and the Reg. § 1.183-1(b)(1) ordering that implements it, the § 183(d) presumption with its 3-of-5 and 2-of-7 tests and the § 183(e) election to postpone the determination, the nine Reg. § 1.183-2(b) factors with the regulation's own warning that they are not a scorecard, and the effect of IRC § 67(h) — the miscellaneous itemized deduction suspension made permanent by Pub. L. 119-21 § 70110(a) and redesignated by § 70110(b)(2) — which leaves the § 183(b)(2) tier without practical effect for an individual." }
+  - { date: "2026-08-25", summary: "Added a plain-language summary, a decision diagram of the § 183(d) presumption, glossary marks, and typed scenarios." }
+diagram:
+  archetype: "decision"
+  caption: "The § 183(d) presumption — what triggers it, and what happens if it isn't met"
+  tests:
+    - { test: "Horse breeding, training, showing, or racing activity?", result: "Presumption tested over 2 of the last 7 years", outcome: "pass" }
+    - { test: "Any other activity — profitable in 3 of the last 5 years?", result: "Presumed engaged in for profit; the IRS must show otherwise", outcome: "pass" }
+    - { test: "Presumption test not met", result: "No presumption either way — decided under the Reg. § 1.183-2(b) facts and circumstances", outcome: "fail" }
+    - { test: "Taxpayer elects to postpone under § 183(e)", result: "Determination delayed to year 4 (year 6 for horse activities), then applied retroactively", outcome: "pass" }
 ---
+
+<div class="plain-terms">
+This page is about the line between a hobby and a real business. That line matters because the tax rules
+on each side are very different. It affects anyone with a side activity that brings in some money but also
+costs money, like a small craft business, a horse hobby, or freelance art. It does not affect an activity
+that clearly turns a profit most years, or one that is plainly just for fun with no thought of profit at
+all. What this decides is harsh: if an activity counts as a hobby, its income is still taxed, but none of
+its costs can be deducted at all, not even to offset that income.
+</div>
 
 The hobby loss rules are usually taught as a rule about deductions, and since 2018 they have not been
 that. An individual whose activity is not engaged in for profit reports the gross income and deducts
@@ -103,7 +121,7 @@ partial, which is the opposite of how the topic was taught for fifty years.
 
 ## Scenarios
 
-<div class="scenario">
+<div class="scenario" data-type="boundary">
 <h3>The photographer with two profitable years</h3>
 <p>Renata has run a portrait photography business alongside her employment since 2021. It produced losses
 in 2021, 2022 and 2023, and net income of $4,100 in 2024 and $6,800 in 2025. In 2026 it produces a loss of
@@ -118,12 +136,12 @@ continuing. On these facts the activity is a business, the 2026 loss is deductib
 the presumption is simply not the route to that answer.</p>
 </div>
 
-<div class="scenario">
+<div class="scenario" data-type="fails">
 <h3>The consultant who sold pottery</h3>
 <p>Jae-won earns $310,000 a year as a management consultant. He also throws pottery, sells pieces at three
 weekend fairs a year, and in 2026 receives $7,400 from sales against $19,000 of studio rent, materials and
 kiln costs. He has no separate books, no business plan, and describes the studio as the best part of his
-week. He asks whether he can deduct the $11,600 net loss.</p>
+week. He asks whether the {gloss:hobby-loss-rules} let him deduct the $11,600 net loss.</p>
 <p>He cannot deduct anything, and the answer is worse than he expects. The activity is not engaged in for
 profit — substantial income from other sources, losses generating substantial tax benefits, plain
 recreational elements, no businesslike conduct, no separate records — so IRC § 183(a) disallows the
@@ -133,7 +151,7 @@ reports $7,400 of gross income and deducts none of the $19,000. A pre-2018 textb
 broke even.</p>
 </div>
 
-<div class="scenario">
+<div class="scenario" data-type="baseline">
 <h3>The vineyard and the appreciating land</h3>
 <p>A couple plant a small commercial vineyard in 2024 on land they bought for the purpose. They expect no
 operating profit for at least eight years, which is normal for the crop. They keep full books, employ a
@@ -148,9 +166,9 @@ in for profit. They should also consider the IRC § 183(e) election, which would
 determination until enough years have run to apply it.</p>
 </div>
 
-<div class="scenario">
+<div class="scenario" data-type="interaction">
 <h3>The S corporation that was a hobby</h3>
-<p>Two friends incorporate an S corporation to restore and sell vintage motorcycles. It generates
+<p>Two friends incorporate an {gloss:s-corporation} to restore and sell vintage motorcycles. It generates
 $40,000 of sales and $95,000 of expenses in 2026. Both shareholders have substantial employment income,
 neither devotes more than a few hours a week to it, and the workshop is attached to one of their homes.</p>
 <p>IRC § 183(a) applies by its terms to an activity engaged in by an individual *or an S corporation*, so

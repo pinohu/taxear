@@ -21,7 +21,20 @@ forms:
 related: ["3.2.1.a", "3.2.1.i", "3.2.1.c", "3.1.1.a", "3.2.1.h", "3.2.1.e", "3.2.1.k"]
 changelog:
   - { date: "2026-08-18", summary: "Initial publication from 26 CFR § 601.506(d)." }
+  - { date: "2026-08-25", summary: "Added a plain-language summary, typed scenarios, and glossary marks." }
 ---
+
+<div class="plain-terms">
+The Centralized Authorization File, or CAF, is the IRS's own list of who can act for whom.
+When a taxpayer names a representative on a form, the IRS logs it here. Then staff can
+check the grant fast, with no need to pull the paper copy. Getting a CAF number does not
+mean the IRS thinks you may act as a representative. That question is answered by a
+separate set of rules. The CAF just speeds up filing and lookup. It matters to anyone who
+files a form naming a representative, or to the representative named on it. It does not
+matter to someone who deals with the IRS alone. It decides whether staff can see a grant on
+file, and it caps what the file will hold, such as how many years ahead it covers and how
+many names it lists.
+</div>
 
 The Centralized Authorization File is a database and the number is a filing key. Neither confers anything. The regulation is unusually explicit on that point, and equally explicit about the limits on what the system records — limits that catch practitioners who assume a filed authorisation is a recorded one.
 
@@ -68,25 +81,25 @@ And the closing sentence: the fact that a document **cannot be recorded is not d
 
 **Recording also decides how far a revocation reaches.** Line 6 of the Form 2848 instructions ties revocation to the CAF: a **recorded** power generally revokes any earlier power **previously recorded for the same matter**, while a **specific-use or unrecorded** power revokes only an earlier one **on file with the same office for the same matters**. Filing a Form 2848 does **not** revoke a Form 8821.
 
-<div class="scenario">
+<div class="scenario" data-type="fails">
 <h3>The number that proves nothing</h3>
 <p>An unenrolled bookkeeper named as appointee on a client's Form 8821 receives a CAF number. She tells a revenue agent it establishes her authority to discuss the examination and negotiate the adjustments.</p>
-<p><em>Analysis.</em> It establishes neither. Reg. § 601.506(d)(2) says issuance of a CAF number does not indicate that a person is either recognized or authorized to practise before the IRS — that is determined under Circular 230. A tax information authorization lets an appointee receive and inspect confidential tax information; it confers no authority to represent, advocate or negotiate.</p>
+<p><em>Analysis.</em> It establishes neither. Reg. § 601.506(d)(2) says issuance of a CAF number does not indicate that a person is either recognized or authorized to practise before the IRS — that is determined under Circular 230. A {gloss:tax-information-authorization} lets an appointee receive and inspect confidential tax information; it confers no authority to represent, advocate or negotiate.</p>
 </div>
 
-<div class="scenario">
+<div class="scenario" data-type="boundary">
 <h3>Five names on one form</h3>
 <p>A firm files a Form 2848 naming five enrolled agents for a corporate examination. Two of the five later complain that they never receive IRS correspondence, and conclude their appointments were rejected.</p>
 <p><em>Analysis.</em> All five are appointed; only three are recorded. Reg. § 601.506(d)(3)(iv) records no more than three representatives and, where more are named, only the first three. Because § 601.506(d)(1)(iii) makes the CAF the route by which copies of computer-generated notices are sent, the fourth and fifth will not receive them automatically. The fix is the ordering on the form, not a new appointment.</p>
 </div>
 
-<div class="scenario">
+<div class="scenario" data-type="procedural">
 <h3>The private letter ruling file</h3>
-<p>An enrolled agent files a Form 2848 to represent a client in a private letter ruling request. Weeks later she is told no authorisation appears on the CAF.</p>
+<p>An {gloss:enrolled-agent} files a Form 2848 to represent a client in a {gloss:private-letter-ruling} request. Weeks later she is told no authorisation appears on the CAF.</p>
 <p><em>Analysis.</em> The authorisation is effective; it is simply not recorded. The Form 2848 instructions describe a specific-use power of attorney — a one-time or specific-issue grant, or one not relating to a specific tax period, except for civil penalties — as one the IRS does not record, and list private letter ruling and technical advice requests first among the examples. Reg. § 601.506(d)(3)(i) is to the same effect. She should expect to furnish the document itself, and line 6's narrower revocation rule applies: an unrecorded power revokes only an earlier one on file with the same office for the same matters.</p>
 </div>
 
-<div class="scenario">
+<div class="scenario" data-type="timing">
 <h3>Quarters too far out</h3>
 <p>A power of attorney received by the IRS in March 2026 authorises representation on Form 941 for every quarter from March 2026 through December 2032. In 2031 the representative is told no authorisation exists for that year.</p>
 <p><em>Analysis.</em> Only quarters ending through <strong>31 December 2029</strong> were recorded — the Form 2848 instructions bar recording future periods exceeding three years from 31 December of the year of receipt. (Reg. § 601.506(d)(3)(ii), written in 1991, measures from the date of receipt and would stop at March 2029; the instructions are the operative rule.) Either way, the closing sentence of § 601.506(d)(3) says the document is <em>not invalid</em> for the unrecorded periods and can be resubmitted later. The cure is resubmission, not a new grant of authority.</p>

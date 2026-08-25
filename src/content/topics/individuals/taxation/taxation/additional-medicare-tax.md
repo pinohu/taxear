@@ -19,7 +19,18 @@ forms: []
 related: ["1.4.1.i", "1.4.1.e", "1.4.1.d", "1.4.1.b", "1.4.1.k"]
 changelog:
   - { date: "2026-08-19", summary: "Initial draft. Sets out the IRC § 3101(b)(2) and § 1401(b)(2) 0.9 percent tax with its unindexed thresholds, the mismatch between the § 3102(f)(1) withholding trigger and the liability threshold, the absence of any employer match, the ordering rule between wages and self-employment income, and the relationship with the § 1411 net investment income tax." }
+  - { date: "2026-08-25", summary: "Added a plain-language summary, two typed scenarios (timing, procedural), and glossary marks." }
 ---
+
+<div class="plain-terms">
+This is an extra Medicare tax on top of the regular one. It kicks in once a worker's pay, or a
+self-employed person's earnings, cross a set dollar line for the year. It hits higher earners, and it
+often catches two-earner couples by surprise, since each spouse can earn a solid amount and still cross
+the joint line together. It does not touch anyone whose total pay stays under that line. The tricky part
+is timing: an employer only sees its own paychecks, so it may hold back too little, or nothing at all,
+even when the tax is truly owed. This page shows how the real amount owed is worked out, and how any gap
+gets settled when the return is filed.
+</div>
 
 Every other employment tax is withheld at the rate the employee owes. This one is not. The employer
 withholds once wages from that employer pass one figure, while the employee's liability is measured
@@ -83,7 +94,7 @@ two-earner couple or a taxpayer with several jobs will almost always be under-wi
 additional income tax withholding on a Form W-4 is the simplest fix, since additional withholding is
 credited against total liability without regard to which tax it was labelled for.
 
-<div class="scenario">
+<div class="scenario" data-type="baseline">
 <h3>Wages and self-employment income together</h3>
 
 Kwabena is single with $185,000 of wages and $35,000 of net self-employment income.
@@ -95,7 +106,7 @@ The wages are counted first and reduce the threshold available to the self-emplo
 which produces the same answer by the other route.
 </div>
 
-<div class="scenario">
+<div class="scenario" data-type="interaction">
 <h3>Withheld too much, on a joint return</h3>
 
 Amara earns $210,000 and her husband Tobias earns $65,000. Her employer withholds the additional
@@ -107,7 +118,7 @@ return. Had Tobias earned nothing, the same $90 would have been withheld against
 and the $90 would have come back as part of their refund.
 </div>
 
-<div class="scenario">
+<div class="scenario" data-type="boundary">
 <h3>Two employers, no withholding, real liability</h3>
 
 Sione is single and works for two unrelated companies, each paying $150,000.
@@ -117,6 +128,31 @@ Neither employer's wages exceed $200,000, so under § 3102(f)(1) neither withhol
 threshold is $200,000, and he owes 0.9 percent of $100,000, or $900, entirely at filing. This is the
 same structural problem as excess social security withholding at 1.4.1.e, running in the opposite
 direction: there, two employers cause over-withholding; here, they cause none at all.
+</div>
+
+<div class="scenario" data-type="timing">
+<h3>The threshold that got smaller in real terms</h3>
+
+Priyanka earned $185,000 in wages in 2014, comfortably under the $200,000 threshold, and owed nothing on
+this tax. She kept the same job, and by 2026 ordinary raises — mostly tracking inflation rather than a
+promotion — brought her wages to $205,000.
+
+The threshold has not moved since 2013, so the same $200,000 line that missed her in 2014 catches her in
+2026. Her employer withholds 0.9 percent of the $5,000 above the line, or $45. Nothing about the statute
+changed to cause it; her nominal pay simply grew while the line stood still.
+</div>
+
+<div class="scenario" data-type="procedural">
+<h3>No employer to withhold at all</h3>
+
+Genevieve is a self-employed consultant with no wages and $260,000 of net self-employment income for the
+year. No employer exists to withhold anything on her behalf, so the entire tax is her own responsibility.
+
+She works out her liability — 0.9 percent of the $60,000 above the single filer's $200,000 threshold, or
+$540 — and includes it with her quarterly estimated payments alongside her regular
+{gloss:self-employment-tax}, rather than waiting to report it only at filing. Because this tax is
+separate from the {gloss:net-investment-income-tax}, she owes it even though none of her income is
+investment income.
 </div>
 
 <div class="callout trap">

@@ -22,7 +22,18 @@ forms: []
 related: ["1.6.2.a", "1.6.2.b", "1.6.2.c", "1.6.2.e", "1.6.1.a"]
 changelog:
   - { date: "2026-08-20", summary: "Initial draft. Covers what lifetime gifts do to the estate tax — the IRC § 2001(b)(1)(B) add-back of adjusted taxable gifts and the § 2035(b) gross-up for gift tax paid within three years of death — and the third transfer tax: the § 2611 definitions, the § 2613(a) skip person test, generation assignment by family under § 2651(b) and by age only under § 2651(d), the § 2651(c) and (e) spouse and predeceased parent rules, the flat § 2641 rate and the § 2631 exemption." }
+  - { date: "2026-08-25", summary: "Added a plain-language summary, typed scenarios, and glossary marks under the comprehension-layer rollout." }
 ---
+
+<div class="plain-terms">
+This page explains what happens after someone gives away money or property, then dies later. A gift
+does not vanish from the tax count. It can come back when the estate tax is figured at death. Gift tax
+paid shortly before death can come back too. This mostly matters for people making very large gifts —
+far more than most families ever give. Everyday gifts to children or grandchildren are not affected.
+There is also a separate tax on gifts that skip a generation, such as a grandparent giving straight to a
+grandchild while the parent is still alive. That tax uses one flat rate, not a scale. It has its own
+allowance, and a family must actually use that allowance or lose it.
+</div>
 
 Two things about lifetime giving surprise clients who thought a gift ended the matter. The first is that
 gifts come back: taxable gifts are added to the estate tax base at death, and gift tax paid on gifts made
@@ -112,33 +123,33 @@ handle simple direct skips; anything involving a trust needs a decision on the F
 portability election. There is no equivalent for the GST exemption — an unused amount dies with the
 first spouse, which is a reason for the first estate to allocate rather than leave it.
 
-<div class="scenario">
+<div class="scenario" data-type="timing">
 <h3>The gift that did not shrink the estate</h3>
 
-A client with an exhausted credit gives her son $6,000,000 and pays $2,400,000 of gift tax. She dies
-twenty months later with a remaining estate of $9,000,000.
+A client with an exhausted credit gives her son $6,000,000 and pays $2,400,000 of {gloss:gift-tax}. She
+dies twenty months later with a remaining estate of $9,000,000.
 
-Her gross estate is $11,400,000, not $9,000,000, because § 2035(b) adds the gift tax paid within the
-three-year period. And the $6,000,000 gift itself returns to the computation as an adjusted taxable gift
-under § 2001(b)(1)(B). What she achieved was to remove twenty months of growth on $6,000,000 from her
+Her {gloss:gross-estate} is $11,400,000, not $9,000,000, because § 2035(b) adds the gift tax paid within
+the three-year period. And the $6,000,000 gift itself returns to the computation as an adjusted taxable
+gift under § 2001(b)(1)(B). What she achieved was to remove twenty months of growth on $6,000,000 from her
 estate. Had she lived past the three-year mark, the $2,400,000 of tax would have been out of the estate
 permanently, which is the real benefit of paying gift tax early.
 
 </div>
 
-<div class="scenario">
+<div class="scenario" data-type="baseline">
 <h3>The 40-year age gap that was not a skip</h3>
 
 A client of 71 has a son of 31, born late in his life, and gives him $500,000.
 
-There is no generation-skipping transfer. The son is a lineal descendant of a grandparent of the
-transferor, so § 2651(b) assigns him by counting generations on the family tree — one generation down —
-and the 40-year age gap is irrelevant. The 37½ year test in § 2651(d) applies only to an individual whom
-the family rules do not place, and a son is placed.
+There is no {gloss:generation-skipping-transfer-tax}. The son is a lineal descendant of a grandparent of
+the transferor, so § 2651(b) assigns him by counting generations on the family tree — one generation
+down — and the 40-year age gap is irrelevant. The 37½ year test in § 2651(d) applies only to an
+individual whom the family rules do not place, and a son is placed.
 
 </div>
 
-<div class="scenario">
+<div class="scenario" data-type="interaction">
 <h3>The grandchild who was not a skip person</h3>
 
 A woman wants to leave $2,000,000 to her granddaughter. Her son, the granddaughter's father, died two
@@ -151,7 +162,7 @@ allocation is needed and no chapter 13 tax arises.
 
 </div>
 
-<div class="scenario">
+<div class="scenario" data-type="fails">
 <h3>The tuition that escaped three taxes</h3>
 
 A grandfather pays $70,000 of his granddaughter's medical school tuition directly to the university.

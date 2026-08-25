@@ -24,7 +24,17 @@ forms: ["5500", "5500-SF", "5500-EZ", "5558", "8955-SSA", "5330", "8868"]
 related: ["2.3.3.a", "2.3.3.d", "2.3.3.e", "2.3.3.c", "2.3.3.f"]
 changelog:
   - { date: "2026-08-21", summary: "Initial draft. Sets out the IRC § 6058(a) annual return and which of Form 5500, Form 5500-SF and Form 5500-EZ applies, the one-participant plan definition, the last-day-of-the-seventh-month due date and the Form 5558 extension, the Treas. Reg. § 301.6058-2 ten-return electronic filing threshold with its IRC § 414(b)-(o) aggregation, the IRC § 6057(a) registration statement on Form 8955-SSA, and the IRC § 6652(d) and (e) penalties as increased by SECURE Act § 403 for filings due after 2019." }
+  - { date: "2026-08-25", summary: "Added a plain-language summary, glossary marks, and typed scenarios." }
 ---
+
+<div class="plain-terms">
+A retirement plan must send the government a report every year, apart from any tax return the
+business files. This affects anyone who runs a retirement plan, whether it covers one person or
+hundreds. It decides which form to use, when it is due, whether it must go in online, and what
+happens if it is late. The due date follows the plan's own year, not the year the business uses
+for its taxes, so the two dates rarely match. Missing the date costs real money: the daily fine
+for a late report went up sharply a few years back.
+</div>
 
 Plan reporting is where an otherwise well-run plan gets into trouble, because the deadlines run off
 the plan year rather than the employer's tax year and nothing on the business return prompts them.
@@ -98,11 +108,11 @@ its own penalties. A delinquent Form 5500-EZ cannot use that programme at all an
 the Service's own penalty relief procedure or reasonable cause. Filing the late return outside a
 programme, without more, starts the correspondence rather than ending it.
 
-<div class="scenario">
+<div class="scenario" data-type="fails">
 
 <h3>The plan that stopped being a one-participant plan</h3>
 
-An architect operates through an S corporation and has maintained a solo 401(k) for eleven years,
+An architect operates through an {gloss:s-corporation} and has maintained a solo 401(k) for eleven years,
 filing Form 5500-EZ each July. In March she hires a full-time draughtsman, who becomes eligible
 under the plan's terms in September of the same year. Her adviser files Form 5500-EZ as usual the
 following July.
@@ -117,7 +127,7 @@ had the plan remained a one-participant plan.
 
 </div>
 
-<div class="scenario">
+<div class="scenario" data-type="boundary">
 
 <h3>The paper filer who could not file on paper</h3>
 
@@ -136,7 +146,7 @@ hardship.
 
 </div>
 
-<div class="scenario">
+<div class="scenario" data-type="procedural">
 
 <h3>Two returns, one extension, one missed</h3>
 
@@ -166,7 +176,7 @@ Form 5500-EZ. A four-employee plan is small and is not a one-participant plan.
 
 **The ten-return threshold counts every return, not plan returns.** Treas. Reg. § 301.6058-2(d)(3)
 counts information returns, income tax returns, employment tax returns and excise tax returns
-together, and aggregates across a controlled group under IRC § 414(b), (c), (m) and (o). Reading it
+together, and aggregates across a {gloss:controlled-group} under IRC § 414(b), (c), (m) and (o). Reading it
 as "ten Forms 5500" gets the answer backwards for essentially every employer.
 
 </div>

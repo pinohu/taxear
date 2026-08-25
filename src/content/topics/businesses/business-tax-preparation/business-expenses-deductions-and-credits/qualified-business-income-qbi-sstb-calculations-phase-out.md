@@ -20,7 +20,26 @@ forms: []
 related: ["2.2.2.a", "2.2.2.c", "2.2.1.c", "2.2.1.a", "2.1.2.a", "2.2.2.n", "2.2.5.j"]
 changelog:
   - { date: "2026-08-21", summary: "Initial draft. Sets out the IRC § 199A(a) computation and the IRC § 199A(b)(2) wage and property limitation with the IRC § 199A(b)(3) threshold and phase-in, the IRC § 199A(d)(2) definition of a specified service trade or business, and the IRC § 199A(b)(6) definition of qualified property. Records three changes made by Pub. L. 119-21 § 70105: the deduction is permanent, the phase-in range widened from $50,000 and $100,000 to $75,000 and $150,000, and a new IRC § 199A(i) gives a minimum deduction to a taxpayer with active qualified business income above a floor." }
+  - { date: "2026-08-25", summary: "Added a plain-language summary, a decision diagram of the specified-service gates, glossary marks, and two typed scenarios (interaction, timing) alongside the three existing ones now typed boundary/baseline/fails." }
+diagram:
+  archetype: "decision"
+  caption: "Does the specified-service exclusion take away this business's deduction?"
+  tests:
+    - { test: "Not on the § 1202(e)(3)(A) list (engineering and architecture are expressly excluded)", result: "Not an SSTB — the wage/property limitation is the only test that can apply", outcome: "pass" }
+    - { test: "On the list, but taxable income at or below the threshold amount", result: "Treated like any other business — full 20% of QBI, no wage test", outcome: "pass" }
+    - { test: "On the list, taxable income inside the phase-in range", result: "SSTB percentage phases down ratably as income rises through the range", outcome: "pass" }
+    - { test: "On the list, taxable income above the top of the phase-in range", result: "Excluded entirely — no qualified business income, no deduction", outcome: "fail" }
 ---
+
+<div class="plain-terms">
+Owners of a small or family business often get to deduct a slice of the business profit — the
+{gloss:qualified-business-income-deduction} — before it is taxed. This page decides how big that
+slice is. Below a certain income level, almost every business gets the full deduction, with no other
+rules attached. Above that level, two things start to matter. One is how much the business pays in
+wages. The other is whether the business is in a list of fields, like law or medicine, where the
+owner's own skill is the main asset. A new rule also gives a small minimum deduction to a busy owner
+whose business barely turns a profit.
+</div>
 
 Three things about this deduction changed in July 2025, and the first of them is that it did not
 expire. A reader working from material written before then will believe the section stopped
@@ -107,7 +126,7 @@ the greater of the ordinary computation or a fixed amount. {fig:qbi.active}
 (IRC § 199A(i)(2)(B)) — material participation, so a passive investor in a business does not
 qualify. Both figures are indexed for taxable years beginning after 2026.
 
-<div class="scenario">
+<div class="scenario" data-type="boundary">
 <h3>Three consultants, three answers</h3>
 
 Three unmarried consultants each have $300,000 of qualified business income from a consulting
@@ -131,7 +150,7 @@ The middle band did not exist in this width until 2025. {fig:qbi.phasein_widened
 the third consultant would have been excluded entirely at $230,000 of taxable income.
 </div>
 
-<div class="scenario">
+<div class="scenario" data-type="baseline">
 <h3>The property-rich business with two employees</h3>
 
 A haulage business has $900,000 of qualified business income, pays $140,000 of W-2 wages, and owns
@@ -156,7 +175,7 @@ in year one. And had the business only had the wage test available, it would hav
 deduction. The second alternative exists for exactly this kind of business.
 </div>
 
-<div class="scenario">
+<div class="scenario" data-type="fails">
 <h3>The side business that now gets something</h3>
 
 A salaried employee runs a small repair business at weekends in which she materially participates.
@@ -173,8 +192,42 @@ computation gives $280. The floor applies because the aggregate active qualified
 clears the $1,000 mark, and the deduction becomes the fixed amount instead — more than double.
 
 Change them again: make her a passive investor in the business rather than a participant.
-{fig:qbi.active} (IRC § 199A(i)(2)(B)) requires material participation within IRC § 469(h), so the
-floor is unavailable and the deduction returns to $280.
+{fig:qbi.active} (IRC § 199A(i)(2)(B)) requires {gloss:material-participation} within IRC § 469(h), so
+the floor is unavailable and the deduction returns to $280.
+</div>
+
+<div class="scenario" data-type="interaction">
+<h3>The property test that bonus depreciation didn't shrink</h3>
+
+An equipment-leasing business buys $4,000,000 of qualified property in 2026 and elects full
+{gloss:bonus-depreciation}, writing the entire cost off in year one. It pays
+$50,000 of W-2 wages, has $700,000 of qualified business income, and the owner's taxable income is
+above the top of the phase-in range.
+
+{fig:qbi.per_business} takes the greater of two figures: 50 percent of wages, or $25,000, against 25
+percent of wages plus 2.5 percent of unadjusted basis, or $12,500 plus $100,000, which is $112,500.
+The greater is $112,500, and the deduction is the lesser of that and 20 percent of $700,000, so the
+limitation does not bite and the deduction is $112,500.
+
+{fig:qbi.qualified_property} counts the property at its unadjusted basis immediately after
+acquisition — before any depreciation. The bonus depreciation deduction wrote the property's
+depreciable basis down to nothing, but the $4,000,000 figure feeding the wage-and-property test is
+untouched by that. The two provisions measure different things from the same purchase.
+</div>
+
+<div class="scenario" data-type="timing">
+<h3>The same consultant, a year apart</h3>
+
+A single consultant runs a specified service practice with taxable income $60,000 above the 2026
+threshold amount, {fig:qbi.threshold_2026}. Under the current, widened range she is $60,000 into a
+corridor that now runs a full $75,000 for an unmarried filer, {fig:qbi.phasein_widened} — so she sits
+inside the phase-in range and keeps a partial deduction, reduced ratably but not eliminated.
+
+Had the identical $60,000 gap arisen under the range as it stood before the widening, it would have
+exceeded the old $50,000 span outright. {fig:qbi.phasein_widened} records that earlier width for an
+unmarried filer, and a $60,000 excess carries past it entirely — putting her above the whole range,
+where a specified service business receives nothing at all. The identical income, tested against the
+same threshold, gives an opposite answer depending only on which year's range applies.
 </div>
 
 <div class="callout trap">

@@ -24,7 +24,18 @@ forms: []
 related: ["2.3.1.b", "2.3.1.a", "2.3.1.g", "2.3.1.f", "2.3.1.e", "2.3.1.d"]
 changelog:
   - { date: "2026-08-21", summary: "Initial draft. Sets out the four IRC § 642(b) exemptions with the 2026 qualified disability trust figure from Rev. Proc. 2025-32 § 3.35 and the fact that the other three have never been indexed, the IRC § 642(c) charitable deduction with its two conditions of instrument authority and payment out of gross income, the IRC § 642(g) bar on double deductions with estate tax, and the IRC § 67(e) carve-out that survives the § 67(h) suspension." }
+  - { date: "2026-08-25", summary: "Added a plain-language summary, glossary marks, and typed scenarios." }
 ---
+
+<div class="plain-terms">
+A trust or estate can subtract certain costs from its income before it pays tax. There is a small
+flat amount every trust or estate gets to keep tax-free, a deduction for money paid to charity, and
+a deduction for the cost of running the trust itself. This affects anyone who prepares a trust or
+estate tax return, or who decides what to pay out of trust funds. Each deduction has strict rules.
+A gift to charity only counts if the trust paperwork allows it and the money comes from income, not
+savings. A cost only counts if it would not have arisen for a person who simply owned the same
+property. Miss a rule and the whole deduction is lost, not just part of it.
+</div>
 
 The deduction side of a fiduciary return is short and unforgiving. There are only a handful of
 provisions, most of them have conditions that are easy to fail, and one of the figures involved has
@@ -98,10 +109,10 @@ choice and the statement is still needed.
 
 ## Scenarios
 
-<div class="scenario">
+<div class="scenario" data-type="fails">
 <h3>The gift the instrument did not authorise</h3>
 
-The Marchbank Trust is a complex trust whose instrument gives the trustee discretion to distribute
+The Marchbank Trust is a {gloss:complex-trust} whose instrument gives the trustee discretion to distribute
 income and principal among the settlor's descendants. The trustee, exercising that discretion,
 distributes $80,000 to a university the settlor had supported.
 
@@ -116,7 +127,7 @@ payment is deductible as a distribution under IRC § 661 only if the university 
 which it is not. Eighty thousand dollars leaves the trust with no deduction at all.
 </div>
 
-<div class="scenario">
+<div class="scenario" data-type="boundary">
 <h3>The fee that was not deductible</h3>
 
 An estate pays $28,000 in the year: $16,000 of executor's commissions, $7,000 to an accountant for
@@ -135,10 +146,10 @@ simply not deductible. The distinction is worth stating on the engagement letter
 fiduciary will ask.
 </div>
 
-<div class="scenario">
+<div class="scenario" data-type="procedural">
 <h3>The expense claimed twice</h3>
 
-An estate incurs $95,000 of administration expenses. The executor deducts them on Form 706 in
+An estate incurs $95,000 of administration expenses. The {gloss:executor} deducts them on Form 706 in
 computing the taxable estate and again on Form 1041 against the estate's income.
 
 IRC § 642(g) forbids it. Amounts allowable under IRC § 2053 as a deduction in computing the taxable
@@ -158,7 +169,7 @@ provision is an election with a formality, not a rule against claiming the expen
 
 **The IRC § 642(c) charitable deduction is out of gross income and under the instrument.** Both
 conditions must hold. A trustee's discretionary gift without instrument authority, and a gift traced
-to corpus, each fail entirely — and IRC § 170(a) is unavailable as a fallback.
+to {gloss:corpus}, each fail entirely — and IRC § 170(a) is unavailable as a fallback.
 
 </div>
 

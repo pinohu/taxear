@@ -24,7 +24,18 @@ forms: []
 related: ["2.2.2.c", "2.2.2.h", "2.2.2.i", "2.2.2.a", "2.2.1.c", "2.2.2.n"]
 changelog:
   - { date: "2026-08-21", summary: "Initial draft. Sets out the IRC § 38(a) structure and the IRC § 38(c)(1) limitation by reference to net income tax, the tentative minimum tax and a share of net regular tax liability above a floor, the IRC § 39(a)(1) one-year carryback and twenty-year carryforward, and three component credits — IRC § 44 disabled access, IRC § 41 research and IRC § 45R small employer health insurance. Records the IRC § 280C(c) rule that a research credit reduces the deduction for the same expenditure unless a reduced credit is elected, and that IRC § 280C(c)(1) now refers to IRC § 174A." }
+  - { date: "2026-08-25", summary: "Added a plain-language summary, glossary marks, and two typed scenarios." }
 ---
+
+<div class="plain-terms">
+The general business credit is not one single credit. It is a bucket. It adds up many separate
+business tax credits into one total. These are credits for things like hiring workers, doing
+research, or making a workplace easier to access. That total then lowers the business's tax bill,
+but only up to a limit. This page affects businesses that already qualify for one or more of those
+specific credits. It does not create any new credit on its own. It decides how much of the
+combined credit a business can use this year. It also decides what happens to any leftover amount
+the business cannot use yet.
+</div>
 
 The general business credit is not a credit. It is a container: a long list of separate credits,
 each with its own eligibility rules, added together and then subjected to a single limitation and
@@ -109,7 +120,7 @@ net income tax figure against which IRC § 38(c)(1) measures. A business with a 
 credit therefore has less room for its general business credits, without either credit being
 disallowed as such.
 
-<div class="scenario">
+<div class="scenario" data-type="boundary">
 <h3>Two credits, one limitation</h3>
 
 A corporation has regular tax liability of $185,000, no tentative minimum tax exposure, and no
@@ -132,7 +143,7 @@ second limb is a quarter of nothing, so the limitation is the whole $18,000. The
 forward for twenty.
 </div>
 
-<div class="scenario">
+<div class="scenario" data-type="baseline">
 <h3>The ramp that cost twenty thousand</h3>
 
 A café with gross receipts of $780,000 spends $20,000 installing an accessible entrance, an
@@ -154,7 +165,7 @@ Note how easily a business fails the eligibility test. Receipts of $1,100,000 wi
 employees fails both alternatives and gets no credit at all, on identical spending.
 </div>
 
-<div class="scenario">
+<div class="scenario" data-type="interaction">
 <h3>Credit or deduction, on the same research</h3>
 
 A software company has $600,000 of domestic research or experimental expenditures and computes a
@@ -176,6 +187,32 @@ where the value of the forgone deduction and the size of the reduction do not ma
 
 Note the drafting: IRC § 280C(c)(1) now speaks of "domestic research or experimental expenditures
 (as defined in section 174A(b))," a section that did not exist before July 2025.
+</div>
+
+<div class="scenario" data-type="fails">
+<h3>Too big for the small employer credit</h3>
+
+<p>Cranbrook Devices, a {gloss:c-corporation}, offers its 32 full-time equivalent employees a
+group health plan bought through the Small Business Health Options Program. Average annual wages
+are well under the ceiling.</p>
+
+<p><em>Analysis.</em> No credit. {fig:gbc.health_eligible} (IRC § 45R(d)(1)) requires no more than
+25 full-time equivalent employees, and Cranbrook has 32. Buying through the right exchange and
+paying low average wages do not rescue it — the employee-count test is a hard cutoff, not a
+sliding scale, and failing it alone is enough to deny the credit entirely.</p>
+</div>
+
+<div class="scenario" data-type="procedural">
+<h3>Carrying the excess back</h3>
+
+<p>A corporation generates $60,000 of general business credit this year, but {fig:gbc.limit} caps
+the usable amount at $22,000. Last year's return showed enough tax liability to absorb the rest.</p>
+
+<p><em>Analysis.</em> {fig:gbc.carryback_forward} (IRC § 39(a)(1)) sends the unused $38,000 back
+one year first. Claiming it means filing a {gloss:claim-for-refund} for the earlier year —
+typically an {gloss:amended-return} — rather than simply noting it on the current year's form.
+Only what the carryback year's own limitation cannot absorb moves forward, and it then travels
+ahead for up to twenty years, applied earliest first under IRC § 39(a)(2).</p>
 </div>
 
 <div class="callout trap">

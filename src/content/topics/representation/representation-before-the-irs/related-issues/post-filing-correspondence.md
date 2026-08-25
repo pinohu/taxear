@@ -18,7 +18,12 @@ forms: ["1040-X"]
 related: ["3.3.3.g", "3.2.6.a", "3.3.1.o"]
 changelog:
   - { date: "2026-08-18", summary: "Initial publication from IRC §§ 6212 and 6213(a), (b) and (g)(2)." }
+  - { date: "2026-08-25", summary: "Added a plain-language summary, glossary marks, and typed scenarios." }
 ---
+
+<div class="plain-terms">
+This page explains the letters the IRS sends after you have already filed a return, and why they are not all the same thing. It matters to anyone who gets a notice claiming they owe more tax, whether from a simple math slip or a mismatch with what an employer or bank reported. It does not cover the original audit process itself. A notice that says the IRS already fixed a math error is very different from one that only proposes a change and asks you to respond. Each type gives you a different right to fight it, and a different deadline for doing so. Reading the notice closely, rather than guessing from its tone, decides whether you still have a chance to argue your case before a judge.
+</div>
 
 Post-filing correspondence looks uniform to a client and is not. A math error notice assesses tax immediately with no Tax Court right; an under-reporting notice proposes a change and precedes a notice of deficiency; a notice of deficiency starts a ninety-day clock that cannot be extended. The rights attached to each differ completely, and the only reliable way to tell them apart is to read what the notice says the IRS has done — or will do — rather than what it is called.
 
@@ -51,22 +56,22 @@ Post-filing correspondence looks uniform to a client and is not. A math error no
 
 **Identify the instrument before advising.** The practical test is what the notice says about assessment. "We have made a change and assessed" with an explanation of an error is math error territory, with sixty days. "We propose to change" is an under-reporting notice, with a response date. "Notice of Deficiency" with a stated last date to petition is the ninety-day letter. The three carry different rights and different clocks, and a client's description of "a letter about my taxes" distinguishes none of them.
 
-<div class="scenario">
+<div class="scenario" data-type="timing">
 <h3>Sixty days that were not used</h3>
-<p>A client receives a notice in March stating that a credit was reduced because the amount claimed exceeded the statutory limit, and that the additional tax has been assessed. He puts it aside. In July he asks his representative to take the matter to the Tax Court.</p>
+<p>A client receives a {gloss:math-error-notice} in March stating that a credit was reduced because the amount claimed exceeded the statutory limit, and that the additional tax has been assessed. He puts it aside. In July he asks his representative to take the matter to the Tax Court.</p>
 <p><em>Analysis.</em> This is a math error assessment under § 6213(b)(1), the ground being § 6213(g)(2)(E). There is no Tax Court right on such a notice, and the § 6213(b)(2)(A) abatement request — which the Secretary must grant, and which would have converted the matter into a deficiency case with a prepayment forum — had to be made within 60 days. In March the client had a complete answer available for the cost of a letter. In July the route is to pay and claim a refund.</p>
 </div>
 
-<div class="scenario">
+<div class="scenario" data-type="procedural">
 <h3>The mismatch that was the payer's fault</h3>
-<p>A CP2000 proposes additional tax on $23,000 of income reported on a Form 1099-NEC the client never received. The payer issued it under the wrong taxpayer identification number.</p>
+<p>A {gloss:cp2000-notice} proposes additional tax on $23,000 of income reported on a Form 1099-NEC the client never received. The payer issued it under the wrong taxpayer identification number.</p>
 <p><em>Analysis.</em> Answer it as a disagreement by the stated date, with the evidence, and ask the payer to correct the information return. The CP2000 is not an assessment and not a bill; the response keeps the matter in correspondence and out of the deficiency track. If it is ignored, the next document is a notice of deficiency and the client's options narrow to a Tax Court petition within 90 days or paying and claiming a refund.</p>
 </div>
 
-<div class="scenario">
+<div class="scenario" data-type="baseline">
 <h3>Abatement that changed the forum</h3>
 <p>A math error notice assesses tax on the ground that information required to substantiate a deduction was omitted. The client has the substantiation. Her representative files a request for abatement within 60 days.</p>
-<p><em>Analysis.</em> The Secretary must abate — § 6213(b)(2)(A) is mandatory and requires no reasons. Collection is barred throughout the period in which abatement may be requested (§ 6213(b)(2)(B)). If the IRS wants the tax after abatement, it must go through the deficiency procedures, which means a notice of deficiency and a real opportunity to litigate before paying. The request did not win the argument; it moved the argument somewhere the client can win it.</p>
+<p><em>Analysis.</em> The Secretary must abate — § 6213(b)(2)(A) is mandatory and requires no reasons. Collection is barred throughout the period in which abatement may be requested (§ 6213(b)(2)(B)). If the IRS wants the tax after abatement, it must go through the deficiency procedures, which means a {gloss:notice-of-deficiency} and a real opportunity to litigate before paying. The request did not win the argument; it moved the argument somewhere the client can win it.</p>
 </div>
 
 <div class="callout trap"><h4>Traps</h4>

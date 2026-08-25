@@ -18,7 +18,18 @@ forms: []
 related: ["3.2.5.b", "3.2.5.g", "3.2.6.a", "3.2.5.a"]
 changelog:
   - { date: "2026-08-18", summary: "Initial publication from Reg. §§ 601.201 and 1.6662-4 and IRC §§ 6110 and 7528, each opened at source." }
+  - { date: "2026-08-25", summary: "Added a plain-language summary, a glossary mark, and typed scenarios." }
 ---
+
+<div class="plain-terms">
+This page explains what a private letter ruling is: a written answer the IRS gives one
+taxpayer about one planned deal, before it happens. It matters to anyone weighing whether
+to pay for advance certainty from the IRS, rather than just guessing and hoping. It
+affects only the person who asked for it, and only on the facts they gave. What it
+decides, and what surprises people most, is that a "private" ruling is not kept private
+at all. It gets published for anyone to read, with the names taken out, and it costs
+money up front.
+</div>
 
 A private letter ruling answers **one taxpayer's** question about **one set of facts**, in advance. It is the only way to get the Service's position on a transaction before entering it, and it is expensive, slow and narrow by design. The four things a representative must be able to say about it are: who it binds, what it costs, what becomes public, and why it cannot be cited — and the last two are the ones clients find surprising.
 
@@ -68,25 +79,25 @@ A private letter ruling answers **one taxpayer's** question about **one set of f
 
 **The taxpayer's own prior ruling comes before outside research.** Before building a substantial authority file, ask whether the client holds a ruling or determination letter of their own, or is named in a TAM. That is substantial authority outright, subject only to the material-misstatement and changed-facts conditions.
 
-<div class="scenario">
+<div class="scenario" data-type="baseline">
 <h3>The ruling that was not private</h3>
 <p>A client contemplating a restructuring wants certainty and is willing to pay for a ruling. He is emphatic that nothing about the transaction should become known to competitors.</p>
 <p><em>Analysis.</em> A private letter ruling is a written determination under IRC § 6110(b)(1)(A), and § 6110 makes written determinations available for public inspection after identifying and confidential details are deleted. The transaction's structure will be described in the published text even though the client's name will not. The representative should set that out before the request is made, and plan for the deletion process, rather than let the client discover it at publication.</p>
 </div>
 
-<div class="scenario">
+<div class="scenario" data-type="timing">
 <h3>The ruling that no longer helps</h3>
-<p>Researching an unusual deduction, a practitioner finds a private letter ruling from 2016 squarely supporting the treatment. Two years after it was issued the Service published a revenue ruling reaching the opposite conclusion on similar facts.</p>
+<p>Researching an unusual deduction, a practitioner finds a private letter ruling from 2016 squarely supporting the treatment. Two years after it was issued the Service published a {gloss:revenue-ruling} reaching the opposite conclusion on similar facts.</p>
 <p><em>Analysis.</em> The PLR has stopped being authority. Reg. § 1.6662-4(d)(3)(iii) provides that a private letter ruling "is not authority if revoked or if inconsistent with a subsequent proposed regulation, revenue ruling or other administrative pronouncement published in the Internal Revenue Bulletin." Citing it now adds nothing to the substantial authority weighing and puts a contrary published ruling in front of the examiner.</p>
 </div>
 
-<div class="scenario">
+<div class="scenario" data-type="interaction">
 <h3>The facts that changed</h3>
 <p>A client obtained a favourable ruling on a proposed transaction two years ago. The transaction was carried out, but with a financing feature added after the ruling was issued that materially alters the economics.</p>
 <p><em>Analysis.</em> The protection may be gone. Reg. § 1.6662-4(d)(3)(iv)(A) gives substantial authority where the treatment is supported by a ruling issued to the taxpayer, but not where there was a misstatement or omission of a material fact or "the facts that subsequently develop are materially different from the facts on which the written determination was based." Whether the added feature is material is the question to work through now, before the return is filed — not after an examiner raises it.</p>
 </div>
 
-<div class="scenario">
+<div class="scenario" data-type="fails">
 <h3>The letter that answered nothing</h3>
 <p>A client wrote to the IRS describing a proposed arrangement and received a reply setting out the general principles governing that area of law without saying whether the arrangement worked. He treats it as approval.</p>
 <p><em>Analysis.</em> That is an information letter, not a ruling. Reg. § 601.201(a)(5) describes an information letter as one that "does no more than call attention to a well-established interpretation or principle of tax law, <em>without applying it to a specific set of facts</em>," issued where the request seeks general information or does not meet the requirements for a ruling. It supports no position. If the client wants certainty on these facts, the request has to be made properly and the user fee paid.</p>

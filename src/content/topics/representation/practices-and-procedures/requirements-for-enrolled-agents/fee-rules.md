@@ -17,7 +17,17 @@ forms: []
 related: ["3.1.2.d", "3.1.2.n", "3.1.2.g"]
 changelog:
   - { date: "2026-08-18", summary: "Initial publication from Circular 230 §§ 10.27 and 10.30." }
+  - { date: "2026-08-25", summary: "Added a plain-language summary, glossary marks, and typed scenarios." }
 ---
+
+<div class="plain-terms">
+This page is about what a paid tax practitioner may charge for helping a client with the IRS.
+Two things are banned: a fee so high it shocks the conscience, and in most cases, a fee that
+depends on the result. This affects enrolled agents, attorneys, and CPAs who charge for tax
+work. It does not change what a client owes the IRS. What it decides is which fee deals are
+allowed and which are not — including deals that look like a flat fee on paper but really ride
+on the outcome, such as a refund guarantee or a money-back promise if the IRS pushes back.
+</div>
 
 Two prohibitions, and the second is the examinable one. A practitioner may not charge an **unconscionable** fee, and may not charge a **contingent** fee for a matter before the IRS — subject to four exceptions. The definition of contingent fee is wider than most practitioners assume, and it catches arrangements that never look like a percentage.
 
@@ -52,21 +62,21 @@ Two prohibitions, and the second is the examinable one. A practitioner may not c
 
 **Unconscionability has no test, so treat it as a facts case.** What makes a fee unconscionable is disproportion — to the work, to the amount at stake, to what the client understood they were agreeing. It travels with other complaints, because a fee that shocks usually accompanies an engagement that went wrong in some other way, and a fee dispute does not excuse withholding the client's records under § 10.28.
 
-<div class="scenario">
+<div class="scenario" data-type="fails">
 <h3>A percentage of the refund</h3>
 <p>A practitioner offers to prepare amended returns claiming a credit, charging 25 percent of any refund obtained. No IRS notice or examination exists for any of the years.</p>
 <p><em>Analysis.</em> A prohibited contingent fee. It is based on a percentage of the refund and depends on the result attained, and none of the four exceptions applies: there is no examination or challenge to defend, no written notice to bring the 120-day rule into play, the claims are not solely about statutory interest or penalties, and there is no judicial proceeding. The arrangement is prohibited whatever the merits of the credit.</p>
 </div>
 
-<div class="scenario">
+<div class="scenario" data-type="boundary">
 <h3>The money-back guarantee</h3>
 <p>A practitioner charges a fixed $4,000 for a planning engagement and adds that if the IRS successfully challenges the position, the fee will be refunded in full.</p>
 <p><em>Analysis.</em> A contingent fee notwithstanding the fixed amount. Section 10.27(c)(1) expressly includes any arrangement under which the practitioner reimburses the client if a position is challenged or not sustained, by indemnity, guarantee, rescission rights or anything with a similar effect. Tax planning and advice is a "matter before the Internal Revenue Service" under § 10.27(c)(2), so the prohibition applies and no exception is available.</p>
 </div>
 
-<div class="scenario">
+<div class="scenario" data-type="timing">
 <h3>Inside the 120 days</h3>
-<p>A client receives a written notice on 3 March that his 2024 return is under examination. On 20 May his practitioner files an amended return for the same year and agrees a contingent fee for the work.</p>
+<p>A client receives a written notice on 3 March that his 2024 return is under examination. On 20 May his practitioner files an {gloss:amended-return} for the same year and agrees a contingent fee for the work.</p>
 <p><em>Analysis.</em> Permitted. Section 10.27(b)(2)(ii) allows a contingent fee for services in connection with the examination of an amended return filed <strong>within 120 days of the taxpayer receiving written notice</strong> of the examination of the original return. From 3 March, the window closes on 1 July, so a 20 May filing is inside it. Had he filed on 10 February, before any notice, the exception would not apply.</p>
 </div>
 

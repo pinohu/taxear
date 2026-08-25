@@ -35,6 +35,7 @@ function flesch(text) {
 }
 
 const figures = JSON.parse(fs.readFileSync('src/data/figures.json', 'utf8')).figures;
+const glossary = JSON.parse(fs.readFileSync('src/data/glossary.json', 'utf8')).terms;
 const outline = JSON.parse(fs.readFileSync('src/data/topics.json', 'utf8'));
 const outlineTopics = new Map(
   outline.parts.flatMap(p => p.domains.flatMap(d => d.sections.flatMap(s => s.topics.map(t => [t.code, t])))),
@@ -142,6 +143,11 @@ for (const p of gated) {
   for (const m of editorial.matchAll(/\$\d[\d,]*(?:\.\d+)?/g)) err(file, `inline dollar amount ${m[0]} outside a scenario — use a {fig:} token`);
   for (const m of editorial.matchAll(/\b\d+(?:\.\d+)?\s?(?:%|percent)\b/g)) warn(file, `inline rate "${m[0]}" in the editorial voice — consider a {fig:} token`);
 
+  // glossary: every {gloss:key} must resolve, same as {fig:key} above
+  for (const [, key] of body.matchAll(/\{gloss:([a-z0-9-]+)\}/g)) {
+    if (!glossary[key]) err(file, `unknown glossary key ${key}`);
+  }
+
   // comprehension layer (docs/COMPREHENSION_PLAN.md) — opt-in during migration, so a
   // page with none of this yet gets a soft nudge, not a build failure.
   const plainMatch = body.match(/<div class="plain-terms">([\s\S]*?)<\/div>/);
@@ -166,10 +172,20 @@ for (const p of gated) {
     }
   }
 
-  // diagram (optional): every figure key it references must be real, same as the body
-  const diagMatch = fm.match(/^diagram:\n([\s\S]*?)(?=^[a-zA-Z]|\Z)/m);
-  if (diagMatch) {
-    for (const [, key] of diagMatch[1].matchAll(/figureKey:\s*"?([a-z0-9_.]+)"?/g)) {
+  // diagram (optional): every figure key it references must be real, same as the body.
+  // `diagram:` is a YAML block scalar running until the next top-level key (a line with
+  // no leading whitespace) or the end of the frontmatter — a single regex can't express
+  // "next top-level key OR end of string" without a working end-of-string anchor (JS has
+  // no `\Z`), so this walks the lines directly instead.
+  const fmLines = fm.split('\n');
+  const diagStart = fmLines.findIndex(l => /^diagram:\s*$/.test(l));
+  if (diagStart !== -1) {
+    let diagEnd = fmLines.length;
+    for (let i = diagStart + 1; i < fmLines.length; i++) {
+      if (/^[a-zA-Z]/.test(fmLines[i])) { diagEnd = i; break; }
+    }
+    const diagBlock = fmLines.slice(diagStart + 1, diagEnd).join('\n');
+    for (const [, key] of diagBlock.matchAll(/figureKey:\s*"?([a-z0-9_.]+)"?/g)) {
       if (!figures[key]) err(file, `diagram references unknown figure key ${key}`);
     }
   }

@@ -18,7 +18,18 @@ forms: []
 related: ["3.1.4.d", "3.1.4.e", "3.1.4.b", "3.1.4.g", "3.4.3.d"]
 changelog:
   - { date: "2026-08-18", summary: "Initial publication from IRC §§ 6107(a), 6695(a) and Reg. § 1.6107-1(a)." }
+  - { date: "2026-08-25", summary: "Added a plain-language summary, a glossary mark, and typed scenarios." }
 ---
+
+<div class="plain-terms">
+This page is about a tax preparer's duty to give the client a copy of their own return. It
+matters to paid preparers and the clients they file for, not to someone who fills out their
+own return. The timing is strict: the copy must go out at or before the moment the client
+signs, not sometime after the return is filed. For a return filed online, the copy must be the
+same electronic file sent to the IRS, attachments included, not a short summary. Email or an
+online portal is fine if the client agrees to it. This page decides what counts as a real copy
+and when it is due.
+</div>
 
 The obligation to hand the taxpayer a copy of their own return sounds administrative and is not. It is fixed to a moment — not later than the time the return is presented for signature — and for an electronically filed return the regulation defines "complete copy" in a way that catches firms who hand over a summary and file something larger.
 
@@ -47,19 +58,19 @@ Two permissive details are worth knowing because they are frequently assumed to 
 
 The reasonable cause defence in § 6695(a) is real but narrow: it requires cause arising despite ordinary care and prudence, and the IRS will ask for a written statement substantiating it. A software or workflow failure that recurs is not ordinary care and prudence; it is a systemic failure, and the penalty applies per return.
 
-<div class="scenario">
+<div class="scenario" data-type="procedural">
 <h3>The copy that came after the filing</h3>
 <p>A firm's workflow presents the client with a two-page summary and the Form 8879 for signature, transmits the return, and emails the full PDF the next morning. The client is content and nobody complains.</p>
-<p><em>Analysis.</em> Section 6107(a) fixes the deadline at the time the return is presented for signature, and the summary is not a complete copy under Reg. § 1.6107-1(a)(2) because it does not let the taxpayer determine what was filed. The next-morning PDF is late. The penalty under § 6695(a) applies per return, so a firm-wide workflow of this shape multiplies to the annual cap quickly. Client satisfaction is not the test.</p>
+<p><em>Analysis.</em> Section 6107(a) fixes the deadline at the time the return is presented for signature, and the summary is not a complete copy under Reg. § 1.6107-1(a)(2) because it does not let the taxpayer determine what was filed. The next-morning PDF is late. This {gloss:preparer-penalty} applies under § 6695(a) per return, so a firm-wide workflow of this shape multiplies to the annual cap quickly. Client satisfaction is not the test.</p>
 </div>
 
-<div class="scenario">
+<div class="scenario" data-type="boundary">
 <h3>The attachments that were left out</h3>
 <p>A return carries three PDF attachments — an appraisal, an election statement and a foreign account schedule. The preparer gives the client a printed replica of the return showing all the numbered forms, but not the attachments.</p>
 <p><em>Analysis.</em> Incomplete. For an electronically filed return the complete copy expressly includes PDF attachments (Reg. § 1.6107-1(a)(2)), and the functional test — can the taxpayer determine what supporting materials were filed — fails without them. A replica form is permitted; omitting part of what was transmitted is not.</p>
 </div>
 
-<div class="scenario">
+<div class="scenario" data-type="baseline">
 <h3>Delivery by portal</h3>
 <p>A preparer proposes to deliver every client copy through a secure portal rather than on paper. One client asks for paper and is given it; the rest accept the portal.</p>
 <p><em>Analysis.</em> Compliant. The regulation permits any media, including electronic, that is <em>acceptable to both</em> the taxpayer and the preparer. The consent element matters: a preparer cannot impose electronic delivery on a client who does not accept it, which is why the one client who asked for paper had to get it. Nothing in § 6107(a) requires paper as a default.</p>

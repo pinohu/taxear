@@ -24,7 +24,18 @@ forms: []
 related: ["2.1.2.e", "2.1.2.c", "2.1.1.b", "2.1.2.i", "2.1.2.b", "2.1.2.d", "2.1.2.f", "2.1.2.g", "2.1.2.h", "2.1.2.j", "2.1.2.k", "2.1.5.c", "2.2.2.l", "2.2.4.f"]
 changelog:
   - { date: "2026-08-21", summary: "Initial draft. Sets out the IRC § 701 absence of entity tax, the IRC § 702(a) separately stated items and the § 702(b) conduit rule for character, the § 703(a) computation of partnership taxable income and the deductions denied to it, the § 703(b) allocation of elections between partnership and partner, the § 704(a) and (b) determination of distributive share and the § 704(d) basis limitation on losses, the § 705(a) outside basis mechanics and the § 752 treatment of liabilities as contributions and distributions, the § 731 recognition rules on distributions, and the IRC § 1402(a)(13) limited partner exclusion from self-employment income." }
+  - { date: "2026-08-25", summary: "Added a plain-language summary, glossary marks, and typed scenarios." }
 ---
+
+<div class="plain-terms">
+A partnership usually pays no tax of its own. Instead, it works out its income and costs once,
+then splits the result among its owners. Each owner reports their own share and pays tax on it.
+This page covers how that split works. Some items are folded into one combined business number.
+Others must be pulled out and reported on their own, because each owner's own situation changes
+how that item is taxed. This affects every partner, whether or not they work in the business day
+to day. This page also covers how much of a loss an owner can actually deduct, and how the
+business's own borrowing changes what each owner is treated as having put in.
+</div>
 
 Every difficulty in partnership taxation comes from one design decision: the partnership computes and the
 partner pays. Two consequences follow and both are tested. The computation happens at the entity, so
@@ -69,7 +80,7 @@ much has to be stated separately rather than folded into a single number.
 
 ## How it works in practice
 
-The list of separately stated items in IRC § 702(a) is not arbitrary, and learning it as a list is the
+The list of {gloss:separately-stated-item}s in IRC § 702(a) is not arbitrary, and learning it as a list is the
 hard way. Each entry is an item whose treatment on the partner's return depends on something the
 partnership cannot know: a capital gain has to meet the partner's own capital losses, a charitable
 contribution has to meet the partner's own contribution limits, a foreign tax has to be tested against
@@ -112,8 +123,8 @@ corporation for an owner who works in the business.
 
 ## Scenarios
 
-<div class="scenario">
-<h3>The charitable contribution that could not be deducted at the partnership</h3>
+<div class="scenario" data-type="baseline">
+<h3>The {gloss:charitable-contribution} that could not be deducted at the partnership</h3>
 <p>A four-partner architecture firm donates $40,000 of cash to a local arts charity in 2026. The
 bookkeeper deducts it in computing the partnership's ordinary business income, which reduces the ordinary
 income reported on every Schedule K-1 by the partners' respective shares.</p>
@@ -126,7 +137,7 @@ ordinary income would have given all four partners a deduction none of them migh
 to.</p>
 </div>
 
-<div class="scenario">
+<div class="scenario" data-type="boundary">
 <h3>The loss that exceeded basis</h3>
 <p>Solange holds a 30 percent interest in a partnership. Her outside basis at 1 January 2026 is $22,000,
 including $9,000 attributable to her share of partnership liabilities. Her distributive share of the 2026
@@ -139,7 +150,7 @@ is suspended. The suspended amount is not lost: it becomes deductible in a later
 again, whether from income, a contribution or an increased share of liabilities.</p>
 </div>
 
-<div class="scenario">
+<div class="scenario" data-type="interaction">
 <h3>The dealer and the investment</h3>
 <p>Two partners form a partnership that acquires a single parcel of undeveloped land and holds it for
 seven years before selling at a $600,000 gain. One partner is a full-time property developer who treats
@@ -151,11 +162,11 @@ their share into ordinary income. The result would reverse if the partnership it
 the teacher would take ordinary income, however passive their involvement.</p>
 </div>
 
-<div class="scenario">
-<h3>The general partner who wanted to be limited</h3>
+<div class="scenario" data-type="fails">
+<h3>The {gloss:general-partner} who wanted to be limited</h3>
 <p>Ifeoma is one of two general partners in a consulting partnership. Her distributive share of ordinary
 business income for 2026 is $180,000, and she also receives a guaranteed payment of $60,000 for managing
-the firm. Her accountant suggests amending the agreement to make her a limited partner so that the
+the firm. Her accountant suggests amending the agreement to make her a {gloss:limited-partner} so that the
 distributive share escapes self-employment tax.</p>
 <p>The guaranteed payment is self-employment income whatever her status: IRC § 1402(a)(13) carves back
 IRC § 707(c) guaranteed payments for services actually rendered, to the extent established to be

@@ -18,7 +18,20 @@ forms: []
 related: ["3.2.2.d", "3.1.2.a", "3.2.6.a", "3.2.2.b", "3.2.2.a"]
 changelog:
   - { date: "2026-08-18", summary: "Initial publication from Circular 230 §§ 10.35, 10.22, 10.23 and 10.36, each opened at source." }
+  - { date: "2026-08-25", summary: "Added a plain-language summary, typed scenarios, and glossary marks." }
 ---
+
+<div class="plain-terms">
+This page sets the standard a tax practitioner must meet before taking on a case. Three
+things matter: knowing the subject, working the matter carefully, and not letting it drag
+on. The rule affects enrolled agents, attorneys, and CPAs who represent taxpayers before
+the IRS. It does not fall on taxpayers themselves, though it shapes the help they receive.
+The key point is this: a practitioner does not need to already be an expert to accept a
+matter. They can become competent by studying the law or bringing in help, as long as
+they do it before the work is finished and have real time to do it properly. If the
+timeline will not allow that, the honest answer is to decline early, not fail later. Firms
+also carry a duty to keep everyone on track.
+</div>
 
 Three separate Circular 230 duties meet at the moment a practitioner decides whether to take a matter on: **competence** to do it, **diligence** in doing it, and not **unreasonably delaying** it once taken. The competence rule is the shortest of the three and the most misread — it does **not** say a practitioner may only accept work in areas they already know. It says competence is required, and then says how it may be acquired.
 
@@ -67,28 +80,28 @@ Three separate Circular 230 duties meet at the moment a practitioner decides whe
 
 **Firm-level discipline needs a pattern, not an incident.** The § 10.36(b) threshold is willfulness, recklessness or gross incompetence **plus** a pattern or practice of non-compliance. One employee's mistake is not it. A recurring failure that the responsible individual knew or should have known about, and did not correct, is.
 
-<div class="scenario">
+<div class="scenario" data-type="baseline">
 <h3>The area nobody at the firm has handled</h3>
-<p>A long-standing client asks an enrolled agent to represent them on an issue in an area the agent has never worked in. The agent's instinct is to decline on competence grounds.</p>
+<p>A long-standing client asks an {gloss:enrolled-agent} to represent them on an issue in an area the agent has never worked in. The agent's instinct is to decline on competence grounds.</p>
 <p><em>Analysis.</em> Declining is not required. Circular 230 § 10.35(a) provides that a practitioner "may become competent for the matter for which the practitioner has been engaged through various methods, such as consulting with experts in the relevant area or studying the relevant law." The question is whether the agent can reach the appropriate level of knowledge, skill, thoroughness and preparation <em>for this matter</em>, in the time available, at a cost the client will bear. If yes, accept and do the work. If the honest answer is no, decline early rather than late.</p>
 </div>
 
-<div class="scenario">
+<div class="scenario" data-type="interaction">
 <h3>The competent practitioner with no time</h3>
 <p>An enrolled agent who knows the area well is asked to take on a matter three weeks before a response deadline, during filing season, with two other examinations already running.</p>
 <p><em>Analysis.</em> Knowledge is not the whole test. Section 10.35 requires "the appropriate level of knowledge, skill, <em>thoroughness, and preparation</em> necessary for the matter," and thoroughness and preparation are functions of time. Accepting a matter that cannot be prepared properly also risks § 10.23, which forbids unreasonably delaying the prompt disposition of any matter before the IRS. The right answer is to decline, to negotiate the timetable before accepting, or to bring in help and say so in the engagement letter.</p>
 </div>
 
-<div class="scenario">
+<div class="scenario" data-type="boundary">
 <h3>The prior year's return</h3>
 <p>A new client brings the previous year's return prepared by another enrolled agent, to be used as a reference in preparing this year's. The practitioner wonders whether the whole return must be re-verified.</p>
 <p><em>Analysis.</em> Not as though they had prepared it. Circular 230 § 10.22(b) presumes due diligence where a practitioner relies on another person's work product and used reasonable care in engaging, supervising, training and evaluating that person, taking proper account of the nature of the relationship — and a qualified prior preparer's work is not presumed wrong. The practitioner reviews it for reasonable accuracy. What they may not do is ignore something on the face of it that should prompt a question, because at that point reliance stops being reasonable.</p>
 </div>
 
-<div class="scenario">
+<div class="scenario" data-type="fails">
 <h3>The answer given on the telephone</h3>
 <p>A client telephones with a question. The practitioner, busy and fairly confident, gives an answer without checking. It turns out to be wrong, and the client acted on it.</p>
-<p><em>Analysis.</em> This is a diligence failure, not merely bad service. Circular 230 § 10.22(a)(3) requires due diligence "in determining the correctness of oral or written representations made by the practitioner <em>to clients</em> with reference to any matter administered by the Internal Revenue Service." The duty attaches to advice, not only to filings, and it does not distinguish between written opinions and telephone answers. "I'll check and come back to you" is the compliant response.</p>
+<p><em>Analysis.</em> This is a diligence failure, not merely bad service. Circular 230 § 10.22(a)(3) requires {gloss:due-diligence} "in determining the correctness of oral or written representations made by the practitioner <em>to clients</em> with reference to any matter administered by the Internal Revenue Service." The duty attaches to advice, not only to filings, and it does not distinguish between written opinions and telephone answers. "I'll check and come back to you" is the compliant response.</p>
 </div>
 
 <div class="callout trap">

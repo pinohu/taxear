@@ -17,7 +17,26 @@ forms: []
 related: ["2.1.5.b", "2.1.5.f", "2.1.1.d", "2.1.5.c", "2.1.5.e"]
 changelog:
   - { date: "2026-08-21", summary: "Initial draft. Sets out the five conditions in IRC § 1361(b)(1) — domestic corporation, not an ineligible corporation, no more than 100 shareholders, only permitted shareholders, one class of stock — with the § 1361(c)(1) family aggregation rule, the § 1361(c)(2)(A) list of eligible trusts, and the § 1361(c)(4) rule that differences in voting rights alone do not create a second class." }
+  - { date: "2026-08-25", summary: "Added a plain-language summary, a decision diagram of the five eligibility gates, glossary marks, and two typed scenarios (baseline, procedural) covering all six taxonomy types." }
+diagram:
+  archetype: "decision"
+  caption: "The five gates an S corporation must clear — every day the election is in force"
+  tests:
+    - { test: "Domestic corporation?", result: "Yes", outcome: "pass" }
+    - { test: "An ineligible corporation (bank, insurer, DISC)?", result: "No", outcome: "pass" }
+    - { test: "100 or fewer shareholders? (a qualifying family counts as one)", result: "Yes", outcome: "pass" }
+    - { test: "Only eligible shareholders? (no partnership, corporation, or nonresident alien)", result: "Yes", outcome: "pass" }
+    - { test: "One class of stock? (voting differences don't count)", result: "Yes", outcome: "pass" }
 ---
+
+<div class="plain-terms">
+This page is about who can own an S corporation and what its stock has to look like. Five
+conditions all have to hold, every single day the choice is in effect, not just on the day it was
+made. It matters for any small or family-owned corporation weighing whether to be taxed this way.
+Owners must be the right type of person or entity, there can be no more than a set number of them,
+and every share must carry the same rights to profits and payouts. Break any one condition, even
+by accident, and the corporation loses this tax status on that very day.
+</div>
 
 The conditions for S status are five in number, they are cumulative, and each must hold on every day the
 election is in force rather than merely on the day it was made. That last point is what turns a definition
@@ -85,11 +104,11 @@ under IRC § 1362(d)(2) on the date of cessation — not at the end of the year,
 
 ## Scenarios
 
-<div class="scenario">
+<div class="scenario" data-type="fails">
 <h3>The share certificate issued to a partnership</h3>
-<p>A profitable S corporation with six individual shareholders admits a new investor. For administrative
-convenience the investor takes the shares in the name of a two-person general partnership he controls with
-his brother. The transfer is registered on 14 May.</p>
+<p>A profitable {gloss:s-corporation} with six individual shareholders admits a new investor. For
+administrative convenience the investor takes the shares in the name of a two-person general
+{gloss:partnership-entity} he controls with his brother. The transfer is registered on 14 May.</p>
 <p>The election terminates on 14 May. IRC § 1361(b)(1)(B) permits shareholders who are individuals,
 estates, certain trusts and certain exempt organisations; a partnership is not among them. Under
 IRC § 1362(d)(2)(B) the termination is effective on and after the date of cessation, so the corporation has
@@ -99,7 +118,7 @@ under IRC § 1362(f) is available if the Secretary is satisfied the circumstance
 position is corrected, which is the practical answer here.</p>
 </div>
 
-<div class="scenario">
+<div class="scenario" data-type="boundary">
 <h3>Two hundred cousins and one shareholder</h3>
 <p>A vineyard incorporated in 1974 by Bartholomea has been passed down through four generations. There are
 now 187 registered holders: her descendants, their spouses, and the estates of several who have died. The
@@ -112,7 +131,7 @@ The condition this company should actually be watching is the permitted-sharehol
 grandchild marrying a non-resident alien and transferring shares would end the election immediately.</p>
 </div>
 
-<div class="scenario">
+<div class="scenario" data-type="timing">
 <h3>The distribution that made a second class</h3>
 <p>Two shareholders own an S corporation equally. One takes $200,000 out of the company during the year
 and the other takes nothing, by informal agreement, because the first has a personal cash need. Both hold
@@ -126,7 +145,7 @@ voting and non-voting shares without any difficulty at all, because IRC § 1361(
 differences entirely.</p>
 </div>
 
-<div class="scenario">
+<div class="scenario" data-type="interaction">
 <h3>The shareholder loan on soft terms</h3>
 <p>A shareholder lends her S corporation $400,000. The written note has no fixed maturity, carries interest
 payable only if the company is profitable, and is subordinated to all other creditors.</p>
@@ -138,6 +157,33 @@ person actively and regularly engaged in the business of lending money. Interest
 takes this note outside the safe harbour, and it must then be tested on general principles to see whether
 it is in substance a second class of stock. Redrafting the interest terms is cheap; losing the election is
 not.</p>
+</div>
+
+<div class="scenario" data-type="baseline">
+<h3>The five gates, cleanly cleared</h3>
+<p>A domestic manufacturing corporation has 40 shareholders, all individuals and none a non-resident
+alien. It has issued only one class of common stock, all shares carrying identical rights to
+distributions and liquidation proceeds, and none of its business falls within the definition of an
+ineligible corporation.</p>
+<p>It qualifies. All five conditions of IRC § 1361(b)(1) hold: it is domestic, it is not an ineligible
+corporation, it has fewer than 100 shareholders, every shareholder is a permitted type, and it has one
+class of stock. Nothing here calls for the family aggregation rule or the straight debt safe harbour —
+those exist for harder fact patterns. The straightforward case is still the most common one, and it is
+worth confirming precisely because a practitioner who studies only the traps can forget to check the easy
+conditions too.</p>
+</div>
+
+<div class="scenario" data-type="procedural">
+<h3>Fixing an accidental termination</h3>
+<p>A corporation discovers that a shareholder transferred her shares to a partnership two years ago
+without telling anyone, terminating the S election on the date of that transfer under IRC § 1362(d)(2).
+The company has kept filing Form 1120-S every year since, unaware anything had changed.</p>
+<p>The corporation's practical option is to seek relief for an inadvertent termination under
+IRC § 1362(f). That relief is available where the Secretary is satisfied the termination was inadvertent
+and the corporation corrects the disqualifying position — here, undoing or replacing the partnership's
+holding so that every shareholder is again an eligible type. Relief is discretionary, not automatic: until
+the Secretary grants it, the years since the transfer stand as C corporation years, and every return the
+company filed as an S corporation during that gap would need to be revisited.</p>
 </div>
 
 <div class="callout trap">

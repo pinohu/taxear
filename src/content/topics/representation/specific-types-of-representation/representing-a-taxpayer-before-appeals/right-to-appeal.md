@@ -19,7 +19,19 @@ forms: []
 related: ["3.3.1.e", "3.3.1.d", "3.3.3.h", "3.3.4.b", "3.3.4.e", "3.3.4.c", "3.3.4.d", "3.4.3.g"]
 changelog:
   - { date: "2026-08-19", summary: "Initial draft." }
+  - { date: "2026-08-25", summary: "Added a plain-language summary, glossary marks, and typed scenarios." }
 ---
+
+<div class="plain-terms">
+Every taxpayer who disagrees with an IRS decision has a right to ask an independent office
+inside the IRS to look at it again. This office is separate from whoever made the first
+decision. The right applies once the IRS has actually decided something against you and
+told you so in writing. It does not apply just because you owe money and cannot pay it. It
+also does not apply if you got a plain bill with no mention of an appeal. The independent
+office cannot be overruled by the examiner or collector who handled your case first. This
+right decides whether you get a real second look at your dispute before it goes any
+further, such as to court.
+</div>
 
 ## The rule
 
@@ -112,7 +124,7 @@ used. For taxpayers over the thresholds, a request can still be made — it simp
 the statute. Note that the right is triggered by a conference scheduled **on the taxpayer's
 request**.
 
-<div class="scenario">
+<div class="scenario" data-type="fails">
 <h3>A bill is not a determination</h3>
 
 Cornelius Adeyemi brings in a balance due notice and asks his enrolled agent to appeal it. The
@@ -121,17 +133,17 @@ appeal rights.
 
 There is nothing to appeal, and saying so plainly is the service. The liability was
 self-assessed; the IRS has not made a determination adverse to him beyond computing what his own
-return reported. What Adeyemi actually wants is time, which is an installment agreement question.
+return reported. What Adeyemi actually wants is time, which is an {gloss:installment-agreement} question.
 Had the notice been a proposed adjustment from an examination, or a notice of intent to levy, the
 answer would be different — and in each case the notice itself would have said so. The rule the
 representative applies is the one the IRS applies: no letter explaining a right to appeal, no
 appeal.
 </div>
 
-<div class="scenario">
+<div class="scenario" data-type="procedural">
 <h3>The denied referral</h3>
 
-Beatrix Nwosu receives a notice of deficiency and asks for referral to Appeals. The request is
+Beatrix Nwosu receives a {gloss:notice-of-deficiency} and asks for referral to Appeals. The request is
 denied. Her representative is told informally that the case is "docketed track" and that Appeals
 will not take it.
 
@@ -144,10 +156,10 @@ procedure with it. Whether Appeals ultimately takes the case or not, the client 
 reasons she can respond to, and denials are reported to Congress by category.
 </div>
 
-<div class="scenario">
+<div class="scenario" data-type="baseline">
 <h3>The file before the conference</h3>
 
-Ravindra Baptiste, an individual whose adjusted gross income for the year in dispute is
+Ravindra Baptiste, an individual whose {gloss:adjusted-gross-income} for the year in dispute is
 comfortably below the statutory threshold, has a conference scheduled at his own request. His
 representative requests the non-privileged portions of the case file.
 

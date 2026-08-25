@@ -22,7 +22,18 @@ forms: []
 related: ["2.1.2.i", "2.1.2.a", "2.1.1.d", "2.1.2.h"]
 changelog:
   - { date: "2026-08-21", summary: "Initial draft. Sets out the IRC § 6221(a) rule that partnership-related adjustments, the tax attributable to them and any related penalties are determined at the partnership level; the § 6221(b) election out with its five conditions, its 100-statement limit and its eligible-partner list, and the § 6221(b)(2)(A) treatment of S corporation partners; the § 6225 imputed underpayment computed by netting adjustments and applying the highest rate for the reviewed year, payable by the partnership in the adjustment year; the § 6225(c) modification procedures; the § 6226 push-out election within 45 days of the notice of final partnership adjustment; and the § 6227 administrative adjustment request." }
+  - { date: "2026-08-25", summary: "Added a plain-language summary, glossary marks, and two typed scenarios (baseline, procedural) so all six scenarios carry distinct types." }
 ---
+
+<div class="plain-terms">
+This page is about who pays extra tax when a partnership's old tax return turns out to be wrong.
+Today, the partnership itself pays that tax bill. It does not fall on the partners from the year
+that was wrong. That matters a lot, because partners can join or leave between the bad year and
+the year the bill comes due. People who had nothing to do with the mistake can end up paying for
+it. Each year, a partnership can ask to opt out of this system, but only if every partner is a
+type the rule allows and the paperwork is filed on time. A partnership that stays in the system
+can still choose to send the bill to the old partners instead of paying it, but it must act fast.
+</div>
 
 The centralised audit regime moved the payment of tax on a partnership adjustment from the partners to
 the partnership. That single change carries all the consequences: the partnership pays, the partners who
@@ -83,7 +94,7 @@ is real but it costs cooperation from people who may have left.
 The push-out election under IRC § 6226 is the other route and the one most often chosen where the partner
 group has changed. Within 45 days of the notice of final partnership adjustment, the partnership elects and
 furnishes statements to each reviewed-year partner and to the Secretary. IRC § 6225 then does not apply,
-and — the language is emphatic — no assessment, levy or court proceeding for collection of that
+and — the language is emphatic — no {gloss:assessment}, levy or court proceeding for collection of that
 underpayment may be brought against the partnership. The adjustment lands on the partners who were
 actually there. The 45 days is short, the election is revocable only with the Secretary's consent, and
 missing the window leaves the partnership paying.
@@ -95,7 +106,7 @@ name and taxpayer identification number disclosed, and every partner is notified
 elections fail. A late return kills the election for that year outright — there is no reasonable cause
 relief in the subsection. And the eligible-partner list is exhaustive: individuals, C corporations, foreign
 entities that would be C corporations if domestic, S corporations, and estates of deceased partners.
-A partnership partner, a trust partner, a disregarded entity partner, or a single-member LLC holding an
+A partnership partner, a trust partner, a {gloss:disregarded-entity} partner, or a single-member LLC holding an
 interest all disqualify the election.
 
 The S corporation rule adds a trap on top. Where a partner is an S corporation, the partnership must also
@@ -109,7 +120,20 @@ year and not the next.
 
 ## Scenarios
 
-<div class="scenario">
+<div class="scenario" data-type="baseline">
+<h3>The small partnership that opts out cleanly</h3>
+<p>A partnership has six partners: four individuals, one C corporation, and one S corporation with three
+shareholders. On its timely filed 2026 return, it makes the election out under IRC § 6221(b), discloses
+each partner's name and taxpayer identification number, and notifies every partner as required.</p>
+<p>The election is valid. Every partner is an eligible type under IRC § 6221(b)(1)(C), and the statements
+required — six for the partnership's own partners plus three for the {gloss:s-corporation}'s shareholders
+under IRC § 6221(b)(2)(A)(ii) — total nine, well under the 100-statement limit of IRC § 6221(b)(1)(B).
+Because the return was timely and every condition is met, this partnership sits outside the centralised
+regime for 2026: a later adjustment to its return is determined and collected from the partners
+individually for the year at issue, not from the partnership itself.</p>
+</div>
+
+<div class="scenario" data-type="timing">
 <h3>The buyer who paid for someone else's adjustment</h3>
 <p>A partnership's 2024 return is examined and adjusted in 2027, producing an imputed underpayment of
 $800,000 payable in 2027. Two of the four partners in 2024 sold their interests in 2025 to new investors,
@@ -122,7 +146,7 @@ IRC § 6226 push-out election, which puts the adjustment onto the 2024 partners,
 2025 purchase agreement. If neither exists and the 45 days pass, the new partners simply bear it.</p>
 </div>
 
-<div class="scenario">
+<div class="scenario" data-type="interaction">
 <h3>The rate that was too high</h3>
 <p>A partnership's adjustments for a reviewed year total $2,000,000. Of that, 60 percent was allocable to
 a tax-exempt pension fund partner and 30 percent to a C corporation partner, with the balance to two
@@ -136,7 +160,7 @@ the pension fund the tax due may be nil, which removes 60 percent of the base. T
 partners must be persuaded to file.</p>
 </div>
 
-<div class="scenario">
+<div class="scenario" data-type="fails">
 <h3>The election that one partner destroyed</h3>
 <p>A partnership with nine partners has elected out under IRC § 6221(b) for several years. In 2026 one
 partner transfers her interest to her family trust for estate planning reasons. The partnership makes the
@@ -150,7 +174,7 @@ representative accordingly. A single transfer, made for reasons having nothing t
 changed the audit regime for the whole firm.</p>
 </div>
 
-<div class="scenario">
+<div class="scenario" data-type="boundary">
 <h3>The S corporation that used up the count</h3>
 <p>A partnership has eleven partners: ten individuals and one S corporation. The S corporation has ninety
 shareholders. The partnership wishes to elect out of the centralised regime.</p>
@@ -160,6 +184,20 @@ IRC § 6037(b) are treated as statements furnished by the partnership for the pu
 statement to the S corporation itself. The partnership is over the limit despite having eleven partners on
 its own books. It must also, if it were otherwise eligible, disclose the name and taxpayer identification
 number of every one of those ninety shareholders.</p>
+</div>
+
+<div class="scenario" data-type="procedural">
+<h3>Meeting the 45-day window</h3>
+<p>A partnership that did not elect out receives its notice of final partnership adjustment on 2 February.
+The partnership representative decides that week to push the adjustment out to the reviewed-year partners
+rather than have the partnership pay it.</p>
+<p>The partnership has until 19 March — 45 days from the notice — to make the IRC § 6226 election and
+furnish a statement to each reviewed-year partner and to the Secretary showing that partner's share of the
+adjustments. Filed on time, IRC § 6225 no longer applies: no assessment, levy, or court proceeding to
+collect the underpayment may be brought against the partnership, and each reviewed-year partner takes their
+share of the adjustments into account instead. Miss 19 March, and the partnership is back to paying the
+imputed underpayment itself — the election cannot be made late, and once made it can only be withdrawn with
+the Secretary's consent.</p>
 </div>
 
 <div class="callout trap">

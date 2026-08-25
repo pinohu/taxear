@@ -23,7 +23,26 @@ forms: []
 related: ["2.1.2.f", "2.1.2.e", "2.1.2.a", "2.1.2.i", "2.1.2.k"]
 changelog:
   - { date: "2026-08-21", summary: "Initial draft. Records that Pub. L. 115-97 struck the technical termination in IRC § 708(b)(1)(B) for partnership taxable years beginning after 31 December 2017, so a partnership now terminates only where no part of its business continues to be carried on by any partner in a partnership. Sets out the § 708(b)(2) merger and division rules, the § 706(c) rule that the partnership year closes only as to a partner whose entire interest terminates, the § 736(a) and (b) division of liquidation payments between distributive share or guaranteed payment and payment for an interest in partnership property with the § 736(b)(2) and (3) carve-outs for unrealized receivables and goodwill, and the § 731 and § 732 recognition and basis consequences of liquidating distributions." }
+  - { date: "2026-08-25", summary: "Added a plain-language summary, a decision diagram of the § 736(b)(3) carve-out test, typed scenarios, and glossary marks." }
+diagram:
+  archetype: "decision"
+  caption: "Whether the receivables and goodwill carve-outs move a liquidation payment into § 736(a)"
+  tests:
+    - { test: "Capital is not a material income-producing factor for the partnership", result: "First condition of § 736(b)(3) met", outcome: "pass" }
+    - { test: "The retiring or deceased partner was a general partner", result: "Both conditions met — receivables and goodwill payments move to § 736(a)", outcome: "pass" }
+    - { test: "Either condition fails", result: "Payments stay within § 736(b) — capital treatment, no deduction to the partnership", outcome: "fail" }
 ---
+
+<div class="plain-terms">
+A partnership ends for tax purposes only when the business truly stops. It does not end just
+because the partners change, even if many do at once. This page covers what happens when a
+partner leaves, dies, or the firm winds down. It affects any partnership going through a partner's
+exit — a sale, a retirement, or a death — and any firm deciding how to split payments to that
+partner. It does not end just because most of the ownership changed hands. An older rule said
+that. It no longer applies. What it decides: whether the firm itself ends, whose tax year closes,
+how a departing partner's last payment splits between regular income and a return of capital, and
+what basis the partner gets in property received instead of cash.
+</div>
 
 The tax law's idea of a partnership ending is narrower than the commercial one. A firm can change every
 partner it has, sell most of its interests, admit new investors and reconstitute itself under a new name
@@ -113,7 +132,7 @@ at the partnership's basis, and only the remainder to everything else.
 
 ## Scenarios
 
-<div class="scenario">
+<div class="scenario" data-type="timing">
 <h3>The firm that sold most of itself and did not terminate</h3>
 <p>A twelve-partner engineering firm admits an investor group that acquires 70 percent of the interests in
 capital and profits over a nine-month period in 2026. The business continues without interruption. The
@@ -126,7 +145,7 @@ no deemed contribution and distribution, and no restart of depreciation or of ac
 Whoever gave the advice was working from pre-2018 material.</p>
 </div>
 
-<div class="scenario">
+<div class="scenario" data-type="baseline">
 <h3>The partner who died in April</h3>
 <p>Ignatia is one of five partners in a calendar-year partnership. She dies on 14 April 2026. Her estate
 succeeds to her interest, which the partnership liquidates in December 2026 by a series of payments.</p>
@@ -138,7 +157,7 @@ interest in partnership property is a distribution under IRC § 736(b), and the 
 share or guaranteed payment under IRC § 736(a).</p>
 </div>
 
-<div class="scenario">
+<div class="scenario" data-type="interaction">
 <h3>The consultancy and the goodwill clause</h3>
 <p>A consultancy with negligible capital and four general partners pays a retiring partner $900,000. Of
 that, $150,000 is agreed to be for her share of the firm's tangible assets and work in progress already
@@ -147,17 +166,17 @@ partnership agreement is silent about goodwill.</p>
 <p>Three different treatments. The $150,000 for tangible assets is within IRC § 736(b) as a payment for her
 interest in partnership property, so it is a distribution. The $250,000 for unbilled work is a payment for
 unrealized receivables, excluded from IRC § 736(b) by IRC § 736(b)(2)(A) — and the exclusion applies here
-because capital is not a material income-producing factor and she was a general partner, so both
+because capital is not a material income-producing factor and she was a {gloss:general-partner}, so both
 conditions of IRC § 736(b)(3) are satisfied. It is therefore a IRC § 736(a) payment: ordinary income to
 her, and it reduces the continuing partners' income. The $500,000 of goodwill goes the same way, because
 the agreement does not provide for a goodwill payment. Had one clause been drafted differently, that
 $500,000 would have been capital to her and non-deductible to the firm.</p>
 </div>
 
-<div class="scenario">
+<div class="scenario" data-type="procedural">
 <h3>The property taken instead of cash</h3>
-<p>Casimir's outside basis is $320,000. The partnership liquidates his interest by distributing $60,000 of
-cash and a parcel of land whose adjusted basis to the partnership is $410,000.</p>
+<p>Casimir's outside {gloss:basis} is $320,000. The partnership liquidates his interest by distributing
+$60,000 of cash and a parcel of land whose adjusted basis to the partnership is $410,000.</p>
 <p>He recognises nothing on the cash, because $60,000 does not exceed his basis (IRC § 731(a)(1)). His
 basis in the land is $260,000 — his $320,000 outside basis reduced by the $60,000 of money distributed in
 the same transaction (IRC § 732(b)). Note what has happened to the $410,000: the partnership's basis in

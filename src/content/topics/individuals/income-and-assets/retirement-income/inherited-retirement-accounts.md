@@ -25,7 +25,17 @@ forms: []
 related: ["1.2.2.h", "1.2.2.b", "1.2.2.c", "1.2.2.k", "1.2.2.a", "1.2.3.c", "1.4.1.h", "1.5.1.e"]
 changelog:
   - { date: "2026-08-19", summary: "Initial draft. Sets out the three-question structure of IRC § 401(a)(9)(B) as rewritten by § 401(a)(9)(H), the § 401(a)(9)(E)(ii) categories of eligible designated beneficiary tested at the date of death, the Treas. Reg. § 1.401(a)(9)-4(c) 30 September determination date, the rule that annual distributions and the ten-year outer limit both apply where the owner died on or after the required beginning date, the § 408(d)(3)(C) bar on rolling over an inherited IRA, and the § 691 and § 1014(c) consequences." }
+  - { date: "2026-08-25", summary: "Added a plain-language summary, glossary marks, and three typed scenarios (baseline, boundary, procedural) alongside the three existing ones." }
 ---
+
+<div class="plain-terms">
+When someone dies and leaves money in an IRA or a work retirement plan, the account does not just
+pass along quietly. Rules say how fast the new owner must empty it, and how much tax comes due along
+the way. This mainly hits people who get the account from someone other than a spouse; a spouse has
+easier choices, covered elsewhere. It answers three things: how many years the new owner gets before
+the money must be gone, whether some must also come out each year in between, and whether the new
+owner can ever move it into an account of their own.
+</div>
 
 Three questions decide everything, and they have to be asked in order. Was there a **designated
 beneficiary** — a person, identified by 30 September of the year after death? If so, is that person an
@@ -86,11 +96,11 @@ individual's death by someone who was **not** their surviving spouse (IRC § 408
 beneficiary of an employer plan may take a **direct trustee-to-trustee transfer** into an IRA that is
 itself treated as inherited (IRC § 402(c)(11)(A)).
 
-**The income tax character does not change on death.** The account is income in respect of a decedent,
+**The income tax character does not change on death.** The account is {gloss:income-in-respect-of-a-decedent},
 included in the gross income of whoever acquires the right to receive it, in the year received (IRC
 § 691(a)(1)). Section 1014 does not apply to a right to receive an item of income in respect of a decedent
-(§ 1014(c)), so there is no basis step-up. Where federal estate tax was paid on the account, the recipient
-is allowed a deduction for the portion attributable to it (§ 691(c)(1)(A)).
+(§ 1014(c)), so there is no {gloss:step-up-in-basis}. Where federal estate tax was paid on the account, the
+recipient is allowed a deduction for the portion attributable to it (§ 691(c)(1)(A)).
 
 ## Current figures
 
@@ -131,25 +141,25 @@ Separate accounts are the one structural planning step still available. Where th
 different categories — a spouse and an adult child, say — dividing the account into separate accounts lets
 each apply their own rule rather than being pulled to the least favourable common denominator.
 
-<div class="scenario">
+<div class="scenario" data-type="interaction">
 <h3>Scenario 1 — the adult child who must do both</h3>
 
 Hema dies in March 2026 at 78, having taken required distributions for several years. Her traditional IRA
 passes to her son Ravi, aged 47, who is not disabled or chronically ill and is far more than ten years
 younger than her.
 
-Ravi is a designated beneficiary but not an eligible one, so the ten-year rule applies and the account
-must be empty by the end of 2036. Because Hema died **on or after** her required beginning date, Reg.
-§ 1.401(a)(9)-5(d)(1)(i) also requires an annual distribution for every year until then. He must do both.
-Separately, if Hema had not taken her 2026 distribution before dying, Ravi must take it during 2026,
-computed on her figures.
+Ravi is a {gloss:beneficiary} the plan can identify, but not an eligible one, so the ten-year rule applies
+and the account must be empty by the end of 2036. Because Hema died **on or after** her required beginning
+date, Reg. § 1.401(a)(9)-5(d)(1)(i) also requires an annual distribution for every year until then. He
+must do both. Separately, if Hema had not taken her 2026 distribution before dying, Ravi must take it
+during 2026, computed on her figures.
 </div>
 
-<div class="scenario">
+<div class="scenario" data-type="fails">
 <h3>Scenario 2 — the retitling that emptied the account</h3>
 
 Owen dies in 2026 leaving a traditional IRA of 240,000 dollars to his brother Silas, aged 63. Silas asks
-his bank to move the money into his own existing IRA, and the bank does it.
+his bank to {gloss:rollover} the money into his own existing IRA, and the bank does it.
 
 IRC § 408(d)(3)(C)(i) denies rollover treatment to any amount received from an inherited account, and
 clause (ii) defines inherited to mean acquired by reason of another's death by someone who was not the
@@ -159,7 +169,7 @@ because he is not more than ten years younger than Owen, he **was** an eligible 
 under § 401(a)(9)(E)(ii)(V) and could have taken life expectancy payments over decades.
 </div>
 
-<div class="scenario">
+<div class="scenario" data-type="timing">
 <h3>Scenario 3 — the spouse with a choice, and a reason to wait</h3>
 
 Delia, aged 58, is the sole beneficiary of her husband Amos's traditional IRA. Amos died in 2026 at 61.
@@ -170,6 +180,45 @@ including § 72(t), so a withdrawal at 58 carries the additional tax. If she ins
 beneficiary account, distributions to her are made by reason of Amos's death and fall outside § 72(t)(1)
 by force of § 72(t)(2)(A)(ii). She can take what she needs now and elect to treat the account as her own
 later — the election is not confined to the year of death.
+</div>
+
+<div class="scenario" data-type="baseline">
+<h3>Scenario 4 — the disabled beneficiary, working as designed</h3>
+
+Foster names his adult son as beneficiary of his traditional IRA. Foster dies in 2026 at 74, on or after
+his required beginning date. The son has drawn Social Security disability benefits for a decade and meets
+the definition of disabled within § 72(m)(7).
+
+The son is an eligible designated beneficiary under § 401(a)(9)(E)(ii)(III), so the ten-year rule never
+confines him. He may instead take distributions over his own life expectancy under Reg.
+§ 1.401(a)(9)-5(d)(1)(iii). His status was fixed at Foster's death and is not retested each year, so this
+is the ordinary case the eligible-designated-beneficiary category was written for.
+</div>
+
+<div class="scenario" data-type="boundary">
+<h3>Scenario 5 — exactly ten years, and one day past it</h3>
+
+Two IRA owners, born on the same day, both die on the same day in 2026. The first names a friend exactly
+ten years younger to the day. The second names a friend ten years and one day younger.
+
+Section 401(a)(9)(E)(ii)(V) reaches an individual **not more than** ten years younger than the employee.
+The first friend clears the line exactly and is an eligible designated beneficiary, free to take life
+expectancy payments. The second friend misses it by a single day and is confined to the ten-year rule
+instead — decades of stretched payments turn on 24 hours of birth dates.
+</div>
+
+<div class="scenario" data-type="procedural">
+<h3>Scenario 6 — the disclaimer that arrives in time</h3>
+
+An owner dies in February 2026 naming his daughter as primary beneficiary and, in default, his church as
+contingent beneficiary. The daughter decides she does not need the account and signs a qualified
+disclaimer on 3 August 2026.
+
+Reg. § 1.401(a)(9)-4(c)(1), (2) treats a qualified disclaimer made by 30 September of the year after
+death as removing that person from the determination. Because the disclaimer is timely, the daughter
+drops out and the church — not an
+individual — is the beneficiary actually determined on 30 September, so the account falls under the
+no-designated-beneficiary five-year rule rather than any rule that would have applied to the daughter.
 </div>
 
 <div class="callout trap">

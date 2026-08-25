@@ -17,7 +17,18 @@ forms: []
 related: ["1.2.2.e", "1.2.2.a", "1.2.2.d", "1.2.2.c", "1.2.2.i", "2.3.3.d"]
 changelog:
   - { date: "2026-08-19", summary: "Initial draft. Sets out the six IRC § 4975(c)(1) categories, the IRC § 4975(e)(2) definition of a disqualified person, the two-tier excise tax, and the very different IRC § 408(e)(2) consequence for an IRA together with the narrower IRC § 408(e)(4) pledge rule." }
+  - { date: "2026-08-25", summary: "Added a plain-language summary, glossary marks, and two typed scenarios (baseline, procedural) alongside the three existing ones." }
 ---
+
+<div class="plain-terms">
+This is about deals a retirement account is not allowed to make with certain people close to its
+owner — the owner, family members, or a business the owner controls. Buying, selling, lending, or even
+just using something the account owns are all off limits with those people, no matter how fair the
+price. It affects anyone who runs a self-directed IRA holding property or a private business, since that
+is where these deals tend to happen. The stakes differ sharply by account type. A work plan that breaks
+this rule owes a tax. An IRA that breaks it stops being an IRA at all, backdated to the start of that
+year, with everything inside treated as paid out at once.
+</div>
 
 Two entirely different consequences hide behind one phrase. For an employer plan, a prohibited
 transaction triggers an excise tax that recurs annually and then escalates. For an **individual
@@ -35,7 +46,7 @@ a disqualified person who is a fiduciary dealing with plan income or assets in h
 his own account; and receipt of consideration for his own personal account by a fiduciary from a party
 dealing with the plan (IRC § 4975(c)(1)(A)–(F)).
 
-**Who is disqualified is wider than "the owner".** The term reaches a fiduciary; a person providing
+**Who is disqualified is wider than "the owner".** The term reaches a {gloss:fiduciary}; a person providing
 services to the plan; an employer whose employees are covered; an employee organization whose members
 are covered; a substantial owner of such an employer or organization; **a member of the family** of
 most of those; an entity substantially owned by them; and officers, directors and highly compensated
@@ -48,7 +59,7 @@ than a fiduciary acting only as such (IRC § 4975(a)). If the transaction is not
 taxable period, a further tax of **100 percent** of the amount involved is imposed (IRC § 4975(b)).
 
 **For an IRA the rule is different in kind.** If, during any taxable year of the individual for whose
-benefit the account is established, that individual or their beneficiary engages in any transaction
+benefit the account is established, that individual or their {gloss:beneficiary} engages in any transaction
 prohibited by § 4975 with respect to the account, **the account ceases to be an individual retirement
 account as of the first day of that taxable year** (IRC § 408(e)(2)(A)). It is then treated as
 distributing all its assets at their fair market value on that first day (IRC § 408(e)(2)(B)).
@@ -107,7 +118,7 @@ custodian can supply. The distribution is includible under § 408(d)(1), and § 
 includible portion unless an exception reaches it. There is no correction procedure that undoes
 § 408(e)(2).
 
-<div class="scenario">
+<div class="scenario" data-type="boundary">
 <h3>A weekend at the IRA's cottage</h3>
 
 Nadia's self-directed IRA owns a holiday cottage let commercially all year. In August she and her
@@ -124,7 +135,7 @@ additional tax under § 72(t) on the includible portion if she is under 59½ and
 Paying a market rent would not have cured it — the category does not turn on consideration.
 </div>
 
-<div class="scenario">
+<div class="scenario" data-type="interaction">
 <h3>The loan that was not a distribution</h3>
 
 Rafael pledges $30,000 of his $200,000 IRA as security for a personal bank loan.
@@ -140,7 +151,7 @@ account from the first day of the year. The two acts look similar to a client an
 magnitude.
 </div>
 
-<div class="scenario">
+<div class="scenario" data-type="fails">
 <h3>Paying a family member to manage</h3>
 
 Bea's self-directed IRA owns three rental units. She engages her daughter, a licensed property manager,
@@ -150,10 +161,39 @@ Both limbs of the definition are met. Her daughter is a member of Bea's family a
 person under IRC § 4975(e)(2)(F), and the arrangement is the furnishing of services between a plan and
 a disqualified person within IRC § 4975(c)(1)(C).
 
-That the rate is market and the arrangement documented does not matter. The categories are structural
-rather than valuation-based — the statute asks who dealt with the plan, not whether the deal was fair.
-An unrelated manager at the same rate would have been unobjectionable, and the account would have
-survived.
+That the rate is {gloss:arms-length} and the arrangement documented does not matter. The categories are
+structural rather than valuation-based — the statute asks who dealt with the plan, not whether the deal
+was fair. An unrelated manager at the same rate would have been unobjectionable, and the account would
+have survived.
+</div>
+
+<div class="scenario" data-type="baseline">
+<h3>The account that never comes close</h3>
+
+Tomas's traditional IRA holds nothing but a handful of publicly traded index funds, bought and sold
+through his brokerage's ordinary order screen. He has never used the account to buy property, lend
+money, or pay anyone he knows.
+
+Nothing here approaches a prohibited transaction. None of the six categories in IRC § 4975(c)(1) is in
+play, because there is no disqualified person on the other side of an ordinary market trade with a
+stranger through an exchange — no sale to or from Tomas personally, no loan, no service arrangement, no
+use of the assets for anyone's benefit but the account's own. This is the ordinary case: exposure under
+this topic arises almost entirely with self-directed accounts holding real property, private
+businesses, or loans, not with a conventionally invested IRA like this one.
+</div>
+
+<div class="scenario" data-type="procedural">
+<h3>The custodian's after-the-fact correction</h3>
+
+An IRA custodian learns in February 2027 that its owner engaged in a prohibited transaction in June
+2026. The custodian must now report the account correctly.
+
+The account ceased to be an IRA as of 1 January 2026 under IRC § 408(e)(2)(A) — not in June, when the
+transaction happened, and not in February 2027, when anyone found out. The custodian reports a full
+distribution for 2026 at the account's 1 January 2026 fair market value on a Form 1099-R, and the owner
+includes that amount in 2026 income under § 408(d)(1), with § 72(t) reaching the includible portion if
+the owner was under 59½ at the time. Discovery date and transaction date do not move the reporting year;
+only the first day of the taxable year does.
 </div>
 
 <div class="callout trap">

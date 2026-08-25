@@ -23,7 +23,26 @@ forms: []
 related: ["1.2.2.b", "1.2.2.c", "1.2.2.g", "1.2.2.a", "1.2.2.e", "1.2.2.i", "1.2.2.j", "1.2.2.l", "1.4.1.l"]
 changelog:
   - { date: "2026-08-19", summary: "Initial draft. Sets out the IRC § 401(a)(9)(C) required beginning date and its applicable-age table, the Treas. Reg. § 1.401(a)(9)-5 computation and Uniform Lifetime denominators, the Treas. Reg. § 1.408-8(e) aggregation rules, and the IRC § 4974 excise tax with its § 4974(e) reduced rate and § 4974(d) reasonable-error waiver." }
+  - { date: "2026-08-25", summary: "Added a plain-language summary, a timeline diagram of the required-beginning-date sequence, glossary marks, and two typed scenarios (baseline, boundary) alongside the three existing ones." }
+diagram:
+  archetype: "timeline"
+  caption: "The required-distribution clock, from the applicable age forward"
+  events:
+    - { when: "The year the owner reaches the applicable age (73, or 75 for those born later)", what: "The first distribution calendar year begins" }
+    - { when: "April 1 of the following year", what: "Required beginning date — the only distribution that may be deferred this far" }
+    - { when: "December 31 of that same year", what: "The second year's amount is also due, computed on a balance the deferred distribution has not yet reduced" }
+    - { when: "Every December 31 after that", what: "Each year's amount is due, computed on the prior December 31 balance divided by the applicable denominator" }
 ---
+
+<div class="plain-terms">
+Once you reach a certain age, the law will not let you leave money sitting untouched in most
+retirement accounts. Each year you must pull out at least a minimum amount, whether you need the cash
+or not. This affects owners of IRAs, 401(k)s, and similar accounts once they hit that age — Roth IRAs
+are the one big exception while the owner is alive. It decides how much has to come out each year, and
+from which accounts the total can be drawn. Get it wrong, and a stiff extra tax lands on whatever you
+should have withdrawn but did not. Skipping the rule is rarely on purpose; it usually comes from
+pulling money out of the wrong account.
+</div>
 
 The required minimum distribution is a rule about **timing**, not about tax rates: nothing here changes
 what a distribution costs, only when it must be taken. The penalty for missing it, however, is an excise
@@ -60,7 +79,7 @@ calendar year may be made on or before April 1 of the following year; every othe
 the end of that year (Reg. § 1.401(a)(9)-5(a)(3)). Deferring therefore stacks two distributions into the
 second year — and the second is computed on a balance that has not been reduced by the first.
 
-**A required minimum distribution is not eligible for rollover.** IRC § 408(d)(3)(E) denies rollover
+**A {gloss:required-minimum-distribution} is not eligible for {gloss:rollover}.** IRC § 408(d)(3)(E) denies rollover
 treatment to any amount required to be distributed, and the first dollars distributed in a year for
 which one is due are treated as the required amount until it is satisfied (Reg. § 1.408-8(b)(3)). That is
 why a required distribution can never be converted to a Roth IRA.
@@ -118,10 +137,10 @@ election — the IRS decides. The reduced rate under § 4974(e), by contrast, is
 applies if the two conditions are met.
 
 A distribution is due for the calendar year of the owner's death, and to the extent it was not
-distributed to the owner it must be distributed during that year to the beneficiary (Reg.
+distributed to the owner it must be distributed during that year to the {gloss:beneficiary} (Reg.
 § 1.401(a)(9)-5(c)(1)). Everything after that year is governed by a different set of rules.
 
-<div class="scenario">
+<div class="scenario" data-type="interaction">
 <h3>Scenario 1 — three accounts, one distribution, one shortfall</h3>
 
 Amara turns 73 in 2026. On 31 December 2025 she held a traditional IRA worth 400,000 dollars, a second
@@ -136,7 +155,7 @@ the 401(k) and files Form 5329 reflecting the tax within the correction window, 
 rate, and she may also ask for a waiver under § 4974(d).
 </div>
 
-<div class="scenario">
+<div class="scenario" data-type="timing">
 <h3>Scenario 2 — the deferral that doubles up</h3>
 
 Bertrand attains the applicable age in 2026 and is retired. His required beginning date is 1 April 2027.
@@ -149,7 +168,7 @@ withdrawal did not reduce. Two distributions land in one tax year. Nothing is wr
 simply a bracket question, and it is why the deferral is usually declined.
 </div>
 
-<div class="scenario">
+<div class="scenario" data-type="fails">
 <h3>Scenario 3 — the working owner who cannot defer</h3>
 
 Chidi is 74, still working full time for the company he founded and in which he holds a third of the
@@ -160,6 +179,33 @@ is excluded by clause (ii)(I), so his required beginning date for the plan was f
 retirement. For the IRA, clause (ii)(II) removes the retirement leg for everyone, so it would have made
 no difference even if he owned nothing. He owes a required distribution from each, and the two do not
 aggregate with each other.
+</div>
+
+<div class="scenario" data-type="baseline">
+<h3>Scenario 4 — one account, one number, nothing to pool</h3>
+
+Wen turns 75 in 2026 and holds a single traditional IRA, the only retirement account she has ever owned.
+Its balance on 31 December 2025 was 250,000 dollars.
+
+There is nothing to aggregate and nothing to choose between. Her required distribution is the balance
+divided by the Uniform Lifetime denominator for age 75, 24.6, or a little over 10,163 dollars, and she
+withdraws that amount from the account in November 2026. This is the computation working exactly as
+written, with no second account to route the withdrawal through and no shortfall to explain.
+</div>
+
+<div class="scenario" data-type="boundary">
+<h3>Scenario 5 — five percent, on the nose, and five percent and change</h3>
+
+Two co-founders of the same small company are each 74 in 2026, still working full time, and each holds
+stock in the company alongside a 401(k) through its plan. One owns exactly 5 percent of the company's
+stock. The other owns 5.5 percent.
+
+A 5-percent owner is one who owns **more than** 5 percent of the employer — exactly 5 percent does not
+cross that line. The co-founder at exactly 5 percent is not a 5-percent owner, so the retirement leg of
+IRC § 401(a)(9)(C)(i)(II) is available to her and her required beginning date can wait until she
+actually retires. Her partner at 5.5 percent is a 5-percent owner, excluded from that leg by clause
+(ii)(I): his required beginning date is fixed by his age alone, still working or not. Half a percentage
+point of stock is the entire difference between the two required beginning dates.
 </div>
 
 <div class="callout trap">

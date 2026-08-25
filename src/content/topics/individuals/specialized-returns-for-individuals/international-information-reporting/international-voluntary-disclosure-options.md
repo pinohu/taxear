@@ -20,7 +20,26 @@ forms: []
 related: ["1.6.3.a", "1.6.3.b", "1.6.3.c", "1.6.3.d", "1.6.3.e"]
 changelog:
   - { date: "2026-08-21", summary: "Initial draft. Sets out the two routes back into compliance — the streamlined filing compliance procedures in their foreign and domestic forms, and the Criminal Investigation Voluntary Disclosure Practice — with the willfulness certification that separates them, the three-year and six-year submission periods, the 5 percent Title 26 miscellaneous offshore penalty, the timeliness bars, and the fact that neither route acknowledges receipt or guarantees anything." }
+  - { date: "2026-08-25", summary: "Added a plain-language summary, a decision diagram showing which route applies and what closes it, glossary marks, and typed scenarios." }
+diagram:
+  archetype: "decision"
+  caption: "Which door applies, and what closes each one"
+  tests:
+    - { test: "Can the client certify the conduct was non-willful?", result: "Streamlined filing compliance procedures", outcome: "pass" }
+    - { test: "Has a civil examination of any year already begun?", result: "Streamlined route no longer available", outcome: "fail" }
+    - { test: "Is the client acknowledging willful conduct instead?", result: "Voluntary Disclosure Practice", outcome: "pass" }
+    - { test: "Has the IRS already received third-party information about the noncompliance?", result: "Disclosure no longer timely", outcome: "fail" }
 ---
+
+<div class="plain-terms">
+This page explains what to do if someone forgot to report a foreign bank account or foreign income to
+the IRS. There are two different paths back into compliance, and picking the right one starts with one
+honest question. Was the earlier mistake truly accidental, or did the person know about it and choose to
+ignore it? Someone whose mistake was innocent can use a simpler path with lighter consequences. Someone
+who knew and did not comply must use a different path instead. This page affects anyone catching up on
+old foreign reporting. It does not decide whether tax is owed. It decides which door a person walks
+through, and how fast they need to act before that door closes.
+</div>
 
 A client who discovers an old foreign account has two doors to choose between, and the choice is made by
 a fact about their own state of mind rather than by the numbers. The streamlined procedures require a
@@ -107,7 +126,7 @@ not been finalised. Advise on the practice as it stands, and flag to any client 
 terms of a revised practice would be determined by the procedures in effect when the changes are
 finalised.
 
-<div class="scenario">
+<div class="scenario" data-type="baseline">
 <h3>The tick-box that decided the route</h3>
 
 A client inherited an account in Italy in 2016 and has never reported it. Her returns for every year
@@ -116,14 +135,14 @@ note records that she was asked and said she had no foreign accounts.
 
 She cannot certify non-willfulness on those facts without a serious conversation about what she
 understood the question to mean. A repeated negative answer to a direct question is the government's
-standard evidence of willfulness. If she can genuinely explain it — she read the question as asking
+standard evidence that the conduct was {gloss:willful}. If she can genuinely explain it — she read the question as asking
 about accounts she had opened, or about accounts producing United States income — the streamlined route
 may be open. If she cannot, the streamlined certification is not available to her and the Practice is
 the honest route.
 
 </div>
 
-<div class="scenario">
+<div class="scenario" data-type="timing">
 <h3>The penalty measured against a year that had passed</h3>
 
 A client living in Ohio has an account in Taiwan that held $900,000 in 2021 and holds $180,000 now,
@@ -136,27 +155,27 @@ the route is the difference between a manageable number and an unaffordable one.
 
 </div>
 
-<div class="scenario">
+<div class="scenario" data-type="procedural">
 <h3>The letter that was never coming</h3>
 
 A client made a streamlined submission eighteen months ago and has heard nothing. She asks her adviser
 to chase the Service for confirmation that the matter is closed.
 
-There is nothing to chase. Streamlined returns are processed like any other return; receipt is not
+There is nothing to chase. Returns made under the {gloss:streamlined-filing-compliance-procedures} are processed like any other return; receipt is not
 acknowledged and the process does not culminate in a closing agreement. Silence is the expected outcome
 and is not evidence of acceptance — the submission remains open to selection for audit on the ordinary
 criteria, and to verification against information the Service receives from banks and other sources.
 
 </div>
 
-<div class="scenario">
+<div class="scenario" data-type="fails">
 <h3>The disclosure that arrived second</h3>
 
 A client resolves in March to make a voluntary disclosure about an undeclared account in Zurich. He
 gathers documents for two months. In May, before he files, the Service receives information about the
 account from the foreign institution under an automatic exchange agreement.
 
-His disclosure is no longer timely. A voluntary disclosure is timely only if received before the Service
+His disclosure is no longer timely. A disclosure under the {gloss:voluntary-disclosure-practice} is timely only if received before the Service
 has received information from a third party alerting it to the noncompliance, and the exchange has done
 exactly that. He will not know it has happened. The delay was not unreasonable and it was fatal, which
 is why the preclearance request is filed first and the documents assembled afterwards.

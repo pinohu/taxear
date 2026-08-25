@@ -18,7 +18,25 @@ forms: []
 related: ["1.2.1.d", "1.2.1.j", "1.2.1.b", "1.2.1.m", "1.2.1.l", "1.2.3.e"]
 changelog:
   - { date: "2026-08-19", summary: "Initial draft. Sets out the IRC § 469(c) definition with its rental rule and real estate professional exception, the seven Reg. § 1.469-5T(a) material participation tests, the IRC § 469(i) offset and its unindexed phase-out, and the IRC § 469(g) release on disposition." }
+  - { date: "2026-08-25", summary: "Added a plain-language summary, glossary marks, a decision diagram of the rental-loss escape routes, and two typed scenarios (boundary, timing) alongside the existing three." }
+diagram:
+  archetype: "decision"
+  caption: "Escaping the passive limitation on a rental loss"
+  tests:
+    - { test: "Rental activity under § 469(c)(2)?", result: "Passive by definition — hours worked don't change that", outcome: "fail" }
+    - { test: "Active participation — at least a 10% interest?", result: "Up to $25,000 of loss offsets other income, phased out $100,000–$150,000 AGI", outcome: "pass" }
+    - { test: "Real estate professional — over 750 hours and more than half of personal services in real property trades?", result: "Rental is out of § 469(c)(2) entirely — losses aren't passive at all", outcome: "pass" }
 ---
+
+<div class="plain-terms">
+This rule limits losses from a business you do not actively run, or from almost any rental property.
+If you just invest money or sign papers but do not do real work in the activity, your loss may be put
+on hold. It does not vanish. It waits until you have matching income from a similar activity, or until
+you sell your whole stake. This mainly affects landlords, silent business partners, and people with
+side ventures they barely touch. It does not affect a business you run yourself day to day. What this
+page decides is whether a loss counts now, later, or only after a sale, and how much work or ownership
+lets a landlord dodge the limit.
+</div>
 
 Section 469 does not deny losses; it postpones them. A passive activity loss for the year is simply not
 allowed (IRC § 469(a)(1)(A)) and is carried to the next year as a deduction allocable to the same
@@ -105,7 +123,7 @@ Finally, track suspended losses by activity, not in aggregate. Section 469(g) re
 disposition of an entire interest in *that* activity, so the records have to be able to say which loss
 belongs where, sometimes many years later.
 
-<div class="scenario">
+<div class="scenario" data-type="fails">
 <h3>Hard work that did not help</h3>
 
 Anton owns two residential rentals. He advertises, screens tenants, handles repairs himself, and spends
@@ -119,15 +137,17 @@ in § 469(i)(3)(A) has eliminated it entirely.
 
 The whole $23,000 is suspended under IRC § 469(a) and carried forward under § 469(b). It is not lost —
 it will be released against future passive income or on a fully taxable disposition of an entire
-interest under § 469(g)(1)(A). His route to using it sooner would be qualifying under § 469(c)(7), and
-his day job makes the more-than-one-half test impossible.
+interest under § 469(g)(1)(A). His route to using it sooner would be qualifying as a
+{gloss:real-estate-professional} under § 469(c)(7), and his day job makes the more-than-one-half test
+impossible.
 </div>
 
-<div class="scenario">
+<div class="scenario" data-type="baseline">
 <h3>The easiest test, not the obvious one</h3>
 
 Beatriz owns a small consulting company alongside a partner who invests but does no work. She spent
-about 320 hours on it this year, which is well short of 500, and assumes her loss is passive.
+about 320 hours on it this year, which is well short of 500, and assumes she lacks
+{gloss:material-participation}, so her loss is passive.
 
 She should look further down the regulation. Reg. § 1.469-5T(a)(2) treats an individual as materially
 participating where their participation constitutes **substantially all** the participation of all
@@ -140,7 +160,7 @@ carry her through a future quiet year on the strength of having materially parti
 preceding ten.
 </div>
 
-<div class="scenario">
+<div class="scenario" data-type="interaction">
 <h3>Selling to a daughter, and waiting</h3>
 
 Karim has $140,000 of suspended losses from a partnership interest he has held for years. He sells the
@@ -154,6 +174,32 @@ But his daughter is a related person within IRC § 267(b), so IRC § 469(g)(1)(B
 until the interest is acquired by someone unrelated. The losses stay suspended, now attached to an
 interest he no longer owns. Selling to an unrelated buyer, even at a lower price, would have released
 $140,000 of deductions — which is the kind of arithmetic worth doing before the sale rather than after.
+</div>
+
+<div class="scenario" data-type="boundary">
+<h3>One dollar from zero</h3>
+
+Deshawn actively participates in a small rental with a $6,000 loss. His adjusted gross income before
+the rental is $149,000. His neighbor, in an identical rental with an identical loss, has adjusted gross
+income of $150,001.
+
+IRC § 469(i)(3)(A) reduces the $25,000 ceiling by 50 cents for every dollar of adjusted gross income
+over $100,000. Deshawn's allowance has shrunk to $500 — barely enough to absorb part of his loss. His
+neighbor's allowance reached zero at $150,000 and stays there; past that point, more income makes no
+further difference, but the last dollar before it can still decide the case.
+</div>
+
+<div class="scenario" data-type="timing">
+<h3>The same loss, released a year later</h3>
+
+In 2025, Farah's rental partnership interest produces an $18,000 loss. She has no other passive income
+that year, so the full amount is suspended under § 469(a) and carried forward under § 469(b). In 2026,
+the same partnership produces $18,000 of passive income from a different property she also holds.
+
+Nothing about the 2025 loss changes — it was correctly disallowed for that year. What changes is 2026's
+facts: passive income now exists to absorb it, so the carried-forward $18,000 offsets the new passive
+income and is deducted in 2026 instead. Same taxpayer, same suspended loss, a different answer because
+the year is different.
 </div>
 
 <div class="callout trap">

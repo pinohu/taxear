@@ -18,7 +18,25 @@ forms: ["8867"]
 related: ["3.1.4.b", "3.1.4.e", "3.1.4.c", "3.1.2.f", "3.2.1.g", "3.4.1.a"]
 changelog:
   - { date: "2026-08-18", summary: "Initial publication from IRC § 6695(g), (h) and Reg. § 1.6695-2." }
+  - { date: "2026-08-25", summary: "Added a plain-language summary, a decision diagram testing the isolated-failure exception, glossary marks, and typed scenarios." }
+diagram:
+  archetype: "decision"
+  caption: "Does the isolated-failure exception save this preparer from a § 6695(g) penalty?"
+  tests:
+    - { test: "Normal office procedures reasonably designed and routinely followed?", result: "First limb satisfied", outcome: "pass" }
+    - { test: "This particular failure isolated and inadvertent — not a repeat this season?", result: "Second limb satisfied — exception applies, no § 6695(g) penalty on this return", outcome: "pass" }
+    - { test: "Either limb missing, or the preparer's firm is separately liable under the firm rule?", result: "Exception unavailable — the § 6695(g) penalty stands", outcome: "fail" }
 ---
+
+<div class="plain-terms">
+This page is about a fine for tax preparers who do not check hard enough before they claim
+certain tax breaks for a client. It covers head of household status and a few tax credits
+aimed at families and students. It matters to preparers, not to the people who get the tax
+breaks. The fine does not ask if the tax break was right in the end. It asks if the preparer
+did the required steps: fill out a form, show the math, ask questions when something looks
+off, and keep proof of all of it. Skip those steps on a few breaks on one return, and several
+fines can stack up fast.
+</div>
 
 The due diligence penalty is the one that scales fastest, because it applies per benefit and not per return. A single return claiming head of household status alongside three credits can carry four penalties, and none of them is capped annually. What the regulation asks for is not judgement but process: four requirements, all documentary, all provable from the file or not at all.
 
@@ -62,21 +80,21 @@ The exception is regularly overestimated. It is not a reasonable cause defence a
 
 The firm rule cuts the other way and is generous by design. A firm is liable only on one of three fault findings, so a well-run firm whose individual preparer fails on one return is not automatically exposed. But the second limb — failing to establish reasonable and appropriate procedures — is a standing obligation rather than a per-return one, and a firm with no due diligence process is liable across every return its preparers get wrong.
 
-<div class="scenario">
+<div class="scenario" data-type="baseline">
 <h3>Four benefits, four penalties</h3>
-<p>A preparer files a return using head of household filing status and claiming the earned income credit, the child tax credit and the American opportunity credit. No Form 8867 is completed and no worksheets or computation records exist for any of them.</p>
+<p>A preparer files a return using {gloss:head-of-household} filing status and claiming the earned income credit, the child tax credit and the American opportunity credit. No Form 8867 is completed and no worksheets or computation records exist for any of them.</p>
 <p><em>Analysis.</em> Four separate penalties. Reg. § 1.6695-2(a)(1) applies the penalty to the head of household determination and to <em>each</em> applicable credit, and the regulation's own examples confirm the count. There is no annual maximum on § 6695(g), so this arithmetic does not stop at a cap. On the current amount, one return's exposure exceeds most engagement fees several times over.</p>
 </div>
 
-<div class="scenario">
+<div class="scenario" data-type="fails">
 <h3>The question that was asked but not written down</h3>
 <p>A client's intake sheet shows two nephews living with her all year and no income of her own beyond a small Schedule C. The preparer, suspicious, telephones and satisfies himself that the arrangement is genuine, then files claiming the EIC. He makes no note of the call.</p>
 <p><em>Analysis.</em> The inquiry was the right one and it fails anyway. Reg. § 1.6695-2(b)(3)(i) requires the preparer to <em>contemporaneously document in the files any inquiries made and the responses to those inquiries</em>. An undocumented inquiry cannot be distinguished from no inquiry, and the knowledge requirement is not satisfied. The substantive answer being correct does not save the file.</p>
 </div>
 
-<div class="scenario">
+<div class="scenario" data-type="boundary">
 <h3>Isolated, or the third this season</h3>
-<p>A firm has a written due diligence checklist, trains on it annually, and reviews a sample of files each week. On one return in March the Form 8867 was completed but the supporting documents were never scanned. The IRS proposes a penalty.</p>
+<p>A firm has a written {gloss:due-diligence} checklist, trains on it annually, and reviews a sample of files each week. On one return in March the Form 8867 was completed but the supporting documents were never scanned. The IRS proposes a penalty.</p>
 <p><em>Analysis.</em> This is what Reg. § 1.6695-2(d) is for: procedures reasonably designed and routinely followed, and a failure that is isolated and inadvertent. The weekly sampling is evidence of "routinely followed", which is the limb firms most often cannot prove. Had the same omission occurred on three returns, "isolated" would fail on its face and the exception would be unavailable however good the checklist.</p>
 </div>
 

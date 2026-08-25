@@ -20,7 +20,18 @@ forms: []
 related: ["3.1.2.a", "3.1.3.c", "3.1.2.g"]
 changelog:
   - { date: "2026-08-18", summary: "Initial publication from Circular 230 § 10.23." }
+  - { date: "2026-08-25", summary: "Added a plain-language summary, glossary marks, and typed scenarios." }
 ---
+
+<div class="plain-terms">
+This rule is about stalling. A tax practitioner works with the IRS for a client. The practitioner
+must not drag out a case on purpose. It covers any IRS matter, not just one type. The rule applies
+to enrolled agents, lawyers, and accountants who work with the IRS. It does not punish delay caused
+by illness or a heavy workload. What counts is intent, not a set number of days. The rule decides if
+slow, deliberate delay counts as bad conduct. It also decides if that conduct can bring a penalty.
+A practitioner who stalls to help a client should worry. A practitioner who explains a real delay
+right away usually does not.
+</div>
 
 Section 10.23 is the shortest rule in Circular 230: **a practitioner may not unreasonably delay the prompt disposition of any matter before the Internal Revenue Service.** One sentence, no exceptions, no definitions. Its brevity is why it is almost never charged alone — it is the rule that describes what a practitioner was doing while breaching something else.
 
@@ -48,19 +59,19 @@ Section 10.23 is the shortest rule in Circular 230: **a practitioner may not unr
 
 **Neglect and delay look identical from outside and are charged differently.** A practitioner who simply stops working a file — no strategy, no instruction, just inattention — has delayed the matter, but on the face of it not willfully, so § 10.23 is a poor fit. What that conduct usually engages instead is § 10.22's diligence obligation, and where the client is left without representation at a deadline, the abandonment is the substance of the complaint. The distinction is worth drawing early in any inquiry: § 10.23 alleges a choice, § 10.22 alleges a failure.
 
-<div class="scenario">
+<div class="scenario" data-type="interaction">
 <h3>Waiting out the statute</h3>
-<p>A practitioner holds a client's substantiation for a collection matter and answers each request slowly, on the client's instruction, because the collection statute expiration date is fourteen months away and the client hopes to run it out.</p>
-<p><em>Analysis.</em> This is what § 10.23 prohibits, and it is willful, so § 10.52(a)(1) engages. It is also likely to breach § 10.20(a)(1), which requires prompt submission on a proper and lawful request. The client's instruction is not a defence to the practitioner's own conduct. And the strategy is poor advice besides: requesting a CDP hearing or submitting an offer would suspend the collection period under § 6330(e)(1) or § 6331(k)(3), so delay tactics that provoke either response extend the very date the client is waiting for.</p>
+<p>A practitioner holds a client's substantiation for a collection matter and answers each request slowly, on the client's instruction, because the {gloss:csed} is fourteen months away and the client hopes to run it out.</p>
+<p><em>Analysis.</em> This is what § 10.23 prohibits, and it is willful, so § 10.52(a)(1) engages. It is also likely to breach § 10.20(a)(1), which requires prompt submission on a proper and lawful request. The client's instruction is not a defence to the practitioner's own conduct. And the strategy is poor advice besides: requesting a {gloss:collection-due-process-hearing} or submitting an offer would suspend the collection period under § 6330(e)(1) or § 6331(k)(3), so delay tactics that provoke either response extend the very date the client is waiting for.</p>
 </div>
 
-<div class="scenario">
+<div class="scenario" data-type="baseline">
 <h3>A backlog, handled properly</h3>
-<p>An enrolled agent is hospitalised during an examination and misses two document deadlines. On returning she telephones the examiner, explains, agrees a revised schedule and confirms it in writing.</p>
+<p>An {gloss:enrolled-agent} is hospitalised during an examination and misses two document deadlines. On returning she telephones the examiner, explains, agrees a revised schedule and confirms it in writing.</p>
 <p><em>Analysis.</em> No violation. Section 10.23 prohibits <em>unreasonable</em> delay, and delay arising from genuine incapacity, addressed as soon as the practitioner is able, is not unreasonable. The conduct that makes it defensible is the response, not the absence of delay: contacting the examiner, agreeing a schedule, documenting it. Silence for the same two months would look very different.</p>
 </div>
 
-<div class="scenario">
+<div class="scenario" data-type="fails">
 <h3>The paper filed to slow things down</h3>
 <p>A client asks his practitioner to file a request for a collection due process hearing on grounds the practitioner considers meritless, expressly to postpone a levy for a few months.</p>
 <p><em>Analysis.</em> Section 10.34(b)(2)(i) bars advising a client to submit a paper <em>the purpose of which is to delay or impede</em> the administration of the federal tax laws, and § 10.23 catches the practitioner's own participation in the delay. If the ground is a listed frivolous position, the client also faces the § 6702(b) penalty on a specified frivolous submission &mdash; a CDP request is one &mdash; and the thirty-day withdrawal in § 6702(b)(3) becomes the only escape.</p>

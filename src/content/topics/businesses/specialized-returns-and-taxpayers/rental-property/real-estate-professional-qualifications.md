@@ -20,7 +20,24 @@ forms: []
 related: ["2.3.5.d", "2.3.5.b", "2.3.5.e", "2.3.5.f"]
 changelog:
   - { date: "2026-08-21", summary: "Initial draft. Sets out the two IRC § 469(c)(7)(B) tests — more than half of personal services in real property trades or businesses and more than 750 hours in them — the requirement that one spouse satisfy both separately on a joint return, the exclusion of employee services unless the employee is a 5-percent owner, and the point that qualifying only removes the per se passive rule, leaving material participation to be established property by property unless the Treas. Reg. § 1.469-9(g) aggregation election is made." }
+  - { date: "2026-08-25", summary: "Added a plain-language summary, a decision diagram of the two-part test, glossary marks, and a fourth typed scenario showing the test satisfied end to end." }
+diagram:
+  archetype: "decision"
+  caption: "Real estate professional status: both tests must clear before material participation is even asked"
+  tests:
+    - { test: "More than half of all personal service hours in real property trades or businesses?", result: "Proportion test", outcome: "pass" }
+    - { test: "More than 750 hours in real property trades or businesses?", result: "750-hour floor", outcome: "pass" }
 ---
+
+<div class="plain-terms">
+Real estate professional status is a tax label for people who work mostly, and a lot, in real
+estate. It only matters if you own a rental that is losing money. Normally a rental loss can only
+offset other passive income, not your job pay or business profit. Qualifying removes that limit.
+It affects landlords and property workers who spend most of their time in real estate. It does not
+affect renters or people with a job somewhere else. Qualifying alone does not make a rental loss
+deductible. You still have to show real, hands-on work on each rental, one at a time, unless you
+group them with a special choice.
+</div>
 
 Real estate professional status is the most misunderstood provision in the passive activity rules,
 and the misunderstanding is always the same: people treat it as a switch that makes rental losses
@@ -99,7 +116,7 @@ short-term rental non-passive; those are often outside the rental definition alt
 material participation in a business. And it does not retroactively free suspended losses from years
 before qualification.
 
-<div class="scenario">
+<div class="scenario" data-type="fails">
 
 <h3>The dentist with eleven houses</h3>
 
@@ -108,7 +125,7 @@ careful log, and records 940 hours during the year on tenant selection, repairs,
 accounts. Her rentals produce an aggregate loss of $84,000, and she wants to deduct it against her
 practice income.
 
-She fails the first test. IRC § 469(c)(7)(B)(i) requires more than one-half of the personal services
+She fails the first test, and her rentals stay a {gloss:passive-activity}. IRC § 469(c)(7)(B)(i) requires more than one-half of the personal services
 she performs in trades or businesses to be performed in real property trades or businesses, and 940
 hours against a total of 2,640 is about 36 percent. The 750-hour test in clause (ii) is satisfied
 comfortably, and that is irrelevant on its own — both clauses must be met. Her rental activities
@@ -119,14 +136,14 @@ tax trick.
 
 </div>
 
-<div class="scenario">
+<div class="scenario" data-type="boundary">
 
 <h3>Two spouses, four hundred hours each</h3>
 
 A married couple own nine rental units. Neither has other employment. He spends about 420 hours a
 year on the properties and she spends about 460. Together that is 880 hours, and neither works
 anywhere else, so all of their trade or business hours are in real estate. They file jointly and
-claim real estate professional status.
+claim {gloss:real-estate-professional} status.
 
 They fail. The closing sentence of IRC § 469(c)(7)(B) provides that on a joint return the
 requirements are satisfied "if and only if either spouse separately satisfies such requirements."
@@ -137,7 +154,7 @@ fix is operational rather than documentary: one of them has to do more of the wo
 
 </div>
 
-<div class="scenario">
+<div class="scenario" data-type="interaction">
 
 <h3>Qualified and still passive</h3>
 
@@ -153,6 +170,24 @@ more-than-100-hours-and-most-of-anyone test in Treas. Reg. § 1.469-5T(a)(3) fai
 the managing agent does far more. The losses stay passive. Had he filed the Treas. Reg. § 1.469-9(g)
 statement with an original return, the seven would be one activity and 60 hours would still fail —
 so the election alone would not save him either. What he actually needs is to do the work himself.
+
+</div>
+
+<div class="scenario" data-type="baseline">
+
+<h3>Clearing both hurdles on one property</h3>
+
+A taxpayer left her corporate job at the start of the year to manage a single eight-unit apartment
+building she owns outright. She works 1,050 hours over the year handling leasing, repairs, rent
+collection, and bookkeeping, and has no other job or business.
+
+She clears IRC § 469(c)(7)(B) easily: all of her trade-or-business hours are in real estate, so the
+proportion test is met, and 1,050 exceeds the 750-hour floor. That removes the per se passive rule
+for her rental. Because she also personally handles the day-to-day work on the one property she
+owns, she meets the more-than-500-hours {gloss:material-participation} test as well, so the
+building's activity is non-passive and the loss, if any, is currently deductible rather than
+suspended. This is the case the provision was written for: one taxpayer, one property, real
+full-time work, both hurdles cleared without needing an aggregation election.
 
 </div>
 

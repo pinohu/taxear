@@ -25,7 +25,16 @@ forms: []
 related: ["2.3.1.a", "2.3.1.e", "2.3.1.c", "2.3.1.f", "2.3.1.g", "2.3.1.d"]
 changelog:
   - { date: "2026-08-21", summary: "Initial draft. Distinguishes the IRC § 643(b) fiduciary accounting income figure, determined by the governing instrument and local law, from the IRC § 643(a) distributable net income figure that caps the distribution deduction and the beneficiaries' inclusion — with the capital gain exclusion in § 643(a)(3), the tax-exempt interest addition in § 643(a)(5), and the pro rata character flow-through in § 661(b)." }
+  - { date: "2026-08-25", summary: "Added a plain-language summary, glossary marks, and typed scenarios." }
 ---
+
+<div class="plain-terms">
+A trust or estate has two money figures with similar names that do different jobs. One figure
+comes from the trust paperwork and state law, and it decides how much cash the trustee must hand
+out. The other figure comes from the tax rules, and it decides how much of that cash is taxed, and
+to whom. This matters to anyone who runs or receives money from a trust or estate. The two figures
+are usually different sizes. Mixing them up is a common error on a trust's tax return.
+</div>
 
 Two figures with confusingly similar names do quite different work. Fiduciary accounting income is a
 trust law figure that tells the trustee what may be paid out. Distributable net income is a tax
@@ -99,10 +108,10 @@ substantial accounting income and almost no distributable net income, or the rev
 
 ## Scenarios
 
-<div class="scenario">
+<div class="scenario" data-type="baseline">
 <h3>The gain the trust paid tax on</h3>
 
-The Corbett Trust is a simple trust with $50,000 of dividends and interest and $300,000 of capital
+The Corbett Trust is a {gloss:simple-trust} with $50,000 of dividends and interest and $300,000 of capital
 gain from selling an investment. Under the instrument and state law the gain is allocated to corpus.
 The trustee distributes the whole $50,000 of accounting income to the beneficiary.
 
@@ -116,7 +125,7 @@ done with the cash would have changed the gain's treatment — the allocation to
 instrument and local law, is what put it outside distributable net income.
 </div>
 
-<div class="scenario">
+<div class="scenario" data-type="interaction">
 <h3>The two figures that did not match</h3>
 
 The Denby Trust holds rental property. For the year it has rents of $90,000 and depreciation of
@@ -133,10 +142,10 @@ excess treated as a distribution of corpus. Nothing is wrong: the two figures an
 questions, and the fiduciary must be able to state both.
 </div>
 
-<div class="scenario">
+<div class="scenario" data-type="fails">
 <h3>The single cheque with three characters</h3>
 
-The Vane Trust distributes $60,000 to its beneficiary. Distributable net income of $60,000 consists
+The Vane Trust distributes $60,000 to its {gloss:beneficiary}. Distributable net income of $60,000 consists
 of $30,000 of taxable interest, $18,000 of qualified dividends and $12,000 of tax-exempt interest.
 The trustee, wanting the beneficiary to receive the exempt income, designates the payment as coming
 first from the municipal bonds.
@@ -163,7 +172,7 @@ distribution.
 
 <div class="callout trap">
 
-**Capital gains allocated to corpus stay with the trust.** IRC § 643(a)(3) excludes them from
+**Capital gains allocated to {gloss:corpus} stay with the trust.** IRC § 643(a)(3) excludes them from
 distributable net income, so they are taxed at fiduciary rates however much cash was distributed.
 
 </div>

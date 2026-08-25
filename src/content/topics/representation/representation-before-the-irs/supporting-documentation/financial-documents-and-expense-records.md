@@ -19,7 +19,18 @@ forms: []
 related: ["3.2.4.d", "3.3.3.c", "3.3.3.i", "3.2.4.b", "3.2.4.c", "3.2.4.e"]
 changelog:
   - { date: "2026-08-19", summary: "Initial draft." }
+  - { date: "2026-08-25", summary: "Added a plain-language summary, typed scenarios, and glossary marks." }
 ---
+
+<div class="plain-terms">
+When a taxpayer claims a write-off, the IRS can ask for proof. For most costs, any fair mix of
+records — receipts, bank lines, a rebuilt log — can back up the claim, and a close guess is fine if
+the records are thin. A small group of costs, mainly travel, gifts, and cars, follows a harder rule:
+nothing may be claimed at all unless exact facts are set down close to the time of the cost. This
+matters most to anyone claiming those few costs, and it decides how much proof truly stands between a
+write-off and its loss. A bank line alone rarely settles the point, since it shows that money moved,
+not why it moved.
+</div>
 
 ## The rule
 
@@ -101,14 +112,14 @@ Presenting it as though it were contemporaneous is not. Say what it is, say how 
 what it rests on — an examiner who discovers the reconstruction independently will discount everything
 around it.
 
-<div class="scenario">
+<div class="scenario" data-type="boundary">
 <h3>The mileage log written in April</h3>
 
 Ruaridh Nakamura-Oyelowo claims substantial vehicle expenses. When the examination opens he prepares a
 mileage log from his calendar and his client billing records, covering the whole prior year in a
 single sitting.
 
-A passenger vehicle is listed property, so § 274(d) applies and approximation is unavailable. The log
+A passenger vehicle is {gloss:listed-property}, so § 274(d) applies and approximation is unavailable. The log
 is not a record made at or near the time of the use, so it does not qualify as adequate records. It
 can still work as the taxpayer's own statement — but Reg. § 1.274-5T(c) then requires corroborative
 evidence with a **high degree of probative value** to raise it to the credibility of a contemporaneous
@@ -118,7 +129,7 @@ present the log as what it is, tied line by line to the corroborating documents,
 it was kept as he went.
 </div>
 
-<div class="scenario">
+<div class="scenario" data-type="baseline">
 <h3>Statements without invoices</h3>
 
 Cordelia Achterberg-Mwangi's supplies deduction is questioned. She produces two years of bank
@@ -133,11 +144,11 @@ Had this been travel, gifts or listed property, the same evidentiary gap would h
 than reparable.
 </div>
 
-<div class="scenario">
+<div class="scenario" data-type="timing">
 <h3>The basis nobody could find</h3>
 
 Wolfgang Delacroix-Baptiste sells shares he inherited in 2009 and transferred between two brokers in
-2016. The Form 1099-B reports proceeds and shows basis as not reported.
+2016. The Form 1099-B reports proceeds and shows {gloss:basis} as not reported.
 
 The return needs a date-of-death value, which the current broker does not hold and the earlier one may
 not either. The supporting documents are the estate records — the estate tax return if one was filed,

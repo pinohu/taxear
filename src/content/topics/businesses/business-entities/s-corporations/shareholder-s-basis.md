@@ -24,7 +24,18 @@ forms: []
 related: ["2.1.5.c", "2.1.5.d", "2.1.5.g", "2.1.2.e", "2.1.5.a", "2.1.5.h", "2.2.1.c", "2.2.4.i"]
 changelog:
   - { date: "2026-08-21", summary: "Initial draft. Sets out the IRC § 1367(a) increases and decreases with the Reg. § 1.1367-1(f) ordering and the Reg. § 1.1367-1(g) elective ordering, the IRC § 1366(d) loss limitation and its indefinite carryover, the reduction and restoration of debt basis under IRC § 1367(b)(2) and Reg. § 1.1367-2, the Reg. § 1.1366-2(a)(2) bona fide indebtedness test and the rule that a guarantee creates no basis, the open account debt threshold, and the starting basis of stock taken for services under IRC § 83(a) or inherited under IRC § 1014 as modified by IRC § 1367(a)(4)." }
+  - { date: "2026-08-25", summary: "Added a plain-language summary, glossary marks, and a typed scenario showing the open account debt threshold on both sides of the line." }
 ---
+
+<div class="plain-terms">
+A shareholder's basis is a running total. It tracks what an owner has put into an S
+corporation, minus what has come back out or been lost. Basis answers two questions: is a
+payout from the company taxed, and how much of a company loss can this owner deduct. It
+matters to anyone who owns stock in an S corporation, especially one that is losing money or
+paying out cash. It does not turn a promise to pay, or a guarantee on someone else's loan, into
+money the owner can count. The page sets out how basis rises and falls each year, in what
+order, and how much loss an owner can actually claim once basis runs dry.
+</div>
 
 Basis is the account that decides two separate questions: whether a distribution is taxable and
 whether a loss is deductible. In subchapter S it comes in two forms — stock basis and debt basis
@@ -124,7 +135,7 @@ basis. {fig:basis.sc_inherited} (IRC § 1367(a)(4), IRC § 1014) — the step-up
 back for income in respect of a decedent, which has no counterpart in a C corporation and is a
 favourite of examiners.
 
-<div class="scenario">
+<div class="scenario" data-type="fails">
 <h3>The guarantee that bought nothing</h3>
 
 Rowan Instrument Co. borrows $300,000 from a bank. Its sole shareholder personally guarantees the
@@ -146,7 +157,7 @@ Reg. § 1.1366-2(a)(2)(ii) gives her basis of indebtedness of $80,000, and $80,0
 suspended loss becomes deductible.
 </div>
 
-<div class="scenario">
+<div class="scenario" data-type="baseline">
 <h3>Ordering, and a distribution in a loss year</h3>
 
 Callender Freight Inc. has one shareholder whose stock basis is $10,000 at the start of the year.
@@ -164,7 +175,7 @@ following year instead of vanishing. She trades $18,000 of permanent disallowanc
 deferral in the loss account, and binds herself to the elected order for the future.
 </div>
 
-<div class="scenario">
+<div class="scenario" data-type="timing">
 <h3>The loan repaid too early</h3>
 
 Ackroyd Tooling Inc. owes its shareholder $100,000 on a written note. A bad year reduces his stock
@@ -179,6 +190,22 @@ produces $25,000 of gain.
 Had he waited a further year and let a second profitable year finish restoring the note to
 $100,000, the repayment would have produced nothing. The face amount of the note is a ceiling on
 restoration, not a floor on gain.
+</div>
+
+<div class="scenario" data-type="boundary">
+<h3>Just under the open-account line, then just over it</h3>
+
+A shareholder advances cash to Calloway Fixtures Inc., an {gloss:s-corporation}, all year long
+and takes repayments back the same way, never on a written note. At the close of the first year
+the running balance is $24,000. The pattern repeats the next year, but the balance peaks at
+$26,000 in October before ending the year at $9,000.
+
+{fig:basis.sc_open_account} (Reg. § 1.1367-2(a)(2)). The first year never crosses the $25,000
+ceiling, so the advances and repayments net together as a single open account debt and no
+individual repayment is tested for gain on its own. The second year crosses the line in
+October — from that point the debt is treated as though it were evidenced by a written
+instrument, so the {gloss:basis} of that note, not a running net balance, governs every later
+repayment for the rest of the year, even though the balance is back down to $9,000 by December.
 </div>
 
 <div class="callout trap">

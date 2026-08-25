@@ -22,7 +22,17 @@ forms: []
 related: ["2.3.1.b", "2.3.1.a", "2.3.1.f", "2.3.1.c", "2.3.1.d"]
 changelog:
   - { date: "2026-08-21", summary: "Initial draft. Sets out the Reg. § 1.643(b)-1 definition of income by reference to the instrument and local law with the traditional-principles limit on what an instrument may do, the recognition of unitrust and power-to-adjust statutes as reasonable apportionments of total return, and the three routes in Reg. § 1.643(a)-3(b) by which capital gains enter distributable net income together with the charitable rule in (c) and the loss netting rule in (d)." }
+  - { date: "2026-08-25", summary: "Added a plain-language summary, glossary marks, and typed scenarios (fails, baseline, interaction)." }
 ---
+
+<div class="plain-terms">
+A trust often splits money into two piles. One pile is called income. It usually goes to one
+person. The other pile is called principal. It usually stays for someone else. This page asks who
+decides which pile a dollar goes into. The trust paper and state law both have a say, but only up
+to a point set by tax law. This matters for a trustee handling a trust with more than one person to
+pay. It does not matter when a trust has only one person who gets everything. The choice decides
+who pays tax on gains, how much the trust can deduct, and how much each person actually gets.
+</div>
 
 The Code hands the definition of income to state law and then takes back part of what it gave. An
 instrument or statute may allocate receipts between income and principal, and the Code will respect
@@ -100,12 +110,12 @@ passes to the beneficiaries under Reg. § 1.642(h)-1 rather than being lost.
 
 ## Scenarios
 
-<div class="scenario">
+<div class="scenario" data-type="fails">
 <h3>The instrument that redefined income</h3>
 
 The Ashworth Trust directs the trustee to distribute all trust income to the settlor's widow
 annually, and separately defines "income" to exclude ordinary dividends and interest, treating them
-as additions to principal. The trust holds only dividend-paying equities.
+as additions to {gloss:corpus}. The trust holds only dividend-paying equities.
 
 Reg. § 1.643(b)-1 does not accept the definition. Trust provisions that depart fundamentally from
 traditional principles of income and principal are generally not recognised, and the regulation
@@ -119,11 +129,11 @@ IRC § 642(b)(2)(B). It uses IRC § 661 and the lower exemption, and the widow r
 instrument calls income while the trust accumulates and pays tax at compressed rates.
 </div>
 
-<div class="scenario">
+<div class="scenario" data-type="baseline">
 <h3>The unitrust that rescued the income beneficiary</h3>
 
 The Petherton Trust holds a portfolio invested for total return: modest dividends, substantial
-unrealised appreciation. Under the traditional definition the income beneficiary receives about
+unrealised appreciation. Under the traditional definition the income {gloss:beneficiary} receives about
 1 percent of the trust's value each year while the remainder beneficiaries watch it grow. The
 governing state has adopted a statute defining income as a unitrust amount of 4 percent of the fair
 market value of the trust assets.
@@ -140,7 +150,7 @@ allocate gains to income, Reg. § 1.643(a)-3(b)(1) caps the amount so allocated 
 unitrust amount over distributable net income computed without it.
 </div>
 
-<div class="scenario">
+<div class="scenario" data-type="interaction">
 <h3>The gain that followed the money</h3>
 
 The Ilsley Trust sells an investment for a $200,000 gain, which under the instrument is allocated to

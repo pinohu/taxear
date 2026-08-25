@@ -21,7 +21,24 @@ forms: []
 related: ["1.2.2.a", "1.2.2.d", "1.2.4.a", "1.2.4.e", "1.2.2.b", "1.2.4.c", "1.2.4.d", "1.3.2.h", "1.5.1.e"]
 changelog:
   - { date: "2026-08-19", summary: "Initial draft. Sets out the IRC § 219(b)(1) compensation test and § 219(f)(3) timing rule, the § 219(g) active participant phase-out, the § 402(g)(1) elective deferral limit and the § 414(v) catch-up amounts including the age 60 to 63 tier and the § 414(v)(7) Roth catch-up wage threshold, the § 415(c) annual addition limit, and the § 408(p) SIMPLE and § 408(k) SEP figures, all as adjusted for 2026 by Notice 2025-67." }
+  - { date: "2026-08-25", summary: "Added a plain-language summary, a decision diagram of the order the IRA limits bind, glossary marks, and two typed scenarios." }
+diagram:
+  archetype: "decision"
+  caption: "The order an IRA deduction is tested, before the dollar limit even matters"
+  tests:
+    - { test: "Compensation", result: "Deduction capped at compensation includible in gross income for the year", outcome: "pass" }
+    - { test: "Dollar limit", result: "Then capped at the statutory dollar amount, plus catch-up if 50 or over", outcome: "pass" }
+    - { test: "Active participant phase-out", result: "Then reduced proportionally if the taxpayer or spouse was an active participant in an employer plan", outcome: "pass" }
 ---
+
+<div class="plain-terms">
+Saving for retirement runs into more than one limit at the same time, and people often mix them up. One
+limit caps how much you can put into your own paycheck deferral, across every job you hold in a year. A
+separate, larger limit caps everything that lands in one workplace account, including money your employer
+puts in. A third limit applies only to an IRA, and it can never be more than what you actually earned
+that year. This page shows which limit binds in a given case, and why hitting one does not mean you have
+hit them all.
+</div>
 
 Four limits operate on the same taxpayer at once, and confusing them is the characteristic error. The
 **elective deferral** limit is per person across all plans. The **annual addition** limit is per employer
@@ -112,7 +129,7 @@ a high earner in 2025 loses the pre-tax catch-up in 2026 even if 2026 pay is low
 Finally, remember that the § 219(f)(3) deadline is unique. Every other funding decision on this page can
 be made up to the extended due date or later; the IRA contribution cannot.
 
-<div class="scenario">
+<div class="scenario" data-type="timing">
 <h3>Scenario 1 — the extension that did not help</h3>
 
 Omar files Form 4868 and extends his 2026 return to 15 October 2027. On 1 July 2027 he contributes to a
@@ -121,11 +138,11 @@ traditional IRA and designates it for 2026.
 It does not count for 2026. IRC § 219(f)(3) deems a contribution made on the last day of the preceding
 taxable year only if it is made by the time prescribed for filing that year's return **not including
 extensions** — 15 April 2027 here. The July contribution is a 2027 contribution. Every other retirement
-funding deadline he is used to, including his SEP contribution as a self-employed person, does move with
-the extension; this one does not.
+funding deadline he is used to, including his SEP contribution as the owner of a
+{gloss:sole-proprietorship}, does move with the extension; this one does not.
 </div>
 
-<div class="scenario">
+<div class="scenario" data-type="interaction">
 <h3>Scenario 2 — two employers, one limit</h3>
 
 Priti works for two unrelated companies during 2026 and defers the full annual amount into each plan.
@@ -138,7 +155,7 @@ which is precisely why nothing flags it. The correction runs through the notific
 mechanism in the § 402(g) regulations, and it is on her to start it.
 </div>
 
-<div class="scenario">
+<div class="scenario" data-type="boundary">
 <h3>Scenario 3 — the deferral maximum that was not the maximum</h3>
 
 Quentin, aged 58, earns 200,000 dollars and defers the full elective amount plus the age 50 catch-up. His
@@ -149,6 +166,34 @@ contributions and forfeitures together, and his deferral plus 18,000 dollars of 
 below the 2026 figure — so the employer contributions are permitted. Separately, the catch-up amount is
 not an annual addition at all, so it sits above the § 415(c) ceiling rather than inside it. Two limits, and
 the one he had in mind was not the binding one.
+</div>
+
+<div class="scenario" data-type="baseline">
+<h3>Scenario 4 — the ordinary case, working as designed</h3>
+
+Sana, 34, earns 70,000 dollars at one job with a 401(k), defers a modest amount well under the annual
+dollar limit, and her employer matches 4 percent of pay. She has no other job and no IRA contribution this
+year.
+
+Nothing here is close to any line. Her deferral is comfortably under the § 402(g)(1) limit, the employer
+match is ordinary and comfortably inside the § 415(c) annual addition limit, and there is no catch-up and
+no second job to create the kind of conflict the other scenarios on this page turn on. This is what saving
+for retirement looks like on the vast majority of returns — the harder cases here are the exceptions, not
+the rule.
+</div>
+
+<div class="scenario" data-type="fails">
+<h3>Scenario 5 — married, separately, and boxed in</h3>
+
+Wen and her husband file {gloss:married-filing-separately} for the year, and Wen is an active participant
+in her employer's 401(k). She earns 95,000 dollars and wants to deduct a traditional IRA contribution.
+
+She gets nothing. The § 219(g) phase-out range for a married active participant filing separately runs
+from zero to a small, unindexed figure, and 95,000 dollars is well above the top of it. Filing jointly
+would not have changed her own active-participant status, but the joint range for an active participant
+is far higher — high enough that her 95,000 dollars would sit entirely below it, preserving her full
+deduction. It is the separate-filing range itself, narrow and never adjusted, that boxes her in, not her
+income and not her active-participant status by itself.
 </div>
 
 <div class="callout trap">

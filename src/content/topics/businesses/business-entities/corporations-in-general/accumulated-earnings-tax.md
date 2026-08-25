@@ -21,9 +21,19 @@ forms: []
 related: ["2.1.3.b", "2.1.3.c", "2.1.3.d", "2.1.3.a", "2.1.4.e", "2.1.4.f"]
 changelog:
   - { date: "2026-08-21", summary: "Initial draft. Sets out the IRC § 531 rate and the fact that it applies to accumulated taxable income as defined in § 535 rather than to the accumulated balance of earnings and profits, the § 532 corporations reached and excepted, the § 533 evidentiary presumptions, the § 535(a) computation with the dividends paid deduction and the accumulated earnings credit, the § 535(c)(1) reasonable-needs credit and the § 535(c)(2) and (3) minimum credits including the reduced figure for listed service corporations and the denial of a reasonable-needs credit to a mere holding or investment company, and the § 537(a) meaning of reasonable needs." }
+  - { date: "2026-08-25", summary: "Added a plain-language summary, glossary marks, and typed scenarios." }
 ---
 
-The accumulated earnings tax is aimed at a corporation that hoards profits to spare its shareholders the
+<div class="plain-terms">
+This tax punishes a company that hoards profit instead of paying it out to its owners. The target is a
+company that piles up cash mainly to help owners dodge tax on a payout. It only hits certain corporations,
+and only in a year they actually earn and keep money. A company that earns nothing that year owes nothing,
+no matter how much cash it has stored up already. A company with a real plan to spend the money — growth,
+or a bill coming due — is usually safe. This rule sets how much extra tax a company owes for keeping one
+year's profit without good reason.
+</div>
+
+The {gloss:accumulated-earnings-tax} is aimed at a corporation that hoards profits to spare its shareholders the
 tax they would pay on a dividend. It is a penalty tax rather than a revenue measure — nobody plans to pay
 it, and its function is to make retention less attractive than distribution. The single most important
 thing about it is what it is imposed on, because the intuitive answer is wrong: it falls on one year's
@@ -45,7 +55,7 @@ undistributed income, not on the accumulated pile.
 
 **What counts as a reasonable need.** {fig:aet.reasonable_needs}
 
-**And what earnings and profits are.** {fig:ep.dividend_defined}
+**And what {gloss:earnings-and-profits} are.** {fig:ep.dividend_defined}
 
 ## Current figures
 
@@ -101,7 +111,7 @@ so much more than the accounting treatment.
 
 ## Scenarios
 
-<div class="scenario">
+<div class="scenario" data-type="baseline">
 <h3>The large balance and the quiet year</h3>
 <p>A corporation has accumulated earnings and profits of $9,000,000, built up over twenty years and held
 in marketable securities with no documented plan for them. In 2026 it breaks even: no taxable income, no
@@ -114,7 +124,7 @@ retention. A corporation that stops earning stops accruing this tax while contin
 it accumulated before.</p>
 </div>
 
-<div class="scenario">
+<div class="scenario" data-type="boundary">
 <h3>The credit that had already been used up</h3>
 <p>A profitable distribution business has accumulated earnings and profits of $2,400,000 at the close of
 2025. In 2026 it has adjusted taxable income of $700,000, pays no dividends, and can document a genuine
@@ -127,7 +137,7 @@ reasonable needs of the business. The documented $500,000 warehouse plan support
 is exposed. The lesson is that the minimum credit is spent once and never replenishes.</p>
 </div>
 
-<div class="scenario">
+<div class="scenario" data-type="interaction">
 <h3>The consultancy and the manufacturer</h3>
 <p>Two corporations each have accumulated earnings and profits of $120,000 at the close of the preceding
 year and each retains $60,000 in the current year with no documented plan. One is a management consultancy;
@@ -141,7 +151,7 @@ unless it can establish reasonable needs. Identical facts, different answers, on
 statutory list.</p>
 </div>
 
-<div class="scenario">
+<div class="scenario" data-type="fails">
 <h3>The holding company with a plan</h3>
 <p>A corporation holds nothing but a portfolio of listed securities and a cash reserve. Its directors
 minute a detailed five-year plan to acquire an operating business, supported by advisers' reports. It
@@ -169,7 +179,7 @@ business outside them takes the higher one.</li>
 <li><strong>Unreasonable accumulation proves the purpose.</strong> IRC § 533(a) makes it determinative
 unless the corporation displaces it by a preponderance of the evidence.</li>
 <li><strong>The number of shareholders is irrelevant.</strong> IRC § 532(c) says so expressly — this is
-not a closely-held-company tax.</li>
+not a {gloss:closely-held-corporation} tax.</li>
 <li><strong>It is not self-assessed.</strong> There is no line on the return; it is raised on
 examination.</li>
 </ul>

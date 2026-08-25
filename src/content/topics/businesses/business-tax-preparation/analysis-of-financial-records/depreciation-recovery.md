@@ -26,7 +26,19 @@ forms: []
 related: ["2.2.4.c", "2.2.3.b", "2.2.2.c", "2.2.2.f", "2.2.4.g"]
 changelog:
   - { date: "2026-08-21", summary: "Initial draft. Sets out the IRC § 1016(a)(2) allowed-or-allowable rule and the IRC § 1245(a)(2) recomputed basis that follows from it, the IRC § 1245 and § 1250 recapture provisions with their different mechanics, the IRC § 280F(b) drop to the alternative depreciation system and its excess depreciation recapture when qualified business use falls to half or less, the Reg. § 1.179-1(e)(1) recapture of an expensing election, and the 2026 IRC § 280F(a) limitation tables from Rev. Proc. 2026-15." }
+  - { date: "2026-08-25", summary: "Added a plain-language summary, glossary marks, and typed the existing scenarios." }
 ---
+
+<div class="plain-terms">
+When a business deducts part of an asset's cost each year, that deduction lowers the asset's basis.
+Basis is what the asset is treated as having cost for tax purposes. Sell the asset later, and the
+gain is measured against that lower basis. Part of the sale price the owner thought was tax-free
+growth turns out to be the deduction coming back. It is usually taxed at regular rates, not the
+lower rates for a long-term gain. This affects any business or person who owns property that has
+been depreciated, such as equipment, a car, or a building. It does not matter whether they claimed
+the deduction each year. It decides how much of a later sale counts as regular income instead of a
+lower-taxed gain. It can also apply when business use drops, even with no sale at all.
+</div>
 
 Depreciation is a loan against the sale price. Every dollar reduces basis, and reduced basis means
 more gain later — usually gain taxed at ordinary rates rather than capital ones. What makes the
@@ -130,7 +142,7 @@ disposals had their gain computed at all.
 
 ## Scenarios
 
-<div class="scenario">
+<div class="scenario" data-type="baseline">
 <h3>The deduction that was never taken</h3>
 
 Ferndale Printing bought a folder in year one for $90,000 and, through an oversight, claimed no
@@ -143,19 +155,19 @@ claimed nothing. On a five-year MACRS schedule the allowable depreciation throug
 most of the cost, so the sale produces a substantial gain rather than a loss.
 
 Worse, the gain is ordinary. IRC § 1245(a)(2)(A) computes recomputed basis by adding back
-depreciation *allowed or allowable*, and the relief in subparagraph (B) — adding back only what was
-allowed — is available only where the taxpayer establishes by adequate records that less was allowed
-than allowable. Ferndale can establish that, limiting the add-back; but it cannot undo the basis
-reduction under § 1016(a)(2), which carries no such relief. The lost deduction stays lost and the
-basis stays reduced.
+{gloss:depreciation} *allowed or allowable*, and the relief in subparagraph (B) — adding back only
+what was allowed — is available only where the taxpayer establishes by adequate records that less
+was allowed than allowable. Ferndale can establish that, limiting the add-back; but it cannot undo
+the basis reduction under § 1016(a)(2), which carries no such relief. The lost deduction stays lost
+and the basis stays reduced.
 </div>
 
-<div class="scenario">
+<div class="scenario" data-type="boundary">
 <h3>The car that crossed the line</h3>
 
-Locke Surveying places a car in service in year one at 78 percent qualified business use and takes
-depreciation accordingly. In year four the principal reduces her driving and business use falls to
-41 percent.
+Locke Surveying places a car — {gloss:listed-property} — in service in year one at 78 percent
+qualified business use and takes depreciation accordingly. In year four the principal reduces her
+driving and business use falls to 41 percent.
 
 Two consequences arrive together in year four. IRC § 280F(b)(1) requires depreciation for year four
 and every later year to be computed under the alternative depreciation system. And
@@ -170,7 +182,7 @@ without the value being included in her income, the use would never have counted
 all.
 </div>
 
-<div class="scenario">
+<div class="scenario" data-type="timing">
 <h3>Two buildings, two answers</h3>
 
 Ashcombe Estates sells two properties in one year. The first, an office building placed in service
@@ -178,7 +190,7 @@ in 1979 under an accelerated method, produces gain of $600,000 with additional d
 $140,000. The second, a warehouse placed in service in 2011 and depreciated straight line, produces
 gain of $450,000 with accumulated depreciation of $180,000.
 
-The office building generates § 1250 recapture: additional depreciation exists because an
+The office building generates § 1250 {gloss:recapture}: additional depreciation exists because an
 accelerated method was used, so the applicable percentage of the lower of that additional
 depreciation or the gain is ordinary income.
 
@@ -189,12 +201,13 @@ depreciation, and it carries its own rate. The remaining $270,000 is § 1231 gai
 same year, three different characters across two sales.
 </div>
 
-<div class="scenario">
+<div class="scenario" data-type="interaction">
 <h3>The expensing election undone</h3>
 
-Trenholm Design expenses a $60,000 machine under IRC § 179 in year one, a year in which a loss
-carryforward meant the election produced no current tax saving. In year three the machine moves to
-the owner's personal workshop and ceases to be used predominantly in the business.
+Trenholm Design expenses a $60,000 machine under the {gloss:section-179-deduction} in year one, a
+year in which a loss carryforward meant the election produced no current tax saving. In year three
+the machine moves to the owner's personal workshop and ceases to be used predominantly in the
+business.
 
 Recapture applies in year three. Reg. § 1.179-1(e)(1) measures the benefit as the excess of the
 amount expensed over what IRC § 168 would have allowed for years one and two *and* year three had

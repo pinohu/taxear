@@ -24,7 +24,17 @@ forms: ["5500"]
 related: ["2.3.3.a", "2.3.3.b", "2.3.3.e", "2.3.3.f", "2.3.3.d"]
 changelog:
   - { date: "2026-08-21", summary: "Initial draft. Separates the SEP under IRC § 408(k), which is employer-funded with a three-of-five-years eligibility test and immediate vesting through the withdrawal rule of IRC § 408(k)(4), from the SIMPLE under IRC § 408(p), which is salary-reduction based with a two-preceding-years eligibility test, a required 3 percent match or elected 2 percent nonelective contribution, and the exclusive plan requirement. Carries the 2026 amounts from Notice 2025-67 and the SECURE 2.0 additions at IRC § 408(p)(2)(A)(iv) and the 4 percent applicable percentage for electing larger employers." }
+  - { date: "2026-08-25", summary: "Added a plain-language summary, typed scenarios, and glossary marks." }
 ---
+
+<div class="plain-terms">
+SEP and SIMPLE plans are two easy retirement options built for small firms and self-employed people
+who do not want to run a full 401(k). They work in very different ways, though. A SEP is paid for by
+the employer alone, and the worker has no say and puts in nothing. A SIMPLE is built around the
+worker choosing to set aside part of their own pay, which the employer must then match or add to.
+Because the two plans work so differently, they also use totally different rules for which workers
+must be let in. This page walks through both sets of rules side by side.
+</div>
 
 Both plans exist because a small employer will not run a 401(k), and both are built on individual
 retirement accounts rather than a trust. That is where the similarity ends. A SEP takes only
@@ -113,11 +123,11 @@ Remember that a SIMPLE must be the employer's only plan for the year. An employe
 cannot maintain a SIMPLE for the same year. That single sentence disposes of a surprising number of
 "which plan should this client adopt" questions.
 
-<div class="scenario">
+<div class="scenario" data-type="fails">
 
 <h3>The seasonal groundskeeper</h3>
 
-A landscaping company has maintained a SEP for six years. It employs one full-time office manager
+A landscaping company has maintained a {gloss:sep-plan} for six years. It employs one full-time office manager
 and, each summer from May to September, three groundskeepers. One of them, aged 34, has worked every
 summer for the last four years and earns about $14,000 a season. The owner has never made a SEP
 contribution for the groundskeepers, reasoning that they are seasonal and not really employees of
@@ -134,11 +144,11 @@ a discrimination failure, not merely a shortfall for one person.
 
 </div>
 
-<div class="scenario">
+<div class="scenario" data-type="baseline">
 
 <h3>Match against nonelective</h3>
 
-A design studio with eleven employees sponsors a SIMPLE IRA and has elected the 3 percent match. Of
+A design studio with eleven employees sponsors a {gloss:simple-plan} IRA and has elected the 3 percent match. Of
 its employees, one earning $80,000 defers 8 percent, one earning $52,000 defers 1 percent, and one
 earning $61,000 defers nothing. The owner asks what the studio will pay, and then asks what would
 change under the 2 percent nonelective election.
@@ -154,12 +164,12 @@ why the election is worth revisiting each year during the notice period.
 
 </div>
 
-<div class="scenario">
+<div class="scenario" data-type="interaction">
 
 <h3>The consultant's own SEP</h3>
 
 An independent consultant with no employees has net profit from Schedule C of $120,000. Her
-self-employment tax for the year is $16,955, of which half is $8,478 deductible under IRC § 164(f).
+{gloss:self-employment-tax} for the year is $16,955, of which half is $8,478 deductible under IRC § 164(f).
 She wants to make the largest SEP contribution she can and has been told it is "25 percent of
 $120,000."
 

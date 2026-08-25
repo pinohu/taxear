@@ -23,7 +23,19 @@ forms: []
 related: ["2.1.4.b", "2.1.4.a", "2.1.4.d", "2.1.1.c"]
 changelog:
   - { date: "2026-08-21", summary: "Initial draft. Sets out the IRC § 351(b) recognition of gain up to the money and fair market value of other property received with no recognition of loss, the § 358(a)(1) computation of stock basis through boot and recognised gain, the § 362(a) increase in the corporation's basis by the gain recognised, and the § 1223(1) and (2) holding period rules under which the shareholder tacks the holding period of the property given up and the corporation tacks the transferor's." }
+  - { date: "2026-08-25", summary: "Added a plain-language summary, typed scenarios, and glossary marks." }
 ---
+
+<div class="plain-terms">
+When you trade property for stock in a corporation, the trade is normally tax-free. This page
+covers what happens if you also get cash or other property along with the stock — extra value
+often called boot. It affects anyone forming or adding to a corporation who takes back more than
+just stock, such as cash used to balance out unequal contributions among founders. It does not
+change anything for a trade where only stock changes hands. Getting boot makes part of the gain
+taxable right away, but only up to the value of the boot received, never more. A loss is never
+allowed, no matter how much boot is involved. The basis in the new stock, and the basis the
+corporation takes in the property, both shift to reflect what was taxed and what was received.
+</div>
 
 Boot is what turns a clean IRC § 351 exchange into an arithmetic problem. Nothing about it disqualifies
 the transaction — the exchange still qualifies, control is still tested the same way — but the transferor
@@ -102,31 +114,31 @@ determined by reference to the transferor's.
 
 ## Scenarios
 
-<div class="scenario">
+<div class="scenario" data-type="baseline">
 <h3>The three figures from one set of facts</h3>
 <p>Ludovica transfers land worth $800,000 with an adjusted basis of $290,000 to a corporation she will
 control, receiving stock worth $650,000 and $150,000 in cash.</p>
 <p>Realised gain is $510,000 — $800,000 received less $290,000 basis. Boot is $150,000. Gain recognised is
-the lesser, so $150,000 (IRC § 351(b)(1)). Her stock basis is $290,000, less the $150,000 of money
+the lesser, so $150,000 (IRC § 351(b)(1)). Her stock {gloss:basis} is $290,000, less the $150,000 of money
 received, plus the $150,000 of gain recognised, so $290,000 (IRC § 358(a)(1)). The corporation's basis in
 the land is $290,000 plus the $150,000 of gain she recognised, so $440,000 (IRC § 362(a)). The $360,000 of
 gain still deferred sits in both places: her stock is worth $650,000 against a $290,000 basis, and the land
 is worth $800,000 against a $440,000 basis.</p>
 </div>
 
-<div class="scenario">
+<div class="scenario" data-type="boundary">
 <h3>The realised gain smaller than the boot</h3>
 <p>Anselmo transfers equipment worth $400,000 with an adjusted basis of $370,000, receiving stock worth
 $250,000 and $150,000 in cash.</p>
-<p>Realised gain is $30,000 and boot is $150,000, so the gain recognised is $30,000 — the lesser of the
-two under IRC § 351(b)(1). $120,000 of the cash is received tax-free, because there was no more gain to
+<p>Realised gain is $30,000 and {gloss:boot} is $150,000, so the gain recognised is $30,000 — the lesser of
+the two under IRC § 351(b)(1). $120,000 of the cash is received tax-free, because there was no more gain to
 recognise. His stock basis is $370,000 less $150,000 plus $30,000, so $250,000, which equals the value of
 the stock — correctly, since all his gain has now been recognised. The corporation's basis is $370,000
 plus $30,000, so $400,000, the property's full value. Nothing is deferred on either side, which is what
 you should expect when the whole realised gain has been taxed.</p>
 </div>
 
-<div class="scenario">
+<div class="scenario" data-type="fails">
 <h3>The loss that boot did not unlock</h3>
 <p>Xiomara transfers a building worth $500,000 with an adjusted basis of $720,000, receiving stock worth
 $400,000 and $100,000 in cash, in an exchange that otherwise qualifies.</p>
@@ -139,7 +151,7 @@ its aggregate basis at the $500,000 fair market value. She should have sold the 
 $220,000 loss, and contributed the proceeds.</p>
 </div>
 
-<div class="scenario">
+<div class="scenario" data-type="interaction">
 <h3>Two assets, one gain, one loss</h3>
 <p>Casimir transfers two assets to a corporation he will control: shares worth $300,000 with a basis of
 $100,000, and equipment worth $300,000 with a basis of $450,000. He receives stock worth $500,000 and

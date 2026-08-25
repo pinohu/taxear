@@ -26,7 +26,18 @@ forms: []
 related: ["2.2.4.h", "2.2.4.i", "2.2.5.e", "2.2.5.f", "2.2.5.h"]
 changelog:
   - { date: "2026-08-21", summary: "Initial draft. The advisory counterpart to 2.2.4.h. Sets out the IRC § 482 allocation power and the Reg. § 1.482-1(b)(1) arm's length standard, the IRC § 162(a)(1) reasonable compensation limit and the IRC § 301(c) constructive distribution that follows a failed deduction, the IRC § 707(a)(2) disguised payment and disguised sale rules, and the Reg. § 1.469-2(f)(6) self-rental rule that recharacterises income without recharacterising loss." }
+  - { date: "2026-08-25", summary: "Added a plain-language summary, glossary marks, and a fourth typed scenario showing a related-party rent transaction priced at arm's length that draws no allocation." }
 ---
+
+<div class="plain-terms">
+This page is about deals between people or businesses that are closely connected, such as a company
+and its owner, or a partnership and one of its partners. The tax rules do not stop these deals, but
+they check the price and the label closely. It affects business owners who pay themselves, or who
+deal with a company or partnership they control. It usually does not affect deals between total
+strangers, since arm's-length pricing there is assumed. What can change is not whether the payment
+is allowed, but what kind of payment it really is: pay, rent, a loan, or a hidden profit share. That
+choice decides who owes tax, and how much.
+</div>
 
 The disallowance rules — IRC § 267, § 707(b), § 1239 and § 1031(f) — are set out under
 [analysis of financial records](/businesses/business-tax-preparation/analysis-of-financial-records/related-party-activity/).
@@ -106,7 +117,7 @@ or credits about to expire.
 
 ## Scenarios
 
-<div class="scenario">
+<div class="scenario" data-type="fails">
 <h3>The salary that became a dividend</h3>
 
 Fennimore Tooling, a C corporation, pays its sole shareholder-officer $780,000 in a year when
@@ -116,7 +127,8 @@ earnings and profits. The officer works full time and genuinely runs the busines
 The excess is at risk. IRC § 162(a)(1) allows only a reasonable allowance for compensation for
 services actually rendered, and the services here were rendered — so the issue is amount, not
 existence. Roughly $460,000 is likely unreasonable, and the disallowed portion does not vanish: it
-becomes a distribution taxed under IRC § 301(c), a dividend to the extent of earnings and profits.
+becomes a {gloss:constructive-dividend} taxed under IRC § 301(c), a dividend to the extent of
+earnings and profits.
 
 The result is the double taxation the payment was designed to avoid, and it is worse than doing
 nothing, because the corporation has also paid employment tax on the excess. Contemporaneous
@@ -124,12 +136,13 @@ evidence — a compensation study, board minutes recording the basis, comparabil
 separates a defensible figure from an indefensible one, and it has to exist at the time.
 </div>
 
-<div class="scenario">
+<div class="scenario" data-type="interaction">
 <h3>The building rented to the company</h3>
 
 Ilkley Holdings' owner personally owns the warehouse and leases it to her operating company, in
-which she materially participates, at a market rent producing $40,000 of net rental income. She also
-has $40,000 of suspended passive losses from an unrelated limited partnership.
+which she materially participates, at a market rent producing $40,000 of net rental income under a
+{gloss:self-rental} arrangement. She also has $40,000 of suspended passive losses from an unrelated
+limited partnership.
 
 She cannot offset them. Reg. § 1.469-2(f)(6) treats gross rental income from property rented for
 use in a trade or business in which the taxpayer materially participates as non-passive, up to the
@@ -143,7 +156,7 @@ else. That is a structural feature to advise on before the lease is signed, not 
 explain afterwards.
 </div>
 
-<div class="scenario">
+<div class="scenario" data-type="timing">
 <h3>The contribution that came straight back</h3>
 
 A partner contributes land worth $900,000 to a partnership in January. In March the partnership,
@@ -160,6 +173,24 @@ The absence of cross-references in the documents is not a defence, because the t
 transfers are *properly characterised* rather than how they are papered. What would help is a real
 gap in time, a distribution funded from operations rather than from a borrowing that tracks the
 contribution, and a business reason for each step that stands on its own.
+</div>
+
+<div class="scenario" data-type="baseline">
+<h3>The rent priced like a stranger's</h3>
+
+Oakhampton Precision leases its production floor from an entity owned by the same family — a
+{gloss:related-party} under the common-control standard IRC § 482 applies. Before signing, the
+company obtains two brokers' opinions of market rent for comparable industrial space, sets the lease
+at the midpoint, and keeps the letters in the file.
+
+Nothing here is at risk. The transaction is priced at {gloss:arms-length}, meaning what unrelated
+parties would have agreed to for the same space, and the file shows it. The Secretary's allocation
+power under IRC § 482 exists to correct a price that departs from what independent parties would set;
+it has nothing to correct where the price already reflects that standard.
+
+This is the quiet, unremarkable outcome that most related-party rent should produce, and it is the
+baseline every other scenario in this topic is measured against. The lesson is procedural rather than
+substantive: get the comparables before the rent is set, not after an examiner asks for them.
 </div>
 
 ## Traps

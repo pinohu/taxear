@@ -25,7 +25,27 @@ forms: []
 related: ["2.2.1.a", "2.2.1.c", "2.1.5.g", "2.1.2.j", "2.2.1.b", "2.2.2.d", "2.2.2.n"]
 changelog:
   - { date: "2026-08-21", summary: "Initial draft. Sets out IRC § 61(a)(11) and the IRC § 108(a) exclusions with their order of precedence and the insolvency cap, the IRC § 108(b) attribute reduction and the IRC § 108(b)(5) election, and the four IRC § 108(e) rules a business meets most often — no other insolvency exception, the lost deduction rule, the related-party acquisition rule and the purchase price adjustment. Adds the elective IRC § 108(c) exclusion for qualified real property business indebtedness and the IRC § 108(g) farm rules." }
+  - { date: "2026-08-25", summary: "Added a plain-language summary, a decision diagram of which exclusion applies and in what order, glossary marks, and a fourth typed scenario at the insolvency cap." }
+diagram:
+  archetype: "decision"
+  caption: "Which exclusion applies to a business debt discharge, and in what order"
+  tests:
+    - { test: "Would paying the debt still produce a deduction?", result: "No income at all — IRC § 108(e)(2)", outcome: "pass" }
+    - { test: "Discharge in a Title 11 case?", result: "Excluded in full", outcome: "pass" }
+    - { test: "Insolvent immediately before the discharge?", result: "Excluded up to the insolvency", outcome: "pass" }
+    - { test: "Qualified farm or real property business debt, and elected?", result: "Excluded within its own limits", outcome: "pass" }
+    - { test: "None of the above?", result: "Ordinary income under IRC § 61(a)(11)", outcome: "fail" }
 ---
+
+<div class="plain-terms">
+When a business owes money it cannot pay, and the lender agrees to accept less, the
+forgiven amount usually counts as income. This is true even though no cash changes hands. This page
+covers the exceptions to that rule. Some businesses can leave part or all of the forgiven debt off
+their tax return. It affects any business whose debt is cut or settled for less than it owes, whether
+a company, a partnership, or one owner alone. It does not cover a person's forgiven home loan or credit
+card debt, which follow other rules. This page decides whether the forgiven amount is taxed now, taxed
+never, or left out of income. It also decides what a business gives up in exchange for leaving it out.
+</div>
 
 Every business that fails to pay a debt in full faces the same first question, and the answer is
 almost always the same: forgiveness is income. The work is in the exceptions, and the one a
@@ -126,7 +146,7 @@ of the discount.
 (IRC § 108(d)(7)(A)). Identical facts, opposite answers, and the difference decides whose
 insolvency is measured.
 
-<div class="scenario">
+<div class="scenario" data-type="interaction">
 <h3>The same write-off, two methods</h3>
 
 Two identical consultancies each owe a supplier $70,000 for services delivered in the prior year.
@@ -146,13 +166,13 @@ The economic position of the two businesses is identical. The tax results differ
 the whole difference is the method of accounting.
 </div>
 
-<div class="scenario">
+<div class="scenario" data-type="baseline">
 <h3>The exclusion that cost more than it saved</h3>
 
 Ravenglass Foundry Inc. is insolvent by $900,000 when a lender forgives $600,000. It carries a
-$2,100,000 net operating loss forward and expects to be profitable within two years.
+$2,100,000 {gloss:net-operating-loss} forward and expects to be profitable within two years.
 
-The $600,000 is excluded under IRC § 108(a)(1)(B) — the insolvency exceeds it, so all of it
+The $600,000 is excluded under IRC § 108(a)(1)(B) — the {gloss:insolvency} exceeds it, so all of it
 qualifies. But {fig:scod.attribute_order} (IRC § 108(b)(2)) puts the net operating loss first, and
 {fig:scod.attribute_rate} makes the reduction dollar for dollar. The carryforward falls to
 $1,500,000.
@@ -165,7 +185,7 @@ That symmetry is the point of IRC § 108(b), and it is why an exclusion is not a
 deferral. The benefit appears only where the taxpayer has no attributes to lose.
 </div>
 
-<div class="scenario">
+<div class="scenario" data-type="procedural">
 <h3>The landlord who elected</h3>
 
 Threave Properties LLC, taxed as a partnership, owns a commercial building worth $1,800,000
@@ -184,6 +204,20 @@ $450,000 may be excluded.
 
 The price is {fig:bcod.qrpbi_basis}. Basis falls to $1,150,000, future depreciation falls with it,
 and a later sale produces more gain. The exclusion has bought a deferral, not a forgiveness.
+</div>
+
+<div class="scenario" data-type="boundary">
+<h3>Insolvent, but not enough</h3>
+
+Harlech Millworks Ltd is not in bankruptcy. Immediately before a lender discharges $80,000 of a
+working-capital loan, its liabilities exceed its assets by $50,000. None of the debt is farm or real
+property business indebtedness.
+
+Absent an exclusion, the discharge would be {gloss:cancellation-of-debt-income} in full.
+{fig:scod.insolvency_cap} (IRC § 108(a)(3), IRC § 108(d)(3)) — the exclusion cannot exceed the amount
+of the insolvency, measured immediately before the discharge. Only $50,000 is excluded under
+IRC § 108(a)(1)(B); the remaining $30,000 is ordinary income under IRC § 61(a)(11), and the
+IRC § 108(b) attribute reduction reaches only the $50,000 that was actually excluded.
 </div>
 
 <div class="callout trap">

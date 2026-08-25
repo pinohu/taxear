@@ -19,7 +19,18 @@ forms: []
 related: ["3.2.6.f", "3.2.6.a", "3.1.4.a", "3.2.6.d", "3.2.5.g", "3.2.5.b", "3.2.5.h"]
 changelog:
   - { date: "2026-08-18", summary: "Initial publication from the Instructions for Form 8275 (Rev. 10/2024) and Form 8275-R (Rev. 11/2024), IRC §§ 6662 and 6694, and Reg. § 1.6662-4." }
+  - { date: "2026-08-25", summary: "Added a plain-language summary, typed scenarios, and glossary marks." }
 ---
+
+<div class="plain-terms">
+Sometimes a tax return takes a stand that might not hold up if the IRS looks hard at it. A
+disclosure statement is a form filed with the return that flags that spot in the open, instead of
+hiding it. There are two forms. One is for a stand that goes against a rule. The other is for
+everything else. Filing the right one can block part of a penalty later, if the spot is turned down.
+It cannot fix a return with missing records. It cannot save a claim that has no real basis at all.
+This mostly matters to preparers and taxpayers who take a shaky but solid stand, not to someone who
+claims a plain, normal write-off. It decides whether a losing stand also brings an extra fine on top.
+</div>
 
 There are two disclosure forms and they are mirror images. **Form 8275** discloses a position that is not contrary to a regulation; **Form 8275-R** discloses one that is. Each avoids a portion of the accuracy-related penalty the other cannot, and filing the wrong one leaves the exposure exactly where it was. Beyond that, both share a limit that matters more than the choice between them: disclosure buys nothing unless the position already has a **reasonable basis**.
 
@@ -75,25 +86,25 @@ There are two disclosure forms and they are mirror images. **Form 8275** disclos
 
 **The preparer's protection runs on the same track.** A preparer is not treated as having recklessly or intentionally disregarded a rule where the position is adequately disclosed **and** has a reasonable basis. Both limbs are required, and the second is the one that fails.
 
-<div class="scenario">
+<div class="scenario" data-type="fails">
 <h3>The wrong form</h3>
 <p>A client takes a position squarely contrary to a Treasury regulation, believing the regulation exceeds the statute. The preparer, wanting the protection of disclosure, attaches a carefully drafted Form 8275 setting out the position in full.</p>
-<p><em>Analysis.</em> No protection where it is needed. Form 8275 expressly cannot avoid the portion of the accuracy-related penalty attributable to <em>disregard of regulations</em> — that is Form 8275-R's function. The disclosure is thorough and lands on the wrong form. And even on the right form, avoiding that portion requires the position to represent a good-faith challenge to the regulation's validity, which the preparer should document contemporaneously rather than reconstruct at examination.</p>
+<p><em>Analysis.</em> No protection where it is needed. Form 8275 expressly cannot avoid the portion of the {gloss:accuracy-related-penalty} attributable to <em>disregard of regulations</em> — that is Form 8275-R's function. The disclosure is thorough and lands on the wrong form. And even on the right form, avoiding that portion requires the position to represent a good-faith challenge to the regulation's validity, which the preparer should document contemporaneously rather than reconstruct at examination.</p>
 </div>
 
-<div class="scenario">
+<div class="scenario" data-type="interaction">
 <h3>The disclosure that could not help</h3>
 <p>A sole proprietor claims $22,000 of vehicle and meal expenses. The mileage log is incomplete and there are no records of who attended the meals or why. The preparer suggests a Form 8275 disclosing the estimates.</p>
 <p><em>Analysis.</em> The wrong tool. The Form 8275 instructions state that where the taxpayer "failed to keep proper books and records or failed to properly substantiate the items, you cannot avoid the penalty by disclosure." These are also § 274(d) items, where substantiation is a condition of the deduction rather than a matter of penalty protection. Disclosure here neither protects the deduction nor avoids the penalty, and it advertises the weakness.</p>
 </div>
 
-<div class="scenario">
+<div class="scenario" data-type="boundary">
 <h3>The arrangement with a significant purpose</h3>
 <p>A client enters a structure whose principal commercial attraction is a large timing benefit. The adviser proposes disclosing the position on Form 8275 to head off the substantial understatement penalty.</p>
-<p><em>Analysis.</em> Disclosure will not reduce the understatement. Where a significant purpose of a partnership, entity, plan or arrangement is to avoid or evade federal income tax it is a tax shelter for this purpose, and for tax shelter items of any taxpayer in tax years ending after 22 October 2004 the <em>only</em> exception to the substantial understatement portion is reasonable cause. Neither adequate disclosure with a reasonable basis nor substantial authority reduces the understatement. The analysis has to be about reasonable cause and good faith, and about the separate reportable-transaction regime.</p>
+<p><em>Analysis.</em> Disclosure will not reduce the understatement. Where a significant purpose of a partnership, entity, plan or arrangement is to avoid or evade federal income tax it is a tax shelter for this purpose, and for tax shelter items of any taxpayer in tax years ending after 22 October 2004 the <em>only</em> exception to the substantial understatement portion is reasonable cause. Neither adequate disclosure with a reasonable basis nor substantial authority reduces the understatement. The analysis has to be about {gloss:reasonable-cause-defense} and good faith, and about the separate reportable-transaction regime.</p>
 </div>
 
-<div class="scenario">
+<div class="scenario" data-type="timing">
 <h3>The carryover disclosed four times</h3>
 <p>A practitioner disclosed the treatment of a large loss on Form 8275 in the year it arose, and has attached an identical Form 8275 in each of the three subsequent years as the loss is carried forward.</p>
 <p><em>Analysis.</em> Unnecessary after the first. The instructions provide that carryover items are disclosed for the tax year in which they originated, and that another Form 8275 need not be filed for those items in the years the carryover is taken into account. The same rule applies to carrybacks. The later filings do no harm but consume time and repeatedly flag a settled position.</p>

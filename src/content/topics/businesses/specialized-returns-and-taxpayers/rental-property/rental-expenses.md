@@ -24,7 +24,18 @@ forms: []
 related: ["2.3.5.e", "2.3.5.c", "2.3.5.b", "2.3.5.d", "2.3.5.a"]
 changelog:
   - { date: "2026-08-21", summary: "Initial draft. Sets out the IRC § 212 authority for rental deductions and the Treas. Reg. § 1.212-1(b) rule that a vacant building held for rent still generates deductions, the Treas. Reg. § 1.167(a)-10(b) placed-in-service point measured by readiness rather than occupancy, the IRC § 280A(e) day-count allocation for mixed use, and the Treas. Reg. § 1.263(a)-3 improvement framework of betterment, restoration and adaptation with its three safe harbours." }
+  - { date: "2026-08-25", summary: "Added a plain-language summary, typed scenarios, and glossary marks." }
 ---
+
+<div class="plain-terms">
+This page explains how to tell which costs of owning a rental you can deduct right away, and which
+you must spread out over many years instead. It affects anyone who owns property they rent out,
+whether full time or part time. Two questions decide each expense. First, does it belong to the
+rental at all, or partly to your own personal use? Second, does the work fix and restore the
+property to how it was, or does it make the property better or different than before? The first
+kind of cost is usually deductible now. The second kind is capitalized, meaning it is deducted
+slowly through depreciation instead.
+</div>
 
 Every rental expense faces two gates. The first is allocation: how much of it belongs to the rental
 rather than to the owner's own use, and whether the property was in service at all when the money was
@@ -109,7 +120,7 @@ recurring work expected more than once in ten years for a building. The small ta
 the most useful for a modest portfolio, but its ceiling counts the amounts already removed by the
 other two — so a landlord who has used the de minimis election has less room under it, not more.
 
-<div class="scenario">
+<div class="scenario" data-type="timing">
 
 <h3>The nine months before the first tenant</h3>
 
@@ -128,7 +139,7 @@ plus $48,000, or $248,000, recovered over 27.5 years with the mid-month conventi
 
 </div>
 
-<div class="scenario">
+<div class="scenario" data-type="fails">
 
 <h3>The furnace and the windows</h3>
 
@@ -136,10 +147,10 @@ A landlord of an in-service rental spends $7,800 replacing the failed furnace, w
 house, and $19,000 replacing all 22 windows with equivalent modern units. Nothing is enlarged and the
 use does not change. The building's unadjusted basis is $310,000.
 
-Both are likely capital, and the reason is the unit of property rules. The improvement tests are
+Both are likely capital, and the reason is the {gloss:unit-of-property} rules. The improvement tests are
 applied separately to the building structure and to each building system, and the heating,
 ventilation and air conditioning system is one of the nine. A furnace serving the whole house is a
-major component of that system, so replacing it is a restoration under
+major component of that system, so replacing it is a {gloss:restoration} under
 Treas. Reg. § 1.263(a)-3(k). The windows are part of the building structure rather than a system, and
 replacing all 22 is the replacement of a major component or a substantial structural part of the
 structure. Neither is saved by the routine maintenance safe harbour, which never covers a restoration
@@ -149,7 +160,7 @@ ceiling is the lesser of two amounts one of which is a small percentage of that 
 
 </div>
 
-<div class="scenario">
+<div class="scenario" data-type="baseline">
 
 <h3>The property between tenants</h3>
 

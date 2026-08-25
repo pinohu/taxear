@@ -21,7 +21,17 @@ forms:
 related: ["3.2.1.e", "3.2.1.a", "3.2.1.c", "3.2.1.i"]
 changelog:
   - { date: "2026-08-18", summary: "Initial publication from 26 CFR §§ 601.502(c) and 601.503, Pub. 947 and the Instructions for Form 2848." }
+  - { date: "2026-08-25", summary: "Added a plain-language summary, a third typed scenario, and glossary marks." }
 ---
+
+<div class="plain-terms">
+Most people give someone tax authority using the IRS's own form. This page covers a
+different path. A power of attorney signed years ago under state law can sometimes be
+used with the IRS instead. This mostly helps families and caregivers when someone can
+no longer sign for themselves, often due to illness or memory loss. The IRS will accept
+that older document if it states a few key facts. If it does not, the person already
+named in it can often fix the gap. No new signature from the sick person is needed.
+</div>
 
 Form 2848 is not the only acceptable power of attorney. A general or durable power drafted under state law is accepted if it carries the information the regulation requires — and where it does not, there is a cure the **attorney-in-fact** may execute without going back to the taxpayer. That cure is the core of the topic: it is the one route that works when the taxpayer can no longer sign.
 
@@ -73,16 +83,22 @@ Both conditions are strict. The original must **contemplate federal tax matters*
 
 **A fiduciary is a different case.** Reg. § 601.503(d) provides that when a fiduciary is involved, **a power of attorney is not generally required** — **Form 56** is filed instead, the fiduciary standing in the taxpayer's position. The regulation works through dissolved corporations, insolvent taxpayers, deceased taxpayers (executor, testamentary trustee, residuary legatee, distributee), taxpayers for whom a **guardian** has been appointed by a court of record, and taxpayers who have appointed a trustee. Where a court-appointed guardian exists, that is the Form 56 route — not a durable power.
 
-<div class="scenario">
+<div class="scenario" data-type="procedural">
 <h3>The general durable power and the incompetent taxpayer</h3>
-<p>Marguerite signed a durable power of attorney in 2021 naming her son Theo, a CPA, as attorney-in-fact with authority to perform "any and all acts" on her behalf. It says nothing about tax types, form numbers or years. In 2026 she is declared incompetent, and an examination opens on her 2023 return.</p>
+<p>Marguerite signed a durable {gloss:power-of-attorney} in 2021 naming her son Theo, a CPA, as attorney-in-fact with authority to perform "any and all acts" on her behalf. It says nothing about tax types, form numbers or years. In 2026 she is declared incompetent, and an examination opens on her 2023 return.</p>
 <p><em>Analysis.</em> Not acceptable as filed — it omits the Reg. § 601.503(a)(5) matter description. But it can be perfected. Theo executes a Form 2848 on Marguerite's behalf supplying the missing information, attaches it to a copy of the original, and attaches a statement signed under penalty of perjury that the original is valid under the law of the governing jurisdiction. The "any and all acts" language means the original contemplates federal tax matters, so both conditions of Reg. § 601.503(b)(3) are met and the perfected document is treated in all circumstances as signed and filed by Marguerite. Because Theo is a CPA he may name himself as representative.</p>
 </div>
 
-<div class="scenario">
+<div class="scenario" data-type="fails">
 <h3>The sale-of-property power</h3>
 <p>A taxpayer executed a limited power of attorney authorising his broker to sell a specific commercial building, including signing "all documents necessary to complete the sale." A dispute later arises over the reported gain, and the broker attempts to perfect the document to represent him.</p>
 <p><em>Analysis.</em> It cannot be perfected. Reg. § 601.503(b)(3) requires the original to <em>contemplate authorization to handle, among other things, Federal tax matters</em>, and a power confined to a single transaction does not, however broad its transactional language. A limited power is acceptable under Reg. § 601.503(b)(4) only if it satisfies the requirements — this one does not. The taxpayer must sign a Form 2848.</p>
+</div>
+
+<div class="scenario" data-type="boundary">
+<h3>Durable at the state line, terminated at the IRS</h3>
+<p>A taxpayer's state-law durable power of attorney remains valid and continuing under her state's law after she is declared incompetent. Her representative filed a Form 2848 years earlier but never checked line 5a, "Other acts authorized."</p>
+<p><em>Analysis.</em> Before the IRS, the power of attorney is treated as terminated anyway. Pub. 947 requires both a line 5a authorization and a non-IRS durable power meeting the IRS's own requirements before authority continues through incapacity — durability under state law by itself does not carry over. The representative needs a new authorization built to survive incapacity, or must work through whoever now holds authority for her, such as a court-appointed guardian filing Form 56.</p>
 </div>
 
 <div class="callout trap">

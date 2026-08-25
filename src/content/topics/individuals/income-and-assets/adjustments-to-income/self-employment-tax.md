@@ -19,7 +19,24 @@ forms: []
 related: ["1.2.4.e", "1.2.4.b", "1.2.1.l", "1.2.4.d", "1.2.3.k", "1.2.4.c", "1.3.1.h", "1.4.1.d", "1.4.1.f"]
 changelog:
   - { date: "2026-08-19", summary: "Initial draft. Sets out the IRC § 1401 rates including the additional hospital insurance tax and its unindexed thresholds, the § 1402(a) definition of net earnings with its rental, portfolio, capital gain and limited partner exclusions, the § 1402(b) ceiling and the $400 floor, and the two distinct halvings — the § 1402(a)(12) base reduction and the § 164(f) deduction — that are routinely confused." }
+  - { date: "2026-08-25", summary: "Added a plain-language summary, a threshold diagram of the $400 floor, glossary marks, and two new typed scenarios." }
+diagram:
+  archetype: "threshold"
+  caption: "Below this floor, net self-employment earnings owe no self-employment tax at all"
+  min: 0
+  max: 800
+  marks:
+    - { figureKey: "se.floor", label: "$400 floor", emphasis: true }
 ---
+
+<div class="plain-terms">
+If you work for yourself, you pay a special tax that covers Social Security and Medicare, since there is
+no employer to split it with you. This page explains how that tax is worked out, and two rules that
+quietly cut its cost. One rule shrinks the amount the tax is charged on, before the rate is even applied.
+A second, separate rule then lets you deduct half of the tax itself from your income tax. People often
+mix these two up. This page also covers who owes none of it, such as some landlords and people with a
+very small side income.
+</div>
 
 Two provisions each take half of something, and they do entirely different jobs. IRC § 1402(a)(12) shrinks
 the **base** before the tax is computed, so the tax itself is smaller. IRC § 164(f) then allows a
@@ -108,7 +125,7 @@ business equipment is out because § 1402(a)(3)(C) excludes property that is nei
 primarily for sale. A sole proprietor selling their delivery van has a § 1231 gain and no self-employment
 tax on it.
 
-<div class="scenario">
+<div class="scenario" data-type="interaction">
 <h3>Scenario 1 — the second job that owed less than expected</h3>
 
 Aditi earns wages well above the contribution and benefit base and also runs a consultancy with 60,000
@@ -122,7 +139,7 @@ income exceed the § 1401(b)(2) threshold — reduced by her wages under subpara
 0.9 percent applies too, with no deduction for any part of it.
 </div>
 
-<div class="scenario">
+<div class="scenario" data-type="fails">
 <h3>Scenario 2 — the landlord who is not self-employed</h3>
 
 Bram owns four rental houses, manages them himself, and nets 48,000 dollars. He is not a real estate
@@ -135,7 +152,7 @@ participation exception in that paragraph reaches only farm arrangements. He owe
 dollars and no self-employment tax.
 </div>
 
-<div class="scenario">
+<div class="scenario" data-type="baseline">
 <h3>Scenario 3 — the two halvings on one return</h3>
 
 Chidinma has 100,000 dollars of net earnings from a sole proprietorship and no wages.
@@ -145,6 +162,33 @@ Her base is 92,350 dollars. The 12.4 percent component is 11,451 dollars and the
 7,065 dollars, taken in computing adjusted gross income. The first halving reduced the amount the rates
 were applied to; the second reduces her income, not her self-employment tax. Applying either one twice, or
 substituting one for the other, is the characteristic error.
+</div>
+
+<div class="scenario" data-type="boundary">
+<h3>Scenario 4 — just over the floor</h3>
+
+A college student runs a small tutoring side gig and nets 380 dollars for the year after expenses. The
+following year, better organized, she nets 420 dollars from the same activity.
+
+The first year owes nothing. IRC § 1402(b)(2) excludes net earnings from self-employment where they fall
+below the 400-dollar floor for the year, so 380 dollars produces no self-employment tax at all — not a
+prorated amount, nothing. The second year crosses the line, and the full 420 dollars is subject to tax
+from the first dollar; the floor is not an exemption that shields the first 400 dollars once earnings
+clear it.
+</div>
+
+<div class="scenario" data-type="procedural">
+<h3>Scenario 5 — where the numbers actually go</h3>
+
+A first-year seller of handmade goods has 45,000 dollars of {gloss:gross-receipts} for the year and
+12,000 dollars of {gloss:cost-of-goods-sold}, leaving net earnings of 33,000 dollars and no wages. She has
+never filed Schedule SE before.
+
+The computation happens on Schedule SE: net earnings are reduced under IRC § 1402(a)(12) to reach the
+base, the § 1401 rates are applied to that base, and the result is entered as a tax on Schedule 2. The
+§ 164(f)(1) deduction for half of that tax then moves separately, as an adjustment to income on Schedule
+1 — two different forms for two different effects, even though both figures come from the same Schedule
+SE computation.
 </div>
 
 <div class="callout trap">

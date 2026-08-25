@@ -20,7 +20,18 @@ forms: []
 related: ["1.2.4.a", "1.2.4.e", "1.2.4.c", "1.2.4.b", "1.1.1.g", "1.3.1.c"]
 changelog:
   - { date: "2026-08-19", summary: "Initial draft. Sets out the IRC § 221 student loan interest deduction with its per-return cap and 2026 phase-out, the repeal of § 215 by Pub. L. 115-97 § 11051(a), the § 217(k) suspension of moving expenses as amended by Pub. L. 119-21 § 70113 to add intelligence community personnel from 2026, and the § 62(a)(2) educator and reservist adjustments with the § 62(d)(1) definition of an eligible educator." }
+  - { date: "2026-08-25", summary: "Added a plain-language summary, glossary marks, and two typed scenarios." }
 ---
+
+<div class="plain-terms">
+This page covers a short list of deductions. It used to be a much longer list. Alimony no longer counts
+for most divorces. Moving costs only count for military members on active duty, and, starting in 2026,
+for some workers who must move for national security jobs. Student loan interest can still be deducted,
+but only up to one fixed amount per tax return — it does not grow with more loans or more students.
+Teachers can deduct a small amount for classroom supplies, but only if they teach grades K through 12.
+This page sorts out which of these rules still applies to a given taxpayer, and how much each one is
+worth.
+</div>
 
 This group has shrunk, and 2026 changes it again. Alimony has been outside the Code since 2018 for
 instruments executed after that year. Moving expenses survive only for members of the Armed Forces — and,
@@ -107,7 +118,7 @@ For educator expenses, count hours and check the grade level. The 900-hour test 
 per school year, and the definition is a closed list of roles — a coach who is also a teacher qualifies
 through the teaching role, not through coaching.
 
-<div class="scenario">
+<div class="scenario" data-type="baseline">
 <h3>Scenario 1 — four loans, one cap</h3>
 
 Kofi is a single parent with two children in college. He has taken four student loans, two for each child,
@@ -115,10 +126,11 @@ and pays 6,000 dollars of interest for the year. His income is below the phase-o
 
 His deduction is the statutory maximum, once. IRC § 221(b)(1) caps the deduction allowed by subsection (a)
 for the taxable year at a single figure, and nothing multiplies it by loans or by students. The remaining
-interest is personal interest and is not deductible anywhere.
+interest is personal interest — it is not an {gloss:itemized-deduction} and is not deductible anywhere
+else on the return.
 </div>
 
-<div class="scenario">
+<div class="scenario" data-type="boundary">
 <h3>Scenario 2 — two divorces, two answers</h3>
 
 Lena pays 30,000 dollars a year under a 2016 decree that has never been modified. Her colleague Marcus
@@ -131,7 +143,7 @@ expressly adopted the new treatment, she would move to Marcus's position — whi
 a tax decision as much as a family law one.
 </div>
 
-<div class="scenario">
+<div class="scenario" data-type="timing">
 <h3>Scenario 3 — the analyst who could move in 2026</h3>
 
 Nour is a newly appointed employee of an intelligence community agency, not a member of the Armed Forces,
@@ -142,6 +154,30 @@ subsection (g), and she is not a member of the Armed Forces. For 2026, § 217(k)
 119-21 § 70113(b) and applicable to taxable years beginning after 31 December 2025 — treats an employee or
 new appointee of the intelligence community who moves pursuant to a change in assignment requiring
 relocation in the same manner as a person within subsection (g). She deducts.
+</div>
+
+<div class="scenario" data-type="fails">
+<h3>Scenario 4 — the civilian relocation that gets nothing</h3>
+
+Priya takes a new job with a different employer in another state during 2026 and pays the moving costs
+herself. She is not in the Armed Forces and does not work for an intelligence agency.
+
+Nothing is deductible. IRC § 217(k)(1) suspends § 217 for every taxable year beginning after 2017 except
+for the two groups named in subsections (g) and (k)(2), and an ordinary civilian changing employers falls
+into neither. The suspension does not care how far she moved, what it cost, or whether the new job was a
+genuine step up — it applies across the board.
+</div>
+
+<div class="scenario" data-type="procedural">
+<h3>Scenario 5 — where the educator deduction actually goes</h3>
+
+A fourth-grade teacher spends her own money on classroom books and supplies during the school year and
+wants to know how to claim it.
+
+It is claimed on Schedule 1 as an adjustment to income under IRC § 62(a)(2)(D), available whether she
+takes the {gloss:standard-deduction} or itemizes. She still needs to keep her receipts, because the
+deduction is capped at the indexed figure in the table above, and nothing beyond that cap is allowed
+under this provision.
 </div>
 
 <div class="callout trap">

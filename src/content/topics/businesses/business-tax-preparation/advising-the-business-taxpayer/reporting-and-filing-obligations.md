@@ -27,7 +27,18 @@ forms: []
 related: ["2.2.5.b", "2.2.5.c", "2.2.4.a", "2.2.5.g", "2.2.4.d", "2.2.5.i", "2.2.5.k", "2.2.5.m"]
 changelog:
   - { date: "2026-08-21", summary: "Initial draft. Sets out the IRC § 6072 due dates and the IRC § 6081 extension with its payment condition, the per-owner per-month late filing penalties in IRC §§ 6698 and 6699 at the Rev. Proc. 2025-32 figures for returns filed in 2027, the IRC § 6721 and § 6722 information return and payee statement penalties with their correction tiers and intentional disregard floor, the IRC § 6050I cash reporting requirement, and the international information return penalties in IRC §§ 6038, 6038A and 6038D." }
+  - { date: "2026-08-25", summary: "Added a plain-language summary, glossary marks, and a fourth typed scenario walking through a corporate extension that left part of its payment condition unmet." }
 ---
+
+<div class="plain-terms">
+This page is about the paperwork deadlines a business must meet, separate from paying its tax bill.
+It covers when returns are due, how to get more time to file, and the penalties for filing late or
+filing forms with wrong or missing information. It affects any business with a return to file,
+workers to report, or large cash payments to record. It does not cover the tax owed itself. A
+business can owe zero tax and still face a steep penalty for a late or incomplete filing. What
+changes here is how much a mistake actually costs, since these penalties often have nothing to do
+with the size of the tax bill at all.
+</div>
 
 A business that owes no tax can still owe a great deal in penalties, because the largest exposures in
 this topic attach to filing rather than to paying. Two features do most of the damage: the
@@ -101,7 +112,7 @@ The continuation penalties after notice compound this, running per 30-day period
 
 ## Scenarios
 
-<div class="scenario">
+<div class="scenario" data-type="baseline">
 <h3>The loss year that cost the most</h3>
 
 Thackeray Design LLP has nine partners, made a loss, owed no tax, and filed its Form 1065 five
@@ -116,10 +127,10 @@ during any part of the year.
 
 Two facts make it worse than it looks. A partner who joined and left in February still counts. And
 the count is not of partners at year end, which is the assumption most preparers make. The only
-answer is reasonable cause, which has to be established rather than asserted.
+answer is {gloss:reasonable-cause-defense}, which has to be established rather than asserted.
 </div>
 
-<div class="scenario">
+<div class="scenario" data-type="timing">
 <h3>Forty forms, three deadlines</h3>
 
 Bewley Contracting fails to issue forty Forms 1099-NEC. It discovers the omission and asks whether
@@ -136,7 +147,7 @@ the annual cap both disappear and the penalty becomes the greater of a fixed flo
 the amounts that should have been reported.
 </div>
 
-<div class="scenario">
+<div class="scenario" data-type="boundary">
 <h3>The cash that had to be reported</h3>
 
 Larkfield Motors sells a vehicle for $28,000 and accepts $11,500 in banknotes with the balance by
@@ -150,6 +161,24 @@ The return is due by the 15th day after the cash is received, and a written stat
 customer by 31 January of the following year. The failure is an information return failure, so
 IRC § 6721 applies — and Form 8300 has its own intentional disregard figures, materially larger than
 the general ones, which is a reasonable indication of how the omission is viewed.
+</div>
+
+<div class="scenario" data-type="procedural">
+<h3>The extension that bought half the relief</h3>
+
+A corporation timely files Form 7004 for an automatic six-month extension, but a cash shortfall means
+it pays only 40 percent of its properly estimated tax by the original due date. It pays the rest when
+it files the return, three months after that original date.
+
+The extension itself holds: filing the return within the extended period avoids the late-filing
+penalty. But IRC § 6081(b) conditions the extension on paying the properly estimated tax by the
+original date, and the unpaid 60 percent was never covered. That balance is exposed to the
+{gloss:failure-to-pay-penalty}, running from the original due date rather than the extended one, plus
+interest for the same span.
+
+The procedure that limits the damage is simple and usually skipped: pay the shortfall the moment cash
+allows, rather than waiting for the extended filing date. The penalty accrues by the month, so each
+additional month of delay is a fresh increment — the three months here cost three units, not one.
 </div>
 
 ## Traps

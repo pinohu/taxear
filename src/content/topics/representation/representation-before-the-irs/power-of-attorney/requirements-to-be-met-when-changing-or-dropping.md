@@ -20,7 +20,20 @@ forms:
 related: ["3.2.1.a", "3.2.1.c", "3.2.1.j", "3.1.2.n", "3.2.1.h", "3.2.1.f"]
 changelog:
   - { date: "2026-08-18", summary: "Initial publication from 26 CFR § 601.505." }
+  - { date: "2026-08-25", summary: "Added a plain-language summary, typed scenarios, and glossary marks." }
 ---
+
+<div class="plain-terms">
+Sometimes a taxpayer needs to change who is handling their case with the IRS. This page
+covers three ways that happens. The taxpayer can cancel an old grant. The representative
+can step away on their own. Or one representative can hand the case to another. Each move
+needs its own paper, signed by the right person, sent to the right place. It affects any
+taxpayer who is switching helpers, and any representative who is leaving a case or passing
+it on. It does not affect a case where nothing is changing. These rules decide something
+easy to miss. Naming a new helper can end the old grant by accident, unless the taxpayer
+says in writing to keep both. And handing a case to someone else needs permission set up in
+advance, right on the first form.
+</div>
 
 Three events end or transfer a representation, each with its own mechanics. A **taxpayer** may revoke. A **representative** may withdraw. And a representative may **substitute or delegate** — but only if the power of attorney says they may. Confusing the three is the standard error, because each requires a different document filed by a different person.
 
@@ -68,21 +81,21 @@ To **withdraw**, the representative writes "**WITHDRAW**" across the top of the 
 
 Note the asymmetry in who acts. Revocation is the taxpayer's act; withdrawal is the representative's; substitution is the representative's act **exercised under authority the taxpayer granted in advance**. A question that asks who must sign a particular document is testing that division.
 
-<div class="scenario">
+<div class="scenario" data-type="fails">
 <h3>Two firms, one examination</h3>
-<p>A taxpayer under examination wants to add a second firm's specialist without dismissing the enrolled agent who has run the case for a year. She signs a new Form 2848 naming the specialist for the same tax years and files it.</p>
+<p>A taxpayer under examination wants to add a second firm's specialist without dismissing the {gloss:enrolled-agent} who has run the case for a year. She signs a new Form 2848 naming the specialist for the same tax years and files it.</p>
 <p><em>Analysis.</em> She has just revoked the first representative. Reg. § 601.505(a)(1) provides that a new power of attorney revokes a prior one granted to another recognized representative with respect to the same matter. To keep both, the new power needed a clause stating that it does not revoke the prior power, <em>and</em> either a copy of the unrevoked prior power attached or a statement she signed listing the first representative's name and address. Neither the clause nor the attachment alone would have been enough.</p>
 </div>
 
-<div class="scenario">
+<div class="scenario" data-type="procedural">
 <h3>The representative who wants out</h3>
 <p>An enrolled agent has lost confidence in a client who keeps producing inconsistent records. He wants to end the representation in a collection matter but the client will not sign anything and disputes his fee.</p>
-<p><em>Analysis.</em> He does not need the client's signature. Reg. § 601.505(b)(1) lets a recognized representative withdraw by filing a statement, signed by him, identifying the taxpayer's name and address and the matters from which he is withdrawing, with the offices where the power of attorney was filed. Separately, Circular 230 § 10.28 requires him to return the client's records notwithstanding the fee dispute.</p>
+<p><em>Analysis.</em> He does not need the client's signature. Reg. § 601.505(b)(1) lets a recognized representative withdraw by filing a statement, signed by him, identifying the taxpayer's name and address and the matters from which he is withdrawing, with the offices where the power of attorney was filed. Separately, {gloss:circular-230} § 10.28 requires him to return the client's records notwithstanding the fee dispute.</p>
 </div>
 
-<div class="scenario">
+<div class="scenario" data-type="interaction">
 <h3>Handing the file to a colleague</h3>
-<p>A partner is appointed under a Form 2848 that says nothing about substitution. She wants a colleague — also an enrolled agent — to take over an Appeals conference. She sends the IRS a signed note naming him.</p>
+<p>A partner is appointed under a Form 2848 that says nothing about substitution. She wants a colleague — also an enrolled agent — to take over an {gloss:appeals} conference. She sends the IRS a signed note naming him.</p>
 <p><em>Analysis.</em> Ineffective. Substitution requires that it be <em>specifically permitted under the power of attorney</em>, and Reg. § 601.505(b)(2) requires three filings: a Notice of Substitution or Delegation, the colleague's declaration of representative under Reg. § 601.502(c), and a power of attorney specifically authorising the substitution. The cleanest route here is a new Form 2848 from the taxpayer naming the colleague. Had the original power permitted substitution, she would not have needed any other representative's consent to make it.</p>
 </div>
 

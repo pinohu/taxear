@@ -22,7 +22,20 @@ forms: []
 related: ["3.2.3.a", "3.3.1.i", "3.3.1.m", "3.2.3.b"]
 changelog:
   - { date: "2026-08-19", summary: "Initial draft." }
+  - { date: "2026-08-25", summary: "Added a plain-language summary, a decision diagram of the discharge tests, glossary marks, and typed scenarios." }
+diagram:
+  archetype: "decision"
+  caption: "Any one of these keeps a tax debt alive after bankruptcy"
+  tests:
+    - { test: "Return last due, including extensions, less than 3 years before the petition", result: "Priority tax — survives the case", outcome: "fail" }
+    - { test: "Tax assessed within 240 days before the petition", result: "Priority tax — survives the case", outcome: "fail" }
+    - { test: "Required return never filed, or filed late less than 2 years before the petition", result: "Excepted regardless of the tests above", outcome: "fail" }
+    - { test: "None of the above, and no fraudulent return or willful evasion", result: "Tax is discharged", outcome: "pass" }
 ---
+
+<div class="plain-terms">
+Filing for bankruptcy does not always wipe out a tax debt. This page explains which old taxes a bankruptcy case can actually clear, and which ones survive it no matter what. It matters to anyone who owes back taxes and is thinking about filing, and to anyone advising them. It does not help with payroll tax a business withheld from workers' pay — that debt never goes away this way. What this decides comes down to timing: how old the tax is, when the return was filed, and whether the taxpayer tried to hide it. Filing also pauses IRS collection right away, but a case that does not clear the tax can leave the IRS more time to collect than it had before.
+</div>
 
 ## The rule
 
@@ -111,7 +124,7 @@ recorded before the petition continues to encumber the debtor's pre-petition pro
 discharge, to the extent of the lien's value in that property. The client walks away free of
 personal liability and still cannot sell the house clear.
 
-<div class="scenario">
+<div class="scenario" data-type="boundary">
 <h3>Three weeks too early</h3>
 
 Teodoro Blanchflower owes income tax for a year whose return was filed on time, on an extension
@@ -128,12 +141,12 @@ that shows the extension and the actual filing date, and flagging that the exten
 date.
 </div>
 
-<div class="scenario">
+<div class="scenario" data-type="fails">
 <h3>The return the IRS filed</h3>
 
-Perpetua Nakamura did not file for three years. The IRS prepared substitutes for return and
-assessed. Six years later she files chapter 7, reasoning that all three years are well outside
-any three-year window.
+Perpetua Nakamura did not file for three years. For each of those years the IRS prepared a
+{gloss:substitute-for-return} and assessed. Six years later she files chapter 7, reasoning that all
+three years are well outside any three-year window.
 
 The three-year rule is satisfied, but § 523(a)(1)(B)(i) is not: the exception applies to tax
 "with respect to which a return, or equivalent report or notice, if required, was not filed or
@@ -144,12 +157,12 @@ advice, given years before any bankruptcy is contemplated, is the same advice th
 a dozen other reasons: file the returns, and start the two-year clock.
 </div>
 
-<div class="scenario">
+<div class="scenario" data-type="interaction">
 <h3>Discharged, and still cannot sell</h3>
 
-Kwabena Lindholm receives a chapter 7 discharge covering an old income tax liability that clears
-every test. Two years later he tries to sell the home he owned before the petition and the title
-company reports a Notice of Federal Tax Lien filed before his case.
+Kwabena Lindholm receives a chapter 7 {gloss:discharge-in-bankruptcy} covering an old income tax
+liability that clears every test. Two years later he tries to sell the home he owned before the
+petition and the title company reports a {gloss:notice-of-federal-tax-lien} filed before his case.
 
 Both things are true at once. Section 524(a)(2) enjoins any attempt to collect the tax as his
 personal liability — no levy on wages, no lien on property he acquired after the filing, no

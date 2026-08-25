@@ -27,7 +27,25 @@ forms: []
 related: ["2.2.3.a", "2.2.3.b", "2.2.2.c", "2.2.3.d", "2.2.3.c", "2.2.2.k"]
 changelog:
   - { date: "2026-08-21", summary: "Initial draft. Sets out the Reg. § 1.263(a)-3(d) betterment-restoration-adaptation test, the Reg. § 1.263(a)-3(e) unit of property rules that apply it to the building structure and to each building system separately, the three elections — de minimis under Reg. § 1.263(a)-1(f), small taxpayer under Reg. § 1.263(a)-3(h) and capitalisation consistent with books under Reg. § 1.263(a)-3(n) — the Reg. § 1.263(a)-3(i) routine maintenance safe harbor, and the Reg. § 1.168(i)-8(d)(2) partial disposition election that keeps a replaced component from being depreciated twice." }
+  - { date: "2026-08-25", summary: "Added a plain-language summary, a decision diagram of the fixed analysis order, glossary marks, and a fifth typed scenario (interaction)." }
+diagram:
+  archetype: "decision"
+  caption: "Repair or capitalize — the fixed order the regulations run in"
+  tests:
+    - { test: "De minimis safe harbor election made, cost within the ceiling?", result: "Deduct in full — analysis ends", outcome: "pass" }
+    - { test: "Does the work better, restore, or adapt the unit of property (the BAR test)?", result: "Yes to any one branch — must capitalize", outcome: "fail" }
+    - { test: "Does the routine maintenance or small taxpayer safe harbor rescue it?", result: "Yes — deduct despite BAR", outcome: "pass" }
+    - { test: "None of the above applies", result: "Capitalize — consider the partial disposition election", outcome: "fail" }
 ---
+
+<div class="plain-terms">
+This topic decides something simple: can you deduct a repair cost right away, or must you spread it
+out over several years instead? It applies to a business that owns property it uses in its own
+work. It does not apply to a homeowner's own house. The answer does not turn on how much the work
+cost. It turns on what the work was done to, and what it actually changed about that thing. Several
+safe-harbor rules also let smaller or lower-cost repairs get deducted right away, with no need to
+run through that fuller test at all.
+</div>
 
 Nobody argues about whether a new building is capital. The argument is about the middle of the range
 — the roof, the furnace, the parking lot resurfacing — and the tangible property regulations resolve
@@ -141,7 +159,7 @@ not be made by filing an application for change in accounting method.
 
 ## Scenarios
 
-<div class="scenario">
+<div class="scenario" data-type="baseline">
 <h3>The same amount, two answers</h3>
 
 Ridgeline Storage owns a warehouse it bought for $2,100,000. In one year it spends $48,000 on two
@@ -157,7 +175,7 @@ neither a major component of it nor a large portion of its physical structure: a
 under Reg. § 1.162-4(a).
 </div>
 
-<div class="scenario">
+<div class="scenario" data-type="fails">
 <h3>The election that was never made</h3>
 
 Calder Machining buys eleven identical bench tools at $1,900 each, on one invoice, and expenses them
@@ -173,7 +191,7 @@ Calder is not without an answer — IRC § 179, or the materials and supplies ru
 harbor is gone for the year, and the preparer who assumed it was automatic must find another route.
 </div>
 
-<div class="scenario">
+<div class="scenario" data-type="procedural">
 <h3>Two roofs on one building</h3>
 
 Harbor Lane Properties replaces the roof on a rental building in year one for $86,000, capitalises
@@ -191,7 +209,7 @@ Note what it also does to removal costs: because the old roof's adjusted basis h
 account in realising loss, tearing it off is not capitalised (Reg. § 1.263(a)-3(g)(2)(i)).
 </div>
 
-<div class="scenario">
+<div class="scenario" data-type="boundary">
 <h3>The ceiling that was already spent</h3>
 
 Ellery Dental owns the single building it operates from, unadjusted basis $410,000, and qualifies on
@@ -206,6 +224,21 @@ thought.
 Change one fact and it inverts. Add $900 for a fixture covered by the same election and the total is
 $8,500, the ceiling is exceeded, and the election fails for that building for that year — sending
 the whole $6,200 back through the improvement test.
+</div>
+
+<div class="scenario" data-type="interaction">
+<h3>Capitalized today, recovered almost as fast</h3>
+
+Sutliffe Bottling replaces the control system on a bottling line, a self-contained piece of
+production equipment, for $42,000. Because the {gloss:unit-of-property} here is the machine itself
+rather than a building system, and the replacement is a {gloss:restoration} of a major component
+under Reg. § 1.263(a)-3(k)(1)(vi), the cost must be capitalized rather than deducted as a repair.
+
+Losing that argument does not mean losing the deduction for long. Tangible personal property
+capitalized this way is still eligible for depreciation under IRC § 168, including bonus
+depreciation where available, which can recover most or all of the $42,000 in the very year it is
+placed in service. The capitalization question and the speed of cost recovery are separate
+questions, and a taxpayer can lose the first without losing much of the second.
 </div>
 
 ## Traps

@@ -20,7 +20,22 @@ forms: []
 related: ["3.3.3.a", "3.3.3.g", "3.2.6.a", "3.3.3.b", "3.3.3.d", "3.3.3.c", "3.3.3.f", "3.3.3.h", "3.3.3.i"]
 changelog:
   - { date: "2026-08-18", summary: "Initial publication from the IRS IRS audits page (last reviewed 17 February 2026) and IRC §§ 6212, 6213, 6501 and 7521." }
+  - { date: "2026-08-25", summary: "Added a plain-language summary, a timeline diagram of the examination's shape, a glossary mark, and typed scenarios." }
+diagram:
+  archetype: "timeline"
+  caption: "The shape of an examination, from selection to conclusion"
+  events:
+    - { when: "Selection", what: "Return chosen by random screening, or because it relates to another taxpayer's audit" }
+    - { when: "Notice", what: "IRS notifies by mail only — never by phone" }
+    - { when: "The audit", what: "Conducted by mail, at an IRS office, or in the field" }
+    - { when: "+30 days (mail audits)", what: "One automatic extension is available on request" }
+    - { when: "Conclusion", what: "No change, agreed, or disagreed" }
+    - { when: "If disagreed", what: "Manager conference, mediation, or an appeal, if time remains on the statute" }
 ---
+
+<div class="plain-terms">
+If the IRS decides to look at your tax return, it will always tell you by mail — never by a phone call out of nowhere. From there, the {gloss:audit} runs one of three ways: entirely by mail, in an IRS office, or at your home or workplace. It ends in one of three ways too. Either everything checks out, you agree with the changes, or you disagree with them. If you disagree, you still have real options, like asking for a manager or trying mediation, as long as there is still enough time left on the clock to finish the case. This topic walks through that whole path, step by step.
+</div>
 
 An examination has a shape that does not vary much: a return is **selected**, the taxpayer is **notified by mail**, the audit runs in one of **three ways**, and it closes in one of **three ways**. Knowing which split a fact pattern tests usually answers the question.
 
@@ -83,25 +98,25 @@ Note the taxpayer's own lever: where there are **too many books or records to ma
 
 **The three disagreement routes are not sequential.** A manager conference, mediation, and an appeal are alternatives, and only the appeal carries a condition: **enough time remaining on the statute of limitations**. Running out of statute forecloses the appeal, not merely delays it.
 
-<div class="scenario">
+<div class="scenario" data-type="procedural">
 <h3>The interview that should have stopped</h3>
 <p>A revenue agent opens a field examination at a client's business. Part-way through the interview the client says he would rather have his enrolled agent present before answering anything further. The agent asks three more questions, which the client answers, then closes.</p>
 <p><em>Analysis.</em> The interview should have been suspended. Where the taxpayer clearly states a wish to consult a representative, the officer <em>shall suspend</em> the interview — expressly "regardless of whether the taxpayer may have answered one or more questions" (IRC § 7521(b)(2)). The answers already given are not undone by the statute, but the continued questioning was improper, and the point to raise with the examiner's manager.</p>
 </div>
 
-<div class="scenario">
+<div class="scenario" data-type="boundary">
 <h3>Too many records to mail</h3>
 <p>A correspondence audit questions a sole proprietor's vehicle and supply expenses. The substantiation runs to four boxes of receipts and three years of mileage logs. The representative begins photocopying.</p>
 <p><em>Analysis.</em> There is a better route. The IRS states that a taxpayer with "too many books or records to mail" <em>can request a face-to-face audit</em>. Converting the examination to an in-person interview lets the examiner work through the records directly, and avoids the risk that a mail audit closes on whatever fraction of the substantiation arrived and was matched to the right item.</p>
 </div>
 
-<div class="scenario">
+<div class="scenario" data-type="timing">
 <h3>The extension that came too late</h3>
 <p>A mail audit letter gives a response date of 10 April. On 2 April the representative faxes a request for more time and receives the automatic 30-day extension. Documents are still incomplete on 10 May, and on 18 May a notice of deficiency arrives by certified mail. The representative faxes a second extension request.</p>
 <p><em>Analysis.</em> Too late, and the consequence is the serious one. The IRS ordinarily grants a <em>one-time automatic</em> 30-day extension, so a second is not available in any event. More importantly, once a notice of deficiency has issued the IRS "cannot grant additional time for you to submit supporting documentation," and the <strong>90-day period to petition the Tax Court cannot be extended</strong>. The representative's task is now the petition deadline, not the documents.</p>
 </div>
 
-<div class="scenario">
+<div class="scenario" data-type="baseline">
 <h3>Three ways to close</h3>
 <p>An examination of a partnership's travel deductions ends with the examiner proposing a $34,000 adjustment. The partners understand the reasoning and think it is wrong.</p>
 <p><em>Analysis.</em> This is a <em>disagreed</em> closing — the IRS proposed changes and the taxpayer understands but disagrees. It is not "no change," which requires that the taxpayer <em>substantiated all of the items being reviewed</em>. The three routes open are a conference with an IRS manager, mediation through alternative dispute resolution, or an appeal — the last available only if enough time remains on the statute of limitations, which is why the limitation date should be checked before choosing.</p>

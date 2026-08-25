@@ -23,7 +23,17 @@ forms: []
 related: ["2.1.1.b", "2.1.1.d", "2.1.1.j", "2.1.1.c", "2.1.1.g", "2.1.2.i", "2.1.3.a"]
 changelog:
   - { date: "2026-08-21", summary: "Initial draft. Sets out the IRC § 441 definition of the taxable year and the § 441(g) default to the calendar year, the § 442 requirement of approval for a change, the § 443 short period return and its annualisation, the § 706(b) required year for partnerships with the majority interest and principal partner tests, the § 1378 permitted year for S corporations, the § 444 election with its 3-month cap and the § 7519 and § 280H costs it carries, and the Rev. Proc. 2006-46 25-percent gross receipts test for a natural business year." }
+  - { date: "2026-08-25", summary: "Added a plain-language summary, glossary marks, and typed scenarios." }
 ---
+
+<div class="plain-terms">
+A tax year is the twelve-month period a business uses to report its income. This page explains how a
+business picks its tax year, and why some businesses do not really get to pick at all. A sole owner or a
+regular corporation usually picks freely. A partnership or an S corporation does not: its year is usually
+set by the years its owners use, not by what the business would prefer. There is one way around this, a
+special election, but it only buys a few extra months, and it comes with a yearly cost. This page decides
+which year a business must use, when it may ask to change, and what that change costs.
+</div>
 
 The accounting period rules read as though a business picks its year. For a sole proprietor and a C
 corporation that is roughly true. For a partnership or an S corporation it is not: the year is dictated by
@@ -117,9 +127,9 @@ entity without 47 months of receipts history cannot use the route at all.
 
 ## Scenarios
 
-<div class="scenario">
+<div class="scenario" data-type="baseline">
 <h3>The three partners who agreed on June</h3>
-<p>A commercial property partnership has three corporate partners: two with 20 percent each of profits and
+<p>A commercial property {gloss:partnership-entity} has three corporate partners: two with 20 percent each of profits and
 capital, both on a calendar year, and one with 60 percent, on a year ending 30 June. The partnership would
 prefer a calendar year for the convenience of two of its three partners.</p>
 <p>Its required year is 30 June. On the testing day one partner held an aggregate interest in profits and
@@ -131,7 +141,7 @@ required year, and its cap is on deferral, so it offers nothing to an entity tha
 calendar year rather than away from it.</p>
 </div>
 
-<div class="scenario">
+<div class="scenario" data-type="fails">
 <h3>The election that had nothing to elect</h3>
 <p>A four-partner consultancy has used the calendar year since it was formed in 2023. All four partners are
 individuals on calendar years, so the calendar year is also its required year. The partners would like to
@@ -145,7 +155,7 @@ period of zero, so no election can be made. The only route to a September year i
 established under IRC § 706(b)(1)(C), and the partners' preference about workload is not one.</p>
 </div>
 
-<div class="scenario">
+<div class="scenario" data-type="boundary">
 <h3>The ski resort and the two months that were not enough</h3>
 <p>A partnership operating a ski resort has annual gross receipts of about $500,000, and roughly $130,000
 of that arrives in February and March. It wants a year ending 31 March, and its adviser tells it that
@@ -158,9 +168,9 @@ comparison and defeat the March request. And three years of trading gives 36 mon
 are needed to run both the test and the comparison.</p>
 </div>
 
-<div class="scenario">
+<div class="scenario" data-type="procedural">
 <h3>The corporation that changed its year</h3>
-<p>A C corporation with a 30 June year end obtains approval to change to a calendar year with effect from
+<p>A {gloss:c-corporation} with a 30 June year end obtains approval to change to a calendar year with effect from
 1 January 2027. Its taxable income for the short period from 1 July to 31 December 2026 is $180,000.</p>
 <p>Under IRC § 443(a)(1) it files a return for the short period running from 1 July 2026 to 31 December
 2026, and under IRC § 443(b)(1) the income is annualised: $180,000 multiplied by 12 and divided by 6 gives

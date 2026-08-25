@@ -19,7 +19,18 @@ forms: []
 related: ["1.6.1.a", "1.6.1.c", "1.6.1.d", "1.6.1.e", "1.2.3.c"]
 changelog:
   - { date: "2026-08-20", summary: "Initial draft. Sets out the two regimes in IRC § 2040 — the consideration-furnished rule of § 2040(a) with the proportionate exception in Reg. § 20.2040-1(a)(2) and the fractional rule for inherited joint interests, and the flat one-half rule of § 2040(b) for a qualified joint interest — with the § 2056(d)(1)(B) exclusion for a non-citizen spouse, the § 2033 treatment of a tenancy in common, and the basis consequences under § 1014(b)(6) and (b)(9)." }
+  - { date: "2026-08-25", summary: "Added a plain-language summary, glossary marks, and typed scenarios." }
 ---
+
+<div class="plain-terms">
+This is about what happens, for estate tax purposes, when two people own property together and
+one of them dies. It affects anyone who holds a joint bank account, house, or other asset with
+someone else. For a married couple, the rule is simple: half the property counts as belonging to
+the spouse who died, no matter who paid for it. For anyone else, such as a parent and child, or
+two friends, the rule looks at who really put the money in. Whoever cannot prove they paid their
+share may find the whole thing counted in the estate of the person who died. That same choice
+also decides whether the property gets a fresh, higher value for tax purposes later on.
+</div>
 
 Joint ownership is the most common estate planning device that nobody plans. Clients open joint accounts
 for convenience, add a child to a deed to avoid probate, and title a house jointly because the bank
@@ -98,13 +109,13 @@ half gets a new basis as well. No joint tenancy in a common law state achieves t
 community property state holding an appreciated asset, community property with right of survivorship is
 usually better than joint tenancy for exactly this reason.
 
-<div class="scenario">
+<div class="scenario" data-type="fails">
 <h3>The account the daughter could not prove</h3>
 
 A widow dies with $340,000 in a joint account with her daughter, opened eleven years earlier. The
 daughter deposited her own salary into it for several years but has no statements from that period.
 
-The whole $340,000 is in the gross estate. Section 2040(a) includes all of it except the part *shown* to
+The whole $340,000 is in the {gloss:gross-estate}. Section 2040(a) includes all of it except the part *shown* to
 have originally belonged to the daughter, and the burden sits with the estate. What the daughter
 actually contributed is not the question; what she can demonstrate is. Had she kept the records, she
 could have excluded her proportion — and would then have taken that proportion at its original basis
@@ -112,7 +123,7 @@ instead of a date-of-death basis.
 
 </div>
 
-<div class="scenario">
+<div class="scenario" data-type="baseline">
 <h3>The house the husband paid for entirely</h3>
 
 A married couple own their home as tenants by the entirety. The husband paid the whole purchase price
@@ -120,13 +131,13 @@ and every improvement. He dies when the house is worth $900,000.
 
 $450,000 is in his gross estate. Section 2040(b) makes a qualified joint interest exactly one-half
 regardless of contribution, and a tenancy by the entirety between spouses always qualifies. His widow's
-half takes no new basis — it was not in his estate — so if they paid $200,000 she now holds a property
+half gets no {gloss:step-up-in-basis} — it was not in his estate — so if they paid $200,000 she now holds a property
 worth $900,000 with a basis of $100,000 plus $450,000, or $550,000. The flat rule is favourable for
 estate tax and costs basis, and both halves of that are automatic.
 
 </div>
 
-<div class="scenario">
+<div class="scenario" data-type="boundary">
 <h3>The third joint tenant that changed the rule</h3>
 
 The same couple, but ten years earlier they added their son to the deed so the house would pass without
@@ -140,7 +151,7 @@ follows inclusion, so the full value does step up.
 
 </div>
 
-<div class="scenario">
+<div class="scenario" data-type="interaction">
 <h3>The proof that was not worth having</h3>
 
 Two unmarried partners own a rental property jointly. One dies. The estate is well under the basic

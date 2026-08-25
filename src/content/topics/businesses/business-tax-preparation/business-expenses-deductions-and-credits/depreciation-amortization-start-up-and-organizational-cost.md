@@ -24,7 +24,18 @@ forms: []
 related: ["2.2.2.f", "2.2.1.b", "2.2.2.b", "2.2.2.a", "2.1.1.j", "2.2.2.e", "2.2.2.g", "2.2.2.h", "2.2.2.i", "2.2.2.k", "2.2.2.l", "2.2.2.m", "2.2.2.o", "2.2.3.a", "2.2.3.b", "2.2.3.c", "2.2.3.d", "2.2.3.e", "2.2.4.e", "2.2.5.i", "2.2.5.l"]
 changelog:
   - { date: "2026-08-21", summary: "Initial draft. Sets out the IRC § 179 dollar limitation, phase-out and taxable income cap with the 2026 figures from Rev. Proc. 2025-32, the IRC § 168(k) bonus allowance and the conditions used property must meet, the IRC § 195 start-up rules and their interaction with IRC § 248, and the depletion regime under IRC §§ 611, 613 and 613A. Records that Pub. L. 119-21 § 70301 made bonus depreciation permanent at 100 percent by striking the phase-down table and the placed-in-service deadline." }
+  - { date: "2026-08-25", summary: "Added a plain-language summary, glossary marks, and two typed scenarios." }
 ---
+
+<div class="plain-terms">
+This page is about three ways a business writes off costs over time. One way covers equipment. A
+business can deduct its cost fast or slow, depending on the choice it makes. Another way covers
+the money spent before a business even opens its doors. A third way, called depletion, is only for
+businesses that dig up oil, gas, or minerals. This page affects any business that buys equipment,
+is just starting out, or takes resources from the ground. It decides how much a business can
+deduct now versus later. For mining and drilling businesses, it also decides which of two
+different math methods applies.
+</div>
 
 Four separate cost recovery regimes sit in this topic, and they interact in a fixed order. Two of
 them changed materially in July 2025 and one of them is stated wrongly in nearly every source
@@ -119,7 +130,7 @@ within an exception, and the one that matters is {fig:depr.oil_gas_independent}
 (IRC § 613A(c)(1)). An integrated producer gets cost depletion only, and even an independent
 producer gets the statutory rate only on production up to the depletable quantity.
 
-<div class="scenario">
+<div class="scenario" data-type="baseline">
 <h3>The equipment purchase, in order</h3>
 
 Ockbrook Engineering buys $900,000 of new machinery and places it in service in 2026. Its taxable
@@ -140,7 +151,7 @@ have produced a smaller total, because bonus depreciation taken first would have
 IRC § 179 to be elected against.
 </div>
 
-<div class="scenario">
+<div class="scenario" data-type="boundary">
 <h3>Fifty-three thousand pounds of preparation</h3>
 
 Chetwode Foods spends $53,000 before opening: $31,000 on market research and site visits, $14,000
@@ -162,7 +173,7 @@ The dollar-for-dollar reduction bites only on the amount above $50,000, and reac
 $55,000.
 </div>
 
-<div class="scenario">
+<div class="scenario" data-type="interaction">
 <h3>Three depletion answers on similar facts</h3>
 
 Three businesses each have $100,000 of gross income from a property in the United States.
@@ -183,6 +194,37 @@ statutory rate never enters the computation.
 
 The same $100,000 of gross income produces three different regimes, and in one of them the
 percentage rate is a distractor.
+</div>
+
+<div class="scenario" data-type="fails">
+<h3>The equipment that came back around</h3>
+
+<p>A bakery sells its ovens to its owner's separate leasing company, leases them back for three
+years, and then buys them back from that company at the end of the lease at their stated residual
+value.</p>
+
+<p><em>Analysis.</em> No {gloss:bonus-depreciation} on the repurchase. {fig:depr.bonus_used}
+(IRC § 168(k)(2)(E)(i)) requires that the property not have been used by this taxpayer before, and
+that the acquisition not be from a related party or carry over its basis — this repurchase fails
+both conditions, since the bakery used the ovens all along and its own leasing company is related.
+The bakery simply continues taking ordinary {gloss:depreciation} on whatever basis carried over
+from the sale-leaseback; there is no extra first-year amount to claim.</p>
+</div>
+
+<div class="scenario" data-type="procedural">
+<h3>The election to skip bonus depreciation</h3>
+
+<p>A profitable manufacturer places $2,000,000 of five-year property in service in 2026. It could
+instead make a {gloss:section-179-deduction} election on part of it, but section 179 is capped by
+the business's taxable income while bonus depreciation is not, so for this class of property it
+decides to spread the cost over the regular schedule rather than take the full first-year bonus
+amount, to preserve deductions for a year it expects to need them more.</p>
+
+<p><em>Analysis.</em> IRC § 168(k)(7) lets a taxpayer elect out of bonus depreciation for a class of
+property, made by attaching a statement to a timely filed return, including extensions, for the
+year the property is placed in service. The election applies to every asset in that class placed
+in service that year, not one machine at a time, and once made can be revoked only with IRS
+consent.</p>
 </div>
 
 <div class="callout trap">

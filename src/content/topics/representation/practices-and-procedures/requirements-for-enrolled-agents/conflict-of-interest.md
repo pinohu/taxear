@@ -19,7 +19,18 @@ forms: []
 related: ["3.1.2.e", "3.1.2.f", "3.1.2.n", "3.1.1.a", "3.1.2.m", "3.1.2.h", "3.1.2.c", "3.1.2.d", "3.1.2.j"]
 changelog:
   - { date: "2026-08-18", summary: "Initial publication from Circular 230 § 10.29 as amended by T.D. 9359." }
+  - { date: "2026-08-25", summary: "Added a plain-language summary, a glossary mark, and typed scenarios." }
 ---
+
+<div class="plain-terms">
+This page explains when a tax practitioner cannot represent a client, because of a
+{gloss:conflict-of-interest}. It also explains how that block can sometimes be lifted. It
+affects any lawyer, CPA, or enrolled agent who serves more than one client, a past client,
+or has a stake of their own. A conflict exists any time helping one client could hurt
+another. It also exists any time some other loyalty could limit how hard the practitioner
+can fight for a client. Even then, the work can go on. But only if the practitioner can
+truly do right by everyone, the law allows it, and each client agrees in writing.
+</div>
 
 Circular 230 § 10.29 is a prohibition with an escape hatch, and the escape hatch has three conditions that must all be satisfied. The prohibition is easy to state; the examinable content is in what counts as a conflict, what the waiver requires, and how long the paper has to survive.
 
@@ -67,19 +78,19 @@ The consent must be **informed**, which means the client has been told what the 
 
 Note what the retention clock in § 10.29(c) is measured from. It is **not** 36 months from the consent, and **not** 36 months from the filing. It runs from the **conclusion of the representation of the affected clients**. A representation that runs for two years produces a consent that must be kept for those two years plus 36 more.
 
-<div class="scenario">
+<div class="scenario" data-type="fails">
 <h3>Two officers, one payroll liability</h3>
-<p>Beacon Fabrication fails to remit withheld employment taxes for four quarters. Revenue Officer Mendez proposes the § 6672 penalty against both Rosa Villareal, the president, and Dale Kimura, the controller. Both approach the same enrolled agent. Rosa's defence is that Dale controlled the disbursement calendar and decided which creditors were paid; Dale's defence is that Rosa set the priorities and told him to pay the equipment lessor first.</p>
+<p>Beacon Fabrication fails to remit withheld employment taxes for four quarters. Revenue Officer Mendez proposes the § 6672 penalty against both Rosa Villareal, the president, and Dale Kimura, the controller. Both approach the same {gloss:enrolled-agent}. Rosa's defence is that Dale controlled the disbursement calendar and decided which creditors were paid; Dale's defence is that Rosa set the priorities and told him to pay the equipment lessor first.</p>
 <p><em>Analysis.</em> This is § 10.29(a)(1) — directly adverse, in the same matter, on the same facts. Before asking anyone to sign anything, the practitioner must answer § 10.29(b)(1): can she provide competent and diligent representation to each of them? She cannot. Making Rosa's best argument requires making Dale responsible, and the reverse. The (b)(1) condition fails, the exception is unavailable, and the consents of both clients cannot rescue it. She takes one client and refers the other out.</p>
 </div>
 
-<div class="scenario">
+<div class="scenario" data-type="procedural">
 <h3>The employer pays the bill</h3>
 <p>Kestrel Logistics asks an enrolled agent to represent its warehouse manager, Tomas Fenn, in an examination of Tomas's individual return that turns on whether a $9,400 vehicle allowance Kestrel paid him was includible in income. Kestrel is paying the practitioner's fee and would prefer the answer be "no," because a yes reopens the same question for eleven other employees.</p>
 <p><em>Analysis.</em> Kestrel is a third person whose relationship with the practitioner creates a significant risk that Tomas's representation will be materially limited — § 10.29(a)(2). It is not directly adverse; Kestrel is not a party to Tomas's examination. But the risk is real and significant. Here (b)(1) can be satisfied: the practitioner can genuinely give Tomas competent, diligent representation, provided her advice is governed by Tomas's interest alone. She explains the arrangement to Tomas, obtains his informed consent, and confirms it in writing eleven days later — inside the 30-day cap of § 10.29(b)(3). She retains the confirmation for 36 months after the examination closes.</p>
 </div>
 
-<div class="scenario">
+<div class="scenario" data-type="interaction">
 <h3>The position the practitioner recommended</h3>
 <p>An enrolled agent advised Marguerite Osei in 2024 that a $61,000 payment to a related management company was deductible. The 2026 examination challenges exactly that deduction. Marguerite asks him to represent her.</p>
 <p><em>Analysis.</em> The practitioner's own interest — in the position being sustained, and in not being shown to have advised badly — is a personal interest creating a significant risk of material limitation under § 10.29(a)(2). The risk is concrete: conceding the issue and negotiating a favourable penalty outcome may well be Marguerite's best result, and the practitioner has a personal reason to prefer fighting it. He can satisfy (b)(1) only if he is genuinely able to recommend concession where concession is right. Assuming he is, he discloses the conflict, obtains informed consent, and confirms it in writing.</p>

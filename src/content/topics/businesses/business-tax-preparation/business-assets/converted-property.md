@@ -26,7 +26,18 @@ forms: []
 related: ["2.2.3.a", "2.2.3.b", "2.2.2.c", "2.2.2.k", "2.2.3.c", "2.2.3.e"]
 changelog:
   - { date: "2026-08-21", summary: "Initial draft. Sets out the Reg. § 1.167(g)-1 rule capping the depreciation basis of converted property at fair market value where that is lower, the Reg. § 1.165-9(b)(2) separate basis for determining loss on a later sale, the Reg. § 1.165-7(a)(5) parallel rule for a casualty, and the Reg. § 1.168(i)-4 treatment of a conversion in each direction — a fresh placed-in-service date on conversion to business use, and a deemed disposition without recapture on conversion to personal use." }
+  - { date: "2026-08-25", summary: "Added a plain-language summary, glossary marks, and two typed scenarios (boundary, fails) rounding the scenario set out to five types." }
 ---
+
+<div class="plain-terms">
+Property can switch between personal use and business use. Think of a home you turn into a
+rental. Or a tool you already own that you start using in a new business. This page covers both
+directions of that switch. It affects anyone who starts using an owned item for business, or who
+stops using a business item personally. It decides how big a yearly write-off you get. It also
+decides how much gain or loss counts if you later sell the item. Those two numbers are often not
+the same. If the item had already dropped in value before the switch, part of that drop may never
+count for tax at all. Going back to personal use puts off the tax bill. It does not erase it.
+</div>
 
 Property moved between personal and business use does not simply change columns. The direction of
 the move determines which rules apply, and a conversion into business use can leave a single asset
@@ -109,7 +120,7 @@ escaped it.
 Reg. § 1.165-7(b)(1) rule, so the loss is the lesser of the decline in value and a basis that is
 itself the lesser of two figures.
 
-<div class="scenario">
+<div class="scenario" data-type="baseline">
 <h3>The house that became a rental, and then sold</h3>
 
 An owner bought a house for $340,000 as a residence. When the market fell she converted it to a
@@ -134,7 +145,7 @@ The $80,000 of decline that happened while the house was her home is never deduc
 the whole point of the cap.
 </div>
 
-<div class="scenario">
+<div class="scenario" data-type="timing">
 <h3>The van that went home</h3>
 
 A contractor bought a van for $54,000 and expensed it in full under IRC § 179 in 2023. In 2026 he
@@ -153,10 +164,10 @@ property by the taxpayer at a later date." So when he sells the van for $14,000 
 {fig:disp.1245_recapture} (IRC § 1245(a)(1)) produces $14,000 of ordinary income against a nil
 basis — notwithstanding that by then it has been a family car for three years.
 
-The recapture followed the asset. It did not follow the use.
+The {gloss:recapture} followed the asset. It did not follow the use.
 </div>
 
-<div class="scenario">
+<div class="scenario" data-type="interaction">
 <h3>The equipment that came in from the cold</h3>
 
 A sole proprietor has owned a workshop machine personally for four years, having paid $18,000 for
@@ -178,6 +189,36 @@ satisfied.
 
 She therefore depreciates $11,000 over the ordinary recovery period, and the $7,000 of value the
 machine lost while she owned it privately is never recovered at all.
+</div>
+
+<div class="scenario" data-type="boundary">
+<h3>The van that hadn't lost any value</h3>
+
+A caterer bought a delivery van for personal errands three years ago for $28,000. She starts a
+catering business and begins using the van exclusively for deliveries. Because used vans are in
+short supply, its {gloss:fair-market-value} at conversion is $31,000 — more than she originally
+paid.
+
+{fig:conv.depreciation_basis} (Reg. § 1.167(g)-1) caps the depreciation basis at the lesser of
+adjusted basis and fair market value at conversion. Adjusted basis, at $28,000, is the lower number
+here, so the cap does not bite: the depreciation basis, the loss basis, and the gain basis are all
+$28,000. The three-way split described above only appears where value fell before the conversion;
+where it rose instead, as here, there is exactly one number to track.
+</div>
+
+<div class="scenario" data-type="fails">
+<h3>The fire that didn't produce the loss she expected</h3>
+
+A therapist paid $46,000 for a car she used personally, then began using it exclusively to visit
+clients when its fair market value had fallen to $34,000. Eighteen months later, after $10,000 of
+{gloss:depreciation}, a fire destroys it with no insurance recovery.
+
+She expects to deduct her real economic loss: $36,000 of remaining cost basis. {fig:conv.casualty_basis}
+(Reg. § 1.165-7(a)(5)) caps a casualty loss on converted property at the same lesser-of measure
+that caps depreciation — fair market value at conversion, adjusted for depreciation since, which
+here is $24,000, not the $36,000 adjusted cost basis. Her deduction is capped at $24,000. The
+$12,000 the car had already lost in value before she ever used it for business is not part of any
+casualty deduction, whatever the fire actually cost her.
 </div>
 
 <div class="callout trap">

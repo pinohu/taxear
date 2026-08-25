@@ -24,7 +24,25 @@ forms: []
 related: ["2.2.3.b", "2.2.3.a", "2.2.3.d", "2.2.2.c", "2.2.3.e", "2.2.4.h"]
 changelog:
   - { date: "2026-08-21", summary: "Initial draft. Covers IRC § 1031 from the business side: the confinement to real property by Pub. L. 115-97 § 13303 and what that means for a trade-in, the IRC § 1245(b)(4) ceiling on recapture in a deferred exchange, the Reg. § 1.168(i)-6 rule that the exchanged basis continues the relinquished property's recovery period while excess basis starts afresh, and the IRC § 1031(e) treatment of an interest in a partnership that has elected out of subchapter K." }
+  - { date: "2026-08-25", summary: "Added a plain-language summary, a timeline diagram of the identification and exchange clocks, glossary marks, and two typed scenarios (boundary, fails) rounding the scenario set out to five types." }
+diagram:
+  archetype: "timeline"
+  caption: "The two clocks in a real property exchange, both running from the day the old property transfers"
+  events:
+    - { when: "Day 0", what: "Relinquished property transfers to the other party" }
+    - { when: "Day 45", what: "Identification deadline — replacement property must be identified in writing" }
+    - { when: "Day 180 (or the return's due date, if earlier)", what: "Exchange period ends — replacement property must be received" }
 ---
+
+<div class="plain-terms">
+This page covers swapping one piece of business property for a similar one, instead of selling it
+for cash. It used to cover almost anything a business owns. Today it only covers land and
+buildings, held for business or as an investment. It decides whether a sale is taxed right away, or
+whether the tax gets pushed into the new property instead. Trading in a truck or a machine no
+longer counts at all. That kind of trade-in is just a normal taxable sale, followed by a normal
+purchase. For land and buildings, strict deadlines apply too. A business must name the new property
+fast, and close on it fast.
+</div>
 
 The individual side of this section is covered under Part 1. This page is about what changed for
 businesses in 2018 and what a business has to do afterwards: how a trade-in is now taxed, how
@@ -118,7 +136,7 @@ An ordinary partnership interest cannot.
 {fig:lke.related_party} (IRC § 1031(f)). The gain is not recognised at the time of the exchange but
 at the time of the later disposition, so it lands in a year the taxpayer may not have planned for.
 
-<div class="scenario">
+<div class="scenario" data-type="interaction">
 <h3>The trade-in, before and after</h3>
 
 A haulage company trades a five-year-old tractor unit against a new one. The dealer allows
@@ -130,9 +148,9 @@ new unit took a basis of nil plus the $142,000 of cash paid — $142,000. The $4
 deferred into the lower basis.
 
 **Under the current rule**, {fig:lke.personal_property_gone} — personal property is outside the
-section. The company disposes of the old unit for $48,000, and IRC § 1245(a)(1) makes the whole
-$48,000 ordinary income because adjusted basis is nil. It then buys the new unit for $190,000,
-which is its basis.
+section. The company disposes of the old unit for $48,000, and {gloss:recapture} under
+IRC § 1245(a)(1) makes the whole $48,000 ordinary income because adjusted basis is nil. It then
+buys the new unit for $190,000, which is its basis.
 
 The company is $48,000 of ordinary income worse off this year and $48,000 of basis better off. If
 it can expense or bonus-depreciate the new unit in full, the two cancel in the same year and the
@@ -141,10 +159,11 @@ the unit is not eligible — the income lands now and the deduction arrives over
 period.
 </div>
 
-<div class="scenario">
+<div class="scenario" data-type="baseline">
 <h3>The building that kept its old clock</h3>
 
-A company exchanges a warehouse for a distribution centre. The warehouse cost $2,000,000, was
+A company exchanges a warehouse for a distribution centre in a {gloss:like-kind-exchange}. The
+warehouse cost $2,000,000, was
 placed in service ten years ago, and has $512,000 of accumulated depreciation, so its adjusted
 basis is $1,488,000. The distribution centre is worth $2,600,000 and the company pays $600,000 in
 cash to balance the exchange.
@@ -164,12 +183,12 @@ only permissible methods of accounting" for property within its scope, unless th
 out under paragraph (i).
 </div>
 
-<div class="scenario">
+<div class="scenario" data-type="timing">
 <h3>Recapture that waited</h3>
 
 A manufacturer exchanges a factory with $340,000 of accumulated depreciation for a similar
-building, receiving $80,000 of cash to balance. Its adjusted basis in the old factory is $610,000
-and the new building is worth $900,000.
+building, receiving $80,000 of {gloss:boot} to balance. Its adjusted basis in the old factory is
+$610,000 and the new building is worth $900,000.
 
 Realised gain is $900,000 plus $80,000 less $610,000, or $370,000. {fig:lke.boot}
 (IRC § 1031(b)) recognises gain to the extent of the boot — $80,000.
@@ -185,6 +204,35 @@ What is deferred is not forgiven. The replacement building takes a basis of $610
 $80,000 cash plus the $80,000 recognised — $610,000 — against a value of $900,000, and the whole
 $290,000 surfaces on a later taxable sale, with the depreciation history carried along by
 Reg. § 1.168(i)-6.
+</div>
+
+<div class="scenario" data-type="boundary">
+<h3>Identified on day 46</h3>
+
+A retailer relinquishes an older store building on 1 March. Her broker identifies a replacement
+property in writing and delivers the notice to the qualified intermediary on day 46 after the
+transfer — one day past the window.
+
+{fig:lke.identification_period} (IRC § 1031(a)(3)(A)) sets the identification period at a fixed
+number of days after the transfer of the relinquished property, and the deadline does not bend for
+a one-day miss, a weekend, or a broker's error. Nothing identified within the period means no
+exchange: the transaction becomes an ordinary taxable sale of the old building instead. Missing
+the deadline by one day has exactly the same consequence as never identifying anything at all.
+</div>
+
+<div class="scenario" data-type="fails">
+<h3>The exchange undone by an early sale</h3>
+
+A landowner exchanges a parcel of farmland with her brother, a related person, for a similar
+parcel he owns. Fourteen months later, needing cash, he sells the parcel he received to an
+unrelated buyer.
+
+{fig:lke.related_party} (IRC § 1031(f)) does not stop the original exchange; it revisits it if
+either related party disposes of the exchanged property within two years. Her brother's sale falls
+at month fourteen, inside that window, so the exchange fails to hold: both siblings' original
+nonrecognition is undone, and gain or loss is recognised as of the date of his disposition — not
+restated back to the original exchange date, but recognised now, in a year neither of them was
+planning for.
 </div>
 
 <div class="callout trap">

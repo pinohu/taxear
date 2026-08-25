@@ -22,7 +22,18 @@ forms: []
 related: ["2.1.5.c", "2.1.5.e", "2.1.5.h", "2.1.5.f", "2.1.3.c", "2.1.5.g"]
 changelog:
   - { date: "2026-08-21", summary: "Initial draft. Sets out IRC § 1368(a) to (e) — the basis-recovery rule where the corporation has no accumulated earnings and profits, the three-tier ordering where it has them, the accumulated adjustments account and its net negative adjustment rule, the proration of the account among distributions, and the election to distribute earnings first — with the Reg. § 1.1368-2(a)(5) ordering of adjustments to the account and the Reg. § 1.1368-1(f) elections, and IRC § 1371(c) and (e) on earnings and profits and post-termination distributions." }
+  - { date: "2026-08-25", summary: "Added a plain-language summary, glossary marks, and a typed scenario showing a distribution one dollar over the account balance crossing into dividend treatment." }
 ---
+
+<div class="plain-terms">
+This page covers what happens when an S corporation pays money or property to its owners.
+Most of the time, a payout is simply tax-free. It is just the owner getting back money already
+put in, or already taxed once. Things get harder when the company used to be a plain C
+corporation, or absorbed one, and still carries old profits that were never taxed. It matters
+to owners and advisors of S corporations with that kind of history. It matters less to a
+company that has always been an S corporation. The page sets how much of a payout is tax-free,
+how much counts as a taxable dividend, and the order those two buckets are drawn down in.
+</div>
 
 The default treatment is simple: a distribution comes out of money the shareholder has already
 been taxed on, so it is a recovery of basis and nothing more. The complexity arrives only where
@@ -119,7 +130,7 @@ election. The deemed dividend does the same thing without moving cash:
 distribution of **money** qualifies — property distributed in the post-termination transition
 period is an ordinary C corporation distribution under IRC § 301.
 
-<div class="scenario">
+<div class="scenario" data-type="baseline">
 <h3>The corporation that was never a C corporation</h3>
 
 Fennimore Acoustics Inc. has been an S corporation since it was organised. Its sole shareholder
@@ -137,7 +148,7 @@ ends at zero. No part of the distribution is a dividend, and the word does not a
 analysis.
 </div>
 
-<div class="scenario">
+<div class="scenario" data-type="interaction">
 <h3>The old C corporation, and a loss year</h3>
 
 Thackeray Millwork Inc. converted from C to S status in 2019 and carries $200,000 of accumulated
@@ -162,7 +173,7 @@ $100,000 rather than $30,000 would have been a dividend. The net negative adjust
 worth $70,000 of ordinary dividend income here.
 </div>
 
-<div class="scenario">
+<div class="scenario" data-type="timing">
 <h3>Two distributions, one account</h3>
 
 Osgood Reprographics Inc. has accumulated earnings and profits and an accumulated adjustments
@@ -177,6 +188,23 @@ March distribution and $48,000 to the November one.
 Each shareholder therefore has $12,000 of the March distribution and $48,000 of the November one
 treated under IRC § 1368(b), and the balance of each treated as a dividend to the extent of the
 accumulated earnings and profits. The timing of the payments changes nothing.
+</div>
+
+<div class="scenario" data-type="boundary">
+<h3>The dollar that turned into a dividend</h3>
+
+Halloway Millworks Inc. carries accumulated {gloss:earnings-and-profits} from years as a
+{gloss:c-corporation} and has an accumulated adjustments account of $18,000 at the close of the
+year. It distributes exactly $18,000 in one payment. Down the hall, its sister company Halloway
+Fixtures Inc. has the identical $18,000 account balance and the identical earnings and profits
+history, but distributes $18,001.
+
+Halloway Millworks' distribution is entirely tier one under {fig:sc.aaa_ordering}
+(IRC § 1368(c)) — a basis recovery and gain measured the same way as if there were no
+accumulated earnings and profits at all, because the whole payment is absorbed by the account
+with nothing left over. Halloway Fixtures crosses the line by one dollar: the first $18,000
+goes through tier one, and the remaining dollar goes through tier two, a dividend under
+IRC § 1368(c)(2), taxed in full. The account does not round, and neither does the statute.
 </div>
 
 <div class="callout trap">

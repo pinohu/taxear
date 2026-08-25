@@ -18,9 +18,19 @@ forms: []
 related: ["3.1.2.f", "3.1.2.c", "3.1.3.b", "3.1.1.a", "3.1.2.i", "3.1.2.k"]
 changelog:
   - { date: "2026-08-18", summary: "Initial publication from Circular 230 § 10.36 as issued by T.D. 9668." }
+  - { date: "2026-08-25", summary: "Added a plain-language summary, glossary marks, and typed scenarios." }
 ---
 
-Circular 230 § 10.36 is the only section in Part 10 that sanctions a practitioner for what **other people** in the firm did. It is short — one duty, three grounds of discipline — but the grounds are structured with care, and the pieces that make each one work are what the exam tests.
+<div class="plain-terms">
+This page is about who at a tax firm answers for what other staff do wrong. Whoever runs the
+firm's tax practice must take real steps to make sure everyone follows the rules. This affects
+the partner, owner, or manager in charge — not every staff member, and not a firm where
+nothing has gone wrong more than once. It does not punish an honest mistake by one person.
+What it decides is when the person in charge can be disciplined: for having no real system,
+for letting a good system go unused, or for knowing about a problem and not fixing it fast.
+</div>
+
+{gloss:circular-230} § 10.36 is the only section in Part 10 that sanctions a practitioner for what **other people** in the firm did. It is short — one duty, three grounds of discipline — but the grounds are structured with care, and the pieces that make each one work are what the exam tests.
 
 ## The rule
 
@@ -68,25 +78,25 @@ The IRS's residual power to designate is a real enforcement tool. Where a firm h
 
 Finally, place § 10.36 against the sections around it. **§ 10.22(b)** presumes a practitioner exercised diligence when relying on another's work, provided reasonable care was used in **engaging, supervising, training and evaluating** that person — the individual-level counterpart. **§ 10.36** operates at the firm level and asks whether **procedures** exist and work. And § 10.36 is one of the four sections named in **§ 10.52(a)(2)**, so a violation is sanctionable on **recklessness or gross incompetence** without any showing of wilfulness — consistent with the mental states written into § 10.36(b) itself.
 
-<div class="scenario">
+<div class="scenario" data-type="baseline">
 <h3>No procedures at all</h3>
 <p>A firm's managing tax principal has never adopted written procedures for due-diligence documentation on refundable credits. Over two seasons, four of the firm's seven preparers routinely file returns claiming the earned income credit without completing or retaining Form 8867 checklists. He has been told twice that the firm has no process and has done nothing.</p>
 <p><em>Analysis.</em> Section 10.36(b)(1). He has principal authority; the firm has no adequate procedures for complying with subpart B; and four preparers over two seasons is a pattern or practice of failing to comply. Having been told twice and done nothing supplies at least recklessness. The absence of any single catastrophic return is beside the point — the section targets the system.</p>
 </div>
 
-<div class="scenario">
+<div class="scenario" data-type="boundary">
 <h3>Procedures on the shelf</h3>
-<p>A different firm has a detailed compliance manual covering conflicts, records retention and due diligence. Nobody has been trained on it, no reviews are performed, and the principal has never asked whether it is used. Six staff members have been signing conflict waivers after the engagement concludes rather than within 30 days.</p>
+<p>A different firm has a detailed compliance manual covering conflicts, records retention and {gloss:due-diligence}. Nobody has been trained on it, no reviews are performed, and the principal has never asked whether it is used. Six staff members have been signing conflict waivers after the engagement concludes rather than within 30 days.</p>
 <p><em>Analysis.</em> Section 10.36(b)(2). Adequate procedures exist on paper, so (b)(1) is not the ground; the failure is that the principal took no reasonable steps to ensure they were <em>properly followed</em>. Six staff members systematically mishandling the § 10.29(b)(3) confirmation deadline is a pattern or practice. Never asking whether the manual is used is capable of amounting to recklessness or gross incompetence.</p>
 </div>
 
-<div class="scenario">
+<div class="scenario" data-type="timing">
 <h3>Told, and slow to act</h3>
 <p>A firm principal receives a memorandum in March from her quality reviewer documenting that two preparers have been routing client refunds through a firm-controlled account. She reads it, decides to address it after the filing season, and takes no step until August.</p>
 <p><em>Analysis.</em> Section 10.36(b)(3). She knew — actual knowledge from the memorandum — of a pattern of noncompliance with Circular 230 § 10.31. The breach is the failure to take <em>prompt</em> action to correct it, and deferring for five months for the firm's own convenience is capable of being reckless. Note that (b)(1) and (b)(2) might fail here if the firm's procedures were adequate and generally followed; (b)(3) is an independent ground.</p>
 </div>
 
-<div class="scenario">
+<div class="scenario" data-type="procedural">
 <h3>Nobody was named</h3>
 <p>A four-partner firm has never designated anyone as responsible for Circular 230 compliance. Each partner assumes another handles it. The IRS identifies a pattern of unsigned returns across the firm.</p>
 <p><em>Analysis.</em> The absence of a designation does not defeat § 10.36. Section 10.36(a) provides that in the absence of a person identified by the firm as having principal authority, the IRS may identify one or more individuals subject to Part 10 as responsible for compliance with the section. Whether any of them is ultimately disciplined still turns on the § 10.36(b) elements — mental state and pattern or practice — but the duty attaches.</p>

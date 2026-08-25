@@ -26,7 +26,24 @@ forms: []
 related: ["2.1.1.a", "2.1.1.d", "2.1.1.h", "2.1.1.c", "2.1.1.f", "2.2.1.a", "2.2.2.j"]
 changelog:
   - { date: "2026-08-21", summary: "Initial draft. Sets out the IRC § 6041(a) information-at-source threshold as raised by Pub. L. 119-21 § 70433(a) for payments made after 31 December 2025 and indexed by the new § 6041(h), the § 6041A(a) cross-reference that ties nonemployee compensation to the same figure, the § 6050W(e) 1099-K thresholds restored by Pub. L. 119-21 § 70432 as if included in the 2021 Act, the § 6051(a) employee statement and the § 6071(b) and (c) filing dates, the Reg. § 301.6011-2(c) 10-return electronic filing threshold, the § 6050I cash reporting return and its 15-day filing and January statement deadlines, and the § 6721 and § 6722 penalties at the amounts applying to returns and statements required in 2027." }
+  - { date: "2026-08-25", summary: "Added a plain-language summary, a decision diagram of the 1099-K dual test, glossary marks, and typed scenarios." }
+diagram:
+  archetype: "decision"
+  caption: "Does a third party settlement organization have to file a Form 1099-K for a payee?"
+  tests:
+    - { test: "Do payments to the payee exceed the dollar threshold?", result: "Meeting only this one does not trigger reporting — both tests must be exceeded", outcome: "pass" }
+    - { test: "Does the transaction count exceed 200?", result: "If either test fails, no Form 1099-K is required — but the payee's income stays fully taxable either way", outcome: "pass" }
 ---
+
+<div class="plain-terms">
+A business often has to tell the IRS about money it pays to other people, using forms like the 1099
+series. This page covers when those forms are required, when they are due, and what happens if a
+business skips one. Two of the dollar limits for these forms changed not long ago. Both changes
+affect the 2026 tax year. This matters to any business that pays contractors, sells through an online
+marketplace, or takes large cash payments. It does not change whether the person who got the money owes
+tax on it. That is always true, whether or not a form was filed. It only changes who has to send the
+IRS a form.
+</div>
 
 Information reporting is the part of business tax practice where the rules changed most recently and where
 the profession's memory is most stubborn. Two thresholds moved in 2025 and both first operate for the 2026
@@ -125,9 +142,10 @@ return.
 
 ## Scenarios
 
-<div class="scenario">
+<div class="scenario" data-type="boundary">
 <h3>The contractor payments that no longer need reporting</h3>
-<p>A landscaping company paid eleven individual subcontractors during 2026. Seven were paid between $700
+<p>A landscaping company paid eleven individual subcontractors — each an {gloss:independent-contractor}
+rather than an employee — during 2026. Seven were paid between $700
 and $1,400 each; four were paid more than $4,000 each. The bookkeeper's checklist, written in 2019,
 says to issue a Form 1099-NEC to anyone paid $600 or more, so she prepares eleven.</p>
 <p>Four are required and seven are not. IRC § 6041A(a)(2) requires the return where the aggregate paid for
@@ -138,7 +156,7 @@ and it produces payee statements that the recipients will reconcile against retu
 checklist is the thing to fix, and it should record that the figure is indexed rather than fixed.</p>
 </div>
 
-<div class="scenario">
+<div class="scenario" data-type="interaction">
 <h3>The marketplace seller who expected a form</h3>
 <p>Kwabena sold handmade instruments through an online marketplace during 2026, receiving $46,000 across
 nine transactions. No Form 1099-K arrives. He tells his preparer that because the platform reported
@@ -151,7 +169,7 @@ gross receipts from a trade or business, reportable on Schedule C whether or not
 Service about it.</p>
 </div>
 
-<div class="scenario">
+<div class="scenario" data-type="procedural">
 <h3>The car dealer and two dates</h3>
 <p>A dealership sells a vehicle on 3 March 2026 and receives $12,400 in cash across three payments made on
 that day. The controller correctly identifies the transaction as reportable and asks when the paperwork is
@@ -164,9 +182,9 @@ for both, will miss one of them. Note also that intentional disregard on a Form 
 penalty scale, well above the one for an ordinary information return, and with no annual cap.</p>
 </div>
 
-<div class="scenario">
+<div class="scenario" data-type="timing">
 <h3>The corrected forms that arrived in two waves</h3>
-<p>A staffing agency with average annual gross receipts of about $3 million files 240 information returns
+<p>A staffing agency with average annual {gloss:gross-receipts} of about $3 million files 240 information returns
 for the 2026 calendar year. In February 2027 it discovers that 40 carry an incorrect taxpayer
 identification number, and it corrects those within three weeks of the filing deadline. In June 2027 it
 discovers 25 more and corrects those on 20 July 2027.</p>

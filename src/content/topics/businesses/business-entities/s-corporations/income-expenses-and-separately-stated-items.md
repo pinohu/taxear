@@ -29,7 +29,18 @@ forms: []
 related: ["2.1.5.a", "2.1.5.b", "2.1.5.d", "2.1.5.e", "2.1.2.a", "2.1.5.f", "2.1.5.g", "2.1.5.h", "2.2.2.a", "2.2.4.f"]
 changelog:
   - { date: "2026-08-21", summary: "Initial draft. Sets out IRC § 1363(a) and (b) on the corporation's own computation, the deductions denied to it through IRC § 703(a)(2), the IRC § 1366(a) split between separately stated and nonseparately computed items with the character and gross-income rules of § 1366(b) and (c), the working list in Reg. § 1.1366-1(a)(2), the per-day allocation and terminating election of IRC § 1377(a), and the IRC § 1372 fringe benefit rule. Records the general amendment of IRC § 68 by Pub. L. 119-21 § 70111, which first operates in taxable years beginning after 31 December 2025." }
+  - { date: "2026-08-25", summary: "Added a plain-language summary, glossary marks, and two typed scenarios (fails, interaction) so all five scenarios carry distinct types." }
 ---
+
+<div class="plain-terms">
+This page is about how an S corporation reports its yearly results to its owners. The
+corporation itself pays no income tax. Instead, it sorts its income and expenses into pieces and
+hands each owner their share. Most pieces get combined into one ordinary profit number. A few
+pieces travel on their own, because each owner applies a different limit or a different tax rate
+to them, such as gifts to charity or gains on investments. This page decides which pieces stay
+together and which ones split out, and how a share gets split between owners when someone buys in
+or sells out partway through the year.
+</div>
 
 An S corporation computes one year of trading and hands it to its shareholders in pieces. Almost
 every question here is a sorting question: does this item travel on its own, or disappear into a
@@ -129,7 +140,7 @@ can still qualify (IRC § 318(a)(1)(A)).
 (IRC § 1366(f)(2), (f)(3)) — each surviving tax is fed back into the allocation so shareholders
 bear it once, not twice.
 
-<div class="scenario">
+<div class="scenario" data-type="baseline">
 <h3>A single year, sorted into its pieces</h3>
 
 Harborlight Rigging Inc., a calendar-year S corporation with two equal shareholders, has gross
@@ -145,10 +156,10 @@ The capital gain is separated because the shareholder's own rate will apply; eac
 The charitable gift is denied to the corporation by IRC § 1363(b)(2) and separated by the flush
 sentence of IRC § 1366(a)(1); each takes $4,500 and applies their own ceiling. The bond interest
 is tax-exempt income within {fig:sc.tax_exempt_defined}; each takes $650 and increases stock
-basis by it. The Schedule K-1 is the sorting, not a summary of it.
+basis by it. The {gloss:schedule-k-1} is the sorting, not a summary of it.
 </div>
 
-<div class="scenario">
+<div class="scenario" data-type="procedural">
 <h3>The shareholder who leaves in June</h3>
 
 Delacroix Survey Co. has three equal shareholders. On 30 June one of them sells her entire
@@ -168,7 +179,7 @@ the loss. The two answers differ by $35,000 and by their sign. Note who must agr
 shareholder here — but the corporation's agreement is still required.
 </div>
 
-<div class="scenario">
+<div class="scenario" data-type="boundary">
 <h3>The premium that is not a fringe benefit</h3>
 
 Ostrander Design Inc. pays the health insurance premiums of all fourteen of its employees. One
@@ -185,6 +196,35 @@ The daughter is the trap. She owns no stock, but IRC § 1372(b) applies IRC § 3
 IRC § 318(a)(1)(A) attributes a parent's stock to a child. She is a 2-percent shareholder, treated
 exactly as the 3-percent owner is. Nothing on the payroll record signals this; only the ownership
 chart does.
+</div>
+
+<div class="scenario" data-type="fails">
+<h3>The redemption that widened who had to agree</h3>
+<p>An S corporation with four equal shareholders redeems (buys back) one shareholder's entire stake on 1
+September, funded by a business loan. The three remaining shareholders want to close the books as of
+1 September under IRC § 1377(a)(2), so that a loss incurred after the redemption lands on the continuing
+owners rather than on the shareholder who left. One of the three continuing shareholders declines to sign
+the consent.</p>
+<p>The election is not made. Because the transfer is to the corporation itself rather than to an outside
+buyer, {fig:sc.affected_shareholders} reaches every shareholder, not just the one who sold — a wider group
+than in an ordinary sale between existing owners. Without all four signatures, IRC § 1377(a)(2) is
+unavailable, and the year's results fall back to the default of {fig:sc.per_day}: the departing shareholder
+is charged with her per-day, per-share portion of the loss regardless of when in the year it actually
+arose.</p>
+</div>
+
+<div class="scenario" data-type="interaction">
+<h3>Two returns, one dollar limit</h3>
+<p>An S corporation shareholder also runs her own separate sole proprietorship. In the same year, her
+proprietorship buys $500,000 of qualifying equipment, and her S corporation makes a
+{gloss:section-179-deduction} covering its own equipment, passing her a $250,000 share on her
+Schedule K-1.</p>
+<p>She cannot simply add the two together and deduct $750,000. {fig:sc.aggregate_for_limits}
+(Reg. § 1.1366-1(a)(5)(i)) requires her to combine her own $500,000 with the $250,000 that passed through
+from the corporation and apply the single annual dollar ceiling to that combined total on her own return —
+even though the corporation already tested its own $250,000 against the limit before passing it out. The
+corporation's computation and her computation are not independent; the ceiling is hers alone to apply,
+once, across everything she owns.</p>
 </div>
 
 <div class="callout trap">
@@ -207,7 +247,7 @@ return, one taxable year: the statute applies the per-day rule to the affected s
 <em>as if</em> the year consisted of two. Anything turning on the corporation's own taxable year
 — its due date, its accounting period — is untouched.</p>
 
-<p><strong>A separately stated item is not necessarily a deductible one.</strong> Items to which
+<p><strong>A {gloss:separately-stated-item} is not necessarily a deductible one.</strong> Items to which
 IRC § 67 applies still pass through and still appear on the Schedule K-1; what happens next is a
 question for the shareholder's return, where {fig:misc.suspension}.</p>
 </div>

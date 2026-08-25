@@ -19,7 +19,26 @@ forms: []
 related: ["1.2.3.a", "1.2.3.c", "1.2.3.f", "1.2.3.g", "1.2.3.b"]
 changelog:
   - { date: "2026-08-19", summary: "Initial draft. Sets out IRC § 1031(a)(1) as confined to real property by Pub. L. 115-97 § 13303(a), the § 1031(a)(3) identification and exchange periods with the return due date as an alternative cutoff, the Treas. Reg. § 1.1031(k)-1(c)(4) identification limits, the § 1031(b), (c) treatment of boot and the § 1031(d) basis rule including assumed liabilities, and the § 1031(f) related person and § 1031(h) foreign property rules." }
+  - { date: "2026-08-25", summary: "Added a plain-language summary, a timeline diagram of the identification and exchange deadlines, glossary marks, and two typed scenarios (fails, procedural) rounding out the scenario taxonomy." }
+diagram:
+  archetype: "timeline"
+  caption: "The two clocks that start when the relinquished property is transferred"
+  events:
+    - { when: "Day 0", what: "Relinquished property is transferred — both clocks start running" }
+    - { when: "Day 45", what: "Deadline to identify replacement property in writing" }
+    - { when: "Day 180, or the transferor's return due date with extensions — whichever is earlier", what: "Deadline to receive the replacement property" }
 ---
+
+<div class="plain-terms">
+This page is about trading one piece of real estate for another, instead of selling it for cash.
+Done right, the swap lets an owner put off paying tax on the gain. Their money simply moves into a
+new property instead. It only works for real estate held for business or investment. It does not
+work for a home you live in. It does not work for things like trucks or equipment anymore. Strict
+deadlines apply. The new property must be picked out fast, and the deal must close within a set
+window after that. Getting cash back, or having debt reduced, can still create a tax bill even when
+the rest of the trade works. This mainly matters to real estate investors and business owners, not
+typical homeowners.
+</div>
 
 Two things about § 1031 are commonly stated as they were before 2018. It is no longer available for
 anything but **real property** — equipment, vehicles, artwork and cryptocurrency all left the section
@@ -110,7 +129,7 @@ extent of the recapture potential before it is anything else.
 And check the parties. An exchange with a related person is not prohibited, but it is conditional for two
 years, and the condition is broken by either side disposing of what they received.
 
-<div class="scenario">
+<div class="scenario" data-type="boundary">
 <h3>Scenario 1 — the November closing that ran out of days</h3>
 
 Hafsa transfers a rental building on 12 November 2026 and identifies a replacement on 20 December 2026,
@@ -122,29 +141,54 @@ is not like-kind property and the whole exchange fails. Filing Form 4868 to exte
 the cutoff past day 180 and saves the exchange — an extension filed for no other reason.
 </div>
 
-<div class="scenario">
+<div class="scenario" data-type="baseline">
 <h3>Scenario 2 — no cash, and a taxable event anyway</h3>
 
 Idris exchanges an apartment building with a basis of 300,000 dollars, a value of 900,000 dollars and a
 500,000-dollar mortgage, for a building worth 400,000 dollars with no debt. He receives no cash.
 
 The other party's assumption of his 500,000-dollar mortgage is treated as money received under the closing
-sentence of IRC § 1031(d). His realised gain is 600,000 dollars; his boot is 500,000 dollars; § 1031(b)
-recognises gain equal to the lesser, so 500,000 dollars is taxable. His basis in the new building is
-300,000 less 500,000 of money received plus 500,000 of gain recognised, or 300,000 dollars. He paid tax on
-half a million dollars in a transaction in which no money changed hands.
+sentence of IRC § 1031(d). His realised gain is 600,000 dollars; his {gloss:boot} is 500,000 dollars;
+§ 1031(b) recognises gain equal to the lesser, so 500,000 dollars is taxable. His basis in the new building
+is 300,000 less 500,000 of money received plus 500,000 of gain recognised, or 300,000 dollars. He paid tax
+on half a million dollars in a transaction in which no money changed hands.
 </div>
 
-<div class="scenario">
+<div class="scenario" data-type="timing">
 <h3>Scenario 3 — the swap with a sibling, unwound</h3>
 
-Jae exchanges investment land with his sister in March 2026, each deferring gain. In September 2027 she
-sells the land she received to an unrelated buyer.
+Jae exchanges investment land with his sister — a {gloss:related-party} — in March 2026, each deferring
+gain. In September 2027 she sells the land she received to an unrelated buyer.
 
 The disposition falls within the 2-year period in IRC § 1031(f)(1)(C), so the nonrecognition is undone.
 Jae's deferred gain from the 2026 exchange is taken into account in **2027**, the year of his sister's
 disposition — not in 2026, and not by amending. His own continued holding of the land he received does not
 protect him: the paragraph is triggered by either party disposing.
+</div>
+
+<div class="scenario" data-type="fails">
+<h3>Scenario 4 — the equipment swap that isn't a like-kind exchange anymore</h3>
+
+A business owner trades an old delivery truck for a newer one of the same type, planning to defer the gain
+the way an equipment trade would have before 2018.
+
+IRC § 1031(a)(1) has applied only to **real property** since Pub. L. 115-97 § 13303(a) rewrote it. A truck
+is personal property, not real property, so the trade does not qualify at all — there is no partial relief
+and no fallback. The full gain on the old truck is recognised in the year of the trade, exactly as if it
+had been sold for cash and a replacement truck bought separately.
+</div>
+
+<div class="scenario" data-type="procedural">
+<h3>Scenario 5 — naming the replacement property in writing</h3>
+
+A taxpayer transfers relinquished land on day 0. Within the 45-day window, her intermediary sends a signed
+letter identifying three specific parcels by legal description, with no statement about their value.
+
+Treas. Reg. § 1.1031(k)-1(c)(3) requires an unambiguous written description — a legal description or street
+address is enough — and identifying three properties satisfies the three-property rule under
+§ 1.1031(k)-1(c)(4)(i)(A) regardless of their combined {gloss:fair-market-value}. She could identify a
+fourth property only by keeping the combined value of everything identified within 200 percent of what she
+gave up, or by actually receiving enough of what she named.
 </div>
 
 <div class="callout trap">

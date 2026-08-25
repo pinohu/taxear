@@ -19,7 +19,23 @@ forms: []
 related: ["1.2.2.l", "1.2.4.b", "1.5.1.d", "1.5.1.c", "1.5.1.j"]
 changelog:
   - { date: "2026-08-19", summary: "Initial draft. Sets out the IRC § 401(a)(9)(C) required beginning date with the two applicable ages and the exceptions to the retirement limb, the § 408(d)(8) qualified charitable distribution with its 2026 limits and the deduction offset, the § 219(g) deduction phase-outs from Notice 2025-67, and the spousal-only rollover rule for inherited accounts." }
+  - { date: "2026-08-25", summary: "Added a plain-language summary, a decision diagram of the spousal-rollover rule, glossary marks, and three additional typed scenarios (baseline, boundary, timing) alongside the existing three." }
+diagram:
+  archetype: "decision"
+  caption: "Who can roll over an inherited retirement account"
+  tests:
+    - { test: "Is the beneficiary the account owner's surviving spouse?", result: "May treat the account as their own, or roll it into their own IRA", outcome: "pass" }
+    - { test: "Anyone else — a child, other relative, friend, trust, or estate", result: "Must take the account as an inherited account; no rollover", outcome: "fail" }
 ---
+
+<div class="plain-terms">
+This page is about the choices that matter most when someone owns a retirement account. It
+affects anyone with a 401(k), an IRA, or a similar account, and the people who will one day
+inherit one. It does not cover which funds to buy inside the account. It covers when money must
+start coming out. It covers who can inherit the account and what they may do with it. It covers
+whether giving to charity straight from the account beats writing a cheque. And it covers whether
+a contribution can be deducted at all.
+</div>
 
 Most of the value in retirement advice sits in four decisions, and none of them is about which fund to
 buy. When distributions have to start. Who is named as beneficiary. Whether charitable giving should
@@ -93,19 +109,57 @@ answers it. A client whose spouse is covered but who is not has a much higher th
 the excludable charitable amount by cumulative post-70½ deductible contributions, and it is cumulative
 across years — it does not reset.
 
-<div class="scenario">
+<div class="scenario" data-type="baseline">
+<h3>The plan working as intended</h3>
+
+Frank turns 73 this year. He has one traditional IRA, no employer plan, and no complicating facts.
+
+He must take his first {gloss:required-minimum-distribution} for the year he turns 73, with a deadline
+of 1 April of the following year if he wants to delay the first payment, and by 31 December of each year
+after that. Nothing about his situation invokes the still-working exception or the 5-percent-owner rule
+— those only matter for an employer plan — and nothing here is contestable. This is the required
+beginning date working exactly as the statute describes it.
+</div>
+
+<div class="scenario" data-type="fails">
 <h3>The nephew who cannot roll over</h3>
 
 An unmarried taxpayer dies at 45 leaving a $45,000 traditional IRA to a nephew.
 
 The nephew may take the balance as a lump sum, over a period of years under the applicable rules, or as
-an annuity where the account permits. What he cannot do is roll it into an IRA of his own. Only a
-surviving spouse may treat an inherited account as their own or roll it over; every other beneficiary
-takes it as an inherited account and must distribute it under § 401(a)(9)(B). A rollover attempted by a
-non-spouse is a taxable distribution of the whole balance.
+an annuity where the account permits. What he cannot do is treat it as his own through a {gloss:rollover}.
+Only a surviving spouse may treat an inherited account as their own or roll it over; every other
+beneficiary takes it as an inherited account and must distribute it under § 401(a)(9)(B). A rollover
+attempted by a non-spouse is a taxable distribution of the whole balance.
 </div>
 
-<div class="scenario">
+<div class="scenario" data-type="boundary">
+<h3>The ownership stake that crossed the line</h3>
+
+Priya has worked for the same company for years, owns 4.5 percent of it, and has been deferring required
+distributions from its 401(k) under the still-working exception. This year a further grant of stock
+takes her ownership to 5.2 percent.
+
+The exception no longer applies once ownership exceeds 5 percent. Section 401(a)(9)(C)(ii) denies the
+still-working deferral to a 5-percent owner, and for a 5-percent owner the required beginning date is
+fixed by the applicable age regardless of retirement date. A little over one percentage point of stock is
+the entire difference between deferring and not.
+</div>
+
+<div class="scenario" data-type="timing">
+<h3>The retirement date that moved the deadline</h3>
+
+David turns 74 this year, is not a 5-percent owner, and is still working for the employer that sponsors
+his 401(k).
+
+If he retires this December, the "later of" rule in § 401(a)(9)(C)(i) sets his required beginning date at
+1 April of next year. If he instead keeps working through next year and retires the following January,
+the same still-working exception pushes his required beginning date out by an entire additional year.
+Nothing about his account or his age changes between the two paths — only the date he stops working
+does, and that date alone decides which 1 April applies.
+</div>
+
+<div class="scenario" data-type="procedural">
 <h3>The cheque that should have been a distribution</h3>
 
 Miriam is 74, takes a required distribution of $40,000, and separately writes $15,000 of cheques to her
@@ -119,7 +173,7 @@ in turn have reduced the taxable portion of her social security. The gift was th
 her several thousand dollars.
 </div>
 
-<div class="scenario">
+<div class="scenario" data-type="interaction">
 <h3>The contribution that ate the exclusion</h3>
 
 Olu is 76, still consults part-time, and has deducted a $7,000 IRA contribution in each of the last four

@@ -27,7 +27,17 @@ forms: []
 related: ["2.2.4.a", "2.2.4.b", "2.2.4.g", "2.2.4.e", "2.2.4.i", "2.2.4.d", "2.2.4.f", "2.2.4.h"]
 changelog:
   - { date: "2026-08-21", summary: "Initial draft. Sets out the IRM 4.10.3.10.1 accounting equation and definitions, the Schedule L requirement that the balance sheet agree with the books and the under-$250,000 exception, the IRM 4.10.3.10.2 first step of determining whether a balance sheet is tax based or book based with its three proofs, the IRM 4.10.3.10.3 criteria for selecting accounts, and the depreciation roll-forward and liability-account techniques that find omitted income and omitted Schedule M-1 items." }
+  - { date: "2026-08-25", summary: "Added a plain-language summary, glossary marks, and typed the existing scenarios." }
 ---
+
+<div class="plain-terms">
+A balance sheet is a snapshot of what a business owns and owes on one day. It always balances. What
+the business owns equals what it owes to others, plus what belongs to its owners. That last figure
+is just what is left over. Anyone who prepares or checks a business tax return needs to read one. It
+shows whether the year's numbers add up. It can also reveal income that the main tax return left
+out. A mismatch between the balance sheet and the rest of the return does not always mean something
+is wrong. But it always means something needs an explanation before the return can be trusted.
+</div>
 
 An income statement can be wrong on its own. A balance sheet cannot: every error has a counterparty,
 usually in a different account and often in a different year. That is what makes the balance sheet
@@ -119,7 +129,7 @@ is filed.
 
 ## Scenarios
 
-<div class="scenario">
+<div class="scenario" data-type="baseline">
 <h3>The third term</h3>
 
 Arbor Fabrication's balance sheet shows accounts payable of $84,000, wages payable of $19,000,
@@ -135,7 +145,7 @@ of the $880,000 rather than of the $420,000. The arithmetic does not change; the
 one line does.
 </div>
 
-<div class="scenario">
+<div class="scenario" data-type="boundary">
 <h3>The balance sheet that could not be reconciled</h3>
 
 Kelmscott Tool files a Form 1120 showing net income per books on Schedule M-1 line 1 of $312,000.
@@ -153,10 +163,10 @@ should have it already: Reg. § 1.446-1(a)(4) names such a reconciliation as par
 accounting records.
 </div>
 
-<div class="scenario">
+<div class="scenario" data-type="interaction">
 <h3>Two roll-forwards that do not agree</h3>
 
-Draycott Haulage reports accumulated depreciation of $1,340,000 at the start of the year and
+Draycott Haulage reports accumulated {gloss:depreciation} of $1,340,000 at the start of the year and
 $1,610,000 at the end, with a depreciation deduction of $305,000. It sold two trailers during the
 year, reporting sale proceeds but no gain or loss.
 
@@ -166,11 +176,11 @@ only have gone on the disposal of the trailers.
 
 The balance sheet has therefore recorded a disposal the return has not. The gain or loss is missing,
 and because the trailers were depreciable business property the missing amount is very likely
-IRC § 1245 recapture taxed as ordinary income. The whole finding came from three numbers, two of
-them on the face of the return.
+IRC § 1245 {gloss:recapture} taxed as ordinary income. The whole finding came from three numbers, two
+of them on the face of the return.
 </div>
 
-<div class="scenario">
+<div class="scenario" data-type="procedural">
 <h3>The credit balance in receivables</h3>
 
 Netherby Systems shows accounts receivable of $412,000. The detailed ageing behind it contains four

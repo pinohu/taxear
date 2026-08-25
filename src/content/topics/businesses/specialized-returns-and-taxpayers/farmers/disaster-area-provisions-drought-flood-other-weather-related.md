@@ -22,7 +22,26 @@ forms: []
 related: ["2.3.4.a", "2.3.4.b", "2.3.4.e", "2.3.4.d"]
 changelog:
   - { date: "2026-08-21", summary: "Initial draft. Separates the four distinct reliefs a weather event can trigger — the IRC § 451(g) one-year deferral, IRC § 1033(e) involuntary conversion treatment with its four-year replacement period, the IRC § 165(i) election to claim a disaster loss in the preceding year, and the IRC § 7508A postponement of deadlines — and adds the IRC § 1033(f) rule allowing other farm property as replacement where reinvestment in livestock is not feasible, the IRC § 1033(h)(2) wide replacement rule for business property in a disaster area, and the IRC § 139 exclusion." }
+  - { date: "2026-08-25", summary: "Added a plain-language summary, a timeline diagram of the four reliefs, typed the three scenarios, and marked two glossary terms." }
+diagram:
+  archetype: "timeline"
+  caption: "Four reliefs a weather disaster can trigger, and when each one runs"
+  events:
+    - { when: "Year of the forced sale", what: "IRC § 451(g) lets a cash-method farmer defer income from an excess livestock sale to the following year" }
+    - { when: "Up to 4 years to replace", what: "IRC § 1033(e) defers gain on draft, breeding, or dairy animals sold for weather reasons, if replaced within the window" }
+    - { when: "The year before the disaster", what: "IRC § 165(i) lets a farmer elect to move a casualty loss back one year, for a faster refund" }
+    - { when: "Set by IRS notice, up to 1 year", what: "IRC § 7508A postpones filing and payment deadlines for taxpayers in the designated area" }
 ---
+
+<div class="plain-terms">
+This page explains the tax help available to a farm hit by drought, flood, or another weather
+disaster. It affects farmers and ranchers in an area the government has declared a disaster. Four
+kinds of help exist, and one bad season can set off more than one at once. A farmer can push
+income from a forced sale of animals into a later year, delay tax on animals sold only because of
+the disaster, move a loss back to an earlier, better year for a faster refund, or get more time to
+file and pay. Each kind of help has its own rules and its own clock. This page sorts out which
+help fits which case, and when each deadline actually falls.
+</div>
 
 A drought that empties a pasture can set four different provisions running, and they do not share a
 deadline, a mechanism or an eligibility test. Two of them defer income from a forced sale, one moves
@@ -97,7 +116,7 @@ for the period the Secretary specifies, which is usually stated in the news rele
 being the full year the statute allows. It also suspends interest and penalties for that period, but
 only for periods after the disaster date, so an amount already delinquent keeps accruing.
 
-<div class="scenario">
+<div class="scenario" data-type="boundary">
 
 <h3>The four-year window and the market that did not recover</h3>
 
@@ -106,7 +125,7 @@ August 2026 for $270,000, well above its usual culling. The basis in the herd, a
 zero. By 2029 the drought has broken but replacement cows are trading at nearly twice their 2026
 price, and the rancher can only afford 60 head at $210,000.
 
-The sale is an involuntary conversion under IRC § 1033(e)(1), and IRC § 1033(e)(2)(A) gives four
+The sale is an {gloss:involuntary-conversion} under IRC § 1033(e)(1), and IRC § 1033(e)(2)(A) gives four
 years rather than two because the area is federally designated, so a 2029 purchase is inside the
 window that closes at the end of 2030. Gain is recognised to the extent the $270,000 amount realised
 exceeds the $210,000 reinvested, so $60,000 is recognised and $210,000 of gain is deferred into the
@@ -118,7 +137,7 @@ use for this purpose.
 
 </div>
 
-<div class="scenario">
+<div class="scenario" data-type="interaction">
 
 <h3>The barn and the combine</h3>
 
@@ -137,7 +156,7 @@ IRC § 1033(h)(1)(B)'s four-year extension applies to a principal residence, not
 
 </div>
 
-<div class="scenario">
+<div class="scenario" data-type="procedural">
 
 <h3>The hail in September</h3>
 
@@ -147,7 +166,7 @@ is also destroyed. 2025 was a strong year with substantial taxable income; 2026 
 
 Three provisions, three different answers. The crop insurance proceeds are income, and because the
 farm is on the cash method and normally sells that crop in the following spring, it may elect under
-IRC § 451(f) to report the $210,000 in 2027. The stored grain is a casualty loss of business property
+IRC § 451(f) to report the $210,000 in 2027. The stored grain is a {gloss:casualty-loss} of business property
 and, because the loss occurred in a disaster area and is attributable to a federally declared
 disaster, IRC § 165(i)(1) lets the farm elect to take it into account in 2025 — the year with income
 to absorb it — by amending that return. And IRC § 7508A will have postponed the 2026 filing and

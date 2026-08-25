@@ -21,7 +21,18 @@ forms: []
 related: ["1.6.1.a", "1.6.1.b", "1.6.1.c", "1.6.1.e", "1.4.1.h"]
 changelog:
   - { date: "2026-08-20", summary: "Initial draft. Contrasts life insurance — in the gross estate under IRC § 2042 but excluded from income under § 101(a) — with retirement accounts, which are in the gross estate and are also income in respect of a decedent under § 691(a) with no basis step-up under § 1014(c). Covers annuities under § 2039, the § 2035(a) three-year rule on transferred policies, the § 691(c) estate tax deduction, and the ten-year distribution rule and eligible designated beneficiary categories in § 401(a)(9)(E) and (H)." }
+  - { date: "2026-08-25", summary: "Added a plain-language summary, glossary marks, and typed scenarios." }
 ---
+
+<div class="plain-terms">
+This is about two common assets that pass to a named person when someone dies: life insurance and
+accounts like an IRA. It affects anyone who names a beneficiary on either kind of account. The two
+work in almost opposite ways. Life insurance usually counts toward estate tax. But the money itself
+arrives free of income tax. A retirement account also counts toward estate tax. On top of that,
+whoever inherits it must pay income tax as they take the money out. So a policy and a retirement
+account of the same size are not an equal gift to two different heirs. This section decides which
+part of each asset actually reaches the person named to get it.
+</div>
 
 Two of the largest assets in an ordinary estate are treated in almost opposite ways, and clients assume
 they are the same because both pass by beneficiary designation outside the will. Life insurance is
@@ -108,25 +119,25 @@ anything in years one to nine for most beneficiaries. Where a beneficiary expect
 a sabbatical, a year between jobs, retirement — timing withdrawals into it is worth real money, and it
 is the only planning left once the account has passed.
 
-<div class="scenario">
+<div class="scenario" data-type="baseline">
 <h3>The equal division that was not</h3>
 
 A widow leaves a $600,000 traditional IRA to her son and a $600,000 brokerage account to her daughter,
 believing she has divided things evenly. The brokerage account holds long-held shares with a basis of
 $180,000.
 
-The daughter receives $600,000 with a fresh basis at death under IRC § 1014, so she can sell
-immediately at no gain. The son receives $600,000 of income in respect of a decedent: every dollar he
+The daughter receives $600,000 with a {gloss:step-up-in-basis} at death under IRC § 1014, so she can sell
+immediately at no gain. The son receives $600,000 of {gloss:income-in-respect-of-a-decedent}: every dollar he
 withdraws is ordinary income, § 1014(c) denies him any basis adjustment, and the whole account must be
 emptied within ten years. At a 32 percent marginal rate his bequest is worth around $408,000 against his
 sister's $600,000. The estate tax result is identical for both; the income tax result is not.
 
 </div>
 
-<div class="scenario">
+<div class="scenario" data-type="timing">
 <h3>The policy in the trust, and the one that was not</h3>
 
-A man sets up an irrevocable life insurance trust which applies for and buys a new $2,000,000 policy on
+A man sets up an {gloss:irrevocable-trust} — a life insurance trust — which applies for and buys a new $2,000,000 policy on
 his life. He also assigns an older $500,000 policy he already owned to the same trust. He dies twenty
 months later.
 
@@ -137,7 +148,7 @@ same intention, two different answers, and the difference is whether the policy 
 
 </div>
 
-<div class="scenario">
+<div class="scenario" data-type="interaction">
 <h3>The charity that cost nothing extra</h3>
 
 A woman wants to leave $200,000 to a hospital and the rest to her nephew. Her assets are a $200,000
@@ -151,7 +162,7 @@ off under the second.
 
 </div>
 
-<div class="scenario">
+<div class="scenario" data-type="boundary">
 <h3>The exception that expired twice</h3>
 
 A man dies leaving his IRA to his daughter, who is fourteen. She is an eligible designated beneficiary

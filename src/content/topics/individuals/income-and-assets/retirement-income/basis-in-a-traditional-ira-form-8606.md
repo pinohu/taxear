@@ -20,7 +20,12 @@ forms: []
 related: ["1.2.2.b", "1.1.1.g", "1.2.1.c", "1.2.2.g", "1.2.2.c", "1.2.2.d", "1.2.2.e", "1.2.2.f", "1.2.2.h", "1.2.2.i", "1.2.2.k", "1.2.2.l", "1.2.4.b"]
 changelog:
   - { date: "2026-08-19", summary: "Initial draft. Sets out the IRC § 408(d)(2) aggregation rule that produces pro-rata recovery of basis, the IRC § 408(o) definition of a designated nondeductible contribution, the reporting duty in § 408(o)(4) and its § 6693(b) penalties." }
+  - { date: "2026-08-25", summary: "Added a plain-language summary, two typed scenarios (interaction, boundary), and glossary marks." }
 ---
+
+<div class="plain-terms">
+This page is about money you put into a traditional IRA that you never got to deduct on your taxes. That money was already taxed once, and the tax law calls it basis. It matters to anyone who made an IRA gift they could not deduct, or who owns more than one traditional IRA. It does not matter if every dollar you put in was deducted. The rule decides how much of a later withdrawal is tax-free and how much is taxed again. The answer is not based on which account the money sits in. Instead, the law blends every traditional IRA you own into one pot and pulls out basis in the same small share each time. Skip tracking this, and money you already paid tax on can get taxed a second time.
+</div>
 
 Basis in a traditional IRA is money that has already been taxed once — contributions made without a
 deduction. It matters because a distribution recovers basis **pro rata across every traditional IRA the
@@ -95,7 +100,7 @@ Where basis has never been reported, the fix is filing the missing forms rather 
 history. The alternative is paying tax again on money already taxed, and the § 6693(b) penalties are
 small and excusable for reasonable cause — a far better outcome than a permanently lost basis.
 
-<div class="scenario">
+<div class="scenario" data-type="baseline">
 <h3>The contribution that could not be withdrawn</h3>
 
 Nadia has $180,000 in a rollover IRA, all pre-tax. She contributes $7,500 to a new traditional IRA,
@@ -112,7 +117,7 @@ distributions. But the plan of putting money in without a deduction and taking i
 does not work, and it cannot be made to work by using a separate account.
 </div>
 
-<div class="scenario">
+<div class="scenario" data-type="timing">
 <h3>The year-end denominator</h3>
 
 Tomas has $40,000 of traditional IRA value and $10,000 of basis. In March he withdraws $5,000. In
@@ -128,7 +133,7 @@ at year end, so the sequence of transactions within a year is often less importa
 31 December they fall.
 </div>
 
-<div class="scenario">
+<div class="scenario" data-type="procedural">
 <h3>Twenty years of unrecorded basis</h3>
 
 Beatriz took her first IRA distribution this year. Over twenty years she made nondeductible
@@ -144,6 +149,35 @@ The arithmetic makes the choice obvious. Without the record, the whole of every 
 treated as taxable, so $34,000 of already-taxed money is taxed again. With it, the penalties are small
 and may be waived. Contribution confirmations and the custodian's annual statements are usually enough
 to rebuild the figure.
+</div>
+
+<div class="scenario" data-type="interaction">
+<h3>Moving pre-tax money out of the fraction</h3>
+
+Farah has $150,000 of pre-tax {gloss:rollover} money in a traditional IRA and no basis. She wants to make a
+nondeductible contribution and immediately convert it to a Roth, but knows the pro-rata rule would
+tax nearly all of any conversion. Her current employer's 401(k) plan accepts incoming rollovers from
+IRAs.
+
+A 401(k) balance sits outside IRC § 408(d)(2) entirely — that section reaches only individual
+retirement plans, and an employer plan is not one. By rolling the $150,000 pre-tax balance into the
+401(k) before making a nondeductible contribution, Farah empties the traditional IRA side of the
+fraction. A later conversion of a fresh nondeductible contribution then has no pre-tax balance to
+blend with, and the aggregation rule that trapped Nadia earlier has nothing left to aggregate.
+</div>
+
+<div class="scenario" data-type="boundary">
+<h3>The year the fraction hits one hundred percent</h3>
+
+Julio's only traditional IRA has $12,000 of {gloss:basis}. A market downturn leaves the account worth
+exactly $12,000 at year end, and he withdraws the full balance.
+
+The IRC § 408(d)(2)(C) denominator — year-end value increased by distributions during the year —
+equals $12,000, the same figure as his basis. The fraction that determines how much of the
+distribution is a recovery of basis reaches its ceiling: the entire withdrawal is tax-free. An
+account that has lost value can therefore return more of a taxpayer's own money proportionally than
+one that has grown, because the fraction moves with the denominator, not with what the taxpayer put
+in.
 </div>
 
 <div class="callout trap">

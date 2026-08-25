@@ -19,7 +19,19 @@ forms: []
 related: ["3.1.4.c", "3.1.4.e", "3.1.4.f", "3.1.4.b", "3.1.2.o"]
 changelog:
   - { date: "2026-08-18", summary: "Initial publication from IRC §§ 6109(a)(4), 6695(b), 6695(c) and Regs. §§ 1.6695-1(b), 1.6109-2." }
+  - { date: "2026-08-25", summary: "Added a plain-language summary, glossary marks, and typed scenarios." }
 ---
+
+<div class="plain-terms">
+This page is about two small but separate duties for a paid tax preparer: signing the return,
+and putting the right ID numbers on it. It matters to preparers and their firms, not to
+clients filing their own return. For a paper return, the preparer signs after the return is
+done and before the client signs it. An e-filed return works a bit differently. There, the
+preparer signs once the client's e-file form comes back signed. The filed return must also
+carry the preparer's own ID number. It must carry the employer's number too, if the preparer
+works for someone else. Missing the signature, or missing a number, is its own separate
+problem. So one return can trigger both at once.
+</div>
 
 Two obligations that travel together and are penalised separately. One person signs, and that same person's identifying number goes on the return — plus, where there is an employment arrangement, the firm's. The rules sound mechanical until an e-filed return, a preparer on leave, or a firm structure gets in the way, and each of those is where the exam looks.
 
@@ -55,19 +67,19 @@ On identifying numbers, the doubling is what gets missed. An employed preparer's
 
 Because the two penalties are independent, a single return prepared by an unsigned, un-numbered preparer draws both — and each has its own annual cap, so the exposures do not merge. That is worth saying to a firm whose software profile is misconfigured, because the arithmetic is twice what they expect.
 
-<div class="scenario">
+<div class="scenario" data-type="fails">
 <h3>The colleague who signed on a glance</h3>
 <p>A preparer is hospitalised the week returns are due. A colleague signs eleven of her returns after checking that the figures tie to the source documents, without working through the preparation.</p>
 <p><em>Analysis.</em> Reg. § 1.6695-1(b)(1) permits another preparer to sign when the signing preparer is unavailable, but only after reviewing <em>the entire preparation</em> of the return. Tying figures to source documents is not that. The colleague is exposed under § 6695(b) on each return, and — more seriously — has become the signing preparer for § 6694 purposes on eleven returns whose positions they have not evaluated.</p>
 </div>
 
-<div class="scenario">
+<div class="scenario" data-type="interaction">
 <h3>The firm number that was never entered</h3>
-<p>An employed preparer's software profile carries her PTIN but the firm's EIN field was left blank when the practice reorganised. Four hundred returns go out that season showing only her number.</p>
-<p><em>Analysis.</em> Reg. § 1.6109-2(a)(1) requires the employing or associated person's identifying number to appear as well, and § 1.6109-2(a)(3) makes that the EIN. Every affected return is a § 6695(c) failure. The reasonable cause defence would have to show cause arising despite ordinary care and prudence; a profile field nobody checked after a reorganisation is unlikely to meet it, and the IRS will want the claim in writing.</p>
+<p>An employed preparer's software profile carries her {gloss:ptin} but the firm's EIN field was left blank when the practice reorganised. Four hundred returns go out that season showing only her number.</p>
+<p><em>Analysis.</em> Reg. § 1.6109-2(a)(1) requires the employing or associated person's identifying number to appear as well, and § 1.6109-2(a)(3) makes that the EIN. Every affected return is a § 6695(c) failure. The {gloss:reasonable-cause-defense} defence would have to show cause arising despite ordinary care and prudence; a profile field nobody checked after a reorganisation is unlikely to meet it, and the IRS will want the claim in writing.</p>
 </div>
 
-<div class="scenario">
+<div class="scenario" data-type="baseline">
 <h3>Signing an e-filed return</h3>
 <p>A preparer completes a return, sends the client the full electronic copy with the Form 8879 for signature, receives the signed 8879, and only then applies her electronic signature and transmits.</p>
 <p><em>Analysis.</em> Correct. Reg. § 1.6695-1(b)(2) expressly relieves the preparer of signing before presenting the copy for electronically signed returns — the requirement is that all the information to be transmitted goes to the taxpayer <em>contemporaneously</em> with the Form 8879. The paper sequence does not apply, and applying it would be harmless but unnecessary.</p>

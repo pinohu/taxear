@@ -22,7 +22,19 @@ forms: []
 related: ["1.2.1.a", "1.2.1.b", "1.1.1.f", "1.2.1.m", "1.2.1.e", "1.2.1.h", "1.2.1.k"]
 changelog:
   - { date: "2026-08-19", summary: "Initial draft. Records the permanent suspension of miscellaneous itemized deductions and its redesignation from IRC § 67(g) to § 67(h) by Pub. L. 119-21 § 70110, and its effect on the deductions IRC § 183(b)(2) would otherwise allow." }
+  - { date: "2026-08-25", summary: "Added a plain-language summary, glossary marks, and two typed scenarios (procedural, timing) alongside the existing three." }
 ---
+
+<div class="plain-terms">
+This page covers renting out things you own, like a car, a tool, or equipment, rather than land or a
+building. The rent you collect always counts as income. What changes is how you report it and what you
+may deduct. That depends on two things: is this a real business you run with some regularity, and if
+not, are you at least trying to make a profit? A true rental business faces self-employment tax like
+any other business. Renting for profit but not as a business skips that tax and still lets you deduct
+costs. Renting with no real profit motive is the worst case: you owe tax on the full rent and get
+almost no deduction at all. Anyone who occasionally lends out equipment, a boat, or a vehicle for money
+is affected.
+</div>
 
 Rent is gross income (IRC § 61(a)(5)), so the money is never in doubt. What is in doubt is where it
 goes on the return, and that is decided by two questions asked in order: is the rental activity a
@@ -99,7 +111,7 @@ One recurring documentation point: where the client rents both premises and equi
 the equipment is leased *with* the real estate or under a separate arrangement. The self-employment
 consequence turns on that, and the answer is usually in the lease rather than in the accounts.
 
-<div class="scenario">
+<div class="scenario" data-type="baseline">
 <h3>The equipment let, and the house let</h3>
 
 Sofia owns a small warehouse she lets to a fabrication business for $2,400 a month, and separately lets
@@ -112,12 +124,12 @@ extends to personal property only where it is **leased with the real estate**, a
 different tenant under a separate arrangement.
 
 So if the forklift activity amounts to a business — a question of continuity and regularity, which a
-year-round lease with maintenance obligations suggests — the profit on it bears self-employment tax.
-Had the same forklift been leased to the warehouse tenant as part of the warehouse lease, the exclusion
-would have covered it.
+year-round lease with maintenance obligations suggests — the profit on it bears
+{gloss:self-employment-tax}. Had the same forklift been leased to the warehouse tenant as part of the
+warehouse lease, the exclusion would have covered it.
 </div>
 
-<div class="scenario">
+<div class="scenario" data-type="fails">
 <h3>The classic car that never made money</h3>
 
 Bo owns a restored car he lets out for weddings a few times a year. He receives $3,100 and spends
@@ -128,13 +140,13 @@ He reports the $3,100 in full. Whether he deducts anything depends on the profit
 consecutive loss years mean the IRC § 183(d) presumption is unavailable to him — he would have to
 establish the motive on the facts, and casual record-keeping is evidence against it.
 
-If the activity is not for profit, the outcome is the harsh one. IRC § 183(b)(1) still allows
+If the {gloss:hobby-loss-rules} apply, the outcome is the harsh one. IRC § 183(b)(1) still allows
 deductions allowable regardless of motive, but the rest fall under § 183(b)(2) as miscellaneous
 itemized deductions, and IRC § 67(h) disallows those entirely. The $5,200 produces nothing. He is worse
 off than if he had never let the car at all.
 </div>
 
-<div class="scenario">
+<div class="scenario" data-type="boundary">
 <h3>For profit, but not a business</h3>
 
 Renata lets a specialised piece of surveying equipment to a former colleague under a twelve-month
@@ -146,9 +158,37 @@ regularity, one counterparty and no holding out to the market. So the income goe
 than a business schedule.
 
 The expenses are not stranded. IRC § 212 allows deductions for expenses for the production of income,
-and IRC § 62(a)(4) puts deductions attributable to property held for the production of rents above the
-line — so the $3,400 reduces adjusted gross income even though she does not itemize. And because the
-activity is not a trade or business, the $5,600 of profit bears no self-employment tax.
+and IRC § 62(a)(4) treats deductions attributable to property held for the production of rents as an
+{gloss:above-the-line-deduction} — so the $3,400 reduces adjusted gross income even though she does not
+itemize. And because the activity is not a trade or business, the $5,600 of profit bears no
+self-employment tax.
+</div>
+
+<div class="scenario" data-type="procedural">
+<h3>Filing it correctly the first time</h3>
+
+Marisol starts renting out generators and small equipment to contractors, advertising regularly and
+handling repairs and deliveries herself. She nets $22,000 in her first year and has never filed a
+business schedule before.
+
+Because the activity has the continuity and regularity of a business, it belongs on a business
+schedule with net earnings from self-employment under IRC § 1402 — not on Schedule E, and not folded
+into other income. Once she recognizes the profit is recurring rather than a one-off, she also needs to
+start making quarterly estimated payments, since nothing is withheld from equipment rental income the
+way it would be from a paycheck.
+</div>
+
+<div class="scenario" data-type="timing">
+<h3>The advice that expired</h3>
+
+Talia read years ago that hobby-activity expenses would start being deductible again once the
+miscellaneous-itemized-deduction suspension ended, and budgeted around that for a horse-boarding
+sideline she runs at a loss.
+
+The suspension that once had an end date no longer does. What used to sunset after 2025 is now
+permanent, so the deductions IRC § 183(b)(2) would otherwise allow stay unavailable in 2026 and every
+year after — not just through the years she originally expected. Planning that assumed a return date
+needs to be redone on the current, permanent rule rather than the old one.
 </div>
 
 <div class="callout trap">

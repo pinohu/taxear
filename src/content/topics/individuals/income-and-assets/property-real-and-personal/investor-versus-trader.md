@@ -21,7 +21,18 @@ forms: []
 related: ["1.2.3.b", "1.2.3.j", "1.2.1.b", "1.2.3.h", "1.2.3.a", "1.2.4.a", "1.3.1.c", "1.3.1.h"]
 changelog:
   - { date: "2026-08-19", summary: "Initial draft. Sets out the absence of any statutory definition of a trader, the IRC § 67(h) permanent disallowance of miscellaneous itemized deductions as amended by Pub. L. 119-21 § 70110, the § 163(d) investment interest limitation that survives it, the § 475(f) mark to market election with its ordinary character, its § 475(f)(1)(B) same-day identification requirement and its § 475(f)(3) mechanics, and the § 1236 dealer rules." }
+  - { date: "2026-08-25", summary: "Added a plain-language summary, glossary marks, and two typed scenarios (procedural, timing) rounding out the scenario taxonomy. No diagram: the investor-versus-trader line is an explicit facts-and-circumstances test with no statutory checklist, and a decision diagram would overstate how mechanical it is." }
 ---
+
+<div class="plain-terms">
+This page is about people who buy and sell stocks a lot. It asks one question: is that a
+business, or just managing your own money? The answer decides if certain costs can be deducted
+at all. Today, an investor gets no deduction for costs like data or software. Someone who trades
+enough to run it like a business can deduct those same costs. This mainly affects people who
+trade very often, almost like a full-time job. It does not affect someone who just holds a few
+funds. Traders also have one more choice. It changes how gains and losses get taxed each year
+after that.
+</div>
 
 There is no statutory test. Neither IRC § 162 nor § 212 says what a trader is, and the distinction between
 an investor and a trader in securities is entirely a question of fact, developed through cases. What has
@@ -114,7 +125,7 @@ records the day it is acquired, not later, or it is swept into the regime. And t
 permanent: revocation needs consent, which is a very different proposition from the annual choice it is
 often assumed to be.
 
-<div class="scenario">
+<div class="scenario" data-type="baseline">
 <h3>Scenario 1 — the same expenses, two answers</h3>
 
 Priya pays 14,000 dollars in the year for market data, trading software and a portion of her home office.
@@ -126,21 +137,21 @@ deductible under § 162(a) and reduces adjusted gross income. Nothing about the 
 characterisation of the activity does.
 </div>
 
-<div class="scenario">
+<div class="scenario" data-type="interaction">
 <h3>Scenario 2 — the loss that was fully deductible</h3>
 
 Rohan is a trader who made the § 475(f) election. In 2026 he ends the year down 180,000 dollars, and has
 110,000 dollars of other income.
 
-Because § 475(d)(3)(A)(i) makes the loss ordinary, the capital loss limitation does not apply: the whole
-180,000 dollars is an ordinary loss, wiping out his other income with the remainder available as a net
-operating loss. Without the election, the same 180,000 dollars would have been a capital loss, deductible
-against capital gains and then only the annual allowance against ordinary income, with the rest carried
-forward for many years. The election is worth most in exactly the year the trader least wants to think
-about it.
+Because § 475(d)(3)(A)(i) makes the loss ordinary, the {gloss:capital-loss} limitation does not apply: the
+whole 180,000 dollars is an ordinary loss, wiping out his other income with the remainder available as a
+{gloss:net-operating-loss}. Without the election, the same 180,000 dollars would have been a capital loss,
+deductible against capital gains and then only the annual allowance against ordinary income, with the rest
+carried forward for many years. The election is worth most in exactly the year the trader least wants to
+think about it.
 </div>
 
-<div class="scenario">
+<div class="scenario" data-type="fails">
 <h3>Scenario 3 — the retirement account that was not quarantined</h3>
 
 Sofia is an electing trader. In March she buys shares in a utility company intending to hold them for
@@ -152,6 +163,33 @@ no connection to her trading activities **before the close of the day on which i
 March position is therefore inside the mark to market regime: it is marked at year end, and any gain is
 ordinary income rather than long-term capital gain. A contemporaneous same-day record, in a separately
 designated account, is the only reliable way to keep an investment out.
+</div>
+
+<div class="scenario" data-type="timing">
+<h3>Scenario 4 — the position that stopped being quarantined</h3>
+
+An electing trader identifies a block of shares as an investment position on the day she buys it, properly
+excluding it from the § 475(f) election. Two years later she begins actively trading that same block
+alongside her ordinary positions, buying and selling it repeatedly through the year.
+
+The identification was valid when made, so the position sat outside the mark to market regime for those
+first two years. Once it stops functioning as an investment, the statute is explicit: if a security
+identified as exempt later ceases to qualify, mark to market applies to changes in value **after the
+cessation**. The same shares are treated one way in year one and a different way in year three — nothing
+about the shares changed, only how she used them. And because the later gain is ordinary under
+§ 475(d)(3)(A)(i), the {gloss:wash-sale} rule has nothing left to disallow on it either.
+</div>
+
+<div class="scenario" data-type="procedural">
+<h3>Scenario 5 — asking to get out of the election</h3>
+
+A trader made the § 475(f) election three years ago. A long stretch of gains now makes long-term capital
+gain rates more valuable than ordinary treatment, and he wants to go back to reporting gains as capital.
+
+Section 475(f)(3) lets the election be made **without** the Secretary's consent, but revoking it is not
+symmetrical: once made, it applies to that year and every subsequent year **unless revoked with consent**.
+He has to request permission and wait for it — there is no unilateral opt-out to match the unilateral
+opt-in. Until consent is granted, ordinary character keeps applying to everything he trades.
 </div>
 
 <div class="callout trap">

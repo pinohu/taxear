@@ -26,7 +26,18 @@ forms: []
 related: ["2.2.4.a", "2.2.4.c", "2.2.4.g", "2.2.1.a", "2.2.1.b", "2.2.4.d", "2.2.4.f", "2.2.4.h", "2.2.4.i", "2.2.5.f", "2.2.5.g"]
 changelog:
   - { date: "2026-08-21", summary: "Initial draft. Sets out the IRM 4.10.3.7.6 definition of the profit and loss statement and the document chain from general ledger to return, the Reg. § 1.6001-1(a) and Reg. § 1.446-1(a)(4) records requirements, the Reg. § 1.61-3(a) definition of gross income from a business as sales less cost of goods sold, the limits on what cost of goods sold may absorb, and the IRM 4.10.4.2.3.5 and 4.10.4.2.3.6 reconciliation and gross receipts tests with the gross profit ratio." }
+  - { date: "2026-08-25", summary: "Added a plain-language summary, glossary marks, and typed the existing scenarios." }
 ---
+
+<div class="plain-terms">
+An income statement lists what a business took in and spent over a period. It ends in a profit or
+loss figure. Every business that keeps books makes one. It may be called an income statement, a
+profit and loss statement, or a statement of operations. All three names mean the same document.
+This matters for tax preparation because the statement's bottom line is only a starting point. It is
+not the same as the tax return. The two documents measure income in different ways, on purpose. Some
+lines are meant to differ, and others are not. Checking a return against the statement behind it
+shows whether the numbers really hold together. It is often how missing income gets found.
+</div>
 
 Every business return begins life as an income statement, and the two are never the same document.
 The statement measures a period the way accounting measures it; the return measures a taxable year
@@ -115,12 +126,12 @@ the records.
 
 ## Scenarios
 
-<div class="scenario">
+<div class="scenario" data-type="fails">
 <h3>The fine that went into inventory</h3>
 
 Ashfield Millwork pays a $70,000 penalty to a state regulator over a workplace violation. Its
 controller, knowing the penalty is not deductible, records it in manufacturing overhead, where it is
-absorbed into finished goods and reaches the return through cost of goods sold.
+absorbed into finished goods and reaches the return through {gloss:cost-of-goods-sold}.
 
 That does not work. Reg. § 1.61-3(a) provides that cost of goods sold may not include amounts a
 deduction for which would be disallowed under IRC § 162(c), (f) or (g), and a fine paid to a
@@ -132,11 +143,11 @@ reduced income only as the goods sold, spreading a permanently disallowed item a
 making it far harder to find. That is why the regulation names the categories.
 </div>
 
-<div class="scenario">
+<div class="scenario" data-type="baseline">
 <h3>Margin and markup</h3>
 
-Sennett Supply reports gross receipts of $1,400,000 and cost of goods sold of $1,050,000. Under
-examination the owner says the firm marks everything up 33 percent over cost.
+Sennett Supply reports {gloss:gross-receipts} of $1,400,000 and cost of goods sold of $1,050,000.
+Under examination the owner says the firm marks everything up 33 percent over cost.
 
 The two statements are consistent, and a preparer who thinks otherwise will concede an adjustment
 that is not owed. A 33.3 percent markup on cost produces a 25 percent margin on the selling price:
@@ -149,7 +160,7 @@ supplies the rule that resolves it — margin is computed on the selling price �
 tabulates the conversion.
 </div>
 
-<div class="scenario">
+<div class="scenario" data-type="procedural">
 <h3>Books written up in March</h3>
 
 Corliss Landscaping keeps no contemporaneous ledger. In March its bookkeeper builds the prior year's
@@ -166,7 +177,7 @@ numbered invoice series with gaps. Corliss's exposure is not that its books were
 records built from deposits capture only what was deposited.
 </div>
 
-<div class="scenario">
+<div class="scenario" data-type="interaction">
 <h3>Two statements, one return</h3>
 
 Ledbury Instruments hands its preparer an income statement showing revenue of $6,200,000 and net
@@ -175,8 +186,8 @@ income of $410,000. The return reports gross receipts of $6,050,000 and taxable 
 Nothing here is necessarily wrong, and the preparer should be able to name each gap. The $150,000
 revenue difference is a gain on an equipment sale, shown as non-operating revenue on the statement
 and reported in the return's gain-or-loss computation on a different basis. The income difference
-nets several items: book depreciation exceeding tax depreciation, an accrued bonus unpaid within the
-required period, and meals allowed in part for book and disallowed for tax.
+nets several items: book {gloss:depreciation} exceeding tax depreciation, an accrued bonus unpaid
+within the required period, and meals allowed in part for book and disallowed for tax.
 
 Each is a timing or permanent difference belonging on the reconciliation. What the preparer cannot
 do is present the return figures without being able to say which category each difference falls

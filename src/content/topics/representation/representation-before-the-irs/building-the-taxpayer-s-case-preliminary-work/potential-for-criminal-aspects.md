@@ -19,7 +19,19 @@ forms: []
 related: ["3.2.6.f", "3.3.3.b", "3.2.2.c", "3.2.2.e"]
 changelog:
   - { date: "2026-08-18", summary: "Initial publication from IRC §§ 7602(d)–(e), 7525, 7201 and 7206 and Circular 230 § 10.21, each opened at source." }
+  - { date: "2026-08-25", summary: "Added a plain-language summary, typed scenarios, and glossary marks." }
 ---
+
+<div class="plain-terms">
+This page explains what changes once a tax matter might turn criminal instead of staying
+civil. It affects anyone advising a taxpayer who may have broken the law, not just
+routine filing questions. The biggest change is protection. Talk with a tax practitioner
+is shielded from the IRS only in civil matters, not criminal ones. So what gets said
+matters more once criminal risk shows up. The rule also decides what a practitioner must
+do on learning a client got something wrong: tell the client and explain what could
+happen next, but not fix the return or alert the IRS. And once prosecutors get involved,
+IRS tools like a summons stop working for that person until the case ends.
+</div>
 
 The single most consequential judgment a representative makes at intake is whether a matter has **criminal potential**. It changes who should hold the file, what protection the client's communications have, what may safely be said to a revenue agent, and whether the practitioner should be in the matter at all. Get it right early and the client has options. Get it wrong and the damage — candid emails, admissions to an examiner, an amended return that concedes the elements — is already done.
 
@@ -71,25 +83,25 @@ Read what it does **not** say. There is no duty to correct the return, no duty t
 
 **Amending is not automatically the answer.** A voluntary correction is often right, and sometimes it hands the government the elements of an offence in the client's own signature. Where criminal potential exists, whether and how to correct is a decision for counsel with the criminal exposure in view — not a routine remediation step.
 
-<div class="scenario">
+<div class="scenario" data-type="boundary">
 <h3>The candid email</h3>
 <p>Three months into an examination of unreported cash receipts, a restaurant owner and her enrolled agent have exchanged frank emails about gaps in the till records. The examiner then makes a fraud referral.</p>
-<p><em>Analysis.</em> The correspondence is unprotected. IRC § 7525(a)(2) permits the privilege to be asserted only in a <em>noncriminal</em> tax matter before the IRS and a <em>noncriminal</em> Federal court proceeding. A criminal investigation is outside the statute, and the emails already exist. The point at which this should have been handled differently was the first conversation about missing till records — the agent should have named the exposure, explained that § 7525 does not reach criminal matters, and raised engaging counsel.</p>
+<p><em>Analysis.</em> The correspondence is unprotected. IRC § 7525(a)(2) permits the {gloss:privilege} to be asserted only in a <em>noncriminal</em> tax matter before the IRS and a <em>noncriminal</em> Federal court proceeding. A criminal investigation is outside the statute, and the emails already exist. The point at which this should have been handled differently was the first conversation about missing till records — the agent should have named the exposure, explained that § 7525 does not reach criminal matters, and raised engaging counsel.</p>
 </div>
 
-<div class="scenario">
+<div class="scenario" data-type="baseline">
 <h3>The omission the client will not fix</h3>
 <p>Preparing a current-year return, a practitioner discovers that a prior year omitted substantial income. He tells the client, who refuses to amend and instructs him to say nothing.</p>
 <p><em>Analysis.</em> Circular 230 § 10.21 is satisfied by advising the client promptly of the noncompliance and of its consequences under the Code and regulations. There is no duty to correct the prior return, to notify the IRS or to withdraw. What the practitioner cannot do is carry the error forward into the current return, make representations to the IRS he knows to be false, or sign a return he knows to be wrong — IRC § 7206(2) reaches a preparer whether or not the client is complicit. Document the advice given, and decline the work that would compound it.</p>
 </div>
 
-<div class="scenario">
+<div class="scenario" data-type="procedural">
 <h3>The case that went quiet</h3>
 <p>An examination has been active for a year. A summons to the client's bank is abruptly not pursued, the revenue agent stops returning calls, and nothing closes. The client asks whether the matter has gone away.</p>
-<p><em>Analysis.</em> It may have gone somewhere worse. IRC § 7602(d)(1) bars any summons, and any § 7604 enforcement action, while a Justice Department referral is in effect — so a summons being dropped and the case going silent is consistent with a referral. Note that § 7602(d)(3) treats each taxable period and each separately-imposed tax separately, so continued activity on one year says nothing about another. This is the point to involve counsel, not to press the agent for reassurance.</p>
+<p><em>Analysis.</em> It may have gone somewhere worse. IRC § 7602(d)(1) bars any summons, and any § 7604 enforcement action, while a Justice Department referral is in effect — so a {gloss:summons} being dropped and the case going silent is consistent with a referral. Note that § 7602(d)(3) treats each taxable period and each separately-imposed tax separately, so continued activity on one year says nothing about another. This is the point to involve counsel, not to press the agent for reassurance.</p>
 </div>
 
-<div class="scenario">
+<div class="scenario" data-type="interaction">
 <h3>The lifestyle questions</h3>
 <p>An examiner begins asking about the client's home, vehicles, holidays and cash spending, and requests twelve months of personal bank statements on a business return examination.</p>
 <p><em>Analysis.</em> These are financial status or economic reality techniques. IRC § 7602(e) provides that the Secretary "shall not use financial status or economic reality examination techniques to determine the existence of unreported income of any taxpayer unless the Secretary has a reasonable indication that there is a likelihood of such unreported income." The representative may properly ask what the reasonable indication is. Whatever the answer, the direction of the examination has been signalled and the criminal-potential assessment should be revisited now.</p>

@@ -22,7 +22,17 @@ forms: []
 related: ["1.5.1.n", "1.5.1.m", "1.1.1.a", "1.5.1.i", "1.5.1.k"]
 changelog:
   - { date: "2026-08-20", summary: "Initial draft. Sets out what the penalties-of-perjury declaration required by IRC § 6065 actually does — the signature rules in §§ 6061 and 6064, the § 7206(1) felony that requires no tax deficiency, the § 7207 misdemeanor, § 7201 evasion, the § 6663 civil fraud penalty, and the fines actually applicable under 18 U.S.C. § 3571 rather than the superseded amounts printed in the Code." }
+  - { date: "2026-08-25", summary: "Added a plain-language summary, glossary marks, and a fifth typed scenario (comprehension layer)." }
 ---
+
+<div class="plain-terms">
+Every tax return has a line above the signature that says, under penalty of perjury, that it is true and
+correct. Almost nobody reads it, but it matters a great deal. Signing a return you know has a lie in it is
+a crime, even if it does not change the tax you owe. This topic affects anyone who signs a tax return, an
+amended return, or many of the other forms and statements filed with the IRS. The crime does not need the
+IRS to lose any money to exist. It decides what a taxpayer is really promising by signing, and what can go
+wrong, in court and in dollars, if that promise turns out to be false.
+</div>
 
 Every return a client signs carries a declaration above the signature line, and almost every client
 signs it without reading it. It is worth explaining once, properly, because it is the provision that
@@ -99,7 +109,7 @@ when a client asks whether to sign a return prepared from the other spouse's rec
 **What to do with a client who will not correct.** Decline the engagement rather than sign the return.
 There is no version of this in which continuing is the safe option.
 
-<div class="scenario">
+<div class="scenario" data-type="baseline">
 <h3>The return with no tax due and a felony in it</h3>
 
 A client reports his consulting income accurately but claims $9,000 of business expenses he knows he did
@@ -114,7 +124,7 @@ defence.
 
 </div>
 
-<div class="scenario">
+<div class="scenario" data-type="boundary">
 <h3>The statement attached to the return</h3>
 
 A client attaches a statement supporting a reasonable cause position, in which she overstates the
@@ -127,7 +137,7 @@ worth correcting that impression before they draft one.
 
 </div>
 
-<div class="scenario">
+<div class="scenario" data-type="interaction">
 <h3>The signature the client did not make</h3>
 
 A separated client learns that a joint return was filed for a year in which he and his wife had not
@@ -141,7 +151,7 @@ provisions, one signature.
 
 </div>
 
-<div class="scenario">
+<div class="scenario" data-type="procedural">
 <h3>The fine that is not in the section</h3>
 
 A client convicted under § 7206(1) reads the section, sees a maximum fine of $100,000, and asks how the
@@ -151,6 +161,21 @@ The section's figure has been superseded. Under 18 U.S.C. § 3571(b)(3) an indiv
 felony may be fined up to $250,000, and § 3571(e) preserves a lower statutory figure only where the
 offence provision exempts itself by specific reference — which § 7206 does not do. The number printed in
 the Code is not the number that applies, and the same is true of § 7201.
+
+</div>
+
+<div class="scenario" data-type="fails">
+<h3>Wrong, but not willful</h3>
+
+A client took a {gloss:home-office-deduction} based on her preparer's advice that a guest room used a few
+evenings a week for client calls qualified. It did not, and the deduction is disallowed on audit.
+
+There is no § 7206(1) offense here. The government must prove she was {gloss:willful} — that she
+voluntarily and intentionally violated a known legal duty she was aware of — and reliance on a preparer's
+advice about a genuinely debatable position cuts against that. The declaration exposes a client who signs
+a return she does not believe is accurate; it does not turn an honest, if wrong, position into a felony.
+The disallowance is a civil adjustment. There is no {gloss:civil-fraud-penalty} here, and no criminal
+referral.
 
 </div>
 

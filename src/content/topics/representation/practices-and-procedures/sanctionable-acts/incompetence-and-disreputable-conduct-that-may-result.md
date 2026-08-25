@@ -18,7 +18,18 @@ forms: []
 related: ["3.1.3.b", "3.1.4.b", "3.1.1.a", "3.4.3.b", "3.1.3.c", "3.1.3.d", "3.1.2.a", "3.4.3.a"]
 changelog:
   - { date: "2026-08-18", summary: "Initial publication from 31 CFR §§ 10.50, 10.51, 10.52 and 10.53 (Circular 230) as they currently read." }
+  - { date: "2026-08-25", summary: "Added a plain-language summary, glossary marks, and typed scenarios." }
 ---
+
+<div class="plain-terms">
+This page is about conduct that can get a tax practitioner in trouble with the IRS. It matters
+mainly to enrolled agents, lawyers, and others who represent taxpayers, not to an ordinary filer.
+One set of rules names bad conduct outright: lying to the IRS, misusing a client's money, or not
+filing your own tax return. A second rule reaches any willful break of the conduct rules, even
+conduct not on that list. Some of this conduct only counts if done on purpose. A few parts count
+even without bad intent, if the work itself was careless enough. This page covers both sets of
+rules, and how a complaint against a practitioner gets its start.
+</div>
 
 There are two separate doors into a Circular 230 disciplinary proceeding, and practitioners tend to know only one. Section 10.51 lists conduct that is disreputable in itself — much of it criminal, some of it merely careless. Section 10.52 says that willfully breaking any other rule in the part is independently sanctionable. A practitioner who has done nothing on the § 10.51 list can still be disbarred through § 10.52, and the reverse is also true.
 
@@ -49,19 +60,19 @@ The third is that a practitioner's own tax affairs are inside the rule. Willfull
 
 The reporting rules deserve a moment. Section 10.53(a) obliges an IRS employee who has reason to believe there was a violation — it is not discretionary at that threshold. Section 10.53(d) is the sting in the tail: a destroyed report cannot be used as evidence, but the investigation it started proceeds unaffected.
 
-<div class="scenario">
+<div class="scenario" data-type="baseline">
 <h3>The practitioner who filed everyone's return but their own</h3>
-<p>An enrolled agent in good standing has not filed a personal return for four years. Client work is competent and no client has complained. During an unrelated matter an IRS employee notices the filing history.</p>
-<p><em>Analysis.</em> This is § 10.51(a)(6) — willfully failing to make a federal tax return — and it is disreputable conduct regardless of the quality of the practitioner's client work. The employee's obligation under § 10.53(a) is triggered by having reason to believe there was a violation, and a written report follows. Competence for clients is not an answer to a personal compliance charge.</p>
+<p>An {gloss:enrolled-agent} in good standing has not filed a personal return for four years. Client work is competent and no client has complained. During an unrelated matter an IRS employee notices the filing history.</p>
+<p><em>Analysis.</em> This is § 10.51(a)(6) — willfully failing to make a federal tax return — and it is disreputable conduct regardless of the quality of the practitioner's client work. The employee's obligation under § 10.53(a) is triggered by having reason to believe there was a violation, and a written report goes to the {gloss:office-of-professional-responsibility}. Competence for clients is not an answer to a personal compliance charge.</p>
 </div>
 
-<div class="scenario">
+<div class="scenario" data-type="boundary">
 <h3>The escrowed payroll taxes</h3>
 <p>A practitioner collects payroll tax deposits from several small business clients into a firm account and remits them a few weeks late while the firm is short of cash. Every client is eventually made whole and no tax goes unpaid.</p>
 <p><em>Analysis.</em> Section 10.51(a)(8) covers misappropriation of client funds <em>or</em> the failure to remit them properly or promptly. Eventual payment does not cure the delay, and the fact that the client suffered no ultimate loss goes to the sanction rather than to whether the conduct is disreputable. Where practitioner and client interests diverge over the use of client money, the rule sides with the client.</p>
 </div>
 
-<div class="scenario">
+<div class="scenario" data-type="interaction">
 <h3>The opinion written outside the practitioner's competence</h3>
 <p>An enrolled agent, asked for written advice on a partnership structure well outside their experience, produces a memorandum after a few hours of general research. The advice is honestly meant and wrong. The client relies on it and is assessed a substantial understatement penalty.</p>
 <p><em>Analysis.</em> There is no willfulness, so the § 10.52(a)(1) branch does not apply. But § 10.37 governs requirements for written advice, and § 10.52(a)(2) makes a violation of § 10.37 sanctionable if committed <em>recklessly or through gross incompetence</em>. "Preparation which is grossly inadequate under the circumstances" is inside the § 10.51(a)(13) definition of gross incompetence that § 10.52 borrows. Good faith is not the test here.</p>

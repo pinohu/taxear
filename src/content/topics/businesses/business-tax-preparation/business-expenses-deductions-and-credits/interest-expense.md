@@ -21,7 +21,18 @@ forms: []
 related: ["2.2.2.c", "2.2.1.c", "2.2.2.a", "2.2.2.b", "2.2.1.b"]
 changelog:
   - { date: "2026-08-21", summary: "Initial draft. Sets out the Reg. § 1.163-8T tracing rule that allocates interest by the use of the borrowed funds, the IRC § 163(j)(1) limitation and its three components, the IRC § 163(j)(2) indefinite carryforward, the IRC § 163(j)(3) small business exemption keyed to IRC § 448(c), and the IRC § 163(j)(8) definition of adjusted taxable income. Records that Pub. L. 119-21 § 70303(a) restored the depreciation, amortization and depletion add-back permanently for taxable years beginning after 31 December 2024." }
+  - { date: "2026-08-25", summary: "Added a plain-language summary, glossary marks, and two typed scenarios (fails, interaction) alongside the three existing ones now typed baseline/boundary/timing." }
 ---
+
+<div class="plain-terms">
+This page explains when a business can deduct the interest it pays on borrowed money, and how much
+of that interest counts in a single year. It applies to any business that borrows money. What the
+loan is called, or what secures it, makes no difference at all. What matters is what the money was
+actually spent on. Most small businesses are not touched by any yearly limit. Larger businesses may
+have part of their interest capped for the year, but nothing is ever lost for good — whatever gets
+capped simply waits and gets tested again the next year. A partnership applies this cap once, at the
+partnership level, rather than separately for each partner.
+</div>
 
 Two questions decide an interest deduction and they are asked in order. Which activity does the
 interest belong to, and is the resulting business interest capped? The first is answered by
@@ -104,7 +115,7 @@ payee income item in the case of **expenses and interest**," so an accrual metho
 accruing interest to a related cash method lender waits for the deduction until the lender
 includes it.
 
-<div class="scenario">
+<div class="scenario" data-type="baseline">
 <h3>One loan, three uses</h3>
 
 A sole proprietor borrows $10,000 on a single business loan and pays $800 of interest for the
@@ -124,7 +135,7 @@ irrelevant. Had it been secured on business assets, that would also have been ir
 disbursement of the proceeds matters.
 </div>
 
-<div class="scenario">
+<div class="scenario" data-type="boundary">
 <h3>The company that is over the line</h3>
 
 Fitzharding Logistics has average annual gross receipts for the three years ending with 2025 of
@@ -145,7 +156,7 @@ restoration of that add-back is worth more to a capital-intensive business than 
 in this topic.
 </div>
 
-<div class="scenario">
+<div class="scenario" data-type="timing">
 <h3>The add-back that came back</h3>
 
 Sheldwich Manufacturing has taxable income of $4,000,000 before interest, depreciation of
@@ -163,6 +174,38 @@ The company's economics have not changed at all. The disallowance falls from $2,
 $400,000 because one clause in IRC § 163(j)(8)(A)(v) lost its date restriction, and the change
 reaches back to taxable years beginning after 31 December 2024. A capital-intensive business
 working from material written before July 2025 will compute this wrongly by a wide margin.
+</div>
+
+<div class="scenario" data-type="fails">
+<h3>The business that looked small but wasn't</h3>
+
+A logistics broker has average annual gross receipts of $9,000,000 for the testing period —
+comfortably under {fig:method.gross_receipts_2026} — and assumes {fig:bint.small_exemption} takes it
+out of IRC § 163(j) entirely. But the broker is organized so that more than 35 percent of its losses
+are allocated to {gloss:limited-partner}s who take no part in running it, which makes it a tax
+shelter as IRC § 163(j)(3) itself defines that term by cross-reference to IRC § 448(a)(3).
+
+The exemption fails regardless of the gross receipts figure. Being small by revenue is necessary but
+not sufficient; a business organized as this kind of syndicate computes adjusted taxable income and
+applies the cap like any large company, however modest its receipts.
+</div>
+
+<div class="scenario" data-type="interaction">
+<h3>Two limitations, two levels</h3>
+
+Ashworth Properties LP, a partnership, has adjusted taxable income of $8,000,000 and business
+interest expense of $2,600,000. {fig:bint.limit} caps the partnership's deduction at $2,400,000, so
+$200,000 is disallowed at the entity under {fig:bint.partnership} and carries forward as the
+partnership's own item under {fig:bint.carryforward}.
+
+One of its partners, a non-corporate individual with no other business interests, separately has a
+$700,000 distributive share of ordinary loss from an unrelated {gloss:pass-through-entity} that trips
+the IRC § 461(l) excess business loss limitation, converting part of that loss into a
+{gloss:net-operating-loss} instead.
+
+The two ceilings apply independently, at different levels, on the same return. The partnership's
+disallowed $200,000 of interest is untouched by what happens to the partner's unrelated business
+loss, and the two figures are tracked and carried forward on entirely separate schedules.
 </div>
 
 <div class="callout trap">

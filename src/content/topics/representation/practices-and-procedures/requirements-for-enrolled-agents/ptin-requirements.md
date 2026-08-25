@@ -20,7 +20,18 @@ forms: []
 related: ["3.1.2.l", "3.1.2.j", "3.1.1.a", "3.1.4.d", "3.1.1.b", "3.4.3.a"]
 changelog:
   - { date: "2026-08-18", summary: "Initial publication from IRC § 6109(a)(4), Reg. § 1.6109-2, Circular 230 § 10.8 and the IRS PTIN guidance opened 18 August 2026." }
+  - { date: "2026-08-25", summary: "Added a plain-language summary, glossary marks, and typed scenarios." }
 ---
+
+<div class="plain-terms">
+This page is about the PTIN, the ID number the IRS makes paid preparers put on a return.
+Anyone paid to prepare all or most of a tax return needs one. This affects paid preparers of
+every kind, and it affects enrolled agents in a special way: they must hold one no matter what
+kind of work they do, even if they never touch a return. It does not affect people who file
+their own return, or an employee who only prepares returns for their own employer. What it
+decides is who must get a number, when doing just one part of a return is enough to trigger the
+rule, and what the number does and does not let a preparer do.
+</div>
 
 The PTIN rule is easy to state and easy to get wrong at the edges. The statute requires a preparer's identifying number on the return; the regulation says what that number is and who may hold one; Circular 230 § 10.8 makes it a condition of practice. The examinable material is at the boundaries — who needs one, and what it does *not* authorise.
 
@@ -62,19 +73,19 @@ What a PTIN is **not** matters as much as what it is. It confers no practice rig
 
 Three mechanical rules round it out, each from the IRS guidance opened for this page. A PTIN is **individual and non-shareable** — an office may not operate on one number, and no preparer may hold more than one. The applicant must be at least **18**. And an employee who prepares only their **employer's** returns as part of the job is not required to sign as a paid preparer and, absent other paid preparation, does not need a PTIN.
 
-<div class="scenario">
+<div class="scenario" data-type="fails">
 <h3>The enrolled agent who prepares nothing</h3>
-<p>An enrolled agent runs a pure representation practice — collection cases, examinations, appeals — and has not prepared a return for compensation in four years. She lets her PTIN lapse, reasoning that the PTIN requirement attaches to preparation.</p>
-<p><em>Analysis.</em> Wrong. The IRS states that a PTIN must be obtained by <em>all enrolled agents</em>, and Circular 230 § 10.6(d)(2)(i) requires every enrolled agent to renew their PTIN as prescribed, independently of the triennial enrollment renewal. The rule she is thinking of — PTIN only where all or substantially all of a return is prepared — is the rule for attorneys and CPAs, not for enrolled agents.</p>
+<p>An {gloss:enrolled-agent} runs a pure representation practice — collection cases, examinations, appeals — and has not prepared a return for compensation in four years. She lets her PTIN lapse, reasoning that the PTIN requirement attaches to preparation.</p>
+<p><em>Analysis.</em> Wrong. The IRS states that a PTIN must be obtained by <em>all enrolled agents</em>, and {gloss:circular-230} § 10.6(d)(2)(i) requires every enrolled agent to renew their PTIN as prescribed, independently of the triennial enrollment renewal. The rule she is thinking of — PTIN only where all or substantially all of a return is prepared — is the rule for attorneys and CPAs, not for enrolled agents.</p>
 </div>
 
-<div class="scenario">
+<div class="scenario" data-type="boundary">
 <h3>Schedule EIC alone</h3>
 <p>A firm assigns a paid junior staff member, who has no credential and no PTIN, to complete Schedule EIC for a number of simple returns. A credentialed preparer completes and signs the rest of each return.</p>
 <p><em>Analysis.</em> Reg. § 1.6109-2(g) says in terms that preparing a form or schedule such as Schedule EIC <em>may</em> constitute preparing all or substantially all of the return, on the complexity, amount and tax-effect factors. On a simple return where the credit drives most of the tax result, it will — and if it does, the staff member is a tax return preparer for PTIN purposes and needed one before starting. Circular 230 § 10.8(a) subjects them to subparts B and C as well.</p>
 </div>
 
-<div class="scenario">
+<div class="scenario" data-type="procedural">
 <h3>The shared office number</h3>
 <p>Three preparers in a small storefront agree to file everything under the senior preparer's PTIN, on the basis that he reviews every return. He also keeps a second PTIN from an earlier practice.</p>
 <p><em>Analysis.</em> Two violations. Every individual who for compensation prepares or assists in preparing a return must have <em>his or her own</em> PTIN, and no preparer may hold more than one. Reg. § 1.6109-2(a)(1) requires the number of the preparer required by Reg. § 1.6695-1(b) to sign — the person who actually prepared it — plus the employer's EIN where an employment arrangement exists. Filing under someone else's number puts the wrong identifying number on the return, engaging IRC § 6695(c).</p>

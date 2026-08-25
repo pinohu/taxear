@@ -26,7 +26,18 @@ forms: []
 related: ["1.5.1.j", "1.3.1.a", "1.3.1.b", "1.2.1.i", "1.5.1.l", "1.5.1.m", "1.5.1.o"]
 changelog:
   - { date: "2026-08-20", summary: "Initial draft. Sets out the timing rules a cash-method individual actually plans around — inclusion on receipt under IRC § 451(a) and constructive receipt under Reg. § 1.451-2(a), deduction on payment under Reg. § 1.461-1(a)(1), the § 461(g) prepaid interest rule and its points exception, contribution timing under Reg. § 1.170A-1(b), the § 63(e) itemize election that makes bunching possible, the § 219(f)(3) IRA look-back, the § 26(a) ceiling on nonrefundable credits, and the three blocking rules in §§ 1091, 267(a)(2) and 461(g)." }
+  - { date: "2026-08-25", summary: "Added a plain-language summary, glossary marks, and typed scenarios." }
 ---
+
+<div class="plain-terms">
+Tax planning at year-end is about timing. By November, most of a person's income for the year is
+already fixed. What is not fixed is which year certain deductions, gifts, and payments count in, and
+moving that date can change how much tax is owed. This page is for anyone deciding whether to pay a
+bill, give to charity, or sell an investment at a loss before or after December 31. It affects nearly
+every taxpayer who itemizes or invests, at least a little. It does not create new deductions. It only
+decides which year an existing one lands in, and three long-standing rules stop the most obvious
+shortcuts.
+</div>
 
 By the time a client sits down in November, the year's income is largely fixed. What is not fixed is
 which year some of it falls in, and which year the deductions against it fall in. Timing is the last
@@ -124,7 +135,7 @@ capital loss that offsets realised gains. The wash sale rule sets the constraint
 both directions — a purchase 25 days *before* the sale disallows the loss just as a purchase 25 days
 after does.
 
-<div class="scenario">
+<div class="scenario" data-type="fails">
 <h3>The mortgage payment that bought nothing</h3>
 
 A client pays his January mortgage instalment on 28 December to get another month of interest into the
@@ -138,7 +149,7 @@ because the interest would be allocable to December.
 
 </div>
 
-<div class="scenario">
+<div class="scenario" data-type="timing">
 <h3>Two routes for the same shares</h3>
 
 A client wants to give appreciated stock worth $30,000 to her donor-advised fund and decides on
@@ -153,11 +164,11 @@ test.
 
 </div>
 
-<div class="scenario">
+<div class="scenario" data-type="baseline">
 <h3>Bunching two years into one</h3>
 
 A married couple has $9,000 of charitable giving and $6,000 of deductible state and local taxes a year,
-against a standard deduction they cannot clear. Itemizing gains them nothing in either year.
+against a {gloss:standard-deduction} they cannot clear. Itemizing gains them nothing in either year.
 
 They make the 2026 and 2027 charitable gifts both in December 2026 — $18,000 — and pay the state
 balance due in the same month. For 2026 they itemize; for 2027 they take the standard deduction and give
@@ -167,7 +178,7 @@ none is worth more than two average years.
 
 </div>
 
-<div class="scenario">
+<div class="scenario" data-type="interaction">
 <h3>The harvest that was undone in advance</h3>
 
 A client sells a mutual fund position on 15 December at a $22,000 loss to offset a gain realised in
@@ -182,7 +193,7 @@ replacement shares — but it does not offset this year's gain, which was the en
 
 <div class="callout trap">
 
-**"I'll just not cash the cheque."** Constructive receipt does not care. Under Reg. § 1.451-2(a) income
+**"I'll just not cash the cheque."** {gloss:constructive-receipt} does not care. Under Reg. § 1.451-2(a) income
 credited, set apart, or made available is received, and declining to collect it is not a substantial
 limitation or restriction.
 
@@ -203,7 +214,7 @@ applies to a principal residence purchase or improvement, not to a refinancing a
 buys no deduction at all, and the phase-down at {fig:salt.phasedown} can put a client back below the
 line they thought they were above.
 
-**Forgetting that the wash sale window opens before the sale.** Automatic reinvestment of dividends and
+**Forgetting that the {gloss:wash-sale} window opens before the sale.** Automatic reinvestment of dividends and
 standing purchase instructions are the usual culprits, and the client will not think of them as
 purchases.
 

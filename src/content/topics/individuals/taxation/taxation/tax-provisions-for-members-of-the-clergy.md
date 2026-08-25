@@ -20,7 +20,19 @@ forms: []
 related: ["1.4.1.d", "1.2.4.a", "1.4.1.c", "1.4.1.e", "1.4.1.g"]
 changelog:
   - { date: "2026-08-19", summary: "Initial draft. Sets out the IRC § 107 housing exclusion and the Reg. § 1.107-1(b) advance designation requirement, the § 1402(a)(8) inclusion of the same amount in net earnings from self-employment with its retirement carve-out, the two exemptions in § 1402(c) and (e), the exclusion of ministerial service from FICA and from income tax withholding under §§ 3121(b)(8)(A) and 3401(a)(9), and the § 265(a)(6)(B) preservation of mortgage interest and property tax deductions." }
+  - { date: "2026-08-25", summary: "Added a plain-language summary, glossary marks, two typed scenarios (timing, procedural) alongside the three existing ones now typed baseline/fails/interaction, and a decision diagram of the two self-employment tax exemptions." }
+diagram:
+  archetype: "decision"
+  caption: "Is a minister's ministerial income exempt from self-employment tax?"
+  tests:
+    - { test: "Member of a religious order under a vow of poverty?", result: "Exempt automatically — no application needed", outcome: "pass" }
+    - { test: "Approved § 1402(e) application on file (conscientious or religious opposition)?", result: "Exempt from self-employment tax on ministerial income only", outcome: "pass" }
+    - { test: "Neither of the above?", result: "Self-employment tax applies — housing value or allowance included", outcome: "fail" }
 ---
+
+<div class="plain-terms">
+This page covers the tax rules for ministers and other clergy. It is for anyone ordained or licensed to serve as a minister. It matters most for a minister who gets a home, or a housing allowance, as part of their pay. Two things get decided here. First, how much of that housing benefit stays out of regular income tax. Second, how much of it still counts toward Social Security and Medicare tax. A minister pays that second tax alone, as if self-employed, even while working as a normal employee for everything else.
+</div>
 
 A minister occupies two positions at once, and the whole of this topic follows from that. For income tax
 they are ordinarily a common law employee, receiving a Form W-2. For social security they are
@@ -37,7 +49,7 @@ furnishings plus utilities, and by the amount designated.
 **The designation must come first.** {fig:clergy.designation} And an allowance not spent on providing a
 home in the year received must be included in gross income for that year (Reg. § 1.107-1(c)).
 
-**Self-employment tax reaches it anyway.** {fig:clergy.se_inclusion} This is the single most important
+**{gloss:self-employment-tax} reaches it anyway.** {fig:clergy.se_inclusion} This is the single most important
 point on the topic, and the one that surprises clients: the same dollars that escape income tax are in
 the base for self-employment tax at the full combined rate, with no employer paying half.
 
@@ -55,7 +67,7 @@ the closing sentence of § 1402(c) carves a member of a religious order who has 
 reversal — while everyone else must apply and be approved. The application under § 1402(e) is
 irrevocable and reaches only ministerial income.
 
-**No withholding, either kind.** {fig:clergy.withholding} A minister who wants tax withheld may agree
+**No withholding, either kind — no income tax and no {gloss:fica}.** {fig:clergy.withholding} A minister who wants tax withheld may agree
 with the congregation to have additional income tax withheld under a voluntary arrangement, which is
 often used to cover the self-employment liability as well; otherwise estimated payments are required.
 
@@ -100,7 +112,7 @@ both taxes, or a voluntary withholding agreement large enough to cover both.
 **Then consider the exemption only if it genuinely applies.** It requires a statement of conscientious
 or religious opposition to public insurance — not a financial objection — and it cannot be undone.
 
-<div class="scenario">
+<div class="scenario" data-type="baseline">
 <h3>Two different totals from the same facts</h3>
 
 Reverend Mensah lives in a parsonage owned by the congregation with a fair rental value of $800 a month.
@@ -112,7 +124,7 @@ regard to § 107, so the base is $35,000 plus $2,000 plus $9,600, or $46,600. Sa
 the larger one carries the tax that has no employer half.
 </div>
 
-<div class="scenario">
+<div class="scenario" data-type="fails">
 <h3>The designation that came too late</h3>
 
 A congregation votes in November to designate $18,000 of the year's salary, already paid month by month,
@@ -126,7 +138,7 @@ minister's remedy is a designation for next year, and the point is worth raising
 before the budget is set.
 </div>
 
-<div class="scenario">
+<div class="scenario" data-type="interaction">
 <h3>Interest, taxes, and an allowance that paid for them</h3>
 
 Pastor Oyelaran receives a designated housing allowance of $24,000, spends it on mortgage payments,
@@ -137,6 +149,34 @@ He excludes the whole allowance from gross income under § 107(2). He also deduc
 and the real property taxes on Schedule A, even though the money that paid them was excluded — § 265(a)
 would normally deny a deduction allocable to tax-exempt income, and § 265(a)(6)(B) disapplies it for
 exactly this case. And the $24,000 is still in his self-employment tax base.
+</div>
+
+<div class="scenario" data-type="timing">
+<h3>The same allowance, before and after retirement</h3>
+
+Reverend Achike's former denomination designates $16,000 a year as a housing allowance: first while she
+is still serving a congregation, and again five years later out of her church pension after she retires.
+
+Same label, different tax years, different answer. While she is active, § 1402(a)(8) requires the
+$16,000 to be added back into net earnings from self-employment, so it carries self-employment tax
+even though it is excluded from income tax. Once she has retired, the identical designation is a
+parsonage allowance provided after retirement, and § 1402(a)(8) removes it from the self-employment
+base as well — the income tax exclusion is unchanged, but the self-employment tax exposure disappears
+the moment her employment does.
+</div>
+
+<div class="scenario" data-type="procedural">
+<h3>Two exemptions, two very different processes</h3>
+
+Brother Femi, a member of a religious order, has taken a vow of poverty. Reverend Diallo, ordained but
+belonging to no order, wants out of self-employment tax on grounds of conscientious opposition to
+public insurance.
+
+Brother Femi does nothing further — the closing sentence of § 1402(c) removes services performed for the
+order from self-employment tax without an application. Reverend Diallo must file a timely application
+under § 1402(e), stating the opposition and waiving the right to Social Security benefits based on his
+ministerial earnings, and have it approved before it takes effect; approval is not automatic and, once
+granted, cannot later be revoked because his views or his finances changed.
 </div>
 
 <div class="callout trap">

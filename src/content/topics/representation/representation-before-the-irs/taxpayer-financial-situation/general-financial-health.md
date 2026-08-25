@@ -21,7 +21,12 @@ forms: ["433-A", "433-B"]
 related: ["3.2.3.a", "3.2.3.d", "3.2.3.e", "3.2.3.c"]
 changelog:
   - { date: "2026-08-19", summary: "Initial draft. Notes that the qualified principal residence indebtedness exclusion in IRC § 108(a)(1)(E) reached discharges before 1 January 2026 and has not been extended." }
+  - { date: "2026-08-25", summary: "Added a plain-language summary, glossary marks, and typed scenarios." }
 ---
+
+<div class="plain-terms">
+A tax debt rarely sits alone. This page is about looking at a client's whole financial life before giving advice — other debts, a business's cash flow, wage garnishments, what property is really worth. It matters to anyone being asked to pay the IRS who also owes other creditors, runs a business with ups and downs, or has settled a debt for less than they owed. It does not change how much tax is owed on its own. What it decides is what counts as available money and property when the IRS sizes up a case, and whether debt that another creditor wrote off gets taxed as income. Missing a piece of this picture leads to advice that looks solid and turns out wrong.
+</div>
 
 ## The rule
 
@@ -113,11 +118,11 @@ attributes — net operating losses, credits, basis and so forth — under § 10
 excludes a large discharge on insolvency grounds may find a basis reduction waiting in the year
 they sell the asset.
 
-<div class="scenario">
+<div class="scenario" data-type="boundary">
 <h3>The offer priced at the wrong value</h3>
 
 Ilse Vandermeer's only substantial asset is a small commercial building. Her representative
-prepares a doubt-as-to-collectibility offer using the fair market value from a recent appraisal,
+prepares a doubt-as-to-collectibility offer using the {gloss:fair-market-value} from a recent appraisal,
 reasoning that using the highest number is the conservative choice.
 
 It is the wrong number and it costs the client money. The offer computation for a real estate
@@ -130,7 +135,7 @@ priced from there. "Conservative" is not a virtue when it means paying more than
 requires.
 </div>
 
-<div class="scenario">
+<div class="scenario" data-type="procedural">
 <h3>The seasonal business and the increasing-payment plan</h3>
 
 Oyelaran Fixtures is a small manufacturer with employment tax arrears. Revenue collapses each
@@ -140,14 +145,14 @@ January.
 
 The representative prepares a twelve-month cash flow projection alongside the Form 433-B — the
 IRM contemplates exactly this, treating projections as the tool for a business that cannot pay on
-first contact or over a short period. The proposal is a graduated agreement: a low payment
+first contact or over a short period. The proposal is a graduated {gloss:installment-agreement}: a low payment
 December through March, stepping up April through November, retiring the balance inside the
 collection statute. IRM 5.15.1.16 gives the revenue officer an example in the same shape, which
 is the reason a graduated proposal supported by projections is received as an ordinary request
 rather than a novel one.
 </div>
 
-<div class="scenario">
+<div class="scenario" data-type="interaction">
 <h3>Settled with the card companies, taxed by the IRS</h3>
 
 Bartholomew Ng settles about 41,000 dollars of credit card debt for a fraction of the balance
@@ -156,7 +161,7 @@ while working through a payment plan on an older income tax liability. In Januar
 
 He was broke, and that is the point — but it must be computed and claimed. Immediately before the
 first discharge his liabilities exceeded the fair market value of his assets by about 26,000
-dollars, so the exclusion covers that much and the remainder is income. The representative
+dollars, so the {gloss:insolvency} exclusion covers that much and the remainder is income. The representative
 prepares a schedule of assets and liabilities immediately before each discharge, in the order the
 discharges occurred, because each one reduces liabilities and therefore reduces the insolvency
 available for the next. Form 982 is filed with the return, and the excluded amount reduces his tax

@@ -29,7 +29,26 @@ forms: []
 related: ["2.2.5.d", "2.2.4.a", "2.2.5.i", "2.2.5.j", "2.2.5.f", "2.2.5.h", "2.2.5.m"]
 changelog:
   - { date: "2026-08-21", summary: "Initial draft. Sets out the four axes on which entity choice actually turns — the IRC § 11(b) corporate rate against single-level taxation, the IRC § 1402 self-employment tax treatment of each form, the IRC § 199A computation and its different mechanics by entity, and the flexibility differences in allocation, basis and exit — together with the IRC § 1361(b) eligibility limits that decide whether the S election is available at all." }
+  - { date: "2026-08-25", summary: "Added a plain-language summary, an eligibility decision diagram for the S election, glossary marks, and a fourth typed scenario on the shareholder-count boundary." }
+diagram:
+  archetype: "decision"
+  caption: "The three gates an S corporation election must clear — miss any one and the election fails"
+  tests:
+    - { test: "Shareholder count", result: "100 or fewer shareholders", outcome: "pass" }
+    - { test: "Shareholder eligibility", result: "Every shareholder is an individual, estate, or qualifying trust — no corporation, partnership, or nonresident alien", outcome: "pass" }
+    - { test: "Stock structure", result: "Only one class of stock — differences in voting rights alone are permitted", outcome: "pass" }
 ---
+
+<div class="plain-terms">
+This page is about picking the legal and tax setup for a business. Options include a sole owner, a
+partnership, an S corporation, or a C corporation. This choice matters most for anyone starting or
+reshaping a business. It matters less once a business is already set in one form. The choice
+decides how many times profit gets taxed. It decides how much extra tax owners pay on their own
+work. It decides how a valuable business write-off is worked out. And it decides how easy it is to
+later sell the business or bring in an investor. The best choice depends on what the owners plan to
+do with the money. It also depends on how they plan to leave one day. It is not just about which
+option has the lowest tax rate today.
+</div>
 
 Entity choice is usually presented as a comparison of tax rates, which is the least useful way to
 think about it. The rate comparison is one input among four, it is the input most likely to change
@@ -111,12 +130,12 @@ reason to get the first choice approximately right.
 
 ## Scenarios
 
-<div class="scenario">
+<div class="scenario" data-type="fails">
 <h3>The preferred stock that ended the question</h3>
 
-Marlowe Analytics is formed by three founders who want S corporation treatment for the
-self-employment tax profile. Eighteen months later an investor offers $2,000,000 for preferred stock
-carrying a liquidation preference and a fixed return.
+Marlowe Analytics is formed by three founders who want {gloss:s-corporation} treatment for the
+{gloss:self-employment-tax} profile. Eighteen months later an investor offers $2,000,000 for
+preferred stock carrying a liquidation preference and a fixed return.
 
 The investment terminates the S election. IRC § 1361(b)(1)(D) denies small business corporation
 status to a corporation with more than one class of stock, and preferred stock carrying different
@@ -130,7 +149,7 @@ investment never came. The lesson is that the S election forecloses a financing 
 partnership form accommodates.
 </div>
 
-<div class="scenario">
+<div class="scenario" data-type="baseline">
 <h3>Two owners, the same profit, different tax</h3>
 
 Two consultants each earn $180,000 of business profit. One operates as a sole proprietor. The other
@@ -148,13 +167,13 @@ S corporation must run payroll, file employment tax returns, and comply with the
 eligibility limits for as long as the election lasts.
 </div>
 
-<div class="scenario">
+<div class="scenario" data-type="interaction">
 <h3>The buyer who wanted basis</h3>
 
 Havering Fabrication's owner wants to sell for $6,000,000. The company holds machinery with a low
 adjusted basis. The buyer wants a depreciable basis in the assets equal to what it is paying.
 
-If Havering is an S corporation, a stock sale gives the buyer no inside basis step-up and there is
+If Havering is an {gloss:s-corporation}, a stock sale gives the buyer no inside basis step-up and there is
 no IRC § 754 equivalent to pass one through. The buyer will want an asset purchase, on which the
 S corporation recognises gain that passes to the seller — much of it ordinary through IRC § 1245
 recapture — so the seller resists.
@@ -164,6 +183,25 @@ and an IRC § 754 election would push a corresponding adjustment inside to the a
 — giving the buyer the depreciable basis it wants without the seller having to sell assets. The
 entity chosen at formation determines how much of the sale price survives the transaction, which is
 why the exit belongs in the analysis at the start.
+</div>
+
+<div class="scenario" data-type="boundary">
+<h3>The count that landed exactly on the line</h3>
+
+Kestrel Holdings has grown to exactly 100 shareholders, every one an individual U.S. resident, and a
+single class of common stock. The founder asks whether one more investor can be admitted without
+losing S status, and whether the company is already too large.
+
+It is not too large yet. IRC § 1361(b)(1)(A) denies eligibility to a corporation that has "more than"
+100 shareholders — the statute names a ceiling to exceed, not a headcount to stay under. A hundred
+shareholders is squarely inside the limit, and the {gloss:qualified-business-income-deduction}
+available to the company's owners is unaffected either way, since that deduction has no shareholder
+cap of its own.
+
+Admit one more and the answer flips immediately. The 101st shareholder — assuming none of them counts
+as part of a family group treated as a single shareholder — takes the corporation past the line the
+day the stock is issued, terminating the election from that date rather than at year end. The founder
+should know the exact count before agreeing to the round, not after.
 </div>
 
 ## Traps

@@ -28,7 +28,12 @@ forms: []
 related: ["1.2.2.c", "1.2.2.j", "1.2.1.g", "1.2.2.b", "1.1.1.f"]
 changelog:
   - { date: "2026-08-19", summary: "Initial draft. Sets out the IRC § 402(b) treatment of a trust that is not exempt under § 501(a) — employer contributions taxed under § 83 as they vest and the § 402(b)(4)(A) rule for a highly compensated employee — the § 911(b)(1)(B) exclusion of pensions and § 402(b) amounts from foreign earned income, the § 894 and § 7852(d) treaty rules, and the three separate reporting regimes under § 6038D, § 6048 and 31 CFR 1010.350, with the Rev. Proc. 2020-17 relief that reaches only the second." }
+  - { date: "2026-08-25", summary: "Added a plain-language summary, two typed scenarios (timing, procedural), and glossary marks." }
 ---
+
+<div class="plain-terms">
+This page covers U.S. tax on a pension or retirement account from another country. It matters to anyone who worked abroad, or who still holds money in a foreign plan, even after moving back home. It does not matter if all your savings sit in ordinary U.S. accounts. The rule decides two things. First, when the money gets taxed here, which can be years before you touch it. Second, which extra forms you must file about a foreign account, apart from your normal tax return. A tax treaty can change the first answer. It almost never removes the second one. So the extra forms often stay due even when the tax itself does not.
+</div>
 
 The mistake this topic punishes is assuming that a foreign retirement arrangement is the foreign
 equivalent of a 401(k) and is therefore tax-deferred here. It is not. Qualified status is a creature of
@@ -134,7 +139,7 @@ arrangement is a foreign trust at all. One can be met and another missed in the 
 Do not overlook the timing mismatch on the credit: where § 402(b) taxes contributions on vesting and the
 host country taxes the pension on payment, the credit arrives in the wrong year and § 904 may strand it.
 
-<div class="scenario">
+<div class="scenario" data-type="baseline">
 <h3>Scenario 1 — taxed on money he cannot reach</h3>
 
 Anand is a United States citizen working in a country with no relevant treaty article. His employer
@@ -143,12 +148,12 @@ immediately under local law, though he cannot draw on it until 60.
 
 Because the fund is not a trust exempt under IRC § 501(a), § 402(b)(1) includes the contribution in his
 gross income in accordance with § 83, and there is no substantial risk of forfeiture to defer it. He
-reports 14,000 dollars for 2026. The foreign earned income exclusion does not help: § 911(b)(1)(B)(iii)
+reports 14,000 dollars for 2026. The {gloss:foreign-earned-income-exclusion} does not help: § 911(b)(1)(B)(iii)
 takes § 402(b) amounts out of foreign earned income entirely. The 14,000 dollars becomes investment in the
 contract and comes back tax-free later — if he still has the record.
 </div>
 
-<div class="scenario">
+<div class="scenario" data-type="interaction">
 <h3>Scenario 2 — the relief that relieved one form</h3>
 
 Beatriz holds a tax-favored foreign retirement account worth 260,000 dollars, contributed to only out of
@@ -163,7 +168,7 @@ with no exception available because 31 CFR 1010.350(g)(4) reaches only domestic 
 each with its own penalty.
 </div>
 
-<div class="scenario">
+<div class="scenario" data-type="fails">
 <h3>Scenario 3 — the pension that is not social security</h3>
 
 Cormac, a United States resident, receives 19,000 dollars a year from a foreign government's state
@@ -176,6 +181,36 @@ full under § 61(a)(11), and it also enters adjusted gross income — so it incr
 § 86(b)(1)(A) and pulls more of the United States benefits into income as well. Whether a treaty article
 assigns taxing rights over the foreign pension to the other country is a separate question that has to be
 answered from the treaty text.
+</div>
+
+<div class="scenario" data-type="timing">
+<h3>Scenario 4 — vested last year, taxed last year</h3>
+
+A United States citizen's foreign employer contributes to her retirement fund every year. In 2024 her
+interest in the fund was still subject to a genuine risk of forfeiture under the plan's vesting
+schedule. In 2026 that risk lapsed entirely, and the account is now fully hers. Had a {gloss:tax-treaty}
+covering pension accruals applied, the timing question would start with the treaty text instead — but
+here none does.
+
+Nothing was included in her gross income for 2024, because § 402(b)(1) applies § 83, and § 83 does not
+tax property subject to a substantial risk of forfeiture. The entire account — contributions from
+every year, not just 2026 — becomes includible in 2026, the year the risk of forfeiture actually
+lapsed. The taxing event is tied to when the interest becomes vested, not to when each separate
+contribution was made, so a multi-year buildup can land in gross income all at once in a single later
+year.
+</div>
+
+<div class="scenario" data-type="procedural">
+<h3>Scenario 5 — three deadlines, not one</h3>
+
+A practitioner is preparing a return for a client with one foreign retirement account. The client asks
+for a single filing date to put on the calendar.
+
+There isn't one. The income tax return, carrying the § 402(b) inclusion, is due on the ordinary return
+date. Form 8938 under § 6038D is filed with that same return, so it shares the date. But the
+{gloss:fbar} is a separate filing to FinCEN, due 15 April with an automatic extension to 15 October
+that the taxpayer does not have to request — and it is not filed with the return at all. A single
+calendar entry is not enough; the practitioner needs at least two.
 </div>
 
 <div class="callout trap">

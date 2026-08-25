@@ -26,7 +26,25 @@ forms: []
 related: ["2.2.3.a", "2.2.3.c", "2.2.3.d", "2.2.2.k", "2.2.2.c", "2.2.3.e", "2.2.4.e"]
 changelog:
   - { date: "2026-08-21", summary: "Initial draft. Sets out the IRC § 1001 computation of gain or loss and what enters the amount realised, the IRC § 1231(b) definition of property used in the trade or business and the IRC § 1231(a) netting that gives the best of both characters, the IRC § 1231(c) five-year lookback that recaptures earlier ordinary losses, and the IRC § 1245 and IRC § 1250 recapture rules with the IRC § 1(h)(6) unrecaptured gain that survives them." }
+  - { date: "2026-08-25", summary: "Added a plain-language summary, a decision diagram of the recapture-netting-lookback sequence, glossary marks, and two typed scenarios (boundary, interaction) rounding the scenario set out to five types." }
+diagram:
+  archetype: "decision"
+  caption: "How a sale of business property gets its character — three steps, always in this order"
+  tests:
+    - { test: "§ 1245 / § 1250 depreciation recapture", result: "Recognized first, as ordinary income", outcome: "fail" }
+    - { test: "What's left nets under § 1231(a)", result: "Net gain becomes long-term capital gain; net loss becomes ordinary", outcome: "pass" }
+    - { test: "5-year lookback under § 1231(c)", result: "A net gain is ordinary to the extent of unrecaptured § 1231 losses from the last 5 years", outcome: "fail" }
 ---
+
+<div class="plain-terms">
+This page covers what happens when a business sells something it owns, like a truck or a
+building. It affects any business that sells a used item, not just one that is closing. Two
+questions get asked, in a set order. First: how much gain or loss is there? Second: what kind is
+it — plain wage-like income, or the kind taxed at a lower rate? The order matters a lot. Past
+write-offs on the item often get pulled back first, taxed like wages. Only what is left over can
+get the lower rate. That is why selling old gear for cash can bring a bigger tax bill than a
+business expects.
+</div>
 
 Selling a business asset raises two questions in a fixed order, and taking them in the wrong order
 gives the wrong answer. How much gain, and what kind. The second is decided by three provisions
@@ -111,7 +129,7 @@ property after a year.
 adjustments follow IRC § 164(d) rather than the contract — the same rule that governs the
 purchaser's basis, read from the other side.
 
-<div class="scenario">
+<div class="scenario" data-type="baseline">
 <h3>Two assets, one sale, two characters</h3>
 
 A manufacturer sells its site for $1,400,000, allocated $900,000 to the building and $500,000 to
@@ -121,7 +139,7 @@ $620,000 and was fully expensed, so its adjusted basis is zero.
 
 **The machinery.** Gain is $500,000. {fig:disp.1245_recapture} (IRC § 1245(a)(1)) — recomputed
 basis is $620,000, the amount realised is $500,000, the lower is $500,000, and adjusted basis is
-zero. The whole $500,000 is ordinary income and nothing reaches IRC § 1231.
+zero. The whole $500,000 is {gloss:ordinary-income} and nothing reaches IRC § 1231.
 
 **The building.** Gain is $460,000. {fig:disp.1250_recapture} (IRC § 1250(a)(1)(A)) recaptures the
 applicable percentage of the **additional** depreciation, and there is none, because the building
@@ -129,14 +147,15 @@ was depreciated straight line. So IRC § 1250(a) produces nothing and the whole 
 IRC § 1231 gain.
 
 **The netting.** With no IRC § 1231 losses, {fig:disp.1231_netting} treats the $460,000 as
-long-term capital gain — but {fig:disp.unrecaptured_1250} (IRC § 1(h)(6)(A)) carves out $260,000 of
-it as unrecaptured IRC § 1250 gain, taxed at its own rate, leaving $200,000 at the general rate.
+{gloss:long-term-capital-gain} — but {fig:disp.unrecaptured_1250} (IRC § 1(h)(6)(A)) carves out
+$260,000 of it as unrecaptured IRC § 1250 gain, taxed at its own rate, leaving $200,000 at the
+general rate.
 
 One sale, three different rates, and the split is decided entirely by which recapture provision
 each asset falls under.
 </div>
 
-<div class="scenario">
+<div class="scenario" data-type="timing">
 <h3>The lookback that arrived four years late</h3>
 
 A business had a net IRC § 1231 loss of $180,000 in 2023, deducted in full as ordinary. It had no
@@ -158,7 +177,7 @@ provision, and a business that can defer a gain past the fifth year converts $18
 income into capital gain by doing nothing.
 </div>
 
-<div class="scenario">
+<div class="scenario" data-type="fails">
 <h3>The equipment nobody expected to be ordinary</h3>
 
 A consultancy bought a $90,000 vehicle fleet in 2024, expensed it in full under IRC § 179, and
@@ -177,6 +196,38 @@ This is now the ordinary case rather than an exception. Because IRC § 179 and b
 write off most business equipment in the year it is acquired, almost every subsequent sale of
 equipment produces gain equal to the whole price, and all of it is ordinary. The immediate
 deduction was not free — it converted a future capital gain into future ordinary income.
+</div>
+
+<div class="scenario" data-type="boundary">
+<h3>The year gains and losses landed exactly even</h3>
+
+A logistics business has two IRC § 1231 transactions in 2026: a $70,000 gain on a sold parcel of
+land and a $70,000 loss on a scrapped loading dock, with no depreciation {gloss:recapture} on
+either.
+
+{fig:disp.1231_netting} (IRC § 1231(a)) turns on whether the year's IRC § 1231 gains *exceed* the
+year's IRC § 1231 losses. Here they are equal, not greater — so the gains do not exceed the losses,
+and IRC § 1231(a)(2) governs: the whole of both, $70,000 of gain and $70,000 of loss, is treated as
+ordinary, not capital. Move the gain to $70,001 instead and the outcome flips entirely: the gains
+now exceed the losses, both transactions become long-term capital under IRC § 1231(a)(1), and a
+single extra dollar of gain changes the character of $140,000.
+</div>
+
+<div class="scenario" data-type="interaction">
+<h3>The net loss that didn't stop at IRC § 1231</h3>
+
+A single-member LLC selling event-rental equipment has a bad year: a net IRC § 1231 loss of
+$310,000 from scrapping outdated gear, on top of ordinary operating losses. The owner is unmarried
+and has no other business income for the year.
+
+{fig:disp.1231_netting} (IRC § 1231(a)(2)) makes the net IRC § 1231 loss ordinary because losses
+exceed gains — that much is straightforward. But an ordinary loss does not stop being tested once
+it is characterised. It joins the taxpayer's other trade or business deductions for the excess
+business loss computation, and {fig:loss.ebl_threshold_2026} is the 2026 amount by which aggregate
+business deductions may exceed aggregate business income before the excess is disallowed for the
+year. A large IRC § 1231 loss that clears the netting rule can still be trapped by IRC § 461(l),
+with the disallowed portion converted into a net operating loss carryforward under
+{fig:loss.ebl_carryover} rather than an immediate deduction.
 </div>
 
 <div class="callout trap">

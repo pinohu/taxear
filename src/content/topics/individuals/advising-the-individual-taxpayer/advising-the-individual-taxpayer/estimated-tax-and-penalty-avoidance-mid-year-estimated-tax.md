@@ -20,7 +20,18 @@ forms: []
 related: ["1.4.1.c", "1.4.1.d", "1.5.1.e", "1.5.1.g", "1.5.1.k", "1.5.1.l"]
 changelog:
   - { date: "2026-08-20", summary: "Initial draft. Covers estimated tax planning under IRC § 6654 from the avoidance side — the two safe harbours in § 6654(d)(1)(B) and (C), the ratable-withholding rule in § 6654(g), the annualised income installment method and its recapture in § 6654(d)(2), the January filing rule in § 6654(h), the farmer and fisherman substitutions in § 6654(i), the statutory exceptions in § 6654(e) and the § 6402(b) credit-forward election." }
+  - { date: "2026-08-25", summary: "Added a plain-language summary, glossary marks, and a fifth typed scenario (comprehension layer)." }
 ---
+
+<div class="plain-terms">
+You are supposed to pay tax as you earn money during the year, not just when you file your return. If
+you pay too little along the way, the IRS can charge you a penalty. This is true even if you pay every
+dollar you owe by the filing deadline. This topic is about safe harbors. A safe harbor is a simple target
+that, once you hit it, wipes out the penalty no matter what your final tax bill turns out to be. It
+matters most to people whose pay is not fully covered by paycheck withholding: self-employed people,
+retirees, investors, and anyone with a big one-time gain. It decides how much to pay, and by when, so you
+avoid an extra charge for paying too slowly.
+</div>
 
 Estimated tax planning is not about predicting the year's tax correctly. It is about landing inside one
 of two safe harbours, at least one of which is knowable in April with no forecasting at all. A client
@@ -116,13 +127,13 @@ all last year, was a citizen or resident throughout, and whose prior year was a 
 no addition this year regardless of what this year's tax turns out to be. This is the single most
 valuable planning fact for a client whose first profitable year is under way.
 
-<div class="scenario">
+<div class="scenario" data-type="timing">
 <h3>The November rescue</h3>
 
-A client with $210,000 of wages and a $95,000 capital gain realised in March made no estimated payments
-and comes in on 3 November. Her prior-year tax was $41,000 and her prior-year adjusted gross income was
-above the threshold, so her harbour is 110 percent of $41,000, or $45,100. Withholding to date is
-$33,000, and her remaining pay periods would add $6,000.
+A client with $210,000 of wages and a $95,000 long-term {gloss:capital-gain} realised in March made no
+estimated payments and comes in on 3 November. Her prior-year tax was $41,000 and her prior-year
+{gloss:adjusted-gross-income} was above the threshold, so her harbour is 110 percent of $41,000, or
+$45,100. Withholding to date is $33,000, and her remaining pay periods would add $6,000.
 
 Paying $6,100 of estimated tax on 15 January will not fix the first three installments — an estimated
 payment is credited on the day it is made, so the April, June and September installments stay short.
@@ -132,7 +143,7 @@ addition to tax.
 
 </div>
 
-<div class="scenario">
+<div class="scenario" data-type="baseline">
 <h3>The consultant who sold in October</h3>
 
 A self-employed consultant expected a quiet year and paid $2,000 per quarter against a prior-year
@@ -147,7 +158,7 @@ March, every installment would have been short.
 
 </div>
 
-<div class="scenario">
+<div class="scenario" data-type="procedural">
 <h3>Annualising, and paying for it later</h3>
 
 A photographer earns nothing until a July commission of $120,000 and nothing after. Her prior-year tax
@@ -161,7 +172,7 @@ recaptures them by enlarging the September installment, which is what her third 
 
 </div>
 
-<div class="scenario">
+<div class="scenario" data-type="boundary">
 <h3>The retired client and the waiver that is not automatic</h3>
 
 A client retired in March at 64, badly misjudged the tax on his first year of pension and IRA income,
@@ -171,6 +182,21 @@ It may, but nothing about it is automatic. The waiver requires the Secretary to 
 retired after attaining age 62 in the year payments were due or the year before — he did — and that the
 underpayment was due to reasonable cause and not willful neglect, which he must establish. The request
 is made on Form 2210 with a statement attached. If it is not requested, it is not granted.
+
+</div>
+
+<div class="scenario" data-type="fails">
+<h3>The forecast that guessed wrong</h3>
+
+A consultant expects a quiet year and elects the current-year 90 percent test rather than the higher
+prior-year harbour, paying $1,500 in April, June and September. In November a client pays a large
+deferred invoice, and her tax for the year comes to $52,000 instead of the $22,000 she had projected.
+
+She owes an {gloss:underpayment-penalty} on all three earlier installments. The 90 percent test is
+measured against the tax actually due for the year once it is known, not against a reasonable forecast
+made at the time — there is no good-faith exception for a current-year election that turns out wrong.
+Had she stayed on the prior-year harbour instead, the amount due each quarter would have been fixed in
+April and immune to what happened in November.
 
 </div>
 

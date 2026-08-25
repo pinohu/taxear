@@ -22,7 +22,17 @@ forms: []
 related: ["2.2.2.j", "2.1.5.c", "2.2.2.e", "2.2.1.a", "2.1.1.b", "2.2.2.b", "2.2.2.c", "2.2.2.d", "2.2.2.f", "2.2.2.g", "2.2.2.h", "2.2.2.i", "2.2.2.l", "2.2.2.m", "2.2.2.o"]
 changelog:
   - { date: "2026-08-21", summary: "Initial draft. Sets out the two IRC § 162(a)(1) tests, the IRC § 162(m) cap on remuneration of a covered employee of a publicly held corporation with the expansion to the five highest paid employees for taxable years beginning after 31 December 2026, the IRC § 132(a) list of excludible fringe benefits and the IRC § 79(a) group-term life figure, the IRC § 3121(d)(3) statutory employee categories with their two disqualifying conditions, and the IRC § 267(a)(2) matching rule that defers a deduction for a payment to a related cash method payee." }
+  - { date: "2026-08-25", summary: "Added a plain-language summary, glossary marks, and two typed scenarios (timing, interaction) alongside the three existing ones now typed boundary/baseline/fails." }
 ---
+
+<div class="plain-terms">
+This page covers what a business pays its owners and workers, and when that pay can be deducted. Pay
+only counts as a business expense if it is a fair amount for real work that was actually done. A
+payment to a relative who does no work fails this test, no matter how small the amount is. This page
+also covers the extra things a business gives workers besides a paycheck, like health coverage or
+life insurance, and which of those a worker must report as their own income. Last, it covers a timing
+trap: paying a bonus to an owner who runs the business can push the deduction back a year.
+</div>
 
 Compensation is the largest deduction most businesses take and the one most often adjusted on
 examination. Three separate questions decide it: whether the amount is deductible at all, when it
@@ -120,7 +130,7 @@ Schedule C rather than as an employee.
 more-than-2-percent S corporation shareholder is treated as though they were a partner. The
 corporation still deducts the cost, but as compensation rather than as an excluded benefit.
 
-<div class="scenario">
+<div class="scenario" data-type="boundary">
 <h3>The bonus that waited fifteen months</h3>
 
 Rossendale Tooling Inc., an accrual method calendar-year C corporation, votes a $180,000 bonus to
@@ -140,7 +150,7 @@ Change it again: make the corporation a personal service corporation and her an 
 {fig:comp.psc_related} then applies whatever her percentage, and the deduction waits.
 </div>
 
-<div class="scenario">
+<div class="scenario" data-type="baseline">
 <h3>Four benefits, four answers</h3>
 
 Calderstone Media Ltd provides its twenty employees with health insurance costing $9,000 each,
@@ -167,7 +177,7 @@ same answer for the employee, and the point of the exercise is that the two ques
 separate.
 </div>
 
-<div class="scenario">
+<div class="scenario" data-type="fails">
 <h3>The salary the family could not justify</h3>
 
 Ashcombe Joinery, a sole proprietorship, pays the owner's 19-year-old son $52,000 as "office
@@ -185,6 +195,36 @@ Note what does not turn on the family relationship. Neither payment is disallowe
 to a relative — IRC § 162(a)(1) says nothing about relatives. What the relationship does is remove
 the arm's length bargaining that would normally establish both facts, which is why family
 employment is examined and why contemporaneous records of hours and duties decide these cases.
+</div>
+
+<div class="scenario" data-type="timing">
+<h3>Same pay, different year</h3>
+
+Millbrook Holdings Inc., a calendar-year publicly held {gloss:c-corporation}, pays its chief
+financial officer and its top salesperson — who is not an officer — $2,000,000 each in 2026. Under
+{fig:comp.162m_covered}, only the officers already named are covered employees for a taxable year
+beginning in 2026, so the salesperson's pay sits outside {fig:comp.162m_cap} entirely and the full
+amount is deductible, subject only to the ordinary reasonableness test.
+
+Move the same facts to 2027 and nothing else changes. The salesperson is now one of the five highest
+compensated employees other than the covered officers, and {fig:comp.162m_covered} brings her within
+the cap for that year and every year after — covered-employee status, once acquired, does not lapse.
+The identical job and the identical pay produce two different answers a single year apart.
+</div>
+
+<div class="scenario" data-type="interaction">
+<h3>The shareholder treated as a partner</h3>
+
+Bracknell Design, an {gloss:s-corporation}, provides health insurance costing $11,000 to each of its
+employees, including its sole shareholder-employee, who owns 100 percent of the stock and works full
+time in the business.
+
+For an ordinary employee this is deductible by the corporation and excluded from income under
+IRC § 106(a). For the shareholder it is not. {fig:sc.two_percent_shareholder} makes her a
+more-than-2-percent shareholder, and {fig:sc.fringe_partner} then treats her as a partner for fringe
+benefit purposes generally — a partner is never an employee for this rule, whatever her actual job
+title. The $11,000 is still deductible by the corporation, but as compensation to her rather than as
+an excluded benefit, and she reports it as her own income.
 </div>
 
 <div class="callout trap">

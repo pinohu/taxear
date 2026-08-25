@@ -19,7 +19,20 @@ forms: []
 related: ["3.1.3.a", "3.1.3.b", "3.1.4.b", "3.1.3.d", "3.1.2.m"]
 changelog:
   - { date: "2026-08-18", summary: "Initial publication from IRC §§ 6702 and 6673, Notice 2010-33 and Circular 230 §§ 10.34, 10.51." }
+  - { date: "2026-08-25", summary: "Added a plain-language summary, glossary marks, and typed scenarios." }
 ---
+
+<div class="plain-terms">
+This page is about a penalty for filing a return, or certain other requests, built on a claim
+the IRS has already called baseless, or filed mainly to cause delay. It matters to any taxpayer
+drawn to a popular claim that paying tax is optional, or that the tax laws don't really apply to
+them. It matters just as much to a preparer asked to file such a thing. Simply being wrong about
+a real, disputed tax question is not the same thing, and does not trigger this penalty. The
+penalty can also hit certain other requests, like a challenge to a collection action, if they
+rest on the same kind of baseless claim. Pulling a request back fast, right after a warning, can
+sometimes avoid the penalty. Other times it cannot. This page sets out which claims count, which
+requests are covered, and when pulling back actually helps.
+</div>
 
 A frivolous submission penalty is not a penalty for being wrong. It is a penalty for filing something that either advances a position the Secretary has already published as frivolous, or that is on its face designed to delay. The distinction matters because the second branch has no list, and because a practitioner who transmits a client's frivolous position has exposure of their own that no client waiver removes.
 
@@ -58,19 +71,19 @@ The two branches behave differently on second chances. A specified frivolous sub
 
 For the practitioner, the exposure is direct, and the standard depends on what is being filed. For **returns and claims for refund**, Circular 230 § 10.34(a) sets the bar at *reasonable basis* — a practitioner may not willfully, recklessly or through gross incompetence sign, or advise a position on, a return that lacks a reasonable basis, is an unreasonable position under § 6694(a)(2), or is a willful attempt to understate. For **documents, affidavits and other papers**, § 10.34(b)(1) sets the bar lower: the position need only be *not frivolous*. Section 10.34(b)(2) then separately bars advising a client to submit any paper whose purpose is to delay or impede, that is frivolous, or that intentionally disregards a rule without a good faith challenge. Reasonable basis is the higher standard, so a position frivolous enough to draw § 6702 fails § 10.34 on either branch — but the two branches are not interchangeable and the exam tests which applies to which document. And § 10.51(a)(7) makes willfully assisting or counselling a client in violating a federal tax law disreputable conduct in itself, which routes the matter to OPR independently of any penalty on the client.
 
-<div class="scenario">
+<div class="scenario" data-type="baseline">
 <h3>The zero return</h3>
 <p>A client presents a Form 1040 reporting zero income against Forms W-2 showing $80,000 of wages, with an attached statement arguing that wages are not income within the meaning of the Code. He asks his preparer to sign and file it.</p>
-<p><em>Analysis.</em> Both § 6702(a) conditions are met: the return contains information that on its face indicates the self-assessment is substantially incorrect, and it rests on a listed position — Notice 2010-33 item (4). The client faces the penalty in addition to the tax, § 6651 additions and any accuracy-related penalty. The preparer who files it is inside Circular 230 § 10.34(b) and, on a willfulness finding, § 10.51(a)(7). Declining the engagement is the only safe answer; filing it with a disclosure does not help, because disclosure addresses unreasonable positions, not frivolous ones. The return branch of Circular 230 § 10.34(a) requires a reasonable basis, which a listed frivolous position cannot have.</p>
+<p><em>Analysis.</em> Both § 6702(a) conditions are met: the return contains information that on its face indicates the self-assessment is substantially incorrect, and it rests on a listed position — Notice 2010-33 item (4). The client faces the {gloss:frivolous-return-penalty} in addition to the tax, § 6651 additions and any accuracy-related penalty. The preparer who files it is inside Circular 230 § 10.34(b) and, on a willfulness finding, § 10.51(a)(7). Declining the engagement is the only safe answer; filing it with a disclosure does not help, because disclosure addresses unreasonable positions, not frivolous ones. The return branch of Circular 230 § 10.34(a) requires a reasonable basis, which a listed frivolous position cannot have.</p>
 </div>
 
-<div class="scenario">
+<div class="scenario" data-type="procedural">
 <h3>The CDP request that bought nothing</h3>
 <p>Facing a levy, a taxpayer files a Form 12153 whose only stated ground is that the IRS is not an agency of the United States. Three weeks later a letter arrives stating that the request is a specified frivolous submission.</p>
-<p><em>Analysis.</em> A § 6330 hearing request is a specified submission, and the ground is Notice 2010-33 item (45). The saving provision is § 6702(b)(3): withdrawing within thirty days of that notice removes the penalty for that submission. The practitioner's first job is the calendar, not the argument. Withdrawal does not restore the CDP rights the request would otherwise have preserved, so the collection alternatives have to be pursued another way.</p>
+<p><em>Analysis.</em> A {gloss:collection-due-process-hearing} request under § 6330 is a specified submission, and the ground is Notice 2010-33 item (45). The saving provision is § 6702(b)(3): withdrawing within thirty days of that notice removes the penalty for that submission. The practitioner's first job is the calendar, not the argument. Withdrawal does not restore the CDP rights the request would otherwise have preserved, so the collection alternatives have to be pursued another way.</p>
 </div>
 
-<div class="scenario">
+<div class="scenario" data-type="fails">
 <h3>Wrong, but not frivolous</h3>
 <p>A taxpayer claims a deduction on a reading of a regulation that the IRS rejects and a court later holds untenable. The return is complete, the figures are honest, and the position is disclosed.</p>
 <p><em>Analysis.</em> No § 6702 penalty. The return contains information on which the substantial correctness of the self-assessment can be judged, nothing on its face indicates substantial incorrectness, the position is not on the list, and there is no desire to delay. An accuracy-related penalty under § 6662 may or may not apply on its own terms, but § 6702 is not in play. Losing an argument is not frivolousness, and conflating the two overstates the risk of ordinary advocacy.</p>

@@ -23,7 +23,27 @@ forms: []
 related: ["2.1.1.b", "2.1.1.c", "2.1.1.e", "2.1.1.g", "2.1.1.k", "2.1.1.i", "2.1.2.j", "2.1.2.k", "2.1.5.a", "2.1.5.b", "2.1.5.f"]
 changelog:
   - { date: "2026-08-21", summary: "Initial draft. Sets out the IRC § 1361(b)(1) eligibility conditions and the § 1361(c)(1) family aggregation rule, the § 1362(b) election window and the § 1362(d) and (f) termination and inadvertent-termination rules, the § 1363(a) absence of entity-level tax with the § 1366(d)(1) basis limitation on losses, the § 1368(b) treatment of distributions, the § 1372 fringe benefit rule for 2-percent shareholders, the § 1377(a)(2) terminating-interest election, and the Reg. § 301.6037-2(a) electronic filing requirement as rewritten to a 10-return test with no asset threshold." }
+  - { date: "2026-08-25", summary: "Added a plain-language summary, a decision diagram of the five S corporation eligibility conditions, glossary marks, and typed scenarios." }
+diagram:
+  archetype: "decision"
+  caption: "Who may elect S corporation status — all five conditions must hold every day the election is in force"
+  tests:
+    - { test: "Domestic corporation, not an ineligible type?", result: "Certain financial institutions and insurance companies are ineligible outright", outcome: "pass" }
+    - { test: "100 or fewer shareholders, with family counted as one?", result: "A common ancestor no more than 6 generations removed, and everyone descending from them, count as a single shareholder", outcome: "pass" }
+    - { test: "Only individuals, estates, and qualifying trusts or exempt organizations as shareholders?", result: "Most other entities as shareholders disqualify the corporation", outcome: "pass" }
+    - { test: "No nonresident alien shareholder?", result: "One nonresident alien shareholder ends eligibility", outcome: "pass" }
+    - { test: "Only one class of stock?", result: "Differences in distribution or liquidation rights create a second class; voting differences alone do not", outcome: "pass" }
 ---
+
+<div class="plain-terms">
+An S corporation starts as an ordinary corporation. It then asks the IRS to tax it in a new way.
+Normally a corporation pays tax on its own profit. Here the profit passes through and gets taxed on
+the owners' own returns. To keep this treatment, the corporation must keep meeting a set of rules all
+year. This is not just a rule for the day it applied. The rules cover how many owners it has. They
+cover who those owners are. They also cover how many kinds of stock it can issue. This affects owners
+of small, closely held firms. It decides if profit is taxed once or twice. It also decides if health
+coverage paid for an owner counts as taxable pay.
+</div>
 
 Subchapter S is a set of conditions attached to a corporation that is, in every other respect, an
 ordinary state-law corporation. Nothing about the entity changes when the election is made; what changes
@@ -132,7 +152,7 @@ different rule, and it applies only to corporations with a C corporation history
 
 ## Scenarios
 
-<div class="scenario">
+<div class="scenario" data-type="boundary">
 <h3>The family that looks too large</h3>
 <p>Marisol founded a produce distribution company in 1996 and elected S status the same year. She died in
 2019. Her stock passed to her four children, and over the following six years it was gifted down to
@@ -148,9 +168,9 @@ the count — it is that a great-grandchild who marries a non-resident alien and
 name would terminate the election on the day of the transfer under IRC § 1362(d)(2).</p>
 </div>
 
-<div class="scenario">
+<div class="scenario" data-type="interaction">
 <h3>The premium nobody put on the W-2</h3>
-<p>Devraj owns 60 percent of an engineering firm that has been an S corporation since 2011. The
+<p>Devraj owns 60 percent of an engineering firm that has been an {gloss:s-corporation} since 2011. The
 corporation pays the premiums on a family health policy covering Devraj, and has done so for years. The
 bookkeeper records the payments as employee benefit expense. Devraj's W-2 shows salary of $180,000 and
 nothing else. On his own return he claims the self-employed health insurance deduction for the $19,400 of
@@ -164,10 +184,10 @@ wash on the income tax — but it changes his W-2, and it changes the base on wh
 questions will be asked if the return is examined.</p>
 </div>
 
-<div class="scenario">
+<div class="scenario" data-type="baseline">
 <h3>The March distribution and the December basis</h3>
 <p>Priya holds all the stock of a design studio that elected S status at formation and has never been a C
-corporation. Her stock basis at 1 January is $34,000. In March she takes $50,000 out of the company to
+corporation. Her stock {gloss:basis} at 1 January is $34,000. In March she takes $50,000 out of the company to
 fund a house deposit. The studio's year turns out well: her share of ordinary income for the year is
 $61,000, and there are no separately stated items.</p>
 <p>Nothing about the March payment is determined in March. Under IRC § 1368(b) the distribution is
@@ -179,11 +199,11 @@ $34,000 of the distribution would have been a return of capital and the remainin
 gain from the sale or exchange of property under IRC § 1368(b)(2).</p>
 </div>
 
-<div class="scenario">
+<div class="scenario" data-type="procedural">
 <h3>The shareholder who left in April</h3>
 <p>A logistics company with three equal shareholders has an unusually lopsided year: it loses money
 heavily through the first quarter and then wins a contract in May that makes the year profitable overall.
-Ordinary income for the full year is $360,000. Tomás sells his entire third to the other two on 30 April.
+For the full year, {gloss:ordinary-income} is $360,000. Tomás sells his entire third to the other two on 30 April.
 Under the default rule of IRC § 1377(a)(1) his share is worked out per day, so he picks up roughly a third
 of a third of the year's income — about $39,500 — on results that were, in the months he owned the stock,
 losses.</p>

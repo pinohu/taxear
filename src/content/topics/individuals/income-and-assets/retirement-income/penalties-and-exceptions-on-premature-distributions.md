@@ -18,7 +18,26 @@ forms: []
 related: ["1.2.2.b", "1.2.2.c", "1.2.2.d", "1.2.2.a", "1.2.2.f", "1.2.2.g", "1.2.2.h", "1.2.2.i", "1.2.2.k", "1.3.1.a"]
 changelog:
   - { date: "2026-08-19", summary: "Initial draft. Sets out the IRC § 72(t)(1) charge on the includible portion only, the nine general exceptions in § 72(t)(2)(A), the two withheld from IRAs by § 72(t)(3)(A), the three drafted for IRAs alone, the newer capped exceptions, and the § 72(t)(4) recapture." }
+  - { date: "2026-08-25", summary: "Added a plain-language summary, glossary marks, a decision diagram of the general/IRA-only/plan-only exception paths, and two typed scenarios (boundary, fails) alongside the three existing ones." }
+diagram:
+  archetype: "decision"
+  caption: "Does an exception to the 10% additional tax apply?"
+  tests:
+    - { test: "Age 59½ or older when distributed?", result: "No additional tax — done", outcome: "pass" }
+    - { test: "From a plan, after separation from service at 55+?", result: "Exception applies to the plan only — lost if rolled to an IRA first", outcome: "pass" }
+    - { test: "From an IRA, for education, first home, or unemployed health insurance?", result: "Exception applies to the IRA only — not a workplace plan", outcome: "pass" }
+    - { test: "Death, disability, medical floor, SEPP, QDRO, levy, or a capped newer exception?", result: "Exception applies if its own conditions are met", outcome: "pass" }
+    - { test: "None of the above fit the facts?", result: "10% additional tax on the includible portion", outcome: "fail" }
 ---
+
+<div class="plain-terms">
+Take money out of a retirement account too soon, and you often owe an extra ten percent tax on top of
+the usual tax. This hits anyone who pulls money from an IRA or a work plan before the usual age. It
+does not hit money that was never taxed to begin with, like your own Roth deposits coming back out. It
+sorts out which early withdrawals dodge that extra ten percent, and which do not. Here is the twist:
+some ways out work only for an IRA, and a few work only for a work plan, never both. Picking the wrong
+account can turn a free withdrawal into a costly one.
+</div>
 
 The additional tax on an early distribution is 10 percent **of the portion which is includible in
 gross income** (IRC § 72(t)(1)). That qualification does more work than the rate: money that was never
@@ -36,8 +55,8 @@ those available to every plan, those expressly withheld from IRAs, and those wri
 to a beneficiary or the employee's estate on or after death; attributable to disability within
 § 72(m)(7); part of a series of substantially equal periodic payments made at least annually over a
 life, life expectancy or joint lives; made to an employee **after separation from service after
-attainment of age 55**; § 404(k) dividends; made on account of a § 6331 levy; certain federal phased
-retirement annuities; and attributable to withdrawal of net income accompanying a § 408(d)(4)
+attainment of age 55**; § 404(k) dividends; made on account of a § 6331 {gloss:levy}; certain federal
+phased retirement annuities; and attributable to withdrawal of net income accompanying a § 408(d)(4)
 corrective distribution (IRC § 72(t)(2)(A)(i)–(ix)).
 
 **Two of those are withheld from IRAs.** Subparagraphs (A)(v) and (C) of paragraph (2) **do not apply
@@ -87,7 +106,7 @@ payee under a § 414(p)(1) order (IRC § 72(t)(2)(C)) — for a plan, not an IRA
 Compute the includible portion first, because it may be nil. A Roth distribution reaches contributions
 before earnings under § 408A(d)(4)(B), and contributions were never deducted — so a client who
 withdraws less than their cumulative Roth contributions has no income and no additional tax, whatever
-their age. The same logic reaches a traditional IRA to the extent of basis, though there it can never
+their age. The same logic reaches a traditional IRA to the extent of {gloss:basis}, though there it can never
 be the whole distribution because § 408(d)(2) makes the recovery pro rata.
 
 Then identify the plan type before looking for an exception, not after. The two asymmetries decide
@@ -106,11 +125,11 @@ Finally, keep the medical exception's own quirk in mind: it is measured by the �
 computed **without regard to whether the taxpayer itemizes**, so a client taking the standard deduction
 still gets the exception to the extent their medical expenses exceed the § 213 floor.
 
-<div class="scenario">
+<div class="scenario" data-type="interaction">
 <h3>The rollover that destroyed an exception</h3>
 
-Marcus separates from his employer at 56 and needs $40,000. His adviser suggests rolling the 401(k) to
-an IRA first, "for better investment options", and then withdrawing.
+Marcus separates from his employer at 56 and needs $40,000. His adviser suggests a {gloss:rollover} of
+the 401(k) to an IRA first, "for better investment options", and then withdrawing.
 
 Taking it from the plan would have been penalty-free. IRC § 72(t)(2)(A)(v) excepts a distribution made
 to an employee after separation from service after attainment of age 55, and he meets both limbs.
@@ -121,7 +140,7 @@ irreversible for this purpose, so the sequence costs him 10 percent of the inclu
 client separating after 55 may need funds, the withdrawal should come first and the rollover after.
 </div>
 
-<div class="scenario">
+<div class="scenario" data-type="baseline">
 <h3>No penalty, and no exception needed</h3>
 
 Leila is 41 and withdraws $22,000 from her Roth IRA, into which she has contributed $65,000 over the
@@ -138,7 +157,33 @@ contributions would be earnings — includible, and exposed to the additional ta
 applied.
 </div>
 
-<div class="scenario">
+<div class="scenario" data-type="boundary">
+<h3>Three months short of the birthday</h3>
+
+Two colleagues are laid off in the same round on 1 June 2026. One turned 55 on 15 March 2026; the
+other will not turn 55 until 15 September 2026. Each takes a full distribution from the plan in July
+2026.
+
+The March colleague separated from service **after** attaining age 55, so IRC § 72(t)(2)(A)(v) excepts
+the July distribution outright. The September colleague separated in June, three months before the
+actual birthday — separation did not occur after attainment of age 55, so the exception does not apply
+to his July distribution even though it falls in the same calendar year he turns 55. The statute reads
+on the birthday, not the year.
+</div>
+
+<div class="scenario" data-type="fails">
+<h3>The second emergency in one year</h3>
+
+A taxpayer takes a $900 emergency personal expense distribution from her IRA in March to cover a car
+repair. In October the same year, a plumbing emergency prompts her to ask for another one.
+
+The first distribution fit the exception. The second does not: the emergency personal expense
+exception is limited to one distribution per calendar year, regardless of the size of either emergency
+or how different they are. October's withdrawal is fully exposed to the additional tax on its
+includible portion, and no other exception on these facts reaches it.
+</div>
+
+<div class="scenario" data-type="timing">
 <h3>Five years, or fifty-nine and a half</h3>
 
 Idris is 48 and starts a series of substantially equal periodic payments from his IRA to bridge to a

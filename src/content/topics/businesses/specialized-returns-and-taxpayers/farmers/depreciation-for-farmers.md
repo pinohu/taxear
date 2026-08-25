@@ -23,7 +23,19 @@ forms: []
 related: ["2.3.4.a", "2.3.4.c", "2.3.4.e", "2.3.4.d"]
 changelog:
   - { date: "2026-08-21", summary: "Initial draft. Sets out the farm-specific MACRS classes — 5-year machinery under IRC § 168(e)(3)(B)(vii), 10-year single purpose agricultural structures and fruit- or nut-bearing trees and vines under IRC § 168(e)(3)(D) — the removal of the 150 percent declining balance requirement for farm property by Pub. L. 115-97 § 13203(b), the alternative depreciation system required of an electing farming business under IRC § 168(g)(1)(G), the IRC § 168(k)(5) specified plant election, and the IRC § 175 and § 180 expensing provisions." }
+  - { date: "2026-08-25", summary: "Added a plain-language summary, typed the three scenarios, and marked one glossary term." }
 ---
+
+<div class="plain-terms">
+This page is about how a farm spreads the cost of buildings and gear over time, instead of
+writing it off all at once. It affects anyone who runs a farm or ranch and owns machines, barns,
+or orchards. Different kinds of farm property get different time spans for this write-off.
+Machines are usually faster than a plain barn, and a barn built for just one kind of animal gets
+its own, shorter span too. Fruit and nut trees follow their own, slower method. Farmers also get
+two special write-offs, for certain soil and water work and for fertilizer, that most other kinds
+of business cannot use. This page sorts farm property into the right group and shows how each one
+is written off.
+</div>
 
 Nothing about farm depreciation is exotic in method. What is different is which class an asset falls
 into, when the clock starts on something that will not produce for four years, and two provisions
@@ -107,7 +119,7 @@ quarter of gross farm income with an indefinite carryover. IRC § 180 covers fer
 conditioners whose benefit lasts more than a year, which is the only reason they would be
 capitalised in the first place.
 
-<div class="scenario">
+<div class="scenario" data-type="baseline">
 
 <h3>Three buildings, three recovery periods</h3>
 
@@ -126,7 +138,7 @@ them.
 
 </div>
 
-<div class="scenario">
+<div class="scenario" data-type="timing">
 
 <h3>The almond orchard</h3>
 
@@ -135,7 +147,7 @@ and trellis. The trees will not bear a marketable crop until 2030. The grower's 
 for 2026 is substantial.
 
 Two routes. Without an election, the trees are not placed in service until they reach a productive
-stage in 2030, so no depreciation runs in 2026 through 2029, and the pre-productive period costs are
+stage in 2030, so no {gloss:depreciation} runs in 2026 through 2029, and the pre-productive period costs are
 capitalised under IRC § 263A unless the operation is inside the small business gross receipts
 exception. From 2030 the trees are ten-year property depreciated straight line under
 IRC § 168(b)(3)(E). With the IRC § 168(k)(5) election, the full $520,000 is deducted in 2026 — the
@@ -146,7 +158,7 @@ income is thin and 2030 income is large, it may not be.
 
 </div>
 
-<div class="scenario">
+<div class="scenario" data-type="boundary">
 
 <h3>The terracing bill</h3>
 

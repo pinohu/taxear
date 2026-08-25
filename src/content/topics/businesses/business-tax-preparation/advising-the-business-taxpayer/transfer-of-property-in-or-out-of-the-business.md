@@ -26,7 +26,18 @@ forms: []
 related: ["2.2.5.e", "2.2.5.d", "2.2.5.i", "2.2.4.i", "2.2.3.a"]
 changelog:
   - { date: "2026-08-21", summary: "Initial draft. Sets out IRC § 351 with its control requirement, boot rule and the IRC § 357(c) trap where liabilities exceed basis, against IRC § 721 with neither a control requirement nor a time limit; the carryover basis rules in IRC §§ 362 and 723; the IRC § 704(c) allocation of built-in gain and its seven-year distribution rule; and the exit asymmetry between IRC § 311(b) corporate gain recognition and the IRC §§ 731 and 732 partnership rules." }
+  - { date: "2026-08-25", summary: "Added a plain-language summary, glossary marks, and a fourth typed scenario contrasting a distribution made just inside and just outside the seven-year window." }
 ---
+
+<div class="plain-terms">
+This page is about moving property into or out of a business. That means putting an asset in when a
+business starts. Or taking one back out later. It affects owners who fund a company with property
+instead of cash. It also affects owners who want a business to give property back to them. Putting
+property into a partnership is usually easy. It is free of tax, with very few conditions. Putting
+the same property into a corporation has more rules. It can even trigger tax if debt on the property
+is too high. Taking property back out shows the bigger gap. A partnership can usually do this free
+of tax. A corporation gets taxed twice on the same property leaving.
+</div>
 
 Two questions decide every transfer: is there recognition now, and where does the built-in gain go.
 The corporate and partnership answers differ at both ends, and the difference is much larger on the
@@ -111,12 +122,12 @@ IRC § 311(b) makes the exit expensive and nothing undoes it short of liquidatio
 
 ## Scenarios
 
-<div class="scenario">
+<div class="scenario" data-type="boundary">
 <h3>The mortgage that produced gain</h3>
 
-An owner contributes a rental building to a newly formed corporation in exchange for all its stock.
-The building's adjusted basis is $310,000 after years of depreciation; it is subject to a mortgage
-of $460,000 the corporation assumes.
+An owner contributes a rental building to a newly formed corporation in exchange for all its stock,
+a {gloss:section-351-exchange}. The building's adjusted {gloss:basis} is $310,000 after years of
+depreciation; it is subject to a mortgage of $460,000 the corporation assumes.
 
 IRC § 351 would apply — property, solely for stock, control immediately afterwards — but
 IRC § 357(c)(1) recognises gain to the extent the liabilities assumed exceed the total adjusted
@@ -130,10 +141,10 @@ having contributed the share they bear. The corporate route taxes a refinancing 
 route does not.
 </div>
 
-<div class="scenario">
+<div class="scenario" data-type="baseline">
 <h3>The gain that stayed with its owner</h3>
 
-Two partners form a partnership. One contributes cash of $500,000; the other contributes land with a
+Two partners form a {gloss:partnership-entity}. One contributes cash of $500,000; the other contributes land with a
 basis of $120,000 and a value of $500,000. Three years later the partnership sells the land for
 $560,000.
 
@@ -149,7 +160,7 @@ stock whoever contributed what. That is a materially different economic result f
 facts, and it is a formation-stage decision.
 </div>
 
-<div class="scenario">
+<div class="scenario" data-type="interaction">
 <h3>The building the company handed back</h3>
 
 Trenance Foods, a C corporation, holds a warehouse with a basis of $400,000 and a value of
@@ -164,6 +175,26 @@ The same movement out of a partnership produces no entity-level gain under IRC �
 partner-level gain unless money distributed exceeds outside basis, with the property taking a basis
 under IRC § 732(a). This is the clearest illustration of why the exit belongs in the entity decision:
 the tax on getting the warehouse out is set by a choice made before the warehouse was bought.
+</div>
+
+<div class="scenario" data-type="timing">
+<h3>The distribution before and after the seven-year mark</h3>
+
+A partner contributes stock with a basis of $150,000 and a value of $500,000. The partnership later
+distributes that stock to a different partner. Nothing else about the facts changes between the two
+versions of this scenario except the date of the distribution.
+
+If the distribution happens in year six, IRC § 704(c)(1)(B) treats the contributing partner as
+recognising the $350,000 built-in gain, because the property left to someone else within seven years
+of the contribution. Nothing was sold and no cash moved, but the statute treats the distribution as
+if the property had been sold at fair market value on that date.
+
+If the identical distribution instead happens in year eight, the seven-year window has closed and
+§ 704(c)(1)(B) no longer applies to it at all — the contributing partner recognises nothing on the
+distribution itself, and the built-in gain simply continues to be tracked to them under the ordinary
+§ 704(c)(1)(A) allocation rule if the property is later sold. Two identical transfers, twelve months
+apart in relation to the contribution date, produce a taxable event in one case and none in the
+other.
 </div>
 
 ## Traps

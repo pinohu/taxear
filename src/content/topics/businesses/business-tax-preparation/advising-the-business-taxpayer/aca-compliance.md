@@ -23,7 +23,18 @@ forms: []
 related: ["2.2.5.k", "2.2.5.b", "2.2.5.a", "2.2.2.h", "2.2.5.e"]
 changelog:
   - { date: "2026-08-21", summary: "Initial draft. Sets out the IRC § 4980H(c)(2) applicable large employer test measured on the preceding calendar year with its seasonal worker exception and IRC § 414 aggregation, the IRC § 4980H(c)(4) 30-hour definition of a full-time employee, the two assessable payments in § 4980H(a) and (b) with the reduction by 30 and the indexation in § 4980H(c)(5), the IRC §§ 6055 and 6056 reporting obligations, and the IRC § 45R small employer credit with its 2026 figure from Rev. Proc. 2025-32 § 3.09." }
+  - { date: "2026-08-25", summary: "Added a plain-language summary, glossary marks, and a fourth typed scenario on the information-reporting penalties." }
 ---
+
+<div class="plain-terms">
+This is about a health law rule that applies to large employers. It decides whether a business must
+offer health coverage to its full-time staff, or pay a penalty instead. It only applies to big
+employers — roughly fifty or more workers, counting part-time hours as fractions of a full worker.
+Smaller businesses are not affected at all. Workers no longer pay a penalty for going without health
+coverage, but big employers still can. This page shows how to count workers to see if a business is
+"large," what it owes if it skips coverage or offers coverage that costs too much, and what forms it
+must send the IRS either way.
+</div>
 
 The employer shared responsibility rules are unusual in the Code: nothing is owed until an employee
 does something, the amount depends on which of two provisions applies, and the whole regime turns on
@@ -105,7 +116,7 @@ IRC §§ 6721 and 6722, entirely independently of whether any assessable payment
 
 ## Scenarios
 
-<div class="scenario">
+<div class="scenario" data-type="boundary">
 <h3>The employer that became large without hiring</h3>
 
 Ravensden Care employs 38 full-time staff and a large pool of part-time carers whose aggregate hours
@@ -119,12 +130,12 @@ did.
 
 Two consequences follow. Status for the following calendar year is already fixed by this year's
 average, so the position cannot be avoided by reducing hours in January. And because no offer of
-coverage was made, any full-time employee obtaining a premium tax credit exposes Ravensden to the
-IRC § 4980H(a) payment computed on all 38 full-time employees less the reduction of 30 — not on the
-one employee who claimed the credit.
+coverage was made, any full-time employee obtaining a {gloss:premium-tax-credit} exposes Ravensden to
+the IRC § 4980H(a) payment computed on all 38 full-time employees less the reduction of 30 — not on
+the one employee who claimed the credit.
 </div>
 
-<div class="scenario">
+<div class="scenario" data-type="interaction">
 <h3>The defective offer that saved money</h3>
 
 Bewcastle Engineering, an applicable large employer with 80 full-time employees, offers coverage to
@@ -142,11 +153,11 @@ to a per-claimant one, and the ceiling means the position can never be worse tha
 all.
 </div>
 
-<div class="scenario">
+<div class="scenario" data-type="fails">
 <h3>Two companies, one employer</h3>
 
-An owner runs two corporations under common control, one with 32 full-time employees and one with
-27. Neither offers coverage, and each believes it is below the threshold.
+An owner runs two corporations that together form a {gloss:controlled-group}, one with 32 full-time
+employees and one with 27. Neither offers coverage, and each believes it is below the threshold.
 
 IRC § 4980H(c)(2)(C)(i) treats all persons treated as a single employer under IRC § 414(b), (c), (m)
 or (o) as one employer for the size test. Common control brings both within § 414(b) or (c), so the
@@ -157,6 +168,24 @@ The reduction by 30 does not double either. IRC § 4980H(c)(2)(D)(ii) allows a s
 persons treated as one employer, allocated among them — so the group gets one reduction of 30
 between the two companies, not one each. Splitting a workforce is one of the few structures the
 statute addresses by name.
+</div>
+
+<div class="scenario" data-type="procedural">
+<h3>The employer that owed nothing and still owed something</h3>
+
+Ashworth Metalworks is an applicable large employer with 62 full-time employees. It offers every one
+of them coverage that comfortably clears the affordability and minimum value tests, so no employee
+ever qualifies for a premium tax credit and no § 4980H payment is ever triggered. Believing there is
+nothing to report because nothing is owed, the payroll clerk skips filing Forms 1094-C and 1095-C for
+two consecutive years.
+
+IRC §§ 6055 and 6056 require those returns regardless of whether any assessable payment arises —
+reporting and liability are separate obligations, and getting the substantive offer right does not
+excuse the paperwork. Two years of unfiled returns to the IRS and unfurnished statements to
+62 employees each year exposes Ashworth to the per-return and per-statement penalties under
+IRC §§ 6721 and 6722, assessed independently for the failure to file and the failure to furnish. The
+safer advice treats the information returns as a deadline of their own, not as something that follows
+automatically from a compliant offer of coverage.
 </div>
 
 ## Traps

@@ -24,7 +24,19 @@ forms: []
 related: ["2.1.2.a", "2.1.2.c", "2.1.2.e", "2.1.2.g", "2.1.2.b", "2.1.4.d"]
 changelog:
   - { date: "2026-08-21", summary: "Initial draft. Sets out the IRC § 721(a) nonrecognition rule and its § 721(b) investment company exception, the § 722 and § 723 substituted and transferred bases, the Reg. § 1.721-1(b) treatment of a capital interest received for services as income under § 61 and as a § 707(c) guaranteed payment where the services were rendered to the partnership, the § 704(c)(1)(A) requirement to allocate built-in gain and loss to the contributor and the § 704(c)(1)(B) seven-year rule on distribution to another partner, the § 724 character preservation rules for unrealized receivables, inventory and capital loss property, and the § 752 consequences of contributing property subject to a liability." }
+  - { date: "2026-08-25", summary: "Added a plain-language summary, typed scenarios, and glossary marks." }
 ---
+
+<div class="plain-terms">
+Putting property into a partnership for a share of it is normally tax-free. There is no ownership
+test and no time limit, unlike the rule for a corporation. Putting in work instead of property is
+different. That is taxable pay to the person who did the work, valued at what the share is worth.
+This page covers both cases. It also covers what happens to gain, loss, or income type that a
+piece of property already had before it went in. It affects anyone who joins a partnership or
+adds capital to one, whether with property or with labor. It does not wipe out gain, loss, or
+income type that already existed. Those stay with the person who put the property in, and can
+come back years later.
+</div>
 
 Contribution is where the partnership's most attractive feature is on display and where its least
 intuitive rules originate. Property goes in without tax, in circumstances far more generous than the
@@ -121,9 +133,9 @@ produces tax.
 
 ## Scenarios
 
-<div class="scenario">
+<div class="scenario" data-type="baseline">
 <h3>The appreciated warehouse</h3>
-<p>Ambrose contributes a warehouse worth $900,000 with an adjusted basis of $250,000 to a partnership in
+<p>Ambrose contributes a warehouse worth $900,000 with an adjusted {gloss:basis} of $250,000 to a partnership in
 exchange for a one-third interest. The other two partners contribute $900,000 in cash between them. Four
 years later the partnership sells the warehouse for $960,000.</p>
 <p>Nothing happens on the contribution: IRC § 721(a) gives nonrecognition, Ambrose's outside basis is
@@ -134,7 +146,7 @@ appreciation that arose while all three were partners, is shared one-third each.
 other two would have picked up roughly $433,000 of Ambrose's gain.</p>
 </div>
 
-<div class="scenario">
+<div class="scenario" data-type="fails">
 <h3>The interest given for building the business</h3>
 <p>A partnership admits Rosalind, who has spent eighteen months developing its software, and grants her a
 15 percent interest in partnership capital worth $600,000, funded by a proportionate reduction in the
@@ -142,13 +154,13 @@ other partners' capital accounts. No cash passes.</p>
 <p>Rosalind has $90,000 of ordinary income. IRC § 721 does not apply, because she contributed services
 rather than property, and Reg. § 1.721-1(b)(1) treats the value of a capital interest transferred as
 compensation for services as income under IRC § 61 at its fair market value. Because the services were
-rendered to the partnership, Reg. § 1.721-1(b)(2)(i) makes it a guaranteed payment under IRC § 707(c) — so
+rendered to the partnership, Reg. § 1.721-1(b)(2)(i) makes it a {gloss:guaranteed-payment} under IRC § 707(c) — so
 the partnership deducts or capitalises it, and it is self-employment income to her with no withholding.
 Her basis in the interest is $90,000, the amount she took into income. The cash-flow problem is real:
 she owes tax on $90,000 having received nothing.</p>
 </div>
 
-<div class="scenario">
+<div class="scenario" data-type="timing">
 <h3>The receivables and the inventory</h3>
 <p>Two sole traders form a partnership. Célestine contributes accounts receivable of $180,000 from her
 cash-basis consultancy, with a zero basis. Bartholomew contributes $210,000 of unsold stock from his
@@ -162,7 +174,7 @@ contribution had expired. If the partnership holds the stock as a capital asset,
 the sale happened in year four, it would have been ordinary.</p>
 </div>
 
-<div class="scenario">
+<div class="scenario" data-type="interaction">
 <h3>The mortgaged land</h3>
 <p>Marek contributes land worth $1,000,000 with an adjusted basis of $180,000, subject to a $700,000
 mortgage that the partnership assumes, in exchange for a 25 percent interest. His share of partnership

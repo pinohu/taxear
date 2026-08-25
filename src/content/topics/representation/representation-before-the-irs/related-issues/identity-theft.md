@@ -18,7 +18,12 @@ forms: []
 related: ["3.2.6.e", "3.2.6.f", "3.2.6.h", "3.4.3.i", "3.4.2.b"]
 changelog:
   - { date: "2026-08-18", summary: "Initial publication from the IRS identity protection PIN page (last reviewed 4 August 2026) and identity theft guide (last reviewed 4 June 2026), and IRC § 6103." }
+  - { date: "2026-08-25", summary: "Added a plain-language summary, glossary marks, and typed scenarios." }
 ---
+
+<div class="plain-terms">
+Tax identity theft happens when someone else files a return in your name, usually to steal your refund. It can hit any taxpayer, and it can also strike a dependent, a spouse, or even someone who has died. The main fix is a special six-digit number, reset each year, that only you and the IRS know. It blocks a thief from filing under your name again. The most surprising part is what a victim should not do: stop filing. Even while the theft is being sorted out, you still file your own returns and pay tax on time. Skipping that just adds new penalties on top of a problem you did not cause.
+</div>
 
 Tax-related identity theft has one central mechanism and one counter-intuitive instruction. The mechanism is the **Identity Protection PIN**, the only thing that reliably stops a return being filed in a taxpayer's name. The instruction is that a victim **keeps filing and keeps paying** while the matter is worked out — freezing everything until the IRS sorts it out is the most damaging advice a representative can give.
 
@@ -79,25 +84,25 @@ Tax-related identity theft has one central mechanism and one counter-intuitive i
 
 **Section 6103 limits what you can find out, and clients need telling.** The IRS cannot say who claimed the dependent; it may disclose only as to the return's primary and secondary taxpayers. Say so before the client builds a plan around learning the other claimant's name.
 
-<div class="scenario">
+<div class="scenario" data-type="procedural">
 <h3>The client who stopped filing</h3>
 <p>A client discovers in March that a return was filed in his name claiming a refund. His neighbour tells him not to file anything until the IRS resolves it. He follows that advice for two years.</p>
-<p><em>Analysis.</em> Bad advice, and the representative should have reversed it immediately. The IRS's own list of steps for a victim includes "file returns and pay tax as usual." Two years of non-filing adds failure-to-file and failure-to-pay penalties and interest to a problem the client did not create, and none of it is excused by the theft. The correct sequence was to report the theft, obtain an IP PIN, follow any IRS letter, keep records — and keep filing.</p>
+<p><em>Analysis.</em> Bad advice, and the representative should have reversed it immediately. The IRS's own list of steps for a victim includes "file returns and pay tax as usual." Two years of non-filing adds {gloss:failure-to-file-penalty} and {gloss:failure-to-pay-penalty} penalties and interest to a problem the client did not create, and none of it is excused by the theft. The correct sequence was to report the theft, obtain an IP PIN, follow any IRS letter, keep records — and keep filing.</p>
 </div>
 
-<div class="scenario">
+<div class="scenario" data-type="baseline">
 <h3>The IP PIN that never arrived</h3>
 <p>A client who opted into the IP PIN programme two years ago telephones in February to say her IP PIN letter has not come and she cannot file. She is certain she received one last year.</p>
 <p><em>Analysis.</em> She did — from her online account, not the post. Where a taxpayer opted in and obtained an IP PIN online, no CP01A Notice is mailed and the number must be retrieved online each calendar year. Only taxpayers the IRS enrolled as confirmed victims receive the CP01A. The answer is to log into the online account, where the current IP PIN appears on the profile tab; the answer is <em>not</em> a Form 15227, which the IRS says expressly is not the route to a replacement.</p>
 </div>
 
-<div class="scenario">
+<div class="scenario" data-type="boundary">
 <h3>The child's return and the online account</h3>
 <p>A client's 15-year-old son had his identity used on someone else's return. The client tries to obtain an IP PIN for him through the online account and cannot.</p>
 <p><em>Analysis.</em> Expected. A taxpayer or dependent under age 18 must use one of the alternative enrollment options — Form 15227, subject to the adjusted gross income limits, or an in-person appointment at a Taxpayer Assistance Center. For the in-person route the parent brings picture identification plus a second form for themselves, and two forms for the dependent, such as a birth certificate and social security card. Neither alternative is fast; start now rather than in filing season.</p>
 </div>
 
-<div class="scenario">
+<div class="scenario" data-type="timing">
 <h3>The dependent already claimed</h3>
 <p>A client's 2025 return is rejected because her daughter has already been claimed on someone else's return. The client has a valid IP PIN. The prior-year practitioner tells her she must now paper-file and wait.</p>
 <p><em>Analysis.</em> Out of date. Beginning with 2024 tax returns the IRS accepts e-filed Forms 1040, 1040-NR and 1040-SS even where a dependent has already been claimed, provided the primary taxpayer on the second return includes a valid IP PIN — and the dependent needs no IP PIN unless one was previously issued to her. The client can e-file. Paper filing would have cost six to eight weeks of processing before the IRS even looked at the duplicate claim.</p>

@@ -17,7 +17,18 @@ forms: []
 related: ["3.1.2.a", "3.1.4.e", "3.1.2.g", "3.1.2.e", "3.1.2.h", "3.2.1.i"]
 changelog:
   - { date: "2026-08-18", summary: "Initial publication from Circular 230 § 10.28." }
+  - { date: "2026-08-25", summary: "Added a plain-language summary, a glossary mark, and typed scenarios." }
 ---
+
+<div class="plain-terms">
+This rule is about who keeps a client's papers once a tax job ends. A practitioner must give back
+records the client needs for their own taxes. This is true even if a fee fight is not yet settled.
+The rule covers any enrolled agent, lawyer, or accountant who holds a client's file. It does not
+let a practitioner hold the whole file over an unpaid bill. The rule decides what counts as the
+client's own paper, like a receipt the client gave. It also decides what counts as the
+practitioner's own work, like a draft return built from that paper. The practitioner may always
+keep copies of what goes back.
+</div>
 
 The rule that surprises practitioners is that **a fee dispute generally does not entitle you to hold the client's records**. Section 10.28 makes return of them a professional obligation, gives one narrow accommodation to state law, and defines "records of the client" widely enough to catch material practitioners often think of as their own file.
 
@@ -45,19 +56,19 @@ The rule that surprises practitioners is that **a fee dispute generally does not
 
 **Promptly means promptly.** Delay in returning records engages § 10.23 as well, and a refusal that obstructs the client's ability to respond to the IRS can look like the contemptuous conduct § 10.51(a)(12) describes. The professional exposure usually exceeds the fee in dispute.
 
-<div class="scenario">
+<div class="scenario" data-type="baseline">
 <h3>The unpaid fee and the shoebox</h3>
-<p>A client owes $3,400 and terminates the engagement. He asks for his file back. It contains receipts and bank statements he provided, a prior year's return prepared by another firm, and the current year's draft return and depreciation schedules the practitioner prepared.</p>
+<p>A client owes $3,400 and terminates the engagement. He asks for his file back. It contains receipts and bank statements he provided, a prior year's return prepared by another firm, and the current year's draft return and {gloss:depreciation} schedules the practitioner prepared.</p>
 <p><em>Analysis.</em> The receipts, statements and the other firm's return are records of the client under § 10.28(b) &mdash; provided by the client or a third party, preexisting or provided with respect to the representation &mdash; and must be returned promptly notwithstanding the fee dispute. The draft return and the practitioner's own schedules fall outside the definition where they are being withheld pending performance of a contractual obligation to pay. The practitioner may keep copies of everything returned.</p>
 </div>
 
-<div class="scenario">
+<div class="scenario" data-type="boundary">
 <h3>State law permits retention</h3>
 <p>The same facts, in a state whose law permits a practitioner to retain client records during a fee dispute. The practitioner proposes to hold everything until paid.</p>
 <p><em>Analysis.</em> Not quite. The accommodation in § 10.28(a) is narrower than it sounds. Two duties survive it: the practitioner must still <strong>return those records that must be attached to the taxpayer's return</strong>, and must <strong>provide reasonable access to review and copy</strong> any additional records retained under state law that the client needs to comply. Holding the file outright is a violation even where state law would permit a lien.</p>
 </div>
 
-<div class="scenario">
+<div class="scenario" data-type="fails">
 <h3>The appraisal the client paid for</h3>
 <p>A client asks for an appraisal obtained during the representation. The practitioner engaged the appraiser, and the client paid the appraiser directly. Fees to the practitioner are outstanding.</p>
 <p><em>Analysis.</em> The appraiser is a third party, not an employee or agent of the practitioner, and the appraisal was provided with respect to the subject matter of the representation &mdash; so it is a record of the client under § 10.28(b) and goes back. The § 10.28(b) exclusion covers documents prepared by <em>the practitioner or their employee or agent</em>. Who paid is not the test; who prepared it is.</p>

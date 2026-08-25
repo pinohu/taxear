@@ -24,7 +24,26 @@ forms: []
 related: ["2.1.1.a", "2.1.1.b", "2.1.1.c", "2.1.1.d", "2.1.1.e", "2.1.1.f", "2.1.1.h", "2.1.1.i"]
 changelog:
   - { date: "2026-08-21", summary: "Initial draft. Sets out the Reg. § 301.7701-3(b) default classifications for domestic and foreign eligible entities, the Reg. § 301.7701-3(c)(2) signature requirements including the rule that former owners must sign a retroactive or changing election, the Reg. § 301.7701-3(d) relevance rules for foreign entities and the 60-month lapse, and the Reg. § 301.7701-3(g) deemed transactions on an elective change of classification with their timing, the Reg. § 301.7701-3(g)(2)(ii) deemed adoption of a plan of liquidation for IRC § 332, and the ordering rule for tiered entities." }
+  - { date: "2026-08-25", summary: "Added a plain-language summary, a decision diagram of the default classifications, glossary marks, and typed scenarios." }
+diagram:
+  archetype: "decision"
+  caption: "Default classification when no election (Form 8832) is on file"
+  tests:
+    - { test: "Domestic entity, 2 or more members", result: "Partnership by default", outcome: "pass" }
+    - { test: "Domestic entity, single owner", result: "Disregarded entity by default", outcome: "pass" }
+    - { test: "Foreign entity, all members have limited liability", result: "Association — taxed as a corporation by default", outcome: "fail" }
+    - { test: "Foreign entity, single owner without limited liability", result: "Disregarded entity by default", outcome: "pass" }
 ---
+
+<div class="plain-terms">
+Every business has a default tax label, even if it files no form asking for something else. This page
+explains what that default is. It also explains what happens when a business asks to be treated a
+different way. It affects any business with two or more owners, or just one owner, that has filed
+nothing special. It does not affect a business that is happy with the default and never files anything.
+Here is the part that surprises people. Asking for a new tax treatment is not free. The law treats it as
+if the business had sold everything it owns and started fresh. That can create real gain and real tax,
+even though nothing else about the business actually changed.
+</div>
 
 The classification election is described in practice as though it were a switch: file the form, change the
 box, become a corporation. The regulation does not work that way. Every elective change of classification
@@ -121,9 +140,10 @@ changing its membership or its members' liability in the interval.
 
 ## Scenarios
 
-<div class="scenario">
+<div class="scenario" data-type="interaction">
 <h3>The election that produced a gain from nothing</h3>
-<p>A three-member LLC taxed as a partnership owns equipment with an adjusted basis of $210,000, subject to
+<p>A three-member {gloss:llc} taxed as a {gloss:partnership-entity} owns equipment with an adjusted basis
+of $210,000, subject to
 $340,000 of acquisition debt. Its members elect association status on Form 8832 effective 1 January 2027,
 on advice that corporate treatment will reduce their self-employment tax.</p>
 <p>Under Reg. § 301.7701-3(g)(1)(i) the partnership is deemed to contribute all its assets and liabilities
@@ -135,7 +155,7 @@ the close of 31 December 2026. Nothing about this appears on Form 8832, and noth
 advice.</p>
 </div>
 
-<div class="scenario">
+<div class="scenario" data-type="baseline">
 <h3>Changing back</h3>
 <p>The same LLC finds corporate treatment unhelpful and, in 2033, elects to be classified as a partnership
 again. The 60-month bar has expired, so the election is available. The entity's assets are now worth
@@ -149,7 +169,7 @@ provision that relieves it. The contribution to the new partnership is tax-free,
 comforting part of the sequence and by far the smallest.</p>
 </div>
 
-<div class="scenario">
+<div class="scenario" data-type="procedural">
 <h3>The partner who had already left</h3>
 <p>An LLC with four members wants to elect association status effective 1 July 2026. It files Form 8832 in
 August 2026. One member, Halina, sold her interest to the other three on 15 July 2026 and has no further
@@ -162,7 +182,7 @@ election without her. The lesson is procedural rather than substantive: check wh
 deemed-transaction date, not on the filing date.</p>
 </div>
 
-<div class="scenario">
+<div class="scenario" data-type="timing">
 <h3>The foreign entity that reclassified itself by waiting</h3>
 <p>A U.S. person acquires a 15 percent interest in an entity organised in a country whose law gives all
 members limited liability, and files Form 5471 for 2019. She disposes of the interest in 2020 and no

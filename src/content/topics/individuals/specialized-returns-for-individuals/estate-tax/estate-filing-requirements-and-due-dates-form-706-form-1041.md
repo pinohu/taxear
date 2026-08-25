@@ -23,7 +23,28 @@ forms: []
 related: ["1.6.1.a", "1.6.1.b", "1.6.1.c", "1.6.1.d", "1.5.1.n", "1.6.2.e"]
 changelog:
   - { date: "2026-08-20", summary: "Initial draft. Sets out the three returns a death produces and their deadlines — the final Form 1040, the estate's Form 1041 under IRC §§ 6012(a)(3) and 6072(a), and Form 706 under §§ 6018(a) and 6075(a) — with the § 6018(a)(3) reduction of the filing threshold by lifetime gifts, the § 441(e) constraint on an estate's fiscal year, the § 645 election, and the extensions available under §§ 6081 and 6161." }
+  - { date: "2026-08-25", summary: "Added a plain-language summary, a timeline diagram of the three filing deadlines, glossary marks, and typed scenarios." }
+diagram:
+  archetype: "timeline"
+  caption: "Three returns, three clocks — what's due when after a death"
+  events:
+    - { when: "Date of death", what: "Starts the clock on all three returns" }
+    - { when: "Ordinary due date for that tax year", what: "Decedent's final Form 1040" }
+    - { when: "9 months after death", what: "Form 706, if the estate is over the filing threshold" }
+    - { when: "15th day of the 4th month after the estate's chosen year end", what: "Estate's first Form 1041" }
+    - { when: "Up to 6 months more, on request", what: "Extension of time to file Form 706" }
+    - { when: "Up to 12 months (longer for cause), on a separate request", what: "Extension of time to pay — not automatic with a filing extension" }
 ---
+
+<div class="plain-terms">
+When someone dies, their estate may need to file up to three tax returns. One is the last
+personal return for the person who died. One is an income tax return for the estate itself. One
+is just for federal estate tax. Most families only deal with the first two. The estate tax return
+applies only to large estates. But gifts made during life can push even a small estate over that
+line. Each return has its own due date, and the estate can often pick its own tax year for the
+income tax return. Filing the estate tax return can matter even when no tax is owed. It is also
+how a surviving spouse locks in an extra tax-free amount for later.
+</div>
 
 A death produces up to three separate returns, filed by the same person, on three different schedules,
 under three different thresholds. Two of them are income tax returns and one is a transfer tax return,
@@ -107,10 +128,10 @@ through one, and without the election the trust files its own Form 1041 on a man
 while the estate files on whatever year it chose. The election collapses them into one return with one
 year end, and the fiscal year advantage extends to the trust's income as well.
 
-<div class="scenario">
+<div class="scenario" data-type="boundary">
 <h3>The estate that had to file after all</h3>
 
-A woman dies with a gross estate of $2,100,000. Her executor reads the filing threshold, compares it to
+A woman dies with a {gloss:gross-estate} of $2,100,000. Her executor reads the filing threshold, compares it to
 the basic exclusion amount, and concludes no Form 706 is required.
 
 Her Forms 709 show $14,000,000 of post-1976 adjusted taxable gifts. Under § 6018(a)(3) the threshold is
@@ -121,10 +142,10 @@ gift history did.
 
 </div>
 
-<div class="scenario">
+<div class="scenario" data-type="procedural">
 <h3>The fiscal year that was thrown away</h3>
 
-A man dies on 3 November. His executor files the estate's first Form 1041 for the period to
+A man dies on 3 November. His {gloss:executor} files the estate's first Form 1041 for the period to
 31 December, because that is what the software offered.
 
 That election is now made and the estate is a calendar year taxpayer. Had the executor chosen a fiscal
@@ -135,7 +156,7 @@ and nothing about the default was flagged as a choice.
 
 </div>
 
-<div class="scenario">
+<div class="scenario" data-type="baseline">
 <h3>Three returns, three deadlines</h3>
 
 A woman dies on 12 March with wages and interest to that date, an estate that will receive royalties for
@@ -150,11 +171,11 @@ control.
 
 </div>
 
-<div class="scenario">
+<div class="scenario" data-type="interaction">
 <h3>The extension that did not extend what mattered</h3>
 
 An executor cannot value a partnership interest in time and obtains an extension to file Form 706. He
-takes this to mean the tax is not yet due and pays nothing at the nine-month mark.
+takes this to mean the {gloss:estate-tax} is not yet due and pays nothing at the nine-month mark.
 
 Interest and the failure to pay addition run from the nine-month date regardless. Section 6081 extends
 the time to *file*; the time to pay is extended only under § 6161, which is a separate request requiring

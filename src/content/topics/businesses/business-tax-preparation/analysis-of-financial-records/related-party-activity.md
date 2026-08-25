@@ -23,7 +23,19 @@ forms: []
 related: ["2.2.4.c", "2.2.4.i", "2.2.3.c", "2.2.4.b", "2.2.4.f", "2.2.5.d"]
 changelog:
   - { date: "2026-08-21", summary: "Initial draft. Sets out the IRC § 267(a)(1) loss disallowance and the § 267(a)(2) matching rule for accrued expenses, the § 267(b) relationships with the § 267(c) attribution rules and the narrow § 267(c)(4) family definition, the § 267(d) transferee relief that makes a disallowed loss useless to the seller, the parallel partnership rules in § 707(b), the § 1239 conversion of gain to ordinary income on sales of depreciable property, the § 1031(f) two-year rule on related-party exchanges, and § 7872 on below-market loans." }
+  - { date: "2026-08-25", summary: "Added a plain-language summary, glossary marks, and two typed scenarios (boundary, fails) alongside the existing three." }
 ---
+
+<div class="plain-terms">
+Tax law treats a deal between close relatives differently from a sale to a stranger. The same is
+true for a deal between an owner and their own business. A loss on that kind of deal is often not
+deductible at all. That is true even when the price was completely fair. What matters is simply who
+was on the other side. This affects family members, and owners dealing with their own companies or
+partnerships. It does not affect sales between people with no such tie. The rules decide whether a
+loss can be used now. They also decide whether a gain is taxed at higher, ordinary rates instead of
+lower ones. And they decide whether certain tax-free swaps and expense write-offs are allowed at
+all.
+</div>
 
 Related party rules do not ask whether a transaction was fair. They ask who was on the other side,
 and then they disallow, defer or recharacterise without regard to how arm's length the price was.
@@ -104,7 +116,7 @@ compulsory conversion and a no-tax-avoidance disposition are the escapes.
 
 ## Scenarios
 
-<div class="scenario">
+<div class="scenario" data-type="baseline">
 <h3>The loss that went to the buyer</h3>
 
 Ridley Holdings sells a warehouse with a basis of $900,000 to a corporation in which its sole
@@ -121,7 +133,7 @@ property, so $200,000 is sheltered and $150,000 is recognised. The relief belong
 and had the buyer sold for $650,000 instead, the $200,000 would simply have vanished.
 </div>
 
-<div class="scenario">
+<div class="scenario" data-type="timing">
 <h3>The accrual that waited a year</h3>
 
 Cawdor Engineering, an accrual basis S corporation with a December year end, accrues $80,000 of
@@ -138,7 +150,7 @@ wherever the parties are described in § 267(b) at the year end, and partnership
 defers the deduction, it does not disallow it.
 </div>
 
-<div class="scenario">
+<div class="scenario" data-type="interaction">
 <h3>The exchange that unwound</h3>
 
 Melling Properties exchanges a rental building for a like-kind building owned by a partnership in
@@ -154,6 +166,38 @@ the original exchange.
 None of the exceptions applies: neither party has died, the sale was voluntary, and a sale motivated
 by price is not a disposition of which tax avoidance was not a principal purpose in the sense the
 statute means. Had the partnership simply waited seven months more, the exchange would have stood.
+</div>
+
+<div class="scenario" data-type="boundary">
+<h3>Just inside the family, just outside it</h3>
+
+An individual sells depreciated machinery at a loss to his stepbrother — testing the edges of what
+counts as {gloss:related-party} activity — and separately sells inventory at a loss to his wife's
+brother.
+
+{fig:rp.family} defines the family for § 267(c)(4) as brothers and sisters of the whole or half
+blood, spouse, ancestors and lineal descendants. A stepbrother — no blood relationship, only a
+parent's remarriage — is outside that list, so the machinery loss is not disallowed under
+§ 267(a)(1) on relationship grounds. A brother-in-law is likewise outside it: § 267(c)(4) attributes
+by blood and marriage to the taxpayer directly, not by marriage to the taxpayer's sibling. Both sales
+sound equally "in the family," and land on opposite sides of a list that is narrower than either
+sounds.
+</div>
+
+<div class="scenario" data-type="fails">
+<h3>Related in substance, not in the statute</h3>
+
+A taxpayer sells land, with a {gloss:fair-market-value} below her adjusted basis, at a loss to a
+corporation in which she owns 45 percent of the stock; the remaining 55 percent is owned by
+unrelated investors with whom she has no attribution relationship.
+
+IRC § 267(b)(2) reaches an individual and a corporation only where the individual owns, directly or
+indirectly, more than 50 percent of the corporation's stock, measured under the § 267(c) attribution
+rules. At 45 percent, with no family or entity attribution pulling in more, she is not a related
+person under § 267(b) with respect to this corporation, and the loss disallowance under § 267(a)(1)
+does not apply on this ground alone. The sale may still be tested under other provisions, but § 267
+itself is not the reason to disallow it — a taxpayer who assumes "I own a big piece of this company"
+is automatically related has assumed too much.
 </div>
 
 ## Traps

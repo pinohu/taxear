@@ -22,12 +22,23 @@ forms: ["4835"]
 related: ["2.3.4.a", "2.3.4.e", "2.3.4.b", "2.3.4.c"]
 changelog:
   - { date: "2026-08-21", summary: "Initial draft. Sets out the IRC § 1402(a)(1) exclusion of real estate rentals from self-employment income and the two-condition exception for a farm landlord who materially participates — the arrangement must provide for it and it must in fact occur — then maps the three reporting outcomes: Schedule F with self-employment tax, Form 4835 for a non-participating crop-share landlord, and Schedule E for fixed cash rent. Adds the IRC § 469(c)(2) passive rule and the Treas. Reg. § 1.469-2(f)(6) self-rental rule." }
+  - { date: "2026-08-25", summary: "Added a plain-language summary, glossary marks, and typed scenarios." }
 ---
+
+<div class="plain-terms">
+This page explains how farmland rent is taxed when the landlord no longer farms it directly. It
+matters for anyone who owns farmland and rents it out to a tenant farmer, whether for cash or a share
+of the crop. It does not apply to someone who farms their own land day to day. The key question is
+how involved the landlord stays in running the farm. A landlord who does real hands-on work under a
+lease that says so pays a different kind of tax than one who simply collects rent and stays out of
+it. The page decides which of three tax forms the rental income belongs on, and whether that income
+also counts toward Social Security tax.
+</div>
 
 Farm rent is the one place in the Code where the same economic arrangement produces three different
 returns depending on what the landlord actually does. The tax at stake is not income tax — the
-income is taxable either way — but self-employment tax, and the line is drawn by material
-participation written into the lease and then carried out.
+income is taxable either way — but self-employment tax, and the line is drawn by
+{gloss:material-participation} written into the lease and then carried out.
 
 ## The rule
 
@@ -52,7 +63,7 @@ participation for IRC § 469 are tested under different standards, so a landlord
 self-employment tax on Schedule F income that is nonetheless passive, or the reverse. The two
 statutes ask the same question with different rules and the answers need not match.
 
-**And the self-rental trap.** {fig:fr.self_rental}
+**And the {gloss:self-rental} trap.** {fig:fr.self_rental}
 
 ## Current figures
 
@@ -96,7 +107,7 @@ where the landlord rents to an entity in which they materially participate, the 
 recharacterised as non-passive so it cannot soak up passive losses from elsewhere, while the rental
 *losses* remain passive.
 
-<div class="scenario">
+<div class="scenario" data-type="baseline">
 
 <h3>Three leases on the same section</h3>
 
@@ -117,7 +128,7 @@ lease terms are worth drafting deliberately rather than inheriting.
 
 </div>
 
-<div class="scenario">
+<div class="scenario" data-type="boundary">
 
 <h3>The dairy the landlord kept</h3>
 
@@ -134,7 +145,7 @@ separately has service income.
 
 </div>
 
-<div class="scenario">
+<div class="scenario" data-type="interaction">
 
 <h3>The corporation and its landlord</h3>
 
@@ -144,7 +155,7 @@ corporation. He also holds an interest in an unrelated limited partnership gener
 passive losses each year, which he has been offsetting against the rent.
 
 The offset fails. Treas. Reg. § 1.469-2(f)(6) recharacterises gross rental activity income, up to the
-net rental income from that property, as not from a passive activity where the property is rented for
+net rental income from that property, as not from a {gloss:passive-activity} where the property is rented for
 use in a trade or business activity in which the taxpayer materially participates. He materially
 participates in the corporation, so the $95,000 of net rent is non-passive and the partnership losses
 have nothing to absorb them. Note the asymmetry: had the land generated a rental *loss*, that loss

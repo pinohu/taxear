@@ -20,7 +20,25 @@ forms: []
 related: ["1.2.3.b", "1.2.1.f", "1.2.3.c", "1.2.3.a", "1.2.3.k"]
 changelog:
   - { date: "2026-08-19", summary: "Initial draft. Sets out the IRC § 166(d)(1) recharacterisation of a nonbusiness bad debt as a short-term capital loss and the § 166(d)(2) definition, the Treas. Reg. § 1.166-1(c) bona fide debt requirement, the § 1.166-5(a)(2) all-or-nothing worthlessness rule, the § 166(b) basis measure, the § 165(g) treatment of worthless securities, and the seven-year refund period in § 6511(d)(1)." }
+  - { date: "2026-08-25", summary: "Added a plain-language summary, a decision diagram of the three qualifying tests, glossary marks, and two typed scenarios (boundary, procedural) rounding out the scenario taxonomy." }
+diagram:
+  archetype: "decision"
+  caption: "What turns a bad loan into a deductible nonbusiness bad debt"
+  tests:
+    - { test: "Real debt", result: "A valid, enforceable obligation to repay a fixed sum — not a gift or advance", outcome: "pass" }
+    - { test: "Not a business debt", result: "Not created in, or connected to, the lender's own trade or business", outcome: "pass" }
+    - { test: "Wholly worthless", result: "Completely uncollectible — not just harder to collect", outcome: "pass" }
 ---
+
+<div class="plain-terms">
+This page is about a loan that goes bad — usually money lent to a friend or relative who never
+pays it back. It decides how, and whether, that loss can be deducted. The loss counts as a fairly
+weak kind of deduction, and it only counts once the debt is completely worthless, not just harder
+to collect. It also only applies if there was a real loan in the first place, with real terms — an
+informal gift with no expectation of repayment gets nothing at all. This affects anyone who lends
+money outside of running a business, not a business writing off debts owed to it. How long the
+loan was outstanding does not change the outcome.
+</div>
 
 The rule is short and the consequences are severe. A debt that is not connected with a trade or business
 and goes bad is not deductible as a bad debt at all: it is a **short-term capital loss**, however many
@@ -102,7 +120,7 @@ then ordinary income only up to the annual allowance, with the excess carried fo
 to deduct a 50,000-dollar failed loan against salary should be told early that this takes many years
 absent capital gains.
 
-<div class="scenario">
+<div class="scenario" data-type="fails">
 <h3>Scenario 1 — the loan that was a gift</h3>
 
 Leila advances 60,000 dollars to her nephew to start a restaurant. There is no note, no interest rate and
@@ -116,7 +134,7 @@ schedule, and pressed for payment, the same 60,000 dollars would have been a sho
 § 166(d)(1)(B).
 </div>
 
-<div class="scenario">
+<div class="scenario" data-type="baseline">
 <h3>Scenario 2 — nine years, and still short term</h3>
 
 Marcus lends 40,000 dollars to a friend in 2017 on a proper written note at a commercial rate. The friend
@@ -124,13 +142,14 @@ becomes insolvent and the debt is wholly worthless in 2026. Marcus has 5,000 dol
 year and a salary.
 
 The debt is nonbusiness under IRC § 166(d)(2), so § 166(d)(1)(B) treats the 40,000-dollar loss as from the
-sale of a capital asset held **not more than 1 year** — short term, despite nine years outstanding. It
-offsets his 5,000 dollars of capital gains in full, then the annual allowance against ordinary income,
-with the balance carried forward under § 1212(b). It will take more than a decade to absorb unless he
-realises capital gains.
+sale of a capital asset held **not more than 1 year** — short term regardless of the actual
+{gloss:holding-period}, despite nine years outstanding. It offsets his 5,000 dollars of capital gains in
+full, then the annual allowance against ordinary income, with the balance carried forward as a
+{gloss:capital-loss} under § 1212(b). It will take more than a decade to absorb unless he realises capital
+gains.
 </div>
 
-<div class="scenario">
+<div class="scenario" data-type="timing">
 <h3>Scenario 3 — the year that was wrong</h3>
 
 Nadia lends 25,000 dollars to a small company. In 2025 the company defaults and she recovers 8,000
@@ -142,6 +161,33 @@ if and when the debt has become **totally** worthless, and no deduction is allow
 part during the year. The correct year is 2026, when the remaining 17,000 dollars became wholly worthless.
 If the 2025 position is corrected late, IRC § 6511(d)(1) gives seven years rather than the ordinary period
 to claim the 2026 loss.
+</div>
+
+<div class="scenario" data-type="boundary">
+<h3>Scenario 4 — ninety-five percent collected, and that's the problem</h3>
+
+A taxpayer lent 100,000 dollars on a proper note — a {gloss:bad-debt} in the making. The borrower pays back
+95,000 dollars over several years and then disappears, with no assets left to reach the remaining 5,000
+dollars.
+
+Treas. Reg. § 1.166-5(a)(2) draws the line at total worthlessness, not near-total worthlessness. If the
+last 5,000 dollars is genuinely uncollectible — not merely slow — what remains of the debt has become
+wholly worthless, and the loss is the unrecovered 5,000 dollars, not a percentage-based write-down of the
+original loan. The deduction turns on whether that last piece is truly gone, not on how much was already
+repaid.
+</div>
+
+<div class="scenario" data-type="procedural">
+<h3>Scenario 5 — filing the refund claim years later</h3>
+
+A taxpayer's accountant realises in 2026 that a debt actually became wholly worthless back in 2022, and no
+deduction was ever claimed for that year.
+
+IRC § 6511(d)(1) gives seven years from the return's due date to file a claim for credit or refund relating
+to the deductibility of a worthless debt, in place of the ordinary period. The taxpayer amends the 2022
+return, attaching a statement establishing when and how the debt became wholly worthless. Because the
+extended period exists specifically for this situation, discovering it years late does not by itself close
+the door.
 </div>
 
 <div class="callout trap">

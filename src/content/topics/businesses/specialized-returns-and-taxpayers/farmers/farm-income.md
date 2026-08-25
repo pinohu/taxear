@@ -29,7 +29,18 @@ forms: ["Schedule F"]
 related: ["2.3.4.b", "2.3.4.c", "2.3.4.d", "2.3.4.e"]
 changelog:
   - { date: "2026-08-21", summary: "Initial draft. Sets out gross income of farmers under Treas. Reg. § 1.61-4 with the raised-against-purchased distinction, the crop method and its deferred cost deduction, the IRC § 1231(b)(3) holding periods of 24 months for cattle and horses against 12 for other livestock with poultry excluded, the IRC § 451(f) crop insurance and IRC § 451(g) drought deferral elections, IRC § 1033(e) involuntary conversion treatment with its four-year replacement period, IRC § 126 conservation cost-sharing exclusion, IRC § 1385 patronage dividends, and the IRC § 77 Commodity Credit Corporation loan election." }
+  - { date: "2026-08-25", summary: "Added a plain-language summary, glossary marks, and typed scenarios." }
 ---
+
+<div class="plain-terms">
+This page explains how farmers pay tax on income from crops and animals. It matters if you raise
+crops or livestock, rent out farmland, or get farm subsidy payments or crop insurance money. It does
+not apply to a normal job or a shop. Here is the key idea. An animal you raised yourself is taxed one
+way. An animal you bought is taxed another way. That is because you already wrote off the cost of
+raising it. The page also covers timing. A farmer forced to sell animals early after a drought can
+often push that income to a later year. It decides how much of a farm sale is taxed now, how much can
+wait, and which farm payments count as income at all.
+</div>
 
 Farm income looks unusual because the ordinary rules produce unusual results when applied to
 livestock and growing crops. A raised calf has no basis, because the feed and vet bills were
@@ -89,9 +100,9 @@ income under the general rule. {fig:fi.ccc}
 
 Establish for every animal whether it was raised or purchased, and what it was held for. Raised
 animals sold from the breeding herd have a basis of zero, so the entire proceeds are gain — and if
-the holding period is met, that gain is IRC § 1231 gain rather than ordinary income from the sale of
-inventory. Purchased breeding animals have been depreciated, so the sale produces IRC § 1245 recapture
-up to the depreciation allowed and IRC § 1231 gain above it.
+the {gloss:holding-period} is met, that gain is IRC § 1231 gain rather than ordinary income from the
+sale of inventory. Purchased breeding animals have been depreciated, so the sale produces IRC § 1245
+{gloss:recapture} up to the depreciation allowed and IRC § 1231 gain above it.
 
 Watch the holding period boundary carefully. Cattle and horses need 24 months from acquisition;
 every other kind of livestock needs 12. Both need to have been held for draft, breeding, dairy or
@@ -112,7 +123,7 @@ portion. Direct commodity payments, disaster payments outside IRC § 451(f), and
 rental payments are ordinary income, and the last of those also raises a self-employment tax
 question that has been litigated repeatedly.
 
-<div class="scenario">
+<div class="scenario" data-type="baseline">
 
 <h3>Two cows</h3>
 
@@ -131,7 +142,7 @@ and the difference is which of them ever had a cost basis to begin with.
 
 </div>
 
-<div class="scenario">
+<div class="scenario" data-type="interaction">
 
 <h3>The drought sale</h3>
 
@@ -142,7 +153,7 @@ and the excess feeders $88,000. The rancher wants to defer as much as possible.
 
 Two different provisions apply to the two groups. The 60 breeding cows are livestock held for
 breeding purposes sold solely on account of weather-related conditions in excess of usual practice,
-so IRC § 1033(e)(1) treats the sale as an involuntary conversion. Gain is deferred to the extent the
+so IRC § 1033(e)(1) treats the sale as an {gloss:involuntary-conversion}. Gain is deferred to the extent the
 $190,000 is reinvested in replacement livestock, and IRC § 1033(e)(2)(A) gives four years rather than
 two because the area is federally designated. The 100 excess feeders are not held for draft,
 breeding or dairy purposes, so IRC § 1033(e) does not reach them — but IRC § 451(g) does, and the
@@ -151,7 +162,7 @@ other buys a single year.
 
 </div>
 
-<div class="scenario">
+<div class="scenario" data-type="timing">
 
 <h3>The Christmas trees</h3>
 

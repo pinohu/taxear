@@ -20,7 +20,12 @@ forms: []
 related: ["1.6.3.b", "1.6.3.c", "1.6.3.d", "1.6.3.e", "1.6.3.f"]
 changelog:
   - { date: "2026-08-21", summary: "Initial draft. Sets out the trigger and the clock for each of the international information returns an individual may face — the FBAR under the Bank Secrecy Act, Form 8938 under IRC § 6038D, Forms 5471 and 8865 under § 6038, Forms 3520 and 3520-A under § 6048, and the foreign gift report under § 6039F — with the valuation rules that differ between the FBAR and Form 8938 and the § 6038D(a) statutory floor that understates every regulatory threshold but one." }
+  - { date: "2026-08-25", summary: "Added a plain-language summary, glossary marks, and typed scenarios." }
 ---
+
+<div class="plain-terms">
+This page is about extra reports required when someone has money or property outside the United States. These reports are separate from an income tax return. Some of them apply even when no tax is owed at all. They affect anyone with a foreign bank account, a foreign trust, or a large gift from someone overseas. They also affect anyone who holds shares in a company formed abroad. They do not affect people whose money and property stay inside the United States. What this decides is which report fits which situation. It also decides how large an account or asset must be before it counts, and when each one is due. The rules differ from form to form, so filing one on time does not mean every deadline is met.
+</div>
 
 International information reporting catches ordinary people. A client who inherited a bank account
 abroad, married someone with family money overseas, or worked a few years in another country can be
@@ -104,13 +109,13 @@ is not income, no tax is due, and no trust is involved.
 client living abroad are four times the domestic ones, which cuts both ways: an expatriate client with
 substantial assets may be under the threshold, and a client who moved back mid-year may not be.
 
-<div class="scenario">
+<div class="scenario" data-type="boundary">
 <h3>The account that needed one form and not the other</h3>
 
 A married couple filing jointly and living in Ohio hold a single savings account in Portugal. Its
 balance peaked at $118,000 in July and closed the year at $94,000. They have no other foreign assets.
 
-They must file an FBAR: the aggregate exceeded the threshold at a point in the year, and the reported
+They must file an {gloss:fbar}: the aggregate exceeded the threshold at a point in the year, and the reported
 figure is the July maximum converted at the year-end rate, not the December balance. They need no
 Form 8938: the joint domestic thresholds are $100,000 on the last day of the year — $94,000, under it —
 or $150,000 at any time, which the July peak does not reach. One form, not two, and the arithmetic
@@ -118,10 +123,10 @@ turns on which balance each form asks for.
 
 </div>
 
-<div class="scenario">
+<div class="scenario" data-type="timing">
 <h3>The trust funded in March</h3>
 
-A client transfers $400,000 to a trust she established in Jersey on 12 March. She mentions it to her
+A client transfers $400,000 to a {gloss:trust} she established in Jersey on 12 March. She mentions it to her
 preparer in January of the following year, when gathering documents for the return.
 
 The § 6048(a) notice was due on or before the 90th day after the transfer — in June. The obligation is
@@ -131,7 +136,7 @@ an international reporting failure.
 
 </div>
 
-<div class="scenario">
+<div class="scenario" data-type="interaction">
 <h3>The inheritance that was not income</h3>
 
 A client receives €310,000 from his late aunt's estate in Spain. It is not income, no United States tax
@@ -144,11 +149,11 @@ as if it were.
 
 </div>
 
-<div class="scenario">
+<div class="scenario" data-type="fails">
 <h3>The threshold that was in the wrong place</h3>
 
-A preparer reads IRC § 6038D(a), sees $50,000 of aggregate value, and applies that figure to a married
-couple living in Singapore.
+A preparer reads IRC § 6038D(a), sees $50,000 of aggregate value, and applies that figure — meant for the
+Form 8938 regime {gloss:fatca} created in 2010 — to a married couple living in Singapore.
 
 The statutory figure is a floor subject to "such higher dollar amount as the Secretary may prescribe",
 and the operative thresholds for that couple are $400,000 on the last day of the year or $600,000 at any

@@ -18,7 +18,19 @@ forms: []
 related: ["2.1.2.a", "2.1.2.c", "2.1.2.d", "2.1.2.g"]
 changelog:
   - { date: "2026-08-21", summary: "Initial draft. Records that Pub. L. 114-74 § 1102 struck the recognition rule out of IRC § 704(e)(1) and inserted it in different words in IRC § 761(b) for partnership taxable years beginning after 31 December 2015, renumbering the donee distributive share rule from § 704(e)(2) to § 704(e)(1), and that Reg. § 1.704-1(e) has not been conformed and still cross-refers to the pre-2016 numbering. Sets out the surviving rules: the § 704(e)(1) reasonable compensation and proportionality limits on a donee share, the § 704(e)(2) treatment of an intra-family purchase as a gift, and the regulation's tests for capital as a material income-producing factor, for what counts as a capital interest, and for real ownership." }
+  - { date: "2026-08-25", summary: "Added a plain-language summary, glossary marks, and typed scenarios." }
 ---
+
+<div class="plain-terms">
+This page is about family businesses. One relative gives, or sells, a share of a business to
+another — say a parent hands part of a business to a child. The question is simple: does the
+law treat that family member as a real partner? If so, the profits are taxed to them, not to the
+person who gave the gift. This mostly comes up when the business owns real assets, like equipment
+or stock, that earn money on their own. It works differently in a business that only sells
+someone's own work, like a law firm. There, a gift of a share does not make the child a partner.
+The child must do real work in the business instead. Selling a share to a family member, even at a
+fair price, is treated the same as giving it away.
+</div>
 
 Family partnership questions are nearly always about one thing: whether a family member who did not earn
 the income is nonetheless a partner, so that the income is taxed to them rather than to the relative who
@@ -98,7 +110,7 @@ ownership tests — remains good; only its citations have gone stale.
 
 ## Scenarios
 
-<div class="scenario">
+<div class="scenario" data-type="baseline">
 <h3>The bakery and the law firm</h3>
 <p>Two clients present the same plan on the same day. Renzo owns a wholesale bakery with two production
 lines, a delivery fleet and substantial ingredient inventory; he wants to give a 30 percent capital
@@ -114,11 +126,11 @@ factor, there is no income-producing capital for the son to own, and he is not a
 Odile's.</p>
 </div>
 
-<div class="scenario">
+<div class="scenario" data-type="fails">
 <h3>The parent who worked for nothing</h3>
 <p>Teodora gives each of her two children a 25 percent capital interest in her equipment rental business,
-keeping 50 percent. She continues to manage the business full time and draws no salary or guaranteed
-payment. The partnership agreement allocates profits 25/25/50 in line with capital. The business earns
+keeping 50 percent. She continues to manage the business full time and draws no salary or {gloss:guaranteed-payment}.
+The partnership agreement allocates profits 25/25/50 in line with capital. The business earns
 $500,000 in 2026, and comparable managers in the industry are paid about $140,000.</p>
 <p>The allocation fails the first limit in IRC § 704(e)(1). A donee's distributive share is includible in
 their income except to the extent it is determined without allowance of reasonable compensation for
@@ -129,10 +141,10 @@ each of that $360,000 rather than a quarter of the whole. Their capital interest
 split was not.</p>
 </div>
 
-<div class="scenario">
+<div class="scenario" data-type="interaction">
 <h3>The sale that was a gift</h3>
 <p>Anselm sells a 20 percent capital interest in his printing business to his son for $400,000, which is
-its full fair market value, on arm's length terms with a commercial promissory note. He assumes the donee
+its full {gloss:fair-market-value}, on {gloss:arms-length} terms with a commercial promissory note. He assumes the donee
 rules cannot apply because nothing was given away.</p>
 <p>They apply anyway. IRC § 704(e)(2) provides that an interest purchased by one member of a family from
 another is considered created by gift from the seller, and the fair market value of the purchased interest
@@ -144,7 +156,7 @@ terms commercial is not a defence — it is precisely the transaction the paragr
 catch.</p>
 </div>
 
-<div class="scenario">
+<div class="scenario" data-type="boundary">
 <h3>The interest that was not a capital interest</h3>
 <p>Beatriz gives her nephew a right to 15 percent of the profits of her import business for as long as she
 owns it. He has no right to any of the assets, nothing distributable on withdrawal, and nothing on

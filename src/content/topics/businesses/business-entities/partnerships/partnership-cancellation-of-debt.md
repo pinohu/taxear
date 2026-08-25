@@ -22,7 +22,19 @@ forms: []
 related: ["2.1.2.a", "2.1.2.e", "2.1.2.c", "2.1.1.d", "2.1.5.g", "2.2.1.d"]
 changelog:
   - { date: "2026-08-21", summary: "Initial draft. Sets out the IRC § 61(a)(11) inclusion of discharge income, the IRC § 108(a)(1) exclusions, the § 108(b) attribute reduction order, and the § 108(d)(6) rule that the exclusions and attribute reductions are applied at the partner level — contrasted with the § 108(d)(7)(A) corporate-level treatment for an S corporation, under which no basis increase reaches the shareholder. Explains the interaction with § 752, under which the discharge also reduces the partner's share of liabilities, and with § 703(b), under which the § 108(b)(5) and (c)(3) elections belong to each partner rather than to the partnership." }
+  - { date: "2026-08-25", summary: "Added a plain-language summary, glossary marks, and typed scenarios." }
 ---
+
+<div class="plain-terms">
+This page is about a lender forgiving part of a debt owed by a partnership. When a debt is
+forgiven instead of repaid, that forgiven amount is usually treated as income. Being let off a
+debt is a lot like getting cash. In a partnership, the business works out that income first. Then
+each owner decides, on their own, whether their share is actually taxed. That choice often turns
+on whether the owner, personally, already owed more than they owned before the debt was forgiven.
+One owner might owe no tax at all. Another owner might owe tax on the very same event. A forgiven
+debt can also lower what each owner is treated as having put into the business, which can cause
+its own tax bill later.
+</div>
 
 Cancellation of partnership debt is where two systems that are individually straightforward produce a
 result neither of them describes. The partnership computes the discharge income and allocates it. Each
@@ -65,18 +77,18 @@ tax.
 ## How it works in practice
 
 The division of labour is the whole subject. The partnership determines that a discharge has occurred and
-how much income it produces, and reports each partner's share as a separately stated item. It does not
+how much {gloss:cancellation-of-debt-income} it produces, and reports each partner's share as a separately stated item. It does not
 apply IRC § 108. Each partner then tests their own position: were *they* in a title 11 case, were *they*
 insolvent, and by how much. One partner may exclude the whole of their share and another none of it, on
 identical facts about the debt, because the test is about the partner.
 
-Insolvency is the exclusion that most often applies and is the one where the partner-level rule bites
+{gloss:insolvency} is the exclusion that most often applies and is the one where the partner-level rule bites
 hardest. A partner's insolvency is measured by their own liabilities against their own assets immediately
 before the discharge, and their share of partnership liabilities counts among their liabilities. A partner
 whose personal balance sheet is comfortable cannot borrow the partnership's insolvency, however deeply
 underwater the partnership is.
 
-The contrast with an S corporation is the sharpest structural point in this topic. For an S corporation
+The contrast with an {gloss:s-corporation} is the sharpest structural point in this topic. For an S corporation
 IRC § 108 is applied at the entity level, and the excluded amount is not taken into account in the
 pass-through (IRC § 108(d)(7)(A)) — so nothing flows out and the shareholders get no basis increase.
 For a partnership, the income flows out under IRC § 702, increases each partner's basis under IRC § 705(a),
@@ -106,7 +118,7 @@ capital gain rather than eliminating tax altogether.
 
 ## Scenarios
 
-<div class="scenario">
+<div class="scenario" data-type="baseline">
 <h3>Two partners, one exclusion</h3>
 <p>A partnership settles a $600,000 trade debt for $200,000 in 2026, producing $400,000 of discharge
 income allocated equally between its two partners. Hyacinth is personally insolvent by $500,000
@@ -120,7 +132,7 @@ out. Casimiro is not insolvent and has no other exclusion available, so his $200
 in full. Nothing about the partnership's own solvency enters either analysis.</p>
 </div>
 
-<div class="scenario">
+<div class="scenario" data-type="boundary">
 <h3>The exclusion that produced a capital gain</h3>
 <p>Emeric holds a 40 percent interest with an outside basis of $30,000, of which $28,000 is his share of
 partnership liabilities. The partnership's lender forgives $250,000 of recourse debt. Emeric's share of
@@ -135,7 +147,7 @@ capital gain rather than removing the tax. Had he not been insolvent, the $100,0
 raised his basis first and no IRC § 731 gain would have arisen at all.</p>
 </div>
 
-<div class="scenario">
+<div class="scenario" data-type="interaction">
 <h3>The same facts in an S corporation</h3>
 <p>The same business is instead an S corporation with the same two owners, and the same $400,000 of debt
 is forgiven while one shareholder is insolvent.</p>
@@ -149,7 +161,7 @@ answer diverge, and neither is generally better: the partnership route preserves
 applies, and the S corporation route lets a solvent shareholder benefit from an insolvent entity.</p>
 </div>
 
-<div class="scenario">
+<div class="scenario" data-type="procedural">
 <h3>The election only one partner made</h3>
 <p>A partnership holding commercial real estate has $800,000 of qualified real property business
 indebtedness discharged. Its three partners are all solvent and outside title 11. Two want to exclude the

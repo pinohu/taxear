@@ -20,7 +20,18 @@ forms: []
 related: ["2.1.4.b", "2.1.4.c", "2.1.4.d", "2.1.1.c"]
 changelog:
   - { date: "2026-08-21", summary: "Initial draft. Sets out the IRC § 351(d)(1) exclusion of services from property and the matching rule in Reg. § 1.351-1(a)(1)(i), the Reg. § 1.351-1(a)(1)(ii) accommodation-transferor rule that denies property treatment to a token contribution made primarily to qualify others, the IRC § 83(a) inclusion of the value of stock received for services with the § 83(b) election and the § 83(h) matching deduction to the corporation, and the Reg. § 1.351-1(a)(1) gloss on \"immediately after the exchange\"." }
+  - { date: "2026-08-25", summary: "Added a plain-language summary, glossary marks, and typed the four existing scenarios (timing, fails, interaction, baseline)." }
 ---
+
+<div class="plain-terms">
+Sometimes a person gets stock in a new company just for the work they do, not for cash or property they
+hand over. This page explains what that means for their own taxes, and for everyone else forming the
+company with them. It affects founders, staff, and outside help who get company stock as pay. It does
+not affect people who simply buy stock with cash or other property. Stock paid for work is treated as
+pay, and taxed like a paycheck, usually once it is fully theirs to keep. Just as important, those shares
+do not count toward the test that lets other people's property go in tax-free. One person's work shares
+can quietly wreck the whole group's tax-free deal.
+</div>
 
 A founder who builds the business and a founder who funds it are in very different tax positions, and the
 difference is settled at incorporation. Property goes in tax-free; services do not go in at all. The
@@ -105,13 +116,13 @@ staged closing can still be one exchange. The same paragraph excludes stock righ
 
 ## Scenarios
 
-<div class="scenario">
+<div class="scenario" data-type="timing">
 <h3>The vesting schedule and the election</h3>
 <p>Solveig receives 400,000 shares at formation for agreeing to run the company, subject to forfeiture if
 she leaves within four years. The shares are worth $0.001 each at formation. By year four they are worth
 $3.00 each.</p>
 <p>Without an election she includes nothing at formation and then includes the value of each tranche as it
-vests, at the value then — on these figures, close to $1,200,000 of ordinary income spread over four
+vests, at the value then — on these figures, close to $1,200,000 of {gloss:ordinary-income} spread over four
 years, most of it in the later ones. With an IRC § 83(b) election made within the statutory window she
 includes $400 in the year of transfer, at the value on the date of transfer determined without regard to
 the lapsing restriction, and everything after that is capital appreciation on shares she already owns. The
@@ -119,7 +130,7 @@ election costs her $400 of income and a filing. The exposure is that under IRC �
 allowed if she forfeits the shares — she will have paid tax on stock she never kept.</p>
 </div>
 
-<div class="scenario">
+<div class="scenario" data-type="fails">
 <h3>The token contribution that did not qualify</h3>
 <p>Erasmus is to receive 30 percent of a new corporation for services; two investors contribute cash and
 property for the other 70 percent. Their adviser, aware that Erasmus's shares are outside the control
@@ -133,9 +144,9 @@ for exactly that reason. Erasmus's shares stay outside the control group, the in
 and the transaction fails IRC § 368(c). All of them recognise gain.</p>
 </div>
 
-<div class="scenario">
+<div class="scenario" data-type="interaction">
 <h3>The matching that ran a year late</h3>
-<p>A calendar-year corporation issues stock to a consultant in November 2026 for services already
+<p>A calendar-year corporation issues stock to an {gloss:independent-contractor} in November 2026 for services already
 performed. The shares are transferable immediately and worth $180,000. The consultant is on a calendar
 year.</p>
 <p>Both sides land in 2026. Under IRC § 83(a) the consultant includes $180,000 in the first taxable year
@@ -147,7 +158,7 @@ the consultant's calendar 2026 ends. The matching rule follows the service provi
 own accounting.</p>
 </div>
 
-<div class="scenario">
+<div class="scenario" data-type="baseline">
 <h3>The options that were not stock</h3>
 <p>A corporation is formed by two property transferors who take 100 percent of the issued shares. A key
 employee simultaneously receives options over 25 percent of the fully diluted equity in exchange for

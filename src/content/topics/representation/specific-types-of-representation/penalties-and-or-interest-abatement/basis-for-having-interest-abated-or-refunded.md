@@ -25,7 +25,19 @@ forms:
 related: ["3.3.2.a", "3.3.2.b", "3.3.1.a", "3.3.2.d", "3.3.2.e"]
 changelog:
   - { date: "2026-08-18", summary: "Initial publication from IRC § 6404 and Reg. § 301.6404-2." }
+  - { date: "2026-08-25", summary: "Added a plain-language summary, typed scenarios, and glossary marks." }
 ---
+
+<div class="plain-terms">
+An interest abatement request asks the IRS to erase interest already added to a tax bill.
+It does not touch the tax itself. It is not the same as removing a penalty. A good reason
+for paying late does not help here. Interest goes away only when an IRS worker caused
+unfair delay in a specific way, such as botching routine casework or a staffing call, and
+only for delay after the IRS first wrote to you about the bill. A related rule pauses
+interest, and some penalties, for a person who filed on time but heard nothing from the
+IRS for a long time. Together these rules decide if interest keeps running, pauses for a
+while, or goes away for good.
+</div>
 
 Interest is not a penalty and does not respond to the arguments that move penalties. **Reasonable cause is irrelevant to interest.** Interest is the price of having had the government's money, so it is abated only where the **government** caused it — and then only for a narrow class of acts, and only after a specific starting gun has fired.
 
@@ -79,27 +91,27 @@ That last category is the trap: an agent who takes eight months over a legal que
 
 **Keep § 6404(b) in view when drafting.** It bars a taxpayer from filing a **claim for abatement** of an income, estate or gift tax assessment — which is why relief from those assessments runs through refund claims and the (e) route.
 
-<div class="scenario">
+<div class="scenario" data-type="baseline">
 <h3>The notice that sat on a desk</h3>
-<p>An examination of Priya's 2023 return concludes. The issues are agreed, the notice of deficiency drafted, and Counsel review complete in March. The notice is not mailed until the following January.</p>
+<p>An examination of Priya's 2023 return concludes. The issues are agreed, the {gloss:notice-of-deficiency} drafted, and Counsel review complete in March. The notice is not mailed until the following January.</p>
 <p><em>Analysis.</em> Abatable in the Commissioner's discretion. Reg. § 301.6404-2(c), Example 2, treats issuance of a notice of deficiency as a <em>ministerial act</em> once the issues are identified, the notice prepared and all review complete — every judgment has been exercised and what remains is mechanical. The IRS had written to Priya about the deficiency and nothing significant is attributable to her, so both § 6404(e)(1) gates are open.</p>
 </div>
 
-<div class="scenario">
+<div class="scenario" data-type="boundary">
 <h3>The agent on sick leave</h3>
 <p>Daniel is notified his 2024 return will be examined. The assigned agent goes on extended sick leave and the case is not reassigned for eleven months.</p>
 <p><em>Analysis.</em> Abatable. Granting sick leave and declining to reassign the case are <em>not</em> ministerial acts, involving discretion — but they are <em>managerial</em> acts, being judgment relating to management of personnel, and Reg. § 301.6404-2(c), Example 5, says so in terms.</p>
 </div>
 
-<div class="scenario">
+<div class="scenario" data-type="fails">
 <h3>Eight months on a legal question</h3>
 <p>An agent examining a partnership's 2023 return spends eight months deciding whether a payment is a guaranteed payment or a distributive share. The taxpayer supplied everything promptly.</p>
 <p><em>Analysis.</em> Not abatable under § 6404(e). Both definitions in Reg. § 301.6404-2(b) exclude it in identical words — "A decision concerning the proper application of federal tax law … is not a ministerial act," and the same for managerial acts. The delay is real and the taxpayer blameless, but the section reaches only ministerial and managerial acts. The remaining argument is § 6404(g) suspension, if the timing fits.</p>
 </div>
 
-<div class="scenario">
+<div class="scenario" data-type="timing">
 <h3>Silence for three years</h3>
-<p>Renata files her 2022 individual return on 12 April 2023, before the due date. The IRS sends no notice stating a liability and its basis until 3 September 2026. The adjustment carries interest and an accuracy-related penalty; a failure-to-pay penalty also accrued.</p>
+<p>Renata files her 2022 individual return on 12 April 2023, before the due date. The IRS sends no notice stating a liability and its basis until 3 September 2026. The adjustment carries interest and an {gloss:accuracy-related-penalty}; a {gloss:failure-to-pay-penalty} also accrued.</p>
 <p><em>Analysis.</em> Section 6404(g) suspends the interest and the accuracy-related penalty allocable to the suspension period, which begins the day after the 36-month period closes and ends 21 days after the notice. No IRS misconduct need be shown — only timely filing and IRS silence. But the <em>failure-to-pay</em> penalty is expressly excepted by § 6404(g)(2)(A), which excludes any § 6651 penalty.</p>
 </div>
 

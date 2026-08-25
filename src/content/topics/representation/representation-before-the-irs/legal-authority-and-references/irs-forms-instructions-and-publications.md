@@ -18,7 +18,18 @@ forms: []
 related: ["3.2.5.g", "3.2.5.b", "3.2.5.c"]
 changelog:
   - { date: "2026-08-18", summary: "Initial publication from the IRS reliance page (last reviewed 5 December 2025), IRM 4.10.7, Reg. § 1.6664-4 and IRC § 6404." }
+  - { date: "2026-08-25", summary: "Added a plain-language summary, glossary marks, and typed scenarios." }
 ---
+
+<div class="plain-terms">
+This page explains what IRS publications, form instructions, and IRS.gov pages are
+actually worth. It matters to anyone who has ever answered a tax question by reading a
+plain-language IRS booklet instead of the law itself, which is most taxpayers and many
+preparers. These pages do not decide what the law says — if a publication is wrong, the
+law still wins, and the tax is still owed. But there is a real payoff for reading them
+anyway: honestly following one, even a wrong one, can still save you from a penalty on
+top of the tax.
+</div>
 
 Publications are where most taxpayers, and a good many practitioners, actually learn the law. They are also **not authority**, and the IRS says so twice over — in its own examiner manual and on a page written specifically to explain what may and may not be relied on. But the topic does not end there, because the same IRS page says that **reasonable reliance can still defeat a penalty**. Getting both halves right is the whole skill.
 
@@ -69,28 +80,28 @@ Publications are where most taxpayers, and a good many practitioners, actually l
 
 **Publications go stale on a schedule.** Each carries a revision date, and a publication revised for one tax year may not reflect legislation enacted since. Where a page relies on a publication, the revision date belongs in the citation — and where the publication predates a change, it is describing superseded law.
 
-<div class="scenario">
+<div class="scenario" data-type="baseline">
 <h3>The protest built on a publication</h3>
 <p>A representative's protest quotes three paragraphs of an IRS publication supporting the client's treatment, and cites nothing else. The Appeals officer says the publication is not authority.</p>
 <p><em>Analysis.</em> The officer is right, and the IRS says so to its own people: IRM 4.10.7.2.7 states that publications "should not be cited to sustain a position." The work is recoverable — the publication was summarising something, and that something is likely a Code section, a regulation or a revenue ruling. Find it, read it, and re-file on the underlying authority. Keep the publication in the file for the separate penalty argument.</p>
 </div>
 
-<div class="scenario">
+<div class="scenario" data-type="interaction">
 <h3>The client who followed the publication and lost</h3>
-<p>A client reported an item exactly as an IRS publication described. On examination the treatment is disallowed because the publication was an incomplete statement of a rule with an exception the client fell into. The examiner proposes an accuracy-related penalty.</p>
+<p>A client reported an item exactly as an IRS publication described. On examination the treatment is disallowed because the publication was an incomplete statement of a rule with an exception the client fell into. The examiner proposes an {gloss:accuracy-related-penalty}.</p>
 <p><em>Analysis.</em> Two different answers. On the tax, the client loses: informal guidance that "turns out to be an inaccurate statement of the law as applied to a particular taxpayer's case" does not displace the law, which "will control the taxpayer's tax liability." On the penalty, the client should win: the IRS states that a taxpayer showing good-faith reliance that was reasonable on all the facts and circumstances "will not be subject to a penalty that provides a reasonable cause standard for relief," citing Reg. § 1.6664-4(b). Concede the tax, contest the penalty, and put the publication as it then read into the file.</p>
 </div>
 
-<div class="scenario">
+<div class="scenario" data-type="boundary">
 <h3>The FAQ that was not a Fact Sheet</h3>
 <p>A client's position rests on an FAQ found on IRS.gov. The representative proposes to argue substantial authority on the strength of it.</p>
 <p><em>Analysis.</em> Check where it was published. The IRS states that FAQs published in a <em>Fact Sheet linked to an IRS news release</em> are considered authority for the substantial authority exception, and that FAQs not published in the Bulletin "will not be relied on, used, or cited as precedents by Service personnel." A webpage FAQ is not in either category. It may still support a reasonable cause argument on the penalty; it will not support substantial authority.</p>
 </div>
 
-<div class="scenario">
+<div class="scenario" data-type="fails">
 <h3>The telephone answer</h3>
 <p>A client telephoned the IRS, described the situation, was told the treatment was correct, noted the name of the assistor and the date, and filed accordingly. A penalty is now proposed.</p>
-<p><em>Analysis.</em> IRC § 6404(f) does not reach it. Abatement of a penalty attributable to erroneous advice requires the advice to have been <em>written</em> and furnished in response to a <em>written</em> request, with the taxpayer having supplied adequate and accurate information and having reasonably relied on the response. A telephone call meets none of the writing requirements. The client's remaining argument is reasonable cause under Reg. § 1.6664-4(b) on all the facts and circumstances, where the contemporaneous note of the call, the date and the assistor's identification number are the evidence.</p>
+<p><em>Analysis.</em> IRC § 6404(f) does not reach it. Abatement of a penalty attributable to erroneous advice requires the advice to have been <em>written</em> and furnished in response to a <em>written</em> request, with the taxpayer having supplied adequate and accurate information and having reasonably relied on the response. A telephone call meets none of the writing requirements. The client's remaining argument is {gloss:reasonable-cause-defense} under Reg. § 1.6664-4(b) on all the facts and circumstances, where the contemporaneous note of the call, the date and the assistor's identification number are the evidence.</p>
 </div>
 
 <div class="callout trap">

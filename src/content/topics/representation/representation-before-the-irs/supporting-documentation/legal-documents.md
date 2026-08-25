@@ -19,7 +19,12 @@ forms: []
 related: ["3.2.4.a", "3.2.4.c", "3.2.4.d"]
 changelog:
   - { date: "2026-08-19", summary: "Initial draft." }
+  - { date: "2026-08-25", summary: "Added a plain-language summary, a glossary mark, and typed scenarios." }
 ---
+
+<div class="plain-terms">
+This page is about the papers that end up in a tax file — birth certificates, divorce decrees, settlement deals, wills. These papers prove facts. A court can say who has custody of a child, or how to split a payout. But only tax law decides the tax result. That matters for split-up parents who both want to claim a child, anyone who got money from a lawsuit, and anyone handling an estate. What this decides is easy to miss: a court paper is proof, not an answer on its own. The right tax form, or the right words in the deal, still has to back up what the court paper says. Skip that step, and a real, valid paper still will not support the tax claim being made.
+</div>
 
 ## The rule
 
@@ -106,14 +111,14 @@ personal representative's authority to act, and to receive information, rests on
 document — and Form 56 notifies the IRS of the fiduciary relationship. These belong in the file before
 any return or representation is undertaken for a decedent.
 
-<div class="scenario">
+<div class="scenario" data-type="fails">
 <h3>The decree that awarded the exemption</h3>
 
 Bartholomew Achebe-Lindqvist's divorce decree, entered in 2021, states that he is entitled to claim
 his daughter in odd-numbered years. He files claiming her and attaches the relevant page of the decree.
 
 The claim fails on the statute. Where § 152(e) applies, the child is treated as the noncustodial
-parent's only if the custodial parent signs a written declaration that they will not claim the child
+parent's {gloss:qualifying-child} only if the custodial parent signs a written declaration that they will not claim the child
 **and the noncustodial parent attaches that declaration** to the return. A decree, even an
 unambiguous one, is not that declaration. What his representative should do is obtain a signed Form
 8332 from the mother — the decree gives him a contractual right to insist on it, enforceable in the
@@ -121,7 +126,7 @@ state court — and attach it. What the representative should not do is file aga
 hope.
 </div>
 
-<div class="scenario">
+<div class="scenario" data-type="interaction">
 <h3>The settlement with one number</h3>
 
 Ottoline Vasquez-Brennan settles a claim arising from a workplace injury. The agreement recites a
@@ -136,7 +141,7 @@ The lesson for the next client is earlier: an allocation negotiated at arm's len
 itself, is worth far more than one reconstructed afterwards.
 </div>
 
-<div class="scenario">
+<div class="scenario" data-type="timing">
 <h3>The 2017 decree modified in 2023</h3>
 
 Séverine Oyelowo-Kasprzak has paid alimony under a 2017 decree and deducted it each year. In 2023 the

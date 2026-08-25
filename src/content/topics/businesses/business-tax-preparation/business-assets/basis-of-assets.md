@@ -28,7 +28,16 @@ forms: []
 related: ["2.2.3.b", "2.2.3.c", "2.2.3.d", "2.2.2.c", "2.2.3.e", "2.2.5.h"]
 changelog:
   - { date: "2026-08-21", summary: "Initial draft. Sets out the IRC § 1012 cost rule and what enters cost under Reg. § 1.1012-1, the IRC § 1016(a) adjustments including the rule that depreciation reduces basis by the amount allowed but not less than the amount allowable, the IRC § 1014(a) date-of-death rule with its two elective valuation alternatives, and the IRC § 1015(a) dual basis for a gift that can produce neither gain nor loss." }
+  - { date: "2026-08-25", summary: "Added a plain-language summary, glossary marks, and two typed scenarios (fails, timing) alongside the existing three." }
 ---
+
+<div class="plain-terms">
+Basis is the number used to measure gain or loss when property is sold. It starts differently
+depending on how the property was acquired. Buying it, inheriting it, and getting it as a gift each
+set a different starting basis. That number can also move up or down over time as things happen to
+the property. This affects anyone who owns property used in a business and later sells, trades, or
+gives it away. It decides how much taxable gain or loss shows up when that day comes.
+</div>
 
 Every gain, every loss and every depreciation deduction runs through basis, and basis is decided
 by how the property was acquired. Four acquisition routes cover almost everything a business
@@ -108,7 +117,7 @@ have held it for more than one year — so inherited property is long-term howev
 actually held. The rule sits in IRC § 1223 rather than here, but it is decided by the same
 acquisition route.
 
-<div class="scenario">
+<div class="scenario" data-type="baseline">
 <h3>What went into the crane</h3>
 
 A construction company buys a crane. The invoice is $75,000, which includes sales tax at the local
@@ -129,7 +138,7 @@ over the following year, deductible when incurred subject to the twelve-month ru
 Reg. § 1.263(a)-4(f). Basis stays at $75,900.
 </div>
 
-<div class="scenario">
+<div class="scenario" data-type="boundary">
 <h3>The gift that produced nothing</h3>
 
 A father gives his daughter shares in his company. His basis is $80,000; their fair market value
@@ -151,7 +160,7 @@ cash, he would have realised a $30,000 loss. Giving the shares instead destroys 
 loss-limitation limb of IRC § 1015(a) exists precisely to stop a built-in loss being transferred.
 </div>
 
-<div class="scenario">
+<div class="scenario" data-type="interaction">
 <h3>The depreciation nobody claimed</h3>
 
 A business bought a warehouse for $500,000 in 2016 and has never claimed depreciation on it,
@@ -171,6 +180,33 @@ form produces a IRC § 481(a) adjustment picking up the whole $115,000 of omitte
 the year of change, without any amended return. The point of the rule is that the taxpayer cannot
 choose to leave basis high by not claiming — but nor is the deduction irretrievably lost, provided
 someone notices before the sale.
+</div>
+
+<div class="scenario" data-type="fails">
+<h3>The gift where only one basis existed</h3>
+
+A mother gives her son shares worth $120,000 on the date of the gift; her basis in them was $70,000.
+Believing the dual basis rule always applies to gifts, he assumes he has a $120,000 basis for gain
+and a $70,000 basis for loss.
+
+{fig:assetbasis.gift} (IRC § 1015(a)) only produces two bases where fair market value at the date of
+the gift is below the donor's basis. Here fair market value exceeds basis, so the dual-basis
+mechanism never engages — his basis is $70,000, the donor's {gloss:carryover-basis} figure, for
+every purpose, gain and loss alike. If he later sells for $95,000 his gain is $25,000, not zero; the
+assumption that every gift carries two bases fails on appreciated property.
+</div>
+
+<div class="scenario" data-type="timing">
+<h3>Long-term after three weeks</h3>
+
+A beneficiary inherits stock — a {gloss:step-up-in-basis} acquisition — and sells it nineteen days
+after the decedent's death, at a price above the date-of-death value.
+
+IRC § 1223(9) treats property whose basis is determined under § 1014 as held for more than one
+year, regardless of how briefly the beneficiary actually held it. Sold on day nineteen or day three
+hundred, the gain is long-term either way — the same nineteen-day {gloss:holding-period} would
+produce short-term gain for almost any other kind of acquisition, and produces long-term gain here
+solely because of how the property was acquired.
 </div>
 
 <div class="callout trap">

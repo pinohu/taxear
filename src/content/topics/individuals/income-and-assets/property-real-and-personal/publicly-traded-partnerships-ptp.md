@@ -20,7 +20,26 @@ forms: []
 related: ["1.2.1.k", "1.2.3.b", "1.2.3.a", "1.2.1.l", "1.2.3.c", "1.2.3.f", "1.2.3.g", "1.3.1.h"]
 changelog:
   - { date: "2026-08-19", summary: "Initial draft. Sets out the IRC § 7704(a) corporate default and the § 7704(c) qualifying income exception, the § 469(k)(1) separate application of the passive loss rules and the § 469(k)(3) rule deferring release of suspended losses until the whole interest goes, the § 741 and § 751(a) split of gain on sale, the § 705 outside basis mechanics, and the § 1446(f) withholding on a transferee." }
+  - { date: "2026-08-25", summary: "Added a plain-language summary, a decision diagram of the § 7704(c) escape test, glossary marks, and a procedural scenario on transferee withholding." }
+diagram:
+  archetype: "decision"
+  caption: "How a partnership avoids being taxed as a corporation"
+  tests:
+    - { test: "Publicly traded", result: "Interests trade on an established market, or are readily tradable on a secondary market", outcome: "pass" }
+    - { test: "Qualifying income", result: "At least 90% of gross income is interest, dividends, real property rents, gain from real property, or mineral/natural-resource income", outcome: "pass" }
+    - { test: "Every year", result: "That 90% threshold has been met for this year and every year since 1987", outcome: "pass" }
 ---
+
+<div class="plain-terms">
+This page covers partnerships whose ownership units trade on a public market, much like stocks. It
+decides how the money from owning those units gets taxed — the income, the losses, and any gain on
+a sale. That is not the same as owning an ordinary stock or a private partnership. A loss from one
+of these can only offset income from that same one. It cannot touch anything else, and it stays
+locked up until the whole stake is sold. When units are sold, part of the gain is often taxed like
+regular pay, not at lower rates. That holds true no matter how long the units were held. This
+mainly affects people who hold these units directly, often in energy or pipeline firms. It does not
+affect typical stock or fund investors.
+</div>
 
 Two features make a publicly traded partnership behave unlike anything else an individual is likely to
 hold. Its passive losses are quarantined — they offset income from **that partnership only**, and stay
@@ -111,7 +130,7 @@ taxed, so a unit bought for 30 dollars and sold for 25 can produce a gain. And t
 computed independently of the overall result, so a taxpayer with an economic loss can still report
 ordinary income, offset by a capital loss constrained by the annual capital loss allowance.
 
-<div class="scenario">
+<div class="scenario" data-type="baseline">
 <h3>Scenario 1 — two partnerships, one wasted loss</h3>
 
 Wren holds units in two pipeline partnerships. In 2026 the first allocates her a 9,000-dollar loss and the
@@ -123,31 +142,44 @@ the second partnership's 7,000 dollars, her wages, or any other passive activity
 dollars of income and carries the 9,000-dollar loss forward inside the first partnership's silo.
 </div>
 
-<div class="scenario">
+<div class="scenario" data-type="interaction">
 <h3>Scenario 2 — the loss on paper, the income on the return</h3>
 
 Yosef bought PTP units in 2018 for 44,000 dollars. Over eight years he received 19,000 dollars of cash
 distributions and was allocated 6,000 dollars of cumulative net income. He sells the whole position in
 2026 for 38,000 dollars. The final sales schedule shows 11,000 dollars of § 751 ordinary income.
 
-His adjusted basis under IRC § 705 is 44,000 plus 6,000 minus 19,000, or 31,000 dollars — not the 44,000
-he paid. Total gain is therefore 7,000 dollars, not the 6,000-dollar loss the brokerage statement implies.
-Of that, IRC § 751(a) makes 11,000 dollars ordinary income, leaving a 4,000-dollar capital loss. He
+His adjusted {gloss:basis} under IRC § 705 is 44,000 plus 6,000 minus 19,000, or 31,000 dollars — not the
+44,000 he paid. Total gain is therefore 7,000 dollars, not the 6,000-dollar loss the brokerage statement implies.
+Of that, IRC § 751(a) makes 11,000 dollars ordinary income, leaving a 4,000-dollar {gloss:capital-loss}. He
 reports both. And because he disposed of the entire interest, § 469(k)(3) is satisfied and any suspended
 losses from this partnership are released.
 </div>
 
-<div class="scenario">
+<div class="scenario" data-type="boundary">
 <h3>Scenario 3 — the partial sale that released nothing</h3>
 
-Zeinab holds 2,000 units of a single PTP with 14,000 dollars of suspended passive losses. Needing cash in
-2026, she sells 1,200 units.
+Zeinab holds 2,000 units of a single PTP with 14,000 dollars of suspended {gloss:passive-activity} losses.
+Needing cash in 2026, she sells 1,200 units.
 
 She reports the gain on those units, including any § 751 ordinary portion, but the suspended losses stay
 where they are. IRC § 469(k)(3) provides that she is not treated as having disposed of her entire interest
 in an activity of a publicly traded partnership until she disposes of her entire interest in the
 partnership, and 800 units remain. Selling the last 800 in a later year is what releases the 14,000
 dollars.
+</div>
+
+<div class="scenario" data-type="procedural">
+<h3>Scenario 4 — the affidavit that avoids withholding</h3>
+
+A U.S. individual sells her PTP units to another investor. Because part of the gain could be effectively
+connected income, the sale would otherwise trigger withholding on the amount realised.
+
+IRC § 1446(f)(1) requires the transferee to withhold 10 percent of the amount realised unless the
+transferor furnishes an affidavit under penalty of perjury, giving a taxpayer identification number and
+stating that she is not a foreign person, under § 1446(f)(2)(A). For a publicly traded interest this runs
+through the broker rather than the buyer personally, but the paperwork is what turns off the withholding —
+without it, the broker withholds first and the seller has to seek a refund afterward.
 </div>
 
 <div class="callout trap">
