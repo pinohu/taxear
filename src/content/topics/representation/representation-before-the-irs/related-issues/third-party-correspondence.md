@@ -8,7 +8,7 @@ description: "When the IRS goes to a bank, employer or witness by summons, the t
 status: published
 taxYear: 2026
 lastReviewed: "2026-08-18"
-reviewedBy: "I. Ohu"
+reviewedBy: "N. O."
 authorities:
   - { type: IRC, ref: "§ 7609", title: "Special procedures for third-party summonses", url: "https://www.law.cornell.edu/uscode/text/26/7609" }
   - { type: IRC, ref: "§ 7602", title: "Examination of books and witnesses", url: "https://www.law.cornell.edu/uscode/text/26/7602" }

@@ -8,7 +8,7 @@ description: "Filing is decided by the exclusions, not by the tax. And a gift le
 status: published
 taxYear: 2026
 lastReviewed: "2026-08-21"
-reviewedBy: "Draft for I. Ohu review"
+reviewedBy: "Draft for N. O. review"
 authorities:
   - { type: IRC, ref: "§ 6019", title: "Gift tax returns", url: "https://www.law.cornell.edu/uscode/text/26/6019" }
   - { type: IRC, ref: "§ 6075", title: "Time for filing estate and gift tax returns", url: "https://www.law.cornell.edu/uscode/text/26/6075" }

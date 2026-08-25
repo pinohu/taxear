@@ -8,7 +8,7 @@ description: "The rate schedule is unreadable on its own — IRC § 1(h) still p
 status: published
 taxYear: 2026
 lastReviewed: "2026-08-19"
-reviewedBy: "Draft for I. Ohu review"
+reviewedBy: "Draft for N. O. review"
 authorities:
   - { type: IRC, ref: "§ 1", title: "Tax imposed", url: "https://www.law.cornell.edu/uscode/text/26/1" }
   - { type: IRC, ref: "§ 246", title: "Rules applying to deductions for dividends received", url: "https://www.law.cornell.edu/uscode/text/26/246" }

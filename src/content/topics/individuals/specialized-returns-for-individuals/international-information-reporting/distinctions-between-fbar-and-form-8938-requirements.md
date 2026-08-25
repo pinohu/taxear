@@ -8,7 +8,7 @@ description: "Six axes of difference, and only one of them is the threshold. The
 status: published
 taxYear: 2026
 lastReviewed: "2026-08-21"
-reviewedBy: "Draft for I. Ohu review"
+reviewedBy: "Draft for N. O. review"
 authorities:
   - { type: IRC, ref: "§ 6038D", title: "Information with respect to foreign financial assets", url: "https://www.law.cornell.edu/uscode/text/26/6038D" }
   - { type: Statute, ref: "31 U.S.C. § 5314", title: "Records and reports on foreign financial agency transactions", url: "https://www.law.cornell.edu/uscode/text/31/5314" }

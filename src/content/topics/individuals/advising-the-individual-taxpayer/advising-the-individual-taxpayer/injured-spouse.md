@@ -8,7 +8,7 @@ description: "A refund allocation, not a liability relief. The claim is that the
 status: published
 taxYear: 2026
 lastReviewed: "2026-08-19"
-reviewedBy: "Draft for I. Ohu review"
+reviewedBy: "Draft for N. O. review"
 authorities:
   - { type: IRC, ref: "§ 6402", title: "Authority to make credits or refunds", url: "https://www.law.cornell.edu/uscode/text/26/6402" }
   - { type: IRC, ref: "§ 6013", title: "Joint returns of income tax by husband and wife", url: "https://www.law.cornell.edu/uscode/text/26/6013" }

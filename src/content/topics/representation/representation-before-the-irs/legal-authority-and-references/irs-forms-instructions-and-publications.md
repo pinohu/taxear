@@ -8,7 +8,7 @@ description: "Publications, instructions and IRS.gov pages are not authority and
 status: published
 taxYear: 2026
 lastReviewed: "2026-08-18"
-reviewedBy: "I. Ohu"
+reviewedBy: "N. O."
 authorities:
   - { type: Pub, ref: "IRS, Reliance on guidance", title: "General overview of taxpayer reliance on guidance published in the Internal Revenue Bulletin and FAQs, page last reviewed 5 December 2025", url: "https://www.irs.gov/newsroom/general-overview-of-taxpayer-reliance-on-guidance-published-in-the-internal-revenue-bulletin-and-faqs" }
   - { type: IRM, ref: "4.10.7", title: "Issue Resolution — Examination of Returns, IRS publications at 4.10.7.2.7", url: "https://www.irs.gov/irm/part4/irm_04-010-007" }

@@ -8,7 +8,7 @@ description: "Almost no corporation pays the corporate minimum tax, and the ones
 status: published
 taxYear: 2026
 lastReviewed: "2026-08-21"
-reviewedBy: "Draft for I. Ohu review"
+reviewedBy: "Draft for N. O. review"
 authorities:
   - { type: IRC, ref: "§ 53", title: "Credit for prior year minimum tax liability", url: "https://www.law.cornell.edu/uscode/text/26/53" }
   - { type: IRC, ref: "§ 55", title: "Alternative minimum tax imposed", url: "https://www.law.cornell.edu/uscode/text/26/55" }

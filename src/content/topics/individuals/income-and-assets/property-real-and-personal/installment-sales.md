@@ -8,7 +8,7 @@ description: "The method applies by default and depreciation recapture never get
 status: published
 taxYear: 2026
 lastReviewed: "2026-08-19"
-reviewedBy: "Draft for I. Ohu review"
+reviewedBy: "Draft for N. O. review"
 authorities:
   - { type: IRC, ref: "§ 453", title: "Installment method", url: "https://www.law.cornell.edu/uscode/text/26/453" }
   - { type: IRC, ref: "§ 453A", title: "Special rules for nondealers", url: "https://www.law.cornell.edu/uscode/text/26/453A" }

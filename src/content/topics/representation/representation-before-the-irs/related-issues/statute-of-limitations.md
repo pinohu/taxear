@@ -8,7 +8,7 @@ description: "The three federal tax limitations periods, how each is measured, w
 status: published
 taxYear: 2026
 lastReviewed: "2026-08-18"
-reviewedBy: "I. Ohu"
+reviewedBy: "N. O."
 authorities:
   - { type: IRC, ref: "§ 6501", title: "Limitations on assessment and collection" }
   - { type: IRC, ref: "§ 6502", title: "Collection after assessment" }

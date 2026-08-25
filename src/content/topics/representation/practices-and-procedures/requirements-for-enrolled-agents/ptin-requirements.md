@@ -8,7 +8,7 @@ description: "IRC section 6109(a)(4) and Reg. 1.6109-2 require a PTIN of anyone 
 status: published
 taxYear: 2026
 lastReviewed: "2026-08-18"
-reviewedBy: "I. Ohu"
+reviewedBy: "N. O."
 authorities:
   - { type: IRC, ref: "§ 6109(a)(4)", title: "Furnishing identifying number of tax return preparer", url: "https://www.law.cornell.edu/uscode/text/26/6109" }
   - { type: Reg, ref: "§ 1.6109-2", title: "Tax return preparers furnishing identifying numbers for returns or claims for refund filed after December 31, 2008", url: "https://www.law.cornell.edu/cfr/text/26/1.6109-2" }

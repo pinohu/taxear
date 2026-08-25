@@ -8,7 +8,7 @@ description: "Splitting doubles the annual exclusion and costs joint liability f
 status: published
 taxYear: 2026
 lastReviewed: "2026-08-20"
-reviewedBy: "Draft for I. Ohu review"
+reviewedBy: "Draft for N. O. review"
 authorities:
   - { type: IRC, ref: "§ 2513", title: "Gift by husband or wife to third party", url: "https://www.law.cornell.edu/uscode/text/26/2513" }
   - { type: IRC, ref: "§ 2503", title: "Taxable gifts", url: "https://www.law.cornell.edu/uscode/text/26/2503" }

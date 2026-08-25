@@ -8,7 +8,7 @@ description: "A treaty and the Code have equal statutory rank, so the later in t
 status: published
 taxYear: 2026
 lastReviewed: "2026-08-18"
-reviewedBy: "I. Ohu"
+reviewedBy: "N. O."
 authorities:
   - { type: IRC, ref: "§ 894", title: "Income affected by treaty", url: "https://www.law.cornell.edu/uscode/text/26/894" }
   - { type: IRC, ref: "§ 7852", title: "Other applicable rules — treaty obligations at (d)", url: "https://www.law.cornell.edu/uscode/text/26/7852" }

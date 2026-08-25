@@ -8,7 +8,7 @@ description: "Timely mailing is timely filing — but only by US mail or a desig
 status: published
 taxYear: 2026
 lastReviewed: "2026-08-18"
-reviewedBy: "I. Ohu"
+reviewedBy: "N. O."
 authorities:
   - { type: IRC, ref: "§ 7502", title: "Timely mailing treated as timely filing and paying", url: "https://www.law.cornell.edu/uscode/text/26/7502" }
   - { type: IRC, ref: "§ 7503", title: "Time for performance of acts where last day falls on Saturday, Sunday, or legal holiday", url: "https://www.law.cornell.edu/uscode/text/26/7503" }

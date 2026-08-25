@@ -8,7 +8,7 @@ description: "Payments and refundable credits turn a computed liability into a r
 status: published
 taxYear: 2026
 lastReviewed: "2026-08-19"
-reviewedBy: "Draft for I. Ohu review"
+reviewedBy: "Draft for N. O. review"
 authorities:
   - { type: IRC, ref: "§ 31", title: "Tax withheld on wages", url: "https://www.law.cornell.edu/uscode/text/26/31" }
   - { type: IRC, ref: "§ 32", title: "Earned income", url: "https://www.law.cornell.edu/uscode/text/26/32" }

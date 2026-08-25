@@ -8,7 +8,7 @@ description: "Eligibility for a spouse's employer plan destroys the deduction mo
 status: published
 taxYear: 2026
 lastReviewed: "2026-08-19"
-reviewedBy: "Draft for I. Ohu review"
+reviewedBy: "Draft for N. O. review"
 authorities:
   - { type: IRC, ref: "§ 62", title: "Adjusted gross income defined", url: "https://www.law.cornell.edu/uscode/text/26/62" }
   - { type: IRC, ref: "§ 162", title: "Trade or business expenses", url: "https://www.law.cornell.edu/uscode/text/26/162" }

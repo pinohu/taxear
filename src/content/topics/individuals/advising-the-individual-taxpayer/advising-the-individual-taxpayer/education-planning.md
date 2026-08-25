@@ -8,7 +8,7 @@ description: "The 2025 Act reshaped section 529 more than any provision since it
 status: published
 taxYear: 2026
 lastReviewed: "2026-08-19"
-reviewedBy: "Draft for I. Ohu review"
+reviewedBy: "Draft for N. O. review"
 authorities:
   - { type: IRC, ref: "§ 529", title: "Qualified tuition programs", url: "https://www.law.cornell.edu/uscode/text/26/529" }
   - { type: IRC, ref: "§ 530", title: "Coverdell education savings accounts", url: "https://www.law.cornell.edu/uscode/text/26/530" }

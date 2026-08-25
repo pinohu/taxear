@@ -8,7 +8,7 @@ description: "A number is not a tax status. A new name does not need one, a new 
 status: published
 taxYear: 2026
 lastReviewed: "2026-08-21"
-reviewedBy: "Draft for I. Ohu review"
+reviewedBy: "Draft for N. O. review"
 authorities:
   - { type: IRC, ref: "§ 6109", title: "Identifying numbers", url: "https://www.law.cornell.edu/uscode/text/26/6109" }
   - { type: Reg, ref: "§ 301.6109-1", title: "Identifying numbers", url: "https://www.law.cornell.edu/cfr/text/26/301.6109-1" }

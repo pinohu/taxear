@@ -8,7 +8,7 @@ description: "A loan to a relative that goes bad is a short-term capital loss, h
 status: published
 taxYear: 2026
 lastReviewed: "2026-08-19"
-reviewedBy: "Draft for I. Ohu review"
+reviewedBy: "Draft for N. O. review"
 authorities:
   - { type: IRC, ref: "§ 165", title: "Losses", url: "https://www.law.cornell.edu/uscode/text/26/165" }
   - { type: IRC, ref: "§ 166", title: "Bad debts", url: "https://www.law.cornell.edu/uscode/text/26/166" }

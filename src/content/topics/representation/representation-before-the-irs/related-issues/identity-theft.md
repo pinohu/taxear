@@ -8,7 +8,7 @@ description: "The IP PIN is the central mechanism, and the central instruction i
 status: published
 taxYear: 2026
 lastReviewed: "2026-08-18"
-reviewedBy: "I. Ohu"
+reviewedBy: "N. O."
 authorities:
   - { type: Pub, ref: "IRS, Get an identity protection PIN", title: "Get an identity protection PIN (IP PIN), page last reviewed 4 August 2026", url: "https://www.irs.gov/identity-theft-fraud-scams/get-an-identity-protection-pin" }
   - { type: Pub, ref: "IRS, Identity theft guide", title: "Identity theft guide for individuals, page last reviewed 4 June 2026", url: "https://www.irs.gov/newsroom/taxpayer-guide-to-identity-theft" }

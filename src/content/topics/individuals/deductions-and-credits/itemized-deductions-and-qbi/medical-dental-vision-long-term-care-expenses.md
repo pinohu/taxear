@@ -8,7 +8,7 @@ description: "The floor is a subtraction, not a threshold — clearing it does n
 status: published
 taxYear: 2026
 lastReviewed: "2026-08-19"
-reviewedBy: "Draft for I. Ohu review"
+reviewedBy: "Draft for N. O. review"
 authorities:
   - { type: IRC, ref: "§ 152", title: "Dependent defined", url: "https://www.law.cornell.edu/uscode/text/26/152" }
   - { type: IRC, ref: "§ 162", title: "Trade or business expenses", url: "https://www.law.cornell.edu/uscode/text/26/162" }

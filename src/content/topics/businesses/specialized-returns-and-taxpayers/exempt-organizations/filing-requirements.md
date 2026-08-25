@@ -8,7 +8,7 @@ description: "The Form 990 an organization files is set by gross receipts and as
 status: published
 taxYear: 2026
 lastReviewed: "2026-08-21"
-reviewedBy: "Draft for I. Ohu review"
+reviewedBy: "Draft for N. O. review"
 authorities:
   - { type: IRC, ref: "§ 6033", title: "Returns by exempt organizations", url: "https://www.law.cornell.edu/uscode/text/26/6033" }
   - { type: IRC, ref: "§ 6072", title: "Time for filing income tax returns", url: "https://www.law.cornell.edu/uscode/text/26/6072" }

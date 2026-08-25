@@ -8,7 +8,7 @@ description: "What Circular 230 section 10.21 requires when a practitioner disco
 status: published
 taxYear: 2026
 lastReviewed: "2026-08-18"
-reviewedBy: "I. Ohu"
+reviewedBy: "N. O."
 authorities:
   - { type: Circ230, ref: "§ 10.21", title: "Knowledge of client's omission", url: "https://www.law.cornell.edu/cfr/text/31/10.21" }
   - { type: Circ230, ref: "§ 10.51", title: "Incompetence and disreputable conduct", url: "https://www.law.cornell.edu/cfr/text/31/10.51" }

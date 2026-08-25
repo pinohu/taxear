@@ -8,7 +8,7 @@ description: "A cash-basis taxpayer is taxed on what they could have had, not on
 status: published
 taxYear: 2026
 lastReviewed: "2026-08-19"
-reviewedBy: "Draft for I. Ohu review"
+reviewedBy: "Draft for N. O. review"
 authorities:
   - { type: IRC, ref: "§ 61", title: "Gross income defined", url: "https://www.law.cornell.edu/uscode/text/26/61" }
   - { type: IRC, ref: "§ 409A", title: "Inclusion in gross income of deferred compensation under nonqualified deferred compensation plans", url: "https://www.law.cornell.edu/uscode/text/26/409A" }

@@ -8,7 +8,7 @@ description: "What a CP2000 is and is not, the three ways to answer it, when an 
 status: published
 taxYear: 2026
 lastReviewed: "2026-08-18"
-reviewedBy: "I. Ohu"
+reviewedBy: "N. O."
 authorities:
   - { type: IRC, ref: "§ 6212", title: "Notice of deficiency" }
   - { type: IRC, ref: "§ 6213(a)", title: "Time for filing petition and restriction on assessment" }

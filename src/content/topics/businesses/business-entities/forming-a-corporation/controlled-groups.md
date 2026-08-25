@@ -8,7 +8,7 @@ description: "A parent-subsidiary group needs eighty percent of vote or value, s
 status: published
 taxYear: 2026
 lastReviewed: "2026-08-21"
-reviewedBy: "Draft for I. Ohu review"
+reviewedBy: "Draft for N. O. review"
 authorities:
   - { type: IRC, ref: "§ 1563", title: "Definitions and special rules", url: "https://www.law.cornell.edu/uscode/text/26/1563" }
   - { type: IRC, ref: "§ 1561", title: "Limitation on accumulated earnings credit in the case of certain controlled corporations", url: "https://www.law.cornell.edu/uscode/text/26/1561" }

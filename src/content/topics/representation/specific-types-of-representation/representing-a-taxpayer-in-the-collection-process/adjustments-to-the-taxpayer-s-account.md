@@ -8,7 +8,7 @@ description: "What the IRS may abate under IRC 6404 and what a taxpayer may not 
 status: published
 taxYear: 2026
 lastReviewed: "2026-08-18"
-reviewedBy: "I. Ohu"
+reviewedBy: "N. O."
 authorities:
   - { type: IRC, ref: "§ 6402", title: "Authority to make credits or refunds" }
   - { type: IRC, ref: "§ 6404", title: "Abatements" }

@@ -8,7 +8,7 @@ description: "What separates avoidance from evasion, the indicators and affirmat
 status: published
 taxYear: 2026
 lastReviewed: "2026-08-18"
-reviewedBy: "I. Ohu"
+reviewedBy: "N. O."
 authorities:
   - { type: IRC, ref: "§ 6663", title: "Imposition of fraud penalty" }
   - { type: IRC, ref: "§ 6651(f)", title: "Increase in penalty for fraudulent failure to file" }

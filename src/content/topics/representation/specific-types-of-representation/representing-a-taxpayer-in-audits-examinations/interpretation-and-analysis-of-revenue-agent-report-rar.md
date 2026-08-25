@@ -8,7 +8,7 @@ description: "The examination report and its 30-day letter open a window that cl
 status: published
 taxYear: 2026
 lastReviewed: "2026-08-18"
-reviewedBy: "I. Ohu"
+reviewedBy: "N. O."
 authorities:
   - { type: Pub, ref: "Pub. 3498 (Rev. 5-2025)", title: "The Examination Process", url: "https://www.irs.gov/pub/irs-pdf/p3498.pdf" }
   - { type: Pub, ref: "Pub. 5 (Rev. 4-2021)", title: "Your Appeal Rights and How to Prepare a Protest if You Disagree", url: "https://www.irs.gov/pub/irs-pdf/p5.pdf" }

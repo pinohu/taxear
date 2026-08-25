@@ -8,7 +8,7 @@ description: "The exclusion is per donee, per year, and only for a present inter
 status: published
 taxYear: 2026
 lastReviewed: "2026-08-20"
-reviewedBy: "Draft for I. Ohu review"
+reviewedBy: "Draft for N. O. review"
 authorities:
   - { type: IRC, ref: "§ 2503", title: "Taxable gifts", url: "https://www.law.cornell.edu/uscode/text/26/2503" }
   - { type: Reg, ref: "§ 25.2503-3", title: "Future interests in property", url: "https://www.law.cornell.edu/cfr/text/26/25.2503-3" }

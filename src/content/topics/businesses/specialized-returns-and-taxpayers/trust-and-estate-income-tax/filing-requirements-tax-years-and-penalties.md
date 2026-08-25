@@ -8,7 +8,7 @@ description: "A trust must use the calendar year and an estate may choose a fisc
 status: published
 taxYear: 2026
 lastReviewed: "2026-08-21"
-reviewedBy: "Draft for I. Ohu review"
+reviewedBy: "Draft for N. O. review"
 authorities:
   - { type: IRC, ref: "§ 641", title: "Imposition of tax", url: "https://www.law.cornell.edu/uscode/text/26/641" }
   - { type: IRC, ref: "§ 644", title: "Taxable year of trusts", url: "https://www.law.cornell.edu/uscode/text/26/644" }

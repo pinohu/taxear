@@ -8,7 +8,7 @@ description: "Mixing personal and business money rarely creates a single big adj
 status: published
 taxYear: 2026
 lastReviewed: "2026-08-21"
-reviewedBy: "Draft for I. Ohu review"
+reviewedBy: "Draft for N. O. review"
 authorities:
   - { type: IRC, ref: "§ 162", title: "Trade or business expenses", url: "https://www.law.cornell.edu/uscode/text/26/162" }
   - { type: IRC, ref: "§ 183", title: "Activities not engaged in for profit", url: "https://www.law.cornell.edu/uscode/text/26/183" }

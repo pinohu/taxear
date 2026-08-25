@@ -8,7 +8,7 @@ description: "Three of the four fiduciary exemptions have never been indexed, an
 status: published
 taxYear: 2026
 lastReviewed: "2026-08-21"
-reviewedBy: "Draft for I. Ohu review"
+reviewedBy: "Draft for N. O. review"
 authorities:
   - { type: IRC, ref: "§ 67", title: "2-percent floor on miscellaneous itemized deductions", url: "https://www.law.cornell.edu/uscode/text/26/67" }
   - { type: IRC, ref: "§ 170", title: "Charitable, etc., contributions and gifts", url: "https://www.law.cornell.edu/uscode/text/26/170" }

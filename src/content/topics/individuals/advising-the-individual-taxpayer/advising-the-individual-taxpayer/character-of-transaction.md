@@ -8,7 +8,7 @@ description: "The rate difference is the largest single lever in individual plan
 status: published
 taxYear: 2026
 lastReviewed: "2026-08-20"
-reviewedBy: "Draft for I. Ohu review"
+reviewedBy: "Draft for N. O. review"
 authorities:
   - { type: IRC, ref: "§ 64", title: "Ordinary income defined", url: "https://www.law.cornell.edu/uscode/text/26/64" }
   - { type: IRC, ref: "§ 65", title: "Ordinary loss defined", url: "https://www.law.cornell.edu/uscode/text/26/65" }

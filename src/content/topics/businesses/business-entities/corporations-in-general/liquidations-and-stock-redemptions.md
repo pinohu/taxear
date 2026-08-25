@@ -8,7 +8,7 @@ description: "A redemption is a dividend unless it clears one of five tests, and
 status: published
 taxYear: 2026
 lastReviewed: "2026-08-21"
-reviewedBy: "Draft for I. Ohu review"
+reviewedBy: "Draft for N. O. review"
 authorities:
   - { type: IRC, ref: "§ 302", title: "Distributions in redemption of stock", url: "https://www.law.cornell.edu/uscode/text/26/302" }
   - { type: IRC, ref: "§ 318", title: "Constructive ownership of stock", url: "https://www.law.cornell.edu/uscode/text/26/318" }

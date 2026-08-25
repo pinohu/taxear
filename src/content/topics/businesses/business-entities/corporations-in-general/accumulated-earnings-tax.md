@@ -8,7 +8,7 @@ description: "The tax falls on one year's undistributed income, not on the accum
 status: published
 taxYear: 2026
 lastReviewed: "2026-08-21"
-reviewedBy: "Draft for I. Ohu review"
+reviewedBy: "Draft for N. O. review"
 authorities:
   - { type: IRC, ref: "§ 531", title: "Imposition of accumulated earnings tax", url: "https://www.law.cornell.edu/uscode/text/26/531" }
   - { type: IRC, ref: "§ 532", title: "Corporations subject to accumulated earnings tax", url: "https://www.law.cornell.edu/uscode/text/26/532" }

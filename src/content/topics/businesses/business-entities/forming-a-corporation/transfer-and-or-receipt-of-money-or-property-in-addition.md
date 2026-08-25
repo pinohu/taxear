@@ -8,7 +8,7 @@ description: "Boot is a ceiling on gain, never a trigger for loss, and each asse
 status: published
 taxYear: 2026
 lastReviewed: "2026-08-21"
-reviewedBy: "Draft for I. Ohu review"
+reviewedBy: "Draft for N. O. review"
 authorities:
   - { type: IRC, ref: "§ 351(b)", title: "Receipt of property", url: "https://www.law.cornell.edu/uscode/text/26/351" }
   - { type: IRC, ref: "§ 358", title: "Basis to distributees", url: "https://www.law.cornell.edu/uscode/text/26/358" }

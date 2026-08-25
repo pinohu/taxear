@@ -8,7 +8,7 @@ description: "Three separate charges with three different rates, and the one mos
 status: published
 taxYear: 2026
 lastReviewed: "2026-08-19"
-reviewedBy: "Draft for I. Ohu review"
+reviewedBy: "Draft for N. O. review"
 authorities:
   - { type: IRC, ref: "§ 6654", title: "Failure by individual to pay estimated income tax", url: "https://www.law.cornell.edu/uscode/text/26/6654" }
   - { type: IRC, ref: "§ 6651", title: "Failure to file tax return or to pay tax", url: "https://www.law.cornell.edu/uscode/text/26/6651" }

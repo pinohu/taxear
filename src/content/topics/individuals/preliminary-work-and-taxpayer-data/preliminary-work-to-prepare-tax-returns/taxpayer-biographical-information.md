@@ -8,7 +8,7 @@ description: "The intake facts that decide the return: identifying numbers the C
 status: published
 taxYear: 2026
 lastReviewed: "2026-08-19"
-reviewedBy: "I. Ohu"
+reviewedBy: "N. O."
 authorities:
   - { type: IRC, ref: "§ 6109(a)", title: "Supplying of identifying numbers" }
   - { type: IRC, ref: "§ 151(e)", title: "Identifying information required" }

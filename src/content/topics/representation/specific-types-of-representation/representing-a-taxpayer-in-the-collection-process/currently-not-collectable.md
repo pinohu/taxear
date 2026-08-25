@@ -8,7 +8,7 @@ description: "What currently not collectible status is and is not, the hardship 
 status: published
 taxYear: 2026
 lastReviewed: "2026-08-18"
-reviewedBy: "I. Ohu"
+reviewedBy: "N. O."
 authorities:
   - { type: IRM, ref: "5.16.1", title: "Currently Not Collectible", url: "https://www.irs.gov/irm/part5/irm_05-016-001r" }
   - { type: IRC, ref: "§ 6343(e)", title: "Release of levy upon agreement that amount is uncollectible" }

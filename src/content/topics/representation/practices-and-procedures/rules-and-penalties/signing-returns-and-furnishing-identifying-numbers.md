@@ -8,7 +8,7 @@ description: "Who must sign a prepared return and when, whose PTIN and EIN must 
 status: published
 taxYear: 2026
 lastReviewed: "2026-08-18"
-reviewedBy: "I. Ohu"
+reviewedBy: "N. O."
 authorities:
   - { type: IRC, ref: "§ 6109(a)(4)", title: "Furnishing identifying number of tax return preparer" }
   - { type: IRC, ref: "§ 6695(b)", title: "Failure to sign return" }

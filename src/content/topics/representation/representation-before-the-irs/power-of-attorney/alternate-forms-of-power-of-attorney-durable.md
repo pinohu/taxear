@@ -8,7 +8,7 @@ description: "The IRS accepts a non-IRS power of attorney that carries the Reg. 
 status: published
 taxYear: 2026
 lastReviewed: "2026-08-18"
-reviewedBy: "I. Ohu"
+reviewedBy: "N. O."
 authorities:
   - { type: Reg, ref: "§ 601.503", title: "Requirements of power of attorney, signatures, fiduciaries and Commissioner's authority to substitute other requirements", url: "https://www.law.cornell.edu/cfr/text/26/601.503" }
   - { type: Reg, ref: "§ 601.502", title: "Recognized representative", url: "https://www.law.cornell.edu/cfr/text/26/601.502" }

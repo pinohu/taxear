@@ -8,7 +8,7 @@ description: "Two clocks run at once: one decides whether the claim is timely, t
 status: published
 taxYear: 2026
 lastReviewed: "2026-08-20"
-reviewedBy: "Draft for I. Ohu review"
+reviewedBy: "Draft for N. O. review"
 authorities:
   - { type: IRC, ref: "§ 6511", title: "Limitations on credit or refund", url: "https://www.law.cornell.edu/uscode/text/26/6511" }
   - { type: IRC, ref: "§ 6513", title: "Time return deemed filed and tax considered paid", url: "https://www.law.cornell.edu/uscode/text/26/6513" }

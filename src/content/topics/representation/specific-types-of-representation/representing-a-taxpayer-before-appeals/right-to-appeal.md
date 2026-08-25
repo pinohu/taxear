@@ -8,7 +8,7 @@ description: "The statutory right to an independent forum: what the Taxpayer Fir
 status: published
 taxYear: 2026
 lastReviewed: "2026-08-19"
-reviewedBy: "I. Ohu"
+reviewedBy: "N. O."
 authorities:
   - { type: IRC, ref: "§ 7803(e)", title: "Independent Office of Appeals" }
   - { type: IRC, ref: "§ 7803(a)(3)", title: "Execution of duties in accord with taxpayer rights" }

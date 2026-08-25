@@ -8,7 +8,7 @@ description: "When a child's investment income is taxed at a parent's rate: the 
 status: published
 taxYear: 2026
 lastReviewed: "2026-08-19"
-reviewedBy: "I. Ohu"
+reviewedBy: "N. O."
 authorities:
   - { type: IRC, ref: "§ 1(g)", title: "Certain unearned income of children taxed as if parent's income" }
   - { type: IRC, ref: "§ 63(c)(5)", title: "Limitation on standard deduction in the case of certain dependents" }

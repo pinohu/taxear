@@ -8,7 +8,7 @@ description: "What the IRS has already said to this taxpayer changes the engagem
 status: published
 taxYear: 2026
 lastReviewed: "2026-08-19"
-reviewedBy: "Draft for I. Ohu review"
+reviewedBy: "Draft for N. O. review"
 authorities:
   - { type: IRC, ref: "§ 6213", title: "Restrictions applicable to deficiencies; petition to Tax Court", url: "https://www.law.cornell.edu/uscode/text/26/6213" }
   - { type: IRC, ref: "§ 6103(c)", title: "Disclosure of returns and return information to designee of taxpayer", url: "https://www.law.cornell.edu/uscode/text/26/6103" }

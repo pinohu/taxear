@@ -8,7 +8,7 @@ description: "Getting into Appeals: the small case request, the formal written p
 status: published
 taxYear: 2026
 lastReviewed: "2026-08-19"
-reviewedBy: "I. Ohu"
+reviewedBy: "N. O."
 authorities:
   - { type: Pub, ref: "5", title: "Your Appeal Rights and How to Prepare a Protest if You Disagree (Rev. 4-2021)", url: "https://www.irs.gov/pub/irs-pdf/p5.pdf" }
   - { type: IRC, ref: "§ 7803(e)(3)", title: "Purposes and duties of the Independent Office of Appeals" }

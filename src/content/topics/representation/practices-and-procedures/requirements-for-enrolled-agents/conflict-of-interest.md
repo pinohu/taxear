@@ -8,7 +8,7 @@ description: "Circular 230 section 10.29 bars representation involving a conflic
 status: published
 taxYear: 2026
 lastReviewed: "2026-08-18"
-reviewedBy: "I. Ohu"
+reviewedBy: "N. O."
 authorities:
   - { type: Circ230, ref: "§ 10.29", title: "Conflicting interests", url: "https://www.law.cornell.edu/cfr/text/31/10.29" }
   - { type: Circ230, ref: "§ 10.22", title: "Diligence as to accuracy", url: "https://www.law.cornell.edu/cfr/text/31/10.22" }

@@ -8,7 +8,7 @@ description: "Two provisions changed direction in 2025: the home equity disallow
 status: published
 taxYear: 2026
 lastReviewed: "2026-08-19"
-reviewedBy: "Draft for I. Ohu review"
+reviewedBy: "Draft for N. O. review"
 authorities:
   - { type: IRC, ref: "§ 121", title: "Exclusion of gain from sale of principal residence", url: "https://www.law.cornell.edu/uscode/text/26/121" }
   - { type: IRC, ref: "§ 163", title: "Interest", url: "https://www.law.cornell.edu/uscode/text/26/163" }

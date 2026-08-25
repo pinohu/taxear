@@ -8,7 +8,7 @@ description: "The cap on state and local taxes does not reach a business, federa
 status: published
 taxYear: 2026
 lastReviewed: "2026-08-21"
-reviewedBy: "Draft for I. Ohu review"
+reviewedBy: "Draft for N. O. review"
 authorities:
   - { type: IRC, ref: "§ 164", title: "Taxes", url: "https://www.law.cornell.edu/uscode/text/26/164" }
   - { type: IRC, ref: "§ 275", title: "Certain taxes", url: "https://www.law.cornell.edu/uscode/text/26/275" }

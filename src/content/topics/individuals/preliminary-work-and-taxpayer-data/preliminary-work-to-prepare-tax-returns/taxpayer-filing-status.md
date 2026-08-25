@@ -8,7 +8,7 @@ description: "Status is fixed on the last day of the year, with exceptions that 
 status: published
 taxYear: 2026
 lastReviewed: "2026-08-19"
-reviewedBy: "I. Ohu"
+reviewedBy: "N. O."
 authorities:
   - { type: IRC, ref: "§ 2(a)", title: "Definition of surviving spouse" }
   - { type: IRC, ref: "§ 2(b)", title: "Definition of head of household" }

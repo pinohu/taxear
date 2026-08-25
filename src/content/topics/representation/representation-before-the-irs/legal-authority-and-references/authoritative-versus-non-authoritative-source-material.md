@@ -8,7 +8,7 @@ description: "Reg. § 1.6662-4(d)(3)(iii) gives a closed list of what counts as 
 status: published
 taxYear: 2026
 lastReviewed: "2026-08-18"
-reviewedBy: "I. Ohu"
+reviewedBy: "N. O."
 authorities:
   - { type: Reg, ref: "§ 1.6662-4", title: "Substantial understatement of income tax — types of authority at (d)(3)(iii)", url: "https://www.law.cornell.edu/cfr/text/26/1.6662-4" }
   - { type: IRC, ref: "§ 6110", title: "Public inspection of written determinations — precedential status at (k)(3)", url: "https://www.law.cornell.edu/uscode/text/26/6110" }

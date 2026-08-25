@@ -8,7 +8,7 @@ description: "The three grounds for compromising a tax liability, what must acco
 status: published
 taxYear: 2026
 lastReviewed: "2026-08-18"
-reviewedBy: "I. Ohu"
+reviewedBy: "N. O."
 authorities:
   - { type: IRC, ref: "§ 7122", title: "Compromises" }
   - { type: IRC, ref: "§ 6331", title: "Levy and distraint" }

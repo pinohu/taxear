@@ -8,7 +8,7 @@ description: "The ten-year collection period under IRC 6502, what suspends it, w
 status: published
 taxYear: 2026
 lastReviewed: "2026-08-18"
-reviewedBy: "I. Ohu"
+reviewedBy: "N. O."
 authorities:
   - { type: IRC, ref: "§ 6502", title: "Collection after assessment" }
   - { type: IRC, ref: "§ 6503", title: "Suspension of running of period of limitation" }

@@ -8,7 +8,7 @@ description: "Two temporary rules expired at the end of 2025 and a repayment cap
 status: published
 taxYear: 2026
 lastReviewed: "2026-08-19"
-reviewedBy: "Draft for I. Ohu review"
+reviewedBy: "Draft for N. O. review"
 authorities:
   - { type: IRC, ref: "§ 36B", title: "Refundable credit for coverage under a qualified health plan", url: "https://www.law.cornell.edu/uscode/text/26/36B" }
   - { type: IRC, ref: "§ 5000A", title: "Requirement to maintain minimum essential coverage", url: "https://www.law.cornell.edu/uscode/text/26/5000A" }

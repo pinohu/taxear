@@ -8,7 +8,7 @@ description: "The cap is not what most sources still say, and its heading contra
 status: published
 taxYear: 2026
 lastReviewed: "2026-08-19"
-reviewedBy: "Draft for I. Ohu review"
+reviewedBy: "Draft for N. O. review"
 authorities:
   - { type: IRC, ref: "§ 164", title: "Taxes", url: "https://www.law.cornell.edu/uscode/text/26/164" }
   - { type: IRC, ref: "§ 212", title: "Expenses for production of income", url: "https://www.law.cornell.edu/uscode/text/26/212" }

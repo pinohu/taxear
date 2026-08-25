@@ -8,7 +8,7 @@ description: "There is one credit, not two. Every dollar of it used against a li
 status: published
 taxYear: 2026
 lastReviewed: "2026-08-20"
-reviewedBy: "Draft for I. Ohu review"
+reviewedBy: "Draft for N. O. review"
 authorities:
   - { type: IRC, ref: "§ 2505", title: "Unified credit against gift tax", url: "https://www.law.cornell.edu/uscode/text/26/2505" }
   - { type: IRC, ref: "§ 2502", title: "Rate of tax", url: "https://www.law.cornell.edu/uscode/text/26/2502" }

@@ -8,7 +8,7 @@ description: "The deduction is unlimited and the election is not automatic. Port
 status: published
 taxYear: 2026
 lastReviewed: "2026-08-20"
-reviewedBy: "Draft for I. Ohu review"
+reviewedBy: "Draft for N. O. review"
 authorities:
   - { type: IRC, ref: "§ 2056", title: "Bequests, etc., to surviving spouse", url: "https://www.law.cornell.edu/uscode/text/26/2056" }
   - { type: IRC, ref: "§ 2056A", title: "Qualified domestic trust", url: "https://www.law.cornell.edu/uscode/text/26/2056A" }

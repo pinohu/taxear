@@ -8,7 +8,7 @@ description: "The declaration is not a formality. It converts an inaccurate retu
 status: published
 taxYear: 2026
 lastReviewed: "2026-08-20"
-reviewedBy: "Draft for I. Ohu review"
+reviewedBy: "Draft for N. O. review"
 authorities:
   - { type: IRC, ref: "§ 6065", title: "Verification of returns", url: "https://www.law.cornell.edu/uscode/text/26/6065" }
   - { type: IRC, ref: "§ 6061", title: "Signing of returns and other documents", url: "https://www.law.cornell.edu/uscode/text/26/6061" }

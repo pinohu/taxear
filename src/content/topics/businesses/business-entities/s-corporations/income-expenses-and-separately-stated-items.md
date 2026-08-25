@@ -8,7 +8,7 @@ description: "What an S corporation separately states, what it folds into ordina
 status: published
 taxYear: 2026
 lastReviewed: "2026-08-21"
-reviewedBy: "Draft for I. Ohu review"
+reviewedBy: "Draft for N. O. review"
 authorities:
   - { type: IRC, ref: "§ 1363", title: "Effect of election on corporation", url: "https://www.law.cornell.edu/uscode/text/26/1363" }
   - { type: IRC, ref: "§ 1366", title: "Pass-thru of items to shareholders", url: "https://www.law.cornell.edu/uscode/text/26/1366" }

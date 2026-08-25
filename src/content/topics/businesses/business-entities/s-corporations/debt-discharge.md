@@ -8,7 +8,7 @@ description: "Excluded discharge income stops at the corporation and never reach
 status: published
 taxYear: 2026
 lastReviewed: "2026-08-21"
-reviewedBy: "Draft for I. Ohu review"
+reviewedBy: "Draft for N. O. review"
 authorities:
   - { type: IRC, ref: "§ 108(a)", title: "Exclusion from gross income", url: "https://www.law.cornell.edu/uscode/text/26/108" }
   - { type: IRC, ref: "§ 108(b)", title: "Reduction of tax attributes", url: "https://www.law.cornell.edu/uscode/text/26/108" }

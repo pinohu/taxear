@@ -8,7 +8,7 @@ description: "Form 8275 and Form 8275-R are mirror images, and the penalty each 
 status: published
 taxYear: 2026
 lastReviewed: "2026-08-18"
-reviewedBy: "I. Ohu"
+reviewedBy: "N. O."
 authorities:
   - { type: Form, ref: "8275", title: "Disclosure Statement — Instructions (Rev. 10/2024)", url: "https://www.irs.gov/instructions/i8275" }
   - { type: Form, ref: "8275-R", title: "Regulation Disclosure Statement — Instructions (Rev. 11/2024)", url: "https://www.irs.gov/instructions/i8275r" }

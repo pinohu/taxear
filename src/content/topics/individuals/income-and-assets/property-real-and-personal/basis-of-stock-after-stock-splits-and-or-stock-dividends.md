@@ -8,7 +8,7 @@ description: "Total basis never changes on a split — it is spread thinner. The
 status: published
 taxYear: 2026
 lastReviewed: "2026-08-19"
-reviewedBy: "Draft for I. Ohu review"
+reviewedBy: "Draft for N. O. review"
 authorities:
   - { type: IRC, ref: "§ 305", title: "Distributions of stock and stock rights", url: "https://www.law.cornell.edu/uscode/text/26/305" }
   - { type: IRC, ref: "§ 307", title: "Basis of stock and stock rights acquired in distributions", url: "https://www.law.cornell.edu/uscode/text/26/307" }

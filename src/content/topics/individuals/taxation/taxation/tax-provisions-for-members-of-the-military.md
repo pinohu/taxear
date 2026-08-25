@@ -8,7 +8,7 @@ description: "A scattered set of provisions rather than one regime, and the one 
 status: published
 taxYear: 2026
 lastReviewed: "2026-08-19"
-reviewedBy: "Draft for I. Ohu review"
+reviewedBy: "Draft for N. O. review"
 authorities:
   - { type: IRC, ref: "§ 112", title: "Certain combat zone compensation of members of the Armed Forces", url: "https://www.law.cornell.edu/uscode/text/26/112" }
   - { type: IRC, ref: "§ 134", title: "Certain military benefits", url: "https://www.law.cornell.edu/uscode/text/26/134" }

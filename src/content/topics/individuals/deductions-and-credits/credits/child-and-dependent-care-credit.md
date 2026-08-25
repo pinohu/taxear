@@ -8,7 +8,7 @@ description: "For 2026 this credit is worth far more than it was. The rate now s
 status: published
 taxYear: 2026
 lastReviewed: "2026-08-19"
-reviewedBy: "Draft for I. Ohu review"
+reviewedBy: "Draft for N. O. review"
 authorities:
   - { type: IRC, ref: "§ 21", title: "Expenses for household and dependent care services necessary for gainful employment", url: "https://www.law.cornell.edu/uscode/text/26/21" }
   - { type: IRC, ref: "§ 129", title: "Dependent care assistance programs", url: "https://www.law.cornell.edu/uscode/text/26/129" }

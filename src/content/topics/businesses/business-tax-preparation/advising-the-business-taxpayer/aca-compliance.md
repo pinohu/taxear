@@ -8,7 +8,7 @@ description: "Applicable large employer status is measured on last year's workfo
 status: published
 taxYear: 2026
 lastReviewed: "2026-08-21"
-reviewedBy: "Draft for I. Ohu review"
+reviewedBy: "Draft for N. O. review"
 authorities:
   - { type: IRC, ref: "§ 4980H", title: "Shared responsibility for employers regarding health coverage", url: "https://www.law.cornell.edu/uscode/text/26/4980H" }
   - { type: IRC, ref: "§ 45R", title: "Employee health insurance expenses of small employers", url: "https://www.law.cornell.edu/uscode/text/26/45R" }

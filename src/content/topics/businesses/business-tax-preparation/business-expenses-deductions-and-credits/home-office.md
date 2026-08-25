@@ -8,7 +8,7 @@ description: "The exception needs exclusive and regular use, the safe harbour tr
 status: published
 taxYear: 2026
 lastReviewed: "2026-08-21"
-reviewedBy: "Draft for I. Ohu review"
+reviewedBy: "Draft for N. O. review"
 authorities:
   - { type: IRC, ref: "§ 280A", title: "Disallowance of certain expenses in connection with business use of home", url: "https://www.law.cornell.edu/uscode/text/26/280A" }
   - { type: IRC, ref: "§ 67", title: "2-percent floor on miscellaneous itemized deductions", url: "https://www.law.cornell.edu/uscode/text/26/67" }

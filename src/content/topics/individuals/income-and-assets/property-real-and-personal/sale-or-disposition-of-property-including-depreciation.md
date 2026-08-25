@@ -8,7 +8,7 @@ description: "Recapture on real property is almost always zero, and what practit
 status: published
 taxYear: 2026
 lastReviewed: "2026-08-19"
-reviewedBy: "Draft for I. Ohu review"
+reviewedBy: "Draft for N. O. review"
 authorities:
   - { type: IRC, ref: "§ 1", title: "Tax imposed", url: "https://www.law.cornell.edu/uscode/text/26/1" }
   - { type: IRC, ref: "§ 108", title: "Income from discharge of indebtedness", url: "https://www.law.cornell.edu/uscode/text/26/108" }

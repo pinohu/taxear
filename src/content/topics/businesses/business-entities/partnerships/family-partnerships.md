@@ -8,7 +8,7 @@ description: "IRC 704(e) is no longer headed family partnerships and no longer h
 status: published
 taxYear: 2026
 lastReviewed: "2026-08-21"
-reviewedBy: "Draft for I. Ohu review"
+reviewedBy: "Draft for N. O. review"
 authorities:
   - { type: IRC, ref: "§ 704(e)", title: "Partnership interests created by gift", url: "https://www.law.cornell.edu/uscode/text/26/704" }
   - { type: IRC, ref: "§ 761(b)", title: "Partner defined", url: "https://www.law.cornell.edu/uscode/text/26/761" }

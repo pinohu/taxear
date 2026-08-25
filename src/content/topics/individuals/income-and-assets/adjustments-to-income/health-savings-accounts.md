@@ -8,7 +8,7 @@ description: "The limit is built a month at a time, and Medicare entitlement zer
 status: published
 taxYear: 2026
 lastReviewed: "2026-08-19"
-reviewedBy: "Draft for I. Ohu review"
+reviewedBy: "Draft for N. O. review"
 authorities:
   - { type: IRC, ref: "§ 72", title: "Annuities; certain proceeds of endowment and life insurance contracts", url: "https://www.law.cornell.edu/uscode/text/26/72" }
   - { type: IRC, ref: "§ 213", title: "Medical, dental, etc., expenses", url: "https://www.law.cornell.edu/uscode/text/26/213" }

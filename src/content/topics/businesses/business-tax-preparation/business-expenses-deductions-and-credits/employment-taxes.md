@@ -8,7 +8,7 @@ description: "Only the social security half of FICA stops at a wage base, the em
 status: published
 taxYear: 2026
 lastReviewed: "2026-08-21"
-reviewedBy: "Draft for I. Ohu review"
+reviewedBy: "Draft for N. O. review"
 authorities:
   - { type: IRC, ref: "§ 3101", title: "Rate of tax on employees", url: "https://www.law.cornell.edu/uscode/text/26/3101" }
   - { type: IRC, ref: "§ 3111", title: "Rate of tax on employers", url: "https://www.law.cornell.edu/uscode/text/26/3111" }

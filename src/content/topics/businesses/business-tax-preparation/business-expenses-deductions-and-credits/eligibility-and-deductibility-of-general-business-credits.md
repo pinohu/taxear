@@ -8,7 +8,7 @@ description: "The general business credit is one credit made of many, capped by 
 status: published
 taxYear: 2026
 lastReviewed: "2026-08-21"
-reviewedBy: "Draft for I. Ohu review"
+reviewedBy: "Draft for N. O. review"
 authorities:
   - { type: IRC, ref: "§ 38", title: "General business credit", url: "https://www.law.cornell.edu/uscode/text/26/38" }
   - { type: IRC, ref: "§ 39", title: "Carryback and carryforward of unused credits", url: "https://www.law.cornell.edu/uscode/text/26/39" }

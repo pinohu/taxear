@@ -8,7 +8,7 @@ description: "Foreign income is taxed like any other, then relieved by an exclus
 status: published
 taxYear: 2026
 lastReviewed: "2026-08-19"
-reviewedBy: "Draft for I. Ohu review"
+reviewedBy: "Draft for N. O. review"
 authorities:
   - { type: IRC, ref: "§ 27", title: "Taxes of foreign countries and possessions of the United States", url: "https://www.law.cornell.edu/uscode/text/26/27" }
   - { type: IRC, ref: "§ 275", title: "Certain taxes", url: "https://www.law.cornell.edu/uscode/text/26/275" }

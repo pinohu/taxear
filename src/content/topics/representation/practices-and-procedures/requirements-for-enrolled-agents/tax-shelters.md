@@ -8,7 +8,7 @@ description: "IRC section 6662(d)(2)(C) defines a tax shelter by a significant p
 status: published
 taxYear: 2026
 lastReviewed: "2026-08-18"
-reviewedBy: "I. Ohu"
+reviewedBy: "N. O."
 authorities:
   - { type: IRC, ref: "§ 6662(d)(2)(C)", title: "Reduction not to apply to tax shelters", url: "https://www.law.cornell.edu/uscode/text/26/6662" }
   - { type: IRC, ref: "§ 6111", title: "Disclosure of reportable transactions", url: "https://www.law.cornell.edu/uscode/text/26/6111" }

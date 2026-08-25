@@ -8,7 +8,7 @@ description: "Cost of goods sold is beginning inventory plus purchases less endi
 status: published
 taxYear: 2026
 lastReviewed: "2026-08-21"
-reviewedBy: "Draft for I. Ohu review"
+reviewedBy: "Draft for N. O. review"
 authorities:
   - { type: IRC, ref: "§ 471", title: "General rule for inventories", url: "https://www.law.cornell.edu/uscode/text/26/471" }
   - { type: IRC, ref: "§ 472", title: "Last-in, first-out inventories", url: "https://www.law.cornell.edu/uscode/text/26/472" }

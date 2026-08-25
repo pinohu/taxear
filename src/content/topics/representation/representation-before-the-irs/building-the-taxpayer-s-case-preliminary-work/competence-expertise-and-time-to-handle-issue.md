@@ -8,7 +8,7 @@ description: "Competence is a defined Circular 230 duty and it is attainable —
 status: published
 taxYear: 2026
 lastReviewed: "2026-08-18"
-reviewedBy: "I. Ohu"
+reviewedBy: "N. O."
 authorities:
   - { type: Circ230, ref: "§ 10.35", title: "Competence", url: "https://www.law.cornell.edu/cfr/text/31/10.35" }
   - { type: Circ230, ref: "§ 10.22", title: "Diligence as to accuracy", url: "https://www.law.cornell.edu/cfr/text/31/10.22" }

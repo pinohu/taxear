@@ -8,7 +8,7 @@ description: "The two-part refund rule under IRC 6511, the special periods for b
 status: published
 taxYear: 2026
 lastReviewed: "2026-08-18"
-reviewedBy: "I. Ohu"
+reviewedBy: "N. O."
 authorities:
   - { type: IRC, ref: "§ 6511", title: "Limitations on credit or refund" }
   - { type: IRC, ref: "§ 6513", title: "Time return deemed filed and tax considered paid" }

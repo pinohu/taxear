@@ -8,7 +8,7 @@ description: "A business bad debt is an ordinary deduction and can be written of
 status: published
 taxYear: 2026
 lastReviewed: "2026-08-21"
-reviewedBy: "Draft for I. Ohu review"
+reviewedBy: "Draft for N. O. review"
 authorities:
   - { type: IRC, ref: "§ 166", title: "Bad debts", url: "https://www.law.cornell.edu/uscode/text/26/166" }
   - { type: IRC, ref: "§ 111", title: "Recovery of tax benefit items", url: "https://www.law.cornell.edu/uscode/text/26/111" }

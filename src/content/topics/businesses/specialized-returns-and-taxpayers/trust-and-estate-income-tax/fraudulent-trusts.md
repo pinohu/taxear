@@ -8,7 +8,7 @@ description: "Every abusive trust scheme reduces to the same claim — that inco
 status: published
 taxYear: 2026
 lastReviewed: "2026-08-21"
-reviewedBy: "Draft for I. Ohu review"
+reviewedBy: "Draft for N. O. review"
 authorities:
   - { type: IRC, ref: "§ 61", title: "Gross income defined", url: "https://www.law.cornell.edu/uscode/text/26/61" }
   - { type: IRC, ref: "§ 262", title: "Personal, living, and family expenses", url: "https://www.law.cornell.edu/uscode/text/26/262" }

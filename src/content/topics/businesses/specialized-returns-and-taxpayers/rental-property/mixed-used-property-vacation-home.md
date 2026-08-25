@@ -8,7 +8,7 @@ description: "One extra night of personal use can move a vacation home between t
 status: published
 taxYear: 2026
 lastReviewed: "2026-08-21"
-reviewedBy: "Draft for I. Ohu review"
+reviewedBy: "Draft for N. O. review"
 authorities:
   - { type: IRC, ref: "§ 280A", title: "Disallowance of certain expenses in connection with business use of home, rental of vacation homes, etc.", url: "https://www.law.cornell.edu/uscode/text/26/280A" }
   - { type: IRC, ref: "§ 183", title: "Activities not engaged in for profit", url: "https://www.law.cornell.edu/uscode/text/26/183" }

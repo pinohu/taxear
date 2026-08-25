@@ -8,7 +8,7 @@ description: "A floor arrived in 2026 and a non-itemizer deduction came back. Ca
 status: published
 taxYear: 2026
 lastReviewed: "2026-08-19"
-reviewedBy: "Draft for I. Ohu review"
+reviewedBy: "Draft for N. O. review"
 authorities:
   - { type: IRC, ref: "§ 170", title: "Charitable, etc., contributions and gifts", url: "https://www.law.cornell.edu/uscode/text/26/170" }
   - { type: IRC, ref: "§ 172", title: "Net operating loss deduction", url: "https://www.law.cornell.edu/uscode/text/26/172" }

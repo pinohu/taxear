@@ -8,7 +8,7 @@ description: "What Circular 230 counts as practice before the IRS, which acts fa
 status: published
 taxYear: 2026
 lastReviewed: "2026-08-18"
-reviewedBy: "I. Ohu"
+reviewedBy: "N. O."
 authorities:
   - { type: Circ230, ref: "§ 10.2(a)(4)", title: "Definition of practice before the Internal Revenue Service", url: "https://www.law.cornell.edu/cfr/text/31/10.2" }
   - { type: Circ230, ref: "§ 10.2(a)(5)", title: "Definition of practitioner", url: "https://www.law.cornell.edu/cfr/text/31/10.2" }

@@ -8,7 +8,7 @@ description: "Three separate thresholds, three different tests, and one schedule
 status: published
 taxYear: 2026
 lastReviewed: "2026-08-19"
-reviewedBy: "Draft for I. Ohu review"
+reviewedBy: "Draft for N. O. review"
 authorities:
   - { type: IRC, ref: "§ 3121", title: "Definitions — FICA", url: "https://www.law.cornell.edu/uscode/text/26/3121" }
   - { type: IRC, ref: "§ 3306", title: "Definitions — FUTA", url: "https://www.law.cornell.edu/uscode/text/26/3306" }

@@ -8,7 +8,7 @@ description: "State law makes the entity; federal tax law decides what it is. A 
 status: published
 taxYear: 2026
 lastReviewed: "2026-08-21"
-reviewedBy: "Draft for I. Ohu review"
+reviewedBy: "Draft for N. O. review"
 authorities:
   - { type: Reg, ref: "§ 301.7701-1", title: "Classification of organizations for federal tax purposes", url: "https://www.law.cornell.edu/cfr/text/26/301.7701-1" }
   - { type: Reg, ref: "§ 301.7701-2", title: "Business entities; definitions", url: "https://www.law.cornell.edu/cfr/text/26/301.7701-2" }

@@ -8,7 +8,7 @@ description: "Lifetime gifts do not shrink the exclusion. They are added back to
 status: published
 taxYear: 2026
 lastReviewed: "2026-08-20"
-reviewedBy: "Draft for I. Ohu review"
+reviewedBy: "Draft for N. O. review"
 authorities:
   - { type: IRC, ref: "§ 2001", title: "Imposition and rate of tax", url: "https://www.law.cornell.edu/uscode/text/26/2001" }
   - { type: IRC, ref: "§ 2010", title: "Unified credit against estate tax", url: "https://www.law.cornell.edu/uscode/text/26/2010" }

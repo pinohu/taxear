@@ -8,7 +8,7 @@ description: "How installment agreements are authorised and terminated, the curr
 status: published
 taxYear: 2026
 lastReviewed: "2026-08-18"
-reviewedBy: "I. Ohu"
+reviewedBy: "N. O."
 authorities:
   - { type: IRC, ref: "§ 6159", title: "Agreements for payment of tax liability in installments" }
   - { type: IRC, ref: "§ 6331", title: "Levy and distraint" }

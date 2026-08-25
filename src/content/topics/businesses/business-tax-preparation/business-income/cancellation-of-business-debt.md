@@ -8,7 +8,7 @@ description: "Forgiven debt is income unless a provision says otherwise, and the
 status: published
 taxYear: 2026
 lastReviewed: "2026-08-21"
-reviewedBy: "Draft for I. Ohu review"
+reviewedBy: "Draft for N. O. review"
 authorities:
   - { type: IRC, ref: "§ 61(a)(11)", title: "Income from discharge of indebtedness", url: "https://www.law.cornell.edu/uscode/text/26/61" }
   - { type: IRC, ref: "§ 108(a)", title: "Exclusion from gross income", url: "https://www.law.cornell.edu/uscode/text/26/108" }

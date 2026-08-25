@@ -8,7 +8,7 @@ description: "The IRC 6161 extension, the undue hardship standard that is far hi
 status: published
 taxYear: 2026
 lastReviewed: "2026-08-18"
-reviewedBy: "I. Ohu"
+reviewedBy: "N. O."
 authorities:
   - { type: IRC, ref: "§ 6161", title: "Extension of time for paying tax" }
   - { type: IRC, ref: "§ 6165", title: "Bonds where time to pay tax or deficiency has been extended" }

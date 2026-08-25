@@ -8,7 +8,7 @@ description: "Finding errors before the IRS does: what a math error notice can a
 status: published
 taxYear: 2026
 lastReviewed: "2026-08-19"
-reviewedBy: "I. Ohu"
+reviewedBy: "N. O."
 authorities:
   - { type: IRC, ref: "§ 6213(b)", title: "Exceptions to restrictions on assessment — mathematical or clerical errors" }
   - { type: IRC, ref: "§ 6213(g)(2)", title: "Mathematical or clerical error defined" }

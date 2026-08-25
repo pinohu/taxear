@@ -2,7 +2,7 @@
 
 Reference site on federal tax law and IRS procedure, structured on the IRS Special
 Enrollment Examination outline: 3 parts, 13 domains, 44 sections, 360 topics. Astro 5
-static site, deployed on Cloudflare Pages. Owner and editor: Ike Ohu (`pinohu`).
+static site, deployed on Cloudflare Pages. Owner and editor: Nnamdi O. (`pinohu`).
 
 Read `docs/PAGE_TEMPLATE.md` and `docs/VERIFICATION.md` before writing any page.
 `docs/BUILD_PLAN.md` is the plan of record; `docs/STEP5_PLAN.md` is the current work order.

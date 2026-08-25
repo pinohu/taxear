@@ -8,7 +8,7 @@ description: "Who is a specified tax return preparer under IRC 6011(e)(3), when 
 status: published
 taxYear: 2026
 lastReviewed: "2026-08-18"
-reviewedBy: "I. Ohu"
+reviewedBy: "N. O."
 authorities:
   - { type: IRC, ref: "§ 6011(e)(3)", title: "Special rule for tax return preparers" }
   - { type: Reg, ref: "§ 301.6011-7", title: "Specified tax return preparers required to file individual income tax returns using magnetic media", url: "https://www.law.cornell.edu/cfr/text/26/301.6011-7" }

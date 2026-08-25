@@ -8,7 +8,7 @@ description: "Part of this credit became refundable for the first time in 2025, 
 status: published
 taxYear: 2026
 lastReviewed: "2026-08-19"
-reviewedBy: "Draft for I. Ohu review"
+reviewedBy: "Draft for N. O. review"
 authorities:
   - { type: IRC, ref: "§ 23", title: "Adoption expenses", url: "https://www.law.cornell.edu/uscode/text/26/23" }
   - { type: IRC, ref: "§ 137", title: "Adoption assistance programs", url: "https://www.law.cornell.edu/uscode/text/26/137" }

@@ -8,7 +8,7 @@ description: "The three narrow circumstances in which an agent may sign a client
 status: published
 taxYear: 2026
 lastReviewed: "2026-08-18"
-reviewedBy: "I. Ohu"
+reviewedBy: "N. O."
 authorities:
   - { type: IRC, ref: "§ 6061", title: "Signing of returns and other documents" }
   - { type: IRC, ref: "§ 6012", title: "Persons required to make returns of income" }

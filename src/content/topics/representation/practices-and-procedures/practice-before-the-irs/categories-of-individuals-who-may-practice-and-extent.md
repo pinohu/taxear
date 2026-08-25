@@ -8,7 +8,7 @@ description: "The categories eligible to practice under Circular 230, the differ
 status: published
 taxYear: 2026
 lastReviewed: "2026-08-18"
-reviewedBy: "I. Ohu"
+reviewedBy: "N. O."
 authorities:
   - { type: Circ230, ref: "§ 10.3", title: "Who may practice", url: "https://www.law.cornell.edu/cfr/text/31/10.3" }
   - { type: Circ230, ref: "§ 10.2(a)(5)", title: "Definition of practitioner", url: "https://www.law.cornell.edu/cfr/text/31/10.2" }

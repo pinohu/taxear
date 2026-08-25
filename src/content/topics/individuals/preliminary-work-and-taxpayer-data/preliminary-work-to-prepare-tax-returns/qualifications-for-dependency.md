@@ -8,7 +8,7 @@ description: "Two definitions, four gates and a tiebreaker: how a qualifying chi
 status: published
 taxYear: 2026
 lastReviewed: "2026-08-19"
-reviewedBy: "I. Ohu"
+reviewedBy: "N. O."
 authorities:
   - { type: IRC, ref: "§ 152(b)", title: "Dependent — exceptions" }
   - { type: IRC, ref: "§ 152(c)", title: "Qualifying child" }

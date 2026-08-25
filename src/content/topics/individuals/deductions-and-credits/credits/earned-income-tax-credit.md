@@ -8,7 +8,7 @@ description: "The largest refundable credit on an individual return, with a clif
 status: published
 taxYear: 2026
 lastReviewed: "2026-08-19"
-reviewedBy: "Draft for I. Ohu review"
+reviewedBy: "Draft for N. O. review"
 authorities:
   - { type: IRC, ref: "§ 32", title: "Earned income", url: "https://www.law.cornell.edu/uscode/text/26/32" }
   - { type: IRC, ref: "§ 152", title: "Dependent defined", url: "https://www.law.cornell.edu/uscode/text/26/152" }

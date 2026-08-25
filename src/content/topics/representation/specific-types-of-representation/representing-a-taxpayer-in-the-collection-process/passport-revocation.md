@@ -8,7 +8,7 @@ description: "What makes a debt seriously delinquent under IRC 7345, the statuto
 status: published
 taxYear: 2026
 lastReviewed: "2026-08-18"
-reviewedBy: "I. Ohu"
+reviewedBy: "N. O."
 authorities:
   - { type: IRC, ref: "§ 7345", title: "Revocation or denial of passport in case of certain tax delinquencies" }
   - { type: IRC, ref: "§ 6323", title: "Validity and priority against certain persons" }

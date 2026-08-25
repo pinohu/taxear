@@ -8,7 +8,7 @@ description: "Tax on a partnership adjustment is now assessed against the partne
 status: published
 taxYear: 2026
 lastReviewed: "2026-08-21"
-reviewedBy: "Draft for I. Ohu review"
+reviewedBy: "Draft for N. O. review"
 authorities:
   - { type: IRC, ref: "§ 6221", title: "Determination at partnership level; election out", url: "https://www.law.cornell.edu/uscode/text/26/6221" }
   - { type: IRC, ref: "§ 6222", title: "Partner's return must be consistent with partnership return", url: "https://www.law.cornell.edu/uscode/text/26/6222" }

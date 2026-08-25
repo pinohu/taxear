@@ -8,7 +8,7 @@ description: "Entertainment is gone, meals are halved, and 2026 is the first yea
 status: published
 taxYear: 2026
 lastReviewed: "2026-08-21"
-reviewedBy: "Draft for I. Ohu review"
+reviewedBy: "Draft for N. O. review"
 authorities:
   - { type: IRC, ref: "§ 162(a)(2)", title: "Traveling expenses while away from home", url: "https://www.law.cornell.edu/uscode/text/26/162" }
   - { type: IRC, ref: "§ 274(a)", title: "Entertainment, amusement, recreation, or qualified transportation fringes", url: "https://www.law.cornell.edu/uscode/text/26/274" }

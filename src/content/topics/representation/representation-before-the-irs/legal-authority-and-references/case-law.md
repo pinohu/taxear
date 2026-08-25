@@ -8,7 +8,7 @@ description: "A Supreme Court decision binds the IRS everywhere. A lower court d
 status: published
 taxYear: 2026
 lastReviewed: "2026-08-18"
-reviewedBy: "I. Ohu"
+reviewedBy: "N. O."
 authorities:
   - { type: IRM, ref: "4.10.7", title: "Issue Resolution — Examination of Returns, tax research and court decisions", url: "https://www.irs.gov/irm/part4/irm_04-010-007" }
   - { type: IRC, ref: "§ 7463", title: "Disputes involving $50,000 or less — small tax case procedure", url: "https://www.law.cornell.edu/uscode/text/26/7463" }

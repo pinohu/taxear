@@ -8,7 +8,7 @@ description: "IRC § 7525 extends the attorney-client privilege to federally aut
 status: published
 taxYear: 2026
 lastReviewed: "2026-08-18"
-reviewedBy: "I. Ohu"
+reviewedBy: "N. O."
 authorities:
   - { type: IRC, ref: "§ 7525", title: "Confidentiality privileges relating to taxpayer communications", url: "https://www.law.cornell.edu/uscode/text/26/7525" }
   - { type: IRC, ref: "§ 6662", title: "Imposition of accuracy-related penalty — tax shelter definition at (d)(2)(C)(ii)", url: "https://www.law.cornell.edu/uscode/text/26/6662" }

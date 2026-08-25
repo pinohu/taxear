@@ -8,7 +8,7 @@ description: "Two questions decide a rental expense: whether it is allocable to 
 status: published
 taxYear: 2026
 lastReviewed: "2026-08-21"
-reviewedBy: "Draft for I. Ohu review"
+reviewedBy: "Draft for N. O. review"
 authorities:
   - { type: IRC, ref: "§ 212", title: "Expenses for production of income", url: "https://www.law.cornell.edu/uscode/text/26/212" }
   - { type: IRC, ref: "§ 162", title: "Trade or business expenses", url: "https://www.law.cornell.edu/uscode/text/26/162" }

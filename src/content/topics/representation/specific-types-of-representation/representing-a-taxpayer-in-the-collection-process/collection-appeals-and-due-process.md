@@ -8,7 +8,7 @@ description: "When a CDP hearing is available for a lien or a levy, the deadline
 status: published
 taxYear: 2026
 lastReviewed: "2026-08-18"
-reviewedBy: "I. Ohu"
+reviewedBy: "N. O."
 authorities:
   - { type: IRC, ref: "§ 6330", title: "Notice and opportunity for hearing before levy" }
   - { type: IRC, ref: "§ 6320", title: "Notice and opportunity for hearing upon filing of notice of lien" }

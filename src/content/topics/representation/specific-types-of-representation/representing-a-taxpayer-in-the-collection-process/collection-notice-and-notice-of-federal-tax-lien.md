@@ -8,7 +8,7 @@ description: "How the statutory lien arises, what filing a notice of it actually
 status: published
 taxYear: 2026
 lastReviewed: "2026-08-18"
-reviewedBy: "I. Ohu"
+reviewedBy: "N. O."
 authorities:
   - { type: IRC, ref: "§ 6321", title: "Lien for taxes" }
   - { type: IRC, ref: "§ 6322", title: "Period of lien" }

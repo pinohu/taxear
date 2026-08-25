@@ -8,7 +8,7 @@ description: "One form reaches accounts, the other assets. Where the branch sits
 status: published
 taxYear: 2026
 lastReviewed: "2026-08-21"
-reviewedBy: "Draft for I. Ohu review"
+reviewedBy: "Draft for N. O. review"
 authorities:
   - { type: IRC, ref: "§ 6038D", title: "Information with respect to foreign financial assets", url: "https://www.law.cornell.edu/uscode/text/26/6038D" }
   - { type: IRC, ref: "§ 1471", title: "Withholdable payments to foreign financial institutions", url: "https://www.law.cornell.edu/uscode/text/26/1471" }

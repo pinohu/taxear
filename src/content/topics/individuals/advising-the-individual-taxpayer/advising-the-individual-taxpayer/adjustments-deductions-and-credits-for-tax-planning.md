@@ -8,7 +8,7 @@ description: "Timing is the only lever left once the year is under way. What mov
 status: published
 taxYear: 2026
 lastReviewed: "2026-08-20"
-reviewedBy: "Draft for I. Ohu review"
+reviewedBy: "Draft for N. O. review"
 authorities:
   - { type: IRC, ref: "§ 451", title: "General rule for taxable year of inclusion", url: "https://www.law.cornell.edu/uscode/text/26/451" }
   - { type: Reg, ref: "§ 1.451-2", title: "Constructive receipt of income", url: "https://www.law.cornell.edu/cfr/text/26/1.451-2" }

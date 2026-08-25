@@ -8,7 +8,7 @@ description: "Form 2848 is rejected for a general reference on line 3, and lines
 status: published
 taxYear: 2026
 lastReviewed: "2026-08-18"
-reviewedBy: "I. Ohu"
+reviewedBy: "N. O."
 authorities:
   - { type: Pub, ref: "Instructions for Form 2848 (rev. 09/2021)", title: "Power of Attorney and Declaration of Representative", url: "https://www.irs.gov/instructions/i2848" }
   - { type: Reg, ref: "§ 601.502", title: "Recognized representative", url: "https://www.law.cornell.edu/cfr/text/26/601.502" }

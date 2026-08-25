@@ -8,7 +8,7 @@ description: "Gifts do not leave the system. They return to the estate base, the
 status: published
 taxYear: 2026
 lastReviewed: "2026-08-20"
-reviewedBy: "Draft for I. Ohu review"
+reviewedBy: "Draft for N. O. review"
 authorities:
   - { type: IRC, ref: "§ 2001", title: "Imposition and rate of tax", url: "https://www.law.cornell.edu/uscode/text/26/2001" }
   - { type: IRC, ref: "§ 2035", title: "Adjustments for certain gifts made within 3 years of decedent's death", url: "https://www.law.cornell.edu/uscode/text/26/2035" }

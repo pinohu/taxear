@@ -8,7 +8,7 @@ description: "Status is tested on one day of the year, alimony has not been dedu
 status: published
 taxYear: 2026
 lastReviewed: "2026-08-19"
-reviewedBy: "Draft for I. Ohu review"
+reviewedBy: "Draft for N. O. review"
 authorities:
   - { type: IRC, ref: "§ 1041", title: "Transfers of property between spouses or incident to divorce", url: "https://www.law.cornell.edu/uscode/text/26/1041" }
   - { type: IRC, ref: "§ 7703", title: "Determination of marital status", url: "https://www.law.cornell.edu/uscode/text/26/7703" }

@@ -8,7 +8,7 @@ description: "Classification decides which return an entity files, the six-digit
 status: published
 taxYear: 2026
 lastReviewed: "2026-08-21"
-reviewedBy: "Draft for I. Ohu review"
+reviewedBy: "Draft for N. O. review"
 authorities:
   - { type: IRC, ref: "§ 7701", title: "Definitions", url: "https://www.law.cornell.edu/uscode/text/26/7701" }
   - { type: IRC, ref: "§ 6012", title: "Persons required to make returns of income", url: "https://www.law.cornell.edu/uscode/text/26/6012" }

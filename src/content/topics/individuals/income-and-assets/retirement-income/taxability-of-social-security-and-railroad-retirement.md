@@ -8,7 +8,7 @@ description: "The thresholds have never been indexed, so the formula captures mo
 status: published
 taxYear: 2026
 lastReviewed: "2026-08-19"
-reviewedBy: "Draft for I. Ohu review"
+reviewedBy: "Draft for N. O. review"
 authorities:
   - { type: IRC, ref: "§ 86", title: "Social security and tier 1 railroad retirement benefits", url: "https://www.law.cornell.edu/uscode/text/26/86" }
   - { type: IRC, ref: "§ 63", title: "Taxable income defined", url: "https://www.law.cornell.edu/uscode/text/26/63" }

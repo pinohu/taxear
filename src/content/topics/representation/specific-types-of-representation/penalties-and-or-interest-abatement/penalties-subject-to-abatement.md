@@ -8,7 +8,7 @@ description: "The penalties a representative most often seeks to remove, the rat
 status: published
 taxYear: 2026
 lastReviewed: "2026-08-18"
-reviewedBy: "I. Ohu"
+reviewedBy: "N. O."
 authorities:
   - { type: IRC, ref: "§ 6651", title: "Failure to file tax return or to pay tax" }
   - { type: IRC, ref: "§ 6656", title: "Failure to make deposit of taxes" }
