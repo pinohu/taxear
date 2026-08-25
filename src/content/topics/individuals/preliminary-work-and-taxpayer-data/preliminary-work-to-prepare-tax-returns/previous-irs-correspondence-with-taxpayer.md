@@ -21,7 +21,25 @@ forms: ["2848", "8821"]
 related: ["1.1.1.a", "1.1.1.b", "3.2.1.h", "3.3.3.g"]
 changelog:
   - { date: "2026-08-19", summary: "Initial draft, from IRC § 6213, IRC § 6103(c), Circular 230 §§ 10.21 and 10.22, and IRM 21.2.3 as revised for IRM Procedural Updates through 23 May 2025." }
+  - { date: "2026-08-25", summary: "Added a plain-language summary, a timeline diagram of the math error notice's abatement window, glossary marks, and two typed scenarios." }
+diagram:
+  archetype: "timeline"
+  caption: "The math error notice's short clock"
+  events:
+    - { when: "Notice mailed", what: "Not a notice of deficiency — no Tax Court right attaches" }
+    - { when: "Within 60 days", what: "Taxpayer may request abatement; the Secretary must abate" }
+    - { when: "After 60 days", what: "Window closed — only the ordinary refund route remains" }
 ---
+
+<div class="plain-terms">
+Before you prepare a return, ask what the IRS has already told this taxpayer. A letter from the IRS
+can mean many things. It might ask for more tax. It might just fix a math mistake. Or it might show
+money owed from years back. This matters for almost every client, since most people forget or misplace
+IRS mail. It matters less for a client who has never owed tax or heard from the IRS at all. Past
+letters decide three things. Is a deadline quietly running out? Does an old problem need fixing before
+a new return goes in? And do you, the preparer, now have a duty to warn the client about something
+they will not want to hear?
+</div>
 
 A new client rarely volunteers that the IRS has written to them, and almost never volunteers the
 envelope. Yet what the Service has already said about a prior year decides three things about the
@@ -119,7 +137,7 @@ a conversation, best documented, and it belongs before the engagement proceeds �
 the answer may be that the prior year needs amending, that a penalty needs a reasonable-cause
 request, or that you are not the right person for the matter.
 
-<div class="scenario">
+<div class="scenario" data-type="boundary">
 <h3>The notice that looked like a bill</h3>
 
 Ravi brings in a notice dated eleven weeks ago saying he owes additional tax because a credit he
@@ -136,7 +154,7 @@ undone the assessment on its own and pushed any reassessment into the deficiency
 the Tax Court would have been available.
 </div>
 
-<div class="scenario">
+<div class="scenario" data-type="interaction">
 <h3>The transcript that changed the engagement</h3>
 
 Nadia asks for help with the current year. She mentions nothing about prior years. With a signed
@@ -152,6 +170,28 @@ the duty to raise it does not wait for the answer.
 Note what the Form 8821 did and did not do. It authorised disclosure to you under IRC § 6103(c). It
 did not make you her representative, and it does not let you use the information for anything but the
 purpose she consented to.
+</div>
+
+<div class="scenario" data-type="baseline">
+<h3>The routine transcript pull</h3>
+<p>A returning client mentions an old IRS letter from two years ago that she resolved on her own by
+paying the balance in full. She has a copy of the notice and believes that closes the matter. Before
+starting this year's return, the preparer has her sign a Form 8821 — a {gloss:tax-information-authorization} —
+and orders her account {gloss:transcript} for that year.</p>
+<p><em>Analysis.</em> The transcript confirms the balance was paid and the account is closed, with no
+lien, no open exam, and no unresolved freeze. This is the ordinary case: a signed authorization, a
+transcript pull, and a short confirmation that nothing is quietly still running. The habit costs little
+and rules out surprises the client would not have thought to mention on her own.</p>
+</div>
+
+<div class="scenario" data-type="procedural">
+<h3>Copy, transcript, or a call?</h3>
+<p>A client needs a lender-ready packet: the return exactly as filed, with every attached schedule, for
+a mortgage application. The lender also wants to speak with the preparer directly about the account.</p>
+<p><em>Analysis.</em> Neither request is served by a transcript. The document itself — with attachments —
+comes from Form 4506, a paid request for a copy of the return as filed. And speaking with the IRS about
+the account takes more than the client's say-so: it takes a Form 2848 {gloss:power-of-attorney}, since
+only that form makes the preparer a representative rather than a mere recipient of disclosure.</p>
 </div>
 
 <div class="callout trap">
