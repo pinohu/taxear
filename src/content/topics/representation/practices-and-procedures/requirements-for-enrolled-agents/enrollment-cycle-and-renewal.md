@@ -18,7 +18,19 @@ forms: []
 related: ["3.1.2.j", "3.1.1.a", "3.1.2.d", "3.1.2.o"]
 changelog:
   - { date: "2026-08-18", summary: "Initial publication from Circular 230 § 10.6(a)–(d), (j)–(m) as issued by T.D. 9527." }
+  - { date: "2026-08-25", summary: "Added a plain-language summary, a glossary mark, and typed scenarios." }
 ---
+
+<div class="plain-terms">
+This page explains how an {gloss:enrolled-agent}'s right to practice gets renewed, and
+what happens if renewal is missed. It affects only people already enrolled as agents. It
+does not affect taxpayers, or anyone applying for the first time. Enrollment does not last
+forever. It must be renewed every three years, on a schedule set by one digit in the
+agent's own Social Security number. An agent does not choose the date. Missing a renewal,
+or the training it needs, moves an agent onto an inactive list. There, they cannot
+practice, or use the title EA. This page decides exactly when renewal falls due, and how
+long an agent has to fix a missed one.
+</div>
 
 Enrolment is not permanent. Circular 230 § 10.6 makes active status something an enrolled agent earns back every three years, on a calendar the agent does not choose, with consequences for missing it that escalate from inactive status to termination. The dates and the digit rule are the examinable core.
 
@@ -72,25 +84,25 @@ Reinstatement is by filing a renewal application with evidence of **all** requir
 
 **Renewal while under suspension or disbarment** (§ 10.6(l)). An individual made ineligible by disciplinary action **must still conform to the renewal requirements** before eligibility is restored. Discipline does not pause the cycle.
 
-<div class="scenario">
+<div class="scenario" data-type="baseline">
 <h3>The digit decides the window</h3>
 <p>Two enrolled agents work in the same office. One has an SSN ending in 2, the other ending in 8. Both were enrolled in 2019 and both assume they renew together.</p>
 <p><em>Analysis.</em> They do not. Section 10.6(d)(2) puts digits 0–3 in one group and 7–9 in a third, and (d)(2)(v) carries each group forward at three-year intervals from its original window. The renewal cycle is set by the last digit of the Social Security or tax identification number, not by the date of enrolment or by firm convenience. Each must renew between November 1 and January 31 of their own group's year.</p>
 </div>
 
-<div class="scenario">
+<div class="scenario" data-type="boundary">
 <h3>Enrolled in December of a renewal window</h3>
 <p>An agent whose number ends in 5 receives initial enrolment on 6 December, in the middle of his group's November-to-January renewal window. He asks whether he must file a renewal application by 31 January.</p>
 <p><em>Analysis.</em> No. Section 10.6(d)(2)(v) provides that individuals who receive initial enrolment after November 1 and before April 2 of the applicable renewal period are not required to renew before the <em>first full renewal period</em> following initial enrolment — three years later. The continuing education pro-ration in § 10.6(e)(2)(iii) is a separate question and does apply to the partial cycle.</p>
 </div>
 
-<div class="scenario">
+<div class="scenario" data-type="interaction">
 <h3>The notice that never arrived</h3>
 <p>An agent moves in March and does not notify the IRS. The renewal reminder goes to her old address and she misses the January 31 deadline. She asks the IRS to treat the renewal as timely because she never received notice.</p>
 <p><em>Analysis.</em> Two provisions defeat her. Section 10.6(d)(1) says failure to receive notification of the renewal requirement is not justification for failing to satisfy it. And § 10.6(c) required her to notify the IRS of the address change within 60 days; until she did, the address of record remained the one on her last renewal application. She goes on the inactive roster under § 10.6(j)(3), and while there may not call herself an enrolled agent or use "EA."</p>
 </div>
 
-<div class="scenario">
+<div class="scenario" data-type="timing">
 <h3>Four years inactive</h3>
 <p>An agent placed in inactive status in 2022 for missing his renewal completes 72 hours of continuing education in 2026 and applies for reinstatement.</p>
 <p><em>Analysis.</em> Too late. Section 10.6(j)(6) requires an individual in inactive status to file a renewal application and satisfy the requirements <em>within three years of being placed in inactive status</em>; otherwise the name is removed from the inactive roster and the status as an enrolled agent <em>terminates</em>. Future eligibility must be re-established as provided in § 10.6 — which means back through the application route of § 10.5, not a renewal.</p>

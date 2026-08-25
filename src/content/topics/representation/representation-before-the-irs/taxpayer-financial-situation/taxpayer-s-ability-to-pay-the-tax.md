@@ -21,7 +21,26 @@ forms: ["433-A", "433-F", "656"]
 related: ["3.2.3.e", "3.3.1.k", "3.3.1.m", "3.2.3.d", "3.2.3.b", "3.2.3.c"]
 changelog:
   - { date: "2026-08-19", summary: "Initial draft against IRM 5.15.1 as revised 29 June 2026." }
+  - { date: "2026-08-25", summary: "Added a plain-language summary, a decision diagram of the ability-to-pay resolution sequence, glossary marks, and typed scenarios." }
+diagram:
+  archetype: "decision"
+  caption: "How the IRS moves from income and equity to a resolution"
+  tests:
+    - { test: "Cash or liquid assets can cover the full balance", result: "Pay in full now", outcome: "pass" }
+    - { test: "Equity in assets covers the balance and can be reached without hardship", result: "Pay in full from equity", outcome: "pass" }
+    - { test: "Disposable income can retire the balance within the collection statute", result: "Installment agreement", outcome: "pass" }
+    - { test: "Neither income nor reachable equity can retire the balance", result: "Offer in compromise, or currently not collectible if nothing can be paid", outcome: "fail" }
 ---
+
+<div class="plain-terms">
+This page explains how the IRS decides what a taxpayer can pay toward an unpaid tax debt. It
+matters for anyone who owes back taxes and cannot pay in full, and for the people who represent
+them. It does not apply to a taxpayer who can simply pay the full balance today. The IRS looks at
+two numbers. One is money left over each month after normal living costs. The other is value tied
+up in things the taxpayer owns, like a house or savings. Together those two numbers decide the
+outcome: a payment plan, a lower settlement amount, or a pause on collection because the person
+truly cannot pay anything at all.
+</div>
 
 ## The rule
 
@@ -114,12 +133,11 @@ temporary job loss or illness. Life insurance is allowable if it is a term polic
 life alone; whole life policies are reviewed as an asset to borrow against or liquidate. Credit
 cards are treated as a method of payment rather than an expense.
 
-<div class="scenario">
+<div class="scenario" data-type="baseline">
 <h3>Equity the client did not think counted</h3>
 
 Marisol Etxeberria owes a balance she cannot pay from income. Her Form 433-A shows disposable
-income of about 90 dollars a month and she asks her representative to prepare an offer in
-compromise. The statement also lists a rental duplex, inherited from a parent, with a mortgage
+income of about 90 dollars a month and she asks her representative to prepare an {gloss:offer-in-compromise}. The statement also lists a rental duplex, inherited from a parent, with a mortgage
 against it — she describes it as "underwater in a bad market."
 
 The representative pulls the county assessment and a payoff statement and finds roughly 74,000
@@ -130,7 +148,7 @@ would be recomputed and rejected, costing her the application fee and months of 
 advice is to liquidate or refinance and pay, or to price an offer that includes the equity.
 </div>
 
-<div class="scenario">
+<div class="scenario" data-type="boundary">
 <h3>Three months that were not typical</h3>
 
 Ade Onwuachi is self-employed and had emergency dental surgery in the review quarter. His last
@@ -145,7 +163,7 @@ also dipped during his recovery. Raising it first cost him a small increase in t
 and bought a statement the revenue officer did not have to reconstruct.
 </div>
 
-<div class="scenario">
+<div class="scenario" data-type="interaction">
 <h3>The tithe and the employment contract</h3>
 
 Grace Lindqvist gives about 640 dollars a month to her congregation and lists it as a necessary

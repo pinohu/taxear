@@ -20,7 +20,28 @@ forms: ["6118"]
 related: ["3.1.4.b", "3.3.2.a", "3.2.6.a", "3.1.3.b", "3.2.6.g"]
 changelog:
   - { date: "2026-08-18", summary: "Initial publication from IRC §§ 6694(c), 6694(d), 6696, 6751, Reg. § 1.6694-4 and IRM 20.1.6 as revised 10 August 2026." }
+  - { date: "2026-08-25", summary: "Added a plain-language summary, a timeline diagram of the assessment and appeal sequence, glossary marks, and typed scenarios." }
+diagram:
+  archetype: "timeline"
+  caption: "The preparer penalty sequence, start to finish"
+  events:
+    - { when: "Report of examination", what: "IRS investigates and issues a report before assessing a § 6694 penalty (Form 5816)" }
+    - { when: "The 30-day letter", what: "Letter 1125 offers a final administrative determination; a timely request pauses assessment" }
+    - { when: "Assessment and notice and demand", what: "The penalty is assessed, after supervisory approval, and demand is made" }
+    - { when: "Within 30 days of notice and demand", what: "Preparer may pay 15% to stay collection and file a refund claim" }
+    - { when: "Within 30 days of the earlier of denial or 6 months", what: "Preparer must sue in district court, or the stay lapses" }
 ---
+
+<div class="plain-terms">
+Sometimes the IRS fines the person who prepared a tax return, not just the taxpayer. This
+page explains how that fine gets proposed, argued over, and finally charged. It affects paid
+tax preparers, not ordinary taxpayers paying their own tax bill. There is no special tax court
+for these cases, unlike a normal fight over unpaid tax. Instead, a preparer gets a written
+report, then a letter offering a chance to argue the fine before it becomes final. If the fine
+still goes through, the preparer can pay a small part of it up front. That pauses more
+collection while the preparer sues in a regular court instead. Missing a step in this process,
+especially a deadline, can cost the preparer a real chance to fight back later.
+</div>
 
 A preparer penalty does not travel the road a deficiency travels. There is no notice of deficiency, no ninety-day letter, and no prepayment forum in the Tax Court. What replaces them is a distinct administrative sequence with its own letter, its own consent form, and a statutory device that lets a preparer stop collection by paying fifteen percent. Knowing the sequence is worth more than knowing the amounts, because almost every practical mistake in this area is a missed deadline rather than a lost argument.
 
@@ -63,22 +84,22 @@ The § 6694(c) device is not a settlement and not a payment plan. It buys quiet 
 
 Consents are a separate trap. Extending the statute on the *taxpayer's* return using Form 872 does nothing for the preparer penalty; the preparer penalty needs its own Form 872-D. The IRM directs examiners to seek a consent when the assessment period will expire within 180 days, and requires one where the case is going to Appeals with under a year left, because Appeals needs time and deficiency procedures cannot be used to buy any (IRM 20.1.6.18).
 
-<div class="scenario">
+<div class="scenario" data-type="procedural">
 <h3>The stay that lapsed</h3>
-<p>A preparer receives notice and demand for a § 6694(a) penalty, pays 15 percent within 30 days, and files a claim for refund. The IRS neither allows nor denies the claim. Seven months later the preparer, waiting to hear, receives a notice of intent to levy.</p>
+<p>A preparer receives notice and demand for a § 6694(a) penalty, pays 15 percent within 30 days, and files a claim for refund. The IRS neither allows nor denies the claim. Seven months later the preparer, waiting to hear, receives a notice of intent to {gloss:levy}.</p>
 <p><em>Analysis.</em> The stay ended. Under § 6694(c)(2) the clock ran from the expiration of six months after the claim was filed, because that came earlier than any denial. The preparer had 30 days from that six-month mark to begin a district court proceeding, and did not. Silence from the IRS is not an extension — it is the event that starts the suit deadline.</p>
 </div>
 
-<div class="scenario">
+<div class="scenario" data-type="interaction">
 <h3>The consent that covered the wrong return</h3>
 <p>An examiner is looking at both a client's return and the preparer's conduct on it. The client signs a Form 872 extending the assessment period on their own return. Fourteen months later the examiner proposes a § 6695 penalty against the preparer for the same return, more than three years after it was filed.</p>
 <p><em>Analysis.</em> The penalty is time-barred. Section 6696(d)(1) runs three years from the filing of the return the penalty relates to, and the client's Form 872 extends only the client's assessment period. Only a Form 872-D signed by the preparer would have extended this one (IRM 20.1.6.18). The preparer should raise the period rather than argue the merits.</p>
 </div>
 
-<div class="scenario">
+<div class="scenario" data-type="boundary">
 <h3>The client who won, three years on</h3>
 <p>A preparer pays a § 6694(a) penalty in full and does not contest it. Four years later the client's own case reaches a final judicial decision holding there was no understatement of liability on the return.</p>
-<p><em>Analysis.</em> The assessment is abated and the payment refunded under § 6694(d), notwithstanding that the ordinary three-year refund-claim period of § 6696(d)(2) has long since closed — the subsection says "without regard to any period of limitations," and the IRM confirms there is no statute on such claims (IRM 20.1.6.20.2). The claim goes on Form 6118. This is the one route back after the deadlines have run, and it depends entirely on the client's outcome, not the preparer's diligence.</p>
+<p><em>Analysis.</em> The assessment qualifies for {gloss:abatement} and the payment is refunded under § 6694(d), notwithstanding that the ordinary three-year refund-claim period of § 6696(d)(2) has long since closed — the subsection says "without regard to any period of limitations," and the IRM confirms there is no statute on such claims (IRM 20.1.6.20.2). The claim goes on Form 6118. This is the one route back after the deadlines have run, and it depends entirely on the client's outcome, not the preparer's diligence.</p>
 </div>
 
 <div class="callout trap"><h4>Traps</h4>

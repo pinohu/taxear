@@ -18,7 +18,20 @@ forms: []
 related: ["3.3.3.a", "3.3.3.e", "3.1.2.a", "3.3.3.d", "3.2.2.b"]
 changelog:
   - { date: "2026-08-18", summary: "Initial publication from IRC §§ 7525, 6662(d)(2)(C)(ii), 7521 and 31 U.S.C. § 330, each opened at source." }
+  - { date: "2026-08-25", summary: "Added a plain-language summary, a decision diagram of the three gates on the privilege, glossary marks, and typed scenarios." }
+diagram:
+  archetype: "decision"
+  caption: "Whether a client communication is protected"
+  tests:
+    - { test: "Is it tax advice, within the practitioner's own authority to practice?", result: "No — no privilege at all", outcome: "fail" }
+    - { test: "Is the matter noncriminal, and raised only before the IRS or in federal court?", result: "No — the privilege doesn't reach that forum", outcome: "fail" }
+    - { test: "Is it written material promoting a tax shelter?", result: "Yes — the shelter exception removes it, no exceptions", outcome: "fail" }
+    - { test: "Passes all three gates", result: "Privileged, exactly as far as an attorney's advice would be", outcome: "pass" }
 ---
+
+<div class="plain-terms">
+Normally, what you tell your lawyer stays private. This rule gives some of that same privacy to talks with a tax pro, such as an {gloss:enrolled-agent}, when they give you tax advice. But the {gloss:privilege} only works in two spots: in front of the IRS, or in federal court. And it only works for civil problems, never criminal ones. It also goes away for written material used to sell a tax shelter. It is not a brand new shield. It only covers what a lawyer's own privilege would have covered. This page shows exactly where that shield reaches, and where it runs out.
+</div>
 
 The § 7525 privilege is defined by what it is **not**. It is not a new privilege — it borrows the attorney-client privilege wholesale. It is not available to everyone, not available for everything a practitioner does, not available everywhere, and not available at all for tax shelters. Getting the topic right means getting each of those four limits right.
 
@@ -60,25 +73,25 @@ Where criminal exposure is a real possibility, the answer is not to rely on § 7
 
 **Nothing here displaces § 7521.** The interview safeguards — the right to suspend an interview to consult a representative, the representative's right to appear alone — operate independently of whether any communication is privileged. A representative should not conflate the two.
 
-<div class="scenario">
+<div class="scenario" data-type="fails">
 <h3>The state examination</h3>
 <p>An enrolled agent has advised a client at length, in writing, on the treatment of a series of intercompany charges. The client's state revenue department opens its own examination and issues a document request that reaches the agent's advice memoranda. The client asks the agent to assert the § 7525 privilege.</p>
 <p><em>Analysis.</em> There is nothing to assert. IRC § 7525(a)(2) permits the privilege to be raised in a noncriminal tax matter <em>before the Internal Revenue Service</em> and in a noncriminal tax proceeding in <em>Federal</em> court brought by or against the United States. A state taxing authority is neither. Whether the memoranda are protected is a question of that state's law, and the agent should say so rather than assert a Federal privilege that does not reach the forum.</p>
 </div>
 
-<div class="scenario">
+<div class="scenario" data-type="timing">
 <h3>The matter that turned criminal</h3>
 <p>An enrolled agent represents a restaurant owner in an examination of unreported cash receipts. Over four months the agent and the client exchange candid emails about the gaps in the till records. The examiner then makes a fraud referral, and Criminal Investigation issues a summons for the correspondence.</p>
 <p><em>Analysis.</em> The § 7525 privilege is unavailable. It may only be asserted in a <em>noncriminal</em> tax matter before the IRS or a <em>noncriminal</em> Federal court proceeding; a criminal investigation is outside the statute. The correspondence already exists and the privilege never attached in a way that survives the change in posture. The right step, taken four months earlier, would have been to have the client engage counsel and to work under the attorney's privilege.</p>
 </div>
 
-<div class="scenario">
+<div class="scenario" data-type="interaction">
 <h3>The promotion memorandum</h3>
 <p>An enrolled agent prepares a written analysis of a partnership structure whose principal attraction is a large timing benefit, and sends it to the sponsor's marketing director for use in approaching investors. Two years later the IRS examines an investor and requests the analysis.</p>
 <p><em>Analysis.</em> The tax-shelter exception applies. IRC § 7525(b) removes the privilege from any <em>written</em> communication between a federally authorized tax practitioner and a person — or that person's officers, employees, agents or representatives — in connection with the <strong>promotion</strong> of that person's direct or indirect participation in a tax shelter. A plan or arrangement a significant purpose of which is the avoidance of Federal income tax is a tax shelter for this purpose. That the agent was giving honest technical analysis does not matter; the exception has no good-faith carve-out.</p>
 </div>
 
-<div class="scenario">
+<div class="scenario" data-type="boundary">
 <h3>The return that was prepared</h3>
 <p>During an examination the revenue agent asks the enrolled agent for the workpapers and the client's written answers to the preparer's organiser questions. The enrolled agent asserts § 7525.</p>
 <p><em>Analysis.</em> Weak ground. Section 7525 extends the common-law attorney-client privilege only "to the extent the communication would be considered a privileged communication if it were between a taxpayer and an attorney," and communications for the purpose of <em>preparing a return</em> are generally not privileged even as between a taxpayer and an attorney, because return preparation is not legal advice. The privilege borrows the attorney-client privilege's limits along with its protection.</p>

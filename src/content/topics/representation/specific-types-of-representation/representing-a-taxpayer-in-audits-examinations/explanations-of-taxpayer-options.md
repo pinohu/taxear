@@ -20,7 +20,19 @@ forms: []
 related: ["3.3.3.f", "3.3.3.e", "3.3.3.c", "3.3.3.i", "3.2.6.j", "3.2.6.h", "3.2.6.c", "3.3.4.a"]
 changelog:
   - { date: "2026-08-18", summary: "Initial publication from Pub. 5 (Rev. 4-2021), Pub. 3498 (Rev. 5-2025), the IRS appeals pages last reviewed 28 June and 16 April 2026, and IRC §§ 6213, 6673, 7463 and 7803." }
+  - { date: "2026-08-25", summary: "Added a plain-language summary, glossary marks, and typed scenarios." }
 ---
+
+<div class="plain-terms">
+At the end of an IRS audit, most people think they only have two choices: sign and pay, or
+fight. There are actually four: agree and pay, try to work it out informally, formally
+appeal within the IRS, or let the deadline pass and go to court instead. This affects
+anyone who has just finished an audit and is deciding what to do next. Letting the deadline
+pass is not the same as doing nothing — it actually leads somewhere, toward a notice with
+its own strict time limit that nobody can extend. Knowing all four options, and what each
+one costs and forecloses, is what lets a taxpayer make a real choice instead of an
+accidental one.
+</div>
 
 A client at the end of an examination usually believes there are two options: sign, or fight. There are four, they cost differently, and one of them — doing nothing — is not the absence of a choice but a route with its own consequences and its own unextendable deadline. Explaining them accurately is the representative's real work at this stage, and it is a communication task before a technical one.
 
@@ -72,25 +84,25 @@ The **District Court** and the **Court of Federal Claims** are refund forums, av
 
 **The route depends on the case type.** Doing nothing on a deficiency produces a notice of deficiency; on an employment tax case, generally a bill; on a denied refund claim, a notice of claim disallowance with a two-year window that **Appeals consideration does not extend**. Applying the deficiency pattern to a disallowed claim can lose the client's suit.
 
-<div class="scenario">
+<div class="scenario" data-type="boundary">
 <h3>The client who wanted to keep talking</h3>
-<p>A notice of deficiency issues in March. The representative and an Appeals officer are exchanging positions through June and appear close to a settlement, so no petition is filed. The settlement falls apart in July.</p>
+<p>A {gloss:notice-of-deficiency} issues in March. The representative and an Appeals officer are exchanging positions through June and appear close to a settlement, so no petition is filed. The settlement falls apart in July.</p>
 <p><em>Analysis.</em> The case is lost procedurally. The period to petition is set by law, and, as Pub. 5 puts it, the IRS and the Tax Court "cannot change this time period" — it runs "even if you continue to talk to IRS examiners or Appeals." The petition should have been filed to preserve the forum, negotiations continuing afterwards; a taxpayer who petitions can still settle with Appeals while awaiting trial. What remains is full payment and a refund claim.</p>
 </div>
 
-<div class="scenario">
+<div class="scenario" data-type="fails">
 <h3>The bookkeeper at the conference</h3>
 <p>A client asks that her bookkeeper of eleven years, who knows every entry in the records, handle the Appeals conference while she is abroad. The bookkeeper is not an attorney, CPA or enrolled agent.</p>
-<p><em>Analysis.</em> The bookkeeper may attend as a <em>witness</em> but may not represent — Pub. 5 permits a person who does not meet the qualifications to be included in the conference as a witness only. Representation requires an attorney, CPA or enrolled agent with a properly completed power of attorney on file before confidential information can be received. The right arrangement is a qualified representative appearing, with the bookkeeper there to speak to the records.</p>
+<p><em>Analysis.</em> The bookkeeper may attend as a <em>witness</em> but may not represent — Pub. 5 permits a person who does not meet the qualifications to be included in the conference as a witness only. Representation requires an attorney, CPA or enrolled agent with a properly completed {gloss:power-of-attorney} on file before confidential information can be received. The right arrangement is a qualified representative appearing, with the bookkeeper there to speak to the records.</p>
 </div>
 
-<div class="scenario">
+<div class="scenario" data-type="timing">
 <h3>The disallowed claim and the wasted year</h3>
-<p>A refund claim for 2022 is disallowed by notice in February 2025. The representative files a protest and Appeals considers the claim through 2026, ultimately sustaining the disallowance in May 2027. The representative then prepares a refund suit.</p>
+<p>A {gloss:claim-for-refund} for 2022 is disallowed by notice in February 2025. The representative files a protest and Appeals considers the claim through 2026, ultimately sustaining the disallowance in May 2027. The representative then prepares a refund suit.</p>
 <p><em>Analysis.</em> Too late. The period to sue is two years from the date of the notice of claim disallowance, and Pub. 5 states that Appeals' consideration <em>does not extend</em> it, though mutual agreement may. That agreement should have been obtained in writing before the two years ran, or suit filed to preserve the claim. This is the trap in doing the administratively sensible thing on a claim case.</p>
 </div>
 
-<div class="scenario">
+<div class="scenario" data-type="interaction">
 <h3>The client who could not pay and wanted to sue</h3>
 <p>A client disagrees with a $31,000 proposed deficiency on an issue the representative rates as genuinely arguable. The client has no liquid assets and asks to take the matter straight to the District Court, having heard that a jury is available there.</p>
 <p><em>Analysis.</em> Not available on these facts. A District Court refund suit generally requires full payment and a timely refund claim first; the Tax Court is the prepayment forum. With no ability to pay, the route is a timely Tax Court petition after the notice of deficiency. The representative should also explain the § 6673 exposure: a position the court finds frivolous or groundless, or an unreasonable failure to pursue administrative remedies, can draw a penalty up to the amount in the figures table.</p>

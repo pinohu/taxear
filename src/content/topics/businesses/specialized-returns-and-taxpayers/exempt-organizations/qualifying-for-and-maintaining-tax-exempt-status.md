@@ -25,7 +25,27 @@ forms: []
 related: ["2.3.2.b", "2.3.2.c", "2.3.2.d", "2.1.1.f"]
 changelog:
   - { date: "2026-08-21", summary: "Initial draft. Sets out the two IRC § 501(c)(3) tests separately — the organizational test read off the articles under Treas. Reg. § 1.501(c)(3)-1(b), including the dedication-of-assets requirement, and the operational test read off activities under Treas. Reg. § 1.501(c)(3)-1(c) — then the inurement and private benefit limits, the substantial part test against the IRC § 501(h) expenditure election, the absolute campaign intervention ban, the IRC § 4958 intermediate sanctions, and automatic revocation under IRC § 6033(j)." }
+  - { date: "2026-08-25", summary: "Added a plain-language summary, a decision diagram of the qualification gates, typed the three scenarios, and marked two glossary terms." }
+diagram:
+  archetype: "decision"
+  caption: "The gates a 501(c)(3) organization must clear, and keep clearing"
+  tests:
+    - { test: "Organizational test — do the articles limit the group to exempt purposes and dedicate assets on dissolution?", result: "Yes", outcome: "pass" }
+    - { test: "Operational test — is the group actually run mainly for those purposes?", result: "Yes", outcome: "pass" }
+    - { test: "Inurement — does any net earnings benefit an insider?", result: "No", outcome: "pass" }
+    - { test: "Campaign intervention — any support for or against a candidate?", result: "No", outcome: "pass" }
 ---
+
+<div class="plain-terms">
+This page explains what a charity or other nonprofit must do to earn, and keep, tax-exempt
+status. It affects anyone forming a nonprofit, and any existing one making sure it still
+qualifies. Two separate things get checked: what the group's papers say, and what the group
+actually does. Both must hold up. A good mission alone is not enough. Paying insiders too much, or
+running mainly for someone's private gain, can cost a group its status. So can backing a political
+candidate, or quietly failing to file for three years running. This page sorts out those risks,
+shows where the real lines fall, and explains what keeps a nonprofit exempt over time, not just at
+the start.
+</div>
 
 Exempt status is not a reward for being a good cause. It is a statutory classification, and the
 statute asks two different questions: what does the charter say, and what does the organisation
@@ -136,7 +156,7 @@ On maintenance the calendar is the whole job. Automatic revocation is not discre
 requires no finding about the organisation's activities; it is arithmetic run against a filing
 record, and it catches the charity that thinks itself too small to file.
 
-<div class="scenario">
+<div class="scenario" data-type="fails">
 
 <h3>The lawful-purpose articles</h3>
 
@@ -155,7 +175,7 @@ record supports a request for the earlier effective date; it cannot substitute f
 
 </div>
 
-<div class="scenario">
+<div class="scenario" data-type="interaction">
 
 <h3>The founder's salary</h3>
 
@@ -168,14 +188,14 @@ $150,000.
 The $160,000 spread is an excess benefit. The founder is a disqualified person, the organisation
 provided an economic benefit exceeding the value of the services received, and the initial tax is
 25 percent of the excess — $40,000 — payable by the founder, not by the charity. The four
-directors who approved it are organisation managers; knowing participation that was willful and
-without reasonable cause draws the 10 percent manager tax. If the founder does not correct within
+directors who approved it are organisation managers; knowing participation that was {gloss:willful} and
+without {gloss:reasonable-cause-defense} draws the 10 percent manager tax. If the founder does not correct within
 the taxable period, the additional tax is 200 percent, or $320,000. Note what is *not* automatic:
 the organisation does not lose its exemption. That is the point of intermediate sanctions.
 
 </div>
 
-<div class="scenario">
+<div class="scenario" data-type="boundary">
 
 <h3>The candidate forum</h3>
 

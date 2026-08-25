@@ -21,7 +21,19 @@ forms:
 related: ["3.3.2.c", "3.3.2.a", "3.3.1.a", "3.3.2.e"]
 changelog:
   - { date: "2026-08-18", summary: "Initial publication from IRC §§ 6601, 6621 and 6622 and the IRS quarterly interest rates page." }
+  - { date: "2026-08-25", summary: "Added a plain-language summary, typed scenarios, and a glossary mark." }
 ---
+
+<div class="plain-terms">
+Interest on unpaid tax is simple math, but the inputs shift. It starts running from the
+tax's original due date, even if you got an extension to file or pay, or you are on a
+payment plan. None of those move the start date. The rate itself resets every few months,
+so a bill sitting for years does not sit at one rate the whole time. And interest builds
+on interest, adding a bit more each day rather than once a year. This affects anyone with
+unpaid tax, a payment plan, or a case working through appeal. It rarely changes because
+the rule was wrong. It changes because the tax owed changed, a payment date changed, or
+the rate for that quarter changed.
+</div>
 
 Interest is arithmetic, and recalculation follows from three variables: the **rate**, which changes quarterly; the **period**, which starts at the unextended due date and is unaffected by extensions or installment agreements; and the **balance**, which compounds daily. Most interest disputes are really disputes about one of those inputs rather than about interest itself.
 
@@ -75,25 +87,25 @@ The rate is **not annual**. Under § 6621(b) the Secretary determines the federa
 
 **Netting is narrow.** Section 6621(d) zeroes the net rate only for **equivalent** underpayments and overpayments of the **same taxpayer** for the **same period** — not a general right to offset a refund in one year against a balance in another. And under § 6601(g) interest may be assessed and collected at any time within the collection period for the underlying tax, so no separate interest statute runs.
 
-<div class="scenario">
+<div class="scenario" data-type="baseline">
 <h3>The extension that did not help</h3>
 <p>Marisol files a valid extension for her 2025 return, files in September 2026 and pays the $18,000 balance with the return. She argues no interest is due because she filed within the extended period.</p>
 <p><em>Analysis.</em> Interest runs from the unextended due date. IRC § 6601(a) charges interest from the last date prescribed for payment, and § 6601(b)(1) requires that date to be determined <em>without regard to any extension of time for payment</em>. An extension to file has never extended the time to pay, and even an extension to pay would not move the interest start date. She owes interest from April to September, compounded daily at the applicable quarterly rates.</p>
 </div>
 
-<div class="scenario">
+<div class="scenario" data-type="boundary">
 <h3>Paying at exactly $100,000</h3>
 <p>Amir receives notice and demand for $100,000 on 3 June. He pays in full 15 calendar days later, having read that a 21-day window applies.</p>
 <p><em>Analysis.</em> He misses the window. IRC § 6601(e)(3) gives 21 <em>calendar</em> days generally, but <strong>10 business days where the amount equals or exceeds $100,000</strong>. At exactly $100,000 the short window applies, and 15 calendar days will ordinarily exceed 10 business days. Interest is imposed for the period after the notice and demand on the amount paid.</p>
 </div>
 
-<div class="scenario">
+<div class="scenario" data-type="interaction">
 <h3>The loss carried back</h3>
-<p>Hollis owes tax for 2023 that he does not pay. His 2025 return generates a net operating loss which, carried back, eliminates the 2023 liability entirely. He asks for all the 2023 interest to be removed.</p>
+<p>Hollis owes tax for 2023 that he does not pay. His 2025 return generates a {gloss:net-operating-loss} which, carried back, eliminates the 2023 liability entirely. He asks for all the 2023 interest to be removed.</p>
 <p><em>Analysis.</em> No. IRC § 6601(d)(1) provides that where tax is reduced by a carryback of a net operating loss, the reduction does not affect the computation of interest for the period ending with the <em>filing date for the taxable year in which the loss arises</em> — here, the 2025 filing date. Hollis had the government's money from the 2023 due date until then, and interest is charged for that period notwithstanding that the tax was ultimately eliminated.</p>
 </div>
 
-<div class="scenario">
+<div class="scenario" data-type="timing">
 <h3>The waiver and the silence</h3>
 <p>A corporation signs a Form 870 waiver of restrictions on assessment on 8 February. The IRS issues notice and demand on 20 May.</p>
 <p><em>Analysis.</em> Interest is suspended for part of the gap. IRC § 6601(c): where a § 6213(d) waiver has been filed and notice and demand is not made within 30 days, interest is not imposed for the period beginning immediately after that 30th day and ending with the notice and demand. Interest runs to 10 March, stops, and resumes on 20 May.</p>

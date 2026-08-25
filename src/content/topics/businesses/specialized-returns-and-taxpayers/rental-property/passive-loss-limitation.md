@@ -25,9 +25,20 @@ forms: []
 related: ["2.3.5.a", "2.3.5.c", "2.3.5.e", "2.3.5.f", "2.3.5.b"]
 changelog:
   - { date: "2026-08-21", summary: "Initial draft. Sets out the IRC § 469(a) disallowance with indefinite suspension under subsection (b), the IRC § 469(i) special allowance of $25,000 for active participation in rental real estate, its 50 percent phase-out above $100,000 of a modified adjusted gross income defined in IRC § 469(i)(3)(E), the $12,500 and $50,000 halving for married individuals filing separately with the living-apart condition, the 10 percent active participation floor, and the IRC § 469(g) release on a fully taxable disposition." }
+  - { date: "2026-08-25", summary: "Added a plain-language summary, glossary marks, and typed scenarios." }
 ---
 
-The passive activity rules do not disallow rental losses permanently — they postpone them, sometimes
+<div class="plain-terms">
+This page explains a special tax break for landlords with a loss on rental property. It matters for
+people who own rental real estate and stay involved in running it, such as approving tenants or
+setting rent. It does not help someone who is just a passive investor with no say in decisions.
+Normally a rental loss can only offset other rental income, not wages or other earnings. This special
+break lets some landlords deduct part of that loss against other income right away. The break shrinks
+as the landlord's income rises and disappears well before most higher earners ever reach it. The page
+decides who still qualifies, and how much of the loss they can actually use this year.
+</div>
+
+The {gloss:passive-activity} rules do not disallow rental losses permanently — they postpone them, sometimes
 for decades. The one relief that produces a current deduction is the special allowance, and it is
 built to expire before it reaches the taxpayers who are usually asking about it. Understanding it
 means understanding three separate limits stacked on each other.
@@ -45,7 +56,7 @@ participated* — a much lower bar than material participation, and a different 
 **What active participation means.** {fig:pl.active_participation} It is a facts-and-circumstances
 standard involving bona fide participation in management decisions — approving tenants, setting
 rents, authorising repairs — with a hard floor at 10 percent ownership and a hard exclusion for
-limited partners.
+{gloss:limited-partner}s.
 
 **The phase-out.** {fig:pl.phaseout} Fifty cents of allowance for every dollar of income above the
 threshold, so it is exhausted half way to the next round number above it. Neither figure has ever
@@ -87,7 +98,7 @@ under it by netting the rental loss against them — the loss is added back, and
 computed on the higher figure. Working from the adjusted gross income shown on the return produces a
 larger allowance than the statute permits.
 
-Separate active participation from material participation deliberately, because the two words look
+Separate active participation from {gloss:material-participation} deliberately, because the two words look
 alike and mean different things. Material participation under Treas. Reg. § 1.469-5T is a set of hour
 tests and makes an activity non-passive. Active participation under IRC § 469(i)(6) is a management
 involvement standard with a 10 percent ownership floor, does not make anything non-passive, and does
@@ -105,7 +116,7 @@ purchaser is related within IRC § 267(b) or IRC § 707(b)(1), and the losses st
 property leaves the family or the controlled group in a fully taxable transaction. Selling to a
 child at full market value is a complete disposition for gain recognition and not for loss release.
 
-<div class="scenario">
+<div class="scenario" data-type="baseline">
 
 <h3>The allowance that shrank</h3>
 
@@ -124,7 +135,7 @@ activities that generated it.
 
 </div>
 
-<div class="scenario">
+<div class="scenario" data-type="fails">
 
 <h3>The limited partner who managed everything</h3>
 
@@ -142,7 +153,7 @@ the block or she disposes of her entire interest.
 
 </div>
 
-<div class="scenario">
+<div class="scenario" data-type="interaction">
 
 <h3>Selling one of four</h3>
 

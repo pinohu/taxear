@@ -19,7 +19,12 @@ forms: []
 related: ["3.2.4.a", "3.2.4.b", "3.2.2.e", "3.2.4.e"]
 changelog:
   - { date: "2026-08-19", summary: "Initial draft." }
+  - { date: "2026-08-25", summary: "Added a plain-language summary, glossary marks, and typed scenarios." }
 ---
+
+<div class="plain-terms">
+A tax return only covers one year, but many of the numbers on it come from other years. A carryover loss, a basis figure, an election made long ago — all of these started somewhere else and just show up on this year's return. This page is about checking those other years, not only the one being looked at. It matters to anyone with a carryover, an old loss, or a return an examiner is questioning. What it decides is twofold: whether an old number can still be trusted, and whether fixing one year quietly changes the tax owed in a different year too. Skipping this step is how a small fix in one year turns into a bigger problem in the next.
+</div>
 
 ## The rule
 
@@ -86,10 +91,10 @@ amended return need not verify the positions on the original. That permission do
 ignoring what is visible: if the original is obviously wrong in a way the amendment does not address,
 the reasonable-inquiry duty is engaged.
 
-<div class="scenario">
+<div class="scenario" data-type="fails">
 <h3>The carryover that had been adjusted</h3>
 
-A new client brings four years of returns showing a net operating loss carryover of substantial size.
+A new client brings four years of returns showing a {gloss:net-operating-loss} carryover of substantial size.
 The current preparer takes the closing balance from the most recent return and carries it forward.
 
 The account transcripts show that year two was examined and the loss reduced by nearly half. Reg.
@@ -100,7 +105,7 @@ account transcripts at the start of every new engagement is the practice that ma
 rather than a matter of remembering.
 </div>
 
-<div class="scenario">
+<div class="scenario" data-type="interaction">
 <h3>The concession that cost more elsewhere</h3>
 
 Hyacinth Berglund-Nwosu is examined on a year in which she claimed a large repair deduction. The
@@ -108,14 +113,14 @@ examiner proposes capitalising it. The amount at issue in the examined year is m
 representative is inclined to concede.
 
 Tracing it forward changes the picture in her favour and complicates it in another direction.
-Capitalisation creates basis and depreciation deductions in later years, some of which are already
+Capitalisation creates {gloss:basis} and depreciation deductions in later years, some of which are already
 filed and would need amendment to claim — and the refund period for the earliest of those is close to
 expiring. Conceding without a plan for the subsequent years converts a small adjustment into a
 permanent loss of the deduction. The right sequence is to compute the multi-year effect first, then
 decide whether to concede, and to protect the adjacent years with claims if necessary.
 </div>
 
-<div class="scenario">
+<div class="scenario" data-type="timing">
 <h3>Six years of the same treatment</h3>
 
 Alaric Fernsby-Oduya has reported a category of income the same way since 2019. The 2024 return is
@@ -125,7 +130,7 @@ show consistency.
 Consistency helps only if the treatment is right. If it is defensible, the earlier returns support
 that this was a considered position applied uniformly, which is relevant to penalties as well as to
 the merits. If it is wrong, producing them tells the examiner where five more years of adjustments
-are, and the assessment period may still be open on some of them — and on any year with a substantial
+are, and the {gloss:statute-of-limitations} may still be open on some of them — and on any year with a substantial
 omission, open for six years. The analysis has to run before the returns leave the office, not after.
 </div>
 

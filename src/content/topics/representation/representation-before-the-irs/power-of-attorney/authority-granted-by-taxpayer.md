@@ -19,7 +19,19 @@ forms: ["2848", "8821"]
 related: ["3.2.1.a", "3.2.1.b", "3.2.1.d", "3.2.1.i", "3.2.1.j", "3.2.1.h", "3.2.1.e", "3.2.1.f"]
 changelog:
   - { date: "2026-08-18", summary: "Initial publication from 26 CFR Part 601 Subpart E." }
+  - { date: "2026-08-25", summary: "Added a plain-language summary, typed scenarios, and glossary marks." }
 ---
+
+<div class="plain-terms">
+When someone signs a power of attorney naming a tax helper, what that helper can do
+depends on what the form says. It affects anyone who lets an accountant, lawyer, or
+enrolled agent deal with the IRS for them. Some things come with the job by default,
+like letting the helper talk to the IRS and get your mail from them. Other things do
+not come by default and must be spelled out, like letting the helper sign a deal that
+binds you or moves a deadline. The form also sets which years and which taxes the
+helper can act on. Naming a new helper for the same matter can quietly cancel the old
+one.
+</div>
 
 The authority a representative holds is exactly what the taxpayer granted, read against the matters described. Two questions decide almost every dispute about it: what did the taxpayer say the representative may do, and for which matters and periods did they say it.
 
@@ -41,22 +53,22 @@ Drafting scope is the whole job. "All years" invites a narrow reading or rejecti
 
 The revocation rule catches firms during handovers. A client who signs a fresh Form 2848 for a new representative at the same firm, for the same matter, has revoked the old one by operation of Reg. § 601.505(a)(1) unless the non-revocation clause and attachment are used. If the departing representative was still handling a related period, that authority is gone and nobody notices until the IRS declines to speak to them.
 
-<div class="scenario">
+<div class="scenario" data-type="interaction">
 <h3>The second representative who erased the first</h3>
-<p>A client under examination for 2022 and 2023 is represented by an enrolled agent on both years. The firm brings in a specialist for a valuation issue in 2023 and has the client sign a new Form 2848 naming the specialist for 2023, with nothing else stated.</p>
+<p>A client under examination for 2022 and 2023 is represented by an enrolled agent on both years. The firm brings in a specialist for a valuation issue in 2023 and has the client sign a new {gloss:power-of-attorney} naming the specialist for 2023, with nothing else stated.</p>
 <p><em>Analysis.</em> For 2023 — the same matter — the new power of attorney revokes the earlier one, so the original agent loses authority for that year while keeping 2022. If the intention was for both to act, the new form needed a clause stating it does not revoke the prior authority, with a copy of that authority or the taxpayer's signed list of existing representatives attached (Reg. § 601.505(a)(1)).</p>
 </div>
 
-<div class="scenario">
+<div class="scenario" data-type="boundary">
 <h3>Authority that stops at the entity line</h3>
 <p>A practitioner holds a power of attorney for an individual client covering Form 1040 for three years. The examination turns to the client's single-member LLC and its employment tax filings, and the agent asks the practitioner to produce the payroll records.</p>
 <p><em>Analysis.</em> The described matters are the individual's income tax returns. Employment tax filings, and the entity as a taxpayer in its own right, are outside them. The practitioner may furnish information at the IRS's request as anyone may, but representing the entity on those periods requires its own authorization naming the form, the entity, and the periods.</p>
 </div>
 
-<div class="scenario">
+<div class="scenario" data-type="procedural">
 <h3>Everything by correspondence</h3>
 <p>A practitioner intends to resolve a matter entirely by letter and never to meet or telephone the IRS. He reasons that no power of attorney is needed because he will not appear.</p>
-<p><em>Analysis.</em> Wrong. Representation through correspondence still requires a power of attorney and declaration of representative even though no personal appearance is contemplated (Reg. § 601.504(d)). Writing to the IRS on a taxpayer's behalf about their liabilities is representation, and the authorisation requirement does not turn on whether anyone meets face to face.</p>
+<p><em>Analysis.</em> Wrong. Representation through correspondence still requires a {gloss:power-of-attorney} and declaration of representative even though no personal appearance is contemplated (Reg. § 601.504(d)). Writing to the IRS on a taxpayer's behalf about their liabilities is representation, and the authorisation requirement does not turn on whether anyone meets face to face.</p>
 </div>
 
 <div class="callout trap"><h4>Traps</h4>

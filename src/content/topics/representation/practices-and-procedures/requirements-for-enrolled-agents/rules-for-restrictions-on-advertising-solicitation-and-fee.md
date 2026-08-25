@@ -17,7 +17,18 @@ forms: []
 related: ["3.1.2.e", "3.1.2.c", "3.1.1.a", "3.1.2.g", "3.1.2.j", "3.1.2.l", "3.4.3.c"]
 changelog:
   - { date: "2026-08-18", summary: "Initial publication from Circular 230 § 10.30 as amended by T.D. 9527." }
+  - { date: "2026-08-25", summary: "Added a plain-language summary, glossary marks, and typed scenarios." }
 ---
+
+<div class="plain-terms">
+This rule covers how a tax practitioner may advertise, and what they may say about fees. It bans
+false or misleading claims of any kind. It also stops an enrolled agent from calling themselves
+"certified," or saying they work for the IRS. The rule covers anyone who markets tax help to the
+public. It does not stop honest, true ads. It does not stop a fair phone call, where other law
+allows one. The rule also sets two clocks. One is how long a posted fee must stay good once it goes
+up. The other is how long ad records must be kept after use. Get the words wrong, or toss the proof
+too soon, and the practitioner bears the risk, not the client.
+</div>
 
 Circular 230 § 10.30 is titled "Solicitation," but it does four jobs: it polices the **content** of what a practitioner says publicly, the **manner** of uninvited approaches, what may be said about **fees** and for how long that binds, and who a practitioner may **associate** with. The examinable content clusters around three rules — the forbidden word, the 30 days, and the 36 months.
 
@@ -59,25 +70,25 @@ The 30-day fee rule is a **floor**, and it runs from the **last date on which th
 
 The retention rules in § 10.30(c) are format-specific. Broadcast requires a recording of the **actual transmission** — a script does not satisfy it. Direct mail and e-commerce require the actual communication **plus the distribution list or a description of it**, the harder half to produce after the fact. The 36 months runs from the **last** transmission or use, so a campaign re-run in a later year restarts the clock.
 
-<div class="scenario">
+<div class="scenario" data-type="fails">
 <h3>The certified enrolled agent</h3>
-<p>An enrolled agent designs a website banner reading "Certified IRS Enrolled Agent — Authorized by the Internal Revenue Service." He reasons that enrolment is granted by the IRS and that both statements are literally accurate.</p>
+<p>An {gloss:enrolled-agent} designs a website banner reading "Certified IRS Enrolled Agent — Authorized by the Internal Revenue Service." He reasons that enrolment is granted by the IRS and that both statements are literally accurate.</p>
 <p><em>Analysis.</em> Two violations in one line. Section 10.30(a)(1) forbids an enrolled agent to use the term "certified" in describing the professional designation, whatever the literal justification. And "Authorized by the Internal Revenue Service" implies an employer/employee relationship with the agency, which the same sentence separately prohibits. The regulation supplies the cure: "enrolled to represent taxpayers before the Internal Revenue Service," "enrolled to practice before the Internal Revenue Service," or "admitted to practice before the Internal Revenue Service."</p>
 </div>
 
-<div class="scenario">
+<div class="scenario" data-type="timing">
 <h3>The published schedule</h3>
 <p>A practitioner publishes a fee schedule on 1 March showing $450 for a routine individual return, keeps it on the firm website unchanged, and takes it down on 12 June. On 20 June a client engages her for that service and she quotes $600, citing the withdrawal of the schedule.</p>
 <p><em>Analysis.</em> She may charge no more than $450. Section 10.30(b)(2) requires the published rate to hold for at least 30 calendar days after the <em>last date on which the schedule was published</em>. Continuous publication on a website means the last date is 12 June, so the rate binds through at least 12 July.</p>
 </div>
 
-<div class="scenario">
+<div class="scenario" data-type="procedural">
 <h3>The lien-list mailing</h3>
-<p>A practitioner buys a commercial list of taxpayers with recently filed federal tax liens and sends each an unsolicited letter offering representation. The letter is truthful, states his fees accurately, and complies with his State's solicitation rules. He keeps a PDF of the letter but not the list, since the vendor can regenerate it.</p>
+<p>A practitioner buys a commercial list of taxpayers with recently filed federal tax {gloss:lien}s and sends each an unsolicited letter offering representation. The letter is truthful, states his fees accurately, and complies with his State's solicitation rules. He keeps a PDF of the letter but not the list, since the vendor can regenerate it.</p>
 <p><em>Analysis.</em> The solicitation is permitted — § 10.30(a)(2) bars uninvited solicitation only where it violates Federal or State law or another applicable rule, and here it does not. But two duties are unmet. The letter must <em>clearly identify itself as a solicitation</em> and must <em>identify the source of the information used in choosing the recipient</em> — that the names came from public lien filings via a commercial list. And § 10.30(c) requires retention of the actual communication together with a list or description of the persons to whom it was distributed, for at least 36 months from last use. Relying on the vendor to regenerate the list does not satisfy the practitioner's own duty.</p>
 </div>
 
-<div class="scenario">
+<div class="scenario" data-type="interaction">
 <h3>The radio campaign and the persistent call</h3>
 <p>A firm runs radio spots for six weeks, keeping the approved script and the invoice. A listener calls, hears the fee, and says she does not want to be contacted again. A staff member calls her twice more over the next month.</p>
 <p><em>Analysis.</em> Two problems. Section 10.30(c) requires a radio broadcast to be recorded and the recording of the <em>actual transmission</em> retained at least 36 months from the last transmission; a script and an invoice do not satisfy it. Separately, the same paragraph bars persisting in attempts to contact a prospective client who has made it known that they do not desire to be solicited. The follow-up calls violate that directly.</p>

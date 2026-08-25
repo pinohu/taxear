@@ -20,7 +20,19 @@ forms: []
 related: ["3.3.3.e", "3.3.3.d", "3.3.3.a", "3.3.3.f", "3.3.3.h", "3.3.3.i", "3.2.4.a"]
 changelog:
   - { date: "2026-08-18", summary: "Initial publication from IRC §§ 6001, 274(d), 6201(d) and 7602 Reg. § 1.6001-1 and IRC § 280F(d)(4), each opened at source." }
+  - { date: "2026-08-25", summary: "Added a plain-language summary, a decision diagram of the § 274(d) substantiation test, a glossary mark, and typed scenarios." }
+diagram:
+  archetype: "decision"
+  caption: "What proof a deduction needs"
+  tests:
+    - { test: "Is it travel, a gift, or listed property (like a vehicle)?", result: "No — ordinary records showing the amount are enough", outcome: "pass" }
+    - { test: "Yes — is it substantiated for amount, time and place, purpose, and business relationship, all four?", result: "No — disallowed in full", outcome: "fail" }
+    - { test: "Yes to all four elements", result: "Deduction allowed", outcome: "pass" }
 ---
+
+<div class="plain-terms">
+Every number on your tax return needs proof behind it, and that proof has to exist before an {gloss:audit} ever starts — not scrambled together afterward. For most expenses, any reasonable records will do: receipts, bank statements, logs. But for travel, gifts, and vehicles, the bar is much higher. You need to show the amount, the date and place, the reason, and who was involved — all four, not just some of them. Missing even one piece can wipe out the whole deduction. This page explains what counts as good proof, and why that stricter rule for travel, gifts, and vehicles catches so many people off guard.
+</div>
 
 An examination is a demand for proof of what the return says. The obligation to be able to supply that proof is not created by the examination — it exists from the moment the return is filed, and it comes from IRC § 6001. What changes at examination is only that someone is asking. The topic has two levels: a general standard that applies to every entry, and a **stricter** standard that applies to three categories where the general one has been displaced.
 
@@ -65,25 +77,25 @@ Read the operative words carefully. The deduction is disallowed **unless** subst
 
 **Cooperation is a substantive step, not a courtesy.** Section 6201(d) conditions its protection on full cooperation, and § 274(d)'s corroboration route depends on assembling third-party material. A representative who lets a document request sit is spending the client's substantive position.
 
-<div class="scenario">
+<div class="scenario" data-type="fails">
 <h3>The mileage log without a purpose</h3>
 <p>A sole proprietor produces a spreadsheet showing, for each business trip in 2025, the date, the odometer readings and the total miles. The examiner disallows the entire vehicle deduction. The client protests that the log is meticulous.</p>
 <p><em>Analysis.</em> It is meticulous and it is incomplete. A passenger vehicle is listed property, so IRC § 274(d) applies, and the deduction is allowed only if the taxpayer substantiates the amount, the time and place, <em>the business purpose</em>, and the business relationship of the person receiving the benefit. The log establishes amount and time and place; it says nothing about purpose. The route to a deduction is corroboration — calendar entries, client records, invoices tied to the dates — not an argument that the mileage figures are reliable.</p>
 </div>
 
-<div class="scenario">
+<div class="scenario" data-type="interaction">
 <h3>The estimate that was accepted, and the one that was not</h3>
 <p>An examination questions two items: $6,200 of shop supplies, for which the client has bank statements but no invoices, and $4,100 of client travel, for which the client has credit card statements showing airline and hotel charges but no record of who was seen or why.</p>
 <p><em>Analysis.</em> Different rules. The supplies are an ordinary business expense outside § 274(d); the test is whether the records are sufficient to establish the amount, and bank statements showing payments to identifiable suppliers may carry it, with the examiner free to allow a reasonable figure. The travel is squarely within § 274(d), and credit card statements establish amount and time and place but neither business purpose nor business relationship. Without corroboration of those two elements, the travel is disallowed in full — not reduced.</p>
 </div>
 
-<div class="scenario">
+<div class="scenario" data-type="timing">
 <h3>The 1099 that was wrong</h3>
 <p>A client receives a Form 1099-NEC reporting $48,000 from a customer who in fact paid $28,000; the payer double-counted a reversed transaction and will not issue a correction. The client gives the representative bank records, invoices and the customer's own remittance advices, and the representative supplies all of it to the examiner within the deadline. The examiner proposes a deficiency on the full $48,000.</p>
 <p><em>Analysis.</em> This is what IRC § 6201(d) is for, though not yet. Where the taxpayer asserts a reasonable dispute with an item of income on a third-party information return and has fully cooperated — timely access to witnesses, information and documents within their control — the Secretary must produce reasonable and probative information <em>in addition to</em> the information return. The provision operates "in any court proceeding," so it is not a rule the representative can enforce against the examiner. What the representative is doing now is building the record of reasonable dispute and full cooperation that makes it available later.</p>
 </div>
 
-<div class="scenario">
+<div class="scenario" data-type="boundary">
 <h3>The records that were thrown away</h3>
 <p>An examination of 2023 questions the basis claimed on the sale of a rental property bought in 1998. The client kept returns but discarded the closing documents and improvement invoices years ago, saying the statute of limitations had long run on the purchase year.</p>
 <p><em>Analysis.</em> The limitations period on the 1998 return is irrelevant. Reg. § 1.6001-1(e) requires records to be retained "so long as the contents thereof may become material in the administration of any internal revenue law" — and basis records remain material until the asset is disposed of and that year closes. The obligation ran from 1998 to 2023 and beyond. The representative's work is reconstruction from county records, lender files and contractor records, not an argument that the retention period expired.</p>

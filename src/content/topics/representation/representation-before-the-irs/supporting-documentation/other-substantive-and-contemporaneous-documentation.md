@@ -20,7 +20,12 @@ forms: []
 related: ["3.2.4.a", "3.2.4.e", "3.2.4.b"]
 changelog:
   - { date: "2026-08-19", summary: "Initial draft." }
+  - { date: "2026-08-25", summary: "Added a plain-language summary, glossary marks, and typed scenarios." }
 ---
+
+<div class="plain-terms">
+Most tax records just need to convince someone later. A small group is different. Those records only count if they were made at the time — not made up after the fact. This page covers that group: the thank-you letter for a big charity gift, a mileage log for travel, and board minutes for a business decision. It matters most to anyone claiming a large charitable deduction, a travel or car expense, or a bonus or loan between a company and its owner. What this decides is a hard line, not a matter of degree. For some records, getting them late means the deduction is gone, even if every fact is true. For others, a late record still helps, just less than one made on the day.
+</div>
 
 ## The rule
 
@@ -99,10 +104,10 @@ when it was written, is admissible evidence and is worth having. Its value comes
 its own provenance. On the § 170(f)(8) track it is worth nothing, because the statute conditions the
 deduction on a document from a third party obtained by a date that has passed.
 
-<div class="scenario">
+<div class="scenario" data-type="timing">
 <h3>The acknowledgment obtained too late</h3>
 
-Ignatius Mwangi-Delacroix makes a substantial cash gift to his university in November. He files his
+Ignatius Mwangi-Delacroix makes a substantial cash {gloss:charitable-contribution} to his university in November. He files his
 return on 20 March. In May, preparing for an examination of an unrelated item, his preparer notices
 there is no acknowledgment and requests one. The university issues it promptly.
 
@@ -113,7 +118,7 @@ the check before filing, a two-day delay would have preserved a five-figure dedu
 control belongs in the return preparation checklist rather than in the examination response.
 </div>
 
-<div class="scenario">
+<div class="scenario" data-type="procedural">
 <h3>The minutes that were never kept</h3>
 
 A closely held corporation pays its shareholder-employee a large year-end bonus. On examination the
@@ -128,13 +133,13 @@ comparables, the shareholder's actual duties and hours — and presents it hones
 of historic facts. The lesson for the client's next year is a five-minute resolution.
 </div>
 
-<div class="scenario">
+<div class="scenario" data-type="boundary">
 <h3>The client who offered to date it earlier</h3>
 
 Preparing a substantiation package, a client tells his enrolled agent that he can "print the log with
 last year's dates on it" because his software allows the entry date to be set.
 
-That is fabrication of evidence and the answer is no, without qualification. What the agent can do is
+That is fabrication of evidence. The {gloss:due-diligence} Circular 230 requires leaves only one answer: no, without qualification. What the agent can do is
 prepare a statement, dated today, setting out the client's recollection and identifying the calendar
 entries, invoices and bank records that corroborate each trip. Under Reg. § 1.274-5T(c) that is the
 taxpayer's own statement supported by corroborative evidence, and it can succeed where the corroboration

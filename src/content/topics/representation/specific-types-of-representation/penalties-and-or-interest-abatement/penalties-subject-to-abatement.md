@@ -22,7 +22,20 @@ forms: ["843"]
 related: ["3.3.2.b", "3.2.6.a", "3.3.1.b", "3.1.4.b", "3.1.4.a", "3.1.3.d", "3.3.2.c", "3.3.2.d", "3.3.2.e"]
 changelog:
   - { date: "2026-08-18", summary: "Initial publication from IRC §§ 6651, 6656, 6662, 6663, 6404 and IRM 20.1.1." }
+  - { date: "2026-08-25", summary: "Added a plain-language summary, typed scenarios, and glossary marks." }
 ---
+
+<div class="plain-terms">
+This page lists the common IRS penalties for filing late, paying late, or missing a
+payroll deposit, or for filing a wrong return, and shows which ones a taxpayer can
+actually get removed. Some penalties, like the one for filing late, come with a one-time
+break for a taxpayer with a clean recent record. No story is needed for that break, just
+the clean record. Other penalties, like the one for a wrong return or for fraud, are never
+covered by that break. Removing those takes a real excuse the taxpayer has to prove. This
+matters to anyone who owes one of these penalties and must decide which relief to ask for.
+It decides which penalty qualifies for the easy route, and which one needs the harder
+argument instead.
+</div>
 
 Abatement work starts with identifying the penalty precisely, because the relief routes are not interchangeable. The administrative waiver that clears a late-filing penalty does nothing for an accuracy-related penalty, and the statutory defence that answers an accuracy penalty is not the same test as the one in the late-filing statute.
 
@@ -66,19 +79,19 @@ Sequencing matters as much as selection. First-time abate is checked against a c
 
 Nor does removing a penalty remove what accrued on it. Interest runs on tax, and abating a penalty leaves the underlying interest computation intact; interest has its own, much narrower abatement grounds and its own outline item. A client told their penalties have been abated will often read the next notice expecting a zero balance, so it is worth saying plainly what the abatement does and does not reach before the notice arrives.
 
-<div class="scenario">
+<div class="scenario" data-type="baseline">
 <h3>Three penalties, three answers</h3>
 <p>A small employer files its 2024 return eight months late, pays the balance four months after that, and missed two payroll deposits during the year. The notice shows failure to file, failure to pay, and failure to deposit.</p>
-<p><em>Analysis.</em> All three are within the scope of first-time abate under IRM 20.1.1.3.3.2.1, so a single administrative request may reach the lot if the compliance history qualifies. If it does not, each still has a reasonable-cause argument, but they are separate arguments: the reason the return was late is not automatically the reason the deposits were missed.</p>
+<p><em>Analysis.</em> All three are within the scope of {gloss:first-time-abatement} under IRM 20.1.1.3.3.2.1, so a single administrative request may reach the lot if the compliance history qualifies. If it does not, each still has a reasonable-cause argument, but they are separate arguments: the reason the return was late is not automatically the reason the deposits were missed.</p>
 </div>
 
-<div class="scenario">
+<div class="scenario" data-type="fails">
 <h3>The waiver that could not help</h3>
-<p>An examination concludes with an accuracy-related penalty for a substantial understatement. The client has a spotless ten-year filing history, and the representative requests first-time abate.</p>
+<p>An examination concludes with an {gloss:accuracy-related-penalty} for a substantial understatement. The client has a spotless ten-year filing history, and the representative requests first-time abate.</p>
 <p><em>Analysis.</em> First-time abate covers failure to file, failure to pay, and failure to deposit. An accuracy-related penalty under § 6662 is not on that list, and a clean history does not bring it within one. The available argument is the § 6664(c) reasonable cause and good faith exception, which is a different test requiring different evidence.</p>
 </div>
 
-<div class="scenario">
+<div class="scenario" data-type="boundary">
 <h3>Where the floor beats the percentage</h3>
 <p>A taxpayer files a return four months late showing tax of $900, all unpaid.</p>
 <p><em>Analysis.</em> The percentage calculation gives four months of failure to file at 5 percent, reduced by failure to pay for those months under § 6651(c)(1). Because the return is more than 60 days late, the addition cannot fall below the lesser of the indexed floor or 100 percent of the tax shown. On these numbers the floor governs, and the offset in § 6651(c)(1) does not reduce it. Clients told "it is only a few percent" are being misinformed.</p>

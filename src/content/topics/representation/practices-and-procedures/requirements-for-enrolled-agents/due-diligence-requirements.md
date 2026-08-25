@@ -18,7 +18,18 @@ forms: []
 related: ["3.1.2.a", "3.1.2.p", "3.1.4.g", "3.1.1.a", "3.1.2.b", "3.1.2.g", "3.1.2.i", "3.1.2.k", "3.4.1.a"]
 changelog:
   - { date: "2026-08-18", summary: "Initial publication from Circular 230 §§ 10.22, 10.34, 10.37 and 10.52." }
+  - { date: "2026-08-25", summary: "Added a plain-language summary, a glossary mark, and typed scenarios." }
 ---
+
+<div class="plain-terms">
+This page explains the care a tax practitioner must use, known as {gloss:due-diligence}.
+It affects anyone who prepares returns, talks to the IRS, or advises clients on tax
+matters. It does not set a duty a taxpayer owes to themselves. The duty runs three ways.
+Get the paperwork right. Make sure what you tell the IRS is true. Make sure what you tell
+the client is true. A practitioner who hands work to someone else is not off the hook.
+That only works if the practitioner truly picked, trained, and checked that person's work
+first.
+</div>
 
 Section 10.22 is the general diligence rule, and its structure is worth reading closely. Diligence is owed in **three directions** — to the papers, to Treasury, and to the client — and the reliance paragraph that follows is not a safe harbour for delegating work. It is a **presumption**, and the practitioner earns it by doing four things properly.
 
@@ -48,19 +59,19 @@ Section 10.22 is the general diligence rule, and its structure is worth reading 
 
 **Diligence and the § 6695(g) due diligence rules are different things.** Section 10.22 is a general professional standard enforced by OPR. The credit and filing-status due diligence in Reg. § 1.6695-2 is a specific documentary regime enforced by penalty, per benefit, with Form 8867. A practitioner can satisfy one and fail the other, and the exam tests them separately.
 
-<div class="scenario">
+<div class="scenario" data-type="fails">
 <h3>The assurance given too quickly</h3>
 <p>During an examination a revenue agent asks whether the client held any foreign accounts in the years under review. The practitioner, recalling a conversation from two years earlier, says no. Statements later show an account held for part of one year.</p>
 <p><em>Analysis.</em> Section 10.22(a)(2) requires diligence in determining the correctness of representations made <strong>to the Department of the Treasury</strong>. Recollection of an old conversation is not a determination. The answer should have been that the practitioner would confirm and revert. Being honestly mistaken does not answer a diligence charge, because the rule governs the process behind the statement rather than the practitioner's belief in it.</p>
 </div>
 
-<div class="scenario">
+<div class="scenario" data-type="baseline">
 <h3>Reliance that was earned</h3>
 <p>A firm assigns depreciation schedules to a preparer with four years' experience, trained annually, whose work is sampled and reviewed each season. On one return an asset is misclassified. The reviewing practitioner signed it.</p>
 <p><em>Analysis.</em> This is what § 10.22(b) is for. The practitioner relied on another's work product and can show reasonable care in engaging, supervising, training and evaluating that person, taking account of an established employment relationship. The presumption of diligence applies to the § 10.22 charge. It would not automatically answer a § 10.34 charge if the misclassification amounted to an unreasonable position, because the presumption is expressly modified by that section.</p>
 </div>
 
-<div class="scenario">
+<div class="scenario" data-type="interaction">
 <h3>Reliance that was not</h3>
 <p>Under deadline pressure, a practitioner engages an unfamiliar contractor found online to prepare several partnership returns, gives no instructions, reviews nothing, and signs them as submitted.</p>
 <p><em>Analysis.</em> No presumption arises. Section 10.22(b) requires reasonable care in <em>engaging, supervising, training and evaluating</em>, and requires proper account to be taken of the nature of the relationship &mdash; an unvetted outside contractor calls for more, not less. None of the four components is present. The conduct also engages § 10.36 if the practitioner has principal authority for the firm's practice, and § 10.34(a) on any return whose positions were not evaluated.</p>

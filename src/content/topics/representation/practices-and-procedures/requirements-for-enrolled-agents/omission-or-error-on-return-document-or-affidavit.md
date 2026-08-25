@@ -19,7 +19,17 @@ forms: ["1040-X"]
 related: ["3.1.2.a", "3.1.2.f", "3.1.3.d", "3.1.2.i", "3.4.1.b"]
 changelog:
   - { date: "2026-08-18", summary: "Initial publication from Circular 230 § 10.21." }
+  - { date: "2026-08-25", summary: "Added a plain-language summary, glossary marks, and typed scenarios." }
 ---
+
+<div class="plain-terms">
+This page is about what a tax pro must do on finding out a client got something wrong on a
+past return. The rule is simple: tell the client what happened and what it could cost them.
+This affects enrolled agents, lawyers, and CPAs who work for a client on a tax matter. It does
+not force them to tell the IRS, fix the return, or quit the job — those choices stay with the
+client. What it decides is where the pro's duty starts and stops, and why helping a client keep
+hiding an error later crosses into a different, more serious kind of trouble.
+</div>
 
 Section 10.21 is one sentence of duty and it is defined as much by what it does not require. A practitioner who learns of a client's noncompliance or error must **tell the client** — the fact of it, and the consequences. There is no duty to tell the IRS, no duty to correct the return, and no duty to withdraw.
 
@@ -49,19 +59,19 @@ Section 10.21 is one sentence of duty and it is defined as much by what it does 
 
 **Confidentiality is not overridden.** Disclosing a client's error to the IRS without authority would breach the practitioner's obligations, and IRC § 7216 makes unauthorised disclosure or use of return information a criminal matter. Section 10.21 does not create an exception, which is precisely why the duty runs to the client.
 
-<div class="scenario">
+<div class="scenario" data-type="baseline">
 <h3>The omitted brokerage account</h3>
 <p>Preparing a client's 2026 return, a practitioner discovers a brokerage account that generated $18,000 of unreported income in 2023 and 2024. Those returns were prepared elsewhere.</p>
-<p><em>Analysis.</em> Section 10.21 is engaged: he knows of an omission from returns the client submitted. He must advise the client promptly of the fact, and of the consequences &mdash; the additional tax, interest, the accuracy-related penalty and, if the omission was deliberate, the absence of any assessment limitation period under § 6501(c)(1). He is not required to tell the IRS or to amend anything. He should put the advice in writing.</p>
+<p><em>Analysis.</em> Section 10.21 is engaged: he knows of an omission from returns the client submitted. He must advise the client promptly of the fact, and of the consequences &mdash; the additional tax, interest, the {gloss:accuracy-related-penalty} and, if the omission was deliberate, the absence of any {gloss:assessment} limitation period under § 6501(c)(1). He is not required to tell the IRS or to amend anything. He should put the advice in writing.</p>
 </div>
 
-<div class="scenario">
+<div class="scenario" data-type="interaction">
 <h3>The client who declines to amend</h3>
 <p>Advised of the omission, the client says she will not amend and asks the practitioner to prepare the current year's return, which is unaffected.</p>
 <p><em>Analysis.</em> Section 10.21 is satisfied &mdash; the advice was given and the client's decision is hers. The current return is not affected by the prior error, so preparing it involves no unreasonable position and no assistance in continuing the noncompliance. Had the same account still been producing income the client wanted omitted, the analysis would be entirely different: § 10.34(a), § 6694 and § 10.51(a)(7) would all engage, and the engagement would have to end.</p>
 </div>
 
-<div class="scenario">
+<div class="scenario" data-type="procedural">
 <h3>Reporting it to the IRS</h3>
 <p>Frustrated by a client's refusal to correct a substantial error, a practitioner considers writing to the IRS to disclose it and protect himself.</p>
 <p><em>Analysis.</em> He should not. Section 10.21 requires him to advise the <em>client</em>, and creates no authority to disclose. Unauthorised disclosure or use of return information is criminal under IRC § 7216 and civil under § 6713. His protection comes from having advised, having documented it, and from declining any further work that would carry the error forward &mdash; not from disclosure.</p>

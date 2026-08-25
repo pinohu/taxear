@@ -18,7 +18,19 @@ forms: []
 related: ["3.1.2.a", "3.2.1.a", "3.2.6.a", "3.2.2.c"]
 changelog:
   - { date: "2026-08-18", summary: "Initial publication from Circular 230 §§ 10.29, 10.22 and 10.35, each opened at source." }
+  - { date: "2026-08-25", summary: "Added a plain-language summary, typed scenarios, and glossary marks." }
 ---
+
+<div class="plain-terms">
+This page covers conflicts of interest for tax practitioners, and when they may still
+take a case despite one. A conflict shows up when helping one client could hurt another
+client, a past client, or the practitioner's own interests. It affects any enrolled
+agent, lawyer, or accountant who handles more than one client whose interests might pull
+apart, like a married couple splitting up. The rule decides a narrow question: can the
+practitioner still help both sides? Yes, but only if three things hold. The practitioner
+must be able to serve each client well. The law must not forbid it. And each client must
+agree in writing once the conflict is known.
+</div>
 
 Conflicts arise constantly in tax practice and almost never announce themselves. A married couple splitting up, a corporation and its officer facing a trust fund recovery penalty, two partners whose interests diverge once an adjustment lands, a client whose fee is contingent on an outcome the practitioner also has a stake in — each is a conflict under **Circular 230 § 10.29**, and each is representable **only** if three conditions are met. The rule is short, mechanical, and where practitioners get caught it is almost always on the paperwork rather than the judgment.
 
@@ -69,25 +81,25 @@ Note what the second limb reaches: a former client, a person who is not a client
 
 **A personal interest counts.** The second limb includes a "**personal interest of the practitioner**" — a fee arrangement, a business relationship with one party, a family connection, an interest in the transaction being examined. These are the conflicts practitioners are least likely to spot because they are looking at the clients rather than at themselves.
 
-<div class="scenario">
+<div class="scenario" data-type="baseline">
 <h3>The couple who separated mid-examination</h3>
 <p>An enrolled agent represents a married couple in an examination of their joint return. Four months in, the spouses separate, and one tells the agent privately that the omitted income was the other's and that she knew nothing about it.</p>
-<p><em>Analysis.</em> A conflict now exists on both limbs — the representation of one is directly adverse to the other on the innocent spouse question, and the agent's responsibilities to each materially limit what can be done for the other. The obligation arose when the agent learned of it. Continuing requires the agent reasonably to believe competent and diligent representation of <em>each</em> is possible, that it is not prohibited by law, and written informed consent from <em>both</em> within 30 days. On these facts the honest answer to the first condition is usually no, and the right course is to withdraw from representing at least one.</p>
+<p><em>Analysis.</em> A {gloss:conflict-of-interest} now exists on both limbs — the representation of one is directly adverse to the other on the innocent spouse question, and the agent's responsibilities to each materially limit what can be done for the other. The obligation arose when the agent learned of it. Continuing requires the agent reasonably to believe competent and diligent representation of <em>each</em> is possible, that it is not prohibited by law, and written informed consent from <em>both</em> within 30 days. On these facts the honest answer to the first condition is usually no, and the right course is to withdraw from representing at least one.</p>
 </div>
 
-<div class="scenario">
+<div class="scenario" data-type="fails">
 <h3>The corporation and its officer</h3>
-<p>A practitioner represents a small corporation with unpaid payroll taxes. The revenue officer begins a trust fund recovery penalty investigation of the operations manager, who also asks the practitioner to represent her personally.</p>
+<p>A practitioner represents a small corporation with unpaid payroll taxes. The revenue officer begins a {gloss:trust-fund-recovery-penalty} investigation of the operations manager, who also asks the practitioner to represent her personally.</p>
 <p><em>Analysis.</em> Directly adverse. The corporation's position may be that the manager was the responsible person; hers is that she was not. Circular 230 § 10.29(a)(1) is engaged, and (a)(2) as well. The practitioner may act for both only on the three conditions in § 10.29(b), and the first — competent and diligent representation of each — is very hard to satisfy where the factual case for one is the case against the other. Identify the client, confirm it in writing, and tell the other to obtain separate representation.</p>
 </div>
 
-<div class="scenario">
+<div class="scenario" data-type="procedural">
 <h3>The consent that was never written down</h3>
 <p>A practitioner identified a conflict, explained it fully to both clients, obtained clear oral consent from each, and continued. Two years later, after the representation ended, an OPR enquiry asks for the written consents.</p>
 <p><em>Analysis.</em> There is nothing to produce, and that is the violation. Section 10.29(b)(3) requires informed consent "confirmed in writing by each affected client," with the confirmation made no later than 30 days; § 10.29(c) requires copies to be retained at least 36 months from the conclusion of the representation and provided to any IRS officer or employee on request. The quality of the oral explanation does not cure the absence of the document — and the retention period had not expired.</p>
 </div>
 
-<div class="scenario">
+<div class="scenario" data-type="boundary">
 <h3>The former client</h3>
 <p>A practitioner is asked to represent a new client in a dispute whose facts turn on a transaction the practitioner advised on three years ago for a different client, no longer represented.</p>
 <p><em>Analysis.</em> The second limb reaches this. A conflict exists where there is a significant risk that the representation will be materially limited by the practitioner's responsibilities to "another client, <em>a former client</em> or a third person." The former client's confidences constrain what the practitioner can use or argue. Whether that materially limits the new representation is a judgment, but it is the right question — and if the answer is yes, the § 10.29(b) conditions apply, including consent from each affected client.</p>

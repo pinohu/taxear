@@ -21,7 +21,20 @@ forms:
 related: ["3.2.1.h", "3.2.1.a", "3.1.4.g", "3.2.1.e"]
 changelog:
   - { date: "2026-08-18", summary: "Initial publication from IRC §§ 6103(c), 7216 and 6713 and Reg. §§ 301.6103(c)-1 and 301.7216-3." }
+  - { date: "2026-08-25", summary: "Added a plain-language summary and typed scenarios." }
 ---
+
+<div class="plain-terms">
+This page is about who else gets to see a taxpayer's return, and who gets to say yes to
+that. Two different rules run side by side. One rule says when the IRS itself may hand your
+tax facts to someone you name, like a bank checking your income. The other rule says when
+your own tax preparer may pass on or reuse what you gave them, say to sell you a loan. Both
+rules affect anyone who signs a return with a paid preparer, and anyone who wants a third
+party, such as a lender, to see their tax file. They do not affect a return with no third
+party involved at all. What the rules decide is strict: consent must be a clear written
+yes, aimed at one clear purpose, and it cannot be forced as a condition of getting your
+return done.
+</div>
 
 Two consent regimes run in parallel and are not interchangeable. **IRC § 6103(c)** governs what the **IRS** may release to someone the taxpayer names. **IRC § 7216** governs what the **preparer** may disclose or use out of what the client gave them. Different documents, different timing rules, different penalties — and a consent good under one is not automatically good under the other.
 
@@ -79,19 +92,19 @@ The disclosure **will not be made** unless the request or consent is **received 
 
 **Two penalties, one act.** A disclosure can be both the § 7216 misdemeanor and the § 6713 civil penalty. Section 7216 requires the act to be **knowing or reckless**; § 6713 has no such requirement, which is why an inadvertent disclosure can be penalised civilly without criminal exposure. Section 7216 is the **only** preparer provision carrying imprisonment.
 
-<div class="scenario">
+<div class="scenario" data-type="procedural">
 <h3>One consent, two purposes</h3>
 <p>A firm drafts a single form asking clients to agree both that the firm may use their return data to recommend its wealth-management arm, and that the firm may send the data to a bank for a lending pre-qualification.</p>
 <p><em>Analysis.</em> Invalid as drafted. Reg. § 301.7216-3(c)(1) permits multiple uses in one document or multiple disclosures in one document, but "a single written document, however, cannot authorize both uses and disclosures." Two documents are needed. And because the use is to solicit other products, the consent must identify <em>each specific type</em> — the regulation's examples include mutual funds, IRAs and life insurance.</p>
 </div>
 
-<div class="scenario">
+<div class="scenario" data-type="fails">
 <h3>The condition that voids the consent</h3>
 <p>A preparer tells clients at intake that returns will be prepared only for those who sign a consent letting the firm market its bookkeeping services to them later.</p>
 <p><em>Analysis.</em> Involuntary, and it fails. Reg. § 301.7216-3(a)(1) provides that conditioning the provision of any services on the taxpayer's furnishing consent makes it involuntary. The narrow exception in § 301.7216-3(a)(2) does not reach this: it permits conditioning services on consent to disclose to <em>another tax return preparer</em> assisting with that return, not on consent to be marketed to.</p>
 </div>
 
-<div class="scenario">
+<div class="scenario" data-type="interaction">
 <h3>Sending the file abroad</h3>
 <p>A US firm routes individual return data to an affiliated processing team in another country. The engagement consent names the affiliate, identifies the data, and is signed before any transfer. The firm sends the complete file including social security numbers.</p>
 <p><em>Analysis.</em> The consent is otherwise sound but the SSNs must not go. Reg. § 301.7216-3(b)(4)(i) bars a US preparer from obtaining consent to disclose a Form 1040 series taxpayer's SSN abroad, and requires it to be redacted or masked first. The only route is the adequate data protection safeguard under § 301.7216-3(b)(4)(ii), with maintenance of those safeguards verified in the consent request.</p>

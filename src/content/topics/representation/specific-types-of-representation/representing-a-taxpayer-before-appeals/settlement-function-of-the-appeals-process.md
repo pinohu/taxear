@@ -19,7 +19,19 @@ forms: []
 related: ["3.3.4.a", "3.3.4.c", "3.3.4.e"]
 changelog:
   - { date: "2026-08-19", summary: "Initial draft." }
+  - { date: "2026-08-25", summary: "Added a plain-language summary, glossary marks, and typed scenarios." }
 ---
+
+<div class="plain-terms">
+Once your case reaches the IRS's Appeals office, the question changes. Appeals is not
+asking whether the first examiner was right. It is asking what would probably happen if
+your case went to court, and it settles on that basis. This affects anyone whose audit or
+dispute has moved past the examiner and into Appeals. It does not mean Appeals will just
+split the difference, or take a low offer just to avoid dealing with your case. The IRS
+cannot use that kind of reasoning against you either. What Appeals decides is the amount
+you owe going forward. That gets written down on a settlement form. If no deal is reached,
+the case moves on toward court instead.
+</div>
 
 ## The rule
 
@@ -107,7 +119,7 @@ was itself issued by Appeals officials, or in the other categories listed in Reg
 A representative who was in Appeals before the notice issued should not expect a second bite from
 the same office after petitioning.
 
-<div class="scenario">
+<div class="scenario" data-type="baseline">
 <h3>Pricing the hazards honestly</h3>
 
 Ottoline Kasprzak has a deduction disallowed on a mixed question of fact and law. The authority is
@@ -116,14 +128,14 @@ not decided. Her representative's instinct is to open at full concession by the 
 
 The better opening states the split, identifies which line of authority the facts of record fit, and
 proposes a settlement percentage that reflects a real assessment of what a court would do. That is
-what Rule II asks for and what the Appeals officer is trained to evaluate. It also engages the
+what Rule II asks for and what the {gloss:appeals} officer is trained to evaluate. It also engages the
 good-faith provision: a serious proposal that the officer cannot accept generally entitles the
 taxpayer to an evaluation that reveals what would be recommended. An opening demand for everything
 communicates nothing about hazards and invites a bare refusal, which is the one response that leaves
 the representative no better informed.
 </div>
 
-<div class="scenario">
+<div class="scenario" data-type="fails">
 <h3>The nuisance offer</h3>
 
 Rashid Vandenbroucke's representative proposes a small payment to make an issue go away, arguing
@@ -134,10 +146,10 @@ value of the case to either party. The rule cuts both ways, and its symmetry is 
 Government may not lean on a taxpayer's inability to fund litigation either. The proposal has to be
 recast in terms of merits: what the record shows, what the authority requires, and how a court would
 weigh them. If the honest answer is that the taxpayer's position is weak, the negotiation is about
-penalties and payment terms rather than about the deficiency.
+penalties and payment terms rather than about the {gloss:deficiency}.
 </div>
 
-<div class="scenario">
+<div class="scenario" data-type="procedural">
 <h3>Settled on some issues, notice on the rest</h3>
 
 Beatriz Oyekunle's case has four issues. Appeals accepts her position on two, and the parties cannot
@@ -145,7 +157,7 @@ agree on the others.
 
 The result is not all-or-nothing. She signs Form 870-AD for the agreed issues, waiving the
 restrictions on assessment and collection as to those, and Appeals prepares and issues a statutory
-notice of deficiency for the two unagreed issues. Her Tax Court petition rights on those two are
+{gloss:notice-of-deficiency} for the two unagreed issues. Her Tax Court petition rights on those two are
 intact and the 90 days runs from the mailing of that notice. Her representative confirms in writing
 which issues the agreement covers before it is signed, because the scope of the 870-AD is what
 determines what remains petitionable.

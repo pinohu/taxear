@@ -27,7 +27,18 @@ forms: []
 related: ["2.3.3.c", "2.3.3.e", "2.3.3.f", "2.3.3.b", "2.3.3.d"]
 changelog:
   - { date: "2026-08-21", summary: "Initial draft. Separates the IRC § 402(g) elective deferral limit, which follows the individual across every employer, from the IRC § 415(c) annual additions limit, which applies per employer, and sets both against the IRC § 401(a)(17) compensation cap and the IRC § 404 employer deduction ceiling. Carries the 2026 amounts from Notice 2025-67, including the IRC § 414(v)(7) Roth catch-up wage threshold of $150,000 of 2025 wages." }
+  - { date: "2026-08-25", summary: "Added a plain-language summary, typed scenarios, and a glossary mark." }
 ---
+
+<div class="plain-terms">
+Retirement plans like 401(k)s have more than one dollar cap, and mixing them up is the top mistake
+in this area. One cap limits how much pay an employee can choose to set aside from their own check,
+added up across every job they hold in a year. A second cap, often higher, limits the total that
+can go into one account at one job — the employee's own money plus whatever the employer adds. This
+page walks through both caps, how extra amounts for older workers fit in, and what happens if
+someone puts in too much by mistake. It affects workers who save through a job plan and the
+employers who run those plans.
+</div>
 
 An employee's deferral limit and the plan's annual additions limit are different numbers governed
 by different sections, and the difference between them is not a technicality — it is what makes an
@@ -115,7 +126,7 @@ is filed, because the contribution can still be made up to the extended due date
 prior year under IRC § 404(a)(6). An employer that over-contributes owes the IRC § 4972 excise tax
 every year the excess remains in the plan, not merely in the year it went in.
 
-<div class="scenario">
+<div class="scenario" data-type="interaction">
 
 <h3>Two employers, one limit</h3>
 
@@ -129,11 +140,12 @@ plan did anything wrong — each was well inside the limit on its own, and no pl
 another employer's deferrals. The obligation is hers: allocate the $5,500 to one plan by 1 March
 and have that plan distribute it, with allocable income, by 15 April. The annual additions limit is
 not breached at all. Employer one's account received $22,000 and employer two's $19,000, each far
-below $72,000, and the two are not aggregated because the employers are unrelated.
+below $72,000, and the two are not aggregated because the employers are unrelated rather than a
+{gloss:controlled-group}.
 
 </div>
 
-<div class="scenario">
+<div class="scenario" data-type="fails">
 
 <h3>The generous profit-sharing year</h3>
 
@@ -154,7 +166,7 @@ number again.
 
 </div>
 
-<div class="scenario">
+<div class="scenario" data-type="boundary">
 
 <h3>The catch-up that had to be Roth</h3>
 

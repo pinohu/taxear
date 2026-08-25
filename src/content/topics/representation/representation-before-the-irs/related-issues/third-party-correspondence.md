@@ -18,7 +18,18 @@ forms: []
 related: ["3.3.3.a", "3.2.6.a", "3.2.6.g", "3.2.6.c", "3.2.3.c"]
 changelog:
   - { date: "2026-08-18", summary: "Initial publication from IRC §§ 7609, 7602, 7603 and 6501, each opened at source." }
+  - { date: "2026-08-25", summary: "Added a plain-language summary, typed scenarios, and a glossary mark." }
 ---
+
+<div class="plain-terms">
+Sometimes the IRS wants records or facts from someone other than the taxpayer — a bank, a boss, or a
+witness. When it uses a formal order called a summons to get them, the law often says the taxpayer
+must be told first. That rule helps people under audit, not everyone the IRS ever talks to. Once
+told, the taxpayer often has a short window to ask a court to stop the summons before the records go
+out. Some summonses skip this notice, including ones aimed straight at collecting a debt already set.
+This page decides who must be told, how fast they must act, and when the notice rule does not apply
+at all.
+</div>
 
 Two regimes govern the IRS going to someone other than the taxpayer, and they are constantly confused. **IRC § 7602(c)** governs *talking to* third parties and requires advance notice of a contact period — covered at [IRS authority to investigate](/representation/specific-types-of-representation/representing-a-taxpayer-in-audits-examinations/irs-authority-to-investigate/). **IRC § 7609** governs *summonsing* them, with its own notice, its own deadline, and a right to go to court. This page is about the second.
 
@@ -74,25 +85,25 @@ Two regimes govern the IRS going to someone other than the taxpayer, and they ar
 
 **Everything turns on being identified in the summons.** The notice right attaches to a person "identified in the summons" whose records or testimony are sought. A summons drafted so as not to identify the taxpayer is a John Doe summons, which Congress dealt with separately by requiring advance court authorisation on three findings, narrowly tailored.
 
-<div class="scenario">
+<div class="scenario" data-type="boundary">
 <h3>The envelope on the kitchen table</h3>
-<p>A client mentions in passing, 26 days after it arrived, that he received "some IRS thing about the bank." It is a § 7609(a) notice with a copy of a summons served on his bank.</p>
+<p>A client mentions in passing, 26 days after it arrived, that he received "some IRS thing about the bank." It is a § 7609(a) notice with a copy of a {gloss:summons} served on his bank.</p>
 <p><em>Analysis.</em> The right to petition to quash is gone. IRC § 7609(b)(2)(A) allows a proceeding to be begun "not later than the 20th day after the day such notice is given," with no extension, and the 23-day bar on examining the records has also expired. What remains is intervention in any § 7604 enforcement proceeding. The lesson is operational.</p>
 </div>
 
-<div class="scenario">
+<div class="scenario" data-type="procedural">
 <h3>The petition that was filed but not served</h3>
 <p>A representative files a petition to quash on day 18, then mails copies to the summoned bank and the IRS office named in the notice on day 24, by ordinary first-class post.</p>
 <p><em>Analysis.</em> Two defects. IRC § 7609(b)(2)(B) requires the copy to be mailed "not later than the close of the 20-day period," by <em>registered or certified</em> mail. Because (b)(2)(B) was not met, the protection in § 7609(d)(2) — no examination except by court order or with the petitioner's consent — does not attach, and the bank may produce. The petition may proceed, but the records will already be in IRS hands.</p>
 </div>
 
-<div class="scenario">
+<div class="scenario" data-type="timing">
 <h3>The bank that did nothing</h3>
 <p>A summons is served on a client's bank in February. The bank neither complies nor refuses, and correspondence drifts. The following year the representative calculates that the assessment period expires in April and tells the client the IRS is nearly out of time.</p>
 <p><em>Analysis.</em> The advice is wrong. Under IRC § 7609(e)(2), where the summoned party's response is unresolved the § 6501 and § 6531 periods are suspended from six months after service until the response is finally resolved — regardless of what the taxpayer did. The clock stopped in August of the earlier year and has not restarted. Any outstanding third-party summons belongs in the limitation calculation.</p>
 </div>
 
-<div class="scenario">
+<div class="scenario" data-type="fails">
 <h3>The summons that came after assessment</h3>
 <p>A client's liability was assessed two years ago and a revenue officer is collecting. The officer summonses the client's employer for payroll records, and the client asks the representative to petition to quash.</p>
 <p><em>Analysis.</em> There is no right to quash. IRC § 7609(c)(2)(D) excepts a summons issued in aid of the collection of an assessment made or judgment rendered against the person whose liability is in issue, so the notice and quash machinery does not apply at all. The client's protections at this stage lie in the collection due process and appeal routes, and the representative should redirect them there.</p>

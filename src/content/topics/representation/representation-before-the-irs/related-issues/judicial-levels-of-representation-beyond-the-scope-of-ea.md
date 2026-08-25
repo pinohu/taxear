@@ -19,7 +19,12 @@ forms: []
 related: ["3.3.3.h", "3.2.6.a", "3.1.1.a", "3.2.6.e", "3.2.5.c"]
 changelog:
   - { date: "2026-08-18", summary: "Initial publication from Circular 230 § 10.2(a)(4), 31 U.S.C. § 330, Tax Court Rules 24 and 200 read in full, IRC § 7463, and IRS Pub. 5 (Rev. 4-2021)." }
+  - { date: "2026-08-25", summary: "Added a plain-language summary, glossary marks, and typed scenarios." }
 ---
+
+<div class="plain-terms">
+This page marks the line where an enrolled agent's authority to represent a taxpayer stops. That authority reaches the IRS itself, and nothing past it — not a federal court. It matters to any practitioner whose case might end up in front of a judge instead of an IRS employee, and to any taxpayer wondering who can stand up for them there. Once a case leaves the IRS, only a court's own rules decide who may appear, and each court sets its own terms. The Tax Court stands out: it is the only federal court that will admit a non-attorney to argue a case, and only after that person passes the Court's own exam. Everywhere else, a license to practice law is what counts.
+</div>
 
 An enrolled agent's authority is defined by the body it runs against. Circular 230 governs practice **before the Internal Revenue Service**, and the enrolment that Circular 230 confers ends at the agency's door. Courts are not the IRS, they are not part of the Treasury, and each admits its own practitioners on its own terms. The single most useful thing a representative can know here is where that line falls and what lies on the far side of it.
 
@@ -68,27 +73,27 @@ An enrolled agent's authority is defined by the body it runs against. Circular 2
 
 **The small tax case election is a trade the client makes, and it is final.** Simpler procedure, relaxed evidence rules, and a decision that binds without appeal and without precedential value. Where the issue is one the client might want to take further, or where the same issue will recur in later years, the election costs more than it saves.
 
-<div class="scenario">
+<div class="scenario" data-type="fails">
 <h3>The agent who filed the petition</h3>
-<p>An enrolled agent has run an examination for a client for two years. A notice of deficiency issues. The agent prepares and files a petition with the Tax Court, signing it and entering an appearance as the client's representative. He has never applied to the Tax Court.</p>
+<p>An {gloss:enrolled-agent} has run an examination for a client for two years. A notice of deficiency issues. The agent prepares and files a petition with the {gloss:tax-court}, signing it and entering an appearance as the client's representative. He has never applied to the Tax Court.</p>
 <p><em>Analysis.</em> The entry of appearance is not effective. Tax Court Rule 24(a)(3) provides that an entry of appearance filed by counsel not admitted to practice "is not effective until counsel is admitted," and the Court's discretion to recognise counsel applies where counsel "can and will be promptly admitted" — which presupposes an application in progress. Admission for a non-attorney requires the Court's written examination and two sponsors, which is not a matter of weeks. The client's petition itself may stand as the client's own, but the agent should not have signed it, and counsel should have been identified when the 30-day letter arrived.</p>
 </div>
 
-<div class="scenario">
+<div class="scenario" data-type="baseline">
 <h3>The corporation that did not want to pay for counsel</h3>
 <p>A small corporation receives a notice of deficiency for $22,000. Its enrolled agent, not admitted to the Tax Court, tells the client that counsel must be retained or the case is lost.</p>
 <p><em>Analysis.</em> Overstated. Tax Court Rule 24(b)(1)(B) permits an authorized officer to represent a corporation without counsel. The corporation may petition and proceed through its officer. What the enrolled agent cannot do is occupy that seat — the officer appears as the corporation, not through a representative. The agent's proper role is preparing the file, briefing the officer, and appearing as a witness on the facts if called.</p>
 </div>
 
-<div class="scenario">
+<div class="scenario" data-type="interaction">
 <h3>The election that closed the door</h3>
 <p>A client faces a $31,000 deficiency turning on the characterisation of a recurring payment that will arise again in each of the next four years. The representative recommends the small tax case procedure because it is faster and cheaper.</p>
 <p><em>Analysis.</em> The wrong trade on these facts. A small tax case decision "shall not be reviewed in any other court and shall not be treated as a precedent for any other case" (IRC § 7463(b)). A recurring characterisation issue is exactly the kind the client may want reviewed on appeal, or may want settled in a way that carries weight in later years. The saving in cost and speed is real, but it is bought with finality. Put the trade to the client rather than deciding it for them.</p>
 </div>
 
-<div class="scenario">
+<div class="scenario" data-type="procedural">
 <h3>Two admissions, one practitioner</h3>
-<p>An enrolled agent passes the Tax Court's non-attorney examination and is admitted. A year later the Office of Professional Responsibility suspends her from practice before the IRS for eighteen months.</p>
+<p>An enrolled agent passes the Tax Court's non-attorney examination and is admitted. A year later the {gloss:office-of-professional-responsibility} suspends her from practice before the IRS for eighteen months.</p>
 <p><em>Analysis.</em> Two separate statuses, and the second does not automatically end the first. OPR acts under Circular 230, which governs practice before the IRS under 31 U.S.C. § 330; admission to the Tax Court is granted by the Court under its own Rule 200, which conditions admission on good moral and professional character and on the requisite qualifications to provide competent representation. The Court may take its own view of the suspension under its rules governing practice before it, but that is the Court's decision on its own criteria, not an automatic consequence. The agent should not assume either that her Tax Court admission is unaffected or that it survives untouched.</p>
 </div>
 

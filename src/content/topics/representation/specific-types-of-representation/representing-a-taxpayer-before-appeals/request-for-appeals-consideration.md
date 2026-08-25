@@ -18,7 +18,19 @@ forms: []
 related: ["3.3.4.a", "3.3.1.e", "3.3.3.f", "3.3.4.e", "3.3.4.c"]
 changelog:
   - { date: "2026-08-19", summary: "Initial draft against Publication 5 (Rev. 4-2021)." }
+  - { date: "2026-08-25", summary: "Added a plain-language summary, glossary marks, and typed scenarios." }
 ---
+
+<div class="plain-terms">
+When you disagree with an IRS audit result, you usually cannot just call and complain. You
+have to ask for a review, in writing, by a specific date stated in the letter you received.
+For a small dispute, a short written statement or a simple form is enough. For a larger
+dispute, you must write a more detailed protest that lists what you disagree with, the
+facts behind it, and the law that supports your side. This affects anyone appealing an
+audit, a rejected settlement offer, or certain penalty decisions. It does not cover
+disputes over liens or levies, which use a different process. Getting the paperwork right
+decides whether your case is heard at all.
+</div>
 
 ## The rule
 
@@ -111,7 +123,7 @@ covers: denial of certain penalty abatement requests, denial of innocent spouse 
 of an offer in compromise, a determination that a penalty is owed, and determinations affecting
 tax-exempt status or the qualification of a retirement plan.
 
-<div class="scenario">
+<div class="scenario" data-type="boundary">
 <h3>Two years, one over the line</h3>
 
 Solveig Mbeki receives a letter proposing adjustments for two years: about 9,000 dollars for the
@@ -125,13 +137,13 @@ involved**. The small case route is closed to the whole matter. The correction c
 is made before filing and costs a returned protest and lost days if it is made afterwards.
 </div>
 
-<div class="scenario">
+<div class="scenario" data-type="fails">
 <h3>The protest with no authority in it</h3>
 
 Emeka Hartvigsen's protest runs to nine pages describing what happened, in careful chronological
 detail, and closes by saying the examiner's conclusion is unreasonable. It cites nothing.
 
-Appeals settles on hazards of litigation, and there is nothing in the protest for the officer to
+{gloss:appeals} settles on hazards of litigation, and there is nothing in the protest for the officer to
 assess. The required content is a list of disputed issues with reasons, **the facts supporting the
 position on each issue**, and **the law or authority, if any, supporting the position on each
 issue** — two distinct items. The rewrite keeps the chronology but reorganises it issue by issue,
@@ -139,10 +151,10 @@ and under each issue states the controlling provision and how the facts satisfy 
 substance did not change; the protest became usable.
 </div>
 
-<div class="scenario">
+<div class="scenario" data-type="procedural">
 <h3>The wrong perjury statement</h3>
 
-An enrolled agent prepares and signs a protest for a client whose records she has never seen; the
+An {gloss:enrolled-agent} prepares and signs a protest for a client whose records she has never seen; the
 figures come from the client's bookkeeper. She signs the taxpayer's declaration — "to the best of
 my knowledge and belief, the information contained in this protest ... is true, correct, and
 complete."
@@ -150,7 +162,7 @@ complete."
 She has declared personal belief in facts she has no basis to believe, and the correct alternative
 was available and easy: the representative's no-personal-knowledge statement, which declares that
 she submitted the protest and has no personal knowledge concerning the information stated in it.
-The distinction is not a formality. Due diligence is required in preparing and filing documents
+The distinction is not a formality. {gloss:due-diligence} is required in preparing and filing documents
 relating to IRS matters (Circular 230 § 10.22(a)(1)), and a declaration of personal knowledge that
 the practitioner does not have is exactly the kind of statement the diligence rule is about.
 </div>

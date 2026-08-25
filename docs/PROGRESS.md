@@ -10,9 +10,9 @@ is indexed, and only the owner moves a page there (see `docs/VERIFICATION.md`).
 | Part | Topics | Stub | Draft | Review | Published | Words |
 |---|---:|---:|---:|---:|---:|---:|
 | 1. Individuals | 120 | 0 | 0 | 0 | 120 | 294,684 |
-| 2. Businesses | 119 | 0 | 0 | 0 | 119 | 300,153 |
-| 3. Representation, Practices and Procedures | 121 | 0 | 0 | 0 | 121 | 266,222 |
-| **All parts** | **360** | **0** | **0** | **0** | **360** | **861,059** |
+| 2. Businesses | 119 | 0 | 0 | 0 | 119 | 303,536 |
+| 3. Representation, Practices and Procedures | 121 | 0 | 0 | 0 | 121 | 277,178 |
+| **All parts** | **360** | **0** | **0** | **0** | **360** | **875,398** |
 
 ## Part 1 — Individuals
 
@@ -361,54 +361,54 @@ is indexed, and only the owner moves a page there (see `docs/VERIFICATION.md`).
 
 | Code | Title | Status | Words | Last reviewed |
 |---|---|---|---:|---|
-| 2.3.1.a | [Trust types (e.g., simple/complex, grantor, irrevocable, tax shelters, foreign)](/businesses/specialized-returns-and-taxpayers/trust-and-estate-income-tax/trust-types/) | **published** | 2,374 | 2026-08-21 |
-| 2.3.1.b | [Distributable net income and accounting income](/businesses/specialized-returns-and-taxpayers/trust-and-estate-income-tax/distributable-net-income-and-accounting-income/) | **published** | 2,207 | 2026-08-21 |
-| 2.3.1.c | [Exclusions, exemptions, and deductions](/businesses/specialized-returns-and-taxpayers/trust-and-estate-income-tax/exclusions-exemptions-and-deductions/) | **published** | 2,284 | 2026-08-21 |
-| 2.3.1.d | [Fraudulent trusts](/businesses/specialized-returns-and-taxpayers/trust-and-estate-income-tax/fraudulent-trusts/) | **published** | 2,420 | 2026-08-21 |
-| 2.3.1.e | [Income (e.g., allocations, corpus versus income)](/businesses/specialized-returns-and-taxpayers/trust-and-estate-income-tax/income/) | **published** | 2,378 | 2026-08-21 |
-| 2.3.1.f | [Separately stated items (items reported on the K-1)](/businesses/specialized-returns-and-taxpayers/trust-and-estate-income-tax/separately-stated-items-items-reported-on-the-k-1/) | **published** | 2,203 | 2026-08-21 |
-| 2.3.1.g | [Filing requirements, tax years, and penalties](/businesses/specialized-returns-and-taxpayers/trust-and-estate-income-tax/filing-requirements-tax-years-and-penalties/) | **published** | 2,389 | 2026-08-21 |
+| 2.3.1.a | [Trust types (e.g., simple/complex, grantor, irrevocable, tax shelters, foreign)](/businesses/specialized-returns-and-taxpayers/trust-and-estate-income-tax/trust-types/) | **published** | 2,486 | 2026-08-21 |
+| 2.3.1.b | [Distributable net income and accounting income](/businesses/specialized-returns-and-taxpayers/trust-and-estate-income-tax/distributable-net-income-and-accounting-income/) | **published** | 2,296 | 2026-08-21 |
+| 2.3.1.c | [Exclusions, exemptions, and deductions](/businesses/specialized-returns-and-taxpayers/trust-and-estate-income-tax/exclusions-exemptions-and-deductions/) | **published** | 2,409 | 2026-08-21 |
+| 2.3.1.d | [Fraudulent trusts](/businesses/specialized-returns-and-taxpayers/trust-and-estate-income-tax/fraudulent-trusts/) | **published** | 2,547 | 2026-08-21 |
+| 2.3.1.e | [Income (e.g., allocations, corpus versus income)](/businesses/specialized-returns-and-taxpayers/trust-and-estate-income-tax/income/) | **published** | 2,490 | 2026-08-21 |
+| 2.3.1.f | [Separately stated items (items reported on the K-1)](/businesses/specialized-returns-and-taxpayers/trust-and-estate-income-tax/separately-stated-items-items-reported-on-the-k-1/) | **published** | 2,317 | 2026-08-21 |
+| 2.3.1.g | [Filing requirements, tax years, and penalties](/businesses/specialized-returns-and-taxpayers/trust-and-estate-income-tax/filing-requirements-tax-years-and-penalties/) | **published** | 2,494 | 2026-08-21 |
 
 **2.3.2 Exempt organizations**
 
 | Code | Title | Status | Words | Last reviewed |
 |---|---|---|---:|---|
-| 2.3.2.a | [Qualifying for and maintaining tax-exempt status (e.g., IRC 501(c))](/businesses/specialized-returns-and-taxpayers/exempt-organizations/qualifying-for-and-maintaining-tax-exempt-status/) | **published** | 2,497 | 2026-08-21 |
-| 2.3.2.b | [Applying for IRS tax-exempt status (e.g., Form 1023, Form 1024)](/businesses/specialized-returns-and-taxpayers/exempt-organizations/applying-for-irs-tax-exempt-status/) | **published** | 2,428 | 2026-08-21 |
-| 2.3.2.c | [Filing requirements (e.g., Form 990 series)](/businesses/specialized-returns-and-taxpayers/exempt-organizations/filing-requirements/) | **published** | 2,302 | 2026-08-21 |
-| 2.3.2.d | [Unrelated business taxable income](/businesses/specialized-returns-and-taxpayers/exempt-organizations/unrelated-business-taxable-income/) | **published** | 2,334 | 2026-08-21 |
+| 2.3.2.a | [Qualifying for and maintaining tax-exempt status (e.g., IRC 501(c))](/businesses/specialized-returns-and-taxpayers/exempt-organizations/qualifying-for-and-maintaining-tax-exempt-status/) | **published** | 2,613 | 2026-08-21 |
+| 2.3.2.b | [Applying for IRS tax-exempt status (e.g., Form 1023, Form 1024)](/businesses/specialized-returns-and-taxpayers/exempt-organizations/applying-for-irs-tax-exempt-status/) | **published** | 2,552 | 2026-08-21 |
+| 2.3.2.c | [Filing requirements (e.g., Form 990 series)](/businesses/specialized-returns-and-taxpayers/exempt-organizations/filing-requirements/) | **published** | 2,426 | 2026-08-21 |
+| 2.3.2.d | [Unrelated business taxable income](/businesses/specialized-returns-and-taxpayers/exempt-organizations/unrelated-business-taxable-income/) | **published** | 2,457 | 2026-08-21 |
 
 **2.3.3 Retirement plans**
 
 | Code | Title | Status | Words | Last reviewed |
 |---|---|---|---:|---|
-| 2.3.3.a | [Employer and employee contributions](/businesses/specialized-returns-and-taxpayers/retirement-plans/employer-and-employee-contributions/) | **published** | 2,277 | 2026-08-21 |
-| 2.3.3.b | [Reporting requirements](/businesses/specialized-returns-and-taxpayers/retirement-plans/reporting-requirements/) | **published** | 2,108 | 2026-08-21 |
-| 2.3.3.c | [Plans for self-employed persons (e.g., SEP and SIMPLE)](/businesses/specialized-returns-and-taxpayers/retirement-plans/plans-for-self-employed-persons/) | **published** | 2,352 | 2026-08-21 |
-| 2.3.3.d | [Prohibited transactions](/businesses/specialized-returns-and-taxpayers/retirement-plans/prohibited-transactions/) | **published** | 2,435 | 2026-08-21 |
-| 2.3.3.e | [Qualified and non-qualified plans](/businesses/specialized-returns-and-taxpayers/retirement-plans/qualified-and-non-qualified-plans/) | **published** | 2,285 | 2026-08-21 |
-| 2.3.3.f | [Non-discrimination rules](/businesses/specialized-returns-and-taxpayers/retirement-plans/non-discrimination-rules/) | **published** | 2,225 | 2026-08-21 |
+| 2.3.3.a | [Employer and employee contributions](/businesses/specialized-returns-and-taxpayers/retirement-plans/employer-and-employee-contributions/) | **published** | 2,397 | 2026-08-21 |
+| 2.3.3.b | [Reporting requirements](/businesses/specialized-returns-and-taxpayers/retirement-plans/reporting-requirements/) | **published** | 2,206 | 2026-08-21 |
+| 2.3.3.c | [Plans for self-employed persons (e.g., SEP and SIMPLE)](/businesses/specialized-returns-and-taxpayers/retirement-plans/plans-for-self-employed-persons/) | **published** | 2,458 | 2026-08-21 |
+| 2.3.3.d | [Prohibited transactions](/businesses/specialized-returns-and-taxpayers/retirement-plans/prohibited-transactions/) | **published** | 2,549 | 2026-08-21 |
+| 2.3.3.e | [Qualified and non-qualified plans](/businesses/specialized-returns-and-taxpayers/retirement-plans/qualified-and-non-qualified-plans/) | **published** | 2,393 | 2026-08-21 |
+| 2.3.3.f | [Non-discrimination rules](/businesses/specialized-returns-and-taxpayers/retirement-plans/non-discrimination-rules/) | **published** | 2,341 | 2026-08-21 |
 
 **2.3.4 Farmers**
 
 | Code | Title | Status | Words | Last reviewed |
 |---|---|---|---:|---|
-| 2.3.4.a | [Farm income (e.g., self-raised livestock, crop insurance proceeds, subsidies, patronage dividends, conservation payments)](/businesses/specialized-returns-and-taxpayers/farmers/farm-income/) | **published** | 2,238 | 2026-08-21 |
-| 2.3.4.b | [Depreciation for farmers](/businesses/specialized-returns-and-taxpayers/farmers/depreciation-for-farmers/) | **published** | 2,247 | 2026-08-21 |
-| 2.3.4.c | [Disaster-area provisions (drought, flood, other weather-related conditions)](/businesses/specialized-returns-and-taxpayers/farmers/disaster-area-provisions-drought-flood-other-weather-related/) | **published** | 2,299 | 2026-08-21 |
-| 2.3.4.d | [Farm rental](/businesses/specialized-returns-and-taxpayers/farmers/farm-rental/) | **published** | 2,248 | 2026-08-21 |
-| 2.3.4.e | [Farm tax computation (e.g., Schedule J, Schedule SE, estimated tax)](/businesses/specialized-returns-and-taxpayers/farmers/farm-tax-computation/) | **published** | 2,331 | 2026-08-21 |
+| 2.3.4.a | [Farm income (e.g., self-raised livestock, crop insurance proceeds, subsidies, patronage dividends, conservation payments)](/businesses/specialized-returns-and-taxpayers/farmers/farm-income/) | **published** | 2,362 | 2026-08-21 |
+| 2.3.4.b | [Depreciation for farmers](/businesses/specialized-returns-and-taxpayers/farmers/depreciation-for-farmers/) | **published** | 2,371 | 2026-08-21 |
+| 2.3.4.c | [Disaster-area provisions (drought, flood, other weather-related conditions)](/businesses/specialized-returns-and-taxpayers/farmers/disaster-area-provisions-drought-flood-other-weather-related/) | **published** | 2,419 | 2026-08-21 |
+| 2.3.4.d | [Farm rental](/businesses/specialized-returns-and-taxpayers/farmers/farm-rental/) | **published** | 2,366 | 2026-08-21 |
+| 2.3.4.e | [Farm tax computation (e.g., Schedule J, Schedule SE, estimated tax)](/businesses/specialized-returns-and-taxpayers/farmers/farm-tax-computation/) | **published** | 2,451 | 2026-08-21 |
 
 **2.3.5 Rental Property**
 
 | Code | Title | Status | Words | Last reviewed |
 |---|---|---|---:|---|
-| 2.3.5.a | [Real estate professional qualifications](/businesses/specialized-returns-and-taxpayers/rental-property/real-estate-professional-qualifications/) | **published** | 2,255 | 2026-08-21 |
-| 2.3.5.b | [Commercial rentals versus residential rentals](/businesses/specialized-returns-and-taxpayers/rental-property/commercial-rentals-versus-residential-rentals/) | **published** | 2,116 | 2026-08-21 |
-| 2.3.5.c | [Mixed used property/vacation home](/businesses/specialized-returns-and-taxpayers/rental-property/mixed-used-property-vacation-home/) | **published** | 2,320 | 2026-08-21 |
-| 2.3.5.d | [Passive loss limitation (e.g., special $25,000 allowance, MAGI limits)](/businesses/specialized-returns-and-taxpayers/rental-property/passive-loss-limitation/) | **published** | 2,121 | 2026-08-21 |
-| 2.3.5.e | [Rental income (e.g., deposits, pre-paid rent, not rented for profit)](/businesses/specialized-returns-and-taxpayers/rental-property/rental-income/) | **published** | 2,317 | 2026-08-21 |
-| 2.3.5.f | [Rental expenses (e.g., allocation between personal and rental, repair versus capitalized)](/businesses/specialized-returns-and-taxpayers/rental-property/rental-expenses/) | **published** | 2,453 | 2026-08-21 |
+| 2.3.5.a | [Real estate professional qualifications](/businesses/specialized-returns-and-taxpayers/rental-property/real-estate-professional-qualifications/) | **published** | 2,519 | 2026-08-21 |
+| 2.3.5.b | [Commercial rentals versus residential rentals](/businesses/specialized-returns-and-taxpayers/rental-property/commercial-rentals-versus-residential-rentals/) | **published** | 2,230 | 2026-08-21 |
+| 2.3.5.c | [Mixed used property/vacation home](/businesses/specialized-returns-and-taxpayers/rental-property/mixed-used-property-vacation-home/) | **published** | 2,442 | 2026-08-21 |
+| 2.3.5.d | [Passive loss limitation (e.g., special $25,000 allowance, MAGI limits)](/businesses/specialized-returns-and-taxpayers/rental-property/passive-loss-limitation/) | **published** | 2,238 | 2026-08-21 |
+| 2.3.5.e | [Rental income (e.g., deposits, pre-paid rent, not rented for profit)](/businesses/specialized-returns-and-taxpayers/rental-property/rental-income/) | **published** | 2,437 | 2026-08-21 |
+| 2.3.5.f | [Rental expenses (e.g., allocation between personal and rental, repair versus capitalized)](/businesses/specialized-returns-and-taxpayers/rental-property/rental-expenses/) | **published** | 2,560 | 2026-08-21 |
 
 ## Part 3 — Representation, Practices and Procedures
 
@@ -418,50 +418,50 @@ is indexed, and only the owner moves a page there (see `docs/VERIFICATION.md`).
 
 | Code | Title | Status | Words | Last reviewed |
 |---|---|---|---:|---|
-| 3.1.1.a | [What constitutes practice before the IRS](/representation/practices-and-procedures/practice-before-the-irs/what-constitutes-practice-before-the-irs/) | **published** | 1,559 | 2026-08-18 |
-| 3.1.1.b | [Categories of individuals who may practice and extent of practice privileges](/representation/practices-and-procedures/practice-before-the-irs/categories-of-individuals-who-may-practice-and-extent/) | **published** | 1,799 | 2026-08-18 |
+| 3.1.1.a | [What constitutes practice before the IRS](/representation/practices-and-procedures/practice-before-the-irs/what-constitutes-practice-before-the-irs/) | **published** | 1,688 | 2026-08-18 |
+| 3.1.1.b | [Categories of individuals who may practice and extent of practice privileges](/representation/practices-and-procedures/practice-before-the-irs/categories-of-individuals-who-may-practice-and-extent/) | **published** | 1,902 | 2026-08-18 |
 
 **3.1.2 Requirements for Enrolled Agents**
 
 | Code | Title | Status | Words | Last reviewed |
 |---|---|---|---:|---|
-| 3.1.2.a | [Information to be furnished to the IRS](/representation/practices-and-procedures/requirements-for-enrolled-agents/information-to-be-furnished-to-the-irs/) | **published** | 1,460 | 2026-08-18 |
-| 3.1.2.b | [Omission or error on return, document, or affidavit](/representation/practices-and-procedures/requirements-for-enrolled-agents/omission-or-error-on-return-document-or-affidavit/) | **published** | 1,504 | 2026-08-18 |
-| 3.1.2.c | [Rules for employing or accepting assistance from former IRS employees or disbarred/suspended persons](/representation/practices-and-procedures/requirements-for-enrolled-agents/rules-for-employing-or-accepting-assistance-from-former-irs/) | **published** | 2,498 | 2026-08-18 |
-| 3.1.2.d | [Rules for restrictions on advertising, solicitation and fee information](/representation/practices-and-procedures/requirements-for-enrolled-agents/rules-for-restrictions-on-advertising-solicitation-and-fee/) | **published** | 2,494 | 2026-08-18 |
-| 3.1.2.e | [Fee rules (e.g., contingent, unconscionable)](/representation/practices-and-procedures/requirements-for-enrolled-agents/fee-rules/) | **published** | 1,566 | 2026-08-18 |
-| 3.1.2.f | [Due diligence requirements](/representation/practices-and-procedures/requirements-for-enrolled-agents/due-diligence-requirements/) | **published** | 1,456 | 2026-08-18 |
-| 3.1.2.g | [Conflict of interest](/representation/practices-and-procedures/requirements-for-enrolled-agents/conflict-of-interest/) | **published** | 2,444 | 2026-08-18 |
-| 3.1.2.h | [Rules for refund check negotiation](/representation/practices-and-procedures/requirements-for-enrolled-agents/rules-for-refund-check-negotiation/) | **published** | 2,488 | 2026-08-18 |
-| 3.1.2.i | [Standards for written advice, covered opinions, tax return positions and preparing returns](/representation/practices-and-procedures/requirements-for-enrolled-agents/standards-for-written-advice-covered-opinions-tax-return/) | **published** | 2,499 | 2026-08-18 |
-| 3.1.2.j | [Continuing education requirements](/representation/practices-and-procedures/requirements-for-enrolled-agents/continuing-education-requirements/) | **published** | 2,483 | 2026-08-18 |
-| 3.1.2.k | [Tax shelters](/representation/practices-and-procedures/requirements-for-enrolled-agents/tax-shelters/) | **published** | 2,479 | 2026-08-18 |
-| 3.1.2.l | [Enrollment cycle and renewal](/representation/practices-and-procedures/requirements-for-enrolled-agents/enrollment-cycle-and-renewal/) | **published** | 2,489 | 2026-08-18 |
-| 3.1.2.m | [Rules for prompt disposition of matters before the IRS](/representation/practices-and-procedures/requirements-for-enrolled-agents/rules-for-prompt-disposition-of-matters-before-the-irs/) | **published** | 1,462 | 2026-08-18 |
-| 3.1.2.n | [Rules for returning a client's records and documents](/representation/practices-and-procedures/requirements-for-enrolled-agents/rules-for-returning-a-client-s-records-and-documents/) | **published** | 1,479 | 2026-08-18 |
-| 3.1.2.o | [PTIN requirements](/representation/practices-and-procedures/requirements-for-enrolled-agents/ptin-requirements/) | **published** | 2,499 | 2026-08-18 |
-| 3.1.2.p | [Practitioner supervisory responsibilities (Circular 230 Section 10.36)](/representation/practices-and-procedures/requirements-for-enrolled-agents/practitioner-supervisory-responsibilities-circular-230/) | **published** | 2,442 | 2026-08-18 |
+| 3.1.2.a | [Information to be furnished to the IRS](/representation/practices-and-procedures/requirements-for-enrolled-agents/information-to-be-furnished-to-the-irs/) | **published** | 1,566 | 2026-08-18 |
+| 3.1.2.b | [Omission or error on return, document, or affidavit](/representation/practices-and-procedures/requirements-for-enrolled-agents/omission-or-error-on-return-document-or-affidavit/) | **published** | 1,609 | 2026-08-18 |
+| 3.1.2.c | [Rules for employing or accepting assistance from former IRS employees or disbarred/suspended persons](/representation/practices-and-procedures/requirements-for-enrolled-agents/rules-for-employing-or-accepting-assistance-from-former-irs/) | **published** | 2,614 | 2026-08-18 |
+| 3.1.2.d | [Rules for restrictions on advertising, solicitation and fee information](/representation/practices-and-procedures/requirements-for-enrolled-agents/rules-for-restrictions-on-advertising-solicitation-and-fee/) | **published** | 2,617 | 2026-08-18 |
+| 3.1.2.e | [Fee rules (e.g., contingent, unconscionable)](/representation/practices-and-procedures/requirements-for-enrolled-agents/fee-rules/) | **published** | 1,672 | 2026-08-18 |
+| 3.1.2.f | [Due diligence requirements](/representation/practices-and-procedures/requirements-for-enrolled-agents/due-diligence-requirements/) | **published** | 1,551 | 2026-08-18 |
+| 3.1.2.g | [Conflict of interest](/representation/practices-and-procedures/requirements-for-enrolled-agents/conflict-of-interest/) | **published** | 2,550 | 2026-08-18 |
+| 3.1.2.h | [Rules for refund check negotiation](/representation/practices-and-procedures/requirements-for-enrolled-agents/rules-for-refund-check-negotiation/) | **published** | 2,609 | 2026-08-18 |
+| 3.1.2.i | [Standards for written advice, covered opinions, tax return positions and preparing returns](/representation/practices-and-procedures/requirements-for-enrolled-agents/standards-for-written-advice-covered-opinions-tax-return/) | **published** | 2,624 | 2026-08-18 |
+| 3.1.2.j | [Continuing education requirements](/representation/practices-and-procedures/requirements-for-enrolled-agents/continuing-education-requirements/) | **published** | 2,587 | 2026-08-18 |
+| 3.1.2.k | [Tax shelters](/representation/practices-and-procedures/requirements-for-enrolled-agents/tax-shelters/) | **published** | 2,620 | 2026-08-18 |
+| 3.1.2.l | [Enrollment cycle and renewal](/representation/practices-and-procedures/requirements-for-enrolled-agents/enrollment-cycle-and-renewal/) | **published** | 2,603 | 2026-08-18 |
+| 3.1.2.m | [Rules for prompt disposition of matters before the IRS](/representation/practices-and-procedures/requirements-for-enrolled-agents/rules-for-prompt-disposition-of-matters-before-the-irs/) | **published** | 1,570 | 2026-08-18 |
+| 3.1.2.n | [Rules for returning a client's records and documents](/representation/practices-and-procedures/requirements-for-enrolled-agents/rules-for-returning-a-client-s-records-and-documents/) | **published** | 1,590 | 2026-08-18 |
+| 3.1.2.o | [PTIN requirements](/representation/practices-and-procedures/requirements-for-enrolled-agents/ptin-requirements/) | **published** | 2,619 | 2026-08-18 |
+| 3.1.2.p | [Practitioner supervisory responsibilities (Circular 230 Section 10.36)](/representation/practices-and-procedures/requirements-for-enrolled-agents/practitioner-supervisory-responsibilities-circular-230/) | **published** | 2,544 | 2026-08-18 |
 
 **3.1.3 Sanctionable acts**
 
 | Code | Title | Status | Words | Last reviewed |
 |---|---|---|---:|---|
-| 3.1.3.a | [Incompetence and disreputable conduct that may result in a disciplinary proceeding](/representation/practices-and-procedures/sanctionable-acts/incompetence-and-disreputable-conduct-that-may-result/) | **published** | 1,874 | 2026-08-18 |
-| 3.1.3.b | [Sanctions imposed by the Office of Professional Responsibility](/representation/practices-and-procedures/sanctionable-acts/sanctions-imposed-by-the-office-of-professional/) | **published** | 1,950 | 2026-08-18 |
-| 3.1.3.c | [Frivolous submissions (returns and documents)](/representation/practices-and-procedures/sanctionable-acts/frivolous-submissions-returns-and-documents/) | **published** | 2,018 | 2026-08-18 |
-| 3.1.3.d | [Fraudulent transactions (e.g., badges of fraud)](/representation/practices-and-procedures/sanctionable-acts/fraudulent-transactions/) | **published** | 2,070 | 2026-08-18 |
+| 3.1.3.a | [Incompetence and disreputable conduct that may result in a disciplinary proceeding](/representation/practices-and-procedures/sanctionable-acts/incompetence-and-disreputable-conduct-that-may-result/) | **published** | 1,991 | 2026-08-18 |
+| 3.1.3.b | [Sanctions imposed by the Office of Professional Responsibility](/representation/practices-and-procedures/sanctionable-acts/sanctions-imposed-by-the-office-of-professional/) | **published** | 2,069 | 2026-08-18 |
+| 3.1.3.c | [Frivolous submissions (returns and documents)](/representation/practices-and-procedures/sanctionable-acts/frivolous-submissions-returns-and-documents/) | **published** | 2,168 | 2026-08-18 |
+| 3.1.3.d | [Fraudulent transactions (e.g., badges of fraud)](/representation/practices-and-procedures/sanctionable-acts/fraudulent-transactions/) | **published** | 2,186 | 2026-08-18 |
 
 **3.1.4 Rules and penalties**
 
 | Code | Title | Status | Words | Last reviewed |
 |---|---|---|---:|---|
-| 3.1.4.a | [Assessment and appeal procedures for preparer penalties](/representation/practices-and-procedures/rules-and-penalties/assessment-and-appeal-procedures-for-preparer-penalties/) | **published** | 1,974 | 2026-08-18 |
-| 3.1.4.b | [Types of penalties (e.g., negligence, substantial understatement, overvaluation)](/representation/practices-and-procedures/rules-and-penalties/types-of-penalties/) | **published** | 2,203 | 2026-08-18 |
-| 3.1.4.c | [Furnishing a copy of a return to a taxpayer](/representation/practices-and-procedures/rules-and-penalties/furnishing-a-copy-of-a-return-to-a-taxpayer/) | **published** | 1,463 | 2026-08-18 |
-| 3.1.4.d | [Signing returns and furnishing identifying numbers](/representation/practices-and-procedures/rules-and-penalties/signing-returns-and-furnishing-identifying-numbers/) | **published** | 1,546 | 2026-08-18 |
-| 3.1.4.e | [Keeping copies or lists of returns prepared](/representation/practices-and-procedures/rules-and-penalties/keeping-copies-or-lists-of-returns-prepared/) | **published** | 1,636 | 2026-08-18 |
-| 3.1.4.f | [Employees engaged or employed during a return period (e.g. IRC Section 6060)](/representation/practices-and-procedures/rules-and-penalties/employees-engaged-or-employed-during-a-return-period/) | **published** | 1,564 | 2026-08-18 |
-| 3.1.4.g | [Preparer due diligence and penalties (e.g., refundable credits, head of household status)](/representation/practices-and-procedures/rules-and-penalties/preparer-due-diligence-and-penalties/) | **published** | 1,888 | 2026-08-18 |
+| 3.1.4.a | [Assessment and appeal procedures for preparer penalties](/representation/practices-and-procedures/rules-and-penalties/assessment-and-appeal-procedures-for-preparer-penalties/) | **published** | 2,104 | 2026-08-18 |
+| 3.1.4.b | [Types of penalties (e.g., negligence, substantial understatement, overvaluation)](/representation/practices-and-procedures/rules-and-penalties/types-of-penalties/) | **published** | 2,315 | 2026-08-18 |
+| 3.1.4.c | [Furnishing a copy of a return to a taxpayer](/representation/practices-and-procedures/rules-and-penalties/furnishing-a-copy-of-a-return-to-a-taxpayer/) | **published** | 1,575 | 2026-08-18 |
+| 3.1.4.d | [Signing returns and furnishing identifying numbers](/representation/practices-and-procedures/rules-and-penalties/signing-returns-and-furnishing-identifying-numbers/) | **published** | 1,666 | 2026-08-18 |
+| 3.1.4.e | [Keeping copies or lists of returns prepared](/representation/practices-and-procedures/rules-and-penalties/keeping-copies-or-lists-of-returns-prepared/) | **published** | 1,760 | 2026-08-18 |
+| 3.1.4.f | [Employees engaged or employed during a return period (e.g. IRC Section 6060)](/representation/practices-and-procedures/rules-and-penalties/employees-engaged-or-employed-during-a-return-period/) | **published** | 1,670 | 2026-08-18 |
+| 3.1.4.g | [Preparer due diligence and penalties (e.g., refundable credits, head of household status)](/representation/practices-and-procedures/rules-and-penalties/preparer-due-diligence-and-penalties/) | **published** | 1,998 | 2026-08-18 |
 
 ### 3.2 Representation before the IRS
 
@@ -469,75 +469,75 @@ is indexed, and only the owner moves a page there (see `docs/VERIFICATION.md`).
 
 | Code | Title | Status | Words | Last reviewed |
 |---|---|---|---:|---|
-| 3.2.1.a | [Purpose of power of attorney](/representation/representation-before-the-irs/power-of-attorney/purpose-of-power-of-attorney/) | **published** | 1,449 | 2026-08-18 |
-| 3.2.1.b | [Signature authority (e.g., extension of assessment period, closing agreement)](/representation/representation-before-the-irs/power-of-attorney/signature-authority/) | **published** | 1,504 | 2026-08-18 |
-| 3.2.1.c | [Authority granted by taxpayer](/representation/representation-before-the-irs/power-of-attorney/authority-granted-by-taxpayer/) | **published** | 1,489 | 2026-08-18 |
-| 3.2.1.d | [Limitations on signing tax returns on behalf of taxpayer](/representation/representation-before-the-irs/power-of-attorney/limitations-on-signing-tax-returns-on-behalf-of-taxpayer/) | **published** | 1,590 | 2026-08-18 |
-| 3.2.1.e | [Proper completion of power of attorney (Form 2848)](/representation/representation-before-the-irs/power-of-attorney/proper-completion-of-power-of-attorney-form-2848/) | **published** | 2,499 | 2026-08-18 |
-| 3.2.1.f | [Alternate forms of power of attorney (durable)](/representation/representation-before-the-irs/power-of-attorney/alternate-forms-of-power-of-attorney-durable/) | **published** | 2,497 | 2026-08-18 |
-| 3.2.1.g | [Rules for client privacy and consent to disclose](/representation/representation-before-the-irs/power-of-attorney/rules-for-client-privacy-and-consent-to-disclose/) | **published** | 2,497 | 2026-08-18 |
-| 3.2.1.h | [Distinctions between power of attorney (Form 2848) and tax information authorization (Form 8821)](/representation/representation-before-the-irs/power-of-attorney/distinctions-between-power-of-attorney-form-2848-and-tax/) | **published** | 2,499 | 2026-08-18 |
-| 3.2.1.i | [Requirements to be met when changing or dropping representatives or withdrawal of representative](/representation/representation-before-the-irs/power-of-attorney/requirements-to-be-met-when-changing-or-dropping/) | **published** | 2,498 | 2026-08-18 |
-| 3.2.1.j | [Purpose of a Centralized Authorization File (CAF) number](/representation/representation-before-the-irs/power-of-attorney/purpose-of-a-centralized-authorization-file-caf-number/) | **published** | 2,446 | 2026-08-18 |
-| 3.2.1.k | [Conference and practice requirements (Publication 216)](/representation/representation-before-the-irs/power-of-attorney/conference-and-practice-requirements-publication-216/) | **published** | 2,499 | 2026-08-18 |
+| 3.2.1.a | [Purpose of power of attorney](/representation/representation-before-the-irs/power-of-attorney/purpose-of-power-of-attorney/) | **published** | 1,589 | 2026-08-18 |
+| 3.2.1.b | [Signature authority (e.g., extension of assessment period, closing agreement)](/representation/representation-before-the-irs/power-of-attorney/signature-authority/) | **published** | 1,649 | 2026-08-18 |
+| 3.2.1.c | [Authority granted by taxpayer](/representation/representation-before-the-irs/power-of-attorney/authority-granted-by-taxpayer/) | **published** | 1,601 | 2026-08-18 |
+| 3.2.1.d | [Limitations on signing tax returns on behalf of taxpayer](/representation/representation-before-the-irs/power-of-attorney/limitations-on-signing-tax-returns-on-behalf-of-taxpayer/) | **published** | 1,690 | 2026-08-18 |
+| 3.2.1.e | [Proper completion of power of attorney (Form 2848)](/representation/representation-before-the-irs/power-of-attorney/proper-completion-of-power-of-attorney-form-2848/) | **published** | 2,635 | 2026-08-18 |
+| 3.2.1.f | [Alternate forms of power of attorney (durable)](/representation/representation-before-the-irs/power-of-attorney/alternate-forms-of-power-of-attorney-durable/) | **published** | 2,709 | 2026-08-18 |
+| 3.2.1.g | [Rules for client privacy and consent to disclose](/representation/representation-before-the-irs/power-of-attorney/rules-for-client-privacy-and-consent-to-disclose/) | **published** | 2,642 | 2026-08-18 |
+| 3.2.1.h | [Distinctions between power of attorney (Form 2848) and tax information authorization (Form 8821)](/representation/representation-before-the-irs/power-of-attorney/distinctions-between-power-of-attorney-form-2848-and-tax/) | **published** | 2,597 | 2026-08-18 |
+| 3.2.1.i | [Requirements to be met when changing or dropping representatives or withdrawal of representative](/representation/representation-before-the-irs/power-of-attorney/requirements-to-be-met-when-changing-or-dropping/) | **published** | 2,632 | 2026-08-18 |
+| 3.2.1.j | [Purpose of a Centralized Authorization File (CAF) number](/representation/representation-before-the-irs/power-of-attorney/purpose-of-a-centralized-authorization-file-caf-number/) | **published** | 2,583 | 2026-08-18 |
+| 3.2.1.k | [Conference and practice requirements (Publication 216)](/representation/representation-before-the-irs/power-of-attorney/conference-and-practice-requirements-publication-216/) | **published** | 2,624 | 2026-08-18 |
 
 **3.2.2 Building the taxpayer’s case - Preliminary work**
 
 | Code | Title | Status | Words | Last reviewed |
 |---|---|---|---:|---|
-| 3.2.2.a | [Identification of tax issue(s) with supporting details](/representation/representation-before-the-irs/building-the-taxpayer-s-case-preliminary-work/identification-of-tax-issue-s-with-supporting-details/) | **published** | 2,457 | 2026-08-18 |
-| 3.2.2.b | [Potential for criminal aspects](/representation/representation-before-the-irs/building-the-taxpayer-s-case-preliminary-work/potential-for-criminal-aspects/) | **published** | 2,467 | 2026-08-18 |
-| 3.2.2.c | [Competence, expertise and time to handle issue](/representation/representation-before-the-irs/building-the-taxpayer-s-case-preliminary-work/competence-expertise-and-time-to-handle-issue/) | **published** | 2,331 | 2026-08-18 |
-| 3.2.2.d | [Conflict of interest in regards to representation](/representation/representation-before-the-irs/building-the-taxpayer-s-case-preliminary-work/conflict-of-interest-in-regards-to-representation/) | **published** | 2,370 | 2026-08-18 |
-| 3.2.2.e | [Transcripts from IRS (e.g., access to and use of e-services)](/representation/representation-before-the-irs/building-the-taxpayer-s-case-preliminary-work/transcripts-from-irs/) | **published** | 2,312 | 2026-08-18 |
+| 3.2.2.a | [Identification of tax issue(s) with supporting details](/representation/representation-before-the-irs/building-the-taxpayer-s-case-preliminary-work/identification-of-tax-issue-s-with-supporting-details/) | **published** | 2,582 | 2026-08-18 |
+| 3.2.2.b | [Potential for criminal aspects](/representation/representation-before-the-irs/building-the-taxpayer-s-case-preliminary-work/potential-for-criminal-aspects/) | **published** | 2,586 | 2026-08-18 |
+| 3.2.2.c | [Competence, expertise and time to handle issue](/representation/representation-before-the-irs/building-the-taxpayer-s-case-preliminary-work/competence-expertise-and-time-to-handle-issue/) | **published** | 2,465 | 2026-08-18 |
+| 3.2.2.d | [Conflict of interest in regards to representation](/representation/representation-before-the-irs/building-the-taxpayer-s-case-preliminary-work/conflict-of-interest-in-regards-to-representation/) | **published** | 2,479 | 2026-08-18 |
+| 3.2.2.e | [Transcripts from IRS (e.g., access to and use of e-services)](/representation/representation-before-the-irs/building-the-taxpayer-s-case-preliminary-work/transcripts-from-irs/) | **published** | 2,430 | 2026-08-18 |
 
 **3.2.3 Taxpayer financial situation**
 
 | Code | Title | Status | Words | Last reviewed |
 |---|---|---|---:|---|
-| 3.2.3.a | [Taxpayer's ability to pay the tax (e.g., installment agreements, offer in compromise, currently not collectible)](/representation/representation-before-the-irs/taxpayer-financial-situation/taxpayer-s-ability-to-pay-the-tax/) | **published** | 2,476 | 2026-08-19 |
-| 3.2.3.b | [General financial health (e.g., filed for bankruptcy, lawsuits, garnishments, cash flow, assets, and insolvency)](/representation/representation-before-the-irs/taxpayer-financial-situation/general-financial-health/) | **published** | 2,444 | 2026-08-19 |
-| 3.2.3.c | [Third-party research (e.g., property assessment for municipal taxes, asset values, state and local tax information)](/representation/representation-before-the-irs/taxpayer-financial-situation/third-party-research/) | **published** | 2,372 | 2026-08-19 |
-| 3.2.3.d | [Discharge of the tax liability in bankruptcy](/representation/representation-before-the-irs/taxpayer-financial-situation/discharge-of-the-tax-liability-in-bankruptcy/) | **published** | 2,454 | 2026-08-19 |
-| 3.2.3.e | [IRS Collection Financial Standards](/representation/representation-before-the-irs/taxpayer-financial-situation/irs-collection-financial-standards/) | **published** | 2,493 | 2026-08-19 |
+| 3.2.3.a | [Taxpayer's ability to pay the tax (e.g., installment agreements, offer in compromise, currently not collectible)](/representation/representation-before-the-irs/taxpayer-financial-situation/taxpayer-s-ability-to-pay-the-tax/) | **published** | 2,587 | 2026-08-19 |
+| 3.2.3.b | [General financial health (e.g., filed for bankruptcy, lawsuits, garnishments, cash flow, assets, and insolvency)](/representation/representation-before-the-irs/taxpayer-financial-situation/general-financial-health/) | **published** | 2,567 | 2026-08-19 |
+| 3.2.3.c | [Third-party research (e.g., property assessment for municipal taxes, asset values, state and local tax information)](/representation/representation-before-the-irs/taxpayer-financial-situation/third-party-research/) | **published** | 2,482 | 2026-08-19 |
+| 3.2.3.d | [Discharge of the tax liability in bankruptcy](/representation/representation-before-the-irs/taxpayer-financial-situation/discharge-of-the-tax-liability-in-bankruptcy/) | **published** | 2,577 | 2026-08-19 |
+| 3.2.3.e | [IRS Collection Financial Standards](/representation/representation-before-the-irs/taxpayer-financial-situation/irs-collection-financial-standards/) | **published** | 2,624 | 2026-08-19 |
 
 **3.2.4 Supporting documentation**
 
 | Code | Title | Status | Words | Last reviewed |
 |---|---|---|---:|---|
-| 3.2.4.a | [Financial documents and expense records (e.g., cancelled checks or equivalent, bank statements, credit card statements, receipts, brokerage records)](/representation/representation-before-the-irs/supporting-documentation/financial-documents-and-expense-records/) | **published** | 2,028 | 2026-08-19 |
-| 3.2.4.b | [Legal documents (e.g., birth certificate, divorce decrees, lawsuit settlements)](/representation/representation-before-the-irs/supporting-documentation/legal-documents/) | **published** | 2,146 | 2026-08-19 |
-| 3.2.4.c | [Prior and subsequent tax returns](/representation/representation-before-the-irs/supporting-documentation/prior-and-subsequent-tax-returns/) | **published** | 1,850 | 2026-08-19 |
-| 3.2.4.d | [Other substantive and contemporaneous documentation (e.g., corporate minutes)](/representation/representation-before-the-irs/supporting-documentation/other-substantive-and-contemporaneous-documentation/) | **published** | 2,037 | 2026-08-19 |
-| 3.2.4.e | [Business entity supporting documents (e.g., partnership agreement, corporate bylaws)](/representation/representation-before-the-irs/supporting-documentation/business-entity-supporting-documents/) | **published** | 2,139 | 2026-08-19 |
+| 3.2.4.a | [Financial documents and expense records (e.g., cancelled checks or equivalent, bank statements, credit card statements, receipts, brokerage records)](/representation/representation-before-the-irs/supporting-documentation/financial-documents-and-expense-records/) | **published** | 2,145 | 2026-08-19 |
+| 3.2.4.b | [Legal documents (e.g., birth certificate, divorce decrees, lawsuit settlements)](/representation/representation-before-the-irs/supporting-documentation/legal-documents/) | **published** | 2,276 | 2026-08-19 |
+| 3.2.4.c | [Prior and subsequent tax returns](/representation/representation-before-the-irs/supporting-documentation/prior-and-subsequent-tax-returns/) | **published** | 1,970 | 2026-08-19 |
+| 3.2.4.d | [Other substantive and contemporaneous documentation (e.g., corporate minutes)](/representation/representation-before-the-irs/supporting-documentation/other-substantive-and-contemporaneous-documentation/) | **published** | 2,169 | 2026-08-19 |
+| 3.2.4.e | [Business entity supporting documents (e.g., partnership agreement, corporate bylaws)](/representation/representation-before-the-irs/supporting-documentation/business-entity-supporting-documents/) | **published** | 2,259 | 2026-08-19 |
 
 **3.2.5 Legal authority and references**
 
 | Code | Title | Status | Words | Last reviewed |
 |---|---|---|---:|---|
-| 3.2.5.a | [Internal Revenue Code and income tax regulations](/representation/representation-before-the-irs/legal-authority-and-references/internal-revenue-code-and-income-tax-regulations/) | **published** | 2,361 | 2026-08-18 |
-| 3.2.5.b | [Revenue rulings and revenue procedures](/representation/representation-before-the-irs/legal-authority-and-references/revenue-rulings-and-revenue-procedures/) | **published** | 2,491 | 2026-08-18 |
-| 3.2.5.c | [Case law](/representation/representation-before-the-irs/legal-authority-and-references/case-law/) | **published** | 2,494 | 2026-08-18 |
-| 3.2.5.d | [IRS forms, instructions and publications](/representation/representation-before-the-irs/legal-authority-and-references/irs-forms-instructions-and-publications/) | **published** | 2,373 | 2026-08-18 |
-| 3.2.5.e | [Private letter ruling](/representation/representation-before-the-irs/legal-authority-and-references/private-letter-ruling/) | **published** | 2,313 | 2026-08-18 |
-| 3.2.5.f | [Internal Revenue Manual](/representation/representation-before-the-irs/legal-authority-and-references/internal-revenue-manual/) | **published** | 2,429 | 2026-08-18 |
-| 3.2.5.g | [Authoritative versus non-authoritative source material](/representation/representation-before-the-irs/legal-authority-and-references/authoritative-versus-non-authoritative-source-material/) | **published** | 2,364 | 2026-08-18 |
-| 3.2.5.h | [Tax treaties](/representation/representation-before-the-irs/legal-authority-and-references/tax-treaties/) | **published** | 2,456 | 2026-08-18 |
+| 3.2.5.a | [Internal Revenue Code and income tax regulations](/representation/representation-before-the-irs/legal-authority-and-references/internal-revenue-code-and-income-tax-regulations/) | **published** | 2,458 | 2026-08-18 |
+| 3.2.5.b | [Revenue rulings and revenue procedures](/representation/representation-before-the-irs/legal-authority-and-references/revenue-rulings-and-revenue-procedures/) | **published** | 2,591 | 2026-08-18 |
+| 3.2.5.c | [Case law](/representation/representation-before-the-irs/legal-authority-and-references/case-law/) | **published** | 2,606 | 2026-08-18 |
+| 3.2.5.d | [IRS forms, instructions and publications](/representation/representation-before-the-irs/legal-authority-and-references/irs-forms-instructions-and-publications/) | **published** | 2,468 | 2026-08-18 |
+| 3.2.5.e | [Private letter ruling](/representation/representation-before-the-irs/legal-authority-and-references/private-letter-ruling/) | **published** | 2,409 | 2026-08-18 |
+| 3.2.5.f | [Internal Revenue Manual](/representation/representation-before-the-irs/legal-authority-and-references/internal-revenue-manual/) | **published** | 2,538 | 2026-08-18 |
+| 3.2.5.g | [Authoritative versus non-authoritative source material](/representation/representation-before-the-irs/legal-authority-and-references/authoritative-versus-non-authoritative-source-material/) | **published** | 2,474 | 2026-08-18 |
+| 3.2.5.h | [Tax treaties](/representation/representation-before-the-irs/legal-authority-and-references/tax-treaties/) | **published** | 2,563 | 2026-08-18 |
 
 **3.2.6 Related issues**
 
 | Code | Title | Status | Words | Last reviewed |
 |---|---|---|---:|---|
-| 3.2.6.a | [Statute of limitations](/representation/representation-before-the-irs/related-issues/statute-of-limitations/) | **published** | 2,496 | 2026-08-18 |
-| 3.2.6.b | [Post-filing correspondence (e.g., math error notices, under-reporting notices)](/representation/representation-before-the-irs/related-issues/post-filing-correspondence/) | **published** | 1,814 | 2026-08-18 |
-| 3.2.6.c | [Deadlines and timeliness requirements](/representation/representation-before-the-irs/related-issues/deadlines-and-timeliness-requirements/) | **published** | 2,498 | 2026-08-18 |
-| 3.2.6.d | [Third-party correspondence (e.g., witness communications, employment records)](/representation/representation-before-the-irs/related-issues/third-party-correspondence/) | **published** | 2,498 | 2026-08-18 |
-| 3.2.6.e | [Freedom of Information Act (FOIA) requests](/representation/representation-before-the-irs/related-issues/freedom-of-information-act-foia-requests/) | **published** | 2,328 | 2026-08-18 |
-| 3.2.6.f | [Tax avoidance vs. tax evasion](/representation/representation-before-the-irs/related-issues/tax-avoidance-vs-tax-evasion/) | **published** | 2,493 | 2026-08-18 |
-| 3.2.6.g | [Tax return disclosure statements](/representation/representation-before-the-irs/related-issues/tax-return-disclosure-statements/) | **published** | 2,484 | 2026-08-18 |
-| 3.2.6.h | [Taxpayer Advocate Service (e.g., criteria for requesting assistance)](/representation/representation-before-the-irs/related-issues/taxpayer-advocate-service/) | **published** | 2,498 | 2026-08-18 |
-| 3.2.6.i | [Identity Theft](/representation/representation-before-the-irs/related-issues/identity-theft/) | **published** | 2,497 | 2026-08-18 |
-| 3.2.6.j | [Judicial levels of representation beyond the scope of EA representation](/representation/representation-before-the-irs/related-issues/judicial-levels-of-representation-beyond-the-scope-of-ea/) | **published** | 2,444 | 2026-08-18 |
+| 3.2.6.a | [Statute of limitations](/representation/representation-before-the-irs/related-issues/statute-of-limitations/) | **published** | 2,623 | 2026-08-18 |
+| 3.2.6.b | [Post-filing correspondence (e.g., math error notices, under-reporting notices)](/representation/representation-before-the-irs/related-issues/post-filing-correspondence/) | **published** | 1,941 | 2026-08-18 |
+| 3.2.6.c | [Deadlines and timeliness requirements](/representation/representation-before-the-irs/related-issues/deadlines-and-timeliness-requirements/) | **published** | 2,635 | 2026-08-18 |
+| 3.2.6.d | [Third-party correspondence (e.g., witness communications, employment records)](/representation/representation-before-the-irs/related-issues/third-party-correspondence/) | **published** | 2,613 | 2026-08-18 |
+| 3.2.6.e | [Freedom of Information Act (FOIA) requests](/representation/representation-before-the-irs/related-issues/freedom-of-information-act-foia-requests/) | **published** | 2,458 | 2026-08-18 |
+| 3.2.6.f | [Tax avoidance vs. tax evasion](/representation/representation-before-the-irs/related-issues/tax-avoidance-vs-tax-evasion/) | **published** | 2,627 | 2026-08-18 |
+| 3.2.6.g | [Tax return disclosure statements](/representation/representation-before-the-irs/related-issues/tax-return-disclosure-statements/) | **published** | 2,615 | 2026-08-18 |
+| 3.2.6.h | [Taxpayer Advocate Service (e.g., criteria for requesting assistance)](/representation/representation-before-the-irs/related-issues/taxpayer-advocate-service/) | **published** | 2,619 | 2026-08-18 |
+| 3.2.6.i | [Identity Theft](/representation/representation-before-the-irs/related-issues/identity-theft/) | **published** | 2,610 | 2026-08-18 |
+| 3.2.6.j | [Judicial levels of representation beyond the scope of EA representation](/representation/representation-before-the-irs/related-issues/judicial-levels-of-representation-beyond-the-scope-of-ea/) | **published** | 2,563 | 2026-08-18 |
 
 ### 3.3 Specific Types of Representation
 
@@ -566,35 +566,35 @@ is indexed, and only the owner moves a page there (see `docs/VERIFICATION.md`).
 
 | Code | Title | Status | Words | Last reviewed |
 |---|---|---|---:|---|
-| 3.3.2.a | [Penalties subject to abatement](/representation/specific-types-of-representation/penalties-and-or-interest-abatement/penalties-subject-to-abatement/) | **published** | 1,625 | 2026-08-18 |
-| 3.3.2.b | [Basis for having penalties abated or refunded](/representation/specific-types-of-representation/penalties-and-or-interest-abatement/basis-for-having-penalties-abated-or-refunded/) | **published** | 1,586 | 2026-08-18 |
-| 3.3.2.c | [Basis for having interest abated or refunded](/representation/specific-types-of-representation/penalties-and-or-interest-abatement/basis-for-having-interest-abated-or-refunded/) | **published** | 2,497 | 2026-08-18 |
-| 3.3.2.d | [Interest recalculation](/representation/specific-types-of-representation/penalties-and-or-interest-abatement/interest-recalculation/) | **published** | 2,500 | 2026-08-18 |
-| 3.3.2.e | [Procedures for requesting abatement](/representation/specific-types-of-representation/penalties-and-or-interest-abatement/procedures-for-requesting-abatement/) | **published** | 2,498 | 2026-08-18 |
+| 3.3.2.a | [Penalties subject to abatement](/representation/specific-types-of-representation/penalties-and-or-interest-abatement/penalties-subject-to-abatement/) | **published** | 1,752 | 2026-08-18 |
+| 3.3.2.b | [Basis for having penalties abated or refunded](/representation/specific-types-of-representation/penalties-and-or-interest-abatement/basis-for-having-penalties-abated-or-refunded/) | **published** | 1,808 | 2026-08-18 |
+| 3.3.2.c | [Basis for having interest abated or refunded](/representation/specific-types-of-representation/penalties-and-or-interest-abatement/basis-for-having-interest-abated-or-refunded/) | **published** | 2,615 | 2026-08-18 |
+| 3.3.2.d | [Interest recalculation](/representation/specific-types-of-representation/penalties-and-or-interest-abatement/interest-recalculation/) | **published** | 2,621 | 2026-08-18 |
+| 3.3.2.e | [Procedures for requesting abatement](/representation/specific-types-of-representation/penalties-and-or-interest-abatement/procedures-for-requesting-abatement/) | **published** | 2,608 | 2026-08-18 |
 
 **3.3.3 Representing a taxpayer in audits/examinations**
 
 | Code | Title | Status | Words | Last reviewed |
 |---|---|---|---:|---|
-| 3.3.3.a | [IRS authority to investigate](/representation/specific-types-of-representation/representing-a-taxpayer-in-audits-examinations/irs-authority-to-investigate/) | **published** | 2,484 | 2026-08-18 |
-| 3.3.3.b | [Limited practitioner privilege (e.g., IRC Section 7525)](/representation/specific-types-of-representation/representing-a-taxpayer-in-audits-examinations/limited-practitioner-privilege/) | **published** | 2,358 | 2026-08-18 |
-| 3.3.3.c | [Verification and substantiation of entries on the return](/representation/specific-types-of-representation/representing-a-taxpayer-in-audits-examinations/verification-and-substantiation-of-entries-on-the-return/) | **published** | 2,485 | 2026-08-18 |
-| 3.3.3.d | [IRS authority to fix time and place of investigation](/representation/specific-types-of-representation/representing-a-taxpayer-in-audits-examinations/irs-authority-to-fix-time-and-place-of-investigation/) | **published** | 2,498 | 2026-08-18 |
-| 3.3.3.e | [Steps in the process (e.g., initial meeting, submission of IRS requested information)](/representation/specific-types-of-representation/representing-a-taxpayer-in-audits-examinations/steps-in-the-process/) | **published** | 2,495 | 2026-08-18 |
-| 3.3.3.f | [Interpretation and analysis of Revenue Agent Report (RAR) (e.g., 30-day letter)](/representation/specific-types-of-representation/representing-a-taxpayer-in-audits-examinations/interpretation-and-analysis-of-revenue-agent-report-rar/) | **published** | 2,500 | 2026-08-18 |
-| 3.3.3.g | [Interpretation and analysis of CP-2000 notice and correspondence audits](/representation/specific-types-of-representation/representing-a-taxpayer-in-audits-examinations/interpretation-and-analysis-of-cp-2000-notice/) | **published** | 1,683 | 2026-08-18 |
-| 3.3.3.h | [Explanations of taxpayer options (e.g. agree or appeal)](/representation/specific-types-of-representation/representing-a-taxpayer-in-audits-examinations/explanations-of-taxpayer-options/) | **published** | 2,489 | 2026-08-18 |
-| 3.3.3.i | [Taxpayer’s burden of proof](/representation/specific-types-of-representation/representing-a-taxpayer-in-audits-examinations/taxpayer-s-burden-of-proof/) | **published** | 2,392 | 2026-08-18 |
+| 3.3.3.a | [IRS authority to investigate](/representation/specific-types-of-representation/representing-a-taxpayer-in-audits-examinations/irs-authority-to-investigate/) | **published** | 2,587 | 2026-08-18 |
+| 3.3.3.b | [Limited practitioner privilege (e.g., IRC Section 7525)](/representation/specific-types-of-representation/representing-a-taxpayer-in-audits-examinations/limited-practitioner-privilege/) | **published** | 2,461 | 2026-08-18 |
+| 3.3.3.c | [Verification and substantiation of entries on the return](/representation/specific-types-of-representation/representing-a-taxpayer-in-audits-examinations/verification-and-substantiation-of-entries-on-the-return/) | **published** | 2,592 | 2026-08-18 |
+| 3.3.3.d | [IRS authority to fix time and place of investigation](/representation/specific-types-of-representation/representing-a-taxpayer-in-audits-examinations/irs-authority-to-fix-time-and-place-of-investigation/) | **published** | 2,600 | 2026-08-18 |
+| 3.3.3.e | [Steps in the process (e.g., initial meeting, submission of IRS requested information)](/representation/specific-types-of-representation/representing-a-taxpayer-in-audits-examinations/steps-in-the-process/) | **published** | 2,607 | 2026-08-18 |
+| 3.3.3.f | [Interpretation and analysis of Revenue Agent Report (RAR) (e.g., 30-day letter)](/representation/specific-types-of-representation/representing-a-taxpayer-in-audits-examinations/interpretation-and-analysis-of-revenue-agent-report-rar/) | **published** | 2,613 | 2026-08-18 |
+| 3.3.3.g | [Interpretation and analysis of CP-2000 notice and correspondence audits](/representation/specific-types-of-representation/representing-a-taxpayer-in-audits-examinations/interpretation-and-analysis-of-cp-2000-notice/) | **published** | 1,794 | 2026-08-18 |
+| 3.3.3.h | [Explanations of taxpayer options (e.g. agree or appeal)](/representation/specific-types-of-representation/representing-a-taxpayer-in-audits-examinations/explanations-of-taxpayer-options/) | **published** | 2,602 | 2026-08-18 |
+| 3.3.3.i | [Taxpayer’s burden of proof](/representation/specific-types-of-representation/representing-a-taxpayer-in-audits-examinations/taxpayer-s-burden-of-proof/) | **published** | 2,494 | 2026-08-18 |
 
 **3.3.4 Representing a taxpayer before appeals**
 
 | Code | Title | Status | Words | Last reviewed |
 |---|---|---|---:|---|
-| 3.3.4.a | [Right to appeal](/representation/specific-types-of-representation/representing-a-taxpayer-before-appeals/right-to-appeal/) | **published** | 2,416 | 2026-08-19 |
-| 3.3.4.b | [Request for appeals consideration (e.g., preparation, elements contained)](/representation/specific-types-of-representation/representing-a-taxpayer-before-appeals/request-for-appeals-consideration/) | **published** | 2,212 | 2026-08-19 |
-| 3.3.4.c | [Enrolled Agent appearance at appeals conference](/representation/specific-types-of-representation/representing-a-taxpayer-before-appeals/enrolled-agent-appearance-at-appeals-conference/) | **published** | 2,301 | 2026-08-19 |
-| 3.3.4.d | [Settlement function of the appeals process](/representation/specific-types-of-representation/representing-a-taxpayer-before-appeals/settlement-function-of-the-appeals-process/) | **published** | 2,352 | 2026-08-19 |
-| 3.3.4.e | [Issuance of 90-day letter](/representation/specific-types-of-representation/representing-a-taxpayer-before-appeals/issuance-of-90-day-letter/) | **published** | 2,354 | 2026-08-19 |
+| 3.3.4.a | [Right to appeal](/representation/specific-types-of-representation/representing-a-taxpayer-before-appeals/right-to-appeal/) | **published** | 2,531 | 2026-08-19 |
+| 3.3.4.b | [Request for appeals consideration (e.g., preparation, elements contained)](/representation/specific-types-of-representation/representing-a-taxpayer-before-appeals/request-for-appeals-consideration/) | **published** | 2,326 | 2026-08-19 |
+| 3.3.4.c | [Enrolled Agent appearance at appeals conference](/representation/specific-types-of-representation/representing-a-taxpayer-before-appeals/enrolled-agent-appearance-at-appeals-conference/) | **published** | 2,397 | 2026-08-19 |
+| 3.3.4.d | [Settlement function of the appeals process](/representation/specific-types-of-representation/representing-a-taxpayer-before-appeals/settlement-function-of-the-appeals-process/) | **published** | 2,468 | 2026-08-19 |
+| 3.3.4.e | [Issuance of 90-day letter](/representation/specific-types-of-representation/representing-a-taxpayer-before-appeals/issuance-of-90-day-letter/) | **published** | 2,468 | 2026-08-19 |
 
 ### 3.4 Completion of the Filing Process
 

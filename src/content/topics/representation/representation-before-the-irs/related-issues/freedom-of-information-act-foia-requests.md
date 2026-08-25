@@ -18,7 +18,12 @@ forms: []
 related: ["3.2.6.a", "3.2.6.j", "3.3.3.f", "3.2.6.h", "3.2.6.i", "3.2.5.f"]
 changelog:
   - { date: "2026-08-18", summary: "Initial publication from 5 U.S.C. § 552, Reg. § 601.702, the IRS FOIA guidelines page last reviewed 28 June 2026, and IRC § 6103." }
+  - { date: "2026-08-25", summary: "Added a plain-language summary, glossary marks, and typed scenarios." }
 ---
+
+<div class="plain-terms">
+A FOIA request is a written way to ask the IRS for copies of records it already has, such as your own audit file. It matters most to someone building a case, less to someone who just wants to know why a decision was made — FOIA gets you papers, not a reason. It does not make the IRS do new research, answer a question, or hand over someone else's tax return. What it decides is smaller than most people expect: which records exist, which parts of them can legally be shown, and how fast the IRS must reply. A vague request gets sent back unanswered, while a request naming the exact year and file usually gets results. Knowing these limits up front can save weeks of waiting for nothing.
+</div>
 
 A FOIA request is the practical way to see what the IRS has: the examination file, the workpapers, the administrative record behind a determination. It is also a statute with hard edges. It reaches **existing records** and does not require the IRS to create one; it yields whatever is not covered by an exemption; and it is not a route around IRC § 6103, which is itself an exemption. Knowing what a request will and will not produce is most of the skill.
 
@@ -70,25 +75,25 @@ Two consequences the IRS states plainly. A request for "all tax records pertaini
 
 **Look in the FOIA Library first.** Records requested three or more times, and previously released records likely to be sought again, are published. So are staff manuals affecting the public and adopted statements of policy. Checking there costs nothing and sometimes ends the enquiry.
 
-<div class="scenario">
+<div class="scenario" data-type="fails">
 <h3>The request that was returned</h3>
-<p>Preparing for an Appeals conference, a representative sends a FOIA request for "all documents, records and files relating to my client." Six weeks later it comes back unprocessed.</p>
+<p>Preparing for an {gloss:appeals} conference, a representative sends a FOIA request for "all documents, records and files relating to my client." Six weeks later it comes back unprocessed.</p>
 <p><em>Analysis.</em> The request did not reasonably describe the records. The IRS states that a request for all tax records pertaining to the requester does not clearly define what is needed and will be returned without processing or rescoped by contact. The representative should have asked for the examination file for the specific tax years, naming the workpapers and any transcripts wanted, and should re-file that way — with the Appeals timetable now six weeks shorter.</p>
 </div>
 
-<div class="scenario">
+<div class="scenario" data-type="interaction">
 <h3>The partner's file</h3>
-<p>A client's examination turns on allocations from a partnership in which he holds a small interest. The representative files a FOIA request for the partnership's examination file, reasoning that his client is a partner and the adjustments flow to him.</p>
+<p>A client's examination turns on allocations from a {gloss:partnership-entity} in which he holds a small interest. The representative files a FOIA request for the partnership's examination file, reasoning that his client is a partner and the adjustments flow to him.</p>
 <p><em>Analysis.</em> The request will fail as to return information. FOIA Exemption 3 incorporates statutes that restrict availability, and the IRS names IRC § 6103 as its example — returns and return information may not be disclosed unless § 6103 authorises it. The partner's interest does not convert the partnership's return information into his own for FOIA purposes. Any entitlement he has runs through § 6103 itself, not through the FOIA.</p>
 </div>
 
-<div class="scenario">
+<div class="scenario" data-type="procedural">
 <h3>The blanket refusal</h3>
 <p>A representative requests an examination file. The IRS responds that the file contains information compiled for law enforcement purposes and declines to produce any of it.</p>
 <p><em>Analysis.</em> Not a complete answer, and worth appealing. An entire record is not exempt because part of it qualifies: any reasonably segregable portion must be released after the exempt portions are deleted, with the amount deleted and the exemption relied on indicated on the released record. The appeal should say so, and must be postmarked within the window in the figures table. The letter need not argue the merits at all — stating that the denial is appealed is sufficient — but arguing segregability is the point here.</p>
 </div>
 
-<div class="scenario">
+<div class="scenario" data-type="boundary">
 <h3>The emailed signature</h3>
 <p>An enrolled agent emails a carefully scoped FOIA request for a client's examination file, signed with a scanned image of her signature and accompanied by a copy of her driver's licence.</p>
 <p><em>Analysis.</em> The identity requirement is not met. The IRS states that stamped and digital signatures are unacceptable for establishing identity; the request must be signed by hand with a copy of signature-bearing photo identification, or supported by a notarised statement, or by a sworn statement under penalty of perjury meeting 28 U.S.C. § 1746. The § 1746 route is the one that works without posting a wet-ink document, and it requires the statutory wording exactly.</p>

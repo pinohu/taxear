@@ -17,7 +17,18 @@ forms: []
 related: ["3.1.4.e", "3.1.4.d", "3.1.4.b", "3.1.2.h"]
 changelog:
   - { date: "2026-08-18", summary: "Initial publication from IRC §§ 6060, 6695(e) and Reg. § 1.6060-1." }
+  - { date: "2026-08-25", summary: "Added a plain-language summary, glossary marks, and typed scenarios." }
 ---
+
+<div class="plain-terms">
+This page is about a rule for anyone who employs a signing tax preparer, such as a tax firm
+or a solo preparer working alone. It does not ask you to file anything with the IRS. Instead,
+it asks you to keep a simple record listing each preparer's name, ID number, and main work
+location, and to show that record if the IRS ever asks. A solo preparer with no staff still
+counts as their own employer under this rule, so the rule reaches them too. It affects the
+recordkeeping habits of tax practices. It does not change how any client's return gets
+prepared or taxed.
+</div>
 
 This is the outline item most likely to be answered from the statute and got wrong. Section 6060 says a person who employs preparers "shall make a return" listing them, filed by 31 July. The regulation says something different — keep a record and produce it on request — because the Secretary exercised the alternative-reporting power the statute grants. **Nothing is filed.** A candidate who answers from § 6060(a) alone will describe a filing obligation that does not exist in practice.
 
@@ -55,19 +66,19 @@ Partnerships are inside it twice over. The partnership is the employer of its pa
 
 Note the scope word. The regulation speaks of **signing** tax return preparers throughout. A firm employing non-signing preparers — reviewers, researchers, staff who prepare substantial portions without signing — is not required by § 1.6060-1 to record them, though other obligations may reach them. The statute's broader "tax return preparer" is narrowed by the regulation to the people who sign.
 
-<div class="scenario">
+<div class="scenario" data-type="baseline">
 <h3>The firm that filed nothing and was right</h3>
-<p>A ten-person practice has never filed anything on 31 July. During an examination the agent asks how it complies with section 6060. The office manager produces a spreadsheet listing every preparer employed since 2023 with PTINs and office locations.</p>
+<p>A ten-person practice has never filed anything on 31 July. During an examination the agent asks how it complies with section 6060. The office manager produces a spreadsheet listing every preparer employed since 2023 with {gloss:ptin}s and office locations.</p>
 <p><em>Analysis.</em> Compliant, provided the spreadsheet distinguishes preparers from other staff on its face. Section 6060(b) let the Secretary approve an alternative reporting method, and Reg. § 1.6060-1(a)(1) substituted a retained record for the filed return. Nothing is due on 31 July. The examinable question is whether the record identifies the preparers and is produced on request.</p>
 </div>
 
-<div class="scenario">
+<div class="scenario" data-type="fails">
 <h3>The payroll report that did not distinguish</h3>
 <p>Asked for its § 6060 record, a firm produces the payroll register for each return period. It lists everyone the firm paid — preparers, administrative staff, the receptionist — with names and addresses but no role.</p>
-<p><em>Analysis.</em> Insufficient. Reg. § 1.6060-1(a)(3) allows any form of documentation, but the record "must disclose on its face which individuals were employed as tax return preparers during that period". A register from which the preparers cannot be identified without outside knowledge fails. The penalty under § 6695(e) applies, capped per return period.</p>
+<p><em>Analysis.</em> Insufficient. Reg. § 1.6060-1(a)(3) allows any form of documentation, but the record "must disclose on its face which individuals were employed as tax return preparers during that period". A register from which the preparers cannot be identified without outside knowledge fails. This {gloss:preparer-penalty} applies under § 6695(e), capped per return period.</p>
 </div>
 
-<div class="scenario">
+<div class="scenario" data-type="boundary">
 <h3>The sole practitioner who employed nobody</h3>
 <p>An enrolled agent works alone, signs every return himself, and employs no one. He keeps no § 6060 record, reasoning that the section applies to employers.</p>
 <p><em>Analysis.</em> He is inside it. Both IRC § 6060(a) and Reg. § 1.6060-1(a)(5)(i) treat an individual acting as a signing preparer who is not employed by another preparer as his own employer, so he must retain a record about himself — name, identifying number and principal place of work — for three years after the close of each return period. Employing nobody is not an exemption.</p>

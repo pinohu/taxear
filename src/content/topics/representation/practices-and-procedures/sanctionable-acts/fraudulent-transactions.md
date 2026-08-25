@@ -21,7 +21,18 @@ forms: []
 related: ["3.1.3.a", "3.1.3.c", "3.3.2.a", "3.1.2.b"]
 changelog:
   - { date: "2026-08-18", summary: "Initial publication from IRC §§ 6663, 6651(f), 6501(c)(1), 7201, 7206 and IRM 25.1.1, 25.1.2." }
+  - { date: "2026-08-25", summary: "Added a plain-language summary, glossary marks, and typed scenarios." }
 ---
+
+<div class="plain-terms">
+This page is about the line between legal tax planning and tax fraud. It matters to any taxpayer
+who worries that smart planning could look like a crime. Planning ahead, in the open, to pay less
+tax is fully legal. Fraud means lying, hiding facts, or faking records on purpose. It is done to
+dodge tax you know you owe. The IRS looks for warning signs, but a warning sign alone is not
+proof. Agents still need real proof of an act meant to deceive. This page explains what counts as
+a warning sign, what counts as real proof, and what a preparer must do after finding a client's
+old return was dishonest.
+</div>
 
 Fraud is not aggressive tax planning that went badly. The IRS defines it as deception by misrepresentation of material facts, or silence where good faith requires speech, and tax fraud as an intentional wrongdoing with the specific purpose of evading a tax known or believed to be owing (IRM 25.1.1.3). Two elements, both required: a **tax due and owing**, and **fraudulent intent**. A practitioner who understands only that sentence already knows more than most of what the exam tests.
 
@@ -64,19 +75,19 @@ Note the asymmetry in § 6663(b). The government proves fraud as to a part; the 
 
 For the practitioner, three lines matter. **Section 7206(2) does not require the client's knowledge or consent** — a preparer can be criminally liable on a return the client believed honest. Circular 230 § 10.51(a)(7) makes willfully assisting or counselling a client in violating a federal tax law disreputable conduct. And § 10.21 requires a practitioner who knows a client has not complied, or has made an error or omission, to advise the client promptly of the fact and of the consequences — the obligation is to inform, not to correct the return without instruction and not to disclose to the IRS.
 
-<div class="scenario">
+<div class="scenario" data-type="baseline">
 <h3>The deposits that were a loan</h3>
 <p>An examiner finds bank deposits of $180,000 against reported income of $95,000 and raises fraud. The excess is a loan from the taxpayer's brother, documented only by a note the brother wrote at the time.</p>
-<p><em>Analysis.</em> Deposits substantially exceeding reported income are an <em>indicator</em> under IRM 25.1.2.3, not an affirmative act. Fraud cannot be established without an affirmative act (IRM 25.1.1.4), and the government carries clear and convincing evidence throughout. The representative's task is to produce the note and the brother, converting an unexplained deposit into an explained one. Producing it promptly also avoids adding a conduct indicator to the file.</p>
+<p><em>Analysis.</em> Deposits substantially exceeding reported income are {gloss:badges-of-fraud} under IRM 25.1.2.3, not an affirmative act. Fraud cannot be established without an affirmative act (IRM 25.1.1.4), and the government carries clear and convincing evidence throughout. The representative's task is to produce the note and the brother, converting an unexplained deposit into an explained one. Producing it promptly also avoids adding a conduct indicator to the file.</p>
 </div>
 
-<div class="scenario">
+<div class="scenario" data-type="interaction">
 <h3>Part fraudulent, whole underpayment</h3>
 <p>An examination establishes that one deduction of $30,000 was fabricated. Three other adjustments, totalling $70,000, are ordinary disagreements about substantiation and timing. The total underpayment is $100,000.</p>
-<p><em>Analysis.</em> Section 6663(b) treats the entire $100,000 underpayment as attributable to fraud once the Secretary establishes that any portion is. The taxpayer may carve out the other $70,000, but must establish by a preponderance that it is not attributable to fraud, item by item. Practically, the fabricated deduction has put a seventy-five percent penalty on adjustments that are merely contested — which is why conceding a fabricated item cheaply is rarely cheap.</p>
+<p><em>Analysis.</em> Section 6663(b), which imposes the {gloss:civil-fraud-penalty}, treats the entire $100,000 underpayment as attributable to fraud once the Secretary establishes that any portion is. The taxpayer may carve out the other $70,000, but must establish by a preponderance that it is not attributable to fraud, item by item. Practically, the fabricated deduction has put a seventy-five percent penalty on adjustments that are merely contested — which is why conceding a fabricated item cheaply is rarely cheap.</p>
 </div>
 
-<div class="scenario">
+<div class="scenario" data-type="fails">
 <h3>The preparer who was told nothing</h3>
 <p>A preparer notices that a client's Schedule C gross receipts have fallen by half while the client's lifestyle has not changed. The client says business is slow. The preparer files the return as given. A year later the omitted receipts surface.</p>
 <p><em>Analysis.</em> On these facts the preparer neither knew nor willfully assisted, so § 7206(2) — which requires willfulness — is not engaged, and neither is § 10.51(a)(7). But the moment the preparer <em>knows</em> the client has not complied, Circular 230 § 10.21 requires prompt advice to the client of the noncompliance and its consequences. It does not require the practitioner to tell the IRS, and it does not authorise amending without instruction. Failure to make full disclosure of relevant facts to the preparer is itself on the IRM's conduct list — an indicator pointing at the client, not the preparer.</p>

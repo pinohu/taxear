@@ -18,7 +18,20 @@ forms: []
 related: ["3.2.6.a", "3.2.6.d", "3.3.3.h"]
 changelog:
   - { date: "2026-08-18", summary: "Initial publication from IRC §§ 7502, 7503 and 7508A and the IRS private delivery services page, each opened at source." }
+  - { date: "2026-08-25", summary: "Added a plain-language summary, a timeline diagram of the deadline rules, a glossary mark, and typed scenarios." }
+diagram:
+  archetype: "timeline"
+  caption: "Whether a filing counts as on time, step by step"
+  events:
+    - { when: "Postmarked and mailed within the deadline", what: "Deemed filed that day — if postage prepaid, properly addressed, and by US mail or a designated private service" }
+    - { when: "Deadline falls on a weekend or DC holiday", what: "Moves to the next day that is none of those" }
+    - { when: "A federally declared disaster hits", what: "120 days added automatically for a qualified taxpayer; more if the IRS specifies a longer period" }
+    - { when: "Filing goes to any court but the Tax Court", what: "The mailing rule does not apply — the filing must actually arrive by the deadline" }
 ---
+
+<div class="plain-terms">
+This page covers the rules for deciding whether something you mailed to the IRS on time actually counts as on time. It affects anyone who files a return, sends a payment, or asks a court to hear a tax dispute. It does not decide how much tax you owe, only whether a filing arrived in time. The rules decide three things: whether a postmark saves you when the actual delivery is late, what happens when a deadline lands on a weekend or holiday, and when a disaster buys extra time to file. They also mark one sharp line: the mail rule protects filings sent to the Tax Court, but not filings sent to any other federal court. Picking the right mailing method, the right address, and the right court often matters more than the date on the calendar.
+</div>
 
 Almost every deadline problem a representative meets is one of three: an item mailed on time but the wrong way, a deadline that fell on a weekend, or a client who assumes a disaster postponement applies when it does not. The statutory answers are short and precise, and the precision is where cases are lost. **Timely mailing is timely filing — but only on the statute's terms.**
 
@@ -74,25 +87,25 @@ Almost every deadline problem a representative meets is one of three: an item ma
 
 **The two disaster branches stack.** Section 7508A(e)(5) makes the mandatory period "in addition to (or concurrent with, as the case may be)" any period the Secretary specifies, so a client may have both — and where multiple declarations relate to the same area within 120 days, a **separate** period is computed for each.
 
-<div class="scenario">
+<div class="scenario" data-type="procedural">
 <h3>The petition posted on the last day</h3>
-<p>A representative mails a Tax Court petition by ordinary first-class post on the ninetieth day. It arrives four days later. The Tax Court questions its timeliness and the representative has only a photocopy of the petition.</p>
+<p>A representative mails a {gloss:tax-court} petition by ordinary first-class post on the ninetieth day. It arrives four days later. The Tax Court questions its timeliness and the representative has only a photocopy of the petition.</p>
 <p><em>Analysis.</em> The petition may well be timely — the Tax Court is expressly inside IRC § 7502 and a postmark within the period is deemed the filing date — but the representative cannot prove it. Ordinary mail produces no record of the postmark date. Registered mail would have made registration prima facie evidence of delivery and fixed the registration date as the postmark date; certified mail is treated similarly by regulation. The lesson is evidential, and the deadline is the one that cannot be extended.</p>
 </div>
 
-<div class="scenario">
+<div class="scenario" data-type="fails">
 <h3>The refund suit that was not filed</h3>
 <p>A client's two-year period to bring a refund suit expires on a Friday. The representative sends the complaint to the U.S. District Court by certified mail on the Thursday. It is received the following Tuesday.</p>
 <p><em>Analysis.</em> Out of time. IRC § 7502(d)(1) excludes the filing of a document in any court <em>other than the Tax Court</em> from the timely-mailing rule, so the certified mail postmark is irrelevant and the complaint was filed on receipt. Certified mail is the right habit and the wrong protection here. A District Court filing has to be in the clerk's hands, or filed electronically under that court's rules, by the deadline.</p>
 </div>
 
-<div class="scenario">
+<div class="scenario" data-type="interaction">
 <h3>The overnight service that was not designated</h3>
 <p>Facing an extended filing deadline, a practitioner sends a paper return by a courier's ground service with next-day guaranteed delivery, keeping the tracking record showing pickup a day before the deadline. The return is delivered two days after the deadline because of a depot delay.</p>
 <p><em>Analysis.</em> No protection. IRC § 7502(f) applies only to a <em>designated delivery service</em>, and the IRS designates specific named services rather than carriers. A ground product not on the list gets nothing from § 7502, however good the tracking, so the return was filed on the day it arrived. Check the service name against the current list, and note that a designated service goes to the processing centre's street address, not a PO box.</p>
 </div>
 
-<div class="scenario">
+<div class="scenario" data-type="boundary">
 <h3>The client outside the disaster area</h3>
 <p>A hurricane strikes a neighbouring state. A client's business is untouched, but her bookkeeper and every accounting record for the year under examination are in the declared area and inaccessible. She assumes she has no relief.</p>
 <p><em>Analysis.</em> She may well qualify. IRC § 7508A(e)(2)(D) defines a qualified taxpayer to include "any taxpayer whose <em>records</em> necessary to meet a deadline for an act described in section 7508(a)(1) are maintained in a disaster area." Location of the taxpayer is one route in; location of the records is another. The mandatory 120-day period runs from the earliest incident date in the declaration to 120 days after the later of that date or the declaration date, and it stacks with any period the Secretary specifies.</p>

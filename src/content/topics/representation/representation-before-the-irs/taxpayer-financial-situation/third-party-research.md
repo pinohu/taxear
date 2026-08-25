@@ -19,7 +19,18 @@ forms: ["433-A", "433-B"]
 related: ["3.2.3.a", "3.2.3.b", "3.2.6.d"]
 changelog:
   - { date: "2026-08-19", summary: "Initial draft against IRM 5.15.1.6 as revised 29 June 2026." }
+  - { date: "2026-08-25", summary: "Added a plain-language summary, glossary marks, and typed scenarios." }
 ---
+
+<div class="plain-terms">
+This page explains where the IRS looks for facts about a taxpayer before it ever asks them
+anything. It affects anyone under IRS collection action, and anyone who helps them prepare a
+financial statement. It does not apply where no balance is owed, or once a case is closed. The
+IRS checks public records first: property records, car registrations, credit reports, and online
+search tools. It looks for homes, cars, and accounts a taxpayer did not list. Doing that same
+check before filing changes the outcome. A gap found by the taxpayer's own side can be fixed. A
+gap found first by the IRS reads as something hidden on purpose.
+</div>
 
 ## The rule
 
@@ -102,7 +113,7 @@ residence outside the United States, FATCA data research follows, checking wheth
 filed and retrieving the return if so. A client with foreign accounts should be told this before
 the statement is signed.
 
-<div class="scenario">
+<div class="scenario" data-type="interaction">
 <h3>The property in the LLC's name</h3>
 
 Anselm Kirchhoff's Form 433-A lists no real property. He owns his home through a single-member
@@ -110,14 +121,14 @@ LLC formed years earlier on a lawyer's advice, and genuinely does not think of i
 
 Before submitting, his representative searches the county assessment roll by the LLC name as well
 as by Kirchhoff's own — exactly what IRM 5.15.1.6 directs the revenue officer to do — and finds
-the house. A single-member LLC is disregarded for federal tax purposes and the equity is
+the house. A single-member LLC is a {gloss:disregarded-entity} for federal tax purposes and the equity is
 Kirchhoff's; had the statement gone in as drafted, the revenue officer would have found the
 property in the ordinary course and the case would have proceeded on the assumption that the
 omission was deliberate. Disclosing it, valuing it, and addressing the mortgage priority produced
 a slower but survivable case. The five minutes of searching were the whole difference.
 </div>
 
-<div class="scenario">
+<div class="scenario" data-type="procedural">
 <h3>The trailer that led to the boat</h3>
 
 Wilhelmina Sørensen declares one vehicle. A state motor vehicle search by her representative turns
@@ -132,11 +143,11 @@ different answer than the statement gave — would have converted an ordinary co
 one worked on the assumption of concealment.
 </div>
 
-<div class="scenario">
+<div class="scenario" data-type="fails">
 <h3>The state lien nobody mentioned</h3>
 
-Fernão Oduya's business owes federal employment tax. His representative proposes an installment
-agreement computed from the federal balance alone. Two months in, the state revenue department
+Fernão Oduya's business owes federal employment tax. His representative proposes an {gloss:installment-agreement}
+computed from the federal balance alone. Two months in, the state revenue department
 levies the operating account for an older sales tax liability, and the agreement defaults on the
 first missed payment.
 

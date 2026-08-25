@@ -28,7 +28,19 @@ forms: ["1023", "1023-EZ", "1024", "1024-A", "8976", "8940", "SS-4"]
 related: ["2.3.2.a", "2.3.2.c", "2.3.2.d", "2.1.1.f"]
 changelog:
   - { date: "2026-08-21", summary: "Initial draft. Sets out which form goes with which paragraph of IRC § 501(c) under Rev. Proc. 2026-5 § 6.06, the 15-month notice of Treas. Reg. § 1.508-1(a)(2) extended by the automatic 12 months of Treas. Reg. § 301.9100-2(a)(2)(iv) to make 27, the effective-date consequence of missing it, the Form 1023-EZ eligibility worksheet, the separate IRC § 506 Form 8976 notice for social welfare organisations, the 2026 user fee schedule, the 30-day protest of a proposed adverse determination, and IRC § 6104 public inspection." }
+  - { date: "2026-08-25", summary: "Added a plain-language summary, typed the three scenarios, and marked one glossary term." }
 ---
+
+<div class="plain-terms">
+This page explains how a nonprofit becomes officially tax-exempt with the IRS, and why timing
+matters as much as paperwork. It affects new nonprofits deciding when to apply, and the people who
+help them file. Some groups, mainly charities, only get the tax break on donations if they apply
+within a set window after they form. Miss that window, and the nonprofit is still exempt going
+forward. But it was a taxable business before it filed, and earlier gifts to it were not
+deductible. Other kinds of nonprofits do not have to apply at all, unless they want written proof
+from the IRS. This page shows which form fits which group, what the real deadline is, and what
+happens when a group misses it.
+</div>
 
 Almost every question about applying for exemption is really a question about a date. The form is
 chosen by the paragraph of IRC § 501(c) the organisation fits, and the choice is mechanical. The
@@ -121,7 +133,7 @@ route to court, but only after exhaustion, and the deemed-exhaustion date is 270
 request. An organisation that withdraws its application to "start fresh" has thrown that away,
 along with the fee.
 
-<div class="scenario">
+<div class="scenario" data-type="boundary">
 
 <h3>Twenty-eight months</h3>
 
@@ -142,7 +154,7 @@ whether any donor actually claimed a deduction, decide it.
 
 </div>
 
-<div class="scenario">
+<div class="scenario" data-type="procedural">
 
 <h3>The social welfare organisation that filed once</h3>
 
@@ -161,7 +173,7 @@ does not excuse the first.
 
 </div>
 
-<div class="scenario">
+<div class="scenario" data-type="fails">
 
 <h3>The proposed adverse letter</h3>
 
@@ -174,7 +186,7 @@ That instinct forfeits everything. Withdrawal is not a failure to determine unde
 and is not exhaustion of administrative remedies under IRC § 7428(b)(2), so the door to a
 declaratory judgment closes. The fee is not refunded, and the Service keeps the submitted material
 and may use it against a later application or in an examination. The alternative is to protest
-within 30 days with a statement of facts, law and argument, request an Appeals conference, and
+within 30 days with a statement of facts, law and argument, request an {gloss:appeals} conference, and
 preserve the IRC § 7428 route if Appeals sustains the determination. Reapplying later remains
 possible either way; only the protest keeps the current file alive.
 

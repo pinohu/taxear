@@ -18,7 +18,18 @@ forms: []
 related: ["3.1.4.c", "3.1.4.d", "3.1.4.f", "3.1.4.g", "3.1.2.n", "3.1.2.h", "3.4.2.a"]
 changelog:
   - { date: "2026-08-18", summary: "Initial publication from IRC §§ 6107(b), 6695(d), 6060(c) and Reg. § 1.6107-1(b)." }
+  - { date: "2026-08-25", summary: "Added a plain-language summary, a glossary mark, and typed scenarios." }
 ---
+
+<div class="plain-terms">
+This page is about how long a tax preparer must keep records of returns they prepared. It
+matters to paid preparers and their firms, not to the clients whose returns were filed. A
+preparer can keep either a full copy of each return or a short list with the client's name and
+a few details, but the list must include what kind of return it was. The clock for how long to
+keep it runs from a special twelve-month period, not the calendar year, and an extended return
+can push that clock out even further. If a firm closes down, someone still has to keep the
+records until the time is up. This page decides exactly how long, and who is on the hook.
+</div>
 
 Retention is the preparer obligation most often satisfied by accident and most often measured wrongly. A firm that keeps every return indefinitely complies without thinking about it. A firm that purges on a calendar-year cycle may not, because the period runs from the close of a **return period** that begins on 1 July — and because a return presented in one period but due in the next is measured from the later one.
 
@@ -54,19 +65,19 @@ The cap is worth noting against its neighbours. Sections 6695(a), (b) and (c) ca
 
 Dissolution is where the obligation surprises people. Winding up a practice does not extinguish the duty; it transfers it to whoever state law makes responsible for winding up, and failing that to the directors or general partners collectively. A practitioner closing a firm should assume the records travel with them.
 
-<div class="scenario">
+<div class="scenario" data-type="fails">
 <h3>The list that was not enough</h3>
 <p>A small practice keeps no return copies. It maintains a spreadsheet with each client's name and social security number, and destroys the working papers annually.</p>
-<p><em>Analysis.</em> The list route is available, but Reg. § 1.6107-1(b)(1)(i)(B) requires the taxable year and the type of return or claim as well as the name and identifying number, and § 1.6107-1(b)(1)(ii) separately requires a record of the individual required to sign each return. The spreadsheet fails both. The penalty under § 6695(d) applies for each failure, capped per return period.</p>
+<p><em>Analysis.</em> The list route is available, but Reg. § 1.6107-1(b)(1)(i)(B) requires the taxable year and the type of return or claim as well as the name and identifying number, and § 1.6107-1(b)(1)(ii) separately requires a record of the individual required to sign each return. The spreadsheet fails both. This {gloss:preparer-penalty} applies under § 6695(d) for each failure, capped per return period.</p>
 </div>
 
-<div class="scenario">
+<div class="scenario" data-type="timing">
 <h3>The purge that came a year early</h3>
 <p>A firm's document policy destroys files three years after the return was signed by the client. A return presented in June 2023 for a client on extension became due in January 2024. The file is destroyed in June 2026 and the IRS requests it in September 2026.</p>
 <p><em>Analysis.</em> Early. The return was presented in the return period that closed 30 June 2023, but it became due during the return period that closed 30 June 2024, so under Reg. § 1.6107-1(b)(2) the material had to be kept until 30 June 2027. Measuring from the presentation date alone shortened the obligation by a full year on precisely the extended files the IRS is most likely to ask about.</p>
 </div>
 
-<div class="scenario">
+<div class="scenario" data-type="procedural">
 <h3>The dissolved partnership</h3>
 <p>A two-partner firm dissolves in 2026. Neither partner takes the old client files; the storage unit is emptied. In 2027 the IRS requests records for returns prepared in 2025.</p>
 <p><em>Analysis.</em> The duty survived the dissolution. Under Reg. § 1.6107-1(b)(2), the persons responsible under state law for winding up are subject to the retention requirement on the partnership's behalf until the three years complete, and where state law names no one, the general partners are collectively subject to it. Both partners are exposed, and "the firm no longer exists" is not an answer.</p>

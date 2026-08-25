@@ -27,7 +27,24 @@ forms: []
 related: ["2.3.1.b", "2.3.1.c", "2.3.1.g", "2.3.1.e", "2.3.1.d", "2.3.1.f"]
 changelog:
   - { date: "2026-08-21", summary: "Initial draft. Sets out the IRC § 641(b) computation rule and the foreign trust deeming provision, the IRC § 651(a) definition of a simple trust as a description of a year rather than of an instrument, the five grantor trust triggers in IRC §§ 673 through 677 with the IRC § 671 consequence that the items are reported by the owner, and the IRC § 7701(a)(30)(E) court and control tests that decide whether a trust is domestic or foreign." }
+  - { date: "2026-08-25", summary: "Added a plain-language summary, a decision diagram of the domestic/foreign test, glossary marks, and typed scenarios (timing, fails, boundary)." }
+diagram:
+  archetype: "decision"
+  caption: "Domestic or foreign — both tests must pass to stay domestic"
+  tests:
+    - { test: "Can a U.S. court exercise primary supervision over administration?", result: "Yes", outcome: "pass" }
+    - { test: "Do U.S. persons control all substantial decisions?", result: "Yes", outcome: "pass" }
 ---
+
+<div class="plain-terms">
+A trust can be sorted three different ways, and each sorting answers a different question. The
+first asks whether the trust pays its own tax, or whether the person who created and funded it
+pays instead. The second asks whether the trust owes tax only on money it kept, or also on money
+it gave to beneficiaries that year. The third asks whether the trust counts as based in the United
+States or somewhere else. These questions matter for anyone who sets up a trust, manages one as a
+trustee, or receives money from one. They decide who owes the tax, how much income is exempt, and
+what the trust must report each year.
+</div>
 
 Three classifications operate on a trust at once and they answer different questions. Grantor or
 non-grantor decides *whether there is a taxpayer*. Simple or complex decides *which distribution
@@ -107,12 +124,12 @@ with a materially different tax and reporting regime.
 
 ## Scenarios
 
-<div class="scenario">
+<div class="scenario" data-type="timing">
 <h3>The trust that was simple in one year and not the next</h3>
 
 The Harkness Trust requires all income to be distributed to the settlor's daughter annually and
 contains no charitable provision. In year one it distributes $42,000 of income and nothing else. In
-year two it distributes the same income plus $150,000 of corpus to fund a house purchase.
+year two it distributes the same income plus $150,000 of {gloss:corpus} to fund a house purchase.
 
 It is a simple trust in year one and a complex trust in year two. IRC § 651(a) requires both that
 the terms provide for current distribution of all income and no charitable provision, *and* that the
@@ -125,14 +142,14 @@ and the tier system in IRC § 662 allocates distributable net income between the
 and the corpus distribution. Nothing about the instrument changed.
 </div>
 
-<div class="scenario">
+<div class="scenario" data-type="fails">
 <h3>The irrevocable trust that was still the grantor's</h3>
 
-A settlor creates an irrevocable trust for her children and retains, in a non-fiduciary capacity, a
+A settlor creates an {gloss:irrevocable-trust} for her children and retains, in a non-fiduciary capacity, a
 power to reacquire trust assets by substituting property of equivalent value. She has no power to
 revoke, no reversion, and no right to income.
 
-The trust is a grantor trust. IRC § 675(4)(C) treats a power of administration exercisable in a
+The trust is a {gloss:grantor-trust}. IRC § 675(4)(C) treats a power of administration exercisable in a
 non-fiduciary capacity — including a power to reacquire the trust corpus by substituting other
 property of an equivalent value — as making the grantor the owner. Irrevocability is irrelevant to
 that provision, which is precisely why the power is used.
@@ -143,7 +160,7 @@ intentional, and it turns entirely on the fact that irrevocable and non-grantor 
 questions.
 </div>
 
-<div class="scenario">
+<div class="scenario" data-type="boundary">
 <h3>The trust that became foreign</h3>
 
 A domestic trust is administered by a bank in Delaware under Delaware law. Its instrument is amended

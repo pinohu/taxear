@@ -18,7 +18,19 @@ forms: []
 related: ["3.2.1.a", "3.2.2.b", "3.2.6.a", "3.2.2.a", "3.2.4.c"]
 changelog:
   - { date: "2026-08-18", summary: "Initial publication from the IRS transcript types page (last reviewed 10 March 2026) and Transcript Delivery System page (last reviewed 10 June 2026)." }
+  - { date: "2026-08-25", summary: "Added a plain-language summary, typed scenarios, and glossary marks." }
 ---
+
+<div class="plain-terms">
+This page explains what an IRS transcript is, and why picking the right kind matters. A
+transcript is a summary the IRS keeps of an account. It is not a copy of the return
+itself. It affects anyone trying to learn a taxpayer's history with the IRS: what was
+filed, what was paid, and what changed later. There are several transcript types, and
+each answers a different question, such as what was first filed, what happened to the
+account since, or what other people told the IRS about that taxpayer. Picking the wrong
+one wastes time. The page also covers how a practitioner gets access to a client's
+transcripts, and the paperwork that must be on file first.
+</div>
 
 Transcripts are the first thing a representative should pull and the thing most often pulled wrong. There are **five** types, each showing something different, and asking for the wrong one wastes a fortnight. Two facts govern the rest of the topic: a **transcript is not a copy of the return**, and practitioner access runs through the **Transcript Delivery System** on a Form 2848 or Form 8821 already on file.
 
@@ -76,25 +88,25 @@ Transcripts are the first thing a representative should pull and the thing most 
 
 **Transcript is not the same as copy, and the difference costs money and time.** Where a client genuinely needs the return as filed — a court, a lender who will not accept a transcript, an immigration matter — that is **Form 4506**, with a fee and a processing time. Everything else should be a free transcript.
 
-<div class="scenario">
+<div class="scenario" data-type="fails">
 <h3>The wrong transcript</h3>
 <p>Taking on a collection matter, a practitioner pulls tax return transcripts for four years to work out how the balance arose. The transcripts show the returns as filed and nothing about the assessments, payments or penalties.</p>
-<p><em>Analysis.</em> Wrong product. A tax return transcript shows most line items from the original return as filed and "doesn't show changes made after you filed your original return." What the matter needs is the <em>tax account transcript</em>, which shows filing status, taxable income, payment types and the changes made after filing — or the record of account, which combines both. The assessment dates that drive the limitation analysis are on the account transcript, not the return transcript.</p>
+<p><em>Analysis.</em> Wrong product. A tax return transcript shows most line items from the original return as filed and "doesn't show changes made after you filed your original return." What the matter needs is the <em>tax account transcript</em>, which shows filing status, taxable income, payment types and the changes made after filing — or the record of account, which combines both. The assessment dates that drive the {gloss:statute-of-limitations} analysis are on the account transcript, not the return transcript.</p>
 </div>
 
-<div class="scenario">
+<div class="scenario" data-type="timing">
 <h3>The non-filer reconstructed in January</h3>
 <p>A client has not filed for three years. In mid-January the practitioner pulls wage and income transcripts for all three years, prepares the returns and files them. In March the client receives a notice proposing additional tax for the most recent year.</p>
 <p><em>Analysis.</em> Two known limits were in play. Current processing year information is "generally available in the first week in February," so a mid-January pull for the most recent year was incomplete. And the transcript "will only display information return documents that have been filed with the IRS, which may not reflect all the information return documents issued to you" — so even a February pull is a floor, not a ceiling. The client's own records and recollection have to be worked alongside the transcript.</p>
 </div>
 
-<div class="scenario">
+<div class="scenario" data-type="boundary">
 <h3>The request that would not generate</h3>
-<p>A practitioner requests a wage and income transcript for a client with a dozen brokerage accounts. The online request fails with a message that it could not be processed.</p>
+<p>A practitioner requests a wage and income {gloss:transcript} for a client with a dozen brokerage accounts. The online request fails with a message that it could not be processed.</p>
 <p><em>Analysis.</em> Expected, and the fix is stated. The wage and income transcript "is limited to approximately 85 income documents. If you have more documents than that, the transcript will not generate when using Individual Online Account," and the notification directs the requester to submit Form 4506-T. Allow for the longer turnaround, and where the deadline is tight, request it before the rest of the file is assembled.</p>
 </div>
 
-<div class="scenario">
+<div class="scenario" data-type="baseline">
 <h3>The letter the lender misread</h3>
 <p>A client obtains a verification of non-filing letter for a year in which she had no filing obligation, and her lender treats it as confirmation from the IRS that no return was required.</p>
 <p><em>Analysis.</em> It confirms nothing of the kind. The letter "states that the IRS has no record of a processed Form 1040-series tax return as of the date of the request," and expressly "doesn't indicate whether you are required to file a return for that year." Absence of a processed return and absence of an obligation are different facts. The practitioner should say so to the client before the lender relies on it, and provide the analysis that does establish no obligation.</p>

@@ -20,7 +20,20 @@ forms: []
 related: ["3.3.3.g", "3.3.1.l", "3.2.6.a", "3.3.3.e", "3.3.3.b", "3.3.3.d", "3.3.3.c", "3.2.6.d"]
 changelog:
   - { date: "2026-08-18", summary: "Initial publication from IRC §§ 7602, 7605 and 7609." }
+  - { date: "2026-08-25", summary: "Added a plain-language summary, a threshold diagram of the two most-tested notice periods, a glossary mark, and typed scenarios." }
+diagram:
+  archetype: "threshold"
+  caption: "Minimum notice periods the examination power must respect"
+  min: 0
+  max: 50
+  marks:
+    - { figureKey: "summons.appearance_days", value: 10, label: "10-day summons notice" }
+    - { figureKey: "summons.thirdparty_contact_notice", value: 45, label: "45-day third-party notice", emphasis: true }
 ---
+
+<div class="plain-terms">
+There's a federal law that lets the IRS look into your taxes. It can ask to see your records, and it can {gloss:summons} you — or almost anyone else — to bring documents and answer questions under oath. That power is broad, but it has real limits. The IRS usually can't look at your books twice for the same year. It has to warn you before contacting your bank or other outside people. And once your case is sent to federal prosecutors, the IRS loses its power to summon anyone at all. This topic explains those limits and when they actually protect you.
+</div>
 
 The examination power is broad by design and bounded in four specific places. **IRC § 7602** grants it; **§ 7605** limits when, where and how often; **§ 7602(c)** requires advance notice before the IRS talks to anyone else; and **§ 7602(d)** shuts the summons power off entirely once the case has gone to the Justice Department. The boundaries are where the questions live.
 
@@ -76,25 +89,25 @@ Three qualifications sit in the same paragraph. Successive notices for the **sam
 
 **And § 7602(f) polices who may act.** Only an IRS officer or employee, or the Office of Chief Counsel, may **question a witness under oath**; a contractor may receive § 7602 material only for **expert evaluation and assistance**. Worth checking where a summons interview is conducted by someone whose role is unclear.
 
-<div class="scenario">
+<div class="scenario" data-type="procedural">
 <h3>The second look</h3>
 <p>An examination of Verdant Foods' 2023 return closes with no change. Eight months later a different agent proposes to re-examine the same year's books of account after a related-party investigation surfaces new questions. The company objects.</p>
 <p><em>Analysis.</em> The objection has force but is not conclusive. IRC § 7605(b) permits only one inspection of a taxpayer's books of account for each taxable year — unless the taxpayer requests otherwise, or the Secretary, <em>after investigation</em>, notifies the taxpayer <em>in writing</em> that an additional inspection is necessary. The IRS may proceed, but only on that written notice, and the representative should insist on it before producing the books again.</p>
 </div>
 
-<div class="scenario">
+<div class="scenario" data-type="boundary">
 <h3>The bank the agent called</h3>
 <p>An agent examining Nell's return telephones her bank for account records on 3 March. The IRS had sent her a third-party contact notice dated 20 February specifying a contact period beginning 1 March.</p>
 <p><em>Analysis.</em> The notice was late. IRC § 7602(c)(1)(B) requires the notice to be provided <em>not later than 45 days before the beginning of the period</em>, and 20 February is nine days before 1 March. The contact period is not validly opened, so the contact was not permitted. Note what would <em>not</em> have been a defect: a period capped at one year is fine, and successive notices may aggregate to more than a year.</p>
 </div>
 
-<div class="scenario">
+<div class="scenario" data-type="interaction">
 <h3>The summons after the referral</h3>
 <p>A revenue agent has developed a case with badges of fraud and the matter is recommended to the Attorney General for criminal prosecution. The agent, wanting to close the civil file, issues a summons to the taxpayer's bookkeeper.</p>
 <p><em>Analysis.</em> Prohibited. IRC § 7602(d)(1) provides that no summons may be issued, and no § 7604 enforcement action begun, with respect to any person while a Justice Department referral is in effect — and § 7602(d)(2)(A)(i) makes a recommendation to the Attorney General for criminal prosecution exactly that. The bar is not limited to summonses directed at the taxpayer; it attaches to the person referred.</p>
 </div>
 
-<div class="scenario">
+<div class="scenario" data-type="fails">
 <h3>Ten days, not seven</h3>
 <p>A summons is issued on 4 May under IRC § 7602(a)(2) fixing appearance for 11 May.</p>
 <p><em>Analysis.</em> Defective on its face. IRC § 7605(a) provides that where a summons is issued under § 7602(a)(2), the date fixed for appearance <em>shall not be less than 10 days from the date of the summons</em>. Seven days does not satisfy it. Separately, the time and place must be reasonable under the circumstances — a requirement that applies to every examination, not only to summonses.</p>

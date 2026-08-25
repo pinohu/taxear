@@ -21,7 +21,19 @@ forms:
 related: ["3.2.1.a", "3.2.1.c", "3.2.1.h", "3.2.1.j", "3.2.1.f", "3.2.1.g", "3.2.1.k"]
 changelog:
   - { date: "2026-08-18", summary: "Initial publication from the Instructions for Form 2848 (rev. 09/2021) and 26 CFR §§ 601.503, 601.504 and 1.6012-1(a)(5)." }
+  - { date: "2026-08-25", summary: "Added a plain-language summary, typed scenarios, and a glossary mark." }
 ---
+
+<div class="plain-terms">
+Form 2848 is the IRS's power-of-attorney form. A taxpayer uses it to name someone, often a
+tax pro, to speak with the IRS for them. Filling it out right matters a lot. Several lines
+only work if they are filled in exactly right, and one common slip gets the whole form sent
+back. This page walks through each part of the form: who can be named, which years the
+helper may handle, which extra powers need their own checkbox, and who must sign. It
+affects any taxpayer who wants someone else to deal with the IRS for them, and any pro who
+fills the form out for a client. It does not affect anyone who plans to deal with the IRS
+alone. It decides what the named helper may do, and whether an earlier form still counts.
+</div>
 
 Most Form 2848 problems are line 3 problems: the IRS returns any power of attorney bearing a general reference. The rest of the form is a series of deliberate choices — what the representative may do, whose authority survives, who signs — each defaulting to something the taxpayer may not have intended.
 
@@ -76,19 +88,19 @@ The current year and already-ended periods may be listed, and so may **future** 
 
 **Part II order matters.** Representatives sign in the order listed on line 2, and the designation letter is the claim of eligibility, each carrying its own identifying detail. Note that **(f) Family Member** is a closed list, and **(h) Unenrolled Return Preparer** is the designation for which a **valid PTIN is mandatory**, not merely "if applicable."
 
-<div class="scenario">
+<div class="scenario" data-type="fails">
 <h3>The general reference</h3>
-<p>An enrolled agent prepares a Form 2848 for a client facing several open years and, to avoid having to amend it later, writes "Income, 1040, all years" on line 3.</p>
+<p>An {gloss:enrolled-agent} prepares a Form 2848 for a client facing several open years and, to avoid having to amend it later, writes "Income, 1040, all years" on line 3.</p>
 <p><em>Analysis.</em> The IRS will return the form. The instructions say in terms not to use a general reference such as "All years," "All periods," or "All taxes," and that any power of attorney with a general reference will be returned. The fix is to list the periods — a range such as "2019 thru 2026" is acceptable, and future periods may be added, though those beyond three years from 31 December of the year of receipt will not be recorded on the CAF.</p>
 </div>
 
-<div class="scenario">
+<div class="scenario" data-type="interaction">
 <h3>The transcript software</h3>
 <p>A firm uses a commercial platform to pull client transcripts. A newly filed Form 2848 names the representative correctly and describes the matter and periods precisely, but no box on line 5a is checked. The platform returns nothing for that client.</p>
 <p><em>Analysis.</em> Expected. A representative is not authorised to use an Intermediate Service Provider to retrieve confidential tax information indirectly unless the taxpayer checks that box. Nothing else is wrong — the representative may obtain the same information <em>directly</em> through the e-Services Transcript Delivery System. To use the platform, the taxpayer must authorise it.</p>
 </div>
 
-<div class="scenario">
+<div class="scenario" data-type="procedural">
 <h3>Signing for a client abroad</h3>
 <p>A client has worked in Chile since January and will not return before the April due date. She asks her enrolled agent to sign and file her return. He checks the "Sign a return" box on line 5a and enters nothing else.</p>
 <p><em>Analysis.</em> The ground exists but the form is incomplete. Reg. § 1.6012-1(a)(5) permits an agent to sign where the taxpayer has been continuously absent from the United States for at least 60 days before the due date, which is satisfied. But the instructions require the prescribed statement citing 26 CFR 1.6012-1(a)(5) and naming the ground. Without it the authorisation to sign is not properly claimed.</p>

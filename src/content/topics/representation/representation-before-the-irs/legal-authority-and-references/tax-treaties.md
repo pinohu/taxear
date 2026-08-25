@@ -19,7 +19,18 @@ forms: []
 related: ["3.2.5.g", "3.2.5.a", "3.2.6.g"]
 changelog:
   - { date: "2026-08-18", summary: "Initial publication from IRC §§ 894, 7852(d), 6114 and 6712 and the IRS income tax treaties page (last reviewed 3 January 2026)." }
+  - { date: "2026-08-25", summary: "Added a plain-language summary, typed scenarios, and glossary marks." }
 ---
+
+<div class="plain-terms">
+A tax treaty is a deal between the United States and another country. It sets which
+country gets to tax the same income, so a person is not taxed on it twice. It affects
+people who work, invest, or do business across that border. It does not usually touch
+people who only earn money at home. And it usually does not help an American who still
+lives in America. Most treaties let each country keep taxing its own people anyway.
+What a treaty really decides is simple: does this bit of income get a lower rate, get
+skipped, or get taxed the normal way because no treaty applies.
+</div>
 
 A tax treaty is on the authority list alongside the Code and the regulations, and it is the only item there that another country also signed. Two rules govern how it interacts with domestic law, and both are short. **Neither a treaty nor a revenue law outranks the other because of what it is** — so the later in time generally prevails. And a taxpayer who relies on a treaty to override the Code **must say so on the return**, with a per-failure penalty if they do not.
 
@@ -74,27 +85,27 @@ A tax treaty is on the authority list alongside the Code and the regulations, an
 
 **No treaty means ordinary rules, not a reduced rate by analogy.** Where there is no treaty, or the treaty does not cover the item, the income is taxed the same way and at the same rates as it would be without one. There is no residual relief.
 
-<div class="scenario">
+<div class="scenario" data-type="baseline">
 <h3>The treaty that came first</h3>
 <p>A client's position rests on a treaty article that plainly supports the treatment. The examiner points to a Code provision enacted after the treaty entered into force that reaches the opposite result.</p>
 <p><em>Analysis.</em> The examiner has the better of it on the ordering. IRC § 7852(d)(1) provides that in determining the relationship between a treaty provision and any United States revenue law, "neither the treaty nor the law shall have preferential status by reason of its being a treaty or law." Neither outranks the other as a class, so the later-enacted provision generally governs — which is what a treaty override is. The representative's remaining ground is that the two can be read consistently, or that the later provision does not in fact reach the item, not that the treaty prevails because it is a treaty.</p>
 </div>
 
-<div class="scenario">
+<div class="scenario" data-type="procedural">
 <h3>The position that was not disclosed</h3>
 <p>A client filed three returns taking the position that a treaty modified a Code provision. The position is well founded and the tax result is not challenged. No treaty disclosure was made on any return.</p>
-<p><em>Analysis.</em> The position may be right and the penalty still applies. IRC § 6114 requires a taxpayer taking the position that a treaty overrules or otherwise modifies an internal revenue law to disclose it on the return or an attached statement, and IRC § 6712 imposes a penalty on <em>each such failure</em> — larger for a C corporation — in addition to any other penalty. The route out is § 6712(b): a showing of reasonable cause and good faith, on which the Secretary may waive all or part.</p>
+<p><em>Analysis.</em> The position may be right and the penalty still applies. IRC § 6114 requires a taxpayer taking the position that a treaty overrules or otherwise modifies an internal revenue law to disclose it on the return or an attached statement, and IRC § 6712 imposes a penalty on <em>each such failure</em> — larger for a C corporation — in addition to any other penalty. The route out is § 6712(b): a showing of {gloss:reasonable-cause-defense} and good faith, on which the Secretary may waive all or part.</p>
 </div>
 
-<div class="scenario">
+<div class="scenario" data-type="boundary">
 <h3>The saving clause</h3>
 <p>A United States citizen living abroad reads a treaty article exempting certain income from tax in the source country and concludes that the same article exempts her U.S. source income from U.S. tax.</p>
 <p><em>Analysis.</em> The saving clause almost certainly defeats it. The IRS states that most income tax treaties contain a saving clause "which prevents a citizen or resident of the United States from using the provisions of a tax treaty in order to avoid taxation of U.S. source income." The first thing to read in any treaty for a U.S. client is the saving clause and its list of exceptions — some articles are carved out of it, and whether this one is decides the question.</p>
 </div>
 
-<div class="scenario">
+<div class="scenario" data-type="interaction">
 <h3>The state that did not care</h3>
-<p>A nonresident client's U.S. source income is exempt from federal tax under a treaty. She receives a state assessment on the same income and asks the representative to have it cancelled on treaty grounds.</p>
+<p>A nonresident client's U.S. source income is exempt from federal tax under a {gloss:tax-treaty}. She receives a state assessment on the same income and asks the representative to have it cancelled on treaty grounds.</p>
 <p><em>Analysis.</em> That may not work. The IRS notes that many individual states tax income sourced in their states and that "some states of the United States do not honor the provisions of tax treaties." A federal treaty exemption does not automatically carry into state tax, and the answer depends on the particular state's law. The representative should say so before the client counts on the exemption, and should refer the state question to someone who handles it.</p>
 </div>
 

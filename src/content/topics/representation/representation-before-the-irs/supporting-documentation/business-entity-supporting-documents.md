@@ -19,7 +19,18 @@ forms: []
 related: ["3.2.4.d", "3.2.4.a", "3.2.4.c"]
 changelog:
   - { date: "2026-08-19", summary: "Initial draft." }
+  - { date: "2026-08-25", summary: "Added a plain-language summary, typed scenarios, and glossary marks." }
 ---
+
+<div class="plain-terms">
+A firm is not taxed just the way its owners hope. Its own paperwork — the forms filed at start-up,
+the owner agreement, the election it sent to the IRS — is what decides how the IRS treats it, not
+what a lawyer once wrote or a client once assumed. This matters to anyone who advises a partnership,
+an LLC, or a small corporation, above all where the paperwork and the tax filings do not match. It
+matters less where one person owns the whole thing and no separate firm was ever set up. What it
+settles is plain: does the firm file as its own return, or not at all, and does the profit split
+among owners the way the return claims?
+</div>
 
 ## The rule
 
@@ -103,15 +114,15 @@ itself contemplates the situation, directing that the share be determined by the
 taking into account all facts and circumstances. The representative's task is to assemble those facts
 honestly rather than to produce an agreement after the event.
 
-<div class="scenario">
+<div class="scenario" data-type="fails">
 <h3>The LLC that thought it was an S corporation</h3>
 
 Marisol Kasprzak-Achebe forms a single-member LLC and her attorney's operating agreement recites that
-the company will be taxed as an S corporation. She files Forms 1120-S for three years. There is no Form
-2553 and no Form 8832 in the file.
+the company will be taxed as an {gloss:s-corporation}. She files Forms 1120-S for three years. There is
+no Form 2553 and no Form 8832 in the file.
 
-The recital did nothing. A domestic eligible entity with a single owner that files no election is
-disregarded as an entity separate from its owner, so the activity belonged on her Form 1040 and the
+The recital did nothing. A domestic eligible entity with a single owner that files no election is a
+{gloss:disregarded-entity}, separate from its owner, so the activity belonged on her Form 1040 and the
 Forms 1120-S were returns the company was not entitled to file. The remediation runs through the late
 election relief procedures rather than through the operating agreement, and the analysis starts with
 whether the entity in fact met the S corporation requirements throughout and whether reasonable cause
@@ -119,7 +130,7 @@ for the late election can be shown. The representative's first act, before anyth
 establish what was actually filed with the IRS — not what the documents say was intended.
 </div>
 
-<div class="scenario">
+<div class="scenario" data-type="boundary">
 <h3>The special allocation the books never reflected</h3>
 
 A three-partner partnership agreement allocates all of the depreciation from one property to one
@@ -135,7 +146,7 @@ effect is difficult to establish. Six years of K-1s are exposed, and the partner
 depreciation is the one with the problem. The fix belonged in the accounting, in year one.
 </div>
 
-<div class="scenario">
+<div class="scenario" data-type="interaction">
 <h3>The management fee nobody authorised</h3>
 
 A closely held corporation deducts an annual management fee paid to its majority shareholder's separate

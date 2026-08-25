@@ -18,7 +18,12 @@ forms: []
 related: ["3.3.3.a", "3.3.3.e", "3.3.3.b", "3.3.3.c"]
 changelog:
   - { date: "2026-08-18", summary: "Initial publication from IRC § 7605 and the full text of Reg. § 301.7605-1, both opened at source." }
+  - { date: "2026-08-25", summary: "Added a plain-language summary, a glossary mark, and typed scenarios." }
 ---
+
+<div class="plain-terms">
+The IRS decides when and where it will examine your tax return, not you. But that choice has to be reasonable. If the {gloss:audit} would truly disrupt your business, or your records live somewhere else, you can ask in writing to move it. The IRS will usually agree if your reason is a good one. It almost never has to move the exam just because the timing is inconvenient, even during tax season. This topic explains which reasons work, where a moved exam actually lands, and why waiting too long to ask can cost you extra time on your tax deadline instead.
+</div>
 
 The IRS chooses when and where an examination happens. That is the rule, and it answers most questions in this topic. But the choice is bounded — by a statutory reasonableness standard, by a regulation setting out how the Service is to exercise it, and by a list of circumstances in which a taxpayer's request to move the examination will "normally" be granted. The representative's job is to know which side of that line a request falls on.
 
@@ -76,25 +81,25 @@ The IRS chooses when and where an examination happens. That is the rule, and it 
 
 **Section 7605(b) is narrower than it sounds.** One inspection of books of account per taxable year — but the taxpayer may consent to more, and the Service may do more after investigation and **written notice**. It restricts repetition, not thoroughness: a single examination that reviews the same records several times is not a second inspection.
 
-<div class="scenario">
+<div class="scenario" data-type="fails">
 <h3>The March request</h3>
 <p>A revenue agent schedules a field examination of a client's return for the second week of March. The enrolled agent asks that it be deferred to May because of filing season.</p>
 <p><em>Analysis.</em> There is no right to the deferral. Reg. § 301.7605-1(b)(1) makes it reasonable to schedule throughout the year "without regard to seasonal fluctuations in the businesses of particular taxpayers <em>or their representatives</em>" — representatives named expressly. The same paragraph says the Service will work with taxpayers to minimise adverse effects, so the request is worth making, framed as one for cooperation rather than an objection to an unreasonable time.</p>
 </div>
 
-<div class="scenario">
+<div class="scenario" data-type="interaction">
 <h3>The three-chair office</h3>
 <p>A field examination is scheduled at a two-person bookkeeping practice in a small rented room. The owner says an agent working there for a week would make it impossible to see clients. The representative asks that it be moved to their own office, ten minutes away.</p>
 <p><em>Analysis.</em> The right ground, the wrong destination. Reg. § 301.7605-1(d)(3)(ii) requires a written representation that conducting the examination at the place of business would essentially close it or unduly disrupt operations; on verification the Service moves it to <em>a Service office</em> in the district where the records are kept. The representative's own office is a separate request under paragraph (e)(3), where that location "will generally not be considered" and any transfer is in the Service's sole discretion.</p>
 </div>
 
-<div class="scenario">
+<div class="scenario" data-type="timing">
 <h3>The transfer that cost a year</h3>
 <p>A client moved from one district to another eighteen months ago and the examination has been scheduled in the old district. In February the representative files a written transfer request. The assessment period for the year under examination expires the following January.</p>
 <p><em>Analysis.</em> The transfer should be granted — a current residence in a different district is one of the circumstances in which the Service normally agrees. But the limitations period expires within thirteen months of the request, so under Reg. § 301.7605-1(e)(4) the Service may require the taxpayer first to agree in writing to extend it for up to a year. That trade should have been weighed before filing, and the client told that the price of the move is a year of statute.</p>
 </div>
 
-<div class="scenario">
+<div class="scenario" data-type="procedural">
 <h3>The second look</h3>
 <p>An examination of a corporation's 2024 return closed no-change in January. In August a revenue agent asks to inspect the same 2024 books of account again, over an issue raised by a related partnership examination.</p>
 <p><em>Analysis.</em> IRC § 7605(b) permits only one inspection of the books of account for each taxable year, subject to two exceptions: the taxpayer may request otherwise, or an authorized officer may, <em>after investigation</em>, notify the taxpayer <em>in writing</em> that an additional inspection is necessary. The question is not whether a second inspection is possible but whether that written notice has issued.</p>

@@ -20,7 +20,21 @@ forms: []
 related: ["3.3.3.e", "3.3.3.c", "3.3.3.g", "3.3.3.h", "3.2.6.e", "3.3.4.b", "3.3.4.e"]
 changelog:
   - { date: "2026-08-18", summary: "Initial publication from Pub. 3498 (Rev. 5-2025), Pub. 5 (Rev. 4-2021), the IRS appeals pages last reviewed 28 June and 16 April 2026, and IRC §§ 6212, 6213 and 6501." }
+  - { date: "2026-08-25", summary: "Added a plain-language summary, a timeline diagram from the report to the Tax Court petition deadline, glossary marks, and typed scenarios." }
+diagram:
+  archetype: "timeline"
+  caption: "From the examination report to the Tax Court petition deadline"
+  events:
+    - { when: "Report issued", what: "Examination closes unagreed; the examiner's report sets out the proposed changes" }
+    - { when: "Same date", what: "30-day letter mailed, explaining the appeal rights" }
+    - { when: "+30 days", what: "Response due: accept, protest, or ask for a conference" }
+    - { when: "If no response or agreement", what: "IRS mails a 90-day letter — the notice of deficiency" }
+    - { when: "+90 days from that letter", what: "Deadline to petition the Tax Court" }
 ---
+
+<div class="plain-terms">
+When an audit ends and you disagree with the changes, the IRS sends you two things: a report explaining what it wants to change, and a {gloss:thirty-day-letter} telling you how long you have to respond — usually thirty days. The report itself is called the {gloss:revenue-agent-report}. If you do nothing, the IRS follows up with a notice proposing the new tax bill. That notice starts a strict deadline to take your case to Tax Court before paying anything. Missing it means you owe the tax. This topic covers reading that first report line by line, choosing the right response, and tracking the dates so you never lose your right to fight the changes.
+</div>
 
 An unagreed examination produces a report and a letter. The report says what the examiner proposes; the letter says how long the taxpayer has to act. Together they are a clock, and the representative's first task is three dates: when the response is due, when the assessment period expires, and how much of it will be left when Appeals receives the case. Two of the three are commonly missed.
 
@@ -70,25 +84,25 @@ An unagreed examination produces a report and a letter. The report says what the
 
 **Facts and authority are separate requirements.** The formal protest calls for the facts supporting the position on each issue **and** the law or authority supporting it. A protest that narrates the facts and closes with a general assertion that the examiner was wrong satisfies one requirement, and gives the Appeals officer nothing to settle against.
 
-<div class="scenario">
+<div class="scenario" data-type="boundary">
 <h3>The three-year examination and the wrong form</h3>
 <p>An examination covers 2022, 2023 and 2024. The report proposes additional tax and penalties of $9,400 for 2022, $12,700 for 2023 and $61,000 for 2024. The representative, seeing that two years are small, files Form 12203 for 2022 and 2023 and a formal protest for 2024.</p>
 <p><em>Analysis.</em> The wrong split. The formal written protest requirement is triggered where the proposed change for <em>any</em> tax period included in the examination report exceeds the threshold, and it then applies to <em>all periods involved</em>. Because 2024 exceeds it, a formal written protest is required for 2022 and 2023 as well. The small case request for the two smaller years should be replaced before the response date runs.</p>
 </div>
 
-<div class="scenario">
+<div class="scenario" data-type="procedural">
 <h3>The protest that went to the wrong building</h3>
 <p>A representative prepares a thorough formal protest and, wanting it in the hands of the people who will decide it, mails it to the Independent Office of Appeals address they find online rather than to the address on the 30-day letter.</p>
 <p><em>Analysis.</em> This delays the case and risks worse. The IRS instruction is that the protest goes to the IRS address on the letter explaining the appeal rights, and that sending it directly to Appeals "will only delay the process and may prevent Appeals from considering your case." The originating examination office is entitled to consider the protest first and attempt to resolve the issues. The representative should re-send to the correct address immediately and document the original timely mailing.</p>
 </div>
 
-<div class="scenario">
+<div class="scenario" data-type="timing">
 <h3>The statute that had run out of room</h3>
 <p>A 30-day letter arrives in September on a 2022 return filed in April 2023. The client wants to appeal. The representative calculates the response date and begins drafting a protest.</p>
 <p><em>Analysis.</em> One date short. The assessment period on an April 2023 filing expires in April 2026, leaving well under a year by the time a protest is filed and the case reaches Appeals. The IRS states that disputed issues cannot be administratively appealed unless sufficient time remains on the ASED when Appeals receives the case — generally a year. The real choice is therefore between consenting to extend the assessment period and keeping the Appeals route, or declining, receiving a notice of deficiency, and litigating. That is a client decision, and it has to be put to the client now rather than after the protest is filed.</p>
 </div>
 
-<div class="scenario">
+<div class="scenario" data-type="interaction">
 <h3>The signature that said too much</h3>
 <p>An enrolled agent prepares a protest for a client whose records were reconstructed from bank statements and the client's recollection. The agent signs it under the statement declaring that, to the best of the agent's personal knowledge and belief, the information is true, correct and complete.</p>
 <p><em>Analysis.</em> The wrong statement. Pub. 5 provides two perjury statements for a representative filing a protest — one for a representative who has personal knowledge of the information stated, and one for a representative who has none. Facts drawn from a client's records and recollection are not the agent's personal knowledge. The no-personal-knowledge statement is the accurate one, and it is not a weaker filing; it is the honest one, and swearing to knowledge the agent does not have is a Circular 230 problem as well as a perjury exposure.</p>

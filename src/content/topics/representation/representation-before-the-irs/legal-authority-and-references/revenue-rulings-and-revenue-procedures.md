@@ -17,7 +17,18 @@ forms: []
 related: ["3.2.5.g", "3.2.6.g", "3.2.6.a", "3.2.5.e", "3.2.5.a", "3.2.5.c", "3.2.5.d"]
 changelog:
   - { date: "2026-08-18", summary: "Initial publication from Reg. §§ 601.601 and 1.6662-4 and IRC § 7805, each opened at source." }
+  - { date: "2026-08-25", summary: "Added a plain-language summary, glossary marks, and typed scenarios." }
 ---
+
+<div class="plain-terms">
+This page explains the difference between two things the IRS publishes under similar
+names. A revenue ruling says what the law means for one set of facts. A revenue
+procedure says how to deal with the IRS in practice — what form to file, by when, and on
+what terms. It matters to anyone trying to find the right kind of guidance for their own
+case, instead of the wrong one. Neither is as strong as a formal rule, but both can be
+trusted and used, and a ruling normally applies to past years too, unless the IRS says
+otherwise.
+</div>
 
 The difference is one sentence each. A **revenue ruling** is the Service's interpretation of the **law** applied to a stated set of facts. A **revenue procedure** tells you **how the Service operates** — what to file, where, by when, on what terms. Both are published in the Internal Revenue Bulletin, both are authority, and neither carries the force of a regulation. Most confusion in this topic comes from treating a ruling as if it were binding law, or from applying one to facts that are not substantially the same.
 
@@ -72,27 +83,27 @@ The difference is one sentence each. A **revenue ruling** is the Service's inter
 
 **Determinations of fact are not published.** The regulation excludes them expressly, so a practitioner hunting for a ruling on whether particular circumstances amount to reasonable cause is hunting for something the Service does not publish as a ruling.
 
-<div class="scenario">
+<div class="scenario" data-type="boundary">
 <h3>The ruling with the wrong facts</h3>
 <p>A client's proposed transaction resembles one held favourably in a revenue ruling, except that in the ruling the parties were unrelated and here they are not. The associate proposes to cite the ruling as directly supporting the treatment.</p>
 <p><em>Analysis.</em> Not directly on point, and relatedness is the kind of fact a ruling's reasoning usually turns on. Reg. § 601.601(d)(2)(v)(e) states that because each revenue ruling represents the Service's conclusion as to the application of the law to <em>the entire state of facts involved</em>, taxpayers and practitioners are cautioned against reaching the same conclusion "unless the facts and circumstances are substantially the same." The ruling may still carry weight, but it should be cited for what it is, with the difference identified rather than left for the examiner to find.</p>
 </div>
 
-<div class="scenario">
+<div class="scenario" data-type="timing">
 <h3>The ruling that had been superseded</h3>
 <p>A memorandum written three years ago relies on a revenue ruling. The same position is taken again this year without re-checking, and on examination the agent produces a later revenue ruling modifying the earlier one.</p>
 <p><em>Analysis.</em> The failure is procedural, not analytical. The Internal Revenue Bulletin is the authoritative instrument for publishing rulings "which supersede, revoke, modify, amend, or affect any previously published ruling or procedure," and Reg. § 601.601(d)(2)(v)(e) directs taxpayers to consider the effect of subsequent legislation, regulations, court decisions and revenue rulings. Anything relied on has to be re-checked at the time of the return, not at the time the memorandum was first written.</p>
 </div>
 
-<div class="scenario">
+<div class="scenario" data-type="procedural">
 <h3>The change that could not be applied backwards</h3>
-<p>A revenue ruling issued this year revokes an earlier ruling on which a client relied for three completed years. The client fears a retroactive assessment for all three.</p>
+<p>A revenue ruling issued this year revokes an earlier ruling on which a client relied for three completed years. The client fears a retroactive {gloss:assessment} for all three.</p>
 <p><em>Analysis.</em> Probably not, and the ruling itself will say. Rulings apply retroactively unless they invoke IRC § 7805(b), but where a new ruling revokes or modifies a previously published one the regulation records that § 7805(b) "ordinarily is invoked to provide that the new rulings will not be applied retroactively to the extent that the new rulings have adverse tax consequences to taxpayers." Read the new ruling's § 7805(b) paragraph; the relief is expressed there, and its exercise requires an affirmative statement.</p>
 </div>
 
-<div class="scenario">
+<div class="scenario" data-type="fails">
 <h3>The unpublished ruling an examiner produced</h3>
-<p>During an examination an agent supports a proposed adjustment by referring to an internal position document that has not been published in the Bulletin.</p>
+<p>During an {gloss:audit} an agent supports a proposed adjustment by referring to an internal position document that has not been published in the Bulletin.</p>
 <p><em>Analysis.</em> Push back on its status. Reg. § 601.601(d)(2)(v)(d) states that "no unpublished ruling or decision will be relied on, used, or cited, by any officer or employee of the Service as a precedent in the disposition of other cases." The agent may of course argue the underlying law, but the document itself cannot be used as a precedent, and the representative should ask for the published authority the position rests on.</p>
 </div>
 

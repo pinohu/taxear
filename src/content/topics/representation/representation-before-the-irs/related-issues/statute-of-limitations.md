@@ -30,7 +30,12 @@ related: ["3.3.1.m", "3.3.1.o", "3.2.1.a", "3.2.1.b", "3.2.1.d", "3.3.1.b", "3.3
 changelog:
   - { date: "2026-08-18", summary: "Every citation re-opened at source. Corrected the authority for the offer-in-compromise and installment-agreement suspension (IRC § 6331(k)(3)(B) and § 6331(i)(5), not § 6503(f)); added the § 6511(d) seven- and ten-year refund periods, the § 6330(e)(1) ninety-day floor, the § 6503(c) six-month tail, and currently-not-collectible." }
   - { date: "2026-08-17", summary: "Initial draft from primary sources." }
+  - { date: "2026-08-25", summary: "Added a plain-language summary, glossary marks, and typed scenarios." }
 ---
+
+<div class="plain-terms">
+Every tax debt runs on a clock, and this page explains that there are really three separate clocks, not one. One clock limits how long the IRS has to bill you for more tax after you file. A second limits how long you have to ask for money back. A third limits how long the IRS has to actually collect a debt once it is on the books. This matters to almost every taxpayer and every practitioner, since a return can be fine on one clock and still open on another. The page decides when each clock starts, what pauses it along the way — an appeal, a bankruptcy, time spent abroad — and what it means when a debt simply runs out of time to collect.
+</div>
 
 Federal tax has three separate clocks, and most limitations mistakes come from mixing them up. The **assessment** clock limits how long the IRS has to determine and record additional tax. The **refund** clock limits how long a taxpayer has to claim money back. The **collection** clock limits how long the IRS has to collect tax once it is assessed. Each starts from a different event, each has its own extensions and suspensions, and a case can be open on one clock and closed on another.
 
@@ -66,28 +71,28 @@ The other suspensions are direct. A Collection Due Process hearing suspends the 
 
 Currently not collectible is not on that list. Reporting an account as currently not collectible is an administrative decision to stop active collection, not a legal bar to it: no provision of § 6503 or § 6331 suspends the period, and the Internal Revenue Manual treats a currently-not-collectible module's CSED as continuing to run, which is why such accounts are eventually closed by statute expiration rather than by payment (IRM 5.16.1).
 
-<div class="scenario">
+<div class="scenario" data-type="baseline">
 <h3>An early return and a late claim</h3>
 <p>Dana files her 2022 Form 1040 on February 10, 2023 (due date April 18, 2023), with $6,000 withheld and a $400 balance paid with the return. In March 2026 she discovers a missed credit worth $1,500 and files a 1040-X on March 20, 2026.</p>
 <p><em>Analysis.</em> The return is deemed filed April 18, 2023, so the three-year refund window runs to April 18, 2026; the claim is timely. The look-back covers tax paid in the three years before March 20, 2026, i.e., on or after March 20, 2023. Withholding is deemed paid April 18, 2023, inside the window, so the entire $6,400 is available and the $1,500 refund is allowed. Had she filed the claim on April 30, 2026, the claim would be late unless the two-year-from-payment rule saved it, and it would not, because the last payment was April 18, 2023.</p>
 </div>
 
-<div class="scenario">
+<div class="scenario" data-type="fails">
 <h3>The delinquent filer who expects a refund</h3>
 <p>Marcus never filed his 2021 return. He had $4,200 withheld and would have been due a $1,100 refund. He files the return on June 3, 2026.</p>
-<p><em>Analysis.</em> The return is his claim, and it is filed within three years of... nothing, because no return was previously filed; the claim is timely under § 6511(a) as a claim filed within three years of the return it accompanies. But the look-back under § 6511(b)(2)(A) limits the refund to tax paid in the three years before June 3, 2026. His withholding was deemed paid April 18, 2022, more than three years earlier. Refund: zero. The assessment clock, by contrast, only starts now, so the IRS has until June 3, 2029 to assess any additional tax for 2021.</p>
+<p><em>Analysis.</em> The return is his claim, and it is filed within three years of... nothing, because no return was previously filed; the claim is timely under § 6511(a) as a claim filed within three years of the return it accompanies. But the look-back under § 6511(b)(2)(A) limits the refund to tax paid in the three years before June 3, 2026. His withholding was deemed paid April 18, 2022, more than three years earlier. Refund: zero. The {gloss:assessment} clock, by contrast, only starts now, so the IRS has until June 3, 2029 to assess any additional tax for 2021.</p>
 </div>
 
-<div class="scenario">
+<div class="scenario" data-type="boundary">
 <h3>Six years, or forever?</h3>
 <p>Priya reported $80,000 of gross income on her timely 2023 return but omitted a $30,000 consulting fee. Separately, she deducted a $12,000 expense she cannot substantiate.</p>
 <p><em>Analysis.</em> The omitted $30,000 is 37.5 percent of the $80,000 stated on the return, over the 25 percent threshold, so the assessment period is six years from the April 2024 filing date (§ 6501(e)(1)(A)). The unsubstantiated deduction does not count toward the omission test, which looks only at omitted gross income; on its own it would leave the three-year period in place. Neither fact makes the period unlimited: § 6501(c)(1) requires fraud, which the IRS must prove, and a large omission alone is not proof of intent to evade.</p>
 </div>
 
-<div class="scenario">
+<div class="scenario" data-type="interaction">
 <h3>Stacking suspensions on the CSED</h3>
 <p>Leo's 2015 liability was assessed on June 1, 2017. He filed an offer in compromise on March 1, 2020 that the IRS rejected on November 1, 2020, and he did not appeal. He filed Chapter 7 bankruptcy on May 1, 2022 and was discharged September 1, 2022.</p>
-<p><em>Analysis.</em> Start with the base CSED, June 1, 2027. The offer suspends the period from March 1 to November 1, 2020, plus 30 days: 275 days. The bankruptcy suspends it from May 1 to September 1, 2022, plus six months: 123 days plus 182 days. Roughly 580 days are added, moving the CSED to about January 2029. A practitioner should request the account transcripts and compute the CSED independently rather than accept a collector's date, because suspension arithmetic is a frequent source of IRS error.</p>
+<p><em>Analysis.</em> Start with the base {gloss:csed}, June 1, 2027. The offer suspends the period from March 1 to November 1, 2020, plus 30 days: 275 days. The bankruptcy suspends it from May 1 to September 1, 2022, plus six months: 123 days plus 182 days. Roughly 580 days are added, moving the CSED to about January 2029. A practitioner should request the account transcripts and compute the CSED independently rather than accept a collector's date, because suspension arithmetic is a frequent source of IRS error.</p>
 </div>
 
 <div class="callout trap"><h4>Traps</h4>

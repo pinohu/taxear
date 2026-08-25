@@ -21,7 +21,18 @@ forms: []
 related: ["2.3.3.a", "2.3.3.e", "2.3.3.c", "2.3.3.b"]
 changelog:
   - { date: "2026-08-21", summary: "Initial draft. Separates the three tests a qualified plan must pass — IRC § 410(b) coverage, IRC § 401(k)(3) and § 401(m)(2) contribution testing, and IRC § 416 top-heavy testing — and sets out the IRC § 401(k)(12) safe harbours that buy an exemption from the second, the IRC § 414(q) highly compensated employee definition against the IRC § 416(i) key employee definition, and the IRC § 411(a)(2) vesting schedules." }
+  - { date: "2026-08-25", summary: "Added a plain-language summary and typed scenarios." }
 ---
+
+<div class="plain-terms">
+Employer retirement plans cannot just reward the owners and highest earners. This page explains
+three separate checks a plan must pass every year to keep its tax benefits. One asks whether enough
+ordinary employees are covered by the plan at all. Another compares how much the highest paid
+employees are actually saving against how much everyone else saves. A third asks whether too much
+of the plan's money has piled up in the accounts of owners and top employees. A plan can pass any
+two of these checks and still fail the third, so each one is tested on its own. This mostly affects
+small business owners and employers who sponsor a 401(k) or similar plan.
+</div>
 
 Three separate tests stand between a plan and disqualification, and they are not variations on a
 theme. Coverage asks who is in the plan. Contribution testing asks what the people in it actually
@@ -101,7 +112,7 @@ group of employees takes their money on leaving. Crossing it triggers the minimu
 every non-key employee, including those who deferred nothing, and that cost is not budgeted for in
 the year it first appears.
 
-<div class="scenario">
+<div class="scenario" data-type="fails">
 
 <h3>The ratio that flattered</h3>
 
@@ -124,7 +135,7 @@ method jumps while the aggregate method barely moves. The plan fails on either c
 
 </div>
 
-<div class="scenario">
+<div class="scenario" data-type="procedural">
 
 <h3>The late safe harbour</h3>
 
@@ -143,7 +154,7 @@ for distributing excess contributions — but only at 4 percent under subparagra
 
 </div>
 
-<div class="scenario">
+<div class="scenario" data-type="boundary">
 
 <h3>The plan that turned top-heavy</h3>
 

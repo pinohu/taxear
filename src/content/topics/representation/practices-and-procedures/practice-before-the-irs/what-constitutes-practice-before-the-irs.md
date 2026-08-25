@@ -21,7 +21,20 @@ forms: ["2848", "8821"]
 related: ["3.1.1.b", "3.2.1.a", "3.1.2.f", "3.1.4.b", "3.1.3.a", "3.1.3.b", "3.1.2.g", "3.1.2.c", "3.1.2.d", "3.1.2.j", "3.1.2.l", "3.1.2.o", "3.1.2.p", "3.2.1.j", "3.2.6.j"]
 changelog:
   - { date: "2026-08-18", summary: "Initial publication, written from 31 CFR Part 10 (Circular 230) as it currently reads." }
+  - { date: "2026-08-25", summary: "Added a plain-language summary, glossary marks, and typed scenarios." }
 ---
+
+<div class="plain-terms">
+This page draws a line. On one side is simply typing up a tax return. On the other side
+is legally practicing before the IRS. It affects anyone who deals with the IRS for a
+client — preparers, advisers, and representatives alike. It does not affect the taxpayer,
+who can always handle their own case. Filling out a return, by itself, is not practice.
+Writing to the IRS is practice. Filing papers is practice. Giving written advice on a plan
+built to dodge tax is also practice, even if the IRS never sees it. Even a preparer who
+holds only a {gloss:ptin}, with no other license, can trigger these duties by preparing
+most of a return. This page decides which acts trigger real duties, and possible
+discipline, for the person doing them.
+</div>
 
 Practice before the IRS is a defined term, not a description. It sets who Circular 230 governs, which acts expose someone to the Office of Professional Responsibility, and where the line falls between filling in a return and speaking for a taxpayer. Practitioners routinely assume the two are the same thing. They are not, and the difference decides who may stand between a client and a revenue agent.
 
@@ -47,22 +60,22 @@ The practical question is usually which side of the line a particular act sits o
 
 **The regulation still carries provisions the IRS no longer operates.** Sections 10.3(f) and 10.8(a) refer to registered tax return preparers, a designation the IRS stopped issuing after its mandatory testing regime was struck down; the voluntary Annual Filing Season Program took its place. Read those references as history, not as a route to practice rights available today.
 
-<div class="scenario">
+<div class="scenario" data-type="interaction">
 <h3>The bookkeeper who writes the letter</h3>
 <p>Ramona keeps the books for a small landscaping company and is not a practitioner. The company gets a notice proposing additional tax. Ramona drafts a response on company letterhead explaining the discrepancy, encloses bank records, signs it as bookkeeper, and mails it.</p>
 <p><em>Analysis.</em> Corresponding and communicating with the IRS about a taxpayer's liabilities is expressly within § 10.2(a)(4), so this is practice. Whether Ramona may do it turns on § 10.7(c): a regular full-time employee of a corporation may represent that corporation. If she is a regular full-time employee, she is within limited practice. If she is an outside contractor paid per hour, she is not, and the company needs someone who is.</p>
 </div>
 
-<div class="scenario">
+<div class="scenario" data-type="baseline">
 <h3>Advice that never leaves the office</h3>
 <p>A CPA is asked whether a client can structure a sale to defer gain. She researches the question, writes a memo describing the arrangement and its tax consequences, and sends it to the client. Nothing is filed for another eleven months.</p>
 <p><em>Analysis.</em> The memo is written advice concerning a transaction with a potential for tax avoidance, which § 10.2(a)(4) lists as a presentation. She is engaged in practice before the IRS from the moment she renders it, and § 10.3(b) confirms that no written declaration is needed first. The eleven months of silence do not matter; § 10.37's standards for written advice apply to the memo.</p>
 </div>
 
-<div class="scenario">
+<div class="scenario" data-type="boundary">
 <h3>Two people, one return, different exposure</h3>
 <p>A seasonal preparer at a storefront enters a client's Forms W-2 and standard deduction and produces the whole return. A colleague down the hall answers one question about the treatment of a state refund and touches nothing else.</p>
-<p><em>Analysis.</em> The first prepared substantially all of the return: § 10.8(a) requires a PTIN and applies subpart B's duties and subpart C's sanctions. The second falls under § 10.8(b) — less than substantially all — and is not practising. Same office, same return, materially different exposure to the Office of Professional Responsibility.</p>
+<p><em>Analysis.</em> The first prepared substantially all of the return: § 10.8(a) requires a PTIN and applies subpart B's duties and subpart C's sanctions. The second falls under § 10.8(b) — less than substantially all — and is not practising. Same office, same return, materially different exposure to the {gloss:office-of-professional-responsibility}.</p>
 </div>
 
 <div class="callout trap"><h4>Traps</h4>

@@ -24,7 +24,18 @@ forms: []
 related: ["2.3.1.b", "2.3.1.e", "2.3.1.c", "2.3.1.a", "2.3.1.g"]
 changelog:
   - { date: "2026-08-21", summary: "Initial draft. Sets out the two-tier system in IRC § 662(a) with the proportionate reduction that applies where distributions exceed distributable net income, the character rule in IRC §§ 652(b) and 662(b) with the specific allocation exception and the allocation of deductions among classes, and the IRC § 642(h) pass-out of loss carryovers and excess deductions on termination." }
+  - { date: "2026-08-25", summary: "Added a plain-language summary, glossary marks, and typed scenarios (baseline, boundary, fails)." }
 ---
+
+<div class="plain-terms">
+A trust sends each person who gets money from it a paper called a Schedule K-1. That paper answers
+two questions. First, how much money must this person report as income? Second, what kind of
+income is it — interest, dividends, tax-free money, or something else? These rules matter for
+anyone who gets money from a trust, and for anyone who fills out its tax return. A person can owe
+tax on money the trust was supposed to pay but never did. Every person gets the same mix of income
+types, share for share, unless the trust paper says otherwise. The trust's last year works
+differently. It passes out losses and leftover write-offs instead of income.
+</div>
 
 A fiduciary Schedule K-1 answers two questions that have nothing to do with each other: how much of
 the trust's income each beneficiary must include, and what kind of income it is. The first is a
@@ -100,11 +111,11 @@ than income.
 
 ## Scenarios
 
-<div class="scenario">
+<div class="scenario" data-type="baseline">
 <h3>The income that never arrived</h3>
 
 The Wingate Trust requires all income to be distributed annually to the settlor's son. For the year
-its distributable net income is $58,000, all of it required to be distributed. The trustee, in
+its {gloss:distributable-net-income} is $58,000, all of it required to be distributed. The trustee, in
 dispute with the son, distributes nothing.
 
 The son reports $58,000. IRC § 662(a)(1) — and IRC § 652(a) for a simple trust — includes the amount
@@ -117,7 +128,7 @@ Preparers occasionally try to solve this by not deducting at the trust level and
 the beneficiary level, which is wrong twice and leaves the income taxed nowhere.
 </div>
 
-<div class="scenario">
+<div class="scenario" data-type="boundary">
 <h3>Two tiers, one shortfall</h3>
 
 The Aldingham Trust has distributable net income of $90,000. Its instrument requires $70,000 of
@@ -135,7 +146,7 @@ and B would report nothing at all. The tiers ration in order, and the second tie
 shortfall entirely.
 </div>
 
-<div class="scenario">
+<div class="scenario" data-type="fails">
 <h3>The allocation the trustee could not make</h3>
 
 The Selby Trust has distributable net income of $100,000: $55,000 of taxable interest, $25,000 of
@@ -148,7 +159,7 @@ same proportion of each class as that class bears to distributable net income, u
 the governing instrument* specifically allocate different classes to different beneficiaries. A
 trustee's resolution is not a term of the instrument.
 
-Each beneficiary therefore reports $27,500 of taxable interest, $12,500 of qualified dividends and
+Each {gloss:beneficiary} therefore reports $27,500 of taxable interest, $12,500 of qualified dividends and
 $10,000 of tax-exempt interest. Had the settlor drafted a specific allocation into the instrument,
 with economic effect independent of the tax consequences, the answer would differ — which is a
 drafting point, not an administration one.

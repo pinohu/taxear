@@ -22,7 +22,19 @@ forms: []
 related: ["3.1.3.a", "3.1.1.a", "3.1.1.b", "3.1.4.a", "3.1.3.c", "3.1.2.c", "3.1.2.p"]
 changelog:
   - { date: "2026-08-18", summary: "Initial publication from 31 CFR §§ 10.50, 10.60, 10.61, 10.62, 10.76, 10.77, 10.78, 10.79, 10.81 and 10.82 (Circular 230)." }
+  - { date: "2026-08-25", summary: "Added a plain-language summary, glossary marks, and typed scenarios." }
 ---
+
+<div class="plain-terms">
+This page is about the punishments the IRS can give a tax practitioner who broke the conduct
+rules. It matters to enrolled agents, lawyers, and other representatives, not to ordinary
+taxpayers. The punishments range from a public rebuke, to a suspension for a set time, to a full
+bar from practice. A fine can also be added, sized to what the practitioner earned from the bad
+conduct. Which punishment the IRS seeks changes how much proof it must show to win. A punished
+practitioner can later ask to practice again, though not right away and not for sure. A faster
+path skips the usual steps when the facts are already settled elsewhere, such as by a criminal
+conviction.
+</div>
 
 Circular 230 sanctions are not a single scale with a dial. They differ in who imposes them, what has to be proved, whether the practitioner may keep working, and how the practitioner gets back. Two of the five never reach an Administrative Law Judge at all. Getting the sanctions in the right order is worth less than knowing which door each one comes through.
 
@@ -73,19 +85,19 @@ The monetary penalty is the sanction practitioners underrate. It has no fixed sc
 
 Expedited suspension is a shortcut and is treated as one. The § 10.60(c) pre-proceeding notice requirement is expressly disapplied for it. The route exists because the listed classes involve facts already established elsewhere — a conviction, a state revocation, a court sanction — so there is nothing for the ordinary process to find.
 
-<div class="scenario">
+<div class="scenario" data-type="boundary">
 <h3>Five months rather than seven</h3>
-<p>OPR believes a practitioner violated the written advice rules. The evidence is good but not overwhelming: it would likely satisfy a preponderance test and might not satisfy clear and convincing evidence. The complaint seeks a five-month suspension.</p>
+<p>The {gloss:office-of-professional-responsibility} believes a practitioner violated the written advice rules. The evidence is good but not overwhelming: it would likely satisfy a preponderance test and might not satisfy clear and convincing evidence. The complaint seeks a five-month {gloss:suspension-practitioner}.</p>
 <p><em>Analysis.</em> The choice is deliberate. Under § 10.76(b) a suspension of less than six months is decided on a preponderance; at six months the standard changes. Section 10.62(b) requires the duration to be specified in the complaint, so the respondent can read the intended standard off the pleading and should. A respondent facing a five-month proposal is fighting a materially easier case for the government than one facing six.</p>
 </div>
 
-<div class="scenario">
+<div class="scenario" data-type="interaction">
 <h3>The firm that should have known</h3>
 <p>A practitioner at a mid-sized firm gives advice that violates Circular 230 on an engagement generating a $180,000 fee. The firm's review partner saw the file and raised no question.</p>
 <p><em>Analysis.</em> Section 10.50(c)(1)(ii) reaches the employer, firm or entity where it knew or reasonably should have known of the conduct, and § 10.50(c)(3) confirms a firm penalty may accompany the individual's. The ceiling on each is the gross income derived from the conduct, so the exposure is measured by the engagement, not by any published schedule — and a monetary penalty may sit on top of a suspension rather than substitute for it.</p>
 </div>
 
-<div class="scenario">
+<div class="scenario" data-type="procedural">
 <h3>The conviction that skipped the queue</h3>
 <p>A practitioner is convicted of a state offence involving breach of trust. Two months later, before any Circular 230 investigation has really begun, a show cause order arrives proposing suspension.</p>
 <p><em>Analysis.</em> This is § 10.82. A conviction for a crime involving dishonesty or breach of trust within the look-back period puts the practitioner in the listed class, and § 10.60(c)'s requirement of prior written notice and an opportunity to respond does not apply to expedited suspensions — § 10.60(c) says so in terms. The conviction has already done the fact-finding, so the expedited route is directed at the consequence, not the facts.</p>

@@ -19,7 +19,22 @@ forms: ["433-A", "433-F"]
 related: ["3.3.1.b", "3.3.1.c", "3.3.1.k", "3.2.3.a", "3.2.3.b"]
 changelog:
   - { date: "2026-08-19", summary: "Initial draft against the standards effective 29 June 2026 and the 29 June 2026 revision of IRM 5.15.1." }
+  - { date: "2026-08-25", summary: "Added a plain-language summary, a threshold diagram of the national standard by family size, glossary marks, and typed scenarios." }
+diagram:
+  archetype: "threshold"
+  caption: "The national standard climbs with household size — given in full, no receipts needed"
+  min: 0
+  max: 2200
+  marks:
+    - { figureKey: "cfs.national.one_person", label: "1 person" }
+    - { figureKey: "cfs.national.two_persons", label: "2 persons" }
+    - { figureKey: "cfs.national.three_persons", label: "3 persons" }
+    - { figureKey: "cfs.national.four_persons", label: "4 persons", emphasis: true }
 ---
+
+<div class="plain-terms">
+These are the IRS's own tables for everyday living costs — food, housing, transportation and health care. The IRS uses them to work out how much of a taxpayer's income is truly free to go toward a tax debt. They matter to anyone asking the IRS for a payment plan or a settlement of a tax debt. They do not apply to a business's own costs, only to a person's living expenses. What the tables decide is simple once you see the split: some costs are handed over at a set amount, no receipts needed. Others are a ceiling — the taxpayer gets the standard amount or what they actually spend, whichever is lower. Mixing up which is which is the single most common mistake made with these tables.
+</div>
 
 ## The rule
 
@@ -112,13 +127,14 @@ allowed, provided the taxpayer documents it. What will not work is inconvenience
 says a deviation from a local standard is not allowed merely because it is inconvenient for the
 taxpayer to dispose of valued assets or reduce excessive necessary expenses.
 
-<div class="scenario">
+<div class="scenario" data-type="boundary">
 <h3>The paid-off car</h3>
 
-Rosalind Achebe owes four years of income tax and asks for a streamlined-adjacent installment
-agreement that requires a financial statement. She drives a nine-year-old sedan, paid off in
-2023, and reports 340 dollars a month in fuel, insurance and repairs. Her representative lists
-the full transportation standard — ownership plus operating — on the Form 433-A.
+Rosalind Achebe owes four years of income tax and asks for a streamlined-adjacent
+{gloss:installment-agreement} that requires a financial statement. She drives a nine-year-old
+sedan, paid off in 2023, and reports 340 dollars a month in fuel, insurance and repairs. Her
+representative lists the full transportation standard — ownership plus operating — on the Form
+433-A, the {gloss:collection-information-statement}.
 
 The revenue officer strikes the ownership component. Because Achebe has no lease or loan
 payment, the allowable ownership cost is zero; only the operating portion of the transportation
@@ -129,7 +145,7 @@ claim the operating standard, note the vehicle's age in the remarks, and — if 
 fact running above the regional figure — substantiate the excess and ask for a deviation.
 </div>
 
-<div class="scenario">
+<div class="scenario" data-type="baseline">
 <h3>Spending less than the standard</h3>
 
 Dmitri Vasquez lives frugally. His actual monthly outlay on food, housekeeping supplies,
@@ -139,14 +155,15 @@ the IRS should not fund spending that is not happening.
 
 That is wrong, and the IRM says so directly. Taxpayers are allowed the total national standard
 amount monthly for their family size without questioning the amounts they actually spend
-(IRM 5.15.1.9). Vasquez receives the one-person national standard in the table above, not his
-receipts. His representative should cite the paragraph and the IRM's illustrative example, in
+(IRM 5.15.1.9). Vasquez receives the one-person national standard set out in the
+{gloss:irs-collection-financial-standards}, not his receipts. His representative should cite the
+paragraph and the IRM's illustrative example, in
 which a taxpayer whose actual expenditures total less than the national standard is nonetheless
 allowed the standard. The difference — well over two hundred dollars a month — is the whole
 margin between a payment plan Vasquez can sustain and one he will default on.
 </div>
 
-<div class="scenario">
+<div class="scenario" data-type="procedural">
 <h3>The private school and the one-year rule</h3>
 
 The Okonjo family owes a substantial balance and cannot full-pay within six years. Their

@@ -21,7 +21,18 @@ forms: ["5330"]
 related: ["2.3.3.b", "2.3.3.e", "2.3.3.a", "2.3.3.c", "1.2.2.f"]
 changelog:
   - { date: "2026-08-21", summary: "Initial draft. Sets out the six categories of prohibited transaction in IRC § 4975(c)(1), the disqualified person definition in IRC § 4975(e)(2) with the narrow family definition of IRC § 4975(e)(6) that omits siblings, the 15 percent initial and 100 percent additional taxes with joint and several liability, the amount involved and correction definitions, the statutory exemptions of IRC § 4975(d) and their withdrawal for owner-employees under IRC § 4975(f)(6), and the wholly different IRA consequence under IRC § 408(e)(2)." }
+  - { date: "2026-08-25", summary: "Added a plain-language summary, glossary marks, and typed scenarios." }
 ---
+
+<div class="plain-terms">
+A retirement plan cannot make certain deals with people close to it. This is true even if the
+deal is fair. The law names the deals that are off-limits — buying property from the plan,
+selling property to it, borrowing its money, or using its money for personal gain. It does not
+matter what price is paid. This affects business owners who run their own plan, plus close
+family, staff, and advisers the law treats as insiders. Not every relative counts, though — some
+are left out. Break the rule in a company plan and a tax bill follows. Break it inside an IRA and
+something worse happens: the account stops counting as an IRA.
+</div>
 
 The prohibited transaction rules are not a general anti-abuse standard. They are a list of six
 transaction types that are forbidden between a plan and a defined class of people, whether or not
@@ -112,7 +123,7 @@ two are the mailing of a notice of deficiency and the assessment of the initial 
 that reaches assessment stops the clock but leaves the 100 percent additional tax available, so
 speed of correction matters more than the elegance of the argument.
 
-<div class="scenario">
+<div class="scenario" data-type="baseline">
 
 <h3>The building the plan wanted to buy</h3>
 
@@ -132,7 +143,7 @@ exemption, applied for in advance.
 
 </div>
 
-<div class="scenario">
+<div class="scenario" data-type="interaction">
 
 <h3>The sister-in-law's consultancy</h3>
 
@@ -152,7 +163,7 @@ beyond reasonable compensation, because the amount involved would then be the ex
 
 </div>
 
-<div class="scenario">
+<div class="scenario" data-type="timing">
 
 <h3>The IRA that bought a holiday let</h3>
 
@@ -161,7 +172,7 @@ intending to rent it out. In August she and her family stay in it for a fortnigh
 rent. Her IRA balance was $340,000 on 1 January 2026 and $355,000 in August. She is 51.
 
 The fortnight's use is a use of plan assets for the benefit of a disqualified person under
-IRC § 4975(c)(1)(D) — she is the beneficiary of the account and a fiduciary of it. Because this is an
+IRC § 4975(c)(1)(D) — she is the {gloss:beneficiary} of the account and a {gloss:fiduciary} of it. Because this is an
 IRA, IRC § 4975 does not produce an excise tax. IRC § 408(e)(2) instead provides that the account
 ceased to be an individual retirement account as of the first day of her 2026 taxable year and is
 treated as having distributed all its assets then. So the $340,000 balance as of 1 January is
@@ -192,7 +203,7 @@ definitions are genuinely different and the exam tests the difference.
 **The participant loan exemption does not reach owner-employees.** IRC § 4975(f)(6) withdraws the
 IRC § 4975(d) exemptions for transactions with an owner-employee as defined in IRC § 401(c)(3). A
 sole proprietor or a more-than-10-percent partner therefore cannot take a plan loan, however
-carefully the plan document is drafted. A more-than-5-percent shareholder of an S corporation is
+carefully the plan document is drafted. A more-than-5-percent shareholder of an {gloss:s-corporation} is
 treated the same way.
 
 </div>

@@ -19,7 +19,20 @@ forms: []
 related: ["3.3.3.c", "3.3.3.h", "3.3.3.e", "3.2.4.a"]
 changelog:
   - { date: "2026-08-18", summary: "Initial publication from IRC §§ 7491, 7454, 6902 and 6201(d), Tax Court Rule 142, and 28 U.S.C. § 2412(d)(2)(B), each opened at source." }
+  - { date: "2026-08-25", summary: "Added a plain-language summary, a decision diagram of the § 7491(a) shift, a glossary mark, and typed scenarios." }
+diagram:
+  archetype: "decision"
+  caption: "Whether the burden of proof shifts to the IRS"
+  tests:
+    - { test: "Is this in an actual court proceeding, not the examination itself?", result: "No — the taxpayer carries the burden throughout the audit", outcome: "fail" }
+    - { test: "Did the taxpayer introduce credible evidence on a factual issue?", result: "No — the taxpayer keeps the burden on that issue", outcome: "fail" }
+    - { test: "Did the taxpayer substantiate, keep full records, and cooperate — and, for an entity, meet the net-worth and employee limits?", result: "No — none of that shifts unless every condition is met", outcome: "fail" }
+    - { test: "All conditions met", result: "The burden shifts to the IRS on that issue", outcome: "pass" }
 ---
+
+<div class="plain-terms">
+When you go to court over a tax dispute, who has to prove what? By default, you do — the {gloss:burden-of-proof} sits with you, not the IRS. There are a few narrow ways it can shift to the IRS instead, but only inside an actual court case, never during the audit itself, and only if you already kept good records and cooperated the whole time. If fraud is on the table, the IRS carries a much heavier load. This topic sorts out who really has to prove what, and why waiting until court to start proving your case is usually too late.
+</div>
 
 Start from the default and work outwards. The burden is on the **taxpayer**, and every rule in this topic is an exception to that — each one narrow, each one conditional, and every one of them operating **in a court proceeding** rather than in the examination. A representative who tells a client at examination that the IRS bears the burden has confused a litigation rule with an audit rule, and the client will substantiate less as a result.
 
@@ -78,25 +91,25 @@ Four limits are built into that sentence and its subsections.
 
 **Transferee liability splits.** The Commissioner must prove the petitioner is liable **as a transferee**; the underlying **tax liability of the transferor is not the Commissioner's to prove**. A representative who reads § 6902(a) as putting the whole case on the government has read half of it.
 
-<div class="scenario">
+<div class="scenario" data-type="fails">
 <h3>The client who stopped answering</h3>
 <p>During an examination a client, frustrated by a third document request, tells the representative to stop responding. The examination closes unagreed, a notice of deficiency issues, and the client now wants to petition the Tax Court, expecting the IRS to have to prove its case.</p>
 <p><em>Analysis.</em> The shift is gone. IRC § 7491(a)(2)(B) conditions it on the taxpayer having maintained all required records <em>and</em> having cooperated with reasonable requests by the Secretary for witnesses, information, documents, meetings and interviews. The client's decision to stop responding is precisely the failure the condition describes, and it cannot be cured after the fact. The burden in the petition will be the client's. It should have been explained at the moment the client wanted to stop.</p>
 </div>
 
-<div class="scenario">
+<div class="scenario" data-type="interaction">
 <h3>The accuracy-related penalty and the optimistic reading</h3>
 <p>An individual client is petitioning a deficiency that carries an accuracy-related penalty. The client has read that the IRS bears the burden on penalties and asks whether the penalty can simply be ignored in preparing the case.</p>
 <p><em>Analysis.</em> No. IRC § 7491(c) puts the burden of <em>production</em> on the Secretary as to an individual's liability for a penalty, addition to tax or additional amount. Production is not persuasion. Once the Commissioner produces evidence that the penalty applies, the taxpayer's affirmative case — reasonable cause and good faith — remains the taxpayer's to make. The reasonable cause file needs to be built now.</p>
 </div>
 
-<div class="scenario">
+<div class="scenario" data-type="procedural">
 <h3>The theory that appeared in the answer</h3>
 <p>A notice of deficiency disallows a deduction for lack of substantiation. In its answer the Commissioner also asserts, for the first time, that the arrangement lacked economic substance.</p>
 <p><em>Analysis.</em> That looks like new matter. Tax Court Rule 142(a)(1) places the burden on the respondent in respect of any new matter, increases in deficiency, and affirmative defences pleaded in the answer. The substantiation issue stays with the petitioner; the economic-substance theory, raised for the first time in the answer rather than as the basis of the notice, is one the representative should identify as new matter and press. This is independent of § 7491 and does not depend on its conditions.</p>
 </div>
 
-<div class="scenario">
+<div class="scenario" data-type="boundary">
 <h3>The corporation that did everything right</h3>
 <p>A closely held corporation with $19 million of net worth and 40 employees substantiated every item, produced every record and cooperated fully throughout a long examination. Its representative plans to rely on the burden shifting under § 7491(a).</p>
 <p><em>Analysis.</em> It will not shift. For a partnership, corporation or trust, § 7491(a)(2)(C) requires the taxpayer to be described in § 7430(c)(4)(A)(ii), which applies the net worth and employee limits in the figures table, measured at the time the action was filed. The corporation fails the net worth limit despite meeting every behavioural condition. Its exemplary cooperation is still worth having; it just will not move the burden.</p>

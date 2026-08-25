@@ -19,7 +19,27 @@ forms: ["2848", "8821"]
 related: ["3.1.1.a", "3.2.1.a", "3.2.1.d", "3.1.2.o", "3.1.3.b", "3.1.2.h"]
 changelog:
   - { date: "2026-08-18", summary: "Initial publication from 31 CFR Part 10 and the IRS's current statement of representation rights." }
+  - { date: "2026-08-25", summary: "Added a plain-language summary, a decision diagram of the category chain, glossary marks, and typed scenarios." }
+diagram:
+  archetype: "decision"
+  caption: "Which category of person may represent a taxpayer, and how far that right reaches"
+  tests:
+    - { test: "Attorney, CPA, or enrolled agent?", result: "Unlimited rights — any client, any matter", outcome: "pass" }
+    - { test: "Enrolled actuary or enrolled retirement plan agent?", result: "Practitioner, but limited to the enumerated retirement-plan provisions", outcome: "pass" }
+    - { test: "AFSP participant, on a return they prepared and signed?", result: "Limited rights — revenue agents and similar employees only, not Appeals or collection", outcome: "pass" }
+    - { test: "Qualifies under § 10.7(c) — family, employee, officer, partner, or government duty?", result: "Limited practice for that one matter only", outcome: "pass" }
+    - { test: "None of the above", result: "No representation rights — self-representation, or a practitioner holding Form 2848", outcome: "fail" }
 ---
+
+<div class="plain-terms">
+This page sorts out who can speak for a taxpayer to the IRS, and how much they can do.
+It matters to anyone hiring, or working as, a paid tax helper. It does not affect a
+taxpayer speaking for themselves — anyone can always do that. Some people, such as a
+lawyer, a CPA, or an {gloss:enrolled-agent}, can handle any client, on any issue, from an
+audit to an appeal. Others can only help in narrow ways, or only for one return they
+signed. This page decides who can act at each stage of a case, and who must step aside
+when the case moves on.
+</div>
 
 Eligibility to practice and the extent of what you may do are two different questions, and the second is where most mistakes live. Circular 230 § 10.3 says who may practice. It does not say that everyone on the list may do everything, and it is not the only route to appearing before the IRS — a category of people who are not practitioners at all may represent a taxpayer under § 10.7.
 
@@ -47,19 +67,19 @@ The extent question decides real matters. An Annual Filing Season Program partic
 
 The fiduciary rule catches people out because it looks like representation. An executor dealing with a decedent's return is not representing the taxpayer; the executor *is* the taxpayer for this purpose, and the form that establishes the relationship is a fiduciary notice, not a power of attorney.
 
-<div class="scenario">
+<div class="scenario" data-type="fails">
 <h3>The controller who is not an employee</h3>
 <p>A manufacturing company uses a fractional controller, engaged through her own consultancy for two days a week. The company is examined and asks her to attend the meeting and speak for it. She is not an attorney, CPA, or enrolled agent.</p>
 <p><em>Analysis.</em> Section 10.7(c)(1)(iv) covers a bona fide officer or a <em>regular full-time employee</em> of a corporation. A contracted consultant is neither, however embedded she is. She may attend, furnish information at the IRS's request, and appear as a witness (§ 10.8(b)), but she may not represent the company. The company needs an officer, a full-time employee, or a practitioner holding a Form 2848.</p>
 </div>
 
-<div class="scenario">
+<div class="scenario" data-type="interaction">
 <h3>Limited rights meeting a collection notice</h3>
-<p>Devin holds an Annual Filing Season Program record of completion and prepared and signed a client's return. A revenue agent examines it, and Devin represents the client through the examination. The examination closes with a balance due, and the account moves to collection, where the client wants to request an installment agreement.</p>
+<p>Devin holds an {gloss:annual-filing-season-program} record of completion and prepared and signed a client's return. A revenue agent examines it, and Devin represents the client through the examination. The examination closes with a balance due, and the account moves to collection, where the client wants to request an installment agreement.</p>
 <p><em>Analysis.</em> Devin's representation was proper up to that point: the return was one he prepared and signed, and a revenue agent is within his limited rights. Collection is not. He cannot represent the client on the installment agreement, and cannot take the matter to Appeals if the request is denied. The client needs a representative with unlimited rights, and a new Form 2848.</p>
 </div>
 
-<div class="scenario">
+<div class="scenario" data-type="boundary">
 <h3>The actuary asked the wrong question</h3>
 <p>An enrolled actuary advises a company's defined benefit plan. During an examination of the plan's funding, the revenue agent also raises the deductibility of the company's officer compensation.</p>
 <p><em>Analysis.</em> Funding under § 412 is squarely within § 10.3(d)(2). Officer compensation is not on that list, so the actuary's authority stops at the boundary of the enumerated provisions. Practising past it is practice by someone not eligible for that matter, and it exposes the actuary under Circular 230 rather than merely being ineffective.</p>

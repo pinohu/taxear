@@ -18,7 +18,18 @@ forms: []
 related: ["3.2.5.g", "3.2.6.h", "3.2.6.e"]
 changelog:
   - { date: "2026-08-18", summary: "Initial publication from IRM 1.11.1 (effective 29 August 2025), IRC § 7811, Reg. § 1.6662-4 and 5 U.S.C. § 552, each opened at source." }
+  - { date: "2026-08-25", summary: "Added a plain-language summary, glossary marks, and typed scenarios." }
 ---
+
+<div class="plain-terms">
+This page explains what the Internal Revenue Manual actually is: the IRS's own
+instructions to its staff, telling them what to check and when. It matters to anyone
+dealing with the IRS, because it shows what the person on the other side of the case has
+been told to do — and lets you tell when they have not followed it. It is not a law and
+does not give a taxpayer any legal right. What it decides is narrower and more useful
+than it sounds: reading it tells you what should happen next in your case, and in one
+specific situation, an employee ignoring it can actually help you.
+</div>
 
 The Internal Revenue Manual is the IRS telling its own employees how to do their jobs. It is **not on the authority list** in Reg. § 1.6662-4(d)(3)(iii), it does not have the force of law, and it confers no rights on taxpayers. And it is still one of the most useful documents a representative can read — because it tells you exactly what the person across the table has been instructed to do, and because **non-compliance with it is a statutory ground for relief** in one specific place.
 
@@ -71,25 +82,25 @@ The Internal Revenue Manual is the IRS telling its own employees how to do their
 
 **Know the parts you actually use.** Part 4 is examination, part 5 collection, part 8 Appeals, part 20 penalty and interest, part 13 the Taxpayer Advocate Service. Parts 30 to 39 are the Chief Counsel Directives Manual and are a different animal — Chief Counsel's own instructions, including part 32 on published guidance and part 36 on actions on decisions.
 
-<div class="scenario">
+<div class="scenario" data-type="procedural">
 <h3>The IRM section in the Form 911</h3>
-<p>A collection case has proceeded in a way the representative believes departs from a specific IRM instruction on contacting a representative of record. The client's hardship is real but not dramatic, and the representative doubts the Taxpayer Advocate will take the case.</p>
+<p>A collection case has proceeded in a way the representative believes departs from a specific IRM instruction on contacting a representative of record. The client's hardship is real but not dramatic, and the representative doubts the {gloss:taxpayer-advocate-service} will take the case.</p>
 <p><em>Analysis.</em> Cite the IRM section by number. IRC § 7811(a)(3) provides that where an IRS employee is not following applicable published administrative guidance <em>including the Internal Revenue Manual</em>, the National Taxpayer Advocate <em>shall</em> construe the factors bearing on whether to issue a Taxpayer Assistance Order in the manner most favourable to the taxpayer. On a borderline case that provision is what moves it. Quote the instruction, identify it by number, and say what the employee did instead.</p>
 </div>
 
-<div class="scenario">
+<div class="scenario" data-type="timing">
 <h3>The section that had been overtaken</h3>
 <p>A representative relies on an IRM procedure found on irs.gov, dated eighteen months ago, and advises the client accordingly. The revenue officer follows a different process and says the guidance changed last year.</p>
 <p><em>Analysis.</em> Both may be right. IRM 1.11.1.3 requires program offices to use interim guidance to convey new, changed, pilot or temporary procedure "in situations where there is insufficient time to update and publish the IRM." A posted section can therefore be current on its face and superseded in practice. Before relying on a section, check the transmittal for incorporated IPUs and ask the officer to identify the interim guidance they are working from.</p>
 </div>
 
-<div class="scenario">
+<div class="scenario" data-type="fails">
 <h3>The argument that went too far</h3>
 <p>In a protest, a representative argues that because the examiner did not follow an IRM step, the proposed adjustment is invalid and must be withdrawn.</p>
 <p><em>Analysis.</em> Overstated, and it weakens the rest of the protest. The IRM is not on the Reg. § 1.6662-4(d)(3)(iii) authority list, has no force of law, and confers no rights on taxpayers; non-compliance does not invalidate an assessment. The right use is narrower and still worth making — raise it with the examiner's manager, and hold it for a Form 911 where IRC § 7811(a)(3) gives it real weight. Argue the law on the merits and the IRM on the process, separately.</p>
 </div>
 
-<div class="scenario">
+<div class="scenario" data-type="boundary">
 <h3>The procedure that was not published</h3>
 <p>A representative asks for the IRM section governing a particular selection step and is told the material is official use only and not available.</p>
 <p><em>Analysis.</em> Possible, but the exemption is narrow. IRM 1.11.1.3.1.3 records that of the nine FOIA exemptions "generally only 5 U.S.C. § 552(b)(7)(E) applies to instructions to staff" — content whose disclosure could reasonably be expected to risk circumvention of the law. Selection tolerances plausibly qualify; general procedure does not. And redaction is partial: where a section holds both OUO and non-OUO content, only the OUO part is removed. Ask for the published section with the redactions, not for nothing.</p>

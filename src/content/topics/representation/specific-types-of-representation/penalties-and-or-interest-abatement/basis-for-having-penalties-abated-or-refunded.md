@@ -19,7 +19,19 @@ forms: ["843"]
 related: ["3.3.2.a", "3.2.6.a", "3.1.4.b", "3.3.1.o", "3.3.1.f", "3.3.2.c", "3.3.2.e"]
 changelog:
   - { date: "2026-08-18", summary: "Initial publication from IRC §§ 6651, 6664(c), 6404 and IRM 20.1.1." }
+  - { date: "2026-08-25", summary: "Added a plain-language summary, a baseline scenario, typed scenarios, and glossary marks." }
 ---
+
+<div class="plain-terms">
+This page is about the different reasons the IRS will remove a penalty it already charged,
+and which reason fits which penalty. A good excuse for filing late works one way. The
+excuse for a wrong-return penalty asks for more: good faith as well as a good excuse.
+There is also a one-time break for someone with a clean recent record. And there is a
+narrow rule for a penalty caused by bad advice the IRS gave in writing. This matters to
+anyone facing a late-filing, late-payment, or accuracy penalty who must pick how to ask
+for relief. It decides which argument to make, what proof is needed, and which penalty to
+use the one-time break on, since that break can be used only once.
+</div>
 
 There are four distinct grounds for removing a penalty, and they are not ranked versions of one another. Each attaches to particular penalties, demands particular evidence, and fails in a particular way. Choosing the wrong one wastes the request and, in the case of first-time abate, can waste something the client cannot get back.
 
@@ -49,19 +61,25 @@ Evidence follows the ground. Reasonable cause is a story with documents: the hos
 
 Where the penalty has already been paid, the vehicle is a refund claim on Form 843, and the limitations rules for refunds apply to it.
 
-<div class="scenario">
+<div class="scenario" data-type="baseline">
+<h3>The routine reasonable-cause request</h3>
+<p>A sole proprietor is hospitalized for two weeks spanning her return's due date, with no preparer engaged and no one else able to file for her. She files and pays three weeks after discharge, attaching a brief statement of the dates and the hospitalization.</p>
+<p><em>Analysis.</em> This is {gloss:reasonable-cause-defense} working as designed under § 6651(a)(1) and (a)(2): a specific, documented event that prevented ordinary business care and prudence, followed by prompt compliance once it passed. No first-time abate request is needed, and none is spent — reasonable cause reaches the result on its own facts.</p>
+</div>
+
+<div class="scenario" data-type="procedural">
 <h3>The waiver spent too early</h3>
-<p>A client receives a $180 failure-to-pay penalty for 2023 and asks his representative to "just get it removed." The representative requests first-time abate and it is granted. Six months later an examination of 2022 closes with a much larger failure-to-file penalty.</p>
+<p>A client receives a $180 failure-to-pay penalty for 2023 and asks his representative to "just get it removed." The representative requests {gloss:first-time-abatement} and it is granted. Six months later an examination of 2022 closes with a much larger failure-to-file penalty.</p>
 <p><em>Analysis.</em> The waiver has been used, and the compliance history that supported it no longer looks the same to the later request. Had the smaller penalty been argued on reasonable cause, or simply paid, the waiver would have been available for the larger one. Check the client's open years before requesting anything.</p>
 </div>
 
-<div class="scenario">
+<div class="scenario" data-type="fails">
 <h3>Advice that was not in writing</h3>
 <p>A client telephoned the IRS, was told her filing obligation did not arise until the following year, relied on that, and was penalised. She kept a careful note of the call, the date, and the employee's identification number.</p>
 <p><em>Analysis.</em> Section 6404(f) requires advice furnished <em>in writing</em>, in response to a <em>specific written request</em>. A contemporaneous note of a telephone call, however meticulous, does not satisfy either limb. The argument is not lost, but it must be made as reasonable cause under the relevant penalty section, where reliance on IRS advice is a fact supporting the case rather than a statutory entitlement.</p>
 </div>
 
-<div class="scenario">
+<div class="scenario" data-type="interaction">
 <h3>Two penalties, two tests</h3>
 <p>An examination produces both a late-filing penalty and an accuracy-related penalty. The client relied throughout on a competent adviser given complete information.</p>
 <p><em>Analysis.</em> The same facts feed two different tests. For the late filing, the question is reasonable cause and absence of willful neglect under § 6651(a)(1). For the accuracy penalty, it is reasonable cause <em>and</em> good faith under § 6664(c)(1). Reliance on a professional can satisfy both, but it must be argued separately for each, and the accuracy penalty needs the good-faith limb addressed explicitly rather than assumed.</p>

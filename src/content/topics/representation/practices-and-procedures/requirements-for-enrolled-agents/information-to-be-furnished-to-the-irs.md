@@ -17,9 +17,20 @@ forms: []
 related: ["3.1.2.b", "3.1.2.n", "3.1.3.a", "3.1.2.m", "3.1.2.f", "3.3.3.b", "3.2.6.f", "3.2.2.d", "3.2.2.c"]
 changelog:
   - { date: "2026-08-18", summary: "Initial publication from Circular 230 §§ 10.20 and 10.51." }
+  - { date: "2026-08-25", summary: "Added a plain-language summary, glossary marks, and typed scenarios." }
 ---
 
-Section 10.20 is short and does more than it looks. It obliges a practitioner to hand over records on request, gives one exception — a good-faith belief in privilege — and then adds a second, separate duty that catches practitioners by surprise: where the inquiry is into someone's alleged Circular 230 violation, the practitioner must give information **and testify**.
+<div class="plain-terms">
+This page is about a tax pro's duty to hand over records the IRS asks for. If an IRS officer
+makes a fair request, the pro must give the records up fast. The one exception: they truly
+believe, for good reason, that the material is off-limits. This affects enrolled agents,
+lawyers, and CPAs who deal with the IRS for a client. It does not let the IRS demand anything
+on any terms it likes. It sets the line for when a pro must comply, when they may hold back,
+and a second duty many miss: they must also answer questions, and even testify, about another
+pro's possible misconduct.
+</div>
+
+Section 10.20 is short and does more than it looks. It obliges a practitioner to hand over records on request, gives one exception — a good-faith belief in {gloss:privilege} — and then adds a second, separate duty that catches practitioners by surprise: where the inquiry is into someone's alleged {gloss:circular-230} violation, the practitioner must give information **and testify**.
 
 ## The rule
 
@@ -43,21 +54,21 @@ Section 10.20 is short and does more than it looks. It obliges a practitioner to
 
 **Paragraph (a)(3) is the one to warn colleagues about.** Being asked about *another practitioner's* conduct is not a matter the practitioner can decline as none of their business. The duty to provide information and to testify in a subpart D proceeding is express, and the only exception is the same privilege ground.
 
-<div class="scenario">
+<div class="scenario" data-type="baseline">
 <h3>Records the client no longer holds</h3>
 <p>A revenue agent asks a practitioner for three years of a client's bank statements. The client closed the account and kept nothing. The practitioner has never held them.</p>
 <p><em>Analysis.</em> Section 10.20(a)(2) applies. The practitioner must promptly notify the agent that neither they nor the client has the records, and must supply what they know about who might &mdash; here, the bank. They must ask the client who may have possession or control, and that is the extent of the inquiry: no duty to approach the bank, and no duty to verify the client's answer. Doing more is not required; doing less is a breach.</p>
 </div>
 
-<div class="scenario">
+<div class="scenario" data-type="fails">
 <h3>Privilege asserted to buy time</h3>
 <p>Facing a request for engagement correspondence, a practitioner tells the agent everything in the file is privileged, intending to slow the examination while the client decides what to do. He has not considered which documents might actually qualify.</p>
 <p><em>Analysis.</em> The exception in § 10.20(a)(1) requires a belief held <strong>in good faith and on reasonable grounds</strong>. A blanket assertion made without considering the documents is neither. Worse, § 10.20(b) separately prohibits interfering with a proper and lawful effort to obtain records, so the same conduct breaches two paragraphs &mdash; and willfully violating a regulation in the part is sanctionable under § 10.52(a)(1).</p>
 </div>
 
-<div class="scenario">
+<div class="scenario" data-type="boundary">
 <h3>Questions about another practitioner</h3>
-<p>An enrolled agent is contacted by OPR about a former colleague's conduct on a shared client. She considers it a professional matter between the colleague and OPR and declines to discuss it.</p>
+<p>An {gloss:enrolled-agent} is contacted by OPR about a former colleague's conduct on a shared client. She considers it a professional matter between the colleague and OPR and declines to discuss it.</p>
 <p><em>Analysis.</em> Section 10.20(a)(3) is express: on a proper and lawful request concerning an inquiry into an alleged Circular 230 violation, a practitioner must provide the information they have <em>and testify regarding it</em> in any proceeding instituted under the part. Only the good-faith privilege ground excuses it, and privilege belongs to the client rather than to the colleague. Declining is itself a violation.</p>
 </div>
 

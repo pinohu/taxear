@@ -21,7 +21,20 @@ forms: ["2848", "8821"]
 related: ["3.1.1.b", "3.1.1.a", "3.2.1.b", "3.2.1.c", "3.2.1.d", "3.3.1.b", "3.3.1.c", "3.2.6.a", "3.2.1.i", "3.2.1.j", "3.2.1.h", "3.2.1.e", "3.2.1.f", "3.2.1.g", "3.2.1.k", "3.2.2.d", "3.2.2.e"]
 changelog:
   - { date: "2026-08-18", summary: "Initial publication from 26 CFR Part 601 Subpart E and Circular 230." }
+  - { date: "2026-08-25", summary: "Added a plain-language summary, typed scenarios, and glossary marks." }
 ---
+
+<div class="plain-terms">
+A power of attorney is the paper that lets a taxpayer name someone else to speak for them
+to the IRS. It affects anyone who wants a tax pro, a lawyer, or another eligible helper to
+argue their case, ask questions, or see their file. It does not affect someone who just
+wants a friend or a bank to peek at their tax records. That calls for a different form
+instead. The named helper must be someone the rules allow to act in this role. Naming a
+person the rules do not allow gets nothing done, no matter how much the taxpayer trusts
+them. What this form decides is narrow and exact: which years, which taxes, and which acts
+the helper may handle. Anything left off the list stays outside the helper's reach, even on
+a point that is closely tied to it.
+</div>
 
 A power of attorney is the instrument by which a taxpayer authorises someone else to act for them before the IRS. It does two things at once on Form 2848: it grants the authority, and it carries the representative's declaration that they are eligible to hold it. Confusing that with a tax information authorization — which grants no authority to act at all — is the most common error in this area.
 
@@ -43,21 +56,21 @@ Because the form doubles as the declaration of representative, the representativ
 
 A power of attorney is also the mechanism by which a return may, in narrow circumstances, be signed by an agent — the return must be accompanied by the power of attorney authorising the agent to make, execute, or file it, and the regulation says a properly completed Form 2848 is sufficient for that purpose.
 
-<div class="scenario">
+<div class="scenario" data-type="boundary">
 <h3>The authorization that covers the wrong year</h3>
 <p>A client is examined for 2023. Her enrolled agent files a Form 2848 describing "Income, Form 1040, 2023." The examination expands to 2022 after the agent finds a carryover issue, and the revenue agent asks to discuss it.</p>
 <p><em>Analysis.</em> The authority is bounded by the description of matters under Reg. § 601.503(a)(5). The 2023 authorization does not reach 2022, and the representative has no authority to discuss it however obviously related it is. A new or amended Form 2848 naming 2022 is required before the conversation happens.</p>
 </div>
 
-<div class="scenario">
+<div class="scenario" data-type="fails">
 <h3>The lender who asks for a Form 2848</h3>
 <p>A bank underwriting a mortgage asks the borrower's accountant to have the borrower sign a Form 2848 naming the bank's loan officer so the officer can verify income with the IRS.</p>
-<p><em>Analysis.</em> Wrong instrument, and it would not work anyway. Representation authority under Form 2848 may only be given to someone eligible under Circular 230 § 10.3 or § 10.7, which a loan officer is not. What the bank actually needs is the ability to receive information, which is Form 8821 — a tax information authorization, conferring no representation rights.</p>
+<p><em>Analysis.</em> Wrong instrument, and it would not work anyway. Representation authority under Form 2848 may only be given to someone eligible under {gloss:circular-230} § 10.3 or § 10.7, which a loan officer is not. What the bank actually needs is the ability to receive information, which is Form 8821 — a {gloss:tax-information-authorization}, conferring no representation rights.</p>
 </div>
 
-<div class="scenario">
+<div class="scenario" data-type="interaction">
 <h3>Intention without eligibility</h3>
-<p>A taxpayer wants her business partner's brother, an experienced bookkeeper with a PTIN and no credential, to handle a collection matter. She signs a Form 2848 naming him and describing the matter precisely.</p>
+<p>A taxpayer wants her business partner's brother, an experienced bookkeeper with a {gloss:ptin} and no credential, to handle a collection matter. She signs a Form 2848 naming him and describing the matter precisely.</p>
 <p><em>Analysis.</em> Every § 601.503(a) element is present, and the taxpayer's intention is clear. It still fails: authority to represent must be held by someone Circular 230 permits, and a PTIN-only preparer has no representation rights. Both halves — the taxpayer's grant and the representative's eligibility — have to be satisfied, and the declaration of representative on the form is where the second half is tested.</p>
 </div>
 

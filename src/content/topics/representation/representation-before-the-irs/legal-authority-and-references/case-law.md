@@ -18,7 +18,18 @@ forms: []
 related: ["3.2.5.g", "3.2.5.b", "3.2.6.j", "3.2.5.d"]
 changelog:
   - { date: "2026-08-18", summary: "Initial publication from IRM 4.10.7, IRC § 7463, and Reg. §§ 1.6662-4 and 601.601, each opened at source." }
+  - { date: "2026-08-25", summary: "Added a plain-language summary, a glossary mark, and typed scenarios." }
 ---
+
+<div class="plain-terms">
+This page explains how much a court decision counts when the IRS decides how to treat a
+taxpayer. It matters most to a representative who has found a court case that seems to
+help a client and wants to use it in an argument. It does not decide whether tax is owed;
+it decides how far a given decision reaches beyond the case it came from. The short
+version: only the highest court's ruling applies to everyone. A win in a lower court
+usually helps only the person who won it, and only for the years already argued. Whether
+it helps anyone else depends on whether the IRS later agreed to follow it.
+</div>
 
 Court cases are on the closed authority list, and they are the only authority on it the IRS did not write. But not every decision counts the same. A **Supreme Court** decision binds the Service everywhere; a decision of the Tax Court, a District Court or the Court of Federal Claims binds it "**only for the particular taxpayer and the years litigated**." Everything else here follows from that gap — including why the acquiescence programme exists.
 
@@ -75,25 +86,25 @@ Court cases are on the closed authority list, and they are the only authority on
 
 **Cases go stale, and the regulation says how.** Reg. § 1.6662-4(d)(3)(iii) withdraws authority status to the extent a decision is overruled or modified — with the refinement that a Tax Court opinion is **not** treated as overruled by a court of appeals to which the taxpayer has no right of appeal, unless the Tax Court adopts that holding. Date-check and citator-check anything relied on.
 
-<div class="scenario">
+<div class="scenario" data-type="baseline">
 <h3>The case the client found</h3>
-<p>A client sends a Tax Court decision squarely supporting his position and asks why the examiner is not simply following it.</p>
+<p>A client sends a {gloss:tax-court} decision squarely supporting his position and asks why the examiner is not simply following it.</p>
 <p><em>Analysis.</em> Because it does not bind her. IRM 4.10.7.2.8.8 records that decisions of the Tax Court, District Courts and the Court of Federal Claims are binding on the IRS "only for the particular taxpayer and the years litigated," and that adverse lower-court decisions do not require the IRS to alter its position for other taxpayers. The case is authority and belongs in the weighing. The next question is whether the Service has issued an Action on Decision, and what it says.</p>
 </div>
 
-<div class="scenario">
+<div class="scenario" data-type="interaction">
 <h3>The nonacquiescence that mattered less than feared</h3>
 <p>Research turns up a Court of Appeals decision favourable to the client's position, and an AOD recording nonacquiescence. The client's principal place of business is within that circuit.</p>
 <p><em>Analysis.</em> Better than it first looks. Nonacquiescence means the IRS will not follow the holding on a nationwide basis, but the IRM records that "the IRS will recognize the precedential impact of the opinion on cases arising within the venue of the deciding circuit." Inside the circuit the decision governs. The representative should say so expressly in the protest, and should confirm the venue point rather than assume it.</p>
 </div>
 
-<div class="scenario">
+<div class="scenario" data-type="fails">
 <h3>The reasoning the Service did not accept</h3>
 <p>A memorandum builds its argument on the analytical framework set out in a Tax Court opinion. The AOD records "acquiescence in result only."</p>
 <p><em>Analysis.</em> The argument is built on the wrong half. Acquiescence in result only means the IRS accepts the holding of the court and will follow it on the same controlling facts, but "indicates disagreement or concern with some or all of" the court's reasons. Relying on the reasoning invites exactly the disagreement the Service has already recorded. Restate the argument on the holding and the controlling facts.</p>
 </div>
 
-<div class="scenario">
+<div class="scenario" data-type="boundary">
 <h3>The small case that proved nothing</h3>
 <p>A colleague reports that a taxpayer with identical facts won in the Tax Court last year, and proposes to cite the decision.</p>
 <p><em>Analysis.</em> Check which procedure it was heard under. A decision in a case handled under the small tax case procedures is final, may not be appealed by either party, and has <em>no precedential value</em> — IRC § 7463(b) and IRM 4.10.7.2.8.2.1. If the docket number ends in S it is a small tax case and there is nothing to cite. The underlying authorities the court relied on may still be worth reading.</p>

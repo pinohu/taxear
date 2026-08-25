@@ -19,7 +19,18 @@ forms: ["2848"]
 related: ["3.1.2.g", "3.1.4.e", "3.1.2.n", "3.1.1.b", "3.1.4.f"]
 changelog:
   - { date: "2026-08-18", summary: "Initial publication from Circular 230 § 10.31 as amended by T.D. 9668, IRC § 6695(f) and Reg. § 1.6695-1(f)." }
+  - { date: "2026-08-25", summary: "Added a plain-language summary, a glossary mark, and typed scenarios." }
 ---
+
+<div class="plain-terms">
+This rule stops a tax preparer from taking a client's IRS refund. A preparer must not sign the back
+of a client's refund check. The preparer must not send that money into an account they own or
+control. This is true even for a direct deposit. The rule covers anyone who prepares returns or
+represents taxpayers. It does not stop the client, who can always handle their own refund. A
+preparer may still deposit a refund into the client's own account, if the client says so. The rule
+decides where a refund check may end up. It treats a bank account number the same as a signature on
+the check. Breaking this rule can bring two different penalties, one for each check.
+</div>
 
 Two prohibitions cover the same conduct from different directions, and they are not co-extensive. Circular 230 § 10.31 is a practice rule enforced by the Office of Professional Responsibility; IRC § 6695(f) is a money penalty enforced by assessment. One act can trigger both, and the exam tests the differences.
 
@@ -58,25 +69,25 @@ The § 6695(f) penalty is **per check**, and Reg. § 1.6695-1(f)(4) states it in
 
 Two collateral rules travel with this topic. A power of attorney on **Form 2848** does not confer authority to endorse or negotiate a refund check. And the IRS limits how many refunds it will deposit electronically into one financial account — see the figures table — a fraud control that also catches preparers routing many clients' refunds to one place; the fourth and later refunds convert to a paper check mailed to the taxpayer.
 
-<div class="scenario">
+<div class="scenario" data-type="fails">
 <h3>The firm's account on the direct-deposit line</h3>
-<p>An enrolled agent prepares returns for a group of construction workers and, to make fee collection reliable, enters the firm's bank account on the direct-deposit line of each return. When each refund lands, she deducts her fee and writes the client a cheque for the balance. She has each client's written authorisation to do exactly this.</p>
+<p>An {gloss:enrolled-agent} prepares returns for a group of construction workers and, to make fee collection reliable, enters the firm's bank account on the direct-deposit line of each return. When each refund lands, she deducts her fee and writes the client a cheque for the balance. She has each client's written authorisation to do exactly this.</p>
 <p><em>Analysis.</em> Prohibited twice over. Under § 10.31(a) she has directed payment by electronic means into an account owned by the firm with which she is associated — that is negotiation, and the client's consent is irrelevant because the section admits no consent exception. Under Reg. § 1.6695-1(f)(1) she prepared the returns that produced the refunds and the deposit is not into an account in the taxpayer's name, so the carve-out does not reach it. The § 6695(f) penalty applies per check.</p>
 </div>
 
-<div class="scenario">
+<div class="scenario" data-type="baseline">
 <h3>Depositing to the client's own account</h3>
 <p>A different practitioner receives a paper refund check at his office because the client is deployed overseas. The client emails written authorisation asking him to deposit it into the client's own bank account. He signs the client's name on the back, marks it "for deposit only" to that account, and deposits it. He takes nothing.</p>
 <p><em>Analysis.</em> Within the carve-out of Reg. § 1.6695-1(f)(1). He affixed the taxpayer's name for the purpose of depositing the check into an account in the taxpayer's name, with the taxpayer's authorisation, and the preparer is not among the account holders. He is not treated as having endorsed or negotiated the check for § 6695(f) purposes. Circular 230 § 10.31 is directed at the practitioner endorsing or negotiating the check for value; a ministerial deposit into the taxpayer's own account, on the taxpayer's authority, does not put the funds into an account the practitioner owns or controls.</p>
 </div>
 
-<div class="scenario">
+<div class="scenario" data-type="boundary">
 <h3>The joint account</h3>
 <p>A practitioner and a long-standing client hold a joint account they set up years ago for an unrelated business venture. The client, travelling, authorises the practitioner in writing to deposit her $3,200 refund check into that joint account and to forward the money later.</p>
 <p><em>Analysis.</em> Outside the carve-out. Reg. § 1.6695-1(f)(1) permits deposit into an account in the joint names of the taxpayer and one or more other persons only where those others **exclude the tax return preparer**. This account includes him, so affixing the taxpayer's name is treated as endorsing or negotiating the check, and § 6695(f) applies. It is also an account the practitioner controls for § 10.31(a) purposes. The client's written authorisation does not help.</p>
 </div>
 
-<div class="scenario">
+<div class="scenario" data-type="interaction">
 <h3>The bank that prepared the return</h3>
 <p>A community bank operates a small return-preparation service. A customer's refund check arrives and the bank deposits the full amount into her checking account with the bank, endorsing it only in the ordinary clearing process afterwards. The bank has made no refund-anticipation loan to her.</p>
 <p><em>Analysis.</em> Permitted. IRC § 6695(f) excepts the deposit by a § 581 bank of the full amount in the taxpayer's account for the taxpayer's benefit, and Reg. § 1.6695-1(f)(2)(i) confirms it, provided the bank does not initially endorse the check and has made no loan on the anticipated refund. Reg. § 1.6695-1(f)(3) allows the later clearing endorsement. A refund-anticipation loan would lose the exception.</p>

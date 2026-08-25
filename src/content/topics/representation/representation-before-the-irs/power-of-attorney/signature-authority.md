@@ -19,7 +19,20 @@ forms: ["2848"]
 related: ["3.2.1.a", "3.2.1.c", "3.2.1.d", "3.2.6.a", "3.2.1.k"]
 changelog:
   - { date: "2026-08-18", summary: "Initial publication from IRC § 6501(c)(4), § 7121, Reg. § 601.503 and Circular 230 § 10.31." }
+  - { date: "2026-08-25", summary: "Added a plain-language summary, typed scenarios, and glossary marks." }
 ---
+
+<div class="plain-terms">
+Naming a representative lets that person argue and ask questions for you at the IRS. It
+does not, on its own, let them sign away your rights or take your money. This page looks at
+acts that go further than plain talk with the IRS. These are giving the IRS more time to
+check a return, signing a final deal that settles a fight for good, and handling a refund
+check. It affects any taxpayer who has named a representative, and any representative who
+must decide whether to sign something for a client. It does not affect routine talk with the
+IRS, since a normal grant already covers that. What this page decides is where the line
+sits. Some acts need a clear, separate yes from the taxpayer first. And one act, cashing a
+client's refund check, is off limits no matter what the taxpayer agrees to.
+</div>
 
 A power of attorney that authorises representation lets a practitioner argue, negotiate, and receive information. It does not automatically let them bind the client. The acts that commit a taxpayer to something — giving up time, settling finally, receiving money — are treated separately, and each has its own rule.
 
@@ -41,22 +54,22 @@ Consents arrive from examiners near the end of the assessment period, often with
 
 Closing agreements deserve a slower conversation with the client than they usually get. The finality under § 7121(b) means the ordinary routes for revisiting a year are gone, so a representative signing one is spending an option the client may not know they had.
 
-<div class="scenario">
+<div class="scenario" data-type="timing">
 <h3>The consent that arrived on Friday</h3>
-<p>An examiner emails a consent extending the assessment period for 2022, asking for it back by Monday. The assessment period expires in three weeks. The client is travelling; her enrolled agent holds a Form 2848 authorising representation for Form 1040, 2022, with no additional acts stated.</p>
+<p>An examiner emails a consent extending the assessment period for 2022, asking for it back by Monday. The assessment period expires in three weeks. The client is travelling; her {gloss:enrolled-agent} holds a Form 2848 authorising representation for Form 1040, 2022, with no additional acts stated.</p>
 <p><em>Analysis.</em> The authorisation covers representation, not signing away the limitations period. Signing would be an act the taxpayer has not authorised. The right steps are to tell the client, including that she has a statutory right to refuse or to limit the extension (IRC § 6501(c)(4)(B)), and either obtain her signature or an amended Form 2848 authorising the agent to sign a consent — before the existing period expires.</p>
 </div>
 
-<div class="scenario">
+<div class="scenario" data-type="boundary">
 <h3>Finality nobody explained</h3>
 <p>A representative negotiates a favourable treatment of a disputed deduction and signs a closing agreement covering the year. Eighteen months later the client discovers an unrelated overpayment in the same year and wants to claim a refund for it.</p>
 <p><em>Analysis.</em> A closing agreement approved by the Secretary is final and conclusive, reopenable only on fraud, malfeasance, or misrepresentation of a material fact (IRC § 7121(b)). If the agreement covered the year rather than a specified issue, the unrelated overpayment is likely gone with it. Scope matters as much as the substance: an agreement limited to the disputed deduction would have left the rest of the year alone.</p>
 </div>
 
-<div class="scenario">
+<div class="scenario" data-type="fails">
 <h3>The refund routed to the firm</h3>
 <p>A firm's engagement letter says fees are payable from the client's refund, and asks clients to have refunds deposited into the firm's trust account, from which the balance is remitted to the client.</p>
-<p><em>Analysis.</em> Circular 230 § 10.31(a) prohibits a practitioner from endorsing or otherwise negotiating a government refund check, and expressly includes directing or accepting payment into an account owned or controlled by the practitioner or their firm. The engagement letter does not save it — the rule is a restriction on the practitioner, not a default the client may vary.</p>
+<p><em>Analysis.</em> {gloss:circular-230} § 10.31(a) prohibits a practitioner from endorsing or otherwise negotiating a government refund check, and expressly includes directing or accepting payment into an account owned or controlled by the practitioner or their firm. The engagement letter does not save it — the rule is a restriction on the practitioner, not a default the client may vary.</p>
 </div>
 
 <div class="callout trap"><h4>Traps</h4>

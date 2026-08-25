@@ -18,7 +18,18 @@ forms: []
 related: ["3.2.6.e", "3.2.6.a", "3.3.3.h", "3.2.6.f", "3.2.6.i", "3.2.5.f"]
 changelog:
   - { date: "2026-08-18", summary: "Initial publication from IRC §§ 7803(c) and 7811, and the Taxpayer Advocate Service criteria page, each opened at source." }
+  - { date: "2026-08-25", summary: "Added a plain-language summary, typed scenarios, and glossary marks." }
 ---
+
+<div class="plain-terms">
+The Taxpayer Advocate Service is a help desk inside the IRS for people whose problem the normal
+process has not fixed. It helps people who face real hardship, a stuck case, or unfair treatment. It
+does not help someone who just wants a second opinion on a call the IRS already made — that goes
+through an appeal or a court instead. To use it, a taxpayer tells the office what went wrong on a
+short form. In a bad case, the office can order the IRS to pause and fix a mistake while things get
+sorted out. It decides who gets extra help when the normal path has stalled, and it settles what that
+help can and cannot do.
+</div>
 
 The Taxpayer Advocate Service is easy to misuse. It is not an appeal, not a second opinion on the merits, and not a way to reopen a determination the client dislikes. It is an independent office within the IRS with a statutory function — helping taxpayers whose problems the ordinary machinery has failed to solve — backed by a real power to order the IRS to stop, start, or undo something. The nine criteria are half the topic; what a Taxpayer Assistance Order can actually do is the other half.
 
@@ -73,25 +84,25 @@ The Taxpayer Advocate Service is easy to misuse. It is not an appeal, not a seco
 
 **The independence disclosure is a statutory duty, not a courtesy.** At the initial meeting the local advocate must say that the offices operate independently of any other IRS office and report directly to Congress; the separate phone, fax and postal address exist for the same reason. The advocate's discretion not to disclose contact or information to the IRS is real, but it is a **discretion** — do not describe it to a client as confidentiality.
 
-<div class="scenario">
+<div class="scenario" data-type="baseline">
 <h3>The refund that never came</h3>
 <p>A client's amended return claiming a $6,300 refund was filed fourteen months ago. Three interim letters have arrived, each asking for another sixty days. The client's representative has called four times and been given a new date each time.</p>
-<p><em>Analysis.</em> This is squarely an IRS system issue — reason 5, a delay of more than 30 days beyond regular processing time, and reason 6, no response or resolution by the date the IRS promised. A Form 911 should be filed identifying those reasons by number, attaching the interim letters and a log of the calls with the dates promised. This is exactly the kind of case TAS exists for, and it is not an appeal of anything.</p>
+<p><em>Analysis.</em> This is squarely an IRS system issue — reason 5, a delay of more than 30 days beyond regular processing time, and reason 6, no response or resolution by the date the IRS promised. A Form 911 should be filed identifying those reasons by number, attaching the interim letters and a log of the calls with the dates promised. This is exactly the kind of case the {gloss:taxpayer-advocate-service} exists for, and it is not an appeal of anything.</p>
 </div>
 
-<div class="scenario">
+<div class="scenario" data-type="boundary">
 <h3>The levy on the payroll account</h3>
-<p>A levy lands on a small employer's operating account four days before payroll. The client will not be able to pay eleven employees. The revenue officer is unreachable.</p>
+<p>A {gloss:levy} lands on a small employer's operating account four days before payroll. The client will not be able to pay eleven employees. The revenue officer is unreachable.</p>
 <p><em>Analysis.</em> Financial hardship, reasons 1 and 2 — hardship about to be suffered and an immediate threat of negative action — and within IRC § 7811(a)(2)'s statutory definition as an immediate threat of adverse action and irreparable injury. This is the fact pattern where a Taxpayer Assistance Order matters, because § 7811(b)(1) lets the order require release of levied property within a specified time. File Form 911 immediately and say what the money is for and when it is needed.</p>
 </div>
 
-<div class="scenario">
+<div class="scenario" data-type="interaction">
 <h3>The IRM that was not followed</h3>
 <p>A collection case has proceeded in a way the representative believes departs from a specific IRM provision on contacting a taxpayer's representative of record. The client is suffering, but not dramatically.</p>
 <p><em>Analysis.</em> Cite the IRM provision. IRC § 7811(a)(3) requires that where an IRS employee is not following applicable published administrative guidance, including the IRM, the National Taxpayer Advocate <em>shall</em> construe the factors in determining whether to issue a Taxpayer Assistance Order in the manner most favourable to the taxpayer. On borderline hardship, that provision is what moves the case. The Form 911 should quote it and identify the guidance by number.</p>
 </div>
 
-<div class="scenario">
+<div class="scenario" data-type="procedural">
 <h3>The order the revenue officer ignored</h3>
 <p>A Taxpayer Assistance Order requires release of a levy within five days. On day seven the levy is still in place and the revenue officer tells the representative the group manager has decided the order does not apply.</p>
 <p><em>Analysis.</em> The group manager has no such power. Under IRC § 7811(c) a Taxpayer Assistance Order may be modified or rescinded only by the National Taxpayer Advocate, the Commissioner, or the Deputy Commissioner, and only if a written explanation of the reasons is provided to the National Taxpayer Advocate. The representative should go back to the advocate who issued the order, state that it has not been complied with, and say who claims to have set it aside.</p>

@@ -28,7 +28,18 @@ forms: []
 related: ["2.3.1.a", "2.3.1.c", "2.3.1.f", "2.3.1.b", "2.3.1.d"]
 changelog:
   - { date: "2026-08-21", summary: "Initial draft. Sets out the three IRC § 6012(a) filing triggers for estates and trusts including the non-resident alien beneficiary trigger that ignores amounts, the IRC § 644 requirement that a trust use the calendar year against an estate's freedom to choose a fiscal year, the IRC § 645 election to treat a qualified revocable trust as part of the estate, and the IRC § 6654(l)(2) exemption from estimated tax for the first two years after death." }
+  - { date: "2026-08-25", summary: "Added a plain-language summary, glossary marks, and typed scenarios." }
 ---
+
+<div class="plain-terms">
+When someone dies, up to three tax returns can follow. Each one has its own test for whether it is
+needed at all. This affects executors, trustees, and anyone helping a family after a death. It
+decides which returns to file, what period each one covers, and when they are due. The biggest
+choice is the tax year. A trust generally must use the calendar year. An estate can pick almost any
+twelve-month period ending within a year of the death. That choice can push a beneficiary's tax
+bill into a later year. A special election can even let a revocable trust borrow the estate's more
+flexible year.
+</div>
 
 Three separate returns can arise on a death and they are easily confused: the decedent's final
 income tax return, the fiduciary income tax return of the estate, and the estate tax return. Each
@@ -112,7 +123,7 @@ are more common.
 
 ## Scenarios
 
-<div class="scenario">
+<div class="scenario" data-type="boundary">
 <h3>The estate that needed one return</h3>
 
 An individual dies leaving a gross estate of $6,500,000, well below the basic exclusion amount. The
@@ -129,7 +140,7 @@ still choose to file a Form 1041 to start the assessment period running, which i
 question from whether it must.
 </div>
 
-<div class="scenario">
+<div class="scenario" data-type="timing">
 <h3>The fiscal year that moved a year of tax</h3>
 
 A decedent dies on 20 March. The estate will earn substantial income and expects to make its
@@ -137,7 +148,7 @@ distributions in the following spring. The executor adopts a fiscal year ending 
 
 The choice does real work. IRC § 644 would force a calendar year on a trust, but an estate may adopt
 any fiscal year ending within twelve months of death, so the first return covers 20 March to
-28 February. Distributions made in that period carry distributable net income to the beneficiaries
+28 February. Distributions made in that period carry {gloss:distributable-net-income} to the beneficiaries
 in the *estate's* year ending 28 February — which the beneficiaries include in their own calendar
 year in which the estate's year ends, deferring their tax by up to eleven months.
 
@@ -146,10 +157,10 @@ and IRC § 6654(l)(2) exempts the estate from estimated tax for years ending bef
 anniversary of death — which on this fiscal year covers the first two returns entirely.
 </div>
 
-<div class="scenario">
+<div class="scenario" data-type="procedural">
 <h3>The revocable trust that joined the estate</h3>
 
-A decedent's assets were held in a funded revocable trust, so probate is minimal and the estate holds
+A decedent's assets were held in a funded {gloss:revocable-trust}, so probate is minimal and the estate holds
 almost nothing. The trust becomes irrevocable on death and would otherwise be a separate taxpayer on
 the calendar year.
 
@@ -176,7 +187,7 @@ valuable election available in the first two years.
 
 <div class="callout trap">
 
-**A non-resident alien beneficiary triggers filing regardless of income.** IRC § 6012(a)(5) has no
+**A non-resident alien {gloss:beneficiary} triggers filing regardless of income.** IRC § 6012(a)(5) has no
 threshold, so a trust with no income at all files if any beneficiary is a non-resident alien.
 
 </div>

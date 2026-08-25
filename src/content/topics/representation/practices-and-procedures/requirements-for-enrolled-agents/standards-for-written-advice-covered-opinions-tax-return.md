@@ -20,7 +20,18 @@ forms: []
 related: ["3.1.2.f", "3.1.2.b", "3.1.4.b", "3.1.2.p", "3.1.2.k"]
 changelog:
   - { date: "2026-08-18", summary: "Initial publication from Circular 230 §§ 10.34, 10.35 and 10.37 as rewritten by T.D. 9668." }
+  - { date: "2026-08-25", summary: "Added a plain-language summary, glossary marks, and typed scenarios." }
 ---
+
+<div class="plain-terms">
+This page sets the ground rules for tax advice, and for the stands a practitioner takes on a
+return. It covers anyone who signs returns, writes papers for the IRS, or answers a client's tax
+question in an email. It does not ask a practitioner to know every part of tax law from the start.
+They may study up, or ask an expert, and that is enough. The rule decides how firm a return stand
+must be before it can be filed. It decides what a practitioner must tell a client about fines. It
+decides what real work must go into written advice. One old set of rules, called covered opinions,
+no longer exists. It was dropped in 2014, and one plain rule took its place.
+</div>
 
 Three sections cover this ground, and one no longer exists. The **covered opinion** rules that once occupied § 10.35 — their disclaimers, categories and elaborate procedural requirements — were **removed** in 2014 and replaced by a single principles-based written-advice section. Knowing what was repealed is as examinable as knowing what replaced it.
 
@@ -76,21 +87,21 @@ Section 10.37(c)(2) is the marketed-transaction rule and what survives of the co
 
 Finally, §§ 10.34, 10.35, 10.36 and 10.37 are the four sections named in **§ 10.52(a)(2)**, so a violation is sanctionable on **recklessness or gross incompetence** without proof of wilfulness. Section 10.22(a) notes that the diligence duty is modified by §§ 10.34 and 10.37 — those sections supply the standard where they apply.
 
-<div class="scenario">
+<div class="scenario" data-type="boundary">
 <h3>Non-frivolous is not enough for a return</h3>
 <p>A client wants to claim a deduction the practitioner assesses as arguable but weak — better than frivolous, worse than a reasonable basis. The practitioner reasons that "not frivolous" is the Circular 230 line and prepares the return.</p>
 <p><em>Analysis.</em> Wrong section. "Not frivolous" is § 10.34(b), governing <em>documents, affidavits and other papers</em>. For a <em>tax return</em> position, § 10.34(a)(1) prohibits signing, advising or preparing where the position <em>lacks a reasonable basis</em>. Proceeding wilfully, recklessly or through gross incompetence violates § 10.34(a) — and § 10.52(a)(2) makes recklessness enough for sanction.</p>
 </div>
 
-<div class="scenario">
+<div class="scenario" data-type="fails">
 <h3>The number that does not fit</h3>
-<p>A client reports $14,000 of charitable contributions on gross income of $38,000 and provides no substantiation. The practitioner has no reason to think the client is lying and accepts the figure without asking.</p>
+<p>A client reports $14,000 of {gloss:charitable-contribution}s on gross income of $38,000 and provides no substantiation. The practitioner has no reason to think the client is lying and accepts the figure without asking.</p>
 <p><em>Analysis.</em> Section 10.34(d) permits good-faith reliance without verification, but not here. The figure is on its face inconsistent with an important fact — the client's income — one of the three circumstances requiring <em>reasonable inquiries</em>. The practitioner need not audit the client, but must ask.</p>
 </div>
 
-<div class="scenario">
+<div class="scenario" data-type="interaction">
 <h3>The email that is written advice</h3>
-<p>A client emails asking whether a $220,000 payment can be structured to fall outside self-employment income. The practitioner replies in three paragraphs from memory, without checking the facts of the arrangement, and adds that the position is unlikely to be picked up because the client has never been examined.</p>
+<p>A client emails asking whether a $220,000 payment can be structured to fall outside {gloss:self-employment-tax} income. The practitioner replies in three paragraphs from memory, without checking the facts of the arrangement, and adds that the position is unlikely to be picked up because the client has never been examined.</p>
 <p><em>Analysis.</em> Written advice under § 10.37(a)(1), which reaches electronic communication. Three requirements are breached: no reasonable efforts to identify and ascertain the relevant facts (a)(2)(iii); no relating of applicable law and authorities to facts (a)(2)(v); and, decisively, weighing the possibility that the return will not be audited, which (a)(2)(vi) forbids in terms.</p>
 </div>
 

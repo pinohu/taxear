@@ -18,7 +18,18 @@ forms: []
 related: ["3.2.5.b", "3.2.5.g", "3.2.5.e", "3.2.5.h"]
 changelog:
   - { date: "2026-08-18", summary: "Initial publication from IRC § 7805, Reg. §§ 601.601 and 1.6662-4, and 5 U.S.C. § 553, each opened at source." }
+  - { date: "2026-08-25", summary: "Added a plain-language summary, glossary marks, and typed scenarios." }
 ---
+
+<div class="plain-terms">
+This page explains the difference between the tax law itself and the rules Treasury
+writes to explain it. It matters to anyone trying to tell whether a rule is truly the
+law, or just Treasury's current reading of it — because that changes how firmly it can
+be relied on. Most readers should take away one fact: a rule marked "temporary" does not
+last forever, and one marked "proposed" is only a preview of what may come next. What
+this page settles is how to tell the three kinds apart, and which one wins when they
+seem to disagree.
+</div>
 
 The Internal Revenue Code is the statute Congress enacted. Regulations are Treasury's rules under it, and they come in three forms that a practitioner has to be able to tell apart, because they differ in how they were made, how long they last and how much weight they carry. Everything else on the authority list sits below these two, and the research habit that matters most is the plainest one: **read the statute first.**
 
@@ -73,25 +84,25 @@ The Internal Revenue Code is the statute Congress enacted. Regulations are Treas
 
 **Procedural regulations are still regulations.** Part 601 — the Statement of Procedural Rules — is where much of the material on rulings, examinations and practice before the IRS lives. It is not a publication and not an internal manual; it is codified in the Code of Federal Regulations, and its standards are current even where the offices it names have been restructured.
 
-<div class="scenario">
+<div class="scenario" data-type="timing">
 <h3>The temporary regulation that had lapsed</h3>
 <p>An examiner proposes an adjustment resting on a temporary regulation. Checking the citation, the representative finds it was issued four years and two months ago and has not been finalised.</p>
 <p><em>Analysis.</em> It has expired. IRC § 7805(e)(2) provides that any temporary regulation "shall expire within 3 years after the date of issuance." The representative should raise the expiry directly and ask what authority now supports the position — the underlying statute may well support it, but the temporary regulation no longer does. Worth checking § 7805(e)(1) at the same time: a temporary regulation must also have been issued as a proposed regulation.</p>
 </div>
 
-<div class="scenario">
+<div class="scenario" data-type="interaction">
 <h3>The proposed regulation that killed the ruling</h3>
-<p>A client's position rests on a private letter ruling obtained by another taxpayer. The Service has since published a proposed regulation taking a contrary view. The client argues that a proposed regulation binds nobody, so the ruling still stands.</p>
+<p>A client's position rests on a {gloss:private-letter-ruling} obtained by another taxpayer. The Service has since published a proposed regulation taking a contrary view. The client argues that a proposed regulation binds nobody, so the ruling still stands.</p>
 <p><em>Analysis.</em> Half right, and the wrong half matters. A proposed regulation cannot be enforced against the client. But Reg. § 1.6662-4(d)(3)(iii) provides that a private letter ruling "is not authority if revoked or if inconsistent with a subsequent proposed regulation, revenue ruling or other administrative pronouncement published in the Internal Revenue Bulletin." The PLR has dropped off the authority list. The proposed regulation, meanwhile, is itself on the list. The weighing has moved against the client in both directions at once.</p>
 </div>
 
-<div class="scenario">
+<div class="scenario" data-type="procedural">
 <h3>The regulation that went further than the statute</h3>
 <p>A representative concludes that a final regulation imposes a condition the Code section does not contain, and that the client's position is right on the statute and wrong on the regulation.</p>
 <p><em>Analysis.</em> This is the Form 8275-R situation. Disclosure of a position contrary to a regulation goes on Form 8275-R rather than Form 8275, and avoiding the disregard-of-regulations penalty requires more than disclosure — the position must represent a <em>good-faith challenge to the validity</em> of the regulation. The representative should document contemporaneously why the regulation is thought to exceed the statute, and should identify whether it was issued under a specific grant in the Code section or under the general authority of IRC § 7805(a).</p>
 </div>
 
-<div class="scenario">
+<div class="scenario" data-type="baseline">
 <h3>The citation nobody recognised</h3>
 <p>A junior colleague reports being unable to find "Reg. § 301.7605-1" in the income tax regulations and asks whether it has been repealed.</p>
 <p><em>Analysis.</em> It is not an income tax regulation. Part 1 is income tax; part 301 is procedure and administration, where the examination, collection and assessment regulations live — § 301.7605-1 construes section 7605, time and place of examination. Part 20 is estate tax, part 25 gift tax, and part 601 the Statement of Procedural Rules. The part number identifies the subject before the section number identifies the provision.</p>

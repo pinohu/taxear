@@ -22,7 +22,25 @@ forms: []
 related: ["2.3.5.f", "2.3.5.e", "2.3.5.b", "2.3.5.d"]
 changelog:
   - { date: "2026-08-21", summary: "Initial draft. Sets out the three regimes a mixed-use dwelling can fall into — the IRC § 280A(g) exclusion below 15 rental days, the IRC § 280A(c)(5) gross income cap where the unit is used as a residence, and ordinary rental treatment where it is not — with the IRC § 280A(d)(1) greater-of-14-days-or-10-percent test, the IRC § 280A(d)(2) personal use rules including the family and reciprocal use provisions, and the IRC § 280A(e) day-count allocation." }
+  - { date: "2026-08-25", summary: "Added a plain-language summary, a decision diagram of the three regimes, a glossary mark, and typed scenarios." }
+diagram:
+  archetype: "decision"
+  caption: "Which of the three regimes a mixed-use dwelling falls into"
+  tests:
+    - { test: "Rented fewer than 15 days in the year, and used by the taxpayer as a residence?", result: "Rent excluded from income entirely, no rental deductions allowed", outcome: "pass" }
+    - { test: "Rented 15 days or more, and personal use exceeds the greater of 14 days or 10% of fair-rental days?", result: "Used as a residence — deductions capped at gross rental income, excess carried forward", outcome: "fail" }
+    - { test: "Rented 15 days or more, and personal use at or under that threshold?", result: "Ordinary rental — a full loss is allowed, subject to the passive activity rules", outcome: "pass" }
 ---
+
+<div class="plain-terms">
+This page explains what happens when you both live in and rent out the same home, such as a
+vacation house. It matters for anyone who owns a second home and rents it out for at least part of
+the year. It does not apply to a rental property nobody in the family ever stays in. The number of
+nights the owner or family uses the place, compared with the nights it is rented out, decides
+everything. Cross one line and the rent is not even taxed. Cross another line and the owner can still
+deduct expenses, but only up to the rent collected, with the rest saved for a later year. The page
+decides which of three very different tax outcomes applies.
+</div>
 
 A dwelling that is both lived in and let sits in one of three regimes, and the boundary between them
 is measured in nights. Cross one line and the rent disappears from income entirely. Cross the other
@@ -97,7 +115,7 @@ IRC § 280A(d)(3)(A). Conversely, days the owner spends there working substantia
 repairs are not personal use, and the presence of non-working family members on those days does not
 change that.
 
-<div class="scenario">
+<div class="scenario" data-type="boundary">
 
 <h3>Fourteen nights and one</h3>
 
@@ -108,7 +126,7 @@ there 12 nights; in the second, 15.
 
 Twelve nights is under the threshold. The greater of 14 days or 10 percent of 120 rental days is 14,
 and 12 does not exceed it, so the cabin is not used as a residence. IRC § 280A(c)(5) does not apply
-and a loss is available, subject to the passive activity rules. Expenses are still apportioned under
+and a loss is available, subject to the {gloss:passive-activity} rules. Expenses are still apportioned under
 IRC § 280A(e) by days used — 120 rented out of 132 used, or 90.9 percent — so about $30,900 of the
 $34,000 is deductible against $36,000 of rent, and the balance of the interest and tax goes to
 Schedule A if it qualifies.
@@ -121,7 +139,7 @@ not available at 15, and one night made the difference.
 
 </div>
 
-<div class="scenario">
+<div class="scenario" data-type="fails">
 
 <h3>The daughter who paid market rent</h3>
 
@@ -139,7 +157,7 @@ IRC § 280A(d)(3)(A) does not help because the flat is not her principal residen
 
 </div>
 
-<div class="scenario">
+<div class="scenario" data-type="baseline">
 
 <h3>The fortnight at the tournament</h3>
 

@@ -26,7 +26,18 @@ forms: ["990", "990-EZ", "990-N", "990-PF", "8868", "990-T"]
 related: ["2.3.2.a", "2.3.2.b", "2.3.2.d", "2.1.1.f"]
 changelog:
   - { date: "2026-08-21", summary: "Initial draft. Sets out the IRC § 6033(a)(1) annual return, the gross receipts and asset tests that pick a form in the 990 series, the IRC § 6033(a)(3) mandatory exceptions, the IRC § 6072(e) due date and the automatic six-month Form 8868 extension, the separate Form 990-T obligation at $1,000 of UBTI gross income under Treas. Reg. § 1.6012-2(e), and the IRC § 6652(c) penalties at the inflation-adjusted amounts in Rev. Proc. 2025-32 § 3.53 for returns required to be filed in 2027." }
+  - { date: "2026-08-25", summary: "Added a plain-language summary, typed the three scenarios, and marked two glossary terms." }
 ---
+
+<div class="plain-terms">
+This page covers which yearly report a tax-exempt group must send the IRS, and what happens if it
+is late. It applies to almost every group with that status, from small clubs to large charities. A
+few groups, like churches, do not have to file at all. How big the report must be depends on two
+things: how much money came in, and how much the group owns. File the wrong version, or file late,
+and a penalty can start to add up each day. Skip three years of filings in a row, even small ones,
+and the group loses its tax-exempt status right away. This page shows which report fits which
+group, when it is due, and what a late or missing filing can cost.
+</div>
 
 Two questions decide almost every exempt organisation filing problem, and they are not the same
 question. Which return the organisation files turns on gross receipts *and* total assets. What a
@@ -115,7 +126,7 @@ for a small organisation the 5 percent-of-gross-receipts limit bites long before
 does. Reasonable cause relief under the general standard applies, and a first-time filer that
 misread the thresholds has a better story than one that simply forgot.
 
-<div class="scenario">
+<div class="scenario" data-type="boundary">
 
 <h3>The asset-rich land trust</h3>
 
@@ -124,7 +135,7 @@ contributions and investment income totalling $140,000 and total assets, mostly 
 carried at cost, of $6,200,000. Its treasurer files Form 990-EZ, reasoning that receipts are well
 under $200,000.
 
-Wrong form. The full Form 990 is required where gross receipts are at least $200,000 *or* total
+Wrong form. The full Form 990 is required where {gloss:gross-receipts} are at least $200,000 *or* total
 assets are at least $500,000, and the trust clears the asset threshold by a wide margin. Filing
 Form 990-EZ when Form 990 is required is a failure to file the return required under IRC
 § 6033(a)(1) — the return was not filed "in the manner prescribed" — and the daily penalty runs
@@ -134,7 +145,7 @@ than at the full amount.
 
 </div>
 
-<div class="scenario">
+<div class="scenario" data-type="fails">
 
 <h3>The gala that was netted</h3>
 
@@ -149,12 +160,12 @@ and should have filed Form 990-EZ or Form 990. The good news is narrow but real:
 notice it did file carries no penalty of its own, and the three-year revocation clock has not
 started. The bad news is that the required return is now late, and the daily penalty runs until it
 is filed. Because 5 percent of $70,000 is $3,500, the cap is well below the dollar ceiling — but
-$3,500 is a serious sum for an organisation of this size, and the reasonable cause request should
+$3,500 is a serious sum for an organisation of this size, and the {gloss:reasonable-cause-defense} request should
 go in with the return rather than after the notice arrives.
 
 </div>
 
-<div class="scenario">
+<div class="scenario" data-type="interaction">
 
 <h3>The thrift shop</h3>
 
