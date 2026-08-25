@@ -18,7 +18,27 @@ forms: []
 related: ["3.3.1.i", "3.3.1.k", "3.3.1.b"]
 changelog:
   - { date: "2026-08-18", summary: "Initial publication from IRC § 7345, Rev. Proc. 2025-32 and the IRS passport certification guidance." }
+  - { date: "2026-08-24", summary: "Added a plain-language summary, a timeline diagram of certification through reversal, glossary marks, and typed scenarios." }
+diagram:
+  archetype: "timeline"
+  caption: "From certification to a resolved passport hold"
+  events:
+    - { when: "Certification", what: "The Commissioner certifies a seriously delinquent tax debt; Treasury notifies the State Department" }
+    - { when: "Contemporaneously", what: "The IRS sends CP508C to the taxpayer's last known address by regular mail — not to the representative" }
+    - { when: "On a passport application", what: "The State Department holds it and sends its own letter" }
+    - { when: "90 days from that letter", what: "Window to pay, resolve, or arrange an agreement before the application stays denied" }
+    - { when: "Within 30 days of the fix", what: "The IRS must notify State once the debt is paid, an agreement or offer is entered, or the certification is found erroneous" }
 ---
+
+<div class="plain-terms">
+Passport revocation is a way the IRS pushes people to pay old tax debts by affecting their passport.
+If a debt is large enough and has sat unpaid long enough, the IRS tells the State Department. The
+State Department can then deny a new passport, or in some cases revoke one already issued. It
+affects individuals with a large, old, unpaid tax debt. It does not affect small debts, debts
+already being paid through a plan, or debts still under dispute. It decides whether someone can get
+or keep a passport — not whether they still owe the tax. Paying the debt, or setting up a payment
+plan, is usually what fixes it.
+</div>
 
 Passport certification is a collection tool that reaches a client's ability to travel, and it operates almost entirely outside the machinery a practitioner is used to. There is no hearing, no appeal to the Independent Office of Appeals, and no notice to the representative. What there is instead is a short list of things that stop certification and a shorter list that reverses it — and both are worth knowing before a client's passport application is held.
 
@@ -64,22 +84,40 @@ Passport certification is a collection tool that reaches a client's ability to t
 
 **Check whether the predicate is actually satisfied.** Certification requires a filed notice of lien with § 6320 rights exhausted or lapsed, *or* a levy. A certification made where neither has happened, or where the § 6320 rights are still live, is erroneous — and erroneous certification is the one ground the statute says must be reversed as soon as practicable.
 
-<div class="scenario">
+<div class="scenario" data-type="baseline">
+<h3>The straightforward certification</h3>
+<p>A taxpayer owes an assessed, unpaid individual income tax balance above the current threshold. A notice of federal tax lien was filed fourteen months ago, and the § 6320 administrative rights window closed long ago without a request. No installment agreement, offer, or hardship status is in place.</p>
+<p><em>Analysis.</em> All three § 7345(b)(1) conditions are met, and none of the § 7345(b)(2) exclusions apply. This is certification working exactly as the statute contemplates — an assessed, over-threshold, uncontested debt with a filed lien and exhausted rights. The taxpayer's remaining options are the ones that actually change the outcome, such as full payment or an agreement, not a challenge to the certification itself.</p>
+</div>
+
+<div class="scenario" data-type="boundary">
+<h3>A dollar over the line</h3>
+<p>A taxpayer's assessed tax, penalties, and interest add up to just under the current threshold. A revenue officer proposes an additional penalty assessment that would push the total over it.</p>
+<p><em>Analysis.</em> The threshold in {fig:passport.threshold} counts assessed penalties and interest, not just the underlying tax. Assessing the additional penalty is what converts a debt that could not support certification into one that can — nothing about the tax itself changes, only the total measured against the line does.</p>
+</div>
+
+<div class="scenario" data-type="procedural">
 <h3>Ninety days and a booked flight</h3>
 <p>A client renewing his passport receives a State Department letter holding his application. He owes $91,000, a notice of lien was filed two years ago, and he has ignored the collection notices. He is due to travel in seven weeks.</p>
-<p><em>Analysis.</em> The State Department holds the application for 90 days from its letter. The realistic move is a § 6159 installment agreement: entering one takes the debt outside § 7345(b)(1) by force of § 7345(b)(2)(A), and § 7345(c)(2)(C) requires the IRS to notify within 30 days of the agreement. Litigation under § 7345(e) would not resolve in seven weeks and is for erroneous certifications, which this is not.</p>
+<p><em>Analysis.</em> The State Department holds the application for 90 days from its letter. The realistic move is a § 6159 {gloss:installment-agreement}: entering one takes the debt outside § 7345(b)(1) by force of § 7345(b)(2)(A), and § 7345(c)(2)(C) requires the IRS to notify within 30 days of the agreement. Litigation under § 7345(e) would not resolve in seven weeks and is for erroneous certifications, which this is not.</p>
 </div>
 
-<div class="scenario">
+<div class="scenario" data-type="fails">
 <h3>The certification that should not have happened</h3>
-<p>A client is certified. The file shows a notice of federal tax lien filed six weeks ago and a timely CDP hearing request filed three weeks ago that is still pending.</p>
-<p><em>Analysis.</em> Two independent problems with the certification. Section 7345(b)(1)(C)(i) requires that the § 6320 administrative rights be <strong>exhausted or lapsed</strong>, and a pending CDP request means they are neither. Section 7345(b)(2)(B)(i) separately excludes a debt where collection is suspended because a § 6330 hearing is requested or pending. The certification is erroneous, and under § 7345(c)(2)(D) it must be reversed as soon as practicable — with the § 7345(e) action available if it is not.</p>
+<p>A client is certified. The file shows a notice of federal tax lien filed six weeks ago and a timely {gloss:collection-due-process-hearing} request filed three weeks ago that is still pending.</p>
+<p><em>Analysis.</em> Two independent problems with the certification. Section 7345(b)(1)(C)(i) requires that the § 6320 administrative rights be <strong>exhausted or lapsed</strong>, and a pending CDP request means they are neither. Section 7345(b)(2)(B)(i) separately excludes a debt where collection is suspended because a § 6330 hearing is requested or pending. The certification does not hold up — it is erroneous, and under § 7345(c)(2)(D) it must be reversed as soon as practicable, with the § 7345(e) action available if it is not.</p>
 </div>
 
-<div class="scenario">
+<div class="scenario" data-type="interaction">
 <h3>The notice nobody saw</h3>
-<p>A representative holds a Form 2848 for a client working overseas. The client is certified in March. Neither the client nor the representative learns of it until the client's passport renewal is refused in September.</p>
-<p><em>Analysis.</em> Predictable. CP508C goes by <em>regular</em> mail to the taxpayer's last known address, and the IRS states it does <strong>not</strong> send a copy to the power of attorney. Nothing was done wrong procedurally. On any file where the threshold is in reach, the representative should monitor transcripts rather than rely on receiving notice, and should make sure the client's address of record is current — particularly for a client abroad.</p>
+<p>A representative holds a Form 2848 {gloss:power-of-attorney} for a client working overseas. The client is certified in March. Neither the client nor the representative learns of it until the client's passport renewal is refused in September.</p>
+<p><em>Analysis.</em> Predictable. CP508C goes by <em>regular</em> mail to the taxpayer's last known address, and the IRS states it does <strong>not</strong> send a copy to the power of attorney — the § 7345(d) notice duty runs to the taxpayer only, and the representative's authorization does not reach into it. Nothing was done wrong procedurally. On any file where the threshold is in reach, the representative should monitor transcripts rather than rely on receiving notice, and should make sure the client's address of record is current — particularly for a client abroad.</p>
+</div>
+
+<div class="scenario" data-type="timing">
+<h3>A balance that used to be enough</h3>
+<p>A taxpayer's $63,000 assessed balance would have exceeded the seriously delinquent threshold in an earlier certification year. In 2026 the same $63,000 balance sits under the current indexed figure.</p>
+<p><em>Analysis.</em> Section 7345(f) indexes the threshold annually, and it has risen substantially since the statute's first year. A balance that would have supported certification in an earlier year can fall under today's {fig:passport.threshold} without a dollar of the debt being paid. The date matters as much as the amount — a stale file should always be re-checked against the current year's figure before assuming certification is still available.</p>
 </div>
 
 <div class="callout trap"><h4>Traps</h4>

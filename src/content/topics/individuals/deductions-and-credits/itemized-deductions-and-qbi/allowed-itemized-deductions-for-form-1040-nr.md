@@ -20,9 +20,28 @@ forms: []
 related: ["1.3.1.f", "1.3.1.d", "1.3.1.e", "1.3.1.b", "1.2.2.j"]
 changelog:
   - { date: "2026-08-19", summary: "Initial draft. Sets out the IRC § 873(a) general rule confining deductions to those connected with effectively connected income, the three § 873(b) exceptions, the § 63(c)(6)(B) zero standard deduction, the § 170(c)(2)(A) domestic organisation requirement, and the § 871(b) and (c) framework including the treatment of F, J, M and Q visa holders." }
+  - { date: "2026-08-25", summary: "Added a plain-language summary, two glossary marks, a decision diagram of the deductibility test, and a fourth typed scenario on the contiguous-country exemption." }
+diagram:
+  archetype: "decision"
+  caption: "Whether a nonresident alien's expense is deductible — worked in order, top to bottom"
+  tests:
+    - { test: "Is the income fixed or determinable annual or periodical income taxed under § 871(a)?", result: "Flat rate on the gross amount — no deduction reduces it", outcome: "fail" }
+    - { test: "Is the deduction connected with income effectively connected to a U.S. trade or business?", result: "Deductible under § 873(a)", outcome: "pass" }
+    - { test: "Is it a casualty or theft loss on U.S. property, a gift to a domestic charity, or the one personal exemption?", result: "Deductible under § 873(b), connected or not", outcome: "pass" }
+    - { test: "None of the above", result: "Not deductible", outcome: "fail" }
 ---
 
-Start with the structural point. A nonresident alien's standard deduction is **zero** by statute, so
+<div class="plain-terms">
+If you are a nonresident alien filing a U.S. tax return, you cannot take the standard deduction.
+It does not exist for you. The only way to lower your taxable income is to list specific deductions
+one by one. Most of those deductions count only if they connect to income you earned running a
+business in the United States. Three deductions break that rule and are allowed either way: a
+casualty or theft loss on U.S. property, a gift to a U.S. charity, and one personal exemption. This
+page decides which of your deductions qualify, and whether a given expense connects closely enough
+to your U.S. business to count.
+</div>
+
+Start with the structural point. A nonresident alien's {gloss:standard-deduction} is **zero** by statute, so
 itemising is not an election — it is the only route to any deduction at all. And most deductions are
 available only to the extent they are connected with income effectively connected with a United States
 trade or business. Three escape that requirement, and the list is closed.
@@ -100,7 +119,7 @@ Finally, remember what the § 67 suspension removed here as well. Unreimbursed e
 investment expenses were the deductions a nonresident alien on assignment most often had, and they are
 gone for everyone.
 
-<div class="scenario">
+<div class="scenario" data-type="baseline">
 <h3>Scenario 1 — the consultant with two income streams</h3>
 
 Kenji is a nonresident alien who spends part of 2026 consulting in the United States, earning 80,000
@@ -112,19 +131,19 @@ taxed under § 871(a) on the **gross** amount at the flat rate, and § 873(a) al
 purposes of § 871(b). No apportionment helps — the two streams are computed separately.
 </div>
 
-<div class="scenario">
+<div class="scenario" data-type="fails">
 <h3>Scenario 2 — the two gifts</h3>
 
 Lucia, a nonresident alien with effectively connected income, gives 5,000 dollars to a United States
 university and 5,000 dollars to a hospital in her home country.
 
-The university gift is deductible: IRC § 873(b)(2) preserves the § 170 deduction whether or not it is
-connected with effectively connected income. The foreign hospital gift is not, because § 170(c)(2)(A)
-requires the donee to be created or organised in the United States or a possession. Both gifts are then
-subject to the ordinary § 170 limitations, including the new 0.5 percent floor.
+The university gift is deductible: IRC § 873(b)(2) preserves the {gloss:charitable-contribution} deduction
+whether or not it is connected with effectively connected income. The foreign hospital gift is not, because
+§ 170(c)(2)(A) requires the donee to be created or organised in the United States or a possession. Both
+gifts are then subject to the ordinary § 170 limitations, including the new 0.5 percent floor.
 </div>
 
-<div class="scenario">
+<div class="scenario" data-type="interaction">
 <h3>Scenario 3 — the student who is treated as in business</h3>
 
 Miguel is in the United States on an F-1 visa, not otherwise engaged in any trade or business, and receives
@@ -135,6 +154,20 @@ treats income described in the second sentence of § 1441(b), to the extent from
 effectively connected. That brings him within § 871(b) graduated rates rather than the flat § 871(a) rate
 and, critically, makes § 873(a) deductions available to him — which they would not be if his income were
 taxed under § 871(a).
+</div>
+
+<div class="scenario" data-type="boundary">
+<h3>Scenario 4 — the exemption that survives on paper only</h3>
+
+Priya is a nonresident alien and a resident of Canada, with effectively connected income. She has read
+that § 873(b)(3) lifts the "only one" personal exemption limit for a resident of a contiguous country, and
+asks how many exemptions she may claim.
+
+IRC § 873(b)(3) genuinely lifts the limit for her: as a resident of a contiguous country, she is not
+confined to a single personal exemption. But § 151(d)(5)(A) sets the personal exemption amount at zero for
+taxable years beginning after 2017, and nothing has restored it. Priya sits exactly where the statute draws
+its line — entitled to more than one exemption — and the line is worth nothing, because the dollar amount
+behind it has been zero since 2018.
 </div>
 
 <div class="callout trap">

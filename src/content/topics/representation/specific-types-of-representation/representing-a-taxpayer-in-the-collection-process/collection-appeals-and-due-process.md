@@ -20,7 +20,28 @@ forms: ["12153"]
 related: ["3.3.1.d", "3.2.6.a", "3.3.1.b", "3.3.1.i", "3.3.1.j", "3.3.4.a", "3.3.4.b"]
 changelog:
   - { date: "2026-08-18", summary: "Initial publication from IRC §§ 6320 and 6330 and IRM 8.24.1." }
+  - { date: "2026-08-25", summary: "Added a plain-language summary, a timeline diagram of the notice-to-Tax-Court clock, glossary marks, and typed scenarios." }
+diagram:
+  archetype: "timeline"
+  caption: "From notice to Tax Court: the CDP clock"
+  events:
+    - { when: "Notice mailed (levy) or filed (lien)", what: "IRS gives written notice of the right to a hearing — at least 30 days before a levy, or within 5 business days of a lien filing" }
+    - { when: "The 30-day request window", what: "Taxpayer files Form 12153; late filing still allows an equivalent hearing, but not what follows" }
+    - { when: "While the request is pending", what: "Levy is barred and the collection period is suspended" }
+    - { when: "The CDP hearing", what: "One hearing per taxable period before the Independent Office of Appeals" }
+    - { when: "Within 30 days of the determination", what: "Taxpayer may petition the Tax Court" }
 ---
+
+<div class="plain-terms">
+This page is about the right to a hearing before the IRS takes your property to pay a
+tax debt. Before filing a lien or levy, the IRS must send notice and offer a hearing
+with an independent officer, separate from the person collecting the debt. It affects
+anyone facing a tax lien or levy who wants a neutral review, or who wants to propose a
+payment plan instead. It does not let you reopen how much tax you actually owe, except
+in narrow cases. The deadlines are short, and missing one can mean losing the right to
+ask a judge to look at the case afterward. This page decides when the hearing is
+available, what you can argue at it, and what happens if you miss the deadline.
+</div>
 
 Collection due process is the taxpayer's one statutory opportunity to have an independent officer look at a lien or a proposed levy before collection proceeds — and, uniquely among collection appeals, to take the result to the Tax Court. The deadlines are short and unforgiving, and the difference between meeting one and missing it is the difference between judicial review and none.
 
@@ -48,22 +69,34 @@ Because only one hearing is available per period, the grounds stated in the requ
 
 The liability bar in § 6330(c)(2)(B) is where cases are lost. If a notice of deficiency was received, or the taxpayer otherwise had a chance to dispute the liability, CDP is about *how* the IRS collects, not *whether* the tax is owed.
 
-<div class="scenario">
+<div class="scenario" data-type="boundary">
 <h3>Five days, then thirty</h3>
 <p>The IRS files a notice of federal tax lien on 4 March and mails the lien notice on 9 March. The taxpayer's representative calendars a deadline 30 days from the filing date.</p>
 <p><em>Analysis.</em> Wrong start. Under IRC § 6320(a)(3)(B) the 30-day request period begins the day after the five-business-day notice window ends, not on the filing date. Calendaring from the filing date costs the client time and, if the request goes in late, converts a CDP hearing into an equivalent hearing with no route to the Tax Court.</p>
 </div>
 
-<div class="scenario">
+<div class="scenario" data-type="fails">
 <h3>The liability that could not be reopened</h3>
 <p>A client received a statutory notice of deficiency two years ago, did not petition, and the tax was assessed. Facing a levy notice, he wants the CDP hearing to establish that the deduction was proper all along.</p>
 <p><em>Analysis.</em> Section 6330(c)(2)(B) allows a challenge to the underlying liability only where the person did not receive a notice of deficiency and had no other opportunity to dispute it. He received one. The hearing can still be valuable — collection alternatives, spousal defenses, whether levy is appropriate — but the merits of the deduction are closed.</p>
 </div>
 
-<div class="scenario">
+<div class="scenario" data-type="procedural">
 <h3>Late by a week</h3>
 <p>A levy notice is dated 2 April. The representative files Form 12153 on 9 May, six days after the 30-day period ended, and asks Appeals to treat it as timely because the client was in hospital.</p>
 <p><em>Analysis.</em> The request is late for CDP purposes. Appeals will normally offer an equivalent hearing, which gets the case in front of the same officer, but the outcome is a decision letter rather than a determination — no Tax Court petition under § 6330(d)(1), and none of the § 6330(e)(1) suspension. Where the merits need judicial review, the practical answer is to protect the deadline first and argue the hardship second.</p>
+</div>
+
+<div class="scenario" data-type="baseline">
+<h3>The request filed on day twenty</h3>
+<p>A taxpayer receives a Final Notice of Intent to Levy dated 3 June. On 23 June her representative files Form 12153, proposing an installment agreement and raising no dispute about the liability itself.</p>
+<p><em>Analysis.</em> This is a {gloss:collection-due-process-hearing} working exactly as designed. The request falls inside the 30-day window under § 6330(a)(3)(B), so the case goes to the Independent Office of Appeals as a full CDP hearing rather than an equivalent one. Levy is barred while the hearing is pending (§ 6330(e)(1)), and if Appeals rejects the proposed installment agreement, the taxpayer keeps the right to petition the {gloss:tax-court} within 30 days of the determination.</p>
+</div>
+
+<div class="scenario" data-type="interaction">
+<h3>The CDP hearing that outlasted the collection clock</h3>
+<p>A taxpayer's CDP hearing, and a Tax Court appeal of the resulting determination, run for two years before the Tax Court affirms Appeals. Her representative had calculated the {gloss:csed} as expiring six months into that process.</p>
+<p><em>Analysis.</em> Section 6330(e)(1) suspends the § 6502 collection period for as long as the hearing and any appeal are pending, and adds a floor: no period may expire before the 90th day after the final determination. The two-year proceeding did not shrink the government's time to collect — it extended it. A CSED calculated without that suspension will be wrong by however long the CDP hearing and its appeal actually took.</p>
 </div>
 
 <div class="callout trap"><h4>Traps</h4>

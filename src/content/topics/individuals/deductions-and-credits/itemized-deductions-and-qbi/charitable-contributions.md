@@ -19,10 +19,28 @@ forms: []
 related: ["1.3.1.b", "1.3.1.a", "1.3.1.f", "1.3.1.c", "1.2.3.c", "1.3.1.e", "1.3.1.g", "1.5.1.g"]
 changelog:
   - { date: "2026-08-19", summary: "Initial draft. Sets out the new IRC § 170(b)(1)(I) 0.5 percent floor added by Pub. L. 119-21 § 70425(a)(1) and its absorption ordering, the § 170(p) deduction for non-itemizers, the § 170(b)(1)(G) cash limitation made permanent by § 70425(b)(1), the § 170(f)(17) recordkeeping rule reaching cash of any amount, the § 170(f)(8) contemporaneous written acknowledgment requirement, and the three § 170(f)(11) appraisal thresholds." }
+  - { date: "2026-08-25", summary: "Added a plain-language summary, three glossary marks, two typed scenarios (baseline, timing), and a threshold diagram of the floor and the cash ceiling." }
+diagram:
+  archetype: "threshold"
+  caption: "The two individual limits, as a percent of the contribution base"
+  min: 0
+  max: 70
+  marks:
+    - { figureKey: "charity.floor", value: 0.5, label: "0.5% floor — below this, nothing at all" }
+    - { figureKey: "charity.cash_limit", value: 60, label: "60% ceiling on cash to public charities", emphasis: true }
 ---
 
-Two changes take effect in 2026 and they pull in opposite directions. A **floor** now applies: charitable
-contributions are allowed only to the extent they exceed 0.5 percent of the contribution base, so small
+<div class="plain-terms">
+This page is about deducting gifts to charity on your tax return. It mainly matters if you itemize
+instead of taking the standard deduction, though a small deduction is now open to non-itemizers too.
+Two changes shape the rule now. Small gifts from an itemizer can add up to nothing at all, because a
+new floor cuts a slice off the top first. Large cash gifts are capped at a share of your income too.
+And every cash gift, of any size, needs a bank record or a note from the charity. Without one, it is
+not deductible, no matter how real the gift was.
+</div>
+
+Two changes take effect in 2026 and they pull in opposite directions. A **floor** now applies: {gloss:charitable-contribution}s
+are allowed only to the extent they exceed 0.5 percent of the contribution base, so small
 giving by an itemizer produces nothing. And a **deduction for non-itemizers** has returned, so small giving
 by a non-itemizer produces something for the first time since 2021. Meanwhile the documentation rule most
 often quoted governs a different thing from what people think: cash of **any** amount needs a bank record,
@@ -104,7 +122,7 @@ similar items given to one or more donees during the year are aggregated. The ap
 most returns go wrong, and the exception for publicly traded securities is the one that saves the most
 work.
 
-<div class="scenario">
+<div class="scenario" data-type="boundary">
 <h3>Scenario 1 — the floor that consumed the whole deduction</h3>
 
 Bea has a contribution base of 140,000 dollars and gives 600 dollars in cash to her church during 2026.
@@ -116,7 +134,7 @@ deductible. Note what she cannot do: § 170(p) is available only to an individua
 itemize, so she cannot take the non-itemizer deduction instead.
 </div>
 
-<div class="scenario">
+<div class="scenario" data-type="interaction">
 <h3>Scenario 2 — the mixed year and the ordering</h3>
 
 Caleb has a contribution base of 400,000 dollars. He gives 250,000 dollars of cash to public charities and
@@ -129,7 +147,7 @@ is tested against the 60 percent limitation in § 170(b)(1)(G). Had he given onl
 dollars would have come out of it.
 </div>
 
-<div class="scenario">
+<div class="scenario" data-type="fails">
 <h3>Scenario 3 — the receipt that was not enough</h3>
 
 Dara gives 40 dollars in cash to a street collection each month, 480 dollars for the year, and holds a
@@ -140,6 +158,32 @@ written communication from the donee for every monetary gift, and cash into a ti
 300-dollar gift needs both a bank record under § 170(f)(17) and a contemporaneous written acknowledgment
 under § 170(f)(8)(A) — and the acknowledgment must state whether goods or services were provided, which a
 bare printed receipt often does not. Then the floor is applied to what survives.
+</div>
+
+<div class="scenario" data-type="baseline">
+<h3>Scenario 4 — the non-itemizer's straightforward gift</h3>
+
+Elin does not itemize her deductions for 2026. She gives 900 dollars in cash by cheque to her local
+public charity and keeps the cancelled cheque.
+
+She deducts the full 900 dollars under IRC § 170(p): it is a cash gift to a § 170(b)(1)(A) organization,
+it is within the individual ceiling, and it is not a gift to a supporting organization or a donor advised
+fund. The 0.5 percent floor in § 170(b)(1)(I) never enters her computation, because that floor applies
+only to a taxpayer who itemizes.
+</div>
+
+<div class="scenario" data-type="timing">
+<h3>Scenario 5 — the carryback that did not reopen the deduction</h3>
+
+Fiona runs a small business and has {gloss:adjusted-gross-income}, and so a contribution base, of 300,000
+dollars in 2026. She gives 50,000 dollars in cash to a public charity, comfortably inside both the floor
+and the 60 percent limitation. In 2027 the business has a bad year, and she carries the resulting
+{gloss:net-operating-loss} back to 2026.
+
+Her 2026 charitable deduction does not change. IRC § 170(b)(1)(H) computes the contribution base without
+regard to any net operating loss carried back to the year, so the carryback lowers her 2026 tax and
+produces a refund, but it does not reopen or shrink the charitable computation already made against her
+original 2026 contribution base.
 </div>
 
 <div class="callout trap">

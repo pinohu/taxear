@@ -22,7 +22,19 @@ forms: ["56", "1310", "2848"]
 related: ["3.3.1.m", "3.2.6.a", "3.3.1.f"]
 changelog:
   - { date: "2026-08-18", summary: "Initial publication from IRC §§ 6012(b)(1), 6501(d), 6901, 6903, 6905, 31 U.S.C. § 3713(b) and IRS Pub. 559." }
+  - { date: "2026-08-25", summary: "Added a plain-language summary, glossary marks, and two typed scenarios covering the discharge window and the prompt-assessment exclusion for the estate tax return." }
 ---
+
+<div class="plain-terms">
+When someone dies, someone else has to finish their tax business. This page explains who
+that person is, what powers they get, and what can go wrong for them. It affects an
+executor or anyone else put in charge of a dead person's property. Often that is a
+family member who never expected the job. A power of attorney signed before death stops
+working the moment the person dies. It does not matter how broad it once was. This page
+explains how the new person in charge proves they can act. It also warns about a real
+trap. Paying other bills first can leave that person owing the tax bill out of their own
+pocket.
+</div>
 
 Representing a decedent turns on a fact practitioners routinely miss: a **power of attorney dies with the taxpayer**. The person who can now act is a fiduciary, appointed under state law, whose authority comes from § 6903 rather than from Form 2848 — and who can become **personally liable** for the decedent's federal tax by paying the wrong creditors first.
 
@@ -62,22 +74,34 @@ Representing a decedent turns on a fact practitioners routinely miss: a **power 
 
 **Note what Form 4810 does not reach.** Any return of the decedent or the estate **except the estate tax return**. An executor wanting finality on Form 706 is looking at § 2204, through Form 5495, not at § 6501(d).
 
-<div class="scenario">
+<div class="scenario" data-type="procedural">
 <h3>The power of attorney that expired at death</h3>
 <p>An enrolled agent has held a Form 2848 for a client for six years. The client dies. The agent telephones the IRS to resolve an open balance and is refused disclosure.</p>
-<p><em>Analysis.</em> Correct refusal. The Form 2848 authority ended with the principal. The route is a <strong>Form 56</strong> from the executor or administrator giving notice of the fiduciary relationship under § 6903, which vests the taxpayer's powers and rights in that fiduciary, and then a <strong>new Form 2848 signed by the fiduciary</strong> appointing the agent. Nothing about the underlying matter has changed; the chain of authority has.</p>
+<p><em>Analysis.</em> Correct refusal. A {gloss:power-of-attorney} ends when the person who signed it dies, so the Form 2848 authority ended with the principal. The route is a <strong>Form 56</strong> from the {gloss:executor} or administrator giving notice of the fiduciary relationship under § 6903, which vests the taxpayer's powers and rights in that {gloss:fiduciary}, and then a <strong>new Form 2848 signed by the fiduciary</strong> appointing the agent. Nothing about the underlying matter has changed; the chain of authority has.</p>
 </div>
 
-<div class="scenario">
+<div class="scenario" data-type="baseline">
 <h3>The distribution that cost the executor personally</h3>
 <p>A son acts as executor of his mother's small estate. He pays the funeral costs and two credit card balances, then distributes the remaining $30,000 between himself and his sister. A year later the IRS assesses $19,000 of unpaid income tax for the decedent's final two years.</p>
 <p><em>Analysis.</em> Section 3713(b) makes him personally liable to the extent of the payments he made before satisfying the Government's claim, and § 3713(a) gives that claim priority where the estate is insufficient to pay all debts. Section 6901 lets the IRS assess him as a fiduciary in the same manner as the underlying tax, and the beneficiaries as transferees. Had the tax position been established before distribution, the estate would simply have paid it and he would have owed nothing personally.</p>
 </div>
 
-<div class="scenario">
+<div class="scenario" data-type="interaction">
 <h3>The wrong form for the worry</h3>
 <p>An executor wants certainty before distributing. She is anxious about her own exposure and files Form 4810, expecting it to protect her.</p>
 <p><em>Analysis.</em> Wrong direction. Form 4810 requests prompt assessment under § 6501(d) and shortens the assessment period to 18 months &mdash; useful to the estate, but it does nothing for her personally. Personal discharge comes from <strong>Form 5495</strong> under § 2204 or § 6905, filed after the returns are filed, on which the IRS has 9 months to state the amount due. Filing both is common and sensible; filing one for the other's purpose is not.</p>
+</div>
+
+<div class="scenario" data-type="boundary">
+<h3>Nine months of silence</h3>
+<p>An executor files Form 5495 the week after filing the decedent's final income tax returns, asking to be discharged from personal liability under § 2204. Nine months pass. The IRS sends no notice of any amount due.</p>
+<p><em>Analysis.</em> The executor is discharged from personal liability by the passage of time itself &mdash; the IRS must notify her of an amount due within nine months of the request, and silence through that window works the same as a notice that nothing is owed. The estate can still be assessed; only her personal exposure ends. A representative should diary the nine-month date the moment Form 5495 is filed, the same way the 24-month clock is diaried on an offer in compromise.</p>
+</div>
+
+<div class="scenario" data-type="fails">
+<h3>Prompt assessment that doesn't reach the estate tax return</h3>
+<p>An executor files the decedent's final Form 1040 and, the same week, files Form 4810 hoping to shorten the assessment window on the separate Form 706 estate tax return, still being prepared.</p>
+<p><em>Analysis.</em> It doesn't work for that return. A § 6501(d) request covers any return of the decedent or the estate <strong>except the estate tax return</strong>, so Form 706 keeps its ordinary assessment period no matter how promptly Form 4810 was filed for the income tax return. An executor who wants finality on the estate tax return has to look to a different tool entirely; § 6501(d) simply does not reach it.</p>
 </div>
 
 <div class="callout trap"><h4>Traps</h4>

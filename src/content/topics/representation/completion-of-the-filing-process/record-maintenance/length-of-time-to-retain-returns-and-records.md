@@ -21,7 +21,27 @@ forms: []
 related: ["3.4.2.b", "3.3.1.m", "3.1.4.e", "3.2.6.a"]
 changelog:
   - { date: "2026-08-19", summary: "Initial draft." }
+  - { date: "2026-08-25", summary: "Added a plain-language summary, glossary marks, two typed scenarios, and a timeline diagram of the retention periods by triggering fact." }
+diagram:
+  archetype: "timeline"
+  caption: "How long to keep records, by what happened in the year"
+  events:
+    - { when: "Return filed (or its due date, if filed early)", what: "The retention clock for that year starts" }
+    - { when: "3 years", what: "Ordinary case — none of the longer triggers below applies" }
+    - { when: "3 years from filing, or 2 years from payment, whichever is later", what: "A refund claim was filed after the return" }
+    - { when: "6 years", what: "Unreported income exceeds 25% of the gross income shown on the return" }
+    - { when: "7 years", what: "A loss from worthless securities or a bad debt deduction" }
+    - { when: "Indefinitely", what: "No return was filed, or the return filed was fraudulent" }
 ---
+
+<div class="plain-terms">
+How long should you keep old tax records? There is no single answer. The real rule is: keep records
+as long as the IRS could still question that year's return. This matters to anyone who files a tax
+return and later wonders what is safe to shred. It does not apply the same way to every record — a
+bad debt, a big unreported income item, or an unfiled return each get their own longer clock. What
+this page decides is which situation you are in and how many years that situation buys you, from a
+plain three years up to keeping something forever if a return was never filed at all.
+</div>
 
 ## The rule
 
@@ -95,24 +115,28 @@ completed copy of each return or claim, or a list of the taxpayer names and iden
 {fig:efile.sig_auth_retention}. Neither period is derived from the client's limitations period, and
 satisfying one does not satisfy the other.
 
-<div class="scenario">
+<div class="scenario" data-type="interaction">
 <h3>The like-kind exchange from a previous decade</h3>
 
 Théophile Nakamura-Brennan sells a commercial building. His accountant asks for the acquisition
 records and is told that everything before 2018 was shredded under a "seven-year rule" the firm
 adopted years ago.
 
-The building came into his hands through a nontaxable exchange in 2015, and the basis carried over
-from a property acquired in 2003. Records relating to property are kept until the limitations period
-expires for the year in which the property is disposed of, and where basis carried over from
-relinquished property, the records on that old property must be kept too. Without them the basis has
+The building came into his hands through a {gloss:like-kind-exchange} in 2015, and the
+{gloss:carryover-basis} came from a property acquired in 2003. Records relating to property are kept
+until the limitations period expires for the year in which the property is disposed of, and where
+basis carried over from relinquished property, the records on that old property must be kept too.
+The retention rule and the carryover-basis rule interact here: a numbered retention period written
+for an ordinary sale runs out on its own schedule, but a carried-over basis reaches back to whichever
+year the basis actually originated in, and the two rules together are what put 2003 documents on the
+hook in a 2031 sale. Without them the basis has
 to be reconstructed from whatever third-party evidence survives — county records, the closing file,
 the exchange intermediary — and the gain is computed under a cloud. A blanket destruction schedule
 expressed in years, applied to a file containing carried-over basis, is the mechanism that produced
 this.
 </div>
 
-<div class="scenario">
+<div class="scenario" data-type="boundary">
 <h3>The omission that changed the answer</h3>
 
 Ludovica Achterberg-Sørensen's 2021 return shows gross income of about 180,000 dollars. In 2026 she
@@ -127,16 +151,47 @@ omission — a qualified amended return or other corrective route — rather tha
 that has not run.
 </div>
 
-<div class="scenario">
+<div class="scenario" data-type="fails">
 <h3>The year with no return</h3>
 
 A new client has filed nothing for one year eleven years ago and assumes it is beyond reach.
 
-Where no return is filed there is no assessment period, so nothing expires and records should be
-kept indefinitely. The same is true of a fraudulent return. This is the practical reason the answer
-to "how long must I keep records" cannot be given without asking what happened in the year — the
-periods are consequences of the facts, not a schedule that applies regardless of them. Filing the
-missing return is what starts a clock that can eventually run.
+That assumption fails, and the reason is structural rather than a matter of degree. A {gloss:statute-of-limitations}
+has to start running before it can ever expire, and where no return is filed there is no assessment
+period to start — so nothing expires and records should be kept indefinitely. The same is true of a
+fraudulent return. This is the practical reason the answer to "how long must I keep records" cannot
+be given without asking what happened in the year — the periods are consequences of the facts, not a
+schedule that applies regardless of them. Filing the missing return is what starts a clock that can
+eventually run.
+</div>
+
+<div class="scenario" data-type="baseline">
+<h3>The plain three-year file</h3>
+
+Marguerite Oyelaran-Whitfield has one W-2, the standard deduction, no worthless securities, no
+omitted income, no fraudulent return, and no refund claim filed after the original. She files on
+time every year and asks how long to keep each year's file.
+
+This is the ordinary case the default period is built for: three years from the filing date, and
+nothing about her facts extends it. She can discard a given year's records once three years have
+passed since she filed that return, provided nothing later surfaces — an amended return, a notice, a
+carryover item — that would reopen the question. Most individual filers are in exactly this position
+most years, which is also why a longer period so often surprises a client who has never needed one
+before.
+</div>
+
+<div class="scenario" data-type="procedural">
+<h3>The preparer's own file, kept on its own schedule</h3>
+
+A client's return is prepared and filed in March 2023. The client keeps a full paper copy for
+herself. In 2025 she loses it in a move and asks her preparer for a replacement.
+
+The preparer's retention duty under IRC § 6107(b) is not a copy of the client's obligation — it runs
+on its own three-year clock from the close of the return period, and it can be satisfied with a list
+of taxpayer names and identifying numbers rather than a full copy of the return. If the preparer kept
+only the list, there is no return to hand back, only confirmation that one was filed; the client's
+own copy was always the client's to keep. The two retention duties are procedurally separate: they
+start from different dates, run for different reasons, and neither substitutes for the other.
 </div>
 
 <div class="callout trap">

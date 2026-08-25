@@ -20,7 +20,28 @@ forms: []
 related: ["1.1.1.i", "1.1.1.e", "1.1.1.j", "1.3.1.h", "1.3.2.b"]
 changelog:
   - { date: "2026-08-19", summary: "Initial draft. Sets out the rewritten IRC § 21(a)(2) applicable percentage effective for taxable years beginning after 31 December 2025, the § 21(b) qualifying individual and employment-related expense definitions with Reg. § 1.21-1(c) on gainful employment, the § 21(c) expense caps and their reduction by the § 129 exclusion, the § 21(d) earned income limitation and deemed earned income, and the § 21(e) special rules including the joint return requirement and both identification requirements." }
+  - { date: "2026-08-25", summary: "Added a plain-language summary, a threshold diagram of the 2026 applicable-percentage staircase, glossary marks, and two typed scenarios (fails, procedural) alongside retyped existing ones." }
+diagram:
+  archetype: "threshold"
+  caption: "How the dependent care credit rate steps down as adjusted gross income rises (single filer, 2026)"
+  min: 0
+  max: 120000
+  marks:
+    - { figureKey: "cdcc.applicable_percentage", value: 15000, label: "50% starts stepping down" }
+    - { figureKey: "cdcc.applicable_percentage", value: 45000, label: "Reaches 35% plateau" }
+    - { figureKey: "cdcc.applicable_percentage", value: 75000, label: "Second step begins" }
+    - { figureKey: "cdcc.applicable_percentage", value: 105000, label: "Reaches 20% floor", emphasis: true }
 ---
+
+<div class="plain-terms">
+This credit helps working parents and caregivers pay for the care of a young child, or of a spouse or
+{gloss:dependent} who cannot care for themselves. It applies only to costs paid so someone in the
+household can work or actively look for work — not to babysitting during a night out. Both spouses on a
+joint return generally need earnings of their own, though there is an exception for a spouse who is a
+full-time student. The credit decides how much of that care bill comes back at tax time. Higher income
+means a smaller percentage back, but the percentage never drops below one fifth of what was spent,
+however high income climbs.
+</div>
 
 Two things about this credit changed for 2026, and both make it larger. The applicable percentage in IRC
 § 21(a)(2) was rewritten to start at 50 percent and step down through two ranges rather than one, and the
@@ -120,7 +141,7 @@ The order matters because the § 129 reduction operates on the cap rather than o
 taxpayer with two children, expenses above the cap, and an exclusion equal to the cap has no creditable
 expenses at all, however large the actual outlay.
 
-<div class="scenario">
+<div class="scenario" data-type="boundary">
 <h3>The middle plateau</h3>
 
 Rosalind and Teo file jointly with adjusted gross income of $96,000 and pay $9,400 to a licensed centre
@@ -134,7 +155,7 @@ pre-2026 rule gave 20 percent of $6,000, or $1,200 — the plateau is the whole 
 in this band.
 </div>
 
-<div class="scenario">
+<div class="scenario" data-type="interaction">
 <h3>The exclusion that eats the credit</h3>
 
 Ana has one child in daycare at a cost of $8,000 and elects the full amount available under her
@@ -148,7 +169,7 @@ as well as income tax, but it is not additive, and a client who elects the maxim
 credit is gone rather than reduced.
 </div>
 
-<div class="scenario">
+<div class="scenario" data-type="baseline">
 <h3>The spouse with no earnings</h3>
 
 Marcus earns $88,000. His wife Delia enrolled full-time at a university in August and attended through
@@ -160,6 +181,33 @@ would be nil. Because she was a full-time student for five calendar months, she 
 below the $3,000 cap for one qualifying individual, so creditable expenses are $1,250 and the credit is
 the applicable percentage of that figure. Had she been a student for only four months she would not be a
 student for § 21 at all, and the credit would be zero.
+</div>
+
+<div class="scenario" data-type="fails">
+<h3>Comfortable, but not earning</h3>
+<p>Walter and his wife, filing {gloss:married-filing-jointly}, are both retired. She was diagnosed with a
+condition that leaves her incapable of self-care, and they pay $14,000 a year for in-home aides so
+Walter can keep managing their investments and rental properties. Neither spouse has wages or
+self-employment income.</p>
+<p><em>Analysis.</em> Section 21(d)(1) limits creditable expenses to the taxpayer's earned income, or on
+a joint return to the lesser of the two spouses' earned incomes. Investment income, pension income, and
+rental income are not earned income for this purpose, and neither spouse qualifies for the student or
+incapacity exception in § 21(d)(2) that would supply deemed earned income for Walter himself. However
+large their spending on care, and however real the need, the earned income limitation is zero and so is
+the credit.</p>
+</div>
+
+<div class="scenario" data-type="procedural">
+<h3>The daycare that would not give out its number</h3>
+<p>A family pays a home daycare provider $5,400 over the year. When it comes time to file, the provider
+— paid informally, off the books — refuses to give the family her taxpayer identification number.</p>
+<p><em>Analysis.</em> Section 21(e)(9) denies the credit for an amount paid to a provider whose name,
+address and taxpayer identification number are not on the return, but it also provides an escape: a
+taxpayer who exercised due diligence in trying to get the number, and still could not, may claim the
+credit anyway by documenting that effort on Form 2441. The family should keep a record of the requests
+they made — in writing, if possible — before concluding the credit is lost. There is no equivalent
+escape for a missing number for the qualifying individual, which is why that half of the form has to be
+complete no matter what.</p>
 </div>
 
 <div class="callout trap">

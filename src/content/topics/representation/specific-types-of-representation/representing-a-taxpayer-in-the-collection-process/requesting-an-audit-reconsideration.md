@@ -19,7 +19,27 @@ forms: ["1040-X"]
 related: ["3.3.1.f", "3.3.1.o", "3.3.3.g"]
 changelog:
   - { date: "2026-08-18", summary: "Initial publication from IRM 4.13.1 as revised 10 December 2025 and IRS Pub. 3598." }
+  - { date: "2026-08-25", summary: "Added a plain-language summary, a decision diagram of the eligibility gates, glossary marks, and two typed scenarios covering a substitute-for-return case and the 30-day documentation window." }
+diagram:
+  archetype: "decision"
+  caption: "Whether a case can go through audit reconsideration, or has to go elsewhere"
+  tests:
+    - { test: "Assessment unpaid, or a credit was reversed", result: "Eligible for reconsideration", outcome: "pass" }
+    - { test: "Assessment paid in full", result: "Formal claim on Form 1040-X instead", outcome: "fail" }
+    - { test: "New information not considered in the original exam", result: "Eligible for reconsideration", outcome: "pass" }
+    - { test: "Closing agreement, accepted offer, final TEFRA proceeding, or court decision", result: "Barred — reconsideration is not available", outcome: "fail" }
 ---
+
+<div class="plain-terms">
+An audit reconsideration is a way to ask the IRS to look again at an audit that already
+ended, without going to court. It works when a taxpayer never really got their side
+heard the first time, or has new records the IRS never saw. It affects anyone with a tax
+bill still open from a finished audit. It is not for someone who already paid the bill in
+full. What it decides is whether the IRS lowers the bill, leaves it alone, or wipes it
+out entirely. There is one catch that matters most. Pay the balance first, and this free,
+informal path closes. A different, more formal process takes over instead, and that one
+has real deadlines.
+</div>
 
 Audit reconsideration is the informal route back into an examination that has already closed, and it is the answer for the client who never engaged with the audit in the first place — who moved, never got the letters, or simply did not open them. It costs nothing, it is not a formal claim, and it has one hard precondition that decides whether it is available at all: **the assessment must still be unpaid**.
 
@@ -60,22 +80,34 @@ Audit reconsideration is the informal route back into an examination that has al
 
 **Collection does not stop automatically.** Pub. 3598 says the IRS *may* delay collection and may resume it if the documentation is insufficient and the taxpayer does not respond within 30 calendar days. That is weaker than the statutory stays elsewhere in collection, so an urgent case may need a separate hold — and an installment agreement in force must keep being paid regardless.
 
-<div class="scenario">
+<div class="scenario" data-type="baseline">
 <h3>The audit that happened without him</h3>
 <p>A client moved in 2023 without updating his address. An examination of his 2022 return proceeded on correspondence he never saw and closed with a $22,000 assessment disallowing his Schedule C expenses. He has every receipt. The balance is unpaid.</p>
-<p><em>Analysis.</em> This is what reconsideration is for. All the criteria are met: a return was filed, the assessment is unpaid, the disputed adjustments can be identified, and every document is new because none was considered in the original examination. Pub. 3598 names not receiving correspondence after a move as a reason for a request. Form 12661 to set out the issues, photocopies of the substantiation, and the Form 4549 examination report if he can obtain it.</p>
+<p><em>Analysis.</em> This is what {gloss:audit-reconsideration} is for. All the criteria are met: a return was filed, the assessment is unpaid, the disputed adjustments can be identified, and every document is new because none was considered in the original examination. Pub. 3598 names not receiving correspondence after a move as a reason for a request. Form 12661 to set out the issues, photocopies of the substantiation, and the Form 4549 examination report if he can obtain it.</p>
 </div>
 
-<div class="scenario">
+<div class="scenario" data-type="fails">
 <h3>Paid, and therefore too late for this route</h3>
 <p>A client borrowed from a relative and paid a $9,000 examination assessment in full to stop the interest. Two months later she finds the documents that would have answered the adjustment and asks to reopen the audit.</p>
-<p><em>Analysis.</em> Reconsideration requires that the assessment remain unpaid. With the balance cleared, the instrument is a <strong>formal claim</strong> — Form 1040-X for an individual income tax return — and the § 6511 periods and look-back now govern. The claim is likely to be timely on these facts, so nothing is lost substantively, but the route is more formal and the deadline is real where reconsideration had none.</p>
+<p><em>Analysis.</em> Reconsideration requires that the assessment remain unpaid, and this case no longer clears that gate. With the balance cleared, the instrument is a {gloss:claim-for-refund} — Form 1040-X for an individual income tax return — and the § 6511 periods and look-back now govern. The claim is likely to be timely on these facts, so nothing is lost substantively, but the route is more formal and the deadline is real where reconsideration had none.</p>
 </div>
 
-<div class="scenario">
+<div class="scenario" data-type="interaction">
 <h3>The offer that closed the door</h3>
 <p>A client settled a disputed liability by an offer in compromise accepted two years ago. He has since found documents suggesting the underlying assessment was overstated and wants the audit reconsidered.</p>
 <p><em>Analysis.</em> Not available. An assessment made as the result of a compromise under § 7122 is outside reconsideration, and the IRM directs Letter 916-C saying that tax assessed as the result of a closing agreement, an accepted offer or TEFRA proceedings cannot be reconsidered. The compromise is final and conclusive by its own terms; that finality is what the taxpayer bought. Advising a client to settle should include saying so.</p>
+</div>
+
+<div class="scenario" data-type="procedural">
+<h3>The non-filer's return, filed after the fact</h3>
+<p>A taxpayer didn't file a return for 2021. The IRS prepared a substitute for return under § 6020(b) from the Forms 1099 on file, with no dependents and no deductions, and the balance from that assessment is still unpaid. The taxpayer now prepares and files the real 2021 return, claiming two dependents and itemized deductions the IRS never saw.</p>
+<p><em>Analysis.</em> Filing that delinquent return is itself the reconsideration request for a {gloss:substitute-for-return} case — no separate letter has to come first, though attaching one that walks through the changes, plus Form 12661, still helps the case move. Because the original assessment reflected none of the taxpayer's actual dependents or deductions, the correction here is usually large and largely mechanical rather than a close factual dispute.</p>
+</div>
+
+<div class="scenario" data-type="boundary">
+<h3>Documentation, thirty days apart</h3>
+<p>Two taxpayers each get a follow-up request from the reconsideration unit after their first submission looks incomplete. One mails the missing document on day 28. The other's copy arrives on day 34.</p>
+<p><em>Analysis.</em> Pub. 3598 gives a taxpayer 30 calendar days to respond before collection, delayed on receipt of the original request, may resume. The taxpayer who answered inside the window keeps that delay in place while review continues; the one who answered late is the one collection can restart against, even though both eventually supplied the identical missing document. The 30-day line, not the eventual completeness of the file, is what controls in the interim.</p>
 </div>
 
 <div class="callout trap"><h4>Traps</h4>

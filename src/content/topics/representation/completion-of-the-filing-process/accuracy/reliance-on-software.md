@@ -19,7 +19,19 @@ forms: []
 related: ["3.4.1.b", "3.1.2.f", "3.1.4.g"]
 changelog:
   - { date: "2026-08-19", summary: "Initial draft." }
+  - { date: "2026-08-25", summary: "Added a plain-language summary, typed scenarios, and glossary marks (comprehension layer)." }
 ---
+
+<div class="plain-terms">
+Tax preparers use software to do the math on a return. But the law does not let anyone blame
+the software when a return comes out wrong. This page looks at two things: when a preparer
+may trust facts from a client or another expert without checking them again, and why trusting
+a computer program is not enough on its own. It affects paid tax preparers and the returns
+they sign, not the software makers. Here is what it decides. If a mistake would have been
+obvious from a plain read of the finished return, it is still the preparer's mistake, even
+though a computer made it. Checking the actual return, not just the data typed into it, is a
+job no program can do instead.
+</div>
 
 ## The rule
 
@@ -104,7 +116,7 @@ the exception entirely where there is a flagrant error, a pattern of errors on a
 repetition of the same or similar errors on numerous returns. A checklist that exists but is not used
 proves the opposite of what it was meant to prove.
 
-<div class="scenario">
+<div class="scenario" data-type="fails">
 <h3>The credit the software allowed</h3>
 
 Wilhelmina Osei-Fairhurst's package computes a credit for a client whose income should have phased it
@@ -112,14 +124,14 @@ out entirely. The preparer notices the credit looks generous, checks that every 
 source documents, finds no data error, and files.
 
 The return is wrong and the reliance argument is unavailable. There is no provision permitting
-reliance on the software's computation, and the reasonable cause exception does not apply to an error
-that would have been apparent from a general review of the return — a credit surviving at an income
+reliance on the software's computation, and the {gloss:reasonable-cause-defense} exception does not
+apply to an error that would have been apparent from a general review of the return — a credit surviving at an income
 level where it should be gone is exactly that. The check that was needed was not another pass over
 the input screens but a moment testing the output against the statute: at this income, should this
 credit exist at all? The answer took thirty seconds and was available before filing.
 </div>
 
-<div class="scenario">
+<div class="scenario" data-type="baseline">
 <h3>The bookkeeper's schedule, and the reliance that held</h3>
 
 Cassius Nwachukwu-Berglund prepares a business return from a depreciation schedule produced by the
@@ -135,7 +147,7 @@ because the burden of establishing that the information was received is on him. 
 different from the software case: a person was engaged, and a person can be evaluated.
 </div>
 
-<div class="scenario">
+<div class="scenario" data-type="boundary">
 <h3>The update that was not installed</h3>
 
 A firm defers a mid-season software update during its busiest fortnight. The update corrected a
@@ -145,9 +157,9 @@ old figure.
 This is not an isolated error. Reg. § 1.6694-2(e)(2) applies the reasonable cause exception to an
 isolated error rather than a number of errors, and expressly withholds it where there is a repetition
 of the same or similar errors on numerous returns. Forty returns carrying the same wrong threshold is
-a pattern by any reading. The firm's exposure is not merely forty amended returns; it is that the
-normal office practice factor now cuts against it, because whatever the practice said about applying
-updates was not followed.
+a pattern by any reading. The firm's exposure is not merely forty {gloss:amended-return}s; it is that
+the normal office practice factor now cuts against it, because whatever the practice said about
+applying updates was not followed.
 </div>
 
 <div class="callout trap">

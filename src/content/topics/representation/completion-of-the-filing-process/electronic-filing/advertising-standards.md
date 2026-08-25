@@ -17,7 +17,19 @@ forms: []
 related: ["3.4.3.a", "3.4.3.d", "3.1.2.d", "3.4.3.h"]
 changelog:
   - { date: "2026-08-19", summary: "Initial draft against Publication 3112 (Rev. 11-2025), closing an open verification item on the e-file logo rules." }
+  - { date: "2026-08-25", summary: "Added a plain-language summary and typed scenarios (comprehension layer)." }
 ---
+
+<div class="plain-terms">
+Once a firm is approved to file tax returns online for clients, strict rules control how it
+can advertise that fact. Being let into the IRS's e-file program is not the same as an IRS
+endorsement. The IRS is not backing the firm or vouching for its work, and ads must not
+suggest otherwise. These rules affect any firm cleared to e-file. They cover how it uses the
+IRS's name and logo, and any claims about a fast refund or a refund loan. What this page
+decides is which words and symbols a firm may use, and which are off limits. It also covers
+what records a firm must keep about its own ads. Getting this wrong can shut off a firm's
+e-filing in the middle of the busy season.
+</div>
 
 ## The rule
 
@@ -99,7 +111,7 @@ brought into compliance — the example given is a website carrying words or log
 This is an operational consequence during filing season, not a penalty proceeding, and it is why
 website copy should be reviewed before January rather than after a call from the e-help Desk.
 
-<div class="scenario">
+<div class="scenario" data-type="fails">
 <h3>The eagle on the letterhead</h3>
 
 A newly authorised practice designs a mailer. The designer places the IRS e-file logo beside a
@@ -114,7 +126,7 @@ space, and states in ordinary text that the firm is an Authorized IRS e-file Pro
 claim the firm is actually entitled to make.
 </div>
 
-<div class="scenario">
+<div class="scenario" data-type="interaction">
 <h3>"Refund in 24 hours"</h3>
 
 A seasonal storefront advertises "YOUR REFUND IN 24 HOURS" in the window, with smaller print
@@ -129,7 +141,7 @@ the disclosure is the small print. The IRS may inactivate the firm's e-file priv
 signage is fixed — in February, that is the entire business.
 </div>
 
-<div class="scenario">
+<div class="scenario" data-type="procedural">
 <h3>The e-mail campaign with no list</h3>
 
 A practice runs an e-mail campaign to a purchased list of local small businesses. It keeps the

@@ -20,7 +20,18 @@ forms: []
 related: ["1.3.2.b", "1.1.1.j", "1.1.1.i", "1.1.1.k", "1.3.2.d", "1.3.2.e", "1.5.1.c"]
 changelog:
   - { date: "2026-08-19", summary: "Initial draft. Sets out the IRC § 25A(b) American Opportunity credit with its four-year, half-time and felony limits, the § 25A(c) Lifetime Learning credit, the § 25A(d) shared phase-out and why it is no longer indexed, the § 25A(f)(1) expense definition and its § 25A(f)(1)(D) course-materials extension for the American Opportunity credit only, Reg. § 1.25A-2(d)(2) on when books count, the § 25A(g) special rules, and the social security number requirement added by Pub. L. 119-21 § 70606 for taxable years beginning after 31 December 2025." }
+  - { date: "2026-08-25", summary: "Added a plain-language summary, typed scenarios, and glossary marks as part of the comprehension-layer rollout." }
 ---
+
+<div class="plain-terms">
+This topic covers two separate tax credits that help pay for college or other schooling after
+high school. One is for a student working toward a degree in their first four years; the other
+is for almost any class at any age, even a single course taken to learn a new job skill. They
+affect a parent paying a child's tuition, or an adult paying their own. Higher earners get a
+smaller credit or none at all. What these credits decide is how much of your tuition bill you
+get back at tax time, and which of the two credits fits your situation, since you often cannot
+use both for the same student in the same year.
+</div>
 
 Section 25A holds two credits that look similar and behave differently. The American Opportunity credit
 is per student, partly refundable, limited to four years and to degree candidates, and reaches course
@@ -126,7 +137,7 @@ the whole return however many students there are.
 **Then apply the shared phase-out**, and only then take 40 percent of what is left of the American
 Opportunity credit as the refundable part.
 
-<div class="scenario">
+<div class="scenario" data-type="fails">
 <h3>Books, and where they were bought</h3>
 
 The Adeyemi family pays $5,000 of tuition for their daughter and $1,200 for textbooks she buys at the
@@ -141,7 +152,7 @@ percent of $5,000, or $1,000. Adding the books would have produced $1,240 and ov
 $240.
 </div>
 
-<div class="scenario">
+<div class="scenario" data-type="baseline">
 <h3>The scholarship comes off first</h3>
 
 Bram is a full-time sophomore in a degree programme. Tuition and required fees are $7,600, and he holds
@@ -154,12 +165,13 @@ bringing qualified expenses to $2,500 and the credit to $2,125: $2,000 at 100 pe
 percent. Note that the reduction is applied to expenses, never to the credit itself.
 </div>
 
-<div class="scenario">
+<div class="scenario" data-type="interaction">
 <h3>Two students, one return</h3>
 
-Halim and Zoe file jointly. Their son is a first-year full-time degree student with $4,200 of tuition;
-their daughter is taking a single evening course to improve her job skills, with $3,000 of tuition, at
-the same eligible institution. Modified adjusted gross income is $148,000.
+Halim and Zoe file jointly. Their son is a first-year full-time degree student with $4,200 of tuition,
+eligible for an {gloss:education-credit}; their daughter is taking a single evening course to improve
+her job skills, with $3,000 of tuition, at the same eligible institution. Modified adjusted gross income
+is $148,000.
 
 The son qualifies for the American Opportunity credit: $2,000 at 100 percent plus $2,000 at 25 percent
 gives $2,500. The daughter's course cannot support that credit — no degree programme, less than half
@@ -167,6 +179,35 @@ time — but § 25A(c)(2)(B) expressly allows the Lifetime Learning credit for a
 gives 20 percent of $3,000, or $600. Because the son is claiming the American Opportunity credit, his
 expenses are excluded from the Lifetime Learning computation by § 25A(c)(2)(A). Total credits $3,100, no
 phase-out at $148,000, and $1,000 of the American Opportunity credit is refundable.
+</div>
+
+<div class="scenario" data-type="boundary">
+<h3>Four elections, two different claimants</h3>
+
+A student's parents claimed the American Opportunity credit for her in her freshman, sophomore, and
+junior years while claiming her as their {gloss:dependent}. In her senior year she turned 24, filed her
+own return, and was no longer anyone's dependent, so she claimed the credit herself — a fourth election,
+just for a different taxpayer. She now needs a fifth year to finish a delayed requirement.
+
+Section 25A(b)(2)(A) counts elections made "by the taxpayer or by any other individual" for the
+student, so her parents' three elections and her own one election add up to the four-year limit
+exactly. Whoever considers claiming for the fifth year — the student or anyone else — cannot: the
+American Opportunity credit is closed for her. The Lifetime Learning credit remains open, with no such
+ceiling.
+</div>
+
+<div class="scenario" data-type="procedural">
+<h3>No Form 1098-T, and what to do about it</h3>
+
+A taxpayer paid $6,000 of tuition directly to a small trade school and never received a Form 1098-T. She
+wants to claim the Lifetime Learning credit on her return this filing season.
+
+IRC § 25A(g)(8) denies the credit unless the taxpayer receives the § 6050S(d) payee statement, subject
+to any exception the Secretary provides. The fix is procedural, not a workaround: contact the school's
+registrar or bursar and ask that the 1098-T be issued or corrected before filing, since the institution
+is the one obligated to furnish it under § 6050S. Filing the credit without the statement, or without
+confirming that an exception applies, invites a correspondence exam that is easier to avoid than to
+explain later.
 </div>
 
 <div class="callout trap">

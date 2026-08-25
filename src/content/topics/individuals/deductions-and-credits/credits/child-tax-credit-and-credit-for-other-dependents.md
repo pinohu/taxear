@@ -19,7 +19,24 @@ forms: []
 related: ["1.1.1.i", "1.3.2.a", "1.1.1.j", "1.1.1.k", "1.3.2.c", "1.3.2.e", "1.3.2.f"]
 changelog:
   - { date: "2026-08-19", summary: "Initial draft. Sets out the IRC § 24(h) overlay that displaces the credit amount, threshold, refundable cap, earned income floor and identification rule printed in the body of the section, the § 24(h)(4) credit for other dependents, the § 24(d) refundability computation, the § 24(g) disallowance periods, and the changes made by Pub. L. 119-21 § 70104 effective for taxable years beginning after 31 December 2024." }
+  - { date: "2026-08-25", summary: "Added a plain-language summary, a decision diagram of the qualifying-child-versus-other-dependent split, glossary marks, and two typed scenarios (interaction, procedural) alongside retyped existing ones." }
+diagram:
+  archetype: "decision"
+  caption: "Which dependent-based amount applies"
+  tests:
+    - { test: "Qualifying child under age 17 at year end (§ 24(c)(1))?", result: "$2,200 child tax credit, subject to phase-out", outcome: "pass" }
+    - { test: "Not under 17 — but still a dependent under § 152?", result: "$500 credit for other dependents, nonrefundable", outcome: "pass" }
+    - { test: "Not a § 152 dependent at all", result: "No credit", outcome: "fail" }
 ---
+
+<div class="plain-terms">
+This is the main tax credit for raising children. It pays a set amount for each {gloss:qualifying-child}
+still young enough to count, and a smaller amount for other dependents, like an older child or a parent
+the taxpayer supports. It affects almost any household with children or other dependents. The credit
+shrinks only for very high earners. It decides how much a family's tax bill goes down, and, if the bill
+was already low, how much comes back as a refund instead. A missing Social Security number for the child
+can erase that child's credit. So can a very short tax year.
+</div>
 
 Section 24 cannot be read from the top. The credit amount in subsection (a), the phase-out thresholds in
 subsection (b)(2) and the earned income floor in subsection (d)(1)(B)(i) have not applied since 2017.
@@ -114,7 +131,7 @@ Where the phase-out bites, remember which income figure is used. It is modified 
 adjusted gross income increased by amounts excluded under §§ 911, 931 and 933 — so a taxpayer claiming
 the foreign earned income exclusion adds it back for this purpose.
 
-<div class="scenario">
+<div class="scenario" data-type="boundary">
 <h3>The seventeenth birthday</h3>
 
 Nkem and Ruth file jointly with modified adjusted gross income of $128,000. Their daughter turned 17 in
@@ -127,7 +144,7 @@ because the joint threshold is $400,000. A candidate who reads the age test as "
 in the year" gets $4,400 and is wrong by $1,700.
 </div>
 
-<div class="scenario">
+<div class="scenario" data-type="baseline">
 <h3>Refundability is not full refundability</h3>
 
 Ines is single with one qualifying child aged 6. Her earned income is $19,000 and her income tax before
@@ -140,7 +157,7 @@ unused credit of $1,860. She receives $1,700 as a refund and loses $160 of the c
 still applying the 2021 rule would tell her the whole $2,200 is refundable.
 </div>
 
-<div class="scenario">
+<div class="scenario" data-type="fails">
 <h3>The dependent who is not a child at all</h3>
 
 Sunil supports his mother, who lives in her own apartment, has $3,800 of interest income and receives
@@ -152,6 +169,33 @@ under § 24(h)(4)(A). The son is a qualifying child of Sunil under § 152(c) —
 but he is not a qualifying child *described in § 24(c)*, because that provision needs him to be under
 17. He too brings $500. Sunil's total is $1,000, entirely nonrefundable, and both amounts phase out
 against his modified adjusted gross income on the same schedule as a child tax credit would.
+</div>
+
+<div class="scenario" data-type="interaction">
+<h3>Working abroad narrows the credit at home</h3>
+<p>Priyanka works overseas and excludes $90,000 of wages using the {gloss:foreign-earned-income-exclusion}.
+Her remaining taxable income is modest, but she has two qualifying children and files as head of
+household.</p>
+<p><em>Analysis.</em> The § 24(b)(1) phase-out runs on modified adjusted gross income, which adds back
+amounts excluded under §§ 911, 931 and 933 — precisely the exclusion Priyanka used. Her child tax credit
+phases out against an income figure far larger than the one she actually pays tax on, because the two
+provisions were not written to ignore each other. A preparer who phases out the credit against her
+taxable income alone, rather than her income with the exclusion added back, overstates the credit she is
+entitled to.</p>
+</div>
+
+<div class="scenario" data-type="procedural">
+<h3>Coming back after a denial</h3>
+<p>Last year, an audit found that a taxpayer's daughter, his {gloss:dependent}, did not live with him for
+more than half the year, and the child tax credit was disallowed on a final determination of reckless
+disregard of the rules. He wants to try again this year, and nothing about the child's living
+arrangement has changed.</p>
+<p><em>Analysis.</em> Section 24(g)(1)(B) bars the credit for two taxable years after that kind of
+determination, and only one year has passed, so this year's claim cannot go forward at all — the facts
+about where the child lives do not matter while the bar is in effect. Once the two years run, the credit
+is not simply available again on the next return filed as usual: the taxpayer must include whatever
+information the Secretary requires to show eligibility, ordinarily by attaching Form 8862, before the
+credit will be allowed.</p>
 </div>
 
 <div class="callout trap">

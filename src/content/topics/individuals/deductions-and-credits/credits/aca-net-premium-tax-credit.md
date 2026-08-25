@@ -20,7 +20,30 @@ forms: []
 related: ["1.1.1.q", "1.1.1.k", "1.3.2.e", "1.1.1.j", "1.3.2.h"]
 changelog:
   - { date: "2026-08-19", summary: "Initial draft. Sets out the IRC § 36B(b) premium assistance computation with the 2026 applicable percentage table from Rev. Proc. 2025-25 § 3.01, the return of the 400 percent ceiling on the expiry of § 36B(c)(1)(E), the § 36B(c)(2) coverage month and employer coverage tests with the 2026 required contribution percentage, the § 36B(f) reconciliation and the repeal of the repayment cap by Pub. L. 119-21 § 71305, and the eligibility and enrollment amendments made by §§ 71301 to 71304 with their staggered effective dates." }
+  - { date: "2026-08-25", summary: "Added a plain-language summary, a threshold diagram of the 2026 applicable-percentage and 400-percent-of-poverty-line figures, glossary marks, and two typed scenarios (fails, procedural) alongside retyped existing ones." }
+diagram:
+  archetype: "threshold"
+  caption: "Household income as a percent of the federal poverty line: where the credit rate rises, and where it ends"
+  min: 0
+  max: 450
+  marks:
+    - { figureKey: "ptc.income_range", value: 100, label: "100% FPL — credit begins" }
+    - { figureKey: "ptc.applicable_percentage", value: 150, label: "4.19% of income" }
+    - { figureKey: "ptc.applicable_percentage", value: 250, label: "8.44% of income" }
+    - { figureKey: "ptc.applicable_percentage", value: 300, label: "9.96% begins" }
+    - { figureKey: "ptc.income_range", value: 400, label: "400% FPL — credit ends", emphasis: true }
 ---
+
+<div class="plain-terms">
+This is the {gloss:premium-tax-credit}. It helps people pay for health insurance bought through the
+ACA marketplace, not through a job. It only applies to households whose income falls within a set
+range for their family size. Married couples usually must file a joint return to get it. Insurers are
+often paid part of the credit in advance, every month, based on an income estimate. At tax time, that
+estimate is checked against actual income for the year. This decides two things: how large the credit
+really is, and whether the household must repay any extra amount it received in advance. For 2026, a
+household that goes even slightly over the top of the income range loses the whole credit, not just
+part of it, and must repay everything advanced.
+</div>
 
 For five years this credit had no upper income limit and a capped repayment. Both of those were
 temporary, both ran out with taxable year 2025, and the second was then repealed outright rather than
@@ -108,7 +131,7 @@ credit does not taper — it disappears. A self-employed client whose income is 
 be told before year end that a deductible retirement contribution or a deferred invoice can be worth
 several thousand dollars of credit, and that the reverse is true of a late payment received in December.
 
-<div class="scenario">
+<div class="scenario" data-type="boundary">
 <h3>The cliff, and what it costs</h3>
 
 Elena is self-employed, single, and enrolled through the Exchange. Her expected income put her at 380
@@ -123,7 +146,7 @@ made a deductible retirement contribution before year end to bring household inc
 would have kept most of the credit.
 </div>
 
-<div class="scenario">
+<div class="scenario" data-type="interaction">
 <h3>An offer of employer coverage, and the two tests</h3>
 
 Raj is offered coverage by his employer. Self-only coverage would cost him 11 percent of household
@@ -138,7 +161,7 @@ one of the two needs to fail. Note the trap in clause (iii): had he actually enr
 plan, neither test would apply and his months would not be coverage months.
 </div>
 
-<div class="scenario">
+<div class="scenario" data-type="baseline">
 <h3>The benchmark is not the plan you bought</h3>
 
 The Okonjo family's expected contribution under the applicable percentage is $410 a month. The second
@@ -149,6 +172,32 @@ The § 36B(b)(2)(B) figure is $1,150 less $410, or $740. But § 36B(b)(2)(A) cap
 amount at the premiums actually paid — $690. Their credit is $690 a month and the bronze plan costs them
 nothing. Had they bought a gold plan at $1,400, the credit would still be $740 and they would pay $660
 themselves. The benchmark sets the credit; the plan chosen sets only the ceiling.
+</div>
+
+<div class="scenario" data-type="fails">
+<h3>Filing separately closes the door</h3>
+<p>Priya and her husband live together all year. Each earns income and each is covered by a marketplace
+plan. On a friend's advice, Priya files married filing separately because she does not want to be
+responsible for her husband's tax debt.</p>
+<p><em>Analysis.</em> Section 36B(c)(1)(C) requires a married taxpayer to file a joint return to be an
+applicable taxpayer at all. Filing {gloss:married-filing-separately} closes off the credit completely,
+whatever household income turns out to be. The credit's income test actually runs on household income
+rather than plain {gloss:adjusted-gross-income}, but that distinction never comes into play here,
+because the joint-return requirement fails before income is even checked. Absent the regulatory relief
+for domestic abuse or spousal abandonment, which the statute itself does not provide, there is no path
+back to the credit while married filing separately.</p>
+</div>
+
+<div class="scenario" data-type="procedural">
+<h3>Filing to reconcile, not to claim</h3>
+<p>Dario's household income for the year turns out to be well under the standard filing threshold. He
+received $3,100 of advance payments to his insurer over the year toward a silver plan bought on the
+Exchange.</p>
+<p><em>Analysis.</em> Section 36B(f)(1) requires the credit to be reconciled against the advance
+payments, and that can only happen on a return. Dario must file a Form 1040 with Form 8962 attached,
+using the coverage and payment figures the Exchange reports on Form 1095-A, even though his income
+alone would not otherwise require a return. Skipping the filing does not make the advance payments go
+away — it just leaves the reconciliation undone until the IRS catches it.</p>
 </div>
 
 <div class="callout trap">

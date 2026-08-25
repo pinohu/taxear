@@ -19,9 +19,26 @@ forms: ["9465", "433-A", "433-B", "433-F"]
 related: ["3.3.1.c", "3.3.1.d", "3.3.1.e", "3.3.2.a", "3.2.6.a", "3.2.1.a", "3.3.1.j", "3.3.1.k", "3.3.1.p", "3.3.1.a", "3.2.3.e"]
 changelog:
   - { date: "2026-08-18", summary: "Initial publication. Records the replacement of streamlined installment agreements by simple payment plans, and the removal of the 72-month rule." }
+  - { date: "2026-08-24", summary: "Added a plain-language summary, a decision diagram of the payment-plan ladder, glossary marks, and typed scenarios." }
+diagram:
+  archetype: "decision"
+  caption: "Which payment plan applies, from simplest to most involved"
+  tests:
+    - { test: "Full balance payable within the short-term window", result: "Short-term plan — no application fee", outcome: "pass" }
+    - { test: "Aggregate unpaid balance of assessment at or under the simple payment plan ceiling", result: "Simple payment plan — no financial disclosure, paid in full by the CSED", outcome: "pass" }
+    - { test: "Balance over the ceiling, or a fuller financial picture is needed", result: "Standard installment agreement — Form 433 disclosure required", outcome: "fail" }
 ---
 
-An installment agreement is the ordinary way a taxpayer who cannot pay resolves a balance. The statute is short and the discretion is broad; almost everything a practitioner needs to know sits in the administrative rules, and those changed materially in the last two years.
+<div class="plain-terms">
+An installment agreement is a deal with the IRS. You pay a tax bill over time instead of all at
+once. It affects anyone who owes tax but cannot pay it right away. It does not help someone who can
+already pay in full. It also does not fit someone who cannot pay anything at all — a hardship
+status or a settlement offer may work better for that case. The deal sets a monthly payment. It
+also sets rules for what happens if you miss one. It decides one more thing too. While the IRS is
+deciding whether to say yes, it usually cannot grab your paycheck or bank account.
+</div>
+
+An {gloss:installment-agreement} is the ordinary way a taxpayer who cannot pay resolves a balance. The statute is short and the discretion is broad; almost everything a practitioner needs to know sits in the administrative rules, and those changed materially in the last two years.
 
 ## The rule
 
@@ -49,19 +66,31 @@ Requests are made online, by phone, by mail, or on Form 9465. The fee depends on
 
 The controlling constraint is no longer a term of months. The IRM requires the payment to be calculated so that everything, **including accrued penalties and interest, is paid in full by the collection statute expiration date**, with the calculation documented in the case history. Monthly amounts may rise or fall over the life of the plan provided that remains true. A practitioner proposing a figure should therefore work backwards from the CSED rather than dividing the balance by 72.
 
-<div class="scenario">
+<div class="scenario" data-type="baseline">
+<h3>The plan working as designed</h3>
+<p>A taxpayer owes an assessed balance of $35,000, all individual income tax. She applies online, agrees to direct debit, and the IRS calculates a monthly payment that pays the balance, plus accrued penalties and interest, in full before the {gloss:csed}.</p>
+<p><em>Analysis.</em> This is the simple payment plan working exactly as the current IRM directs: the balance sits under the ceiling, no {gloss:collection-information-statement} is required, and the monthly figure is built backwards from the CSED rather than divided over a fixed term. Applying online with direct debit also gets her the lowest available fee.</p>
+</div>
+
+<div class="scenario" data-type="boundary">
 <h3>The payment that buys eligibility</h3>
 <p>A client owes an assessed balance of $54,000. He can pay $6,000 now from savings and wants the simplest possible resolution without financial disclosure.</p>
 <p><em>Analysis.</em> The ceiling is measured on the aggregate unpaid balance of assessment, and the IRM expressly permits a payment that reduces the balance before the agreement is entered. Paying the $6,000 first brings him to $48,000 and within reach of a simple payment plan; requesting the agreement first and paying afterwards does not.</p>
 </div>
 
-<div class="scenario">
+<div class="scenario" data-type="interaction">
 <h3>Two clocks, one agreement</h3>
 <p>A representative files a request for an installment agreement on 3 March. The IRS rejects it on 20 June. The client does not appeal, and an agreement is later accepted in September and paid on time for two years.</p>
 <p><em>Analysis.</em> The collection period is suspended from 3 March while the request is pending, and for the 30 days after the 20 June rejection. Once the September agreement is in effect, the period runs again — § 6331(k)(3)(B) carves out the in-effect period from the suspension rule. Levy is barred throughout, which is a different question from whether the CSED is moving.</p>
 </div>
 
-<div class="scenario">
+<div class="scenario" data-type="timing">
+<h3>The same balance, two years apart</h3>
+<p>A practitioner proposed a payment plan for a $48,000 balance in early 2024, dividing it over 72 months as the rule then required. A colleague is asked to propose a plan for an identical balance in late 2026.</p>
+<p><em>Analysis.</em> The math is not the same anymore. IRM 5.14.5 no longer sets a 72-month term or a fixed dollar band; it requires the monthly amount to be calculated so the balance, including accrued penalties and interest, is paid off by the {gloss:csed}. Depending on how much of the collection period remains, the 2026 monthly payment could land higher or lower than the old 72-month figure — the answer now turns on a date the 2024 approach never had to ask about.</p>
+</div>
+
+<div class="scenario" data-type="procedural">
 <h3>The fee nobody needed to pay</h3>
 <p>A client with income just above the poverty line asks her preparer to set up a plan by telephone, paying monthly by cheque. The fee charged is the phone, non-direct-debit amount.</p>
 <p><em>Analysis.</em> Two choices cost her money. Applying online and agreeing to direct debit reduces the fee substantially, and if her adjusted gross income is at or below 250 percent of the federal poverty level, direct debit waives it entirely. If she is low income but cannot use direct debit, the reduced fee is reimbursed on completion. Checking low-income status before submitting is worth more than the call saves.</p>

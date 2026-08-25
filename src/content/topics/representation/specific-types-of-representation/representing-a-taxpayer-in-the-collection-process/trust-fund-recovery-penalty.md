@@ -19,7 +19,26 @@ forms: []
 related: ["3.3.1.j", "3.3.1.m", "3.3.1.d", "3.3.1.l"]
 changelog:
   - { date: "2026-08-18", summary: "Initial publication from IRC § 6672 and IRM 5.7.3 and 5.7.4 as revised June and July 2025." }
+  - { date: "2026-08-25", summary: "Added a plain-language summary, a decision diagram of the two-element test, glossary marks, and two typed scenarios covering the Form 4180 interview pause and the divisible-tax refund route." }
+diagram:
+  archetype: "decision"
+  caption: "The two elements the IRS must establish before the penalty attaches"
+  tests:
+    - { test: "Responsible person: duty to perform, power to direct collection, and authority to decide which creditors are paid", result: "First element established", outcome: "pass" }
+    - { test: "Willful: aware or should have been aware, and disregarded the law or was plainly indifferent — no bad motive required", result: "Second element established", outcome: "pass" }
+    - { test: "Either element missing, or the unpaid volunteer board member exception applies", result: "No trust fund recovery penalty", outcome: "fail" }
 ---
+
+<div class="plain-terms">
+The trust fund recovery penalty lets the IRS collect unpaid payroll taxes from a person
+instead of just the business. It targets withheld amounts: the part of an employee's
+paycheck a business held back to send to the government but never sent. It can reach
+owners, officers, bookkeepers, or anyone else with real control over which bills got
+paid. Simply being on the payroll is not enough by itself. The IRS has to prove two
+separate things before this penalty can apply. First, that the person truly had the power
+to decide the tax got paid. Second, that the person knew, or should have known, about the
+unpaid tax and let it slide anyway. Both must be true, not just one.
+</div>
 
 The trust fund recovery penalty is not really a penalty. It is a device for collecting withheld employment taxes from individuals when the employer cannot pay, and it reaches people who never thought of themselves as taxpayers on the liability. Two elements have to be established, both of them, and the defence almost always lies in the second.
 
@@ -69,22 +88,34 @@ The trust fund recovery penalty is not really a penalty. It is a device for coll
 
 **The divisible tax point is worth knowing.** The TFRP is a divisible tax for § 6331(i) purposes, so paying the tax attributable to a single employee for one quarter and suing for refund can put the whole liability before a district court while barring levy during the proceeding. That is a cheaper route to a judicial forum than the bond in § 6672(c), and it is why practitioners talk about paying "one employee, one quarter".
 
-<div class="scenario">
+<div class="scenario" data-type="fails">
 <h3>The bookkeeper with signature authority</h3>
 <p>A bookkeeper signs cheques on the company account under the owner's direction. She has no authority to decide which bills get paid, does not hire or fire, and holds no shares. When the payroll taxes go unpaid she is issued a Letter 1153.</p>
-<p><em>Analysis.</em> Cheque-signing authority is one indicator, not the test. The IRM asks who has the duty to perform, the power to direct collection, accountability and authority to pay, and — decisively here — <strong>authority to determine which creditors will or will not be paid</strong>. A signatory executing instructions has none of that. The protest goes to responsibility, which is the rarer of the two arguments and the right one on these facts.</p>
+<p><em>Analysis.</em> Cheque-signing authority is one indicator, not the test. The IRM asks who has the duty to perform, the power to direct collection, accountability and authority to pay, and — decisively here — <strong>authority to determine which creditors will or will not be paid</strong>. A signatory executing instructions has none of that, so she is not a {gloss:responsible-person}. The protest goes to responsibility, which is the rarer of the two arguments and the right one on these facts.</p>
 </div>
 
-<div class="scenario">
+<div class="scenario" data-type="baseline">
 <h3>Keeping the doors open</h3>
 <p>An owner learns in March that two quarters of withholding were not deposited. He decides to pay the suppliers first so the business survives long enough to earn the money, intending to catch up. It does not survive.</p>
-<p><em>Analysis.</em> Willful. He was aware of the outstanding taxes and preferred other creditors, which is intentional disregard by the IRM's standard, and no evil intent is required. The commercial logic is real and makes no difference. Had he brought the problem to a representative in March, the available moves — deposits going forward, a designated payment allocation, an installment agreement for the employer — were all still open.</p>
+<p><em>Analysis.</em> {gloss:willful}. He was aware of the outstanding taxes and preferred other creditors, which is intentional disregard by the IRM's standard, and no evil intent is required. The commercial logic is real and makes no difference. Had he brought the problem to a representative in March, the available moves — deposits going forward, a designated payment allocation, an installment agreement for the employer — were all still open.</p>
 </div>
 
-<div class="scenario">
+<div class="scenario" data-type="boundary">
 <h3>The honorary trustee</h3>
 <p>A retired academic sits on the board of a small charity. She attends two meetings a year, has no role in operations or finances, is unpaid, and first hears about unpaid withholding when the Letter 1153 arrives. Two paid officers ran the organisation.</p>
 <p><em>Analysis.</em> Section 6672(e) protects her: unpaid volunteer board member, solely honorary, no participation in day-to-day or financial operations, no actual knowledge. The exception has a sting — it does not apply if it would leave no person liable — but here the two paid officers are available, so it operates. The IRM adds that where the exception is in play the IRS may need to show <em>actual knowledge</em>, which is a higher bar than the ordinary "should have been aware".</p>
+</div>
+
+<div class="scenario" data-type="procedural">
+<h3>The interview that gets paused</h3>
+<p>A revenue officer schedules a Form 4180 interview with a former controller who may be a responsible person. Asked who decided which bills got paid during the delinquent quarters, she says she wants to consult a representative first.</p>
+<p><em>Analysis.</em> The interview stops there. IRM procedure suspends a Form 4180 interview once the person says they wish to consult a representative, rather than pressing on. Everything said in that interview becomes part of the record used to weigh both her own responsibility and willfulness and, potentially, everyone else's at the company — which is exactly why having a representative present before answering matters more than answering quickly.</p>
+</div>
+
+<div class="scenario" data-type="interaction">
+<h3>Paying one employee, one quarter</h3>
+<p>A responsible person is assessed the full {gloss:trust-fund-recovery-penalty} covering eight quarters and three employees. Rather than posting the § 6672(c) bond, her representative has her pay the tax attributable to a single employee for a single quarter and file a claim for refund.</p>
+<p><em>Analysis.</em> Because the TFRP is a divisible tax, that partial payment is enough to sue for refund in district court over the whole assessment, and § 6331(i) bars levy on the remainder while that proceeding is pending. It reaches the same practical protection as the § 6672(c) bond route, but by combining the divisibility rule with the levy-bar provision instead of using either alone — cheaper up front, and worth knowing as an alternative when a bond is hard to obtain.</p>
 </div>
 
 <div class="callout trap"><h4>Traps</h4>

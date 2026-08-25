@@ -20,7 +20,18 @@ forms: []
 related: ["1.1.1.j", "1.1.1.c", "1.3.2.c", "1.1.1.k"]
 changelog:
   - { date: "2026-08-19", summary: "Initial draft. Sets out the IRC § 901(a) election and the § 275(a)(4) all-or-nothing consequence, the § 903 in-lieu-of rule, the § 904(a) ratio limitation with the § 904(b) modifications, the four § 904(d)(1) baskets, the § 904(c) one-back ten-forward carryover, the § 904(j) de minimis election, the § 901(k) dividend holding period, the § 6511(d)(3)(A) ten-year refund period, and the Pub. L. 119-21 §§ 70311 and 70313 amendments effective for taxable years beginning after 31 December 2025." }
+  - { date: "2026-08-25", summary: "Added a plain-language summary, typed scenarios, and glossary marks as part of the comprehension-layer rollout." }
 ---
+
+<div class="plain-terms">
+The foreign tax credit stops you from paying tax twice on the same money — once to another
+country, and again to the United States. It can help anyone who paid income tax abroad. That
+might be someone who worked overseas, or someone who just owns foreign stock in a fund. It
+does not cover every foreign bill. A sales tax or a property tax paid abroad does not count
+here. What it decides is how much of that foreign tax can lower your US tax bill this year,
+and whether any leftover amount can still be used in a later year. A simpler option lets many
+small investors skip most of the extra paperwork.
+</div>
 
 The foreign tax credit is not a matter of subtracting what a foreign country charged. It is an election,
 followed by a ratio, applied separately in four categories, with anything unusable carried one year back
@@ -112,7 +123,7 @@ questions. And foreign source capital gain enters the numerator only to the exte
 capital gain net income (IRC § 904(b)(2)(A)), so a taxpayer with foreign capital losses cannot inflate
 the numerator with gross gains.
 
-<div class="scenario">
+<div class="scenario" data-type="procedural">
 <h3>The election that avoids the form</h3>
 
 Corinne holds an international index fund in a taxable account. Her Form 1099-DIV shows $4,100 of
@@ -120,12 +131,12 @@ ordinary dividends, all foreign source, and $290 of foreign tax paid. She has no
 
 Both § 904(j) conditions are met: all her foreign source gross income is passive income shown on a payee
 statement, and the creditable tax is under the single-filer ceiling. She elects, takes the whole $290 as
-a credit directly on her Form 1040, and files no Form 1116. Had the fund withheld $340, she would have
-been over the ceiling, and the same $340 would have required the full limitation computation — with the
-real possibility that only part of it was usable this year.
+a {gloss:foreign-tax-credit} directly on her Form 1040, and files no Form 1116. Had the fund withheld
+$340, she would have been over the ceiling, and the same $340 would have required the full limitation
+computation — with the real possibility that only part of it was usable this year.
 </div>
 
-<div class="scenario">
+<div class="scenario" data-type="baseline">
 <h3>The ratio bites</h3>
 
 Yusuf has entire taxable income of $180,000, of which $30,000 is foreign source general category income
@@ -140,7 +151,7 @@ consulting ends this year, the carryforward may never be used, and § 275(a)(4) 
 that portion to a deduction.
 </div>
 
-<div class="scenario">
+<div class="scenario" data-type="interaction">
 <h3>Two baskets, one taxpayer</h3>
 
 Priya has $12,000 of foreign source passive income with $1,800 of foreign withholding, and $40,000 of
@@ -151,6 +162,35 @@ She credits $1,100 of the passive taxes and all $2,000 of the general taxes. The
 passive credit cannot be absorbed by the $4,400 of unused general basket limitation — § 904(d)(1)
 applies the limitation separately. It carries back one year and forward ten *in the passive basket
 only*. A taxpayer who nets the two baskets together will report $3,800 of credit and be wrong by $700.
+</div>
+
+<div class="scenario" data-type="fails">
+<h3>Foreign tax paid to the wrong country</h3>
+
+An engineer worked several months of the year on a project in a country the Secretary of State has
+designated as repeatedly supporting international terrorism. Local law required income tax withholding
+there, and she wants to credit it the same way she credits withholding from her other overseas
+assignments.
+
+Section 901(j) denies the credit altogether for tax paid to a country in that position, whatever § 901
+or § 903 would otherwise allow, and requires income from there to be limited separately from every other
+basket. If she is electing the credit for her other foreign taxes this year, § 275(a)(4)'s all-or-nothing
+rule also blocks a deduction for foreign taxes generally, so this particular tax is neither creditable
+nor deductible — it is simply a cost of working there, with no US offset at all.
+</div>
+
+<div class="scenario" data-type="timing">
+<h3>The redetermination that arrives late</h3>
+
+A taxpayer accrued and credited foreign tax on her 2020 return, filed on time in 2021. In 2026 the
+foreign country retroactively raises her assessment for 2020, and she pays the additional amount that
+year.
+
+An ordinary {gloss:claim-for-refund} for the 2020 return would already be barred under the general
+three-year {gloss:statute-of-limitations}. But § 6511(d)(3)(A) gives ten years from the original return's
+due date specifically for a foreign tax credit claim, so she can still amend the 2020 return for the
+extra credit tied to the tax just paid. Had this been a domestic law change instead of a foreign tax
+redetermination, the ordinary period would already have closed the door.
 </div>
 
 <div class="callout trap">

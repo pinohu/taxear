@@ -20,9 +20,14 @@ forms: ["1127"]
 related: ["3.3.1.b", "3.3.1.k", "3.3.2.c", "3.3.2.d"]
 changelog:
   - { date: "2026-08-18", summary: "Initial publication from IRC §§ 6161, 6165, Reg. § 1.6161-1 and the Form 1127 guidance." }
+  - { date: "2026-08-25", summary: "Added a plain-language summary, glossary marks, and two typed scenarios. No diagram: the three maximum periods sit on wildly different scales (6 months, 18 months, 10 years), so a single scaled diagram would either flatten the short ones together or exaggerate the estate-tax outlier — the table above already carries this cleanly." }
 ---
 
-An extension of time to **pay** is not an extension of time to **file**, and it is not an installment agreement. It is a short, hardship-conditioned postponement of a due date, granted rarely, and the standard the regulation sets is much higher than the word "hardship" suggests to a client. Most people who ask for one should be asking for something else.
+<div class="plain-terms">
+An extension of time to pay lets a taxpayer put off paying tax that is already due, for a short period, if paying on time would cause serious financial harm. It only applies to people who owe tax shown on a return or from an IRS adjustment. It is not for people who need more time to file, and it is not a payment plan. To get one, a taxpayer must show real hardship, not just inconvenience, and must send detailed financial records with the request. Interest keeps running the entire time, so the extension changes when payment is due, not how much is owed.
+</div>
+
+An extension of time to **pay** is not an extension of time to **file**, and it is not an {gloss:installment-agreement}. It is a short, hardship-conditioned postponement of a due date, granted rarely, and the standard the regulation sets is much higher than the word "hardship" suggests to a client. Most people who ask for one should be asking for something else.
 
 ## The rule
 
@@ -62,19 +67,31 @@ An extension of time to **pay** is not an extension of time to **file**, and it 
 
 **The documentary burden is front-loaded.** Three months of itemised receipts and disbursements plus a full statement of assets and liabilities, submitted with the application, is more than an online installment agreement asks for. Where the client's numbers would support an installment agreement anyway, the effort is usually better spent there.
 
-<div class="scenario">
+<div class="scenario" data-type="fails">
 <h3>The sale that would have been at market</h3>
 <p>A client owes $40,000 on his return and holds a share portfolio worth more than that. He does not want to sell into what he considers a weak market and asks for an extension of time to pay.</p>
-<p><em>Analysis.</em> Not undue hardship. Reg. § 1.6161-1(b) says that where a market exists, sale at the current market price is not ordinarily hardship, and undue hardship means more than inconvenience &mdash; it requires substantial financial loss such as a sale at a sacrifice price. A view that the market is weak is not that. If he genuinely cannot or will not liquidate, the conversation is about an installment agreement, not § 6161.</p>
+<p><em>Analysis.</em> Not undue hardship. Reg. § 1.6161-1(b) says that where a market exists, sale at the current market price is not ordinarily hardship, and undue hardship means more than inconvenience &mdash; it requires substantial financial loss such as a sale at a sacrifice price. A view that the market is weak is not that. If he genuinely cannot or will not liquidate, the conversation is about an {gloss:installment-agreement}, not § 6161.</p>
 </div>
 
-<div class="scenario">
+<div class="scenario" data-type="baseline">
+<h3>The sale that really was at a sacrifice</h3>
+<p>A client owes $22,000 on her return. Her only liquid asset is a small block of stock in a thinly traded company; the last few trades on record were at prices roughly a third below what the same stock fetched a year earlier, and there is no other buyer at a better price.</p>
+<p><em>Analysis.</em> This is undue hardship as the regulation actually defines it. Reg. § 1.6161-1(b)'s own example is loss from a sale at a sacrifice price, and that is what forced liquidation here would produce &mdash; not merely a weak market, but a genuinely depressed one for this specific holding. With the hardship documented, Form 1127 filed with the three months of receipts and disbursements and a statement of assets and liabilities, and no bond required, a six-month extension under § 6161(a)(1) is the extension working exactly as designed.</p>
+</div>
+
+<div class="scenario" data-type="interaction">
 <h3>Six months that were never going to be enough</h3>
 <p>A client owes $18,000, has lost her job, and expects to be re-employed within a year. Her adviser files Form 1127.</p>
-<p><em>Analysis.</em> The wrong instrument even if the hardship showing succeeds. Section 6161(a)(1) caps the extension at six months from the date fixed for payment, and the balance falls due at the end of it without notice and demand. On these facts the fit is a § 6159 installment agreement, which can be structured over a much longer term, or currently not collectible status while she has no income &mdash; and CNC lets the collection statute keep running, which an extension does not.</p>
+<p><em>Analysis.</em> The wrong instrument even if the hardship showing succeeds. Section 6161(a)(1) caps the extension at six months from the date fixed for payment, and the balance falls due at the end of it without notice and demand. On these facts the fit is a § 6159 installment agreement, which can be structured over a much longer term, or {gloss:currently-not-collectible} status while she has no income &mdash; and CNC lets the collection statute keep running, which an extension does not.</p>
 </div>
 
-<div class="scenario">
+<div class="scenario" data-type="boundary">
+<h3>Eighteen months, then the exceptional twelve</h3>
+<p>An amount is determined as a deficiency. The taxpayer obtains the full eighteen-month extension under § 6161(b)(1), and as the deadline approaches the hardship has not resolved &mdash; a pending {gloss:offer-in-compromise} would take longer than the balance of the extension to process.</p>
+<p><em>Analysis.</em> Eighteen months is not automatically the ceiling. Section 6161(b)(1) allows, in exceptional cases, a further period not exceeding twelve months beyond the initial eighteen. That further extension sits right at the edge of what § 6161 can do at all &mdash; beyond it, the statute has nothing more to offer, and the conversation has to move to an installment agreement, an offer, or CNC regardless of how compelling the hardship remains.</p>
+</div>
+
+<div class="scenario" data-type="procedural">
 <h3>The extension that did not extend</h3>
 <p>An estate obtains an extension for one installment under § 6166. The executor assumes the following year's installment is covered by the same order and does not pay it.</p>
 <p><em>Analysis.</em> Reg. § 1.6161-1(d) is explicit: granting an extension for one installment <strong>does not extend the time for payment of subsequent installments</strong>. The later installment was due on its own date, and payment under an extension falls due at its expiry without notice and demand &mdash; so no letter was going to arrive as a prompt. Each installment needs its own application.</p>

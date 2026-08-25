@@ -18,7 +18,17 @@ forms: ["8453"]
 related: ["3.4.3.a", "3.4.3.b", "3.1.4.c", "3.4.3.i", "3.4.3.c", "3.4.3.h", "3.4.3.f"]
 changelog:
   - { date: "2026-08-19", summary: "Initial draft against Publications 1345 (Rev. 12-2025) and 3112 (Rev. 11-2025)." }
+  - { date: "2026-08-25", summary: "Added a plain-language summary, typed the existing scenarios, and marked two glossary terms." }
 ---
+
+<div class="plain-terms">
+An Electronic Return Originator, or {gloss:ero}, is the tax provider who starts the process of
+sending a return to the IRS online. This is often the first person a taxpayer deals with when
+filing online. Usually it is the preparer's own office. The rule matters to tax pros and their
+staff, not directly to taxpayers. But it shapes how well your identity gets checked, and how fast
+you learn if your return gets bounced back. It decides what an ERO must do: confirm who you are,
+send the return on time, give you a copy, and tell you fast if something goes wrong.
+</div>
 
 ## The rule
 
@@ -118,12 +128,12 @@ electronic portion and the ERO cannot fix the reason, the ERO must take reasonab
 the taxpayer within the period in the figures table, and must give the taxpayer the business rules
 with an explanation.
 
-<div class="scenario">
+<div class="scenario" data-type="interaction">
 <h3>The return that arrived from a third party</h3>
 
 A bookkeeping service that is not an Authorized IRS e-file Provider offers to send Yolanda
 Przybylski-Osei's firm completed returns for its own clients, for a fee per return, with the firm
-transmitting under its EFIN.
+transmitting under its {gloss:efin}.
 
 The ERO may begin the electronic submission of only returns it prepared or collected from a taxpayer
 or another provider, and must accept returns only from taxpayers and providers. The bookkeeping
@@ -133,7 +143,7 @@ route work this way it must apply and become a provider itself; if it wants the 
 preparer, the firm must actually deal with the taxpayers.
 </div>
 
-<div class="scenario">
+<div class="scenario" data-type="boundary">
 <h3>The corrected figure that needed a new signature</h3>
 
 Kwame Halvorsen signs Form 8879 and the return is transmitted. It rejects on an unrelated business
@@ -148,7 +158,7 @@ worth building into the firm's correction checklist, because the temptation on a
 to fix and resend without going back to the client.
 </div>
 
-<div class="scenario">
+<div class="scenario" data-type="procedural">
 <h3>The newly married client</h3>
 
 Amara Sigurdsdóttir-Cole married in the autumn and files under her married surname with her correct

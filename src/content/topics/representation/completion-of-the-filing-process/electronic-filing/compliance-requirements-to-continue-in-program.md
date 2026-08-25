@@ -19,7 +19,18 @@ forms: []
 related: ["3.4.3.e", "3.4.3.a", "3.4.3.d", "3.4.3.g", "3.4.2.b"]
 changelog:
   - { date: "2026-08-19", summary: "Initial draft against Publication 3112 (Rev. 11-2025)." }
+  - { date: "2026-08-25", summary: "Added a plain-language summary, typed the existing scenarios, added a baseline scenario, and marked two glossary terms." }
 ---
+
+<div class="plain-terms">
+Getting approved to e-file for clients is not a one-time badge. The IRS checks on providers
+every year. It checks if they still qualify. This matters to tax preparers and firms. It does
+not affect everyday taxpayers filing their own return. A provider keeps its approval by doing
+two things: keep e-filing returns, and keep its own taxes in good order. The IRS may also visit
+offices. It checks paperwork and ads to confirm the rules are followed. Miss these checks, and
+the IRS can pause or cancel the firm's e-file status. Staying approved is an ongoing job. It is
+not settled once at signup.
+</div>
 
 ## The rule
 
@@ -94,7 +105,7 @@ provision of Publication 1345 or Publication 3112 may be subject to e-file provi
 are revised annually. "I was working from last year's edition" is not a defence; it is a description
 of the failure.
 
-<div class="scenario">
+<div class="scenario" data-type="timing">
 <h3>The partner added in February</h3>
 
 A two-partner firm admits a third partner in early February. She is added as a Principal on the e-file
@@ -108,10 +119,10 @@ February it sits across the firm's busiest weeks. The lesson is to time changes 
 to the off-season wherever the business allows.
 </div>
 
-<div class="scenario">
+<div class="scenario" data-type="fails">
 <h3>The dormant year</h3>
 
-An enrolled agent takes a year out to care for a parent and files no returns for a full processing
+An {gloss:enrolled-agent} takes a year out to care for a parent and files no returns for a full processing
 year. She resumes the following year and finds she cannot transmit.
 
 A provider that does not e-file for both the current and prior processing year may be notified of
@@ -121,7 +132,7 @@ address she was not monitoring, the window closes and a fresh application — wi
 should confirm the address on the application is current and watch for the notice.
 </div>
 
-<div class="scenario">
+<div class="scenario" data-type="procedural">
 <h3>The monitoring visit</h3>
 
 An IRS employee arrives at Okonkwo & Fairweather to conduct a monitoring visit. The partners expect
@@ -135,6 +146,20 @@ the firm can prepare for on any ordinary Tuesday: the Forms 8879 file is complet
 retention period, the website and the window signage comply with the advertising rules, and the
 office's physical and electronic security arrangements are as described. The partners' own personal
 tax compliance is the fourth, and it is checked whether or not anyone visits.
+</div>
+
+<div class="scenario" data-type="baseline">
+<h3>The straightforward renewal</h3>
+
+A three-partner firm e-files returns every season without a gap. Each partner files personal
+returns on time and pays any balance in full. No monitoring visit ever arrives, and no letter
+about the application does either.
+
+Nothing more is required of them. Acceptance continues without a fresh application because both
+conditions Publication 3112 sets — continuing to e-file and continuing to meet suitability — are
+being met without incident. This is the rule working exactly as designed: staying compliant is
+what keeps the authorization alive, and a compliant provider never has to think about
+reapplication at all.
 </div>
 
 <div class="callout trap">

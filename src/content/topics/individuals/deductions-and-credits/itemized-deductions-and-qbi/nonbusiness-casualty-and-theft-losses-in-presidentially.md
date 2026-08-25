@@ -17,7 +17,19 @@ forms: []
 related: ["1.3.1.a", "1.3.1.f", "1.3.1.b", "1.2.3.a", "1.3.1.d", "1.3.1.g"]
 changelog:
   - { date: "2026-08-19", summary: "Initial draft. Sets out the IRC § 165(h)(5)(A) disaster requirement as amended by Pub. L. 119-21 § 70109 to add State declared disasters and remove the end date, the § 165(h)(5)(C) definition of a State declared disaster, the § 165(h)(1) per-event floor and § 165(h)(2) 10 percent floor, the § 165(h)(2)(B) reversal where gains exceed losses, the § 165(h)(4)(A) above-the-line portion, and the § 165(i)(1) prior year election." }
+  - { date: "2026-08-25", summary: "Added a plain-language summary, glossary marks, and two typed scenarios (a baseline declared-disaster deduction and the boundary where gains cross losses by a dollar)." }
 ---
+
+<div class="plain-terms">
+A casualty loss happens when your property is damaged or destroyed suddenly — by a fire, a
+storm, a flood, or a theft. This page is about whether you can deduct that loss on your tax
+return. Most people cannot. The loss only counts if it happened as part of an official
+disaster, one declared by a state or the federal government. An ordinary house fire or a
+random break-in, with no declaration, gives you nothing to deduct. If a disaster is
+declared, you still subtract two amounts before you get a deduction: a fixed amount per
+event, and then a share of your income. This section decides who clears both hurdles and
+who is shut out entirely.
+</div>
 
 Two things changed in 2025. A **State declared disaster** now qualifies as well as a Federally declared
 one, which widens the provision considerably. And the restriction itself — which had been due to lapse at
@@ -103,8 +115,21 @@ whole shape of the computation: it can flip the losses into capital treatment un
 the door to non-disaster losses under § 165(h)(5)(B), and move part of the deduction above the line under
 § 165(h)(4)(A). Section 1033 deferral may be available on the gain, which removes all of that.
 
-<div class="scenario">
-<h3>Scenario 1 — the fire with no declaration</h3>
+<div class="scenario" data-type="baseline">
+<h3>Scenario 1 — the ordinary declared-disaster deduction</h3>
+
+A federally declared wildfire destroys Priya's fence and shed. Her uninsured {gloss:casualty-loss},
+measured by the decline in {gloss:fair-market-value} of each item, is $18,000. She has no personal casualty
+gains for the year, and her adjusted gross income is $90,000.
+
+She subtracts the per-event floor first, then the 10 percent income floor, and deducts what remains as an
+itemized deduction. This is the disaster requirement working exactly as designed: a real declared event, a
+real uninsured loss, and the two floors applied in the order IRC § 165(h)(3)(B) requires — event floor
+before the income floor, not the other way around.
+</div>
+
+<div class="scenario" data-type="fails">
+<h3>Scenario 2 — the fire with no declaration</h3>
 
 Elena's garage burns down in 2026 through an electrical fault. Her uninsured loss is 38,000 dollars. No
 disaster of any kind is declared, and she has no casualty gains.
@@ -116,8 +141,8 @@ determinations described in § 165(h)(5)(C)(i) for a wider fire event covering h
 would be different.
 </div>
 
-<div class="scenario">
-<h3>Scenario 2 — the gain that unlocked the loss</h3>
+<div class="scenario" data-type="interaction">
+<h3>Scenario 3 — the gain that unlocked the loss</h3>
 
 Farid suffers two losses in 2026. A declared hurricane destroys a boat, and his insurance recovery exceeds
 his basis by 20,000 dollars, producing a personal casualty gain. Separately, an undeclared burst pipe
@@ -130,8 +155,23 @@ reduced by that amount before the § 165(h)(2)(A) computation is run on any disa
 (ii). The gain did more work for him than the declaration did.
 </div>
 
-<div class="scenario">
-<h3>Scenario 3 — the election that cost money</h3>
+<div class="scenario" data-type="boundary">
+<h3>Scenario 4 — the dollar that flipped the treatment</h3>
+
+Two declared-disaster events leave Owen with $25,000 of personal casualty losses for the year, after the
+per-event floors. His insurance recoveries on other property produce personal casualty gains, which he
+tracks closely because they are approaching the loss figure.
+
+At $24,999 of gains, losses still exceed gains by $1: the ordinary regime applies, and that $1 of net loss
+is measured against 10 percent of his {gloss:adjusted-gross-income} under § 165(h)(2)(A) — likely absorbed
+entirely by the floor. At $25,001 of gains, gains now exceed losses, and § 165(h)(2)(B) treats **all** of
+the gains and **all** of the losses as capital: the 10 percent floor disappears, and none of it is an
+itemized deduction at all. One dollar of insurance recovery moves the loss from one regime to a completely
+different one — there is no gradual transition at this line.
+</div>
+
+<div class="scenario" data-type="timing">
+<h3>Scenario 5 — the election that cost money</h3>
 
 Gita's home is destroyed in a federally declared disaster in March 2026. Her adjusted gross income was
 190,000 dollars in 2025; in 2026, having stopped work to rebuild, it is 40,000 dollars. Her allowable loss

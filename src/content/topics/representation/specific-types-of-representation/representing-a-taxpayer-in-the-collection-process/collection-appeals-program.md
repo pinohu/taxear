@@ -20,6 +20,18 @@ changelog:
   - { date: "2026-08-18", summary: "Initial publication from IRM 8.24.1 (revised 20 August 2024)." }
 ---
 
+<div class="plain-terms">
+This page is about a fast, informal way to fight an IRS collection action, like a
+seizure or a cancelled payment plan. The Collection Appeals Program, called CAP, lets
+a taxpayer ask the IRS's own Appeals office for a second look, often within days. It
+affects anyone facing a lien, a levy, a seizure, or a rejected or ended payment plan,
+including people whose property was taken for someone else's debt. CAP moves faster
+than the other hearing described on this site, and it covers some actions that hearing
+does not. But the trade is real: if CAP goes against you, no judge will ever look at it
+again. This page covers who can use CAP, how fast you must act, and when picking CAP
+means giving up that later chance.
+</div>
+
 The Collection Appeals Program is the fast, broad, administrative route to Appeals. It reaches situations collection due process does not, it moves in days rather than months, and it ends in a decision that no court will review. That last point is the whole trade, and it is the one clients are least likely to understand without being told.
 
 ## The rule
@@ -48,22 +60,34 @@ Because the choice between the two routes forfeits something either way, it belo
 
 The managerial conference is also worth treating as part of the appeal rather than a formality before it. It is the last moment at which the revenue officer's own manager can reverse the action without Appeals being involved at all, and the arguments that will be put to Appeals are usually the arguments that could have resolved it there. Practitioners who treat the conference as a box to tick arrive at Appeals having wasted the cheaper forum.
 
-<div class="scenario">
+<div class="scenario" data-type="boundary">
 <h3>Three business days after the conference</h3>
 <p>A revenue officer notifies a client on Monday that his installment agreement is terminated. The representative holds the managerial conference on Wednesday and posts Form 9423 the following Tuesday.</p>
 <p><em>Analysis.</em> The form should be received or postmarked within three business days of the conference; Tuesday is outside that. The saving provision is the ten-business-day window, which still entitles the client to the CAP appeal. On a terminated installment agreement, collection does not resume on that action in the meantime — which is what makes this recoverable. On a seizure it would not have been.</p>
 </div>
 
-<div class="scenario">
+<div class="scenario" data-type="interaction">
 <h3>Choosing the fast route and losing the judge</h3>
 <p>A client receives a final notice of intent to levy with CDP rights. Wanting speed, the representative files Form 9423 instead and asks Appeals to consider a collection alternative.</p>
 <p><em>Analysis.</em> Appeals should ask for a withdrawal of the CDP request so the client understands what is being surrendered. If the CAP decision goes against him, there is no Tax Court petition — the § 6330(d)(1) route belongs to CDP determinations only. Where the CDP window is still open, taking the slower route preserves the option; CAP can rarely be swapped back for it later.</p>
 </div>
 
-<div class="scenario">
+<div class="scenario" data-type="baseline">
 <h3>The third party whose property was taken</h3>
 <p>A client's business equipment is seized to satisfy a liability owed by a former partner. The client is not the taxpayer named on the assessment.</p>
 <p><em>Analysis.</em> CAP is available to third parties as well as taxpayers, so the client can bring the seizure to Appeals directly rather than waiting to be treated as a stranger to the collection action. CDP would not help: those rights belong to the person named in the notice.</p>
+</div>
+
+<div class="scenario" data-type="fails">
+<h3>The eleventh day</h3>
+<p>A revenue officer notifies a client of an imminent seizure following a final notice of {gloss:levy}. The managerial conference happens on a Monday. The representative's Form 9423 is postmarked the following Thursday — eleven business days after the conference.</p>
+<p><em>Analysis.</em> The IRM's outer window for {gloss:collection-appeals-program} is ten business days from the managerial conference; day eleven is outside it. CAP is not available on these facts, and nothing in the program revives it once the window has closed. Collection proceeds on the seizure, and the client is left to resolve the underlying liability directly or through whatever other remedy still applies to that specific action.</p>
+</div>
+
+<div class="scenario" data-type="procedural">
+<h3>A letter instead of the form</h3>
+<p>A managerial conference on a terminated installment agreement concludes on a Tuesday. The representative doesn't have Form 9423 on hand, so within the two-day window she emails the Collection manager a short signed note stating she intends to appeal, and follows it the next day with the same request in writing.</p>
+<p><em>Analysis.</em> IRM 8.24.1.3.5 honors any written request for a CAP hearing — Form 9423 is recommended, not required. The email satisfies the notice-of-intent step and the follow-up letter satisfies the filing step, so the appeal proceeds on the same facts a completed form would have produced. Because this is a terminated {gloss:installment-agreement}, collection does not resume on that action while the appeal is pending — a seizure would not have had that same protection.</p>
 </div>
 
 <div class="callout trap"><h4>Traps</h4>

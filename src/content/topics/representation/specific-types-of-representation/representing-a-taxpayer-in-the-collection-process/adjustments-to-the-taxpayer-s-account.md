@@ -19,6 +19,18 @@ changelog:
   - { date: "2026-08-18", summary: "Initial publication from IRC §§ 6402 and 6404." }
 ---
 
+<div class="plain-terms">
+This page is about two ways the IRS can change what a taxpayer owes or is owed, after
+the fact. An abatement lowers or cancels a tax, penalty, or interest charge already on
+the books, because it should never have applied or the IRS decides to forgive it. An
+offset takes money the IRS was about to refund and sends it to pay a different debt
+instead, like unpaid child support. It affects anyone with a tax bill they think is
+wrong, or a refund that got redirected. It does not cover someone trying to get money
+back that they already paid. That is a separate process. This page explains who may
+ask for which kind of relief, and why an offset almost never gets a second look from a
+judge.
+</div>
+
 Two different things get called an adjustment. An **abatement** removes an assessment the IRS should not have made or should not collect. An **offset** takes a refund the taxpayer is owed and applies it somewhere else. The first is discretionary in most of its forms and mandatory in a few; the second is mandatory in every form and, unusually in tax practice, **cannot be challenged in any court**.
 
 ## The rule
@@ -60,22 +72,34 @@ Two different things get called an adjustment. An **abatement** removes an asses
 
 **The § 6404(g) suspension rewards the compliant.** It applies only to an individual who **filed on time**, it runs item by item, and it is switched off for the failure-to-file penalty and for amounts shown on the return. Where a client filed a correct return and heard nothing for three years before an adjustment arrived, the interest for the silent period is worth computing rather than accepting.
 
-<div class="scenario">
+<div class="scenario" data-type="fails">
 <h3>The abatement request that was the wrong instrument</h3>
 <p>A client's income tax assessment includes $14,000 he does not owe, arising from a return the IRS prepared for him. His previous adviser sent a letter requesting abatement under § 6404(a). It was declined.</p>
 <p><em>Analysis.</em> Section 6404(b) prohibits a taxpayer from filing a claim for abatement of any tax imposed under subtitle A, and income tax is subtitle A. The decline was procedural. The routes that exist are an <strong>audit reconsideration</strong> if the assessment followed an examination or a substitute return, or paying and claiming a refund under § 6511. The IRS may abate on its own motion under § 6404(a), but the taxpayer cannot demand it by that route.</p>
 </div>
 
-<div class="scenario">
+<div class="scenario" data-type="interaction">
 <h3>The refund that went to the wrong household</h3>
 <p>A married couple file jointly and expect a $5,800 refund. The whole amount is applied to the husband's pre-marital child support arrearage. The wife earned most of the income and had most of the withholding.</p>
 <p><em>Analysis.</em> The offset is mandatory under § 6402(c) and § 6402(g) bars any court from reviewing it, so challenging the offset itself is not available. The instrument is <strong>Form 8379, Injured Spouse Allocation</strong>, which recovers the injured spouse's share of the joint overpayment. It is not innocent spouse relief under § 6015 — nothing here is about liability for a joint tax; it is about whose money the refund was.</p>
 </div>
 
-<div class="scenario">
+<div class="scenario" data-type="boundary">
 <h3>Advice by telephone</h3>
 <p>A client telephoned the IRS, was told her arrangement would not attract a penalty, relied on it, and was penalised. She has a contemporaneous note of the call including the employee's badge number.</p>
 <p><em>Analysis.</em> Section 6404(f) does not reach it. The abatement is mandatory only for <strong>erroneous advice furnished in writing</strong> and given <strong>in response to a specific written request</strong>. A telephone call satisfies neither limb however well documented. What remains is reasonable cause under the penalty's own terms, where the call is evidence rather than an entitlement — a materially weaker position, and the reason to put questions to the IRS in writing.</p>
+</div>
+
+<div class="scenario" data-type="baseline">
+<h3>The IRS corrects its own mistake</h3>
+<p>A revenue agent, working an unrelated case, notices that a client's income tax assessment from two years earlier duplicated an adjustment already posted once and never should have been entered twice.</p>
+<p><em>Analysis.</em> Nothing bars this. Section 6404(b) stops a <em>taxpayer</em> from filing a claim for {gloss:abatement} of subtitle A tax, but it says nothing about the IRS correcting itself. The Secretary may abate the unpaid portion of an {gloss:assessment} that is erroneous under § 6404(a), and a duplicated posting is exactly the kind of error the subsection reaches. The taxpayer never had to ask; the IRS caught its own mistake.</p>
+</div>
+
+<div class="scenario" data-type="procedural">
+<h3>Recovering interest after 40 months of silence</h3>
+<p>A client filed on time. The IRS said nothing about a proposed adjustment for 40 months, then finally mailed a notice stating the liability and its basis — and the client paid the balance, including 40 months of accrued interest, the same week.</p>
+<p><em>Analysis.</em> Section 6404(g) suspends interest, and certain time-sensitive penalties, once the IRS goes more than {fig:interest.suspension_36_months} without giving that notice, and the suspension only ends 21 days after the notice is finally given. Because she already paid the interest for the suspended stretch, the fix is not automatic: it takes a {gloss:claim-for-refund} for the interest attributable to that period, since the suspension operated by law regardless of what the original bill charged. Diarying the deadline from the return's due date is what catches this before a client ever pays it.</p>
 </div>
 
 <div class="callout trap"><h4>Traps</h4>

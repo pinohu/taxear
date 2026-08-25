@@ -18,7 +18,19 @@ forms: []
 related: ["1.3.1.a", "1.3.1.c", "1.3.1.f", "1.2.1.n", "1.3.1.d", "1.1.1.h", "1.3.1.e", "1.3.1.g", "1.4.1.a", "1.5.1.k"]
 changelog:
   - { date: "2026-08-19", summary: "Initial draft. Sets out the four IRC § 164(a) categories and the flush-text rule for business taxes, the § 164(b)(5) sales tax election, the § 164(b)(6) limitation with its exclusion of foreign real property taxes and its carve-outs for foreign income taxes and business property taxes, the § 164(b)(7) schedule of applicable limitation amounts through 2029 and beyond, and the § 164(d) apportionment on a sale." }
+  - { date: "2026-08-25", summary: "Added a plain-language summary, glossary marks, and three typed scenarios (the ordinary case under the cap, the phasedown threshold, and the cap's scheduled reversion after 2029)." }
 ---
+
+<div class="plain-terms">
+When you pay state or local taxes — on income, on property, or on sales — some of that can
+be deducted on your federal return. This page covers which taxes qualify and which do not.
+Property tax on a home in the United States counts. Property tax on a home in another
+country does not count at all. There is also a limit on how much of these taxes you can
+deduct together, and that limit shrinks for higher earners. Business taxes are treated
+differently and mostly escape the limit. And when a home is sold partway through the year,
+the tax bill gets split between buyer and seller by the calendar, not by who wrote the
+check.
+</div>
 
 Three things about this section are widely stated wrongly. The cap is no longer the figure most sources
 quote, and it changes every year to 2029 before reverting. Foreign real property taxes are not merely
@@ -107,8 +119,21 @@ day of sale itself belongs to the purchaser.
 Finally, keep the schedule in view. The cap rises modestly each year to 2029 and then falls back sharply,
 so multi-year planning around the deduction has a cliff in it that is already legislated.
 
-<div class="scenario">
-<h3>Scenario 1 — the vacation home abroad</h3>
+<div class="scenario" data-type="baseline">
+<h3>Scenario 1 — the ordinary deduction under the cap</h3>
+
+Naomi pays 9,000 dollars of state income tax and 7,000 dollars of property tax on the home she lives in
+during 2026. She owns no rental property, no foreign property, and her income is well below the phasedown
+threshold.
+
+All 16,000 dollars is deductible as an {gloss:itemized-deduction}: both taxes fall within the four
+categories, there is nothing to exclude and nothing outside the cap to sort out, and the total sits
+comfortably inside the 2026 applicable limitation amount. This is the section working exactly as designed,
+with none of the exclusions, carve-outs, or apportionment the other scenarios turn on.
+</div>
+
+<div class="scenario" data-type="fails">
+<h3>Scenario 2 — the vacation home abroad</h3>
 
 Uma pays 8,000 dollars of real estate tax on her home in the United States and 3,000 dollars on a holiday
 house in another country.
@@ -119,8 +144,23 @@ into account under § 164(a)(1) for an individual at all. Had she instead paid 3
 **income** tax, that would have been deductible and outside the cap entirely — or creditable under § 901.
 </div>
 
-<div class="scenario">
-<h3>Scenario 2 — the landlord and the homeowner</h3>
+<div class="scenario" data-type="boundary">
+<h3>Scenario 3 — crossing the phasedown threshold</h3>
+
+Two neighbors, otherwise identical, each pay 30,000 dollars of combined state income and property tax on
+their homes in 2026. Anwar's modified adjusted gross income is 500,000 dollars; Beatrix's is 520,000
+dollars — over the 2026 threshold in the applicable limitation amount schedule.
+
+Anwar's cap holds at the full 2026 figure, so his 30,000 dollars is fully deductible. Beatrix's cap is
+reduced by 30 cents for every dollar of income above the threshold, cutting several thousand dollars from
+what she can deduct on otherwise identical facts. Had either of them filed as a
+{gloss:married-filing-separately} return instead, the threshold and the cap itself would each be halved,
+so the same dollar figures would cross the line at a very different point. A modest income difference on
+the wrong side of the threshold costs real deduction, not a token amount.
+</div>
+
+<div class="scenario" data-type="interaction">
+<h3>Scenario 4 — the landlord and the homeowner</h3>
 
 Viktor pays 14,000 dollars of property tax on the house he lives in and 19,000 dollars on three rental
 properties, plus 21,000 dollars of State income tax. His income is below the phasedown threshold.
@@ -132,8 +172,20 @@ amount. Splitting the piles correctly is worth more than any planning: treating 
 of the capped pile would have thrown away most of the deduction.
 </div>
 
-<div class="scenario">
-<h3>Scenario 3 — the seller who paid the whole year</h3>
+<div class="scenario" data-type="timing">
+<h3>Scenario 5 — the same facts, a different year</h3>
+
+Deshawn pays exactly 45,000 dollars of state and local tax every year, unchanged, from 2026 through 2031.
+
+In 2026 his deduction is capped at that year's applicable limitation amount, losing several thousand
+dollars to the cap. By 2030, after the schedule in IRC § 164(b)(7)(A)(iv) reverts the applicable limitation
+amount to its pre-2025 level, the same 45,000 dollars of tax loses far more to the cap than it did in 2026
+— the identical facts, four years apart, produce a much smaller deduction. The legislated cliff arrives on
+schedule whether or not the taxpayer planned around it.
+</div>
+
+<div class="scenario" data-type="procedural">
+<h3>Scenario 6 — the seller who paid the whole year</h3>
 
 Wren sells her house on the 225th day of the year, having already paid the full 4,500-dollar annual
 property tax in June.

@@ -19,7 +19,18 @@ forms: ["8453"]
 related: ["3.4.3.d", "3.4.3.i", "3.4.3.c"]
 changelog:
   - { date: "2026-08-19", summary: "Initial draft against Publication 1345 (Rev. 12-2025)." }
+  - { date: "2026-08-25", summary: "Added a plain-language summary, typed the existing scenarios, added a baseline scenario, and marked one glossary term." }
 ---
+
+<div class="plain-terms">
+Filing a tax return online still needs a signature. Some documents still cannot go in online at
+all. This page sorts out which form does which job for the {gloss:ero} handling your filing. One
+form lets that preparer type in your PIN, but only after you have read the return and signed off
+first. A different form is just a cover sheet. It gets mailed in for the rare document, like a
+paper appraisal, that the system will not take. Mixing these two up is the most common mistake
+preparers make. Getting the order right, and mailing the leftover paper on its own, decides if the
+filing counts and if the IRS gets what it needs.
+</div>
 
 ## The rule
 
@@ -109,7 +120,7 @@ pages of a pre-2009 divorce decree), Form 8858 and Form 8864.
 submitting to the IRS all paper documents required to complete the filing of returns. An accepted
 acknowledgment does not mean the Form 8453 package was mailed.
 
-<div class="scenario">
+<div class="scenario" data-type="fails">
 <h3>The signature that came after transmission</h3>
 
 A busy office transmits Serafina Oduya-Lindqvist's return on Wednesday and posts her Form 8879 for
@@ -123,7 +134,7 @@ the signed form, and only then transmit — and where the client is slow, the pr
 client, not the sequence.
 </div>
 
-<div class="scenario">
+<div class="scenario" data-type="interaction">
 <h3>Practitioner PIN and the client who typed her own number</h3>
 
 Under the Practitioner PIN method, Melchior Vandenbroucke's client reviews the completed return and
@@ -138,7 +149,7 @@ the Practitioner PIN method to avoid that authentication step means accepting th
 authorization form that comes with it.
 </div>
 
-<div class="scenario">
+<div class="scenario" data-type="procedural">
 <h3>The appraisal that never left the office</h3>
 
 Hyacinth Baptiste-Nakamura claims a substantial non-cash charitable contribution requiring a
@@ -151,6 +162,19 @@ documents to be attached to Form 8453 and mailed, and the ERO is responsible for
 required paper documents to complete the filing. The practical safeguard is a checklist item at the
 point of acceptance rather than at the point of preparation: which returns from this batch generate
 a Form 8453 package, and has it gone?
+</div>
+
+<div class="scenario" data-type="baseline">
+<h3>The client who types her own PIN</h3>
+
+At the preparer's office, a taxpayer supplies her prior year adjusted gross income, reviews the
+completed return on screen, and types her own five-digit PIN into the software by keystroke. She is
+using the Self-Select PIN method.
+
+No Form 8879 is required. The Self-Select PIN method may be completely paperless precisely because
+she authenticated herself with prior year information and entered her own PIN by keystroke — the
+ERO never signed on her behalf. The preparer transmits the return once she confirms it is correct.
+This is the paperless route working exactly as the rule intends.
 </div>
 
 <div class="callout trap">

@@ -9,10 +9,10 @@ is indexed, and only the owner moves a page there (see `docs/VERIFICATION.md`).
 
 | Part | Topics | Stub | Draft | Review | Published | Words |
 |---|---:|---:|---:|---:|---:|---:|
-| 1. Individuals | 120 | 0 | 0 | 0 | 120 | 262,863 |
+| 1. Individuals | 120 | 0 | 0 | 0 | 120 | 268,745 |
 | 2. Businesses | 119 | 0 | 0 | 0 | 119 | 278,308 |
-| 3. Representation, Practices and Procedures | 121 | 0 | 0 | 0 | 121 | 258,000 |
-| **All parts** | **360** | **0** | **0** | **0** | **360** | **799,171** |
+| 3. Representation, Practices and Procedures | 121 | 0 | 0 | 0 | 121 | 266,222 |
+| **All parts** | **360** | **0** | **0** | **0** | **360** | **813,275** |
 
 ## Part 1 — Individuals
 
@@ -112,27 +112,27 @@ is indexed, and only the owner moves a page there (see `docs/VERIFICATION.md`).
 
 | Code | Title | Status | Words | Last reviewed |
 |---|---|---|---:|---|
-| 1.3.1.a | [Medical, dental, vision, long-term care expenses](/individuals/deductions-and-credits/itemized-deductions-and-qbi/medical-dental-vision-long-term-care-expenses/) | **published** | 1,935 | 2026-08-19 |
-| 1.3.1.b | [Various taxes (e.g., state income, personal property, real estate)](/individuals/deductions-and-credits/itemized-deductions-and-qbi/various-taxes/) | **published** | 1,948 | 2026-08-19 |
-| 1.3.1.c | [Interest expense (e.g., mortgage interest, investment interest, tracing rules, points, indebtedness limitations)](/individuals/deductions-and-credits/itemized-deductions-and-qbi/interest-expense/) | **published** | 1,960 | 2026-08-19 |
-| 1.3.1.d | [Charitable contributions (e.g., cash, noncash, limitations, documentation required)](/individuals/deductions-and-credits/itemized-deductions-and-qbi/charitable-contributions/) | **published** | 1,921 | 2026-08-19 |
-| 1.3.1.e | [Nonbusiness casualty and theft losses in presidentially declared disaster areas](/individuals/deductions-and-credits/itemized-deductions-and-qbi/nonbusiness-casualty-and-theft-losses-in-presidentially/) | **published** | 1,930 | 2026-08-19 |
-| 1.3.1.f | [Other itemized deductions](/individuals/deductions-and-credits/itemized-deductions-and-qbi/other-itemized-deductions/) | **published** | 1,879 | 2026-08-19 |
-| 1.3.1.g | [Allowed itemized deductions for Form 1040-NR](/individuals/deductions-and-credits/itemized-deductions-and-qbi/allowed-itemized-deductions-for-form-1040-nr/) | **published** | 1,735 | 2026-08-19 |
-| 1.3.1.h | [Qualified Business Income Deduction](/individuals/deductions-and-credits/itemized-deductions-and-qbi/qualified-business-income-deduction/) | **published** | 2,498 | 2026-08-19 |
+| 1.3.1.a | [Medical, dental, vision, long-term care expenses](/individuals/deductions-and-credits/itemized-deductions-and-qbi/medical-dental-vision-long-term-care-expenses/) | **published** | 2,342 | 2026-08-19 |
+| 1.3.1.b | [Various taxes (e.g., state income, personal property, real estate)](/individuals/deductions-and-credits/itemized-deductions-and-qbi/various-taxes/) | **published** | 2,426 | 2026-08-19 |
+| 1.3.1.c | [Interest expense (e.g., mortgage interest, investment interest, tracing rules, points, indebtedness limitations)](/individuals/deductions-and-credits/itemized-deductions-and-qbi/interest-expense/) | **published** | 2,346 | 2026-08-19 |
+| 1.3.1.d | [Charitable contributions (e.g., cash, noncash, limitations, documentation required)](/individuals/deductions-and-credits/itemized-deductions-and-qbi/charitable-contributions/) | **published** | 2,241 | 2026-08-19 |
+| 1.3.1.e | [Nonbusiness casualty and theft losses in presidentially declared disaster areas](/individuals/deductions-and-credits/itemized-deductions-and-qbi/nonbusiness-casualty-and-theft-losses-in-presidentially/) | **published** | 2,304 | 2026-08-19 |
+| 1.3.1.f | [Other itemized deductions](/individuals/deductions-and-credits/itemized-deductions-and-qbi/other-itemized-deductions/) | **published** | 2,243 | 2026-08-19 |
+| 1.3.1.g | [Allowed itemized deductions for Form 1040-NR](/individuals/deductions-and-credits/itemized-deductions-and-qbi/allowed-itemized-deductions-for-form-1040-nr/) | **published** | 1,974 | 2026-08-19 |
+| 1.3.1.h | [Qualified Business Income Deduction](/individuals/deductions-and-credits/itemized-deductions-and-qbi/qualified-business-income-deduction/) | **published** | 2,798 | 2026-08-19 |
 
 **1.3.2 Credits**
 
 | Code | Title | Status | Words | Last reviewed |
 |---|---|---|---:|---|
-| 1.3.2.a | [Child and dependent care credit](/individuals/deductions-and-credits/credits/child-and-dependent-care-credit/) | **published** | 2,499 | 2026-08-19 |
-| 1.3.2.b | [Child tax credit and credit for other dependents](/individuals/deductions-and-credits/credits/child-tax-credit-and-credit-for-other-dependents/) | **published** | 2,337 | 2026-08-19 |
-| 1.3.2.c | [Education credits](/individuals/deductions-and-credits/credits/education-credits/) | **published** | 2,458 | 2026-08-19 |
-| 1.3.2.d | [Foreign tax credit](/individuals/deductions-and-credits/credits/foreign-tax-credit/) | **published** | 2,355 | 2026-08-19 |
-| 1.3.2.e | [Earned income tax credit (e.g., paid preparer's earned income credit checklist, eligibility and disallowance)](/individuals/deductions-and-credits/credits/earned-income-tax-credit/) | **published** | 2,490 | 2026-08-19 |
-| 1.3.2.f | [Adoption credits (e.g., carryovers, limitations, special needs)](/individuals/deductions-and-credits/credits/adoption-credits/) | **published** | 2,253 | 2026-08-19 |
-| 1.3.2.g | [ACA net premium tax credit](/individuals/deductions-and-credits/credits/aca-net-premium-tax-credit/) | **published** | 2,461 | 2026-08-19 |
-| 1.3.2.h | [Other credits (refundable and nonrefundable) (e.g., health coverage tax credit, energy credits, Retirement savings contribution credit)](/individuals/deductions-and-credits/credits/other-credits-refundable-and-nonrefundable/) | **published** | 2,125 | 2026-08-19 |
+| 1.3.2.a | [Child and dependent care credit](/individuals/deductions-and-credits/credits/child-and-dependent-care-credit/) | **published** | 2,901 | 2026-08-19 |
+| 1.3.2.b | [Child tax credit and credit for other dependents](/individuals/deductions-and-credits/credits/child-tax-credit-and-credit-for-other-dependents/) | **published** | 2,711 | 2026-08-19 |
+| 1.3.2.c | [Education credits](/individuals/deductions-and-credits/credits/education-credits/) | **published** | 2,842 | 2026-08-19 |
+| 1.3.2.d | [Foreign tax credit](/individuals/deductions-and-credits/credits/foreign-tax-credit/) | **published** | 2,727 | 2026-08-19 |
+| 1.3.2.e | [Earned income tax credit (e.g., paid preparer's earned income credit checklist, eligibility and disallowance)](/individuals/deductions-and-credits/credits/earned-income-tax-credit/) | **published** | 2,839 | 2026-08-19 |
+| 1.3.2.f | [Adoption credits (e.g., carryovers, limitations, special needs)](/individuals/deductions-and-credits/credits/adoption-credits/) | **published** | 2,635 | 2026-08-19 |
+| 1.3.2.g | [ACA net premium tax credit](/individuals/deductions-and-credits/credits/aca-net-premium-tax-credit/) | **published** | 2,848 | 2026-08-19 |
+| 1.3.2.h | [Other credits (refundable and nonrefundable) (e.g., health coverage tax credit, energy credits, Retirement savings contribution credit)](/individuals/deductions-and-credits/credits/other-credits-refundable-and-nonrefundable/) | **published** | 2,489 | 2026-08-19 |
 
 ### 1.4 Taxation
 
@@ -545,22 +545,22 @@ is indexed, and only the owner moves a page there (see `docs/VERIFICATION.md`).
 
 | Code | Title | Status | Words | Last reviewed |
 |---|---|---|---:|---|
-| 3.3.1.a | [Extension of time to pay (e.g., Form 1127)](/representation/specific-types-of-representation/representing-a-taxpayer-in-the-collection-process/extension-of-time-to-pay/) | **published** | 1,628 | 2026-08-18 |
-| 3.3.1.b | [Installment agreements](/representation/specific-types-of-representation/representing-a-taxpayer-in-the-collection-process/installment-agreements/) | **published** | 1,484 | 2026-08-18 |
+| 3.3.1.a | [Extension of time to pay (e.g., Form 1127)](/representation/specific-types-of-representation/representing-a-taxpayer-in-the-collection-process/extension-of-time-to-pay/) | **published** | 1,998 | 2026-08-18 |
+| 3.3.1.b | [Installment agreements](/representation/specific-types-of-representation/representing-a-taxpayer-in-the-collection-process/installment-agreements/) | **published** | 1,818 | 2026-08-18 |
 | 3.3.1.c | [Offer in compromise](/representation/specific-types-of-representation/representing-a-taxpayer-in-the-collection-process/offer-in-compromise/) | **published** | 1,772 | 2026-08-18 |
-| 3.3.1.d | [Collection appeals program (e.g., denial of installment agreements, discharge applications)](/representation/specific-types-of-representation/representing-a-taxpayer-in-the-collection-process/collection-appeals-program/) | **published** | 1,596 | 2026-08-18 |
-| 3.3.1.e | [Collection appeals and due process (e.g., lien, levy, and Form 12153)](/representation/specific-types-of-representation/representing-a-taxpayer-in-the-collection-process/collection-appeals-and-due-process/) | **published** | 1,518 | 2026-08-18 |
-| 3.3.1.f | [Adjustments to the taxpayer’s account (e.g., abatements and refund offsets)](/representation/specific-types-of-representation/representing-a-taxpayer-in-the-collection-process/adjustments-to-the-taxpayer-s-account/) | **published** | 1,945 | 2026-08-18 |
-| 3.3.1.g | [Requesting an audit reconsideration (e.g., documents and forms)](/representation/specific-types-of-representation/representing-a-taxpayer-in-the-collection-process/requesting-an-audit-reconsideration/) | **published** | 1,748 | 2026-08-18 |
-| 3.3.1.h | [Representing a decedent](/representation/specific-types-of-representation/representing-a-taxpayer-in-the-collection-process/representing-a-decedent/) | **published** | 1,676 | 2026-08-18 |
-| 3.3.1.i | [Collection notice and Notice of Federal Tax Lien](/representation/specific-types-of-representation/representing-a-taxpayer-in-the-collection-process/collection-notice-and-notice-of-federal-tax-lien/) | **published** | 1,773 | 2026-08-18 |
-| 3.3.1.j | [Levy and seizure of taxpayer's property](/representation/specific-types-of-representation/representing-a-taxpayer-in-the-collection-process/levy-and-seizure-of-taxpayer-s-property/) | **published** | 1,989 | 2026-08-18 |
-| 3.3.1.k | [Currently Not Collectable (e.g., reasons and reactivation)](/representation/specific-types-of-representation/representing-a-taxpayer-in-the-collection-process/currently-not-collectable/) | **published** | 1,816 | 2026-08-18 |
-| 3.3.1.l | [IRS Collection Summons (e.g., purposes)](/representation/specific-types-of-representation/representing-a-taxpayer-in-the-collection-process/irs-collection-summons/) | **published** | 2,026 | 2026-08-18 |
-| 3.3.1.m | [Collections statute of limitations](/representation/specific-types-of-representation/representing-a-taxpayer-in-the-collection-process/collections-statute-of-limitations/) | **published** | 1,737 | 2026-08-18 |
-| 3.3.1.n | [Trust fund recovery penalty](/representation/specific-types-of-representation/representing-a-taxpayer-in-the-collection-process/trust-fund-recovery-penalty/) | **published** | 2,068 | 2026-08-18 |
-| 3.3.1.o | [Amended returns and claims for refund (e.g., Form 1040X, Form 843, effect on statute of limitations)](/representation/specific-types-of-representation/representing-a-taxpayer-in-the-collection-process/amended-returns-and-claims-for-refund/) | **published** | 1,827 | 2026-08-18 |
-| 3.3.1.p | [Passport revocation](/representation/specific-types-of-representation/representing-a-taxpayer-in-the-collection-process/passport-revocation/) | **published** | 1,885 | 2026-08-18 |
+| 3.3.1.d | [Collection appeals program (e.g., denial of installment agreements, discharge applications)](/representation/specific-types-of-representation/representing-a-taxpayer-in-the-collection-process/collection-appeals-program/) | **published** | 1,966 | 2026-08-18 |
+| 3.3.1.e | [Collection appeals and due process (e.g., lien, levy, and Form 12153)](/representation/specific-types-of-representation/representing-a-taxpayer-in-the-collection-process/collection-appeals-and-due-process/) | **published** | 1,873 | 2026-08-18 |
+| 3.3.1.f | [Adjustments to the taxpayer’s account (e.g., abatements and refund offsets)](/representation/specific-types-of-representation/representing-a-taxpayer-in-the-collection-process/adjustments-to-the-taxpayer-s-account/) | **published** | 2,322 | 2026-08-18 |
+| 3.3.1.g | [Requesting an audit reconsideration (e.g., documents and forms)](/representation/specific-types-of-representation/representing-a-taxpayer-in-the-collection-process/requesting-an-audit-reconsideration/) | **published** | 2,116 | 2026-08-18 |
+| 3.3.1.h | [Representing a decedent](/representation/specific-types-of-representation/representing-a-taxpayer-in-the-collection-process/representing-a-decedent/) | **published** | 2,038 | 2026-08-18 |
+| 3.3.1.i | [Collection notice and Notice of Federal Tax Lien](/representation/specific-types-of-representation/representing-a-taxpayer-in-the-collection-process/collection-notice-and-notice-of-federal-tax-lien/) | **published** | 2,190 | 2026-08-18 |
+| 3.3.1.j | [Levy and seizure of taxpayer's property](/representation/specific-types-of-representation/representing-a-taxpayer-in-the-collection-process/levy-and-seizure-of-taxpayer-s-property/) | **published** | 2,418 | 2026-08-18 |
+| 3.3.1.k | [Currently Not Collectable (e.g., reasons and reactivation)](/representation/specific-types-of-representation/representing-a-taxpayer-in-the-collection-process/currently-not-collectable/) | **published** | 2,182 | 2026-08-18 |
+| 3.3.1.l | [IRS Collection Summons (e.g., purposes)](/representation/specific-types-of-representation/representing-a-taxpayer-in-the-collection-process/irs-collection-summons/) | **published** | 2,384 | 2026-08-18 |
+| 3.3.1.m | [Collections statute of limitations](/representation/specific-types-of-representation/representing-a-taxpayer-in-the-collection-process/collections-statute-of-limitations/) | **published** | 2,095 | 2026-08-18 |
+| 3.3.1.n | [Trust fund recovery penalty](/representation/specific-types-of-representation/representing-a-taxpayer-in-the-collection-process/trust-fund-recovery-penalty/) | **published** | 2,435 | 2026-08-18 |
+| 3.3.1.o | [Amended returns and claims for refund (e.g., Form 1040X, Form 843, effect on statute of limitations)](/representation/specific-types-of-representation/representing-a-taxpayer-in-the-collection-process/amended-returns-and-claims-for-refund/) | **published** | 2,170 | 2026-08-18 |
+| 3.3.1.p | [Passport revocation](/representation/specific-types-of-representation/representing-a-taxpayer-in-the-collection-process/passport-revocation/) | **published** | 2,324 | 2026-08-18 |
 
 **3.3.2 Penalties and/or interest abatement**
 
@@ -602,26 +602,26 @@ is indexed, and only the owner moves a page there (see `docs/VERIFICATION.md`).
 
 | Code | Title | Status | Words | Last reviewed |
 |---|---|---|---:|---|
-| 3.4.1.a | [Reliance on software (e.g. review of results)](/representation/completion-of-the-filing-process/accuracy/reliance-on-software/) | **published** | 2,304 | 2026-08-19 |
-| 3.4.1.b | [Miscalculations and recognition of duplicate entries](/representation/completion-of-the-filing-process/accuracy/miscalculations-and-recognition-of-duplicate-entries/) | **published** | 2,293 | 2026-08-19 |
+| 3.4.1.a | [Reliance on software (e.g. review of results)](/representation/completion-of-the-filing-process/accuracy/reliance-on-software/) | **published** | 2,428 | 2026-08-19 |
+| 3.4.1.b | [Miscalculations and recognition of duplicate entries](/representation/completion-of-the-filing-process/accuracy/miscalculations-and-recognition-of-duplicate-entries/) | **published** | 2,431 | 2026-08-19 |
 
 **3.4.2 Record maintenance**
 
 | Code | Title | Status | Words | Last reviewed |
 |---|---|---|---:|---|
-| 3.4.2.a | [Length of time to retain returns and records](/representation/completion-of-the-filing-process/record-maintenance/length-of-time-to-retain-returns-and-records/) | **published** | 1,996 | 2026-08-19 |
-| 3.4.2.b | [Data security (e.g., electronic, systems, paper)](/representation/completion-of-the-filing-process/record-maintenance/data-security/) | **published** | 2,054 | 2026-08-19 |
+| 3.4.2.a | [Length of time to retain returns and records](/representation/completion-of-the-filing-process/record-maintenance/length-of-time-to-retain-returns-and-records/) | **published** | 2,470 | 2026-08-19 |
+| 3.4.2.b | [Data security (e.g., electronic, systems, paper)](/representation/completion-of-the-filing-process/record-maintenance/data-security/) | **published** | 2,469 | 2026-08-19 |
 
 **3.4.3 Electronic filing**
 
 | Code | Title | Status | Words | Last reviewed |
 |---|---|---|---:|---|
-| 3.4.3.a | [Application process to be an e-file provider (e.g., e-services, EFIN)](/representation/completion-of-the-filing-process/electronic-filing/application-process-to-be-an-e-file-provider/) | **published** | 2,377 | 2026-08-19 |
-| 3.4.3.b | [E-file mandate and exceptions (Form 8948)](/representation/completion-of-the-filing-process/electronic-filing/e-file-mandate-and-exceptions-form-8948/) | **published** | 2,211 | 2026-08-18 |
-| 3.4.3.c | [Advertising standards](/representation/completion-of-the-filing-process/electronic-filing/advertising-standards/) | **published** | 2,024 | 2026-08-19 |
-| 3.4.3.d | [Definition and responsibilities of an ERO](/representation/completion-of-the-filing-process/electronic-filing/definition-and-responsibilities-of-an-ero/) | **published** | 2,379 | 2026-08-19 |
-| 3.4.3.e | [Levels of infractions](/representation/completion-of-the-filing-process/electronic-filing/levels-of-infractions/) | **published** | 1,646 | 2026-08-19 |
-| 3.4.3.f | [Compliance requirements to continue in program](/representation/completion-of-the-filing-process/electronic-filing/compliance-requirements-to-continue-in-program/) | **published** | 1,786 | 2026-08-19 |
-| 3.4.3.g | [EFIN revocation appeal process](/representation/completion-of-the-filing-process/electronic-filing/efin-revocation-appeal-process/) | **published** | 1,850 | 2026-08-19 |
-| 3.4.3.h | [E-file authorization and supporting documentation (e.g. Form 8879 and Form 8453)](/representation/completion-of-the-filing-process/electronic-filing/e-file-authorization-and-supporting-documentation/) | **published** | 2,198 | 2026-08-19 |
-| 3.4.3.i | [Rejected returns and resolution (e.g. client notification, IP PIN)](/representation/completion-of-the-filing-process/electronic-filing/rejected-returns-and-resolution/) | **published** | 2,209 | 2026-08-19 |
+| 3.4.3.a | [Application process to be an e-file provider (e.g., e-services, EFIN)](/representation/completion-of-the-filing-process/electronic-filing/application-process-to-be-an-e-file-provider/) | **published** | 2,490 | 2026-08-19 |
+| 3.4.3.b | [E-file mandate and exceptions (Form 8948)](/representation/completion-of-the-filing-process/electronic-filing/e-file-mandate-and-exceptions-form-8948/) | **published** | 2,318 | 2026-08-18 |
+| 3.4.3.c | [Advertising standards](/representation/completion-of-the-filing-process/electronic-filing/advertising-standards/) | **published** | 2,154 | 2026-08-19 |
+| 3.4.3.d | [Definition and responsibilities of an ERO](/representation/completion-of-the-filing-process/electronic-filing/definition-and-responsibilities-of-an-ero/) | **published** | 2,482 | 2026-08-19 |
+| 3.4.3.e | [Levels of infractions](/representation/completion-of-the-filing-process/electronic-filing/levels-of-infractions/) | **published** | 1,756 | 2026-08-19 |
+| 3.4.3.f | [Compliance requirements to continue in program](/representation/completion-of-the-filing-process/electronic-filing/compliance-requirements-to-continue-in-program/) | **published** | 1,990 | 2026-08-19 |
+| 3.4.3.g | [EFIN revocation appeal process](/representation/completion-of-the-filing-process/electronic-filing/efin-revocation-appeal-process/) | **published** | 1,976 | 2026-08-19 |
+| 3.4.3.h | [E-file authorization and supporting documentation (e.g. Form 8879 and Form 8453)](/representation/completion-of-the-filing-process/electronic-filing/e-file-authorization-and-supporting-documentation/) | **published** | 2,417 | 2026-08-19 |
+| 3.4.3.i | [Rejected returns and resolution (e.g. client notification, IP PIN)](/representation/completion-of-the-filing-process/electronic-filing/rejected-returns-and-resolution/) | **published** | 2,555 | 2026-08-19 |
