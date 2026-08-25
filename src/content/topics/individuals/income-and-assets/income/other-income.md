@@ -27,7 +27,19 @@ forms: []
 related: ["1.2.1.g", "1.2.1.d", "1.2.1.f", "1.2.1.e", "1.2.1.n", "1.2.1.i", "1.4.1.k", "1.5.1.a", "1.5.1.c"]
 changelog:
   - { date: "2026-08-19", summary: "Initial draft. Sets out the IRC § 117 scholarship exclusion and its service limitation, the IRC § 74 prize rules, the IRC § 104(a)(2) physical injury requirement, and the repeal of IRC §§ 71 and 215 for post-2018 instruments." }
+  - { date: "2026-08-25", summary: "Added a plain-language summary, glossary marks, and two typed scenarios (fails, procedural) alongside the existing three." }
 ---
+
+<div class="plain-terms">
+This page covers money with no obvious home on a tax return, like scholarships, prizes, bartered
+work, legal settlements, and unemployment pay. The rule is simple. Assume it is taxable. Then look
+for a rule that says it is not. Most of those rules are narrower than they sound. A scholarship is
+tax-free only for the part spent on tuition and required course costs. Settlement money is
+tax-free only if it pays for a physical injury. This page affects students,
+{gloss:independent-contractor}s who trade work with each other, people who win prizes or settle a
+lawsuit, and anyone who collects unemployment. It decides whether a payment counts as taxable
+income, and if so, how much.
+</div>
 
 This is the drawer the return keeps for receipts that fit nowhere else, and it rewards a single habit:
 assume inclusion, then look for the section that takes the item out. Most of the exclusions here are
@@ -115,7 +127,7 @@ And where a client has excluded something in the past — a scholarship, a recov
 exclusion has any downstream effect: § 117 amounts reduce the expenses available for the education
 credits, and that coordination is easy to miss.
 
-<div class="scenario">
+<div class="scenario" data-type="interaction">
 <h3>One award, two answers</h3>
 
 Sunita is a doctoral candidate. Her department gives her $34,000 for the year: $18,000 described as a
@@ -131,7 +143,7 @@ it would have been testable against qualified expenses like the rest; conditione
 compensation whatever the department calls it.
 </div>
 
-<div class="scenario">
+<div class="scenario" data-type="baseline">
 <h3>Both sides of the swap</h3>
 
 Owen, an electrician, rewires the office of Danielle, an accountant, and she prepares his business
@@ -147,7 +159,7 @@ also has a deductible business expense for the services received, so the net eff
 but reporting nothing is not an option, and no information return will prompt them.
 </div>
 
-<div class="scenario">
+<div class="scenario" data-type="boundary">
 <h3>The settlement that was mostly taxable</h3>
 
 Rafael settles a claim against a former employer for $200,000. The agreement allocates $40,000 to a
@@ -163,6 +175,34 @@ year, the opening words of § 104(a) claw back the amount attributable to that d
 emotional distress been *attributable to* the physical injury rather than to the treatment, the answer
 on that limb would differ — which is why the allocation in the agreement is worth negotiating before
 signature rather than explaining afterwards.
+</div>
+
+<div class="scenario" data-type="fails">
+<h3>Punitive damages riding along with a physical injury claim</h3>
+
+A cyclist is struck by a delivery van and settles his physical injury claim for $150,000 in
+compensatory damages plus $75,000 the jury awarded as punitive damages against the company for
+reckless dispatching practices.
+
+Only the $150,000 is excluded. IRC § 104(a)(2) excludes damages other than punitive damages
+received on account of personal physical injuries — the "other than punitive" language is not a
+stray qualifier, it is a flat carve-out that applies however clearly the punitive award traces
+back to the same physical injury. The $75,000 is included in {gloss:ordinary-income} in full,
+regardless of how deserved the jury thought it was or how directly it arose from the same crash.
+</div>
+
+<div class="scenario" data-type="procedural">
+<h3>Where the unemployment cheque actually lands on the return</h3>
+
+A taxpayer collects unemployment compensation for five months while between jobs. She receives no
+withholding on it and no year-end wage statement — only a year-end government tax form reporting
+the total paid.
+
+IRC § 85(a) includes unemployment compensation in gross income in full, and it is reported as
+income for the year received regardless of whether any tax was withheld along the way. Because
+nothing was withheld, the amount often creates a balance due or an estimated-tax problem that a
+client does not see coming until the return is prepared — worth flagging at intake for anyone who
+was out of work during the year, not left for April.
 </div>
 
 <div class="callout trap">

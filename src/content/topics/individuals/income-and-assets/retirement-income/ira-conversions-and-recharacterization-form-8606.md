@@ -22,7 +22,17 @@ forms: []
 related: ["1.2.2.a", "1.2.2.b", "1.2.2.d", "1.2.2.e", "1.2.2.c", "1.2.2.h"]
 changelog:
   - { date: "2026-08-19", summary: "Initial draft. Sets out the IRC § 408A(d)(3) conversion rules, the § 408A(d)(3)(F) five-year recapture, the § 408A(d)(6) recharacterization election and its § 408A(d)(6)(B)(iii) exclusion of conversions, and records that Treas. Reg. § 1.408A-4 has never been conformed to three separate statutory changes." }
+  - { date: "2026-08-25", summary: "Added a plain-language summary, glossary marks, and two typed scenarios (boundary, procedural) alongside the three existing ones." }
 ---
+
+<div class="plain-terms">
+A conversion is moving money out of a regular IRA and into a Roth IRA, and paying income tax on it
+now instead of later. This topic covers anyone who owns a traditional IRA and is thinking about
+switching some or all of it to a Roth. It decides two things. First, once you convert, you cannot
+undo it — the old escape hatch for a conversion that lost value was removed years ago. Second, undoing
+a plain yearly contribution is still allowed, on a deadline, because a contribution is not the same
+thing as a conversion. Mixing those two words up is the main way people get this wrong.
+</div>
 
 The exam outline names this topic after two transactions. Only one of them still exists. A **conversion**
 — moving money from a traditional IRA or an employer plan into a Roth IRA and paying the tax now — is
@@ -124,23 +134,23 @@ The second is timing. The tax is fixed at the moment of conversion and can no lo
 splitting a planned conversion into tranches across several years is the only way to manage the bracket
 — and each tranche starts its own five-year recapture clock.
 
-<div class="scenario">
+<div class="scenario" data-type="interaction">
 <h3>Scenario 1 — the pro-rata trap on a small conversion</h3>
 
-Devi has a rollover IRA holding 190,000 dollars of entirely pre-tax money from a former employer, and she
-opens a second traditional IRA in March 2026 with a nondeductible contribution of 7,500 dollars. In
-November she converts that second account, then worth 7,700 dollars, to a Roth IRA, expecting to report
-200 dollars of income.
+Devi has a {gloss:rollover} IRA holding 190,000 dollars of entirely pre-tax money from a former employer,
+and she opens a second traditional IRA in March 2026 with a nondeductible contribution of 7,500 dollars.
+In November she converts that second account, then worth 7,700 dollars, to a Roth IRA, expecting to
+report 200 dollars of income.
 
-The aggregation rule of IRC § 408(d)(2)(A) treats both accounts as one contract. Her basis is 7,500
-dollars against a combined year-end value of roughly 197,700 dollars, so the basis fraction is a little
-under four percent, and about 7,400 dollars of the 7,700 converted is includible. The remaining basis
-stays on the traditional side and is recovered pro rata over future distributions — not lost, but not
-available now. Had Devi first rolled the 190,000 dollars into her employer's plan, the aggregate would
-have been the smaller account alone.
+The aggregation rule of IRC § 408(d)(2)(A) treats both accounts as one contract. Her {gloss:basis} is
+7,500 dollars against a combined year-end value of roughly 197,700 dollars, so the basis fraction is a
+little under four percent, and about 7,400 dollars of the 7,700 converted is includible. The remaining
+basis stays on the traditional side and is recovered pro rata over future distributions — not lost, but
+not available now. Had Devi first rolled the 190,000 dollars into her employer's plan, the aggregate
+would have been the smaller account alone.
 </div>
 
-<div class="scenario">
+<div class="scenario" data-type="fails">
 <h3>Scenario 2 — the conversion that cannot be undone</h3>
 
 Marcus, age 52, converts 300,000 dollars of a traditional IRA to a Roth IRA in February 2026 when the
@@ -154,7 +164,7 @@ no additional tax under § 72(t) on the conversion itself (§ 408A(d)(3)(A)(ii))
 the converted money before 2031 exposes him to the § 408A(d)(3)(F) recapture.
 </div>
 
-<div class="scenario">
+<div class="scenario" data-type="baseline">
 <h3>Scenario 3 — the recharacterization that is still available</h3>
 
 Priya contributes 7,500 dollars to a Roth IRA for 2026 in April 2026, and discovers in September that her
@@ -169,6 +179,34 @@ the net income goes with it, and Priya files an amended 2026 return marked as §
 Whether that contribution is deductible is a separate § 219(g) question.
 </div>
 
+<div class="scenario" data-type="boundary">
+<h3>Scenario 4 — five days apart at conversion, five years apart at recapture</h3>
+
+Two clients each convert 60,000 dollars to a Roth IRA — one on 28 December 2021, the other on
+3 January 2022, five calendar days later. Both withdraw the full 60,000 dollars on 15 January 2026.
+
+IRC § 408A(d)(3)(F)(i) counts a 5-**taxable-year** period beginning with the taxable year of the
+conversion, not sixty rolling months. The December conversion's period runs 2021 through 2025, so a
+withdrawal made in the 2026 taxable year falls outside it — no recapture. The January conversion's
+period runs 2022 through 2026, so the same withdrawal, on the same day, falls inside it — full
+recapture under § 72(t) on the amount the conversion put into income. Five days at the start produced a
+different taxable year, and a different taxable year is the entire test.
+</div>
+
+<div class="scenario" data-type="procedural">
+<h3>Scenario 5 — the Form 8606 line that stayed at zero</h3>
+
+A taxpayer converts an entirely pre-tax traditional IRA of 15,000 dollars to a Roth IRA in 2026 and has
+no basis in any traditional, SEP, or SIMPLE IRA. Her preparer completes Form 8606 Part II and the
+taxable-amount line comes out to 15,000 dollars, not zero.
+
+Because there is no basis to allocate, the full amount converted is includible, and the Instructions for
+Form 8606 route that figure to the taxable-amount line of Form 1040. The zero-or-less rule only protects
+a taxpayer whose basis equals or exceeds the amount converted; it is not a default outcome for every
+conversion, and skipping Part II because "conversions are usually tax-free" produces an understated
+return.
+</div>
+
 <div class="callout trap">
 
 **Recharacterizing a contribution is not converting it.** A Roth contribution moved to a traditional IRA
@@ -179,9 +217,9 @@ conversion under § 408A(d)(3), with the pro-rata rule applying like any other.
 separately from each conversion year and controls only the additional tax. The second runs once, from the
 first year any Roth contribution was made, and controls whether a distribution is qualified.
 
-**Converting does not restart a required minimum distribution.** A required minimum distribution cannot be
-rolled over, so the first dollars distributed in a year for which one is due are the required amount and
-cannot be converted (Reg. § 1.408A-4, A-6).
+**Converting does not restart a {gloss:required-minimum-distribution}.** It cannot be rolled over, so
+the first dollars distributed in a year for which one is due are the required amount and cannot be
+converted (Reg. § 1.408A-4, A-6).
 
 **The once-a-year exemption is a statutory direction, not an administrative concession** (IRC
 § 408A(e)(1)).

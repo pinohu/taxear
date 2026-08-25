@@ -23,7 +23,16 @@ forms: []
 related: ["1.2.1.a", "1.2.1.f", "1.1.1.f", "1.2.1.n"]
 changelog:
   - { date: "2026-08-19", summary: "Initial draft. Records the IRC § 6041(a) threshold increase with indexing from 2027, the IRC § 6041A(a)(2) amendment tying nonemployee compensation reporting to that figure, the retroactive restoration of the IRC § 6050W(e) thresholds, and the new tip and occupation accounting required on payer statements." }
+  - { date: "2026-08-25", summary: "Added a plain-language summary, glossary marks, and two typed scenarios." }
 ---
+
+<div class="plain-terms">
+Businesses that pay you money often have to report it to the IRS on a form such as a 1099. This page
+covers three kinds of those forms, and the dollar amounts that decide when one must be sent. It affects
+freelancers, gig workers, small business owners, and anyone paid by more than one client. Getting a
+form, or not, does not change whether the money is taxable. This page also covers what to do when a
+form is wrong, missing, or double-counted.
+</div>
 
 Three forms, three separate statutes, three different thresholds — and 2026 moved two of them in
 opposite directions. Before any of that, though, one proposition governs the whole topic: an
@@ -109,7 +118,7 @@ acted on immediately. And where the failure was genuinely inadvertent, § 6724(a
 reasonable cause not amounting to wilful neglect — a defence that has to be documented at the time
 rather than argued later.
 
-<div class="scenario">
+<div class="scenario" data-type="boundary">
 <h3>Income with no form at all</h3>
 
 Rashid does design work through an online marketplace and directly for two small businesses. The
@@ -124,7 +133,7 @@ gap between what the Service is told and what he owes is now wide enough that hi
 only reliable basis for the return.
 </div>
 
-<div class="scenario">
+<div class="scenario" data-type="interaction">
 <h3>The form that was right and wrong at once</h3>
 
 Camila sells through a platform that reports $58,000 on a Form 1099-K. Her actual receipts were
@@ -140,7 +149,7 @@ notice for a return that is arithmetically correct — the reconciliation has to
 of the return.
 </div>
 
-<div class="scenario">
+<div class="scenario" data-type="procedural">
 <h3>A form for someone else's money</h3>
 
 Jonah's consultancy received a Form 1099-NEC for $40,000, but $15,000 of it was passed straight to a
@@ -153,6 +162,23 @@ own Form 1099-NEC to them, which he must issue because the amount is above the �
 
 The instinct to report $25,000 and explain later is the wrong one. It produces a mismatch the Service
 will pursue, and the explanation is no easier a year on than it is now.
+</div>
+
+<div class="scenario" data-type="baseline">
+<h3>Payment, form, and return, all in agreement</h3>
+
+An {gloss:independent-contractor} is paid $9,000, receives a matching Form 1099-NEC, and reports $9,000 of
+gross receipts, paying {gloss:self-employment-tax} on the profit. Most 1099s work exactly this way; the
+harder cases on this page are the exceptions.
+</div>
+
+<div class="scenario" data-type="timing">
+<h3>The same payment, two different years</h3>
+
+A nonprofit pays a consultant $1,200 in December 2025 and again in January 2026. Only the first payment
+produces a form: the 2025 threshold under IRC § 6041(a) was $600, but the 2026 threshold rose to the
+figure above and § 6041A(a)(2) now tracks it automatically, so the identical January payment falls below
+the new line. Tax is owed on both payments regardless; only the filing duty changed.
 </div>
 
 <div class="callout trap">

@@ -20,7 +20,18 @@ forms: []
 related: ["1.2.1.h", "1.2.1.f", "1.1.1.h", "1.2.1.m", "1.2.1.o", "1.3.1.b"]
 changelog:
   - { date: "2026-08-19", summary: "Initial draft. Records the removal of the IRC § 164(b)(6) sunset and the new applicable limitation amount in IRC § 164(b)(7), with its income phasedown and its scheduled reversion after 2029, and the effect of both on the IRC § 111(a) recovery computation." }
+  - { date: "2026-08-25", summary: "Added a plain-language summary, glossary marks, and two typed scenarios (timing, procedural) alongside the existing three." }
 ---
+
+<div class="plain-terms">
+This page is about a state tax refund you get after you already deducted that tax on last year's
+federal return. Getting money back does not always mean you owe tax on it now. You only owe tax on the
+part that actually lowered your tax bill last year. If you took the standard deduction instead of
+listing deductions, none of the refund is taxed. If your state and local taxes were so high that part
+of them could not be deducted at all, that part is not taxed when refunded either. This affects anyone
+who itemizes deductions and later gets a state refund, a credit, or an offset. It does not affect
+someone who never deducted the tax in the first place.
+</div>
 
 A refunded deduction is not automatically income. Section 111(a) excludes a recovery to the extent the
 amount deducted in the earlier year **did not reduce the tax** for that year, so the question is always
@@ -96,11 +107,11 @@ schedule reverts after 2029, a payment made in one year rather than another can 
 substantially — which makes the timing of a state estimated payment a live question in a way it has not
 been for several years.
 
-<div class="scenario">
+<div class="scenario" data-type="baseline">
 <h3>The refund that was not income</h3>
 
-Lucia received a $2,400 state income tax refund in 2026 for her 2025 return. She took the standard
-deduction for 2025.
+Lucia received a $2,400 state income tax refund in 2026 for her 2025 return. She took the
+{gloss:standard-deduction} for 2025.
 
 None of it is income. IRC § 111(a) excludes a recovery to the extent the amount deducted in the prior
 year did not reduce the tax for that year, and she deducted nothing — a taxpayer who takes the standard
@@ -112,11 +123,12 @@ low threshold regardless of the recipient's federal position. The form reports a
 determine the tax treatment of one.
 </div>
 
-<div class="scenario">
+<div class="scenario" data-type="boundary">
 <h3>Itemized, but only just</h3>
 
-Owen itemized for 2025. His itemized deductions came to $34,100 against a standard deduction of $32,200
-he could have taken instead. In 2026 he receives a $3,000 state income tax refund.
+Owen chose to list each {gloss:itemized-deduction} for 2025 rather than take the standard amount. His
+itemized total came to $34,100 against a standard deduction of $32,200 he could have taken instead. In
+2026 he receives a $3,000 state income tax refund.
 
 His benefit was $1,900, not $3,000 — the amount by which itemizing beat the standard deduction. Had the
 refunded $3,000 not been deducted, his itemized total would have been $31,100, below the standard
@@ -127,7 +139,7 @@ amount did not reduce his tax. The computation is done on the 2025 figures, and 
 only the result.
 </div>
 
-<div class="scenario">
+<div class="scenario" data-type="interaction">
 <h3>The cap that changed the answer</h3>
 
 Priya paid $46,000 of state and local taxes in 2026 — income tax, property tax and a vehicle tax
@@ -143,6 +155,32 @@ when IRC § 164(b)(7)(A)(iv) reverts the limitation to its old level, the excess
 been far larger and the conclusion the same. Had her taxes been $38,000 against the 2026 limitation, they would
 have been fully deducted and the refund fully includible. The cap does not decide the answer; the
 relationship between the taxes paid and the cap does.
+</div>
+
+<div class="scenario" data-type="timing">
+<h3>The same taxes, a different year, a different cap</h3>
+
+Grace pays $28,000 of combined state and local taxes every year without fail. In 2025 the applicable
+limitation amount was lower than her total, so part of her payment produced no deduction. In 2026 the
+limitation rose, and her full $28,000 clears it.
+
+Nothing about her taxes changed and nothing about § 111(a) changed. What changed is the applicable
+limitation amount itself, which IRC § 164(b)(7)(A) sets year by year rather than as a single fixed
+figure. A refund of part of her 2025 taxes and a refund of part of her 2026 taxes on identical facts can
+have different tax consequences purely because the cap moved between the two years.
+</div>
+
+<div class="scenario" data-type="procedural">
+<h3>The worksheet nobody skips</h3>
+
+A preparer receives a client's Form 1099-G showing a $4,200 state refund and, without more, is tempted
+to just add it to this year's income.
+
+The correct procedure runs through the prior year's return, not this year's form. The preparer reworks
+the earlier year's tax twice — once as filed, once with the state and local tax deduction reduced by
+the refund — and the difference is the includible amount. No amended return is filed for the earlier
+year; the recomputation is a worksheet exercise that produces a single number reported on the current
+return.
 </div>
 
 <div class="callout trap">

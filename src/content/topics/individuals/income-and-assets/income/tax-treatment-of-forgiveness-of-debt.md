@@ -22,7 +22,26 @@ forms: []
 related: ["1.2.1.e", "1.2.1.a", "1.1.1.f", "1.2.1.h", "1.2.1.g", "1.2.1.n", "1.2.1.o", "1.2.3.a", "1.2.3.j"]
 changelog:
   - { date: "2026-08-19", summary: "Initial draft. Records the expiry of the IRC § 108(a)(1)(E) principal residence exclusion for discharges after 2025 and the rewrite of IRC § 108(f)(5) by Pub. L. 119-21 § 70119, which withdrew the broad 2021-2025 student loan discharge exclusion for discharges after 31 December 2025." }
+  - { date: "2026-08-25", summary: "Added a plain-language summary, a decision diagram of the exclusion order, glossary marks, and typed scenarios." }
+diagram:
+  archetype: "decision"
+  caption: "Which exclusion, if any, applies to cancelled debt"
+  tests:
+    - { test: "Was the discharge in a bankruptcy (title 11) case?", result: "Excluded in full — this exclusion controls over the others", outcome: "pass" }
+    - { test: "If not — was the taxpayer insolvent right before the discharge?", result: "Excluded up to the amount of insolvency", outcome: "pass" }
+    - { test: "If not insolvent — is it qualified farm or real property business debt?", result: "Excluded under the farm or business rule", outcome: "pass" }
+    - { test: "None of the above apply", result: "The cancelled debt is taxable income", outcome: "fail" }
 ---
+
+<div class="plain-terms">
+When a lender forgives debt you owed, the tax law usually treats that forgiveness as income, the same
+way wages or interest would be. The idea is simple: not having to pay money back is a lot like receiving
+that money. This affects anyone whose credit card, mortgage, business loan, or student loan balance was
+reduced or wiped out. It does not affect someone who is still paying a debt as agreed. Several exceptions
+can excuse some or all of that income from tax, such as filing for bankruptcy or owing more than you own.
+This page sorts out when forgiven debt is taxed, when it is not, and what happens later if it is excused
+instead.
+</div>
 
 Debt that goes away is income. Discharge of indebtedness is enumerated in the definition of gross
 income (IRC § 61(a)(11)), and everything a taxpayer can do about it is an exception in a named section.
@@ -108,7 +127,7 @@ written arrangement predates the year, and a student loan discharge in 2026 is o
 unless it is on death or total and permanent disability. Both were available on very different terms in
 2025, and clients will have been told so.
 
-<div class="scenario">
+<div class="scenario" data-type="interaction">
 <h3>Two computations from one foreclosure</h3>
 
 Elena's rental property, bought for $290,000 and now with an adjusted basis of $240,000, secures a
@@ -118,15 +137,43 @@ forgives the $50,000 shortfall.
 Two separate items arise. Under Reg. § 1.1001-2(a)(2), because the liability is recourse, the amount
 realized excludes amounts that are discharge income — so the disposition is measured at the property's
 $260,000 fair market value against her $240,000 basis, giving $20,000 of gain. The $50,000 the lender
-forgave is discharge of indebtedness income under IRC § 61(a)(11).
+forgave is {gloss:cancellation-of-debt-income} under IRC § 61(a)(11).
 
-If she is insolvent by $30,000 immediately before the discharge, IRC § 108(a)(1)(B) and (a)(3) exclude
-$30,000 of the $50,000 and $20,000 remains taxable. The excluded $30,000 then reduces her attributes in
-the § 108(b)(2) order — and because the property is gone, that reduction will fall on losses she was
-counting on rather than on its basis.
+If she is {gloss:insolvency} by $30,000 immediately before the discharge, IRC § 108(a)(1)(B) and (a)(3)
+exclude $30,000 of the $50,000 and $20,000 remains taxable. The excluded $30,000 then reduces her
+attributes in the § 108(b)(2) order — and because the property is gone, that reduction will fall on
+losses she was counting on rather than on its basis.
 </div>
 
-<div class="scenario">
+<div class="scenario" data-type="boundary">
+<h3>Insolvent to the dollar</h3>
+
+Two neighbours each have a $40,000 credit card balance cancelled the same week. Right before the
+cancellation, Farid's liabilities exceed his assets by exactly $40,000. Greta's liabilities exceed hers
+by $39,999 — one dollar less.
+
+IRC § 108(a)(3) caps the exclusion at the amount of insolvency, so the line runs precisely at the
+dollar. Farid's insolvency equals the whole discharge, so the whole $40,000 is excluded and nothing is
+attribute-reduced beyond that figure. Greta is one dollar short of full insolvency, so $39,999 is
+excluded and exactly $1 is includible in her gross income. Being "basically insolvent" is not the test;
+the balance sheet on the day before the discharge is.
+</div>
+
+<div class="scenario" data-type="fails">
+<h3>Solvent, and out of options</h3>
+
+Owen never filed for bankruptcy and his personal balance sheet, checked immediately before a $15,000
+credit card settlement, shows assets comfortably above his liabilities. He is not insolvent and there is
+no {gloss:discharge-in-bankruptcy} to point to.
+
+None of the five § 108(a)(1) exclusions reach him. He is solvent, the debt is an ordinary credit card
+balance rather than qualified farm or real property business debt, and his home is not involved at all.
+The full $15,000 is gross income under IRC § 61(a)(11), with no attribute reduction to soften it,
+because there was never an exclusion to trigger one. A balance sheet that looks fine on paper is exactly
+why this trap catches people who assume "I couldn't really pay it" is the legal test.
+</div>
+
+<div class="scenario" data-type="baseline">
 <h3>Nonrecourse, and no discharge income at all</h3>
 
 Marcus's home secures a **nonrecourse** loan with a balance of $340,000 and an adjusted basis of
@@ -142,7 +189,7 @@ turns on the § 121 principal residence exclusion, not on § 108, and the IRC §
 would not have helped in any event because there is no discharge income for it to exclude.
 </div>
 
-<div class="scenario">
+<div class="scenario" data-type="timing">
 <h3>The loan forgiveness that arrived a year late</h3>
 
 Priya reached the end of an income-driven repayment plan and had $62,000 of federal student loan

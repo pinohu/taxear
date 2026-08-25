@@ -23,7 +23,19 @@ forms: []
 related: ["1.4.1.c", "1.3.2.e", "1.2.3.f", "1.4.1.f", "1.4.1.h"]
 changelog:
   - { date: "2026-08-19", summary: "Initial draft. Sets out the IRC § 112 combat zone exclusion with its month rule and the maximum enlisted amount cap, the § 134 qualified military benefit exclusion and its 1986 freeze, the § 7508 suspension of deadlines, the § 692 forgiveness on death, the § 217(g) survival of the moving expense deduction with the intelligence community extension added by Pub. L. 119-21 § 70113(b), the § 121(d)(9) suspension of the five-year period, and the § 62(a)(2)(E) reservist travel deduction." }
+  - { date: "2026-08-25", summary: "Added a plain-language summary, glossary marks, two typed scenarios (fails, timing) alongside the three existing ones now typed baseline/boundary/interaction, and a timeline diagram of the § 7508 deadline suspension." }
+diagram:
+  archetype: "timeline"
+  caption: "How the § 7508 deadline suspension runs around combat zone service"
+  events:
+    - { when: "Day one of service in the combat zone (or a designated contingency operation)", what: "Filing, payment, assessment, collection, and Tax Court deadlines start being disregarded" }
+    - { when: "Last day of that service", what: "Suspension keeps running through any continuous hospitalization for a wound, disease, or injury received there" }
+    - { when: "180 days after service (or hospitalization) ends", what: "The suspended period closes; ordinary deadlines resume as if it had never paused" }
 ---
+
+<div class="plain-terms">
+This page gathers the tax rules made just for people in the military. It covers active-duty troops, reservists, and veterans. It matters most for someone sent to a war zone the government has named a combat zone. It has little to do with civilian workers nearby. It decides which combat pay is tax-free. It decides which deadlines pause during a deployment. It decides whether a military move still lets someone deduct moving costs. And it decides how selling a home works when years spent abroad would otherwise cost someone a tax break most people can still get.
+</div>
 
 There is no single military tax regime. What exists is a set of provisions scattered across the Code,
 each solving a different problem, and they do not share definitions or mechanics. The one that produces
@@ -71,7 +83,7 @@ own.
 **Reservist travel.** {fig:military.reservist_travel} This is an above-the-line deduction, so it
 survives the suspension of miscellaneous itemized deductions entirely.
 
-**Combat pay and the earned income credit.** A member may elect to treat § 112 excluded pay as earned
+**Combat pay and the {gloss:earned-income-tax-credit}.** A member may elect to treat § 112 excluded pay as earned
 income for the earned income credit (IRC § 32(c)(2)(B)(vi)). The election is optional and can move the
 credit in either direction — see 1.3.2.e.
 
@@ -113,7 +125,7 @@ purposes, is outside earned income unless elected in for the earned income credi
 the earnings record. A long deployment can reduce a member's individual retirement account contribution
 room to nothing without anyone noticing.
 
-<div class="scenario">
+<div class="scenario" data-type="baseline">
 <h3>One day, one month</h3>
 
 Sergeant Bello's unit arrives in a designated combat zone on 29 March and returns on 2 October. Her
@@ -125,7 +137,7 @@ served, and October, of which two were. Nothing is prorated. Had her return been
 a ninth month would have been excluded in full.
 </div>
 
-<div class="scenario">
+<div class="scenario" data-type="boundary">
 <h3>The officer's ceiling</h3>
 
 Captain Marek serves in the same zone for the whole of a month. His basic pay for the month is $8,900,
@@ -139,7 +151,7 @@ contrast, would exclude the lot: § 112(c)(1) says a commissioned warrant office
 officer for this purpose.
 </div>
 
-<div class="scenario">
+<div class="scenario" data-type="interaction">
 <h3>The house they could not sell</h3>
 
 Petty Officer Nakamura and her spouse bought a home in 2019, lived in it until a 2021 posting overseas
@@ -148,8 +160,33 @@ on qualified official extended duty, and sold it in 2026 without having lived in
 Without relief the two-out-of-five-years test in § 121(a) fails. Section 121(d)(9)(A) lets them elect to
 suspend the running of the five-year period during the qualified official extended duty, capped at ten
 years by subparagraph (B). With the suspension the look-back reaches into the period before the posting,
-the use test is met, and the gain is excluded up to the ordinary limit. The election is made for the
+the use test is met, and the {gloss:capital-gain} is excluded up to the ordinary limit. The election is made for the
 property, and it is worth asking about on every military client who owns a home.
+</div>
+
+<div class="scenario" data-type="fails">
+<h3>The commute that was not far enough</h3>
+
+Staff Sergeant Kowalczyk, a reservist, drives 60 miles each way to a monthly drill weekend at a nearby
+armory.
+
+The above-the-line reservist travel deduction under § 62(a)(2)(E) reaches only travel more than 100
+miles from home. His 60-mile trip does not clear that line, so the deduction is unavailable to him no
+matter how many drill weekends he logs in the year — the distance test, not the reservist status, is
+what fails here. A reservist assigned to a more distant unit would qualify on identical facts otherwise.
+</div>
+
+<div class="scenario" data-type="timing">
+<h3>The hospitalization that outlasted the exclusion</h3>
+
+Corporal Ibarra is wounded in a designated combat zone and evacuated to a military hospital in the
+United States. Combatant activities in that zone are later declared terminated by Executive order.
+
+For as long as her hospitalization continues, her pay stays excluded under § 112(a) as if she were still
+in the zone — same wound, same hospitalization, same monthly pay. But that continues only for a month
+beginning within two years after combatant activities in the zone terminated; a month of hospitalization
+beginning after that two-year mark is taxed in full. Nothing about her condition changed — only the
+calendar did.
 </div>
 
 <div class="callout trap">

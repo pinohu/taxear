@@ -20,7 +20,24 @@ forms: []
 related: ["1.2.4.a", "1.2.4.c", "1.2.4.d", "1.2.4.b", "1.2.1.l", "1.3.1.a"]
 changelog:
   - { date: "2026-08-19", summary: "Initial draft. Sets out the IRC § 162(l)(1) deduction and its four covered classes, the § 162(l)(2)(A) earned income cap measured against the business establishing the plan, the § 162(l)(2)(B) month-by-month bar for eligibility in a subsidised employer plan, the § 162(l)(2)(C) and § 213(d)(10) long-term care scale, and the § 162(l)(3), (4) and (5) rules on double counting, self-employment tax and S corporation shareholders." }
+  - { date: "2026-08-25", summary: "Added a plain-language summary, a decision diagram of the three gates that decide the deduction, glossary marks, and two typed scenarios." }
+diagram:
+  archetype: "decision"
+  caption: "Three gates that decide whether a month's premium is deductible"
+  tests:
+    - { test: "Self-employed status", result: "An employee within § 401(c)(1) — genuinely self-employed", outcome: "pass" }
+    - { test: "No other subsidised coverage", result: "Not eligible that month for a subsidised plan of the taxpayer, spouse, dependent, or a child under 27", outcome: "pass" }
+    - { test: "Earned income from that business", result: "The business establishing the plan has earned income at least equal to the premium", outcome: "pass" }
 ---
+
+<div class="plain-terms">
+If you are self-employed and pay for your own health insurance, you may be able to deduct those premiums
+from your income. This page explains when that deduction is allowed, and when it disappears. It affects
+sole owners, partners, and small business owners who buy their own coverage. It does not apply if you or
+a family member could get low-cost coverage through someone else's job. That is true even if the coverage
+was turned down. It also stops at what your specific business actually earned. This page decides how much
+of the premium, if any, you can deduct.
+</div>
 
 Two limitations do almost all the work here, and both are easy to state wrongly. The deduction is capped
 by earned income from **the particular business with respect to which the plan is established** — not by
@@ -106,7 +123,7 @@ premiums, includes them in the shareholder's Form W-2 wages, and the shareholder
 § 162(l) against those wages treated as earned income by § 162(l)(5)(A). Skipping the wage inclusion
 removes the basis for the deduction.
 
-<div class="scenario">
+<div class="scenario" data-type="fails">
 <h3>Scenario 1 — the offer that was declined</h3>
 
 Hana runs a design practice and pays 14,400 dollars a year for family health cover. Her husband's employer
@@ -119,7 +136,7 @@ entirely: § 162(l)(3) only bars double counting of amounts actually deducted un
 premiums that produce no § 162(l) deduction remain available as § 213 medical expenses.
 </div>
 
-<div class="scenario">
+<div class="scenario" data-type="boundary">
 <h3>Scenario 2 — two businesses, one policy</h3>
 
 Ivan runs a profitable consultancy and a loss-making pottery studio. His health policy is established with
@@ -131,7 +148,7 @@ irrelevant. Establishing the plan with respect to the consultancy instead would 
 9,600 dollars — a choice that has to be made when the policy is set up, not on the return.
 </div>
 
-<div class="scenario">
+<div class="scenario" data-type="procedural">
 <h3>Scenario 3 — the shareholder and the W-2</h3>
 
 Jonah owns 60 percent of an S corporation, which pays 11,000 dollars of premiums for his family. The
@@ -142,6 +159,33 @@ for this purpose, and the premiums must be run through those wages to support th
 the Form W-2 to include the 11,000 dollars gives him earned income against which § 162(l)(1) operates,
 and the amount is not subject to social security and Medicare tax under the fringe benefit rules that
 § 1372(a) engages.
+</div>
+
+<div class="scenario" data-type="interaction">
+<h3>Scenario 4 — the deduction that did not touch the other tax</h3>
+
+Farah, a sole proprietor, deducts 8,000 dollars of self-employed health insurance premiums and, expecting
+it to work like an ordinary business expense, subtracts it from her net earnings before figuring her
+self-employment tax.
+
+She has overstated the reduction. IRC § 162(l)(4) keeps this deduction out of net earnings from
+self-employment within § 1402(a) entirely — it lowers her income tax, through the adjusted gross income
+computation, but it never touches the base her self-employment tax is figured on. The two taxes run on
+separate tracks, and a deduction that shrinks one does not automatically shrink the other.
+</div>
+
+<div class="scenario" data-type="baseline">
+<h3>Scenario 5 — the straightforward case</h3>
+
+Tomas runs a single consulting business as an {gloss:independent-contractor}, has no other health coverage
+available to him or his family, and pays 9,000 dollars a year for a policy in his own name. His practice
+earns 60,000 dollars.
+
+The full 9,000 dollars is deductible. He clears every gate: he is self-employed within § 401(c)(1), no
+subsidised employer plan reaches him or a family member for any month, and his earned income from the
+business comfortably exceeds the premium. The deduction comes off above the line, whether he takes the
+{gloss:standard-deduction} or itemizes. This is the ordinary case the section is built around — the
+harder facts on this page are what happens when one of those gates is not this clean.
 </div>
 
 <div class="callout trap">

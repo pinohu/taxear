@@ -19,7 +19,26 @@ forms: []
 related: ["1.4.1.d", "1.4.1.j", "1.1.1.k", "1.4.1.a", "1.4.1.c", "1.4.1.e"]
 changelog:
   - { date: "2026-08-19", summary: "Initial draft. Sets out the common law employee test for household workers, the IRC § 3121(a)(7)(B) and (x) cash wage threshold with the 2026 figure from IRS Topic 756, the § 3121(b)(3) family exclusions, the FUTA quarterly test and wage base, the absence of any income tax withholding obligation, and the § 3510 reporting of all three on Schedule H with the individual return." }
+  - { date: "2026-08-25", summary: "Added a plain-language summary, a decision diagram, two typed scenarios (boundary, procedural), and glossary marks." }
+diagram:
+  archetype: "decision"
+  caption: "Does this worker owe household employment tax withholding?"
+  tests:
+    - { test: "The payer controls what work is done and how it is done", result: "A household employee, not an independent contractor", outcome: "pass" }
+    - { test: "Not a spouse, a child under 21, or (absent an exception) a parent", result: "Not excluded by family relationship", outcome: "pass" }
+    - { test: "18 or older, or household work is the employee's principal occupation", result: "Not excluded by age", outcome: "pass" }
+    - { test: "Cash wages to that employee meet the year's applicable dollar threshold", result: "Social security and Medicare tax apply to all of that employee's cash wages", outcome: "pass" }
+    - { test: "Any test above fails", result: "No social security or Medicare tax withholding for this worker", outcome: "fail" }
 ---
+
+<div class="plain-terms">
+This page covers workers a family pays to help in their own home, such as a housekeeper, a nanny, or a
+gardener. It applies only if the family controls how the work gets done, not just what gets done. A
+worker who sets their own hours and serves other households too is running their own business instead,
+and none of this applies to them. For a true household employee, this page decides which taxes the
+family must withhold and pay, once the pay for the year crosses a set dollar amount. It also covers
+which family members are excluded from those taxes no matter how much they are paid.
+</div>
 
 Everything on this topic follows from one question the statute does not answer directly: is the worker
 an employee or an independent contractor? A household employee is someone whose work the payer controls
@@ -101,7 +120,7 @@ feeds the estimated tax and withholding rules. A household employer who does not
 the whole liability in April can owe an underpayment penalty on it. Increasing withholding on the
 employer's own wages is usually the simplest fix.
 
-<div class="scenario">
+<div class="scenario" data-type="fails">
 <h3>The babysitter with several families</h3>
 
 The Ferraras pay a babysitter $4,600 over the year. She sits for four other families as well, sets her
@@ -114,7 +133,7 @@ instead engaged a nanny who worked the hours they set, in their home, following 
 the same $4,600 would be over the cash wage threshold and every part of this topic would apply.
 </div>
 
-<div class="scenario">
+<div class="scenario" data-type="interaction">
 <h3>Over one threshold, under the other</h3>
 
 The Nkemelus pay a housekeeper $3,400 for the year, spread evenly at roughly $850 a quarter, and pay no
@@ -127,7 +146,7 @@ They file Schedule H reporting FICA only. Paying the same total in three quarter
 have crossed the FUTA threshold and added the tax.
 </div>
 
-<div class="scenario">
+<div class="scenario" data-type="baseline">
 <h3>The teenage helper</h3>
 
 The Osei family pay their 17-year-old neighbour $3,900 across the year to mind the children after
@@ -139,6 +158,34 @@ household work is that employee's principal occupation, and the IRS states that 
 work is never their principal occupation. The exclusion is age-based and does not depend on the amount
 paid. FUTA is a separate question, decided on the quarterly figures, and the age exclusion does not
 apply to it.
+</div>
+
+<div class="scenario" data-type="boundary">
+<h3>One dollar either side of the switch</h3>
+
+The Hallidays pay their housekeeper cash wages of $2,999 in 2026. Their neighbors pay theirs $3,001 for
+similar work.
+
+The Hallidays owe no social security or Medicare tax at all — the wages stay under the threshold. Their
+neighbors owe it on the full $3,001, not just the dollar above the line, because crossing the cash wage
+threshold is a switch, not a slope. That single extra dollar of pay moves the household from zero
+{gloss:fica} tax to roughly $459 combined: about $229.58 withheld from the employee and the same amount
+again owed by the employer.
+</div>
+
+<div class="scenario" data-type="procedural">
+<h3>Getting ready to withhold and pay</h3>
+
+The Bristows hire a full-time nanny in January, expecting to pay well over the cash wage threshold for
+the year. Before the first payday, they apply for an employer identification number so they can issue a
+Form W-2 at year's end. They ask the nanny whether she also wants federal income tax withheld; she does
+not, so only social security and Medicare come out of her pay.
+
+Because she is a household employee rather than an {gloss:independent-contractor}, she never files a
+Schedule C or pays self-employment tax on this income — the withholding and matching happen through her
+paycheck instead. Rather than wait to pay the whole Schedule H liability with their return in April, the
+father increases the withholding on his own paycheck at his day job, which covers the household taxes
+along with his regular liability.
 </div>
 
 <div class="callout trap">

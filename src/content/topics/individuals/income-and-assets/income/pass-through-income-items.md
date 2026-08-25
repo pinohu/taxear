@@ -24,7 +24,19 @@ forms: []
 related: ["1.2.1.k", "1.2.1.j", "1.2.1.c", "1.2.1.a", "1.2.1.m", "1.2.3.e", "1.2.4.a", "1.2.4.e", "1.3.1.h", "1.4.1.i"]
 changelog:
   - { date: "2026-08-19", summary: "Initial draft. Records the removal of the IRC § 199A sunset and the new minimum deduction in § 199A(i), the widened phase-in range under § 199A(b)(3)(B) and (d)(3), and the new § 199A(c)(4)(D) exclusion for amounts deducted as qualified tips." }
+  - { date: "2026-08-25", summary: "Added a plain-language summary, glossary marks, and two typed scenarios (boundary, timing) alongside the existing three." }
 ---
+
+<div class="plain-terms">
+A partnership or S corporation pays no tax of its own. Its profits and losses flow through to the
+owners instead. Each owner reports their share on their own tax return. Each item keeps the same type
+it had inside the business. A gain stays a gain; it does not turn into plain wage-like income. This
+mainly affects people who own part of a partnership, an LLC taxed as one, or an S corporation. It does
+not affect a sole owner with no partners, and it works differently for a regular C corporation, which
+pays its own tax. What this page decides is how big a loss an owner may deduct. That size depends on
+how much money and risk the owner truly has in the business, and whether a special deduction for
+business profit still applies.
+</div>
 
 A pass-through entity pays no tax on its operating income; the owners do. What the entity does supply
 is **character** — the Schedule K-1 separates items so that each keeps on the owner's return the
@@ -106,10 +118,10 @@ range, and whether wages or property limit the deduction. And be alert to the in
 tips deduction: an amount deducted under § 224(a) is out of qualified business income under
 § 199A(c)(4)(D), so a tipped sole proprietor cannot take both on the same dollars.
 
-<div class="scenario">
+<div class="scenario" data-type="fails">
 <h3>The guarantee that gave no basis</h3>
 
-Priya owns all of an S corporation. It borrows $200,000 from a bank, which she personally guarantees.
+Priya owns all of an {gloss:s-corporation}. It borrows $200,000 from a bank, which she personally guarantees.
 Her stock basis is $15,000 and the corporation has a $90,000 loss for the year.
 
 She may deduct $15,000. IRC § 1366(d)(1) caps aggregate losses at the sum of the adjusted basis of her
@@ -124,7 +136,7 @@ partnership would also have fared better, because a partner's basis includes a s
 liabilities.
 </div>
 
-<div class="scenario">
+<div class="scenario" data-type="baseline">
 <h3>Character preserved, and character lost</h3>
 
 Marcus receives a K-1 from a partnership showing $40,000 of ordinary business income, $12,000 of
@@ -142,20 +154,49 @@ and the dividends would lose their rate, and the contribution would disappear. T
 presentation; they are the mechanism by which § 702(a) works.
 </div>
 
-<div class="scenario">
+<div class="scenario" data-type="interaction">
 <h3>A loss stopped three different ways</h3>
 
 Devi has a $50,000 distributive share of loss from a rental partnership in which she does not
 participate. Her basis is $30,000, her amount at risk is $22,000, and she has no other passive income.
 
 The limitations bite in sequence. IRC § 704(d)(1) allows the loss only to the extent of her $30,000
-basis, so $20,000 stops there. IRC § 465(a)(1) then allows only $22,000 of what survives, so a further
-$8,000 stops. The remaining $22,000 reaches IRC § 469, which suspends it because the activity is passive
-and she has no passive income to absorb it.
+basis, so $20,000 stops there. The {gloss:at-risk-rules} in IRC § 465(a)(1) then allow only $22,000 of
+what survives, so a further $8,000 stops. The remaining $22,000 reaches IRC § 469, which suspends it
+because it is a {gloss:passive-activity} and she has no passive income to absorb it.
 
 She deducts nothing this year, and the $50,000 sits in three separate queues with three separate
 releases — basis restored, at-risk amount increased, and passive income or disposition. Recording them
 as a single figure loses the information needed to release them correctly.
+</div>
+
+<div class="scenario" data-type="boundary">
+<h3>Just inside the phase-in range</h3>
+
+Wei is a single owner of a specified service trade or business. Her taxable income before the
+{gloss:qualified-business-income-deduction} is $30,000 above the threshold that applies to her filing
+status, and the phase-in range now runs $75,000 wide for 2026 rather than $50,000.
+
+Last year, on the same $30,000 excess, she would have been 60 percent phased out. This year, under the
+wider range in IRC § 199A(b)(3)(B) and (d)(3), she is only 40 percent phased out. Nothing about her
+income or her business changed — only the width of the range her excess is measured against.
+
+The phase-in is a straight-line reduction, not a cliff, so a taxpayer just over the threshold now keeps
+a meaningfully larger share of the deduction than the identical dollar of excess income would have
+preserved before 2026.
+</div>
+
+<div class="scenario" data-type="timing">
+<h3>Same $15,000, two different years</h3>
+
+In Year 1, a partner's distributive share of loss exceeds his basis by $15,000, and IRC § 704(d)(1)
+disallows that excess. In Year 2, he contributes additional capital and the partnership also allocates
+him taxable income, restoring $15,000 of basis with no further loss for the year.
+
+The excess is not gone. IRC § 704(d)(2) allows the suspended $15,000 in the first year basis is
+sufficient to absorb it — here, Year 2. The same $15,000 of economic loss is tested against a different
+basis each year, and the earlier disallowance simply becomes the current year's deduction once the gate
+reopens.
 </div>
 
 <div class="callout trap">

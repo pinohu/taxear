@@ -19,7 +19,26 @@ forms: []
 related: ["1.2.3.a", "1.2.3.b", "1.2.3.c", "1.2.3.i", "1.2.3.e", "1.2.3.g", "1.4.1.g", "1.4.1.l", "1.5.1.b"]
 changelog:
   - { date: "2026-08-19", summary: "Initial draft. Sets out the IRC § 121(a) ownership and use tests and the § 121(b) limits including the joint, surviving spouse and frequency rules, the § 121(c) reduced exclusion with the Treas. Reg. § 1.121-3(e)(2) safe harbours, the § 121(b)(5) nonqualified use allocation and the § 121(b)(5)(D) ordering against § 121(d)(6) depreciation, and the § 121(d) rules for divorce, extended duty and § 1031 property." }
+  - { date: "2026-08-25", summary: "Added a plain-language summary, a decision diagram of the ownership/use/frequency tests, glossary marks, and a fails scenario rounding out the scenario taxonomy. No threshold diagram: the exclusion figure bundles the single and joint amounts into one string that a number-line parser would garble, so the eligibility tests are diagrammed instead." }
+diagram:
+  archetype: "decision"
+  caption: "Do you qualify for the full home-sale exclusion?"
+  tests:
+    - { test: "Ownership", result: "Owned the home for 2 of the last 5 years", outcome: "pass" }
+    - { test: "Use", result: "Lived in it as a main home for 2 of the last 5 years (the two periods don't have to match)", outcome: "pass" }
+    - { test: "Frequency", result: "No other sale excluded under this rule in the last 2 years", outcome: "pass" }
 ---
+
+<div class="plain-terms">
+This page is about selling the home someone lives in, and how much of the profit can go tax-free.
+An owner who has owned and lived in the home long enough can skip tax on a large chunk of gain.
+That amount doubles for a married couple filing together. It decides how much of the profit is
+protected, and how that shrinks if the home was ever rented out. Any depreciation claimed while
+renting the home is never protected, and gets taxed on its own. Selling too soon after a past
+tax-free sale, or too soon after buying the home, can cut or wipe out the benefit. Some hardship
+cases still get partial relief even then. This mainly affects people selling their main home, not
+landlords selling a straight rental.
+</div>
 
 Two orderings decide most § 121 computations and both run against the taxpayer. Depreciation taken since
 May 1997 comes out of the exclusion **first**, before anything else is measured. Then gain allocated to
@@ -124,7 +143,7 @@ Where the two-year tests fail, do not stop. Section 121(c) is a proration, not a
 harbours in Reg. § 1.121-3(e)(2) are broader than most clients expect — a job loss with unemployment
 eligibility is a listed safe harbour, not an argument that has to be made.
 
-<div class="scenario">
+<div class="scenario" data-type="interaction">
 <h3>Scenario 1 — the rental that became a home</h3>
 
 Ines bought a house in January 2016 and rented it out for six years, then moved in and used it as her
@@ -135,10 +154,10 @@ First, IRC § 121(d)(6) removes the 66,000 dollars of post-1997 depreciation fro
 234,000 dollars. Then § 121(b)(5)(B) allocates that remainder on ownership: six of her ten years were
 nonqualified use, none of them before 2009, so 60 percent — 140,400 dollars — is not excludable. The
 remaining 93,600 dollars falls under the dollar limit and is excluded. She reports 66,000 dollars of
-unrecaptured section 1250 gain and 140,400 dollars of capital gain.
+unrecaptured section 1250 gain — {gloss:recapture} territory — and 140,400 dollars of {gloss:capital-gain}.
 </div>
 
-<div class="scenario">
+<div class="scenario" data-type="baseline">
 <h3>Scenario 2 — the same years, the other way round</h3>
 
 Jonah bought an identical house in January 2016, lived in it as his principal residence until January
@@ -149,10 +168,12 @@ The depreciation carve-out is the same: 66,000 dollars cannot be excluded. But t
 **after** the last date the property was his principal residence, so § 121(b)(5)(C)(ii)(I) takes them out
 of nonqualified use entirely. There is no allocation. The whole remaining 234,000 dollars is eligible and
 is within the single-filer limit, so all of it is excluded. He fails neither the ownership nor the use
-test, because both were satisfied within the five years ending on the sale — just.
+test, because both were satisfied within the five years ending on the sale — just. (A
+{gloss:like-kind-exchange} into replacement rental property instead would fall under a different provision
+entirely.)
 </div>
 
-<div class="scenario">
+<div class="scenario" data-type="boundary">
 <h3>Scenario 3 — eighteen months and a redundancy</h3>
 
 Kwame, filing single, buys a house and sells it eighteen months later after losing his job, in
@@ -164,6 +185,17 @@ compensation a specific-event safe harbour. So § 121(c)(1) waives the ownership
 requirements and prorates the limit instead: eighteen months over twenty-four, three quarters of the
 single-filer figure. His whole 90,000-dollar gain is comfortably within that prorated limit and is
 excluded.
+</div>
+
+<div class="scenario" data-type="fails">
+<h3>Scenario 4 — the second sale too soon</h3>
+
+A taxpayer excludes gain on a 2024 home sale. In 2026 she sells a second home, meeting the ownership and
+use tests, simply because she wants more space — no job change, no health issue, nothing unforeseen.
+
+IRC § 121(b)(3) blocks the exclusion once another sale was excluded within the prior two years. A
+preference for a different home is not a safe harbour; Treas. Reg. § 1.121-3(e)(1) rules it out expressly.
+The exclusion is unavailable this time, regardless of the other tests.
 </div>
 
 <div class="callout trap">

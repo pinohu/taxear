@@ -20,7 +20,17 @@ forms: []
 related: ["1.2.3.b", "1.2.3.f", "1.5.1.l", "1.5.1.a", "1.5.1.c", "1.5.1.d", "1.5.1.g"]
 changelog:
   - { date: "2026-08-19", summary: "Initial draft. Sets out the four long-term rates in IRC § 1(h) with the 2026 breakpoints from Rev. Proc. 2025-32 § 3.03, the § 1(h)(5) collectibles definition and its look-through for partnership interests, unrecaptured § 1250 gain, the interaction with the § 1411 net investment income tax, and the real versus personal property distinction." }
+  - { date: "2026-08-25", summary: "Added a plain-language summary, glossary marks, and two additional typed scenarios (baseline, timing) alongside the existing three. No diagram added: the four-way rate classification and its compound, multi-filing-status figures do not fit the decision or threshold archetypes without distorting the content." }
 ---
+
+<div class="plain-terms">
+Selling something for more than you paid for it creates a gain. This page is about which tax
+rate applies to that gain. It matters to anyone who sells stocks, a rental house, or things like
+art, coins, or jewelry. It is not just for business owners or the rich. The rate depends on what
+you sold and how you used it. Stocks and most property held over a year get a lower rate. Art and
+coins get a higher rate of their own. A big enough gain can even push you into a higher rate
+partway through the sale.
+</div>
 
 Advising on a sale is mostly a question of predicting the rate. There is no single long-term capital gain
 rate: there are four, and which applies depends on the kind of asset and on what depreciation the
@@ -88,7 +98,20 @@ sale across two years can keep more of the gain in a lower band, though an insta
 rules. Harvesting losses in the same year reduces net capital gain directly, and a collectibles loss
 reduces 28-percent rate gain specifically.
 
-<div class="scenario">
+<div class="scenario" data-type="baseline">
+<h3>The plain long-term sale</h3>
+
+Diego is single with other taxable income of $80,000. He sells stock he has held for three years at a
+$15,000 gain, with no collectibles, no depreciation, and no other property sold that year.
+
+The entire $15,000 is taxed at 15 percent. His taxable income before the sale already sits above the
+zero rate ceiling for a single filer, and adding the gain does not come close to the 15 percent ceiling,
+so nothing shifts into the 20 percent band. No collectibles rate, no unrecaptured section 1250 gain, and
+— because his total income stays well under the § 1411 threshold — no net investment income tax layer
+either. This is the ordinary ladder working exactly as designed.
+</div>
+
+<div class="scenario" data-type="interaction">
 <h3>Three rates in one sale</h3>
 
 Beatriz sells a rental building for a $260,000 gain. She had claimed $70,000 of straight-line
@@ -97,11 +120,12 @@ depreciation. She is single with other taxable income of $120,000.
 The $70,000 of depreciation is unrecaptured section 1250 gain and is taxed at 25 percent. The remaining
 $190,000 is adjusted net capital gain: her taxable income is well above the zero rate breakpoint, so it
 is taxed at 15 percent until her total taxable income passes the 15 percent ceiling and at 20 percent
-above that. And because the rental was passive, the whole gain is net investment income, adding 3.8
-percent to every layer. One sale, three rates before the surtax and four effective rates after it.
+above that. And because the rental was passive, the whole gain is subject to the {gloss:net-investment-income-tax},
+adding 3.8 percent to every layer. One sale, three rates before the surtax and four effective rates
+after it.
 </div>
 
-<div class="scenario">
+<div class="scenario" data-type="fails">
 <h3>The painting held through a partnership</h3>
 
 Idris owns a 40 percent interest in a partnership whose principal asset is a collection of paintings.
@@ -115,7 +139,7 @@ ordinary ladder. Advice that treats a partnership interest as a single undiffere
 would have understated his tax by more than $23,000.
 </div>
 
-<div class="scenario">
+<div class="scenario" data-type="boundary">
 <h3>The gain that moved the taxpayer</h3>
 
 Priya is single with taxable income of $42,000 before any sale, and she sells shares held for three
@@ -125,6 +149,19 @@ Her income before the gain is below the 2026 zero rate ceiling for a single file
 is indeed taxed at zero — but only the part that fits below the ceiling. The gain itself lifts her
 taxable income past it, and the excess is taxed at 15 percent. The zero rate is a band, not a status,
 and the asset being sold is what fills the band.
+</div>
+
+<div class="scenario" data-type="timing">
+<h3>Eleven months versus thirteen</h3>
+
+Farah bought a stock position eleven months ago and wants to sell now to lock in a $20,000 gain. Her
+adviser asks her to wait ten more weeks instead.
+
+Sold today, the gain is short-term and taxed at her ordinary marginal rate, not any of the long-term
+rates above. Sold after she crosses the one-year {gloss:holding-period}, the same $20,000 becomes a
+{gloss:long-term-capital-gain} and moves onto the zero-15-20 ladder instead. Nothing about the asset or
+the amount changes — only the date of sale does, and that date alone can be worth several thousand
+dollars.
 </div>
 
 <div class="callout trap">

@@ -20,7 +20,18 @@ forms: []
 related: ["1.1.1.e", "1.5.1.i", "1.5.1.h", "1.5.1.d", "1.5.1.m"]
 changelog:
   - { date: "2026-08-19", summary: "Initial draft. Sets out the IRC § 7703 marital status test, the repeal of the alimony regime by Pub. L. 115-97 § 11051 and the grandfathering of pre-2019 instruments, the § 1041 non-recognition rule with its carryover basis and incident-to-divorce test, the § 86(c)(1)(C) zero base amount, and the § 152(e) allocation of a child between separated parents." }
+  - { date: "2026-08-25", summary: "Added a plain-language summary, glossary marks, and two typed scenarios (comprehension layer)." }
 ---
+
+<div class="plain-terms">
+Getting married or divorced changes several tax rules at once. The changes rarely land where people
+expect. Your marital status for the whole year is fixed by one single date. Whether alimony is taxed at
+all depends only on when the divorce paper was signed. And splitting property evenly in a divorce does
+not always split the tax bill evenly too. This topic affects anyone who married, divorced, or split up
+during the year. It also touches how a child is claimed afterward. It decides which filing status
+applies, whether alimony counts as income, and what tax bill each spouse is left with once the assets are
+split.
+</div>
 
 Three things about a divorce carry most of the tax consequence, and none of them is the decree itself.
 Marital status is tested on a single day. Alimony stopped being a tax item for new instruments in 2019.
@@ -96,20 +107,20 @@ return, and the joint and several liability that a joint return creates.
 **And deal with the children explicitly.** Who claims the child, and for which benefit, should be
 written into the agreement, with the Form 8332 release addressed rather than assumed.
 
-<div class="scenario">
+<div class="scenario" data-type="interaction">
 <h3>The equal split that was not</h3>
 
 Hafsa and Deji divide two assets of equal value: the family home, worth $500,000 with a basis of
 $120,000, and an investment account worth $500,000 with a basis of $470,000. Hafsa takes the house.
 
 Section 1041(a) means neither recognises gain on the division, and § 1041(b)(2) gives each the
-transferor's basis. Hafsa is carrying $380,000 of unrealised gain and Deji $30,000. If Hafsa later sells
+transferor's {gloss:basis}. Hafsa is carrying $380,000 of unrealised gain and Deji $30,000. If Hafsa later sells
 and qualifies for the § 121 exclusion, much of hers may still escape; if she does not, or if the gain
 exceeds the exclusion, she bears a tax Deji does not. On these facts the "equal" split favoured Deji by
 a sum worth negotiating over.
 </div>
 
-<div class="scenario">
+<div class="scenario" data-type="boundary">
 <h3>Separated, filing separately, and taxed from the first dollar</h3>
 
 A man aged 68 files for divorce during the year and moves out in October. He and his wife lived together
@@ -122,7 +133,7 @@ the first dollar of other income. Had the divorce been final by 31 December, or 
 the whole year, the base amount would have been $25,000.
 </div>
 
-<div class="scenario">
+<div class="scenario" data-type="procedural">
 <h3>The modification that changed the deal</h3>
 
 A 2016 decree requires monthly alimony. In 2026 the parties agree to reduce the amount and sign a
@@ -133,6 +144,33 @@ That single clause moves the payments out of the old regime: the payer loses the
 recipient stops including the payments. If the reduction was negotiated on the assumption that the payer
 would keep the deduction, the economics of the agreement have changed and neither party may realise it.
 Without the clause, the pre-2019 treatment would have continued despite the modification.
+</div>
+
+<div class="scenario" data-type="timing">
+<h3>One day either side of the line</h3>
+
+Two couples come in for a consultation on the same afternoon. The first married on 2 January of the year
+and has been married ever since. The second married on 30 December of the same year, after dating for six
+weeks.
+
+Both couples are married for the entire year for federal tax purposes. IRC § 7703(a) tests marital status
+as of the last day of the taxable year, not the number of days actually married during it — the couple
+married for 363 days and the couple married for 2 days file exactly the same filing statuses. A divorce
+finalised on 31 December instead of 2 January the following year would flip either couple to unmarried for
+the whole year just as sharply.
+</div>
+
+<div class="scenario" data-type="baseline">
+<h3>The release that moves the credit, not the parent</h3>
+
+Divorced parents share custody, and their daughter lives with her mother for 220 nights a year. The mother
+signs Form 8332 releasing the dependency-linked benefits to the father for the year.
+
+The father can claim the {gloss:child-tax-credit} for their {gloss:qualifying-child} using the release,
+but nothing else moves. The mother keeps head of household status, the earned income credit, and the
+dependent care credit, because those benefits are tied to which parent the child actually lived with, not
+to who holds the release. A parent who assumes the release hands over "the dependent" in every sense is in
+for a surprise at filing time.
 </div>
 
 <div class="callout trap">

@@ -25,7 +25,24 @@ forms: []
 related: ["1.2.1.b", "1.2.1.a", "1.1.1.f", "1.2.1.j", "1.2.1.i", "1.2.1.l", "1.2.2.a", "1.2.3.b", "1.2.3.d"]
 changelog:
   - { date: "2026-08-19", summary: "Initial draft. Sets out the IRC § 316 earnings and profits test, the IRC § 301(c) three-tier ordering, the IRC § 1(h)(11) qualified dividend holding period as it borrows from IRC § 246(c), and the treatment of regulated investment company and REIT distributions." }
+  - { date: "2026-08-25", summary: "Added a plain-language summary, a decision diagram of the qualified-dividend holding-period test, glossary marks, and two typed scenarios (interaction, timing) alongside the existing three." }
+diagram:
+  archetype: "decision"
+  caption: "Is the dividend taxed at the qualified rate"
+  tests:
+    - { test: "Paid by a domestic or qualified foreign corporation, and not one of the excluded categories (IRC § 1(h)(11)(B)(ii))?", result: "Continue to the holding period test", outcome: "pass" }
+    - { test: "Stock held more than 60 days within the 121-day period beginning 60 days before the ex-dividend date?", result: "Qualified dividend — taxed at capital gain rates", outcome: "pass" }
+    - { test: "Held 60 days or fewer in that window?", result: "Not qualified — taxed as ordinary income", outcome: "fail" }
 ---
+
+<div class="plain-terms">
+A payout from a company is only a "dividend" for tax purposes when the company actually had
+profit to give out. Brokers and funds often call the whole payment a dividend anyway. That label
+is not always right. A dividend also only gets a lower tax rate if you held the stock long enough
+around the payment date. Both rules affect almost anyone who owns stock or fund shares outside a
+retirement account. This page sorts a payout into four buckets. Some of it counts as regular
+income. Some gets the lower rate. Some is just your own money coming back. Some counts as a sale.
+</div>
 
 Two questions decide the tax on a distribution, and the statements clients bring rarely answer either
 one reliably. Is it a dividend at all — which depends on the payer's earnings and profits, not on what
@@ -112,7 +129,7 @@ reinvested dividends are taxed as received and each reinvestment starts a new lo
 and holding period — a records problem that compounds silently for years. And where a plan offers
 shares at a discount, the discount is itself income, with basis taken at full fair market value.
 
-<div class="scenario">
+<div class="scenario" data-type="boundary">
 <h3>The distribution that was not a dividend</h3>
 
 Kwame owns shares in a small operating company. It distributed $30,000 to him during a year in which it
@@ -130,7 +147,7 @@ earnings and profits computation is not one it makes for the payee. The characte
 worth several thousand dollars in tax.
 </div>
 
-<div class="scenario">
+<div class="scenario" data-type="fails">
 <h3>Sold too soon after the ex-dividend date</h3>
 
 Ines bought 800 shares on 20 May. The ex-dividend date was 10 June and she received $1,400 of ordinary
@@ -146,7 +163,7 @@ The broker's figure is not wrong through carelessness — it simply cannot see h
 each ex-dividend date, so the adjustment is hers.
 </div>
 
-<div class="scenario">
+<div class="scenario" data-type="baseline">
 <h3>The reinvestment plan discount</h3>
 
 Toma participates in a plan that lets him buy shares at $20 when the market price on the dividend
@@ -159,6 +176,38 @@ clients miss: **his basis is the full fair market value**, $2,200, not the $2,00
 
 Missing the basis point is the expensive half. A client who records basis at cost pays tax on the
 discount now and pays tax on the same $200 again as gain when the shares are sold.
+</div>
+
+<div class="scenario" data-type="interaction">
+<h3>The REIT dividend that isn't qualified but still gets a break</h3>
+
+A retiree owns a real estate investment trust fund and receives $6,000 of ordinary dividends the
+fund reports as "qualified REIT dividends." He assumes they get the lower qualified dividend rate
+like his other stock dividends.
+
+They do not. Qualified REIT dividends are excluded from the corporate-earnings chain that produces
+qualified dividend income, so they are taxed at his {gloss:ordinary-income} rate — but IRC
+§ 199A(b)(1)(B) lets him include 20 percent of them in the combined {gloss:qualified-business-income-deduction}
+amount, without the wage or property limits that apply to an operating business. The two regimes
+run on separate tracks: missing the § 199A benefit because "it's just a dividend" leaves a
+deduction on the table that an ordinary qualified dividend never carries.
+</div>
+
+<div class="scenario" data-type="timing">
+<h3>Same trade pattern, different year, different answer</h3>
+
+An investor buys the same stock and sells roughly ten weeks later around each year's dividend,
+using the identical strategy two years running. In Year One she buys three weeks before the
+ex-dividend date and sells ten weeks after it. In Year Two she buys on the ex-dividend date itself
+and sells ten weeks later.
+
+Year One qualifies and Year Two does not. IRC § 1(h)(11)(B)(iii)(I), applying § 246(c)(3)(A),
+counts the day of disposition but not the day of acquisition, over more than 60 days within the
+121-day window opening 60 days before the ex-dividend date. Buying three weeks early in Year One
+gives her enough days before the ex-dividend date to clear 60 days total; buying on the ex-dividend
+date itself in Year Two starts the clock later and leaves her short. The identical "ten weeks" she
+describes to her preparer is not what controls her {gloss:holding-period} — the calendar dates
+around the ex-dividend date are.
 </div>
 
 <div class="callout trap">

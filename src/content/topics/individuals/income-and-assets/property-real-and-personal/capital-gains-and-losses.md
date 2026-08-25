@@ -27,7 +27,18 @@ forms: []
 related: ["1.2.3.a", "1.2.3.c", "1.2.3.f", "1.2.1.c", "1.2.3.k", "1.2.3.d", "1.2.3.e", "1.2.3.g", "1.2.3.h", "1.2.3.i", "1.2.3.j", "1.4.1.i", "1.5.1.b", "1.5.1.g", "1.5.1.l"]
 changelog:
   - { date: "2026-08-19", summary: "Initial draft. Sets out the IRC § 1221 definition by exclusion and the § 1221(b)(3) election for musical works, the § 1222 holding periods, the § 1211(b) loss limit and § 1212(b) carryover, the § 1(h) rate structure as it must be read through § 1(j)(5), the collectibles and qualified dividend rules, the § 1091 wash sale rule and § 1256 mark to market, and the treatment of digital assets as property under Notice 2014-21." }
+  - { date: "2026-08-25", summary: "Added a plain-language summary, glossary marks, and typed scenarios." }
 ---
+
+<div class="plain-terms">
+When you sell an investment or other property for more than you paid, the profit is a capital gain,
+often taxed at lower rates than wages. Selling for less gives you a capital loss, which can offset gains,
+but only offsets a limited amount of other income each year. This affects anyone who buys and sells
+stock, real estate, or similar property. It does not affect pay from a job or profit from running a
+business day to day. How long you owned the property before you sold it changes the tax rate you pay. A
+few special rules cover items like coins, dividends, and quick buybacks of the same investment. This page
+walks through the rates, the limits, and the traps that catch investors off guard.
+</div>
 
 Section 1(h) cannot be read on its own. Its 0 percent band is defined by reference to income "taxed at a
 rate below 25 percent" and its 15 percent band by reference to a rate "below 39.6 percent" — two brackets
@@ -146,34 +157,61 @@ For a client with a large loss, be honest about the arithmetic: at the annual al
 capital loss takes decades to absorb unless gains appear. Harvesting gains to use the carryforward is
 often the better advice.
 
-<div class="scenario">
+<div class="scenario" data-type="boundary">
 <h3>Scenario 1 — the composer and the election</h3>
 
 Noor writes a song and, three years later, sells all rights in it outright for 90,000 dollars. She wants
-long-term capital gain treatment.
+long-term {gloss:capital-gain} treatment.
 
 Without more, she does not get it. IRC § 1221(a)(3)(A) excludes a musical composition held by the taxpayer
 whose personal efforts created it, so the gain is ordinary. But § 1221(b)(3) lets her **elect** to
 disapply paragraphs (a)(1) and (a)(3) for musical compositions and copyrights in musical works. With the
 election, the song is a capital asset and the gain is long-term capital gain. Had she written a novel
-instead, no election would be available and the answer would be ordinary income.
+instead, no election would be available and the answer would be ordinary income — music sits right on the
+one line the Code draws through self-created works.
 </div>
 
-<div class="scenario">
+<div class="scenario" data-type="baseline">
 <h3>Scenario 2 — the wash sale that moved the loss, not lost it</h3>
 
-Idris sells 400 shares on 3 November 2026 at a 6,000-dollar loss and buys 400 shares of the same company
-on 20 November 2026 for 21,000 dollars.
+Idris sells 400 shares on 3 November 2026 at a 6,000-dollar {gloss:capital-loss} and buys 400 shares of
+the same company on 20 November 2026 for 21,000 dollars.
 
-The purchase falls inside the 30-day window after the sale, so IRC § 1091(a) disallows the loss. It is not
-forfeited: under § 1091(d) the new shares take the basis of the shares sold, adjusted by the difference
-between the two prices, so his basis in the replacement is 27,000 dollars rather than 21,000. The loss is
-deferred into the eventual sale of the new position. Had he instead bought a different company in the same
-industry, § 1091 would not apply — the test is substantially identical stock, not similar exposure.
+The purchase falls inside the 30-day window after the sale, so the {gloss:wash-sale} rule in IRC § 1091(a)
+disallows the loss. It is not forfeited: under § 1091(d) the new shares take the basis of the shares sold,
+adjusted by the difference between the two prices, so his basis in the replacement is 27,000 dollars
+rather than 21,000. The loss is deferred into the eventual sale of the new position. Had he instead bought
+a different company in the same industry, § 1091 would not apply — the test is substantially identical
+stock, not similar exposure.
 </div>
 
-<div class="scenario">
-<h3>Scenario 3 — three rates on one year's gains</h3>
+<div class="scenario" data-type="timing">
+<h3>Scenario 3 — one day short, one day over</h3>
+
+Two colleagues each bought stock on 12 June 2025 at the same price. Tam sells on 11 June 2026. Lior sells
+on 13 June 2026.
+
+IRC § 1222(3) requires an asset to be held **more than** one year to be long-term, and a year measured
+from 12 June 2025 ends on 12 June 2026. Tam's sale, one day before that, is short-term — taxed as ordinary
+income at her regular rate. Lior's sale, one day after, is long-term and reaches the 0, 15, or 20 percent
+bands instead. Identical stock, identical purchase price, and a single day apart produces two completely
+different tax bills.
+</div>
+
+<div class="scenario" data-type="fails">
+<h3>Scenario 4 — the screenwriter without an election</h3>
+
+Devon writes a screenplay and sells it outright for 120,000 dollars, hoping for the same long-term capital
+gain treatment a songwriter would get.
+
+He does not get it, and there is no election to reach for. IRC § 1221(a)(3)(A) excludes a literary
+composition held by its creator from capital asset treatment just as it excludes a musical one — but
+§ 1221(b)(3) names only musical compositions and copyrights in musical works. A screenplay is not music,
+so the whole 120,000 dollars is ordinary income with no way to opt into a better rate.
+</div>
+
+<div class="scenario" data-type="interaction">
+<h3>Scenario 5 — three rates on one year's gains</h3>
 
 Priya, filing single, has taxable income of 180,000 dollars for 2026, including a 60,000-dollar long-term
 gain on shares, a 25,000-dollar gain on a coin collection, and unrecaptured section 1250 gain of 30,000

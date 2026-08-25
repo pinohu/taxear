@@ -20,7 +20,20 @@ forms: []
 related: ["1.4.1.a", "1.1.1.k", "1.4.1.b", "1.1.1.d", "1.4.1.d", "1.4.1.f", "1.4.1.g", "1.5.1.j"]
 changelog:
   - { date: "2026-08-19", summary: "Initial draft. Sets out the IRC § 6654 estimated tax addition — its four installments, the required annual payment and the 110 percent rule, the three exceptions and the annualised income method — the § 6651 failure to file and failure to pay additions with their interaction and the indexed 60-day minimum, and interest under §§ 6601 and 6621 with the 2026 published quarterly rates." }
+  - { date: "2026-08-25", summary: "Added a plain-language summary, glossary marks, two typed scenarios (fails, procedural) alongside the three existing ones now typed boundary/timing/interaction, and a decision diagram of the § 6654 exceptions. The threshold archetype was considered and rejected: the relevant figures bundle several numbers into one string and would garble on the number line." }
+diagram:
+  archetype: "decision"
+  caption: "Does the § 6654 estimated tax addition apply?"
+  tests:
+    - { test: "Tax owed, after withholding, under the de minimis figure?", result: "No addition — § 6654(e)(1)", outcome: "pass" }
+    - { test: "No tax liability at all for a full 12-month preceding year?", result: "No addition — § 6654(e)(2)", outcome: "pass" }
+    - { test: "Paid at least the required annual payment by each due date?", result: "No addition — the safe harbour is met", outcome: "pass" }
+    - { test: "None of the above", result: "Addition runs quarter by quarter, at the § 6621 rate", outcome: "fail" }
 ---
+
+<div class="plain-terms">
+This page explains what happens when someone pays too little tax during the year, or pays late. Three separate charges can apply. Each one is figured a different way, and more than one can hit the same return. It affects anyone who owes tax beyond what came out of their paycheck. That means the self-employed, and people with investment or business income, most of all. It decides whether a taxpayer paid enough through the year. It decides what happens when a return or a payment is late. And it decides how interest keeps adding up on unpaid tax the whole time, no matter the reason for the delay.
+</div>
 
 A taxpayer who pays late can face three different charges at three different rates, and they are
 frequently confused with one another. The estimated tax addition under § 6654 is computed at an interest
@@ -30,7 +43,7 @@ them can apply without the others.
 
 ## The rule
 
-**The estimated tax addition.** Section 6654(a) adds to tax an amount found by applying the § 6621
+**The estimated tax addition.** This is one form of {gloss:underpayment-penalty}. Section 6654(a) adds to tax an amount found by applying the § 6621
 underpayment rate to the amount of the underpayment for the period of the underpayment. It is therefore
 interest in everything but name, and describing it as a fixed monthly percentage is wrong. The
 underpayment is the excess of the required installment over what was paid by its due date (IRC
@@ -64,7 +77,7 @@ installments unless the taxpayer establishes the actual dates. This is the mecha
 fix for a taxpayer who has fallen behind: increasing withholding late in the year repairs earlier
 quarters in a way that a late estimated payment cannot.
 
-**Failure to file and failure to pay.** {fig:ftf_ftp.rates} Both yield to reasonable cause and absence
+**Failure to file and failure to pay.** {fig:ftf_ftp.rates} Both yield to the {gloss:reasonable-cause-defense} and absence
 of wilful neglect. {fig:ftf_ftp.interaction} And {fig:ftf.minimum}.
 
 **Interest.** Section 6601(a) charges interest at the § 6621 underpayment rate from the last date
@@ -106,7 +119,7 @@ addition and interest, but not the 5 percent failure to file addition. Filing la
 the offset in § 6651(c)(1). An extension of time to file is not an extension of time to pay, so it
 prevents the larger addition and neither of the other two.
 
-<div class="scenario">
+<div class="scenario" data-type="boundary">
 <h3>The safe harbour beats the forecast</h3>
 
 Renata's tax was $28,000 last year on adjusted gross income of $162,000. This year she sells a business
@@ -120,7 +133,7 @@ until 15 April. That balance carries interest under § 6601 from the due date of
 estimated tax addition and no failure to pay addition if she pays with a timely return.
 </div>
 
-<div class="scenario">
+<div class="scenario" data-type="timing">
 <h3>Same money, wrong quarters</h3>
 
 Bo owes $12,000 for the year and has no withholding. He pays nothing for the first three installments
@@ -134,7 +147,7 @@ timing. Had the same $12,000 been withheld from wages instead, it would have bee
 four equal parts and there would be no addition at all.
 </div>
 
-<div class="scenario">
+<div class="scenario" data-type="interaction">
 <h3>Late filing and late payment together</h3>
 
 Ivo files four months late and pays the $10,000 balance when he files. He has no reasonable cause.
@@ -145,6 +158,35 @@ so $1,800. Together $2,000, plus interest under § 6601 on the tax from the orig
 filed on time and paid four months late, he would have owed $200 plus interest: the same money, one
 tenth of the addition. Filing on time is the single most valuable thing a taxpayer in this position can
 do.
+</div>
+
+<div class="scenario" data-type="fails">
+<h3>Zero tax, but the wrong kind of zero</h3>
+
+Wren had no income tax liability last year, but that year was a short period — she filed a part-year
+return covering only seven months because she first became a filer partway through the year. This year
+she owes $6,000 with no withholding and no estimated payments.
+
+She reads the no-prior-year-liability exception as a clean escape and is wrong. Section 6654(e)(2)
+requires the preceding taxable year to have been a full twelve months, not merely a year with no tax
+due. A short first year forecloses the exception entirely, regardless of what the liability for it was.
+Unless the de minimis test or the ordinary required-annual-payment safe harbour helps her instead, the
+§ 6654 addition runs on the full underpayment.
+</div>
+
+<div class="scenario" data-type="procedural">
+<h3>Asking for the discretionary waiver</h3>
+
+Delroy retired in June of the year estimated payments were due, at age 64, after decades of having tax
+withheld from a paycheck. His first year without withholding leaves him well short of the required
+annual payment.
+
+Retirement is not a box to check — it is a request the Secretary has to grant. He has to show both
+limbs of § 6654(e)(3)(B): that he retired after turning 62, in the year the payments were due or the one
+before it, and that the underpayment was due to reasonable cause and not willful neglect. He raises it by
+attaching a request and an explanation when he files, rather than assuming the addition will not apply;
+the IRS reviews the facts and decides, and nothing about his age or retirement date grants the waiver on
+its own.
 </div>
 
 <div class="callout trap">
@@ -172,8 +214,8 @@ the tax shown by the § 31 credit before comparing.
 cause reaches the § 6651 additions and, through § 6654(e)(3), the estimated tax addition, but never the
 interest.
 
-**The failure to pay rate moves in both directions.** It falls to 0.25 percent while an installment
-agreement is in effect on a timely filed return, and rises to 1 percent after a notice of intent to levy.
+**The failure to pay rate moves in both directions.** It falls to 0.25 percent while an {gloss:installment-agreement}
+is in effect on a timely filed return, and rises to 1 percent after a notice of intent to levy.
 
 **The prior-year harbour is unavailable if no return was filed last year** or if last year was a short
 period.

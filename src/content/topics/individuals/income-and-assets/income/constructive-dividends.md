@@ -23,7 +23,18 @@ forms: []
 related: ["1.2.1.c", "1.2.1.b", "1.2.1.a", "1.2.1.i", "1.2.1.k", "1.2.1.l"]
 changelog:
   - { date: "2026-08-19", summary: "Initial draft. Sets out the IRC § 301 and § 316 route by which an undeclared benefit becomes a dividend, the Reg. § 1.162-7(b)(1) reasonableness test, and the IRC § 7872(c)(1)(C) treatment of corporation-shareholder loans." }
+  - { date: "2026-08-25", summary: "Added a plain-language summary, glossary marks, and two typed scenarios (fails, procedural) alongside the existing three." }
 ---
+
+<div class="plain-terms">
+A company can give an owner something valuable without ever calling it a dividend. It might pay
+the owner's personal bills. It might sell the owner something cheap. It might lend money on easy
+terms. Tax law looks past the label and asks what really happened. This mostly comes up in small
+companies with just a few owners. It matters most when pay or perks match how much stock each
+owner holds. It rarely touches big public companies or workers earning normal pay for real work.
+The cost is steep if the benefit counts as a dividend. The owner owes tax on it. The company also
+loses its deduction for that same amount. The same money ends up taxed twice.
+</div>
 
 A dividend does not have to be declared. Where a closely held corporation pays a shareholder's personal
 costs, sells them something cheaply, or lends to them on terms no bank would offer, the tax
@@ -101,7 +112,7 @@ applicable federal rate, a repayment schedule that is actually followed, and sec
 warrants it are what distinguish a loan from a distribution. Without them, § 7872 is the better outcome
 — imputed interest — and a finding that there was never a loan is the worse one.
 
-<div class="scenario">
+<div class="scenario" data-type="interaction">
 <h3>Bonuses that tracked the share register</h3>
 
 Two siblings own a consultancy sixty-forty. Each year the company pays out most of its profit as
@@ -119,7 +130,7 @@ profits. Splitting the payments by work actually done, evidenced contemporaneous
 the inference from arising.
 </div>
 
-<div class="scenario">
+<div class="scenario" data-type="baseline">
 <h3>The company car that was never a company car</h3>
 
 Ines owns all of a small corporation. It buys a car titled in the company name, deducts the running
@@ -136,7 +147,7 @@ arrangement been documented as compensation and reported on her wage statement, 
 least have kept a deduction under § 162(a)(1).
 </div>
 
-<div class="scenario">
+<div class="scenario" data-type="boundary">
 <h3>The advance nobody expected back</h3>
 
 Over four years a corporation advances $180,000 to its sole shareholder, recorded as "loan to
@@ -151,6 +162,35 @@ If there was never a genuine expectation of repayment, they are not loans at all
 respect to stock, taxed under IRC § 301(c) as they were made. The difference between those two outcomes
 is decided by evidence the client either created at the time or did not: a note, a stated rate,
 security, and repayments actually made.
+</div>
+
+<div class="scenario" data-type="fails">
+<h3>The equal salaries that survived scrutiny</h3>
+
+Two founders each own half of a small consultancy — a classic {gloss:closely-held-corporation} —
+and each draw a $180,000 salary. An examiner flags the identical pay as a possible constructive
+dividend because it matches their equal stock split.
+
+Reg. § 1.162-7(b)(1) only draws the inference where salaries exceed what is ordinarily paid for
+similar services and correspond to the stockholdings — proportionality alone is not enough.
+Comparable regional salary data for the role, backed by contemporaneous time records showing both
+founders work full time, shows the pay is not excessive. With the excessive-payment element
+missing, the § 162(a)(1) deduction stands and no dividend arises. Equal ownership does not itself
+convert reasonable pay into a distribution.
+</div>
+
+<div class="scenario" data-type="procedural">
+<h3>How a reclassification actually reaches both returns</h3>
+
+An examiner disallows $40,000 of a shareholder-employee's compensation as unreasonable under Reg.
+§ 1.162-7(a) while auditing the corporation's return. No Form 1099-DIV is ever issued for the
+reclassified amount.
+
+The corporate-level adjustment denies the § 162(a)(1) deduction on the corporation's own return; it
+does not by itself put a dividend on the shareholder's return. The shareholder's income arises
+separately — as a distribution under IRC § 301(c)(1) to the extent of {gloss:earnings-and-profits}
+under IRC § 316(a) — and reaches the individual return through a related assessment, not through
+any information return. A missing Form 1099-DIV is not a defense to reporting it.
 </div>
 
 <div class="callout trap">

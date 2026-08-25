@@ -20,7 +20,24 @@ forms: []
 related: ["1.3.2.c", "1.5.1.d", "1.5.1.b", "1.2.1.h", "1.5.1.e", "1.6.2.b"]
 changelog:
   - { date: "2026-08-19", summary: "Initial draft. Sets out the IRC § 529 expansion by Pub. L. 119-21 — the doubled elementary and secondary limit, the widened list of qualifying school expenses effective on enactment, credentialing expenses, and the permanent ABLE rollover — with the § 530 Coverdell limits, the § 127 exclusion made permanent and indexed, and the § 221 deduction with its 2026 phase-out." }
+  - { date: "2026-08-25", summary: "Added a plain-language summary, a timeline diagram of the 2025 Act's staggered effective dates, glossary marks, and a new boundary scenario." }
+diagram:
+  archetype: "timeline"
+  caption: "Same year, two different start dates for the 2025 changes to § 529"
+  events:
+    - { when: "4 July 2025 (enactment)", what: "The wider list of K-12 expenses — curriculum materials, tutoring, therapies — starts applying to distributions made from this date" }
+    - { when: "Taxable years beginning after 31 December 2025", what: "The doubled $20,000 K-12 annual limit takes effect" }
+    - { when: "2027", what: "The § 127 employer student-loan-assistance exclusion is indexed for the first time" }
 ---
+
+<div class="plain-terms">
+This page covers the tax rules for saving and paying for school, mainly through 529 plans, plus
+related help like student loan aid. A new law changed much of this area, and the changes did not all
+start on the same day. So the same account can follow different rules based on the date of a payment.
+This page helps any family that is saving for school, training for a trade, or paying off student
+loans. It does not cover savings plans with no school purpose. It also does not change how tuition
+itself is taxed.
+</div>
 
 Section 529 was reshaped more thoroughly in 2025 than at any point since it was written, and the changes
 did not all start on the same day. One took effect on the date of enactment, one for taxable years
@@ -91,7 +108,7 @@ a different planning object from a parent-owned one.
 covers student loan payments, and the § 221 deduction is available above the line. For a client already
 carrying loans, those two are often worth more than a new savings account.
 
-<div class="scenario">
+<div class="scenario" data-type="timing">
 <h3>Two dates in one year</h3>
 
 The Adekunle family paid $9,000 of private secondary school tuition in August 2025 and another $16,000
@@ -105,7 +122,7 @@ is $20,000 and the materials qualify, so the whole $17,400 is within it. One fam
 different answers separated by a change of taxable year.
 </div>
 
-<div class="scenario">
+<div class="scenario" data-type="baseline">
 <h3>The credential that now qualifies</h3>
 
 Rukayat's daughter leaves school to train as a licensed electrician through a recognised apprenticeship
@@ -119,16 +136,28 @@ account and no qualifying use for it. Note the continuing education limb in part
 expenses incurred long after the training ends.
 </div>
 
-<div class="scenario">
+<div class="scenario" data-type="fails">
 <h3>Double-dipping by accident</h3>
 
 The Marchettis pay $12,000 of university tuition entirely from a § 529 distribution and then claim the
 American Opportunity credit on the same tuition.
 
 The same expenses cannot do both jobs. Had they paid $4,000 of the tuition from a current account and
-the remaining $8,000 from the plan, they would have preserved the full credit — worth $2,500 — while
-still using the account for most of the cost. The account is the more flexible instrument and should be
-used for the expenses the credit cannot reach, not for the first dollars.
+the remaining $8,000 from the plan, they would have preserved the full {gloss:education-credit} — worth
+$2,500 — while still using the account for most of the cost. The account is the more flexible
+instrument and should be used for the expenses the credit cannot reach, not for the first dollars.
+</div>
+
+<div class="scenario" data-type="boundary">
+<h3>The contribution made one day too late</h3>
+
+A grandmother wants to contribute $2,000 to her granddaughter's Coverdell account. The girl turns 18 on
+10 June 2026, and the grandmother's contribution is processed by the custodian on 12 June 2026.
+
+It cannot be accepted. IRC § 530(b)(1)(A)(iii) bars any contribution to a Coverdell account after the
+beneficiary reaches age 18. Two days earlier, the same $2,000 would have been a valid contribution; the
+account simply cannot receive it now. A § 529 account has no such age limit and would have been the
+right vehicle for a contribution this late in the beneficiary's minority.
 </div>
 
 <div class="callout trap">
@@ -148,7 +177,7 @@ and was due to lapse at the end of 2025.
 
 **The § 127 exclusion is indexed for the first time**, from 2027.
 
-**The student loan interest deduction is above the line**, so itemising is irrelevant to it.
+**The student loan interest deduction is an {gloss:above-the-line-deduction}**, so itemising is irrelevant to it.
 
 **Expenses cannot serve two benefits.** A tax-free distribution and an education credit cannot rest on
 the same dollars.

@@ -20,7 +20,25 @@ forms: []
 related: ["1.2.3.b", "1.2.3.c", "1.2.1.a", "1.2.3.d", "1.2.3.a", "1.2.3.k", "1.4.1.a"]
 changelog:
   - { date: "2026-08-19", summary: "Initial draft. Sets out the IRC § 421(a) effect of a qualifying transfer and the § 421(b) treatment of a disqualifying disposition, the § 422 conditions for an incentive stock option with its $100,000 annual limit, the § 56(b)(3) alternative minimum tax adjustment that arises at exercise, the § 423 employee stock purchase plan requirements and the § 423(c) discount compensation rule, the § 1234 character rules for purchasers and grantors, and the § 6039 reporting." }
+  - { date: "2026-08-25", summary: "Added a plain-language summary, a decision diagram of the ISO qualifying-disposition tests, glossary marks, and a boundary scenario." }
+diagram:
+  archetype: "decision"
+  caption: "Does the sale of ISO shares qualify, or is it a disqualifying disposition?"
+  tests:
+    - { test: "Time since grant", result: "At least 2 years", outcome: "pass" }
+    - { test: "Time since exercise (transfer of the shares)", result: "At least 1 year", outcome: "pass" }
+    - { test: "Employment", result: "Continuous from grant until 3 months before exercise", outcome: "pass" }
 ---
+
+<div class="plain-terms">
+This page is about stock options that employers give to workers, plus options that traders buy and
+sell on the market. It decides when tax applies, and how much. One special kind of employee option
+skips regular tax when it is used. But a tougher, separate tax can still hit in that same year. A
+different plan lets workers buy company stock at a discount. Part of that discount is usually still
+taxed as pay, even years later. Options that trade like stocks mostly follow the tax rules of
+whatever they are tied to. This mainly affects workers who get stock options and people who trade
+options directly. It does not affect someone who just buys regular shares.
+</div>
 
 The hardest thing about an incentive stock option is that two tax systems disagree about the same day.
 For regular tax, IRC § 421(a) says nothing happens at exercise. For alternative minimum tax, § 56(b)(3)
@@ -127,32 +145,32 @@ option over stock produces capital gain or loss and an expired option is a sale 
 writer is short term on every closing transaction and on every lapse, whatever the period the position was
 open.
 
-<div class="scenario">
+<div class="scenario" data-type="baseline">
 <h3>Scenario 1 — the exercise with no cash and a tax bill</h3>
 
 Elias exercises incentive stock options in March 2026, buying 10,000 shares at 4 dollars when they are
 worth 31 dollars. He holds them.
 
 For regular tax, IRC § 421(a)(1) means no income at all this year and his basis is 40,000 dollars. For
-alternative minimum tax, § 56(b)(3) disapplies § 421, so the 270,000-dollar bargain element is an
+{gloss:alternative-minimum-tax}, § 56(b)(3) disapplies § 421, so the 270,000-dollar bargain element is an
 adjustment for 2026 and his AMT basis is 310,000 dollars. He has received no cash and may owe substantial
 minimum tax. When he sells, the two computations differ by the same 270,000 dollars, which is how the
 minimum tax credit unwinds.
 </div>
 
-<div class="scenario">
+<div class="scenario" data-type="fails">
 <h3>Scenario 2 — the sale that changed the year</h3>
 
 Fatima exercises an ISO in June 2026 at a 90,000-dollar bargain element and sells the shares in February
 2027, less than a year after the transfer.
 
-The holding period in IRC § 422(a)(1) fails. Under § 421(b), the increase in her income is treated as
-arising in **2027**, the year of the disposition, not 2026 when she exercised — and no chapter 24
-withholding is required on it. The compensation element is ordinary income in 2027, with any further
-movement in the share price a short-term capital gain or loss.
+The {gloss:holding-period} in IRC § 422(a)(1) fails. Under § 421(b), the increase in her income is treated
+as arising in **2027**, the year of the disposition, not 2026 when she exercised — and no chapter 24
+withholding is required on it. The compensation element is {gloss:ordinary-income} in 2027, with any
+further movement in the share price a short-term capital gain or loss.
 </div>
 
-<div class="scenario">
+<div class="scenario" data-type="interaction">
 <h3>Scenario 3 — the ESPP discount that is never capital gain</h3>
 
 Gideon buys shares under an ESPP at 85 percent of the value at grant. The grant-date value was 40 dollars,
@@ -163,6 +181,18 @@ the excess of value at disposition over the price paid (28 dollars) or the exces
 the option price (6 dollars). So 6 dollars a share is ordinary compensation, added to his basis, and the
 remaining 22 dollars a share is long-term capital gain. No withholding was taken on the 6 dollars, so it
 has to be picked up from the § 6039 statement.
+</div>
+
+<div class="scenario" data-type="boundary">
+<h3>Scenario 4 — one day short of two years</h3>
+
+An ISO is granted on 10 March 2024. It is exercised on 1 February 2026 and the shares are sold on 9 March
+2026 — more than a year after the exercise, but shy of two years from the grant.
+
+IRC § 422(a)(1) requires both two years from grant and one year from transfer. The one-year test is met,
+but the sale falls one day short of two years from grant. Missing the earlier deadline by even a single
+day is enough: this is a disqualifying disposition, because both conditions have to be satisfied, not just
+the more generous one.
 </div>
 
 <div class="callout trap">

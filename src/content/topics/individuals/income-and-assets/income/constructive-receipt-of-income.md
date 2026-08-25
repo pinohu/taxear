@@ -18,7 +18,25 @@ forms: []
 related: ["1.2.1.b", "1.2.1.a", "1.2.1.c", "1.2.1.h", "1.2.1.j", "1.2.2.c", "1.5.1.k"]
 changelog:
   - { date: "2026-08-19", summary: "Initial draft. Sets out the Reg. § 1.451-2(a) test and its four stated non-limitations for bank deposits, and the IRC § 409A consequences where a deferral arrangement fails." }
+  - { date: "2026-08-25", summary: "Added a plain-language summary, a decision diagram of the availability/restriction test, glossary marks, and two typed scenarios (timing, fails) alongside the existing three." }
+diagram:
+  archetype: "decision"
+  caption: "Is the money constructively received this year"
+  tests:
+    - { test: "Credited, set apart, or otherwise made available so it could be drawn on at any time, or with notice given (Reg. § 1.451-2(a))?", result: "Constructively received now — taxable this year", outcome: "fail" }
+    - { test: "The only thing standing in the way is the taxpayer's own choice not to collect it?", result: "Still constructively received — a self-imposed restriction is not a restriction", outcome: "fail" }
+    - { test: "A substantial restriction imposed by someone else — the payer, an agreement, a genuine dispute — blocks access?", result: "Not yet received — taxed only when the restriction lifts", outcome: "pass" }
 ---
+
+<div class="plain-terms">
+Constructive receipt is a rule for people who pay tax when they actually get money, not when they
+earn it. It says money counts as received the moment you could take it. This is true even before
+you cash a check or touch the funds. The only exception is when something outside your control
+truly blocks you. Choosing not to collect money that is sitting there waiting for you does not
+delay the tax. This mostly affects people who work for themselves, run a business, or get paid by
+check or bonus rather than a fixed paycheck. It decides which year income is taxed in. That can
+change how much tax is owed, when it is owed, and how later deadlines are counted.
+</div>
 
 A cash-basis taxpayer reports income in the year it is received (IRC § 451(a)), and the whole difficulty
 of that sentence is what counts as receipt. The answer is not physical possession. Income is
@@ -99,7 +117,7 @@ available, and the regulation says none of them counts. Second, where a rate var
 maximum rate is constructively received — so a client who took a lower rate by not giving notice still
 reports the higher figure.
 
-<div class="scenario">
+<div class="scenario" data-type="baseline">
 <h3>The cheque left in the drawer</h3>
 
 Nia's client sends her a $9,400 cheque that arrives on 27 December. She is closing the books for a good
@@ -115,7 +133,7 @@ there would have been a genuine restriction on availability rather than a decisi
 to the bank.
 </div>
 
-<div class="scenario">
+<div class="scenario" data-type="boundary">
 <h3>The certificate with the penalty</h3>
 
 Emeka holds a one-year certificate of deposit paying $2,100 of interest, credited to the account at
@@ -132,7 +150,7 @@ The notice point has a sting. Where the rate payable depends on how much notice 
 accepted a lower rate by giving short notice reports the higher amount.
 </div>
 
-<div class="scenario">
+<div class="scenario" data-type="interaction">
 <h3>Deferring after the fact</h3>
 
 Ravi is told in November that his annual bonus of $60,000 has been approved and will be paid on
@@ -148,6 +166,38 @@ Worse, an arrangement of this kind is a nonqualified deferred compensation plan.
 generally does — IRC § 409A(a)(1)(A)(i) includes the deferred amount and § 409A(a)(1)(B) adds interest
 from the year of first deferral plus a further percentage of the included amount. The tax is the
 employee's, not the employer's. Deferral has to be agreed before the compensation is earned.
+</div>
+
+<div class="scenario" data-type="timing">
+<h3>Same rent cheque, two different Decembers</h3>
+
+A landlord's tenant pays rent by mailing a cheque that historically arrives around the 28th of
+each month. In Year One the cheque arrives, as usual, on 28 December. In Year Two the tenant is
+late and the postmarked cheque does not arrive until 3 January, through no arrangement of the
+landlord's.
+
+{gloss:constructive-receipt} turns on when the money was actually made available, not on the
+landlord's habits. In Year One, the cheque is in hand by 28 December and is Year One income under
+Reg. § 1.451-2(a) regardless of when it is deposited. In Year Two, nothing was available until
+January — there is no constructive receipt in December because the money genuinely was not there
+yet. Identical parties and nearly identical dates produce different tax years because availability,
+not routine, is what the regulation measures.
+</div>
+
+<div class="scenario" data-type="fails">
+<h3>Funds held by a stakeholder pending a real dispute</h3>
+
+A contractor and a client dispute the amount owed on a finished job. By agreement, the client pays
+the disputed amount into a title company's escrow account, to be released only once an arbitrator
+decides how much the contractor is owed. The arbitrator's decision does not come until the
+following year.
+
+The contractor does not have constructive receipt in the year the money is escrowed. Reg.
+§ 1.451-2(a) excuses income from a substantial limitation on the taxpayer's control, and a bona
+fide dispute administered by a neutral third party is exactly that — the contractor cannot draw on
+the funds by demand or by giving notice, because release depends on someone else's decision. The
+amount is not taxed as {gloss:ordinary-income} until the arbitrator rules and the funds are
+released, which is the year the restriction actually lifts.
 </div>
 
 <div class="callout trap">

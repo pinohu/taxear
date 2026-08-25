@@ -22,7 +22,17 @@ forms: []
 related: ["1.5.1.c", "1.4.1.h", "1.2.3.c", "1.5.1.b", "1.5.1.e", "1.5.1.f", "1.6.1.a", "1.6.1.c"]
 changelog:
   - { date: "2026-08-19", summary: "Initial draft. Sets out the IRC § 2010(c)(3) basic exclusion amount as raised by Pub. L. 119-21 § 70106 and re-indexed from 2026, the matching § 2631(c) generation-skipping exemption, the § 2503(b) annual exclusion, the § 2010(c)(4) portability election, the § 1014 versus § 1015 basis contrast, and the § 101(a) and § 2042 treatment of life insurance." }
+  - { date: "2026-08-25", summary: "Added a plain-language summary, glossary marks, and typed scenarios, including a new boundary scenario." }
 ---
+
+<div class="plain-terms">
+This page is about what happens to a person's things and tax bill when they die, and how gifts made
+while they are alive affect that. A large exemption now shields most estates from any estate tax at
+all. So for most families, the real question is no longer how to dodge estate tax. It is how to get
+the best tax result for property passed on to heirs. This page helps anyone planning to leave property
+behind, or thinking about giving assets away early. It does not cover routine income tax planning
+during life, apart from how it touches gifts and inheritance.
+</div>
 
 For most clients the question has stopped being how to avoid estate tax. The exclusion is now large
 enough, and permanent enough, that a family with a comfortable but ordinary estate will owe none — and
@@ -101,20 +111,20 @@ out of the estate without touching the lifetime exclusion, to as many donees as 
 **And do not skip the portability return.** An estate below the filing threshold still has to file to
 make the election, and the deadline is unforgiving in a way the underlying tax is not.
 
-<div class="scenario">
+<div class="scenario" data-type="fails">
 <h3>The gift that cost more than it saved</h3>
 
 Adaora, a widow with an estate of about $4 million, gives her daughter shares worth $300,000 that she
 bought for $40,000, to "reduce the estate".
 
-Her estate was never going to be taxable — it is far below the exclusion — so the gift saves no estate
-tax at all. Under § 1015(a) her daughter takes Adaora's $40,000 basis, so a later sale produces a
+Her estate was never going to be taxable — it is far below the exclusion — so the gift saves no
+{gloss:estate-tax} at all. Under § 1015(a) her daughter takes Adaora's $40,000 basis, so a later sale produces a
 $260,000 gain. Had the shares passed at death, § 1014(a) would have given a basis equal to fair market
 value and the entire appreciation would have escaped income tax. The gift converted a permanent income
 tax saving into a taxable gain, and cost part of the annual exclusion to do it.
 </div>
 
-<div class="scenario">
+<div class="scenario" data-type="baseline">
 <h3>The policy nobody moved</h3>
 
 Bram dies owning a $2 million term life policy on his own life, payable to his children. His other
@@ -128,7 +138,7 @@ would have kept it out. Note what the trust does not do: the proceeds were never
 in the first place.
 </div>
 
-<div class="scenario">
+<div class="scenario" data-type="procedural">
 <h3>The return that had to be filed</h3>
 
 Chidinma dies in 2026 with an estate of $3 million, all passing to her husband. Her executor sees no
@@ -141,15 +151,28 @@ unaffected, but the couple has forfeited a second one. Filing a return purely to
 routine advice and it was not taken.
 </div>
 
+<div class="scenario" data-type="boundary">
+<h3>The estate just over the line</h3>
+
+A single, never-married decedent dies in 2026 with an estate of $15,300,000 — $300,000 above
+{fig:estate.basic_exclusion}.
+
+Only the $300,000 above the line is subject to estate tax; the rest passes free of it, and the assets
+passing to his heirs still get {gloss:step-up-in-basis}. Had his estate been $14,900,000 instead, none
+of it would have been taxable at all. The exclusion works as a threshold, not a cliff — crossing it
+taxes only the excess, not the whole estate.
+</div>
+
 <div class="callout trap">
 
 **The exclusion no longer sunsets.** It was scheduled to fall by roughly half after 2025 and does not.
 Planning built around that expiry should be revisited.
 
-**Portability requires an election on a filed return.** No return, no transferred exclusion, however
-obvious the arithmetic.
+**{gloss:portability} requires an election on a filed return.** No return, no transferred exclusion,
+however obvious the arithmetic.
 
-**Gift basis is carryover; death basis is stepped.** This is the axis most current planning turns on.
+**Gift basis is a {gloss:carryover-basis}; death basis is stepped.** This is the axis most current
+planning turns on.
 
 **A retirement account gets no step-up** — § 1014(c) excludes income in respect of a decedent.
 

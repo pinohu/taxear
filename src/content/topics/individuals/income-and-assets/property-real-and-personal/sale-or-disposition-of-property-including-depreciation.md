@@ -25,7 +25,12 @@ forms: []
 related: ["1.2.3.b", "1.2.3.c", "1.2.1.f", "1.2.3.f", "1.2.3.i", "1.2.3.d", "1.2.3.e", "1.2.3.g", "1.2.3.h", "1.2.3.j", "1.2.3.k", "1.3.1.e"]
 changelog:
   - { date: "2026-08-19", summary: "Initial draft. Sets out the IRC § 1001 computation and the Treas. Reg. § 1.1001-2 treatment of discharged liabilities, the IRC § 1245 recapture formula and its recomputed basis, the IRC § 1250 formula and why § 168(b)(3) leaves it at nothing for modern real property, the 25 percent ceiling on unrecaptured section 1250 gain under § 1(h)(1)(E), the § 1231 netting and five-year lookback, and the § 6050J reporting on Form 1099-A." }
+  - { date: "2026-08-25", summary: "Added a plain-language summary, two typed scenarios (timing, fails), and glossary marks." }
 ---
+
+<div class="plain-terms">
+This page covers the tax bill when you sell or give up business property, especially anything you have written off over time, like a rental building or shop tools. It matters most to landlords, small business owners, and anyone who loses property to the bank. It does not touch a home you just live in. The rule decides two things. First, how much of your gain is taxed like wages instead of at the lower rate for a long-held asset. Second, whether a foreclosure is one event or really two events stacked together. That split can change the tax bill a lot. Often the whole answer turns on one small box checked on the lender's own form.
+</div>
 
 Two things about this topic are widely taught wrongly. The first is that gain on a rental building is
 subject to "§ 1250 recapture" — for anything placed in service after 1986 it almost never is, because
@@ -135,7 +140,7 @@ borrower was not personally liable, there is one computation, the full box 2 bal
 realized, and no discharge income arises at all. A loss on a personal residence is not deductible either
 way, but discharge income is still income.
 
-<div class="scenario">
+<div class="scenario" data-type="baseline">
 <h3>Scenario 1 — the rental building and the phantom recapture</h3>
 
 Priyanka sells a residential rental building in 2026 for 480,000 dollars. She bought it in 2009 for
@@ -149,7 +154,7 @@ Of the 280,000 dollars, 130,000 is unrecaptured section 1250 gain under § 1(h)(
 halves remain **capital** gain and net against any capital losses she has.
 </div>
 
-<div class="scenario">
+<div class="scenario" data-type="interaction">
 <h3>Scenario 2 — the equipment that goes the other way</h3>
 
 Devon sells a machine for 42,000 dollars. It cost 60,000 dollars, he expensed 60,000 dollars under
@@ -162,7 +167,7 @@ recognised notwithstanding any other provision. None of it reaches the § 1231 n
 capital gain.
 </div>
 
-<div class="scenario">
+<div class="scenario" data-type="boundary">
 <h3>Scenario 3 — one checkbox, two answers</h3>
 
 Ronan loses a rental property to foreclosure in 2026. The lender's Form 1099-A shows 310,000 dollars in
@@ -173,6 +178,34 @@ dollars into the amount realized, and he has a 70,000-dollar gain and no dischar
 checked, § 1.1001-2(a)(2) limits the amount realized to the 265,000-dollar fair market value, giving a
 25,000-dollar gain, **and** 45,000 dollars of discharge of indebtedness income, which is tested separately
 under § 108. Same facts, same form, entirely different return.
+</div>
+
+<div class="scenario" data-type="timing">
+<h3>Scenario 4 — a loss that is five years too old</h3>
+
+Meera sells business equipment in 2026 for a net § 1231 gain of $50,000. She also had a net § 1231
+loss of $50,000 back in 2019, never recaptured, and nothing since.
+
+IRC § 1231(c)(1) reaches only non-recaptured net § 1231 losses from the five most recent preceding
+years. Measured from 2026, that window runs 2021 through 2025, and 2019 sits outside it. The full
+$50,000 keeps its § 1231 character and becomes {gloss:long-term-capital-gain}. Had the 2019 loss
+instead arisen in 2022, it would sit inside the five-year window, and every dollar of the 2026 gain
+would be recharacterised as ordinary income instead. The date of an old loss, not just its size,
+decides the answer.
+</div>
+
+<div class="scenario" data-type="fails">
+<h3>Scenario 5 — the gift that escapes recapture entirely</h3>
+
+Owen gives his son a delivery van worth $95,000. Its adjusted basis is $60,000, built entirely from
+{gloss:depreciation} Owen already deducted. Owen expects the gift to trigger $35,000 of ordinary
+recapture income.
+
+It does not. Both {gloss:recapture} sections expressly except a disposition by gift, without regard
+to how much depreciation was claimed or how large the built-in ordinary income is. Owen reports no
+gain and no ordinary income on the transfer. His son takes Owen's {gloss:carryover-basis} in the van
+under the ordinary gift-basis rule, which is why the built-in gain has moved to a different return
+rather than disappeared from the tax system.
 </div>
 
 <div class="callout trap">

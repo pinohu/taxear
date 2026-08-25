@@ -23,7 +23,19 @@ forms: []
 related: ["1.2.1.d", "1.2.1.k", "1.2.1.b", "1.2.1.l", "1.2.1.n"]
 changelog:
   - { date: "2026-08-19", summary: "Initial draft. Sets out the reporting split between Schedule E and Schedule C for royalties, the IRC § 611 to § 613A depletion rules with their two ceilings, and the IRC § 1235 capital gain treatment for a transfer of all substantial rights to a patent." }
+  - { date: "2026-08-25", summary: "Added a plain-language summary, glossary marks, and two typed scenarios (fails, procedural) alongside the existing three." }
 ---
+
+<div class="plain-terms">
+Royalties are payments for the use of something you created or own, like a book, a song, a patent, or
+oil and gas under your land. They always count as taxable income. What this page decides is which form
+they go on, whether you owe extra self-employment tax on them, and how much you may deduct against
+them. A writer or inventor actively working at their craft owes self-employment tax and reports on one
+form. Someone who just collects royalties from an old project, or inherited them, reports on a
+different form with no such tax. Owners of mineral rights get a special deduction tied to income, not
+cost. And selling an entire patent outright is treated as a sale, not a royalty, which changes the tax
+rate that applies.
+</div>
 
 Royalties are enumerated in the definition of gross income (IRC § 61(a)(6)) and are ordinary income.
 The questions that decide real returns are elsewhere: which schedule they belong on, which decides
@@ -107,7 +119,7 @@ For intellectual property, read the transfer document before treating anything a
 calculated. A licence retaining geographic or field-of-use limits generally produces royalties; an
 outright assignment producing identical periodic payments produces long-term capital gain.
 
-<div class="scenario">
+<div class="scenario" data-type="baseline">
 <h3>The same royalties, two answers</h3>
 
 Camille writes and publishes novels, earning $58,000 of royalties. Her sister Odile inherited the rights
@@ -115,8 +127,8 @@ to their late father's textbook and receives $9,000 a year on it.
 
 Camille reports on Schedule C. Publication 525 directs a taxpayer in business as a self-employed writer
 to report royalty income and expenses there, and the receipts are net earnings from self-employment
-under IRC § 1402, so she pays self-employment tax and may deduct her research and travel costs against
-them.
+under IRC § 1402, so she pays {gloss:self-employment-tax} and may deduct her research and travel costs
+against them.
 
 Odile is not in business. Her royalties go on Schedule E and bear no self-employment tax, and her
 expenses — an agent's commission, say — are deductible above the line under IRC § 62(a)(4) as
@@ -124,7 +136,7 @@ attributable to property held for the production of royalties. Identical income,
 different tax, decided by what each of them does rather than by what the property is.
 </div>
 
-<div class="scenario">
+<div class="scenario" data-type="boundary">
 <h3>Depletion after basis is gone</h3>
 
 Idris owns a small non-operating royalty interest in a producing gas well. His basis was exhausted
@@ -141,21 +153,48 @@ Two ceilings still apply. The § 613(a) limit measured against taxable income fr
 the § 199A deduction and without loss carrybacks. Both are computed on his return, not by the operator.
 </div>
 
-<div class="scenario">
+<div class="scenario" data-type="interaction">
 <h3>Periodic payments that were capital gain</h3>
 
 Anouk invents a device and assigns her patent outright to a manufacturer. The agreement pays her a set
 sum for each unit sold, for as long as the manufacturer exploits the patent.
 
-The payments are long-term capital gain. IRC § 1235(a) treats a transfer of all substantial rights to a
-patent by a holder as the sale or exchange of a capital asset held for more than one year, and
-§ 1235(a)(1) and (2) provide that it makes no difference whether the payments are periodic over a
+The payments are {gloss:long-term-capital-gain}. IRC § 1235(a) treats a transfer of all substantial
+rights to a patent by a holder as the sale or exchange of a capital asset held for more than one year,
+and § 1235(a)(1) and (2) provide that it makes no difference whether the payments are periodic over a
 period coterminous with the transferee's use or contingent on productivity, use or disposition. The
 economics look like a royalty and the tax treatment is not.
 
 Change one term and it flips. Had she licensed the patent for one territory only, or reserved a
 field of use, she would not have transferred all substantial rights, and the identical payments would
 be ordinary royalty income — with self-employment tax if she is in the business of inventing.
+</div>
+
+<div class="scenario" data-type="fails">
+<h3>A license that looked like an assignment</h3>
+
+Youssef licenses his patent to a manufacturer for the North American market only, keeping the rights to
+license it separately in Europe and Asia. The manufacturer pays him a fixed amount per unit sold,
+exactly as Anouk's buyer did, and he reports the payments as long-term capital gain under § 1235.
+
+That is wrong. IRC § 1235(a) requires a transfer of all substantial rights to the patent, or an
+undivided interest including a part of all such rights. A license limited to one geographic market
+retains rights Youssef has not transferred, so the transaction fails the test regardless of how the
+payments are calculated. The income is ordinary royalty income — and, if his patent licensing rises to
+a trade or business, it carries self-employment tax as well.
+</div>
+
+<div class="scenario" data-type="procedural">
+<h3>Two 1099s, two schedules</h3>
+
+A small publisher sends both Camille and Odile a Form 1099-MISC reporting royalties in the same box,
+because the payments look identical from its side.
+
+The 1099 does not decide the schedule, any more than a Form 1099-G decides a refund's tax treatment
+elsewhere in this outline. Camille still reports her royalties and expenses on Schedule C because she
+is in business as a writer; Odile still reports hers on Schedule E because she is not. The form
+documents the payment; the taxpayer's own relationship to the property decides where it goes on the
+return.
 </div>
 
 <div class="callout trap">

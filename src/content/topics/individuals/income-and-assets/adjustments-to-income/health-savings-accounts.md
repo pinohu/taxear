@@ -19,7 +19,26 @@ forms: []
 related: ["1.2.4.e", "1.2.4.d", "1.2.4.a", "1.2.4.b", "1.2.1.a", "1.3.1.a"]
 changelog:
   - { date: "2026-08-19", summary: "Initial draft. Sets out the IRC § 223(c)(1) eligibility test, the § 223(b) monthly limitation with the married, Medicare and last-month rules, the § 223(d)(2) definition of qualified medical expenses, the § 223(f) distribution rules and the 20 percent additional tax with its three exceptions, and the § 223(c) amendments made by Pub. L. 119-21 §§ 71306 to 71308." }
+  - { date: "2026-08-25", summary: "Added a plain-language summary, a decision diagram of the monthly eligibility test, glossary marks, and two typed scenarios." }
+diagram:
+  archetype: "decision"
+  caption: "The monthly eligibility test for an HSA contribution — miss any gate and that month contributes nothing"
+  tests:
+    - { test: "High-deductible coverage", result: "Covered by a qualifying HDHP on the first day of the month", outcome: "pass" }
+    - { test: "No other disqualifying coverage", result: "Not also covered by a non-HDHP plan providing the same benefits", outcome: "pass" }
+    - { test: "Not Medicare-entitled", result: "Not yet entitled to Medicare benefits", outcome: "pass" }
+    - { test: "Not another's dependent", result: "No other taxpayer claims a § 151 deduction for this person", outcome: "pass" }
 ---
+
+<div class="plain-terms">
+A health savings account lets you save money for medical costs without paying tax on it. To use one,
+you need a certain kind of health plan with a high deductible. This page explains how much you can put
+in each year, and when you must stop. It matters most to self-employed people, early retirees, and
+anyone who buys this kind of health plan on their own. It does not apply if you have regular
+low-deductible coverage, or if you are on Medicare. The yearly limit builds up one month at a time. It
+is not handed out all at once. Some events can cut off new contributions partway through the year, such
+as picking up other health coverage or becoming eligible for Medicare.
+</div>
 
 The limit is not an annual allowance. It is the sum of **monthly** limitations for the months in which the
 individual was eligible, and eligibility is tested on the first day of each month. Two consequences follow
@@ -118,7 +137,7 @@ Distinguish the two additional taxes carefully: 10 percent for failing the last-
 § 223(b)(8)(B)(i)(II), and 20 percent for a non-medical distribution under § 223(f)(4)(A). They arise from
 different provisions and have different exceptions.
 
-<div class="scenario">
+<div class="scenario" data-type="boundary">
 <h3>Scenario 1 — the backdated enrolment</h3>
 
 Dilnaz turns 68 in 2026, retires in September and claims Social Security. Her Medicare Part A entitlement
@@ -132,7 +151,7 @@ computed at year end on the months that actually qualified. Withdrawing the exce
 income by the extended due date of her return avoids the inclusion under § 223(f)(3)(A).
 </div>
 
-<div class="scenario">
+<div class="scenario" data-type="timing">
 <h3>Scenario 2 — the last-month rule that cost more than it gave</h3>
 
 Emeka becomes covered by a qualifying plan on 1 November 2026 and contributes the full family amount for
@@ -145,7 +164,7 @@ included in his gross income for 2027, and his tax is increased by 10 percent of
 contributed only the two months he actually earned, nothing would have happened.
 </div>
 
-<div class="scenario">
+<div class="scenario" data-type="interaction">
 <h3>Scenario 3 — one couple, one limit</h3>
 
 Farida has family coverage under a qualifying plan; her husband Gerald has self-only coverage under a
@@ -156,6 +175,32 @@ They cannot. IRC § 223(b)(5)(A) treats **both** spouses as having only the fami
 single family limit between them, divided equally unless they agree otherwise (§ 223(b)(5)(B)(ii)). What
 is not divided is the catch-up: § 223(b)(5)(B) computes the shared limit without regard to it, so each of
 them adds their own catch-up amount to their own account. The catch-up cannot be doubled into one account.
+</div>
+
+<div class="scenario" data-type="baseline">
+<h3>Scenario 4 — the full year, done right</h3>
+
+Hassan has self-only coverage under a qualifying high-deductible health plan for all twelve months of
+2026 and is 40 years old. He contributes, through payroll deduction, exactly the annual limit for
+self-only coverage. His employer contributes nothing to the account.
+
+This is the rule working exactly as designed. Twelve eligible months support the full annual figure
+under IRC § 223(b)(1), there is no catch-up because he is under 55, and nothing here is close to a line.
+The deduction reduces his {gloss:adjusted-gross-income} dollar for dollar, whether or not he itemizes —
+worth seeing once, plainly, before the harder cases.
+</div>
+
+<div class="scenario" data-type="fails">
+<h3>Scenario 5 — the dependent with her own coverage</h3>
+
+Ines, age 22, is a full-time student claimed as a {gloss:dependent} on her parents' return. She has her
+own job, her own qualifying high-deductible health plan, and opens an HSA in her own name, contributing
+from her paycheck during the year.
+
+None of it is deductible. IRC § 223(b)(6) denies the deduction to an individual for whom another taxpayer
+is allowed a § 151 deduction for a taxable year beginning in the same calendar year — her own coverage
+and her own eligibility do not matter once someone else can claim her. The fix, if there is one, lies
+with whether her parents can still claim her at all, not with anything on her own return.
 </div>
 
 <div class="callout trap">

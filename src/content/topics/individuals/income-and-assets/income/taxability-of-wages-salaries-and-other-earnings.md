@@ -22,7 +22,17 @@ forms: []
 related: ["1.1.1.f", "1.1.1.g", "1.1.1.k", "1.2.1.i", "1.2.1.b", "1.2.1.c", "1.2.1.d", "1.2.1.e", "1.2.1.f", "1.2.1.g", "1.2.1.j", "1.2.1.l", "1.2.1.o", "1.2.3.h", "1.2.4.c"]
 changelog:
   - { date: "2026-08-19", summary: "Initial draft. Sets out the new IRC § 224 and § 225 deductions for qualified tips and qualified overtime, both first available in 2026 and both terminating after 2028, and the statutory definition of a tip they introduce." }
+  - { date: "2026-08-25", summary: "Added a plain-language summary, glossary marks, and typed scenarios." }
 ---
+
+<div class="plain-terms">
+Money you earn for work is taxable, no matter who pays it, what it is called, or how it arrives. Wages,
+salary, tips, and overtime pay are all treated the same basic way. This affects almost every worker,
+whether they get a regular paycheck or work on their own. Two new tax breaks now let some workers write
+off part of their tips and part of their overtime pay, but only up to a limit, and only for a few years.
+This page explains which pay counts as taxable, who can use the new write-offs, and which pay that looks
+similar does not count.
+</div>
 
 Compensation for services is gross income (IRC § 61(a)(1)), and that sentence settles most of what
 arrives in an intake interview about earnings — whoever paid it, whatever it was called, however it was
@@ -110,7 +120,36 @@ Two administrative points belong in the interview. Both deductions require a soc
 the return, so an ITIN filer has neither. And both are unavailable to a married taxpayer filing
 separately, which can outweigh whatever drove that filing choice.
 
-<div class="scenario">
+<div class="scenario" data-type="baseline">
+<h3>The ordinary paycheck</h3>
+
+Devon is a full-time hourly employee at a warehouse. His pay stub shows regular wages, a small holiday
+bonus, and the value of a company gym membership his employer covers. He has no tips and works no
+overtime that would qualify under the Fair Labor Standards Act.
+
+Every one of those items is gross income under IRC § 61(a)(1), which reaches compensation for services
+"including fees, commissions, fringe benefits, and similar items." There is no {gloss:worker-classification}
+question here — he is a common-law employee, not an {gloss:independent-contractor} — and neither the § 224
+tips deduction nor the § 225 overtime deduction has anything to apply to. His return is the ordinary case
+the base rule was written for.
+</div>
+
+<div class="scenario" data-type="procedural">
+<h3>The tips the employer never put on the W-2</h3>
+
+Renata's employer never separately reported her cash tips the way IRC § 6051(a)(18) requires, even
+though she reported them to him in writing each month as § 6053(a) requires. Her preparer wants to claim
+the § 224 deduction anyway.
+
+The deduction still reaches her, but only through the route the statute actually provides: IRC § 224(a)
+allows the deduction for qualified tips included on the required statements **or** reported by the
+taxpayer on Form 4137. Because the employer's statement is silent, Renata's preparer files Form 4137 to
+report the unreported tips, which both fixes her social security and Medicare wage base and gives the
+deduction something to attach to. Skipping that form over an employer's paperwork failure would cost her
+the deduction, not just delay it.
+</div>
+
+<div class="scenario" data-type="fails">
 <h3>The mandatory service charge</h3>
 
 Alina waits tables. On parties of eight or more the restaurant adds a fixed charge to the bill and
@@ -127,7 +166,7 @@ intake is not what the restaurant calls the money but whether the customer could
 it.
 </div>
 
-<div class="scenario">
+<div class="scenario" data-type="boundary">
 <h3>Overtime that was not overtime</h3>
 
 Marcus is a salaried project manager, exempt from the Fair Labor Standards Act's overtime requirements.
@@ -144,7 +183,7 @@ section 7, so the **excess over her regular rate** — the half, not the time-an
 and her employer must report it separately under IRC § 6051(a)(19).
 </div>
 
-<div class="scenario">
+<div class="scenario" data-type="interaction">
 <h3>The statutory employee</h3>
 
 Devi is a full-time life insurance salesperson working principally for one company. Her statement shows
@@ -156,9 +195,9 @@ social security and Medicare purposes, so those taxes were correctly withheld at
 treated as an employee for income tax withholding, which is why none appears.
 
 The consequence is a hybrid return: her earnings go on a business schedule where her expenses are
-deducted against them, but she computes no self-employment tax on them, because the employment taxes
-were already paid through the employer. Treating her as an ordinary employee would strand her expenses;
-treating her as ordinarily self-employed would double the employment tax.
+deducted against them, but she computes no {gloss:self-employment-tax} on them, because the employment
+taxes were already paid through the employer. Treating her as an ordinary employee would strand her
+expenses; treating her as ordinarily self-employed would double the employment tax.
 </div>
 
 <div class="callout trap">

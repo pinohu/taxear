@@ -21,7 +21,24 @@ forms: []
 related: ["1.5.1.b", "1.2.1.h", "1.5.1.n", "1.5.1.i"]
 changelog:
   - { date: "2026-08-19", summary: "Initial draft. Sets out the IRC § 6041 threshold raised to $2,000 and newly indexed by Pub. L. 119-21 § 70433, the restoration of the conjunctive § 6050W(e) test by § 70432 with its retroactive effective date, the § 6050I cash reporting rule, barter exchange reporting under § 6045(c)(3) and the independence of § 61 taxability from any information return, and the § 6721 penalty amounts for returns required to be filed in 2027." }
+  - { date: "2026-08-25", summary: "Added a plain-language summary, a decision diagram of the Form 1099-K conjunctive test, glossary marks, and three additional typed scenarios (baseline, fails, boundary) alongside the existing three." }
+diagram:
+  archetype: "decision"
+  caption: "Does a Form 1099-K have to be issued?"
+  tests:
+    - { test: "More than $20,000 in payments during the year?", result: "No — no Form 1099-K, no matter how many transactions", outcome: "fail" }
+    - { test: "If yes — more than 200 transactions in the year?", result: "No — the dollar amount alone does not trigger the form", outcome: "fail" }
+    - { test: "Both exceeded", result: "Form 1099-K is required", outcome: "pass" }
 ---
+
+<div class="plain-terms">
+This page is about who must tell the IRS when money changes hands. It also covers a separate
+question: when is a payment actually taxable? It affects anyone who runs a small business, sells
+things online, gets paid in cash, or trades work for work instead of money. A business that pays
+someone enough in a year usually must report it. Cash paid above a set amount gets reported too.
+None of this changes whether the money is taxable. A form is a paperwork rule, not a tax verdict.
+No form does not mean tax-free, and a form does not always mean the whole amount counts.
+</div>
 
 Two thresholds on this topic moved for 2026, and the more important of the two moved backwards in time.
 The much-publicised reduction of the payment settlement reporting threshold was repealed *as if it had
@@ -95,7 +112,19 @@ same car has a reporting obligation, and the failure is not cured by the payment
 value on both sides. Whether a Form 1099-B arrives depends on whether an exchange organisation was
 involved; the tax does not.
 
-<div class="scenario">
+<div class="scenario" data-type="baseline">
+<h3>The straightforward payment above the line</h3>
+
+A landscaping business pays an {gloss:independent-contractor} $3,500 for the year to maintain its
+properties. Nothing else about the payment is unusual.
+
+An information return is required. The payment exceeds the § 6041 threshold, was made in the course of
+a trade or business, and is not covered by any of the other reporting sections that would otherwise
+exclude it. This is the ordinary case the section is written for: a service payment above the line gets
+reported, in full, once.
+</div>
+
+<div class="scenario" data-type="timing">
 <h3>The threshold that never was</h3>
 
 Rosalind sells surplus craft materials through an online marketplace and received about $2,300 across 40
@@ -108,7 +137,17 @@ threshold, so the low threshold never took effect for any year. Whether her sale
 separate question, decided by whether she sold at a gain and whether she was carrying on a business.
 </div>
 
-<div class="scenario">
+<div class="scenario" data-type="boundary">
+<h3>Two hundred transactions, to the transaction</h3>
+
+A payment app processes exactly 200 transactions for a seller in 2026, totaling $25,000.
+
+No Form 1099-K is required. Section 6050W(e) requires more than 200 transactions, and exactly 200 does
+not satisfy "more than." The dollar test is already well past its own threshold, so a single additional
+transaction — not a single additional dollar — is the only thing that would change the answer here.
+</div>
+
+<div class="scenario" data-type="procedural">
 <h3>Two payments, one transaction</h3>
 
 Kofi runs a landscaping business. A customer pays him $7,000 in cash on Monday and $5,000 in cash the
@@ -121,17 +160,29 @@ instalments neither avoids the obligation nor helps the customer; it is the prec
 aggregation language exists to catch.
 </div>
 
-<div class="scenario">
+<div class="scenario" data-type="interaction">
 <h3>Barter with no form at all</h3>
 
 Amaka, an accountant, prepares returns for a dentist in exchange for dental work worth about $1,800. No
 money changes hands and no barter exchange is involved.
 
-Both have gross income of $1,800 under § 61(a) — the fair market value of what each received — and both
-have a deductible business expense of the same amount if the services were business-related. No
+Both have gross income of $1,800 under § 61(a) — the {gloss:fair-market-value} of what each received —
+and both have a deductible business expense of the same amount if the services were business-related. No
 information return is required of either, because neither is a barter exchange within § 6045(c)(3) and
 neither made a payment in the course of a trade or business of the kind § 6041 reaches. The absence of a
 form changes nothing about the tax.
+</div>
+
+<div class="scenario" data-type="fails">
+<h3>The payment that already has its own return</h3>
+
+A small corporation pays a shareholder $2,500 in dividends during 2026 — above the § 6041 threshold. The
+bookkeeper assumes a § 6041 information return is required.
+
+No § 6041 return is required. Dividends are reported under § 6042, and § 6041 excludes payments already
+covered by another specified reporting section to prevent duplicate reporting. The corporation's
+obligation, if any, runs through the dividend reporting rules, not through the general
+information-at-source return — the size of the payment was never the issue.
 </div>
 
 <div class="callout trap">

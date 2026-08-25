@@ -21,7 +21,18 @@ forms: []
 related: ["1.2.3.a", "1.2.3.b", "1.2.3.d", "1.2.3.f", "1.2.2.l", "1.2.3.e", "1.2.3.g", "1.2.3.h", "1.2.3.i", "1.2.3.j", "1.3.1.d", "1.4.1.h", "1.5.1.d", "1.5.1.l", "1.6.1.b"]
 changelog:
   - { date: "2026-08-19", summary: "Initial draft. Sets out the IRC § 1012 cost rule and the § 1016(a)(2) allowed-or-allowable adjustment, the § 1015(a) dual basis on a gift of depreciated property and the § 1015(d)(6) gift tax fraction, the four § 1014(a) measures for property acquired from a decedent with the § 1014(f) consistency cap, § 1014(b)(6) community property and the § 1014(e) one-year deathbed rule, the § 1041 carryover on a spousal transfer, and the § 1223 tacking rules." }
+  - { date: "2026-08-25", summary: "Added a plain-language summary, glossary marks, and typed scenarios." }
 ---
+
+<div class="plain-terms">
+Basis is what you are treated as having paid for something you own, for tax purposes. It matters because
+basis is what gain or loss gets measured against when you sell. This affects anyone who buys, inherits,
+receives as a gift, or sells property such as a house, land, or stock. It usually does not matter until
+the day you sell. Basis is not always simply the price you paid: gifts, inheritances, and transfers
+between spouses each get their own special rules, and basis can even fall over time if the property was
+used in a business. This page works through how basis starts, how it changes, and which rule applies to
+property you did not buy yourself.
+</div>
 
 Basis looks like the simplest topic in the outline and produces more wrong answers than almost any other,
 for two reasons. Gifted property that has fallen in value carries **two** bases at the same time — one for
@@ -124,33 +135,33 @@ Section 1016(a)(2) reduces basis by the allowable amount regardless of what was 
 method was ever adopted the allowable amount is straight line. A missed year is not a saved deduction; it
 is a lost one, and the basis went with it.
 
-<div class="scenario">
+<div class="scenario" data-type="boundary">
 <h3>Scenario 1 — the gift that produces nothing</h3>
 
 Amina's father bought shares for 40,000 dollars. He gives them to her when they are worth 25,000 dollars.
 She later sells them for 32,000 dollars.
 
-Her basis for gain is the carryover 40,000 dollars, so there is no gain. Her basis for loss is the
-25,000-dollar fair market value at the time of the gift, under the exception in IRC § 1015(a), so there is
-no loss either. The sale at 32,000 dollars falls between the two and produces **nothing** — no gain, no
-loss, nothing to report on Schedule D. Had her father sold the shares himself and given her the cash, he
-would have had a 15,000-dollar capital loss.
+Her {gloss:basis} for gain is the {gloss:carryover-basis} of 40,000 dollars, so there is no gain. Her
+basis for loss is the 25,000-dollar {gloss:fair-market-value} at the time of the gift, under the exception
+in IRC § 1015(a), so there is no loss either. The sale at 32,000 dollars falls between the two and
+produces **nothing** — no gain, no loss, nothing to report on Schedule D. Had her father sold the shares
+himself and given her the cash, he would have had a 15,000-dollar capital loss.
 </div>
 
-<div class="scenario">
+<div class="scenario" data-type="baseline">
 <h3>Scenario 2 — one house, two states, two answers</h3>
 
 Bao and his wife bought a house for 200,000 dollars, holding it as community property. She dies when it is
 worth 700,000 dollars, and her half is includible in her gross estate.
 
 Because at least one-half of the whole community interest was includible, IRC § 1014(b)(6) treats **Bao's
-own half** as also acquired from the decedent, so the entire house takes a 700,000-dollar basis. In a
-common law state on otherwise identical facts, only her half would step up: his half would keep its
+own half** as also acquired from the decedent, so the entire house takes a 700,000-dollar {gloss:step-up-in-basis}.
+In a common law state on otherwise identical facts, only her half would step up: his half would keep its
 100,000-dollar cost basis and the total would be 450,000 dollars. If Bao sells for 700,000 dollars, one
 result is a zero gain and the other is a 250,000-dollar gain before any § 121 exclusion.
 </div>
 
-<div class="scenario">
+<div class="scenario" data-type="fails">
 <h3>Scenario 3 — the deathbed transfer that changed nothing</h3>
 
 Corinne owns land with a basis of 30,000 dollars and a value of 500,000 dollars. Eight months before her
@@ -158,8 +169,37 @@ uncle's death she gives it to him; his will leaves it back to her, and she recei
 
 IRC § 1014(e)(1) applies: appreciated property was acquired by the decedent by gift within the one-year
 period ending on the date of death, and it passed from the decedent back to the donor. Her basis is the
-decedent's adjusted basis immediately before death — 30,000 dollars, the carryover she gave him. Had he
-lived thirteen months after the gift, § 1014(a)(1) would have given her a 500,000-dollar basis.
+decedent's adjusted basis immediately before death — 30,000 dollars, the carryover she gave him. The
+step-up she was hoping for does not happen. Had he lived thirteen months after the gift, § 1014(a)(1)
+would have given her a 500,000-dollar basis instead.
+</div>
+
+<div class="scenario" data-type="interaction">
+<h3>Scenario 4 — the gift of equipment nobody depreciated</h3>
+
+Walid's uncle used a piece of equipment in his sole proprietorship for nine years, never claiming
+depreciation on it, and had an original cost of 50,000 dollars. He gives it to Walid, who puts it to work
+in his own business.
+
+Two rules combine here. Section 1015(a) gives Walid the same basis the equipment had in his uncle's
+hands, but that basis is not the untouched 50,000-dollar cost — IRC § 1016(a)(2) already reduced it by
+the depreciation his uncle could have claimed, whether or not he actually did. Walid inherits a carryover
+basis that has already been quietly ground down by someone else's missed deductions, and he has no way to
+get that lost depreciation back.
+</div>
+
+<div class="scenario" data-type="timing">
+<h3>Scenario 5 — the same estate, two valuation dates</h3>
+
+Priya's mother dies owning stock worth 800,000 dollars. Six months later, before distribution, the stock
+has fallen to 650,000 dollars, and the estate's personal representative timely elects the § 2032
+alternate valuation.
+
+Because of the election, IRC § 1014(a)(2) gives Priya a basis of 650,000 dollars, valued at the later
+date, rather than the 800,000-dollar date-of-death figure in § 1014(a)(1). Nothing about the stock or the
+inheritance changed — only the date the estate chose to value it. Had no election been made, or had the
+estate not been eligible to make one, the date of death would have governed and her basis would have been
+150,000 dollars higher.
 </div>
 
 <div class="callout trap">

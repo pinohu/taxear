@@ -18,7 +18,18 @@ forms: []
 related: ["1.4.1.j", "1.2.3.b", "1.2.1.l", "1.4.1.h", "1.4.1.l"]
 changelog:
   - { date: "2026-08-19", summary: "Initial draft. Sets out the IRC § 1411(a) lesser-of computation for individuals and for estates and trusts, the § 1411(b) unindexed thresholds, the § 1411(c) definition of net investment income with its passive activity and trading business limbs, the § 1411(c)(5) and (6) exclusions for qualified plan distributions and self-employment income, the § 1411(d) modified adjusted gross income definition, and the § 1411(e) non-application to nonresident aliens." }
+  - { date: "2026-08-25", summary: "Added a plain-language summary, two typed scenarios (fails, procedural), and glossary marks." }
 ---
+
+<div class="plain-terms">
+This is an extra tax on money made from investments, not from work. Interest, dividends, rent, and
+gains from selling investments are the usual examples. It only applies once a person's total income for
+the year passes a set dollar line. It affects higher earners who also have investment income. Wages and
+normal profit from running a business are never taxed by this rule. But they still count toward that
+income line, and can push other income over it. A taxpayer whose income stays under the line owes
+nothing here, no matter how much came from investments. What it decides is a smaller of two amounts: the
+investment income itself, or the part of total income above the line.
+</div>
 
 This tax is easy to compute and easy to get wrong, because the answer is a *lesser of* and both limbs
 have to be worked out. It is also the clearest example on an individual return of a threshold Congress
@@ -100,7 +111,7 @@ accelerating a deductible expense allocable to investment income, can move a tax
 the other. And because the threshold never moves, a taxpayer who was clear of it two years ago may not
 be now on unchanged real income.
 
-<div class="scenario">
+<div class="scenario" data-type="baseline">
 <h3>The lesser of, and why both limbs matter</h3>
 
 Idris is single with $190,000 of wages and a $22,000 gain on shares. His modified adjusted gross income
@@ -112,7 +123,7 @@ one who ignored the wages entirely would report nothing at all. Note that the wa
 investment income, are what brought him over the threshold in the first place.
 </div>
 
-<div class="scenario">
+<div class="scenario" data-type="interaction">
 <h3>Rental income on both sides of the line</h3>
 
 Two clients each have $40,000 of net rental income and modified adjusted gross income well over the
@@ -126,7 +137,7 @@ derived in the ordinary course of a trade or business not described in paragraph
 income level, opposite answers — decided entirely by § 469.
 </div>
 
-<div class="scenario">
+<div class="scenario" data-type="boundary">
 <h3>The trust that should have distributed</h3>
 
 A complex trust has $60,000 of dividends and interest, distributes nothing, and has adjusted gross
@@ -137,6 +148,35 @@ thousands rather than the hundreds. Almost the whole $60,000 is exposed, and the
 the lesser of undistributed net investment income and that excess. Had the trustee distributed the
 income to a beneficiary whose own modified adjusted gross income was below $200,000, the income would
 have carried out to the beneficiary and borne no net investment income tax at all.
+</div>
+
+<div class="scenario" data-type="fails">
+<h3>Interest that never enters the computation</h3>
+
+A retiree holds $500,000 in municipal bonds paying $18,000 of tax-exempt interest a year, along with
+enough taxable pension income to sit well above the $200,000 threshold. She assumes the municipal bond
+interest is investment income like any other and sets aside 3.8 percent of it for this tax.
+
+It never enters the computation at all. Tax-exempt interest is not gross income under the Code, so it
+never reaches the § 1411(c)(1) definition of net investment income in the first place. Nothing is owed
+on the $18,000, and nothing about her other income changes that. This is unrelated to the
+{gloss:additional-medicare-tax}, which reaches wages and self-employment earnings instead of investment
+income.
+</div>
+
+<div class="scenario" data-type="procedural">
+<h3>Missing it in the first quarterly payment</h3>
+
+A taxpayer sells a long-held investment in February for a $90,000 {gloss:capital-gain}, pushing her
+{gloss:adjusted-gross-income} well above her threshold for the year. She pays her usual estimated tax
+based on wages alone in April, without accounting for this tax at all, and picks it up only when she
+prepares her return the following spring.
+
+Because the tax is added to income tax liability for purposes of the estimated tax rules, the shortfall
+in her first-quarter payment can carry an underpayment addition with it, even though the return itself,
+filed on time with full payment, has no balance-due problem otherwise. Reporting it on Form 8960 the
+following April corrects the liability, but not the addition already accrued for paying late in the
+year.
 </div>
 
 <div class="callout trap">

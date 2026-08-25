@@ -19,7 +19,19 @@ forms: []
 related: ["1.4.1.j", "1.4.1.e", "1.2.1.h", "1.4.1.d", "1.4.1.l"]
 changelog:
   - { date: "2026-08-19", summary: "Initial draft. Sets out the IRC § 6053(a) tip reporting obligation, the § 3102(c)(1) limit on what an employer can collect, the § 6053(b) statement of the excess, the § 3121(a)(12)(B) monthly threshold and the treatment of unreported tips under § 3121(q), the § 6652(b) penalty, and uncollected tax on group-term life insurance for a former employee under § 79." }
+  - { date: "2026-08-25", summary: "Added a plain-language summary, glossary marks, two typed scenarios (baseline, fails) alongside the three existing ones now typed boundary/procedural/timing, and a decision diagram of the reported-versus-collected pathway." }
+diagram:
+  archetype: "decision"
+  caption: "Does uncollected FICA on tips end up on the employee's own return?"
+  tests:
+    - { test: "Were the tips reported to the employer under § 6053(a)?", result: "Not reported — tax computed directly on Form 4137, plus possible § 6652(b) penalty", outcome: "fail" }
+    - { test: "Reported — did the employer have enough non-tip wages to withhold from before the collection window closed?", result: "Enough wages, in time — withheld normally, nothing reaches the return", outcome: "pass" }
+    - { test: "Not enough wages, or too late", result: "Uncollected — box 12 codes A/B, the employee pays it on the return", outcome: "fail" }
 ---
+
+<div class="plain-terms">
+This page covers Social Security and Medicare tax that an employer could not take out of an employee's pay. The worker ends up paying that tax on their own return instead. This mostly affects tipped workers. Now and then it affects a retired worker still covered by an old employer's life insurance plan. It explains how that unpaid tax lands on the return. It explains why this is not the same as self-employment tax. And it explains what happens when a worker never told their employer about tips at all.
+</div>
 
 Employment tax is normally the employer's problem to withhold and the employee's only in the sense that
 it comes out of the pay. Two situations break that: the employer is willing to withhold and physically
@@ -54,8 +66,8 @@ is available, and it is the only defence.
 no longer on a payroll, so there are no wages from which to withhold, and the same mechanism applies —
 the employer reports the uncollected tax and the individual pays it.
 
-**What this is not.** These amounts are not self-employment tax and they are not withheld tax. They are
-the employee's share of FICA on wages, arriving on the return because the ordinary collection machinery
+**What this is not.** These amounts are not {gloss:self-employment-tax} and they are not withheld tax. They are
+the employee's share of {gloss:fica} on wages, arriving on the return because the ordinary collection machinery
 could not reach them.
 
 ## Current figures
@@ -88,7 +100,21 @@ own benefit, which is often more persuasive than the tax argument.
 withholding shown in boxes 4 and 6, they are not deductible, and no part of them corresponds to the
 employer's share — the employer pays its own half separately under § 3111.
 
-<div class="scenario">
+<div class="scenario" data-type="baseline">
+<h3>Reporting on time, nothing left uncollected</h3>
+
+Marcus works the counter at a coffee shop. He receives $410 of cash tips in September and furnishes the
+required written statement to his employer by 10 October, as § 6053(a) requires. His hourly wages for
+the same period, before tips, come to $900.
+
+Because his tips are deemed paid when the statement is furnished, and his employer has more than enough
+non-tip wages under its control to withhold from before the § 3102(c)(1) collection window closes, the
+full employee share of social security and Medicare tax on the tips is withheld from his ordinary
+paycheck. Nothing reaches his Form W-2 in box 12, and nothing reaches his individual return — the
+mechanism worked exactly as designed.
+</div>
+
+<div class="scenario" data-type="boundary">
 <h3>Tips exceeding the wages available</h3>
 
 Nnenna works a restaurant floor. In March she receives $2,400 of cash tips and reports all of them to
@@ -101,7 +127,7 @@ the employer could have collected only that much, and the balance would have app
 codes A and B for her to pay with her return.
 </div>
 
-<div class="scenario">
+<div class="scenario" data-type="procedural">
 <h3>The tips that were never reported</h3>
 
 Dmitri receives roughly $180 a month in cash tips at a bar and never furnishes a statement to his
@@ -115,7 +141,7 @@ that tax unless he can show reasonable cause. The income tax on the tips is due 
 failure is about the employment tax and the penalty.
 </div>
 
-<div class="scenario">
+<div class="scenario" data-type="timing">
 <h3>Insurance after the employment ends</h3>
 
 A retired employee remains covered under her former employer's group-term life policy at a level well
@@ -126,6 +152,21 @@ employer, so there is nothing to withhold from: the employer reports the cost as
 uncollected social security and Medicare tax as codes M and N in box 12. She adds those amounts to her
 tax. Note the difference from a current employee in the same position, where the employer simply
 withholds from the next pay run and nothing reaches the return.
+</div>
+
+<div class="scenario" data-type="fails">
+<h3>Waiting past the window</h3>
+
+A restaurant's payroll system is down for three weeks in October. By the time it is fixed, the employer
+tries to withhold FICA on tips its server reported for September — tips that were deemed paid on 10
+October when she furnished the statement — out of her mid-November paycheck, when plenty of non-tip
+wages are available.
+
+Too late. Section 3102(c)(1) lets the employer collect only up to the tenth day of the month after the
+tips were deemed paid — 10 November here — and the attempted withholding falls outside that window.
+Having enough wages later does not cure a collection attempt made after the deadline; the amount is
+uncollected, reported to her under § 6053(b), and paid on her own return regardless of how much she
+earned in November.
 </div>
 
 <div class="callout trap">

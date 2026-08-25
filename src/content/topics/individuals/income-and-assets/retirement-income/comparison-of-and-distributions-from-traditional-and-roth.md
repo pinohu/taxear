@@ -19,7 +19,19 @@ forms: []
 related: ["1.2.2.a", "1.1.1.g", "1.2.2.g", "1.2.2.e", "1.2.2.c", "1.2.2.d", "1.2.2.h", "1.2.2.j", "1.2.2.k", "1.2.2.l", "1.2.2.m", "1.2.4.b"]
 changelog:
   - { date: "2026-08-19", summary: "Initial draft. Sets out the IRC § 408A(d)(2) two-part qualified distribution test with its 5-taxable-year period, the IRC § 408A(d)(4)(B) ordering rules, the IRC § 408A(c)(3) contribution phase-out and the IRC § 408A(c)(4) exemption from lifetime required distributions." }
+  - { date: "2026-08-25", summary: "Added a plain-language summary, a decision diagram of the qualified-distribution test, two typed scenarios (timing, procedural), and glossary marks." }
+diagram:
+  archetype: "decision"
+  caption: "Is a Roth IRA distribution qualified — and entirely tax-free?"
+  tests:
+    - { test: "A triggering event: age 59½, death, disability, or a qualified first-time homebuyer distribution", result: "First condition met — check the five-year clock", outcome: "pass" }
+    - { test: "Five taxable years have passed since the individual's first Roth contribution to any Roth IRA", result: "Second condition met — qualified, entirely tax-free", outcome: "pass" }
+    - { test: "Either condition is not met", result: "Not qualified — ordering rules apply instead: contributions come out first, tax-free; only later earnings are taxable", outcome: "fail" }
 ---
+
+<div class="plain-terms">
+This page compares two kinds of retirement account: the traditional IRA and the Roth IRA. It covers when you pay tax, who can put money in, and how money coming out is taxed. It matters to anyone saving for retirement and deciding between the two, or already pulling money from a Roth. A traditional IRA often gives you a tax break now and taxes you later. A Roth gives no tax break now, but a proper withdrawal later is tax-free. The rule decides who may put money into each account, and it decides exactly when a Roth withdrawal counts as tax-free. That second point trips people up the most: age alone is never enough. A separate clock, tied to your very first Roth contribution, has to run out too.
+</div>
 
 The two accounts differ on three axes: when tax is paid, who may contribute, and how a distribution is
 taxed. Only the third produces real difficulty, and within it one rule accounts for most errors — the
@@ -108,7 +120,7 @@ Finally, treat the lifetime distribution difference as a planning fact rather th
 traditional IRA forces withdrawals in the owner's lifetime; a Roth does not, which changes what the
 account is for.
 
-<div class="scenario">
+<div class="scenario" data-type="fails">
 <h3>Old enough, and still not qualified</h3>
 
 Hélène is 71. She has never had a Roth, and in year one she converts part of a traditional IRA into a
@@ -123,7 +135,7 @@ So the earnings are includible. Note what is *not* a consequence: at 71 she is w
 age. Failing the five-year test costs her the exclusion, not the penalty.
 </div>
 
-<div class="scenario">
+<div class="scenario" data-type="baseline">
 <h3>Taking back what was put in</h3>
 
 Ravi, aged 34, has contributed $48,000 to his Roth over eleven years and the account is now worth
@@ -140,10 +152,10 @@ apply to. Had he withdrawn $55,000, the $7,000 above his contributions would hav
 includible, and exposed to § 72(t) unless an exception applied.
 </div>
 
-<div class="scenario">
+<div class="scenario" data-type="interaction">
 <h3>Barred from one, allowed the other</h3>
 
-Sofia and Daniel file jointly with adjusted gross income of $265,000. Neither is covered by a plan at
+Sofia and Daniel file jointly with {gloss:adjusted-gross-income} of $265,000. Neither is covered by a plan at
 work. They want to save in IRAs.
 
 They may each deduct a full traditional contribution. The § 219(g) phase-out applies only to an active
@@ -153,6 +165,38 @@ Neither may contribute to a Roth at all. IRC § 408A(c)(3) reduces the Roth cont
 reference to adjusted gross income above the applicable dollar amount, and $265,000 is above the top of
 the joint range. The two provisions are testing different things: one asks whether a *deduction* is
 available, the other whether a *contribution* is.
+</div>
+
+<div class="scenario" data-type="timing">
+<h3>Converting early starts the clock early</h3>
+
+Dana is 52 and has never held a Roth IRA. She converts $40,000 from a traditional IRA to a new Roth
+IRA this year and plans to start withdrawing at 59. A conversion, unlike a {gloss:rollover}, is a
+taxable event in the year it happens — she pays {gloss:ordinary-income} tax on the $40,000 now, in
+exchange for starting the five-year clock early.
+
+The five-taxable-year period begins with the first taxable year for which she made a contribution to
+a Roth IRA, and a conversion counts as such a contribution. Converting now means seven years will
+have passed by 59 — comfortably past both limbs of the qualified distribution test. Had she instead
+waited until 56 to convert, she would be over 59½ at the time of a withdrawal at 59, satisfying the
+age limb, but only three years would have passed since the conversion — failing the five-year limb
+regardless of her age. Converting sooner than the money is actually needed is often the only way to
+control the timing rule.
+</div>
+
+<div class="scenario" data-type="procedural">
+<h3>No form tracks the clock</h3>
+
+Priya opened her first Roth IRA at one brokerage nine years ago with a small contribution, then
+closed that account and opened a new Roth at a different brokerage three years ago, where all her
+money now sits. She assumes her five-year period restarted with the new account and new custodian.
+
+It did not. The period is measured from the first taxable year for which the individual made a
+contribution to a Roth IRA, not from any single account or custodian, and closing the original
+account does not erase that starting year. Priya's five-year period ran out long ago. No form
+documents the original contribution year once that account is closed, so the practitioner's job is
+to ask the client directly and, if needed, reconstruct the year from old statements or prior returns
+before relying on custodian paperwork alone.
 </div>
 
 <div class="callout trap">

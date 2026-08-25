@@ -19,7 +19,18 @@ forms: []
 related: ["1.2.2.c", "1.2.2.e", "1.2.2.f", "1.2.2.a", "1.2.2.h", "1.2.2.k"]
 changelog:
   - { date: "2026-08-19", summary: "Initial draft. Sets out the IRC § 72(p)(1) rule that a plan loan is a distribution, the § 72(p)(2) exception and its four conditions, the Treas. Reg. § 1.72(p)-1 distinction between a deemed distribution and a plan loan offset, the § 402(c)(3)(C) extended rollover window for a qualified offset, and the § 4975(f)(6)(B)(iii) loan exception that leaves owner-employees able to borrow while IRA owners cannot." }
+  - { date: "2026-08-25", summary: "Added a plain-language summary, glossary marks, and two typed scenarios (baseline, interaction) alongside the three existing ones." }
 ---
+
+<div class="plain-terms">
+This is about borrowing money from your own 401(k) or similar work retirement plan. It does not apply
+to an IRA — there is no such thing as a loan from an IRA. By default, tax law treats any loan from a
+plan as if the money had been paid out to you, which means it gets taxed right away. A loan only
+escapes that result if it meets a set of strict conditions on size, term, and repayment. It decides
+what happens when a loan misses one of those conditions, or when someone simply stops paying it back:
+whether the tax hits right away, and whether the unpaid loan can later be moved into an IRA without a
+fresh tax bill.
+</div>
 
 Start from the right default. IRC § 72(p)(1)(A) says that if a participant receives any amount as a loan
 from a qualified employer plan, that amount **is** a distribution. Everything practitioners think of as
@@ -50,9 +61,9 @@ tested when the loan is made (IRC § 72(p)(2)(B)). It must require substantially
 payments at least quarterly (§ 72(p)(2)(C)). And it must not be made through a credit card or any similar
 arrangement (§ 72(p)(2)(D)).
 
-**Plans of one employer are one plan.** The controlled group, common control and affiliated service group
-rules of § 414(b), (c) and (m) apply, and all plans of an employer determined after applying them are
-treated as one plan (IRC § 72(p)(2)(E)).
+**Plans of one employer are one plan.** The {gloss:controlled-group}, common control and affiliated
+service group rules of § 414(b), (c) and (m) apply, and all plans of an employer determined after
+applying them are treated as one plan (IRC § 72(p)(2)(E)).
 
 **Failure produces a deemed distribution, and its timing depends on how it failed.** Where the terms do
 not satisfy the repayment-term or level-amortization requirement, or there is no enforceable agreement,
@@ -121,7 +132,7 @@ The reporting follows the character. A deemed distribution is reported for the y
 taxed then, with the additional tax if applicable. An offset is reported too, but a *qualified* offset may
 be replaced out of other funds until the extended due date of that year's return.
 
-<div class="scenario">
+<div class="scenario" data-type="boundary">
 <h3>Scenario 1 — the second loan and the look-back</h3>
 
 Rosa has a vested 401(k) balance of 300,000 dollars. In March 2025 she borrowed 50,000 dollars and repaid
@@ -135,7 +146,7 @@ Waiting until after March 2026, when the twelve-month look-back no longer reache
 have restored the full amount.
 </div>
 
-<div class="scenario">
+<div class="scenario" data-type="fails">
 <h3>Scenario 2 — missed payments and the quarter-end cure</h3>
 
 Ken, age 44, has a compliant 25,000-dollar plan loan with monthly payments. He misses the payment due
@@ -148,7 +159,7 @@ distribution in 2026, taxable to Ken and subject to the additional tax under § 
 59½. His account balance does not change, he still owes the plan, and A-12 forecloses any rollover.
 </div>
 
-<div class="scenario">
+<div class="scenario" data-type="procedural">
 <h3>Scenario 3 — severance, an offset, and the longer window</h3>
 
 Talia leaves her employer in August 2026 with a 12,000-dollar loan outstanding. The plan requires
@@ -158,9 +169,36 @@ discharge it.
 This is a plan loan offset, not a deemed distribution: her accrued benefit actually fell. Because it
 arose solely from severance from employment and the loan itself met IRC § 72(p)(2), it is a **qualified**
 plan loan offset amount, and § 402(c)(3)(C)(i) gives her until the due date of her 2026 return including
-extensions to contribute 12,000 dollars from other funds to an IRA and treat the offset as rolled over.
-Had the plan instead deemed the loan distributed while she was still employed, no rollover would have
-been available at all.
+extensions to contribute 12,000 dollars from other funds to an IRA and {gloss:rollover} the offset. Had
+the plan instead deemed the loan distributed while she was still employed, no rollover would have been
+available at all.
+</div>
+
+<div class="scenario" data-type="baseline">
+<h3>Scenario 4 — the loan that just works</h3>
+
+Jamal has a vested 401(k) balance of 80,000 dollars and no prior loans. He borrows 30,000 dollars for a
+car, repayable over four years with equal quarterly payments taken directly from his paycheck.
+
+His accrued-benefit limb is the greater of half his balance, 40,000 dollars, or the statutory floor, and
+the capped limb is unreduced at 50,000 dollars — the ceiling is the lesser of the two, 40,000 dollars, so
+his 30,000-dollar loan clears it. The term is under five years, the payments are level and at least
+quarterly, and nothing routes through a credit card. IRC § 72(p)(2)'s four conditions are all met, so
+the loan is exactly what it looks like: borrowed money, not a distribution, with nothing to report.
+</div>
+
+<div class="scenario" data-type="interaction">
+<h3>Scenario 5 — clearing § 72(p) and still failing § 4975</h3>
+
+A small company's 401(k) plan document limits loans, by its written terms, to "officers and owners of
+the company." The owner borrows 20,000 dollars on terms that satisfy every condition of IRC § 72(p)(2) —
+size, five-year term, level quarterly payments, no credit card.
+
+Section 72(p) is satisfied, so there is no deemed distribution. But IRC § 4975(d)(1)(A) exempts a plan
+loan from prohibited-transaction treatment only where it is available to all participants and
+beneficiaries on a reasonably equivalent basis, and a program reserved to officers and owners is not
+that. The loan is a prohibited transaction under § 4975(c)(1)(B) regardless of its clean § 72(p)
+compliance — the two regimes are independent, and passing one does not immunize against the other.
 </div>
 
 <div class="callout trap">
@@ -168,7 +206,8 @@ been available at all.
 **"Owner-employees cannot borrow" is wrong for qualified plans and right for IRAs.** IRC
 § 4975(f)(6)(B)(iii) confines the owner-employee bar on plan loans to a participant or beneficiary of an
 individual retirement plan and to an employer establishing a § 408(c) arrangement. A sole proprietor,
-partner or S corporation shareholder-employee may borrow from the qualified plan on the ordinary terms.
+partner or {gloss:s-corporation} shareholder-employee may borrow from the qualified plan on the ordinary
+terms.
 
 **Two consequences share one name.** A deemed distribution is tax without money; an offset is money
 without a choice. Only the offset can be rolled over, and only some offsets get the extended window.

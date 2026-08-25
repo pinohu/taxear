@@ -23,7 +23,18 @@ forms: []
 related: ["1.1.1.a", "1.2.3.b", "1.3.1.d", "1.4.1.a", "1.5.1.b", "1.5.1.j", "1.5.1.n"]
 changelog:
   - { date: "2026-08-19", summary: "Initial draft. Sets out the seven carryovers an individual return may carry — IRC § 172 net operating losses, § 1212(b) capital losses, § 170(d) charitable contributions, § 469(b) passive losses, § 199A(c)(2) negative qualified business income, § 53 minimum tax credit and the general business credit — with their differing periods, limits and character rules." }
+  - { date: "2026-08-25", summary: "Added a plain-language summary, glossary marks, and a fourth typed scenario (comprehension layer)." }
 ---
+
+<div class="plain-terms">
+A tax return is rarely a clean, stand-alone event. What happens one year can change what a later return
+may claim. A loss from an earlier year can quietly cut what is owed now. This topic covers seven such
+carryovers: things like a business loss, an investment loss, or an unused credit that a taxpayer can
+carry into a future year, or in some cases back to a past one. It affects almost anyone with a loss, a
+large credit, or a business, not just people with unusual finances. It decides how much of an old loss or
+credit is still good, for how long, and under what cap, so nothing gets lost just because nobody wrote it
+down.
+</div>
 
 An individual return can carry seven different things forward, and no two of them behave alike. The
 periods differ, the annual limits differ, some keep their character and some do not, and one of them —
@@ -90,10 +101,11 @@ pools with different rules, and taking them in the wrong order wastes the older 
 **And ask about qualified business income even in a loss year.** The negative amount has to be recorded
 somewhere, because nothing on the return will remind anyone of it next year.
 
-<div class="scenario">
+<div class="scenario" data-type="baseline">
 <h3>The carryover that changed character</h3>
 
-In the prior year a taxpayer realised an $8,500 long-term capital loss and a $3,000 short-term gain. She
+In the prior year a taxpayer realised an $8,500 long-term {gloss:capital-loss} and a $3,000 short-term
+{gloss:capital-gain}. She
 deducted the maximum against ordinary income. This year she has a $1,500 long-term gain and a $3,000
 short-term gain.
 
@@ -104,11 +116,11 @@ leaving $1,000 of long-term loss, which then reduces the $3,000 short-term gain.
 net short-term gain — taxed at ordinary rates, not at the long-term rate the client may be expecting.
 </div>
 
-<div class="scenario">
+<div class="scenario" data-type="interaction">
 <h3>Two pools of losses</h3>
 
-A consultant has a $60,000 net operating loss carryover from 2016 and a $200,000 net operating loss
-carryover from 2022. This year her taxable income before any net operating loss deduction is $150,000.
+A consultant has a $60,000 {gloss:net-operating-loss} carryover from 2016 and a $200,000 net operating
+loss carryover from 2022. This year her taxable income before any net operating loss deduction is $150,000.
 
 The 2016 loss is deductible in full and is taken first under § 172(a)(2)(A) — $60,000, leaving $90,000.
 The 2022 loss is then limited by § 172(a)(2)(B)(ii) to 80 percent of the $150,000 figure, or $120,000,
@@ -117,7 +129,7 @@ loss carries forward indefinitely, and the 2016 pool is exhausted. Taking the 20
 left the 2016 loss to expire unused.
 </div>
 
-<div class="scenario">
+<div class="scenario" data-type="timing">
 <h3>The loss nobody recorded</h3>
 
 A sole proprietor has a $40,000 loss from her only business this year and no other qualified business
@@ -128,6 +140,19 @@ Next year the business makes $70,000. A preparer working only from this year's r
 deduction on $70,000. The correct figure is $30,000, because § 199A(c)(2) treats the $40,000 as a loss
 from a qualified trade or business in the succeeding year. The error is worth $8,000 of deduction and it
 is invisible unless someone wrote the negative amount down.
+</div>
+
+<div class="scenario" data-type="boundary">
+<h3>The separate return that halves the limit</h3>
+
+A married taxpayer filing separately has a $9,000 net capital loss for the year and no capital gains. Her
+spouse, filing his own separate return, has no capital transactions at all this year.
+
+She can deduct only $1,500 of the loss against ordinary income this year, not the $3,000 allowed on a
+joint or single return — the annual limit under § 1211(b) is exactly halved for a separate return. The
+remaining $7,500 carries forward, still subject to the same halved limit each year the couple continues to
+file separately. Filing jointly instead would double what she can absorb in a single year, at the cost of
+making both spouses liable for the return as a whole.
 </div>
 
 <div class="callout trap">

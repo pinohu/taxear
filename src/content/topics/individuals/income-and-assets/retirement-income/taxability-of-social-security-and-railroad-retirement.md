@@ -20,7 +20,19 @@ forms: []
 related: ["1.2.2.c", "1.2.2.h", "1.1.1.f", "1.2.2.b", "1.2.1.b", "1.2.2.m", "1.3.1.g"]
 changelog:
   - { date: "2026-08-19", summary: "Initial draft. Sets out the two-tier IRC § 86(a) computation against the unindexed § 86(c) base and adjusted base amounts, the § 86(b)(2) modified adjusted gross income that adds back tax-exempt interest, the § 86(d) definition reaching tier 1 but not tier 2 railroad retirement, the § 86(e) lump-sum election, and the flat 85 percent rule in § 871(a)(3) for nonresident aliens. Records that the IRC § 151(d)(5)(C) senior deduction added by Pub. L. 119-21 § 70103(a) does not enter this computation." }
+  - { date: "2026-08-25", summary: "Added a plain-language summary, glossary marks, and three typed scenarios (baseline, fails, procedural) alongside the existing three. A threshold diagram of the base-amount figures was evaluated and skipped because those figures bundle single, joint, and zero-for-MFS values into one string." }
 ---
+
+<div class="plain-terms">
+This page is about whether Social Security and railroad retirement checks count as taxable income.
+Often they do not. It matters for retirees, and for people who get railroad retirement or
+disability checks, once they also have a pension, wages, or interest coming in. If total income
+stays low, none of the check is taxed. As other income goes up, part of the check becomes taxable
+too, first up to half of it, then more. This does not change whether checks arrive; it only
+decides how much shows up on the tax return. One trap: a married person who files a separate
+return, but still lived with a spouse for even part of the year, can owe tax on the check at a
+much lower income than most people.
+</div>
 
 Two features of IRC § 86 do most of the work. The first is that the amount pulled into income depends on
 income the taxpayer may not think of as income — tax-exempt interest is added back, and half the benefits
@@ -122,7 +134,7 @@ And a Roth distribution does help, because a qualified distribution is not in gr
 therefore not in adjusted gross income, while an equivalent traditional IRA distribution enters the sum
 in full.
 
-<div class="scenario">
+<div class="scenario" data-type="interaction">
 <h3>Scenario 1 — the tax-exempt bond that is not tax-exempt</h3>
 
 Nadia and Owen file jointly. Their adjusted gross income is 26,000 dollars, they receive 24,000 dollars of
@@ -135,7 +147,7 @@ base amount, and only the first tier would apply. The bonds produced no taxable 
 increased the couple's tax by moving benefits into income.
 </div>
 
-<div class="scenario">
+<div class="scenario" data-type="boundary">
 <h3>Scenario 2 — the separated spouse with a base amount of zero</h3>
 
 Priyanka is married at the close of 2026 and files separately. She lived in the same household as her
@@ -149,7 +161,7 @@ which exceeds both, so the second tier applies and the § 86(a)(2)(B) ceiling co
 single base amount and none of the benefits would have been taxable.
 </div>
 
-<div class="scenario">
+<div class="scenario" data-type="timing">
 <h3>Scenario 3 — the retroactive award</h3>
 
 Quentin's disability claim is finally allowed in 2026, and he receives 46,000 dollars covering 2023
@@ -161,6 +173,50 @@ IRC § 86(e)(1) lets him elect to cap the amount included by reason of the porti
 into account in its own year. Because his income was low in each of those years, most of the retroactive
 portion produces little or no inclusion. His prior returns are not amended and the earlier years' tax is
 not recomputed — the election limits what 2026 includes.
+</div>
+
+<div class="scenario" data-type="baseline">
+<h3>Scenario 4 — the straightforward joint return</h3>
+
+Ravi and Sana file a {gloss:married-filing-jointly} return. Their {gloss:adjusted-gross-income} is 40,000
+dollars from pensions and interest, with no tax-exempt interest, and they receive 20,000 dollars of
+combined social security benefits.
+
+Their sum under IRC § 86(b)(1)(A) is 40,000 plus 10,000 — half the benefits — for 50,000 dollars. That
+exceeds both the joint base amount and the joint adjusted base amount, so the second tier applies. The
+first-tier amount is the lesser of 10,000 (half the benefits) or 9,000 (half the 18,000 excess over the
+base amount), so 9,000. The second tier adds 85 percent of the 6,000 excess over the adjusted base amount
+— 5,100 — to the lesser of that first-tier amount or half the 12,000 difference between the two base
+amounts, which is 6,000, for 11,100. That is below 85 percent of the full 20,000 in benefits, so 11,100
+dollars is includible — a straightforward run through both tiers with no boundary or exemption in play.
+</div>
+
+<div class="scenario" data-type="fails">
+<h3>Scenario 5 — the nonresident alien outside the formula</h3>
+
+A retiree who worked in the United States for years but remains a nonresident alien for tax purposes
+begins receiving 20,000 dollars a year in social security benefits. Her return preparer starts building
+the provisional-income sum out of habit, adding up her other income and half the benefit.
+
+None of that computation applies to her. IRC § 871(a)(3)(A), (B) removes benefits paid to a nonresident
+alien from § 86 entirely and instead includes a flat 85 percent of the benefit — 17,000 dollars — no
+matter what her other income is, what her filing status would be, or where the base and adjusted base
+amounts sit. The two-tier mechanism simply does not engage for her; building it is the wrong tool from the
+first step.
+</div>
+
+<div class="scenario" data-type="procedural">
+<h3>Scenario 6 — two statements, two treatments</h3>
+
+A retired railroad worker receives one combined annuity from the Railroad Retirement Board, covering both
+tier 1 and tier 2 amounts.
+
+The Board reports the two pieces on separate statements: Form RRB-1099 for the tier 1, social-security-
+equivalent portion, which runs through the same § 86 computation as ordinary social security, and Form
+RRB-1099-R for the tier 2 portion, which IRC § 86(d)(1) does not reach at all and which is taxed instead as
+{gloss:ordinary-income} under the annuity rules of § 72. A preparer who enters the combined annuity as one
+figure, or who works from only one of the two forms, misstates both amounts — only the tier 1 figure
+belongs in the § 86 sum, and the tier 2 figure belongs on the pension line.
 </div>
 
 <div class="callout trap">

@@ -23,7 +23,17 @@ forms: []
 related: ["1.5.1.b", "1.5.1.k", "1.2.3.b", "1.2.3.c", "1.5.1.j"]
 changelog:
   - { date: "2026-08-20", summary: "Initial draft. Sets out how character is determined and where it can be influenced — the IRC § 64 and § 65 definitions, the § 1221(a) capital asset exclusions, the § 1222 holding period, the § 1231 hotchpot with its five-year lookback in § 1231(c), depreciation recapture under §§ 1245 and 1250, the rate buckets in § 1(h), and the rewritten § 1202 exclusion with its three-year tiering and $15,000,000 per-issuer limit for stock acquired after 4 July 2025." }
+  - { date: "2026-08-25", summary: "Added a plain-language summary, glossary marks, and typed scenarios, including a new baseline scenario." }
 ---
+
+<div class="plain-terms">
+When you sell something for a profit, the tax rate you pay depends on what you sold, how long you
+held it, and how you used it, not on what you meant when you bought it. Some profit is taxed at the
+lower rates used for long-term investments. Other profit is taxed at the higher rates used for wages.
+This page explains what pushes a sale into one group or the other. It matters to anyone selling
+investments, business property, or equipment, especially once depreciation has been claimed on it. It
+does not apply to wages or interest, which are already fixed as ordinary income.
+</div>
 
 The gap between the top ordinary rate and the top long-term capital gain rate is the largest single
 number in individual planning. Nothing else a preparer can influence moves as much money. But character
@@ -114,7 +124,21 @@ spreads the gain across years and can keep a client inside a lower rate bucket. 
 where the planning happens years earlier: the corporation has to be a qualified small business at
 issuance, and the holding period now has tiers rather than a cliff.
 
-<div class="scenario">
+<div class="scenario" data-type="baseline">
+<h3>The plain long-term sale</h3>
+
+A client bought 500 shares of a public company eight years ago and sells them this year at a $50,000
+gain. Nothing about the sale is unusual — no depreciation was ever claimed on the stock, it was never
+used in a trade or business, and she has held it for years, not days.
+
+This is the default working exactly as intended. The stock is a capital asset under § 1221(a), the
+holding period clears the more-than-one-year line by years rather than days, and the full $50,000 is
+long-term {gloss:capital-gain}, taxed in whichever rate bucket her income lands in. Most sales in
+practice look like this one — the harder questions in this topic are what happens when they don't.
+
+</div>
+
+<div class="scenario" data-type="boundary">
 <h3>The anniversary that was three days away</h3>
 
 A client bought 3,000 shares on 14 March of the prior year and wants to sell on 11 March. The gain is
@@ -127,7 +151,7 @@ percent rate on $88,000. Nothing else in the transaction changes.
 
 </div>
 
-<div class="scenario">
+<div class="scenario" data-type="fails">
 <h3>The equipment sale that was mostly ordinary</h3>
 
 A client sells a piece of machinery for $70,000. She paid $95,000 for it, has taken $60,000 of
@@ -141,7 +165,7 @@ be ordinary and the remaining $15,000 would be § 1231 gain.
 
 </div>
 
-<div class="scenario">
+<div class="scenario" data-type="interaction">
 <h3>The lookback that ate the gain</h3>
 
 A client sold a warehouse at a $40,000 § 1231 loss three years ago, which he deducted in full against
@@ -154,7 +178,7 @@ on the same amount now. The netting rule is a timing benefit across years, not a
 
 </div>
 
-<div class="scenario">
+<div class="scenario" data-type="timing">
 <h3>Four years, and the difference a tier makes</h3>
 
 A client bought stock in a qualified small business in September 2025 — after the applicable date — and
@@ -171,7 +195,7 @@ is inside the per-issuer limit either way.
 
 <div class="callout trap">
 
-**Counting the holding period from the purchase date.** The day of acquisition is excluded. Property
+**Counting the {gloss:holding-period} from the purchase date.** The day of acquisition is excluded. Property
 bought on 5 May first becomes long-term when sold on 6 May of the following year, not 5 May
 (IRC § 1222).
 
@@ -179,7 +203,7 @@ bought on 5 May first becomes long-term when sold on 6 May of the following year
 net loss the same items are ordinary — which is favourable — and the lookback in § 1231(c) claws the
 benefit back against later gains.
 
-**Treating recapture as a rate.** Section 1245 recapture is ordinary income, not a 25 percent bucket.
+**Treating {gloss:recapture} as a rate.** Section 1245 recapture is ordinary income, not a 25 percent bucket.
 The 25 percent figure belongs to unrecaptured § 1250 gain, which is a different thing arising on real
 property (IRC § 1(h)(1)(D)).
 
@@ -194,7 +218,7 @@ income will be confused by a return that shows none.
 are on different regimes — different holding periods, different percentages and different dollar limits
 — and a client with two tranches has both (IRC § 1202(a)(6)).
 
-**Assuming a capital loss is worth its face value.** {fig:capgain.loss_limit} A large capital loss
+**Assuming a {gloss:capital-loss} is worth its face value.** {fig:capgain.loss_limit} A large capital loss
 against ordinary income is released a little at a time.
 
 </div>

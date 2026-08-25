@@ -26,7 +26,26 @@ forms: []
 related: ["1.1.1.e", "1.5.1.i", "1.5.1.h", "1.5.1.f", "1.5.1.k", "1.5.1.n", "1.5.1.o"]
 changelog:
   - { date: "2026-08-20", summary: "Initial draft. Sets out the trade-off between the three statuses available to a married or formerly married client — the IRC § 6013(d)(3) joint and several liability that comes with a joint return, the one-way election in § 6013(b), the § 7703(b) considered-unmarried test that § 2(c) imports for head of household, and the provisions a separate return loses under §§ 21(e)(2), 25A(g)(6), 32(d)(1), 63(c)(6)(A), 86(c)(1)(C), 219(g)(4), 221(e)(2) and 469(i)(5)." }
+  - { date: "2026-08-25", summary: "Added a plain-language summary, a decision diagram for the considered-unmarried route to head of household, glossary marks, and typed scenarios, including a new baseline scenario." }
+diagram:
+  archetype: "decision"
+  caption: "Can a married client claim head of household instead of MFJ or MFS?"
+  tests:
+    - { test: "Filing a separate return, not a joint one?", result: "Required — this route is closed to joint filers", outcome: "pass" }
+    - { test: "A qualifying child lived in the home more than half the year?", result: "Required", outcome: "pass" }
+    - { test: "Taxpayer paid over half the cost of maintaining the home?", result: "Required", outcome: "pass" }
+    - { test: "Spouse not a member of the household for the last 6 months of the year?", result: "All four conditions met — considered unmarried under § 7703(b); head of household is available", outcome: "pass" }
+    - { test: "Any one of the above fails", result: "Married filing jointly or separately only", outcome: "fail" }
 ---
+
+<div class="plain-terms">
+This page compares three tax filing choices for a married couple, and for someone who used to be
+married. Filing jointly usually costs less tax. But it makes each spouse liable for the whole tax
+bill, even for the other spouse's mistakes. Filing separately avoids that risk, but it gives up
+several tax breaks. Head of household is sometimes open to someone who is still legally married but
+has lived apart from their spouse. This page helps a married or separated taxpayer pick the status
+that fits them. It does not apply to someone who has never been married.
+</div>
 
 Almost every married client is better off on a joint return, and the exceptions are not usually about
 tax at all. The joint return is cheaper because the rate brackets and phase-outs are built for it and
@@ -109,7 +128,7 @@ departure fails and the client is married filing separately for the year, with e
 liable. Where a client is separating, or where one spouse has income the other cannot verify, the
 conversation about § 6013(d)(3) belongs in the file, not in an aside.
 
-<div class="scenario">
+<div class="scenario" data-type="interaction">
 <h3>The medical expenses that justified separate returns</h3>
 
 A couple have $128,000 and $31,000 of income. The lower-earning spouse had $19,000 of unreimbursed
@@ -124,11 +143,11 @@ whether it survives the other three depends on numbers that must actually be run
 
 </div>
 
-<div class="scenario">
+<div class="scenario" data-type="boundary">
 <h3>The spouse who moved out in August</h3>
 
 A client separated from her husband on 12 August. Their daughter has lived with her all year and she
-pays every cost of the home. She wants to file as head of household.
+pays every cost of the home. She wants to file as {gloss:head-of-household}.
 
 She cannot. IRC § 7703(b)(3) requires the spouse not to be a member of the household during the last six
 months of the taxable year — from 1 July — and he was there until 12 August. She is married as of 31
@@ -138,7 +157,7 @@ weeks decide it.
 
 </div>
 
-<div class="scenario">
+<div class="scenario" data-type="fails">
 <h3>Separate returns and the social security surprise</h3>
 
 A retired couple, still living together, file separately after a disagreement. Each receives social
@@ -152,7 +171,7 @@ filing jointly, and nothing in the fact pattern warned them.
 
 </div>
 
-<div class="scenario">
+<div class="scenario" data-type="timing">
 <h3>The change of mind that came too late</h3>
 
 A couple filed separately for 2022. In 2026 their new preparer notices that a joint return would have
@@ -163,6 +182,17 @@ for filing that year's return, determined without regard to extensions — that 
 a 2022 return. Had they filed jointly and now wanted separate returns, they could not have switched
 either: § 6013(b) provides only the separate-to-joint direction, and after the due date the joint return
 stands.
+
+</div>
+
+<div class="scenario" data-type="baseline">
+<h3>The straightforward joint return</h3>
+
+David and Priya have combined wages of $150,000 and no complicating facts. They file jointly.
+
+This is {gloss:married-filing-jointly} working as designed: the brackets and credits are built for it,
+and neither spouse has a reason to want out. The trade-off above is real but theoretical here — both
+take on {gloss:joint-and-several-liability} for the whole balance, with nothing to worry about.
 
 </div>
 

@@ -24,7 +24,25 @@ forms: []
 related: ["1.2.1.a", "1.1.1.f", "1.2.1.i", "1.1.1.g", "1.2.1.c", "1.2.1.d", "1.2.1.j", "1.2.1.k", "1.2.1.m", "1.2.2.j", "1.2.3.k"]
 changelog:
   - { date: "2026-08-19", summary: "Initial draft. Sets out the IRC § 103 exclusion and its three exceptions, the IRC § 135 education savings bond exclusion and its separate-return bar, the IRC § 454 election on discount obligations, and the IRC § 7872 below-market loan rules." }
+  - { date: "2026-08-25", summary: "Added a plain-language summary, a decision diagram of the below-market loan gating rules, glossary marks, and two typed scenarios (fails, timing) alongside the existing three." }
+diagram:
+  archetype: "decision"
+  caption: "Does a family loan create imputed interest"
+  tests:
+    - { test: "Aggregate outstanding gift loans between the individuals at or below the de minimis threshold (IRC § 7872(c)(2)(A))?", result: "Below the line — § 7872 does not apply, unless the money bought income-producing assets", outcome: "pass" }
+    - { test: "Loan is directly attributable to buying or carrying income-producing assets?", result: "The de minimis exception is withdrawn even if the loan is small", outcome: "fail" }
+    - { test: "Tax avoidance is a principal purpose of the loan's terms?", result: "Every relief falls away — full imputed interest applies", outcome: "fail" }
 ---
+
+<div class="plain-terms">
+Interest income is taxable by default. The law counts it as income unless a rule says it is not,
+and those rules are narrower than they sound. Interest from city and state bonds is usually
+tax-free, but not always. Even when it is left out, it can still change other numbers on your
+return. Some interest is taxed before you ever see any cash. Some free loans between family
+members can still create taxable interest for the person who lent the money. This affects savers,
+bondholders, and anyone who lends money to family or gets interest from a bank. It decides which
+year interest is taxed in, whether it is taxed at all, and who owes tax on a loan with no interest.
+</div>
 
 Interest is listed in the definition of gross income (IRC § 61(a)(4)), so the interesting questions are
 never whether a payment is interest but whether a section takes it back out, and when it has to be
@@ -110,7 +128,7 @@ produce imputed interest to the lender. And "did anything arrive in your name th
 else" reaches nominee interest, where the payee of record must both report the gross and back out the
 part belonging to the true owner.
 
-<div class="scenario">
+<div class="scenario" data-type="interaction">
 <h3>The tax-free fund and the minimum tax</h3>
 
 Yusuf holds a national municipal bond fund and receives $9,200 of exempt-interest dividends. He has
@@ -127,7 +145,7 @@ non-deductible under IRC § 265(a)(2) — a disallowance that applies whether or
 ultimately due.
 </div>
 
-<div class="scenario">
+<div class="scenario" data-type="baseline">
 <h3>The bond bought between coupons</h3>
 
 Nadine bought a corporate bond in September, paying the seller $470 of interest that had accrued since
@@ -143,7 +161,7 @@ The same discipline applies to a bond bought at a premium, where an election to 
 reduces the interest reported year by year, and again the statement will not have done it for her.
 </div>
 
-<div class="scenario">
+<div class="scenario" data-type="boundary">
 <h3>The interest-free loan to a daughter</h3>
 
 Priya lent her daughter $85,000 interest-free to help with a house deposit. Her daughter has $600 of
@@ -160,6 +178,36 @@ Change one fact and the relief disappears. Had the loan been made so the daughte
 income-producing assets, IRC § 7872(c)(2)(B) would disapply even the de minimis exception; and had tax
 avoidance been a principal purpose of the terms, § 7872(d)(1)(B) would remove the net investment income
 cap entirely.
+</div>
+
+<div class="scenario" data-type="fails">
+<h3>The small loan that didn't qualify for the small-loan exception</h3>
+
+A father lends his adult son $9,000, interest-free, specifically so the son can buy dividend-paying
+stock. The amount is below the de minimis threshold in IRC § 7872(c)(2)(A), and the father assumes
+that settles it.
+
+It does not. IRC § 7872(c)(2)(B) withdraws the de minimis exception wherever the loan is directly
+attributable to the purchase or carrying of income-producing assets, regardless of the dollar
+amount. Because the son used the money specifically to buy income-producing stock, the exception
+fails on its own terms, and {gloss:imputed-interest} — calculated using the
+{gloss:applicable-federal-rate} — applies to the father for the full year the loan is outstanding.
+A loan too small to attract attention on amount alone can still fail on purpose.
+</div>
+
+<div class="scenario" data-type="timing">
+<h3>Same bond, three years, three different numbers</h3>
+
+An investor buys a zero-coupon corporate bond with original issue discount at issuance and holds
+it for its full ten-year term without ever receiving a payment until maturity. The daily portion
+of the discount she must include grows every year as the bond's adjusted issue price rises.
+
+IRC § 1272(a)(1) requires her to include the sum of the daily portions of
+{gloss:original-issue-discount} for each day she holds the bond in every year of ownership, using
+a constant-yield method that produces a larger dollar amount in later years than in earlier ones,
+even though she receives nothing until the bond matures. The amount reported in year one and the
+amount reported in year nine are different numbers on the identical bond, driven entirely by which
+year it is, not by anything she did differently.
 </div>
 
 <div class="callout trap">

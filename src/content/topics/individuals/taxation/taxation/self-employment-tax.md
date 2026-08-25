@@ -20,7 +20,12 @@ forms: []
 related: ["1.2.4.a", "1.4.1.j", "1.4.1.f", "1.4.1.c", "1.4.1.b", "1.4.1.e", "1.4.1.k", "1.5.1.j", "2.1.1.a"]
 changelog:
   - { date: "2026-08-19", summary: "Initial draft. Covers the reporting side of the self-employment tax: who is within IRC § 1402(c), the § 1402(a) exclusions, the qualified joint venture election under § 761(f), the farm and non-farm optional methods with the § 1402(l) limits, the § 1402(e) and (g) exemptions, and why the tax is a chapter 2 liability that most nonrefundable credits cannot reach. The rate structure and the two halvings are on 1.2.4.a." }
+  - { date: "2026-08-25", summary: "Added a plain-language summary, glossary marks, and two typed scenarios (boundary, fails) on the optional-method limits, alongside the three existing ones, now typed procedural, baseline, and interaction." }
 ---
+
+<div class="plain-terms">
+Self-employment tax is the Social Security and Medicare tax paid by someone who works for themselves. An employee splits this tax with an employer. A self-employed person pays all of it alone. This page is for sole owners, most partners, and anyone who earns money from their own trade or business. It is not for investors, landlords, or someone who just sold one thing one time. It explains who counts as self-employed. It explains what income is left out. And it covers two special choices that let a person report more earnings than they truly made, in order to raise Social Security credit or boost certain family tax credits.
+</div>
 
 The rates and the two halvings that make up the self-employment tax computation are set out on the
 adjustments page for this topic — see 1.2.4.a. What this page covers is everything around that
@@ -46,10 +51,10 @@ call it.
 **What falls out of net earnings.** Rentals from real estate and personal property leased with it are
 excluded unless received in the course of a real estate trade or business, along with most interest and
 dividends, gain or loss from the disposition of property that is not stock in trade, and the
-distributive share of a limited partner other than guaranteed payments for services actually rendered
+distributive share of a {gloss:limited-partner} other than {gloss:guaranteed-payment}s for services actually rendered
 (IRC § 1402(a)(1), (2), (3), (13)). The exclusions are set out in full on 1.2.4.a.
 
-**A spouse's share of a qualified joint venture.** Each spouse's share of income or loss from a
+**A spouse's share of a {gloss:qualified-joint-venture}.** Each spouse's share of income or loss from a
 qualified joint venture is taken into account as provided in § 761(f) in determining that spouse's net
 earnings (IRC § 1402(a)(17)). The point of the election is social security coverage: without
 it, an unincorporated business run by both spouses is a partnership, and reporting it all on one
@@ -92,7 +97,7 @@ W-2 and on Schedule SE at the same time.
 
 ## How it works in practice
 
-**Classify the activity first.** Employee, self-employed, or neither. A payment reported on a Form
+**Classify the activity first.** Employee, self-employed, or neither — the same {gloss:worker-classification} question that runs through payroll tax generally. A payment reported on a Form
 1099-NEC is not automatically self-employment income — the question is whether it arose from a trade or
 business carried on by the recipient. An isolated sale by a collector, a one-off prize, or the sale of a
 capital asset is not.
@@ -114,7 +119,7 @@ window.
 it enters the estimated tax computation under § 6654(f)(2) alongside the income tax. A new
 self-employed client with no withholding needs estimated payments covering both.
 
-<div class="scenario">
+<div class="scenario" data-type="procedural">
 <h3>Electing to pay more</h3>
 
 Priya's Schedule C shows net profit of $1,400 for the year. She has two children and no other earned
@@ -129,7 +134,7 @@ more, and it secures quarters of coverage for the year. She may use this method 
 so it is worth tracking which years she has used.
 </div>
 
-<div class="scenario">
+<div class="scenario" data-type="baseline">
 <h3>The minister on a Form W-2</h3>
 
 Reverend Achebe receives a Form W-2 from his congregation with no social security or Medicare withheld,
@@ -143,7 +148,7 @@ not reach a separate consulting practice he ran on the side, and it could not be
 his views changed.
 </div>
 
-<div class="scenario">
+<div class="scenario" data-type="interaction">
 <h3>The credit that does not help</h3>
 
 Ola has $61,000 of net profit from consulting, a large itemized deduction that reduces her taxable
@@ -153,6 +158,31 @@ Her income tax is zero, so the $900 credit is worth nothing — but her self-emp
 by any of it. Section 26(a) limits the credit to her chapter 1 liability, and the self-employment tax
 sits in chapter 2. She owes it in full, and the only things that will pay it are estimated payments,
 withholding from other work, and refundable credits.
+</div>
+
+<div class="scenario" data-type="boundary">
+<h3>Right at the line between the two farm figures</h3>
+
+Gabriel's gross farm income for the year is exactly at the upper limit for the farm optional method, and
+his net farm profits are comfortably above the lower limit.
+
+{fig:se.optional_2025} Because his gross farm income does not exceed the upper limit, the farm optional
+method is still available to him at that boundary — he reports two thirds of gross farm income, capped
+at the fixed reporting ceiling, rather than falling back to the lower-limit figure that applies once
+gross income clears the upper limit but net profits fall short. A dollar more of gross farm income would
+have pushed him into the other branch of the same test.
+</div>
+
+<div class="scenario" data-type="fails">
+<h3>One qualifying year short</h3>
+
+A taxpayer had net earnings from self-employment of at least $400 in only one of the three years before
+the current one, not two.
+
+{fig:se.optional_nonfarm} He fails the "regular basis" test in § 1402(h) on that count alone, so the
+non-farm optional method is closed to him this year no matter how low his current earnings are — the
+farm method carries no such test, but his business is not a farm. Meeting the test in a later year would
+open the method back up, subject to the separate five-year lifetime cap.
 </div>
 
 <div class="callout trap">
