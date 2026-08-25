@@ -9,10 +9,10 @@ is indexed, and only the owner moves a page there (see `docs/VERIFICATION.md`).
 
 | Part | Topics | Stub | Draft | Review | Published | Words |
 |---|---:|---:|---:|---:|---:|---:|
-| 1. Individuals | 120 | 0 | 0 | 0 | 120 | 256,550 |
+| 1. Individuals | 120 | 0 | 0 | 0 | 120 | 262,863 |
 | 2. Businesses | 119 | 0 | 0 | 0 | 119 | 278,308 |
-| 3. Representation, Practices and Procedures | 121 | 0 | 0 | 0 | 121 | 257,674 |
-| **All parts** | **360** | **0** | **0** | **0** | **360** | **792,532** |
+| 3. Representation, Practices and Procedures | 121 | 0 | 0 | 0 | 121 | 258,000 |
+| **All parts** | **360** | **0** | **0** | **0** | **360** | **799,171** |
 
 ## Part 1 — Individuals
 
@@ -22,23 +22,23 @@ is indexed, and only the owner moves a page there (see `docs/VERIFICATION.md`).
 
 | Code | Title | Status | Words | Last reviewed |
 |---|---|---|---:|---|
-| 1.1.1.a | [Use of prior years' returns for comparison, accuracy, and carryovers for current year's return](/individuals/preliminary-work-and-taxpayer-data/preliminary-work-to-prepare-tax-returns/use-of-prior-years-returns-for-comparison-accuracy/) | **published** | 1,927 | 2026-08-19 |
-| 1.1.1.b | [Taxpayer biographical information (e.g., date of birth, marital status, dependents, identity protection PIN, state issued photo ID)](/individuals/preliminary-work-and-taxpayer-data/preliminary-work-to-prepare-tax-returns/taxpayer-biographical-information/) | **published** | 2,158 | 2026-08-19 |
-| 1.1.1.c | [Residency status and/or citizenship (e.g., citizen, visas, green cards, resident alien or non-resident alien, ITIN)](/individuals/preliminary-work-and-taxpayer-data/preliminary-work-to-prepare-tax-returns/residency-status-and-or-citizenship/) | **published** | 2,238 | 2026-08-19 |
-| 1.1.1.d | [Filing requirements and due date](/individuals/preliminary-work-and-taxpayer-data/preliminary-work-to-prepare-tax-returns/filing-requirements-and-due-date/) | **published** | 2,157 | 2026-08-19 |
-| 1.1.1.e | [Taxpayer filing status (e.g., single, head of household)](/individuals/preliminary-work-and-taxpayer-data/preliminary-work-to-prepare-tax-returns/taxpayer-filing-status/) | **published** | 2,468 | 2026-08-19 |
-| 1.1.1.f | [Sources of all worldwide taxable and nontaxable income (e.g., interest, wages, business, sales of property, dividends, rental income, flow- through entities, alimony received)](/individuals/preliminary-work-and-taxpayer-data/preliminary-work-to-prepare-tax-returns/sources-of-all-worldwide-taxable-and-nontaxable-income/) | **published** | 2,431 | 2026-08-19 |
-| 1.1.1.g | [Sources of applicable exclusions and adjustments to gross income (e.g., foreign earned income exclusion, retirement plans, HSAs, alimony paid, health insurance, self-employment tax)](/individuals/preliminary-work-and-taxpayer-data/preliminary-work-to-prepare-tax-returns/sources-of-applicable-exclusions-and-adjustments-to-gross/) | **published** | 2,498 | 2026-08-19 |
-| 1.1.1.h | [Sources of applicable deductions (e.g., itemized, standard)](/individuals/preliminary-work-and-taxpayer-data/preliminary-work-to-prepare-tax-returns/sources-of-applicable-deductions/) | **published** | 2,497 | 2026-08-19 |
-| 1.1.1.i | [Qualifications for dependency](/individuals/preliminary-work-and-taxpayer-data/preliminary-work-to-prepare-tax-returns/qualifications-for-dependency/) | **published** | 2,102 | 2026-08-19 |
-| 1.1.1.j | [Sources of applicable credits (e.g., education, foreign tax, retirement, child and dependent care, credit for other dependents, child tax credit)](/individuals/preliminary-work-and-taxpayer-data/preliminary-work-to-prepare-tax-returns/sources-of-applicable-credits/) | **published** | 2,498 | 2026-08-19 |
-| 1.1.1.k | [Sources of tax payments and refundable credits (e.g., withholding, estimated payments, earned income tax credit)](/individuals/preliminary-work-and-taxpayer-data/preliminary-work-to-prepare-tax-returns/sources-of-tax-payments-and-refundable-credits/) | **published** | 2,493 | 2026-08-19 |
-| 1.1.1.l | [Previous IRS correspondence with taxpayer](/individuals/preliminary-work-and-taxpayer-data/preliminary-work-to-prepare-tax-returns/previous-irs-correspondence-with-taxpayer/) | **published** | 2,313 | 2026-08-19 |
-| 1.1.1.m | [Additional required returns filed and taxes paid (e.g., employment, gifts, international information returns, and other information returns)](/individuals/preliminary-work-and-taxpayer-data/preliminary-work-to-prepare-tax-returns/additional-required-returns-filed-and-taxes-paid/) | **published** | 2,365 | 2026-08-19 |
-| 1.1.1.n | [Special filing requirements (e.g. foreign income, presidentially declared disaster areas, Form 1040-NR, injured spouse)](/individuals/preliminary-work-and-taxpayer-data/preliminary-work-to-prepare-tax-returns/special-filing-requirements/) | **published** | 2,097 | 2026-08-19 |
-| 1.1.1.o | [Foreign account and asset reporting (e.g., FBAR, Form 8938)](/individuals/preliminary-work-and-taxpayer-data/preliminary-work-to-prepare-tax-returns/foreign-account-and-asset-reporting/) | **published** | 2,231 | 2026-08-19 |
-| 1.1.1.p | [Minor children's unearned income (Kiddie tax)](/individuals/preliminary-work-and-taxpayer-data/preliminary-work-to-prepare-tax-returns/minor-children-s-unearned-income-kiddie-tax/) | **published** | 2,001 | 2026-08-19 |
-| 1.1.1.q | [ACA requirements (e.g., health insurance coverage, total household income, advanced premium tax credit, household size)](/individuals/preliminary-work-and-taxpayer-data/preliminary-work-to-prepare-tax-returns/aca-requirements/) | **published** | 1,926 | 2026-08-19 |
+| 1.1.1.a | [Use of prior years' returns for comparison, accuracy, and carryovers for current year's return](/individuals/preliminary-work-and-taxpayer-data/preliminary-work-to-prepare-tax-returns/use-of-prior-years-returns-for-comparison-accuracy/) | **published** | 2,422 | 2026-08-19 |
+| 1.1.1.b | [Taxpayer biographical information (e.g., date of birth, marital status, dependents, identity protection PIN, state issued photo ID)](/individuals/preliminary-work-and-taxpayer-data/preliminary-work-to-prepare-tax-returns/taxpayer-biographical-information/) | **published** | 2,542 | 2026-08-19 |
+| 1.1.1.c | [Residency status and/or citizenship (e.g., citizen, visas, green cards, resident alien or non-resident alien, ITIN)](/individuals/preliminary-work-and-taxpayer-data/preliminary-work-to-prepare-tax-returns/residency-status-and-or-citizenship/) | **published** | 2,674 | 2026-08-19 |
+| 1.1.1.d | [Filing requirements and due date](/individuals/preliminary-work-and-taxpayer-data/preliminary-work-to-prepare-tax-returns/filing-requirements-and-due-date/) | **published** | 2,641 | 2026-08-19 |
+| 1.1.1.e | [Taxpayer filing status (e.g., single, head of household)](/individuals/preliminary-work-and-taxpayer-data/preliminary-work-to-prepare-tax-returns/taxpayer-filing-status/) | **published** | 3,012 | 2026-08-19 |
+| 1.1.1.f | [Sources of all worldwide taxable and nontaxable income (e.g., interest, wages, business, sales of property, dividends, rental income, flow- through entities, alimony received)](/individuals/preliminary-work-and-taxpayer-data/preliminary-work-to-prepare-tax-returns/sources-of-all-worldwide-taxable-and-nontaxable-income/) | **published** | 2,969 | 2026-08-19 |
+| 1.1.1.g | [Sources of applicable exclusions and adjustments to gross income (e.g., foreign earned income exclusion, retirement plans, HSAs, alimony paid, health insurance, self-employment tax)](/individuals/preliminary-work-and-taxpayer-data/preliminary-work-to-prepare-tax-returns/sources-of-applicable-exclusions-and-adjustments-to-gross/) | **published** | 2,827 | 2026-08-19 |
+| 1.1.1.h | [Sources of applicable deductions (e.g., itemized, standard)](/individuals/preliminary-work-and-taxpayer-data/preliminary-work-to-prepare-tax-returns/sources-of-applicable-deductions/) | **published** | 2,877 | 2026-08-19 |
+| 1.1.1.i | [Qualifications for dependency](/individuals/preliminary-work-and-taxpayer-data/preliminary-work-to-prepare-tax-returns/qualifications-for-dependency/) | **published** | 2,451 | 2026-08-19 |
+| 1.1.1.j | [Sources of applicable credits (e.g., education, foreign tax, retirement, child and dependent care, credit for other dependents, child tax credit)](/individuals/preliminary-work-and-taxpayer-data/preliminary-work-to-prepare-tax-returns/sources-of-applicable-credits/) | **published** | 2,724 | 2026-08-19 |
+| 1.1.1.k | [Sources of tax payments and refundable credits (e.g., withholding, estimated payments, earned income tax credit)](/individuals/preliminary-work-and-taxpayer-data/preliminary-work-to-prepare-tax-returns/sources-of-tax-payments-and-refundable-credits/) | **published** | 2,734 | 2026-08-19 |
+| 1.1.1.l | [Previous IRS correspondence with taxpayer](/individuals/preliminary-work-and-taxpayer-data/preliminary-work-to-prepare-tax-returns/previous-irs-correspondence-with-taxpayer/) | **published** | 2,666 | 2026-08-19 |
+| 1.1.1.m | [Additional required returns filed and taxes paid (e.g., employment, gifts, international information returns, and other information returns)](/individuals/preliminary-work-and-taxpayer-data/preliminary-work-to-prepare-tax-returns/additional-required-returns-filed-and-taxes-paid/) | **published** | 2,613 | 2026-08-19 |
+| 1.1.1.n | [Special filing requirements (e.g. foreign income, presidentially declared disaster areas, Form 1040-NR, injured spouse)](/individuals/preliminary-work-and-taxpayer-data/preliminary-work-to-prepare-tax-returns/special-filing-requirements/) | **published** | 2,344 | 2026-08-19 |
+| 1.1.1.o | [Foreign account and asset reporting (e.g., FBAR, Form 8938)](/individuals/preliminary-work-and-taxpayer-data/preliminary-work-to-prepare-tax-returns/foreign-account-and-asset-reporting/) | **published** | 2,503 | 2026-08-19 |
+| 1.1.1.p | [Minor children's unearned income (Kiddie tax)](/individuals/preliminary-work-and-taxpayer-data/preliminary-work-to-prepare-tax-returns/minor-children-s-unearned-income-kiddie-tax/) | **published** | 2,412 | 2026-08-19 |
+| 1.1.1.q | [ACA requirements (e.g., health insurance coverage, total household income, advanced premium tax credit, household size)](/individuals/preliminary-work-and-taxpayer-data/preliminary-work-to-prepare-tax-returns/aca-requirements/) | **published** | 2,302 | 2026-08-19 |
 
 ### 1.2 Income and Assets
 
@@ -547,7 +547,7 @@ is indexed, and only the owner moves a page there (see `docs/VERIFICATION.md`).
 |---|---|---|---:|---|
 | 3.3.1.a | [Extension of time to pay (e.g., Form 1127)](/representation/specific-types-of-representation/representing-a-taxpayer-in-the-collection-process/extension-of-time-to-pay/) | **published** | 1,628 | 2026-08-18 |
 | 3.3.1.b | [Installment agreements](/representation/specific-types-of-representation/representing-a-taxpayer-in-the-collection-process/installment-agreements/) | **published** | 1,484 | 2026-08-18 |
-| 3.3.1.c | [Offer in compromise](/representation/specific-types-of-representation/representing-a-taxpayer-in-the-collection-process/offer-in-compromise/) | **published** | 1,446 | 2026-08-18 |
+| 3.3.1.c | [Offer in compromise](/representation/specific-types-of-representation/representing-a-taxpayer-in-the-collection-process/offer-in-compromise/) | **published** | 1,772 | 2026-08-18 |
 | 3.3.1.d | [Collection appeals program (e.g., denial of installment agreements, discharge applications)](/representation/specific-types-of-representation/representing-a-taxpayer-in-the-collection-process/collection-appeals-program/) | **published** | 1,596 | 2026-08-18 |
 | 3.3.1.e | [Collection appeals and due process (e.g., lien, levy, and Form 12153)](/representation/specific-types-of-representation/representing-a-taxpayer-in-the-collection-process/collection-appeals-and-due-process/) | **published** | 1,518 | 2026-08-18 |
 | 3.3.1.f | [Adjustments to the taxpayer’s account (e.g., abatements and refund offsets)](/representation/specific-types-of-representation/representing-a-taxpayer-in-the-collection-process/adjustments-to-the-taxpayer-s-account/) | **published** | 1,945 | 2026-08-18 |

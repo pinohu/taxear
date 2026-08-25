@@ -19,7 +19,27 @@ forms: []
 related: ["1.1.1.d", "1.1.1.c", "1.1.1.o", "1.1.1.m"]
 changelog:
   - { date: "2026-08-19", summary: "Initial draft." }
+  - { date: "2026-08-25", summary: "Added a plain-language summary, a decision diagram of which special filing rule applies, glossary marks, and a typed scenario." }
+diagram:
+  archetype: "decision"
+  caption: "Which special filing rule applies to this client?"
+  tests:
+    - { test: "Nonresident alien, no wages subject to withholding", result: "Return due in June, not April", outcome: "pass" }
+    - { test: "Serving in a combat zone or contingency operation", result: "Filing, payment, and collection periods stop running", outcome: "pass" }
+    - { test: "In a federally declared disaster area", result: "Deadline postponed automatically, and further on IRS notice", outcome: "pass" }
+    - { test: "Living and working abroad", result: "Automatic extension to both file and pay", outcome: "pass" }
+    - { test: "Joint refund taken for a spouse's separate debt", result: "Injured spouse claim allocates the refund", outcome: "pass" }
 ---
+
+<div class="plain-terms">
+Most people file their tax return by the same date every year. This page covers the people who don't.
+It affects a return filed by someone living outside the country, a member of the military serving in a
+combat zone, someone hit by a declared disaster, and a spouse whose refund was taken to pay someone
+else's debt. It does not affect an ordinary taxpayer with no unusual facts. Each situation moves the
+deadline, or the money, in a different way and for a different reason. Some of these breaks happen
+automatically, with no form to fill out. Others require the taxpayer to make a claim. What this page
+decides is which special rule applies to a given client, and what that rule actually changes.
+</div>
 
 ## The rule
 
@@ -54,7 +74,7 @@ tax home and abode are in a real and substantial sense outside the United States
 to one in military or naval service on duty outside them. No application is required, and the ordinary
 six-month extension runs **concurrently** with it rather than after it.
 
-**The injured spouse is a refund allocation, not a filing extension.** Where a joint refund is applied
+**The {gloss:injured-spouse} is a refund allocation, not a filing extension.** Where a joint refund is applied
 against one spouse's separate obligation, the other spouse may claim their share. The offset priority
 matters: under IRC § 6402(c), {fig:offset.support_priority}.
 
@@ -79,7 +99,7 @@ arrive in the amount expected.
 
 **Combat zone relief is broader than the filing date.** Because § 7508(a) disregards the period for
 determining whether an act was performed in time, it reaches the filing of returns, the payment of tax,
-the filing of a claim for refund, and the assessment and collection periods — and it suspends interest
+the filing of a {gloss:claim-for-refund}, and the {gloss:assessment} and collection periods — and it suspends interest
 and additions to tax for the same span. A client returning from a deployment does not need an extension
 request; the time simply did not run.
 
@@ -104,7 +124,7 @@ than a mistake, and § 6402 sets the order in which reductions are applied, with
 past-due support taking priority over other reductions allowed by law. The client will have received a
 notice from the offsetting agency, which is the document to ask for.
 
-<div class="scenario">
+<div class="scenario" data-type="baseline">
 <h3>The nonresident alien with no withholding</h3>
 
 Aurélien Batista-Nkemdirim is a nonresident alien with United States rental income and no wages. His
@@ -118,7 +138,21 @@ what he received and not only about who he is. Filing in April is not wrong — 
 required, and knowing the real date matters when the records arrive late.
 </div>
 
-<div class="scenario">
+<div class="scenario" data-type="fails">
+<h3>The nonresident alien who assumed the later date</h3>
+
+Consultant Yves Okafor-Lindqvist is a nonresident alien employed by a United States company, with wages
+subject to ordinary chapter 24 withholding. He read that nonresident aliens file in June and diarises
+15 June for his own return.
+
+He is not entitled to the later date. Section 6072(c) reserves 15 June for a nonresident alien
+individual whose wages are **not** subject to chapter 24 withholding — his are, so he is on the
+ordinary April date like any other individual filer. The category turns on the withholding, not on
+being a nonresident alien as such, and missing April because a rule meant for a different taxpayer
+seemed to apply produces an ordinary failure-to-file exposure rather than any relief.
+</div>
+
+<div class="scenario" data-type="procedural">
 <h3>The deployment that stopped the clock</h3>
 
 Sergeant Perpetua Halvorsen-Okonkwo served in a designated combat zone from March through November and
@@ -133,7 +167,7 @@ the postponed date correctly by adding the three components in order, and to not
 postponement applies to the assessment and collection periods, which cuts both ways.
 </div>
 
-<div class="scenario">
+<div class="scenario" data-type="interaction">
 <h3>The refund that arrived short</h3>
 
 Cassius and Ingrid Fairweather-Adeyemi filed jointly expecting a substantial refund. What arrived was a

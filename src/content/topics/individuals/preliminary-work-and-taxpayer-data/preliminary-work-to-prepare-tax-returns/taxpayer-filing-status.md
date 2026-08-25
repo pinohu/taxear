@@ -21,7 +21,26 @@ forms: []
 related: ["1.1.1.d", "1.1.1.i", "1.5.1.m", "1.1.1.c", "1.1.1.a", "1.1.1.b", "1.1.1.h", "1.3.2.a", "1.5.1.h", "1.5.1.i", "1.5.1.f"]
 changelog:
   - { date: "2026-08-19", summary: "Initial draft." }
+  - { date: "2026-08-25", summary: "Added a plain-language summary, a decision diagram for which filing status applies, glossary marks, and typed scenarios." }
+diagram:
+  archetype: "decision"
+  caption: "Which filing status applies — worked in order, top to bottom"
+  tests:
+    - { test: "Spouse died in one of the two years before this one, dependent child at home, not remarried?", result: "Qualifying surviving spouse", outcome: "pass" }
+    - { test: "Married at the close of the year, and not treated as unmarried under the living-apart rule?", result: "Married filing jointly or separately", outcome: "pass" }
+    - { test: "Unmarried (or treated as unmarried), and paid over half the cost of a home for a qualifying child, dependent, or dependent parent?", result: "Head of household", outcome: "pass" }
+    - { test: "None of the above apply", result: "Single", outcome: "fail" }
 ---
+
+<div class="plain-terms">
+Filing status is a label on your tax return that describes your household — single, married, or
+head of household. It sets your tax bracket and your standard deduction. Every taxpayer picks one,
+so this affects everyone who files, married or not. It does not change how much income you report.
+It only changes the rate and deduction that apply to it. It does not depend on how a couple feels
+about their marriage. It depends on plain facts: your marriage and your household on the last day of
+the year. This page decides which status fits when the answer is not obvious. That includes a
+widowed parent, a couple living apart, or someone who helps support a parent who lives elsewhere.
+</div>
 
 ## The rule
 
@@ -109,7 +128,7 @@ status — head of household and single, or qualifying surviving spouse and head
 statuses carry different standard deductions and different rate brackets, and the better answer is
 not always the one with the larger deduction once credits and phase-outs are applied. Run both.
 
-<div class="scenario">
+<div class="scenario" data-type="boundary">
 <h3>The parent who lives elsewhere</h3>
 
 Rosalind Okonkwo-Vance is unmarried and supports her mother, who lives in her own flat two towns
@@ -117,16 +136,16 @@ away. Rosalind pays about seventy per cent of the flat's costs and claims her mo
 Her preparer files her as single, reasoning that head of household requires the qualifying person to
 live with the taxpayer.
 
-That is right for every qualifying person except a parent. Section 2(b)(1)(B) allows head of
-household status where the taxpayer **maintains a household which constitutes for the taxable year
-the principal place of abode of the father or mother**, if the taxpayer is entitled to a deduction
-for that parent. Nothing in that limb requires the parent to live in the taxpayer's home. Rosalind
+That is right for every qualifying person except a parent. Section 2(b)(1)(B) allows
+{gloss:head-of-household} status where the taxpayer **maintains a household which constitutes for
+the taxable year the principal place of abode of the father or mother**, if the taxpayer is entitled
+to a deduction for that parent. Nothing in that limb requires the parent to live in the taxpayer's home. Rosalind
 maintains the household — she pays over half its cost — and it is her mother's principal place of
 abode. She qualifies, and the difference between the single and head of household standard deduction
 is several thousand dollars before the rate brackets are even considered.
 </div>
 
-<div class="scenario">
+<div class="scenario" data-type="timing">
 <h3>Two years, then not</h3>
 
 Ambrose Fitzwilliam-Nkemdirim's wife died in March 2023. He has a dependent daughter living with him
@@ -140,7 +159,7 @@ for the first of the two years. From 2026 he files as head of household if his d
 qualifies him, and as single if she does not.
 </div>
 
-<div class="scenario">
+<div class="scenario" data-type="fails">
 <h3>The spouse who moved out in August</h3>
 
 Perpetua Vasquez-Haraldsen separated from her husband and he moved out on 12 August. She has their
@@ -154,6 +173,51 @@ not legally separated under a decree, so her choices are married filing jointly,
 married filing separately. Next year, if he remains out of the household, head of household is
 available. Where a client's separation is in progress and the date is still movable, this is a rule
 worth mentioning early — it is one of the few in this area where a few weeks changes the answer.
+</div>
+
+<div class="scenario" data-type="baseline">
+<h3>The straightforward joint return</h3>
+
+Deshawn and Marguerite married in 2019 and have lived together every year since. Both are U.S.
+citizens, both use the calendar year, and Marguerite has almost no income of her own. For 2026 they
+report Deshawn's wages and a small amount of Marguerite's interest income on one return.
+
+This is {gloss:married-filing-jointly} working exactly as designed. IRC § 6013(a) lets spouses make
+a single return even where one has neither gross income nor deductions, and none of the three
+restrictions in that subsection apply — neither is a nonresident alien, they share the same taxable
+year, and neither has died. Their incomes combine, the tax is computed on the total, and that
+combination is the ordinary case the status exists for.
+</div>
+
+<div class="scenario" data-type="interaction">
+<h3>The nonresident alien spouse, two different answers</h3>
+
+Odalys is a U.S. citizen married to a nonresident alien who lived abroad all year and never elected
+to be treated as a resident. Odalys maintains the home in the United States for their dependent
+child and pays all of its costs.
+
+Two rules collide here, and they point in opposite directions. IRC § 6013(a)(1) bars a joint return
+whenever either spouse is a nonresident alien at any time during the year, so Odalys cannot file
+jointly with her husband. But § 2(b)(2)(B) treats a taxpayer as **not married** for head of household
+purposes in that same situation. The nonresident alien spouse blocks the option Odalys might have
+wanted and opens the one she needs: with a qualifying child in the home and over half the household
+costs paid, she files as head of household rather than being pushed into married filing separately.
+</div>
+
+<div class="scenario" data-type="procedural">
+<h3>Who signs for a spouse who died before filing</h3>
+
+Wendell dies in November 2026 before filing his 2025 return. No executor or administrator has been
+appointed for his estate, and no return has yet been made on his behalf. His widow wants to file a
+joint return for 2025.
+
+IRC § 6013(a)(3) ordinarily has the executor or administrator make the joint return for a deceased
+spouse. But where no return has been made for the decedent and no executor or administrator is
+appointed before the last day prescribed for the survivor's own return, the surviving spouse may make
+the joint return for both. Wendell's widow can sign for both of them on these facts — though if an
+executor is later appointed and disagrees, the executor's return for Wendell controls instead. The
+procedural lesson: confirm whether, and by when, an executor exists before assuming the surviving
+spouse can simply sign.
 </div>
 
 <div class="callout trap">

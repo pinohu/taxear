@@ -22,7 +22,26 @@ forms: []
 related: ["1.1.1.e", "1.1.1.a", "1.1.1.c", "1.1.1.p", "1.1.1.q", "1.1.1.o", "1.1.1.n", "1.1.1.g", "1.1.1.k", "1.1.1.m", "1.4.1.c"]
 changelog:
   - { date: "2026-08-19", summary: "Initial draft against Rev. Proc. 2025-32 and IRC § 151(d)(5) as amended by Pub. L. 119-21. Records that the zero personal exemption is now permanent and that a new senior deduction applies through 2028." }
+  - { date: "2026-08-25", summary: "Added a plain-language summary, a timeline diagram of the filing due dates and automatic extensions, glossary marks, and typed scenarios." }
+diagram:
+  archetype: "timeline"
+  caption: "When individual and estate returns are due, and how the automatic extensions move the date"
+  events:
+    - { when: "April 15", what: "Ordinary due date for a calendar-year individual return" }
+    - { when: "June 15", what: "Automatic 2-month extension for a taxpayer whose tax home and abode are abroad — no application needed" }
+    - { when: "October 15", what: "Automatic 6-month extension on a timely Form 4868 — time to file only, not to pay" }
+    - { when: "4th month, day 15", what: "Fiscal-year estate or trust (Form 1041), counted from the close of its own year" }
 ---
+
+<div class="plain-terms">
+Every tax return starts with two questions: must you file, and by when. You must file once your
+income goes above a certain amount. That amount depends on your filing status, like single or
+married. This affects nearly every adult who works. It does not affect someone whose income stays
+under that amount — though filing might still bring them a refund. Even a small amount of work for
+yourself can create a duty to file, because it triggers a different tax. Most people file by
+mid-April. Estates and some taxpayers who live abroad follow different dates. This page decides two
+things: whether you must file at all, and which date your return is due.
+</div>
 
 ## The rule
 
@@ -109,36 +128,36 @@ does, Form 1041 is due the fifteenth day of the fourth month after the close of 
 calendar-year estate or trust is therefore on 15 April like an individual; a fiscal-year estate is
 not, and the arithmetic runs from the month the year closes.
 
-<div class="scenario">
+<div class="scenario" data-type="boundary">
 <h3>Below the threshold, and owed a refund</h3>
 
 Marisol Öztürk-Whitfield worked part of the year, earned about 11,400 dollars, and had roughly 640
 dollars of income tax withheld. She is single, not a dependent, and assumes she need not file.
 
-She is right that she is not *required* to file — her gross income is below the single standard
-deduction. She is wrong that filing is pointless. Without a return the withheld tax is simply kept,
-and if she is eligible for a refundable credit, that too goes unclaimed. The claim for refund is
-itself subject to a limitations period, so "I'll get round to it" has an end date. The advice is
-short: no obligation, but file anyway, and file this year.
+She is right that she is not *required* to file — her gross income is below the single
+{gloss:standard-deduction}. She is wrong that filing is pointless. Without a return the withheld tax
+is simply kept, and if she is eligible for a refundable credit, that too goes unclaimed. The claim
+for refund is itself subject to a limitations period, so "I'll get round to it" has an end date. The
+advice is short: no obligation, but file anyway, and file this year.
 </div>
 
-<div class="scenario">
+<div class="scenario" data-type="interaction">
 <h3>The self-employed client with almost no income</h3>
 
 Desmond Achebe-Lindqvist earned about 4,900 dollars from freelance work and nothing else. His gross
 income is far below the single standard deduction and he concludes there is nothing to file.
 
 The income tax threshold is not the only one that applies. Net earnings from self-employment at or
-above the statutory floor create a filing obligation to report and pay self-employment tax, whatever
-the income tax position. Filing also creates the earnings record that supports his future social
-security benefit, which is the argument that usually persuades a client who is unmoved by the
+above the statutory floor create a filing obligation to report and pay {gloss:self-employment-tax},
+whatever the income tax position. Filing also creates the earnings record that supports his future
+social security benefit, which is the argument that usually persuades a client who is unmoved by the
 obligation itself.
 </div>
 
-<div class="scenario">
+<div class="scenario" data-type="procedural">
 <h3>The estate with a fiscal year</h3>
 
-An executor elects a fiscal year for a decedent's estate ending on 30 June. The Form 1041 is
+An {gloss:executor} elects a fiscal year for a decedent's estate ending on 30 June. The Form 1041 is
 diarised for the following 15 April by an assistant who knows that date as "the deadline."
 
 It is due on 15 October — the fifteenth day of the fourth month following the close of the fiscal
@@ -146,6 +165,48 @@ year. April is the calendar-year answer, and an estate that has adopted a fiscal
 calendar-year rule. The elective fiscal year is one of the genuine planning tools available to an
 estate, and the price of using it is that every subsequent date has to be recomputed rather than
 recalled.
+</div>
+
+<div class="scenario" data-type="baseline">
+<h3>The ordinary calendar-year filer</h3>
+
+Priya Ramanathan is single, not a dependent, and earned about 58,000 dollars in wages during 2026,
+with tax withheld from every paycheck. She has no self-employment income and nothing unusual on her
+return.
+
+Her gross income comfortably exceeds the single standard deduction, so she is required to file — and
+nothing about her facts calls for an extension or a special due date. Her calendar-year return is due
+on 15 April of the following year, full stop. This is the rule working exactly as designed: cross the
+threshold, file by the ordinary date, nothing more to compute.
+</div>
+
+<div class="scenario" data-type="fails">
+<h3>The short assignment that wasn't really "abroad"</h3>
+
+Griffin's U.S. employer sends him to London for a fixed ten-week assignment from mid-January to the
+end of March 2026. He then returns to his ordinary home office in Ohio for the rest of the year.
+Assuming ten weeks overseas is enough, he tells his preparer he gets the automatic two-month
+extension for taxpayers abroad.
+
+He does not qualify. Reg. § 1.6081-5(a)(5) requires that the taxpayer's tax home *and* abode be, in a
+real and substantial sense, outside the United States — not merely that the person worked overseas
+for a stretch of the year. A fixed ten-week posting with a return to a permanent Ohio home does not
+move his tax home or his abode anywhere. Griffin files on the ordinary schedule; if he needs more
+time, Form 4868 is the route, and it extends only the time to file.
+</div>
+
+<div class="scenario" data-type="timing">
+<h3>Same rule, a different calendar</h3>
+
+In a year where 15 April falls on a Saturday, a preparer tells a client the return is due the
+following Monday. That Monday, however, turns out to be a legal holiday observed in the District of
+Columbia.
+
+Neither day works. IRC § 7503 pushes a deadline landing on a Saturday, Sunday, or District of
+Columbia legal holiday to the next day that is none of those three — so here the due date lands on
+Tuesday. The rule and the facts are the same as any other year; only the calendar changes the answer,
+and the client's actual due date has to be checked against that year's specific dates rather than
+assumed from "the fifteenth" alone.
 </div>
 
 <div class="callout trap">

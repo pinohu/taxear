@@ -1,0 +1,33 @@
+---
+// "Where are the lines?" — a marked number line for a phase-out, bracket, or limit.
+// Props come straight from a page's frontmatter `diagram` block; see DiagramMount.astro
+// for the contract. Text is real <text>, never baked into a raster — selectable,
+// searchable, sharp at any zoom, and it survives dark-mode or print with no extra work.
+import figuresData from '../../data/figures.json';
+const { caption, min = 0, max, marks = [] } = Astro.props;
+
+const val = (m) => {
+  if (typeof m.value === 'number') return m.value;
+  const f = figuresData.figures[m.figureKey];
+  const n = f ? parseFloat(String(f.value).replace(/[^0-9.]/g, '')) : NaN;
+  return Number.isFinite(n) ? n : 0;
+};
+const label = (m) => m.label ?? figuresData.figures[m.figureKey]?.value ?? String(m.value ?? '');
+
+const W = 640, H = 96, PAD = 28;
+const x = (v) => PAD + ((v - min) / (max - min)) * (W - PAD * 2);
+---
+<figure class="diagram diagram-threshold">
+  <svg viewBox={`0 0 ${W} ${H}`} role="img" aria-labelledby="d-title">
+    <title id="d-title">{caption}</title>
+    <line x1={PAD} y1={52} x2={W - PAD} y2={52} class="d-axis" />
+    {marks.map((m, i) => (
+      <g>
+        <line x1={x(val(m))} y1={40} x2={x(val(m))} y2={64} class={`d-tick ${m.emphasis ? 'd-tick-em' : ''}`} />
+        <circle cx={x(val(m))} cy={52} r={m.emphasis ? 5 : 3.5} class={`d-dot ${m.emphasis ? 'd-dot-em' : ''}`} />
+        <text x={x(val(m))} y={i % 2 === 0 ? 30 : 86} class="d-label" text-anchor="middle">{label(m)}</text>
+      </g>
+    ))}
+  </svg>
+  <figcaption>{caption}</figcaption>
+</figure>

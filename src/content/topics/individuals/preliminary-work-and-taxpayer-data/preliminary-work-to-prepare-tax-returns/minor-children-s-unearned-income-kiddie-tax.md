@@ -18,7 +18,28 @@ forms: []
 related: ["1.1.1.i", "1.1.1.d", "1.1.1.b", "1.1.1.h", "1.4.1.a"]
 changelog:
   - { date: "2026-08-19", summary: "Initial draft against IRC § 1(g) and Rev. Proc. 2025-32 § 3.02." }
+  - { date: "2026-08-25", summary: "Added a plain-language summary, a threshold diagram of the two-layer figure, glossary marks, and typed scenarios." }
+diagram:
+  archetype: "threshold"
+  caption: "Where a child's unearned income crosses into the parent's tax rate"
+  min: 0
+  max: 3600
+  marks:
+    - { figureKey: "kiddie.base_amount", value: 1350, label: "1,350 — child's own rate begins" }
+    - { figureKey: "kiddie.threshold", value: 2700, label: "2,700 — parent's rate begins", emphasis: true }
 ---
+
+<div class="plain-terms">
+Some families put stocks or savings accounts in a child's name so the earnings would be taxed
+at the child's low rate instead of the parent's higher one. This rule blocks that shift. Once a
+child's investment income passes a set amount, the extra amount is taxed at the parent's rate
+instead of the child's own. It does not touch money the child earns from a job. It affects many
+teenagers and college students, not just young children, as long as they do not earn enough from
+work to cover most of their own living costs. It only applies while a parent is alive and the
+child does not file a joint return. The child still files their own tax return. Only the rate on
+part of the income changes, and in some cases a parent can report that income on their own
+return instead.
+</div>
 
 ## The rule
 
@@ -94,7 +115,22 @@ cross the threshold quietly after a good year or a large distribution. The intak
 the child have income" but "does the child have an account", and it should be asked every year rather
 than once.
 
-<div class="scenario">
+<div class="scenario" data-type="baseline">
+<h3>The straightforward case</h3>
+
+Isabela is 10 years old. A custodial account her grandparents funded years ago produced 4,000
+dollars of dividends this year, and she has no earned income at all. Both of her parents are
+alive, and she will not file a joint return.
+
+All three conditions in § 1(g)(2) are met without argument: she is under 18, a parent is alive,
+and there is no joint return. Her first 1,350 dollars of unearned income is absorbed by the
+{gloss:standard-deduction}, the next 1,350 is taxed at her own rate, and the remaining 1,300 is
+taxed at her parents' rate through the allocable parental tax. This is the {gloss:kiddie-tax}
+working exactly as designed — nobody argues about age, support, or an election; the numbers
+simply run.
+</div>
+
+<div class="scenario" data-type="boundary">
 <h3>The nineteen-year-old with a summer job</h3>
 
 Théodora Nkemdirim is 19, a full-time student, and lives at home. She earned about 4,200 dollars over
@@ -102,15 +138,15 @@ the summer and her custodial brokerage account produced roughly 6,800 dollars of
 interest. Her total support for the year was around 24,000 dollars, most of it provided by her
 parents. The family assumes the kiddie tax stopped applying when she turned 18.
 
-It did not. Section 1(g)(2)(A)(ii) reaches a child who has attained 18 and meets the § 152(c)(3) age
-requirement — she is a student under 24 — where earned income does not exceed **one-half of the
-individual's support**. Half of 24,000 dollars is 12,000, and her 4,200 dollars of earnings is well
-under it. She is within the rule. Her first 1,350 dollars of unearned income is absorbed by the
-dependent standard deduction, the next 1,350 is taxed at her own rate, and the remaining 4,100 is
-taxed at her parents' rate through the allocable parental tax.
+It did not. Section 1(g)(2)(A)(ii) reaches a child who has attained 18 and meets the § 152(c)(3)
+{gloss:qualifying-child} age requirement — she is a student under 24 — where earned income does not
+exceed **one-half of the individual's support**. Half of 24,000 dollars is 12,000, and her 4,200
+dollars of earnings is well under it. She is within the rule. Her first 1,350 dollars of unearned
+income is absorbed by the dependent standard deduction, the next 1,350 is taxed at her own rate,
+and the remaining 4,100 is taxed at her parents' rate through the allocable parental tax.
 </div>
 
-<div class="scenario">
+<div class="scenario" data-type="fails">
 <h3>The election that was not available</h3>
 
 The Halvorsen-Achebe family has a child with 5,600 dollars of dividend income and nothing else. The
@@ -125,7 +161,7 @@ second reason to file the child's return anyway, because the withheld tax is onl
 it. The lesson for the following year is to fix the certification, not to fix the return.
 </div>
 
-<div class="scenario">
+<div class="scenario" data-type="interaction">
 <h3>Two children, one computation</h3>
 
 Both Obadiah and Rosalind Fitzwilliam-Vasquez have custodial accounts producing net unearned income.
@@ -138,6 +174,21 @@ applies** over the tax without it — a single computation on the combined amoun
 the children. Doing it twice independently double-counts the bracket run-up. The correct sequence is
 one parental computation, then an allocation, and the error is invisible unless someone notices the
 siblings.
+</div>
+
+<div class="scenario" data-type="procedural">
+<h3>Making the election instead of filing for the child</h3>
+
+A child's only income is 3,000 dollars of interest, comfortably inside the range for the parental
+election, and none of it has been withheld or prepaid. The parents would rather absorb the
+reporting than open a separate filing for their child.
+
+The mechanism is Form 8814, *Parents' Election To Report Child's Interest and Dividends*, attached
+to the parent's own return by its due date, including extensions. Once made, the child's income is
+folded into the parent's return, and under § 1(g)(7) the child is treated as having no gross income
+for the year — no return is filed in the child's name at all. The election is made annually; a
+year where a condition fails, such as the withholding trap above, simply falls back to a return
+for the child.
 </div>
 
 <div class="callout trap">

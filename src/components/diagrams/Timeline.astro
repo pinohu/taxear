@@ -1,0 +1,16 @@
+---
+// "By when?" — a dated sequence: deadlines, statute clocks, notice-response windows.
+const { caption, events = [] } = Astro.props;
+---
+<figure class="diagram diagram-timeline">
+  <ol class="d-timeline">
+    {events.map((e) => (
+      <li>
+        <span class="d-tl-when">{e.when}</span>
+        <span class="d-tl-dot" aria-hidden="true"></span>
+        <span class="d-tl-what">{e.what}</span>
+      </li>
+    ))}
+  </ol>
+  <figcaption>{caption}</figcaption>
+</figure>

@@ -19,7 +19,28 @@ forms: []
 related: ["1.1.1.k", "1.1.1.d", "1.1.1.b", "1.1.1.j", "1.3.2.g"]
 changelog:
   - { date: "2026-08-19", summary: "Initial draft. Records that the 400 percent ceiling on premium tax credit eligibility and the temporary premium percentages both lapsed for taxable years beginning after 2025, and that the excess advance payment repayment limitation was removed." }
+  - { date: "2026-08-25", summary: "Added a plain-language summary, a threshold diagram of the premium tax credit's income range, glossary marks, and typed scenarios." }
+diagram:
+  archetype: "threshold"
+  caption: "The premium tax credit's income range, as a share of the poverty line"
+  min: 0
+  max: 450
+  marks:
+    - { figureKey: "aca.ptc_income_range", value: 100, label: "100% FPL — credit floor" }
+    - { figureKey: "aca.ptc_cliff_restored", value: 400, label: "400% FPL — no credit above this for 2026", emphasis: true }
 ---
+
+<div class="plain-terms">
+The Affordable Care Act still shows up on a tax return in three ways. First, it touches almost
+everyone a little. People are still supposed to have health coverage, but the penalty for
+skipping it is now zero, so nobody pays for it. Second, it matters more for some people than
+others. Someone with coverage from a job or another insurer barely notices it. Their form is just
+for the record; nothing from it goes on the return. Someone who bought coverage through the
+Marketplace is affected the most, because that is the only coverage tied to a credit that helps
+pay for it. Third, for that group, the return settles up the credit. It checks whether the help
+paid during the year was too much, too little, or about right, and it pays back or collects the
+gap.
+</div>
 
 ## The rule
 
@@ -89,7 +110,35 @@ coverage that is affordable and provides minimum value cannot claim the premium 
 months, whether or not they enrolled. The question at intake is therefore about what was *offered*,
 not only about what was *taken*.
 
-<div class="scenario">
+<div class="scenario" data-type="baseline">
+<h3>The credit working as intended</h3>
+
+A single taxpayer with modest, steady income enrolls through the Marketplace, reports an accurate
+income estimate, and receives advance payments sized to that estimate all year. Her actual income
+at filing comes out close to the estimate.
+
+This is the ordinary case. Her household income sits inside the range in § 36B(c)(1)(A), she is
+not another taxpayer's dependent, and she files as a single filer, so nothing in § 36B(c)(1)(C) or
+(D) is in play. The {gloss:premium-tax-credit} computed on the return comes out close to the
+advance payments already made, and the true-up is small in either direction. Most Marketplace
+enrollees land here — the reconciliation exists for the cases that drift, not to surprise the ones
+that do not.
+</div>
+
+<div class="scenario" data-type="fails">
+<h3>The dependent who can't claim it</h3>
+
+A 20-year-old full-time student living at home enrolls in Marketplace coverage under her own name,
+expecting to claim a credit on her own return because her income for the year is modest.
+
+She cannot. Section 36B(c)(1)(D) denies applicable-taxpayer status to anyone who is another
+taxpayer's {gloss:dependent} for the year, and her parents are entitled to claim her. Her own
+return gets no premium tax credit, no matter how low her income runs or how the poverty-line math
+would otherwise come out. Whether the coverage helps anyone at all turns on the parents' return,
+not hers, and that has to be sorted out before enrollment, not after.
+</div>
+
+<div class="scenario" data-type="boundary">
 <h3>The client just over the line</h3>
 
 Aurelio Baptiste-Nwosu enrolled through the Marketplace and received advance premium tax credit
@@ -105,7 +154,7 @@ consequential change on the 2026 individual return for Marketplace enrollees, an
 with clients during the year rather than discovered in filing season.
 </div>
 
-<div class="scenario">
+<div class="scenario" data-type="timing">
 <h3>The repayment that used to be capped</h3>
 
 Perpetua Okonkwo-Lindqvist's income came in higher than projected and her advance payments exceeded
@@ -119,7 +168,7 @@ annual inflation adjustments. For 2026 the excess is repayable in full regardles
 A preparer working from a remembered cap will understate the balance due.
 </div>
 
-<div class="scenario">
+<div class="scenario" data-type="procedural">
 <h3>Which 1095 is which</h3>
 
 A client brings a Form 1095-B from a small employer's insurer. Nothing was received from the

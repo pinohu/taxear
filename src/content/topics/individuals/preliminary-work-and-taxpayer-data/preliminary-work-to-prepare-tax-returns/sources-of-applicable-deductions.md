@@ -28,6 +28,16 @@ changelog:
   - { date: "2026-08-19", summary: "Initial draft. Records the 2026 arrival of the IRC § 68 itemized-deduction haircut, the IRC § 170(b)(1)(I) charitable floor, the IRC § 170(p) deduction for non-itemizers, and the permanent IRC § 67(h) suspension with its new educator carve-out." }
 ---
 
+<div class="plain-terms">
+Every taxpayer lowers taxable income by one of two amounts. One is a fixed standard deduction. The
+other is an itemized total built from real costs like mortgage interest, taxes paid, and medical
+bills. This page explains how the choice works and what counts on each side. It affects every person
+who files a return, since the choice is required either way. Some write-offs now apply no matter which
+side you pick, such as new deductions for tips and overtime pay. Married couples who file separate
+returns face a trap: if one spouse itemizes, the other spouse's standard deduction drops to zero. This
+page decides which costs count, and how much each side is worth.
+</div>
+
 Almost every individual return reduces adjusted gross income by one of two competing amounts, and the
 interview has to gather enough to know which. What is no longer true is that the choice ends the
 inquiry: for 2026 a taxpayer who takes the standard deduction still has a stack of further deductions
@@ -132,7 +142,7 @@ did not exist in that form on the 2024 return. The questions that reach them are
 occupation, whether any wages were overtime or tips, whether there is a car loan, whether anything was
 given to charity in cash.
 
-<div class="scenario">
+<div class="scenario" data-type="boundary">
 <h3>The margin the haircut eats</h3>
 
 Priya files single with taxable income well inside the top bracket. After every category limit her
@@ -147,11 +157,12 @@ pre-haircut total closer to the standard amount and the answer flips. § 68 appl
 limitations (IRC § 68(b)), so it is the last step and the comparison happens after it.
 </div>
 
-<div class="scenario">
+<div class="scenario" data-type="fails">
 <h3>The separate return that costs both spouses</h3>
 
-Daniel and Marcus file separately. Daniel has large medical expenses and itemizes, deducting
-$19,000. Marcus has nothing to itemize and expects the standard deduction.
+Daniel and Marcus file separately, a {gloss:married-filing-separately} arrangement. Daniel has large
+medical expenses and itemizes, deducting $19,000. Marcus has nothing to itemize and expects the
+standard deduction.
 
 Marcus gets nothing. Because his spouse itemizes on a separate return, his standard deduction is
 zero (IRC § 63(c)(6)(A)) — not reduced, zero. He deducts only what he can itemize himself, which is
@@ -162,7 +173,7 @@ jointly even though they file apart. And if Marcus already filed claiming the st
 § 63(e)(3) is the route back.
 </div>
 
-<div class="scenario">
+<div class="scenario" data-type="baseline">
 <h3>The dependent student with a summer job</h3>
 
 Amara is 19, a full-time student, and her parents claim her. She earned $4,200 at a summer job and
@@ -172,9 +183,37 @@ IRC § 63(c)(5) caps her basic standard deduction at the greater of the floor am
 allowance and her earned income. Earned income of $4,200 plus the allowance exceeds the floor, so
 that sum is her basic standard deduction — well below the single amount she would otherwise get.
 
-Two adjacent points. The interest is unearned income, so the kiddie tax under § 1(g) is in play and
-its threshold is built from the same § 63(c)(5) floor. And the cap limits the *basic* amount only:
-were Amara blind, the § 63(f) increment would sit on top of the capped figure.
+Two adjacent points. The interest is unearned income, so the {gloss:kiddie-tax} under § 1(g) is in
+play and its threshold is built from the same § 63(c)(5) floor. And the cap limits the *basic* amount
+only: were Amara blind, the § 63(f) increment would sit on top of the capped figure.
+</div>
+
+<div class="scenario" data-type="interaction">
+<h3>The non-itemizer who still has three more deductions to claim</h3>
+
+Jamal takes the {gloss:standard-deduction}. He worked overtime all year, received some reported tip
+income at his second job, and pays interest on a loan for the car he uses to commute.
+
+None of that disqualifies him from the standard deduction, and none of it is lost by not itemizing.
+The § 63(b) stack sits alongside the standard deduction rather than colliding with it: his tips are
+deductible under § 224, his overtime under § 225, and the vehicle loan interest under § 163(h)(4)'s new
+exception, on top of the standard amount. The election he made is only about medical expenses, state
+and local taxes, mortgage interest, and charity — the categories that actually sit inside § 63(d)'s
+itemized definition. Everything in § 63(b) was never part of that choice to begin with.
+</div>
+
+<div class="scenario" data-type="timing">
+<h3>The same gift, before and after the floor</h3>
+
+A taxpayer who itemizes gives $600 in cash to her church, in materially the same circumstances, in
+both 2025 and 2026.
+
+The 2025 gift was fully deductible: no floor applied to a cash gift to a public charity that year. The
+2026 gift lands under the new {gloss:charitable-contribution} floor in IRC § 170(b)(1)(I), added by
+Pub. L. 119-21 § 70425 — an itemizer now deducts a cash gift only above a percentage of the
+contribution base, and a modest gift this size may clear nothing at all. A non-itemizer giving the
+identical $600 fares better in 2026 than an itemizer does, since the § 170(p) deduction for cash gifts
+carries no such floor.
 </div>
 
 <div class="callout trap">

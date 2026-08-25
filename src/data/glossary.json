@@ -1,0 +1,1125 @@
+{
+  "_readme": "Terms of art used across topic pages. Key is the {gloss:key} token used in markdown. 'term' is the display word; 'definition' is one or two plain sentences — no citation, no jargon used before it's defined here too. 'seeAlso' is an optional outline code for the page that treats the term in full. Populated incrementally as pages migrate to the comprehension layer (docs/COMPREHENSION_PLAN.md); an empty or missing key renders loudly, the same way a missing figure does.",
+  "terms": {
+    "basis": {
+      "term": "basis",
+      "definition": "What you're treated as having paid for something, for tax purposes. It starts at cost and moves up or down over time — basis is what gain or loss is measured against when you sell.",
+      "seeAlso": null
+    },
+    "adjusted-gross-income": {
+      "term": "adjusted gross income",
+      "definition": "Total income for the year minus a short list of specific deductions taken before any others. Often called AGI. Many other limits and phase-outs are measured against this number rather than total income.",
+      "seeAlso": null
+    },
+    "statute-of-limitations": {
+      "term": "statute of limitations",
+      "definition": "A deadline after which the IRS generally can't assess more tax, or a taxpayer generally can't claim a refund, for a given year. Different actions have different clocks, and some events pause or restart the clock.",
+      "seeAlso": "3.2.6.a"
+    },
+    "offer-in-compromise": {
+      "term": "offer in compromise",
+      "definition": "An agreement to settle a tax debt for less than the full amount owed, when the IRS agrees the taxpayer genuinely can't pay it in full or there's a real dispute about whether it's owed.",
+      "seeAlso": "3.3.1.c"
+    },
+    "reasonable-collection-potential": {
+      "term": "reasonable collection potential",
+      "definition": "The IRS's estimate of the most it could realistically collect from a taxpayer — from what they own plus what they could pay from future income — before it decides an offer in compromise is worth accepting.",
+      "seeAlso": "3.3.1.c"
+    },
+    "doubt-as-to-liability": {
+      "term": "doubt as to liability",
+      "definition": "One of the three reasons the IRS will consider an offer in compromise: a genuine, good-faith dispute over whether the tax is owed at all, or how much of it is owed. It's not available once a court has already decided the question.",
+      "seeAlso": "3.3.1.c"
+    },
+    "constructive-receipt": {
+      "term": "constructive receipt",
+      "definition": "The rule that income counts as received, and becomes taxable, once you have unrestricted access to it — even if you haven't actually cashed it or moved it into your own account.",
+      "seeAlso": "1.2.1.i"
+    },
+    "ordinary-income": {
+      "term": "ordinary income",
+      "definition": "Income taxed at the regular income tax rates, as opposed to the lower rates that apply to long-term capital gains and qualified dividends.",
+      "seeAlso": null
+    },
+    "capital-gain": {
+      "term": "capital gain",
+      "definition": "The profit from selling property, such as an investment, for more than its basis. Capital gains are often taxed differently than wages or business profit.",
+      "seeAlso": null
+    },
+    "capital-loss": {
+      "term": "capital loss",
+      "definition": "The loss from selling an investment or other capital asset for less than its basis. The amount that can be used to offset other income in one year is limited.",
+      "seeAlso": null
+    },
+    "long-term-capital-gain": {
+      "term": "long-term capital gain",
+      "definition": "Gain on an asset that was held long enough before it was sold to qualify for lower tax rates. Gain on assets held for a shorter time is taxed like ordinary income instead.",
+      "seeAlso": null
+    },
+    "holding-period": {
+      "term": "holding period",
+      "definition": "How long a taxpayer owned an asset before selling it. It determines whether gain or loss on the sale is treated as long-term or short-term.",
+      "seeAlso": "1.2.3.a"
+    },
+    "fair-market-value": {
+      "term": "fair market value",
+      "definition": "What a willing buyer would pay a willing seller for something, with neither side being forced into the deal and both knowing the relevant facts.",
+      "seeAlso": null
+    },
+    "recapture": {
+      "term": "recapture",
+      "definition": "Treating part of the gain on a sale as ordinary income rather than capital gain, because a deduction — usually depreciation — taken earlier turned out to be more generous than the asset's actual drop in value.",
+      "seeAlso": "1.2.3.a"
+    },
+    "installment-sale": {
+      "term": "installment sale",
+      "definition": "A sale where the seller receives payments over more than one year and reports the gain gradually as each payment arrives, instead of all at once in the year of sale.",
+      "seeAlso": "1.2.3.g"
+    },
+    "like-kind-exchange": {
+      "term": "like-kind exchange",
+      "definition": "Trading one piece of real property held for business or investment for another, without immediately recognizing the gain, because the taxpayer's investment simply continues in a new form.",
+      "seeAlso": "1.2.3.i"
+    },
+    "boot": {
+      "term": "boot",
+      "definition": "Cash or other property that isn't like-kind, received alongside real property in an exchange that would otherwise defer all the gain. Receiving boot makes some of that gain taxable right away.",
+      "seeAlso": null
+    },
+    "involuntary-conversion": {
+      "term": "involuntary conversion",
+      "definition": "Losing property to a casualty, theft, or condemnation and receiving money or a replacement instead. Special rules let the owner defer the gain if they reinvest in similar property.",
+      "seeAlso": null
+    },
+    "condemnation": {
+      "term": "condemnation",
+      "definition": "A government's taking of private property for public use, with compensation paid to the owner. For tax purposes, it's treated as a kind of involuntary conversion.",
+      "seeAlso": "2.2.2.k"
+    },
+    "wash-sale": {
+      "term": "wash sale",
+      "definition": "Selling an investment at a loss and buying a substantially identical one shortly before or after. The loss is disallowed for now because the taxpayer's real economic position barely changed.",
+      "seeAlso": null
+    },
+    "original-issue-discount": {
+      "term": "original issue discount",
+      "definition": "The gap between what a bond is sold for and what it pays at maturity. It's taxed gradually as interest income over the life of the bond, even though no cash actually changes hands yet.",
+      "seeAlso": null
+    },
+    "imputed-interest": {
+      "term": "imputed interest",
+      "definition": "Interest the tax law treats a loan as charging even though the parties charged little or none, so a lender on a below-market loan can still end up reporting interest income.",
+      "seeAlso": null
+    },
+    "applicable-federal-rate": {
+      "term": "applicable federal rate",
+      "definition": "A minimum interest rate the IRS publishes each month. Loans between related parties that charge less than this rate can be treated, for tax purposes, as if they charged it.",
+      "seeAlso": null
+    },
+    "amortization": {
+      "term": "amortization",
+      "definition": "Spreading the cost of an intangible asset — like a patent, a license, or purchased goodwill — into deductions over a set number of years, instead of deducting it all at once.",
+      "seeAlso": null
+    },
+    "depreciation": {
+      "term": "depreciation",
+      "definition": "Deducting the cost of a business or income-producing asset gradually over its useful life, rather than all in the year it was bought, because the asset keeps providing value for years afterward.",
+      "seeAlso": null
+    },
+    "section-179-deduction": {
+      "term": "Section 179 deduction",
+      "definition": "An election letting a business currently deduct the full cost of qualifying equipment in the year it's put to use, instead of depreciating it over several years.",
+      "seeAlso": "2.2.2.c"
+    },
+    "bonus-depreciation": {
+      "term": "bonus depreciation",
+      "definition": "An additional first-year depreciation deduction available for certain new property, on top of the depreciation the property would otherwise get.",
+      "seeAlso": "2.2.2.c"
+    },
+    "cost-recovery": {
+      "term": "cost recovery",
+      "definition": "The general term for deducting the cost of business property over time. Depreciation, amortization, and depletion are all different forms of it.",
+      "seeAlso": null
+    },
+    "step-up-in-basis": {
+      "term": "step-up in basis",
+      "definition": "When someone inherits property, their basis in it usually becomes the property's value on the date of death, rather than what the original owner paid — often erasing gain that built up during the owner's lifetime.",
+      "seeAlso": null
+    },
+    "carryover-basis": {
+      "term": "carryover basis",
+      "definition": "When property is given as a gift, the person who receives it generally keeps the giver's original basis, rather than starting fresh at the property's value on the day of the gift.",
+      "seeAlso": null
+    },
+    "net-operating-loss": {
+      "term": "net operating loss",
+      "definition": "What results when a business's deductible expenses exceed its income for the year. The loss can generally be used to reduce taxable income in another year.",
+      "seeAlso": "2.2.2.n"
+    },
+    "passive-activity": {
+      "term": "passive activity",
+      "definition": "A business or rental activity that its owner doesn't materially participate in running. Losses from a passive activity are generally limited to offsetting income from other passive activities.",
+      "seeAlso": null
+    },
+    "material-participation": {
+      "term": "material participation",
+      "definition": "Being involved in running a business regularly, continuously, and substantially enough that the activity isn't treated as merely passive for tax purposes.",
+      "seeAlso": null
+    },
+    "at-risk-rules": {
+      "term": "at-risk rules",
+      "definition": "Limits on deducting losses from an activity beyond the amount an owner actually has at economic risk in it, such as cash they've put in or debt they're personally on the hook for.",
+      "seeAlso": null
+    },
+    "real-estate-professional": {
+      "term": "real estate professional",
+      "definition": "A taxpayer who spends most of their working time, and enough total hours, in real property trades. Qualifying can let rental losses count as non-passive instead of being limited.",
+      "seeAlso": "2.3.5.a"
+    },
+    "self-rental": {
+      "term": "self-rental",
+      "definition": "Renting property to a business the owner also runs. Special rules can turn what looks like an ordinary passive rental into non-passive income or loss.",
+      "seeAlso": "2.2.2.b"
+    },
+    "hobby-loss-rules": {
+      "term": "hobby loss rules",
+      "definition": "Rules that block deducting losses from an activity the IRS determines is pursued mainly for personal enjoyment rather than with a genuine intent to profit.",
+      "seeAlso": "2.1.1.l"
+    },
+    "related-party": {
+      "term": "related party",
+      "definition": "A person or entity closely connected to a taxpayer — such as certain family members or a business they control — whose transactions with the taxpayer get extra scrutiny under the tax law.",
+      "seeAlso": "2.2.4.h"
+    },
+    "arms-length": {
+      "term": "arm's length",
+      "definition": "The standard for pricing a deal as if the parties were unrelated strangers each looking out for their own interest, rather than one side quietly favoring the other.",
+      "seeAlso": null
+    },
+    "disregarded-entity": {
+      "term": "disregarded entity",
+      "definition": "A business entity, usually a single-member LLC, that the tax law treats as if it doesn't exist separately from its owner. The owner reports the entity's income directly on their own return.",
+      "seeAlso": null
+    },
+    "sole-proprietorship": {
+      "term": "sole proprietorship",
+      "definition": "A business with one owner and no separate legal entity from that owner. Its income and expenses are reported directly on the owner's individual return.",
+      "seeAlso": null
+    },
+    "partnership-entity": {
+      "term": "partnership",
+      "definition": "A business with two or more owners that itself generally pays no income tax. Instead, its income, deductions, and credits pass through and are reported by the owners.",
+      "seeAlso": null
+    },
+    "s-corporation": {
+      "term": "S corporation",
+      "definition": "A corporation that has elected to have its income pass through to its shareholders instead of being taxed at the corporate level, subject to limits on who can own it and how many owners it can have.",
+      "seeAlso": null
+    },
+    "c-corporation": {
+      "term": "C corporation",
+      "definition": "A corporation taxed as its own separate entity, apart from its owners — meaning its profits can be taxed once at the corporate level and again when paid out to shareholders.",
+      "seeAlso": null
+    },
+    "llc": {
+      "term": "LLC",
+      "definition": "A state-law business structure — a limited liability company — that shields its owners from personal liability for business debts. For tax purposes it can be treated as a sole proprietorship, a partnership, or a corporation, depending on elections and how many owners it has.",
+      "seeAlso": null
+    },
+    "pass-through-entity": {
+      "term": "pass-through entity",
+      "definition": "A business structure, such as a partnership or S corporation, whose income isn't taxed at the entity level but instead flows through to be reported on the owners' own returns.",
+      "seeAlso": null
+    },
+    "schedule-k-1": {
+      "term": "Schedule K-1",
+      "definition": "The form a partnership, S corporation, or trust sends each owner or beneficiary showing their individual share of the entity's income, deductions, and credits for the year.",
+      "seeAlso": null
+    },
+    "separately-stated-item": {
+      "term": "separately stated item",
+      "definition": "An item of partnership or S corporation income or deduction that must be reported on its own on each owner's K-1, rather than folded into one overall profit number, because it's taxed differently depending on the owner's own situation.",
+      "seeAlso": null
+    },
+    "controlled-group": {
+      "term": "controlled group",
+      "definition": "A set of corporations under common ownership that the tax law treats as a single group for certain limits and calculations, so the group as a whole can't multiply a tax break meant for one company.",
+      "seeAlso": "2.1.4.e"
+    },
+    "closely-held-corporation": {
+      "term": "closely held corporation",
+      "definition": "A corporation owned by a small number of shareholders, often subject to stricter loss and related-party rules than a corporation with many public shareholders.",
+      "seeAlso": "2.1.4.f"
+    },
+    "accumulated-earnings-tax": {
+      "term": "accumulated earnings tax",
+      "definition": "An extra tax on a corporation that holds on to more profit than the business reasonably needs, instead of paying it out to shareholders as dividends.",
+      "seeAlso": "2.1.3.f"
+    },
+    "earnings-and-profits": {
+      "term": "earnings and profits",
+      "definition": "A corporation's measure of its economic capacity to pay a dividend. A distribution to shareholders is taxed as a dividend only to the extent the corporation has this.",
+      "seeAlso": "2.1.3.b"
+    },
+    "dividends-received-deduction": {
+      "term": "dividends received deduction",
+      "definition": "A deduction letting one corporation exclude some or all of a dividend it receives from another corporation, softening the effect of taxing the same profit at multiple corporate levels.",
+      "seeAlso": "2.1.3.d"
+    },
+    "liquidation": {
+      "term": "liquidation",
+      "definition": "Dissolving a corporation and distributing what's left to its shareholders, generally treated for tax purposes as if each shareholder sold their stock back to the company.",
+      "seeAlso": "2.1.3.e"
+    },
+    "stock-redemption": {
+      "term": "stock redemption",
+      "definition": "A corporation buying back its own stock from a shareholder. Depending on the details, it's taxed either like a sale of stock or like a dividend.",
+      "seeAlso": "2.1.3.e"
+    },
+    "section-351-exchange": {
+      "term": "Section 351 exchange",
+      "definition": "Transferring property to a corporation in exchange for its stock without recognizing gain, available when the people transferring the property end up in control of the corporation afterward.",
+      "seeAlso": "2.1.4.b"
+    },
+    "worker-classification": {
+      "term": "worker classification",
+      "definition": "The determination of whether a worker is an employee or an independent contractor. It changes who owes payroll taxes and what the worker can deduct.",
+      "seeAlso": "2.2.5.k"
+    },
+    "independent-contractor": {
+      "term": "independent contractor",
+      "definition": "A self-employed worker who controls how they do their work and isn't treated as an employee. They're responsible for their own self-employment tax and estimated payments.",
+      "seeAlso": null
+    },
+    "general-partner": {
+      "term": "general partner",
+      "definition": "A partner who takes part in managing a partnership's business and bears personal liability for the partnership's debts.",
+      "seeAlso": "2.1.2.g"
+    },
+    "limited-partner": {
+      "term": "limited partner",
+      "definition": "A partner who invests in a partnership but doesn't take part in managing it, and whose liability for the partnership's debts is limited to what they invested.",
+      "seeAlso": "2.1.2.g"
+    },
+    "guaranteed-payment": {
+      "term": "guaranteed payment",
+      "definition": "A payment a partnership makes to a partner for services or for the use of capital, fixed without regard to whether the partnership actually had income, and taxed to that partner as ordinary income.",
+      "seeAlso": "2.1.2.c"
+    },
+    "qualified-joint-venture": {
+      "term": "qualified joint venture",
+      "definition": "An election letting spouses who jointly run an unincorporated business report it as two sole proprietorships instead of as a partnership, simplifying their filing.",
+      "seeAlso": null
+    },
+    "fica": {
+      "term": "FICA",
+      "definition": "The combined Social Security and Medicare taxes withheld from an employee's wages and matched by the employer.",
+      "seeAlso": null
+    },
+    "futa": {
+      "term": "FUTA",
+      "definition": "The federal unemployment tax that employers pay to help fund state unemployment programs. Unlike FICA, it isn't withheld from the employee's own pay.",
+      "seeAlso": null
+    },
+    "self-employment-tax": {
+      "term": "self-employment tax",
+      "definition": "The Social Security and Medicare tax a self-employed person pays directly, covering both the employee share and the employer share that a wage earner would otherwise split with an employer.",
+      "seeAlso": "1.2.4.a"
+    },
+    "backup-withholding": {
+      "term": "backup withholding",
+      "definition": "A flat-rate withholding a payer must apply to certain payments when the payee hasn't provided a valid taxpayer ID number or the IRS has flagged their account.",
+      "seeAlso": null
+    },
+    "household-employee": {
+      "term": "household employee",
+      "definition": "Someone hired to work in a private home, such as a nanny or housekeeper, whose employer may owe payroll taxes on their wages directly, rather than through a business.",
+      "seeAlso": "1.4.1.b"
+    },
+    "trust-fund-tax": {
+      "term": "trust fund tax",
+      "definition": "The portion of payroll tax withheld from an employee's wages that an employer holds, in effect, in trust for the government until it's deposited. Failing to pay it over is treated far more seriously than an ordinary unpaid business debt.",
+      "seeAlso": null
+    },
+    "responsible-person": {
+      "term": "responsible person",
+      "definition": "Someone with enough control over a business's finances to decide which bills get paid, and who can be held personally liable for the business's unpaid trust fund taxes.",
+      "seeAlso": "3.3.1.n"
+    },
+    "trust-fund-recovery-penalty": {
+      "term": "trust fund recovery penalty",
+      "definition": "A penalty equal to a business's unpaid trust fund taxes, assessed personally against a responsible person who willfully failed to collect, account for, or pay them over.",
+      "seeAlso": "3.3.1.n"
+    },
+    "earned-income-tax-credit": {
+      "term": "earned income tax credit",
+      "definition": "A refundable credit for lower- and moderate-income workers, especially those with children, that can reduce tax below zero and produce a refund larger than what was withheld.",
+      "seeAlso": "1.3.2.e"
+    },
+    "child-tax-credit": {
+      "term": "child tax credit",
+      "definition": "A credit for each qualifying child a taxpayer supports, partly or fully refundable depending on the taxpayer's income and tax.",
+      "seeAlso": "1.3.2.b"
+    },
+    "credit-for-other-dependents": {
+      "term": "credit for other dependents",
+      "definition": "A smaller credit for dependents who don't qualify for the child tax credit, such as older children or other relatives the taxpayer supports.",
+      "seeAlso": "1.3.2.b"
+    },
+    "adoption-credit": {
+      "term": "adoption credit",
+      "definition": "A credit for qualified expenses of adopting a child.",
+      "seeAlso": "1.3.2.f"
+    },
+    "education-credit": {
+      "term": "education credit",
+      "definition": "One of two credits available for paying higher-education costs, each with its own rules for who qualifies and how much can be claimed.",
+      "seeAlso": "1.3.2.c"
+    },
+    "premium-tax-credit": {
+      "term": "premium tax credit",
+      "definition": "A credit that helps pay for health insurance bought through the ACA marketplace, based on the taxpayer's income and the cost of coverage where they live.",
+      "seeAlso": "1.3.2.g"
+    },
+    "qualifying-child": {
+      "term": "qualifying child",
+      "definition": "A dependent who meets tests for relationship, age, residency, and support that let a taxpayer claim child-related tax benefits for them.",
+      "seeAlso": null
+    },
+    "qualifying-relative": {
+      "term": "qualifying relative",
+      "definition": "A dependent who doesn't meet the qualifying child tests but still counts as a dependent, based on their relationship to the taxpayer or household membership, their income, and how much support the taxpayer provides.",
+      "seeAlso": null
+    },
+    "dependent": {
+      "term": "dependent",
+      "definition": "Someone, typically a child or relative, that another person's tax return can claim because that person meets the support and relationship tests — which unlocks certain credits and filing statuses.",
+      "seeAlso": null
+    },
+    "head-of-household": {
+      "term": "head of household",
+      "definition": "A filing status for an unmarried taxpayer who pays for more than half the cost of a home for a qualifying person, giving a wider tax bracket and larger standard deduction than filing single.",
+      "seeAlso": null
+    },
+    "married-filing-jointly": {
+      "term": "married filing jointly",
+      "definition": "A filing status where spouses combine their income on one return and share responsibility for the tax shown, generally the most favorable status available to married couples.",
+      "seeAlso": null
+    },
+    "married-filing-separately": {
+      "term": "married filing separately",
+      "definition": "A filing status where spouses each file their own return. It usually gives up several credits and benefits, but it can protect one spouse from responsibility for the other's tax problems.",
+      "seeAlso": null
+    },
+    "joint-and-several-liability": {
+      "term": "joint and several liability",
+      "definition": "When spouses file a joint return, each one is fully responsible for the entire tax bill, not just half of it. The IRS can collect the whole amount from either spouse.",
+      "seeAlso": null
+    },
+    "injured-spouse": {
+      "term": "injured spouse",
+      "definition": "A spouse on a joint return whose share of a refund is being taken to pay the other spouse's separate debt. They can ask the IRS to return their portion of the refund.",
+      "seeAlso": "1.5.1.h"
+    },
+    "separation-of-liability": {
+      "term": "separation of liability",
+      "definition": "A form of innocent spouse relief that divides an understatement between divorced or separated spouses based on whose income or deduction actually caused it.",
+      "seeAlso": "1.5.1.i"
+    },
+    "equitable-relief": {
+      "term": "equitable relief",
+      "definition": "The catch-all form of innocent spouse relief available when the other two don't apply, based on all the facts about whether it would be unfair to hold the requesting spouse liable.",
+      "seeAlso": "1.5.1.i"
+    },
+    "community-property": {
+      "term": "community property",
+      "definition": "The rule, in some states, that most income and property earned during a marriage belongs equally to both spouses — which changes how income is split if the spouses file separate returns.",
+      "seeAlso": null
+    },
+    "kiddie-tax": {
+      "term": "kiddie tax",
+      "definition": "A rule taxing a child's unearned income above a certain amount at their parent's tax rate instead of the child's own, so parents can't shift investment income to a lower-taxed child.",
+      "seeAlso": "1.1.1.p"
+    },
+    "standard-deduction": {
+      "term": "standard deduction",
+      "definition": "A flat amount every taxpayer can subtract from income without listing actual expenses, used instead of itemizing.",
+      "seeAlso": null
+    },
+    "itemized-deduction": {
+      "term": "itemized deduction",
+      "definition": "A specific deductible expense, such as mortgage interest or a charitable gift, listed and totaled as an alternative to taking the standard deduction.",
+      "seeAlso": null
+    },
+    "above-the-line-deduction": {
+      "term": "above-the-line deduction",
+      "definition": "A deduction subtracted before arriving at adjusted gross income, available even to taxpayers who don't itemize.",
+      "seeAlso": null
+    },
+    "casualty-loss": {
+      "term": "casualty loss",
+      "definition": "A deductible loss from sudden damage to property — a fire, storm, or accident — as opposed to ordinary gradual wear and tear.",
+      "seeAlso": "1.3.1.e"
+    },
+    "theft-loss": {
+      "term": "theft loss",
+      "definition": "A deductible loss from property that was stolen, distinct from a casualty loss caused by an accident or a natural event.",
+      "seeAlso": "1.3.1.e"
+    },
+    "charitable-contribution": {
+      "term": "charitable contribution",
+      "definition": "A gift to a qualifying charity that can be deducted if the taxpayer itemizes, subject to limits based on the type of gift and the taxpayer's own income.",
+      "seeAlso": "1.3.1.d"
+    },
+    "home-office-deduction": {
+      "term": "home office deduction",
+      "definition": "A deduction for the part of a home used regularly and exclusively for business, based on what share of the home that part represents.",
+      "seeAlso": "2.2.2.o"
+    },
+    "accountable-plan": {
+      "term": "accountable plan",
+      "definition": "An employer reimbursement arrangement that requires employees to substantiate their expenses and return any excess advance. Because of that, the reimbursements aren't counted as part of the employee's taxable wages.",
+      "seeAlso": null
+    },
+    "de-minimis-safe-harbor": {
+      "term": "de minimis safe harbor",
+      "definition": "A rule letting a business currently deduct the cost of small-dollar purchases of equipment or supplies, instead of capitalizing and depreciating them.",
+      "seeAlso": "2.2.3.e"
+    },
+    "listed-property": {
+      "term": "listed property",
+      "definition": "Property, such as a vehicle, that's often used for both business and personal purposes. It comes with extra recordkeeping requirements and stricter depreciation rules to prevent claiming personal use as business use.",
+      "seeAlso": null
+    },
+    "capitalization": {
+      "term": "capitalization",
+      "definition": "Treating the cost of something as an asset that's depreciated over time, rather than deducting the full cost immediately as an expense.",
+      "seeAlso": "2.2.3.e"
+    },
+    "repair-regulations": {
+      "term": "repair regulations",
+      "definition": "The rules for telling a currently deductible repair apart from a capital improvement that has to be depreciated, based on whether the work betters, restores, or adapts the property to a new use.",
+      "seeAlso": "2.2.3.e"
+    },
+    "betterment": {
+      "term": "betterment",
+      "definition": "Work on property that makes it materially better than before — fixing a defect or adding capacity — and so is treated as a capital improvement rather than a deductible repair.",
+      "seeAlso": "2.2.3.e"
+    },
+    "restoration": {
+      "term": "restoration",
+      "definition": "Work that returns property to functioning condition after damage, or replaces a major component of it, and so is treated as a capital improvement rather than a deductible repair.",
+      "seeAlso": "2.2.3.e"
+    },
+    "unit-of-property": {
+      "term": "unit of property",
+      "definition": "The building block used to decide whether work counts as a repair or an improvement — everything that makes up one functioning unit is analyzed together.",
+      "seeAlso": "2.2.3.e"
+    },
+    "qualified-improvement-property": {
+      "term": "qualified improvement property",
+      "definition": "An improvement to the interior of a nonresidential building, given its own depreciation treatment separate from the building itself.",
+      "seeAlso": "2.2.2.c"
+    },
+    "method-of-accounting": {
+      "term": "method of accounting",
+      "definition": "The consistent system a taxpayer uses to decide when income and expenses are reported, such as the cash method or the accrual method.",
+      "seeAlso": "2.2.4.d"
+    },
+    "cash-method": {
+      "term": "cash method",
+      "definition": "A way of accounting that reports income when it's actually received and expenses when they're actually paid.",
+      "seeAlso": "2.2.4.d"
+    },
+    "accrual-method": {
+      "term": "accrual method",
+      "definition": "A way of accounting that reports income when it's earned and expenses when they're incurred, regardless of when cash actually changes hands.",
+      "seeAlso": "2.2.4.d"
+    },
+    "constructive-dividend": {
+      "term": "constructive dividend",
+      "definition": "A benefit a corporation gives a shareholder that isn't formally labeled a dividend — like letting them use company property for free — but is taxed as one anyway, because it really is a distribution of profit.",
+      "seeAlso": null
+    },
+    "gross-receipts": {
+      "term": "gross receipts",
+      "definition": "A business's total income from its operations before subtracting the cost of goods sold or any other expenses.",
+      "seeAlso": "2.2.1.a"
+    },
+    "cost-of-goods-sold": {
+      "term": "cost of goods sold",
+      "definition": "The direct cost of the products a business actually sold during the year, subtracted from gross receipts to arrive at gross profit.",
+      "seeAlso": "2.2.1.b"
+    },
+    "bad-debt": {
+      "term": "bad debt",
+      "definition": "A debt owed to the taxpayer that has become worthless. It's deducted differently depending on whether it arose from the taxpayer's business or was a personal loan.",
+      "seeAlso": "2.2.2.d"
+    },
+    "alternative-minimum-tax": {
+      "term": "alternative minimum tax",
+      "definition": "A separate tax calculation that adds back certain deductions and preferences, to make sure taxpayers who benefit heavily from them still pay a minimum amount of tax.",
+      "seeAlso": "1.4.1.a"
+    },
+    "net-investment-income-tax": {
+      "term": "net investment income tax",
+      "definition": "An extra tax on investment income — such as interest, dividends, and capital gains — for taxpayers above a certain income level.",
+      "seeAlso": "1.4.1.i"
+    },
+    "additional-medicare-tax": {
+      "term": "additional Medicare tax",
+      "definition": "An extra Medicare tax on wages and self-employment income above a certain level, on top of the regular Medicare tax.",
+      "seeAlso": "1.4.1.j"
+    },
+    "qualified-business-income-deduction": {
+      "term": "qualified business income deduction",
+      "definition": "A deduction letting owners of pass-through businesses deduct part of their business profit, subject to limits based on income and the type of business.",
+      "seeAlso": "1.3.1.h"
+    },
+    "estate-tax": {
+      "term": "estate tax",
+      "definition": "A tax on the value of everything a person owns at death, before it passes to their heirs, applying only above a large exemption amount.",
+      "seeAlso": null
+    },
+    "gift-tax": {
+      "term": "gift tax",
+      "definition": "A tax on transfers of money or property made during life without getting full value back, meant to stop people from avoiding the estate tax by giving everything away beforehand.",
+      "seeAlso": null
+    },
+    "gross-estate": {
+      "term": "gross estate",
+      "definition": "Everything included in the value of what a person owned at death for estate tax purposes, which can be broader than just the assets titled in their own name.",
+      "seeAlso": "1.6.1.a"
+    },
+    "taxable-estate": {
+      "term": "taxable estate",
+      "definition": "The gross estate reduced by deductions like debts, expenses, and the marital deduction, arriving at the amount actually subject to estate tax.",
+      "seeAlso": "1.6.1.a"
+    },
+    "unified-credit": {
+      "term": "unified credit",
+      "definition": "A credit that shelters a set amount of lifetime gifts and property left at death from gift and estate tax before any of that tax is actually owed.",
+      "seeAlso": "1.6.2.c"
+    },
+    "annual-exclusion": {
+      "term": "annual exclusion",
+      "definition": "The amount a person can give to any one recipient each year without it counting against their lifetime gift and estate tax exemption.",
+      "seeAlso": null
+    },
+    "marital-deduction": {
+      "term": "marital deduction",
+      "definition": "An unlimited deduction for property left or given to a spouse, which defers estate and gift tax on that property until the surviving spouse's own death.",
+      "seeAlso": "1.6.1.c"
+    },
+    "portability": {
+      "term": "portability",
+      "definition": "Letting a surviving spouse use whatever part of their deceased spouse's estate tax exemption went unused, in addition to their own.",
+      "seeAlso": "1.6.1.c"
+    },
+    "generation-skipping-transfer-tax": {
+      "term": "generation-skipping transfer tax",
+      "definition": "An extra tax on gifts or bequests that skip a generation — from a grandparent directly to a grandchild, for example — aimed at transfers that would otherwise avoid a layer of estate tax.",
+      "seeAlso": "1.6.2.d"
+    },
+    "gift-splitting": {
+      "term": "gift-splitting",
+      "definition": "An election letting a married couple treat a gift made by one spouse as if half came from each of them, doubling the annual exclusion available for that gift.",
+      "seeAlso": null
+    },
+    "trust": {
+      "term": "trust",
+      "definition": "A legal arrangement where one person holds and manages property for the benefit of someone else, under terms set by whoever created it.",
+      "seeAlso": null
+    },
+    "grantor-trust": {
+      "term": "grantor trust",
+      "definition": "A trust whose income is taxed to the person who created and funded it, rather than to the trust itself, because that person kept enough control over or benefit from it.",
+      "seeAlso": null
+    },
+    "revocable-trust": {
+      "term": "revocable trust",
+      "definition": "A trust that the person who created it can change or cancel at any time. Because they keep that much control, its income is taxed to them personally.",
+      "seeAlso": "1.6.1.a"
+    },
+    "irrevocable-trust": {
+      "term": "irrevocable trust",
+      "definition": "A trust that generally can't be changed or cancelled once it's created, so control — and often the tax burden — shifts away from the person who set it up.",
+      "seeAlso": null
+    },
+    "simple-trust": {
+      "term": "simple trust",
+      "definition": "A trust required to distribute all its income currently and that makes no gifts to charity, taxed under a simpler set of rules than other trusts.",
+      "seeAlso": null
+    },
+    "complex-trust": {
+      "term": "complex trust",
+      "definition": "A trust that can accumulate income, distribute principal, or make charitable gifts, taxed under fuller rules than a simple trust.",
+      "seeAlso": null
+    },
+    "fiduciary": {
+      "term": "fiduciary",
+      "definition": "Someone legally responsible for managing property or money for another person's benefit, held to a high standard of care and loyalty. An executor and a trustee are both fiduciaries.",
+      "seeAlso": null
+    },
+    "executor": {
+      "term": "executor",
+      "definition": "The person named to carry out a deceased person's wishes: gathering and managing the estate's assets, paying its debts and taxes, and distributing what's left.",
+      "seeAlso": null
+    },
+    "beneficiary": {
+      "term": "beneficiary",
+      "definition": "The person or entity entitled to receive money or property from a trust, estate, retirement account, or insurance policy.",
+      "seeAlso": null
+    },
+    "distributable-net-income": {
+      "term": "distributable net income",
+      "definition": "The ceiling on how much of a trust or estate's distribution to its beneficiaries is taxed as income to them, rather than treated as a tax-free return of principal.",
+      "seeAlso": "2.3.1.b"
+    },
+    "corpus": {
+      "term": "corpus",
+      "definition": "The principal of a trust — the property originally put into it — as distinguished from the income that property later produces.",
+      "seeAlso": null
+    },
+    "income-in-respect-of-a-decedent": {
+      "term": "income in respect of a decedent",
+      "definition": "Income a person had earned but not yet received or reported before they died. It's still taxable, to whoever ends up actually receiving it.",
+      "seeAlso": null
+    },
+    "foreign-tax-credit": {
+      "term": "foreign tax credit",
+      "definition": "A credit for income tax paid to a foreign country, meant to prevent the same income from being taxed twice — once abroad and again by the United States.",
+      "seeAlso": "1.3.2.d"
+    },
+    "foreign-earned-income-exclusion": {
+      "term": "foreign earned income exclusion",
+      "definition": "An election letting a qualifying taxpayer who lives and works abroad exclude part of their foreign wages from U.S. tax.",
+      "seeAlso": null
+    },
+    "fbar": {
+      "term": "FBAR",
+      "definition": "An annual report of foreign bank and financial accounts, filed separately from the tax return whenever the combined balance crosses a set threshold, with steep penalties for skipping it.",
+      "seeAlso": "1.6.3.b"
+    },
+    "fatca": {
+      "term": "FATCA",
+      "definition": "A law requiring foreign financial institutions, and certain U.S. taxpayers directly, to report foreign financial assets to the IRS, aimed at catching offshore accounts that would otherwise go unreported.",
+      "seeAlso": "1.6.3.d"
+    },
+    "controlled-foreign-corporation": {
+      "term": "controlled foreign corporation",
+      "definition": "A foreign corporation that's majority-owned by U.S. shareholders, which can trigger current U.S. tax on some of the corporation's income even before it's paid out.",
+      "seeAlso": "1.6.3.e"
+    },
+    "subpart-f-income": {
+      "term": "Subpart F income",
+      "definition": "Certain kinds of income earned by a controlled foreign corporation that its U.S. shareholders must report currently, instead of waiting until it's actually paid out as a dividend.",
+      "seeAlso": null
+    },
+    "gilti": {
+      "term": "GILTI",
+      "definition": "A category of a controlled foreign corporation's income, beyond ordinary Subpart F income, that its U.S. shareholders must include on their own returns as it's earned.",
+      "seeAlso": "1.6.3.e"
+    },
+    "passive-foreign-investment-company": {
+      "term": "passive foreign investment company",
+      "definition": "A foreign corporation that mostly holds investments or earns passive income, subject to special, often harsher, U.S. tax rules meant to discourage using it to defer tax.",
+      "seeAlso": null
+    },
+    "voluntary-disclosure-practice": {
+      "term": "voluntary disclosure practice",
+      "definition": "A program letting taxpayers who willfully failed to report income or foreign accounts come forward before the IRS finds them, in exchange for a reduced risk of criminal prosecution.",
+      "seeAlso": "1.6.3.f"
+    },
+    "streamlined-filing-compliance-procedures": {
+      "term": "streamlined filing compliance procedures",
+      "definition": "A program for taxpayers who failed to report foreign income or accounts non-willfully to catch up on their filings with reduced penalties.",
+      "seeAlso": "1.6.3.f"
+    },
+    "tax-treaty": {
+      "term": "tax treaty",
+      "definition": "An agreement between the United States and another country that changes how each country taxes the same income, often to prevent double taxation.",
+      "seeAlso": "3.2.5.h"
+    },
+    "cancellation-of-debt-income": {
+      "term": "cancellation of debt income",
+      "definition": "Income recognized when a lender forgives some or all of a debt, because being relieved of an obligation to pay is treated like receiving money.",
+      "seeAlso": "1.2.1.f"
+    },
+    "insolvency": {
+      "term": "insolvency",
+      "definition": "A state where a taxpayer's liabilities exceed the value of their assets. Cancelled debt is excused from tax to the extent the taxpayer was insolvent right before the cancellation.",
+      "seeAlso": "1.2.1.f"
+    },
+    "discharge-in-bankruptcy": {
+      "term": "discharge in bankruptcy",
+      "definition": "A bankruptcy court order releasing a debtor from certain debts. Cancellation of debt income from a bankruptcy discharge is excluded from tax entirely, not just to the extent the debtor was insolvent.",
+      "seeAlso": "3.2.3.d"
+    },
+    "lien": {
+      "term": "lien",
+      "definition": "A legal claim the IRS files against a taxpayer's property to secure payment of a tax debt. It attaches to everything the taxpayer owns without the IRS needing to go to court first.",
+      "seeAlso": null
+    },
+    "notice-of-federal-tax-lien": {
+      "term": "Notice of Federal Tax Lien",
+      "definition": "The public filing that puts other creditors on notice that the IRS has a legal claim against a taxpayer's property.",
+      "seeAlso": "3.3.1.i"
+    },
+    "levy": {
+      "term": "levy",
+      "definition": "The IRS's actual seizure of a taxpayer's property or income — such as a bank account or wages — to satisfy an unpaid tax debt.",
+      "seeAlso": null
+    },
+    "installment-agreement": {
+      "term": "installment agreement",
+      "definition": "A payment plan letting a taxpayer pay an outstanding tax debt over time instead of all at once.",
+      "seeAlso": "3.3.1.b"
+    },
+    "csed": {
+      "term": "CSED",
+      "definition": "Short for collection statute expiration date: the deadline after which the IRS generally can no longer legally collect a tax debt.",
+      "seeAlso": "3.3.1.m"
+    },
+    "currently-not-collectible": {
+      "term": "currently not collectible",
+      "definition": "A status the IRS assigns when a taxpayer can't pay anything toward a debt without giving up basic living expenses. Collection is paused, though the debt — and usually its statute of limitations — keeps running.",
+      "seeAlso": "3.3.1.k"
+    },
+    "collection-information-statement": {
+      "term": "collection information statement",
+      "definition": "The financial disclosure form a taxpayer completes — listing income, expenses, assets, and debts — that the IRS uses to decide what they can realistically afford to pay.",
+      "seeAlso": "3.2.3.e"
+    },
+    "irs-collection-financial-standards": {
+      "term": "IRS Collection Financial Standards",
+      "definition": "The IRS's standard allowances for necessary living expenses, used to decide how much of a taxpayer's income can be expected to go toward a tax debt.",
+      "seeAlso": "3.2.3.e"
+    },
+    "collection-due-process-hearing": {
+      "term": "collection due process hearing",
+      "definition": "A hearing a taxpayer can request with the IRS's independent Office of Appeals before a levy, or after a lien filing, to challenge the collection action or propose an alternative.",
+      "seeAlso": "3.3.1.e"
+    },
+    "collection-appeals-program": {
+      "term": "Collection Appeals Program",
+      "definition": "A faster, more limited alternative to a collection due process hearing for challenging a lien, levy, seizure, or rejected payment plan — without the right to later take the dispute to Tax Court.",
+      "seeAlso": "3.3.1.d"
+    },
+    "audit-reconsideration": {
+      "term": "audit reconsideration",
+      "definition": "A request to have the IRS revisit a completed audit's results, typically because the taxpayer has new information or didn't get a real chance to present their case the first time.",
+      "seeAlso": "3.3.1.g"
+    },
+    "substitute-for-return": {
+      "term": "substitute for return",
+      "definition": "A return the IRS prepares and files on a taxpayer's behalf, using only the income information it already has on file, when the taxpayer doesn't file one themselves — usually without the deductions the taxpayer would have claimed.",
+      "seeAlso": null
+    },
+    "summons": {
+      "term": "summons",
+      "definition": "A formal IRS demand for a taxpayer or a third party to produce records or testimony relevant to figuring or collecting a tax, enforceable through court if it's ignored.",
+      "seeAlso": "3.3.1.l"
+    },
+    "nominee": {
+      "term": "nominee",
+      "definition": "Someone who holds legal title to property for its real, beneficial owner. The IRS can reach property held this way to collect the real owner's tax debt.",
+      "seeAlso": null
+    },
+    "successor-liability": {
+      "term": "successor liability",
+      "definition": "Responsibility a new owner of a business can inherit for the prior owner's unpaid taxes, particularly payroll taxes, in certain sales or transfers of the business.",
+      "seeAlso": null
+    },
+    "fraudulent-conveyance": {
+      "term": "fraudulent conveyance",
+      "definition": "Transferring property specifically to keep a creditor, including the IRS, from being able to reach it. A transfer like this can be undone even after it's already happened.",
+      "seeAlso": null
+    },
+    "audit": {
+      "term": "audit",
+      "definition": "The IRS's formal review of a filed return to check whether it's correct, also called an examination.",
+      "seeAlso": null
+    },
+    "revenue-agent-report": {
+      "term": "revenue agent report",
+      "definition": "The IRS examiner's written report proposing changes to a taxpayer's return after an audit, laying out the adjustments and the reasons for them.",
+      "seeAlso": "3.3.3.f"
+    },
+    "thirty-day-letter": {
+      "term": "30-day letter",
+      "definition": "The letter that accompanies a revenue agent report, giving the taxpayer 30 days to agree, request an Appeals conference, or otherwise respond before the case moves toward a formal deficiency notice.",
+      "seeAlso": "3.3.3.f"
+    },
+    "notice-of-deficiency": {
+      "term": "notice of deficiency",
+      "definition": "The IRS's formal determination that a taxpayer owes more tax. It starts the clock on the taxpayer's right to petition the Tax Court before paying anything.",
+      "seeAlso": "3.3.4.e"
+    },
+    "ninety-day-letter": {
+      "term": "90-day letter",
+      "definition": "The common name for a notice of deficiency, so called because the taxpayer has 90 days to petition the Tax Court before the IRS can assess the additional tax.",
+      "seeAlso": "3.3.4.e"
+    },
+    "tax-court": {
+      "term": "Tax Court",
+      "definition": "The federal court where a taxpayer can dispute a proposed tax deficiency before paying it, unlike other courts, which generally require paying first and suing for a refund afterward.",
+      "seeAlso": null
+    },
+    "small-case-procedure": {
+      "term": "small case procedure",
+      "definition": "A simplified, less formal Tax Court process available for smaller disputes. It moves faster, but its decision can't be appealed.",
+      "seeAlso": null
+    },
+    "appeals": {
+      "term": "Appeals",
+      "definition": "The IRS's independent office that reviews disputed examination and collection decisions, aiming to settle cases based on the risk each side would face in litigation, rather than simply upholding the original decision.",
+      "seeAlso": null
+    },
+    "cp2000-notice": {
+      "term": "CP2000 notice",
+      "definition": "An IRS notice proposing changes to a return because income reported by employers, banks, or other payers doesn't match what the taxpayer reported, issued without a full audit.",
+      "seeAlso": "3.3.3.g"
+    },
+    "math-error-notice": {
+      "term": "math error notice",
+      "definition": "A notice the IRS sends to correct an obvious error on a return — like a miscalculation or a credit claimed above its allowed limit — without going through the normal deficiency process.",
+      "seeAlso": null
+    },
+    "burden-of-proof": {
+      "term": "burden of proof",
+      "definition": "Which side has to prove its position is correct. In a tax dispute this generally starts with the taxpayer, though it can shift to the IRS in certain circumstances.",
+      "seeAlso": null
+    },
+    "transcript": {
+      "term": "transcript",
+      "definition": "An IRS-generated summary of a taxpayer's account or return history, showing what was filed, what was paid, and any penalties or adjustments on record.",
+      "seeAlso": null
+    },
+    "private-letter-ruling": {
+      "term": "private letter ruling",
+      "definition": "A written answer the IRS gives a specific taxpayer who asks in advance how the law applies to their own proposed transaction. It's binding only for that taxpayer and that situation.",
+      "seeAlso": null
+    },
+    "revenue-ruling": {
+      "term": "revenue ruling",
+      "definition": "An official IRS position on how the tax law applies to a specific set of facts, published so that any taxpayer in the same situation can rely on it.",
+      "seeAlso": null
+    },
+    "accuracy-related-penalty": {
+      "term": "accuracy-related penalty",
+      "definition": "A penalty for underpaying tax because of negligence, disregard of the rules, or a substantial understatement of tax, generally figured as a percentage of the underpayment.",
+      "seeAlso": null
+    },
+    "substantial-understatement": {
+      "term": "substantial understatement",
+      "definition": "An understatement of tax large enough, relative to the tax that should have been shown, to trigger the accuracy-related penalty on its own, without needing separate proof of negligence.",
+      "seeAlso": null
+    },
+    "civil-fraud-penalty": {
+      "term": "civil fraud penalty",
+      "definition": "A much steeper penalty than the accuracy-related penalty, applying when part of an underpayment is due to actual fraud rather than mere carelessness or disregard of the rules.",
+      "seeAlso": null
+    },
+    "failure-to-file-penalty": {
+      "term": "failure-to-file penalty",
+      "definition": "A penalty for not filing a return by its due date, generally figured as a percentage of the unpaid tax for each month, or part of a month, that the return is late.",
+      "seeAlso": null
+    },
+    "failure-to-pay-penalty": {
+      "term": "failure-to-pay penalty",
+      "definition": "A penalty for not paying tax owed by its due date, generally smaller per month than the failure-to-file penalty, but able to run alongside it.",
+      "seeAlso": null
+    },
+    "first-time-abatement": {
+      "term": "first-time abatement",
+      "definition": "Relief that removes certain penalties for a taxpayer with a clean recent compliance history, without needing to separately show reasonable cause.",
+      "seeAlso": null
+    },
+    "preparer-penalty": {
+      "term": "preparer penalty",
+      "definition": "A penalty imposed directly on a paid tax return preparer, rather than on the taxpayer, for problems like understating a client's tax or failing required due diligence.",
+      "seeAlso": null
+    },
+    "frivolous-return-penalty": {
+      "term": "frivolous return penalty",
+      "definition": "A penalty for filing a return or other submission based on a position the IRS has identified as having no basis in the law, separate from and in addition to any other penalty.",
+      "seeAlso": "3.1.3.c"
+    },
+    "reasonable-cause-defense": {
+      "term": "reasonable cause",
+      "definition": "A defense to many penalties: showing that the taxpayer used ordinary business care but still couldn't comply, because of circumstances genuinely beyond their control.",
+      "seeAlso": null
+    },
+    "willful": {
+      "term": "willful",
+      "definition": "Acting with knowledge that you were breaking a legal duty, as opposed to being merely careless. Many of the harshest penalties and reporting failures require proof of this state of mind.",
+      "seeAlso": null
+    },
+    "badges-of-fraud": {
+      "term": "badges of fraud",
+      "definition": "The pattern of circumstantial signs — like consistently hiding income or keeping two sets of books — that the IRS points to as evidence someone acted with intent to evade tax, since outright admissions of fraud are rare.",
+      "seeAlso": null
+    },
+    "underpayment-penalty": {
+      "term": "underpayment penalty",
+      "definition": "A penalty for not paying enough tax throughout the year, through withholding or estimated payments, even if the full balance owed is paid by the filing deadline.",
+      "seeAlso": null
+    },
+    "circular-230": {
+      "term": "Circular 230",
+      "definition": "The Treasury regulations governing who may practice before the IRS, and the ethical and professional standards they must follow.",
+      "seeAlso": "3.1.2.p"
+    },
+    "enrolled-agent": {
+      "term": "enrolled agent",
+      "definition": "A tax practitioner licensed directly by the IRS, rather than by a state, with the right to represent taxpayers before the IRS in any matter.",
+      "seeAlso": null
+    },
+    "ptin": {
+      "term": "PTIN",
+      "definition": "The identifying number the IRS requires every paid tax return preparer to obtain and put on each return they prepare.",
+      "seeAlso": "3.1.2.o"
+    },
+    "power-of-attorney": {
+      "term": "power of attorney",
+      "definition": "A document authorizing someone else, usually a practitioner, to represent a taxpayer before the IRS — such as by signing agreements or receiving confidential information, depending on what's authorized.",
+      "seeAlso": "3.2.1.a"
+    },
+    "tax-information-authorization": {
+      "term": "tax information authorization",
+      "definition": "A more limited authorization than a power of attorney, letting a third party receive and inspect a taxpayer's confidential information without the power to act or sign on their behalf.",
+      "seeAlso": "3.2.1.h"
+    },
+    "centralized-authorization-file-number": {
+      "term": "CAF number",
+      "definition": "The IRS's tracking number for a practitioner's authorizations, assigned once and used on every power of attorney or tax information authorization they file.",
+      "seeAlso": "3.2.1.j"
+    },
+    "office-of-professional-responsibility": {
+      "term": "Office of Professional Responsibility",
+      "definition": "The IRS office that investigates and disciplines practitioners for misconduct under Circular 230.",
+      "seeAlso": null
+    },
+    "disbarment": {
+      "term": "disbarment",
+      "definition": "The most severe Circular 230 sanction, barring a practitioner from representing anyone before the IRS.",
+      "seeAlso": null
+    },
+    "suspension-practitioner": {
+      "term": "suspension",
+      "definition": "A Circular 230 sanction that temporarily bars a practitioner from practicing before the IRS for a set period.",
+      "seeAlso": null
+    },
+    "censure": {
+      "term": "censure",
+      "definition": "A public reprimand under Circular 230 that doesn't bar a practitioner from practicing, but is still a formal, on-the-record rebuke.",
+      "seeAlso": null
+    },
+    "due-diligence": {
+      "term": "due diligence",
+      "definition": "The level of care a practitioner is required to use in preparing returns and giving advice — checking the facts and the law, rather than just taking a client's word for it.",
+      "seeAlso": "3.1.2.p"
+    },
+    "conflict-of-interest": {
+      "term": "conflict of interest",
+      "definition": "A situation where a practitioner's representation of one client could be limited by responsibilities to another client, or by the practitioner's own interests, generally requiring the affected clients' written consent to move forward.",
+      "seeAlso": null
+    },
+    "efin": {
+      "term": "EFIN",
+      "definition": "The identifying number the IRS assigns to an authorized e-file provider, separate from a preparer's own PTIN.",
+      "seeAlso": "3.4.3.g"
+    },
+    "ero": {
+      "term": "ERO",
+      "definition": "Short for Electronic Return Originator: the firm or individual authorized to electronically file returns with the IRS on a taxpayer's behalf.",
+      "seeAlso": "3.4.3.d"
+    },
+    "annual-filing-season-program": {
+      "term": "Annual Filing Season Program",
+      "definition": "A voluntary IRS program for unenrolled preparers who complete continuing education, giving them limited rights to represent clients whose returns they prepared.",
+      "seeAlso": null
+    },
+    "unenrolled-preparer": {
+      "term": "unenrolled preparer",
+      "definition": "A paid return preparer who isn't an enrolled agent, attorney, or CPA, and so has more limited rights to represent clients before the IRS.",
+      "seeAlso": null
+    },
+    "privilege": {
+      "term": "privilege",
+      "definition": "A legal protection letting certain communications, such as those with an attorney, be withheld from the IRS or a court. It does not automatically extend to every kind of tax professional.",
+      "seeAlso": null
+    },
+    "work-product-doctrine": {
+      "term": "work product doctrine",
+      "definition": "A legal protection for materials prepared in anticipation of litigation, separate from attorney-client privilege, that can sometimes shield a practitioner's analysis from having to be turned over.",
+      "seeAlso": null
+    },
+    "taxpayer-advocate-service": {
+      "term": "Taxpayer Advocate Service",
+      "definition": "An independent organization within the IRS that helps taxpayers resolve problems they haven't been able to fix through normal channels, especially cases of genuine hardship.",
+      "seeAlso": "3.2.6.h"
+    },
+    "identity-theft": {
+      "term": "identity theft",
+      "definition": "When someone else uses a taxpayer's personal information to file a fraudulent return, or otherwise commit tax fraud, in that taxpayer's name.",
+      "seeAlso": "3.2.6.i"
+    },
+    "amended-return": {
+      "term": "amended return",
+      "definition": "A return filed to correct or update a return already filed — used to claim a missed deduction or credit, fix an error, or report additional income.",
+      "seeAlso": "3.3.1.o"
+    },
+    "claim-for-refund": {
+      "term": "claim for refund",
+      "definition": "A formal request to the IRS for money back, whether made through an amended return or a separate form, that must be filed within a set window to be considered at all.",
+      "seeAlso": "3.3.1.o"
+    },
+    "assessment": {
+      "term": "assessment",
+      "definition": "The formal, recorded determination that a taxpayer owes a specific amount of tax. It's what actually allows the IRS to begin collecting that amount.",
+      "seeAlso": "3.2.6.a"
+    },
+    "deficiency": {
+      "term": "deficiency",
+      "definition": "The gap between the tax a taxpayer actually owed and what they reported. Except in limited situations, the IRS must issue a notice of this before it can assess the additional tax.",
+      "seeAlso": "3.2.6.a"
+    },
+    "abatement": {
+      "term": "abatement",
+      "definition": "Cancelling or reducing a tax, penalty, or interest that was assessed, either because it was wrong to begin with or because the taxpayer qualifies for relief.",
+      "seeAlso": null
+    },
+    "required-minimum-distribution": {
+      "term": "required minimum distribution",
+      "definition": "The minimum amount that must be withdrawn each year from most retirement accounts starting at a certain age, whether or not the owner actually needs the money.",
+      "seeAlso": "1.2.2.h"
+    },
+    "net-unrealized-appreciation": {
+      "term": "net unrealized appreciation",
+      "definition": "A rule letting employer stock held in a workplace retirement plan be moved out with only its original cost taxed immediately, deferring tax on the growth until the stock is later sold at capital gain rates.",
+      "seeAlso": "1.2.2.k"
+    },
+    "rollover": {
+      "term": "rollover",
+      "definition": "Moving retirement funds from one eligible account to another without triggering current tax, as long as the move follows the rules for timing and eligible accounts.",
+      "seeAlso": null
+    },
+    "sep-plan": {
+      "term": "SEP plan",
+      "definition": "A retirement plan for self-employed people and small businesses that lets the employer contribute directly to each participant's own IRA.",
+      "seeAlso": "2.3.3.c"
+    },
+    "simple-plan": {
+      "term": "SIMPLE plan",
+      "definition": "A retirement plan for small employers that's simpler to set up and run than a 401(k), letting both the employer and the employees contribute.",
+      "seeAlso": "2.3.3.c"
+    },
+    "health-savings-account": {
+      "term": "health savings account",
+      "definition": "A tax-advantaged account for medical expenses, available to people enrolled in a qualifying high-deductible health plan. Contributions and qualified withdrawals both go untaxed.",
+      "seeAlso": "1.2.4.c"
+    }
+  }
+}
