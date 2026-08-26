@@ -70,6 +70,94 @@ first entry on the slop-fingerprint list. `#F7F7F4` is a cool grey-white — oni
 not artisan bakery. The red is a printing red, not terracotta. The distinction is the
 point; keep it.
 
+### Colour — dark mode, same six roles
+
+Not a second palette in spirit — the same six roles, remapped for a dark surface, the
+way a loose-leaf page reads under different light rather than a different publication.
+`--ink` never becomes pure white for the same reason `--ink` was never pure black:
+off-white on off-black, not print-negative.
+
+```
+--paper        #17181B   off-black, never #000
+--surface      #1F2024
+--ink          #EDEDEC   off-white, never #FFF
+--ink-soft     #ABAEB4
+--rule         #33353A   hairline
+--accent       #D9776E   the same printing red, lightened for luminance
+--accent-soft  #2B211F
+--ok           #5CA97F
+--warn         #D19A5C
+```
+
+**The accent is not a second colour — it's the same one, tuned.** `#8C1D18` at
+1.95:1 on `#17181B` fails outright; a dark surface needs the accent lightened for
+the same reason the old gold needed `--gold-text`, except here it's handled as one
+deliberate dark-mode value instead of a second always-on token. `--ok`/`--warn` are
+lightened the same way.
+
+Measured on the composited render, same floor as light mode — every text pairing
+clears 4.5:1, decorative hairlines excepted (matched against light mode's own
+1.40:1 rule-on-paper, which was never meant to pass the text floor either):
+
+| Role | Ratio |
+|---|---|
+| ink on paper | 15.15:1 |
+| ink-soft on paper | 7.98:1 |
+| ink on surface | 13.89:1 |
+| accent on paper | 5.76:1 |
+| accent on accent-soft | 5.09:1 |
+| ok on paper | 6.29:1 |
+| warn on paper | 7.18:1 |
+| rule on paper (hairline, decorative) | 1.45:1 |
+
+Respects system preference (`prefers-color-scheme: dark`) by default; an explicit
+toggle overrides it and is remembered per browser. Switching themes transitions
+`background-color`/`color`/`border-color` only — never `transition: all` — and only
+under `prefers-reduced-motion: no-preference`, same rule the rest of the site
+already follows.
+
+### Colour — high contrast, light and dark
+
+A fourth and fifth variant, each composing with light or dark rather than replacing
+them: `ink` and `paper` go to literal black/white here, which is a deliberate,
+reasoned exception to "ink never #000, paper never #FFF" — that rule exists for the
+loose-leaf register at normal contrast; a reader who has turned on high contrast is
+explicitly asking to trade that register for maximum legibility, and the tool should
+give it to them rather than hold the aesthetic line against their own accessibility
+setting.
+
+```
+Light, high contrast              Dark, high contrast
+--paper        #FFFFFF            --paper        #000000
+--surface      #FFFFFF            --surface      #000000
+--ink          #000000            --ink          #FFFFFF
+--ink-soft     #333333            --ink-soft     #CFCFCF
+--rule         #000000            --rule         #FFFFFF
+--accent       #6B0F0B            --accent       #FF8A7A
+--accent-soft  #F0D9D5            --accent-soft  #2A1512
+--ok           #0F3D22            --ok           #6FDA9E
+--warn         #5C3008            --warn         #F0B36E
+```
+
+All text pairings clear AAA (≥7:1), not just the ≥4.5:1 floor the other two modes
+hold to — that's the point of offering it:
+
+| Role | Light HC | Dark HC |
+|---|---|---|
+| ink on paper | 21.00:1 | 21.00:1 |
+| ink-soft on paper | 12.63:1 | 13.48:1 |
+| accent on paper | 12.37:1 | 9.17:1 |
+| ink on accent-soft | 15.59:1 | 17.29:1 |
+| accent on accent-soft | 9.18:1 | 7.55:1 |
+| ok on paper | 12.27:1 | 12.20:1 |
+| warn on paper | 11.16:1 | 11.38:1 |
+
+Auto-detected via `prefers-contrast: more` composed with `prefers-color-scheme`, so a
+reader whose OS asks for both gets the right combination with no JS at all — same
+no-JS-first posture as light/dark. The toggle cycles all five: Auto, Light, Dark,
+Light HC, Dark HC, so either axis is reachable without a second control; a reference
+tool gets one plain button, not a settings panel.
+
 ### Type — two families, not three
 
 - **Source Serif 4** — body *and* display. A transitional serif at reading size is

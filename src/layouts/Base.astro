@@ -38,6 +38,19 @@ const identityJsonld = {
 <!doctype html>
 <html lang="en" data-pagefind-ignore={noindex ? 'true' : undefined}>
 <head>
+  {/* Runs before anything paints: if the reader has an explicit theme choice saved,
+      set it before first paint so there's no flash of the other theme. Absent a
+      saved choice, prefers-color-scheme in global.css handles it with no JS at all. */}
+  <script is:inline>
+    (function () {
+      try {
+        var t = localStorage.getItem('theme');
+        if (t === 'light' || t === 'dark' || t === 'light-hc' || t === 'dark-hc') {
+          document.documentElement.setAttribute('data-theme', t);
+        }
+      } catch (e) {}
+    })();
+  </script>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>{title} | TaxEar</title>
@@ -59,8 +72,43 @@ const identityJsonld = {
     <nav class="nav" aria-label="Primary">
       {nav.map(([href, label]) => <a href={href} aria-current={path.startsWith(href) ? 'page' : undefined}>{label}</a>)}
       <a href="/search/" aria-current={path === '/search/' ? 'page' : undefined}>Search</a>
+      <button class="theme-toggle" id="theme-toggle" type="button" aria-label="Colour theme"></button>
     </nav>
   </div></header>
+  <script is:inline>
+    (function () {
+      var btn = document.getElementById('theme-toggle');
+      if (!btn) return;
+      var order = ['auto', 'light', 'dark', 'light-hc', 'dark-hc'];
+      var labels = { auto: 'Auto', light: 'Light', dark: 'Dark', 'light-hc': 'Light HC', 'dark-hc': 'Dark HC' };
+      function current() {
+        try {
+          var t = localStorage.getItem('theme');
+          return order.indexOf(t) > 0 ? t : 'auto';
+        } catch (e) { return 'auto'; }
+      }
+      function label(mode) { return labels[mode]; }
+      function longLabel(mode) {
+        return mode === 'auto' ? 'matching your system' : mode === 'light' ? 'light'
+          : mode === 'dark' ? 'dark' : mode === 'light-hc' ? 'light, high contrast'
+          : 'dark, high contrast';
+      }
+      function apply(mode) {
+        if (mode === 'auto') document.documentElement.removeAttribute('data-theme');
+        else document.documentElement.setAttribute('data-theme', mode);
+        btn.textContent = label(mode);
+        btn.setAttribute('aria-label', 'Colour theme: ' + longLabel(mode) + '. Click to change.');
+        try {
+          if (mode === 'auto') localStorage.removeItem('theme');
+          else localStorage.setItem('theme', mode);
+        } catch (e) {}
+      }
+      apply(current());
+      btn.addEventListener('click', function () {
+        apply(order[(order.indexOf(current()) + 1) % order.length]);
+      });
+    })();
+  </script>
   <main class="wrap" data-pagefind-body><slot /></main>
   <div class="wrap"><Digest /></div>
   <footer class="site-foot"><div class="wrap">

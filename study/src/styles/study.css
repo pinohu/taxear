@@ -23,6 +23,51 @@
   --measure:64ch; --gutter:clamp(16px,4vw,52px); --radius:2px;
 }
 
+/* Five theme variants, identical tokens and ratios to the main site's (see
+   ../../../DESIGN.md, "Colour — dark mode" and "Colour — high contrast"), so this
+   reads as the same publication in any theme. Any explicit [data-theme] disables
+   auto-detection below; the explicit blocks come last so they always win. */
+@media (prefers-color-scheme:dark){
+  :root:not([data-theme]){
+    --paper:#17181B; --surface:#1F2024; --ink:#EDEDEC; --ink-soft:#ABAEB4;
+    --rule:#33353A; --accent:#D9776E; --accent-soft:#2B211F;
+    --ok:#5CA97F; --warn:#D19A5C;
+  }
+}
+@media (prefers-color-scheme:light) and (prefers-contrast:more){
+  :root:not([data-theme]){
+    --paper:#FFFFFF; --surface:#FFFFFF; --ink:#000000; --ink-soft:#333333;
+    --rule:#000000; --accent:#6B0F0B; --accent-soft:#F0D9D5;
+    --ok:#0F3D22; --warn:#5C3008;
+  }
+}
+@media (prefers-color-scheme:dark) and (prefers-contrast:more){
+  :root:not([data-theme]){
+    --paper:#000000; --surface:#000000; --ink:#FFFFFF; --ink-soft:#CFCFCF;
+    --rule:#FFFFFF; --accent:#FF8A7A; --accent-soft:#2A1512;
+    --ok:#6FDA9E; --warn:#F0B36E;
+  }
+}
+:root[data-theme="dark"]{
+  --paper:#17181B; --surface:#1F2024; --ink:#EDEDEC; --ink-soft:#ABAEB4;
+  --rule:#33353A; --accent:#D9776E; --accent-soft:#2B211F;
+  --ok:#5CA97F; --warn:#D19A5C;
+}
+:root[data-theme="light-hc"]{
+  --paper:#FFFFFF; --surface:#FFFFFF; --ink:#000000; --ink-soft:#333333;
+  --rule:#000000; --accent:#6B0F0B; --accent-soft:#F0D9D5;
+  --ok:#0F3D22; --warn:#5C3008;
+}
+:root[data-theme="dark-hc"]{
+  --paper:#000000; --surface:#000000; --ink:#FFFFFF; --ink-soft:#CFCFCF;
+  --rule:#FFFFFF; --accent:#FF8A7A; --accent-soft:#2A1512;
+  --ok:#6FDA9E; --warn:#F0B36E;
+}
+@media (prefers-reduced-motion:no-preference){
+  body,.site-head,.site-foot,.quiz-card,.callout,button,.domain-list li{
+    transition:background-color .15s,color .15s,border-color .15s}
+}
+
 *{box-sizing:border-box}
 html{background:var(--paper)}
 body{margin:0;font-family:var(--f-text);color:var(--ink);background:var(--paper);line-height:1.55}
@@ -37,6 +82,12 @@ a{color:var(--accent)}
 .site-head .wrap{display:flex;align-items:center;justify-content:space-between}
 .brand{font-family:var(--f-mono);font-weight:600;color:var(--ink);text-decoration:none;font-size:1.05rem}
 .brand span{color:var(--accent)}
+.nav{display:flex;align-items:center;gap:20px}
+.nav a{font-family:var(--f-mono);font-size:.85rem;color:var(--ink-soft);text-decoration:none}
+.nav a:hover{color:var(--ink)}
+.theme-toggle{background:none;border:0;padding:0;margin:0;cursor:pointer;
+  color:var(--ink-soft);font-size:.85rem;font-family:var(--f-mono)}
+.theme-toggle:hover{color:var(--ink)}
 .site-foot{border-top:1px solid var(--rule);padding:24px 0;margin-top:64px;color:var(--ink-soft);font-size:.9rem}
 
 main{padding:48px 0}
