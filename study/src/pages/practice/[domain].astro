@@ -1,0 +1,88 @@
+---
+import StudyBase from '../../layouts/StudyBase.astro';
+
+export async function getStaticPaths() {
+  const modules = import.meta.glob('../../data/questions/*.json', { eager: true });
+  return Object.values(modules).map((m) => ({ params: { domain: m.domain }, props: { data: m } }));
+}
+const { data } = Astro.props;
+---
+<StudyBase title={data.domainTitle} description={`Practice questions for ${data.domainTitle}.`}>
+  <div id="gate"><h1>Checking access…</h1></div>
+
+  <div id="quiz" style="display:none">
+    <p class="crumbs"><a href="/practice/">← All domains</a></p>
+    <h1>{data.domainTitle}</h1>
+    <p class="quiz-progress" id="progress"></p>
+    <div id="card"></div>
+    <div id="score" style="display:none"></div>
+  </div>
+
+  <script type="application/json" id="quiz-data" set:html={JSON.stringify(data.questions)} />
+  <script>
+    const questions = JSON.parse(document.getElementById('quiz-data').textContent);
+    let i = 0;
+    let correctCount = 0;
+    let answered = false;
+
+    const card = document.getElementById('card');
+    const progress = document.getElementById('progress');
+    const scoreEl = document.getElementById('score');
+
+    function renderQuestion() {
+      answered = false;
+      const q = questions[i];
+      progress.textContent = `Question ${i + 1} of ${questions.length}`;
+      card.innerHTML = `
+        <div class="quiz-card">
+          <p class="quiz-code">${q.code}</p>
+          <p>${q.stem}</p>
+          <ul class="quiz-options">
+            ${q.options.map((opt, idx) => `<li data-idx="${idx}">${opt}</li>`).join('')}
+          </ul>
+          <div class="quiz-explain" id="explain" style="display:none"></div>
+          <p style="margin-top:1em"><button id="next" class="secondary" style="display:none">Next →</button></p>
+        </div>`;
+
+      card.querySelectorAll('.quiz-options li').forEach((li) => {
+        li.addEventListener('click', () => {
+          if (answered) return;
+          answered = true;
+          const chosen = Number(li.dataset.idx);
+          const correct = chosen === q.answerIndex;
+          if (correct) correctCount++;
+          card.querySelectorAll('.quiz-options li').forEach((el) => {
+            const idx = Number(el.dataset.idx);
+            if (idx === q.answerIndex) el.classList.add('correct');
+            else if (idx === chosen) el.classList.add('incorrect');
+          });
+          const explain = document.getElementById('explain');
+          explain.style.display = '';
+          explain.innerHTML = `<strong>${correct ? 'Correct.' : 'Not quite.'}</strong> ${q.explanation}`;
+          document.getElementById('next').style.display = '';
+        });
+      });
+
+      card.querySelector('#next')?.addEventListener('click', () => {
+        i++;
+        if (i < questions.length) renderQuestion();
+        else renderScore();
+      });
+    }
+
+    function renderScore() {
+      progress.textContent = '';
+      card.innerHTML = '';
+      scoreEl.style.display = '';
+      scoreEl.innerHTML = `<p class="quiz-score">${correctCount} / ${questions.length} correct</p>
+        <p><a class="btn" href="/practice/">Choose another domain</a></p>`;
+    }
+
+    fetch('/api/access-check').then((r) => r.json()).then(({ access }) => {
+      if (!access) { window.location.href = '/'; return; }
+      document.getElementById('gate').style.display = 'none';
+      document.getElementById('quiz').style.display = '';
+      renderQuestion();
+    }).catch(() => { window.location.href = '/'; });
+  </script>
+</StudyBase>
