@@ -1,0 +1,54 @@
+---
+import StudyBase from '../layouts/StudyBase.astro';
+---
+<StudyBase
+  title="Original practice exams for the IRS Enrolled Agent exam"
+  description="Timed, original multiple-choice practice questions mapped to the IRS Special Enrollment Examination outline, from the team behind TaxEar.">
+  <p class="eyebrow">A companion to taxear.com</p>
+  <h1>Practice questions for the Enrolled Agent exam, mapped to the outline</h1>
+  <p>Every question here is written from scratch for this product and tagged to the same
+    IRS Special Enrollment Examination outline code as the reference page it pairs with on
+    <a href="https://taxear.com/">taxear.com</a> — never reproduced or adapted from any
+    commercial study guide or question bank.</p>
+
+  <div class="callout">
+    <p class="price">$79<sup> one-time, lifetime access</sup></p>
+    <p>No subscription. Pay once, use it for as long as you're studying.</p>
+    <button id="buy" type="button">Get access</button>
+    <p id="buy-error" style="color:var(--accent);display:none"></p>
+  </div>
+
+  <h2>What's in it today</h2>
+  <p>The practice bank is being built out one outline domain at a time. Right now it covers:</p>
+  <ul>
+    <li><strong>1.1.1 — Preliminary Work and Taxpayer Data</strong> (18 questions): filing
+      status, dependency qualifications, filing requirements, the kiddie tax, ACA/premium
+      tax credit basics, and residency and alien status.</li>
+  </ul>
+  <p>More domains are added over time at no extra cost to anyone who has already purchased
+    access.</p>
+
+  <h2>How it's different from the free reference site</h2>
+  <p>taxear.com explains the rule, cited to its authority, for every outline topic. This
+    product is the practice layer on top of that: realistic, exam-style questions with a
+    worked explanation for every answer, so you can check what you actually retained.</p>
+
+  <script>
+    const btn = document.getElementById('buy');
+    const err = document.getElementById('buy-error');
+    btn?.addEventListener('click', async () => {
+      btn.disabled = true;
+      err.style.display = 'none';
+      try {
+        const res = await fetch('/api/checkout', { method: 'POST' });
+        const data = await res.json();
+        if (!res.ok || !data.url) throw new Error(data.error || 'Something went wrong.');
+        window.location.href = data.url;
+      } catch (e) {
+        err.textContent = e.message;
+        err.style.display = 'block';
+        btn.disabled = false;
+      }
+    });
+  </script>
+</StudyBase>

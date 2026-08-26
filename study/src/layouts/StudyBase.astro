@@ -1,0 +1,29 @@
+---
+import '../styles/study.css';
+interface Props { title: string; description: string }
+const { title, description } = Astro.props;
+---
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>{title} | TaxEar Study</title>
+  <meta name="description" content={description} />
+  <meta name="robots" content="noindex" />
+  <link rel="preload" href="/fonts/source-serif-4-latin.woff2" as="font" type="font/woff2" crossorigin />
+</head>
+<body>
+  <header class="site-head"><div class="wrap">
+    <a class="brand" href="/">Tax<span>Ear</span> Study</a>
+    <nav><a href="https://taxear.com/" style="font-family:var(--f-mono);font-size:.85rem">← Back to the reference site</a></nav>
+  </div></header>
+  <main class="wrap"><slot /></main>
+  <footer class="site-foot"><div class="wrap">
+    <p>TaxEar Study is a paid companion product: original practice questions mapped to the
+      IRS Special Enrollment Examination outline. It is not affiliated with, endorsed by,
+      or reviewed by the IRS or its testing vendor. Educational only.</p>
+    <p>© {new Date().getFullYear()} Neat Circle LLC</p>
+  </div></footer>
+</body>
+</html>
