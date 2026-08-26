@@ -24,12 +24,21 @@ const proof = figuresData.figures[PROOF_KEY];
 // Same logic as scripts/remark-figures.mjs's sourceHtml (duplicated, not imported —
 // that module reads figures.json via an import.meta.url-relative path meant for its
 // own directory, which breaks if pulled into a page's Vite bundle). Trailing sentence
-// punctuation is stripped from the URL and reappended after the link.
+// punctuation is stripped from the URL and reappended after the link; parens are
+// matched too (Treas. Reg. citations legitimately contain them, e.g. § 1.1031(k)-1) —
+// only an unbalanced trailing ')' gets stripped the same way.
 const proofSrc = String(proof?.source ?? '').replace(
-  /(?:https?:\/\/)?(?:www\.)?(?:law\.cornell\.edu|irs\.gov)\/[^\s,;)]+/g,
+  /(?:https?:\/\/)?(?:www\.)?(?:law\.cornell\.edu|irs\.gov)\/[^\s,;]+/g,
   (m) => {
     let trail = '';
-    while (m && /[.,;:!?]$/.test(m)) { trail = m.slice(-1) + trail; m = m.slice(0, -1); }
+    let changed = true;
+    while (changed) {
+      changed = false;
+      if (/[.,;:!?]$/.test(m)) { trail = m.slice(-1) + trail; m = m.slice(0, -1); changed = true; }
+      else if (m.endsWith(')') && (m.split('(').length - 1) < (m.split(')').length - 1)) {
+        trail = ')' + trail; m = m.slice(0, -1); changed = true;
+      }
+    }
     const href = m.startsWith('http') ? m : 'https://' + m;
     return `<a href="${href}" rel="noopener">${m}</a>${trail}`;
   });
