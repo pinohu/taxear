@@ -23,11 +23,18 @@ const esc = (s) => String(s ?? '')
   .replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;');
 
 // Turn a bare source string into a link where it names one, so the reader can go and
-// check it themselves — the whole point of citing it.
+// check it themselves — the whole point of citing it. Trailing sentence punctuation
+// (the period ending "...page last reviewed 30 April 2026 — https://irs.gov/i2848.")
+// is stripped from the URL and reappended after the link, so it never gets swallowed
+// into the href.
 function sourceHtml(source) {
   const s = esc(source);
-  return s.replace(/((?:https?:\/\/)?(?:www\.)?(?:law\.cornell\.edu|irs\.gov)\/[^\s,;)]+)/g,
-    (m) => `<a href="${m.startsWith('http') ? m : 'https://' + m}" rel="noopener">${m}</a>`);
+  return s.replace(/(?:https?:\/\/)?(?:www\.)?(?:law\.cornell\.edu|irs\.gov)\/[^\s,;)]+/g, (m) => {
+    let trail = '';
+    while (m && /[.,;:!?]$/.test(m)) { trail = m.slice(-1) + trail; m = m.slice(0, -1); }
+    const href = m.startsWith('http') ? m : 'https://' + m;
+    return `<a href="${href}" rel="noopener">${m}</a>${trail}`;
+  });
 }
 
 export default function remarkFigures() {
