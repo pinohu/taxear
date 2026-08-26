@@ -12,7 +12,7 @@ reviewedBy: "N. O."
 authorities:
   - { type: Pub, ref: "IRS, Get an identity protection PIN", title: "Get an identity protection PIN (IP PIN), page last reviewed 4 August 2026", url: "https://www.irs.gov/identity-theft-fraud-scams/get-an-identity-protection-pin" }
   - { type: Pub, ref: "IRS, Identity theft guide", title: "Identity theft guide for individuals, page last reviewed 4 June 2026", url: "https://www.irs.gov/newsroom/taxpayer-guide-to-identity-theft" }
-  - { type: Form, ref: "14039", title: "Identity Theft Affidavit", url: "https://www.irs.gov/forms-pubs/about-form-14039" }
+  - { type: Form, ref: "14039", title: "Identity Theft Affidavit", url: "https://www.irs.gov/pub/irs-pdf/f14039.pdf" }
   - { type: IRC, ref: "§ 6103", title: "Confidentiality and disclosure of returns and return information", url: "https://www.law.cornell.edu/uscode/text/26/6103" }
 forms: []
 related: ["3.2.6.e", "3.2.6.f", "3.2.6.h", "3.4.3.i", "3.4.2.b"]

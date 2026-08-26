@@ -23,11 +23,27 @@ const esc = (s) => String(s ?? '')
   .replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;');
 
 // Turn a bare source string into a link where it names one, so the reader can go and
-// check it themselves — the whole point of citing it.
+// check it themselves — the whole point of citing it. Trailing sentence punctuation
+// (the period ending "...page last reviewed 30 April 2026 — https://irs.gov/i2848.")
+// is stripped from the URL and reappended after the link, so it never gets swallowed
+// into the href. Parens are matched too, since Treas. Reg. citations legitimately
+// contain them (26 CFR § 1.1031(k)-1) — only an unbalanced trailing ')' (a prose
+// parenthetical the URL sits inside) gets stripped, the same way.
 function sourceHtml(source) {
   const s = esc(source);
-  return s.replace(/((?:https?:\/\/)?(?:www\.)?(?:law\.cornell\.edu|irs\.gov)\/[^\s,;)]+)/g,
-    (m) => `<a href="${m.startsWith('http') ? m : 'https://' + m}" rel="noopener">${m}</a>`);
+  return s.replace(/(?:https?:\/\/)?(?:www\.)?(?:law\.cornell\.edu|irs\.gov)\/[^\s,;]+/g, (m) => {
+    let trail = '';
+    let changed = true;
+    while (changed) {
+      changed = false;
+      if (/[.,;:!?]$/.test(m)) { trail = m.slice(-1) + trail; m = m.slice(0, -1); changed = true; }
+      else if (m.endsWith(')') && (m.split('(').length - 1) < (m.split(')').length - 1)) {
+        trail = ')' + trail; m = m.slice(0, -1); changed = true;
+      }
+    }
+    const href = m.startsWith('http') ? m : 'https://' + m;
+    return `<a href="${href}" rel="noopener">${m}</a>${trail}`;
+  });
 }
 
 export default function remarkFigures() {
