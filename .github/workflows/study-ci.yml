@@ -1,0 +1,34 @@
+name: Study build and verify
+
+# Entirely separate from ci.yml (the main site's workflow): only runs when something
+# under study/ changes, and only touches that subdirectory. Never installs, builds, or
+# verifies the root site, and the root workflow never touches this one either.
+on:
+  push:
+    branches: ['**']
+    paths: ['study/**', '.github/workflows/study-ci.yml']
+  pull_request:
+    paths: ['study/**', '.github/workflows/study-ci.yml']
+
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: study
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version-file: .nvmrc
+          cache: npm
+          cache-dependency-path: study/package-lock.json
+
+      - run: npm ci
+
+      # Question-bank shape: ids, outline codes, option counts, answer index, explanation.
+      - run: npm run verify
+
+      # Confirms the app actually builds.
+      - run: npm run build
