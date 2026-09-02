@@ -270,3 +270,15 @@ indebtedness on behalf of all its partners?
 *Answer: no. IRC § 703(b)(1) removes the IRC § 108(b)(5) and (c)(3) elections from the general rule that
 elections affecting partnership taxable income are made by the partnership, and gives them to each partner
 separately. Partners in the same partnership may elect differently on the same discharge.*
+
+**6. A partnership is insolvent by $2,000,000 when a lender forgives $450,000 of its debt. Partner Ludovic, allocated $150,000 of the discharge income, has personal net assets of $900,000 after counting his share of partnership liabilities. Ludovic must include:**
+(A) $150,000, because he is not himself insolvent (B) Nothing, because the partnership is insolvent (C) Nothing, because his share of the partnership's insolvency exceeds $150,000 (D) $150,000, but deferred until the partnership becomes solvent
+*Answer: A. IRC § 108(d)(6) applies the insolvency exclusion at the partner level, so the test is whether the partner is insolvent on his own liabilities and assets; a solvent partner in an insolvent partnership excludes nothing.*
+
+**7. Perpetua's outside basis is $20,000. She is allocated $60,000 of partnership discharge income, none of which she can exclude, and her share of partnership liabilities falls by $60,000. What gain does she recognise under IRC § 731(a)(1)?**
+(A) None (B) $40,000 (C) $60,000 (D) $80,000
+*Answer: A. IRC § 705(a)(1)(A) increases her basis by the $60,000 of included income to $80,000 before the IRC § 752(b) deemed distribution of $60,000 reduces it to $20,000; because the income was taxed rather than excluded, the two movements offset and no basis is exceeded.*
+
+**8. In March 2026 a lender discharges qualified principal residence indebtedness. No written arrangement for the discharge existed before 2026. Is the IRC § 108(a)(1)(E) exclusion available?**
+(A) No, it reaches only a discharge before 1 January 2026 or one under a written arrangement entered into before that date (B) Yes, the exclusion has no expiry (C) Yes, for any discharge before 1 January 2027 (D) Yes, but only if applied at the partnership level
+*Answer: A. IRC § 108(a)(1)(E) by its own terms covers only a discharge occurring before 1 January 2026, or one made under a written arrangement entered into before that date, and the primary window has closed.*

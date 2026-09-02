@@ -291,3 +291,15 @@ under IRC § 409A(a)(1)(A) — not just the 2026 deferral. On top, IRC § 409A(a
 of the included amount, so $120,000, plus interest at the underpayment rate plus one percentage
 point computed as though each amount had been included when it vested. Only participants to whom the
 failure relates are affected.
+
+**6. Which of the following is not one of the three tax advantages that qualification under IRC § 401(a) secures?**
+(A) The employer deducts its contribution when made (B) The employee is not taxed until distribution (C) The trust's earnings accumulate free of tax (D) Amounts distributed to the employee are received free of tax
+*Answer: D. IRC § 402(a): an amount actually distributed by an exempt employees' trust is taxable to the distributee in the year distributed under IRC § 72. The three advantages are the IRC § 404 deduction on contribution, the IRC § 402(a) deferral until distribution, and tax-free accumulation under IRC § 501(a).*
+
+**7. An executive's bonus is based on performance over calendar year 2026. On 20 August 2026, with no election in place, she elects to defer it under the company's non-qualified plan. She has participated in the plan for years. Is the election timely?**
+(A) Yes, because it was made before the end of the performance period (B) Yes, because performance-based compensation may be deferred at any time before payment (C) No, because the election had to be made at least six months before the end of the twelve-month performance period (D) No, because performance-based compensation can never be deferred
+*Answer: C. IRC § 409A(a)(4)(B): for performance-based compensation based on services over at least twelve months the election may be made no later than six months before the end of the period, which for calendar 2026 means by 30 June; the general prior-year rule and the thirty-day first-eligibility rule do not help her.*
+
+**8. A participant takes an early distribution of $30,000 from his employer's qualified 401(k) plan with no exception available. Which additional tax applies?**
+(A) 20 percent under IRC § 409A (B) 10 percent under IRC § 72(t) (C) Both, because the two statutes are cumulative (D) None, because qualified plan distributions carry no additional tax
+*Answer: B. IRC § 72(t): the 10 percent additional tax is the provision for an early distribution from a qualified plan. IRC § 409A polices non-qualified deferred compensation and does not apply to a qualified plan, so applying its 20 percent additional tax here has the wrong statute.*

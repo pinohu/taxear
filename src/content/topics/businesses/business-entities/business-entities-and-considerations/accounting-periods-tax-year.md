@@ -275,3 +275,15 @@ IRC § 443(a)(1) the short period runs from the day after the close of the forme
 the first day of the new one. Under IRC § 443(b)(1) modified taxable income for the nine-month period is
 multiplied by 12 and divided by 9, tax is computed on that annualised figure, and the short-period tax is
 nine-twelfths of it.*
+
+**6. A partnership has three partners. Alder holds 60 percent of profits but 30 percent of capital and uses a year ending 30 June. Birch and Cedar each hold 20 percent of profits and 35 percent of capital and use the calendar year. What is the partnership's required year?**
+(A) 30 June, because Alder holds a majority of profits (B) 30 June, because Alder is the largest single partner (C) The calendar year, because no majority interest year exists and the principal partners do not all share a year (D) Whichever year the partnership prefers, since the tests conflict
+*Answer: C. The majority interest test under IRC § 706(b)(4)(A)(i) requires more than half of profits and capital in aggregate, and no group of partners with a common year holds both; all three are principal partners under IRC § 706(b)(3) but do not share a year, so the calendar year applies.*
+
+**7. A newly formed partnership whose required year is the calendar year makes a section 444 election at formation for a year ending 31 October. What is the deferral period of the elected year?**
+(A) One month (B) Two months (C) Three months (D) Ten months
+*Answer: B. IRC § 444(b)(4) measures the deferral period from the beginning of the elected year, 1 November, to the close of the first required year ending within it, 31 December, which is two months; that is within the three-month cap of IRC § 444(b)(1).*
+
+**8. A partnership whose partners are all calendar-year individuals asks for a year ending 31 January, on the stated ground that the partners would like to defer eleven months of income. On what basis is the request decided?**
+(A) Granted, because a business purpose is any reason the partners give (B) Granted, provided every partner consents in writing (C) Refused; deferral of income to partners is expressly not a business purpose (D) Granted under a section 444 election, since the deferral period is one month
+*Answer: C. IRC § 706(b)(1)(C) says in terms that deferral of income to partners is never a business purpose; a 31 January year would also carry an eleven-month deferral period, far beyond the three-month cap that section 444 imposes.*

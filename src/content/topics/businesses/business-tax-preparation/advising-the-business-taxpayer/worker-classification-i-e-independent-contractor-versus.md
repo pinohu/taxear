@@ -325,3 +325,15 @@ insurance salesman and the travelling or city salesman — so a part-time worker
 falls out of the statutory list and back to the common law test. Hours can also be evidence under
 the common law test, as an indicator of behavioural control. What hours never do is decide status
 on their own.*
+
+**6. Maybury Life engages a full-time life insurance salesman who meets both statutory employee conditions. Which reporting combination is correct?**
+(A) Form 1099-NEC, with the earnings and expenses on Schedule C and self-employment tax on Schedule SE (B) Form W-2 with the statutory employee box checked, social security and Medicare withheld, no income tax withholding, and earnings and expenses on Schedule C (C) Form W-2 reported as wages, with income tax and FICA withheld and no expense deduction (D) Form W-2 with the statutory employee box checked, and self-employment tax paid on Schedule SE
+*Answer: B. IRC § 3121(d)(3)(B) makes the full-time life insurance salesman a statutory employee: FICA is withheld by the payer, income tax is not, and the income and related expenses go on Schedule C, so no self-employment tax is due.*
+
+**7. Thorne Realty's licensed agents are paid entirely on commission and have no minimum hours, but there is no written agreement with any of them. What is their status under IRC § 3508?**
+(A) Qualified real estate agents, because two of the three requirements are met (B) Qualified real estate agents, provided a contract is signed before the year-end filings (C) IRC § 3508 does not apply, and classification falls back to the common law test (D) Statutory employees under IRC § 3121(d)(3)
+*Answer: C. IRC § 3508(b)(1)(C) requires the services to be performed under a written contract providing that the individual will not be treated as an employee for federal tax purposes; without it the section does not apply, and a contract signed later does nothing for years already filed.*
+
+**8. Culver Freight treated a driver as a contractor, filed no Form 1099-NEC or Form W-2, and cannot show reasonable cause. On examination the driver is an employee with $100,000 of wages. Under IRC § 3509, the income tax withholding component of Culver's liability is:**
+(A) $1,500, at the reduced 1.5 percent rate (B) $3,000, at the doubled 3 percent rate (C) The full amount that should have been withheld from the driver (D) Nothing, because the employer's own FICA share is all that remains payable
+*Answer: B. IRC § 3509(b)(1) doubles the § 3509(a) rates to 3 percent and 40 percent where the employer also failed the information reporting requirements without reasonable cause; the employer's own FICA share and FUTA stay payable in full on top.*

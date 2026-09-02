@@ -282,3 +282,15 @@ agreement or filed anything. What return is due?
 through which a business or venture is carried on, and the classification rules treat a domestic eligible
 entity with two members as a partnership by default. No document is needed to create the obligation, and
 the IRC § 761(a) election out is unavailable because the venture is an active business.*
+
+**6. A partnership incurs $53,000 of organizational expenses and begins business in March 2026. It makes the IRC § 709(b) election. What does it deduct?**
+(A) $2,000 immediately and $51,000 rateably over 180 months from March 2026 (B) $5,000 immediately and $48,000 rateably over 180 months (C) Nothing immediately and $53,000 rateably over 180 months (D) $5,000 immediately and $48,000 rateably over 60 months
+*Answer: A. IRC § 709(b)(1): the immediate deduction is reduced dollar for dollar by the amount by which the expenses exceed the higher threshold, which they do by $3,000, and the remainder is amortised over 180 months beginning with the month business begins.*
+
+**7. A partnership is organised and files its certificate in October 2026 but does not begin business until February 2027. It elects under IRC § 709(b). Its 180-month amortisation period begins in:**
+(A) February 2027 (B) October 2026 (C) January 2027, the start of its first full year (D) The month its first return is filed
+*Answer: A. IRC § 709(b)(1) runs the 180-month period from the month in which the partnership begins business, not from the month it is organised.*
+
+**8. Which of these costs is an organizational expense eligible for the IRC § 709(b) election?**
+(A) An accountant's fee for setting up the partnership's books (B) A placement agent's commission on the sale of limited partnership interests (C) Registration fees for the offering of interests (D) Printing costs of the offering memorandum
+*Answer: A. IRC § 709(b)(3) defines an organizational expense as one incident to the creation of the partnership; the other three are incurred to promote the sale of interests and are syndication costs that IRC § 709(a) denies any deduction for.*

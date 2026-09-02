@@ -329,3 +329,15 @@ modest?
 *Answer: Because {fig:comp.two_tests} (IRC § 162(a)(1)) requires both that the allowance be
 reasonable and that the services have actually been rendered. A modest amount satisfies the first
 and cannot cure the absence of the second.*
+
+**6. In its taxable year beginning 1 January 2026, a publicly held corporation pays $3,000,000 to its top salesperson, who is not an officer. Is the deduction limited by the cap on excessive employee remuneration?**
+(A) Yes, because she is among the five highest compensated employees (B) No, because for a taxable year beginning in 2026 only the principal executive officer, the principal financial officer and the three highest compensated officers are covered employees (C) Yes, because the cap reaches every employee of a publicly held corporation (D) No, because sales commissions are performance-based compensation
+*Answer: B. IRC § 162(m)(3): the five highest compensated employees other than the covered officers are added only for taxable years beginning after 31 December 2026, so in 2026 her pay sits outside the cap entirely. The performance-based exclusion ended for taxable years beginning after 2017.*
+
+**7. Pemberton owns 30 percent of the stock of an S corporation and works in it full time. The corporation pays $9,000 of health insurance premiums for him. How is the premium treated?**
+(A) Deductible by the corporation and excluded from his income under IRC § 106(a) (B) Deductible by the corporation as compensation and included in his income (C) Not deductible by the corporation (D) Excluded from his income only if he owns more than 50 percent of the stock
+*Answer: B. IRC § 1372(a) treats an S corporation as a partnership for fringe benefit purposes and a more-than-2-percent shareholder under IRC § 1372(b) as a partner, and a partner is never an employee for this rule; the corporation still deducts the cost, but as compensation to him.*
+
+**8. An accrual method calendar-year C corporation accrues a $60,000 bonus on 31 December 2026 to its cash method vice-president, who owns 40 percent of its stock with no attribution from anyone else. The bonus is paid on 10 March 2027. The corporation is not a personal service corporation. When is the bonus deductible?**
+(A) 2027, because the payee is a cash method shareholder (B) 2026, because a 40 percent shareholder without attribution is not a related person (C) 2027, because every bonus accrued to a shareholder is deferred until paid (D) Never, because the payment is a disguised dividend
+*Answer: B. IRC § 267(b)(2) requires more than 50 percent ownership before the matching rule of IRC § 267(a)(2) applies, so the parties are not related and the ordinary accrual rules allow the deduction in 2026 while she reports in 2027 — a one-year mismatch the statute permits.*

@@ -287,3 +287,15 @@ held by an electing farming business onto the alternative depreciation system �
 the ADS period. The five-year machinery is unaffected and continues on ordinary MACRS. The election
 is irrevocable, so the cost runs for the life of every long-lived asset the farm owns or later
 acquires.
+
+**6. A farm places in service in 2026 a new grain bin, a new tractor, and a general purpose machine shed. Which recovery periods apply?**
+(A) All three are five-year farm property (B) Tractor five years, grain bin seven years, machine shed twenty years (C) Tractor and grain bin five years, machine shed ten years (D) Tractor seven years, grain bin and shed twenty years
+*Answer: B. IRC § 168(e)(3)(B)(vii) puts new farm machinery in the five-year class but excludes a grain bin by name, which falls at seven under its class life; a general purpose farm building is not a single purpose structure within IRC § 168(i)(13) and sits at twenty years.*
+
+**7. A grower plants an apple orchard in 2026, makes no IRC § 168(k)(5) election, and the trees first bear in 2029. From 2029, how are the trees depreciated?**
+(A) Ten-year property, 200 percent declining balance (B) Ten-year property, straight line (C) Seven-year property, 150 percent declining balance (D) Twenty-year property, straight line
+*Answer: B. IRC § 168(e)(3)(D)(ii) makes fruit- or nut-bearing trees and vines ten-year property and IRC § 168(b)(3)(E) requires the straight line method for them; the ten-year class does not carry declining balance with it, and nothing runs until the trees are placed in service.*
+
+**8. A 2016 reference tells a farmer to depreciate a new combine bought in 2026 using 150 percent declining balance over seven years. What is correct for 2026?**
+(A) The reference is right, because farm property must use 150 percent declining balance (B) 200 percent declining balance over five years (C) 150 percent declining balance over five years (D) Straight line over seven years
+*Answer: B. IRC § 168(b)(2)(B) required 150 percent declining balance for farm property until Pub. L. 115-97 § 13203(b) struck it for property placed in service after 2017, and IRC § 168(e)(3)(B)(vii) makes new machinery five-year property; only used equipment stays at seven years.*

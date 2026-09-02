@@ -295,3 +295,15 @@ one a fixed dollar figure and the other a small percentage of the unadjusted bas
 of $6,100 must be tested against that ceiling, and if it exceeds it the election is unavailable for
 the year and the $900 of improvements must be capitalised. Note that anything she has already removed
 under the de minimis election still counts toward the $6,100 for this test.
+
+**6. A landlord of an in-service rental house pays $6,500 to replace the failed furnace that heats the whole house. The building's unadjusted basis is $400,000, nothing is enlarged and the use is unchanged. How is the cost treated?**
+(A) Deducted as a repair, because $6,500 is a trivial fraction of a $400,000 building (B) Capitalised, because the furnace is a major component of the heating system and replacing it is a restoration of that system (C) Deducted under the routine maintenance safe harbour (D) Deducted, because work that does not enlarge the building is never an improvement
+*Answer: B. Treas. Reg. § 1.263(a)-3(e)(2)(ii) applies the improvement rules separately to the building structure and to each of the nine building systems, and replacing a major component of the heating, ventilation and air conditioning system is a restoration under Treas. Reg. § 1.263(a)-3(k); the routine maintenance safe harbour never covers a restoration of a major component.*
+
+**7. An investor pays $3,000 in 2026 for travel and consultants while deciding whether to start a rental business, then buys a house and pays $4,000 of closing costs. How is the $3,000 treated?**
+(A) Deducted currently under IRC § 212 as an expense of producing income (B) Treated as start-up expenditures under IRC § 195 rather than a current deduction (C) Added to the basis of the house along with the closing costs (D) Deducted as a repair once the house is placed in service
+*Answer: B. IRC § 195 governs the costs of investigating and creating the rental activity before it begins; the closing costs, being acquisition costs of the property itself, go to basis rather than to either category.*
+
+**8. A landlord expenses several small invoices under the de minimis election and then wants to use the small taxpayer election for the year's remaining work. What effect do the de minimis amounts have on the small taxpayer ceiling?**
+(A) None, because each safe harbour is tested on its own amounts (B) They still count toward the ceiling, so the landlord has less room under it, not more (C) They increase the ceiling by the amount expensed (D) They disqualify the landlord from the small taxpayer election for the year
+*Answer: B. Under the Treas. Reg. § 1.263(a)-3 safe harbours, amounts removed by the de minimis election and by the routine maintenance safe harbour still count toward the small taxpayer ceiling; using one consumes room under another rather than preserving it.*

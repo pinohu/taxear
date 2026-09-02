@@ -301,3 +301,15 @@ IRC § 6038(b), § 6038A(d) and § 6038D(d) each impose a fixed amount per perio
 failure itself, with a continuation penalty for each 30-day period after notice — none of which is
 measured by any tax. A domestic company whose foreign subsidiary is dormant has nothing to pay and
 everything to file, and is exactly the taxpayer most likely to conclude the form does not matter.*
+
+**6. Aldwick Partners LLP had six partners on 1 January; one left in March and a new partner joined in November, so six were partners at year end. It files its Form 1065 two months after the due date with no reasonable cause. How many monthly penalty units apply under IRC § 6698?**
+(A) Twelve, six partners for two months (B) Fourteen, seven partners for two months (C) Seven, one unit per partner (D) Two, one unit per month
+*Answer: B. IRC § 6698(b) multiplies the monthly figure by the number of persons who were partners during any part of the year, not the partners at year end, so seven partners for two months gives fourteen units.*
+
+**7. Bewley Contracting discovers in early February that it failed to file forty Forms 1099-NEC that were due on 31 January. Which filing date keeps each form at the lowest tier of the IRC § 6721 penalty?**
+(A) Filing by 1 August (B) Filing within 30 days of the required filing date (C) Filing by the extended due date of Bewley's own return (D) Filing at any time before the Service issues a notice
+*Answer: B. IRC § 6721: the penalty falls to the lowest tier if the return is filed within 30 days of the required filing date, to the middle tier if filed by 1 August, and the general rule applies thereafter.*
+
+**8. A business fails both to file thirty Forms 1099-NEC with the Service and to furnish the corresponding statements to the thirty payees. How many penalties does each form carry?**
+(A) One, because the statement is a copy of the return (B) One, with the amount doubled for the missing statement (C) Two, one under IRC § 6721 and one under IRC § 6722, each with its own amount and cap (D) None until the Service issues a notice and demand
+*Answer: C. IRC § 6721 penalises the return not filed with the Service and IRC § 6722 penalises the statement not furnished to the payee; they are separate provisions with separate amounts and separate caps, so every form carries two penalties.*

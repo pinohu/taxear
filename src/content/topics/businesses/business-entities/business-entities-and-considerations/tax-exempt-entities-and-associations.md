@@ -301,3 +301,15 @@ it is a private foundation. How is it classified?
 *Answer: as a private foundation. IRC § 508(b) presumes any § 501(c)(3) organisation to be a private
 foundation unless it notifies the Secretary that it is not. Public charity status is established, not
 assumed, and the presumption applies whatever the organisation's actual sources of support.*
+
+**6. A calendar-year literacy charity whose gross receipts are normally about $30,000 furnishes the annual electronic notice rather than a return. By what date is the notice for 2026 due, and what penalty applies if it is late?**
+(A) 15 April 2027, with a daily penalty for lateness (B) 15 May 2027, with no penalty for lateness (C) 15 May 2027, with a penalty equal to the specific deduction (D) 31 December 2026, with no penalty for lateness
+*Answer: B. IRS, Form 990-N: the notice is due by the fifteenth day of the fifth month after the year end — 15 May for a calendar-year organisation — and there is no penalty for a late submission, though under IRC § 6033(j) three consecutive missed notices still cost the exemption.*
+
+**7. The board of a § 501(c)(3) organisation asks which of the restrictions on its conduct is a matter of degree rather than an absolute bar. Which is correct?**
+(A) Inurement of net earnings is tolerated below a substantiality threshold (B) Campaign intervention is permitted if it is insubstantial (C) Only the lobbying restriction turns on whether the activity is a substantial part of its activities (D) All four conditions apply only to substantial violations
+*Answer: C. IRC § 501(c)(3): no substantial part of the activities may be lobbying, so only that condition is a matter of degree; inurement and campaign intervention have no threshold at all.*
+
+**8. A community food bank organised in 2024 first gives notice under IRC § 508(a) in 2026 that it is applying for recognition as a § 501(c)(3) organisation. For what period is it treated as described in § 501(c)(3)?**
+(A) From its 2024 organisation date, because the notice relates back (B) Only from the time the notice is given (C) From the start of the tax year in which the notice was given (D) It is never treated as described in § 501(c)(3) because the notice was late
+*Answer: B. IRC § 508(a) makes the notice a condition of being treated as described in § 501(c)(3) at all, and a late notice operates prospectively — not for any period before it is given — which is why the effective date on the recognition letter matters to donors.*

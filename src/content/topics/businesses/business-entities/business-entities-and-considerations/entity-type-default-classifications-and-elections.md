@@ -289,3 +289,15 @@ foreign entities only where at least one member does not have limited liability.
 *Answer: no. The deemed transactions occur immediately before the close of 31 July 2026, when that person
 was an owner, and they are not an owner when the election is filed. Reg. § 301.7701-3(c)(2)(iii) requires
 them to sign, and without the signature the election is not properly made.*
+
+**6. A foreign eligible entity has a single owner who has limited liability under the law of the country where the entity is organised. No Form 8832 is filed. How is the entity classified?**
+(A) Disregarded, like a domestic single-owner entity (B) A partnership (C) An association, because its only member has limited liability (D) Unclassified until an election is filed
+*Answer: C. Reg. § 301.7701-3(b)(2)(i)(B) classifies a foreign eligible entity as an association if all its members have limited liability; a single-owner foreign entity is disregarded only where that owner lacks limited liability, which is the reverse of the domestic default.*
+
+**7. A partnership holds property with an aggregate adjusted basis of $500,000, subject to $620,000 of liabilities. It elects association status effective 1 January 2027. What gain does the deemed contribution produce?**
+(A) None; the deemed contribution is a tax-free exchange under IRC § 351 (B) $120,000 of gain, the excess of liabilities assumed over the basis of the property transferred (C) Gain equal to the property's fair market value less its basis, as on a liquidation (D) $620,000 of gain, the full amount of the liabilities assumed
+*Answer: B. Under Reg. § 301.7701-3(g)(1)(i) the partnership is deemed to contribute its assets and liabilities to the association for stock; the exchange falls within IRC § 351, but IRC § 357(c)(1) treats the $120,000 by which liabilities assumed exceed the aggregate basis of the property as gain from the sale or exchange of property.*
+
+**8. A corporation owns all the stock of a subsidiary that is an association, and elects on Form 8832 to have the subsidiary disregarded. What is the tax result of the deemed liquidation?**
+(A) The association recognises gain under IRC § 336 and the parent under IRC § 331, with no relief available (B) The parent may reach nonrecognition under IRC § 332, the regulation supplying the deemed adoption of a plan of liquidation (C) No deemed transaction occurs, because the subsidiary was wholly owned (D) The parent must first adopt a formal plan of liquidation or the election is void
+*Answer: B. A corporate parent whose stock ownership meets the IRC § 1504(a)(2) test may reach nonrecognition on the receipt of the property under IRC § 332(a), (b)(1), and Reg. § 301.7701-3(g)(2)(ii) treats the association as adopting a plan of liquidation immediately before the deemed liquidation so that condition of IRC § 332 is met.*

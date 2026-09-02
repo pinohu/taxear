@@ -331,3 +331,15 @@ share of it, whether or not the Code allowed a deduction. If basis were left unr
 would recover the same dollars a second time as a smaller gain on disposing of the interest. The
 symmetry runs the other way with tax-exempt income, which increases basis under IRC § 705(a)(1)(B)
 and IRC § 1367(a)(1)(A) so that the exemption is not clawed back on sale.*
+
+**6. Calloway Partners makes a $20,000 cash contribution to a public charity. On the partnership's own return, the contribution is:**
+(A) Deducted in computing ordinary business income, because the partnership made the gift (B) A separately stated item passed through to the partners, who apply their own percentage limitations (C) Disallowed entirely, because a partnership cannot make a deductible gift (D) Deducted by the partnership only if every partner itemizes
+*Answer: B. IRC § 703(a)(2)(C) denies the partnership the IRC § 170 deduction, and IRC § 702(a)(4) makes the contribution a separately stated item tested against each partner's own contribution base, because only the partner knows which limitation applies.*
+
+**7. A partner begins the year with basis of $60,000. Her Schedule K-1 shows $25,000 of ordinary income, a $40,000 cash distribution, and a $70,000 share of a separately stated loss. How much of the loss may she deduct this year?**
+(A) $70,000 in full (B) $45,000, with $25,000 carried forward (C) $60,000, with $10,000 carried forward (D) $85,000
+*Answer: B. IRC § 704(d) allows the loss only to the extent of basis, and the adjustments run in order: increase for income to $85,000, decrease for the distribution to $45,000, then the loss is allowed to that extent and the remaining $25,000 carries forward indefinitely until basis is restored.*
+
+**8. An S corporation shareholder with stock basis of $20,000 lends the corporation $50,000 directly. Her share of the year's loss is $60,000. How much is deductible?**
+(A) $20,000, because only stock basis counts against a loss (B) $60,000, because stock basis plus basis in the direct loan exceeds the loss (C) $50,000, because the loan alone limits the loss (D) $60,000, because losses of an S corporation are never limited
+*Answer: B. IRC § 1366(d)(1) allows losses up to the sum of stock basis and the adjusted basis of indebtedness of the corporation to the shareholder — $70,000 here — so the full $60,000 passes through; the second tier exists because the debt runs from the corporation to her directly, which a guarantee would not provide.*

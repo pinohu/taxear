@@ -295,3 +295,15 @@ IRC § 401(c)(2) is computed after the IRC § 164(f) deduction for half of self-
 after the IRC § 404 contribution itself. Reducing the profit by roughly $5,652 of deductible
 self-employment tax gives about $74,348, and 20 percent of that — the equivalent of 25 percent of
 the post-contribution figure — is about $14,870.
+
+**6. An employer with a SEP wants to exclude a 19-year-old who has worked for it in each of the last four years and earned $30,000 last year. May it?**
+(A) No, because service in three of the preceding five years is enough on its own (B) Yes, because the employee has not attained age 21 (C) No, because part-time and young employees can never be excluded from a SEP (D) Yes, because employees under 25 may always be excluded
+*Answer: B. IRC § 408(k)(2) requires an employee to be covered only once they have attained age 21, performed service in at least three of the immediately preceding five years, and received at least the threshold compensation; the age test is not met.*
+
+**7. A SIMPLE IRA sponsor has elected the 3 percent match. One employee earning $90,000 defers 10 percent and another earning $40,000 defers 2 percent. What does the employer contribute for the two of them?**
+(A) $3,500 (B) $9,800 (C) $3,900 (D) $2,700
+*Answer: A. IRC § 408(p)(2)(A)(iii) makes the match dollar for dollar on what the employee actually defers, capped at the applicable percentage: 3 percent of $90,000 is $2,700 for the first employee, and the second's 2 percent deferral of $800 is matched in full because it is below the cap.*
+
+**8. An employee covered by her employer's SEP wants to set aside more of her own pay for retirement than the employer contributes. What are her options within the SEP?**
+(A) She may make salary reduction contributions to the SEP up to the elective deferral limit (B) She may elect to have the employer contribute more from her pay (C) None, because a SEP takes only employer money and the employee has no election, so she must use a separate IRA of her own (D) She may make after-tax contributions to the SEP that the employer must match
+*Answer: C. Under IRC § 408(k) a SEP is funded by the employer alone; there is no salary reduction in a SEP, and the employee's only involvement is owning the IRA that receives the money.*

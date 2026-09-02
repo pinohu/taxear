@@ -284,3 +284,15 @@ any, is recognised?
 $250,000 relieved less $50,000 picked up, so $200,000 (IRC § 752(a), (b)). Basis is reduced to zero and the
 $140,000 excess is gain under IRC § 731(a)(1), treated as gain from the sale or exchange of the partnership
 interest.*
+
+**6. Twenty years after a partnership was formed, an outsider contributes appreciated land in exchange for a 2 percent interest. No other partner contributes anything at the same time. Is the contribution taxable?**
+(A) Yes, because the contributor does not control the partnership afterwards (B) Yes, because the other partners did not contribute at the same time (C) No: nonrecognition applies without any control, timing or percentage test (D) Yes, to the extent of the built-in gain, unless every partner consents
+*Answer: C. IRC § 721(a) has no analogue of the corporate control requirement, so a contribution qualifies whether the contributor ends up with one percent or ninety-nine and whether they join at formation or twenty years later.*
+
+**7. A partner contributes property worth $500,000 with an adjusted basis of $200,000 for a 50 percent interest. The partnership later sells it for $560,000. How much of the gain is allocated to the contributing partner?**
+(A) $180,000 (B) $300,000 (C) $330,000 (D) $360,000
+*Answer: C. IRC § 704(c)(1)(A) allocates the $300,000 pre-contribution variation between basis and value to the contributor alone; only the $60,000 of post-contribution appreciation is shared, and half of that is $30,000.*
+
+**8. A partner contributes a capital asset with a basis of $300,000 and a value of $200,000. The partnership holds it as inventory and sells it three years later for $150,000. What is the character of the $150,000 loss?**
+(A) All $150,000 capital (B) $100,000 capital and $50,000 ordinary (C) All $150,000 ordinary (D) $100,000 ordinary and $50,000 capital
+*Answer: B. IRC § 724(c) keeps a built-in capital loss capital for five years, but only to the extent of the loss that existed at contribution; the further $50,000 decline after contribution takes the property's character in the partnership's hands.*

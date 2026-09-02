@@ -312,3 +312,15 @@ the return against published industry data on examination. None of section 199A,
 IRC § 448, IRC § 460 or IRC § 613 refers to it. A business can hold a manufacturing code and be a
 specified service trade or business, or hold a professional services code and not be one — the
 substantive tests look at what the business does and how, not at what it entered on page one.*
+
+**6. A sole proprietor manages investment portfolios for clients, pays no W-2 wages, and has taxable income above the top of the section 199A phase-in range. For section 199A the business is:**
+(A) Not a specified service trade or business, because the section 1202 list does not name investment management (B) A qualified trade or business subject only to the wage and property limitation (C) A specified service trade or business, so the deduction is excluded entirely (D) A specified service trade or business entitled to a reduced deduction under the applicable percentage
+*Answer: C. IRC § 199A(d)(2)(B) adds investing and investment management to the specified service list beyond what section 1202 names, and above the top of the phase-in range a specified service business gets nothing.*
+
+**7. A sole proprietor running a small law practice has $80,000 of qualified business income and taxable income well below the section 199A threshold. What deduction does she take?**
+(A) None, because law is a specified service trade or business (B) A reduced deduction under the applicable percentage in IRC § 199A(d)(3) (C) The full 20 percent deduction, because specified service status is disregarded below the threshold (D) A deduction limited by the W-2 wages the practice pays
+*Answer: C. IRC § 199A(b)(3) disregards specified service status for a taxpayer below the threshold, and the wage and property limitations are disregarded there as well, so she takes the full 20 percent on her qualified business income.*
+
+**8. Holloway Farms, a farming business, has average annual gross receipts far above the IRC § 448(c) gross receipts test. May it use the cash method?**
+(A) No, because a business above the gross receipts test must use an accrual method (B) Yes, because IRC § 448(b)(1) lifts the cash method prohibition for a farming business regardless of receipts (C) Only if it is a qualified personal service corporation (D) Only for contracts it expects to complete within two years
+*Answer: B. IRC § 448(b)(1) removes the cash method bar for a farming business without regard to gross receipts; the gross receipts test is what other businesses rely on, and the two-year rule belongs to the IRC § 460(e) construction exception.*

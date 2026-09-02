@@ -320,3 +320,15 @@ home. May she deduct the room's expenses against the rent?
 *Answer: No. {fig:rent.employer_rental} (IRC § 280A(c)(6)) switches off IRC § 280A(c)(1) and (c)(3)
 for exactly this arrangement. She reports the rent as income and gets no deduction for the
 expenses of the space.*
+
+**6. Pemberton owns a warehouse and leases it to a distribution partnership in which she holds a 10 percent interest but does no work. The lease produces $15,000 of net rental income and she has $15,000 of suspended passive losses from another property. How much of the losses can she use?**
+(A) None, because the rental income is recharacterised as non-passive (B) All $15,000, because she does not materially participate in the tenant's business so the income stays passive (C) $1,500, in proportion to her 10 percent interest (D) All $15,000, but only if the tenant is a C corporation
+*Answer: B. Reg. § 1.469-2(f)(6) applies only where the taxpayer materially participates in the trade or business activity the property is rented for use in; she does not, so the income stays passive under IRC § 469(c)(2) and absorbs the suspended losses.*
+
+**7. An accrual method corporation accrues $24,000 of rent owed to its sole shareholder, a cash method individual, on 31 December 2026 and pays it on 15 March 2027. In which year does the corporation deduct the rent?**
+(A) 2026, when it was accrued (B) 2027, when the shareholder includes it in income (C) 2026, because it was paid within two and a half months of year end (D) Neither year, because rent paid to a related party is not deductible
+*Answer: B. IRC § 267(a)(2) matches the deduction to the related cash method payee's inclusion, and it speaks of "expenses and interest" without limiting the kind of expense, so rent is caught just as an accrued bonus would be.*
+
+**8. A taxpayer's self-rental loss is fully absorbed by passive income from an unrelated activity, so IRC § 469 does not suspend it. Which limitation can still stop the loss?**
+(A) None, because clearing the passive activity rules is the final test (B) The excess business loss limitation of IRC § 461(l), which is applied after IRC § 469 (C) The matching rule of IRC § 267(a)(2) (D) The employer rental rule of IRC § 280A(c)(6)
+*Answer: B. IRC § 461(l) became permanent in July 2025, and a self-rental loss that escapes IRC § 469 in a year with passive income then joins the aggregate that IRC § 461(l) tests; the two limitations are sequential.*

@@ -264,3 +264,15 @@ taxable year beginning in 2026. What is deductible?
 the extent contributions exceed 1 percent of taxable income — $50,000 here — and only up to 10 percent.
 The $40,000 does not clear the floor. IRC § 170(d)(2)(C) permits amounts disallowed by the floor to be
 carried forward only from a year in which the ceiling was also exceeded, which this is not.*
+
+**6. A corporation's taxable income before the dividends received deduction is $200,000, including $300,000 of dividends from a domestic corporation in which it holds 10 percent. What deduction is allowed?**
+(A) $150,000 (B) $100,000 (C) $195,000 (D) $130,000
+*Answer: B. IRC § 246(b) caps the deduction at 50 percent of taxable income computed before the deduction, $100,000, and IRC § 246(b)(2) does not lift the cap because the full $150,000 deduction would leave $50,000 of taxable income rather than a net operating loss.*
+
+**7. A corporation owns 30 percent of another corporation's voting power but only 12 percent of its value, and receives a $50,000 dividend. What rate of dividends received deduction applies?**
+(A) 65 percent, because voting power exceeds 20 percent (B) 50 percent, because the 20-percent test requires both vote and value (C) 100 percent, because the corporations are affiliated (D) 65 percent, averaged from the two percentages
+*Answer: B. IRC § 243(c)(2) defines a 20-percent owned corporation by 20 percent or more of the stock by vote and value — the test is conjunctive — so the default IRC § 243(a)(1) rate of 50 percent applies.*
+
+**8. A corporation with taxable income of $2,000,000 makes $150,000 of charitable contributions in a taxable year beginning in 2026. What is deductible?**
+(A) $150,000 (B) $130,000 (C) $200,000 (D) Nil, because the contributions are under 10 percent of taxable income
+*Answer: B. IRC § 170(b)(2)(A), as rewritten by Pub. L. 119-21 § 70426 for taxable years beginning after 2025, allows the deduction only to the extent contributions exceed 1 percent of taxable income — $20,000 — and only up to 10 percent, so $130,000 is deductible.*

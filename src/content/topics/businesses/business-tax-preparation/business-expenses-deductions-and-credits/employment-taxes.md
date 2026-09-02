@@ -322,3 +322,15 @@ tax?
 *Answer: Because each employer applies the wage base to the wages it pays, and there is no
 mechanism for them to combine unless one is a successor to the other. The employee recovers the
 excess as a credit on their own return — {fig:excess_ss.two_employer_test}.*
+
+**6. An employer has ten employees, each paid well above the FUTA wage base, in a state whose unemployment fund is in good standing, and it paid its state contributions on time. What is its net federal unemployment tax for 2026?**
+(A) $4,200 (B) $420 (C) $3,780 (D) $630
+*Answer: B. IRC § 3301 imposes the tax at the statutory rate on FUTA wages, ten times the IRC § 3306(b)(1) base or $70,000, and the IRC § 3302(a), (b) credits for timely state contributions bring the net rate down to 0.6 percent, or $420.*
+
+**7. A married employee who files jointly earns $230,000 in 2026 from a single employer. How much additional hospital insurance tax must the employer withhold?**
+(A) Nothing, because the joint-return threshold has not been reached (B) 0.9 percent of $30,000, because the employer withholds once wages from it exceed $200,000 regardless of filing status (C) 0.9 percent of $230,000 (D) 1.45 percent of $30,000, matched by the employer
+*Answer: B. IRC § 3101(b)(2) sets thresholds by filing status, which the employer does not know, so the employer withholds once wages from that employer alone exceed the single threshold and any shortfall or excess is settled on the employee's own return; the employer matches none of it.*
+
+**8. An employer paid its state unemployment contributions on time all year. On 10 November its state still has federal advances outstanding. What is the effect on the employer's FUTA?**
+(A) Its net FUTA rises for the whole calendar year, because the credit reduction is fixed by the position on 10 November (B) Only wages paid after 10 November bear the higher rate (C) Its state contributions rise, but its federal tax is unchanged (D) Nothing, because it paid its state contributions on time
+*Answer: A. IRC § 3302(c)(2) reduces the credits otherwise allowable to employers in a state with outstanding advances, and because the reduction is determined by the position on 10 November it raises the net cost retrospectively for wages already paid in the year.*

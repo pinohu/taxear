@@ -277,3 +277,15 @@ also file Form 8832?
 *Answer: no. Reg. § 301.7701-3(c)(1)(v)(C) treats an eligible entity that timely elects S corporation
 status as having elected to be classified as an association. Filing Form 8832 as well is unnecessary and
 starts the sixty-month bar on a further classification election under Reg. § 301.7701-3(c)(1)(iv).*
+
+**6. A corporation made a valid S election in 2026 with every shareholder's consent. In 2027 an unrelated investor buys shares. Must the new shareholder consent to the election?**
+(A) No, the election is the corporation's and continues without her consent (B) Yes, within two and a half months of acquiring the shares (C) Yes, or the election terminates on the date of the transfer (D) Yes, by filing an amended Form 2553
+*Answer: A. IRC § 1362(a)(2) requires consent from all persons who are shareholders on the day the election is made; once a valid election exists, new shareholders need not consent to it.*
+
+**7. Articles of incorporation are filed on 10 January. The corporation issues no shares, acquires no assets and conducts no business until 1 August. Form 2553 is filed on 1 March. The election is:**
+(A) Invalid, because it was made before the first taxable year began (B) Valid for the first taxable year (C) Valid, but effective for the following taxable year (D) Valid if the corporation shows reasonable cause
+*Answer: A. Reg. § 1.1362-6(a)(2)(ii): a new corporation's taxable year begins when it first has shareholders, acquires assets or begins doing business, and the existence of incorporators does not begin it; an election made before that date is made in neither the preceding year nor the effective year.*
+
+**8. A new corporation's first taxable year runs from 1 November to 31 December. It files Form 2553 on 10 January of the following year. Is the election effective for that first short year?**
+(A) Yes, because for a year of two and a half months or less an election made before the sixteenth day of the third month after the first day of the year is treated as made during that year (B) No, because the taxable year had already ended (C) No, because the deadline was 15 December (D) No, it is treated as made for the following taxable year
+*Answer: A. Reg. § 1.1362-6(a)(2)(ii)(A): where the first taxable year is 2½ months or less, an election made before the sixteenth day of the third month after the first day of that year — here 16 January — is treated as made during it.*

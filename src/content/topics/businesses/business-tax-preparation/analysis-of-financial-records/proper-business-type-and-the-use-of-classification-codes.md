@@ -358,3 +358,15 @@ it to, and the horizontal analysis measures each against its own prior and subse
 Identical statements in a single year say nothing about either: one business may be steady across
 three years and typical for its code, the other may have swung past the IRM's threshold or sit far
 off its industry's expense percentages. The code and the adjacent years drive the arithmetic.*
+
+**6. A domestic LLC with three members files no Form 8832 and no Form 2553. For federal tax purposes it is:**
+(A) A corporation, because an LLC gives its members limited liability (B) A partnership by default, filing Form 1065 (C) A disregarded entity reported on each member's own return (D) An association, because it has more than one member
+*Answer: B. Reg. § 301.7701-3(b)(1)(i): a domestic eligible entity with two or more members is a partnership unless it elects otherwise, so it files under IRC § 6031(a) and furnishes each member a Schedule K-1; limited liability drives only the foreign defaults.*
+
+**7. Delacroix Studio LLC files Form 8832 on 10 September specifying an effective date of 1 May of the same year, more than 75 days before the filing date. The election:**
+(A) Is invalid, and the entity keeps its default classification (B) Takes effect on 1 May as specified (C) Takes effect 75 days before the filing date (D) Takes effect on the filing date, 10 September
+*Answer: C. Reg. § 301.7701-3(c)(1)(iii): a specified date more than 75 days before filing does not invalidate the election; it takes effect 75 days before the filing date, so the entity files two returns for the year, one for each classification.*
+
+**8. Whitlow Goods buys raw materials, supplies them to a subcontractor who produces the finished product, and retains title throughout. Which principal business activity code does it use?**
+(A) A wholesale trade code, because it operates no factory (B) A manufacturing code, because it retains title to the goods being produced (C) A professional services code, because it manages the subcontractor (D) The subcontractor's own code
+*Answer: B. Instructions for Form 1120-S, Principal Business Activity Codes: a company that buys raw materials, supplies them to a subcontractor to produce the finished product, and retains title is a manufacturer and must use a manufacturing code.*

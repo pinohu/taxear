@@ -290,3 +290,15 @@ benefit of an *individual*, and the qualified disaster relief payment categories
 personal, family, living and funeral expenses and at a personal residence. A business fence is
 outside them. Even where a category applied, the closing words of IRC § 139(b) exclude any expense
 compensated by insurance or otherwise, so the $9,000 already recovered could not be covered twice.
+
+**6. A federally declared flood destroys a farm's hay barn. Insurance pays $200,000 against a $50,000 adjusted basis, and the farm reinvests the whole $200,000 in a grain dryer within the ordinary replacement period. Is the $150,000 gain recognised?**
+(A) Yes, because a dryer is not similar or related in service or use to a barn (B) No, because any tangible property held for productive use in a trade or business qualifies as replacement property for business property converted in a disaster area (C) No, but only if the farm also rebuilds a barn (D) Yes, unless the farm replaces within four years
+*Answer: B. IRC § 1033(h)(2): where trade or business property in a disaster area is converted by a federally declared disaster, any tangible property of a type held for productive use in a trade or business is treated as similar or related in service or use, so the gain is deferred; the period remains the ordinary one under IRC § 1033(a)(2)(B).*
+
+**7. Which replacement period applies to breeding cattle sold in 2026 solely because of drought in a county designated as eligible for federal assistance?**
+(A) Two years, the ordinary period that applies outside a designated area (B) Four years, which the Secretary may extend regionally where the drought persists more than three years (C) One year, matching the IRC § 451(g) deferral (D) Four years, but only where the property is a principal residence
+*Answer: B. IRC § 1033(e)(2)(A) gives four years rather than two where the area is federally designated, and IRC § 1033(e)(2)(B) lets the Secretary extend the period on a regional basis where the conditions persist beyond three years.*
+
+**8. A farm elects under IRC § 165(i) to claim a 2026 disaster loss on its 2025 return. Which statement is correct?**
+(A) The loss creates a 2026 net operating loss that is carried back to 2025 (B) The casualty is treated as having occurred in 2025 for all purposes, so the loss is measured and limited under that year's rules and is not a carryback (C) The loss is deducted in both years, with a recapture in 2026 (D) The election accelerates the refund but leaves the loss a 2026 item
+*Answer: B. IRC § 165(i)(2): the election treats the casualty as having occurred in the preceding year for all purposes of the Code, so the loss moves, not the disaster; it is not a carryback and does not create a net operating loss on its own.*

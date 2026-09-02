@@ -271,3 +271,15 @@ expressly does not exclude IRC § 707(c) guaranteed payments for services actual
 established to be remuneration for those services. Whether the $75,000 is genuinely excluded also depends
 on the partner acting as a limited partner in respect of it, which is a question of capacity rather than
 of the agreement's wording.*
+
+**6. A partnership holds one parcel of land as an investment for six years and sells it at a $400,000 gain. One partner is a full-time real estate dealer; the other is a retired nurse. How is each partner's share characterised?**
+(A) Capital gain for both (B) Ordinary income for the dealer and capital gain for the nurse (C) Ordinary income for both (D) Whatever character each partner's own activities would give it
+*Answer: A. IRC § 702(b) determines character as if the partner had realised the item directly from the source from which the partnership realised it, and the partnership held the parcel as an investment; the dealer's personal status is not the source.*
+
+**7. A partner's distributive share of loss has cleared the IRC § 704(d) basis limitation. Which limitation is applied next?**
+(A) The at-risk rules (B) The passive activity rules (C) The excess business loss limitation (D) None, because basis is the only gate
+*Answer: A. IRC § 704(d) is the first of several gates; the loss must then survive the at-risk rules, then the passive activity rules, then the excess business loss limitation, in that order.*
+
+**8. Clementine contributes $10,000 of cash for her interest. The partnership then borrows $200,000, of which her share is $50,000. Her outside basis is:**
+(A) $60,000 (B) $10,000 (C) $50,000 (D) $210,000
+*Answer: A. IRC § 752 treats a partner's share of partnership liabilities as money contributed, so her basis includes the $50,000 of borrowing she never made personally on top of the $10,000 of cash.*

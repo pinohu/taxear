@@ -309,3 +309,15 @@ contract. How is it treated?
 (Reg. § 1.1012-1(b)) — where the purchaser pays or assumes taxes that IRC § 164(d) treats as
 imposed on the seller, they are part of cost, and what the contract says about the allocation is
 immaterial.*
+
+**6. A mother gives her son shares with a basis of $30,000 that are worth $90,000 on the date of the gift. He later sells them for $75,000. What does he report?**
+(A) A $15,000 loss, measured against the value at the date of the gift (B) A $45,000 gain, because the donor's basis carries over for every purpose (C) Neither gain nor loss, because the price falls between the two figures (D) A $60,000 gain
+*Answer: B. IRC § 1015(a): the dual basis arises only where fair market value at the date of the gift is below the donor's basis, so on appreciated property the $30,000 carryover basis governs gain and loss alike and the sale produces a $45,000 gain.*
+
+**7. A company buys a machine: the invoice is $60,000 including sales tax, freight is $1,200, installation is $800, and it pays $3,000 for a one-year maintenance contract at the same time. What is the machine's basis?**
+(A) $65,000 (B) $62,000 (C) $60,000 (D) $61,200
+*Answer: B. IRC § 1012(a) and IRC § 263(a)(1): the sales tax, freight and installation are costs of acquiring the machine and putting it into service, but the maintenance contract is a service to be received over the following year, not a cost of the asset.*
+
+**8. A beneficiary inherits stock and sells it at a gain 40 days after the decedent's death. The gain is:**
+(A) Short-term, because she held the stock for only 40 days (B) Long-term, because property whose basis is determined under IRC § 1014 is treated as held for more than one year (C) Long-term only if the decedent had held it for more than one year (D) Ordinary income, because inherited property is not a capital asset
+*Answer: B. IRC § 1223(9): where basis is determined under IRC § 1014 and the property is sold within one year of the death, the holder is considered to have held it for more than one year, so the acquisition route rather than the actual holding period decides the character.*

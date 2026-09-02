@@ -262,3 +262,15 @@ is $12,000 rather than $13,200.*
 shown for (a)(2) — and the corporation has none. The minimum addition for a return more than sixty days
 late is the lesser of a fixed indexed amount or 100 percent of the tax required to be shown, and that is
 also nil.*
+
+**6. A calendar-year C corporation files Form 7004 on 15 April 2027 for its 2026 return and remits its properly estimated unpaid liability. To what date is the return extended, and is the payment date extended with it?**
+(A) 15 October 2027; the payment date is extended to the same day (B) 15 October 2027; the payment date is not extended (C) 15 September 2027; the payment date is not extended (D) 15 November 2027; the payment date is extended to the same day
+*Answer: B. Reg. § 1.6081-3(a) gives an automatic six-month extension from the IRC § 6072(a) fourth-month date, but Reg. § 1.6081-3(b) makes it an extension of time to file only, so the failure-to-pay addition runs from the unextended payment date.*
+
+**7. A calendar-year C corporation with $20,000 of tax shown files its return and pays the tax 40 days after the unextended due date, with no extension and no reasonable cause. What is the total addition under IRC § 6651?**
+(A) $2,000 (B) $2,200 (C) $1,100 (D) $1,000
+*Answer: A. IRC § 6651(a)(1) charges 5 percent for each month or fraction of a month — two months here — on the tax required to be shown, and IRC § 6651(c)(1) reduces it by the 0.5 percent failure-to-pay addition for each overlapping month, so the total is $2,000 rather than $2,200.*
+
+**8. A dormant calendar-year C corporation and a dormant partnership with four partners each file ten months late; neither owes any tax. Which faces a late-filing penalty?**
+(A) Both, at the minimum addition for a return more than 60 days late (B) Neither, because there is no tax (C) Only the partnership, because IRC § 6698 measures the penalty in partners and months rather than tax (D) Only the corporation, because partnerships are not penalised for late returns
+*Answer: C. Both IRC § 6651(a) additions are percentages of tax, and the minimum addition is capped at 100 percent of the tax required to be shown, so the corporation owes nothing; the IRC § 6698 partnership penalty is measured in partners and months.*

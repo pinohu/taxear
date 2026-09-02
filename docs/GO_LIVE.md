@@ -69,4 +69,4 @@ in the repository.
 - Statutory rates and rule 3 (tokenise, or exempt in writing).
 - The two remaining copyright phrases to eyeball.
 - Whether the EA-exam page keeps the competitor links.
-- Part 2 multiple-choice questions: written page by page; each import adds them.
+- Part 1 multiple-choice questions: written page by page; each import adds them. Part 2's are done (three on every page).

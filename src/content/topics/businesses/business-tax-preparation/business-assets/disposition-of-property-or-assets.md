@@ -335,3 +335,15 @@ IRC § 1231 gain?
 *Answer: No. {fig:disp.1231_property} (IRC § 1231(b)(1)(B)) excludes property held primarily for
 sale to customers in the ordinary course of the trade or business, so the gain is ordinary income
 regardless of the holding period.*
+
+**6. Machinery that cost $100,000 and has $60,000 of accumulated depreciation is sold for $115,000. How is the gain characterised?**
+(A) $75,000 of ordinary income (B) $60,000 of ordinary income under IRC § 1245 and $15,000 of IRC § 1231 gain (C) $75,000 of IRC § 1231 gain (D) $15,000 of ordinary income and $60,000 of IRC § 1231 gain
+*Answer: B. IRC § 1245(a)(1): the lower of recomputed basis ($100,000) and the amount realised ($115,000), less the $40,000 adjusted basis, is ordinary income — $60,000 — and only the remaining $15,000 of gain enters the IRC § 1231 netting.*
+
+**7. In 2026 a business has a net IRC § 1231 gain of $150,000. It deducted net IRC § 1231 losses of $100,000 in 2020 and $40,000 in 2022, neither yet recaptured. What is the character of the 2026 gain?**
+(A) $140,000 ordinary and $10,000 long-term capital gain (B) $40,000 ordinary and $110,000 long-term capital gain (C) $150,000 long-term capital gain (D) $100,000 ordinary and $50,000 long-term capital gain
+*Answer: B. IRC § 1231(c): the pool is the non-recaptured net losses of the five most recent preceding taxable years, so the 2022 loss is recaptured as ordinary while the 2020 loss has dropped out of the rolling window.*
+
+**8. A business sells a building for $300,000 cash, and the buyer assumes the $450,000 mortgage on it. The adjusted basis is $500,000. What is the gain or loss?**
+(A) A $250,000 gain (B) A $200,000 loss (C) A $300,000 gain (D) No gain until the mortgage is paid off
+*Answer: A. IRC § 1001(b): the amount realised includes debt the buyer assumes or takes subject to, so it is $750,000, and IRC § 1001(a) measures the gain against the $500,000 adjusted basis.*

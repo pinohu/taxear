@@ -284,3 +284,15 @@ the equipment?
 the adjusted basis of the partner's interest reduced by any money distributed in the same transaction —
 $150,000 less $40,000. The partnership's $220,000 basis in the equipment does not carry over, and no gain
 arises under IRC § 731(a)(1) because the money did not exceed his basis.*
+
+**6. One of the two partners in a partnership buys the other's entire interest and carries on the same business alone as a sole proprietor. Does the partnership terminate?**
+(A) No, because the business continues without interruption (B) Yes, because no part of the business continues to be carried on by any partner in a partnership (C) No, because only 50 percent of the interests changed hands (D) Yes, because 50 percent or more of the interests were sold within twelve months
+*Answer: B. IRC § 708(b)(1) terminates a partnership only where no part of its business continues to be carried on by any of its partners in a partnership, and a single owner cannot carry on in a partnership.*
+
+**7. A partner sells half of her interest to a new partner on 1 July 2026, keeping the other half. Does the partnership's taxable year close with respect to her?**
+(A) Yes, for the half she sold (B) No; the year closes with respect to a partner only when their entire interest terminates (C) Yes, and for the whole partnership as well (D) Yes, with respect to both her and the buyer
+*Answer: B. IRC § 706(c)(2)(B) is explicit that the year does not close with respect to a partner who disposes of less than their entire interest; only an entire termination under IRC § 706(c)(2)(A) closes it.*
+
+**8. A retiring limited partner in a partnership in which capital is not a material income-producing factor is paid $300,000 for her share of unrealized receivables. How is the payment treated?**
+(A) As an IRC § 736(a) payment, because capital is not a material income-producing factor (B) As an IRC § 736(b) payment, because the carve-out also requires that the retiring partner was a general partner (C) As an IRC § 736(a) payment, because payments for receivables are always ordinary income (D) Half under each subsection
+*Answer: B. IRC § 736(b)(3) applies the receivables and goodwill carve-outs only where both conditions are met — capital not material and the partner a general partner — so for a limited partner the payment stays within IRC § 736(b).*

@@ -339,3 +339,15 @@ $2,500. How much of the $2,500 is deductible?
 *Answer: None this year. {fig:home.gross_income_limit} (IRC § 280A(c)(5)) — $9,000 less $4,000 less
 $6,000 is below zero, so the ceiling is nil. The $2,500 carries to the succeeding taxable year as
 a deduction allocable to the same use and faces the same limitation again.*
+
+**6. A plumber works at customers' premises all day and spends evenings in a room used exclusively and regularly to prepare invoices and schedule jobs. He has no other fixed location for that work. Is the room his principal place of business?**
+(A) No, because his income is earned at customers' premises (B) Yes, because administrative or management activities with no other fixed location for them make the home the principal place of business (C) Only if customers also meet him there (D) Only if the room is a separate structure
+*Answer: B. IRC § 280A(c)(1), flush text, treats a home as the principal place of business where it is used for administrative or management activities and there is no other fixed location where the taxpayer conducts substantial administrative or management activities; the test is about where the administration happens, not where the money is earned.*
+
+**7. A sole proprietor uses a 400 square foot room exclusively and regularly as her principal place of business and elects the safe harbour. What is her deduction?**
+(A) $2,000 (B) $1,500 (C) $1,250 (D) $1,000
+*Answer: B. {fig:home.safe_harbor} (Rev. Proc. 2013-13 § 4.01) — a 400 square foot office exceeds the allowable square footage cap, so she gets the maximum the safe harbour permits, $1,500, and nothing for the excess footage.*
+
+**8. A taxpayer filed her 2026 return using the safe harbour and now realises actual expenses would have given a larger deduction. What can she do?**
+(A) Amend the 2026 return to switch to actual expenses (B) Nothing for 2026, but use actual expenses in 2027 without IRS consent (C) Nothing for 2026, and she must request IRS consent to change her method of accounting for 2027 (D) Claim the difference as a carryover to 2027
+*Answer: B. Rev. Proc. 2013-13 § 4.03 makes the choice irrevocable for the year once the return is filed, but it is made year by year and switching between the safe harbour and actual expenses is not a change in method of accounting, so no consent is needed for the next year.*

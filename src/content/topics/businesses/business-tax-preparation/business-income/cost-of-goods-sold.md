@@ -316,3 +316,15 @@ accounts it gives its bank. What is the consequence?
 conditional on the taxpayer establishing that it used no other procedure in inventorying those
 goods for a report to shareholders, partners, other proprietors or beneficiaries, or for credit
 purposes.*
+
+**6. Farleigh Parts Inc. begins the year with no inventory and buys 100 units at $10 in January, 100 at $12 in June and 100 at $14 in October. It has 150 units on hand at the year end. Under FIFO, what is its cost of goods sold?**
+(A) $1,600 (B) $2,000 (C) $1,800 (D) $3,600
+*Answer: A. Under FIFO the earliest goods are sold first, so the 150 units on hand carry the latest costs — 100 at $14 plus 50 at $12, or $2,000 of ending inventory — and cost of goods sold is $3,600 of purchases less $2,000. With prices rising, LIFO would give $2,000 and average cost $1,800, and the figure reduces gross income under Reg. § 1.61-3(a) rather than being claimed as a deduction.*
+
+**7. A wholesaler whose average annual gross receipts are well below the IRC § 448(c) figure for 2026 chooses not to maintain an inventory under IRC § 471(a). How may it account for its stock?**
+(A) As non-incidental materials and supplies, or by conforming to the method in its applicable financial statement or, having none, its books and records (B) By deducting every purchase when paid, whether or not the goods are sold (C) It must still choose between FIFO and LIFO (D) It must capitalise its purchasing and storage costs under IRC § 263A
+*Answer: A. IRC § 471(c)(1)(B) gives a small business taxpayer those two alternatives, and the same IRC § 448(c) test takes it outside IRC § 263A under IRC § 263A(i), so it has neither obligation.*
+
+**8. A manufacturer subject to IRC § 263A spends $200,000 on domestic research to improve a product it holds in inventory and deducts the amount under IRC § 174A. Must the $200,000 be capitalised into the cost of the inventory?**
+(A) Yes, because every cost tied to production is capitalised under IRC § 263A (B) No, because amounts allowable as a deduction under IRC § 174 or § 174A are excluded from capitalisation (C) Yes, but only the portion allocable to units still on hand at the year end (D) No, because research costs are never allowable as a deduction
+*Answer: B. IRC § 263A(c)(2) excludes any amount allowable as a deduction under section 174 or 174A from capitalisation under the section, so the research stays a current deduction while the ordinary production costs are capitalised.*

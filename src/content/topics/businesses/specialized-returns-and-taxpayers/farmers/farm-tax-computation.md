@@ -286,3 +286,15 @@ again?
 be used, which is the principal difference between it and the non-farm optional method, and it is
 available whenever gross farm income does not exceed the upper limit, or gross farm income exceeds
 that limit but net earnings fall below the lower limit.
+
+**6. A farmer elects to average $90,000 of 2026 farm income. Which describes what the election does?**
+(A) Amends the 2023, 2024 and 2025 returns to add $30,000 of income to each (B) Computes the 2026 IRC § 1 tax as the tax on 2026 income reduced by $90,000, plus the increase in tax that would result from adding $30,000 to each of the three prior years' taxable income (C) Carries $90,000 back to 2023 and refunds the difference (D) Spreads the $90,000 evenly over 2026, 2027 and 2028
+*Answer: B. IRC § 1301(a): the tax is the sum of the tax on taxable income less elected farm income and the increase that would result if each of the three prior years' taxable income were raised by one third of it; the prior returns are not amended and nothing is carried back.*
+
+**7. A grower has gross farm income of $8,100 in 2026, below the upper limit for the farm optional method, and a net farm loss after expenses. She elects the farm optional method. What does she report as net earnings from self-employment?**
+(A) Nothing, because the farm shows a net loss (B) $5,400, two thirds of gross farm income (C) $8,100, the full gross farm income (D) $400
+*Answer: B. IRC § 1402(a): where gross farm income does not exceed the upper limit, the farm optional method treats net earnings as two thirds of gross farm income, here $5,400, on which self-employment tax is paid and quarters of coverage are earned despite the loss.*
+
+**8. A taxpayer who has never farmed before starts a farm in 2026, makes no estimated payments until a single payment on 15 January 2027, and by year end finds that farming supplied only 40 percent of his 2026 gross income. What is his position?**
+(A) The single January payment satisfies his obligation because he intended to farm (B) He is not a farmer for 2026, so the ordinary four-installment regime applies from the first quarter and the earlier installments were missed (C) He may file and pay in full by 1 March 2027 and avoid every addition to tax (D) He is a farmer because the two-thirds test is applied to net income
+*Answer: B. IRC § 6654(i)(2): neither 2026 nor a preceding year's return shows farming gross income of at least 66⅔ percent of total gross income, so the single-installment concession and the 1 March substitution do not apply and the ordinary four-installment regime governs retrospectively.*

@@ -278,3 +278,15 @@ Which class?
 basis, which is more than half, so IRC § 168(e)(2)(A)(ii)(I) takes the whole establishment out of the
 dwelling unit definition. Rental income from dwelling units is nil, the 80 percent test cannot be
 met, and the five long-let units do not save it.
+
+**6. A building's floor area is 70 percent flats and 30 percent a ground-floor shop. For 2026 the flats produce $100,000 of rent and the shop $60,000. How is the building classified for depreciation?**
+(A) Residential rental property over 27.5 years, because most of the floor area is residential (B) Nonresidential real property over 39 years, because rental income from dwelling units is below 80 percent of gross rental income (C) Residential rental property over 27.5 years, because more than half the rent comes from the flats (D) Each floor separately, the flats over 27.5 years and the shop over 39
+*Answer: B. IRC § 168(e)(2)(A)(i) tests 80 percent of gross rental income, not floor area; $100,000 out of $160,000 is 62.5 percent, so the whole building is nonresidential real property at 39 years.*
+
+**7. An apartment building is placed in service on 20 December 2026. How much depreciation does the first year reflect?**
+(A) A half year, under the half-year convention (B) Half a quarter, under the mid-quarter convention, because it was placed in service late in the year (C) Half a month, under the mid-month convention (D) Nothing, because it was placed in service after the start of the final quarter
+*Answer: C. IRC § 168(d)(2) puts residential rental and nonresidential real property on the mid-month convention, so a December placement gets half a month, and the mid-quarter convention never applies to a building.*
+
+**8. An owner spends $150,000 on new interior partitions, lighting and flooring in an apartment building depreciated over 27.5 years. Nothing is enlarged and no lift or structural frame is touched. Over what period is the work recovered?**
+(A) 15 years as qualified improvement property, with bonus depreciation (B) 27.5 years as an improvement to residential rental property, except components that are properly personal property (C) 39 years, because interior improvements always take the nonresidential period (D) 20 years under the alternative depreciation system
+*Answer: B. IRC § 168(e)(6) limits qualified improvement property to a building which is nonresidential real property; an apartment building's interior work is recovered over the building's own 27.5 years, with IRC § 1245 components separable through a cost segregation study.*

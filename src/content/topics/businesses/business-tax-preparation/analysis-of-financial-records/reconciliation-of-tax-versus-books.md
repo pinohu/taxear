@@ -325,3 +325,15 @@ that the Schedules K-1 are filed with the return and furnished to the partners o
 date *including extensions*. Missing that date by any margin defeats the exception even though the
 receipts and asset tests are comfortably met, so all three schedules must be completed. The
 condition is doing real work: it is the price of the exemption, not a formality.*
+
+**6. Corwin Industries, a C corporation, has gross receipts of $60,000,000 and total assets of $7,500,000 on the last day of its tax year. Which reconciliation schedule does it file?**
+(A) Schedule M-3, because its receipts exceed the partnership receipts test (B) Schedule M-1, because the corporate trigger is total assets and they are below the threshold (C) Schedule M-3 Part I, with Schedule M-1 in place of Parts II and III (D) Neither, because a corporation of that size files only Schedule M-2
+*Answer: B. Instructions for Form 1120, Schedule L: the Form 1120 trigger is total assets on the last day of the tax year, a balance sheet figure, and receipts decide nothing for a corporation; only the Form 1065 rule adds a receipts test.*
+
+**7. A C corporation reports total assets of $30,000,000 on the last day of its tax year. What may it file?**
+(A) Schedule M-1 alone, because it is under the upper band (B) Schedule M-3 in full, with no relief available (C) Schedule M-3 Part I, with Schedule M-1 in place of Parts II and III (D) Schedule M-2 in place of both reconciliation schedules
+*Answer: C. IRM 4.10.3.8: a corporation or partnership with at least $10 million but under $50 million of total assets at year end may file Schedule M-1 in place of Schedule M-3 Parts II and III, while Part I remains required of everyone at $10 million or more.*
+
+**8. For a partnership, Schedule M-1 reconciles net income per the books to:**
+(A) Taxable income before the net operating loss deduction and special deductions (B) Ordinary business income before any separately stated item (C) Net income per Schedule K, after every separately stated income and expense item (D) Partners' ending capital on Schedule M-2
+*Answer: C. IRM 4.10.3.8.1: for an S corporation or a partnership the schedule ends at income per Schedule K after all separately stated items, whereas the C corporation version ends at taxable income before the net operating loss and special deductions, because a pass-through has no taxable income.*

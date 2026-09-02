@@ -293,3 +293,15 @@ advised that it must. What is the penalty exposure?
 amount required to be reported correctly, with no calendar year limit (IRC § 6721(e)(2)). The tiered
 reductions for prompt correction and the annual caps — including the reduced caps for a small business —
 are all unavailable where the failure is intentional.*
+
+**6. A dental practice pays $2,600 of rent during calendar year 2026 to an individual who owns its premises. Must the practice file an information return for the payment?**
+(A) No; rent is not a payment within IRC § 6041(a) (B) Yes; rent paid in the course of a trade or business is within IRC § 6041(a), and $2,600 reaches the 2026 amount (C) No; only nonemployee compensation is reportable (D) Yes, but only if the landlord is a corporation
+*Answer: B. IRC § 6041(a) requires a return from a person engaged in a trade or business who pays rent or other fixed or determinable income of the applicable amount or more in a calendar year, and $2,600 is above the raised 2026 figure; payments to a corporation are the ones generally outside the section, not payments to an individual.*
+
+**7. A business files Forms W-2 and Forms 1099-NEC for calendar year 2026. By what date must they be filed?**
+(A) 31 January 2027 (B) 28 February 2027 (C) 31 March 2027 (D) 15 April 2027
+*Answer: A. IRC § 6071(b), (c) requires Forms W-2 and W-3 and any return reporting nonemployee compensation to be filed on or before 31 January of the year following the calendar year; the 31 March date applies to other information returns filed electronically, not to these.*
+
+**8. A third party settlement organisation processes $18,000 for a participating payee across 350 transactions in 2026. Which statement is correct?**
+(A) A Form 1099-K is required, because the transaction count is exceeded (B) No Form 1099-K is required, because the dollar limb is not exceeded, and the payee's income is taxable regardless (C) No Form 1099-K is required, so the payee need not report the income (D) A Form 1099-K is required, because exceeding either limb is enough
+*Answer: B. IRC § 6050W(e) as restored requires both the amount and the transaction count to be exceeded, so the dollar limb alone defeats reporting here; the threshold governs the payer's obligation and not the payee's return, so the income is fully taxable whether or not a form arrives.*

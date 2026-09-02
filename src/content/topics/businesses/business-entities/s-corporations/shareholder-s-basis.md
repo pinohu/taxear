@@ -315,3 +315,15 @@ the answer need both figures?
 each share, so each block absorbs $40 per share. The 2019 block falls to zero with room to spare;
 the 2024 block is exhausted and $2,800 of the loss allocable to it is suspended. A single
 aggregate basis figure would wrongly allow the whole loss.*
+
+**6. A shareholder begins the year with stock basis of $20,000. The S corporation reports $30,000 of ordinary income, $12,000 of non-deductible fines, a $45,000 ordinary loss, and distributes $25,000 to her. No election under Reg. § 1.1367-1(g) is made. How much of the loss may she deduct this year?**
+(A) $25,000 (B) $13,000 (C) $38,000 (D) $45,000
+*Answer: B. Reg. § 1.1367-1(f): income first takes basis to $50,000, the distribution next to $25,000, the non-deductible fines third to $13,000, and the loss comes last — so $13,000 is allowed and $32,000 is suspended under IRC § 1366(d)(1).*
+
+**7. A shareholder holds a $50,000 written note from the S corporation. Losses in earlier years reduced his stock basis to zero and the note's basis to $20,000. This year the corporation has a net increase of $18,000 and repays the note in full. What does he recognise on the repayment?**
+(A) $30,000 of gain (B) No gain (C) $32,000 of gain (D) $12,000 of gain
+*Answer: D. IRC § 1367(b)(2)(B): the net increase restores the basis of the indebtedness before any of it reaches stock, so the note's basis rises from $20,000 to $38,000 and a $50,000 repayment against a $38,000 basis produces $12,000 of gain.*
+
+**8. An S corporation earns $10,000 of tax-exempt municipal bond interest during the year. What effect does that income have on the shareholder's stock basis and on the corporation's accumulated adjustments account?**
+(A) It increases both by $10,000 (B) It increases neither, because it is not taxable (C) It increases stock basis but not the accumulated adjustments account (D) It increases the accumulated adjustments account but not stock basis
+*Answer: C. IRC § 1367(a)(1)(A) reaches the IRC § 1366(a)(1)(A) items, which expressly include tax-exempt income, while IRC § 1368(e)(1)(A) excludes it from the account — two accounts, two answers.*

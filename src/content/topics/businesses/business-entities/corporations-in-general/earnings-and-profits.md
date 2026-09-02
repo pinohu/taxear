@@ -257,3 +257,15 @@ profits afterwards?
 so the pool is exhausted but not driven negative. The balance of the distribution is a return of capital
 to the extent of shareholder basis and capital gain beyond it, but none of that creates a deficit in
 earnings and profits. Only operating losses do.*
+
+**6. A corporation has current earnings and profits of $50,000 and accumulated earnings and profits of $30,000. It distributes $130,000 in cash to its sole shareholder, whose stock basis is $60,000. What is the character of the distribution?**
+(A) $80,000 dividend and $50,000 return of capital (B) $50,000 dividend, $60,000 return of capital and $20,000 gain (C) $130,000 dividend (D) $80,000 dividend, $30,000 return of capital and $20,000 gain
+*Answer: A. IRC § 316(a) makes the distribution a dividend to the extent of current earnings and profits first and then accumulated — $80,000 in total — and the remaining $50,000 is a return of capital against the $60,000 basis, so no gain arises.*
+
+**7. A corporation distributes to its shareholders its own $200,000 promissory note and a parcel of land with an adjusted basis of $140,000 and a fair market value of $140,000. By how much are its earnings and profits reduced?**
+(A) $140,000 (B) $200,000 (C) $340,000 (D) Nil, because no cash left the corporation
+*Answer: C. IRC § 312(a) reduces earnings and profits by the principal amount of the corporation's own obligations and by the adjusted basis of other property distributed, so $200,000 plus $140,000; the IRC § 312(b) fair market value rule applies only to appreciated property.*
+
+**8. A corporation distributes $90,000 on 1 March 2026. At that date it has no accumulated earnings and profits and has earned nothing so far in the year; by 31 December 2026 its current earnings and profits total $120,000. How is the March distribution treated?**
+(A) A return of capital, because there were no earnings and profits on 1 March (B) A dividend in full, because current earnings and profits are computed as of the close of the year (C) A dividend only to the extent of earnings and profits earned by 1 March (D) Gain from the sale or exchange of the stock
+*Answer: B. IRC § 316(a)(2) makes a distribution a dividend to the extent of the earnings and profits of the taxable year computed as of the close of the year, without regard to the amount on hand when the distribution was made.*

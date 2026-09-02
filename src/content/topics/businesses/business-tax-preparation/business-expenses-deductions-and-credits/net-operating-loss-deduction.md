@@ -341,3 +341,15 @@ year with $700,000 of taxable income before the deduction. How much does it dedu
 loss first without any cap, leaving $200,000 of income. {fig:loss.nol_80_percent} then caps the
 post-2020 loss by reference to the $700,000 base, a cap of $560,000, but only $200,000 of income
 remains — so $200,000 is used and $700,000 carries forward.*
+
+**6. A sole proprietor has a $90,000 loss from her business and $5,000 of interest income. Her only other deduction is a $20,000 contribution to her own SEP retirement plan. What is her net operating loss?**
+(A) $90,000 (B) $110,000 (C) $105,000 (D) $85,000
+*Answer: A. IRC § 172(d)(4)(D) excludes a IRC § 404 deduction made on behalf of a self-employed individual from the items treated as attributable to the trade or business, so the $20,000 is a non-business deduction allowed under IRC § 172(d)(4) only against her $5,000 of non-business income. The excess drops out and the loss is the $90,000 business loss alone.*
+
+**7. A corporation carries a net operating loss that arose in a taxable year beginning in 2017 to its 2026 return. How is that loss treated?**
+(A) Carried forward indefinitely, subject to the percentage cap (B) Carried forward twenty years, without the percentage cap, and absorbed before any post-2017 loss (C) Carried forward indefinitely without any cap (D) Carried back five years under the pandemic-era rule
+*Answer: B. IRC § 172(a)(2)(A) takes losses from years beginning before 2018 first and without the cap; the carryover regime depends on the year the loss arose, and a pre-2018 loss keeps its twenty-year carryforward.*
+
+**8. A corporation's only loss carryover is $1,000,000 arising in a taxable year beginning in 2023. Its 2026 taxable income before the net operating loss deduction is $500,000. How much may it deduct in 2026?**
+(A) $500,000 (B) $400,000 (C) $1,000,000 (D) $100,000
+*Answer: B. IRC § 172(a)(2) caps the deduction for a loss arising after 2017 at 80 percent of taxable income computed without the IRC § 172, § 199A and § 250 deductions — 80 percent of $500,000. The remaining $600,000 carries forward indefinitely under IRC § 172(b)(1)(A)(ii).*

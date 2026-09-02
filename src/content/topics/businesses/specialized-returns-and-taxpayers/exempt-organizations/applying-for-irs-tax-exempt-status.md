@@ -312,3 +312,15 @@ materials available for inspection during regular business hours at its principa
 IRC § 6104(a)(1)(A) the same materials are open to public inspection at the Service. Age does not
 matter. The only material properly withheld is the narrow class the statute itself excepts, such as
 trade secrets the Service has determined would adversely affect the organisation.
+
+**6. A charity incorporated on 10 January 2024 submits Form 1023 on 15 March 2026 and receives a favourable determination letter in September 2026. From what date is its exemption effective?**
+(A) 10 January 2024 (B) 15 March 2026 (C) The date of the determination letter in September 2026 (D) 31 January 2024
+*Answer: A. Treas. Reg. § 1.508-1(a)(2)(i) gives 15 months from the end of the month of formation and Treas. Reg. § 301.9100-2(a)(2)(iv) adds an automatic 12 months, so the window ran from 31 January 2024 to 30 April 2026; the application was inside it, and recognition runs from the date of formation.*
+
+**7. A new nonprofit corporation, not a church, school, hospital, LLC or successor to a for-profit, projects gross receipts of $38,000, $44,000 and $58,000 in its first three years and holds $30,000 of assets. May it file Form 1023-EZ?**
+(A) Yes, because its average projected receipts over the three years are within the limit (B) Yes, because its assets are far below the asset limit (C) No, because projected receipts in any one of the next three years above the limit make it ineligible (D) No, because a corporation must always file the full Form 1023
+*Answer: C. Form 1023-EZ Eligibility Worksheet, questions 1 through 3: an organisation projecting annual gross receipts over the limit in any of the next three years may not use the short form, and the test is year by year, not an average; a single "yes" on the worksheet sends the file to Form 1023.*
+
+**8. A charity submits Form 1023 on 1 February 2026, answers every Service request promptly, and by 1 December 2026 has received no determination. What is its position?**
+(A) It may withdraw and refile to restart the clock without losing anything (B) It is deemed to have exhausted its administrative remedies and may seek a declaratory judgment under IRC § 7428 (C) No court has jurisdiction until a final adverse determination letter issues (D) It must file a 30-day protest to preserve any right to go to court
+*Answer: B. IRC § 7428(b)(2): an organisation that took all reasonable steps in a timely manner is deemed to have exhausted its remedies 270 days after the request, and that date has passed; withdrawing the application would forfeit the route, because withdrawal is neither a failure to determine nor exhaustion.*

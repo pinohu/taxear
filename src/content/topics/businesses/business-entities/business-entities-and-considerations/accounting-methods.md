@@ -278,3 +278,15 @@ $90,000 were never taken into income under the old method. What happens to them?
 change take into account the adjustments necessary solely by reason of the change to prevent amounts being
 duplicated or omitted. Without it the receivables would be omitted entirely — earned under a method that
 did not count them, collected under a method that treats collection as irrelevant.*
+
+**6. A corporation has kept its books on the accrual basis for years and filed on that basis. For 2026 its controller wants to file on the cash method to defer income, without filing any request. Is that permitted?**
+(A) Yes, because a taxpayer may choose its method on each year's return (B) Yes, provided the corporation meets the gross receipts test (C) No; the method for tax is the method on which the books are kept, and switching without consent is an unconsented change (D) Yes, provided a second set of cash-basis books is kept alongside the first
+*Answer: C. IRC § 446(a) attaches the tax method to the method regularly used in keeping the books, and IRC § 446(e) requires consent before a change; there is no annual election, so filing on a different basis is an unconsented change of method.*
+
+**7. Two corporations under common control each have average annual gross receipts of $20 million for 2023 to 2025, or $40 million between them. Each is otherwise an ordinary C corporation. For 2026, may either use the cash method?**
+(A) Yes; each is under the threshold on its own figures (B) No; commonly controlled entities are aggregated for the test, and the combined receipts exceed the 2026 figure (C) Yes, provided each keeps separate and complete books (D) No, because a C corporation may never use the cash method
+*Answer: B. IRC § 448(c)(2) aggregates gross receipts across commonly controlled entities, so splitting a business into two entities does not split the receipts; at $40 million combined the test is failed and IRC § 448(a)(1) prohibits the cash method for both.*
+
+**8. An accrual-basis employer's liability under a workers compensation claim becomes fixed and determinable in December 2026 at $75,000, payable in monthly instalments beginning February 2027. How much may it deduct for 2026?**
+(A) The full $75,000, because the all events test is satisfied (B) The full $75,000 under the recurring item exception, since payments begin within 8½ months of year end (C) Nothing beyond amounts actually paid in 2026, because economic performance for a workers compensation liability occurs as payments are made (D) The full $75,000, provided the amount is immaterial
+*Answer: C. Under IRC § 461(h) economic performance for a workers compensation liability occurs as the payments are made, and IRC § 461(h)(3) expressly leaves workers compensation and tort liabilities outside the recurring item exception, so the all events test alone does not support a 2026 deduction.*

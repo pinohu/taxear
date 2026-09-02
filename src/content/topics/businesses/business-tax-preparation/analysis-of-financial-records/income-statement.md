@@ -327,3 +327,15 @@ done. They are also not a discretionary courtesy: Reg. § 1.446-1(a)(4) treats a
 differences between the books and the return as part of the accounting records the taxpayer is
 required to maintain, so a taxpayer who cannot produce one has a records problem before any
 substantive issue is reached.*
+
+**6. Brightwater Retail's books expense the full cost of client meals, while the return deducts only the portion the Code allows. Into which category of book-to-tax difference does this fall?**
+(A) Timing (B) Classification (C) Error (D) Permanent
+*Answer: D. A permanent difference is an item that counts for one purpose and never for the other, and the disallowed portion of the meals never becomes deductible; it belongs on the reconciliation that Reg. § 1.446-1(a)(4) names as a required accounting record, not in an amended return.*
+
+**7. A wholesaler reports cost of goods sold of $800,000 and tells the examiner it marks up everything 25 percent over cost. What gross receipts does that statement imply?**
+(A) $1,066,667, treating 25 percent as the margin (B) $1,000,000, a margin of 20 percent on the selling price (C) $1,200,000 (D) $960,000
+*Answer: B. IRM 4.10.3.11.1 computes the gross profit ratio on the selling price, so a 25 percent markup on $800,000 of cost gives sales of $1,000,000 and a $200,000 gross profit that is 20 percent of receipts; reading 25 percent as a margin would imply receipts near $1,066,667 and a spurious adjustment.*
+
+**8. A company's income statement shows $14,000 of interest and $30,000 of rent below an "operating income" subtotal. The preparer leaves both off the return as not arising from the business. Is that correct?**
+(A) Yes, because non-operating income is reported by the shareholders (B) Yes, provided the amounts fall below a reporting threshold (C) No, because IRC § 61(a) takes income from whatever source derived and the subtotal is only a presentation (D) No for the rent, but the interest may be omitted
+*Answer: C. IRC § 61(a) defines gross income as all income from whatever source derived and lists interest and rents by name, so the split between operating and non-operating revenue is a presentational distinction the return ignores.*

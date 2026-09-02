@@ -307,3 +307,15 @@ full-time workforce less 30, at the higher per-employee rate. With an offer that
 unaffordable or lacks minimum value, the payment is computed only on the employees who actually
 received a credit — and § 4980H(b)(2) caps it at what the § 4980H(a) payment would have been, so the
 offer can never make the position worse.*
+
+**6. Whitcombe Foods averaged 41 full-time employees and full-time equivalents on business days during 2025. It expands early in 2026 and averages 70 for that year. Is it an applicable large employer for 2026?**
+(A) Yes, from the first month of 2026 in which its workforce exceeds 50 (B) Yes, for the whole of 2026, because the 2026 average exceeds 50 (C) No, because only a two-year average is counted (D) No; its 2026 status was fixed by the 2025 average, although it will be one for 2027
+*Answer: D. IRC § 4980H(c)(2)(A): an applicable large employer is one that employed an average of at least 50 full-time employees on business days during the preceding calendar year, so nothing done during 2026 changes its 2026 status.*
+
+**7. Two corporations under common control employ 40 and 35 full-time employees respectively. Neither offers coverage, and one employee of the smaller company obtains a premium tax credit. On how many employees is the no-coverage payment computed?**
+(A) 15; each company takes its own reduction of 30 (B) 45; the combined 75 less a single reduction of 30 allocated between the two companies (C) 75; no reduction is available to an aggregated group (D) 1; only the employee who received the credit
+*Answer: B. IRC § 4980H(c)(2)(C)(i) treats persons treated as a single employer under IRC § 414(b), (c), (m) or (o) as one employer, and IRC § 4980H(c)(2)(D)(ii) allows one reduction of 30 for the group, allocated among its members, not one each.*
+
+**8. An applicable large employer offers every full-time employee coverage that is affordable and provides minimum value, and no employee obtains a premium tax credit. It files no Forms 1094-C or 1095-C for the year. What is its exposure?**
+(A) Per-return and per-statement penalties under IRC §§ 6721 and 6722, even though no assessable payment is due (B) Nothing, because no assessable payment arose (C) The no-coverage payment on its whole full-time workforce less 30 (D) The offered-coverage payment on the employees it failed to report
+*Answer: A. IRC §§ 6055 and 6056 require the returns regardless of whether any assessable payment arises, and a failure is an information return failure penalised under IRC §§ 6721 and 6722 — reporting and liability are separate obligations.*

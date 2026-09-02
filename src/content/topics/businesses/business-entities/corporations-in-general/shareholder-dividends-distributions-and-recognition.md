@@ -263,3 +263,15 @@ the shareholder's rate on it may be the same.*
 period, which requires the share to be held for more than 45 days during the 91-day period beginning 45
 days before the ex-dividend date. Thirty-five days is not enough, and the dividend is ordinary income
 however domestic the payer.*
+
+**6. A corporation offers each common shareholder the choice of receiving the year's distribution either in additional common shares or in cash. Hesper elects shares worth $10,000. What is the treatment?**
+(A) Excluded from gross income under IRC § 305(a) as a stock dividend (B) Treated as an IRC § 301 distribution, because a distribution payable at the shareholder's election in stock or property is an IRC § 305(b) exception (C) A return of capital, because no cash left the corporation (D) Taxable only when the shares are sold
+*Answer: B. IRC § 305(a) excludes a stock dividend, but IRC § 305(b) makes an exception where the distribution is payable at any shareholder's election in stock or in property; it is then treated as an IRC § 301 distribution and runs through the ordinary tiers.*
+
+**7. A corporation with ample earnings and profits distributes a warehouse worth $500,000, subject to a $560,000 mortgage that the shareholder assumes. What is the amount distributed under IRC § 301(b)?**
+(A) Negative $60,000, creating a deduction for the shareholder (B) $500,000, because liabilities do not affect the amount (C) Nil, because the liability reduces the amount but not below zero (D) $560,000
+*Answer: C. IRC § 301(b)(2) reduces the amount distributed by liabilities the shareholder assumes or that encumber the property received, but never below zero.*
+
+**8. A corporation intends to put a machine worth $100,000 with an adjusted basis of $400,000 into its sole shareholder's hands. Which approach preserves the $300,000 loss?**
+(A) Distribute the machine; IRC § 311(a) lets the corporation recognise the loss (B) Distribute the machine; the shareholder inherits the $400,000 basis and recognises the loss on a later sale (C) Sell the machine for $100,000, recognise the loss, and distribute the cash (D) Neither; a loss on corporate property is never deductible
+*Answer: C. IRC § 311(a) denies the corporation any loss on distributing depreciated property and IRC § 301(d) gives the shareholder fair market value as basis, so a distribution destroys the loss; a sale followed by a cash distribution recognises it.*

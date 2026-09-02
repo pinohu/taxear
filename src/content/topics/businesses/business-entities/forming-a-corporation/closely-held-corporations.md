@@ -254,3 +254,15 @@ participate. Are they subject to IRC § 469?
 closely held C corporations and personal service corporations. A widely held C corporation is not among
 them, and it is outside IRC § 465 for the same reason — that section reaches only a C corporation meeting
 the IRC § 542(a)(2) test.*
+
+**6. Four individuals hold stock carrying 70 percent of a C corporation's voting power but only 45 percent of its value; the remaining value is spread among hundreds of unrelated investors, none of whom holds more than 1 percent of it. Is the corporation closely held?**
+(A) Yes, because four individuals hold more than half the voting power (B) No, because the test measures more than 50 percent in value and no five individuals reach that (C) Yes, because fewer than five individuals hold the voting stock (D) No, because a closely held corporation must have five or fewer shareholders in total
+*Answer: B. IRC § 542(a)(2) asks whether more than 50 percent in value of the outstanding stock is owned by or for not more than 5 individuals; it measures value, not votes.*
+
+**7. A closely held C corporation that is not a personal service corporation has a $300,000 loss from an activity covered by the at-risk rules, and is at risk for $120,000 at the close of the year. How much of the loss is allowed by the at-risk rules?**
+(A) $300,000, because the at-risk rules do not apply to C corporations (B) $120,000, the amount at risk at the close of the year (C) $180,000, the excess of the loss over the amount at risk (D) Nothing, because a closely held C corporation may not deduct losses from covered activities
+*Answer: B. IRC § 465(a)(1)(B) applies the at-risk limitation to a C corporation meeting the IRC § 542(a)(2) test, so the loss is allowed only up to the amount the corporation is at risk at the close of the year.*
+
+**8. All of a C corporation's stock is held by three partnerships whose partners are, between them, four individuals. Its adviser says it cannot be closely held because no individual owns any stock directly. Is the adviser right?**
+(A) Yes, because a partnership is not an individual and the five must own stock directly (B) No, because the stock is owned indirectly by or for the four individuals behind the partnerships (C) Yes, because stock held through entities is counted only in the first half of the year (D) No, but only if each partnership is itself a personal service corporation
+*Answer: B. IRC § 542(a)(2) counts stock owned directly or indirectly by or for not more than 5 individuals, and the attribution rules look through a partnership shareholder to the individuals behind it.*

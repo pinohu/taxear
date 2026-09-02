@@ -310,3 +310,15 @@ reduces the 20 percent deduction built on it — an additional cost of roughly a
 acceleration for a taxpayer getting the full deduction. That cost used to be temporary, since
 section 199A was scheduled to expire; Pub. L. 119-21 § 70105(b)(1) made it permanent, so it now
 applies to every year of the analysis rather than only to the next few.*
+
+**6. Hartwell Stores spends $250,000 replacing the roof on the store building it has operated for years, and has ample taxable income from the business. Which cost recovery route reaches the roof?**
+(A) Bonus depreciation, automatically, because the roof is qualified property (B) Either route, at the taxpayer's choice (C) An IRC § 179 election, because a roof on non-residential real property is qualified real property (D) Neither; only ordinary depreciation is available for a structural component
+*Answer: C. IRC § 179(e) treats qualified real property, including a roof on non-residential real property placed in service after the building was, as eligible for the election, while a structural component of non-residential real property is outside IRC § 168(k).*
+
+**7. Glenmore Tooling qualifies for $150,000 of general business credits and expects tax liability of $170,000. Its preparer proposes expensing $500,000 of new equipment, which would cut the liability to $20,000. What happens to the credit the year cannot absorb?**
+(A) It is carried forward indefinitely with no carryback (B) It is refunded to the extent it exceeds the liability (C) It is lost once the year's liability is exhausted (D) It is carried back one year and forward twenty
+*Answer: D. IRC § 38 limits the general business credit by tax liability, with unused amounts carried back one year and forward twenty — so a deduction that reduces liability to nothing strands the credit for a long deferral rather than saving tax.*
+
+**8. A cash-method business prepays three years of insurance premiums in December to bring the whole deduction into the current year. What is the result?**
+(A) The prepayment is capitalised, because it reaches beyond the 12-month window regardless of the taxpayer's method (B) The whole premium is deductible, because a cash-method taxpayer deducts when it pays (C) The whole premium is deductible under the recurring item exception (D) The whole premium is deductible only if the business is on an accrual method
+*Answer: A. Reg. § 1.263(a)-4(f) capitalises a prepayment reaching beyond the 12-month window whatever the method, so year-end prepayment does not accelerate the deduction; what works is paying amounts already incurred or completing services before year end.*

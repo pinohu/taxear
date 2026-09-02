@@ -256,3 +256,15 @@ the accumulated earnings tax apply?
 number of shareholders. It is not confined to closely held corporations, and the excepted categories in
 IRC § 532(b) are personal holding companies, subchapter F exempt organisations and passive foreign
 investment companies — none of which turns on shareholder count.*
+
+**6. A distributor has adjusted taxable income of $900,000 for 2026, pays $300,000 of dividends, and is allowed an accumulated earnings credit of $200,000. Its accumulated earnings and profits at the close of 2025 were $5,000,000. On what amount is the accumulated earnings tax computed?**
+(A) $5,000,000, the accumulated balance at the close of 2025 (B) $600,000 (C) $400,000 (D) $900,000
+*Answer: C. IRC § 535(a) defines accumulated taxable income as the year's taxable income, adjusted, less the dividends paid deduction and less the accumulated earnings credit — $900,000 less $300,000 less $200,000; the accumulated balance is not the base.*
+
+**7. On examination the Service establishes that a corporation accumulated earnings beyond the reasonable needs of its business. What is the effect on the question of purpose under IRC § 532(a)?**
+(A) The Service must still separately prove a purpose to avoid shareholder tax (B) The accumulation is determinative of the purpose unless the corporation proves the contrary by a preponderance of the evidence (C) The purpose is conclusively established and cannot be rebutted (D) The accumulation is irrelevant unless the corporation is a mere holding company
+*Answer: B. IRC § 533(a) makes accumulation beyond the reasonable needs of the business determinative of the purpose to avoid income tax unless the corporation proves the contrary by the preponderance of the evidence, so the corporation carries the burden of displacing it.*
+
+**8. Two C corporations each have accumulated earnings and profits of $100,000 at the close of the preceding year and each retains $60,000 in the current year with no documented plan. One provides landscaping services; the other provides actuarial services. How do their minimum accumulated earnings credits compare?**
+(A) They are equal, because both corporations are service businesses (B) The actuarial firm's is the smaller, because actuarial science is on the closed list of fields for which IRC § 535(c)(2) substitutes the lower statutory figure, and landscaping is not (C) The landscaper's is the smaller, because a service business outside the listed fields gets no minimum credit at all (D) Neither has a minimum credit, because $100,000 of accumulated earnings and profits exhausts it
+*Answer: B. IRC § 535(c)(2)(B) substitutes a lower statutory figure only for a corporation whose principal function is performing services in one of the eight listed fields — actuarial science is on the closed list, landscaping is not — so the landscaper measures its minimum credit against the general figure and the actuarial firm against the lower one; both are the excess of the applicable figure over the same $100,000 balance.*

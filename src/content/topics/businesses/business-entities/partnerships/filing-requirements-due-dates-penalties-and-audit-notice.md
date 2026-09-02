@@ -286,3 +286,15 @@ that a Schedule K-1 overstated a partner's share of income. May it furnish an am
 due date of the return except in four cases: where the partnership elected out under IRC § 6221(b), under
 the IRC § 6225(c) modification procedures, in connection with IRC § 6226 statements, or as regulations
 otherwise permit. The correction has to be made through one of those routes.*
+
+**6. A partnership uses a fiscal year ending 30 June 2026 and obtains no extension. Its Form 1065 for that year is due on:**
+(A) 15 September 2026 (B) 15 October 2026 (C) 15 March 2027 (D) 15 April 2027
+*Answer: A. IRC § 6072(b): the return is due the fifteenth day of the third month following the close of the fiscal year, and the third month after June is September.*
+
+**7. A calendar-year partnership with four partners extends its 2026 Form 1065 to 15 September 2027 and files on 20 September 2027. For how many partner-months is the penalty charged?**
+(A) Four (B) Twenty-four (C) Twenty-eight (D) None, because the return was filed within the extension period
+*Answer: A. IRC § 6698(a)(1) measures the failure from the due date determined with regard to any extension, so lateness runs from 16 September; 16 to 20 September is a fraction of a month counted as a whole one, giving one month multiplied by four partners.*
+
+**8. A partnership has never designated a partnership representative and comes under examination for its 2026 year. Which is correct?**
+(A) The Service may select any person to serve as the partnership representative (B) The partner with the largest profits interest is the representative by default (C) The examination cannot proceed until the partnership designates one (D) Each partner deals with the Service on their own behalf
+*Answer: A. IRC § 6223(a): each partnership must designate a representative, and where no designation is in effect the Service may select any person, who then has sole authority to act for the partnership.*

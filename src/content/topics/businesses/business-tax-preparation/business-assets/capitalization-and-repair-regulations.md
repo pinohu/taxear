@@ -384,3 +384,15 @@ tested on its own: the lesser of 2 percent of $300,000 — $6,000 — or $10,000
 Spending $9,000 breaches it and the election fails for that building; it would not fail for the
 others had they spent less, and the $36,000 aggregate is not what matters. Each building's
 unadjusted basis is under $1,000,000, so all four are eligible building properties.*
+
+**6. Ashby Retail owns a $3,000,000 store and spends $35,000 replacing the building's entire electrical system. Its preparer argues the cost is trivial next to the building. Is it capitalised?**
+(A) No, because $35,000 is immaterial relative to the building's cost (B) Yes, because the test runs against the electrical system as its own unit, and replacing the whole system is a restoration (C) No, because electrical work is always a deductible repair (D) Yes, but only if the work extended the building's useful life
+*Answer: B. Reg. § 1.263(a)-3(e)(2)(ii) makes each building system a separate unit from the structure, and replacing the whole of a system is the replacement of a major component — a restoration under Reg. § 1.263(a)-3(k)(1)(vi); comparing the cost to the building answers a question the regulation does not ask.*
+
+**7. Loring Fabrication has no applicable financial statement, had accounting procedures in place from 1 January, expenses small items on its books, and attaches the de minimis statement to its timely return. It buys twelve tools at $2,100 each on one invoice listing each separately, and a $3,800 compressor on another. Which may it expense under the safe harbor?**
+(A) All of them, because the invoices together fall under the annual cap (B) The twelve tools, because each is within the without-AFS ceiling, but not the compressor (C) None, because the tools' invoice total exceeds the ceiling (D) All of them, because a taxpayer without an AFS uses the higher ceiling
+*Answer: B. Reg. § 1.263(a)-1(f)(1)(ii): without an applicable financial statement the ceiling applies per invoice or per item as substantiated by the invoice, so each $2,100 tool qualifies while the $3,800 compressor exceeds it, and there is no annual cap in either direction.*
+
+**8. While capitalising a roof replacement, Pemberton pays $4,000 to repair ceiling plaster damaged by the roofing work and, on the same day, $2,500 to repaint an unrelated office. How are the two amounts treated?**
+(A) Both deductible as repairs under Reg. § 1.162-4 (B) Both capitalised, because they were incurred at the same time as an improvement (C) The $4,000 is capitalised as an indirect cost incurred by reason of the improvement, and the $2,500 is deductible (D) The $2,500 is capitalised and the $4,000 is deductible
+*Answer: C. Reg. § 1.263(a)-3(g)(1)(i) capitalises indirect costs incurred by reason of an improvement even where they would have been deductible alone, while work merely performed at the same time that benefits nothing about the improvement stays deductible.*

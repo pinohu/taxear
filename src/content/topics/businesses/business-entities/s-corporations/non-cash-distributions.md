@@ -311,3 +311,15 @@ apply?
 *Answer: No. IRC § 311(b)(1)(A) applies to a distribution of "property (other than an obligation
 of such corporation)," so a corporation's own obligation is outside the deemed sale rule and no
 gain is recognised on it.*
+
+**6. An S corporation distributes a building worth $400,000, subject to a $250,000 mortgage that the shareholder takes subject to. The shareholder's basis in the building is:**
+(A) $400,000 (B) $150,000 (C) $250,000 (D) The corporation's adjusted basis in the building
+*Answer: A. IRC § 301(d) gives the shareholder a basis equal to the property's full fair market value; the liability reduces the amount of the distribution under IRC § 301(b)(2) but not the basis, because the shareholder has taken on the debt.*
+
+**7. An S corporation with no accumulated earnings and profits distributes property worth $300,000 with an adjusted basis of $100,000 to its sole shareholder, whose stock basis is $150,000. What does she report?**
+(A) $200,000 of pass-through gain and no gain under IRC § 1368(b)(2) (B) $200,000 of pass-through gain plus $150,000 under IRC § 1368(b)(2) (C) $150,000 under IRC § 1368(b)(2) only (D) Nothing, because the distribution is a return of basis
+*Answer: A. IRC § 311(b)(1) treats the property as sold at $300,000, and the $200,000 gain passes through and raises her stock basis to $350,000 under IRC § 1367(a)(1) before the distribution is measured; the $300,000 distribution is then within basis under IRC § 1368(b).*
+
+**8. A corporation that converted from C to S status four years ago, still inside its recognition period, distributes land carrying unrecognised built-in gain. Beyond the pass-through of the IRC § 311(b)(1) gain, what follows?**
+(A) A corporate-level built-in gains tax under IRC § 1374, fed back to the shareholders as a loss under IRC § 1366(f)(2) (B) Nothing further, because an S corporation pays no entity-level tax (C) The built-in gain is deferred until the shareholder sells the land (D) The distribution is a dividend to the extent of the built-in gain
+*Answer: A. IRC § 1374 converts a deemed sale within the recognition period into a recognised built-in gain subject to entity-level tax, and IRC § 1366(f)(2) treats that tax as a loss of the corporation so shareholders bear it once.*

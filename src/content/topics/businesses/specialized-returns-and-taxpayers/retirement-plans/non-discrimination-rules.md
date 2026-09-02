@@ -288,3 +288,15 @@ where the plan is top-heavy. The minimum is capped at the percentage contributed
 employee with the highest percentage, so if no key employee received a contribution the required
 minimum is zero — but a discretionary contribution to the owner alone would trigger the full
 obligation.
+
+**6. A plan benefits 25 of an employer's 50 non-highly compensated employees and 8 of its 10 highly compensated employees. Does it pass coverage on the headcount tests?**
+(A) Yes, because 33 of the 60 employees, more than half, benefit (B) No, because 50 percent of non-highly compensated employees is below 70 percent and the ratio of 50 to 80 is 62.5 percent, so only the average benefit test could save it (C) Yes, because at least 70 percent of highly compensated employees benefit (D) Yes, because 62.5 percent exceeds the 60 percent threshold
+*Answer: B. IRC § 410(b)(1) offers three tests and only one must be met; the first two count heads and both fail here, leaving the average benefit test, which measures benefits rather than headcount.*
+
+**7. In mid-December a calendar-year 401(k) that has never used a safe harbour learns from interim testing that it will fail the deferral test. What can the sponsor still do for that year?**
+(A) Adopt the matching safe harbour by giving notice before 31 December (B) Adopt the nonelective safe harbour at 3 percent by amendment before 31 December (C) Adopt the nonelective safe harbour at 4 percent by amendment up to the deadline for distributing excess contributions (D) Nothing, because a safe harbour must be in place before the plan year begins
+*Answer: C. IRC § 401(k)(12)(F) allows a late nonelective safe harbour at 3 percent only if the amendment is made before the 30th day before the close of the plan year, which is 1 December for a calendar year, and otherwise at 4 percent up to the deadline for distributing excess contributions; the matching safe harbour requires advance notice and cannot be adopted retrospectively.*
+
+**8. A 401(k) satisfies the matching safe harbour and also makes discretionary profit-sharing contributions. Which testing is it still subject to?**
+(A) None, because a safe harbour plan is deemed to pass all three tests (B) Coverage under IRC § 410(b) and top-heavy testing under IRC § 416, but not the deferral test (C) Top-heavy testing only (D) The deferral test only, because the safe harbour exempts coverage and top-heavy testing
+*Answer: B. IRC § 401(k)(12) addresses only the deferral test in IRC § 401(k)(3)(A)(ii); coverage under IRC § 410(b) must still be satisfied, and a safe harbour plan making other employer contributions remains subject to top-heavy testing.*

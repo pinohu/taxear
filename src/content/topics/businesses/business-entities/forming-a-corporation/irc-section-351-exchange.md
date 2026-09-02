@@ -264,3 +264,15 @@ value of $600,000 to a controlled corporation. What basis does the corporation t
 transferred in a IRC § 351 transaction may not exceed its fair market value immediately after the
 transaction, and the $300,000 reduction is allocated among the properties in proportion to their built-in
 losses. The alternative is an election to reduce the transferor's stock basis instead.*
+
+**6. Ines transfers land for 700 shares and Joaquin transfers equipment of substantial value for 300 shares, in a single planned transaction to a new corporation with no other stock. Does the exchange qualify for nonrecognition?**
+(A) Neither transfer qualifies, because no single transferor holds 80 percent (B) Both qualify, because the property transferors are aggregated and together hold 100 percent immediately after the exchange (C) Only Ines qualifies, because Joaquin's 30 percent is below the control threshold (D) Both qualify only if each transferor separately holds at least 80 percent of a class
+*Answer: B. IRC § 351(a) tests whether the transferors as a group are in control immediately after the exchange, and IRC § 368(c) is satisfied because several transferors acting together are aggregated.*
+
+**7. A transferor contributes property with an aggregate basis of $1,000,000 and an aggregate fair market value of $700,000 to a controlled corporation, and the parties elect to reduce the transferor's stock basis rather than the corporation's basis. What are the two bases?**
+(A) Corporation $700,000, stock $1,000,000 (B) Corporation $1,000,000, stock $700,000 (C) Both $700,000 (D) Both $1,000,000
+*Answer: B. IRC § 362(e)(2) caps the corporation's aggregate basis at fair market value where there is a net built-in loss, but the election reduces the transferor's stock basis instead and leaves the corporation with carryover basis, so the loss survives once.*
+
+**8. In an exchange that otherwise qualifies, a transferor gives property worth $400,000 with a basis of $550,000 to a corporation she controls, receiving stock worth $340,000 and $60,000 of cash. What loss does she recognise?**
+(A) $150,000, her full realised loss (B) $60,000, up to the cash received (C) Nothing: boot is a ceiling on gain, and no loss is recognised at all (D) $150,000, but only if the corporation elects to reduce its own basis instead
+*Answer: C. IRC § 351(b)(2) provides that no loss is recognised, so receiving boot caps the gain that can be recognised but never unlocks a loss; the built-in loss stays in the bases, subject to the IRC § 362(e)(2) cap in the corporation's hands.*

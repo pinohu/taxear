@@ -102,7 +102,11 @@ test('the bank samples without repeats, across domains, and strips answers', () 
   assert.ok(questionById(qs[0].id).options.length === 4);
   const one = sampleQuestions({ parts: [3], count: 25, domain: '3.3' });
   assert.ok(one.every((q) => q.domain === '3.3'));
-  assert.equal(sampleQuestions({ parts: [2], count: 25 }).length, 0, 'no multiple-choice in Part 2 yet');
+  const p2 = sampleQuestions({ parts: [2], count: 25 });
+  assert.equal(p2.length, 25, 'Part 2 has a multiple-choice bank');
+  assert.ok(p2.every((q) => q.part === 2 && q.options.length === 4));
+  assert.ok(c[1].questions >= 350, 'three per Part 2 page');
+  assert.equal(sampleQuestions({ parts: [1], count: 25 }).length, 25, 'Part 1 has some too');
   assert.equal(sampleDrills({ parts: [2], count: 10 }).length, 10);
 });
 

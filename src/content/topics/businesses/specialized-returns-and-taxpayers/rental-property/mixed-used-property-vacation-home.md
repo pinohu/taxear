@@ -288,3 +288,15 @@ amount, so $6,000 of the $9,000. Nothing remains, so none of the depreciation is
 further operating expense is either. The disallowed $3,000 of operating expense and $7,000 of
 depreciation carry forward under IRC § 280A(c)(5) to the succeeding year, where the same cap applies
 again.
+
+**6. A beach house is rented at fair rental for 300 days in 2026 and used personally by the owner for 29 days. Is it used as a residence?**
+(A) Yes, because 29 days exceeds 14 days (B) No, because the threshold is the greater of 14 days or 10 percent of 300 fair-rental days, which is 30, and 29 does not exceed it (C) Yes, because the threshold is the lesser of 14 days or 10 percent of fair-rental days (D) No, because personal use under 30 days is always disregarded whatever the rental days
+*Answer: B. IRC § 280A(d)(1) sets the residence test at the greater of 14 days or 10 percent of days rented at fair rental; a heavily rented property tolerates more personal use, so the gross income cap does not apply and a loss is available subject to IRC § 469.*
+
+**7. A taxpayer rents her home for 10 days during 2026 for $9,000 and spends $2,500 on cleaning for the letting. She would rather report the rent and deduct the cost. What is the result?**
+(A) She may elect to report the $9,000 and deduct the $2,500 (B) The $9,000 is excluded from gross income and the $2,500 is not deductible, and she cannot opt in (C) The $9,000 is reported and the $2,500 is deductible up to gross rental income with a carryforward (D) The $9,000 is excluded but the $2,500 is deductible on Schedule A
+*Answer: B. IRC § 280A(g) applies by its terms rather than by choice where a dwelling used as a residence is rented for fewer than 15 days: the income is excluded and the deductions on account of the rental use are disallowed.*
+
+**8. An owner rents a flat at fair rental to her adult son, who uses it as his principal residence for the whole year. Are those days personal use by the owner?**
+(A) Yes, because use by a lineal descendant is always personal use (B) Yes, unless the son pays more than fair rental (C) No, because a unit rented at fair rental for use as a family member's principal residence is not personal use (D) No, because a son is not within the family definition
+*Answer: C. IRC § 280A(d)(3)(A) is the only escape from the family use rule in IRC § 280A(d)(2)(A), and it requires the unit to be that person's principal residence; without it a son, as a lineal descendant within IRC § 267(c)(4), would be personal use at any rent.*

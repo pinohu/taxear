@@ -313,3 +313,15 @@ payroll far smaller than the threshold suggests. A one-off event with a large wi
 such as a bonus run or an option exercise, can take an otherwise modest employer over it in a day.
 The employer's ordinary schedule is irrelevant, and the resulting change of status persists into the
 following calendar year.*
+
+**6. Tarrant Joinery reported $38,000 of employment taxes in its lookback period. Its payroll doubles during the current year, so the year's employment taxes will reach about $90,000, but no single day's accumulation ever approaches the next-day threshold. What is its deposit schedule this year?**
+(A) Monthly for the whole year, because status is fixed by the lookback period (B) Semi-weekly from the month in which cumulative taxes pass the annual line (C) Semi-weekly for the whole year, because this year's taxes exceed the line (D) Next-day, because the payroll has doubled
+*Answer: A. Reg. § 31.6302-1(b): depositor status is an annual determination made on the aggregate employment taxes reported for the lookback period, and growth during the year does not change it — only the next-day rule in Reg. § 31.6302-1(c)(3) alters status mid-year.*
+
+**7. Ovington Design, in its second quarter of having employees, accumulates $1,400 of withheld income tax and FICA for the quarter, and its first quarter was smaller still. What must it do with the $1,400?**
+(A) Deposit it by electronic funds transfer by the 15th of the following month (B) It may remit the amount with a timely filed return for the quarter, and the deposit is deemed timely made (C) Deposit it within three business days after the end of the quarter (D) Deposit it by the close of the next day after the last payroll
+*Answer: B. Reg. § 31.6302-1(f)(4): an employer whose accumulated employment taxes for a return period fall below the de minimis threshold may remit them with a timely filed return, and the same relief carries forward where the immediately preceding quarter was also below it.*
+
+**8. Wardle Freight fails to deposit $40,000 of employment taxes, receives a delinquency notice from the Service, and makes the deposit twelve days after the notice. What penalty rate applies under IRC § 6656?**
+(A) 10 percent (B) 5 percent (C) 15 percent (D) 2 percent
+*Answer: C. IRC § 6656(b)(1)(B): the rate rises to 15 percent where the tax is not deposited within 10 days after the first delinquency notice, so the elapsed-days tiers of § 6656(b)(1)(A) are displaced once the notice has issued and ten days have passed.*

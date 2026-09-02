@@ -291,3 +291,15 @@ supplier. Nothing changes hands in cash. Is there income?
 groceries or the like, the market value of the article received is included in gross income. The
 absence of cash is irrelevant, and the fuel is separately deductible as a farm expense, so the net
 effect is often nil — but both sides must be recorded.
+
+**6. A rancher sells a purchased breeding bull held four years for $6,000. It cost $4,500 and $2,000 of depreciation has been allowed. How is the $3,500 gain characterised?**
+(A) $3,500 of IRC § 1231 gain (B) $2,000 of ordinary income under IRC § 1245 and $1,500 of IRC § 1231 gain (C) $3,500 of ordinary income, because livestock is inventory (D) $6,000 of IRC § 1231 gain, because purchased animals are treated like raised ones
+*Answer: B. Treas. Reg. § 1.61-4(a): a purchased breeding animal's gain is the sales price over cost less depreciation allowed, so $3,500 on a $2,500 adjusted basis; IRC § 1245 recaptures the $2,000 of depreciation as ordinary income, and the balance is IRC § 1231 gain because cattle held for breeding 24 months or more qualify under IRC § 1231(b)(3)(A).*
+
+**7. A farmer sells in the same year a raised dairy cow held 20 months, a raised breeding sow held 15 months, a raised breeding horse held 30 months, and raised broiler chickens held 14 months. Which sales produce IRC § 1231 gain?**
+(A) All four (B) The sow and the horse only (C) The cow, the sow and the horse (D) The horse only
+*Answer: B. IRC § 1231(b)(3): cattle and horses need 24 months, other livestock 12, and poultry is excluded outright — 20 months fails for the cow, 15 months suffices for the sow, 30 months suffices for the horse, and the chickens never qualify.*
+
+**8. A farmer with the Commissioner's consent to use the crop method plants a two-year crop in 2025 at a cost of $30,000 and sells it in 2026 for $95,000. When is the $30,000 deducted?**
+(A) In 2025, the year it was paid (B) Half in 2025 and half in 2026 (C) In 2026, when the gross income from the crop is realised (D) Never, because it is capitalised into the land
+*Answer: C. Treas. Reg. § 1.61-4(c): under the crop method the entire cost of producing the crop is deducted in the year the gross income from that crop is realised, and not earlier — the method holds the deduction back rather than accelerating it.*

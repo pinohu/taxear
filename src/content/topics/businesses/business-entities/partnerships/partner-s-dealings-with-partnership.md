@@ -269,3 +269,15 @@ withhold?
 every other purpose Reg. § 1.707-1(c) regards it as a distributive share of ordinary income, and expressly
 says the recipient is not an employee for withholding purposes. It is reported on the Schedule K-1 and is
 self-employment income to the partner.*
+
+**6. A partnership agrees to pay Rosalind, for her services, the greater of $80,000 or 20 percent of net profits. Net profits before the payment are $600,000 and she receives $120,000. How much is a guaranteed payment?**
+(A) $120,000 (B) $80,000 (C) $40,000 (D) Nothing, because the amount depended on profits
+*Answer: B. IRC § 707(c): only the $80,000 minimum is determined without regard to the income of the partnership; the $40,000 excess varies with profits and is a distributive share allocated under IRC § 704.*
+
+**7. Tobias owns a 65 percent capital interest in a partnership that holds land as inventory for resale. He sells it a parcel he has held for investment for ten years, realising a $50,000 gain. The gain is:**
+(A) Ordinary income, because the parcel is not a capital asset in the partnership's hands (B) Long-term capital gain, because it was a capital asset in his hands (C) Not recognised until the partnership resells the parcel (D) Long-term capital gain, because he owns less than 80 percent
+*Answer: A. IRC § 707(b)(2): a gain on a sale between a partnership and a person owning more than 50 percent of its capital or profits interest is ordinary income where the property is other than a capital asset in the hands of the transferee, and the character in the seller's hands is irrelevant.*
+
+**8. Ines owns exactly 50 percent of the capital and profits of a partnership. She sells it equipment at a $30,000 loss. Is the loss allowed?**
+(A) Yes, because IRC § 707(b)(1) applies only to a partner owning more than 50 percent (B) No, it is disallowed under IRC § 707(b)(1) (C) No, it is deferred until the partnership disposes of the equipment (D) Yes, but only half of it, matching her interest
+*Answer: A. IRC § 707(b)(1) disallows a loss only where the partner owns, directly or indirectly, more than 50 percent of the capital or profits interest; a partner with exactly half is outside the provision.*

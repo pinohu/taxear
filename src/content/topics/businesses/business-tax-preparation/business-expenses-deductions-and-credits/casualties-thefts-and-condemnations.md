@@ -321,3 +321,15 @@ prospect of recovery. In which year is the loss deducted?
 *Answer: The current year. {fig:cas.theft_year} (IRC § 165(e)) treats a theft loss as sustained in
 the taxable year in which the taxpayer discovers it, so no earlier return is amended. With no
 reasonable prospect of recovery there is nothing to postpone it further.*
+
+**6. A courier's uninsured delivery van, adjusted basis $18,000 and worth $11,000 the day before, is totally destroyed in a flood. What is the casualty loss?**
+(A) $11,000, the lesser of the decline in value and the adjusted basis (B) $18,000, because business property was totally destroyed and its value was below its basis (C) $7,000, the excess of basis over value (D) Nothing, because the van was worth less than its basis
+*Answer: B. Reg. § 1.165-7(b)(1), closing sentence, provides that where business property is totally destroyed and its fair market value immediately before the casualty is less than its adjusted basis, the adjusted basis is treated as the amount of the loss.*
+
+**7. A fire destroys a business's warehouse and the insurance proceeds exceed its basis. The owner wants to reinvest in an apartment building thirty months later. Does IRC § 1033 defer the gain?**
+(A) Yes, because like-kind real property qualifies and the period is three years (B) No, because IRC § 1033(g) requires a condemnation, so the general two-year period and the narrower replacement test apply (C) Yes, if the owner elects deferral on the return for the year of the fire (D) No, because a gain on destroyed property can never be deferred
+*Answer: B. IRC § 1033(g) requires a seizure, requisition or condemnation of real property; a fire is not one, so the replacement must be similar or related in service or use under IRC § 1033(a)(2)(A) and made within the two-year period in IRC § 1033(a)(2)(B).*
+
+**8. In 2026 a business discovers that an employee embezzled $90,000 in 2024. It sues the employee, who has assets, and settles the claim for $30,000 in 2027. In which year is the $60,000 loss deducted?**
+(A) 2026, the year of discovery (B) 2027, when the claim is resolved (C) 2024, by amending that year's return (D) $90,000 in 2026, with $30,000 of income in 2027
+*Answer: B. IRC § 165(e) puts a theft loss in the year of discovery, but IRC § 165(a) allows only a loss "not compensated for by insurance or otherwise," and a claim with a reasonable prospect of recovery postpones the deduction until the claim is resolved.*

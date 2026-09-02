@@ -296,3 +296,15 @@ everything to the grantor and there is no separate return. Second, and independe
 expenditures are personal. IRC § 262(a) denies personal, living and family expenses, a personal
 residence is not held for the production of income so no depreciation is allowable, and the IRS
 guidance confirms that deductions not allowed to individuals are not allowed to trusts.*
+
+**6. An examination establishes that $40,000 of a taxpayer's underpayment is attributable to fraud arising from an abusive trust arrangement. What is the IRC § 6663 penalty?**
+(A) $8,000 (B) $10,000 (C) $30,000 (D) $40,000
+*Answer: C. IRC § 6663 imposes a penalty of 75 percent of the portion of an underpayment attributable to fraud, so $30,000. The promoter's exposure under IRC § 6700 and a preparer's under IRC § 6701 are separate from it.*
+
+**7. A preparer knowingly prepares four Forms 1041 implementing an abusive trust arrangement after the client explains candidly that the purpose is to reduce tax. How does IRC § 6701 apply?**
+(A) Not at all, because the client directed the treatment (B) As a single penalty for the engagement (C) As a penalty per document, so on each of the four returns (D) Only if the preparer also sold the arrangement
+*Answer: C. IRC § 6701(a) imposes a penalty per document on a person who aids or assists in preparing any portion of a return knowing it would understate another person's liability; the client's candour establishes the knowledge element rather than excusing the preparer.*
+
+**8. A promoter tells a client that transferring assets to a trust the client will continue to control removes them from the client's estate as a completed gift. Is that correct?**
+(A) Yes, because any transfer to a trust is a completed gift (B) No, because a gift is complete only where the donor has irrevocably parted with dominion and control, so contributing to a grantor trust generally produces no completed gift (C) Yes, provided the trust is labelled irrevocable (D) No, because gifts to trusts are never complete
+*Answer: B. IRS abusive trust guidance: a gift is complete to the extent the donor has irrevocably parted with dominion and control, so a structure designed to leave the grantor in control generally produces no completed gift, and that is the same fact that defeats the income tax claim.*

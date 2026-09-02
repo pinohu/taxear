@@ -336,3 +336,15 @@ eighteen months later. What happens?
 *Answer: The nonrecognition is undone. {fig:lke.related_party} (IRC § 1031(f)) — the disposal fell
 within two years of the last transfer, so gain or loss is recognised by the taxpayer, taken into
 account as of the date of her brother's disposition rather than the date of the exchange.*
+
+**6. Kessler Holdings, a calendar-year C corporation, transfers relinquished real property on 20 December 2026 and does not extend its 2026 return. By when must it receive the replacement property?**
+(A) 180 days after the transfer, in June 2027 (B) The due date of its 2026 return, because that date comes before the 180th day (C) 45 days after the transfer (D) The end of 2027
+*Answer: B. IRC § 1031(a)(3)(B): the exchange period ends at the earlier of 180 days after the transfer or the due date of the return for the year of the transfer, so with no extension taken a late-year relinquishment runs out of time in March, well before the 180th day in June.*
+
+**7. A company exchanges a building with an adjusted basis of $400,000, subject to a $100,000 mortgage the other party assumes, for real property worth $650,000 with no cash changing hands. What is recognised, and what is the new basis?**
+(A) No gain, and a basis of $400,000 (B) $100,000 of gain, and a basis of $400,000 (C) $100,000 of gain, and a basis of $500,000 (D) $350,000 of gain, and a basis of $650,000
+*Answer: B. IRC § 1031(d) treats a liability assumed, determined under IRC § 357(d), as money received, so IRC § 1031(b) recognises gain to the $100,000 of boot; the basis is $400,000 less the $100,000 treated as received plus the $100,000 recognised.*
+
+**8. A developer exchanges one of its subdivision lots, held for sale to customers, for a parcel it will hold for investment. Does IRC § 1031 apply?**
+(A) Yes, because real property was exchanged for real property (B) No, because real property held primarily for sale is excluded (C) Yes, provided the parcel is identified within 45 days (D) No, because a developer can never hold real property for investment
+*Answer: B. IRC § 1031(a)(2): the section is unavailable for real property held primarily for sale, so a dealer's inventory and a developer's lots are outside it however like-kind the replacement is.*

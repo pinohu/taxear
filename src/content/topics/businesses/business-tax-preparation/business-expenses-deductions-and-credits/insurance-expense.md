@@ -321,3 +321,15 @@ deducted?
 expenses to the extent it is used in computing the cost of property included in inventory or in
 determining the basis of plant, equipment or other property. The cost is recovered through
 depreciation instead.*
+
+**6. A corporation takes out a policy on its owner's life and assigns it to its bank as collateral for a loan, so the bank rather than the corporation would receive the proceeds. Are the premiums deductible?**
+(A) Yes, because the bank rather than the corporation is the beneficiary (B) No, because the corporation is indirectly a beneficiary under the policy (C) Yes, as interest on the loan the policy secures (D) Yes, provided the owner consented in writing before issue
+*Answer: B. IRC § 264(a)(1) denies the deduction where the taxpayer is "directly or indirectly a beneficiary," which reaches a policy the business assigns to a lender as collateral, not only one payable to the company outright.*
+
+**7. On 1 November 2026 a cash method business pays a $24,000 premium for twelve months of liability cover running from 1 April 2027 to 31 March 2028. When is it deductible?**
+(A) In full in 2026, because the cover lasts only twelve months (B) Spread over the policy term, because the benefit ends after the close of 2027 (C) In full in 2027, when the cover begins (D) Half in 2026 and half in 2027
+*Answer: B. Reg. § 1.263(a)-4(f)(1) has two limbs, twelve months from first realisation and the end of the taxable year following payment; the cover ends in 2028, after the close of 2027, so the second limb fails and the premium must be spread.*
+
+**8. A corporation holds a key-person policy on its founder issued in 2003 with no notice or consent, having paid $90,000 of premiums. It receives $800,000 on her death in 2026. How much does it include in income?**
+(A) $710,000 (B) Nothing (C) $800,000 (D) $90,000
+*Answer: B. IRC § 101(j) and IRC § 6039I apply only to contracts issued after 17 August 2006, so an older key-person policy is outside both and the death benefit is fully excluded under IRC § 101(a)(1) with no notice and consent condition.*

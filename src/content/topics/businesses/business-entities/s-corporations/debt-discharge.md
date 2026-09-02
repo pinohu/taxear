@@ -333,3 +333,15 @@ note as a contribution to capital. How much discharge income does the corporatio
 *Answer: None. {fig:scod.contributed_debt} (IRC § 108(e)(6)), and {fig:scod.debt_basis_ignored}
 (IRC § 108(d)(7)(C)) — so the relevant basis is $150,000, ignoring the IRC § 1367(b)(2)
 reductions. The corporation is treated as having satisfied the debt with $150,000 of money.*
+
+**6. A solvent S corporation outside bankruptcy has $60,000 of debt forgiven by a supplier. Its sole shareholder has stock basis of $10,000 and $40,000 of suspended losses. What is the result?**
+(A) $60,000 passes through as income, stock basis rises to $70,000 and the whole $40,000 of suspended losses is freed (B) $60,000 is excluded and the suspended losses are reduced to nil (C) $60,000 passes through but does not increase stock basis (D) Nothing passes through, because discharge income stays at the corporation
+*Answer: A. IRC § 1366(a)(1)(B) passes the included discharge income through as ordinary income and IRC § 1367(a)(1)(B) increases stock basis by it; no exclusion applies to a solvent corporation, so IRC § 108(b) attribute reduction never arises.*
+
+**7. Immediately before a lender forgives a $200,000 note, an S corporation has assets worth $500,000 and liabilities of $650,000 including that note. By how much is it insolvent for IRC § 108(a)(1)(B)?**
+(A) $150,000 (B) Nothing, because after the discharge liabilities are less than assets (C) $200,000 (D) $50,000
+*Answer: A. IRC § 108(d)(3) measures insolvency as the excess of liabilities over the fair market value of assets immediately before the discharge, so the note about to be forgiven is still counted: $650,000 less $500,000.*
+
+**8. Under current law, an amount of discharge income that an S corporation excludes under IRC § 108(a):**
+(A) Is not taken into account under IRC § 1366(a) and does not increase stock basis (B) Passes through as tax-exempt income and increases stock basis (C) Increases stock basis, but only after the attribute reduction (D) Passes through as ordinary income to the shareholders
+*Answer: A. IRC § 108(d)(7)(A), as amended by Pub. L. 107-147 § 402(a) to reverse Gitlitz v. Commissioner, applies the exclusion at the corporate level including by not taking the excluded amount into account under IRC § 1366(a).*

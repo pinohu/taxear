@@ -308,3 +308,15 @@ applied the current threshold. Does she have income?
 *Answer: Yes, $1,400 under IRC § 61(a)(2). The reporting threshold is an obligation of the payer
 under IRC § 6041 and IRC § 6041A and says nothing about the recipient's gross income. The 2026
 threshold is {fig:report.6041_threshold}, so payments of this size are now commonly unreported.*
+
+**6. A newly formed corporation's first taxable year runs for four months, during which it has $6,000,000 of gross receipts. For the IRC § 448(c) gross receipts test, what figure is used for that year?**
+(A) $6,000,000 (B) $18,000,000 (C) $2,000,000 (D) The year is ignored because it is short
+*Answer: B. IRC § 448(c)(3) annualises a short taxable year by multiplying gross receipts by 12 and dividing by the number of months — $6,000,000 times 12 over 4.*
+
+**7. An accrual method business receives $30,000 in December 2026 for services it will perform entirely in 2027. It has made no election under IRC § 451(c). In which year is the $30,000 income?**
+(A) All of it in 2026, the year of receipt (B) All of it in 2027, when the services are performed (C) Ratably as the services are performed (D) Half in each year
+*Answer: A. IRC § 451(c)(1)(A): without the election, an accrual method taxpayer includes an advance payment in gross income in the year of receipt; only the election under IRC § 451(c)(1)(B) defers any portion, and then only to the following year.*
+
+**8. In 2026 a sole proprietor is paid $9,000 through a third party settlement organisation across 45 transactions. Will she receive a Form 1099-K, and is the $9,000 income?**
+(A) She will receive the form, and the amount is income (B) She will not receive the form because neither the dollar nor the transaction test is met, but the $9,000 is income regardless (C) She will not receive the form, so the amount is not income (D) She will receive the form because the lower flat-dollar threshold enacted in 2021 still applies
+*Answer: B. IRC § 6050W(e) as restored by Pub. L. 119-21 § 70432(a) requires both the dollar and the transaction-count tests to be exceeded, and the 2021 reduction is treated as never having taken effect; whether a form issues is the payer's obligation and says nothing about her gross income under IRC § 61(a).*

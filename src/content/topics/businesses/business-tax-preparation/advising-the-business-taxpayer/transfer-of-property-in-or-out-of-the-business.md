@@ -325,3 +325,15 @@ value and the shareholder is taxed again under IRC § 301(c), all without any ca
 partnership recognises nothing under IRC § 731(a) and the property carries a basis under
 IRC § 732(a). The choice made at formation therefore prices a transaction that may not happen for
 twenty years.*
+
+**6. A partner holding a 10 percent interest contributes land worth $250,000 with a basis of $90,000 to the partnership in exchange for an increased interest, after which she holds 15 percent. What does she recognise?**
+(A) $160,000 of gain, because she does not control the partnership afterwards (B) Nothing, because IRC § 721(a) has no control requirement (C) $160,000 of gain, because a later contribution by an existing owner is a sale (D) Nothing, but only if the land is held for seven years
+*Answer: B. IRC § 721(a) asks only that property be contributed for a partnership interest, with no control requirement and no solely-for-stock equivalent, so a later contribution by an existing minority owner is non-recognition; the same facts would fail the control test of IRC § 351.*
+
+**7. Partner A contributes $300,000 in cash; partner B contributes land with a basis of $100,000 and a value of $300,000. They share profits equally. Two years later the partnership sells the land for $340,000. How much of the gain is allocated to B?**
+(A) $120,000 (B) $200,000 (C) $240,000 (D) $220,000
+*Answer: D. IRC § 704(c)(1)(A) allocates the $200,000 of gain built in at contribution to the contributor, and only the $40,000 of post-contribution appreciation is shared, so B takes $200,000 plus $20,000.*
+
+**8. Farrant Holdings, a C corporation, distributes land with a basis of $200,000 and a fair market value of $650,000 to its sole shareholder. What does the corporation recognise?**
+(A) Nothing, because a distribution to a shareholder is not a sale (B) $450,000 of gain, and the shareholder is also taxed on the distribution (C) $450,000 of gain, with the shareholder receiving the land tax-free (D) Nothing now, with the gain deferred until the shareholder sells the land
+*Answer: B. IRC § 311(b)(1) recognises gain to the corporation as if the appreciated property had been sold at fair market value, and IRC § 301(c) then taxes the shareholder on the distribution, so two levels of tax fall on one movement of property.*

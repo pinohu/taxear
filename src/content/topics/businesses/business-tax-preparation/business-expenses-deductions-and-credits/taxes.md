@@ -332,3 +332,15 @@ government a party. Does IRC § 162(f)(1) disallow it?
 *Answer: No. {fig:tax.private_suit} (IRC § 162(f)(3)) takes an amount paid by reason of a court
 order in a suit in which no governmental entity is a party outside the disallowance entirely, so
 its deductibility is decided by IRC § 162(a) on ordinary principles.*
+
+**6. A corporation pays $50,000 of income tax to a foreign country and claims the IRC § 901 credit for $30,000 of it. May it deduct the remaining $20,000?**
+(A) Yes, the portion not credited may be deducted under IRC § 164 (B) No, because the deduction is denied once the taxpayer chooses the credit to any extent (C) Yes, but only as an itemized deduction (D) No, because foreign income taxes are never deductible
+*Answer: B. IRC § 275(a)(4) denies the deduction for a foreign income tax where the taxpayer chooses the IRC § 901 credit "to any extent," so a foreign income tax is deductible or creditable, not both.*
+
+**7. A retailer with average annual gross receipts of $20,000,000 for the testing period pays $12,000 of sales tax on goods it buys for resale in 2026. How is the tax treated?**
+(A) Capitalised into inventory and recovered through cost of goods sold (B) Deducted in the year paid as a tax paid in carrying on a trade or business (C) Capitalised as part of a depreciable asset (D) Not deductible at all
+*Answer: B. IRC § 263A(i) exempts a business that meets the IRC § 448(c) gross receipts test from capitalising the tax into inventory, so it is deducted under the business catch-all in the flush text of IRC § 164(a). Above the threshold the identical tax would be capitalised under IRC § 263A(a)(2)(B).*
+
+**8. A company settles a state enforcement action. The signed agreement identifies $300,000 of the payment as reimbursement of the agency's costs of investigating the matter. Is that $300,000 deductible?**
+(A) Yes, because the agreement identifies the amount and it is not a penalty (B) No, because reimbursement of a government's investigation costs is outside the restitution exception (C) Yes, as an ordinary and necessary business expense under IRC § 162(a) (D) Yes, if the company can show the investigation found no violation
+*Answer: B. IRC § 162(f)(2)(B) provides that amounts paid as reimbursement of the government's investigation or litigation costs are not restitution or compliance payments, so the exception in IRC § 162(f)(2)(A) never reaches them whatever the agreement says.*

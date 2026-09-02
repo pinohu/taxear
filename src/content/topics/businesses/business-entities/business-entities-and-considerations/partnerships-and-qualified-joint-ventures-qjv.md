@@ -252,3 +252,15 @@ wife.*
 *Answer: So that their character survives the partnership. Capital gains and losses, § 1231 items,
 charitable contributions, foreign taxes and the other listed classes reach each partner as what they
 were at the partnership level rather than folded into a single figure.*
+
+**6. A five-partner partnership that owed no tax files its Form 1065 fifteen months late, with no reasonable cause. How is the IRC § 6698 penalty computed?**
+(A) A single flat amount for the late return (B) The monthly amount multiplied by five partners and by twelve months, the cap being twelve months (C) The monthly amount multiplied by five partners and by fifteen months (D) Nothing, because no tax was due
+*Answer: B. IRC § 6698(b), as indexed, sets a monthly amount per person who was a partner during any part of the year, for each month the failure continues up to a maximum of twelve; the cap is on months of penalty, not on the delay, and the absence of tax is irrelevant.*
+
+**7. Two unrelated individuals co-own a parcel of land held purely for appreciation, carry on no business with it, and want to keep it out of subchapter K. Which election fits?**
+(A) The IRC § 761(f) qualified joint venture election (B) The IRC § 761(a) election to exclude the arrangement from subchapter K, available for an organisation availed of for investment purposes only (C) None; every co-ownership is a partnership and must file Form 1065 (D) An S corporation election on Form 2553
+*Answer: B. IRC § 761(a) lets all the members of an unincorporated organisation elect out of some or all of subchapter K where it is availed of for investment purposes only and not the active conduct of a business; the IRC § 761(f) election is confined to a married couple's business and would not fit.*
+
+**8. Spouses jointly own a food truck. The husband runs it full time; the wife helps at a few weekend events each year. They file a joint return and both sign an election for qualified joint venture treatment. Is the election available?**
+(A) Yes; co-ownership by spouses is enough (B) No; both spouses must materially participate within IRC § 469(h), and occasional weekend help is unlikely to meet any of the tests (C) Yes, because they file a joint return and both signed (D) No; a qualified joint venture may have only one spouse as owner
+*Answer: B. IRC § 761(f) requires that both spouses materially participate within IRC § 469(h), determined without regard to § 469(h)(5); a joint return and a signed election satisfy the other conditions, but occasional involvement by one spouse does not satisfy this one, so the business remains a partnership.*

@@ -348,3 +348,15 @@ so self-correction is itself an unauthorised change. Beyond that, the automatic 
 under Reg. § 1.446-1(e)(3)(ii) set the terms in advance — the section 481(a) spread and, in most
 cases, audit protection for the years before the change. A taxpayer that simply starts reporting
 correctly gets neither, and remains exposed on the earlier years it was trying to put right.*
+
+**6. Ferris Tooling, a calendar-year C corporation, has used an impermissible method of accounting for five years and wants to report correctly from 2026. What must it do?**
+(A) Simply begin using the correct method in 2026, because moving to a permissible method requires no consent (B) File amended returns for the open years and use the correct method going forward (C) Obtain the Commissioner's consent, generally by filing Form 3115, even though the old method was impermissible (D) Continue the old method until the IRS raises the issue on examination
+*Answer: C. Reg. § 1.446-1(e)(2)(i): consent is required whether or not the method being changed from was proper, so self-correction is itself an unauthorised change and forfeits the audit protection a Form 3115 change would carry.*
+
+**7. Bellamy Corp, a calendar-year C corporation, had gross receipts of $29,000,000, $34,000,000 and $36,000,000 in 2023, 2024 and 2025, and expects $25,000,000 in 2026. May it use the cash method for 2026?**
+(A) Yes, because the three-year average including 2026 is within the threshold (B) No, because the average of 2023 through 2025 exceeds the 2026 threshold (C) Yes, because its 2026 receipts alone are within the threshold (D) No, because a C corporation may never use the cash method
+*Answer: B. IRC § 448(c)(1) and Rev. Proc. 2025-32 § 3.30: the average runs over the three taxable years ending with the year preceding the year tested, and $33,000,000 is above the 2026 figure, so the § 448(a) prohibition applies; a preparer who averaged 2024 through 2026 would reach the wrong answer.*
+
+**8. Pruett Catering, a cash-method taxpayer, pays $9,000 on 1 October 2026 for a service contract running 24 months from that date. How much may it deduct in 2026?**
+(A) $9,000, because a cash-method taxpayer deducts what it pays (B) Nothing in 2026, because a cash-method taxpayer may never deduct a prepayment (C) Only the portion allocable to 2026, because the benefit runs beyond the 12-month window and the prepayment is capitalised (D) $9,000, because the 12-month rule covers any prepayment of two years or less
+*Answer: C. Reg. § 1.263(a)-4(f)(1): the 12-month rule relieves capitalisation only where the benefit does not extend beyond the earlier of 12 months after it is first realised or the end of the following taxable year, and a 24-month contract fails both limbs, so it is capitalised and recovered over the period it covers whatever method the taxpayer uses.*

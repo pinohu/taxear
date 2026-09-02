@@ -341,3 +341,15 @@ income and has no other business. What is her deduction?
 *Answer: The fixed minimum under {fig:qbi.minimum} (IRC § 199A(i)), because it exceeds the ordinary
 computation of 20 percent of $1,500, or $300, and her aggregate active qualified business income
 clears the floor. {fig:qbi.active} is satisfied by her material participation.*
+
+**6. An unmarried management consultant has $250,000 of qualified business income and taxable income of $290,000 for 2026. What is her qualified business income deduction?**
+(A) 20 percent of her qualified business income, with no wage test (B) A partial deduction, reduced ratably through the phase-in range (C) Nothing, because the practice is excluded entirely (D) The lesser of 20 percent of qualified business income and 50 percent of W-2 wages
+*Answer: C. IRC § 199A(d)(2) makes consulting a specified service trade or business, and under IRC § 199A(d)(3) a taxable income of $290,000 sits above the top of the 2026 phase-in range for an unmarried filer, so she has no qualified business income and no deduction.*
+
+**7. A manufacturing business has $400,000 of qualified business income, pays $200,000 of W-2 wages, and holds qualified property with an unadjusted basis immediately after acquisition of $1,000,000. Its owner's taxable income is above the top of the phase-in range. What is the deduction for the business?**
+(A) $80,000 (B) $100,000 (C) $75,000 (D) $50,000
+*Answer: A. IRC § 199A(b)(2): the deduction is the lesser of 20 percent of qualified business income, $80,000, and the greater of 50 percent of wages, $100,000, or 25 percent of wages plus 2.5 percent of unadjusted basis, $75,000. The greater limitation is $100,000, which exceeds $80,000, so the limitation does not bite.*
+
+**8. An unmarried taxpayer has $60,000 of qualified business income from a non-service business and $480,000 of investment income, giving taxable income of $540,000. Is she below the threshold amount for 2026?**
+(A) Yes, because her business income is far below the threshold (B) No, because the threshold is measured on taxable income, which includes her investment income (C) Yes, because investment income is not qualified business income (D) No, because investment income is a specified service activity
+*Answer: B. IRC § 199A(e)(2) defines the threshold amount by reference to taxable income computed without the section's own deduction, so a taxpayer with modest business profits but large investment income can sit above it, and the wage and property limitation then applies in full.*

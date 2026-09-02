@@ -286,3 +286,15 @@ liability, and provides carryovers to soften that. IRC § 642(c) instead allows 
 without limitation and without carryover — because the payment is not a discretionary gift by the
 taxpayer at all: it is the trust doing what the settlor directed with income the settlor devoted to
 that purpose. The two conditions replace the percentage limit as the constraint.*
+
+**6. Which of the following can never claim the IRC § 642(c) charitable deduction?**
+(A) An estate (B) A complex trust whose instrument directs charitable payments (C) A simple trust (D) A trust created after 1969
+*Answer: C. IRC § 642(c)(1) excludes a trust meeting the specifications of subpart B, a simple trust, which is consistent because a trust whose instrument permits charitable payments can never be simple in the first place. A post-1969 trust loses only the set-aside limb, not the deduction for amounts paid.*
+
+**7. Of the four IRC § 642(b) exemptions, which one is adjusted for inflation each year?**
+(A) The estate's exemption (B) The ordinary trust's exemption (C) The exemption for a trust required to distribute all income currently (D) The qualified disability trust exemption
+*Answer: D. IRC § 642(b)(2)(C); Rev. Proc. 2025-32 § 3.35: the qualified disability trust figure is tied to the personal exemption amount and restated annually, while the estate, ordinary trust and current-distribution trust figures have stood unchanged since 1954.*
+
+**8. A trust created in 2019 permanently sets aside $25,000 of gross income for a charity under its instrument but pays nothing to the charity during the year or the following year. Is a deduction available?**
+(A) Yes, under IRC § 642(c), because a set-aside is treated the same as a payment (B) Yes, under IRC § 170(a) (C) No, the set-aside limb does not reach most trusts created after 1969, though an estate could use it (D) Yes, but limited to a percentage of the trust's income
+*Answer: C. IRC § 642(c): a deduction for amounts permanently set aside rather than paid is available to an estate and to certain older trusts but not to most trusts created after 1969, and IRC § 170(a) is no fallback because the fiduciary deduction applies in lieu of it.*

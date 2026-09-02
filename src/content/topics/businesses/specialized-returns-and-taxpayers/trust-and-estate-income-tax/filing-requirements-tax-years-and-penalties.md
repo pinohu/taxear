@@ -294,3 +294,15 @@ use a fiscal year — the estate — often held almost nothing, while the entity
 locked to the calendar year and to the $100 exemption. IRC § 645 lets the trust be treated and taxed
 as part of the estate, restoring the fiscal year, the larger exemption and the estimated tax
 exemption to the assets that actually generate the income.*
+
+**6. An estate has gross income of $475 for its taxable year and, after expenses, taxable income of $150. Must it file Form 1041?**
+(A) Yes, because it has taxable income (B) No, because an estate files only where gross income is $600 or more (C) Yes, because every estate files for each year of administration (D) No, because an estate never files until administration closes
+*Answer: B. IRC § 6012(a)(3) applies only the $600 gross income threshold to an estate; the "any taxable income" limb in IRC § 6012(a)(4) is a trust rule, and a trust in the same position would have to file.*
+
+**7. A calendar-year complex trust obtains an extension for its 2026 Form 1041. What is the extended due date?**
+(A) 15 October 2027 (B) 30 September 2027 (C) 15 September 2027 (D) 15 August 2027
+*Answer: B. IRC § 6072(a) puts the return on the fifteenth day of the fourth month after the year closes, 15 April, and the IRC § 6081 extension for a fiduciary return is five and a half months rather than six, which lands on 30 September rather than 15 October.*
+
+**8. A complex trust files its Form 1041 four months late. It distributed all of its distributable net income and owes no tax. What penalty exposure does it face?**
+(A) A per-beneficiary monthly penalty of the kind IRC § 6698 imposes on partnerships (B) The IRC § 6651 additions, which are a percentage of the tax due and so produce nothing here (C) Loss of the distribution deduction for the year (D) A penalty measured by distributable net income
+*Answer: B. IRC § 6651 imposes the failure to file and failure to pay additions in the ordinary way, as a percentage of the tax due, and there is no per-beneficiary penalty of the kind IRC §§ 6698 and 6699 impose on partnerships and S corporations, so a trust that distributed everything may owe nothing.*

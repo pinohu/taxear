@@ -302,3 +302,15 @@ IRC § 501(c)(6) is not one, and a commercial marketer certainly is not. The inc
 the ordinary three tests, and a regularly repeated sale of a list on commercial terms will fail
 them. Whether the payment is instead a royalty excluded by IRC § 512(b)(2) turns on how passive the
 association's role is, which is where these cases are actually fought.
+
+**6. A charity runs a food stand for the two weeks of the county fair each year, staffed by paid workers, and the $18,000 it nets goes entirely into its programmes. Is the income unrelated business taxable income?**
+(A) Yes, because the stand is a trade or business and selling food is not related (B) No, because the profits are used for the exempt purpose (C) No, because a stand run for two weeks a year is not regularly carried on (D) Yes, because paid staff defeat the volunteer labour exception
+*Answer: C. Treas. Reg. § 1.513-1(c): frequency and continuity measured against comparable commercial activity decide the second test, and a two-week stand at a fair is the regulation's own example of a business not regularly carried on; the use of the profits is expressly irrelevant under IRC § 513(a).*
+
+**7. A charity owns an office building outright and leases one floor to a firm. Which lease term would cause the rent to lose the IRC § 512(b)(3) exclusion?**
+(A) Rent set at 6 percent of the tenant's gross receipts (B) Rent set at 20 percent of the tenant's net profits (C) A lease that includes office furniture accounting for a tenth of the total rent (D) A ten-year term with fixed annual increases
+*Answer: B. IRC § 512(b)(3): the exclusion fails where the rent depends on the income or profits of any person from the property other than by a fixed percentage of receipts or sales, or where more than half the rent is attributable to personal property; a percentage-of-gross-receipts lease and incidental furniture rent are both fine.*
+
+**8. A sponsor pays a charity $25,000 for its gala. The agreement displays the sponsor's name and logo and provides that $5,000 of the payment is refundable if attendance falls below 400. How is the payment treated?**
+(A) Entirely a qualified sponsorship payment (B) Entirely advertising income, because any contingency taints the whole payment (C) $20,000 is a qualified sponsorship payment and the $5,000 contingent on attendance is not (D) Entirely excluded as a charitable contribution
+*Answer: C. IRC § 513(i)(2)(B)(i) takes any payment contingent on attendance outside the definition, and IRC § 513(i)(3) splits the payment so that the portion which would qualify on its own remains a qualified sponsorship payment.*

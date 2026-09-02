@@ -317,3 +317,15 @@ distributes appreciated land to its former shareholders. Does IRC § 1371(e) app
 *Answer: No. {fig:sc.ptt_distribution} — the relief is confined to a distribution of money. A
 distribution of land in the post-termination transition period is an ordinary corporate
 distribution governed by IRC § 301.*
+
+**6. Marlow Optics Inc. has been an S corporation since it was organised and has never acquired a C corporation. Its sole shareholder's stock basis is $110,000 at the start of the year; the corporation earns $40,000 of ordinary income and distributes $140,000 in December. How is the distribution characterised?**
+(A) $110,000 is a recovery of basis and $30,000 is gain from the sale or exchange of property (B) $110,000 is a recovery of basis and $30,000 is a dividend (C) The whole $140,000 is a tax-free recovery of basis, because basis is first increased by the year's income (D) The whole $140,000 is a dividend to the extent of the accumulated adjustments account
+*Answer: C. IRC § 1368(d) directs that basis is increased for the year's income before the distribution is measured, taking it to $150,000; with no accumulated earnings and profits under IRC § 1371(c), IRC § 1368(b) makes the whole $140,000 a recovery of basis, leaving $10,000, with no gain and no dividend.*
+
+**7. An S corporation with accumulated earnings and profits has an accumulated adjustments account of $30,000 at the close of the year. It distributed $20,000 in February and $80,000 in October. How much of the October distribution is treated under IRC § 1368(b)?**
+(A) $24,000 (B) $10,000 (C) $30,000 (D) Nothing, because the February distribution used the account first
+*Answer: A. IRC § 1368(c), flush text: where distributions exceed the account, its balance is allocated among them in proportion to their sizes — 20 to 80 — so $6,000 goes to February and $24,000 to October, with the rest of each a dividend to the extent of the accumulated earnings and profits.*
+
+**8. An S corporation with $100,000 of accumulated earnings and profits begins the year with an accumulated adjustments account of $50,000. It has no income, losses or deductions for the year and distributes $70,000. What is the account balance at the close of the year?**
+(A) Negative $20,000 (B) $50,000 (C) Negative $70,000 (D) Zero
+*Answer: D. Reg. § 1.1368-2(a)(3)(ii), (iii): losses may take the account below zero but a distribution may not, so the account stops at zero and the $20,000 excess is a dividend under IRC § 1368(c)(2).*
