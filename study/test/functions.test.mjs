@@ -212,6 +212,18 @@ test('a grant that arrives after its own refund is not applied and does not lift
   await grant(env, 'a@b.co', 'p3', { at: now + 2000, ref: 'cs_p3', paymentIntent: 'pi_3' });
   e = await entitlementsFor(env, 'a@b.co');
   assert.deepEqual(e.parts, [3]); assert.equal(e.revoked, false);
+  // The refund is the very first event for a brand-new address: the tombstone still
+  // lands, so the late first checkout applies nothing and keeps the customer id.
+  assert.equal((await revoke(env, 'new@b.co', 'refund', { paymentIntent: 'pi_first' })).scope, '*');
+  const first = await grant(env, 'new@b.co', 'p1', { at: now, ref: 'cs_first', paymentIntent: 'pi_first', stripeCustomer: 'cus_new' });
+  assert.equal(first.applied, false); assert.equal(first.refunded, true);
+  e = await entitlementsFor(env, 'new@b.co');
+  assert.deepEqual(e.parts, []); assert.equal(e.revoked, true);
+  const rec = JSON.parse(await env.ACCESS_KV.get('purchase:new@b.co'));
+  assert.equal(rec.stripeCustomer, 'cus_new', 'the rejected grant still records the customer for the billing portal');
+  // Replaying the refunded success URL logs the rejection once, never fifty times.
+  for (let i = 0; i < 60; i++) await grant(env, 'new@b.co', 'p1', { at: now, ref: 'cs_first', paymentIntent: 'pi_first' });
+  assert.equal(JSON.parse(await env.ACCESS_KV.get('purchase:new@b.co')).history.filter((h) => h.event.endsWith('after-refund')).length, 1);
 });
 
 test('a failed purchase write never leaves a Stripe reference marked spent', async () => {
