@@ -1,0 +1,109 @@
+// The Functions' pure logic, run in Node 22 (same Web Crypto as the Workers runtime).
+// KV is stubbed with a Map; Stripe and email are never called.
+import { test } from 'node:test';
+import assert from 'node:assert/strict';
+import { signToken, verifyToken, sessionToken, readCookie, setCookieHeader } from '../functions/_lib/cookie.js';
+import { verifyWebhookSignature } from '../functions/_lib/stripe.js';
+import { grant, revoke, endSubscription, entitlementsFor, entitlementsOf } from '../functions/_lib/entitlements.js';
+import { sampleQuestions, sampleDrills, counts, questionById, publicQuestion } from '../functions/_lib/bank.js';
+import { gate } from '../functions/_lib/gate.js';
+
+const SECRET = 'test-secret-not-for-production';
+const kv = () => { const m = new Map(); return { get: async (k) => m.get(k) ?? null, put: async (k, v) => { m.set(k, v); }, delete: async (k) => { m.delete(k); }, _m: m }; };
+
+test('tokens round-trip, reject tampering, and expire', async () => {
+  const t = await signToken({ email: 'a@b.co', exp: Date.now() + 1000, purpose: 'session' }, SECRET);
+  assert.equal((await verifyToken(t, SECRET)).email, 'a@b.co');
+  assert.equal(await verifyToken(t + 'x', SECRET), null);
+  assert.equal(await verifyToken(t, 'other'), null);
+  const stale = await signToken({ email: 'a@b.co', exp: Date.now() - 1 }, SECRET);
+  assert.equal(await verifyToken(stale, SECRET), null);
+  const noExp = await signToken({ email: 'a@b.co' }, SECRET);
+  assert.equal(await verifyToken(noExp, SECRET), null, 'a token without exp is never valid');
+});
+
+test('session cookie carries thirty days and is read back from the header', async () => {
+  const t = await sessionToken('x@y.z', SECRET);
+  const header = setCookieHeader(t);
+  assert.match(header, /HttpOnly/); assert.match(header, /Secure/); assert.match(header, /Max-Age=2592000/);
+  const req = new Request('https://study.taxear.com/api/me', { headers: { Cookie: `other=1; ${header.split(';')[0]}` } });
+  assert.equal(readCookie(req), t);
+});
+
+test('webhook signatures verify with the documented scheme and reject stale or wrong ones', async () => {
+  const body = '{"id":"evt_1","type":"charge.refunded"}';
+  const secret = 'whsec_test';
+  const t = Math.floor(Date.now() / 1000);
+  const key = await crypto.subtle.importKey('raw', new TextEncoder().encode(secret), { name: 'HMAC', hash: 'SHA-256' }, false, ['sign']);
+  const sig = [...new Uint8Array(await crypto.subtle.sign('HMAC', key, new TextEncoder().encode(`${t}.${body}`)))].map((b) => b.toString(16).padStart(2, '0')).join('');
+  assert.equal(await verifyWebhookSignature(body, `t=${t},v1=${sig}`, secret), true);
+  assert.equal(await verifyWebhookSignature(body, `t=${t},v1=${sig}`, 'whsec_other'), false);
+  assert.equal(await verifyWebhookSignature(body + ' ', `t=${t},v1=${sig}`, secret), false);
+  assert.equal(await verifyWebhookSignature(body, `t=${t - 900},v1=${sig}`, secret), false, 'outside the tolerance window');
+  assert.equal(await verifyWebhookSignature(body, `t=${t},v1=${sig}`, secret, { now: (t + 200) * 1000 }), true);
+});
+
+test('grants extend, refunds revoke, a new purchase lifts the revocation, subscriptions end', async () => {
+  const env = { ACCESS_KV: kv() };
+  const now = Date.UTC(2026, 8, 2);
+  await grant(env, 'a@b.co', 'p3', { at: now });
+  let e = await entitlementsFor(env, 'a@b.co');
+  assert.deepEqual(e.parts, [3]);
+  await grant(env, 'a@b.co', 'p3', { at: now + 30 * 86400e3 });
+  const p = JSON.parse(await env.ACCESS_KV.get('purchase:a@b.co'));
+  assert.equal(p.skus.p3, now + 365 * 86400e3 + 365 * 86400e3, 'a repeat purchase extends from the current expiry, not from today');
+  await revoke(env, 'a@b.co', 'refund');
+  e = await entitlementsFor(env, 'a@b.co');
+  assert.deepEqual(e.parts, []); assert.equal(e.revoked, true);
+  await grant(env, 'a@b.co', 'all', { at: now });
+  e = await entitlementsFor(env, 'a@b.co');
+  assert.deepEqual(e.parts, [1, 2, 3]); assert.equal(e.revoked, false);
+  await grant(env, 'a@b.co', 'practitioner_month', { at: now });
+  assert.equal((await entitlementsFor(env, 'a@b.co')).practitioner, true);
+  await endSubscription(env, 'a@b.co', 'subscription.deleted');
+  assert.equal((await entitlementsFor(env, 'a@b.co')).practitioner, false);
+  assert.deepEqual((await entitlementsFor(env, 'a@b.co')).parts, [1, 2, 3], 'ending the subscription leaves the parts alone');
+});
+
+test('entitlementsOf reports expiries as dates and ignores expired skus', () => {
+  const now = Date.UTC(2026, 8, 2);
+  const e = entitlementsOf({ skus: { p1: now + 86400e3, p2: now - 1 } }, false, now);
+  assert.deepEqual(e.parts, [1]);
+  assert.equal(e.expires.p1, '2026-09-03');
+  assert.equal('p2' in e.expires, false);
+});
+
+test('the bank samples without repeats, across domains, and strips answers', () => {
+  const c = counts();
+  assert.equal(c.length, 3);
+  assert.ok(c[2].questions > 500, 'Part 3 is a full multiple-choice bank');
+  assert.ok(c[0].drills + c[1].drills > 900, 'Parts 1 and 2 are drills');
+  const qs = sampleQuestions({ parts: [3], count: 50 });
+  assert.equal(qs.length, 50);
+  assert.equal(new Set(qs.map((q) => q.id)).size, 50);
+  assert.ok(new Set(qs.map((q) => q.domain)).size >= 3, 'spread across domains');
+  const pub = publicQuestion(qs[0]);
+  assert.equal('answerIndex' in pub, false); assert.equal('explanation' in pub, false);
+  assert.ok(questionById(qs[0].id).options.length === 4);
+  const one = sampleQuestions({ parts: [3], count: 25, domain: '3.3' });
+  assert.ok(one.every((q) => q.domain === '3.3'));
+  assert.equal(sampleQuestions({ parts: [2], count: 25 }).length, 0, 'no multiple-choice in Part 2 yet');
+  assert.equal(sampleDrills({ parts: [2], count: 10 }).length, 10);
+});
+
+test('the gate refuses when unconfigured, signed out, revoked, or under-entitled', async () => {
+  const env = { COOKIE_SECRET: SECRET, ACCESS_KV: kv() };
+  const noCookie = new Request('https://s/api/x');
+  assert.equal((await gate(noCookie, {})).response.status, 503);
+  assert.equal((await gate(noCookie, env)).response.status, 401);
+  const t = await sessionToken('a@b.co', SECRET);
+  const req = new Request('https://s/api/x', { headers: { Cookie: setCookieHeader(t).split(';')[0] } });
+  await grant(env, 'a@b.co', 'p3');
+  const r402 = await gate(req, env, { parts: [1, 3] });
+  assert.equal(r402.response.status, 402);
+  assert.deepEqual((await r402.response.json()).needs, [1]);
+  const ok = await gate(req, env, { parts: [3] });
+  assert.equal(ok.email, 'a@b.co'); assert.deepEqual(ok.parts, [3]);
+  await revoke(env, 'a@b.co', 'dispute');
+  assert.equal((await gate(req, env)).response.status, 403);
+});
