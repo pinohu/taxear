@@ -274,3 +274,15 @@ what basis does the parent take?
 nonrecognition on the receipt and IRC § 337(a) gives the subsidiary nonrecognition on the distribution to
 the 80-percent distributee. IRC § 334(b) gives the parent the subsidiary's basis rather than fair market
 value, so the appreciation is preserved inside the group rather than eliminated.*
+
+**6. Ludovic owns 300 of a corporation's 1,000 voting shares; his sister owns 400 and his father owns 300. The corporation redeems all of Ludovic's shares. After the redemption, how many shares is he treated as owning for the purpose of IRC § 302(b)(3)?**
+(A) 700, the shares of both relatives (B) 300, his father's shares only (C) 400, his sister's shares only (D) Nil, because he holds none directly
+*Answer: B. IRC § 318(a)(1) attributes stock owned by a spouse, children, grandchildren and parents, but there is no attribution between siblings, so he is treated as owning his father's 300 shares and his interest has not been completely terminated.*
+
+**7. Ottoline owns 8,000 of a corporation's 12,000 voting shares with no attribution. The corporation redeems 4,000 of her shares, leaving her with 4,000 of 8,000. Is the redemption substantially disproportionate?**
+(A) Yes, because 50 percent is less than 80 percent of her prior 66.67 percent (B) No, because she must own less than 50 percent of the voting power immediately afterwards, and exactly half fails (C) Yes, because she has reduced her holding by half (D) No, because the ratio test requires a reduction to under 20 percent
+*Answer: B. IRC § 302(b)(2) requires both limbs — the ratio test is met, since 50 percent is under 80 percent of 66.67 percent, but the limitation requires her to hold less than 50 percent of the voting power immediately after the redemption, and exactly half fails it.*
+
+**8. Anselm holds 2 percent of a widely held corporation's voting stock with no attribution and no control. A redemption takes him to 1.7 percent, which is neither substantially disproportionate nor a complete termination. Which route to exchange treatment remains?**
+(A) None; the redemption is a dividend under IRC § 301 (B) IRC § 302(b)(1), if the redemption is not essentially equivalent to a dividend because it meaningfully reduces his proportionate interest (C) The IRC § 302(c)(2) waiver, filed with his return (D) IRC § 302(b)(2), because a minority holder is exempt from the ratio test
+*Answer: B. IRC § 302(b)(1) is the fallback facts test, requiring a meaningful reduction in the shareholder's proportionate interest, and it works best for a small minority holder with no control to lose.*

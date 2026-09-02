@@ -252,3 +252,15 @@ return in October of the following year. Until when does the addition run?
 ends the period of the underpayment at the earlier of that date or the date the portion is paid, and the
 extension of time to file does not extend it. The addition stops accruing at the unextended return date
 even though the money was not paid until later.*
+
+**6. A calendar-year corporation that is not a large corporation earns its income evenly through the year and expects 2026 tax of $200,000; its 2025 tax was $120,000. What is the smallest instalment it can pay on 15 April 2026 without an addition to tax?**
+(A) $50,000 (B) $30,000 (C) $20,000 (D) $80,000
+*Answer: B. IRC § 6655(d)(1): each instalment is a quarter of the required annual payment, and the required annual payment is the lesser of this year's tax or last year's — a quarter of $120,000.*
+
+**7. A corporation's 2024 taxable income was $1,200,000 before a net operating loss carryover and $700,000 after it. Its 2023 and 2025 taxable income were each under $400,000. Is it a large corporation for 2026?**
+(A) No, because taxable income after the carryover was under a million (B) Yes, because the test is applied without regard to net operating loss carryovers (C) No, because the test requires a million in each of the three preceding years (D) Yes, but only if it is a member of a controlled group
+*Answer: B. IRC § 6655(g)(2) makes a corporation large if it had taxable income of a million dollars or more in any of the three preceding years, computed without regard to net operating loss or capital loss carryovers; one year is enough.*
+
+**8. A calendar-year corporation's controller was in hospital in December 2026 and the fourth instalment was paid three weeks late. What relief from the IRC § 6655(a) addition is available?**
+(A) Full abatement for reasonable cause, as for a late return (B) None; the addition runs at the underpayment rate from 15 December until payment and has no reasonable cause defence (C) Abatement, provided the corporation is not a large corporation (D) Abatement, because the extended return date has not yet passed
+*Answer: B. IRC § 6655(a) computes the addition at the IRC § 6621 underpayment rate on the shortfall for the period, making it an interest charge in substance; there is no reasonable cause defence as there is for a failure to file.*

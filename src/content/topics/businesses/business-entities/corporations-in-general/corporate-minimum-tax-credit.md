@@ -255,3 +255,15 @@ alternative minimum tax. May they be used against its current regular tax under 
 for all prior taxable years beginning after 2022" for the general reference to years beginning after 1986.
 Credits from the earlier regime, which was repealed for years beginning after 2017, are outside the pool
 the current section recognises.*
+
+**6. An applicable corporation pays $12,000,000 of corporate alternative minimum tax for 2026. Against what, and when, may the resulting credit be used?**
+(A) Against the 2026 minimum tax itself, reducing the amount paid (B) Against regular tax in a later year in which regular tax exceeds tentative minimum tax (C) Against regular tax in 2026 only, with no carryforward (D) Against tentative minimum tax in the next year in which minimum tax is again owed
+*Answer: B. IRC § 53(a) and (b) allow prior years' minimum tax as a credit against regular tax in a later year, limited by IRC § 53(c) to the excess of regular tax over tentative minimum tax and carried forward indefinitely; it does not reduce the minimum tax when paid.*
+
+**7. An applicable corporation has a $50,000,000 minimum tax credit carryforward. This year its regular tax is $80,000,000, its tentative minimum tax is $75,000,000, and it owes $10,000,000 of base erosion tax. How much of the credit may it use?**
+(A) $5,000,000 (B) $15,000,000 (C) $50,000,000 (D) Nil, because a base erosion tax suspends the credit
+*Answer: B. IRC § 53(e)(2) increases the regular tax figure in the IRC § 53(c) limitation by the base erosion tax, so the room is $90,000,000 less $75,000,000; the remaining $35,000,000 carries forward under IRC § 53(b).*
+
+**8. A corporation's taxable income has averaged $1,400,000,000 over the last three years, but its adjusted financial statement income has averaged $800,000,000 and has never crossed a billion in any period. Is it an applicable corporation?**
+(A) Yes, because taxable income exceeds the billion-dollar threshold (B) Yes, because either measure over a billion suffices (C) No, because the test is measured on adjusted financial statement income under IRC § 56A, not taxable income (D) No, because the test looks only at the current year
+*Answer: C. IRC § 59(k)(1) applies the average annual adjusted financial statement income test, and that income is computed under IRC § 56A — book income rather than taxable income — so a corporation under the threshold on book income is outside the regime whatever its taxable income.*

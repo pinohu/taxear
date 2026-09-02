@@ -241,3 +241,15 @@ but is the sum of the taxes computed on the separate self-employment income of e
 *Answer: Yes. IRC § 1402(a) includes the distributive share, whether or not distributed, of income or
 loss described in § 702(a)(8) from any trade or business carried on by a partnership of which the
 individual is a member.*
+
+**6. Marguerite, retired, earns $350 of net profit from occasional tutoring in 2026, her only business activity. Which statement is correct?**
+(A) The $350 is excluded from both self-employment income and gross income (B) The $350 is subject to self-employment tax but no § 6017 return is required (C) The $350 is excluded from self-employment income but remains gross income for income tax purposes (D) The $350 is self-employment income because the exclusion applies only to hobby receipts
+*Answer: C. IRC § 1402(b)(2) excludes net earnings below the statutory floor from self-employment income, and no § 6017 return is required; but the exclusion is from the self-employment charge, not from income tax reporting of the profit.*
+
+**7. A sole proprietor asks whether her business expenses are tested under a standard different from the one that applies to a corporation's expenses. Which is correct?**
+(A) A sole proprietor may deduct only expenses that are necessary, not merely ordinary (B) The ordinary and necessary standard of IRC § 162(a) applies exactly as it does to any other trade or business (C) Expenses are deductible only once the business has its own employer identification number (D) A sole proprietor deducts nothing until net earnings exceed the self-employment floor
+*Answer: B. IRC § 162(a) applies as it does to any trade or business — ordinary and necessary, paid or incurred in carrying it on; there is no separate deduction standard for a sole proprietorship.*
+
+**8. A sole proprietor who files a calendar-year individual return wants her bakery to report on a fiscal year ending 30 June. What taxable year does the business have?**
+(A) Any fiscal year the owner selects on the first business schedule (B) A June year, because a business may adopt a natural business year (C) The owner's calendar year, because the business has no taxable year of its own (D) The calendar year for income tax but a fiscal year for self-employment tax
+*Answer: C. Under Reg. § 301.7701-2(c)(2)(i) the business is disregarded and is its owner for federal tax purposes; it has no separate taxable year and adopts the owner's, just as it has no separate return or filing date.*
