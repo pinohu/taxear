@@ -42,7 +42,7 @@ export function alertEmail({ code, title, date, summary, url, manageUrl, stopUrl
 export function confirmFollowEmail({ link, title }) {
   return {
     subject: `Confirm: follow "${title}" on TaxEar`,
-    text: `Someone, probably you, asked to follow "${title}" on TaxEar with this address.\n\nConfirm and follow: ${link}\n\nThe link works once and expires in 24 hours. If you did not ask, ignore this message; nothing is followed without the link.`,
-    html: wrap(`Follow "${title}"?`, `<p>Someone, probably you, asked to follow <strong>${esc(title)}</strong> on TaxEar with this address.</p><p><a href="${esc(link)}" style="display:inline-block;background:#8C1D18;color:#fff;text-decoration:none;padding:12px 20px;border-radius:2px;font-weight:600">Confirm and follow</a></p><p>The link works once and expires in 24 hours. If you did not ask, ignore this message; nothing is followed without the link.</p>`),
+    text: `Someone, probably you, asked to follow "${title}" on TaxEar with this address.\n\nOpen this link and press Confirm: ${link}\n\nThe link works once and expires in 24 hours, and it follows this one topic only. If you did not ask, ignore this message; nothing is followed without the link.`,
+    html: wrap(`Follow "${title}"?`, `<p>Someone, probably you, asked to follow <strong>${esc(title)}</strong> on TaxEar with this address.</p><p><a href="${esc(link)}" style="display:inline-block;background:#8C1D18;color:#fff;text-decoration:none;padding:12px 20px;border-radius:2px;font-weight:600">Confirm and follow</a></p><p>The link opens a page with one button; it works once, expires in 24 hours, and follows this one topic only. If you did not ask, ignore this message; nothing is followed without the link.</p>`),
   };
 }

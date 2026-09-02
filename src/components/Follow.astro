@@ -1,7 +1,8 @@
 ---
 // "Follow this rule": one field, posts to the Study API (docs/REVENUE_BUILD.md). The
 // page stays free; what is sold is an email when this page records a material change.
-// The form works without scripts too: it posts to the Practitioner page with the code.
+// The form works without scripts too: it posts straight to the Study API, which parks
+// the follow for that address and redirects to the Practitioner page.
 interface Props { code: string; title: string }
 const { code, title } = Astro.props;
 const study = 'https://study.taxear.com';
@@ -9,7 +10,7 @@ const study = 'https://study.taxear.com';
 <section class="follow" aria-labelledby="follow-h" data-code={code}>
   <h2 id="follow-h">Follow this rule</h2>
   <p class="follow-note">Get one email when this page records a material change: a figure, a deadline, the rule itself. Part of the <a href={`${study}/practitioner/`}>Practitioner subscription</a>; every page here stays free. Subscribers confirm by email, so nobody can follow on your behalf.</p>
-  <form class="follow-form" action={`${study}/practitioner/`} method="get">
+  <form class="follow-form" action={`${study}/api/follow`} method="post">
     <input type="hidden" name="code" value={code} />
     <label for="follow-email">Email address</label>
     <div class="follow-row">

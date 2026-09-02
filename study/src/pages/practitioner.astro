@@ -17,8 +17,10 @@ const saving = m && y && m * 12 > y ? `save $${Math.round(m * 12 - y)} a year ag
 
   <h2 id="pricing">Pricing</h2>
   {/* Plain forms, so the page works with scripts off: the Function creates the Stripe
-      session and redirects. The hidden email and code fields are filled from the URL
-      when the reader arrived from a topic page's "Follow this rule" control. */}
+      session and redirects. A reader who arrived from a topic page's "Follow this rule"
+      control already has that topic parked server-side (the control posts to
+      /api/follow before landing here), so the purchase applies it whether or not the
+      hidden email and code fields below were filled in by the script. */}
   <ul class="skus">
     <li><div><p class="sku-title">Monthly</p><p class="sku-meta">cancel any time · follow as many topics as you like</p></div>
       <form method="post" action="/api/checkout-redirect" class="buy-form"><input type="hidden" name="sku" value="practitioner_month" /><input type="hidden" name="email" /><input type="hidden" name="code" /><button type="submit">{price.month}<span class="per">/month</span></button></form></li>
