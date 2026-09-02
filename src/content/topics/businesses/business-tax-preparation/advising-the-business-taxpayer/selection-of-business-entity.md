@@ -332,3 +332,15 @@ the buyer gets depreciable basis without the seller selling assets. S corporatio
 buyer no inside step-up and has no § 754 equivalent, so buyer and seller are pushed into opposite
 structures. A C corporation adds a second layer on an asset sale. The choice made when the business
 was worth nothing decides the negotiation when it is worth a great deal.*
+
+**6. Pellow Systems, an S corporation, issues non-voting common stock to a key employee. The non-voting shares carry exactly the same rights to distributions and liquidation proceeds as the voting shares. What happens to the S election?**
+(A) It terminates, because the corporation now has two classes of stock (B) It continues, because differences in voting rights alone are permitted (C) It continues only if the employee is a family member of an existing shareholder (D) It terminates unless the non-voting shares are converted within the year
+*Answer: B. IRC § 1361(b)(1)(D) denies eligibility to a corporation with more than one class of stock, but the test is about rights to distribution and liquidation proceeds; differences in voting power alone do not create a second class.*
+
+**7. Wexcombe Inc., an S corporation, has 99 shareholders, all unrelated resident individuals, and one class of stock. On 12 May it issues stock to two more unrelated individuals. What is the result?**
+(A) The election continues, because 101 shareholders is within the ceiling (B) The election terminates on 31 December of that year (C) The election terminates on 12 May, when the corporation first has more than 100 shareholders (D) The election continues if the new shareholders sign consents
+*Answer: C. IRC § 1361(b)(1)(A) denies eligibility to a corporation with more than 100 shareholders, and the stock issue that takes the count past the line terminates the election from that date rather than at year end.*
+
+**8. Two owners hold a business 50/50. They want 70 percent of the depreciation deductions allocated to the owner who contributed most of the capital. Which entity form permits that?**
+(A) An S corporation, by shareholder agreement (B) Either form, provided the allocation is disclosed on the return (C) A partnership, if the allocation has substantial economic effect under IRC § 704(b) (D) Neither form, because allocations must always follow ownership
+*Answer: C. IRC § 704(b) lets a partnership allocate items other than in proportion to capital where the allocation has substantial economic effect; an S corporation must allocate strictly per share per day.*

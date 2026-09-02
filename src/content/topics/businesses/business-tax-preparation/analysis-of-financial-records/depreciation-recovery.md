@@ -361,3 +361,15 @@ controlled corporation, a like-kind exchange — the recapture potential built u
 hands would otherwise disappear, since the transferee took none of that depreciation itself. Adding
 back depreciation allowed or allowable to any other person makes recapture follow the property,
 which is why a question can turn on the history of an asset the current owner never depreciated.*
+
+**6. A machine that cost $80,000 has accumulated depreciation of $50,000 and is sold for $25,000. How much ordinary income does IRC § 1245 produce?**
+(A) $50,000, the depreciation taken (B) $25,000, the amount realised (C) $5,000, the difference between basis and proceeds (D) None, because the sale produces a $5,000 loss
+*Answer: D. IRC § 1245(a)(1) takes the lower of the depreciation figure and the excess of amount realised over adjusted basis, and with basis of $30,000 against $25,000 realised there is no excess; recapture reclassifies gain and never creates it, so the result is a $5,000 § 1231 loss.*
+
+**7. A passenger automobile is placed in service in year one at 70 percent qualified business use and depreciated under MACRS. In year three qualified business use falls to 45 percent. What happens in year three?**
+(A) Depreciation for year three is reduced proportionately and nothing else changes (B) The car moves to the alternative depreciation system for year three onward, and the excess depreciation for years one and two is included in income (C) Nothing until the car is sold, when the full depreciation is recaptured (D) The car moves to the alternative depreciation system prospectively, with no income inclusion
+*Answer: B. IRC § 280F(b)(1) requires the alternative depreciation system for that year and all later years, and IRC § 280F(b)(2)(A) includes the excess depreciation in gross income in the year of the drop, measured against what the alternative system would have allowed from the start.*
+
+**8. Larch Cabinetry expensed a $50,000 saw under IRC § 179 in a year when a loss carryforward meant the election saved no tax. Two years later the saw ceases to be used predominantly in the business. Is there recapture?**
+(A) No, because the election produced no tax benefit (B) No, because recapture requires a sale or exchange (C) Yes, measured against what IRC § 168 would have allowed through the year of recapture, regardless of whether the deduction reduced tax (D) Yes, but only under the IRC § 280F(b) predominant-use rule
+*Answer: C. Reg. § 1.179-1(e)(1) triggers on the property ceasing to be used predominantly in a trade or business, compares the amount expensed with what IRC § 168 would have allowed through the year of recapture, and applies whether or not the excess reduced tax liability; the saw is not listed property, so § 280F is not involved.*

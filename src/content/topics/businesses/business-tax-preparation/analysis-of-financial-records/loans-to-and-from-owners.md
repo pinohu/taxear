@@ -329,3 +329,15 @@ IRC § 752(a) treats the increase in their share of partnership liabilities as a
 money, raising outside basis by $100,000, and IRC § 704(d) then allows the loss to that extent. The
 answers coincide here, but they diverge as soon as the borrowing is from a third party rather than
 from the owner.*
+
+**6. Bramley Interiors, an S corporation, pays its sole shareholder $5,000 a month recorded as "loan to shareholder". There is no note, no stated interest, no maturity, and no repayment in three years. How will an examiner treat the balance?**
+(A) As a below-market loan, with interest imputed under IRC § 7872 (B) As a distribution under IRC § 1368, tax-free to the extent of the accumulated adjustments account and stock basis and then gain (C) As a genuine loan, with no consequence until it is forgiven (D) As a loan, once the shareholder signs a note covering the earlier advances
+*Answer: B. Without a note, an adequate rate, a maturity and actual payments the advance is not debt, so IRC § 1368 governs rather than IRC § 7872, which presupposes a loan; adding a note now does not make the earlier advances a loan.*
+
+**7. Coldharbour Ltd, a C corporation, lends its sole shareholder $300,000 interest-free on a genuine written demand note that the shareholder services on request. What are the consequences at the end of the calendar year?**
+(A) None, because no interest was paid in cash (B) The shareholder alone has a deemed distribution; the corporation has nothing to report (C) The whole $300,000 is recharacterised as a distribution (D) Forgone interest is treated as transferred from the corporation to the shareholder and retransferred as interest, giving the corporation interest income and the shareholder a deemed distribution
+*Answer: D. IRC § 7872(a) creates a deemed transfer and a deemed retransfer on the last day of the calendar year for a corporation-shareholder loan within § 7872(c)(1)(C), so both parties have tax consequences although no cash moves.*
+
+**8. An S corporation shareholder's note was reduced to a basis of $20,000 against a $60,000 face by earlier losses. During the year the corporation repays the note in full and also has a $50,000 net increase in pass-through items. Where does the net increase go first?**
+(A) To stock basis, because stock is always restored before debt (B) To the repaid note, to the extent needed to offset the gain that would otherwise arise on the repayment (C) Pro rata across stock basis and all outstanding debts (D) Nowhere, because a repaid note can no longer carry basis
+*Answer: B. Reg. § 1.1367-2(c) applies a net increase first to restore basis in indebtedness repaid during the year to the extent needed to offset gain on the repayment, then to the remaining outstanding debts, and only then to stock basis.*

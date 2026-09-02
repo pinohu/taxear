@@ -334,3 +334,15 @@ earnings will not tie, the depreciation roll-forward will run on a basis the ret
 and total assets will not agree to the books in the tax sense. The revaluation may be entirely
 proper for allocation purposes and still leave the return's schedules unverifiable without a second
 version.*
+
+**6. A bookkeeper lists accounts payable of $40,000, accrued wages of $12,000, inventory of $75,000 and a note payable of $150,000 as the liabilities of the business. Which item does not belong in that total?**
+(A) Accrued wages, because they are not yet due (B) Inventory, because it is an asset (C) The note payable, because long-term debt is equity (D) Accounts payable, because they are offset by receivables
+*Answer: B. IRM 4.10.3.10.1 defines assets as the resources owned and liabilities as the debts owed, and the identity is assets equal liabilities plus equity; inventory is a resource owned, so it sits on the asset side and the liabilities total $202,000.*
+
+**7. Renshaw Products Inc. has total receipts of $90,000 for the year and total assets of $600,000 at year end. Must it complete Schedule L on Form 1120?**
+(A) No, because total receipts are under the exception threshold (B) No, provided the Schedule K question is answered affirmatively (C) Yes, because the exception requires both total receipts and total assets to be under the threshold (D) Yes, and it must file Schedule M-3 in place of Schedule M-1
+*Answer: C. The Instructions for Form 1120, Schedule L, set a two-part test on two different figures, total receipts and total assets at year end, each under the threshold; failing either limb means Schedules L, M-1 and M-2 are all required.*
+
+**8. An examiner reviewing a balance sheet under IRM 4.10.3.10.3 must choose accounts for in-depth analysis. Which account is most likely to be selected?**
+(A) The largest account on the balance sheet, because size drives risk (B) A small account with an unusual title and many adjusting journal entries (C) The cash account, because it is always examined first (D) Any account whose balance changed during the year
+*Answer: B. IRM 4.10.3.10.3 selects accounts for their behaviour, not their size: unusual titles, unusual entries, many adjusting journal entries, or a concentration of large entries in one month, so a large but ordinary account may never be examined.*
