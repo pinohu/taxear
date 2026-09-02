@@ -158,6 +158,37 @@ test('a retried grant finishes lifting a revocation the purchase came after, and
   assert.equal((await entitlementsFor(env, 'a@b.co')).revoked, true, 'replaying the pre-revocation reference does not lift the revocation');
 });
 
+test('a refund webhook delivered twice revokes once, and never touches a purchase made after it', async () => {
+  const env = { ACCESS_KV: kv() };
+  const now = Date.UTC(2026, 8, 2);
+  await grant(env, 'a@b.co', 'p1', { at: now, ref: 'cs_p1', paymentIntent: 'pi_1' });
+  await grant(env, 'a@b.co', 'p2', { at: now, ref: 'cs_p2', paymentIntent: 'pi_2' });
+  assert.deepEqual(await revoke(env, 'a@b.co', 'refund', { paymentIntent: 'pi_1' }), { scope: 'p1' });
+  assert.deepEqual(await revoke(env, 'a@b.co', 'refund', { paymentIntent: 'pi_1' }), { scope: 'p1', already: true }, 'the retry is a no-op');
+  let e = await entitlementsFor(env, 'a@b.co');
+  assert.deepEqual(e.parts, [2]); assert.equal(e.revoked, false, 'the retry did not fall through to a whole-account revocation');
+  // An unmatched charge revokes the account; a later purchase lifts it; the retry of
+  // that same unmatched charge leaves the later purchase alone.
+  assert.equal((await revoke(env, 'a@b.co', 'dispute', { paymentIntent: 'pi_mystery' })).scope, '*');
+  await grant(env, 'a@b.co', 'p3', { at: now + 1000, ref: 'cs_p3', paymentIntent: 'pi_3' });
+  assert.deepEqual((await entitlementsFor(env, 'a@b.co')).parts, [3]);
+  assert.deepEqual(await revoke(env, 'a@b.co', 'dispute', { paymentIntent: 'pi_mystery' }), { scope: '*', already: true });
+  e = await entitlementsFor(env, 'a@b.co');
+  assert.deepEqual(e.parts, [3]); assert.equal(e.revoked, false);
+});
+
+test('a pre-ledger account whose log names the charge loses that sku alone', async () => {
+  const env = { ACCESS_KV: kv() };
+  const now = Date.UTC(2026, 8, 2);
+  await env.ACCESS_KV.put('purchase:a@b.co', JSON.stringify({ skus: { p1: now + 300 * 86400e3, p2: now + 300 * 86400e3 }, history: [
+    { at: now, sku: 'p1', ref: 'cs_a', event: 'checkout', pi: 'pi_a' }, { at: now, sku: 'p2', ref: 'cs_b', event: 'checkout', pi: 'pi_b' },
+  ] }));
+  assert.deepEqual(await revoke(env, 'a@b.co', 'refund', { paymentIntent: 'pi_a' }), { scope: 'p1' });
+  const e = await entitlementsFor(env, 'a@b.co');
+  assert.deepEqual(e.parts, [2], 'Part 2 stands'); assert.equal(e.revoked, false);
+  assert.deepEqual(await revoke(env, 'a@b.co', 'refund', { paymentIntent: 'pi_a' }), { scope: 'p1', already: true });
+});
+
 test('a failed purchase write never leaves a Stripe reference marked spent', async () => {
   const env = { ACCESS_KV: kv() };
   const realPut = env.ACCESS_KV.put;

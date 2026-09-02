@@ -3,8 +3,10 @@
 //   { skus: { p1?: expMs, p2?: expMs, p3?: expMs, all?: expMs, practitioner?: expMs },
 //     baseline: { <key>: expMs },              // what the key was worth before its ledger began
 //     grants: { <key>: [{ ref, at, days?, until?, pi?, inv? }] },   // live purchases, in order
+//     refunds: [{ at, pi?, inv?, scope, reason }],   // tombstones: charges already revoked
 //     stripeCustomer?: string,
-//     history: [{ at, sku, ref?, event }] }    // a log of the last fifty events, never consulted
+//     history: [{ at, sku, ref?, event }] }    // a log of the last fifty events; consulted only
+//                                              // to scope a refund on a pre-ledger account
 // The ledger under `grants` is the record: a key's expiry is always the fold of its
 // baseline and its live grants, so a refund removes the grant it paid for and the rest
 // is recomputed exactly. The baseline carries purchases made before the ledger existed.
@@ -102,28 +104,55 @@ export async function grant(env, email, sku, { at = Date.now(), ref, event = 'ch
 // invoice. Every live grant that charge paid for leaves the ledger (a subscription's
 // first checkout and its first invoice both grant against one invoice) and the sku is
 // refolded from what remains: a refunded Part 1 leaves a paid Part 2 alone, and a
-// refunded second Part 1 leaves the first one's year. When nothing matches, the whole
-// account is revoked, as before, and a new purchase lifts it.
+// refunded second Part 1 leaves the first one's year. Each refund leaves a tombstone
+// under `refunds`, so Stripe's retry of a delivered webhook is a no-op rather than a
+// second, wider revocation. A charge that matches only the pre-ledger history log ends
+// that sku alone (the log carries the sku but not enough to refold). When nothing
+// matches, the whole account is revoked, as before, and a new purchase lifts it.
 export async function revoke(env, email, reason, { paymentIntent, invoice } = {}) {
   if (!env.ACCESS_KV) throw new Error('ACCESS_KV is not bound');
   const p = await getPurchase(env, email);
   const now = Date.now();
+  const charged = !!(paymentIntent || invoice);
   const matches = (g) => (paymentIntent && g.pi === paymentIntent) || (invoice && g.inv === invoice);
-  const keys = p && (paymentIntent || invoice) ? Object.keys(p.grants || {}).filter((k) => p.grants[k].some(matches)) : [];
+  const save = () => env.ACCESS_KV.put(`purchase:${email}`, JSON.stringify(p));
+  const tombstone = (scope) => { p.refunds = [...(p.refunds || []).slice(-99), { at: now, pi: paymentIntent, inv: invoice, scope, reason }]; };
+
+  const seen = p && charged ? (p.refunds || []).find(matches) : null;
+  if (seen) return { scope: seen.scope, already: true };
+
+  const keys = p && charged ? Object.keys(p.grants || {}).filter((k) => p.grants[k].some(matches)) : [];
   if (keys.length) {
     for (const key of keys) {
       for (const g of p.grants[key].filter(matches)) log(p, { at: now, sku: key, ref: g.ref, event: `revoked:${reason}` });
       p.grants[key] = p.grants[key].filter((g) => !matches(g));
       p.skus[key] = Math.min(fold(p, key), p.skus[key] || 0);
     }
-    await env.ACCESS_KV.put(`purchase:${email}`, JSON.stringify(p));
-    return { scope: keys.length === 1 ? keys[0] : keys };
+    const scope = keys.length === 1 ? keys[0] : keys;
+    tombstone(scope);
+    await save();
+    return { scope };
   }
+
+  // Pre-ledger accounts: the log entry names the sku, so end that sku and nothing else.
+  const logged = p && charged ? (p.history || []).find((h) => SKUS[h.sku] && !String(h.event || '').startsWith('revoked:') && matches(h)) : null;
+  if (logged) {
+    const key = keyOf(logged.sku);
+    p.skus[key] = Math.min(p.skus[key] || 0, now);
+    if (p.grants) delete p.grants[key];
+    if (p.baseline) delete p.baseline[key];
+    log(p, { at: now, sku: key, ref: logged.ref, event: `revoked:${reason}` });
+    tombstone(key);
+    await save();
+    return { scope: key };
+  }
+
   if (p) {
     for (const k of Object.keys(p.skus || {})) p.skus[k] = Math.min(p.skus[k], now);
     p.grants = {}; p.baseline = {};
     log(p, { at: now, sku: '*', event: `revoked:${reason}` });
-    await env.ACCESS_KV.put(`purchase:${email}`, JSON.stringify(p));
+    if (charged) tombstone('*');
+    await save();
   }
   await env.ACCESS_KV.put(`revoked:${email}`, JSON.stringify({ at: now, reason }));
   return { scope: '*' };

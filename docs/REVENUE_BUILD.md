@@ -39,7 +39,7 @@ domain, one KV namespace, one Stripe account and one place to audit.
 
 | Key | Value | Written by |
 |---|---|---|
-| `purchase:<email>` | `{ skus: {p1?: exp, p2?: exp, p3?: exp, all?: exp, practitioner?: exp}, baseline: {key: exp}, grants: {key: [{ref, at, days\|until, pi?, inv?}]}, stripeCustomer, history: [...] }` — `grants` is the ledger of live purchases and each sku is the fold of its baseline and ledger; `history` is a fifty-entry log | verify-session, stripe-webhook |
+| `purchase:<email>` | `{ skus: {p1?: exp, p2?: exp, p3?: exp, all?: exp, practitioner?: exp}, baseline: {key: exp}, grants: {key: [{ref, at, days\|until, pi?, inv?}]}, refunds: [{pi?, inv?, scope}], stripeCustomer, history: [...] }` — `grants` is the ledger of live purchases and each sku is the fold of its baseline and ledger; `refunds` are tombstones so a retried refund webhook is a no-op; `history` is a fifty-entry log | verify-session, stripe-webhook |
 | `ref:<sessionOrInvoiceId>` | the email it granted to — idempotency for grants, kept as long as a Checkout Session can be replayed | verify-session, stripe-webhook |
 | `revoked:<email>` | `{ at, reason }` — set when a refund or dispute cannot be matched to one purchase; a matched one only ends that sku | stripe-webhook |
 | `login:<token>` | `{ email, exp }` — one-time magic-link token, 15 minutes | login (request) |
