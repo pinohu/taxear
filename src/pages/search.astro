@@ -1,11 +1,12 @@
 ---
 import Base from '../layouts/Base.astro';
 ---
-<Base title="Search" description="Search every published TaxEar topic, form, and notice page.">
+<Base title="Search" description="Search every published TaxEar topic, form, and IRS notice page by section number, form number, or plain words. The index is static and runs in your browser." ogType="website">
   <p class="crumbs"><a href="/">TaxEar</a><span>›</span>Search</p>
   <h1>Search</h1>
   <p>Search runs entirely in your browser against a static index built from every published
     page — nothing you type is sent anywhere.</p>
+  <label class="search-label" for="search-input">Section number, form number, or plain words</label>
   <div id="search" class="search-box"></div>
   <link rel="stylesheet" href="/pagefind/pagefind-ui.css" />
   <script src="/pagefind/pagefind-ui.js" defer></script>
@@ -13,6 +14,10 @@ import Base from '../layouts/Base.astro';
     window.addEventListener('DOMContentLoaded', () => {
       if (typeof PagefindUI === 'undefined') return;
       new PagefindUI({ element: '#search', showSubResults: true, showImages: false, resetStyles: false });
+      // Pagefind renders its own input; give it the visible label above so it is not
+      // named by its title attribute alone.
+      const input = document.querySelector('#search input');
+      if (input) input.id = 'search-input';
     });
   </script>
 </Base>

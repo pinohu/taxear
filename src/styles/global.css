@@ -422,7 +422,7 @@ button.term:hover{text-decoration-color:var(--accent)}
    path renders every element already in its final state, nothing to skip. */
 @media (prefers-reduced-motion:no-preference){
   @keyframes d-rise{from{opacity:0;transform:translateY(6px)}to{opacity:1;transform:translateY(0)}}
-  @keyframes d-draw{from{stroke-dashoffset:584}to{stroke-dashoffset:0}}
+  @keyframes d-draw{from{stroke-dashoffset:1}to{stroke-dashoffset:0}}
 
   .d-tests li,.d-timeline li{opacity:0;animation:d-rise .4s ease-out forwards}
   .d-tests li:nth-child(1),.d-timeline li:nth-child(1){animation-delay:.05s}
@@ -432,7 +432,7 @@ button.term:hover{text-decoration-color:var(--accent)}
   .d-tests li:nth-child(5),.d-timeline li:nth-child(5){animation-delay:.45s}
   .d-tests li:nth-child(n+6),.d-timeline li:nth-child(n+6){animation-delay:.55s}
 
-  .diagram-threshold .d-axis{stroke-dasharray:584;animation:d-draw .5s ease-out forwards}
+  .diagram-threshold .d-axis{stroke-dasharray:1;animation:d-draw .5s ease-out forwards}
   .diagram-threshold svg g{opacity:0;animation:d-rise .35s ease-out forwards}
   .diagram-threshold svg g:nth-of-type(1){animation-delay:.3s}
   .diagram-threshold svg g:nth-of-type(2){animation-delay:.4s}
@@ -463,4 +463,12 @@ button.term:hover{text-decoration-color:var(--accent)}
   font-style:normal;border-radius:var(--radius)}
 .search-box .pagefind-ui__button{font-family:var(--f-mono);border-radius:var(--radius)}
 .search-box *:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+/* Pagefind paints its own input and results from these variables; pointing them at the
+   theme tokens is what keeps typed text readable in dark and high-contrast themes. */
+.search-box{--pagefind-ui-text:var(--ink);--pagefind-ui-background:var(--surface);--pagefind-ui-border:var(--rule);
+  --pagefind-ui-primary:var(--accent);--pagefind-ui-tag:var(--surface);--pagefind-ui-font:var(--f-text)}
+.search-box .pagefind-ui__search-input{color:var(--ink);background:var(--surface)}
+.search-label{display:block;font-family:var(--f-mono);font-size:12px;letter-spacing:.08em;text-transform:uppercase;color:var(--ink-soft);margin:24px 0 -20px}
+.companion{font-size:.95em;color:var(--ink-soft);margin:0 0 1.4em}
+.companion .eyebrow{margin-right:.4em}
 @media (prefers-reduced-motion:reduce){.search-box *{transition:none!important;animation:none!important}}

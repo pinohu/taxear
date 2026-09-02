@@ -7,6 +7,12 @@
   X-Frame-Options: DENY
   Permissions-Policy: geolocation=(), microphone=(), camera=(), interest-cohort=()
   Strict-Transport-Security: max-age=31536000; includeSubDomains
+  # What the pages actually load, nothing more. 'unsafe-inline' covers the four inline
+  # scripts (theme boot, theme toggle, news widget, search bootstrap); wasm-unsafe-eval
+  # is for Pagefind's index; connect-src is the news widget's Federal Register fetch,
+  # the analytics beacon, and the Study API; form-action is the digest provider and the
+  # Study API. Change a provider, change this line.
+  Content-Security-Policy: default-src 'self'; script-src 'self' 'unsafe-inline' 'wasm-unsafe-eval' https://static.cloudflareinsights.com; style-src 'self' 'unsafe-inline'; font-src 'self'; img-src 'self' data:; connect-src 'self' https://www.federalregister.gov https://cloudflareinsights.com https://study.taxear.com; worker-src 'self'; frame-ancestors 'none'; base-uri 'self'; form-action 'self' https://buttondown.com https://study.taxear.com; object-src 'none'
 
 # Astro fingerprints these filenames, so they can be cached indefinitely.
 /_astro/*
