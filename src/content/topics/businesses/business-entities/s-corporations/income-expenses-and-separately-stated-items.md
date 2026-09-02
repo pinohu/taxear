@@ -334,3 +334,15 @@ both amounts in full?
 *Answer: Not automatically. Reg. § 1.1366-1(a)(5)(i) makes her aggregate her own deduction with
 her share of the corporation's and apply the annual ceiling to the combined figure on her own
 return, even though the corporation applied the limits at its own level first.*
+
+**6. Which of the following items of an S corporation is folded into nonseparately computed income rather than stated separately?**
+(A) Wages paid to employees (B) A long-term capital gain on an investment parcel (C) A cash gift to a public charity (D) Interest on a state bond
+*Answer: A. IRC § 1366(a)(2) defines nonseparately computed income as gross income less deductions allowed, excluding every item whose separate treatment could affect a shareholder's liability; wages meet no shareholder-level rate, limit or character rule, while the other three do.*
+
+**7. An S corporation with five equal shareholders redeems one shareholder's entire holding on 1 July and wants to close the books under IRC § 1377(a)(2). Whose agreement is required?**
+(A) The corporation and all five shareholders (B) The corporation and the departing shareholder only (C) The departing shareholder and the four remaining shareholders, but not the corporation (D) Shareholders holding a majority of the shares
+*Answer: A. IRC § 1377(a)(2)(B): where the transfer is to the corporation itself, every person who is a shareholder during the taxable year is an affected shareholder, and IRC § 1377(a)(2)(A) requires the agreement of the corporation as well.*
+
+**8. A shareholder owning 10 percent of an S corporation sells all her shares on 15 January and stays on as an employee. The corporation pays her health premiums for the rest of the year. Is she a 2-percent shareholder for that year?**
+(A) Yes, because ownership is tested on any day during the taxable year (B) No, because she owned no stock when the premiums were paid (C) No, because ownership is tested at the end of the year (D) Only if stock is attributed to her under IRC § 318
+*Answer: A. IRC § 1372(b) defines a 2-percent shareholder as a person owning more than 2 percent of the stock on any day during the taxable year, so a sale in January does not undo the status for that year.*

@@ -332,3 +332,15 @@ the Secretary's consent?
 
 *Answer: For its taxable year beginning in 2031. {fig:term.five_year_wait} — the fifth taxable
 year beginning after 2026, the first taxable year for which the termination was effective.*
+
+**6. A calendar-year S corporation files a revocation on 10 March 2026 with the consent of holders of 60 percent of its shares. The revocation specifies no effective date. It takes effect on:**
+(A) 1 January 2026 (B) 1 January 2027 (C) 10 March 2026 (D) 1 April 2026
+*Answer: A. IRC § 1362(d)(1)(C)(i): a revocation made on or before the fifteenth day of the third month of the taxable year is effective on the first day of that year, retroactively across the weeks already operated as an S corporation.*
+
+**7. An S corporation's election terminates on 1 June 2026, giving an S short year from 1 January to 31 May. When is the return for the S short year due?**
+(A) On the same date as the return for the C short year, including extensions (B) 15 March 2027, the ordinary Form 1120-S date (C) The fifteenth day of the third month after 31 May (D) Within 45 days of the termination
+*Answer: A. IRC § 1362(e)(6)(B): the return for the S short year is due on the same date as the return for the C short year, including extensions, so the S short year return is pulled to the C corporation's date.*
+
+**8. A calendar-year S corporation with accumulated earnings and profits at the close of each year has passive investment income above the threshold in 2024, 2025 and 2026. Its election terminates on:**
+(A) 1 January 2027 (B) 31 December 2026 (C) 1 January 2025 (D) The day in 2026 on which passive receipts first exceeded the threshold
+*Answer: A. IRC § 1362(d)(3)(A): where both limbs are met for three consecutive taxable years, the termination is effective on the first day of the taxable year beginning after the third such year.*

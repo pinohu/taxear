@@ -279,3 +279,15 @@ it is a written unconditional promise to pay a sum certain on demand or on a spe
 rate and payment dates are not contingent on profits or the borrower's discretion, it is not convertible
 into stock, and the creditor is an individual, an estate, certain trusts, or a person actively and
 regularly engaged in the business of lending money.*
+
+**6. Two shareholders hold identical shares of an S corporation issued under one certificate class. By settled practice, one takes $150,000 out of the corporation every year and the other takes nothing. What is the risk?**
+(A) A second class of stock, because the outstanding shares do not in fact confer identical rights to distribution proceeds (B) None, because both hold shares of the same certificate class (C) None, because differences of this kind are disregarded under IRC § 1361(c)(4) (D) None, because the straight debt safe harbour applies
+*Answer: A. IRC § 1361(b)(1)(D) turns on the rights the outstanding shares confer to distribution and liquidation proceeds, not on certificates, and a consistent pattern of disproportionate distributions is evidence the shares do not confer identical rights.*
+
+**7. A shareholder dies and her stock passes under her will to a testamentary trust that is neither an electing small business trust nor a grantor trust. For how long may the trust hold the stock without terminating the election?**
+(A) Two years beginning on the day the stock is transferred to it (B) Indefinitely (C) Not at all, because a trust is not a permitted shareholder (D) Until the estate is closed
+*Answer: A. IRC § 1361(c)(2)(A) lists a testamentary trust among the trusts that may hold S corporation stock, but only for the two-year period beginning on the day the stock is transferred to it.*
+
+**8. Which change causes an S corporation to become an ineligible corporation and lose its election?**
+(A) Changing its business to that of an insurance company (B) Issuing non-voting common stock alongside voting common (C) Admitting a ninetieth individual shareholder (D) A deceased shareholder's estate continuing to hold shares
+*Answer: A. IRC § 1361(b)(1) requires that the corporation not be an ineligible corporation, a defined term reaching certain financial institutions, insurance companies and DISCs; a corporation that moves its business into one of those categories loses its election.*

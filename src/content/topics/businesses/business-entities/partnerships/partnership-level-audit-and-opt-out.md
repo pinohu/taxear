@@ -298,3 +298,15 @@ May it elect out?
 IRC § 6037(b) are treated as statements furnished by the partnership for the 100-statement test. Fifteen
 individuals plus the S corporation plus its 88 shareholder statements exceeds 100. The partnership would
 also have to disclose the name and taxpayer identification number of each of those shareholders.*
+
+**6. A partnership validly elected out of the centralised regime on its timely 2025 return. Nothing about its partners has changed. For 2026 it:**
+(A) Must make the election again on a timely filed 2026 return (B) Remains outside the regime automatically (C) Remains outside the regime for five years (D) Need only notify its partners that the election continues
+*Answer: A. IRC § 6221(b) provides no continuing election; the election is annual and must be made again each year on a timely filed return with the required disclosures.*
+
+**7. Adjustments for a reviewed year total $1,000,000, of which 40 percent was allocable to a tax-exempt partner. That partner files a return taking its share into account under the modification procedures, with no tax due. The imputed underpayment is computed on:**
+(A) $600,000 (B) $1,000,000 (C) $400,000 (D) Nothing, because one partner has filed
+*Answer: A. IRC § 6225(c)(2)(A): where a reviewed-year partner files a return taking its allocable adjustments into account and pays any tax due, the imputed underpayment is determined without regard to the portion so taken into account, removing the 40 percent.*
+
+**8. A partnership has five partners: four individuals and a single-member LLC that is disregarded for tax purposes and owned by an individual. May the partnership elect out under IRC § 6221(b)?**
+(A) No, because a disregarded entity is not an eligible partner (B) Yes, because the LLC's owner is an individual (C) Yes, provided fewer than 100 statements are furnished (D) Yes, if the LLC consents to the election
+*Answer: A. IRC § 6221(b)(1)(C) lists the eligible partner types exhaustively — individuals, C corporations, foreign entities that would be C corporations, S corporations and estates of deceased partners — and a disregarded entity holding an interest disqualifies the election regardless of who owns it.*
