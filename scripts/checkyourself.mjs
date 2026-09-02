@@ -44,7 +44,8 @@ export function checkYourself(markdown) {
     const answerLine = chunk.match(/^\*Answer:\s*([\s\S]*?)\*[ \t]*$/m)?.[1]?.replace(/\s+/g, ' ').trim() ?? '';
     // A letter counts only with its delimiter — "B.", "(B)", "B:" — so an open answer
     // that happens to start "A corporation…" is not read as option A.
-    const lettered = answerLine.match(/^(?:\(([A-D])\)|([A-D])[.:])\s*(.*)$/);
+    // Delimiters in use on the pages: "B.", "(B)", "B:", "B —", "B –", "B,".
+    const lettered = answerLine.match(/^(?:\(([A-D])\)|([A-D])\s*[.:,—–])\s*(.*)$/);
     const answer = lettered ? (lettered[1] || lettered[2]) : '';
     const reason = (lettered ? lettered[3] : answerLine).trim();
 

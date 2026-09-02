@@ -30,7 +30,7 @@ const questions = checkYourself(entry.body ?? '');
 // the page went live days later; otherwise the earliest entry. lastReviewed is the last
 // day the authorities were opened, which is what dateModified means.
 const sorted = [...d.changelog].sort((a, b) => a.date.localeCompare(b.date));
-const datePublished = (sorted.find(c => /\bpublish/i.test(c.summary)) ?? sorted[0])?.date ?? d.lastReviewed;
+const datePublished = (sorted.find(c => /publi(sh|cation)/i.test(c.summary)) ?? sorted[0])?.date ?? d.lastReviewed;
 const article = { '@type': 'Article', headline: d.title, description: d.description,
   datePublished, dateModified: d.lastReviewed, image: abs('/og.png'),
   author: { '@id': personId }, publisher: { '@id': orgId },

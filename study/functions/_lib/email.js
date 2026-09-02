@@ -31,10 +31,18 @@ export function loginEmail({ link }) {
   };
 }
 
-export function alertEmail({ code, title, date, summary, url, manageUrl }) {
+export function alertEmail({ code, title, date, summary, url, manageUrl, stopUrl }) {
   return {
     subject: `Changed: ${title}`,
-    text: `A rule you follow on TaxEar recorded a material change on ${date}.\n\n${title} (SEE ${code})\n${summary}\n\nRead the page: ${url}\n\nYou get this because you follow this topic. Manage what you follow: ${manageUrl}`,
-    html: wrap(`Changed: ${title}`, `<p style="font:13px ui-monospace,Menlo,monospace;color:#565B63">SEE ${esc(code)} · ${esc(date)}</p><p>${esc(summary)}</p><p><a href="${esc(url)}" style="color:#8C1D18">Read the page</a></p><p style="color:#565B63;font-size:14px">You get this because you follow this topic. <a href="${esc(manageUrl)}" style="color:#565B63">Manage what you follow</a>.</p>`),
+    text: `A rule you follow on TaxEar recorded a material change on ${date}.\n\n${title} (SEE ${code})\n${summary}\n\nRead the page: ${url}\n\nYou get this because you follow this topic. Manage what you follow: ${manageUrl}${stopUrl ? `\nStop all alerts: ${stopUrl}` : ''}`,
+    html: wrap(`Changed: ${title}`, `<p style="font:13px ui-monospace,Menlo,monospace;color:#565B63">SEE ${esc(code)} · ${esc(date)}</p><p>${esc(summary)}</p><p><a href="${esc(url)}" style="color:#8C1D18">Read the page</a></p><p style="color:#565B63;font-size:14px">You get this because you follow this topic. <a href="${esc(manageUrl)}" style="color:#565B63">Manage what you follow</a>.${stopUrl ? ` <a href="${esc(stopUrl)}" style="color:#565B63">Stop all alerts</a>.` : ''}</p>`),
+  };
+}
+
+export function confirmFollowEmail({ link, title }) {
+  return {
+    subject: `Confirm: follow "${title}" on TaxEar`,
+    text: `Someone, probably you, asked to follow "${title}" on TaxEar with this address.\n\nConfirm and follow: ${link}\n\nThe link works once and expires in 24 hours. If you did not ask, ignore this message; nothing is followed without the link.`,
+    html: wrap(`Follow "${title}"?`, `<p>Someone, probably you, asked to follow <strong>${esc(title)}</strong> on TaxEar with this address.</p><p><a href="${esc(link)}" style="display:inline-block;background:#8C1D18;color:#fff;text-decoration:none;padding:12px 20px;border-radius:2px;font-weight:600">Confirm and follow</a></p><p>The link works once and expires in 24 hours. If you did not ask, ignore this message; nothing is followed without the link.</p>`),
   };
 }

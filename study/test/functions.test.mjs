@@ -65,6 +65,21 @@ test('grants extend, refunds revoke, a new purchase lifts the revocation, subscr
   assert.deepEqual((await entitlementsFor(env, 'a@b.co')).parts, [1, 2, 3], 'ending the subscription leaves the parts alone');
 });
 
+test('the same Stripe reference never grants twice; a revocation zeroes what was bought', async () => {
+  const env = { ACCESS_KV: kv() };
+  const now = Date.UTC(2026, 8, 2);
+  const first = await grant(env, 'a@b.co', 'p3', { at: now, ref: 'cs_123' });
+  const second = await grant(env, 'a@b.co', 'p3', { at: now + 1000, ref: 'cs_123' });
+  assert.equal(first.applied, true); assert.equal(second.applied, false);
+  assert.equal(second.purchase.skus.p3, now + 365 * 86400e3, 'the success page and the webhook processing one session grant one year, not two');
+  await grant(env, 'a@b.co', 'all', { at: now, ref: 'cs_456' });
+  await revoke(env, 'a@b.co', 'dispute');
+  await grant(env, 'a@b.co', 'p1', { at: now, ref: 'cs_789' });
+  const e = await entitlementsFor(env, 'a@b.co');
+  assert.deepEqual(e.parts, [1], 'buying Part 1 after a dispute restores Part 1 only, never the disputed purchase');
+  assert.equal(e.revoked, false);
+});
+
 test('entitlementsOf reports expiries as dates and ignores expired skus', () => {
   const now = Date.UTC(2026, 8, 2);
   const e = entitlementsOf({ skus: { p1: now + 86400e3, p2: now - 1 } }, false, now);

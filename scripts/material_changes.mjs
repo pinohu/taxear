@@ -20,7 +20,11 @@ function entries(md) {
   //   - { date: "2026-09-02", summary: "…", material: true }
   const fm = md.match(/^---\n([\s\S]*?)\n---/)?.[1] ?? '';
   const code = fm.match(/^code:\s*"?([^"\n]+)"?/m)?.[1];
+  const status = fm.match(/^status:\s*"?([a-z]+)"?/m)?.[1];
   const out = [];
+  // Only a published page can alert; a page pulled back to draft or review while a
+  // correction is prepared must not send readers to a noindexed page.
+  if (status !== 'published') return out;
   for (const line of fm.split('\n')) {
     if (!/^\s*-\s*\{.*material:\s*true/.test(line)) continue;
     const date = line.match(/date:\s*"?(\d{4}-\d{2}-\d{2})"?/)?.[1];

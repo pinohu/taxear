@@ -49,7 +49,9 @@ against a stubbed KV.
 | `POST /api/exam/start`, `POST /api/exam/grade` | Sample without answers; grade and record |
 | `POST /api/drills/start`, `/answer`, `/finish` | Prompts; one worked answer at a time; self-graded record |
 | `GET /api/attempts` | History and weak areas |
-| `POST /api/follow` | From "Follow this rule" on taxear.com (CORS): follows for subscribers, parks a pending follow otherwise |
+| `POST /api/follow` | From "Follow this rule" on taxear.com (CORS): parks a pending follow and, for a subscriber, emails a confirmation link; applied at once only when signed in as that address |
+| `GET /api/follow/confirm` | The confirmation link: applies pending follows, signs in |
+| `POST /api/checkout-redirect` | Form-encoded checkout for the scripts-off path; redirects to Stripe |
 | `GET/POST /api/follows` | The account's followed topics; follow or unfollow one |
 | `POST /api/notify` | Called by `.github/workflows/notify.yml` with `NOTIFY_SECRET`; emails followers once per material change |
 | `GET /api/unfollow-all` | One-click stop link from every alert email |
