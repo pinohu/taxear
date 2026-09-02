@@ -108,6 +108,14 @@ test('an open question keeps its whole answer as the reason and has no letter', 
   assert.equal(answerText(q), q.reason);
 });
 
+test('answer letters with a dash or comma delimiter are still letters', () => {
+  const md = '## Check yourself\n\n**1. Q?**\n(A) a (B) b (C) c (D) d\n*Answer: B — because.*\n\n**2. Q?**\n(A) a (B) b (C) c (D) d\n*Answer: C, since.*\n\n**3.** Open?\n\n*Answer: A corporation is not a person here.*\n';
+  const qs = checkYourself(md);
+  assert.equal(qs[0].answer, 'B'); assert.equal(qs[0].reason, 'because.');
+  assert.equal(qs[1].answer, 'C'); assert.equal(qs[1].reason, 'since.');
+  assert.equal(qs[2].answer, ''); assert.match(qs[2].reason, /^A corporation/);
+});
+
 test('the site wrapper and the shared parser agree', () => {
   assert.deepEqual(checkYourself(PAGE_B), parseShared(PAGE_B));
 });
