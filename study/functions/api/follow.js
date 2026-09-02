@@ -42,7 +42,7 @@ export async function onRequestPost({ request, env }) {
 
   await addFollow(env, email, code, { pending: true });
   if (ent.practitioner) {
-    const coolKey = `follow-cooldown:${email}`;
+    const coolKey = `follow-cooldown:${email}:${code}`;
     if (!(await env.ACCESS_KV.get(coolKey))) {
       await env.ACCESS_KV.put(coolKey, '1', { expirationTtl: 60 });
       const jti = randomId();

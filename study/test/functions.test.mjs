@@ -92,9 +92,27 @@ test('a refund ends only the purchase its charge paid for; an unmatched one stil
   await revoke(env, 'a@b.co', 'dispute', { invoice: 'in_1' });
   e = await entitlementsFor(env, 'a@b.co');
   assert.equal(e.practitioner, false); assert.deepEqual(e.parts, [2]); assert.equal(e.revoked, false);
+  // Two purchases of the same part: refunding the second keeps the first one's year.
+  await grant(env, 'a@b.co', 'p2', { at: now + 86400e3, ref: 'cs_p2b', paymentIntent: 'pi_2b' });
+  assert.equal(JSON.parse(await env.ACCESS_KV.get('purchase:a@b.co')).skus.p2, now + 730 * 86400e3);
+  await revoke(env, 'a@b.co', 'refund', { paymentIntent: 'pi_2b' });
+  assert.equal(JSON.parse(await env.ACCESS_KV.get('purchase:a@b.co')).skus.p2, now + 365 * 86400e3, 'the non-refunded purchase stands');
+  assert.deepEqual((await entitlementsFor(env, 'a@b.co')).parts, [2]);
   assert.deepEqual((await revoke(env, 'a@b.co', 'refund', { paymentIntent: 'pi_unknown' })).scope, '*');
   e = await entitlementsFor(env, 'a@b.co');
   assert.deepEqual(e.parts, []); assert.equal(e.revoked, true, 'a charge that matches nothing on record revokes the account, as before');
+});
+
+test('a failed purchase write never leaves a Stripe reference marked spent', async () => {
+  const env = { ACCESS_KV: kv() };
+  const realPut = env.ACCESS_KV.put;
+  let fail = true;
+  env.ACCESS_KV.put = async (k, v) => { if (fail && k.startsWith('purchase:')) { fail = false; throw new Error('KV unavailable'); } return realPut(k, v); };
+  await assert.rejects(grant(env, 'a@b.co', 'p3', { ref: 'cs_x' }));
+  assert.equal(await env.ACCESS_KV.get('ref:cs_x'), null, 'the marker is written only after the purchase');
+  const retry = await grant(env, 'a@b.co', 'p3', { ref: 'cs_x' });
+  assert.equal(retry.applied, true, 'the webhook retry grants');
+  assert.equal(await env.ACCESS_KV.get('ref:cs_x'), 'a@b.co');
 });
 
 test('a Stripe reference stays spent after it falls out of the fifty-entry history', async () => {
