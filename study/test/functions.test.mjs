@@ -110,18 +110,31 @@ test('a refund ends only the purchase its charge paid for; an unmatched one stil
   assert.deepEqual(e.parts, []); assert.equal(e.revoked, true, 'a charge that matches nothing on record revokes the account, as before');
 });
 
-test('a refund replays from the refunded grant, so purchases older than the history window and legacy-shaped ones survive', async () => {
+test('the ledger, not the history log, decides a refund: pre-ledger purchases and long histories survive, refunding everything leaves nothing', async () => {
   const env = { ACCESS_KV: kv() };
   const now = Date.UTC(2026, 8, 2);
   // An account whose first Part 3 purchase was written by the earlier schema and has
-  // long since left the fifty-entry window: only its expiry in skus remains.
+  // long since left the fifty-entry log: only its expiry in skus remains.
   await env.ACCESS_KV.put('purchase:a@b.co', JSON.stringify({ skus: { p3: now + 365 * 86400e3 }, history: [{ at: now, sku: 'p3', sessionId: 'cs_legacy', event: 'checkout' }] }));
   for (let i = 0; i < 55; i++) await grant(env, 'a@b.co', 'practitioner_month', { at: now + i * 1000, ref: `in_${i}`, invoice: `in_${i}`, until: now + 35 * 86400e3 });
-  assert.ok(!JSON.parse(await env.ACCESS_KV.get('purchase:a@b.co')).history.some((h) => h.sessionId), 'the legacy entry is gone from history');
+  assert.ok(!JSON.parse(await env.ACCESS_KV.get('purchase:a@b.co')).history.some((h) => h.sessionId), 'the legacy entry is gone from the log');
   await grant(env, 'a@b.co', 'p3', { at: now + 86400e3, ref: 'cs_p3b', paymentIntent: 'pi_3b' });
   assert.equal(JSON.parse(await env.ACCESS_KV.get('purchase:a@b.co')).skus.p3, now + 730 * 86400e3);
+  await grant(env, 'a@b.co', 'p3', { at: now + 2 * 86400e3, ref: 'cs_p3c', paymentIntent: 'pi_3c' });
+  assert.equal(JSON.parse(await env.ACCESS_KV.get('purchase:a@b.co')).skus.p3, now + 1095 * 86400e3);
+  // The oldest ledger entry, and the newest, both refunded, in that order.
   await revoke(env, 'a@b.co', 'refund', { paymentIntent: 'pi_3b' });
-  assert.equal(JSON.parse(await env.ACCESS_KV.get('purchase:a@b.co')).skus.p3, now + 365 * 86400e3, 'the year the forgotten purchase paid for stands');
+  assert.equal(JSON.parse(await env.ACCESS_KV.get('purchase:a@b.co')).skus.p3, now + 730 * 86400e3, 'the pre-ledger year and the third purchase stand');
+  await revoke(env, 'a@b.co', 'refund', { paymentIntent: 'pi_3c' });
+  assert.equal(JSON.parse(await env.ACCESS_KV.get('purchase:a@b.co')).skus.p3, now + 365 * 86400e3, 'only the pre-ledger year is left');
+  assert.equal((await entitlementsFor(env, 'a@b.co')).revoked, false, 'matched refunds never revoke the account');
+  // A fifty-entry log does not hide a live grant from the refund.
+  const env2 = { ACCESS_KV: kv() };
+  await grant(env2, 'c@d.co', 'p1', { at: now, ref: 'cs_first', paymentIntent: 'pi_first' });
+  for (let i = 0; i < 60; i++) await grant(env2, 'c@d.co', 'practitioner_month', { at: now + i * 1000, ref: `in_${i}`, invoice: `in_${i}`, until: now + 35 * 86400e3 });
+  assert.deepEqual((await revoke(env2, 'c@d.co', 'refund', { paymentIntent: 'pi_first' })).scope, 'p1');
+  const e2 = await entitlementsFor(env2, 'c@d.co');
+  assert.deepEqual(e2.parts, []); assert.equal(e2.practitioner, true); assert.equal(e2.revoked, false);
 });
 
 test('a retried grant finishes lifting a revocation the purchase came after, and an old reference never lifts a later one', async () => {

@@ -44,14 +44,28 @@ export async function onRequestPost({ request, env }) {
   await addFollow(env, email, code, { pending: true });
   if (ent.practitioner) {
     // One confirmation per topic per minute, and never more than a handful per address
-    // per hour: the endpoint is public, and nobody's inbox or the sending quota should be
-    // spendable by someone submitting every topic code for an address they do not own.
+    // in any hour: the endpoint is public, and nobody's inbox or the sending quota should
+    // be spendable by someone submitting every topic code for an address they do not own.
+    // The hour is a fixed window from the first accepted message, not extended by later
+    // ones. KV cannot serialise the check-and-count, so a burst of simultaneous requests
+    // can overshoot the cap by the few that read the counter before the first write
+    // landed; that bounds the overshoot by concurrency, not by the number of topics. KV
+    // also allows one write a second to a key, so when the counter write is refused the
+    // request is treated as over the cap and nothing (cooldown included) is written: a
+    // retry a moment later goes through.
     const coolKey = `follow-cooldown:${email}:${code}`;
     const burstKey = `follow-burst:${email}`;
-    const burst = Number((await env.ACCESS_KV.get(burstKey)) || 0);
-    if (!(await env.ACCESS_KV.get(coolKey)) && burst < BURST_LIMIT) {
+    const now = Date.now();
+    let win = null;
+    try { win = JSON.parse((await env.ACCESS_KV.get(burstKey)) || 'null'); } catch { win = null; }
+    if (!win || !(win.resetAt > now)) win = { count: 0, resetAt: now + 3600e3 };
+    let admitted = !(await env.ACCESS_KV.get(coolKey)) && win.count < BURST_LIMIT;
+    if (admitted) {
+      win.count += 1;
+      try { await env.ACCESS_KV.put(burstKey, JSON.stringify(win), { expirationTtl: Math.max(60, Math.ceil((win.resetAt - now) / 1000)) }); } catch { admitted = false; }
+    }
+    if (admitted) {
       await env.ACCESS_KV.put(coolKey, '1', { expirationTtl: 60 });
-      await env.ACCESS_KV.put(burstKey, String(burst + 1), { expirationTtl: 3600 });
       const jti = randomId();
       await env.ACCESS_KV.put(`confirm:${jti}`, JSON.stringify({ email, code }), { expirationTtl: 24 * 3600 });
       const token = await signToken({ email, jti, purpose: 'confirm-follow', exp: Date.now() + 24 * 3600e3 }, env.COOKIE_SECRET);
