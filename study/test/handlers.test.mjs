@@ -98,6 +98,18 @@ test('portal: signed out, unconfigured, and no customer on record each get a cle
   assert.equal((await asJson(await onRequestPost({ request: post('/api/portal', {}, cookie), env }))).status, 503);
   const r = await asJson(await onRequestPost({ request: post('/api/portal', {}, cookie), env: { ...env, STRIPE_SECRET_KEY: 'sk_test' } }));
   assert.equal(r.status, 404); assert.match(r.body.error, /No billing record/);
+  // A revoked account still reaches the portal: cancelling the subscription is the point.
+  const { revoke } = await import('../functions/_lib/entitlements.js');
+  await grant(env, 'a@b.co', 'practitioner_month', { ref: 'cs_s', stripeCustomer: 'cus_1' });
+  await revoke(env, 'a@b.co', 'dispute');
+  const realFetch = globalThis.fetch; let sent = '';
+  globalThis.fetch = async (url, init) => { sent = String(init?.body || ''); return new Response(JSON.stringify({ url: 'https://billing.stripe.com/s/x' }), { status: 200 }); };
+  try {
+    const revoked = await asJson(await onRequestPost({ request: post('/api/portal', {}, cookie), env: { ...env, STRIPE_SECRET_KEY: 'sk_test' } }));
+    assert.equal(revoked.status, 200, 'not gated on entitlement');
+    assert.match(sent, /cus_1/, 'opens the recorded customer');
+    assert.match(revoked.body.url, /billing\.stripe\.com/);
+  } finally { globalThis.fetch = realFetch; }
 });
 
 test('checkout and webhook refuse cleanly when unconfigured', async () => {

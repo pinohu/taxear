@@ -78,7 +78,12 @@ export async function grant(env, email, sku, { at = Date.now(), ref, event = 'ch
       await env.ACCESS_KV.delete(`revoked:${email}`);
       return { purchase: p, applied: false };
     }
-    if ((await env.ACCESS_KV.get(`ref:${ref}`)) || (p.history || []).some((h) => h.ref === ref)) return { purchase: p, applied: false };
+    if (await env.ACCESS_KV.get(`ref:${ref}`)) return { purchase: p, applied: false };
+    if ((p.history || []).some((h) => h.ref === ref)) {
+      // Logged but unmarked: a first attempt died between the two writes. Finish it.
+      await env.ACCESS_KV.put(`ref:${ref}`, email);
+      return { purchase: p, applied: false };
+    }
   }
   // A grant whose charge has already been refunded (webhooks can arrive out of order)
   // records nothing live: its reference is spent, the log says why once (the checks
@@ -86,7 +91,9 @@ export async function grant(env, email, sku, { at = Date.now(), ref, event = 'ch
   // opens the right customer, and the revocation that refund may have written stays.
   const refunded = (paymentIntent || invoice) && (p.refunds || []).find((t) => (paymentIntent && t.pi === paymentIntent) || (invoice && t.inv === invoice));
   if (refunded) {
-    if (stripeCustomer) p.stripeCustomer = stripeCustomer;
+    // Keep the customer only when none is on record: a later live purchase's customer
+    // is the one the billing portal must open, never this stale one.
+    if (stripeCustomer && !p.stripeCustomer) p.stripeCustomer = stripeCustomer;
     log(p, { at, sku, ref, event: `${event}:after-refund` });
     await env.ACCESS_KV.put(`purchase:${email}`, JSON.stringify(p));
     if (ref) await env.ACCESS_KV.put(`ref:${ref}`, email);
