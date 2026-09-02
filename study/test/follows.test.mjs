@@ -45,7 +45,9 @@ test('follow: never enrols an address without proof; same answer for subscribers
   r = await asJson(await follow.onRequestPost({ request: post('/api/follow', { email: 'p@q.io', code: '3.2.6.a' }, cors), env }));
   assert.equal(r.body.status, 'check_email', 'a subscriber gets the same words; the proof is the emailed link');
   assert.deepEqual(await followersOf(env, '3.2.6.a'), [], 'still not enrolled until the link is used');
-  assert.ok(await env.ACCESS_KV.get('follow-cooldown:p@q.io'), 'a confirmation was attempted');
+  assert.ok(await env.ACCESS_KV.get('follow-cooldown:p@q.io:3.2.6.a'), 'a confirmation was attempted');
+  r = await asJson(await follow.onRequestPost({ request: post('/api/follow', { email: 'p@q.io', code: '3.2.6.b' }, cors), env }));
+  assert.ok(await env.ACCESS_KV.get('follow-cooldown:p@q.io:3.2.6.b'), 'a second topic within the minute gets its own confirmation, since each link follows one topic');
   // Signed in as that address on Study itself: applied at once.
   const cookie = await cookieFor('p@q.io');
   r = await asJson(await follow.onRequestPost({ request: post('/api/follow', { email: 'p@q.io', code: '3.2.6.b' }, { Cookie: cookie }), env }));
@@ -74,6 +76,13 @@ test('confirm link: GET only shows the topic; POST follows that one topic, once,
   assert.deepEqual(await listPending(env, 'p@q.io'), ['3.2.6.a'], 'the other request stays pending');
   const again = await confirm.onRequestPost({ request: new Request('https://s/api/follow/confirm', { method: 'POST', body: new URLSearchParams({ token }) }), env });
   assert.equal(again.status, 400, 'one use');
+  // A record written before links were bound to a topic still applies everything pending.
+  await env.ACCESS_KV.put('confirm:old', 'p@q.io');
+  const legacy = await signToken({ email: 'p@q.io', jti: 'old', purpose: 'confirm-follow', exp: Date.now() + 1e6 }, SECRET);
+  const res2 = await confirm.onRequestPost({ request: new Request('https://s/api/follow/confirm', { method: 'POST', body: new URLSearchParams({ token: legacy }) }), env });
+  assert.equal(res2.status, 303);
+  assert.deepEqual(await followersOf(env, '3.2.6.a'), ['p@q.io'], 'the legacy link keeps its old promise');
+  assert.deepEqual(await listPending(env, 'p@q.io'), []);
 });
 
 test('follow: the scripts-off form is parked server-side and redirected to the Practitioner page', async () => {
