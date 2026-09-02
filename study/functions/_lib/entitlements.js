@@ -67,6 +67,16 @@ export async function grant(env, email, sku, { at = Date.now(), ref, event = 'ch
   if (!def) throw new Error(`unknown sku ${sku}`);
   const p = (await getPurchase(env, email)) || { skus: {}, history: [] };
   p.grants ||= {}; p.baseline ||= {};
+  // A grant whose charge has already been refunded (webhooks can arrive out of order)
+  // records nothing live: its reference is spent, the log says why, and the revocation
+  // that refund may have written stays in place.
+  const refunded = (paymentIntent || invoice) && (p.refunds || []).find((t) => (paymentIntent && t.pi === paymentIntent) || (invoice && t.inv === invoice));
+  if (refunded) {
+    log(p, { at, sku, ref, event: `${event}:after-refund` });
+    await env.ACCESS_KV.put(`purchase:${email}`, JSON.stringify(p));
+    if (ref) await env.ACCESS_KV.put(`ref:${ref}`, email);
+    return { purchase: p, applied: false, refunded: true };
+  }
   if (ref) {
     // The purchase record is the truth; the ref: marker is written only after it, so a
     // retry after a failed purchase write still grants. A reference already in the
@@ -134,13 +144,14 @@ export async function revoke(env, email, reason, { paymentIntent, invoice } = {}
     return { scope };
   }
 
-  // Pre-ledger accounts: the log entry names the sku, so end that sku and nothing else.
+  // Pre-ledger purchases: the log entry names the sku. Everything the sku was worth
+  // before its ledger began is the baseline, so the baseline goes and the live ledger
+  // grants, if any, are refolded from nothing.
   const logged = p && charged ? (p.history || []).find((h) => SKUS[h.sku] && !String(h.event || '').startsWith('revoked:') && matches(h)) : null;
   if (logged) {
     const key = keyOf(logged.sku);
-    p.skus[key] = Math.min(p.skus[key] || 0, now);
-    if (p.grants) delete p.grants[key];
     if (p.baseline) delete p.baseline[key];
+    p.skus[key] = Math.min(fold(p, key), p.skus[key] || 0);
     log(p, { at: now, sku: key, ref: logged.ref, event: `revoked:${reason}` });
     tombstone(key);
     await save();
