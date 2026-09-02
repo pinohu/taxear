@@ -49,6 +49,20 @@ against a stubbed KV.
 | `POST /api/exam/start`, `POST /api/exam/grade` | Sample without answers; grade and record |
 | `POST /api/drills/start`, `/answer`, `/finish` | Prompts; one worked answer at a time; self-graded record |
 | `GET /api/attempts` | History and weak areas |
+| `POST /api/follow` | From "Follow this rule" on taxear.com (CORS): follows for subscribers, parks a pending follow otherwise |
+| `GET/POST /api/follows` | The account's followed topics; follow or unfollow one |
+| `POST /api/notify` | Called by `.github/workflows/notify.yml` with `NOTIFY_SECRET`; emails followers once per material change |
+| `GET /api/unfollow-all` | One-click stop link from every alert email |
+| `POST /api/portal` | Stripe customer-portal session: cancel, change card, invoices |
+
+## Practitioner alerts
+
+A changelog entry on a topic page marked `material: true` is the whole trigger. On a
+push to `main`, `scripts/material_changes.mjs` lists entries that are new since the
+previous commit and the workflow posts them to `/api/notify`. The Function emails each
+follower who holds a live Practitioner entitlement, records `alert:<code>:<date>` so a
+re-run never sends twice, and reports counts. Set `NOTIFY_SECRET` on both the Pages
+project and the GitHub repository (Settings → Secrets → Actions).
 
 ## Deploying — the owner's steps
 

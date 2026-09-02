@@ -4,6 +4,7 @@ import Rail from '../../components/Rail.astro';
 import Stamp from '../../components/Stamp.astro';
 import DiagramMount from '../../components/diagrams/DiagramMount.astro';
 import NewsTracking from '../../components/NewsTracking.astro';
+import Follow from '../../components/Follow.astro';
 import { getCollection, render } from 'astro:content';
 import { allTopics, idOf, topicByCode, publishedCodes } from '../../lib';
 import { checkYourself, answerText } from '../../checkyourself';
@@ -60,9 +61,10 @@ const jsonld = { '@context': 'https://schema.org', '@graph': [article, breadcrum
       {d.diagram && <DiagramMount diagram={d.diagram} />}
       {published && d.deck && <p class="companion"><span class="eyebrow">Companion</span> <a href={d.deck}>Teaching deck for this topic</a> — the same rule as slides, for a classroom or a screen.</p>}
       <Content />
-      {d.changelog.length > 0 && <section><h2>Change log</h2><ul class="changelog">{d.changelog.map(c => <li><time>{c.date}</time>{c.summary}</li>)}</ul></section>}
+      {d.changelog.length > 0 && <section><h2>Change log</h2><ul class="changelog">{d.changelog.map(c => <li><time>{c.date}</time>{c.material && <span class="tag-material">material</span>} {c.summary}</li>)}</ul></section>}
       {related.length > 0 && <section><h2>Related topics</h2><ul>{related.map(r => <li><a href={r.path}>{r.title}</a> <span class="eyebrow">{r.code}</span></li>)}</ul></section>}
       {published && d.newsQuery && <NewsTracking query={d.newsQuery} />}
+      {published && <Follow code={d.code} title={d.title} />}
     </article>
     <Rail data={d} />
   </div>

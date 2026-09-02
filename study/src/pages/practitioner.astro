@@ -1,0 +1,46 @@
+---
+import StudyBase from '../layouts/StudyBase.astro';
+const price = { month: import.meta.env.PUBLIC_PRICE_PRACTITIONER_MONTH || '$15', year: import.meta.env.PUBLIC_PRICE_PRACTITIONER_YEAR || '$120' };
+---
+<StudyBase title="Practitioner alerts" description="Follow the rules you rely on and get one email when a page records a material change: a figure, a deadline, the rule itself.">
+  <p class="eyebrow">For people who use the rules, not only study them</p>
+  <h1>Follow a rule. Get told when it changes.</h1>
+  <p class="lede">Every TaxEar page keeps a dated change log, and every figure carries the day its source was opened. The Practitioner subscription turns that into delivery: follow the pages you rely on, and when one of them records a <em>material</em> change, a figure, a deadline, the rule itself, you get one email that says what changed and links to the page. Editorial work never alerts. The pages, the change log and the figures stay free for everyone.</p>
+
+  <h2 id="pricing">Pricing</h2>
+  <ul class="skus">
+    <li><div><p class="sku-title">Monthly</p><p class="sku-meta">cancel any time · follow as many topics as you like</p></div><button type="button" class="buy" data-sku="practitioner_month">{price.month}<span class="per">/month</span></button></li>
+    <li class="sku-all"><div><p class="sku-title">Yearly</p><p class="sku-meta">two months free · one renewal a year</p></div><button type="button" class="buy" data-sku="practitioner_year">{price.year}<span class="per">/year</span></button></li>
+  </ul>
+  <p id="buy-error" class="error" hidden></p>
+  <p id="pending" class="note" hidden></p>
+  <p class="sku-signin">Already subscribed? <a href="/account/">Sign in</a> to manage what you follow.</p>
+
+  <h2>How it works</h2>
+  <ul class="plain">
+    <li>On any topic page at taxear.com, enter your address under <strong>Follow this rule</strong>. If you subscribe afterwards, every topic you asked for is followed from the first alert.</li>
+    <li>An alert is sent only when the editor marks a change log entry material. That happens when the annual inflation adjustments land, when legislation changes a rule, and when a deadline or procedure moves. Not when a sentence is reworded.</li>
+    <li>Each email names the topic, the date, the change in one paragraph as it appears on the page, and links to the page. One-click stop in every message.</li>
+    <li>Cancel from your account page. Access runs to the end of the paid period; see the <a href="https://taxear.com/refunds/">refund policy</a>.</li>
+  </ul>
+
+  <script>
+    const err = document.getElementById('buy-error');
+    const code = new URLSearchParams(location.search).get('code');
+    const pending = document.getElementById('pending');
+    const emailParam = new URLSearchParams(location.search).get('email');
+    if (code) { pending.textContent = `Subscribe and topic ${code} is followed from the first alert.`; pending.hidden = false; }
+    // Reached by the scripts-off form on taxear.com: register the follow now so the
+    // subscription applies it.
+    if (code && emailParam) fetch('/api/follow', { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify({ email: emailParam, code }) }).catch(() => {});
+    document.querySelectorAll('button.buy').forEach((btn) => btn.addEventListener('click', async () => {
+      btn.disabled = true; err.hidden = true;
+      try {
+        const res = await fetch('/api/checkout', { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify({ sku: btn.dataset.sku, email: emailParam || undefined }) });
+        const data = await res.json();
+        if (!res.ok || !data.url) throw new Error(data.error || 'Something went wrong.');
+        location.href = data.url;
+      } catch (e) { err.textContent = e.message; err.hidden = false; btn.disabled = false; }
+    }));
+  </script>
+</StudyBase>

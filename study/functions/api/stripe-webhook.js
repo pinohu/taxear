@@ -1,6 +1,7 @@
 import { verifyWebhookSignature, retrieveCharge, retrieveCustomer } from '../_lib/stripe.js';
 import { SKUS, grant, revoke, endSubscription } from '../_lib/entitlements.js';
 import { json, error, normalizeEmail } from '../_lib/json.js';
+import { applyPending } from '../_lib/follows.js';
 
 // POST /api/stripe-webhook — Stripe's server tells us what happened to the money.
 // Grants on completed checkouts and paid invoices; revokes on refunds and disputes;
@@ -28,7 +29,10 @@ export async function onRequestPost({ request, env }) {
         const email = normalizeEmail(obj.customer_details?.email) || (await emailOfCustomer(obj.customer));
         const sku = obj.metadata?.sku;
         const paid = obj.payment_status === 'paid' || obj.mode === 'subscription';
-        if (email && SKUS[sku] && paid) await grant(env, email, sku, { sessionId: obj.id, stripeCustomer: obj.customer || undefined, event: 'webhook.checkout' });
+        if (email && SKUS[sku] && paid) {
+          await grant(env, email, sku, { sessionId: obj.id, stripeCustomer: obj.customer || undefined, event: 'webhook.checkout' });
+          if (SKUS[sku].mode === 'subscription') await applyPending(env, email);
+        }
         break;
       }
       case 'invoice.paid': {

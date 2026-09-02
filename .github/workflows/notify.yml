@@ -1,0 +1,44 @@
+name: Notify followers of material changes
+
+# After a push to main, find changelog entries newly marked `material: true` and hand
+# them to study.taxear.com, which emails the Practitioner subscribers who follow those
+# topics. The content is the committed entry; nothing is generated. Skips quietly when
+# the NOTIFY_SECRET secret is not set.
+on:
+  push:
+    branches: [main]
+    paths: ['src/content/topics/**']
+
+jobs:
+  notify:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version-file: .nvmrc
+
+      - name: Find new material changelog entries
+        id: find
+        run: |
+          CHANGES=$(node scripts/material_changes.mjs "${{ github.event.before }}")
+          echo "changes=$CHANGES" >> "$GITHUB_OUTPUT"
+          echo "New material entries: $CHANGES"
+
+      - name: Send to study.taxear.com
+        if: steps.find.outputs.changes != '[]' && steps.find.outputs.changes != ''
+        env:
+          NOTIFY_SECRET: ${{ secrets.NOTIFY_SECRET }}
+          CHANGES: ${{ steps.find.outputs.changes }}
+        run: |
+          if [ -z "$NOTIFY_SECRET" ]; then
+            echo "NOTIFY_SECRET is not set; nothing sent."
+            exit 0
+          fi
+          curl -sS --fail-with-body -X POST https://study.taxear.com/api/notify \
+            -H "Authorization: Bearer $NOTIFY_SECRET" \
+            -H "Content-Type: application/json" \
+            -d "{\"changes\": $CHANGES}"

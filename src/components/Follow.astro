@@ -1,0 +1,48 @@
+---
+// "Follow this rule": one field, posts to the Study API (docs/REVENUE_BUILD.md). The
+// page stays free; what is sold is an email when this page records a material change.
+// The form works without scripts too: it posts to the Practitioner page with the code.
+interface Props { code: string; title: string }
+const { code, title } = Astro.props;
+const study = 'https://study.taxear.com';
+---
+<section class="follow" aria-labelledby="follow-h" data-code={code}>
+  <h2 id="follow-h">Follow this rule</h2>
+  <p class="follow-note">Get one email when this page records a material change: a figure, a deadline, the rule itself. Part of the <a href={`${study}/practitioner/`}>Practitioner subscription</a>; every page here stays free.</p>
+  <form class="follow-form" action={`${study}/practitioner/`} method="get">
+    <input type="hidden" name="code" value={code} />
+    <label for="follow-email">Email address</label>
+    <div class="follow-row">
+      <input id="follow-email" name="email" type="email" required autocomplete="email" placeholder="you@firm.com" spellcheck="false" />
+      <button type="submit">Follow</button>
+    </div>
+    <p class="follow-msg" role="status" aria-live="polite"></p>
+  </form>
+</section>
+
+<script>
+  const STUDY = 'https://study.taxear.com';
+  document.querySelectorAll<HTMLElement>('.follow[data-code]').forEach((section) => {
+    const form = section.querySelector('form') as HTMLFormElement;
+    const msg = section.querySelector('.follow-msg') as HTMLElement;
+    const btn = form.querySelector('button') as HTMLButtonElement;
+    form.addEventListener('submit', async (ev) => {
+      ev.preventDefault();
+      const email = (form.querySelector('input[type=email]') as HTMLInputElement).value;
+      btn.disabled = true; msg.textContent = 'One moment…';
+      try {
+        const res = await fetch(`${STUDY}/api/follow`, { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify({ email, code: section.dataset.code }) });
+        const data = await res.json();
+        if (!res.ok) throw new Error(data.error || 'Could not follow this topic.');
+        if (data.status === 'following') {
+          msg.innerHTML = `Following. You now follow ${data.count} topic${data.count === 1 ? '' : 's'}; <a href="${data.manageUrl}">manage them</a>.`;
+        } else {
+          msg.innerHTML = `${data.message} <a href="${data.subscribeUrl}">Subscribe</a>.`;
+        }
+      } catch (e) {
+        msg.textContent = (e as Error).message;
+        btn.disabled = false;
+      }
+    });
+  });
+</script>
