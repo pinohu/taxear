@@ -224,6 +224,28 @@ test('a grant that arrives after its own refund is not applied and does not lift
   // Replaying the refunded success URL logs the rejection once, never fifty times.
   for (let i = 0; i < 60; i++) await grant(env, 'new@b.co', 'p1', { at: now, ref: 'cs_first', paymentIntent: 'pi_first' });
   assert.equal(JSON.parse(await env.ACCESS_KV.get('purchase:new@b.co')).history.filter((h) => h.event.endsWith('after-refund')).length, 1);
+  // A live purchase in between owns the customer id; the stale checkout does not overwrite it.
+  await revoke(env, 'late@b.co', 'refund', { paymentIntent: 'pi_old' });
+  await grant(env, 'late@b.co', 'practitioner_month', { at: now, ref: 'cs_live', invoice: 'in_live', stripeCustomer: 'cus_live' });
+  const stale = await grant(env, 'late@b.co', 'practitioner_month', { at: now - 1000, ref: 'cs_old', paymentIntent: 'pi_old', stripeCustomer: 'cus_old' });
+  assert.equal(stale.refunded, true);
+  assert.equal(JSON.parse(await env.ACCESS_KV.get('purchase:late@b.co')).stripeCustomer, 'cus_live');
+  assert.equal((await entitlementsFor(env, 'late@b.co')).practitioner, true);
+});
+
+test('a rejected grant whose marker write failed gets its marker on retry', async () => {
+  const env = { ACCESS_KV: kv() };
+  const now = Date.UTC(2026, 8, 2);
+  await revoke(env, 'a@b.co', 'refund', { paymentIntent: 'pi_x' });
+  const realPut = env.ACCESS_KV.put;
+  let die = true;
+  env.ACCESS_KV.put = async (k, v, o) => { if (die && k.startsWith('ref:')) { die = false; throw new Error('KV unavailable'); } return realPut(k, v, o); };
+  await assert.rejects(grant(env, 'a@b.co', 'p1', { at: now, ref: 'cs_x', paymentIntent: 'pi_x' }));
+  assert.equal(await env.ACCESS_KV.get('ref:cs_x'), null);
+  const retry = await grant(env, 'a@b.co', 'p1', { at: now, ref: 'cs_x', paymentIntent: 'pi_x' });
+  assert.equal(retry.applied, false);
+  assert.equal(await env.ACCESS_KV.get('ref:cs_x'), 'a@b.co', 'the retry finishes the marker');
+  assert.deepEqual((await entitlementsFor(env, 'a@b.co')).parts, []);
 });
 
 test('a failed purchase write never leaves a Stripe reference marked spent', async () => {
