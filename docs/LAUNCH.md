@@ -167,7 +167,10 @@ The form is built and posts wherever it is told. It needs a provider that accept
 | MailerLite | Provider-generated form action | Free tier is generous |
 | Mailchimp | `https://<dc>.list-manage.com/subscribe/post?u=…&id=…` | Heavier, more tracking |
 
-Name the provider and the endpoint goes in `PUBLIC_DIGEST_ENDPOINT`; nothing else changes.
+Name the provider and the endpoint goes in `PUBLIC_DIGEST_ENDPOINT`. One more change:
+the Content-Security-Policy in `public/_headers` lists the hosts a form may post to
+(`form-action`), and it names Buttondown today. Add the chosen provider's host there
+in the same commit, or the browser blocks the subscribe button silently.
 Whichever is chosen, keep double opt-in on and confirm the provider's privacy statement
 matches what `/about/` says.
 
