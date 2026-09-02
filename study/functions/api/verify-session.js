@@ -25,7 +25,7 @@ export async function onRequestPost({ request, env }) {
   if (!email) return error('Stripe did not report an email address for this payment.', 502);
   if (!SKUS[sku]) return error('This payment is not for a known product.', 502);
 
-  await grant(env, email, sku, { ref: sessionId, stripeCustomer: session.customer || undefined, event: 'checkout' });
+  await grant(env, email, sku, { ref: sessionId, stripeCustomer: session.customer || undefined, event: 'checkout', paymentIntent: session.payment_intent || undefined, invoice: session.invoice || undefined });
   if (SKUS[sku].mode === 'subscription') await applyPending(env, email);
   const token = await sessionToken(email, env.COOKIE_SECRET);
   return json({ ok: true, email, entitlements: await entitlementsFor(env, email) }, 200, { 'Set-Cookie': setCookieHeader(token) });

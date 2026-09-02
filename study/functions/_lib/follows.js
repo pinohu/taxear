@@ -70,8 +70,15 @@ export async function followersOf(env, code) {
   return (await listKeys(env, prefix)).map((k) => k.slice(prefix.length));
 }
 
-// Called when a Practitioner entitlement is granted, or a confirmation link is
-// followed: pending follows become real.
+// A confirmed link applies the one topic it was sent for; anything else parked under
+// that address stays pending until it is confirmed or a subscription is bought.
+export async function applyPendingCode(env, email, code) {
+  const pending = await readList(env, `pending:${email}`);
+  await addFollow(env, email, code);
+  await writeList(env, `pending:${email}`, pending.filter((c) => c !== code));
+}
+
+// Called when a Practitioner entitlement is granted: pending follows become real.
 export async function applyPending(env, email) {
   const pending = await readList(env, `pending:${email}`);
   for (const code of pending) await addFollow(env, email, code);

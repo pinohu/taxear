@@ -40,8 +40,10 @@ domain, one KV namespace, one Stripe account and one place to audit.
 | Key | Value | Written by |
 |---|---|---|
 | `purchase:<email>` | `{ skus: {p1?: exp, p2?: exp, p3?: exp, practitioner?: exp}, stripeCustomer, history: [...] }` | verify-session, stripe-webhook |
-| `revoked:<email>` | `{ at, reason }` — set on refund or dispute; access-check consults it | stripe-webhook |
+| `ref:<sessionOrInvoiceId>` | the email it granted to — idempotency for grants, kept as long as a Checkout Session can be replayed | verify-session, stripe-webhook |
+| `revoked:<email>` | `{ at, reason }` — set when a refund or dispute cannot be matched to one purchase; a matched one only ends that sku | stripe-webhook |
 | `login:<token>` | `{ email, exp }` — one-time magic-link token, 15 minutes | login (request) |
+| `pending:<email>` / `confirm:<jti>` | follows asked for before proof; `{ email, code }` behind a confirmation link, one topic each | follow |
 | `follows:<email>` | `["3.3.1.c", ...]` | follow |
 | `followers:<code>` | `["a@b.com", ...]` — reverse index, maintained with the above | follow |
 | `attempt:<email>:<id>` | `{ startedAt, parts, count, score, byDomain, questionIds }` | exam/grade |
@@ -111,7 +113,8 @@ Entitlements are *not* in the cookie: every gated request reads `purchase:<email
   the pushed commits for new `material` entries, and calls `POST /api/notify` with
   `NOTIFY_SECRET` and the list of `{ code, date, title, summary, path }`. The Function
   looks up followers, sends one email per follower per change through Resend, and
-  records `alert:<code>:<date>` so a re-run never sends twice. Content is a reviewed
+  records delivery per recipient so a re-run never sends twice; while anyone is still
+  owed it answers 502, which fails the workflow so the re-run is not forgotten. Content is a reviewed
   commit; the alert only relays it. Rule 7 holds.
 
 ### Environment and secrets (owner sets, never committed)

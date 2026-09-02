@@ -12,6 +12,8 @@ import { signToken } from '../_lib/cookie.js';
 // <email>), so a retry after a partial failure reaches only the people still owed a
 // message and never repeats one. The topic-level marker is written only when nobody is
 // left owed. Every change in the payload is processed; nothing is silently dropped.
+// When anyone is still owed, the response is 502 with the full report, so the calling
+// workflow fails and its re-run reaches the people the first attempt missed.
 export async function onRequestPost({ request, env }) {
   if (!env.NOTIFY_SECRET) return error('Notify is not configured.', 503);
   const auth = request.headers.get('Authorization') || '';
@@ -47,5 +49,5 @@ export async function onRequestPost({ request, env }) {
     report.push({ code: c.code, date: c.date, followers: followers.length, sent, already, failed, notEntitled, complete: failed === 0 });
   }
   const incomplete = report.filter((r) => r.complete === false).length;
-  return json({ ok: incomplete === 0, incomplete, report }, incomplete ? 207 : 200);
+  return json({ ok: incomplete === 0, incomplete, report }, incomplete ? 502 : 200);
 }
