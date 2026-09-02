@@ -183,10 +183,35 @@ test('a pre-ledger account whose log names the charge loses that sku alone', asy
   await env.ACCESS_KV.put('purchase:a@b.co', JSON.stringify({ skus: { p1: now + 300 * 86400e3, p2: now + 300 * 86400e3 }, history: [
     { at: now, sku: 'p1', ref: 'cs_a', event: 'checkout', pi: 'pi_a' }, { at: now, sku: 'p2', ref: 'cs_b', event: 'checkout', pi: 'pi_b' },
   ] }));
+  // A post-ledger purchase of the same part sits on top of the legacy one.
+  await grant(env, 'a@b.co', 'p1', { at: now + 1000, ref: 'cs_c', paymentIntent: 'pi_c' });
+  assert.equal(JSON.parse(await env.ACCESS_KV.get('purchase:a@b.co')).skus.p1, now + 665 * 86400e3);
   assert.deepEqual(await revoke(env, 'a@b.co', 'refund', { paymentIntent: 'pi_a' }), { scope: 'p1' });
-  const e = await entitlementsFor(env, 'a@b.co');
-  assert.deepEqual(e.parts, [2], 'Part 2 stands'); assert.equal(e.revoked, false);
+  let e = await entitlementsFor(env, 'a@b.co');
+  assert.deepEqual(e.parts, [1, 2], 'the legacy year is gone; the newer Part 1 purchase and Part 2 stand'); assert.equal(e.revoked, false);
+  assert.equal(JSON.parse(await env.ACCESS_KV.get('purchase:a@b.co')).skus.p1, now + 1000 + 365 * 86400e3, 'refolded from the live ledger alone');
   assert.deepEqual(await revoke(env, 'a@b.co', 'refund', { paymentIntent: 'pi_a' }), { scope: 'p1', already: true });
+  await revoke(env, 'a@b.co', 'refund', { paymentIntent: 'pi_c' });
+  e = await entitlementsFor(env, 'a@b.co');
+  assert.deepEqual(e.parts, [2]); assert.equal(e.revoked, false);
+});
+
+test('a grant that arrives after its own refund is not applied and does not lift a revocation', async () => {
+  const env = { ACCESS_KV: kv() };
+  const now = Date.UTC(2026, 8, 2);
+  await grant(env, 'a@b.co', 'p1', { at: now, ref: 'cs_p1', paymentIntent: 'pi_1' });
+  // The refund of a Part 2 checkout lands before the checkout itself: unmatched.
+  assert.equal((await revoke(env, 'a@b.co', 'refund', { paymentIntent: 'pi_2' })).scope, '*');
+  const late = await grant(env, 'a@b.co', 'p2', { at: now + 1000, ref: 'cs_p2', paymentIntent: 'pi_2' });
+  assert.equal(late.applied, false); assert.equal(late.refunded, true);
+  let e = await entitlementsFor(env, 'a@b.co');
+  assert.deepEqual(e.parts, []); assert.equal(e.revoked, true, 'the late grant neither applies nor lifts the revocation');
+  assert.equal(await env.ACCESS_KV.get('ref:cs_p2'), 'a@b.co', 'its reference is spent all the same');
+  assert.deepEqual(await revoke(env, 'a@b.co', 'refund', { paymentIntent: 'pi_2' }), { scope: '*', already: true });
+  // A genuinely new purchase still lifts it.
+  await grant(env, 'a@b.co', 'p3', { at: now + 2000, ref: 'cs_p3', paymentIntent: 'pi_3' });
+  e = await entitlementsFor(env, 'a@b.co');
+  assert.deepEqual(e.parts, [3]); assert.equal(e.revoked, false);
 });
 
 test('a failed purchase write never leaves a Stripe reference marked spent', async () => {
