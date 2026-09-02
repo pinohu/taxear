@@ -42,7 +42,7 @@ against a stubbed KV.
 |---|---|
 | `POST /api/checkout` | Stripe Checkout Session for a `sku` (`p1` `p2` `p3` `all` `practitioner_month` `practitioner_year`) |
 | `POST /api/verify-session` | Re-reads the session from Stripe, grants, sets the cookie |
-| `POST /api/stripe-webhook` | Grants on checkout and paid invoices; revokes on refund and dispute; ends cancelled subscriptions |
+| `POST /api/stripe-webhook` | Grants on checkout and paid invoices; a refund or dispute ends the purchase its charge paid for; ends cancelled subscriptions |
 | `GET /api/me` | Signed-in email and entitlements |
 | `POST /api/login`, `GET /api/login/verify` | Magic-link sign-in, one use, 15 minutes |
 | `POST /api/logout` | Clears the cookie |
@@ -50,10 +50,10 @@ against a stubbed KV.
 | `POST /api/drills/start`, `/answer`, `/finish` | Prompts; one worked answer at a time; self-graded record |
 | `GET /api/attempts` | History and weak areas |
 | `POST /api/follow` | From "Follow this rule" on taxear.com (CORS): parks a pending follow and, for a subscriber, emails a confirmation link; applied at once only when signed in as that address |
-| `GET /api/follow/confirm` | The confirmation link: applies pending follows, signs in |
+| `GET/POST /api/follow/confirm` | The confirmation link: GET shows the one topic and a button; POST follows it and signs in |
 | `POST /api/checkout-redirect` | Form-encoded checkout for the scripts-off path; redirects to Stripe |
 | `GET/POST /api/follows` | The account's followed topics; follow or unfollow one |
-| `POST /api/notify` | Called by `.github/workflows/notify.yml` with `NOTIFY_SECRET`; emails followers once per material change |
+| `POST /api/notify` | Called by `.github/workflows/notify.yml` with `NOTIFY_SECRET`; emails followers once per material change; 502 while anyone is still owed, so the workflow fails and a re-run finishes the job |
 | `GET /api/unfollow-all` | One-click stop link from every alert email |
 | `POST /api/portal` | Stripe customer-portal session: cancel, change card, invoices |
 

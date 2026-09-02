@@ -80,6 +80,35 @@ test('the same Stripe reference never grants twice; a revocation zeroes what was
   assert.equal(e.revoked, false);
 });
 
+test('a refund ends only the purchase its charge paid for; an unmatched one still revokes everything', async () => {
+  const env = { ACCESS_KV: kv() };
+  const now = Date.UTC(2026, 8, 2);
+  await grant(env, 'a@b.co', 'p1', { at: now, ref: 'cs_p1', paymentIntent: 'pi_1' });
+  await grant(env, 'a@b.co', 'p2', { at: now, ref: 'cs_p2', paymentIntent: 'pi_2' });
+  await grant(env, 'a@b.co', 'practitioner_month', { at: now, ref: 'cs_sub', invoice: 'in_1' });
+  assert.deepEqual((await revoke(env, 'a@b.co', 'refund', { paymentIntent: 'pi_1' })).scope, 'p1');
+  let e = await entitlementsFor(env, 'a@b.co');
+  assert.deepEqual(e.parts, [2], 'refunding Part 1 leaves Part 2 alone'); assert.equal(e.practitioner, true); assert.equal(e.revoked, false);
+  await revoke(env, 'a@b.co', 'dispute', { invoice: 'in_1' });
+  e = await entitlementsFor(env, 'a@b.co');
+  assert.equal(e.practitioner, false); assert.deepEqual(e.parts, [2]); assert.equal(e.revoked, false);
+  assert.deepEqual((await revoke(env, 'a@b.co', 'refund', { paymentIntent: 'pi_unknown' })).scope, '*');
+  e = await entitlementsFor(env, 'a@b.co');
+  assert.deepEqual(e.parts, []); assert.equal(e.revoked, true, 'a charge that matches nothing on record revokes the account, as before');
+});
+
+test('a Stripe reference stays spent after it falls out of the fifty-entry history', async () => {
+  const env = { ACCESS_KV: kv() };
+  const now = Date.UTC(2026, 8, 2);
+  await grant(env, 'a@b.co', 'p3', { at: now, ref: 'cs_first' });
+  for (let i = 0; i < 60; i++) await grant(env, 'a@b.co', 'practitioner_month', { at: now + i * 1000, ref: `in_${i}`, until: now + 35 * 86400e3 });
+  const p = JSON.parse(await env.ACCESS_KV.get('purchase:a@b.co'));
+  assert.equal(p.history.length, 50); assert.ok(!p.history.some((h) => h.ref === 'cs_first'), 'the first reference is no longer in history');
+  const replay = await grant(env, 'a@b.co', 'p3', { at: now + 1e9, ref: 'cs_first' });
+  assert.equal(replay.applied, false, 'revisiting the old success URL grants nothing');
+  assert.equal(replay.purchase.skus.p3, now + 365 * 86400e3);
+});
+
 test('entitlementsOf reports expiries as dates and ignores expired skus', () => {
   const now = Date.UTC(2026, 8, 2);
   const e = entitlementsOf({ skus: { p1: now + 86400e3, p2: now - 1 } }, false, now);

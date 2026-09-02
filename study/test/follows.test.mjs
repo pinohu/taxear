@@ -57,17 +57,38 @@ test('follow: never enrols an address without proof; same answer for subscribers
   assert.equal(evil.headers.get('Access-Control-Allow-Origin'), null);
 });
 
-test('confirm link applies pending follows once and signs the browser in', async () => {
+test('confirm link: GET only shows the topic; POST follows that one topic, once, and signs the browser in', async () => {
   const env = { COOKIE_SECRET: SECRET, ACCESS_KV: kv() };
   await grant(env, 'p@q.io', 'practitioner_month');
   await addFollow(env, 'p@q.io', '3.3.1.c', { pending: true });
-  await env.ACCESS_KV.put('confirm:abc', 'p@q.io');
+  await addFollow(env, 'p@q.io', '3.2.6.a', { pending: true }); // parked by someone else during the link's life
+  await env.ACCESS_KV.put('confirm:abc', JSON.stringify({ email: 'p@q.io', code: '3.3.1.c' }));
   const token = await signToken({ email: 'p@q.io', jti: 'abc', purpose: 'confirm-follow', exp: Date.now() + 1e6 }, SECRET);
-  const res = await confirm.onRequestGet({ request: new Request(`https://s/api/follow/confirm?token=${encodeURIComponent(token)}`), env });
+  const scanner = await confirm.onRequestGet({ request: new Request(`https://s/api/follow/confirm?token=${encodeURIComponent(token)}`), env });
+  assert.equal(scanner.status, 200); assert.match(await scanner.text(), /Offer in compromise/);
+  assert.deepEqual(await followersOf(env, '3.3.1.c'), [], 'a GET, as a mail scanner would make, follows nothing');
+  const res = await confirm.onRequestPost({ request: new Request('https://s/api/follow/confirm', { method: 'POST', body: new URLSearchParams({ token }) }), env });
   assert.equal(res.status, 303); assert.match(res.headers.get('Location'), /followed=1/); assert.match(res.headers.get('Set-Cookie'), /ta_access=/);
   assert.deepEqual(await followersOf(env, '3.3.1.c'), ['p@q.io']);
-  const again = await confirm.onRequestGet({ request: new Request(`https://s/api/follow/confirm?token=${encodeURIComponent(token)}`), env });
-  assert.match(again.headers.get('Location'), /error=link/, 'one use');
+  assert.deepEqual(await followersOf(env, '3.2.6.a'), [], 'the link follows only the topic it was sent for');
+  assert.deepEqual(await listPending(env, 'p@q.io'), ['3.2.6.a'], 'the other request stays pending');
+  const again = await confirm.onRequestPost({ request: new Request('https://s/api/follow/confirm', { method: 'POST', body: new URLSearchParams({ token }) }), env });
+  assert.equal(again.status, 400, 'one use');
+});
+
+test('follow: the scripts-off form is parked server-side and redirected to the Practitioner page', async () => {
+  const env = { COOKIE_SECRET: SECRET, ACCESS_KV: kv() };
+  const form = (fields) => new Request('https://study.taxear.com/api/follow', { method: 'POST', headers: { 'Content-Type': 'application/x-www-form-urlencoded', Origin: 'https://taxear.com' }, body: new URLSearchParams(fields) });
+  const res = await follow.onRequestPost({ request: form({ email: 'Form@Q.io', code: '3.3.1.c' }), env });
+  assert.equal(res.status, 303);
+  assert.match(res.headers.get('Location'), /\/practitioner\/\?code=3\.3\.1\.c&email=form%40q\.io&parked=1/);
+  assert.deepEqual(await listPending(env, 'form@q.io'), ['3.3.1.c']);
+  const bad = await follow.onRequestPost({ request: form({ email: 'nope', code: '3.3.1.c' }), env });
+  assert.match(bad.headers.get('Location'), /practitioner\/\?error=/);
+  // Buying the subscription applies what was parked, whichever way it was parked.
+  await grant(env, 'form@q.io', 'practitioner_month');
+  await applyPending(env, 'form@q.io');
+  assert.deepEqual(await followersOf(env, '3.3.1.c'), ['form@q.io']);
 });
 
 test('followers are independent keys, so concurrent follows do not overwrite each other', async () => {
@@ -103,7 +124,7 @@ test('notify: authenticates, records delivery per recipient, retries only the ow
   assert.equal(r.status, 401);
   const auth = { Authorization: 'Bearer n0t1fy' };
   r = await asJson(await notify.onRequestPost({ request: post('/api/notify', { changes: [change] }, auth), env }));
-  assert.equal(r.status, 207, 'a failed send leaves the change incomplete');
+  assert.equal(r.status, 502, 'a failed send leaves the change incomplete and fails the calling workflow');
   const rep = r.body.report[0];
   assert.equal(rep.followers, 2); assert.equal(rep.notEntitled, 1); assert.equal(rep.failed, 1); assert.equal(rep.complete, false);
   assert.equal(await env.ACCESS_KV.get('alert:3.3.1.c:2026-10-15'), null, 'no topic marker while someone is still owed');
