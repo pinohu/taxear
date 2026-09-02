@@ -98,9 +98,51 @@ test('a refund ends only the purchase its charge paid for; an unmatched one stil
   await revoke(env, 'a@b.co', 'refund', { paymentIntent: 'pi_2b' });
   assert.equal(JSON.parse(await env.ACCESS_KV.get('purchase:a@b.co')).skus.p2, now + 365 * 86400e3, 'the non-refunded purchase stands');
   assert.deepEqual((await entitlementsFor(env, 'a@b.co')).parts, [2]);
+  // A subscription's checkout and first invoice both granted under one invoice; a
+  // refund of that invoice takes both out.
+  await grant(env, 'a@b.co', 'practitioner_month', { at: now + 2e6, ref: 'cs_sub2', invoice: 'in_2', event: 'webhook.checkout' });
+  await grant(env, 'a@b.co', 'practitioner_month', { at: now + 2e6, ref: 'in_2', invoice: 'in_2', event: 'webhook.invoice', until: now + 2e6 + 33 * 86400e3 });
+  assert.equal((await entitlementsFor(env, 'a@b.co')).practitioner, true);
+  await revoke(env, 'a@b.co', 'refund', { invoice: 'in_2' });
+  assert.equal((await entitlementsFor(env, 'a@b.co')).practitioner, false, 'the checkout grant behind the same invoice is out too');
   assert.deepEqual((await revoke(env, 'a@b.co', 'refund', { paymentIntent: 'pi_unknown' })).scope, '*');
   e = await entitlementsFor(env, 'a@b.co');
   assert.deepEqual(e.parts, []); assert.equal(e.revoked, true, 'a charge that matches nothing on record revokes the account, as before');
+});
+
+test('a refund replays from the refunded grant, so purchases older than the history window and legacy-shaped ones survive', async () => {
+  const env = { ACCESS_KV: kv() };
+  const now = Date.UTC(2026, 8, 2);
+  // An account whose first Part 3 purchase was written by the earlier schema and has
+  // long since left the fifty-entry window: only its expiry in skus remains.
+  await env.ACCESS_KV.put('purchase:a@b.co', JSON.stringify({ skus: { p3: now + 365 * 86400e3 }, history: [{ at: now, sku: 'p3', sessionId: 'cs_legacy', event: 'checkout' }] }));
+  for (let i = 0; i < 55; i++) await grant(env, 'a@b.co', 'practitioner_month', { at: now + i * 1000, ref: `in_${i}`, invoice: `in_${i}`, until: now + 35 * 86400e3 });
+  assert.ok(!JSON.parse(await env.ACCESS_KV.get('purchase:a@b.co')).history.some((h) => h.sessionId), 'the legacy entry is gone from history');
+  await grant(env, 'a@b.co', 'p3', { at: now + 86400e3, ref: 'cs_p3b', paymentIntent: 'pi_3b' });
+  assert.equal(JSON.parse(await env.ACCESS_KV.get('purchase:a@b.co')).skus.p3, now + 730 * 86400e3);
+  await revoke(env, 'a@b.co', 'refund', { paymentIntent: 'pi_3b' });
+  assert.equal(JSON.parse(await env.ACCESS_KV.get('purchase:a@b.co')).skus.p3, now + 365 * 86400e3, 'the year the forgotten purchase paid for stands');
+});
+
+test('a retried grant finishes lifting a revocation the purchase came after, and an old reference never lifts a later one', async () => {
+  const env = { ACCESS_KV: kv() };
+  const now = Date.UTC(2026, 8, 2);
+  await grant(env, 'a@b.co', 'p3', { at: now, ref: 'cs_old' });
+  await revoke(env, 'a@b.co', 'dispute');
+  // The new purchase's record is saved, then the process dies before revoked: is cleared.
+  const realDelete = env.ACCESS_KV.delete;
+  let die = true;
+  env.ACCESS_KV.delete = async (k) => { if (die && k.startsWith('revoked:')) { die = false; throw new Error('KV unavailable'); } return realDelete(k); };
+  await assert.rejects(grant(env, 'a@b.co', 'p1', { at: now + 1000, ref: 'cs_new' }));
+  assert.equal((await entitlementsFor(env, 'a@b.co')).revoked, true);
+  const retry = await grant(env, 'a@b.co', 'p1', { at: now + 1000, ref: 'cs_new' });
+  assert.equal(retry.applied, false);
+  assert.equal((await entitlementsFor(env, 'a@b.co')).revoked, false, 'the retry finishes the job');
+  assert.deepEqual((await entitlementsFor(env, 'a@b.co')).parts, [1]);
+  await revoke(env, 'a@b.co', 'dispute');
+  const stale = await grant(env, 'a@b.co', 'p3', { at: now, ref: 'cs_old' });
+  assert.equal(stale.applied, false);
+  assert.equal((await entitlementsFor(env, 'a@b.co')).revoked, true, 'replaying the pre-revocation reference does not lift the revocation');
 });
 
 test('a failed purchase write never leaves a Stripe reference marked spent', async () => {

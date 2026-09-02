@@ -4,6 +4,7 @@ import { addFollow, isKnownCode, topicOf } from '../_lib/follows.js';
 import { sessionEmail, signToken } from '../_lib/cookie.js';
 import { sendEmail, confirmFollowEmail } from '../_lib/email.js';
 
+const BURST_LIMIT = 5;
 const MESSAGE = 'If that address has a Practitioner subscription, a confirmation link is on its way; click it and the topic is followed. Otherwise, subscribe and every topic you have asked for is followed from the first alert.';
 
 // POST /api/follow { email, code } — from the "Follow this rule" control on taxear.com
@@ -42,9 +43,15 @@ export async function onRequestPost({ request, env }) {
 
   await addFollow(env, email, code, { pending: true });
   if (ent.practitioner) {
+    // One confirmation per topic per minute, and never more than a handful per address
+    // per hour: the endpoint is public, and nobody's inbox or the sending quota should be
+    // spendable by someone submitting every topic code for an address they do not own.
     const coolKey = `follow-cooldown:${email}:${code}`;
-    if (!(await env.ACCESS_KV.get(coolKey))) {
+    const burstKey = `follow-burst:${email}`;
+    const burst = Number((await env.ACCESS_KV.get(burstKey)) || 0);
+    if (!(await env.ACCESS_KV.get(coolKey)) && burst < BURST_LIMIT) {
       await env.ACCESS_KV.put(coolKey, '1', { expirationTtl: 60 });
+      await env.ACCESS_KV.put(burstKey, String(burst + 1), { expirationTtl: 3600 });
       const jti = randomId();
       await env.ACCESS_KV.put(`confirm:${jti}`, JSON.stringify({ email, code }), { expirationTtl: 24 * 3600 });
       const token = await signToken({ email, jti, purpose: 'confirm-follow', exp: Date.now() + 24 * 3600e3 }, env.COOKIE_SECRET);
