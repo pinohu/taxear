@@ -296,3 +296,15 @@ definition gives the income beneficiary almost nothing while the remainder benef
 everything. Reg. § 1.643(b)-1 accepts a unitrust in the stated range, and the power to adjust, as a
 reasonable apportionment of the trust's *total return* — the regulation's own words — because both
 mechanisms divide the whole economic yield rather than an artefact of how it happened to arise.*
+
+**6. Neither a trust's instrument nor applicable local law says how sale proceeds are to be treated. The trustee sells an investment. The proceeds are allocated to:**
+(A) Income, because they are receipts of the year (B) Principal (C) Distributable net income automatically (D) Income and principal in equal shares
+*Answer: B. Reg. § 1.643(b)-1: under the default allocation dividends, interest and rents are generally allocated to income, while proceeds from the sale or exchange of trust assets generally go to principal.*
+
+**7. A trust's income is defined by state statute as a 4 percent unitrust amount, which comes to $40,000 for the year. Distributable net income computed without capital gains is $28,000. The trustee has discretion to allocate gains to income. What is the most gain the trustee may allocate to income?**
+(A) $40,000 (B) $28,000 (C) $12,000 (D) Nothing, because gains are always principal
+*Answer: C. Reg. § 1.643(a)-3(b)(1): where income is a unitrust amount and the fiduciary has discretion to allocate gains to income, the amount so allocated is capped at the excess of the unitrust amount over distributable net income computed without it, here $40,000 less $28,000.*
+
+**8. Under its instrument a trust pays $50,000 of capital gain to a charity and takes an IRC § 642(c) deduction for it. May the trustee keep the gain out of distributable net income as an amount allocated to corpus?**
+(A) Yes, because gains allocated to corpus are always outside distributable net income (B) Yes, at the fiduciary's election (C) No, because gains for which a charitable deduction is allowed must be included in distributable net income (D) No, because charitable payments are never deductible by a trust
+*Answer: C. Reg. § 1.643(a)-3(c): capital gains paid, permanently set aside or to be used for IRC § 642(c) purposes, so that a charitable deduction is allowed for them, must be included in distributable net income. It is not a fiduciary election; it prevents a deduction for an amount that never entered the computation.*

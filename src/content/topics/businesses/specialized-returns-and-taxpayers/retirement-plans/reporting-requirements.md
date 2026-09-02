@@ -277,3 +277,15 @@ no Form 1099-R. Is that a failure?
 to a person during a year unless they aggregate $10 or more. At $8 there is nothing to report. Had
 a second $5 distribution gone to the same person in the same year, the aggregate would clear the
 floor and a form would be required for the total.
+
+**6. An S corporation is owned equally by two unrelated 2 percent shareholders. Its retirement plan covers the two shareholders and their spouses and no one else. Which annual return does the plan file?**
+(A) Form 5500 (B) Form 5500-SF, because four participants is fewer than 100 (C) Form 5500-EZ (D) None, because the plan has no common-law employees
+*Answer: C. IRC § 1372(b): a 2 percent shareholder of an S corporation is treated as a partner, so a plan covering only partners and their spouses is a one-participant plan and files Form 5500-EZ; Form 5500-SF may no longer be used in its place.*
+
+**7. A plan administrator files Form 8955-SSA 30 days late, omitting four participants who separated with deferred vested benefits. Leaving reasonable cause aside, what is the penalty?**
+(A) $250 a day, so $7,500 (B) $10 a day regardless of participants, so $300 (C) $10 per omitted participant per day, so $1,200 (D) $50 per omitted participant, so $200
+*Answer: C. IRC § 6652(d): failure to file a complete IRC § 6057(a) registration statement costs $10 for each participant omitted multiplied by the number of days the failure continues, capped at $50,000 for the plan year; the $250 daily rate belongs to the Form 5500 penalty under IRC § 6652(e).*
+
+**8. A sponsor discovers that its one-participant plan never filed the Form 5500-EZ returns due for three plan years. Which route to penalty relief is open to it?**
+(A) The Department of Labor's Delinquent Filer Voluntary Compliance Program (B) The Service's penalty relief programme under Rev. Proc. 2015-32, or reasonable cause (C) Filing Form 5558 retroactively for each year (D) Filing the late returns on Form 5500-SF through EFAST2 instead
+*Answer: B. Rev. Proc. 2015-32: the Service's own programme, or ordinary reasonable cause, is the route for a delinquent Form 5500-EZ. The Department of Labor programme is the answer for a delinquent Form 5500 or Form 5500-SF and is unavailable for a one-participant plan.*

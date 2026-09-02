@@ -288,3 +288,15 @@ class bears to distributable net income. So the beneficiary reports $32,000 of t
 their several characters preserved and $8,000 of exempt interest. Note the trust's distribution
 deduction is correspondingly reduced for the exempt portion, so the exemption is preserved once and
 not twice.*
+
+**6. A trust has distributable net income of $100,000 and no charitable deduction. Its instrument requires $60,000 of income to be paid to A. The trustee also distributes $50,000 each to B and C under a discretionary power. What does B report?**
+(A) $50,000 (B) $20,000 (C) $40,000 (D) Nothing, because the first tier absorbs distributable net income
+*Answer: B. IRC § 662(a)(2): where the two tiers together exceed distributable net income, each second-tier beneficiary includes a proportionate share of what remains after the first tier, so the $40,000 left after A's $60,000 is shared between B and C in the ratio of their other amounts, $20,000 each.*
+
+**7. A complex trust's instrument requires $70,000 of income to be paid to A and $35,000 to B. Distributable net income is $72,000 after an $18,000 charitable deduction. What does A report?**
+(A) $70,000 (B) $60,000 (C) $48,000 (D) $72,000
+*Answer: B. IRC § 662(a)(1): where the income required to be distributed to all beneficiaries exceeds distributable net income, each first-tier beneficiary includes a proportionate share of distributable net income computed without the charitable deduction, $90,000, so A takes 70/105 of $90,000. Using the $72,000 figure is the common error.*
+
+**8. Before a trust's classes of income are apportioned among beneficiaries, how are the deductions entering into distributable net income, including the IRC § 642(c) charitable deduction, treated?**
+(A) Deducted entirely from taxable interest (B) Allocated among the classes of income under the regulations, with a required allocation of indirect expenses to tax-exempt income first (C) Ignored, because beneficiaries report gross amounts (D) Allocated wholly to whichever class the trustee selects
+*Answer: B. IRC § 662(b): distributable net income is a net figure, and the deductions inside it are allocated among the classes of income under the regulations before the classes are shared out, indirect expenses proportionately, with a required allocation to tax-exempt income first and some fiduciary discretion over the rest.*

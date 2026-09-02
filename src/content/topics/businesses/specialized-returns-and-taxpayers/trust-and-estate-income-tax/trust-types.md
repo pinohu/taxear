@@ -301,3 +301,15 @@ expressly that any remaining portion is subject to subparts A through D. So the 
 reporting the non-grantor portion and provides the grantor with information about the portion they
 are treated as owning. Partial grantor status is common and is easy to miss because the instrument
 looks like an ordinary irrevocable trust.*
+
+**6. A trust's instrument requires all income to be distributed annually and has no charitable provision. In 2026 the trustee also distributes $80,000 of corpus; in 2027 it distributes income only. How is the trust classified?**
+(A) Complex for 2026 and every later year (B) Complex for 2026 and simple again for 2027 (C) Simple in both years, because corpus is not income (D) A grantor trust for 2026
+*Answer: B. IRC § 651(a): simple describes a year, not an instrument. The trust must both satisfy the terms test and not in fact distribute amounts other than income for the year, so distributing corpus fails the second limb for 2026 only.*
+
+**7. A settlor creates an irrevocable trust for her children with no power to revoke, no reversion and no right to income, but retains in a non-fiduciary capacity a power to reacquire trust assets by substituting property of equivalent value. Who reports the trust's income?**
+(A) The trust, because it is irrevocable (B) The settlor, as owner under the administrative-powers rule in IRC § 675 (C) The settlor, but only if a reversion exceeds 5 percent (D) The children, as beneficiaries
+*Answer: B. IRC § 675(4)(C) treats a power of administration exercisable in a non-fiduciary capacity, including a power to reacquire the corpus by substituting property of equivalent value, as making the grantor the owner, and IRC § 671 attributes the items to her. Irrevocability is irrelevant to that provision.*
+
+**8. A trust settled by a United States citizen has trustees who are all United States persons and who control every substantial decision, but it is administered in Bermuda and only a Bermuda court can supervise its administration. Domestic or foreign?**
+(A) Domestic, because United States persons control all substantial decisions (B) Foreign, because the court test fails and both tests must be met (C) Domestic, because the settlor is a United States person (D) Foreign only if a beneficiary is a non-resident alien
+*Answer: B. IRC § 7701(a)(30)(E) requires both that a court within the United States be able to exercise primary supervision over the administration and that United States persons control all substantial decisions. A trust administered abroad fails the court test, and IRC § 641(b) then treats it as a non-resident alien individual.*

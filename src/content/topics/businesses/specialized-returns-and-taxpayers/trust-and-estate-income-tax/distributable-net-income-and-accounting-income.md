@@ -284,3 +284,15 @@ account of Code-only deductions. Distributable net income starts from taxable in
 reduced by depreciation, depletion and administration expenses. A rental trust is the standard
 example: the trustee must distribute the full rents as accounting income while distributable net
 income is the rents less depreciation, so the beneficiary receives more cash than income.*
+
+**6. Which of the following is not one of the IRC § 643(a) modifications made to taxable income in computing distributable net income?**
+(A) The distribution deduction is added back (B) The exemption is added back (C) Capital gains allocated to corpus are excluded (D) Depreciation is added back
+*Answer: D. IRC § 643(a): the modifications are no distribution deduction, no exemption, capital gains allocated to corpus excluded, extraordinary dividends excluded for simple trusts, tax-exempt interest added net of allocable expenses, and the IRC § 1202 exclusion disregarded. Depreciation stays deducted, which is why a rental trust's distributable net income falls below its accounting income.*
+
+**7. A simple trust is required to distribute $50,000 of income to its beneficiary for the year. Its distributable net income is $38,000. What may the trust deduct, and what does the beneficiary include?**
+(A) $50,000 and $50,000 (B) $38,000 and $38,000 (C) $50,000 and $38,000 (D) $38,000 and $50,000
+*Answer: B. IRC § 651(b): where the income required to be distributed exceeds distributable net income the deduction is limited to distributable net income, and IRC § 652(a) limits the beneficiary's inclusion to the same figure. Distributing more than distributable net income never enlarges either side.*
+
+**8. A simple trust receives a one-off special dividend that the trustee, acting in good faith, allocates to corpus under the instrument and local law. For fiduciary accounting income purposes the dividend is:**
+(A) Income, because dividends are always income (B) Not income, so the trustee is not required to distribute it currently (C) Income to the extent of distributable net income (D) Income, but taxed to the trust
+*Answer: B. IRC § 643(b): items of gross income constituting extraordinary dividends or taxable stock dividends that the fiduciary in good faith determines to be allocable to corpus under the instrument and local law are not income for this purpose, and the IRC § 643(a) modifications exclude them from a simple trust's distributable net income as well.*
