@@ -326,3 +326,15 @@ giving nothing to anyone would achieve it at the cost of taxing the buyer on gai
 reverses the seller's disallowed loss. Attaching the shield to the property in the buyer's hands does
 both — and accepts, as the price, that the loss disappears entirely if the buyer never sells at a
 gain.*
+
+**6. Ostrander sells land with a basis of $500,000 to her wholly owned corporation for its $420,000 appraised value. The corporation later sells the land to an unrelated buyer for $470,000. What does the corporation recognise?**
+(A) $50,000 of gain (B) No gain, because the $50,000 is sheltered by Ostrander's disallowed loss (C) A $30,000 loss, measured against Ostrander's original basis (D) $50,000 of gain, with Ostrander now allowed her $80,000 loss
+*Answer: B. IRC § 267(d)(1): the transferee's gain is recognised only to the extent it exceeds the loss disallowed to the transferor under § 267(a)(1), so $50,000 is fully sheltered by the $80,000 disallowed loss, and the unused $30,000 is never deducted by anyone.*
+
+**7. Maddox owns a 60 percent profits interest in a partnership and sells it a building at a $35,000 loss for its appraised value. The loss is:**
+(A) Allowed, because IRC § 267 reaches only individuals and corporations (B) Disallowed under IRC § 707(b)(1), because he owns more than 50 percent of the profits interest (C) Allowed, because the sale was at appraised value (D) Deferred until his profits interest falls to 50 percent or less
+*Answer: B. IRC § 707(b)(1) disallows losses on sales between a partnership and a person owning more than 50 percent of its capital or profits interest, and like § 267 it has no arm's length exception, so the appraisal is irrelevant.*
+
+**8. Two related persons exchange like-kind real property. Twenty months after the last transfer one of them dies, and the executor sells the property received. Is the exchange unwound?**
+(A) Yes, because a disposition by either party within two years unwinds it (B) No, because dispositions after the death of either the taxpayer or the related person are excepted (C) Yes, unless the estate reacquires like-kind property (D) No, because only a disposition by the original taxpayer counts
+*Answer: B. IRC § 1031(f)(2): a disposition after the death of the taxpayer or of the related person is one of the three exceptions to the two-year rule in § 1031(f)(1), alongside compulsory conversions and dispositions with no tax-avoidance purpose.*

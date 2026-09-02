@@ -318,3 +318,15 @@ does it have?
 *Answer: One. The cap in {fig:conv.depreciation_basis} applies only where fair market value at
 conversion is **less** than adjusted basis, so where value is higher the depreciation basis, the
 gain basis and the loss basis are all the adjusted basis.*
+
+**6. A taxpayer converts a residence with an adjusted basis of $200,000 to a rental when it is worth $150,000, takes $30,000 of depreciation, and sells it for $195,000. What does she report?**
+(A) A $25,000 gain (B) A $75,000 gain, measured against the loss basis (C) Nothing, because the price is below her original cost (D) A $5,000 loss
+*Answer: A. Reg. § 1.165-9(b)(2) caps only the basis for determining loss; no provision caps the gain basis, which is the original $200,000 less $30,000 of depreciation, or $170,000, so a sale at $195,000 produces a $25,000 gain.*
+
+**7. A business expensed a truck in full under IRC § 179, converted it to the owner's personal use two years ago, and now sells it for $12,000. What is reported on the sale?**
+(A) Nothing, because the truck was personal-use property when sold (B) $12,000 of ordinary income, because recapture applies to a later disposition of converted property (C) $12,000 of long-term capital gain (D) Nothing, because the recapture was recognised at the conversion
+*Answer: B. Reg. § 1.168(i)-4(c) recognises no gain, loss or recapture on the conversion itself but provides that IRC § 1245 and § 1250 apply to any later disposition of the converted property, so IRC § 1245(a)(1) makes the whole $12,000 ordinary against a nil basis.*
+
+**8. A car cost $40,000 and was converted to business use when worth $30,000. After $8,000 of depreciation it is destroyed with no insurance recovery. What is the maximum basis for the casualty loss?**
+(A) $32,000 (B) $22,000 (C) $40,000 (D) $30,000
+*Answer: B. Reg. § 1.165-7(a)(5): the casualty basis on converted property is the lesser of adjusted basis and fair market value at conversion, adjusted for depreciation since — $30,000 less $8,000 — so the value the car lost before the conversion never enters the deduction.*
