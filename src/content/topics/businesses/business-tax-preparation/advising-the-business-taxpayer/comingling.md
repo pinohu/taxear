@@ -314,3 +314,15 @@ miscellaneous itemized deductions subject to the two percent floor, and those ar
 income; now the § 183(b)(2) category yields nothing, so the gross income is fully taxable and only
 the deductions allowable without regard to profit motive under § 183(b)(1) survive. Pub. L. 119-21
 § 70110(a) made the suspension permanent and § 70110(b)(2) moved it to IRC § 67(h).*
+
+**6. Pellow Consulting, a C corporation with substantial earnings and profits, pays for its sole shareholder's $30,000 family holiday and deducts it as travel. What are the consequences?**
+(A) The deduction is denied and nothing further follows (B) The deduction is denied and the $30,000 is a constructive dividend taxed to the shareholder (C) The deduction is allowed because the payment was ordinary and necessary to keep the shareholder working (D) The deduction is denied and the $30,000 reduces the shareholder's stock basis
+*Answer: B. IRC § 262(a) denies the deduction for a personal, living or family expense whatever account paid it, and the payment is then a constructive distribution taxable under IRC § 301(c) to the extent of earnings and profits — the second consequence a careless answer leaves out.*
+
+**7. An activity consisting in major part of breeding and showing horses reported net income in years 2 and 5 of the seven consecutive years ending with the current year, and losses in the other five. Does the IRC § 183(d) presumption apply for the current year?**
+(A) Yes; the horse variant requires only 2 profitable years of 7 (B) No; the presumption requires 3 profitable years of 5 (C) No; the presumption requires 3 profitable years of 7 (D) Yes, and the Secretary may no longer establish the contrary
+*Answer: A. IRC § 183(d) requires gross income to exceed the attributable deductions in 2 or more of 7 consecutive years for an activity consisting in major part of breeding, training, showing or racing horses — but it only shifts the burden, and the Secretary may still establish that the activity is not engaged in for profit.*
+
+**8. On examination, five of the nine factors in Reg. § 1.183-2(b) point toward a profit motive and four point against it. What follows?**
+(A) The activity is engaged in for profit, because a majority of the factors favour the taxpayer (B) The activity is engaged in for profit only if at least six factors favour the taxpayer (C) The activity is not engaged in for profit, because the businesslike-manner factor is decisive (D) Nothing on its own; the determination is not made by counting factors on each side
+*Answer: D. Reg. § 1.183-2(b) says in terms that no single factor is determinative, that the list is not exhaustive, and that the determination is not made by comparing how many factors fall each way.*

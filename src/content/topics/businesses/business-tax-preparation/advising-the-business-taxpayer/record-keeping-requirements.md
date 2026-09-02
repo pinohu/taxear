@@ -318,3 +318,15 @@ number of days. Reg. § 1.274-5T(c)(2)(ii)(A) defines it that way, and adds that
 statement transcribed from a contemporaneous log counts as contemporaneous if submitted to the
 employer or client in the regular course of good business practice. So a weekly write-up from daily
 notes is fine; an annual reconstruction from other sources is not.*
+
+**6. Kestle Surveys operates a plan that meets all three accountable plan requirements. An employee receives a $4,000 advance, substantiates $3,100 of expenses within the deadline, and keeps the remaining $900 without returning it. How much is treated as wages?**
+(A) The whole $4,000, because the excess was not returned (B) $900 only (C) Nothing, because the arrangement itself qualifies (D) $3,100, the amount substantiated
+*Answer: B. Reg. § 1.62-2(c)(2)(ii): where the arrangement meets the requirements but the employee fails to return an excess within a reasonable period, only the amounts not exceeding the substantiated expenses are treated as paid under an accountable plan, so the $900 alone becomes wages.*
+
+**7. Instead of fixed deadlines, an employer gives each employee a statement every quarter showing amounts paid in excess of substantiated expenses, and requires substantiation or return within 120 days of the statement. Is the return-of-excess requirement within a safe harbour?**
+(A) No; the only safe harbour is return within 120 days after the expense is paid or incurred (B) No; the statements would have to be issued monthly (C) Yes; the periodic statement method deems action within 120 days of a quarterly statement timely (D) No; the safe harbours apply only to advances, not to returns of excess
+*Answer: C. Reg. § 1.62-2(g)(2)(ii): where the payor gives employees a statement no less often than quarterly showing amounts in excess of substantiated expenses and asks for substantiation or return within 120 days of the statement, action within that period is timely.*
+
+**8. A consultant kept no contemporaneous record of her business travel and offers credit card statements alone to establish the business purpose of each trip. Is that sufficient under the fallback route?**
+(A) Yes, because the statements establish the amount and the date of each charge (B) Yes, provided the charges are to airlines and hotels (C) No, because the fallback route is unavailable for travel expenses (D) No; the fallback needs her own detailed statement and corroborative evidence, and a card statement proves only amount and date
+*Answer: D. Reg. § 1.274-5T(c)(3)(i) is conjunctive — a detailed statement and other corroborative evidence — and a credit card statement establishes an amount and a date while saying nothing about business purpose, the element most often in dispute.*

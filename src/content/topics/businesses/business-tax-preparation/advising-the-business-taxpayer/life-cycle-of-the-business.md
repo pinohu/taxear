@@ -329,3 +329,15 @@ IRC § 336(a) on liquidation as though it had sold at fair market value, plus sh
 IRC § 331(a) — and converting to S status does not escape it, because IRC § 1374 taxes the built-in
 gain through the recognition period. The only cheap moment to decide whether appreciating property
 belongs inside a corporation is before it is put there.*
+
+**6. Brackley Holdings, a C corporation, distributes a building worth $1,500,000 with an adjusted basis of $400,000 to its sole shareholder in complete liquidation. The shareholder's stock basis is $300,000. What is recognised?**
+(A) $1,200,000 of gain by the shareholder only (B) $1,100,000 of gain by the corporation only (C) No gain at either level, because a liquidation is a nonrecognition event (D) $1,100,000 of gain by the corporation and $1,200,000 of gain by the shareholder
+*Answer: D. IRC § 336(a) recognises gain to the corporation as if the building had been sold to the shareholder at fair market value, and IRC § 331(a) treats the shareholder as receiving full payment in exchange for the stock, so both layers apply and neither is elective.*
+
+**7. A calendar-year S corporation files a revocation on 1 March with the consent of shareholders holding 60 percent of its shares, and specifies no prospective date. When does the revocation take effect?**
+(A) 1 January of the current year (B) 1 January of the following year (C) 1 March of the current year (D) It is invalid, because every shareholder must consent
+*Answer: A. IRC § 1362(d)(1): a revocation needs the consent of shareholders holding more than one half of the shares, and one made on or before the 15th day of the third month takes effect from the first day of that year unless a prospective date is specified.*
+
+**8. A partner with an outside basis of $120,000 retires and receives $150,000 in cash from the partnership, which continues its business with the remaining partners. What does the partner recognise?**
+(A) $150,000 of gain, the full amount received (B) $30,000 of gain, to the extent the money exceeds outside basis (C) Nothing, because a partnership distribution is never a recognition event (D) $30,000 of gain, recognised by the partnership rather than the partner
+*Answer: B. IRC § 731(a): a departing partner has gain only to the extent money distributed exceeds outside basis, in contrast to a corporate liquidation, where IRC § 336(a) and IRC § 331(a) tax both the entity and the owner.*

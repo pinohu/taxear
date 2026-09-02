@@ -315,3 +315,15 @@ until the statute closes on each year. Reg. § 1.446-1(e)(2)(i) requires consent
 old method was proper, so self-correction is itself an unauthorised change and carries no
 protection. The published procedures set the conditions and the spread in advance and, in most
 cases, close the earlier years — which is the part of the deal worth most.*
+
+**6. Kelsall Print has for five years deducted the owner's personal club dues as a business expense. A new preparer wants to correct the treatment. What is the correct instrument?**
+(A) Amended returns for the open years, because a non-timing item is not a method however consistently treated (B) Form 3115, because five years of consistency has made the treatment a method (C) Form 3115 under the automatic procedures, with a section 481(a) adjustment for the cumulative dues (D) Nothing, because consistent treatment has fixed the character of the item
+*Answer: A. Reg. § 1.446-1(e)(2)(ii)(b) excludes from the definition of a change in method an item that does not involve the proper time for inclusion or deduction, giving the example of items deducted as business expenses that are in fact personal; the dues are barred by IRC § 262(a) and never a timing question.*
+
+**7. Pennock Supply, a C corporation, meets the IRC § 448(c) gross receipts test for 2026 on its average annual gross receipts for the three taxable years ending with the preceding year. Which provisions does passing the test lift?**
+(A) The cash method bar only (B) The cash method bar and the inventory requirement, but uniform capitalisation still applies (C) The cash method bar, the inventory requirement and the uniform capitalisation rules, all at once (D) The uniform capitalisation rules only
+*Answer: C. IRC § 448(c) relieves the IRC § 448(a) cash method bar, and the same test lifts IRC § 471(a) and IRC § 263A — a single computation opens three doors, which is why it is the efficient first step.*
+
+**8. Dunmore Freight keeps its books under generally accepted accounting principles, but shifts the treatment of certain gross income items from one year to the next while staying within those principles each year. Does the safe harbour in Reg. § 1.446-1(a)(2) apply?**
+(A) Yes; conformity to generally accepted accounting principles is sufficient on its own (B) No; the safe harbour requires that all items of gross income and expense be treated consistently from year to year (C) Yes, provided a Form 3115 is filed for each year in which the treatment shifts (D) No; a method based on generally accepted accounting principles never clearly reflects income
+*Answer: B. Reg. § 1.446-1(a)(2) treats consistent application of generally accepted accounting principles as ordinarily clearly reflecting income only provided all items of gross income and expense are treated consistently from year to year — book conformity without consistency is not the safe harbour.*

@@ -323,3 +323,15 @@ worth then; and the § 707(a)(2) rules ask how linked steps are properly charact
 on the business reason for each. A compensation study, a market rent letter or a board minute
 written at the time is evidence of the very thing in issue. The same document reconstructed later is
 argument.*
+
+**6. Lyndhurst Castings, a C corporation with substantial earnings and profits, pays its sole shareholder-officer $600,000 in a year when comparable executives earn $200,000 to $260,000. The officer genuinely runs the business full time. How is the excess treated?**
+(A) It is deductible in full, because the services were actually rendered (B) It is not deductible, but there is no consequence to the shareholder (C) It is not deductible and is a constructive dividend to the shareholder to the extent of earnings and profits (D) It is recharacterised as wages and subjected to employment tax
+*Answer: C. IRC § 162(a)(1) allows only a reasonable allowance for compensation for services actually rendered, and the disallowed portion becomes a constructive dividend taxed under IRC § 301(c) — the double taxation the payment was designed to avoid.*
+
+**7. An owner materially participates in her operating company and rents it a warehouse she owns. A roof replacement this year turns the rental into an $18,000 loss. How is the loss characterised?**
+(A) Non-passive, because the property is rented to a business in which she materially participates (B) Passive, because the self-rental rule recharacterises income only (C) Non-passive, and deductible against her salary from the company (D) Disallowed entirely, because the parties are related
+*Answer: B. Reg. § 1.469-2(f)(6) treats gross rental income from property rented for use in a trade or business in which the taxpayer materially participates as non-passive up to the net rental income from the property; a loss year stays passive, which is the asymmetry that gives the taxpayer the worst of both regimes.*
+
+**8. A partner performs services for the partnership, and the partnership then makes an allocation of income and a distribution to that partner that are linked to those services. How are the steps analysed?**
+(A) Under the disguised payment rule, as a transaction between the partnership and a non-partner where the steps viewed together are properly so characterised (B) Under the disguised sale rule, as a sale of property to the partnership (C) As an ordinary distributive share and distribution, because that is what the documents call them (D) As a contribution to capital followed by a nonrecognition distribution
+*Answer: A. IRC § 707(a)(2)(A): a performance of services by a partner, coupled with a related allocation and distribution to that partner, is recharacterised where the two viewed together are properly a transaction between the partnership and a non-partner — the disguised sale rule in IRC § 707(a)(2)(B) is the counterpart for a transfer of property followed by a transfer back.*
