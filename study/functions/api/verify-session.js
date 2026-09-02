@@ -2,6 +2,7 @@ import { retrieveCheckoutSession } from '../_lib/stripe.js';
 import { sessionToken, setCookieHeader } from '../_lib/cookie.js';
 import { SKUS, grant, entitlementsFor } from '../_lib/entitlements.js';
 import { json, error, readJson, normalizeEmail } from '../_lib/json.js';
+import { applyPending } from '../_lib/follows.js';
 
 // POST /api/verify-session { sessionId } — the browser lands on /success/ with the
 // session id; this re-reads the session from Stripe (never trusts the client), records
@@ -25,6 +26,7 @@ export async function onRequestPost({ request, env }) {
   if (!SKUS[sku]) return error('This payment is not for a known product.', 502);
 
   await grant(env, email, sku, { sessionId, stripeCustomer: session.customer || undefined, event: 'checkout' });
+  if (SKUS[sku].mode === 'subscription') await applyPending(env, email);
   const token = await sessionToken(email, env.COOKIE_SECRET);
   return json({ ok: true, email, entitlements: await entitlementsFor(env, email) }, 200, { 'Set-Cookie': setCookieHeader(token) });
 }

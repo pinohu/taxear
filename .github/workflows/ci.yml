@@ -41,7 +41,7 @@ jobs:
       - name: Study bank matches the pages
         run: |
           node study/scripts/import_questions.mjs
-          if ! git diff --quiet -- study/src/data/questions study/functions/_lib/bank.data.js; then
+          if ! git diff --quiet -- study/src/data/questions study/functions/_lib/bank.data.js study/functions/_lib/outline.data.js; then
             echo "::error::study bank is stale — run 'npm --prefix study run import' and commit the result"
             git --no-pager diff --stat -- study/src/data/questions study/functions/_lib/bank.data.js
             exit 1
