@@ -37,6 +37,9 @@ const topics = defineCollection({
     // client-side, live, against the Federal Register's public API, scoped to the
     // Internal Revenue Service. Optional — most topics won't need one.
     newsQuery: z.string().optional(),
+    // Companion teaching deck (docs/slide-decks/): a site path to the deck's own page,
+    // served from public/decks/. The page is the source of truth; the deck follows it.
+    deck: z.string().optional(),
   }),
 });
 

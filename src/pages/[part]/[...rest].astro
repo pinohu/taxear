@@ -24,8 +24,12 @@ const related = d.related.filter(c => live.has(c)).map(topicByCode).filter(Boole
 const abs = (p) => new URL(p, Astro.site).href;
 const questions = checkYourself(entry.body ?? '');
 
+// First changelog date is the day the page first went live; lastReviewed is the last
+// day its authorities were opened. Both are what the schema means by the two dates.
+const datePublished = [...d.changelog.map(c => c.date)].sort()[0] ?? d.lastReviewed;
 const article = { '@type': 'Article', headline: d.title, description: d.description,
-  dateModified: d.lastReviewed, author: { '@id': personId }, publisher: { '@id': orgId },
+  datePublished, dateModified: d.lastReviewed, image: abs('/og.png'),
+  author: { '@id': personId }, publisher: { '@id': orgId },
   isPartOf: { '@type': 'WebSite', name: 'TaxEar', url: 'https://taxear.com/' },
   about: `IRS SEE outline ${d.code}`,
   citation: d.authorities.map(a => [a.type === 'Reg' ? 'Treas. Reg. §' : a.type === 'Circ230' ? 'Circular 230' : a.type, a.ref, a.title].filter(Boolean).join(' ')) };
@@ -54,6 +58,7 @@ const jsonld = { '@context': 'https://schema.org', '@graph': [article, breadcrum
       <Stamp data={d} band={true} />
       {!published && <div class="callout trap"><p class="callout-label">Not yet verified</p><p>This page is {d.status === 'stub' ? 'a placeholder' : `in ${d.status}`} and is not indexed. It has not completed the source, currency, and editorial checks in the <a href="/about/">editorial policy</a>.</p></div>}
       {d.diagram && <DiagramMount diagram={d.diagram} />}
+      {published && d.deck && <p class="companion"><span class="eyebrow">Companion</span> <a href={d.deck}>Teaching deck for this topic</a> — the same rule as slides, for a classroom or a screen.</p>}
       <Content />
       {d.changelog.length > 0 && <section><h2>Change log</h2><ul class="changelog">{d.changelog.map(c => <li><time>{c.date}</time>{c.summary}</li>)}</ul></section>}
       {related.length > 0 && <section><h2>Related topics</h2><ul>{related.map(r => <li><a href={r.path}>{r.title}</a> <span class="eyebrow">{r.code}</span></li>)}</ul></section>}

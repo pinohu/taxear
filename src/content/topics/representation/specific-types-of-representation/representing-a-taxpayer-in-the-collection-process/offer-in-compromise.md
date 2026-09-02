@@ -21,6 +21,7 @@ changelog:
   - { date: "2026-08-24", summary: "Added a plain-language summary, a threshold diagram of the payment and deadline figures, glossary marks, and typed scenarios." }
   - { date: "2026-08-26", summary: "Added animated diagram motion, a live Federal Register related-developments widget, a Strategy notes section, and an interaction scenario." }
 newsQuery: "offer in compromise"
+deck: "/decks/offer-in-compromise/"
 diagram:
   archetype: "threshold"
   caption: "What comes with a lump-sum offer, and how long the IRS has to answer"

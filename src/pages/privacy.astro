@@ -1,0 +1,55 @@
+---
+import Base from '../layouts/Base.astro';
+// Plain-language privacy policy for taxear.com and study.taxear.com. Every statement
+// here describes something the code actually does; when a feature changes, change the
+// matching paragraph in the same commit. Dated at the bottom.
+const updated = '2026-09-02';
+---
+<Base title="Privacy policy" description="What TaxEar and TaxEar Study collect, why, where it goes, and how to have it deleted. No advertising, no tracking cookies, no sale of data." ogType="website">
+  <p class="crumbs"><a href="/">TaxEar</a><span>›</span>Privacy</p>
+  <div class="page"><article>
+  <h1>Privacy policy</h1>
+  <p>This policy covers <strong>taxear.com</strong>, the free reference site, and <strong>study.taxear.com</strong>, the paid practice product. Both are operated by Neat Circle LLC ("we"). Questions go to <a href="mailto:editor@taxear.com">editor@taxear.com</a>.</p>
+  <p>The short version: the reference site has no accounts and sets no tracking cookies. The practice product keeps the minimum needed to know who paid and to let them back in. Nothing is sold, shared for advertising, or used to build a profile of you.</p>
+
+  <h2>Reading taxear.com</h2>
+  <ul>
+    <li><strong>Server logs.</strong> The site is served by Cloudflare, which records the usual request data (IP address, browser, page requested, time) for security and to keep the service running. Cloudflare's own <a href="https://www.cloudflare.com/privacypolicy/" rel="noopener">privacy policy</a> governs that processing.</li>
+    <li><strong>Analytics.</strong> When enabled, we use Cloudflare Web Analytics. It sets no cookies, stores no identifier on your device, and does not follow you across sites. It tells us which pages are read and roughly from where.</li>
+    <li><strong>Your theme choice.</strong> If you pick a light, dark, or high-contrast theme, that one word is kept in your browser's local storage so the choice sticks. It never leaves your browser.</li>
+    <li><strong>Search.</strong> Search runs inside your browser against a static index. What you type is not sent anywhere.</li>
+    <li><strong>Related developments.</strong> Some topic pages show the newest Federal Register filings on that topic. To do that, your browser asks the Federal Register's public API directly, so that service sees your IP address and browser, as it would if you visited federalregister.gov yourself. We receive nothing from that request. The Federal Register is run by the U.S. National Archives, under its own <a href="https://www.federalregister.gov/privacy" rel="noopener">privacy notice</a>.</li>
+    <li><strong>The digest list.</strong> If you subscribe to the "what changed" email, your address goes to the email provider named on the form, which sends a confirmation before adding you. Every message has an unsubscribe link. We use the list for that digest and for nothing else.</li>
+  </ul>
+
+  <h2>Buying and using TaxEar Study</h2>
+  <ul>
+    <li><strong>Payment.</strong> Payments are taken by Stripe on Stripe's own pages. We never see or store card numbers. Stripe sends us your email address, the product bought, and the payment status, and processes your data under <a href="https://stripe.com/privacy" rel="noopener">Stripe's privacy policy</a>. Stripe may collect a billing address to work out sales tax.</li>
+    <li><strong>Your purchase record.</strong> We keep your email address, what you bought, when, the Stripe reference, and whether access is current. It is stored in Cloudflare's key-value storage and is what lets us restore your access and honour refunds.</li>
+    <li><strong>The access cookie.</strong> After a purchase or sign-in, a signed cookie named <code>ta_access</code> is set on study.taxear.com. It contains your email address and an expiry, signed so it cannot be forged, and is strictly necessary to deliver what you paid for. It is not used for tracking and is not readable by other sites.</li>
+    <li><strong>Sign-in links.</strong> To sign in on another device, you ask for a link by email. We send it through a transactional email provider, which sees your address and the message. The link works once and expires in fifteen minutes.</li>
+    <li><strong>Practice history.</strong> Your exam attempts (which questions, your answers, scores, dates) are stored against your account so you can see weak areas. They are yours; ask and we delete them.</li>
+    <li><strong>Followed topics and alerts.</strong> If you subscribe to change alerts, we store the topic codes you follow and email you when a followed page records a material change. Each email has an unsubscribe link; you can also edit the list on your account page.</li>
+  </ul>
+
+  <h2>What we do not do</h2>
+  <ul>
+    <li>No advertising, no ad networks, no retargeting pixels, no social-media trackers.</li>
+    <li>No selling, renting, or trading of personal data.</li>
+    <li>No profiling. Analytics is aggregate; your practice history is used only to show you your own results.</li>
+  </ul>
+
+  <h2>How long we keep things</h2>
+  <p>Purchase records are kept while your access is current and for as long as tax and accounting law requires afterwards, normally seven years. Practice history and followed topics are kept until you delete them or close your account. Server logs are kept by Cloudflare for its standard retention period. The digest list is kept until you unsubscribe.</p>
+
+  <h2>Your rights</h2>
+  <p>You can ask for a copy of what we hold about you, ask us to correct it, or ask us to delete it, by emailing <a href="mailto:editor@taxear.com">editor@taxear.com</a> from the address on the account. We answer within thirty days. Deleting a purchase record ends access to what it unlocked. If you are in a jurisdiction with statutory privacy rights (the EU, the UK, California, and others), those rights apply and the same address is how to exercise them.</p>
+
+  <h2>Children</h2>
+  <p>Neither site is directed at children under sixteen, and we do not knowingly collect their data.</p>
+
+  <h2>Changes</h2>
+  <p>When this policy changes, the date below changes with it and the change is noted on <a href="/changes/">the changes page</a>. Material changes to how the practice product handles your data are also announced by email to account holders.</p>
+  <p class="eyebrow">Last updated {updated}</p>
+  </article></div>
+</Base>

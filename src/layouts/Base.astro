@@ -1,8 +1,11 @@
 ---
 import '../styles/global.css';
 import Digest from '../components/Digest.astro';
-interface Props { title: string; description: string; noindex?: boolean; canonical?: string; jsonld?: object }
-const { title, description, noindex = false, jsonld } = Astro.props;
+interface Props { title: string; description: string; noindex?: boolean; canonical?: string; jsonld?: object; ogType?: 'article' | 'website' }
+const { title, description, noindex = false, jsonld, ogType = 'article' } = Astro.props;
+// One site-wide share image (public/og.png, 1200×630): the wordmark on onionskin. Every
+// page carries it so a shared link renders with an image instead of bare text.
+const ogImage = new URL('/og.png', Astro.site).href;
 // Privacy-respecting analytics, injected only when a token is configured at build time.
 // Cloudflare Web Analytics sets no cookies and records no cross-site identifiers.
 const cfBeacon = import.meta.env.PUBLIC_CF_BEACON_TOKEN;
@@ -58,7 +61,10 @@ const identityJsonld = {
   <link rel="canonical" href={canonical} />
   {noindex && <meta name="robots" content="noindex,follow" />}
   <meta property="og:title" content={title} /><meta property="og:description" content={description} />
-  <meta property="og:type" content="article" /><meta property="og:url" content={canonical} /><meta property="og:site_name" content="TaxEar" />
+  <meta property="og:type" content={ogType} /><meta property="og:url" content={canonical} /><meta property="og:site_name" content="TaxEar" />
+  <meta property="og:image" content={ogImage} /><meta property="og:image:width" content="1200" /><meta property="og:image:height" content="630" />
+  <meta property="og:image:alt" content="TaxEar — federal tax law and IRS procedure, cited and verified" />
+  <meta name="twitter:card" content="summary_large_image" /><meta name="twitter:title" content={title} /><meta name="twitter:description" content={description} /><meta name="twitter:image" content={ogImage} />
   {/* Fonts are self-hosted from public/fonts; the @font-face rules live in global.css.
       Source Serif 4 sets both text and headings, so its latin face is the one that blocks first paint. */}
   <link rel="preload" href="/fonts/source-serif-4-latin.woff2" as="font" type="font/woff2" crossorigin />
@@ -113,7 +119,7 @@ const identityJsonld = {
   <div class="wrap"><Digest /></div>
   <footer class="site-foot"><div class="wrap">
     <p><strong>TaxEar</strong> is a reference on federal tax law and IRS procedure, organized by the IRS Special Enrollment Examination content outline. Every page cites primary authority and shows its verification date. Educational only; not legal or tax advice for your situation.</p>
-    <p><a href="/about/">About &amp; editorial policy</a> · <a href="/ea-exam/">EA exam guide</a> · <a href="/changes/">What changed this year</a> · © {new Date().getFullYear()} TaxEar / Neat Circle LLC</p>
+    <p><a href="/about/">About &amp; editorial policy</a> · <a href="/ea-exam/">EA exam guide</a> · <a href="/changes/">What changed this year</a> · <a href="/privacy/">Privacy</a> · <a href="/terms/">Terms</a> · <a href="/refunds/">Refunds</a> · © {new Date().getFullYear()} TaxEar / Neat Circle LLC</p>
   </div></footer>
   {cfBeacon && <script defer src="https://static.cloudflareinsights.com/beacon.min.js"
     data-cf-beacon={JSON.stringify({ token: cfBeacon })}></script>}
