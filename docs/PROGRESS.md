@@ -11,8 +11,8 @@ is indexed, and only the owner moves a page there (see `docs/VERIFICATION.md`).
 |---|---:|---:|---:|---:|---:|---:|
 | 1. Individuals | 120 | 0 | 0 | 0 | 120 | 294,684 |
 | 2. Businesses | 119 | 0 | 0 | 0 | 119 | 303,536 |
-| 3. Representation, Practices and Procedures | 121 | 0 | 0 | 0 | 121 | 277,178 |
-| **All parts** | **360** | **0** | **0** | **0** | **360** | **875,398** |
+| 3. Representation, Practices and Procedures | 121 | 0 | 0 | 0 | 121 | 277,550 |
+| **All parts** | **360** | **0** | **0** | **0** | **360** | **875,770** |
 
 ## Part 1 — Individuals
 
@@ -547,7 +547,7 @@ is indexed, and only the owner moves a page there (see `docs/VERIFICATION.md`).
 |---|---|---|---:|---|
 | 3.3.1.a | [Extension of time to pay (e.g., Form 1127)](/representation/specific-types-of-representation/representing-a-taxpayer-in-the-collection-process/extension-of-time-to-pay/) | **published** | 1,998 | 2026-08-18 |
 | 3.3.1.b | [Installment agreements](/representation/specific-types-of-representation/representing-a-taxpayer-in-the-collection-process/installment-agreements/) | **published** | 1,818 | 2026-08-18 |
-| 3.3.1.c | [Offer in compromise](/representation/specific-types-of-representation/representing-a-taxpayer-in-the-collection-process/offer-in-compromise/) | **published** | 1,772 | 2026-08-18 |
+| 3.3.1.c | [Offer in compromise](/representation/specific-types-of-representation/representing-a-taxpayer-in-the-collection-process/offer-in-compromise/) | **published** | 2,144 | 2026-08-18 |
 | 3.3.1.d | [Collection appeals program (e.g., denial of installment agreements, discharge applications)](/representation/specific-types-of-representation/representing-a-taxpayer-in-the-collection-process/collection-appeals-program/) | **published** | 1,966 | 2026-08-18 |
 | 3.3.1.e | [Collection appeals and due process (e.g., lien, levy, and Form 12153)](/representation/specific-types-of-representation/representing-a-taxpayer-in-the-collection-process/collection-appeals-and-due-process/) | **published** | 1,873 | 2026-08-18 |
 | 3.3.1.f | [Adjustments to the taxpayer’s account (e.g., abatements and refund offsets)](/representation/specific-types-of-representation/representing-a-taxpayer-in-the-collection-process/adjustments-to-the-taxpayer-s-account/) | **published** | 2,322 | 2026-08-18 |

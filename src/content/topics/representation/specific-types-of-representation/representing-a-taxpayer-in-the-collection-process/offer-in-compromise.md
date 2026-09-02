@@ -19,6 +19,8 @@ related: ["3.3.1.b", "3.3.1.d", "3.2.6.a", "3.2.1.a", "3.2.3.e"]
 changelog:
   - { date: "2026-08-18", summary: "Initial publication from IRC § 7122, Reg. § 301.7122-1, and the current IRS offer in compromise guidance." }
   - { date: "2026-08-24", summary: "Added a plain-language summary, a threshold diagram of the payment and deadline figures, glossary marks, and typed scenarios." }
+  - { date: "2026-08-26", summary: "Added animated diagram motion, a live Federal Register related-developments widget, a Strategy notes section, and an interaction scenario." }
+newsQuery: "offer in compromise"
 diagram:
   archetype: "threshold"
   caption: "What comes with a lump-sum offer, and how long the IRS has to answer"
@@ -104,6 +106,12 @@ The collection period does not stand still. Levy is barred while an offer is pen
 <p><em>Analysis.</em> A non-processable offer is returned, not rejected — the fee and any offer payment come back with it, and there is nothing to appeal. The clock resets: nothing about the return date matters to the deemed-acceptance rule, which only starts running from a processable submission. Confirm the certification before relying on the fee waiver.</p>
 </div>
 
+<div class="scenario" data-type="interaction">
+<h3>Two structures, one number</h3>
+<p>A taxpayer's reasonable collection potential comes to $15,000 under either structure. Her income varies month to month running a seasonal business, and she has $15,000 sitting in a savings account from a recent inheritance. Her representative structures the offer as a lump sum rather than 24 monthly installments of roughly $625.</p>
+<p><em>Analysis.</em> The RCP is the same either way, so the choice between structures is purely mechanical here, not a merits question. Because her income is irregular, committing to 24 consecutive on-time payments carries real risk that a single missed installment — other than the first — ends the offer under review with no determination to appeal (IRC § 7122(c)(1)(B)(ii)). Paying the full amount from funds already in hand removes that risk entirely; the tradeoff is giving up the liquidity now instead of over two years.</p>
+</div>
+
 <div class="callout trap"><h4>Traps</h4>
 <p><strong>Returned is not rejected.</strong> A non-processable offer comes back with the fee and carries no appeal rights; only a rejection can be appealed.</p>
 <p><strong>The 24-month clock is the taxpayer's friend and nobody tracks it.</strong> Diary the submission date; deemed acceptance is automatic, not something the IRS announces.</p>
@@ -120,6 +128,27 @@ The modern shape of § 7122 comes from the IRS Restructuring and Reform Act of 1
 ## Exam focus
 
 The three grounds are the backbone: know their definitions and that a final court decision forecloses doubt as to liability. Expect a computation or classification question on the payment that must accompany an offer — 20 percent for a lump sum, defined as five or fewer installments, versus the first proposed installment for a periodic offer. The 24-month deemed acceptance rule appears regularly, as does the low-income exemption from the fee, the initial payment, and the installments. Remember that a pending offer bars levy and suspends the collection period.
+
+## Strategy notes
+
+Two planning angles come up often, both about matching the offer's mechanics to the numbers
+rather than changing what's owed.
+
+**Lump-sum vs. periodic is a cash-flow tradeoff, not a merits question.** A lump-sum offer
+needs a larger amount up front but closes the review with no live monthly obligation; a
+periodic offer starts cheaper but survives only as long as every installment does, and a
+single missed payment — other than the first — can end it without a decision on the merits.
+Someone with volatile monthly income and a way to raise the 20 percent up front (a one-time
+asset sale, a loan from family) is often better served by the lump-sum structure precisely
+because it removes the ongoing-payment risk that a periodic offer carries.
+
+**Timing the collectibility computation matters, because reasonable collection potential is
+a snapshot, not a fixed number.** It's measured from assets and future income as they stand
+when it's calculated. A taxpayer who has just spent down savings on a genuine, unavoidable
+expense has less to offer than one who hasn't; a taxpayer whose income is about to drop for a
+documented, foreseeable reason may have a materially different RCP a few months later. None
+of this changes the liability itself — it changes what the formula says can realistically be
+collected, which is exactly what doubt as to collectibility is designed to measure.
 
 ## Check yourself
 

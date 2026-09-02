@@ -3,6 +3,7 @@ import Base from '../../layouts/Base.astro';
 import Rail from '../../components/Rail.astro';
 import Stamp from '../../components/Stamp.astro';
 import DiagramMount from '../../components/diagrams/DiagramMount.astro';
+import NewsTracking from '../../components/NewsTracking.astro';
 import { getCollection, render } from 'astro:content';
 import { allTopics, idOf, topicByCode, publishedCodes } from '../../lib';
 import { checkYourself, answerText } from '../../checkyourself';
@@ -56,6 +57,7 @@ const jsonld = { '@context': 'https://schema.org', '@graph': [article, breadcrum
       <Content />
       {d.changelog.length > 0 && <section><h2>Change log</h2><ul class="changelog">{d.changelog.map(c => <li><time>{c.date}</time>{c.summary}</li>)}</ul></section>}
       {related.length > 0 && <section><h2>Related topics</h2><ul>{related.map(r => <li><a href={r.path}>{r.title}</a> <span class="eyebrow">{r.code}</span></li>)}</ul></section>}
+      {published && d.newsQuery && <NewsTracking query={d.newsQuery} />}
     </article>
     <Rail data={d} />
   </div>

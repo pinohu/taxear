@@ -1,0 +1,61 @@
+---
+// Related developments, tracked live — see docs/NEWS_TRACKING.md for why this is
+// built the way it is. Renders nothing server-side beyond a container; the fetch
+// happens in the visitor's own browser, directly against the Federal Register's
+// public API (CORS-open, no key required), scoped to the Internal Revenue Service
+// and the page's own `newsQuery`. It never synthesizes a claim about what a result
+// means — only what the Federal Register itself published: a title, a type, a date,
+// and a direct link. That is the line that keeps this a live index rather than the
+// "generate an article" pattern CLAUDE.md rule 7 rules out.
+interface Props { query: string }
+const { query } = Astro.props;
+---
+<section class="news-tracking" data-news-query={query}>
+  <h2>Recent related developments</h2>
+  <p class="news-note">Pulled live, just now, from the <a href="https://www.federalregister.gov/">Federal Register</a>'s
+    own public index — Internal Revenue Service filings matching &ldquo;{query}&rdquo;. Titles and dates only;
+    nothing here is written or summarized by TaxEar. Read anything relevant at its source before relying on it.</p>
+  <div class="news-list" data-state="loading"><p class="news-loading">Checking the Federal Register…</p></div>
+</section>
+
+<script>
+  function escapeHtml(s: string) {
+    return s.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;');
+  }
+
+  async function loadNews(section: HTMLElement) {
+    const query = section.dataset.newsQuery || '';
+    const list = section.querySelector('.news-list') as HTMLElement;
+    const searchUrl = `https://www.federalregister.gov/documents/search?conditions%5Bagencies%5D%5B%5D=internal-revenue-service&conditions%5Bterm%5D=${encodeURIComponent(query)}`;
+    const apiUrl = `https://www.federalregister.gov/api/v1/documents.json?conditions%5Bagencies%5D%5B%5D=internal-revenue-service&conditions%5Bterm%5D=${encodeURIComponent(query)}&per_page=5&order=newest`;
+
+    try {
+      const controller = new AbortController();
+      const timeout = setTimeout(() => controller.abort(), 8000);
+      const res = await fetch(apiUrl, { signal: controller.signal });
+      clearTimeout(timeout);
+      if (!res.ok) throw new Error(`Federal Register responded ${res.status}`);
+      const data = await res.json();
+      const results: Array<{ title: string; type: string; publication_date: string; html_url: string }> = data.results || [];
+
+      if (results.length === 0) {
+        list.dataset.state = 'empty';
+        list.innerHTML = `<p class="news-empty">No Federal Register filings from the IRS currently match this search. <a href="${searchUrl}" rel="noopener">Search directly</a> for anything more recent.</p>`;
+        return;
+      }
+
+      list.dataset.state = 'loaded';
+      list.innerHTML = `<ul class="news-items">${results.map((r) => `
+        <li class="news-item">
+          <a href="${escapeHtml(r.html_url)}" rel="noopener">${escapeHtml(r.title)}</a>
+          <span class="news-meta">${escapeHtml(r.type)} &middot; ${escapeHtml(r.publication_date)}</span>
+        </li>`).join('')}</ul>
+        <p class="news-more"><a href="${searchUrl}" rel="noopener">See the full search on federalregister.gov →</a></p>`;
+    } catch (e) {
+      list.dataset.state = 'error';
+      list.innerHTML = `<p class="news-error">Couldn't reach the Federal Register just now. <a href="${searchUrl}" rel="noopener">Search directly instead</a>.</p>`;
+    }
+  }
+
+  document.querySelectorAll<HTMLElement>('.news-tracking[data-news-query]').forEach(loadNews);
+</script>
