@@ -311,3 +311,15 @@ who reports on the cash method, and pays it four months after the year end. When
 *Answer: In the year of payment. {fig:comp.related_timing} (IRC § 267(a)(2)) is headed "Matching of
 deduction and payee income item in the case of expenses **and interest**," so the deduction moves
 to the day the amount is includible in the lender's gross income.*
+
+**6. Marlow borrows $40,000 secured by a mortgage on her personal residence and spends the entire proceeds on inventory for her retail business. The interest on the loan is:**
+(A) Personal interest, because the loan is secured by her home (B) Business interest, because the proceeds were spent on a business expenditure (C) Deductible only if the loan documents describe it as a business loan (D) Split evenly between business and personal use
+*Answer: B. Reg. § 1.163-8T(a)(3), (c)(1): interest is allocated by tracing the disbursement of the proceeds to the expenditure, and what secures the debt is irrelevant.*
+
+**7. Thornbury Castings fails the IRC § 448(c) test. For 2026 it has business interest expense of $4,000,000, business interest income of $100,000, no floor plan financing interest, and adjusted taxable income of $10,000,000. How much business interest may it deduct?**
+(A) $3,000,000 (B) $3,100,000 (C) $5,100,000 (D) $4,000,000
+*Answer: B. IRC § 163(j)(1): the limitation is the sum of business interest income, the statutory share of adjusted taxable income and floor plan financing interest — $100,000 plus $3,000,000. The $900,000 excess carries forward under IRC § 163(j)(2); $5,100,000 would apply the higher pandemic-year share that IRC § 163(j)(10) confined to 2019 and 2020.*
+
+**8. Kestrel Freight LP, a partnership above the IRC § 448(c) threshold, has business interest expense exceeding its limitation for 2026, and one of its partners separately has an excess business loss. At which level is each limitation applied?**
+(A) Both at the partner level (B) Both at the partnership level (C) IRC § 163(j) at the partnership level and IRC § 461(l) at the partner level (D) IRC § 163(j) at the partner level and IRC § 461(l) at the partnership level
+*Answer: C. IRC § 163(j)(4)(A) applies the interest limitation at the partnership level, whereas the excess business loss rule in IRC § 461(l)(4) runs at the partner; the two sit next to each other in the same computation and apply at different levels.*

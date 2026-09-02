@@ -324,3 +324,15 @@ under IRC § 108(c)?
 *Answer: No. IRC § 108(a)(1)(D) is confined to "a taxpayer other than a C corporation," so the
 election is unavailable however clearly the debt meets the IRC § 108(c)(3) definition. The
 corporation must look to bankruptcy or insolvency.*
+
+**6. Wetheral Tooling Ltd is not in bankruptcy. Immediately before a lender discharges $200,000 of a working-capital loan, its liabilities exceed the fair market value of its assets by $120,000. None of the debt is farm or real property business indebtedness. What does the company report?**
+(A) Nothing, because the whole $200,000 is excluded (B) $80,000 of ordinary income, with $120,000 excluded (C) $200,000 of ordinary income, because it is not in a title 11 case (D) $120,000 of ordinary income, with $80,000 excluded
+*Answer: B. IRC § 108(a)(3) and IRC § 108(d)(3): the insolvency exclusion cannot exceed the amount of the insolvency, measured immediately before the discharge, so $120,000 is excluded and the remaining $80,000 is income under IRC § 61(a)(11).*
+
+**7. A solvent corporation owes a bank $500,000 on a note. Its controlling shareholder, a person related to the corporation for this purpose, buys the note from the bank for $350,000. What is the result for the corporation?**
+(A) No income, because the debt remains outstanding and is now owed to the shareholder (B) $150,000 of discharge of indebtedness income (C) $150,000 of income to the shareholder rather than the corporation (D) $350,000 of discharge of indebtedness income
+*Answer: B. IRC § 108(e)(4)(A) treats the acquisition of the debt by a related person as an acquisition by the debtor, which produces discharge income to the extent of the discount — buying your own debt through a relative does not work.*
+
+**8. A partnership is insolvent, but each of its partners is solvent. A lender discharges $300,000 of the partnership's debt. Whose insolvency is tested for the exclusion?**
+(A) The partnership's, because it is the debtor (B) Each partner's, because the exclusion is applied at the partner level (C) Neither, because a partnership cannot use the insolvency exclusion (D) The partners', but only if the partnership elects
+*Answer: B. IRC § 108(d)(6) applies the exclusions at the partner level, the opposite of the corporate-level rule in IRC § 108(d)(7)(A), so it is each partner's own balance sheet that decides whether anything is excluded.*

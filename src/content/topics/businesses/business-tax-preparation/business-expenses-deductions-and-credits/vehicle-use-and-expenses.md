@@ -358,3 +358,15 @@ mileage of individual trips. May he use the mileage rate on an annual estimate?
 is not relieved of substantiating the business mileage of each use, and {fig:travel.substantiation}
 (IRC § 274(d)) makes substantiation a condition of the deduction. An annual estimate is not a
 record of each business use.*
+
+**6. A sole proprietor uses the standard mileage rate for her car. In 2026 she also pays $600 of parking and tolls on business calls, $900 as the business share of interest on the loan that bought the car, and $2,100 of insurance. What may she deduct in addition to the mileage?**
+(A) $600 (B) $1,500 (C) $3,600 (D) Nothing
+*Answer: B. Reg. § 1.274-5(j)(2): the rate stands in lieu of the actual costs of operating the vehicle, and insurance is one of those costs. Parking, tolls and the business portion of loan interest for a taxpayer other than an employee are outside the rate and remain deductible.*
+
+**7. A company places two identical passenger automobiles in service in 2026, one for which the IRC § 168(k) additional first year depreciation deduction applies and one for which it does not. How do the IRC § 280F(a) limitation tables for the two cars differ?**
+(A) In every year, in proportion to the bonus percentage (B) Only in the first year, by a fixed statutory amount (C) Not at all, because the caps are set by the year placed in service (D) Only in the years after the third
+*Answer: B. Rev. Proc. 2026-15 Tables 1 and 2 differ only in the first taxable year, and the whole gap is the fixed amount by which IRC § 168(k)(2)(F)(i) increases the first-year limitation; the second, third and later-year figures are identical.*
+
+**8. A consulting firm buys a $95,000 sport utility vehicle rated above the weight threshold that takes it outside the definition of a passenger automobile, places it in service in 2026 with 100 percent business use, and elects to expense it in full under IRC § 179. What is the result?**
+(A) The full $95,000 is expensed, because the vehicle is not a passenger automobile (B) The expensing is limited by the passenger automobile caps in IRC § 280F(a) (C) The expensing is limited by the separate IRC § 179 ceiling for sport utility vehicles, and the rest is recovered through ordinary depreciation (D) Nothing may be expensed, because a vehicle is listed property
+*Answer: C. IRC § 179(b)(5)(A) caps the cost of a sport utility vehicle that may be taken into account under IRC § 179; escaping the IRC § 280F(a) caps built for cars does not escape the ceiling Congress built for sport utility vehicles.*
