@@ -17,6 +17,8 @@ import StudyBase from '../layouts/StudyBase.astro';
     <h2>Access</h2>
     <ul id="ent" class="plain"></ul>
     <p id="buy-more"></p>
+    <p><button type="button" class="link" id="portal">Manage billing: cancel a subscription, change the card, download invoices</button></p>
+    <p id="portal-err" class="error" hidden></p>
     <h2>Followed rules</h2>
     <p class="note" id="follow-note"></p>
     <ul id="follows" class="plain"></ul>
@@ -75,5 +77,12 @@ import StudyBase from '../layouts/StudyBase.astro';
       $('login-msg').hidden = false; btn.disabled = false;
     });
     $('logout').addEventListener('click', async () => { await fetch('/api/logout', { method: 'POST' }); location.reload(); });
+    $('portal').addEventListener('click', async () => {
+      $('portal-err').hidden = true;
+      const res = await fetch('/api/portal', { method: 'POST' });
+      const data = await res.json().catch(() => ({}));
+      if (res.ok && data.url) location.href = data.url;
+      else { $('portal-err').textContent = data.error || 'Could not open billing.'; $('portal-err').hidden = false; }
+    });
   </script>
 </StudyBase>

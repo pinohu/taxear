@@ -89,6 +89,17 @@ test('login: same answer for unknown and known addresses; known address without 
   assert.equal(bad.status, 400);
 });
 
+test('portal: signed out, unconfigured, and no customer on record each get a clear answer', async () => {
+  const { onRequestPost } = await import('../functions/api/portal.js');
+  const env = { COOKIE_SECRET: SECRET, ACCESS_KV: kv() };
+  assert.equal((await asJson(await onRequestPost({ request: post('/api/portal', {}), env }))).status, 401);
+  await grant(env, 'a@b.co', 'practitioner_month');
+  const cookie = await signedIn(env);
+  assert.equal((await asJson(await onRequestPost({ request: post('/api/portal', {}, cookie), env }))).status, 503);
+  const r = await asJson(await onRequestPost({ request: post('/api/portal', {}, cookie), env: { ...env, STRIPE_SECRET_KEY: 'sk_test' } }));
+  assert.equal(r.status, 404); assert.match(r.body.error, /No billing record/);
+});
+
 test('checkout and webhook refuse cleanly when unconfigured', async () => {
   const env = { COOKIE_SECRET: SECRET, ACCESS_KV: kv() };
   const c = await asJson(await checkout.onRequestPost({ request: post('/api/checkout', { sku: 'p3' }), env }));

@@ -53,6 +53,7 @@ against a stubbed KV.
 | `GET/POST /api/follows` | The account's followed topics; follow or unfollow one |
 | `POST /api/notify` | Called by `.github/workflows/notify.yml` with `NOTIFY_SECRET`; emails followers once per material change |
 | `GET /api/unfollow-all` | One-click stop link from every alert email |
+| `POST /api/portal` | Stripe customer-portal session: cancel, change card, invoices |
 
 ## Practitioner alerts
 
