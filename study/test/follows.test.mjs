@@ -49,10 +49,19 @@ test('follow: never enrols an address without proof; same answer for subscribers
   r = await asJson(await follow.onRequestPost({ request: post('/api/follow', { email: 'p@q.io', code: '3.2.6.b' }, cors), env }));
   assert.ok(await env.ACCESS_KV.get('follow-cooldown:p@q.io:3.2.6.b'), 'a second topic within the minute gets its own confirmation, since each link follows one topic');
   for (const code of ['3.1.1.a', '3.1.1.b', '3.1.2.a', '3.1.2.b', '3.1.2.c']) await follow.onRequestPost({ request: post('/api/follow', { email: 'p@q.io', code }, cors), env });
-  assert.equal(await env.ACCESS_KV.get('follow-burst:p@q.io'), '5');
+  const win = JSON.parse(await env.ACCESS_KV.get('follow-burst:p@q.io'));
+  assert.equal(win.count, 5); assert.ok(win.resetAt > Date.now() && win.resetAt <= Date.now() + 3600e3, 'a fixed hour from the first accepted message');
   assert.equal(await env.ACCESS_KV.get('follow-cooldown:p@q.io:3.1.2.b'), null, 'past the hourly cap no further confirmation is attempted');
   assert.equal(await env.ACCESS_KV.get('follow-cooldown:p@q.io:3.1.2.c'), null);
   assert.deepEqual((await listPending(env, 'p@q.io')).length, 8, 'the requests are still parked; only the emails are capped');
+  // A counter write refused by KV (one write a second per key) refuses the message, not the request.
+  const realPut = env.ACCESS_KV.put;
+  env.ACCESS_KV.put = async (k, v, o) => { if (k.startsWith('follow-burst:')) throw new Error('KV rate limited'); return realPut(k, v, o); };
+  await env.ACCESS_KV.delete('follow-burst:p@q.io');
+  r = await asJson(await follow.onRequestPost({ request: post('/api/follow', { email: 'p@q.io', code: '3.1.3.a' }, cors), env }));
+  assert.equal(r.status, 200);
+  assert.equal(await env.ACCESS_KV.get('follow-cooldown:p@q.io:3.1.3.a'), null, 'no cooldown written, so a retry goes through');
+  env.ACCESS_KV.put = realPut;
   // Signed in as that address on Study itself: applied at once.
   const cookie = await cookieFor('p@q.io');
   r = await asJson(await follow.onRequestPost({ request: post('/api/follow', { email: 'p@q.io', code: '3.2.6.b' }, { Cookie: cookie }), env }));
