@@ -277,3 +277,15 @@ February 2027. She is on the cash method. When is the income recognised?
 *Answer:* In 2027. Treas. Reg. § 1.61-4(a) provides that crop shares, whether or not treated as rent
 under state law, are included in gross income in the year they are reduced to money or the equivalent
 of money. Taking delivery of the grain is not reducing it to money; selling it is.
+
+**6. A landowner's written crop-share lease requires her to approve the planting plan, inspect the crop monthly and pay half the fertilizer cost, and she personally does all three. Where is the income reported, and is it subject to self-employment tax?**
+(A) Schedule E, with no self-employment tax (B) Form 4835, with no self-employment tax (C) Schedule F, subject to self-employment tax (D) Schedule C, subject to self-employment tax
+*Answer: C. IRC § 1402(a)(1): the arrangement provides for material participation under subparagraph (A) and she in fact participates under subparagraph (B), so the real estate rental exclusion does not apply and the crop-share income is self-employment income reported on Schedule F.*
+
+**7. A farmer rents land to his own S corporation, in which he works full time. This year the land shows a $9,000 rental loss, and he has $9,000 of passive income from a limited partnership. May the loss offset that income?**
+(A) No, because the self-rental rule makes the loss non-passive (B) Yes, because the self-rental rule recharacterises income only, so the rental loss stays passive and may absorb passive income (C) No, because rental losses can never offset partnership income (D) Yes, and the loss may also offset his wages
+*Answer: B. Treas. Reg. § 1.469-2(f)(6) recharacterises net rental income from property rented to a business in which the taxpayer materially participates as non-passive, but it runs one way only; a rental loss remains passive under IRC § 469(c)(2) and is usable against other passive income.*
+
+**8. An owner leases pasture to a neighbour, but the cattle grazing it belong to the owner; the neighbour is paid a monthly fee to care for them and the owner sells the calves. How are the calf proceeds reported?**
+(A) On Form 4835 as farm rental income (B) On Schedule E as rent (C) On Schedule F as the owner's own farm income, with the care fee a farm expense (D) Half on Schedule F and half on Form 4835
+*Answer: C. IRC § 1402(a)(1) is not in play: the owner has let the ground and bought care services rather than letting the enterprise, so the calves are the product of her own livestock, their proceeds are farm income on Schedule F, and the payment to the neighbour is a farm expense.*

@@ -323,3 +323,15 @@ The remaining $800,000 carries forward indefinitely under {fig:loss.nol_carryfor
 activity and enters the IRC § 172 pool, where it is available against any income but subject to the cap in
 IRC § 172(a)(2). {fig:loss.atrisk_carryover} keeps an at-risk loss tied to the activity that
 generated it, where it waits for the taxpayer to put more at risk.*
+
+**6. Ferrers, who is single with $150,000 of wages and no other business, has a $90,000 share of loss from a non-rental partnership in which he materially participates. His outside basis and his at-risk amount are each $200,000, all from cash he contributed. How much of the loss reduces his 2026 taxable income?**
+(A) $90,000 (B) Nothing, because wages are excluded from the excess business loss computation (C) Nothing, because a partnership loss is passive unless the partner is a general partner (D) $90,000, but only against future partnership income
+*Answer: A. IRC § 461(l)(3)(A): the loss clears basis under IRC § 704(d), at-risk under IRC § 465(a)(1) and passive under IRC § 469 because he materially participates, and $90,000 is well below the single-filer threshold in Rev. Proc. 2025-32 § 3.31; wages are left out of the computation, but the allowed loss still offsets them.*
+
+**7. A couple filing jointly for 2026 have a $700,000 loss from a manufacturing business, a $30,000 loss from selling stock, and $450,000 of wages. Both are fully at risk and materially participate. What is the excess business loss?**
+(A) $218,000 (B) $188,000 (C) Nothing, because the wages absorb the loss (D) $700,000
+*Answer: B. IRC § 461(l)(3)(B) leaves capital losses out of the deduction side and IRC § 461(l)(3)(A) leaves wages out entirely, so only the $700,000 business loss is measured against the joint threshold, and the $188,000 above it becomes a net operating loss under IRC § 461(l)(2).*
+
+**8. A sole proprietor's 2026 loss survives all four limitations and becomes a net operating loss. Which statement about using it in other years is correct?**
+(A) It may be carried back two years whatever the business, then forward twenty years (B) It carries forward indefinitely with no carryback, unless it is a farming loss, which alone keeps a carryback (C) It carries forward twenty years without any percentage cap (D) It may be carried back five years under the 2020 relief
+*Answer: B. IRC § 172(b)(1)(A)(ii) gives an indefinite carryforward with no general carryback, and the only carryback left is the two-year farming loss carryback under IRC § 172(b)(1)(B)(i); the twenty-year rule belongs to pre-2018 losses and the five-year carryback to 2018 through 2020 losses only.*

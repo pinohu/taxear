@@ -331,3 +331,15 @@ Treas. Reg. § 1.501(c)(3)-1(c)(3)(ii), so this is lobbying, not campaign interv
 not a candidate. Without the election the question is whether it is a *substantial part* of
 activities, and a single $600 editorial against $400,000 of expenditures will not be. The item is
 measured, not prohibited outright.
+
+**6. A charity's articles are impeccable. In practice, 40 percent of its budget goes to running a commercial catering business unrelated to any exempt purpose, with every dollar of profit funding its literacy programme. Does it qualify under IRC § 501(c)(3)?**
+(A) Yes, because the organisational test is met and the profits go to charity (B) No, because a single substantial non-exempt purpose defeats the operational test regardless of the exempt purposes beside it (C) Yes, provided the catering income is reported on Form 990-T (D) No, because any commercial activity at all is prohibited
+*Answer: B. Treas. Reg. § 1.501(c)(3)-1(c): the operational test is an activity test, and a substantial non-exempt purpose defeats exemption no matter how many exempt purposes accompany it; passing the organisational test does not carry over, and the destination of the income is not the test.*
+
+**7. A disqualified person receives a $60,000 excess benefit from a charity and does not correct it within the taxable period. What taxes fall on the disqualified person?**
+(A) $15,000 only (B) $15,000 initial tax and $120,000 additional tax (C) $6,000 initial tax and $120,000 additional tax (D) $15,000, and the charity loses its exemption
+*Answer: B. IRC § 4958(a) imposes an initial tax of 25 percent of the excess benefit on the disqualified person, and IRC § 4958(b) adds 200 percent where it is not corrected within the taxable period; the 10 percent tax falls on the managers, and the charity's exemption is not automatically lost.*
+
+**8. A church that lobbies modestly wants certainty and asks to make the IRC § 501(h) expenditure election. Which is correct?**
+(A) It may elect, like any IRC § 501(c)(3) organisation (B) It may not elect, because churches and their integrated auxiliaries are excluded, so the substantial part test governs (C) It may elect only after filing the IRC § 508 notice (D) It need not elect, because churches may lobby without limit
+*Answer: B. IRC § 501(h): the election is closed to churches and their integrated auxiliaries, which also stand outside the IRC § 508 notice requirement, so a church's lobbying is measured under the substantial part test with no numerical safe harbour.*

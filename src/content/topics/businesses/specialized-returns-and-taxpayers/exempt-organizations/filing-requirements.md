@@ -301,3 +301,15 @@ under $50,000 of gross receipts. It receives no bill. Is anything wrong?
 IRC § 6652(c)(1)(E) is why no bill arrived: the notice is outside the daily penalty. The absence of
 a penalty is not evidence that nothing happened, and the organisation must now apply afresh for
 reinstatement.
+
+**6. A calendar-year charity in its fifth year had gross receipts of $31,000, $36,000 and $74,000 in 2024, 2025 and 2026, and holds $20,000 of assets. What is the least it may file for 2026?**
+(A) Form 990-EZ only, because 2026 receipts alone exceed the Form 990-N ceiling (B) Form 990-N, because gross receipts are normally within the ceiling on the three-year average (C) Form 990, because an organisation more than three years old must file the full return (D) Form 990-PF
+*Answer: B. IRC § 6033(i): the electronic notice is available where gross receipts are normally within the ceiling, and for an organisation at least three years old that is measured as an average over the three years including the year being tested — here $47,000 — not against the single year.*
+
+**7. An organisation with gross receipts of $2,400,000 files its 2026 Form 990 in 2027, 40 days late, with no reasonable cause. Applying the amounts for returns required to be filed in 2027, what is the penalty?**
+(A) $1,000 (B) $5,200 (C) $800 (D) $66,500
+*Answer: B. IRC § 6652(c)(1)(A): an organisation whose gross receipts exceed the indexed large-organisation line pays the higher daily rate, $130 for 2027 filings, so 40 days is $5,200, well under the $66,500 cap; $25 a day is the ordinary tier and $20 the unindexed statutory figure.*
+
+**8. A calendar-year charity files Form 8868 on 10 May 2027 for its 2026 Form 990, then in October asks for three more months. What is the position?**
+(A) A second Form 8868 gives a further three months (B) The extension is a single automatic six months to 15 November 2027, and no further extension exists (C) The extension runs only to 15 October, the individual filing date (D) The Form 8868 was invalid because it was not filed by 15 April
+*Answer: B. IRC § 6072(e) sets the due date at the 15th day of the 5th month, 15 May for a calendar year; Form 8868 gives one automatic six-month extension to 15 November, and there is no second extension.*
