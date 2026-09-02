@@ -20,7 +20,9 @@ const x = (v) => PAD + ((v - min) / (max - min)) * (W - PAD * 2);
 <figure class="diagram diagram-threshold">
   <svg viewBox={`0 0 ${W} ${H}`} role="img" aria-labelledby="d-title">
     <title id="d-title">{caption}</title>
-    <line x1={PAD} y1={52} x2={W - PAD} y2={52} class="d-axis" />
+    {/* pathLength="1" lets the draw-in animation use a dash length of 1 whatever the
+        real width, so the CSS never has to know W and PAD. */}
+    <line x1={PAD} y1={52} x2={W - PAD} y2={52} class="d-axis" pathLength="1" />
     {marks.map((m, i) => (
       <g>
         <line x1={x(val(m))} y1={40} x2={x(val(m))} y2={64} class={`d-tick ${m.emphasis ? 'd-tick-em' : ''}`} />

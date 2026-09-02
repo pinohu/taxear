@@ -184,7 +184,11 @@ latin and latin-ext only, with the SIL OFL 1.1 text for each beside them. The
 latin files. `src/layouts/Base.astro` preloads the two faces used above the fold, and
 `_headers` gives `/fonts/*` the same immutable cache header as the Astro assets.
 
-The site now makes **no third-party request at all**, which is what `/about/` claims.
+With fonts self-hosted the site's own assets make no third-party request. Two features
+do, and `/privacy/` discloses both: the related-developments widget on pages that carry
+a `newsQuery` fetches the Federal Register's public API from the reader's browser
+(docs/NEWS_TRACKING.md), and the analytics beacon loads from Cloudflare when
+`PUBLIC_CF_BEACON_TOKEN` is set.
 
 `public/fonts/README.md` records the provenance and how to refresh a family — take the
 new woff2 URLs *and* the new `unicode-range` values together, because the ranges change

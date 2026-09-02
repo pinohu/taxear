@@ -39,13 +39,15 @@ const proofSrc = String(proof?.source ?? '').replace(
         trail = ')' + trail; m = m.slice(0, -1); changed = true;
       }
     }
-    const href = m.startsWith('http') ? m : 'https://' + m;
+    // Both hosts redirect their bare form to www; link the www form directly.
+    const href = (m.startsWith('http') ? m : 'https://' + m).replace(/^https?:\/\/(law\.cornell\.edu|irs\.gov)\//, 'https://www.$1/');
     return `<a href="${href}" rel="noopener">${m}</a>${trail}`;
   });
 ---
 <Base
   title="Federal tax law and IRS procedure, cited and verified"
-  description="TaxEar explains U.S. federal tax law and IRS procedure from primary sources — the Internal Revenue Code, regulations, and IRS guidance — in plain language, with worked scenarios and dated citations for every figure.">
+  description="U.S. federal tax law and IRS procedure explained from the Code, the regulations, and IRS guidance, in plain language, with worked scenarios and a dated citation on every figure."
+  ogType="website">
 
   {/* 1 — Title page. Type only. No cards, no image, no marketing chrome. */}
   <section class="titlepage">

@@ -16,7 +16,7 @@ authorities:
   - { type: IRC, ref: "§ 512", title: "Unrelated business taxable income", url: "https://www.law.cornell.edu/uscode/text/26/512" }
   - { type: IRC, ref: "§ 513", title: "Unrelated trade or business", url: "https://www.law.cornell.edu/uscode/text/26/513" }
   - { type: IRC, ref: "§ 6033", title: "Returns by exempt organizations", url: "https://www.law.cornell.edu/uscode/text/26/6033" }
-  - { type: Pub, ref: "Form 990 series", title: "Which forms do exempt organizations file", url: "https://www.irs.gov/charities-non-profits/form-990-series-which-forms-do-exempt-organizations-file-filing-phase-in" }
+  - { type: Pub, ref: "Form 990 series", title: "Which forms do exempt organizations file", url: "https://www.irs.gov/charities-non-profits/form-990-series-which-forms-do-exempt-organizations-file" }
   - { type: Pub, ref: "Form 990-N", title: "Annual electronic filing requirement for small exempt organizations", url: "https://www.irs.gov/charities-non-profits/annual-electronic-filing-requirement-for-small-exempt-organizations-form-990-n-e-postcard" }
 forms: ["990", "990-EZ", "990-N", "990-PF"]
 related: ["2.1.1.c", "2.1.1.g", "2.1.1.k", "2.1.1.h", "2.3.2.a", "2.3.2.b", "2.3.2.c", "2.3.2.d"]

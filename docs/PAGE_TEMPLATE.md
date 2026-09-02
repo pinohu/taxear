@@ -68,3 +68,21 @@ statute or regulation, or "current as of" claims that are not backed by `taxYear
 Add up to five original questions at the end under `## Check yourself`, each as a bold question,
 four options, then the answer and a one-line reason. They must be written from the page's own scenarios,
 not adapted from any published bank.
+
+## Companion assets
+
+Optional frontmatter, all pointing at things derived from the page and never the other
+way round:
+
+- `deck: "/decks/<slug>/"` — a teaching deck served from `public/decks/<slug>/index.html`
+  (source of the offer-in-compromise exemplar is there). Same figures as the page; when a
+  figure changes, change the page, then the deck, in the same commit.
+- `newsQuery: "<phrase>"` — see docs/NEWS_TRACKING.md. Quote-worthy phrases only.
+- A changelog entry may carry `material: true` (docs/REVENUE_BUILD.md). Use it when the
+  change alters what a practitioner would do, not for editorial work.
+
+The "Check yourself" block feeds two things beyond the page: the FAQ structured data and
+the Study question bank. Both parse it with `scripts/checkyourself.mjs`, which accepts
+either `**1. Question**` or `**1.** Question`, and options either inline `(A) … (B) …`
+or as `A.` lines. Four lettered options and a lettered answer, or the question is
+skipped by the importer.

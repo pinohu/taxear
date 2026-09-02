@@ -1,5 +1,5 @@
 ---
-title: "Basis of assets"
+title: "Basis of assets for individuals"
 code: "1.2.3.c"
 part: 1
 domain: "Income and Assets"

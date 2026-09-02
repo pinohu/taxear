@@ -127,3 +127,19 @@ Pull the ten highest-traffic pages from analytics and, for each:
   decisions made against `docs/VERIFICATION.md`.
 - No figure gets a verified date because it "looks right" or matches last year.
 - No `taxYear` bump on a page whose figures have not all been checked for that year.
+
+## Staggering the review dates
+
+Every page's `lastReviewed` sits between 18 and 21 August 2026, so the 120-day window in
+verify closes for all 360 pages at once around 16 December. Do not re-open all 360 that
+week. Instead, on the autumn refresh:
+
+1. Part 3 (Representation, 121 pages) first, because it carries the fewest
+   inflation-adjusted figures and the review is fast.
+2. Part 1 (Individuals, 120) as the inflation-adjustment revenue procedure lands, since
+   most adjusted figures live there.
+3. Part 2 (Businesses, 119) last, with the per-diem, mileage and retirement notices.
+
+Stamp each page's `lastReviewed` with the day its authorities were actually opened; the
+dates will then spread over October to December and the next window closes in three
+waves rather than one.

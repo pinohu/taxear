@@ -1,5 +1,5 @@
 ---
-title: "Like-kind exchange"
+title: "Like-kind exchange of business property"
 code: "2.2.3.c"
 part: 2
 domain: "Business Tax Preparation"

@@ -1,5 +1,5 @@
 ---
-title: "Basis of assets"
+title: "Basis of business assets"
 code: "2.2.3.a"
 part: 2
 domain: "Business Tax Preparation"

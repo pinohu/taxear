@@ -11,11 +11,14 @@ interface Props { query: string }
 const { query } = Astro.props;
 ---
 <section class="news-tracking" data-news-query={query}>
-  <h2>Recent related developments</h2>
-  <p class="news-note">Pulled live, just now, from the <a href="https://www.federalregister.gov/">Federal Register</a>'s
-    own public index — Internal Revenue Service filings matching &ldquo;{query}&rdquo;. Titles and dates only;
-    nothing here is written or summarized by TaxEar. Read anything relevant at its source before relying on it.</p>
-  <div class="news-list" data-state="loading"><p class="news-loading">Checking the Federal Register…</p></div>
+  <h2>Related developments</h2>
+  <p class="news-note">The five newest Internal Revenue Service filings in the <a href="https://www.federalregister.gov/">Federal Register</a>
+    matching &ldquo;{query}&rdquo;, pulled live from its public index when this page opens. Titles and dates only,
+    newest first, however old the newest is; nothing here is written or summarized by TaxEar. Read anything
+    relevant at its source before relying on it.</p>
+  {/* Server-rendered base state: with scripts off or the fetch blocked, the reader still
+      gets the direct search. The script swaps this for the live list. */}
+  <div class="news-list" data-state="static"><p class="news-empty"><a href={`https://www.federalregister.gov/documents/search?conditions%5Bagencies%5D%5B%5D=internal-revenue-service&conditions%5Bterm%5D=${encodeURIComponent(`"${query}"`)}`} rel="noopener">Search the Federal Register for this topic</a>.</p></div>
 </section>
 
 <script>
@@ -34,6 +37,8 @@ const { query } = Astro.props;
     const apiUrl = `https://www.federalregister.gov/api/v1/documents.json?conditions%5Bagencies%5D%5B%5D=internal-revenue-service&conditions%5Bterm%5D=${term}&per_page=5&order=newest`;
 
     try {
+      list.dataset.state = 'loading';
+      list.innerHTML = '<p class="news-loading">Checking the Federal Register…</p>';
       const controller = new AbortController();
       const timeout = setTimeout(() => controller.abort(), 8000);
       const res = await fetch(apiUrl, { signal: controller.signal });

@@ -96,15 +96,19 @@ committed.
 
 ## Where the project stands
 
-131 topic pages at `published`, 229 at `stub`, none at `review` — the owner approved the
-whole review queue on 19 August 2026. 21 form entries and 7 notice entries are published
-too. **Part 3 is complete at 121 of 121 topics**; Part 1 has 10 of 120 written (section
-1.1.1, ten of seventeen); Part 2 is entirely unwritten at 0 of 119.
+**All 360 topic pages are `published`**, along with 44 form entries and 7 notice entries;
+the owner approved the last of the review queue in August 2026, and every page's
+authorities were opened between 18 and 21 August. That means the 120-day review window
+closes for the whole site at once in mid-December: `docs/ANNUAL_REFRESH.md` staggers it.
 
 **Every key in `figures.json` carries a `verified` date against a source that was opened
-that day** — 415 keys — so no page is blocked on a figure. The Phase 0 tagger now covers
+that day** — 2,488 keys — so no page is blocked on a figure. The Phase 0 tagger covers
 all three parts: bank coverage is 465 of 600 questions, and the 135 left untagged are
 deliberate, not missed.
+
+The work now is the revenue build in `docs/REVENUE_BUILD.md`: the paid Study product
+rebuilt on the pages' own questions, and a Practitioner tier that alerts subscribers when
+a rule they follow changes. Both leave every reference page free.
 
 A published page does not render `related[]` links to pages that are still stubs, so the
 frontmatter can carry the full graph while the reader only ever sees live links. Publishing

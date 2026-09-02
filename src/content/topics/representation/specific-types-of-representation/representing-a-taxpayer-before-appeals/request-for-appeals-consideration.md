@@ -13,7 +13,7 @@ authorities:
   - { type: Pub, ref: "5", title: "Your Appeal Rights and How to Prepare a Protest if You Disagree (Rev. 4-2021)", url: "https://www.irs.gov/pub/irs-pdf/p5.pdf" }
   - { type: IRC, ref: "§ 7803(e)(3)", title: "Purposes and duties of the Independent Office of Appeals" }
   - { type: Circ230, ref: "§ 10.22", title: "Diligence as to accuracy" }
-  - { type: Form, ref: "12203", title: "Request for Appeals Review" }
+  - { type: Form, ref: "12203", title: "Request for Appeals Review", url: "https://www.irs.gov/pub/irs-pdf/f12203.pdf" }
 forms: []
 related: ["3.3.4.a", "3.3.1.e", "3.3.3.f", "3.3.4.e", "3.3.4.c"]
 changelog:

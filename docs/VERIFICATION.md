@@ -28,3 +28,16 @@ A page moves `draft → review → published` only when every box is checked. Re
       right answer with the right reasoning, or the discrepancy is explained (page wrong → fix; bank dated →
       note in `private/discrepancies.md`).
 - [ ] Nothing from the private bank appears on the page.
+
+## 5. Companion assets and the revenue layer
+
+- A page with a `deck:` path has its deck under `public/decks/<slug>/index.html`, every
+  figure on the deck matches the page, and the page was changed first.
+- A page with a `newsQuery:` uses a phrase distinctive enough that the Federal Register's
+  phrase search returns filings about this topic and not merely these words.
+- A changelog entry that changes what a practitioner would do carries `material: true`;
+  editorial entries do not. Material entries are what Practitioner subscribers are
+  emailed about, so the summary must stand on its own in an email.
+- The "Check yourself" block parses: `node -e` with `scripts/checkyourself.mjs` returns
+  every question with four lettered options, or the page's FAQ structured data and its
+  Study import silently lose questions.

@@ -14,7 +14,7 @@ authorities:
   - { type: IRC, ref: "§ 7803(a)(3)", title: "Execution of duties in accord with taxpayer rights" }
   - { type: IRC, ref: "§ 6702(c)", title: "Listing of frivolous positions" }
   - { type: IRC, ref: "§ 6212", title: "Notice of deficiency" }
-  - { type: Pub, ref: "5", title: "Your Appeal Rights and How to Prepare a Protest if You Disagree" }
+  - { type: Pub, ref: "5", title: "Your Appeal Rights and How to Prepare a Protest if You Disagree", url: "https://www.irs.gov/pub/irs-pdf/p5.pdf" }
 forms: []
 related: ["3.3.1.e", "3.3.1.d", "3.3.3.h", "3.3.4.b", "3.3.4.e", "3.3.4.c", "3.3.4.d", "3.4.3.g"]
 changelog:
