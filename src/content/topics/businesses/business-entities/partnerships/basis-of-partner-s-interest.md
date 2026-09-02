@@ -260,3 +260,15 @@ partnership liabilities is $180,000. Can he deduct a $90,000 allocated loss?
 the tax basis capital account excludes, so his outside basis is around $140,000 rather than negative. The
 capital account and outside basis answer different questions, and IRC § 704(d) is measured against the
 latter. The at-risk and passive activity rules must still be applied.*
+
+**6. A partner begins the year with an outside basis of $40,000. During the year the partnership distributes $30,000 of cash to him and allocates him a $25,000 loss. What is the result?**
+(A) He deducts $25,000 and recognises $15,000 of gain on the distribution (B) He takes the $30,000 tax-free, deducts $10,000, and carries $15,000 of loss forward (C) He deducts $25,000 and takes the distribution tax-free, leaving a negative basis (D) He deducts nothing, because the distribution exceeded the loss
+*Answer: B. Distributions reduce basis under IRC § 733 before losses are tested under IRC § 704(d), so basis falls to $10,000 tax-free and the loss is allowed only to that extent, with the balance suspended under IRC § 704(d)(2).*
+
+**7. A new partner contributes $100,000 of cash for a 25 percent interest in a partnership that carries $400,000 of recourse debt shared in proportion to interests. What is her outside basis immediately after admission?**
+(A) $100,000 (B) $200,000 (C) $500,000 (D) $100,000, rising only when she becomes personally liable on the debt
+*Answer: B. IRC § 752(a) treats her $100,000 share of partnership liabilities as a contribution of money, so it adds to the $100,000 of cash she contributed under IRC § 722 whether or not she is personally liable.*
+
+**8. A partner has $20,000 of losses suspended under IRC § 704(d). In the following year he is allocated no income, but the partnership borrows and his share of its liabilities rises by $35,000. What happens to the suspended loss?**
+(A) It stays suspended, because only allocated income restores basis (B) It is allowed in full, because the liability increase is a deemed contribution that restores basis (C) It is allowed only to the extent of $15,000 (D) It is lost permanently at the end of the year in which it was suspended
+*Answer: B. The increase in his share of liabilities is a deemed contribution of money under IRC § 752(a), and IRC § 704(d)(2) allows a suspended loss when basis is restored — by a liability increase as readily as by income.*

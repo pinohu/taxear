@@ -267,3 +267,15 @@ includes the value in his 2026 return. In which year does the corporation deduct
 for whom the services were performed in which or with which ends the taxable year in which the amount is
 included in the service provider's gross income. The consultant's 2026 year ends 31 December 2026, which
 falls within the corporation's year ending 30 June 2027.*
+
+**6. A consultant receives shares worth $60,000 for services already performed, paying $10,000 for them. The shares are transferable immediately and not subject to any risk of forfeiture. What does she include, and when?**
+(A) Nothing until the shares are sold (B) $50,000 of ordinary compensation income in the year of receipt (C) $60,000 of capital gain in the year of receipt (D) $50,000 of capital gain when the shares are sold
+*Answer: B. IRC § 83(a) includes the value of the stock less anything paid for it as ordinary compensation income at the first moment the shares are transferable or not subject to a substantial risk of forfeiture, which here is immediately.*
+
+**7. A founder receives restricted stock worth $2,000 at formation, vesting over four years, and makes a timely IRC § 83(b) election. The stock is worth $500,000 when it fully vests. What does she include at vesting?**
+(A) $500,000 (B) Nothing at vesting; she included $2,000 in the year of transfer (C) $498,000 (D) $2,000 at vesting
+*Answer: B. IRC § 83(b) fixes the inclusion at the value on the date of transfer, disregarding restrictions that will lapse, so IRC § 83(a) does not apply at vesting and everything afterwards is capital appreciation on stock she already owns.*
+
+**8. Two property transferors receive 100 percent of a new corporation's issued shares. At the same time a key employee receives warrants over 30 percent of the fully diluted equity for agreeing to join. Do the property transferors have control?**
+(A) No, because the warrants dilute them below 80 percent (B) Yes, because stock rights and warrants are not "stock" for the control computation (C) No, because the warrants are stock issued for services (D) Yes, but only if the warrants are never exercised
+*Answer: B. Reg. § 1.351-1(a)(1) excludes stock rights and stock warrants from the term "stock", so the warrants are not counted in the IRC § 368(c) computation and the transferors hold 100 percent of the stock that exists.*

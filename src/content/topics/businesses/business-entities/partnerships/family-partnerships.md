@@ -272,3 +272,15 @@ partnership taxable years beginning after 31 December 2015 and inserted a differ
 IRC § 761(b), which says only that gift derivation is disregarded rather than that the person is
 recognised. What is now § 704(e)(1) is the donee distributive share rule, so the citation points at a real
 provision saying something else.*
+
+**6. A parent gives a child a 20 percent capital interest in a manufacturing partnership, keeping 80 percent, and is paid reasonable compensation for managing it. The agreement then allocates 40 percent of the remaining profits to the child. Is the child's share respected?**
+(A) Yes, because reasonable compensation to the parent has already been allowed (B) No, because the child's share for donated capital is proportionately greater than the parent's share for the parent's own capital (C) Yes, because partners are free to agree any profit split (D) No, because a gift-derived partner may not share in profits at all
+*Answer: B. IRC § 704(e)(1) imposes two limits that operate together: after reasonable compensation to the donor, the donee's share attributable to donated capital may not be proportionately greater than the donor's share attributable to the donor's capital.*
+
+**7. A taxpayer sells a capital interest in the family business to her brother for full fair market value. Is the interest treated as created by gift?**
+(A) Yes, because any sale between relatives is treated as a gift (B) No, because siblings are outside the definition of family for this purpose (C) Yes, unless the price is full fair market value (D) No, because the sale was for cash rather than a promissory note
+*Answer: B. IRC § 704(e)(2) treats an intra-family purchase as a gift, but family there reaches only the spouse, ancestors, lineal descendants and trusts primarily for their benefit; a brother is outside it.*
+
+**8. A parent gives her daughter a right to 20 percent of the profits of an inventory-heavy wholesale business, with no right to any assets on withdrawal or liquidation. Does the daughter hold a capital interest?**
+(A) Yes, because capital is a material income-producing factor in the business (B) No: a capital interest is an interest in assets distributable on withdrawal or liquidation, and a mere right to share in profits is not one (C) Yes, because a daughter is a lineal descendant (D) No, because profits interests may only be given to a spouse
+*Answer: B. Reg. § 1.704-1(e)(1)(v) defines a capital interest as an interest in the assets of the partnership distributable to its owner on withdrawal or liquidation, and the mere right to participate in earnings and profits is not one.*

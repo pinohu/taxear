@@ -291,3 +291,15 @@ $400,000. A partner sells his interest. Is a basis adjustment required?
 basis in partnership property exceeds the fair market value of that property by more than the statutory
 threshold, and IRC § 743(a) makes the adjustment mandatory in that case even though no IRC § 754 election
 has been made. The adjustment is downward as to the transferee.*
+
+**6. A partnership holds no receivables and no inventory, but owns fully depreciated equipment worth well above its written-down cost. A partner sells his interest at a gain. What is the character of the gain?**
+(A) All capital, because the partnership has no receivables or inventory (B) Part ordinary, because unrealized receivables include the recapture on the equipment (C) All ordinary, because the partnership holds depreciable property (D) All capital, unless an IRC § 754 election is in effect
+*Answer: B. IRC § 751(c) extends unrealized receivables to IRC § 1245 property to the extent of the recapture, so a partnership with depreciated equipment has hot assets and IRC § 751(a) treats that part of the amount received as ordinary.*
+
+**7. A partner's outside basis is $120,000, including a $50,000 share of partnership liabilities. She sells her interest for $140,000 of cash and the buyer takes over her share of the debt. Her share of the ordinary income embedded in the partnership's unrealized receivables is $60,000. What does she report?**
+(A) $20,000 of capital gain (B) $70,000 of capital gain (C) $60,000 of ordinary income and $10,000 of capital gain (D) $60,000 of ordinary income and a $40,000 capital loss
+*Answer: C. The amount realised is $190,000 once the $50,000 of relieved liabilities is added under IRC § 752(b); IRC § 751(a) takes $60,000 as ordinary, and the residual $130,000 against her $120,000 basis is a $10,000 capital gain under IRC § 741.*
+
+**8. A buyer pays far more for a partnership interest than her share of the partnership's inside basis and wants that basis adjusted. Who can make the IRC § 754 election, and for how long does it apply?**
+(A) The buyer, by filing it with her own return for the year of purchase (B) The partnership, and it then applies to all transfers and distributions in that year and every subsequent year (C) The partnership, for this transfer only, and it lapses the following year (D) Nobody; the adjustment is automatic whenever the price exceeds inside basis
+*Answer: B. The IRC § 754 election is made by the partnership, not the buyer, and it is not revocable at will: it applies to all distributions and transfers in the year filed and in every subsequent year, which is why partnerships hesitate to make it.*

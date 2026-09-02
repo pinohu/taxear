@@ -260,3 +260,15 @@ they large corporations for estimated tax purposes?
 large corporation test, and $1,500,000 exceeds the $1,000,000 threshold. Each therefore loses the
 prior-year branch under IRC § 6655(d)(2)(A) except for the first instalment, even though none of them
 reaches the threshold alone.*
+
+**6. Holding corporation H owns 60 percent of the stock of each of corporations X and Y. No individual owns more than 10 percent of either. Do X and Y form a controlled group with H?**
+(A) Yes, a brother-sister group, because H holds more than 50 percent of each identically (B) No: a corporation cannot be one of the five persons in the brother-sister test, and 60 percent is below the parent-subsidiary threshold (C) Yes, a combined group, because H is common to both (D) No, because a brother-sister group requires exactly equal percentages in each corporation
+*Answer: B. IRC § 1563(a)(2) counts only persons who are individuals, estates or trusts, so a holding company is tested under the parent-subsidiary limb of IRC § 1563(a)(1), where 60 percent falls short of the 80 percent floor.*
+
+**7. A calendar-year corporation joins a parent-subsidiary group on 12 February 2026 and is sold out of it on 20 November 2026. Is it a component member of the group for 2026?**
+(A) Yes, because it was a member for more than half the days of the year (B) No, because membership is fixed on the 31 December included in the taxable year and it had left by then (C) Yes, for the nine months it was a member, on a pro rata basis (D) No, because a corporation must be a member for the entire year
+*Answer: B. IRC § 1563(b)(1) fixes component membership on the 31 December included in the taxable year, so a corporation that left the group in November is not a member for that year.*
+
+**8. A parent holds stock possessing 79 percent of a subsidiary's voting power and 79 percent of its value. Is the subsidiary in a parent-subsidiary controlled group?**
+(A) Yes, because 79 percent rounds to the 80 percent threshold (B) Yes, because the two limbs together exceed 80 percent (C) No, because the test requires at least 80 percent of voting power or of value and neither limb reaches it (D) Yes, as a combined group under the insurance company rules
+*Answer: C. IRC § 1563(a)(1) requires stock possessing at least 80 percent of the total combined voting power or at least 80 percent of the total value; eighty percent is a floor, and 79 percent is outside however close it looks.*

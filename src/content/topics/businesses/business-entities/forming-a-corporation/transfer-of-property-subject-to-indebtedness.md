@@ -265,3 +265,15 @@ subject to $575,000 of debt. He is economically underwater. Does he recognise ga
 *Answer: yes, $365,000. IRC § 357(c)(1) measures the excess of liabilities assumed over the aggregate
 adjusted basis of the property transferred, and does not look at fair market value at all. That the
 transferor has an overall economic loss on the property does not affect the computation.*
+
+**6. A transferor contributes two properties to a controlled corporation: a building with a basis of $100,000 subject to a $260,000 mortgage, and unencumbered land with a basis of $200,000. What gain arises under IRC § 357(c)?**
+(A) $160,000, the excess of the mortgage over the basis of the building it encumbers (B) Nothing, because $260,000 does not exceed the $300,000 aggregate basis of all the property transferred (C) $260,000, the whole liability assumed (D) $60,000
+*Answer: B. IRC § 357(c)(1) compares the liabilities assumed with the total adjusted basis of the property transferred, so the two bases are aggregated and the mortgage does not exceed them.*
+
+**7. A cash-basis proprietor incorporates, transferring receivables with a zero basis and equipment with a basis of $20,000, and the corporation assumes $35,000 of trade payables. What is her basis in the stock received?**
+(A) Nil, because the payables exceed her basis and reduce it to zero (B) $20,000 (C) A negative basis of $15,000 (D) $35,000
+*Answer: B. IRC § 358(d)(2) leaves out of the stock basis computation the same deductible liabilities that IRC § 357(c)(3) excludes, so the payables do not reduce her basis and it stays at the $20,000 she had in the equipment.*
+
+**8. A transferor contributes a building worth $2,000,000 with a basis of $900,000, subject to a $600,000 mortgage taken out years ago for the business, to a corporation he will wholly own, receiving only stock. What is the consequence?**
+(A) $600,000 of boot, with gain recognised up to that amount (B) The exchange fails because he received something other than stock (C) No gain: the assumed liability is not money or other property, and it does not exceed his basis (D) $300,000 of gain, the excess of his basis over the liability
+*Answer: C. IRC § 357(a) provides that a liability assumed by the corporation is not treated as money or other property, so it produces no boot and does not disqualify the exchange; IRC § 357(c) is not triggered because $600,000 is below the $900,000 basis.*

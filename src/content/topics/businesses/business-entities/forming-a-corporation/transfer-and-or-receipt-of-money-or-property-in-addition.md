@@ -250,3 +250,15 @@ the holding period of the stock received?
 held where the property received takes the same basis in whole or in part, provided the property exchanged
 was a capital asset or IRC § 1231 property at the time of the exchange. Shares held as an investment
 qualify; inventory would not, and the stock's holding period would then begin afresh.*
+
+**6. A transferor gives property worth $700,000 with a basis of $600,000 and receives stock worth $500,000 and $200,000 of cash in a qualifying exchange. What is the corporation's basis in the property?**
+(A) $800,000 (B) $600,000 (C) $700,000 (D) $500,000
+*Answer: C. Gain recognised is $100,000, the lesser of the $100,000 realised gain and the $200,000 of boot under IRC § 351(b)(1); under IRC § 362(a) the corporation takes the $600,000 transferred basis increased by the gain recognised, not by the boot it paid.*
+
+**7. A transferor gives two assets: shares worth $600,000 with a basis of $200,000, and equipment worth $200,000 with a basis of $350,000. He receives stock worth $640,000 and $160,000 of cash. What gain is recognised?**
+(A) $160,000 (B) $120,000 (C) $250,000 (D) Nothing, because the combined realised gain is offset by the loss
+*Answer: B. The boot is allocated by relative fair market value, $120,000 to the shares and $40,000 to the equipment; the shares recognise $120,000 under IRC § 351(b)(1), and the equipment's realised loss produces nothing because IRC § 351(b)(2) recognises no loss.*
+
+**8. A transferor contributes inventory she has held for two years to a corporation in exchange for stock. What is the holding period of the stock?**
+(A) It includes the two years (B) It begins afresh on the exchange (C) It includes the two years only if the corporation holds the inventory as a capital asset (D) It includes the two years, tacked under the corporation's holding period rule
+*Answer: B. IRC § 1223(1) tacks the holding period only where the property exchanged was a capital asset or IRC § 1231 property in the transferor's hands, and inventory is neither.*
