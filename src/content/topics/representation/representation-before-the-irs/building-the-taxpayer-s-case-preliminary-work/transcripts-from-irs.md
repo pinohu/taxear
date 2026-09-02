@@ -10,7 +10,7 @@ taxYear: 2026
 lastReviewed: "2026-08-18"
 reviewedBy: "N. O."
 authorities:
-  - { type: Pub, ref: "IRS, Transcript types", title: "Transcript types and ways to order them, page last reviewed 10 March 2026", url: "https://www.irs.gov/individuals/transcript-types-and-ways-to-order-them" }
+  - { type: Pub, ref: "IRS, Transcript types", title: "Transcript types and ways to order them, page last reviewed 10 March 2026", url: "https://www.irs.gov/individuals/transcript-types-for-individuals-and-ways-to-order-them" }
   - { type: Pub, ref: "IRS, TDS", title: "Transcript Delivery System (TDS), page last reviewed 10 June 2026", url: "https://www.irs.gov/tax-professionals/transcript-delivery-system-tds" }
   - { type: Form, ref: "4506-T", title: "Request for Transcript of Tax Return", url: "https://www.irs.gov/forms-pubs/about-form-4506-t" }
   - { type: IRC, ref: "§ 6103", title: "Confidentiality and disclosure of returns and return information", url: "https://www.law.cornell.edu/uscode/text/26/6103" }

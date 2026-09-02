@@ -14,7 +14,7 @@ authorities:
   - { type: Reg, ref: "§ 301.6109-1", title: "Identifying numbers", url: "https://www.law.cornell.edu/cfr/text/26/301.6109-1" }
   - { type: IRC, ref: "§ 708(b)(1)(B)", title: "Continuation of partnership", url: "https://www.law.cornell.edu/uscode/text/26/708" }
   - { type: Form, ref: "SS-4", title: "Application for Employer Identification Number", url: "https://www.irs.gov/forms-pubs/about-form-ss-4" }
-  - { type: Pub, ref: "New EIN", title: "Do you need a new EIN?", url: "https://www.irs.gov/businesses/small-businesses-self-employed/do-you-need-a-new-ein" }
+  - { type: Pub, ref: "New EIN", title: "Do you need a new EIN?", url: "https://www.irs.gov/businesses/small-businesses-self-employed/when-to-get-a-new-ein" }
   - { type: Pub, ref: "Responsible parties", title: "Responsible parties and nominees", url: "https://www.irs.gov/businesses/small-businesses-self-employed/responsible-parties-and-nominees" }
   - { type: Pub, ref: "Get an EIN", title: "Get an employer identification number", url: "https://www.irs.gov/businesses/small-businesses-self-employed/get-an-employer-identification-number" }
 forms: ["SS-4"]

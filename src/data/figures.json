@@ -2411,7 +2411,7 @@
     "idtheft.dependent_efile": {
       "value": "beginning with 2024 tax returns the IRS accepts e-filed Forms 1040, 1040-NR and 1040-SS even where a dependent has already been claimed on another return, provided the primary taxpayer on the second return includes a valid IP PIN — the dependent needs no IP PIN unless one was previously issued",
       "taxYear": 2026,
-      "source": "IRS, \"Identity theft guide for individuals,\" page last reviewed 4 June 2026 — https://www.irs.gov/newsroom/taxpayer-guide-to-identity-theft",
+      "source": "IRS, \"Identity theft guide for individuals,\" page last reviewed 4 June 2026 — https://www.irs.gov/identity-theft-central/identity-theft-guide-for-individuals",
       "verified": "2026-08-18"
     },
     "idtheft.ippin_delivery": {
@@ -2447,7 +2447,7 @@
     "idtheft.steps": {
       "value": "stop interacting with the thief; update the Online Account password; follow the instructions in the IRS letter or notice; report the theft and follow the recovery steps at IdentityTheft.gov; get an IP PIN; keep records of letters, calls and emails; file returns and pay tax as usual; and check with the state tax agency",
       "taxYear": 2026,
-      "source": "IRS, \"Identity theft guide for individuals,\" page last reviewed 4 June 2026 — https://www.irs.gov/newsroom/taxpayer-guide-to-identity-theft",
+      "source": "IRS, \"Identity theft guide for individuals,\" page last reviewed 4 June 2026 — https://www.irs.gov/identity-theft-central/identity-theft-guide-for-individuals",
       "verified": "2026-08-18"
     },
     "income.61_items": {
@@ -4931,7 +4931,7 @@
     "tas.reasons": {
       "value": "9, in 3 groups — financial hardship (reasons 1–4: hardship suffered or about to be suffered, immediate threat of negative action, major costs if relief is not granted, irreparable injury or long-term impact); IRS system issue (5–7: a delay of more than 30 days, no response or resolution by the date the IRS promised, a system or procedure that failed to operate as intended); and fair and equitable treatment (8–9: administration of the tax laws raising equity considerations or impairing taxpayer rights, and compelling public policy as determined by the National Taxpayer Advocate)",
       "taxYear": 2026,
-      "source": "Taxpayer Advocate Service, \"Can TAS help me with my tax issue\" — https://www.taxpayeradvocate.irs.gov/can-tas-help-me-with-my-tax-issue/",
+      "source": "Taxpayer Advocate Service, \"Can TAS help me with my tax issue\" — https://www.taxpayeradvocate.irs.gov/get-help/",
       "verified": "2026-08-18"
     },
     "tas.significant_hardship": {
@@ -5189,31 +5189,31 @@
     "transcript.account_years": {
       "value": "the current and nine prior tax years through Individual Online Account, but only the current and three prior years by mail or telephone; older years need Form 4506-T",
       "taxYear": 2026,
-      "source": "IRS, Transcript types for individuals and ways to order them (page last reviewed 10 March 2026) — https://www.irs.gov/individuals/transcript-types-and-ways-to-order-them",
+      "source": "IRS, Transcript types for individuals and ways to order them (page last reviewed 10 March 2026) — https://www.irs.gov/individuals/transcript-types-for-individuals-and-ways-to-order-them",
       "verified": "2026-08-19"
     },
     "transcript.availability": {
       "value": "tax return transcript and record of account, the current and 3 prior tax years; tax account transcript, the current and 9 prior years through the Individual Online Account or the current and 3 prior by mail or phone; wage and income transcript, the current and 9 prior years; verification of non-filing, after 15 June for the current year or any time for the prior 3 — older years by Form 4506-T",
       "taxYear": 2026,
-      "source": "IRS, \"Transcript types and ways to order them,\" page last reviewed 10 March 2026 — https://www.irs.gov/individuals/transcript-types-and-ways-to-order-them",
+      "source": "IRS, \"Transcript types and ways to order them,\" page last reviewed 10 March 2026 — https://www.irs.gov/individuals/transcript-types-for-individuals-and-ways-to-order-them",
       "verified": "2026-08-18"
     },
     "transcript.nonfiling_window": {
       "value": "after 15 June for the current tax year, or at any time for the prior three tax years; Form 4506-T for older years",
       "taxYear": 2026,
-      "source": "IRS, Transcript types for individuals and ways to order them (page last reviewed 10 March 2026) — https://www.irs.gov/individuals/transcript-types-and-ways-to-order-them",
+      "source": "IRS, Transcript types for individuals and ways to order them (page last reviewed 10 March 2026) — https://www.irs.gov/individuals/transcript-types-for-individuals-and-ways-to-order-them",
       "verified": "2026-08-19"
     },
     "transcript.not_a_copy": {
       "value": "a transcript is not a photocopy of the return; a copy of the original return is obtained on Form 4506, which carries a processing time and a fee",
       "taxYear": 2026,
-      "source": "IRS, \"Transcript types and ways to order them,\" page last reviewed 10 March 2026 — https://www.irs.gov/individuals/transcript-types-and-ways-to-order-them",
+      "source": "IRS, \"Transcript types and ways to order them,\" page last reviewed 10 March 2026 — https://www.irs.gov/individuals/transcript-types-for-individuals-and-ways-to-order-them",
       "verified": "2026-08-18"
     },
     "transcript.return_years": {
       "value": "the current and three prior tax years",
       "taxYear": 2026,
-      "source": "IRS, Transcript types for individuals and ways to order them (page last reviewed 10 March 2026) — https://www.irs.gov/individuals/transcript-types-and-ways-to-order-them",
+      "source": "IRS, Transcript types for individuals and ways to order them (page last reviewed 10 March 2026) — https://www.irs.gov/individuals/transcript-types-for-individuals-and-ways-to-order-them",
       "verified": "2026-08-19"
     },
     "transcript.schedule_c_limit": {
@@ -5237,19 +5237,19 @@
     "transcript.wage_doc_limit": {
       "value": "approximately 85 income documents, above which the transcript will not generate through Individual Online Account and Form 4506-T is required",
       "taxYear": 2026,
-      "source": "IRS, Transcript types for individuals and ways to order them (page last reviewed 10 March 2026) — https://www.irs.gov/individuals/transcript-types-and-ways-to-order-them",
+      "source": "IRS, Transcript types for individuals and ways to order them (page last reviewed 10 March 2026) — https://www.irs.gov/individuals/transcript-types-for-individuals-and-ways-to-order-them",
       "verified": "2026-08-19"
     },
     "transcript.wage_limit": {
       "value": "a wage and income transcript is limited to approximately 85 income documents; beyond that it will not generate through the Individual Online Account and Form 4506-T must be submitted — and current processing year information is generally available in the first week of February",
       "taxYear": 2026,
-      "source": "IRS, \"Transcript types and ways to order them,\" page last reviewed 10 March 2026 — https://www.irs.gov/individuals/transcript-types-and-ways-to-order-them",
+      "source": "IRS, \"Transcript types and ways to order them,\" page last reviewed 10 March 2026 — https://www.irs.gov/individuals/transcript-types-for-individuals-and-ways-to-order-them",
       "verified": "2026-08-18"
     },
     "transcript.wage_years": {
       "value": "the current and nine prior tax years, with the current processing year generally available in the first week of February",
       "taxYear": 2026,
-      "source": "IRS, Transcript types for individuals and ways to order them (page last reviewed 10 March 2026) — https://www.irs.gov/individuals/transcript-types-and-ways-to-order-them",
+      "source": "IRS, Transcript types for individuals and ways to order them (page last reviewed 10 March 2026) — https://www.irs.gov/individuals/transcript-types-for-individuals-and-ways-to-order-them",
       "verified": "2026-08-19"
     },
     "treaty.disclosure": {
@@ -6137,7 +6137,7 @@
     "injured.offsets": {
       "value": "past-due child support under IRC § 6402(c), a past-due legally enforceable debt owed to a federal agency under § 6402(d), a past-due state income tax obligation under § 6402(e), and a covered state unemployment compensation debt under § 6402(f) — offsets are run by the Bureau of the Fiscal Service under the Treasury Offset Program, not by the IRS",
       "taxYear": 2026,
-      "source": "IRC § 6402(c)–(f) read at law.cornell.edu/uscode/text/26/6402 and IRS Topic no. 203 read at irs.gov/taxtopics/tc203",
+      "source": "IRC § 6402(c)–(f) read at law.cornell.edu/uscode/text/26/6402 and IRS Topic no. 203 read at www.irs.gov/refunds/reduced-refund (the page that replaced Topic no. 203)",
       "verified": "2026-08-19"
     },
     "injured.internal_offset": {
@@ -6149,7 +6149,7 @@
     "injured.notice": {
       "value": "the Bureau of the Fiscal Service, not the IRS, sends the notice showing the original refund, the offset and the agency paid, and the IRS is not told the details — a taxpayer should contact the Bureau unless the refund figure on the notice differs from the return",
       "taxYear": 2026,
-      "source": "IRS Topic no. 203 (page last reviewed 1 June 2026), read at irs.gov/taxtopics/tc203",
+      "source": "IRS Topic no. 203 (page last reviewed 1 June 2026), read at www.irs.gov/refunds/reduced-refund (the page that replaced Topic no. 203)",
       "verified": "2026-08-19"
     },
     "innocent.three_routes": {
@@ -7667,25 +7667,25 @@
     "vd.streamlined_periods": {
       "value": "the most recent 3 years for which the return due date, including any properly applied for extension, has passed, together with all required information returns — and the most recent 6 years for which the FBAR due date has passed",
       "taxYear": 2026,
-      "source": "IRS, U.S. taxpayers residing outside the United States, irs.gov/individuals/international-taxpayers/u-s-taxpayers-residing-outside-the-united-states; IRS, U.S. taxpayers residing in the United States, irs.gov/individuals/international-taxpayers/u-s-taxpayers-residing-in-the-united-states",
+      "source": "IRS, U.S. taxpayers residing outside the United States, irs.gov/individuals/international-taxpayers/us-taxpayers-residing-outside-the-united-states; IRS, U.S. taxpayers residing in the United States, irs.gov/individuals/international-taxpayers/us-taxpayers-residing-in-the-united-states",
       "verified": "2026-08-21"
     },
     "vd.foreign_terms": {
       "value": "no failure-to-file, failure-to-pay, accuracy-related, information return or FBAR penalties for a taxpayer meeting the non-residency requirement who complies — and that protection survives a later audit unless the examination determines the original noncompliance was fraudulent or the FBAR violation willful",
       "taxYear": 2026,
-      "source": "IRS, U.S. taxpayers residing outside the United States, irs.gov/individuals/international-taxpayers/u-s-taxpayers-residing-outside-the-united-states",
+      "source": "IRS, U.S. taxpayers residing outside the United States, irs.gov/individuals/international-taxpayers/us-taxpayers-residing-outside-the-united-states",
       "verified": "2026-08-21"
     },
     "vd.domestic_penalty": {
       "value": "a Title 26 miscellaneous offshore penalty of 5 percent of the highest aggregate balance or value of the foreign financial assets subject to it — found by aggregating year-end balances and values for each year in the 3-year covered tax return period and the 6-year covered FBAR period and taking the highest of those years",
       "taxYear": 2026,
-      "source": "IRS, U.S. taxpayers residing in the United States, irs.gov/individuals/international-taxpayers/u-s-taxpayers-residing-in-the-united-states",
+      "source": "IRS, U.S. taxpayers residing in the United States, irs.gov/individuals/international-taxpayers/us-taxpayers-residing-in-the-united-states",
       "verified": "2026-08-21"
     },
     "vd.domestic_eligibility": {
       "value": "the taxpayer must fail the non-residency requirement, must have previously filed a return for each of the most recent 3 years for which the due date has passed, must have failed to report gross income from a foreign financial asset, and the failures must have been non-willful",
       "taxYear": 2026,
-      "source": "IRS, U.S. taxpayers residing in the United States, irs.gov/individuals/international-taxpayers/u-s-taxpayers-residing-in-the-united-states",
+      "source": "IRS, U.S. taxpayers residing in the United States, irs.gov/individuals/international-taxpayers/us-taxpayers-residing-in-the-united-states",
       "verified": "2026-08-21"
     },
     "vd.streamlined_no_closure": {
@@ -8087,7 +8087,7 @@
     "exempt.990_series": {
       "value": "gross receipts normally $50,000 or less — Form 990-N, with the option of filing a full return instead; gross receipts under $200,000 and total assets under $500,000 — Form 990-EZ or Form 990; gross receipts of $200,000 or more, or total assets of $500,000 or more — Form 990; a private foundation files Form 990-PF regardless of amount",
       "taxYear": 2026,
-      "source": "IRS, Form 990 series: Which forms do exempt organizations file, page last reviewed 28 June 2026, read at irs.gov/charities-non-profits/form-990-series-which-forms-do-exempt-organizations-file-filing-phase-in",
+      "source": "IRS, Form 990 series: Which forms do exempt organizations file, page last reviewed 28 June 2026, read at irs.gov/charities-non-profits/form-990-series-which-forms-do-exempt-organizations-file",
       "verified": "2026-08-21"
     },
     "exempt.990n_normally": {
@@ -8243,25 +8243,25 @@
     "ein.new_sole_proprietor": {
       "value": "a sole proprietor needs a new employer identification number on incorporating, on forming a partnership, or on declaring bankruptcy, and does not need one on changing the business name or location or on owning multiple businesses",
       "taxYear": 2026,
-      "source": "IRS, Do you need a new EIN?, page last reviewed 21 July 2026, read at irs.gov/businesses/small-businesses-self-employed/do-you-need-a-new-ein",
+      "source": "IRS, Do you need a new EIN?, page last reviewed 21 July 2026, read at irs.gov/businesses/small-businesses-self-employed/when-to-get-a-new-ein",
       "verified": "2026-08-21"
     },
     "ein.new_corporation": {
       "value": "a corporation needs a new employer identification number on receiving a new charter from the secretary of state, on becoming a subsidiary of another corporation, on changing to a partnership or sole proprietorship, or on merging to create a new corporation — and does not need one on changing name or location, declaring bankruptcy, being a division, surviving a merger, electing S corporation status, reorganising to change only identity or location, or converting at State level without changing structure",
       "taxYear": 2026,
-      "source": "IRS, Do you need a new EIN?, page last reviewed 21 July 2026, read at irs.gov/businesses/small-businesses-self-employed/do-you-need-a-new-ein",
+      "source": "IRS, Do you need a new EIN?, page last reviewed 21 July 2026, read at irs.gov/businesses/small-businesses-self-employed/when-to-get-a-new-ein",
       "verified": "2026-08-21"
     },
     "ein.new_partnership": {
       "value": "a partnership needs a new employer identification number on incorporating, on one partner taking over to operate as a sole proprietor, or on ending a partnership and beginning a new one — and does not need one on changing name or location, declaring bankruptcy, or undergoing a change in ownership that does not terminate the partnership",
       "taxYear": 2026,
-      "source": "IRS, Do you need a new EIN?, page last reviewed 21 July 2026, read at irs.gov/businesses/small-businesses-self-employed/do-you-need-a-new-ein",
+      "source": "IRS, Do you need a new EIN?, page last reviewed 21 July 2026, read at irs.gov/businesses/small-businesses-self-employed/when-to-get-a-new-ein",
       "verified": "2026-08-21"
     },
     "ein.new_llc": {
       "value": "an LLC needs a new employer identification number on terminating and forming a new corporation or partnership, or where a single-member LLC must file excise or employment taxes — and does not need one on changing name or location, reporting as a branch or division of another entity with no employees and no excise tax, converting a partnership to an LLC classified as a partnership, or changing its tax election to a corporation or S corporation",
       "taxYear": 2026,
-      "source": "IRS, Do you need a new EIN?, page last reviewed 21 July 2026, read at irs.gov/businesses/small-businesses-self-employed/do-you-need-a-new-ein",
+      "source": "IRS, Do you need a new EIN?, page last reviewed 21 July 2026, read at irs.gov/businesses/small-businesses-self-employed/when-to-get-a-new-ein",
       "verified": "2026-08-21"
     },
     "ein.section708": {
@@ -13127,19 +13127,19 @@
     "inc.gains_in_dni": {
       "value": "capital gains enter distributable net income where, under the instrument, local law, or a reasonable and impartial exercise of the fiduciary’s discretion, they are allocated to income, or allocated to corpus but consistently treated on the books and returns as part of a distribution, or allocated to corpus but actually distributed or used in determining what is distributed",
       "taxYear": 2026,
-      "source": "Reg. § 1.643(a)-3, opened at law.cornell.edu/cfr/text/26/1.643(a)-3(b)",
+      "source": "Reg. § 1.643(a)-3, opened at www.law.cornell.edu/cfr/text/26/1.643(a)-3, paragraph (b)",
       "verified": "2026-08-21"
     },
     "inc.gains_charity": {
       "value": "capital gains paid, permanently set aside or to be used for IRC § 642(c) purposes, so that a charitable deduction is allowed for them, must be included in distributable net income",
       "taxYear": 2026,
-      "source": "Reg. § 1.643(a)-3, opened at law.cornell.edu/cfr/text/26/1.643(a)-3(c)",
+      "source": "Reg. § 1.643(a)-3, opened at www.law.cornell.edu/cfr/text/26/1.643(a)-3, paragraph (c)",
       "verified": "2026-08-21"
     },
     "inc.capital_losses": {
       "value": "capital losses are first netted at the trust level against capital gains, except for a gain used in determining the amount distributed to a particular beneficiary — with the loss carryover on final termination governed by Reg. § 1.642(h)-1",
       "taxYear": 2026,
-      "source": "Reg. § 1.643(a)-3, opened at law.cornell.edu/cfr/text/26/1.643(a)-3(d)",
+      "source": "Reg. § 1.643(a)-3, opened at www.law.cornell.edu/cfr/text/26/1.643(a)-3, paragraph (d)",
       "verified": "2026-08-21"
     },
     "k1t.tier_one": {

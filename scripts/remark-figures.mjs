@@ -41,7 +41,8 @@ function sourceHtml(source) {
         trail = ')' + trail; m = m.slice(0, -1); changed = true;
       }
     }
-    const href = m.startsWith('http') ? m : 'https://' + m;
+    // Both hosts redirect their bare form to www; link the www form directly.
+    const href = (m.startsWith('http') ? m : 'https://' + m).replace(/^https?:\/\/(law\.cornell\.edu|irs\.gov)\//, 'https://www.$1/');
     return `<a href="${href}" rel="noopener">${m}</a>${trail}`;
   });
 }

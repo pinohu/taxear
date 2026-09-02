@@ -11,8 +11,8 @@ lastReviewed: "2026-08-21"
 reviewedBy: "Draft for N. O. review"
 authorities:
   - { type: Pub, ref: "Streamlined procedures", title: "Streamlined filing compliance procedures", url: "https://www.irs.gov/individuals/international-taxpayers/streamlined-filing-compliance-procedures" }
-  - { type: Pub, ref: "Streamlined foreign", title: "U.S. taxpayers residing outside the United States", url: "https://www.irs.gov/individuals/international-taxpayers/u-s-taxpayers-residing-outside-the-united-states" }
-  - { type: Pub, ref: "Streamlined domestic", title: "U.S. taxpayers residing in the United States", url: "https://www.irs.gov/individuals/international-taxpayers/u-s-taxpayers-residing-in-the-united-states" }
+  - { type: Pub, ref: "Streamlined foreign", title: "U.S. taxpayers residing outside the United States", url: "https://www.irs.gov/individuals/international-taxpayers/us-taxpayers-residing-outside-the-united-states" }
+  - { type: Pub, ref: "Streamlined domestic", title: "U.S. taxpayers residing in the United States", url: "https://www.irs.gov/individuals/international-taxpayers/us-taxpayers-residing-in-the-united-states" }
   - { type: Pub, ref: "VDP", title: "IRS Criminal Investigation Voluntary Disclosure Practice", url: "https://www.irs.gov/compliance/criminal-investigation/irs-criminal-investigation-voluntary-disclosure-practice" }
   - { type: IRM, ref: "IRM 9.5.11.9", title: "Voluntary Disclosure Practice", url: "https://www.irs.gov/compliance/criminal-investigation/irs-criminal-investigation-voluntary-disclosure-practice" }
   - { type: IRC, ref: "§ 7701", title: "Definitions", url: "https://www.law.cornell.edu/uscode/text/26/7701" }

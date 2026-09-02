@@ -12,7 +12,7 @@ reviewedBy: "N. O."
 authorities:
   - { type: IRC, ref: "§ 7803", title: "Commissioner of Internal Revenue — Office of the Taxpayer Advocate at (c)", url: "https://www.law.cornell.edu/uscode/text/26/7803" }
   - { type: IRC, ref: "§ 7811", title: "Taxpayer Assistance Orders", url: "https://www.law.cornell.edu/uscode/text/26/7811" }
-  - { type: Pub, ref: "TAS, Can TAS help me", title: "Can TAS help me with my tax issue — the nine reasons", url: "https://www.taxpayeradvocate.irs.gov/can-tas-help-me-with-my-tax-issue/" }
+  - { type: Pub, ref: "TAS, Can TAS help me", title: "Can TAS help me with my tax issue — the nine reasons", url: "https://www.taxpayeradvocate.irs.gov/get-help/" }
   - { type: Form, ref: "911", title: "Request for Taxpayer Advocate Service Assistance", url: "https://www.irs.gov/pub/irs-pdf/f911.pdf" }
 forms: []
 related: ["3.2.6.e", "3.2.6.a", "3.3.3.h", "3.2.6.f", "3.2.6.i", "3.2.5.f"]
