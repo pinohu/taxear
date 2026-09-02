@@ -1,54 +1,104 @@
 ---
 import StudyBase from '../layouts/StudyBase.astro';
+// Counts and the free sample come from the generated bank at build time; only the
+// three sample items are ever written into HTML. Everything else is served by the
+// Functions after sign-in.
+import part1 from '../data/questions/part-1.json';
+import part2 from '../data/questions/part-2.json';
+import part3 from '../data/questions/part-3.json';
+const parts = [part1, part2, part3];
+const totalQ = parts.reduce((a, p) => a + p.counts.questions, 0);
+const totalD = parts.reduce((a, p) => a + p.counts.drills, 0);
+// Display prices; the charge itself is the Stripe Price the Function uses. Keep them
+// in step: PUBLIC_PRICE_* in the Pages project, or these defaults.
+const price = { part: import.meta.env.PUBLIC_PRICE_PART || '$29', all: import.meta.env.PUBLIC_PRICE_ALL || '$59' };
+const sample = [
+  part3.questions.find((q) => q.code === '3.3.1.c') || part3.questions[0],
+  part1.questions.find((q) => q.source === 'handwritten') || part1.questions[0],
+].filter(Boolean);
+const sampleDrill = part2.drills[0] || part1.drills[0];
+const fmt = (n) => n.toLocaleString('en-US');
 ---
 <StudyBase
-  title="Original practice exams for the IRS Enrolled Agent exam"
-  description="Timed, original multiple-choice practice questions mapped to the IRS Special Enrollment Examination outline, from the team behind TaxEar.">
+  title="Practice exams built from every page of TaxEar"
+  description="Timed practice exams and recall drills for the IRS Enrolled Agent exam, built from the original questions on every TaxEar reference page, with a link from each question back to the rule it tests.">
   <p class="eyebrow">A companion to taxear.com</p>
-  <h1>Practice questions for the Enrolled Agent exam, mapped to the outline</h1>
-  <p>Every question here is written from scratch for this product and tagged to the same
-    IRS Special Enrollment Examination outline code as the reference page it pairs with on
-    <a href="https://taxear.com/">taxear.com</a> — never reproduced or adapted from any
-    commercial study guide or question bank.</p>
+  <h1>Practice the Enrolled Agent exam on the questions TaxEar already wrote</h1>
+  <p class="lede">Every one of TaxEar's 360 reference pages ends with original questions. They stay free on their pages. What this product adds is the exam around them: timed, mixed-part sittings drawn across the whole outline, scoring by domain, a record of your weak areas, and a link from every question back to the page that teaches the rule.</p>
 
-  <div class="callout">
-    <p class="price">$79<sup> one-time, lifetime access</sup></p>
-    <p>No subscription. Pay once, use it for as long as you're studying.</p>
-    <button id="buy" type="button">Get access</button>
-    <p id="buy-error" style="color:var(--accent);display:none"></p>
-  </div>
+  <dl class="measures">
+    <div><dt>Multiple-choice</dt><dd>{fmt(totalQ)}</dd></div>
+    <div><dt>Recall drills</dt><dd>{fmt(totalD)}</dd></div>
+    <div><dt>Topics</dt><dd>360</dd></div>
+    <div><dt>Access</dt><dd>12 months</dd></div>
+  </dl>
 
-  <h2>What's in it today</h2>
-  <p>The practice bank is being built out one outline domain at a time. Right now it covers:</p>
-  <ul>
-    <li><strong>1.1.1 — Preliminary Work and Taxpayer Data</strong> (18 questions): filing
-      status, dependency qualifications, filing requirements, the kiddie tax, ACA/premium
-      tax credit basics, and residency and alien status.</li>
+  <h2 id="pricing">Pricing</h2>
+  <p>One purchase per part, or all three. Access runs twelve months from purchase, on any device you sign in on, and includes every question added to that part during the year. Prices before sales tax; Stripe works that out at checkout. <a href="https://taxear.com/refunds/">Full refund within 14 days</a>, no questions asked.</p>
+  <ul class="skus">
+    {parts.map((p) => (
+      <li>
+        <div>
+          <p class="sku-title">Part {p.part}: {p.partTitle}</p>
+          <p class="sku-meta">{fmt(p.counts.questions)} multiple-choice · {fmt(p.counts.drills)} drills · {p.counts.topics} topics</p>
+          {p.counts.questions === 0 && <p class="sku-note">Multiple-choice questions for this part are being written; the drills are complete and included, and the questions are added to your purchase as they land.</p>}
+        </div>
+        <button type="button" class="buy" data-sku={`p${p.part}`}>{price.part}</button>
+      </li>
+    ))}
+    <li class="sku-all">
+      <div>
+        <p class="sku-title">All three parts</p>
+        <p class="sku-meta">{fmt(totalQ)} multiple-choice · {fmt(totalD)} drills · the whole outline</p>
+      </div>
+      <button type="button" class="buy" data-sku="all">{price.all}</button>
+    </li>
   </ul>
-  <p>More domains are added over time at no extra cost to anyone who has already purchased
-    access.</p>
+  <p id="buy-error" class="error" hidden></p>
+  <p class="sku-signin">Already bought? <a href="/account/">Sign in</a> on this device.</p>
 
-  <h2>How it's different from the free reference site</h2>
-  <p>taxear.com explains the rule, cited to its authority, for every outline topic. This
-    product is the practice layer on top of that: realistic, exam-style questions with a
-    worked explanation for every answer, so you can check what you actually retained.</p>
+  <h2>What it does</h2>
+  <ul class="plain">
+    <li><strong>Exam mode.</strong> 25, 50 or 100 questions, drawn in proportion across the domains of the parts you choose, with an optional clock set to the real exam's pace of 2.1 minutes a question. Flag questions, come back, submit, and see every answer explained with the page it comes from.</li>
+    <li><strong>Recall drills.</strong> An open question, your own answer in your head, then the worked answer from the page. Mark it got or missed. This is how most of Parts 1 and 2 test themselves on TaxEar, and it is closer to how the rules are actually used.</li>
+    <li><strong>Weak areas.</strong> Every attempt scores by domain and rolls up on your account page, so the next sitting can target the domain that needs it.</li>
+    <li><strong>The page behind every question.</strong> Each item links to the TaxEar page that states the rule, cites its authority, and shows when it was verified. Nothing here is an orphaned fact.</li>
+  </ul>
+
+  <h2>Try three</h2>
+  <p>The same questions, the same explanations, no sign-in.</p>
+  {sample.map((q) => (
+    <details class="sample">
+      <summary><span class="quiz-code">SEE {q.code} · Part {q.part}</span><br/>{q.stem}</summary>
+      <ol class="sample-options" type="A">{q.options.map((o) => <li>{o}</li>)}</ol>
+      <p><strong>Answer: {'ABCD'[q.answerIndex]}.</strong> {q.explanation} <a href={`https://taxear.com${q.pagePath}`}>Read the rule: {q.pageTitle}</a></p>
+    </details>
+  ))}
+  {sampleDrill && (
+    <details class="sample">
+      <summary><span class="quiz-code">SEE {sampleDrill.code} · Part {sampleDrill.part} · recall drill</span><br/>{sampleDrill.prompt}</summary>
+      <p>{sampleDrill.answer} <a href={`https://taxear.com${sampleDrill.pagePath}`}>Read the rule: {sampleDrill.pageTitle}</a></p>
+    </details>
+  )}
+
+  <h2>Where the questions come from</h2>
+  <p>Every item was written by TaxEar's editor for the page it sits on, under the same rule that governs the reference site: nothing is reproduced or adapted from any commercial study guide or question bank. The bank is regenerated from the pages on every release, so when a page changes, its questions change with it. Part 3 is complete in multiple-choice form; Parts 1 and 2 are complete as drills, with multiple-choice questions being added.</p>
+  <p>TaxEar Study is not affiliated with, endorsed by, or reviewed by the IRS or its testing vendor, and it is not a promise of a pass. It is practice, cited.</p>
 
   <script>
-    const btn = document.getElementById('buy');
     const err = document.getElementById('buy-error');
-    btn?.addEventListener('click', async () => {
-      btn.disabled = true;
-      err.style.display = 'none';
-      try {
-        const res = await fetch('/api/checkout', { method: 'POST' });
-        const data = await res.json();
-        if (!res.ok || !data.url) throw new Error(data.error || 'Something went wrong.');
-        window.location.href = data.url;
-      } catch (e) {
-        err.textContent = e.message;
-        err.style.display = 'block';
-        btn.disabled = false;
-      }
+    document.querySelectorAll('button.buy').forEach((btn) => {
+      btn.addEventListener('click', async () => {
+        btn.disabled = true; err.hidden = true;
+        try {
+          const res = await fetch('/api/checkout', { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify({ sku: btn.dataset.sku }) });
+          const data = await res.json();
+          if (!res.ok || !data.url) throw new Error(data.error || 'Something went wrong.');
+          window.location.href = data.url;
+        } catch (e) {
+          err.textContent = e.message; err.hidden = false; btn.disabled = false;
+        }
+      });
     });
   </script>
 </StudyBase>

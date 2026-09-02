@@ -1,0 +1,70 @@
+---
+import StudyBase from '../layouts/StudyBase.astro';
+---
+<StudyBase title="Your account" description="Sign in, see what you have access to, and review your practice history.">
+  <h1>Your account</h1>
+  <div id="signed-out" hidden>
+    <p>Sign in with the email address you bought with. A one-time link is sent to that address; it works once and expires in fifteen minutes. No password.</p>
+    <form id="login" class="inline-form">
+      <label for="login-email">Email address</label>
+      <div class="row"><input id="login-email" type="email" required autocomplete="email" placeholder="you@firm.com" /><button type="submit">Send sign-in link</button></div>
+    </form>
+    <p id="login-msg" class="note" hidden></p>
+    <p>No purchase yet? <a href="/#pricing">See what is included</a>.</p>
+  </div>
+  <div id="signed-in" hidden>
+    <p>Signed in as <strong id="who"></strong>. <button type="button" class="link" id="logout">Sign out of this device</button></p>
+    <h2>Access</h2>
+    <ul id="ent" class="plain"></ul>
+    <p id="buy-more"></p>
+    <h2>Weak areas</h2>
+    <p class="note">Domains with at least five answered questions across your last twenty attempts, weakest first.</p>
+    <table id="weak" class="results-table" hidden><thead><tr><th>Domain</th><th>Part</th><th class="n">Correct</th><th class="n">Answered</th><th class="n">%</th></tr></thead><tbody></tbody></table>
+    <p id="weak-empty" class="note">Nothing yet. <a href="/exam/">Sit an exam</a> or <a href="/drills/">run a drill</a>.</p>
+    <h2>History</h2>
+    <table id="history" class="results-table" hidden><thead><tr><th>When</th><th>Kind</th><th>Parts</th><th class="n">Score</th><th class="n">Time</th></tr></thead><tbody></tbody></table>
+  </div>
+  <p id="err" class="error" hidden></p>
+
+  <script>
+    const $ = (id) => document.getElementById(id);
+    const esc = (s) => String(s ?? '').replace(/[&<>"]/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c]));
+    const params = new URLSearchParams(location.search);
+    if (params.get('error') === 'link') { $('err').textContent = 'That sign-in link has expired or was already used. Request a new one below.'; $('err').hidden = false; }
+    if (params.get('error') === 'config') { $('err').textContent = 'Sign-in is not configured on this deployment yet.'; $('err').hidden = false; }
+
+    async function load() {
+      const me = await fetch('/api/me').then((r) => r.json());
+      if (!me.email) { $('signed-out').hidden = false; return; }
+      $('signed-in').hidden = false; $('who').textContent = me.email;
+      const e = me.entitlements;
+      const rows = [];
+      for (const n of [1, 2, 3]) rows.push(`<li>${e.parts.includes(n) ? '✓' : '·'} Part ${n}${e.expires['p' + n] ? ` <span class="quiz-code">until ${e.expires['p' + n]}</span>` : e.expires.all ? ` <span class="quiz-code">until ${e.expires.all}</span>` : ''}</li>`);
+      rows.push(`<li>${e.practitioner ? '✓' : '·'} Practitioner alerts${e.expires.practitioner ? ` <span class="quiz-code">until ${e.expires.practitioner}</span>` : ''}</li>`);
+      $('ent').innerHTML = rows.join('');
+      if (e.revoked) $('ent').innerHTML += '<li class="error">Access was withdrawn after a refund or dispute. Write to editor@taxear.com if that is a mistake.</li>';
+      const missing = [1, 2, 3].filter((n) => !e.parts.includes(n));
+      $('buy-more').innerHTML = missing.length ? `<a href="/#pricing">Add Part ${missing.join(', ')}</a>` : 'You have every part.';
+      const a = await fetch('/api/attempts').then((r) => r.json()).catch(() => ({ attempts: [], weakAreas: [] }));
+      if (a.weakAreas?.length) {
+        $('weak').hidden = false; $('weak-empty').hidden = true;
+        $('weak').querySelector('tbody').innerHTML = a.weakAreas.map((d) => `<tr><td><a href="/exam/?domain=${esc(d.domain)}&part=${d.part}">${esc(d.title)}</a></td><td>${d.part}</td><td class="n">${d.correct}</td><td class="n">${d.total}</td><td class="n">${d.percent}</td></tr>`).join('');
+      }
+      if (a.attempts?.length) {
+        $('history').hidden = false;
+        $('history').querySelector('tbody').innerHTML = a.attempts.map((t) => `<tr><td>${new Date(t.at).toLocaleString()}</td><td>${t.kind === 'exam' ? (t.timed ? 'Timed exam' : 'Exam') : 'Drill'}</td><td>${(t.parts || []).join(', ')}</td><td class="n">${t.score} / ${t.total}</td><td class="n">${Math.round((t.durationMs || 0) / 60000)} min</td></tr>`).join('');
+      }
+    }
+    load().catch((e) => { $('err').textContent = e.message; $('err').hidden = false; });
+
+    $('login').addEventListener('submit', async (ev) => {
+      ev.preventDefault();
+      const btn = ev.target.querySelector('button'); btn.disabled = true;
+      const res = await fetch('/api/login', { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify({ email: $('login-email').value }) });
+      const data = await res.json();
+      $('login-msg').textContent = res.ok ? data.message : (data.error || 'Could not send the link.');
+      $('login-msg').hidden = false; btn.disabled = false;
+    });
+    $('logout').addEventListener('click', async () => { await fetch('/api/logout', { method: 'POST' }); location.reload(); });
+  </script>
+</StudyBase>

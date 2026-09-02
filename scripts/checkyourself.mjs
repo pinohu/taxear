@@ -42,14 +42,19 @@ export function checkYourself(markdown) {
     if (!question) continue;
 
     const answerLine = chunk.match(/^\*Answer:\s*([\s\S]*?)\*[ \t]*$/m)?.[1]?.replace(/\s+/g, ' ').trim() ?? '';
-    const lettered = answerLine.match(/^\(?([A-D])\)?[.):]?\s*(.*)$/);
-    const answer = lettered ? lettered[1] : '';
-    const reason = (lettered ? lettered[2] : answerLine).trim();
+    // A letter counts only with its delimiter — "B.", "(B)", "B:" — so an open answer
+    // that happens to start "A corporation…" is not read as option A.
+    const lettered = answerLine.match(/^(?:\(([A-D])\)|([A-D])[.:])\s*(.*)$/);
+    const answer = lettered ? (lettered[1] || lettered[2]) : '';
+    const reason = (lettered ? lettered[3] : answerLine).trim();
 
     let options = [];
-    const inline = rest.match(/\(A\)[\s\S]*?(?=\n[ \t]*\n|\n\*Answer:|$(?![\s\S]))/);
+    // Inline options start a line; "(A)" inside an answer's prose is not an option list.
+    const inline = rest.match(/^\(A\)[\s\S]*?(?=\n[ \t]*\n|\n\*Answer:|$(?![\s\S]))/m);
     if (inline) {
-      options = [...inline[0].matchAll(/\(([A-D])\)\s*([^(]+)/g)]
+      // An option runs to the next lettered marker, so a citation such as
+      // "§ 10.22(a)" inside an option does not cut it short.
+      options = [...inline[0].matchAll(/\(([A-D])\)\s*((?:(?!\([A-D]\))[\s\S])+)/g)]
         .map((m) => ({ letter: m[1], text: m[2].trim().replace(/\s+/g, ' ') }));
     } else {
       options = [...rest.matchAll(/^([A-D])\.[ \t]+(.+)$/gm)]

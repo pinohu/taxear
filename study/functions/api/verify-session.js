@@ -1,50 +1,30 @@
 import { retrieveCheckoutSession } from '../_lib/stripe.js';
-import { signToken, setCookieHeader } from '../_lib/cookie.js';
+import { sessionToken, setCookieHeader } from '../_lib/cookie.js';
+import { SKUS, grant, entitlementsFor } from '../_lib/entitlements.js';
+import { json, error, readJson, normalizeEmail } from '../_lib/json.js';
 
-// POST /api/verify-session {sessionId} — re-checks the Checkout Session directly with
-// Stripe (never trusts the client's say-so that payment succeeded), records the
-// purchase in KV keyed by email so a future device/browser can be reconnected once a
-// delivery channel exists for that, and sets a signed access cookie on this browser.
+// POST /api/verify-session { sessionId } — the browser lands on /success/ with the
+// session id; this re-reads the session from Stripe (never trusts the client), records
+// the purchase, and signs the browser in. The webhook does the same recording, so
+// whichever arrives first wins and the other is a no-op.
 export async function onRequestPost({ request, env }) {
-  if (!env.STRIPE_SECRET_KEY || !env.COOKIE_SECRET) {
-    return new Response(JSON.stringify({ error: 'Access is not configured yet.' }), {
-      status: 500, headers: { 'Content-Type': 'application/json' },
-    });
-  }
-  const { sessionId } = await request.json().catch(() => ({}));
-  if (!sessionId) {
-    return new Response(JSON.stringify({ error: 'Missing sessionId.' }), {
-      status: 400, headers: { 'Content-Type': 'application/json' },
-    });
-  }
+  if (!env.STRIPE_SECRET_KEY || !env.COOKIE_SECRET) return error('Access is not configured yet.', 503);
+  if (!env.ACCESS_KV) return error('The access store is not configured yet.', 503);
+  const { sessionId } = await readJson(request);
+  if (!sessionId || typeof sessionId !== 'string') return error('Missing sessionId.');
 
   let session;
-  try {
-    session = await retrieveCheckoutSession(env.STRIPE_SECRET_KEY, sessionId);
-  } catch (err) {
-    return new Response(JSON.stringify({ error: err.message }), {
-      status: 502, headers: { 'Content-Type': 'application/json' },
-    });
-  }
+  try { session = await retrieveCheckoutSession(env.STRIPE_SECRET_KEY, sessionId); }
+  catch (err) { return error(err.message, 502); }
 
-  if (session.payment_status !== 'paid') {
-    return new Response(JSON.stringify({ error: 'Payment not completed.' }), {
-      status: 402, headers: { 'Content-Type': 'application/json' },
-    });
-  }
+  const paid = session.payment_status === 'paid' || (session.mode === 'subscription' && session.status === 'complete');
+  if (!paid) return error('Payment not completed.', 402);
+  const email = normalizeEmail(session.customer_details?.email);
+  const sku = session.metadata?.sku;
+  if (!email) return error('Stripe did not report an email address for this payment.', 502);
+  if (!SKUS[sku]) return error('This payment is not for a known product.', 502);
 
-  const email = (session.customer_details?.email || '').toLowerCase();
-  if (env.ACCESS_KV && email) {
-    await env.ACCESS_KV.put(`purchase:${email}`, JSON.stringify({
-      sessionId, purchasedAt: new Date().toISOString(),
-    }));
-  }
-
-  const token = await signToken({ email, purchasedAt: Date.now() }, env.COOKIE_SECRET);
-  return new Response(JSON.stringify({ ok: true, email }), {
-    headers: {
-      'Content-Type': 'application/json',
-      'Set-Cookie': setCookieHeader(token),
-    },
-  });
+  await grant(env, email, sku, { sessionId, stripeCustomer: session.customer || undefined, event: 'checkout' });
+  const token = await sessionToken(email, env.COOKIE_SECRET);
+  return json({ ok: true, email, entitlements: await entitlementsFor(env, email) }, 200, { 'Set-Cookie': setCookieHeader(token) });
 }

@@ -34,6 +34,19 @@ jobs:
       # the table being regenerated.
       - run: npm run progress -- --check
 
+      # The Study question bank is generated from the pages' own Check-yourself blocks
+      # (study/scripts/import_questions.mjs, no dependencies). A page edit that changes
+      # a question must be re-imported and committed with it, or the paid product
+      # drifts from the free page.
+      - name: Study bank matches the pages
+        run: |
+          node study/scripts/import_questions.mjs
+          if ! git diff --quiet -- study/src/data/questions study/functions/_lib/bank.data.js; then
+            echo "::error::study bank is stale — run 'npm --prefix study run import' and commit the result"
+            git --no-pager diff --stat -- study/src/data/questions study/functions/_lib/bank.data.js
+            exit 1
+          fi
+
       # The private question bank is deliberately absent from CI. Nothing in the
       # build depends on it, and it must never reach a runner.
       - name: Confirm no private material is tracked

@@ -30,5 +30,9 @@ jobs:
       # Question-bank shape: ids, outline codes, option counts, answer index, explanation.
       - run: npm run verify
 
+      # The Functions' logic — tokens, webhook signatures, entitlements, sampling, the
+      # gate — against a stubbed KV. No Stripe, no email, no network.
+      - run: npm test
+
       # Confirms the app actually builds.
       - run: npm run build
