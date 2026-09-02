@@ -62,11 +62,16 @@ Entitlements are *not* in the cookie: every gated request reads `purchase:<email
 
 - `study/scripts/import_questions.mjs` reads every published page in
   `../src/content/topics`, parses its "Check yourself" block with the shared parser
-  (`scripts/checkyourself.mjs`, the same one the site uses for structured data), keeps
-  four-option lettered questions, and writes `study/src/data/questions/part-<n>.json`.
-  Each question carries `id`, `code`, `part`, `domain`, `section`, `stem`, `options`,
-  `answerIndex`, `explanation`, `pagePath`, `pageTitle`. Open questions and questions
-  with fewer than four options are skipped and counted.
+  (`scripts/checkyourself.mjs`, the same one the site uses for structured data), and
+  writes `study/src/data/questions/part-<n>.json` plus the Functions' copy
+  `study/functions/_lib/bank.data.js`. Four-option lettered questions become
+  multiple-choice items; open questions with a worked answer (how most of Parts 1 and 2
+  test themselves) become recall drills: prompt, reveal, self-grade. At import on
+  2 September 2026: 657 multiple-choice (589 in Part 3, 68 in Part 1, none yet in
+  Part 2) and 1,013 drills (523 in Part 1, 490 in Part 2). Each item carries `code`,
+  `part`, `domain`, `section`, the page path and title. The landing page says exactly
+  this; Part 2's multiple-choice questions are written page by page and land in the
+  bank on the next import.
 - Questions never reach the browser in bulk. `POST /api/exam/start { parts, count }`
   samples questions server-side, stores the set in KV under an exam id, and returns
   stems and options only. `POST /api/exam/grade { examId, answers }` scores it, records
