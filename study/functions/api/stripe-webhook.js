@@ -6,7 +6,9 @@ import { applyPending } from '../_lib/follows.js';
 // POST /api/stripe-webhook — Stripe's server tells us what happened to the money.
 // Grants on completed checkouts and paid invoices; revokes on refunds and disputes;
 // ends the alert subscription when it is cancelled. Signature is verified before
-// anything is parsed. Idempotent: grant() extends rather than stacks.
+// anything is parsed. Idempotent: grant() ignores a Stripe reference it has seen.
+// Any lookup failure returns 500 so Stripe retries; a dispute is never acknowledged
+// without being applied.
 export async function onRequestPost({ request, env }) {
   if (!env.STRIPE_WEBHOOK_SECRET || !env.STRIPE_SECRET_KEY) return error('Webhook is not configured.', 503);
   if (!env.ACCESS_KV) return error('The access store is not configured.', 503);
@@ -20,7 +22,7 @@ export async function onRequestPost({ request, env }) {
 
   const emailOfCustomer = async (customerId) => {
     if (!customerId) return null;
-    try { return normalizeEmail((await retrieveCustomer(env.STRIPE_SECRET_KEY, customerId)).email); } catch { return null; }
+    return normalizeEmail((await retrieveCustomer(env.STRIPE_SECRET_KEY, customerId)).email);
   };
 
   try {
@@ -30,7 +32,7 @@ export async function onRequestPost({ request, env }) {
         const sku = obj.metadata?.sku;
         const paid = obj.payment_status === 'paid' || obj.mode === 'subscription';
         if (email && SKUS[sku] && paid) {
-          await grant(env, email, sku, { sessionId: obj.id, stripeCustomer: obj.customer || undefined, event: 'webhook.checkout' });
+          await grant(env, email, sku, { ref: obj.id, stripeCustomer: obj.customer || undefined, event: 'webhook.checkout' });
           if (SKUS[sku].mode === 'subscription') await applyPending(env, email);
         }
         break;
@@ -42,7 +44,7 @@ export async function onRequestPost({ request, env }) {
         const email = normalizeEmail(obj.customer_email) || (await emailOfCustomer(obj.customer));
         if (email && SKUS[sku]?.mode === 'subscription') {
           const until = line?.period?.end ? line.period.end * 1000 + 3 * 86400e3 : undefined;
-          await grant(env, email, sku, { event: 'webhook.invoice', until, stripeCustomer: obj.customer || undefined });
+          await grant(env, email, sku, { ref: obj.id, event: 'webhook.invoice', until, stripeCustomer: obj.customer || undefined });
         }
         break;
       }
@@ -58,12 +60,10 @@ export async function onRequestPost({ request, env }) {
         break;
       }
       case 'charge.dispute.created': {
-        let email = null;
-        try {
-          const charge = await retrieveCharge(env.STRIPE_SECRET_KEY, obj.charge);
-          email = normalizeEmail(charge.billing_details?.email) || (await emailOfCustomer(charge.customer));
-        } catch { /* fall through */ }
-        if (email) await revoke(env, email, 'dispute');
+        const charge = await retrieveCharge(env.STRIPE_SECRET_KEY, obj.charge);
+        const email = normalizeEmail(charge.billing_details?.email) || (await emailOfCustomer(charge.customer));
+        if (!email) throw new Error(`No email for disputed charge ${obj.charge}`);
+        await revoke(env, email, 'dispute');
         break;
       }
       default:

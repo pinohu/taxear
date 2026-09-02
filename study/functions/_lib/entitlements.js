@@ -1,8 +1,9 @@
 // What a person has paid for, kept in KV under purchase:<email> and consulted on every
 // gated request. Shape (docs/REVENUE_BUILD.md):
 //   { skus: { p1?: expMs, p2?: expMs, p3?: expMs, practitioner?: expMs },
-//     stripeCustomer?: string, history: [{ at, sku, sessionId?, event }] }
-// A refund or dispute writes revoked:<email>, which wins over any sku.
+//     stripeCustomer?: string, history: [{ at, sku, ref, event }] }
+// A refund or dispute writes revoked:<email> AND zeroes the skus, so a later purchase
+// of anything restores only what was just bought.
 
 export const SKUS = {
   p1: { label: 'Part 1: Individuals', parts: [1], mode: 'payment', days: 365 },
@@ -32,26 +33,37 @@ export async function isRevoked(env, email) {
   return !!(await env.ACCESS_KV.get(`revoked:${email}`));
 }
 
-// Grant a sku from `at` (ms). Extends an existing unexpired grant rather than
-// replacing it, so a renewal never shortens what was already paid for.
-export async function grant(env, email, sku, { at = Date.now(), sessionId, event = 'checkout', stripeCustomer, until } = {}) {
+// Grant a sku from `at` (ms). `ref` is the Stripe object that justifies the grant (a
+// Checkout Session id, an invoice id): the same ref never grants twice, so the success
+// page and the webhook processing one session, or a retried delivery, are no-ops after
+// the first. Extends an unexpired grant rather than replacing it, so a renewal never
+// shortens what was already paid for.
+export async function grant(env, email, sku, { at = Date.now(), ref, event = 'checkout', stripeCustomer, until } = {}) {
   if (!env.ACCESS_KV) throw new Error('ACCESS_KV is not bound');
   const def = SKUS[sku];
   if (!def) throw new Error(`unknown sku ${sku}`);
   const p = (await getPurchase(env, email)) || { skus: {}, history: [] };
+  if (ref && (p.history || []).some((h) => h.ref === ref)) return { purchase: p, applied: false };
   const key = def.mode === 'subscription' ? 'practitioner' : sku;
   const base = Math.max(at, p.skus[key] || 0);
   p.skus[key] = until || base + def.days * 86400e3;
   if (stripeCustomer) p.stripeCustomer = stripeCustomer;
-  p.history = [...(p.history || []).slice(-49), { at, sku, sessionId, event }];
+  p.history = [...(p.history || []).slice(-49), { at, sku, ref, event }];
   await env.ACCESS_KV.put(`purchase:${email}`, JSON.stringify(p));
-  // A new purchase lifts an earlier revocation.
+  // A new purchase lifts an earlier revocation; the revoked skus were zeroed when the
+  // revocation was written, so only this grant is live afterwards.
   await env.ACCESS_KV.delete(`revoked:${email}`);
-  return p;
+  return { purchase: p, applied: true };
 }
 
 export async function revoke(env, email, reason) {
   if (!env.ACCESS_KV) throw new Error('ACCESS_KV is not bound');
+  const p = await getPurchase(env, email);
+  if (p) {
+    for (const k of Object.keys(p.skus || {})) p.skus[k] = Math.min(p.skus[k], Date.now());
+    p.history = [...(p.history || []).slice(-49), { at: Date.now(), sku: '*', event: `revoked:${reason}` }];
+    await env.ACCESS_KV.put(`purchase:${email}`, JSON.stringify(p));
+  }
   await env.ACCESS_KV.put(`revoked:${email}`, JSON.stringify({ at: Date.now(), reason }));
 }
 
