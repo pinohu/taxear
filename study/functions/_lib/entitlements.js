@@ -51,15 +51,26 @@ export async function grant(env, email, sku, { at = Date.now(), ref, event = 'ch
     // The purchase record is the truth; the ref: marker is written only after it, so a
     // retry after a failed purchase write still grants. A marker with no matching
     // history entry can only mean the entry has been truncated away, never a lost grant.
-    const inHistory = (p.history || []).some((h) => h.ref === ref);
-    if (inHistory) { await env.ACCESS_KV.put(`ref:${ref}`, email); return { purchase: p, applied: false }; }
+    const history = p.history || [];
+    const idx = history.findIndex((h) => h.ref === ref);
+    if (idx >= 0) {
+      // Finish what an interrupted first attempt left undone: the marker, and the
+      // lifting of a revocation that this purchase (not an older one) came after.
+      await env.ACCESS_KV.put(`ref:${ref}`, email);
+      const lastRevocation = history.map((h, i) => (h.sku === '*' && String(h.event || '').startsWith('revoked:') ? i : -1)).filter((i) => i >= 0).pop() ?? -1;
+      if (idx > lastRevocation) await env.ACCESS_KV.delete(`revoked:${email}`);
+      return { purchase: p, applied: false };
+    }
     if (await env.ACCESS_KV.get(`ref:${ref}`)) return { purchase: p, applied: false };
   }
   const key = def.mode === 'subscription' ? 'practitioner' : sku;
-  const base = Math.max(at, p.skus[key] || 0);
+  const prev = p.skus[key] || 0;
+  const base = Math.max(at, prev);
   p.skus[key] = until || base + def.days * 86400e3;
   if (stripeCustomer) p.stripeCustomer = stripeCustomer;
-  const entry = { at, sku, ref, event };
+  // `prev` is the sku's expiry before this grant, so a later refund of this purchase
+  // can be replayed from here without needing any history older than this entry.
+  const entry = { at, sku, ref, event, prev };
   if (paymentIntent) entry.pi = paymentIntent;
   if (invoice) entry.inv = invoice;
   if (until) entry.until = until;
@@ -74,16 +85,22 @@ export async function grant(env, email, sku, { at = Date.now(), ref, event = 'ch
 
 const keyOf = (sku) => (SKUS[sku] ? (SKUS[sku].mode === 'subscription' ? 'practitioner' : sku) : sku);
 
-// Replays the history for one sku key with the revoked references left out, so a
-// refund of one of two Part 1 purchases keeps the year the other one paid for. Grants
-// chain from the previous expiry exactly as grant() did; a whole-account revocation
-// or an ended subscription caps what came before it.
-function replay(history, key, excludedRefs) {
-  let exp = 0;
-  for (const h of history) {
-    const isGrant = h.ref && SKUS[h.sku] && !String(h.event || '').startsWith('revoked:');
+const refOf = (h) => h.ref || h.sessionId;
+const isRevocation = (h) => String(h.event || '').startsWith('revoked:');
+
+// Replays one sku key from a starting point in the history, with the refunded
+// references left out, so a refund of one of two Part 1 purchases keeps the year the
+// other one paid for. It starts from the expiry the first refunded grant found
+// (`prev`), which already carries every earlier purchase, including any that has
+// left the fifty-entry window or was written in an older shape; only the entries
+// after it are replayed. Grants chain from the previous expiry exactly as grant()
+// did; a whole-account revocation or an ended subscription caps what came before it.
+function replay(history, key, from, excludedRefs) {
+  let exp = history[from].prev || 0;
+  for (const h of history.slice(from)) {
+    const isGrant = refOf(h) && SKUS[h.sku] && !isRevocation(h);
     if (isGrant) {
-      if (keyOf(h.sku) !== key || excludedRefs.has(h.ref)) continue;
+      if (keyOf(h.sku) !== key || excludedRefs.has(refOf(h))) continue;
       exp = h.until || Math.max(h.at, exp) + SKUS[h.sku].days * 86400e3;
     } else if (h.sku === '*' || (h.sku === 'practitioner' && key === 'practitioner')) {
       exp = Math.min(exp, h.at);
@@ -101,15 +118,19 @@ export async function revoke(env, email, reason, { paymentIntent, invoice } = {}
   if (!env.ACCESS_KV) throw new Error('ACCESS_KV is not bound');
   const p = await getPurchase(env, email);
   const now = Date.now();
-  const hit = p && (paymentIntent || invoice)
-    ? [...(p.history || [])].reverse().find((h) => (paymentIntent && h.pi === paymentIntent) || (invoice && h.inv === invoice))
-    : null;
-  if (hit && SKUS[hit.sku]) {
+  // Every grant the charge paid for: a subscription's first checkout and its first
+  // invoice both grant, under different references but the same invoice.
+  const matches = (h) => !isRevocation(h) && SKUS[h.sku] && ((paymentIntent && h.pi === paymentIntent) || (invoice && h.inv === invoice));
+  const kept = (p?.history || []).slice(-49);
+  const first = paymentIntent || invoice ? kept.findIndex(matches) : -1;
+  if (first >= 0) {
+    const hit = kept[first];
     const key = keyOf(hit.sku);
-    const history = [...(p.history || []).slice(-49), { at: now, sku: hit.sku, ref: hit.ref, event: `revoked:${reason}` }];
-    const excluded = new Set(history.filter((h) => String(h.event || '').startsWith('revoked:') && h.ref).map((h) => h.ref));
-    p.skus[key] = Math.min(replay(history, key, excluded), p.skus[key] || 0);
-    p.history = history;
+    const refunded = kept.filter(matches).map(refOf);
+    const history = [...kept, ...refunded.map((ref) => ({ at: now, sku: hit.sku, ref, event: `revoked:${reason}` }))];
+    const excluded = new Set(history.filter((h) => isRevocation(h) && refOf(h)).map(refOf));
+    p.skus[key] = Math.min(replay(history, key, first, excluded), p.skus[key] || 0);
+    p.history = history.slice(-50);
     await env.ACCESS_KV.put(`purchase:${email}`, JSON.stringify(p));
     return { scope: key };
   }

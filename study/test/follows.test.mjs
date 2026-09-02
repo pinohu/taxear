@@ -48,6 +48,11 @@ test('follow: never enrols an address without proof; same answer for subscribers
   assert.ok(await env.ACCESS_KV.get('follow-cooldown:p@q.io:3.2.6.a'), 'a confirmation was attempted');
   r = await asJson(await follow.onRequestPost({ request: post('/api/follow', { email: 'p@q.io', code: '3.2.6.b' }, cors), env }));
   assert.ok(await env.ACCESS_KV.get('follow-cooldown:p@q.io:3.2.6.b'), 'a second topic within the minute gets its own confirmation, since each link follows one topic');
+  for (const code of ['3.1.1.a', '3.1.1.b', '3.1.2.a', '3.1.2.b', '3.1.2.c']) await follow.onRequestPost({ request: post('/api/follow', { email: 'p@q.io', code }, cors), env });
+  assert.equal(await env.ACCESS_KV.get('follow-burst:p@q.io'), '5');
+  assert.equal(await env.ACCESS_KV.get('follow-cooldown:p@q.io:3.1.2.b'), null, 'past the hourly cap no further confirmation is attempted');
+  assert.equal(await env.ACCESS_KV.get('follow-cooldown:p@q.io:3.1.2.c'), null);
+  assert.deepEqual((await listPending(env, 'p@q.io')).length, 8, 'the requests are still parked; only the emails are capped');
   // Signed in as that address on Study itself: applied at once.
   const cookie = await cookieFor('p@q.io');
   r = await asJson(await follow.onRequestPost({ request: post('/api/follow', { email: 'p@q.io', code: '3.2.6.b' }, { Cookie: cookie }), env }));
