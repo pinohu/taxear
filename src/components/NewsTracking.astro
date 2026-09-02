@@ -26,8 +26,12 @@ const { query } = Astro.props;
   async function loadNews(section: HTMLElement) {
     const query = section.dataset.newsQuery || '';
     const list = section.querySelector('.news-list') as HTMLElement;
-    const searchUrl = `https://www.federalregister.gov/documents/search?conditions%5Bagencies%5D%5B%5D=internal-revenue-service&conditions%5Bterm%5D=${encodeURIComponent(query)}`;
-    const apiUrl = `https://www.federalregister.gov/api/v1/documents.json?conditions%5Bagencies%5D%5B%5D=internal-revenue-service&conditions%5Bterm%5D=${encodeURIComponent(query)}&per_page=5&order=newest`;
+    // Quoted so the Federal Register matches the exact phrase. Unquoted, its full-text
+    // search matches the words separately and "offer in compromise" pulled in filings
+    // about dispute resolution and digital-asset brokers; quoted, every hit is on topic.
+    const term = encodeURIComponent(`"${query}"`);
+    const searchUrl = `https://www.federalregister.gov/documents/search?conditions%5Bagencies%5D%5B%5D=internal-revenue-service&conditions%5Bterm%5D=${term}`;
+    const apiUrl = `https://www.federalregister.gov/api/v1/documents.json?conditions%5Bagencies%5D%5B%5D=internal-revenue-service&conditions%5Bterm%5D=${term}&per_page=5&order=newest`;
 
     try {
       const controller = new AbortController();
