@@ -313,3 +313,15 @@ the calendar year. Its total assets are $900,000. Must it file Form 1120-S elect
 least 10 returns of any type during the calendar year, and the twelve returns here exceed that. The asset
 figure is a distractor: the former asset threshold was removed, and no reading of the current regulation
 makes total assets relevant.*
+
+**6. A corporation issues voting common stock to its founders and non-voting common stock to its employees. Both classes carry identical rights to distributions and to liquidation proceeds. Does the corporation have more than one class of stock for S corporation purposes?**
+(A) Yes; two classes of stock have been issued (B) No; differences in voting rights alone are disregarded (C) Yes, unless every shareholder consents to the S election (D) No, provided the corporation has 100 or fewer shareholders
+*Answer: B. IRC § 1361(c)(4) disregards differences in voting power; the one-class-of-stock condition turns on rights to distribution and liquidation proceeds, which here are identical.*
+
+**7. A shareholder's stock basis in an S corporation is $10,000. She has lent the corporation $15,000 and has personally guaranteed a $50,000 bank loan to it. Her share of the corporation's loss for the year is $40,000. How much may she deduct?**
+(A) $40,000 (B) $10,000 (C) $25,000, with the $15,000 excess treated as incurred by the corporation in the following year (D) $25,000, with the $15,000 excess lost permanently
+*Answer: C. IRC § 1366(d)(1) limits the loss to the adjusted basis of the stock plus the shareholder's basis in indebtedness of the corporation to her, $25,000 in total; a guarantee of bank debt gives no basis under IRC § 1366(d)(1)(B), and the disallowed $15,000 is treated under IRC § 1366(d)(2)(A) as incurred by the corporation in the succeeding year with respect to her.*
+
+**8. A calendar-year S corporation has three shareholders holding 60, 25 and 15 percent of its shares. On 10 March 2026 the corporation files a revocation of the election with the consent of the 60 percent shareholder only, specifying no effective date. When does the election end?**
+(A) 1 January 2026 (B) 1 January 2027 (C) 10 March 2026 (D) It does not end, because a revocation requires the consent of every shareholder
+*Answer: A. IRC § 1362(d) permits revocation consented to by shareholders holding more than one-half of the shares, and a revocation made on or before the fifteenth day of the third month of the year is retroactive to the first day of that year; 60 percent is sufficient and 10 March is within the window.*

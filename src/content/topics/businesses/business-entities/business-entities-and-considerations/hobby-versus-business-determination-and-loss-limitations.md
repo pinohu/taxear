@@ -280,3 +280,15 @@ their shares of its expenses?
 disallowance operates at the entity level and the shareholders take gross income rather than a loss. The
 second-tier deductions that IRC § 183(b)(2) would permit are miscellaneous itemized deductions in each
 shareholder's hands and are disallowed by IRC § 67(h).*
+
+**6. Under IRC § 183(c), an activity is "not engaged in for profit" when:**
+(A) It has produced losses in three or more of the last five years (B) Deductions are not allowable for it under IRC § 162 or under IRC § 212 (C) The taxpayer has substantial income from other sources (D) It has elements of personal pleasure or recreation
+*Answer: B. IRC § 183(c) defines the term by exclusion: an activity is not engaged in for profit if deductions are not allowable for it under IRC § 162 or § 212, so the question is whether it is a trade or business or an income-producing activity under those sections, and IRC § 183 is a consequence rather than a test.*
+
+**7. A horse breeding activity produced net income in 2021 and 2025 and losses in 2020, 2022, 2023, 2024 and 2026. Does the IRC § 183(d) presumption apply for 2026?**
+(A) No; fewer than three of the last five years were profitable (B) Yes; for a horse activity the test is two profitable years out of the seven ending with 2026, and 2021 and 2025 meet it (C) No; the two profitable years must be consecutive (D) Yes; any activity with two profitable years qualifies
+*Answer: B. IRC § 183(d) substitutes two of seven consecutive years for three of five where the activity consists in major part of breeding, training, showing or racing horses; the seven years ending with 2026 run from 2020, and 2021 and 2025 are two profitable years within them.*
+
+**8. A couple plant an orchard on land they bought for the purpose, expecting operating losses for at least ten years but substantial appreciation in the land. Does the expected appreciation count toward a profit objective?**
+(A) No; only expected operating income counts (B) No; land appreciation is investment return, not income from the activity (C) Yes; profit for this purpose includes appreciation in the value of assets used in the activity, including land (D) Only if the land is sold within the five-year presumption window
+*Answer: C. Reg. § 1.183-2(b)(4) treats profit as encompassing appreciation in the value of assets used in the activity, including land, so the couple may intend an overall profit even though current operations will lose money for years.*

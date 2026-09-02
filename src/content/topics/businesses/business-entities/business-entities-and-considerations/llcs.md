@@ -275,3 +275,15 @@ wants to be classified as a partnership from 1 January 2029. May it elect?
 *Answer: no. Reg. § 301.7701-3(c)(1)(iv) bars a further classification election during the 60 months
 succeeding the effective date of the earlier one, so nothing is available before 1 April 2031, and the
 ownership-change relief cannot help because the membership has not changed.*
+
+**6. An LLC files Form 8832 on 1 March 2026 electing association status and specifies an effective date of 1 June 2027. From what date is the election effective?**
+(A) 1 June 2027, as specified (B) 1 March 2027, twelve months after filing (C) 1 March 2026, the filing date (D) It is not effective at all, because the date specified is outside the window
+*Answer: B. Reg. § 301.7701-3(c)(1)(iii) provides that an election specifying an effective date more than 12 months after the filing date is effective 12 months after it was filed; the limit is self-correcting rather than fatal, so the election stands but takes effect on 1 March 2027.*
+
+**7. An LLC formed on 1 May 2026 elects association status effective 1 May 2026, the date of its formation. In 2028 its members want to elect partnership classification. Does the 60-month bar prevent them?**
+(A) Yes; no further election may be effective before 1 May 2031 (B) Yes, unless more than half the ownership has changed hands (C) No; an election by a newly formed entity effective on the date of formation is not a change, so the 60-month clock never started (D) No; the bar applies only to entities that elected to be disregarded
+*Answer: C. Reg. § 301.7701-3(c)(1)(iv) bars a further election during the 60 months after a change of classification, and an election by a newly formed entity effective on the date of formation is not a change; the 2028 election is the entity's first change, and the clock starts then.*
+
+**8. A two-member LLC has been a partnership by default since 2022. On 1 September 2026 one member buys out the other and continues alone. No form is filed. What is the LLC's classification after 1 September?**
+(A) It remains a partnership until a Form 8832 is filed (B) It becomes a disregarded entity on 1 September under the default rules, with no election made and no 60-month clock started (C) It becomes an association, because a sole owner cannot be a partner (D) It remains a partnership, but must file Form 8832 within 75 days to become disregarded
+*Answer: B. Under Reg. § 301.7701-3(b)(1) a domestic eligible entity with a single owner is disregarded unless it elects otherwise, so losing a member changes the classification by itself; no election is filed, none is needed, and the return that is due changes from Form 1065 to the owner's own return.*

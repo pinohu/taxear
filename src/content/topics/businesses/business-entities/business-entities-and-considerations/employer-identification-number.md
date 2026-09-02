@@ -281,3 +281,15 @@ need a new number?
 expressly on the "no new number" side of the IRS guidance. And the technical termination that such a
 transfer once triggered under IRC § 708(b)(1)(B) was repealed for partnership years beginning after 2017,
 so nothing terminates here at all.*
+
+**6. Ines has run a bakery as a sole proprietor for four years, reporting on Schedule C under her social security number. In 2026 she hires her first employee. What number goes on the bakery's Form 941?**
+(A) Her social security number, because a sole proprietor is an individual (B) An employer identification number; an individual who is an employer is directed to use one (C) Either number, at her choice (D) An individual taxpayer identification number obtained for the business
+*Answer: B. Reg. § 301.6109-1(a)(1)(ii)(D) directs a sole proprietor who is an employer, or who is engaged in a trade or business, to use an employer identification number where the form calls for one; the option that a sole proprietor is limited to a social security number is the trap.*
+
+**7. A corporation lets its charter lapse, and its shareholders then obtain a new charter from the secretary of state for a corporation carrying on the same business with the same assets and the same shareholders. Does it need a new employer identification number?**
+(A) No, because the business and the owners are the same (B) No, provided the name and the address are also unchanged (C) Yes; a corporation that receives a new charter from the secretary of state needs a new number (D) Yes, but only if it also elects S corporation status
+*Answer: C. On the IRS guidance, Do you need a new EIN?, a corporation needs a new number on receiving a new charter from the secretary of state, because the State has created a different legal person, even though the business is identical.*
+
+**8. A subsidiary corporation applies for an employer identification number. Which of the following may be named as its responsible party on Form SS-4?**
+(A) The parent corporation, as owner of all the shares (B) The registered-agent service that filed the formation documents (C) The subsidiary's principal officer, who controls its funds and assets (D) The law firm holding the shares until closing
+*Answer: C. On the IRS guidance on responsible parties and nominees, the responsible party must own, control or exercise effective control over the entity and must be an individual rather than an entity, except for government entities; a parent company cannot be named, and a formation agent or a lawyer holding shares temporarily is a nominee.*

@@ -266,3 +266,15 @@ exceeded, the amount disallowed by the 1 percent floor is within the carryforwar
 corporation, with average annual gross receipts of at least $500,000,000 for the 3 taxable years ending
 with the preceding year and a base erosion percentage of 3 percent or higher — 2 percent for a bank or
 securities dealer (IRC § 59A(e)(1)).*
+
+**6. A C corporation has ordinary income of $500,000 and a net capital loss of $40,000 for 2026. How is the capital loss used?**
+(A) $3,000 is deducted against ordinary income and the balance carried forward (B) The whole $40,000 is deducted against ordinary income (C) None of it offsets ordinary income; it is carried back three years and forward five as a short-term capital loss (D) It is carried forward indefinitely until capital gains arise
+*Answer: C. IRC § 1211(a) allows a corporation's capital losses only against capital gains, with no equivalent of the individual allowance against ordinary income, and IRC § 1212(a)(1) carries the net capital loss back three years and forward five as a short-term capital loss, earliest year first.*
+
+**7. A corporation that is not a large corporation showed tax of $80,000 on its 2025 return, which covered a full twelve months. It expects 2026 tax of $120,000. What is the minimum required amount of each 2026 estimated tax installment?**
+(A) $20,000 (B) $30,000 (C) $22,000 (D) $40,000
+*Answer: A. IRC § 6655(d)(1) sets each installment at 25 percent of the required annual payment, which is the lesser of 100 percent of the current year's tax or 100 percent of the prior year's tax; 25 percent of $80,000 is $20,000.*
+
+**8. A domestic corporation that is an applicable taxpayer computes its base erosion tax for a taxable year beginning in 2026. What rate applies to modified taxable income?**
+(A) 10 percent, the original statutory rate (B) 10.5 percent (C) 12.5 percent, the scheduled post-2025 rate (D) 21 percent, the same as the regular corporate rate
+*Answer: B. Pub. L. 119-21 § 70331(a)(1) substituted 10.5 percent for 10 percent in IRC § 59A(b)(1), and § 70331(a)(2) struck the paragraph that would have raised the rate for taxable years beginning after 2025, so the scheduled step-up will not happen.*
