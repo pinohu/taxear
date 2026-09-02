@@ -25,9 +25,12 @@ const related = d.related.filter(c => live.has(c)).map(topicByCode).filter(Boole
 const abs = (p) => new URL(p, Astro.site).href;
 const questions = checkYourself(entry.body ?? '');
 
-// First changelog date is the day the page first went live; lastReviewed is the last
-// day its authorities were opened. Both are what the schema means by the two dates.
-const datePublished = [...d.changelog.map(c => c.date)].sort()[0] ?? d.lastReviewed;
+// datePublished: the entry that records publication when one exists ("Initial
+// publication…", "Published…"), since many pages' earliest entry is a draft note and
+// the page went live days later; otherwise the earliest entry. lastReviewed is the last
+// day the authorities were opened, which is what dateModified means.
+const sorted = [...d.changelog].sort((a, b) => a.date.localeCompare(b.date));
+const datePublished = (sorted.find(c => /\bpublish/i.test(c.summary)) ?? sorted[0])?.date ?? d.lastReviewed;
 const article = { '@type': 'Article', headline: d.title, description: d.description,
   datePublished, dateModified: d.lastReviewed, image: abs('/og.png'),
   author: { '@id': personId }, publisher: { '@id': orgId },
