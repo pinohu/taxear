@@ -67,16 +67,6 @@ export async function grant(env, email, sku, { at = Date.now(), ref, event = 'ch
   if (!def) throw new Error(`unknown sku ${sku}`);
   const p = (await getPurchase(env, email)) || { skus: {}, history: [] };
   p.grants ||= {}; p.baseline ||= {};
-  // A grant whose charge has already been refunded (webhooks can arrive out of order)
-  // records nothing live: its reference is spent, the log says why, and the revocation
-  // that refund may have written stays in place.
-  const refunded = (paymentIntent || invoice) && (p.refunds || []).find((t) => (paymentIntent && t.pi === paymentIntent) || (invoice && t.inv === invoice));
-  if (refunded) {
-    log(p, { at, sku, ref, event: `${event}:after-refund` });
-    await env.ACCESS_KV.put(`purchase:${email}`, JSON.stringify(p));
-    if (ref) await env.ACCESS_KV.put(`ref:${ref}`, email);
-    return { purchase: p, applied: false, refunded: true };
-  }
   if (ref) {
     // The purchase record is the truth; the ref: marker is written only after it, so a
     // retry after a failed purchase write still grants. A reference already in the
@@ -89,6 +79,18 @@ export async function grant(env, email, sku, { at = Date.now(), ref, event = 'ch
       return { purchase: p, applied: false };
     }
     if ((await env.ACCESS_KV.get(`ref:${ref}`)) || (p.history || []).some((h) => h.ref === ref)) return { purchase: p, applied: false };
+  }
+  // A grant whose charge has already been refunded (webhooks can arrive out of order)
+  // records nothing live: its reference is spent, the log says why once (the checks
+  // above catch its retries), the customer id is kept so the billing portal still
+  // opens the right customer, and the revocation that refund may have written stays.
+  const refunded = (paymentIntent || invoice) && (p.refunds || []).find((t) => (paymentIntent && t.pi === paymentIntent) || (invoice && t.inv === invoice));
+  if (refunded) {
+    if (stripeCustomer) p.stripeCustomer = stripeCustomer;
+    log(p, { at, sku, ref, event: `${event}:after-refund` });
+    await env.ACCESS_KV.put(`purchase:${email}`, JSON.stringify(p));
+    if (ref) await env.ACCESS_KV.put(`ref:${ref}`, email);
+    return { purchase: p, applied: false, refunded: true };
   }
   const key = keyOf(sku);
   if (!p.grants[key]) {
@@ -121,9 +123,11 @@ export async function grant(env, email, sku, { at = Date.now(), ref, event = 'ch
 // matches, the whole account is revoked, as before, and a new purchase lifts it.
 export async function revoke(env, email, reason, { paymentIntent, invoice } = {}) {
   if (!env.ACCESS_KV) throw new Error('ACCESS_KV is not bound');
-  const p = await getPurchase(env, email);
   const now = Date.now();
   const charged = !!(paymentIntent || invoice);
+  // A refund that arrives before any purchase record exists (the checkout event is
+  // late) still needs somewhere to leave its tombstone, or the late grant would apply.
+  const p = (await getPurchase(env, email)) || (charged ? { skus: {}, history: [], grants: {}, baseline: {} } : null);
   const matches = (g) => (paymentIntent && g.pi === paymentIntent) || (invoice && g.inv === invoice);
   const save = () => env.ACCESS_KV.put(`purchase:${email}`, JSON.stringify(p));
   const tombstone = (scope) => { p.refunds = [...(p.refunds || []).slice(-99), { at: now, pi: paymentIntent, inv: invoice, scope, reason }]; };
