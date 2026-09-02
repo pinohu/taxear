@@ -230,6 +230,17 @@ article{counter-reset:scn}
 .changelog{font-size:.95em}
 .changelog time{font-family:var(--f-mono);color:var(--ink-soft);margin-right:.8em}
 
+/* Live Federal Register widget — see docs/NEWS_TRACKING.md. Deliberately plain:
+   a list of dated links, not a card grid, so it reads as apparatus, not a feature. */
+.news-tracking{margin:2.4em 0;border-top:1px solid var(--rule);padding-top:1.2em}
+.news-note{font-size:.9em;color:var(--ink-soft)}
+.news-loading,.news-empty,.news-error{font-family:var(--f-mono);font-size:.9em;color:var(--ink-soft)}
+.news-items{list-style:none;margin:0;padding:0}
+.news-item{padding:.6em 0;border-top:1px solid var(--rule)}
+.news-item:first-child{border-top:0}
+.news-meta{display:block;font-family:var(--f-mono);font-size:.8em;color:var(--ink-soft);margin-top:.2em}
+.news-more{font-family:var(--f-mono);font-size:.85em;margin-top:.6em}
+
 .grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(280px,1fr));gap:0 var(--gutter);margin:24px 0}
 .card{border-top:1px solid var(--ink);padding:14px 0 22px;text-decoration:none;color:inherit;display:block}
 .card h3,.card h2{margin:.25em 0 .3em;font-size:19px}
@@ -404,6 +415,31 @@ button.term:hover{text-decoration-color:var(--accent)}
 .d-tl-when{display:block;font-family:var(--f-mono);font-size:12px;color:var(--ink-soft);
   letter-spacing:.04em;text-transform:uppercase}
 .d-tl-what{display:block;font-size:15.5px;margin-top:2px}
+
+/* Diagram entrance motion — transform/opacity only, staggered so a sequential test
+   chain, timeline, or number line reads in the order it's meant to be read in.
+   Guarded on prefers-reduced-motion exactly like the rest of the site; the reduced
+   path renders every element already in its final state, nothing to skip. */
+@media (prefers-reduced-motion:no-preference){
+  @keyframes d-rise{from{opacity:0;transform:translateY(6px)}to{opacity:1;transform:translateY(0)}}
+  @keyframes d-draw{from{stroke-dashoffset:584}to{stroke-dashoffset:0}}
+
+  .d-tests li,.d-timeline li{opacity:0;animation:d-rise .4s ease-out forwards}
+  .d-tests li:nth-child(1),.d-timeline li:nth-child(1){animation-delay:.05s}
+  .d-tests li:nth-child(2),.d-timeline li:nth-child(2){animation-delay:.15s}
+  .d-tests li:nth-child(3),.d-timeline li:nth-child(3){animation-delay:.25s}
+  .d-tests li:nth-child(4),.d-timeline li:nth-child(4){animation-delay:.35s}
+  .d-tests li:nth-child(5),.d-timeline li:nth-child(5){animation-delay:.45s}
+  .d-tests li:nth-child(n+6),.d-timeline li:nth-child(n+6){animation-delay:.55s}
+
+  .diagram-threshold .d-axis{stroke-dasharray:584;animation:d-draw .5s ease-out forwards}
+  .diagram-threshold svg g{opacity:0;animation:d-rise .35s ease-out forwards}
+  .diagram-threshold svg g:nth-of-type(1){animation-delay:.3s}
+  .diagram-threshold svg g:nth-of-type(2){animation-delay:.4s}
+  .diagram-threshold svg g:nth-of-type(3){animation-delay:.5s}
+  .diagram-threshold svg g:nth-of-type(4){animation-delay:.6s}
+  .diagram-threshold svg g:nth-of-type(n+5){animation-delay:.7s}
+}
 
 /* Search: Pagefind's default UI, retuned onto the site's own tokens rather than
    its shipped defaults, so results read as TaxEar rather than a bolted-on widget. */

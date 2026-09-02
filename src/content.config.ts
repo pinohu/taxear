@@ -33,6 +33,10 @@ const topics = defineCollection({
       archetype: z.enum(['decision', 'threshold', 'timeline', 'flow', 'waterfall', 'compare', 'authority', 'anatomy']),
       caption: z.string(),
     }).passthrough().optional(),
+    // Related-developments tracking (docs/NEWS_TRACKING.md): a search phrase run
+    // client-side, live, against the Federal Register's public API, scoped to the
+    // Internal Revenue Service. Optional — most topics won't need one.
+    newsQuery: z.string().optional(),
   }),
 });
 

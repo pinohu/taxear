@@ -25,8 +25,14 @@ forms: ["656", "433-A (OIC)", "433-B (OIC)"]
 related: ["3.3.1.b", "3.2.3.a"]
 changelog:
   - { date: "2026-08-17", summary: "Initial publication." }
+newsQuery: "offer in compromise"             # optional — see docs/NEWS_TRACKING.md
 ---
 ```
+
+`newsQuery` is optional and rare: a short phrase, run live client-side against the Federal
+Register's public API scoped to the IRS, rendered as a plain list of dated links with no
+synthesized commentary. Add it only where recent rulemaking or notices genuinely track this
+topic — most pages won't have one. See `docs/NEWS_TRACKING.md` for the design rationale.
 
 ## Body, in order
 
@@ -44,6 +50,15 @@ changelog:
 6. **How this has changed** — history and recent changes in prose. Anything material also goes in
    `changelog` with a date so it appears on /changes/.
 7. **Exam focus** — one short paragraph: what the SEE tends to test on this outline item.
+8. **Strategy notes** (optional) — `## Strategy notes`, added only where the topic has a genuine
+   planning dimension (an election, a timing choice, a structuring option), never forced onto a
+   purely compliance-mechanical topic. Educational and illustrative only: "here is how this
+   generally works and who tends to benefit," never "you should" or "consider doing X" aimed at
+   the reader's own facts — that crosses from explaining the law into individualized advice, which
+   the site's About page explicitly disclaims. Original hypothetical numbers only, same voice and
+   invented-amounts rule as scenarios. If a page has this section, it should also carry 1–2
+   scenarios that show the planning choice actually playing out, typed `interaction` or `boundary`
+   as fits.
 
 Do not add: content from any commercial study guide, quotations longer than a sentence from anything but
 statute or regulation, or "current as of" claims that are not backed by `taxYear` and `lastReviewed`.
