@@ -149,7 +149,7 @@ const domains = outline.parts.flatMap((p) => p.domains.map((d) => ({ part: p.par
         <p class="quiz-code">${k + 1} · SEE ${esc(it.code)} · ${esc(it.domainTitle)} · ${it.correct ? 'correct' : it.chosen === null ? 'unanswered' : 'wrong'}</p>
         <p class="q-stem">${esc(it.stem)}</p>
         <ul class="quiz-options">${it.options.map((o, i) => `<li class="${i === it.answerIndex ? 'correct' : i === it.chosen ? 'incorrect' : ''}"><span class="opt-letter">${'ABCD'[i]}</span> ${esc(o)}</li>`).join('')}</ul>
-        <div class="quiz-explain">${esc(it.explanation)} <a href="https://taxear.com${esc(it.pagePath)}">Read the rule: ${esc(it.pageTitle)}</a></div>
+        <div class="quiz-explain">${it.explanation ? esc(it.explanation) + ' ' : 'The page states the rule this tests; the answer line there gives the letter only. '}<a href="https://taxear.com${esc(it.pagePath)}">Read the rule: ${esc(it.pageTitle)}</a></div>
       </article>`).join('');
       window.scrollTo(0, 0);
     }

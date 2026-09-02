@@ -129,6 +129,15 @@ Entitlements are *not* in the cookie: every gated request reads `purchase:<email
 Every Function degrades honestly when a variable is missing: it returns a clear error,
 never a silent lock-out.
 
+## Content work the import surfaced
+
+- 75 Part 3 multiple-choice questions answer with the letter and a citation only
+  ("*Answer: B.*"). They are in the bank; the exam review says so and links the page. A
+  one-sentence reason on each page, cited, turns them into explained items on the next
+  import. No importer change is needed.
+- Part 2 has no multiple-choice questions; its 490 open questions are drills. Writing
+  four-option questions onto Part 2 pages, page by page, grows the exam bank.
+
 ## Owner decisions recorded
 
 - **Statutory rates and rule 3.** 331 inline percentages sit in editorial prose. Options:
