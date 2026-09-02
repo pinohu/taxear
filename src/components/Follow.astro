@@ -8,7 +8,7 @@ const study = 'https://study.taxear.com';
 ---
 <section class="follow" aria-labelledby="follow-h" data-code={code}>
   <h2 id="follow-h">Follow this rule</h2>
-  <p class="follow-note">Get one email when this page records a material change: a figure, a deadline, the rule itself. Part of the <a href={`${study}/practitioner/`}>Practitioner subscription</a>; every page here stays free.</p>
+  <p class="follow-note">Get one email when this page records a material change: a figure, a deadline, the rule itself. Part of the <a href={`${study}/practitioner/`}>Practitioner subscription</a>; every page here stays free. Subscribers confirm by email, so nobody can follow on your behalf.</p>
   <form class="follow-form" action={`${study}/practitioner/`} method="get">
     <input type="hidden" name="code" value={code} />
     <label for="follow-email">Email address</label>
@@ -37,7 +37,7 @@ const study = 'https://study.taxear.com';
         if (data.status === 'following') {
           msg.innerHTML = `Following. You now follow ${data.count} topic${data.count === 1 ? '' : 's'}; <a href="${data.manageUrl}">manage them</a>.`;
         } else {
-          msg.innerHTML = `${data.message} <a href="${data.subscribeUrl}">Subscribe</a>.`;
+          msg.innerHTML = `${data.message} <a href="${data.subscribeUrl}">Subscribe</a>`;
         }
       } catch (e) {
         msg.textContent = (e as Error).message;

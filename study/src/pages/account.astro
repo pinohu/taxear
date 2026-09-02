@@ -37,6 +37,7 @@ import StudyBase from '../layouts/StudyBase.astro';
     const params = new URLSearchParams(location.search);
     if (params.get('error') === 'link') { $('err').textContent = 'That sign-in link has expired or was already used. Request a new one below.'; $('err').hidden = false; }
     if (params.get('error') === 'config') { $('err').textContent = 'Sign-in is not configured on this deployment yet.'; $('err').hidden = false; }
+    if (params.get('followed')) { $('err').className = 'note'; $('err').textContent = 'Confirmed. The topics you asked for are now followed.'; $('err').hidden = false; }
 
     async function load() {
       const me = await fetch('/api/me').then((r) => r.json());
