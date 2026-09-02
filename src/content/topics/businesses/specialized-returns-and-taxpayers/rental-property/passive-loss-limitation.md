@@ -282,3 +282,15 @@ $7,000 deductible IRA contribution. What figure drives the phase-out?
 *Answer:* $131,000. IRC § 469(i)(3)(E) adds back both the IRC § 219 deduction and the passive activity
 loss, so $96,000 plus $28,000 plus $7,000. The allowance is $25,000 less 50 percent of $31,000, or
 $9,500 — not the full $25,000 that the return's own adjusted gross income would suggest.
+
+**6. An investor holds a 30 percent limited partnership interest in a partnership owning one rental building. She approves the budget and signs off major repairs. Her modified adjusted gross income is $90,000 and her share of the loss is $10,000. What special allowance is available?**
+(A) $10,000, because her income is below the phase-out threshold and she is involved in management (B) $10,000, because a 30 percent interest clears the 10 percent ownership floor (C) None, because an interest as a limited partner is never treated as one in which the taxpayer actively participates (D) $5,000, half the allowance for a partnership interest
+*Answer: C. IRC § 469(i)(6)(C) is categorical: no interest as a limited partner in a limited partnership is treated as an interest with respect to which the taxpayer actively participates, whatever the ownership percentage or actual involvement, so the loss is suspended in full.*
+
+**7. A married taxpayer lived apart from her spouse for all of 2026 and files separately. Her modified adjusted gross income is $40,000 and she has a $20,000 loss from a rental in which she actively participates. How much is deductible this year?**
+(A) $20,000, the whole loss, because her income is below the phase-out threshold (B) $12,500, with $7,500 suspended (C) Nothing, because she files separately (D) $10,000, half the loss
+*Answer: B. IRC § 469(i)(5)(A) halves the allowance to $12,500 for a married individual filing separately who lived apart from the spouse for the entire year; the remaining $7,500 is suspended and carried forward with the activity.*
+
+**8. A landlord made the Treas. Reg. § 1.469-9(g) election treating his three rental houses as one activity. In 2026 he sells one to an unrelated buyer in a fully taxable sale. Suspended losses attributable to that house are $15,000. What is released?**
+(A) $15,000, because the sale is a fully taxable disposition to an unrelated party (B) Nothing, because he has not disposed of his entire interest in the aggregated activity (C) $15,000, but only against passive income from the other two houses (D) One third of the suspended losses of all three houses
+*Answer: B. IRC § 469(g) requires disposition of the taxpayer's entire interest in the activity; once the Treas. Reg. § 1.469-9(g) election makes all properties one activity, selling one of them releases nothing.*

@@ -299,3 +299,15 @@ year, in the taxable period, and IRC § 4975(f)(2) runs that period from the dat
 to the earliest of the notice of deficiency, the assessment, or correction. Part of 2023, all of
 2024 and 2025, and part of 2026 is four years or parts of years — 60 percent of the amount involved
 before the 100 percent additional tax is considered.
+
+**6. A profit-sharing plan buys a warehouse from its sponsoring employer at a price supported by two independent appraisals. The plan has ample cash and the property is a sound investment. Has a prohibited transaction occurred?**
+(A) No, because the price is fair and the plan is not harmed (B) Yes, because a sale of property between a plan and a disqualified person is prohibited regardless of price (C) No, because the employer is not a disqualified person unless it is also a fiduciary (D) Yes, but only if the plan later sells at a loss
+*Answer: B. IRC § 4975(c)(1)(A) prohibits any sale or exchange of property between a plan and a disqualified person, and the employer is a disqualified person under IRC § 4975(e)(2)(C); appraisals go to the amount involved, not to whether the transaction is prohibited.*
+
+**7. A 45-year-old's self-directed IRA had a balance of $200,000 on 1 January 2026 and $230,000 in October 2026, when she used IRA-owned property for a personal holiday without paying rent. What is the tax consequence?**
+(A) A 15 percent initial tax on the amount involved, with a correction period (B) $200,000 is treated as distributed on 1 January 2026, taxed as ordinary income with the IRC § 72(t) additional tax on top (C) $230,000 is treated as distributed in October 2026 (D) Nothing, provided she pays fair rent for the stay before the year ends
+*Answer: B. IRC § 408(e)(2) provides that the account ceases to be an IRA as of the first day of the taxable year and is treated as distributing all its assets then, so the 1 January balance is taxed, and because she is under 59½ the IRC § 72(t) additional tax applies; there is no excise tax and no correction.*
+
+**8. A sole proprietor sponsors a profit-sharing plan. Her son-in-law, who is neither a fiduciary nor a service provider to the plan, sells land to the plan at fair market value. Is he a disqualified person?**
+(A) No, because in-laws are outside the family definition (B) Yes, because the spouse of a lineal descendant is a member of the family (C) No, because the price was fair (D) Yes, but only if the sole proprietor's daughter is also an employee
+*Answer: B. IRC § 4975(e)(6) defines family as a spouse, ancestors, lineal descendants and the spouses of lineal descendants, so a son-in-law is a disqualified person and the sale is prohibited under IRC § 4975(c)(1)(A), whereas a sibling would not be caught by the family rule.*

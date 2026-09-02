@@ -298,3 +298,15 @@ Is the contribution deductible for 2026?
 it is on account of that year and made no later than the time prescribed for filing the return
 including extensions. A timely extension moves that date to 15 September 2027, and the 1 September
 payment is inside it. The employer must be able to show the contribution was on account of 2026.
+
+**6. An employee aged 45 works for two corporations that are members of the same controlled group. She defers $10,000 into each corporation's 401(k) and each corporation contributes $30,000 to her account. Is any limit breached for 2026?**
+(A) No, because each plan's annual additions of $40,000 are inside the limit on their own (B) Yes, the annual additions limit, because the two employers are aggregated and $80,000 exceeds $72,000 (C) Yes, the elective deferral limit, because $20,000 of deferrals must be aggregated across employers (D) No, because annual additions are only ever tested plan by plan
+*Answer: B. IRC § 415(c) applies per employer, but employers aggregated under IRC § 414(b), (c), (m) or (o) count as one, so a controlled group has a single annual additions limit for the participant; her $20,000 of deferrals is inside the IRC § 402(g) limit.*
+
+**7. In February 2027 a participant discovers a $2,000 excess deferral for 2026 and allocates it to one plan. She has extended her 2026 return to 15 October 2027. By when must the plan distribute the excess to avoid double taxation?**
+(A) 15 April 2027, and the extension does not move it (B) 15 October 2027, the extended due date of her return (C) 1 March 2027, the allocation date (D) 31 December 2027, the end of the following plan year
+*Answer: A. Under IRC § 402(g) the participant allocates the excess by 1 March and the plan distributes it, with allocable income, by 15 April; that is a hard statutory date rather than the filing deadline in disguise, and a missed distribution leaves the excess taxed twice.*
+
+**8. A 57-year-old joins a new employer on 1 January 2026, having earned $200,000 of wages from her previous employer in 2025. She wants to make a pre-tax catch-up contribution to the new employer's 401(k). Must the catch-up be a designated Roth contribution?**
+(A) Yes, because her 2025 wages exceeded the threshold (B) No, because the threshold looks only at prior-year wages from the employer sponsoring the plan, and she had none (C) Yes, unless the new plan has no Roth feature (D) No, because catch-up contributions are never required to be Roth
+*Answer: B. IRC § 414(v)(7) measures the preceding calendar year's IRC § 3121(a) wages from the sponsoring employer, so a participant's first year with a new employer is never caught by it.*

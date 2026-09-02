@@ -305,3 +305,15 @@ advantageous in a particular year is not itself a material change in the taxpaye
 circumstances, and only a material change permits revocation. Note that on a disposition of an entire
 interest the suspended losses of the *aggregated activity* are not freed by selling one property
 within it, which is the real cost of the election.
+
+**6. An accountant works 1,800 hours a year in her practice and, with careful contemporaneous logs, 1,000 hours managing her rental houses. Is she a real estate professional for 2026?**
+(A) Yes, because 1,000 hours exceeds the 750-hour test (B) No, because 1,000 hours is not more than half of her 2,800 hours of personal services in trades or businesses (C) Yes, because she keeps contemporaneous records of more than 750 hours (D) No, because hours spent managing one's own rentals never count toward the tests
+*Answer: B. IRC § 469(c)(7)(B)(i) requires more than one-half of all personal services in trades or businesses to be in real property trades or businesses; 1,000 of 2,800 is about 36 percent, and clearing the 750-hour floor in clause (ii) alone proves nothing.*
+
+**7. A married couple own six rental units and have no other employment. She spends 500 hours a year on the properties and he spends 400. They file jointly. Do they qualify as real estate professionals?**
+(A) Yes, because their combined 900 hours exceeds 750 and all their business hours are in real estate (B) No, because either spouse must separately satisfy both tests and neither alone exceeds 750 hours (C) Yes, because each spouse individually meets the more-than-half test (D) Yes, but only if they file separate returns
+*Answer: B. The closing sentence of IRC § 469(c)(7)(B) provides that on a joint return the requirements are met if and only if either spouse separately satisfies them; combining hours is exactly what the statute forbids.*
+
+**8. A full-time property developer working 2,300 hours a year, all in real estate, owns three rental duplexes run by a managing agent. He spends 40 hours a year on them and has made no aggregation election. The duplexes lose $30,000. What is the status of the loss?**
+(A) Non-passive, because a real estate professional's rental losses are deductible against other income (B) Passive, because each duplex is a separate activity in which he does not materially participate (C) Non-passive, because his 2,300 hours of material participation in the development business carry over to the duplexes (D) Passive, because a real estate professional may not use a managing agent
+*Answer: B. IRC § 469(c)(7)(A)(ii) treats each interest in rental real estate as a separate activity, and qualifying only removes the per se passive rule; 40 hours across three properties fails the more-than-500-hours test and the more-than-100-hours-and-most-of-anyone test in Treas. Reg. § 1.469-5T(a)(3), because the agent does far more.*

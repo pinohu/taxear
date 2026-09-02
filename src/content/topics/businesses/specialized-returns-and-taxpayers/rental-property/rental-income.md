@@ -287,3 +287,15 @@ IRC § 183(d) gives no presumption of profit here — the activity has not had g
 deductions in 3 of the last 5 years — so the burden is on the owner. If IRC § 183 applies, deductions
 are limited to gross income under IRC § 183(b) and there is no carryforward, which is harsher than
 the IRC § 280A(c)(5) cap.
+
+**6. An accrual-method landlord signs a lease on 1 December 2026 and receives $3,000 for December, $3,000 described as last month's rent, and a $4,500 security deposit refundable at the end of the term less any damage. What is 2026 rental income from these receipts?**
+(A) $3,000 (B) $6,000 (C) $10,500 (D) $7,500
+*Answer: B. Treas. Reg. § 1.61-8(b) includes advance rentals in the year of receipt regardless of the period covered and regardless of the method of accounting, so the last month's rent is 2026 income; the refundable deposit is not, because the landlord holds it subject to an obligation to return it.*
+
+**7. A retail lease reduces the rent from the $50,000 market rate to $35,000 a year in exchange for the tenant's $150,000 fit-out, which becomes the landlord's at the end of the term. What is the landlord's annual rental income?**
+(A) $35,000, with the fit-out excluded on termination of the lease (B) $50,000, because the $15,000 reduction represents improvements made in lieu of rent (C) $35,000 plus $150,000 in the year the work is done (D) $35,000, with $150,000 added to basis on termination
+*Answer: B. Treas. Reg. § 1.61-8(c) treats improvements that are a substitute for rent as rental income when made, to that extent; the IRC § 109 exclusion on termination does not reach an improvement that was a substitute for rent in the first place.*
+
+**8. A rental let to friends below market is held not to be engaged in for profit under IRC § 183. For 2026 its allowable deductions exceed its gross income by $4,000. What happens to the $4,000?**
+(A) It carries forward to the following year and is deductible against that year's rental income (B) It is lost, because the IRC § 183 limit allows no carryforward (C) It is deductible against wages as an ordinary loss (D) It is suspended under the passive activity rules until the property is sold
+*Answer: B. IRC § 183(b) limits deductions to gross income with no carryforward, which is harsher than the IRC § 280A(c)(5) cap, where the disallowed excess carries to the succeeding year.*
