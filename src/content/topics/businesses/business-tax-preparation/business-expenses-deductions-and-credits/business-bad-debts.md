@@ -320,3 +320,15 @@ Reg. § 1.166-1(a)(2)?
 Pub. L. 99-514 § 805(a) in 1986. The regulation was never conformed and still describes the
 election, but the only surviving reserve methods are those for financial institutions in
 IRC § 585 and IRC § 593.*
+
+**6. A corporation lends $60,000 to an unrelated start-up as a side investment with no connection to its own operations. The loan becomes wholly worthless in 2026. How is the loss treated?**
+(A) As a short-term capital loss under the non-business bad debt rule (B) As an ordinary deduction, because a corporation cannot have a non-business bad debt (C) As a long-term capital loss, because the loan was outstanding more than a year (D) No deduction, because the loss bears no proximate relation to the corporation's business
+*Answer: B. IRC § 166(d)(1) opens "In the case of a taxpayer other than a corporation," so every debt a corporation holds is within IRC § 166(a) and the business or non-business classification never arises.*
+
+**7. An accrual method business is owed $50,000 by a bankrupt customer. In 2026 it charges off $35,000 on its books and deducts that amount. In 2028 the estate distributes $25,000 and closes. What is the 2028 consequence?**
+(A) $10,000 is included in 2028 income, to the extent the 2026 deduction produced a tax benefit (B) The whole $25,000 is included in 2028 income (C) The 2026 return is amended to reduce the deduction to $25,000 (D) Nothing, because a recovery of a bad debt is never income
+*Answer: A. Reg. § 1.166-1(f) treats a recovery of an amount previously deducted as income in the year received; the first $15,000 clears the unwritten balance and the $10,000 above it is a recovery, taxable only so far as the earlier deduction gave a tax benefit under IRC § 111.*
+
+**8. A sole proprietor advances $30,000 to her brother with no note, no interest and no repayment date. Two years later he says he cannot repay. What may she deduct?**
+(A) A short-term capital loss as a non-business bad debt (B) An ordinary deduction, if the advance related to her business (C) Nothing, because there was never a bona fide debt (D) Nothing this year, but a deduction once the brother is formally bankrupt
+*Answer: C. Reg. § 1.166-1(c) requires a genuine debtor-creditor relationship founded on a valid and enforceable obligation to repay a fixed sum; an advance with no note, no interest and no repayment terms is a gift when made, so there is no bad debt to deduct under either IRC § 166(a) or IRC § 166(d).*

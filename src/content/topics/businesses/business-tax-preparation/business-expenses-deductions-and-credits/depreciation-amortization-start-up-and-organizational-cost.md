@@ -336,3 +336,15 @@ percentage depletion?
 well without regard to IRC § 613 unless an exception applies, and the exception in IRC § 613A(c)
 is confined to independent producers and royalty owners. An integrated producer takes cost
 depletion.*
+
+**6. Fenwick Tools spends $30,000 of start-up expenditure and begins its active business on 1 July 2026. What is its total 2026 deduction under IRC § 195?**
+(A) $5,000 (B) $5,833 (C) $6,667 (D) $30,000
+*Answer: B. IRC § 195(b)(1)(A) allows $5,000 in the opening year because the expenditure does not exceed $50,000, and IRC § 195(b)(1)(B) amortises the remaining $25,000 over 180 months from July, giving six months' worth, about $833, in 2026.*
+
+**7. A manufacturer places several five-year assets in service in 2026 and elects out of bonus depreciation for that class. Which statement is correct?**
+(A) The election covers every five-year asset placed in service that year and can be revoked only with IRS consent (B) The election is made asset by asset, so one machine can be excluded and the rest kept (C) The election can be made on an amended return at any time within three years (D) The election lapses automatically at the end of the year and must be renewed
+*Answer: A. IRC § 168(k)(7) lets a taxpayer elect out for a class of property by a statement attached to a timely filed return, including extensions, for the placed-in-service year; the election applies to every asset in that class placed in service that year and is revocable only with IRS consent.*
+
+**8. A uranium mine computes percentage depletion at the 22 percent rate as $22,000 for the year, but its cost depletion on the same property is $30,000. What is its depletion allowance?**
+(A) $22,000, because percentage depletion replaces cost depletion (B) $30,000, because the allowance can never be less than cost depletion (C) $52,000, because both methods are allowed (D) Nothing, because uranium is not a listed mineral
+*Answer: B. IRC § 613(a) closes by providing that the allowance shall in no case be less than it would be computed without reference to that section, so percentage depletion is floored by cost depletion.*

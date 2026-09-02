@@ -351,3 +351,15 @@ its business purpose. Is the travel deductible?
 place, business purpose, and business relationship — and provides that no deduction shall be
 allowed without them. Substantiation is a condition of the deduction rather than a matter of
 proof.*
+
+**6. A firm hosts a client dinner that is lavish and extravagant in the circumstances, at $900 a head. An employee of the firm attends throughout. What may the firm deduct?**
+(A) 50 percent of the cost (B) 100 percent, because the meal was provided by a restaurant (C) Nothing, because a lavish meal fails the conditions that apply before any halving (D) $25 per client, as a gift
+*Answer: C. IRC § 274(k)(1) requires that the food or beverages not be lavish or extravagant and that the taxpayer or an employee be present, and only a meal that clears both conditions is then halved by IRC § 274(n)(1); a lavish meal is not deducted at half, it is not deducted at all.*
+
+**7. A firm distributes 500 identical wall calendars, each costing it $3.50 and permanently imprinted with its name, to customers and prospects. How much of the $1,750 is deductible?**
+(A) $25 per recipient (B) All $1,750, because the calendars are not gifts for this purpose (C) Nothing, because they are entertainment (D) 50 percent, because promotional items are treated like meals
+*Answer: B. IRC § 274(b)(1)(A) takes an item costing not more than $4.00, clearly and permanently imprinted with the taxpayer's name and one of a number of identical items distributed generally, outside the gift limit entirely.*
+
+**8. In 2026 a consultant takes a client to a restaurant for a $200 business meal. It is not lavish and she is present. What may she deduct?**
+(A) $200, because restaurant meals are fully deductible (B) $100, because the full deduction for restaurant meals applied only to 2021 and 2022 (C) Nothing, because meals with clients are entertainment (D) $25, because the meal is a gift to the client
+*Answer: B. IRC § 274(n)(2)(D), added by Pub. L. 116-260 § 210(a), lifted the haircut only for amounts paid or incurred after 31 December 2020 and before 1 January 2023, so in 2026 the ordinary halving under IRC § 274(n)(1) applies.*

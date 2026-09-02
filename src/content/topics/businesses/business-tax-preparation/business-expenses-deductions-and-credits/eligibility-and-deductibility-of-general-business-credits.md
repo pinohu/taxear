@@ -314,3 +314,15 @@ reduction, and the election must be made on a timely filed return.*
 *Answer: No. IRC § 901 is in subpart A, and IRC § 38(c)(1) computes net income tax after the
 credits allowable under subparts A and B. The foreign tax credit is therefore taken first and
 reduces the amount of tax against which the general business credit is measured.*
+
+**6. A bakery had gross receipts of $1,400,000 last year and employed 22 full-time employees throughout it. It spends $9,000 making its entrance accessible and elects the section. Is it eligible for the disabled access credit?**
+(A) No, because its gross receipts exceeded $1,000,000 (B) Yes, because the employee-count alternative is satisfied and the two tests are alternatives (C) Yes, but the credit is reduced by half for exceeding the receipts test (D) No, because both the receipts test and the employee test must be met
+*Answer: B. IRC § 44(b) confines the credit to a small business on either of two alternative tests, gross receipts for the preceding year or full-time employee count, and requires an election; a business passing the employee test need not pass the receipts test.*
+
+**7. A corporation has net regular tax liability of $125,000, a tentative minimum tax of $40,000, no subpart A or B credits, and $95,000 of current year business credit. How much of the credit may it use this year?**
+(A) $85,000 (B) $95,000 (C) $100,000 (D) $60,000
+*Answer: A. IRC § 38(c)(1) limits the credit to net income tax less the greater of the tentative minimum tax and 25 percent of net regular tax liability above $25,000; a quarter of $100,000 is $25,000, the tentative minimum tax of $40,000 is greater, and $125,000 less $40,000 leaves $85,000, with the remaining $10,000 going to IRC § 39.*
+
+**8. A café takes the maximum disabled access credit on a $20,000 barrier-removal project. How is the portion of the expenditure that produced the credit treated?**
+(A) It is also deducted in full under IRC § 190 (B) It gets no further deduction or basis, while the rest of the spending is recovered under IRC § 190 or by depreciation (C) It is capitalised into the building and depreciated in addition to the credit (D) It is carried forward as an additional credit to the following year
+*Answer: B. IRC § 44(d)(7) denies a double benefit for the amount that produced the credit; only the portion not taken into account for the credit is recovered under IRC § 190 to the extent that section applies, or otherwise capitalised and depreciated.*
