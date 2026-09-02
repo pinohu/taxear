@@ -1,5 +1,5 @@
 ---
-title: "Like-kind exchange"
+title: "Like-kind exchange of real property"
 code: "1.2.3.i"
 part: 1
 domain: "Income and Assets"

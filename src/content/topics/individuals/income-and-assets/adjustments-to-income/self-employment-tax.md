@@ -1,5 +1,5 @@
 ---
-title: "Self-employment tax"
+title: "Self-employment tax deduction and the two halvings"
 code: "1.2.4.a"
 part: 1
 domain: "Income and Assets"

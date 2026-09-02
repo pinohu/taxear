@@ -259,9 +259,9 @@ having the corporation assume $46,000 of trade accounts payable. What gain arise
 which would give rise to a deduction, and trade payables of a cash-basis business are exactly that. With
 the payables excluded there are no liabilities left to compare against the $9,000 of basis.*
 
-**5.** A transferor contributes property with a basis of $150,000 and a fair market value of $400,000,
-subject to $480,000 of debt. He is economically underwater. Does he recognise gain?
+**5.** A transferor contributes property with a basis of $210,000 and a fair market value of $520,000,
+subject to $575,000 of debt. He is economically underwater. Does he recognise gain?
 
-*Answer: yes, $330,000. IRC § 357(c)(1) measures the excess of liabilities assumed over the aggregate
+*Answer: yes, $365,000. IRC § 357(c)(1) measures the excess of liabilities assumed over the aggregate
 adjusted basis of the property transferred, and does not look at fair market value at all. That the
 transferor has an overall economic loss on the property does not affect the computation.*

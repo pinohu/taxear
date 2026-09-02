@@ -1,5 +1,5 @@
 ---
-title: "Interest expense"
+title: "Business interest expense"
 code: "2.2.2.g"
 part: 2
 domain: "Business Tax Preparation"

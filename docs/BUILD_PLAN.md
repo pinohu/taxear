@@ -159,3 +159,10 @@ ready for the owner's publish gate.
 
 The site: 360 topics at `published`, every figure verified against the current tax year, the
 glossary complete, `/ea-exam/` sourced, fonts self-hosted, DNS and Search Console live.
+
+## Revenue build (September 2026)
+
+The reference content is complete at 360 published topics. The next phase is
+`docs/REVENUE_BUILD.md`: integrity and legal fixes from the 2 September audit, the Study
+product rebuilt on the pages' own questions, and a Practitioner alert tier. Nothing in it
+changes the rules above or makes any reference page paid.

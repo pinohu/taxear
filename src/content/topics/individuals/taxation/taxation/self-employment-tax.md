@@ -1,5 +1,5 @@
 ---
-title: "Self-employment tax"
+title: "Self-employment tax: who owes it and the optional methods"
 code: "1.4.1.d"
 part: 1
 domain: "Taxation"

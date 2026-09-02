@@ -1,5 +1,5 @@
 ---
-title: "Interest expense"
+title: "Interest expense deductions for individuals"
 code: "1.3.1.c"
 part: 1
 domain: "Deductions and Credits"
