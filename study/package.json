@@ -7,7 +7,9 @@
     "dev": "astro dev",
     "build": "astro build",
     "preview": "astro preview",
-    "verify": "node scripts/verify_questions.mjs"
+    "import": "node scripts/import_questions.mjs",
+    "verify": "node scripts/verify_questions.mjs",
+    "test": "node --test test/*.test.mjs"
   },
   "dependencies": {
     "astro": "^5.12.0"
