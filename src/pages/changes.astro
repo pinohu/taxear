@@ -6,12 +6,15 @@ import { topicByCode } from '../lib';
 // draft's "initial draft" entry must not appear here, and no link may point at a
 // noindexed page.
 const entries = await getCollection('topics', e => e.data.status === 'published' && e.data.changelog.length > 0);
-const log = entries.flatMap(e => e.data.changelog.map(c => ({ ...c, title: e.data.title, path: topicByCode(e.data.code)?.path }))).sort((a,b) => b.date.localeCompare(a.date));
+const log = entries.flatMap(e => e.data.changelog.map(c => ({ ...c, title: e.data.title, code: e.data.code, path: topicByCode(e.data.code)?.path }))).sort((a,b) => b.date.localeCompare(a.date));
+const material = log.filter(c => c.material);
 ---
-<Base title="What changed this year" description="A running, dated log of federal tax law and IRS procedure changes across TaxEar topics.">
+<Base title="What changed" description="A running, dated log of every change to TaxEar's topic pages, with the changes that alter a rule, a figure or a deadline marked as material." ogType="website">
   <p class="crumbs"><a href="/">TaxEar</a><span>›</span>Changes</p>
   <h1>What changed</h1>
-  <p>Every material change recorded on a topic page appears here, newest first.</p>
-  <ul class="changelog">{log.map(c => <li><time>{c.date}</time><a href={c.path}>{c.title}</a>: {c.summary}</li>)}</ul>
+  <p>Every change recorded on a topic page appears here, newest first. Entries marked <span class="tag-material">material</span> alter what a practitioner would do: a figure, a deadline, a rule. Editorial work is listed too, unmarked. To be emailed when a page you rely on records a material change, follow it from the page itself with <a href="https://study.taxear.com/practitioner/">Practitioner alerts</a>.</p>
+  {material.length > 0 && <section><h2>Material changes</h2><ul class="changelog">{material.map(c => <li><time>{c.date}</time><a href={c.path}>{c.title}</a>: {c.summary}</li>)}</ul></section>}
+  <h2>Everything</h2>
+  <ul class="changelog">{log.map(c => <li><time>{c.date}</time>{c.material && <span class="tag-material">material</span>} <a href={c.path}>{c.title}</a>: {c.summary}</li>)}</ul>
   {log.length === 0 && <p>No entries yet.</p>}
 </Base>

@@ -25,6 +25,10 @@ const topics = defineCollection({
     related: z.array(z.string()).default([]), // topic codes
     changelog: z.array(z.object({
       date: z.string(), summary: z.string(),
+      // material: the change alters what a practitioner would do (a figure, a deadline,
+      // a rule). Editorial entries leave it unset. Material entries are what Practitioner
+      // subscribers who follow the topic are emailed about (docs/REVENUE_BUILD.md).
+      material: z.boolean().optional(),
     })).default([]),
     // Comprehension pass (docs/COMPREHENSION_PLAN.md). Optional: a page that hasn't
     // migrated yet simply has no diagram. archetype selects the component in

@@ -470,5 +470,16 @@ button.term:hover{text-decoration-color:var(--accent)}
 .search-box .pagefind-ui__search-input{color:var(--ink);background:var(--surface)}
 .search-label{display:block;font-family:var(--f-mono);font-size:12px;letter-spacing:.08em;text-transform:uppercase;color:var(--ink-soft);margin:24px 0 -20px}
 .companion{font-size:.95em;color:var(--ink-soft);margin:0 0 1.4em}
+/* Follow this rule + material change marks (docs/REVENUE_BUILD.md) */
+.follow{margin:48px 0 0;padding-top:20px;border-top:1px solid var(--rule)}
+.follow h2{margin-top:0}
+.follow-note{color:var(--ink-soft);max-width:60ch}
+.follow-form label{display:block;font-family:var(--f-mono);font-size:12px;letter-spacing:.08em;text-transform:uppercase;color:var(--ink-soft);margin-bottom:6px}
+.follow-row{display:flex;gap:8px;flex-wrap:wrap;max-width:32em}
+.follow-row input{flex:1 1 14em;font:inherit;color:var(--ink);background:var(--surface);border:1px solid var(--rule);border-radius:var(--radius);padding:.5em .7em}
+.follow-row button{font-family:var(--f-mono);font-size:14px;font-weight:600;color:#fff;background:var(--accent);border:0;border-radius:var(--radius);padding:.55em 1.1em;cursor:pointer}
+.follow-row button:disabled{opacity:.5;cursor:default}
+.follow-msg{font-size:.95em;margin:.6em 0 0;min-height:1.2em}
+.tag-material{font-family:var(--f-mono);font-size:11px;letter-spacing:.09em;text-transform:uppercase;color:var(--accent);border:1px solid currentColor;border-radius:var(--radius);padding:0 .35em;margin-right:.3em;vertical-align:middle}
 .companion .eyebrow{margin-right:.4em}
 @media (prefers-reduced-motion:reduce){.search-box *{transition:none!important;animation:none!important}}
