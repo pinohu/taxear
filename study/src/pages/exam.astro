@@ -1,0 +1,158 @@
+---
+import StudyBase from '../layouts/StudyBase.astro';
+import outline from '../../../src/data/topics.json';
+// Domain names for the optional focus select; the outline is public.
+const domains = outline.parts.flatMap((p) => p.domains.map((d) => ({ part: p.part, code: d.code, title: d.title })));
+---
+<StudyBase title="Exam" description="Sit a timed practice exam drawn across the outline.">
+  <section id="setup">
+    <h1>Sit an exam</h1>
+    <p class="note" id="gate-note" hidden></p>
+    <form id="setup-form">
+      <fieldset><legend>Parts</legend>
+        <label><input type="checkbox" name="part" value="1" /> Part 1: Individuals</label>
+        <label><input type="checkbox" name="part" value="2" /> Part 2: Businesses</label>
+        <label><input type="checkbox" name="part" value="3" /> Part 3: Representation</label>
+      </fieldset>
+      <fieldset><legend>Length</legend>
+        <label><input type="radio" name="count" value="25" checked /> 25</label>
+        <label><input type="radio" name="count" value="50" /> 50</label>
+        <label><input type="radio" name="count" value="100" /> 100, the real length</label>
+      </fieldset>
+      <fieldset><legend>Focus</legend>
+        <label for="domain">One domain only (optional)</label>
+        <select id="domain" name="domain"><option value="">Whole part</option>{domains.map((d) => <option value={d.code} data-part={d.part}>{d.code} {d.title}</option>)}</select>
+      </fieldset>
+      <fieldset><legend>Clock</legend>
+        <label><input type="checkbox" name="timed" /> Timed at the exam's pace: 2.1 minutes a question</label>
+      </fieldset>
+      <button type="submit">Start</button>
+    </form>
+    <p id="setup-err" class="error" hidden></p>
+  </section>
+
+  <section id="run" hidden>
+    <div class="exam-bar"><span id="progress" class="quiz-progress"></span><span id="clock" class="quiz-progress" hidden></span><button type="button" class="link" id="submit-early">Submit</button></div>
+    <article class="quiz-card">
+      <p class="quiz-code" id="q-code"></p>
+      <p id="q-stem" class="q-stem"></p>
+      <ul class="quiz-options" id="q-options" role="radiogroup"></ul>
+      <div class="exam-nav">
+        <button type="button" class="secondary" id="prev">← Previous</button>
+        <button type="button" class="secondary" id="flag">Flag for review</button>
+        <button type="button" id="next">Next →</button>
+      </div>
+    </article>
+    <ol id="map" class="exam-map"></ol>
+  </section>
+
+  <section id="results" hidden>
+    <h1>Results</h1>
+    <p class="quiz-score" id="score"></p>
+    <table class="results-table"><thead><tr><th>Domain</th><th class="n">Correct</th><th class="n">Total</th><th class="n">%</th></tr></thead><tbody id="by-domain"></tbody></table>
+    <p><a class="btn" href="/exam/">Another exam</a> <a class="btn secondary" href="/account/">Account</a></p>
+    <h2>Every question, explained</h2>
+    <div id="review"></div>
+  </section>
+  <p id="err" class="error" hidden></p>
+
+  <script>
+    const $ = (id) => document.getElementById(id);
+    const esc = (s) => String(s ?? '').replace(/[&<>"]/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c]));
+    const KEY = 'ta-exam';
+    let exam = null; // { examId, questions, answers, flags, i, timed, startedAt, secondsPerQuestion }
+    let clock = null;
+
+    async function api(path, body) {
+      const res = await fetch(path, body ? { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify(body) } : undefined);
+      const data = await res.json().catch(() => ({}));
+      if (!res.ok) { const e = new Error(data.error || `Request failed (${res.status})`); e.status = res.status; e.data = data; throw e; }
+      return data;
+    }
+    const save = () => { try { localStorage.setItem(KEY, JSON.stringify(exam)); } catch {} };
+    const clear = () => { try { localStorage.removeItem(KEY); } catch {} };
+
+    async function init() {
+      const me = await api('/api/me');
+      if (!me.email) { location.href = '/account/'; return; }
+      const parts = me.entitlements.parts;
+      document.querySelectorAll('input[name=part]').forEach((cb) => { const n = Number(cb.value); cb.disabled = !parts.includes(n); if (parts.includes(n)) cb.checked = true; });
+      if (parts.length === 0) { $('gate-note').textContent = 'Your account has no exam access yet.'; $('gate-note').hidden = false; $('gate-note').innerHTML += ' <a href="/#pricing">See pricing</a>.'; }
+      const url = new URLSearchParams(location.search);
+      if (url.get('domain')) { $('domain').value = url.get('domain'); document.querySelectorAll('input[name=part]').forEach((cb) => { cb.checked = cb.value === url.get('part') && !cb.disabled; }); }
+      try { const saved = JSON.parse(localStorage.getItem(KEY) || 'null'); if (saved?.examId && saved.questions?.length) { exam = saved; showRun(); return; } } catch {}
+    }
+
+    $('setup-form').addEventListener('submit', async (ev) => {
+      ev.preventDefault(); $('setup-err').hidden = true;
+      const parts = [...document.querySelectorAll('input[name=part]:checked')].map((cb) => Number(cb.value));
+      const count = Number(document.querySelector('input[name=count]:checked').value);
+      const domain = $('domain').value || undefined;
+      const timed = document.querySelector('input[name=timed]').checked;
+      try {
+        const data = await api('/api/exam/start', { parts, count, domain, timed });
+        exam = { ...data, answers: {}, flags: {}, i: 0 };
+        save(); showRun();
+      } catch (e) { $('setup-err').textContent = e.message; $('setup-err').hidden = false; }
+    });
+
+    function showRun() {
+      $('setup').hidden = true; $('run').hidden = false;
+      if (exam.timed) { $('clock').hidden = false; tick(); clock = setInterval(tick, 1000); }
+      renderQ();
+    }
+    function tick() {
+      const total = exam.questions.length * exam.secondsPerQuestion * 1000;
+      const left = Math.max(0, exam.startedAt + total - Date.now());
+      const m = Math.floor(left / 60000), s = Math.floor((left % 60000) / 1000);
+      $('clock').textContent = `${m}:${String(s).padStart(2, '0')} left`;
+      if (left === 0) { clearInterval(clock); grade(); }
+    }
+    function renderQ() {
+      const q = exam.questions[exam.i];
+      $('progress').textContent = `Question ${exam.i + 1} of ${exam.questions.length}`;
+      $('q-code').textContent = `SEE ${q.code} · ${q.domainTitle}`;
+      $('q-stem').textContent = q.stem;
+      $('q-options').innerHTML = q.options.map((o, k) => `<li role="radio" tabindex="0" aria-checked="${exam.answers[q.id] === k}" class="${exam.answers[q.id] === k ? 'selected' : ''}" data-k="${k}"><span class="opt-letter">${'ABCD'[k]}</span> ${esc(o)}</li>`).join('');
+      $('q-options').querySelectorAll('li').forEach((li) => {
+        const pick = () => { exam.answers[q.id] = Number(li.dataset.k); save(); renderQ(); };
+        li.addEventListener('click', pick);
+        li.addEventListener('keydown', (e) => { if (e.key === ' ' || e.key === 'Enter') { e.preventDefault(); pick(); } });
+      });
+      $('flag').textContent = exam.flags[q.id] ? 'Unflag' : 'Flag for review';
+      $('prev').disabled = exam.i === 0;
+      $('next').textContent = exam.i === exam.questions.length - 1 ? 'Finish' : 'Next →';
+      $('map').innerHTML = exam.questions.map((x, k) => `<li><button type="button" class="map-btn ${k === exam.i ? 'current' : ''} ${x.id in exam.answers ? 'answered' : ''} ${exam.flags[x.id] ? 'flagged' : ''}" data-k="${k}" aria-label="Question ${k + 1}${x.id in exam.answers ? ', answered' : ''}${exam.flags[x.id] ? ', flagged' : ''}">${k + 1}</button></li>`).join('');
+      $('map').querySelectorAll('button').forEach((b) => b.addEventListener('click', () => { exam.i = Number(b.dataset.k); save(); renderQ(); }));
+    }
+    $('prev').addEventListener('click', () => { exam.i = Math.max(0, exam.i - 1); save(); renderQ(); });
+    $('next').addEventListener('click', () => { if (exam.i === exam.questions.length - 1) confirmSubmit(); else { exam.i++; save(); renderQ(); } });
+    $('flag').addEventListener('click', () => { const q = exam.questions[exam.i]; exam.flags[q.id] = !exam.flags[q.id]; save(); renderQ(); });
+    $('submit-early').addEventListener('click', confirmSubmit);
+    function confirmSubmit() {
+      const unanswered = exam.questions.filter((q) => !(q.id in exam.answers)).length;
+      if (unanswered && !confirm(`${unanswered} question${unanswered === 1 ? '' : 's'} unanswered. Submit anyway? Unanswered counts as wrong, as it does in the real exam.`)) return;
+      grade();
+    }
+    async function grade() {
+      if (clock) clearInterval(clock);
+      try {
+        const r = await api('/api/exam/grade', { examId: exam.examId, answers: exam.answers });
+        clear(); showResults(r);
+      } catch (e) { $('err').textContent = e.message; $('err').hidden = false; if (e.status === 404) clear(); }
+    }
+    function showResults(r) {
+      $('run').hidden = true; $('results').hidden = false;
+      $('score').textContent = `${r.score} / ${r.total} correct · ${r.percent}% · ${Math.round(r.durationMs / 60000)} min`;
+      $('by-domain').innerHTML = r.byDomain.map((d) => `<tr><td>${esc(d.title)}</td><td class="n">${d.correct}</td><td class="n">${d.total}</td><td class="n">${Math.round((100 * d.correct) / d.total)}</td></tr>`).join('');
+      $('review').innerHTML = r.items.map((it, k) => `<article class="quiz-card ${it.correct ? 'was-correct' : 'was-wrong'}">
+        <p class="quiz-code">${k + 1} · SEE ${esc(it.code)} · ${esc(it.domainTitle)} · ${it.correct ? 'correct' : it.chosen === null ? 'unanswered' : 'wrong'}</p>
+        <p class="q-stem">${esc(it.stem)}</p>
+        <ul class="quiz-options">${it.options.map((o, i) => `<li class="${i === it.answerIndex ? 'correct' : i === it.chosen ? 'incorrect' : ''}"><span class="opt-letter">${'ABCD'[i]}</span> ${esc(o)}</li>`).join('')}</ul>
+        <div class="quiz-explain">${esc(it.explanation)} <a href="https://taxear.com${esc(it.pagePath)}">Read the rule: ${esc(it.pageTitle)}</a></div>
+      </article>`).join('');
+      window.scrollTo(0, 0);
+    }
+    init().catch((e) => { $('err').textContent = e.message; $('err').hidden = false; });
+  </script>
+</StudyBase>

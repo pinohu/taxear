@@ -1,0 +1,108 @@
+---
+import StudyBase from '../layouts/StudyBase.astro';
+import outline from '../../../src/data/topics.json';
+const domains = outline.parts.flatMap((p) => p.domains.map((d) => ({ part: p.part, code: d.code, title: d.title })));
+---
+<StudyBase title="Recall drills" description="Open questions with worked answers, self-graded.">
+  <section id="setup">
+    <h1>Recall drills</h1>
+    <p>An open question. Answer it in your head, or on paper, then show the worked answer and mark yourself. Harder than multiple choice, and closer to the job.</p>
+    <p class="note" id="gate-note" hidden></p>
+    <form id="setup-form">
+      <fieldset><legend>Parts</legend>
+        <label><input type="checkbox" name="part" value="1" /> Part 1: Individuals</label>
+        <label><input type="checkbox" name="part" value="2" /> Part 2: Businesses</label>
+        <label><input type="checkbox" name="part" value="3" /> Part 3: Representation</label>
+      </fieldset>
+      <fieldset><legend>How many</legend>
+        <label><input type="radio" name="count" value="10" /> 10</label>
+        <label><input type="radio" name="count" value="20" checked /> 20</label>
+        <label><input type="radio" name="count" value="40" /> 40</label>
+      </fieldset>
+      <fieldset><legend>Focus</legend>
+        <label for="domain">One domain only (optional)</label>
+        <select id="domain" name="domain"><option value="">Whole part</option>{domains.map((d) => <option value={d.code}>{d.code} {d.title}</option>)}</select>
+      </fieldset>
+      <button type="submit">Start</button>
+    </form>
+    <p id="setup-err" class="error" hidden></p>
+  </section>
+
+  <section id="run" hidden>
+    <p id="progress" class="quiz-progress"></p>
+    <article class="quiz-card">
+      <p class="quiz-code" id="d-code"></p>
+      <p id="d-prompt" class="q-stem"></p>
+      <div id="d-answer" class="quiz-explain" hidden></div>
+      <div class="exam-nav">
+        <button type="button" id="reveal">Show the answer</button>
+        <button type="button" class="secondary" id="got" hidden>Got it</button>
+        <button type="button" class="secondary" id="missed" hidden>Missed it</button>
+        <button type="button" class="link" id="finish">Finish early</button>
+      </div>
+    </article>
+  </section>
+
+  <section id="results" hidden>
+    <h1>Drill summary</h1>
+    <p class="quiz-score" id="score"></p>
+    <table class="results-table"><thead><tr><th>Domain</th><th class="n">Got</th><th class="n">Seen</th></tr></thead><tbody id="by-domain"></tbody></table>
+    <p><a class="btn" href="/drills/">Another drill</a> <a class="btn secondary" href="/account/">Account</a></p>
+  </section>
+  <p id="err" class="error" hidden></p>
+
+  <script>
+    const $ = (id) => document.getElementById(id);
+    const esc = (s) => String(s ?? '').replace(/[&<>"]/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c]));
+    let set = null; let i = 0; const results = {};
+    async function api(path, body) {
+      const res = await fetch(path, body ? { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify(body) } : undefined);
+      const data = await res.json().catch(() => ({}));
+      if (!res.ok) throw new Error(data.error || `Request failed (${res.status})`);
+      return data;
+    }
+    async function init() {
+      const me = await api('/api/me');
+      if (!me.email) { location.href = '/account/'; return; }
+      const parts = me.entitlements.parts;
+      document.querySelectorAll('input[name=part]').forEach((cb) => { const n = Number(cb.value); cb.disabled = !parts.includes(n); if (parts.includes(n)) cb.checked = true; });
+      if (parts.length === 0) { $('gate-note').innerHTML = 'Your account has no access yet. <a href="/#pricing">See pricing</a>.'; $('gate-note').hidden = false; }
+    }
+    $('setup-form').addEventListener('submit', async (ev) => {
+      ev.preventDefault(); $('setup-err').hidden = true;
+      const parts = [...document.querySelectorAll('input[name=part]:checked')].map((cb) => Number(cb.value));
+      const count = Number(document.querySelector('input[name=count]:checked').value);
+      try { set = await api('/api/drills/start', { parts, count, domain: $('domain').value || undefined }); $('setup').hidden = true; $('run').hidden = false; render(); }
+      catch (e) { $('setup-err').textContent = e.message; $('setup-err').hidden = false; }
+    });
+    function render() {
+      const d = set.items[i];
+      $('progress').textContent = `${i + 1} of ${set.items.length}`;
+      $('d-code').textContent = `SEE ${d.code} · ${d.domainTitle}`;
+      $('d-prompt').textContent = d.prompt;
+      $('d-answer').hidden = true; $('d-answer').innerHTML = '';
+      $('reveal').hidden = false; $('got').hidden = true; $('missed').hidden = true;
+    }
+    $('reveal').addEventListener('click', async () => {
+      const d = set.items[i];
+      try {
+        const a = await api('/api/drills/answer', { drillId: set.drillId, id: d.id });
+        $('d-answer').innerHTML = `${esc(a.answer)} <a href="https://taxear.com${esc(a.pagePath)}">Read the rule: ${esc(a.pageTitle)}</a>`;
+        $('d-answer').hidden = false; $('reveal').hidden = true; $('got').hidden = false; $('missed').hidden = false;
+      } catch (e) { $('err').textContent = e.message; $('err').hidden = false; }
+    });
+    const mark = (v) => { results[set.items[i].id] = v; if (i < set.items.length - 1) { i++; render(); } else finish(); };
+    $('got').addEventListener('click', () => mark('got'));
+    $('missed').addEventListener('click', () => mark('missed'));
+    $('finish').addEventListener('click', finish);
+    async function finish() {
+      try {
+        const r = await api('/api/drills/finish', { drillId: set.drillId, results });
+        $('run').hidden = true; $('results').hidden = false;
+        $('score').textContent = `${r.score} of ${r.total} got`;
+        $('by-domain').innerHTML = r.byDomain.map((d) => `<tr><td>${esc(d.title)}</td><td class="n">${d.correct}</td><td class="n">${d.total}</td></tr>`).join('');
+      } catch (e) { $('err').textContent = e.message; $('err').hidden = false; }
+    }
+    init().catch((e) => { $('err').textContent = e.message; $('err').hidden = false; });
+  </script>
+</StudyBase>

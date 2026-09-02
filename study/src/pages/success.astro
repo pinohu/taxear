@@ -10,24 +10,21 @@ import StudyBase from '../layouts/StudyBase.astro';
   <script>
     const state = document.getElementById('state');
     const sessionId = new URLSearchParams(window.location.search).get('session_id');
-
-    function render(html) { state.innerHTML = html; }
+    const render = (html) => { state.innerHTML = html; };
+    const esc = (s) => String(s).replace(/[&<>"]/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c]));
 
     if (!sessionId) {
       render('<h1>Missing payment reference</h1><p>We could not find a payment session in this link. If you just paid, check the confirmation email from Stripe, or <a href="/">try again</a>.</p>');
     } else {
-      fetch('/api/verify-session', {
-        method: 'POST',
-        headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({ sessionId }),
-      })
+      fetch('/api/verify-session', { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify({ sessionId }) })
         .then(async (res) => {
           const data = await res.json();
           if (!res.ok) throw new Error(data.error || 'Could not verify payment.');
-          render(`<h1>You're in</h1><p>Access is unlocked on this browser. Bookmark this device — access is tied to it until we add cross-device sign-in.</p><p><a class="btn" href="/practice/">Start practicing →</a></p>`);
+          const parts = data.entitlements.parts.map((n) => `Part ${n}`).join(', ');
+          render(`<h1>You're in</h1><p>Signed in as <strong>${esc(data.email)}</strong>${parts ? ` with access to ${esc(parts)}` : ''}${data.entitlements.practitioner ? ' and Practitioner alerts' : ''}. On another device, sign in with that address from the <a href="/account/">account page</a>; a one-time link is emailed to you.</p><p><a class="btn" href="/exam/">Start an exam →</a> <a class="btn secondary" href="/drills/">Recall drills →</a></p>`);
         })
         .catch((e) => {
-          render(`<h1>We could not confirm this payment</h1><p>${e.message}</p><p>If you were charged, this is very likely a temporary issue — contact <a href="mailto:editor@taxear.com">editor@taxear.com</a> and we'll sort it out by hand.</p>`);
+          render(`<h1>We could not confirm this payment</h1><p>${esc(e.message)}</p><p>If you were charged, this is very likely a temporary issue — contact <a href="mailto:editor@taxear.com">editor@taxear.com</a> and we will sort it out by hand.</p>`);
         });
     }
   </script>
