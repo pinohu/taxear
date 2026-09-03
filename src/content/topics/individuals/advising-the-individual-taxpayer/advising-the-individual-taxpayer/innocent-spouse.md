@@ -271,3 +271,15 @@ other conditions are met.*
 *Answer: Petition the Tax Court. IRC § 6015(e)(1)(A)(i)(II) allows a petition at any time after the date
 six months after the election or request, without waiting for a final determination notice; where such a
 notice is issued, the petition must be filed within 90 days of it.*
+
+**6. A deficiency on a joint return is attributable entirely to the husband's erroneous items. The couple are still married and living together. May the wife elect separate allocation under § 6015(c)?**
+(A) Yes, allocation is available to any joint filer (B) No; the election needs divorce, legal separation, or twelve months in separate households ending on the election date (C) Yes, but only if the husband consents (D) No, because § 6015(c) applies only to unpaid liabilities
+*Answer: B. IRC § 6015(c)(3)(A) limits the election to a spouse no longer married to, or legally separated from, the other, or not a member of the same household at any time in the twelve months ending on the election date; a couple living together are left to § 6015(b) or (f).*
+
+**7. A divorced taxpayer validly elects allocation under § 6015(c). The Secretary proves she had actual knowledge, when signing, of $20,000 of the $60,000 of income her ex-husband omitted. What is the effect?**
+(A) The whole election is invalid (B) The election is invalid as to the $20,000 item only (C) None; knowledge is irrelevant under § 6015(c) (D) The election is invalid unless she proves she lacked reason to know of the remaining $40,000
+*Answer: B. IRC § 6015(c)(3)(C) makes the election invalid as to any item of which the Secretary shows the electing spouse had actual knowledge when signing; the burden is on the Secretary, and only that item is affected.*
+
+**8. Three years ago a taxpayer paid in full a joint liability that was correctly reported but attributable to her former husband. She now seeks equitable relief and a refund under § 6015(f). What deadline applies?**
+(A) Two years from the start of collection activity (B) Any time before the § 6502 collection period expires (C) Within the period for a timely refund claim, because the amount has been paid (D) There is no deadline for equitable relief
+*Answer: C. IRC § 6015(f)(2): a request as to an unpaid amount may be made before the § 6502 collection period expires, but as to a paid amount within the period for a timely refund claim — and the refund itself is subject to § 6511.*

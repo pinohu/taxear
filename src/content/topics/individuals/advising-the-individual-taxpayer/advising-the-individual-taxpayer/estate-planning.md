@@ -261,3 +261,15 @@ the number of donees, provided each gift is of a present interest rather than a 
 *Answer: No. Pub. L. 119-21 § 70106 amended IRC § 2010(c)(3) to set a new amount for calendar year
 2026, indexed from calendar year 2025 for decedents dying after 2026. The scheduled reduction that drove
 much 2018–2025 planning no longer applies.*
+
+**6. A decedent dying in 2026 leaves a traditional IRA worth $600,000 to her daughter. What basis does the daughter take in the account?**
+(A) Fair market value at death, like other inherited property (B) No step-up; the account passes with the decedent's basis and remains fully taxable (C) The decedent's basis under § 1015, as if acquired by gift (D) Fair market value, but only if an estate tax return was filed
+*Answer: B. IRC § 1014(c) excludes a right to receive an item of income in respect of a decedent from the fresh-basis rule, so a retirement account passes with the decedent's basis and full taxability.*
+
+**7. A single, never-married decedent dies in 2026 having made no lifetime gifts, with an estate that exceeds the basic exclusion amount by $600,000. How much of the estate is subject to estate tax?**
+(A) The entire estate, because crossing the exclusion makes the whole estate taxable (B) $600,000, the excess over the basic exclusion amount only (C) Nothing, because a single decedent's estate is sheltered up to twice the exclusion (D) The whole estate less one annual exclusion
+*Answer: B. IRC § 2010(c)(3) sets the basic exclusion amount, and it works as a threshold rather than a cliff: only the excess above it is subject to estate tax, and the assets passing to heirs still take a § 1014(a) basis.*
+
+**8. A husband dies in 2026 leaving a $6,000,000 estate entirely to his wife, and his executor files a timely, complete estate tax return electing portability. What exclusion does the wife's own estate later have?**
+(A) Her own basic exclusion amount only (B) Her own basic exclusion amount plus his deceased spousal unused exclusion amount (C) Exactly twice her own basic exclusion amount, whether or not the election was made (D) His unused exclusion amount in place of her own
+*Answer: B. IRC § 2010(c)(2): a surviving spouse's applicable exclusion amount is her own basic exclusion amount plus the deceased spousal unused exclusion amount, which the timely election under § 2010(c)(5)(A) preserves — for a married couple the effective figure is twice the single exclusion.*

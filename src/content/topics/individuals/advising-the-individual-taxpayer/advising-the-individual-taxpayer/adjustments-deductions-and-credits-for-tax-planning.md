@@ -291,3 +291,15 @@ stock on 20 November. Is the loss allowed?
 identical stock is acquired within the period beginning 30 days before the sale and ending 30 days
 after it. The 20 November purchase falls inside the window, and the disallowed loss is added to the
 basis of those shares.*
+
+**6. A cash-method client charges a $3,200 deductible medical bill to her credit card on 30 December and pays the card issuer on 25 January. In which year is the expense treated as paid?**
+(A) The year the card was charged (B) The year the card issuer was paid (C) Neither year, because borrowed funds are not payment (D) Half in each year
+*Answer: A. Reg. § 1.461-1(a)(1): deductions are taken in the year paid, and payment by credit card is made when the card is charged because the issuer has paid the payee; her later debt to the card issuer is a separate matter and is not deductible.*
+
+**7. A client carries a large nonrefundable credit into a year in which his regular tax will be very small. Which year-end move actually preserves the credit's value?**
+(A) Deferring income into the following year (B) Accelerating income into the current year so there is tax for the credit to reduce (C) Claiming the unused portion as a refund (D) Electing to itemize instead of taking the standard deduction
+*Answer: B. IRC § 26(a) caps the nonrefundable credits at regular tax liability, so a year with too little tax wastes them; this is the one situation where the standard advice to defer income runs backwards.*
+
+**8. A married couple give $9,000 to charity and pay $6,000 of deductible state taxes each year, and cannot clear the standard deduction in either year. They make two years of gifts in December 2026. What makes this bunching work?**
+(A) Excess charitable gifts carry forward automatically to fill the next year (B) Itemizing is an annual election, so they itemize for 2026 and take the standard deduction for 2027 (C) The standard deduction is reduced by charitable gifts made in the year (D) Deductions may be averaged across two consecutive years
+*Answer: B. IRC § 63(e): no itemized deduction is allowed unless the individual elects to itemize on the return, and the election is made year by year, so a year of large deductions next to a year of none is worth more than two average years.*

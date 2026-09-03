@@ -286,3 +286,15 @@ does she have to file it?
 
 *Answer: 7 years from the date prescribed by law for filing the return for the year concerned, under
 IRC § 6511(d)(1), in place of the ordinary 3-year period.*
+
+**6. A taxpayer paid foreign income taxes in 2019 and filed her 2019 return on time. In 2026 she discovers she under-claimed the foreign tax credit for that year. Is a refund claim still possible?**
+(A) No, the ordinary three-year period closed in 2023 (B) Yes, a ten-year period runs from the due date of the return for the year the foreign tax was paid or accrued (C) Yes, a seven-year period applies (D) Only if she was financially disabled
+*Answer: B. IRC § 6511(d)(3)(A) substitutes 10 years from the date prescribed for filing the return for the year in which the foreign taxes were actually paid or accrued, in place of the ordinary period.*
+
+**7. A taxpayer's timely refund claim for 2023 is allowed in the amount of $4,000. She also owes $2,500 of assessed income tax for 2021. What does she receive?**
+(A) $4,000, because the 2021 balance must be collected separately (B) $1,500, after the overpayment is credited against the 2021 liability (C) Nothing until the 2021 year is resolved (D) $4,000, provided she files an injured spouse allocation
+*Answer: B. IRC § 6402(a) lets the Secretary credit an overpayment against any liability for internal revenue tax of the person who made it and refund only the balance; the § 6402(c) to (f) offsets for other debts come after that.*
+
+**8. A taxpayer lives in an area given a postponement period under a federal disaster declaration. Her refund claim is timely, but the look-back window would otherwise cap the refund at nothing. What is the effect of the postponement?**
+(A) None; postponements reach only filing and payment deadlines (B) The postponement period is also disregarded in determining the amount of any credit or refund (C) It converts the two-year look-back into a three-year one (D) It applies only to combat-zone service, not to disasters
+*Answer: B. IRC § 7508A(a)(3) reaches "the amount of any credit or refund" and not merely the filing act, so a disaster postponement can preserve a claim that the ordinary look-back would have capped at nothing.*

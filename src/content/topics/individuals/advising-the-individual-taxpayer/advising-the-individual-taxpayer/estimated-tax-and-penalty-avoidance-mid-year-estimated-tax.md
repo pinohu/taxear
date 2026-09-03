@@ -297,3 +297,15 @@ did not pay?
 under the flat method by the amount of the reduction, and increases later installments to the extent it
 has not yet been recaptured. Annualising changes when the money is due, not how much is due for the
 year.*
+
+**6. A self-employed client is in her first profitable year and expects $14,000 of tax. She had no tax liability for the preceding year, which was a full twelve months, and was a citizen throughout it. Must she pay estimated tax to avoid the addition?**
+(A) Yes, because her current-year tax is well above the de minimis amount (B) No; with no prior-year liability, a full twelve-month prior year and citizenship throughout, no addition applies whatever this year's tax (C) Only if she cannot meet the 90 percent test (D) Yes, unless she files and pays by 31 January
+*Answer: B. IRC § 6654(e)(2): no addition to tax where the preceding taxable year was a full 12 months, the individual had no tax liability for it, and the individual was a citizen or resident throughout it — the three conditions are cumulative, and she meets all three.*
+
+**7. A taxpayer's 2026 return shows total tax of $9,400. Withholding was $8,700 and he made no estimated payments. Is an addition to tax imposed?**
+(A) No; the tax shown, reduced by withholding, is below the de minimis amount (B) Yes, computed on the full $9,400 (C) Yes, computed on the $700 balance (D) No, but only if he also met the prior-year harbour
+*Answer: A. IRC § 6654(e)(1): no addition applies where the tax shown on the return, reduced by the credit for tax withheld, is less than the de minimis figure; his $700 balance is under it, and the test runs against tax net of withholding rather than gross tax.*
+
+**8. A client elects on her 2025 return to have her $4,000 overpayment applied to her 2026 estimated tax. How is that amount credited against the 2026 installments?**
+(A) As an estimated tax payment on the first installment due date (B) In four equal parts on each due date, like withholding (C) On the date the 2025 return was filed (D) Against the fourth installment only
+*Answer: A. IRC § 6402(b): an overpayment of the preceding year's income tax may be credited against the current year's estimated tax; the amount is treated as an estimated tax payment and lands on the first installment date, which is why crediting forward is a clean way to cover the first quarter.*

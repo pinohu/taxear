@@ -298,3 +298,15 @@ of the base amount does she get?
 close of the year within the meaning of § 7703, does not file a joint return, and does not live apart
 from the spouse at all times during the year. The adjusted base amount is zero as well under
 § 86(c)(2)(C).*
+
+**6. A married couple live together all year and file separate returns. The wife has earned income within the credit range and a qualifying child who lives with her. What earned income credit may she claim?**
+(A) The full credit on her own return (B) Half the credit a joint return would have produced (C) None, because the credit is allowed to a married individual only on a joint return (D) The full credit, provided her husband does not also claim the child
+*Answer: C. IRC § 32(d)(1) makes the earned income credit unavailable on a separate return; it is denied outright rather than reduced, unless the taxpayer meets the narrower separated-spouse rule in § 32(d)(2)(B), which a couple living together cannot.*
+
+**7. A married woman has lived apart from her husband since February, files a separate return, and pays the whole cost of the home she shares all year with her dependent mother. May she file as head of household?**
+(A) Yes, she is considered unmarried under § 7703(b) (B) No, the qualifying individual for the considered-unmarried test must be a child (C) No, a married person can never file as head of household (D) Yes, because her husband was absent for the last six months of the year
+*Answer: B. IRC § 7703(b) requires a household that is the principal place of abode of a child; a qualifying relative who is not a child does not satisfy that condition, so she remains married and her choices are joint or separate.*
+
+**8. A couple who live together all year file separate returns. The husband actively participates in a rental activity that produces a $9,000 loss. How much of the rental real estate special allowance may he use?**
+(A) The full allowance available on a joint return (B) Half the allowance, with a halved phase-out range (C) None; the allowance is denied entirely to a separate filer who did not live apart from the spouse at all times (D) The $9,000 loss in full, because the allowance is not limited on a separate return
+*Answer: C. IRC § 469(i)(5) halves the allowance and its phase-out range only for a married individual filing separately who lives apart from the spouse at all times during the year, and denies it entirely to one who does not.*

@@ -237,3 +237,15 @@ law state.*
 
 *Answer: With the original return, where the couple already knows an offset is likely. That prevents the
 offset rather than reversing it and avoids the months a post-offset claim takes to work.*
+
+**6. A wife wants to be relieved of a deficiency assessed on a prior joint return, all of it attributable to her husband's unreported income. Which route applies?**
+(A) An injured spouse allocation on Form 8379 (B) A request for relief from joint and several liability under § 6015 on Form 8857 (C) Either form, at her election (D) Form 8379 first, then Form 8857 if it is denied
+*Answer: B. Relief under § 6015 on Form 8857 is relief from a liability, which is what she needs; an injured spouse claim under § 6402 allocates a refund taken for the other spouse's separate debt and does nothing about a liability she owes under § 6013(d)(3).*
+
+**7. A joint refund was offset in March 2024 for the husband's pre-marital debt. The wife never filed Form 8379 and files it alone in September 2026. Is the claim in time?**
+(A) No; a two-year deadline runs from the offset, as under § 6015 (B) Yes, if it falls within the ordinary refund claim period under § 6511 (C) No; the allocation can only be filed with the original return (D) Yes, but only if the husband also signs it
+*Answer: B. The claim is governed by the ordinary refund claim rules in § 6511: an injured spouse allocation has no two-year limit of its own like § 6015's, it may be filed on its own after the offset, and the debtor spouse's signature is not required.*
+
+**8. A couple's joint refund is taken for the wife's unpaid state income tax from a year before the marriage. Is the husband an injured spouse?**
+(A) Yes; a past-due state income tax obligation is one of the offsets that trigger the allocation (B) No; only debts to federal agencies can offset a federal refund (C) No; a state debt is collected by the state, not through the refund (D) Yes, but only in a community property state
+*Answer: A. IRC § 6402(e) authorises the offset of a refund for a past-due state income tax obligation, one of the four categories in § 6402(c) to (f), and the debt is the wife's alone, so his share of the overpayment is recoverable on Form 8379.*
