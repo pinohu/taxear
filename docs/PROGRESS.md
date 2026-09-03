@@ -11,8 +11,8 @@ is indexed, and only the owner moves a page there (see `docs/VERIFICATION.md`).
 |---|---:|---:|---:|---:|---:|---:|
 | 1. Individuals | 120 | 0 | 0 | 0 | 120 | 338,287 |
 | 2. Businesses | 119 | 0 | 0 | 0 | 119 | 345,947 |
-| 3. Representation, Practices and Procedures | 121 | 0 | 0 | 0 | 121 | 281,836 |
-| **All parts** | **360** | **0** | **0** | **0** | **360** | **966,070** |
+| 3. Representation, Practices and Procedures | 121 | 0 | 0 | 0 | 121 | 281,892 |
+| **All parts** | **360** | **0** | **0** | **0** | **360** | **966,126** |
 
 ## Part 1 — Individuals
 
@@ -457,7 +457,7 @@ is indexed, and only the owner moves a page there (see `docs/VERIFICATION.md`).
 |---|---|---|---:|---|
 | 3.1.4.a | [Assessment and appeal procedures for preparer penalties](/representation/practices-and-procedures/rules-and-penalties/assessment-and-appeal-procedures-for-preparer-penalties/) | **published** | 2,202 | 2026-08-18 |
 | 3.1.4.b | [Types of penalties (e.g., negligence, substantial understatement, overvaluation)](/representation/practices-and-procedures/rules-and-penalties/types-of-penalties/) | **published** | 2,315 | 2026-08-18 |
-| 3.1.4.c | [Furnishing a copy of a return to a taxpayer](/representation/practices-and-procedures/rules-and-penalties/furnishing-a-copy-of-a-return-to-a-taxpayer/) | **published** | 1,670 | 2026-08-18 |
+| 3.1.4.c | [Furnishing a copy of a return to a taxpayer](/representation/practices-and-procedures/rules-and-penalties/furnishing-a-copy-of-a-return-to-a-taxpayer/) | **published** | 1,698 | 2026-08-18 |
 | 3.1.4.d | [Signing returns and furnishing identifying numbers](/representation/practices-and-procedures/rules-and-penalties/signing-returns-and-furnishing-identifying-numbers/) | **published** | 1,781 | 2026-08-18 |
 | 3.1.4.e | [Keeping copies or lists of returns prepared](/representation/practices-and-procedures/rules-and-penalties/keeping-copies-or-lists-of-returns-prepared/) | **published** | 1,849 | 2026-08-18 |
 | 3.1.4.f | [Employees engaged or employed during a return period (e.g. IRC Section 6060)](/representation/practices-and-procedures/rules-and-penalties/employees-engaged-or-employed-during-a-return-period/) | **published** | 1,759 | 2026-08-18 |
@@ -507,7 +507,7 @@ is indexed, and only the owner moves a page there (see `docs/VERIFICATION.md`).
 |---|---|---|---:|---|
 | 3.2.4.a | [Financial documents and expense records (e.g., cancelled checks or equivalent, bank statements, credit card statements, receipts, brokerage records)](/representation/representation-before-the-irs/supporting-documentation/financial-documents-and-expense-records/) | **published** | 2,195 | 2026-08-19 |
 | 3.2.4.b | [Legal documents (e.g., birth certificate, divorce decrees, lawsuit settlements)](/representation/representation-before-the-irs/supporting-documentation/legal-documents/) | **published** | 2,297 | 2026-08-19 |
-| 3.2.4.c | [Prior and subsequent tax returns](/representation/representation-before-the-irs/supporting-documentation/prior-and-subsequent-tax-returns/) | **published** | 2,066 | 2026-08-19 |
+| 3.2.4.c | [Prior and subsequent tax returns](/representation/representation-before-the-irs/supporting-documentation/prior-and-subsequent-tax-returns/) | **published** | 2,096 | 2026-08-19 |
 | 3.2.4.d | [Other substantive and contemporaneous documentation (e.g., corporate minutes)](/representation/representation-before-the-irs/supporting-documentation/other-substantive-and-contemporaneous-documentation/) | **published** | 2,266 | 2026-08-19 |
 | 3.2.4.e | [Business entity supporting documents (e.g., partnership agreement, corporate bylaws)](/representation/representation-before-the-irs/supporting-documentation/business-entity-supporting-documents/) | **published** | 2,259 | 2026-08-19 |
 
@@ -567,7 +567,7 @@ is indexed, and only the owner moves a page there (see `docs/VERIFICATION.md`).
 | Code | Title | Status | Words | Last reviewed |
 |---|---|---|---:|---|
 | 3.3.2.a | [Penalties subject to abatement](/representation/specific-types-of-representation/penalties-and-or-interest-abatement/penalties-subject-to-abatement/) | **published** | 1,796 | 2026-08-18 |
-| 3.3.2.b | [Basis for having penalties abated or refunded](/representation/specific-types-of-representation/penalties-and-or-interest-abatement/basis-for-having-penalties-abated-or-refunded/) | **published** | 1,847 | 2026-08-18 |
+| 3.3.2.b | [Basis for having penalties abated or refunded](/representation/specific-types-of-representation/penalties-and-or-interest-abatement/basis-for-having-penalties-abated-or-refunded/) | **published** | 1,845 | 2026-08-18 |
 | 3.3.2.c | [Basis for having interest abated or refunded](/representation/specific-types-of-representation/penalties-and-or-interest-abatement/basis-for-having-interest-abated-or-refunded/) | **published** | 2,615 | 2026-08-18 |
 | 3.3.2.d | [Interest recalculation](/representation/specific-types-of-representation/penalties-and-or-interest-abatement/interest-recalculation/) | **published** | 2,621 | 2026-08-18 |
 | 3.3.2.e | [Procedures for requesting abatement](/representation/specific-types-of-representation/penalties-and-or-interest-abatement/procedures-for-requesting-abatement/) | **published** | 2,608 | 2026-08-18 |

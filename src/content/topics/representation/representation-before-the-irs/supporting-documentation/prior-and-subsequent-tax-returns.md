@@ -198,7 +198,8 @@ C. That the prior preparer was credentialed
 D. Nothing; reliance on a filed return is unqualified
 
 *Answer: B. This confirmation requirement is specific to reliance on prior returns and is satisfied by
-a transcript, not by the taxpayer's file copy.*
+an account transcript, which shows post-filing activity — a return transcript or the taxpayer's file
+copy shows only the original filing and would not reveal a later adjustment.*
 
 **2. A preparer prepares an amended return. What is the position on the original return's items?**
 
@@ -232,7 +233,8 @@ C. The collection statute for the examined year
 D. A six-year period in all cases
 
 *Answer: B. Where that period has already closed on the adjacent year, the correlative overpayment is
-unrecoverable even though the examined year's adjustment is correct.*
+ordinarily unrecoverable even though the examined year's adjustment is correct, absent a statutory
+exception outside what this page covers.*
 
 **5. Which is an element of the normal office practice the preparer penalty regulation rewards?**
 

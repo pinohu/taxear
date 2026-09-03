@@ -2481,7 +2481,7 @@
     "Whatever the taxpayer requests"
    ],
    "answerIndex": 1,
-   "explanation": "Reg. § 1.6107-1(a)(2) defines the complete copy of an electronically filed return as the electronic portion actually transmitted to the IRS, not a client-facing summary or a paper facsimile.",
+   "explanation": "Reg. § 1.6107-1(a)(2) defines the complete copy of an electronically filed return as the electronic portion actually transmitted to the IRS, including every schedule, form, PDF attachment and jurat — a bare Form 1040 facsimile that omits those attachments is incomplete, and so is a client-facing summary, though a full paper replica of everything transmitted is permitted.",
    "pagePath": "/representation/practices-and-procedures/rules-and-penalties/furnishing-a-copy-of-a-return-to-a-taxpayer/",
    "pageTitle": "Furnishing a copy of a return to a taxpayer",
    "source": "page"
@@ -5316,7 +5316,7 @@
     "Nothing; reliance on a filed return is unqualified"
    ],
    "answerIndex": 1,
-   "explanation": "This confirmation requirement is specific to reliance on prior returns and is satisfied by a transcript, not by the taxpayer's file copy.",
+   "explanation": "This confirmation requirement is specific to reliance on prior returns and is satisfied by an account transcript, which shows post-filing activity — a return transcript or the taxpayer's file copy shows only the original filing and would not reveal a later adjustment.",
    "pagePath": "/representation/representation-before-the-irs/supporting-documentation/prior-and-subsequent-tax-returns/",
    "pageTitle": "Prior and subsequent tax returns",
    "source": "page"
@@ -5379,7 +5379,7 @@
     "A six-year period in all cases"
    ],
    "answerIndex": 1,
-   "explanation": "Where that period has already closed on the adjacent year, the correlative overpayment is unrecoverable even though the examined year's adjustment is correct.",
+   "explanation": "Where that period has already closed on the adjacent year, the correlative overpayment is ordinarily unrecoverable even though the examined year's adjustment is correct, absent a statutory exception outside what this page covers.",
    "pagePath": "/representation/representation-before-the-irs/supporting-documentation/prior-and-subsequent-tax-returns/",
    "pageTitle": "Prior and subsequent tax returns",
    "source": "page"
@@ -9180,7 +9180,7 @@
     "Had no examinations"
    ],
    "answerIndex": 1,
-   "explanation": "IRM 20.1.1.3.3.2.1 sets the clean-compliance-history test as the same return type filed timely for the prior three years with no unreversed penalty other than an estimated tax penalty, or no filing requirement at all — not a tax-owed or representation condition.",
+   "explanation": "IRM 20.1.1.3.3.2.1 sets the clean-compliance-history test as the same return filed for the prior three years with no unreversed penalty other than an estimated tax penalty, or no filing requirement at all — not a tax-owed or representation condition.",
    "pagePath": "/representation/specific-types-of-representation/penalties-and-or-interest-abatement/basis-for-having-penalties-abated-or-refunded/",
    "pageTitle": "Grounds for abating or refunding a penalty",
    "source": "page"

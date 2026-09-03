@@ -101,7 +101,7 @@ Know that the trigger is presentation for signature and not filing. Know what ma
 
 **2. For an electronically filed return, a complete copy consists of:**
 (A) A printed Form 1040 facsimile (B) The electronic portion filed with the IRS, including all schedules, forms, PDF attachments and jurats (C) A client summary showing the refund or balance (D) Whatever the taxpayer requests
-*Answer: B. Reg. § 1.6107-1(a)(2) defines the complete copy of an electronically filed return as the electronic portion actually transmitted to the IRS, not a client-facing summary or a paper facsimile.*
+*Answer: B. Reg. § 1.6107-1(a)(2) defines the complete copy of an electronically filed return as the electronic portion actually transmitted to the IRS, including every schedule, form, PDF attachment and jurat — a bare Form 1040 facsimile that omits those attachments is incomplete, and so is a client-facing summary, though a full paper replica of everything transmitted is permitted.*
 
 **3. May the copy given to the taxpayer omit the preparer's identifying number?**
 (A) No, it must mirror the filed return exactly (B) Yes, the regulation says so expressly (C) Only for paper returns (D) Only with the taxpayer's written consent
