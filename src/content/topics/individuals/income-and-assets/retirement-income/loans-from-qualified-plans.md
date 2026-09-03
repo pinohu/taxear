@@ -295,3 +295,15 @@ borrow from the corporation's 401(k) plan. May she?
 *Answer: Yes, if the plan permits it and the § 4975(d)(1) conditions are met. IRC § 4975(f)(6)(B)(iii)
 limits the owner-employee restriction on plan loans to participants in individual retirement plans, so a
 shareholder-employee is not barred.*
+
+**6. Rosa has a vested 401(k) balance of $300,000. She borrowed $50,000 in March 2025 and repaid it in full in November 2025. In February 2026 she asks for another $50,000. What is her ceiling for the new loan?**
+(A) Zero — the capped limb is reduced by the $50,000 highest outstanding balance in the preceding year, less her current balance of nothing (B) $50,000 — the earlier loan was repaid before the new one was made (C) $150,000 — half her vested balance (D) $100,000 — the two limbs added together
+*Answer: A. IRC § 72(p)(2)(A)(i) reduces the statutory cap by the excess of the highest outstanding balance during the year ending the day before the loan over the balance on the day of the loan; the look-back is what stops a participant repaying in one month and borrowing the full amount again the next.*
+
+**7. A participant borrows from her plan to buy a house that will be her principal residence within a reasonable time. How does that change the § 72(p)(2) tests?**
+(A) The five-year repayment term no longer applies; the ceiling is unchanged (B) The ceiling doubles; the term is unchanged (C) Both the term and the ceiling are relaxed (D) Nothing changes — the residence exception applies only to hardship distributions
+*Answer: A. IRC § 72(p)(2)(B) lifts the five-year term for a loan used to acquire a dwelling unit that is to be the participant's principal residence, tested when the loan is made; it touches neither limb of the ceiling in § 72(p)(2)(A).*
+
+**8. Ken's compliant plan loan calls for monthly payments. He misses the payment due 15 May 2026 and every payment after it, and the plan allows the longest cure period the regulations permit. When, at the latest, does the deemed distribution occur?**
+(A) 30 September 2026 — the last day of the calendar quarter following the quarter in which the missed payment was due (B) 15 May 2026 — the date of the first missed payment (C) 30 June 2026 — the end of the quarter in which the payment was due (D) 31 December 2026 — the end of the plan year
+*Answer: A. Reg. § 1.72(p)-1, A-10(a) allows a cure period that cannot run past the last day of the calendar quarter following the quarter in which the installment was due; if nothing is paid by then, the outstanding balance plus accrued interest is a deemed distribution in 2026.*

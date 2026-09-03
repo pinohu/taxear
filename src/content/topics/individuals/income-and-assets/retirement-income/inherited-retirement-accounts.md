@@ -311,3 +311,15 @@ before 59½ carry the additional tax. Remaining a beneficiary keeps the death ex
 *Answer: No. The account is a right to receive income in respect of a decedent under IRC § 691(a)(1), and
 § 1014(c) excludes such a right from the basis rules of § 1014. A § 691(c) deduction is available for the
 federal estate tax attributable to it.*
+
+**6. An IRA owner dies in 2026 leaving the account to her 15-year-old daughter. Which distribution regime applies?**
+(A) Life expectancy payments until the daughter's 21st birthday, then the remainder within ten years of that date (B) The ten-year rule, running from the year of death (C) The five-year rule, because a minor cannot be a designated beneficiary (D) Life expectancy payments for the rest of the daughter's life
+*Answer: A. A child of the employee who has not reached majority is an eligible designated beneficiary under IRC § 401(a)(9)(E)(ii); majority is reached on the 21st birthday (Reg. § 1.401(a)(9)-4(e)(3)), and the remainder must then be distributed within ten years of that date (IRC § 401(a)(9)(E)(iii); Reg. § 1.401(a)(9)-5(e)(4)).*
+
+**7. A 45-year-old is the sole beneficiary of his late aunt's 401(k) account and wants the money in an IRA rather than left in the employer plan. Which route is open to him?**
+(A) A direct trustee-to-trustee transfer into an IRA that is itself treated as inherited (B) Electing to treat the account as his own, as a sole beneficiary may (C) Rolling it into his own existing IRA (D) None — an inherited plan balance cannot be moved anywhere
+*Answer: A. IRC § 402(c)(11)(A) permits a non-spouse beneficiary of an employer plan a direct trustee-to-trustee transfer into an IRA treated as inherited; IRC § 408(d)(3)(C) denies rollover treatment to an inherited account, so moving the money into his own IRA is a distribution of the whole amount, and the treat-as-own election of Reg. § 1.408-8(c) belongs to a surviving spouse alone.*
+
+**8. An owner dies in February 2026, aged 62, naming his daughter as primary beneficiary and a charity as contingent beneficiary. On 3 August 2026 the daughter executes a qualified disclaimer. Which rule governs the account?**
+(A) The five-year rule — the charity is the beneficiary determined on 30 September 2027 and is not an individual (B) The ten-year rule — the daughter was the beneficiary as of the date of death (C) Life expectancy payments to the charity in the daughter's place (D) The daughter's own rule — a disclaimer after the date of death cannot change the beneficiary
+*Answer: A. Reg. § 1.401(a)(9)-4(c)(1), (2) disregards a beneficiary who makes a qualified disclaimer by 30 September of the year following death; the charity then determined is not a designated beneficiary, and because the owner died before the required beginning date IRC § 401(a)(9)(B)(ii) requires distribution within five years.*

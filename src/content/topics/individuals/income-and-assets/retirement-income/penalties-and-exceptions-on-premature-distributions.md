@@ -289,3 +289,15 @@ attains age 59½, and stopping the payments is a modification. The tax for the y
 increased by the amount that would have been imposed but for the exception across the whole series,
 plus interest for the deferral period. Five years having passed does not help — the series must run to
 the later of five years or age 59½.*
+
+**5. Two colleagues are laid off on 1 June 2026 and each takes a full distribution from the employer's plan in July 2026. One turned 55 on 15 March 2026; the other turns 55 on 15 September 2026. Who gets the separation-from-service exception?**
+(A) Only the March colleague — the other separated before attaining age 55 (B) Both — each turns 55 in the calendar year of separation (C) Both, provided the distribution is taken after the birthday (D) Neither — the exception requires age 59½
+*Answer: A. IRC § 72(t)(2)(A)(v) excepts a distribution to an employee after separation from service after attainment of age 55; the statute reads on the birthday, not the year, so a separation three months before the birthday is outside it.*
+
+**6. A 45-year-old who takes the standard deduction withdraws from a 401(k) to pay unreimbursed medical expenses that exceed the § 213 floor. Does the medical exception reach the withdrawal?**
+(A) Yes, to the extent the expenses exceed the § 213 floor, whether or not he itemizes (B) No — the exception requires the medical expenses to be actually deducted (C) Only if the withdrawal comes from an IRA rather than a plan (D) Yes, for the whole withdrawal regardless of the amount of expenses
+*Answer: A. IRC § 72(t)(2)(B) excepts distributions to the extent they do not exceed the amount allowable as a § 213 deduction, determined without regard to whether the employee itemizes.*
+
+**7. A 50-year-old who is still employed wants to start a series of substantially equal periodic payments and is choosing between her current employer's 401(k) and her IRA. Which is available?**
+(A) Only the IRA — a series from a qualified plan must begin after separation from service (B) Only the 401(k) — an IRA series must wait until age 55 (C) Both, as long as the payments run for at least five years (D) Neither, because she is under 55
+*Answer: A. IRC § 72(t)(3)(B) requires a series from a § 401(a) trust to begin after separation from service; there is no such requirement for an IRA, though any series must run the longer of five years or to age 59½ on pain of the § 72(t)(4)(A) recapture.*
