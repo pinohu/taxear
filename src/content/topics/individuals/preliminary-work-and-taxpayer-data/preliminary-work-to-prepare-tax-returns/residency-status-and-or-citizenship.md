@@ -311,3 +311,15 @@ C. Serve as identification outside the federal tax system
 D. Provide a taxpayer identification number for federal tax purposes
 
 *Answer: D. The IRS states that an ITIN does none of the other three.*
+
+**6. Zara Mbeki-Sørensen meets the substantial presence test this year with 150 days of presence, keeps her tax home in Denmark and has a closer connection there, but in August filed an application for adjustment of status to lawful permanent resident. Can she use the closer connection exception?**
+(A) Yes, because her tax home and closer connection are both in Denmark (B) Yes, provided the application is still pending at year-end (C) No, because taking steps toward lawful permanent residence during the year forfeits the exception (D) No, because the exception is available only to exempt individuals
+*Answer: C. IRC § 7701(b)(3)(C) withdraws the closer connection exception from anyone who, at any time during the year, had an application for adjustment of status pending or otherwise took steps toward lawful permanent residence.*
+
+**7. Lucía arrives on a work visa on 1 June, is present every day afterwards and meets the substantial presence test for the year. She holds no green card and was not present in the two prior years. For which part of the year is she a resident alien?**
+(A) The entire calendar year, because the test is met for the year (B) From 1 June, her residency starting date, producing a dual-status year (C) From 1 January of the following year (D) From the day her weighted count reached 183
+*Answer: B. IRC § 7701(b)(2)(A) treats a first-year resident as a resident only for the portion of the year beginning on the residency starting date — for a substantial presence case, the first day of presence in the year — which produces a dual-status year.*
+
+**8. Kwame has been in the United States on a student visa for almost every day of the last three years and holds no green card. Before running the weighted day count, what must his adviser check?**
+(A) Whether his weighted three-year total exceeds 183 (B) Whether he was present at least 31 days in the current year (C) Whether he is an exempt individual whose days are not counted at all (D) Whether he has made a first-year election
+*Answer: C. A student is an exempt individual under IRC § 7701(b)(5)(A)(iii), and days on which an individual is an exempt individual are excluded from the substantial presence count, so the exemption is checked before the arithmetic rather than after.*

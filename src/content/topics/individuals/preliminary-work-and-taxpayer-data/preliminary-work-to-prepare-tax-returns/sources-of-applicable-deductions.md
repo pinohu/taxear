@@ -318,3 +318,15 @@ suspended miscellaneous itemized deduction. What changed?
 § 67(h) suspension does not reach them, and § 67(g) defines the term to include an interscholastic
 sports coach and to cover expenses incurred as part of instructional activity. She may claim them if
 she elects to itemize.*
+
+**6. Theo is 20, a full-time student claimed by his parents, blind, and earned $3,000 at a part-time job in 2026. Which statement about his standard deduction is correct?**
+(A) The dependent cap limits his entire standard deduction, so no blindness increment is allowed (B) The cap limits only his basic amount, and the blindness increment is added on top (C) He gets no standard deduction because a dependent cannot claim one (D) He gets the full single basic amount because blindness lifts the cap
+*Answer: B. IRC § 63(c)(5) caps a dependent's basic standard deduction at the greater of the floor amount or the allowance plus earned income, but it limits the basic amount only, so the § 63(f) increment for blindness sits on top of the capped figure.*
+
+**7. Nadine and her husband filed separate returns for 2026 and each elected to itemize. Nadine now wants to change her election and take the standard deduction for that year. What does the change require?**
+(A) Nothing beyond an amended return, since the election is freely revocable (B) Her husband's consent to her change only (C) Her husband's consistent change of his own election and both spouses' written consents to assessment (D) The change is not permitted once either spouse's return has been filed
+*Answer: C. IRC § 63(e)(3) allows the election to be changed after filing, but where a spouse filed separately for the corresponding year the change requires that spouse's consistent change and both written consents to assessment.*
+
+**8. Marcus takes the standard deduction for 2026. He has qualified tip income, qualified overtime compensation, interest on a loan for a passenger vehicle, and home mortgage interest. Which of these can he not deduct without electing to itemize?**
+(A) The qualified tips (B) The qualified overtime compensation (C) The passenger vehicle loan interest (D) The home mortgage interest
+*Answer: D. IRC § 63(b)(1)–(7) lists the deductions a non-itemizer takes alongside the standard deduction, including § 224 tips, § 225 overtime and the passenger-vehicle-loan interest exception; qualified residence interest falls within the residual definition of itemized deductions in IRC § 63(d) and needs the election.*

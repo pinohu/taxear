@@ -290,3 +290,15 @@ refund will arrive.
 15th day of the second month following the close of the taxable year where a credit is allowed under
 § 32 or under § 24 by reason of subsection (d). The bar applies to the whole refund, not just the
 credit, so the rest of it is held too.*
+
+**5. Beatrix underpaid each of her four 2026 estimated installments. She files her return and pays the full balance due on 27 January 2027. What does that do to the underpayment additions?**
+(A) Removes them for all four installments (B) Removes the addition for the fourth installment only (C) Removes nothing, because the return was not filed by the fourth installment's due date (D) Removes them for the first three installments but not the fourth
+*Answer: B. IRC § 6654(h) provides that filing the return and paying in full on or before 31 January removes any underpayment of the fourth installment; the earlier installments are untouched.*
+
+**6. A taxpayer's earlier earned income credit claim was disallowed after a final determination that it was due to reckless disregard of the rules, not fraud. For how many taxable years after that determination is the credit barred?**
+(A) One (B) Two (C) Five (D) Ten
+*Answer: B. IRC § 32(k)(1) bars the credit for a disallowance period of ten taxable years after a final determination of fraud, but two taxable years after a final determination of reckless or intentional disregard.*
+
+**7. Aisha, a citizen all year, filed a full twelve-month 2025 return showing no tax liability. In 2026 she starts a business, owes $14,000 of tax, made no estimated payments and had no withholding. Is she subject to the addition to tax for underpaying estimated tax?**
+(A) Yes, because the tax shown is far above the de minimis amount (B) Yes, unless she pays in full by 31 January (C) No, because her prior year was a full twelve months with no liability and she was a citizen throughout (D) No, because a first-year business is exempt from estimated tax
+*Answer: C. IRC § 6654(e)(2) provides that no addition applies where the prior year was a full twelve months, the individual had no liability for it, and was a citizen or resident throughout.*
