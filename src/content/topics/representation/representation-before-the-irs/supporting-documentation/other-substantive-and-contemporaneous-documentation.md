@@ -236,7 +236,8 @@ C. It may serve as the taxpayer's own statement, but the corroborating evidence 
    of probative value
 D. The burden shifts to the IRS
 
-*Answer: C. A log prepared after year end is not a record made at or near the time, so it drops to a
+*Answer: C. Contemporaneousness turns on being made at or near the time of the expenditure, not on a
+year-end cutoff; a log prepared well after the year has ended is a reconstruction and drops to a
 statement needing corroboration of high probative value rather than the automatic weight of an
 adequate record.*
 

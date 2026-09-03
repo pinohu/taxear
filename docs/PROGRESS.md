@@ -11,8 +11,8 @@ is indexed, and only the owner moves a page there (see `docs/VERIFICATION.md`).
 |---|---:|---:|---:|---:|---:|---:|
 | 1. Individuals | 120 | 0 | 0 | 0 | 120 | 338,287 |
 | 2. Businesses | 119 | 0 | 0 | 0 | 119 | 345,947 |
-| 3. Representation, Practices and Procedures | 121 | 0 | 0 | 0 | 121 | 281,939 |
-| **All parts** | **360** | **0** | **0** | **0** | **360** | **966,173** |
+| 3. Representation, Practices and Procedures | 121 | 0 | 0 | 0 | 121 | 281,986 |
+| **All parts** | **360** | **0** | **0** | **0** | **360** | **966,220** |
 
 ## Part 1 — Individuals
 
@@ -438,7 +438,7 @@ is indexed, and only the owner moves a page there (see `docs/VERIFICATION.md`).
 | 3.1.2.k | [Tax shelters](/representation/practices-and-procedures/requirements-for-enrolled-agents/tax-shelters/) | **published** | 2,620 | 2026-08-18 |
 | 3.1.2.l | [Enrollment cycle and renewal](/representation/practices-and-procedures/requirements-for-enrolled-agents/enrollment-cycle-and-renewal/) | **published** | 2,603 | 2026-08-18 |
 | 3.1.2.m | [Rules for prompt disposition of matters before the IRS](/representation/practices-and-procedures/requirements-for-enrolled-agents/rules-for-prompt-disposition-of-matters-before-the-irs/) | **published** | 1,737 | 2026-08-18 |
-| 3.1.2.n | [Rules for returning a client's records and documents](/representation/practices-and-procedures/requirements-for-enrolled-agents/rules-for-returning-a-client-s-records-and-documents/) | **published** | 1,762 | 2026-08-18 |
+| 3.1.2.n | [Rules for returning a client's records and documents](/representation/practices-and-procedures/requirements-for-enrolled-agents/rules-for-returning-a-client-s-records-and-documents/) | **published** | 1,777 | 2026-08-18 |
 | 3.1.2.o | [PTIN requirements](/representation/practices-and-procedures/requirements-for-enrolled-agents/ptin-requirements/) | **published** | 2,619 | 2026-08-18 |
 | 3.1.2.p | [Practitioner supervisory responsibilities (Circular 230 Section 10.36)](/representation/practices-and-procedures/requirements-for-enrolled-agents/practitioner-supervisory-responsibilities-circular-230/) | **published** | 2,544 | 2026-08-18 |
 
@@ -505,10 +505,10 @@ is indexed, and only the owner moves a page there (see `docs/VERIFICATION.md`).
 
 | Code | Title | Status | Words | Last reviewed |
 |---|---|---|---:|---|
-| 3.2.4.a | [Financial documents and expense records (e.g., cancelled checks or equivalent, bank statements, credit card statements, receipts, brokerage records)](/representation/representation-before-the-irs/supporting-documentation/financial-documents-and-expense-records/) | **published** | 2,195 | 2026-08-19 |
+| 3.2.4.a | [Financial documents and expense records (e.g., cancelled checks or equivalent, bank statements, credit card statements, receipts, brokerage records)](/representation/representation-before-the-irs/supporting-documentation/financial-documents-and-expense-records/) | **published** | 2,214 | 2026-08-19 |
 | 3.2.4.b | [Legal documents (e.g., birth certificate, divorce decrees, lawsuit settlements)](/representation/representation-before-the-irs/supporting-documentation/legal-documents/) | **published** | 2,297 | 2026-08-19 |
 | 3.2.4.c | [Prior and subsequent tax returns](/representation/representation-before-the-irs/supporting-documentation/prior-and-subsequent-tax-returns/) | **published** | 2,096 | 2026-08-19 |
-| 3.2.4.d | [Other substantive and contemporaneous documentation (e.g., corporate minutes)](/representation/representation-before-the-irs/supporting-documentation/other-substantive-and-contemporaneous-documentation/) | **published** | 2,266 | 2026-08-19 |
+| 3.2.4.d | [Other substantive and contemporaneous documentation (e.g., corporate minutes)](/representation/representation-before-the-irs/supporting-documentation/other-substantive-and-contemporaneous-documentation/) | **published** | 2,279 | 2026-08-19 |
 | 3.2.4.e | [Business entity supporting documents (e.g., partnership agreement, corporate bylaws)](/representation/representation-before-the-irs/supporting-documentation/business-entity-supporting-documents/) | **published** | 2,259 | 2026-08-19 |
 
 **3.2.5 Legal authority and references**

@@ -107,7 +107,7 @@ That the duty is triggered by the **client's request** and requires **prompt** r
 
 **4. An appraisal prepared by an independent appraiser and provided during the representation is:**
 (A) The practitioner's work product (B) A record of the client, the appraiser not being the practitioner's employee or agent (C) Excluded because the practitioner engaged the appraiser (D) Returnable only if the client paid the appraiser
-*Answer: B. Section 10.28(b) excludes only documents prepared by the practitioner or the practitioner's own employee or agent, so material from an independent third party like the appraiser remains a record of the client regardless of who paid for it.*
+*Answer: B. Section 10.28(b)'s exclusion reaches only a document prepared by the practitioner or their own employee or agent, and only while it is being withheld pending the client's performance of a fee obligation — an independent appraiser is neither, so the appraisal is a record of the client regardless of who paid for it.*
 
 **5. After returning the client's records, the practitioner:**
 (A) May not keep copies (B) May retain copies, and separately must keep a copy or list for three years under IRC § 6107(b) (C) Must destroy the file (D) Must obtain the client's consent to keep copies

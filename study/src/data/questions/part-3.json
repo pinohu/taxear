@@ -1578,7 +1578,7 @@
     "Returnable only if the client paid the appraiser"
    ],
    "answerIndex": 1,
-   "explanation": "Section 10.28(b) excludes only documents prepared by the practitioner or the practitioner's own employee or agent, so material from an independent third party like the appraiser remains a record of the client regardless of who paid for it.",
+   "explanation": "Section 10.28(b)'s exclusion reaches only a document prepared by the practitioner or their own employee or agent, and only while it is being withheld pending the client's performance of a fee obligation — an independent appraiser is neither, so the appraisal is a record of the client regardless of who paid for it.",
    "pagePath": "/representation/practices-and-procedures/requirements-for-enrolled-agents/rules-for-returning-a-client-s-records-and-documents/",
    "pageTitle": "Rules for returning a client's records and documents",
    "source": "page"
@@ -5169,7 +5169,7 @@
     "It shifts the burden of proof to the IRS"
    ],
    "answerIndex": 2,
-   "explanation": "A log made after year end is not contemporaneous, so it drops to the taxpayer's own statement and needs corroborating evidence of high probative value to support it.",
+   "explanation": "Contemporaneousness turns on being made at or near the time of the expenditure, not on a year-end cutoff; a log prepared well after the year has ended is a reconstruction and drops to the taxpayer's own statement, needing corroborating evidence of high probative value to support it.",
    "pagePath": "/representation/representation-before-the-irs/supporting-documentation/financial-documents-and-expense-records/",
    "pageTitle": "Financial documents and expense records",
    "source": "page"
@@ -5463,7 +5463,7 @@
     "The burden shifts to the IRS"
    ],
    "answerIndex": 2,
-   "explanation": "A log prepared after year end is not a record made at or near the time, so it drops to a statement needing corroboration of high probative value rather than the automatic weight of an adequate record.",
+   "explanation": "Contemporaneousness turns on being made at or near the time of the expenditure, not on a year-end cutoff; a log prepared well after the year has ended is a reconstruction and drops to a statement needing corroboration of high probative value rather than the automatic weight of an adequate record.",
    "pagePath": "/representation/representation-before-the-irs/supporting-documentation/other-substantive-and-contemporaneous-documentation/",
    "pageTitle": "Other substantive and contemporaneous documentation",
    "source": "page"

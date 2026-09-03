@@ -260,8 +260,9 @@ C. It may serve as the taxpayer's own statement, but the corroborating evidence 
    degree of probative value
 D. It shifts the burden of proof to the IRS
 
-*Answer: C. A log made after year end is not contemporaneous, so it drops to the taxpayer's own
-statement and needs corroborating evidence of high probative value to support it.*
+*Answer: C. Contemporaneousness turns on being made at or near the time of the expenditure, not on a
+year-end cutoff; a log prepared well after the year has ended is a reconstruction and drops to the
+taxpayer's own statement, needing corroborating evidence of high probative value to support it.*
 
 **5. A cancelled cheque establishes which element of a business expense?**
 
