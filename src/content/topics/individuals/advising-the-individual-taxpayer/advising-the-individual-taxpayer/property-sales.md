@@ -252,3 +252,15 @@ whole gain taxed at zero?
 *Answer: No. The zero rate applies only to so much of the adjusted net capital gain as fits below the
 maximum zero rate amount for the filing status, measured by taxable income. The gain itself lifts the
 taxpayer past that ceiling, and the excess is taxed at 15 percent.*
+
+**6. A taxpayer's net capital gain for the year includes unrecaptured section 1250 gain, collectibles gain and gain on listed stock held three years, and she also received qualified dividends. Which of these amounts are taxed on the zero, 15 and 20 percent ladder?**
+(A) All of the net capital gain, with the qualified dividends taxed at ordinary rates (B) The stock gain and the qualified dividends, after the unrecaptured section 1250 gain and the 28-percent rate gain are carved out (C) Only the stock gain (D) The stock gain and the collectibles gain, with the unrecaptured section 1250 gain taxed as ordinary income
+*Answer: B. IRC § 1(h)(3): adjusted net capital gain is net capital gain reduced by unrecaptured section 1250 gain and 28-percent rate gain, plus qualified dividend income. The two special categories come out first, and only the residual gets the zero, 15 and 20 percent ladder.*
+
+**7. A taxpayer whose income is above the § 1411 threshold sells a passive rental building at a gain that includes $70,000 of straight-line depreciation. What does the net investment income tax do to the rates on the sale?**
+(A) Nothing, because gain on real property is outside the net investment income tax (B) It applies only to the unrecaptured section 1250 portion of the gain (C) It adds 3.8 percent to every layer of the gain, the 25 percent portion and the 15 or 20 percent portion alike (D) It raises the 20 percent rate to 23.8 percent but leaves the 25 percent layer untouched
+*Answer: C. IRC § 1411(c)(1)(A)(iii): gain on the sale of property not held in a non-passive trade or business is net investment income, so for a client above the threshold every rate quoted on the sale is effectively 3.8 points higher. The combined figure, not the headline one, is the number to give the client.*
+
+**8. A client holds a painting for investment and wants to exchange it for another painting of equal value, deferring the gain under § 1031. Is the deferral available in 2026?**
+(A) Yes, because both paintings are held for investment (B) Yes, provided the two paintings are of like kind within the § 408(m) definition (C) No, because since 2018 § 1031 reaches only real property (D) No, because a collectible can never be exchanged without recognising gain at ordinary rates
+*Answer: C. Section 1031 has reached only real property since 2018, so a client planning to exchange business equipment or artwork cannot defer the gain that way. The gain is recognised and, as collectibles gain, is 28-percent rate gain under § 1(h)(4).*

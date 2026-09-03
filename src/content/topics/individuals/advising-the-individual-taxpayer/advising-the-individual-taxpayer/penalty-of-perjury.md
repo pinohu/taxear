@@ -272,3 +272,15 @@ established as such.*
 *Answer: Yes. IRC § 6065 applies to any return, declaration, statement or other document required to be
 made under any provision of the internal revenue laws or regulations, except as the Secretary otherwise
 provides.*
+
+**6. An individual is convicted under IRC § 7206(1). The section itself prints a maximum fine of $100,000. What is the largest fine the court may actually impose?**
+(A) $100,000, because the Code section controls its own penalty (B) $250,000, because 18 U.S.C. § 3571 supersedes the printed figure (C) $500,000, the figure printed for organizations (D) No fine at all, because the section provides only for imprisonment
+*Answer: B. 18 U.S.C. § 3571(b)(3): an individual convicted of a felony may be fined up to $250,000, and § 3571(e) preserves a lower statutory figure only where the offence provision exempts itself by specific reference, which § 7206 does not do. The same is true of § 7201.*
+
+**7. Which element must the government prove for evasion under IRC § 7201 that it need not prove for the false-return offence under IRC § 7206(1)?**
+(A) A signed document verified by a penalties-of-perjury declaration (B) An affirmative act of evasion and a tax owing (C) Willfulness (D) A false statement about a material matter
+*Answer: B. IRC § 7201 requires an affirmative act of evasion and an unpaid tax; § 7206(1) requires a willfully signed false document and no deficiency at all. Willfulness is an element of both, and neither offence is a lesser included version of the other.*
+
+**8. A client took a home office deduction on her preparer's advice that a guest room used a few evenings a week for client calls qualified. It did not, and the deduction is disallowed on audit. What is her exposure?**
+(A) A § 7206(1) felony, because she signed a return that was wrong as to a material matter (B) The civil fraud penalty, because the deduction was disallowed in full (C) A civil adjustment only, because she was not willful (D) A § 7207 misdemeanor, because the return was false but no tax was evaded
+*Answer: C. IRC § 7206(1) requires willfulness, the voluntary and intentional violation of a known legal duty, and reliance on a preparer's advice about a genuinely debatable position cuts against it. An honest but wrong position is a civil adjustment, with no § 6663 fraud penalty and no criminal referral.*

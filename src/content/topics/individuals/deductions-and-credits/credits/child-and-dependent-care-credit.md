@@ -310,3 +310,15 @@ income of $300,000, and $5,000 of qualifying expenses?
 *Answer: $600. Expenses are capped at $3,000 for one qualifying individual under IRC § 21(c), and the
 applicable percentage cannot fall below 20 percent under § 21(a)(2)(B) however high adjusted gross
 income rises. There is no complete phase-out of this credit.*
+
+**6. Ana has one child in daycare at a cost of $8,000 and excludes $7,500 from income under her employer's § 129 plan. Her adjusted gross income after the exclusion is $61,000. What is her credit?**
+(A) The applicable percentage of $3,000, because the exclusion and the credit operate independently (B) The applicable percentage of $500, the expenses left after the exclusion (C) Nothing, because the § 129 exclusion reduces her $3,000 expense cap to zero (D) The applicable percentage of $8,000, less the amount excluded
+*Answer: C. IRC § 21(c) caps employment-related expenses at $3,000 for one qualifying individual and reduces that cap by the amount excluded under § 129. The reduction operates on the cap, not on the expenses, so a $7,500 exclusion leaves no creditable expenses at all.*
+
+**7. Marcus earns $88,000. His wife Delia had no wages all year and was a full-time student from September to December, four calendar months. They pay $7,200 for the care of their 3-year-old and file jointly. What is the credit?**
+(A) The applicable percentage of $1,000, her deemed earned income for four months (B) The applicable percentage of $3,000, because Marcus's earnings exceed the cap (C) Nothing, because she is not a student for § 21 and her earned income is zero (D) The applicable percentage of $7,200
+*Answer: C. IRC § 21(e)(7) treats a person as a student only if a full-time student for each of five calendar months in the year, so with four months § 21(d)(2) supplies no deemed earned income. The § 21(d)(1)(B) limitation is the lesser of the two spouses' earned incomes, which is Delia's nil, and so is the credit.*
+
+**8. Divorced parents' son lives with his mother for most of the year, and she has signed Form 8332 releasing the dependency claim to the father, who pays $4,000 for after-school care so he can work. For which parent is the boy a qualifying individual under § 21?**
+(A) The father, because he holds the dependency release and paid the expenses (B) The mother, because the child is a qualifying individual only of the custodial parent (C) Either parent, by agreement between them (D) Neither, because the parent who paid is not the parent who claims the child
+*Answer: B. IRC § 21(e)(5): where § 152(e) applies to a child, the child is a qualifying individual of the custodial parent and not of the noncustodial parent, whichever of them claims the dependency. The noncustodial parent claiming the child cannot claim this credit.*
