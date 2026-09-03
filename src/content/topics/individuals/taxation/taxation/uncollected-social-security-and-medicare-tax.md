@@ -259,3 +259,15 @@ the failure was due to reasonable cause and not wilful neglect.*
 *Answer: No. The IRC § 224 deduction operates in computing taxable income only. Tips remain wages under
 § 3121(a) and (q), the § 6053(a) reporting obligation is unchanged, and the employee share of FICA is due
 on the same dollars.*
+
+**6. A sommelier receives $600 of cash tips in a month and, separately, two bottles of wine from a regular customer. What is subject to social security and Medicare tax?**
+(A) The cash and the value of the wine (B) The cash tips only (C) The wine only (D) Neither, because tips are not wages
+*Answer: B. IRC § 3121(a)(12)(A): tips paid in any medium other than cash are never wages, so the wine produces income tax but no FICA; the cash tips are wages and reportable under § 6053(a).*
+
+**7. A server receives $900 of cash tips in March and furnishes the written statement to her employer on 8 April. When are the tips deemed paid for employment tax purposes?**
+(A) When received in March (B) On 8 April, when the statement was furnished (C) On 10 April, the statutory deadline (D) On the next regular payday
+*Answer: B. IRC § 3121(q): reported tips are deemed paid at the time the written statement is furnished to the employer; only where no statement is furnished are they deemed paid when received. That date starts the employer's collection window.*
+
+**8. A retired employee remains covered under her former employer's group-term life policy well above $50,000 of coverage. How does the social security and Medicare tax on the cost of the excess reach her?**
+(A) It is withheld from her pension (B) As codes A and B in box 12, added to tax (C) As codes M and N in box 12, added to her own tax because there are no wages to withhold from (D) It does not apply to a former employee
+*Answer: C. IRC § 79(a) includes the cost of coverage above $50,000 in gross income; with no wages from which to withhold, the employer reports the uncollected tax as codes M and N in box 12 and the individual pays it on the return. Codes A and B are for tips.*

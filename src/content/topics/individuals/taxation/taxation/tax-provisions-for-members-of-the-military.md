@@ -290,3 +290,15 @@ intelligence community relocating on assignment (§ 217(k)(2)).*
 *Answer: Yes, if they elect under IRC § 121(d)(9)(A) to suspend the running of the five-year period
 during the qualified official extended duty. The suspension is capped at ten years by § 121(d)(9)(B),
 and it is an election rather than an automatic rule.*
+
+**6. A member serves for three months at a base abroad under sustained hostile fire, but the President has issued no Executive order designating the area a combat zone. Is the pay excluded under § 112?**
+(A) Yes; the danger is what qualifies the service (B) No; without an Executive order there is no combat zone (C) Yes, but only for enlisted members (D) Yes, for the months in which fire was actually received
+*Answer: B. IRC § 112(c)(2), (3): a combat zone exists only where the President designates one by Executive order, and service counts only between the Executive-order dates for the commencement and termination of combatant activities. Danger is not the test.*
+
+**7. A member leaves a combat zone on 1 March 2026 with no hospitalization. For how long after that are her filing and payment deadlines, and the Service's assessment and collection deadlines, disregarded?**
+(A) 180 days after 1 March (B) Until the following 15 April only (C) 180 days for her deadlines, but the Service's run normally (D) Until the end of the calendar year
+*Answer: A. IRC § 7508(a) disregards the period of service plus 180 days for filing, payment, assessment, collection, refund claims and Tax Court petitions alike — the Service's clock stops as well as the taxpayer's.*
+
+**8. A member first served in a combat zone in 2024 and dies there in active service in 2026. For which years is income tax forgiven?**
+(A) 2026 only (B) 2026 and any earlier year ending on or after the first day of combat zone service, with tax already assessed abated (C) Only the months of combat zone service (D) None; § 692 only suspends deadlines
+*Answer: B. IRC § 692(a): no income tax applies for the year of death or for any earlier year ending on or after the first day of combat zone service, and § 692(a)(2) abates tax already assessed for those earlier years.*

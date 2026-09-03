@@ -257,3 +257,15 @@ expired?
 does not expire before 3 years after the information is furnished, and it has not been furnished. Where
 the failure was not due to reasonable cause the extension applies to the whole return, not only the
 foreign items.*
+
+**6. A taxpayer's underpayment is partly attributable to interest from a foreign account that should have been reported on Form 8938 and was not. What accuracy-related penalty rate applies to that portion?**
+(A) 20 percent, the ordinary rate (B) 40 percent (C) 50 percent of the account balance (D) 75 percent
+*Answer: B. IRC § 6662(j): the accuracy-related penalty is 40 percent instead of 20 percent on the portion of an underpayment attributable to an undisclosed foreign financial asset.*
+
+**7. A client has an unreported foreign trust that holds an unreported foreign account, and the income from the account was never reported. How do the resulting penalties relate to one another?**
+(A) Only the largest single penalty applies (B) The § 6677 trust penalty, the FBAR penalty and the § 6662(j) understatement penalty all apply, cumulatively (C) The FBAR penalty displaces the Code penalties (D) The § 6662(j) penalty is an alternative to the information return penalties
+*Answer: B. IRC §§ 6677 and 6662(j) and the FBAR penalty in 31 U.S.C. § 5321 are per-form and cumulative; none is an alternative to any other, and the § 6501(c)(8) limitation period stays open on top of them.*
+
+**8. A taxpayer non-willfully failed to file an FBAR for an account whose balance was properly reported, and the failure was due to reasonable cause. What civil penalty applies?**
+(A) The non-willful penalty, regardless of reasonable cause (B) None (C) The greater of $100,000 or 50 percent of the balance (D) 40 percent of the underpayment
+*Answer: B. 31 U.S.C. § 5321(a)(5): no non-willful penalty applies where the violation was due to reasonable cause and the balance in the account was properly reported — both conditions are required, not merely an innocent failure.*

@@ -264,3 +264,15 @@ income tax liability, and nonrefundable credits do not reduce it.*
 § 5000A(c)(2)(B)(iii) sets the percentage of income at zero for taxable years beginning after 2018 and
 § 5000A(c)(3)(A) sets the applicable dollar amount at $0, so the monthly penalty amount is the greater
 of two zeros.*
+
+**6. A couple with $1,800 of unrecaptured 2008 first-time homebuyer credit sell the home to their daughter in 2026 for $3,000 less than their adjusted basis. What is added to their 2026 tax?**
+(A) Nothing, because there was no gain (B) $1,800 (C) $500 (D) $3,000
+*Answer: B. IRC § 36(f)(2) accelerates the unrecaptured balance on disposition, and the § 36(f)(3) gain cap applies only to a sale to an unrelated person — a sale to a daughter is not that, so the full $1,800 is due regardless of the price.*
+
+**7. An individual elected under § 965(h) to pay the transition tax in instalments and is now paying the eighth and final one. What percentage of the net tax liability is it?**
+(A) 8 percent (B) 12.5 percent (C) 15 percent (D) 25 percent
+*Answer: D. IRC § 965(h): the instalments are not equal — they rise from 8 percent in the early years to 25 percent in the eighth — so a taxpayer who budgeted the first year's figure will be short.*
+
+**8. Nadia, 41, withdraws $20,000 from a traditional individual retirement account to pay for a holiday. The whole amount is includible in gross income and no § 72(t)(2) exception applies. What additional tax is due?**
+(A) $5,000 (B) $2,000 (C) $1,200 (D) Nothing, because income tax is already paid on it
+*Answer: B. IRC § 72(t): 10 percent of the portion of an early distribution includible in gross income, on top of the income tax, where none of the § 72(t)(2) exceptions fits — $2,000 here. The 25 percent figure belongs to § 4974 and the 6 percent figure to § 4973.*

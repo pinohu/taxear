@@ -243,3 +243,15 @@ receives neither halving.*
 *Answer: No. The employer withholds on the $10,000 above $200,000, but the threshold for a married
 individual filing separately is $125,000 — half the joint figure — so the liability is 0.9 percent of
 $85,000. The difference is settled on Form 8959.*
+
+**6. An employer withholds additional Medicare tax from an employee's wages above the withholding trigger. What is the employer's own liability for this tax?**
+(A) A matching 0.9 percent (B) A matching 1.45 percent (C) Nothing (D) Half of the amount withheld
+*Answer: C. IRC § 3101(b)(2) imposes the tax on the employee alone; the employer withholds and remits but pays nothing of its own, unlike the ordinary 1.45 percent hospital insurance tax, which has an employer match.*
+
+**7. Bianca earns $230,000 of wages; her husband earns nothing. They file jointly. Her employer withholds additional Medicare tax of $270 on her wages above $200,000. What happens on the return?**
+(A) The $270 withheld is the liability and nothing more is due (B) The $270 is refunded, because combined wages are below the joint threshold (C) They owe a further $180 on the joint threshold (D) The withheld amount is kept as the employer's share
+*Answer: B. IRC § 3102(f)(1) makes the employer withhold on its own wages above $200,000, but the couple's liability is measured against the $250,000 joint threshold, which $230,000 does not reach; the $270 is credited against a liability of zero and comes back as an overpayment.*
+
+**8. A self-employed consultant has net self-employment income well above the threshold and no investment income. How do the additional Medicare tax and the net investment income tax interact on that income?**
+(A) Both apply, since the thresholds are the same (B) Only the additional Medicare tax applies; the same dollar is never in both (C) Only the net investment income tax applies to self-employment income (D) The taxpayer elects which one applies
+*Answer: B. IRC § 1411(c)(6) keeps the same dollar out of both taxes: this tax reaches earned income under § 1401(b)(2), while § 1411 reaches investment income, and the two share only their threshold figures.*

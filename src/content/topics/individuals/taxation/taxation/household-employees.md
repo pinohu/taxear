@@ -282,3 +282,15 @@ employment taxes reported?
 *Answer: On Schedule H filed by itself. IRC § 3510 coordinates the collection of domestic service
 employment taxes with the income tax by putting them on the individual return, and where there is no
 return to attach it to, the schedule stands alone.*
+
+**6. A family pays a plumber $3,800 during 2026 for repairs; he runs his own business, sets his own hours and serves the public. Do household employment taxes apply?**
+(A) Yes, because cash payments exceed the threshold (B) No; he is an independent contractor, not a household employee (C) Yes, but only Medicare tax (D) Only if he worked more than one day a week
+*Answer: B. IRS Topic no. 756: household workers are employees only where the payer controls both the work and how it is done; repairmen, plumbers and contractors providing services as independent contractors are not, so no Schedule H, Form W-2 or employer tax applies.*
+
+**7. A family pays a live-in housekeeper $2,400 in cash plus room and board worth $9,000 in 2026. On what amount is social security and Medicare tax due?**
+(A) $11,400 (B) $9,000 (C) Nothing (D) $2,400
+*Answer: C. IRC § 3121(a)(7)(A) excludes remuneration for domestic service paid in any medium other than cash, so the room and board never counts and never pushes the employee over the threshold, and the $2,400 of cash wages is itself below the year's threshold.*
+
+**8. Why does the household employee cash wage threshold not appear in the annual inflation revenue procedure with the rest of an individual return's figures?**
+(A) It is fixed in the statute and never changes (B) It is defined by § 3121(x) through its own adjustment mechanism, which rounds down, and is carried by IRS Topic 756 and Publication 926 instead (C) It is set each year by the Schedule H instructions alone (D) It changes only when Congress amends § 3121
+*Answer: B. IRC § 3121(x) defines the applicable dollar threshold by an adjustment mechanism outside the annual inflation revenue procedure, so it is sourced from IRS Topic 756 and Publication 926, and because it rounds down it can stand still for a year while the underlying index rises.*

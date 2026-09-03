@@ -278,3 +278,15 @@ practice subject to them, the estate having no liability. Who deducts them?
 death or by bequest, devise or inheritance, acquires from the decedent an interest in property subject
 to the obligation, where the estate is not liable to discharge it. The deduction is allowed in the
 taxable year when paid.*
+
+**6. An estate holds the right to a decedent's unpaid $12,000 commission, distributes that right to the residuary legatee, and the payer then pays the legatee. Who reports the $12,000?**
+(A) The estate, on Form 1041 (B) The decedent, on the final Form 1040 (C) The legatee (D) Half each to the estate and the legatee
+*Answer: C. IRC § 691(a)(1)(A)–(C) runs in sequence — the estate, the person acquiring the right by reason of the death, or the legatee where the estate has already distributed the right — and only one limb applies to any item; here the estate distributed the right before collection.*
+
+**7. A homeowner receives an offer on her house but dies before signing any contract. The executor negotiates and closes the sale after death at a gain. Is the gain income in respect of a decedent?**
+(A) Yes, because the sale was in progress at death (B) No; the decedent held no enforceable right at death, so § 1014(a) gives a date-of-death basis (C) Yes, to the extent of the offer price (D) No, because an estate can never have income in respect of a decedent
+*Answer: B. With only a listing and an unsigned offer, no right to any amount existed at death, so the gain is not income in respect of a decedent; IRC § 1014(a) applies and the step-up shelters the pre-death appreciation. A binding contract signed before death would flip the result.*
+
+**8. A beneficiary receives $80,000 from an inherited traditional individual retirement account. The estate was well below the exemption and paid no federal estate tax. What § 691(c) deduction is available?**
+(A) The estate tax that would have been due at the highest rate (B) None (C) An amount equal to the income tax on the $80,000 (D) 40 percent of $80,000
+*Answer: B. IRC § 691(c) gives a deduction for the federal estate tax attributable to the item; with no federal estate tax paid there is nothing to deduct, however large the item.*
