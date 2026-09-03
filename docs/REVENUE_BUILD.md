@@ -125,7 +125,7 @@ Entitlements are *not* in the cookie: every gated request reads `purchase:<email
 | Study Pages project | `STRIPE_SECRET_KEY`, `STRIPE_WEBHOOK_SECRET` | Stripe API and webhook verification |
 | Study Pages project | `STRIPE_PRICE_P1`, `_P2`, `_P3`, `_ALL`, `STRIPE_PRICE_PRACTITIONER_MONTH`, `_YEAR` | Price IDs from the Stripe dashboard |
 | Study Pages project | `COOKIE_SECRET` | signs the access cookie and login tokens |
-| Study Pages project | `RESEND_API_KEY`, `MAIL_FROM` | transactional email |
+| Study Pages project | `EMAILIT_API_KEY`, `MAIL_FROM` | transactional email |
 | Study Pages project | `NOTIFY_SECRET` | shared with the GitHub Action |
 | Study Pages project | KV binding `ACCESS_KV` | the store above |
 | Main Pages project | `PUBLIC_CF_BEACON_TOKEN`, `PUBLIC_DIGEST_ENDPOINT` | analytics and the digest list |
