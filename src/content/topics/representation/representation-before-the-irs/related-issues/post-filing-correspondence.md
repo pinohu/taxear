@@ -96,11 +96,11 @@ Distinguish the three instruments and the clock attached to each: 60 days for ma
 
 **1. A math error notice under IRC 6213(b)(1):**
 (A) Is a notice of deficiency (B) Is not a notice of deficiency, and no Tax Court petition lies on it (C) Must be preceded by an examination (D) Starts a 90-day period
-*Answer: B.*
+*Answer: B. IRC § 6213(b)(1) provides that a math error notice is not a notice of deficiency, so no Tax Court petition lies on it and neither assessment nor collection is barred.*
 
 **2. A taxpayer who requests abatement of a math error assessment within 60 days:**
 (A) May have it abated at the Secretary's discretion (B) Shall have it abated, and any reassessment is then subject to deficiency procedures (C) Must first pay the tax (D) Loses the right to contest the item
-*Answer: B. IRC § 6213(b)(2)(A).*
+*Answer: B. IRC § 6213(b)(2)(A) requires the Secretary to abate a timely-requested math error assessment without need for any reasons, and any reassessment afterward is subject to the deficiency procedures.*
 
 **3. Which of the following is *not* within the IRS math error authority?**
 (A) An entry inconsistent with another entry on the return (B) A correction to reported withholding or estimated tax payments (C) An omission of information required to substantiate an entry (D) A credit exceeding a statutory limit expressed as a monetary amount
@@ -112,5 +112,5 @@ Distinguish the three instruments and the clock attached to each: 60 days for ma
 
 **5. During the period in which a math error assessment may be abated:**
 (A) The IRS may levy (B) No levy or court proceeding for collection may be made or begun (C) Interest stops (D) The taxpayer must pay the undisputed portion
-*Answer: B. IRC § 6213(b)(2)(B).*
+*Answer: B. IRC § 6213(b)(2)(B) bars any levy or court proceeding for collection while the assessment may still be abated.*
 

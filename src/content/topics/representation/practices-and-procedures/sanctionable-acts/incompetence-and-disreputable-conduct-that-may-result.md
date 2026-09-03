@@ -103,7 +103,7 @@ Distinguish § 10.51 from § 10.52 and be able to say which one a fact pattern u
 
 **2. Which provision allows sanction without a finding of willfulness?**
 (A) Section 10.52(a)(1), for violating any regulation in the part (B) Section 10.52(a)(2), for violating §§ 10.34, 10.35, 10.36 or 10.37 recklessly or through gross incompetence (C) Section 10.51(a)(6), failure to file (D) None; Circular 230 always requires willfulness
-*Answer: B.*
+*Answer: B. Section 10.52(a)(2) reaches violations of §§ 10.34–10.37 committed recklessly or through gross incompetence, so no willfulness finding is required for those four sections.*
 
 **3. A member of the public telephones the IRS to allege a practitioner falsified a client's records. Under § 10.53:**
 (A) Nothing happens unless the report is put in writing by the caller (B) The IRS employee receiving it must make a written report and submit it (C) The report may only come from an IRS employee (D) The allegation must first go to the practitioner
@@ -111,8 +111,8 @@ Distinguish § 10.51 from § 10.52 and be able to say which one a fact pattern u
 
 **4. A practitioner's conduct fits none of the eighteen categories in § 10.51(a). It follows that:**
 (A) The conduct cannot be disreputable (B) The conduct may still be disreputable, the list being non-exhaustive (C) Only § 10.52 can apply (D) A proceeding requires a criminal conviction first
-*Answer: B.*
+*Answer: B. Section 10.51(a) states its categories are "included, but not limited to," so conduct outside the eighteen enumerated items can still be disreputable.*
 
 **5. An enrolled agent collects funds from a client to pay a tax liability and remits them three weeks late, the client suffering no loss. This is:**
 (A) Outside § 10.51 because nothing was misappropriated (B) Within § 10.51(a)(8), which covers failure to remit promptly as well as misappropriation (C) Sanctionable only under § 10.52 (D) A matter for the state board rather than OPR
-*Answer: B.*
+*Answer: B. Section 10.51(a)(8) covers the failure to remit client funds properly or promptly, not only misappropriation, so late remittance is disreputable conduct even though the client suffered no ultimate loss.*

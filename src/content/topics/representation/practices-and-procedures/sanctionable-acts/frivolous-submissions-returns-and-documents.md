@@ -115,16 +115,16 @@ Know both conditions in § 6702(a) and that a merely incorrect return does not m
 
 **2. A taxpayer files a return reporting wages accurately but claiming a deduction a court later rejects as untenable. The IRC 6702 penalty:**
 (A) Applies, because the position was rejected (B) Does not apply, because the return permits the self-assessment to be judged and the position is not listed (C) Applies at half the usual amount (D) Applies only if the taxpayer is represented
-*Answer: B.*
+*Answer: B. IRC § 6702(a) requires both a self-assessment that cannot be judged, or is facially incorrect, and a listed or delay-motivated position; a complete, honestly filed return that merely loses an argument satisfies neither condition.*
 
 **3. The IRS notifies a taxpayer that his installment agreement application is a specified frivolous submission. To avoid the penalty he must:**
 (A) Pay the tax in full within 30 days (B) Withdraw the submission within 30 days of the notice (C) Request a CDP hearing (D) Nothing; the penalty is already fixed
-*Answer: B. IRC § 6702(b)(3).*
+*Answer: B. IRC § 6702(b)(3): withdrawing a specified frivolous submission within thirty days of the IRS notice removes the penalty, and an installment agreement application is a specified submission under § 6702(b)(2)(B).*
 
 **4. A client's return strikes out the penalty-of-perjury declaration above the signature line. This is:**
 (A) A harmless formality (B) A listed frivolous position under Notice 2010-33, with failure-to-file exposure alongside (C) Only a Circular 230 matter (D) Grounds for the accuracy-related penalty alone
-*Answer: B.*
+*Answer: B. Notice 2010-33 item (19) lists altering a return, including striking the penalty-of-perjury declaration, as a frivolous position, and the alteration also leaves the return unfiled for failure-to-file purposes if it invalidates the signature.*
 
 **5. A practitioner files a return advancing a listed frivolous position at the client's insistence, disclosing it on Form 8275. The practitioner:**
 (A) Is protected, disclosure having been made (B) Faces Circular 230 § 10.34(b) exposure and, on willfulness, § 10.51(a)(7), disclosure being irrelevant to a frivolous position (C) Faces no exposure, the position being the client's (D) Must file but should resign afterwards
-*Answer: B.*
+*Answer: B. Circular 230 § 10.34(b) bars filing a document resting on a frivolous position, and § 10.51(a)(7) makes willfully assisting a client's violation disreputable in itself; Form 8275 disclosure only lowers the standard for an unreasonable position, not a frivolous one.*
