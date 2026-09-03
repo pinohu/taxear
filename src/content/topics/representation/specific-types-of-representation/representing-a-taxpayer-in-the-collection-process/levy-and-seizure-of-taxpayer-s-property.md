@@ -135,7 +135,7 @@ Distinguish the § 6331(d) notice of intent from the § 6330 CDP notice, and kno
 
 **1. A levy on a taxpayer's wages:**
 (A) Reaches only wages payable at the moment of service (B) Is continuous from the date first made until released under § 6343 (C) Must be re-served each pay period (D) Expires after 30 days
-*Answer: B. IRC § 6331(e).*
+*Answer: B. IRC § 6331(e) makes a levy on salary or wages continuous from the date first made until released under § 6343, unlike an ordinary levy, which under § 6331(b) reaches only property and obligations existing at the time of service.*
 
 **2. The IRS wishes to levy on a taxpayer's principal residence. It requires:**
 (A) Approval by a revenue officer's group manager (B) Written approval by a judge or magistrate of a United States district court (C) Written approval by a district director (D) No approval; residences are not exempt
@@ -147,8 +147,8 @@ Distinguish the § 6331(d) notice of intent from the § 6330 CDP notice, and kno
 
 **4. Which is a statutory ground requiring release of a levy?**
 (A) The taxpayer disputes the underlying tax (B) The levy is creating an economic hardship due to the taxpayer's financial condition (C) The taxpayer has requested an audit reconsideration (D) The taxpayer has moved
-*Answer: B. IRC § 6343(a)(1)(D).*
+*Answer: B. IRC § 6343(a)(1)(D) requires release where the levy is creating an economic hardship given the taxpayer's financial condition; disputing the tax, requesting audit reconsideration, or having moved are not among the five statutory release grounds.*
 
 **5. Real property sold at a levy sale may be redeemed:**
 (A) Never (B) Within 180 days of the sale, on payment of the purchase price plus 20 percent interest per annum (C) Within 30 days, at the purchase price (D) Within one year, at fair market value
-*Answer: B. IRC § 6337(b).*
+*Answer: B. IRC § 6337(b) gives the owner of real property sold at a levy sale a redemption right for the period the statute sets, on payment of the purchase price plus statutory interest — not indefinitely, and not simply at fair market value.*

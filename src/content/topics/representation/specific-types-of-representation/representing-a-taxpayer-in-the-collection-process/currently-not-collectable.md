@@ -125,7 +125,7 @@ The definition — a status that suspends collection without touching the liabil
 
 **3. A taxpayer placed in CNC on hardship grounds should be told that:**
 (A) The debt is written off (B) The account will reactivate systemically if income rises, and interest continues to accrue (C) No lien can be filed (D) The collection period is suspended
-*Answer: B.*
+*Answer: B. Hardship cases reactivate systemically as income rises (IRM 5.16.1.2, 5.16.1.6), and IRM 5.16.1.3.4 requires taxpayers be advised that interest and penalties keep accruing while collection is suspended.*
 
 **4. A taxpayer in CNC status files a return showing a refund. The refund will:**
 (A) Be paid, since collection is suspended (B) Be offset against the outstanding balance (C) Be held until the account reactivates (D) Be paid only on request

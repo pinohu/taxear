@@ -141,15 +141,15 @@ The three conditions for a seriously delinquent tax debt, and that the third is 
 
 **1. A seriously delinquent tax debt under IRC 7345 requires all of the following except:**
 (A) That the liability has been assessed (B) That the amount exceeds the indexed threshold (C) That a notice of lien has been filed with § 6320 rights exhausted or lapsed, or a levy made (D) That the taxpayer has been convicted of a tax offence
-*Answer: D.*
+*Answer: D. IRC § 7345(b)(1) requires only that the debt be assessed, exceed the indexed threshold, and have a filed lien with exhausted or lapsed § 6320 rights or a levy — a criminal conviction is not one of the three conditions.*
 
 **2. A taxpayer requests a collection due process hearing on the levy. The debt:**
 (A) Remains seriously delinquent (B) Is excluded while the hearing is requested or pending (C) Is excluded only after the hearing concludes (D) Is excluded only if the taxpayer prevails
-*Answer: B. IRC § 7345(b)(2)(B)(i).*
+*Answer: B. IRC § 7345(b)(2)(B)(i) excludes a debt from being seriously delinquent while collection is suspended because a § 6330 due process hearing is requested or pending.*
 
 **3. A taxpayer wishes to challenge a certification. The available forum is:**
 (A) The Independent Office of Appeals (B) A district court or the Tax Court, whichever first acquires jurisdiction (C) A collection due process hearing (D) The Taxpayer Advocate Service only
-*Answer: B. IRC § 7345(e)(1).*
+*Answer: B. IRC § 7345(e) provides judicial review only, in a district court or the Tax Court — certification carries no CDP hearing and no Appeals review.*
 
 **4. The IRS certifies a taxpayer and sends CP508C. A copy goes to:**
 (A) The taxpayer only, by regular mail to the last known address (B) The taxpayer and the power of attorney (C) The power of attorney only (D) The taxpayer by certified mail
@@ -157,4 +157,4 @@ The three conditions for a seriously delinquent tax debt, and that the third is 
 
 **5. A certified taxpayer enters an installment agreement. The IRS must notify of the reversal:**
 (A) Immediately (B) Within 30 days of the agreement being entered into (C) Within 90 days (D) Only on the taxpayer's request
-*Answer: B. IRC § 7345(c)(2)(C).*
+*Answer: B. IRC § 7345(c)(2)(C) requires the IRS to notify of the reversal within 30 days of the installment agreement being entered into.*
