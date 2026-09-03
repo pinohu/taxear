@@ -179,7 +179,7 @@ Know Rule 142(a)(1)'s carve-out: **new matter, increases in deficiency and affir
 
 **4. In a Tax Court case involving fraud with intent to evade tax, who bears the burden and to what standard?**
 (A) The petitioner, by a preponderance (B) The respondent, by a preponderance (C) The respondent, by clear and convincing evidence (D) The petitioner, by clear and convincing evidence
-*Answer: C. IRC § 7454(a) and Tax Court Rule 142(b).*
+*Answer: C. IRC § 7454(a) and Tax Court Rule 142(b) place the burden of proving fraud on the Commissioner (the respondent), and hold it to clear and convincing evidence rather than the ordinary preponderance standard.*
 
 **5. In a transferee liability case, what must the Commissioner prove?**
 (A) Both that the petitioner is liable as a transferee and that the transferor owed the tax (B) That the petitioner is liable as a transferee, but not that the transferor was liable for the tax (C) Neither — the petitioner bears the whole burden (D) Only the amount of the transfer

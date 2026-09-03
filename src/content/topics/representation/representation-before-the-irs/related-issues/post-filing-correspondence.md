@@ -96,7 +96,7 @@ Distinguish the three instruments and the clock attached to each: 60 days for ma
 
 **1. A math error notice under IRC 6213(b)(1):**
 (A) Is a notice of deficiency (B) Is not a notice of deficiency, and no Tax Court petition lies on it (C) Must be preceded by an examination (D) Starts a 90-day period
-*Answer: B. IRC § 6213(b)(1) provides that a math error notice is not a notice of deficiency, so no Tax Court petition lies on it and neither assessment nor collection is barred.*
+*Answer: B. IRC § 6213(b)(1) provides that a math error notice is not a notice of deficiency, so no Tax Court petition lies on it and § 6213(a)'s assessment bar does not apply — though § 6213(b)(2)(B) separately bars collection while the 60-day abatement window is open.*
 
 **2. A taxpayer who requests abatement of a math error assessment within 60 days:**
 (A) May have it abated at the Secretary's discretion (B) Shall have it abated, and any reassessment is then subject to deficiency procedures (C) Must first pay the tax (D) Loses the right to contest the item
@@ -108,7 +108,7 @@ Distinguish the three instruments and the clock attached to each: 60 days for ma
 
 **4. Which of the following is a "mathematical or clerical error" under IRC 6213(g)(2)?**
 (A) A disputed valuation (B) A credit claimed in an amount exceeding a statutory limit where the limiting items appear on the return (C) An unreported item of income found by the IRS (D) A disagreement about whether an expense is deductible
-*Answer: B. Subparagraph (E).*
+*Answer: B. A credit exceeding a statutory limit is on the § 6213(g)(2) list precisely because the limiting items appear on the return, so the excess is computable without an examination — unlike a valuation, an unreported item found by the IRS, or a deductibility dispute.*
 
 **5. During the period in which a math error assessment may be abated:**
 (A) The IRS may levy (B) No levy or court proceeding for collection may be made or begun (C) Interest stops (D) The taxpayer must pay the undisputed portion

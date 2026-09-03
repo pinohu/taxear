@@ -129,7 +129,7 @@ That a power of attorney terminates at death, and the Form 56 then Form 2848 seq
 
 **2. Under 31 U.S.C. 3713(b), an executor who pays other creditors before a federal tax claim is:**
 (A) Not liable, having acted in good faith (B) Personally liable to the extent of the payment for the Government's unpaid claims (C) Liable only if the estate is solvent (D) Liable only for interest
-*Answer: B. 31 U.S.C. § 3713(b) makes a representative personally liable, to the extent of the payment, for paying any part of the estate's debts before satisfying the Government's claim.*
+*Answer: B. 31 U.S.C. § 3713(b) makes a representative personally liable, to the extent of the payment, for paying any part of the estate's debts before satisfying the Government's claim — the priority itself attaches under § 3713(a) where the estate is insufficient to pay all debts, so a solvent estate that can still cover the federal claim after the earlier payment presents no exposure.*
 
 **3. A request for prompt assessment under IRC 6501(d) shortens the assessment period to:**
 (A) 6 months (B) 18 months from receipt of the written request (C) 9 months (D) 2 years

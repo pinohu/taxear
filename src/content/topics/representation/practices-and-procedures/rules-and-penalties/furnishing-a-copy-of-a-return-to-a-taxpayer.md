@@ -97,11 +97,11 @@ Know that the trigger is presentation for signature and not filing. Know what ma
 
 **1. A preparer must furnish the taxpayer a completed copy of the return:**
 (A) Within 30 days of filing (B) Not later than the time the return is presented for the taxpayer's signature (C) Before the return's due date (D) On request only
-*Answer: B. IRC § 6107(a).*
+*Answer: B. IRC § 6107(a) ties the deadline to presentation for signature, not to filing or the due date, so the copy is in the taxpayer's hands before the return goes anywhere.*
 
 **2. For an electronically filed return, a complete copy consists of:**
 (A) A printed Form 1040 facsimile (B) The electronic portion filed with the IRS, including all schedules, forms, PDF attachments and jurats (C) A client summary showing the refund or balance (D) Whatever the taxpayer requests
-*Answer: B. Reg. § 1.6107-1(a)(2).*
+*Answer: B. Reg. § 1.6107-1(a)(2) defines the complete copy of an electronically filed return as the electronic portion actually transmitted to the IRS, not a client-facing summary or a paper facsimile.*
 
 **3. May the copy given to the taxpayer omit the preparer's identifying number?**
 (A) No, it must mirror the filed return exactly (B) Yes, the regulation says so expressly (C) Only for paper returns (D) Only with the taxpayer's written consent

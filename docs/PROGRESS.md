@@ -11,8 +11,8 @@ is indexed, and only the owner moves a page there (see `docs/VERIFICATION.md`).
 |---|---:|---:|---:|---:|---:|---:|
 | 1. Individuals | 120 | 0 | 0 | 0 | 120 | 338,287 |
 | 2. Businesses | 119 | 0 | 0 | 0 | 119 | 345,947 |
-| 3. Representation, Practices and Procedures | 121 | 0 | 0 | 0 | 121 | 281,300 |
-| **All parts** | **360** | **0** | **0** | **0** | **360** | **965,534** |
+| 3. Representation, Practices and Procedures | 121 | 0 | 0 | 0 | 121 | 281,836 |
+| **All parts** | **360** | **0** | **0** | **0** | **360** | **966,070** |
 
 ## Part 1 — Individuals
 
@@ -449,7 +449,7 @@ is indexed, and only the owner moves a page there (see `docs/VERIFICATION.md`).
 | 3.1.3.a | [Incompetence and disreputable conduct that may result in a disciplinary proceeding](/representation/practices-and-procedures/sanctionable-acts/incompetence-and-disreputable-conduct-that-may-result/) | **published** | 2,065 | 2026-08-18 |
 | 3.1.3.b | [Sanctions imposed by the Office of Professional Responsibility](/representation/practices-and-procedures/sanctionable-acts/sanctions-imposed-by-the-office-of-professional/) | **published** | 2,133 | 2026-08-18 |
 | 3.1.3.c | [Frivolous submissions (returns and documents)](/representation/practices-and-procedures/sanctionable-acts/frivolous-submissions-returns-and-documents/) | **published** | 2,302 | 2026-08-18 |
-| 3.1.3.d | [Fraudulent transactions (e.g., badges of fraud)](/representation/practices-and-procedures/sanctionable-acts/fraudulent-transactions/) | **published** | 2,220 | 2026-08-18 |
+| 3.1.3.d | [Fraudulent transactions (e.g., badges of fraud)](/representation/practices-and-procedures/sanctionable-acts/fraudulent-transactions/) | **published** | 2,277 | 2026-08-18 |
 
 **3.1.4 Rules and penalties**
 
@@ -457,11 +457,11 @@ is indexed, and only the owner moves a page there (see `docs/VERIFICATION.md`).
 |---|---|---|---:|---|
 | 3.1.4.a | [Assessment and appeal procedures for preparer penalties](/representation/practices-and-procedures/rules-and-penalties/assessment-and-appeal-procedures-for-preparer-penalties/) | **published** | 2,202 | 2026-08-18 |
 | 3.1.4.b | [Types of penalties (e.g., negligence, substantial understatement, overvaluation)](/representation/practices-and-procedures/rules-and-penalties/types-of-penalties/) | **published** | 2,315 | 2026-08-18 |
-| 3.1.4.c | [Furnishing a copy of a return to a taxpayer](/representation/practices-and-procedures/rules-and-penalties/furnishing-a-copy-of-a-return-to-a-taxpayer/) | **published** | 1,617 | 2026-08-18 |
-| 3.1.4.d | [Signing returns and furnishing identifying numbers](/representation/practices-and-procedures/rules-and-penalties/signing-returns-and-furnishing-identifying-numbers/) | **published** | 1,709 | 2026-08-18 |
+| 3.1.4.c | [Furnishing a copy of a return to a taxpayer](/representation/practices-and-procedures/rules-and-penalties/furnishing-a-copy-of-a-return-to-a-taxpayer/) | **published** | 1,670 | 2026-08-18 |
+| 3.1.4.d | [Signing returns and furnishing identifying numbers](/representation/practices-and-procedures/rules-and-penalties/signing-returns-and-furnishing-identifying-numbers/) | **published** | 1,781 | 2026-08-18 |
 | 3.1.4.e | [Keeping copies or lists of returns prepared](/representation/practices-and-procedures/rules-and-penalties/keeping-copies-or-lists-of-returns-prepared/) | **published** | 1,849 | 2026-08-18 |
 | 3.1.4.f | [Employees engaged or employed during a return period (e.g. IRC Section 6060)](/representation/practices-and-procedures/rules-and-penalties/employees-engaged-or-employed-during-a-return-period/) | **published** | 1,759 | 2026-08-18 |
-| 3.1.4.g | [Preparer due diligence and penalties (e.g., refundable credits, head of household status)](/representation/practices-and-procedures/rules-and-penalties/preparer-due-diligence-and-penalties/) | **published** | 2,049 | 2026-08-18 |
+| 3.1.4.g | [Preparer due diligence and penalties (e.g., refundable credits, head of household status)](/representation/practices-and-procedures/rules-and-penalties/preparer-due-diligence-and-penalties/) | **published** | 2,107 | 2026-08-18 |
 
 ### 3.2 Representation before the IRS
 
@@ -529,7 +529,7 @@ is indexed, and only the owner moves a page there (see `docs/VERIFICATION.md`).
 | Code | Title | Status | Words | Last reviewed |
 |---|---|---|---:|---|
 | 3.2.6.a | [Statute of limitations](/representation/representation-before-the-irs/related-issues/statute-of-limitations/) | **published** | 2,623 | 2026-08-18 |
-| 3.2.6.b | [Post-filing correspondence (e.g., math error notices, under-reporting notices)](/representation/representation-before-the-irs/related-issues/post-filing-correspondence/) | **published** | 2,011 | 2026-08-18 |
+| 3.2.6.b | [Post-filing correspondence (e.g., math error notices, under-reporting notices)](/representation/representation-before-the-irs/related-issues/post-filing-correspondence/) | **published** | 2,068 | 2026-08-18 |
 | 3.2.6.c | [Deadlines and timeliness requirements](/representation/representation-before-the-irs/related-issues/deadlines-and-timeliness-requirements/) | **published** | 2,635 | 2026-08-18 |
 | 3.2.6.d | [Third-party correspondence (e.g., witness communications, employment records)](/representation/representation-before-the-irs/related-issues/third-party-correspondence/) | **published** | 2,613 | 2026-08-18 |
 | 3.2.6.e | [Freedom of Information Act (FOIA) requests](/representation/representation-before-the-irs/related-issues/freedom-of-information-act-foia-requests/) | **published** | 2,458 | 2026-08-18 |
@@ -551,14 +551,14 @@ is indexed, and only the owner moves a page there (see `docs/VERIFICATION.md`).
 | 3.3.1.d | [Collection appeals program (e.g., denial of installment agreements, discharge applications)](/representation/specific-types-of-representation/representing-a-taxpayer-in-the-collection-process/collection-appeals-program/) | **published** | 1,985 | 2026-08-18 |
 | 3.3.1.e | [Collection appeals and due process (e.g., lien, levy, and Form 12153)](/representation/specific-types-of-representation/representing-a-taxpayer-in-the-collection-process/collection-appeals-and-due-process/) | **published** | 1,906 | 2026-08-18 |
 | 3.3.1.f | [Adjustments to the taxpayer’s account (e.g., abatements and refund offsets)](/representation/specific-types-of-representation/representing-a-taxpayer-in-the-collection-process/adjustments-to-the-taxpayer-s-account/) | **published** | 2,456 | 2026-08-18 |
-| 3.3.1.g | [Requesting an audit reconsideration (e.g., documents and forms)](/representation/specific-types-of-representation/representing-a-taxpayer-in-the-collection-process/requesting-an-audit-reconsideration/) | **published** | 2,173 | 2026-08-18 |
-| 3.3.1.h | [Representing a decedent](/representation/specific-types-of-representation/representing-a-taxpayer-in-the-collection-process/representing-a-decedent/) | **published** | 2,122 | 2026-08-18 |
+| 3.3.1.g | [Requesting an audit reconsideration (e.g., documents and forms)](/representation/specific-types-of-representation/representing-a-taxpayer-in-the-collection-process/requesting-an-audit-reconsideration/) | **published** | 2,221 | 2026-08-18 |
+| 3.3.1.h | [Representing a decedent](/representation/specific-types-of-representation/representing-a-taxpayer-in-the-collection-process/representing-a-decedent/) | **published** | 2,157 | 2026-08-18 |
 | 3.3.1.i | [Collection notice and Notice of Federal Tax Lien](/representation/specific-types-of-representation/representing-a-taxpayer-in-the-collection-process/collection-notice-and-notice-of-federal-tax-lien/) | **published** | 2,338 | 2026-08-18 |
 | 3.3.1.j | [Levy and seizure of taxpayer's property](/representation/specific-types-of-representation/representing-a-taxpayer-in-the-collection-process/levy-and-seizure-of-taxpayer-s-property/) | **published** | 2,526 | 2026-08-18 |
-| 3.3.1.k | [Currently Not Collectable (e.g., reasons and reactivation)](/representation/specific-types-of-representation/representing-a-taxpayer-in-the-collection-process/currently-not-collectable/) | **published** | 2,209 | 2026-08-18 |
+| 3.3.1.k | [Currently Not Collectable (e.g., reasons and reactivation)](/representation/specific-types-of-representation/representing-a-taxpayer-in-the-collection-process/currently-not-collectable/) | **published** | 2,258 | 2026-08-18 |
 | 3.3.1.l | [IRS Collection Summons (e.g., purposes)](/representation/specific-types-of-representation/representing-a-taxpayer-in-the-collection-process/irs-collection-summons/) | **published** | 2,434 | 2026-08-18 |
 | 3.3.1.m | [Collections statute of limitations](/representation/specific-types-of-representation/representing-a-taxpayer-in-the-collection-process/collections-statute-of-limitations/) | **published** | 2,222 | 2026-08-18 |
-| 3.3.1.n | [Trust fund recovery penalty](/representation/specific-types-of-representation/representing-a-taxpayer-in-the-collection-process/trust-fund-recovery-penalty/) | **published** | 2,516 | 2026-08-18 |
+| 3.3.1.n | [Trust fund recovery penalty](/representation/specific-types-of-representation/representing-a-taxpayer-in-the-collection-process/trust-fund-recovery-penalty/) | **published** | 2,559 | 2026-08-18 |
 | 3.3.1.o | [Amended returns and claims for refund (e.g., Form 1040X, Form 843, effect on statute of limitations)](/representation/specific-types-of-representation/representing-a-taxpayer-in-the-collection-process/amended-returns-and-claims-for-refund/) | **published** | 2,238 | 2026-08-18 |
 | 3.3.1.p | [Passport revocation](/representation/specific-types-of-representation/representing-a-taxpayer-in-the-collection-process/passport-revocation/) | **published** | 2,426 | 2026-08-18 |
 
@@ -567,7 +567,7 @@ is indexed, and only the owner moves a page there (see `docs/VERIFICATION.md`).
 | Code | Title | Status | Words | Last reviewed |
 |---|---|---|---:|---|
 | 3.3.2.a | [Penalties subject to abatement](/representation/specific-types-of-representation/penalties-and-or-interest-abatement/penalties-subject-to-abatement/) | **published** | 1,796 | 2026-08-18 |
-| 3.3.2.b | [Basis for having penalties abated or refunded](/representation/specific-types-of-representation/penalties-and-or-interest-abatement/basis-for-having-penalties-abated-or-refunded/) | **published** | 1,808 | 2026-08-18 |
+| 3.3.2.b | [Basis for having penalties abated or refunded](/representation/specific-types-of-representation/penalties-and-or-interest-abatement/basis-for-having-penalties-abated-or-refunded/) | **published** | 1,847 | 2026-08-18 |
 | 3.3.2.c | [Basis for having interest abated or refunded](/representation/specific-types-of-representation/penalties-and-or-interest-abatement/basis-for-having-interest-abated-or-refunded/) | **published** | 2,615 | 2026-08-18 |
 | 3.3.2.d | [Interest recalculation](/representation/specific-types-of-representation/penalties-and-or-interest-abatement/interest-recalculation/) | **published** | 2,621 | 2026-08-18 |
 | 3.3.2.e | [Procedures for requesting abatement](/representation/specific-types-of-representation/penalties-and-or-interest-abatement/procedures-for-requesting-abatement/) | **published** | 2,608 | 2026-08-18 |
@@ -584,7 +584,7 @@ is indexed, and only the owner moves a page there (see `docs/VERIFICATION.md`).
 | 3.3.3.f | [Interpretation and analysis of Revenue Agent Report (RAR) (e.g., 30-day letter)](/representation/specific-types-of-representation/representing-a-taxpayer-in-audits-examinations/interpretation-and-analysis-of-revenue-agent-report-rar/) | **published** | 2,613 | 2026-08-18 |
 | 3.3.3.g | [Interpretation and analysis of CP-2000 notice and correspondence audits](/representation/specific-types-of-representation/representing-a-taxpayer-in-audits-examinations/interpretation-and-analysis-of-cp-2000-notice/) | **published** | 1,936 | 2026-08-18 |
 | 3.3.3.h | [Explanations of taxpayer options (e.g. agree or appeal)](/representation/specific-types-of-representation/representing-a-taxpayer-in-audits-examinations/explanations-of-taxpayer-options/) | **published** | 2,602 | 2026-08-18 |
-| 3.3.3.i | [Taxpayer’s burden of proof](/representation/specific-types-of-representation/representing-a-taxpayer-in-audits-examinations/taxpayer-s-burden-of-proof/) | **published** | 2,494 | 2026-08-18 |
+| 3.3.3.i | [Taxpayer’s burden of proof](/representation/specific-types-of-representation/representing-a-taxpayer-in-audits-examinations/taxpayer-s-burden-of-proof/) | **published** | 2,519 | 2026-08-18 |
 
 **3.3.4 Representing a taxpayer before appeals**
 

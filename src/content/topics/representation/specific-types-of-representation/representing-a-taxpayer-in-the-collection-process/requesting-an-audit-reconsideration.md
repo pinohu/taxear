@@ -131,7 +131,7 @@ The criteria as a list, and in particular that the assessment must be **unpaid**
 
 **1. Audit reconsideration is available where:**
 (A) The assessment has been paid in full (B) The assessment remains unpaid or credits were reversed, and the taxpayer supplies new information (C) A closing agreement was signed (D) The Tax Court has ruled
-*Answer: B. IRM 4.13.1.2.1.*
+*Answer: B. IRM 4.13.1.2.1 conditions audit reconsideration on the assessment still being unpaid (or credits having been reversed) and on the taxpayer bringing new information not considered in the original examination.*
 
 **2. A taxpayer has paid the examination assessment in full and now has supporting documents. The correct route is:**
 (A) Audit reconsideration (B) A formal claim, on Form 1040-X for an individual income tax return (C) A collection due process hearing (D) Form 12661 alone
@@ -143,7 +143,7 @@ The criteria as a list, and in particular that the assessment must be **unpaid**
 
 **4. The IRS prepared a substitute return for a non-filer and assessed on it. The taxpayer contests it by:**
 (A) Filing Form 843 (B) Filing the original delinquent return, which is itself the reconsideration request (C) Requesting a collection due process hearing (D) Filing Form 12661 with no return
-*Answer: B. IRM 4.13.1.2.*
+*Answer: B. IRM 4.13.1.2 treats filing the original delinquent return itself as the reconsideration request for an assessment made on an IRS-prepared substitute for return.*
 
 **5. While an audit reconsideration request is pending, an existing installment agreement:**
 (A) Is suspended (B) Must continue to be paid (C) Is automatically terminated (D) Is renegotiated

@@ -120,7 +120,7 @@ The four benefits and the four requirements, in both cases as lists you can reci
 
 **1. A return claims head of household status, the EIC and the CTC, with due diligence failed on all three. The number of IRC 6695(g) penalties is:**
 (A) One, because it is one return (B) Three, one per determination (C) One, capped annually (D) Two, filing status not counting
-*Answer: B. Reg. § 1.6695-2(a)(1).*
+*Answer: B. Reg. § 1.6695-2(a)(1) imposes the penalty per failure to meet the due diligence requirements as to each applicable credit or filing status determination, so three failed determinations on one return draw three separate penalties.*
 
 **2. A nonsigning tax return preparer satisfies the Form 8867 requirement by:**
 (A) Filing it with the IRS directly (B) Providing the completed form to the signing preparer for inclusion with the filed return (C) Retaining it in the file (D) Nothing; the duty falls on the signer alone
@@ -136,4 +136,4 @@ The four benefits and the four requirements, in both cases as lists you can reci
 
 **5. A firm employing a penalised preparer is itself liable:**
 (A) Automatically (B) Only if management participated or knew, the firm failed to establish reasonable procedures, or it disregarded its own procedures through willfulness, recklessness or gross indifference (C) Only if it is a partnership (D) Never
-*Answer: B. Reg. § 1.6695-2(c).*
+*Answer: B. Reg. § 1.6695-2(c) sets three independent grounds for the firm's own liability, so a firm with none of those failures is not automatically liable merely for employing a penalised preparer.*

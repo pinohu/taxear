@@ -2145,7 +2145,7 @@
     "Irrelevant to a fraud determination"
    ],
    "answerIndex": 1,
-   "explanation": "IRM 25.1.1.4.",
+   "explanation": "IRM 25.1.1.4 makes fraud cannot be established without an affirmative act; an unexplained increase is only an indicator until some affirmative act of concealment or misrepresentation is shown.",
    "pagePath": "/representation/practices-and-procedures/sanctionable-acts/fraudulent-transactions/",
    "pageTitle": "Fraudulent transactions (e.g., badges of fraud)",
    "source": "page"
@@ -2208,7 +2208,7 @@
     "An affirmative act of fraud"
    ],
    "answerIndex": 1,
-   "explanation": "IRM 25.1.1.3.3.",
+   "explanation": "IRM 25.1.1.3.3 defines avoidance as shaping and preplanning events to reduce tax within the law, without concealment or misrepresentation — disclosing everything in advance is the opposite of the affirmative act evasion requires.",
    "pagePath": "/representation/practices-and-procedures/sanctionable-acts/fraudulent-transactions/",
    "pageTitle": "Fraudulent transactions (e.g., badges of fraud)",
    "source": "page"
@@ -2460,7 +2460,7 @@
     "On request only"
    ],
    "answerIndex": 1,
-   "explanation": "IRC § 6107(a).",
+   "explanation": "IRC § 6107(a) ties the deadline to presentation for signature, not to filing or the due date, so the copy is in the taxpayer's hands before the return goes anywhere.",
    "pagePath": "/representation/practices-and-procedures/rules-and-penalties/furnishing-a-copy-of-a-return-to-a-taxpayer/",
    "pageTitle": "Furnishing a copy of a return to a taxpayer",
    "source": "page"
@@ -2481,7 +2481,7 @@
     "Whatever the taxpayer requests"
    ],
    "answerIndex": 1,
-   "explanation": "Reg. § 1.6107-1(a)(2).",
+   "explanation": "Reg. § 1.6107-1(a)(2) defines the complete copy of an electronically filed return as the electronic portion actually transmitted to the IRS, not a client-facing summary or a paper facsimile.",
    "pagePath": "/representation/practices-and-procedures/rules-and-penalties/furnishing-a-copy-of-a-return-to-a-taxpayer/",
    "pageTitle": "Furnishing a copy of a return to a taxpayer",
    "source": "page"
@@ -2565,7 +2565,7 @@
     "Only if the taxpayer requests it"
    ],
    "answerIndex": 1,
-   "explanation": "Reg. § 1.6695-1(b)(1).",
+   "explanation": "Reg. § 1.6695-1(b)(1) fixes the signature to the window between completion and presentation for the taxpayer's signature, not to whenever is convenient before filing.",
    "pagePath": "/representation/practices-and-procedures/rules-and-penalties/signing-returns-and-furnishing-identifying-numbers/",
    "pageTitle": "Signing returns and furnishing identifying numbers",
    "source": "page"
@@ -2607,7 +2607,7 @@
     "The preparer's social security number"
    ],
    "answerIndex": 1,
-   "explanation": "Reg. § 1.6109-2(a)(1), (a)(3).",
+   "explanation": "Reg. § 1.6109-2(a)(1) and (a)(3) require both the individual preparer's own identifying number and, where the preparer is employed by or a partner in a firm, the firm's EIN.",
    "pagePath": "/representation/practices-and-procedures/rules-and-penalties/signing-returns-and-furnishing-identifying-numbers/",
    "pageTitle": "Signing returns and furnishing identifying numbers",
    "source": "page"
@@ -2649,7 +2649,7 @@
     "Obtain a paper signature as well"
    ],
    "answerIndex": 1,
-   "explanation": "Reg. § 1.6695-1(b)(2).",
+   "explanation": "Reg. § 1.6695-1(b)(2) ties the electronic signature to furnishing the information to be transmitted, contemporaneously with the Form 8879, rather than to the paper-return sequence of signing before presentation.",
    "pagePath": "/representation/practices-and-procedures/rules-and-penalties/signing-returns-and-furnishing-identifying-numbers/",
    "pageTitle": "Signing returns and furnishing identifying numbers",
    "source": "page"
@@ -2880,7 +2880,7 @@
     "Two, filing status not counting"
    ],
    "answerIndex": 1,
-   "explanation": "Reg. § 1.6695-2(a)(1).",
+   "explanation": "Reg. § 1.6695-2(a)(1) imposes the penalty per failure to meet the due diligence requirements as to each applicable credit or filing status determination, so three failed determinations on one return draw three separate penalties.",
    "pagePath": "/representation/practices-and-procedures/rules-and-penalties/preparer-due-diligence-and-penalties/",
    "pageTitle": "Preparer due diligence and penalties (e.g., refundable credits, head of household status)",
    "source": "page"
@@ -2964,7 +2964,7 @@
     "Never"
    ],
    "answerIndex": 1,
-   "explanation": "Reg. § 1.6695-2(c).",
+   "explanation": "Reg. § 1.6695-2(c) sets three independent grounds for the firm's own liability, so a firm with none of those failures is not automatically liable merely for employing a penalised preparer.",
    "pagePath": "/representation/practices-and-procedures/rules-and-penalties/preparer-due-diligence-and-penalties/",
    "pageTitle": "Preparer due diligence and penalties (e.g., refundable credits, head of household status)",
    "source": "page"
@@ -6534,7 +6534,7 @@
     "Starts a 90-day period"
    ],
    "answerIndex": 1,
-   "explanation": "IRC § 6213(b)(1) provides that a math error notice is not a notice of deficiency, so no Tax Court petition lies on it and neither assessment nor collection is barred.",
+   "explanation": "IRC § 6213(b)(1) provides that a math error notice is not a notice of deficiency, so no Tax Court petition lies on it and § 6213(a)'s assessment bar does not apply — though § 6213(b)(2)(B) separately bars collection while the 60-day abatement window is open.",
    "pagePath": "/representation/representation-before-the-irs/related-issues/post-filing-correspondence/",
    "pageTitle": "Post-filing correspondence (e.g., math error notices, under-reporting notices)",
    "source": "page"
@@ -6597,7 +6597,7 @@
     "A disagreement about whether an expense is deductible"
    ],
    "answerIndex": 1,
-   "explanation": "Subparagraph (E).",
+   "explanation": "A credit exceeding a statutory limit is on the § 6213(g)(2) list precisely because the limiting items appear on the return, so the excess is computable without an examination — unlike a valuation, an unreported item found by the IRS, or a deductibility dispute.",
    "pagePath": "/representation/representation-before-the-irs/related-issues/post-filing-correspondence/",
    "pageTitle": "Post-filing correspondence (e.g., math error notices, under-reporting notices)",
    "source": "page"
@@ -8025,7 +8025,7 @@
     "The Tax Court has ruled"
    ],
    "answerIndex": 1,
-   "explanation": "IRM 4.13.1.2.1.",
+   "explanation": "IRM 4.13.1.2.1 conditions audit reconsideration on the assessment still being unpaid (or credits having been reversed) and on the taxpayer bringing new information not considered in the original examination.",
    "pagePath": "/representation/specific-types-of-representation/representing-a-taxpayer-in-the-collection-process/requesting-an-audit-reconsideration/",
    "pageTitle": "Requesting an audit reconsideration (e.g., documents and forms)",
    "source": "page"
@@ -8088,7 +8088,7 @@
     "Filing Form 12661 with no return"
    ],
    "answerIndex": 1,
-   "explanation": "IRM 4.13.1.2.",
+   "explanation": "IRM 4.13.1.2 treats filing the original delinquent return itself as the reconsideration request for an assessment made on an IRS-prepared substitute for return.",
    "pagePath": "/representation/specific-types-of-representation/representing-a-taxpayer-in-the-collection-process/requesting-an-audit-reconsideration/",
    "pageTitle": "Requesting an audit reconsideration (e.g., documents and forms)",
    "source": "page"
@@ -8151,7 +8151,7 @@
     "Liable only for interest"
    ],
    "answerIndex": 1,
-   "explanation": "31 U.S.C. § 3713(b) makes a representative personally liable, to the extent of the payment, for paying any part of the estate's debts before satisfying the Government's claim.",
+   "explanation": "31 U.S.C. § 3713(b) makes a representative personally liable, to the extent of the payment, for paying any part of the estate's debts before satisfying the Government's claim — the priority itself attaches under § 3713(a) where the estate is insufficient to pay all debts, so a solvent estate that can still cover the federal claim after the earlier payment presents no exposure.",
    "pagePath": "/representation/specific-types-of-representation/representing-a-taxpayer-in-the-collection-process/representing-a-decedent/",
    "pageTitle": "Representing a decedent",
    "source": "page"
@@ -8466,7 +8466,7 @@
     "Has no assets of any kind"
    ],
    "answerIndex": 1,
-   "explanation": "IRM 5.16.1.2.9, from Reg. § 301.6343-1(b)(4)(ii).",
+   "explanation": "IRM 5.16.1.2.9, drawing on Reg. § 301.6343-1(b)(4)(ii), sets the hardship standard as inability to pay reasonable basic living expenses — not a bankruptcy filing, a dollar threshold, or the absence of any assets.",
    "pagePath": "/representation/specific-types-of-representation/representing-a-taxpayer-in-the-collection-process/currently-not-collectable/",
    "pageTitle": "Currently Not Collectable (e.g., reasons and reactivation)",
    "source": "page"
@@ -8529,7 +8529,7 @@
     "Available only with a Form 433-B"
    ],
    "answerIndex": 1,
-   "explanation": "IRM 5.16.1.2.9.",
+   "explanation": "IRM 5.16.1.2.9's hardship standard requires inability to pay reasonable basic living expenses, so income available for even modest payments without hardship defeats the determination.",
    "pagePath": "/representation/specific-types-of-representation/representing-a-taxpayer-in-the-collection-process/currently-not-collectable/",
    "pageTitle": "Currently Not Collectable (e.g., reasons and reactivation)",
    "source": "page"
@@ -8781,7 +8781,7 @@
     "Actual knowledge in every case"
    ],
    "answerIndex": 1,
-   "explanation": "IRM 5.7.3.4.2.",
+   "explanation": "IRM 5.7.3.4.2 defines willfulness as intentional, deliberate, voluntary, reckless or knowing conduct, expressly not requiring a bad motive or intent to defraud.",
    "pagePath": "/representation/specific-types-of-representation/representing-a-taxpayer-in-the-collection-process/trust-fund-recovery-penalty/",
    "pageTitle": "Trust fund recovery penalty",
    "source": "page"
@@ -8823,7 +8823,7 @@
     "Cannot later claim a refund"
    ],
    "answerIndex": 1,
-   "explanation": "IRM 5.7.4.2.4.",
+   "explanation": "IRM 5.7.4.2.4 does not treat a signed Form 2751 as conclusive of the assessment until the restriction period expires, so appeal rights survive the signature.",
    "pagePath": "/representation/specific-types-of-representation/representing-a-taxpayer-in-the-collection-process/trust-fund-recovery-penalty/",
    "pageTitle": "Trust fund recovery penalty",
    "source": "page"
@@ -9180,7 +9180,7 @@
     "Had no examinations"
    ],
    "answerIndex": 1,
-   "explanation": "IRM 20.1.1.3.3.2.1.",
+   "explanation": "IRM 20.1.1.3.3.2.1 sets the clean-compliance-history test as the same return type filed timely for the prior three years with no unreversed penalty other than an estimated tax penalty, or no filing requirement at all — not a tax-owed or representation condition.",
    "pagePath": "/representation/specific-types-of-representation/penalties-and-or-interest-abatement/basis-for-having-penalties-abated-or-refunded/",
    "pageTitle": "Grounds for abating or refunding a penalty",
    "source": "page"
@@ -10461,7 +10461,7 @@
     "The petitioner, by clear and convincing evidence"
    ],
    "answerIndex": 2,
-   "explanation": "IRC § 7454(a) and Tax Court Rule 142(b).",
+   "explanation": "IRC § 7454(a) and Tax Court Rule 142(b) place the burden of proving fraud on the Commissioner (the respondent), and hold it to clear and convincing evidence rather than the ordinary preponderance standard.",
    "pagePath": "/representation/specific-types-of-representation/representing-a-taxpayer-in-audits-examinations/taxpayer-s-burden-of-proof/",
    "pageTitle": "Taxpayer's burden of proof",
    "source": "page"
