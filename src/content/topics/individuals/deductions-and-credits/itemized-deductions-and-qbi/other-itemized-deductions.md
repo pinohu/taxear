@@ -253,9 +253,9 @@ it reduced by the decrease in the 2022 tax that excluding the item would have pr
 to identify deductions escaping a 2 percent floor; since 2018 it has defined which itemized deductions
 exist at all.*
 
-**6. Nia repaid 2,600 dollars in 2026 of a commission that had been included in her 2024 income because it appeared she had an unrestricted right to it, which proved wrong. How is the repayment treated?**
-(A) Under the § 1341 lesser-of computation, comparing 2026 tax with and without the deduction (B) As an ordinary deduction in 2026, because § 1341 applies only where the deduction exceeds 3,000 dollars (C) By amending the 2024 return to exclude the commission (D) Not deductible, because repayments are miscellaneous itemized deductions
-*Answer: B. IRC § 1341(a)(4) applies its special computation only where the deduction exceeds 3,000 dollars, so the repayment is simply an ordinary deduction in 2026 with no comparison to what the 2024 tax would have been. A few hundred dollars more would have opened up the computation.*
+**6. Nia, a self-employed sales agent, repaid 2,600 dollars in 2026 of a commission from her own business that had been included in her 2024 income because it appeared she had an unrestricted right to it, which proved wrong. How is the repayment treated?**
+(A) Under the § 1341 lesser-of computation, comparing 2026 tax with and without the deduction (B) As an ordinary business deduction in 2026, because § 1341 applies only where the deduction exceeds 3,000 dollars (C) By amending the 2024 return to exclude the commission (D) Not deductible, because repayments are miscellaneous itemized deductions
+*Answer: B. IRC § 1341(a)(4) applies its special computation only where the deduction exceeds 3,000 dollars, so the repayment is simply an ordinary business deduction in 2026 with no comparison to what the 2024 tax would have been. A few hundred dollars more would have opened up the computation.*
 
 **7. Pavel, who is blind, pays 4,000 dollars in 2026 for a reader at his workplace, without which he could not do his job. He also pays 1,200 dollars of union dues. Which is deductible as an itemized deduction?**
 (A) Both, subject to the 2 percent floor (B) The reader only, in full and without a floor (C) The union dues only (D) Neither, because both are employee expenses

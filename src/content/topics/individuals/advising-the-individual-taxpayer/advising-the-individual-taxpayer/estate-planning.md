@@ -263,8 +263,8 @@ the number of donees, provided each gift is of a present interest rather than a 
 much 2018–2025 planning no longer applies.*
 
 **6. A decedent dying in 2026 leaves a traditional IRA worth $600,000 to her daughter. What basis does the daughter take in the account?**
-(A) Fair market value at death, like other inherited property (B) No step-up; the account passes with the decedent's basis and remains fully taxable (C) The decedent's basis under § 1015, as if acquired by gift (D) Fair market value, but only if an estate tax return was filed
-*Answer: B. IRC § 1014(c) excludes a right to receive an item of income in respect of a decedent from the fresh-basis rule, so a retirement account passes with the decedent's basis and full taxability.*
+(A) Fair market value at death, like other inherited property (B) No step-up; the account passes with whatever basis the decedent had in it (C) The decedent's basis under § 1015, as if acquired by gift (D) Fair market value, but only if an estate tax return was filed
+*Answer: B. IRC § 1014(c) excludes a right to receive an item of income in respect of a decedent from the fresh-basis rule, so a retirement account passes with the decedent's own basis rather than a basis stepped up to fair market value.*
 
 **7. A single, never-married decedent dies in 2026 having made no lifetime gifts, with an estate that exceeds the basic exclusion amount by $600,000. How much of the estate is subject to estate tax?**
 (A) The entire estate, because crossing the exclusion makes the whole estate taxable (B) $600,000, the excess over the basic exclusion amount only (C) Nothing, because a single decedent's estate is sheltered up to twice the exclusion (D) The whole estate less one annual exclusion

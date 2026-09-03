@@ -273,8 +273,8 @@ established as such.*
 made under any provision of the internal revenue laws or regulations, except as the Secretary otherwise
 provides.*
 
-**6. An individual is convicted under IRC § 7206(1). The section itself prints a maximum fine of $100,000. What is the largest fine the court may actually impose?**
-(A) $100,000, because the Code section controls its own penalty (B) $250,000, because 18 U.S.C. § 3571 supersedes the printed figure (C) $500,000, the figure printed for organizations (D) No fine at all, because the section provides only for imprisonment
+**6. An individual is convicted under IRC § 7206(1). The section itself prints a maximum fine of $100,000. What is the default statutory maximum fine under 18 U.S.C. § 3571(b)(3), which supersedes that printed figure?**
+(A) $100,000, because the Code section controls its own penalty (B) $250,000, the felony maximum for an individual under § 3571(b)(3) (C) $500,000, the figure printed for organizations (D) No fine at all, because the section provides only for imprisonment
 *Answer: B. 18 U.S.C. § 3571(b)(3): an individual convicted of a felony may be fined up to $250,000, and § 3571(e) preserves a lower statutory figure only where the offence provision exempts itself by specific reference, which § 7206 does not do. The same is true of § 7201.*
 
 **7. Which element must the government prove for evasion under IRC § 7201 that it need not prove for the false-return offence under IRC § 7206(1)?**

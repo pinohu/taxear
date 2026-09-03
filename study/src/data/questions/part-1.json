@@ -2599,10 +2599,10 @@
    "domainTitle": "Income and Assets",
    "section": "1.2.1",
    "sectionTitle": "Income",
-   "stem": "Priya lends her son $60,000 interest-free to help with a house purchase. The loan is well above the de minimis figure but within the larger gift loan threshold, and the son has $900 of net investment income for the year. How much is treated as retransferred to Priya as interest?",
+   "stem": "Priya lends her son $60,000 interest-free to help with a house purchase. The loan is well above the de minimis figure but within the larger gift loan threshold, and the son has $2,400 of net investment income for the year. How much is treated as retransferred to Priya as interest?",
    "options": [
     "The full amount of foregone interest at the applicable federal rate",
-    "No more than $900, the son's net investment income for the year",
+    "No more than $2,400, the son's net investment income for the year",
     "Nothing, because gift loans between parent and child are outside § 7872",
     "Nothing, because the loan was not used to buy income-producing assets"
    ],
@@ -3712,15 +3712,15 @@
    "domainTitle": "Income and Assets",
    "section": "1.2.2",
    "sectionTitle": "Retirement income",
-   "stem": "Two colleagues are laid off on 1 June 2026 and each takes a full distribution from the employer's plan in July 2026. One turned 55 on 15 March 2026; the other turns 55 on 15 September 2026. Who gets the separation-from-service exception?",
+   "stem": "A 56-year-old separates from her employer in March 2026 and, before taking any distribution, rolls the entire 401(k) balance into an IRA. She then withdraws 40,000 dollars from the IRA the same month. Does the separation-from-service exception reach this withdrawal?",
    "options": [
-    "Only the March colleague — the other separated before attaining age 55",
-    "Both — each turns 55 in the calendar year of separation",
-    "Both, provided the distribution is taken after the birthday",
-    "Neither — the exception requires age 59½"
+    "Yes — she is over 55 and separated from service",
+    "No — the exception is withheld from IRAs, and the rollover destroyed it",
+    "Yes, but only for the portion attributable to her own contributions",
+    "No, because a rollover is itself a taxable event"
    ],
-   "answerIndex": 0,
-   "explanation": "IRC § 72(t)(2)(A)(v) excepts a distribution to an employee after separation from service after attainment of age 55; the statute reads on the birthday, not the year, so a separation three months before the birthday is outside it.",
+   "answerIndex": 1,
+   "explanation": "IRC § 72(t)(3)(A) withholds the separation-after-55 exception in § 72(t)(2)(A)(v) from distributions out of an individual retirement plan; the exception is available only while the money stays in the employer's plan, and rolling the balance into an IRA first destroys it — the single most common error in the topic.",
    "pagePath": "/individuals/income-and-assets/retirement-income/penalties-and-exceptions-on-premature-distributions/",
    "pageTitle": "Penalties and exceptions on premature distributions",
    "source": "page"
@@ -5602,15 +5602,15 @@
    "domainTitle": "Deductions and Credits",
    "section": "1.3.1",
    "sectionTitle": "Itemized deductions and QBI",
-   "stem": "Nia repaid 2,600 dollars in 2026 of a commission that had been included in her 2024 income because it appeared she had an unrestricted right to it, which proved wrong. How is the repayment treated?",
+   "stem": "Nia, a self-employed sales agent, repaid 2,600 dollars in 2026 of a commission from her own business that had been included in her 2024 income because it appeared she had an unrestricted right to it, which proved wrong. How is the repayment treated?",
    "options": [
     "Under the § 1341 lesser-of computation, comparing 2026 tax with and without the deduction",
-    "As an ordinary deduction in 2026, because § 1341 applies only where the deduction exceeds 3,000 dollars",
+    "As an ordinary business deduction in 2026, because § 1341 applies only where the deduction exceeds 3,000 dollars",
     "By amending the 2024 return to exclude the commission",
     "Not deductible, because repayments are miscellaneous itemized deductions"
    ],
    "answerIndex": 1,
-   "explanation": "IRC § 1341(a)(4) applies its special computation only where the deduction exceeds 3,000 dollars, so the repayment is simply an ordinary deduction in 2026 with no comparison to what the 2024 tax would have been. A few hundred dollars more would have opened up the computation.",
+   "explanation": "IRC § 1341(a)(4) applies its special computation only where the deduction exceeds 3,000 dollars, so the repayment is simply an ordinary business deduction in 2026 with no comparison to what the 2024 tax would have been. A few hundred dollars more would have opened up the computation.",
    "pagePath": "/individuals/deductions-and-credits/itemized-deductions-and-qbi/other-itemized-deductions/",
    "pageTitle": "Other itemized deductions",
    "source": "page"
@@ -7243,12 +7243,12 @@
    "stem": "A decedent dying in 2026 leaves a traditional IRA worth $600,000 to her daughter. What basis does the daughter take in the account?",
    "options": [
     "Fair market value at death, like other inherited property",
-    "No step-up; the account passes with the decedent's basis and remains fully taxable",
+    "No step-up; the account passes with whatever basis the decedent had in it",
     "The decedent's basis under § 1015, as if acquired by gift",
     "Fair market value, but only if an estate tax return was filed"
    ],
    "answerIndex": 1,
-   "explanation": "IRC § 1014(c) excludes a right to receive an item of income in respect of a decedent from the fresh-basis rule, so a retirement account passes with the decedent's basis and full taxability.",
+   "explanation": "IRC § 1014(c) excludes a right to receive an item of income in respect of a decedent from the fresh-basis rule, so a retirement account passes with the decedent's own basis rather than a basis stepped up to fair market value.",
    "pagePath": "/individuals/advising-the-individual-taxpayer/advising-the-individual-taxpayer/estate-planning/",
    "pageTitle": "Estate planning",
    "source": "page"
@@ -7933,10 +7933,10 @@
    "domainTitle": "Advising the Individual Taxpayer",
    "section": "1.5.1",
    "sectionTitle": "Advising the individual taxpayer",
-   "stem": "An individual is convicted under IRC § 7206(1). The section itself prints a maximum fine of $100,000. What is the largest fine the court may actually impose?",
+   "stem": "An individual is convicted under IRC § 7206(1). The section itself prints a maximum fine of $100,000. What is the default statutory maximum fine under 18 U.S.C. § 3571(b)(3), which supersedes that printed figure?",
    "options": [
     "$100,000, because the Code section controls its own penalty",
-    "$250,000, because 18 U.S.C. § 3571 supersedes the printed figure",
+    "$250,000, the felony maximum for an individual under § 3571(b)(3)",
     "$500,000, the figure printed for organizations",
     "No fine at all, because the section provides only for imprisonment"
    ],
@@ -8269,7 +8269,7 @@
    "domainTitle": "Specialized Returns for Individuals",
    "section": "1.6.1",
    "sectionTitle": "Estate Tax",
-   "stem": "A decedent's assets were held in a revocable trust that became irrevocable at death. Who must make the election that treats the trust as part of the estate for income tax purposes, and what is its effect?",
+   "stem": "A decedent's assets were held in a revocable trust that became irrevocable at death, and an executor was appointed to probate the residue of the estate. Who must make the election that treats the trust as part of the estate for income tax purposes, and what is its effect?",
    "options": [
     "The executor alone; the trust adopts the estate's fiscal year",
     "The trustee alone; the trust files its own Form 1041 on a calendar year",
