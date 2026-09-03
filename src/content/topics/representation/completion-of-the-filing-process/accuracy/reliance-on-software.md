@@ -276,5 +276,5 @@ C. It does not apply; the exception is withheld where the same or similar error 
    numerous returns
 D. It applies to the first ten returns only
 
-*Answer: C. Reg. § 1.6694-2(e)(2) applies the exception to an isolated error, not a repetition of the
-same or similar error on numerous returns, so the pattern itself defeats it.*
+*Answer: C. Reg. § 1.6694-2(e)(4) withdraws the normal-office-practice exception entirely where there
+is a repetition of the same or similar error on numerous returns, so the pattern itself defeats it.*

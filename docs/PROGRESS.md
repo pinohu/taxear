@@ -11,8 +11,8 @@ is indexed, and only the owner moves a page there (see `docs/VERIFICATION.md`).
 |---|---:|---:|---:|---:|---:|---:|
 | 1. Individuals | 120 | 0 | 0 | 0 | 120 | 338,287 |
 | 2. Businesses | 119 | 0 | 0 | 0 | 119 | 345,947 |
-| 3. Representation, Practices and Procedures | 121 | 0 | 0 | 0 | 121 | 281,892 |
-| **All parts** | **360** | **0** | **0** | **0** | **360** | **966,126** |
+| 3. Representation, Practices and Procedures | 121 | 0 | 0 | 0 | 121 | 281,910 |
+| **All parts** | **360** | **0** | **0** | **0** | **360** | **966,144** |
 
 ## Part 1 — Individuals
 
@@ -556,7 +556,7 @@ is indexed, and only the owner moves a page there (see `docs/VERIFICATION.md`).
 | 3.3.1.i | [Collection notice and Notice of Federal Tax Lien](/representation/specific-types-of-representation/representing-a-taxpayer-in-the-collection-process/collection-notice-and-notice-of-federal-tax-lien/) | **published** | 2,338 | 2026-08-18 |
 | 3.3.1.j | [Levy and seizure of taxpayer's property](/representation/specific-types-of-representation/representing-a-taxpayer-in-the-collection-process/levy-and-seizure-of-taxpayer-s-property/) | **published** | 2,526 | 2026-08-18 |
 | 3.3.1.k | [Currently Not Collectable (e.g., reasons and reactivation)](/representation/specific-types-of-representation/representing-a-taxpayer-in-the-collection-process/currently-not-collectable/) | **published** | 2,258 | 2026-08-18 |
-| 3.3.1.l | [IRS Collection Summons (e.g., purposes)](/representation/specific-types-of-representation/representing-a-taxpayer-in-the-collection-process/irs-collection-summons/) | **published** | 2,434 | 2026-08-18 |
+| 3.3.1.l | [IRS Collection Summons (e.g., purposes)](/representation/specific-types-of-representation/representing-a-taxpayer-in-the-collection-process/irs-collection-summons/) | **published** | 2,452 | 2026-08-18 |
 | 3.3.1.m | [Collections statute of limitations](/representation/specific-types-of-representation/representing-a-taxpayer-in-the-collection-process/collections-statute-of-limitations/) | **published** | 2,222 | 2026-08-18 |
 | 3.3.1.n | [Trust fund recovery penalty](/representation/specific-types-of-representation/representing-a-taxpayer-in-the-collection-process/trust-fund-recovery-penalty/) | **published** | 2,559 | 2026-08-18 |
 | 3.3.1.o | [Amended returns and claims for refund (e.g., Form 1040X, Form 843, effect on statute of limitations)](/representation/specific-types-of-representation/representing-a-taxpayer-in-the-collection-process/amended-returns-and-claims-for-refund/) | **published** | 2,238 | 2026-08-18 |

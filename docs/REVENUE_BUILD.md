@@ -136,10 +136,12 @@ never a silent lock-out.
 
 ## Content work the import surfaced
 
-- The import once surfaced 121 Part 3 multiple-choice questions that answered with the
-  letter and a citation only ("*Answer: B.*"), across 37 pages. Every one now carries a
-  one-sentence, page-grounded reason, and the bank's `explanation` field is populated
-  for all 589 Part 3 multiple-choice items. No importer change was needed.
+- The import once surfaced Part 3 multiple-choice questions that answered with the
+  letter and a citation only ("*Answer: B.*") or nothing at all. Comparing the final
+  question bank against its pre-fix state: 152 answers across 50 pages were rewritten
+  with a one-sentence, page-grounded reason. 4 short answers remain by design (each
+  reads as a genuine terse reason on inspection, not a bare citation). No importer
+  change was needed.
 - Parts 1 and 2 keep their open questions as drills (523 and 490); every page in all
   three parts carries three or more four-option multiple-choice questions, so every
   part is complete in multiple-choice form with explanations throughout.

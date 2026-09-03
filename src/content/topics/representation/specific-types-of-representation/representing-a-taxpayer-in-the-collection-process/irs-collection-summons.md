@@ -142,7 +142,7 @@ The four purposes in § 7602(a), including collection. Who may be summoned — t
 
 **3. A Justice Department referral is in effect against a taxpayer. The IRS:**
 (A) May issue a summons but not enforce it (B) May neither issue a summons nor begin an enforcement action (C) May issue a summons with Chief Counsel approval (D) Is unaffected
-*Answer: B. IRC § 7602(d) bars issuing a summons and beginning an enforcement action while a Justice Department referral is in effect against that person.*
+*Answer: B. IRC § 7602(d) bars issuing a summons and bars beginning a § 7604 enforcement action to enforce one while a Justice Department referral is in effect against that person — it does not reach other collection measures such as a levy.*
 
 **4. The IRS wishes to inspect a taxpayer's books for a year already examined. It may do so:**
 (A) Freely (B) If the taxpayer requests it, or the Secretary notifies the taxpayer in writing that an additional inspection is necessary (C) Only with a court order (D) Never
