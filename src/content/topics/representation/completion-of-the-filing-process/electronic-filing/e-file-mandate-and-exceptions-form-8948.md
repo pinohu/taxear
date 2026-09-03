@@ -116,7 +116,7 @@ Know the definition of a specified tax return preparer and that the count aggreg
 
 **1. A preparer expects to file 8 individual income tax returns. She is a partner in a firm whose members expect to file 40 in total. She is:**
 (A) Not a specified tax return preparer, being under the threshold (B) A specified tax return preparer, because the firm's members are aggregated (C) A specified tax return preparer only for returns she personally e-files (D) Exempt, as a firm member
-*Answer: B. Reg. § 301.6011-7(a)(3).*
+*Answer: B. Reg. § 301.6011-7(a)(3): the count aggregates all of a firm's members, so the firm's 40 expected returns make her a specified tax return preparer even though she personally expects to file only 8.*
 
 **2. To claim an administrative exemption under Notice 2011-26, a specified tax return preparer must:**
 (A) File Form 8944 and await written approval (B) Do nothing to claim it, but be able to demonstrate entitlement on request (C) Attach Form 8944 to the taxpayer's return (D) Obtain a private letter ruling
@@ -124,7 +124,7 @@ Know the definition of a specified tax return preparer and that the count aggreg
 
 **3. A client wants to file on paper and mail the return himself. For the mandate not to apply, the preparer must obtain:**
 (A) An oral instruction, noted in the file (B) A hand-signed, dated statement on or before the filing date, with the taxpayer submitting the return (C) Form 8948, signed by the taxpayer (D) An undue hardship waiver
-*Answer: B. Reg. § 301.6011-7(a)(4)(ii).*
+*Answer: B. Reg. § 301.6011-7(a)(4)(ii): the mandate does not apply only where the preparer obtains a hand-signed, dated statement made on or before the filing date, in which the taxpayer chooses paper and agrees to submit the return themselves.*
 
 **4. A preparer's software does not support a schedule the return requires, so the return is filed on paper. The preparer should:**
 (A) File Form 8944 before filing (B) Attach Form 8948 to the paper return, the exemption being automatic (C) Do nothing further (D) Request a private letter ruling
@@ -132,4 +132,4 @@ Know the definition of a specified tax return preparer and that the count aggreg
 
 **5. An undue hardship waiver request on Form 8944 must ordinarily be submitted:**
 (A) At any time during the calendar year (B) With the first paper return filed (C) Between 1 October of the preceding year and 15 February of the applicable year (D) Within 30 days of the return's due date
-*Answer: C. Rev. Proc. 2011-25 § 7.02.*
+*Answer: C. Rev. Proc. 2011-25 § 7.02: the page notes the window closes on 15 February of the applicable year, with late requests considered only in unusual, unforeseen and unavoidable circumstances.*

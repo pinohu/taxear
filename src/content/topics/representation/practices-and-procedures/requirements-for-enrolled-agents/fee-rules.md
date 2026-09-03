@@ -101,20 +101,20 @@ The two prohibitions, and that unconscionability is undefined. The four exceptio
 
 **1. A contingent fee is permitted for services in connection with:**
 (A) Preparing an original return claiming a large refund (B) The IRS's examination of or challenge to an original return (C) Any amended return (D) Tax planning advice
-*Answer: B. Circular 230 § 10.27(b)(2)(i).*
+*Answer: B. Circular 230 § 10.27(b)(2)(i): a contingent fee is one of the four exceptions once the IRS has opened an examination of, or challenge to, an original return, unlike a fee contingent on the original filing position itself.*
 
 **2. A practitioner charges a fixed fee and agrees to refund it if the IRS successfully challenges the position. This is:**
 (A) Permitted, the fee being fixed (B) A contingent fee, because the practitioner reimburses the client if the position is not sustained (C) Permitted if disclosed in writing (D) An unconscionable fee
-*Answer: B. Section 10.27(c)(1).*
+*Answer: B. Section 10.27(c)(1): a contingent fee includes any arrangement where the practitioner reimburses the client if a position is challenged or not sustained, whether by indemnity, guarantee or rescission rights, so a fixed fee with a refund promise is still contingent.*
 
 **3. The 120-day period in § 10.27(b)(2)(ii) runs from:**
 (A) The filing of the amended return (B) The taxpayer's receipt of written notice of the examination of, or challenge to, the original return (C) The start of the examination (D) The due date of the original return
-*Answer: B.*
+*Answer: B. Section 10.27(b)(2)(ii): the 120-day window runs from the taxpayer's receipt of written notice of the examination of, or challenge to, the original return, not from the amended filing or the start of the examination.*
 
 **4. A contingent fee is permitted for a claim for refund filed solely in connection with:**
 (A) A disputed deduction (B) The determination of statutory interest or penalties assessed by the IRS (C) A carryback (D) An amended return filed at any time
-*Answer: B. Section 10.27(b)(3).*
+*Answer: B. Section 10.27(b)(3) permits a contingent fee only for a refund claim filed solely to determine statutory interest or penalties assessed by the IRS, not for a refund claim on the merits of a deduction or other position.*
 
 **5. Having published a schedule of fees, a practitioner may charge no more than the published rates for:**
 (A) 7 days (B) At least 30 calendar days after the last publication date (C) One year (D) The remainder of the tax year
-*Answer: B. Circular 230 § 10.30(b)(2).*
+*Answer: B. Circular 230 § 10.30(b): having published a fee schedule, a practitioner may charge no more than the published rates for at least 30 calendar days after the last date of publication.*

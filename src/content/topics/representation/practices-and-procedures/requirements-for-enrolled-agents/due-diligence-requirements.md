@@ -98,20 +98,20 @@ The three limbs of § 10.22(a), and particularly that representations to Treasur
 
 **1. Circular 230 § 10.22 requires due diligence in:**
 (A) Preparing returns only (B) Preparing, approving and filing papers; determining the correctness of representations to Treasury; and determining the correctness of representations to clients (C) Written advice only (D) Determining eligibility for refundable credits
-*Answer: B.*
+*Answer: B. Section 10.22(a): the rule requires diligence in three directions — preparing and filing papers, the correctness of representations to Treasury, and the correctness of representations to clients — not preparation alone.*
 
 **2. A practitioner relies on a subordinate's work product. The presumption of diligence applies if the practitioner:**
 (A) Reviews the final output (B) Used reasonable care in engaging, supervising, training and evaluating the person, taking proper account of the relationship (C) Obtains the subordinate's written confirmation (D) Is not personally aware of any error
-*Answer: B. Section 10.22(b).*
+*Answer: B. Circular 230 § 10.22(b): the presumption of diligence applies only where the practitioner used reasonable care in engaging, supervising, training and evaluating the person who prepared the work, not merely by reviewing the final output.*
 
 **3. The reliance presumption is expressly modified by:**
 (A) Sections 10.20 and 10.21 (B) Sections 10.34 and 10.37 (C) Section 10.51 (D) No other section
-*Answer: B.*
+*Answer: B. Section 10.22(b) opens "except as modified by §§ 10.34 and 10.37," so the presumption does not answer a return-position or written-advice violation under either section.*
 
 **4. A practitioner tells a revenue agent something inaccurate, honestly believing it, without checking. This:**
 (A) Is outside § 10.22, which governs returns (B) Engages § 10.22(a)(2), which requires diligence in determining the correctness of representations to Treasury (C) Is excused by the honest belief (D) Engages § 10.21
-*Answer: B.*
+*Answer: B. Section 10.22(a)(2) requires diligence in determining the correctness of representations made to the Department of the Treasury, and an honest but unchecked belief does not satisfy that duty.*
 
 **5. Section 10.22 may be violated recklessly or through gross incompetence:**
 (A) Yes, like §§ 10.34 to 10.37 (B) No; it is not listed in § 10.52(a)(2), so a violation must be willful (C) Only in written advice (D) Only where a penalty results
-*Answer: B.*
+*Answer: B. Section 10.22 is absent from the § 10.52(a)(2) list of sections violable recklessly or through gross incompetence, so on its own terms a violation must be willful.*

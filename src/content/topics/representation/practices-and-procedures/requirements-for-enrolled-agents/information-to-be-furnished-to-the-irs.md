@@ -92,7 +92,7 @@ The obligation is to submit **promptly** on a **proper and lawful** request from
 
 **1. A practitioner may decline to submit requested records where:**
 (A) The client instructs them not to (B) They believe in good faith and on reasonable grounds that the records are privileged (C) A fee dispute is outstanding (D) The request is inconvenient
-*Answer: B. Circular 230 § 10.20(a)(1).*
+*Answer: B. Circular 230 § 10.20(a)(1): the only exception to prompt submission is a good-faith belief, on reasonable grounds, that the records or information are privileged.*
 
 **2. Records are held by neither the practitioner nor the client. The practitioner must:**
 (A) Obtain them from the third party (B) Notify the IRS promptly, supply what they know about who holds them, and make reasonable inquiry of the client (C) Do nothing further (D) Independently verify the client's account
@@ -100,12 +100,12 @@ The obligation is to submit **promptly** on a **proper and lawful** request from
 
 **3. OPR asks a practitioner about a colleague's alleged Circular 230 violation. The practitioner:**
 (A) May decline as it does not concern their own client (B) Must provide the information and testify in any proceeding instituted under the part (C) Must provide information but need not testify (D) May respond only under summons
-*Answer: B. Section 10.20(a)(3).*
+*Answer: B. Section 10.20(a)(3) requires a practitioner to provide information and testify regarding an alleged Circular 230 violation even where the inquiry concerns another practitioner, subject only to the same good-faith privilege exception.*
 
 **4. IRC 7525 privilege does not apply to:**
 (A) Non-criminal tax matters before the IRS (B) Communications concerning tax shelters (C) Communications with an enrolled agent (D) Non-criminal federal court proceedings
-*Answer: B.*
+*Answer: B. The page notes that IRC § 7525 extends confidentiality protection to non-criminal tax matters but expressly does not apply to communications concerning tax shelters.*
 
 **5. A practitioner asserts blanket privilege over an entire file without considering its contents, to delay an examination. This:**
 (A) Is protected by § 10.20(a)(1) (B) Breaches § 10.20 and may also breach § 10.20(b)'s bar on interference (C) Is a matter for the client alone (D) Is permitted if the client agrees
-*Answer: B.*
+*Answer: B. A blanket assertion made without considering the documents is not a good-faith belief on reasonable grounds under § 10.20(a)(1), and the same conduct separately breaches § 10.20(b)'s bar on interfering with a proper and lawful effort to obtain records.*

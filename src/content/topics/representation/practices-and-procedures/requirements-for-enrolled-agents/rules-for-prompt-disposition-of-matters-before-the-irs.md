@@ -98,20 +98,20 @@ Know the rule verbatim; it is one sentence and it is quotable. Know that the sta
 
 **1. Circular 230 § 10.23 prohibits a practitioner from:**
 (A) Delaying a matter beyond 30 days (B) Unreasonably delaying the prompt disposition of any matter before the IRS (C) Any delay whatever (D) Delaying only in collection matters
-*Answer: B.*
+*Answer: B. Section 10.23 is a single sentence prohibiting a practitioner from unreasonably delaying the prompt disposition of any matter before the IRS, with no fixed period and no restriction on which kind of matter.*
 
 **2. A practitioner delays because the client instructs him to, hoping the collection statute will expire. This is:**
 (A) Permissible, the client's instruction governing (B) A violation of § 10.23, and the instruction is no defence (C) Permissible if disclosed to the IRS (D) A matter for the client alone
-*Answer: B.*
+*Answer: B. The page states the client's instruction to stall does not excuse the practitioner's own conduct under § 10.23, since the obligation runs to the practitioner regardless of what the client wants.*
 
 **3. Section 10.23 may be violated:**
 (A) Recklessly or through gross incompetence, like §§ 10.34 to 10.37 (B) Only willfully, since § 10.52(a)(2) does not list it (C) Without any mental state (D) Only where actual harm results
-*Answer: B.*
+*Answer: B. Section 10.23 is not among the four sections § 10.52(a)(2) makes violable recklessly or through gross incompetence, so on its own terms a violation must be willful to be sanctionable under § 10.52(a)(1).*
 
 **4. An enrolled agent misses deadlines through genuine illness, then contacts the examiner and agrees a revised schedule. This is:**
 (A) A violation, deadlines having been missed (B) Not unreasonable delay (C) A violation unless the IRS agrees in writing (D) A violation of § 10.20
-*Answer: B.*
+*Answer: B. Section 10.23 prohibits only unreasonable delay, and the page treats delay from genuine incapacity, addressed promptly by contacting the examiner and agreeing a revised schedule, as not unreasonable.*
 
 **5. A practitioner advises a client to file a paper whose purpose is to postpone collection. Beyond § 10.23, this engages:**
 (A) Section 10.20(a) (B) Section 10.34(b)(2)(i), and potentially IRC § 6702 for the client (C) Section 10.28 (D) Section 10.31
-*Answer: B.*
+*Answer: B. Section 10.34(b)(2)(i) separately bars advising a client to submit a paper whose purpose is to delay or impede tax administration, and if the position is a listed frivolous one the client also faces the § 6702(b) penalty on a specified frivolous submission.*

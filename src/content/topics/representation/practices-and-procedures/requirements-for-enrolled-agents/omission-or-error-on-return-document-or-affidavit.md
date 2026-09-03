@@ -98,20 +98,20 @@ The two limbs — the fact and the consequences — and that both are required. 
 
 **1. A practitioner learns a client omitted income from a prior year's return. Circular 230 requires the practitioner to:**
 (A) Notify the IRS (B) Advise the client promptly of the omission and of its consequences under the Code (C) File an amended return (D) Withdraw from the engagement
-*Answer: B. Section 10.21.*
+*Answer: B. Section 10.21 requires the practitioner to advise the client promptly of the fact of the omission and of its consequences under the Code and regulations, with no duty to notify the IRS, amend the return, or withdraw.*
 
 **2. The client, properly advised, refuses to correct the error. The practitioner has:**
 (A) Breached Circular 230 (B) Complied with § 10.21; what follows depends on whether continuing would assist the noncompliance (C) A duty to report the refusal (D) A duty to resign immediately
-*Answer: B.*
+*Answer: B. Section 10.21's duty runs to the client and ends once the advice is given; the client's decision does not undo compliance, though continuing to prepare work that carries the error forward would engage separate rules.*
 
 **3. Advising the client of "the consequences" means:**
 (A) Mentioning that an amendment may be needed (B) Explaining the consequences under the Code and regulations — tax, interest, applicable penalties, and where relevant the absence of a limitation period (C) Quantifying the exact liability (D) Providing a written opinion
-*Answer: B.*
+*Answer: B. Section 10.21 requires advising the client of the consequences under the Code and regulations, which the page describes as the tax, interest, applicable penalties, and where relevant the absence of an assessment limitation period — not a bare mention that an amendment may be needed.*
 
 **4. A practitioner discloses a client's uncorrected error to the IRS without authority. This:**
 (A) Is required by § 10.21 (B) Risks criminal liability under IRC § 7216 and civil liability under § 6713 (C) Is protected by Circular 230 (D) Is required only for fraud
-*Answer: B.*
+*Answer: B. Section 10.21 gives the practitioner no authority to disclose the client's error to the IRS, and doing so without authority risks criminal liability under IRC § 7216 and civil liability under § 6713.*
 
 **5. Which provision engages if the practitioner goes on to help the client continue the noncompliance?**
 (A) Section 10.21 alone (B) Section 10.51(a)(7), § 10.34(a) and IRC § 6694 (C) Section 10.20 (D) Section 10.23
-*Answer: B.*
+*Answer: B. The page identifies § 10.51(a)(7) (willfully assisting a client's violation of federal tax law), § 10.34(a) (signing an unreasonable position), and IRC § 6694 as the provisions that take over once a practitioner assists a client's continuing noncompliance, beyond § 10.21's own duty to advise.*

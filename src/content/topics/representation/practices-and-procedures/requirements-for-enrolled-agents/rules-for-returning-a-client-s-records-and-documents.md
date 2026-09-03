@@ -95,20 +95,20 @@ That the duty is triggered by the **client's request** and requires **prompt** r
 
 **1. A client requests their records during a fee dispute. The practitioner:**
 (A) May retain everything until paid (B) Must generally return records necessary for the client to comply with federal tax obligations, a fee dispute not relieving the responsibility (C) Must return everything including their own work product (D) May retain records for 30 days
-*Answer: B. Circular 230 § 10.28(a).*
+*Answer: B. Circular 230 § 10.28(a) requires prompt return of records the client needs to comply with federal tax obligations, and states that the existence of a fee dispute generally does not relieve that responsibility.*
 
 **2. Where state law permits retention during a fee dispute, the practitioner must still:**
 (A) Return everything (B) Return records that must be attached to the return, and give reasonable access to review and copy the rest (C) Do nothing further (D) Return records only after 90 days
-*Answer: B.*
+*Answer: B. Section 10.28(a)'s state-law accommodation only narrows what must be handed over immediately — the practitioner must still return what must be attached to the return and provide reasonable access to review and copy any records retained under state law.*
 
 **3. Which is a "record of the client" under § 10.28(b)?**
 (A) A depreciation schedule the practitioner prepared, withheld pending payment (B) Bank statements the client provided (C) A draft return prepared by the practitioner's employee, withheld pending payment (D) The practitioner's engagement notes
-*Answer: B.*
+*Answer: B. Section 10.28(b) defines records of the client as material provided by the client or a third party, so bank statements the client supplied are the client's records, unlike the practitioner's own schedules or drafts withheld pending payment.*
 
 **4. An appraisal prepared by an independent appraiser and provided during the representation is:**
 (A) The practitioner's work product (B) A record of the client, the appraiser not being the practitioner's employee or agent (C) Excluded because the practitioner engaged the appraiser (D) Returnable only if the client paid the appraiser
-*Answer: B.*
+*Answer: B. Section 10.28(b) excludes only documents prepared by the practitioner or the practitioner's own employee or agent, so material from an independent third party like the appraiser remains a record of the client regardless of who paid for it.*
 
 **5. After returning the client's records, the practitioner:**
 (A) May not keep copies (B) May retain copies, and separately must keep a copy or list for three years under IRC § 6107(b) (C) Must destroy the file (D) Must obtain the client's consent to keep copies
-*Answer: B.*
+*Answer: B. Section 10.28(a) permits the practitioner to retain copies of anything returned, and IRC § 6107(b) separately requires keeping a completed copy or list of the return for three years.*
