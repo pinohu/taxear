@@ -269,3 +269,15 @@ possible?
 
 *Answer: Potentially yes. IRC § 6511(d)(1) provides a seven-year period of limitation for a refund claim
 relating to the deductibility of a debt that became worthless, in place of the ordinary period.*
+
+**6. Teodora advances 45,000 dollars to her brother to buy a food truck. There is no note, no interest rate and no repayment date, and she never asks to be repaid. The business fails in 2026. What may she deduct?**
+(A) A short-term capital loss of 45,000 dollars (B) A long-term capital loss of 45,000 dollars (C) Nothing, because there was never a bona fide debt (D) A business bad debt, because the funds were used in a trade or business
+*Answer: C. Treas. Reg. § 1.166-1(c): only a bona fide debt arising from a valid and enforceable obligation to pay a fixed or determinable sum qualifies, and a gift is not a debt for § 166 purposes. The advance is a completed gift with no income tax deduction.*
+
+**7. Hugo buys a corporate bond, a security that is a capital asset in his hands, on 1 September 2025. The issuer collapses and the bond becomes wholly worthless on 1 March 2026. What is the character of his loss?**
+(A) A short-term capital loss under the nonbusiness bad debt rule (B) A long-term capital loss, because the security is deemed sold on the last day of the taxable year (C) A short-term capital loss, because he held the bond for six months when it became worthless (D) An ordinary loss
+*Answer: B. IRC § 165(g)(1) treats a worthless security that is a capital asset as sold on the last day of the taxable year, which is 31 December 2026 here, so the holding period runs past one year and the loss is long term. A debt described in § 165(g)(2)(C) is outside the nonbusiness bad debt rules under Treas. Reg. § 1.166-5(b).*
+
+**8. Ines lent 30,000 dollars on a properly documented note that does not mature until 2028. In 2026 the borrower is adjudged bankrupt with no assets, and the debt is wholly worthless. May she deduct the loss in 2026?**
+(A) No, because a debt cannot be worthless before its maturity date (B) Yes, because the fact that the debt is not yet due does not by itself prevent the deduction (C) No, until she has sued on the note and obtained a judgment (D) Yes, but only as a partial deduction until 2028
+*Answer: B. Treas. Reg. § 1.166-1(c): the fact that a debt is not yet due does not by itself prevent the deduction. What matters is that the debt is bona fide and has become totally worthless within the year, as Treas. Reg. § 1.166-5(a)(2) requires.*

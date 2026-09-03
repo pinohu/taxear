@@ -271,3 +271,15 @@ identified as such in the records before the close of the day it was acquired, u
 
 *Answer: Only with the Secretary's consent. IRC § 475(f)(3) allows the election to be made without
 consent, but once made it applies to that year and all subsequent years unless revoked with consent.*
+
+**6. Camila, an investor, pays 9,000 dollars of interest in 2026 on a margin loan used to buy stock. Her net investment income for the year is 6,000 dollars. How much of the interest is deductible?**
+(A) None, because investment expenses are miscellaneous itemized deductions suspended by § 67 (B) 6,000 dollars, with the remaining 3,000 dollars treated as investment interest paid in the succeeding year (C) 9,000 dollars in full (D) 6,000 dollars, with the remaining 3,000 dollars permanently lost
+*Answer: B. IRC § 163(d)(1), (2): for a taxpayer other than a corporation, investment interest is deductible up to net investment income, and any excess is treated as investment interest paid in the succeeding year. Investment interest is not a miscellaneous itemized deduction, so § 67(h) does not touch it.*
+
+**7. Dmitri is a trader in securities who has made the § 475(f) election. His 2026 trading gains are ordinary income. Are they subject to self-employment tax?**
+(A) Yes, because the election makes the gains ordinary and he carries on a trade or business (B) No, because the ordinary characterisation does not apply for purposes of § 1402 (C) Yes, but only on gains from positions held less than a year (D) No, because trading gains are always capital gains
+*Answer: B. IRC § 475(f)(1)(D) provides that § 475(d)(3) does not apply for purposes of §§ 1402 and 7704, so the ordinary character does not carry through to self-employment tax.*
+
+**8. A securities dealer buys a block of shares and, before the close of that day, clearly identifies them in her records as held for investment. She later sells them at a loss. What is the character of the loss?**
+(A) Ordinary, because a dealer's securities are always inventory (B) Capital, because a loss on a security identified as held for investment is never ordinary to a dealer (C) Ordinary, unless she held the shares for more than one year (D) Not deductible, because dealers may not hold investments
+*Answer: B. IRC § 1236(b): a dealer's loss is never ordinary if the security was at any time clearly identified in the dealer's records as held for investment. The identification that secures capital gain treatment under § 1236(a) also fixes capital character for a loss.*

@@ -265,3 +265,15 @@ interest in an activity until the entire interest in the partnership is disposed
 *Answer: Because IRC § 7704(c) disapplies the § 7704(a) default where 90 percent or more of gross income
 is qualifying income under § 7704(d), tested for the year and for every preceding year after 1987 in which
 the partnership existed.*
+
+**6. Delia actively participates in a rental real estate activity conducted through a publicly traded partnership, which allocates her a 12,000-dollar rental loss for 2026. Her modified adjusted gross income is 70,000 dollars. May she use the rental real estate allowance against her wages?**
+(A) Yes, the full 12,000 dollars, because she actively participates (B) No, because the rental real estate allowance does not apply to items attributable to a publicly traded partnership (C) Yes, but only to the extent of her other passive income (D) No, because rental losses are never deductible against wages
+*Answer: B. IRC § 469(k)(1) applies § 469 separately to each publicly traded partnership and provides that § 469(i), the rental real estate allowance, does not apply to those items at all. The loss is suspended within that partnership.*
+
+**7. Bram, a United States citizen, sells his units in a publicly traded partnership through his broker. Part of the gain would be effectively connected income under § 864(c)(8). What must the transferee do, and how can Bram avoid it?**
+(A) Nothing, because withholding never applies to a sale of a partnership interest (B) Withhold 10 percent of the amount realised, unless Bram furnishes an affidavit under penalty of perjury giving his taxpayer identification number and stating that he is not a foreign person (C) Withhold 10 percent of the gain, which Bram can avoid only by claiming a refund (D) Withhold 30 percent of the amount realised, with no exception for United States persons
+*Answer: B. IRC § 1446(f)(1) requires the transferee to deduct and withhold 10 percent of the amount realised, and § 1446(f)(2)(A) switches the withholding off where the transferor furnishes a non-foreign affidavit with a taxpayer identification number.*
+
+**8. A partnership whose interests trade on an established securities market earns all of its gross income from interest and dividends, and it would be a regulated investment company if it were a domestic corporation. How is it classified for federal tax purposes?**
+(A) A partnership, because more than 90 percent of its gross income is qualifying income (B) A corporation, because a partnership that would be a regulated investment company cannot use the qualifying income exception (C) A partnership, provided it elects out of subchapter K (D) A corporation, because interest and dividends are never qualifying income
+*Answer: B. IRC § 7704(c)(3): a partnership that would be a regulated investment company if it were a domestic corporation cannot use the § 7704(c) exception, so the § 7704(a) corporate default applies even though interest and dividends are qualifying income under § 7704(d)(1).*

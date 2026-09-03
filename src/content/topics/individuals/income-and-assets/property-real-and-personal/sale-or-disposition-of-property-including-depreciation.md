@@ -302,3 +302,15 @@ dollars two years ago that has not been recaptured. How is the gain characterise
 *Answer: 25,000 dollars is ordinary income under IRC § 1231(c)(1), because net § 1231 gain is ordinary to
 the extent of non-recaptured net § 1231 losses from the five most recent preceding years; the remaining
 35,000 dollars is long-term capital gain.*
+
+**6. Owen gives his daughter a delivery van worth 95,000 dollars. His adjusted basis is 60,000 dollars, reduced from cost entirely by depreciation he deducted. How much ordinary recapture income does Owen report on the gift?**
+(A) 35,000 dollars, the full built-in ordinary income (B) None, because neither recapture section applies to a disposition by gift, and his daughter takes his carryover basis (C) 35,000 dollars as long-term capital gain (D) None, and his daughter takes a basis equal to the van's fair market value
+*Answer: B. IRC § 1245(b)(1) and § 1250(d)(1) except a disposition by gift from recapture, however much depreciation was claimed. The built-in gain moves to the daughter's return through the carryover basis rather than disappearing.*
+
+**7. Lucía bought a machine for 50,000 dollars, never claimed any depreciation on it, and kept no records showing how much depreciation was actually allowed. She sells it for 45,000 dollars in 2026. Does the depreciation she never claimed enter the recapture computation?**
+(A) No, because only depreciation actually deducted can be recaptured (B) Yes, because recomputed basis includes adjustments allowed or allowable, and the burden of proving less was allowed falls on the taxpayer (C) No, unless the IRS asserts the allowable depreciation on audit (D) Yes, but only half of the allowable amount
+*Answer: B. IRC § 1245(a)(2)(A) builds recomputed basis from adjustments for depreciation allowed or allowable, and § 1245(a)(2)(B) substitutes allowed only where the taxpayer proves by adequate records that less was allowed than was allowable. Without records, the unclaimed depreciation counts.*
+
+**8. Tessa sells a rental building at a gain, of which 40,000 dollars is unrecaptured section 1250 gain. Her ordinary income is taxed at a marginal rate of 12 percent. At what rate is the 40,000 dollars taxed?**
+(A) 25 percent, the fixed rate for unrecaptured section 1250 gain (B) 12 percent, because 25 percent is a ceiling and a taxpayer whose ordinary rate is lower pays the lower rate (C) 15 percent, the rate for adjusted net capital gain (D) 20 percent
+*Answer: B. IRC § 1(h)(1)(E) taxes unrecaptured section 1250 gain at 25 percent as a maximum, not a flat rate; a taxpayer whose ordinary rate is lower pays the lower rate. The gain remains capital gain throughout.*

@@ -310,3 +310,15 @@ capital asset held more than one year, regardless of how long the shares themsel
 
 *Answer: No. IRC § 1221(a)(3)(A) excludes an artistic composition held by its creator, and the election in
 § 1221(b)(3) reaches only musical compositions and copyrights in musical works. Her gain is ordinary.*
+
+**6. A married couple filing jointly for 2026 have a 10,000-dollar net capital loss and no capital gains. Which allowance limits the amount that reduces their ordinary income this year?**
+(A) Twice the allowance a single filer gets, because there are two taxpayers on the return (B) The same allowance a single filer gets, because the allowance is not doubled on a joint return (C) Half the allowance a single filer gets, because the halved figure applies to all married taxpayers (D) No allowance is needed, because a net capital loss offsets ordinary income without limit
+*Answer: B. IRC § 1211(b): the annual allowance is not doubled on a joint return; the smaller figure is a halving for married taxpayers filing separately, not the joint amount halved. The excess carries forward under § 1212(b)(1).*
+
+**7. Rafael buys common shares and holds them for 50 days within the 121-day period surrounding the ex-dividend date, receiving a dividend during that time. Is the dividend a qualified dividend?**
+(A) Yes, because he held the shares more than 45 days (B) No, because the shares must be held more than 60 days within the 121-day period (C) No, because the shares must be held more than 90 days within a 181-day period (D) Yes, because any dividend on common stock is qualified regardless of holding period
+*Answer: B. IRC § 1(h)(11)(B)(iii)(I) applies the § 246(c) holding period by substituting 60 days for 45 days and a 121-day period for the 91-day period; the 90-day and 181-day rule in § 246(c)(2) applies only to preference dividends attributable to periods aggregating more than 366 days.*
+
+**8. Lena opens a regulated futures contract that is a section 1256 contract on 1 October 2026 and still holds it at year end. How is it treated on her 2026 return?**
+(A) No gain or loss until she closes the position (B) Treated as sold at fair market value on the last business day, with gain or loss 40 percent short-term and 60 percent long-term (C) Treated as sold at year end, with gain or loss entirely short-term because held three months (D) Treated as sold at year end, with gain or loss 60 percent short-term and 40 percent long-term
+*Answer: B. IRC § 1256(a)(1), (3): each section 1256 contract held at year end is treated as sold at fair market value on the last business day, and the gain or loss is split 40 percent short-term and 60 percent long-term however long the contract was held.*
