@@ -304,3 +304,15 @@ qualified dividend income.*
 against each ex-dividend date, and the broker cannot always see whether a disposition broke it. The
 reported figure is a starting point; where the client sold within the window the qualified amount must
 be reduced on the return.*
+
+**5. Under a dividend reinvestment plan, Lidia buys 50 shares at $18 each on the payment date, when the market price is $20. She has:**
+(A) No income, and a basis of $900 (B) $100 of income, and a basis of $1,000 (C) $100 of income, and a basis of $900 (D) No income, and a basis of $1,000
+*Answer: B. IRC § 305(b)(1) brings a distribution payable at the election of a shareholder in stock or in property within § 301, so the $100 discount is income, and Publication 550 gives basis at the full fair market value of $1,000 — recording it at cost would tax the same $100 again on sale.*
+
+**6. A single taxpayer has $30,000 of net investment income, all dividends, and modified adjusted gross income that exceeds the § 1411 threshold by $60,000. The amount subject to the net investment income tax is:**
+(A) $30,000 (B) $60,000 (C) $90,000 (D) Nothing
+*Answer: A. IRC § 1411(a)(1), (b) imposes the tax on the lesser of net investment income or the excess of modified adjusted gross income over an unindexed threshold; the excess is $60,000, so the $30,000 of net investment income is the smaller figure and is the base.*
+
+**7. A corporation with $40,000 of accumulated earnings and profits distributes $25,000 to its shareholders, and its board resolution describes the payment as a return of capital. For tax purposes the distribution is:**
+(A) A return of capital, as the resolution states (B) A dividend, because every distribution is presumed made out of earnings and profits to the extent of them (C) Capital gain (D) A dividend only for the portion above the shareholders' basis
+*Answer: B. IRC § 316(a) provides that, except as otherwise provided, every distribution is made out of earnings and profits to the extent of them and from the most recently accumulated; the label does not displace the presumption.*

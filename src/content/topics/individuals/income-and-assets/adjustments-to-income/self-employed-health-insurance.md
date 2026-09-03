@@ -269,3 +269,15 @@ end of the taxable year, with no dependency requirement.*
 *Answer: Through IRC § 162(l)(5)(A), which applies the subsection to an individual treated as a partner
 under § 1372(a) and treats their wages from the corporation as earned income — so the premiums must be
 included in those wages.*
+
+**6. Bettina runs two sole proprietorships: a consultancy earning $50,000 and a bakery that shows a loss. Her health policy is established with respect to the bakery, and she pays $7,000 of premiums. Her § 162(l) deduction is:**
+(A) $7,000, because her total self-employment earnings exceed the premium (B) Nothing, because the business with respect to which the plan is established has no earned income (C) $7,000, reduced by the bakery's loss (D) Half of $7,000
+*Answer: B. IRC § 162(l)(2)(A) caps the deduction at earned income derived from the trade or business with respect to which the plan is established; the consultancy's profit is irrelevant.*
+
+**7. Where does a sole proprietor take the self-employed health insurance deduction?**
+(A) On Schedule A, subject to the § 213 percentage floor (B) In computing adjusted gross income, whether or not the taxpayer itemizes (C) On Schedule C, reducing net profit and self-employment tax (D) As a nonrefundable credit
+*Answer: B. IRC § 62(a)(1): the deduction is attributable to a trade or business not consisting of the performance of services as an employee, so it is allowed in computing adjusted gross income — above the line, but kept out of net earnings from self-employment by § 162(l)(4).*
+
+**8. Hugo's wife is eligible for her employer's subsidised medical plan, which has no long-term care component, and declines it. Hugo, self-employed, pays his own medical premiums and a premium for a qualified long-term care insurance contract. For those months:**
+(A) Both premiums are denied (B) The medical premiums are denied, but the eligible long-term care premiums remain deductible because the two tests are applied separately (C) Neither premium is denied, because the plan was declined (D) The long-term care premium is denied and the medical premiums allowed
+*Answer: B. IRC § 162(l)(2)(B)(i), (ii) applies the other-coverage test separately for plans that include qualified long-term care coverage and plans that do not, so eligibility for a medical-only plan denies the medical premiums for the month without reaching the long-term care premiums, which are limited instead by § 162(l)(2)(C).*

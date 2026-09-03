@@ -295,3 +295,15 @@ all compensation deferred under the plan for this and preceding years to the ext
 substantial risk of forfeiture, and § 409A(a)(1)(B) adds interest at the underpayment rate plus one
 percentage point from the year of first deferral together with a further amount — all payable by the
 executive.*
+
+**5. A contractor and client dispute the amount due on a finished job. By agreement the client pays the disputed sum into an escrow held by a title company, to be released only when an arbitrator rules. The ruling comes the following year. The cash-basis contractor reports the income:**
+(A) In the year the funds were escrowed, because they were set apart for him (B) In the year the arbitrator rules and the funds are released (C) In the year the work was completed (D) Half in each year
+*Answer: B. Reg. § 1.451-2(a) excludes income whose receipt is subject to substantial limitations or restrictions, and a bona fide dispute administered by a neutral third party is one — the contractor cannot draw on the funds by demand or by notice until the restriction lifts.*
+
+**6. Interest coupons on a bond held by a cash-basis investor matured and became payable on 1 December 2026. She did not present them until February 2027. The interest is income in:**
+(A) 2027, when the coupons were presented (B) 2026, unless it is shown there were no funds available for payment that year (C) The year the bond itself is redeemed (D) 2026 only if the issuer sent a notice
+*Answer: B. Reg. § 1.451-2(b): matured and payable but uncashed interest coupons are constructively received in the year they mature, unless it is shown that there were no funds available for payment during that year.*
+
+**7. An accrual-method firm asks whether the constructive receipt doctrine decides which year a December-billed fee, collected in January, is included. It does not, because:**
+(A) The doctrine applies only to interest and dividends (B) Constructive receipt is a cash-method doctrine, and an accrual taxpayer's timing is governed by the all events test in § 451 (C) Accrual taxpayers report income only when cash is collected (D) The doctrine applies only where a cheque has been received
+*Answer: B. Constructive receipt governs when a cash-basis taxpayer has received income; an accrual taxpayer's timing is governed by the all events test in IRC § 451(b) instead, so the two methods answer the timing question differently.*

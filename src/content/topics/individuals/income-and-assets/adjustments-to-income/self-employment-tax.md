@@ -272,3 +272,15 @@ self-employment tax?
 
 *Answer: No. IRC § 1402(a)(3)(C) excludes gain from the disposition of property that is neither inventory
 nor held primarily for sale to customers in the ordinary course of the trade or business.*
+
+**6. Tariq is a limited partner. For 2026 his distributive share of partnership income is $30,000 and he also receives a $12,000 guaranteed payment for services he actually rendered. His net earnings from self-employment from the partnership are:**
+(A) $42,000 (B) $30,000 (C) $12,000 (D) Nothing
+*Answer: C. IRC § 1402(a)(13) excludes the distributive share of a limited partner as such, other than guaranteed payments under § 707(c) for services actually rendered to the extent they are remuneration for those services — so only the $12,000 is in.*
+
+**7. Zoe is single. Her wages taken into account for FICA fall $50,000 short of the single-filer threshold for the additional hospital insurance tax, and after the base reduction she has $80,000 of self-employment income. The additional 0.9 percent tax applies to:**
+(A) None of it, because her self-employment income alone is below the threshold (B) $30,000 (C) $80,000 (D) $50,000
+*Answer: B. IRC § 1401(b)(2)(B) reduces the threshold, but not below zero, by wages taken into account for the corresponding FICA tax, so only $50,000 of it remains for her self-employment income; $30,000 of the $80,000 sits above that and bears the additional tax, with no § 164(f) deduction for any part of it.*
+
+**8. A part-time city council member receives $18,000 for the functions of that public office and has no other self-employment activity. Self-employment tax is owed on:**
+(A) The whole $18,000 (B) Nothing, because the functions of a public office are not a trade or business for this purpose (C) Only the hospital insurance components (D) The amount above the statutory floor
+*Answer: B. IRC § 1402(c)(1) provides that a trade or business does not include the performance of the functions of a public office, other than certain State fee-basis positions, so the pay is outside net earnings from self-employment.*

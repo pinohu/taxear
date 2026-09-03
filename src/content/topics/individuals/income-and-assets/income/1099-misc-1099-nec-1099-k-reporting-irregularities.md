@@ -281,3 +281,15 @@ where the failure is corrected on or before the 30th day after the required fili
 but still reduced amount where corrected after that but on or before 1 August. Separately, IRC § 6724(a)
 imposes no penalty at all where the failure is shown to be due to reasonable cause and not to wilful
 neglect. The § 6722 payee statement penalty runs in parallel and is reduced on the same timetable.*
+
+**5. In 2026 a distributor sells $3,000 of consumer products to Mei, who resells them from her home rather than a permanent retail establishment. The amount is above the 2026 § 6041(a) general threshold but below the direct sales figure stated in § 6041A(b). Must the distributor file an information return on those sales?**
+(A) Yes, because the sales exceed the § 6041(a) general threshold, which § 6041A now tracks (B) No, because the direct sales threshold in § 6041A(b) is a separately stated figure that did not change, and the sales are below it (C) Yes, because all consumer product sales for resale are reportable (D) No, because direct sales are reported by the buyer
+*Answer: B. IRC § 6041A(b)(1)(A), (B) sets its own figure for direct sales, stated in the section itself and not tied to § 6041(a); only § 6041A(a)(2), for remuneration for services, was rewritten to track the general threshold.*
+
+**6. A platform reports $26,000 on Dalia's Form 1099-K. Her records show $3,000 of platform fees and $1,500 of customer refunds were taken out before the money reached her. On Schedule C she should report gross receipts of:**
+(A) $21,500 (B) $26,000, deducting the fees as an expense and the refunds as returns and allowances (C) $23,000 (D) Nothing until the platform issues a corrected form
+*Answer: B. IRC § 6050W reports the gross amount of reportable payment transactions before fees, refunds and chargebacks, so the form is not wrong; reporting the lower net figure as gross receipts produces a matching notice on a return that is arithmetically correct.*
+
+**7. A contractor engaged by a business refuses to furnish a taxpayer identification number. The business:**
+(A) May withhold payment until a number is furnished (B) Must withhold on the payments at the statutory backup withholding rate (C) Files the information return without a number and has no further duty (D) Is excused from filing an information return
+*Answer: B. IRC § 3406(a)(1): where a payee fails to furnish a taxpayer identification number, the payor must withhold at the statutory rate — backup withholding is the payer's remedy.*

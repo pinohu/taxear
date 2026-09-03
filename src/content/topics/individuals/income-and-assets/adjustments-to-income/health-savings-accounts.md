@@ -284,3 +284,15 @@ divided equally unless they agree otherwise — though each may add their own ca
 *Answer: Not generally. IRC § 223(d)(2)(B) provides that the definition of qualified medical expenses does
 not apply to any payment for insurance, subject only to the narrow categories listed elsewhere in that
 paragraph.*
+
+**6. Priyanka, aged 67, retires in October 2026 and claims Social Security; her Medicare Part A entitlement is backdated to April. She had self-only coverage under a qualifying plan all year and contributed the full annual amount in January. Her monthly limitation is zero from:**
+(A) October, the month she enrolled (B) April, the first month of entitlement (C) January 2026, because she was already past 65 (D) January 2027, the year after enrolment
+*Answer: B. IRC § 223(b)(7) makes the monthly limitation zero for the first month the individual is entitled to Medicare benefits and for each month thereafter — entitlement, not age or the enrolment date, controls, so nine twelfths of her January contribution is an excess.*
+
+**7. In March 2027 Ola discovers a 2026 excess contribution. He extends his 2026 return to 15 October 2027 and withdraws the excess, with the net income attributable to it, in September 2027. The result is:**
+(A) The excess is included in gross income and the tax is increased by 20 percent of it (B) The excess escapes the inclusion rule, because the withdrawal with its net income was made by the due date of the return including extensions (C) The excess escapes only if withdrawn by the unextended due date (D) The excess escapes inclusion but the 10 percent additional tax still applies
+*Answer: B. IRC § 223(f)(3)(A): an excess contribution withdrawn with the net income attributable to it on or before the due date of the return, including extensions, escapes the inclusion rule.*
+
+**8. Mira, aged 22, is claimed as a dependent on her parents' return. She has her own qualifying high deductible health plan through her job and contributes $2,000 to an HSA in her own name. Her deduction is:**
+(A) $2,000, because she has her own qualifying coverage (B) $2,000 prorated for the months she was covered (C) Nothing, because another taxpayer is allowed a § 151 deduction for her (D) Nothing, unless her parents also contribute to the account
+*Answer: C. IRC § 223(b)(6) allows no deduction to an individual for whom another taxpayer is allowed a § 151 deduction for a taxable year beginning in the same calendar year; her own coverage and eligibility do not matter.*

@@ -308,3 +308,15 @@ partnership reports no allocable W-2 wages. Does the wage limitation reduce the 
 amount through IRC § 199A(b)(1)(B) at a flat 20 percent, outside the § 199A(b)(2) per-business
 computation where the wage and property limitation lives. Qualified REIT dividends are treated the same
 way.*
+
+**6. Renata earns $95,000 of W-2 wages as a staff architect and has no other income; her taxable income is far below the threshold amount. Her § 199A deduction on those wages is:**
+(A) 20 percent of the wages, because she is below the threshold (B) 20 percent of the wages, because architecture is read out of the specified service list (C) Nothing, because performing services as an employee is excluded at every income level (D) Nothing, because an architect is a specified service trade
+*Answer: C. IRC § 199A(d)(1)(B) excludes the trade or business of performing services as an employee from the definition of a qualified trade or business, and unlike the specified service exclusion the threshold never rescues it — the architecture carve-out is irrelevant to wages.*
+
+**7. A single taxpayer's business is not a specified service trade or business. It produces $100,000 of qualified business income and pays $30,000 of W-2 wages, with no qualified property. Her taxable income is above the threshold and has used one fifth of the phase-in range. Her deduction for that business is:**
+(A) $20,000 (B) $19,000 (C) $16,000 (D) $15,000
+*Answer: B. IRC § 199A(b)(3)(B)(i)–(iii): 20 percent of QBI is $20,000, the wage figure is the greater of $15,000 or $7,500, so the excess amount is $5,000; one fifth of that, $1,000, comes off, leaving $19,000 — the ratio reduces the gap, not the deduction, so the cliff answer of $15,000 is wrong.*
+
+**8. Devika is single with $80,000 of qualified business income from a business in which she materially participates. Her taxable income is $70,000, of which $50,000 is net capital gain. Her § 199A deduction is:**
+(A) $16,000 (B) $14,000 (C) $6,000 (D) $4,000
+*Answer: D. IRC § 199A(a)(2) caps the deduction at 20 percent of taxable income over net capital gain — 20 percent of $20,000, or $4,000 — and that ceiling binds well below the $16,000 combined amount; net capital gain is already out of QBI and comes out of the ceiling a second time.*

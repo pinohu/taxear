@@ -274,3 +274,15 @@ beginning after calendar year 2029 — the annual 1 percent increases in clause 
 
 *Answer: The seller deducts the portion allocable to 30 September, under IRC § 164(d)(1)(A), which runs to
 the day before the sale; the purchaser deducts the portion allocable to 1 October under § 164(d)(1)(B).*
+
+**6. Beatrix files jointly for 2026 with modified adjusted gross income $20,000 above the threshold amount for the applicable limitation amount. Her cap on the capped pile of State and local taxes is:**
+(A) Reduced by $6,000, being 30 percent of the excess (B) Reduced by $20,000, dollar for dollar (C) Unchanged, because the phasedown applies only to years beginning after 2029 (D) Halved
+*Answer: A. IRC § 164(b)(7)(B)(i) reduces the applicable limitation amount by 30 percent of the excess of modified adjusted gross income over the threshold amount for a taxable year beginning before 1 January 2030 — so $20,000 of excess costs $6,000 of cap.*
+
+**7. A sole proprietor pays a State real estate transfer tax when buying a warehouse for the business. Under § 164 the tax is:**
+(A) Deducted in the year paid as a tax paid in carrying on a trade or business (B) Treated as part of the cost of the property acquired (C) Added to the capped pile with the proprietor's home property taxes (D) Nondeductible as a personal expense
+*Answer: B. IRC § 164(a), flush text: a tax paid in connection with an acquisition or disposition of property is treated as part of the cost of the property acquired, or as a reduction in the amount realised on a disposition, rather than deducted in the year paid.*
+
+**8. In 2026 Rosa, a single individual below the phasedown threshold, pays $9,000 of foreign income tax and $38,000 of State income tax, and deducts the foreign tax rather than crediting it. For the applicable limitation amount:**
+(A) Both amounts go into the capped pile (B) The foreign income tax is excluded from § 164 entirely, like a foreign real property tax (C) Only the $38,000 is measured against the cap; the foreign income tax sits outside it (D) The foreign income tax is deductible only if she elects general sales taxes instead
+*Answer: C. The sentence following IRC § 164(b)(6)(B) provides that the limitation does not apply to foreign taxes described in § 164(a)(3), so foreign income taxes are deductible outside the cap — only foreign real property taxes are removed altogether, by § 164(b)(6)(A).*
