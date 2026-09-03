@@ -119,7 +119,7 @@ The examinable core is the comparison. CAP is administrative, broad, fast, open 
 
 **3. Which is true of Form 9423?**
 (A) It is the only acceptable way to request a CAP appeal (B) It is recommended for field Collection cases, but any written request is honoured (C) It must be filed before the managerial conference (D) It gives the taxpayer Tax Court rights
-*Answer: B.*
+*Answer: B. Form 9423 is recommended for field Collection cases, but IRM 8.24.1.3.5 honors any written request for a CAP hearing.*
 
 **4. On which action does collection NOT resume while a CAP appeal is pending?**
 (A) A seizure (B) A proposed levy (C) A rejected or terminated installment agreement (D) A notice of federal tax lien filing

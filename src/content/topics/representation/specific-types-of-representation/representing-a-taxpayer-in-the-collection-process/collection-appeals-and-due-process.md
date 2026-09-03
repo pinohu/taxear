@@ -120,7 +120,7 @@ Learn the two timelines precisely: 30 days before the first levy for a levy noti
 
 **1. A notice of federal tax lien is filed on 1 June. The taxpayer's 30-day period to request a CDP hearing begins:**
 (A) 1 June (B) The day after the five-business-day notification period ends (C) When the taxpayer actually receives the notice (D) 30 days after filing
-*Answer: B. IRC § 6320(a)(3)(B).*
+*Answer: B. IRC § 6320(a)(3)(B) starts the 30-day request period the day after the five-business-day notice window ends, not on the filing date itself.*
 
 **2. Which may a taxpayer NOT raise at a CDP hearing where a notice of deficiency was received and not petitioned?**
 (A) An offer in compromise as a collection alternative (B) A spousal defence (C) The existence or amount of the underlying liability (D) Whether the levy is appropriate
@@ -128,7 +128,7 @@ Learn the two timelines precisely: 30 days before the first levy for a levy noti
 
 **3. Following a CDP determination, the taxpayer may petition the Tax Court within:**
 (A) 90 days (B) 30 days (C) 60 days (D) Six months
-*Answer: B. IRC § 6330(d)(1).*
+*Answer: B. IRC § 6330(d)(1) gives the person 30 days from a CDP determination to petition the Tax Court.*
 
 **4. A request for a CDP hearing filed after the statutory period generally results in:**
 (A) No hearing at all (B) An equivalent hearing, with no determination reviewable by the Tax Court (C) A CDP hearing, if good cause is shown (D) An automatic referral to the Collection Appeals Program
