@@ -300,3 +300,15 @@ or a § 170(c)(1) or (2) organisation pursuant to a designation made by the reci
 money and then donating it fails that condition, however quickly it is done. The award is included in
 gross income under § 74(a), and the donation is a charitable contribution deduction subject to its own
 limits.*
+
+**5. Rafael settles a claim against a former employer for $120,000, allocated $30,000 to a back injury suffered at work, $70,000 to emotional distress arising from how he was treated, and $20,000 to punitive damages. How much is includible?**
+(A) Nothing, because the claim arose from a physical injury (B) $20,000, the punitive damages only (C) $90,000, everything but the physical injury damages (D) $120,000, because settlement proceeds are compensation
+*Answer: C. IRC § 104(a)(2) excludes damages other than punitive received on account of personal physical injuries or physical sickness; emotional distress arising from treatment rather than from the injury is not a physical injury, and punitive damages are expressly carved out.*
+
+**6. Under a divorce instrument executed in 2021, Dana pays her former spouse $2,000 a month. How are the payments treated in 2026?**
+(A) Includible by the recipient and deductible by Dana (B) Neither includible by the recipient nor deductible by Dana (C) Includible by the recipient but not deductible by Dana (D) Deductible by Dana but excluded by the recipient
+*Answer: B. Pub. L. 115-97 § 11051 repealed both IRC § 71 and IRC § 215 for an instrument executed after 2018, so neither side has anything to report; only a pre-2019 instrument not modified to adopt the new rule keeps the old treatment.*
+
+**7. Which of the following receipts is excluded from gross income?**
+(A) Unemployment compensation paid without withholding (B) A qualified disaster relief payment (C) Punitive damages awarded alongside a physical injury claim (D) A graduate stipend conditioned on research duties
+*Answer: B. IRC § 139(a) expressly excludes qualified disaster relief payments, while IRC § 85(a) expressly includes unemployment compensation, § 104(a)(2) excludes only damages other than punitive, and § 117(c)(1) includes any portion paid for research.*

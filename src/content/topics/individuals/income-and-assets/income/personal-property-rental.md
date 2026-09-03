@@ -286,3 +286,15 @@ wrong with it?
 miscellaneous itemized deductions is permanent rather than expiring. And § 70110(b)(2) redesignated the
 suspension as IRC § 67(h), while a new § 67(g) now defines educator expenses for the purposes of
 § 67(b)(13). The citation and the conclusion are each out of date.*
+
+**5. Sofia lets a warehouse to a fabrication business and, under the same lease, lets the tenant a forklift kept on the premises. Is the forklift rent subject to self-employment tax?**
+(A) Yes, because personal property rental is always inside net earnings from self-employment (B) No, because personal property leased with the real estate is inside the rental exclusion (C) No, but only if the forklift is worth less than the warehouse (D) Yes, on the forklift portion of the rent only
+*Answer: B. IRC § 1402(a)(1) excludes from net earnings from self-employment rentals from real estate and from personal property leased with the real estate; the exclusion is lost only where the personal property is let on its own.*
+
+**6. An equipment rental activity has shown gross income exceeding deductions in enough recent years to meet the profit presumption. What is the effect?**
+(A) The activity is conclusively treated as engaged in for profit (B) The activity is presumed to be for profit, but the Secretary may establish otherwise (C) Deductions are allowed only up to the gross income of the activity (D) The activity is treated as a trade or business subject to self-employment tax
+*Answer: B. IRC § 183(d): an activity meeting the presumption is presumed to be engaged in for profit unless the Secretary establishes otherwise; it is a presumption, not a definition, and failing it does not by itself make the activity a hobby.*
+
+**7. A client lets his boat out a few weekends a year without any profit motive. Because the expenses are not deductible, he proposes to leave the rent off the return entirely. Is that right?**
+(A) Right, because hobby income and hobby expenses net to zero (B) Wrong, the rent is gross income in every case and characterisation decides only deductions and employment tax (C) Right, if the rent is below the information reporting threshold (D) Wrong, but he may report the rent net of the expenses
+*Answer: B. IRC § 61(a)(5) enumerates rents in gross income, and nothing in the business or for-profit characterisation changes inclusion; the § 183(b)(2) deductions are disallowed by IRC § 67(h), so the income is taxed with nothing against it.*

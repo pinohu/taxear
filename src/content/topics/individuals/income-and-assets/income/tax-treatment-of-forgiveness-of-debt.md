@@ -303,3 +303,15 @@ at a dollar per dollar, but § 108(b)(3)(B) applies 33⅓ cents per dollar to th
 subparagraphs (B), (C) and (G) of § 108(b)(2) — the general business credit, minimum tax credit and
 foreign tax credit carryovers. The order in § 108(b)(2) still governs which attributes are reached
 first, net operating losses coming before the credit.*
+
+**5. A rental property with an adjusted basis of $200,000 secures a recourse mortgage of $260,000. The lender forecloses when the property is worth $230,000 and forgives the $30,000 shortfall. What are the consequences?**
+(A) $60,000 of gain and no discharge income (B) $30,000 of gain and $30,000 of discharge of indebtedness income (C) $30,000 of discharge income only, because the property was lost (D) $60,000 of discharge of indebtedness income
+*Answer: B. Reg. § 1.1001-2(a)(2): for a recourse liability the amount realized excludes amounts that are discharge income, so gain is measured at the $230,000 fair market value against basis, and the forgiven $30,000 is separately income under IRC § 61(a)(11).*
+
+**6. A farmer's qualified farm indebtedness is discharged in a title 11 case at a time when he is also insolvent. Which exclusion applies?**
+(A) The insolvency exclusion, to the extent of the insolvency (B) The title 11 exclusion, which displaces the others (C) Whichever the taxpayer elects on the return (D) The qualified farm indebtedness exclusion, as the most specific
+*Answer: B. IRC § 108(a)(2)(A) provides that the title 11 exclusion displaces the other four, and § 108(a)(2)(B) that insolvency displaces the farm and real property business exclusions; the order of precedence is fixed by statute, not chosen.*
+
+**7. A homeowner's lender discharges $45,000 of qualified principal residence indebtedness in March 2026 under a written modification agreement signed in November 2025. Is the discharge excluded?**
+(A) No, the exclusion has ended for every discharge after 2025 (B) Yes, because the discharge was under an arrangement entered into and evidenced in writing before 1 January 2026 (C) Yes, because the principal residence exclusion was made permanent (D) No, unless the homeowner is insolvent
+*Answer: B. IRC § 108(a)(1)(E) reaches a discharge before 1 January 2026 or one under an arrangement entered into and evidenced in writing before that date, so the November 2025 agreement brings a 2026 discharge within it.*

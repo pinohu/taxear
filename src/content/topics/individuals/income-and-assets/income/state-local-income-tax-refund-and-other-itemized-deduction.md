@@ -279,3 +279,15 @@ limitation amount for that year — which under IRC § 164(b)(7) now differs fro
 **any amount deducted in any prior taxable year** to the extent that amount did not reduce tax. A
 reimbursed medical expense, a recovered bad debt, or a refunded charitable contribution is analysed the
 same way, by asking what the earlier deduction actually saved.*
+
+**5. A preparer receives a client's Form 1099-G showing a $4,200 state income tax refund for a year in which the client itemized. What is the correct procedure?**
+(A) Include $4,200, because the form fixes the amount (B) File an amended return for the earlier year reducing the deduction (C) Rework the earlier year's tax with and without the refunded deduction and include the difference on the current return (D) Exclude the refund, because state tax refunds are not income
+*Answer: C. IRC § 111(a) measures the includible amount by how much the earlier deduction reduced tax, so the prior year is recomputed twice on a worksheet, no amended return is filed, and the difference is reported on the current return.*
+
+**6. Which of the following taxes is outside the state and local tax limitation?**
+(A) State income tax withheld from wages (B) Real property tax on a rental property held in a § 212 activity (C) Personal property tax on a family car (D) State sales tax elected under § 164(b)(5) in place of income tax
+*Answer: B. IRC § 164(b)(6) does not reach taxes under § 164(a)(1) and (2) paid or accrued in carrying on a trade or business or a § 212 activity, nor foreign taxes under § 164(a)(3); the other three are inside the aggregate it caps.*
+
+**7. A taxpayer's 2026 modified adjusted gross income is far above the phasedown threshold. What is her applicable limitation amount?**
+(A) Zero, because the phasedown eliminates the deduction for high earners (B) Reduced, but never below the old ten-thousand-dollar figure (C) Unchanged, because the phasedown applies only to married taxpayers filing separately (D) Halved
+*Answer: B. IRC § 164(b)(7)(B)(i) reduces the applicable limitation amount by a percentage of the excess over the threshold, but § 164(b)(7)(B)(iii) provides that the reduction may never bring it below the reversion figure.*

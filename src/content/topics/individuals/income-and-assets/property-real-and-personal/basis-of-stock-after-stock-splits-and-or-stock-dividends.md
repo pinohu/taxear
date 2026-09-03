@@ -284,3 +284,15 @@ and the holding period of the shares sold.*
 *Answer: No. Treas. Reg. § 1.1012-1(c)(8) requires the identification no later than the earlier of the
 settlement date or the Rule 15c6-1 settlement time. A standing instruction in place before the sale would
 have qualified; a later designation does not.*
+
+**6. Sasha holds common stock with a basis of 40,000 dollars and receives a preferred stock dividend excluded under § 305(a). On the record date the common is worth 130,000 dollars and the preferred 30,000; on the distribution date the common is worth 120,000 and the preferred 40,000. What basis attaches to the preferred?**
+(A) 7,500 dollars (B) 10,000 dollars (C) 40,000 dollars (D) Zero
+*Answer: B. IRC § 307(a) allocates the old basis between old and new stock, and Treas. Reg. § 1.307-1(a) fixes the allocation in proportion to fair market values on the date of distribution, not the record date, so one quarter of 40,000 dollars goes to the preferred.*
+
+**7. Rights distributed in a § 305(a) transaction are worth 20 percent of the old stock. The shareholder neither exercises nor sells them, and they lapse. What happens to the basis of the old stock?**
+(A) Part is allocated to the rights under § 307(a) and lost as a capital loss on the lapse (B) None is allocated, because the allocation rule applies to rights only if they are exercised or sold (C) The rights take a zero basis under § 307(b)(1) and the old stock is unchanged (D) Part is allocated to the rights and carried forward to future distributions
+*Answer: B. Treas. Reg. § 1.307-1(a), closing sentence: the general allocation rule applies to rights only if they are exercised or sold, so rights that lapse never engage it and the old stock keeps its full basis; the 15 percent rule in § 307(b)(1) is not reached because the rights are above it.*
+
+**8. A taxpayer has bought shares of one operating company directly through her broker over several years, outside any dividend reinvestment plan. May she use the average basis method when she sells some of them?**
+(A) Yes, average basis is available for any identical shares (B) No, average basis is confined to regulated investment company shares and post-2010 dividend reinvestment plan shares left with a custodian (C) Yes, if she elects it on the return for the year of sale (D) No, because the average basis method was withdrawn when broker basis reporting began
+*Answer: B. Treas. Reg. § 1.1012-1(e)(1)(i) allows average basis only for shares in a regulated investment company, or shares acquired after 31 December 2010 in connection with a dividend reinvestment plan, held with a custodian or agent; otherwise the lot rules of § 1.1012-1(c) apply.*

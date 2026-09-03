@@ -297,3 +297,15 @@ dividends, annuities or royalties not derived in the ordinary course of a trade 
 into account in determining income or loss from an activity, together with the expenses and interest
 allocable to it. Portfolio income is therefore neither passive income nor available to absorb passive
 losses.*
+
+**5. Deshawn actively participates in a rental in which he holds a 100 percent interest. The rental loses $30,000 in 2026 and his adjusted gross income is $120,000. How much of the loss offsets his other income?**
+(A) $30,000 (B) $25,000 (C) $15,000 (D) $10,000
+*Answer: C. IRC § 469(i)(3)(A) reduces the $25,000 ceiling by 50 cents for every dollar of adjusted gross income over $100,000, so $20,000 of excess income cuts the allowance to $15,000; the remaining $15,000 of loss is suspended and carried forward under § 469(b).*
+
+**6. On a joint return, one spouse spends 500 hours and the other 400 hours in real property trades or businesses in which they materially participate, and neither has other work. Together they exceed the hours test. Do they qualify as real estate professionals?**
+(A) Yes, because spouses combine their hours on a joint return (B) No, because one spouse must satisfy both § 469(c)(7) tests alone (C) Yes, because more than half of the household's personal services are in real property trades (D) No, because real estate professional status requires the taxpayer to hold a broker's licence
+*Answer: B. IRC § 469(c)(7)(B), final sentence: on a joint return one spouse must meet both real estate professional tests alone, and hours may not be combined for that purpose, though they may be for material participation itself.*
+
+**7. A taxpayer holds a working interest in an oil well through a general partnership that does not limit his liability. He does no work on it and his share of the loss is $12,000. Is the loss passive?**
+(A) Yes, because he does not materially participate (B) No, because a working interest held through an entity that does not limit liability is outside the passive activity definition (C) Yes, because a mineral interest is treated as rental activity (D) No, but only if he meets one of the seven material participation tests
+*Answer: B. IRC § 469(c)(3)(A) expressly excludes from the definition of a passive activity a working interest in oil or gas held directly or through an entity that does not limit liability, so material participation is not required.*

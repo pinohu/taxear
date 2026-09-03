@@ -289,3 +289,15 @@ mineral interest in which they do nothing. Can the royalties absorb the losses?
 derived in the ordinary course of a trade or business, so the royalties are portfolio income rather than
 passive income. They are taxable, but they cannot free the suspended losses, which continue to wait for
 passive income or a qualifying disposition.*
+
+**5. Odile inherited her father's textbook rights and receives $9,000 of royalties a year, paying a literary agent $900 to manage them. She does not itemize. How is the commission treated?**
+(A) As an itemized deduction on Schedule A, so she gets nothing (B) Not deductible, because miscellaneous itemized deductions are suspended (C) Deductible above the line as attributable to property held for the production of royalties (D) Deductible only if she reports the royalties on Schedule C
+*Answer: C. IRC § 62(a)(4) places deductions attributable to property held for the production of rents or royalties above the line, so the expense reduces adjusted gross income even though the activity is not a trade or business.*
+
+**6. Youssef licenses his patent to a manufacturer for the North American market only, keeping the rights for Europe and Asia, in return for a fixed amount per unit sold. What is the character of the payments?**
+(A) Long-term capital gain, because the payments are contingent on use (B) Ordinary royalty income, because not all substantial rights were transferred (C) Long-term capital gain on the North American share of the rights (D) Capital gain if the patent was held for more than one year
+*Answer: B. IRC § 1235(a) requires a transfer of all substantial rights to the patent, or an undivided interest including a part of all such rights; a licence limited to one territory retains rights and so fails the test however the payments are calculated.*
+
+**7. A royalty owner computes cost depletion of $4,000 and percentage depletion of $7,000 on a mineral property. The § 613(a) taxable-income ceiling for the property limits percentage depletion to $6,000. What is the depletion deduction?**
+(A) $4,000 (B) $6,000 (C) $7,000 (D) $11,000
+*Answer: B. Cost and percentage depletion are compared and the greater taken, subject to the IRC § 613(a) ceiling on percentage depletion measured against taxable income from the property; the capped $6,000 still exceeds the $4,000 of cost depletion.*

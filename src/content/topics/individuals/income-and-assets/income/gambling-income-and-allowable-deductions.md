@@ -294,3 +294,15 @@ otherwise allowable under this chapter incurred in carrying on any wagering tran
 incurred in carrying on the activity are therefore inside the limitation and are subject to both
 ceilings. The rule applied only from 2018 to 2025 as originally enacted; Pub. L. 119-21 § 70114(a)
 removed the expiry.*
+
+**5. A taxpayer who takes the standard deduction wins $18,000 gambling online in 2026 and loses $17,000 over the same year, with a complete diary of every session. What does she report?**
+(A) $1,000 of net gambling income (B) $18,000 of income with no deduction for the losses (C) $18,000 of income and a $15,300 deduction, being 90 percent of the losses (D) Nothing, because losses of 90 percent or more of winnings are netted before inclusion
+*Answer: B. Topic no. 419: gambling losses are an itemized deduction available only to a taxpayer who itemizes, so the § 165(d) computation is never reached; the winnings are gross income in full under IRC § 61(a).*
+
+**6. A recreational player bets $5 on a slot machine in 2026 and wins $6,500, well above the Form W-2G reporting threshold and more than 300 times the wager. Is regular gambling withholding taken from the payout?**
+(A) Yes, because the proceeds exceed the withholding trigger and are at least 300 times the wager (B) No, regular gambling withholding never applies to slot machine winnings, though backup withholding can (C) No, because no Form W-2G issues for slot machine winnings (D) Yes, because every payment above the reporting threshold is subject to withholding
+*Answer: B. The Form W-2G instructions state that regular gambling withholding does not apply to bingo, keno or slot machine winnings, though backup withholding can; the IRC § 3402(q)(3) proceeds-and-ratio test governs other wagering, and reporting under IRC § 6041(a) is a separate question from withholding.*
+
+**7. A preparer tells a client who itemizes that gambling losses are miscellaneous itemized deductions and so are wholly disallowed for 2026 under the permanent suspension. Is the preparer right?**
+(A) Right, because every miscellaneous itemized deduction is suspended (B) Wrong, gambling losses are excluded from miscellaneous itemized deductions and remain an itemized deduction subject to the § 165(d) ceilings (C) Wrong, gambling losses are an above-the-line deduction (D) Right, unless the client is a professional gambler reporting on a business schedule
+*Answer: B. IRC § 67(b)(3) excludes the § 165(d) loss deduction from miscellaneous itemized deductions, so the § 67(h) suspension does not reach it; the losses are claimed on Schedule A subject to the 90 percent and gains ceilings.*

@@ -289,3 +289,15 @@ basis at sale?
 *Answer: Basis is reduced by the depreciation **allowable**, not by the nil amount allowed, under IRC
 § 1016(a)(2) and its closing text — computed under the straight line method where no method was adopted.
 The deduction is lost and the basis reduction still applies.*
+
+**6. A couple bought a house for 300,000 dollars, holding it as community property. One spouse dies when it is worth 900,000 dollars and her half is includible in her gross estate. What is the survivor's basis in the whole house?**
+(A) 300,000 dollars (B) 600,000 dollars (C) 900,000 dollars (D) 450,000 dollars
+*Answer: C. IRC § 1014(b)(6) treats the surviving spouse's own one-half share as also acquired from the decedent where at least half the community interest was includible, so the entire property takes a date-of-death basis rather than only the decedent's half.*
+
+**7. Eight months before her uncle's death, a niece gives him appreciated land with a basis of 30,000 dollars and a value of 500,000 dollars; his will leaves it back to her. What is her basis after his death?**
+(A) 500,000 dollars, the fair market value at death (B) 30,000 dollars, the decedent's adjusted basis immediately before death (C) 500,000 dollars, the fair market value at the date of the gift (D) Zero, because the gift is disregarded
+*Answer: B. IRC § 1014(e)(1): where appreciated property was acquired by the decedent by gift within the one-year period ending on the date of death and passes back to the donor or the donor's spouse, basis is the decedent's adjusted basis immediately before death.*
+
+**8. A donor with an adjusted basis of 50,000 dollars gives stock worth 80,000 dollars, the amount of the gift being 80,000 dollars, and pays 8,000 dollars of gift tax. What is the donee's basis for gain?**
+(A) 50,000 dollars (B) 53,000 dollars (C) 58,000 dollars (D) 80,000 dollars
+*Answer: B. IRC § 1015(d)(1)(A) adds the gift tax paid, capped at fair market value, but § 1015(d)(6)(A) limits the increase to the portion the net appreciation bears to the amount of the gift: 30,000 over 80,000 of 8,000 dollars is 3,000 dollars.*

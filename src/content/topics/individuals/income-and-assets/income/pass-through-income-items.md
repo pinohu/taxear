@@ -296,3 +296,15 @@ amounts?
 income any amount with respect to which a deduction is allowable under § 224(a) for the taxable year.
 The tips deduction may be taken, but those dollars are removed from the base on which the § 199A
 deduction is computed.*
+
+**5. A partner's Schedule K-1 shows $10,000 of long-term capital gain from the partnership's sale of an investment. How is it reported on the partner's return?**
+(A) As ordinary business income, because the partnership earned it (B) Separately, keeping its character as long-term capital gain in the partner's hands (C) As a qualified dividend under § 1(h)(11) (D) Not at all until the partnership distributes the cash
+*Answer: B. IRC § 702(a) requires each partner to take into account separately their distributive share of the partnership's short-term and long-term capital gains and losses, so the item keeps the treatment it would have had if the partner had earned it directly.*
+
+**6. Wei is a single owner of a specified service trade or business whose 2026 taxable income before the deduction is $37,500 above the threshold for her filing status. The phase-in range for a single filer is $75,000 wide. What fraction of her qualified business income deduction is phased out?**
+(A) 75 percent, using the former range width (B) 50 percent (C) 25 percent (D) All of it, because a specified service business gets no deduction above the threshold
+*Answer: B. IRC § 199A(b)(3)(B) and (d)(3), as widened by Pub. L. 119-21 § 70105(a), phase the deduction out on a straight line over a range now $75,000 wide for a single filer, so $37,500 of excess is halfway through the range.*
+
+**7. Devi's distributive share of loss from a rental partnership in which she does not participate is $40,000. Her basis is $25,000, her amount at risk is $18,000, and she has no passive income. How much does she deduct this year?**
+(A) $25,000, the basis limit (B) $18,000, the at-risk limit (C) Nothing, with $15,000 suspended for basis, $7,000 at risk and $18,000 as passive (D) $40,000, because at-risk and passive rules apply only to real estate held directly
+*Answer: C. IRC § 704(d)(1) stops the loss at basis, IRC § 465(a)(1) then allows only the amount at risk, and IRC § 469(a) suspends what survives as a passive loss with no passive income to absorb it; the three amounts sit in separate queues with separate releases.*

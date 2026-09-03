@@ -293,3 +293,15 @@ employer?
 month from wages, and IRC § 6053(a) requires reporting only of tips that are wages, so no statement is
 due for March. The tips remain compensation for services and so gross income under IRC § 61(a)(1), to
 be reported on the return.*
+
+**5. Devi is a full-time life insurance salesperson working principally for one company. Her wage statement has the statutory employee box marked, with social security and Medicare withheld but no income tax. How does she report?**
+(A) As an ordinary employee, with no deduction for her selling expenses (B) As self-employed, paying self-employment tax on the earnings (C) On a business schedule with her expenses deducted, but with no self-employment tax (D) As an independent contractor exempt from all employment taxes
+*Answer: C. IRC § 3121(d)(3)(B) makes a full-time life insurance salesperson an employee for social security and Medicare, so those taxes are collected at source, while the earnings are reported as a business with expenses deducted against them.*
+
+**6. Which is the last taxable year for which the qualified tips and qualified overtime deductions are available?**
+(A) 2026 (B) 2027 (C) 2028 (D) There is no end date; both are permanent
+*Answer: C. IRC §§ 224(h) and 225(g) terminate both deductions for taxable years beginning after 31 December 2028, so they are a four-year window from 2026 rather than a permanent change.*
+
+**7. A server's qualified tips of $20,000 are fully deductible under § 224. What is the effect on her adjusted gross income?**
+(A) The tips are excluded from gross income and never enter it (B) The tips are removed from adjusted gross income as an adjustment (C) The tips remain in gross income and adjusted gross income, and are removed by a deduction below the line (D) The tips are excluded for income tax but included for social security wages only
+*Answer: C. Neither § 224 nor § 225 is an exclusion: tips remain compensation for services under IRC § 61(a)(1), so they enter adjusted gross income and every threshold measured from it, including the modified adjusted gross income phase-out of the deduction itself.*
