@@ -261,3 +261,15 @@ IRC § 165(h)(2)(B), so the 10 percent floor does not apply and the losses are n
 *Answer: A determination by the Governor of the State, or the Mayor for the District of Columbia, **and by
 the Secretary**, that the event causes damage of sufficient severity and magnitude to warrant applying the
 section (IRC § 165(h)(5)(C)(i)).*
+
+**6. After applying the per-event floor to each of two federally declared disaster events, Nadia's personal casualty losses for 2026 total $20,000. She has no personal casualty gains, and her adjusted gross income is $150,000. What is her itemized deduction?**
+(A) $20,000 (B) $5,000 (C) $15,000 (D) Nothing, because losses from two events cannot be aggregated
+*Answer: B. IRC § 165(h)(2)(A) allows losses exceeding gains only to the extent the excess exceeds 10 percent of adjusted gross income, $15,000 here, so $5,000 remains. The per-event floor was applied first, as § 165(h)(3)(B) requires.*
+
+**7. Omar's insurance recovery on a boat destroyed in a declared hurricane exceeds his basis by $10,000, a personal casualty gain. In the same year an undeclared kitchen fire destroys $6,000 of uninsured contents. How is the fire loss treated?**
+(A) Not deductible at all, because no disaster was declared (B) Deductible in full without any floor, because casualty losses are always allowed against gains (C) Allowed, less the per-event floor, because the disaster requirement is disapplied to the extent of his personal casualty gains (D) Allowed only if he elects to take it in the preceding year
+*Answer: C. IRC § 165(h)(5)(B)(i) disapplies the disaster requirement to a non-disaster loss up to the amount of personal casualty gains, and clause (ii) then removes the gains so used from the § 165(h)(2)(A) computation for the disaster losses. The loss is below the gain, so all of it comes through after the per-event floor.*
+
+**8. Gwen's home is destroyed in a federally declared disaster in April 2026. Her adjusted gross income was $200,000 in 2025 and is $50,000 in 2026. If she elects under § 165(i)(1) to take the loss in 2025, how does the 10 percent floor apply?**
+(A) Against 2026 adjusted gross income, whichever year the loss is claimed in (B) Against 2025 adjusted gross income, so $20,000 of the loss is absorbed rather than $5,000 (C) The floor does not apply to an elected loss (D) The election is unavailable, because it is limited to State declared disasters
+*Answer: B. IRC § 165(i)(1) moves the loss to the year immediately preceding the disaster, and the § 165(h)(2)(A)(ii) floor is then measured against that preceding year's adjusted gross income. The election can produce a refund quickly, but it carries a real price when the prior year's income was higher.*

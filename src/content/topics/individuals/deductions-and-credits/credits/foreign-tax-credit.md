@@ -297,3 +297,15 @@ four years later. Is it too late?
 period expires, and § 6511(d)(3)(A) gives ten years from the due date of the return for the year the
 taxes were paid or accrued. Switching also triggers § 275(a)(4), so the deduction must be given up
 entirely for that year.*
+
+**6. Marcus bought shares in a foreign company five days before the ex-dividend date and sold them four days after it, receiving a dividend from which foreign tax was withheld. May he credit the withholding?**
+(A) Yes, in full, because withholding tax on a dividend is a tax in lieu of an income tax (B) Yes, but only under the § 904(j) election (C) No, because the stock was not held long enough under the § 901(k) holding period (D) No, but he may deduct it in the same year he credits his other foreign taxes
+*Answer: C. IRC § 901(k) denies the credit for withholding tax on a dividend where the stock was held for too short a period around the ex-dividend date; the rule exists to stop a taxpayer buying a foreign stock immediately before its ex-dividend date purely to acquire a creditable tax. That period is different from, and shorter than, the § 1(h)(11) qualified dividend holding period.*
+
+**7. Dana has US tax before credits of $20,000 and entire taxable income of $100,000. Her foreign source gross income is $30,000, against which $10,000 of deductions are properly allocable, and she paid $7,000 of foreign income tax on it, all general category. What is the § 904(a) limitation?**
+(A) $7,000 (B) $6,000 (C) $4,000 (D) $5,000
+*Answer: C. IRC § 904(a) uses foreign source taxable income in the numerator, not gross income: $20,000 multiplied by $20,000 over $100,000 is $4,000. Using the $30,000 gross figure gives $6,000 and overstates the credit; the $3,000 excess carries back one year and forward ten within the general basket under § 904(c).*
+
+**8. Ravi carried forward $900 of unused passive basket foreign tax credit from 2025. In 2026 his only foreign income is $3,000 of fund dividends on a Form 1099-DIV with $210 withheld, and he makes the § 904(j) election. What happens to the $900 carryforward in 2026?**
+(A) It is used in 2026 against his US tax, because the limitation does not apply (B) It cannot be used in 2026, because the election blocks carryovers into or out of that year (C) It converts to a deduction for 2026 (D) It is used in 2026, but only if he also files a Form 1116
+*Answer: B. IRC § 904(j)(1)(B) and (C) block any carryback or carryover into or out of an electing year. The election gives him the full $210 without a Form 1116, but nothing from another year can enter 2026, which is the price the election carries for a taxpayer with an excess.*

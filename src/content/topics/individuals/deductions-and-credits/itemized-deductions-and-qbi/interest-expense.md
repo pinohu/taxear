@@ -286,3 +286,15 @@ as qualified passenger vehicle loan interest unless the taxpayer includes it.*
 
 *Answer: It is treated as investment interest paid or accrued in the succeeding taxable year under IRC
 § 163(d)(2), carried forward indefinitely.*
+
+**6. Kai took out an 850,000-dollar mortgage in 2016 to buy his principal residence. In 2026 he borrows a further 250,000 dollars, secured by the same house, to add a second storey. Which interest is deductible as qualified residence interest?**
+(A) Interest on both loans in full (B) Interest on the 2016 loan only (C) Interest on the 2026 loan only, because it is the more recent acquisition debt (D) Neither, because the combined debt exceeds the cap
+*Answer: B. IRC § 163(h)(3)(F)(i)(IV) keeps debt incurred on or before 15 December 2017 on the higher pre-2018 cap, and the 2016 balance sits within it, but that grandfathered balance reduces the lower cap available for later borrowing and already exceeds it. The 2026 loan is acquisition indebtedness, yet no interest on it is deductible.*
+
+**7. Lila draws 60,000 dollars on a home equity line of credit secured by her principal residence and uses all of it to build an extension on that house. Is the interest deductible for 2026?**
+(A) No, because home equity indebtedness has been permanently disallowed (B) Yes, because the borrowing substantially improves the residence and is secured by it, making it acquisition indebtedness (C) Yes, but only as investment interest (D) No, because a line of credit is never acquisition indebtedness
+*Answer: B. IRC § 163(h)(3)(B)(i) defines acquisition indebtedness as debt incurred in acquiring, constructing or substantially improving a qualified residence and secured by it. Trace the borrowing, not the label: the same line used to buy a car would be personal interest, but used to improve the home it is deductible within the cap.*
+
+**8. Mateo pays 20,000 dollars of interest on a margin loan used to buy stock held for investment. His investment income is 8,000 dollars of interest and dividends plus 15,000 dollars of net capital gain. How much investment interest can he deduct for 2026?**
+(A) 8,000 dollars, with the balance lost (B) 20,000 dollars automatically, because total investment income exceeds the interest (C) 8,000 dollars without an election, or 20,000 dollars if he elects to treat enough of the net capital gain as investment income at ordinary rates (D) 23,000 dollars
+*Answer: C. IRC § 163(d)(1) limits the deduction to net investment income, with the excess carried forward under § 163(d)(2), and § 163(d)(4)(B) lets him elect to treat net capital gain as investment income, raising the ceiling at the cost of the preferential rate on the amount elected.*

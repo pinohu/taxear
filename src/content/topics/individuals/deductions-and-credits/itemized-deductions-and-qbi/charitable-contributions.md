@@ -267,3 +267,15 @@ or services in consideration, and (B)(iii) requires a good faith estimate of the
 *Answer: A qualified appraisal must be obtained, under IRC § 170(f)(11)(C), because the claim exceeds that
 subparagraph's threshold — but it need not be attached to the return, which subparagraph (D) requires only
 at a far higher figure. The readily valued property exception in (A)(ii)(I) does not reach artwork.*
+
+**6. Gideon has a contribution base of 300,000 dollars for 2026 and itemizes. He gives 100,000 dollars of cash to public charities and 4,000 dollars of appreciated stock to a private foundation. How is the 0.5 percent floor absorbed?**
+(A) The cash is reduced to 98,500 dollars and the stock is untouched (B) The stock is reduced to 2,500 dollars and the cash is untouched (C) The 1,500 dollars is split between the two gifts in proportion to their amounts (D) Each gift is reduced by 1,500 dollars
+*Answer: B. IRC § 170(b)(1)(I) absorbs the floor in a prescribed order that runs from the least favourably treated categories to the 60 percent cash category last, so the 1,500 dollars comes out of the private foundation gift before it touches the cash to public charities. Simply subtracting 0.5 percent from the total is wrong whenever there is more than one category of giving.*
+
+**7. Helene does not itemize for 2026. She gives 800 dollars in cash, by cheque, to a donor advised fund maintained by her community foundation, and keeps the cancelled cheque. What is her deduction under § 170(p)?**
+(A) 800 dollars (B) 800 dollars less the 0.5 percent floor (C) Nothing, because § 170(p) does not reach a gift to establish or maintain a donor advised fund (D) Nothing, because a non-itemizer has no charitable deduction in 2026
+*Answer: C. IRC § 170(p)(2) excludes a contribution for the establishment or maintenance of a donor advised fund, just as § 170(p)(1) excludes a § 509(a)(3) supporting organization. The gift is cash and properly recorded, but the donee is the wrong kind for this provision.*
+
+**8. Iris donates publicly traded shares with a claimed deduction of 30,000 dollars to a public charity in 2026. Which is correct about the appraisal requirements?**
+(A) She must obtain a qualified appraisal, because the deduction exceeds the middle threshold (B) She must obtain a qualified appraisal and attach it to the return (C) No qualified appraisal is required, because publicly traded securities are excepted (D) No documentation of any kind is required for a gift of securities
+*Answer: C. IRC § 170(f)(11)(A)(ii)(I) excepts cash, inventory, publicly traded securities and a qualified vehicle with the donee acknowledgment from the appraisal requirements, whatever the amount claimed. The § 170(f)(8) contemporaneous written acknowledgment is still needed.*

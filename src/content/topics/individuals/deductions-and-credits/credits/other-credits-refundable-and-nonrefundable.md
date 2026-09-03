@@ -280,3 +280,15 @@ under § 22?
 reduces it by nontaxable social security. Benefits of $22,000 exceed the initial amount several times
 over, so the section 22 amount is zero before the § 22(d) adjusted gross income reduction is even
 reached. The figures have not been indexed since 1983.*
+
+**6. Theo, 20, is a full-time university student with adjusted gross income of $15,000 from a part-time job, and nobody claims him as a dependent. He contributes $1,000 to a Roth IRA during 2026. What is his saver's credit?**
+(A) $500 (B) $200 (C) $100 (D) Nothing
+*Answer: D. IRC § 25B(c)(1)(B) excludes a full-time student from being an eligible individual, whatever their income. The Roth contribution would otherwise have counted as a qualified retirement savings contribution, but the eligibility test comes first.*
+
+**7. Bianca is single, 40, not a student and not a dependent, with adjusted gross income of $20,000 for 2026. She contributes $2,000 to a traditional IRA for 2026, but took a $1,500 distribution from an old 401(k) plan in 2025. What is her saver's credit?**
+(A) $1,000 (B) $250 (C) $750 (D) $1,500
+*Answer: B. IRC § 25B(d)(2) reduces qualified retirement savings contributions by distributions received during a testing period that runs from two years before the year through the due date of the return, so her base is $500, not $2,000. At her income she is in the 50 percent band, giving $250.*
+
+**8. Hugo took delivery of a new electric vehicle on 20 October 2025 that would otherwise have qualified for the § 30D clean vehicle credit. Which is correct?**
+(A) He has the credit, because the vehicle credits ran to 31 December 2025 (B) He has no credit, because §§ 30D and 25E allow none for a vehicle acquired after 30 September 2025 (C) He has a reduced credit under the step-down percentages (D) He has no § 30D credit, but may claim the § 25E previously-owned vehicle credit instead
+*Answer: B. Pub. L. 119-21 § 70502 ended the § 30D clean vehicle credit and the § 25E previously-owned clean vehicle credit for vehicles acquired after 30 September 2025, a different date from the 31 December 2025 cut-off for §§ 25C and 25D property. The credits stopped; they were not phased down.*
