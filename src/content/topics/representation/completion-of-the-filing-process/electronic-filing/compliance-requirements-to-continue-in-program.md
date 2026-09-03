@@ -226,7 +226,8 @@ B. Every three years
 C. Not at all, provided it continues to e-file and complies with suitability requirements
 D. Whenever the EFIN prefix changes
 
-*Answer: C.*
+*Answer: C. Acceptance is not an annual licence; both halves of the condition — continued e-filing
+and continued suitability — must hold, or the IRS may remove or sanction the provider.*
 
 **2. Which providers are excepted from the suitability check?**
 
@@ -264,4 +265,5 @@ B. Returns filed and the balance paid or covered by an installment agreement
 C. A promise to pay before the next filing season
 D. Filing the returns, regardless of the balance
 
-*Answer: B.*
+*Answer: B. The tax compliance element is specific to returns filed and balances due paid or covered
+by an installment agreement — an unpaid, uncovered balance remains a live suitability problem.*

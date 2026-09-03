@@ -117,7 +117,7 @@ Know the four rates cold and the 60-day floor, including that it is the *lesser 
 
 **1. A return is filed three months late and the tax is paid late for the same months. For those months the combined § 6651 addition runs at:**
 (A) 5.5 percent per month (B) 5 percent per month, the failure-to-file amount being reduced by the failure-to-pay amount (C) 0.5 percent per month (D) 25 percent immediately
-*Answer: B. IRC § 6651(c)(1).*
+*Answer: B. IRC § 6651(c)(1) reduces the failure-to-file addition by the failure-to-pay addition for months where both apply, so the combined rate runs at 5 percent rather than the sum of both.*
 
 **2. First-time abate is available for which penalty?**
 (A) Accuracy-related under § 6662 (B) Fraud under § 6663 (C) Failure to deposit under § 6656 (D) All of these
@@ -129,4 +129,4 @@ Know the four rates cold and the 60-day floor, including that it is the *lesser 
 
 **4. Which authority allows the Secretary to abate an assessment made after the limitations period expired?**
 (A) IRC § 6651(a) (B) IRC § 6404(a) (C) IRC § 6664(c) (D) IRM 20.1.1
-*Answer: B. Section 6404(a)(2).*
+*Answer: B. IRC § 6404(a) authorizes the Secretary to abate an assessment made after the limitations period for assessment has expired.*

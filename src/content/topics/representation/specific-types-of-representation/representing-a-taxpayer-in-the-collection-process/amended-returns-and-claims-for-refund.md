@@ -130,11 +130,11 @@ The two-part structure is the whole topic. Learn § 6511(a)'s later-of test and 
 
 **1. A taxpayer filed his 2022 return on the due date and paid in full. The last day to claim a refund of 2022 tax is generally:**
 (A) Two years from the due date (B) Three years from the time the return was filed, or two years from payment, whichever is later (C) Ten years from assessment (D) There is no deadline
-*Answer: B. IRC § 6511(a).*
+*Answer: B. IRC § 6511(a) runs the three-year-from-filing and two-year-from-payment periods in parallel, and the later of the two governs.*
 
 **2. A claim is filed within the two-year period but outside the three-year period. The refund is limited to:**
 (A) Tax paid in the three years before the claim (B) Tax paid in the two years immediately preceding the claim (C) The full overpayment (D) Nothing
-*Answer: B. IRC § 6511(b)(2)(B).*
+*Answer: B. IRC § 6511(b)(2)(B) caps the refund at tax paid in the two years before the claim once the claim is filed outside the three-year period but within the two-year one.*
 
 **3. For IRC 6511 purposes, income tax withheld from wages during 2025 is deemed paid:**
 (A) When the employer remitted it (B) On 15 April 2026 (C) On 31 December 2025 (D) When the return is filed
@@ -142,7 +142,7 @@ The two-part structure is the whole topic. Learn § 6511(a)'s later-of test and 
 
 **4. A claim relating to a security that became worthless must be filed within:**
 (A) Three years of filing the return (B) Seven years from the date prescribed for filing the return for the year concerned (C) Ten years (D) Two years of payment
-*Answer: B. IRC § 6511(d)(1).*
+*Answer: B. IRC § 6511(d)(1) gives seven years from the date prescribed for filing the return for the year the security became worthless, replacing the general three-year period for that claim.*
 
 **5. A taxpayer files an amended return showing additional tax 40 days before the assessment period expires. The IRS may assess that amount:**
 (A) Only before the original deadline (B) Within 60 days after receiving the amended return (C) Within three years of the amended return (D) At any time

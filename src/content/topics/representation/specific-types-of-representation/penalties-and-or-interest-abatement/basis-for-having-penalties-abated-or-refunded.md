@@ -109,7 +109,7 @@ Distinguish the two reasonable-cause formulations precisely — willful neglect 
 
 **2. First-time abate requires that, for the three preceding years, the taxpayer:**
 (A) Owed no tax (B) Filed the same return with no unreversed penalties other than an estimated tax penalty, or had no filing requirement (C) Was represented by a practitioner (D) Had no examinations
-*Answer: B. IRM 20.1.1.3.3.2.1.*
+*Answer: B. IRM 20.1.1.3.3.2.1 sets the clean-compliance-history test as the same return filed for the prior three years with no unreversed penalty other than an estimated tax penalty, or no filing requirement at all — not a tax-owed or representation condition.*
 
 **3. A taxpayer relied on incorrect advice given by an IRS employee over the telephone. Section 6404(f):**
 (A) Requires abatement (B) Requires abatement if the call was documented (C) Does not apply, because it reaches written advice given in response to a specific written request (D) Applies only to accuracy penalties

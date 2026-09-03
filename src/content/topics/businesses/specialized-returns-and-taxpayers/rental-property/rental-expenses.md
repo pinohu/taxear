@@ -306,4 +306,4 @@ under the de minimis election still counts toward the $6,100 for this test.
 
 **8. A landlord expenses several small invoices under the de minimis election and then wants to use the small taxpayer election for the year's remaining work. What effect do the de minimis amounts have on the small taxpayer ceiling?**
 (A) None, because each safe harbour is tested on its own amounts (B) They still count toward the ceiling, so the landlord has less room under it, not more (C) They increase the ceiling by the amount expensed (D) They disqualify the landlord from the small taxpayer election for the year
-*Answer: B. Under the Treas. Reg. § 1.263(a)-3 safe harbours, amounts removed by the de minimis election and by the routine maintenance safe harbour still count toward the small taxpayer ceiling; using one consumes room under another rather than preserving it.*
+*Answer: B. Treas. Reg. § 1.263(a)-3(h)(2): in applying the small taxpayer ceiling, amounts not capitalised under the de minimis election and amounts deemed not to improve property under the routine maintenance safe harbour are counted toward it; using one consumes room under another rather than preserving it.*

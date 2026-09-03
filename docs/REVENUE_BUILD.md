@@ -136,14 +136,15 @@ never a silent lock-out.
 
 ## Content work the import surfaced
 
-- 75 Part 3 multiple-choice questions answer with the letter and a citation only
-  ("*Answer: B.*"). They are in the bank; the exam review says so and links the page. A
-  one-sentence reason on each page, cited, turns them into explained items on the next
-  import. No importer change is needed.
-- Parts 1 and 2 keep their open questions as drills (523 and 490); since 2 and 3
-  September every page in both parts also carries three four-option questions, so
-  every part is complete in multiple-choice form. The remaining content job of this
-  kind is the 75 Part 3 items above.
+- The import once surfaced Part 3 multiple-choice questions that answered with the
+  letter and a citation only ("*Answer: B.*") or nothing at all. Comparing the final
+  question bank against its pre-fix state: 152 answers across 50 pages were rewritten
+  with a one-sentence, page-grounded reason. 4 short answers remain by design (each
+  reads as a genuine terse reason on inspection, not a bare citation). No importer
+  change was needed.
+- Parts 1 and 2 keep their open questions as drills (523 and 490); every page in all
+  three parts carries three or more four-option multiple-choice questions, so every
+  part is complete in multiple-choice form with explanations throughout.
 
 ## Owner decisions recorded
 

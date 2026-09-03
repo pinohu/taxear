@@ -106,20 +106,20 @@ The paper signing sequence and the e-file exception. The "entire preparation" st
 
 **1. For a paper return, the signing tax return preparer must sign:**
 (A) After the taxpayer signs (B) After the return is completed and before it is presented to the taxpayer for signature (C) At any time before filing (D) Only if the taxpayer requests it
-*Answer: B. Reg. § 1.6695-1(b)(1).*
+*Answer: B. Reg. § 1.6695-1(b)(1) fixes the signature to the window between completion and presentation for the taxpayer's signature, not to whenever is convenient before filing.*
 
 **2. The assigned preparer is unavailable. Another preparer may sign:**
 (A) Immediately, as a matter of firm convenience (B) After reviewing the entire preparation of the return (C) Only with the taxpayer's written consent (D) Never; the return must wait
-*Answer: B.*
+*Answer: B. Reg. § 1.6695-1(b)(1): a substitute signer may sign only after reviewing the entire preparation of the return, not merely the output.*
 
 **3. A preparer employed by a firm prepares a client's return. The filed return must carry:**
 (A) The preparer's PTIN only (B) The preparer's PTIN and the firm's EIN (C) The firm's EIN only (D) The preparer's social security number
-*Answer: B. Reg. § 1.6109-2(a)(1), (a)(3).*
+*Answer: B. Reg. § 1.6109-2(a)(1) and (a)(3) require both the individual preparer's own identifying number and, where the preparer is employed by or a partner in a firm, the firm's EIN.*
 
 **4. A single return is filed unsigned and without any preparer identifying number. The exposure is:**
 (A) One penalty, the failures being related (B) Two separate penalties under § 6695(b) and § 6695(c), each with its own annual cap (C) A single penalty at double the rate (D) No penalty absent willfulness
-*Answer: B.*
+*Answer: B. IRC §§ 6695(b) and 6695(c) are independent penalties, each with its own calendar-year cap, so a single return failing both draws both.*
 
 **5. For an electronically signed return, the preparer must:**
 (A) Sign before presenting the copy, as for paper (B) Furnish all information to be transmitted contemporaneously with the Form 8879, then sign electronically (C) Sign only after the IRS accepts the return (D) Obtain a paper signature as well
-*Answer: B. Reg. § 1.6695-1(b)(2).*
+*Answer: B. Reg. § 1.6695-1(b)(2) ties the electronic signature to furnishing the information to be transmitted, contemporaneously with the Form 8879, rather than to the paper-return sequence of signing before presentation.*

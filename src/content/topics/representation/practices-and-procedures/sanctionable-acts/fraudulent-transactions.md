@@ -115,7 +115,7 @@ The definition of tax fraud and its two required elements. The avoidance/evasion
 
 **1. An examiner finds unexplained increases in a taxpayer's net worth over four years. Standing alone, this is:**
 (A) An affirmative act of fraud (B) An indicator of fraud, which does not by itself establish that any action was taken (C) Conclusive of intent to evade (D) Irrelevant to a fraud determination
-*Answer: B. IRM 25.1.1.4.*
+*Answer: B. IRM 25.1.1.4 makes fraud cannot be established without an affirmative act; an unexplained increase is only an indicator until some affirmative act of concealment or misrepresentation is shown.*
 
 **2. In a civil fraud case the government must prove fraud:**
 (A) By a preponderance of the evidence (B) By clear and convincing evidence (C) Beyond a reasonable doubt (D) By substantial evidence
@@ -123,11 +123,11 @@ The definition of tax fraud and its two required elements. The avoidance/evasion
 
 **3. The Secretary establishes that one item of a $200,000 underpayment is fraudulent. Under IRC 6663(b):**
 (A) Only that item carries the penalty (B) The entire underpayment is treated as fraudulent unless the taxpayer establishes otherwise by a preponderance (C) The penalty is prorated automatically (D) The penalty applies only if the fraudulent item exceeds half the underpayment
-*Answer: B.*
+*Answer: B. IRC § 6663(b): once the Secretary establishes that any portion of an underpayment is fraudulent, the entire underpayment is treated as fraudulent except so much as the taxpayer establishes, by a preponderance, is not.*
 
 **4. A taxpayer restructures a transaction in advance, disclosing everything, to fall within a favourable provision. This is:**
 (A) Evasion, because the purpose was to reduce tax (B) Avoidance, which is lawful, there being no concealment or misrepresentation (C) A frivolous position (D) An affirmative act of fraud
-*Answer: B. IRM 25.1.1.3.3.*
+*Answer: B. IRM 25.1.1.3.3 defines avoidance as shaping and preplanning events to reduce tax within the law, without concealment or misrepresentation — disclosing everything in advance is the opposite of the affirmative act evasion requires.*
 
 **5. A preparer discovers that a client's prior-year return omitted income. Circular 230 requires the practitioner to:**
 (A) File an amended return immediately (B) Advise the client promptly of the noncompliance and its consequences (C) Notify the IRS (D) Withdraw from the engagement without explanation

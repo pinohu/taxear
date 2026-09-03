@@ -171,7 +171,7 @@
     "The request is inconvenient"
    ],
    "answerIndex": 1,
-   "explanation": "Circular 230 § 10.20(a)(1).",
+   "explanation": "Circular 230 § 10.20(a)(1): the only exception to prompt submission is a good-faith belief, on reasonable grounds, that the records or information are privileged.",
    "pagePath": "/representation/practices-and-procedures/requirements-for-enrolled-agents/information-to-be-furnished-to-the-irs/",
    "pageTitle": "Information to be furnished to the IRS",
    "source": "page"
@@ -213,7 +213,7 @@
     "May respond only under summons"
    ],
    "answerIndex": 1,
-   "explanation": "Section 10.20(a)(3).",
+   "explanation": "Section 10.20(a)(3) requires a practitioner to provide information and testify regarding an alleged Circular 230 violation even where the inquiry concerns another practitioner, subject only to the same good-faith privilege exception.",
    "pagePath": "/representation/practices-and-procedures/requirements-for-enrolled-agents/information-to-be-furnished-to-the-irs/",
    "pageTitle": "Information to be furnished to the IRS",
    "source": "page"
@@ -234,7 +234,7 @@
     "Non-criminal federal court proceedings"
    ],
    "answerIndex": 1,
-   "explanation": "",
+   "explanation": "The page notes that IRC § 7525 extends confidentiality protection to non-criminal tax matters but expressly does not apply to communications concerning tax shelters.",
    "pagePath": "/representation/practices-and-procedures/requirements-for-enrolled-agents/information-to-be-furnished-to-the-irs/",
    "pageTitle": "Information to be furnished to the IRS",
    "source": "page"
@@ -255,7 +255,7 @@
     "Is permitted if the client agrees"
    ],
    "answerIndex": 1,
-   "explanation": "",
+   "explanation": "A blanket assertion made without considering the documents is not a good-faith belief on reasonable grounds under § 10.20(a)(1), and the same conduct separately breaches § 10.20(b)'s bar on interfering with a proper and lawful effort to obtain records.",
    "pagePath": "/representation/practices-and-procedures/requirements-for-enrolled-agents/information-to-be-furnished-to-the-irs/",
    "pageTitle": "Information to be furnished to the IRS",
    "source": "page"
@@ -276,7 +276,7 @@
     "Withdraw from the engagement"
    ],
    "answerIndex": 1,
-   "explanation": "Section 10.21.",
+   "explanation": "Section 10.21 requires the practitioner to advise the client promptly of the fact of the omission and of its consequences under the Code and regulations, with no duty to notify the IRS, amend the return, or withdraw.",
    "pagePath": "/representation/practices-and-procedures/requirements-for-enrolled-agents/omission-or-error-on-return-document-or-affidavit/",
    "pageTitle": "Omission or error on return, document, or affidavit",
    "source": "page"
@@ -297,7 +297,7 @@
     "A duty to resign immediately"
    ],
    "answerIndex": 1,
-   "explanation": "",
+   "explanation": "Section 10.21's duty runs to the client and ends once the advice is given; the client's decision does not undo compliance, though continuing to prepare work that carries the error forward would engage separate rules.",
    "pagePath": "/representation/practices-and-procedures/requirements-for-enrolled-agents/omission-or-error-on-return-document-or-affidavit/",
    "pageTitle": "Omission or error on return, document, or affidavit",
    "source": "page"
@@ -318,7 +318,7 @@
     "Providing a written opinion"
    ],
    "answerIndex": 1,
-   "explanation": "",
+   "explanation": "Section 10.21 requires advising the client of the consequences under the Code and regulations, which the page describes as the tax, interest, applicable penalties, and where relevant the absence of an assessment limitation period — not a bare mention that an amendment may be needed.",
    "pagePath": "/representation/practices-and-procedures/requirements-for-enrolled-agents/omission-or-error-on-return-document-or-affidavit/",
    "pageTitle": "Omission or error on return, document, or affidavit",
    "source": "page"
@@ -339,7 +339,7 @@
     "Is required only for fraud"
    ],
    "answerIndex": 1,
-   "explanation": "",
+   "explanation": "Section 10.21 gives the practitioner no authority to disclose the client's error to the IRS, and doing so without authority risks criminal liability under IRC § 7216 and civil liability under § 6713.",
    "pagePath": "/representation/practices-and-procedures/requirements-for-enrolled-agents/omission-or-error-on-return-document-or-affidavit/",
    "pageTitle": "Omission or error on return, document, or affidavit",
    "source": "page"
@@ -360,7 +360,7 @@
     "Section 10.23"
    ],
    "answerIndex": 1,
-   "explanation": "",
+   "explanation": "The page identifies § 10.51(a)(7) (willfully assisting a client's violation of federal tax law), § 10.34(a) (signing an unreasonable position), and IRC § 6694 as the provisions that take over once a practitioner assists a client's continuing noncompliance, beyond § 10.21's own duty to advise.",
    "pagePath": "/representation/practices-and-procedures/requirements-for-enrolled-agents/omission-or-error-on-return-document-or-affidavit/",
    "pageTitle": "Omission or error on return, document, or affidavit",
    "source": "page"
@@ -591,7 +591,7 @@
     "Tax planning advice"
    ],
    "answerIndex": 1,
-   "explanation": "Circular 230 § 10.27(b)(2)(i).",
+   "explanation": "Circular 230 § 10.27(b)(2)(i): a contingent fee is one of the four exceptions once the IRS has opened an examination of, or challenge to, an original return, unlike a fee contingent on the original filing position itself.",
    "pagePath": "/representation/practices-and-procedures/requirements-for-enrolled-agents/fee-rules/",
    "pageTitle": "Fee rules (e.g., contingent, unconscionable)",
    "source": "page"
@@ -612,7 +612,7 @@
     "An unconscionable fee"
    ],
    "answerIndex": 1,
-   "explanation": "Section 10.27(c)(1).",
+   "explanation": "Section 10.27(c)(1): a contingent fee includes any arrangement where the practitioner reimburses the client if a position is challenged or not sustained, whether by indemnity, guarantee or rescission rights, so a fixed fee with a refund promise is still contingent.",
    "pagePath": "/representation/practices-and-procedures/requirements-for-enrolled-agents/fee-rules/",
    "pageTitle": "Fee rules (e.g., contingent, unconscionable)",
    "source": "page"
@@ -633,7 +633,7 @@
     "The due date of the original return"
    ],
    "answerIndex": 1,
-   "explanation": "",
+   "explanation": "Section 10.27(b)(2)(ii): the 120-day window runs from the taxpayer's receipt of written notice of the examination of, or challenge to, the original return, not from the amended filing or the start of the examination.",
    "pagePath": "/representation/practices-and-procedures/requirements-for-enrolled-agents/fee-rules/",
    "pageTitle": "Fee rules (e.g., contingent, unconscionable)",
    "source": "page"
@@ -654,7 +654,7 @@
     "An amended return filed at any time"
    ],
    "answerIndex": 1,
-   "explanation": "Section 10.27(b)(3).",
+   "explanation": "Section 10.27(b)(3) permits a contingent fee only for a refund claim filed solely to determine statutory interest or penalties assessed by the IRS, not for a refund claim on the merits of a deduction or other position.",
    "pagePath": "/representation/practices-and-procedures/requirements-for-enrolled-agents/fee-rules/",
    "pageTitle": "Fee rules (e.g., contingent, unconscionable)",
    "source": "page"
@@ -675,7 +675,7 @@
     "The remainder of the tax year"
    ],
    "answerIndex": 1,
-   "explanation": "Circular 230 § 10.30(b)(2).",
+   "explanation": "Circular 230 § 10.30(b): having published a fee schedule, a practitioner may charge no more than the published rates for at least 30 calendar days after the last date of publication.",
    "pagePath": "/representation/practices-and-procedures/requirements-for-enrolled-agents/fee-rules/",
    "pageTitle": "Fee rules (e.g., contingent, unconscionable)",
    "source": "page"
@@ -696,7 +696,7 @@
     "Determining eligibility for refundable credits"
    ],
    "answerIndex": 1,
-   "explanation": "",
+   "explanation": "Section 10.22(a): the rule requires diligence in three directions — preparing and filing papers, the correctness of representations to Treasury, and the correctness of representations to clients — not preparation alone.",
    "pagePath": "/representation/practices-and-procedures/requirements-for-enrolled-agents/due-diligence-requirements/",
    "pageTitle": "Due diligence requirements",
    "source": "page"
@@ -717,7 +717,7 @@
     "Is not personally aware of any error"
    ],
    "answerIndex": 1,
-   "explanation": "Section 10.22(b).",
+   "explanation": "Circular 230 § 10.22(b): the presumption of diligence applies only where the practitioner used reasonable care in engaging, supervising, training and evaluating the person who prepared the work, not merely by reviewing the final output.",
    "pagePath": "/representation/practices-and-procedures/requirements-for-enrolled-agents/due-diligence-requirements/",
    "pageTitle": "Due diligence requirements",
    "source": "page"
@@ -738,7 +738,7 @@
     "No other section"
    ],
    "answerIndex": 1,
-   "explanation": "",
+   "explanation": "Section 10.22(b) opens \"except as modified by §§ 10.34 and 10.37,\" so the presumption does not answer a return-position or written-advice violation under either section.",
    "pagePath": "/representation/practices-and-procedures/requirements-for-enrolled-agents/due-diligence-requirements/",
    "pageTitle": "Due diligence requirements",
    "source": "page"
@@ -759,7 +759,7 @@
     "Engages § 10.21"
    ],
    "answerIndex": 1,
-   "explanation": "",
+   "explanation": "Section 10.22(a)(2) requires diligence in determining the correctness of representations made to the Department of the Treasury, and an honest but unchecked belief does not satisfy that duty.",
    "pagePath": "/representation/practices-and-procedures/requirements-for-enrolled-agents/due-diligence-requirements/",
    "pageTitle": "Due diligence requirements",
    "source": "page"
@@ -780,7 +780,7 @@
     "Only where a penalty results"
    ],
    "answerIndex": 1,
-   "explanation": "",
+   "explanation": "Section 10.22 is absent from the § 10.52(a)(2) list of sections violable recklessly or through gross incompetence, so on its own terms a violation must be willful.",
    "pagePath": "/representation/practices-and-procedures/requirements-for-enrolled-agents/due-diligence-requirements/",
    "pageTitle": "Due diligence requirements",
    "source": "page"
@@ -1410,7 +1410,7 @@
     "Delaying only in collection matters"
    ],
    "answerIndex": 1,
-   "explanation": "",
+   "explanation": "Section 10.23 is a single sentence prohibiting a practitioner from unreasonably delaying the prompt disposition of any matter before the IRS, with no fixed period and no restriction on which kind of matter.",
    "pagePath": "/representation/practices-and-procedures/requirements-for-enrolled-agents/rules-for-prompt-disposition-of-matters-before-the-irs/",
    "pageTitle": "Rules for prompt disposition of matters before the IRS",
    "source": "page"
@@ -1431,7 +1431,7 @@
     "A matter for the client alone"
    ],
    "answerIndex": 1,
-   "explanation": "",
+   "explanation": "The page states the client's instruction to stall does not excuse the practitioner's own conduct under § 10.23, since the obligation runs to the practitioner regardless of what the client wants.",
    "pagePath": "/representation/practices-and-procedures/requirements-for-enrolled-agents/rules-for-prompt-disposition-of-matters-before-the-irs/",
    "pageTitle": "Rules for prompt disposition of matters before the IRS",
    "source": "page"
@@ -1452,7 +1452,7 @@
     "Only where actual harm results"
    ],
    "answerIndex": 1,
-   "explanation": "",
+   "explanation": "Section 10.23 is not among the four sections § 10.52(a)(2) makes violable recklessly or through gross incompetence, so on its own terms a violation must be willful to be sanctionable under § 10.52(a)(1).",
    "pagePath": "/representation/practices-and-procedures/requirements-for-enrolled-agents/rules-for-prompt-disposition-of-matters-before-the-irs/",
    "pageTitle": "Rules for prompt disposition of matters before the IRS",
    "source": "page"
@@ -1473,7 +1473,7 @@
     "A violation of § 10.20"
    ],
    "answerIndex": 1,
-   "explanation": "",
+   "explanation": "Section 10.23 prohibits only unreasonable delay, and the page treats delay from genuine incapacity, addressed promptly by contacting the examiner and agreeing a revised schedule, as not unreasonable.",
    "pagePath": "/representation/practices-and-procedures/requirements-for-enrolled-agents/rules-for-prompt-disposition-of-matters-before-the-irs/",
    "pageTitle": "Rules for prompt disposition of matters before the IRS",
    "source": "page"
@@ -1494,7 +1494,7 @@
     "Section 10.31"
    ],
    "answerIndex": 1,
-   "explanation": "",
+   "explanation": "Section 10.34(b)(2)(i) separately bars advising a client to submit a paper whose purpose is to delay or impede tax administration, and if the position is a listed frivolous one the client also faces the § 6702(b) penalty on a specified frivolous submission.",
    "pagePath": "/representation/practices-and-procedures/requirements-for-enrolled-agents/rules-for-prompt-disposition-of-matters-before-the-irs/",
    "pageTitle": "Rules for prompt disposition of matters before the IRS",
    "source": "page"
@@ -1515,7 +1515,7 @@
     "May retain records for 30 days"
    ],
    "answerIndex": 1,
-   "explanation": "Circular 230 § 10.28(a).",
+   "explanation": "Circular 230 § 10.28(a) requires prompt return of records the client needs to comply with federal tax obligations, and states that the existence of a fee dispute generally does not relieve that responsibility.",
    "pagePath": "/representation/practices-and-procedures/requirements-for-enrolled-agents/rules-for-returning-a-client-s-records-and-documents/",
    "pageTitle": "Rules for returning a client's records and documents",
    "source": "page"
@@ -1536,7 +1536,7 @@
     "Return records only after 90 days"
    ],
    "answerIndex": 1,
-   "explanation": "",
+   "explanation": "Section 10.28(a)'s state-law accommodation only narrows what must be handed over immediately — the practitioner must still return what must be attached to the return and provide reasonable access to review and copy any records retained under state law.",
    "pagePath": "/representation/practices-and-procedures/requirements-for-enrolled-agents/rules-for-returning-a-client-s-records-and-documents/",
    "pageTitle": "Rules for returning a client's records and documents",
    "source": "page"
@@ -1557,7 +1557,7 @@
     "The practitioner's engagement notes"
    ],
    "answerIndex": 1,
-   "explanation": "",
+   "explanation": "Section 10.28(b) defines records of the client as material provided by the client or a third party, so bank statements the client supplied are the client's records, unlike the practitioner's own schedules or drafts withheld pending payment.",
    "pagePath": "/representation/practices-and-procedures/requirements-for-enrolled-agents/rules-for-returning-a-client-s-records-and-documents/",
    "pageTitle": "Rules for returning a client's records and documents",
    "source": "page"
@@ -1578,7 +1578,7 @@
     "Returnable only if the client paid the appraiser"
    ],
    "answerIndex": 1,
-   "explanation": "",
+   "explanation": "Section 10.28(b)'s exclusion reaches only a document prepared by the practitioner or their own employee or agent, and only while it is being withheld pending the client's performance of a fee obligation — an independent appraiser is neither, so the appraisal is a record of the client regardless of who paid for it.",
    "pagePath": "/representation/practices-and-procedures/requirements-for-enrolled-agents/rules-for-returning-a-client-s-records-and-documents/",
    "pageTitle": "Rules for returning a client's records and documents",
    "source": "page"
@@ -1599,7 +1599,7 @@
     "Must obtain the client's consent to keep copies"
    ],
    "answerIndex": 1,
-   "explanation": "",
+   "explanation": "Section 10.28(a) permits the practitioner to retain copies of anything returned, and IRC § 6107(b) separately requires keeping a completed copy or list of the return for three years.",
    "pagePath": "/representation/practices-and-procedures/requirements-for-enrolled-agents/rules-for-returning-a-client-s-records-and-documents/",
    "pageTitle": "Rules for returning a client's records and documents",
    "source": "page"
@@ -1851,7 +1851,7 @@
     "None; Circular 230 always requires willfulness"
    ],
    "answerIndex": 1,
-   "explanation": "",
+   "explanation": "Section 10.52(a)(2) reaches violations of §§ 10.34–10.37 committed recklessly or through gross incompetence, so no willfulness finding is required for those four sections.",
    "pagePath": "/representation/practices-and-procedures/sanctionable-acts/incompetence-and-disreputable-conduct-that-may-result/",
    "pageTitle": "Incompetence and disreputable conduct that may result in a disciplinary proceeding",
    "source": "page"
@@ -1893,7 +1893,7 @@
     "A proceeding requires a criminal conviction first"
    ],
    "answerIndex": 1,
-   "explanation": "",
+   "explanation": "Section 10.51(a) states its categories are \"included, but not limited to,\" so conduct outside the eighteen enumerated items can still be disreputable.",
    "pagePath": "/representation/practices-and-procedures/sanctionable-acts/incompetence-and-disreputable-conduct-that-may-result/",
    "pageTitle": "Incompetence and disreputable conduct that may result in a disciplinary proceeding",
    "source": "page"
@@ -1914,7 +1914,7 @@
     "A matter for the state board rather than OPR"
    ],
    "answerIndex": 1,
-   "explanation": "",
+   "explanation": "Section 10.51(a)(8) covers the failure to remit client funds properly or promptly, not only misappropriation, so late remittance is disreputable conduct even though the client suffered no ultimate loss.",
    "pagePath": "/representation/practices-and-procedures/sanctionable-acts/incompetence-and-disreputable-conduct-that-may-result/",
    "pageTitle": "Incompetence and disreputable conduct that may result in a disciplinary proceeding",
    "source": "page"
@@ -1956,7 +1956,7 @@
     "Set annually by revenue procedure"
    ],
    "answerIndex": 1,
-   "explanation": "Section 10.50(c)(2).",
+   "explanation": "Section 10.50(c)(2) caps the monetary penalty at the gross income derived, or to be derived, from the conduct rather than a fixed schedule.",
    "pagePath": "/representation/practices-and-procedures/sanctionable-acts/sanctions-imposed-by-the-office-of-professional/",
    "pageTitle": "Sanctions imposed by the Office of Professional Responsibility",
    "source": "page"
@@ -1977,7 +1977,7 @@
     "Must re-sit the enrolled agent examination"
    ],
    "answerIndex": 1,
-   "explanation": "Sections 10.79(c) and 10.79(d).",
+   "explanation": "Section 10.79(c) leaves a censured practitioner able to continue practising, and § 10.79(d) subjects future representations to conditions for a reasonable period.",
    "pagePath": "/representation/practices-and-procedures/sanctionable-acts/sanctions-imposed-by-the-office-of-professional/",
    "pageTitle": "Sanctions imposed by the Office of Professional Responsibility",
    "source": "page"
@@ -1998,7 +1998,7 @@
     "It bars practice for one year"
    ],
    "answerIndex": 1,
-   "explanation": "",
+   "explanation": "A § 10.60(a) reprimand is offered instead of instituting a proceeding and stays private, unlike the public censure that § 10.50(a) imposes as a sanction.",
    "pagePath": "/representation/practices-and-procedures/sanctionable-acts/sanctions-imposed-by-the-office-of-professional/",
    "pageTitle": "Sanctions imposed by the Office of Professional Responsibility",
    "source": "page"
@@ -2061,7 +2061,7 @@
     "Applies only if the taxpayer is represented"
    ],
    "answerIndex": 1,
-   "explanation": "",
+   "explanation": "IRC § 6702(a) requires both a self-assessment that cannot be judged, or is facially incorrect, and a listed or delay-motivated position; a complete, honestly filed return that merely loses an argument satisfies neither condition.",
    "pagePath": "/representation/practices-and-procedures/sanctionable-acts/frivolous-submissions-returns-and-documents/",
    "pageTitle": "Frivolous submissions (returns and documents)",
    "source": "page"
@@ -2082,7 +2082,7 @@
     "Nothing; the penalty is already fixed"
    ],
    "answerIndex": 1,
-   "explanation": "IRC § 6702(b)(3).",
+   "explanation": "IRC § 6702(b)(3): withdrawing a specified frivolous submission within thirty days of the IRS notice removes the penalty, and an installment agreement application is a specified submission under § 6702(b)(2)(B).",
    "pagePath": "/representation/practices-and-procedures/sanctionable-acts/frivolous-submissions-returns-and-documents/",
    "pageTitle": "Frivolous submissions (returns and documents)",
    "source": "page"
@@ -2103,7 +2103,7 @@
     "Grounds for the accuracy-related penalty alone"
    ],
    "answerIndex": 1,
-   "explanation": "",
+   "explanation": "Notice 2010-33 item (19) lists altering a return, including striking the penalty-of-perjury declaration, as a frivolous position, and the alteration also leaves the return unfiled for failure-to-file purposes if it invalidates the signature.",
    "pagePath": "/representation/practices-and-procedures/sanctionable-acts/frivolous-submissions-returns-and-documents/",
    "pageTitle": "Frivolous submissions (returns and documents)",
    "source": "page"
@@ -2119,12 +2119,12 @@
    "stem": "A practitioner files a return advancing a listed frivolous position at the client's insistence, disclosing it on Form 8275. The practitioner:",
    "options": [
     "Is protected, disclosure having been made",
-    "Faces Circular 230 § 10.34(b) exposure and, on willfulness, § 10.51(a)(7), disclosure being irrelevant to a frivolous position",
+    "Faces Circular 230 § 10.34(a) exposure and, on willfulness, § 10.51(a)(7), disclosure being irrelevant to a frivolous position",
     "Faces no exposure, the position being the client's",
     "Must file but should resign afterwards"
    ],
    "answerIndex": 1,
-   "explanation": "",
+   "explanation": "A return falls under Circular 230 § 10.34(a)'s reasonable-basis standard, which a listed frivolous position cannot meet; § 10.51(a)(7) makes willfully assisting a client's violation disreputable in itself, and Form 8275 disclosure only lowers the standard for an unreasonable position, not a frivolous one.",
    "pagePath": "/representation/practices-and-procedures/sanctionable-acts/frivolous-submissions-returns-and-documents/",
    "pageTitle": "Frivolous submissions (returns and documents)",
    "source": "page"
@@ -2145,7 +2145,7 @@
     "Irrelevant to a fraud determination"
    ],
    "answerIndex": 1,
-   "explanation": "IRM 25.1.1.4.",
+   "explanation": "IRM 25.1.1.4 makes fraud cannot be established without an affirmative act; an unexplained increase is only an indicator until some affirmative act of concealment or misrepresentation is shown.",
    "pagePath": "/representation/practices-and-procedures/sanctionable-acts/fraudulent-transactions/",
    "pageTitle": "Fraudulent transactions (e.g., badges of fraud)",
    "source": "page"
@@ -2187,7 +2187,7 @@
     "The penalty applies only if the fraudulent item exceeds half the underpayment"
    ],
    "answerIndex": 1,
-   "explanation": "",
+   "explanation": "IRC § 6663(b): once the Secretary establishes that any portion of an underpayment is fraudulent, the entire underpayment is treated as fraudulent except so much as the taxpayer establishes, by a preponderance, is not.",
    "pagePath": "/representation/practices-and-procedures/sanctionable-acts/fraudulent-transactions/",
    "pageTitle": "Fraudulent transactions (e.g., badges of fraud)",
    "source": "page"
@@ -2208,7 +2208,7 @@
     "An affirmative act of fraud"
    ],
    "answerIndex": 1,
-   "explanation": "IRM 25.1.1.3.3.",
+   "explanation": "IRM 25.1.1.3.3 defines avoidance as shaping and preplanning events to reduce tax within the law, without concealment or misrepresentation — disclosing everything in advance is the opposite of the affirmative act evasion requires.",
    "pagePath": "/representation/practices-and-procedures/sanctionable-acts/fraudulent-transactions/",
    "pageTitle": "Fraudulent transactions (e.g., badges of fraud)",
    "source": "page"
@@ -2271,7 +2271,7 @@
     "Nothing, if an appeal is pending"
    ],
    "answerIndex": 1,
-   "explanation": "IRC § 6694(c)(1).",
+   "explanation": "IRC § 6694(c)(1): paying the prescribed percentage of the penalty within 30 days of notice and demand stays collection on the remainder while the preparer pursues a refund claim.",
    "pagePath": "/representation/practices-and-procedures/rules-and-penalties/assessment-and-appeal-procedures-for-preparer-penalties/",
    "pageTitle": "Assessment and appeal procedures for preparer penalties",
    "source": "page"
@@ -2313,7 +2313,7 @@
     "Timely, because the penalty period runs from assessment"
    ],
    "answerIndex": 2,
-   "explanation": "",
+   "explanation": "IRC § 6696(d)(1): the three-year assessment period runs from the filing of the return, and a Form 872 signed by the client extends only the client's own assessment period — only a Form 872-D would have extended the preparer penalty period.",
    "pagePath": "/representation/practices-and-procedures/rules-and-penalties/assessment-and-appeal-procedures-for-preparer-penalties/",
    "pageTitle": "Assessment and appeal procedures for preparer penalties",
    "source": "page"
@@ -2334,7 +2334,7 @@
     "May recover only if a pre-assessment appeal was taken"
    ],
    "answerIndex": 1,
-   "explanation": "IRC § 6694(d).",
+   "explanation": "IRC § 6694(d): once a final judicial decision establishes there was no understatement on the underlying return, the assessment is abated and any amount paid is refunded without regard to any period of limitations.",
    "pagePath": "/representation/practices-and-procedures/rules-and-penalties/assessment-and-appeal-procedures-for-preparer-penalties/",
    "pageTitle": "Assessment and appeal procedures for preparer penalties",
    "source": "page"
@@ -2460,7 +2460,7 @@
     "On request only"
    ],
    "answerIndex": 1,
-   "explanation": "IRC § 6107(a).",
+   "explanation": "IRC § 6107(a) ties the deadline to presentation for signature, not to filing or the due date, so the copy is in the taxpayer's hands before the return goes anywhere.",
    "pagePath": "/representation/practices-and-procedures/rules-and-penalties/furnishing-a-copy-of-a-return-to-a-taxpayer/",
    "pageTitle": "Furnishing a copy of a return to a taxpayer",
    "source": "page"
@@ -2481,7 +2481,7 @@
     "Whatever the taxpayer requests"
    ],
    "answerIndex": 1,
-   "explanation": "Reg. § 1.6107-1(a)(2).",
+   "explanation": "Reg. § 1.6107-1(a)(2) defines the complete copy of an electronically filed return as the electronic portion actually transmitted to the IRS, including every schedule, form, PDF attachment and jurat — a bare Form 1040 facsimile that omits those attachments is incomplete, and so is a client-facing summary, though a full paper replica of everything transmitted is permitted.",
    "pagePath": "/representation/practices-and-procedures/rules-and-penalties/furnishing-a-copy-of-a-return-to-a-taxpayer/",
    "pageTitle": "Furnishing a copy of a return to a taxpayer",
    "source": "page"
@@ -2502,7 +2502,7 @@
     "Only with the taxpayer's written consent"
    ],
    "answerIndex": 1,
-   "explanation": "",
+   "explanation": "Reg. § 1.6107-1(a)(2): the taxpayer's copy need not contain the preparer's identifying number.",
    "pagePath": "/representation/practices-and-procedures/rules-and-penalties/furnishing-a-copy-of-a-return-to-a-taxpayer/",
    "pageTitle": "Furnishing a copy of a return to a taxpayer",
    "source": "page"
@@ -2523,7 +2523,7 @@
     "Must deliver on paper in every case"
    ],
    "answerIndex": 1,
-   "explanation": "",
+   "explanation": "Reg. § 1.6107-1(a)(2): the media used must be acceptable to both taxpayer and preparer, so a preparer cannot impose portal delivery on a client who did not accept it.",
    "pagePath": "/representation/practices-and-procedures/rules-and-penalties/furnishing-a-copy-of-a-return-to-a-taxpayer/",
    "pageTitle": "Furnishing a copy of a return to a taxpayer",
    "source": "page"
@@ -2565,7 +2565,7 @@
     "Only if the taxpayer requests it"
    ],
    "answerIndex": 1,
-   "explanation": "Reg. § 1.6695-1(b)(1).",
+   "explanation": "Reg. § 1.6695-1(b)(1) fixes the signature to the window between completion and presentation for the taxpayer's signature, not to whenever is convenient before filing.",
    "pagePath": "/representation/practices-and-procedures/rules-and-penalties/signing-returns-and-furnishing-identifying-numbers/",
    "pageTitle": "Signing returns and furnishing identifying numbers",
    "source": "page"
@@ -2586,7 +2586,7 @@
     "Never; the return must wait"
    ],
    "answerIndex": 1,
-   "explanation": "",
+   "explanation": "Reg. § 1.6695-1(b)(1): a substitute signer may sign only after reviewing the entire preparation of the return, not merely the output.",
    "pagePath": "/representation/practices-and-procedures/rules-and-penalties/signing-returns-and-furnishing-identifying-numbers/",
    "pageTitle": "Signing returns and furnishing identifying numbers",
    "source": "page"
@@ -2607,7 +2607,7 @@
     "The preparer's social security number"
    ],
    "answerIndex": 1,
-   "explanation": "Reg. § 1.6109-2(a)(1), (a)(3).",
+   "explanation": "Reg. § 1.6109-2(a)(1) and (a)(3) require both the individual preparer's own identifying number and, where the preparer is employed by or a partner in a firm, the firm's EIN.",
    "pagePath": "/representation/practices-and-procedures/rules-and-penalties/signing-returns-and-furnishing-identifying-numbers/",
    "pageTitle": "Signing returns and furnishing identifying numbers",
    "source": "page"
@@ -2628,7 +2628,7 @@
     "No penalty absent willfulness"
    ],
    "answerIndex": 1,
-   "explanation": "",
+   "explanation": "IRC §§ 6695(b) and 6695(c) are independent penalties, each with its own calendar-year cap, so a single return failing both draws both.",
    "pagePath": "/representation/practices-and-procedures/rules-and-penalties/signing-returns-and-furnishing-identifying-numbers/",
    "pageTitle": "Signing returns and furnishing identifying numbers",
    "source": "page"
@@ -2649,7 +2649,7 @@
     "Obtain a paper signature as well"
    ],
    "answerIndex": 1,
-   "explanation": "Reg. § 1.6695-1(b)(2).",
+   "explanation": "Reg. § 1.6695-1(b)(2) ties the electronic signature to furnishing the information to be transmitted, contemporaneously with the Form 8879, rather than to the paper-return sequence of signing before presentation.",
    "pagePath": "/representation/practices-and-procedures/rules-and-penalties/signing-returns-and-furnishing-identifying-numbers/",
    "pageTitle": "Signing returns and furnishing identifying numbers",
    "source": "page"
@@ -2670,7 +2670,7 @@
     "Only the taxable year"
    ],
    "answerIndex": 1,
-   "explanation": "Reg. § 1.6107-1(b)(1)(i)(B).",
+   "explanation": "Reg. § 1.6107-1(b)(1)(i)(B): the list option requires the taxpayer's name, identifying number, taxable year, and the type of return or claim prepared — not just name and number.",
    "pagePath": "/representation/practices-and-procedures/rules-and-penalties/keeping-copies-or-lists-of-returns-prepared/",
    "pageTitle": "Keeping copies or lists of returns prepared",
    "source": "page"
@@ -2691,7 +2691,7 @@
     "The filing season"
    ],
    "answerIndex": 1,
-   "explanation": "IRC § 6060(c).",
+   "explanation": "IRC § 6060(c): the return period is a defined period beginning 1 July, distinct from the calendar year, the taxpayer's own taxable year, or the filing season.",
    "pagePath": "/representation/practices-and-procedures/rules-and-penalties/keeping-copies-or-lists-of-returns-prepared/",
    "pageTitle": "Keeping copies or lists of returns prepared",
    "source": "page"
@@ -2733,7 +2733,7 @@
     "Passes to the clients"
    ],
    "answerIndex": 1,
-   "explanation": "",
+   "explanation": "Reg. § 1.6107-1(b)(2): the persons responsible under state law for winding up remain subject to the retention duty on the entity's behalf until the period runs, or, absent such a person under state law, the directors or general partners collectively.",
    "pagePath": "/representation/practices-and-procedures/rules-and-penalties/keeping-copies-or-lists-of-returns-prepared/",
    "pageTitle": "Keeping copies or lists of returns prepared",
    "source": "page"
@@ -2796,7 +2796,7 @@
     "Name and the returns prepared"
    ],
    "answerIndex": 1,
-   "explanation": "",
+   "explanation": "Reg. § 1.6060-1(a)(1): the retained record must show each preparer's name, identifying number and principal place of work.",
    "pagePath": "/representation/practices-and-procedures/rules-and-penalties/employees-engaged-or-employed-during-a-return-period/",
    "pageTitle": "Employees engaged or employed during a return period (e.g. IRC Section 6060)",
    "source": "page"
@@ -2817,7 +2817,7 @@
     "Is covered only if he signs more than 10 returns"
    ],
    "answerIndex": 1,
-   "explanation": "",
+   "explanation": "Reg. § 1.6060-1(a)(5)(i): a signing preparer not employed by another preparer is treated as their own employer and must keep a record about himself.",
    "pagePath": "/representation/practices-and-procedures/rules-and-penalties/employees-engaged-or-employed-during-a-return-period/",
    "pageTitle": "Employees engaged or employed during a return period (e.g. IRC Section 6060)",
    "source": "page"
@@ -2838,7 +2838,7 @@
     "Fails only if the IRS cannot identify them at all"
    ],
    "answerIndex": 1,
-   "explanation": "Reg. § 1.6060-1(a)(3).",
+   "explanation": "Reg. § 1.6060-1(a)(3): the record must disclose on its face which individuals were employed as preparers, and a payroll register that does not distinguish preparers from other staff fails that test.",
    "pagePath": "/representation/practices-and-procedures/rules-and-penalties/employees-engaged-or-employed-during-a-return-period/",
    "pageTitle": "Employees engaged or employed during a return period (e.g. IRC Section 6060)",
    "source": "page"
@@ -2859,7 +2859,7 @@
     "Per return prepared"
    ],
    "answerIndex": 1,
-   "explanation": "",
+   "explanation": "IRC § 6695(e): the maximum penalty runs per return period, unlike the calendar-year caps under § 6695(a) to (c).",
    "pagePath": "/representation/practices-and-procedures/rules-and-penalties/employees-engaged-or-employed-during-a-return-period/",
    "pageTitle": "Employees engaged or employed during a return period (e.g. IRC Section 6060)",
    "source": "page"
@@ -2880,7 +2880,7 @@
     "Two, filing status not counting"
    ],
    "answerIndex": 1,
-   "explanation": "Reg. § 1.6695-2(a)(1).",
+   "explanation": "Reg. § 1.6695-2(a)(1) imposes the penalty per failure to meet the due diligence requirements as to each applicable credit or filing status determination, so three failed determinations on one return draw three separate penalties.",
    "pagePath": "/representation/practices-and-procedures/rules-and-penalties/preparer-due-diligence-and-penalties/",
    "pageTitle": "Preparer due diligence and penalties (e.g., refundable credits, head of household status)",
    "source": "page"
@@ -2901,7 +2901,7 @@
     "Nothing; the duty falls on the signer alone"
    ],
    "answerIndex": 1,
-   "explanation": "Reg. § 1.6695-2(b)(1)(i)(C).",
+   "explanation": "Reg. § 1.6695-2(b): a nonsigning preparer satisfies the Form 8867 requirement by giving the completed form to the signing preparer for inclusion with the filed return.",
    "pagePath": "/representation/practices-and-procedures/rules-and-penalties/preparer-due-diligence-and-penalties/",
    "pageTitle": "Preparer due diligence and penalties (e.g., refundable credits, head of household status)",
    "source": "page"
@@ -2922,7 +2922,7 @@
     "Inapplicable to telephone inquiries"
    ],
    "answerIndex": 1,
-   "explanation": "",
+   "explanation": "Reg. § 1.6695-2(b)(3)(i): inquiries and the responses to them must be documented contemporaneously, so an inquiry that was made but not recorded does not satisfy the knowledge requirement.",
    "pagePath": "/representation/practices-and-procedures/rules-and-penalties/preparer-due-diligence-and-penalties/",
    "pageTitle": "Preparer due diligence and penalties (e.g., refundable credits, head of household status)",
    "source": "page"
@@ -2964,7 +2964,7 @@
     "Never"
    ],
    "answerIndex": 1,
-   "explanation": "Reg. § 1.6695-2(c).",
+   "explanation": "Reg. § 1.6695-2(c) sets three independent grounds for the firm's own liability, so a firm with none of those failures is not automatically liable merely for employing a penalised preparer.",
    "pagePath": "/representation/practices-and-procedures/rules-and-penalties/preparer-due-diligence-and-penalties/",
    "pageTitle": "Preparer due diligence and penalties (e.g., refundable credits, head of household status)",
    "source": "page"
@@ -4224,7 +4224,7 @@
     "Only in a criminal investigation"
    ],
    "answerIndex": 2,
-   "explanation": "IRC § 7602(e).",
+   "explanation": "IRC § 7602(e) bars using financial status or economic reality techniques to determine unreported income unless the Secretary has a reasonable indication of its likelihood.",
    "pagePath": "/representation/representation-before-the-irs/building-the-taxpayer-s-case-preliminary-work/potential-for-criminal-aspects/",
    "pageTitle": "Potential for criminal aspects",
    "source": "page"
@@ -5127,7 +5127,7 @@
     "Amount, and the identity of the payee"
    ],
    "answerIndex": 2,
-   "explanation": "",
+   "explanation": "§ 274(d) covers all four elements together; establishing amount alone, or amount and purpose alone, leaves the time-and-place or relationship element unsubstantiated.",
    "pagePath": "/representation/representation-before-the-irs/supporting-documentation/financial-documents-and-expense-records/",
    "pageTitle": "Financial documents and expense records",
    "source": "page"
@@ -5169,7 +5169,7 @@
     "It shifts the burden of proof to the IRS"
    ],
    "answerIndex": 2,
-   "explanation": "",
+   "explanation": "Contemporaneousness turns on being made at or near the time of the expenditure, not on a year-end cutoff; a log prepared well after the year has ended is a reconstruction and drops to the taxpayer's own statement, needing corroborating evidence of high probative value to support it.",
    "pagePath": "/representation/representation-before-the-irs/supporting-documentation/financial-documents-and-expense-records/",
    "pageTitle": "Financial documents and expense records",
    "source": "page"
@@ -5253,7 +5253,7 @@
     "Instruments where the payments exceed a stated annual amount"
    ],
    "answerIndex": 1,
-   "explanation": "",
+   "explanation": "The repeal turns on the instrument's execution date and, for an older instrument, whether a later modification expressly adopts the amendment.",
    "pagePath": "/representation/representation-before-the-irs/supporting-documentation/legal-documents/",
    "pageTitle": "Legal documents",
    "source": "page"
@@ -5316,7 +5316,7 @@
     "Nothing; reliance on a filed return is unqualified"
    ],
    "answerIndex": 1,
-   "explanation": "",
+   "explanation": "This confirmation requirement is specific to reliance on prior returns and is satisfied by an account transcript, which shows post-filing activity — a return transcript or the taxpayer's file copy shows only the original filing and would not reveal a later adjustment.",
    "pagePath": "/representation/representation-before-the-irs/supporting-documentation/prior-and-subsequent-tax-returns/",
    "pageTitle": "Prior and subsequent tax returns",
    "source": "page"
@@ -5337,7 +5337,7 @@
     "The preparer may not prepare an amended return for a return they did not prepare"
    ],
    "answerIndex": 1,
-   "explanation": "",
+   "explanation": "This is the regulation's own example of permitted reliance, but the duty not to ignore known implications and to inquire into apparently incorrect information still applies.",
    "pagePath": "/representation/representation-before-the-irs/supporting-documentation/prior-and-subsequent-tax-returns/",
    "pageTitle": "Prior and subsequent tax returns",
    "source": "page"
@@ -5358,7 +5358,7 @@
     "They must be produced whenever the earlier year is examined"
    ],
    "answerIndex": 1,
-   "explanation": "",
+   "explanation": "Each of those three reasons bears on strategy — exposure, whether a correction has real cash consequences, and what a consistent method shows about intent.",
    "pagePath": "/representation/representation-before-the-irs/supporting-documentation/prior-and-subsequent-tax-returns/",
    "pageTitle": "Prior and subsequent tax returns",
    "source": "page"
@@ -5379,7 +5379,7 @@
     "A six-year period in all cases"
    ],
    "answerIndex": 1,
-   "explanation": "",
+   "explanation": "Where that period has already closed on the adjacent year, the correlative overpayment is ordinarily unrecoverable even though the examined year's adjustment is correct, absent a statutory exception outside what this page covers.",
    "pagePath": "/representation/representation-before-the-irs/supporting-documentation/prior-and-subsequent-tax-returns/",
    "pageTitle": "Prior and subsequent tax returns",
    "source": "page"
@@ -5421,7 +5421,7 @@
     "At any time before the assessment period expires"
    ],
    "answerIndex": 1,
-   "explanation": "",
+   "explanation": "That deadline is defined by the statute, not by when an examination might begin, and once it passes an acknowledgment obtained later does not cure the omission.",
    "pagePath": "/representation/representation-before-the-irs/supporting-documentation/other-substantive-and-contemporaneous-documentation/",
    "pageTitle": "Other substantive and contemporaneous documentation",
    "source": "page"
@@ -5463,7 +5463,7 @@
     "The burden shifts to the IRS"
    ],
    "answerIndex": 2,
-   "explanation": "",
+   "explanation": "Contemporaneousness turns on being made at or near the time of the expenditure, not on a year-end cutoff; a log prepared well after the year has ended is a reconstruction and drops to a statement needing corroboration of high probative value rather than the automatic weight of an adequate record.",
    "pagePath": "/representation/representation-before-the-irs/supporting-documentation/other-substantive-and-contemporaneous-documentation/",
    "pageTitle": "Other substantive and contemporaneous documentation",
    "source": "page"
@@ -5505,7 +5505,7 @@
     "They substitute for a written acknowledgment of a corporate charitable gift"
    ],
    "answerIndex": 1,
-   "explanation": "",
+   "explanation": "Minutes made at the time read as a record of what was decided; the same words drafted later read as an argument, which is why the general regime treats them as weaker evidence.",
    "pagePath": "/representation/representation-before-the-irs/supporting-documentation/other-substantive-and-contemporaneous-documentation/",
    "pageTitle": "Other substantive and contemporaneous documentation",
    "source": "page"
@@ -6366,7 +6366,7 @@
     "Neither — the conflict is resolved by the competent authority"
    ],
    "answerIndex": 2,
-   "explanation": "IRC § 7852(d)(1).",
+   "explanation": "IRC § 7852(d)(1) provides that neither a treaty nor a revenue law has preferential status by reason of what it is, so the later-enacted provision generally governs.",
    "pagePath": "/representation/representation-before-the-irs/legal-authority-and-references/tax-treaties/",
    "pageTitle": "Tax treaties",
    "source": "page"
@@ -6534,7 +6534,7 @@
     "Starts a 90-day period"
    ],
    "answerIndex": 1,
-   "explanation": "",
+   "explanation": "IRC § 6213(b)(1) provides that a math error notice is not a notice of deficiency, so no Tax Court petition lies on it and § 6213(a)'s assessment bar does not apply — though § 6213(b)(2)(B) separately bars collection while the 60-day abatement window is open.",
    "pagePath": "/representation/representation-before-the-irs/related-issues/post-filing-correspondence/",
    "pageTitle": "Post-filing correspondence (e.g., math error notices, under-reporting notices)",
    "source": "page"
@@ -6555,7 +6555,7 @@
     "Loses the right to contest the item"
    ],
    "answerIndex": 1,
-   "explanation": "IRC § 6213(b)(2)(A).",
+   "explanation": "IRC § 6213(b)(2)(A) requires the Secretary to abate a timely-requested math error assessment without need for any reasons, and any reassessment afterward is subject to the deficiency procedures.",
    "pagePath": "/representation/representation-before-the-irs/related-issues/post-filing-correspondence/",
    "pageTitle": "Post-filing correspondence (e.g., math error notices, under-reporting notices)",
    "source": "page"
@@ -6597,7 +6597,7 @@
     "A disagreement about whether an expense is deductible"
    ],
    "answerIndex": 1,
-   "explanation": "Subparagraph (E).",
+   "explanation": "A credit exceeding a statutory limit is on the § 6213(g)(2) list precisely because the limiting items appear on the return, so the excess is computable without an examination — unlike a valuation, an unreported item found by the IRS, or a deductibility dispute.",
    "pagePath": "/representation/representation-before-the-irs/related-issues/post-filing-correspondence/",
    "pageTitle": "Post-filing correspondence (e.g., math error notices, under-reporting notices)",
    "source": "page"
@@ -6618,7 +6618,7 @@
     "The taxpayer must pay the undisputed portion"
    ],
    "answerIndex": 1,
-   "explanation": "IRC § 6213(b)(2)(B).",
+   "explanation": "IRC § 6213(b)(2)(B) bars any levy or court proceeding for collection while the assessment may still be abated.",
    "pagePath": "/representation/representation-before-the-irs/related-issues/post-filing-correspondence/",
    "pageTitle": "Post-filing correspondence (e.g., math error notices, under-reporting notices)",
    "source": "page"
@@ -7479,7 +7479,7 @@
     "10 years"
    ],
    "answerIndex": 1,
-   "explanation": "IRC § 6161(a)(1).",
+   "explanation": "IRC § 6161(a)(1) governs the period for extending tax shown, or required to be shown, on a return — a shorter period than the deficiency extension in § 6161(b)(1) or the estate tax extension in § 6161(a)(2).",
    "pagePath": "/representation/specific-types-of-representation/representing-a-taxpayer-in-the-collection-process/extension-of-time-to-pay/",
    "pageTitle": "Extension of time to pay (e.g., Form 1127)",
    "source": "page"
@@ -7521,7 +7521,7 @@
     "Penalties and interest are both abated"
    ],
    "answerIndex": 1,
-   "explanation": "Reg. § 1.6161-1(d).",
+   "explanation": "Reg. § 1.6161-1(d) provides that an extension does not relieve the taxpayer of interest during its term, and payment falls due at expiry without notice and demand.",
    "pagePath": "/representation/specific-types-of-representation/representing-a-taxpayer-in-the-collection-process/extension-of-time-to-pay/",
    "pageTitle": "Extension of time to pay (e.g., Form 1127)",
    "source": "page"
@@ -7563,7 +7563,7 @@
     "A bond in every case"
    ],
    "answerIndex": 1,
-   "explanation": "Reg. § 1.6161-1(c).",
+   "explanation": "Reg. § 1.6161-1(c) requires the application to carry evidence of the hardship, a statement of assets and liabilities, and itemised receipts and disbursements for the three preceding months.",
    "pagePath": "/representation/specific-types-of-representation/representing-a-taxpayer-in-the-collection-process/extension-of-time-to-pay/",
    "pageTitle": "Extension of time to pay (e.g., Form 1127)",
    "source": "page"
@@ -7668,7 +7668,7 @@
     "Never; silence is not acceptance"
    ],
    "answerIndex": 1,
-   "explanation": "IRC § 7122(f).",
+   "explanation": "IRC § 7122(f) deems an unanswered offer accepted once the statutory period has run from the date of submission, excluding any time during which the liability is the subject of specified proceedings — the clock runs from submission, not from the last correspondence.",
    "pagePath": "/representation/specific-types-of-representation/representing-a-taxpayer-in-the-collection-process/offer-in-compromise/",
    "pageTitle": "Offer in compromise: grounds, payment terms, and the 24-month rule",
    "source": "page"
@@ -7794,7 +7794,7 @@
     "It gives the taxpayer Tax Court rights"
    ],
    "answerIndex": 1,
-   "explanation": "",
+   "explanation": "Form 9423 is recommended for field Collection cases, but IRM 8.24.1.3.5 honors any written request for a CAP hearing.",
    "pagePath": "/representation/specific-types-of-representation/representing-a-taxpayer-in-the-collection-process/collection-appeals-program/",
    "pageTitle": "Collection Appeals Program: fast review, no Tax Court",
    "source": "page"
@@ -7836,7 +7836,7 @@
     "30 days after filing"
    ],
    "answerIndex": 1,
-   "explanation": "IRC § 6320(a)(3)(B).",
+   "explanation": "IRC § 6320(a)(3)(B) starts the 30-day request period the day after the five-business-day notice window ends, not on the filing date itself.",
    "pagePath": "/representation/specific-types-of-representation/representing-a-taxpayer-in-the-collection-process/collection-appeals-and-due-process/",
    "pageTitle": "Collection due process: lien and levy hearings",
    "source": "page"
@@ -7878,7 +7878,7 @@
     "Six months"
    ],
    "answerIndex": 1,
-   "explanation": "IRC § 6330(d)(1).",
+   "explanation": "IRC § 6330(d)(1) gives the person 30 days from a CDP determination to petition the Tax Court.",
    "pagePath": "/representation/specific-types-of-representation/representing-a-taxpayer-in-the-collection-process/collection-appeals-and-due-process/",
    "pageTitle": "Collection due process: lien and levy hearings",
    "source": "page"
@@ -7920,7 +7920,7 @@
     "Petitions the Tax Court for abatement"
    ],
    "answerIndex": 1,
-   "explanation": "IRC § 6404(b).",
+   "explanation": "IRC § 6404(b) bars a taxpayer from filing a claim for abatement of income tax, so the taxpayer's routes are an audit reconsideration or a refund claim under § 6511, not an abatement request.",
    "pagePath": "/representation/specific-types-of-representation/representing-a-taxpayer-in-the-collection-process/adjustments-to-the-taxpayer-s-account/",
    "pageTitle": "Adjustments to the taxpayer's account (e.g., abatements and refund offsets)",
    "source": "page"
@@ -7941,7 +7941,7 @@
     "Later published as guidance"
    ],
    "answerIndex": 1,
-   "explanation": "IRC § 6404(f).",
+   "explanation": "IRC § 6404(f) makes abatement mandatory only where all four conditions hold — written advice, in response to a specific written request, reasonably relied upon, and not caused by the taxpayer's own incomplete information — and telephone advice fails the written-advice condition regardless of whether the taxpayer's own request was in writing.",
    "pagePath": "/representation/specific-types-of-representation/representing-a-taxpayer-in-the-collection-process/adjustments-to-the-taxpayer-s-account/",
    "pageTitle": "Adjustments to the taxpayer's account (e.g., abatements and refund offsets)",
    "source": "page"
@@ -7962,7 +7962,7 @@
     "Nowhere; no court has jurisdiction and there is no administrative review — the dispute lies with the certifying State"
    ],
    "answerIndex": 3,
-   "explanation": "IRC § 6402(g).",
+   "explanation": "IRC § 6402(g) removes jurisdiction from every federal court to restrain or review a § 6402(e) offset and bars administrative review by the Secretary, leaving the dispute with the State that certified the debt.",
    "pagePath": "/representation/specific-types-of-representation/representing-a-taxpayer-in-the-collection-process/adjustments-to-the-taxpayer-s-account/",
    "pageTitle": "Adjustments to the taxpayer's account (e.g., abatements and refund offsets)",
    "source": "page"
@@ -7983,7 +7983,7 @@
     "State income tax obligations"
    ],
    "answerIndex": 1,
-   "explanation": "IRC § 6402(a).",
+   "explanation": "IRC § 6402(a) lets the IRS credit an overpayment against the person's own internal revenue tax liability before the § 6402(c) through (f) offsets operate, so it comes first in the sequence.",
    "pagePath": "/representation/specific-types-of-representation/representing-a-taxpayer-in-the-collection-process/adjustments-to-the-taxpayer-s-account/",
    "pageTitle": "Adjustments to the taxpayer's account (e.g., abatements and refund offsets)",
    "source": "page"
@@ -8025,7 +8025,7 @@
     "The Tax Court has ruled"
    ],
    "answerIndex": 1,
-   "explanation": "IRM 4.13.1.2.1.",
+   "explanation": "IRM 4.13.1.2.1 conditions audit reconsideration on the assessment still being unpaid (or credits having been reversed) and on the taxpayer bringing new information not considered in the original examination.",
    "pagePath": "/representation/specific-types-of-representation/representing-a-taxpayer-in-the-collection-process/requesting-an-audit-reconsideration/",
    "pageTitle": "Requesting an audit reconsideration (e.g., documents and forms)",
    "source": "page"
@@ -8046,7 +8046,7 @@
     "Form 12661 alone"
    ],
    "answerIndex": 1,
-   "explanation": "Pub. 3598.",
+   "explanation": "Pub. 3598: full payment closes the audit reconsideration route, so the taxpayer must instead file a formal claim on Form 1040-X.",
    "pagePath": "/representation/specific-types-of-representation/representing-a-taxpayer-in-the-collection-process/requesting-an-audit-reconsideration/",
    "pageTitle": "Requesting an audit reconsideration (e.g., documents and forms)",
    "source": "page"
@@ -8067,7 +8067,7 @@
     "One where the IRS made a computational error"
    ],
    "answerIndex": 1,
-   "explanation": "",
+   "explanation": "IRC § 7122: an assessment resulting from an accepted offer in compromise is one of the four assessments that can never be reconsidered.",
    "pagePath": "/representation/specific-types-of-representation/representing-a-taxpayer-in-the-collection-process/requesting-an-audit-reconsideration/",
    "pageTitle": "Requesting an audit reconsideration (e.g., documents and forms)",
    "source": "page"
@@ -8088,7 +8088,7 @@
     "Filing Form 12661 with no return"
    ],
    "answerIndex": 1,
-   "explanation": "IRM 4.13.1.2.",
+   "explanation": "IRM 4.13.1.2 treats filing the original delinquent return itself as the reconsideration request for an assessment made on an IRS-prepared substitute for return.",
    "pagePath": "/representation/specific-types-of-representation/representing-a-taxpayer-in-the-collection-process/requesting-an-audit-reconsideration/",
    "pageTitle": "Requesting an audit reconsideration (e.g., documents and forms)",
    "source": "page"
@@ -8109,7 +8109,7 @@
     "Is renegotiated"
    ],
    "answerIndex": 1,
-   "explanation": "Pub. 3598.",
+   "explanation": "Pub. 3598: an installment agreement already in place must continue to be paid throughout the reconsideration process.",
    "pagePath": "/representation/specific-types-of-representation/representing-a-taxpayer-in-the-collection-process/requesting-an-audit-reconsideration/",
    "pageTitle": "Requesting an audit reconsideration (e.g., documents and forms)",
    "source": "page"
@@ -8130,7 +8130,7 @@
     "Continues for one year"
    ],
    "answerIndex": 1,
-   "explanation": "",
+   "explanation": "A power of attorney terminates at the taxpayer's death; the fiduciary establishes standing on Form 56 under IRC § 6903, then signs a new Form 2848 to authorize the representative.",
    "pagePath": "/representation/specific-types-of-representation/representing-a-taxpayer-in-the-collection-process/representing-a-decedent/",
    "pageTitle": "Representing a decedent",
    "source": "page"
@@ -8151,7 +8151,7 @@
     "Liable only for interest"
    ],
    "answerIndex": 1,
-   "explanation": "",
+   "explanation": "31 U.S.C. § 3713(b) makes a representative personally liable, to the extent of the payment, for paying any part of the estate's debts before satisfying the Government's claim — the priority itself attaches under § 3713(a) where the estate is insufficient to pay all debts, so a solvent estate that can still cover the federal claim after the earlier payment presents no exposure.",
    "pagePath": "/representation/specific-types-of-representation/representing-a-taxpayer-in-the-collection-process/representing-a-decedent/",
    "pageTitle": "Representing a decedent",
    "source": "page"
@@ -8214,7 +8214,7 @@
     "Form 4810"
    ],
    "answerIndex": 1,
-   "explanation": "",
+   "explanation": "Form 1310 is filed by the person claiming a deceased taxpayer's refund, and a surviving relative claiming without court appointment is not exempt from that requirement.",
    "pagePath": "/representation/specific-types-of-representation/representing-a-taxpayer-in-the-collection-process/representing-a-decedent/",
    "pageTitle": "Representing a decedent",
    "source": "page"
@@ -8235,7 +8235,7 @@
     "When a levy is served"
    ],
    "answerIndex": 1,
-   "explanation": "IRC § 6321, § 6322.",
+   "explanation": "IRC § 6321, § 6322: the lien arises by operation of law when a person neglects or refuses to pay after demand, dating from the assessment, with no filing required for it to exist.",
    "pagePath": "/representation/specific-types-of-representation/representing-a-taxpayer-in-the-collection-process/collection-notice-and-notice-of-federal-tax-lien/",
    "pageTitle": "Collection notice and Notice of Federal Tax Lien",
    "source": "page"
@@ -8256,7 +8256,7 @@
     "The taxpayer's right to an installment agreement"
    ],
    "answerIndex": 1,
-   "explanation": "IRC § 6323(a).",
+   "explanation": "IRC § 6323(a) makes filing about priority against those four classes of third party, not about the taxpayer's underlying liability, which the lien already covers without any filing.",
    "pagePath": "/representation/specific-types-of-representation/representing-a-taxpayer-in-the-collection-process/collection-notice-and-notice-of-federal-tax-lien/",
    "pageTitle": "Collection notice and Notice of Federal Tax Lien",
    "source": "page"
@@ -8277,7 +8277,7 @@
     "Withdrawal of the notice"
    ],
    "answerIndex": 1,
-   "explanation": "IRC § 6325(b).",
+   "explanation": "IRC § 6325(b) removes the specific property from the lien while leaving the lien on everything else, which is what a sale needs when the liability is not satisfied — release under § 6325(a) is unavailable here since the debt remains unpaid.",
    "pagePath": "/representation/specific-types-of-representation/representing-a-taxpayer-in-the-collection-process/collection-notice-and-notice-of-federal-tax-lien/",
    "pageTitle": "Collection notice and Notice of Federal Tax Lien",
    "source": "page"
@@ -8298,7 +8298,7 @@
     "Ten years have passed since assessment"
    ],
    "answerIndex": 1,
-   "explanation": "IRC § 6323(j)(1)(B).",
+   "explanation": "IRC § 6323(j)(1)(B) names entry into a § 6159 installment agreement as one of the four express grounds for withdrawal, unless the agreement itself provides otherwise.",
    "pagePath": "/representation/specific-types-of-representation/representing-a-taxpayer-in-the-collection-process/collection-notice-and-notice-of-federal-tax-lien/",
    "pageTitle": "Collection notice and Notice of Federal Tax Lien",
    "source": "page"
@@ -8319,7 +8319,7 @@
     "Begins on the date of assessment"
    ],
    "answerIndex": 1,
-   "explanation": "IRC § 6320(a)(2), (a)(3)(B).",
+   "explanation": "IRC § 6320(a)(2), (a)(3)(B): notice must go out within five business days of filing, and the 30-day request period begins the day after that five-business-day period ends, not on the filing date or the letter's receipt.",
    "pagePath": "/representation/specific-types-of-representation/representing-a-taxpayer-in-the-collection-process/collection-notice-and-notice-of-federal-tax-lien/",
    "pageTitle": "Collection notice and Notice of Federal Tax Lien",
    "source": "page"
@@ -8340,7 +8340,7 @@
     "Expires after 30 days"
    ],
    "answerIndex": 1,
-   "explanation": "IRC § 6331(e).",
+   "explanation": "IRC § 6331(e) makes a levy on salary or wages continuous from the date first made until released under § 6343, unlike an ordinary levy, which under § 6331(b) reaches only property and obligations existing at the time of service.",
    "pagePath": "/representation/specific-types-of-representation/representing-a-taxpayer-in-the-collection-process/levy-and-seizure-of-taxpayer-s-property/",
    "pageTitle": "Levy and seizure of taxpayer's property",
    "source": "page"
@@ -8403,7 +8403,7 @@
     "The taxpayer has moved"
    ],
    "answerIndex": 1,
-   "explanation": "IRC § 6343(a)(1)(D).",
+   "explanation": "IRC § 6343(a)(1)(D) requires release where the levy is creating an economic hardship given the taxpayer's financial condition; disputing the tax, requesting audit reconsideration, or having moved are not among the five statutory release grounds.",
    "pagePath": "/representation/specific-types-of-representation/representing-a-taxpayer-in-the-collection-process/levy-and-seizure-of-taxpayer-s-property/",
    "pageTitle": "Levy and seizure of taxpayer's property",
    "source": "page"
@@ -8424,7 +8424,7 @@
     "Within one year, at fair market value"
    ],
    "answerIndex": 1,
-   "explanation": "IRC § 6337(b).",
+   "explanation": "IRC § 6337(b) gives the owner of real property sold at a levy sale a redemption right for the period the statute sets, on payment of the purchase price plus statutory interest — not indefinitely, and not simply at fair market value.",
    "pagePath": "/representation/specific-types-of-representation/representing-a-taxpayer-in-the-collection-process/levy-and-seizure-of-taxpayer-s-property/",
    "pageTitle": "Levy and seizure of taxpayer's property",
    "source": "page"
@@ -8466,7 +8466,7 @@
     "Has no assets of any kind"
    ],
    "answerIndex": 1,
-   "explanation": "IRM 5.16.1.2.9, from Reg. § 301.6343-1(b)(4)(ii).",
+   "explanation": "IRM 5.16.1.2.9, drawing on Reg. § 301.6343-1(b)(4)(ii), sets the hardship standard as inability to pay reasonable basic living expenses — not a bankruptcy filing, a dollar threshold, or the absence of any assets.",
    "pagePath": "/representation/specific-types-of-representation/representing-a-taxpayer-in-the-collection-process/currently-not-collectable/",
    "pageTitle": "Currently Not Collectable (e.g., reasons and reactivation)",
    "source": "page"
@@ -8487,7 +8487,7 @@
     "The collection period is suspended"
    ],
    "answerIndex": 1,
-   "explanation": "",
+   "explanation": "Hardship cases reactivate systemically as income rises (IRM 5.16.1.2, 5.16.1.6), and IRM 5.16.1.3.4 requires taxpayers be advised that interest and penalties keep accruing while collection is suspended.",
    "pagePath": "/representation/specific-types-of-representation/representing-a-taxpayer-in-the-collection-process/currently-not-collectable/",
    "pageTitle": "Currently Not Collectable (e.g., reasons and reactivation)",
    "source": "page"
@@ -8529,7 +8529,7 @@
     "Available only with a Form 433-B"
    ],
    "answerIndex": 1,
-   "explanation": "IRM 5.16.1.2.9.",
+   "explanation": "IRM 5.16.1.2.9's hardship standard requires inability to pay reasonable basic living expenses, so income available for even modest payments without hardship defeats the determination.",
    "pagePath": "/representation/specific-types-of-representation/representing-a-taxpayer-in-the-collection-process/currently-not-collectable/",
    "pageTitle": "Currently Not Collectable (e.g., reasons and reactivation)",
    "source": "page"
@@ -8592,7 +8592,7 @@
     "Is unaffected"
    ],
    "answerIndex": 1,
-   "explanation": "IRC § 7602(d)(1).",
+   "explanation": "IRC § 7602(d) bars issuing a summons and bars beginning a § 7604 enforcement action to enforce one while a Justice Department referral is in effect against that person — it does not reach other collection measures such as a levy.",
    "pagePath": "/representation/specific-types-of-representation/representing-a-taxpayer-in-the-collection-process/irs-collection-summons/",
    "pageTitle": "IRS Collection Summons (e.g., purposes)",
    "source": "page"
@@ -8613,7 +8613,7 @@
     "Never"
    ],
    "answerIndex": 1,
-   "explanation": "IRC § 7605(b).",
+   "explanation": "IRC § 7605(b) limits the IRS to one inspection of a taxpayer's books per taxable year unless the taxpayer requests otherwise or the Secretary gives written notice that a further inspection is necessary.",
    "pagePath": "/representation/specific-types-of-representation/representing-a-taxpayer-in-the-collection-process/irs-collection-summons/",
    "pageTitle": "IRS Collection Summons (e.g., purposes)",
    "source": "page"
@@ -8655,7 +8655,7 @@
     "The date of the first collection notice"
    ],
    "answerIndex": 1,
-   "explanation": "IRC § 6502(a)(1).",
+   "explanation": "IRC § 6502(a)(1) runs the collection period from assessment, not from the return, its due date, or any collection notice.",
    "pagePath": "/representation/specific-types-of-representation/representing-a-taxpayer-in-the-collection-process/collections-statute-of-limitations/",
    "pageTitle": "Collections statute of limitations",
    "source": "page"
@@ -8676,7 +8676,7 @@
     "Is suspended for a flat 12 months"
    ],
    "answerIndex": 1,
-   "explanation": "IRC § 6330(e)(1).",
+   "explanation": "IRC § 6330(e)(1) suspends the collection period for as long as the hearing and any appeal are pending and adds a floor so it cannot expire before the 90th day after the final determination.",
    "pagePath": "/representation/specific-types-of-representation/representing-a-taxpayer-in-the-collection-process/collections-statute-of-limitations/",
    "pageTitle": "Collections statute of limitations",
    "source": "page"
@@ -8697,7 +8697,7 @@
     "Restarts on his return"
    ],
    "answerIndex": 1,
-   "explanation": "IRC § 6503(c).",
+   "explanation": "IRC § 6503(c) suspends the collection period for the time the taxpayer is outside the United States, with a tail running after the taxpayer's return.",
    "pagePath": "/representation/specific-types-of-representation/representing-a-taxpayer-in-the-collection-process/collections-statute-of-limitations/",
    "pageTitle": "Collections statute of limitations",
    "source": "page"
@@ -8718,7 +8718,7 @@
     "The date the levy is approved internally"
    ],
    "answerIndex": 1,
-   "explanation": "IRC § 6502(b).",
+   "explanation": "IRC § 6502(b) fixes the date of a levy as the date the § 6335(a) notice of seizure is given, even where the levy was served earlier and the seizure happens afterward.",
    "pagePath": "/representation/specific-types-of-representation/representing-a-taxpayer-in-the-collection-process/collections-statute-of-limitations/",
    "pageTitle": "Collections statute of limitations",
    "source": "page"
@@ -8739,7 +8739,7 @@
     "Returned as unprocessable"
    ],
    "answerIndex": 1,
-   "explanation": "IRC § 7122(f).",
+   "explanation": "IRC § 7122(f) deems an offer accepted if not rejected within 24 months of submission, and with no judicial proceeding pending there is no dispute period to exclude from that count.",
    "pagePath": "/representation/specific-types-of-representation/representing-a-taxpayer-in-the-collection-process/collections-statute-of-limitations/",
    "pageTitle": "Collections statute of limitations",
    "source": "page"
@@ -8760,7 +8760,7 @@
     "The unpaid tax plus penalties and interest"
    ],
    "answerIndex": 1,
-   "explanation": "IRC § 6672(a).",
+   "explanation": "IRC § 6672(a): the penalty applies to a person required to collect, truthfully account for, and pay over the tax, and equals that trust fund portion — not the employer's full liability or its interest and penalties.",
    "pagePath": "/representation/specific-types-of-representation/representing-a-taxpayer-in-the-collection-process/trust-fund-recovery-penalty/",
    "pageTitle": "Trust fund recovery penalty",
    "source": "page"
@@ -8781,7 +8781,7 @@
     "Actual knowledge in every case"
    ],
    "answerIndex": 1,
-   "explanation": "IRM 5.7.3.4.2.",
+   "explanation": "IRM 5.7.3.4.2 defines willfulness as intentional, deliberate, voluntary, reckless or knowing conduct, expressly not requiring a bad motive or intent to defraud.",
    "pagePath": "/representation/specific-types-of-representation/representing-a-taxpayer-in-the-collection-process/trust-fund-recovery-penalty/",
    "pageTitle": "Trust fund recovery penalty",
    "source": "page"
@@ -8802,7 +8802,7 @@
     "The failure exceeded one quarter"
    ],
    "answerIndex": 1,
-   "explanation": "IRC § 6672(e).",
+   "explanation": "IRC § 6672(e): the volunteer board member exception does not apply if applying it would leave no person liable for the penalty.",
    "pagePath": "/representation/specific-types-of-representation/representing-a-taxpayer-in-the-collection-process/trust-fund-recovery-penalty/",
    "pageTitle": "Trust fund recovery penalty",
    "source": "page"
@@ -8823,7 +8823,7 @@
     "Cannot later claim a refund"
    ],
    "answerIndex": 1,
-   "explanation": "IRM 5.7.4.2.4.",
+   "explanation": "IRM 5.7.4.2.4 does not treat a signed Form 2751 as conclusive of the assessment until the restriction period expires, so appeal rights survive the signature.",
    "pagePath": "/representation/specific-types-of-representation/representing-a-taxpayer-in-the-collection-process/trust-fund-recovery-penalty/",
    "pageTitle": "Trust fund recovery penalty",
    "source": "page"
@@ -8844,7 +8844,7 @@
     "Nothing; there is no right of contribution"
    ],
    "answerIndex": 1,
-   "explanation": "IRC § 6672(d).",
+   "explanation": "IRC § 6672(d): a person who pays more than their proportionate share may recover from the others only in a separate proceeding, not joined or consolidated with the government's collection action.",
    "pagePath": "/representation/specific-types-of-representation/representing-a-taxpayer-in-the-collection-process/trust-fund-recovery-penalty/",
    "pageTitle": "Trust fund recovery penalty",
    "source": "page"
@@ -8865,7 +8865,7 @@
     "There is no deadline"
    ],
    "answerIndex": 1,
-   "explanation": "IRC § 6511(a).",
+   "explanation": "IRC § 6511(a) runs the three-year-from-filing and two-year-from-payment periods in parallel, and the later of the two governs.",
    "pagePath": "/representation/specific-types-of-representation/representing-a-taxpayer-in-the-collection-process/amended-returns-and-claims-for-refund/",
    "pageTitle": "Amended returns and claims for refund (e.g., Form 1040X, Form 843, effect on statute of limitations)",
    "source": "page"
@@ -8886,7 +8886,7 @@
     "Nothing"
    ],
    "answerIndex": 1,
-   "explanation": "IRC § 6511(b)(2)(B).",
+   "explanation": "IRC § 6511(b)(2)(B) caps the refund at tax paid in the two years before the claim once the claim is filed outside the three-year period but within the two-year one.",
    "pagePath": "/representation/specific-types-of-representation/representing-a-taxpayer-in-the-collection-process/amended-returns-and-claims-for-refund/",
    "pageTitle": "Amended returns and claims for refund (e.g., Form 1040X, Form 843, effect on statute of limitations)",
    "source": "page"
@@ -8928,7 +8928,7 @@
     "Two years of payment"
    ],
    "answerIndex": 1,
-   "explanation": "IRC § 6511(d)(1).",
+   "explanation": "IRC § 6511(d)(1) gives seven years from the date prescribed for filing the return for the year the security became worthless, replacing the general three-year period for that claim.",
    "pagePath": "/representation/specific-types-of-representation/representing-a-taxpayer-in-the-collection-process/amended-returns-and-claims-for-refund/",
    "pageTitle": "Amended returns and claims for refund (e.g., Form 1040X, Form 843, effect on statute of limitations)",
    "source": "page"
@@ -8970,7 +8970,7 @@
     "That the taxpayer has been convicted of a tax offence"
    ],
    "answerIndex": 3,
-   "explanation": "",
+   "explanation": "Of the choices tested here, IRC § 7345(b)(1) requires that the debt be assessed, exceed the indexed threshold, and have a filed lien with exhausted or lapsed § 6320 rights or a levy — on top of being an individual's unpaid, legally enforceable liability in the first place — but a criminal conviction is not a condition at all.",
    "pagePath": "/representation/specific-types-of-representation/representing-a-taxpayer-in-the-collection-process/passport-revocation/",
    "pageTitle": "Passport revocation",
    "source": "page"
@@ -8991,7 +8991,7 @@
     "Is excluded only if the taxpayer prevails"
    ],
    "answerIndex": 1,
-   "explanation": "IRC § 7345(b)(2)(B)(i).",
+   "explanation": "IRC § 7345(b)(2)(B)(i) excludes a debt from being seriously delinquent while collection is suspended because a § 6330 due process hearing is requested or pending.",
    "pagePath": "/representation/specific-types-of-representation/representing-a-taxpayer-in-the-collection-process/passport-revocation/",
    "pageTitle": "Passport revocation",
    "source": "page"
@@ -9012,7 +9012,7 @@
     "The Taxpayer Advocate Service only"
    ],
    "answerIndex": 1,
-   "explanation": "IRC § 7345(e)(1).",
+   "explanation": "IRC § 7345(e) provides judicial review only, in a district court or the Tax Court — certification carries no CDP hearing and no Appeals review.",
    "pagePath": "/representation/specific-types-of-representation/representing-a-taxpayer-in-the-collection-process/passport-revocation/",
    "pageTitle": "Passport revocation",
    "source": "page"
@@ -9054,7 +9054,7 @@
     "Only on the taxpayer's request"
    ],
    "answerIndex": 1,
-   "explanation": "IRC § 7345(c)(2)(C).",
+   "explanation": "IRC § 7345(c)(2)(C) requires the IRS to notify of the reversal within 30 days of the installment agreement being entered into.",
    "pagePath": "/representation/specific-types-of-representation/representing-a-taxpayer-in-the-collection-process/passport-revocation/",
    "pageTitle": "Passport revocation",
    "source": "page"
@@ -9075,7 +9075,7 @@
     "25 percent immediately"
    ],
    "answerIndex": 1,
-   "explanation": "IRC § 6651(c)(1).",
+   "explanation": "IRC § 6651(c)(1) reduces the failure-to-file addition by the failure-to-pay addition for months where both apply, so the combined rate runs at 5 percent rather than the sum of both.",
    "pagePath": "/representation/specific-types-of-representation/penalties-and-or-interest-abatement/penalties-subject-to-abatement/",
    "pageTitle": "Which penalties can be abated",
    "source": "page"
@@ -9138,7 +9138,7 @@
     "IRM 20.1.1"
    ],
    "answerIndex": 1,
-   "explanation": "Section 6404(a)(2).",
+   "explanation": "IRC § 6404(a) authorizes the Secretary to abate an assessment made after the limitations period for assessment has expired.",
    "pagePath": "/representation/specific-types-of-representation/penalties-and-or-interest-abatement/penalties-subject-to-abatement/",
    "pageTitle": "Which penalties can be abated",
    "source": "page"
@@ -9180,7 +9180,7 @@
     "Had no examinations"
    ],
    "answerIndex": 1,
-   "explanation": "IRM 20.1.1.3.3.2.1.",
+   "explanation": "IRM 20.1.1.3.3.2.1 sets the clean-compliance-history test as the same return filed for the prior three years with no unreversed penalty other than an estimated tax penalty, or no filing requirement at all — not a tax-owed or representation condition.",
    "pagePath": "/representation/specific-types-of-representation/penalties-and-or-interest-abatement/basis-for-having-penalties-abated-or-refunded/",
    "pageTitle": "Grounds for abating or refunding a penalty",
    "source": "page"
@@ -10188,7 +10188,7 @@
     "Starts the 90-day Tax Court period"
    ],
    "answerIndex": 1,
-   "explanation": "",
+   "explanation": "The notice is generated by a computer match of third-party income information against the return and proposes changes; the IRS states expressly that it is not a bill and no tax has been assessed.",
    "pagePath": "/representation/specific-types-of-representation/representing-a-taxpayer-in-audits-examinations/interpretation-and-analysis-of-cp-2000-notice/",
    "pageTitle": "Interpretation and analysis of CP-2000 notice and correspondence audits",
    "source": "page"
@@ -10209,7 +10209,7 @@
     "Petition the Tax Court"
    ],
    "answerIndex": 1,
-   "explanation": "",
+   "explanation": "The IRS states plainly that where the taxpayer agrees and has no other income, credits or expenses to report, signing and returning the response form is enough and no amended return is needed.",
    "pagePath": "/representation/specific-types-of-representation/representing-a-taxpayer-in-audits-examinations/interpretation-and-analysis-of-cp-2000-notice/",
    "pageTitle": "Interpretation and analysis of CP-2000 notice and correspondence audits",
    "source": "page"
@@ -10230,7 +10230,7 @@
     "File Form 2848"
    ],
    "answerIndex": 1,
-   "explanation": "",
+   "explanation": "Where a taxpayer agrees but has other items the CP2000 did not address, the page requires filing Form 1040-X marked \"CP2000\" and submitting it with the response form.",
    "pagePath": "/representation/specific-types-of-representation/representing-a-taxpayer-in-audits-examinations/interpretation-and-analysis-of-cp-2000-notice/",
    "pageTitle": "Interpretation and analysis of CP-2000 notice and correspondence audits",
    "source": "page"
@@ -10251,7 +10251,7 @@
     "Three years after the return was filed"
    ],
    "answerIndex": 1,
-   "explanation": "IRC § 6213(a).",
+   "explanation": "IRC § 6213(a): the 90-day period runs from the mailing of the notice of deficiency, not from the CP2000, is jurisdictional, and cannot be extended.",
    "pagePath": "/representation/specific-types-of-representation/representing-a-taxpayer-in-audits-examinations/interpretation-and-analysis-of-cp-2000-notice/",
    "pageTitle": "Interpretation and analysis of CP-2000 notice and correspondence audits",
    "source": "page"
@@ -10272,7 +10272,7 @@
     "May assess but not levy"
    ],
    "answerIndex": 1,
-   "explanation": "IRC § 6213(a).",
+   "explanation": "IRC § 6213(a) bars any assessment, levy, or court collection proceeding during the petition period and while a Tax Court case remains pending until the decision is final.",
    "pagePath": "/representation/specific-types-of-representation/representing-a-taxpayer-in-audits-examinations/interpretation-and-analysis-of-cp-2000-notice/",
    "pageTitle": "Interpretation and analysis of CP-2000 notice and correspondence audits",
    "source": "page"
@@ -10461,7 +10461,7 @@
     "The petitioner, by clear and convincing evidence"
    ],
    "answerIndex": 2,
-   "explanation": "IRC § 7454(a) and Tax Court Rule 142(b).",
+   "explanation": "IRC § 7454(a) and Tax Court Rule 142(b) place the burden of proving fraud on the Commissioner (the respondent), and hold it to clear and convincing evidence rather than the ordinary preponderance standard.",
    "pagePath": "/representation/specific-types-of-representation/representing-a-taxpayer-in-audits-examinations/taxpayer-s-burden-of-proof/",
    "pageTitle": "Taxpayer's burden of proof",
    "source": "page"
@@ -11028,7 +11028,7 @@
     "Yes, provided the preparer installs the vendor's correction"
    ],
    "answerIndex": 2,
-   "explanation": "",
+   "explanation": "Reg. § 1.6694-2(e)(1) withholds the exception from any error that would have been apparent from a general review of the return, regardless of where the error originated.",
    "pagePath": "/representation/completion-of-the-filing-process/accuracy/reliance-on-software/",
    "pageTitle": "Reliance on software",
    "source": "page"
@@ -11112,7 +11112,7 @@
     "It applies to the first ten returns only"
    ],
    "answerIndex": 2,
-   "explanation": "",
+   "explanation": "Reg. § 1.6694-2(e)(4) withdraws the normal-office-practice exception entirely where there is a repetition of the same or similar error on numerous returns, so the pattern itself defeats it.",
    "pagePath": "/representation/completion-of-the-filing-process/accuracy/reliance-on-software/",
    "pageTitle": "Reliance on software",
    "source": "page"
@@ -11175,7 +11175,7 @@
     "No; the exception never applies to arithmetic"
    ],
    "answerIndex": 2,
-   "explanation": "",
+   "explanation": "An isolated arithmetic error generally qualifies for the exception, but that protection withdraws where the error is obvious enough that a general review should have caught it.",
    "pagePath": "/representation/completion-of-the-filing-process/accuracy/miscalculations-and-recognition-of-duplicate-entries/",
    "pageTitle": "Miscalculations and recognition of duplicate entries",
    "source": "page"
@@ -11280,7 +11280,7 @@
     "Indefinitely"
    ],
    "answerIndex": 1,
-   "explanation": "",
+   "explanation": "Employment tax records carry their own four-year retention rule, distinct from the general three-year and six-year income tax periods.",
    "pagePath": "/representation/completion-of-the-filing-process/record-maintenance/length-of-time-to-retain-returns-and-records/",
    "pageTitle": "Length of time to retain returns and records",
    "source": "page"
@@ -11553,7 +11553,7 @@
     "Exempt, as a firm member"
    ],
    "answerIndex": 1,
-   "explanation": "Reg. § 301.6011-7(a)(3).",
+   "explanation": "Reg. § 301.6011-7(a)(3): the count aggregates all of a firm's members, so the firm's 40 expected returns make her a specified tax return preparer even though she personally expects to file only 8.",
    "pagePath": "/representation/completion-of-the-filing-process/electronic-filing/e-file-mandate-and-exceptions-form-8948/",
    "pageTitle": "E-file mandate and exceptions (Form 8948)",
    "source": "page"
@@ -11595,7 +11595,7 @@
     "An undue hardship waiver"
    ],
    "answerIndex": 1,
-   "explanation": "Reg. § 301.6011-7(a)(4)(ii).",
+   "explanation": "Reg. § 301.6011-7(a)(4)(ii): the mandate does not apply only where the preparer obtains a hand-signed, dated statement made on or before the filing date, in which the taxpayer chooses paper and agrees to submit the return themselves.",
    "pagePath": "/representation/completion-of-the-filing-process/electronic-filing/e-file-mandate-and-exceptions-form-8948/",
    "pageTitle": "E-file mandate and exceptions (Form 8948)",
    "source": "page"
@@ -11637,7 +11637,7 @@
     "Within 30 days of the return's due date"
    ],
    "answerIndex": 2,
-   "explanation": "Rev. Proc. 2011-25 § 7.02.",
+   "explanation": "Rev. Proc. 2011-25 § 7.02: the page notes the window closes on 15 February of the applicable year, with late requests considered only in unusual, unforeseen and unavoidable circumstances.",
    "pagePath": "/representation/completion-of-the-filing-process/electronic-filing/e-file-mandate-and-exceptions-form-8948/",
    "pageTitle": "E-file mandate and exceptions (Form 8948)",
    "source": "page"
@@ -11868,7 +11868,7 @@
     "By whether the provider is an ERO or a transmitter"
    ],
    "answerIndex": 1,
-   "explanation": "",
+   "explanation": "The grading turns on the effect on return quality or on e-file itself, not on the dollar amount or the provider's role.",
    "pagePath": "/representation/completion-of-the-filing-process/electronic-filing/levels-of-infractions/",
    "pageTitle": "Levels of infractions",
    "source": "page"
@@ -11952,7 +11952,7 @@
     "Never"
    ],
    "answerIndex": 2,
-   "explanation": "",
+   "explanation": "Reconsideration runs from the date of expulsion or, if later, from completing rehabilitation — not from the date of the underlying conduct.",
    "pagePath": "/representation/completion-of-the-filing-process/electronic-filing/levels-of-infractions/",
    "pageTitle": "Levels of infractions",
    "source": "page"
@@ -11973,7 +11973,7 @@
     "Whenever the EFIN prefix changes"
    ],
    "answerIndex": 2,
-   "explanation": "",
+   "explanation": "Acceptance is not an annual licence; both halves of the condition — continued e-filing and continued suitability — must hold, or the IRS may remove or sanction the provider.",
    "pagePath": "/representation/completion-of-the-filing-process/electronic-filing/compliance-requirements-to-continue-in-program/",
    "pageTitle": "Compliance requirements to continue in the program",
    "source": "page"
@@ -12057,7 +12057,7 @@
     "Filing the returns, regardless of the balance"
    ],
    "answerIndex": 1,
-   "explanation": "",
+   "explanation": "The tax compliance element is specific to returns filed and balances due paid or covered by an installment agreement — an unpaid, uncovered balance remains a live suitability problem.",
    "pagePath": "/representation/completion-of-the-filing-process/electronic-filing/compliance-requirements-to-continue-in-program/",
    "pageTitle": "Compliance requirements to continue in the program",
    "source": "page"
@@ -12141,7 +12141,7 @@
     "Reconsideration after one year"
    ],
    "answerIndex": 2,
-   "explanation": "",
+   "explanation": "Publication 3112 is explicit that a revocation grounded in a federal court order or a federal or state legal action carries no administrative review; the only route back is the injunction's expiration or reversal.",
    "pagePath": "/representation/completion-of-the-filing-process/electronic-filing/efin-revocation-appeal-process/",
    "pageTitle": "EFIN revocation appeal process",
    "source": "page"
@@ -12225,7 +12225,7 @@
     "Destroy it once the return is accepted"
    ],
    "answerIndex": 2,
-   "explanation": "",
+   "explanation": "Form 8879 is not filed with the return; the ERO keeps it on the retention schedule and produces it to the IRS only if asked.",
    "pagePath": "/representation/completion-of-the-filing-process/electronic-filing/e-file-authorization-and-supporting-documentation/",
    "pageTitle": "E-file authorization and supporting documentation",
    "source": "page"

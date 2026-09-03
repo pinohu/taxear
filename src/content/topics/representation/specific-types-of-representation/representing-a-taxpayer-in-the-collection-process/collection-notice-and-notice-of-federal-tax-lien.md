@@ -128,20 +128,20 @@ Separate the lien from the notice, and be able to say what filing achieves. Know
 
 **1. The federal tax lien under IRC 6321 arises:**
 (A) When the notice of lien is filed (B) At the time the assessment is made, on neglect or refusal to pay after demand (C) When the CDP notice is issued (D) When a levy is served
-*Answer: B. IRC § 6321, § 6322.*
+*Answer: B. IRC § 6321, § 6322: the lien arises by operation of law when a person neglects or refuses to pay after demand, dating from the assessment, with no filing required for it to exist.*
 
 **2. Filing a Notice of Federal Tax Lien primarily affects:**
 (A) The amount the taxpayer owes (B) The lien's validity against purchasers, holders of security interests, mechanic's lienors and judgment lien creditors (C) The collection statute (D) The taxpayer's right to an installment agreement
-*Answer: B. IRC § 6323(a).*
+*Answer: B. IRC § 6323(a) makes filing about priority against those four classes of third party, not about the taxpayer's underlying liability, which the lien already covers without any filing.*
 
 **3. A client wants to sell one parcel while owing far more than its equity. The correct request is:**
 (A) Release of the lien (B) Discharge of that property from the lien (C) Subordination (D) Withdrawal of the notice
-*Answer: B. IRC § 6325(b).*
+*Answer: B. IRC § 6325(b) removes the specific property from the lien while leaving the lien on everything else, which is what a sale needs when the liability is not satisfied — release under § 6325(a) is unavailable here since the debt remains unpaid.*
 
 **4. Which is an express statutory ground for withdrawing a notice of lien?**
 (A) The taxpayer disputes the liability (B) The taxpayer has entered into an installment agreement under § 6159 (C) The taxpayer has moved states (D) Ten years have passed since assessment
-*Answer: B. IRC § 6323(j)(1)(B).*
+*Answer: B. IRC § 6323(j)(1)(B) names entry into a § 6159 installment agreement as one of the four express grounds for withdrawal, unless the agreement itself provides otherwise.*
 
 **5. A notice of lien is filed on 1 June. The 30-day CDP request period:**
 (A) Begins on 1 June (B) Begins the day after the five-business-day period following the filing (C) Begins when the taxpayer receives the letter (D) Begins on the date of assessment
-*Answer: B. IRC § 6320(a)(2), (a)(3)(B).*
+*Answer: B. IRC § 6320(a)(2), (a)(3)(B): notice must go out within five business days of filing, and the 30-day request period begins the day after that five-business-day period ends, not on the filing date or the letter's receipt.*

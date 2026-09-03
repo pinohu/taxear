@@ -120,15 +120,15 @@ The four benefits and the four requirements, in both cases as lists you can reci
 
 **1. A return claims head of household status, the EIC and the CTC, with due diligence failed on all three. The number of IRC 6695(g) penalties is:**
 (A) One, because it is one return (B) Three, one per determination (C) One, capped annually (D) Two, filing status not counting
-*Answer: B. Reg. § 1.6695-2(a)(1).*
+*Answer: B. Reg. § 1.6695-2(a)(1) imposes the penalty per failure to meet the due diligence requirements as to each applicable credit or filing status determination, so three failed determinations on one return draw three separate penalties.*
 
 **2. A nonsigning tax return preparer satisfies the Form 8867 requirement by:**
 (A) Filing it with the IRS directly (B) Providing the completed form to the signing preparer for inclusion with the filed return (C) Retaining it in the file (D) Nothing; the duty falls on the signer alone
-*Answer: B. Reg. § 1.6695-2(b)(1)(i)(C).*
+*Answer: B. Reg. § 1.6695-2(b): a nonsigning preparer satisfies the Form 8867 requirement by giving the completed form to the signing preparer for inclusion with the filed return.*
 
 **3. A preparer telephones a client to resolve an apparent inconsistency, is satisfied, and files. No note is made. The knowledge requirement is:**
 (A) Satisfied, the inquiry having been made (B) Not satisfied, because inquiries and responses must be contemporaneously documented (C) Satisfied if the answer was correct (D) Inapplicable to telephone inquiries
-*Answer: B.*
+*Answer: B. Reg. § 1.6695-2(b)(3)(i): inquiries and the responses to them must be documented contemporaneously, so an inquiry that was made but not recorded does not satisfy the knowledge requirement.*
 
 **4. The exception in Reg. 1.6695-2(d) requires the preparer to show:**
 (A) Reasonable cause (B) Both that normal office procedures are reasonably designed and routinely followed, and that the failure was isolated and inadvertent (C) That the client misled the preparer (D) That the credit was ultimately allowable
@@ -136,4 +136,4 @@ The four benefits and the four requirements, in both cases as lists you can reci
 
 **5. A firm employing a penalised preparer is itself liable:**
 (A) Automatically (B) Only if management participated or knew, the firm failed to establish reasonable procedures, or it disregarded its own procedures through willfulness, recklessness or gross indifference (C) Only if it is a partnership (D) Never
-*Answer: B. Reg. § 1.6695-2(c).*
+*Answer: B. Reg. § 1.6695-2(c) sets three independent grounds for the firm's own liability, so a firm with none of those failures is not automatically liable merely for employing a penalised preparer.*

@@ -133,20 +133,20 @@ Ten years from assessment, and know that it is assessment rather than filing. Be
 
 **1. The ten-year collection period runs from:**
 (A) The due date of the return (B) The date of assessment (C) The date the return was filed (D) The date of the first collection notice
-*Answer: B. IRC § 6502(a)(1).*
+*Answer: B. IRC § 6502(a)(1) runs the collection period from assessment, not from the return, its due date, or any collection notice.*
 
 **2. A taxpayer requests a CDP hearing. The collection period:**
 (A) Is unaffected (B) Is suspended while the hearing and appeals are pending, and cannot expire before the 90th day after the final determination (C) Restarts at ten years (D) Is suspended for a flat 12 months
-*Answer: B. IRC § 6330(e)(1).*
+*Answer: B. IRC § 6330(e)(1) suspends the collection period for as long as the hearing and any appeal are pending and adds a floor so it cannot expire before the 90th day after the final determination.*
 
 **3. A taxpayer is outside the United States for eight continuous months. The collection period:**
 (A) Is unaffected (B) Is suspended for that period, and will not expire before six months after his return (C) Is suspended only if he was avoiding collection (D) Restarts on his return
-*Answer: B. IRC § 6503(c).*
+*Answer: B. IRC § 6503(c) suspends the collection period for the time the taxpayer is outside the United States, with a tail running after the taxpayer's return.*
 
 **4. For purposes of the collection period, a levy is considered made on:**
 (A) The date the notice of intent to levy is sent (B) The date the notice of seizure under § 6335(a) is given (C) The date the property is sold (D) The date the levy is approved internally
-*Answer: B. IRC § 6502(b).*
+*Answer: B. IRC § 6502(b) fixes the date of a levy as the date the § 6335(a) notice of seizure is given, even where the levy was served earlier and the seizure happens afterward.*
 
 **5. An offer in compromise submitted on 1 May 2024 has not been rejected by 1 May 2026, and no judicial proceeding is pending on the liability. The offer is:**
 (A) Deemed rejected (B) Deemed accepted (C) Still pending indefinitely (D) Returned as unprocessable
-*Answer: B. IRC § 7122(f).*
+*Answer: B. IRC § 7122(f) deems an offer accepted if not rejected within 24 months of submission, and with no judicial proceeding pending there is no dispute period to exclude from that count.*

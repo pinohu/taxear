@@ -97,19 +97,19 @@ Know that the trigger is presentation for signature and not filing. Know what ma
 
 **1. A preparer must furnish the taxpayer a completed copy of the return:**
 (A) Within 30 days of filing (B) Not later than the time the return is presented for the taxpayer's signature (C) Before the return's due date (D) On request only
-*Answer: B. IRC § 6107(a).*
+*Answer: B. IRC § 6107(a) ties the deadline to presentation for signature, not to filing or the due date, so the copy is in the taxpayer's hands before the return goes anywhere.*
 
 **2. For an electronically filed return, a complete copy consists of:**
 (A) A printed Form 1040 facsimile (B) The electronic portion filed with the IRS, including all schedules, forms, PDF attachments and jurats (C) A client summary showing the refund or balance (D) Whatever the taxpayer requests
-*Answer: B. Reg. § 1.6107-1(a)(2).*
+*Answer: B. Reg. § 1.6107-1(a)(2) defines the complete copy of an electronically filed return as the electronic portion actually transmitted to the IRS, including every schedule, form, PDF attachment and jurat — a bare Form 1040 facsimile that omits those attachments is incomplete, and so is a client-facing summary, though a full paper replica of everything transmitted is permitted.*
 
 **3. May the copy given to the taxpayer omit the preparer's identifying number?**
 (A) No, it must mirror the filed return exactly (B) Yes, the regulation says so expressly (C) Only for paper returns (D) Only with the taxpayer's written consent
-*Answer: B.*
+*Answer: B. Reg. § 1.6107-1(a)(2): the taxpayer's copy need not contain the preparer's identifying number.*
 
 **4. A preparer delivers all client copies by secure portal without asking. A client who wanted paper complains. The preparer:**
 (A) Is compliant, electronic delivery being permitted (B) Is not compliant as to that client, since the media must be acceptable to both parties (C) Is not compliant as to any client (D) Must deliver on paper in every case
-*Answer: B.*
+*Answer: B. Reg. § 1.6107-1(a)(2): the media used must be acceptable to both taxpayer and preparer, so a preparer cannot impose portal delivery on a client who did not accept it.*
 
 **5. The § 6695(a) penalty does not apply where the failure is:**
 (A) Unintentional (B) Due to reasonable cause and not due to willful neglect, substantiated in writing (C) Corrected within 30 days (D) Caused by software

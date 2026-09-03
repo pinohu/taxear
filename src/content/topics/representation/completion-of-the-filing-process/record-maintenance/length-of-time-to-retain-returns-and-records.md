@@ -278,7 +278,8 @@ B. At least four years after the date the tax becomes due or is paid, whichever 
 C. Six years from the end of the calendar year
 D. Indefinitely
 
-*Answer: B.*
+*Answer: B. Employment tax records carry their own four-year retention rule, distinct from the
+general three-year and six-year income tax periods.*
 
 **4. A taxpayer received a building in a nontaxable exchange and later sells it. Which records must be
 retained until the limitations period for the year of sale expires?**

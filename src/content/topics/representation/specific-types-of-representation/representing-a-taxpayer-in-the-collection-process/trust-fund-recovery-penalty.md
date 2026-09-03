@@ -139,20 +139,20 @@ The two elements and their definitions — status, duty and authority for respon
 
 **1. The trust fund recovery penalty equals:**
 (A) The full employment tax liability including the employer's share (B) The trust fund portion — the tax not collected, or not accounted for and paid over (C) 75 percent of the unpaid tax (D) The unpaid tax plus penalties and interest
-*Answer: B. IRC § 6672(a).*
+*Answer: B. IRC § 6672(a): the penalty applies to a person required to collect, truthfully account for, and pay over the tax, and equals that trust fund portion — not the employer's full liability or its interest and penalties.*
 
 **2. Willfulness under IRC 6672 requires:**
 (A) An evil motive or intent to defraud (B) Intentional, deliberate, voluntary, reckless or knowing conduct — no bad motive needed (C) A criminal conviction (D) Actual knowledge in every case
-*Answer: B. IRM 5.7.3.4.2.*
+*Answer: B. IRM 5.7.3.4.2 defines willfulness as intentional, deliberate, voluntary, reckless or knowing conduct, expressly not requiring a bad motive or intent to defraud.*
 
 **3. An unpaid volunteer director of a tax-exempt organisation escapes the penalty if she serves solely honorarily, takes no part in operations, and lacks actual knowledge — unless:**
 (A) The organisation is small (B) Applying the exception would leave no person liable for the penalty (C) She signed any cheque (D) The failure exceeded one quarter
-*Answer: B. IRC § 6672(e).*
+*Answer: B. IRC § 6672(e): the volunteer board member exception does not apply if applying it would leave no person liable for the penalty.*
 
 **4. A responsible person who signs Form 2751 agreeing to the assessment:**
 (A) Waives the right to appeal (B) Retains appeal rights; the IRS does not treat the waiver as conclusive until the restriction period expires (C) Must pay within 10 days (D) Cannot later claim a refund
-*Answer: B. IRM 5.7.4.2.4.*
+*Answer: B. IRM 5.7.4.2.4 does not treat a signed Form 2751 as conclusive of the assessment until the restriction period expires, so appeal rights survive the signature.*
 
 **5. One of three liable persons pays the whole penalty. To recover the others' shares he must:**
 (A) Raise it as a defence in the government's collection action (B) Bring a separate proceeding, not joined or consolidated with the collection action (C) Ask the IRS to reallocate (D) Nothing; there is no right of contribution
-*Answer: B. IRC § 6672(d).*
+*Answer: B. IRC § 6672(d): a person who pays more than their proportionate share may recover from the others only in a separate proceeding, not joined or consolidated with the government's collection action.*

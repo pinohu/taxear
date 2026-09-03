@@ -197,7 +197,9 @@ B. That the position relied upon has not been adjusted by examination or otherwi
 C. That the prior preparer was credentialed
 D. Nothing; reliance on a filed return is unqualified
 
-*Answer: B.*
+*Answer: B. This confirmation requirement is specific to reliance on prior returns and is satisfied by
+an account transcript, which shows post-filing activity — a return transcript or the taxpayer's file
+copy shows only the original filing and would not reveal a later adjustment.*
 
 **2. A preparer prepares an amended return. What is the position on the original return's items?**
 
@@ -207,7 +209,8 @@ B. The preparer may rely in good faith without verifying the original's position
 C. The original must be re-created from source documents
 D. The preparer may not prepare an amended return for a return they did not prepare
 
-*Answer: B.*
+*Answer: B. This is the regulation's own example of permitted reliance, but the duty not to ignore
+known implications and to inquire into apparently incorrect information still applies.*
 
 **3. Why do subsequent returns matter in an examination of an earlier year?**
 
@@ -217,7 +220,8 @@ B. They show whether a treatment was repeated, whether a carryover was used, and
 C. They automatically extend the assessment period
 D. They must be produced whenever the earlier year is examined
 
-*Answer: B.*
+*Answer: B. Each of those three reasons bears on strategy — exposure, whether a correction has real
+cash consequences, and what a consistent method shows about intent.*
 
 **4. An adjustment in the examined year produces an overpayment in an earlier year. What limits the
 recovery?**
@@ -228,7 +232,9 @@ B. The IRC § 6511 period for that year — three years from filing or two from 
 C. The collection statute for the examined year
 D. A six-year period in all cases
 
-*Answer: B.*
+*Answer: B. Where that period has already closed on the adjacent year, the correlative overpayment is
+ordinarily unrecoverable even though the examined year's adjustment is correct, absent a statutory
+exception outside what this page covers.*
 
 **5. Which is an element of the normal office practice the preparer penalty regulation rewards?**
 

@@ -121,11 +121,11 @@ The definition — a status that suspends collection without touching the liabil
 
 **2. The hardship standard for CNC is that the taxpayer:**
 (A) Has filed for bankruptcy (B) Is unable to pay reasonable basic living expenses (C) Owes more than a set threshold (D) Has no assets of any kind
-*Answer: B. IRM 5.16.1.2.9, from Reg. § 301.6343-1(b)(4)(ii).*
+*Answer: B. IRM 5.16.1.2.9, drawing on Reg. § 301.6343-1(b)(4)(ii), sets the hardship standard as inability to pay reasonable basic living expenses — not a bankruptcy filing, a dollar threshold, or the absence of any assets.*
 
 **3. A taxpayer placed in CNC on hardship grounds should be told that:**
 (A) The debt is written off (B) The account will reactivate systemically if income rises, and interest continues to accrue (C) No lien can be filed (D) The collection period is suspended
-*Answer: B.*
+*Answer: B. Hardship cases reactivate systemically as income rises (IRM 5.16.1.2, 5.16.1.6), and IRM 5.16.1.3.4 requires taxpayers be advised that interest and penalties keep accruing while collection is suspended.*
 
 **4. A taxpayer in CNC status files a return showing a refund. The refund will:**
 (A) Be paid, since collection is suspended (B) Be offset against the outstanding balance (C) Be held until the account reactivates (D) Be paid only on request
@@ -133,4 +133,4 @@ The definition — a status that suspends collection without touching the liabil
 
 **5. A client can make modest monthly payments without hardship. Hardship CNC is:**
 (A) Available, since he cannot pay in full (B) Unavailable, because income that can be collected without hardship defeats the determination (C) Available if he requests it in writing (D) Available only with a Form 433-B
-*Answer: B. IRM 5.16.1.2.9.*
+*Answer: B. IRM 5.16.1.2.9's hardship standard requires inability to pay reasonable basic living expenses, so income available for even modest payments without hardship defeats the determination.*

@@ -171,7 +171,7 @@ Know that **IRC § 7206(2)** reaches a preparer **whether or not** the taxpayer 
 
 **4. When may the IRS use financial status or economic reality examination techniques to determine the existence of unreported income?**
 (A) At any time during an examination (B) Only with the taxpayer's consent (C) Only where there is a reasonable indication that unreported income is likely (D) Only in a criminal investigation
-*Answer: C. IRC § 7602(e).*
+*Answer: C. IRC § 7602(e) bars using financial status or economic reality techniques to determine unreported income unless the Secretary has a reasonable indication of its likelihood.*
 
 **5. Which of these ends a Justice Department referral?**
 (A) The passage of one year (B) The examiner closing the civil case (C) Written notification from the Attorney General declining prosecution or a grand jury investigation, or final disposition of a criminal proceeding (D) The taxpayer filing an amended return

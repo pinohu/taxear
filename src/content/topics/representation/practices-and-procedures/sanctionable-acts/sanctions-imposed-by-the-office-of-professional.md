@@ -128,15 +128,15 @@ The five sanctions and who bears them: censure, suspension and disbarment for pr
 
 **2. The maximum monetary penalty under Circular 230 is:**
 (A) $5,000 per violation (B) The gross income derived, or to be derived, from the conduct giving rise to the penalty (C) 50 percent of the fee (D) Set annually by revenue procedure
-*Answer: B. Section 10.50(c)(2).*
+*Answer: B. Section 10.50(c)(2) caps the monetary penalty at the gross income derived, or to be derived, from the conduct rather than a fixed schedule.*
 
 **3. A practitioner is censured. The practitioner:**
 (A) May not practise before the IRS until reinstated (B) May continue to practise, subject to conditions the IRS may impose (C) Is suspended for six months automatically (D) Must re-sit the enrolled agent examination
-*Answer: B. Sections 10.79(c) and 10.79(d).*
+*Answer: B. Section 10.79(c) leaves a censured practitioner able to continue practising, and § 10.79(d) subjects future representations to conditions for a reasonable period.*
 
 **4. Which is true of a reprimand under § 10.60(a)?**
 (A) It is the same as censure and is published (B) It is an alternative to instituting a proceeding and is not a § 10.50 sanction (C) It requires an Administrative Law Judge decision (D) It bars practice for one year
-*Answer: B.*
+*Answer: B. A § 10.60(a) reprimand is offered instead of instituting a proceeding and stays private, unlike the public censure that § 10.50(a) imposes as a sanction.*
 
 **5. A practitioner is disbarred. The earliest a petition for reinstatement may be made is:**
 (A) Immediately (B) One year later (C) Five years later (D) Never

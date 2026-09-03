@@ -155,7 +155,7 @@ collected, which is exactly what doubt as to collectibility is designed to measu
 
 **1. An offer is submitted and the IRS neither accepts nor rejects it. It is deemed accepted:**
 (A) After 12 months (B) After 24 months from submission, excluding specified periods (C) After 24 months from the last correspondence (D) Never; silence is not acceptance
-*Answer: B. IRC § 7122(f).*
+*Answer: B. IRC § 7122(f) deems an unanswered offer accepted once the statutory period has run from the date of submission, excluding any time during which the liability is the subject of specified proceedings — the clock runs from submission, not from the last correspondence.*
 
 **2. Which ground is unavailable where a final court judgment established the liability?**
 (A) Doubt as to collectibility (B) Effective tax administration (C) Doubt as to liability (D) All three

@@ -119,7 +119,7 @@ The two periods — six months for tax shown on a return, eighteen for a deficie
 
 **1. The maximum extension of time to pay tax shown on a return is generally:**
 (A) 30 days (B) 6 months from the date fixed for payment, longer if the taxpayer is abroad (C) 18 months (D) 10 years
-*Answer: B. IRC § 6161(a)(1).*
+*Answer: B. IRC § 6161(a)(1) governs the period for extending tax shown, or required to be shown, on a return — a shorter period than the deficiency extension in § 6161(b)(1) or the estate tax extension in § 6161(a)(2).*
 
 **2. "Undue hardship" for these purposes means:**
 (A) Any inconvenience in raising the money (B) Substantial financial loss, such as a sale of property at a sacrifice price (C) Inability to pay in a single instalment (D) A general statement of financial difficulty
@@ -127,7 +127,7 @@ The two periods — six months for tax shown on a return, eighteen for a deficie
 
 **3. While an extension of time to pay is in force:**
 (A) Interest stops running (B) Interest continues to run, and payment is due at expiry without notice and demand (C) The collection statute is suspended (D) Penalties and interest are both abated
-*Answer: B. Reg. § 1.6161-1(d).*
+*Answer: B. Reg. § 1.6161-1(d) provides that an extension does not relieve the taxpayer of interest during its term, and payment falls due at expiry without notice and demand.*
 
 **4. An executor needs more time to pay estate tax under IRC 6161. The application is made on:**
 (A) Form 1127 (B) Form 4768, Part III (C) Form 9465 (D) Form 843
@@ -135,4 +135,4 @@ The two periods — six months for tax shown on a return, eighteen for a deficie
 
 **5. Form 1127 must be accompanied by:**
 (A) A statement of hardship alone (B) Evidence of the hardship, a statement of assets and liabilities, and itemised receipts and disbursements for each of the 3 preceding months (C) The prior year's return (D) A bond in every case
-*Answer: B. Reg. § 1.6161-1(c).*
+*Answer: B. Reg. § 1.6161-1(c) requires the application to carry evidence of the hardship, a statement of assets and liabilities, and itemised receipts and disbursements for the three preceding months.*

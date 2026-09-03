@@ -104,11 +104,11 @@ Know that the preparer may keep either a copy or a list, and know the four items
 
 **1. A preparer choosing the list option rather than retaining copies must record, for each return:**
 (A) The taxpayer's name and identifying number (B) The name, identifying number, taxable year, and type of return or claim (C) The full return as filed (D) Only the taxable year
-*Answer: B. Reg. § 1.6107-1(b)(1)(i)(B).*
+*Answer: B. Reg. § 1.6107-1(b)(1)(i)(B): the list option requires the taxpayer's name, identifying number, taxable year, and the type of return or claim prepared — not just name and number.*
 
 **2. A return period for these purposes is:**
 (A) The calendar year (B) The 12-month period beginning 1 July (C) The taxpayer's taxable year (D) The filing season
-*Answer: B. IRC § 6060(c).*
+*Answer: B. IRC § 6060(c): the return period is a defined period beginning 1 July, distinct from the calendar year, the taxpayer's own taxable year, or the filing season.*
 
 **3. A return is presented for signature in June 2026 and, with extensions, becomes due in December 2026. Records must be retained until:**
 (A) Three years after June 2026 (B) Three years after the close of the return period ending 30 June 2027 (C) Three years after filing (D) Six years after presentation
@@ -116,7 +116,7 @@ Know that the preparer may keep either a copy or a list, and know the four items
 
 **4. A partnership that prepared returns dissolves before the retention period expires. The obligation:**
 (A) Ends with the partnership (B) Passes to those responsible under state law for winding up, or failing that to the general partners collectively (C) Passes to the successor firm only (D) Passes to the clients
-*Answer: B.*
+*Answer: B. Reg. § 1.6107-1(b)(2): the persons responsible under state law for winding up remain subject to the retention duty on the entity's behalf until the period runs, or, absent such a person under state law, the directors or general partners collectively.*
 
 **5. The maximum penalty under IRC 6695(d) is measured:**
 (A) Per calendar year (B) Per return period (C) Per taxpayer (D) There is no maximum

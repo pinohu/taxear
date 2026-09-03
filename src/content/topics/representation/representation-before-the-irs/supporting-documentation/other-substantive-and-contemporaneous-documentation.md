@@ -215,7 +215,8 @@ B. By the earlier of the date the return is filed or the due date including exte
 C. Within one year of the contribution
 D. At any time before the assessment period expires
 
-*Answer: B.*
+*Answer: B. That deadline is defined by the statute, not by when an examination might begin, and once
+it passes an acknowledgment obtained later does not cure the omission.*
 
 **2. Which is not a required content item of the acknowledgment?**
 
@@ -235,7 +236,10 @@ C. It may serve as the taxpayer's own statement, but the corroborating evidence 
    of probative value
 D. The burden shifts to the IRS
 
-*Answer: C.*
+*Answer: C. Contemporaneousness turns on being made at or near the time of the expenditure, not on a
+year-end cutoff; a log prepared well after the year has ended is a reconstruction and drops to a
+statement needing corroboration of high probative value rather than the automatic weight of an
+adequate record.*
 
 **4. A client asks the practitioner to prepare a log dated as of the prior year. What is the correct
 response?**
@@ -254,4 +258,5 @@ B. They evidence authorisation and purpose at the time a decision was made
 C. They extend the assessment period
 D. They substitute for a written acknowledgment of a corporate charitable gift
 
-*Answer: B.*
+*Answer: B. Minutes made at the time read as a record of what was decided; the same words drafted
+later read as an argument, which is why the general regime treats them as weaker evidence.*

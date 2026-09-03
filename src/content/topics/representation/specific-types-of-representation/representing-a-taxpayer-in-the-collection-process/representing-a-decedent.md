@@ -125,11 +125,11 @@ That a power of attorney terminates at death, and the Form 56 then Form 2848 seq
 
 **1. A taxpayer dies. The enrolled agent's existing Form 2848:**
 (A) Continues in force for the estate (B) Terminates; the fiduciary files Form 56 and then signs a new Form 2848 (C) Transfers automatically to the executor (D) Continues for one year
-*Answer: B.*
+*Answer: B. A power of attorney terminates at the taxpayer's death; the fiduciary establishes standing on Form 56 under IRC § 6903, then signs a new Form 2848 to authorize the representative.*
 
 **2. Under 31 U.S.C. 3713(b), an executor who pays other creditors before a federal tax claim is:**
 (A) Not liable, having acted in good faith (B) Personally liable to the extent of the payment for the Government's unpaid claims (C) Liable only if the estate is solvent (D) Liable only for interest
-*Answer: B.*
+*Answer: B. 31 U.S.C. § 3713(b) makes a representative personally liable, to the extent of the payment, for paying any part of the estate's debts before satisfying the Government's claim — the priority itself attaches under § 3713(a) where the estate is insufficient to pay all debts, so a solvent estate that can still cover the federal claim after the earlier payment presents no exposure.*
 
 **3. A request for prompt assessment under IRC 6501(d) shortens the assessment period to:**
 (A) 6 months (B) 18 months from receipt of the written request (C) 9 months (D) 2 years
@@ -141,4 +141,4 @@ That a power of attorney terminates at death, and the Form 56 then Form 2848 seq
 
 **5. A surviving daughter, not court-appointed, claims her late father's refund. She files:**
 (A) Form 56 (B) Form 1310 (C) Form 2848 (D) Form 4810
-*Answer: B.*
+*Answer: B. Form 1310 is filed by the person claiming a deceased taxpayer's refund, and a surviving relative claiming without court appointment is not exempt from that requirement.*

@@ -161,7 +161,7 @@ Know that **treaties and Treasury's official explanations of them are authority*
 
 **1. A treaty article and a later-enacted Code provision conflict. Which governs?**
 (A) The treaty, because treaties are supreme (B) The Code, because domestic law is supreme (C) Generally the later in time, because neither has preferential status by reason of what it is (D) Neither — the conflict is resolved by the competent authority
-*Answer: C. IRC § 7852(d)(1).*
+*Answer: C. IRC § 7852(d)(1) provides that neither a treaty nor a revenue law has preferential status by reason of what it is, so the later-enacted provision generally governs.*
 
 **2. What must a taxpayer do who takes the position that a treaty modifies an internal revenue law?**
 (A) Nothing special (B) Disclose the position on the return or an attached statement under IRC § 6114 (C) File Form 8275-R (D) Request a private letter ruling

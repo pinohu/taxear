@@ -123,19 +123,19 @@ That a taxpayer may not file a claim for abatement of subtitle A or B tax, and w
 
 **1. A taxpayer wishes to have an income tax assessment abated. He:**
 (A) Files a claim for abatement under § 6404(a) (B) May not file a claim for abatement of subtitle A tax; the routes are audit reconsideration or a refund claim (C) Files Form 843 (D) Petitions the Tax Court for abatement
-*Answer: B. IRC § 6404(b).*
+*Answer: B. IRC § 6404(b) bars a taxpayer from filing a claim for abatement of income tax, so the taxpayer's routes are an audit reconsideration or a refund claim under § 6511, not an abatement request.*
 
 **2. Abatement of a penalty attributable to erroneous IRS advice is mandatory where the advice was:**
 (A) Given by telephone and documented (B) In writing, in response to the taxpayer's specific written request, reasonably relied upon, and not undermined by inadequate information from the taxpayer (C) Given by any government employee (D) Later published as guidance
-*Answer: B. IRC § 6404(f).*
+*Answer: B. IRC § 6404(f) makes abatement mandatory only where all four conditions hold — written advice, in response to a specific written request, reasonably relied upon, and not caused by the taxpayer's own incomplete information — and telephone advice fails the written-advice condition regardless of whether the taxpayer's own request was in writing.*
 
 **3. A taxpayer's overpayment is offset against a past-due state income tax obligation. He may challenge the offset:**
 (A) In the Tax Court (B) In a district court (C) Through Appeals (D) Nowhere; no court has jurisdiction and there is no administrative review — the dispute lies with the certifying State
-*Answer: D. IRC § 6402(g).*
+*Answer: D. IRC § 6402(g) removes jurisdiction from every federal court to restrain or review a § 6402(e) offset and bars administrative review by the Secretary, leaving the dispute with the State that certified the debt.*
 
 **4. An overpayment is applied first against:**
 (A) Past-due child support (B) Any internal revenue tax liability of the person who made the overpayment (C) Debts owed to federal agencies (D) State income tax obligations
-*Answer: B. IRC § 6402(a).*
+*Answer: B. IRC § 6402(a) lets the IRS credit an overpayment against the person's own internal revenue tax liability before the § 6402(c) through (f) offsets operate, so it comes first in the sequence.*
 
 **5. A joint refund is taken for one spouse's pre-marital federal student loan debt. The other spouse should file:**
 (A) Form 8857, Request for Innocent Spouse Relief (B) Form 8379, Injured Spouse Allocation (C) Form 843 (D) Form 1040-X
