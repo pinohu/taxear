@@ -39,7 +39,9 @@ in the repository.
 - [ ] New Pages project from this repository: build command
       `cd study && npm ci && npm run build`, output `study/dist`, production branch `main`.
 - [ ] Custom domain `study.taxear.com`.
-- [ ] KV namespace, bound as `ACCESS_KV`.
+- [x] KV namespace created (`taxear-study-ACCESS_KV`, id `8a3d3dea1282437aafc1e23cbd3a4abc`).
+      Still to do: bind it as `ACCESS_KV` on the Pages project once it exists
+      (Settings → Functions → KV namespace bindings).
 - [ ] Environment variables from `study/.env.example`: `STRIPE_SECRET_KEY`,
       `STRIPE_WEBHOOK_SECRET`, the six `STRIPE_PRICE_*`, `COOKIE_SECRET`
       (`openssl rand -hex 32`), `RESEND_API_KEY`, `MAIL_FROM`, `NOTIFY_SECRET`, and the
