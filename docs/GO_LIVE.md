@@ -45,13 +45,15 @@ in the repository.
       is undefined and login and other endpoints will 503.
 - [ ] Environment variables from `study/.env.example`: `STRIPE_SECRET_KEY`,
       `STRIPE_WEBHOOK_SECRET`, the six `STRIPE_PRICE_*`, `COOKIE_SECRET`
-      (`openssl rand -hex 32`), `RESEND_API_KEY`, `MAIL_FROM`, `NOTIFY_SECRET`, and the
+      (`openssl rand -hex 32`), `EMAILIT_API_KEY`, `MAIL_FROM`, `NOTIFY_SECRET`, and the
       four `PUBLIC_PRICE_*`. Mark the secrets as secret.
 
-## 5. Resend (half an hour)
+## 5. Emailit (half an hour)
 
-- [ ] Verify the sending domain (SPF and DKIM records in the taxear.com zone).
-- [ ] API key → `RESEND_API_KEY`; sender → `MAIL_FROM`, e.g. `TaxEar Study <study@taxear.com>`.
+- [ ] Verify the sending domain (SPF and DKIM records in the taxear.com zone) in the
+      Emailit dashboard.
+- [ ] API key (Emailit dashboard → workspace → API keys) → `EMAILIT_API_KEY`; sender →
+      `MAIL_FROM`, e.g. `TaxEar Study <study@taxear.com>`.
 
 ## 6. GitHub
 

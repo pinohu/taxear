@@ -1,12 +1,12 @@
-// Transactional email through Resend's REST API. Only two kinds of message leave this
-// system: a sign-in link someone asked for, and a change alert someone subscribed to.
-// Without RESEND_API_KEY the send is refused with a clear error, never faked.
+// Transactional email through Emailit's REST API (v2). Only two kinds of message leave
+// this system: a sign-in link someone asked for, and a change alert someone subscribed to.
+// Without EMAILIT_API_KEY the send is refused with a clear error, never faked.
 
 export async function sendEmail(env, { to, subject, text, html }) {
-  if (!env.RESEND_API_KEY || !env.MAIL_FROM) throw new Error('Email is not configured (RESEND_API_KEY / MAIL_FROM).');
-  const res = await fetch('https://api.resend.com/emails', {
+  if (!env.EMAILIT_API_KEY || !env.MAIL_FROM) throw new Error('Email is not configured (EMAILIT_API_KEY / MAIL_FROM).');
+  const res = await fetch('https://api.emailit.com/v2/emails', {
     method: 'POST',
-    headers: { Authorization: `Bearer ${env.RESEND_API_KEY}`, 'Content-Type': 'application/json' },
+    headers: { Authorization: `Bearer ${env.EMAILIT_API_KEY}`, 'Content-Type': 'application/json' },
     body: JSON.stringify({ from: env.MAIL_FROM, to: [to], subject, text, html }),
   });
   if (!res.ok) {

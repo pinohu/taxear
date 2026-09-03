@@ -1,6 +1,6 @@
 // Following, confirmation by mailbox, pending follows applied on subscription, the
 // notify endpoint's per-recipient delivery record, and the two-step stop link. No email
-// leaves: without RESEND_API_KEY a send is reported as failed, never faked.
+// leaves: without EMAILIT_API_KEY a send is reported as failed, never faked.
 import { test } from 'node:test';
 import assert from 'node:assert/strict';
 import { grant } from '../functions/_lib/entitlements.js';
