@@ -2119,12 +2119,12 @@
    "stem": "A practitioner files a return advancing a listed frivolous position at the client's insistence, disclosing it on Form 8275. The practitioner:",
    "options": [
     "Is protected, disclosure having been made",
-    "Faces Circular 230 § 10.34(b) exposure and, on willfulness, § 10.51(a)(7), disclosure being irrelevant to a frivolous position",
+    "Faces Circular 230 § 10.34(a) exposure and, on willfulness, § 10.51(a)(7), disclosure being irrelevant to a frivolous position",
     "Faces no exposure, the position being the client's",
     "Must file but should resign afterwards"
    ],
    "answerIndex": 1,
-   "explanation": "Circular 230 § 10.34(b) bars filing a document resting on a frivolous position, and § 10.51(a)(7) makes willfully assisting a client's violation disreputable in itself; Form 8275 disclosure only lowers the standard for an unreasonable position, not a frivolous one.",
+   "explanation": "A return falls under Circular 230 § 10.34(a)'s reasonable-basis standard, which a listed frivolous position cannot meet; § 10.51(a)(7) makes willfully assisting a client's violation disreputable in itself, and Form 8275 disclosure only lowers the standard for an unreasonable position, not a frivolous one.",
    "pagePath": "/representation/practices-and-procedures/sanctionable-acts/frivolous-submissions-returns-and-documents/",
    "pageTitle": "Frivolous submissions (returns and documents)",
    "source": "page"
@@ -7941,7 +7941,7 @@
     "Later published as guidance"
    ],
    "answerIndex": 1,
-   "explanation": "IRC § 6404(f) makes abatement mandatory only where all four conditions hold — written advice, in response to a specific written request, reasonably relied upon, and not caused by the taxpayer's own incomplete information — and telephone advice satisfies none of the written-request or written-advice limbs.",
+   "explanation": "IRC § 6404(f) makes abatement mandatory only where all four conditions hold — written advice, in response to a specific written request, reasonably relied upon, and not caused by the taxpayer's own incomplete information — and telephone advice fails the written-advice condition regardless of whether the taxpayer's own request was in writing.",
    "pagePath": "/representation/specific-types-of-representation/representing-a-taxpayer-in-the-collection-process/adjustments-to-the-taxpayer-s-account/",
    "pageTitle": "Adjustments to the taxpayer's account (e.g., abatements and refund offsets)",
    "source": "page"
@@ -8970,7 +8970,7 @@
     "That the taxpayer has been convicted of a tax offence"
    ],
    "answerIndex": 3,
-   "explanation": "IRC § 7345(b)(1) requires only that the debt be assessed, exceed the indexed threshold, and have a filed lien with exhausted or lapsed § 6320 rights or a levy — a criminal conviction is not one of the three conditions.",
+   "explanation": "Of the choices tested here, IRC § 7345(b)(1) requires that the debt be assessed, exceed the indexed threshold, and have a filed lien with exhausted or lapsed § 6320 rights or a levy — on top of being an individual's unpaid, legally enforceable liability in the first place — but a criminal conviction is not a condition at all.",
    "pagePath": "/representation/specific-types-of-representation/representing-a-taxpayer-in-the-collection-process/passport-revocation/",
    "pageTitle": "Passport revocation",
    "source": "page"

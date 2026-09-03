@@ -141,7 +141,7 @@ The three conditions for a seriously delinquent tax debt, and that the third is 
 
 **1. A seriously delinquent tax debt under IRC 7345 requires all of the following except:**
 (A) That the liability has been assessed (B) That the amount exceeds the indexed threshold (C) That a notice of lien has been filed with § 6320 rights exhausted or lapsed, or a levy made (D) That the taxpayer has been convicted of a tax offence
-*Answer: D. IRC § 7345(b)(1) requires only that the debt be assessed, exceed the indexed threshold, and have a filed lien with exhausted or lapsed § 6320 rights or a levy — a criminal conviction is not one of the three conditions.*
+*Answer: D. Of the choices tested here, IRC § 7345(b)(1) requires that the debt be assessed, exceed the indexed threshold, and have a filed lien with exhausted or lapsed § 6320 rights or a levy — on top of being an individual's unpaid, legally enforceable liability in the first place — but a criminal conviction is not a condition at all.*
 
 **2. A taxpayer requests a collection due process hearing on the levy. The debt:**
 (A) Remains seriously delinquent (B) Is excluded while the hearing is requested or pending (C) Is excluded only after the hearing concludes (D) Is excluded only if the taxpayer prevails

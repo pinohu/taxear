@@ -127,7 +127,7 @@ That a taxpayer may not file a claim for abatement of subtitle A or B tax, and w
 
 **2. Abatement of a penalty attributable to erroneous IRS advice is mandatory where the advice was:**
 (A) Given by telephone and documented (B) In writing, in response to the taxpayer's specific written request, reasonably relied upon, and not undermined by inadequate information from the taxpayer (C) Given by any government employee (D) Later published as guidance
-*Answer: B. IRC § 6404(f) makes abatement mandatory only where all four conditions hold — written advice, in response to a specific written request, reasonably relied upon, and not caused by the taxpayer's own incomplete information — and telephone advice satisfies none of the written-request or written-advice limbs.*
+*Answer: B. IRC § 6404(f) makes abatement mandatory only where all four conditions hold — written advice, in response to a specific written request, reasonably relied upon, and not caused by the taxpayer's own incomplete information — and telephone advice fails the written-advice condition regardless of whether the taxpayer's own request was in writing.*
 
 **3. A taxpayer's overpayment is offset against a past-due state income tax obligation. He may challenge the offset:**
 (A) In the Tax Court (B) In a district court (C) Through Appeals (D) Nowhere; no court has jurisdiction and there is no administrative review — the dispute lies with the certifying State
