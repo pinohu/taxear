@@ -243,7 +243,8 @@ B. Instruments executed after 31 December 2018, and earlier instruments modified
 C. Only instruments executed after 31 December 2025
 D. Instruments where the payments exceed a stated annual amount
 
-*Answer: B.*
+*Answer: B. The repeal turns on the instrument's execution date and, for an older instrument, whether
+a later modification expressly adopts the amendment.*
 
 **4. What does a birth certificate establish for dependency purposes?**
 

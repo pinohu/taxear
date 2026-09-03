@@ -233,7 +233,8 @@ C. No; the exception does not apply to an error that would have been apparent fr
    of the return
 D. Yes, provided the preparer installs the vendor's correction
 
-*Answer: C.*
+*Answer: C. Reg. § 1.6694-2(e)(1) withholds the exception from any error that would have been
+apparent from a general review of the return, regardless of where the error originated.*
 
 **2. On what may a preparer rely in good faith without verification?**
 
@@ -275,4 +276,5 @@ C. It does not apply; the exception is withheld where the same or similar error 
    numerous returns
 D. It applies to the first ten returns only
 
-*Answer: C.*
+*Answer: C. Reg. § 1.6694-2(e)(2) applies the exception to an isolated error, not a repetition of the
+same or similar error on numerous returns, so the pattern itself defeats it.*

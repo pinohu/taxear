@@ -269,7 +269,8 @@ C. Retain it for three years from the later of the return due date or the IRS re
    send it to the IRS only on request
 D. Destroy it once the return is accepted
 
-*Answer: C.*
+*Answer: C. Form 8879 is not filed with the return; the ERO keeps it on the retention schedule and
+produces it to the IRS only if asked.*
 
 **4. A return claims a non-cash charitable contribution requiring a qualified appraisal that cannot
 be transmitted electronically. What is the correct handling?**

@@ -194,7 +194,8 @@ B. By Levels One, Two and Three, according to the adverse impact on the quality 
 C. By the number of returns the provider files annually
 D. By whether the provider is an ERO or a transmitter
 
-*Answer: B.*
+*Answer: B. The grading turns on the effect on return quality or on e-file itself, not on the dollar
+amount or the provider's role.*
 
 **2. A provider continues a Level One infraction after the IRS has brought it to the provider's
 attention. What is the result?**
@@ -232,4 +233,5 @@ B. Two years
 C. Five years from expulsion, or five years after completing rehabilitation
 D. Never
 
-*Answer: C.*
+*Answer: C. Reconsideration runs from the date of expulsion or, if later, from completing
+rehabilitation — not from the date of the underlying conduct.*

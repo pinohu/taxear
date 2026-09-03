@@ -238,7 +238,8 @@ C. Amount; time and place of travel or date and description of the gift; busines
    business relationship of the person receiving the benefit
 D. Amount, and the identity of the payee
 
-*Answer: C.*
+*Answer: C. § 274(d) covers all four elements together; establishing amount alone, or amount and
+purpose alone, leaves the time-and-place or relationship element unsubstantiated.*
 
 **3. What constitutes "adequate records" for § 274(d) purposes?**
 
@@ -259,7 +260,8 @@ C. It may serve as the taxpayer's own statement, but the corroborating evidence 
    degree of probative value
 D. It shifts the burden of proof to the IRS
 
-*Answer: C.*
+*Answer: C. A log made after year end is not contemporaneous, so it drops to the taxpayer's own
+statement and needs corroborating evidence of high probative value to support it.*
 
 **5. A cancelled cheque establishes which element of a business expense?**
 

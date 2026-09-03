@@ -256,7 +256,8 @@ C. No, if the error is so obvious, flagrant or material that it should have been
    review
 D. No; the exception never applies to arithmetic
 
-*Answer: C.*
+*Answer: C. An isolated arithmetic error generally qualifies for the exception, but that protection
+withdraws where the error is obvious enough that a general review should have caught it.*
 
 **4. What does the regulation describe as a normal office practice?**
 

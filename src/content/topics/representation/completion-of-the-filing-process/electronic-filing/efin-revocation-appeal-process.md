@@ -249,7 +249,9 @@ B. An appeal directly to the Independent Office of Appeals
 C. None; the remedy is to reapply if the injunction expires or is reversed
 D. Reconsideration after one year
 
-*Answer: C.*
+*Answer: C. Publication 3112 is explicit that a revocation grounded in a federal court order or a
+federal or state legal action carries no administrative review; the only route back is the
+injunction's expiration or reversal.*
 
 **5. Which sanction cannot be taken through the administrative review process?**
 
