@@ -290,9 +290,9 @@ increased by the amount that would have been imposed but for the exception acros
 plus interest for the deferral period. Five years having passed does not help — the series must run to
 the later of five years or age 59½.*
 
-**5. Two colleagues are laid off on 1 June 2026 and each takes a full distribution from the employer's plan in July 2026. One turned 55 on 15 March 2026; the other turns 55 on 15 September 2026. Who gets the separation-from-service exception?**
-(A) Only the March colleague — the other separated before attaining age 55 (B) Both — each turns 55 in the calendar year of separation (C) Both, provided the distribution is taken after the birthday (D) Neither — the exception requires age 59½
-*Answer: A. IRC § 72(t)(2)(A)(v) excepts a distribution to an employee after separation from service after attainment of age 55; the statute reads on the birthday, not the year, so a separation three months before the birthday is outside it.*
+**5. A 56-year-old separates from her employer in March 2026 and, before taking any distribution, rolls the entire 401(k) balance into an IRA. She then withdraws 40,000 dollars from the IRA the same month. Does the separation-from-service exception reach this withdrawal?**
+(A) Yes — she is over 55 and separated from service (B) No — the exception is withheld from IRAs, and the rollover destroyed it (C) Yes, but only for the portion attributable to her own contributions (D) No, because a rollover is itself a taxable event
+*Answer: B. IRC § 72(t)(3)(A) withholds the separation-after-55 exception in § 72(t)(2)(A)(v) from distributions out of an individual retirement plan; the exception is available only while the money stays in the employer's plan, and rolling the balance into an IRA first destroys it — the single most common error in the topic.*
 
 **6. A 45-year-old who takes the standard deduction withdraws from a 401(k) to pay unreimbursed medical expenses that exceed the § 213 floor. Does the medical exception reach the withdrawal?**
 (A) Yes, to the extent the expenses exceed the § 213 floor, whether or not he itemizes (B) No — the exception requires the medical expenses to be actually deducted (C) Only if the withdrawal comes from an IRA rather than a plan (D) Yes, for the whole withdrawal regardless of the amount of expenses

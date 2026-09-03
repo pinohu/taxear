@@ -275,7 +275,7 @@ month other than December, so a year end must fall on the last day of a month.*
 (A) 20 November 2026 (B) 15 April 2027 (C) 20 February 2027 (D) 15 June 2026
 *Answer: A. IRC § 6075(a) sets the Form 706 due date at nine months after the date of death, and the estate tax is payable on that same date; the fourth-month rule in § 6072(a) governs Form 1041, not Form 706.*
 
-**7. A decedent's assets were held in a revocable trust that became irrevocable at death. Who must make the election that treats the trust as part of the estate for income tax purposes, and what is its effect?**
+**7. A decedent's assets were held in a revocable trust that became irrevocable at death, and an executor was appointed to probate the residue of the estate. Who must make the election that treats the trust as part of the estate for income tax purposes, and what is its effect?**
 (A) The executor alone; the trust adopts the estate's fiscal year (B) The trustee alone; the trust files its own Form 1041 on a calendar year (C) Both the executor and the trustee; the trust is treated and taxed as part of the estate on one return (D) The residuary beneficiaries; the trust is disregarded entirely
 *Answer: C. IRC § 645(a) requires both the executor and the trustee of the qualified revocable trust to elect, after which the trust is treated and taxed as part of the estate rather than as a separate trust — collapsing two returns into one and extending the estate's fiscal year advantage to the trust's income.*
 
