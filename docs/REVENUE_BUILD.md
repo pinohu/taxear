@@ -71,8 +71,9 @@ Entitlements are *not* in the cookie: every gated request reads `purchase:<email
   test themselves) become recall drills: prompt, reveal, self-grade. At import on
   2 September 2026: 657 multiple-choice (589 in Part 3, 68 in Part 1, none yet in
   Part 2) and 1,013 drills (523 in Part 1, 490 in Part 2). Later the same day every
-  Part 2 page gained three multiple-choice questions, taking the bank to 1,014
-  multiple-choice (357 in Part 2) with the drills unchanged. Each item carries `code`,
+  Part 2 page gained three multiple-choice questions, and on 3 September every Part 1
+  page did too, so the bank now holds a multiple-choice item for every topic in every
+  part with the drills unchanged. Each item carries `code`,
   `part`, `domain`, `section`, the page path and title. The landing page reads its
   counts from the bank, so it says exactly this.
 - Questions never reach the browser in bulk. `POST /api/exam/start { parts, count }`
@@ -139,10 +140,10 @@ never a silent lock-out.
   ("*Answer: B.*"). They are in the bank; the exam review says so and links the page. A
   one-sentence reason on each page, cited, turns them into explained items on the next
   import. No importer change is needed.
-- Part 2's 490 open questions are drills; since 2 September every Part 2 page also
-  carries three four-option questions (357 in the bank). Part 1's 523 open questions
-  are drills only; writing four-option questions onto its 120 pages is the next
-  content job of this kind.
+- Parts 1 and 2 keep their open questions as drills (523 and 490); since 2 and 3
+  September every page in both parts also carries three four-option questions, so
+  every part is complete in multiple-choice form. The remaining content job of this
+  kind is the 75 Part 3 items above.
 
 ## Owner decisions recorded
 
