@@ -307,3 +307,15 @@ obligations among them — do not reach an ordinary corporate bond.*
 aggregate outstanding amount of gift loans directly between the individuals does not exceed the de
 minimis figure, and $8,000 is below it. Had the child used the loan to buy income-producing assets, IRC
 § 7872(c)(2)(B) would disapply the exception and the section would operate.*
+
+**5. Interest on which of the following bonds is includible in gross income?**
+(A) A general obligation bond issued by a city (B) A private activity bond that is a qualified bond within § 141 (C) An arbitrage bond within § 148 issued by a State (D) A State bond issued in registered form to finance a school
+*Answer: C. IRC § 103(b) withdraws the § 103(a) exclusion for a private activity bond that is not a qualified bond, an arbitrage bond within § 148, and a bond not in registered form; a qualified private activity bond and an ordinary registered State or local bond remain excluded.*
+
+**6. Priya lends her son $60,000 interest-free to help with a house purchase. The loan is well above the de minimis figure but within the larger gift loan threshold, and the son has $900 of net investment income for the year. How much is treated as retransferred to Priya as interest?**
+(A) The full amount of foregone interest at the applicable federal rate (B) No more than $900, the son's net investment income for the year (C) Nothing, because gift loans between parent and child are outside § 7872 (D) Nothing, because the loan was not used to buy income-producing assets
+*Answer: B. IRC § 7872(d)(1)(A) caps the amount treated as retransferred to the lender on a gift loan within the larger threshold at the borrower's net investment income for the year; the cap falls away only where tax avoidance is a principal purpose under § 7872(d)(1)(B).*
+
+**7. A cash-basis taxpayer elected years ago to report the annual increase in redemption value of her Series EE bonds as income each year. This year she buys new bonds of the same kind. How is the interest on the new bonds reported?**
+(A) At redemption only, because the election covered only the bonds she held when she made it (B) Annually, because the election binds every obligation of the same kind held or later acquired (C) Bond by bond, at her choice each year (D) Annually for the first year only, after which she may revert to reporting at redemption
+*Answer: B. IRC § 454(a): the election to include the annual increase in redemption price, once made, binds for that obligation and for all others of the same kind the taxpayer holds or later acquires.*

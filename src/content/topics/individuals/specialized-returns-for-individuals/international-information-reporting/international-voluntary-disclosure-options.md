@@ -272,3 +272,15 @@ subpoena.*
 *Answer: No. It will not automatically guarantee immunity from prosecution. Criminal Investigation
 accepts timely, accurate and complete voluntary disclosures under consideration when determining whether
 to recommend prosecution, and a disclosure may result in prosecution not being recommended.*
+
+**6. A client is under civil examination of his 2023 return over a charitable deduction, an issue unrelated to foreign assets. He now discovers an unreported account abroad and wants to use the streamlined procedures. May he?**
+(A) Yes, because the examination does not concern foreign assets (B) Yes, for every year other than 2023 (C) No; the streamlined procedures are unavailable once a civil examination of any taxable year has begun, whatever it concerns (D) No, unless he first pays the miscellaneous offshore penalty
+*Answer: C. Under the streamlined filing compliance procedures, eligibility ends once the IRS has begun a civil examination of any taxable year, whether or not it concerns foreign assets.*
+
+**7. A taxpayer who meets the non-residency requirement completes a streamlined submission and is later audited. What penalty exposure does she carry?**
+(A) The 5 percent miscellaneous offshore penalty (B) None of the failure-to-file, failure-to-pay, accuracy-related, information return or FBAR penalties, unless the examination finds the noncompliance fraudulent or the FBAR violation willful (C) FBAR penalties only (D) Accuracy-related penalties only
+*Answer: B. Under the streamlined procedures for U.S. taxpayers residing outside the United States, a taxpayer meeting the non-residency requirement who complies faces none of those penalties, and that protection survives a later audit unless the original noncompliance was fraudulent or the FBAR violation willful.*
+
+**8. A client entering the Voluntary Disclosure Practice today asks whether the proposed six-year disclosure period and three-month deadline for filing and full payment apply to him. What is the correct advice?**
+(A) Yes; the proposal took effect when its comment period closed (B) Yes, if he asks for the revised terms in his preclearance request (C) No; the proposal has not been finalised, nothing in it is law today, and the terms of any revised practice will be determined by the procedures in effect when the changes are finalised (D) No; the proposal was withdrawn when the comment period closed
+*Answer: C. As the IRS Criminal Investigation Voluntary Disclosure Practice page states, the proposed revision has not been finalised or placed into effect; a client entering now proceeds under the practice as it currently stands, and the terms of a revised practice would be determined by the procedures in effect when the changes are finalised.*

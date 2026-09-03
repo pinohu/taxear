@@ -286,3 +286,15 @@ nonrefundable credit. What does the credit do to the self-employment tax?
 *Answer: Nothing. Sections 1401(a) and (b) impose the tax in chapter 2, and IRC § 26(a) limits
 nonrefundable credits to the chapter 1 liability. The self-employment tax is payable in full and can
 only be met by payments or refundable credits.*
+
+**6. Keiko's non-farm business shows a tiny profit this year. She had net earnings of $2,000 two years ago and $150 in each of the other two preceding years, and has never used an optional method. May she use the non-farm optional method?**
+(A) Yes; she has all five years available (B) No; she was not self-employed on a regular basis, having had at least $400 of net earnings in only one of the three preceding years (C) Yes, because her current profit is below the lower limit (D) No; the non-farm method requires some farm income
+*Answer: B. IRC § 1402(h) defines being self-employed on a regular basis by reference to net earnings of at least $400 in at least two of the three immediately preceding years; with only one qualifying year the method is closed to her this year, however low her current earnings.*
+
+**7. A married couple run an unincorporated shop together and report all its profit on one spouse's Schedule C without electing qualified joint venture treatment. What is the principal consequence?**
+(A) Total self-employment tax is doubled (B) The other spouse gets no social security earnings record for the year (C) The business loses its § 162 deductions (D) The profit becomes exempt from self-employment tax
+*Answer: B. IRC § 1402(a)(17) and § 761(f): the qualified joint venture election lets each spouse's share be taken into account in that spouse's own net earnings. Without it the business is a partnership, and reporting everything on one Schedule C leaves the other spouse with no earnings record — the election is about coverage, not total tax.*
+
+**8. A newly self-employed taxpayer with no withholding projects $4,000 of income tax and $9,000 of self-employment tax for the year. What must the estimated tax instalments be measured against?**
+(A) The $4,000 of income tax only (B) The $9,000 of self-employment tax only (C) Both, $13,000 in total (D) Neither; self-employment tax is paid only with the return
+*Answer: C. IRC § 6654(f)(2) brings the chapter 2 self-employment tax into the figure the instalments are measured against, alongside the income tax, so a new self-employed client with no withholding needs estimated payments covering both.*

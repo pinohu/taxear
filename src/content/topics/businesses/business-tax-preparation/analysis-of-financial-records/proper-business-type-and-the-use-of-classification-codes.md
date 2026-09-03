@@ -27,6 +27,7 @@ related: ["2.2.4.b", "2.2.4.c", "2.2.4.g", "2.1.1.a", "2.2.1.a", "2.2.4.d", "2.2
 changelog:
   - { date: "2026-08-21", summary: "Initial draft. Sets out the Reg. § 301.7701-2(b) per se corporation list and the Reg. § 301.7701-3(b) default classifications, the Form 8832 election with its 75-day and 12-month effective-date window and the 60-month limitation, the disregarded entity rule and its employment tax exception, the six-digit NAICS-based principal business activity code chosen by largest percentage of total receipts, and the IRM 4.10.4 horizontal and vertical ratio analyses with their 5 percent and 10 percent thresholds." }
   - { date: "2026-08-25", summary: "Added a plain-language summary, glossary marks, and two typed scenarios (baseline, timing) alongside the existing four." }
+  - { date: "2026-09-03", summary: "Corrected the Corrigan Ventures timing scenario: a Form 8832 effective date more than 12 months after filing is clamped to 12 months after filing under Reg. § 301.7701-3(c)(1)(iii), as the page's figure already stated; it does not fall back to the filing date.", material: true }
 ---
 
 <div class="plain-terms">
@@ -221,11 +222,13 @@ Corrigan Ventures LLC files Form 8832 on 3 February, specifying an effective dat
 following year — fourteen months after the filing date.
 
 Reg. § 301.7701-3(c)(1)(iii) permits an effective date up to twelve months after the date of filing;
-fourteen months is outside that window. Because no valid date was specified within the permitted
-range, the election instead takes effect on the date it was filed, 3 February — not the date
-Corrigan wanted and not the date on the form. Filed the same election with a date thirteen months
-out, the outcome would be identical; filed with a date eleven months and twenty-nine days out, it
-would have taken effect exactly as specified. The window is the whole rule.
+fourteen months is outside that window. The regulation does not void the election or move it to the
+filing date: an election that specifies a date more than twelve months out is effective twelve
+months after the date it was filed, so Corrigan's election takes effect on 3 February of the
+following year — two months earlier than the date on the form. Filed the same election with a date
+thirteen months out, the outcome would be identical; filed with a date eleven months and twenty-nine
+days out, it would have taken effect exactly as specified. The same clamp works backwards: a date
+more than 75 days before filing becomes 75 days before filing. The window is the whole rule.
 </div>
 
 ## Traps

@@ -292,3 +292,15 @@ months, or $150. Both remain subject to the reasonable cause defence.*
 unpaid, and it is not an addition to tax subject to a reasonable cause defence. Reasonable cause reaches
 the § 6651 additions and the § 6654 addition through its own waiver provisions, but the interest runs
 regardless.*
+
+**6. A taxpayer's income arrives almost entirely in December. Using the annualised income method, her first-quarter instalment is reduced below 25 percent of the required annual payment. What happens to the reduction?**
+(A) It is forgiven permanently (B) It is recaptured by increasing the next instalment, and later ones until fully recovered (C) It is added to the following year's first instalment (D) It becomes interest under § 6601
+*Answer: B. IRC § 6654(d)(2)(A)(i), (ii): the lower annualised instalment becomes the required instalment for that quarter, but the reduction is recaptured by increasing the next instalment and later ones until it is fully recovered.*
+
+**7. Hana, 67, retired four years ago and this year underpays her estimated tax through an honest misunderstanding. Does the retirement waiver relieve her?**
+(A) Yes; she is over 62 and retired (B) Yes, automatically, once she shows reasonable cause (C) No; the retirement must have occurred in the year the payments were due or the year before, and even then the waiver is discretionary (D) No; the waiver applies only to disability
+*Answer: C. IRC § 6654(e)(3)(B): the Secretary must determine both that the taxpayer retired after attaining 62, or became disabled, in the year the payments were due or the preceding year, and that the underpayment was due to reasonable cause and not willful neglect — a retirement four years earlier fails the first limb.*
+
+**8. A taxpayer filed on time, could not pay, and entered an instalment agreement. What monthly failure to pay rate applies while the agreement is in effect?**
+(A) 0.5 percent (B) 0.25 percent (C) 1 percent (D) 5 percent
+*Answer: B. IRC § 6651(a)(2), (d), (h): the failure to pay addition is 0.5 percent a month, reduced to 0.25 percent while an instalment agreement is in effect for a return filed on time, and raised to 1 percent after a notice of intent to levy.*

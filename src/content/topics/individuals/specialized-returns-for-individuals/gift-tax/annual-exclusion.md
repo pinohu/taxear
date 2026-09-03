@@ -259,3 +259,15 @@ estate or as she may appoint under a general power of appointment as defined in 
 *Answer: Because IRC § 2523(i)(1) denies the gift tax marital deduction where the donee spouse is not a
 citizen, and § 2523(i)(2) compensates by applying § 2503(b) to those gifts with $100,000 substituted for
 $10,000, indexed on the same basis.*
+
+**6. Rosalind, who is married, makes outright cash gifts to each of her four grandchildren in 2026, and her husband consents to split the gifts. How many annual exclusions are available for the year?**
+(A) One, because the exclusion is an annual allowance for the donor (B) Four (C) Eight (D) Two
+*Answer: C. IRC § 2503(b)(1) makes the exclusion per donee per calendar year, and under the gift-splitting rule in IRC § 2513(a)(1) each gift is treated as made one-half by each spouse — four donees times two donors gives eight exclusions.*
+
+**7. In 2026 Ignatius contributes $95,000 to a qualified tuition program for his daughter and elects to spread the excess ratably over five years. In 2028 he gives her a $2,000 birthday cheque. What is the result?**
+(A) The cheque is covered by that year's annual exclusion (B) The cheque is a taxable gift, because the exclusion for that year has already been committed to the contribution (C) The cheque is a qualified transfer and not a gift at all (D) The election is revoked and the whole contribution becomes taxable
+*Answer: B. IRC § 529(c)(2)(B) takes the excess into account ratably over the five years beginning with the contribution year, so the daughter's annual exclusion for each of those years is already spoken for; the election buys front-loading, not extra exclusion.*
+
+**8. Inflation rose during the year, yet the annual exclusion for the following year is unchanged. Which best explains this?**
+(A) Congress must enact each increase separately (B) The figure is indexed but rounded down to the next lowest multiple of $1,000, so it can stand still (C) The exclusion is fixed at the figure printed in the statute (D) The exclusion moves only when the basic exclusion amount moves
+*Answer: B. IRC § 2503(b)(2) indexes the exclusion from the statutory figure and rounds down to the next lowest multiple of $1,000, which is why it moves in whole thousands and can stand still for a year or more.*

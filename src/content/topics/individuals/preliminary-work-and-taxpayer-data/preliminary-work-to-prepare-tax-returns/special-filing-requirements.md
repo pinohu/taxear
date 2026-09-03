@@ -293,3 +293,15 @@ D. Relief applies only to the filing date, not to payment
 
 *Answer: B. The mandatory period operates on the declaration's own dates whether or not a notice
 issues.*
+
+**6. A joint refund faces three claims: past-due child support certified by a State, a federal non-tax debt, and a State income tax obligation. Under IRC § 6402(c), which reduction is applied first?**
+(A) The federal non-tax debt (B) The State-certified past-due support (C) The State income tax obligation (D) They are applied pro rata
+*Answer: B. IRC § 6402(c) directs the Secretary to reduce the overpayment by State-certified past-due support and to apply that reduction first, before other reductions allowed by law.*
+
+**7. Corporal Ines returns from a designated combat zone and asks whether she must file Form 4868 to obtain the postponement of her filing deadline. What is the correct advice?**
+(A) Yes, an extension request must be filed before the original due date (B) Yes, but the request may be filed within 180 days after leaving the zone (C) No, the period is disregarded by operation of the statute and no request is required (D) No, but she must attach a written statement to the return explaining the delay
+*Answer: C. Section 7508(a) disregards the period by operation of the statute; filing an extension request is harmless but unnecessary, and advising a client that they must apply misstates the relief.*
+
+**8. Hana, a citizen whose tax home and abode are in Singapore, qualifies for the extension in Reg. § 1.6081-5 and also files an ordinary six-month extension request. How long does she have to file?**
+(A) Six months from the ordinary April due date, because the two extensions run concurrently (B) Six months after the abroad extension ends, because the two run in sequence (C) Only to the fifteenth day of the sixth month, because the abroad extension displaces any other (D) Only to the ordinary April date, because a taxpayer abroad must choose one extension
+*Answer: A. Reg. § 1.6081-5 extends the time to the fifteenth day of the sixth month following the close of the year, and the ordinary six-month extension runs concurrently with it rather than after it.*

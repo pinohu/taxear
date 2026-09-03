@@ -282,3 +282,15 @@ those years. May the exclusion be claimed on a sale now?
 *Answer: No. IRC § 121(d)(10) denies the exclusion for the 5-year period beginning on the date the
 property was acquired in an exchange on which gain was not recognised under § 1031(a) or (b), regardless
 of the ownership and use tests being met.*
+
+**6. Paulo and his wife owned and lived in their home for many years and met every joint condition. She died in March 2025. Paulo, who has not remarried, sells the home in January 2027 at a gain. Which dollar limit applies to his exclusion?**
+(A) The single-filer limit, because he now files as a single taxpayer (B) The joint-return limit, because the sale is not later than 2 years after the date of death and the joint conditions were met immediately before it (C) No exclusion at all, because he no longer meets the joint use test (D) The joint-return limit, but only if the sale closes in the same taxable year as the death
+*Answer: B. IRC § 121(b)(4): an unmarried individual whose spouse is deceased applies the joint limit on a sale not later than 2 years after the date of death, where the joint conditions were met immediately before that date. January 2027 is within 2 years of March 2025.*
+
+**7. Greta bought a house in January 2004 and rented it out until January 2012, then lived in it as her principal residence until she sold it in January 2026. Ignoring depreciation, what fraction of the gain is allocated to nonqualified use?**
+(A) Eight of twenty-two years, the whole rental period (B) Three of twenty-two years, the rental period after 1 January 2009 (C) None, because she lived in the house for two of the last five years (D) Eight of fourteen years, measured from 2012
+*Answer: B. IRC § 121(b)(5)(C)(i) excludes periods before 1 January 2009 from nonqualified use, so only the three rental years from January 2009 to January 2012 count, and § 121(b)(5)(B) allocates them over the whole twenty-two-year period of ownership.*
+
+**8. Under their divorce decree, Nadine's former husband was granted use of the home they still co-own. He lived there for four years while she lived elsewhere, and she then sold her interest at a gain. Does Nadine meet the use test?**
+(A) No, because she did not personally live in the home during the five years before the sale (B) Yes, because she is treated as using the home during any period of ownership while a former spouse is granted its use under a divorce instrument (C) Only if she qualifies for a reduced exclusion by reason of the divorce (D) Only if the home is sold within 2 years of the divorce
+*Answer: B. IRC § 121(d)(3)(B): an individual is treated as using the property as a principal residence during any period of ownership while a spouse or former spouse is granted its use under a divorce or separation instrument.*

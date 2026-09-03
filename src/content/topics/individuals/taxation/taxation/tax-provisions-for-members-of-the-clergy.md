@@ -275,3 +275,15 @@ allowance. What is the treatment?
 *Answer: Excluded from gross income under IRC § 107 to the extent of the usual limits, and also outside
 net earnings from self-employment — § 1402(a)(8) expressly removes a parsonage allowance provided after
 retirement and any other church plan retirement benefit from the self-employment tax base.*
+
+**6. A congregation designates $30,000 of Reverend Idowu's 2026 pay as a housing allowance in advance. She spends $22,000 on rent and utilities; the fair rental value of the home with furnishings plus utilities is $26,000. How much is excluded from gross income?**
+(A) $30,000 (B) $26,000 (C) $22,000 (D) Nothing, because the allowance exceeded the rent
+*Answer: C. IRC § 107(2) excludes a cash allowance only to the extent used to rent or provide a home, only up to fair rental value plus utilities, and never beyond the amount designated — the lowest of the three caps, $22,000, with the $8,000 excess taxed as ordinary income.*
+
+**7. A minister's Form W-2 shows salary in box 1 but nothing withheld for social security, Medicare or federal income tax. The minister filed no exemption application. Is the form wrong?**
+(A) Yes; FICA should have been withheld (B) Yes; income tax withholding is mandatory on salary (C) No; ministerial services are outside FICA and outside income tax withholding, and the minister pays by estimated tax or a voluntary agreement (D) No, because ministers are exempt from all employment taxes
+*Answer: C. IRC §§ 3401(a)(9) and 3121(b)(8)(A) exclude ministerial services from wages for income tax withholding and from employment for FICA. The minister still owes self-employment tax under § 1402(c) and income tax, met by estimated payments or a voluntary withholding arrangement.*
+
+**8. A minister takes the standard deduction rather than itemizing. May a properly designated housing allowance still be kept out of income?**
+(A) No; it is an itemized deduction (B) Yes; § 107 is an exclusion from gross income, available whether or not the minister itemizes (C) Only if the minister files Schedule A (D) Only up to the amount of the standard deduction
+*Answer: B. IRC § 107 operates as an exclusion from gross income rather than a deduction, so it is available whether or not the minister itemizes and appears as a deduction nowhere on the return.*

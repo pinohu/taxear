@@ -260,3 +260,15 @@ this purpose?
 *Answer: Yes. IRC § 6413(c)(2)(A) deems each head of a federal agency or instrumentality who makes a
 return under § 3122, and each designated agent who does so, to be a separate employer for the purposes
 of the special refund.*
+
+**6. A taxpayer with two employers has combined 2026 social security wages $2,000 above the contribution and benefit base, each employer having withheld at 6.2 percent on everything it paid. What is the special refund?**
+(A) $124 (B) $2,000 (C) $153 (D) Nothing, because each employer withheld correctly
+*Answer: A. IRC § 6413(c)(1): the refund is the § 3101(a) tax withheld above what the base would have produced — 6.2 percent of the $2,000 excess. That each employer withheld correctly on its own wages is exactly why the employee, not the employer, is put right.*
+
+**7. A taxpayer with a fiscal year ending 30 June received wages from two employers during calendar year 2026 that together exceeded the base. For which taxable year is the credit allowed?**
+(A) The taxable year in which the second Form W-2 is received (B) The taxable year beginning in calendar year 2026 (C) Either year, at the taxpayer's election (D) The taxable year ending in calendar year 2026
+*Answer: B. IRC § 31(b)(2) allows the credit for the taxable year beginning in the calendar year in which the wages were received.*
+
+**8. A taxpayer worked for a private company and, later the same year, for a railroad that withheld tier 1 railroad retirement tax. Does the tier 1 tax count toward the excess?**
+(A) No; railroad retirement is a separate system (B) Yes, in full at whatever tier 1 rate applied (C) Yes, but only to the extent of the rate that does not exceed the § 3101(a) rate (D) Only if both employers were railroads
+*Answer: C. IRC § 6413(c)(1): tier 1 tax under § 3201(a) counts toward the same ceiling only to the extent of the rate not exceeding the § 3101(a) rate, and § 3231(e) compensation is treated as wages for this purpose.*

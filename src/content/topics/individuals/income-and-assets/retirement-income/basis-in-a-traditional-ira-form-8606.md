@@ -269,3 +269,15 @@ year in which the taxable year begins, increased by distributions made during th
 rollover is therefore in the denominator for the whole year, diluting the proportion of the March
 distribution treated as a recovery of basis. Deferring the rollover to January would have left the
 earlier denominator intact.*
+
+**5. Aisha has 200,000 dollars of pre-tax money in a traditional IRA and 50,000 dollars in a Roth IRA. She makes a 7,000-dollar nondeductible contribution to the traditional IRA and withdraws 7,000 dollars from it the same year. Is the Roth balance included in the denominator of her basis fraction?**
+(A) Yes, because all individual retirement plans are treated as one contract (B) No, because the aggregation rule is applied separately to Roth IRAs and to other individual retirement plans (C) Yes, but only the Roth contributions, not the earnings (D) No, because a Roth IRA can never have basis
+*Answer: B. IRC § 408A(d)(4)(A) applies § 408(d)(2) separately to Roth IRAs and to other individual retirement plans, so the Roth is never blended into the traditional pro-rata fraction. The traditional side is still aggregated under § 408(d)(2)(A).*
+
+**6. Jonas has 300,000 dollars in his current employer's 401(k) plan and a single traditional IRA holding 7,000 dollars of basis. In 2026 he withdraws the IRA's entire 7,000-dollar balance, leaving it empty at year end, and takes nothing else. How much of the withdrawal is taxable?**
+(A) Almost all of it, because the 401(k) balance is in the denominator (B) None of it, because an employer plan is not an individual retirement plan and sits outside the aggregation rule (C) Half of it, because the year-end value is increased by the distribution (D) All of it, because basis is recovered last
+*Answer: B. IRC § 408(d)(2) reaches only individual retirement plans, and a 401(k) balance is outside it. The § 408(d)(2)(C) denominator is the year-end value of zero increased by the 7,000-dollar distribution, or 7,000 dollars, against 7,000 dollars of basis, so the withdrawal is a recovery of basis in full.*
+
+**7. Priyanka is not an active participant in any employer plan and is fully eligible to deduct her 2026 traditional IRA contribution, but she chooses not to deduct it. Does the contribution create basis?**
+(A) No, because basis arises only where the active-participant phase-out denies the deduction (B) Yes, because the nondeductible limit is increased where the taxpayer elects not to deduct an amount that would otherwise be deductible (C) No, because an undeducted contribution is treated as an excess contribution (D) Yes, but only if she has no other traditional IRA
+*Answer: B. IRC § 408(o)(2)(B)(ii) increases the nondeductible limit where the taxpayer elects not to deduct an amount that would otherwise be deductible, so basis arises either from a § 219(g) denial or from that election. She must report it under § 408(o)(4)(A).*

@@ -295,3 +295,15 @@ claim was due to reckless disregard of the rules. May the taxpayer claim it this
 *Answer: Yes. IRC § 24(g)(1)(B)(ii) sets the disallowance period at two taxable years after the most
 recent year for which there was such a determination, and three years have passed. Ten years would apply
 had the determination been one of fraud.*
+
+**6. Sunil's only dependent is his mother, a qualifying relative under § 152(d). His income tax before credits is zero and his earned income is $30,000. What refund does the $500 credit for other dependents produce?**
+(A) $500, because the credit is refundable up to the per-child cap (B) $500, because his earned income exceeds the floor by enough to support it under the 15 percent formula (C) Nothing, because the other-dependent amount is excluded from the refundable computation (D) Nothing this year, but the unused $500 carries forward to next year
+*Answer: C. IRC § 24(h)(5) directs that § 24(d)(1)(A) be applied without regard to § 24(h)(4), so the $500 increase for other dependents is never refundable. It shares the threshold and the phase-out of the child tax credit but not its refund, and nothing carries forward.*
+
+**7. A taxpayer changes from a calendar year to a fiscal year with the Secretary's consent, producing a short taxable year of eight months in 2026. She has a qualifying child aged 5. What child tax credit is allowed for the short year?**
+(A) The full $2,200 (B) Eight-twelfths of $2,200 (C) None, because no credit is allowable for a taxable year of fewer than 12 months (D) $500, the other-dependent amount
+*Answer: C. IRC § 24(f): no credit is allowable for a taxable year of fewer than 12 months, with the sole exception of a year closed by the taxpayer's death. A short year for any other reason kills the credit entirely.*
+
+**8. A married couple file jointly with two qualifying children who each hold valid social security numbers. The husband has a social security number; the wife has only an individual taxpayer identification number. Is the child tax credit allowed?**
+(A) No, because every person on the return must have a social security number (B) Yes, because only the children's numbers matter (C) Yes, because on a joint return the number of at least one spouse satisfies the taxpayer identification requirement (D) Only the $500 other-dependent amount for each child
+*Answer: C. IRC § 24(h)(7)(A)(i), as rewritten by Pub. L. 119-21 § 70104, requires the return to carry the taxpayer's social security number, but on a joint return the number of at least one spouse is enough. A single filer with an ITIN would lose the credit, and the former paragraph, which required only the child's number, no longer states the rule.*

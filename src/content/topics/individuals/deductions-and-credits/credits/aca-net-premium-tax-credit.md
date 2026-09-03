@@ -319,3 +319,15 @@ of eligibility?
 individual is eligible for minimum essential coverage other than individual market coverage, and
 Medicare is minimum essential coverage under § 5000A(f). Declining to enrol does not preserve the
 credit.*
+
+**6. A married couple live together all year and each buys a silver plan on the Exchange. The wife files married filing separately so as not to be responsible for her husband's tax debt. Is she an applicable taxpayer for 2026?**
+(A) Yes, if her household income is between 100 and 400 percent of the poverty line (B) Yes, but only for months in which her husband had no coverage of his own (C) No, because a married taxpayer must file a joint return to be an applicable taxpayer (D) No, unless she repays every advance payment made on her behalf
+*Answer: C. IRC § 36B(c)(1)(C) requires a married taxpayer to file a joint return, so the joint-return requirement fails before household income is even checked. The only relief is the regulatory exception for domestic abuse or spousal abandonment, which the statute itself does not provide.*
+
+**7. Which of these Pub. L. 119-21 amendments to § 36B is not yet in effect for taxable year 2026?**
+(A) Section 71305, striking the limitation on repayment of excess advance payments (B) Section 71302, repealing the special rule for certain lawfully present individuals with income below the poverty line (C) Section 71304, excluding plans enrolled in during an income-based special enrollment period (D) Section 71303, requiring the Exchange to run pre-enrollment verification of income and eligibility
+*Answer: D. Pub. L. 119-21 § 71303 added § 36B(c)(3)(A)(ii) for taxable years beginning after 31 December 2027, so it is not yet in effect. Sections 71302 and 71305 apply to taxable years beginning after 31 December 2025 and § 71304 to plan years beginning after that date.*
+
+**8. In 2026 a taxpayer enrols in an Exchange plan during a special enrollment period the Exchange offered solely on the basis of her expected household income relative to the poverty line, with no change in her circumstances. Are her months under that plan coverage months?**
+(A) Yes, provided the plan is a silver plan (B) No, because a plan enrolled in during an income-based special enrollment period is not a qualified health plan for § 36B (C) Yes, because the route by which a taxpayer enrolled never affects the credit (D) No, until the Exchange completes pre-enrollment verification of her income
+*Answer: B. IRC § 36B(c)(3)(A)(iii), added by Pub. L. 119-21 § 71304 for plan years beginning after 31 December 2025, provides that a plan enrolled in during an income-based special enrollment period not tied to a change in circumstances is not a qualified health plan for this section. The pre-enrollment verification rule in § 36B(c)(3)(A)(ii) does not apply until a later year.*

@@ -303,3 +303,15 @@ IRA is a conversion taxed under § 408A(d)(3).*
 *Answer: § 408A(d)(6)(B)(iii) removes conversions from the recharacterization election for taxable years
 beginning after 2017. A contribution can still be recharacterized within the due date including
 extensions; a conversion cannot be recharacterized at all.*
+
+**6. Devi holds a rollover IRA of $190,000, all pre-tax, and in 2026 makes a $7,500 nondeductible contribution to a separate new traditional IRA. Later that year she converts the new account, then worth $7,700, to a Roth IRA. Roughly how much is includible?**
+(A) About $7,400 — basis is spread pro rata across all her traditional IRAs (B) $200 — only the growth on the nondeductible contribution (C) Nothing — the converted account held only after-tax money (D) $7,700 — basis cannot be used against a conversion
+*Answer: A. IRC § 408(d)(2)(A) treats all individual retirement plans as one contract, so her $7,500 of basis is measured against a combined value of about $197,700 and only a little under four percent of the conversion is tax-free; the rest of the basis stays on the traditional side.*
+
+**7. Two clients each converted $60,000 to a Roth IRA — one on 28 December 2021, the other on 3 January 2022. Both withdraw the full converted amount on 15 January 2026, before age 59½. Who faces recapture of the additional tax?**
+(A) Only the January 2022 converter — her five taxable years run 2022 through 2026 (B) Only the December 2021 converter — his conversion is older (C) Both — fewer than sixty months have passed for each (D) Neither — the additional tax never applies to converted amounts
+*Answer: A. IRC § 408A(d)(3)(F)(i) counts a 5-taxable-year period beginning with the taxable year of the conversion; the 2021 conversion's period ended with 2025, while the 2022 conversion's runs through 2026, so the same-day withdrawal is inside one period and outside the other.*
+
+**8. In 2026 a taxpayer converts her traditional IRA to a Roth IRA in four separate tranches, one each quarter. Is that permitted?**
+(A) Yes — a conversion is disregarded for the one-rollover-per-year limit (B) No — after the first tranche the once-a-year rule bars any further rollover for twelve months (C) Only if the tranches are at least twelve months apart (D) Only if each tranche comes from a different traditional IRA
+*Answer: A. The flush text of IRC § 408A(e)(1) disregards, for purposes of § 408(d)(3)(B), any qualified rollover contribution from a non-Roth individual retirement plan to a Roth IRA, so conversions may be done in any number of tranches in one year.*

@@ -279,3 +279,15 @@ years before death would have been outside the estate.*
 
 *Answer: Both 9 months after the date of death. IRC § 6075(a) sets the filing date, and the tax is
 payable on the same date; an extension of time to file does not extend the time to pay.*
+
+**6. What is the applicable credit amount that is subtracted in the final step of the estate tax computation?**
+(A) The basic exclusion amount, subtracted from the gross estate before deductions (B) The tentative tax that the unified rate schedule would produce on the applicable exclusion amount (C) Forty percent of the taxable estate (D) The basic exclusion amount less the decedent's adjusted taxable gifts
+*Answer: B. IRC § 2010(c)(1) defines the credit as the tentative tax that § 2001(c) would produce on the applicable exclusion amount; it is a credit against tax, not a dollar-for-dollar reduction of the estate, and describing it as a deduction gives the right answer only because the top bracket is flat.*
+
+**7. An unmarried decedent gave her niece $500,000 in cash in each of two years before her death and made no other lifetime gifts. In computing the tentative tax, what is added to the taxable estate as adjusted taxable gifts?**
+(A) $1,000,000, the gross amount given (B) Each gift less the annual exclusion for the year it was made (C) Nothing, because lifetime gifts reduce the exclusion instead of enlarging the base (D) $1,000,000 less the basic exclusion amount
+*Answer: B. IRC § 2001(b)(1)(B) adds post-1976 adjusted taxable gifts to the base, and adjusted taxable gifts are taxable gifts within the meaning of § 2503 — the annual exclusion comes off first, so using gross gifts is the trap the page warns against.*
+
+**8. An estate is illiquid because most of its value is an interest in a closely held business. Against what measure is the 35 percent test applied before the executor may elect under § 6166 to pay the attributable estate tax in installments?**
+(A) The adjusted gross estate, so how administration expenses are claimed can affect whether the estate qualifies (B) The gross estate before any deductions (C) The taxable estate after the marital and charitable deductions (D) The sum of the taxable estate and adjusted taxable gifts
+*Answer: A. IRC § 6166 measures the 35 percent test against the adjusted gross estate, which is why the page says the election is worth checking early — the way expenses are claimed can move the estate across the line.*

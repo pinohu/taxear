@@ -290,3 +290,15 @@ much of the gain is excluded?
 *Answer: None. The stock was acquired on or before the applicable date of 4 July 2025, so it is governed
 by IRC § 1202(a)(1)(A), which requires a holding period of more than five years. The tiered percentages
 in § 1202(a)(5) apply only to stock acquired after that date.*
+
+**6. A sole proprietor sells equipment for $92,000. Cost was $80,000 and depreciation taken was $50,000. How is the $62,000 gain characterised?**
+(A) $62,000 ordinary income (B) $50,000 ordinary income and $12,000 section 1231 gain (C) $12,000 ordinary income and $50,000 section 1231 gain (D) $62,000 long-term capital gain
+*Answer: B. IRC § 1245(a): recomputed basis is $80,000, the amount realised is $92,000, and ordinary income is the lower of the two ($80,000) less the $30,000 adjusted basis, or $50,000 — the whole of the depreciation taken; the remaining $12,000 of gain is section 1231 gain.*
+
+**7. A landlord sells an office building held twelve years at a $350,000 gain, having taken $200,000 of straight-line depreciation. How is the $200,000 attributable to depreciation treated?**
+(A) Ordinary income recaptured under section 1250 (B) Unrecaptured section 1250 gain, taxed at a maximum of 25 percent (C) Long-term capital gain at the 20 percent rate (D) Ordinary income recaptured under section 1245
+*Answer: B. IRC § 1(h)(1)(D): straight-line depreciation produces no additional depreciation for section 1250 to recapture, so the gain instead falls into the 25 percent unrecaptured section 1250 gain bucket — a rate ceiling on capital gain, not a recharacterisation.*
+
+**8. A client acquired qualified small business stock in October 2025 and sells it in December 2028, after just over three years, at a $2,000,000 gain that is within the per-issuer limit. How much is excluded?**
+(A) Nothing, because the holding period must exceed five years (B) $1,000,000 (C) $1,500,000 (D) $2,000,000
+*Answer: B. IRC § 1202(a)(5): for stock acquired after 4 July 2025 the applicable percentage is 50 percent at three years, 75 at four and 100 at five or more, so three years held excludes half the gain.*

@@ -276,3 +276,15 @@ exposure?
 *Answer: Under IRC § 6721(e)(2)(A) the penalty is the greater of $690 per return or 10 percent of the
 aggregate amount required to be reported correctly, with no calendar year maximum — and a parallel
 penalty applies under § 6722 for the corresponding payee statements.*
+
+**6. A small corporation pays a shareholder $2,500 in dividends during 2026, an amount above the § 6041 threshold. Must it file an information return under § 6041?**
+(A) Yes, because the payment exceeds the threshold and was made in the course of a trade or business (B) No, because dividends are reported under § 6042 and § 6041 excludes payments covered by another reporting section (C) Yes, but only if the shareholder is an individual rather than a corporation (D) No, because dividends are never subject to information reporting
+*Answer: B. IRC § 6041(a): payments already covered by another reporting section, such as dividends under § 6042, patronage dividends under § 6044, interest under § 6049 and broker transactions under § 6045, are excluded to prevent duplicate reporting. The corporation's obligation, if any, runs through the dividend rules, and the size of the payment was never the issue.*
+
+**7. A business with a fiscal year ending 30 June pays an unincorporated contractor throughout 2026. Over which period does § 6041(a) now measure the payments against the threshold?**
+(A) The payer's taxable year, so the fiscal year controls (B) The calendar year, following the wording change made by Pub. L. 119-21 § 70433 (C) Either period, at the payer's election (D) The recipient's taxable year
+*Answer: B. Pub. L. 119-21 § 70433 substituted "calendar year" for "taxable year" in § 6041(a), so a fiscal-year business tests its payments on the calendar year like everyone else. The same section raised the threshold and added § 6041(h) to index it.*
+
+**8. A payment app processes exactly 200 transactions for a seller in 2026, totaling $25,000. Is a Form 1099-K required?**
+(A) Yes, because the dollar amount alone is well past its threshold (B) Yes, because both tests are satisfied once the count reaches 200 (C) No, because § 6050W(e) requires more than 200 transactions and exactly 200 does not satisfy it (D) No, because the dollar test has not been met
+*Answer: C. IRC § 6050W(e) as restored by Pub. L. 119-21 § 70432 requires more than $20,000 of payments and more than 200 transactions. The dollar test is met, but exactly 200 is not "more than" 200, so a single additional transaction, not a single additional dollar, is what would change the answer.*

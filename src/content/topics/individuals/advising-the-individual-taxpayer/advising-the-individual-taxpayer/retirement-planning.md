@@ -283,3 +283,15 @@ deduct an IRA contribution. Can they?
 
 *Answer: Yes, in full. The IRC § 219(g) phase-out applies only to an active participant in an employer
 plan. With no such plan and no spouse who is a participant, there is no income limit on the deduction.*
+
+**6. Priya, aged 75, still works for the company that sponsors her 401(k) and has been deferring required distributions under the still-working exception while owning 4.5 percent of it. A stock grant this year takes her holding to 5.2 percent. What is the effect?**
+(A) None, because the still-working exception continues until she actually retires (B) The exception is lost, and her required beginning date is fixed by the applicable age regardless of when she retires (C) She must begin distributions from the 401(k) but may keep deferring on any IRA she holds (D) The exception is lost only once her holding reaches 10 percent
+*Answer: B. IRC § 401(a)(9)(C)(ii) denies the still-working deferral to a 5-percent owner, so once ownership exceeds 5 percent the required beginning date is set by the applicable age alone. The retirement limb never applied to an IRA in the first place.*
+
+**7. A 71-year-old client asks her IRA trustee to send $10,000 directly to a donor advised fund she maintains at a community foundation. Is the transfer a qualified charitable distribution?**
+(A) Yes, because she is past 70½ and the money went directly from the trustee (B) No, because she has not yet reached the applicable age for required distributions (C) No, because a donor advised fund is not a permitted recipient (D) Yes, but only up to her required minimum distribution for the year
+*Answer: C. IRC § 408(d)(8)(B)(i): the distribution must go to an organization described in § 170(b)(1)(A) other than a supporting organization or a donor advised fund. Her age is not the obstacle, since the test is 70½ under § 408(d)(8)(B)(ii), not the required beginning date.*
+
+**8. A client will turn 74 in 2034. She is not a 5-percent owner and holds only a traditional IRA. What is her applicable age for required distributions?**
+(A) 70½ (B) 72 (C) 73 (D) 75
+*Answer: D. IRC § 401(a)(9)(C)(v): the applicable age is 73 for an individual attaining 72 after 2022 and 73 before 2033, and 75 for one attaining 74 after 2032. A source giving 70½ predates 2019 and one giving 72 predates 2023; 70½ survives only as the qualified charitable distribution age in § 408(d)(8)(B)(ii).*

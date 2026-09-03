@@ -262,3 +262,15 @@ separately?
 *Answer: No. Where foreign stock or securities are held in a financial account at a foreign financial
 institution, the account is subject to reporting but the contents of the account are not separately
 reported — on either form.*
+
+**6. A client holds a $150,000 account at the New York branch of a Japanese bank. Which form reaches it?**
+(A) Both forms (B) The FBAR only, because the institution is foreign (C) Form 8938 only, because the account is in the United States (D) Neither form
+*Answer: D. Under the branch rule the location of the branch decides the FBAR and the status of the institution decides Form 8938: an account at a United States branch of a foreign institution is on neither form, the reverse of the foreign-branch case.*
+
+**7. A client holds two funds: a United States mutual fund that invests entirely in foreign stocks, and a foreign mutual fund. Which is reportable?**
+(A) Both, on both forms (B) The domestic fund only, on Form 8938 (C) The foreign fund on both forms; the domestic fund on neither (D) Neither, because mutual funds are not accounts
+*Answer: C. As the Service's Comparison of Form 8938 and FBAR requirements sets out, a foreign mutual fund is reportable on both forms, while a domestic mutual fund investing in foreign stocks and securities is reportable on neither.*
+
+**8. A client owns 70 percent of a foreign company, which holds an account at a foreign bank. Which form reaches the company's account itself?**
+(A) Form 8938 only, as an indirect interest in a foreign account (B) The FBAR only; her majority ownership of the company gives her a financial interest in its account, while for Form 8938 it is her interest in the company, not the account, that is the asset (C) Both forms, as the account is foreign (D) Neither, because the company and not the client owns it
+*Answer: B. As the Service's Comparison of Form 8938 and FBAR requirements sets out, an indirect interest in foreign financial assets through an entity is not itself a Form 8938 asset but gives an FBAR financial interest where the ownership or beneficial interest in the entity is sufficient, as a majority holding is; her interest in the company itself is a specified foreign financial asset under IRC § 6038D(b).*

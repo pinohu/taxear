@@ -266,3 +266,15 @@ the year. Benefits are taxable from the first dollar of other income.*
 *Answer: No. A joint return creates joint and several liability under IRC § 6013(d)(3), and a decree
 binds the spouses rather than the Service. The only relief runs through § 6015, on its own conditions
 and deadlines.*
+
+**6. A 2016 divorce decree requires monthly alimony. In 2026 the parties sign a modification reducing the amount, and the modification says nothing about the alimony rules. How are payments made after the modification treated?**
+(A) Neither deductible nor includible, because any post-2018 modification brings the instrument under the current rules (B) Still deductible by the payer and includible by the recipient, because the modification did not expressly adopt the repeal (C) Deductible by the payer but no longer includible by the recipient (D) Includible by the recipient but no longer deductible by the payer
+*Answer: B. Pub. L. 115-97 § 11051: a pre-2019 instrument keeps the old treatment unless it is modified after 2018 and the modification expressly provides that the repeal applies. The election is express, not automatic, so a silent modification leaves the old regime in place.*
+
+**7. Divorced parents share custody, and their daughter lives with her mother for 220 nights a year. The mother signs Form 8332 releasing the claim to the father for the year. Which benefit moves to the father?**
+(A) Head of household filing status (B) The earned income credit (C) The child tax credit (D) The child and dependent care credit
+*Answer: C. IRC § 152(e): the custodial parent's release lets the noncustodial parent claim the dependency-linked benefits, the child tax credit and the education credits, but head of household status, the earned income credit and the dependent care credit stay with the parent the child actually lived with.*
+
+**8. A divorce becomes final on 1 March 2026. Under the property settlement, one former spouse transfers a rental property to the other on 15 September 2026. Does § 1041 apply to the transfer?**
+(A) No, because § 1041 covers only transfers made while the parties are still married (B) Yes, because a transfer within one year after the marriage ceases is incident to the divorce (C) Only if the transfer is also shown to be related to the cessation of the marriage (D) No, so the recipient recognises gain equal to the property's appreciation
+*Answer: B. IRC § 1041(c)(1), (2): a transfer is incident to the divorce if it occurs within one year after the marriage ceases or is related to the cessation of the marriage. The two limbs are alternatives, so the September transfer qualifies on timing alone; no gain or loss is recognised and the recipient takes the transferor's basis under § 1041(b)(2).*

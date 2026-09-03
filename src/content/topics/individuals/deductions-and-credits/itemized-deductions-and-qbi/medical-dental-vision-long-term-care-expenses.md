@@ -275,3 +275,15 @@ they?
 *Answer: The decedent's, treated as paid at the time incurred under IRC § 213(c)(1) because payment fell
 within the one-year period beginning the day after death — unless allowed as an estate tax deduction under
 § 2053, which § 213(c)(2) requires be waived by a filed statement.*
+
+**6. Vera, 72, pays 7,500 dollars of premiums during 2026 on a qualified long-term care insurance contract. How much of the premium is taken into account as medical care?**
+(A) All 7,500 dollars (B) Nothing, because premiums count only for a self-employed taxpayer (C) Only the eligible long-term care premium for her age band under § 213(d)(10) (D) Only the portion exceeding 7.5 percent of adjusted gross income
+*Answer: C. IRC § 213(d)(10) counts only eligible long-term care premiums, on a five-band scale by attained age before the close of the year, so a premium above the figure for her band is excluded to that extent. Insurance covering medical care is otherwise within § 213(d)(1)(D), and the floor is applied afterwards to the total.*
+
+**7. Xavier's mother lives with him. Her own gross income is too high for him to claim her as a dependent, but she otherwise meets the § 152 tests, and he pays 6,000 dollars of her unreimbursed medical bills in 2026. May those bills count toward his § 213 deduction?**
+(A) No, because she is not his dependent (B) Yes, because § 213(a) applies § 152 without regard to the gross income test (C) Only if he claims her for the credit for other dependents (D) Only the portion exceeding her own income
+*Answer: B. IRC § 213(a) determines dependency under § 152 without regard to the gross income test, the not-a-dependent-of-another test and the joint return test, so a person who is not a dependent for credit purposes can still have their medical expenses paid and deducted, subject to the 7.5 percent floor.*
+
+**8. Yara uses a wheelchair and rents her apartment. In 2026 she spends 2,000 dollars on a ramp to the entrance and has 3,500 dollars of other unreimbursed medical expenses. Her adjusted gross income is 40,000 dollars. What is her medical deduction?**
+(A) 500 dollars (B) 2,500 dollars (C) 5,500 dollars (D) 2,000 dollars
+*Answer: B. The ramp is a capital expenditure for the purpose of affecting a structure or function of the body within IRC § 213(d)(1)(A), and because she does not own the property there is no increase in the value of her property to offset against it, so the full 2,000 dollars counts. The 5,500-dollar total less the 3,000-dollar floor under § 213(a) leaves 2,500 dollars.*

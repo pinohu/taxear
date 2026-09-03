@@ -286,3 +286,15 @@ What is the consequence?
 
 *Answer: The pledging rules in IRC § 453A(d) treat the loan proceeds as a payment on the obligation,
 accelerating the deferred gain to that extent.*
+
+**6. Orla is a land developer who regularly sells subdivided lots to customers on deferred-payment contracts. In 2026 she sells a lot for 90,000 dollars, receiving 10,000 dollars down and the balance over four years. How is the gain reported?**
+(A) Under the installment method, because at least one payment falls after the year of sale (B) In full in 2026, because a dealer disposition is excluded from the installment method (C) Under the installment method, but only if she elects in on a timely return (D) In full in 2026, because real property never qualifies for the installment method
+*Answer: B. IRC § 453(b)(2) excludes a dealer disposition from the term installment sale, and § 453(l)(1) defines a dealer disposition to include real property held for sale to customers in the ordinary course. The whole gain is reported in the year of sale.*
+
+**7. Nikhil sells machinery he owns personally to a corporation he controls for 600,000 dollars, payable over five years with 60,000 dollars down. The machinery is depreciable in the corporation's hands. What is the result in the year of sale?**
+(A) Gain is spread over the payments, and the gain in excess of recapture is capital (B) Gain is spread over the payments, but all of it is ordinary income (C) All payments are treated as received in the year of sale, and the entire gain is ordinary income (D) All payments are treated as received in the year of sale, but the gain in excess of recapture is capital
+*Answer: C. IRC § 453(g)(1) denies the installment method on a sale of depreciable property between related persons and treats all payments to be received as received in the year of disposition, and § 1239(a) independently makes the gain ordinary income where the property is depreciable in the transferee's hands.*
+
+**8. Two years into an installment sale, Yara sells the buyer's remaining note to a bank for 150,000 dollars cash. Her basis in the note is 95,000 dollars. What happens?**
+(A) Nothing until the buyer pays the bank; the deferral continues (B) She recognises 55,000 dollars of gain, treated as from the sale of the property for which the note was received (C) She recognises 150,000 dollars of gain, since the whole proceeds are a payment (D) She recognises interest income of 55,000 dollars
+*Answer: B. IRC § 453B(a): where an installment obligation is sold or otherwise disposed of, gain or loss results to the extent of the difference between the basis of the obligation and the amount realised, and is treated as from the sale of the property for which the obligation was received.*

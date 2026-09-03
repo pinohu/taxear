@@ -262,3 +262,15 @@ instructor, counselor, principal or aide, so higher education is outside the pro
 after 31 December 2025, treats an employee or new appointee of the intelligence community who relocates on
 a change of assignment in the same manner as a member of the Armed Forces within § 217(g). The same Act
 also removed the suspension's end date.*
+
+**6. Dara pays alimony under a 2017 divorce decree. In 2023 the parties modified the decree and expressly adopted the post-2018 treatment. Her 2026 payments are:**
+(A) Deductible, because the date of the original instrument controls (B) Not deductible by her and not includible by the recipient (C) Deductible by her but not includible by the recipient (D) Deductible only for payments made before the modification
+*Answer: B. IRC § 215 was repealed by Pub. L. 115-97 § 11051(a), and the repeal reaches an instrument executed before 2019 that is modified after 2018 to adopt the change — the modification moves her onto the new regime.*
+
+**7. A member of a reserve component travels 80 miles from home for weekend drills and pays lodging within the Federal travel rates. The expenses are:**
+(A) An adjustment to income under § 62 (B) Not an adjustment, because the travel must be more than 100 miles from home (C) An itemized deduction only (D) An adjustment for the lodging but not the mileage
+*Answer: B. IRC § 62(a)(2)(E) reaches reservist expenses only for a period during which the individual is more than 100 miles from home in connection with the services; at 80 miles the above-the-line treatment is unavailable.*
+
+**8. A part-time aide at a public elementary school works 700 hours during the school year and spends $300 on classroom supplies. The educator adjustment is:**
+(A) $300 (B) Capped at the indexed figure, because an aide is a listed role (C) Nothing, because the 900-hour test is not met (D) Nothing, because aides are not eligible educators
+*Answer: C. IRC § 62(d)(1)(A) requires a kindergarten through grade 12 teacher, instructor, counselor, principal or aide to be in a school for at least 900 hours during a school year; an aide is a listed role, but 700 hours fails the test.*

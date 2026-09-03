@@ -276,3 +276,15 @@ character of the premium?
 
 *Answer: Short-term capital gain. IRC § 1234(b)(1) treats gain on the lapse of an option granted by the
 taxpayer as from the sale of a capital asset held not more than one year, regardless of the actual period.*
+
+**6. Ravi exercises an incentive stock option in September 2026 with a 50,000-dollar bargain element and sells the shares in April 2027, less than a year after the transfer. In which year is the compensation income reported, and is withholding required?**
+(A) 2026, with income tax withholding (B) 2027, and no chapter 24 withholding is required (C) 2026, and no withholding is required (D) 2027, with income tax withholding
+*Answer: B. IRC § 421(b): where the transfer would qualify but for a failure of the holding periods, the increase in income is treated as arising in the taxable year of the disposition, not the year of exercise, and no chapter 24 withholding is required on that increase.*
+
+**7. Mei buys a call option on shares that would be a capital asset in her hands, paying a 2,000-dollar premium. She never exercises it and it expires worthless eight months later. What is the result?**
+(A) An ordinary loss of 2,000 dollars, because an unexercised option is not a sale (B) A short-term capital loss of 2,000 dollars, the option being deemed sold on the day it expired (C) No deduction, because the option was never sold or exchanged (D) A long-term capital loss of 2,000 dollars, because a lapsed option takes the long-term character of the shares it covers
+*Answer: B. IRC § 1234(a)(1) gives loss from failing to exercise an option the same character as the underlying property would have in the taxpayer's hands, and § 1234(a)(2) deems a lapsed option sold on the day it expired. The option was held eight months, so the capital loss is short term; the grantor rule in § 1234(b)(1) applies to the writer, not the purchaser.*
+
+**8. An employer's employee stock purchase plan sets the option price at 85 percent of the share value on the date of exercise rather than on the date of grant. What is the longest period the option may remain outstanding?**
+(A) 10 years from grant (B) 5 years from grant (C) 27 months from grant (D) There is no limit so long as the 85 percent floor is met
+*Answer: B. IRC § 423(b)(7): where the option price is set against value at exercise, the option period is limited to 5 years. The 10-year term belongs to incentive stock options under § 422(b).*

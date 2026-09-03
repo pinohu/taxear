@@ -252,3 +252,15 @@ it reduced by the decrease in the 2022 tax that excluding the item would have pr
 *Answer: Because § 67(h) disallows every itemized deduction that is not on it. The list was drafted in 1986
 to identify deductions escaping a 2 percent floor; since 2018 it has defined which itemized deductions
 exist at all.*
+
+**6. Nia repaid 2,600 dollars in 2026 of a commission that had been included in her 2024 income because it appeared she had an unrestricted right to it, which proved wrong. How is the repayment treated?**
+(A) Under the § 1341 lesser-of computation, comparing 2026 tax with and without the deduction (B) As an ordinary deduction in 2026, because § 1341 applies only where the deduction exceeds 3,000 dollars (C) By amending the 2024 return to exclude the commission (D) Not deductible, because repayments are miscellaneous itemized deductions
+*Answer: B. IRC § 1341(a)(4) applies its special computation only where the deduction exceeds 3,000 dollars, so the repayment is simply an ordinary deduction in 2026 with no comparison to what the 2024 tax would have been. A few hundred dollars more would have opened up the computation.*
+
+**7. Pavel, who is blind, pays 4,000 dollars in 2026 for a reader at his workplace, without which he could not do his job. He also pays 1,200 dollars of union dues. Which is deductible as an itemized deduction?**
+(A) Both, subject to the 2 percent floor (B) The reader only, in full and without a floor (C) The union dues only (D) Neither, because both are employee expenses
+*Answer: B. IRC § 67(d) defines impairment-related work expenses as expenses of a handicapped individual for attendant care services at the place of employment and other expenses necessary for the individual to be able to work; the class is on the § 67(b) list, so it survives § 67(h) and is deductible in full. Union dues are an ordinary employee expense, disallowed as a miscellaneous itemized deduction.*
+
+**8. A study source cites "§ 67(g)" for the disallowance of miscellaneous itemized deductions. What does § 67(g) now contain?**
+(A) The disallowance, unchanged (B) The 2 percent floor (C) A definition of educator expenses, the disallowance having been redesignated § 67(h) (D) Nothing, because the subsection was repealed
+*Answer: C. Pub. L. 119-21 § 70110(b) redesignated the disallowance as § 67(h) after § 70110(a) struck its "before January 1, 2026" limitation, and a new § 67(g) defining educator expenses now occupies the old address. A citation to § 67(g) for the disallowance points at a provision about something else entirely.*

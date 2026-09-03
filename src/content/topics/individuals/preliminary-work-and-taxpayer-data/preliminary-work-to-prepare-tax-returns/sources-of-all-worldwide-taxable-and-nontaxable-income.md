@@ -312,3 +312,15 @@ not in bankruptcy. Is the discharge includible?
 principal residence indebtedness exclusion in IRC § 108(a)(1)(E) reaches only discharges before
 1 January 2026, or discharges under an arrangement entered into and evidenced in writing before that
 date. With neither the title 11 nor the insolvency exclusion available, the $40,000 is includible.*
+
+**5. Marisol sold vintage clothing through an online marketplace in 2026, collecting $16,500 across about 150 transactions. No Form 1099-K arrived. How much of the $16,500 is gross income?**
+(A) None, because the marketplace was not required to report it (B) Only the amount above the reporting threshold (C) All of it, as gross income derived from business (D) None, unless the transaction count also exceeds the threshold
+*Answer: C. IRC § 6050W(e) sets conditions on the settlement organization's filing duty, requiring a report only where both the dollar and transaction-count thresholds are exceeded; falling under them has no bearing on the taxpayer, and the receipts are gross income derived from business under IRC § 61(a)(2).*
+
+**6. Ravi's municipal bond fund statement shows $5,000 of interest, of which the fund reports $250 as interest on private activity bonds that are not qualified bonds. What is includible in gross income, and what else must be reported?**
+(A) Nothing is includible and nothing is reported (B) $250 is includible, and the remaining $4,750 is still reported as tax-exempt interest (C) All $5,000 is includible because the fund holds more than one bond (D) Nothing is includible, but the $250 is reported as tax-exempt interest
+*Answer: B. IRC § 103(a) excludes interest on a State or local bond, but IRC § 103(b) withdraws the exclusion for a private activity bond that is not a qualified bond; the excluded portion is still reported because other computations, such as the IRC § 86 formula, reference tax-exempt interest.*
+
+**7. Under a divorce instrument executed in 2022, Helena receives $1,500 a month in alimony from her former spouse. How does she treat the payments on her 2026 return?**
+(A) Includes them in gross income as an enumerated item in IRC § 61(a) (B) Includes them only to the extent they exceed her former spouse's deduction (C) Excludes them, because alimony was struck from IRC § 61(a) for post-2018 instruments (D) Includes half of them, as with social security benefits
+*Answer: C. Alimony was struck from IRC § 61(a) by Pub. L. 115-97 § 11051(b)(1)(A), so for a post-2018 instrument the recipient does not include it; only a pre-2019 instrument not modified to adopt the new rule keeps the old treatment.*

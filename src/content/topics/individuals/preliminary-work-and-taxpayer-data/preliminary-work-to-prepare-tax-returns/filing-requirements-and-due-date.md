@@ -327,3 +327,15 @@ C. The deadline moves only for taxpayers resident in that state
 D. The taxpayer must file early
 
 *Answer: B. IRC § 7503 defines "legal holiday" as a legal holiday in the District of Columbia.*
+
+**6. Beatriz is 67 and married. For 2026 she files a separate return from her husband. May she claim the deduction for seniors on that return?**
+(A) Yes, since she attained 65 before the close of the year (B) Yes, but at half the amount (C) No, because a married taxpayer may claim it only on a joint return (D) No, because the deduction expired after 2025
+*Answer: C. Section 151(d)(5)(C) allows the deduction only on a joint return for a married taxpayer, and also requires the qualified individual's social security number on the return; it runs for taxable years beginning before 1 January 2029.*
+
+**7. A preparer relies on 2024 material stating that the personal exemption amount returns in 2026, so the filing threshold becomes the exemption plus the standard deduction. Is that right?**
+(A) Yes, the zero exemption applied only to 2018 through 2025 (B) No, the zero exemption was made permanent, so the threshold remains the basic standard deduction (C) Yes, but only for taxpayers with dependents (D) No, the exemption was replaced by the deduction for seniors for everyone
+*Answer: B. Section 70103(a) of Public Law 119-21 amended IRC § 151(d)(5) so the zero exemption applies to all taxable years beginning after 2017, and the IRC § 6012(a)(1) threshold continues to collapse to the applicable basic standard deduction.*
+
+**8. A calendar-year individual has a valid extension to 15 October, and in that year 15 October falls on a Sunday. When is the extended return timely filed?**
+(A) On or before Friday 13 October, the last business day before the deadline (B) On or before Sunday 15 October, since the extension does not move (C) On or before Monday 16 October (D) On or before Tuesday 17 October, regardless of the calendar
+*Answer: C. IRC § 7503 makes an act timely if performed on the next succeeding day that is not a Saturday, Sunday or District of Columbia legal holiday, and the last day is determined including any authorised extension of time, so the extended deadline moves to Monday.*

@@ -274,3 +274,15 @@ income is caught in full.*
 been unchanged since the tax took effect for taxable years beginning after 31 December 2012. Only the
 estate and trust threshold moves, because § 1411(a)(2)(B)(ii) points at the indexed start of the highest
 § 1(e) bracket.*
+
+**6. A trustee asks how the net investment income tax on $50,000 of a complex trust's undistributed dividends could have been avoided for 2026. Which is correct?**
+(A) Nothing; trusts are outside the tax (B) Distributing the income to a beneficiary whose own modified adjusted gross income is below the individual threshold (C) Electing to be taxed at the individual thresholds (D) Holding the dividends in a money market fund instead
+*Answer: B. IRC § 1411(a)(2) taxes a trust on the lesser of undistributed net investment income or adjusted gross income over the start of the highest § 1(e) bracket — a far lower threshold than an individual's — so income carried out to a beneficiary below $200,000 bears no net investment income tax at all.*
+
+**7. A retiree with modified adjusted gross income well above the threshold receives $15,000 of municipal bond interest. How much of it is net investment income?**
+(A) All $15,000 (B) The lesser of $15,000 and the excess over the threshold (C) None (D) Half, because it is tax-exempt
+*Answer: C. Tax-exempt interest is not gross income, so it never reaches the IRC § 1411(c)(1) definition of net investment income and escapes both this tax and the income tax.*
+
+**8. An active sole proprietor who materially participates earns $6,000 of interest on the business's working capital held in a bank account. Is that interest net investment income?**
+(A) No; it arises in an active trade or business (B) Yes; income from investing working capital is not treated as derived in the ordinary course of the business (C) No; it is self-employment income (D) Only if the business is a trading business
+*Answer: B. IRC § 1411(c)(3) applies a rule similar to § 469(e)(1)(B): income from investing working capital is not treated as derived in the ordinary course of the trade or business, so it is net investment income even where the business itself is active.*

@@ -288,3 +288,15 @@ distribution of property within IRC § 301?
 expressly excluding stock in the corporation making the distribution and rights to acquire that stock.
 A distribution of the corporation's own shares is analysed under IRC § 305 instead, where it is
 generally excluded from gross income unless one of the § 305(b) exceptions applies.*
+
+**5. A corporation with no current or accumulated earnings and profits pays $12,000 of its sole shareholder's personal travel. Her basis in the stock is $50,000. The treatment is:**
+(A) A $12,000 dividend included in gross income (B) A reduction of her stock basis to $38,000, with no dividend income (C) Deductible compensation to the corporation and wages to her (D) No tax consequence, because no dividend was declared
+*Answer: B. The IRC § 301(c) ordering still applies to a constructive distribution: a dividend only to the extent of earnings and profits under § 316(a), then a reduction of basis under § 301(c)(2), then gain — with no earnings and profits, the payment reduces basis rather than producing dividend income.*
+
+**6. Two founders each own half of a consultancy and each draw $150,000, an amount that regional comparables show is ordinary for their full-time roles. An examiner argues the identical salaries are constructive dividends because they match the stock split. The correct result is:**
+(A) A dividend, because the payments correspond to the stockholdings (B) No dividend, because the inference requires salaries that exceed what is ordinarily paid as well as a relationship to the stockholdings (C) A dividend for the half of each salary above the median (D) A dividend unless the board formally declares the pay to be compensation
+*Answer: B. Reg. § 1.162-7(b)(1) draws the inference only where the salaries exceed those ordinarily paid for similar services and the excessive payments bear a close relationship to the stockholdings; proportionality alone is not enough, and the § 162(a)(1) deduction stands.*
+
+**7. A corporation makes a small interest-free loan to a shareholder and argues the § 7872 de minimis exception applies. That exception is:**
+(A) Available regardless of purpose, provided the amount is small (B) Unavailable where a principal purpose of the interest arrangements is the avoidance of any Federal tax (C) Never available for a loan between a corporation and its shareholder (D) Available only for loans between family members
+*Answer: B. IRC § 7872(c)(3)(A) allows the de minimis exception for corporation-shareholder loans, but § 7872(c)(3)(B) removes it where a principal purpose of the interest arrangements is the avoidance of any federal tax; § 7872(c)(1)(C) names such loans expressly.*

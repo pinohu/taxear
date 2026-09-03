@@ -271,3 +271,15 @@ what period must he take it?
 
 *Answer: Within 10 years of her death. He is a designated beneficiary but not an eligible designated
 beneficiary, so IRC § 401(a)(9)(H)(i) applies, whether or not she had begun taking distributions.*
+
+**6. A decedent owned a $1,000,000 policy on his own life, payable to his daughter, and retained the right to change the beneficiary until his death. How are the proceeds treated?**
+(A) Excluded from the daughter's income and outside the gross estate, because she was the beneficiary (B) Excluded from the daughter's income but included in the gross estate (C) Taxable to the daughter as income and included in the gross estate (D) Taxable to the daughter as income but outside the gross estate
+*Answer: B. IRC § 101(a) excludes proceeds paid by reason of death from gross income, while § 2042(2) includes proceeds receivable by anyone where the decedent held an incident of ownership at death — and the right to change the beneficiary is one; the two exclusions are different taxes and both apply here.*
+
+**7. Ottilie inherits her father's IRA at age 12 and, as a minor child of the employee, takes distributions over her life expectancy. What happens when she reaches the age of majority?**
+(A) Distributions continue over her life expectancy for the rest of her life (B) The remainder must be distributed within 10 years of the date she reaches majority (C) The remainder must be distributed within 10 years of her father's death (D) The whole account must be distributed immediately
+*Answer: B. IRC § 401(a)(9)(E)(iii) ends the minor-child exception at majority and requires the remainder to be distributed within 10 years of that date, so the stretch runs for a few years and then converts to a deadline.*
+
+**8. Estate tax was actually paid on a decedent's traditional IRA. The beneficiary now takes distributions and reports them as income in respect of a decedent. What relief is available to the beneficiary?**
+(A) A basis step-up equal to the estate tax paid (B) An income tax deduction for the estate tax attributable to the account as it is drawn down (C) A credit against income tax equal to the estate tax paid (D) None; the estate's payment of the tax is final
+*Answer: B. IRC § 691(c) allows the beneficiary a deduction for the estate tax attributable to the item, in the same ratio the item's estate tax value bears to all such items — frequently missed because the beneficiary receiving the Form 1099-R never sees the estate tax return.*

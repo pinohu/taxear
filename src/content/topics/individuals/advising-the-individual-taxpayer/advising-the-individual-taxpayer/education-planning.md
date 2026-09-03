@@ -262,3 +262,15 @@ credit on it. What is wrong?
 *Answer: The same expenses cannot support both a tax-free qualified tuition program distribution and an
 education credit. Allocating part of the tuition to other funds preserves the credit while still using
 the account for the balance.*
+
+**6. In September 2025 a family took a $3,000 distribution from their son's § 529 account to buy curriculum materials for his secondary school. Does the distribution qualify?**
+(A) Yes, the widened list of school expenses applies to distributions made after 4 July 2025 (B) No, only tuition qualified at that level until taxable years beginning after 2025 (C) Yes, but only if tuition was also paid in the same year (D) No, curriculum materials never qualify at the elementary and secondary level
+*Answer: A. Pub. L. 119-21 § 70413(a) rewrote IRC § 529(c)(7) for distributions made after 4 July 2025, the date of enactment, so the September 2025 distribution draws on the wider expense list while remaining subject to that year's older dollar limit.*
+
+**7. A grandfather sends a $1,500 cash contribution to his grandson's Coverdell account. The grandson turned 18 three weeks earlier. What happens?**
+(A) It is accepted; the age limit applies only to distributions (B) It cannot be accepted, because no contribution may be made after the beneficiary reaches 18 (C) It is accepted because it is in cash and below the annual cap (D) It is accepted if the grandson consents in writing
+*Answer: B. IRC § 530(b)(1)(A)(iii) bars any contribution to a Coverdell account after the beneficiary attains age 18; a § 529 account, which has no such age limit, would have been the right vehicle.*
+
+**8. A client takes the standard deduction and paid interest on a qualified education loan during 2026. His income is below the phase-out range. May he deduct the interest?**
+(A) No, because he does not itemize (B) Yes, as an above-the-line deduction, up to the annual maximum (C) Only as a miscellaneous itemized deduction, which is currently disallowed (D) Only if his employer reimburses it under a § 127 programme
+*Answer: B. IRC § 221 provides an above-the-line deduction, so it is available without itemising and survives the disallowance of miscellaneous itemized deductions, subject to the annual maximum and the 2026 phase-out.*

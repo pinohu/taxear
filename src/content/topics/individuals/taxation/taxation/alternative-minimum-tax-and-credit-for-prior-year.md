@@ -293,3 +293,15 @@ affected by § 57(a)(5)?
 bonds a preference item; ordinary governmental purpose bonds are not within it. A mutual fund's
 exempt-interest dividend carries the preference through to the shareholder in proportion to the fund's
 private activity bond interest under § 57(a)(5)(B).*
+
+**6. For 2026 a taxpayer's regular tax is $31,000 and tentative minimum tax is $36,500. What is the alternative minimum tax reported on Form 6251?**
+(A) $36,500 (B) $5,500 (C) $31,000 (D) Zero, because the regular tax was paid
+*Answer: B. IRC § 55(a) imposes a tax equal to the excess of the tentative minimum tax over the regular tax — $5,500 — which is added to the regular tax rather than replacing it.*
+
+**7. Which of the following was not among the changes Pub. L. 119-21 made to the alternative minimum tax for taxable years beginning after 31 December 2025?**
+(A) The sunset on the enlarged exemption was struck (B) The phase-out threshold was reset and re-indexed from calendar year 2025 (C) The phase-out rate was doubled to 50 percent (D) The exemption amounts were increased and given a new indexing base
+*Answer: D. Pub. L. 119-21 § 70107 struck the sunset, reset the threshold with a 2025 indexing base, and doubled the phase-out rate; the exemption amounts themselves kept their 2017 base and their existing indexed values.*
+
+**8. A child subject to the § 1(g) kiddie tax has alternative minimum taxable income in 2026. Does the § 59(j) limit on the child's exemption apply?**
+(A) Yes, as published in the annual revenue procedure (B) No; the statute disapplies § 59(j) for every year the permanent exemption rules cover (C) Only if the child's parents themselves owe alternative minimum tax (D) Only for a child under 18
+*Answer: B. IRC § 55(d)(4)(A)(iii) provides that § 59(j) shall not apply for any taxable year to which § 55(d)(4) applies, and with the sunset struck by Pub. L. 119-21 that is now every year; the statute controls over the figure the revenue procedure still publishes.*

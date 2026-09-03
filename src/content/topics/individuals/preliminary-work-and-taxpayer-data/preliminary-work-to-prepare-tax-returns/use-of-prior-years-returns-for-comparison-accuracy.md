@@ -295,3 +295,15 @@ C. As a deduction or credit allocable to the same activity in the next taxable y
 D. It expires after five years
 
 *Answer: C — which is why suspended losses must be tracked activity by activity.*
+
+**6. Priya, who is single, carries a $27,000 long-term capital loss forward into 2026 and has no capital gains for the year. What may she deduct against ordinary income, and what carries forward?**
+(A) $27,000, because a carryforward is fully deductible (B) $3,000, with $24,000 carrying forward as a long-term loss (C) $3,000, with $24,000 carrying forward as a short-term loss (D) Nothing, because carryforwards offset only capital gains
+*Answer: B. Section 1211(b) caps the offset against ordinary income at $3,000 for the year regardless of the size of the carryforward, and the remaining $24,000 carries forward again, still long-term, because the character survives.*
+
+**7. Lucian sells 40 percent of his interest in a rental activity that carries several years of suspended passive losses, in a fully taxable sale to an unrelated buyer. What happens to the suspended losses?**
+(A) They are released in full against this year's income (B) Forty percent of them are released (C) They stay suspended, allocable to the same activity, until the entire interest is disposed of in a fully taxable transaction (D) They are released, but only as a capital loss
+*Answer: C. Section 469(g) frees a suspended passive loss only on a fully taxable disposition of the entire interest in the activity, and a partial interest is not the entire interest; the loss remains allocable to that activity under § 469(b).*
+
+**8. Under the reasonable cause and good faith exception to the preparer penalty, which of the following does Reg. § 1.6694-2(e) treat as an element of a normal office practice?**
+(A) A review of the prior year's return (B) Independently verifying every position taken on the prior return (C) Obtaining a signed engagement letter before beginning work (D) Refusing to rely on any return prepared by another preparer
+*Answer: A. Reg. § 1.6694-2(e)(4) lists a review of the prior year's return among the elements of the normal office practice that the reasonable cause and good faith exception rewards; reliance on a previously filed return is itself permitted under Reg. § 1.6694-1(e)(2).*

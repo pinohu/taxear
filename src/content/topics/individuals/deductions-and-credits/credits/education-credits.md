@@ -314,3 +314,15 @@ than the Lifetime Learning credit would be?
 *Answer: $5,500 larger. The American Opportunity credit is per student — $2,500 each, or $7,500 — while
 the Lifetime Learning credit is 20 percent of a maximum of $10,000 per return, or $2,000, however many
 students there are.*
+
+**6. Nadia is enrolled half time in a certificate programme that does not lead to a degree. She pays $4,000 of tuition to the institution and buys $700 of required textbooks at the campus bookstore. What is her Lifetime Learning credit?**
+(A) $800 (B) $940 (C) $1,000 (D) $2,000
+*Answer: A. The credit is 20 percent of qualified expenses, and the textbooks are not qualified: IRC § 25A(f)(1)(D) extends the definition to course materials only for the American Opportunity credit, and Reg. § 1.25A-2(d)(2)(ii) admits books only where the fee must be paid to the institution as a condition of enrollment. Twenty percent of $4,000 is $800.*
+
+**7. Owen, 20, is a full-time degree student whose parents are entitled to claim him as a dependent. He paid his own $6,000 of tuition from summer earnings and received the Form 1098-T in his name. Who may claim the American Opportunity credit for those expenses?**
+(A) Owen, because he paid the tuition (B) His parents, with the payments and the Form 1098-T treated as theirs (C) Either Owen or his parents, whichever produces the larger credit (D) Neither, because a dependent's own payments do not count for anyone
+*Answer: B. IRC § 25A(g)(3) provides that where another taxpayer is entitled to claim the student as a dependent, the student may claim no credit, the student's own payments are treated as paid by that taxpayer, and the Form 1098-T is treated as received by that taxpayer. The rule does not turn on who wrote the cheque.*
+
+**8. Priya, 18, is a first-year full-time degree student who files her own return and is a child subject to the § 1(g) kiddie tax. Nobody can claim her as a dependent, her tuition supports a full American Opportunity credit, and her tax liability is zero. What refund does the credit produce?**
+(A) $1,000 (B) $2,500 (C) $840 (D) Nothing
+*Answer: D. IRC § 25A(i) makes 40 percent of the credit refundable, but the whole refundable rule is switched off for a taxpayer who is a child subject to the § 1(g) kiddie tax, which catches a student claiming in her own right far more often than it catches a parent.*

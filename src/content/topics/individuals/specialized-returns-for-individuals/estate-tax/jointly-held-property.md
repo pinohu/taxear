@@ -258,3 +258,15 @@ the entirety. Does the one-half rule apply?
 
 *Answer: No. IRC § 2056(d)(1)(B) provides that § 2040 (b) shall not apply where the surviving spouse is
 not a citizen, so the consideration-furnished test in § 2040(a) governs.*
+
+**6. Three siblings inherit a farm from their mother as joint tenants with right of survivorship. None of them paid anything for it. The eldest dies. How much of the farm is in his gross estate?**
+(A) Nothing, because he furnished no consideration (B) One-third, with no consideration tracing required or permitted (C) The whole value, unless the surviving siblings can prove their contributions (D) One-half
+*Answer: B. Under the IRC § 2040(a) second proviso and Reg. § 20.2040-1(a)(1), where the joint interest was itself acquired by gift, devise, bequest or inheritance the decedent's fractional share is included and the consideration test never runs.*
+
+**7. Two friends own a building as tenants in common, each holding an undivided one-half. One of them dies. What is included in her gross estate, and where does it go?**
+(A) The whole value, less whatever the co-owner can prove she paid (B) One-half automatically, passing to the co-owner by survivorship (C) Her undivided one-half, passing under her will or intestacy rather than to the co-owner (D) Nothing, because a tenancy in common is outside the estate tax
+*Answer: C. A tenancy in common has no right of survivorship, so § 2040 never applies; the decedent's fractional interest is in the gross estate under IRC § 2033 and passes by will or intestacy, not to the co-tenant.*
+
+**8. Unmarried partners own a house as joint tenants. It cost $200,000 and is worth $1,000,000 when one dies. The survivor proves with bank records that she furnished 70 percent of the purchase price. What is her basis in the house after the death?**
+(A) $1,000,000 (B) $440,000 (C) $200,000 (D) $600,000
+*Answer: B. Basis follows inclusion under IRC § 1014(b)(9): the 30 percent included in the gross estate takes a date-of-death basis of $300,000, while her excluded 70 percent keeps its original basis of $140,000, for $440,000 in total — the proof that kept value out of the estate also kept the old basis.*

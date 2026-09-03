@@ -309,3 +309,15 @@ key off gross income or adjusted gross income rather than taxable income. An adj
 adjusted gross income too, so on that axis the two behave alike — the sharper contrast is with a
 deduction taken after adjusted gross income, such as an itemized deduction or a § 63(b) deduction,
 which reduces taxable income while leaving every adjusted-gross-income threshold untouched.*
+
+**5. Lucas, a sole proprietor, paid $8,400 for a health policy covering himself and his wife for all of 2026. From 1 October his wife's employer offered her subsidized coverage, which she declined. For which months is the IRC § 162(l) deduction available?**
+(A) All twelve, because she never enrolled in the employer plan (B) None, because eligibility for a spouse's employer plan at any point in the year defeats the deduction (C) January through September only (D) October through December only
+*Answer: C. IRC § 162(l)(2)(B) denies the deduction for any calendar month in which the taxpayer is eligible to participate in a subsidized plan maintained by an employer of the taxpayer or the spouse; the test is eligibility rather than enrolment, applied month by month.*
+
+**6. IRC § 62(a) does not name the deduction for one-half of self-employment tax. How does it nonetheless reduce adjusted gross income?**
+(A) It is an itemized deduction that a non-itemizer may also claim (B) It is treated as attributable to a trade or business, so it arrives through the trade or business paragraph of IRC § 62(a) (C) It is an exclusion from gross income rather than a deduction (D) It reduces the self-employment tax itself, not adjusted gross income
+*Answer: B. IRC § 164(f)(1) allows one-half of the § 1401 taxes, other than the § 1401(b)(2) additional Medicare tax, as a deduction, and IRC § 164(f)(2) directs that it be treated as attributable to a trade or business, so it enters adjusted gross income through IRC § 62(a)(1).*
+
+**7. Owen teaches grade 6 and spent $1,300 of his own money on classroom supplies in 2026. His school reimbursed $250 under an arrangement that excluded that amount from his income. Before applying the dollar cap, what is the base for his educator expense deduction?**
+(A) $1,300 (B) $1,050 (C) $250 (D) $1,550
+*Answer: B. IRC § 62(d)(2) allows the § 62(a)(2)(D) deduction only to the extent expenses exceed the amounts excludable from gross income for the same items, so the reimbursed $250 comes off first, leaving $1,050 before the indexed cap.*

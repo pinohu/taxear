@@ -246,3 +246,15 @@ taxable income computed without the § 172, § 199A and § 250 deductions.*
 *Answer: IRC § 199A(c)(2) treats the negative net amount as a loss from a qualified trade or business in
 the succeeding taxable year, reducing next year's qualified business income and therefore the deduction.
 Nothing on the loss year's return records it, so it has to be tracked deliberately.*
+
+**6. A married taxpayer filing a separate return has a $9,000 net capital loss and no capital gains this year. Her spouse, also filing separately, has no capital transactions at all. How much of the loss may she deduct against ordinary income this year?**
+(A) $3,000, the full annual allowance (B) $1,500, because the allowance is halved on a separate return (C) $9,000, because her spouse has no gains to absorb it (D) Nothing, because capital losses offset only capital gains
+*Answer: B. IRC § 1211(b): the annual allowance against ordinary income is $3,000, or $1,500 for a married individual filing separately, and the remaining $7,500 carries forward subject to the same halved limit for each year the couple continues to file separately.*
+
+**7. A client owns two rental properties, each a separate passive activity, with $12,000 of suspended losses on the first and $9,000 on the second. This year she sells her entire interest in the first in a fully taxable sale. Which suspended losses are released?**
+(A) Both, because disposing of any passive activity frees all suspended passive losses (B) Only the $12,000 from the property she sold (C) Neither, because suspended losses are released only when every passive activity has been disposed of (D) Half of each, prorated between the two activities
+*Answer: B. IRC § 469(b), (g): a disallowed passive loss is allocable to the same activity in the next taxable year and is released on a fully taxable disposition of the entire interest in that activity. The carryover is tracked per activity, so disposing of one rental does not free the losses suspended on another.*
+
+**8. An individual has a general business credit for 2026 that exceeds the tax it can offset. How is the unused credit carried?**
+(A) Forward indefinitely, with no carryback (B) Back two years and forward twenty (C) Back one year and forward twenty (D) Back five years and forward indefinitely
+*Answer: C. IRC § 39(a): an unused general business credit is carried back one year and forward twenty. The two-year carryback belonged to pre-2018 net operating losses, and the five-year carryback was the temporary § 172(b)(1)(D) window for losses arising in 2018 through 2020, which has closed.*

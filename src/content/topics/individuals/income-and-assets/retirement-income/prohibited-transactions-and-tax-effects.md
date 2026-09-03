@@ -286,3 +286,15 @@ person, and § 4975(e)(6) defines family. Leasing property between a plan and a 
 within § 4975(c)(1)(A). Market rent is no answer, because the category asks who dealt with the plan
 rather than whether the terms were fair, and § 408(e)(2) then disqualifies the account from the first
 day of the year.*
+
+**5. Nadia's self-directed IRA owns a holiday cottage that is let commercially all year. In August she and her husband stay there for a long weekend and pay nothing. What is the consequence?**
+(A) The account ceased to be an IRA on 1 January and is treated as having distributed everything at its value on that day (B) Nothing — no sale, loan or payment took place (C) Only the rental value of the weekend is treated as distributed (D) The account is destroyed as of August, the month of the stay
+*Answer: A. IRC § 4975(c)(1)(D) reaches the use by or for the benefit of a disqualified person of plan assets, with no consideration needed; IRC § 408(e)(2)(A) then ends the account's IRA status as of the first day of the taxable year, and § 408(e)(2)(B) deems all its assets distributed at first-day fair market value.*
+
+**6. A disqualified person engages in a prohibited transaction with an employer's qualified plan and does not correct it. What tax applies?**
+(A) 15 percent of the amount involved for each year or part of a year in the taxable period, then a further 100 percent if not corrected within that period (B) A single 15 percent charge in the year of the transaction (C) Disqualification of the plan as of the first day of the year (D) A 10 percent additional tax on the amount involved
+*Answer: A. IRC § 4975(a) imposes the first-tier tax for each year or part of a year in the taxable period on any participating disqualified person, and § 4975(b) imposes the 100 percent second-tier tax where the transaction is not corrected within the taxable period.*
+
+**7. Kwame holds two traditional IRAs. In June 2026 he lends money from one of them to a company he controls. What happens to the accounts?**
+(A) Only the lending IRA ceases to be an IRA, as of 1 January 2026, and is deemed distributed at its value on that day; the other survives (B) Both IRAs cease to be IRAs, because the owner is one taxpayer (C) Only the lending IRA, as of June 2026, the date of the loan (D) Only the amount lent is treated as distributed from the lending IRA
+*Answer: A. IRC § 408(e)(2)(A)(iii) treats each individual retirement plan as a separate contract for this purpose, so the prohibited transaction destroys only the account involved; § 408(e)(2)(A) and (B) fix the disqualification and the deemed distribution at the first day of the taxable year, not the transaction date.*

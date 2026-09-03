@@ -305,3 +305,15 @@ required amount — which must be taken in cash before anything is converted.*
 *Answer: Because only the first distribution calendar year may be deferred (Reg. § 1.401(a)(9)-5(a)(3)).
 The second year's amount is still due by 31 December of that year and is computed on the prior
 31 December balance, which the deferred distribution did not reduce — so two amounts fall in one year.*
+
+**6. Nkem is 74, still working full time for an employer in which she owns no stock, and holds both that employer's 401(k) and a traditional IRA. Which required beginning date may she defer by continuing to work?**
+(A) The 401(k) only — the retirement leg is withdrawn entirely for IRAs (B) Both — she has not retired (C) Neither — the applicable age alone fixes every required beginning date (D) The IRA only — employer plans must pay from the applicable age
+*Answer: A. IRC § 401(a)(9)(C)(i) sets the required beginning date by the later of the applicable age or retirement, but § 401(a)(9)(C)(ii)(II) withdraws the retirement leg for purposes of § 408(a)(6) and (b)(3), and Reg. § 1.408-8(b)(1)(i) determines an IRA owner's date using the rules for 5-percent owners.*
+
+**7. Two co-founders, each 74 and still working full time, hold 401(k) accounts through the company's plan. One owns exactly 5 percent of its stock; the other owns 5.5 percent. Whose required beginning date can wait until actual retirement?**
+(A) The co-founder at exactly 5 percent — a 5-percent owner is one owning more than 5 percent (B) Both — neither is a majority owner (C) Neither — any owner-employee loses the retirement leg (D) The co-founder at 5.5 percent — the exclusion applies only to owners of 10 percent or more
+*Answer: A. IRC § 401(a)(9)(C)(ii)(I) excludes a 5-percent owner from the retirement leg of § 401(a)(9)(C)(i), and a 5-percent owner is one who owns more than 5 percent of the employer, so exactly 5 percent does not cross the line.*
+
+**8. An IRA owner's wife, fifteen years younger, is the sole beneficiary of his IRA from 1 January until November 2026, when he adds their son as a co-beneficiary. Which table sets his 2026 denominator?**
+(A) The Uniform Lifetime Table — the spouse was not the sole beneficiary at all times during the year (B) The joint and last survivor table — she was the sole beneficiary on 1 January (C) The joint and last survivor table, prorated for the months she was sole beneficiary (D) The joint and last survivor table — a spouse more than ten years younger always qualifies
+*Answer: A. Reg. § 1.401(a)(9)-5(c)(2)(i), (ii) permits the joint and last survivor denominator only where the spouse is the sole beneficiary at all times during the distribution year; adding a co-beneficiary for even one day returns the owner to the Uniform Lifetime Table of § 1.401(a)(9)-5(c)(1).*

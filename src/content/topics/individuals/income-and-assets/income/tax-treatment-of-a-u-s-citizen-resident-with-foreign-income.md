@@ -287,3 +287,15 @@ asks whether disclosure is necessary given that no tax will be due.
 overrules or otherwise modifies an internal revenue law, on the return or, if none is required, in the
 form prescribed. The absence of tax is not an exception. IRC § 6712(a) imposes a penalty for each
 failure, which the Secretary may waive for reasonable cause under § 6712(b).*
+
+**5. A lawful permanent resident of the United States has lived in France with her tax home there for three full calendar years, returning to the United States for two weeks each year. Which route to the foreign earned income exclusion is open to her?**
+(A) Bona fide residence, because she has lived abroad for an entire taxable year (B) Either route, at her election (C) Physical presence only, and only in a 12-month period with at least 330 full days abroad (D) Neither, because the exclusion is limited to citizens
+*Answer: C. IRC § 911(d)(1)(A) opens the bona fide residence route to citizens only, while § 911(d)(1)(B) opens the physical presence route to a citizen or resident present in foreign countries for at least 330 full days in any 12 consecutive months.*
+
+**6. Malik and his wife file jointly and have $650 of creditable foreign tax withheld on qualified passive income reported on payee statements. May they elect out of the § 904(a) limitation?**
+(A) Yes, the election is open to any individual whose only foreign income is passive (B) No, the creditable tax exceeds the $600 joint ceiling, so the full § 904(a) computation applies (C) Yes, on the first $600 of tax (D) No, the election is available only on a separate return
+*Answer: B. IRC § 904(j) is a bright line, not a phase-out: the election is available only where creditable foreign taxes on qualified passive income are within the threshold, $600 on a joint return, and any excess loses the simplification entirely.*
+
+**7. A taxpayer claims the foreign tax credit for tax withheld on foreign dividends and, on the same return, deducts the foreign income tax paid on her foreign salary. Is that permitted?**
+(A) Yes, the choice is made item by item (B) No, taking the § 901 benefits to any extent forecloses the deduction for the year (C) Yes, provided a treaty allows it (D) No, unless the deduction is smaller than the credit
+*Answer: B. IRC § 275(a)(4): no deduction is allowed for foreign income taxes if the taxpayer chooses to take to any extent the benefits of § 901; the choice is annual and all-or-nothing for the year.*

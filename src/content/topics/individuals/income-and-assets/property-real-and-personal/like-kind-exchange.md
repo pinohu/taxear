@@ -275,3 +275,15 @@ consequence to the other?
 *Answer: The nonrecognition is undone. IRC § 1031(f)(1) applies where either party disposes of the
 property received within 2 years of the last transfer in the exchange, and the deferred gain is taken into
 account in the year of that disposition.*
+
+**6. Soraya exchanges investment land with a basis of 400,000 dollars and a value of 350,000 dollars for like-kind land worth 320,000 dollars plus 30,000 dollars of cash. How much loss is recognised?**
+(A) 30,000 dollars, to the extent of the cash received (B) 50,000 dollars, the full realised loss (C) None, because no loss is recognised on an exchange that would otherwise qualify (D) 20,000 dollars, the loss net of the cash received
+*Answer: C. IRC § 1031(c): where an exchange would qualify but for the receipt of money or other property and produces a loss, no loss is recognised at all. Boot triggers gain under § 1031(b) but never loss.*
+
+**7. Kenji exchanges a rental building in Ohio for a rental building of equal value in Portugal, both held for investment, and completes the identification and exchange within the statutory periods. Does the exchange qualify?**
+(A) Yes, because both properties are real property held for investment (B) No, because real property in the United States and real property outside it are not of like kind (C) Yes, provided a qualified intermediary is used (D) No, because foreign property must be identified within 30 days
+*Answer: B. IRC § 1031(h): real property located in the United States and real property located outside the United States are not property of a like kind.*
+
+**8. Amara transfers her relinquished property on 1 March 2026. Her intermediary delivers a signed written identification of the replacement property on 20 April 2026, and she receives that property on 15 July 2026. Does the property received qualify as like-kind property?**
+(A) Yes, because it was received within 180 days of the transfer (B) No, because the identification came after the 45-day identification period (C) Yes, because the identification only has to precede receipt (D) No, because identification must be made before the relinquished property is transferred
+*Answer: B. IRC § 1031(a)(3)(A): property received is treated as not like-kind if it is not identified on or before the day 45 days after the taxpayer transfers the relinquished property. 20 April is day 50, so the identification is late and receipt within 180 days does not cure it.*

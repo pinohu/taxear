@@ -275,3 +275,15 @@ Is a marital deduction allowed?
 
 *Answer: No, unless the property passes in a qualified domestic trust meeting IRC § 2056A(a). Section
 2056(d)(1)(A) disallows the deduction where the surviving spouse is not a citizen.*
+
+**6. An executor elects to treat a trust paying all its income annually to the surviving spouse as qualified terminable interest property. What are the consequences?**
+(A) The property is deductible now and is never subject to estate tax again (B) The property is deductible now and is included in the surviving spouse's gross estate at her death (C) The property is not deductible, because the spouse's interest terminates at death (D) Only one-half of the property is deductible
+*Answer: B. Under IRC § 2056(b)(7) the executor's election treats the property as passing to the spouse, so it qualifies for the marital deduction in the first estate and is then in the survivor's gross estate at her death; the election can be partial and is made property by property.*
+
+**7. A husband who has no deceased spousal unused exclusion amount of his own dies in 2026, and his executor makes a timely portability election. The tentative tax on his estate was determined on $4,000,000. What is his widow's deceased spousal unused exclusion amount?**
+(A) His basic exclusion amount less $4,000,000 (B) $4,000,000 (C) Whatever remained after the deductions claimed on his return (D) Nil, because his estate paid no tax
+*Answer: A. IRC § 2010(c)(4) defines the amount as the lesser of the basic exclusion amount or the last deceased spouse's applicable exclusion amount reduced by the amount on which the tentative tax was determined under § 2001(b)(1) — not simply whatever was left over.*
+
+**8. A widow's late husband died in 2026 and his estate made the portability election. She dies in 2036. The ordinary assessment period for his estate closed years ago. May the IRS still examine his return when auditing hers?**
+(A) No; once the assessment period has run the first return is closed for every purpose (B) Yes, but only to the extent needed to determine the unused exclusion amount (C) Only if the first estate actually paid estate tax (D) Only within three years of her death
+*Answer: B. IRC § 2010(c)(5)(B) lets the Secretary examine the deceased spouse's return to determine the unused exclusion amount notwithstanding § 6501, long after assessment against that estate is time-barred.*

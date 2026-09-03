@@ -277,3 +277,15 @@ corrected?
 following the close of the taxable year, and each plan may distribute the allocated amount with
 allocable income not later than the 1st April 15 following that close (IRC § 402(g)(2)(A)(i), (ii)).
 These are fixed dates rather than the return due date, and filing an extension does not move them.*
+
+**5. Bashir makes an excess Roth IRA contribution in 2026. In March 2027, before filing, his custodian returns the contribution together with $300 of net income attributable to it. In which year is the $300 taxable?**
+(A) 2026, the year the contribution was made (B) 2027, the year of the withdrawal (C) Neither — the net income comes back tax-free with the contribution (D) Half in each year
+*Answer: A. IRC § 408(d)(4), closing sentence: the net income attributable to a timely returned contribution is treated as earned and receivable in the taxable year in which the contribution was made, not the year of withdrawal.*
+
+**6. In 2026 a taxpayer rolls $60,000 from a former employer's 401(k) into a traditional IRA and also makes a regular contribution at the full annual limit. Does the rollover create an excess contribution?**
+(A) No — rollover contributions described in § 402(c) are excluded from the excess computation (B) Yes — anything above the § 219 limit is excess, whatever its source (C) Yes, unless the rollover was completed within sixty days (D) No, but only if the regular contribution is nondeductible
+*Answer: A. IRC § 4973(b)(1) measures the excess by contributions other than rollover contributions described in §§ 402(c), 403(a)(4), 403(b)(8), 408(d)(3) or 457(e)(16), so the rollover is outside the computation entirely.*
+
+**7. A taxpayer over-contributes to a health savings account in 2026 and leaves the excess in place for three years. What is the consequence?**
+(A) A 6 percent excise tax for each year the excess remains, capped at 6 percent of the account value (B) Nothing — the excise tax reaches only individual retirement accounts (C) A single 6 percent charge in the year of the contribution (D) A 10 percent additional tax on the excess in the year of withdrawal
+*Answer: A. IRC § 4973(a)(1)–(6) lists six kinds of account, including a health savings account, and imposes the 6 percent tax for each taxable year the excess remains, limited to 6 percent of the account value at the close of the year.*

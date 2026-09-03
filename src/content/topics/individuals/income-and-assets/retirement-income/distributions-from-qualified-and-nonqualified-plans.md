@@ -277,3 +277,15 @@ under a qualified employer retirement plan, and § 72(d)(1)(B)(i) recovers the i
 as of the annuity starting date, by the number of anticipated payments from the table in clause (iii),
 which is keyed to the annuitant's age at that date. The general exclusion ratio still governs a
 commercial annuity outside such a plan.*
+
+**5. A taxpayer receives an eligible rollover distribution on 3 June; the plan's cheque is dated 28 May. She deposits the full amount into an IRA on 2 August, the sixtieth day after receipt. Is the rollover timely?**
+(A) Yes — the period runs from the day of receipt, and a transfer on the sixtieth day is not made after it (B) No — the period runs from the date printed on the cheque (C) No — the deposit had to be made before the sixtieth day (D) Only if the Secretary grants a waiver for equity or good conscience
+*Answer: A. IRC § 402(c)(3)(A) denies rollover treatment only to a transfer made after the 60th day following the day the distributee received the property; a deposit on the 60th day itself is timely, and the § 402(c)(3)(B) waiver is needed only for a late one.*
+
+**6. A retiring employee is completing the paperwork for a lump-sum distribution of his 401(k) balance and wants the whole balance to reach his IRA with nothing withheld. What must he do?**
+(A) Elect on the distribution paperwork to have the amount paid directly to the IRA (B) Take the cheque and complete the rollover within sixty days (C) Take the cheque and elect a lower withholding rate under the ordinary elective rules (D) Take the cheque and claim the withheld amount as a payment on his return
+*Answer: A. IRC § 3405(c)(1) makes twenty percent withholding mandatory on an eligible rollover distribution and disapplies the elective rules, and § 3405(c)(2) lifts it only where the distributee elects under § 401(a)(31)(A) to have the distribution paid directly to an eligible retirement plan.*
+
+**7. Ines earns $90,000; her husband Marco has no compensation of his own. They file jointly. May Marco contribute to an IRA for 2026?**
+(A) Yes — he has his own limit, computed from the couple's combined compensation (B) No — a contribution requires the contributor's own compensation (C) Yes, but only to a joint IRA held with Ines under a single shared limit (D) Yes, but only up to half of Ines's limit
+*Answer: A. IRC § 219(c) gives a non-earning spouse their own limit computed from the couple's combined compensation — a separate limit, not a joint limit on a shared account.*

@@ -259,3 +259,15 @@ neither is met — $48,000 on the last day and $60,000 at the peak.*
 
 *Answer: No. The two are separate regimes under different titles of the United States Code, administered
 by different agencies, with separate penalties; neither filing substitutes for the other.*
+
+**6. A daughter is named on her elderly father's account in Canada so she can manage his affairs. All the interest is reported on his return and she takes nothing from it. What must she file?**
+(A) Both forms (B) The FBAR only (C) Form 8938 only (D) Neither form
+*Answer: B. As the Service's Comparison of Form 8938 and FBAR requirements sets out, the FBAR interest test reaches an owner of record or holder of legal title regardless of whose income it is; the Form 8938 test asks whether anything from the asset must be reflected on her own income tax return, and nothing is.*
+
+**7. A client extends her income tax return to 15 October. How does that affect her Form 8938 and her FBAR for the same year?**
+(A) Both are due 15 October by virtue of the income tax extension (B) Form 8938 follows the extended return; the FBAR is due 15 April with its own automatic extension to 15 October, filed with FinCEN and never with the return (C) The FBAR must be attached to the extended return (D) Form 8938 follows the extended return; the FBAR has no extension and was due 15 April
+*Answer: B. Form 8938 is attached to the return and follows its extensions under IRC § 6038D(a); the FBAR sits on the calendar year with its own automatic extension and goes to FinCEN electronically.*
+
+**8. A client has filed an FBAR every year since 2004 for an account now worth $460,000 but has never filed Form 8938. What is the effect on the assessment period for those years?**
+(A) It has run normally, because the FBAR disclosed the account (B) It remains open for every year in which Form 8938 was required, because the FBAR filing does nothing to close it (C) It is extended by three years from each FBAR filing (D) It is open only for the years in which the account produced income
+*Answer: B. IRC § 6501(c)(8) keeps the assessment period open for every year in which the form was required; neither filing substitutes for the other, so diligence on the FBAR does not close the years on Form 8938.*

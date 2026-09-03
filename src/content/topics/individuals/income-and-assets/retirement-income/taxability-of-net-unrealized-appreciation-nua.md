@@ -283,3 +283,15 @@ distributed from the IRA.*
 *Answer: No. It applies automatically to a qualifying distribution. The second sentence of IRC
 § 402(e)(4)(B) provides only an election **not** to have it apply, made on the return on which the lump
 sum distribution must be included.*
+
+**6. Terrence separates from service and takes his entire profit-sharing plan account, receiving employer stock in kind worth 150,000 dollars against a trust cost of 30,000 dollars. He leaves 2,000 dollars in a second profit-sharing plan of the same employer. What is included in gross income for the year?**
+(A) 30,000 dollars, the trust's cost (B) 150,000 dollars, the full fair market value of the shares (C) 120,000 dollars, the appreciation only (D) Nothing, because the shares were taken in kind
+*Answer: B. IRC § 402(e)(4)(D)(ii)(I) treats all profit-sharing plans of the employer as a single plan, so the balance to his credit was not distributed within one taxable year, there is no lump sum distribution, and the § 402(e)(4)(B) exclusion never applies.*
+
+**7. A participant separates from service in December. The plan distributes her employer stock in kind on 30 December and, after a processing delay, pays the remaining cash balance on 2 January. What is the effect on the exclusion?**
+(A) None, because the delay was short and well documented (B) The exclusion applies to the stock, since it was paid within the year (C) There is no lump sum distribution, so the full fair market value of the stock is ordinary income (D) The exclusion applies, but only if she elects it on the return
+*Answer: C. IRC § 402(e)(4)(D)(i) requires the balance to the credit to be paid within one taxable year of the recipient; a split across two taxable years, however short, means no lump sum distribution and no exclusion.*
+
+**8. A qualifying lump sum distribution includes two blocks of employer stock: one worth 90,000 dollars against a trust cost of 40,000 dollars, and one worth 25,000 dollars against a trust cost of 35,000 dollars. What is the net unrealized appreciation excluded from gross income?**
+(A) 50,000 dollars (B) 40,000 dollars (C) 60,000 dollars (D) 115,000 dollars
+*Answer: B. Reg. § 1.402(a)-1(b)(2)(i) measures the figure net across all the employer securities in the distribution, so the 10,000 dollar loss on the second block reduces the 50,000 dollar gain on the first; the excluded amount is the net increase, not the sum of the winners.*

@@ -299,3 +299,15 @@ C. Electronically with FinCEN through the BSA E-Filing System
 D. With the Department of State
 
 *Answer: C. It is not filed with the tax return.*
+
+**6. An unmarried taxpayer living in the United States holds one foreign brokerage account worth about 120,000 dollars throughout the year, and has no other foreign assets. What must she file?**
+(A) The FBAR only, since one filing covers the account (B) Form 8938 only, since the account is reported on the return (C) Both the FBAR with FinCEN and Form 8938 attached to the return (D) Neither, because the account is held at a financial institution
+*Answer: C. The account exceeds the FBAR trigger under 31 C.F.R. § 1010.350(a) and the Form 8938 thresholds in Reg. § 1.6038D-2(a) for an unmarried individual living in the United States, and there is no coordination letting one filing satisfy the other, so the same asset is reported to two agencies.*
+
+**7. A married couple living abroad files jointly. Their foreign accounts were worth 250,000 dollars on 31 December and peaked at 320,000 dollars in August. Must they attach Form 8938?**
+(A) Yes, on the last-day test (B) Yes, on the any-time test (C) No, both values are below the threshold pair for a joint return filed from abroad, though an FBAR is still due (D) No, because taxpayers living abroad are outside IRC § 6038D
+*Answer: C. Reg. § 1.6038D-2(a) sets a separate, higher threshold pair for married taxpayers filing jointly and living abroad, and neither the last-day value nor the highest value during the year exceeds it; the FBAR under 31 C.F.R. § 1010.350(a) is still required because the aggregate value exceeded its trigger at some time in the year.*
+
+**8. A lawful permanent resident who is not a United States citizen holds a foreign bank account worth about 40,000 dollars that produced no income during the year. Is she required to file an FBAR?**
+(A) No, because the FBAR applies only to citizens (B) No, because the account produced no income (C) Yes, because a resident alien is a United States person and income is irrelevant (D) Only if she also meets the Form 8938 threshold
+*Answer: C. Under 31 C.F.R. § 1010.350(b) a United States person includes a resident, being a resident alien under IRC § 7701(b), and the IRS states that whether the account produced taxable income has no effect on whether it is reportable.*

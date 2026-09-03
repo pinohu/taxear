@@ -305,3 +305,15 @@ C. Only for the child with the larger amount
 D. By adding the children's own tax liabilities
 
 *Answer: B.*
+
+**6. A 15-year-old has 9,000 dollars of dividend income and no earned income. Both of her parents died in March of the year. Is her net unearned income taxed at a parent's rate for the year?**
+(A) Yes, because she is under 18 (B) Yes, using the rate of the parent who died last (C) No, because neither parent is alive at the close of the taxable year (D) No, because the trust and estate rate schedule applies instead
+*Answer: C. Section 1(g)(2) requires all three conditions to hold, including that either parent be alive at the close of the taxable year; with no living parent the rule does not apply, and the trust rate schedule was repealed by the SECURE Act of 2019.*
+
+**7. A 12-year-old has 3,200 dollars of interest and 600 dollars of capital gain from selling shares, with no withholding or estimated payments in her name. May her parent make the election to report her income on the parent's return?**
+(A) Yes, because the total is within the election range (B) Yes, if the capital gain is reported separately by the child (C) No, because the election requires that the child's income be only interest and dividends (D) No, because the election is available only for children under 10
+*Answer: C. The § 1(g)(7) election is available only where the child's income is only interest and dividends, within the stated range, with no estimated payments or backup withholding in the child's name; a capital gain takes the child outside it, and a return must be filed for the child.*
+
+**8. A 10-year-old with no earned income and no itemised deductions has 5,000 dollars of unearned income in 2026. Both parents are alive and she files no joint return. How much is taxed at the parent's rate?**
+(A) 5,000 dollars (B) 3,650 dollars (C) 2,300 dollars (D) 1,350 dollars
+*Answer: C. Under § 1(g)(4)(A) net unearned income is unearned income reduced by the § 63(c)(5)(A) floor of 1,350 dollars twice where the child does not itemise; the first 1,350 is absorbed by the standard deduction, the next 1,350 is taxed at the child's own rate, and the remaining 2,300 reaches the parent's rate.*

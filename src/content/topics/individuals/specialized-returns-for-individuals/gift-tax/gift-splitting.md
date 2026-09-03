@@ -247,3 +247,15 @@ creates a general power of appointment, as defined in § 2514(c), in the consent
 
 *Answer: Both, jointly and severally, for the entire gift tax of both spouses for that calendar year
 (IRC § 2513(d)).*
+
+**6. A husband gives his niece $36,000 from an account in his sole name in 2026. His wife consents to split, and neither spouse has a taxable gift as a result. Must the husband file a gift tax return?**
+(A) No; splitting leaves no taxable gift to report (B) No, provided the wife files a return signifying her consent (C) Yes; the gift he actually made exceeded one annual exclusion, and the consent is signified on the return (D) Yes, but only if the couple also made gifts to other donees
+*Answer: C. IRC § 6019 keys off the transfer the donor actually made, before splitting, so a gift over one annual exclusion requires a return even where splitting produces no taxable gift, and the § 2513 consent has to be signified on a return in any event.*
+
+**7. A United States citizen married to a non-resident alien gives $50,000 to her brother from her own funds. May the spouses split the gift?**
+(A) Yes, if both sign the consent on her return (B) Yes, but only up to the special exclusion for gifts to a non-citizen spouse (C) No; each spouse must be a citizen or resident at the time of the gift (D) No, unless the husband files his own Form 709
+*Answer: C. IRC § 2513(a)(1) permits splitting only where both spouses were citizens or residents of the United States at the time of the gift.*
+
+**8. The husband filed his 2026 gift tax return on 10 April 2027 without any consent. On 20 April 2027 the couple sign a consent to split. Is it effective?**
+(A) Yes; consent may be signified any time before the extended return due date (B) Yes; the wife has not yet filed, so the door remains open (C) No; consent may not be signified after 15 April unless neither spouse has filed by then (D) Yes, but it becomes irrevocable on signing
+*Answer: C. IRC § 2513(b)(2)(A) closes the door on 15 April unless neither spouse has yet filed for the year; the husband's 10 April return means the exception is not available.*

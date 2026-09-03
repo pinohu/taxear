@@ -278,3 +278,15 @@ IRA?
 *Answer: No. IRC § 219(b)(2) provides that the section does not apply to an employer contribution to a
 simplified employee pension, so it neither consumes nor is limited by the individual's own IRA limit —
 though active participant status under § 219(g) may still reduce the deduction.*
+
+**6. Lars, single, was an active participant in his employer's plan for January 2026 only and then left the job. His modified adjusted gross income is far above the active participant phase-out range. His traditional IRA deduction for 2026 is:**
+(A) The full amount, because he was covered for only one month (B) Nothing, because active participation for any part of the plan year engages the § 219(g) phase-out and his income is above the range (C) The full amount reduced by one twelfth (D) Nothing, because an active participant may not contribute to an IRA at all
+*Answer: B. IRC § 219(g)(1), (2) applies the phase-out where the individual was an active participant for any part of a plan year ending with or within the taxable year — a single month counts for the whole year, and above the range the deduction is gone; the contribution itself remains permitted.*
+
+**7. Meret, aged 52, had wages of $190,000 from her employer in 2025, above the Roth catch-up wage threshold, and expects $120,000 in 2026, below it. Her 2026 catch-up contribution to that employer's 401(k) plan must be:**
+(A) Pre-tax, because her 2026 wages are below the threshold (B) A designated Roth contribution, because her 2025 wages from that employer exceeded the threshold (C) Forgone, because the catch-up is unavailable above the threshold (D) Split equally between pre-tax and Roth
+*Answer: B. IRC § 414(v)(7)(A) requires catch-up contributions to an applicable employer plan to be designated Roth contributions where the individual's wages from the employer for the preceding calendar year exceeded the threshold — the test looks at 2025 pay, not 2026.*
+
+**8. Yusra works for two unrelated employers in 2026 and defers $15,000 into each plan, so that her total deferrals exceed the annual elective deferral limit. Which is correct?**
+(A) There is no excess, because each plan is under the limit (B) She has an excess deferral, because the § 402(g)(1) limit applies to the individual across all plans (C) There is an excess only if the two employers are related (D) Each plan has failed the § 415(c) annual addition limit
+*Answer: B. IRC § 402(g)(1) caps the exclusion for elective deferrals for the individual's taxable year across every plan they participate in; each plan is within § 415(c) on its own, which is why neither payroll flags the excess.*

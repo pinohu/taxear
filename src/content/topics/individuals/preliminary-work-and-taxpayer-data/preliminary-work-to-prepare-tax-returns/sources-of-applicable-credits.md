@@ -303,3 +303,15 @@ is allowed are not taken into account under the Lifetime Learning subsection at 
 clean energy credit does not apply to expenditures made after 31 December 2025, so the February
 installation is outside that. The two provisions use different dates and different tests, which is why
 each has to be checked on its own terms.*
+
+**5. Marisa files her 2026 return using an ITIN. Her dependent son, a citizen with a social security number, is a second-year undergraduate for whom she paid $5,200 of tuition. Which education credit can she claim?**
+(A) The American Opportunity credit, because the student has a social security number (B) The Lifetime Learning credit only, because it is wholly nonrefundable (C) Either credit, because an ITIN satisfied the identification rule before 2026 and still does (D) Neither credit, because the claimant now needs her own social security number
+*Answer: D. IRC § 25A(g)(1), as rewritten by Pub. L. 119-21 § 70606(a), requires the individual's social security number rather than any taxpayer identification number, effective for taxable years beginning after 31 December 2025.*
+
+**6. A preparer's return claims head of household status, the child tax credit, the American Opportunity credit and the Lifetime Learning credit. For which of these does a failure of due diligence carry no preparer penalty under IRC § 6695(g)?**
+(A) Head of household status (B) The child tax credit (C) The American Opportunity credit (D) The Lifetime Learning credit
+*Answer: D. IRC § 6695(g)(2) names head of household status and the credits under § 24, § 25A(a)(1) and § 32 only; § 25A(a)(1) is the American Opportunity credit, so the Lifetime Learning credit is outside the rule.*
+
+**7. Ines and Tomás file jointly with adjusted gross income high enough to fall in the second reduction band of the 2026 child and dependent care credit. Which describes the applicable percentage under IRC § 21(a)(2) as rewritten?**
+(A) It starts at 35 percent and steps down once to a floor of 20 percent (B) It starts at 50 percent, steps down to a floor of 35 percent, then steps down again to a floor of 20 percent (C) It starts at 50 percent and steps down once to a floor of 35 percent (D) It is a flat 20 percent above the first threshold
+*Answer: B. Under IRC § 21(a)(2), as amended by Pub. L. 119-21 § 70405(a), the percentage starts at 50 percent, loses points to a floor of 35 percent, then loses points again above a second, much higher threshold to a floor of 20 percent; a worked example that opens at 35 percent describes 2025 or earlier.*

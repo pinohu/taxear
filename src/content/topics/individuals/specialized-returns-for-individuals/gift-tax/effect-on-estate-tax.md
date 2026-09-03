@@ -262,3 +262,15 @@ transfer?
 
 *Answer: No. IRC § 2611(b)(1) excludes any transfer that, if made inter vivos, would not be a taxable
 gift by reason of § 2503(e) — which covers tuition paid directly to the educational organization.*
+
+**6. A donor whose credit is exhausted gives her daughter $4,000,000 and dies five years later. In computing her estate tax, what happens to the gift?**
+(A) Nothing; a completed gift is outside the estate (B) The $4,000,000 is added to the estate tax base as an adjusted taxable gift, though the growth on it since the gift is not (C) The gift plus its appreciation to the date of death is included in the gross estate (D) The gift tax she paid on it is added to the gross estate under the three-year rule
+*Answer: B. IRC § 2001(b)(1)(B) brings a taxable gift back into the estate tax base as an adjusted taxable gift; a gift removes future growth from the estate, not the gift itself, and the § 2035(b) gross-up does not apply because she survived three years.*
+
+**7. A transferor gives $300,000 to a long-time employee who is no relation and was born 41 years after him. Is the employee a skip person?**
+(A) No; the age bands apply only to relatives (B) No; anyone born within 50 years of the transferor is one generation down (C) Yes; an individual not placed by the family rules who was born more than 37½ years after the transferor is two generations below (D) Yes, but only if the transferor allocates no exemption
+*Answer: C. IRC § 2651(d) assigns generation by age only for someone the family rules do not place: more than 12½ but not more than 37½ years after the transferor is one generation down, so an employee born 41 years after him falls beyond that band into the next generation, two generations below, and is a skip person under § 2613(a).*
+
+**8. A husband dies in 2026 having allocated none of his GST exemption. His executor makes a valid portability election. What GST exemption does the surviving wife now have?**
+(A) Her own plus her husband's unused GST exemption (B) Her own only; the GST exemption is not portable and his unused amount is lost (C) Her own plus his unused amount, but only for direct skips (D) Double her own, because the exemption equals the basic exclusion amount
+*Answer: B. IRC § 2631 gives each individual an exemption equal to the § 2010(c) basic exclusion amount, but only the basic exclusion amount ports to a surviving spouse; an unused GST exemption dies with the first spouse.*

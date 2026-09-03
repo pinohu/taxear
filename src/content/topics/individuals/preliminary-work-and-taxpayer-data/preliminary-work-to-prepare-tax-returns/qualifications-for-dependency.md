@@ -302,3 +302,15 @@ D. Only the teenage parent
 
 *Answer: C. An individual who is a dependent of another taxpayer is treated as having no dependents —
 though the grandparents must also clear the tiebreaker rule that applies where no parent claims.*
+
+**6. A taxpayer provides over half of her mother's support. The mother lives in her own apartment and has 7,800 dollars of gross income for 2026. May the taxpayer claim her as a dependent?**
+(A) Yes, because the relationship and support tests are both met (B) No, because her gross income exceeds the limit for a qualifying relative (C) No, because a parent must live in the taxpayer's household (D) Yes, as a qualifying child
+*Answer: B. A parent is within the § 152(d)(2) relationship list without any household requirement, but § 152(d)(1)(B) limits a qualifying relative's gross income to the exemption amount, published for 2026 in Rev. Proc. 2025-32 § 3.23, and 7,800 dollars exceeds it.*
+
+**7. A child lives all year with her mother and her grandmother. The mother has adjusted gross income of 41,000 dollars and the grandmother 29,000 dollars. The mother chooses not to claim the child. May the grandmother?**
+(A) Yes, because the mother has declined the claim (B) Yes, because the child lived with the grandmother all year (C) No, because her adjusted gross income does not exceed the mother's (D) No, because a grandparent can never claim a qualifying child
+*Answer: C. Section 152(c)(4)(C) lets a non-parent claim a child the parents could have claimed only if the non-parent's adjusted gross income is higher than the highest of any parent's; declining to claim is not the same as handing the claim over.*
+
+**8. Three adult siblings each contribute roughly one-third of their widowed father's support, so none provides over half. Who may claim him as a dependent for the year?**
+(A) Any of them, without further formality (B) None of them, because no one provides over half of his support (C) One of them, provided each other sibling contributing over ten percent files a written declaration (D) All three, each claiming him for one-third of the year
+*Answer: C. Under IRC § 152(d)(3) a contributor of over ten percent may be treated as providing over half where the group together does, on condition that every other person contributing over ten percent files a written declaration, arranged before the returns are filed.*

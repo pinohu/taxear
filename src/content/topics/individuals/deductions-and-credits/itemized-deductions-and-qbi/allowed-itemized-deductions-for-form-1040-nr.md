@@ -245,3 +245,15 @@ possession, or under United States, State, District of Columbia or possession la
 *Answer: As engaged in a United States trade or business, by IRC § 871(c), with the income described in
 the second sentence of § 1441(b) treated as effectively connected to the extent derived from United States
 sources — which brings § 871(b) rates and § 873(a) deductions into play.*
+
+**6. Ines, a nonresident alien with effectively connected income, loses a house she owns in her home country to a flood that is the subject of a declared disaster there. May she deduct the casualty loss on Form 1040-NR?**
+(A) Yes, because § 873(b) allows casualty losses whether or not connected with effectively connected income (B) No, because § 873(b)(1) reaches only a loss of property located within the United States (C) Yes, but only to the extent connected with her effectively connected income (D) Yes, but only against her § 871(a) income
+*Answer: B. IRC § 873(b)(1) preserves casualty and theft losses within § 165(c)(2) or (3) only if the loss is of property located within the United States, and since 2018 the loss must also satisfy the § 165(h)(5) declared-disaster requirement. A foreign property fails the location limb whatever the declaration.*
+
+**7. Rafael, a resident of Mexico with effectively connected income, points out that § 873(b)(3) lifts the "only one" personal exemption limit for a resident of a contiguous country. What is the result on his 2026 return?**
+(A) He may claim a personal exemption for himself, his spouse and each dependent at the full amount (B) He is limited to one personal exemption (C) He is entitled to more than one exemption, but each is worth zero because the exemption amount is zero (D) He may claim the standard deduction in place of the exemptions
+*Answer: C. IRC § 873(b)(3) genuinely lifts the single-exemption limit for a resident of a contiguous country, but § 151(d)(5)(A) has set the exemption amount at zero for taxable years beginning after 2017 and Pub. L. 119-21 left that in place, so the exception is a live cross-reference to an amount that is zero.*
+
+**8. Sunita is a nonresident alien on a temporary assignment in the United States earning effectively connected wages. She has 4,000 dollars of unreimbursed employee expenses connected with those wages. Are they deductible on Form 1040-NR?**
+(A) Yes, under § 873(a), because they are connected with effectively connected income (B) Yes, as one of the three § 873(b) exceptions (C) No, because the § 67 suspension of miscellaneous itemized deductions applies to everyone and § 873 did not preserve them (D) No, because a nonresident alien may deduct nothing against wages
+*Answer: C. Unreimbursed employee expenses went with the rest of the miscellaneous class under the § 67 suspension, and nothing in § 873 preserved them, because the disallowance operates on the definition of an itemized deduction rather than on who may claim it. Being connected with effectively connected income does not revive a deduction that no longer exists.*

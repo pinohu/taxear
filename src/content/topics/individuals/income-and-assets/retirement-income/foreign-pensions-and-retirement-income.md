@@ -304,3 +304,15 @@ Social Security Act or a tier 1 railroad retirement benefit. The foreign pension
 usually taxes the pension when it is paid. The credit under § 901(b)(1) is available in the year the
 foreign tax is paid or accrued, which may be decades after the United States tax, and the § 904 limitation
 applies in that later year.*
+
+**6. A United States resident holds a foreign employer's retirement account whose balance is far above the FBAR reporting figure. He argues the account is a retirement plan and so exempt from the FBAR. Is he right?**
+(A) No — the retirement exception lists only plans under §§ 401(a), 403(a), 403(b), 408 and 408A, all of them domestic (B) Yes — retirement accounts of every kind are outside the FBAR (C) Yes, provided he qualifies for relief under Rev. Proc. 2020-17 (D) Yes, provided he reports the account on Form 8938 instead
+*Answer: A. 31 CFR 1010.350(g)(4) confines the retirement exception to domestic plans, so a foreign arrangement is not on the list; and Rev. Proc. 2020-17 § 4 states that its relief does not affect the FBAR.*
+
+**7. A United States citizen's foreign employer contributed to her retirement fund in each of 2022 through 2026. Under the plan's vesting schedule her interest was subject to a substantial risk of forfeiture until 2026, when it lapsed entirely. No treaty applies. What does she include in 2026?**
+(A) The entire account, including the contributions from earlier years (B) Only the 2026 contribution (C) Nothing until amounts are actually distributed (D) Only the earnings on the earlier contributions
+*Answer: A. IRC § 402(b)(1) includes employer contributions in accordance with § 83, which does not tax property while it is subject to a substantial risk of forfeiture; vesting is the taxing event, so the whole buildup lands in gross income in the year the risk lapsed.*
+
+**8. A foreign employer's trust is not exempt under § 501(a) because it fails the coverage tests of § 401(a)(26) and § 410(b). What does a highly compensated employee include for the year?**
+(A) The whole vested accrued benefit, other than investment in the contract, as of the close of the trust's taxable year (B) Only the employer contributions that vested during the year (C) Nothing, because the coverage failure relieves employees of inclusion (D) Only the amounts actually distributed to him during the year
+*Answer: A. IRC § 402(b)(4)(A): where the trust fails § 401(a)(26) or § 410(b), a highly compensated employee includes, in lieu of the ordinary amounts, the vested accrued benefit other than investment in the contract; § 402(b)(4)(B) relieves only non-highly compensated employees.*

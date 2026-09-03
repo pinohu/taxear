@@ -289,3 +289,15 @@ range.*
 the incidental death benefit requirements of § 401(a) do not apply to a Roth IRA. The heading confines
 this to the period before death, so distributions to beneficiaries after the owner's death are governed
 by the ordinary rules.*
+
+**5. Which distribution from a Roth IRA counts as a qualified special purpose distribution — the fourth triggering event for a qualified distribution?**
+(A) One used within 120 days for qualified acquisition costs of a principal residence of the individual's child (B) One used to pay a child's college tuition (C) One used for unreimbursed medical expenses (D) One used for health insurance premiums while unemployed
+*Answer: A. IRC § 408A(d)(2)(C) defines a qualified special purpose distribution as one to which § 72(t)(2)(F) applies — a distribution used within 120 days for qualified acquisition costs of a principal residence of the individual, a spouse, or a child, grandchild or ancestor of either (IRC § 72(t)(8)(A)), subject to the lifetime limit in § 72(t)(8)(B).*
+
+**6. Priya, now 62, made her first Roth IRA contribution nine years ago, later closed that account, and three years ago opened a new Roth IRA at a different custodian, where all her Roth money now sits. She withdraws earnings this year. Is the distribution qualified?**
+(A) Yes — the five-year period runs from her first Roth contribution nine years ago, and she is over 59½ (B) No — the five-year period restarted when the new account was opened (C) No — closing the original account erased the starting year (D) Yes, but only as to earnings that were in the original account
+*Answer: A. IRC § 408A(d)(2)(B) measures the 5-taxable-year period from the first taxable year for which the individual made a contribution to a Roth IRA — it is personal, not per account — so both limbs of § 408A(d)(2) are met and nothing is includible.*
+
+**7. A 50-year-old's Roth IRA holds $30,000 of regular contributions, a $20,000 conversion made in 2022, a $15,000 conversion made in 2025, and earnings. He takes a non-qualified distribution of $45,000. How is it treated?**
+(A) $30,000 from regular contributions, then $15,000 from the 2022 conversion (B) $30,000 from regular contributions, then $15,000 from the 2025 conversion (C) Pro rata across contributions, conversions and earnings (D) Earnings first, so the whole $45,000 is includible
+*Answer: A. IRC § 408A(d)(4)(B)(i), (ii): a distribution is treated as made from regular contributions first, then from qualified rollover contributions on a first-in first-out basis, with earnings reached last.*

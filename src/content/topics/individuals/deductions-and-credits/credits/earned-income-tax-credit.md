@@ -315,3 +315,15 @@ finding of fraud or recklessness. What must they do to claim it now?
 *Answer: Provide the information the Secretary requires to demonstrate eligibility — Form 8862 — under
 IRC § 32(k)(2). No disallowance period applies, because § 32(k)(1) bars the credit only after a final
 determination of fraud or of reckless or intentional disregard of the rules.*
+
+**6. Sergeant Okafor's Form W-2 shows $16,000 of taxable wages and $9,000 of nontaxable combat pay excluded under § 112. He has two qualifying children. How is the combat pay treated in computing his earned income credit?**
+(A) It must be included in earned income because it is compensation for services (B) It is never earned income because it is excluded from gross income (C) He may elect to treat it as earned income, and should compute the credit both ways before deciding (D) It is included automatically whenever doing so increases the credit
+*Answer: C. IRC § 32(c)(2)(B)(vi) says a taxpayer "may elect" to treat § 112 combat pay as earned income. The election is optional and can raise or lower the credit depending on where the taxpayer sits on the curve, so the credit is computed both ways before deciding.*
+
+**7. Lena is single with one qualifying child, earned income of $22,000, and $13,400 of capital gain net income from selling shares during 2026, with no other investment income. What is her earned income credit?**
+(A) The full credit read from the table for one qualifying child (B) The table credit reduced by the amount of the gain (C) The table credit, because capital gains are not disqualified income (D) Nothing, because her disqualified income exceeds the 2026 ceiling
+*Answer: D. Capital gain net income is disqualified income under IRC § 32(i)(2)(D), and § 32(i)(1) denies the credit entirely where disqualified income exceeds the ceiling, which $13,400 does for 2026. It is a cliff, not a phase-out, so the credit is not reduced but eliminated.*
+
+**8. Marisol's 20-year-old son is a full-time student who lived with her all year and paid all of his own expenses from a part-time job and a scholarship, so he provides more than half of his own support. Which is correct for 2026?**
+(A) He is not a qualifying child for either credit, because he supports himself (B) He is a qualifying child for the earned income credit but not for the child tax credit (C) He is a qualifying child for both the earned income credit and the child tax credit (D) He is a qualifying child for the child tax credit but not for the earned income credit
+*Answer: B. IRC § 32(c)(3)(A) applies § 152(c) without paragraph (1)(D), the support test, so a self-supporting student who meets the relationship, abode and age tests is a qualifying child for this credit. For the child tax credit he fails twice, on age and on support.*
