@@ -226,15 +226,15 @@
    "domainTitle": "Practices and Procedures",
    "section": "3.1.2",
    "sectionTitle": "Requirements for Enrolled Agents",
-   "stem": "IRC 7525 privilege does not apply to:",
+   "stem": "IRC 7525 privilege does not apply to a written communication:",
    "options": [
-    "Non-criminal tax matters before the IRS",
-    "Communications concerning tax shelters",
-    "Communications with an enrolled agent",
-    "Non-criminal federal court proceedings"
+    "Between a taxpayer and a federally authorised tax practitioner on a non-criminal tax matter before the IRS",
+    "Made in connection with promoting the taxpayer's direct or indirect participation in a tax shelter",
+    "With an enrolled agent",
+    "In a non-criminal federal court proceeding"
    ],
    "answerIndex": 1,
-   "explanation": "The page notes that IRC § 7525 extends confidentiality protection to non-criminal tax matters but expressly does not apply to communications concerning tax shelters.",
+   "explanation": "Section 7525(b) carves out only a written communication made in connection with promoting participation in a tax shelter — not every communication that happens to concern one, which is why the exception has to be argued fact by fact rather than assumed from the subject matter alone.",
    "pagePath": "/representation/practices-and-procedures/requirements-for-enrolled-agents/information-to-be-furnished-to-the-irs/",
    "pageTitle": "Information to be furnished to the IRS",
    "source": "page"
@@ -8608,12 +8608,12 @@
    "stem": "The IRS wishes to inspect a taxpayer's books for a year already examined. It may do so:",
    "options": [
     "Freely",
-    "If the taxpayer requests it, or the Secretary notifies the taxpayer in writing that an additional inspection is necessary",
+    "If the taxpayer requests it, or the Secretary, after investigation, notifies the taxpayer in writing that an additional inspection is necessary",
     "Only with a court order",
     "Never"
    ],
    "answerIndex": 1,
-   "explanation": "IRC § 7605(b) limits the IRS to one inspection of a taxpayer's books per taxable year unless the taxpayer requests otherwise or the Secretary gives written notice that a further inspection is necessary.",
+   "explanation": "IRC § 7605(b) limits the IRS to one inspection of a taxpayer's books per taxable year unless the taxpayer requests otherwise or the Secretary, after investigation, gives written notice that a further inspection is necessary.",
    "pagePath": "/representation/specific-types-of-representation/representing-a-taxpayer-in-the-collection-process/irs-collection-summons/",
    "pageTitle": "IRS Collection Summons (e.g., purposes)",
    "source": "page"
@@ -10251,7 +10251,7 @@
     "Three years after the return was filed"
    ],
    "answerIndex": 1,
-   "explanation": "IRC § 6213(a): the 90-day period runs from the mailing of the notice of deficiency, not from the CP2000, is jurisdictional, and cannot be extended.",
+   "explanation": "IRC § 6213(a): the 90-day period runs from the mailing of the notice of deficiency, not from the CP2000, and the last day excludes a Saturday, Sunday or DC legal holiday.",
    "pagePath": "/representation/specific-types-of-representation/representing-a-taxpayer-in-audits-examinations/interpretation-and-analysis-of-cp-2000-notice/",
    "pageTitle": "Interpretation and analysis of CP-2000 notice and correspondence audits",
    "source": "page"
