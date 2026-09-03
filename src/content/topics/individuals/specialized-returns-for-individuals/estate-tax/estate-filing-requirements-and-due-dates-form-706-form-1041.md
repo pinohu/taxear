@@ -270,3 +270,15 @@ separately under § 6161, and interest runs from the original date in any event.
 
 *Answer: No. IRC § 441(e) defines a fiscal year as a period of 12 months ending on the last day of a
 month other than December, so a year end must fall on the last day of a month.*
+
+**6. A decedent whose gross estate exceeds the filing threshold dies on 20 February 2026. Absent an extension, when is Form 706 due?**
+(A) 20 November 2026 (B) 15 April 2027 (C) 20 February 2027 (D) 15 June 2026
+*Answer: A. IRC § 6075(a) sets the Form 706 due date at nine months after the date of death, and the estate tax is payable on that same date; the fourth-month rule in § 6072(a) governs Form 1041, not Form 706.*
+
+**7. A decedent's assets were held in a revocable trust that became irrevocable at death. Who must make the election that treats the trust as part of the estate for income tax purposes, and what is its effect?**
+(A) The executor alone; the trust adopts the estate's fiscal year (B) The trustee alone; the trust files its own Form 1041 on a calendar year (C) Both the executor and the trustee; the trust is treated and taxed as part of the estate on one return (D) The residuary beneficiaries; the trust is disregarded entirely
+*Answer: C. IRC § 645(a) requires both the executor and the trustee of the qualified revocable trust to elect, after which the trust is treated and taxed as part of the estate rather than as a separate trust — collapsing two returns into one and extending the estate's fiscal year advantage to the trust's income.*
+
+**8. A domestic estate has gross income of $250 for its first taxable year. One of its three beneficiaries is a nonresident alien. Must the estate file Form 1041?**
+(A) No; gross income is below the filing threshold (B) Yes; any beneficiary who is a nonresident alien triggers a return whatever the income (C) Only if the estate has positive taxable income (D) Only if the nonresident alien beneficiary actually received a distribution
+*Answer: B. IRC § 6012(a)(5) requires a return from an estate with any nonresident alien beneficiary regardless of income, so the gross income test in § 6012(a)(3) is not the only route to a filing obligation.*

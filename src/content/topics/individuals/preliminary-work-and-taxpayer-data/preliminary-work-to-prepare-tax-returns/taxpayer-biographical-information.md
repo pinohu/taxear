@@ -297,3 +297,15 @@ D. A condition of claiming any refundable credit
 
 *Answer: B. It is addressed to the provider as a fraud safeguard, not to the taxpayer as a filing
 requirement.*
+
+**6. Which of the following is a duty that IRC § 6109(a) places on a person making a return?**
+(A) Producing the physical social security card to the preparer (B) Furnishing their own identifying number to a person who must show it on another return (C) Obtaining an identity protection PIN before filing (D) Presenting two forms of photo identification
+*Answer: B. IRC § 6109(a) requires a person to include the prescribed identifying number on their return, to furnish their number to a person who must show it on another return, and to request and include the number of any other person about whom they make a return; producing the card and the two-forms-of-identification step are Publication 1345 safeguards, not statutory duties.*
+
+**7. Marisol married in October 2026 and e-files her first return under her new surname, but has not updated her record with the Social Security Administration. The return rejects. According to Publication 1345, what is the most likely cause?**
+(A) The IP PIN was omitted (B) The Name Control — the first four significant letters of the surname as the Social Security Administration records it — does not match (C) Her filing status changed during the year (D) A newly married taxpayer must paper-file the first joint return
+*Answer: B. Publication 1345 identifies the wrong name associated with a number as a leading cause of rejected returns, and the Name Control mismatch most often arises for a newly married taxpayer whose SSA record has not been updated; the number must be transcribed exactly as the source document shows it.*
+
+**8. Teodoro's qualifying child holds a social security number that was issued before the due date but solely for non-work purposes. Teodoro claims the earned income credit for 2026. What is the result?**
+(A) The credit is allowed, because the number was issued in time (B) The credit is allowed at half the usual amount (C) The credit is not allowed, because a number issued solely for non-work purposes does not satisfy the identification requirement (D) The credit is allowed if the child later obtains a work-authorised number
+*Answer: C. IRC § 32(m) requires a social security number issued by the Social Security Administration other than one issued solely for non-work purposes, and existing on or before the due date; both conditions do work, and the non-work condition fails here regardless of timing.*

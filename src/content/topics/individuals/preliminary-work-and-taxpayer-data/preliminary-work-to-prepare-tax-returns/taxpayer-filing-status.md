@@ -331,3 +331,15 @@ D. The couple must file jointly by default
 
 *Answer: B. Section 6013(a)(1) bars the joint return; § 2(b)(2)(B) treats the taxpayer as not married
 for head of household.*
+
+**6. Ingrid's husband died in 2025. Her dependent son lives with her all year and she pays every cost of the home. On 20 December 2026 she remarries. What is her filing status for 2026?**
+(A) Qualifying surviving spouse, because the death was within the two preceding years (B) Married filing jointly or separately with her new husband (C) Head of household (D) Single
+*Answer: B. IRC § 2(a)(2)(A) makes surviving spouse status unavailable if the taxpayer has remarried at any time before the close of the taxable year, and under § 7703(a) marital status is determined at the close of the year, so she is married for the whole of 2026.*
+
+**7. Beatriz is 67 and married. For 2026 she and her husband file separate returns. May she claim the new deduction for seniors on her separate return?**
+(A) Yes, at half the amount available on a joint return (B) Yes, in full, because she has attained age 65 (C) No; a married taxpayer may claim it only on a joint return (D) No; the deduction is available only to unmarried taxpayers
+*Answer: C. IRC § 151(d)(5)(C), added by Public Law 119-21 for taxable years beginning before 2029, attaches a filing-status condition to the deduction for seniors: a married taxpayer may claim it only on a joint return, which adds an item to the joint side of any married-filing-separately comparison.*
+
+**8. Deshawn and Marguerite file a joint return for 2026. Deshawn alone earned every dollar of the income and omitted some of it. Who is liable for the resulting deficiency?**
+(A) Deshawn only, because he earned the income (B) Each spouse for a proportional share based on their own income (C) Each spouse for the entire liability (D) Marguerite only if she signed the return knowing of the omission
+*Answer: C. IRC § 6013(d)(3) provides that on a joint return the tax is computed on aggregate income and the liability is joint and several, so each spouse is liable for the whole of it; this is the fact behind every innocent spouse case.*
