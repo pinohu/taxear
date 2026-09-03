@@ -276,3 +276,15 @@ amount is $900,000 and no additional tax is due. What is the exposure?
 amount or 35 percent of the gross reportable amount, so the percentage governs here. A further penalty
 applies if the failure continues more than 90 days after the Service mails notice. That the trust
 generated no additional tax is irrelevant to the computation.*
+
+**5. Lorena adds her adult son as joint owner of her home, worth well over the annual exclusion, and describes it as estate planning. Her lifetime exclusion is nowhere near used, so no gift tax is due. Must a gift tax return be filed?**
+(A) No, because no gift tax is due (B) No, because adding a name to a deed is not a gift (C) Yes, because IRC § 6019 turns on the transfer, and the exclusion is applied on the return (D) Only if the son also files a return reporting the gift
+*Answer: C. IRC § 6019 requires a return from any individual who makes a transfer by gift in the calendar year, subject only to the listed exceptions, and a transfer of an interest in real property worth far more than the § 2503(b) exclusion is not within them; whether tax is due is a separate question.*
+
+**6. Bruno, a United States citizen, receives the equivalent of 340,000 dollars from his late aunt's estate in Brazil. What is his federal position?**
+(A) The bequest is taxable income and must be reported on Form 1040 (B) Nothing is reportable, because a bequest is excluded from gross income (C) The bequest is excluded from gross income, but a separate information report of the foreign bequest is required (D) He must file a gift tax return for the amount received
+*Answer: C. IRC § 102(a) excludes a bequest from gross income, but IRC § 6039F separately requires a recipient to report gifts and bequests from certain foreign persons above an annually adjusted aggregate threshold, and 340,000 dollars is far above it; the report produces no tax.*
+
+**7. A client who should have issued a Form 1099 to a contractor neither filed it with the Service nor furnished a statement to the payee. How many penalties are in play?**
+(A) One, for failing to file the information return (B) One, for failing to furnish the payee statement (C) Two, separate and cumulative (D) None, provided the contractor reported the income
+*Answer: C. IRC § 6721 penalises the failure to file a correct information return and IRC § 6722 separately penalises the failure to furnish a correct payee statement; the two are cumulative, so one omitted form can be penalised twice.*

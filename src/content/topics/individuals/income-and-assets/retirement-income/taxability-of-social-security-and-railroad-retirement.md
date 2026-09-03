@@ -307,3 +307,15 @@ What is the answer?
 subtracted from adjusted gross income under § 63(b)(2), so it sits below the line and outside the modified
 adjusted gross income that drives § 86. It may reduce their tax; it does not reduce the amount of benefits
 included in gross income.*
+
+**6. A retired railroad worker receives one combined annuity from the Railroad Retirement Board. Which portion enters the IRC § 86 computation?**
+(A) The whole annuity, since it is all railroad retirement (B) Only the tier 1 portion reported on Form RRB-1099 (C) Only the tier 2 portion reported on Form RRB-1099-R (D) Neither portion, because railroad retirement is not social security
+*Answer: B. IRC § 86(d)(1) defines a social security benefit to include a tier 1 railroad retirement benefit and nothing more; the tier 2 portion is outside § 86 and is taxed as a pension under the annuity rules of § 72.*
+
+**7. A nonresident alien receives 30,000 dollars of social security benefits in 2026 and has no other income. How much is included in gross income?**
+(A) Nothing, because her other income is below the base amount (B) 15,000 dollars, under the first tier (C) 25,500 dollars, a flat 85 percent (D) 30,000 dollars, the full benefit
+*Answer: C. IRC § 871(a)(3)(A), (B) includes 85 percent of any social security benefit paid to a nonresident alien and provides that § 86 does not apply; there is no base amount and no two-tier computation.*
+
+**8. A taxpayer's disability claim is allowed in 2026 and he receives a lump sum covering 2024 through 2026, which pushes his 2026 sum past the adjusted base amount. What does the election in IRC § 86(e) allow?**
+(A) Amending the 2024 and 2025 returns to report each year's portion (B) Limiting the 2026 inclusion for the prior-year portions to what those years would have included (C) Spreading the entire lump sum equally across three returns (D) Excluding the prior-year portions from gross income entirely
+*Answer: B. IRC § 86(e)(1) caps the amount included by reason of the prior-year portion at the sum of the increases in gross income that would have resulted in the years to which it is attributable; it limits the current year's inclusion and does not reopen the earlier returns.*

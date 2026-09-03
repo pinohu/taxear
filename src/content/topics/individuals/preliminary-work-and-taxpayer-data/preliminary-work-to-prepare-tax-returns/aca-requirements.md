@@ -298,3 +298,15 @@ C. Only if it offers coverage
 D. Only if the employees are in a single location
 
 *Answer: B.*
+
+**6. A 20-year-old full-time student who lives at home and whom her parents are entitled to claim enrolls in Marketplace coverage in her own name. Her own income for 2026 is modest. May she claim the premium tax credit on her own return?**
+(A) Yes, because her income sits inside the poverty-line range (B) Yes, provided her parents do not also claim it (C) No, because a dependent of another taxpayer cannot be an applicable taxpayer (D) No, because students are excluded from Marketplace coverage
+*Answer: C. Section 36B(c)(1)(D) denies applicable-taxpayer status to anyone who is another taxpayer's dependent for the year, however low her income runs.*
+
+**7. A married couple enrolled through the Marketplace and received advance payments during 2026. They decide to file separate returns for the year. What is the consequence for the premium tax credit?**
+(A) Each spouse claims half of the credit on their separate return (B) The credit is computed on the higher-earning spouse's return only (C) Neither spouse is an applicable taxpayer, so no credit is allowed (D) The credit is unaffected as long as household income is within the range
+*Answer: C. Under § 36B(c)(1)(C), married taxpayers must file a joint return to be applicable taxpayers; filing separately forecloses the credit.*
+
+**8. A Marketplace enrollee's household income sits at about 250 percent of the poverty line in both 2025 and 2026, on otherwise identical facts. How does the 2026 credit compare with 2025?**
+(A) It is the same, because the income range is unchanged (B) It is smaller, because the temporary premium percentages lapsed for taxable years beginning after 2025 (C) It is larger, because the repayment limitation was removed (D) There is no credit in 2026, because the ceiling was restored
+*Answer: B. The more generous schedule in § 36B(b)(3)(A)(iii) applied only to taxable years beginning before 1 January 2026 and was not extended, so the credit is smaller across the income range; the restored ceiling matters only above 400 percent.*

@@ -277,3 +277,15 @@ transaction with that first client, and the transcript would answer the question
 *Answer: no. IRC § 6103(c) permits disclosure to a designee but provides that the designee shall not
 use the information for any purpose other than the express purpose for which consent was granted, and
 shall not disclose it to another person without the taxpayer's express permission or request.*
+
+**5. A client brings in a math error notice dated 45 days ago and asks what can be done. What is the position?**
+(A) Nothing; the only route was a Tax Court petition, and that was never available (B) A written abatement request is still inside the window, and on receipt the Secretary must abate (C) The Secretary may abate at its discretion if the request is well founded (D) The client must pay and then file a claim for refund
+*Answer: B. IRC § 6213(b)(2)(A) gives the taxpayer a fixed window from the notice date to request abatement, on which the Secretary shall abate the assessment; any reassessment then follows the ordinary deficiency procedures, which restore the Tax Court route.*
+
+**6. Which of the following may the Service not assess by the mathematical or clerical error route?**
+(A) An error in multiplication on the return (B) An entry inconsistent with another entry on the same return (C) An adjustment to the estimated tax payments credited to the account (D) A credit exceeding a statutory limit expressed as a monetary amount, where the items applying the limit appear on the return
+*Answer: C. IRC § 6213(g)(2)(A)–(H) is a closed list; a correction to withholding or estimated payments is not on it, so it is not a mathematical or clerical error and cannot be assessed by that route.*
+
+**7. A lender wants the preparer to speak directly with the IRS about a client's account. The preparer holds a signed Form 8821 for the year. Is that sufficient?**
+(A) Yes, since Form 8821 authorises the preparer to act for the client (B) No; Form 8821 authorises disclosure only, and a Form 2848 is needed to act as representative (C) Yes, provided the Form 8821 has been processed by the CAF unit (D) No; only the client may ever speak with the IRS about the account
+*Answer: B. Form 8821 is a tax information authorization, a consent to disclosure under IRC § 6103(c); it does not make the preparer a representative, which takes a Form 2848 power of attorney.*
