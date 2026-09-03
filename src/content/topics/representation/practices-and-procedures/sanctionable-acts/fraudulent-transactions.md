@@ -123,7 +123,7 @@ The definition of tax fraud and its two required elements. The avoidance/evasion
 
 **3. The Secretary establishes that one item of a $200,000 underpayment is fraudulent. Under IRC 6663(b):**
 (A) Only that item carries the penalty (B) The entire underpayment is treated as fraudulent unless the taxpayer establishes otherwise by a preponderance (C) The penalty is prorated automatically (D) The penalty applies only if the fraudulent item exceeds half the underpayment
-*Answer: B.*
+*Answer: B. IRC § 6663(b): once the Secretary establishes that any portion of an underpayment is fraudulent, the entire underpayment is treated as fraudulent except so much as the taxpayer establishes, by a preponderance, is not.*
 
 **4. A taxpayer restructures a transaction in advance, disclosing everything, to fall within a favourable provision. This is:**
 (A) Evasion, because the purpose was to reduce tax (B) Avoidance, which is lawful, there being no concealment or misrepresentation (C) A frivolous position (D) An affirmative act of fraud

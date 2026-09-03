@@ -127,7 +127,7 @@ The examinable core is the sequence and the deadlines, not the dollar amounts. K
 
 **2. To stop collection while contesting an assessed § 6694 penalty, the preparer must pay:**
 (A) The full amount (B) 15 percent, within 30 days of notice and demand, with a claim for refund (C) 20 percent, within 60 days (D) Nothing, if an appeal is pending
-*Answer: B. IRC § 6694(c)(1).*
+*Answer: B. IRC § 6694(c)(1): paying the prescribed percentage of the penalty within 30 days of notice and demand stays collection on the remainder while the preparer pursues a refund claim.*
 
 **3. A preparer files a claim for refund on 1 March and hears nothing. The deadline to begin the district court proceeding is:**
 (A) 30 days after the claim is eventually denied, whenever that is (B) 30 days after 1 September (C) Two years after 1 March (D) There is no deadline while the claim is open
@@ -135,8 +135,8 @@ The examinable core is the sequence and the deadlines, not the dollar amounts. K
 
 **4. A § 6695 penalty relates to a return filed on 15 April 2023. The client signed a Form 872 extending their own assessment period. On 1 September 2026 the IRS proposes the penalty. It is:**
 (A) Timely, because the Form 872 extended both periods (B) Timely, because § 6695 has no limitation period (C) Time-barred, because the three-year period ran and only a Form 872-D would extend it (D) Timely, because the penalty period runs from assessment
-*Answer: C.*
+*Answer: C. IRC § 6696(d)(1): the three-year assessment period runs from the filing of the return, and a Form 872 signed by the client extends only the client's own assessment period — only a Form 872-D would have extended the preparer penalty period.*
 
 **5. A final judicial decision establishes there was no understatement on the return underlying a § 6694 penalty the preparer paid five years ago. The preparer:**
 (A) Has no remedy, the refund period having closed (B) May claim abatement and refund on Form 6118 without regard to any limitation period (C) Must first obtain the client's consent (D) May recover only if a pre-assessment appeal was taken
-*Answer: B. IRC § 6694(d).*
+*Answer: B. IRC § 6694(d): once a final judicial decision establishes there was no understatement on the underlying return, the assessment is abated and any amount paid is refunded without regard to any period of limitations.*

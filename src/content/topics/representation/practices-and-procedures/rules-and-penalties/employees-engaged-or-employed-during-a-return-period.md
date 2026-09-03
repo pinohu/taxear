@@ -109,16 +109,16 @@ The single most testable point is that the retained record replaced the filed re
 
 **2. The record must show, for each preparer:**
 (A) Name only (B) Name, identifying number and principal place of work (C) Name and salary (D) Name and the returns prepared
-*Answer: B.*
+*Answer: B. Reg. § 1.6060-1(a)(1): the retained record must show each preparer's name, identifying number and principal place of work.*
 
 **3. An enrolled agent practising alone and employing nobody:**
 (A) Is outside § 6060 (B) Is treated as his own employer and must keep a record about himself (C) Must file the 31 July return the statute describes (D) Is covered only if he signs more than 10 returns
-*Answer: B.*
+*Answer: B. Reg. § 1.6060-1(a)(5)(i): a signing preparer not employed by another preparer is treated as their own employer and must keep a record about himself.*
 
 **4. A firm produces its payroll register, which lists all employees without indicating who prepared returns. This:**
 (A) Satisfies the regulation, any documentation being acceptable (B) Fails, because the record must disclose on its face which individuals were preparers (C) Satisfies it if the firm explains verbally (D) Fails only if the IRS cannot identify them at all
-*Answer: B. Reg. § 1.6060-1(a)(3).*
+*Answer: B. Reg. § 1.6060-1(a)(3): the record must disclose on its face which individuals were employed as preparers, and a payroll register that does not distinguish preparers from other staff fails that test.*
 
 **5. The maximum penalty under IRC 6695(e) is measured:**
 (A) Per calendar year (B) Per return period (C) Per preparer (D) Per return prepared
-*Answer: B.*
+*Answer: B. IRC § 6695(e): the maximum penalty runs per return period, unlike the calendar-year caps under § 6695(a) to (c).*

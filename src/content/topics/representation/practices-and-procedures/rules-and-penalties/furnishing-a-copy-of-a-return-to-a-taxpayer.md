@@ -105,11 +105,11 @@ Know that the trigger is presentation for signature and not filing. Know what ma
 
 **3. May the copy given to the taxpayer omit the preparer's identifying number?**
 (A) No, it must mirror the filed return exactly (B) Yes, the regulation says so expressly (C) Only for paper returns (D) Only with the taxpayer's written consent
-*Answer: B.*
+*Answer: B. Reg. § 1.6107-1(a)(2): the taxpayer's copy need not contain the preparer's identifying number.*
 
 **4. A preparer delivers all client copies by secure portal without asking. A client who wanted paper complains. The preparer:**
 (A) Is compliant, electronic delivery being permitted (B) Is not compliant as to that client, since the media must be acceptable to both parties (C) Is not compliant as to any client (D) Must deliver on paper in every case
-*Answer: B.*
+*Answer: B. Reg. § 1.6107-1(a)(2): the media used must be acceptable to both taxpayer and preparer, so a preparer cannot impose portal delivery on a client who did not accept it.*
 
 **5. The § 6695(a) penalty does not apply where the failure is:**
 (A) Unintentional (B) Due to reasonable cause and not due to willful neglect, substantiated in writing (C) Corrected within 30 days (D) Caused by software
