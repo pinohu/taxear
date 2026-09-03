@@ -9,10 +9,10 @@ is indexed, and only the owner moves a page there (see `docs/VERIFICATION.md`).
 
 | Part | Topics | Stub | Draft | Review | Published | Words |
 |---|---:|---:|---:|---:|---:|---:|
-| 1. Individuals | 120 | 0 | 0 | 0 | 120 | 338,236 |
+| 1. Individuals | 120 | 0 | 0 | 0 | 120 | 338,287 |
 | 2. Businesses | 119 | 0 | 0 | 0 | 119 | 345,941 |
 | 3. Representation, Practices and Procedures | 121 | 0 | 0 | 0 | 121 | 277,550 |
-| **All parts** | **360** | **0** | **0** | **0** | **360** | **961,727** |
+| **All parts** | **360** | **0** | **0** | **0** | **360** | **961,778** |
 
 ## Part 1 — Individuals
 
@@ -70,7 +70,7 @@ is indexed, and only the owner moves a page there (see `docs/VERIFICATION.md`).
 | 1.2.2.b | [Comparison of and distributions from traditional and Roth IRAs](/individuals/income-and-assets/retirement-income/comparison-of-and-distributions-from-traditional-and-roth/) | **published** | 2,952 | 2026-08-19 |
 | 1.2.2.c | [Distributions from qualified and nonqualified plans (e.g., pre-tax, after- tax, rollovers, Form 1099R, qualified charitable distribution)](/individuals/income-and-assets/retirement-income/distributions-from-qualified-and-nonqualified-plans/) | **published** | 2,961 | 2026-08-19 |
 | 1.2.2.d | [Excess contributions and tax treatment (e.g., penalties)](/individuals/income-and-assets/retirement-income/excess-contributions-and-tax-treatment/) | **published** | 2,932 | 2026-08-19 |
-| 1.2.2.e | [Penalties and exceptions on premature distributions from qualified retirement plans and IRAs](/individuals/income-and-assets/retirement-income/penalties-and-exceptions-on-premature-distributions/) | **published** | 2,940 | 2026-08-19 |
+| 1.2.2.e | [Penalties and exceptions on premature distributions from qualified retirement plans and IRAs](/individuals/income-and-assets/retirement-income/penalties-and-exceptions-on-premature-distributions/) | **published** | 2,954 | 2026-08-19 |
 | 1.2.2.f | [Prohibited transactions and tax effects](/individuals/income-and-assets/retirement-income/prohibited-transactions-and-tax-effects/) | **published** | 3,098 | 2026-08-19 |
 | 1.2.2.g | [IRA conversions and recharacterization (Form 8606)](/individuals/income-and-assets/retirement-income/ira-conversions-and-recharacterization-form-8606/) | **published** | 3,245 | 2026-08-19 |
 | 1.2.2.h | [Required minimum distributions and excess accumulations](/individuals/income-and-assets/retirement-income/required-minimum-distributions-and-excess-accumulations/) | **published** | 3,289 | 2026-08-19 |
@@ -117,7 +117,7 @@ is indexed, and only the owner moves a page there (see `docs/VERIFICATION.md`).
 | 1.3.1.c | [Interest expense (e.g., mortgage interest, investment interest, tracing rules, points, indebtedness limitations)](/individuals/deductions-and-credits/itemized-deductions-and-qbi/interest-expense/) | **published** | 2,753 | 2026-08-19 |
 | 1.3.1.d | [Charitable contributions (e.g., cash, noncash, limitations, documentation required)](/individuals/deductions-and-credits/itemized-deductions-and-qbi/charitable-contributions/) | **published** | 2,629 | 2026-08-19 |
 | 1.3.1.e | [Nonbusiness casualty and theft losses in presidentially declared disaster areas](/individuals/deductions-and-credits/itemized-deductions-and-qbi/nonbusiness-casualty-and-theft-losses-in-presidentially/) | **published** | 2,697 | 2026-08-19 |
-| 1.3.1.f | [Other itemized deductions](/individuals/deductions-and-credits/itemized-deductions-and-qbi/other-itemized-deductions/) | **published** | 2,616 | 2026-08-19 |
+| 1.3.1.f | [Other itemized deductions](/individuals/deductions-and-credits/itemized-deductions-and-qbi/other-itemized-deductions/) | **published** | 2,626 | 2026-08-19 |
 | 1.3.1.g | [Allowed itemized deductions for Form 1040-NR](/individuals/deductions-and-credits/itemized-deductions-and-qbi/allowed-itemized-deductions-for-form-1040-nr/) | **published** | 2,415 | 2026-08-19 |
 | 1.3.1.h | [Qualified Business Income Deduction](/individuals/deductions-and-credits/itemized-deductions-and-qbi/qualified-business-income-deduction/) | **published** | 3,136 | 2026-08-19 |
 
@@ -162,7 +162,7 @@ is indexed, and only the owner moves a page there (see `docs/VERIFICATION.md`).
 | 1.5.1.a | [Reporting obligations for individuals (1099, bartering, cash)](/individuals/advising-the-individual-taxpayer/advising-the-individual-taxpayer/reporting-obligations-for-individuals-1099-bartering-cash/) | **published** | 2,498 | 2026-08-19 |
 | 1.5.1.b | [Property sales (e.g., homes, stock, businesses, antiques, collectibles)](/individuals/advising-the-individual-taxpayer/advising-the-individual-taxpayer/property-sales/) | **published** | 2,531 | 2026-08-19 |
 | 1.5.1.c | [Education planning (e.g., lifetime learning credit, IRC Section 529 plans)](/individuals/advising-the-individual-taxpayer/advising-the-individual-taxpayer/education-planning/) | **published** | 2,294 | 2026-08-19 |
-| 1.5.1.d | [Estate planning (e.g., gift versus inheritance, trusts, family partnerships, charitable giving, LTC, life insurance)](/individuals/advising-the-individual-taxpayer/advising-the-individual-taxpayer/estate-planning/) | **published** | 2,434 | 2026-08-19 |
+| 1.5.1.d | [Estate planning (e.g., gift versus inheritance, trusts, family partnerships, charitable giving, LTC, life insurance)](/individuals/advising-the-individual-taxpayer/advising-the-individual-taxpayer/estate-planning/) | **published** | 2,442 | 2026-08-19 |
 | 1.5.1.e | [Retirement planning (e.g., annuities, IRAs, employer plans, early retirement rules, required minimum distribution, beneficiary ownership, charitable distributions from an IRA)](/individuals/advising-the-individual-taxpayer/advising-the-individual-taxpayer/retirement-planning/) | **published** | 2,617 | 2026-08-19 |
 | 1.5.1.f | [Marriage and divorce (e.g., divorce settlement, common-law, community property, alimony)](/individuals/advising-the-individual-taxpayer/advising-the-individual-taxpayer/marriage-and-divorce/) | **published** | 2,613 | 2026-08-19 |
 | 1.5.1.g | [Items that will affect future/past returns (e.g., carryovers, net operating loss, Schedule D, Form 8801, negative QBI carryover)](/individuals/advising-the-individual-taxpayer/advising-the-individual-taxpayer/items-that-will-affect-future-past-returns/) | **published** | 2,319 | 2026-08-19 |
@@ -173,7 +173,7 @@ is indexed, and only the owner moves a page there (see `docs/VERIFICATION.md`).
 | 1.5.1.l | [Character of transaction (e.g., use of capital gain rates versus ordinary income rates)](/individuals/advising-the-individual-taxpayer/advising-the-individual-taxpayer/character-of-transaction/) | **published** | 2,736 | 2026-08-20 |
 | 1.5.1.m | [Advantages and disadvantages of MFJ/MFS/HOH filing statuses in various scenarios. (joint and several liability)](/individuals/advising-the-individual-taxpayer/advising-the-individual-taxpayer/advantages-and-disadvantages-of-mfj-mfs-hoh-filing-statuses/) | **published** | 2,908 | 2026-08-20 |
 | 1.5.1.n | [Conditions for filing a claim for refund (amended returns)](/individuals/advising-the-individual-taxpayer/advising-the-individual-taxpayer/conditions-for-filing-a-claim-for-refund-amended-returns/) | **published** | 2,730 | 2026-08-20 |
-| 1.5.1.o | [Penalty of perjury](/individuals/advising-the-individual-taxpayer/advising-the-individual-taxpayer/penalty-of-perjury/) | **published** | 2,571 | 2026-08-20 |
+| 1.5.1.o | [Penalty of perjury](/individuals/advising-the-individual-taxpayer/advising-the-individual-taxpayer/penalty-of-perjury/) | **published** | 2,578 | 2026-08-20 |
 
 ### 1.6 Specialized Returns for Individuals
 
@@ -185,7 +185,7 @@ is indexed, and only the owner moves a page there (see `docs/VERIFICATION.md`).
 | 1.6.1.b | [Jointly-held property](/individuals/specialized-returns-for-individuals/estate-tax/jointly-held-property/) | **published** | 2,472 | 2026-08-20 |
 | 1.6.1.c | [Marital deduction and other marital issues (e.g., portability election)](/individuals/specialized-returns-for-individuals/estate-tax/marital-deduction-and-other-marital-issues/) | **published** | 2,578 | 2026-08-20 |
 | 1.6.1.d | [Life insurance, IRAs and retirement plans](/individuals/specialized-returns-for-individuals/estate-tax/life-insurance-iras-and-retirement-plans/) | **published** | 2,638 | 2026-08-20 |
-| 1.6.1.e | [Estate filing requirements and due dates (Form 706, Form 1041)](/individuals/specialized-returns-for-individuals/estate-tax/estate-filing-requirements-and-due-dates-form-706-form-1041/) | **published** | 2,469 | 2026-08-20 |
+| 1.6.1.e | [Estate filing requirements and due dates (Form 706, Form 1041)](/individuals/specialized-returns-for-individuals/estate-tax/estate-filing-requirements-and-due-dates-form-706-form-1041/) | **published** | 2,481 | 2026-08-20 |
 
 **1.6.2 Gift Tax**
 
