@@ -22,6 +22,7 @@ related: ["3.3.1.j", "3.3.1.n", "3.3.1.m", "3.3.3.a"]
 changelog:
   - { date: "2026-08-18", summary: "Initial publication from IRC §§ 7602, 7603, 7604, 7605, 7609 and 7610." }
   - { date: "2026-08-24", summary: "Added a plain-language summary, glossary marks, and typed scenarios." }
+  - { date: "2026-09-03", summary: "Added § 7605(b)'s 'after investigation' condition, missing throughout the page. NOTE: this correction was made from a search-engine snippet and training recall, not by opening § 7605 directly — this session's network access to primary legal sources was blocked. Re-verify against the statute text on the next review." }
 ---
 
 <div class="plain-terms">
@@ -49,7 +50,7 @@ The {gloss:summons} is the IRS's compulsory process, and its limits matter more 
 
 **Timing.** The date fixed for appearance is {fig:summons.appearance_days} (IRC § 7605(a)). Time and place must be **reasonable under the circumstances**.
 
-**One inspection a year.** No taxpayer shall be subjected to unnecessary examination, and **only one inspection of a taxpayer's books of account per taxable year** unless the taxpayer requests otherwise or the Secretary notifies the taxpayer **in writing** that an additional inspection is necessary (IRC § 7605(b)).
+**One inspection a year.** No taxpayer shall be subjected to unnecessary examination, and **only one inspection of a taxpayer's books of account per taxable year** unless the taxpayer requests otherwise or the Secretary, **after investigation**, notifies the taxpayer **in writing** that an additional inspection is necessary (IRC § 7605(b)).
 
 **Third-party summonses carry notice and a right to quash.** Where a summons requires testimony or records relating to a person other than the one summoned, notice must be given to that person {fig:summons.thirdparty_notice}, with a copy of the summons and **an explanation of the right to quash** (IRC § 7609(a)). A person entitled to that notice may **intervene** in any enforcement proceeding, and may begin a **proceeding to quash** {fig:summons.quash_window} (IRC § 7609(b)).
 
@@ -76,7 +77,7 @@ The {gloss:summons} is the IRS's compulsory process, and its limits matter more 
 
 **Twenty days is the number to diary, and it runs from notice, not from the summons.** A client who learns their bank has been summoned has until the twentieth day after the § 7609(a) notice to petition to quash — and must mail a copy of the petition to the person summoned and to the IRS **within the same twenty days**. Both steps are jurisdictional in practice. Nothing else in this area moves that fast.
 
-**"Any other person the Secretary may deem proper" is genuinely that broad.** The relevance standard is "may be relevant or material", which is lower than evidentiary relevance. Arguing about scope rarely succeeds. The productive arguments are the categorical ones: a Justice Department referral in effect, a second inspection without the written notice § 7605(b) requires, or financial status techniques used without the reasonable indication § 7602(e) demands.
+**"Any other person the Secretary may deem proper" is genuinely that broad.** The relevance standard is "may be relevant or material", which is lower than evidentiary relevance. Arguing about scope rarely succeeds. The productive arguments are the categorical ones: a Justice Department referral in effect, a second inspection without the post-investigation written notice § 7605(b) requires, or financial status techniques used without the reasonable indication § 7602(e) demands.
 
 **The referral bar is absolute and worth checking early.** Once the Secretary has recommended prosecution or a grand jury investigation, the administrative summons power is gone — the IRS cannot issue one and cannot enforce one already issued. A client under criminal investigation who receives a summons has a complete answer, and the timing of the referral is the whole question.
 
@@ -97,7 +98,7 @@ The {gloss:summons} is the IRS's compulsory process, and its limits matter more 
 <div class="scenario" data-type="boundary">
 <h3>The second look nobody authorised</h3>
 <p>A client's 2023 books were examined in 2024 and the case closed. In 2026 a revenue officer asks to inspect the same year's books again in connection with collection. No written notice has been given.</p>
-<p><em>Analysis.</em> Section 7605(b) permits only one inspection of a taxpayer's books of account for each taxable year unless the taxpayer requests otherwise or <strong>the Secretary notifies the taxpayer in writing</strong> that an additional inspection is necessary. The written notice is the condition, not a formality. Raising it is more productive than arguing relevance, because the limit is categorical.</p>
+<p><em>Analysis.</em> Section 7605(b) permits only one inspection of a taxpayer's books of account for each taxable year unless the taxpayer requests otherwise or, <strong>after investigation</strong>, <strong>the Secretary notifies the taxpayer in writing</strong> that an additional inspection is necessary. The investigation and the written notice are both conditions, not formalities. Raising the absence of either is more productive than arguing relevance, because the limit is categorical.</p>
 </div>
 
 <div class="scenario" data-type="interaction">
@@ -116,7 +117,7 @@ The {gloss:summons} is the IRS's compulsory process, and its limits matter more 
 <p><strong>The quash period runs from notice, not from the summons or the production date.</strong> Twenty days, and the copies go out inside them.</p>
 <p><strong>Collection is one of the four statutory purposes.</strong> A summons is not confined to examinations.</p>
 <p><strong>A Justice Department referral switches the power off entirely.</strong></p>
-<p><strong>One inspection per taxable year</strong>, absent the taxpayer's request or written notice from the Secretary.</p>
+<p><strong>One inspection per taxable year</strong>, absent the taxpayer's request or written notice from the Secretary given after investigation.</p>
 <p><strong>A summons is not self-enforcing.</strong> Enforcement runs through a district court under § 7604.</p>
 <p><strong>A corporation cannot be served by fixing the summons to its door.</strong> It has no place of abode; service must be in person on someone authorised to receive process.</p>
 <p><strong>The taxpayer and their own agents get no witness fees.</strong> IRC § 7610(b).</p>
@@ -128,7 +129,7 @@ The protections around the summons are all later additions to a very old power. 
 
 ## Exam focus
 
-The four purposes in § 7602(a), including collection. Who may be summoned — the taxpayer, their officers and employees, custodians of relevant books, and any other person the Secretary deems proper. The 10-day minimum before appearance. The § 7609 third-party notice within 3 days and no later than the 23rd day before production, and the **20-day** quash period running from notice. That a Justice Department referral bars both issuance and enforcement. Section 7605(b)'s one-inspection rule and its written-notice exception. That enforcement is judicial under § 7604.
+The four purposes in § 7602(a), including collection. Who may be summoned — the taxpayer, their officers and employees, custodians of relevant books, and any other person the Secretary deems proper. The 10-day minimum before appearance. The § 7609 third-party notice within 3 days and no later than the 23rd day before production, and the **20-day** quash period running from notice. That a Justice Department referral bars both issuance and enforcement. Section 7605(b)'s one-inspection rule and its exception for a post-investigation written notice. That enforcement is judicial under § 7604.
 
 ## Check yourself
 
@@ -145,8 +146,8 @@ The four purposes in § 7602(a), including collection. Who may be summoned — t
 *Answer: B. IRC § 7602(d) bars issuing a summons and bars beginning a § 7604 enforcement action to enforce one while a Justice Department referral is in effect against that person — it does not reach other collection measures such as a levy.*
 
 **4. The IRS wishes to inspect a taxpayer's books for a year already examined. It may do so:**
-(A) Freely (B) If the taxpayer requests it, or the Secretary notifies the taxpayer in writing that an additional inspection is necessary (C) Only with a court order (D) Never
-*Answer: B. IRC § 7605(b) limits the IRS to one inspection of a taxpayer's books per taxable year unless the taxpayer requests otherwise or the Secretary gives written notice that a further inspection is necessary.*
+(A) Freely (B) If the taxpayer requests it, or the Secretary, after investigation, notifies the taxpayer in writing that an additional inspection is necessary (C) Only with a court order (D) Never
+*Answer: B. IRC § 7605(b) limits the IRS to one inspection of a taxpayer's books per taxable year unless the taxpayer requests otherwise or the Secretary, after investigation, gives written notice that a further inspection is necessary.*
 
 **5. A taxpayer ignores a summons. The immediate consequence is:**
 (A) Automatic penalties (B) The IRS must apply to a United States district court under § 7604 to enforce it (C) Immediate levy (D) Referral to the Justice Department

@@ -11,8 +11,8 @@ is indexed, and only the owner moves a page there (see `docs/VERIFICATION.md`).
 |---|---:|---:|---:|---:|---:|---:|
 | 1. Individuals | 120 | 0 | 0 | 0 | 120 | 338,287 |
 | 2. Businesses | 119 | 0 | 0 | 0 | 119 | 345,947 |
-| 3. Representation, Practices and Procedures | 121 | 0 | 0 | 0 | 121 | 281,986 |
-| **All parts** | **360** | **0** | **0** | **0** | **360** | **966,220** |
+| 3. Representation, Practices and Procedures | 121 | 0 | 0 | 0 | 121 | 282,482 |
+| **All parts** | **360** | **0** | **0** | **0** | **360** | **966,716** |
 
 ## Part 1 — Individuals
 
@@ -425,7 +425,7 @@ is indexed, and only the owner moves a page there (see `docs/VERIFICATION.md`).
 
 | Code | Title | Status | Words | Last reviewed |
 |---|---|---|---:|---|
-| 3.1.2.a | [Information to be furnished to the IRS](/representation/practices-and-procedures/requirements-for-enrolled-agents/information-to-be-furnished-to-the-irs/) | **published** | 1,678 | 2026-08-18 |
+| 3.1.2.a | [Information to be furnished to the IRS](/representation/practices-and-procedures/requirements-for-enrolled-agents/information-to-be-furnished-to-the-irs/) | **published** | 1,811 | 2026-08-18 |
 | 3.1.2.b | [Omission or error on return, document, or affidavit](/representation/practices-and-procedures/requirements-for-enrolled-agents/omission-or-error-on-return-document-or-affidavit/) | **published** | 1,802 | 2026-08-18 |
 | 3.1.2.c | [Rules for employing or accepting assistance from former IRS employees or disbarred/suspended persons](/representation/practices-and-procedures/requirements-for-enrolled-agents/rules-for-employing-or-accepting-assistance-from-former-irs/) | **published** | 2,614 | 2026-08-18 |
 | 3.1.2.d | [Rules for restrictions on advertising, solicitation and fee information](/representation/practices-and-procedures/requirements-for-enrolled-agents/rules-for-restrictions-on-advertising-solicitation-and-fee/) | **published** | 2,617 | 2026-08-18 |
@@ -556,7 +556,7 @@ is indexed, and only the owner moves a page there (see `docs/VERIFICATION.md`).
 | 3.3.1.i | [Collection notice and Notice of Federal Tax Lien](/representation/specific-types-of-representation/representing-a-taxpayer-in-the-collection-process/collection-notice-and-notice-of-federal-tax-lien/) | **published** | 2,338 | 2026-08-18 |
 | 3.3.1.j | [Levy and seizure of taxpayer's property](/representation/specific-types-of-representation/representing-a-taxpayer-in-the-collection-process/levy-and-seizure-of-taxpayer-s-property/) | **published** | 2,526 | 2026-08-18 |
 | 3.3.1.k | [Currently Not Collectable (e.g., reasons and reactivation)](/representation/specific-types-of-representation/representing-a-taxpayer-in-the-collection-process/currently-not-collectable/) | **published** | 2,258 | 2026-08-18 |
-| 3.3.1.l | [IRS Collection Summons (e.g., purposes)](/representation/specific-types-of-representation/representing-a-taxpayer-in-the-collection-process/irs-collection-summons/) | **published** | 2,452 | 2026-08-18 |
+| 3.3.1.l | [IRS Collection Summons (e.g., purposes)](/representation/specific-types-of-representation/representing-a-taxpayer-in-the-collection-process/irs-collection-summons/) | **published** | 2,474 | 2026-08-18 |
 | 3.3.1.m | [Collections statute of limitations](/representation/specific-types-of-representation/representing-a-taxpayer-in-the-collection-process/collections-statute-of-limitations/) | **published** | 2,222 | 2026-08-18 |
 | 3.3.1.n | [Trust fund recovery penalty](/representation/specific-types-of-representation/representing-a-taxpayer-in-the-collection-process/trust-fund-recovery-penalty/) | **published** | 2,559 | 2026-08-18 |
 | 3.3.1.o | [Amended returns and claims for refund (e.g., Form 1040X, Form 843, effect on statute of limitations)](/representation/specific-types-of-representation/representing-a-taxpayer-in-the-collection-process/amended-returns-and-claims-for-refund/) | **published** | 2,238 | 2026-08-18 |
@@ -582,7 +582,7 @@ is indexed, and only the owner moves a page there (see `docs/VERIFICATION.md`).
 | 3.3.3.d | [IRS authority to fix time and place of investigation](/representation/specific-types-of-representation/representing-a-taxpayer-in-audits-examinations/irs-authority-to-fix-time-and-place-of-investigation/) | **published** | 2,600 | 2026-08-18 |
 | 3.3.3.e | [Steps in the process (e.g., initial meeting, submission of IRS requested information)](/representation/specific-types-of-representation/representing-a-taxpayer-in-audits-examinations/steps-in-the-process/) | **published** | 2,607 | 2026-08-18 |
 | 3.3.3.f | [Interpretation and analysis of Revenue Agent Report (RAR) (e.g., 30-day letter)](/representation/specific-types-of-representation/representing-a-taxpayer-in-audits-examinations/interpretation-and-analysis-of-revenue-agent-report-rar/) | **published** | 2,613 | 2026-08-18 |
-| 3.3.3.g | [Interpretation and analysis of CP-2000 notice and correspondence audits](/representation/specific-types-of-representation/representing-a-taxpayer-in-audits-examinations/interpretation-and-analysis-of-cp-2000-notice/) | **published** | 1,936 | 2026-08-18 |
+| 3.3.3.g | [Interpretation and analysis of CP-2000 notice and correspondence audits](/representation/specific-types-of-representation/representing-a-taxpayer-in-audits-examinations/interpretation-and-analysis-of-cp-2000-notice/) | **published** | 2,277 | 2026-08-18 |
 | 3.3.3.h | [Explanations of taxpayer options (e.g. agree or appeal)](/representation/specific-types-of-representation/representing-a-taxpayer-in-audits-examinations/explanations-of-taxpayer-options/) | **published** | 2,602 | 2026-08-18 |
 | 3.3.3.i | [Taxpayer’s burden of proof](/representation/specific-types-of-representation/representing-a-taxpayer-in-audits-examinations/taxpayer-s-burden-of-proof/) | **published** | 2,519 | 2026-08-18 |
 

@@ -18,6 +18,7 @@ related: ["3.1.2.b", "3.1.2.n", "3.1.3.a", "3.1.2.m", "3.1.2.f", "3.3.3.b", "3.2
 changelog:
   - { date: "2026-08-18", summary: "Initial publication from Circular 230 §§ 10.20 and 10.51." }
   - { date: "2026-08-25", summary: "Added a plain-language summary, glossary marks, and typed scenarios." }
+  - { date: "2026-09-03", summary: "Narrowed the § 7525(b) tax-shelter carve-out to its actual scope — a written communication made in connection with promoting participation in a tax shelter, not every communication concerning one. NOTE: made from a search-engine snippet and training recall, not by opening § 7525 directly — this session's network access to primary legal sources was blocked. Re-verify against the statute text on the next review." }
 ---
 
 <div class="plain-terms">
@@ -42,7 +43,7 @@ Section 10.20 is short and does more than it looks. It obliges a practitioner to
 
 **Interference is separately prohibited.** A practitioner may not interfere, or attempt to interfere, with any proper and lawful effort by the IRS, its officers or employees, to obtain any record or information — unless the practitioner believes in good faith and on reasonable grounds that the record or information is privileged (§ 10.20(b)).
 
-**The privilege that exists is narrow.** IRC § 7525 extends the common law protections of confidentiality applying to attorney-client communications to communications between a taxpayer and a **federally authorised tax practitioner**, but only in **non-criminal tax matters** before the IRS and non-criminal proceedings in federal court, and it does **not** apply to communications about **tax shelters**. There is no accountant-client privilege at large.
+**The privilege that exists is narrow.** IRC § 7525 extends the common law protections of confidentiality applying to attorney-client communications to communications between a taxpayer and a **federally authorised tax practitioner**, but only in **non-criminal tax matters** before the IRS and non-criminal proceedings in federal court. Section 7525(b) carves out a narrower exception than "tax shelters" at large: it reaches only a **written communication** between the practitioner and the person (or the person's officers, employees, agents, or capital or profits interest holders) made **in connection with promoting the person's direct or indirect participation in a tax shelter** — ordinary advice about an existing transaction is not automatically outside the privilege merely because a tax shelter is involved. There is no accountant-client privilege at large.
 
 ## How it works in practice
 
@@ -77,7 +78,7 @@ Section 10.20 is short and does more than it looks. It obliges a practitioner to
 <p><strong>Reasonable inquiry runs to the client only.</strong> No duty to ask third parties or verify what the client says.</p>
 <p><strong>Paragraph (a)(3) compels testimony</strong> in a disciplinary proceeding about another practitioner.</p>
 <p><strong>Interference is a separate breach</strong> under § 10.20(b), so one act can violate two paragraphs.</p>
-<p><strong>IRC § 7525 is not an accountant-client privilege at large.</strong> Non-criminal tax matters only, and never tax shelters.</p>
+<p><strong>IRC § 7525 is not an accountant-client privilege at large.</strong> Non-criminal tax matters only, and the tax-shelter carve-out itself reaches only written communications made in connection with promoting participation in the shelter — not every communication that happens to concern one.</p>
 </div>
 
 ## How this has changed
@@ -102,9 +103,9 @@ The obligation is to submit **promptly** on a **proper and lawful** request from
 (A) May decline as it does not concern their own client (B) Must provide the information and testify in any proceeding instituted under the part (C) Must provide information but need not testify (D) May respond only under summons
 *Answer: B. Section 10.20(a)(3) requires a practitioner to provide information and testify regarding an alleged Circular 230 violation even where the inquiry concerns another practitioner, subject only to the same good-faith privilege exception.*
 
-**4. IRC 7525 privilege does not apply to:**
-(A) Non-criminal tax matters before the IRS (B) Communications concerning tax shelters (C) Communications with an enrolled agent (D) Non-criminal federal court proceedings
-*Answer: B. The page notes that IRC § 7525 extends confidentiality protection to non-criminal tax matters but expressly does not apply to communications concerning tax shelters.*
+**4. IRC 7525 privilege does not apply to a written communication:**
+(A) Between a taxpayer and a federally authorised tax practitioner on a non-criminal tax matter before the IRS (B) Made in connection with promoting the taxpayer's direct or indirect participation in a tax shelter (C) With an enrolled agent (D) In a non-criminal federal court proceeding
+*Answer: B. Section 7525(b) carves out only a written communication made in connection with promoting participation in a tax shelter — not every communication that happens to concern one, which is why the exception has to be argued fact by fact rather than assumed from the subject matter alone.*
 
 **5. A practitioner asserts blanket privilege over an entire file without considering its contents, to delay an examination. This:**
 (A) Is protected by § 10.20(a)(1) (B) Breaches § 10.20 and may also breach § 10.20(b)'s bar on interference (C) Is a matter for the client alone (D) Is permitted if the client agrees
