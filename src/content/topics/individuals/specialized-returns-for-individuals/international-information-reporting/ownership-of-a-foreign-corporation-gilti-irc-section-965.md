@@ -258,3 +258,15 @@ treatment only by electing under § 962 to be taxed on the inclusion at corporat
 *Answer: No. IRC § 965(a) applies to the last taxable year of a deferred foreign income corporation
 beginning before 1 January 2018. What can still arise in 2026 is an instalment obligation under
 § 965(h) or the consequences of a failure to have reported at the time.*
+
+**6. A foreign corporation is owned 60 percent by a single foreign individual and 40 percent by one United States person. Is it a controlled foreign corporation?**
+(A) Yes; a United States shareholder holds more than 10 percent (B) No; United States shareholders in aggregate do not own more than 50 percent, so there is no inclusion (C) Yes, because the foreign holder's stock is attributed to the United States person (D) No, because no single shareholder owns more than 50 percent
+*Answer: B. IRC § 957(a) asks whether United States shareholders together own more than 50 percent of vote or value on any day of the year; the United States person is a United States shareholder under § 951(b), but at 40 percent in aggregate the corporation is not controlled.*
+
+**7. A client elected in 2018 to pay her § 965 transition tax in eight installments. What percentage of the net tax liability is the eighth and final installment?**
+(A) 8 percent (B) 15 percent (C) 20 percent (D) 25 percent
+*Answer: D. IRC § 965(h): 8 percent for each of the first five installments, 15 percent for the sixth, 20 percent for the seventh and 25 percent for the eighth.*
+
+**8. An individual United States shareholder makes a § 962 election for his inclusion. When the controlled foreign corporation later distributes those earnings to him, how are they treated?**
+(A) Tax-free, as previously taxed income (B) Taxable again to the extent the distribution exceeds the tax already paid under the election (C) Taxable only if the foreign tax rate was below the corporate rate (D) Tax-free, because the election is permanent once made
+*Answer: B. IRC § 962 substitutes corporate rate treatment and opens the § 960 deemed-paid credit, but at the cost of a second layer of tax: the distribution is taxable again beyond the amount of tax already paid. The election is annual, not permanent.*

@@ -252,3 +252,15 @@ disclosed on the return or an attached statement adequately.*
 *Answer: No. Each spouse files a separate return, and consent to splitting is signified on it under
 IRC § 2513(b); consent makes each spouse jointly and severally liable for the entire gift tax of both
 for that calendar year under § 2513(d).*
+
+**6. A donor makes a taxable gift in 2026 that her credit does not fully absorb. Who is liable for the gift tax, and when is it ordinarily due?**
+(A) The donee, by 15 April 2027 (B) The donor, by 15 April 2027, the date fixed for filing the return (C) The donor, within 90 days of the gift (D) The donor, with the estate tax return
+*Answer: B. IRC § 2502(c) makes the tax the donor's; § 6075(b)(1) fixes the return for 15 April following the close of the calendar year, and § 6151(a) requires payment at the time fixed for filing, determined without regard to any extension.*
+
+**7. A client gives her children discounted interests in a family LLC; her credit absorbs all the tax. Her Form 709 describes the entity, the valuation method, the discount claimed and its basis. What is the effect on the assessment period for that gift?**
+(A) It never begins to run, because no tax was paid (B) It runs in the ordinary way, so the valuation cannot be challenged once it expires (C) It runs, but only for six years because a discount was claimed (D) It runs only if the Service accepts the valuation in writing
+*Answer: B. The second sentence of IRC § 6501(c)(9) closes the otherwise unlimited period where the item is disclosed on the return or an attached statement in a manner adequate to apprise the Secretary of its nature.*
+
+**8. A grandmother gives $60,000 outright to her grandson, whose parents are living, and files Form 709 without addressing GST exemption. What happens to her exemption?**
+(A) None is allocated, and the direct skip is taxed at the flat rate (B) Exemption is allocated automatically so far as needed to bring the inclusion ratio to zero, unless she elects out (C) Allocation must wait until her estate tax return is due (D) Exemption is allocated automatically but may be withdrawn on a later return
+*Answer: B. IRC § 2632(b) deems exemption allocated to a lifetime direct skip unless the individual elects out of that treatment, and an allocation once made is irrevocable, which is why the default has permanent consequences.*

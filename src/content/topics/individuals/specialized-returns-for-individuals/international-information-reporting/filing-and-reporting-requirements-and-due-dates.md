@@ -248,3 +248,15 @@ the year. Must they file Form 8938?
 
 *Answer: No. For a married couple filing jointly and living abroad the thresholds are more than $400,000
 on the last day of the tax year or more than $600,000 at any time during it, and neither is met.*
+
+**6. A client's only foreign account peaked at €90,000 in June and was closed with a nil balance in November. What does she report on the FBAR?**
+(A) Nothing, because the account was closed before the year end (B) The closing balance, nil (C) The June maximum, taken from the periodic statements in euros and converted at the end-of-calendar-year rate (D) The June maximum converted at the June exchange rate
+*Answer: C. The FBAR reports the maximum value of each account during the year, taken from periodic account statements in the currency of the account and converted at the end-of-calendar-year exchange rate; it is the maximum balance, not the closing balance.*
+
+**7. A married couple filing jointly and living in Texas hold one account abroad. It peaked at $160,000 in March and closed the year at $90,000. What must they file?**
+(A) The FBAR only; the last-day balance is under the joint domestic threshold (B) Both the FBAR and Form 8938; the March peak exceeded the joint domestic any-time figure (C) Form 8938 only (D) Neither; the last-day balance is below both thresholds
+*Answer: B. The FBAR is required because the aggregate exceeded the FBAR threshold at a time during the year; Form 8938 is required because for a couple filing jointly and living in the United States the thresholds are $100,000 on the last day of the year or $150,000 at any time, and the $160,000 peak meets the second.*
+
+**8. A preparer reads the $50,000 aggregate-value figure printed in IRC § 6038D(a) and applies it to every client. For which filer is that figure actually the operative last-day threshold?**
+(A) Every specified individual (B) A specified individual living in the United States who is unmarried or married filing separately; for every other filer the regulatory thresholds are higher (C) A married couple filing jointly and living in the United States (D) No one; the figure has been superseded entirely
+*Answer: B. IRC § 6038D(a) prints $50,000 subject to such higher dollar amount as the Secretary may prescribe; the four threshold pairs that apply are regulatory, and the section alone understates the requirement for every filer but an unmarried or separately filing one living in the United States.*

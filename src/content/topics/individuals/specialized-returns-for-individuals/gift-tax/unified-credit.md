@@ -258,3 +258,15 @@ higher. Which rates apply?
 
 *Answer: The rates in effect at the decedent's death. IRC § 2001(g)(1) substitutes them for the rates in
 force when the gifts were made, both for the chapter 12 tax and for the § 2505 credit against it.*
+
+**6. A client asks for the "lifetime gift tax exemption" as a figure separate from the estate tax exclusion. What is the correct response?**
+(A) It is a separate amount fixed in IRC § 2503 (B) There is no separate figure; the gift tax credit is measured by the applicable credit amount under an estate tax provision (C) It is half the basic exclusion amount (D) It is the annual exclusion multiplied by the number of donees
+*Answer: B. IRC § 2505(a)(1) points at the applicable credit amount under § 2010(c), an estate tax provision; there is one credit shared by the two taxes, not two.*
+
+**7. In computing this year's unified credit, a donor's credit allowable for gifts made in preceding calendar periods is determined at which rates?**
+(A) The rates in force when each prior gift was made (B) The current year's rates (C) The rates expected to apply at death (D) An average of the rates over the prior periods
+*Answer: B. The closing sentence of IRC § 2505(a) recomputes the credit allowed for preceding calendar periods at the current year's rates rather than the rates that applied when those gifts were made.*
+
+**8. A client uses a large basic exclusion amount against lifetime gifts, and the exclusion in force at her death is later reduced by Congress. Which provision addresses the difference?**
+(A) The ceiling that caps the credit at the year's tax (B) The direction to prescribe regulations dealing with any difference between the exclusion at death and the amount applicable to gifts already made (C) The gross-up of gift tax paid within three years of death (D) The portability election for a surviving spouse
+*Answer: B. IRC § 2001(g)(2) is the statutory direction that handles the clawback problem; with the higher figure now permanent the problem has receded, but a future reduction would revive it immediately.*
