@@ -45,6 +45,7 @@
   --accent-soft:#F4E9E7;
   --ok:#1F5D3A;
   --warn:#8A4B12;
+  --on-accent:#FFFFFF;
 
   --f-text:"Source Serif 4",Georgia,"Times New Roman",serif;
   --f-mono:"IBM Plex Mono",ui-monospace,Menlo,Consolas,monospace;
@@ -68,37 +69,37 @@
 @media (prefers-color-scheme:dark){
   :root:not([data-theme]){
     --paper:#17181B; --surface:#1F2024; --ink:#EDEDEC; --ink-soft:#ABAEB4;
-    --rule:#33353A; --accent:#D9776E; --accent-soft:#2B211F;
+    --rule:#33353A; --accent:#D9776E; --accent-soft:#2B211F; --on-accent:#15171B;
     --ok:#5CA97F; --warn:#D19A5C;
   }
 }
 @media (prefers-color-scheme:light) and (prefers-contrast:more){
   :root:not([data-theme]){
     --paper:#FFFFFF; --surface:#FFFFFF; --ink:#000000; --ink-soft:#333333;
-    --rule:#000000; --accent:#6B0F0B; --accent-soft:#F0D9D5;
+    --rule:#000000; --accent:#6B0F0B; --accent-soft:#F0D9D5; --on-accent:#FFFFFF;
     --ok:#0F3D22; --warn:#5C3008;
   }
 }
 @media (prefers-color-scheme:dark) and (prefers-contrast:more){
   :root:not([data-theme]){
     --paper:#000000; --surface:#000000; --ink:#FFFFFF; --ink-soft:#CFCFCF;
-    --rule:#FFFFFF; --accent:#FF8A7A; --accent-soft:#2A1512;
+    --rule:#FFFFFF; --accent:#FF8A7A; --accent-soft:#2A1512; --on-accent:#000000;
     --ok:#6FDA9E; --warn:#F0B36E;
   }
 }
 :root[data-theme="dark"]{
   --paper:#17181B; --surface:#1F2024; --ink:#EDEDEC; --ink-soft:#ABAEB4;
-  --rule:#33353A; --accent:#D9776E; --accent-soft:#2B211F;
+  --rule:#33353A; --accent:#D9776E; --accent-soft:#2B211F; --on-accent:#15171B;
   --ok:#5CA97F; --warn:#D19A5C;
 }
 :root[data-theme="light-hc"]{
   --paper:#FFFFFF; --surface:#FFFFFF; --ink:#000000; --ink-soft:#333333;
-  --rule:#000000; --accent:#6B0F0B; --accent-soft:#F0D9D5;
+  --rule:#000000; --accent:#6B0F0B; --accent-soft:#F0D9D5; --on-accent:#FFFFFF;
   --ok:#0F3D22; --warn:#5C3008;
 }
 :root[data-theme="dark-hc"]{
   --paper:#000000; --surface:#000000; --ink:#FFFFFF; --ink-soft:#CFCFCF;
-  --rule:#FFFFFF; --accent:#FF8A7A; --accent-soft:#2A1512;
+  --rule:#FFFFFF; --accent:#FF8A7A; --accent-soft:#2A1512; --on-accent:#000000;
   --ok:#6FDA9E; --warn:#F0B36E;
 }
 
@@ -477,7 +478,7 @@ button.term:hover{text-decoration-color:var(--accent)}
 .follow-form label{display:block;font-family:var(--f-mono);font-size:12px;letter-spacing:.08em;text-transform:uppercase;color:var(--ink-soft);margin-bottom:6px}
 .follow-row{display:flex;gap:8px;flex-wrap:wrap;max-width:32em}
 .follow-row input{flex:1 1 14em;font:inherit;color:var(--ink);background:var(--surface);border:1px solid var(--rule);border-radius:var(--radius);padding:.5em .7em}
-.follow-row button{font-family:var(--f-mono);font-size:14px;font-weight:600;color:#fff;background:var(--accent);border:0;border-radius:var(--radius);padding:.55em 1.1em;cursor:pointer}
+.follow-row button{font-family:var(--f-mono);font-size:14px;font-weight:600;color:var(--on-accent);background:var(--accent);border:0;border-radius:var(--radius);padding:.55em 1.1em;cursor:pointer}
 .follow-row button:disabled{opacity:.5;cursor:default}
 .follow-msg{font-size:.95em;margin:.6em 0 0;min-height:1.2em}
 .tag-material{font-family:var(--f-mono);font-size:11px;letter-spacing:.09em;text-transform:uppercase;color:var(--accent);border:1px solid currentColor;border-radius:var(--radius);padding:0 .35em;margin-right:.3em;vertical-align:middle}
