@@ -17,7 +17,7 @@
 
 :root{
   --paper:#F7F7F4; --surface:#FFFFFF; --ink:#15171B; --ink-soft:#565B63; --rule:#D5D3CC;
-  --accent:#8C1D18; --accent-soft:#F4E9E7; --ok:#1F5D3A; --warn:#8A4B12;
+  --accent:#8C1D18; --accent-soft:#F4E9E7; --ok:#1F5D3A; --warn:#8A4B12; --on-accent:#FFFFFF;
   --f-text:"Source Serif 4",Georgia,"Times New Roman",serif;
   --f-mono:"IBM Plex Mono",ui-monospace,Menlo,Consolas,monospace;
   --measure:64ch; --gutter:clamp(16px,4vw,52px); --radius:2px;
@@ -26,41 +26,45 @@
 /* Five theme variants, identical tokens and ratios to the main site's (see
    ../../../DESIGN.md, "Colour — dark mode" and "Colour — high contrast"), so this
    reads as the same publication in any theme. Any explicit [data-theme] disables
-   auto-detection below; the explicit blocks come last so they always win. */
+   auto-detection below; the explicit blocks come last so they always win.
+   --on-accent is the text colour for a solid --accent fill (e.g. button, .btn):
+   the dark-theme accent is lightened for use as *text on a dark surface* (see
+   DESIGN.md), which fails contrast as a fill under white text, so a solid button
+   needs a dark foreground there instead. */
 @media (prefers-color-scheme:dark){
   :root:not([data-theme]){
     --paper:#17181B; --surface:#1F2024; --ink:#EDEDEC; --ink-soft:#ABAEB4;
-    --rule:#33353A; --accent:#D9776E; --accent-soft:#2B211F;
+    --rule:#33353A; --accent:#D9776E; --accent-soft:#2B211F; --on-accent:#15171B;
     --ok:#5CA97F; --warn:#D19A5C;
   }
 }
 @media (prefers-color-scheme:light) and (prefers-contrast:more){
   :root:not([data-theme]){
     --paper:#FFFFFF; --surface:#FFFFFF; --ink:#000000; --ink-soft:#333333;
-    --rule:#000000; --accent:#6B0F0B; --accent-soft:#F0D9D5;
+    --rule:#000000; --accent:#6B0F0B; --accent-soft:#F0D9D5; --on-accent:#FFFFFF;
     --ok:#0F3D22; --warn:#5C3008;
   }
 }
 @media (prefers-color-scheme:dark) and (prefers-contrast:more){
   :root:not([data-theme]){
     --paper:#000000; --surface:#000000; --ink:#FFFFFF; --ink-soft:#CFCFCF;
-    --rule:#FFFFFF; --accent:#FF8A7A; --accent-soft:#2A1512;
+    --rule:#FFFFFF; --accent:#FF8A7A; --accent-soft:#2A1512; --on-accent:#000000;
     --ok:#6FDA9E; --warn:#F0B36E;
   }
 }
 :root[data-theme="dark"]{
   --paper:#17181B; --surface:#1F2024; --ink:#EDEDEC; --ink-soft:#ABAEB4;
-  --rule:#33353A; --accent:#D9776E; --accent-soft:#2B211F;
+  --rule:#33353A; --accent:#D9776E; --accent-soft:#2B211F; --on-accent:#15171B;
   --ok:#5CA97F; --warn:#D19A5C;
 }
 :root[data-theme="light-hc"]{
   --paper:#FFFFFF; --surface:#FFFFFF; --ink:#000000; --ink-soft:#333333;
-  --rule:#000000; --accent:#6B0F0B; --accent-soft:#F0D9D5;
+  --rule:#000000; --accent:#6B0F0B; --accent-soft:#F0D9D5; --on-accent:#FFFFFF;
   --ok:#0F3D22; --warn:#5C3008;
 }
 :root[data-theme="dark-hc"]{
   --paper:#000000; --surface:#000000; --ink:#FFFFFF; --ink-soft:#CFCFCF;
-  --rule:#FFFFFF; --accent:#FF8A7A; --accent-soft:#2A1512;
+  --rule:#FFFFFF; --accent:#FF8A7A; --accent-soft:#2A1512; --on-accent:#000000;
   --ok:#6FDA9E; --warn:#F0B36E;
 }
 @media (prefers-reduced-motion:no-preference){
@@ -92,7 +96,7 @@ a{color:var(--accent)}
 
 main{padding:48px 0}
 
-button, .btn{font-family:var(--f-mono);font-size:.95rem;font-weight:600;color:#fff;background:var(--accent);
+button, .btn{font-family:var(--f-mono);font-size:.95rem;font-weight:600;color:var(--on-accent);background:var(--accent);
   border:none;border-radius:var(--radius);padding:.8em 1.4em;cursor:pointer;display:inline-block;text-decoration:none}
 button:hover, .btn:hover{opacity:.92}
 button:disabled{opacity:.5;cursor:default}
