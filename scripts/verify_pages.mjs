@@ -141,7 +141,10 @@ for (const p of gated) {
     else if (!fig.source) err(file, `figure ${key} has no source`);
   }
   for (const m of editorial.matchAll(/\$\d[\d,]*(?:\.\d+)?/g)) err(file, `inline dollar amount ${m[0]} outside a scenario — use a {fig:} token`);
-  for (const m of editorial.matchAll(/\b\d+(?:\.\d+)?\s?(?:%|percent)\b/g)) warn(file, `inline rate "${m[0]}" in the editorial voice — consider a {fig:} token`);
+  // Rates fixed directly by the Code (CLAUDE.md rule 3) are allowed inline — almost every
+  // percentage in this domain is one. There is no mechanical way to tell a statute-fixed
+  // rate from the rare indexed one (e.g. the standard mileage rate), so that check happens
+  // at write time, not here.
 
   // glossary: every {gloss:key} must resolve, same as {fig:key} above
   for (const [, key] of body.matchAll(/\{gloss:([a-z0-9-]+)\}/g)) {

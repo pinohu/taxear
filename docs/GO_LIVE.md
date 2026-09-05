@@ -71,7 +71,6 @@ in the repository.
 
 ## 8. Decisions still open (recorded in `docs/REVENUE_BUILD.md`)
 
-- Statutory rates and rule 3 (tokenise, or exempt in writing).
 - The two remaining copyright phrases to eyeball.
 - Whether the EA-exam page keeps the competitor links.
 - Multiple-choice questions: every page in all three parts now carries them, and every Part 3 answer carries a one-sentence reason — the 152 items across 50 pages that once answered with a letter, a bare citation, or nothing are done.

@@ -19,12 +19,18 @@ Read `docs/PAGE_TEMPLATE.md` and `docs/VERIFICATION.md` before writing any page.
    guide — including `private/questions.json` — ever appears on the site. Scenarios and
    practice questions are always original. The IRS outline, IRC, Regs, IRM, Circular 230,
    and IRS publications and forms may be cited and quoted briefly.
-3. **Figures are never inline.** Every dollar amount, rate, threshold, or count in the
-   editorial voice lives in `src/data/figures.json` with a `source` and a `verified` date,
-   referenced as `{fig:key}`. Verify each figure against the current Rev. Proc., statute,
-   or IRS page and record the date you opened it. Never copy a previous `verified` date
-   forward. Invented amounts inside scenarios and practice questions stay inline — that is
-   the one exception, and `verify` knows about it.
+3. **Figures are never inline.** Every dollar amount, threshold, or count in the editorial
+   voice lives in `src/data/figures.json` with a `source` and a `verified` date, referenced
+   as `{fig:key}`. Verify each figure against the current Rev. Proc., statute, or IRS page
+   and record the date you opened it. Never copy a previous `verified` date forward. A rate
+   or percentage fixed directly by the Code — the 110/100 percent §6654 safe harbor, the
+   5 percent and 0.5 percent §6651 additions, the 3.8 percent NIIT, the 20 percent QBI
+   deduction, and the like — stays inline, cited to its section: only Congress can move it,
+   so there is no annual verification to date. Before leaving one inline, check that it
+   is not one of the rare rates the IRS itself adjusts (e.g. the standard mileage rate) —
+   those still take a `{fig:}` token like any other indexed figure. Invented amounts inside
+   scenarios and practice questions stay inline too — the one exception for dollar figures
+   — and `verify` knows about both exceptions.
 4. **Currency.** Check each topic against post-2024 legislation and the current year's
    inflation adjustments before publishing. Tax year 2026 is the default; note where 2025
    differs. Material changes get a dated `changelog` entry so they appear on `/changes/`.

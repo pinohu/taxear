@@ -148,10 +148,12 @@ never a silent lock-out.
 
 ## Owner decisions recorded
 
-- **Statutory rates and rule 3.** 331 inline percentages sit in editorial prose. Options:
-  (a) tokenise them all, or (b) amend rule 3 to exempt rates fixed by statute, keeping
-  the token requirement for anything inflation-adjusted. Until decided, verify keeps
-  warning and nothing changes.
+- **Statutory rates and rule 3 — decided 5 September 2026.** Amended rule 3 to exempt
+  rates fixed directly by the Code (checked: every currently-inline percentage on the
+  site is one — the §6654 safe harbors, the §6651 additions, the NIIT, QBI, and so on)
+  from the `{fig:}` token requirement; the token requirement stays for anything actually
+  indexed (the standard mileage rate and the like). `verify` no longer warns on inline
+  rates; the 329 warnings this produced are gone.
 - **Copyright phrases.** Three overlaps with the private bank were flagged. The § 351
   question's invented numbers were changed so it no longer coincides with a bank item.
   The child-tax-credit scenario and the collection-standards stem read as generic;
