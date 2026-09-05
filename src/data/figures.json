@@ -2736,7 +2736,8 @@
       "value": "third quarter 2026: underpayment (corporate and non-corporate) 7%; non-corporate overpayment 7%; corporate overpayment 6%; GATT rate on a corporate overpayment exceeding $10,000, 4.5%; large corporate underpayment 9%; IRC § 6603 deposit (federal short-term) 4%",
       "taxYear": 2026,
       "source": "IRS, \"Quarterly interest rates,\" 2026 rates by category, page last reviewed 2 July 2026 (3rd quarter rates per Internal Revenue Bulletin 2026-22) — https://www.irs.gov/payments/quarterly-interest-rates",
-      "verified": "2026-08-18"
+      "verified": "2026-08-18",
+      "indexed": true
     },
     "interest.reporting_floor": {
       "value": "$10 or more of interest paid to any person in a calendar year, and the same for a nominee passing interest on",
@@ -5742,13 +5743,15 @@
       "value": "the federal short-term rate plus 3 percentage points, redetermined quarterly (IRC § 6621(a)(2)) — for 2026 the IRS has published 7 percent for the first quarter, 6 percent for the second and 7 percent for the third; the fourth-quarter rate is not yet published",
       "taxYear": 2026,
       "source": "IRS Quarterly interest rates, read at irs.gov/payments/quarterly-interest-rates",
-      "verified": "2026-08-19"
+      "verified": "2026-08-19",
+      "indexed": true
     },
     "interest.overpayment_rate": {
       "value": "the federal short-term rate plus 3 percentage points for a non-corporate taxpayer, 2 points for a corporation (IRC § 6621(a)(1)) — 7 percent for the first and third quarters of 2026 and 6 percent for the second",
       "taxYear": 2026,
       "source": "IRS Quarterly interest rates, read at irs.gov/payments/quarterly-interest-rates",
-      "verified": "2026-08-19"
+      "verified": "2026-08-19",
+      "indexed": true
     },
     "ftf_ftp.rates": {
       "value": "failure to file, 5 percent of the net tax due for each month or part month, capped at 25 percent; failure to pay, 0.5 percent a month on the same cap, reduced to 0.25 percent while an installment agreement is in effect for a return filed on time and raised to 1 percent from ten days after a notice of intent to levy (IRC § 6651(a)(1), (2), (d), (h))",
