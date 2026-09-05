@@ -104,6 +104,13 @@
 }
 
 *{box-sizing:border-box} html{-webkit-text-size-adjust:100%}
+/* A nested scroll region (.table-scroll) can report its own scrollable width to an
+   ancestor's scrollWidth without ever visually overflowing its own box — Chromium does
+   this even though nothing actually renders past the reading column. Left alone, that
+   lets the whole page pan sideways by a few pixels on a narrow phone. Only .table-scroll
+   itself should ever scroll horizontally, so cut it off here rather than chase every
+   place a wide table could appear. */
+html,body{overflow-x:hidden}
 body{margin:0;background:var(--paper);color:var(--ink);font:17px/1.62 var(--f-text)}
 @media (prefers-reduced-motion:no-preference){
   body,.site-head,.site-foot,article,.callout,.figure,button,input,.rail,.stamp,.stamp-band{
@@ -250,8 +257,9 @@ article{counter-reset:scn}
 .card:hover h3,.card:hover h2{text-decoration:underline;text-decoration-color:var(--accent);text-underline-offset:3px}
 
 .toc{list-style:none;padding:0;margin:0}
-.toc li{padding:9px 0;border-bottom:1px solid var(--rule);display:flex;gap:14px;align-items:baseline;max-width:none}
+.toc li{padding:9px 0;border-bottom:1px solid var(--rule);display:flex;flex-wrap:wrap;gap:6px 14px;align-items:baseline;max-width:none}
 .toc .code{font-family:var(--f-mono);font-size:12px;color:var(--ink-soft);min-width:5.5em}
+.toc li a{min-width:0;flex:1 1 auto}
 .badge{font-family:var(--f-mono);font-size:10.5px;letter-spacing:.07em;text-transform:uppercase;
   padding:2px 7px;border:1px solid var(--rule);color:var(--ink-soft);margin-left:auto;white-space:nowrap}
 .badge.published{border-color:var(--ok);color:var(--ok)}
