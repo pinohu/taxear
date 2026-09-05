@@ -27,8 +27,10 @@ Read `docs/PAGE_TEMPLATE.md` and `docs/VERIFICATION.md` before writing any page.
    5 percent and 0.5 percent §6651 additions, the 3.8 percent NIIT, the 20 percent QBI
    deduction, and the like — stays inline, cited to its section: only Congress can move it,
    so there is no annual verification to date. Before leaving one inline, check that it
-   is not one of the rare rates the IRS itself adjusts (e.g. the standard mileage rate) —
-   those still take a `{fig:}` token like any other indexed figure. Invented amounts inside
+   is not one of the rare rates the IRS itself adjusts (e.g. the §6621 quarterly interest
+   rate, the standard mileage rate) — those still take a `{fig:}` token like any other
+   indexed figure, and mark the figure `"indexed": true` so `verify` keeps watching for its
+   current value showing up as a literal instead of the token. Invented amounts inside
    scenarios and practice questions stay inline too — the one exception for dollar figures
    — and `verify` knows about both exceptions.
 4. **Currency.** Check each topic against post-2024 legislation and the current year's

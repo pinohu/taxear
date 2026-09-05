@@ -35,6 +35,17 @@ function flesch(text) {
 }
 
 const figures = JSON.parse(fs.readFileSync('src/data/figures.json', 'utf8')).figures;
+// The handful of rates the IRS itself adjusts (currently the §6621 quarterly interest
+// rates) are flagged `indexed: true` in figures.json. Their actual published values, read
+// straight out of that figure's own text, are the one thing rule 3 still asks `verify` to
+// catch inline — everything else in a percentage regex is a statute-fixed constant now
+// allowed inline. This is a live check against the current rate, not a fixed list: bump
+// the rate in figures.json and the watch list moves with it.
+const indexedRateValues = new Set(
+  Object.values(figures)
+    .filter(f => f.indexed)
+    .flatMap(f => [...String(f.value).matchAll(/\d+(?:\.\d+)?(?=\s?(?:%|percent)\b)/g)].map(m => m[0])),
+);
 const glossary = JSON.parse(fs.readFileSync('src/data/glossary.json', 'utf8')).terms;
 const outline = JSON.parse(fs.readFileSync('src/data/topics.json', 'utf8'));
 const outlineTopics = new Map(
@@ -142,9 +153,19 @@ for (const p of gated) {
   }
   for (const m of editorial.matchAll(/\$\d[\d,]*(?:\.\d+)?/g)) err(file, `inline dollar amount ${m[0]} outside a scenario — use a {fig:} token`);
   // Rates fixed directly by the Code (CLAUDE.md rule 3) are allowed inline — almost every
-  // percentage in this domain is one. There is no mechanical way to tell a statute-fixed
-  // rate from the rare indexed one (e.g. the standard mileage rate), so that check happens
-  // at write time, not here.
+  // percentage in this domain is one, and there's no mechanical way to tell those apart
+  // from an indexed rate by the number alone. What *is* checkable is whether a page states
+  // the current value of a rate the IRS itself adjusts (indexedRateValues, above) without
+  // going through its {fig:} token — that number goes stale every quarter it isn't.
+  for (const m of editorial.matchAll(/\b\d+(?:\.\d+)?(?=\s?(?:%|percent)\b)/g)) {
+    if (!indexedRateValues.has(m[0])) continue;
+    // A bare number this size is common (e.g. IRC § 4973's unrelated 6 percent excise tax),
+    // so only flag it near an actual §6621/interest-rate context, not on every coincidence.
+    const nearby = editorial.slice(Math.max(0, m.index - 200), m.index + 200);
+    if (/6621|interest rate/i.test(nearby)) {
+      warn(file, `inline rate "${m[0]} percent" matches a currently indexed rate — use its {fig:} token, not the literal value`);
+    }
+  }
 
   // glossary: every {gloss:key} must resolve, same as {fig:key} above
   for (const [, key] of body.matchAll(/\{gloss:([a-z0-9-]+)\}/g)) {
