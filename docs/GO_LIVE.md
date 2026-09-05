@@ -69,7 +69,10 @@ in the repository.
       `material: true` on that topic, push to `main`, and check the email arrives once.
 - [ ] Ask for a sign-in link on a second device.
 
-## 8. Decisions still open (recorded in `docs/REVENUE_BUILD.md`)
+## 8. Decisions (recorded in `docs/REVENUE_BUILD.md`) — all closed as of 5 September 2026
 
-- Whether the EA-exam page keeps the competitor links.
-- Multiple-choice questions: every page in all three parts now carries them, and every Part 3 answer carries a one-sentence reason — the 152 items across 50 pages that once answered with a letter, a bare citation, or nothing are done.
+- Statutory rates and rule 3, the two copyright phrases, and the EA-exam competitor links
+  (kept, reordered under Study, with a line distinguishing the two) are all decided.
+- Multiple-choice questions: every page in all three parts carries them, and every Part 3
+  answer carries a one-sentence reason — the 152 items across 50 pages that once answered
+  with a letter, a bare citation, or nothing are done.

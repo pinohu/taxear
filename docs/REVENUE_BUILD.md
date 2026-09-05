@@ -162,8 +162,12 @@ never a silent lock-out.
   The collection-standards stem was reworded from a bare "which pair is local" list
   (close to the bank's framing) into an applied scenario, same underlying rule.
 - **Governing law** in the terms is Pennsylvania. Change it if counsel prefers otherwise.
-- **The EA-exam page** still lists three competitor review courses. Once Study is live it
-  links Study first; whether the competitors stay is a positioning call.
+- **The EA-exam page — decided 5 September 2026.** Keeps its three competitor review
+  courses: they teach with video lessons, which Study doesn't, so they're not competing
+  for the same purchase. The page already read Study first, under "Practice"; renamed the
+  competitor section from "Other review courses" to "Review courses" and added one line
+  ("Study has no video lessons — it is questions, not instruction") so a reader
+  understands why both sections exist rather than assuming one supersedes the other.
 
 ## What is not in scope here
 
