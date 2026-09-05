@@ -11,8 +11,8 @@ is indexed, and only the owner moves a page there (see `docs/VERIFICATION.md`).
 |---|---:|---:|---:|---:|---:|---:|
 | 1. Individuals | 120 | 0 | 0 | 0 | 120 | 338,287 |
 | 2. Businesses | 119 | 0 | 0 | 0 | 119 | 345,947 |
-| 3. Representation, Practices and Procedures | 121 | 0 | 0 | 0 | 121 | 282,482 |
-| **All parts** | **360** | **0** | **0** | **0** | **360** | **966,716** |
+| 3. Representation, Practices and Procedures | 121 | 0 | 0 | 0 | 121 | 282,556 |
+| **All parts** | **360** | **0** | **0** | **0** | **360** | **966,790** |
 
 ## Part 1 — Individuals
 
@@ -499,7 +499,7 @@ is indexed, and only the owner moves a page there (see `docs/VERIFICATION.md`).
 | 3.2.3.b | [General financial health (e.g., filed for bankruptcy, lawsuits, garnishments, cash flow, assets, and insolvency)](/representation/representation-before-the-irs/taxpayer-financial-situation/general-financial-health/) | **published** | 2,567 | 2026-08-19 |
 | 3.2.3.c | [Third-party research (e.g., property assessment for municipal taxes, asset values, state and local tax information)](/representation/representation-before-the-irs/taxpayer-financial-situation/third-party-research/) | **published** | 2,482 | 2026-08-19 |
 | 3.2.3.d | [Discharge of the tax liability in bankruptcy](/representation/representation-before-the-irs/taxpayer-financial-situation/discharge-of-the-tax-liability-in-bankruptcy/) | **published** | 2,577 | 2026-08-19 |
-| 3.2.3.e | [IRS Collection Financial Standards](/representation/representation-before-the-irs/taxpayer-financial-situation/irs-collection-financial-standards/) | **published** | 2,624 | 2026-08-19 |
+| 3.2.3.e | [IRS Collection Financial Standards](/representation/representation-before-the-irs/taxpayer-financial-situation/irs-collection-financial-standards/) | **published** | 2,698 | 2026-08-19 |
 
 **3.2.4 Supporting documentation**
 

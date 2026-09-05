@@ -5014,15 +5014,15 @@
    "domainTitle": "Representation before the IRS",
    "section": "3.2.3",
    "sectionTitle": "Taxpayer financial situation",
-   "stem": "Which pair of Collection Financial Standards is established on a local rather than a national basis?",
+   "stem": "A preparer is computing a financial statement for a taxpayer in Maricopa County, Arizona, and needs the operating-cost portion of the transportation allowance. Which figure does the one nationwide food-and-clothing table give her?",
    "options": [
-    "Food and clothing",
-    "Out-of-pocket health care and food",
-    "Housing and utilities, and transportation",
-    "Transportation and out-of-pocket health care"
+    "The operating-cost allowance, since transportation is priced the same way as food",
+    "Nothing — that figure comes from a separate table, by Census region and metropolitan area",
+    "Nothing — transportation operating costs are set by county, the same as housing",
+    "A starting figure that the county-level transportation table then adjusts"
    ],
-   "answerIndex": 2,
-   "explanation": "Housing and utilities are set by county and family size; transportation operating costs are set by Census region and metropolitan area. Both are ceilings, not entitlements.",
+   "answerIndex": 1,
+   "explanation": "The national standards (food, clothing and other items; out-of-pocket health care) are a single nationwide number regardless of where the taxpayer lives. Transportation operating costs are a separate local standard, priced by Census region and metropolitan statistical area — not by county, which is how housing and utilities are priced instead.",
    "pagePath": "/representation/representation-before-the-irs/taxpayer-financial-situation/irs-collection-financial-standards/",
    "pageTitle": "IRS Collection Financial Standards",
    "source": "page"

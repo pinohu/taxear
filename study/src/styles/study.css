@@ -73,6 +73,10 @@
 }
 
 *{box-sizing:border-box}
+/* See global.css on the main site for why: a nested scroll region can report its own
+   scrollable width upward without ever visually overflowing its own box, letting the
+   page pan sideways by a few pixels on a narrow phone. */
+html,body{overflow-x:hidden}
 html{background:var(--paper)}
 body{margin:0;font-family:var(--f-text);color:var(--ink);background:var(--paper);line-height:1.55}
 .wrap{max-width:var(--measure);margin:0 auto;padding:0 var(--gutter)}

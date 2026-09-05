@@ -154,10 +154,13 @@ never a silent lock-out.
   from the `{fig:}` token requirement; the token requirement stays for anything actually
   indexed (the standard mileage rate and the like). `verify` no longer warns on inline
   rates; the 329 warnings this produced are gone.
-- **Copyright phrases.** Three overlaps with the private bank were flagged. The § 351
-  question's invented numbers were changed so it no longer coincides with a bank item.
-  The child-tax-credit scenario and the collection-standards stem read as generic;
-  confirm or reword.
+- **Copyright phrases — closed 5 September 2026.** Three overlaps with the private bank
+  were flagged. The § 351 question's invented numbers were changed so it no longer
+  coincides with a bank item. The child-tax-credit page's scenarios and Check-yourself
+  items were checked against all 9 bank questions on that topic and found to test
+  different facts with different individuals throughout — no overlap, no change made.
+  The collection-standards stem was reworded from a bare "which pair is local" list
+  (close to the bank's framing) into an applied scenario, same underlying rule.
 - **Governing law** in the terms is Pennsylvania. Change it if counsel prefers otherwise.
 - **The EA-exam page** still lists three competitor review courses. Once Study is live it
   links Study first; whether the competitors stay is a positioning call.

@@ -20,6 +20,7 @@ related: ["3.3.1.b", "3.3.1.c", "3.3.1.k", "3.2.3.a", "3.2.3.b"]
 changelog:
   - { date: "2026-08-19", summary: "Initial draft against the standards effective 29 June 2026 and the 29 June 2026 revision of IRM 5.15.1." }
   - { date: "2026-08-25", summary: "Added a plain-language summary, a threshold diagram of the national standard by family size, glossary marks, and typed scenarios." }
+  - { date: "2026-09-05", summary: "Reworded Check-yourself Q2 as an applied scenario rather than a bare local-vs-national list, to read further from a bank item testing the same fact." }
 diagram:
   archetype: "threshold"
   caption: "The national standard climbs with household size — given in full, no receipts needed"
@@ -264,16 +265,19 @@ D. 1,400 dollars unless the taxpayer substantiates the difference
 amounts actually spent, and the IRM's own example allows the standard where actual spending is
 lower.*
 
-**2. Which pair of Collection Financial Standards is established on a local rather than a
-national basis?**
+**2. A preparer is computing a financial statement for a taxpayer in Maricopa County, Arizona,
+and needs the operating-cost portion of the transportation allowance. Which figure does the
+one nationwide food-and-clothing table give her?**
 
-A. Food and clothing
-B. Out-of-pocket health care and food
-C. Housing and utilities, and transportation
-D. Transportation and out-of-pocket health care
+A. The operating-cost allowance, since transportation is priced the same way as food
+B. Nothing — that figure comes from a separate table, by Census region and metropolitan area
+C. Nothing — transportation operating costs are set by county, the same as housing
+D. A starting figure that the county-level transportation table then adjusts
 
-*Answer: C. Housing and utilities are set by county and family size; transportation operating
-costs are set by Census region and metropolitan area. Both are ceilings, not entitlements.*
+*Answer: B. The national standards (food, clothing and other items; out-of-pocket health
+care) are a single nationwide number regardless of where the taxpayer lives. Transportation
+operating costs are a separate local standard, priced by Census region and metropolitan
+statistical area — not by county, which is how housing and utilities are priced instead.*
 
 **3. A taxpayer owns a vehicle outright with no loan or lease payment. What transportation
 allowance applies?**
