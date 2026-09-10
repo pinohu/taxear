@@ -17,7 +17,7 @@ authorities:
   - { type: IRC, ref: "§ 6655", title: "Failure by corporation to pay estimated income tax", url: "https://www.law.cornell.edu/uscode/text/26/6655" }
   - { type: IRC, ref: "§ 7701(a)(3)", title: "Corporation defined", url: "https://www.law.cornell.edu/uscode/text/26/7701" }
   - { type: IRC, ref: "§ 951", title: "Amounts included in gross income of United States shareholders", url: "https://www.law.cornell.edu/uscode/text/26/951" }
-  - { type: IRC, ref: "§ 951A", title: "Global intangible low-taxed income included in gross income of United States shareholders", url: "https://www.law.cornell.edu/uscode/text/26/951A" }
+  - { type: IRC, ref: "§ 951A", title: "Net CFC tested income included in gross income of United States shareholders", url: "https://www.law.cornell.edu/uscode/text/26/951A" }
   - { type: IRC, ref: "§ 1211", title: "Limitation on capital losses", url: "https://www.law.cornell.edu/uscode/text/26/1211" }
   - { type: IRC, ref: "§ 1212", title: "Capital loss carrybacks and carryovers", url: "https://www.law.cornell.edu/uscode/text/26/1212" }
 forms: []
@@ -25,7 +25,7 @@ related: ["2.1.1.a", "2.1.1.b", "2.1.1.d", "2.1.1.g", "1.6.3.e", "2.1.1.f", "2.1
 changelog:
   - { date: "2026-08-21", summary: "Initial draft. Sets out the flat IRC § 11(b) rate, the § 6072(a) April filing date that distinguishes a C corporation from the § 6072(b) entities, the § 170(b)(2)(A) charitable limitation as rewritten by Pub. L. 119-21 § 70426 to add a 1 percent floor beneath the 10 percent ceiling for taxable years beginning after 2025, the § 170(d)(2) carryover rules that follow from it, and the § 59A base erosion tax at the 10.5 percent rate substituted by Pub. L. 119-21 § 70331." }
   - { date: "2026-08-25", summary: "Added a plain-language summary, glossary marks, and typed scenarios." }
-  - { date: "2026-09-10", summary: "Added §§ 951A, 1211 and 1212 to authorities[] — already cited in the body (the GILTI inclusion and the corporate capital-loss rules) but missing from the frontmatter list. Opened and read all three at law.cornell.edu; no change to the claims themselves." }
+  - { date: "2026-09-10", summary: "Added §§ 951A, 1211 and 1212 to authorities[] — already cited in the body (the GILTI inclusion and the corporate capital-loss rules) but missing from the frontmatter list. Opened and read all three at law.cornell.edu; no change to the claims themselves. § 951A's authority title uses the section's current post-2025 heading (\"Net CFC tested income\"), not the repealed GILTI-era one, matching the body's own note at 227 that the inclusion was renamed." }
 ---
 
 <div class="plain-terms">
