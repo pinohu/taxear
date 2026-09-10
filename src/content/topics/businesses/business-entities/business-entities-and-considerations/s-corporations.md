@@ -16,6 +16,7 @@ authorities:
   - { type: IRC, ref: "§ 1366", title: "Pass-thru of items to shareholders", url: "https://www.law.cornell.edu/uscode/text/26/1366" }
   - { type: IRC, ref: "§ 1368", title: "Distributions", url: "https://www.law.cornell.edu/uscode/text/26/1368" }
   - { type: IRC, ref: "§ 1372", title: "Partnership rules to apply for fringe benefit purposes", url: "https://www.law.cornell.edu/uscode/text/26/1372" }
+  - { type: IRC, ref: "§ 318", title: "Constructive ownership of stock", url: "https://www.law.cornell.edu/uscode/text/26/318" }
   - { type: IRC, ref: "§ 1377", title: "Definitions and special rule", url: "https://www.law.cornell.edu/uscode/text/26/1377" }
   - { type: IRC, ref: "§ 6072(b)", title: "Returns of partnerships and S corporations", url: "https://www.law.cornell.edu/uscode/text/26/6072" }
   - { type: Reg, ref: "§ 301.6037-2", title: "Required use of electronic form for S corporation returns", url: "https://www.law.cornell.edu/cfr/text/26/301.6037-2" }
@@ -24,6 +25,7 @@ related: ["2.1.1.b", "2.1.1.c", "2.1.1.e", "2.1.1.g", "2.1.1.k", "2.1.1.i", "2.1
 changelog:
   - { date: "2026-08-21", summary: "Initial draft. Sets out the IRC § 1361(b)(1) eligibility conditions and the § 1361(c)(1) family aggregation rule, the § 1362(b) election window and the § 1362(d) and (f) termination and inadvertent-termination rules, the § 1363(a) absence of entity-level tax with the § 1366(d)(1) basis limitation on losses, the § 1368(b) treatment of distributions, the § 1372 fringe benefit rule for 2-percent shareholders, the § 1377(a)(2) terminating-interest election, and the Reg. § 301.6037-2(a) electronic filing requirement as rewritten to a 10-return test with no asset threshold." }
   - { date: "2026-08-25", summary: "Added a plain-language summary, a decision diagram of the five S corporation eligibility conditions, glossary marks, and typed scenarios." }
+  - { date: "2026-09-10", summary: "Added § 318 to authorities[] — already cited in the body's 2-percent-shareholder attribution rule but missing from the frontmatter list. Opened and read at law.cornell.edu; no change to the claim." }
 diagram:
   archetype: "decision"
   caption: "Who may elect S corporation status — all five conditions must hold every day the election is in force"

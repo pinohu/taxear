@@ -22,11 +22,13 @@ authorities:
   - { type: IRC, ref: "§ 6018", title: "Estate tax returns", url: "https://www.law.cornell.edu/uscode/text/26/6018" }
   - { type: IRC, ref: "§ 6075", title: "Time for filing estate and gift tax returns", url: "https://www.law.cornell.edu/uscode/text/26/6075" }
   - { type: IRC, ref: "§ 6166", title: "Extension of time for payment of estate tax where estate consists largely of interest in closely held business", url: "https://www.law.cornell.edu/uscode/text/26/6166" }
+  - { type: IRC, ref: "§ 1014", title: "Basis of property acquired from a decedent", url: "https://www.law.cornell.edu/uscode/text/26/1014" }
 forms: []
 related: ["1.6.1.b", "1.6.1.c", "1.6.1.d", "1.6.1.e", "1.5.1.d", "1.6.2.c", "1.6.2.d"]
 changelog:
   - { date: "2026-08-20", summary: "Initial draft. Sets out the estate tax computation from the gross estate under IRC §§ 2031 and 2033 through the taxable estate under §§ 2051 and 2053 to the tax under § 2001(b), with the unified credit in § 2010(c) applied as a credit rather than an exclusion from the base, the § 2032 alternate valuation election, the § 2035 three-year rule, life insurance under § 2042, and the filing threshold and dates in §§ 6018(a), 6075(a) and 6166." }
   - { date: "2026-08-25", summary: "Added a plain-language summary, glossary marks, and typed scenarios." }
+  - { date: "2026-09-10", summary: "Added § 1014 to authorities[] — already cited in the body's step-up-in-basis point but missing from the frontmatter list. Opened and read at law.cornell.edu; no change to the claim." }
 ---
 
 <div class="plain-terms">

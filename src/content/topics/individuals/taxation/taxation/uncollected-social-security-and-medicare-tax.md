@@ -15,11 +15,13 @@ authorities:
   - { type: IRC, ref: "§ 3121", title: "Definitions — FICA", url: "https://www.law.cornell.edu/uscode/text/26/3121" }
   - { type: IRC, ref: "§ 6652", title: "Failure to file certain information returns, registration statements, etc.", url: "https://www.law.cornell.edu/uscode/text/26/6652" }
   - { type: IRC, ref: "§ 79", title: "Group-term life insurance purchased for employees", url: "https://www.law.cornell.edu/uscode/text/26/79" }
+  - { type: IRC, ref: "§ 224", title: "Qualified tips", url: "https://www.law.cornell.edu/uscode/text/26/224" }
 forms: []
 related: ["1.4.1.j", "1.4.1.e", "1.2.1.h", "1.4.1.d", "1.4.1.l"]
 changelog:
   - { date: "2026-08-19", summary: "Initial draft. Sets out the IRC § 6053(a) tip reporting obligation, the § 3102(c)(1) limit on what an employer can collect, the § 6053(b) statement of the excess, the § 3121(a)(12)(B) monthly threshold and the treatment of unreported tips under § 3121(q), the § 6652(b) penalty, and uncollected tax on group-term life insurance for a former employee under § 79." }
   - { date: "2026-08-25", summary: "Added a plain-language summary, glossary marks, two typed scenarios (baseline, fails) alongside the three existing ones now typed boundary/procedural/timing, and a decision diagram of the reported-versus-collected pathway." }
+  - { date: "2026-09-10", summary: "Added § 224 to authorities[] — already cited in the body's point that the new qualified-tips deduction reaches income tax only and does not affect FICA, and in Check-yourself question 5 — but missing from the frontmatter list. Opened and read at law.cornell.edu; no change to the claim." }
 diagram:
   archetype: "decision"
   caption: "Does uncollected FICA on tips end up on the employee's own return?"

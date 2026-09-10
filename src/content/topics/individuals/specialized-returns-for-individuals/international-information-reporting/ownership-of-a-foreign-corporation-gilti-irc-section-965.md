@@ -13,6 +13,7 @@ authorities:
   - { type: IRC, ref: "§ 951", title: "Amounts included in gross income of United States shareholders", url: "https://www.law.cornell.edu/uscode/text/26/951" }
   - { type: IRC, ref: "§ 951A", title: "Net CFC tested income included in gross income of United States shareholders", url: "https://www.law.cornell.edu/uscode/text/26/951A" }
   - { type: IRC, ref: "§ 957", title: "Controlled foreign corporations; United States persons", url: "https://www.law.cornell.edu/uscode/text/26/957" }
+  - { type: IRC, ref: "§ 958", title: "Rules for determining stock ownership", url: "https://www.law.cornell.edu/uscode/text/26/958" }
   - { type: IRC, ref: "§ 250", title: "Foreign-derived deduction eligible income and net CFC tested income", url: "https://www.law.cornell.edu/uscode/text/26/250" }
   - { type: IRC, ref: "§ 962", title: "Election by individuals to be subject to tax at corporate rates", url: "https://www.law.cornell.edu/uscode/text/26/962" }
   - { type: IRC, ref: "§ 965", title: "Treatment of deferred foreign income upon transition to participation exemption system", url: "https://www.law.cornell.edu/uscode/text/26/965" }
@@ -22,6 +23,7 @@ related: ["1.6.3.a", "1.6.3.b", "1.6.3.c", "1.6.3.d", "1.6.3.f", "2.1.1.c"]
 changelog:
   - { date: "2026-08-21", summary: "Initial draft. Covers the two thresholds that matter — the IRC § 951(b) 10 percent United States shareholder test and the § 957(a) controlled foreign corporation test — the § 951A inclusion as rewritten by Pub. L. 119-21 § 70323, which renamed global intangible low-taxed income as net CFC tested income and repealed the qualified business asset investment offset outright, the § 250 deduction available to corporations only, the § 962 election by which an individual reaches corporate treatment, and the § 965 transition tax now spent except for its installment stream." }
   - { date: "2026-08-25", summary: "Added a plain-language summary, glossary marks, and typed scenarios." }
+  - { date: "2026-09-10", summary: "Added § 958 to authorities[] — already cited in the body's indirect/constructive ownership points but missing from the frontmatter list. Opened and read at law.cornell.edu; no change to the claim." }
 ---
 
 <div class="plain-terms">

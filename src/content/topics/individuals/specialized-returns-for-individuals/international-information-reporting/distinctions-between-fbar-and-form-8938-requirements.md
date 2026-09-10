@@ -11,6 +11,7 @@ lastReviewed: "2026-08-21"
 reviewedBy: "Draft for N. O. review"
 authorities:
   - { type: IRC, ref: "§ 6038D", title: "Information with respect to foreign financial assets", url: "https://www.law.cornell.edu/uscode/text/26/6038D" }
+  - { type: IRC, ref: "§ 6501(c)(8)", title: "Limitations on assessment and collection", url: "https://www.law.cornell.edu/uscode/text/26/6501" }
   - { type: Statute, ref: "31 U.S.C. § 5314", title: "Records and reports on foreign financial agency transactions", url: "https://www.law.cornell.edu/uscode/text/31/5314" }
   - { type: Statute, ref: "31 U.S.C. § 5321", title: "Civil penalties", url: "https://www.law.cornell.edu/uscode/text/31/5321" }
   - { type: Pub, ref: "8938 vs FBAR", title: "Comparison of Form 8938 and FBAR requirements", url: "https://www.irs.gov/businesses/comparison-of-form-8938-and-fbar-requirements" }
@@ -20,6 +21,7 @@ related: ["1.6.3.a", "1.6.3.b", "1.6.3.c", "1.6.3.e", "1.6.3.f"]
 changelog:
   - { date: "2026-08-21", summary: "Initial draft. Compares the two regimes across the six axes on which they differ — who files, what is covered, what an interest is, the threshold structure, valuation and timing, and where the filing goes — including the territories point on which they define the United States differently, and the rule that neither filing substitutes for the other." }
   - { date: "2026-08-25", summary: "Added a plain-language summary, a decision diagram walking through which form a holding lands on, typed scenarios, and glossary marks under the comprehension-layer rollout." }
+  - { date: "2026-09-10", summary: "Added § 6501(c)(8) to authorities[] — already cited in the body's open-assessment-period point but missing from the frontmatter list. Opened and read at law.cornell.edu; no change to the claim." }
 diagram:
   archetype: "decision"
   caption: "Which form does a foreign holding land on?"
