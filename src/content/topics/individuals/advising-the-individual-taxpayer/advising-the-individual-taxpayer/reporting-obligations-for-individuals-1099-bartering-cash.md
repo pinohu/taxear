@@ -15,6 +15,7 @@ authorities:
   - { type: IRC, ref: "§ 6050I", title: "Returns relating to cash received in trade or business", url: "https://www.law.cornell.edu/uscode/text/26/6050I" }
   - { type: IRC, ref: "§ 6045", title: "Returns of brokers", url: "https://www.law.cornell.edu/uscode/text/26/6045" }
   - { type: IRC, ref: "§ 61", title: "Gross income defined", url: "https://www.law.cornell.edu/uscode/text/26/61" }
+  - { type: IRC, ref: "§ 6721", title: "Failure to file correct information returns", url: "https://www.law.cornell.edu/uscode/text/26/6721" }
   - { type: RevProc, ref: "Rev. Proc. 2025-32, § 3.57", title: "2027 filing year information return penalty amounts", url: "https://www.irs.gov/pub/irs-drop/rp-25-32.pdf" }
   - { type: Statute, ref: "Pub. L. 119-21, §§ 70432, 70433", title: "Restoration of the 1099-K threshold and increase of the 1099 threshold", url: "https://www.law.cornell.edu/uscode/text/26/6050W" }
 forms: []
@@ -22,6 +23,7 @@ related: ["1.5.1.b", "1.2.1.h", "1.5.1.n", "1.5.1.i"]
 changelog:
   - { date: "2026-08-19", summary: "Initial draft. Sets out the IRC § 6041 threshold raised to $2,000 and newly indexed by Pub. L. 119-21 § 70433, the restoration of the conjunctive § 6050W(e) test by § 70432 with its retroactive effective date, the § 6050I cash reporting rule, barter exchange reporting under § 6045(c)(3) and the independence of § 61 taxability from any information return, and the § 6721 penalty amounts for returns required to be filed in 2027." }
   - { date: "2026-08-25", summary: "Added a plain-language summary, a decision diagram of the Form 1099-K conjunctive test, glossary marks, and three additional typed scenarios (baseline, fails, boundary) alongside the existing three." }
+  - { date: "2026-09-10", summary: "Added § 6721 to authorities[] — already cited in the body's penalty discussion but missing from the frontmatter list. Opened and read at law.cornell.edu; no change to the claim." }
 diagram:
   archetype: "decision"
   caption: "Does a Form 1099-K have to be issued?"

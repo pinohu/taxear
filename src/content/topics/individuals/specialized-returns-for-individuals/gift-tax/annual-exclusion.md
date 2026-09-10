@@ -16,11 +16,14 @@ authorities:
   - { type: IRC, ref: "§ 2523", title: "Gift to spouse", url: "https://www.law.cornell.edu/uscode/text/26/2523" }
   - { type: IRC, ref: "§ 2514", title: "Powers of appointment", url: "https://www.law.cornell.edu/uscode/text/26/2514" }
   - { type: IRC, ref: "§ 6019", title: "Gift tax returns", url: "https://www.law.cornell.edu/uscode/text/26/6019" }
+  - { type: IRC, ref: "§ 2001(b)(1)(B)", title: "Imposition and rate of tax", url: "https://www.law.cornell.edu/uscode/text/26/2001" }
+  - { type: IRC, ref: "§ 2513", title: "Gift by husband or wife to third party", url: "https://www.law.cornell.edu/uscode/text/26/2513" }
 forms: []
 related: ["1.6.2.a", "1.6.2.c", "1.6.2.d", "1.6.2.e", "1.5.1.c"]
 changelog:
   - { date: "2026-08-20", summary: "Initial draft. Sets out the IRC § 2503(b) annual exclusion — per donee, indexed from a statutory $10,000 and rounded down to a multiple of $1,000 — with the present interest requirement in Reg. § 25.2503-3, the § 2503(c) rule for gifts to minors, the § 2503(e) qualified transfer exclusion for tuition and medical payments made directly, the § 529(c)(2) five-year election, the § 2503(f) and (g) exclusions for pension waivers and artwork loans, and the § 2523(i) substitution for a non-citizen donee spouse." }
   - { date: "2026-08-25", summary: "Added a plain-language summary, glossary marks, and typed scenarios." }
+  - { date: "2026-09-10", summary: "Added §§ 2001(b)(1)(B) and 2513 to authorities[] — already cited in the body (adjusted taxable gifts at death, and gift-splitting) but missing from the frontmatter list. Opened and read both at law.cornell.edu; no change to the claims." }
 ---
 
 <div class="plain-terms">

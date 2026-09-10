@@ -13,6 +13,7 @@ authorities:
   - { type: IRC, ref: "§ 183", title: "Activities not engaged in for profit", url: "https://www.law.cornell.edu/uscode/text/26/183" }
   - { type: IRC, ref: "§ 67", title: "2-percent floor on miscellaneous itemized deductions", url: "https://www.law.cornell.edu/uscode/text/26/67" }
   - { type: IRC, ref: "§ 162", title: "Trade or business expenses", url: "https://www.law.cornell.edu/uscode/text/26/162" }
+  - { type: IRC, ref: "§ 212", title: "Expenses for production of income", url: "https://www.law.cornell.edu/uscode/text/26/212" }
   - { type: Reg, ref: "§ 1.183-1", title: "Activities not engaged in for profit", url: "https://www.law.cornell.edu/cfr/text/26/1.183-1" }
   - { type: Reg, ref: "§ 1.183-2", title: "Activity not engaged in for profit defined", url: "https://www.law.cornell.edu/cfr/text/26/1.183-2" }
 forms: []
@@ -20,6 +21,7 @@ related: ["2.1.1.a", "2.1.1.j", "2.1.1.b", "2.1.1.c"]
 changelog:
   - { date: "2026-08-21", summary: "Initial draft. Sets out the IRC § 183(a) disallowance and the § 183(c) definition by reference to §§ 162 and 212, the § 183(b) two-tier allowance and the Reg. § 1.183-1(b)(1) ordering that implements it, the § 183(d) presumption with its 3-of-5 and 2-of-7 tests and the § 183(e) election to postpone the determination, the nine Reg. § 1.183-2(b) factors with the regulation's own warning that they are not a scorecard, and the effect of IRC § 67(h) — the miscellaneous itemized deduction suspension made permanent by Pub. L. 119-21 § 70110(a) and redesignated by § 70110(b)(2) — which leaves the § 183(b)(2) tier without practical effect for an individual." }
   - { date: "2026-08-25", summary: "Added a plain-language summary, a decision diagram of the § 183(d) presumption, glossary marks, and typed scenarios." }
+  - { date: "2026-09-10", summary: "Added § 212 to authorities[] — already cited in the body's § 183(c) definition-by-exclusion but missing from the frontmatter list. Opened and read at law.cornell.edu; no change to the claim." }
 diagram:
   archetype: "decision"
   caption: "The § 183(d) presumption — what triggers it, and what happens if it isn't met"
