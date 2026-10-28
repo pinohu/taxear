@@ -130,3 +130,8 @@ running work order: what is written, what comes next, and the bank question IDs 
 far — which bank questions are wrong on the law, which are merely dated, and which page
 gaps are still open. **Read it before "correcting" a page toward the bank**; several
 questions test regimes that have since been retired, and the log says so explicitly.
+
+<!-- agent-workflow:pointer -->
+## Multi-agent workflow
+
+Every AI agent in this repo follows the branch, issue and pull-request rules in `AGENTS.md` (section "Multi-agent workflow"). Read them before any change: claim a GitHub Issue, work on your own branch, open a PR with `Closes #N`, squash-merge only when checks pass, and report on the issue.
